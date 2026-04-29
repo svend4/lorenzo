@@ -14,11 +14,14 @@ improve_run_all.py — мастер-скрипт для запуска всех 
 
 Группы (в порядке выполнения):
   structure → index → analysis → extract → quality →
-  graph → generate → reports → export
+  graph → generate → reports → export →
+  cicd → analytics → textwork → deeptext
+  (enrich и meta — только вручную, требуют/опциональны API)
 
 Запуск: python scripts/improve_run_all.py
         python scripts/improve_run_all.py --fast --smart
         python scripts/improve_run_all.py --group generate
+        python scripts/improve_run_all.py --group enrich
         python scripts/improve_run_all.py --changed
         python scripts/improve_run_all.py --only improve_metrics.py,improve_health.py
         python scripts/improve_run_all.py --parallel 4 --report
@@ -35,7 +38,6 @@ ROOT = Path(__file__).parent.parent
 # Группы скриптов с порядком выполнения
 GROUPS = {
     "structure": [
-        # Базовая структура (запускать первыми)
         "improve_merge_short.py",
         "improve_readmes.py",
         "improve_summaries.py",
@@ -44,7 +46,6 @@ GROUPS = {
         "improve_autocorrect.py",
     ],
     "index": [
-        # Индексы и поиск
         "improve_glossary.py",
         "improve_crossrefs.py",
         "improve_search_index.py",
@@ -53,7 +54,6 @@ GROUPS = {
         "improve_backlinks.py",
     ],
     "analysis": [
-        # Аналитика
         "improve_dedup.py",
         "improve_clusters.py",
         "improve_word_freq.py",
@@ -65,7 +65,6 @@ GROUPS = {
         "improve_heatmap.py",
     ],
     "extract": [
-        # Извлечение данных
         "improve_action_items.py",
         "improve_decisions.py",
         "improve_questions.py",
@@ -77,7 +76,6 @@ GROUPS = {
         "improve_extract_code.py",
     ],
     "quality": [
-        # Качество и валидация
         "improve_consistency.py",
         "improve_broken_links.py",
         "improve_missing.py",
@@ -90,36 +88,23 @@ GROUPS = {
         "improve_content_gaps.py",
     ],
     "graph": [
-        # Граф и визуализация
         "improve_graph.py",
         "improve_mindmap.py",
         "improve_network.py",
         "improve_narrative.py",
-    ],
-    "reports": [
-        # Отчёты (запускать последними)
-        "improve_qa.py",
-        "improve_contacts.py",
-        "improve_changelog.py",
-        "improve_reading_order.py",
-        "improve_stats.py",
-        "improve_health.py",
-        "improve_compare.py",
-        "improve_sitemap.py",
-        "improve_report.py",
+        "improve_word_cloud.py",
+        "improve_templates.py",
     ],
     "generate": [
         # Генерация файлов из шаблонов и данных (после extract/analysis)
-        "improve_templates.py",
         "improve_autofill.py",
         "improve_footnotes.py",
         "improve_see_also.py",
         "improve_faq.py",
         "improve_badges.py",
-        "improve_word_cloud.py",
     ],
     "reports": [
-        # Отчёты (запускать последними)
+        # Отчёты (запускать после generate)
         "improve_qa.py",
         "improve_contacts.py",
         "improve_changelog.py",
@@ -141,7 +126,6 @@ GROUPS = {
         "improve_report.py",
     ],
     "export": [
-        # Экспорт
         "improve_export_csv.py",
         "improve_export_json.py",
         "improve_export_html.py",
@@ -150,21 +134,18 @@ GROUPS = {
         "improve_confluence.py",
     ],
     "cicd": [
-        # CI/CD и автоматизация разработки
         "improve_github_issues.py",
         "improve_ci_config.py",
         "improve_pre_commit.py",
         "improve_dependabot.py",
     ],
     "analytics": [
-        # Глубокая аналитика
         "improve_citation_index.py",
         "improve_reading_time.py",
         "improve_version_diff.py",
         "improve_topic_model.py",
     ],
     "textwork": [
-        # Работа с текстом: рубрикация, слияние, сравнение
         "improve_outline.py",
         "improve_reclassify.py",
         "improve_merge_by_topic.py",
@@ -175,70 +156,88 @@ GROUPS = {
         "improve_duplicate_across.py",
     ],
     "deeptext": [
-        # Глубокая обработка текста: структура, поиск, NLP-анализ
-        "improve_auto_toc.py",           # оглавление (TOC) в каждый файл
-        "improve_abstract.py",           # структурированный абстракт
-        "improve_paragraph_quality.py",  # метрики качества абзацев
-        "improve_vocabulary_richness.py",# TTR / STTR / lexical density
-        "improve_named_entity_index.py", # именованные сущности → JSON
-        "improve_timeline_events.py",    # события на шкале времени
-        "improve_contradiction_check.py",# поиск противоречивых утверждений
-        "improve_concept_graph.py",      # граф концептов → Mermaid + JSON
-        "improve_keyword_index.py",      # инвертированный индекс слов
-        "improve_passage_retrieval.py",  # BM25-поиск по абзацам
-        "improve_chunk_semantic.py",     # семантические чанки для RAG
-        "improve_text_segmenter.py",     # разбивка больших файлов на части
+        "improve_auto_toc.py",
+        "improve_abstract.py",
+        "improve_paragraph_quality.py",
+        "improve_vocabulary_richness.py",
+        "improve_named_entity_index.py",
+        "improve_timeline_events.py",
+        "improve_contradiction_check.py",
+        "improve_concept_graph.py",
+        "improve_keyword_index.py",
+        "improve_passage_retrieval.py",
+        "improve_chunk_semantic.py",
+        "improve_text_segmenter.py",
+    ],
+    # ── Ступень 2-3: автозаполнение + LLM (запускать отдельно) ──────────────
+    "enrich": [
+        "improve_llm_summary.py",     # каскадная суммаризация разделов
+        "improve_llm_enrich.py",      # обогащение проектных файлов (--dry-run сначала)
+        "improve_llm_qa.py",          # Q&A по базе знаний
+        "improve_llm_gaps.py",        # семантические пробелы
+    ],
+    # ── Мета: документы о самом репозитории ─────────────────────────────────
+    "meta": [
+        "improve_tech_radar.py",
+        "improve_onboarding.py",
+        "improve_dependency_map.py",
+        "improve_digest_weekly.py",
+        "improve_risk_register.py",
+        "improve_changelog_auto.py",
+        "improve_index_master.py",
+        "improve_component_matrix.py",
+        "improve_kpi_snapshot.py",
     ],
 }
 
 # Скрипты, которые можно пропустить при --fast (медленные)
 SLOW_SCRIPTS = {
-    "improve_clusters.py",       # TF-IDF на 400 файлах
-    "improve_similar.py",        # Jaccard попарно
-    "improve_export_html.py",    # 3 MB HTML
-    "improve_export_json.py",    # 600 KB JSON
-    "improve_search_index.py",   # полный индекс
-    "improve_word_cloud.py",     # SVG рендеринг
-    "improve_digest.py",         # полный обход git
-    "improve_link_preview.py",   # HTTP-запросы к внешним URL
-    "improve_topic_model.py",    # TF-IDF на всех файлах
-    "improve_epub.py",           # pandoc сборка
-    "improve_obsidian.py",       # запись множества файлов
-    "improve_confluence.py",     # запись множества файлов
-    "improve_benchmark.py",      # запуск всех скриптов
-    "improve_reclassify.py",     # перемещение файлов
-    "improve_merge_by_topic.py", # слияние файлов
-    "improve_duplicate_across.py", # попарное сравнение всех файлов
-    "improve_compare_docs.py",   # может делать batch
-    "improve_external_compare.py", # HTTP-запросы
-    "improve_chunk_semantic.py",   # записывает JSONL для всех файлов
-    "improve_keyword_index.py",    # строит большой JSON-индекс
-    "improve_text_segmenter.py",   # создаёт подпапки с частями
-    "improve_passage_retrieval.py",# строит passages.json
+    "improve_clusters.py",
+    "improve_similar.py",
+    "improve_export_html.py",
+    "improve_export_json.py",
+    "improve_search_index.py",
+    "improve_word_cloud.py",
+    "improve_digest.py",
+    "improve_link_preview.py",
+    "improve_topic_model.py",
+    "improve_epub.py",
+    "improve_obsidian.py",
+    "improve_confluence.py",
+    "improve_benchmark.py",
+    "improve_reclassify.py",
+    "improve_merge_by_topic.py",
+    "improve_duplicate_across.py",
+    "improve_compare_docs.py",
+    "improve_external_compare.py",
+    "improve_chunk_semantic.py",
+    "improve_keyword_index.py",
+    "improve_text_segmenter.py",
+    "improve_passage_retrieval.py",
 }
 
-# Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
+# LLM-скрипты — никогда не запускаются в автоматическом run_all,
+# только через --group enrich или напрямую. Требуют ANTHROPIC_API_KEY.
 LLM_SCRIPTS = {
     "improve_llm_enrich.py",
     "improve_llm_summary.py",
     "improve_llm_qa.py",
+    "improve_llm_gaps.py",
     "improve_llm_contact.py",
 }
 
-GROUP_ORDER = ["structure", "index", "analysis", "extract",
-               "quality", "graph", "generate", "reports", "export",
-               "cicd", "analytics", "textwork", "deeptext"]
+GROUP_ORDER = [
+    "structure", "index", "analysis", "extract",
+    "quality", "graph", "generate", "reports", "export",
+    "cicd", "analytics", "textwork", "deeptext",
+]
+# "enrich" и "meta" намеренно не в GROUP_ORDER — запускаются через --group
 
 # ---------------------------------------------------------------------------
-# Stage 2: условное выполнение по результату предыдущих скриптов
+# Stage 2: условное выполнение по результату предыдущих скриптов (--smart)
 # ---------------------------------------------------------------------------
 
 def _parse_score(text: str) -> float | None:
-    """Извлекает числовой балл из текста. Поддерживает форматы:
-    - **Средний балл:** 65.7/100
-    - ## Общий балл: **75/100**
-    - ## Итог: **159/164** (96%)
-    """
     patterns = [
         r'Средний балл[:\*\s]+\*{0,2}([\d.]+)/100',
         r'Общий балл[:\*\s]+\*{0,2}([\d.]+)/100',
@@ -259,8 +258,6 @@ def _read_score(condition_file: str) -> float | None:
     return _parse_score(path.read_text(encoding="utf-8"))
 
 
-# Условия для скипа: {script: (condition_file, min_score)}
-# Скрипт запускается только если текущий балл НИЖЕ min_score.
 SMART_CONDITIONS: dict[str, tuple[str, float]] = {
     "improve_qa.py":         ("METRICS.md", 80.0),
     "improve_validate.py":   ("HEALTH.md",  85.0),
@@ -270,26 +267,22 @@ SMART_CONDITIONS: dict[str, tuple[str, float]] = {
     "improve_report.py":     ("SCORING.md", 95.0),
 }
 
-
-# Маппинг: расширение/папка docs/ → группа скриптов которую нужно запустить
 _CHANGED_SECTION_MAP: dict[str, list[str]] = {
-    "05-habr-projects": ["structure", "index", "analysis", "extract", "quality", "generate"],
-    "04-ai-collaborations": ["structure", "index", "quality", "generate"],
-    "01-svyazi": ["structure", "index", "quality"],
-    "02-anthropic-vacancies": ["structure", "index"],
+    "05-habr-projects":         ["structure", "index", "analysis", "extract", "quality", "generate"],
+    "04-ai-collaborations":     ["structure", "index", "quality", "generate"],
+    "01-svyazi":                ["structure", "index", "quality"],
+    "02-anthropic-vacancies":   ["structure", "index"],
     "03-technology-combinations": ["structure", "index"],
-    "contacts": ["reports"],
+    "contacts":                 ["reports"],
 }
 
 
 def _get_changed_groups() -> list[str]:
-    """Возвращает группы скриптов, связанные с git-изменёнными файлами."""
     result = subprocess.run(
         ["git", "diff", "--name-only", "HEAD"],
         cwd=ROOT, capture_output=True, text=True
     )
     changed_files = result.stdout.strip().splitlines()
-    # Также staged изменения
     result2 = subprocess.run(
         ["git", "diff", "--name-only", "--cached"],
         cwd=ROOT, capture_output=True, text=True
@@ -301,32 +294,31 @@ def _get_changed_groups() -> list[str]:
         parts = Path(f).parts
         if len(parts) >= 2 and parts[0] == "docs":
             section = parts[1]
-            for mapped_groups in _CHANGED_SECTION_MAP.get(section, []):
-                groups_needed.add(mapped_groups)
+            for mapped_group in _CHANGED_SECTION_MAP.get(section, []):
+                groups_needed.add(mapped_group)
         elif len(parts) >= 1 and parts[0] == "scripts":
-            # Скрипты изменились — запускаем quality и reports
             groups_needed.update(["quality", "reports"])
 
-    # reports всегда нужен если что-то изменилось
     if groups_needed:
         groups_needed.add("reports")
-
-    # Сохраняем оригинальный порядок из GROUP_ORDER
     return [g for g in GROUP_ORDER if g in groups_needed]
 
 
 def should_skip_smart(script: str, smart: bool) -> tuple[bool, str]:
-    """Возвращает (skip, reason). skip=True — пропустить скрипт."""
     if not smart or script not in SMART_CONDITIONS:
         return False, ""
     condition_file, threshold = SMART_CONDITIONS[script]
     score = _read_score(condition_file)
     if score is None:
-        return False, ""  # файл не найден — запускаем
+        return False, ""
     if score >= threshold:
         return True, f"балл {score:.1f} ≥ {threshold} (из {condition_file})"
     return False, f"балл {score:.1f} < {threshold} — запускаем"
 
+
+# ---------------------------------------------------------------------------
+# Запуск одного скрипта
+# ---------------------------------------------------------------------------
 
 def run_script(script: str, dry_run: bool = False) -> tuple[bool, float]:
     path = ROOT / "scripts" / script
@@ -346,7 +338,6 @@ def run_script(script: str, dry_run: bool = False) -> tuple[bool, float]:
     elapsed = time.time() - t0
 
     if result.returncode == 0:
-        # Последняя строка вывода
         out = result.stdout.strip().splitlines()
         last = out[-1] if out else ""
         print(f"  ✅ {script} ({elapsed:.1f}s) — {last}")
@@ -357,6 +348,10 @@ def run_script(script: str, dry_run: bool = False) -> tuple[bool, float]:
         print(f"  ❌ {script} ({elapsed:.1f}s) — ОШИБКА: {last_err}")
         return False, elapsed
 
+
+# ---------------------------------------------------------------------------
+# main
+# ---------------------------------------------------------------------------
 
 def main():
     args = sys.argv[1:]
@@ -404,12 +399,10 @@ def main():
     if group_filter: print(f"  Группа: {group_filter}")
     print("=" * 60)
 
-    total_ok   = 0
-    total_err  = 0
-    total_skip = 0
+    total_ok = total_err = total_skip = 0
     total_time = 0.0
 
-    # --only: запускаем список скриптов напрямую, без группировки
+    # --only: запускаем список скриптов напрямую
     if only_scripts:
         print(f"\n{'─'*40}")
         print(f"Запуск: {len(only_scripts)} скриптов")
@@ -420,10 +413,8 @@ def main():
                 total_skip += 1
                 continue
             ok, elapsed = run_script(script, dry_run)
-            if ok:
-                total_ok += 1
-            else:
-                total_err += 1
+            if ok: total_ok += 1
+            else:  total_err += 1
             total_time += elapsed
 
         print("\n" + "=" * 60)
@@ -446,7 +437,6 @@ def main():
         groups_to_run = GROUP_ORDER
 
     def _run_group(group: str) -> tuple[int, int, int, float]:
-        """Запускает одну группу. Возвращает (ok, err, skip, time)."""
         scripts = GROUPS.get(group, [])
         if not scripts:
             print(f"\n⚠️  Группа '{group}' не найдена")
@@ -460,7 +450,7 @@ def main():
         g_time = 0.0
         for script in scripts:
             if script in LLM_SCRIPTS:
-                print(f"  🤖 {script} — пропущен (требует ANTHROPIC_API_KEY, запускать отдельно)")
+                print(f"  🤖 {script} — пропущен (запускать: python scripts/{script})")
                 g_skip += 1
                 continue
             if fast and script in SLOW_SCRIPTS:
@@ -473,10 +463,8 @@ def main():
                 g_skip += 1
                 continue
             ok, elapsed = run_script(script, dry_run)
-            if ok:
-                g_ok += 1
-            else:
-                g_err += 1
+            if ok: g_ok += 1
+            else:  g_err += 1
             g_time += elapsed
         return g_ok, g_err, g_skip, g_time
 

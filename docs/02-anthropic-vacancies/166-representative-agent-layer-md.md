@@ -1,4 +1,11 @@
 # REPRESENTATIVE AGENT LAYER.md
+
+<!-- summary -->
+> - [187-слой-представительских-агентов-md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md) (сходство 0.33)
+
+---
+
+
 <!-- tags: architecture -->
 
 

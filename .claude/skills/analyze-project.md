@@ -1,8 +1,13 @@
 # analyze-project
 
 Анализирует конкретный проект из базы знаний Lorenzo.
-Когда использовать: пользователь просит проанализировать, оценить, объяснить
-проект (Yodoca, NGT, AgentFS, Svyazi, и т.п.) или файл из docs/.
+
+## Когда использовать
+Когда пользователь спрашивает о конкретном компоненте:
+- "Расскажи про AgentFS / Yodoca / NGT-memory / SENTINEL / Rufler"
+- "Что такое knowledge-space?"
+- "Как работает CardIndex?"
+- "Какой статус у проекта X?"
 
 ## Шаги
 
@@ -19,6 +24,8 @@
    - Найти проект в `docs/SIMILAR.md` (похожие)
    - Найти проект в `docs/DECISIONS.md` (решения)
    - Проверить `docs/contacts/<slug>.md` если есть
+   - Проверить `docs/COMPONENT_MATRIX.md` (матрица совместимости)
+   - Проверить `docs/TECH_RADAR.md` (статус: ADOPT/TRIAL/ASSESS/HOLD)
 
 4. **Запустить метрики на файле** (опционально)
    ```bash
@@ -36,7 +43,7 @@
 
 6. **Предложить следующий шаг**
    - Если контакт не установлен → показать черновик из `docs/contacts/`
-   - Если файл неполный → предложить запустить `improve_llm_enrich.py --section`
+   - Если файл неполный → предложить `improve_llm_enrich.py --section`
 
 ## Формат ответа
 
@@ -44,8 +51,10 @@
 ## {Название проекта}
 
 **Слой:** {memory | rag | orchestration | ...}
+**Лицензия:** MIT / Apache 2.0 / BSL 1.1
 **Автор:** @{handle}
 **Упоминаний:** {N} файлов
+**Tech Radar:** ADOPT / TRIAL / ASSESS / HOLD
 
 ### Суть
 {2-3 предложения}
@@ -63,4 +72,11 @@
 ### Статус контакта
 {не писали / написали / ответили}
 → [открыть черновик](docs/contacts/{slug}.md)
+```
+
+## Полезные команды
+```bash
+python scripts/improve_entities.py   # обновить индекс сущностей
+python scripts/improve_network.py    # обновить граф связей
+python scripts/improve_component_matrix.py  # обновить матрицу совместимости
 ```

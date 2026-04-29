@@ -270,6 +270,32 @@ python scripts/improve_dependabot.py --generate-config  # dependabot.yml
 python scripts/improve_github_issues.py           # список задач
 ```
 
+### Мета-документы и аналитика репо
+```bash
+python scripts/improve_run_all.py --group meta  # всё разом
+# или по отдельности:
+python scripts/improve_tech_radar.py       # ADOPT/TRIAL/ASSESS/HOLD (22 позиции)
+python scripts/improve_onboarding.py       # руководство для новых участников
+python scripts/improve_risk_register.py    # реестр рисков (10 рисков + матрица)
+python scripts/improve_component_matrix.py # матрица 14 компонентов × 10 возможностей
+python scripts/improve_kpi_snapshot.py     # снапшот KPI → docs/KPI_HISTORY.md
+python scripts/improve_changelog_auto.py   # changelog из git-истории
+python scripts/improve_index_master.py     # главный навигационный индекс
+python scripts/improve_dependency_map.py   # карта зависимостей скриптов
+python scripts/improve_digest_weekly.py    # еженедельный дайджест изменений
+```
+
+**Новые мета-документы:**
+| Документ | Описание |
+|----------|---------|
+| `docs/TECH_RADAR.md` | Tech Radar: что использовать, что избегать |
+| `docs/ONBOARDING.md` | Руководство для новых участников (первые 30 мин) |
+| `docs/RISK_REGISTER.md` | Реестр рисков: 10 рисков, матрица 5×5 |
+| `docs/COMPONENT_MATRIX.md` | Матрица совместимости 14 компонентов |
+| `docs/KPI_HISTORY.md` | История метрик (снапшоты с трендами) |
+| `docs/INDEX.md` | Главный навигационный хаб |
+| `docs/DEPENDENCY_MAP.md` | Карта зависимостей скриптов |
+
 ## Важные предупреждения
 
 - `search_index.json`: после запуска `improve_search_index.py` все записи имеют

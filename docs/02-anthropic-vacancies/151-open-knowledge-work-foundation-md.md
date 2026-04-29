@@ -1,5 +1,14 @@
 # OPEN KNOWLEDGE WORK FOUNDATION.md
 
+<!-- summary -->
+> - [273-infrastructure-for-ai-collaborative-intellectual-w](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.25)
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 ## OPEN KNOWLEDGE WORK FOUNDATION.md
 markdown
 ```markdown

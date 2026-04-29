@@ -4,6 +4,8 @@
 > **Q6-concept-depth ↔ α-level**. Глубина концепта в Q6-графе (число
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

@@ -1,10 +1,5 @@
 # Ансамбль: [Название]
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
-
-<!-- alert-added -->
-
 <!-- summary: Ансамбль из X компонентов для Y задачи -->
 <!-- tags: ансамбль, архитектура -->
 
@@ -57,8 +52,6 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [SENTIMENT](docs/SENTIMENT.md)
 - [project-component](docs/templates/project-component.md)
-- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
-- [298-что-этот-документ-не-решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
+- [decision-record](docs/templates/decision-record.md)
 

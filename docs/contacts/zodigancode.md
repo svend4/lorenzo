@@ -1,5 +1,13 @@
 # Контакт: zodigancode / Rufler
 
+<!-- summary -->
+> <!-- summary: Шаблон для связи с автором Rufler -->
+**Проекты:** Svyazi, Rufler
+
+---
+
+
+
 <!-- summary: Шаблон для связи с автором Rufler -->
 <!-- tags: контакты, команда -->
 
@@ -41,3 +49,14 @@ Rufler закрывает слой «orchestration» в архитектуре.
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [cutcode](docs/contacts/cutcode.md)
+- [vladspace](docs/contacts/vladspace.md)
+- [dmitriila](docs/contacts/dmitriila.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+

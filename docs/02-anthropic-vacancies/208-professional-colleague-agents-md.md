@@ -1,5 +1,14 @@
 # PROFESSIONAL COLLEAGUE AGENTS.md
 
+<!-- summary -->
+> - [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md) (сходство 0.14)
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 ## PROFESSIONAL COLLEAGUE AGENTS.md
 markdown
 ```markdown

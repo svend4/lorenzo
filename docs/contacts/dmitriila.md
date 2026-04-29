@@ -1,5 +1,13 @@
 # Контакт: Dmitriila / SENTINEL
 
+<!-- summary -->
+> <!-- summary: Шаблон для связи с автором SENTINEL -->
+**Проекты:** Svyazi, SENTINEL
+
+---
+
+
+
 <!-- summary: Шаблон для связи с автором SENTINEL -->
 <!-- tags: контакты, команда -->
 
@@ -41,3 +49,14 @@ SENTINEL закрывает слой «security» в архитектуре.
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [mixaill76](docs/contacts/mixaill76.md)
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+

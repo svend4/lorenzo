@@ -9,6 +9,18 @@
 > OKWF is not and will not become a for-profit entity. Operational
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [5. Economic Model](#5-economic-model)
+  - [5.1. Budget Philosophy](#51-budget-philosophy)
+  - [5.2. Three-Year Pilot Budget (Estimated)](#52-three-year-pilot-budget-estimated)
+  - [5.3. Funding Strategy](#53-funding-strategy)
+  - [5.4. Contributor Economics](#54-contributor-economics)
+
+---
+
 <!-- tags: roadmap, anthropic -->
 
 

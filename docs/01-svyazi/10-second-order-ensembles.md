@@ -1,7 +1,7 @@
 
 <!-- summary -->
 > Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка **трёх новых ансамблей второго порядка**, где компоненты перестают быть “рядами функ
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
@@ -101,4 +101,4 @@ flowchart LR
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

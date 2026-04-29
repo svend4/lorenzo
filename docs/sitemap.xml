@@ -407,39 +407,117 @@
   <url><loc>docs/05-habr-projects/memory/memnet.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/05-habr-projects/memory/ngt-memory.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/05-habr-projects/memory/yodoca.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/ABBREVIATIONS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/ACTION_ITEMS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/ALERTS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/AUTHORS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/AUTOFILLED.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/BACKLINKS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/BROKEN_LINKS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CHANGELOG.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/CHANGELOG_AUTO.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CLUSTERS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CODE_BLOCKS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/COMPARE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/COMPLEXITY.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/COMPONENT_MATRIX.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CONCEPTS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/CONCEPT_GRAPH.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CONSISTENCY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CONTACTS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/CONTACT_PRIORITY.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/CONTENT_GAPS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/CONTRADICTIONS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/COST.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/COVERAGE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CROSSREFS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DECISIONS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DENSITY.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/DEPENDENCY_MAP.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/DIGEST.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/DIGEST_WEEKLY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DUPLICATES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/ENTITIES.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/FAQ.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/FOOTNOTES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/GLOSSARY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/GRAPH.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/HEALTH.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/HEATMAP.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/INDEX.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/KEYWORD_INDEX.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/KPI.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/KPI_HISTORY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/LINKS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/LLM_SUMMARIES.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/METRICS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/MINDMAP.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/MISSING.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/NAMED_ENTITIES.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/NARRATIVE.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/NETWORK.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/ONBOARDING.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/ORPHANS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/PARAGRAPH_QUALITY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/PRIORITIES.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/PROGRESS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/QA.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/QUESTIONS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/READABILITY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/READING_ORDER.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/README.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/REPORT.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/RISK_REGISTER.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SCHEDULE.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SCORING.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SEARCH.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SEE_ALSO.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SENTIMENT.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SIMILAR.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SPELLCHECK.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/STALENESS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/STATS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TABLES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TAGS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/TECH_RADAR.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TIMELINE.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/VALIDATION.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/VOCABULARY.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/WORD_CLOUD.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/WORD_FREQ.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/README.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/README.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/cowork.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/ingit.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/kksudo.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/lorenzo.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/nautilus.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/sgb.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/spbmolot.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/svend4.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/components/svyazi.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/autofilled/research-summary.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/badges/README.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/README.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/anastasiyaw.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/andrey-chuyan.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/antipozitive.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/cutcode.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/dmitriila.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/kksudo.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/mixaill76.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/nlaik.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/sonia-black.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/spbmolot.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/tagir-analyzes.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/vitalyoborin.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/vladspace.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/contacts/zodigancode.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/README.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/contact-outreach.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/decision-record.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/ensemble.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/project-component.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/research-note.md</loc><lastmod>2026-04-29</lastmod></url>
 </urlset>

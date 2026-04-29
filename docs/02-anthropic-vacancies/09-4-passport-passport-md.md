@@ -4,6 +4,8 @@
 > Passport — human-readable описание Repo, расположенное в корне
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

@@ -4,6 +4,8 @@
 > This document emerged from the author's observation, near
 
 ---
+<!-- tags: architecture, anthropic -->
+
 
 
 

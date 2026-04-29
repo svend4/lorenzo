@@ -10,6 +10,17 @@
 **Проекты:** Svyazi, CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, Rufler[^rufler], LiteParse, Legal RAG[^rag]
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Главная линия синергии](#главная-линия-синергии)
+- [Ключевой вывод](#ключевой-вывод)
+- [Что добавляет продолжение исследования](#что-добавляет-продолжение-исследования)
+- [Приоритет ансамблей для старта](#приоритет-ансамблей-для-старта)
+
+---
+
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
 
 
