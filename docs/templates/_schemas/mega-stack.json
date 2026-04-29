@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "mega-stack",
+  "description": "Полный технологический стек для класса задач со всеми слоями",
+  "type": "object",
+  "required": ["template", "version", "stack_name", "domain"],
+  "properties": {
+    "template": {"const": "mega-stack"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "stack_name": {"type": "string", "minLength": 1},
+    "domain": {"type": "string"},
+    "total_components": {"type": "integer", "minimum": 0},
+    "maturity": {"enum": ["design", "prototype", "production"]},
+    "target_scale": {"type": "string"},
+    "created": {"type": "string", "format": "date"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Назначение", "Слои стека", "Roadmap по фазам", "Стоимость", "Риски и митигации"]
+}

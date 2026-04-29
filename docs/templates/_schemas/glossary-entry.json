@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "glossary-entry",
+  "description": "Глоссарная статья: определение, происхождение, синонимы, примеры",
+  "type": "object",
+  "required": ["template", "version", "term", "type"],
+  "properties": {
+    "template": {"const": "glossary-entry"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "term": {"type": "string", "minLength": 1},
+    "type": {"enum": ["concept", "project", "person", "tool", "protocol", "pattern", "abbreviation"]},
+    "language": {"enum": ["ru", "en", "mixed"]},
+    "abbreviations": {"type": "array", "items": {"type": "string"}},
+    "synonyms": {"type": "array", "items": {"type": "string"}},
+    "created": {"type": "string", "format": "date"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Определение", "Происхождение", "Связанные термины"]
+}

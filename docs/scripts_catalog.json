@@ -1,0 +1,1343 @@
+[
+  {
+    "name": "improve_abbreviations.py",
+    "summary": "словарь аббревиатур и сокращений из docs/.",
+    "description": "Ищет: \"ABC — это ...\", \"ABC (от англ. ...)\", \"ABC: ...\", капс-слова. Создаёт docs/ABBREVIATIONS.md.",
+    "flags": [],
+    "group": "extract"
+  },
+  {
+    "name": "improve_abstract.py",
+    "summary": "генерирует структурированный абстракт для каждого документа.",
+    "description": "Без LLM, по паттернам в тексте определяет: - Проблема/контекст (предложения с «проблем», «задач», «нужно», «требует») - Подход/метод    (предложения с «решени», «метод», «алгоритм», «подход») - Результат       (предложения с «результат», «достигн», «получен», «вывод») - Ключевые слова  (TF-IDF топ-8)",
+    "flags": [
+      "--apply",
+      "--dry-run",
+      "--min-words",
+      "--section"
+    ],
+    "group": "content"
+  },
+  {
+    "name": "improve_action_items.py",
+    "summary": "извлекает задачи, риски, решения и TODO из docs/.",
+    "description": "Создаёт docs/ACTION_ITEMS.md.",
+    "flags": [],
+    "group": "extract"
+  },
+  {
+    "name": "improve_alerts.py",
+    "summary": "добавляет GitHub Markdown callout-блоки в ключевые файлы.",
+    "description": "Форматы: > [!NOTE], > [!WARNING], > [!TIP], > [!IMPORTANT]. Анализирует содержимое и вставляет подходящий callout в начало файла.",
+    "flags": [],
+    "group": "quality"
+  },
+  {
+    "name": "improve_auto_linker.py",
+    "summary": "автоматические внутренние ссылки в документах.",
+    "description": "Находит упоминания проектов/технологий/людей из named_entities.json и превращает их в markdown-ссылки на соответствующие файлы. Алгоритм: 1. Загружает named_entities.json → словарь {имя: best_file} 2. Для каждого файла ищет plain-text упоминания сущностей",
+    "flags": [
+      "--apply",
+      "--dry-run",
+      "--min-mentions",
+      "--section",
+      "--types"
+    ],
+    "group": "content"
+  },
+  {
+    "name": "improve_auto_toc.py",
+    "summary": "автоматически добавляет таблицу содержания (TOC) в файлы.",
+    "description": "Вставляет ## Contents после первого H1 заголовка. Идемпотентно: обновляет существующий TOC по маркеру. Пропускает файлы с менее чем 3 подзаголовками. Режимы:",
+    "flags": [
+      "--apply",
+      "--depth",
+      "--dry-run",
+      "--min-headings",
+      "--section"
+    ],
+    "group": "content"
+  },
+  {
+    "name": "improve_autocorrect.py",
+    "summary": "применяет исправления из CONSISTENCY.md:",
+    "description": "заменяет все нестандартные написания на канонические прямо в файлах.",
+    "flags": [
+      "--dry-run"
+    ],
+    "group": "structure"
+  },
+  {
+    "name": "improve_autofill.py",
+    "summary": "заполняет шаблоны данными из уже сгенерированных скриптов.",
+    "description": "Нулевая стоимость ($0), детерминировано. Требует предварительного запуска: improve_contacts.py, improve_tags.py, improve_similar.py, improve_entities.py Создаёт: docs/contacts/  — заполненные contact-outreach.md для каждого автора (15 файлов)",
+    "flags": [
+      "--dry-run"
+    ],
+    "group": "generate"
+  },
+  {
+    "name": "improve_backlinks.py",
+    "summary": "индекс обратных ссылок.",
+    "description": "Для каждого файла показывает, какие другие файлы на него ссылаются. Добавляет блок \"Кто ссылается\" в конец файла и создаёт docs/BACKLINKS.md.",
+    "flags": [],
+    "group": "index"
+  },
+  {
+    "name": "improve_badges.py",
+    "summary": "генерирует SVG-бейджи для README.",
+    "description": "Показывает: здоровье репо, скоринг, кол-во документов, скриптов, слов. Создаёт docs/badges/ и вставляет бейджи в корневой README.md.",
+    "flags": [],
+    "group": "generate"
+  },
+  {
+    "name": "improve_benchmark.py",
+    "summary": "замеряет и записывает время выполнения скриптов.",
+    "description": "Хранит историю в docs/benchmark.json, показывает тренды.",
+    "flags": [
+      "--group",
+      "--report",
+      "--script"
+    ],
+    "group": "reports"
+  },
+  {
+    "name": "improve_broken_links.py",
+    "summary": "проверяет внутренние ссылки в docs/.",
+    "description": "Находит ссылки на несуществующие файлы и якоря. Создаёт docs/BROKEN_LINKS.md. Новое: --fix автоматически исправляет ссылки с неправильным регистром или лишними ../.",
+    "flags": [
+      "--dry-run",
+      "--fix"
+    ],
+    "group": "quality"
+  },
+  {
+    "name": "improve_changelog.py",
+    "summary": "генерирует CHANGELOG из git-истории репозитория.",
+    "description": "Группирует коммиты по типам (feat/fix/chore/improve) и датам. Создаёт docs/CHANGELOG.md и CHANGELOG.md в корне.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_changelog_auto.py",
+    "summary": "автоматический changelog из git-истории.",
+    "description": "Группирует коммиты по типу (feat/fix/docs/chore), строит версионированный лог. Создаёт docs/CHANGELOG_AUTO.md.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_chunk_semantic.py",
+    "summary": "семантическое чанкинг документов для RAG.",
+    "description": "Делит тексты по смысловым границам (не механически по N токенов): - H2/H3 заголовки = границы чанков - Если секция > MAX_CHUNK_WORDS — дополнительно делит по абзацам - Если секция < MIN_CHUNK_WORDS — объединяет с соседней Каждый чанк содержит:",
+    "flags": [
+      "--max-words",
+      "--min-words",
+      "--output",
+      "--section"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_ci_config.py",
+    "summary": "генерирует GitHub Actions workflow для docs.",
+    "description": "Создаёт: .github/workflows/docs.yml       — основной CI для docs .github/workflows/docs_check.yml — быстрая проверка при PR",
+    "flags": [
+      "--dry-run",
+      "--minimal"
+    ],
+    "group": "cicd"
+  },
+  {
+    "name": "improve_citation_index.py",
+    "summary": "индекс внешних URL по частоте цитирования.",
+    "description": "Для каждого внешнего URL показывает: - сколько файлов его цитируют - в каких секциях - насколько «авторитетен» домен в контексте проекта Создаёт docs/CITATION_INDEX.md.",
+    "flags": [
+      "--domain",
+      "--min-citations"
+    ],
+    "group": "analytics"
+  },
+  {
+    "name": "improve_clusters.py",
+    "summary": "кластеризует файлы по тематической близости",
+    "description": "через TF-IDF вектора и косинусное сходство (без внешних ML-библиотек). Создаёт docs/CLUSTERS.md.",
+    "flags": [],
+    "group": "analysis"
+  },
+  {
+    "name": "improve_compare.py",
+    "summary": "сравнивает текущее состояние docs/ с предыдущим коммитом.",
+    "description": "Показывает: новые файлы, удалённые, изменившиеся, рост/падение слов. Создаёт docs/COMPARE.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_compare_docs.py",
+    "summary": "сравнивает два документа: общее, различия, пересечения.",
+    "description": "Анализирует: - Общие темы (по ключевым словам TF) - Уникальные разделы (заголовки есть в одном, нет в другом) - Словарное пересечение (Jaccard) - Структурное сходство",
+    "flags": [
+      "--a",
+      "--b",
+      "--batch",
+      "--out",
+      "--section",
+      "--top"
+    ],
+    "group": "textwork"
+  },
+  {
+    "name": "improve_complexity.py",
+    "summary": "оценка читаемости документов.",
+    "description": "Метрики: длина предложений, плотность терминов, глубина вложенности заголовков. Создаёт docs/COMPLEXITY.md.",
+    "flags": [],
+    "group": "analysis"
+  },
+  {
+    "name": "improve_component_matrix.py",
+    "summary": "матрица совместимости и возможностей компонентов.",
+    "description": "Показывает какие компоненты поддерживают какие функции (memory, search, MCP, ...). Создаёт docs/COMPONENT_MATRIX.md.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_concept_graph.py",
+    "summary": "граф концептов из базы знаний.",
+    "description": "Строит граф: узлы = ключевые концепты, рёбра = совместное упоминание в одном файле. Экспортирует в: - Mermaid (встраивается в markdown) - DOT (для Graphviz) - JSON (для d3.js или других инструментов)",
+    "flags": [
+      "--format",
+      "--min-weight",
+      "--section",
+      "--top-concepts"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_concepts.py",
+    "summary": "извлекает определения понятий прямо из текстов.",
+    "description": "Ищет паттерны: \"X — это ...\", \"X представляет собой ...\", \"X: ...\", \"X (англ. ...)\" Создаёт docs/CONCEPTS.md.",
+    "flags": [],
+    "group": "extract"
+  },
+  {
+    "name": "improve_confluence.py",
+    "summary": "конвертирует docs/*.md в формат Confluence Wiki Markup.",
+    "description": "Создаёт docs/confluence/ с файлами .wiki. Основные преобразования: # H1 → h1. **bold** → *bold* `code` → {{code}}",
+    "flags": [
+      "--dry-run",
+      "--section"
+    ],
+    "group": "export"
+  },
+  {
+    "name": "improve_consistency.py",
+    "summary": "находит разные написания одного термина,",
+    "description": "предлагает канонический вариант, создаёт docs/CONSISTENCY.md.",
+    "flags": [],
+    "group": "quality"
+  },
+  {
+    "name": "improve_contact_priority.py",
+    "summary": "ранжирует авторов по приоритету для контакта.",
+    "description": "Формула: score = упоминания × 3 + (4 - статус_шаг) × 5 + слой_буст слой_буст: memory=3, knowledge=2, orchestration=2, graph=1, остальные=1 Создаёт docs/CONTACT_PRIORITY.md с топом авторов и рекомендуемым порядком.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_contact_status.py",
+    "summary": "обновляет статус контакта в docs/contacts/<slug>.md.",
+    "description": "Удобная альтернатива ручному редактированию файла. Использование: Поддерживает частичное имя: --author kk ищет kksudo если он единственный совпадающий.",
+    "flags": [
+      "--agreed",
+      "--author",
+      "--list",
+      "--messaged",
+      "--note",
+      "--replied",
+      "--studied"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_contacts.py",
+    "summary": "извлекает email, Telegram, GitHub, Habr-ники",
+    "description": "из всех docs/ и создаёт docs/CONTACTS.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_content_gaps.py",
+    "summary": "находит темы, упомянутые в docs/, но без собственного документа.",
+    "description": "Логика: 1. Собирает «упоминания» — слова/словосочетания, встречающиеся >= MIN_MENTIONS раз в разных файлах, похожие на названия проектов/концепций. 2. Проверяет, есть ли документ, посвящённый этой теме. 3. Выдаёт список пробелов с частотой и рекомендуемым местом создания файла.",
+    "flags": [
+      "--min-mentions",
+      "--section"
+    ],
+    "group": "quality"
+  },
+  {
+    "name": "improve_contradiction_check.py",
+    "summary": "поиск противоречивых утверждений в базе знаний.",
+    "description": "Ищет предложения, содержащие одни и те же сущности, но противоположные утверждения: - Числа: «X имеет 5 компонентов» vs «X имеет 8 компонентов» - Булевы: «X поддерживает Y» vs «X не поддерживает Y» - Версии: «версия 1.0» vs «версия 2.0» (об одном и том же) - Факты с «является/это» vs «не является/не это»",
+    "flags": [
+      "--min-confidence",
+      "--section"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_cost.py",
+    "summary": "оценка стоимости разработки MVP.",
+    "description": "Извлекает временные оценки из документов, конвертирует в человеко-часы, рассчитывает ориентировочный бюджет. Создаёт docs/COST.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_coverage.py",
+    "summary": "матрица покрытия: какие файлы имеют summary, теги, TOC, crossrefs, статус.",
+    "description": "Для каждого файла в целевых секциях показывает какие признаки присутствуют. Создаёт docs/COVERAGE.md.",
+    "flags": [
+      "--section"
+    ],
+    "group": "reports"
+  },
+  {
+    "name": "improve_cross_section.py",
+    "summary": "граф концептов между секциями.",
+    "description": "Показывает какие ключевые понятия встречаются сразу в нескольких секциях и насколько сильна их связь: 1. TF-IDF веса ключевых слов по каждой секции 2. Matrise пересечений (косинусное сходство секций) 3. Mermaid-граф секций с весами рёбер",
+    "flags": [
+      "--format",
+      "--min-secs",
+      "--top"
+    ],
+    "group": "analytics"
+  },
+  {
+    "name": "improve_crosslink_all.py",
+    "summary": "прописывает обратные ссылки (backlinks) во все файлы.",
+    "description": "Алгоритм: 1. Сканирует все .md файлы и строит граф: кто на кого ссылается 2. Для каждого файла добавляет раздел \"## Упоминается в\" (обратные ссылки) 3. Идемпотентно: обновляет существующий блок по маркеру Дополнительно:",
+    "flags": [
+      "--apply",
+      "--dry-run",
+      "--keywords",
+      "--min-refs"
+    ],
+    "group": "textwork"
+  },
+  {
+    "name": "improve_crossrefs.py",
+    "summary": "строит карту перекрёстных ссылок между файлами.",
+    "description": "Создаёт docs/CROSSREFS.md: какой файл упоминает какие проекты, и для каждого проекта — список файлов где он встречается.",
+    "flags": [],
+    "group": "index"
+  },
+  {
+    "name": "improve_decisions.py",
+    "summary": "извлекает ключевые выводы и решения из всех файлов.",
+    "description": "Ищет паттерны: \"главный вывод\", \"лучший выбор\", \"рекомендуется\" и т.д. Создаёт docs/DECISIONS.md.",
+    "flags": [],
+    "group": "extract"
+  },
+  {
+    "name": "improve_dedup.py",
+    "summary": "находит дублирующиеся файлы и похожие абзацы.",
+    "description": "Создаёт docs/DUPLICATES.md с отчётом. НЕ удаляет файлы автоматически — только сообщает о них. Новое: для каждой пары похожих файлов показывает сами совпавшие абзацы (до 3 штук).",
+    "flags": [
+      "--threshold"
+    ],
+    "group": "analysis"
+  },
+  {
+    "name": "improve_density.py",
+    "summary": "карта плотности тем по всем документам.",
+    "description": "Считает упоминания ключевых тем в каждом разделе. Показывает: какие темы раскрыты подробно, какие слабо. Создаёт docs/DENSITY.md.",
+    "flags": [],
+    "group": "analysis"
+  },
+  {
+    "name": "improve_dependabot.py",
+    "summary": "мониторинг версий OSS-компонентов Svyazi 2.0.",
+    "description": "Извлекает упоминания проектов + версий из docs/, сверяет с PyPI/GitHub и сообщает об устаревших зависимостях. Дополнительно: генерирует .github/dependabot.yml для автоматических PR. Создаёт docs/DEPENDABOT.md.",
+    "flags": [
+      "--check-pypi",
+      "--generate-config"
+    ],
+    "group": "cicd"
+  },
+  {
+    "name": "improve_dependency_map.py",
+    "summary": "карта зависимостей: скрипты → выходные файлы.",
+    "description": "Показывает что каждый improve_*.py производит и от чего зависит. Создаёт docs/DEPENDENCY_MAP.md.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_digest.py",
+    "summary": "дайджест недавних изменений репозитория.",
+    "description": "Собирает из git log: новые файлы, изменённые, ключевые коммиты. Создаёт docs/DIGEST.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_digest_auto.py",
+    "summary": "автодайджест изменений за N дней.",
+    "description": "Анализирует git-лог и содержимое изменённых файлов: 1. Какие файлы добавлены / изменены / удалены за период 2. Ключевые слова из изменений (TF-IDF на diff) 3. Статистика: сколько слов добавлено/удалено 4. Самые активные секции",
+    "flags": [
+      "--days",
+      "--format",
+      "--since"
+    ],
+    "group": "analytics"
+  },
+  {
+    "name": "improve_digest_weekly.py",
+    "summary": "еженедельный дайджест изменений репозитория.",
+    "description": "Показывает: новые файлы, изменённые, топ-активные папки, прирост слов. Создаёт docs/DIGEST_WEEKLY.md.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_duplicate_across.py",
+    "summary": "поиск похожих текстов между репозиториями/папками.",
+    "description": "Сравнивает docs/ с: a) Другой локальной папкой (--other-dir /path/to/repo2/docs) b) Другим git-репозиторием (--other-repo /path/to/other-repo) c) Поддиректориями внутри docs/ (--internal — сравнивает секции между собой) Алгоритм сравнения:",
+    "flags": [
+      "--internal",
+      "--other-dir",
+      "--other-repo",
+      "--section",
+      "--threshold"
+    ],
+    "group": "textwork"
+  },
+  {
+    "name": "improve_empty_sections.py",
+    "summary": "поиск и заполнение пустых секций.",
+    "description": "Находит заголовки с минимальным содержимым (заглушки): - H2/H3 с менее чем MIN_CONTENT слов под ними - Секции только с одним вложенным заголовком и никакого текста - Файлы с >50% пустых секций Режимы:",
+    "flags": [
+      "--fill",
+      "--min-content",
+      "--report",
+      "--section",
+      "--suggest"
+    ],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_entities.py",
+    "summary": "извлечение именованных сущностей из docs/.",
+    "description": "Категории: люди, проекты, организации, технологии, URL/репозитории. Создаёт docs/ENTITIES.md.",
+    "flags": [],
+    "group": "extract"
+  },
+  {
+    "name": "improve_epub.py",
+    "summary": "собирает docs/ в EPUB через pandoc.",
+    "description": "Объединяет все .md файлы секции в один EPUB с оглавлением. Требует: pandoc (apt install pandoc / brew install pandoc)",
+    "flags": [
+      "--check",
+      "--output",
+      "--section",
+      "--title"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_export_csv.py",
+    "summary": "экспортирует метаданные всех docs/ в CSV.",
+    "description": "Создаёт docs/export.csv — удобно для анализа в Excel / Google Sheets.",
+    "flags": [],
+    "group": "export"
+  },
+  {
+    "name": "improve_export_html.py",
+    "summary": "экспортирует все docs/ в единый HTML-сайт.",
+    "description": "Создаёт docs/index.html с навигацией и содержимым всех файлов.",
+    "flags": [],
+    "group": "export"
+  },
+  {
+    "name": "improve_export_json.py",
+    "summary": "экспортирует всю структуру docs/ в structured JSON.",
+    "description": "Каждый файл: путь, заголовок, слова, теги, summary, первые 500 символов. Создаёт docs/export_full.json (для API/программного доступа).",
+    "flags": [],
+    "group": "export"
+  },
+  {
+    "name": "improve_export_report.py",
+    "summary": "единый сводный отчёт по всей базе знаний.",
+    "description": "Собирает ключевые данные из всех отчётных файлов и создаёт один документ, пригодный для: - презентации инвесторам / авторам проектов - отправки в виде PDF/EPUB через pandoc - быстрого ввода нового участника в контекст",
+    "flags": [
+      "--no-projects",
+      "--sections",
+      "--title"
+    ],
+    "group": "export"
+  },
+  {
+    "name": "improve_external_compare.py",
+    "summary": "сравнивает документы базы с внешними источниками.",
+    "description": "Для заданной темы или файла: 1. Скачивает внешний URL (HTML → plain text) 2. Сравнивает с вашим документом (ключевые слова, уникальное, общее) 3. Показывает что есть у них, чего нет у вас — и наоборот Также поддерживает --auto: сканирует docs/ на URL-ссылки и сравнивает",
+    "flags": [
+      "--auto",
+      "--file",
+      "--limit",
+      "--query",
+      "--section",
+      "--url"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_extract_code.py",
+    "summary": "извлекает все code-блоки из docs/.",
+    "description": "Разделяет по языкам: mermaid, python, yaml, bash, json, другие. Создаёт docs/CODE_BLOCKS.md.",
+    "flags": [],
+    "group": "extract"
+  },
+  {
+    "name": "improve_extract_tables.py",
+    "summary": "извлекает все Markdown-таблицы из docs/",
+    "description": "в один файл docs/TABLES.md для быстрого просмотра.",
+    "flags": [],
+    "group": "extract"
+  },
+  {
+    "name": "improve_faceted_search.py",
+    "summary": "фасетный поиск по базе знаний.",
+    "description": "Поиск с фильтрами (фасетами) поверх keyword_index.json + named_entities.json: Сохраняет последний результат в docs/SEARCH_RESULTS.md.",
+    "flags": [
+      "--after",
+      "--entity",
+      "--format",
+      "--min-words",
+      "--query",
+      "--section",
+      "--top",
+      "--type"
+    ],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_faq.py",
+    "summary": "строит FAQ из QA-паттернов в документах.",
+    "description": "Ищет: \"Вопрос/Ответ\", \"Q:\", \"A:\", \"—\" после вопроса, секции ## FAQ. Создаёт docs/FAQ.md.",
+    "flags": [],
+    "group": "generate"
+  },
+  {
+    "name": "improve_footnotes.py",
+    "summary": "автоматически связывает технические термины с глоссарием.",
+    "description": "Добавляет сноски [^term] к первому вхождению каждого термина в файле. Создаёт docs/FOOTNOTES.md (отчёт), не ломает оригинальные файлы.",
+    "flags": [],
+    "group": "generate"
+  },
+  {
+    "name": "improve_gap_filler.py",
+    "summary": "заполняет пустые секции найденным контентом (BM25).",
+    "description": "Для каждой пустой секции (< MIN_CONTENT слов): 1. Использует заголовок как поисковый запрос (BM25) 2. Находит релевантные абзацы из других файлов 3. Вставляет их как цитату-подсказку или сноску Режимы:",
+    "flags": [
+      "--apply",
+      "--dry-run",
+      "--mode",
+      "--section",
+      "--top"
+    ],
+    "group": "content"
+  },
+  {
+    "name": "improve_github_issues.py",
+    "summary": "создаёт GitHub Issues из ACTION_ITEMS.md и TODO-блоков.",
+    "description": "Без GitHub API: генерирует docs/GITHUB_ISSUES.md с готовым списком задач в формате, пригодном для ручного или API-создания. Опционально: если установлен gh CLI и задан --create, создаёт Issues через gh. Создаёт docs/GITHUB_ISSUES.md.",
+    "flags": [
+      "--create",
+      "--dry-run",
+      "--label"
+    ],
+    "group": "cicd"
+  },
+  {
+    "name": "improve_glossary.py",
+    "summary": "извлекает все проекты, авторов и URL из docs/,",
+    "description": "создаёт docs/GLOSSARY.md и docs/AUTHORS.md.",
+    "flags": [],
+    "group": "index"
+  },
+  {
+    "name": "improve_graph.py",
+    "summary": "строит граф связей между проектами.",
+    "description": "Создаёт docs/GRAPH.md с диаграммой Mermaid и матрицей совместных упоминаний.",
+    "flags": [],
+    "group": "graph"
+  },
+  {
+    "name": "improve_heading_audit.py",
+    "summary": "аудит иерархии заголовков.",
+    "description": "Проверяет: - H3/H4 без родительского H2 (нарушение иерархии) - Пустые секции: заголовок + <MIN_CONTENT слов под ним - Одиночные заголовки: H2 с одним единственным дочерним абзацем - Дублирующиеся заголовки в одном файле",
+    "flags": [
+      "--section",
+      "--verbose"
+    ],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_health.py",
+    "summary": "дашборд здоровья репозитория.",
+    "description": "Агрегирует метрики из всех improve_*.md файлов в один отчёт. Создаёт docs/HEALTH.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_heatmap.py",
+    "summary": "тепловая карта тем по разделам и файлам.",
+    "description": "ASCII-визуализация: строки = темы, столбцы = разделы. Создаёт docs/HEATMAP.md.",
+    "flags": [],
+    "group": "analysis"
+  },
+  {
+    "name": "improve_index_master.py",
+    "summary": "главный навигационный хаб docs/.",
+    "description": "Собирает все ключевые документы, статистику, ссылки в один docs/INDEX.md. Служит точкой входа для навигации по всей документации.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_index_update.py",
+    "summary": "инкрементальное обновление search_index.json.",
+    "description": "Обновляет только файлы, изменившиеся с момента последней индексации (по mtime или git diff).",
+    "flags": [],
+    "group": "index"
+  },
+  {
+    "name": "improve_keyword_index.py",
+    "summary": "инвертированный индекс: слово → файлы.",
+    "description": "Строит инвертированный индекс без поискового движка: - word → [{file, count, positions, section}] - Быстрый offline-поиск без search_index.json - Поддержка биграмм (двусловных фраз) - Статистика: уникальных слов, охват файлов",
+    "flags": [
+      "--min-df",
+      "--query",
+      "--section",
+      "--top"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_knowledge_map.py",
+    "summary": "единый дашборд всей базы знаний.",
+    "description": "Агрегирует данные из всех отчётных файлов и строит единую карту: - Общая статистика корпуса - Топ файлов по важности (из PRIORITIES.md / SCORING.md) - Состояние по секциям (файлов, слов, качество) - Граф ключевых связей (из CONCEPT_GRAPH.md)",
+    "flags": [],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_kpi.py",
+    "summary": "извлекает числовые KPI и метрики из docs/.",
+    "description": "Ищет: числа с единицами, проценты, временные оценки, бюджеты, размеры команд. Создаёт docs/KPI.md.",
+    "flags": [],
+    "group": "extract"
+  },
+  {
+    "name": "improve_kpi_snapshot.py",
+    "summary": "исторические снапшоты ключевых метрик.",
+    "description": "Читает текущие метрики из docs/, добавляет запись с датой в историю, строит таблицу трендов. Создаёт docs/KPI_HISTORY.md.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_language_split.py",
+    "summary": "анализ языкового состава документов.",
+    "description": "Для каждого файла определяет: - Долю русского текста (кириллица) - Долю английского текста (латиница) - Классификацию: RU / EN / MIX / CODE - Файлы с неожиданным языком (EN в RU-секции и наоборот)",
+    "flags": [
+      "--min-mix",
+      "--report",
+      "--section",
+      "--split"
+    ],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_link_preview.py",
+    "summary": "проверяет внешние ссылки в docs/ и кэширует их статус.",
+    "description": "Для каждой уникальной URL: - HEAD-запрос (timeout 8с) → HTTP-статус - Если 200: извлекает <title> из HTML - Кэш в docs/link_cache.json (повторные проверки пропускаются если < CACHE_DAYS) Создаёт docs/LINK_PREVIEW.md.",
+    "flags": [
+      "--refresh",
+      "--section",
+      "--timeout"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_llm_contact.py",
+    "summary": "генерирует персонализированное первое сообщение автору через LLM.",
+    "description": "Читает: - docs/contacts/<author>.md — профиль и черновик сообщения - docs/05-habr-projects/**/<project>.md — детали проекта - docs/CONTACTS.md — слой архитектуры Создаёт обогащённый вариант первого сообщения с конкретными техническими деталями.",
+    "flags": [
+      "--all",
+      "--author",
+      "--dry-run"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_llm_enrich.py",
+    "summary": "семантическое обогащение проектных файлов через Claude API.",
+    "description": "Stage 3a: скрипт управляет процессом, LLM заполняет то, что regex не может. Что делает: Для каждого файла в docs/05-habr-projects/ и docs/04-ai-collaborations/: 1. Детерминированно извлекает факты (теги, упоминания, чанки) 2. Вызывает Claude для генерации структурированного описания",
+    "flags": [
+      "--dry-run",
+      "--file",
+      "--force",
+      "--model",
+      "--section"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_llm_gaps.py",
+    "summary": "семантический поиск пробелов через Claude API.",
+    "description": "Анализирует структуру документации и находит темы, которые упомянуты но не раскрыты, противоречия, устаревшие утверждения. Создаёт docs/LLM_GAPS.md.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_llm_qa.py",
+    "summary": "ответы на вопросы по всей базе знаний Lorenzo через Claude API.",
+    "description": "Stage 3c: RAG без векторной БД — поиск по search_index.json + LLM-синтез. Режимы: 1. Интерактивный: задаёшь вопросы в терминале, получаешь ответы с источниками 2. Batch: читает вопросы из файла, пишет ответы в docs/QA_ANSWERS.md 3. Single: ответ на один вопрос через --question \"...\"",
+    "flags": [
+      "--batch",
+      "--clear-cache",
+      "--dry-run",
+      "--no-cache",
+      "--question",
+      "--save"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_llm_summary.py",
+    "summary": "каскадная суммаризация больших документов через Claude API.",
+    "description": "Stage 3b: map-reduce для документов любого размера. Алгоритм: 1. chunk_by_headers() — разбивка на секции 2. LLM: summarize(chunk) → мини-резюме (map) 3. LLM: synthesize(мини-резюме) → финальное резюме (reduce)",
+    "flags": [
+      "--dry-run",
+      "--file",
+      "--section"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_mcp_dashboard.py",
+    "summary": "статистика вызовов MCP-серверов.",
+    "description": "Читает .claude/mcp_calls.jsonl и формирует docs/MCP_DASHBOARD.md: - сколько вызовов на каждый сервер - топ-инструменты по частоте - средняя длительность - ошибки",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_mcp_test.py",
+    "summary": "smoke-тесты для всех MCP-серверов.",
+    "description": "Проверяет: 1. Что каждый сервер импортируется без ошибок 2. Что dispatch() возвращает строку для известных инструментов 3. Что dispatch() обрабатывает unknown tool gracefully Не запускает stdio_server (требует MCP-клиента).",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_merge_by_topic.py",
+    "summary": "склеивает файлы-фрагменты одной темы в единый документ.",
+    "description": "Обнаруживает «цепочки» файлов принадлежащих одной теме по: - сходству заголовков (Jaccard по словам) - нумерации в имени файла (01-x, 02-x...) - общим TF-IDF ключевым словам Режимы:",
+    "flags": [
+      "--apply",
+      "--dry-run",
+      "--min-group",
+      "--section",
+      "--threshold"
+    ],
+    "group": "textwork"
+  },
+  {
+    "name": "improve_merge_short.py",
+    "summary": "сливает слишком короткие файлы с предыдущим соседом.",
+    "description": "",
+    "flags": [],
+    "group": "structure"
+  },
+  {
+    "name": "improve_metrics.py",
+    "summary": "метрики качества документации.",
+    "description": "Считает: индекс покрытия, плотность ссылок, насыщенность примерами, баланс разделов, индекс связности. Создаёт docs/METRICS.md.",
+    "flags": [],
+    "group": "quality"
+  },
+  {
+    "name": "improve_mindmap.py",
+    "summary": "строит майндмап всего репозитория в формате Mermaid mindmap.",
+    "description": "Создаёт docs/MINDMAP.md.",
+    "flags": [],
+    "group": "graph"
+  },
+  {
+    "name": "improve_missing.py",
+    "summary": "находит темы/проекты упомянутые в документах",
+    "description": "но слабо раскрытые (мало файлов, мало слов). Создаёт docs/MISSING.md — карту пробелов знаний.",
+    "flags": [],
+    "group": "quality"
+  },
+  {
+    "name": "improve_named_entity_index.py",
+    "summary": "индекс именованных сущностей из всей базы.",
+    "description": "Извлекает без ML (по паттернам и словарям): - Люди: CamelCase имена, известные авторы из CONTACTS.md - Проекты/Продукты: слова из ENTITIES.md + CamelCase + GitHub-ссылки - Технологии: из словаря tech-терминов - Организации: Inc, Ltd, GmbH, LLC + известные",
+    "flags": [
+      "--min-mentions",
+      "--section",
+      "--type"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_narrative.py",
+    "summary": "строит нарративную линию проекта.",
+    "description": "Извлекает: ключевые решения, этапы, цитаты-выводы и строит связный рассказ. Создаёт docs/NARRATIVE.md.",
+    "flags": [],
+    "group": "graph"
+  },
+  {
+    "name": "improve_network.py",
+    "summary": "анализ сети авторов и проектов.",
+    "description": "Строит: матрицу ко-упоминаний, центральность, кластеры авторов. Создаёт docs/NETWORK.md + docs/network.dot (Graphviz).",
+    "flags": [],
+    "group": "graph"
+  },
+  {
+    "name": "improve_obsidian.py",
+    "summary": "готовит docs/ для импорта в Obsidian.",
+    "description": "Преобразования: 1. Добавляет YAML frontmatter (title, tags, date) если нет 2. Заменяет [Text](../path/file.md) → [[file]] (wikilinks) 3. Создаёт docs/obsidian/ с готовыми файлами (не перезаписывает оригиналы)",
+    "flags": [
+      "--dry-run",
+      "--in-place",
+      "--section"
+    ],
+    "group": "export"
+  },
+  {
+    "name": "improve_onboarding.py",
+    "summary": "руководство для новых участников проекта.",
+    "description": "Собирает: структуру repo, первые шаги, ключевые файлы, скрипты, контакты. Создаёт docs/ONBOARDING.md.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_orphans.py",
+    "summary": "находит документы без входящих ссылок (orphan docs).",
+    "description": "Такие файлы изолированы от навигации и могут быть потеряны. Создаёт docs/ORPHANS.md.",
+    "flags": [],
+    "group": "quality"
+  },
+  {
+    "name": "improve_outline.py",
+    "summary": "строит иерархический outline всей базы знаний.",
+    "description": "Генерирует два вида оглавления: 1. По структуре папок + заголовкам H1/H2 каждого файла 2. По темам (TF-IDF кластеры) — тематическая карта Создаёт docs/OUTLINE.md.",
+    "flags": [
+      "--depth",
+      "--format",
+      "--section"
+    ],
+    "group": "textwork"
+  },
+  {
+    "name": "improve_paragraph_quality.py",
+    "summary": "находит проблемные абзацы в документах.",
+    "description": "Проверяет: - Слишком короткие абзацы (< MIN_SENTENCES предложений) - Копипаста: абзац почти идентичен другому в том же файле (Jaccard > 0.8) - «Водяные» абзацы: много союзов/местоимений, мало ключевых слов - «Оборванные»: заканчиваются без знака препинания",
+    "flags": [
+      "--section",
+      "--verbose"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_passage_retrieval.py",
+    "summary": "BM25-поиск на уровне абзацев.",
+    "description": "В отличие от полнотекстового поиска по файлам, ищет релевантный АБЗАЦ внутри документа — точнее и удобнее для RAG. Алгоритм: BM25 (Okapi BM25, k1=1.5, b=0.75). Режимы:",
+    "flags": [
+      "--context",
+      "--index",
+      "--min-words",
+      "--query",
+      "--section",
+      "--top"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_passive_voice.py",
+    "summary": "детектор пассивного залога и номинализаций (RU/EN).",
+    "description": "Находит: - Пассивный залог RU: «был создан», «является», «используется», «осуществляется» - Пассивный залог EN: «was created», «is used», «has been» - Номинализации RU: слова на -ание/-ение/-ция/-изация/-ость (вместо глаголов) - Клише: «в рамках», «с целью», «в ходе», «посредством», «в связи с»",
+    "flags": [
+      "--section",
+      "--top",
+      "--verbose"
+    ],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_pre_commit.py",
+    "summary": "генерирует .pre-commit-config.yaml для проекта.",
+    "description": "Хуки включают: - trailing whitespace, end-of-file fixes - проверка YAML/JSON синтаксиса - проверка орфографии (improve_spellcheck.py) - проверка сломанных ссылок (improve_broken_links.py)",
+    "flags": [
+      "--dry-run",
+      "--install"
+    ],
+    "group": "cicd"
+  },
+  {
+    "name": "improve_priorities.py",
+    "summary": "ранжирует файлы по важности через TF-IDF.",
+    "description": "Ключевые термины = названия проектов + архитектурные понятия. Создаёт docs/PRIORITIES.md.",
+    "flags": [],
+    "group": "analysis"
+  },
+  {
+    "name": "improve_progress.py",
+    "summary": "трекер прогресса MVP-проекта.",
+    "description": "Извлекает чеклисты [ ] и [x] из docs/, группирует по теме, считает % выполнения. Создаёт docs/PROGRESS.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_progress_sync.py",
+    "summary": "синхронизирует PROGRESS.md с реальным состоянием файлов.",
+    "description": "Stage 2: оркестратор, читает файловую систему, обновляет прогресс детерминированно. Что проверяет: Контакты:  сколько файлов в docs/contacts/, сколько с [x] отметками Обогащение: сколько файлов в docs/enriched/ Архитектура: наличие ключевых документов",
+    "flags": [
+      "--dry-run"
+    ],
+    "group": "reports"
+  },
+  {
+    "name": "improve_qa.py",
+    "summary": "генерирует Q&A листы для каждого раздела docs/.",
+    "description": "Вопросы строятся детерминированно из заголовков и ключевых слов. Создаёт docs/QA.md и QA-файл в каждой подпапке.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_question_extractor.py",
+    "summary": "извлечение вопросов, гипотез и TODO.",
+    "description": "Ищет в текстах: - Вопросы: предложения с «?» или «как», «почему», «зачем», «что если» - Гипотезы: «возможно», «предположим», «скорее всего», «вероятно» - TODO/Ideas: «нужно», «стоит», «следует», «можно было бы», «планируется» - Открытые вопросы: «неясно», «непонятно», «требует изучения»",
+    "flags": [
+      "--min-words",
+      "--section",
+      "--type"
+    ],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_questions.py",
+    "summary": "извлекает открытые вопросы из docs/.",
+    "description": "Ищет вопросительные предложения и паттерны \"открытый вопрос\". Создаёт docs/QUESTIONS.md.",
+    "flags": [],
+    "group": "extract"
+  },
+  {
+    "name": "improve_readability_v2.py",
+    "summary": "индекс читаемости текстов.",
+    "description": "Адаптированная метрика Флеша–Кинкейда для русского языка. Формула: 206.835 - 1.015*(слов/предл.) - 84.6*(слогов/слово) Дополнительно: средняя длина предложения, средняя длина слова. Создаёт docs/READABILITY.md.",
+    "flags": [
+      "--section"
+    ],
+    "group": "quality"
+  },
+  {
+    "name": "improve_reading_list.py",
+    "summary": "персонализированный список чтения по теме.",
+    "description": "Генерирует упорядоченный список документов для изучения темы: 1. BM25-поиск по запросу → релевантные файлы 2. Ранжирование: score × (1 + важность файла) × (1 + связность) 3. Оценивает время чтения (200 сл/мин RU, 250 EN) 4. Группирует по секциям для логического порядка",
+    "flags": [
+      "--format",
+      "--query",
+      "--section",
+      "--top"
+    ],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_reading_order.py",
+    "summary": "строит рекомендуемый порядок чтения документов",
+    "description": "от базовых концепций к сложным. Создаёт docs/READING_ORDER.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_reading_time.py",
+    "summary": "оценивает время чтения каждого документа.",
+    "description": "Формула: - Средняя скорость чтения: 200 слов/мин (русский) / 250 слов/мин (английский) - Время на код: 50 слов/мин (или 30 сек/блок) - Минимум: 1 мин Создаёт docs/READING_TIME.md.",
+    "flags": [
+      "--section",
+      "--wpm"
+    ],
+    "group": "analytics"
+  },
+  {
+    "name": "improve_readmes.py",
+    "summary": "создаёт README.md для каждой подпапки docs/.",
+    "description": "README содержит: список файлов, первые строки каждого файла как описание.",
+    "flags": [],
+    "group": "structure"
+  },
+  {
+    "name": "improve_reclassify.py",
+    "summary": "раскладывает файлы по подпапкам на основе TF-IDF тематики.",
+    "description": "Алгоритм: 1. TF-IDF по всем файлам секции 2. k-means кластеризация (без numpy: по ключевым словам) 3. Именование кластеров по топ-словам 4. Предложение подпапок + перемещение файлов (с --apply)",
+    "flags": [
+      "--apply",
+      "--dry-run",
+      "--section",
+      "--topics"
+    ],
+    "group": "textwork"
+  },
+  {
+    "name": "improve_report.py",
+    "summary": "итоговый executive report о состоянии репозитория.",
+    "description": "Агрегирует данные из HEALTH, STATS, KPI, DECISIONS, VALIDATION, NETWORK. Создаёт docs/REPORT.md — главный отчёт для быстрого обзора.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_risk_register.py",
+    "summary": "реестр рисков проекта Svyazi 2.0.",
+    "description": "Извлекает риски из документов (слова: риск, проблема, блокер, угроза), дополняет курированным списком, строит матрицу вероятность × влияние. Создаёт docs/RISK_REGISTER.md.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_rss.py",
+    "summary": "генерирует RSS/Atom фид из истории git-коммитов.",
+    "description": "Каждый коммит, затрагивающий docs/, становится элементом фида. Фид описывает изменения в Knowledge Base Lorenzo/Svyazi 2.0. Создаёт: docs/feed.rss  — RSS 2.0 docs/feed.atom — Atom 1.0",
+    "flags": [
+      "--base-url",
+      "--max-items"
+    ],
+    "group": "export"
+  },
+  {
+    "name": "improve_run_all.py",
+    "summary": "мастер-скрипт для запуска всех improve_*.py.",
+    "description": "",
+    "flags": [
+      "--changed",
+      "--dry-run",
+      "--fast",
+      "--group",
+      "--only",
+      "--parallel",
+      "--report",
+      "--smart",
+      "--stat"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_schedule.py",
+    "summary": "строит расписание проекта из ACTION_ITEMS и временных маркеров.",
+    "description": "Группирует задачи по кварталам/месяцам, строит Gantt-подобную таблицу. Создаёт docs/SCHEDULE.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_scoring.py",
+    "summary": "система оценки готовности проекта к запуску (Go/No-Go).",
+    "description": "Проверяет 20+ критериев по 5 категориям: документация, архитектура, команда, риски, MVP-готовность. Создаёт docs/SCORING.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_search_index.py",
+    "summary": "строит полнотекстовый JSON-индекс всех docs/.",
+    "description": "Создаёт docs/search_index.json для быстрого поиска по проекту.",
+    "flags": [],
+    "group": "index"
+  },
+  {
+    "name": "improve_see_also.py",
+    "summary": "добавляет блок \"See Also / Смотрите также\"",
+    "description": "в ключевые документы на основе тематического сходства. Создаёт docs/SEE_ALSO.md (индекс) и вставляет блоки в файлы.",
+    "flags": [],
+    "group": "generate"
+  },
+  {
+    "name": "improve_sentiment.py",
+    "summary": "тональный анализ документов.",
+    "description": "Оценивает: оптимизм, скептицизм, срочность, неопределённость. Создаёт docs/SENTIMENT.md.",
+    "flags": [],
+    "group": "analysis"
+  },
+  {
+    "name": "improve_similar.py",
+    "summary": "для каждого документа находит топ-3 похожих.",
+    "description": "Использует Jaccard по множеству слов (без ML-зависимостей). Добавляет блок \"Похожие документы\" в конец каждого файла и создаёт сводный docs/SIMILAR.md.",
+    "flags": [],
+    "group": "analysis"
+  },
+  {
+    "name": "improve_similar_passages.py",
+    "summary": "поиск похожих абзацев между файлами (TF-IDF cosine).",
+    "description": "Полезно для: - Нахождения дублирующегося контента в разных секциях - Кандидатов для слияния документов - Обнаружения «скопированных» блоков Алгоритм:",
+    "flags": [
+      "--min-sim",
+      "--min-words",
+      "--section",
+      "--top"
+    ],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_sitemap.py",
+    "summary": "генерирует навигационную карту репозитория.",
+    "description": "Создаёт: docs/SITEMAP.md (текстовый) + docs/sitemap.xml (XML для поиска).",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_source_map.py",
+    "summary": "строит карту происхождения текстов.",
+    "description": "Для каждого файла определяет: - Дата первого появления (git log) - Автор коммита (git log --format=%an) - Источники в frontmatter (поле source:, url:, origin:) - Внешние URL, указанные в тексте",
+    "flags": [
+      "--authors",
+      "--format",
+      "--section",
+      "--show-imported"
+    ],
+    "group": "textwork"
+  },
+  {
+    "name": "improve_spellcheck.py",
+    "summary": "проверка орфографии в docs/.",
+    "description": "Без внешних зависимостей: использует встроенный словарь частых опечаток и опциональный pyspellchecker если установлен. Создаёт docs/SPELLCHECK.md — список подозрительных слов по файлам.",
+    "flags": [
+      "--fix",
+      "--section"
+    ],
+    "group": "quality"
+  },
+  {
+    "name": "improve_staleness.py",
+    "summary": "находит документы которые давно не обновлялись или неполные.",
+    "description": "Проверяет: - Файлы без изменений в git > N дней (по умолчанию 30) - Файлы без summary-комментария - Файлы без тегов - Файлы короче 100 слов (заготовки)",
+    "flags": [
+      "--days",
+      "--no-git"
+    ],
+    "group": "reports"
+  },
+  {
+    "name": "improve_stats.py",
+    "summary": "детальная статистика по каждому разделу docs/.",
+    "description": "Считает: файлы, слова, заголовки H1-H4, таблицы, code-блоки, ссылки, изображения. Создаёт docs/STATS.md.",
+    "flags": [],
+    "group": "reports"
+  },
+  {
+    "name": "improve_subtopic_fill.py",
+    "summary": "дополняет файлы-заглушки контентом из базы знаний.",
+    "description": "Для каждого файла с малым количеством слов (<MIN_WORDS): 1. Определяет тему по заголовку и имеющимся словам 2. Находит релевантные фрагменты из других файлов базы (по ключевым словам) 3. Вставляет раздел \"## Связанные материалы\" с найденными цитатами 4. Добавляет перекрёстные ссылки",
+    "flags": [
+      "--apply",
+      "--dry-run",
+      "--min-words",
+      "--section"
+    ],
+    "group": "textwork"
+  },
+  {
+    "name": "improve_summaries.py",
+    "summary": "добавляет краткую аннотацию в начало каждого файла.",
+    "description": "Аннотация = первые 3 значимые строки + список найденных проектов в файле. НЕ использует LLM — работает детерминированно.",
+    "flags": [],
+    "group": "structure"
+  },
+  {
+    "name": "improve_tags.py",
+    "summary": "тегирует каждый файл по темам, создаёт docs/TAGS.md",
+    "description": "и добавляет строку тегов в начало каждого файла.",
+    "flags": [],
+    "group": "structure"
+  },
+  {
+    "name": "improve_task_codegen.py",
+    "summary": "генератор слоёв (скилл / MCP-tool / index) из манифестов tasks/*.task.yaml.",
+    "description": "Манифест — единый источник истины. По нему собираются: 1. .claude/skills/<id>.md (если ещё нет — создаётся скелет; если есть — обновляется метаданными) 2. docs/TASKS_INDEX.md — общий индекс задач 3. tasks/_generated/<id>.json — машиночитаемая копия для MCP-инструментов 4. (опционально) tasks/_validation.md — отчёт о невалидных манифестах",
+    "flags": [
+      "--dry-run",
+      "--list",
+      "--task",
+      "--validate"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_tech_radar.py",
+    "summary": "tech radar для технологий проекта Svyazi 2.0.",
+    "description": "Классифицирует компоненты по 4 квадрантам: ADOPT / TRIAL / ASSESS / HOLD. Создаёт docs/TECH_RADAR.md.",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_template_init.py",
+    "summary": "инициализация нового документа из шаблона.",
+    "description": "Создаёт файл по слаг-пути, подставляет переменные frontmatter и плейсхолдеры в теле, делает базовую валидацию через improve_validate_templates. Использование:",
+    "flags": [
+      "--list",
+      "--show",
+      "--slug",
+      "--type",
+      "--vars"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_template_migrate.py",
+    "summary": "миграции frontmatter при изменении схемы шаблона.",
+    "description": "Сравнивает frontmatter существующих документов со схемой и предлагает миграции: - добавить отсутствующие обязательные поля (с дефолтами) - удалить несуществующие в схеме поля - привести значения к допустимым enum Использование:",
+    "flags": [
+      "--all",
+      "--apply",
+      "--dry-run",
+      "--template"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_templates.py",
+    "summary": "генерирует шаблоны документов для каждого раздела.",
+    "description": "Создаёт папку docs/templates/ с готовыми заготовками.",
+    "flags": [],
+    "group": "generate"
+  },
+  {
+    "name": "improve_text_segmenter.py",
+    "summary": "разбивает большие файлы на логические части.",
+    "description": "Для файлов > MAX_WORDS слов: 1. Определяет смысловые границы (заголовки H2/H3, пустые строки, тематические сдвиги) 2. Разбивает на части с сохранением контекста (breadcrumb) 3. Создаёт индекс-файл и отдельные части в подпапке Режимы:",
+    "flags": [
+      "--apply",
+      "--dry-run",
+      "--max-words",
+      "--part-size",
+      "--section"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_textrank.py",
+    "summary": "извлекательное резюме через TextRank (без LLM).",
+    "description": "Алгоритм TextRank: 1. Разбивает текст на предложения 2. Строит граф сходства (Jaccard на токенах) 3. Запускает PageRank на графе 4. Топ-N предложений = резюме",
+    "flags": [
+      "--apply",
+      "--query",
+      "--section",
+      "--sentences"
+    ],
+    "group": "nlpplus"
+  },
+  {
+    "name": "improve_timeline.py",
+    "summary": "извлекает даты и временные маркеры из всех docs/,",
+    "description": "создаёт docs/TIMELINE.md с хронологией событий.",
+    "flags": [],
+    "group": "index"
+  },
+  {
+    "name": "improve_timeline_events.py",
+    "summary": "извлекает даты и события из базы знаний.",
+    "description": "Строит хронологическую ленту: - Конкретные даты: 2024-03-15, март 2024, Q2 2024 - Относительные: «через 3 месяца», «в следующем квартале» - Контекст события (предложение с датой) - Источник (файл + заголовок секции)",
+    "flags": [
+      "--format",
+      "--from",
+      "--section",
+      "--to"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_toc.py",
+    "summary": "добавляет Table of Contents в начало файлов длиннее 500 слов.",
+    "description": "Генерирует TOC из H2/H3 заголовков с якорными ссылками.",
+    "flags": [],
+    "group": "structure"
+  },
+  {
+    "name": "improve_topic_model.py",
+    "summary": "тематическое моделирование без ML-зависимостей.",
+    "description": "Реализует упрощённый TF-IDF + кластеризацию по ключевым словам. Без sklearn/gensim: только стандартная библиотека Python. Алгоритм: 1. TF-IDF для всех слов во всех файлах 2. Топ-N ключевых слов по TF-IDF для каждого файла",
+    "flags": [
+      "--section",
+      "--top-words",
+      "--topics"
+    ],
+    "group": "analytics"
+  },
+  {
+    "name": "improve_validate.py",
+    "summary": "валидация структуры репозитория.",
+    "description": "Проверяет: наличие README в разделах, правильность именования, непустые файлы, корректность ссылок, обязательные мета-поля. Создаёт docs/VALIDATION.md.",
+    "flags": [],
+    "group": "quality"
+  },
+  {
+    "name": "improve_validate_templates.py",
+    "summary": "валидация документов по схемам шаблонов.",
+    "description": "Сканирует docs/, читает YAML-frontmatter каждого .md файла, ищет соответствующую схему в docs/templates/_schemas/<template>.json и проверяет: 1. Frontmatter присутствует и валиден по полям/типам схемы. 2. Required-поля присутствуют. 3. Enum-значения соответствуют допустимым.",
+    "flags": [
+      "--file",
+      "--report",
+      "--section",
+      "--strict"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_version_diff.py",
+    "summary": "показывает содержательные изменения docs/ между коммитами.",
+    "description": "В отличие от git diff показывает: - какие темы добавлены/удалены (по заголовкам ##) - сколько слов добавлено/удалено - какие файлы сильнее всего изменились Создаёт docs/VERSION_DIFF.md.",
+    "flags": [
+      "--from",
+      "--last",
+      "--to"
+    ],
+    "group": "analytics"
+  },
+  {
+    "name": "improve_vocabulary_richness.py",
+    "summary": "метрики богатства словаря документов.",
+    "description": "Вычисляет: - TTR (Type-Token Ratio): уникальных слов / всего слов - STTR (Standardised TTR): средний TTR по окнам 100 слов - Unique per 1000: число уникальных слов на 1000 токенов - Hapax legomena: слова, встречающиеся ровно 1 раз",
+    "flags": [
+      "--section",
+      "--top",
+      "--window"
+    ],
+    "group": "deeptext"
+  },
+  {
+    "name": "improve_watch.py",
+    "summary": "следит за изменениями в docs/ и перезапускает нужные скрипты.",
+    "description": "Использует polling (без внешних зависимостей).",
+    "flags": [
+      "--changed",
+      "--fast",
+      "--group",
+      "--interval"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_watcher.py",
+    "summary": "автономный агент-наблюдатель (Ступень 6).",
+    "description": "Следит за изменениями в docs/ и автоматически запускает нужные скрипты.",
+    "flags": [
+      "--once"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_word_cloud.py",
+    "summary": "генерирует SVG word cloud из топ-слов репозитория.",
+    "description": "Без внешних зависимостей: чистый SVG с псевдо-случайным размещением. Создаёт docs/WORD_CLOUD.svg и docs/WORD_CLOUD.md.",
+    "flags": [],
+    "group": "generate"
+  },
+  {
+    "name": "improve_word_freq.py",
+    "summary": "частотный анализ слов по разделам.",
+    "description": "Топ-30 слов в каждом разделе и общий топ-50. Создаёт docs/WORD_FREQ.md.",
+    "flags": [],
+    "group": "analysis"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "research-note",
+  "description": "Свободная заметка-исследование: контекст, находки, источники, открытые вопросы",
+  "type": "object",
+  "required": ["template", "version", "title", "created", "tags"],
+  "properties": {
+    "template": {"const": "research-note"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "title": {"type": "string", "minLength": 3},
+    "created": {"type": "string", "format": "date"},
+    "status": {"enum": ["draft", "published", "archived"]},
+    "tags": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "related": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Контекст", "Ключевые находки", "Источники", "Открытые вопросы", "Следующие шаги"]
+}

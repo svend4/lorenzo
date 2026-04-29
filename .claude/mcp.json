@@ -1,9 +1,49 @@
 {
   "mcpServers": {
+    "lorenzo-search": {
+      "command": "python",
+      "args": ["scripts/mcp_search_server.py"],
+      "description": "Read-only поиск: search_docs, bm25_passages, find_similar, faceted_search"
+    },
+    "lorenzo-contacts": {
+      "command": "python",
+      "args": ["scripts/mcp_contacts_server.py"],
+      "description": "Контакты: get_contact, list_contacts, update_contact_status, propose_outreach"
+    },
+    "lorenzo-runner": {
+      "command": "python",
+      "args": ["scripts/mcp_runner_server.py"],
+      "description": "Запуск improve_*.py: list_scripts, describe_script, run_improve, run_group"
+    },
+    "lorenzo-graph": {
+      "command": "python",
+      "args": ["scripts/mcp_graph_server.py"],
+      "description": "Аналитика: get_health, get_decisions, get_concept_graph, kpi_history, get_project_status"
+    },
+    "lorenzo-templates": {
+      "command": "python",
+      "args": ["scripts/mcp_templates_server.py"],
+      "description": "Шаблоны и манифесты: list_templates, init_doc, validate_doc, list_tasks, show_task"
+    },
+    "lorenzo-export": {
+      "command": "python",
+      "args": ["scripts/mcp_export_server.py"],
+      "description": "Экспорт: Obsidian, Confluence, EPUB, RSS, CSV, HTML, Report"
+    },
+    "lorenzo-llm": {
+      "command": "python",
+      "args": ["scripts/mcp_llm_server.py"],
+      "description": "LLM с кэшем: llm_summary, llm_qa, llm_enrich, llm_contact"
+    },
+    "lorenzo-watch": {
+      "command": "python",
+      "args": ["scripts/mcp_watch_server.py"],
+      "description": "Мониторинг: recent_changes, pending_actions, watch_status, trigger_recompute"
+    },
     "lorenzo-docs": {
       "command": "python",
       "args": ["scripts/mcp_server.py"],
-      "description": "Lorenzo / Svyazi 2.0 documentation tools"
+      "description": "[Legacy] Монолитный сервер для обратной совместимости"
     }
   }
 }
