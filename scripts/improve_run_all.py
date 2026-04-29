@@ -73,6 +73,8 @@ GROUPS = {
         "improve_mindmap.py",
         "improve_network.py",
         "improve_narrative.py",
+        "improve_word_cloud.py",      # SVG облако слов
+        "improve_templates.py",       # шаблоны документов
     ],
     "reports": [
         # Отчёты (запускать последними)
@@ -116,6 +118,11 @@ GROUPS = {
         "improve_onboarding.py",      # руководство для новых участников
         "improve_dependency_map.py",  # карта зависимостей скриптов→файлов
         "improve_digest_weekly.py",   # еженедельный дайджест изменений
+        "improve_risk_register.py",   # реестр рисков
+        "improve_changelog_auto.py",  # changelog из git-истории
+        "improve_index_master.py",    # главный навигационный индекс
+        "improve_component_matrix.py",# матрица совместимости компонентов
+        "improve_kpi_snapshot.py",    # исторические снапшоты KPI
     ],
 }
 
