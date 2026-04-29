@@ -34,10 +34,25 @@ def first_description(path: Path) -> str:
     return ""
 
 
+RICH_MARKERS = (
+    "<!-- abstract-auto -->",
+    "<!-- backlinks-auto -->",
+    "<!-- similar-docs -->",
+    "<!-- textrank-summary -->",
+)
+
+
 def make_readme(folder: Path):
     files = sorted(f for f in folder.glob("*.md") if f.name != "README.md")
     if not files:
         return
+
+    # Не перезаписывать README с более богатым авто-сгенерированным контентом
+    readme_path = folder / "README.md"
+    if readme_path.exists():
+        existing = readme_path.read_text(encoding="utf-8")
+        if any(marker in existing for marker in RICH_MARKERS):
+            return
 
     title = FOLDER_TITLES.get(folder.name, folder.name)
     lines = [f"# {title}\n"]
