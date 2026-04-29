@@ -1,0 +1,81 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/224-acknowledgments.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Acknowledgments"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Acknowledgments
+
+
+{quote}This paper emerged through dialogue with Claude (Anthropic){quote}
+
+----
+
+
+
+
+
+h2. Acknowledgments
+
+This paper emerged through dialogue with Claude (Anthropic)
+on April 26, 2026, prompted by author's review of the
+Russian-language interview with Konstantin Chukavin in
+Fontanka.ru describing «Обучай». The fivefold typology
+of principal-side agents emerged from the user's observation
+that "Representative Agent" was an insufficient category
+to capture the full landscape.
+
+Konstantin Chukavin's «Обучай» service serves as central
+empirical reference. Public information from the Fontanka
+interview informs case study. No formal partnership with
+or endorsement of «Обучай» exists; it is documented as
+publicly observable case.
+
+The author retained editorial authority. All claims and
+errors are author's responsibility.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[267-acknowledgments]] (сходство 0.20)
+* [[182-acknowledgments]] (сходство 0.17)
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[267-acknowledgments]]
+* [[211-table-of-contents]]
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+* [[251-ai-support-through-configurable-specialist-ensembl]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[182-acknowledgments|Acknowledgments]] _48%_
+* [[146-acknowledgments|Acknowledgments]] _42%_
+* [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _29%_
+* [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _29%_
+* [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _29%_
+* [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _25%_
+* [[211-table-of-contents|Table of Contents]] _25%_
+* [[183-references|References]] _21%_

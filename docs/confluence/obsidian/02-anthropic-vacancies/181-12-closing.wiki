@@ -1,0 +1,92 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/181-12-closing.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "12. Closing"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 12. Closing
+
+
+{quote}The Cinderella Syndrome — quality without visibility —{quote}
+
+----
+
+
+
+
+
+h2. 12. Closing
+
+The Cinderella Syndrome — quality without visibility — 
+is not new. It has shaped human work and recognition 
+since long before computers. What is new is that we 
+finally have technology capable of providing 
+representation at scale — affordably, persistently, 
+across the full range of human work and need.
+
+This is a moment of opportunity. Done well, 
+Representative Agent infrastructure could substantially 
+reduce inequities in attention markets, increase 
+participation by populations currently excluded, and 
+restore quality discovery as feature of how value 
+flows in society.
+
+Done poorly, it could entrench existing inequities, 
+add new vectors for exploitation, and erode the human 
+agency it's meant to enhance.
+
+The difference is not technological — it's 
+institutional. Whether we build representative agents 
+within frameworks of principal sovereignty, transparency, 
+fairness, and accessibility — or whether we let them 
+emerge organically from commercial incentives — will 
+determine which future we get.
+
+We propose the more careful path. We invite collaboration 
+in walking it.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[223-12-closing]] (сходство 0.15)
+* [[266-13-closing]] (сходство 0.12)
+* [[179-10-open-questions]] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[223-12-closing]]
+* [[179-10-open-questions]]
+* [[266-13-closing]]
+* [[169-table-of-contents]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[169-table-of-contents|Table of Contents]] _25%_
+* [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]] _25%_
+* [[179-10-open-questions|10. Open Questions]] _21%_
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]] _17%_
+* [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _17%_
+* [[153-executive-summary|Executive Summary]] _17%_
+* [[168-abstract|Abstract]] _17%_
+* [[210-abstract|Abstract]] _17%_

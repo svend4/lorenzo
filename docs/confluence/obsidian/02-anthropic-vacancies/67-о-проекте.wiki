@@ -1,0 +1,263 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/67-о-проекте.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "🇷🇺 О проекте"
+tags:
+  * rag
+  * architecture
+  * collaboration
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 🇷🇺 О проекте
+
+
+{quote}Nautilus — протокол и reference implementation для _федерации_{quote}
+
+----
+
+
+h2. Содержание
+
+* [🇷🇺 О проекте|#о-проекте]
+  * [Философия|#философия]
+  * [Эталонная экосистема: svend4|#эталонная-экосистема-svend4]
+  * [Быстрый старт|#быстрый-старт]
+  * [Подключить свой репозиторий|#подключить-свой-репозиторий]
+  * [Как это работает|#как-это-работает]
+  * [Уровни совместимости|#уровни-совместимости]
+  * [Документация|#документация]
+  * [Файловая структура|#файловая-структура]
+  * [Статус проекта|#статус-проекта]
+  * [Лицензии|#лицензии]
+  * [Контакт|#контакт]
+
+----
+
+
+
+
+
+
+h2. 🇷🇺 О проекте
+
+Nautilus — протокол и reference implementation для _федерации_ 
+независимых git-репозиториев, содержащих знания в разных форматах, 
+без принудительного приведения к единой схеме.
+
+Подобно тому, как Office Suite читает {{.docx}}, {{.pdf}}, {{.xlsx}} 
+без слияния их в один формат — Nautilus читает репозитории 
+экосистемы, находит связи между ними и строит общий поисковый слой.
+
+h3. Философия
+
+Большинство современных систем знаний (Notion, Obsidian, Roam, 
+Coda) требуют миграции данных в их единый формат. Это создаёт 
+lock-in, теряет авторские модели, гомогенизирует разные типы 
+знания.
+
+_Nautilus выбирает обратный путь:_
+
+* Каждый репозиторий сохраняет свой native-формат
+* Перевод между форматами — через адаптеры, по запросу
+* Консенсус считается по пересечению результатов из разных репо
+* Добавление нового репо занимает 5 минут и не требует рефакторинга
+
+h3. Эталонная экосистема: svend4
+
+Reference implementation демонстрируется на трёх репо:
+
+|| Репо || Формат || Содержание || Угол зрения ||
+|| [info1](https://github.com/svend4/info1) || `.info1` || 74 документа с α-уровнями || Методологический ||
+|| [pro2](https://github.com/svend4/pro2) || `.pro2` || Q6-граф концептов, 64 вершины || Семантический ||
+|| [meta](https://github.com/svend4/meta) || `.meta` || 256 CA-правил + 64 гексаграммы || Символьный ||
+
+Триада углов не случайна — это классическая семиотическая 
+структура Пирса (pragmatic × semantic × syntactic), реализованная 
+как federated knowledge ecosystem.
+
+h3. Быстрый старт
+
+{code:language=bash}
+git clone https://github.com/svend4/nautilus
+cd nautilus
+pip install -r requirements.txt
+
+# CLI
+python portal.py --query "кристалл"
+
+# Веб-интерфейс
+python portal.py --serve
+# открыть http://localhost:8000
+
+# MCP для Claude Desktop (в разработке)
+# см. MCP-EXTENSION.md
+{code}
+
+h3. Подключить свой репозиторий
+
+_Минимально (Level 0–1, 5 минут):_
+
+1. Положите {{nautilus.json}} в корень вашего репо:
+
+{code:language=json}
+{
+  "name": "my-repo",
+  "format": ".my-format",
+  "native_unit": "что хранится",
+  "bridges": {
+    "info1": "как концепты соотносятся",
+    "pro2": "...",
+    "meta": "..."
+  }
+}
+{code}
+
+2. Напишите {{passport.md}} — одну страницу описания (см. шаблон в 
+   [{{passports/}}|./passports/])
+
+_Полностью (Level 2–3, несколько часов):_
+
+3. Добавьте адаптер в {{adapters/my_repo.py}}, реализующий 
+   {{BaseAdapter}} интерфейс (см. [[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md §6]])
+
+4. Зарегистрируйте репо в {{nautilus.json}} корневого портала
+
+h3. Как это работает
+
+{code}
+┌──────────┐  ┌──────────┐  ┌──────────┐
+│  info1   │  │   pro2   │  │   meta   │
+│ α-уровни │  │ Q6-граф  │  │CA-правила│
+└────┬─────┘  └────┬─────┘  └────┬─────┘
+     │             │             │
+     └─────────────┼─────────────┘
+                   │
+           ⬡ Nautilus Portal
+       (адаптеры + консенсус)
+                   │
+         ┌─────────┼─────────┐
+         │         │         │
+       CLI       Web       MCP
+                        (для Claude)
+{code}
+
+_Консенсус_ считается по пересечению: концепт «full consensus», 
+если найден во всех опрошенных репо; «partial» — в части; 
+«singular» — только в одном. Отчёт всегда показывает, откуда 
+пришёл каждый результат.
+
+h3. Уровни совместимости
+
+Репо подключается постепенно — не обязательно сразу на максимум.
+
+* _0: Discoverable_ — только объявлен в registry
+* _1: Readable_ — имеет passport + {{describe()}} метод
+* _2: Queryable_ — реализует {{fetch(query)}} — поиск работает
+* _3: Interactive_ — {{translate_to()}} — cross-repo переводы через 
+  bridges
+
+Детали — в [[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md §5]].
+
+h3. Документация
+
+* _[[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md]]_ — formal 
+  specification v1.0 (15 страниц)
+* _[passports/|./passports/]_ — описания репо экосистемы для 
+  людей
+  * [[info1]]
+  * [[pro2]]
+  * [[meta]]
+* _Issues_ — вопросы, предложения, сообщения об ошибках
+
+h3. Файловая структура
+
+{code}
+nautilus/
+├── README.md              ← этот файл (RU/EN)
+├── PORTAL-PROTOCOL.md     ← formal specification v1.0
+├── portal.py              ← главный движок
+├── nautilus.json          ← registry репо экосистемы
+├── requirements.txt       ← Python зависимости
+├── index.html             ← GitHub Pages (статический портал)
+├── glyph_adapter.py       ← мета-адаптер символьного уровня
+├── adapters/              ← по одному адаптеру на репо
+│   ├── base.py            ← BaseAdapter + PortalEntry
+│   ├── info1.py
+│   ├── pro2.py
+│   └── meta.py
+└── passports/             ← human-readable описания репо
+    ├── info1.md
+    ├── pro2.md
+    └── meta.md
+{code}
+
+h3. Статус проекта
+
+Nautilus находится в _активной разработке_:
+
+* ✅ Протокол v1.0 (draft) — спецификация написана
+* ✅ Reference implementation — портал работает с тремя репо
+* 🔄 MCP-обёртка — в работе
+* 🔄 PyPI packaging — планируется
+* 🔄 Arxiv preprint — планируется
+* ⏳ Submission в [MCP Registry|https://github.com/mcp] — после 
+  завершения MCP-обёртки
+
+_Текущая версия_: v1.0.0-draft. Breaking changes возможны до 
+v1.0.0-stable.
+
+h3. Лицензии
+
+* _Документация_ (README, PORTAL-PROTOCOL, passports): 
+  [CC BY 4.0|https://creativecommons.org/licenses/by/4.0/]
+* _Код_ (portal, adapters, glyph_adapter): 
+  [MIT|./LICENSE]
+
+h3. Контакт
+
+* _Автор_: svend4
+* _Связаться_: через [Issues|https://github.com/svend4/nautilus/issues]
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[68-about]] (сходство 0.17)
+* [[07-2-terminology]] (сходство 0.16)
+* [[77-2-terminology]] (сходство 0.14)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[68-about]]
+* [[07-2-terminology]]
+* [[77-2-terminology]]
+* [[76-1-introduction]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[68-about|🇬🇧 About]] _33%_
+* [[25-13-reference-implementation|13. Reference Implementation]] _29%_
+* [[42-author-contact|Author & Contact]] _29%_
+* [[93-18-reference-implementation|18. Reference Implementation]] _29%_
+* [[104-appendix-c-references|Appendix C: References]] _25%_
+* [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _25%_
+* [[122-глоссарий|Глоссарий]] _25%_
+* [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _25%_

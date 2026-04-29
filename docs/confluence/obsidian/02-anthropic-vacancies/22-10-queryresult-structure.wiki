@@ -1,0 +1,86 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "10. QueryResult Structure"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 10. QueryResult Structure
+
+
+{quote}results_by_repo: dict[str, list[PortalEntry]]{quote}
+
+----
+
+
+
+
+
+h2. 10. QueryResult Structure
+
+{code:language=python}
+class QueryResult:
+    query: str
+    results_by_repo: dict[str, list[PortalEntry]]
+    consensus: Consensus
+    total_entries: int
+    repos_queried: list[str]
+    errors: dict[str, str]        # repo_name → error message
+    timing: dict[str, float]      # repo_name → seconds elapsed
+{code}
+
+h3. 10.1. Serialization
+
+QueryResult MUST поддерживать сериализацию в JSON, Markdown, HTML.
+
+* {{to_json()}} — для MCP / API
+* {{to_markdown()}} — для CLI и LLM consumption
+* {{to_html()}} — для web interface
+
+Формат Markdown SHOULD группировать результаты по consensus 
+category (сначала full, затем partial, затем singular).
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[21-9-query-flow]] (сходство 0.11)
+* [[25-13-reference-implementation]] (сходство 0.11)
+* [[81-6-adapter-interface]] (сходство 0.11)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[25-13-reference-implementation]]
+* [[21-9-query-flow]]
+* [[28-appendix-a-minimal-working-example]]
+* [[86-11-relevance-ranking]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _37%_
+* [[21-9-query-flow|9. Query Flow]] _33%_
+* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _33%_
+* [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]] _33%_
+* [[18-6-adapter-interface|6. Adapter Interface]] _29%_
+* [[81-6-adapter-interface|6. Adapter Interface]] _29%_
+* [[09-4-passport-passport-md|4. Passport ({{passport.md}})]] _25%_
+* [[103-appendix-b-change-log|Appendix B: Change Log]] _25%_

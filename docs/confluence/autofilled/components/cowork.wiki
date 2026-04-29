@@ -1,0 +1,50 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/autofilled/components/cowork.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Cowork
+
+
+{quote}_Компонент экосистемы Svyazi 2.0_{quote}
+_Проекты:_ Svyazi
+
+----
+
+
+
+
+
+_Тип:_ 783
+_Статус:_ GO 🟢
+_Упоминаний:_ 59
+
+h2. Описание
+_Компонент экосистемы Svyazi 2.0_
+
+h2. Ссылки
+* [Исходники|#]
+* [Документация|../README.md]
+
+
+h2. Связанные документы
+
+* [SGB|sgb.md] _90%_
+* [Svyazi|svyazi.md] _90%_
+* [Антропик|.md] _83%_
+* [ingit|ingit.md] _83%_
+* [kksudo|kksudo.md] _83%_
+* [Lorenzo|lorenzo.md] _83%_
+* [Nautilus|nautilus.md] _83%_
+* [spbmolot|spbmolot.md] _83%_
+
+
+
+----
+
+_Смотрите также:_
+* [.md|.md]
+* [ingit|ingit.md]
+* [lorenzo|lorenzo.md]
+* [nautilus|nautilus.md]
+

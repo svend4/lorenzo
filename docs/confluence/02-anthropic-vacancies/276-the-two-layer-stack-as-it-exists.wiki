@@ -1,0 +1,101 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md}}
+Дата: 2026-04-29
+{info}
+
+h1. The Two-Layer Stack As It Exists
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}Currently, AI-collaborative work tends to occur in one of two{quote}
+
+----
+
+
+
+
+
+h2. The Two-Layer Stack As It Exists
+
+Currently, AI-collaborative work tends to occur in one of two 
+layers:
+
+_Layer A — Chat._ The Anthropic chat interface (and similar 
+products from other providers). Excellent for creative dialogue, 
+exploration, generating content. The natural creative space. 
+Linear by structure.
+
+_Layer C — Code repositories._ GitHub, GitLab, Codeberg. 
+Excellent for storing structured artifacts, version control, 
+collaboration around technical artifacts. Branching, merging, 
+issues, discussions. Code-oriented by design.
+
+These two layers serve different functions and serve them well. 
+The problem is what happens between them.
+
+Currently, the transition from chat-derived content to repository-
+stored artifacts is _manual copy-paste_. The chat produces a 
+document; the human copies it; the human pastes it into a 
+repository file; the human commits it. Any further development 
+of the document goes back through chat (or sometimes through 
+direct editing in the repository).
+
+This works for simple cases. It breaks down when:
+
+* The chat content is too large to copy effectively
+* Multiple related artifacts emerge across multiple chats
+* Cross-references between artifacts need to be maintained
+* Comments on specific sections need preservation
+* Branching exploration needs to maintain links to original
+* The human wants to return to a specific point in chat to 
+  develop a particular thread further
+* Multiple parallel developments need to be tracked
+
+This is what just happened in this seven-document session. 
+The session contains the documents (in chat form), but extracting 
+them, organizing them, maintaining their relationships, enabling 
+further work on specific parts — all of this requires 
+infrastructure that does not exist as a unified product.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [279-existing-approximations|279-existing-approximations.md] (сходство 0.19)
+* [275-why-this-document-exists|275-why-this-document-exists.md] (сходство 0.18)
+* [280-the-specific-case-in-front-of-us|280-the-specific-case-in-front-of-us.md] (сходство 0.18)
+
+
+
+
+----
+
+_Смотрите также:_
+* [279-existing-approximations|279-existing-approximations.md]
+* [280-the-specific-case-in-front-of-us|280-the-specific-case-in-front-of-us.md]
+* [275-why-this-document-exists|275-why-this-document-exists.md]
+* [277-what-s-missing-layer-b|277-what-s-missing-layer-b.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [The Specific Case in Front of Us|280-the-specific-case-in-front-of-us.md] _42%_
+* [Practical Recommendations for the Current Project|284-practical-recommendations-for-the-current-project.md] _42%_
+* [What's Missing — Layer B|277-what-s-missing-layer-b.md] _37%_
+* [Why This Document Exists|275-why-this-document-exists.md] _29%_
+* [Why This Hasn't Been Built|278-why-this-hasn-t-been-built.md] _29%_
+* [Existing Approximations|279-existing-approximations.md] _29%_
+* [What This Document Doesn't Solve|283-what-this-document-doesn-t-solve.md] _29%_
+* [Acknowledgments|286-acknowledgments.md] _29%_

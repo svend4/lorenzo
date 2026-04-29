@@ -34,17 +34,30 @@ def first_description(path: Path) -> str:
     return ""
 
 
+RICH_MARKERS = (
+    "<!-- abstract-auto -->",
+    "<!-- backlinks-auto -->",
+    "<!-- similar-docs -->",
+    "<!-- textrank-summary -->",
+)
+
+
 def make_readme(folder: Path):
     files = sorted(f for f in folder.glob("*.md") if f.name != "README.md")
     if not files:
         return
 
-    # Пропустить если README помечен <!-- handcrafted --> в первых 5 строках
-    existing = folder / "README.md"
-    if existing.exists():
-        head = existing.read_text(encoding="utf-8").splitlines()[:5]
+    # Двойная защита:
+    # 1. <!-- handcrafted --> в первых 5 строках — ручной README
+    # 2. RICH_MARKERS — авто-обогащённый README (другими скриптами)
+    readme_path = folder / "README.md"
+    if readme_path.exists():
+        existing_text = readme_path.read_text(encoding="utf-8")
+        head = existing_text.splitlines()[:5]
         if any("<!-- handcrafted -->" in line for line in head):
-            print(f"  README: {existing.relative_to(ROOT)} — handcrafted, пропускаем")
+            print(f"  README: {readme_path.relative_to(ROOT)} — handcrafted, пропускаем")
+            return
+        if any(marker in existing_text for marker in RICH_MARKERS):
             return
 
     title = FOLDER_TITLES.get(folder.name, folder.name)

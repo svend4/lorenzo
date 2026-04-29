@@ -1,0 +1,135 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 12. Onboarding Paths (Normative)
+
+
+h2. Contents
+
+* [12. Onboarding Paths (Normative)|#12-onboarding-paths-normative]
+  * [12.1. Path A — Manual Adapter|#121-path-a-manual-adapter]
+  * [12.2. Path B — generatepassport.py Wizard|#122-path-b-generatepassportpy-wizard]
+  * [12.3. Path C — Self-Declaring Repo (AutoAdapter)|#123-path-c-self-declaring-repo-autoadapter]
+  * [12.4. Path D — Auto-Scanner|#124-path-d-auto-scanner]
+  * [12.5. Path E — GitHub Actions Webhook|#125-path-e-github-actions-webhook]
+  * [12.6. Path Selection Guidance|#126-path-selection-guidance]
+
+
+
+{quote}NPP v1.1 формализует пять путей подключения нового Repo как{quote}
+
+----
+
+
+
+
+
+h2. 12. Onboarding Paths (Normative)
+
+NPP v1.1 формализует пять путей подключения нового Repo как 
+equivalent-рангованные стратегии. Каждая имеет свой trade-off между 
+автоматизацией и качеством.
+
+h3. 12.1. Path A — Manual Adapter
+
+_Время_: 10–20 минут. _Автоматизация_: 0%. _Качество_: высокое.
+
+1. Написать {{adapters/<format>.py}}, наследуясь от {{BaseAdapter}}
+2. Написать {{passports/<format>.md}}
+3. Зарегистрировать адаптер в {{adapters/_init_.py}}
+4. Добавить импорт в {{portal.py}} в конструктор
+5. Добавить запись в {{nautilus.json}}
+
+h3. 12.2. Path B — generate_passport.py Wizard
+
+_Время_: 2–5 минут. _Автоматизация_: ~50%. _Качество_: 
+требует доработки.
+
+{code:language=bash}
+python generate_passport.py --repo owner/repo --format myformat --adapter
+{code}
+
+Генерирует заготовки passport и adapter. Дальше вручную:
+
+* Заполнить {{_static_entries()}} реальными концептами
+* Дописать Q6-отображение в паспорте
+* Добавить мосты к другим Repos
+
+h3. 12.3. Path C — Self-Declaring Repo (AutoAdapter)
+
+_Время_: 10 минут. _Автоматизация_: ~80%. _Качество_: 
+зависит от index в nautilus.json target-репо.
+
+1. В целевом репо создать {{nautilus.json}} в корне с полем {{index}}
+2. В portal-репо добавить запись {{{"adapter": "auto", "repo": "..."}}}
+3. Portal автоматически использует AutoAdapter
+
+_Ключевое свойство_: repo регистрирует себя сам, portal не 
+требует изменений кода. Это enables federation без координации.
+
+h3. 12.4. Path D — Auto-Scanner
+
+_Время_: 2 минуты. _Автоматизация_: ~95%. _Качество_: низкое 
+(только структура).
+
+{code:language=bash}
+python scan_repo.py owner/repo-name
+{code}
+
+Результат:
+* {{passports/<format>.md}} — авто-заполнен по структуре
+* {{adapters/<format>.py}} — статика из найденных файлов  
+* {{auto_report.json}} — детальный отчёт
+
+Сканер — _отправная точка_, результат всё равно нужно проверить 
+и уточнить Q6-маппинг вручную.
+
+h3. 12.5. Path E — GitHub Actions Webhook
+
+_Время_: 30 минут настройки, далее полностью автоматически. 
+_Автоматизация_: 100%. _Качество_: низкое без Q6-маппинга.
+
+1. В целевом репо создать {{.github/workflows/register_nautilus.yml}}
+2. При push в target-репо — {{repository_dispatch}} event в portal-репо
+3. В portal-репо {{.github/workflows/auto_update.yml}} запускает 
+   {{scan_repo.py}} + {{generate_passport.py}} + commit
+
+_Плюсы_: полностью автоматически.  
+_Минусы_: нужны GitHub токены с правами на оба репо, Q6 всё равно 
+требует ручной проверки.
+
+h3. 12.6. Path Selection Guidance
+
+|| Вариант || Когда использовать ||
+|| **A** || Когда хорошо знаете структуру Repo и хотите high-quality ||
+|| **B** || Стартовая точка для большинства новых Repos ||
+|| **C** || Для Repos, которые автор хочет сам декларировать ||
+|| **D** || Для быстрой первой интеграции незнакомых Repos ||
+|| **E** || Для автоматической fleet-federation многих Repos ||
+
+_Рекомендуемый путь для типового Repo_: B → доработать вручную. 
+Для federation новых Repos в будущем — C.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [07-2-terminology|07-2-terminology.md]
+* [78-3-registry-nautilus-json|78-3-registry-nautilus-json.md]
+* [77-2-terminology|77-2-terminology.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [2. Terminology|77-2-terminology.md] _21%_
+* [3. Registry ({{nautilus.json}})|78-3-registry-nautilus-json.md] _17%_

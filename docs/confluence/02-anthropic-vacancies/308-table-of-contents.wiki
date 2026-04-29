@@ -1,0 +1,67 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/308-table-of-contents.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Table of Contents
+
+
+{quote}1. _The Cowork Discovery and Why It Changes Everything_{quote}
+
+----
+
+
+
+
+
+h2. Table of Contents
+
+1. _The Cowork Discovery and Why It Changes Everything_
+2. _What Cowork Provides That InGit Doesn't Need to Build_
+3. _What InGit Provides That Cowork Lacks_
+4. _The Symbiotic Architecture_
+5. _Four Integration Paths in Order of Accessibility_
+6. _Refined InGit Scope with Cowork in Mind_
+7. _Practical First Steps This Month_
+8. _Implications for Nautilus and OKWF_
+9. _Risks and Open Questions_
+10. _Strategic Positioning_
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [253-table-of-contents|253-table-of-contents.md] (сходство 0.15)
+* [137-table-of-contents|137-table-of-contents.md] (сходство 0.13)
+* [211-table-of-contents|211-table-of-contents.md] (сходство 0.13)
+
+
+
+
+----
+
+_Смотрите также:_
+* [253-table-of-contents|253-table-of-contents.md]
+* [211-table-of-contents|211-table-of-contents.md]
+* [137-table-of-contents|137-table-of-contents.md]
+* [322-appendix-b-comparison-matrix|322-appendix-b-comparison-matrix.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [1. The Cowork Discovery and Why It Changes Everything|309-1-the-cowork-discovery-and-why-it-changes-everythi.md] _42%_
+* [Содержание|326-содержание.md] _33%_
+* [2. What Cowork Provides That InGit Doesn't Need to Build|310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md] _29%_
+* [3. What InGit Provides That Cowork Lacks|311-3-what-ingit-provides-that-cowork-lacks.md] _29%_
+* [6. Refined InGit Scope with Cowork in Mind|314-6-refined-ingit-scope-with-cowork-in-mind.md] _29%_
+* [Appendix B: Comparison Matrix|322-appendix-b-comparison-matrix.md] _29%_
+* [Кластеры тематически близких файлов|../CLUSTERS.md] _29%_
+* [Table of Contents|137-table-of-contents.md] _25%_

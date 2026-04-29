@@ -548,9 +548,9 @@ Story тверже становится. «Infrastructure для distributed wor
 ---
 
 **Похожие документы:**
-- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.18)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.18)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.18)
+- [CONCEPTS](../CONCEPTS.md) (сходство 0.18)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md) (сходство 0.18)
+- [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -558,8 +558,32 @@ Story тверже становится. «Infrastructure для distributed wor
 ---
 
 **Смотрите также:**
-- [CONCEPTS](docs/CONCEPTS.md)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [ACTION_ITEMS](../ACTION_ITEMS.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md)
+- [Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md)
+- [Обратная связь](133-обратная-связь.md)
+- [Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги](248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _25%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _25%_
+## Связанные документы
+
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _25%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _21%_

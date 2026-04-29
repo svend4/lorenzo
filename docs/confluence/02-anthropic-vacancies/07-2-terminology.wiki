@@ -1,0 +1,97 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/07-2-terminology.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 2. Terminology
+
+
+{quote}_Ecosystem_ — набор репозиториев, участвующих в одной федерации.{quote}
+
+----
+
+
+
+
+
+h2. 2. Terminology
+
+_Ecosystem_ — набор репозиториев, участвующих в одной федерации. 
+Имеет уникальное имя (например, {{svend4}}).
+
+_Repository-participant_ (далее — _Repo_) — Git-репозиторий, 
+содержащий минимум {{nautilus.json}} и {{passport.md}} в корне.
+
+_Native format_ — исходный формат данных в Repo, определяемый автором. 
+Может быть любым: Markdown, JSON, YAML, plain text, бинарный формат, 
+и так далее. NPP не ограничивает native format.
+
+_Portal_ — implementation NPP, которая загружает registry, инстанцирует 
+адаптеры и выполняет query-операции. Reference implementation: 
+{{github.com/svend4/nautilus}}, но возможны альтернативные.
+
+_Registry_ — файл {{nautilus.json}} в корне Portal-репо, перечисляющий 
+все Repos экосистемы с их метаданными.
+
+_Adapter_ — Python-модуль (или эквивалент на другом языке), 
+реализующий {{BaseAdapter}} interface и переводящий native format Repo 
+в унифицированный {{PortalEntry}}.
+
+_Passport_ — {{passport.md}} файл в корне каждого Repo, 
+human-readable описание: что хранит, какая философия, кто автор, 
+как работать.
+
+_PortalEntry_ — унифицированная структура данных, в которую 
+адаптеры конвертируют native-записи при fetch.
+
+_Bridge_ — декларативное описание моста между концепциями 
+разных Repos. Описан в {{nautilus.json}} в поле {{bridges}}.
+
+_Consensus_ — результат сопоставления найденных концептов между 
+несколькими Repos. Может быть full (во всех Repos), partial (в 
+некоторых), singular (только в одном).
+
+_Compatibility Level_ — целое число от 0 до 3, характеризующее 
+степень интеграции Repo с экосистемой. Определение в разделе 5.
+
+_Protocol Version_ — semver-версия NPP, объявляемая в 
+{{nautilus.json}} поле {{protocol_version}}.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [77-2-terminology|77-2-terminology.md] (сходство 0.63)
+* [08-3-registry-nautilus-json|08-3-registry-nautilus-json.md] (сходство 0.16)
+* [67-о-проекте|67-о-проекте.md] (сходство 0.16)
+
+
+
+
+----
+
+_Смотрите также:_
+* [77-2-terminology|77-2-terminology.md]
+* [08-3-registry-nautilus-json|08-3-registry-nautilus-json.md]
+* [67-о-проекте|67-о-проекте.md]
+* [78-3-registry-nautilus-json|78-3-registry-nautilus-json.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [2. Terminology|77-2-terminology.md] _53%_
+* [4. Passport ({{passport.md}})|79-4-passport-passport-md.md] _29%_
+* [3. Registry ({{nautilus.json}})|08-3-registry-nautilus-json.md] _25%_
+* [🇬🇧 About|68-about.md] _25%_
+* [Abstract|74-abstract.md] _25%_
+* [3. Registry ({{nautilus.json}})|78-3-registry-nautilus-json.md] _25%_
+* [7. PortalEntry Structure|82-7-portalentry-structure.md] _25%_
+* [7. PortalEntry Structure|19-7-portalentry-structure.md] _21%_

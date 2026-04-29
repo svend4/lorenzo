@@ -1,0 +1,261 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/68-about.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 🇬🇧 About
+
+
+{quote}Nautilus is a _federation protocol_ and reference implementation{quote}
+
+----
+
+
+h2. Содержание
+
+* [🇬🇧 About|#about]
+  * [Philosophy|#philosophy]
+  * [Reference Ecosystem: svend4|#reference-ecosystem-svend4]
+  * [Quick Start|#quick-start]
+  * [Connect Your Repository|#connect-your-repository]
+  * [How It Works|#how-it-works]
+  * [Compatibility Levels|#compatibility-levels]
+  * [Documentation|#documentation]
+  * [Project Status|#project-status]
+  * [Why "Nautilus"?|#why-nautilus]
+  * [Related Work|#related-work]
+  * [Licenses|#licenses]
+  * [Contact|#contact]
+
+----
+
+
+
+
+
+
+h2. 🇬🇧 About
+
+Nautilus is a _federation protocol_ and reference implementation 
+for independent git repositories containing knowledge in different 
+native formats, without forcing them into a unified schema.
+
+Just as an Office Suite reads {{.docx}}, {{.pdf}}, and {{.xlsx}} without 
+merging them into one format — Nautilus reads repositories in an 
+ecosystem, finds bridges between them, and builds a common search 
+layer on top.
+
+h3. Philosophy
+
+Most modern knowledge systems (Notion, Obsidian, Roam, Coda) 
+require migrating data into their unified format. This creates 
+vendor lock-in, erases authorial models, and homogenizes different 
+types of knowledge.
+
+_Nautilus takes the opposite path:_
+
+* Each repository keeps its native format
+* Translation between formats happens through adapters, on demand
+* Consensus is computed as intersection of results across repos
+* Adding a new repository takes 5 minutes and requires no 
+  refactoring
+
+h3. Reference Ecosystem: svend4
+
+Reference implementation demonstrates on three repositories:
+
+|| Repo || Format || Content || Perspective ||
+|| [info1](https://github.com/svend4/info1) || `.info1` || 74 documents with α-levels || Methodological ||
+|| [pro2](https://github.com/svend4/pro2) || `.pro2` || Q6-graph, 64 vertices || Semantic ||
+|| [meta](https://github.com/svend4/meta) || `.meta` || 256 CA rules + 64 hexagrams || Symbolic ||
+
+The three-perspective structure is not accidental — it reflects 
+Peirce's semiotic triad (pragmatic × semantic × syntactic), 
+realized as a federated knowledge ecosystem.
+
+h3. Quick Start
+
+{code:language=bash}
+git clone https://github.com/svend4/nautilus
+cd nautilus
+pip install -r requirements.txt
+
+# CLI
+python portal.py --query "crystal"
+
+# Web interface
+python portal.py --serve
+# open http://localhost:8000
+
+# MCP for Claude Desktop (in development)
+# see MCP-EXTENSION.md
+{code}
+
+h3. Connect Your Repository
+
+_Minimal (Level 0–1, 5 minutes):_
+
+1. Place {{nautilus.json}} in your repo's root:
+
+{code:language=json}
+{
+  "name": "my-repo",
+  "format": ".my-format",
+  "native_unit": "what is stored",
+  "bridges": {
+    "info1": "how concepts correspond",
+    "pro2": "...",
+    "meta": "..."
+  }
+}
+{code}
+
+2. Write {{passport.md}} — a one-page description (see templates in 
+   [{{passports/}}|./passports/])
+
+_Full (Level 2–3, a few hours):_
+
+3. Add an adapter in {{adapters/my_repo.py}} implementing the 
+   {{BaseAdapter}} interface (see 
+   [PORTAL-PROTOCOL.md §6|./PORTAL-PROTOCOL.md#6-adapter-interface])
+
+4. Register the repo in the portal's root {{nautilus.json}}
+
+h3. How It Works
+
+{code}
+┌──────────┐  ┌──────────┐  ┌──────────┐
+│  info1   │  │   pro2   │  │   meta   │
+│ α-levels │  │Q6-graph  │  │ CA-rules │
+└────┬─────┘  └────┬─────┘  └────┬─────┘
+     │             │             │
+     └─────────────┼─────────────┘
+                   │
+           ⬡ Nautilus Portal
+         (adapters + consensus)
+                   │
+         ┌─────────┼─────────┐
+         │         │         │
+       CLI       Web       MCP
+                        (for Claude)
+{code}
+
+_Consensus_ is computed as intersection: a concept has "full 
+consensus" if found in all queried repos; "partial" if found in 
+some; "singular" if only in one. Reports always show attribution — 
+which repo each result came from.
+
+h3. Compatibility Levels
+
+Repos are connected gradually — not necessarily at max level from 
+day one.
+
+* _0: Discoverable_ — declared in registry only
+* _1: Readable_ — has passport + {{describe()}} method
+* _2: Queryable_ — implements {{fetch(query)}} — search works
+* _3: Interactive_ — {{translate_to()}} — cross-repo translations 
+  via bridges
+
+Details in [PORTAL-PROTOCOL.md §5|./PORTAL-PROTOCOL.md#5-compatibility-levels].
+
+h3. Documentation
+
+* _[PORTAL-PROTOCOL.md|./PORTAL-PROTOCOL.md]_ — formal v1.0 
+  specification (15 pages)
+* _[passports/|./passports/]_ — human-readable repo descriptions
+  * [info1|./passports/info1.md]
+  * [pro2|./passports/pro2.md]
+  * [meta|./passports/meta.md]
+* _Issues_ — questions, proposals, bug reports
+
+h3. Project Status
+
+Nautilus is under _active development_:
+
+* ✅ Protocol v1.0 (draft) — specification written
+* ✅ Reference implementation — portal working with three repos
+* 🔄 MCP wrapper — in progress
+* 🔄 PyPI packaging — planned
+* 🔄 Arxiv preprint — planned
+* ⏳ [MCP Registry|https://github.com/mcp] submission — after MCP 
+  wrapper completion
+
+_Current version_: v1.0.0-draft. Breaking changes possible until 
+v1.0.0-stable.
+
+h3. Why "Nautilus"?
+
+A nautilus shell is a _spiral of nested chambers_, each larger 
+than the last but built on the same geometry. This is *fractal 
+scaling with preserved proportion*. Nautilus Protocol embodies the 
+same pattern: repos nested inside an ecosystem, each self-contained 
+yet connected by the same protocol, the same geometry of bridges.
+
+h3. Related Work
+
+Nautilus sits in the space of knowledge federation protocols, 
+alongside:
+
+* _[ActivityPub|https://activitypub.rocks/]_ (W3C) — federation 
+  for social activities
+* _[Solid|https://solidproject.org/]_ (Tim Berners-Lee) — 
+  personal data pods
+* _[Linked Data|https://www.w3.org/standards/semanticweb/data]_ 
+  (W3C) — semantic web
+* _[Model Context Protocol|https://github.com/anthropics/mcp]_ 
+  (Anthropic) — LLM↔tools integration
+
+Nautilus is unique in combining: (1) git-based storage, (2) 
+native-format federation without unified schema, (3) 
+consensus-based validation across repos.
+
+h3. Licenses
+
+* _Documentation_ (README, PORTAL-PROTOCOL, passports): 
+  [CC BY 4.0|https://creativecommons.org/licenses/by/4.0/]
+* _Code_ (portal, adapters, glyph_adapter): 
+  [MIT|./LICENSE]
+
+h3. Contact
+
+* _Author_: svend4
+* _Get in touch_: via [Issues|https://github.com/svend4/nautilus/issues]
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [67-о-проекте|67-о-проекте.md] (сходство 0.17)
+* [141-4-nautilus-portal-as-reference-substrate|141-4-nautilus-portal-as-reference-substrate.md] (сходство 0.16)
+* [158-4-proposed-infrastructure|158-4-proposed-infrastructure.md] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [67-о-проекте|67-о-проекте.md]
+* [141-4-nautilus-portal-as-reference-substrate|141-4-nautilus-portal-as-reference-substrate.md]
+* [158-4-proposed-infrastructure|158-4-proposed-infrastructure.md]
+* [164-10-appendices|164-10-appendices.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [🇷🇺 О проекте|67-о-проекте.md] _33%_
+* [Appendix C: References|104-appendix-c-references.md] _29%_
+* [4. Nautilus Portal as Reference Substrate|141-4-nautilus-portal-as-reference-substrate.md] _29%_
+* [13. Reference Implementation|25-13-reference-implementation.md] _29%_
+* [Author & Contact|42-author-contact.md] _29%_
+* [2. Terminology|77-2-terminology.md] _29%_
+* [18. Reference Implementation|93-18-reference-implementation.md] _29%_
+* [2. Terminology|07-2-terminology.md] _25%_

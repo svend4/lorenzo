@@ -129,9 +129,9 @@ support to skilled professions.
 ---
 
 **Похожие документы:**
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.25)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.18)
+- [252-abstract](252-abstract.md) (сходство 0.25)
+- [266-13-closing](266-13-closing.md) (сходство 0.20)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -139,8 +139,47 @@ support to skilled professions.
 ---
 
 **Смотрите также:**
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [252-abstract](252-abstract.md)
+- [266-13-closing](266-13-closing.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [10. Open Questions](221-10-open-questions.md)
+- [13. Closing](266-13-closing.md)
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md)
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md)
+- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [Abstract](252-abstract.md)
+- [Table of Contents](253-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Abstract](252-abstract.md) _48%_
+- [Table of Contents](253-table-of-contents.md) _33%_
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _33%_
+- [13. Closing](266-13-closing.md) _25%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _21%_
+- [Abstract](210-abstract.md) _21%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _21%_
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md) _21%_
+## Связанные документы
+
+- [Abstract](252-abstract.md) _42%_
+- [Table of Contents](253-table-of-contents.md) _33%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _33%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _25%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _25%_
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _25%_
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _25%_
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _25%_

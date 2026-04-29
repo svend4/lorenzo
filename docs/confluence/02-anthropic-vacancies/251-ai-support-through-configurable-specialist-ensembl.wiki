@@ -1,0 +1,70 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md}}
+Дата: 2026-04-29
+{info}
+
+h1. AI Support Through Configurable Specialist Ensembles
+
+
+{quote}- Professional Colleague Agents v1.0{quote}
+
+----
+
+
+
+
+
+h2. AI Support Through Configurable Specialist Ensembles
+
+_Companion paper to:_
+* Professional Colleague Agents v1.0
+* Representative Agent Layer v1.0
+* Open Knowledge Work Foundation Concept Document v1.0
+* Double-Triangle Architecture v1.0
+* Nautilus Portal Protocol v1.1
+
+_Version:_ 1.0.0-draft  
+_Date:_ 2026-04-26  
+_Author:_ svend4  
+_Editorial collaboration:_ Claude  
+_License:_ CC BY 4.0  
+_Status:_ Working paper, seeking reviewers
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md] (сходство 0.70)
+* [167-ai-mediated-representation-for-underrepresented-ex|167-ai-mediated-representation-for-underrepresented-ex.md] (сходство 0.62)
+* [274-the-missing-middle-layer-between-chat-and-code|274-the-missing-middle-layer-between-chat-and-code.md] (сходство 0.42)
+
+
+
+
+----
+
+_Смотрите также:_
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+* [167-ai-mediated-representation-for-underrepresented-ex|167-ai-mediated-representation-for-underrepresented-ex.md]
+* [274-the-missing-middle-layer-between-chat-and-code|274-the-missing-middle-layer-between-chat-and-code.md]
+* [306-with-anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers|209-a-typology-of-ai-agents-on-the-principal-side-and-.md] _81%_
+* [Appendix A: Connection to Companion Papers|184-appendix-a-connection-to-companion-papers.md] _66%_
+* [with Anthropic's Cowork Platform|306-with-anthropic-s-cowork-platform.md] _53%_
+* [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations|167-ai-mediated-representation-for-underrepresented-ex.md] _48%_
+* [Существующие документы DHLab (твой context)|355-существующие-документы-dhlab-твой-context.md] _48%_
+* [Acknowledgments|146-acknowledgments.md] _37%_
+* [Acknowledgments|182-acknowledgments.md] _37%_
+* [The Missing Middle Layer Between Chat and Code|274-the-missing-middle-layer-between-chat-and-code.md] _37%_

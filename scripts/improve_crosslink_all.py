@@ -97,26 +97,28 @@ def _word_count(text: str) -> int:
     return len(re.findall(r'\S+', text))
 
 
-def _build_backlink_block(backlinks: list[tuple[Path, str]]) -> str:
-    """Строит блок обратных ссылок."""
+def _build_backlink_block(backlinks: list[tuple[Path, str]], source_dir: Path) -> str:
+    """Строит блок обратных ссылок с относительными путями."""
+    import os
     lines = [
         f"\n{BACKLINK_MARKER}",
         "## Упоминается в\n",
     ]
     for path, title in sorted(backlinks, key=lambda x: x[1]):
-        rel = path.relative_to(ROOT)
+        rel = os.path.relpath(path, source_dir)
         lines.append(f"- [{title}]({rel})")
     return "\n".join(lines) + "\n"
 
 
-def _build_related_block(related: list[tuple[Path, str, float]]) -> str:
-    """Строит блок связанных документов (по ключевым словам)."""
+def _build_related_block(related: list[tuple[Path, str, float]], source_dir: Path) -> str:
+    """Строит блок связанных документов с относительными путями."""
+    import os
     lines = [
         f"\n{RELATED_MARKER}",
         "## Связанные документы\n",
     ]
     for path, title, sim in sorted(related, key=lambda x: -x[2])[:8]:
-        rel = path.relative_to(ROOT)
+        rel = os.path.relpath(path, source_dir)
         pct = int(sim * 100)
         lines.append(f"- [{title}]({rel}) _{pct}%_")
     return "\n".join(lines) + "\n"
@@ -216,12 +218,12 @@ def main() -> None:
         new_text = text
 
         if len(bl_list) >= MIN_REFS:
-            bl_block = _build_backlink_block(bl_list)
+            bl_block = _build_backlink_block(bl_list, f.parent)
             new_text = _update_or_append(new_text, BACKLINK_MARKER, bl_block)
             print(f"  ← {rel} ({len(bl_list)} backlinks)")
 
         if related_list:
-            rel_block = _build_related_block(related_list)
+            rel_block = _build_related_block(related_list, f.parent)
             new_text = _update_or_append(new_text, RELATED_MARKER, rel_block)
 
         if new_text != text:

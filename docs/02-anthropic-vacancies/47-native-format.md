@@ -40,7 +40,7 @@
 ---
 
 **Похожие документы:**
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md) (сходство 0.12)
+- [57-native-format](57-native-format.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -48,8 +48,42 @@
 ---
 
 **Смотрите также:**
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
-- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md)
-- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [57-native-format](57-native-format.md)
+- [50-bridges](50-bridges.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [42-author-contact](42-author-contact.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Angle / Perspective](49-angle-perspective.md)
+- [Bridges](50-bridges.md)
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
+- [History](43-history.md)
+- [Native Format](37-native-format.md)
+- [Native Format](57-native-format.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Native Format](57-native-format.md) _33%_
+- [History](43-history.md) _25%_
+- [Bridges](50-bridges.md) _25%_
+- [Compatibility Level](51-compatibility-level.md) _25%_
+- [Angle / Perspective](49-angle-perspective.md) _21%_
+- [Bridges](60-bridges.md) _17%_
+- [Compatibility Level](61-compatibility-level.md) _17%_
+## Связанные документы
+
+- [Native Format](57-native-format.md) _29%_
+- [Angle / Perspective](49-angle-perspective.md) _25%_
+- [Bridges](50-bridges.md) _25%_
+- [Native Format](37-native-format.md) _21%_
+- [History](43-history.md) _21%_
+- [Content Overview](48-content-overview.md) _21%_
+- [Compatibility Level](51-compatibility-level.md) _21%_
+- [Abstract](04-abstract.md) _17%_

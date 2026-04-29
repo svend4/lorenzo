@@ -1,13 +1,23 @@
 # AI-саммари разделов документации
 
 <!-- summary -->
-> _Модель: claude-haiku-4-5 · Разделов: 5_
+> - [Архитектура Svyazi 2.0](#архитектура-svyazi-20)
 **Проекты:** Svyazi
 
 ---
 <!-- tags: ingestion, local-first, architecture, anthropic, self-improvement, collaboration -->
 
 
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Архитектура Svyazi 2.0](#архитектура-svyazi-20)
+- [Вакансии Anthropic](#вакансии-anthropic)
+- [Комбинации технологий](#комбинации-технологий)
+- [AI-коллаборации](#ai-коллаборации)
+- [Хабр-проекты](#хабр-проекты)
 
 
 _Модель: claude-haiku-4-5 · Разделов: 5_
@@ -48,14 +58,35 @@ _Запустите с `ANTHROPIC_API_KEY` для AI-генерации резю
 
 _Без ключа — автоматическое резюме на основе метаданных._
 
+<!-- related-auto -->
+## Связанные документы
+
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md) _25%_
+- [Отчёт о дублировании](DUPLICATES.md) _21%_
+- [Карта репозитория Lorenzo](SITEMAP.md) _17%_
+- [Валидация структуры репозитория](VALIDATION.md) _17%_
+## Связанные документы
+
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md) _33%_
+- [Индекс тегов](TAGS.md) _21%_
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md) _17%_
+- [Перекрёстные ссылки](CROSSREFS.md) _17%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [VALIDATION](docs/VALIDATION.md)
-- [SITEMAP](docs/SITEMAP.md)
-- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
-- [METRICS](docs/METRICS.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [VALIDATION](VALIDATION.md)
+- [ONBOARDING](ONBOARDING.md)
+- [WORD_CLOUD](WORD_CLOUD.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
+- [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md)

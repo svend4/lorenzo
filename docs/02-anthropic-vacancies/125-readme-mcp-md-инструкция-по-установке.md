@@ -25,9 +25,9 @@ svend4 как обычный tool.
 ---
 
 **Похожие документы:**
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) (сходство 0.21)
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.18)
-- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.16)
+- [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.21)
+- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.18)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -35,8 +35,55 @@ svend4 как обычный tool.
 ---
 
 **Смотрите также:**
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [65-readme-md](docs/02-anthropic-vacancies/65-readme-md.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [42-author-contact](42-author-contact.md)
+- [65-readme-md](65-readme-md.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Abstract](74-abstract.md)
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md)
+- [Appendix B: Change Log](34-appendix-b-change-log.md)
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md)
+- [README.md](65-readme-md.md)
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
+- [References](320-references.md)
+- [portal-mcp.py](123-portal-mcp-py.md)
+- [Благодарности](203-благодарности.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+- [Зачем две версии параллельно](70-зачем-две-версии-параллельно.md)
+- [Конфигурация для Claude Desktop](124-конфигурация-для-claude-desktop.md)
+- [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-общий-план-развития-nautilus-portal-protocol.md)
+- [Отладка](130-отладка.md)
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md)
+- [Расписание фазы 3](72-расписание-фазы-3.md)
+- [Ссылки](338-ссылки.md)
+- [⬡](69-section.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _33%_
+- [README.md](65-readme-md.md) _33%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
+- [Глоссарий](122-глоссарий.md) _25%_
+- [portal-mcp.py](123-portal-mcp-py.md) _25%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _25%_
+- [Abstract](04-abstract.md) _21%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
+## Связанные документы
+
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _33%_
+- [Глоссарий](122-глоссарий.md) _33%_
+- [portal-mcp.py](123-portal-mcp-py.md) _33%_
+- [README.md](65-readme-md.md) _33%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
+- [Appendix B: Change Log](34-appendix-b-change-log.md) _29%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _25%_
+- [⬡](69-section.md) _25%_

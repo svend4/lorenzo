@@ -1,0 +1,71 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/63-history.md}}
+Дата: 2026-04-29
+{info}
+
+h1. History
+
+
+{quote}_Создан:_ февраль 2026 (судя по repo creation date){quote}
+
+----
+
+
+
+
+
+h2. History
+
+_Создан:_ февраль 2026 (судя по repo creation date)
+
+_Ключевые этапы:_
+* Первичная коллекция 64 гексаграмм с классическими интерпретациями
+* Интеграция 256 CA-правил с их классификацией по Вольфраму
+* Формализация mapping 64↔256 [? если уже сделан; если в процессе — 
+  так отметить]
+* Подключение к Nautilus как Level 3 participant
+
+_Направление развития:_
+* Формальная математическая публикация mapping 64 ↔ 256
+* Интерактивные визуализации CA-динамики для каждой гексаграммы
+* Возможная публикация paper совместно с {{pro2}}: 
+  «64 as Projection of 256: Hexagrams as Symmetry Classes of 
+  Elementary Cellular Automata»
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [53-history|53-history.md] (сходство 0.18)
+* [43-history|43-history.md] (сходство 0.16)
+
+
+
+
+----
+
+_Смотрите также:_
+* [43-history|43-history.md]
+* [53-history|53-history.md]
+* [28-appendix-a-minimal-working-example|28-appendix-a-minimal-working-example.md]
+* [40-bridges|40-bridges.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Содержание|190-содержание.md] _29%_
+* [Содержание|326-содержание.md] _29%_
+* [Compatibility Level|41-compatibility-level.md] _29%_
+* [4. Passport ({{passport.md}})|09-4-passport-passport-md.md] _25%_
+* [portal-mcp.py|123-portal-mcp-py.md] _25%_
+* [Подключение к Claude Desktop|127-подключение-к-claude-desktop.md] _25%_
+* [Table of Contents|154-table-of-contents.md] _25%_
+* [10. QueryResult Structure|22-10-queryresult-structure.md] _25%_

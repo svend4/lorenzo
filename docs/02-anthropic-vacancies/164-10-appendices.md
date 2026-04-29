@@ -172,9 +172,9 @@ shared, cited, refined by anyone with attribution.
 ---
 
 **Похожие документы:**
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.17)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.16)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md) (сходство 0.16)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.17)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.16)
+- [162-8-risk-analysis](162-8-risk-analysis.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -182,8 +182,47 @@ shared, cited, refined by anyone with attribution.
 ---
 
 **Смотрите также:**
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [2. Target Populations](156-2-target-populations.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [6. Governance and Ethics](160-6-governance-and-ethics.md)
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [8. Risk Analysis](162-8-risk-analysis.md)
+- [9. Call for Partnership](163-9-call-for-partnership.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Executive Summary](153-executive-summary.md)
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [🇬🇧 About](68-about.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _21%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _21%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _21%_
+- [Abstract](04-abstract.md) _17%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _17%_
+- [Author & Contact](42-author-contact.md) _17%_
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md) _17%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _17%_
+## Связанные документы
+
+- [Глоссарий понятий](../CONCEPTS.md) _25%_
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _21%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
+- [9. Call for Partnership](163-9-call-for-partnership.md) _21%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _21%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _21%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
+- [Author & Contact](42-author-contact.md) _21%_

@@ -1,0 +1,96 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/267-acknowledgments.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Acknowledgments"
+tags:
+  * architecture
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Acknowledgments
+
+
+{quote}The Composite Skills Agent concept emerged from dialogue with{quote}
+
+----
+
+
+
+
+
+h2. Acknowledgments
+
+The Composite Skills Agent concept emerged from dialogue with 
+Claude (Anthropic) on April 26, 2026. The crystallizing 
+contribution was the user's observation that the binary view 
+between Professional Colleague Agent (Type 1) and Representative 
+Agent (Type 4) missed the most common middle case — practitioners 
+whose distinctive value comes from combining individually general 
+specializations.
+
+The metaphor of the Indian yoga master who studied with twenty 
+teachers, drawn from a journalist's interview the user 
+remembered, provides the central illustration that makes the 
+pattern clear.
+
+The user retained editorial authority. All claims, errors, and 
+specific architectural proposals are author's responsibility.
+
+This paper is the seventh in the sequence developed across this 
+extended collaboration:
+1. Nautilus Portal Protocol v1.1
+2. Review Methodology v1.0
+3. Double-Triangle Architecture v1.0
+4. Open Knowledge Work Foundation Concept Document v1.0
+5. Representative Agent Layer v1.0
+6. Professional Colleague Agents v1.0
+7. Composite Skills Agent v1.0 (this paper)
+
+Together these papers form an architectural vision for 
+AI-supported knowledge work that respects how mastery develops, 
+how professions function, and how human dignity is preserved 
+when AI augments human practice.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[319-acknowledgments]] (сходство 0.26)
+* [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.25)
+* [[252-abstract]] (сходство 0.24)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[319-acknowledgments]]
+* [[274-the-missing-middle-layer-between-chat-and-code]]
+* [[252-abstract]]
+* [[251-ai-support-through-configurable-specialist-ensembl]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[286-acknowledgments|Acknowledgments]] _48%_
+* [[319-acknowledgments|Acknowledgments]] _42%_
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _33%_
+* [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _33%_
+* [[252-abstract|Abstract]] _33%_
+* [[287-references|References]] _33%_
+* [[168-abstract|Abstract]] _29%_
+* [[182-acknowledgments|Acknowledgments]] _29%_

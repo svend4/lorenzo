@@ -59,9 +59,9 @@
 ---
 
 **Похожие документы:**
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md) (сходство 0.12)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.11)
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.11)
+- [01-agent-routing](01-agent-routing.md) (сходство 0.12)
+- [05-benchmarks](05-benchmarks.md) (сходство 0.11)
+- [02-knowledge-graphs](02-knowledge-graphs.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -69,8 +69,35 @@
 ---
 
 **Смотрите также:**
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [WORD_FREQ](docs/WORD_FREQ.md)
+- [01-agent-routing](01-agent-routing.md)
+- [05-benchmarks](05-benchmarks.md)
+- [02-knowledge-graphs](02-knowledge-graphs.md)
+- [WORD_FREQ](../WORD_FREQ.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Агентные системы и роутинг](01-agent-routing.md)
+- [Бенчмарки и производительность](05-benchmarks.md)
+- [Графы знаний и Legal AI](02-knowledge-graphs.md)
+- [Комбинирование технологий для новых свойств](README.md)
+## Упоминается в
+
+- [Комбинирование технологий для новых свойств](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Графы знаний и Legal AI](02-knowledge-graphs.md) _33%_
+- [Бенчмарки и производительность](05-benchmarks.md) _29%_
+- [Комбинирование технологий для новых свойств](README.md) _21%_
+## Связанные документы
+
+- [Бенчмарки и производительность](05-benchmarks.md) _33%_
+- [Графы знаний и Legal AI](02-knowledge-graphs.md) _29%_
+- [Комбинирование технологий для новых свойств](../README.md) _25%_
+- [Приоритеты файлов](../PRIORITIES.md) _25%_
+- [Агентные системы и роутинг](01-agent-routing.md) _21%_
+- [Глоссарий проектов](../GLOSSARY.md) _17%_
+- [Тепловая карта тем](../HEATMAP.md) _17%_
+- [Карта репозитория Lorenzo](../SITEMAP.md) _17%_

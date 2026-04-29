@@ -4,109 +4,145 @@
 > _Что каждый `improve_*.py` производит и от чего зависит._
 
 ---
-
-<!-- toc -->
-## Содержание
-
-- [Зависимости](#зависимости)
-- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
-- [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
-
----
-
-<!-- tags: ingestion, roadmap, anthropic -->
+<!-- tags: rag, orchestration, ingestion, roadmap, anthropic, self-improvement -->
 
 
 
 
 _Что каждый `improve_*.py` производит и от чего зависит._
 
-**Скриптов в карте:** 49 · **Всего в репо:** 75
+**Скриптов в карте:** 126 · **Всего в репо:** 125
 
 ## Зависимости
 
 | Скрипт | Производит | Зависит от |
 |--------|-----------|-----------|
 | `improve_abbreviations.py` | `docs/ABBREVIATIONS.md` | `docs/**/*.md` |
+| `improve_abstract.py` | `docs/**/*.md (абстракты)` | `docs/**/*.md` |
 | `improve_action_items.py` | `docs/ACTION_ITEMS.md` | `docs/**/*.md` |
+| `improve_alerts.py` | `docs/ALERTS.md`, `docs/**/*.md` | `docs/**/*.md` |
+| `improve_auto_toc.py` | `docs/**/*.md (TOC)` | `docs/**/*.md` |
+| `improve_autocorrect.py` | `docs/**/*.md (автоисправление)` | `docs/**/*.md` |
 | `improve_autofill.py` | `docs/autofilled/**` | `docs/templates/**`, `docs/ENTITIES.md` |
 | `improve_backlinks.py` | `docs/BACKLINKS.md` | `docs/**/*.md` |
 | `improve_badges.py` | `docs/badges/*.svg` | `docs/HEALTH.md`, `docs/SCORING.md` |
+| `improve_benchmark.py` | `docs/benchmark.json` | `scripts/improve_*.py` |
+| `improve_broken_links.py` | `docs/BROKEN_LINKS.md` | `docs/**/*.md` |
+| `improve_changelog.py` | `CHANGELOG.md` | — |
+| `improve_changelog_auto.py` | `docs/CHANGELOG_AUTO.md` | — |
+| `improve_chunk_semantic.py` | `docs/all_chunks.jsonl` | `docs/**/*.md` |
+| `improve_ci_config.py` | `.github/workflows/docs.yml` | — |
+| `improve_citation_index.py` | `docs/CITATION_INDEX.md` | `docs/**/*.md` |
 | `improve_clusters.py` | `docs/CLUSTERS.md` | `docs/**/*.md` |
+| `improve_compare.py` | `docs/COMPARE.md` | `docs/**/*.md` |
+| `improve_compare_docs.py` | `docs/COMPARE.md` | `docs/**/*.md` |
+| `improve_complexity.py` | `docs/COMPLEXITY.md` | `docs/**/*.md` |
+| `improve_component_matrix.py` | `docs/COMPONENT_MATRIX.md` | `docs/CONTACTS.md` |
+| `improve_concept_graph.py` | `docs/CONCEPT_GRAPH.md`, `docs/concept_graph.json` | `docs/**/*.md` |
 | `improve_concepts.py` | `docs/CONCEPTS.md` | `docs/**/*.md` |
+| `improve_confluence.py` | `docs/confluence/` | `docs/**/*.md` |
+| `improve_consistency.py` | `docs/CONSISTENCY.md` | `docs/**/*.md` |
+| `improve_contact_priority.py` | `docs/CONTACT_PRIORITY.md` | `docs/CONTACTS.md` |
+| `improve_contact_status.py` | `docs/contacts/**/*.md (статус)` | `docs/contacts/**/*.md` |
+| `improve_contacts.py` | `docs/CONTACTS.md` | `docs/**/*.md` |
+| `improve_content_gaps.py` | `docs/CONTENT_GAPS.md` | `docs/**/*.md` |
+| `improve_contradiction_check.py` | `docs/CONTRADICTIONS.md` | `docs/**/*.md` |
 | `improve_cost.py` | `docs/COST.md` | `docs/**/*.md` |
+| `improve_coverage.py` | `docs/COVERAGE.md` | `docs/**/*.md` |
+| `improve_crosslink_all.py` | `docs/CROSSREFS.md`, `docs/**/*.md` | `docs/**/*.md` |
+| `improve_crossrefs.py` | `docs/CROSSREFS.md` | `docs/**/*.md` |
 | `improve_decisions.py` | `docs/DECISIONS.md` | `docs/**/*.md` |
+| `improve_dedup.py` | `docs/DUPLICATES.md` | `docs/**/*.md` |
+| `improve_density.py` | `docs/DENSITY.md` | `docs/**/*.md` |
+| `improve_dependabot.py` | `docs/DEPENDABOT.md` | — |
 | `improve_dependency_map.py` | `docs/DEPENDENCY_MAP.md` | `scripts/improve_*.py` |
 | `improve_digest.py` | `docs/DIGEST.md` | — |
 | `improve_digest_weekly.py` | `docs/DIGEST_WEEKLY.md` | — |
+| `improve_duplicate_across.py` | `docs/DUPLICATES.md` | `docs/**/*.md` |
 | `improve_entities.py` | `docs/ENTITIES.md` | `docs/**/*.md` |
+| `improve_epub.py` | `docs/*.epub` | `docs/**/*.md` |
 | `improve_export_csv.py` | `docs/export_full.csv` | `docs/**/*.md` |
 | `improve_export_html.py` | `docs/export_full.html` | `docs/**/*.md` |
 | `improve_export_json.py` | `docs/export_full.json` | `docs/**/*.md` |
+| `improve_external_compare.py` | `docs/**/*.md (внешн. сравнение)` | `docs/**/*.md` |
+| `improve_extract_code.py` | `docs/CODE_BLOCKS.md` | `docs/**/*.md` |
+| `improve_extract_tables.py` | `docs/TABLES.md` | `docs/**/*.md` |
 | `improve_faq.py` | `docs/FAQ.md` | `docs/**/*.md` |
 | `improve_footnotes.py` | `docs/FOOTNOTES.md`, `docs/**/*.md (сноски)` | `docs/**/*.md` |
+| `improve_github_issues.py` | `docs/GITHUB_ISSUES.md` | `docs/**/*.md` |
 | `improve_glossary.py` | `docs/GLOSSARY.md` | `docs/**/*.md` |
+| `improve_graph.py` | `docs/GRAPH.md` | `docs/ENTITIES.md` |
 | `improve_health.py` | `docs/HEALTH.md` | `docs/METRICS.md`, `docs/VALIDATION.md` |
 | `improve_heatmap.py` | `docs/HEATMAP.md` | `docs/TAGS.md` |
+| `improve_index_master.py` | `docs/INDEX.md` | `docs/**/*.md` |
 | `improve_index_update.py` | `docs/search_index.json` | `docs/search_index.json` |
+| `improve_keyword_index.py` | `docs/KEYWORD_INDEX.md` | `docs/**/*.md` |
 | `improve_kpi.py` | `docs/KPI.md` | `docs/**/*.md` |
+| `improve_kpi_snapshot.py` | `docs/KPI_HISTORY.md`, `docs/kpi_history.json` | `docs/SCORING.md`, `docs/STATS.md` |
+| `improve_link_preview.py` | `docs/LINKS.md` | `docs/**/*.md` |
+| `improve_llm_contact.py` | `docs/contacts/**/*.md` | `docs/CONTACTS.md`, `ANTHROPIC_API_KEY` |
 | `improve_llm_enrich.py` | `docs/**/*.md (enriched)` | `docs/ENTITIES.md`, `ANTHROPIC_API_KEY` |
 | `improve_llm_gaps.py` | `docs/LLM_GAPS.md` | `docs/**/*.md`, `ANTHROPIC_API_KEY` |
 | `improve_llm_qa.py` | `docs/LLM_QA.md` | `docs/QUESTIONS.md`, `ANTHROPIC_API_KEY` |
 | `improve_llm_summary.py` | `docs/LLM_SUMMARIES.md` | `docs/*/README.md` |
+| `improve_merge_by_topic.py` | `docs/**/*.md (слияние)` | `docs/**/*.md` |
+| `improve_merge_short.py` | `docs/**/*.md (слияние коротких)` | `docs/**/*.md` |
 | `improve_metrics.py` | `docs/METRICS.md` | `docs/**/*.md` |
+| `improve_mindmap.py` | `docs/MINDMAP.md` | `docs/**/*.md` |
+| `improve_missing.py` | `docs/MISSING.md` | `docs/**/*.md` |
+| `improve_named_entity_index.py` | `docs/NAMED_ENTITIES.md`, `docs/named_entities.json` | `docs/**/*.md` |
+| `improve_narrative.py` | `docs/NARRATIVE.md` | `docs/**/*.md` |
 | `improve_network.py` | `docs/NETWORK.md`, `docs/network.dot` | `docs/ENTITIES.md` |
+| `improve_obsidian.py` | `docs/obsidian/` | `docs/**/*.md` |
 | `improve_onboarding.py` | `docs/ONBOARDING.md` | `docs/SCORING.md`, `docs/CONTACTS.md` |
 | `improve_orphans.py` | `docs/ORPHANS.md` | `docs/BACKLINKS.md` |
+| `improve_outline.py` | `docs/OUTLINE.md` | `docs/**/*.md` |
+| `improve_paragraph_quality.py` | `docs/PARAGRAPH_QUALITY.md` | `docs/**/*.md` |
+| `improve_passage_retrieval.py` | `docs/passages.json` | `docs/search_index.json` |
+| `improve_pre_commit.py` | `.pre-commit-config.yaml` | — |
+| `improve_priorities.py` | `docs/PRIORITIES.md` | `docs/**/*.md` |
 | `improve_progress.py` | `docs/PROGRESS.md` | `docs/SCORING.md` |
+| `improve_progress_sync.py` | `PROGRESS.md` | `docs/PROGRESS.md` |
+| `improve_qa.py` | `docs/*/QA.md` | `docs/**/*.md` |
 | `improve_questions.py` | `docs/QUESTIONS.md` | `docs/**/*.md` |
+| `improve_readability_v2.py` | `docs/READABILITY.md` | `docs/**/*.md` |
+| `improve_reading_order.py` | `docs/READING_ORDER.md` | `docs/**/*.md` |
+| `improve_reading_time.py` | `docs/READING_TIME.md` | `docs/**/*.md` |
 | `improve_readmes.py` | `docs/*/README.md` | — |
+| `improve_reclassify.py` | `docs/**/*.md (перемещение)` | `docs/**/*.md` |
 | `improve_report.py` | `docs/REPORT.md` | `docs/STATS.md`, `docs/HEALTH.md` |
+| `improve_risk_register.py` | `docs/RISK_REGISTER.md` | `docs/**/*.md` |
+| `improve_rss.py` | `docs/feed.rss`, `docs/feed.atom` | — |
+| `improve_run_all.py` | `— (оркестратор)` | `scripts/improve_*.py` |
 | `improve_schedule.py` | `docs/SCHEDULE.md` | — |
 | `improve_scoring.py` | `docs/SCORING.md` | `docs/HEALTH.md`, `docs/METRICS.md` |
 | `improve_search_index.py` | `docs/search_index.json` | `docs/**/*.md` |
+| `improve_see_also.py` | `docs/SEE_ALSO.md`, `docs/**/*.md` | `docs/**/*.md` |
 | `improve_sentiment.py` | `docs/SENTIMENT.md` | `docs/**/*.md` |
 | `improve_similar.py` | `docs/SIMILAR.md` | `docs/**/*.md` |
 | `improve_sitemap.py` | `docs/SITEMAP.md`, `docs/sitemap.xml` | `docs/**/*.md` |
+| `improve_source_map.py` | `docs/SOURCE_MAP.md` | `docs/**/*.md` |
+| `improve_spellcheck.py` | `docs/SPELLCHECK.md` | `docs/**/*.md` |
+| `improve_staleness.py` | `docs/STALENESS.md` | `docs/**/*.md` |
 | `improve_stats.py` | `docs/STATS.md` | `docs/**/*.md` |
+| `improve_subtopic_fill.py` | `docs/**/*.md (дополнение)` | `docs/**/*.md` |
 | `improve_summaries.py` | `docs/*/README.md` | `docs/**/*.md` |
+| `improve_tables.py` ⚠️ | `docs/TABLES.md` | `docs/**/*.md` |
 | `improve_tags.py` | `docs/TAGS.md` | `docs/**/*.md` |
 | `improve_tech_radar.py` | `docs/TECH_RADAR.md` | — |
+| `improve_templates.py` | `docs/templates/**` | — |
+| `improve_text_segmenter.py` | `docs/**/*.md (сегменты)` | `docs/**/*.md` |
+| `improve_timeline.py` | `docs/TIMELINE.md` | `docs/**/*.md` |
+| `improve_timeline_events.py` | `docs/TIMELINE.md` | `docs/**/*.md` |
 | `improve_toc.py` | `docs/**/*.md (TOC блоки)` | `docs/**/*.md` |
+| `improve_topic_model.py` | `docs/TOPIC_MODEL.md` | `docs/**/*.md` |
 | `improve_validate.py` | `docs/VALIDATION.md` | `docs/**/*.md` |
+| `improve_version_diff.py` | `docs/VERSION_DIFF.md` | — |
+| `improve_vocabulary_richness.py` | `docs/VOCABULARY.md` | `docs/**/*.md` |
+| `improve_watch.py` | `— (watcher)` | `scripts/improve_*.py` |
+| `improve_watcher.py` | `— (автономный watcher)` | `scripts/improve_*.py` |
 | `improve_word_cloud.py` | `docs/WORD_CLOUD.svg`, `docs/WORD_CLOUD.md` | `docs/WORD_FREQ.md` |
 | `improve_word_freq.py` | `docs/WORD_FREQ.md` | `docs/**/*.md` |
-
-## Скрипты без карты зависимостей
-
-_Существуют в репо, но не добавлены в карту:_
-
-- `improve_alerts.py`
-- `improve_autocorrect.py`
-- `improve_broken_links.py`
-- `improve_changelog.py`
-- `improve_compare.py`
-- `improve_complexity.py`
-- `improve_consistency.py`
-- `improve_contacts.py`
-- `improve_crossrefs.py`
-- `improve_dedup.py`
-- `improve_density.py`
-- `improve_extract_code.py`
-- `improve_extract_tables.py`
-- `improve_graph.py`
-- `improve_merge_short.py`
-- `improve_mindmap.py`
-- `improve_missing.py`
-- `improve_narrative.py`
-- `improve_priorities.py`
-- `improve_qa.py`
-- `improve_reading_order.py`
-- `improve_run_all.py`
-- `improve_see_also.py`
-- `improve_templates.py`
-- `improve_timeline.py`
-- `improve_watcher.py`
 
 ## Порядок запуска (рекомендуемый)
 
@@ -124,14 +160,21 @@ _Существуют в репо, но не добавлены в карту:_
 
 _Используй `python scripts/improve_run_all.py` для автоматического порядка._
 
+<!-- backlinks-auto -->
+## Упоминается в
 
-<!-- see-also -->
+- [Changelog (авто)](CHANGELOG_AUTO.md)
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
 
----
+<!-- related-auto -->
+## Связанные документы
 
-**Смотрите также:**
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
-- [DIGEST](docs/DIGEST.md)
-- [INDEX](docs/INDEX.md)
-- [TAGS](docs/TAGS.md)
-
+- [CHANGELOG](CHANGELOG.md) _25%_
+- [docs](README.md) _25%_
+- [Индекс тегов](TAGS.md) _21%_
+- [Changelog (авто)](CHANGELOG_AUTO.md) _17%_
+- [Прогресс MVP](PROGRESS.md) _17%_
+- [Бейджи репозитория](badges/README.md) _15%_

@@ -76,9 +76,9 @@ work.
 ---
 
 **Похожие документы:**
-- [285-closing](docs/02-anthropic-vacancies/285-closing.md) (сходство 0.15)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.14)
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.13)
+- [285-closing](285-closing.md) (сходство 0.15)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md) (сходство 0.14)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -86,8 +86,41 @@ work.
 ---
 
 **Смотрите также:**
-- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [285-closing](285-closing.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Problem Statement](155-1-problem-statement.md)
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Closing](285-closing.md)
+- [Existing Approximations](279-existing-approximations.md)
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md)
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _29%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _21%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _17%_
+- [Closing](285-closing.md) _17%_
+## Связанные документы
+
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _29%_
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _29%_
+- [13. Closing](266-13-closing.md) _25%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _25%_
+- [Closing](285-closing.md) _25%_
+- [Acknowledgments](286-acknowledgments.md) _25%_
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _21%_
+- [Abstract](168-abstract.md) _21%_

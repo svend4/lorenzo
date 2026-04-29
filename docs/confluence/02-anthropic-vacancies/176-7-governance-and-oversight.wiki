@@ -1,0 +1,147 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/176-7-governance-and-oversight.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 7. Governance and Oversight
+
+
+h2. Contents
+
+* [7. Governance and Oversight|#7-governance-and-oversight]
+  * [7.1. Three Levels of Governance|#71-three-levels-of-governance]
+  * [7.2. Audit and Accountability|#72-audit-and-accountability]
+  * [7.3. Dispute Resolution|#73-dispute-resolution]
+  * [7.4. Vulnerable Population Protection|#74-vulnerable-population-protection]
+  * [7.5. Foundation-Based Governance|#75-foundation-based-governance]
+
+
+
+{quote}Effective Representative Agent systems require governance{quote}
+
+----
+
+
+
+
+
+h2. 7. Governance and Oversight
+
+h3. 7.1. Three Levels of Governance
+
+Effective Representative Agent systems require governance 
+at three levels:
+
+_Individual Level_: Each principal-agent relationship 
+governed by clear contract. Default templates, customizable 
+by principal. Specifies scope, limits, consent, audit, 
+termination.
+
+_Platform Level_: System-wide policies for all agents 
+operating on platform. Includes ethical commitments, 
+technical standards, dispute resolution, transparency 
+requirements.
+
+_Societal Level_: Regulatory frameworks at national/EU 
+level. Likely to emerge over time as technology matures. 
+Should aim for: protection of vulnerable populations, 
+prevention of exploitation, preservation of principal 
+sovereignty, accountability for agent failures.
+
+h3. 7.2. Audit and Accountability
+
+Every Representative Agent platform must support:
+
+* _Internal audit_: Principal reviews agent actions
+* _External audit_: Independent review of platform 
+  practices
+* _Public audit_: Transparency reports on aggregate 
+  behavior
+* _Legal audit_: Cooperation with regulatory inquiries
+
+Audit logs must be tamper-resistant, comprehensive, 
+preserved for adequate periods (probably 7-10 years 
+minimum), and accessible to principals on request.
+
+h3. 7.3. Dispute Resolution
+
+When agent operations cause harm or disputes:
+
+_First level_: Principal-platform direct resolution 
+(refund, correction, restoration)
+
+_Second level_: Independent ombudsman within platform
+
+_Third level_: External arbitration
+
+_Fourth level_: Regulatory complaint or legal action
+
+Each level should have clear timelines and standards.
+
+h3. 7.4. Vulnerable Population Protection
+
+Special governance for vulnerable populations:
+
+* _Independent advocate review_ of agent setup for 
+  cognitively impaired principals
+* _Periodic capacity assessment_ for elderly principals
+* _Family/guardian involvement_ with appropriate consent
+* _Specialized oversight committees_ for high-risk 
+  domains (children, severely disabled, mental health)
+
+h3. 7.5. Foundation-Based Governance
+
+A foundation model (such as OKWF) is well-positioned to 
+provide governance because:
+
+* _Mission alignment_: Foundation accountable to 
+  beneficiaries, not shareholders
+* _Long-term horizon_: Foundation incentives align with 
+  durable value, not quarterly metrics
+* _Transparency norm_: Foundation operations expected to 
+  be public
+* _Multi-stakeholder governance_: Boards include 
+  beneficiary representatives
+
+For-profit Representative Agent providers may be necessary 
+and useful but should operate within standards established 
+by mission-driven foundations.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [175-6-ethical-framework|175-6-ethical-framework.md] (сходство 0.15)
+* [174-5-architectural-specification|174-5-architectural-specification.md] (сходство 0.13)
+* [178-9-phased-rollout-strategy|178-9-phased-rollout-strategy.md] (сходство 0.11)
+
+
+
+
+----
+
+_Смотрите также:_
+* [175-6-ethical-framework|175-6-ethical-framework.md]
+* [174-5-architectural-specification|174-5-architectural-specification.md]
+* [178-9-phased-rollout-strategy|178-9-phased-rollout-strategy.md]
+* [177-8-risks-and-mitigations|177-8-risks-and-mitigations.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [6. Ethical Framework|175-6-ethical-framework.md] _21%_
+* [7. Open Questions|144-7-open-questions.md] _17%_
+* [6. Governance and Ethics|160-6-governance-and-ethics.md] _17%_
+* [3. What Makes a Representative Agent|172-3-what-makes-a-representative-agent.md] _17%_
+* [5. Architectural Specification|174-5-architectural-specification.md] _17%_
+* [10. Open Questions|179-10-open-questions.md] _17%_
+* [Appendix C: Sample Use Cases in Detail|186-appendix-c-sample-use-cases-in-detail.md] _17%_
+* [1. The Five-Type Typology of Principal-Side Agents|212-1-the-five-type-typology-of-principal-side-agents.md] _17%_

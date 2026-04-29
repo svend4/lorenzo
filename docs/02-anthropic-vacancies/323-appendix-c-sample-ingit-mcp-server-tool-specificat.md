@@ -19,6 +19,17 @@
 > For reference, here are detailed specifications for first
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Appendix C: Sample InGit MCP Server Tool Specifications](#appendix-c-sample-ingit-mcp-server-tool-specifications)
+  - [Заметки к девятому документу (2.4)](#заметки-к-девятому-документу-24)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: rag, orchestration, ingestion, local-first, architecture, anthropic, collaboration -->
 
 
@@ -274,9 +285,9 @@ This recursive nature — каждый ваш observation refines understanding,
 ---
 
 **Похожие документы:**
-- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.21)
-- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.17)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.15)
+- [318-10-strategic-positioning](318-10-strategic-positioning.md) (сходство 0.21)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md) (сходство 0.17)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -284,8 +295,43 @@ This recursive nature — каждый ваш observation refines understanding,
 ---
 
 **Смотрите также:**
-- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
-- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
-- [303-приложение-визуализация-позиции-в-серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)
+- [318-10-strategic-positioning](318-10-strategic-positioning.md)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Abstract](307-abstract.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _48%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _25%_
+- [Abstract](307-abstract.md) _21%_
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _21%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _17%_
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md) _17%_
+## Связанные документы
+
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _33%_
+- [Abstract](307-abstract.md) _29%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _29%_
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _25%_
+- [8. Call to Action](145-8-call-to-action.md) _21%_
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md) _21%_
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _21%_

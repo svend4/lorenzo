@@ -41,9 +41,9 @@ review.
 ---
 
 **Похожие документы:**
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.17)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.17)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.17)
+- [267-acknowledgments](267-acknowledgments.md) (сходство 0.17)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.17)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -51,8 +51,52 @@ review.
 ---
 
 **Смотрите также:**
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [6. Ethical Framework](175-6-ethical-framework.md)
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md)
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [Acknowledgments](182-acknowledgments.md)
+- [Acknowledgments](224-acknowledgments.md)
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md)
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md)
+- [Appendix A: Glossary](148-appendix-a-glossary.md)
+- [References](183-references.md)
+- [References](268-references.md)
+- [References](320-references.md)
+- [Table of Contents](137-table-of-contents.md)
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _48%_
+- [Acknowledgments](224-acknowledgments.md) _48%_
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md) _48%_
+- [Acknowledgments](182-acknowledgments.md) _42%_
+- [Table of Contents](137-table-of-contents.md) _33%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _33%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _33%_
+## Связанные документы
+
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _48%_
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md) _48%_
+- [Acknowledgments](182-acknowledgments.md) _42%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _42%_
+- [Acknowledgments](224-acknowledgments.md) _42%_
+- [Table of Contents](137-table-of-contents.md) _37%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _37%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _37%_

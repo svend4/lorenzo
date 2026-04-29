@@ -1,0 +1,239 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/261-8-seven-domains-of-application.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "8. Seven Domains of Application"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 8. Seven Domains of Application
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}Composite Skills Agents apply naturally to professions where{quote}
+
+----
+
+
+h2. Содержание
+
+* [8. Seven Domains of Application|#8-seven-domains-of-application]
+  * [8.1. Domain 1 — Music Education and Performance|#81-domain-1-music-education-and-performance]
+  * [8.2. Domain 2 — Visual and Creative Arts|#82-domain-2-visual-and-creative-arts]
+  * [8.3. Domain 3 — Specialized Legal Practice|#83-domain-3-specialized-legal-practice]
+  * [8.4. Domain 4 — Medical Practice with Multiple Specialties|#84-domain-4-medical-practice-with-multiple-specialties]
+  * [8.5. Domain 5 — Technical Architecture and Engineering|#85-domain-5-technical-architecture-and-engineering]
+  * [8.6. Domain 6 — Academic Research and Cross-Disciplinary Work|#86-domain-6-academic-research-and-cross-disciplinary-work]
+  * [8.7. Domain 7 — Therapeutic Practice and Mental Health|#87-domain-7-therapeutic-practice-and-mental-health]
+  * [8.8. Pattern Across Domains|#88-pattern-across-domains]
+
+----
+
+
+
+
+
+
+h2. 8. Seven Domains of Application
+
+Composite Skills Agents apply naturally to professions where 
+practice typically combines specializations. We identify seven 
+domains where the pattern fits especially well.
+
+h3. 8.1. Domain 1 — Music Education and Performance
+
+_Sub-agent specializations might include_: Classical 
+composition, jazz improvisation, electronic music production, 
+specific instruments (piano, violin, voice, etc.), genres 
+(folk traditions, contemporary, baroque), pedagogy (children, 
+adults, beginners, advanced), technical skills (music theory, 
+ear training, sight-reading), accompanying disciplines (audio 
+engineering, music history, ethnomusicology).
+
+_Typical configurations_: A jazz pianist who teaches has 
+different needs from a classical violinist, who has different 
+needs from an electronic music producer. Each builds their 
+own configuration from the available sub-agents.
+
+_Existing analog_: This pattern is already embodied in how 
+musicians actually train — studying with multiple teachers in 
+different specialties — but no AI infrastructure currently 
+supports it.
+
+h3. 8.2. Domain 2 — Visual and Creative Arts
+
+_Sub-agent specializations might include_: Drawing fundamentals, 
+painting techniques, digital illustration, animation, sculpture, 
+photography, color theory, composition, art history (by period 
+or movement), specific tools (Adobe Creative Suite, Procreate, 
+Blender), business skills (gallery work, commission management, 
+intellectual property).
+
+_Typical configurations_: A digital illustrator who also does 
+traditional sketching and runs a small business has very 
+different needs from a fine arts painter focused on gallery 
+representation.
+
+_Bridge to existing infrastructure_: Many artists already 
+combine multiple educational sources (online courses, traditional 
+training, peer learning). Composite agents formalize and 
+augment this practice.
+
+h3. 8.3. Domain 3 — Specialized Legal Practice
+
+_Sub-agent specializations might include_: Specific area of 
+law (social, criminal, family, immigration), procedural 
+expertise (specific courts, jurisdictions), client population 
+(elderly, disabled, immigrants, children), language (German, 
+English, Russian, etc.), technical skills (drafting, oral 
+advocacy, negotiation), supporting fields (medical understanding, 
+psychological assessment).
+
+_Typical configurations_: A lawyer specializing in disability 
+rights for migrants speaks both German and the migrant's 
+language and has medical understanding for assessing claims — 
+a combination requiring multiple sub-agents.
+
+_Practical pilot_: This is the SGB Advocate Colleague case 
+discussed in detail in Section 7.5.
+
+h3. 8.4. Domain 4 — Medical Practice with Multiple Specialties
+
+_Sub-agent specializations might include_: Specific organ 
+systems, types of conditions (acute, chronic, infectious, 
+autoimmune), patient populations (pediatric, geriatric, 
+prenatal), specialized procedures, diagnostic interpretation 
+(radiology, lab work, pathology), specific subspecialties 
+(rheumatology, immunology, infectious diseases).
+
+_Typical configurations_: A primary care physician working 
+in a rural clinic with elderly patients faces different 
+challenges from a specialist working in tertiary care. Even 
+within specialties, working with specific patient populations 
+requires different configurations.
+
+_Critical caveat_: Medical configurations require especially 
+rigorous quality assurance and explicit boundaries around what 
+the composite agent can support.
+
+h3. 8.5. Domain 5 — Technical Architecture and Engineering
+
+_Sub-agent specializations might include_: Programming languages, 
+architecture patterns, deployment platforms, security 
+disciplines, performance engineering, testing approaches, 
+specific application domains (fintech, medtech, e-commerce, 
+infrastructure), compliance regimes.
+
+_Typical configurations_: An engineer specializing in 
+high-performance distributed systems for medical applications 
+needs specific combinations: distributed systems, performance 
+engineering, plus medical compliance, plus security 
+requirements specific to healthcare.
+
+_Bridge to existing tools_: Many engineering teams already 
+informally combine specialist resources (Stack Overflow, 
+language-specific documentation, specialist consultants). 
+Composite agents formalize this.
+
+h3. 8.6. Domain 6 — Academic Research and Cross-Disciplinary Work
+
+_Sub-agent specializations might include_: Specific 
+methodologies (quantitative, qualitative, mixed methods), 
+research traditions, statistical approaches, computational 
+methods, writing conventions for specific journals or fields, 
+literature search across databases, ethical frameworks.
+
+_Typical configurations_: A computational biologist working 
+on epidemiology with humanities co-authors faces unique 
+configuration needs combining biology, computer science, 
+epidemiological methods, and humanities perspectives.
+
+_Profession evolution_: Academic research increasingly bridges 
+fields. Composite agents support this trend rather than 
+fighting it.
+
+h3. 8.7. Domain 7 — Therapeutic Practice and Mental Health
+
+_Sub-agent specializations might include_: Therapeutic 
+modalities (CBT, somatic experiencing, narrative therapy, 
+gestalt), specific conditions (trauma, addiction, eating 
+disorders, mood disorders), client populations (children, 
+adolescents, elderly, couples, groups), supporting frameworks 
+(neuroscience, attachment theory, family systems), cultural 
+competencies, specific skills (crisis intervention, group 
+facilitation).
+
+_Typical configurations_: A therapist working with adolescents 
+who have eating disorders in immigrant families requires 
+specific combinations spanning therapeutic modalities, 
+developmental psychology, eating disorder specifics, and 
+cultural competency.
+
+_Critical caveat_: Mental health practice requires especially 
+careful attention to where AI support is appropriate (research, 
+documentation, knowledge lookup) versus where it is not 
+(clinical judgment, therapeutic relationship). Composite agents 
+operate strictly in the support role.
+
+h3. 8.8. Pattern Across Domains
+
+What unites these domains:
+* Practice is deeply specialized, but specialization combines 
+  rather than replaces general profession competency
+* Practitioners typically span 10-30 distinct specializations
+* Each specialization is shared with other practitioners but 
+  configurations are individually distinctive
+* Existing professional development already follows this 
+  pattern; composite agents formalize and enable it more 
+  broadly
+
+The pattern is general. We expect Composite Skills Agents to 
+become standard infrastructure across most skilled professions 
+within 5-10 years.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[255-2-the-twenty-one-teachers-pattern]] (сходство 0.17)
+* [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.14)
+* [[218-7-application-domains]] (сходство 0.14)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[255-2-the-twenty-one-teachers-pattern]]
+* [[218-7-application-domains]]
+* [[254-1-why-the-binary-view-is-incomplete]]
+* [[262-9-integration-with-okwf-infrastructure]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _25%_
+* [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _21%_
+* [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _21%_
+* [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]] _21%_
+* [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]] _21%_
+* [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _21%_
+* [[264-11-open-questions|11. Open Questions]] _21%_
+* [[143-6-four-deployment-domains|6. Four Deployment Domains]] _17%_

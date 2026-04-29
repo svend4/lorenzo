@@ -1,0 +1,181 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 5. Configuration: How Principals Build Their Ensembles
+
+
+{quote}A central question for Composite Skills Agents: how does a{quote}
+
+----
+
+
+
+
+h2. Содержание
+
+* [5. Configuration: How Principals Build Their Ensembles|#5-configuration-how-principals-build-their-ensembles]
+  * [5.1. The Configuration Problem|#51-the-configuration-problem]
+  * [5.2. Three Configuration Approaches|#52-three-configuration-approaches]
+  * [5.3. Hybrid Configuration|#53-hybrid-configuration]
+  * [5.4. Configuration Evolution|#54-configuration-evolution]
+  * [5.5. Templates and Starting Points|#55-templates-and-starting-points]
+
+----
+
+
+
+
+h2. 5. Configuration: How Principals Build Their Ensembles
+
+A central question for Composite Skills Agents: how does a 
+principal arrive at their specific configuration?
+
+h3. 5.1. The Configuration Problem
+
+A principal entering an ecosystem with hundreds of available 
+sub-agents faces a configuration problem. They do not yet know:
+* Which specializations are most relevant to their work
+* Which combinations work well together
+* Which sub-agents are highest quality
+* How their configuration should evolve over time
+
+This is similar to how a new yoga student facing hundreds of 
+possible teachers doesn't know which twenty to pursue. The 
+configuration emerges from a process, not a single decision.
+
+h3. 5.2. Three Configuration Approaches
+
+We identify three approaches with different strengths and 
+trade-offs.
+
+_Approach 1 — Self-directed._ The principal browses the 
+registry, selects sub-agents based on their self-assessment, 
+and configures their composite agent.
+
+Strengths: Full agency. Principal develops deep knowledge of 
+the registry. No external influence on selection.
+
+Weaknesses: Requires substantial self-knowledge. New 
+practitioners often don't know what they need. May miss 
+valuable specializations they hadn't considered.
+
+_Approach 2 — AI-assisted recommendation._ The composite 
+agent (or a separate recommendation system) analyzes the 
+principal's stated goals, work history, and preferences, then 
+suggests an initial configuration. Principal modifies as 
+needed.
+
+Strengths: Lower barrier to entry. Surfaces specializations 
+the principal might not have considered. Faster initial setup.
+
+Weaknesses: Risk of recommendation bias. Algorithmic suggestions 
+may converge toward popular configurations, reducing diversity. 
+Principal may accept recommendations passively without learning 
+the registry.
+
+_Approach 3 — Mentor-guided._ An experienced practitioner — 
+ideally one who has developed their own composite practice — 
+helps the principal think through their configuration.
+
+Strengths: Deep human judgment about what configurations work. 
+Mentor knows what the principal's stated goals actually require. 
+Builds relationship beyond the technology.
+
+Weaknesses: Requires access to a mentor. Mentor's perspective 
+may bias selection. Doesn't scale automatically.
+
+h3. 5.3. Hybrid Configuration
+
+In practice, the best configuration process combines all three 
+approaches:
+
+1. _Initial AI recommendation_ based on principal's stated 
+   profile generates a starting configuration
+2. _Self-directed exploration_ lets principal browse, adjust, 
+   add specializations they recognize as relevant
+3. _Mentor review_ (optional) provides experienced human 
+   perspective, especially for principals new to their field
+
+This three-step process echoes how human professional development 
+actually works: training programs provide initial frameworks, 
+self-directed learning fills gaps, and mentors provide deep 
+guidance.
+
+h3. 5.4. Configuration Evolution
+
+A principal's configuration is not static. Specializations 
+change over time:
+* New specializations enter their work as careers evolve
+* Old specializations become less relevant as priorities shift
+* New sub-agents become available in the registry
+* Old sub-agents may be deprecated
+
+The composite agent should help the principal monitor 
+configuration health:
+* Which sub-agents are most used?
+* Which are rarely consulted?
+* Are there new sub-agents that match the principal's recent 
+  work patterns?
+
+Periodic configuration review (perhaps annually) keeps the 
+composite agent aligned with the principal's evolving practice.
+
+h3. 5.5. Templates and Starting Points
+
+For many professions, common configurations exist. A new social 
+law lawyer might benefit from a starting template:
+* General SGB IX sub-agent
+* General SGB XII sub-agent  
+* Procedural law sub-agent
+* BSG case law sub-agent
+* General drafting sub-agent
+
+This template provides a reasonable starting configuration. The 
+practitioner then specializes by adding sub-agents specific to 
+their developing practice (e.g., disability rights specifically, 
+or social welfare for elderly clients, or working with mental 
+health conditions).
+
+Templates are starting points, not endpoints. Every practitioner 
+modifies their configuration over time.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [260-7-economics-of-combinatorial-replication|260-7-economics-of-combinatorial-replication.md] (сходство 0.17)
+* [256-3-what-makes-a-composite-skills-agent|256-3-what-makes-a-composite-skills-agent.md] (сходство 0.15)
+* [264-11-open-questions|264-11-open-questions.md] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [260-7-economics-of-combinatorial-replication|260-7-economics-of-combinatorial-replication.md]
+* [256-3-what-makes-a-composite-skills-agent|256-3-what-makes-a-composite-skills-agent.md]
+* [259-6-coordination-and-disagreement-resolution|259-6-coordination-and-disagreement-resolution.md]
+* [264-11-open-questions|264-11-open-questions.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [3. What Makes a Composite Skills Agent|256-3-what-makes-a-composite-skills-agent.md] _37%_
+* [6. Coordination and Disagreement Resolution|259-6-coordination-and-disagreement-resolution.md] _29%_
+* [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md] _29%_
+* [11. Open Questions|264-11-open-questions.md] _29%_
+* [OPEN KNOWLEDGE WORK FOUNDATION.md|151-open-knowledge-work-foundation-md.md] _25%_
+* [Table of Contents|253-table-of-contents.md] _25%_
+* [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md|273-infrastructure-for-ai-collaborative-intellectual-w.md] _25%_
+* [3. What Makes a Representative Agent|172-3-what-makes-a-representative-agent.md] _21%_

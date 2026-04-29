@@ -1,0 +1,21 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/05-habr-projects/memory/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Системы памяти"
+tags:
+  * habr-projects
+date: 2026-04-29
+----
+
+h1. Системы памяти
+
+_Файлов:_ 3
+
+h2. Содержание
+
+* [[memnet|memnet.md]] — 
+* [[ngt-memory|ngt-memory.md]] — 
+* [[yodoca|yodoca.md]] — 

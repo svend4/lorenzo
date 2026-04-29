@@ -16,17 +16,17 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 
 ## Файлы
 
-- [`docs/autofilled/components/.md`](docs/autofilled/components/.md)
-- [`docs/autofilled/components/cowork.md`](docs/autofilled/components/cowork.md)
-- [`docs/autofilled/components/ingit.md`](docs/autofilled/components/ingit.md)
-- [`docs/autofilled/components/kksudo.md`](docs/autofilled/components/kksudo.md)
-- [`docs/autofilled/components/lorenzo.md`](docs/autofilled/components/lorenzo.md)
-- [`docs/autofilled/components/nautilus.md`](docs/autofilled/components/nautilus.md)
-- [`docs/autofilled/components/sgb.md`](docs/autofilled/components/sgb.md)
-- [`docs/autofilled/components/spbmolot.md`](docs/autofilled/components/spbmolot.md)
-- [`docs/autofilled/components/svend4.md`](docs/autofilled/components/svend4.md)
-- [`docs/autofilled/components/svyazi.md`](docs/autofilled/components/svyazi.md)
-- [`docs/autofilled/research-summary.md`](docs/autofilled/research-summary.md)
+- [`docs/autofilled/components/.md`](autofilled/components/.md)
+- [`docs/autofilled/components/cowork.md`](autofilled/components/cowork.md)
+- [`docs/autofilled/components/ingit.md`](autofilled/components/ingit.md)
+- [`docs/autofilled/components/kksudo.md`](autofilled/components/kksudo.md)
+- [`docs/autofilled/components/lorenzo.md`](autofilled/components/lorenzo.md)
+- [`docs/autofilled/components/nautilus.md`](autofilled/components/nautilus.md)
+- [`docs/autofilled/components/sgb.md`](autofilled/components/sgb.md)
+- [`docs/autofilled/components/spbmolot.md`](autofilled/components/spbmolot.md)
+- [`docs/autofilled/components/svend4.md`](autofilled/components/svend4.md)
+- [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
+- [`docs/autofilled/research-summary.md`](autofilled/research-summary.md)
 
 ## Как работает
 
@@ -37,13 +37,34 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 
 Повторный запуск перезаписывает файлы актуальными данными.
 
+<!-- related-auto -->
+## Связанные документы
+
+- [components](autofilled/components/README.md) _45%_
+- [Антропик](autofilled/components/.md) _25%_
+- [Cowork](autofilled/components/cowork.md) _25%_
+- [ingit](autofilled/components/ingit.md) _25%_
+- [kksudo](autofilled/components/kksudo.md) _25%_
+- [Lorenzo](autofilled/components/lorenzo.md) _25%_
+- [Nautilus](autofilled/components/nautilus.md) _25%_
+- [SGB](autofilled/components/sgb.md) _25%_
+## Связанные документы
+
+- [Diff базы знаний между версиями](VERSION_DIFF.md) _25%_
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [WORD_CLOUD](docs/WORD_CLOUD.md)
-- [NETWORK](docs/NETWORK.md)
-- [nlaik](docs/contacts/nlaik.md)
+- [.md](autofilled/components/.md)
+- [cowork](autofilled/components/cowork.md)
+- [ingit](autofilled/components/ingit.md)
+- [lorenzo](autofilled/components/lorenzo.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)

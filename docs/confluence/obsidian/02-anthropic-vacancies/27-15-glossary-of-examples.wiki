@@ -1,0 +1,74 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/27-15-glossary-of-examples.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "15. Glossary of Examples"
+tags:
+  * collaboration
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 15. Glossary of Examples
+
+
+{quote}В качестве иллюстраций используется экосистема {{svend4}} с тремя{quote}
+
+----
+
+
+
+
+
+h2. 15. Glossary of Examples
+
+В качестве иллюстраций используется экосистема {{svend4}} с тремя 
+Repos:
+
+* _info1_: 74 документа с α-уровнями, методологический угол
+* _pro2_: Q6-концепты, граф знаний, семантический угол
+* _meta_: 256 CA-правил, гексаграммы, символьный угол
+
+Эти Repos служат reference examples для тестирования NPP-совместимых 
+implementations.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[97-22-glossary-of-reference-examples]] (сходство 0.33)
+* [[55-passports-meta-md]] (сходство 0.18)
+* [[35-passports-info1-md]] (сходство 0.16)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[97-22-glossary-of-reference-examples]]
+* [[55-passports-meta-md]]
+* [[35-passports-info1-md]]
+* [[45-passports-pro2-md]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[97-22-glossary-of-reference-examples|22. Glossary of Reference Examples]] _66%_
+* [[35-passports-info1-md|passports/info1.md]] _48%_
+* [[45-passports-pro2-md|passports/pro2.md]] _48%_
+* [[55-passports-meta-md|passports/meta.md]] _48%_
+* [[56-essence|Essence]] _33%_
+* [[46-essence|Essence]] _29%_
+* [[25-13-reference-implementation|13. Reference Implementation]] _25%_
+* [[36-essence|Essence]] _25%_

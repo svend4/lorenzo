@@ -17883,7 +17883,7 @@
       "id": "docs/ALERTS.md::0",
       "source": "docs/ALERTS.md",
       "heading": "Callout-блоки",
-      "text": "Тип Количество Назначение ----- ------------ ------------ !NOTE 0 Нейтральная заметка !TIP 70 Практический совет !WARNING 34 Предупреждение о риске !IMPORTANT 25 Ключевой документ",
+      "text": "Тип Количество Назначение ----- ------------ ------------ !NOTE 0 Нейтральная заметка !TIP 18 Практический совет !WARNING 8 Предупреждение о риске !IMPORTANT 1 Ключевой документ",
       "wc": 23
     },
     {
@@ -17892,6 +17892,20 @@
       "heading": "Авторы и коллаборации",
       "text": "Автор Упоминается в файлах ------- --------------------- AnastasiyaW 9 Antipozitive 2 BerriAI 5 Cutcode 4 Dmitriila 2 MiXaiLL76 3 Sonia Black 5 VitaliySemenov 2 VitalyOborin 6 VladSpace 2 akazant 4 akzhankalimatov 2 andrey chuyan 3 iximy 3 kksudo 8 lee-to 4 lib4u 5 moshael 4 nlaik 2 spbmolot 7 tagir analyzes 3 vpakspace 2 zodigancode 2 Андрей Чуян 11 Виталий Оборин 2",
       "wc": 61
+    },
+    {
+      "id": "docs/AUTOFILLED.md::0",
+      "source": "docs/AUTOFILLED.md",
+      "heading": "Файлы",
+      "text": "- docs/autofilled/components/.md docs/autofilled/components/.md - docs/autofilled/components/cowork.md docs/autofilled/components/cowork.md - docs/autofilled/components/ingit.md docs/autofilled/components/ingit.md - docs/autofilled/components/kksudo.md docs/autofilled/components/kksudo.md - docs/autofilled/components/lorenzo.md docs/autofilled/components/lorenzo.md - docs/autofilled/components/nau",
+      "wc": 33
+    },
+    {
+      "id": "docs/AUTOFILLED.md::1",
+      "source": "docs/AUTOFILLED.md",
+      "heading": "Как работает",
+      "text": "1. Читает шаблоны из docs/templates/ с плейсхолдерами {{name}} 2. Собирает данные: ENTITIES сущности , SCORING статус , NETWORK граф 3. Заменяет плейсхолдеры реальными данными 4. Сохраняет результаты в docs/autofilled/",
+      "wc": 29
     },
     {
       "id": "docs/BACKLINKS.md::0",
@@ -17941,6 +17955,48 @@
       "heading": "🔧 Обслуживание",
       "text": "- action items, gap analysis, clustering, mindmap, HTML export 4e7137c4 - improve action items.py: 490 items risks, decisions, next steps → ACTION ITEMS.md - add Q&A sheets, priority ranking, and contacts extraction e787c21f - improve qa.py: 5 section Q&A files + global QA.md 12 topic templates - add tags, search index, and project relationship graph b3d7d0bf - improve tags.py: tagged 316 files wi",
       "wc": 108
+    },
+    {
+      "id": "docs/CHANGELOG_AUTO.md::0",
+      "source": "docs/CHANGELOG_AUTO.md",
+      "heading": "Статистика коммитов",
+      "text": "Тип Название Кол-во ----- --------- -------- feat ✨ Новые возможности 5 chore 🔧 Технические задачи 4 other 📌 Прочее 16",
+      "wc": 20
+    },
+    {
+      "id": "docs/CHANGELOG_AUTO.md::1",
+      "source": "docs/CHANGELOG_AUTO.md",
+      "heading": "2026-04",
+      "text": "- add tech radar, onboarding guide, dependency map, meta group in run all 4ddee95e - add autonomous watcher Ступень 6 , CI workflow, LLM section summaries 1f3fe74a - add CLAUDE.md, weekly digest script, enrich group in run all 469dbced - add LLM integration Ступень 3 , skills Ступень 4 , MCP server Ступень 5 00a25f78 - organize docs into monorepo structure with topic-based subfolders d49a1f0f",
+      "wc": 65
+    },
+    {
+      "id": "docs/CHANGELOG_AUTO.md::2",
+      "source": "docs/CHANGELOG_AUTO.md",
+      "heading": "2026-04",
+      "text": "- update mcp.json description wording 4e52a185 - commit README.md with SVG badges from batch 13 be9de469 - add .gitignore for Python cache files 7658df5b - add extract mhtml.py and ignore pycache ff8a8161",
+      "wc": 32
+    },
+    {
+      "id": "docs/CHANGELOG_AUTO.md::3",
+      "source": "docs/CHANGELOG_AUTO.md",
+      "heading": "2026-04",
+      "text": "- batch 13 — badges, FAQ, schedule, cost estimate, footnotes 7aee1dba - batch 12 — digest, progress, see-also, scoring, word cloud 04a64831 - batch 11 — orphans, alerts, metrics, index update, master runner a48150bf - batch 10 — backlinks, heatmap, templates, validation, executive report a25efe45 - batch 9 — abbreviations, sentiment, narrative, JSON export, network 873b8c58 - batch 8 — stats, simi",
+      "wc": 161
+    },
+    {
+      "id": "docs/CITATION_INDEX.md::0",
+      "source": "docs/CITATION_INDEX.md",
+      "heading": "Топ доменов",
+      "text": "Домен URL Авторитетность ------- ----- ---------------- github.com 51 ⭐⭐⭐⭐⭐ habr.com 41 ⭐⭐⭐⭐ raw.githubusercontent.com 11 ⭐ 3dnews.ru 2 ⭐ api.github.com 2 ⭐⭐⭐⭐⭐ fontanka.ru 1 ⭐ discourse.org 1 ⭐ eb.hypothes.is 1 ⭐ claude.com 1 ⭐ support.claude.com 1 ⭐ fossil-scm.org 1 ⭐ install.sh 1 ⭐ happyin.space 1 ⭐ creativecommons.org 1 ⭐ activitypub.rocks 1 ⭐ solidproject.org 1 ⭐ 3.org 1 ⭐ habr 1 ⭐ olegtalks.",
+      "wc": 66
+    },
+    {
+      "id": "docs/CITATION_INDEX.md::1",
+      "source": "docs/CITATION_INDEX.md",
+      "heading": "Наиболее цитируемые URL",
+      "text": "URL Файлов Авторитетность Домен ----- -------- ---------------- ------- 18 ⭐⭐⭐⭐⭐ github.com 11 ⭐⭐⭐⭐⭐ github.com 8 ⭐⭐⭐⭐⭐ github.com 6 ⭐⭐⭐⭐⭐ github.com 6 ⭐⭐⭐⭐⭐ github.com 7 ⭐⭐⭐⭐ habr.com 5 ⭐⭐⭐⭐⭐ github.com 5 ⭐⭐⭐⭐⭐ github.com 4 ⭐⭐⭐⭐⭐ github.com 4 ⭐⭐⭐⭐⭐ github.com 4 ⭐⭐⭐⭐⭐ github.com 4 ⭐⭐⭐⭐⭐ github.com 4 ⭐⭐⭐⭐⭐ github.com 5 ⭐⭐⭐⭐ habr.com 5 ⭐⭐⭐⭐ habr.com 4 ⭐⭐⭐⭐ habr.com 4 ⭐⭐⭐⭐ habr.com 4 ⭐⭐⭐⭐ habr.com 4 ",
+      "wc": 158
     },
     {
       "id": "docs/CLUSTERS.md::0",
@@ -18235,6 +18291,34 @@
       "heading": "Методология",
       "text": "- Средняя длина предложения 25 слов → +2 балла - Терминологическая плотность 3% → +2 балла - Глубина заголовков H4+ → +1 балл - Объём 3000 слов → +2 балла",
       "wc": 30
+    },
+    {
+      "id": "docs/COMPONENT_MATRIX.md::0",
+      "source": "docs/COMPONENT_MATRIX.md",
+      "heading": "Матрица возможностей",
+      "text": "Компонент Лицензия Статус Долгосро Поиск/ин MCP-совм Граф зна Безопасн Оркестра Веб-крау Хранилищ Документ CRDT/syn ----------- ---------- -------- --------- --------- --------- --------- --------- --------- --------- --------- --------- --------- CardIndex 🟢 MIT 🟢 stable ✅ ✅ ✅ 🟡 ❌ ❌ ❌ ✅ ✅ ❌ AgentFS 🟢 MIT 🟢 stable 🟡 ✅ ✅ ❌ 🟡 ❌ ❌ ✅ ✅ 🟡 Yodoca 🟢 Apache 2.0 🔵 active ✅ ✅ 🟡 ❌ 🟡 ❌ ❌ ✅ 🟡 ❌ NGT-memory 🟠 BS",
+      "wc": 240
+    },
+    {
+      "id": "docs/COMPONENT_MATRIX.md::1",
+      "source": "docs/COMPONENT_MATRIX.md",
+      "heading": "Покрытие возможностей",
+      "text": "Возможность Полная поддержка Частичная Итого ------------- ----------------- ----------- ------- Долгосрочная память 6 1 7/14 Поиск/индекс 8 1 9/14 MCP-совместим 6 4 10/14 Граф знаний 2 2 4/14 Безопасность/PII 1 2 3/14 Оркестрация 3 0 3/14 Веб-краулинг 2 0 2/14 Хранилище данных 8 0 8/14 Документированный API 4 5 9/14 CRDT/sync 0 1 1/14",
+      "wc": 53
+    },
+    {
+      "id": "docs/COMPONENT_MATRIX.md::2",
+      "source": "docs/COMPONENT_MATRIX.md",
+      "heading": "Каталог компонентов",
+      "text": "Компонент Лицензия Статус Репозиторий ----------- ---------- -------- ------------- CardIndex 🟢 MIT 🟢 stable kksudo/card-index AgentFS 🟢 MIT 🟢 stable kksudo/agentfs Yodoca 🟢 Apache 2.0 🔵 active spbmolot/yodoca NGT-memory 🟠 BSL 1.1 🔵 active — SENTINEL 🟢 MIT 🔵 active — Rufler ⚪ — 🟡 experimental — knowledge-space 🟢 MIT 🟢 stable kksudo/knowledge-space Firecrawl 🟢 MIT 🟢 stable mendableai/firecrawl Wiko",
+      "wc": 95
+    },
+    {
+      "id": "docs/COMPONENT_MATRIX.md::3",
+      "source": "docs/COMPONENT_MATRIX.md",
+      "heading": "Рекомендуемые ансамбли",
+      "text": "Ансамбль Компоненты Ключевая функция ---------- ----------- ----------------- Knowledge OS CardIndex + AgentFS + knowledge-space Индекс знаний + AI FS Memory Layer Yodoca + NGT-memory + agent-memory-mcp Долгосрочная память Security Runtime SENTINEL + AgentFS PII-защита + MCP allowlist Web Intelligence Firecrawl + CardIndex + Yodoca Краулинг → память Agent Orchestra Rufler + agent-pool + AI Factory",
+      "wc": 57
     },
     {
       "id": "docs/CONCEPTS.md::0",
@@ -18877,8 +18961,8 @@
       "id": "docs/CONSISTENCY.md::0",
       "source": "docs/CONSISTENCY.md",
       "heading": "Согласованность терминов",
-      "text": "Термин Канонично Вариант Файлов -------- ----------- --------- -------- knowledge-space knowledge-space knowledge space 2 knowledge-space knowledge-space knowledge space 6 AI Factory AI Factory AI-Factory 1 NGT Memory NGT Memory NGT-Memory 5 self-improvement self-improvement self-improve 48 Svyazi 2.0 Svyazi 2.0 Svyazi-2.0 4",
-      "wc": 40
+      "text": "Термин Канонично Вариант Файлов -------- ----------- --------- -------- knowledge-space knowledge-space knowledge space 9 knowledge-space knowledge-space knowledge space 17 CardIndex CardIndex card-index 1 AI Factory AI Factory AI-Factory 4 NGT Memory NGT Memory NGT-Memory 18 self-improvement self-improvement self-improve 51 Svyazi 2.0 Svyazi 2.0 Svyazi-2.0 4 evidence envelope Evidence Envelope Ev",
+      "wc": 50
     },
     {
       "id": "docs/CONTACTS.md::0",
@@ -18914,6 +18998,13 @@
       "heading": "Написать первым (ещё не контактировали)",
       "text": "1. kksudo AgentFS, 21 упоминаний → открыть контакт contacts/kksudo.md 1. AnastasiyaW knowledge-space, mclaude, 20 упоминаний → открыть контакт contacts/anastasiyaw.md 1. spbmolot NGT Memory, 20 упоминаний → открыть контакт contacts/spbmolot.md",
       "wc": 29
+    },
+    {
+      "id": "docs/CONTENT_GAPS.md::0",
+      "source": "docs/CONTENT_GAPS.md",
+      "heading": "Рекомендуется создать документы",
+      "text": "Концепция Упоминаний Рекомендуемая папка ----------- ----------- ------------------- LiteParse 40 docs/04-ai-collaborations/ BSL 36 docs/04-ai-collaborations/ NPP 32 docs/02-anthropic-vacancies/ MUST 28 docs/02-anthropic-vacancies/ AutoResearch 24 docs/01-svyazi/ GDPR 24 docs/02-anthropic-vacancies/ SHOULD 20 docs/02-anthropic-vacancies/ CRDT 19 docs/04-ai-collaborations/ PII 17 docs/04-ai-collabo",
+      "wc": 157
     },
     {
       "id": "docs/COST.md::0",
@@ -19399,6 +19490,20 @@
       "wc": 70
     },
     {
+      "id": "docs/DEPENDENCY_MAP.md::0",
+      "source": "docs/DEPENDENCY_MAP.md",
+      "heading": "Зависимости",
+      "text": "Скрипт Производит Зависит от -------- ----------- ----------- improve abbreviations.py docs/ABBREVIATIONS.md docs/ / .md improve action items.py docs/ACTION ITEMS.md docs/ / .md improve autofill.py docs/autofilled/ docs/templates/ , docs/ENTITIES.md improve backlinks.py docs/BACKLINKS.md docs/ / .md improve badges.py docs/badges/ .svg docs/HEALTH.md , docs/SCORING.md improve clusters.py docs/CLUST",
+      "wc": 338
+    },
+    {
+      "id": "docs/DEPENDENCY_MAP.md::1",
+      "source": "docs/DEPENDENCY_MAP.md",
+      "heading": "Скрипты без карты зависимостей",
+      "text": "- improve alerts.py - improve autocorrect.py - improve broken links.py - improve changelog.py - improve compare.py - improve complexity.py - improve consistency.py - improve contacts.py - improve crossrefs.py - improve dedup.py - improve density.py - improve extract code.py - improve extract tables.py - improve graph.py - improve merge short.py - improve mindmap.py - improve missing.py - improve n",
+      "wc": 85
+    },
+    {
       "id": "docs/DIGEST.md::0",
       "source": "docs/DIGEST.md",
       "heading": "Новые документы",
@@ -19411,6 +19516,13 @@
       "heading": "История коммитов (последние 15)",
       "text": "Дата Hash Описание ------ ------ --------- 2026-04-29 a48150bf improve: batch 11 — orphans, alerts, metrics, index update, master run 2026-04-29 a25efe45 improve: batch 10 — backlinks, heatmap, templates, validation, executi 2026-04-29 873b8c58 improve: batch 9 — abbreviations, sentiment, narrative, JSON export, n 2026-04-29 ff8fe0fa improve: batch 8 — stats, similar docs, questions, KPI, sitemap ",
       "wc": 170
+    },
+    {
+      "id": "docs/DIGEST_WEEKLY.md::0",
+      "source": "docs/DIGEST_WEEKLY.md",
+      "heading": "Итого",
+      "text": "Метрика Значение --------- --------- Коммитов за неделю 22 Новых файлов 0 Изменённых файлов 0 Всего MD файлов 482 Всего слов 388,554",
+      "wc": 21
     },
     {
       "id": "docs/DUPLICATES.md::0",
@@ -19612,15 +19724,15 @@
       "id": "docs/HEALTH.md::0",
       "source": "docs/HEALTH.md",
       "heading": "Метрики",
-      "text": "Метрика Значение Статус Балл --------- ---------- -------- ------ Покрытие текста 97.6% 🟢 98 Полнота тем 23✅ 3⚠️ 4❌ 🟡 77 Согласованность 0 проблем 🟢 100 Внутренние ссылки 26 сломано 🔴 0 Дублирование 0 точных дублей 🟢 100",
+      "text": "Метрика Значение Статус Балл --------- ---------- -------- ------ Покрытие текста 97.6% 🟢 98 Полнота тем 23✅ 3⚠️ 4❌ 🟡 77 Согласованность 0 проблем 🟢 100 Внутренние ссылки 4037 сломано 🔴 0 Дублирование 0 точных дублей 🟢 100",
       "wc": 37
     },
     {
       "id": "docs/HEALTH.md::1",
       "source": "docs/HEALTH.md",
       "heading": "Структура репозитория",
-      "text": "Раздел Файлов -------- -------- 01-svyazi 16 02-anthropic-vacancies 357 03-technology-combinations 7 04-ai-collaborations 17 05-habr-projects 10 badges 1 contacts 14 root 56 templates 6",
-      "wc": 22
+      "text": "Раздел Файлов -------- -------- 01-svyazi 16 02-anthropic-vacancies 357 03-technology-combinations 7 04-ai-collaborations 17 05-habr-projects 10 autofilled 11 badges 1 contacts 14 root 76 templates 6",
+      "wc": 24
     },
     {
       "id": "docs/HEATMAP.md::0",
@@ -19642,6 +19754,27 @@
       "heading": "Концентрация тем",
       "text": "Тема Лучший раздел Плотность ------ -------------- ----------- Память/Knowledge 01-svyazi 23.1‰ Агент/Оркестр 03-technology-combinations 23.7‰ Безопасность 01-svyazi 5.2‰ Архитектура 01-svyazi 6.4‰ MVP/Roadmap 01-svyazi 5.4‰ Граф/RAG 03-technology-combinations 21.2‰ Лицензия/OSS 01-svyazi 3.4‰ Вакансии 02-anthropic-vacancies 5.4‰ Комбинации 03-technology-combinations 16.5‰ Habr/Проекты 05-habr-pro",
       "wc": 43
+    },
+    {
+      "id": "docs/INDEX.md::0",
+      "source": "docs/INDEX.md",
+      "heading": "Аналитика и отчёты",
+      "text": "Документ Описание ---------- --------- STATS.md docs/STATS.md Статистика METRICS.md docs/METRICS.md Качество 65.7/100 VALIDATION.md docs/VALIDATION.md Валидация SENTIMENT.md docs/SENTIMENT.md Тональность CLUSTERS.md docs/CLUSTERS.md Кластеры тем SIMILAR.md docs/SIMILAR.md Похожие документы HEATMAP.md docs/HEATMAP.md Тепловая карта тем QUESTIONS.md docs/QUESTIONS.md Открытые вопросы 484 KPI.md docs",
+      "wc": 106
+    },
+    {
+      "id": "docs/INDEX.md::1",
+      "source": "docs/INDEX.md",
+      "heading": "Ключевые документы",
+      "text": "Документ Тема Описание ---------- ------ --------- SCORING.md docs/SCORING.md 🎯 Go/No-Go скоринг Статус готовности: 96% HEALTH.md docs/HEALTH.md ❤️ Здоровье репо Метрики качества документации TECH RADAR.md docs/TECH RADAR.md 📡 Tech Radar ADOPT/TRIAL/ASSESS/HOLD RISK REGISTER.md docs/RISK REGISTER.md ⚠️ Реестр рисков 10 рисков, матрица вероятность×влияние ONBOARDING.md docs/ONBOARDING.md 👋 Онбордин",
+      "wc": 111
+    },
+    {
+      "id": "docs/INDEX.md::2",
+      "source": "docs/INDEX.md",
+      "heading": "LLM-обогащение (Ступень 3)",
+      "text": "Документ Описание ---------- --------- LLM ENRICHED.md нет Обогащённые stub-файлы LLM QA.md нет Ответы на открытые вопросы LLM GAPS.md нет Семантические пробелы LLM SUMMARIES.md docs/LLM SUMMARIES.md AI-саммари разделов",
+      "wc": 27
     },
     {
       "id": "docs/KPI.md::0",
@@ -19700,6 +19833,13 @@
       "wc": 88
     },
     {
+      "id": "docs/KPI_HISTORY.md::0",
+      "source": "docs/KPI_HISTORY.md",
+      "heading": "Текущие метрики",
+      "text": "Метрика Значение Тренд --------- --------- ------- Markdown документов 491 → Слов 392,850 → Скриптов 80 → Скоринг 96% → Здоровье 75/100 → KPI показателей 737 → Открытых вопросов 35 →",
+      "wc": 30
+    },
+    {
       "id": "docs/LINKS.md::0",
       "source": "docs/LINKS.md",
       "heading": "Индекс ссылок",
@@ -19710,7 +19850,7 @@
       "id": "docs/METRICS.md::0",
       "source": "docs/METRICS.md",
       "heading": "Качество по разделам",
-      "text": "Раздел Балл Ссылок/1K слов Код-блоков/1K % с summary % с тегами -------- ------ ---------------- -------------- ------------- ------------ 01-svyazi 62 13.1 0.5 80% 87% 02-anthropic-vacancies 70 29.6 1.0 94% 78% 03-technology-combinations 61 28.4 0.0 71% 71% 04-ai-collaborations 74 12.2 0.0 88% 88% 05-habr-projects 57 45.1 0.0 60% 60% root 50 17.6 1.3 6% 4%",
+      "text": "Раздел Балл Ссылок/1K слов Код-блоков/1K % с summary % с тегами -------- ------ ---------------- -------------- ------------- ------------ 01-svyazi 62 13.1 0.5 80% 87% 02-anthropic-vacancies 70 29.6 1.0 94% 78% 03-technology-combinations 61 28.4 0.0 71% 71% 04-ai-collaborations 74 12.2 0.0 88% 88% 05-habr-projects 57 45.1 0.0 60% 60% root 44 14.2 1.2 5% 3%",
       "wc": 53
     },
     {
@@ -19723,15 +19863,15 @@
     {
       "id": "docs/METRICS.md::2",
       "source": "docs/METRICS.md",
-      "heading": "Документы, требующие улучшения (6)",
-      "text": "Документ Балл Что отсутствует ---------- ------ ---------------- 185-appendix-b-domain-comparison-ma 30 summary, tags, TOC, callout 206-приложение-b-матрица-сравнения- 30 summary, tags, TOC, callout BACKLINKS 30 summary, tags, TOC, callout COST 30 summary, tags, TOC, callout SCORING 30 summary, tags, TOC, callout SEE ALSO 30 summary, tags, TOC, callout",
-      "wc": 44
+      "heading": "Документы, требующие улучшения (20)",
+      "text": "Документ Балл Что отсутствует ---------- ------ ---------------- 185-appendix-b-domain-comparison-ma 30 summary, tags, TOC, callout 206-приложение-b-матрица-сравнения- 30 summary, tags, TOC, callout BACKLINKS 30 summary, tags, TOC, callout BROKEN LINKS 30 summary, tags, TOC, callout CHANGELOG AUTO 30 summary, tags, TOC, callout COMPONENT MATRIX 30 summary, tags, TOC, callout CONTENT GAPS 30 summar",
+      "wc": 136
     },
     {
       "id": "docs/METRICS.md::3",
       "source": "docs/METRICS.md",
       "heading": "Общие показатели",
-      "text": "- Файлов с : 82.8% - Файлов с тегами: 70.5% - Файлов с оглавлением: 22.4% - Файлов с callout: 27.2% - Средний балл качества: 67.5/100",
+      "text": "- Файлов с : 78.0% - Файлов с тегами: 66.3% - Файлов с оглавлением: 20.8% - Файлов с callout: 24.7% - Средний балл качества: 65.1/100",
       "wc": 25
     },
     {
@@ -19745,8 +19885,8 @@
       "id": "docs/MISSING.md::0",
       "source": "docs/MISSING.md",
       "heading": "Карта пробелов знаний",
-      "text": "Статус Тема / Проект Файлов Слов Минимум Примеры файлов -------- --------------- -------- ------ --------- ---------------- ⚠️ бюджетный роутинг 6 68 ≥2ф/300сл QA.md , 06-безопасность-приватность-и-бюджетный-роутинг.md ❌ лицензия BSL 0 0 ≥1ф/50сл ❌ voice ingestion 0 0 ≥1ф/100сл ✅ local-first 61 21753 ≥2ф/300сл TAGS.md , SEARCH.md ✅ Svyazi 57 56070 ≥5ф/2000сл TIMELINE.md , GLOSSARY.md ✅ CardIndex 4",
-      "wc": 233
+      "text": "Статус Тема / Проект Файлов Слов Минимум Примеры файлов -------- --------------- -------- ------ --------- ---------------- ✅ Svyazi 134 84658 ≥5ф/2000сл WORD FREQ.md , SCHEDULE.md ✅ local-first 75 32265 ≥2ф/300сл CONTENT GAPS.md , TABLES.md ✅ CardIndex 72 57544 ≥3ф/500сл SCHEDULE.md , QUESTIONS.md ✅ Yodoca 68 48233 ≥2ф/300сл WORD FREQ.md , SCHEDULE.md ✅ AgentFS 62 39342 ≥3ф/500сл WORD FREQ.md , S",
+      "wc": 240
     },
     {
       "id": "docs/NARRATIVE.md::0",
@@ -19882,7 +20022,70 @@
       "wc": 26
     },
     {
+      "id": "docs/ONBOARDING.md::0",
+      "source": "docs/ONBOARDING.md",
+      "heading": "Что это такое?",
+      "text": "Svyazi 2.0 — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных.",
+      "wc": 20
+    },
+    {
+      "id": "docs/ONBOARDING.md::1",
+      "source": "docs/ONBOARDING.md",
+      "heading": "Структура документации",
+      "text": "Раздел Тема Файлов Слов -------- ------ -------- ------ docs/01-svyazi/ docs/01-svyazi/README.md Архитектура Svyazi 2.0 16 10,166 docs/02-anthropic-vacancies/ docs/02-anthropic-vacancies/README.md Вакансии Anthropic 357 260,851 docs/03-technology-combinations/ docs/03-technology-combinations/README.md Комбинации технологий 7 2,433 docs/04-ai-collaborations/ docs/04-ai-collaborations/README.md AI-к",
+      "wc": 37
+    },
+    {
+      "id": "docs/ONBOARDING.md::2",
+      "source": "docs/ONBOARDING.md",
+      "heading": "Ключевые документы",
+      "text": "Документ Зачем читать ---------- ------------- docs/01-svyazi/01-executive-summary.md Общий обзор проекта — начни здесь docs/01-svyazi/07-mvp-planning.md MVP план, риски, оценки времени docs/01-svyazi/12-roadmap.md Дорожная карта по кварталам docs/01-svyazi/11-integration-contracts.md API-контракты между компонентами docs/CONTACTS.md Авторы компонентов и шаблоны писем docs/FAQ.md 54 вопроса и отве",
+      "wc": 51
+    },
+    {
+      "id": "docs/ONBOARDING.md::3",
+      "source": "docs/ONBOARDING.md",
+      "heading": "Архитектура компонентов",
+      "text": "Компонент Роль Лицензия Автор ----------- ------ --------- ------- CardIndex Индекс знаний 785+ карточек MIT kksudo AgentFS Файловая система для AI MIT kksudo Yodoca Память с консолидацией Apache 2.0 spbmolot NGT-memory Ассоциативный граф памяти BSL 1.1 — SENTINEL Безопасность, allowlist MCP MIT — Rufler Оркестратор агентов — — Firecrawl Веб-краулер для AI MIT —",
+      "wc": 53
+    },
+    {
+      "id": "docs/ONBOARDING.md::4",
+      "source": "docs/ONBOARDING.md",
+      "heading": "Как внести вклад",
+      "text": "1. Документация: редактируй файлы в docs/ , запусти improve run all.py 2. Скрипты: добавь scripts/improve .py , добавь в группу в improve run all.py 3. Контакты: авторы компонентов в docs/CONTACTS.md , шаблон в docs/templates/contact-outreach.md 4. Архитектура: новые ADR в docs/01-svyazi/ по шаблону docs/templates/adr-template.md",
+      "wc": 43
+    },
+    {
       "id": "docs/ORPHANS.md::0",
+      "source": "docs/ORPHANS.md",
+      "heading": "Топ-20 по объёму (важные и изолированные)",
+      "text": "Файл Слов Раздел ------ ------ -------- PARAGRAPH QUALITY 4068 root CONTRADICTIONS 1656 root NAMED ENTITIES 1377 root KEYWORD INDEX 994 root COVERAGE 905 root VOCABULARY 882 root CONTENT GAPS 872 root COMPONENT MATRIX 822 root FAQ 802 root RISK REGISTER 785 root CONCEPT GRAPH 646 root COST 615 root TECH RADAR 522 root INDEX 514 root DEPENDENCY MAP 508 root ONBOARDING 460 root STALENESS 381 root DI",
+      "wc": 76
+    },
+    {
+      "id": "docs/ORPHANS.md::1",
+      "source": "docs/ORPHANS.md",
+      "heading": "autofilled (11 изолированных)",
+      "text": "- research-summary.md 76 слов - .md 21 слов - cowork.md 21 слов - ingit.md 21 слов - kksudo.md 21 слов - lorenzo.md 21 слов - nautilus.md 21 слов - sgb.md 21 слов - spbmolot.md 21 слов - svend4.md 21 слов - svyazi.md 21 слов",
+      "wc": 44
+    },
+    {
+      "id": "docs/ORPHANS.md::2",
+      "source": "docs/ORPHANS.md",
+      "heading": "contacts (11 изолированных)",
+      "text": "- vitalyoborin.md 168 слов - andrey-chuyan.md 164 слов - mixaill76.md 151 слов - nlaik.md 151 слов - cutcode.md 146 слов - tagir-analyzes.md 146 слов - vladspace.md 146 слов - antipozitive.md 141 слов - dmitriila.md 141 слов - sonia-black.md 141 слов - zodigancode.md 141 слов",
+      "wc": 44
+    },
+    {
+      "id": "docs/ORPHANS.md::3",
+      "source": "docs/ORPHANS.md",
+      "heading": "root (31 изолированных)",
+      "text": "- PARAGRAPH QUALITY.md 4068 слов - CONTRADICTIONS.md 1656 слов - NAMED ENTITIES.md 1377 слов - KEYWORD INDEX.md 994 слов - COVERAGE.md 905 слов - VOCABULARY.md 882 слов - CONTENT GAPS.md 872 слов - COMPONENT MATRIX.md 822 слов - FAQ.md 802 слов - RISK REGISTER.md 785 слов - CONCEPT GRAPH.md 646 слов - COST.md 615 слов - TECH RADAR.md 522 слов - INDEX.md 514 слов - DEPENDENCY MAP.md 508 слов ...ещё",
+      "wc": 71
+    },
+    {
+      "id": "docs/ORPHANS.md::4",
       "source": "docs/ORPHANS.md",
       "heading": "Рекомендации",
       "text": "1. Добавить ссылки на изолированные файлы из README.md соответствующего раздела 2. Проверить, не являются ли они дублями других файлов 3. Крупные изолированные файлы 100 слов — добавить в READING ORDER.md 4. Мелкие <50 слов — рассмотреть для удаления или слияния",
@@ -20120,6 +20323,20 @@
       "wc": 31
     },
     {
+      "id": "docs/READABILITY.md::0",
+      "source": "docs/READABILITY.md",
+      "heading": "Все документы",
+      "text": "Файл FRE Уровень Слов Пред. Слов/пред. ------ ----- --------- ------ ------- ----------- docs/01-svyazi/01-executive-summary.md 0 🔴 Очень сложный 557 35 15.9 docs/01-svyazi/02-methodology.md 0 🔴 Очень сложный 334 24 13.9 docs/01-svyazi/03-component-catalog.md 0 🔴 Очень сложный 1364 99 13.8 docs/01-svyazi/04-ensembles-overview.md 0 🔴 Очень сложный 1043 51 20.5 docs/01-svyazi/06-security-privacy.md ",
+      "wc": 4149
+    },
+    {
+      "id": "docs/READABILITY.md::1",
+      "source": "docs/READABILITY.md",
+      "heading": "Самые сложные тексты (511) — рекомендуется упростить",
+      "text": "- docs/01-svyazi/01-executive-summary.md — FRE 0, среднее 15.9 слов/предложение - docs/01-svyazi/02-methodology.md — FRE 0, среднее 13.9 слов/предложение - docs/01-svyazi/03-component-catalog.md — FRE 0, среднее 13.8 слов/предложение - docs/01-svyazi/04-ensembles-overview.md — FRE 0, среднее 20.5 слов/предложение - docs/01-svyazi/06-security-privacy.md — FRE 0, среднее 20.2 слов/предложение - docs",
+      "wc": 80
+    },
+    {
       "id": "docs/READING_ORDER.md::0",
       "source": "docs/READING_ORDER.md",
       "heading": "Рекомендуемый порядок чтения",
@@ -20132,6 +20349,27 @@
       "heading": "🔬 Полное исследование (1 день)",
       "text": "1. Весь раздел 01-svyazi/ по порядку 2. 05-habr-projects/ — отдельные проекты 3. 04-ai-collaborations/ — ансамбли 4. 03-technology-combinations/ — комбинации 5. 02-anthropic-vacancies/ — карьерные возможности",
       "wc": 24
+    },
+    {
+      "id": "docs/READING_TIME.md::0",
+      "source": "docs/READING_TIME.md",
+      "heading": "Все документы",
+      "text": "Файл Время Слов Категория ------ ------- ------ ----------- docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md ~1ч 31мин 17133 📕 Очень долго docs/04-ai-collaborations/00-intro.md ~49 мин 10469 📕 Очень долго docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md ~41 мин 9212 📕 Очень долго docs/TABLES.md ~41 мин 9151 📕 Очень долго docs/CODE BLOCKS.md ",
+      "wc": 2874
+    },
+    {
+      "id": "docs/READING_TIME.md::1",
+      "source": "docs/READING_TIME.md",
+      "heading": "Самые длинные документы (23)",
+      "text": "- docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md — ~1ч 31мин, 17133 слов - docs/04-ai-collaborations/00-intro.md — ~49 мин, 10469 слов - docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md — ~41 мин, 9212 слов - docs/TABLES.md — ~41 мин, 9151 слов - docs/CODE BLOCKS.md — ~39 мин, 425 слов - docs/02-anthropic-vacancies/00-intro.md — ~36 мин, 7",
+      "wc": 71
+    },
+    {
+      "id": "docs/READING_TIME.md::2",
+      "source": "docs/READING_TIME.md",
+      "heading": "По категориям",
+      "text": "- 📗 Быстро: 373 документов - 📘 Средне: 74 документов - 📕 Очень долго: 18 документов - 📙 Долго: 7 документов",
+      "wc": 21
     },
     {
       "id": "docs/README.md::0",
@@ -20176,6 +20414,20 @@
       "wc": 42
     },
     {
+      "id": "docs/RISK_REGISTER.md::0",
+      "source": "docs/RISK_REGISTER.md",
+      "heading": "Реестр",
+      "text": "Риск Категория Вероятн. Влияние Score Уровень --- ------ ----------- ---------- --------- ------- --------- 1 Одиночный разработчик — bus factor 1 Команда 4 Высока 5 Критич 20 🔴 КРИТИЧЕСКИЙ 2 Авторы компонентов не ответят на запросы Команда 3 Средня 5 Критич 15 🟠 ВЫСОКИЙ 3 PII-утечки через MCP-инструменты Безопасность 3 Средня 5 Критич 15 🟠 ВЫСОКИЙ 4 Лицензия BSL 1.1 NGT ограничит коммерческое исп",
+      "wc": 158
+    },
+    {
+      "id": "docs/RISK_REGISTER.md::1",
+      "source": "docs/RISK_REGISTER.md",
+      "heading": "Упоминания рисков в документах",
+      "text": "Источник Фрагмент ---------- --------- 01-executive-summary ^sentinel : OSS-проект: безопасность и allowlist для MCP ^rufler : OSS-проект: оркестратор AI-аген… 02-methodology иде улучшают доказуемость, безопасность, локальность или стоимость выполнения Когда у статьи не было… 03-component-catalog w1turn20view18 Рантайм‑безопасность и бюджетный execution plane для агентных систем. SENTINEL … 04-e",
+      "wc": 155
+    },
+    {
       "id": "docs/SCHEDULE.md::0",
       "source": "docs/SCHEDULE.md",
       "heading": "Ключевые вехи",
@@ -20213,9 +20465,9 @@
     {
       "id": "docs/SCORING.md::3",
       "source": "docs/SCORING.md",
-      "heading": "Риски — 21/26 (80%) 🟡 УСЛОВНО GO",
-      "text": "Критерий Статус Вес ---------- -------- ----- Риски выявлены и задокументированы ✅ 8 Лицензии проверены ✅ 8 Сломанных ссылок < 30 ✅ 5 Дублей нет ❌ 5 ↳ Есть точные дубли документов",
-      "wc": 31
+      "heading": "Риски — 16/26 (61%) 🟠 НЕ ГОТОВ",
+      "text": "Критерий Статус Вес ---------- -------- ----- Риски выявлены и задокументированы ✅ 8 Лицензии проверены ✅ 8 Сломанных ссылок < 30 ❌ 5 ↳ Слишком много сломанных ссылок Дублей нет ❌ 5 ↳ Есть точные дубли документов",
+      "wc": 36
     },
     {
       "id": "docs/SCORING.md::4",
@@ -20995,10 +21247,136 @@
       "wc": 44
     },
     {
+      "id": "docs/TECH_RADAR.md::0",
+      "source": "docs/TECH_RADAR.md",
+      "heading": "🟢 ADOPT",
+      "text": "Технология / Компонент Категория Комментарий ------------------------ ----------- ------------ MCP Protocol Инструменты Стандарт интеграции AI-инструментов — Anthropic CardIndex Компоненты 785+ карточек знаний, MIT, стабильный API AgentFS Компоненты Файловая система для AI-агентов, MIT, kksudo Firecrawl Инструменты Веб-краулер для AI, MIT, активная разработка Python 3.11+ Платформа Основной язык р",
+      "wc": 57
+    },
+    {
+      "id": "docs/TECH_RADAR.md::1",
+      "source": "docs/TECH_RADAR.md",
+      "heading": "🔵 TRIAL",
+      "text": "Технология / Компонент Категория Комментарий ------------------------ ----------- ------------ Yodoca Компоненты Память с консолидацией, Apache 2.0, spbmolot SENTINEL Компоненты Allowlist безопасности для MCP Rufler Компоненты Оркестратор агентов, активная разработка RAG + Graph Архитектура Гибридный поиск: векторный + граф-обход claude-haiku-4-5 Модели Оптимум цена/качество для enrichment задач C",
+      "wc": 50
+    },
+    {
+      "id": "docs/TECH_RADAR.md::2",
+      "source": "docs/TECH_RADAR.md",
+      "heading": "🟡 ASSESS",
+      "text": "Технология / Компонент Категория Комментарий ------------------------ ----------- ------------ NGT-memory Компоненты Ассоциативный граф памяти, BSL 1.1 knowledge-space Компоненты База знаний, MIT, нужна оценка API Wikontic Компоненты Граф знаний, статус неизвестен MCP Tool Search Компоненты Динамический поиск инструментов claude-opus-4-7 Модели Для сложных reasoning задач, высокая стоимость Local-",
+      "wc": 50
+    },
+    {
+      "id": "docs/TECH_RADAR.md::3",
+      "source": "docs/TECH_RADAR.md",
+      "heading": "🔴 HOLD",
+      "text": "Технология / Компонент Категория Комментарий ------------------------ ----------- ------------ BSL 1.1 libs Лицензии Ограничения при коммерческом использовании Monolithic LLM Архитектура Один LLM вместо ансамбля — узкое место Без PII-защиты Практики Обработка данных без SENTINEL/quarantine Hard-coded prompts Практики Промпты без версионирования и тестов",
+      "wc": 41
+    },
+    {
+      "id": "docs/TECH_RADAR.md::4",
+      "source": "docs/TECH_RADAR.md",
+      "heading": "Методология",
+      "text": "- ADOPT — используй сейчас, минимальные риски - TRIAL — стоит попробовать в пилоте - ASSESS — изучи, но не внедряй в production - HOLD — избегай для новых проектов",
+      "wc": 30
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::0",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 1: turn, view, cite (325 документов)",
+      "text": "Ключевые слова: turn , appendix , svyazi , view , portal , memory , passports , vacancies , anthropic , table , habr , сообщение",
+      "wc": 25
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::1",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 1: turn, view, cite (325 документов)",
+      "text": "Документы: - docs/01-svyazi/01-executive-summary.md — svyazi, подобный, agentfs, проект - docs/01-svyazi/02-methodology.md — отбора, методика, рамка, первичный - docs/01-svyazi/03-component-catalog.md — turn, cite, view, search - docs/01-svyazi/04-ensembles-overview.md — turn, view, cite, search - docs/01-svyazi/06-security-privacy.md — turn, view, cite, приватность - docs/01-svyazi/07-mvp-plannin",
+      "wc": 112
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::2",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 4: cowork, ingit, composite (79 документов)",
+      "text": "Ключевые слова: cowork , ingit , agent , composite , agents , what , principal , professional , colleague , skills , table , contents",
+      "wc": 25
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::3",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 4: cowork, ingit, composite (79 документов)",
+      "text": "Документы: - docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md — triangle, double, представительских, architecture - docs/02-anthropic-vacancies/146-acknowledgments.md — acknowledgments, ensembl, configurable, typology - docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md — collaborative, foundation, intellectual, composite - docs/02-anthropic-vacancies/166-re",
+      "wc": 112
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::4",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 2: middle, ensembl, layer (27 документов)",
+      "text": "Ключевые слова: layer , chat , middle , missing , between , document , through , configurable , code , ensembl , acknowledgments , specialist",
+      "wc": 25
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::5",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 2: middle, ensembl, layer (27 документов)",
+      "text": "Документы: - docs/02-anthropic-vacancies/150-appendix-c-version-history.md — часть, infrastructure, mmorpg, contributors - docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md — guild, contributors, layer, triangle - docs/02-anthropic-vacancies/159-5-economic-model.md — contributor, year, total, month - docs/02-anthropic-vacancies/160-6-governance-and-ethics.md — contributor, commitment, d",
+      "wc": 112
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::6",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 3: агент, совместной, коллеги (26 документов)",
+      "text": "Ключевые слова: агенты , коллеги , профессиональные , благодарности , совместной , интеллектуальной , интегрированная , агент , инфраструктура , опосредованное , представительство , агентов",
+      "wc": 25
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::7",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 3: агент, совместной, коллеги (26 документов)",
+      "text": "Документы: - docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md — ограничения, разрабатывается, паре, агент - docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md — интегрированная, совместной, интеллектуальной, подложка - docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md — агенты, механика, ограничения, происхождение - do",
+      "wc": 112
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::8",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 5: compatibility, level, bridges (22 документов)",
+      "text": "Ключевые слова: compatibility , level , bridges , history , format , contact , уровень , уточнить , mapping , native , author , levels",
+      "wc": 25
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::9",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 5: compatibility, level, bridges (22 документов)",
+      "text": "Документы: - docs/02-anthropic-vacancies/132-planned-v0-2-0.md — compatibility, debugging, http, planned - docs/02-anthropic-vacancies/17-5-compatibility-levels.md — compatibility, level, repo, levels - docs/02-anthropic-vacancies/197-7-управление-и-надзор.md — аудит, уровень, управление, прозрачности - docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md — lorenzo",
+      "wc": 112
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::10",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 6: слов, файлов, файлы (22 документов)",
+      "text": "Ключевые слова: слов , файлов , тегов , callout , summary , tags , autofilled , dates , короткий , сложный , файлы , файл",
+      "wc": 25
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::11",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Тема 6: слов, файлов, файлы (22 документов)",
+      "text": "Документы: - docs/AUTOFILLED.md — autofilled, components, данными, scoring - docs/BACKLINKS.md — входящих, ссылок, ссылками, самых - docs/CHANGELOG.md — files, improve, items, coverage - docs/COMPARE.md — слов, стало, файлы, clusters - docs/COMPLEXITY.md — сложный, простой, средний, балла - docs/COVERAGE.md — crossrefs, backlinks, файлов, теги - docs/DIGEST WEEKLY.md — файлов, еженедельный, изменё",
+      "wc": 116
+    },
+    {
+      "id": "docs/TOPIC_MODEL.md::12",
+      "source": "docs/TOPIC_MODEL.md",
+      "heading": "Топ уникальных слов по темам",
+      "text": "Тема Слово 1 Слово 2 Слово 3 Слово 4 Слово 5 ------ --------- --------- --------- --------- --------- turn, view, cite turn appendix svyazi view portal cowork, ingit, compo cowork ingit agent composite agents middle, ensembl, lay layer chat middle missing between агент, совместной, к агенты коллеги профессиональные благодарности совместной compatibility, level compatibility level bridges history f",
+      "wc": 64
+    },
+    {
       "id": "docs/VALIDATION.md::0",
       "source": "docs/VALIDATION.md",
       "heading": "Сводка",
-      "text": "Проверка Статус Проблем ---------- -------- --------- Разделы и README ✅ 0 Мета-файлы ✅ 0 Пустые/короткие файлы ⚠️ 5 Именование файлов ✅ 10 Заголовки H1 ⚠️ 11 Внутренние ссылки ✅ 15",
+      "text": "Проверка Статус Проблем ---------- -------- --------- Разделы и README ✅ 0 Мета-файлы ✅ 0 Пустые/короткие файлы ⚠️ 15 Именование файлов ✅ 10 Заголовки H1 ⚠️ 11 Внутренние ссылки ✅ 15",
       "wc": 30
     },
     {
@@ -21006,7 +21384,7 @@
       "source": "docs/VALIDATION.md",
       "heading": "Пустые/короткие файлы",
       "text": "- ⚠️ Слишком короткий файл: docs/01-svyazi/00-intro-part2.md 6 слов - ⚠️ Слишком короткий файл: docs/02-anthropic-vacancies/102-доступ-к-данным.md 23 слов - ⚠️ Слишком короткий файл: docs/02-anthropic-vacancies/12-content-overview.md 24 слов - ⚠️ Слишком короткий файл: docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md 16 слов - ⚠️ Слишком короткий файл: docs/02-",
-      "wc": 40
+      "wc": 120
     },
     {
       "id": "docs/VALIDATION.md::2",
@@ -21030,25 +21408,39 @@
       "wc": 120
     },
     {
+      "id": "docs/VERSION_DIFF.md::0",
+      "source": "docs/VERSION_DIFF.md",
+      "heading": "✅ Новые файлы (45)",
+      "text": "- docs/PARAGRAPH QUALITY.md +4796 слов - docs/CONTRADICTIONS.md +1693 слов - docs/NAMED ENTITIES.md +1132 слов - docs/DEPENDENCY MAP.md +601 слов - docs/INDEX.md +467 слов - docs/RISK REGISTER.md +449 слов - docs/STALENESS.md +404 слов - docs/COVERAGE.md +379 слов - docs/VOCABULARY.md +361 слов - docs/ONBOARDING.md +312 слов - docs/CHANGELOG AUTO.md +289 слов - docs/TECH RADAR.md +275 слов - docs/",
+      "wc": 193
+    },
+    {
+      "id": "docs/VERSION_DIFF.md::1",
+      "source": "docs/VERSION_DIFF.md",
+      "heading": "📝 Изменённые файлы (16)",
+      "text": "Файл Δ слов Добавленные темы Удалённые темы ------ -------- ------------------ ---------------- docs/TIMELINE.md -2390 2020 2 упоминаний , 2021 1 упоминаний , 2022 5 упоминаний +7 Версия 394 , Год 27 , Длительность 95 +6 docs/SEARCH.md +316 — — docs/BROKEN LINKS.md +273 Внешние URL 129 уникальных Внешние URL 113 уникальных docs/DUPLICATES.md +81 50% — docs/04-ai-collaborations/06-безопасность-прив",
+      "wc": 134
+    },
+    {
       "id": "docs/VOCABULARY.md::0",
       "source": "docs/VOCABULARY.md",
       "heading": "Корпусная статистика",
-      "text": "Метрика Значение --------- ---------- Средний TTR 0.525 Средний STTR 100-токенное окно 0.675 Lexical density 0.836 Средняя длина слова 6.61 Общая оценка 🟡 Средний",
+      "text": "Метрика Значение --------- ---------- Средний TTR 0.520 Средний STTR 100-токенное окно 0.669 Lexical density 0.837 Средняя длина слова 6.59 Общая оценка 🟡 Средний",
       "wc": 23
     },
     {
       "id": "docs/VOCABULARY.md::1",
       "source": "docs/VOCABULARY.md",
       "heading": "Топ файлов по богатству словаря (STTR)",
-      "text": "Файл STTR TTR Hapax% Lex.Density Токенов ------ ------ ----- -------- ------------- --------- ABBREVIATIONS.md 0.951 0.732 76% 0.872 794 HEALTH.md 0.908 0.908 90% 0.954 65 DECISIONS.md 0.900 0.686 74% 0.851 175 METRICS.md 0.900 0.720 85% 0.923 143 06-1-introduction.md 0.895 0.732 84% 0.899 276 76-1-introduction.md 0.883 0.702 78% 0.887 362 ENTITIES.md 0.880 0.552 76% 0.918 183 194-4-десять-областе",
-      "wc": 192
+      "text": "Файл STTR TTR Hapax% Lex.Density Токенов ------ ------ ----- -------- ------------- --------- ABBREVIATIONS.md 0.951 0.732 76% 0.872 794 HEALTH.md 0.909 0.909 90% 0.955 66 DECISIONS.md 0.900 0.686 74% 0.851 175 06-1-introduction.md 0.895 0.732 84% 0.899 276 76-1-introduction.md 0.883 0.702 78% 0.887 362 ENTITIES.md 0.880 0.552 76% 0.918 183 194-4-десять-областей-применения.md 0.874 0.560 70% 0.916",
+      "wc": 193
     },
     {
       "id": "docs/VOCABULARY.md::2",
       "source": "docs/VOCABULARY.md",
       "heading": "Файлы с бедным словарём (требуют доработки)",
-      "text": "Файл STTR Оценка Токенов ------ ------ -------- --------- BROKEN LINKS.md 0.254 🔴 Очень бедный 741 28-appendix-a-minimal-working-example.md 0.270 🔴 Очень бедный 104 README.md 0.273 🔴 Очень бедный 77 CROSSREFS.md 0.331 🔴 Очень бедный 843 READING ORDER.md 0.350 🔴 Очень бедный 4719 134-the-double-triangle-architecture-md.md 0.351 🔴 Очень бедный 57 273-infrastructure-for-ai-collaborative-intellectual-",
-      "wc": 192
+      "text": "Файл STTR Оценка Токенов ------ ------ -------- --------- AUTOFILLED.md 0.220 🔴 Очень бедный 153 28-appendix-a-minimal-working-example.md 0.270 🔴 Очень бедный 104 README.md 0.273 🔴 Очень бедный 77 DEPENDENCY MAP.md 0.276 🔴 Очень бедный 596 BROKEN LINKS.md 0.283 🔴 Очень бедный 752 CROSSREFS.md 0.331 🔴 Очень бедный 843 READING ORDER.md 0.350 🔴 Очень бедный 4719 134-the-double-triangle-architecture-m",
+      "wc": 195
     },
     {
       "id": "docs/VOCABULARY.md::3",

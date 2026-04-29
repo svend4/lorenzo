@@ -1,0 +1,67 @@
+---
+title: "REVIEW_METHODOLOGY.md"
+tags:
+  - collaboration
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# REVIEW_METHODOLOGY.md
+
+<!-- summary -->
+> **Статус:** Активно применяется в проекте svend4/nautilus
+
+---
+<!-- tags: collaboration -->
+
+
+
+
+## REVIEW_METHODOLOGY.md
+markdown
+```markdown
+# Трёхфазная методология Review в Nautilus
+
+**Дата:** 2026-04  
+**Статус:** Активно применяется в проекте svend4/nautilus  
+**Автор:** svend4  
+**Licensing:** CC BY 4.0
+
+---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[03-portal-protocol-md]] (сходство 0.20)
+- [[73-portal-protocol-md-v1-1]] (сходство 0.17)
+- [[229-профессиональные-коллеги-агенты]] (сходство 0.17)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[28-appendix-a-minimal-working-example]]
+- [[03-portal-protocol-md]]
+- [[42-author-contact]]
+- [[188-ai-опосредованное-представительство-для-недопредст]]
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _37%_
+- [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] _33%_
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _33%_
+- [[122-глоссарий|Глоссарий]] _29%_
+- [[65-readme-md|README.md]] _29%_
+- [[04-abstract|Abstract]] _25%_
+- [[123-portal-mcp-py|portal-mcp.py]] _25%_
+- [[190-содержание|Содержание]] _25%_

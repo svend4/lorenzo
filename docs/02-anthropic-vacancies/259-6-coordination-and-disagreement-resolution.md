@@ -160,9 +160,9 @@ practice.
 ---
 
 **Похожие документы:**
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.14)
-- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) (сходство 0.13)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.14)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -170,8 +170,44 @@ practice.
 ---
 
 **Смотрите также:**
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
-- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
+- [264-11-open-questions](264-11-open-questions.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md)
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md)
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md)
+- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _37%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _37%_
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _33%_
+- [Table of Contents](253-table-of-contents.md) _21%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _21%_
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _21%_
+- [11. Open Questions](264-11-open-questions.md) _21%_
+- [10. Open Questions](179-10-open-questions.md) _17%_
+## Связанные документы
+
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _33%_
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _33%_
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _29%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _29%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _25%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _25%_
+- [Table of Contents](211-table-of-contents.md) _25%_
+- [Table of Contents](253-table-of-contents.md) _25%_

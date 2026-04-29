@@ -12,20 +12,22 @@ repos:
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
-        exclude: '\.md$'  # markdown часто использует trailing space для br
+        exclude: '\.md$'
       - id: end-of-file-fixer
         exclude: '^docs/(obsidian|confluence)/|^tasks/_generated/'
       - id: check-yaml
         files: '^(\.github/|tasks/.+\.task\.yaml$|\.pre-commit-config\.yaml$)'
       - id: check-json
         files: '\.json$'
-        exclude: '^docs/scripts_catalog\.json$'  # авто-генерируется
+        exclude: '^docs/scripts_catalog\.json$'
       - id: check-merge-conflict
       - id: check-added-large-files
         args: ['--maxkb=2000']
         exclude: '\.(mhtml|pdf|epub)$|^Поиск|^Комбинирование|^Вакансии'
+      - id: mixed-line-ending
+        args: [--fix=lf]
 
-  # Локальные хуки (используют наши скрипты)
+  # docs-toolkit структурная валидация
   - repo: local
     hooks:
       - id: validate-templates
@@ -49,8 +51,44 @@ repos:
         files: '^(scripts|docs-toolkit)/.+\.py$'
 
       - id: regenerate-catalogs
-        name: Регенерация каталогов (только при изменении scripts/tasks)
+        name: Регенерация каталогов
         entry: bash -c 'python scripts/improve_scripts_catalog.py && python scripts/improve_task_codegen.py'
         language: system
         files: '^(scripts/improve_.+\.py|tasks/.+\.task\.yaml)$'
         pass_filenames: false
+
+  # Legacy качество контента (из main)
+  - repo: local
+    hooks:
+      - id: spellcheck
+        name: Проверка орфографии
+        entry: python scripts/improve_spellcheck.py
+        language: system
+        pass_filenames: false
+        files: \.md$
+        stages: [pre-commit]
+
+      - id: broken-links
+        name: Проверка ссылок
+        entry: python scripts/improve_broken_links.py
+        language: system
+        pass_filenames: false
+        files: \.md$
+        stages: [pre-commit]
+
+      - id: readability
+        name: Индекс читаемости
+        entry: python scripts/improve_readability_v2.py
+        language: system
+        pass_filenames: false
+        files: \.md$
+        stages: [pre-commit]
+        verbose: true
+
+      - id: search-index
+        name: Обновление поискового индекса
+        entry: python scripts/improve_search_index.py
+        language: system
+        pass_filenames: false
+        files: docs/.*\.md$
+        stages: [pre-commit]

@@ -1,0 +1,44 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/01-svyazi/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Svyazi[^svyazi] 2.0 — Архитектура и исследование"
+tags:
+  * svyazi
+date: 2026-04-29
+----
+
+h1. Svyazi[^svyazi] 2.0 — Архитектура и исследование
+
+_Файлов:_ 15
+
+h2. Содержание
+
+* [[00-intro-part2|00-intro-part2.md]] — 
+* [[01-executive-summary|01-executive-summary.md]] — 
+* [[02-methodology|02-methodology.md]] — 
+* [[03-component-catalog|03-component-catalog.md]] — <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvem…
+* [[04-ensembles-overview|04-ensembles-overview.md]] — 
+* [[06-security-privacy|06-security-privacy.md]] — 
+* [[07-mvp-planning|07-mvp-planning.md]] — 
+* [[08-conclusions|08-conclusions.md]] — 
+* [[09-architectural-gaps|09-architectural-gaps.md]] — 
+* [[10-second-order-ensembles|10-second-order-ensembles.md]] — 
+* [[11-integration-contracts|11-integration-contracts.md]] — 
+* [[12-roadmap|12-roadmap.md]] — 
+* [[13-contacts|13-contacts.md]] — 
+* [[14-limitations|14-limitations.md]] — 
+* [[QA|QA.md]] — _Автоматически сгенерировано по 14 файлам раздела._
+
+h2. Подразделы
+
+* [ensembles/|ensembles/] — Ансамбли проектов
+
+
+
+
+----
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

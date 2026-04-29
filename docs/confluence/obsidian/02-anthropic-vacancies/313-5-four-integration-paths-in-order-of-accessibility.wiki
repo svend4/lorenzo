@@ -1,0 +1,227 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "5. Four Integration Paths in Order of Accessibility"
+tags:
+  * rag
+  * orchestration
+  * architecture
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 5. Four Integration Paths in Order of Accessibility
+
+
+{quote}We identify four paths from most-immediate to most-mature.{quote}
+
+----
+
+
+h2. Содержание
+
+* [5. Four Integration Paths in Order of Accessibility|#5-four-integration-paths-in-order-of-accessibility]
+  * [5.1. Path 1 — InGit Project in Cowork (Immediate)|#51-path-1-ingit-project-in-cowork-immediate]
+  * [5.2. Path 2 — InGit MCP Server (Short-Term)|#52-path-2-ingit-mcp-server-short-term]
+  * [5.3. Path 3 — InGit Cowork Project Template (Medium-Term)|#53-path-3-ingit-cowork-project-template-medium-term]
+  * [5.4. Path 4 — Deep Cowork Integration (Long-Term)|#54-path-4-deep-cowork-integration-long-term]
+  * [5.5. Sequencing Logic|#55-sequencing-logic]
+
+----
+
+
+
+
+
+
+h2. 5. Four Integration Paths in Order of Accessibility
+
+We identify four paths from most-immediate to most-mature.
+
+h3. 5.1. Path 1 — InGit Project in Cowork (Immediate)
+
+_No development required. Available now._
+
+Steps:
+1. Open Claude Desktop Cowork tab
+2. Create new Project, "Start from scratch"
+3. Point Project at existing InGit folder (or empty folder 
+   with InGit structure)
+4. Add custom instructions describing InGit conventions
+5. Add reference documents explaining InGit philosophy
+6. Begin work
+
+_What works_:
+* Cowork reads InGit structure
+* Custom instructions inform Cowork of conventions
+* Cowork can create/edit files following conventions
+* Persistent memory builds Project knowledge
+* Git operations work through shell commands
+
+_What's missing_:
+* No automatic validation (Cowork might create invalid YAML)
+* No InGit-specific operations
+* Manual Git workflow
+
+_Effort_: One day to set up. Zero ongoing development.
+
+_Recommendation_: _Do this now_. Use it for current 
+Nautilus/OKWF document series. Generates immediate learning 
+about what works and what's missing.
+
+h3. 5.2. Path 2 — InGit MCP Server (Short-Term)
+
+_Development required. 2-4 weeks for basic version._
+
+Build {{ingit-mcp-server}} exposing InGit operations:
+
+{code}
+Knowledge Base operations:
+- ingit_search_wiki(query)
+- ingit_read_document(path)
+- ingit_create_document(template, metadata, content)
+- ingit_list_recent_documents(days)
+- ingit_get_document_metadata(path)
+
+Task operations:
+- ingit_list_tasks(filters)
+- ingit_create_task(metadata, description)
+- ingit_update_task(id, updates)
+- ingit_decompose_task(id, subtasks)
+
+Validation operations:
+- ingit_validate_yaml(content, schema)
+- ingit_validate_project_structure(path)
+
+Git operations:
+- ingit_commit(message, files)
+- ingit_get_recent_changes(days)
+- ingit_branch(name, from)
+
+Project operations:
+- ingit_get_project_structure()
+- ingit_create_subproject(name, type)
+{code}
+
+Cowork users add this MCP server to their Project. Cowork 
+calls these tools instead of generic file operations.
+
+_What works that Path 1 doesn't_:
+* Validation enforced automatically
+* InGit-specific operations available
+* Domain knowledge encapsulated in server
+* Cleaner Cowork instructions (less convention explanation)
+
+_Effort_: 2-4 weeks development. Open source release.
+
+_Recommendation_: _Begin after one month of Path 1 usage_. 
+Real usage informs MCP tool design. Avoid premature design.
+
+h3. 5.3. Path 3 — InGit Cowork Project Template (Medium-Term)
+
+_Requires Anthropic to expose Project template API publicly._
+
+Once Anthropic enables third-party Project templates, InGit 
+publishes template:
+* Pre-configured folder structure
+* Pre-written custom instructions
+* Optional pre-installed MCP server
+* Sample content explaining conventions
+* Quick start documentation
+
+Users get working InGit + Cowork setup in one click.
+
+_What works that Path 2 doesn't_:
+* Massive reduction in setup friction
+* Discoverable by Cowork users
+* Standard configuration across users
+* Easier to share between team members (when team sharing 
+  available)
+
+_Effort when API available_: 1-2 weeks for template 
+creation.
+
+_Recommendation_: _Watch for API availability_. Anthropic 
+will likely enable this; timing uncertain. Be ready when it 
+opens.
+
+h3. 5.4. Path 4 — Deep Cowork Integration (Long-Term)
+
+_Speculative, depends on Cowork API maturation._
+
+When Cowork exposes deeper APIs:
+* Custom UI elements within Cowork
+* Cowork-aware validation flow
+* Native InGit task integration
+* Shared memory across Cowork and InGit operations
+* Cooperative scheduling
+
+This is most ambitious. Requires Anthropic to enable 
+substantial third-party extension. Timing entirely outside 
+InGit author's control.
+
+_Effort when possible_: 3-6 months for full integration.
+
+_Recommendation_: _Don't plan around this_. Take 
+opportunities as they arise. Don't depend on it.
+
+h3. 5.5. Sequencing Logic
+
+The four paths are not parallel options. They are sequential, 
+each building on the previous:
+
+* Path 1 generates _usage learning_
+* Path 2 builds _automation_ based on learning
+* Path 3 enables _distribution_ when API available
+* Path 4 deepens _integration_ when API matures
+
+Skipping ahead is risky. Path 2 without Path 1 risks designing 
+wrong tools. Path 3 without Path 2 has no value to package. 
+Path 4 without ecosystem risks depending on capabilities not 
+yet available.
+
+Sequential progression maximizes value at each stage and 
+defers complex decisions until evidence is available.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[311-3-what-ingit-provides-that-cowork-lacks]] (сходство 0.16)
+* [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-]] (сходство 0.15)
+* [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[314-6-refined-ingit-scope-with-cowork-in-mind]]
+* [[311-3-what-ingit-provides-that-cowork-lacks]]
+* [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-]]
+* [[315-7-practical-first-steps-this-month]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _37%_
+* [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|2. What Cowork Provides That InGit Doesn't Need to Build]] _33%_
+* [[311-3-what-ingit-provides-that-cowork-lacks|3. What InGit Provides That Cowork Lacks]] _33%_
+* [[314-6-refined-ingit-scope-with-cowork-in-mind|6. Refined InGit Scope with Cowork in Mind]] _33%_
+* [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]] _29%_
+* [[315-7-practical-first-steps-this-month|7. Practical First Steps This Month]] _29%_
+* [[303-приложение-визуализация-позиции-в-серии|Приложение: Визуализация позиции в серии]] _25%_
+* [[308-table-of-contents|Table of Contents]] _25%_

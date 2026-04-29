@@ -1,0 +1,154 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Appendix A: Minimal Working Example"
+tags:
+  * ingestion
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Appendix A: Minimal Working Example
+
+
+h2. Contents
+
+* [Appendix A: Minimal Working Example|#appendix-a-minimal-working-example]
+  * [A.1. Minimal nautilus.json|#a1-minimal-nautilusjson]
+  * [A.2. Minimal Adapter (Level 1)|#a2-minimal-adapter-level-1]
+  * [A.3. Minimal Passport|#a3-minimal-passport]
+
+
+
+{quote}"passport": "passports/my_notes.md",{quote}
+
+----
+
+
+
+
+
+h2. Appendix A: Minimal Working Example
+
+h3. A.1. Minimal {{nautilus.json}}
+
+{code:language=json}
+{
+  "protocol_version": "1.1",
+  "ecosystem_name": "example",
+  "registry": [
+    {
+      "name": "my_notes",
+      "repo": "owner/my-notes",
+      "format": "my_notes",
+      "adapter": "my_notes",
+      "passport": "passports/my_notes.md",
+      "compatibility": 1,
+      "q6_key": "не определено"
+    }
+  ]
+}
+{code}
+
+h3. A.2. Minimal Adapter (Level 1)
+
+{code:language=python}
+# adapters/my_notes.py
+from .base import BaseAdapter, PortalEntry
+
+
+class MyNotesAdapter(BaseAdapter):
+    name = "my_notes"
+    REPO = "owner/my-notes"
+    
+    def fetch(self, query: str) -> list[PortalEntry]:
+        q = query.lower()
+        results = [
+            e for e in self._static_entries()
+            if q in e.title.lower() or q in e.content.lower()
+        ]
+        return results or self._static_entries()[:2]  # fallback
+    
+    def _static_entries(self) -> list[PortalEntry]:
+        return [
+            PortalEntry(
+                id="my_notes:intro",
+                title="Introduction",
+                source=self.REPO,
+                format_type="document",
+                content="Sample content about...",
+                metadata={},
+                links=[],
+                is_fallback=True
+            ),
+            # ... больше entries
+        ]
+    
+    def describe(self) -> dict:
+        return {
+            "repo": self.REPO,
+            "format": "my_notes",
+            "native_unit": "Markdown note",
+            "total_items": "5",
+            "compatibility": 1
+        }
+{code}
+
+h3. A.3. Minimal Passport
+
+{code:language=markdown}
+# Паспорт: owner/my-notes
+
+| Поле | Значение |
+|------|----------|
+| Репозиторий | owner/my-notes |
+| Формат | `.md` — Markdown notes |
+| Единица | Markdown-документ |
+| Адаптер | `adapters/my_notes.py` |
+| Уровень совместимости | 1 — читаемый |
+
+# Описание
+
+## Описание
+
+Персональная коллекция Markdown-заметок.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[28-appendix-a-minimal-working-example]] (сходство 0.44)
+- [[03-portal-protocol-md]] (сходство 0.11)
+- [[35-passports-info1-md]] (сходство 0.10)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[28-appendix-a-minimal-working-example]]
+- [[123-portal-mcp-py]]
+- [[03-portal-protocol-md]]
+- [[105-review-methodology-md]]
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _60%_
+- [[22-10-queryresult-structure|10. QueryResult Structure]] _37%_
+- [[04-abstract|Abstract]] _33%_
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _33%_
+- [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _33%_
+- [[123-portal-mcp-py|portal-mcp.py]] _33%_
+- [[41-compatibility-level|Compatibility Level]] _33%_
+- [[37-native-format|Native Format]] _29%_

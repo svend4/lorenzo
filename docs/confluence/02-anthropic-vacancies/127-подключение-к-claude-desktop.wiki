@@ -1,0 +1,108 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Подключение к Claude Desktop
+
+
+
+
+h2. Contents
+
+* [Подключение к Claude Desktop|#подключение-к-claude-desktop]
+  * [macOS|#macos]
+  * [Windows|#windows]
+  * [Linux|#linux]
+  * [Содержимое|#содержимое]
+
+
+
+{quote}~/Library/Application Support/Claude/claude_desktop_config.json{quote}
+
+----
+
+
+
+
+
+h2. Подключение к Claude Desktop
+
+h3. macOS
+
+Отредактировать:
+
+{code}
+~/Library/Application Support/Claude/claude_desktop_config.json
+{code}
+
+h3. Windows
+
+Отредактировать:
+
+{code}
+%APPDATA%\Claude\claude_desktop_config.json
+{code}
+
+h3. Linux
+
+Отредактировать:
+
+{code}
+~/.config/Claude/claude_desktop_config.json
+{code}
+
+h3. Содержимое
+
+{code:language=json}
+{
+  "mcpServers": {
+    "nautilus-portal": {
+      "command": "python3",
+      "args": ["/absolute/path/to/nautilus/portal-mcp.py"],
+      "env": {
+        "PYTHONPATH": "/absolute/path/to/nautilus"
+      }
+    }
+  }
+}
+{code}
+
+После сохранения перезапустить Claude Desktop. Иконка MCP в нижней 
+части чата покажет статус подключения.
+
+
+
+----
+
+_Похожие документы:_
+* [124-конфигурация-для-claude-desktop|124-конфигурация-для-claude-desktop.md] (сходство 0.23)
+* [130-отладка|130-отладка.md] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [124-конфигурация-для-claude-desktop|124-конфигурация-для-claude-desktop.md]
+* [130-отладка|130-отладка.md]
+* [28-appendix-a-minimal-working-example|28-appendix-a-minimal-working-example.md]
+* [125-readme-mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [portal-mcp.py|123-portal-mcp-py.md] _33%_
+* [Abstract|04-abstract.md] _25%_
+* [Конфигурация для Claude Desktop|124-конфигурация-для-claude-desktop.md] _25%_
+* [Отладка|130-отладка.md] _25%_
+* [Содержание|190-содержание.md] _25%_
+* [10. QueryResult Structure|22-10-queryresult-structure.md] _25%_
+* [Appendix A: Minimal Working Example|28-appendix-a-minimal-working-example.md] _25%_
+* [Содержание|326-содержание.md] _25%_

@@ -169,9 +169,9 @@ in distributed systems, adapted for human-AI hybrid execution.
 ---
 
 **Похожие документы:**
-- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.18)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.17)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.15)
+- [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.18)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.17)
+- [144-7-open-questions](144-7-open-questions.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -179,8 +179,43 @@ in distributed systems, adapted for human-AI hybrid execution.
 ---
 
 **Смотрите также:**
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
-- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
+- [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md)
+- [136-abstract](136-abstract.md)
+- [144-7-open-questions](144-7-open-questions.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md)
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [Abstract](136-abstract.md)
+- [Appendix A: Glossary](148-appendix-a-glossary.md)
+- [References](147-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _29%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _29%_
+- [Abstract](136-abstract.md) _25%_
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _25%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _25%_
+- [7. Open Questions](144-7-open-questions.md) _25%_
+## Связанные документы
+
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _37%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _33%_
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _29%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _29%_
+- [7. Open Questions](144-7-open-questions.md) _29%_
+- [Abstract](136-abstract.md) _21%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [References](147-references.md) _21%_

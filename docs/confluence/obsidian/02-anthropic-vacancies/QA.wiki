@@ -1,0 +1,107 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/QA.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Q&A: 02-anthropic-vacancies"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Q&A: 02-anthropic-vacancies
+
+_Автоматически сгенерировано по 355 файлам раздела._
+
+h2. Какие 5 архитектурных зазоров выделены в исследовании?
+
+Упоминаются: _зазор_, _карточка_, _evidence_, _memory governance_, _review protocol_
+
+h2. Что входит в интеграционный контракт между слоями?
+
+Упоминаются: _card envelope_, _evidence envelope_, _memory write_, _skill policy_, _review record_
+
+h2. Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: _research_, _gtm_, _trust & safety_, _inference_, _product_
+
+h2. Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: _forward deployed_, _research engineer_, _developer community_
+
+h2. Кто ключевые авторы проектов для контакта?
+
+Упоминаются: _Андрей Чуян_, _kksudo_, _spbmolot_
+
+h2. Какие вопросы лучше задавать авторам при первом контакте?
+
+Упоминаются: _первый вопрос_, _архитектурный_, _шаблон_, _контакт_
+
+h2. Каковы этапы MVP и их оценка по времени?
+
+Упоминаются: _mvp_, _12-18_, _итерац_, _фаза_, _неделя_
+
+h2. Что входит в первую итерацию прототипа?
+
+Упоминаются: _evidence-first_, _manual review_
+
+h2. Как реализован forensic RAG с доказуемостью?
+
+Упоминаются: _liteparse_, _evidence_
+
+h2. Что такое Evidence Envelope и зачем он нужен?
+
+Упоминаются: _evidence envelope_, _source_id_, _page_, _span_
+
+h2. Какие RAG-подходы сравниваются в документах?
+
+Упоминаются: _Legal RAG_, _Hybrid RAG_, _Graph RAG_, _LiteParse_
+
+h2. Какие системы памяти описаны в этом разделе?
+
+Упоминаются: _Yodoca_, _NGT Memory_
+
+h2. Как происходит консолидация и забывание в памяти агентов?
+
+Упоминаются: _консолидац_, _forgetting_, _decay_, _episod_
+
+h2. Какова разница между эпизодической и семантической памятью?
+
+Упоминаются: _episod_, _семантич_, _fact_, _proposal_
+
+h2. Как организована многоагентная оркестрация?
+
+Упоминаются: _mclaude_, _AI Factory_, _Rufler_, _Sequential_
+
+h2. Что такое handoff и locks в агентных системах?
+
+Упоминаются: _handoff_, _locks_, _multi-session_
+
+h2. Как работает spec-driven подход в AI Factory?
+
+Упоминаются: _spec_, _patch_, _skill_, _self-learning_
+
+h2. Какие инструменты обеспечивают безопасность агентов?
+
+Упоминаются: _SENTINEL_, _LiteLLM_, _Tool Search_, _Auto AI Router_
+
+h2. Какова политика доступа по умолчанию (tool classes)?
+
+Упоминаются: _read-only_, _path guard_
+
+h2. Как организован бюджетный роутинг между моделями?
+
+Упоминаются: _routing_, _budget_, _litellm_, _local model_
+
+h2. Как работает AgentFS и что такое .agentos?
+
+Упоминаются: _agentos_, _vault_, _compile_, _persistent state_
+
+h2. Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: _reference card_, _785_, _gotcha_
+
+h2. Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_

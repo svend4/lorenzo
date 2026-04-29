@@ -21,3 +21,6 @@ docs-toolkit/dist/
 docs-toolkit/build/
 docs-toolkit/*.egg-info/
 .docstoolkit/
+
+# pre-commit cache
+.pre-commit-cache/

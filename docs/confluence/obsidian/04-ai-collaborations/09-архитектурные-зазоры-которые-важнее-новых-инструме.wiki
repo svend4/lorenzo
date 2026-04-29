@@ -1,0 +1,142 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Архитектурные зазоры, которые важнее новых инструментов"
+tags:
+  * ai-collaborations
+date: 2026-04-29
+----
+
+h1. Архитектурные зазоры, которые важнее новых инструментов
+
+
+h2. Содержание
+
+* [Статус|#статус]
+* [Архитектурные зазоры, которые важнее новых инструментов|#архитектурные-зазоры-которые-важнее-новых-инструментов]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Архитектурный зазор Уже сильные кандидаты Что в них уже хорошо закрыто Что пока остаётся незакрытым Что брать в MVP --------------- Карточка как единица правды Svyazi, AgentFS Card{quote}
+{quote}🔧 _Подход:_ В‑третьих, нужен memory governance layer, который не даёт ассоциативной памяти записывать предлагаемое как истинное.{quote}
+{quote}✅ _Результат:_ Наоборот, даже средний model tier даёт много пользы, если extract/normalize/review/evidence и memory status already pinned.{quote}
+{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{memory}}, {{проект}}, {{search}}, {{review}}, {{который}}, {{agentfs}}, {{knowledge}}{quote}
+>
+
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
+h2. Статус
+
+|| Параметр || Значение ||
+|| Теги || — ||
+|| Упоминаний в репо || — ||
+|| Слой || — ||
+|| Контакт || — ||
+|| Статус связи || не писали ||
+
+_Обновлено: 2026-04-29_
+
+
+
+{quote}После первичного обзора видно, что дефицит уже не в наличии компонентов, а в _стыках между ними_. Svyazi[^svyazi] хорошо закрывает ingest и нормализацию; AgentFS[^agentfs] даёт{quote}
+_Проекты:_ Svyazi, CardIndex[^cardindex], AgentFS, knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+
+----
+
+
+
+
+
+h2. Архитектурные зазоры, которые важнее новых инструментов
+
+После первичного обзора видно, что дефицит уже не в наличии компонентов, а в _стыках между ними_. Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт
+.agentos
+и compile‑to‑runtime политику; knowledge-space формирует agent‑readable reference cards; NGT[^ngt] Memory и Yodoca[^yodoca] решают разные режимы памяти; research-docs/LiteParse и Legal RAG[^rag] решают доказуемость; LiteLLM, Auto AI Router и Tool Search — execution plane; SENTINEL[^sentinel] и path‑guard практики — безопасность. Но именно на переходах “card ↔ memory”, “memory ↔ evidence”, “evidence ↔ review”, “review ↔ agent execution” сегодня остаётся больше всего архитектурного риска. citeturn41search0turn27view0turn33view2turn22view4turn21view0turn20view5turn20view6turn39view0turn39view1turn20view10
+
+В практическом смысле есть пять зазоров, которые стоит считать приоритетнее поиска ещё десяти новых инструментов. Во‑первых, нужен _единый тип карточки_, который умеет хранить и “человека”, и “проект”, и “эпизод”, и “документ”, и “слабую гипотезу”. Во‑вторых, нужен _Evidence Envelope_: стандарт, по которому любой вывод системы можно обратно привязать к странице, координате, фрагменту текста или истории изменения. В‑третьих, нужен _memory governance layer_, который не даёт ассоциативной памяти записывать предлагаемое как истинное. В‑четвёртых, нужен _agent contract layer_, где навыки, маршрутизация и права оформлены как исполнимые правила, а не как размазанные инструкции по разным файлам. В‑пятых, нужен _review protocol_, который отделяет “обнаружено системой” от “принято в индекс сообщества” или “использовано во внешнем отчёте”. Каждый из этих зазоров уже частично покрыт найденными решениями, но не целиком одной системой. citeturn41search0turn20view5turn20view6turn22view4turn21view0turn20view16turn27view0turn20view3turn20view11
+
+Ниже — концентрированная таблица именно по архитектурным зазорам, а не по самим проектам.
+
+|| Архитектурный зазор || Уже сильные кандидаты || Что в них уже хорошо закрыто || Что пока остаётся незакрытым || Что брать в MVP ||
+|| Карточка как единица правды || Svyazi, AgentFS || CardIndex, hash/dedup, versionable vault, persistent state || Универсальная типизация для person/project/doc/episode/hypothesis || Card schema + raw/inferred split + immutable IDs citeturn41search0turn27view0turn33view4 ||
+|| Доказуемое основание вывода || research-docs/LiteParse, Legal RAG, Hybrid RAG || Bounding boxes, page-level grounding, coordinates, transparent retrieval || Единый формат “evidence pack” между retrieval и интерфейсом || Page-level viewer + source_id/page/span/box schema citeturn20view5turn20view6turn34view2 ||
+|| Память с контролируемым статусом || NGT Memory, Yodoca, agent-memory-mcp, Memory OS || Associative retrieval, consolidation, forgetting, typed memory, guard rails || Чёткая граница truth/proposal/conflict/decayed || Pending queue + confidence/state machine на наполнение графа citeturn22view4turn21view0turn20view16turn39view3 ||
+|| Оркестрация и review || mclaude, AI Factory, Rufler, Sequential || Locks, mailbox, patch learning, YAML swarm, sequential review || Стандарт handoff для non-code workflow и knowledge moderation || 2–3 роли: extractor → reviewer → publisher citeturn20view2turn20view3turn20view4turn20view11 ||
+|| Безопасный execution plane || LiteLLM, Auto AI Router, Tool Search, SENTINEL || Unified API, lightweight routing, lazy tool loading, runtime guard || Общая policy matrix на tool classes и external skills || Read-only by default + write approval + path allowlist citeturn11search2turn39view0turn39view1turn20view10turn20view16 ||
+
+Из этого следует важный практический принцип: _Svyazi‑2.0 нужно начинать не с “самой умной модели”, а с самой строгой структуры переходов между слоями_. Сильная модель без карточного статуса, Evidence Envelope и review protocol быстро превращает систему в красивый, но плохо аудитируемый генератор гипотез. Наоборот, даже средний model tier даёт много пользы, если extract/normalize/review/evidence и memory status already pinned. Это согласуется и с Svyazi‑подходом к CardIndex и privacy by design, и с Memory OS‑критикой “thoughtful but schema-breaking reasoning”, и с Legal RAG‑подходом к page‑level доказуемости. citeturn41search0turn39view3turn20view6turn20view18
+
+
+
+----
+
+_Похожие документы:_
+* [[09-architectural-gaps]] (сходство 1.00)
+* [[QA]] (сходство 0.17)
+* [[11-интеграционный-контракт-который-стоит-зафиксироват]] (сходство 0.16)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[09-architectural-gaps]]
+* [[QA]]
+* [[11-integration-contracts]]
+* [[11-интеграционный-контракт-который-стоит-зафиксироват]]
+
+
+
+
+
+----
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^rufler]: OSS-проект: оркестратор AI-агентов
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+
+h2. Упоминается в
+
+* [[README|Поиск AI-коллабораций]]
+
+
+h2. Связанные документы
+
+* [[09-architectural-gaps|09 Architectural Gaps]] _90%_
+* [[10-second-order-ensembles|10 Second Order Ensembles]] _48%_
+* [[11-integration-contracts|11 Integration Contracts]] _48%_
+* [[10-новые-ансамбли-следующего-шага|Новые ансамбли следующего шага]] _48%_
+* [[07-mvp-planning|07 Mvp Planning]] _42%_
+* [[13-contacts|13 Contacts]] _42%_
+* [[04-приоритетные-ансамбли|Приоритетные ансамбли]] _42%_
+* [[05-план-прототипа-и-возможные-контакты|План прототипа и возможные контакты]] _42%_

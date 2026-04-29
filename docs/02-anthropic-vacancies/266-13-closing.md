@@ -82,9 +82,9 @@ walking it.
 ---
 
 **Похожие документы:**
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.21)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.20)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.20)
+- [223-12-closing](223-12-closing.md) (сходство 0.21)
+- [252-abstract](252-abstract.md) (сходство 0.20)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.20)
 
 
 <!-- see-also -->
@@ -92,8 +92,49 @@ walking it.
 ---
 
 **Смотрите также:**
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [252-abstract](252-abstract.md)
+- [223-12-closing](223-12-closing.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [12. Call for Collaboration](265-12-call-for-collaboration.md)
+- [12. Closing](181-12-closing.md)
+- [12. Closing](223-12-closing.md)
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md)
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [Abstract](168-abstract.md)
+- [Abstract](252-abstract.md)
+- [Closing](285-closing.md)
+- [The Recursive Insight](281-the-recursive-insight.md)
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Abstract](252-abstract.md) _25%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _25%_
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _25%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _21%_
+- [Abstract](168-abstract.md) _17%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _17%_
+- [Closing](285-closing.md) _17%_
+## Связанные документы
+
+- [Abstract](252-abstract.md) _29%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _29%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _29%_
+- [Closing](285-closing.md) _29%_
+- [Abstract](168-abstract.md) _25%_
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _25%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _25%_
+- [Acknowledgments](267-acknowledgments.md) _25%_

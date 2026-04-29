@@ -1,0 +1,58 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/132-planned-v0-2-0.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Planned (v0.2.0)
+
+
+{quote}- HTTP-mode для debugging и remote access{quote}
+
+----
+
+
+
+
+
+h2. Planned (v0.2.0)
+
+* HTTP-mode для debugging и remote access
+* Authentication через API keys
+* Rate limiting
+* Whitelist/blacklist repos для MCP exposure
+* Caching слой для частых query
+
+
+
+----
+
+_Похожие документы:_
+* [187-слой-представительских-агентов-md|187-слой-представительских-агентов-md.md] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [51-compatibility-level|51-compatibility-level.md]
+* [61-compatibility-level|61-compatibility-level.md]
+* [28-appendix-a-minimal-working-example|28-appendix-a-minimal-working-example.md]
+* [42-author-contact|42-author-contact.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Abstract|04-abstract.md] _29%_
+* [Compatibility Level|41-compatibility-level.md] _29%_
+* [For the Curious: Philosophy|44-for-the-curious-philosophy.md] _29%_
+* [4. Passport ({{passport.md}})|09-4-passport-passport-md.md] _25%_
+* [Appendix A: Minimal Working Example|98-appendix-a-minimal-working-example.md] _25%_
+* [portal-mcp.py|123-portal-mcp-py.md] _21%_
+* [Подключение к Claude Desktop|127-подключение-к-claude-desktop.md] _21%_
+* [Table of Contents|154-table-of-contents.md] _21%_

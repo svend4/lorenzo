@@ -1,0 +1,65 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/187-слой-представительских-агентов-md.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md"
+tags:
+  * architecture
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md
+
+
+{quote}- [[166-representative-agent-layer-md]] (сходство 0.33){quote}
+
+----
+
+
+
+
+
+h2. СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md
+markdown
+{code:language=markdown}
+# Слой Представительских Агентов
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[166-representative-agent-layer-md]] (сходство 0.33)
+- [[134-the-double-triangle-architecture-md]] (сходство 0.25)
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte]] (сходство 0.17)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _81%_
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]] _66%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _56%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _29%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _29%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _25%_
+- [[168-abstract|Abstract]] _25%_
+- [[174-5-architectural-specification|5. Architectural Specification]] _25%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[134-the-double-triangle-architecture-md]]
+- [[166-representative-agent-layer-md]]
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte]]
+- [[344-системный-промпт-для-lorenzo-project]]
+

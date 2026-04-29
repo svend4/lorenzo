@@ -1,0 +1,19 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/05-habr-projects/knowledge/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Системы знаний"
+tags:
+  * habr-projects
+date: 2026-04-29
+----
+
+h1. Системы знаний
+
+_Файлов:_ 1
+
+h2. Содержание
+
+* [[wikontic|wikontic.md]] — 

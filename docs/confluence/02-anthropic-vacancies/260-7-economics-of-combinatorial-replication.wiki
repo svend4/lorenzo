@@ -1,0 +1,198 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 7. Economics of Combinatorial Replication
+
+
+{quote}The economics of Composite Skills Agents differ from both{quote}
+
+----
+
+
+h2. Содержание
+
+* [7. Economics of Combinatorial Replication|#7-economics-of-combinatorial-replication]
+  * [7.1. Cost Structure|#71-cost-structure]
+  * [7.2. Combinatorial Value|#72-combinatorial-value]
+  * [7.3. Investment Strategy|#73-investment-strategy]
+  * [7.4. Funding Models for Sub-Agent Development|#74-funding-models-for-sub-agent-development]
+  * [7.5. Sustainable Economics for the SGB Pilot|#75-sustainable-economics-for-the-sgb-pilot]
+
+----
+
+
+
+
+
+
+h2. 7. Economics of Combinatorial Replication
+
+The economics of Composite Skills Agents differ from both 
+Type 1 and Type 4 in interesting ways.
+
+h3. 7.1. Cost Structure
+
+_Sub-agent development_: substantial fixed cost per sub-agent. 
+A high-quality narrow-specialist sub-agent might cost €50,000-
+€500,000 to build, depending on knowledge base depth.
+
+_Sub-agent maintenance_: moderate ongoing cost. Perhaps 
+10-20% of build cost annually for keeping the knowledge base 
+current.
+
+_Coordinator development_: substantial one-time cost for 
+the coordinator infrastructure. Once built, serves all 
+configurations.
+
+_Coordinator operation_: low marginal cost per principal. 
+LLM API costs scale with use, but the coordinator itself 
+doesn't require per-principal customization beyond 
+configuration.
+
+_Configuration management_: low per-principal cost. Adding 
+sub-agents to a configuration is essentially free; the 
+sub-agents already exist.
+
+This produces interesting unit economics. If an ecosystem has 
+500 sub-agents and 10,000 principals, the ratio of sub-agent 
+fixed cost to total user value is highly favorable.
+
+h3. 7.2. Combinatorial Value
+
+The number of possible configurations grows combinatorially:
+* 100 sub-agents, choose 15: ~250 billion possible 
+  configurations
+* 500 sub-agents, choose 20: astronomical
+
+In practice, configurations cluster around common patterns. 
+But even within any profession, there's room for substantial 
+diversity. Each principal's configuration genuinely reflects 
+their distinctive practice.
+
+The combinatorial value is the central economic insight: a 
+relatively small fixed investment in sub-agent development 
+unlocks an essentially unlimited space of unique principal 
+configurations.
+
+h3. 7.3. Investment Strategy
+
+For an ecosystem (like OKWF) building this infrastructure, 
+the investment strategy follows from the economics:
+
+_Phase 1_: Build a small set of broadly applicable sub-agents 
+(perhaps 20-50 covering core specializations of one profession). 
+This requires substantial upfront investment but enables 
+initial configurations.
+
+_Phase 2_: Expand to more specialized sub-agents based on 
+observed configuration gaps. As principals use the system, 
+their requests for specializations not yet available drive 
+priority for new sub-agent development.
+
+_Phase 3_: Federation with external sub-agent providers. 
+Once the registry framework is established, sub-agents from 
+other organizations can be integrated, accelerating coverage.
+
+_Phase 4_: Cross-profession expansion. Sub-agents developed 
+for one profession may apply to adjacent professions. Methodology 
+sub-agents particularly cross professional boundaries.
+
+This phasing parallels how academic libraries develop: starting 
+with core texts, expanding to specialized works, federating 
+with other libraries, and enabling cross-disciplinary access.
+
+h3. 7.4. Funding Models for Sub-Agent Development
+
+Several funding models are viable:
+
+_Foundation-funded, public registry._ Most aligned with OKWF 
+mission. Sub-agents developed through grants, available freely.
+
+_Practitioner-funded, cooperative ownership._ Practitioners 
+in a profession collectively fund sub-agent development; they 
+own the registry collectively.
+
+_Sponsorship-based._ Foundations or institutions sponsor 
+specific sub-agents (e.g., disability rights organizations 
+sponsor sub-agents for disability-related specializations).
+
+_Commercial provider, open standards._ Companies build 
+sub-agents commercially but follow open standards allowing 
+integration. Mixed quality control, market-driven prioritization.
+
+_Hybrid._ Most realistic for early-stage ecosystem. Foundation 
+funds core infrastructure, sponsors fund priority sub-agents, 
+practitioners contribute to specific narrow sub-agents through 
+volunteer expert work.
+
+For OKWF specifically, the hybrid approach plus eventual 
+cooperative ownership seems most aligned with mission.
+
+h3. 7.5. Sustainable Economics for the SGB Pilot
+
+Applied to the SGB Advocate Colleague pilot from Professional 
+Colleague Agents v1.0:
+
+Instead of building one large profession-wide agent for German 
+social law, build:
+* 20-30 narrow sub-agents covering core SGB specializations
+* A coordinator that practitioners configure individually
+* Templates for common practice patterns (general advocacy, 
+  disability rights, elderly care, mental health, child 
+  welfare)
+
+Estimated investment:
+* 20 sub-agents at €50K average: €1,000,000
+* Coordinator development: €300,000
+* First-year operations: €200,000
+* _Total Year 1: €1.5 million_
+
+This is higher than the original estimate (€430K) but produces 
+substantially more capability. Practitioners get composite 
+configurations matching their specific practice, not a generic 
+SGB agent.
+
+For 1,000 practitioners over three years, this comes to 
+approximately €500/practitioner/year — feasible for foundation 
+funding or modest practitioner contribution.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [262-9-integration-with-okwf-infrastructure|262-9-integration-with-okwf-infrastructure.md] (сходство 0.21)
+* [216-5-the-economics-of-profession-wide-replication|216-5-the-economics-of-profession-wide-replication.md] (сходство 0.20)
+* [257-4-the-sub-agent-registry|257-4-the-sub-agent-registry.md] (сходство 0.19)
+
+
+
+
+----
+
+_Смотрите также:_
+* [262-9-integration-with-okwf-infrastructure|262-9-integration-with-okwf-infrastructure.md]
+* [216-5-the-economics-of-profession-wide-replication|216-5-the-economics-of-profession-wide-replication.md]
+* [257-4-the-sub-agent-registry|257-4-the-sub-agent-registry.md]
+* [258-5-configuration-how-principals-build-their-ensembl|258-5-configuration-how-principals-build-their-ensembl.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [8. Pilot Proposal: SGB Advocate Colleague|219-8-pilot-proposal-sgb-advocate-colleague.md] _29%_
+* [4. The Sub-Agent Registry|257-4-the-sub-agent-registry.md] _29%_
+* [5. The Economics of Profession-Wide Replication|216-5-the-economics-of-profession-wide-replication.md] _25%_
+* [9. Integration with OKWF Infrastructure|262-9-integration-with-okwf-infrastructure.md] _25%_
+* [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md] _25%_
+* [1. Why the Binary View Is Incomplete|254-1-why-the-binary-view-is-incomplete.md] _21%_
+* [3. What Makes a Composite Skills Agent|256-3-what-makes-a-composite-skills-agent.md] _21%_
+* [11. Open Questions|264-11-open-questions.md] _21%_

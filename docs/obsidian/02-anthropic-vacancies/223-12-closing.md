@@ -1,0 +1,107 @@
+---
+title: "12. Closing"
+tags:
+  - architecture
+  - roadmap
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# 12. Closing
+
+<!-- summary -->
+> The Representative Agent Layer paper, when first written,
+
+---
+<!-- tags: architecture, roadmap -->
+
+
+
+
+## 12. Closing
+
+The Representative Agent Layer paper, when first written,
+described AI agents on the principal side as a single new
+category. Reflection — particularly through the empirical
+case of «Обучай» and the architectural distinctions it
+makes visible — reveals this was an oversimplification.
+
+There are at least five distinct types of principal-side
+agents, each with different characteristics, deployments,
+risks, and timelines.
+
+Of these, **Professional Colleague Agents are the most
+deployable today**. They build on existing professional
+infrastructure, augment rather than replace, externalize no
+decisions, replicate efficiently across professions, and
+address burdens practitioners themselves recognize.
+
+This makes them the natural **first production deployment**
+for foundation-funded AI infrastructure. Not because they
+are most ambitious — Representative Agents are more
+ambitious — but because they are most ready.
+
+Within the Open Knowledge Work Foundation strategy, this
+suggests revising the rollout plan: Professional Colleague
+Agents first, Representative Agents in subsequent phases.
+Specifically, an SGB Advocate Colleague pilot can demonstrate
+the model and serve real need simultaneously.
+
+The other types — Personal AI Assistants, Institutional
+Agents, Employee Agents — also have their roles. A mature
+deployment for any individual practitioner involves multiple
+types operating together. But Professional Colleague Agents
+are where to begin.
+
+«Обучай»'s growth from zero to 93,000 teachers in seven
+months suggests these systems, when well-designed and
+addressing real burdens, achieve adoption rapidly. The
+question is not whether Professional Colleague Agents will
+proliferate — they will. The question is whether they
+proliferate within frameworks of foundation governance,
+practitioner ownership, professional standards, and ethical
+care, or whether they emerge through commercial dynamics
+alone.
+
+The choice is, again, institutional rather than technological.
+We propose the more careful path. We invite collaboration in
+walking it.
+
+---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[210-abstract]] (сходство 0.30)
+- [[266-13-closing]] (сходство 0.21)
+- [[220-9-relationship-to-other-agent-types]] (сходство 0.17)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[210-abstract]]
+- [[266-13-closing]]
+- [[220-9-relationship-to-other-agent-types]]
+- [[252-abstract]]
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[210-abstract|Abstract]] _48%_
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _33%_
+- [[252-abstract|Abstract]] _33%_
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _29%_
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _29%_
+- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] _29%_
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _25%_
+- [[179-10-open-questions|10. Open Questions]] _25%_

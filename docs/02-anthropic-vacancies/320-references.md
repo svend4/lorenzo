@@ -53,9 +53,9 @@ acknowledgments above.
 ---
 
 **Похожие документы:**
-- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md) (сходство 0.32)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
-- [287-references](docs/02-anthropic-vacancies/287-references.md) (сходство 0.14)
+- [338-ссылки](338-ссылки.md) (сходство 0.32)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
+- [287-references](287-references.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -63,8 +63,41 @@ acknowledgments above.
 ---
 
 **Смотрите также:**
-- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
-- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [338-ссылки](338-ссылки.md)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [References](147-references.md)
+- [References](287-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Ссылки](338-ссылки.md)
+- [Что ты МОЖЕШЬ делать](351-что-ты-можешь-делать.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [References](287-references.md) _29%_
+- [Ссылки](338-ссылки.md) _25%_
+- [Acknowledgments](146-acknowledgments.md) _17%_
+- [References](183-references.md) _17%_
+- [References](225-references.md) _17%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _17%_
+- [Closing](285-closing.md) _17%_
+- [Acknowledgments](286-acknowledgments.md) _17%_
+## Связанные документы
+
+- [References](287-references.md) _25%_
+- [Ссылки](338-ссылки.md) _25%_
+- [Acknowledgments](146-acknowledgments.md) _21%_
+- [References](183-references.md) _21%_
+- [References](225-references.md) _21%_
+- [Why This Document Exists](275-why-this-document-exists.md) _21%_
+- [Closing](285-closing.md) _21%_
+- [Acknowledgments](286-acknowledgments.md) _21%_

@@ -1,0 +1,70 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md}}
+Дата: 2026-04-29
+{info}
+
+h1. For the Curious: Philosophy
+
+
+{quote}{{info1}} реализует идею, что **methodology — это отдельное измерение{quote}
+
+----
+
+
+
+
+
+h2. For the Curious: Philosophy
+
+{{info1}} реализует идею, что **methodology — это отдельное измерение 
+знания**, не сводимое к семантике. Одно и то же явление (например, 
+фрактал) имеет definition (в {{pro2}}), symbolic encoding (в {{meta}}), 
+и practical applications (в {{info1}}). Эти три измерения не 
+дополнительны в смысле «разные аспекты», они _ортогональны_: 
+полное понимание требует одновременного присутствия во всех трёх.
+
+Это отражение семиотической триады Peirce (syntactic × semantic × 
+pragmatic), реализованной как knowledge ecosystem.
+
+----
+
+*Passport version: 1.0 · Protocol: [NPP v1.0|../PORTAL-PROTOCOL.md] · 
+Last updated: 2026-04*
+{code}
+---
+### Паспорт 2 из 3
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [54-for-the-curious-philosophy](54-for-the-curious-philosophy.md) (сходство 0.12)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [54-for-the-curious-philosophy](54-for-the-curious-philosophy.md)
+- [62-author-contact](62-author-contact.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Abstract](04-abstract.md) _33%_
+- [Содержание](190-содержание.md) _33%_
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _33%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _29%_
+- [Table of Contents](154-table-of-contents.md) _29%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
+- [Содержание](326-содержание.md) _29%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _25%_

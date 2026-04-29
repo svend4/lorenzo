@@ -1,0 +1,69 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/253-table-of-contents.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Table of Contents
+
+
+{quote}1. _Why the Binary View Is Incomplete_{quote}
+
+----
+
+
+
+
+
+h2. Table of Contents
+
+1. _Why the Binary View Is Incomplete_
+2. _The Twenty-One Teachers Pattern_
+3. _What Makes a Composite Skills Agent_
+4. _The Sub-Agent Registry_
+5. _Configuration: How Principals Build Their Ensembles_
+6. _Coordination and Disagreement Resolution_
+7. _Economics of Combinatorial Replication_
+8. _Seven Domains of Application_
+9. _Integration with OKWF Infrastructure_
+10. _Risks Specific to Composite Architectures_
+11. _Open Questions_
+12. _Call for Collaboration_
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [211-table-of-contents|211-table-of-contents.md] (сходство 0.26)
+* [169-table-of-contents|169-table-of-contents.md] (сходство 0.21)
+* [137-table-of-contents|137-table-of-contents.md] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [211-table-of-contents|211-table-of-contents.md]
+* [169-table-of-contents|169-table-of-contents.md]
+* [308-table-of-contents|308-table-of-contents.md]
+* [137-table-of-contents|137-table-of-contents.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Table of Contents|211-table-of-contents.md] _33%_
+* [1. Why the Binary View Is Incomplete|254-1-why-the-binary-view-is-incomplete.md] _33%_
+* [Abstract|252-abstract.md] _29%_
+* [3. What Makes a Composite Skills Agent|256-3-what-makes-a-composite-skills-agent.md] _29%_
+* [Appendix C: Configuration Template Example|271-appendix-c-configuration-template-example.md] _29%_
+* [Table of Contents|137-table-of-contents.md] _25%_
+* [Table of Contents|169-table-of-contents.md] _25%_
+* [2. The Twenty-One Teachers Pattern|255-2-the-twenty-one-teachers-pattern.md] _25%_

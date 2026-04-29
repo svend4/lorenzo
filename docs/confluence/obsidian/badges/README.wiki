@@ -1,0 +1,37 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/badges/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Бейджи репозитория"
+tags:
+  * badges
+date: 2026-04-29
+----
+
+h1. Бейджи репозитория
+
+Автоматически генерируются скриптом {{improve_badges.py}}.
+
+h2. Текущие бейджи
+
+![docs|docs/badges/docs.svg] — {{docs/badges/docs.svg}}
+![words|docs/badges/words.svg] — {{docs/badges/words.svg}}
+![scripts|docs/badges/scripts.svg] — {{docs/badges/scripts.svg}}
+![health|docs/badges/health.svg] — {{docs/badges/health.svg}}
+![go/no-go|docs/badges/scoring.svg] — {{docs/badges/scoring.svg}}
+![license|docs/badges/license.svg] — {{docs/badges/license.svg}}
+![branch|docs/badges/branch.svg] — {{docs/badges/branch.svg}}
+
+h2. Использование в README
+
+{code:language=markdown}
+![docs](docs/badges/docs.svg)
+![words](docs/badges/words.svg)
+![scripts](docs/badges/scripts.svg)
+![health](docs/badges/health.svg)
+![go/no-go](docs/badges/scoring.svg)
+![license](docs/badges/license.svg)
+![branch](docs/badges/branch.svg)
+{code}

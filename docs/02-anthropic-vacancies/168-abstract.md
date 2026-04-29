@@ -61,9 +61,9 @@ service organizations, civil society, and policymakers.
 ---
 
 **Похожие документы:**
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md) (сходство 0.16)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.15)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.14)
+- [210-abstract](210-abstract.md) (сходство 0.16)
+- [223-12-closing](223-12-closing.md) (сходство 0.15)
+- [252-abstract](252-abstract.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -71,8 +71,53 @@ service organizations, civil society, and policymakers.
 ---
 
 **Смотрите также:**
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
+- [210-abstract](210-abstract.md)
+- [223-12-closing](223-12-closing.md)
+- [252-abstract](252-abstract.md)
+- [180-11-call-for-collaboration](180-11-call-for-collaboration.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [11. Call for Collaboration](180-11-call-for-collaboration.md)
+- [12. Closing](181-12-closing.md)
+- [13. Closing](266-13-closing.md)
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
+- [5. Architectural Specification](174-5-architectural-specification.md)
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [Abstract](210-abstract.md)
+- [Abstract](307-abstract.md)
+- [Acknowledgments](267-acknowledgments.md)
+- [Closing](285-closing.md)
+- [References](225-references.md)
+- [The Recursive Insight](281-the-recursive-insight.md)
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) _25%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _21%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _21%_
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md) _21%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _21%_
+- [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](344-системный-промпт-для-lorenzo-project.md) _21%_
+- [8. Call to Action](145-8-call-to-action.md) _17%_
+- [REPRESENTATIVE AGENT LAYER.md](166-representative-agent-layer-md.md) _17%_
+## Связанные документы
+
+- [Abstract](210-abstract.md) _29%_
+- [Acknowledgments](267-acknowledgments.md) _29%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _25%_
+- [REPRESENTATIVE AGENT LAYER.md](166-representative-agent-layer-md.md) _25%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _25%_
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md) _25%_
+- [13. Closing](266-13-closing.md) _25%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _25%_

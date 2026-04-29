@@ -1,0 +1,89 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md}}
+Дата: 2026-04-29
+{info}
+
+h1. with Anthropic's Cowork Platform
+
+
+{quote}_Document type:_ Practical implementation paper, building{quote}
+
+----
+
+
+
+
+
+h2. with Anthropic's Cowork Platform
+
+_Document type:_ Practical implementation paper, building 
+on Document 2.3's theoretical framework
+
+_Position in series:_ Document 2.4 — sequenced after 
+Document 2.3's identification of the Layer B gap, providing 
+concrete implementation path through Cowork integration
+
+_Companion paper to:_
+* Nautilus Portal Protocol v1.1 (Document 1)
+* Review Methodology v1.0 (Document 2)
+* Infrastructure for AI-Collaborative Intellectual Work v1.0 
+  (Document 2.3)
+* Double-Triangle Architecture v1.0 (Document 3)
+* Open Knowledge Work Foundation v1.0 (Document 4)
+* Representative Agent Layer v1.0 (Document 5)
+* Professional Colleague Agents v1.0 (Document 6)
+* Composite Skills Agent v1.0 (Document 7)
+
+_Reference projects:_
+* InGit (https://github.com/svend4/ingit) — author's 
+  offline-first integrated platform for version control, 
+  project management, and documentation
+* Anthropic Cowork (https://claude.com/product/cowork) — 
+  agentic interface in Claude Desktop launched January 2026
+
+_Version:_ 1.0.0-draft
+_Date:_ 2026-04-26
+_Author:_ svend4
+_Editorial collaboration:_ Claude
+_License:_ CC BY 4.0
+_Status:_ Practical implementation paper, seeking 
+collaboration
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [251-ai-support-through-configurable-specialist-ensembl|251-ai-support-through-configurable-specialist-ensembl.md] (сходство 0.39)
+* [274-the-missing-middle-layer-between-chat-and-code|274-the-missing-middle-layer-between-chat-and-code.md] (сходство 0.39)
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md] (сходство 0.34)
+
+
+
+
+----
+
+_Смотрите также:_
+* [274-the-missing-middle-layer-between-chat-and-code|274-the-missing-middle-layer-between-chat-and-code.md]
+* [251-ai-support-through-configurable-specialist-ensembl|251-ai-support-through-configurable-specialist-ensembl.md]
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+* [167-ai-mediated-representation-for-underrepresented-ex|167-ai-mediated-representation-for-underrepresented-ex.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Appendix A: Connection to Companion Papers|184-appendix-a-connection-to-companion-papers.md] _66%_
+* [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers|209-a-typology-of-ai-agents-on-the-principal-side-and-.md] _66%_
+* [Существующие документы DHLab (твой context)|355-существующие-документы-dhlab-твой-context.md] _66%_
+* [AI Support Through Configurable Specialist Ensembles|251-ai-support-through-configurable-specialist-ensembl.md] _53%_
+* [The Missing Middle Layer Between Chat and Code|274-the-missing-middle-layer-between-chat-and-code.md] _53%_
+* [References|268-references.md] _37%_
+* [Acknowledgments|319-acknowledgments.md] _37%_
+* [Acknowledgments|146-acknowledgments.md] _33%_

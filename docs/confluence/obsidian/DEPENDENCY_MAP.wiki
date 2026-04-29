@@ -1,0 +1,179 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/DEPENDENCY_MAP.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Карта зависимостей скриптов"
+tags:
+  * general
+date: 2026-04-29
+----
+
+h1. Карта зависимостей скриптов
+
+_Что каждый {{improve_*.py}} производит и от чего зависит._
+
+_Скриптов в карте:_ 49 · _Всего в репо:_ 125
+
+h2. Зависимости
+
+|| Скрипт || Производит || Зависит от ||
+|| `improve_abbreviations.py` || `docs/ABBREVIATIONS.md` || `docs/**/*.md` ||
+|| `improve_action_items.py` || `docs/ACTION_ITEMS.md` || `docs/**/*.md` ||
+|| `improve_autofill.py` || `docs/autofilled/**` || `docs/templates/**`, `docs/ENTITIES.md` ||
+|| `improve_backlinks.py` || `docs/BACKLINKS.md` || `docs/**/*.md` ||
+|| `improve_badges.py` || `docs/badges/*.svg` || `docs/HEALTH.md`, `docs/SCORING.md` ||
+|| `improve_clusters.py` || `docs/CLUSTERS.md` || `docs/**/*.md` ||
+|| `improve_concepts.py` || `docs/CONCEPTS.md` || `docs/**/*.md` ||
+|| `improve_cost.py` || `docs/COST.md` || `docs/**/*.md` ||
+|| `improve_decisions.py` || `docs/DECISIONS.md` || `docs/**/*.md` ||
+|| `improve_dependency_map.py` || `docs/DEPENDENCY_MAP.md` || `scripts/improve_*.py` ||
+|| `improve_digest.py` || `docs/DIGEST.md` || — ||
+|| `improve_digest_weekly.py` || `docs/DIGEST_WEEKLY.md` || — ||
+|| `improve_entities.py` || `docs/ENTITIES.md` || `docs/**/*.md` ||
+|| `improve_export_csv.py` || `docs/export_full.csv` || `docs/**/*.md` ||
+|| `improve_export_html.py` || `docs/export_full.html` || `docs/**/*.md` ||
+|| `improve_export_json.py` || `docs/export_full.json` || `docs/**/*.md` ||
+|| `improve_faq.py` || `docs/FAQ.md` || `docs/**/*.md` ||
+|| `improve_footnotes.py` || `docs/FOOTNOTES.md`, `docs/**/*.md (сноски)` || `docs/**/*.md` ||
+|| `improve_glossary.py` || `docs/GLOSSARY.md` || `docs/**/*.md` ||
+|| `improve_health.py` || `docs/HEALTH.md` || `docs/METRICS.md`, `docs/VALIDATION.md` ||
+|| `improve_heatmap.py` || `docs/HEATMAP.md` || `docs/TAGS.md` ||
+|| `improve_index_update.py` || `docs/search_index.json` || `docs/search_index.json` ||
+|| `improve_kpi.py` || `docs/KPI.md` || `docs/**/*.md` ||
+|| `improve_llm_enrich.py` || `docs/**/*.md (enriched)` || `docs/ENTITIES.md`, `ANTHROPIC_API_KEY` ||
+|| `improve_llm_gaps.py` || `docs/LLM_GAPS.md` || `docs/**/*.md`, `ANTHROPIC_API_KEY` ||
+|| `improve_llm_qa.py` || `docs/LLM_QA.md` || `docs/QUESTIONS.md`, `ANTHROPIC_API_KEY` ||
+|| `improve_llm_summary.py` || `docs/LLM_SUMMARIES.md` || `docs/*/README.md` ||
+|| `improve_metrics.py` || `docs/METRICS.md` || `docs/**/*.md` ||
+|| `improve_network.py` || `docs/NETWORK.md`, `docs/network.dot` || `docs/ENTITIES.md` ||
+|| `improve_onboarding.py` || `docs/ONBOARDING.md` || `docs/SCORING.md`, `docs/CONTACTS.md` ||
+|| `improve_orphans.py` || `docs/ORPHANS.md` || `docs/BACKLINKS.md` ||
+|| `improve_progress.py` || `docs/PROGRESS.md` || `docs/SCORING.md` ||
+|| `improve_questions.py` || `docs/QUESTIONS.md` || `docs/**/*.md` ||
+|| `improve_readmes.py` || `docs/*/README.md` || — ||
+|| `improve_report.py` || `docs/REPORT.md` || `docs/STATS.md`, `docs/HEALTH.md` ||
+|| `improve_schedule.py` || `docs/SCHEDULE.md` || — ||
+|| `improve_scoring.py` || `docs/SCORING.md` || `docs/HEALTH.md`, `docs/METRICS.md` ||
+|| `improve_search_index.py` || `docs/search_index.json` || `docs/**/*.md` ||
+|| `improve_sentiment.py` || `docs/SENTIMENT.md` || `docs/**/*.md` ||
+|| `improve_similar.py` || `docs/SIMILAR.md` || `docs/**/*.md` ||
+|| `improve_sitemap.py` || `docs/SITEMAP.md`, `docs/sitemap.xml` || `docs/**/*.md` ||
+|| `improve_stats.py` || `docs/STATS.md` || `docs/**/*.md` ||
+|| `improve_summaries.py` || `docs/*/README.md` || `docs/**/*.md` ||
+|| `improve_tags.py` || `docs/TAGS.md` || `docs/**/*.md` ||
+|| `improve_tech_radar.py` || `docs/TECH_RADAR.md` || — ||
+|| `improve_toc.py` || `docs/**/*.md (TOC блоки)` || `docs/**/*.md` ||
+|| `improve_validate.py` || `docs/VALIDATION.md` || `docs/**/*.md` ||
+|| `improve_word_cloud.py` || `docs/WORD_CLOUD.svg`, `docs/WORD_CLOUD.md` || `docs/WORD_FREQ.md` ||
+|| `improve_word_freq.py` || `docs/WORD_FREQ.md` || `docs/**/*.md` ||
+
+h2. Скрипты без карты зависимостей
+
+_Существуют в репо, но не добавлены в карту:_
+
+* {{improve_abstract.py}}
+* {{improve_alerts.py}}
+* {{improve_auto_toc.py}}
+* {{improve_autocorrect.py}}
+* {{improve_benchmark.py}}
+* {{improve_broken_links.py}}
+* {{improve_changelog.py}}
+* {{improve_changelog_auto.py}}
+* {{improve_chunk_semantic.py}}
+* {{improve_ci_config.py}}
+* {{improve_citation_index.py}}
+* {{improve_compare.py}}
+* {{improve_compare_docs.py}}
+* {{improve_complexity.py}}
+* {{improve_component_matrix.py}}
+* {{improve_concept_graph.py}}
+* {{improve_confluence.py}}
+* {{improve_consistency.py}}
+* {{improve_contact_priority.py}}
+* {{improve_contact_status.py}}
+* {{improve_contacts.py}}
+* {{improve_content_gaps.py}}
+* {{improve_contradiction_check.py}}
+* {{improve_coverage.py}}
+* {{improve_crosslink_all.py}}
+* {{improve_crossrefs.py}}
+* {{improve_dedup.py}}
+* {{improve_density.py}}
+* {{improve_dependabot.py}}
+* {{improve_duplicate_across.py}}
+* {{improve_epub.py}}
+* {{improve_external_compare.py}}
+* {{improve_extract_code.py}}
+* {{improve_extract_tables.py}}
+* {{improve_github_issues.py}}
+* {{improve_graph.py}}
+* {{improve_index_master.py}}
+* {{improve_keyword_index.py}}
+* {{improve_kpi_snapshot.py}}
+* {{improve_link_preview.py}}
+* {{improve_llm_contact.py}}
+* {{improve_merge_by_topic.py}}
+* {{improve_merge_short.py}}
+* {{improve_mindmap.py}}
+* {{improve_missing.py}}
+* {{improve_named_entity_index.py}}
+* {{improve_narrative.py}}
+* {{improve_obsidian.py}}
+* {{improve_outline.py}}
+* {{improve_paragraph_quality.py}}
+* {{improve_passage_retrieval.py}}
+* {{improve_pre_commit.py}}
+* {{improve_priorities.py}}
+* {{improve_progress_sync.py}}
+* {{improve_qa.py}}
+* {{improve_readability_v2.py}}
+* {{improve_reading_order.py}}
+* {{improve_reading_time.py}}
+* {{improve_reclassify.py}}
+* {{improve_risk_register.py}}
+* {{improve_rss.py}}
+* {{improve_run_all.py}}
+* {{improve_see_also.py}}
+* {{improve_source_map.py}}
+* {{improve_spellcheck.py}}
+* {{improve_staleness.py}}
+* {{improve_subtopic_fill.py}}
+* {{improve_templates.py}}
+* {{improve_text_segmenter.py}}
+* {{improve_timeline.py}}
+* {{improve_timeline_events.py}}
+* {{improve_topic_model.py}}
+* {{improve_version_diff.py}}
+* {{improve_vocabulary_richness.py}}
+* {{improve_watch.py}}
+* {{improve_watcher.py}}
+
+h2. Порядок запуска (рекомендуемый)
+
+{code}
+1. structure  →  2. index  →  3. analysis  →  4. extract
+         ↓                                          ↓
+    5. quality  ←────────────────────────────  данные
+         ↓
+    6. graph  →  7. reports  →  8. export
+                     ↓
+              9. enrich (LLM, нужен API ключ)
+                     ↓
+              10. meta (tech-radar, onboarding, ...)
+{code}
+
+_Используй {{python scripts/improve_run_all.py}} для автоматического порядка._
+
+
+
+
+----
+
+_Смотрите также:_
+* [[CHANGELOG_AUTO]]
+* [[CHANGELOG]]
+* [[SITEMAP]]
+* [[TAGS]]
+

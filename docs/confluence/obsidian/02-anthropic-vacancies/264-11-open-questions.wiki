@@ -1,0 +1,183 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/264-11-open-questions.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "11. Open Questions"
+tags:
+  * rag
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 11. Open Questions
+
+
+h2. Содержание
+
+* [Contents|#contents]
+* [11. Open Questions|#11-open-questions]
+  * [11.1. Granularity Questions|#111-granularity-questions]
+  * [11.2. Configuration Stability|#112-configuration-stability]
+  * [11.3. Cross-Professional Configurations|#113-cross-professional-configurations]
+  * [11.4. Configuration Evolution at Scale|#114-configuration-evolution-at-scale]
+  * [11.5. Sub-Agent Quality Across Cultures|#115-sub-agent-quality-across-cultures]
+  * [11.6. Liability for Composite Outputs|#116-liability-for-composite-outputs]
+  * [11.7. The "Emergence" Question|#117-the-emergence-question]
+  * [11.8. Transition from Composite to Representative|#118-transition-from-composite-to-representative]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
+h2. Contents
+
+* [11. Open Questions|#11-open-questions]
+  * [11.1. Granularity Questions|#111-granularity-questions]
+  * [11.2. Configuration Stability|#112-configuration-stability]
+  * [11.3. Cross-Professional Configurations|#113-cross-professional-configurations]
+  * [11.4. Configuration Evolution at Scale|#114-configuration-evolution-at-scale]
+  * [11.5. Sub-Agent Quality Across Cultures|#115-sub-agent-quality-across-cultures]
+  * [11.6. Liability for Composite Outputs|#116-liability-for-composite-outputs]
+  * [11.7. The "Emergence" Question|#117-the-emergence-question]
+  * [11.8. Transition from Composite to Representative|#118-transition-from-composite-to-representative]
+
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}Many questions about Composite Skills Agents remain open.{quote}
+
+----
+
+
+
+
+
+h2. 11. Open Questions
+
+Many questions about Composite Skills Agents remain open.
+
+h3. 11.1. Granularity Questions
+
+How narrow should sub-agents be? Too narrow and configurations 
+become unmanageable; too broad and the composite pattern 
+collapses back to Professional Colleague Agent.
+
+What's the right granularity for different professions? Likely 
+varies — music might support finer granularity than law. 
+Empirical question requiring deployment.
+
+h3. 11.2. Configuration Stability
+
+How often should principals revise configurations? Too often 
+and they spend more time configuring than working; too rarely 
+and configurations drift from current practice.
+
+What signals suggest configuration revision is needed? Likely 
+some combination of: significant change in principal's work, 
+new sub-agents available, observed gaps in current configuration, 
+explicit annual review.
+
+h3. 11.3. Cross-Professional Configurations
+
+When practitioners genuinely span professions (lawyer who is 
+also social worker, doctor who is also researcher), can their 
+configuration span sub-agents from multiple professions? How 
+does the coordinator handle this?
+
+This case is increasingly common as work becomes more 
+interdisciplinary.
+
+h3. 11.4. Configuration Evolution at Scale
+
+If 10,000 practitioners use composite agents, what happens 
+across the population? Do configurations cluster around 
+patterns? Does this clustering match natural sub-specialties 
+or create artificial groupings?
+
+Empirical study would inform whether the architecture supports 
+or constrains professional evolution.
+
+h3. 11.5. Sub-Agent Quality Across Cultures
+
+Sub-agents developed primarily in one cultural or linguistic 
+context may not serve well in others. How does the registry 
+handle cultural variation? Multiple parallel sub-agents for 
+different contexts? Configurable cultural overlays?
+
+h3. 11.6. Liability for Composite Outputs
+
+When a composite agent's output (drawing on multiple sub-agents) 
+contains errors, who bears responsibility? The principal who 
+used it? The coordinator? Each sub-agent that contributed? 
+The platform?
+
+Legal frameworks for traditional Professional Colleague Agents 
+are nascent; composite versions add complexity.
+
+h3. 11.7. The "Emergence" Question
+
+When many sub-agents combine in a configuration, do useful 
+properties emerge that weren't present in any individual 
+sub-agent? Or do composite outputs simply average their 
+contributions?
+
+Theoretically interesting question with practical implications 
+for whether composite is genuinely more than the sum of parts.
+
+h3. 11.8. Transition from Composite to Representative
+
+As principals develop sophisticated composite configurations, 
+when (if ever) does it make sense to graduate to a Representative 
+Agent (Type 4) with truly individual specialization? Or do 
+composites serve indefinitely?
+
+The pattern from human mastery suggests configurations evolve 
+indefinitely; "graduation" may not be the right metaphor.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[265-12-call-for-collaboration]] (сходство 0.18)
+* [[221-10-open-questions]] (сходство 0.18)
+* [[256-3-what-makes-a-composite-skills-agent]] (сходство 0.18)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[265-12-call-for-collaboration]]
+* [[256-3-what-makes-a-composite-skills-agent]]
+* [[262-9-integration-with-okwf-infrastructure]]
+* [[221-10-open-questions]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _37%_
+* [[265-12-call-for-collaboration|12. Call for Collaboration]] _33%_
+* [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _29%_
+* [[179-10-open-questions|10. Open Questions]] _29%_
+* [[221-10-open-questions|10. Open Questions]] _29%_
+* [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _29%_
+* [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _29%_
+* [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]] _29%_

@@ -1,0 +1,66 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/39-angle-perspective.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Angle / Perspective
+
+
+{quote}_Methodological_ — {{info1}} смотрит на концепты _с позиции применения_.{quote}
+
+----
+
+
+
+
+
+h2. Angle / Perspective
+
+_Methodological_ — {{info1}} смотрит на концепты _с позиции применения_. 
+На вопрос «что такое кристалл» {{info1}} отвечает не определением 
+(это делает {{pro2}}) и не символической интерпретацией (это делает 
+{{meta}}), а описанием методов работы с кристаллами, алгоритмов их 
+идентификации, формул их свойств.
+
+Это дополнительный, не заменяющий взгляд. Консенсус между {{info1}}, 
+{{pro2}}, {{meta}} по одному концепту даёт триангулированное понимание: 
+_как применять × что значит × как символически устроено_.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [49-angle-perspective|49-angle-perspective.md] (сходство 0.14)
+* [59-angle-perspective|59-angle-perspective.md] (сходство 0.14)
+* [46-essence|46-essence.md] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [36-essence|36-essence.md]
+* [49-angle-perspective|49-angle-perspective.md]
+* [59-angle-perspective|59-angle-perspective.md]
+* [46-essence|46-essence.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Angle / Perspective|49-angle-perspective.md] _42%_
+* [Angle / Perspective|59-angle-perspective.md] _37%_
+* [Angle / Perspective|13-angle-perspective.md] _30%_
+* [Essence|36-essence.md] _29%_
+* [passports/pro2.md|45-passports-pro2-md.md] _25%_
+* [Essence|46-essence.md] _25%_
+* [passports/meta.md|55-passports-meta-md.md] _25%_
+* [Essence|56-essence.md] _25%_
