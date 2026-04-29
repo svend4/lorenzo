@@ -56,13 +56,33 @@ def _tokenize(text: str) -> list[str]:
     return [w for w in words if w not in stop]
 
 
+def _doc_text(doc: dict) -> str:
+    """search_index.json uses 'content' (new) or 'preview' (old) — 356/460 files
+    have empty 'content' but populated 'preview'. Use the best available field."""
+    return " ".join(filter(None, [
+        doc.get("content", ""),
+        doc.get("preview", ""),
+        doc.get("summary", ""),
+    ]))
+
+
 def _search(query: str, top_k: int = 8) -> list[dict]:
     index = _load_index()
     tokens = _tokenize(query)
     scored = []
     for doc in index:
-        content = (doc.get("content", "") + doc.get("title", "")).lower()
-        score = sum(1 + content.count(t) * 0.1 for t in tokens if t in content)
+        body  = _doc_text(doc).lower()
+        title = doc.get("title", "").lower()
+        path  = doc.get("path", "").lower()
+        tags  = " ".join(doc.get("tags", [])).lower()
+
+        score = 0.0
+        for t in tokens:
+            if t in title: score += 5.0 + title.count(t) * 0.5
+            if t in path:  score += 3.0
+            if t in tags:  score += 2.0
+            if t in body:  score += 1.0 + body.count(t) * 0.05
+
         if score > 0:
             scored.append((score, doc))
     scored.sort(key=lambda x: x[0], reverse=True)

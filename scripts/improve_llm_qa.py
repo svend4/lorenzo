@@ -57,9 +57,37 @@ def tokenize_query(query: str) -> list[str]:
     return [w for w in words if w not in stopwords]
 
 
+def _doc_text(doc: dict) -> str:
+    """Возвращает лучшее доступное текстовое поле документа.
+
+    search_index.json использует разные ключи в зависимости от версии
+    improve_search_index.py: 'content' (новый) или 'preview' (старый).
+    356/460 файлов имеют пустой 'content' но заполненный 'preview'.
+    """
+    return " ".join(filter(None, [
+        doc.get("content", ""),
+        doc.get("preview", ""),
+        doc.get("summary", ""),
+    ]))
+
+
 def score_doc(doc: dict, query_tokens: list[str]) -> float:
-    content = (doc.get("content", "") + " " + doc.get("title", "")).lower()
-    return sum(1.0 + content.count(t) * 0.1 for t in query_tokens if t in content)
+    body  = _doc_text(doc).lower()
+    title = doc.get("title", "").lower()
+    path  = doc.get("path", "").lower()
+    tags  = " ".join(doc.get("tags", [])).lower()
+
+    score = 0.0
+    for t in query_tokens:
+        if t in title:
+            score += 5.0 + title.count(t) * 0.5   # сильный буст за заголовок
+        if t in path:
+            score += 3.0                             # буст за путь (имя файла)
+        if t in tags:
+            score += 2.0                             # буст за теги
+        if t in body:
+            score += 1.0 + body.count(t) * 0.05    # базовый по тексту
+    return score
 
 
 def find_relevant(query: str, index: list[dict], top_k: int = TOP_K) -> list[dict]:
