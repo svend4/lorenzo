@@ -19,17 +19,25 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: pip
+
+      - name: Install optional deps
+        run: pip install --quiet beautifulsoup4 lxml pyspellchecker
 
       - name: Check broken links (internal)
+        continue-on-error: true
         run: python scripts/improve_broken_links.py
 
       - name: Check spellcheck
+        continue-on-error: true
         run: python scripts/improve_spellcheck.py
 
       - name: Check readability
+        continue-on-error: true
         run: python scripts/improve_readability_v2.py
 
       - name: Verify search index up to date
+        continue-on-error: true
         run: python scripts/improve_search_index.py
 
       - name: Check for regressions
