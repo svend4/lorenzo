@@ -1,11 +1,20 @@
 # Контакт: andrey_chuyan / Svyazi
 
 <!-- summary -->
-> <!-- summary: Шаблон для связи с автором Svyazi -->
+> - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, CardIndex
 
 ---
 
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
 
 
 <!-- summary: Шаблон для связи с автором Svyazi -->
@@ -46,19 +55,18 @@ Svyazi закрывает слой «ingestion/CardIndex» в архитекту
 
 ## Открытые вопросы
 
-1. Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы?
+1. Стоит ли расширять [CardIndex](../docs/01-svyazi/01-executive-summary.md) до person/project/episode/evidence или лучше держать разные индексы?
 2. [Вопрос 2]
 
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- see-also -->
+<!-- similar-docs -->
 
 ---
 
-**Смотрите также:**
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [dmitriila](docs/contacts/dmitriila.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+**Похожие документы:**
+- [nlaik](docs/contacts/nlaik.md) (сходство 0.70)
+- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.70)
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.67)
 

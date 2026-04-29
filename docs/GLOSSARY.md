@@ -4,46 +4,45 @@
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 72 |
-| **AIF Handoff** | 28 |
-| **AgentFS** | 94 |
-| **Auto AI Router** | 64 |
-| **AutoResearch** | 60 |
-| **Automerge** | 35 |
-| **CardIndex** | 130 |
-| **Firecrawl** | 21 |
-| **Graph RAG** | 46 |
-| **Hybrid RAG** | 50 |
-| **Legal RAG** | 51 |
-| **LiteLLM** | 48 |
-| **LiteParse** | 75 |
-| **MemNet** | 70 |
-| **Memory OS** | 37 |
-| **NGT Memory** | 91 |
-| **OpenWhispr** | 21 |
-| **RLM-Toolkit** | 10 |
-| **Rufler** | 79 |
-| **SENTINEL** | 67 |
-| **Self-Aware MCP** | 21 |
-| **Sequential** | 115 |
-| **Svyazi** | 255 |
-| **Tool Search** | 50 |
-| **Whisper** | 22 |
-| **Wikontic** | 48 |
-| **Yjs** | 44 |
-| **Yodoca** | 137 |
-| **Yttri** | 17 |
-| **agent-memory-mcp** | 38 |
-| **knowledge-space** | 98 |
-| **mclaude** | 85 |
+| **AI Factory** | 53 |
+| **AIF Handoff** | 19 |
+| **AgentFS** | 61 |
+| **Auto AI Router** | 42 |
+| **AutoResearch** | 30 |
+| **Automerge** | 17 |
+| **CardIndex** | 70 |
+| **Firecrawl** | 12 |
+| **Graph RAG** | 29 |
+| **Hybrid RAG** | 27 |
+| **Legal RAG** | 31 |
+| **LiteLLM** | 34 |
+| **LiteParse** | 44 |
+| **MemNet** | 100 |
+| **Memory OS** | 20 |
+| **NGT Memory** | 52 |
+| **OpenWhispr** | 11 |
+| **RLM-Toolkit** | 7 |
+| **Rufler** | 46 |
+| **SENTINEL** | 45 |
+| **Self-Aware MCP** | 9 |
+| **Sequential** | 48 |
+| **Svyazi** | 173 |
+| **Tool Search** | 34 |
+| **Whisper** | 14 |
+| **Wikontic** | 26 |
+| **Yjs** | 21 |
+| **Yodoca** | 68 |
+| **Yttri** | 14 |
+| **agent-memory-mcp** | 19 |
+| **knowledge-space** | 56 |
+| **mclaude** | 49 |
 
-<!-- see-also -->
+<!-- similar-docs -->
 
 ---
 
-**Смотрите также:**
-- [MINDMAP](docs/MINDMAP.md)
-- [GRAPH](docs/GRAPH.md)
-- [NETWORK](docs/NETWORK.md)
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+**Похожие документы:**
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.31)
+- [NETWORK](docs/NETWORK.md) (сходство 0.24)
+- [GRAPH](docs/GRAPH.md) (сходство 0.22)
 

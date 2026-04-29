@@ -1,5 +1,15 @@
 # 4. Proposed Infrastructure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.
+> 🔧 **Подход:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.
+> ✅ **Результат:** Legal and Compliance Layer What it provides: - Single contractual interface for contributors (across jurisdictions) - Tax compliance infrastructure - GDPR-compliant data handling -
+> 🏷️ **Ключевые слова:** `guild`, `layer`, `level`, `nautilus`, `triangle`, `foundation`, `contributors`, `pattern`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -14,7 +24,7 @@
 ## Содержание
 
 - [4. Proposed Infrastructure](#4-proposed-infrastructure)
-  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-nautilus-portal-protocol)
+  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol)
   - [4.2. Coordination Pattern: Double-Triangle Architecture](#42-coordination-pattern-double-triangle-architecture)
   - [4.3. Knowledge Layer: Pattern Library with Private Instances](#43-knowledge-layer-pattern-library-with-private-instances)
   - [4.4. Community Layer: Guild Structure](#44-community-layer-guild-structure)
@@ -232,7 +242,7 @@ Community governance operates:
 ---
 
 **Похожие документы:**
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
 - [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.18)
 - [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.16)
 
@@ -242,7 +252,7 @@ Community governance operates:
 ---
 
 **Смотрите также:**
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
 - [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
 - [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)

@@ -4,7 +4,7 @@
 > **Status**: Accepted (new in v1.1)
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
@@ -16,7 +16,7 @@
 **Context**: В v1.0 Q6-пространство существовало как implementation 
 detail reference portal (pro2 → hexagrams). При росте экосистемы 
 стало ясно, что Q6 работает как универсальная система координат 
-для всех Repos, не только pro2.
+для всех Repos, не только [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md).
 
 **Decision**: В v1.1 Q6 повышается до нормативного концепта 
 протокола. Level 2+ адаптеры MUST обеспечивать Q6-координаты. 

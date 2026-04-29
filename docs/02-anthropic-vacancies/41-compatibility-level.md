@@ -4,7 +4,7 @@
 > **Текущий уровень: 3 (Interactive / Bridged)**
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
@@ -17,7 +17,7 @@
 - ✅ Level 1: имеет passport + `describe()` в адаптере
 - ✅ Level 2: `fetch(query)` работает
 - ✅ Level 3: `translate_to(entry, target_repo)` реализован для 
-  мостов с `pro2` и `meta`
+  мостов с `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` и `meta`
 
 ---
 

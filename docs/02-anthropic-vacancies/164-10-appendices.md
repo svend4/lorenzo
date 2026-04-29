@@ -1,5 +1,14 @@
 # 10. Appendices
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix F: Document Metadata Document status: Working draft, seeking feedback Review version: v1.0.0-draft Next planned revision: v1.1-draft incorporating partner feedback Primary
+> 🔧 **Подход:** Author proposes serving as founder but not necessarily Executive Director.
+> 🏷️ **Ключевые слова:** `appendix`, `anthropic`, `partial`, `infrastructure`, `partnership`, `author`, `vacancies`, `status`
+>
+
+
 <!-- summary -->
 > **Nautilus Portal Protocol v1.1**:
 
@@ -47,7 +56,7 @@
 - 6,782 LOC Python, 60 tests passing, 0 mypy errors
 - 13 adapters, 7 repositories federated
 - REST API, SDK, MCP integration, OpenAPI specification
-- Docker deployment, CI/CD via GitHub Actions
+- Docker deployment, CI/CD via [GitHub](../docs/01-svyazi/03-component-catalog.md) Actions
 - Documentation: README, STATUS, INTEGRATION, PORTAL-PROTOCOL 
   (15+ pages formal spec), REVIEW_METHODOLOGY, 
   DOUBLE-TRIANGLE-ARCHITECTURE (20 pages)
@@ -151,7 +160,7 @@ Specific answers inform design refinements.
 **Review version**: v1.0.0-draft
 **Next planned revision**: v1.1-draft incorporating partner feedback
 **Primary maintenance**: author (svend4)
-**Contact for discussion**: [author's GitHub issues, email 
+**Contact for discussion**: [author's [GitHub](../docs/01-svyazi/03-component-catalog.md) issues, email 
 TBD for foundation launch]
 **Public availability**: This document is CC BY 4.0; can be 
 shared, cited, refined by anyone with attribution.

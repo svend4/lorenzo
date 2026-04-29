@@ -1,5 +1,24 @@
 # 1. Introduction
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла 
+> 🔧 **Подход:** Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре, что уменьшает выразительность.
+> 🏷️ **Ключевые слова:** `introduction`, `goals`, `anthropic`, `vacancies`, `проекте`, `federation`, `merging`, `motivation`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [1. Introduction](#1-introduction)
+  - [1.1. Motivation](#11-motivation)
+  - [1.2. Design Goals](#12-design-goals)
+  - [1.3. Non-Goals](#13-non-goals)
+  - [1.4. Terminology](#14-terminology)
+
+
 <!-- summary -->
 > Современные системы управления знаниями (Notion, Obsidian, Roam, Logseq,
 

@@ -1,7 +1,16 @@
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Это намного лучше соответствует задачам экспертных сообществ, чем either/or‑выбор между “всё в облако” и “всё только локально”.
+> 🔧 **Подход:** citeturn27view0turn11search0turn11search11turn22view4turn20view12turn39view0turn20view10 Главное новое свойство здесь — не только privacy, но и архитектурная живучесть.
+> ✅ **Результат:** Здесь главный эффект даёт не одна новая функция, а изменение формы владения системой.
+> 🏷️ **Ключевые слова:** `svyazi`, `ансамбли`, `новые`, `search`, `проект`, `просто`, `knowledge`, `space`
+>
+
 
 <!-- summary -->
 > Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка **трёх новых ансамблей второго порядка**, где компоненты перестают быть “рядами функ
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
@@ -12,7 +21,7 @@
 
 Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка **трёх новых ансамблей второго порядка**, где компоненты перестают быть “рядами функций” и начинают образовывать новые свойства на уровне процесса сообщества, исследовательской группы или прототипной фабрики.
 
-Первый такой ансамбль — **Evidence‑Backed Community Intake**. Его цель не в том, чтобы искать коллаборации по уже готовым карточкам, а в том, чтобы превращать хаотичный входящий поток — анкеты, чаты, PDF‑документы, заметки после созвонов, голосовые эпизоды — в нормализованный поток карточек с подтверждаемыми основаниями и review‑очередью. Здесь Svyazi даёт extraction и CardIndex, LiteParse/Hybrid RAG[^rag] — evidence‑слой, Self‑Aware MCP[^mcp] — контекст времени и среды, а Yodoca[^yodoca] — консолидатор для “сырых эпизодов”, которые не должны сразу попадать в долгоживущую истину. Это превращает intake‑контур в нечто вроде “редакции сигналов”, а не только “парсера профилей”. citeturn41search0turn20view5turn34view2turn20view12turn21view0
+Первый такой ансамбль — **Evidence‑Backed Community Intake**. Его цель не в том, чтобы искать коллаборации по уже готовым карточкам, а в том, чтобы превращать хаотичный входящий поток — анкеты, чаты, PDF‑документы, заметки после созвонов, голосовые эпизоды — в нормализованный поток карточек с подтверждаемыми основаниями и review‑очередью. Здесь Svyazi даёт extraction и CardIndex, [LiteParse](../docs/01-svyazi/01-executive-summary.md)/Hybrid RAG[^rag] — evidence‑слой, Self‑Aware MCP[^mcp] — контекст времени и среды, а Yodoca[^yodoca] — консолидатор для “сырых эпизодов”, которые не должны сразу попадать в долгоживущую истину. Это превращает intake‑контур в нечто вроде “редакции сигналов”, а не только “парсера профилей”. citeturn41search0turn20view5turn34view2turn20view12turn21view0
 
 ```mermaid
 flowchart LR
@@ -44,7 +53,7 @@ flowchart LR
 
 Главное новое свойство здесь — **не только privacy, но и архитектурная живучесть**. Когда профиль, заметка, эпизод и документ существуют локально, а наружу синхронизируется только та часть структуры, которую сообщество хочет шарить, появляется новый класс возможных сценариев: приватные персональные слои, полуобщие тематические слои и публичный discovery‑индекс. Это намного лучше соответствует задачам экспертных сообществ, чем either/or‑выбор между “всё в облако” и “всё только локально”. Технически такую форму владения поддерживают local‑first движки и файловые агентные слои; смысловое усиление даёт NGT‑style associative memory поверх разделённого пространства. citeturn11search11turn27view0turn22view4
 
-Третий ансамбль — **Research‑to‑Product Flywheel**. Предыдущая версия отчёта уже показывала, что AI Factory, mclaude, Rufler, Skills и AutoResearch хорошо смотрятся как build‑контур. Но следующий шаг интереснее: knowledge-space становится не просто хранилищем знаний, а приёмником результатов ночных исследований; CodeWiki и Skills превращают эти результаты в переносимую агентную компетенцию; а AutoResearch и Sequential работают не только по коду, но и по prompts, card policies, evidence scoring и quality thresholds. Это делает Svyazi‑2.0 не просто продуктом, а системой, которая сама постепенно улучшает собственные правила интерпретации и модерации. citeturn33view2turn20view15turn12search2turn20view2turn20view3turn20view4turn20view19turn20view11
+Третий ансамбль — **Research‑to‑Product Flywheel**. Предыдущая версия отчёта уже показывала, что AI Factory, mclaude, Rufler, Skills и AutoResearch хорошо смотрятся как build‑контур. Но следующий шаг интереснее: [knowledge-space](../docs/01-svyazi/03-component-catalog.md) становится не просто хранилищем знаний, а приёмником результатов ночных исследований; CodeWiki и Skills превращают эти результаты в переносимую агентную компетенцию; а AutoResearch и Sequential работают не только по коду, но и по prompts, card policies, evidence scoring и quality thresholds. Это делает Svyazi‑2.0 не просто продуктом, а системой, которая сама постепенно улучшает собственные правила интерпретации и модерации. citeturn33view2turn20view15turn12search2turn20view2turn20view3turn20view4turn20view19turn20view11
 
 ```mermaid
 flowchart LR
@@ -57,7 +66,7 @@ flowchart LR
     G --> B
 ```
 
-Здесь появляется новое свойство, которого нет у большинства “умных CRM” и “matching‑ботов”: **изменение качества системы становится повторяемым артефактом**. Ошибка не заканчивается “мы поправили prompt”, а порождает новый card pattern, skill patch, regression test или benchmark case. С этой точки зрения knowledge-space и AI Factory особенно комплементарны: один умеет хранить уже осмысленные reference‑карты и gotchas, другой — эволюционно перерабатывать практические ошибки в навыки и workflow‑правила. citeturn33view2turn20view3turn29search0
+Здесь появляется новое свойство, которого нет у большинства “умных CRM” и “matching‑ботов”: **изменение качества системы становится повторяемым артефактом**. Ошибка не заканчивается “мы поправили prompt”, а порождает новый card pattern, skill patch, regression test или benchmark case. С этой точки зрения [knowledge-space](../docs/01-svyazi/03-component-catalog.md) и AI Factory особенно комплементарны: один умеет хранить уже осмысленные reference‑карты и gotchas, другой — эволюционно перерабатывать практические ошибки в навыки и workflow‑правила. citeturn33view2turn20view3turn29search0
 
 <!-- similar-docs -->
 
@@ -66,7 +75,7 @@ flowchart LR
 **Похожие документы:**
 - [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) (сходство 0.92)
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.13)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.12)
+- [04-ensembles-overview](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -76,8 +85,8 @@ flowchart LR
 **Смотрите также:**
 - [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+- [04-ensembles-overview](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md)
+- [12-roadmap](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md)
 
 
 

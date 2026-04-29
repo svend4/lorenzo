@@ -1,5 +1,22 @@
 # [Тема исследования]
 
+<!-- summary -->
+> - [Ключевые находки](#ключевые-находки)
+
+---
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Контекст](#контекст)
+- [Ключевые находки](#ключевые-находки)
+- [Источники](#источники)
+- [Открытые вопросы](#открытые-вопросы)
+- [Следующие шаги](#следующие-шаги)
+
+
 <!-- summary: Краткий итог исследования -->
 <!-- tags: исследование -->
 
@@ -40,4 +57,14 @@ _Создано: 2026-04-29_
 - [contact-outreach](docs/templates/contact-outreach.md)
 - [project-component](docs/templates/project-component.md)
 - [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [contact-outreach](docs/templates/contact-outreach.md) (сходство 0.22)
+- [project-component](docs/templates/project-component.md) (сходство 0.17)
+- [decision-record](docs/templates/decision-record.md) (сходство 0.16)
 

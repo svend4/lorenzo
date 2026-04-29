@@ -4,7 +4,7 @@
 > **Текущий уровень: 3 (Interactive / Bridged)**
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
@@ -16,8 +16,8 @@
 - ✅ Level 0: объявлен в registry
 - ✅ Level 1: passport + `describe()`
 - ✅ Level 2: `fetch(query)` по hexagram numbers, rule numbers, tags
-- ✅ Level 3: `translate_to(entry, "pro2")` через formal hexagram↔vertex; 
-  `translate_to(entry, "info1")` через class↔alpha mapping
+- ✅ Level 3: `translate_to(entry, "[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)")` через formal hexagram↔vertex; 
+  `translate_to(entry, "[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)")` через class↔alpha mapping
 
 ---
 

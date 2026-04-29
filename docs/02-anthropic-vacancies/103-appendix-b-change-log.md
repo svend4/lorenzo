@@ -1,5 +1,13 @@
 # Appendix B: Change Log
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Change Log](#appendix-b-change-log)
+  - [v1.1.0-draft (2026-04-19)](#v110-draft-2026-04-19)
+  - [v1.0.0-draft (2026-04 earlier)](#v100-draft-2026-04-earlier)
+
+
 <!-- summary -->
 > - **New**: Q6 as normative concept (section 8, ADR-002)
 
@@ -18,7 +26,7 @@
 - **New**: REST API contract mandatory (section 13)
 - **New**: SDK contract informative (section 14)
 - **New**: MCP extension informative (section 16)
-- **Changed**: `is_fallback` field added to PortalEntry (normative)
+- **Changed**: `is_fallback` field added to [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (normative)
 - **Changed**: Consensus structure extended with `coverage_with_fallback`
 - **Changed**: Passport schema formalized via `passport_schema.json`
 - **Clarified**: Naming conventions (passport by format, not by repo)

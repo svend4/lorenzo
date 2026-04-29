@@ -1,5 +1,15 @@
 # 3. Three Inter-Layer Protocols
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Instead, it issues a structured query that travels: A → N → M → N' → A' → response back through the chain.
+> 🔧 **Подход:** Three Inter-Layer Protocols !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** The Node issues tasks to assistants, reviews outputs, integrates results.
+> 🏷️ **Ключевые слова:** `protocol`, `assistant`, `triangle`, `nodes`, `assistants`, `agent`, `anthropic`, `context`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -65,7 +75,7 @@ integrates team-level outputs. M does not see internal Node
 processes, only public deliverables.
 
 **Existing implementations:** Partial, fragmented. Jira with AI 
-triage, Linear with AI suggestions, GitHub Projects with 
+triage, Linear with AI suggestions, [GitHub](../docs/01-svyazi/03-component-catalog.md) Projects with 
 automation. None implement the full protocol, all require 
 significant human management intervention.
 
@@ -98,7 +108,7 @@ Instead, it issues a structured query that travels: A → N → M →
 N' → A' → response back through the chain.
 
 **Existing implementations:** None in production systems. Closest 
-analog: GitHub Copilot Workspace can see other team members' 
+analog: [GitHub](../docs/01-svyazi/03-component-catalog.md) Copilot Workspace can see other team members' 
 public code but cannot negotiate with their assistants. 
 Anthropic's Managed Agents API moves toward this but does not 
 implement full cross-triangle negotiation.

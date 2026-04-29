@@ -1,13 +1,22 @@
 # Инвертированный индекс ключевых слов
 
 <!-- summary -->
-> Уникальных слов: **23264** | Биграмм: **13489** | Файлов: **487**
+> > 🎯 **Проблема:** Инвертированный индекс ключевых слов Обновлено: 2026-04-29 Уникальных слов: 23264 Биграмм: 13489 Файлов: 487 python scripts/improvekeywordindex.py --query "ваш запрос" — поиск по и
 **Проекты:** Svyazi, NGT Memory
 
 ---
 <!-- tags: memory, ingestion, architecture, roadmap, anthropic, collaboration -->
 
 
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Инвертированный индекс ключевых слов Обновлено: 2026-04-29 Уникальных слов: 23264 Биграмм: 13489 Файлов: 487 python scripts/improvekeywordindex.py --query "ваш запрос" — поиск по и
+> 🔧 **Подход:** Инвертированный индекс ключевых слов Обновлено: 2026-04-29 Уникальных слов: 23264 Биграмм: 13489 Файлов: 487 python scripts/improvekeywordindex.py --query "ваш запрос" — поиск по и
+> 🏷️ **Ключевые слова:** `файлов`, `vacancies`, `биграмм`, `anthropic`, `agent`, `portal`, `appendix`, `working`
+>
 
 
 _Обновлено: 2026-04-29_
@@ -156,13 +165,12 @@ _Обновлено: 2026-04-29_
 | `skills agent` | 27 | 88 |
 | `colleague agents` | 27 | 86 |
 
-<!-- see-also -->
+<!-- similar-docs -->
 
 ---
 
-**Смотрите также:**
-- [WORD_FREQ](docs/WORD_FREQ.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+**Похожие документы:**
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md) (сходство 0.29)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.29)
+- [COVERAGE](docs/COVERAGE.md) (сходство 0.23)
 

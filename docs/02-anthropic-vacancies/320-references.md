@@ -1,5 +1,15 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Primary External References](#primary-external-references)
+  - [MCP Standard](#mcp-standard)
+  - [Companion Documents in This Series](#companion-documents-in-this-series)
+  - [Related Work](#related-work)
+
+
 <!-- summary -->
 > - Anthropic. (2026, January 12). *Claude Cowork* [Product
 

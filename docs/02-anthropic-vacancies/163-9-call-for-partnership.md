@@ -1,5 +1,39 @@
 # 9. Call for Partnership
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [9. Call for Partnership](#9-call-for-partnership)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
+  - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
+  - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
+  - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
+  - [9.5. For Potential Contributors](#95-for-potential-contributors)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** For Policy Organizations (EU Commission, National Governments, OECD) What we ask: - Regulatory guidance and dialogue - Recognition of experimental status - Potential grant funding 
+> 🔧 **Подход:** For Academic and Research Partners (Universities, Think Tanks) What we ask: - Research collaboration on methodology and outcomes - Student and researcher contributor recruitment - 
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `partnership`, `research`, `policy`, `contributors`, `academic`, `infrastructure`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [9. Call for Partnership](#9-call-for-partnership)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-[mistral](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-openai-google-microsoft)
+  - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
+  - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
+  - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
+  - [9.5. For Potential Contributors](#95-for-potential-contributors)
+
+
 <!-- summary -->
 > OKWF is not a solo initiative. Successful launch requires
 

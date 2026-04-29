@@ -1,11 +1,20 @@
 # Контакт: kksudo / AgentFS
 
 <!-- summary -->
-> <!-- summary: Шаблон для связи с автором AgentFS -->
+> - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, AgentFS
 
 ---
 
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
 
 
 <!-- summary: Шаблон для связи с автором AgentFS -->
@@ -52,13 +61,12 @@ AgentFS закрывает слой «knowledge/filesystem» в архитект
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- see-also -->
+<!-- similar-docs -->
 
 ---
 
-**Смотрите также:**
-- [sonia-black](docs/contacts/sonia-black.md)
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [dmitriila](docs/contacts/dmitriila.md)
+**Похожие документы:**
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.71)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.70)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.70)
 

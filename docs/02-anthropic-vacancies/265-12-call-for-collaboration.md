@@ -1,5 +1,25 @@
 # 12. Call for Collaboration
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** For Curators and Domain Experts Sub-agent registry development needs curated knowledge across many narrow specializations.
+> 🏷️ **Ключевые слова:** `collaboration`, `questions`, `anthropic`, `agents`, `infrastructure`, `vacancies`, `composite`, `practitioners`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [12. Call for Collaboration](#12-call-for-collaboration)
+  - [12.1. For Practitioners](#121-for-practitioners)
+  - [12.2. For Curators and Domain Experts](#122-for-curators-and-domain-experts)
+  - [12.3. For Software Engineers and Architects](#123-for-software-engineers-and-architects)
+  - [12.4. For Researchers](#124-for-researchers)
+  - [12.5. For Foundation Funders](#125-for-foundation-funders)
+  - [12.6. For Policymakers](#126-for-policymakers)
+
+
 <!-- summary -->
 > This paper opens questions that require multi-stakeholder
 

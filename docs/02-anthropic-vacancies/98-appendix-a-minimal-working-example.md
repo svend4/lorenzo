@@ -1,5 +1,23 @@
 # Appendix A: Minimal Working Example
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix A: Minimal Working Example Contents - Appendix A: Minimal Working Example(appendix-a-minimal-working-example) - A.1.
+> 🔧 **Подход:** --- Похожие документы: - 28-appendix-a-minimal-working-example(docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.44) - 03-portal-protocol-md(docs/02
+> 🏷️ **Ключевые слова:** `minimal`, `appendix`, `working`, `example`, `anthropic`, `vacancies`, `portal`, `notes`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal [nautilus](../docs/05-habr-projects/memory/memnet.md).json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+
+
 <!-- summary -->
 > "passport": "passports/my_notes.md",
 

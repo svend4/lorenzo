@@ -1,4 +1,14 @@
 # 11. Relevance Ranking
+<!-- tags: anthropic, collaboration -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [11. Relevance Ranking](#11-relevance-ranking)
+  - [11.1. Scoring Formula](#111-scoring-formula)
+  - [11.2. MAY Extensions](#112-may-extensions)
+
 
 <!-- summary -->
 > v1.1 нормализует алгоритм ранжирования из reference implementation.
@@ -15,7 +25,7 @@ v1.1 нормализует алгоритм ранжирования из refer
 
 ### 11.1. Scoring Formula
 
-Для каждого PortalEntry `e` и query `q` (оба normalized):
+Для каждого [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) `e` и query `q` (оба normalized):
 
 ```python
 def relevance_score(e: PortalEntry, q: str) -> float:

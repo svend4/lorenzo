@@ -1,5 +1,15 @@
 # 9. Integration with OKWF Infrastructure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** This plan is more realistic than the earlier proposal because it matches how skilled practitioners actually develop and what they actually need.
+> 🔧 **Подход:** Practical Implication for Pilot Design(96-practical-implication-for-pilot-design) --- 9.
+> ✅ **Результат:** Connection to Guild Structure OKWF's guild structure (groups of practitioners by professional area) provides natural organization for sub-agent development.
+> 🏷️ **Ключевые слова:** `agent`, `agents`, `connection`, `infrastructure`, `triangle`, `composite`, `registry`, `pattern`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -164,5 +174,5 @@ broader applicability.
 - [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
 - [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
 - [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 

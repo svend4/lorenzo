@@ -1,5 +1,14 @@
 # Appendix C: Configuration Template Example
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Some will remove sub-agents they don't need.
+> ✅ **Результат:** Appendix C: Configuration Template Example For the SGB Advocate Colleague pilot, a starting configuration --- Appendix C: Configuration Template Example For the SGB Advocate Collea
+> 🏷️ **Ключевые слова:** `appendix`, `configuration`, `anthropic`, `vacancies`, `their`, `template`, `agent`, `registry`
+>
+
+
 <!-- summary -->
 > For the SGB Advocate Colleague pilot, a starting configuration
 
@@ -83,7 +92,7 @@ configuration.
 
 **Смотрите также:**
 - [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
 - [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
 

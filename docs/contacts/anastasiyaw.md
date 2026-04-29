@@ -1,14 +1,23 @@
 # Контакт: AnastasiyaW / knowledge-space, mclaude
 
 <!-- summary -->
-> <!-- summary: Шаблон для связи с автором knowledge-space, mclaude -->
+> - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, knowledge-space, mclaude
 
 ---
 
 
 
-<!-- summary: Шаблон для связи с автором knowledge-space, mclaude -->
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+
+
+<!-- summary: Шаблон для связи с автором [knowledge-space](../docs/01-svyazi/03-component-catalog.md), mclaude -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -52,13 +61,12 @@ knowledge-space, mclaude закрывает слой «knowledge/orchestration»
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- see-also -->
+<!-- similar-docs -->
 
 ---
 
-**Смотрите также:**
-- [sonia-black](docs/contacts/sonia-black.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [zodigancode](docs/contacts/zodigancode.md)
-- [vladspace](docs/contacts/vladspace.md)
+**Похожие документы:**
+- [sonia-black](docs/contacts/sonia-black.md) (сходство 0.74)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.67)
+- [cutcode](docs/contacts/cutcode.md) (сходство 0.67)
 

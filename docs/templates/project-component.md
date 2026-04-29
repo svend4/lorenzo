@@ -1,5 +1,23 @@
 # [Название компонента]
 
+<!-- summary -->
+> - [Ключевые особенности](#ключевые-особенности)
+**Проекты:** Svyazi
+
+---
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Что это](#что-это)
+- [Ключевые особенности](#ключевые-особенности)
+- [Статус](#статус)
+- [Интеграция с Svyazi](#интеграция-с-[svyazi](../docs/01-svyazi/00-intro-part2.md))
+- [Контакты](#контакты)
+
+
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
 
@@ -43,4 +61,14 @@ _Создано: 2026-04-29_
 - [ensemble](docs/templates/ensemble.md)
 - [tagir-analyzes](docs/contacts/tagir-analyzes.md)
 - [vladspace](docs/contacts/vladspace.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [contact-outreach](docs/templates/contact-outreach.md) (сходство 0.26)
+- [ensemble](docs/templates/ensemble.md) (сходство 0.19)
+- [nlaik](docs/contacts/nlaik.md) (сходство 0.18)
 

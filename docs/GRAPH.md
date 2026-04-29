@@ -1,5 +1,23 @@
 # Граф связей проектов
 
+<!-- summary -->
+> > 🎯 **Проблема:** Граф связей проектов Рёбра = совместные упоминания в одном файле (≥ 2 раз).
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, anthropic, self-improvement -->
+
+
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Граф связей проектов Рёбра = совместные упоминания в одном файле (≥ 2 раз).
+> 🏷️ **Ключевые слова:** `svyazi`, `cardindex`, `agentfs`, `factory`, `yodoca`, `memory`, `mclaude`, `glossary`
+>
+
+
 Рёбра = совместные упоминания в одном файле (≥ 2 раз).
 
 ```mermaid

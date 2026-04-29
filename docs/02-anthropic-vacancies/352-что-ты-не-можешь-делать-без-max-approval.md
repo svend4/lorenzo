@@ -36,5 +36,5 @@
 - [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
 - [360-что-ты-всегда-делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
 - [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 

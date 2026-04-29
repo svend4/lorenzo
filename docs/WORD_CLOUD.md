@@ -39,13 +39,12 @@
 | 19 | **lorenzo** | 557 |
 | 20 | **claude** | 556 |
 
-<!-- see-also -->
+<!-- similar-docs -->
 
 ---
 
-**Смотрите также:**
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [304-ingit-as-cowork-native-workspace-substrate-md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)
-- [KEYWORD_INDEX](docs/KEYWORD_INDEX.md)
+**Похожие документы:**
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md) (сходство 0.30)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.20)
+- [304-ingit-as-cowork-native-workspace-substrate-md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) (сходство 0.19)
 

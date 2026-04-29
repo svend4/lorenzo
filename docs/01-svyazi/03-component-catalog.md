@@ -1,10 +1,19 @@
 
 <!-- summary -->
-> <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
+> > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
 
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.
+> 🔧 **Подход:** 6 слоёв, YAML, SHA256‑дедупликация, Ollama+Qwen, LLM^llm+детерминированный код, CardIndex^cardindex, privacy by design.
+> ✅ **Результат:** citeturn15search1turn15search5 Очень высокая: даёт visual grounding, которого Svyazi‑подобным системам обычно не хватает.
+> 🏷️ **Ключевые слова:** `search`, `memory`, `высокая`, `github`, `активный`, `svyazi`, `неуточнено`, `first`
+>
 
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
 
@@ -50,7 +59,7 @@
 - [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
 - [TABLES](docs/TABLES.md)
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
+- [04-ensembles-overview](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md)
 
 
 

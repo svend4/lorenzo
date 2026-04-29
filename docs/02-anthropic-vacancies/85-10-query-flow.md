@@ -1,4 +1,26 @@
 # 10. Query Flow
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Error Handling(103-error-handling) - 10.4.
+> 🔧 **Подход:** Portal вычисляет consensus по алгоритму раздела 9 7.
+> ✅ **Результат:** Portal собирает resultsbyrepo: dictstr, listPortalEntry 6.
+> 🏷️ **Ключевые слова:** `portal`, `query`, `adapter`, `timeout`, `anthropic`, `vacancies`, `interface`, `error`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [10. Query Flow](#10-query-flow)
+  - [10.1. Lifecycle](#101-lifecycle)
+  - [10.2. Parallelism](#102-parallelism)
+  - [10.3. Error Handling](#103-error-handling)
+  - [10.4. Timeout Behavior](#104-timeout-behavior)
+
 
 <!-- summary -->
 > 1. Client вызывает `portal.query(q, target_repos=None)`
@@ -20,7 +42,7 @@
 5. Portal собирает `results_by_repo: dict[str, list[PortalEntry]]`
 6. Portal вычисляет consensus по алгоритму раздела 9
 7. Portal вычисляет relevance ranking (раздел 11)
-8. Portal возвращает `QueryResult`
+8. Portal возвращает `[QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)`
 
 ### 10.2. Parallelism
 
@@ -32,7 +54,7 @@ Repos.
 
 Если adapter падает (exception, timeout), Portal MUST:
 
-- Включить repo в `errors` список QueryResult
+- Включить repo в `errors` список [QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 - Продолжить обработку остальных
 - Не падать целиком
 

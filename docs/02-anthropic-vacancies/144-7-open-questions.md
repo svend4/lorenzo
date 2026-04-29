@@ -1,5 +1,14 @@
 # 7. Open Questions
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Open Questions !TIP Документ содержит практические рекомендации и лучшие практики.
+> 🔧 **Подход:** Possible approaches: reputation systems, revenue sharing from commercial uses, academic citation as reward, governance tokens.
+> 🏷️ **Ключевые слова:** `scale`, `architecture`, `questions`, `agent`, `anthropic`, `vacancies`, `triangle`, `proposed`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

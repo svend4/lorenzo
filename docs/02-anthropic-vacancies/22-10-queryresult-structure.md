@@ -24,7 +24,7 @@ class QueryResult:
 
 ### 10.1. Serialization
 
-QueryResult MUST поддерживать сериализацию в JSON, Markdown, HTML.
+[QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) MUST поддерживать сериализацию в JSON, Markdown, HTML.
 
 - `to_json()` — для MCP / API
 - `to_markdown()` — для CLI и LLM consumption

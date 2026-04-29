@@ -1,5 +1,41 @@
 # 6. Governance and Ethics
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Governance and Ethics](#6-governance-and-ethics)
+  - [6.1. Governance Structure](#61-governance-structure)
+  - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
+  - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
+  - [6.4. Regulatory Compliance](#64-regulatory-compliance)
+  - [6.5. Ethical Red Lines](#65-ethical-red-lines)
+
+---
+
+<!-- tags: roadmap, anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Ethical Red Lines Foundation will not: - Support projects intended for military use - Accept funding contingent on compromising commitment 1-7 - Use contributor data for AI trainin
+> 🔧 **Подход:** Disability rights (all jurisdictions): Infrastructure explicitly designed for accessibility.
+> 🏷️ **Ключевые слова:** `contributor`, `foundation`, `governance`, `commitment`, `anthropic`, `vacancies`, `ethical`, `compliance`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [6. Governance and Ethics](#6-governance-and-ethics)
+  - [6.1. Governance Structure](#61-governance-structure)
+  - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
+  - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
+  - [6.4. Regulatory Compliance](#64-regulatory-compliance)
+  - [6.5. Ethical Red Lines](#65-ethical-red-lines)
+
+
 <!-- summary -->
 > **Board of Directors** (7 members):
 

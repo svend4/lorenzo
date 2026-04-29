@@ -1,5 +1,15 @@
 # Appendix C: References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Informative — описывает, что нужно SDK на других языках, чтобы считаться NPP-compatible.
+> 🔧 **Подход:** Нормализация isfallback в протокол — честный подход, который позволяет consensus-модели различать real и fallback coverage.
+> ✅ **Результат:** Нормализация isfallback в протокол — честный подход, который позволяет consensus-модели различать real и fallback coverage.
+> 🏷️ **Ключевые слова:** `protocol`, `portal`, `anthropic`, `nautilus`, `appendix`, `vacancies`, `normative`, `informative`
+>
+
+
 <!-- summary -->
 > - RFC 2119 — Key words for use in RFCs to Indicate Requirement Levels
 

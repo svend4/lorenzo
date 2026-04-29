@@ -1,27 +1,45 @@
 # Сноски и определения терминов
 
-**Обновлено файлов:** 3  **Вставлено сносок:** 13
+<!-- summary -->
+> > 🎯 **Проблема:** Сноски и определения терминов Обновлено файлов: 37 Вставлено сносок: 255 Словарь сносок Термин Определение Файлов ----------------------------- AgentFS OSS-проект: файловая система
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement -->
+
+
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Сноски и определения терминов Обновлено файлов: 37 Вставлено сносок: 255 Словарь сносок Термин Определение Файлов ----------------------------- AgentFS OSS-проект: файловая система
+> 🏷️ **Ключевые слова:** `проект`, `файлов`, `сносок`, `система`, `агентов`, `данные`, `знаний`, `model`
+>
+
+
+**Обновлено файлов:** 37  **Вставлено сносок:** 255
 
 ## Словарь сносок
 
 | Термин | Определение | Файлов |
 |--------|-------------|--------|
-| **AgentFS** | OSS-проект: файловая система для AI-агентов (MIT) | 3 |
-| **BSL** | Business Source License — коммерческая лицензия с открытым кодом | 0 |
-| **CRDT** | Conflict-free Replicated Data Type — бесконфликтные данные | 0 |
-| **CardIndex** | OSS-проект: индекс знаний на карточках (MIT) | 3 |
-| **Firecrawl** | Инструмент: веб-краулер для AI (MIT) | 0 |
+| **AgentFS** | OSS-проект: файловая система для AI-агентов (MIT) | 23 |
+| **BSL** | Business Source License — коммерческая лицензия с открытым кодом | 6 |
+| **CRDT** | Conflict-free Replicated Data Type — бесконфликтные данные | 8 |
+| **CardIndex** | OSS-проект: индекс знаний на карточках (MIT) | 24 |
+| **Firecrawl** | Инструмент: веб-краулер для AI (MIT) | 2 |
 | **Jaccard** | Коэффициент схожести множеств (0–1) | 0 |
-| **LLM** | Large Language Model — большая языковая модель | 0 |
-| **MCP** | Model Context Protocol — протокол для AI-инструментов | 0 |
-| **NGT** | OSS-проект: ассоциативный граф памяти (BSL 1.1) | 0 |
-| **PII** | Personally Identifiable Information — персональные данные | 0 |
-| **RAG** | Retrieval-Augmented Generation — генерация с поиском | 2 |
-| **Rufler** | OSS-проект: оркестратор AI-агентов | 0 |
-| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 1 |
-| **Svyazi** | Главный проект: экосистема AI-компонентов | 1 |
+| **LLM** | Large Language Model — большая языковая модель | 16 |
+| **MCP** | Model Context Protocol — протокол для AI-инструментов | 19 |
+| **NGT** | OSS-проект: ассоциативный граф памяти (BSL 1.1) | 23 |
+| **PII** | Personally Identifiable Information — персональные данные | 6 |
+| **RAG** | Retrieval-Augmented Generation — генерация с поиском | 24 |
+| **Rufler** | OSS-проект: оркестратор AI-агентов | 16 |
+| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 16 |
+| **Svyazi** | Главный проект: экосистема AI-компонентов | 34 |
 | **TF-IDF** | Term Frequency–Inverse Document Frequency — метрика важности термина | 0 |
-| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 0 |
+| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 22 |
 | **knowledge-space** | OSS-проект: база знаний 785+ карточек (MIT) | 0 |
 
 ## Как это работает
@@ -34,13 +52,12 @@
 [^mcp]: Model Context Protocol — протокол для AI-инструментов
 ```
 
-<!-- see-also -->
+<!-- similar-docs -->
 
 ---
 
-**Смотрите также:**
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [08-conclusions](docs/01-svyazi/08-conclusions.md)
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
+**Похожие документы:**
+- [GRAPH](docs/GRAPH.md) (сходство 0.21)
+- [08-conclusions](docs/01-svyazi/08-conclusions.md) (сходство 0.21)
+- [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.20)
 

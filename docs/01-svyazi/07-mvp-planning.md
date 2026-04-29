@@ -1,7 +1,16 @@
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** citeturn33view3turn20view2turn37search0 Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude.
+> 🔧 **Подход:** Если нет — всё равно спасибо за публикацию, она уже повлияла на архитектуру прототипа.
+> ✅ **Результат:** citeturn22view5turn18search1turn15search3 Многоагентный хаос раньше пользы Рой даёт выгоду только после появления handoff/lock и чётких спецификаций Начинать с mclaude + AI Fa
+> 🏷️ **Ключевые слова:** `search`, `svyazi`, `memory`, `проект`, `knowledge`, `cardindex`, `agentfs`, `yodoca`
+>
+
 
 <!-- summary -->
 > Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым 
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
@@ -68,7 +77,7 @@
 **Похожие документы:**
 - [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 1.00)
 - [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.15)
-- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md) (сходство 0.15)
+- [09-architectural-gaps](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -76,9 +85,9 @@
 ---
 
 **Смотрите также:**
-- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
-- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+- [09-architectural-gaps](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md)
+- [11-integration-contracts](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md)
+- [12-roadmap](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md)
 
 
 

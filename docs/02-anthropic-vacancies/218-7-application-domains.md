@@ -1,5 +1,15 @@
 # 7. Application Domains
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Application Domains !TIP Документ содержит практические рекомендации и лучшие практики.
+> 🔧 **Подход:** Burden addressed: Literature review, draft writing, methodology selection support, citation management, grant application drafting.
+> ✅ **Результат:** Significant healthcare provider adoption.
+> 🏷️ **Ключевые слова:** `domains`, `application`, `deployment`, `practice`, `practitioners`, `burden`, `addressed`, `existing`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

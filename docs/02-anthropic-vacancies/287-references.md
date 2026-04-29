@@ -1,5 +1,24 @@
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** AI Collaboration Infrastructure - Anthropic Projects documentation (current) - Microsoft Copilot Studio (different approach to similar problem) - Various multi-agent frameworks (La
+> 🔧 **Подход:** (Zettelkasten method, foundational for modern personal knowledge management.) - Andy Matuschak (ongoing).
+> 🏷️ **Ключевые слова:** `anthropic`, `references`, `vacancies`, `annotation`, `knowledge`, `management`, `documents`, `series`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Threading and Annotation](#threading-and-annotation)
+  - [Knowledge Management](#knowledge-management)
+  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
+  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
+
+
 <!-- summary -->
 > The references for this document are sparser than for the
 
@@ -36,7 +55,7 @@ than specifying. Key relevant work includes:
 - Anthropic Projects documentation (current)
 - Microsoft Copilot Studio (different approach to similar 
   problem)
-- Various multi-agent frameworks (LangChain, CrewAI, AutoGen)
+- Various multi-agent frameworks (LangChain, CrewAI, [AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
 
 ### Earlier Companion Documents in This Series
 

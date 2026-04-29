@@ -1,5 +1,38 @@
 # 8. Implications for Nautilus and OKWF
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [8. Implications for Nautilus and OKWF](#8-implications-for-nautilus-and-okwf)
+  - [8.1. Nautilus as Federated Knowledge Substrate](#81-nautilus-as-federated-knowledge-substrate)
+  - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
+  - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
+  - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Each can be added to practitioner's Cowork Project as needed.
+> 🔧 **Подход:** OKWF Pilot Implications Document 4 (OKWF Concept) and Document 6 (Professional Colleague Agents) proposed SGB Advocate Colleague pilot.
+> ✅ **Результат:** Multiple InGit projects can be Nautilus nodes; Nautilus Portal Protocol enables querying across them.
+> 🏷️ **Ключевые слова:** `nautilus`, `cowork`, `ingit`, `document`, `implications`, `architecture`, `project`, `substrate`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [8. Implications for Nautilus and OKWF](#8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf)
+  - [8.1. Nautilus as Federated Knowledge Substrate](#81-[nautilus](../docs/05-habr-projects/memory/memnet.md)-as-federated-knowledge-substrate)
+  - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
+  - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
+  - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -135,7 +168,7 @@ implementable starting next week.
 **Похожие документы:**
 - [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.16)
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -145,6 +178,6 @@ implementable starting next week.
 **Смотрите также:**
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 - [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [317-9-risks-and-open-questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md)
 

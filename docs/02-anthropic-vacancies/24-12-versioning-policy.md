@@ -1,5 +1,14 @@
 # 12. Versioning Policy
 
+<!-- toc-auto -->
+## Contents
+
+- [12. Versioning Policy](#12-versioning-policy)
+  - [12.1. Semver](#121-semver)
+  - [12.2. Version in Registry](#122-version-in-registry)
+  - [12.3. Breaking Changes Process](#123-breaking-changes-process)
+
+
 <!-- summary -->
 > - **Major** (v1 → v2): breaking changes в interfaces или schemas
 

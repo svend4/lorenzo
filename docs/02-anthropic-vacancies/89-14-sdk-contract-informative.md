@@ -1,4 +1,15 @@
 # 14. SDK Contract (Informative)
+<!-- tags: memory, anthropic, collaboration -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [14. SDK Contract (Informative)](#14-sdk-contract-informative)
+  - [14.1. Required SDK Methods](#141-required-sdk-methods)
+  - [14.2. Optional SDK Methods](#142-optional-sdk-methods)
+  - [14.3. Return Types](#143-return-types)
+
 
 <!-- summary -->
 > Reference implementation предоставляет Python SDK (`nautilus_sdk.py`).
@@ -36,7 +47,7 @@ class NautilusClient:
 ### 14.3. Return Types
 
 SDK MUST деsериализовать JSON responses в typed structures (dataclasses 
-для Python, interfaces для TypeScript и т.д.). Raw dict return 
+для Python, interfaces для [TypeScript](../docs/05-habr-projects/memory/memnet.md) и т.д.). Raw dict return 
 acceptable только для debugging/experimental версий.
 
 ---

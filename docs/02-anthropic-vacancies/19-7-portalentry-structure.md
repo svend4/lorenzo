@@ -1,5 +1,14 @@
 # 7. PortalEntry Structure
-<!-- tags: ingestion, architecture, anthropic -->
+<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🔧 **Подход:** PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `portalentry`, `structure`, `anthropic`, `vacancies`, `данных`, `registry`, `summary`, `унифицированная`
+>
 
 
 > [!IMPORTANT]
@@ -61,6 +70,6 @@ class PortalEntry:
 **Смотрите также:**
 - [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
 - [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
 

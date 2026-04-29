@@ -1,4 +1,16 @@
 # 5. Configuration: How Principals Build Their Ensembles
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Configuration Problem A principal entering an ecosystem with hundreds of available sub-agents faces a configuration problem.
+> 🔧 **Подход:** Three Configuration Approaches We identify three approaches with different strengths and trade-offs.
+> ✅ **Результат:** A new social law lawyer might benefit from a starting template: - General SGB IX sub-agent - General SGB XII sub-agent - Procedural law sub-agent - BSG case law sub-agent - General
+> 🏷️ **Ключевые слова:** `configuration`, `principal`, `their`, `agent`, `composite`, `agents`, `starting`, `specializations`
+>
+
 
 <!-- summary -->
 > A central question for Composite Skills Agents: how does a

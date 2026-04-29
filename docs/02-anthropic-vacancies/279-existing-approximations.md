@@ -1,5 +1,40 @@
 # Existing Approximations
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** It solves part of the problem (persistent context) but not the threading and structural needs.
+> 🔧 **Подход:** Limitations: - No AI collaboration - Not designed for documents as first-class artifacts - Not designed for project-style work tracking These tools are good for community discussio
+> ✅ **Результат:** Anthropic Projects Provides persistent context across multiple chats grouped around a topic.
+> 🏷️ **Ключевые слова:** `anthropic`, `layer`, `vacancies`, `existing`, `github`, `discussions`, `tools`, `projects`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-[obsidian](../docs/01-svyazi/03-component-catalog.md)-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+
+
 <!-- summary -->
 > Several existing tools approximate parts of what Layer B
 
@@ -32,7 +67,7 @@ and structural needs.
 
 ### GitHub Discussions
 
-Provides threaded forum within GitHub repositories. Threading 
+Provides threaded forum within [GitHub](../docs/01-svyazi/03-component-catalog.md) repositories. Threading 
 works well. Limitations:
 - Culturally code-oriented; intellectual discussions feel 
   out of place
@@ -41,7 +76,7 @@ works well. Limitations:
   links between them are external references, not first-class
 - No annotation on document text
 
-GitHub Discussions is **structurally close** but **culturally 
+[GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions is **structurally close** but **culturally 
 distant** for intellectual work.
 
 ### Notion / Obsidian / Roam
@@ -74,7 +109,7 @@ designed for intellectual project development**.
 
 Most serious intellectual workers combine tools:
 - Anthropic Projects for AI-assisted writing
-- GitHub for storage and versioning
+- [GitHub](../docs/01-svyazi/03-component-catalog.md) for storage and versioning
 - Notion or Obsidian for personal knowledge
 - Email or messaging for real-time
 - Discord or Slack for community

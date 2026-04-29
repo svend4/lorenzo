@@ -1,5 +1,15 @@
 # 4. Ten Domains of Application
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Domain 3 — Social Workers Managing Client Caseloads Principal: Social worker, case manager, community organizer managing many clients with complex needs.
+> 🔧 **Подход:** Existing solutions: Legal aid (severely underfunded), advocacy organizations (selective), private lawyers (unaffordable).
+> ✅ **Результат:** Counterparties: Service providers, government agencies, community resources, fellow social workers.
+> 🏷️ **Ключевые слова:** `domain`, `agent`, `principal`, `managing`, `deployment`, `existing`, `solutions`, `domains`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

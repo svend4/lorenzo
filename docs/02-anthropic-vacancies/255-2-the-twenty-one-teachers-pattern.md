@@ -1,5 +1,14 @@
 # 2. The Twenty-One Teachers Pattern
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** AI Architecture Should Mirror This If composite mastery is how skilled practitioners actually develop, AI infrastructure supporting them should make this pattern accessible — not j
+> 🔧 **Подход:** A teacher whose effectiveness comes from combining subject expertise (mathematics), pedagogical approach (constructivist), specialty (working with neurodivergent students), and cul
+> 🏷️ **Ключевые слова:** `twenty`, `pattern`, `teachers`, `combination`, `another`, `anthropic`, `vacancies`, `story`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

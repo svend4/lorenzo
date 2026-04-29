@@ -1,5 +1,14 @@
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Cinderella Syndrome: Why Quality Stays Invisible There is a recurring asymmetry in modern markets — markets for --- Содержание - 1.
+> 🔧 **Подход:** The Structural Solution Throughout history, civilizations have developed institutional solutions to this asymmetry.
+> 🏷️ **Ключевые слова:** `quality`, `value`, `attention`, `cannot`, `anthropic`, `vacancies`, `cinderella`, `syndrome`
+>
+
+
 <!-- summary -->
 > There is a recurring asymmetry in modern markets — markets for
 
@@ -101,7 +110,7 @@ real-world consequences:
 
 - A retired electrical engineer with 40 years of microwave 
   experience never contributes to open hardware projects 
-  because they cannot navigate GitHub culture
+  because they cannot navigate [GitHub](../docs/01-svyazi/03-component-catalog.md) culture
 - A disabled mathematician with novel insights never publishes 
   because the conference travel system excludes them
 - A domain expert in an underrepresented region with deep 

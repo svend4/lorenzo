@@ -1,5 +1,35 @@
 # 1. Why Single-Triangle Models Are Incomplete
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
+  - [1.1. The Current Landscape](#11-the-current-landscape)
+  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
+  - [1.3. The Rising Urgency](#13-the-rising-urgency)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The gap needs to be closed not through yet another centralized platform, but through a protocol — a way for the two triangles to negotiate through well-defined interfaces.
+> 🔧 **Подход:** What Both Paradigms Miss Both single-triangle approaches share a structural blind spot: they assume humans exist in one role at a time.
+> 🏷️ **Ключевые слова:** `triangle`, `anthropic`, `vacancies`, `architecture`, `copilot`, `single`, `assistants`, `layer`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
+  - [1.1. The Current Landscape](#11-the-current-landscape)
+  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
+  - [1.3. The Rising Urgency](#13-the-rising-urgency)
+
+
 <!-- summary -->
 > The AI-assisted knowledge work field currently divides into two
 
@@ -25,7 +55,7 @@ matured over 2023–2026 and is now mainstream. It answers: **how
 does one person amplify their capacity with AI?**
 
 **Upper-triangle-only systems.** Multi-agent frameworks (CrewAI, 
-AutoGen, LangGraph, MetaGPT, ChatDev) orchestrate multiple AI 
+[AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), LangGraph, MetaGPT, ChatDev) orchestrate multiple AI 
 agents to complete complex tasks. Humans either serve as external 
 observers or are absent from the execution loop. This paradigm 
 answers: **how do we automate entire workflows with AI?**

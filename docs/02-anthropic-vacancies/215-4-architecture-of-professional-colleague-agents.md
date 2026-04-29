@@ -1,5 +1,15 @@
 # 4. Architecture of Professional Colleague Agents
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Your in-progress submission may need review." The practitioner decides whether to update their work.
+> 🔧 **Подход:** Encoded knowledge of the profession: standards, regulations, methodologies, templates, vocabularies, common patterns.
+> ✅ **Результат:** Different LLM providers can power the same Layer A.
+> 🏷️ **Ключевые слова:** `professional`, `colleague`, `agent`, `knowledge`, `practitioner`, `architecture`, `layer`, `update`
+>
+
+
 <!-- summary -->
 > A Professional Colleague Agent has three distinct internal
 

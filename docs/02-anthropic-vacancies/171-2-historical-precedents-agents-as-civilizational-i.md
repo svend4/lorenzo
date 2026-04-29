@@ -1,5 +1,14 @@
 # 2. Historical Precedents: Agents as Civilizational Innovation
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Specialization by domain — different markets need different agent expertise What limits all these systems: 1.
+> ✅ **Результат:** They: - Develop client portfolio over years - Maintain relationships with potential buyers (publishers, studios, networks) - Match clients to opportunities - Negotiate contracts an
+> 🏷️ **Ключевые слова:** `agents`, `agent`, `representation`, `client`, `commission`, `representative`, `works`, `cannot`
+>
+
+
 <!-- summary -->
 > The pattern of representative agents is ancient and recurring.
 

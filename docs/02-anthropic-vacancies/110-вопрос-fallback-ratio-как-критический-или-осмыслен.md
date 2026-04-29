@@ -1,5 +1,15 @@
 # Вопрос: fallback-ratio как критический или осмысленный?
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Два независимых анализа пришли к разным выводам: - Позиция A: 88% fallback критично, требует срочных живых адаптеров для info1/pro2/meta/data2 - Позиция B: 88% fallback — осмысленн
+> 🔧 **Подход:** !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Два независимых анализа пришли к разным выводам: --- Вопрос: fallback-ratio как критический или осмысленный?
+> 🏷️ **Ключевые слова:** `fallback`, `anthropic`, `vacancies`, `решение`, `проекта`, `версии`, `метрика`, `count`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -19,7 +29,7 @@
 Два независимых анализа пришли к разным выводам:
 
 - **Позиция A**: 88% fallback критично, требует срочных живых 
-  адаптеров для info1/pro2/meta/data2
+  адаптеров для [info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)/pro2/meta/data2
 - **Позиция B**: 88% fallback — осмысленное решение для 
   early-stage проекта, приоритет средний
 
@@ -67,4 +77,14 @@
 - [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
 - [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
 - [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.21)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) (сходство 0.19)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.19)
 

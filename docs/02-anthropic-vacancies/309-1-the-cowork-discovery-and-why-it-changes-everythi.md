@@ -1,5 +1,14 @@
 # 1. The Cowork Discovery and Why It Changes Everything
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Position InGit as the structure layer that Cowork needs.
+> ✅ **Результат:** Leverage Cowork's agentic intelligence; provide structured workspace substrate that Cowork's general- purpose Project storage doesn't.
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `document`, `anthropic`, `layer`, `provides`, `vacancies`, `changes`
+>
+
+
 <!-- summary -->
 > When Document 2.3 was written earlier in this session, the
 
@@ -26,7 +35,7 @@
 
 When Document 2.3 was written earlier in this session, the 
 author and collaborator framed the Layer B gap as essentially 
-unfilled. We surveyed Anthropic Projects, GitHub Discussions, 
+unfilled. We surveyed Anthropic Projects, [GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions, 
 Notion, Obsidian, and various combinations — and concluded 
 that no existing tool adequately served sustained AI-
 collaborative intellectual work.
@@ -120,8 +129,8 @@ The remainder of this document develops Option C.
 
 **Похожие документы:**
 - [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.19)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.18)
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.17)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.18)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -130,7 +139,7 @@ The remainder of this document develops Option C.
 
 **Смотрите также:**
 - [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 

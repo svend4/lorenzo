@@ -1,19 +1,23 @@
 # Контакт: Antipozitive / MemNet
 
-> [!TIP]
-> Документ содержит практические рекомендации и лучшие практики.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> <!-- summary: Шаблон для связи с автором MemNet -->
+> - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, MemNet
 
 ---
 
 
 
-<!-- summary: Шаблон для связи с автором MemNet -->
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+
+
+<!-- summary: Шаблон для связи с автором [MemNet](../docs/01-svyazi/01-executive-summary.md) -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -55,13 +59,12 @@ MemNet закрывает слой «memory» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- see-also -->
+<!-- similar-docs -->
 
 ---
 
-**Смотрите также:**
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [dmitriila](docs/contacts/dmitriila.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+**Похожие документы:**
+- [nlaik](docs/contacts/nlaik.md) (сходство 0.87)
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.84)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.82)
 

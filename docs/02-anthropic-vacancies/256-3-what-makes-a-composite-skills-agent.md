@@ -1,5 +1,15 @@
 # 3. What Makes a Composite Skills Agent
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Some need a specific sequence (one sub-agent's output feeds into another).
+> 🔧 **Подход:** --- --- Похожие документы: - 259-6-coordination-and-disagreement-resolution(docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.18) - 264-11-
+> ✅ **Результат:** What a Composite Skills Agent Does The composite agent provides four core functions: Function 1 — Routing.
+> 🏷️ **Ключевые слова:** `agent`, `composite`, `agents`, `principal`, `configuration`, `skills`, `disagreement`, `coordinator`
+>
+
+
 <!-- summary -->
 > We define the type with precision.
 

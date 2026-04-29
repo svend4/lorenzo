@@ -1,5 +1,15 @@
 # 10. Risks Specific to Composite Architectures
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Practitioners working on similar problems develop incompatible approaches because they used different sub-agent configurations.
+> 🔧 **Подход:** Practitioners working on similar problems develop incompatible approaches because they used different sub-agent configurations.
+> ✅ **Результат:** Mitigations: - Open standards make sub-agents portable and replaceable - Multiple sub-agents covering same specialization (compete on quality, not lock-in) - Notification when sub-
+> 🏷️ **Ключевые слова:** `agents`, `configuration`, `agent`, `composite`, `configurations`, `coordinator`, `specific`, `quality`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

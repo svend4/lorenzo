@@ -1,4 +1,26 @@
 # 7. Practical First Steps This Month
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** If problems emerge, they reveal what InGit needs to address.
+> 🔧 **Подход:** Action 3: Sketch initial MCP server design.
+> ✅ **Результат:** Specific Test Case: This Document Series The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7) provide an ideal first test case.
+> 🏷️ **Ключевые слова:** `ingit`, `cowork`, `action`, `month`, `anthropic`, `vacancies`, `practical`, `first`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [7. Practical First Steps This Month](#7-practical-first-steps-this-month)
+  - [7.1. This Week](#71-this-week)
+  - [7.2. This Month](#72-this-month)
+  - [7.3. Next Quarter](#73-next-quarter)
+  - [7.4. Specific Test Case: This Document Series](#74-specific-test-case-this-document-series)
+
 
 <!-- summary -->
 > Concrete actions for the immediate term.
@@ -86,7 +108,7 @@ work. Most successful infrastructure projects start this way.
 
 **Похожие документы:**
 - [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.14)
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
+- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
 - [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.12)
 
 
@@ -95,7 +117,7 @@ work. Most successful infrastructure projects start this way.
 ---
 
 **Смотрите также:**
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
 - [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
 - [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)

@@ -1,5 +1,26 @@
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Primary Empirical Source(primary-empirical-source) - Companion Papers(companion-papers) - Foundation Sources (continued from Represen
+> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
+> 🏷️ **Ключевые слова:** `references`, `anthropic`, `vacancies`, `professional`, `practice`, `architecture`, `foundation`, `representative`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Primary Empirical Source](#primary-empirical-source)
+  - [Companion Papers](#companion-papers)
+  - [Foundation Sources (continued from Representative Agent Layer)](#foundation-sources-continued-from-representative-agent-layer)
+  - [Professional Practice Theory](#professional-practice-theory)
+  - [AI in Professional Practice](#ai-in-professional-practice)
+  - [Related Architecture](#related-architecture)
+
+
 <!-- summary -->
 > - Soldatenko, M. (2026, April 25). «В школах любят страдать».
 

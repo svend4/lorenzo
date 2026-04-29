@@ -1,5 +1,42 @@
 # 9. Risks and Open Questions
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [9. Risks and Open Questions](#9-risks-and-open-questions)
+  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
+  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
+  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
+  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
+  - [9.5. Author Capacity](#95-author-capacity)
+  - [9.6. Open Questions](#96-open-questions)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Risks and Open Questions(9-risks-and-open-questions) - 9.1.
+> 🔧 **Подход:** Mitigation: InGit Projects with Cowork should be designed for efficient agent use, not chatty interaction.
+> ✅ **Результат:** --- --- Похожие документы: - 318-10-strategic-positioning(docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15) - 311-3-what-ingit-provides-that-cowork-lacks
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `anthropic`, `questions`, `vacancies`, `sensitive`, `integration`, `positioning`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [9. Risks and Open Questions](#9-risks-and-open-questions)
+  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
+  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
+  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
+  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
+  - [9.5. Author Capacity](#95-author-capacity)
+  - [9.6. Open Questions](#96-open-questions)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -114,8 +151,8 @@ works regardless of any of them.
 
 **Похожие документы:**
 - [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15)
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.13)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.13)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.13)
+- [323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -124,7 +161,7 @@ works regardless of any of them.
 
 **Смотрите также:**
 - [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 - [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 
