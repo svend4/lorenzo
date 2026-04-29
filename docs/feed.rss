@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 16:32:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 16:46:05 GMT</lastBuildDate>
+    <item>
+      <title>chore: regenerate auto-feeds after Sprint 48-50</title>
+      <link>https://github.com/svend4/lorenzo/commit/dedfe11df266b9cfea355ff3402fd0212bb94be3</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/dedfe11df266b9cfea355ff3402fd0212bb94be3</guid>
+      <pubDate>Wed, 29 Apr 2026 16:33:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 48-50</strong></p><p>Коммит: <code>dedfe11d</code></p>]]></description>
+    </item>
     <item>
       <title>chore: regenerate auto-feeds after Sprint 45-47</title>
       <link>https://github.com/svend4/lorenzo/commit/74b242b573b33a65d0d64f7f040ae8dd8b1855ae</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/d3dd088480d9cc852f66c59c26b21f3ae6ce2e04</guid>
       <pubDate>Wed, 29 Apr 2026 14:55:31 GMT</pubDate>
       <description><![CDATA[<p><strong>feat: Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/contact-outreach.md">docs/templates/contact-outreach.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/decision-record.md">docs/templates/decision-record.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/ensemble.md">docs/templates/ensemble.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/project-component.md">docs/templates/project-component.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/research-note.md">docs/templates/research-note.md</a></li></ul><p>Коммит: <code>d3dd0884</code></p>]]></description>
-    </item>
-    <item>
-      <title>docs: auto-update via improve_run_all [skip ci]</title>
-      <link>https://github.com/svend4/lorenzo/commit/0f740af36d0ca471fc0f65fa0fb781d8f0c53576</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/0f740af36d0ca471fc0f65fa0fb781d8f0c53576</guid>
-      <pubDate>Wed, 29 Apr 2026 14:50:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>docs: auto-update via improve_run_all [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPLEXITY.md">docs/COMPLEXITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPTS.md">docs/CONCEPTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li></ul><p>Коммит: <code>0f740af3</code></p>]]></description>
     </item>
   </channel>
 </rss>
