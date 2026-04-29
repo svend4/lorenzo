@@ -1,5 +1,10 @@
 # Контакт: spbmolot / NGT Memory
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, NGT Memory
@@ -69,4 +74,15 @@ _Создано автоматически: 2026-04-29_
 - [vladspace](docs/contacts/vladspace.md) (сходство 0.73)
 - [antipozitive](docs/contacts/antipozitive.md) (сходство 0.72)
 - [zodigancode](docs/contacts/zodigancode.md) (сходство 0.71)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [antipozitive](docs/contacts/antipozitive.md)
+- [nlaik](docs/contacts/nlaik.md)
+- [sonia-black](docs/contacts/sonia-black.md)
+- [vitalyoborin](docs/contacts/vitalyoborin.md)
 

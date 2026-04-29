@@ -1,5 +1,10 @@
 # 6. Refined InGit Scope with Cowork in Mind
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

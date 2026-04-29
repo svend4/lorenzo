@@ -1,5 +1,10 @@
 # Контакт: nlaik / LiteParse / research-docs
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, LiteParse
@@ -67,4 +72,15 @@ _Создано автоматически: 2026-04-29_
 - [antipozitive](docs/contacts/antipozitive.md) (сходство 0.87)
 - [vladspace](docs/contacts/vladspace.md) (сходство 0.84)
 - [zodigancode](docs/contacts/zodigancode.md) (сходство 0.82)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [antipozitive](docs/contacts/antipozitive.md)
+- [sonia-black](docs/contacts/sonia-black.md)
+- [spbmolot](docs/contacts/spbmolot.md)
+- [andrey-chuyan](docs/contacts/andrey-chuyan.md)
 

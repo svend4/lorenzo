@@ -45,3 +45,14 @@ _Обновлено: 2026-04-29_
 - [README](docs/04-ai-collaborations/README.md) (сходство 0.13)
 - [ALERTS](docs/ALERTS.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [evidence-envelope](docs/svyazi-2-0/architecture/evidence-envelope.md)
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
+- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
+- [REPORT](docs/REPORT.md)
+

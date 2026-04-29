@@ -18,7 +18,7 @@ _Сгенерировано автоматически: 2026-04-29_
 
 **Svyazi 2.0 — Knowledge Base Report** — аналитический обзор базы знаний, сгенерированный автоматически 2026-04-29.
 
-База содержит **504 документов** объёмом **505,893 слов** в **9 секциях**. Здоровье репозитория: **75/100/100**, средний балл документов: **67.5/100/100**, словарное богатство (STTR): **0.675**.
+База содержит **1170 документов** объёмом **907,362 слов** в **18 секциях**. Здоровье репозитория: **77/100/100**, средний балл документов: **71.3/100/100**, словарное богатство (STTR): **0.685**.
 
 Цель базы знаний — поддержка разработки **Svyazi 2.0**, community intelligence platform, объединяющей лучшие OSS-проекты с Хабра в единую архитектуру Knowledge OS.
 
@@ -28,24 +28,33 @@ _Сгенерировано автоматически: 2026-04-29_
 
 | Метрика | Значение |
 |---------|----------|
-| Документов | **504** |
-| Слов | **505,893** |
-| Секций | **9** |
-| Здоровье репо | **75/100/100** |
-| Средний балл | **67.5/100/100** |
-| Словарное богатство (STTR) | **0.675** |
+| Документов | **1170** |
+| Слов | **907,362** |
+| Секций | **18** |
+| Здоровье репо | **77/100/100** |
+| Средний балл | **71.3/100/100** |
+| Словарное богатство (STTR) | **0.685** |
 
 ### По секциям
 
 | Секция | Файлов | Слов |
 |--------|--------|------|
-| **Anthropic Vacancies** | 357 | 278,474 |
-| **AI Collaborations** | 17 | 26,447 |
-| **Svyazi 2.0** | 16 | 11,287 |
-| **Habr Projects** | 10 | 8,894 |
-| **Contacts** | 15 | 2,895 |
-| **Tech Combinations** | 7 | 2,876 |
-| **Templates** | 6 | 842 |
+| **Anthropic Vacancies** | 357 | 279,017 |
+| **nautilus** | 255 | 148,523 |
+| **anthropic-vacancies** | 111 | 30,929 |
+| **AI Collaborations** | 17 | 26,057 |
+| **lorenzo-agent** | 62 | 19,979 |
+| **habr-unique-projects** | 56 | 13,161 |
+| **technology-combinations** | 53 | 12,903 |
+| **svyazi-2-0** | 59 | 12,455 |
+| **Svyazi 2.0** | 16 | 10,998 |
+| **Habr Projects** | 10 | 8,619 |
+| **ai-collaborations** | 30 | 8,207 |
+| **Contacts** | 15 | 3,151 |
+| **Tech Combinations** | 7 | 2,796 |
+| **glossary** | 4 | 2,282 |
+| **Templates** | 6 | 635 |
+| **autofilled** | 13 | 533 |
 | **badges** | 1 | 44 |
 
 ## Ключевые проекты
@@ -54,27 +63,27 @@ _Авторы и проекты из CONTACTS.md:_
 
 | Автор | Проект | Слой | Приоритет |
 |-------|--------|------|-----------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 20 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 7 | — |
-| **Cutcode** | AIF Handoff | orchestration | 8 | — |
-| **Dmitriila** | SENTINEL | security | 6 | — |
-| **MiXaiLL76** | Auto AI Router | security | 7 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 9 | — |
-| **VitalyOborin** | Yodoca | memory | 12 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 6 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 48 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 32 | — |
+| **Cutcode** | AIF Handoff | orchestration | 34 | — |
+| **Dmitriila** | SENTINEL | security | 34 | — |
+| **MiXaiLL76** | Auto AI Router | security | 30 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 17 | — |
+| **VitalyOborin** | Yodoca | memory | 37 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 41 | — |
 
 ## Ключевые сущности
 
-- 👤 **anthropic** (people) — упомянут в 374 файлах
-- 📦 **nautilus** (projects) — упомянут в 147 файлах
-- 👤 **claude** (people) — упомянут в 143 файлах
-- ⚙️ **mcp** (tech) — упомянут в 126 файлах
-- 📦 **github** (projects) — упомянут в 118 файлах
-- 🏢 **вк** (orgs) — упомянут в 115 файлах
-- 📦 **svyazi** (projects) — упомянут в 100 файлах
-- 👤 **svend4** (people) — упомянут в 84 файлах
-- 🏢 **meta** (orgs) — упомянут в 83 файлах
-- ⚙️ **api** (tech) — упомянут в 72 файлах
+- 👤 **anthropic** (people) — упомянут в 734 файлах
+- 📦 **nautilus** (projects) — упомянут в 453 файлах
+- 👤 **claude** (people) — упомянут в 391 файлах
+- ⚙️ **mcp** (tech) — упомянут в 286 файлах
+- 🏢 **вк** (orgs) — упомянут в 256 файлах
+- 📦 **svyazi** (projects) — упомянут в 238 файлах
+- 📦 **github** (projects) — упомянут в 234 файлах
+- 🏢 **meta** (orgs) — упомянут в 192 файлах
+- ⚙️ **llm** (tech) — упомянут в 186 файлах
+- ⚙️ **api** (tech) — упомянут в 162 файлах
 
 ## Архитектурные решения
 

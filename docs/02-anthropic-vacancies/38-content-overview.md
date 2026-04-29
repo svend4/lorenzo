@@ -4,6 +4,8 @@
 > **Объём:** 74 документа (по состоянию на апрель 2026)
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -33,4 +35,15 @@
 
 **Похожие документы:**
 - [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md) (сходство 0.11)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [58-content-overview](docs/02-anthropic-vacancies/58-content-overview.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [231-содержание](docs/02-anthropic-vacancies/231-содержание.md)
+- [48-content-overview](docs/02-anthropic-vacancies/48-content-overview.md)
 

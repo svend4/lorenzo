@@ -48,3 +48,14 @@
 - [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.20)
 - [304-ingit-as-cowork-native-workspace-substrate-md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) (сходство 0.19)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [65-readme-md](docs/02-anthropic-vacancies/65-readme-md.md)
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte](docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+

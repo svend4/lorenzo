@@ -1,5 +1,15 @@
 # Индекс обратных ссылок
 
+<!-- summary -->
+> **Файлов с входящими ссылками:** 504
+**Проекты:** Svyazi, MemNet
+
+---
+<!-- tags: memory, orchestration, ingestion, roadmap, anthropic, collaboration -->
+
+
+
+
 **Файлов с входящими ссылками:** 504
 
 ## Топ-30 самых цитируемых документов

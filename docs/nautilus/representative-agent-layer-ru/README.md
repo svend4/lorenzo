@@ -7,7 +7,7 @@
 - [00-abstract.md](00-abstract.md) — <!-- summary -->
 - [01-sindrom-zolushki.md](01-sindrom-zolushki.md) — <!-- summary -->
 - [02-istoricheskie-pretsedenty.md](02-istoricheskie-pretsedenty.md) — > [!WARNING]
-- [03-chto-delaet-predstavitelskim.md](03-chto-delaet-predstavitelskim.md) — <!-- summary -->
+- [03-chto-delaet-predstavitelskim.md](03-chto-delaet-predstavitelskim.md) — > [!TIP]
 - [04-desyat-oblastey.md](04-desyat-oblastey.md) — > [!WARNING]
 - [05-arkhitekturnaya-spetsifikatsiya.md](05-arkhitekturnaya-spetsifikatsiya.md) — <!-- summary -->
 - [06-eticheskaya-ramka.md](06-eticheskaya-ramka.md) — <!-- summary -->

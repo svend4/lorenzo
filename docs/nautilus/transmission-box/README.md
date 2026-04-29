@@ -4,5 +4,5 @@
 
 ## Содержание
 
-- [00-question-mountain-to-person.md](00-question-mountain-to-person.md) — <!-- summary -->
+- [00-question-mountain-to-person.md](00-question-mountain-to-person.md) — > [!TIP]
 - [01-completing-loop.md](01-completing-loop.md) — > [!TIP]

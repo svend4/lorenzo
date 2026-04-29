@@ -1,5 +1,20 @@
 # Поисковый индекс
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> - [LANGUAGE_STATS](docs/LANGUAGE_STATS.md) (сходство 0.78)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 **Файлов:** 502  
 **Слов:** 460,041
 
@@ -516,4 +531,15 @@
 - [LANGUAGE_STATS](docs/LANGUAGE_STATS.md) (сходство 0.78)
 - [READING_ORDER](docs/READING_ORDER.md) (сходство 0.77)
 - [README](docs/02-anthropic-vacancies/README.md) (сходство 0.72)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LANGUAGE_STATS](docs/LANGUAGE_STATS.md)
+- [READING_ORDER](docs/READING_ORDER.md)
+- [READABILITY](docs/READABILITY.md)
+- [READING_TIME](docs/READING_TIME.md)
 

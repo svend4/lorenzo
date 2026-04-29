@@ -432,25 +432,31 @@
   <url><loc>docs/COST.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/COVERAGE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CROSSREFS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/CROSS_SECTION.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DECISIONS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DENSITY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DEPENDABOT.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DEPENDENCY_MAP.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DIGEST.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/DIGEST_AUTO.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DIGEST_WEEKLY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DUPLICATES.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/EMPTY_SECTIONS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/ENTITIES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/FAQ.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/FOOTNOTES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/GITHUB_ISSUES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/GLOSSARY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/GRAPH.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/HEADING_AUDIT.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/HEALTH.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/HEATMAP.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/INDEX.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/KEYWORD_INDEX.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/KNOWLEDGE_MAP.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/KPI.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/KPI_HISTORY.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/LANGUAGE_STATS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/LINKS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/LLM_SUMMARIES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/METRICS.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -463,11 +469,13 @@
   <url><loc>docs/ORPHANS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/OUTLINE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/PARAGRAPH_QUALITY.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/PASSIVE_VOICE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/PRIORITIES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/PROGRESS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/QA.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/QUESTIONS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/READABILITY.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/READING_LIST.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/READING_ORDER.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/READING_TIME.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/README.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -476,13 +484,16 @@
   <url><loc>docs/SCHEDULE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SCORING.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SEARCH.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SEARCH_RESULTS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SEE_ALSO.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SENTIMENT.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SIMILAR.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SIMILAR_PASSAGES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SOURCE_MAP.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SPELLCHECK.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/STALENESS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/STATS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SUMMARIES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TABLES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TAGS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TECH_RADAR.md</loc><lastmod>2026-04-29</lastmod></url>

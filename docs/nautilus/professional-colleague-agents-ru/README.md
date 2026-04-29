@@ -6,7 +6,7 @@
 
 - [00-abstract.md](00-abstract.md) — <!-- summary -->
 - [01-pyat-tipov.md](01-pyat-tipov.md) — > [!IMPORTANT]
-- [02-chto-delaet-pka.md](02-chto-delaet-pka.md) — <!-- summary -->
+- [02-chto-delaet-pka.md](02-chto-delaet-pka.md) — > [!TIP]
 - [03-keys-obuchay.md](03-keys-obuchay.md) — <!-- summary -->
 - [04-arkhitektura.md](04-arkhitektura.md) — <!-- summary -->
 - [05-ekonomika.md](05-ekonomika.md) — <!-- summary -->

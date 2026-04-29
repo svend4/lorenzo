@@ -70,3 +70,14 @@ _Создано автоматически: 2026-04-29_
 - [zodigancode](docs/contacts/zodigancode.md) (сходство 0.70)
 - [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.70)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [zodigancode](docs/contacts/zodigancode.md)
+

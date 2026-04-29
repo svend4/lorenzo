@@ -1,4 +1,12 @@
 # Результаты поиска
+
+<!-- summary -->
+> <!-- tags: security, knowledge -->
+**Проекты:** AgentFS
+
+---
+
+
 <!-- tags: security, knowledge -->
 
 
@@ -15,3 +23,12 @@ _Обновлено: 2026-04-29_
 | 3 | `COST.md` | 5.0 | 2026-04-29 |
 | 4 | `06-безопасность-приватность-и-бюджетный-роутинг.md` | 5.0 | 2026-04-29 |
 | 5 | `TABLES.md` | 5.0 | 2026-04-29 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [privacy](docs/svyazi-2-0/security/privacy.md)
+- [DEPENDABOT](docs/DEPENDABOT.md)
+

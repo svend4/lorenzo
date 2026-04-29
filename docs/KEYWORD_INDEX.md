@@ -174,3 +174,14 @@ _Обновлено: 2026-04-29_
 - [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.29)
 - [COVERAGE](docs/COVERAGE.md) (сходство 0.23)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [COVERAGE](docs/COVERAGE.md)
+- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md)
+

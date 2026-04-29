@@ -13,7 +13,7 @@
 - [06-konkretnyy-sluchay.md](06-konkretnyy-sluchay.md) — > [!WARNING]
 - [07-rekursivnoe-prozrenie.md](07-rekursivnoe-prozrenie.md) — <!-- summary -->
 - [08-promyshlennost-postroit.md](08-promyshlennost-postroit.md) — > [!WARNING]
-- [09-ne-reshaet.md](09-ne-reshaet.md) — <!-- summary -->
+- [09-ne-reshaet.md](09-ne-reshaet.md) — > [!WARNING]
 - [10-rekomendatsii.md](10-rekomendatsii.md) — <!-- summary -->
 - [11-zaklyuchenie.md](11-zaklyuchenie.md) — <!-- summary -->
 - [12-blagodarnosti-ssylki.md](12-blagodarnosti-ssylki.md) — <!-- summary -->

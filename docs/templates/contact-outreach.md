@@ -1,22 +1,5 @@
 # Контакт: [Имя / Проект]
 
-<!-- summary -->
-> - [Статус связи](#статус-связи)
-**Проекты:** Svyazi
-
----
-
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы для обсуждения](#открытые-вопросы-для-обсуждения)
-
-
 <!-- summary: Шаблон для связи с автором X -->
 <!-- tags: контакты, команда -->
 
@@ -63,18 +46,8 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
+- [dmitriila](docs/contacts/dmitriila.md)
+- [mixaill76](docs/contacts/mixaill76.md)
 - [tagir-analyzes](docs/contacts/tagir-analyzes.md)
 - [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [dmitriila](docs/contacts/dmitriila.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [nlaik](docs/contacts/nlaik.md) (сходство 0.60)
-- [sonia-black](docs/contacts/sonia-black.md) (сходство 0.58)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.57)
 
