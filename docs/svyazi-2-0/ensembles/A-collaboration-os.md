@@ -1,0 +1,27 @@
+# Ансамбль A — Collaboration OS
+
+> Источник: `deep-research-report (1).md`.
+
+Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, knowledge-space — за agent‑readable reference layer, NGT Memory — за быстрые ассоциативные связи, Yodoca — за ночную консолидацию и забывание шумов. Такой стек превращает «случайные находки коллабораций» в воспроизводимую машинерию. citeturn41search0turn27view0turn33view2turn22view4turn21view0
+
+## Схема
+
+```mermaid
+flowchart LR
+    A[Свободный текст профилей] --> B[Svyazi-style import + LLM extraction]
+    B --> C[Normalization + CardIndex]
+    C --> D[AgentFS .agentos / vault]
+    E[knowledge-space] --> D
+    C --> F[NGT Memory]
+    C --> G[Yodoca consolidator]
+    G --> F
+    D --> H[Поиск и карточки коллабораций]
+    F --> H
+```
+
+## Ожидаемые новые свойства
+
+- **Serendipity не как баг, а как режим работы**: быстрый поиск больше не ограничен совпадением явных skills; ассоциативная память подтягивает слабые ко‑активации тем и интересов. citeturn41search0turn22view4
+- **Единый source of truth для разных агентов и сессий**: rules, memory, security и task state больше не дублируются по `CLAUDE.md`, `.cursor/rules/` и другим runtime‑форматам. citeturn33view4turn27view0
+- **Контролируемое забывание вместо бесконечного накопления мусора**: Yodoca явно вводит Ebbinghaus‑decay, prune и приватный write‑path‑консолидатор. citeturn21view0turn21view1
+- **Agent‑first knowledge retrieval**: knowledge-space снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами. citeturn33view3turn37search1
