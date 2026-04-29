@@ -345,15 +345,135 @@ def main():
     p_rag_ask.add_argument("-k", "--top", type=int, default=5)
     p_rag_ask.add_argument("--method", choices=["keyword", "semantic", "hybrid"],
                            default="hybrid")
-    p_rag_ask.add_argument("--answerer", choices=["echo", "anthropic"],
+    p_rag_ask.add_argument("--answerer",
+                           choices=["echo", "anthropic", "openai", "gemini", "ollama"],
                            default="echo")
     p_rag_ask.add_argument("--model", default="claude-haiku-4-5-20251001")
     p_rag_ask.add_argument("--json", action="store_true")
     p_rag_ask.add_argument("--md", action="store_true")
     p_rag_ask.set_defaults(func=cmd_rag_ask)
 
+    p_agent = sub.add_parser("agent", help="Autonomous agent loop")
+    p_agent_sub = p_agent.add_subparsers(dest="agent_cmd", required=True)
+
+    p_agent_run = p_agent_sub.add_parser("run", help="Выполнить задачу через agent")
+    p_agent_run.add_argument("task")
+    p_agent_run.add_argument("--llm", choices=["echo", "anthropic"], default="echo")
+    p_agent_run.add_argument("--model", default="claude-haiku-4-5-20251001")
+    p_agent_run.add_argument("--max-iterations", type=int, default=10)
+    p_agent_run.add_argument("--budget", type=float, default=0.10)
+    p_agent_run.add_argument("--md", action="store_true")
+    p_agent_run.add_argument("--json", action="store_true")
+    p_agent_run.set_defaults(func=cmd_agent_run)
+
+    p_history = sub.add_parser("history", help="Git-based time-travel queries")
+    p_history_sub = p_history.add_subparsers(dest="history_cmd", required=True)
+
+    p_h_show = p_history_sub.add_parser("show", help="Содержимое файла на ref")
+    p_h_show.add_argument("path")
+    p_h_show.add_argument("--ref", default="HEAD")
+    p_h_show.set_defaults(func=cmd_history_show)
+
+    p_h_log = p_history_sub.add_parser("log", help="Коммиты затронувшие path")
+    p_h_log.add_argument("path", nargs="?", default="")
+    p_h_log.add_argument("-n", "--limit", type=int, default=20)
+    p_h_log.add_argument("--since")
+    p_h_log.add_argument("--until")
+    p_h_log.set_defaults(func=cmd_history_log)
+
+    p_h_diff = p_history_sub.add_parser("diff", help="Diff между двумя ref")
+    p_h_diff.add_argument("path")
+    p_h_diff.add_argument("ref_from")
+    p_h_diff.add_argument("ref_to", nargs="?", default="HEAD")
+    p_h_diff.set_defaults(func=cmd_history_diff)
+
+    p_h_file = p_history_sub.add_parser("file", help="Полная история одного файла")
+    p_h_file.add_argument("path")
+    p_h_file.add_argument("-n", "--limit", type=int, default=20)
+    p_h_file.set_defaults(func=cmd_history_file)
+
     args = parser.parse_args()
     return args.func(args)
+
+
+def cmd_agent_run(args):
+    """Запуск agent loop."""
+    from docstoolkit.agent import AgentLoop, default_tools
+    agent = AgentLoop(
+        tools=default_tools(),
+        llm=args.llm,
+        model=args.model,
+        max_iterations=args.max_iterations,
+        budget_usd=args.budget,
+    )
+    result = agent.run(args.task)
+
+    if args.json:
+        from dataclasses import asdict
+        print(json.dumps(asdict(result), ensure_ascii=False, indent=2, default=str))
+    elif args.md:
+        print(result.to_markdown())
+    else:
+        print(f"# {result.task}\n")
+        print(f"**Halted:** {result.halted_reason}")
+        print(f"**Iterations:** {result.total_iterations} | "
+              f"Tool calls: {result.total_tool_calls} | "
+              f"Tokens: {result.total_tokens} | "
+              f"Cost: ${result.total_cost:.4f} | "
+              f"Time: {result.duration_ms}ms\n")
+        for s in result.steps:
+            marker = "🏁" if s.is_final else "→"
+            print(f"{marker} Step {s.iteration}")
+            if s.thought:
+                print(f"  thought: {s.thought[:200]}")
+            for tc in s.tool_calls:
+                print(f"  🔧 {tc.name}({tc.inputs}) → {len(tc.output)} chars")
+        print(f"\n## Answer\n{result.answer}")
+    return 0
+
+
+def cmd_history_show(args):
+    from docstoolkit.timetravel import snapshot_at
+    text = snapshot_at(args.path, args.ref)
+    if not text:
+        print(f"# {args.path} @ {args.ref}\n\n(empty / not found)")
+    else:
+        print(f"# {args.path} @ {args.ref}\n")
+        print(text[:5000])
+        if len(text) > 5000:
+            print(f"\n... [{len(text) - 5000} chars truncated]")
+    return 0
+
+
+def cmd_history_log(args):
+    from docstoolkit.timetravel import list_commits
+    commits = list_commits(args.path, limit=args.limit,
+                            since=args.since or "", until=args.until or "")
+    print(f"# Commits для {args.path or '(весь репо)'}: {len(commits)}\n")
+    for c in commits:
+        print(f"  {c['short_sha']} {c['ts'][:10]} {c['author'][:20]:20s} {c['message'][:80]}")
+    return 0
+
+
+def cmd_history_diff(args):
+    from docstoolkit.timetravel import diff_between
+    diff = diff_between(args.path, args.ref_from, args.ref_to)
+    print(f"# diff {args.ref_from}..{args.ref_to} -- {args.path}\n")
+    print(diff[:8000])
+    if len(diff) > 8000:
+        print(f"\n... [{len(diff) - 8000} chars truncated]")
+    return 0
+
+
+def cmd_history_file(args):
+    from docstoolkit.timetravel import file_history
+    history = file_history(args.path, limit=args.limit)
+    print(f"# История {args.path}: {len(history)} коммитов\n")
+    print("| SHA | Date | +Add | -Del |")
+    print("|-----|------|-----:|-----:|")
+    for h in history:
+        print(f"| `{h['short_sha']}` | {h['ts'][:10]} | +{h['additions']} | -{h['deletions']} |")
+    return 0
 
 
 def cmd_rag_ask(args):
