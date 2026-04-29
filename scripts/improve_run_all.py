@@ -92,6 +92,13 @@ GROUPS = {
         "improve_export_json.py",
         "improve_export_html.py",
     ],
+    "enrich": [
+        # Ступень 2-3: шаблоны + LLM (запускать отдельно)
+        "improve_autofill.py",        # заполнение шаблонов (без API)
+        "improve_llm_enrich.py",      # LLM-обогащение stub-файлов
+        "improve_llm_qa.py",          # LLM-ответы на открытые вопросы
+        "improve_llm_gaps.py",        # LLM-анализ пробелов
+    ],
 }
 
 # Скрипты, которые можно пропустить при --fast (медленные)
@@ -101,10 +108,15 @@ SLOW_SCRIPTS = {
     "improve_export_html.py",    # 3 MB HTML
     "improve_export_json.py",    # 600 KB JSON
     "improve_search_index.py",   # полный индекс
+    # LLM-скрипты пропускаем без API ключа (не в --fast, отдельная группа)
+    "improve_llm_enrich.py",
+    "improve_llm_qa.py",
+    "improve_llm_gaps.py",
 }
 
 GROUP_ORDER = ["structure", "index", "analysis", "extract",
                "quality", "graph", "reports", "export"]
+# "enrich" намеренно не в GROUP_ORDER — запускается отдельно (требует API ключ)
 
 
 def run_script(script: str, dry_run: bool = False) -> tuple[bool, float]:
