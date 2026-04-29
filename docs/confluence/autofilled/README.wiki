@@ -1,0 +1,16 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/autofilled/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. autofilled
+
+_Файлов:_ 1
+
+h2. Содержание
+
+* [research-summary.md|research-summary.md] — 
+
+h2. Подразделы
+
+* [components/|components/] — components

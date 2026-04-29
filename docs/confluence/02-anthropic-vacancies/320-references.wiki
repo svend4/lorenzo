@@ -1,0 +1,91 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/320-references.md}}
+Дата: 2026-04-29
+{info}
+
+h1. References
+
+
+h2. Contents
+
+* [References|#references]
+  * [Primary External References|#primary-external-references]
+  * [MCP Standard|#mcp-standard]
+  * [Companion Documents in This Series|#companion-documents-in-this-series]
+  * [Related Work|#related-work]
+
+
+
+{quote}- Anthropic. (2026, January 12). _Claude Cowork_ [Product{quote}
+
+----
+
+
+
+
+
+h2. References
+
+h3. Primary External References
+
+* Anthropic. (2026, January 12). _Claude Cowork_ [Product 
+  launch]. https://claude.com/product/cowork
+* Anthropic. (2026, ongoing). _Cowork Help Center_. 
+  https://support.claude.com/en/collections/13345190-cowork
+* svend4. (2026, ongoing). _InGit_. 
+  https://github.com/svend4/ingit
+
+h3. MCP Standard
+
+* Anthropic. (2024-2026). _Model Context Protocol_ 
+  documentation and specifications.
+
+h3. Companion Documents in This Series
+
+All previous documents in the series, as listed in 
+acknowledgments above.
+
+h3. Related Work
+
+* D. Richard Hipp. (2007-ongoing). _Fossil_. 
+  https://www.fossil-scm.org/
+* Various Cowork-Project tutorials and reviews from 2026.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [338-ссылки|338-ссылки.md] (сходство 0.32)
+* [306-with-anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md] (сходство 0.17)
+* [287-references|287-references.md] (сходство 0.14)
+
+
+
+
+----
+
+_Смотрите также:_
+* [338-ссылки|338-ссылки.md]
+* [73-portal-protocol-md-v1-1|73-portal-protocol-md-v1-1.md]
+* [306-with-anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md]
+* [125-readme-mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [References|287-references.md] _25%_
+* [Ссылки|338-ссылки.md] _25%_
+* [Acknowledgments|146-acknowledgments.md] _21%_
+* [References|183-references.md] _21%_
+* [References|225-references.md] _21%_
+* [Why This Document Exists|275-why-this-document-exists.md] _21%_
+* [Closing|285-closing.md] _21%_
+* [Acknowledgments|286-acknowledgments.md] _21%_

@@ -34,8 +34,8 @@
 ---
 
 **Похожие документы:**
-- [53-history](docs/02-anthropic-vacancies/53-history.md) (сходство 0.18)
-- [43-history](docs/02-anthropic-vacancies/43-history.md) (сходство 0.16)
+- [53-history](53-history.md) (сходство 0.18)
+- [43-history](43-history.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -43,8 +43,42 @@
 ---
 
 **Смотрите также:**
-- [43-history](docs/02-anthropic-vacancies/43-history.md)
-- [53-history](docs/02-anthropic-vacancies/53-history.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
+- [43-history](43-history.md)
+- [53-history](53-history.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [40-bridges](40-bridges.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
+- [History](43-history.md)
+- [History](53-history.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Содержание](190-содержание.md)
+- [Установка](126-установка.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Compatibility Level](41-compatibility-level.md) _29%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
+- [Содержание](326-содержание.md) _25%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
+- [portal-mcp.py](123-portal-mcp-py.md) _21%_
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _21%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _21%_
+- [Содержание](190-содержание.md) _21%_
+## Связанные документы
+
+- [Содержание](190-содержание.md) _29%_
+- [Содержание](326-содержание.md) _29%_
+- [Compatibility Level](41-compatibility-level.md) _29%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
+- [portal-mcp.py](123-portal-mcp-py.md) _25%_
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _25%_
+- [Table of Contents](154-table-of-contents.md) _25%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_

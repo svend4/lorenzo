@@ -1,0 +1,120 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/225-references.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "References"
+tags:
+  * architecture
+  * collaboration
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. References
+
+
+h2. Contents
+
+* [References|#references]
+  * [Primary Empirical Source|#primary-empirical-source]
+  * [Companion Papers|#companion-papers]
+  * [Foundation Sources (continued from Representative Agent Layer)|#foundation-sources-continued-from-representative-agent-layer]
+  * [Professional Practice Theory|#professional-practice-theory]
+  * [AI in Professional Practice|#ai-in-professional-practice]
+  * [Related Architecture|#related-architecture]
+
+
+
+{quote}- Soldatenko, M. (2026, April 25). «В школах любят страдать».{quote}
+
+----
+
+
+
+
+
+h2. References
+
+h3. Primary Empirical Source
+
+* Soldatenko, M. (2026, April 25). «В школах любят страдать».
+  Учитель создал нейросеть для коллег по всей России — и верит,
+  что скоро уроки будет вести ИИ. _Fontanka.ru_.
+  https://www.fontanka.ru/2026/04/25/76378978/
+
+h3. Companion Papers
+
+* svend4 (2026). _The Representative Agent Layer v1.0_.
+* svend4 (2026). _Open Knowledge Work Foundation Concept Document v1.0_.
+* svend4 (2026). _The Double-Triangle Architecture v1.0_.
+* svend4 (2026). _Nautilus Portal Protocol v1.1_.
+
+h3. Foundation Sources (continued from Representative Agent Layer)
+
+* Akerlof, G. (1970). "The Market for Lemons".
+* Simon, H. A. (1971). "Designing Organizations for an
+  Information-Rich World".
+
+h3. Professional Practice Theory
+
+* Schön, D. A. (1983). *The Reflective Practitioner: How
+  Professionals Think in Action*. Basic Books.
+* Friedson, E. (2001). _Professionalism: The Third Logic_.
+  University of Chicago Press.
+* Abbott, A. (1988). *The System of Professions: An Essay
+  on the Division of Expert Labor*. University of Chicago
+  Press.
+
+h3. AI in Professional Practice
+
+* Susskind, R., & Susskind, D. (2015). *The Future of the
+  Professions*. Oxford University Press.
+* Topol, E. (2019). *Deep Medicine: How Artificial
+  Intelligence Can Make Healthcare Human Again*. Basic
+  Books.
+
+h3. Related Architecture
+
+* Brynjolfsson, E., et al. (2023). "Generative AI at Work".
+  _Quarterly Journal of Economics_ (forthcoming).
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[245-ссылки]] (сходство 0.22)
+* [[183-references]] (сходство 0.22)
+* [[268-references]] (сходство 0.18)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[245-ссылки]]
+* [[183-references]]
+* [[251-ai-support-through-configurable-specialist-ensembl]]
+* [[268-references]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[268-references|References]] _29%_
+* [[183-references|References]] _25%_
+* [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _25%_
+* [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _21%_
+* [[147-references|References]] _21%_
+* [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _21%_
+* [[168-abstract|Abstract]] _21%_
+* [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]] _21%_

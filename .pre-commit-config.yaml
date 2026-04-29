@@ -1,0 +1,53 @@
+# Автоматически создан improve_pre_commit.py
+# Запуск: pre-commit run --all-files
+# Установка: pip install pre-commit && pre-commit install
+repos:
+  # Стандартные хуки
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+        types: [markdown]
+      - id: end-of-file-fixer
+        types: [markdown]
+      - id: check-yaml
+      - id: check-json
+      - id: check-merge-conflict
+      - id: mixed-line-ending
+        args: [--fix=lf]
+
+  # Локальные проверки
+  - repo: local
+    hooks:
+      - id: spellcheck
+        name: Проверка орфографии
+        entry: python scripts/improve_spellcheck.py
+        language: system
+        pass_filenames: false
+        files: \.md$
+        stages: [pre-commit]
+
+      - id: broken-links
+        name: Проверка ссылок
+        entry: python scripts/improve_broken_links.py
+        language: system
+        pass_filenames: false
+        files: \.md$
+        stages: [pre-commit]
+
+      - id: readability
+        name: Индекс читаемости
+        entry: python scripts/improve_readability_v2.py
+        language: system
+        pass_filenames: false
+        files: \.md$
+        stages: [pre-commit]
+        verbose: true
+
+      - id: search-index
+        name: Обновление поискового индекса
+        entry: python scripts/improve_search_index.py
+        language: system
+        pass_filenames: false
+        files: docs/.*\.md$
+        stages: [pre-commit]

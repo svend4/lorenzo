@@ -1,0 +1,68 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/211-table-of-contents.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Table of Contents
+
+
+{quote}1. _The Five-Type Typology of Principal-Side Agents_{quote}
+
+----
+
+
+
+
+
+h2. Table of Contents
+
+1. _The Five-Type Typology of Principal-Side Agents_
+2. _What Makes a Professional Colleague Agent_
+3. _Empirical Case Study: «Обучай»_
+4. _Architecture of Professional Colleague Agents_
+5. _The Economics of Profession-Wide Replication_
+6. _Risks Specific to this Category_
+7. _Application Domains_
+8. _Pilot Proposal: SGB Advocate Colleague_
+9. _Relationship to Other Agent Types_
+10. _Open Questions_
+11. _Call for Collaboration_
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [253-table-of-contents|253-table-of-contents.md] (сходство 0.26)
+* [169-table-of-contents|169-table-of-contents.md] (сходство 0.23)
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md] (сходство 0.18)
+
+
+
+
+----
+
+_Смотрите также:_
+* [253-table-of-contents|253-table-of-contents.md]
+* [169-table-of-contents|169-table-of-contents.md]
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+* [308-table-of-contents|308-table-of-contents.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [2. What Makes a Professional Colleague Agent|213-2-what-makes-a-professional-colleague-agent.md] _42%_
+* [1. The Five-Type Typology of Principal-Side Agents|212-1-the-five-type-typology-of-principal-side-agents.md] _37%_
+* [9. Relationship to Other Agent Types|220-9-relationship-to-other-agent-types.md] _37%_
+* [Appendix A: Comparative Table — Five Agent Types|226-appendix-a-comparative-table-five-agent-types.md] _33%_
+* [Table of Contents|253-table-of-contents.md] _33%_
+* [Table of Contents|169-table-of-contents.md] _29%_
+* [3. What Makes a Representative Agent|172-3-what-makes-a-representative-agent.md] _29%_
+* [3. Empirical Case Study: «Обучай»|214-3-empirical-case-study-обучай.md] _29%_

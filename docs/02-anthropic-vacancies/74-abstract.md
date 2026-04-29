@@ -53,9 +53,9 @@ fallback-статуса.
 ---
 
 **Похожие документы:**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md) (сходство 0.43)
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.13)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.11)
+- [04-abstract](04-abstract.md) (сходство 0.43)
+- [76-1-introduction](76-1-introduction.md) (сходство 0.13)
+- [77-2-terminology](77-2-terminology.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -63,8 +63,39 @@ fallback-статуса.
 ---
 
 **Смотрите также:**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
-- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
+- [04-abstract](04-abstract.md)
+- [76-1-introduction](76-1-introduction.md)
+- [07-2-terminology](07-2-terminology.md)
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Introduction](76-1-introduction.md)
+- [2. Terminology](07-2-terminology.md)
+- [2. Terminology](77-2-terminology.md)
+- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
+- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- [Abstract](04-abstract.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Abstract](04-abstract.md) _33%_
+- [2. Terminology](07-2-terminology.md) _25%_
+- [2. Terminology](77-2-terminology.md) _25%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _21%_
+## Связанные документы
+
+- [Abstract](04-abstract.md) _42%_
+- [2. Terminology](77-2-terminology.md) _29%_
+- [2. Terminology](07-2-terminology.md) _25%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _21%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _21%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_

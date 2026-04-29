@@ -1,0 +1,77 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/37-native-format.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Native Format
+
+
+{quote}_Структура файла:_ [? уточнить — Markdown с YAML frontmatter, чистый JSON,{quote}
+
+----
+
+
+
+
+
+h2. Native Format
+
+_Расширение:_ {{.info1}}
+
+_Структура файла:_ [? уточнить — Markdown с YAML frontmatter, чистый JSON, 
+or something custom?]
+
+_Обязательные поля записи:_
+* {{id}} — уникальный идентификатор в пределах репо
+* {{title}} — название метода/формулы/архетипа
+* {{alpha_level}} — уровень α (0–N, см. ниже)
+* {{content}} — основное содержание
+* {{tags}} — ключевые слова
+
+_α-уровни определяют:_ [? уточнить точную семантику. Наиболее вероятные 
+интерпретации из возможных — выберите одну или опишите свою:]
+
+* _Вариант A_: уровень абстракции (α₀ = практические приёмы, α₁ = 
+  паттерны, α₂ = принципы, α₃ = метапринципы)
+* _Вариант B_: уровень уверенности (α₀ = проверено многократно, α₁ = 
+  proven в одном контексте, α₂ = гипотеза, α₃ = спекуляция)
+* _Вариант C_: fuzzy membership (α ∈ [0,1] — степень принадлежности 
+  записи к её категории)
+* _Вариант D_: другое (описать)
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [57-native-format|57-native-format.md] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [57-native-format|57-native-format.md]
+* [47-native-format|47-native-format.md]
+* [98-appendix-a-minimal-working-example|98-appendix-a-minimal-working-example.md]
+* [61-compatibility-level|61-compatibility-level.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Native Format|57-native-format.md] _33%_
+* [Appendix A: Minimal Working Example|98-appendix-a-minimal-working-example.md] _29%_
+* [10. QueryResult Structure|22-10-queryresult-structure.md] _25%_
+* [Compatibility Level|41-compatibility-level.md] _25%_
+* [For the Curious: Philosophy|54-for-the-curious-philosophy.md] _25%_
+* [Abstract|04-abstract.md] _21%_
+* [4. Passport ({{passport.md}})|09-4-passport-passport-md.md] _21%_
+* [Planned (v0.2.0)|132-planned-v0-2-0.md] _21%_

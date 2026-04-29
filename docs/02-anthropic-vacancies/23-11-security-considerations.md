@@ -21,6 +21,15 @@
   - [11.3. MCP Exposure](#113-mcp-exposure)
 
 
+<!-- toc-auto -->
+## Contents
+
+- [11. Security Considerations](#11-security-considerations)
+  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
+  - [11.2. Private Repositories](#112-private-repositories)
+  - [11.3. MCP Exposure](#113-mcp-exposure)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -70,7 +79,7 @@ Implementation MUST различать public и private registries и не
 ---
 
 **Похожие документы:**
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.55)
+- [90-15-security-considerations](90-15-security-considerations.md) (сходство 0.55)
 
 
 <!-- see-also -->
@@ -78,8 +87,31 @@ Implementation MUST различать public и private registries и не
 ---
 
 **Смотрите также:**
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [88-13-rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
+- [19-7-portalentry-structure](19-7-portalentry-structure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md)
+- [15. Security Considerations](90-15-security-considerations.md)
+- [6. Adapter Interface](18-6-adapter-interface.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [15. Security Considerations](90-15-security-considerations.md) _48%_
+- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md) _33%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _17%_
+## Связанные документы
+
+- [15. Security Considerations](90-15-security-considerations.md) _42%_
+- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md) _21%_
+- [🇬🇧 About](68-about.md) _17%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _17%_

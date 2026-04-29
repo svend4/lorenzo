@@ -57,9 +57,9 @@ shareable AI-collaborative work.
 ---
 
 **Похожие документы:**
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.19)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
-- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.16)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.19)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
+- [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -67,8 +67,48 @@ shareable AI-collaborative work.
 ---
 
 **Смотрите также:**
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md)
+- [308-table-of-contents](308-table-of-contents.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Вакансии Anthropic — Анализ по кластерам](README.md) _29%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _25%_
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) _21%_
+- [Table of Contents](308-table-of-contents.md) _21%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _21%_
+- [Кластеры тематически близких файлов](../CLUSTERS.md) _21%_
+- [Карта происхождения текстов](../SOURCE_MAP.md) _21%_
+## Связанные документы
+
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _29%_
+- [Acknowledgments](319-acknowledgments.md) _29%_
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _29%_
+- [Abstract](168-abstract.md) _25%_
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) _25%_
+- [Table of Contents](308-table-of-contents.md) _25%_
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _25%_

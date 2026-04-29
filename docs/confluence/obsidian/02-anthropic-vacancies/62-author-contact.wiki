@@ -1,0 +1,72 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/62-author-contact.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Author & Contact"
+tags:
+  * collaboration
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Author & Contact
+
+
+{quote}_Контакт:_ Issues в {{github.com/svend4/meta}}{quote}
+
+----
+
+
+
+
+
+h2. Author & Contact
+
+_Maintainer:_ svend4
+
+_Контакт:_ Issues в {{github.com/svend4/meta}}
+
+_Лицензия:_
+* Symbolic content: [? CC BY-SA 4.0 recommended для symbolic systems]
+* Simulation code: [? MIT для reproducibility]
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[52-author-contact]] (сходство 0.37)
+* [[42-author-contact]] (сходство 0.37)
+* [[03-portal-protocol-md]] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[42-author-contact]]
+* [[52-author-contact]]
+* [[25-13-reference-implementation]]
+* [[05-0-status-of-this-document]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[42-author-contact|Author & Contact]] _66%_
+* [[25-13-reference-implementation|13. Reference Implementation]] _48%_
+* [[93-18-reference-implementation|18. Reference Implementation]] _48%_
+* [[05-0-status-of-this-document|0. Status of This Document]] _42%_
+* [[75-0-status-of-this-document|0. Status of This Document]] _42%_
+* [[24-12-versioning-policy|12. Versioning Policy]] _29%_
+* [[35-passports-info1-md|passports/info1.md]] _29%_
+* [[52-author-contact|Author & Contact]] _29%_

@@ -177,9 +177,9 @@ within acceptable range for mission-driven foundation launch.
 ---
 
 **Похожие документы:**
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.16)
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.16)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.15)
+- [164-10-appendices](164-10-appendices.md) (сходство 0.16)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.16)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -187,8 +187,24 @@ within acceptable range for mission-driven foundation launch.
 ---
 
 **Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [164-10-appendices](164-10-appendices.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [10. Appendices](164-10-appendices.md)
+- [5. Economic Model](159-5-economic-model.md)
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [5. Economic Model](159-5-economic-model.md) _17%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _17%_

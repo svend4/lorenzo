@@ -1,0 +1,84 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/285-closing.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Closing
+
+
+{quote}The seven documents in this series describe substantial{quote}
+
+----
+
+
+
+
+
+h2. Closing
+
+The seven documents in this series describe substantial 
+architectural vision for AI-coordinated intellectual work. 
+That vision rests on infrastructure that partially exists 
+and partially needs building.
+
+The most important infrastructure gap is not technical 
+(Nautilus, agent architectures, foundation institutions). 
+It is workflow infrastructure for sustained intellectual 
+collaboration with AI.
+
+This gap will likely be filled by various players in the 
+next 1-3 years. In the meantime, pragmatic combinations of 
+existing tools enable serious work.
+
+The author is unusually positioned to contribute to filling 
+this gap, because the existing Nautilus work provides 
+relevant components. Whether to undertake that contribution 
+is a personal choice.
+
+Either way, the immediate practical work continues: commit 
+the documents, structure the repository, enable discussions, 
+maintain cross-references manually, and proceed with the 
+applied work (SGB pilot, foundation outreach, sub-agent 
+registry development) using best-available tools.
+
+The infrastructure question deserves attention. It does not 
+need to be solved before other work proceeds.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [278-why-this-hasn-t-been-built|278-why-this-hasn-t-been-built.md] (сходство 0.15)
+* [281-the-recursive-insight|281-the-recursive-insight.md] (сходство 0.15)
+* [284-practical-recommendations-for-the-current-project|284-practical-recommendations-for-the-current-project.md] (сходство 0.13)
+
+
+
+
+----
+
+_Смотрите также:_
+* [281-the-recursive-insight|281-the-recursive-insight.md]
+* [278-why-this-hasn-t-been-built|278-why-this-hasn-t-been-built.md]
+* [286-acknowledgments|286-acknowledgments.md]
+* [284-practical-recommendations-for-the-current-project|284-practical-recommendations-for-the-current-project.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Why This Hasn't Been Built|278-why-this-hasn-t-been-built.md] _33%_
+* [13. Closing|266-13-closing.md] _29%_
+* [Appendix: Position in Series Visualization|288-appendix-position-in-series-visualization.md] _29%_
+* [The Recursive Insight|281-the-recursive-insight.md] _25%_
+* [Practical Recommendations for the Current Project|284-practical-recommendations-for-the-current-project.md] _25%_
+* [Acknowledgments|286-acknowledgments.md] _25%_
+* [Abstract|168-abstract.md] _21%_
+* [Why This Document Exists|275-why-this-document-exists.md] _21%_

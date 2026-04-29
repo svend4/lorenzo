@@ -62,9 +62,9 @@ populations, Type 1 is the right starting point.
 ---
 
 **Похожие документы:**
-- [226-appendix-a-comparative-table-five-agent-types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.18)
-- [269-appendix-a-the-six-type-taxonomy-updated](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.13)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.13)
+- [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.18)
+- [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.13)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -72,8 +72,44 @@ populations, Type 1 is the right starting point.
 ---
 
 **Смотрите также:**
-- [226-appendix-a-comparative-table-five-agent-types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md)
-- [269-appendix-a-the-six-type-taxonomy-updated](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md)
+- [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [12. Closing](223-12-closing.md)
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md)
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md)
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Кто ты](345-кто-ты.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md) _53%_
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md) _53%_
+- [Table of Contents](211-table-of-contents.md) _48%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _42%_
+- [12. Closing](223-12-closing.md) _42%_
+- [Abstract](210-abstract.md) _37%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _37%_
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _37%_
+## Связанные документы
+
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md) _66%_
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md) _37%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _29%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _29%_
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _29%_
+- [12. Closing](223-12-closing.md) _29%_
+- [Abstract](210-abstract.md) _25%_
+- [Table of Contents](211-table-of-contents.md) _25%_

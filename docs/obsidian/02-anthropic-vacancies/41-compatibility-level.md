@@ -1,0 +1,67 @@
+---
+title: "Compatibility Level"
+tags:
+  - anthropic
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# Compatibility Level
+
+<!-- summary -->
+> **Текущий уровень: 3 (Interactive / Bridged)**
+
+---
+<!-- tags: anthropic -->
+
+
+
+
+## Compatibility Level
+
+**Текущий уровень: 3 (Interactive / Bridged)**
+
+- ✅ Level 0: объявлен в registry
+- ✅ Level 1: имеет passport + `describe()` в адаптере
+- ✅ Level 2: `fetch(query)` работает
+- ✅ Level 3: `translate_to(entry, target_repo)` реализован для 
+  мостов с `pro2` и `meta`
+
+---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[51-compatibility-level]] (сходство 0.52)
+- [[61-compatibility-level]] (сходство 0.44)
+- [[17-5-compatibility-levels]] (сходство 0.17)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[51-compatibility-level]]
+- [[61-compatibility-level]]
+- [[17-5-compatibility-levels]]
+- [[28-appendix-a-minimal-working-example]]
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[61-compatibility-level|Compatibility Level]] _53%_
+- [[51-compatibility-level|Compatibility Level]] _48%_
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _33%_
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _29%_
+- [[132-planned-v0-2-0|Planned (v0.2.0)]] _29%_
+- [[190-содержание|Содержание]] _29%_
+- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _29%_
+- [[326-содержание|Содержание]] _29%_

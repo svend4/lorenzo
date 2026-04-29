@@ -161,9 +161,9 @@ Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at
 ---
 
 **Похожие документы:**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.18)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.17)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.15)
+- [136-abstract](136-abstract.md) (сходство 0.18)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.17)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -171,8 +171,47 @@ Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at
 ---
 
 **Смотрите также:**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [136-abstract](136-abstract.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [11. Call for Collaboration](222-11-call-for-collaboration.md)
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [9. Call for Partnership](163-9-call-for-partnership.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Abstract](136-abstract.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Executive Summary](153-executive-summary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _37%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _21%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _17%_
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _17%_
+- [Abstract](168-abstract.md) _17%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _17%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
+## Связанные документы
+
+- [Abstract](136-abstract.md) _33%_
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _29%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _21%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _21%_
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _21%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _21%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _21%_

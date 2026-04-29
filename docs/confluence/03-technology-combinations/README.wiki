@@ -1,0 +1,17 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/03-technology-combinations/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Комбинирование технологий для новых свойств
+
+_Файлов:_ 6
+
+h2. Содержание
+
+* [01-agent-routing.md|01-agent-routing.md] — 
+* [02-knowledge-graphs.md|02-knowledge-graphs.md] — 
+* [03-local-first.md|03-local-first.md] — 
+* [04-sozialrecht-domain.md|04-sozialrecht-domain.md] — 
+* [05-benchmarks.md|05-benchmarks.md] — 
+* [QA.md|QA.md] — _Автоматически сгенерировано по 5 файлам раздела._

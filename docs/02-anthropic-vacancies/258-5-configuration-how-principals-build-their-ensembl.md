@@ -155,9 +155,9 @@ modifies their configuration over time.
 ---
 
 **Похожие документы:**
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.17)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.15)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.15)
+- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.17)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.15)
+- [264-11-open-questions](264-11-open-questions.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -165,8 +165,45 @@ modifies their configuration over time.
 ---
 
 **Смотрите также:**
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
+- [264-11-open-questions](264-11-open-questions.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
+- [11. Open Questions](264-11-open-questions.md)
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md)
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md)
+- [6. Ethical Framework](175-6-ethical-framework.md)
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md)
+- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
+- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _42%_
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _33%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _33%_
+- [11. Open Questions](264-11-open-questions.md) _29%_
+- [10. Open Questions](179-10-open-questions.md) _21%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _17%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _17%_
+- [6. Ethical Framework](175-6-ethical-framework.md) _17%_
+## Связанные документы
+
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _37%_
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _29%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _29%_
+- [11. Open Questions](264-11-open-questions.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
+- [Table of Contents](253-table-of-contents.md) _25%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _25%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _21%_

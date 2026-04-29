@@ -1,0 +1,72 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "AI-Coordinated Infrastructure for Distributed Expert Contribution"
+tags:
+  * collaboration
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. AI-Coordinated Infrastructure for Distributed Expert Contribution
+
+
+{quote}_Editorial collaboration:_ Claude (intellectual development, 2026-04){quote}
+
+----
+
+
+
+
+
+h2. AI-Coordinated Infrastructure for Distributed Expert Contribution
+
+_Concept Document_  
+_Version:_ 1.0.0-draft  
+_Date:_ 2026-04-19  
+_Author:_ svend4  
+_Editorial collaboration:_ Claude (intellectual development, 2026-04)  
+_Status:_ Working proposal, seeking foundational partners  
+_License:_ CC BY 4.0
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr]] (сходство 0.44)
+* [[03-portal-protocol-md]] (сходство 0.36)
+* [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.35)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+* [[03-portal-protocol-md]]
+* [[167-ai-mediated-representation-for-underrepresented-ex]]
+* [[73-portal-protocol-md-v1-1]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]] _60%_
+* [[03-portal-protocol-md|PORTAL-PROTOCOL.md]] _53%_
+* [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]] _53%_
+* [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _37%_
+* [[52-author-contact|Author & Contact]] _37%_
+* [[147-references|References]] _21%_
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _21%_
+* [[25-13-reference-implementation|13. Reference Implementation]] _21%_

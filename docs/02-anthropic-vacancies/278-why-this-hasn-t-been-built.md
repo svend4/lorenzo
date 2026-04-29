@@ -68,9 +68,9 @@ integration does not.
 ---
 
 **Похожие документы:**
-- [285-closing](docs/02-anthropic-vacancies/285-closing.md) (сходство 0.15)
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.12)
+- [285-closing](285-closing.md) (сходство 0.15)
+- [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -78,8 +78,46 @@ integration does not.
 ---
 
 **Смотрите также:**
-- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [285-closing](285-closing.md)
+- [279-existing-approximations](279-existing-approximations.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [13. Closing](266-13-closing.md)
+- [Abstract](168-abstract.md)
+- [Closing](285-closing.md)
+- [Existing Approximations](279-existing-approximations.md)
+- [The Recursive Insight](281-the-recursive-insight.md)
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md)
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md)
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Closing](285-closing.md) _29%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _25%_
+- [Acknowledgments](286-acknowledgments.md) _25%_
+- [Abstract](168-abstract.md) _21%_
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _21%_
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _21%_
+- [13. Closing](266-13-closing.md) _17%_
+- [Why This Document Exists](275-why-this-document-exists.md) _17%_
+## Связанные документы
+
+- [Closing](285-closing.md) _33%_
+- [13. Closing](266-13-closing.md) _29%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _29%_
+- [The Recursive Insight](281-the-recursive-insight.md) _29%_
+- [Abstract](168-abstract.md) _25%_
+- [Existing Approximations](279-existing-approximations.md) _25%_
+- [Acknowledgments](286-acknowledgments.md) _25%_
+- [Why This Document Exists](275-why-this-document-exists.md) _21%_

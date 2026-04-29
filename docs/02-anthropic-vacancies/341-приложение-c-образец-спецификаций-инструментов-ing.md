@@ -1992,9 +1992,9 @@ Web durchsucht
 ---
 
 **Похожие документы:**
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.19)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.18)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.16)
+- [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.19)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.18)
+- [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -2002,8 +2002,34 @@ Web durchsucht
 ---
 
 **Смотрите также:**
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [ACTION_ITEMS](../ACTION_ITEMS.md)
+- [165-closing](165-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Final note: Ты — experiment](364-final-note-ты-experiment.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+- [Развёрнутый анализ «внуковой» комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
+- [Существующий landscape collaborators (твоя working knowledge)](354-существующий-landscape-collaborators-твоя-working-.md)
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Существующий landscape collaborators (твоя working knowledge)](354-существующий-landscape-collaborators-твоя-working-.md) _21%_
+## Связанные документы
+
+- [Существующий landscape collaborators (твоя working knowledge)](354-существующий-landscape-collaborators-твоя-working-.md) _25%_
+- [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md) _25%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _17%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _17%_
+- [Вакансии Anthropic — Анализ по кластерам](../README.md) _17%_
+- [Кластеры тематически близких файлов](../CLUSTERS.md) _17%_

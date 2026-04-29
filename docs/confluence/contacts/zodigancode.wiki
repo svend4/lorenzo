@@ -1,0 +1,87 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/contacts/zodigancode.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Контакт: zodigancode / Rufler
+
+
+{quote}- [Статус связи|#статус-связи]{quote}
+_Проекты:_ Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+
+----
+
+
+
+
+h2. Contents
+
+* [Профиль|#профиль]
+* [Статус связи|#статус-связи]
+* [Первое сообщение|#первое-сообщение]
+* [Открытые вопросы|#открытые-вопросы]
+
+
+
+
+
+h2. Профиль
+
+|| Параметр || Значение ||
+|| Ник || **zodigancode** ||
+|| GitHub || [@zodigancode](https://github.com/zodigancode) ||
+|| Проекты || Rufler ||
+|| Слой в Svyazi || orchestration ||
+|| Упомянут в документах || 3 файлах ||
+|| Платформа || Habr / GitHub ||
+
+h2. Статус связи
+
+* [ ] Изучили профиль
+* [ ] Написали первое сообщение
+* [ ] Получили ответ
+* [ ] Договорились о сотрудничестве
+
+h2. Первое сообщение
+
+{code}
+Здравствуйте, zodigancode!
+
+Я изучаю Rufler — он отлично вписывается в Svyazi 2.0,
+которую я собираю как локальную community intelligence platform.
+
+Rufler закрывает слой «orchestration» в архитектуре.
+
+Было бы интересно пообщаться — как лучше связаться?
+{code}
+
+h2. Открытые вопросы
+
+1. [Вопрос 1]
+2. [Вопрос 2]
+
+----
+_Создано автоматически: 2026-04-29_
+
+
+h2. Связанные документы
+
+* [Контакт: Cutcode / AIF Handoff|cutcode.md] _81%_
+* [Контакт: Dmitriila / SENTINEL|dmitriila.md] _81%_
+* [Контакт: MiXaiLL76 / Auto AI Router|mixaill76.md] _81%_
+* [Контакт: VladSpace / Graph RAG|vladspace.md] _81%_
+* [Контакт: kksudo / AgentFS|../autofilled/components/kksudo.md] _73%_
+* [Контакт: spbmolot / NGT Memory|../autofilled/components/spbmolot.md] _73%_
+* [Контакт: tagir_analyzes / Legal RAG|tagir-analyzes.md] _73%_
+* [Контакт: VitalyOborin / Yodoca|vitalyoborin.md] _73%_
+
+
+
+----
+
+_Смотрите также:_
+* [cutcode|cutcode.md]
+* [vladspace|vladspace.md]
+* [dmitriila|dmitriila.md]
+* [mixaill76|mixaill76.md]
+

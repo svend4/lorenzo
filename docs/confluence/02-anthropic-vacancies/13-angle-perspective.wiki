@@ -1,0 +1,55 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/13-angle-perspective.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Angle / Perspective
+
+
+{quote}С какого угла Repo смотрит на общие концепты{quote}
+
+----
+
+
+
+
+
+h2. Angle / Perspective
+С какого угла Repo смотрит на общие концепты 
+(methodological / semantic / symbolic / other).
+
+
+
+----
+
+_Похожие документы:_
+* [39-angle-perspective|39-angle-perspective.md] (сходство 0.11)
+* [49-angle-perspective|49-angle-perspective.md] (сходство 0.10)
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Angle / Perspective|39-angle-perspective.md] _30%_
+* [Content Overview|31-content-overview.md] _25%_
+* [Angle / Perspective|49-angle-perspective.md] _25%_
+* [Angle / Perspective|59-angle-perspective.md] _25%_
+* [Content Overview|12-content-overview.md] _25%_
+* [THE DOUBLE-TRIANGLE ARCHITECTURE.md|134-the-double-triangle-architecture-md.md] _22%_
+* [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT|344-системный-промпт-для-lorenzo-project.md] _22%_
+* [PROFESSIONAL COLLEAGUE AGENTS.md|208-professional-colleague-agents-md.md] _21%_
+
+
+
+----
+
+_Смотрите также:_
+* [12-content-overview|12-content-overview.md]
+* [31-content-overview|31-content-overview.md]
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md]
+* [151-open-knowledge-work-foundation-md|151-open-knowledge-work-foundation-md.md]
+

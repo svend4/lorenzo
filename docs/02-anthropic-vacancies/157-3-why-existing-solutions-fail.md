@@ -176,9 +176,9 @@ is this integration.
 ---
 
 **Похожие документы:**
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.16)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.15)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.13)
+- [156-2-target-populations](156-2-target-populations.md) (сходство 0.16)
+- [153-executive-summary](153-executive-summary.md) (сходство 0.15)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -186,8 +186,33 @@ is this integration.
 ---
 
 **Смотрите также:**
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [153-executive-summary](153-executive-summary.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Problem Statement](155-1-problem-statement.md)
+- [2. Target Populations](156-2-target-populations.md)
+- [Executive Summary](153-executive-summary.md)
+- [Table of Contents](154-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Executive Summary](153-executive-summary.md) _25%_
+- [1. Problem Statement](155-1-problem-statement.md) _25%_
+- [2. Target Populations](156-2-target-populations.md) _25%_
+- [Table of Contents](154-table-of-contents.md) _17%_
+## Связанные документы
+
+- [Executive Summary](153-executive-summary.md) _29%_
+- [Table of Contents](154-table-of-contents.md) _29%_
+- [1. Problem Statement](155-1-problem-statement.md) _25%_
+- [2. Target Populations](156-2-target-populations.md) _17%_

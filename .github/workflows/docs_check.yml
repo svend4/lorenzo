@@ -1,0 +1,41 @@
+# Автоматически создан improve_ci_config.py
+# Быстрая проверка docs при PR
+name: docs-check
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'scripts/**'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Check broken links (internal)
+        run: python scripts/improve_broken_links.py
+
+      - name: Check spellcheck
+        run: python scripts/improve_spellcheck.py
+
+      - name: Check readability
+        run: python scripts/improve_readability_v2.py
+
+      - name: Verify search index up to date
+        run: python scripts/improve_search_index.py
+
+      - name: Check for regressions
+        run: |
+          # Убеждаемся, что METRICS.md существует
+          test -f docs/METRICS.md || (echo "❌ docs/METRICS.md missing" && exit 1)
+          # Убеждаемся, что search_index.json существует
+          test -f docs/search_index.json || (echo "❌ search_index.json missing" && exit 1)
+          echo "✅ Core docs present"

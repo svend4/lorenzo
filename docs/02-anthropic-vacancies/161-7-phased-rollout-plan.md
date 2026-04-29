@@ -149,9 +149,9 @@ qualified individuals regardless of traditional constraints.
 ---
 
 **Похожие документы:**
-- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.18)
-- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.17)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.16)
+- [159-5-economic-model](159-5-economic-model.md) (сходство 0.18)
+- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md) (сходство 0.17)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -159,8 +159,38 @@ qualified individuals regardless of traditional constraints.
 ---
 
 **Смотрите также:**
-- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md)
-- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
+- [159-5-economic-model](159-5-economic-model.md)
+- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [11. Call for Collaboration](180-11-call-for-collaboration.md)
+- [5. Economic Model](159-5-economic-model.md)
+- [6. Governance and Ethics](160-6-governance-and-ethics.md)
+- [8. Risk Analysis](162-8-risk-analysis.md)
+- [9. Call for Partnership](163-9-call-for-partnership.md)
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [5. Economic Model](159-5-economic-model.md) _29%_
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md) _29%_
+- [9. Call for Partnership](163-9-call-for-partnership.md) _21%_
+## Связанные документы
+
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md) _29%_
+- [5. Economic Model](159-5-economic-model.md) _25%_
+- [9. Call for Partnership](163-9-call-for-partnership.md) _21%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
+- [Executive Summary](153-executive-summary.md) _17%_
+- [6. Governance and Ethics](160-6-governance-and-ethics.md) _17%_
+- [11. Call for Collaboration](180-11-call-for-collaboration.md) _17%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _17%_

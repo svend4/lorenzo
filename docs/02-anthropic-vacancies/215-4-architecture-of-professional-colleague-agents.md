@@ -182,9 +182,9 @@ workflow.
 ---
 
 **Похожие документы:**
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.15)
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.15)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.14)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.15)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md) (сходство 0.15)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -192,8 +192,46 @@ workflow.
 ---
 
 **Смотрите также:**
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md)
+- [10. Open Questions](221-10-open-questions.md)
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md)
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md)
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md)
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md)
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Развёрнутый анализ «внуковой» комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _42%_
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _29%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _29%_
+- [10. Open Questions](221-10-open-questions.md) _25%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _21%_
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md) _21%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _21%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _21%_
+## Связанные документы
+
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _37%_
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _33%_
+- [10. Open Questions](221-10-open-questions.md) _33%_
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _25%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _25%_
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md) _25%_

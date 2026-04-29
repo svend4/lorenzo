@@ -41,7 +41,7 @@ or something custom?]
 ---
 
 **Похожие документы:**
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md) (сходство 0.12)
+- [57-native-format](57-native-format.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -49,8 +49,41 @@ or something custom?]
 ---
 
 **Смотрите также:**
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
-- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
-- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [57-native-format](57-native-format.md)
+- [47-native-format](47-native-format.md)
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
+- [61-compatibility-level](61-compatibility-level.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md)
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
+- [Native Format](47-native-format.md)
+- [Native Format](57-native-format.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Compatibility Level](41-compatibility-level.md) _29%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
+- [Native Format](57-native-format.md) _25%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _25%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _21%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _17%_
+- [Содержание](326-содержание.md) _17%_
+## Связанные документы
+
+- [Native Format](57-native-format.md) _33%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _29%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- [Compatibility Level](41-compatibility-level.md) _25%_
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _25%_
+- [Abstract](04-abstract.md) _21%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _21%_

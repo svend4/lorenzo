@@ -1,0 +1,65 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
+
+
+{quote}- [[151-open-knowledge-work-foundation-md]] (сходство 0.25){quote}
+
+----
+
+
+
+
+
+h2. INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
+markdown
+{code:language=markdown}
+# Infrastructure for AI-Collaborative Intellectual Work
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[151-open-knowledge-work-foundation-md]] (сходство 0.25)
+- [[249-composite-skills-agent-md]] (сходство 0.12)
+- [[208-professional-colleague-agents-md]] (сходство 0.12)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _100%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _66%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _48%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _42%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _34%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _34%_
+- [[153-executive-summary|Executive Summary]] _29%_
+- [[221-10-open-questions|10. Open Questions]] _29%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[151-open-knowledge-work-foundation-md]]
+- [[304-ingit-as-cowork-native-workspace-substrate-md]]
+- [[249-composite-skills-agent-md]]
+- [[208-professional-colleague-agents-md]]
+

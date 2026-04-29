@@ -1,0 +1,53 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/12-content-overview.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Content Overview
+
+
+{quote}Что внутри: типы данных, приблизительный объём, основные темы.{quote}
+
+----
+
+
+
+
+
+h2. Content Overview
+Что внутри: типы данных, приблизительный объём, основные темы.
+
+
+
+----
+
+_Похожие документы:_
+* [31-content-overview|31-content-overview.md] (сходство 0.21)
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Content Overview|31-content-overview.md] _47%_
+* [Angle / Perspective|13-angle-perspective.md] _25%_
+* [THE DOUBLE-TRIANGLE ARCHITECTURE.md|134-the-double-triangle-architecture-md.md] _25%_
+* [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT|344-системный-промпт-для-lorenzo-project.md] _25%_
+* [PROFESSIONAL COLLEAGUE AGENTS.md|208-professional-colleague-agents-md.md] _24%_
+* [COMPOSITE SKILLS AGENT.md|249-composite-skills-agent-md.md] _24%_
+* [Content Overview|48-content-overview.md] _24%_
+* [Индекс ссылок|../LINKS.md] _24%_
+
+
+
+----
+
+_Смотрите также:_
+* [31-content-overview|31-content-overview.md]
+* [13-angle-perspective|13-angle-perspective.md]
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md]
+* [151-open-knowledge-work-foundation-md|151-open-knowledge-work-foundation-md.md]
+

@@ -1,0 +1,107 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/148-appendix-a-glossary.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Appendix A: Glossary
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}- _Double-Triangle Architecture_: The topology where each{quote}
+
+----
+
+
+
+
+
+h2. Appendix A: Glossary
+
+* _Double-Triangle Architecture_: The topology where each 
+  human knowledge worker simultaneously occupies conductor role 
+  in a lower triangle of AI assistants and performer role in an 
+  upper triangle coordinated by meta-agents.
+
+* _Lower triangle_: Individual human + personal AI assistants.
+
+* _Upper triangle_: Meta-agent + multiple human participants.
+
+* _Node_: A human participant in the architecture.
+
+* _Meta-agent_: An AI (or AI-augmented human) coordinating 
+  multiple Nodes.
+
+* _Assistant_: An AI working under a specific Node's 
+  direction in their lower triangle.
+
+* _Star of David topology_: The six-pointed figure formed by 
+  superimposing the upper and lower triangles around the shared 
+  Node vertex.
+
+* _Protocol 1_: Downward communication within lower triangle 
+  (Node to Assistants).
+
+* _Protocol 2_: Downward communication within upper triangle 
+  (Meta-agent to Nodes).
+
+* _Protocol 3_: Cross-triangle negotiation (Assistant-to-Meta 
+  via Node).
+
+* _Pattern library_: Two-tier knowledge structure with public 
+  abstract patterns and private concrete instances.
+
+* _Inheritance bridge_: Link from private instance to public 
+  pattern.
+
+* _Contribution bridge_: Anonymized link from private instance 
+  back to public pattern library.
+
+* _Star(n)_: n-th level of fractal hierarchy.
+
+* _NPP_: Nautilus Portal Protocol.
+
+* _Three-phase review_: Methodology for parallel AI-agent 
+  review with subsequent consolidation.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [139-2-the-double-triangle-architecture|139-2-the-double-triangle-architecture.md] (сходство 0.19)
+* [136-abstract|136-abstract.md] (сходство 0.17)
+* [142-5-pattern-library-as-bridge-between-triangles|142-5-pattern-library-as-bridge-between-triangles.md] (сходство 0.17)
+
+
+
+
+----
+
+_Смотрите также:_
+* [146-acknowledgments|146-acknowledgments.md]
+* [139-2-the-double-triangle-architecture|139-2-the-double-triangle-architecture.md]
+* [142-5-pattern-library-as-bridge-between-triangles|142-5-pattern-library-as-bridge-between-triangles.md]
+* [136-abstract|136-abstract.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [5. Pattern Library as Bridge Between Triangles|142-5-pattern-library-as-bridge-between-triangles.md] _37%_
+* [6. Four Deployment Domains|143-6-four-deployment-domains.md] _37%_
+* [2. The Double-Triangle Architecture|139-2-the-double-triangle-architecture.md] _33%_
+* [3. Three Inter-Layer Protocols|140-3-three-inter-layer-protocols.md] _33%_
+* [4. Nautilus Portal as Reference Substrate|141-4-nautilus-portal-as-reference-substrate.md] _29%_
+* [7. Open Questions|144-7-open-questions.md] _29%_
+* [9. Integration with OKWF Infrastructure|262-9-integration-with-okwf-infrastructure.md] _25%_
+* [THE DOUBLE-TRIANGLE ARCHITECTURE.md|134-the-double-triangle-architecture-md.md] _21%_

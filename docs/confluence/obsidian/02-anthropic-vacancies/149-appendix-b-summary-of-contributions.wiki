@@ -1,0 +1,91 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Appendix B: Summary of Contributions"
+tags:
+  * architecture
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Appendix B: Summary of Contributions
+
+
+{quote}1. _Topological formalization_ of Double-Triangle Architecture{quote}
+
+----
+
+
+
+
+
+h2. Appendix B: Summary of Contributions
+
+1. _Topological formalization_ of Double-Triangle Architecture 
+   with Star of David metaphor
+2. _Six architectural invariants_ constraining valid 
+   implementations
+3. _Three inter-layer protocols_ specification (only Protocols 
+   1 and 2 are currently partially implemented; Protocol 3 is 
+   novel)
+4. _Fractal scaling property_ via Star(n) recursive construction
+5. _Nautilus Portal Protocol v1.1 reference substrate_ with 
+   documented gaps requiring three specific extensions
+6. _Pattern library architecture_ as coherence mechanism across 
+   triangles, including three bridge types
+7. _Four domain deployments_ analyzed with specific 
+   applicability notes
+8. _Six open research questions_ with framing and suggested 
+   approaches
+9. _Empirical case study_ (reference implementation at 4-month 
+   maturity)
+10. _Multi-stakeholder call to action_ addressing researchers, 
+    practitioners, founders, policymakers, and the author 
+    personally
+
+----
+
+h1. Author & Contact
+
+h2. Author & Contact
+Кто поддерживает, как связаться.
+
+
+
+----
+
+_Похожие документы:_
+* [[137-table-of-contents]] (сходство 0.24)
+* [[136-abstract]] (сходство 0.15)
+* [[355-существующие-документы-dhlab-твой-context]] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[137-table-of-contents]]
+* [[136-abstract]]
+* [[355-существующие-документы-dhlab-твой-context]]
+* [[211-table-of-contents]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[137-table-of-contents|Table of Contents]] _33%_
+* [[326-содержание|Содержание]] _29%_
+* [[308-table-of-contents|Table of Contents]] _25%_
+* [[154-table-of-contents|Table of Contents]] _21%_
+* [[169-table-of-contents|Table of Contents]] _21%_
+* [[190-содержание|Содержание]] _21%_
+* [[211-table-of-contents|Table of Contents]] _21%_
+* [[253-table-of-contents|Table of Contents]] _21%_

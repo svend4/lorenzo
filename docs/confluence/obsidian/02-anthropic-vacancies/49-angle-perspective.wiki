@@ -1,0 +1,74 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/49-angle-perspective.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Angle / Perspective"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Angle / Perspective
+
+
+{quote}_Semantic_ — {{pro2}} смотрит на мир через _структуру значений_.{quote}
+
+----
+
+
+
+
+
+h2. Angle / Perspective
+
+_Semantic_ — {{pro2}} смотрит на мир через _структуру значений_. 
+На вопрос «что такое кристалл» он отвечает Q6-координатами 
+(положение в гиперкубе), семантическими связями (соседи по Hamming), 
+и гексаграммой (классическая И-Цзин интерпретация).
+
+Этот угол особенно полезен для _аналогий и метафор_: близкие 
+вершины Q6-графа часто обозначают семантически близкие концепты, 
+что делает представление естественной моделью для analogical 
+reasoning.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[39-angle-perspective]] (сходство 0.14)
+* [[59-angle-perspective]] (сходство 0.12)
+* [[13-angle-perspective]] (сходство 0.10)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[39-angle-perspective]]
+* [[59-angle-perspective]]
+* [[47-native-format]]
+* [[55-passports-meta-md]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[39-angle-perspective|Angle / Perspective]] _42%_
+* [[59-angle-perspective|Angle / Perspective]] _33%_
+* [[13-angle-perspective|Angle / Perspective]] _25%_
+* [[36-essence|Essence]] _25%_
+* [[47-native-format|Native Format]] _25%_
+* [[51-compatibility-level|Compatibility Level]] _25%_
+* [[57-native-format|Native Format]] _25%_
+* [[27-15-glossary-of-examples|15. Glossary of Examples]] _21%_

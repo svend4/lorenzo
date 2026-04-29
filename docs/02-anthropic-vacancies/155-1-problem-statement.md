@@ -127,9 +127,9 @@ coordinated action now.
 ---
 
 **Похожие документы:**
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.17)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.16)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.15)
+- [153-executive-summary](153-executive-summary.md) (сходство 0.17)
+- [156-2-target-populations](156-2-target-populations.md) (сходство 0.16)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -137,8 +137,38 @@ coordinated action now.
 ---
 
 **Смотрите также:**
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [153-executive-summary](153-executive-summary.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [2. Target Populations](156-2-target-populations.md)
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md)
+- [Executive Summary](153-executive-summary.md)
+- [Table of Contents](154-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Executive Summary](153-executive-summary.md) _42%_
+- [2. Target Populations](156-2-target-populations.md) _29%_
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md) _25%_
+- [Table of Contents](154-table-of-contents.md) _17%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _17%_
+## Связанные документы
+
+- [Executive Summary](153-executive-summary.md) _42%_
+- [Table of Contents](154-table-of-contents.md) _29%_
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md) _25%_
+- [2. Target Populations](156-2-target-populations.md) _21%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _17%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _17%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _17%_
+- [The Recursive Insight](281-the-recursive-insight.md) _17%_

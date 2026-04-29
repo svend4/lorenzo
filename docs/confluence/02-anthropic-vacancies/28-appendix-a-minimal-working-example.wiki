@@ -1,0 +1,126 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Appendix A: Minimal Working Example
+
+
+h2. Contents
+
+* [Appendix A: Minimal Working Example|#appendix-a-minimal-working-example]
+  * [A.1. Minimal nautilus.json|#a1-minimal-nautilusjson]
+  * [A.2. Minimal Adapter|#a2-minimal-adapter]
+  * [A.3. Minimal Passport|#a3-minimal-passport]
+
+
+
+{quote}"adapter": "adapters/my_notes.py",{quote}
+
+----
+
+
+
+
+
+h2. Appendix A: Minimal Working Example
+
+h3. A.1. Minimal {{nautilus.json}}
+
+{code:language=json}
+{
+  "protocol_version": "1.0",
+  "ecosystem_name": "example",
+  "repositories": [
+    {
+      "name": "my_notes",
+      "format": ".md",
+      "adapter": "adapters/my_notes.py",
+      "compatibility_level": 2
+    }
+  ]
+}
+{code}
+
+h3. A.2. Minimal Adapter
+
+{code:language=python}
+from pathlib import Path
+from base import BaseAdapter, PortalEntry
+
+
+class MyNotesAdapter(BaseAdapter):
+    name = "my_notes"
+    
+    def __init__(self, repo_path):
+        self.repo_path = Path(repo_path)
+    
+    def describe(self):
+        md_files = list(self.repo_path.glob("**/*.md"))
+        return {
+            "name": self.name,
+            "format": ".md",
+            "total_entries": len(md_files),
+            "topics": []
+        }
+    
+    def fetch(self, query):
+        results = []
+        for path in self.repo_path.glob("**/*.md"):
+            text = path.read_text()
+            if query.lower() in text.lower():
+                results.append(PortalEntry(
+                    repo_name=self.name,
+                    native_id=str(path.relative_to(self.repo_path)),
+                    title=path.stem,
+                    summary=text[:280],
+                    content=text,
+                    tags=[],
+                    confidence=1.0,
+                    native_metadata={"path": str(path)},
+                    url=None
+                ))
+        return results
+{code}
+
+h3. A.3. Minimal Passport
+
+{code:language=markdown}
+# my_notes
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md) (сходство 0.44)
+- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.18)
+- [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.17)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _60%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _37%_
+- [Abstract](04-abstract.md) _33%_
+- [portal-mcp.py](123-portal-mcp-py.md) _33%_
+- [Содержание](190-содержание.md) _33%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _33%_
+- [Глоссарий](122-глоссарий.md) _29%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _29%_

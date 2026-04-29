@@ -1,0 +1,110 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/CONSISTENCY.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Согласованность терминов
+
+Анализ различных написаний одних и тех же терминов.
+
+|| Термин || Канонично || Вариант || Файлов ||
+|| **knowledge-space** || `knowledge-space` || `knowledge space` || 8 ||
+|| **knowledge-space** || `knowledge-space` || `knowledge_space` || 2 ||
+|| **knowledge-space** || `knowledge-space` || `knowledgespace` || 2 ||
+|| **CardIndex** || `CardIndex` || `card-index` || 2 ||
+|| **AI Factory** || `AI Factory` || `AI-Factory` || 4 ||
+|| **NGT Memory** || `NGT Memory` || `NGT-Memory` || 25 ||
+|| **Auto AI Router** || `Auto AI Router` || `Auto-AI-Router` || 1 ||
+|| **self-improvement** || `self-improvement` || `self-improve` || 70 ||
+|| **Svyazi 2.0** || `Svyazi 2.0` || `Svyazi-2.0` || 4 ||
+|| **evidence envelope** || `Evidence Envelope` || `Evidence-Envelope` || 3 ||
+
+_Всего несогласованных написаний: 121_
+
+
+h2. Детали по файлам
+
+
+h3. {{knowledge space}} → должно быть {{knowledge-space}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/CONCEPTS.md}}
+* {{docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md}}
+* {{docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md}}
+* _...и ещё 3_
+
+h3. {{knowledge_space}} → должно быть {{knowledge-space}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+
+h3. {{knowledgespace}} → должно быть {{knowledge-space}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/OUTLINE.md}}
+
+h3. {{card-index}} → должно быть {{CardIndex}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+
+h3. {{AI-Factory}} → должно быть {{AI Factory}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/QA.md}}
+* {{docs/04-ai-collaborations/00-intro.md}}
+
+h3. {{NGT-Memory}} → должно быть {{NGT Memory}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/READING_TIME.md}}
+* {{docs/TABLES.md}}
+* {{docs/PARAGRAPH_QUALITY.md}}
+* {{docs/FAQ.md}}
+* _...и ещё 20_
+
+h3. {{Auto-AI-Router}} → должно быть {{Auto AI Router}}
+
+* {{docs/OUTLINE.md}}
+
+h3. {{self-improve}} → должно быть {{self-improvement}}
+
+* {{docs/FOOTNOTES.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/READING_TIME.md}}
+* {{docs/CONTENT_GAPS.md}}
+* {{docs/TABLES.md}}
+* _...и ещё 65_
+
+h3. {{Svyazi-2.0}} → должно быть {{Svyazi 2.0}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md}}
+* {{docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md}}
+
+h3. {{Evidence-Envelope}} → должно быть {{Evidence Envelope}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/QA.md}}
+
+h2. Как исправить
+
+{code:language=bash}
+# Пример: заменить все вхождения в docs/
+find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
+{code}
+
+
+
+----
+
+_Смотрите также:_
+* [MISSING|MISSING.md]
+* [PRIORITIES|PRIORITIES.md]
+* [STATS|STATS.md]
+* [SPELLCHECK|SPELLCHECK.md]
+

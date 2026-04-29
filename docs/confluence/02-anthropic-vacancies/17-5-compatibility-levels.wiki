@@ -1,0 +1,104 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/17-5-compatibility-levels.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 5. Compatibility Levels
+
+
+
+
+h2. Contents
+
+* [5. Compatibility Levels|#5-compatibility-levels]
+  * [Level 0 — Discoverable|#level-0-discoverable]
+  * [Level 1 — Readable|#level-1-readable]
+  * [Level 2 — Queryable|#level-2-queryable]
+  * [Level 3 — Interactive / Bridged|#level-3-interactive-bridged]
+
+
+
+{quote}NPP определяет 4 уровня совместимости Repo с экосистемой. Это{quote}
+
+----
+
+
+
+
+
+h2. 5. Compatibility Levels
+
+NPP определяет 4 уровня совместимости Repo с экосистемой. Это 
+позволяет постепенное подключение: существующий Repo может начать 
+на уровне 0 и расти к уровню 3 без переделки.
+
+h3. Level 0 — Discoverable
+
+Repo объявлен в {{nautilus.json}} с полями {{name}}, {{url}}, {{format}}. 
+Адаптера ещё нет. Portal знает о существовании Repo, но не может 
+его запрашивать.
+
+_Use case_: анонс намерения подключить Repo до написания кода.
+
+h3. Level 1 — Readable
+
+Repo имеет {{passport.md}} в корне. Адаптер реализует только 
+{{describe()}} метод. Portal может показать метаданные, но не может 
+выполнять query.
+
+_Use case_: статические Repos (архивы, reference docs), которые 
+не нужно искать.
+
+h3. Level 2 — Queryable
+
+Адаптер реализует {{describe()}} + {{fetch(query)}}. Portal может 
+выполнять полноценный поиск в Repo.
+
+_Use case_: большинство активных Repos.
+
+h3. Level 3 — Interactive / Bridged
+
+Адаптер реализует {{describe()}} + {{fetch(query)}} + {{translate_to(entry, target_repo)}}. 
+Portal может переводить концепты между Repos через bridges.
+
+_Use case_: Repos, глубоко связанные с другими в экосистеме, где 
+важны cross-repo queries.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [80-5-compatibility-levels|80-5-compatibility-levels.md] (сходство 0.32)
+* [41-compatibility-level|41-compatibility-level.md] (сходство 0.17)
+* [51-compatibility-level|51-compatibility-level.md] (сходство 0.14)
+
+
+
+
+----
+
+_Смотрите также:_
+* [80-5-compatibility-levels|80-5-compatibility-levels.md]
+* [41-compatibility-level|41-compatibility-level.md]
+* [51-compatibility-level|51-compatibility-level.md]
+* [61-compatibility-level|61-compatibility-level.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [5. Compatibility Levels|80-5-compatibility-levels.md] _48%_
+* [Compatibility Level|41-compatibility-level.md] _25%_
+* [6. Adapter Interface|18-6-adapter-interface.md] _21%_
+* [Compatibility Level|51-compatibility-level.md] _21%_
+* [Compatibility Level|61-compatibility-level.md] _21%_
+* [🇬🇧 About|68-about.md] _21%_
+* [10. Query Flow|85-10-query-flow.md] _21%_
+* [4. Passport ({{passport.md}})|09-4-passport-passport-md.md] _17%_

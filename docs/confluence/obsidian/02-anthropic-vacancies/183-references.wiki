@@ -1,0 +1,116 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/183-references.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "References"
+tags:
+  * collaboration
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. References
+
+
+h2. Contents
+
+* [References|#references]
+  * [Foundational Sources|#foundational-sources]
+  * [Principal-Agent Theory|#principal-agent-theory]
+  * [Disability and Access|#disability-and-access]
+  * [Modern AI Ethics|#modern-ai-ethics]
+  * [Companion Documents|#companion-documents]
+
+
+
+{quote}- Akerlof, G. (1970). "The Market for Lemons: Quality{quote}
+
+----
+
+
+
+
+
+h2. References
+
+h3. Foundational Sources
+
+* Akerlof, G. (1970). "The Market for Lemons: Quality 
+  Uncertainty and the Market Mechanism". *Quarterly 
+  Journal of Economics*.
+* Merton, R. K. (1968). "The Matthew Effect in Science". 
+  _Science_.
+* Simon, H. A. (1971). "Designing Organizations for an 
+  Information-Rich World". In: *Computers, Communications, 
+  and the Public Interest*.
+
+h3. Principal-Agent Theory
+
+* Eisenhardt, K. M. (1989). "Agency Theory: An Assessment 
+  and Review". _Academy of Management Review_.
+* Jensen, M. C., & Meckling, W. H. (1976). "Theory of the 
+  Firm: Managerial Behavior, Agency Costs and Ownership 
+  Structure". _Journal of Financial Economics_.
+
+h3. Disability and Access
+
+* Shakespeare, T. (2018). _Disability: The Basics_. Routledge.
+* Wendell, S. (1996). *The Rejected Body: Feminist 
+  Philosophical Reflections on Disability*. Routledge.
+
+h3. Modern AI Ethics
+
+* Floridi, L., & Cowls, J. (2019). "A Unified Framework 
+  of Five Principles for AI in Society". *Harvard Data 
+  Science Review*.
+* Mittelstadt, B., et al. (2016). "The Ethics of Algorithms: 
+  Mapping the Debate". _Big Data & Society_.
+
+h3. Companion Documents
+
+* svend4 (2026). *Open Knowledge Work Foundation Concept 
+  Document v1.0*.
+* svend4 (2026). *The Double-Triangle Architecture 
+  v1.0*.
+* svend4 (2026). _Nautilus Portal Protocol v1.1_.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[204-ссылки]] (сходство 0.24)
+* [[225-references]] (сходство 0.22)
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.17)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[204-ссылки]]
+* [[225-references]]
+* [[251-ai-support-through-configurable-specialist-ensembl]]
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _25%_
+* [[211-table-of-contents|Table of Contents]] _25%_
+* [[225-references|References]] _25%_
+* [[268-references|References]] _25%_
+* [[146-acknowledgments|Acknowledgments]] _21%_
+* [[147-references|References]] _21%_
+* [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _21%_
+* [[182-acknowledgments|Acknowledgments]] _21%_

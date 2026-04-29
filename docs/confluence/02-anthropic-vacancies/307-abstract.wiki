@@ -1,0 +1,85 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/307-abstract.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Abstract
+
+
+{quote}Document 2.3 identified Layer B — the missing infrastructure{quote}
+
+----
+
+
+
+
+
+h2. Abstract
+
+Document 2.3 identified Layer B — the missing infrastructure 
+between chat and code repositories — as a fundamental gap in 
+AI-collaborative intellectual work. The document was 
+theoretical, naming the problem without specifying solutions. 
+This document, written with knowledge of the author's existing 
+InGit project and Anthropic's Cowork platform (launched 
+January 2026), proposes a specific implementation path.
+
+We argue that InGit and Cowork together substantially close 
+the Layer B gap, with neither alone sufficient. InGit provides 
+_structured workspace substrate_ — file organization, YAML 
+metadata, Git-native versioning, encryption, offline-first 
+operation. Cowork provides _agentic intelligence layer_ — 
+persistent memory, multi-step task execution, MCP integration, 
+scheduled tasks, computer use. Their integration creates 
+something neither could provide separately: a structured, 
+versioned, AI-augmented intellectual workspace.
+
+We propose specific integration paths in order of accessibility 
+(from immediate to longer-term), identify which InGit features 
+matter most when paired with Cowork, refine the InGit roadmap 
+based on this positioning, and discuss strategic implications 
+for the broader Nautilus / OKWF project.
+
+The central insight: InGit should not compete with Cowork. 
+InGit should position as **the structure layer that Cowork 
+needs** — substrate for sustained, organized, recoverable, 
+shareable AI-collaborative work.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [309-1-the-cowork-discovery-and-why-it-changes-everythi|309-1-the-cowork-discovery-and-why-it-changes-everythi.md] (сходство 0.19)
+* [306-with-anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md] (сходство 0.17)
+* [312-4-the-symbiotic-architecture|312-4-the-symbiotic-architecture.md] (сходство 0.16)
+
+
+
+
+----
+
+_Смотрите также:_
+* [309-1-the-cowork-discovery-and-why-it-changes-everythi|309-1-the-cowork-discovery-and-why-it-changes-everythi.md]
+* [306-with-anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md]
+* [312-4-the-symbiotic-architecture|312-4-the-symbiotic-architecture.md]
+* [308-table-of-contents|308-table-of-contents.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [1. The Cowork Discovery and Why It Changes Everything|309-1-the-cowork-discovery-and-why-it-changes-everythi.md] _29%_
+* [8. Implications for Nautilus and OKWF|316-8-implications-for-nautilus-and-okwf.md] _29%_
+* [Acknowledgments|319-acknowledgments.md] _29%_
+* [Appendix C: Sample InGit MCP Server Tool Specifications|323-appendix-c-sample-ingit-mcp-server-tool-specificat.md] _29%_
+* [Abstract|168-abstract.md] _25%_
+* [A Practical Path to Layer B Through Symbiotic Integration|305-a-practical-path-to-layer-b-through-symbiotic-inte.md] _25%_
+* [Table of Contents|308-table-of-contents.md] _25%_
+* [4. The Symbiotic Architecture|312-4-the-symbiotic-architecture.md] _25%_

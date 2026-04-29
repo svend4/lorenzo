@@ -156,9 +156,9 @@ efficiently between levels.
 ---
 
 **Похожие документы:**
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.15)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.14)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md) (сходство 0.17)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.15)
+- [144-7-open-questions](144-7-open-questions.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -166,8 +166,43 @@ efficiently between levels.
 ---
 
 **Смотрите также:**
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md)
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md)
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [8. Call to Action](145-8-call-to-action.md)
+- [Abstract](136-abstract.md)
+- [Appendix A: Glossary](148-appendix-a-glossary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _29%_
+- [Abstract](136-abstract.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _21%_
+- [8. Call to Action](145-8-call-to-action.md) _21%_
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _17%_
+## Связанные документы
+
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _37%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _29%_
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _25%_
+- [Abstract](136-abstract.md) _21%_
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _21%_
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _21%_
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _21%_

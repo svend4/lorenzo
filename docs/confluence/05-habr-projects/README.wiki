@@ -1,0 +1,19 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/05-habr-projects/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Уникальные проекты с Хабра
+
+_Файлов:_ 3
+
+h2. Содержание
+
+* [01-synthesis.md|01-synthesis.md] — 
+* [02-collaboration-partners.md|02-collaboration-partners.md] — 
+* [QA.md|QA.md] — _Автоматически сгенерировано по 6 файлам раздела._
+
+h2. Подразделы
+
+* [knowledge/|knowledge/] — Системы знаний
+* [memory/|memory/] — Системы памяти

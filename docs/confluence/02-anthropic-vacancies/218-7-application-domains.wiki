@@ -1,0 +1,234 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/218-7-application-domains.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 7. Application Domains
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}We identify nine professions or sub-professions where{quote}
+
+----
+
+
+h2. Содержание
+
+* [7. Application Domains|#7-application-domains]
+  * [7.1. K-12 Education|#71-k-12-education]
+  * [7.2. Legal Practice (Sub-Specialties)|#72-legal-practice-sub-specialties]
+  * [7.3. Medical Practice (Specific Specialties)|#73-medical-practice-specific-specialties]
+  * [7.4. Social Work and Case Management|#74-social-work-and-case-management]
+  * [7.5. Mental Health Care|#75-mental-health-care]
+  * [7.6. Architecture and Engineering|#76-architecture-and-engineering]
+  * [7.7. Accounting and Tax Practice|#77-accounting-and-tax-practice]
+  * [7.8. Government Service Delivery|#78-government-service-delivery]
+  * [7.9. Academic Research Support|#79-academic-research-support]
+
+----
+
+
+
+
+
+
+h2. 7. Application Domains
+
+We identify nine professions or sub-professions where
+Professional Colleague Agents are particularly applicable.
+Order is by readiness — most ready first.
+
+h3. 7.1. K-12 Education
+
+_Practitioners_: Teachers, in all subjects and levels.
+Approximately 70 million globally.
+
+_Burden addressed_: Lesson planning, assignment generation,
+grading, materials preparation, administrative documentation.
+
+_Existing implementation_: «Обучай» (Russia), TeachAI tools
+(global), Curipod (Norway/Europe). Multiple competing services
+emerging.
+
+_Maturity_: Active deployment. Tens of thousands to
+millions of users globally.
+
+_Critical mass for new entry_: High. Established players
+exist. New entrants need clear differentiation.
+
+h3. 7.2. Legal Practice (Sub-Specialties)
+
+_Practitioners_: Lawyers, paralegals, legal advisors. By
+sub-specialty: family law, criminal defense, immigration,
+disability rights, social welfare.
+
+_Burden addressed_: Document drafting (briefs, motions,
+contracts), case research, statute lookup, deadline tracking.
+
+_Existing implementation_: Harvey AI, CaseText, Lexis+ AI
+(commercial, generalist). Limited specialized services.
+
+_Maturity_: Beginning. Generalist tools exist; specialized
+profession-specific colleagues nascent.
+
+_Notable opportunity_: German social law / disability rights
+(SGB IX, XII). Underserved by current commercial offerings.
+Author's domain. (See Section 8.)
+
+h3. 7.3. Medical Practice (Specific Specialties)
+
+_Practitioners_: Physicians, particularly in primary care
+and specific specialties (radiology, pathology, dermatology).
+
+_Burden addressed_: Documentation, clinical note synthesis,
+literature search, differential diagnosis support.
+
+_Existing implementation_: Multiple commercial services
+(Nuance DAX, Abridge, Suki, etc.). Hospital-integrated
+deployments common.
+
+_Maturity_: Rapid deployment in 2024-2026. Significant
+healthcare provider adoption.
+
+_Critical mass for new entry_: High. Major commercial
+players. Specialized opportunities in underserved
+sub-specialties.
+
+h3. 7.4. Social Work and Case Management
+
+_Practitioners_: Social workers, case managers, community
+organizers, particularly in welfare systems.
+
+_Burden addressed_: Client documentation, resource matching,
+deadline tracking, regulatory compliance, communication
+drafting.
+
+_Existing implementation_: Limited. Some case management
+software with AI features. No comprehensive Professional
+Colleague Agent deployment.
+
+_Maturity_: Significant opportunity. Underserved profession
+serving vulnerable populations.
+
+_Foundation alignment_: Strong. Diakonie, Caritas,
+equivalent organizations are natural deployment partners.
+
+h3. 7.5. Mental Health Care
+
+_Practitioners_: Therapists, counselors, clinical psychologists.
+
+_Burden addressed_: Session note synthesis, treatment
+planning support, literature review, billing documentation.
+
+_Existing implementation_: Emerging. Note-taking tools
+appearing. Concerns about AI's role in therapeutic context
+significant.
+
+_Maturity_: Early. Ethical concerns slow deployment.
+Privacy and clinical accuracy critical.
+
+_Caution_: Mental health is high-sensitivity domain. Agent
+must be deeply integrated with clinical safety frameworks.
+
+h3. 7.6. Architecture and Engineering
+
+_Practitioners_: Architects, civil engineers, structural
+engineers.
+
+_Burden addressed_: Code compliance checking, drawing
+generation, calculation routines, regulatory navigation,
+specification writing.
+
+_Existing implementation_: Specialized software with AI
+features. AutoCAD, Revit, others adding AI. Limited true
+Professional Colleague Agents.
+
+_Maturity_: Emerging. Significant opportunity for
+profession-specific deployment.
+
+h3. 7.7. Accounting and Tax Practice
+
+_Practitioners_: Accountants, tax preparers, auditors.
+
+_Burden addressed_: Document review, regulatory compliance,
+calculation routines, audit preparation.
+
+_Existing implementation_: Multiple commercial services
+(Karbon, TaxAct AI, others). Active competitive market.
+
+_Maturity_: Active. Profession evolving rapidly with AI
+deployment.
+
+h3. 7.8. Government Service Delivery
+
+_Practitioners_: Civil servants in benefit determination,
+licensing, immigration processing.
+
+_Burden addressed_: Application review, eligibility
+determination support, documentation, citizen communication
+drafting.
+
+_Existing implementation_: Limited and politically
+sensitive. Government deployment of AI in citizen-facing
+services raises significant concerns.
+
+_Maturity_: Slow and contested. Important but careful
+deployment required.
+
+_Caveat_: This domain is particularly susceptible to
+several risks — mediation collapse, bias, profession capture.
+Especially careful design needed.
+
+h3. 7.9. Academic Research Support
+
+_Practitioners_: Researchers across disciplines.
+
+_Burden addressed_: Literature review, draft writing,
+methodology selection support, citation management, grant
+application drafting.
+
+_Existing implementation_: Multiple emerging services
+(Elicit, Consensus, Scite). Active development.
+
+_Maturity_: Active deployment. Researcher attitudes mixed.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [143-6-four-deployment-domains|143-6-four-deployment-domains.md] (сходство 0.14)
+* [173-4-ten-domains-of-application|173-4-ten-domains-of-application.md] (сходство 0.14)
+* [261-8-seven-domains-of-application|261-8-seven-domains-of-application.md] (сходство 0.14)
+
+
+
+
+----
+
+_Смотрите также:_
+* [261-8-seven-domains-of-application|261-8-seven-domains-of-application.md]
+* [173-4-ten-domains-of-application|173-4-ten-domains-of-application.md]
+* [143-6-four-deployment-domains|143-6-four-deployment-domains.md]
+* [219-8-pilot-proposal-sgb-advocate-colleague|219-8-pilot-proposal-sgb-advocate-colleague.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [6. Four Deployment Domains|143-6-four-deployment-domains.md] _17%_
+* [8. Seven Domains of Application|261-8-seven-domains-of-application.md] _17%_
+* [The Two-Layer Stack As It Exists|276-the-two-layer-stack-as-it-exists.md] _17%_
+* [What's Missing — Layer B|277-what-s-missing-layer-b.md] _17%_
+* [The Specific Case in Front of Us|280-the-specific-case-in-front-of-us.md] _17%_
+* [Practical Recommendations for the Current Project|284-practical-recommendations-for-the-current-project.md] _17%_

@@ -1,0 +1,70 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Зачем две версии параллельно"
+tags:
+  * memory
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Зачем две версии параллельно
+
+
+{quote}Для критически важных документов (STATUS, IMPLEMENTATION_STAGE){quote}
+
+----
+
+
+
+
+
+h2. Зачем две версии параллельно
+
+Для критически важных документов (STATUS, IMPLEMENTATION_STAGE) 
+применяется трёхфазный review:
+
+1. _Вариант A_ создаётся в ветке X
+2. _Вариант B_ создаётся независимо в ветке Y
+3. _Вариант C_ — ручная консолидация после сверки
+
+До достижения фазы 3 оба варианта сохраняются параллельно, 
+чтобы предотвратить потерю insights из одного из них.
+
+
+
+----
+
+_Похожие документы:_
+* [[106-tl-dr]] (сходство 0.35)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[106-tl-dr]]
+* [[105-review-methodology-md]]
+* [[03-portal-protocol-md]]
+* [[28-appendix-a-minimal-working-example]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[106-tl-dr|TL;DR]] _42%_
+* [[122-глоссарий|Глоссарий]] _29%_
+* [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _25%_
+* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _25%_
+* [[104-appendix-c-references|Appendix C: References]] _21%_
+* [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] _21%_
+* [[42-author-contact|Author & Contact]] _21%_
+* [[62-author-contact|Author & Contact]] _21%_

@@ -1,0 +1,61 @@
+---
+title: "COMPOSITE SKILLS AGENT.md"
+tags:
+  - architecture
+  - anthropic
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# COMPOSITE SKILLS AGENT.md
+
+<!-- summary -->
+> - [[166-representative-agent-layer-md]] (сходство 0.25)
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
+## COMPOSITE SKILLS AGENT.md
+markdown
+```markdown
+# The Composite Skills Agent
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[166-representative-agent-layer-md]] (сходство 0.25)
+- [[344-системный-промпт-для-lorenzo-project]] (сходство 0.20)
+- [[208-professional-colleague-agents-md]] (сходство 0.14)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _77%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _53%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _50%_
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _48%_
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _48%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _42%_
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _33%_
+- [[210-abstract|Abstract]] _29%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[304-ingit-as-cowork-native-workspace-substrate-md]]
+- [[208-professional-colleague-agents-md]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+

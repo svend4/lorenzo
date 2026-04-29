@@ -750,9 +750,9 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 ---
 
 **Похожие документы:**
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.14)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.14)
-- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.13)
+- [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.14)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.14)
+- [CONCEPTS](../CONCEPTS.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -760,8 +760,24 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 ---
 
 **Смотрите также:**
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [CONCEPTS](docs/CONCEPTS.md)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [ACTION_ITEMS](../ACTION_ITEMS.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [165-closing](165-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](342-что-такое-вариант-c-concept-document-для-anthropic.md) _25%_
+## Связанные документы
+
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](342-что-такое-вариант-c-concept-document-для-anthropic.md) _25%_

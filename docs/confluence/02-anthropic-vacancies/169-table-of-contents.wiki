@@ -1,0 +1,68 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/169-table-of-contents.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Table of Contents
+
+
+{quote}1. _The Cinderella Syndrome: Why Quality Stays Invisible_{quote}
+
+----
+
+
+
+
+
+h2. Table of Contents
+
+1. _The Cinderella Syndrome: Why Quality Stays Invisible_
+2. _Historical Precedents: Agents as Civilizational Innovation_
+3. _What Makes a Representative Agent_
+4. _Ten Domains of Application_
+5. _Architectural Specification_
+6. _Ethical Framework_
+7. _Governance and Oversight_
+8. _Risks and Mitigations_
+9. _Phased Rollout Strategy_
+10. _Open Questions_
+11. _Call for Collaboration_
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [211-table-of-contents|211-table-of-contents.md] (сходство 0.23)
+* [253-table-of-contents|253-table-of-contents.md] (сходство 0.21)
+* [154-table-of-contents|154-table-of-contents.md] (сходство 0.17)
+
+
+
+
+----
+
+_Смотрите также:_
+* [211-table-of-contents|211-table-of-contents.md]
+* [253-table-of-contents|253-table-of-contents.md]
+* [154-table-of-contents|154-table-of-contents.md]
+* [137-table-of-contents|137-table-of-contents.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Table of Contents|211-table-of-contents.md] _29%_
+* [Table of Contents|154-table-of-contents.md] _25%_
+* [12. Closing|181-12-closing.md] _25%_
+* [Table of Contents|253-table-of-contents.md] _25%_
+* [Table of Contents|308-table-of-contents.md] _25%_
+* [Содержание|326-содержание.md] _25%_
+* [Table of Contents|137-table-of-contents.md] _21%_
+* [Appendix B: Summary of Contributions|149-appendix-b-summary-of-contributions.md] _21%_

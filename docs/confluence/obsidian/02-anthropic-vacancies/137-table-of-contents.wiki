@@ -1,0 +1,73 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/137-table-of-contents.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Table of Contents"
+tags:
+  * architecture
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Table of Contents
+
+
+{quote}1. _Why Single-Triangle Models Are Incomplete_{quote}
+
+----
+
+
+
+
+
+h2. Table of Contents
+
+1. _Why Single-Triangle Models Are Incomplete_
+2. _The Double-Triangle Architecture_
+3. _Three Inter-Layer Protocols_
+4. _Nautilus Portal as Reference Substrate_
+5. _Pattern Library as Bridge Between Triangles_
+6. _Four Deployment Domains_
+7. _Open Questions_
+8. _Call to Action_
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[149-appendix-b-summary-of-contributions]] (сходство 0.24)
+* [[253-table-of-contents]] (сходство 0.15)
+* [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[149-appendix-b-summary-of-contributions]]
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+* [[251-ai-support-through-configurable-specialist-ensembl]]
+* [[184-appendix-a-connection-to-companion-papers]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[146-acknowledgments|Acknowledgments]] _37%_
+* [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]] _33%_
+* [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _33%_
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _33%_
+* [[136-abstract|Abstract]] _29%_
+* [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _29%_
+* [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _29%_
+* [[268-references|References]] _29%_

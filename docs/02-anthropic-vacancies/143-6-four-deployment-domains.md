@@ -159,9 +159,9 @@ exist.
 ---
 
 **Похожие документы:**
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.18)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.17)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.15)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.18)
+- [145-8-call-to-action](145-8-call-to-action.md) (сходство 0.17)
+- [164-10-appendices](164-10-appendices.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -169,8 +169,44 @@ exist.
 ---
 
 **Смотрите также:**
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [164-10-appendices](164-10-appendices.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [10. Appendices](164-10-appendices.md)
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md)
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md)
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [7. Application Domains](218-7-application-domains.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [8. Call to Action](145-8-call-to-action.md)
+- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
+- [Appendix A: Glossary](148-appendix-a-glossary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [8. Call to Action](145-8-call-to-action.md) _37%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _21%_
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _21%_
+- [Abstract](136-abstract.md) _17%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _17%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
+## Связанные документы
+
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _37%_
+- [8. Call to Action](145-8-call-to-action.md) _29%_
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _25%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _25%_
+- [7. Open Questions](144-7-open-questions.md) _21%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _21%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _18%_
+- [Abstract](136-abstract.md) _17%_

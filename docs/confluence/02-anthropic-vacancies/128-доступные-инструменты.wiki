@@ -1,0 +1,65 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/128-доступные-инструменты.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Доступные инструменты
+
+
+{quote}После успешной интеграции Claude Desktop получает доступ к 7 tools:{quote}
+
+----
+
+
+
+
+
+h2. Доступные инструменты
+
+После успешной интеграции Claude Desktop получает доступ к 7 tools:
+
+|| Tool || Назначение ||
+|| `nautilus_query` || Поиск по всей экосистеме с consensus ||
+|| `nautilus_query_repo` || Поиск в конкретном репо ||
+|| `nautilus_list_repos` || Список всех адаптеров с метаданными ||
+|| `nautilus_consensus_check` || Проверка concept agreement ||
+|| `nautilus_describe` || Описание экосистемы (философия, версия, angles) ||
+|| `nautilus_q6_neighbors` || Поиск Q6-соседей по Hamming distance ||
+|| `nautilus_health` || Health score 0–100 ||
+
+
+
+----
+
+_Похожие документы:_
+* [129-примеры-запросов-в-claude|129-примеры-запросов-в-claude.md] (сходство 0.21)
+* [91-16-mcp-extension-informative|91-16-mcp-extension-informative.md] (сходство 0.18)
+* [88-13-rest-api-contract-normative-for-portals|88-13-rest-api-contract-normative-for-portals.md] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [129-примеры-запросов-в-claude|129-примеры-запросов-в-claude.md]
+* [91-16-mcp-extension-informative|91-16-mcp-extension-informative.md]
+* [103-appendix-b-change-log|103-appendix-b-change-log.md]
+* [88-13-rest-api-contract-normative-for-portals|88-13-rest-api-contract-normative-for-portals.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Примеры запросов (в Claude)|129-примеры-запросов-в-claude.md] _48%_
+* [16. MCP Extension (Informative)|91-16-mcp-extension-informative.md] _42%_
+* [Ограничения текущей версии (0.1.0-draft)|131-ограничения-текущей-версии-0-1-0-draft.md] _29%_
+* [13. REST API Contract (Normative for Portals)|88-13-rest-api-contract-normative-for-portals.md] _29%_
+* [Appendix B: Change Log|103-appendix-b-change-log.md] _21%_
+* [18. Reference Implementation|93-18-reference-implementation.md] _21%_
+* [Appendix C: References|104-appendix-c-references.md] _17%_
+* [14. SDK Contract (Informative)|89-14-sdk-contract-informative.md] _17%_

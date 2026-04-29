@@ -1,0 +1,96 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/57-native-format.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Native Format"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Native Format
+
+
+{quote}_Структура записи:_ [? уточнить]{quote}
+
+----
+
+
+
+
+
+h2. Native Format
+
+_Расширение:_ {{.meta}}
+
+_Структура записи:_ [? уточнить]
+
+_Варианты интерпретации (выберите/дополните):_
+
+_Вариант A — CA-rule first:_
+{code}
+{
+"rule_number": 110,  // 0–255
+"wolfram_class": "IV",  // I, II, III, IV
+"associated_hexagrams": [49, 64, ...],  // связанные гексаграммы
+"dynamics_description": "...",
+"attractors": [...],
+"stable_patterns": [...]
+}
+{code}
+_Вариант B — hexagram first:_
+{code}
+{
+"hexagram_number": 1,  // 1–64 (King Wen order) или 0–63 (binary)
+"classical_name": "Qián / Creative",
+"lines": [1,1,1,1,1,1],
+"ca_rule_family": [30, 86, 135, 149],  // правила с эквивалентной
+динамикой
+"wolfram_class": "III",
+"symbolic_meaning": "..."
+}
+{code}
+_Вариант C — symmetric mapping_: обе структуры хранятся параллельно 
+с cross-references.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[37-native-format]] (сходство 0.12)
+* [[60-bridges]] (сходство 0.12)
+* [[47-native-format]] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[60-bridges]]
+* [[51-compatibility-level]]
+* [[61-compatibility-level]]
+* [[47-native-format]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[37-native-format|Native Format]] _33%_
+* [[50-bridges|Bridges]] _33%_
+* [[51-compatibility-level|Compatibility Level]] _33%_
+* [[47-native-format|Native Format]] _29%_
+* [[60-bridges|Bridges]] _29%_
+* [[40-bridges|Bridges]] _25%_
+* [[49-angle-perspective|Angle / Perspective]] _25%_
+* [[61-compatibility-level|Compatibility Level]] _25%_

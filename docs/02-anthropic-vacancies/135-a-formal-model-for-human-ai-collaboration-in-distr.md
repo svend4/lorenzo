@@ -25,9 +25,9 @@
 ---
 
 **Похожие документы:**
-- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md) (сходство 0.44)
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.40)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.37)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md) (сходство 0.44)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.40)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.37)
 
 
 <!-- see-also -->
@@ -35,8 +35,45 @@
 ---
 
 **Смотрите также:**
-- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [12. Closing](181-12-closing.md)
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [Author & Contact](52-author-contact.md)
+- [Executive Summary](153-executive-summary.md)
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md)
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Что ты НЕ МОЖЕШЬ делать вообще](353-что-ты-не-можешь-делать-вообще.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _48%_
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md) _48%_
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md) _42%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _37%_
+- [Author & Contact](52-author-contact.md) _33%_
+- [Acknowledgments](146-acknowledgments.md) _29%_
+- [Acknowledgments](182-acknowledgments.md) _25%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _25%_
+## Связанные документы
+
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md) _60%_
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _48%_
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md) _37%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _33%_
+- [Author & Contact](52-author-contact.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _21%_
+- [Executive Summary](153-executive-summary.md) _21%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _21%_

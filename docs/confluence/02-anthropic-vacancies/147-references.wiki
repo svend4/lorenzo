@@ -1,0 +1,110 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/147-references.md}}
+Дата: 2026-04-29
+{info}
+
+h1. References
+
+
+h2. Contents
+
+* [References|#references]
+  * [Foundational Sources|#foundational-sources]
+  * [Multi-Agent Systems|#multi-agent-systems]
+  * [Protocols and Federation|#protocols-and-federation]
+  * [Human-AI Collaboration|#human-ai-collaboration]
+  * [Related Architectures|#related-architectures]
+  * [Pattern Libraries|#pattern-libraries]
+  * [Primary Reference|#primary-reference]
+
+
+
+{quote}- Conway, M. E. (1968). "How do committees invent?" _Datamation_.{quote}
+
+----
+
+
+
+
+
+h2. References
+
+h3. Foundational Sources
+
+* Conway, M. E. (1968). "How do committees invent?" _Datamation_.  
+* Brooks, F. P. (1975). _The Mythical Man-Month_.  
+* Raymond, E. S. (1999). _The Cathedral and the Bazaar_.  
+* Weinberg, G. M. (1971). _The Psychology of Computer Programming_.  
+
+h3. Multi-Agent Systems
+
+* Wooldridge, M. (2009). _An Introduction to MultiAgent Systems_.  
+* Russell, S., & Norvig, P. (2020). _Artificial Intelligence: A Modern Approach_, 4th ed.  
+* Hong, S., et al. (2023). "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework". _arXiv:2308.00352_.  
+
+h3. Protocols and Federation
+
+* Fielding, R. T. (2000). "Architectural Styles and the Design of Network-based Software Architectures". UC Irvine dissertation.  
+* W3C (2018). _ActivityPub_. W3C Recommendation.  
+* Anthropic (2024). _Model Context Protocol Specification_.  
+
+h3. Human-AI Collaboration
+
+* Shneiderman, B. (2022). _Human-Centered AI_.  
+* Amershi, S., et al. (2019). "Guidelines for Human-AI Interaction". _CHI '19_.  
+
+h3. Related Architectures
+
+* Chen, L., & Avizienis, A. (1978). "N-Version Programming: A Fault-Tolerance Approach". _FTCS-8_.  
+* Berners-Lee, T. (2019). _Solid: Re-decentralizing the Web_.  
+
+h3. Pattern Libraries
+
+* Alexander, C. (1977). _A Pattern Language_.  
+* Gamma, E., et al. (1994). _Design Patterns: Elements of Reusable Object-Oriented Software_.  
+
+h3. Primary Reference
+
+* svend4 (2026). _Nautilus Portal Protocol v1.1 Specification_. 
+  [github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md|https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md]  
+* svend4 (2026). _Review Methodology: Three-Phase Consolidation_. 
+  [github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md|https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md]  
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [268-references|268-references.md] (сходство 0.12)
+* [73-portal-protocol-md-v1-1|73-portal-protocol-md-v1-1.md] (сходство 0.12)
+* [306-with-anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md] (сходство 0.11)
+
+
+
+
+----
+
+_Смотрите также:_
+* [73-portal-protocol-md-v1-1|73-portal-protocol-md-v1-1.md]
+* [320-references|320-references.md]
+* [268-references|268-references.md]
+* [338-ссылки|338-ссылки.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Author & Contact|52-author-contact.md] _25%_
+* [Appendix C: References|104-appendix-c-references.md] _21%_
+* [3. Three Inter-Layer Protocols|140-3-three-inter-layer-protocols.md] _21%_
+* [Appendix A: Glossary|148-appendix-a-glossary.md] _21%_
+* [AI-Coordinated Infrastructure for Distributed Expert Contribution|152-ai-coordinated-infrastructure-for-distributed-expe.md] _21%_
+* [References|183-references.md] _21%_
+* [References|225-references.md] _21%_
+* [13. Reference Implementation|25-13-reference-implementation.md] _21%_

@@ -26,9 +26,9 @@ markdown
 ---
 
 **Похожие документы:**
-- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.24)
-- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.22)
-- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) (сходство 0.18)
+- [45-passports-pro2-md](45-passports-pro2-md.md) (сходство 0.24)
+- [35-passports-info1-md](35-passports-info1-md.md) (сходство 0.22)
+- [27-15-glossary-of-examples](27-15-glossary-of-examples.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -36,8 +36,48 @@ markdown
 ---
 
 **Смотрите также:**
-- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
-- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
-- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
-- [56-essence](docs/02-anthropic-vacancies/56-essence.md)
+- [35-passports-info1-md](35-passports-info1-md.md)
+- [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
+- [45-passports-pro2-md](45-passports-pro2-md.md)
+- [56-essence](56-essence.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [15. Glossary of Examples](27-15-glossary-of-examples.md)
+- [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md)
+- [Angle / Perspective](39-angle-perspective.md)
+- [Angle / Perspective](49-angle-perspective.md)
+- [Angle / Perspective](59-angle-perspective.md)
+- [Essence](36-essence.md)
+- [Essence](46-essence.md)
+- [Essence](56-essence.md)
+- [History](43-history.md)
+- [passports/info1.md](35-passports-info1-md.md)
+- [passports/pro2.md](45-passports-pro2-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [passports/pro2.md](45-passports-pro2-md.md) _90%_
+- [passports/info1.md](35-passports-info1-md.md) _66%_
+- [Essence](46-essence.md) _53%_
+- [15. Glossary of Examples](27-15-glossary-of-examples.md) _48%_
+- [Angle / Perspective](59-angle-perspective.md) _48%_
+- [Essence](36-essence.md) _42%_
+- [Essence](56-essence.md) _42%_
+- [Angle / Perspective](39-angle-perspective.md) _37%_
+## Связанные документы
+
+- [passports/pro2.md](45-passports-pro2-md.md) _73%_
+- [passports/info1.md](35-passports-info1-md.md) _66%_
+- [15. Glossary of Examples](27-15-glossary-of-examples.md) _48%_
+- [Essence](46-essence.md) _42%_
+- [Essence](56-essence.md) _42%_
+- [Essence](36-essence.md) _33%_
+- [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md) _33%_
+- [Angle / Perspective](59-angle-perspective.md) _29%_

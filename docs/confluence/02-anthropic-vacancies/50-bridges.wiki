@@ -1,0 +1,83 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/50-bridges.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Bridges
+
+
+
+
+h2. Contents
+
+* [Bridges|#bridges]
+  * [pro2 ↔ info1|#pro2-info1]
+  * [pro2 ↔ meta|#pro2-meta]
+
+
+
+{quote}_Q6-concept-depth ↔ α-level_. Глубина концепта в Q6-графе (число{quote}
+
+----
+
+
+
+
+
+h2. Bridges
+
+h3. {{pro2 ↔ info1}}
+_Q6-concept-depth ↔ α-level_. Глубина концепта в Q6-графе (число 
+hamming-переходов от «root» вершин) коррелирует с α-уровнем в 
+{{info1}}. [? уточнить exact correspondence]
+
+h3. {{pro2 ↔ meta}}
+_Q6-vertex ↔ hexagram_. Это _прямой, формальный мост_ (один из 
+немногих в экосистеме): 64 вершины Q6-гиперкуба ↔ 64 гексаграммы 
+{{meta}}. Соответствие биективное:
+
+* Вершина {{000000}} ↔ гексаграмма 2 (Кунь / Receptive)
+* Вершина {{111111}} ↔ гексаграмма 1 (Цянь / Creative)
+* [? уточнить: используется бинарная нумерация 0–63, или порядок 
+  King Wen, или Fu Xi?]
+
+Это единственный bridge в экосистеме с formal mathematical mapping; 
+все остальные — текстовые интерпретации.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [60-bridges|60-bridges.md] (сходство 0.21)
+* [40-bridges|40-bridges.md] (сходство 0.20)
+
+
+
+
+----
+
+_Смотрите также:_
+* [60-bridges|60-bridges.md]
+* [40-bridges|40-bridges.md]
+* [61-compatibility-level|61-compatibility-level.md]
+* [57-native-format|57-native-format.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Bridges|40-bridges.md] _37%_
+* [Native Format|57-native-format.md] _33%_
+* [Bridges|60-bridges.md] _29%_
+* [Native Format|47-native-format.md] _25%_
+* [Compatibility Level|51-compatibility-level.md] _25%_
+* [Compatibility Level|61-compatibility-level.md] _21%_
+* [15. Glossary of Examples|27-15-glossary-of-examples.md] _17%_
+* [passports/info1.md|35-passports-info1-md.md] _17%_

@@ -1,0 +1,8 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Bridging the Gap Between Profession-Wide and Individual-Unique 
+
+h2. Bridging the Gap Between Profession-Wide and Individual-Unique

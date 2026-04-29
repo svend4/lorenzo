@@ -1,0 +1,70 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Appendix B: Comparison Matrix
+
+
+{quote}InGit + Cowork's distinct profile: maximum structure with full{quote}
+
+----
+
+
+
+
+
+h2. Appendix B: Comparison Matrix
+
+|| Capability || Plain Folder + Cowork || InGit + Cowork || Notion || Obsidian + AI plugins ||
+|| Structured organization || Manual || Conventional || Database || Markdown files ||
+|| Versioning || Manual Git || Git native || Internal || Git via plugin ||
+|| Metadata || None || YAML || Properties || Frontmatter ||
+|| Validation || None || Hooks || UI rules || Plugin-dependent ||
+|| Encryption || None || Built-in || Limited || Plugin-dependent ||
+|| Offline || Yes || Yes || Limited || Yes ||
+|| AI integration || Cowork || Cowork + InGit MCP || Notion AI || Plugin-dependent ||
+|| Cross-platform || OS-dependent || Yes || Yes || Yes ||
+|| Cost || Cowork sub || Free + Cowork || Subscription || Free + plugins ||
+
+InGit + Cowork's distinct profile: maximum structure with full 
+local control, free substrate plus Cowork subscription.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [307-abstract|307-abstract.md] (сходство 0.12)
+* [314-6-refined-ingit-scope-with-cowork-in-mind|314-6-refined-ingit-scope-with-cowork-in-mind.md] (сходство 0.10)
+* [311-3-what-ingit-provides-that-cowork-lacks|311-3-what-ingit-provides-that-cowork-lacks.md] (сходство 0.10)
+
+
+
+
+----
+
+_Смотрите также:_
+* [308-table-of-contents|308-table-of-contents.md]
+* [321-appendix-a-decision-tree-for-ingit-adopters|321-appendix-a-decision-tree-for-ingit-adopters.md]
+* [314-6-refined-ingit-scope-with-cowork-in-mind|314-6-refined-ingit-scope-with-cowork-in-mind.md]
+* [307-abstract|307-abstract.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Table of Contents|308-table-of-contents.md] _29%_
+* [6. Refined InGit Scope with Cowork in Mind|314-6-refined-ingit-scope-with-cowork-in-mind.md] _25%_
+* [Appendix A: Decision Tree for InGit Adopters|321-appendix-a-decision-tree-for-ingit-adopters.md] _25%_
+* [Abstract|307-abstract.md] _21%_
+* [Содержание|326-содержание.md] _21%_
+* [Рекомендуемый порядок чтения|../READING_ORDER.md] _21%_
+* [Карта происхождения текстов|../SOURCE_MAP.md] _21%_
+* [Appendix B: Summary of Contributions|149-appendix-b-summary-of-contributions.md] _17%_

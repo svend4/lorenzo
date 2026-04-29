@@ -19,6 +19,17 @@
 > Document 1: Nautilus Portal Protocol
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Appendix: Position in Series Visualization](#appendix-position-in-series-visualization)
+  - [Заметки к восьмому (2.3) документу](#заметки-к-восьмому-23-документу)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: orchestration, architecture, roadmap, anthropic, collaboration -->
 
 
@@ -156,9 +167,9 @@ So I named the possibility without pushing toward it.
 ---
 
 **Похожие документы:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.17)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.13)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) (сходство 0.12)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.17)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.13)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -166,8 +177,42 @@ So I named the possibility without pushing toward it.
 ---
 
 **Смотрите также:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [10. Appendices](164-10-appendices.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md)
+- [Closing](285-closing.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _48%_
+- [Closing](285-closing.md) _21%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _17%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _17%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _17%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _17%_
+## Связанные документы
+
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _33%_
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _29%_
+- [Closing](285-closing.md) _29%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _25%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _25%_
+- [10. Appendices](164-10-appendices.md) _21%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _21%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _21%_

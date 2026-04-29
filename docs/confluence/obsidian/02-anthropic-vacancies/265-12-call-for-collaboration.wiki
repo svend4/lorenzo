@@ -1,0 +1,140 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/265-12-call-for-collaboration.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "12. Call for Collaboration"
+tags:
+  * rag
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 12. Call for Collaboration
+
+
+h2. Contents
+
+* [12. Call for Collaboration|#12-call-for-collaboration]
+  * [12.1. For Practitioners|#121-for-practitioners]
+  * [12.2. For Curators and Domain Experts|#122-for-curators-and-domain-experts]
+  * [12.3. For Software Engineers and Architects|#123-for-software-engineers-and-architects]
+  * [12.4. For Researchers|#124-for-researchers]
+  * [12.5. For Foundation Funders|#125-for-foundation-funders]
+  * [12.6. For Policymakers|#126-for-policymakers]
+
+
+
+{quote}This paper opens questions that require multi-stakeholder{quote}
+
+----
+
+
+
+
+
+h2. 12. Call for Collaboration
+
+This paper opens questions that require multi-stakeholder 
+engagement.
+
+h3. 12.1. For Practitioners
+
+Tell us how your practice combines specializations. What 
+configuration of sub-agents would actually serve your work? 
+What would make composite agents valuable versus merely complex?
+
+Pilot participation invited, particularly for the SGB Advocate 
+Colleague pilot.
+
+h3. 12.2. For Curators and Domain Experts
+
+Sub-agent registry development needs curated knowledge across 
+many narrow specializations. Domain experts willing to help 
+develop sub-agents in their specialties — particularly 
+compensated through foundation funding — would substantially 
+accelerate deployment.
+
+h3. 12.3. For Software Engineers and Architects
+
+Coordinator infrastructure is substantial engineering work. 
+Open-source contributions to reference implementations welcome. 
+Particular needs:
+* Sub-agent registry standards and protocols
+* Configuration management interfaces
+* Disagreement detection and presentation systems
+* Audit and observability tools
+
+h3. 12.4. For Researchers
+
+Empirical studies of composite configuration patterns would 
+illuminate questions raised in Section 11. Particular value in:
+* Configuration clustering analysis
+* Effectiveness comparison: composite vs. monolithic agents
+* Long-term effects on professional development
+* Cross-cultural deployment outcomes
+
+h3. 12.5. For Foundation Funders
+
+Composite Skills Agents represent higher-leverage infrastructure 
+investment than monolithic Professional Colleague Agents:
+* More flexible support across diverse practitioner needs
+* More scalable across adjacent professions
+* More aligned with how mastery actually develops
+* More resilient to changes in any single component
+
+Funding sub-agent development is investing in foundational 
+infrastructure that supports many configurations across many 
+practitioners.
+
+h3. 12.6. For Policymakers
+
+Regulatory frameworks for AI in professional practice will 
+need to address composite architectures specifically. Questions 
+about liability, professional responsibility, and quality 
+standards apply differently when many specialized sub-agents 
+contribute to outputs.
+
+Engagement during regulatory development helps ensure frameworks 
+match actual technology architecture.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[222-11-call-for-collaboration]] (сходство 0.26)
+* [[264-11-open-questions]] (сходство 0.18)
+* [[262-9-integration-with-okwf-infrastructure]] (сходство 0.17)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[222-11-call-for-collaboration]]
+* [[266-13-closing]]
+* [[264-11-open-questions]]
+* [[262-9-integration-with-okwf-infrastructure]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[222-11-call-for-collaboration|11. Call for Collaboration]] _33%_
+* [[264-11-open-questions|11. Open Questions]] _33%_
+* [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _29%_
+* [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _29%_
+* [[221-10-open-questions|10. Open Questions]] _25%_
+* [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _25%_
+* [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _21%_
+* [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]] _21%_

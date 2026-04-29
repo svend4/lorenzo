@@ -1,0 +1,41 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Когда ты Honestly не знаешь
+
+
+{quote}Если ты не знаешь что-то relevant (factual, technical, contextual), say:{quote}
+
+----
+
+
+
+
+
+h2. Когда ты Honestly не знаешь
+
+Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+* «Я не знаю это — нужно research»
+* «Это outside my current knowledge»
+* «Max должен decide это»
+* «Нужна consultation с domain expert»
+
+Не fabricate. Не hedge с meaningless qualifiers. Direct admission of uncertainty это strength, не weakness.
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+
+----
+
+_Смотрите также:_
+* [102-доступ-к-данным|102-доступ-к-данным.md]
+* [339-приложение-a-дерево-решений-для-принимающих-ingit|339-приложение-a-дерево-решений-для-принимающих-ingit.md]
+* [118-appendix-a-шаблон-для-header-warning|118-appendix-a-шаблон-для-header-warning.md]
+* [121-appendix-c-история-изменений-методологии|121-appendix-c-история-изменений-методологии.md]
+

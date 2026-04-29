@@ -150,9 +150,9 @@ Active participant target in first three years: 5,000-10,000.
 ---
 
 **Похожие документы:**
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.17)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.16)
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.16)
+- [153-executive-summary](153-executive-summary.md) (сходство 0.17)
+- [155-1-problem-statement](155-1-problem-statement.md) (сходство 0.16)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -160,8 +160,34 @@ Active participant target in first three years: 5,000-10,000.
 ---
 
 **Смотрите также:**
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [153-executive-summary](153-executive-summary.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
+- [164-10-appendices](164-10-appendices.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Problem Statement](155-1-problem-statement.md)
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md)
+- [Executive Summary](153-executive-summary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Executive Summary](153-executive-summary.md) _29%_
+- [1. Problem Statement](155-1-problem-statement.md) _29%_
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md) _25%_
+- [Table of Contents](154-table-of-contents.md) _21%_
+## Связанные документы
+
+- [Executive Summary](153-executive-summary.md) _21%_
+- [1. Problem Statement](155-1-problem-statement.md) _21%_
+- [Table of Contents](154-table-of-contents.md) _17%_
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md) _17%_
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _17%_

@@ -152,9 +152,9 @@ that touches the world beyond the personal context.
 ---
 
 **Похожие документы:**
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) (сходство 0.20)
-- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.14)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.14)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md) (сходство 0.20)
+- [175-6-ethical-framework](175-6-ethical-framework.md) (сходство 0.14)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -162,8 +162,49 @@ that touches the world beyond the personal context.
 ---
 
 **Смотрите также:**
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [175-6-ethical-framework](175-6-ethical-framework.md)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [10. Open Questions](179-10-open-questions.md)
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md)
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md)
+- [6. Ethical Framework](175-6-ethical-framework.md)
+- [7. Governance and Oversight](176-7-governance-and-oversight.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [8. Call to Action](145-8-call-to-action.md)
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md)
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [Abstract](168-abstract.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _25%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _25%_
+- [Abstract](168-abstract.md) _21%_
+- [7. Governance and Oversight](176-7-governance-and-oversight.md) _21%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _17%_
+- [10. Open Questions](179-10-open-questions.md) _17%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _17%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _17%_
+## Связанные документы
+
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _29%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _29%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _29%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _25%_
+- [7. Open Questions](144-7-open-questions.md) _25%_
+- [Abstract](168-abstract.md) _25%_
+- [10. Open Questions](179-10-open-questions.md) _25%_
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md) _25%_

@@ -49,3 +49,30 @@ _Автоматически сгенерировано по 14 файлам ра
 ## Какие вопросы лучше задавать авторам при первом контакте?
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
+
+## Как работает AgentFS и что такое .agentos?
+
+Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
+
+## Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
+
+## Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Q&A: 04-ai-collaborations](../04-ai-collaborations/QA.md) _90%_
+- [Глобальный Q&A](../QA.md) _73%_
+- [Q&A: 02-anthropic-vacancies](../02-anthropic-vacancies/QA.md) _37%_
+- [Q&A: 03-technology-combinations](../03-technology-combinations/QA.md) _17%_
+- [Ограничения, лицензии и что пока лучше не склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) _17%_
+- [Q&A: 05-habr-projects](../05-habr-projects/QA.md) _17%_

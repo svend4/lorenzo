@@ -40,9 +40,9 @@ applied work demonstrated its absence
 ---
 
 **Похожие документы:**
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.42)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.39)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.38)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.42)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.39)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.38)
 
 
 <!-- see-also -->
@@ -50,8 +50,51 @@ applied work demonstrated its absence
 ---
 
 **Смотрите также:**
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md)
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [Acknowledgments](146-acknowledgments.md)
+- [Acknowledgments](224-acknowledgments.md)
+- [Acknowledgments](267-acknowledgments.md)
+- [Acknowledgments](286-acknowledgments.md)
+- [Acknowledgments](319-acknowledgments.md)
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [References](268-references.md)
+- [References](287-references.md)
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _60%_
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _53%_
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _53%_
+- [Acknowledgments](146-acknowledgments.md) _48%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _48%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _42%_
+- [Acknowledgments](224-acknowledgments.md) _37%_
+- [Table of Contents](137-table-of-contents.md) _29%_
+## Связанные документы
+
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _53%_
+- [Acknowledgments](146-acknowledgments.md) _48%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _48%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _42%_
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _42%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _37%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _37%_
+- [References](268-references.md) _33%_

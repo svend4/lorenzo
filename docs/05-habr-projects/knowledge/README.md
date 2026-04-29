@@ -4,4 +4,4 @@
 
 ## Содержание
 
-- [wikontic.md](wikontic.md) — <!-- autofill-status -->
+- [wikontic.md](wikontic.md) — > [!WARNING]

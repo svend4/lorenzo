@@ -1,0 +1,498 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Ограничения, лицензии и что пока лучше не склеивать
+
+
+h2. Содержание
+
+* [Статус|#статус]
+* [Ограничения, лицензии и что пока лучше не склеивать|#ограничения-лицензии-и-что-пока-лучше-не-склеивать]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ A2A силён, но до стабилизации Card/Evidence/Memory contracts он добавит много распределённой сложности без гарантии качества.{quote}
+{quote}🔧 _Подход:_ ACD и AutoResearch‑подобные подходы полезны только после появления метрик и regression set; иначе система будет “улучшать” то, что ещё не умеет измерять.{quote}
+{quote}✅ _Результат:_ Вместе это даёт новый тип сущности: не только personcard , projectcard , episodecard , но и agentexperiencecard .{quote}
+{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{memory}}, {{evidence}}, {{review}}, {{search}}, {{envelope}}, {{агент}}, {{trace}}{quote}
+>
+
+
+
+h2. Статус
+
+|| Параметр || Значение ||
+|| Теги || — ||
+|| Упоминаний в репо || — ||
+|| Слой || — ||
+|| Контакт || — ||
+|| Статус связи || не писали ||
+
+_Обновлено: 2026-04-29_
+
+
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
+
+{quote}Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi[^svyazi] как базовый паттерн остаётся авторским закрытым п{quote}
+_Проекты:_ Svyazi, CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+
+----
+
+
+
+
+
+h2. Ограничения, лицензии и что пока лучше не склеивать
+
+Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT[^ngt] Memory использует BSL[^bsl] 1.1 и прямо говорит о бесплатности для личных проектов, а по ряду других систем лицензия в просмотренных источниках либо не акцентирована, либо требует проверки уже на стороне репозитория и бизнес‑сценария. Это означает, что для коммерчески чувствительного стека ранний выбор memory‑слоя — не только инженерный, но и лицензионный. citeturn41search0turn22view5turn18search1turn15search3
+
+Второе ограничение относится к оркестрации. Хотя mclaude, AI Factory, Rufler и Sequential выглядят очень привлекательно, их не стоит собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой; Sequential — reviewer‑логика. Если попытаться включить все четыре слоя одновременно до стабилизации card/evidence contracts, получится “очень умный операционный шум”. Поэтому на ранней стадии разумнее выбрать _один основной orchestration spine_ и один review pattern, а не строить суперкомбайн. citeturn20view2turn20view3turn20view4turn20view11
+
+Третье ограничение касается voice/local‑first mesh. Голосовой вход очень соблазнительно добавляет “живую ткань” системы, но именно здесь легко утонуть в необязательной инженерии: streaming transcription, diarization, semantic post‑processing, multi-device sync, offline UX, conflict resolution. Для первой публично полезной версии достаточно не “идеальной диктовки”, а простого и надёжного пути
+voice → episode card → review
+. Всё, что дальше, лучше добавлять после того, как уже появилась ценность от графа, evidence и review. Такой порядок согласуется и с Yttri‑подходом к workspace вокруг записей, и с простыми локальными whisper‑сценариями, и с идеей local-first sync как следующего, а не первого слоя сложности. citeturn21view10turn21view11turn35search0turn11search11
+
+Последняя развилка — это уровень “самоулучшения”. AutoResearch и Sequential выглядят очень мощно, но только после того, как появилась _метрика качества_, benchmark set и отчетливое понимание, что считать регрессией. До этого автоматическая оптимизация будет скорее производить вариации, чем устойчивые улучшения. Поэтому self-improvement контур разумно активировать только тогда, когда вы уже можете померить quality of match, quality of evidence и false positive rate по review‑очереди. Это не консерватизм, а инженерная трезвость, полностью согласующаяся с духом AutoResearch — “изменяй только то, что умеешь измерить и откатывать”. citeturn20view19turn20view11turn20view6
+
+Итоговое продолжение therefore выглядит так. Лучший следующий шаг — _не искать ещё двадцать новых проектов_, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record. На этом основании уже можно по‑настоящему проверить, превращается ли набор “скромных” pet‑проектов с Хабра в новую систему свойств — discovery, explainability, local ownership, controlled memory и cheap/safe execution. Если этот слой заработает, тогда уже есть смысл возвращаться к расширению ансамблей в сторону federation, richer voice UX и self-improving research loop. citeturn41search0turn27view0turn20view5turn21view0turn39view1turn20view10 
+
+продолжение этой темы
+
+Продолжение лучше делать уже не как очередной список “интересных статей”, а как
+переход от конструктора к операционной модели Svyazi‑2.0
+. То есть: какие новые слои добавить, какие метрики ввести, как отличить систему от Notion/Mem/AFFiNE/LangGraph‑стеков, и как довести это до продукта.
+1. Новый важный слой: общая память между агентами, а не только память одного агента
+В предыдущей карте у нас уже были Yodoca[^yodoca], NGT Memory, AgentFS, mclaude и knowledge-space. Но теперь в общую схему стоит добавить ещё один близкий проект —
+CoAlly
+из статьи “Контекстная амнезия: три агента, три IDE, ноль общей памяти”. Его ключевая идея: разные агенты и IDE не должны заново учиться одному и тому же контексту; система сохраняет архитектурные решения, баги, root cause analysis, commit hash, полезные знания и делает их доступными через общий MCP[^mcp]‑слой. Автор прямо противопоставляет это статичным
+CLAUDE.md
+,
+.cursorrules
+и ручному Memory Bank; CoAlly использует семантический поиск, локальные multilingual embeddings, асинхронную векторизацию, on‑premise режим, изоляцию организаций, envelope encryption и поддержку Claude Code, Cursor, Windsurf, Continue, Gemini CLI и других MCP‑совместимых клиентов.
+Habr
+Для Svyazi‑2.0 это важнее, чем кажется. Svyazi в исходном виде умеет строить карточки людей и находить связи между участниками; CoAlly‑подобный слой переносит эту идею на
+агентов и команды агентов
+: кто что уже выяснил, какие гипотезы проверены, какие решения приняты, какие ошибки повторяются. Вместе это даёт новый тип сущности: не только
+person_card
+,
+project_card
+,
+episode_card
+, но и
+agent_experience_card
+.
+Ансамбль F — Cross‑Agent Memory Bus
+Родители:
+Svyazi + CoAlly + AgentFS + Yodoca/NGT Memory + mclaude.
+Что рождается:
+единая шина памяти, где люди, проекты, агенты и решения живут в одном пространстве карточек.
+Mermaid
+Новое свойство здесь —
+память становится не персональной, а коллективной и межагентной
+. Один агент нашёл, что кандидат A хорошо подходит к проекту B; другой агент проверил evidence; третий агент нашёл риск; четвёртый агент не начинает с нуля, а видит уже накопленную историю. mclaude дополняет это locks/handoffs/mailbox‑механикой: несколько Claude‑сессий могут писать handoffs, брать locks, обмениваться сообщениями и работать над общим состоянием без постоянного участия человека. В описанном кейсе mclaude использовался 3 людьми и 6 параллельными сессиями Claude Code, с 27 handoffs за 4 дня и без повторённых тупиков.
+Habr
+Для Svyazi‑2.0 это означает:
+карточка коллаборации должна учитывать не только людей, но и историю агентных проверок
+. Например: “эти двое потенциально подходят друг другу” — это не финальный вывод, а объект с историей: кто предложил, какой evidence, кто проверил, какие сомнения, что устарело, что подтверждено.
+2. Второй новый слой: AgentOps и трассировка всех решений
+Следующий зазор — observability. Если система сама извлекает карточки, строит связи, пишет в память и запускает агентов, то без трассировки она быстро превращается в чёрный ящик. На Хабре здесь хорошо ложатся две линии: большой обзор LLM[^llm] Observability и конкретный проект с Langfuse + Cursor Hooks + AI‑анализатором трейсов. Langfuse в этих материалах описывается как open-source APM для LLM‑приложений: traces, generations, spans, events, токены, стоимость, latency, tool executions. Отдельный проект TraceDebugger поверх Langfuse автоматически анализирует трейсы и ищет anomaly types вроде high cost, logical loop, performance bottleneck и errors.
+Habr
++1
+Для Svyazi‑2.0 это закрывает очень важный вопрос:
+почему система предложила именно эту связь?
+Не только через evidence pack, но и через execution trace: какая модель вызвана, какой prompt version, какие tools, какой retrieval, какой memory path, сколько стоило, где был review, какие альтернативы отброшены.
+Ансамбль G — Traceable Collaboration Engine
+Родители:
+Svyazi + Langfuse/TraceDebugger + LiteParse/Legal RAG[^rag] + Tool Search + Auto AI Router.
+Что рождается:
+система, где каждый match и каждое обновление карточки можно отследить как транзакцию.
+Mermaid
+Новый артефакт здесь —
+Trace Envelope
+. В дополнение к Card Envelope и Evidence Envelope стоит ввести:
+YAML
+trace_envelope:
+trace_id:
+"lf-trace-..."
+prompt_version:
+"extractor-v12"
+model_route:
+"local-qwen -> cloud-review"
+tools_used:
+-
+"liteparse"
+-
+"memory.search"
+-
+"cardindex.update"
+token_cost:
+input: 12400
+output: 1800
+usd: 0.037
+latency_ms: 18500
+anomaly_flags:
+-
+"high_context"
+-
+"weak_evidence"
+Это особенно важно, если включать Tool Search и Auto AI Router. Tool Search на Хабре показан как способ резко уменьшить MCP‑overhead: пример даёт падение MCP‑контекста с 82k до 5.7k токенов и +76k свободного контекста в Claude Code. Auto AI Router, в свою очередь, даёт быстрый Go‑sidecar для OpenAI‑совместимого endpoint, multi‑provider routing, fail2ban по credentials, session‑sticky routing, двухуровневый rate limiting и интеграцию с LiteLLM DB.
+Habr
++1
+Вывод:
+execution plane Svyazi‑2.0 должен быть не просто “дешёвым”, а
+измеряемым
+. Каждая карточка, match, recommendation и review должны иметь след: модель, маршрут, стоимость, tools, evidence, reviewer, состояние.
+3. Третий новый слой: A2A как протокол для агентов, MCP как протокол для инструментов
+До сих пор мы рассматривали MCP как главный внешний интерфейс. Но для Svyazi‑2.0, где могут работать extractor‑агент, reviewer‑агент, security‑агент, evidence‑агент, moderator‑агент и publisher‑агент, одного MCP мало. MCP отвечает за “агент использует инструмент”. A2A отвечает за “агент договаривается с другим агентом”. Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с более чем 150 организациями поддержки и интеграциями в крупные cloud‑платформы; спецификация A2A описывает discovery capabilities, modalities, collaborative tasks и обмен информацией между независимыми агентами без доступа к их внутреннему состоянию.
+Linux Foundation
++1
+В Хабр‑обзорах A2A также прямо противопоставляется MCP: MCP — инструменты и данные, A2A — коммуникация агентов, Agent Cards, Tasks, long‑running operations и push‑уведомления.
+Habr
++1
+Ансамбль H — MCP/A2A Review Fabric
+Родители:
+MCP tools + A2A agents + LangGraph HITL + mclaude mailbox + AI Factory/Handoff.
+Что рождается:
+не “рой агентов”, а проверяемая сеть ролей, где каждый агент публикует capability card, принимает задачи, отдаёт промежуточные артефакты и ждёт human approval там, где нужно.
+Mermaid
+LangGraph здесь полезен не как конкурент, а как reference‑runtime для stateful workflows: его документация описывает persistence через checkpoints, threads, human‑in‑the‑loop, memory, time travel и fault‑tolerant execution. HITL‑middleware умеет останавливать agent tool call перед рискованным действием, сохранять состояние и ждать решения человека: approve, edit или reject.
+Документация LangChain
++1
+Для Svyazi‑2.0 это означает:
+review protocol лучше проектировать сразу как state machine
+, а не как комментарии в чате.
+YAML
+review_state:
+proposal_id:
+"match_2026_04_29_001"
+state:
+"pending_review"
+required_roles:
+-
+"evidence_reviewer"
+-
+"privacy_reviewer"
+allowed_decisions:
+-
+"approve"
+-
+"edit"
+-
+"reject"
+-
+"defer"
+interrupt_policy:
+external_send:
+"human_required"
+card_publish:
+"human_required"
+memory_episode:
+"auto_allowed"
+memory_fact:
+"review_required"
+4. Четвёртый новый слой: защита от prompt worms и заражения памяти
+Чем больше Svyazi‑2.0 становится агентной системой, тем больше она становится потенциальным переносчиком атак. На Хабре есть сильная линия материалов про Prompt Worms и аудит OpenClaw. Главная мысль: если агент читает недоверенный контент, имеет доступ к данным и может отправлять сообщения наружу, он превращается в вектор атаки. В статье про Prompt Worms отдельно выделен риск persistent memory: вредоносные инструкции могут быть записаны в долговременную память фрагментами и позже собраны в исполняемое поведение.
+Habr
+Аудит OpenClaw показал практический слой этой проблемы: zero‑sanitization pipeline, timeout‑as‑approval, arbitrary exec через plugin system, plaintext credential storage, memory exfiltration/injection, default‑open command gating и другие критические/high‑risk проблемы.
+Habr
+Ансамбль I — Memory Firewall
+Родители:
+Svyazi privacy‑by‑design + SENTINEL[^sentinel]/Prompt Worms lessons + LangGraph HITL + Card/Evidence/Memory contracts.
+Что рождается:
+память, в которую нельзя просто “записать всё, что сказал агент”.
+Mermaid
+Практическое правило:
+внешний текст не должен иметь права становиться instruction memory
+. Он может стать episode, source, evidence, observation, но не system rule и не trusted fact без review. Это особенно важно для Svyazi‑2.0, потому что профили людей, чаты, PDF, сайты, GitHub‑issues и сообщения агентов будут смешиваться в одном graph‑пространстве.
+5. Roadmap на 6–12 месяцев
+Ниже дорожная карта уже не “по инструментам”, а по системным способностям. Она предполагает, что базовый MVP из CardIndex + evidence + memory уже начат.
+Фаза
+Срок
+Главная цель
+Definition of Done
+Метрика успеха
+0. Contract Freeze
+2–3 недели
+Зафиксировать Card Envelope, Evidence Envelope, Memory Write Policy, Trace Envelope
+Есть JSON/YAML‑схемы, тестовые карточки
+person/project/episode/evidence
+, все pipeline‑шаги пишут в один формат
+100% карточек имеют
+card_id
+,
+state
+,
+sources
+,
+payload_hash
+1. Evidence‑first MVP
+1 месяц
+Любой match объясняется источниками
+UI показывает match + evidence pack + page/span/source links
+≥80% recommendations имеют проверяемый evidence
+2. Memory Governance
+1–2 месяца
+Ассоциации не смешиваются с фактами
+Есть
+episode/proposal/fact/decayed/conflict
+states и review queue
+False positive по approved facts <10% на тестовом наборе
+3. AgentOps Layer
+2–3 месяца
+Все agent runs трассируются
+Langfuse/Trace‑подобный слой пишет model/tool/cost/latency/anomaly
+100% внешних выводов имеют
+trace_id
+4. Multi‑agent Moderation
+3–4 месяца
+Extractor/reviewer/publisher работают как роли
+mclaude/AI Factory/A2A‑style handoff; risky actions через HITL
+Среднее время review падает на 30–50%
+5. Local‑first/Federation
+4–6 месяцев
+Узлы сообщества синхронизируют только разрешённые слои
+Локальный vault + selective sync + shared metadata graph
+Нет PII[^pii] в shared layer по audit checks
+6. Self‑Improvement Loop
+6–12 месяцев
+Ошибки превращаются в benchmark/prompt/skill patches
+Есть regression set, nightly eval, rollback policy
+Улучшение precision/recall без роста false positives
+Ключевой порядок такой:
+контракты → evidence → memory governance → AgentOps → multi‑agent → federation → self‑improvement
+. Не наоборот. Если сначала строить “рой”, он ускорит хаос. Если сначала закрепить card/evidence/memory/trace contracts, рой будет ускорять проверяемый процесс.
+6. Метрики, без которых Svyazi‑2.0 нельзя масштабировать
+Для Svyazi‑2.0 нужна не одна “accuracy”, а дерево метрик.
+Уровень
+Метрика
+Что измеряет
+Extraction
+schema_valid_rate
+Доля LLM‑ответов, прошедших JSON/schema validation
+Normalization
+canonicalization_rate
+Доля skills/company/roles, сведённых к канону
+Evidence
+evidence_coverage
+Доля выводов с source/page/span/bbox
+Matching
+match_precision@k
+Сколько top‑k рекомендаций человек признал полезными
+Matching
+serendipity_score
+Сколько рекомендаций были неочевидны, но полезны
+Memory
+proposal_to_fact_rate
+Сколько гипотез после review стали фактами
+Memory
+false_association_rate
+Сколько ассоциаций отклонено как шум
+Safety
+unsafe_tool_block_rate
+Сколько risky actions остановлено policy/HITL
+Cost
+cost_per_card
+Цена обработки одной карточки
+AgentOps
+trace_completeness
+Доля операций с полным trace envelope
+UX
+time_to_explain_match
+За сколько секунд пользователь понимает “почему эта связь”
+Особенно важны
+false_association_rate
+и
+evidence_coverage
+. Без них система легко станет “магическим рекомендателем”, которому нельзя доверять.
+7. Чем Svyazi‑2.0 отличается от Notion AI, Mem, AFFiNE и LangGraph‑стеков
+Против Notion AI
+Notion AI Enterprise Search уже умеет искать по Notion и подключённым приложениям вроде Slack, Google Drive, GitHub, Jira, Teams, SharePoint и OneDrive; он даёт ответы с citations, research reports, permission‑aware search, no training on customer data и enterprise compliance controls.
+Notion
+Но Notion AI — это прежде всего
+workspace search + productivity AI
+. Svyazi‑2.0 в предлагаемой конфигурации — это
+collaboration discovery system
+: она не только отвечает на вопросы по базе, а строит карточки людей/проектов/эпизодов, отслеживает weak signals, ведёт review queue, различает raw/inferred/approved, объясняет match через evidence и память. Notion сильнее как готовый enterprise workspace; Svyazi‑2.0 сильнее как специализированная машина поиска коллабораций и структурированных связей.
+Против Mem
+Mem позиционируется как “AI Thought Partner”: Voice Mode, Mem Chat, Heads Up, Deep Search, автоматическое связывание заметок, capture через extension/email/share и offline/sync across Mac/Windows/iOS/Web.
+Mem Помощь
+Но Mem в первую очередь строит
+личную или индивидуально‑командную knowledge memory
+. Svyazi‑2.0 должна строить
+социально‑проектный граф
+: кто может с кем работать, почему, на основании каких источников, с каким риском, кто подтвердил, какие гипотезы устарели. Mem хорош как “вспомнить мои мысли”; Svyazi‑2.0 — как “найти людей, проекты и скрытые комбинации”.
+Против AFFiNE
+AFFiNE силён как privacy‑first, local‑first, open-source workspace, объединяющий docs, whiteboards и databases; в свежем материале AFFiNE подчёркивает open source, отсутствие vendor lock‑in, local-first владение данными и связку документов/whiteboard/database в одной среде.
+AFFiNE
+AFFiNE может быть отличным
+UI/vault substrate
+для Svyazi‑2.0, но сам по себе не даёт Svyazi‑логики: verified/claimed/inferred, CardIndex, collaboration cards, Evidence Envelope, memory governance, moderation protocol. Иначе говоря, AFFiNE — кандидат на “тело” интерфейса; Svyazi‑2.0 — кандидат на “нервную систему” discovery.
+Против LangGraph‑based RAG систем
+LangGraph официально позиционируется как низкоуровневый orchestration framework/runtime для long‑running stateful agents с durable execution, streaming, HITL и persistence. Его persistence layer сохраняет graph state как checkpoints, поддерживает threads, memory, time travel и fault tolerance.
+Документация LangChain
++1
+Но LangGraph — это
+runtime
+, а не доменная система. Он помогает построить workflow, но не решает сам по себе: какую карточку считать истиной, как отделить proposal от fact, как объяснять коллаборацию, как модерировать inferred‑значения, как нормализовать навыки и проекты. Svyazi‑2.0 может использовать LangGraph‑паттерны для HITL и stateful workflows, но её ценность выше уровня orchestration.
+8. Коммерциализация: три реалистичных направления
+A. B2B Community Intelligence OS
+Целевая аудитория: профессиональные сообщества, акселераторы, open-source фонды, образовательные когорты, внутренние engineering communities.
+Продуктовая формула:
+“Мы превращаем хаотичные профили, чаты и проектные идеи в проверяемый граф людей, навыков, проектов и коллабораций.”
+Главная ценность: не “ещё одна база участников”, а
+машина образования команд
+. Условный KPI: сколько полезных коллабораций, проектов, выступлений, mentorship‑пар или hiring‑контактов возникло из рекомендаций системы.
+B. Legal / Forensic Knowledge OS
+Целевая аудитория: юристы, compliance‑команды, legal aid, гос/регуляторные группы, исследователи судебной практики.
+Продуктовая формула:
+“Каждый вывод имеет страницу, фрагмент, evidence pack, review status и trace.”
+Здесь особенно важны LiteParse/Legal RAG‑линия, page‑level grounding и human review. Legal RAG‑кейс на Хабре прямо показывает ценность page‑level grounding для корпуса судебных решений и законов: задача — находить нужные страницы, извлекать ответы и давать точные ссылки на источники.
+Habr
+C. AgentOps Knowledge Kernel
+Целевая аудитория: команды, которые уже работают с Claude Code/Cursor/Windsurf/Gemini CLI и страдают от повторного объяснения контекста, потери решений и хаоса agent workflows.
+Продуктовая формула:
+“Ваши агенты перестают забывать, повторяться и работать в чёрном ящике.”
+Здесь Svyazi‑2.0 становится не внешним community product, а
+ядром агентной памяти и трассировки
+: CoAlly‑style shared memory, mclaude‑style handoffs/locks/mailbox, AI Factory‑style skills/patches/evolution, Langfuse‑style traces.
+9. Что пока не стоит склеивать в один релиз
+Есть пять соблазнов, которые лучше отложить.
+Первый — сразу делать полный A2A‑mesh. A2A силён, но до стабилизации Card/Evidence/Memory contracts он добавит много распределённой сложности без гарантии качества. A2A нужен после того, как понятны роли агентов, типы задач и review states.
+A2A Protocol
++1
+Второй — сразу включать AutoResearch/self‑improvement. ACD и AutoResearch‑подобные подходы полезны только после появления метрик и regression set; иначе система будет “улучшать” то, что ещё не умеет измерять. ACD как направление показывает, что модели могут систематически генерировать задачи для выявления возможностей и слабостей, но именно это требует аккуратной функции качества.
+Habr
+Третий — переносить
+inferred
+сразу в память как факт. Это главный путь к “структурным слухам”. Всё inferred должно жить как proposal до review.
+Четвёртый — открывать внешние skills/MCP без quarantine. Prompt Worms и аудит OpenClaw показывают, что skill supply chain, persistent memory и external communications превращают агентную систему в поверхность заражения.
+Habr
++1
+Пятый — строить дорогой cloud‑first inference до бюджетного routing. Tool Search и Auto AI Router уже показывают, что сначала нужно срезать context overhead, ввести routing, sticky sessions, rate limits, failover и tracing; только потом масштабировать модели.
+Habr
++1
+10. Следующий конкретный артефакт: Svyazi‑2.0 Architecture RFC
+После всех этих продолжений самым полезным документом будет не ещё один обзор, а
+RFC на 8–12 страниц
+. Его структура:
+Problem statement:
+почему обычные CRM, Notion‑базы и RAG‑чаты не решают discovery коллабораций.
+Core entities:
+person
+,
+project
+,
+episode
+,
+document
+,
+hypothesis
+,
+match
+,
+review
+,
+trace
+.
+Contracts:
+Card Envelope, Evidence Envelope, Memory Write Policy, Trace Envelope, Review Record.
+Runtime:
+MCP для tools, A2A для agents, HITL для risky actions.
+Memory:
+episode/proposal/fact/conflict/decayed states.
+Safety:
+PII separation, external content quarantine, prompt‑worm firewall, tool class policies.
+Metrics:
+precision@k, evidence coverage, false association rate, cost per card, trace completeness.
+MVP boundary:
+что входит в v0.1, что запрещено до v0.2.
+Pilot scenarios:
+community OS, legal/research OS, AgentOps memory kernel.
+Open questions for Habr authors:
+CardIndex expansion, memory consolidation,
+.agentos
+namespace, NGT false associations, mclaude handoffs.
+Итоговая линия такая:
+Svyazi‑2.0 должна быть не “AI‑ассистентом”, а системой управляемых переходов
+— от сырого текста к карточке, от карточки к гипотезе, от гипотезы к evidence, от evidence к review, от review к approved knowledge, от approved knowledge к новой коллаборации. Именно на этих переходах возникает уникальное свойство, которого нет у отдельных проектов поодиночке.
+
+
+
+----
+
+_Похожие документы:_
+* [14-limitations|../01-svyazi/14-limitations.md] (сходство 0.22)
+* [TABLES|../TABLES.md] (сходство 0.16)
+* [00-intro|00-intro.md] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [14-limitations|../01-svyazi/14-limitations.md]
+* [TABLES|../TABLES.md]
+* [ACTION_ITEMS|../ACTION_ITEMS.md]
+* [00-intro|00-intro.md]
+
+
+
+
+
+----
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^llm]: Large Language Model — большая языковая модель
+
+[^pii]: Personally Identifiable Information — персональные данные
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^rufler]: OSS-проект: оркестратор AI-агентов
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+[^bsl]: Business Source License — коммерческая лицензия с открытым кодом
+
+
+h2. Упоминается в
+
+* [Поиск AI-коллабораций|../README.md]
+
+
+h2. Связанные документы
+
+* [Новые ансамбли следующего шага|10-новые-ансамбли-следующего-шага.md] _33%_
+* [09 Architectural Gaps|../01-svyazi/09-architectural-gaps.md] _29%_
+* [11 Integration Contracts|../01-svyazi/11-integration-contracts.md] _29%_
+* [Карта найденных проектов и паттернов|03-карта-найденных-проектов-и-паттернов.md] _29%_
+* [Архитектурные зазоры, которые важнее новых инструментов|09-архитектурные-зазоры-которые-важнее-новых-инструме.md] _29%_
+* [Интеграционный контракт, который стоит зафиксировать сразу|11-интеграционный-контракт-который-стоит-зафиксироват.md] _29%_
+* [03 Component Catalog|../01-svyazi/03-component-catalog.md] _25%_
+* [10 Second Order Ensembles|../01-svyazi/10-second-order-ensembles.md] _25%_

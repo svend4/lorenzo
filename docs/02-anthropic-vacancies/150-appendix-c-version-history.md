@@ -555,9 +555,9 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 ---
 
 **Похожие документы:**
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.18)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.17)
-- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.16)
+- [165-closing](165-closing.md) (сходство 0.18)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.17)
+- [CONCEPTS](../CONCEPTS.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -565,8 +565,43 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 ---
 
 **Смотрите также:**
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [CONCEPTS](docs/CONCEPTS.md)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [165-closing](165-closing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md)
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md)
+- [Closing](165-closing.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Обратная связь](133-обратная-связь.md)
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _21%_
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _21%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _17%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _17%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _17%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _17%_
+- [Content Overview](31-content-overview.md) _17%_
+## Связанные документы
+
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _17%_
+- [8. Call to Action](145-8-call-to-action.md) _17%_
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _17%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _17%_
+- [The Recursive Insight](281-the-recursive-insight.md) _17%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _17%_

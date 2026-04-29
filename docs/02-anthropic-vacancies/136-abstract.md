@@ -69,9 +69,9 @@ unsolved issues.
 ---
 
 **Похожие документы:**
-- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.19)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.18)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
+- [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.19)
+- [145-8-call-to-action](145-8-call-to-action.md) (сходство 0.18)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -79,8 +79,48 @@ unsolved issues.
 ---
 
 **Смотрите также:**
-- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
+- [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md)
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md)
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [8. Call to Action](145-8-call-to-action.md)
+- [Appendix A: Glossary](148-appendix-a-glossary.md)
+- [Appendix B: Summary of Contributions](149-appendix-b-summary-of-contributions.md)
+- [Table of Contents](137-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Существующий landscape collaborators (твоя working knowledge)](354-существующий-landscape-collaborators-твоя-working-.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _25%_
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _25%_
+- [Table of Contents](137-table-of-contents.md) _21%_
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _21%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [Appendix B: Summary of Contributions](149-appendix-b-summary-of-contributions.md) _21%_
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _17%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _17%_
+## Связанные документы
+
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _33%_
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _33%_
+- [8. Call to Action](145-8-call-to-action.md) _33%_
+- [Table of Contents](137-table-of-contents.md) _29%_
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _21%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _21%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _21%_

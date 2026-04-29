@@ -449,9 +449,9 @@ README — на двух языках минимум. Русский как prim
 ---
 
 **Похожие документы:**
-- [TIMELINE](docs/TIMELINE.md) (сходство 0.14)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.12)
-- [TABLES](docs/TABLES.md) (сходство 0.12)
+- [TIMELINE](../TIMELINE.md) (сходство 0.14)
+- [133-обратная-связь](133-обратная-связь.md) (сходство 0.12)
+- [TABLES](../TABLES.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -459,8 +459,33 @@ README — на двух языках минимум. Русский как prim
 ---
 
 **Смотрите также:**
-- [TIMELINE](docs/TIMELINE.md)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [DECISIONS](docs/DECISIONS.md)
+- [TIMELINE](../TIMELINE.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [133-обратная-связь](133-обратная-связь.md)
+- [DECISIONS](../DECISIONS.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Appendix B: Change Log](34-appendix-b-change-log.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix B: Change Log](34-appendix-b-change-log.md) _21%_
+- [🇷🇺 О проекте](67-о-проекте.md) _17%_
+## Связанные документы
+
+- [Appendix B: Change Log](34-appendix-b-change-log.md) _25%_
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _21%_
+- [Ключевые решения и выводы](../DECISIONS.md) _21%_
+- [Appendix C: References](104-appendix-c-references.md) _17%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _17%_
+- [🇷🇺 О проекте](67-о-проекте.md) _17%_

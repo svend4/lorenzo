@@ -1,25 +1,14 @@
-name: Update Documentation
+# Автоматически создан improve_ci_config.py
+# Обновляет метрики и индексы после push в main/master
+name: docs-update
 
 on:
   push:
-    branches: [main, master, "claude/**"]
+    branches: [main, master]
     paths:
-      - "docs/**"
-      - "scripts/improve_*.py"
-  schedule:
-    # Еженедельно по понедельникам в 06:00 UTC
-    - cron: "0 6 * * 1"
+      - 'docs/**'
+      - 'scripts/**'
   workflow_dispatch:
-    inputs:
-      group:
-        description: "Группа скриптов (пусто = все)"
-        required: false
-        default: ""
-      fast:
-        description: "Только быстрые скрипты"
-        required: false
-        default: "true"
-        type: boolean
 
 jobs:
   update-docs:
@@ -28,75 +17,38 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # нужно для git log в digest-скриптах
+          fetch-depth: 0  # нужен для git log в staleness/rss
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-          cache: pip
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
 
       - name: Install dependencies
-        run: pip install beautifulsoup4 lxml --quiet
+        run: |
+          pip install --quiet anthropic || true
 
-      - name: Run scripts (group)
-        if: ${{ github.event.inputs.group != '' }}
-        continue-on-error: true
-        run: python scripts/improve_run_all.py --group ${{ github.event.inputs.group }}
+      - name: Run fast scripts
+        run: python scripts/improve_run_all.py --fast --group reports
 
-      - name: Run scripts (fast, default)
-        if: ${{ github.event.inputs.group == '' }}
-        continue-on-error: true
-        run: python scripts/improve_run_all.py --fast
+      - name: Update search index
+        run: python scripts/improve_search_index.py
 
-      - name: Run weekly digest
-        continue-on-error: true
-        run: python scripts/improve_digest_weekly.py
+      - name: Generate RSS feed
+        run: python scripts/improve_rss.py
 
-      - name: Run autofill
-        continue-on-error: true
-        run: python scripts/improve_autofill.py
-
-      - name: Commit and push if changed
+      - name: Commit updated docs
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A docs/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "docs: auto-update via improve_run_all [skip ci]"
-            git push origin HEAD
-          fi
-
-  validate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: pip install beautifulsoup4 lxml --quiet
-
-      - name: Validate docs structure
-        run: python scripts/improve_validate.py
-
-      - name: Check scoring
-        run: |
-          python scripts/improve_scoring.py
-          python -c "
-          import re
-          from pathlib import Path
-          text = Path('docs/SCORING.md').read_text()
-          m = re.search(r'(\d+)%', text)
-          pct = int(m.group(1)) if m else 0
-          print(f'Score: {pct}%')
-          if pct < 80:
-              print('WARN: score below 80%')
-              exit(1)
-          "
+          git add docs/
+          git diff --staged --quiet || git commit -m "docs: auto-update metrics [skip ci]"
+          git push

@@ -1,0 +1,21 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/autofilled/components/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. components
+
+_Файлов:_ 10
+
+h2. Содержание
+
+* [.md|.md] — _Тип:_ 1
+* [cowork.md|cowork.md] — _Тип:_ 783
+* [ingit.md|ingit.md] — _Тип:_ 831
+* [kksudo.md|kksudo.md] — _Тип:_ 32
+* [lorenzo.md|lorenzo.md] — _Тип:_ 566
+* [nautilus.md|nautilus.md] — _Тип:_ 1365
+* [sgb.md|sgb.md] — _Тип:_ 418
+* [spbmolot.md|spbmolot.md] — _Тип:_ 27
+* [svend4.md|svend4.md] — _Тип:_ 668
+* [svyazi.md|svyazi.md] — _Тип:_ 867

@@ -39,6 +39,17 @@ _Дата: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [project-component](docs/templates/project-component.md)
+- [ensemble](../obsidian/templates/ensemble.md)
+- [project-component](../obsidian/templates/project-component.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Шаблоны документов](README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Ансамбль: [Название]](ensemble.md) _25%_
+- [[Название компонента]](project-component.md) _25%_
+- [[Тема исследования]](research-note.md) _21%_

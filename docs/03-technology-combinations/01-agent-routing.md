@@ -44,7 +44,7 @@
 ---
 
 **Похожие документы:**
-- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.12)
+- [03-local-first](03-local-first.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -52,8 +52,25 @@
 ---
 
 **Смотрите также:**
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [WORD_FREQ](docs/WORD_FREQ.md)
-- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md)
+- [03-local-first](03-local-first.md)
+- [02-knowledge-graphs](02-knowledge-graphs.md)
+- [WORD_FREQ](../WORD_FREQ.md)
+- [04-sozialrecht-domain](04-sozialrecht-domain.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Local-first и P2P стек](03-local-first.md)
+- [Бенчмарки и производительность](05-benchmarks.md)
+- [Графы знаний и Legal AI](02-knowledge-graphs.md)
+- [Комбинирование технологий для новых свойств](README.md)
+## Упоминается в
+
+- [Комбинирование технологий для новых свойств](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Комбинирование технологий для новых свойств](../README.md) _29%_
+- [Local-first и P2P стек](03-local-first.md) _21%_
+- [Бенчмарки и производительность](05-benchmarks.md) _21%_
