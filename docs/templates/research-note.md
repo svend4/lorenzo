@@ -1,13 +1,3 @@
----
-template: research-note
-version: "1.0"
-title: "[Тема исследования]"
-created: 2026-04-29
-status: draft
-tags: [исследование]
-related: []
----
-
 # [Тема исследования]
 
 <!-- summary: Краткий итог исследования -->
@@ -40,14 +30,3 @@ related: []
 
 ---
 _Создано: 2026-04-29_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [research-summary](docs/autofilled/research-summary.md)
-- [meeting-notes](docs/templates/meeting-notes.md)
-- [contact-outreach](docs/templates/contact-outreach.md)
-- [faq-entry](docs/templates/faq-entry.md)
-

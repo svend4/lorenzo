@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-04-29T14:10:10+00:00</updated>
+  <updated>2026-04-29T14:12:49+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/25de4e637b798ff6ece40f39e0498efe7ef18809</id>
+    <title>chore: regenerate badges + auto-exports after Sprint 12-14</title>
+    <link href="https://github.com/svend4/lorenzo/commit/25de4e637b798ff6ece40f39e0498efe7ef18809"/>
+    <updated>2026-04-29T14:10:20+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate badges + auto-exports after Sprint 12-14</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li></ul><p>Коммит: <code>25de4e63</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/1bf1481070f94e6330d736dc9470f83157a07dc2</id>
     <title>feat: Sprint 12-14 — bot-aware exclusions, distribution, web dashboard</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/c6592525f7558640f1735eb0f7a2333a3f30b8f3"/>
     <updated>2026-04-29T09:46:43+00:00</updated>
     <content type="html"><![CDATA[<p><strong>Extract Nautilus Portal Protocol v1.0.0-draft (earlier version)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/README.md">docs/nautilus/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/npp-v1-0/00-abstract-status.md">docs/nautilus/npp-v1-0/00-abstract-status.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/npp-v1-0/01-introduction.md">docs/nautilus/npp-v1-0/01-introduction.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/npp-v1-0/02-terminology.md">docs/nautilus/npp-v1-0/02-terminology.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/npp-v1-0/03-registry.md">docs/nautilus/npp-v1-0/03-registry.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/npp-v1-0/04-passport.md">docs/nautilus/npp-v1-0/04-passport.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/npp-v1-0/05-compatibility-levels.md">docs/nautilus/npp-v1-0/05-compatibility-levels.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/npp-v1-0/06-adapter-interface.md">docs/nautilus/npp-v1-0/06-adapter-interface.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/npp-v1-0/07-portal-entry.md">docs/nautilus/npp-v1-0/07-portal-entry.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/nautilus/npp-v1-0/08-consensus-algorithm.md">docs/nautilus/npp-v1-0/08-consensus-algorithm.md</a></li></ul><p>Коммит: <code>c6592525</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/cd90a75159e0bb348e78e8d2f5595f8a3d1b6177</id>
-    <title>feat: 3 новых скрипта — cross_section, digest_auto, export_report</title>
-    <link href="https://github.com/svend4/lorenzo/commit/cd90a75159e0bb348e78e8d2f5595f8a3d1b6177"/>
-    <updated>2026-04-29T09:46:42+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: 3 новых скрипта — cross_section, digest_auto, export_report</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CROSS_SECTION.md">docs/CROSS_SECTION.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DIGEST_AUTO.md">docs/DIGEST_AUTO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>cd90a751</code></p>]]></content>
   </entry>
 </feed>

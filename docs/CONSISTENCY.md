@@ -4,19 +4,19 @@
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 3 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 4 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 16 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 2 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 22 |
+| **AI Factory** | `AI Factory` | `AI-Factory` | 21 |
 | **NGT Memory** | `NGT Memory` | `NGT-Memory` | 40 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 19 |
-| **local-first** | `local-first` | `localfirst` | 3 |
-| **self-improvement** | `self-improvement` | `self-improve` | 156 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 18 |
+| **local-first** | `local-first` | `localfirst` | 4 |
+| **self-improvement** | `self-improvement` | `self-improve` | 155 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 18 |
-| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 15 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 17 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 14 |
 
-**Всего несогласованных написаний: 298**
+**Всего несогласованных написаний: 295**
 
 
 ## Детали по файлам
@@ -26,6 +26,7 @@
 
 - `docs/EMPTY_SECTIONS.md`
 - `docs/TABLES.md`
+- `docs/VERSION_DIFF.md`
 - `docs/CONSISTENCY.md`
 
 ### `knowledge space` → должно быть `knowledge-space`
@@ -49,7 +50,7 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
-- _...и ещё 17_
+- _...и ещё 16_
 
 ### `NGT-Memory` → должно быть `NGT Memory`
 
@@ -67,11 +68,12 @@
 - `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
 - `docs/SITEMAP.md`
-- _...и ещё 14_
+- _...и ещё 13_
 
 ### `localfirst` → должно быть `local-first`
 
 - `docs/TABLES.md`
+- `docs/VERSION_DIFF.md`
 - `docs/CONSISTENCY.md`
 - `docs/OUTLINE.md`
 
@@ -80,9 +82,9 @@
 - `docs/READING_LIST.md`
 - `docs/CONTACTS.md`
 - `docs/PARAGRAPH_QUALITY.md`
-- `docs/DIGEST_AUTO.md`
 - `docs/LLM_SUMMARIES.md`
-- _...и ещё 151_
+- `docs/SPELLCHECK.md`
+- _...и ещё 150_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
@@ -98,7 +100,7 @@
 - `docs/QA.md`
 - `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
-- _...и ещё 13_
+- _...и ещё 12_
 
 ### `Card-Envelope` → должно быть `Card Envelope`
 
@@ -106,8 +108,8 @@
 - `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
 - `docs/SITEMAP.md`
-- `docs/VERSION_DIFF.md`
-- _...и ещё 10_
+- `docs/READING_TIME.md`
+- _...и ещё 9_
 
 ## Как исправить
 

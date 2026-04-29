@@ -6,15 +6,18 @@ _Период: последние 7 дней (с 2026-04-22)_
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за неделю | **83** |
+| Коммитов за неделю | **86** |
 | Новых файлов | **0** |
 | Изменённых файлов | **0** |
 | Всего MD файлов | **1193** |
-| Всего слов | **945,302** |
+| Всего слов | **946,768** |
 
 ## Коммиты
 
 ```
+25de4e6 chore: regenerate badges + auto-exports after Sprint 12-14
+1bf1481 feat: Sprint 12-14 — bot-aware exclusions, distribution, web dashboard
+519d41b docs: auto-update via improve_run_all [skip ci]
 b471bba chore: regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML)
 22c4cf8 feat: Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD
 41a9c8a chore: ignore auto-generated exports and runtime caches
@@ -27,11 +30,8 @@ ba78ff2 docs: auto-update via improve_run_all [skip ci]
 fc65bef chore: sync PROGRESS.md
 039a4a2 docs: auto-update via improve_run_all [skip ci]
 dfc530a docs: auto-update via improve_run_all [skip ci]
-fedc045 Audit-driven extraction of major missing substantive content
-64358a8 chore: синхронизировать сгенерированные отчёты и docs
-c659252 Extract Nautilus Portal Protocol v1.0.0-draft (earlier version)
 ```
 
 ---
 
-_Сгенерировано: 2026-04-29 13:56_
+_Сгенерировано: 2026-04-29 14:15_

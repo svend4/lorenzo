@@ -1,6 +1,6 @@
 # Индекс «Смотрите также»
 
-**Файлов с блоком See Also:** 1108
+**Файлов с блоком See Also:** 1066
 
 ## Ключевые связи
 
@@ -17,8 +17,7 @@
 - **12-roadmap** → `12-дорожная-карта-прототипа-следующей-итерации`, `roadmap`, `14-limitations`, `08-conclusions`
 - **13-contacts** → `13-контактная-стратегия-и-узкие-вопросы-для-авторов`, `narrow-questions`, `CONTACTS`, `05-план-прототипа-и-возможные-контакты`
 - **14-limitations** → `do-not-glue`, `conclusions`, `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать`, `license-tree`
-- **QA** → `CONTACTS`, `integration-spec`, `first-contacts`, `KNOWLEDGE_MAP`
-- **README** → `research-summary`
+- **QA** → `CONTACTS`, `integration-spec`, `first-contacts`, `SCHEDULE`
 - **00-intro** → `288-appendix-position-in-series-visualization`, `289-инфраструктура-для-ai-совместной-интеллектуальной-`, `324-ingit-как-cowork-интегрированная-подложка-рабочего`, `229-профессиональные-коллеги-агенты`
 - **01-интегральный-анализ-профиля-svend4** → `00-question-innovations-transitions`, `CONCEPTS`, `TABLES`, `ACTION_ITEMS`
 - **02-общий-план-развития-nautilus-portal-protocol** → `TIMELINE`, `34-appendix-b-change-log`, `133-обратная-связь`, `67-о-проекте`
@@ -34,3 +33,4 @@
 - **105-review-methodology-md** → `28-appendix-a-minimal-working-example`, `65-readme-md`, `188-ai-опосредованное-представительство-для-недопредст`, `125-readme-mcp-md-инструкция-по-установке`
 - **106-tl-dr** → `00-tldr`, `70-зачем-две-версии-параллельно`, `71-критерии-выбора-для-фазы-3`, `28-appendix-a-minimal-working-example`
 - **107-1-контекст-и-мотивация** → `01-context-motivation`, `115-8-ограничения-и-открытые-вопросы`, `116-9-checklist-применения-методологии`, `108-2-формальный-workflow`
+- **108-2-формальный-workflow** → `02-formal-workflow`, `117-10-конкретный-план-применения-к-текущим-документам`, `114-7-реализация-в-проекте-nautilus`, `111-4-условия-применимости`

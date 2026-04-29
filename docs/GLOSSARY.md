@@ -6,36 +6,36 @@
 |--------|---------------------|
 | **AI Factory** | 74 |
 | **AIF Handoff** | 30 |
-| **AgentFS** | 102 |
-| **Auto AI Router** | 65 |
-| **AutoResearch** | 67 |
-| **Automerge** | 39 |
+| **AgentFS** | 101 |
+| **Auto AI Router** | 66 |
+| **AutoResearch** | 66 |
+| **Automerge** | 38 |
 | **CardIndex** | 139 |
 | **Firecrawl** | 22 |
 | **Graph RAG** | 47 |
 | **Hybrid RAG** | 51 |
 | **Legal RAG** | 51 |
 | **LiteLLM** | 49 |
-| **LiteParse** | 81 |
+| **LiteParse** | 80 |
 | **MemNet** | 142 |
 | **Memory OS** | 38 |
 | **NGT Memory** | 95 |
 | **OpenWhispr** | 21 |
 | **RLM-Toolkit** | 11 |
-| **Rufler** | 87 |
+| **Rufler** | 86 |
 | **SENTINEL** | 69 |
 | **Self-Aware MCP** | 21 |
-| **Sequential** | 120 |
+| **Sequential** | 119 |
 | **Svyazi** | 315 |
 | **Tool Search** | 50 |
 | **Whisper** | 24 |
-| **Wikontic** | 52 |
-| **Yjs** | 48 |
-| **Yodoca** | 143 |
+| **Wikontic** | 51 |
+| **Yjs** | 47 |
+| **Yodoca** | 142 |
 | **Yttri** | 19 |
-| **agent-memory-mcp** | 40 |
+| **agent-memory-mcp** | 39 |
 | **knowledge-space** | 104 |
-| **mclaude** | 91 |
+| **mclaude** | 90 |
 
 <!-- see-also -->
 

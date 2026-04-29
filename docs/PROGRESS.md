@@ -24,7 +24,7 @@ _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 14 файлов, не отправлено | 14 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 152 скриптов | 5 LLM-скриптов, MCP=✅ |
+| Скрипты обработки | ✅ 153 скриптов | 5 LLM-скриптов, MCP=✅ |
 | DIGEST.md | ✅ 6 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | weekly-review, audit-corpus, review-docs, propose-collaboration, track-decisions, summarize, dispatch, evaluate-skill, find-cinderella, synthesize, design-ensemble, analyze-project, search, evaluate-tech, new-research, generate-rfc, status, plan-mvp, write-contact, improve, review-architecture, skill-router, propose-mega-stack, outreach-day, compare, find-contradictions, find-gaps, daily-routine |
 

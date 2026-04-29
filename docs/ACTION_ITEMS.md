@@ -2,7 +2,7 @@
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 1331
+**Всего элементов:** 1338
 
 
 ## ➡️ Следующие шаги (150)
@@ -208,7 +208,7 @@
 
 _(51 дублей скрыто)_
 
-## ✅ Решения и рекомендации (273)
+## ✅ Решения и рекомендации (276)
 
 - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идёт  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -454,6 +454,8 @@ _(51 дублей скрыто)_
   _→ TABLES_
 - создать документы](#28-рекомендуется-создать-документы)  
   _→ TABLES_
+- упростить | Самые сложные тексты (1146) — рекомендуется упростить |  
+  _→ VERSION_DIFF_
 - позиционировать как research database, не как legal service. «Вот как типичный case структурируется» — OK. «Вот что вам лично делать» — не OK без юрид  
   _→ 03-what-this-gives-technically_
 - Но reality: knowledge work ветвится постоянно. Во время обсуждения проекта X возникает идея для проекта Y. Во время review кода возникает architectura  
@@ -475,9 +477,9 @@ _(51 дублей скрыто)_
 - 1] — см. [ADR-NNNN](../decisions/ADR-NNNN.md)  
   _→ weekly-digest_
 
-_(141 дублей скрыто)_
+_(143 дублей скрыто)_
 
-## ⚠️ Риски (595)
+## ⚠️ Риски (596)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -933,9 +935,9 @@ _(141 дублей скрыто)_
   _→ DECISIONS_
 - | `root` | 80% |  
   _→ DENSITY_
-- Configuration Paralysis](#101-risk-configuration-paralysis) - [10.2. Risk: Configura…  
+- mitigations**: - If contributor recruitment slow: increase outreach investment; partner with existing networks (LinkedIn groups, disability advo  
   _→ DUPLICATES_
-- sources**: - Employment law reclassifying contributors as employees - GDPR enforcement challenges with anonymization pipeline - AI Act regulatory requ  
+- mitigations**: - If anchor commitment fails: pivot to foundation-only funding with delayed, smaller pilot - If core team assembly slow: partner wit  
   _→ DUPLICATES_
 - Analysis (0 сл., строка 41)  
   _→ EMPTY_SECTIONS_
@@ -945,7 +947,7 @@ _(141 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - агентов? (8 сл., строка 17)  
   _→ EMPTY_SECTIONS_
-- и allowlist для MCP | 2 |  
+- и allowlist для MCP | 1 |  
   _→ FOOTNOTES_
 - | ██ 6.9 | 0.4 | 0.4 | ▓▓ 4.1 | 0.1 |  
   _→ HEATMAP_
@@ -1033,9 +1035,7 @@ _(141 дублей скрыто)_
   _→ TABLES_
 - идентифицирован | [Имя] |  
   _→ TABLES_
-- | `root` | 79% |  
-  _→ TABLES_
-- и allowlist для MCP | 0 |  
+- и allowlist для MCP | 2 |  
   _→ TABLES_
 - и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
   _→ TABLES_
@@ -1066,7 +1066,7 @@ _(141 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(302 дублей скрыто)_
+_(304 дублей скрыто)_
 
 ## 🚫 Ограничения (144)
 
@@ -1198,7 +1198,7 @@ _(302 дублей скрыто)_
   _→ OUTLINE_
 - Git [Итог]  
   _→ QUESTIONS_
-- текущей версии (0.1.0-draft)](docs/02-anthropic]  
+- текущей версии (0.]  
   _→ QUESTIONS_
 - текущей версии (0.1.0-draft)]  
   _→ QUESTIONS_
@@ -1243,13 +1243,13 @@ _(68 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- ⭐ To Do — задача к выполнению 11 [1. Словарь аббревиатур и сокращений]  
+- ⭐ To Do — задача к выполнению 14 [1. Словарь аббревиатур и сокращений]  
   _→ QUESTIONS_
 - из docs/. [export (7)]  
   _→ QUESTIONS_
 - из docs/. [extract (9)]  
   _→ QUESTIONS_
-- ⭐ To Do — задача к выполнению 11 [Словарь аббревиатур и сокращений]  
+- ⭐ To Do — задача к выполнению 14 [Словарь аббревиатур и сокращений]  
   _→ QUESTIONS_
 - во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
   _→ QUESTIONS_
@@ -1270,7 +1270,7 @@ _(68 дублей скрыто)_
 
 _(4 дублей скрыто)_
 
-## 📬 Контактные действия (145)
+## 📬 Контактные действия (148)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1414,7 +1414,7 @@ _(4 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется [113. Все документы]  
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [116. Шаблоны]  
   _→ QUESTIONS_
 - авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
   _→ QUESTIONS_
@@ -1449,7 +1449,7 @@ _(4 дублей скрыто)_
 - anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
 
-_(57 дублей скрыто)_
+_(60 дублей скрыто)_
 
 <!-- see-also -->
 

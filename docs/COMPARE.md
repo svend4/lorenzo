@@ -1,7 +1,7 @@
 # Сравнение с предыдущим коммитом
 
 **Файлов было:** 1048  **стало:** 1193  
-**Слов было:** 779,434  **стало:** 946,556  **Δ:** +167,122
+**Слов было:** 784,282  **стало:** 951,105  **Δ:** +166,823
 
 
 ## Новые файлы (145)
@@ -51,37 +51,37 @@ _...и ещё 105_
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (75) — топ по Δ слов
+## Изменившиеся файлы (74) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `QUESTIONS.md` | 21351 | 1838 | -19513 |
-| `OUTLINE.md` | 28293 | 34987 | +6694 |
-| `PARAGRAPH_QUALITY.md` | 10564 | 15331 | +4767 |
-| `HEADING_AUDIT.md` | 5627 | 9008 | +3381 |
-| `TABLES.md` | 112953 | 115626 | +2673 |
-| `TIMELINE.md` | 2210 | 4335 | +2125 |
-| `EMPTY_SECTIONS.md` | 9891 | 11968 | +2077 |
-| `SCRIPTS_CATALOG.md` | 6852 | 7603 | +751 |
-| `CONTRADICTIONS.md` | 1439 | 1811 | +372 |
-| `VALIDATION.md` | 254 | 595 | +341 |
+| `QUESTIONS.md` | 21478 | 1838 | -19640 |
+| `OUTLINE.md` | 28352 | 35058 | +6706 |
+| `PARAGRAPH_QUALITY.md` | 10586 | 15365 | +4779 |
+| `TABLES.md` | 115626 | 120085 | +4459 |
+| `HEADING_AUDIT.md` | 5633 | 9018 | +3385 |
+| `TIMELINE.md` | 2229 | 4346 | +2117 |
+| `EMPTY_SECTIONS.md` | 9928 | 12015 | +2087 |
+| `README.md` | 467 | 82 | -385 |
+| `CONTRADICTIONS.md` | 1482 | 1857 | +375 |
 | `GITHUB_ISSUES.md` | 1545 | 1754 | +209 |
-| `NAMED_ENTITIES.md` | 1471 | 1661 | +190 |
-| `SITEMAP.md` | 7050 | 7171 | +121 |
-| `ACTION_ITEMS.md` | 8003 | 8117 | +114 |
-| `TASKS_INDEX.md` | 956 | 1055 | +99 |
-| `CODE_BLOCKS.md` | 4808 | 4713 | -95 |
-| `REPORT.md` | 911 | 1005 | +94 |
-| `READING_TIME.md` | 12431 | 12520 | +89 |
+| `NAMED_ENTITIES.md` | 1478 | 1668 | +190 |
+| `SITEMAP.md` | 7071 | 7192 | +121 |
+| `READING_TIME.md` | 12453 | 12542 | +89 |
 | `COST.md` | 547 | 629 | +82 |
 | `SOURCE_MAP.md` | 6086 | 6167 | +81 |
-| `REGISTRY.md` | 1293 | 1371 | +78 |
 | `CITATION_INDEX.md` | 861 | 935 | +74 |
-| `KNOWLEDGE_MAP.md` | 578 | 649 | +71 |
-| `CHANGELOG.md` | 1280 | 1345 | +65 |
-| `LANGUAGE_STATS.md` | 6709 | 6774 | +65 |
+| `KNOWLEDGE_MAP.md` | 579 | 651 | +72 |
+| `LANGUAGE_STATS.md` | 6730 | 6795 | +65 |
 | `COVERAGE.md` | 595 | 659 | +64 |
-| `VERSION_DIFF.md` | 4209 | 4273 | +64 |
+| `REPORT.md` | 911 | 974 | +63 |
 | `SCHEDULE.md` | 271 | 332 | +61 |
 | `VOCABULARY.md` | 882 | 943 | +61 |
-| `PROGRESS.md` | 258 | 313 | +55 |
+| `VERSION_DIFF.md` | 4200 | 4259 | +59 |
+| `PROGRESS.md` | 261 | 316 | +55 |
+| `COMPARE.md` | 477 | 529 | +52 |
+| `STALENESS.md` | 388 | 439 | +51 |
+| `CONTACT_PRIORITY.md` | 364 | 413 | +49 |
+| `SCORING.md` | 338 | 387 | +49 |
+| `project-component.md` | 142 | 102 | -40 |
+| `contact-outreach.md` | 158 | 119 | -39 |

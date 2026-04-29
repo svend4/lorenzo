@@ -1,17 +1,3 @@
----
-template: project-component
-version: "1.0"
-component: "[Название компонента]"
-project_version: "[x.y.z]"
-license: "[MIT|Apache-2.0|BSL]"
-language: "[Python|TypeScript|Rust|Go]"
-repo: "[ссылка]"
-layer: "[memory|knowledge|ingestion|orchestration]"
-maturity: "[experimental|alpha|beta|stable]"
-created: 2026-04-29
-tags: [архитектура, проект]
----
-
 # [Название компонента]
 
 <!-- summary: Краткое описание в 1-2 предложениях -->
@@ -47,14 +33,3 @@ tags: [архитектура, проект]
 
 ---
 _Создано: 2026-04-29_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [contact-outreach](docs/templates/contact-outreach.md)
-- [ensemble](docs/templates/ensemble.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-

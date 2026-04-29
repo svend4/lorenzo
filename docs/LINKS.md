@@ -1,6 +1,6 @@
 # Индекс ссылок
 
-Всего уникальных URL: 219
+Всего уникальных URL: 225
 
 | URL | Найден в файлах |
 |-----|-----------------|
@@ -16,7 +16,7 @@
 | https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 3 |
 | https://claude.com/product/cowork | 9 |
 | https://creativecommons.org/licenses/by/4.0/ | 5 |
-| https://datatracker | 2 |
+| https://datatracker | 3 |
 | https://datatracker.ietf.org/doc/html/rfc2119 | 3 |
 | https://forum.[obsidian | 5 |
 | https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a-queryable-knowledge-base-privately/113223 | 3 |
@@ -25,6 +25,7 @@
 | https://github.com/AnastasiyaW | 4 |
 | https://github.com/AnastasiyaW/knowledge-space | 7 |
 | https://github.com/AnastasiyaW/knowledge-space` | 3 |
+| https://github.com/AnastasiyaW/knowledge-space`, | 1 |
 | https://github.com/Antipozitive | 4 |
 | https://github.com/Cutcode | 4 |
 | https://github.com/Dmitriila | 4 |
@@ -40,6 +41,7 @@
 | https://github.com/kksudo/agentfs | 4 |
 | https://github.com/mcp | 7 |
 | https://github.com/mcp` | 3 |
+| https://github.com/mcp`, | 1 |
 | https://github.com/nlaik | 4 |
 | https://github.com/settings/tokens | 5 |
 | https://github.com/settings/tokens` | 3 |
@@ -50,6 +52,7 @@
 | https://github.com/svend4/data70` | 3 |
 | https://github.com/svend4/info1 | 8 |
 | https://github.com/svend4/info1` | 3 |
+| https://github.com/svend4/info1`, | 1 |
 | https://github.com/svend4/info40 | 4 |
 | https://github.com/svend4/info7 | 4 |
 | https://github.com/svend4/ingit | 13 |
@@ -63,7 +66,7 @@
 | https://github.com/svend4/nautilus/blob/main/INTEGRATION.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL | 3 |
 | https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md | 4 |
-| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 3 |
+| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 2 |
 | https://github.com/svend4/nautilus/blob/main/README.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md | 4 |
 | https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 3 |
@@ -113,7 +116,7 @@
 | https://habr.com/ru/articles/1010478/ | 6 |
 | https://habr.com/ru/articles/1010478/` | 3 |
 | https://habr.com/ru/articles/1012894/ | 4 |
-| https://habr.com/ru/articles/1012894/` | 2 |
+| https://habr.com/ru/articles/1012894/` | 3 |
 | https://habr.com/ru/articles/1014366/ | 6 |
 | https://habr.com/ru/articles/1014366/` | 3 |
 | https://habr.com/ru/articles/1016096/ | 6 |
@@ -151,6 +154,7 @@
 | https://habr.com/ru/articles/1027878/` | 3 |
 | https://habr.com/ru/articles/495554/ | 7 |
 | https://habr.com/ru/articles/495554/` | 3 |
+| https://habr.com/ru/articles/495554/`, | 1 |
 | https://habr.com/ru/articles/786278/ | 3 |
 | https://habr.com/ru/articles/800033/ | 3 |
 | https://habr.com/ru/articles/893356/ | 6 |
@@ -172,9 +176,9 @@
 | https://habr.com/ru/articles/996144/ | 6 |
 | https://habr.com/ru/articles/996144/` | 3 |
 | https://habr.com/ru/companies/airi/articles/1000720/ | 7 |
-| https://habr.com/ru/companies/airi/articles/1000720/` | 3 |
+| https://habr.com/ru/companies/airi/articles/1000720/` | 4 |
 | https://habr.com/ru/companies/airi/articles/855128/ | 7 |
-| https://habr.com/ru/companies/airi/articles/855128/` | 3 |
+| https://habr.com/ru/companies/airi/articles/855128/` | 4 |
 | https://habr.com/ru/companies/neuronet/articles/592625/ | 3 |
 | https://habr.com/ru/companies/ruvds/articles/980152/ | 3 |
 | https://habr.com/ru/companies/sberdevices/articles/855080/ | 3 |
@@ -191,19 +195,15 @@
 | https://habr.com/ru/companies/yoomoney/articles/1012870/` | 3 |
 | https://habr.com/ru/news/789164/ | 3 |
 | https://happyin.space/ | 4 |
-| https://img.shields.io/badge/health-77/100-green | 1 |
-| https://img.shields.io/badge/manifests-13-blue | 1 |
-| https://img.shields.io/badge/mcp--servers-10-blue | 1 |
-| https://img.shields.io/badge/scripts-152-blue | 1 |
-| https://img.shields.io/badge/skills-28-blue | 1 |
-| https://img.shields.io/badge/templates-23-blue | 1 |
-| https://img.shields.io/badge/tests-99--passing-brightgreen | 1 |
-| https://img.shields.io/badge/validation-14--valid-brightgreen | 1 |
-| https://json-schema.org/draft/2020-12/schema | 3 |
-| https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7 | 3 |
-| https://olegtalks.ru/base/tpost/xn7kev4fa1-docling-gotovim-dannie-dlya-rag-i-llm | 6 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/adapters/base.py | 4 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/glyph_adapter.py | 4 |
+| https://img.shields.io/badge/health-77/100-green | 4 |
+| https://img.shields.io/badge/manifests-13-blue | 4 |
+| https://img.shields.io/badge/mcp--servers-10-blue | 4 |
+| https://img.shields.io/badge/scripts-152-blue | 3 |
+| https://img.shields.io/badge/scripts-153-blue | 1 |
+| https://img.shields.io/badge/skills-28-blue | 4 |
+| https://img.shields.io/badge/templates-23-blue | 4 |
+| https://img.shields.io/badge/tests-108--passing-brightgreen | 1 |
+| https://img.shields.io/badge/tests-99--passing-brightgreen | 4 |
 
 <!-- see-also -->
 

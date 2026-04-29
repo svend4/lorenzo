@@ -8,57 +8,57 @@ _Обновлено: 2026-04-29_
 
 ```mermaid
 graph TD
-    docs["docs\n(1002)"]
-    anthropic["anthropic\n(792)"]
-    summary["summary\n(504)"]
-    claude["claude\n(503)"]
-    vacancies["vacancies\n(475)"]
+    docs["docs\n(995)"]
+    anthropic["anthropic\n(791)"]
+    claude["claude\n(502)"]
+    summary["summary\n(497)"]
+    vacancies["vacancies\n(474)"]
     источник["источник\n(467)"]
     mhtml["mhtml\n(412)"]
     снимок["снимок\n(400)"]
     репозитория("репозитория\n(387)")
     корень["корень\n(377)"]
-    agent{{"agent\n(359)"}}
+    agent{{"agent\n(358)"}}
     tags["tags\n(353)"]
     nautilus["nautilus\n(322)"]
     раздел["раздел\n(310)"]
     вакансии["вакансии\n(305)"]
     кластерам["кластерам\n(295)"]
     диалога["диалога\n(269)"]
-    svyazi("svyazi\n(252)")
+    svyazi("svyazi\n(251)")
     knowledge["knowledge\n(244)"]
-    architecture["architecture\n(237)"]
+    architecture["architecture\n(236)"]
     сходство["сходство\n(235)"]
-    memory[("memory\n(193)")]
-    collaboration["collaboration\n(192)"]
-    habr["habr\n(168)"]
-    layer[/"layer\n(160)"/]
+    memory[("memory\n(192)")]
+    collaboration["collaboration\n(189)"]
+    habr["habr\n(166)"]
+    layer[/"layer\n(159)"/]
     work["work\n(158)"]
-    projects["projects\n(155)"]
-    agents{{"agents\n(153)"}}
+    projects["projects\n(154)"]
+    agents{{"agents\n(152)"}}
     portal["portal\n(147)"]
     protocol[/"protocol\n(146)"/]
     infrastructure["infrastructure\n(145)"]
     legal["legal\n(144)"]
-    first["first\n(139)"]
+    first["first\n(138)"]
     auto["auto\n(137)"]
-    appendix["appendix\n(135)"]
-    research[["research\n(131)"]]
-    what["what\n(126)"]
-    проекты("проекты\n(126)")
+    appendix["appendix\n(134)"]
+    research[["research\n(130)"]]
+    what["what\n(125)"]
+    проекты("проекты\n(125)")
     если["если\n(124)"]
-    review["review\n(124)"]
-    anthropic -- 733 |толстый|--> docs
-    anthropic -- 475 |толстый|--> vacancies
-    docs -- 468 |толстый|--> vacancies
-    claude -- 460 |толстый|--> docs
-    docs -- 442 |толстый|--> источник
-    anthropic -- 408 |толстый|--> claude
+    review["review\n(123)"]
+    anthropic -- 732 |толстый|--> docs
+    anthropic -- 474 |толстый|--> vacancies
+    docs -- 467 |толстый|--> vacancies
+    claude -- 459 |толстый|--> docs
+    docs -- 441 |толстый|--> источник
+    anthropic -- 407 |толстый|--> claude
     mhtml -- 407 |толстый|--> источник
     mhtml -- 400 |толстый|--> снимок
     источник -- 400 |толстый|--> снимок
-    docs -- 399 |толстый|--> summary
     claude -- 389 |толстый|--> источник
+    docs -- 388 |толстый|--> summary
     claude -- 386 |толстый|--> mhtml
     docs -- 386 |толстый|--> mhtml
     claude -- 381 |толстый|--> снимок
@@ -74,11 +74,11 @@ graph TD
     docs -- 359 |толстый|--> репозитория
     claude -- 359 |толстый|--> корень
     docs -- 353 |толстый|--> корень
-    summary -- 340 |толстый|--> tags
-    docs -- 325 |толстый|--> tags
+    summary -- 335 |толстый|--> tags
+    docs -- 320 |толстый|--> tags
     anthropic -- 319 |толстый|--> источник
     anthropic -- 316 |толстый|--> mhtml
-    agent -- 315 |толстый|--> docs
+    agent -- 314 |толстый|--> docs
     anthropic -- 307 |толстый|--> снимок
     anthropic -- 304 |толстый|--> вакансии
     anthropic -- 301 |толстый|--> репозитория
@@ -98,15 +98,15 @@ graph TD
     кластерам -- 292 |толстый|--> корень
     вакансии -- 291 |толстый|--> репозитория
     кластерам -- 290 |толстый|--> репозитория
-    docs -- 289 |толстый|--> nautilus
     anthropic -- 289 |толстый|--> раздел
+    docs -- 288 |толстый|--> nautilus
     источник -- 288 |толстый|--> раздел
     docs -- 283 |толстый|--> раздел
     docs -- 281 |толстый|--> вакансии
     claude -- 275 |толстый|--> раздел
-    agent -- 273 |толстый|--> anthropic
     раздел -- 273 |толстый|--> репозитория
     anthropic -- 272 |толстый|--> summary
+    agent -- 272 |толстый|--> anthropic
     вакансии -- 271 |толстый|--> раздел
 ```
 
@@ -114,33 +114,33 @@ graph TD
 
 | Концепт | Файлов | Связей | Категория |
 |---------|--------|--------|-----------|
-| `docs` | 1002 | 9358 | other |
-| `anthropic` | 792 | 7948 | other |
-| `claude` | 503 | 6160 | other |
-| `источник` | 467 | 5971 | other |
-| `mhtml` | 412 | 5529 | other |
+| `docs` | 995 | 9317 | other |
+| `anthropic` | 791 | 7928 | other |
+| `claude` | 502 | 6143 | other |
+| `источник` | 467 | 5969 | other |
+| `mhtml` | 412 | 5528 | other |
 | `снимок` | 400 | 5464 | other |
 | `репозитория` | 387 | 5294 | project |
 | `корень` | 377 | 5244 | other |
 | `вакансии` | 305 | 4478 | other |
 | `раздел` | 310 | 4405 | other |
 | `кластерам` | 295 | 4396 | other |
-| `vacancies` | 475 | 4301 | other |
-| `summary` | 504 | 4282 | other |
+| `vacancies` | 474 | 4281 | other |
+| `summary` | 497 | 4251 | other |
 | `диалога` | 269 | 4044 | other |
-| `nautilus` | 322 | 3801 | other |
-| `agent` | 359 | 3633 | agent |
-| `tags` | 353 | 3502 | other |
-| `architecture` | 237 | 2534 | other |
-| `knowledge` | 244 | 2308 | other |
-| `collaboration` | 192 | 2023 | other |
-| `svyazi` | 252 | 1977 | project |
+| `nautilus` | 322 | 3792 | other |
+| `agent` | 358 | 3618 | agent |
+| `tags` | 353 | 3488 | other |
+| `architecture` | 236 | 2520 | other |
+| `knowledge` | 244 | 2310 | other |
+| `collaboration` | 189 | 1998 | other |
+| `svyazi` | 251 | 1956 | project |
 | `сходство` | 235 | 1849 | other |
-| `habr` | 168 | 1844 | other |
-| `layer` | 160 | 1759 | architecture |
-| `memory` | 193 | 1744 | memory |
-| `protocol` | 146 | 1738 | architecture |
-| `work` | 158 | 1721 | other |
-| `portal` | 147 | 1693 | other |
-| `projects` | 155 | 1574 | other |
-| `infrastructure` | 145 | 1551 | other |
+| `habr` | 166 | 1818 | other |
+| `layer` | 159 | 1744 | architecture |
+| `protocol` | 146 | 1736 | architecture |
+| `memory` | 192 | 1735 | memory |
+| `work` | 158 | 1722 | other |
+| `portal` | 147 | 1691 | other |
+| `projects` | 154 | 1557 | other |
+| `infrastructure` | 145 | 1553 | other |

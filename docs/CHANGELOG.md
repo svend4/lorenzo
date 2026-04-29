@@ -1,13 +1,14 @@
 # CHANGELOG
 
-Всего коммитов: **85**  
-Статистика: 🔧 chore: 35 | ✨ feat: 25 | ⚡ improve: 14 | 📝 docs: 8 | 🐛 fix: 3
+Всего коммитов: **88**  
+Статистика: 🔧 chore: 36 | ✨ feat: 26 | ⚡ improve: 14 | 📝 docs: 9 | 🐛 fix: 3
 
 
-## 2026-04-29 (83 коммитов)
+## 2026-04-29 (86 коммитов)
 
 ### 🔧 Обслуживание
 
+- regenerate badges + auto-exports after Sprint 12-14 _25de4e63_
 - regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML) _b471bbad_
 - ignore auto-generated exports and runtime caches _41a9c8aa_
 - regenerate VALIDATION.md after rebase _093bb8c8_
@@ -71,6 +72,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _519d41b5_
 - auto-update via improve_run_all [skip ci] _fdd84b5b_
 - auto-update via improve_run_all [skip ci] _ba78ff20_
 - auto-update via improve_run_all [skip ci] _039a4a2a_
@@ -83,6 +85,8 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- Sprint 12-14 — bot-aware exclusions, distribution, web dashboard _1bf14810_
+  > Sprint 12 — bot-aware system
 - Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD _22c4cf8d_
   > Sprint 9 — agentic skills layer
 - Sprint 6-8 — миграции, мета-скилы, workflow-runner, registry, docs-toolkit vendoring _589fe47e_

@@ -7,12 +7,12 @@ _Обновлено: 2026-04-29_
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
 | 1 | **spbmolot** | NGT Memory | memory | 59 | 👁 Изучили | 188 |
-| 2 | **kksudo** | AgentFS | knowledge/filesystem | 58 | 👁 Изучили | 185 |
+| 2 | **kksudo** | AgentFS | knowledge/filesystem | 57 | 👁 Изучили | 182 |
 | 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 51 | ⬜ Не начато | 159 |
-| 4 | **VladSpace** | Graph RAG | rag | 45 | ⬜ Не начато | 139 |
+| 4 | **VladSpace** | Graph RAG | rag | 43 | ⬜ Не начато | 133 |
 | 5 | **VitalyOborin** | Yodoca | memory | 40 | ⬜ Не начато | 126 |
-| 6 | **Cutcode** | AIF Handoff | orchestration | 39 | ⬜ Не начато | 121 |
-| 7 | **zodigancode** | Rufler | orchestration | 38 | ⬜ Не начато | 118 |
+| 6 | **Cutcode** | AIF Handoff | orchestration | 37 | ⬜ Не начато | 115 |
+| 7 | **zodigancode** | Rufler | orchestration | 37 | ⬜ Не начато | 115 |
 | 8 | **Antipozitive** | MemNet | memory | 34 | ⬜ Не начато | 108 |
 | 9 | **Dmitriila** | SENTINEL | security | 35 | ⬜ Не начато | 107 |
 | 10 | **nlaik** | LiteParse / research-docs | rag | 32 | ⬜ Не начато | 100 |
@@ -27,7 +27,7 @@ _Обновлено: 2026-04-29_
 ### Написать первым (ещё не контактировали)
 
 1. **spbmolot** (NGT Memory, 59 упоминаний) → [открыть контакт](contacts/spbmolot.md)
-1. **kksudo** (AgentFS, 58 упоминаний) → [открыть контакт](contacts/kksudo.md)
+1. **kksudo** (AgentFS, 57 упоминаний) → [открыть контакт](contacts/kksudo.md)
 1. **AnastasiyaW** (knowledge-space, mclaude, 51 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
