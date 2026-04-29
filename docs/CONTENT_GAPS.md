@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-Найдено пробелов: **397** (мин. упоминаний: 3)
+Найдено пробелов: **391** (мин. упоминаний: 3)
 
 > Концепции, упоминаемые во многих файлах, но не имеющие собственного документа.
 
@@ -10,7 +10,7 @@ _Обновлено: 2026-04-29_
 
 | Концепция | Упоминаний | Рекомендуемая папка |
 |-----------|-----------|-------------------|
-| `MHTML` | 501 | `docs/nautilus/` |
+| `MHTML` | 502 | `docs/nautilus/` |
 | `NPP` | 76 | `docs/nautilus/` |
 | `GDPR` | 60 | `docs/nautilus/` |
 | `MUST` | 57 | `docs/nautilus/` |
@@ -20,33 +20,33 @@ _Обновлено: 2026-04-29_
 | `PDF` | 31 | `docs/technology-combinations/` |
 | `PII` | 31 | `docs/nautilus/` |
 | `BSG` | 30 | `docs/nautilus/` |
-| `LinkedIn` | 30 | `docs/nautilus/` |
 | `MAY` | 29 | `docs/nautilus/` |
 | `URL` | 28 | `docs/02-anthropic-vacancies/` |
+| `LinkedIn` | 28 | `docs/nautilus/` |
 | `AIF` | 27 | `docs/04-ai-collaborations/` |
 | `KSV` | 27 | `docs/nautilus/` |
 | `HMP` | 25 | `docs/lorenzo-agent/` |
 | `YiJing` | 24 | `docs/02-anthropic-vacancies/` |
 | `IDF` | 23 | `docs/04-ai-collaborations/` |
+| `HIPAA` | 23 | `docs/nautilus/` |
 | `EMEA` | 23 | `docs/anthropic-vacancies/` |
-| `HIPAA` | 23 | `docs/02-anthropic-vacancies/` |
 | `RLM` | 22 | `docs/svyazi-2-0/` |
-| `EIC` | 22 | `docs/nautilus/` |
 | `AutoGen` | 21 | `docs/nautilus/` |
-| `RSS` | 19 | `docs/lorenzo-agent/` |
-| `OpenWhispr` | 18 | `docs/04-ai-collaborations/` |
-| `LCI` | 18 | `docs/habr-unique-projects/` |
+| `EIC` | 21 | `docs/nautilus/` |
+| `RSS` | 19 | `docs/02-anthropic-vacancies/` |
+| `OpenWhispr` | 18 | `docs/svyazi-2-0/` |
+| `LCI` | 18 | `docs/02-anthropic-vacancies/` |
 | `CodeWiki` | 17 | `docs/svyazi-2-0/` |
 | `BaseAdapter` | 16 | `docs/02-anthropic-vacancies/` |
-| `ChatDev` | 15 | `docs/nautilus/` |
 | `DeepSeek` | 15 | `docs/habr-unique-projects/` |
-| `NNNN` | 15 | `docs/templates/` |
-| `author_handle:` | 15 | `docs/contacts/` |
-| `author:` | 15 | `docs/contacts/` |
+| `ChatDev` | 15 | `docs/nautilus/` |
 | `III` | 14 | `docs/02-anthropic-vacancies/` |
 | `LangChain` | 14 | `docs/02-anthropic-vacancies/` |
-| `AIRI` | 14 | `docs/02-anthropic-vacancies/` |
+| `AIRI` | 14 | `docs/habr-unique-projects/` |
+| `NNNN` | 14 | `docs/templates/` |
+| `author_handle:` | 14 | `docs/contacts/` |
 | `projects: [` | 14 | `docs/contacts/` |
+| `author:` | 14 | `docs/contacts/` |
 | `IBM` | 13 | `docs/technology-combinations/` |
 | `DOCX` | 13 | `docs/nautilus/` |
 | `Composite Skills Agents` | 13 | `docs/nautilus/` |
@@ -59,19 +59,19 @@ _Обновлено: 2026-04-29_
 | `CRM` | 12 | `docs/04-ai-collaborations/` |
 | `HTTP` | 12 | `docs/02-anthropic-vacancies/` |
 | `SGG` | 12 | `docs/nautilus/` |
-| `TypeScript` | 11 | `docs/02-anthropic-vacancies/` |
+| `GPU` | 11 | `docs/habr-unique-projects/` |
 
 ## Детали по топ-20 пробелам
 
-### `MHTML` (501 файлов)
+### `MHTML` (502 файлов)
 
 Упоминается в:
 - `docs/CHANGELOG.md`
 - `docs/OUTLINE.md`
+- `docs/TABLES.md`
 - `docs/ai-collaborations/candidates/01-three-key-candidates.md`
 - `docs/ai-collaborations/candidates/02-related-projects-context.md`
-- `docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md`
-- ... и ещё 496 файлах
+- ... и ещё 497 файлах
 
 Создать: `docs/nautilus/mhtml.md`
 
@@ -183,18 +183,6 @@ _Обновлено: 2026-04-29_
 
 Создать: `docs/nautilus/bsg.md`
 
-### `LinkedIn` (30 файлов)
-
-Упоминается в:
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
-- `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md`
-- `docs/02-anthropic-vacancies/162-8-risk-analysis.md`
-- `docs/02-anthropic-vacancies/165-closing.md`
-- ... и ещё 25 файлах
-
-Создать: `docs/nautilus/linkedin.md`
-
 ### `MAY` (29 файлов)
 
 Упоминается в:
@@ -218,6 +206,18 @@ _Обновлено: 2026-04-29_
 - ... и ещё 23 файлах
 
 Создать: `docs/02-anthropic-vacancies/url.md`
+
+### `LinkedIn` (28 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+- `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
+- `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md`
+- `docs/02-anthropic-vacancies/162-8-risk-analysis.md`
+- `docs/02-anthropic-vacancies/165-closing.md`
+- ... и ещё 23 файлах
+
+Создать: `docs/nautilus/linkedin.md`
 
 ### `AIF` (27 файлов)
 
@@ -279,6 +279,18 @@ _Обновлено: 2026-04-29_
 
 Создать: `docs/04-ai-collaborations/idf.md`
 
+### `HIPAA` (23 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/00-intro.md`
+- `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md`
+- `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md`
+- `docs/02-anthropic-vacancies/179-10-open-questions.md`
+- `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md`
+- ... и ещё 18 файлах
+
+Создать: `docs/nautilus/hipaa.md`
+
 ### `EMEA` (23 файлов)
 
 Упоминается в:
@@ -290,18 +302,6 @@ _Обновлено: 2026-04-29_
 - ... и ещё 18 файлах
 
 Создать: `docs/anthropic-vacancies/emea.md`
-
-### `HIPAA` (23 файлов)
-
-Упоминается в:
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md`
-- `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md`
-- `docs/02-anthropic-vacancies/179-10-open-questions.md`
-- `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md`
-- ... и ещё 18 файлах
-
-Создать: `docs/02-anthropic-vacancies/hipaa.md`
 
 
 <!-- see-also -->

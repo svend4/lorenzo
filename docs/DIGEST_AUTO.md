@@ -8,7 +8,7 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **109** |
+| Коммитов | **111** |
 | Новых файлов | **20** |
 | Изменённых файлов | **0** |
 | Слов добавлено | **+0** |
@@ -29,6 +29,8 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 
 ## Последние коммиты
 
+- `2026-04-29` [d6279595] fix: CI Catalog check — improve_auto_toc respects .docignore
+- `2026-04-29` [b0ed2c15] docs: auto-update via improve_run_all [skip ci]
 - `2026-04-29` [6421a1fc] chore: regenerate auto-exports after Sprint 24-26
 - `2026-04-29` [d3dd0884] feat: Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph
 - `2026-04-29` [0f740af3] docs: auto-update via improve_run_all [skip ci]
@@ -37,8 +39,6 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 - `2026-04-29` [88a8480c] docs: auto-update via improve_run_all [skip ci]
 - `2026-04-29` [f053125f] chore: regenerate auto-exports after Sprint 18-20
 - `2026-04-29` [89f9dc93] feat: Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest
-- `2026-04-29` [6f3be4a7] docs: auto-update via improve_run_all [skip ci]
-- `2026-04-29` [3ca737f2] chore: extend gitignore + regenerate badges/exports after Sprint 15-17
 
 ## Новые файлы
 

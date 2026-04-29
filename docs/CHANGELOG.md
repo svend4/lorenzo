@@ -1,7 +1,7 @@
 # CHANGELOG
 
-Всего коммитов: **101**  
-Статистика: 🔧 chore: 41 | ✨ feat: 30 | ⚡ improve: 14 | 📝 docs: 13 | 🐛 fix: 3
+Всего коммитов: **103**  
+Статистика: 🔧 chore: 41 | ✨ feat: 30 | 📝 docs: 14 | ⚡ improve: 14 | 🐛 fix: 4
 
 
 ## semantic (1 коммитов)
@@ -10,7 +10,7 @@
 
 - hybrid _  E4. cm_
 
-## 2026-04-29 (98 коммитов)
+## 2026-04-29 (100 коммитов)
 
 ### 🔧 Обслуживание
 
@@ -82,6 +82,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _b0ed2c15_
 - auto-update via improve_run_all [skip ci] _0f740af3_
 - auto-update via improve_run_all [skip ci] _88a8480c_
 - auto-update via improve_run_all [skip ci] _6f3be4a7_
@@ -161,6 +162,8 @@
   > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
 ### 🐛 Исправления
 
+- CI Catalog check — improve_auto_toc respects .docignore _d6279595_
+  > CI workflow .github/workflows/test.yml job 'Catalog up-to-date check'
 - fix update-docs CI job failures _42f561dd_
   > Three issues fixed:
 - исправить ошибки в deeptext скриптах, добавить выходные файлы _4755dd94_

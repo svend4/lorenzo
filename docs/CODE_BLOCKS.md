@@ -157,20 +157,20 @@ graph TD
     снимок["снимок\n(400)"]
     репозитория("репозитория\n(387)")
     корень["корень\n(377)"]
-    agent{{"agent\n(357)"}}
+    agent{{"agent\n(358)"}}
     tags["tags\n(352)"]
     nautilus["nautilus\n(321)"]
     раздел["раздел\n(310)"]
     вакансии["вакансии\n(305)"]
     кластерам["кластерам\n(295)"]
     диалога["диалога\n(269)"]
-    svyazi("svyazi\n(251)")
+    svyazi("svyazi\n(250)")
     knowledge["knowledge\n(243)"]
     architecture["architecture\n(236)"]
     сходство["сходство\n(235)"]
     memory[("memory\n(193)")]
     collaboration["collaboration\n(189)"]
-    habr["habr\n(168)"]
+    habr["habr\n(167)"]
     layer[/"layer\n(159)"/]
     work["work\n(158)"]
 # ... (обрезано)
@@ -1718,5 +1718,5 @@ interface Adapter {
 - [READING_ORDER](docs/READING_ORDER.md)
 - [SEARCH](docs/SEARCH.md)
 - [CLUSTERS](docs/CLUSTERS.md)
-- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
+- [EMPTY_SECTIONS](docs/EMPTY_SECTIONS.md)
 

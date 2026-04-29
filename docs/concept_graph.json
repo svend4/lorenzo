@@ -20,8 +20,8 @@
     },
     {
       "id": "summary",
-      "count": 497,
-      "files": 497,
+      "count": 498,
+      "files": 498,
       "category": "other"
     },
     {
@@ -62,20 +62,20 @@
     },
     {
       "id": "agent",
-      "count": 358,
-      "files": 358,
+      "count": 357,
+      "files": 357,
       "category": "agent"
     },
     {
       "id": "tags",
-      "count": 352,
-      "files": 352,
+      "count": 353,
+      "files": 353,
       "category": "other"
     },
     {
       "id": "nautilus",
-      "count": 321,
-      "files": 321,
+      "count": 322,
+      "files": 322,
       "category": "other"
     },
     {
@@ -110,14 +110,14 @@
     },
     {
       "id": "knowledge",
-      "count": 243,
-      "files": 243,
+      "count": 244,
+      "files": 244,
       "category": "other"
     },
     {
       "id": "architecture",
-      "count": 236,
-      "files": 236,
+      "count": 237,
+      "files": 237,
       "category": "other"
     },
     {
@@ -134,8 +134,8 @@
     },
     {
       "id": "collaboration",
-      "count": 189,
-      "files": 189,
+      "count": 190,
+      "files": 190,
       "category": "other"
     },
     {
@@ -164,8 +164,8 @@
     },
     {
       "id": "agents",
-      "count": 152,
-      "files": 152,
+      "count": 153,
+      "files": 153,
       "category": "agent"
     },
     {
@@ -245,7 +245,7 @@
     {
       "source": "agent",
       "target": "auto",
-      "weight": 34
+      "weight": 33
     },
     {
       "source": "agent",
@@ -260,7 +260,7 @@
     {
       "source": "agent",
       "target": "knowledge",
-      "weight": 112
+      "weight": 113
     },
     {
       "source": "agent",
@@ -270,12 +270,12 @@
     {
       "source": "agent",
       "target": "summary",
-      "weight": 102
+      "weight": 101
     },
     {
       "source": "agent",
       "target": "svyazi",
-      "weight": 76
+      "weight": 75
     },
     {
       "source": "auto",
@@ -315,7 +315,7 @@
     {
       "source": "docs",
       "target": "knowledge",
-      "weight": 215
+      "weight": 216
     },
     {
       "source": "docs",
@@ -325,7 +325,7 @@
     {
       "source": "docs",
       "target": "summary",
-      "weight": 388
+      "weight": 389
     },
     {
       "source": "docs",
@@ -500,7 +500,7 @@
     {
       "source": "knowledge",
       "target": "layer",
-      "weight": 39
+      "weight": 40
     },
     {
       "source": "knowledge",
@@ -565,7 +565,7 @@
     {
       "source": "agents",
       "target": "anthropic",
-      "weight": 135
+      "weight": 136
     },
     {
       "source": "agents",
@@ -575,7 +575,7 @@
     {
       "source": "agents",
       "target": "docs",
-      "weight": 128
+      "weight": 129
     },
     {
       "source": "agents",
@@ -670,7 +670,7 @@
     {
       "source": "anthropic",
       "target": "nautilus",
-      "weight": 298
+      "weight": 299
     },
     {
       "source": "anthropic",
@@ -725,7 +725,7 @@
     {
       "source": "docs",
       "target": "nautilus",
-      "weight": 288
+      "weight": 289
     },
     {
       "source": "docs",
@@ -805,7 +805,7 @@
     {
       "source": "nautilus",
       "target": "projects",
-      "weight": 49
+      "weight": 50
     },
     {
       "source": "nautilus",
@@ -895,7 +895,7 @@
     {
       "source": "nautilus",
       "target": "vacancies",
-      "weight": 143
+      "weight": 144
     },
     {
       "source": "portal",
@@ -945,7 +945,7 @@
     {
       "source": "collaboration",
       "target": "docs",
-      "weight": 164
+      "weight": 165
     },
     {
       "source": "collaboration",
@@ -970,7 +970,7 @@
     {
       "source": "collaboration",
       "target": "summary",
-      "weight": 130
+      "weight": 131
     },
     {
       "source": "collaboration",
@@ -995,7 +995,7 @@
     {
       "source": "docs",
       "target": "tags",
-      "weight": 319
+      "weight": 320
     },
     {
       "source": "infrastructure",
@@ -1035,7 +1035,7 @@
     {
       "source": "nautilus",
       "target": "summary",
-      "weight": 106
+      "weight": 107
     },
     {
       "source": "nautilus",
@@ -1080,7 +1080,7 @@
     {
       "source": "summary",
       "target": "tags",
-      "weight": 334
+      "weight": 335
     },
     {
       "source": "summary",
@@ -1200,7 +1200,7 @@
     {
       "source": "auto",
       "target": "tags",
-      "weight": 35
+      "weight": 36
     },
     {
       "source": "anthropic",
@@ -1220,12 +1220,12 @@
     {
       "source": "architecture",
       "target": "docs",
-      "weight": 209
+      "weight": 210
     },
     {
       "source": "architecture",
       "target": "summary",
-      "weight": 116
+      "weight": 117
     },
     {
       "source": "architecture",
@@ -1380,7 +1380,7 @@
     {
       "source": "agents",
       "target": "vacancies",
-      "weight": 75
+      "weight": 76
     },
     {
       "source": "agents",
@@ -1405,7 +1405,7 @@
     {
       "source": "agent",
       "target": "anthropic",
-      "weight": 272
+      "weight": 271
     },
     {
       "source": "agent",
@@ -1415,7 +1415,7 @@
     {
       "source": "agent",
       "target": "vacancies",
-      "weight": 131
+      "weight": 130
     },
     {
       "source": "agent",
@@ -1515,7 +1515,7 @@
     {
       "source": "agent",
       "target": "habr",
-      "weight": 61
+      "weight": 60
     },
     {
       "source": "agent",
@@ -1525,7 +1525,7 @@
     {
       "source": "agent",
       "target": "projects",
-      "weight": 36
+      "weight": 35
     },
     {
       "source": "agent",
@@ -1610,7 +1610,7 @@
     {
       "source": "agents",
       "target": "knowledge",
-      "weight": 44
+      "weight": 45
     },
     {
       "source": "agents",
@@ -1645,7 +1645,7 @@
     {
       "source": "anthropic",
       "target": "knowledge",
-      "weight": 136
+      "weight": 137
     },
     {
       "source": "anthropic",
@@ -1685,7 +1685,7 @@
     {
       "source": "infrastructure",
       "target": "knowledge",
-      "weight": 46
+      "weight": 47
     },
     {
       "source": "infrastructure",
@@ -1715,12 +1715,12 @@
     {
       "source": "knowledge",
       "target": "vacancies",
-      "weight": 62
+      "weight": 63
     },
     {
       "source": "knowledge",
       "target": "work",
-      "weight": 55
+      "weight": 56
     },
     {
       "source": "knowledge",
@@ -1780,12 +1780,12 @@
     {
       "source": "architecture",
       "target": "collaboration",
-      "weight": 68
+      "weight": 69
     },
     {
       "source": "architecture",
       "target": "knowledge",
-      "weight": 67
+      "weight": 68
     },
     {
       "source": "architecture",
@@ -1820,7 +1820,7 @@
     {
       "source": "agents",
       "target": "appendix",
-      "weight": 18
+      "weight": 19
     },
     {
       "source": "agents",
@@ -1835,7 +1835,7 @@
     {
       "source": "agents",
       "target": "nautilus",
-      "weight": 43
+      "weight": 44
     },
     {
       "source": "appendix",
@@ -1880,7 +1880,7 @@
     {
       "source": "knowledge",
       "target": "what",
-      "weight": 22
+      "weight": 23
     },
     {
       "source": "layer",
@@ -1910,7 +1910,7 @@
     {
       "source": "agent",
       "target": "agents",
-      "weight": 119
+      "weight": 120
     },
     {
       "source": "agent",
@@ -1935,7 +1935,7 @@
     {
       "source": "knowledge",
       "target": "nautilus",
-      "weight": 51
+      "weight": 52
     },
     {
       "source": "infrastructure",
@@ -1950,7 +1950,7 @@
     {
       "source": "knowledge",
       "target": "legal",
-      "weight": 61
+      "weight": 62
     },
     {
       "source": "knowledge",
@@ -2135,7 +2135,7 @@
     {
       "source": "agents",
       "target": "projects",
-      "weight": 20
+      "weight": 21
     },
     {
       "source": "collaboration",
@@ -2640,7 +2640,7 @@
     {
       "source": "nautilus",
       "target": "svyazi",
-      "weight": 28
+      "weight": 29
     },
     {
       "source": "research",
@@ -2680,12 +2680,22 @@
     {
       "source": "agents",
       "target": "svyazi",
-      "weight": 12
+      "weight": 13
     },
     {
       "source": "agent",
       "target": "mhtml",
       "weight": 140
+    },
+    {
+      "source": "agents",
+      "target": "habr",
+      "weight": 16
+    },
+    {
+      "source": "agents",
+      "target": "mhtml",
+      "weight": 39
     },
     {
       "source": "appendix",
@@ -2751,11 +2761,6 @@
       "source": "репозитория",
       "target": "сходство",
       "weight": 8
-    },
-    {
-      "source": "agents",
-      "target": "habr",
-      "weight": 15
     },
     {
       "source": "habr",
@@ -3581,11 +3586,6 @@
       "source": "first",
       "target": "снимок",
       "weight": 46
-    },
-    {
-      "source": "agents",
-      "target": "mhtml",
-      "weight": 38
     },
     {
       "source": "agents",

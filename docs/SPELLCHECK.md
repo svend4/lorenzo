@@ -129,7 +129,7 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 
 **Смотрите также:**
 - [STATS](docs/STATS.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
 - [CONTENT_GAPS](docs/CONTENT_GAPS.md)
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
 - [CITATION_INDEX](docs/CITATION_INDEX.md)
 

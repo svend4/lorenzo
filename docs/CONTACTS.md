@@ -10,7 +10,7 @@
 | **Dmitriila** | SENTINEL | security | 34 | — |
 | **MiXaiLL76** | Auto AI Router | security | 30 | — |
 | **Sonia_Black** | knowledge-space | knowledge | 19 | — |
-| **VitalyOborin** | Yodoca | memory | 40 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VitalyOborin** | Yodoca | memory | 39 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
 | **VladSpace** | Graph RAG | rag | 43 | — |
 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 15 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
 | **kksudo** | AgentFS | knowledge/filesystem | 57 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
@@ -33,10 +33,10 @@
 | `github.com/github.com/NicholasSpisak/second-brain` | 3 |
 | `github.com/github.com/Sonia` | 4 |
 | `github.com/github.com/VitalyOborin` | 4 |
-| `github.com/github.com/VitalyOborin/yodoca` | 5 |
+| `github.com/github.com/VitalyOborin/yodoca` | 4 |
 | `github.com/github.com/VladSpace` | 4 |
 | `github.com/github.com/andrey` | 4 |
-| `github.com/github.com/anthropics/mcp` | 6 |
+| `github.com/github.com/anthropics/mcp` | 5 |
 | `github.com/github.com/artur-gavronchuk/tg-chat-analyser` | 5 |
 | `github.com/github.com/camel-ai/camel` | 6 |
 | `github.com/github.com/dementev-dev/adversarial-review` | 5 |
@@ -45,14 +45,14 @@
 | `github.com/github.com/kksudo` | 4 |
 | `github.com/github.com/kksudo/agentfs` | 4 |
 | `github.com/github.com/lib4u/rufler` | 2 |
-| `github.com/github.com/mcp` | 9 |
+| `github.com/github.com/mcp` | 8 |
 | `github.com/github.com/nlaik` | 4 |
 | `github.com/github.com/ruvnet/ruflo` | 2 |
-| `github.com/github.com/settings/tokens` | 5 |
+| `github.com/github.com/settings/tokens` | 6 |
 | `github.com/github.com/spbmolot` | 4 |
 | `github.com/github.com/spbmolot/ngt-memory` | 4 |
 | `github.com/github.com/svend4` | 4 |
-| `github.com/github.com/svend4/data70` | 6 |
+| `github.com/github.com/svend4/data70` | 5 |
 | `github.com/github.com/svend4/info1` | 12 |
 | `github.com/github.com/svend4/info40` | 4 |
 | `github.com/github.com/svend4/info7` | 4 |

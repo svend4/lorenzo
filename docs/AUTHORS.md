@@ -12,7 +12,7 @@
 | **MiXaiLL76** | 30 |
 | **Sonia_Black** | 19 |
 | **VitaliySemenov** | 8 |
-| **VitalyOborin** | 41 |
+| **VitalyOborin** | 40 |
 | **VladSpace** | 43 |
 | **akazant** | 10 |
 | **akzhankalimatov** | 8 |

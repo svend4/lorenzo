@@ -872,7 +872,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` | 19144 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | 20426 | 2026-04-29 |
 
-## 🔗 Файлы с внешними ссылками (98)
+## 🔗 Файлы с внешними ссылками (97)
 
 - `docs/02-anthropic-vacancies/00-intro.md` — https://github.com/svend4/data70
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` — https://github.com/svend4/pro2
