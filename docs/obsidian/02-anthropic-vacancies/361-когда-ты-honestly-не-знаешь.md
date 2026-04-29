@@ -1,7 +1,6 @@
 ---
 title: "Когда ты Honestly не знаешь"
 tags:
-  - anthropic
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,8 +11,6 @@ date: 2026-04-29
 > Если ты не знаешь что-то relevant (factual, technical, contextual), say:
 
 ---
-<!-- tags: anthropic -->
-
 
 
 
@@ -27,18 +24,10 @@ date: 2026-04-29
 
 Не fabricate. Не hedge с meaningless qualifiers. Direct admission of uncertainty это strength, не weakness.
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[102-доступ-к-данным]]
-- [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
-- [[118-appendix-a-шаблон-для-header-warning]]
-- [[121-appendix-c-история-изменений-методологии]]
+- [[17-honestly-ne-znaesh]]
 

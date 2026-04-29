@@ -14,9 +14,14 @@ date: 2026-04-29
 
 h1. Контакт: spbmolot / NGT Memory
 
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, AgentFS, Rufler, Graph RAG, Yodoca, NGT Memory, SENTINEL, Auto AI Router
+_Проекты:_ Svyazi, NGT Memory
 
 ----
 
@@ -75,29 +80,22 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Упоминается в
 
-* [[CONTACT_PRIORITY|Приоритет контактов]]
+----
 
+_Похожие документы:_
+* [[vladspace]] (сходство 0.73)
+* [[antipozitive]] (сходство 0.72)
+* [[zodigancode]] (сходство 0.71)
 
-h2. Связанные документы
-
-* [[kksudo|Контакт: kksudo / AgentFS]] _81%_
-* [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _81%_
-* [[cutcode|Контакт: Cutcode / AIF Handoff]] _73%_
-* [[dmitriila|Контакт: Dmitriila / SENTINEL]] _73%_
-* [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _73%_
-* [[vladspace|Контакт: VladSpace / Graph RAG]] _73%_
-* [[zodigancode|Контакт: zodigancode / Rufler]] _73%_
-* [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] _66%_
 
 
 
 ----
 
 _Смотрите также:_
-* [[kksudo]]
-* [[vladspace]]
-* [[cutcode]]
-* [[dmitriila]]
+* [[antipozitive]]
+* [[nlaik]]
+* [[sonia-black]]
+* [[vitalyoborin]]
 

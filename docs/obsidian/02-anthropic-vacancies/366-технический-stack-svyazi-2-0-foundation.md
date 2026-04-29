@@ -7,6 +7,15 @@ date: 2026-04-29
 
 # Технический stack (Svyazi 2.0 foundation)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Запрос проанализировать нужно проанализировать то что уже сделано то информацию которая уже есть благодаря этим последним нескольким документам благодаря тем что уже было сделано в
+> 🔧 **Подход:** cardid (immutable) cardtype (person/project/episode/doc/hypothesis) state (raw/normalized/inferred/approved/rejected/decayed) sources edges updatedat payloadhash sourceid pageorspa
+> 🏷️ **Ключевые слова:** `svyazi`, `lorenzo`, `layer`, `foundation`, `документ`, `новых`, `вопросы`, `которые`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -14,17 +23,17 @@ date: 2026-04-29
 
 <!-- summary -->
 > Lorenzo's architecture builds on верифицированных open-source компонентах:
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+**Проекты:** Svyazi, CardIndex, AgentFS, [[03-component-catalog|knowledge-space]], mclaude, AI Factory, Rufler, LiteParse
 
 ---
 
 <!-- toc -->
 ## Содержание
 
-- [Технический stack (Svyazi 2.0 foundation)](#технический-stack-svyazi-20-foundation)
+- [Технический stack (Svyazi 2.0 foundation)](#технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-20-foundation)
   - [Анализ конкретных компонентов из документа (новых для нас)](#анализ-конкретных-компонентов-из-документа-новых-для-нас)
   - [Synthesizing с нашим existing landscape](#synthesizing-с-нашим-existing-landscape)
-  - [Strategic implications для Lorenzo](#strategic-implications-для-lorenzo)
+  - [Strategic implications для Lorenzo](#strategic-implications-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md))
   - [Конкретные next steps](#конкретные-next-steps)
   - [Ключевые вопросы к вам](#ключевые-вопросы-к-вам)
   - [Что это за документ — диагностика](#что-это-за-документ-диагностика)
@@ -50,7 +59,7 @@ date: 2026-04-29
 Lorenzo's architecture builds on верифицированных open-source компонентах:
 
 **Layer 1 — Ingestion**: Svyazi-style hybrid extraction (Чуян pattern)
-**Layer 2 — Knowledge**: knowledge-space (Анастасия, MIT)
+**Layer 2 — Knowledge**: [[03-component-catalog|knowledge-space]] (Анастасия, MIT)
 **Layer 3 — Kernel**: AgentFS-style file architecture (kksudo pattern, MIT)
 **Layer 4 — Memory**: Yodoca consolidation + NGT Memory associations
 **Layer 5 — Evidence**: research-docs/LiteParse forensic RAG (Apache 2.0)
@@ -579,9 +588,19 @@ Wiederholen
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[11-integration-contracts|11 Integration Contracts]]
+- [[364-final-note-ты-experiment|Final note: Ты — experiment]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[11-интеграционный-контракт-который-стоит-зафиксироват|Интеграционный контракт, который стоит зафиксировать сразу]]
+- [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]] _17%_
 ## Связанные документы
 
 - [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]] _17%_

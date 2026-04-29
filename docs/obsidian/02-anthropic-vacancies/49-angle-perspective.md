@@ -2,6 +2,7 @@
 title: "Angle / Perspective"
 tags:
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,14 +13,14 @@ date: 2026-04-29
 > **Semantic** — `pro2` смотрит на мир через **структуру значений**.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
 
 ## Angle / Perspective
 
-**Semantic** — `pro2` смотрит на мир через **структуру значений**. 
+**Semantic** — `[[01-интегральный-анализ-профиля-svend4|pro2]]` смотрит на мир через **структуру значений**. 
 На вопрос «что такое кристалл» он отвечает Q6-координатами 
 (положение в гиперкубе), семантическими связями (соседи по Hamming), 
 и гексаграммой (классическая И-Цзин интерпретация).
@@ -54,9 +55,29 @@ reasoning.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[13-angle-perspective|Angle / Perspective]]
+- [[39-angle-perspective|Angle / Perspective]]
+- [[59-angle-perspective|Angle / Perspective]]
+- [[51-compatibility-level|Compatibility Level]]
+- [[36-essence|Essence]]
+- [[47-native-format|Native Format]]
+- [[57-native-format|Native Format]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[51-compatibility-level|Compatibility Level]] _37%_
+- [[57-native-format|Native Format]] _37%_
+- [[59-angle-perspective|Angle / Perspective]] _37%_
+- [[39-angle-perspective|Angle / Perspective]] _33%_
+- [[60-bridges|Bridges]] _33%_
+- [[36-essence|Essence]] _29%_
+- [[45-passports-pro2-md|passports/pro2.md]] _29%_
+- [[46-essence|Essence]] _29%_
 ## Связанные документы
 
 - [[39-angle-perspective|Angle / Perspective]] _42%_

@@ -9,6 +9,15 @@ date: 2026-04-29
 
 # Abstract
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** We conclude with open questions on governance, consent, economics, and burnout dynamics, and invite research collaboration on these unsolved issues.
+> ✅ **Результат:** Reference implementation via Nautilus Portal Protocol (NPP v1.1), which provides the federated knowledge substrate required to support the architecture 3.
+> 🏷️ **Ключевые слова:** `triangle`, `anthropic`, `vacancies`, `single`, `architecture`, `human`, `double`, `knowledge`
+>
+
+
 <!-- summary -->
 > We introduce the **Double-Triangle Architecture** for human-AI
 
@@ -34,7 +43,7 @@ knowledge work.
 
 Existing systems implement only one triangle: personal assistants 
 (Cursor, Copilot, ChatGPT) operate in the lower triangle only; 
-multi-agent frameworks (CrewAI, MetaGPT, AutoGen) operate in the 
+multi-agent frameworks (CrewAI, MetaGPT, [[01-интегральный-анализ-профиля-svend4|AutoGen]]) operate in the 
 upper triangle only and typically replace humans rather than 
 augment them. Neither paradigm captures the full structure of how 
 humans will actually work alongside AI over the next decade.
@@ -87,9 +96,33 @@ unsolved issues.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]]
+- [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]]
+- [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]]
+- [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]]
+- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]]
+- [[143-6-four-deployment-domains|6. Four Deployment Domains]]
+- [[145-8-call-to-action|8. Call to Action]]
+- [[148-appendix-a-glossary|Appendix A: Glossary]]
+- [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]]
+- [[137-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[354-существующий-landscape-collaborators-твоя-working-|Существующий landscape collaborators (твоя working knowledge)]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _25%_
+- [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _25%_
+- [[137-table-of-contents|Table of Contents]] _21%_
+- [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] _21%_
+- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _21%_
+- [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]] _21%_
+- [[143-6-four-deployment-domains|6. Four Deployment Domains]] _17%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _17%_
 ## Связанные документы
 
 - [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _33%_

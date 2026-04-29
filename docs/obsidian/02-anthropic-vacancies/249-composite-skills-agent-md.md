@@ -35,9 +35,37 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[264-11-open-questions|11. Open Questions]]
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]]
+- [[210-abstract|Abstract]]
+- [[252-abstract|Abstract]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]]
+- [[12-content-overview|Content Overview]]
+- [[31-content-overview|Content Overview]]
+- [[364-final-note-ты-experiment|Final note: Ты — experiment]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]]
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]]
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]]
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]]
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]]
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _53%_
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _53%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _53%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _42%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _42%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _37%_
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _29%_
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _25%_
 ## Связанные документы
 
 - [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _77%_

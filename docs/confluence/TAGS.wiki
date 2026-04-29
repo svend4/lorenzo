@@ -8,103 +8,103 @@ h1. Индекс тегов
 Каждый файл помечен тегами по темам автоматически.
 
 
-h2. #anthropic (137 файлов)
+h2. #anthropic (56 файлов)
 
-* {{docs/02-anthropic-vacancies/04-abstract.md}}
-* {{docs/02-anthropic-vacancies/09-4-passport-passport-md.md}}
-* {{docs/02-anthropic-vacancies/102-доступ-к-данным.md}}
-* {{docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md}}
-* {{docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md}}
-* {{docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md}}
-* {{docs/02-anthropic-vacancies/12-content-overview.md}}
-* {{docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md}}
-* {{docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md}}
-* {{docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md}}
-* {{docs/02-anthropic-vacancies/13-angle-perspective.md}}
-* {{docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md}}
-* {{docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md}}
-* {{docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md}}
-* {{docs/02-anthropic-vacancies/160-6-governance-and-ethics.md}}
-* {{docs/02-anthropic-vacancies/17-5-compatibility-levels.md}}
-* {{docs/02-anthropic-vacancies/18-6-adapter-interface.md}}
-* {{docs/02-anthropic-vacancies/181-12-closing.md}}
-* {{docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md}}
-* {{docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md}}
-* _...и ещё 117_
+* {{docs/02-anthropic-vacancies/QA.md}}
+* {{docs/03-technology-combinations/QA.md}}
+* {{docs/05-habr-projects/QA.md}}
+* {{docs/ABBREVIATIONS.md}}
+* {{docs/ACTION_ITEMS.md}}
+* {{docs/CHANGELOG.md}}
+* {{docs/CITATION_INDEX.md}}
+* {{docs/CODE_BLOCKS.md}}
+* {{docs/COMPARE.md}}
+* {{docs/COMPLEXITY.md}}
+* {{docs/CONCEPTS.md}}
+* {{docs/CONCEPT_GRAPH.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/CONTACTS.md}}
+* {{docs/CONTENT_GAPS.md}}
+* {{docs/CONTRADICTIONS.md}}
+* {{docs/COVERAGE.md}}
+* {{docs/DENSITY.md}}
+* {{docs/DEPENDABOT.md}}
+* {{docs/DIGEST_AUTO.md}}
+* _...и ещё 36_
 
-h2. #architecture (74 файлов)
+h2. #architecture (57 файлов)
 
 * {{docs/01-svyazi/QA.md}}
-* {{docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md}}
-* {{docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md}}
-* {{docs/02-anthropic-vacancies/18-6-adapter-interface.md}}
-* {{docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md}}
-* {{docs/02-anthropic-vacancies/19-7-portalentry-structure.md}}
-* {{docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md}}
-* {{docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md}}
-* {{docs/02-anthropic-vacancies/23-11-security-considerations.md}}
-* {{docs/02-anthropic-vacancies/249-composite-skills-agent-md.md}}
-* {{docs/02-anthropic-vacancies/286-acknowledgments.md}}
-* {{docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md}}
-* {{docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md}}
-* {{docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md}}
-* {{docs/02-anthropic-vacancies/83-8-q6-space-normative.md}}
-* {{docs/02-anthropic-vacancies/90-15-security-considerations.md}}
 * {{docs/02-anthropic-vacancies/QA.md}}
 * {{docs/03-technology-combinations/QA.md}}
 * {{docs/04-ai-collaborations/QA.md}}
 * {{docs/05-habr-projects/QA.md}}
-* _...и ещё 54_
+* {{docs/ABBREVIATIONS.md}}
+* {{docs/ACTION_ITEMS.md}}
+* {{docs/CHANGELOG.md}}
+* {{docs/CODE_BLOCKS.md}}
+* {{docs/COMPARE.md}}
+* {{docs/COMPLEXITY.md}}
+* {{docs/CONCEPTS.md}}
+* {{docs/CONCEPT_GRAPH.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/CONTACTS.md}}
+* {{docs/CONTACT_PRIORITY.md}}
+* {{docs/CONTENT_GAPS.md}}
+* {{docs/CONTRADICTIONS.md}}
+* {{docs/COST.md}}
+* {{docs/COVERAGE.md}}
+* _...и ещё 37_
 
-h2. #collaboration (79 файлов)
+h2. #collaboration (65 файлов)
 
 * {{docs/01-svyazi/QA.md}}
 * {{docs/02-anthropic-vacancies/QA.md}}
+* {{docs/03-technology-combinations/QA.md}}
 * {{docs/04-ai-collaborations/QA.md}}
 * {{docs/05-habr-projects/QA.md}}
 * {{docs/ABBREVIATIONS.md}}
 * {{docs/ACTION_ITEMS.md}}
-* {{docs/AUTOFILLED.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/BROKEN_LINKS.md}}
 * {{docs/CHANGELOG.md}}
 * {{docs/CITATION_INDEX.md}}
-* {{docs/CLUSTERS.md}}
 * {{docs/CODE_BLOCKS.md}}
 * {{docs/COMPARE.md}}
-* {{docs/COMPONENT_MATRIX.md}}
 * {{docs/CONCEPTS.md}}
 * {{docs/CONCEPT_GRAPH.md}}
 * {{docs/CONTACTS.md}}
 * {{docs/CONTACT_PRIORITY.md}}
 * {{docs/CONTENT_GAPS.md}}
-* _...и ещё 59_
+* {{docs/CONTRADICTIONS.md}}
+* {{docs/COST.md}}
+* {{docs/COVERAGE.md}}
+* {{docs/DENSITY.md}}
+* _...и ещё 45_
 
-h2. #ingestion (82 файлов)
+h2. #ingestion (56 файлов)
 
 * {{docs/01-svyazi/QA.md}}
-* {{docs/02-anthropic-vacancies/18-6-adapter-interface.md}}
-* {{docs/02-anthropic-vacancies/19-7-portalentry-structure.md}}
-* {{docs/02-anthropic-vacancies/23-11-security-considerations.md}}
-* {{docs/02-anthropic-vacancies/83-8-q6-space-normative.md}}
-* {{docs/02-anthropic-vacancies/90-15-security-considerations.md}}
 * {{docs/02-anthropic-vacancies/QA.md}}
 * {{docs/03-technology-combinations/QA.md}}
 * {{docs/04-ai-collaborations/QA.md}}
 * {{docs/ACTION_ITEMS.md}}
 * {{docs/ALERTS.md}}
-* {{docs/AUTOFILLED.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/BROKEN_LINKS.md}}
 * {{docs/CHANGELOG.md}}
-* {{docs/CHANGELOG_AUTO.md}}
-* {{docs/CLUSTERS.md}}
 * {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPONENT_MATRIX.md}}
 * {{docs/CONCEPTS.md}}
-* _...и ещё 62_
+* {{docs/CONCEPT_GRAPH.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/CONTACTS.md}}
+* {{docs/CONTACT_PRIORITY.md}}
+* {{docs/CONTENT_GAPS.md}}
+* {{docs/CONTRADICTIONS.md}}
+* {{docs/COVERAGE.md}}
+* {{docs/DENSITY.md}}
+* {{docs/DEPENDABOT.md}}
+* {{docs/DIGEST_AUTO.md}}
+* {{docs/EMPTY_SECTIONS.md}}
+* _...и ещё 36_
 
-h2. #knowledge (42 файлов)
+h2. #knowledge (44 файлов)
 
 * {{docs/01-svyazi/QA.md}}
 * {{docs/02-anthropic-vacancies/QA.md}}
@@ -112,21 +112,21 @@ h2. #knowledge (42 файлов)
 * {{docs/04-ai-collaborations/QA.md}}
 * {{docs/05-habr-projects/QA.md}}
 * {{docs/ACTION_ITEMS.md}}
-* {{docs/BROKEN_LINKS.md}}
 * {{docs/CITATION_INDEX.md}}
 * {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPONENT_MATRIX.md}}
 * {{docs/CONCEPTS.md}}
-* {{docs/CONCEPT_GRAPH.md}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/CONTACTS.md}}
 * {{docs/CONTACT_PRIORITY.md}}
 * {{docs/CONTRADICTIONS.md}}
 * {{docs/COST.md}}
 * {{docs/DENSITY.md}}
+* {{docs/DEPENDABOT.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/ENTITIES.md}}
 * {{docs/FAQ.md}}
-* _...и ещё 22_
+* {{docs/FOOTNOTES.md}}
+* _...и ещё 24_
 
 h2. #local-first (29 файлов)
 
@@ -134,55 +134,53 @@ h2. #local-first (29 файлов)
 * {{docs/ACTION_ITEMS.md}}
 * {{docs/CODE_BLOCKS.md}}
 * {{docs/COMPLEXITY.md}}
-* {{docs/COMPONENT_MATRIX.md}}
 * {{docs/CONCEPTS.md}}
+* {{docs/CONSISTENCY.md}}
 * {{docs/CONTACTS.md}}
-* {{docs/CONTENT_GAPS.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/ENTITIES.md}}
 * {{docs/FOOTNOTES.md}}
 * {{docs/GRAPH.md}}
-* {{docs/HEATMAP.md}}
+* {{docs/HEADING_AUDIT.md}}
 * {{docs/KPI.md}}
-* {{docs/LLM_SUMMARIES.md}}
+* {{docs/LANGUAGE_STATS.md}}
 * {{docs/MINDMAP.md}}
 * {{docs/MISSING.md}}
 * {{docs/NAMED_ENTITIES.md}}
-* {{docs/OUTLINE.md}}
 * {{docs/PARAGRAPH_QUALITY.md}}
 * {{docs/PRIORITIES.md}}
+* {{docs/QUESTIONS.md}}
 * _...и ещё 9_
 
-h2. #memory (51 файлов)
+h2. #memory (45 файлов)
 
-* {{docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md}}
 * {{docs/02-anthropic-vacancies/QA.md}}
 * {{docs/ACTION_ITEMS.md}}
 * {{docs/CITATION_INDEX.md}}
-* {{docs/CLUSTERS.md}}
 * {{docs/CODE_BLOCKS.md}}
 * {{docs/COMPARE.md}}
-* {{docs/COMPONENT_MATRIX.md}}
+* {{docs/COMPLEXITY.md}}
 * {{docs/CONCEPTS.md}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/CONTACTS.md}}
 * {{docs/CONTACT_PRIORITY.md}}
+* {{docs/CONTENT_GAPS.md}}
 * {{docs/CONTRADICTIONS.md}}
 * {{docs/COST.md}}
-* {{docs/COVERAGE.md}}
 * {{docs/DENSITY.md}}
+* {{docs/DEPENDABOT.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/ENTITIES.md}}
 * {{docs/FAQ.md}}
 * {{docs/FOOTNOTES.md}}
 * {{docs/GRAPH.md}}
-* _...и ещё 31_
+* _...и ещё 25_
 
-h2. #orchestration (32 файлов)
+h2. #orchestration (34 файлов)
 
 * {{docs/02-anthropic-vacancies/QA.md}}
 * {{docs/ACTION_ITEMS.md}}
 * {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPARE.md}}
-* {{docs/COMPONENT_MATRIX.md}}
 * {{docs/CONCEPTS.md}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/CONTACTS.md}}
@@ -190,17 +188,19 @@ h2. #orchestration (32 файлов)
 * {{docs/CONTRADICTIONS.md}}
 * {{docs/COST.md}}
 * {{docs/DENSITY.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/ENTITIES.md}}
 * {{docs/FAQ.md}}
 * {{docs/FOOTNOTES.md}}
 * {{docs/GRAPH.md}}
+* {{docs/HEADING_AUDIT.md}}
 * {{docs/HEATMAP.md}}
+* {{docs/LANGUAGE_STATS.md}}
 * {{docs/MINDMAP.md}}
 * {{docs/MISSING.md}}
-* {{docs/NETWORK.md}}
-* _...и ещё 12_
+* _...и ещё 14_
 
-h2. #rag (51 файлов)
+h2. #rag (49 файлов)
 
 * {{docs/01-svyazi/QA.md}}
 * {{docs/02-anthropic-vacancies/QA.md}}
@@ -209,70 +209,70 @@ h2. #rag (51 файлов)
 * {{docs/ABBREVIATIONS.md}}
 * {{docs/ACTION_ITEMS.md}}
 * {{docs/CHANGELOG.md}}
-* {{docs/CHANGELOG_AUTO.md}}
-* {{docs/CLUSTERS.md}}
 * {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPONENT_MATRIX.md}}
+* {{docs/COMPARE.md}}
 * {{docs/CONCEPTS.md}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/CONTACTS.md}}
 * {{docs/CONTACT_PRIORITY.md}}
-* {{docs/CONTENT_GAPS.md}}
 * {{docs/CONTRADICTIONS.md}}
 * {{docs/DENSITY.md}}
-* {{docs/DEPENDENCY_MAP.md}}
-* {{docs/DIGEST.md}}
-* _...и ещё 31_
+* {{docs/DIGEST_AUTO.md}}
+* {{docs/DIGEST_WEEKLY.md}}
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/ENTITIES.md}}
+* {{docs/FAQ.md}}
+* _...и ещё 29_
 
-h2. #roadmap (57 файлов)
+h2. #roadmap (46 файлов)
 
 * {{docs/01-svyazi/QA.md}}
-* {{docs/02-anthropic-vacancies/160-6-governance-and-ethics.md}}
-* {{docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md}}
 * {{docs/02-anthropic-vacancies/QA.md}}
 * {{docs/04-ai-collaborations/QA.md}}
 * {{docs/05-habr-projects/QA.md}}
 * {{docs/ABBREVIATIONS.md}}
 * {{docs/ACTION_ITEMS.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/BROKEN_LINKS.md}}
 * {{docs/CHANGELOG.md}}
-* {{docs/CHANGELOG_AUTO.md}}
-* {{docs/CLUSTERS.md}}
 * {{docs/CODE_BLOCKS.md}}
 * {{docs/COMPARE.md}}
-* {{docs/COMPONENT_MATRIX.md}}
 * {{docs/CONCEPTS.md}}
 * {{docs/CONTACTS.md}}
 * {{docs/CONTENT_GAPS.md}}
 * {{docs/CONTRADICTIONS.md}}
-* _...и ещё 37_
+* {{docs/COST.md}}
+* {{docs/DENSITY.md}}
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/FAQ.md}}
+* {{docs/GITHUB_ISSUES.md}}
+* {{docs/HEADING_AUDIT.md}}
+* {{docs/HEATMAP.md}}
+* _...и ещё 26_
 
-h2. #security (42 файлов)
+h2. #security (37 файлов)
 
 * {{docs/01-svyazi/QA.md}}
 * {{docs/02-anthropic-vacancies/QA.md}}
 * {{docs/04-ai-collaborations/QA.md}}
 * {{docs/ABBREVIATIONS.md}}
 * {{docs/ACTION_ITEMS.md}}
-* {{docs/BROKEN_LINKS.md}}
 * {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPONENT_MATRIX.md}}
 * {{docs/CONCEPTS.md}}
 * {{docs/CONTACTS.md}}
 * {{docs/CONTACT_PRIORITY.md}}
 * {{docs/CONTENT_GAPS.md}}
-* {{docs/CONTRADICTIONS.md}}
 * {{docs/COST.md}}
 * {{docs/DENSITY.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/ENTITIES.md}}
 * {{docs/FAQ.md}}
 * {{docs/FOOTNOTES.md}}
 * {{docs/GRAPH.md}}
+* {{docs/HEADING_AUDIT.md}}
 * {{docs/HEATMAP.md}}
-* _...и ещё 22_
+* {{docs/KNOWLEDGE_MAP.md}}
+* _...и ещё 17_
 
-h2. #self-improvement (30 файлов)
+h2. #self-improvement (38 файлов)
 
 * {{docs/ABBREVIATIONS.md}}
 * {{docs/ACTION_ITEMS.md}}
@@ -282,27 +282,27 @@ h2. #self-improvement (30 файлов)
 * {{docs/CONCEPTS.md}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/CONTACTS.md}}
-* {{docs/CONTENT_GAPS.md}}
 * {{docs/CONTRADICTIONS.md}}
-* {{docs/DEPENDENCY_MAP.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/FOOTNOTES.md}}
+* {{docs/GITHUB_ISSUES.md}}
 * {{docs/GRAPH.md}}
+* {{docs/HEADING_AUDIT.md}}
+* {{docs/KNOWLEDGE_MAP.md}}
 * {{docs/KPI.md}}
-* {{docs/LLM_SUMMARIES.md}}
+* {{docs/LANGUAGE_STATS.md}}
 * {{docs/MINDMAP.md}}
 * {{docs/MISSING.md}}
 * {{docs/NAMED_ENTITIES.md}}
-* {{docs/OUTLINE.md}}
-* {{docs/PARAGRAPH_QUALITY.md}}
-* _...и ещё 10_
+* _...и ещё 18_
 
 
 
 ----
 
 _Смотрите также:_
-* [COVERAGE|COVERAGE.md]
-* [STALENESS|STALENESS.md]
-* [SITEMAP|SITEMAP.md]
-* [COMPARE|COMPARE.md]
+* [VERSION_DIFF|docs/VERSION_DIFF.md]
+* [DEPENDENCY_MAP|docs/DEPENDENCY_MAP.md]
+* [CONSISTENCY|docs/CONSISTENCY.md]
+* [STATS|docs/STATS.md]
 

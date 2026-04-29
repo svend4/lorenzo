@@ -1,7 +1,6 @@
 ---
 title: "Word Cloud"
 tags:
-  - rag
   - ingestion
   - anthropic
   - general
@@ -15,7 +14,7 @@ date: 2026-04-29
 **Проекты:** Svyazi
 
 ---
-<!-- tags: rag, ingestion, anthropic -->
+<!-- tags: ingestion, anthropic -->
 
 
 
@@ -49,17 +48,15 @@ date: 2026-04-29
 | 19 | **lorenzo** | 557 |
 | 20 | **claude** | 556 |
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [[READING_TIME|Время чтения документов]] _29%_
-- [[CLUSTERS|Кластеры тематически близких файлов]] _25%_
-- [[KEYWORD_INDEX|Инвертированный индекс ключевых слов]] _25%_
-- [[READING_ORDER|Рекомендуемый порядок чтения]] _25%_
-- [[SOURCE_MAP|Карта происхождения текстов]] _25%_
-- [[WORD_FREQ|Частотный анализ слов]] _25%_
-- [[PARAGRAPH_QUALITY|Качество абзацев]] _21%_
-- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _17%_
+---
+
+**Похожие документы:**
+- [[CONCEPT_GRAPH]] (сходство 0.30)
+- [[28-appendix-a-minimal-working-example]] (сходство 0.20)
+- [[304-ingit-as-cowork-native-workspace-substrate-md]] (сходство 0.19)
+
 
 <!-- see-also -->
 
@@ -67,7 +64,7 @@ date: 2026-04-29
 
 **Смотрите также:**
 - [[CONCEPT_GRAPH]]
-- [[KEYWORD_INDEX]]
-- [[270-appendix-b-sub-agent-registry-schema-sketch]]
-- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[28-appendix-a-minimal-working-example]]
+- [[65-readme-md]]
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte]]
 

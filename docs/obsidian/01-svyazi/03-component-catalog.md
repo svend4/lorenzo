@@ -6,22 +6,21 @@ date: 2026-04-29
 ---
 
 
-
-<!-- toc -->
-## Содержание
-
-- [Карта найденных проектов и паттернов](#карта-найденных-проектов-и-паттернов)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
-
 <!-- summary -->
-> <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
+> > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
 
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.
+> 🔧 **Подход:** 6 слоёв, YAML, SHA256‑дедупликация, Ollama+Qwen, LLM^llm+детерминированный код, CardIndex^cardindex, privacy by design.
+> ✅ **Результат:** citeturn15search1turn15search5 Очень высокая: даёт visual grounding, которого Svyazi‑подобным системам обычно не хватает.
+> 🏷️ **Ключевые слова:** `search`, `memory`, `высокая`, `github`, `активный`, `svyazi`, `неуточнено`, `first`
+>
 
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
 
@@ -67,7 +66,7 @@ date: 2026-04-29
 - [[03-карта-найденных-проектов-и-паттернов]]
 - [[TABLES]]
 - [[04-приоритетные-ансамбли]]
-- [[04-ensembles-overview]]
+- [[00-intro-part2|04-ensembles-overview]]/04-ensembles-overview.md)
 
 
 
@@ -88,20 +87,3 @@ date: 2026-04-29
 [^sentinel]: OSS-проект: безопасность и allowlist для MCP
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[03-карта-найденных-проектов-и-паттернов|Карта найденных проектов и паттернов]] _90%_
-- [[04-приоритетные-ансамбли|Приоритетные ансамбли]] _33%_
-- [[04-ensembles-overview|04 Ensembles Overview]] _29%_
-- [[10-новые-ансамбли-следующего-шага|Новые ансамбли следующего шага]] _29%_
-- [[TABLES|Все таблицы репозитория]] _29%_
-- [[06-security-privacy|06 Security Privacy]] _25%_
-- [[07-mvp-planning|07 Mvp Planning]] _25%_
-- [[09-architectural-gaps|09 Architectural Gaps]] _25%_

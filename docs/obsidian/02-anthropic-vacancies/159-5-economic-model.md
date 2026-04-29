@@ -18,10 +18,17 @@ date: 2026-04-29
   - [5.2. Three-Year Pilot Budget (Estimated)](#52-three-year-pilot-budget-estimated)
   - [5.3. Funding Strategy](#53-funding-strategy)
   - [5.4. Contributor Economics](#54-contributor-economics)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Budget Philosophy(51-budget-philosophy) - 5.2.
+> 🔧 **Подход:** --- --- Похожие документы: - 161-7-phased-rollout-plan(docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.18) - 158-4-proposed-infrastructure(docs/02-anthropic-v
+> 🏷️ **Ключевые слова:** `contributor`, `anthropic`, `month`, `vacancies`, `budget`, `total`, `funding`, `infrastructure`
+>
 
 
 <!-- toc-auto -->
@@ -170,17 +177,3 @@ to minimum dignity threshold; upward is merit-based.
 - [[163-9-call-for-partnership]]
 - [[162-8-risk-analysis]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[161-7-phased-rollout-plan|7. Phased Rollout Plan]] _25%_
-- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]] _21%_
-- [[160-6-governance-and-ethics|6. Governance and Ethics]] _17%_
-- [[162-8-risk-analysis|8. Risk Analysis]] _17%_
-- [[163-9-call-for-partnership|9. Call for Partnership]] _17%_
-- [[178-9-phased-rollout-strategy|9. Phased Rollout Strategy]] _17%_

@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 3. What Makes a Representative Agent
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Adapting them to AI principals is a key research and design challenge addressed in Sections 6 and 7.
+> 🔧 **Подход:** Adapting them to AI principals is a key research and design challenge addressed in Sections 6 and 7.
+> 🏷️ **Ключевые слова:** `agent`, `principal`, `representative`, `assistants`, `makes`, `relationship`, `current`, `function`
+>
+
+
 <!-- summary -->
 > A Representative Agent is distinct from existing AI categories.
 
@@ -44,7 +53,7 @@ Locus of agency: User.
 Goal: Productivity multiplication on chosen tasks.
 
 **Layer 2 — Multi-Agent Systems** (current research/prototype):  
-Examples: MetaGPT, AutoGen, ChatDev, CrewAI.  
+Examples: MetaGPT, [[01-интегральный-анализ-профиля-svend4|AutoGen]], ChatDev, CrewAI.  
 Function: AI agents collaborate among themselves to complete 
 complex tasks.  
 Direction: AI → AI.  
@@ -161,9 +170,33 @@ and 7.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]]
+- [[179-10-open-questions|10. Open Questions]]
+- [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]]
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]]
+- [[174-5-architectural-specification|5. Architectural Specification]]
+- [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]]
+- [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]]
+- [[175-6-ethical-framework|6. Ethical Framework]]
+- [[176-7-governance-and-oversight|7. Governance and Oversight]]
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]]
+- [[211-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[211-table-of-contents|Table of Contents]] _29%_
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _29%_
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _29%_
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _29%_
+- [[174-5-architectural-specification|5. Architectural Specification]] _25%_
+- [[179-10-open-questions|10. Open Questions]] _21%_
+- [[210-abstract|Abstract]] _21%_
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _21%_
 ## Связанные документы
 
 - [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _33%_

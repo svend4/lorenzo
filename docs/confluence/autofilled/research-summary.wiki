@@ -64,6 +64,18 @@ _Смотрите также:_
 
 h2. Связанные документы
 
+* [[Тема исследования]](../templates/research-note.md) _37%_
+h2. Связанные документы
+
 * [[Тема исследования]](docs/templates/research-note.md) _100%_
 * [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md) _17%_
 * [[Название компонента]](docs/templates/project-component.md) _17%_
+
+
+h2. Упоминается в
+
+* [[Тема исследования]](../templates/research-note.md)
+* [autofilled|README.md]
+* [Автозаполненные шаблоны|../AUTOFILLED.md]
+* [Ансамбль: [Название]](../templates/ensemble.md)
+* [Шаблоны документов|../templates/README.md]

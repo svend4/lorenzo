@@ -37,24 +37,21 @@ date: 2026-04-29
 
 ---
 
-<!-- backlinks-auto -->
-## Упоминается в
+<!-- similar-docs -->
 
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
+---
 
-<!-- related-auto -->
-## Связанные документы
+**Похожие документы:**
+- [[12-content-overview]] (сходство 0.11)
 
-- [[58-content-overview|Content Overview]] _17%_
-- [[12-content-overview|Content Overview]] _16%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[12-content-overview]]
-- [[31-content-overview]]
-- [[13-angle-perspective]]
 - [[58-content-overview]]
+- [[42-author-contact]]
+- [[231-содержание]]
+- [[48-content-overview]]
 

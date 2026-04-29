@@ -59,9 +59,40 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]]
+- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]]
+- [[146-acknowledgments|Acknowledgments]]
+- [[182-acknowledgments|Acknowledgments]]
+- [[224-acknowledgments|Acknowledgments]]
+- [[267-acknowledgments|Acknowledgments]]
+- [[286-acknowledgments|Acknowledgments]]
+- [[319-acknowledgments|Acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]]
+- [[183-references|References]]
+- [[225-references|References]]
+- [[268-references|References]]
+- [[287-references|References]]
+- [[137-table-of-contents|Table of Contents]]
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]]
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _60%_
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _60%_
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] _53%_
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _42%_
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _42%_
+- [[287-references|References]] _37%_
+- [[319-acknowledgments|Acknowledgments]] _37%_
+- [[146-acknowledgments|Acknowledgments]] _33%_
 ## Связанные документы
 
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _81%_

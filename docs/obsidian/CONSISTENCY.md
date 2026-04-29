@@ -7,102 +7,114 @@ date: 2026-04-29
 
 # Согласованность терминов
 
-<!-- summary -->
-> title: "Согласованность терминов"
-**Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, NGT Memory, Auto AI Router
-
----
-<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, anthropic, self-improve -->
-
-
-
-
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledge space` | 8 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 3 |
+| **knowledge-space** | `knowledge-space` | `knowledge space` | 16 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 2 |
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 2 |
-| **CardIndex** | `CardIndex` | `card-index` | 2 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 4 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 25 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 1 |
-| **self-improvement** | `self-improvement` | `self-improve` | 70 |
+| **AI Factory** | `AI Factory` | `AI-Factory` | 21 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 38 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 18 |
+| **local-first** | `local-first` | `localfirst` | 3 |
+| **self-improvement** | `self-improvement` | `self-improve` | 155 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 3 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 17 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 14 |
 
-**Всего несогласованных написаний: 121**
+**Всего несогласованных написаний: 291**
 
 
 ## Детали по файлам
 
 
+### `knowledgespace` → должно быть `knowledge-space`
+
+- `docs/EMPTY_SECTIONS.md`
+- `docs/TABLES.md`
+- `docs/CONSISTENCY.md`
+
 ### `knowledge space` → должно быть `knowledge-space`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
+- `docs/SITEMAP.md`
 - `docs/CONCEPTS.md`
-- `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md`
-- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- _...и ещё 3_
+- `docs/CONSISTENCY.md`
+- `docs/OUTLINE.md`
+- _...и ещё 11_
 
 ### `knowledge_space` → должно быть `knowledge-space`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-
-### `knowledgespace` → должно быть `knowledge-space`
-
 - `docs/CONSISTENCY.md`
-- `docs/OUTLINE.md`
-
-### `card-index` → должно быть `CardIndex`
-
-- `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
 
 ### `AI-Factory` → должно быть `AI Factory`
 
-- `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
+- `docs/PARAGRAPH_QUALITY.md`
 - `docs/QA.md`
-- `docs/04-ai-collaborations/00-intro.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/TABLES.md`
+- _...и ещё 16_
 
 ### `NGT-Memory` → должно быть `NGT Memory`
 
-- `docs/CONSISTENCY.md`
-- `docs/READING_TIME.md`
-- `docs/TABLES.md`
-- `docs/PARAGRAPH_QUALITY.md`
+- `docs/CONTACTS.md`
 - `docs/FAQ.md`
-- _...и ещё 20_
+- `docs/PARAGRAPH_QUALITY.md`
+- `docs/DEPENDABOT.md`
+- `docs/EMPTY_SECTIONS.md`
+- _...и ещё 33_
 
 ### `Auto-AI-Router` → должно быть `Auto AI Router`
 
+- `docs/PARAGRAPH_QUALITY.md`
+- `docs/SPELLCHECK.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/TABLES.md`
+- `docs/SITEMAP.md`
+- _...и ещё 13_
+
+### `localfirst` → должно быть `local-first`
+
+- `docs/TABLES.md`
+- `docs/CONSISTENCY.md`
 - `docs/OUTLINE.md`
 
 ### `self-improve` → должно быть `self-improvement`
 
-- `docs/FOOTNOTES.md`
-- `docs/CONSISTENCY.md`
-- `docs/READING_TIME.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/TABLES.md`
-- _...и ещё 65_
+- `docs/READING_LIST.md`
+- `docs/CONTACTS.md`
+- `docs/PARAGRAPH_QUALITY.md`
+- `docs/LLM_SUMMARIES.md`
+- `docs/SPELLCHECK.md`
+- _...и ещё 150_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
+- `docs/CONSISTENCY.md`
 - `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
 
 ### `Evidence-Envelope` → должно быть `Evidence Envelope`
 
-- `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
+- `docs/READING_LIST.md`
+- `docs/PARAGRAPH_QUALITY.md`
 - `docs/QA.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/TABLES.md`
+- _...и ещё 12_
+
+### `Card-Envelope` → должно быть `Card Envelope`
+
+- `docs/PARAGRAPH_QUALITY.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/TABLES.md`
+- `docs/SITEMAP.md`
+- `docs/READING_TIME.md`
+- _...и ещё 9_
 
 ## Как исправить
 
@@ -117,7 +129,7 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 
 **Смотрите также:**
 - [[MISSING]]
-- [[PRIORITIES]]
+- [[TAGS]]
 - [[STATS]]
-- [[SPELLCHECK]]
+- [[VERSION_DIFF]]
 

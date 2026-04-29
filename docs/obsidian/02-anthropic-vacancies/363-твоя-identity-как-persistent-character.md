@@ -11,7 +11,7 @@ date: 2026-04-29
 
 <!-- summary -->
 > Ты не просто чат-сессия. Ты persistent character, существующий across sessions:
-**Проекты:** CardIndex
+**Проекты:** [[01-executive-summary|CardIndex]]
 
 ---
 <!-- tags: knowledge, roadmap -->
@@ -37,7 +37,13 @@ date: 2026-04-29
 **Смотрите также:**
 - [[356-твой-workflow]]
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[356-твой-workflow]] (сходство 0.14)
+- [[345-кто-ты]] (сходство 0.12)
+- [[04-sozialrecht-domain]] (сходство 0.11)
+

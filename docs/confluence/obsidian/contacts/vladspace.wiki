@@ -16,7 +16,7 @@ h1. Контакт: VladSpace / Graph RAG
 
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+_Проекты:_ Svyazi, Graph RAG
 
 ----
 
@@ -73,24 +73,22 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Связанные документы
 
-* [[cutcode|Контакт: Cutcode / AIF Handoff]] _81%_
-* [[dmitriila|Контакт: Dmitriila / SENTINEL]] _81%_
-* [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _81%_
-* [[zodigancode|Контакт: zodigancode / Rufler]] _81%_
-* [[kksudo|Контакт: kksudo / AgentFS]] _73%_
-* [[spbmolot|Контакт: spbmolot / NGT Memory]] _73%_
-* [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] _73%_
-* [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _73%_
+----
+
+_Похожие документы:_
+* [[zodigancode]] (сходство 0.88)
+* [[tagir-analyzes]] (сходство 0.88)
+* [[mixaill76]] (сходство 0.88)
+
 
 
 
 ----
 
 _Смотрите также:_
+* [[tagir-analyzes]]
 * [[cutcode]]
-* [[dmitriila]]
-* [[mixaill76]]
 * [[zodigancode]]
+* [[dmitriila]]
 

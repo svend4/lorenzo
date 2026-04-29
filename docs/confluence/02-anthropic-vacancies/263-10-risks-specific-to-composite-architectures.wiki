@@ -5,6 +5,16 @@
 
 h1. 10. Risks Specific to Composite Architectures
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Practitioners working on similar problems develop incompatible approaches because they used different sub-agent configurations.{quote}
+{quote}🔧 _Подход:_ Practitioners working on similar problems develop incompatible approaches because they used different sub-agent configurations.{quote}
+{quote}✅ _Результат:_ Mitigations: - Open standards make sub-agents portable and replaceable - Multiple sub-agents covering same specialization (compete on quality, not lock-in) - Notification when sub-{quote}
+{quote}🏷️ _Ключевые слова:_ {{agents}}, {{configuration}}, {{agent}}, {{composite}}, {{configurations}}, {{coordinator}}, {{specific}}, {{quality}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -189,9 +199,34 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [10. Open Questions|179-10-open-questions.md]
+* [11. Open Questions|264-11-open-questions.md]
+* [12. Call for Collaboration|265-12-call-for-collaboration.md]
+* [3. What Makes a Composite Skills Agent|256-3-what-makes-a-composite-skills-agent.md]
+* [4. The Sub-Agent Registry|257-4-the-sub-agent-registry.md]
+* [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md]
+* [6. Coordination and Disagreement Resolution|259-6-coordination-and-disagreement-resolution.md]
+* [6. Risks Specific to this Category|217-6-risks-specific-to-this-category.md]
+* [7. Economics of Combinatorial Replication|260-7-economics-of-combinatorial-replication.md]
+* [8. Risk Analysis|162-8-risk-analysis.md]
+* [8. Risks and Mitigations|177-8-risks-and-mitigations.md]
+* [8. Seven Domains of Application|261-8-seven-domains-of-application.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [3. What Makes a Composite Skills Agent|256-3-what-makes-a-composite-skills-agent.md] _42%_
+* [6. Coordination and Disagreement Resolution|259-6-coordination-and-disagreement-resolution.md] _37%_
+* [8. Risks and Mitigations|177-8-risks-and-mitigations.md] _33%_
+* [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md] _33%_
+* [11. Open Questions|264-11-open-questions.md] _29%_
+* [10. Open Questions|179-10-open-questions.md] _21%_
+* [6. Risks Specific to this Category|217-6-risks-specific-to-this-category.md] _21%_
+* [OPEN KNOWLEDGE WORK FOUNDATION.md|151-open-knowledge-work-foundation-md.md] _17%_
 h2. Связанные документы
 
 * [8. Risks and Mitigations|177-8-risks-and-mitigations.md] _42%_

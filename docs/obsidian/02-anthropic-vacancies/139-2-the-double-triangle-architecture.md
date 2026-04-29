@@ -8,6 +8,16 @@ date: 2026-04-29
 
 # 2. The Double-Triangle Architecture
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🔧 **Подход:** The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** N conducts the triangle: tasks flow downward from N to assistants, results flow upward from assistants to N for integration.
+> 🏷️ **Ключевые слова:** `triangle`, `architecture`, `human`, `assistants`, `context`, `level`, `anthropic`, `vacancies`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -158,7 +168,7 @@ large organizations (Star(n)) without protocol changes.
 
 **Похожие документы:**
 - [[148-appendix-a-glossary]] (сходство 0.19)
-- [[141-4-nautilus-portal-as-reference-substrate]] (сходство 0.17)
+- [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.17)
 - [[140-3-three-inter-layer-protocols]] (сходство 0.17)
 
 
@@ -169,22 +179,6 @@ large organizations (Star(n)) without protocol changes.
 **Смотрите также:**
 - [[148-appendix-a-glossary]]
 - [[140-3-three-inter-layer-protocols]]
-- [[141-4-nautilus-portal-as-reference-substrate]]
+- [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [[142-5-pattern-library-as-bridge-between-triangles]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _37%_
-- [[136-abstract|Abstract]] _33%_
-- [[148-appendix-a-glossary|Appendix A: Glossary]] _33%_
-- [[143-6-four-deployment-domains|6. Four Deployment Domains]] _25%_
-- [[144-7-open-questions|7. Open Questions]] _25%_
-- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _21%_
-- [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _21%_
-- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _21%_

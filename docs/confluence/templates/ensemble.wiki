@@ -3,6 +3,18 @@
 Дата: 2026-04-29
 {info}
 
+----
+template: ensemble
+version: "1.0"
+ensemble_name: "[Название]"
+components: []
+task: "[Какую задачу решает]"
+maturity: experimental
+mvp_phase: 0
+created: 2026-04-29
+tags: [ансамбль, архитектура]
+----
+
 h1. Ансамбль: [Название]
 
 
@@ -50,13 +62,3 @@ h2. MVP-шаги
 
 ----
 _Создано: 2026-04-29_
-
-
-
-----
-
-_Смотрите также:_
-* [project-component|project-component.md]
-* [decision-record|decision-record.md]
-* [research-summary|../autofilled/research-summary.md]
-

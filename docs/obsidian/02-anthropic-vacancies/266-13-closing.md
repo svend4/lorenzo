@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 13. Closing
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Building uniquely customized agents serves deep representational needs but cannot scale.
+> ✅ **Результат:** For the Open Knowledge Work Foundation specifically, composite infrastructure provides: - More flexible support for diverse practitioner needs - Stronger alignment with mission of 
+> 🏷️ **Ключевые слова:** `infrastructure`, `anthropic`, `vacancies`, `closing`, `skilled`, `composite`, `agents`, `practice`
+>
+
+
 <!-- summary -->
 > Mastery in skilled work has always been composite. The yoga
 
@@ -99,9 +108,34 @@ walking it.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]]
+- [[265-12-call-for-collaboration|12. Call for Collaboration]]
+- [[181-12-closing|12. Closing]]
+- [[223-12-closing|12. Closing]]
+- [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]]
+- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]]
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]]
+- [[168-abstract|Abstract]]
+- [[252-abstract|Abstract]]
+- [[285-closing|Closing]]
+- [[281-the-recursive-insight|The Recursive Insight]]
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[252-abstract|Abstract]] _25%_
+- [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _25%_
+- [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _25%_
+- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]] _21%_
+- [[168-abstract|Abstract]] _17%_
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _17%_
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _17%_
+- [[285-closing|Closing]] _17%_
 ## Связанные документы
 
 - [[252-abstract|Abstract]] _29%_

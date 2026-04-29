@@ -50,12 +50,13 @@ date: 2026-04-29
 **Смотрите также:**
 - [[56-essence]]
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
+<!-- similar-docs -->
 
-<!-- related-auto -->
-## Связанные документы
+---
 
-- [[38-content-overview|Content Overview]] _17%_
+**Похожие документы:**
+- [[56-essence]] (сходство 0.13)
+- [[12-content-overview]] (сходство 0.12)
+- [[60-bridges]] (сходство 0.12)
+

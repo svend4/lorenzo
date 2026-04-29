@@ -39,9 +39,32 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]]
+- [[168-abstract|Abstract]]
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]]
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]]
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]]
+- [[225-references|References]]
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]]
+- [[230-аннотация|Аннотация]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]]
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _73%_
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]] _73%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _66%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _37%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _25%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _25%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _25%_
+- [[13-angle-perspective|Angle / Perspective]] _21%_
 ## Связанные документы
 
 - [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _81%_

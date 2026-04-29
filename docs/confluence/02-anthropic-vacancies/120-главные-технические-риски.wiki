@@ -30,18 +30,10 @@ readiness.
 
 ---
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [102-доступ-к-данным](102-доступ-к-данным.md)
-- [339-приложение-a-дерево-решений-для-принимающих-ingit](339-приложение-a-дерево-решений-для-принимающих-ingit.md)
-- [118-appendix-a-шаблон-для-header-warning](118-appendix-a-шаблон-для-header-warning.md)
-- [121-appendix-c-история-изменений-методологии](121-appendix-c-история-изменений-методологии.md)
+- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md)
 

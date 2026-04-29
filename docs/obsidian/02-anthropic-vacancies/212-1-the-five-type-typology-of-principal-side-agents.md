@@ -10,6 +10,15 @@ date: 2026-04-29
 
 # 1. The Five-Type Typology of Principal-Side Agents
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** A single human professional could simultaneously have: Personal AI Assistants (Type 0) do not occupy a fixed layer — they function across all layers as utility, used as needed.
+> 🔧 **Подход:** Embeds professional knowledge (norms, methodologies, regulations, templates) so that practitioners do not have to re-explain their context.
+> 🏷️ **Ключевые слова:** `agent`, `agents`, `principal`, `professional`, `types`, `institutional`, `representative`, `anthropic`
+>
+
+
 <!-- summary -->
 > The Representative Agent Layer paper introduced one type of AI
 
@@ -44,7 +53,7 @@ We now identify five distinct types.
 
 ### 1.1. Type 0 — Personal AI Assistants
 
-**Examples**: ChatGPT, Claude, Cursor, GitHub Copilot, Claude
+**Examples**: ChatGPT, Claude, Cursor, [[03-component-catalog|GitHub]] Copilot, Claude
 Code.
 
 **Function**: General-purpose helper with whatever task the
@@ -229,9 +238,36 @@ ethical, and economic framework.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]]
+- [[223-12-closing|12. Closing]]
+- [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]]
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]]
+- [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]]
+- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]]
+- [[176-7-governance-and-oversight|7. Governance and Oversight]]
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]]
+- [[210-abstract|Abstract]]
+- [[226-appendix-a-comparative-table-five-agent-types|Appendix A: Comparative Table — Five Agent Types]]
+- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]]
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]]
+- [[211-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[211-table-of-contents|Table of Contents]] _42%_
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _42%_
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _37%_
+- [[226-appendix-a-comparative-table-five-agent-types|Appendix A: Comparative Table — Five Agent Types]] _37%_
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _37%_
+- [[210-abstract|Abstract]] _33%_
+- [[223-12-closing|12. Closing]] _33%_
+- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _29%_
 ## Связанные документы
 
 - [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _53%_

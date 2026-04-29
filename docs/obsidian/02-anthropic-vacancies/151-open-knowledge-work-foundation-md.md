@@ -34,9 +34,53 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[155-1-problem-statement|1. Problem Statement]]
+- [[221-10-open-questions|10. Open Questions]]
+- [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]]
+- [[222-11-call-for-collaboration|11. Call for Collaboration]]
+- [[264-11-open-questions|11. Open Questions]]
+- [[265-12-call-for-collaboration|12. Call for Collaboration]]
+- [[181-12-closing|12. Closing]]
+- [[223-12-closing|12. Closing]]
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]]
+- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]]
+- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]]
+- [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]]
+- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]]
+- [[177-8-risks-and-mitigations|8. Risks and Mitigations]]
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]]
+- [[210-abstract|Abstract]]
+- [[252-abstract|Abstract]]
+- [[13-angle-perspective|Angle / Perspective]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]]
+- [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]]
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]]
+- [[12-content-overview|Content Overview]]
+- [[31-content-overview|Content Overview]]
+- [[153-executive-summary|Executive Summary]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]]
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]]
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]]
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]]
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _100%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _73%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _73%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _53%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _48%_
+- [[252-abstract|Abstract]] _25%_
+- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]] _25%_
+- [[265-12-call-for-collaboration|12. Call for Collaboration]] _25%_
 ## Связанные документы
 
 - [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _100%_

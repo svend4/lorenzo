@@ -10,6 +10,15 @@ date: 2026-04-29
 
 # Closing
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** That vision rests on infrastructure that partially exists and partially needs building.
+> ✅ **Результат:** The author is unusually positioned to contribute to filling this gap, because the existing Nautilus work provides relevant components.
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `practical`, `infrastructure`, `built`, `recursive`, `insight`, `recommendations`
+>
+
+
 <!-- summary -->
 > The seven documents in this series describe substantial
 
@@ -74,9 +83,30 @@ need to be solved before other work proceeds.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[266-13-closing|13. Closing]]
+- [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]]
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]]
+- [[320-references|References]]
+- [[281-the-recursive-insight|The Recursive Insight]]
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]]
+- [[275-why-this-document-exists|Why This Document Exists]]
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _29%_
+- [[286-acknowledgments|Acknowledgments]] _21%_
+- [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]] _21%_
+- [[252-abstract|Abstract]] _17%_
+- [[266-13-closing|13. Closing]] _17%_
+- [[275-why-this-document-exists|Why This Document Exists]] _17%_
+- [[281-the-recursive-insight|The Recursive Insight]] _17%_
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _17%_
 ## Связанные документы
 
 - [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _33%_

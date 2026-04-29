@@ -19,10 +19,17 @@ date: 2026-04-29
   - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
   - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
   - [9.6. Pace Considerations](#96-pace-considerations)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Phased Rollout Strategy(9-phased-rollout-strategy) - 9.1.
+> ✅ **Результат:** Faster deployment is technically possible but risks: - Premature promises that erode trust when broken - Ethical missteps that trigger restrictive regulation - Platform dynamics th
+> 🏷️ **Ключевые слова:** `phase`, `domain`, `deployment`, `rollout`, `phased`, `pilot`, `anthropic`, `vacancies`
+>
 
 
 <!-- toc-auto -->
@@ -164,17 +171,3 @@ durable, beneficial infrastructure than rapid scaling.
 - [[219-8-pilot-proposal-sgb-advocate-colleague]]
 - [[223-12-closing]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[161-7-phased-rollout-plan|7. Phased Rollout Plan]] _29%_
-- [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]] _21%_
-- [[159-5-economic-model|5. Economic Model]] _17%_
-- [[180-11-call-for-collaboration|11. Call for Collaboration]] _17%_
-- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _17%_
-- [[CONCEPTS|Глоссарий понятий]] _17%_

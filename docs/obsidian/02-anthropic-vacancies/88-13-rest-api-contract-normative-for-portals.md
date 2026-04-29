@@ -21,10 +21,18 @@ date: 2026-04-29
   - [13.4. CORS](#134-cors)
   - [13.5. OpenAPI Specification](#135-openapi-specification)
   - [13.6. Error Responses](#136-error-responses)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** REST API Contract (Normative for Portals) Contents - 13.
+> 🔧 **Подход:** Error Responses(136-error-responses) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Это обеспечивает interoperability между порталами и внешними клиентами (SDK, web UI, MCP wrappers).
+> 🏷️ **Ключевые слова:** `endpoints`, `response`, `anthropic`, `vacancies`, `security`, `considerations`, `openapi`, `error`
+>
 
 
 <!-- toc-auto -->
@@ -193,17 +201,3 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 - [[128-доступные-инструменты]]
 - [[82-7-portalentry-structure]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[128-доступные-инструменты|Доступные инструменты]] _29%_
-- [[90-15-security-considerations|15. Security Considerations]] _29%_
-- [[23-11-security-considerations|11. Security Considerations]] _21%_
-- [[18-6-adapter-interface|6. Adapter Interface]] _17%_
-- [[78-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _17%_
-- [[81-6-adapter-interface|6. Adapter Interface]] _17%_

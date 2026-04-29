@@ -9,6 +9,16 @@ date: 2026-04-29
 
 # 5. The Economics of Profession-Wide Replication
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Economics of Profession-Wide Replication A defining feature of Professional Colleague Agents is that --- Содержание - 5.
+> 🔧 **Подход:** As more practitioners use the agent, opportunities emerge to learn from collective patterns: - Common errors → improved Layer A guidance - Effective approaches → patterns added to 
+> ✅ **Результат:** Mission-driven foundation funds development and operation; service provided free or at minimal cost.
+> 🏷️ **Ключевые слова:** `colleague`, `profession`, `professional`, `model`, `economics`, `knowledge`, `layer`, `replication`
+>
+
+
 <!-- summary -->
 > A defining feature of Professional Colleague Agents is that
 
@@ -176,9 +186,30 @@ economically viable for moderately sized professions.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[221-10-open-questions|10. Open Questions]]
+- [[222-11-call-for-collaboration|11. Call for Collaboration]]
+- [[265-12-call-for-collaboration|12. Call for Collaboration]]
+- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]]
+- [[159-5-economic-model|5. Economic Model]]
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]]
+- [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]] _33%_
+- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]] _29%_
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]] _29%_
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _25%_
+- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]] _21%_
+- [[221-10-open-questions|10. Open Questions]] _17%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _17%_
+- [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _17%_
 ## Связанные документы
 
 - [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]] _29%_

@@ -10,6 +10,14 @@ date: 2026-04-29
 
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources for Composite Architecture(foundational-sources-for-composite-architecture) - Pattern of Composite Mastery(patte
+> 🏷️ **Ключевые слова:** `architecture`, `anthropic`, `vacancies`, `references`, `composite`, `svend`, `companion`, `press`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -100,19 +108,3 @@ date: 2026-04-29
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 - [[184-appendix-a-connection-to-companion-papers]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _37%_
-- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _37%_
-- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _37%_
-- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] _37%_
-- [[146-acknowledgments|Acknowledgments]] _33%_
-- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _33%_
-- [[137-table-of-contents|Table of Contents]] _29%_
-- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _29%_

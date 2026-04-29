@@ -12,7 +12,7 @@ date: 2026-04-29
 
 h1. Часто задаваемые вопросы (FAQ)
 
-_Извлечено: 55 вопросов и ответов_
+_Извлечено: 125 вопросов и ответов_
 
 
 h2. Архитектура
@@ -33,9 +33,15 @@ _→ [[248-приложение-c-архитектура-быстрого-ста
 
 h3. Что это такое?
 
-_Svyazi 2.0_ — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: _93% 🟢 GO_ (документация и архитектура).
+_Svyazi 2.0_ — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: _96% 🟢 GO_ (документация и архитектура).
 
 _→ [[ONBOARDING]]_
+
+h3. Принимаем эту architecture как Lorenzo vision (с моими caveats)?
+
+Если да — должен ли я update Lorenzo системный промпт с этой архитектурой?
+
+_→ [[06-conclusion-deserves-attention]]_
 
 
 h2. MVP/Запуск
@@ -96,9 +102,15 @@ _→ [[343-lorenzo-catalyst-agent-глубокая-проработка-спец
 
 h3. Why "Nautilus"?
 
-A nautilus shell is a _spiral of nested chambers_, each larger than the last but built on the same geometry. This is _fractal scaling with preserved proportion_. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
+A [[memnet|nautilus]] shell is a _spiral of nested chambers_, each larger than the last but built on the same geometry. This is _fractal scaling with preserved proportion_. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
 
 _→ [[68-about]]_
+
+h3. Did creator approve final attribution?
+
+Это много steps. И violations damage Lorenzo's reputation rapidly.
+
+_→ [[11-difficulties-and-recommendations]]_
 
 
 h2. Лицензия
@@ -108,6 +120,12 @@ h3. Какой подход resonates? Integration в OKWF document, или sepa
 И еще один thoughtful вопрос для consideration: в вашем личном случае , как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ва
 
 _→ [[165-closing]]_
+
+h3. Question 5: Каковы limits Lorenzo's authority?
+
+Critical question для ethical design.
+
+_→ [[05-q5-authority-limits]]_
 
 
 h2. Общее

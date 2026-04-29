@@ -67,9 +67,36 @@ applied work demonstrated its absence
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]]
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]]
+- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]]
+- [[146-acknowledgments|Acknowledgments]]
+- [[224-acknowledgments|Acknowledgments]]
+- [[267-acknowledgments|Acknowledgments]]
+- [[286-acknowledgments|Acknowledgments]]
+- [[319-acknowledgments|Acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]]
+- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]]
+- [[268-references|References]]
+- [[287-references|References]]
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _60%_
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _53%_
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] _53%_
+- [[146-acknowledgments|Acknowledgments]] _48%_
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _48%_
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _42%_
+- [[224-acknowledgments|Acknowledgments]] _37%_
+- [[137-table-of-contents|Table of Contents]] _29%_
 ## Связанные документы
 
 - [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _53%_

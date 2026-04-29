@@ -18,25 +18,25 @@ h2. 22. Glossary of Reference Examples
 
 В качестве иллюстраций используется экосистема {{svend4}} с 7 Repos:
 
-* _info1_ (Level 1) — 74+ Markdown-документа с α-уровнями 
+* _[info1|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_ (Level 1) — 74+ Markdown-документа с α-уровнями 
   (-4..+4), методологический угол
-* _pro2_ (Level 3) — Q6-концепты, граф знаний, bidir-цикл, 
+* _[pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_ (Level 3) — Q6-концепты, граф знаний, bidir-цикл, 
   семантический угол
 * _meta_ (Level 1) — 256 CA-правил + 64 гексаграммы, символьный 
   угол
 * _data2_ (Level 1) — 310+ томов ЕТД (Единая Теория Движения)
 * _data7_ (Level 2) — граф знаний, K₀→K∞ трансформация
-* _infosystems_ (Level 2, домен pro2) — архитектура ИС
-* _ai_agents_ (Level 2, домен pro2) — ИИ-агенты и мультиагентные 
+* _infosystems_ (Level 2, домен [pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]) — архитектура ИС
+* _ai_agents_ (Level 2, домен [pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]) — ИИ-агенты и мультиагентные 
   системы
 
 Плюс 5 "расширенных" адаптеров (не в registry, но useable):
 
 * _ObsidianAdapter_ — локальный Obsidian vault ([[wikilinks]])
 * _ArxivAdapter_ — arXiv API с 12h cache
-* _GitHubTopicAdapter_ — discovery по GitHub топику
+* _GitHubTopicAdapter_ — discovery по [GitHub|../docs/01-svyazi/03-component-catalog.md] топику
 * _JSONLAdapter_ — JSON Lines files
-* _AutoAdapter_ — любой repo с nautilus.json в корне
+* _[AutoAdapter|../docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md]_ — любой repo с nautilus.json в корне
 
 ----
 
@@ -45,8 +45,8 @@ h2. 22. Glossary of Reference Examples
 ----
 
 _Похожие документы:_
-* [27-15-glossary-of-examples|27-15-glossary-of-examples.md] (сходство 0.33)
-* [55-passports-meta-md|55-passports-meta-md.md] (сходство 0.11)
+* [27-15-glossary-of-examples|docs/02-anthropic-vacancies/27-15-glossary-of-examples.md] (сходство 0.33)
+* [55-passports-meta-md|docs/02-anthropic-vacancies/55-passports-meta-md.md] (сходство 0.11)
 
 
 
@@ -54,24 +54,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [27-15-glossary-of-examples|27-15-glossary-of-examples.md]
-* [55-passports-meta-md|55-passports-meta-md.md]
-* [35-passports-info1-md|35-passports-info1-md.md]
-* [45-passports-pro2-md|45-passports-pro2-md.md]
+* [27-15-glossary-of-examples|docs/02-anthropic-vacancies/27-15-glossary-of-examples.md]
+* [55-passports-meta-md|docs/02-anthropic-vacancies/55-passports-meta-md.md]
+* [35-passports-[info1|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+* [45-passports-[pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [15. Glossary of Examples|27-15-glossary-of-examples.md] _66%_
-* [passports/pro2.md|45-passports-pro2-md.md] _37%_
-* [passports/info1.md|35-passports-info1-md.md] _33%_
-* [passports/meta.md|55-passports-meta-md.md] _33%_
-* [Essence|56-essence.md] _29%_
-* [🇷🇺 О проекте|67-о-проекте.md] _21%_
-* [🇬🇧 About|68-about.md] _21%_
-* [Bridges|40-bridges.md] _17%_

@@ -7,6 +7,7 @@
 title: "20. ADR-002: Q6 as First-Class Protocol Concept"
 tags:
   * anthropic
+  * collaboration
   * anthropic-vacancies
 date: 2026-04-29
 ----
@@ -29,7 +30,7 @@ _Status_: Accepted (new in v1.1)
 _Context_: В v1.0 Q6-пространство существовало как implementation 
 detail reference portal (pro2 → hexagrams). При росте экосистемы 
 стало ясно, что Q6 работает как универсальная система координат 
-для всех Repos, не только pro2.
+для всех Repos, не только [[01-интегральный-анализ-профиля-svend4|pro2]].
 
 _Decision_: В v1.1 Q6 повышается до нормативного концепта 
 протокола. Level 2+ адаптеры MUST обеспечивать Q6-координаты. 
@@ -73,9 +74,24 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[06-1-introduction|1. Introduction]]
+* [[26-14-adr-001-federation-over-merging|14. ADR-001: Federation over Merging]]
+* [[94-19-adr-001-federation-over-merging|19. ADR-001: Federation over Merging]]
+* [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-Rank]]
+* [[83-8-q6-space-normative|8. Q6 Space (Normative)]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[SIMILAR|Похожие документы]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-Rank]] _60%_
+* [[94-19-adr-001-federation-over-merging|19. ADR-001: Federation over Merging]] _53%_
+* [[26-14-adr-001-federation-over-merging|14. ADR-001: Federation over Merging]] _42%_
+* [[83-8-q6-space-normative|8. Q6 Space (Normative)]] _25%_
 h2. Связанные документы
 
 * [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-Rank]] _42%_

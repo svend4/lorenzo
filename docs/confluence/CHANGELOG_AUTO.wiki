@@ -129,3 +129,16 @@ _Смотрите также:_
 * [DIGEST|DIGEST.md]
 * [SITEMAP|SITEMAP.md]
 
+
+h2. Упоминается в
+
+* [docs|README.md]
+* [Все таблицы репозитория|TABLES.md]
+* [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md]
+* [Карта репозитория Lorenzo|SITEMAP.md]
+
+
+h2. Связанные документы
+
+* [CHANGELOG|CHANGELOG.md] _33%_
+* [Карта зависимостей скриптов|DEPENDENCY_MAP.md] _17%_

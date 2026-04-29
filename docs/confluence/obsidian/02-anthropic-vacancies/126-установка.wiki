@@ -69,15 +69,12 @@ _Смотрите также:_
 * [[28-appendix-a-minimal-working-example]]
 
 
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
-h2. Связанные документы
+----
 
-* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _21%_
-* [[154-table-of-contents|Table of Contents]] _17%_
-* [[326-содержание|Содержание]] _17%_
-* [[63-history|History]] _17%_
-* [[SEE_ALSO|Индекс «Смотрите также»]] _17%_
+_Похожие документы:_
+* [[28-appendix-a-minimal-working-example]] (сходство 0.24)
+* [[98-appendix-a-minimal-working-example]] (сходство 0.18)
+* [[123-portal-mcp-py]] (сходство 0.18)
+

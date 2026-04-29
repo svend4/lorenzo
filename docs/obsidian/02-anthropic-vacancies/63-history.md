@@ -31,7 +31,7 @@ date: 2026-04-29
 **Направление развития:**
 - Формальная математическая публикация mapping 64 ↔ 256
 - Интерактивные визуализации CA-динамики для каждой гексаграммы
-- Возможная публикация paper совместно с `pro2`: 
+- Возможная публикация paper совместно с `[[01-интегральный-анализ-профиля-svend4|pro2]]`: 
   «64 as Projection of 256: Hexagrams as Symmetry Classes of 
   Elementary Cellular Automata»
 
@@ -59,9 +59,27 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]]
+- [[43-history|History]]
+- [[53-history|History]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[190-содержание|Содержание]]
+- [[126-установка|Установка]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[41-compatibility-level|Compatibility Level]] _29%_
+- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _25%_
+- [[326-содержание|Содержание]] _25%_
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _21%_
+- [[123-portal-mcp-py|portal-mcp.py]] _21%_
+- [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] _21%_
+- [[132-planned-v0-2-0|Planned (v0.2.0)]] _21%_
+- [[190-содержание|Содержание]] _21%_
 ## Связанные документы
 
 - [[190-содержание|Содержание]] _29%_

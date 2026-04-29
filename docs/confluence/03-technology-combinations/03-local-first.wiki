@@ -6,8 +6,18 @@
 h1. Local-first и P2P стек
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B - Средние → облачная DeepSeek - Сложные архитектурные → Claude O{quote}
+{quote}🔧 _Подход:_ Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B - Средние → облачная DeepSeek - Сложные архитектурные → Claude O{quote}
+{quote}✅ _Результат:_ 2.2 Fault-tolerant агентский граф Router даёт fallback из коробки.{quote}
+{quote}🏷️ _Ключевые слова:_ {{knowledge}}, {{technology}}, {{combinations}}, {{svyazi}}, {{articles}}, {{first}}, {{cardindex}}, {{graph}}{quote}
+>
+
+
+
 {quote}- Сложные архитектурные → Claude Opus{quote}
-_Проекты:_ Svyazi, CardIndex, Yjs
+_Проекты:_ Svyazi, [CardIndex|../docs/01-svyazi/01-executive-summary.md], Yjs
 
 ----
 
@@ -16,7 +26,7 @@ _Проекты:_ Svyazi, CardIndex, Yjs
 
 
 локальная Qwen3:8B
-* Средние → облачная DeepSeek
+* Средние → облачная [DeepSeek|../docs/05-habr-projects/memory/memnet.md]
 * Сложные архитектурные → Claude Opus
 * Роутер перед каждым агентом, не после
 Экономия: 80% запросов идут на дешёвые модели, Opus только для Planner-агента.
@@ -25,10 +35,10 @@ _Проекты:_ Svyazi, CardIndex, Yjs
 h4. Комбинация 3: CRDT local-first × Svyazi CardIndex
 Родители:
 * CRDT / RON / Yjs (habr.com/ru/articles/534510/, habr.com/ru/articles/946722/) — conflict-free replicated data types, p2p синхронизация
-* Svyazi CardIndex — YAML-структура профилей с хешами для дедупликации
+* Svyazi [CardIndex|../docs/01-svyazi/01-executive-summary.md] — YAML-структура профилей с хешами для дедупликации
 Дети:
 3.1 P2P-граф сообщества без центрального сервера Сейчас Svyazi — single-user система. С CRDT:
-* Каждый участник ведёт локальный CardIndex
+* Каждый участник ведёт локальный [CardIndex|../docs/01-svyazi/01-executive-summary.md]
 * Изменения синхронизируются p2p через Yjs
 * Конфликты (два человека обновили профиль одного участника) мержатся автоматически
 * Никакого центрального сервера — privacy by design
@@ -72,9 +82,20 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [Агентные системы и роутинг|01-agent-routing.md]
+* [Бенчмарки и производительность|05-benchmarks.md]
+* [Графы знаний и Legal AI|02-knowledge-graphs.md]
+* [Комбинирование технологий для новых свойств|README.md]
+h2. Упоминается в
+
 * [Комбинирование технологий для новых свойств|../README.md]
 
 
+h2. Связанные документы
+
+* [Графы знаний и Legal AI|02-knowledge-graphs.md] _33%_
+* [Бенчмарки и производительность|05-benchmarks.md] _29%_
+* [Комбинирование технологий для новых свойств|README.md] _21%_
 h2. Связанные документы
 
 * [Бенчмарки и производительность|05-benchmarks.md] _33%_

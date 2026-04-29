@@ -16,6 +16,15 @@ date: 2026-04-29
 h1. References
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ References Contents - References(references) - Foundational Sources(foundational-sources) - Multi-Agent Systems(multi-agent-systems) - Protocols and Federation(protocols-and-federa{quote}
+{quote}🔧 _Подход:_ "Architectural Styles and the Design of Network-based Software Architectures".{quote}
+{quote}🏷️ _Ключевые слова:_ {{anthropic}}, {{references}}, {{protocol}}, {{portal}}, {{vacancies}}, {{svend}}, {{human}}, {{nautilus}}{quote}
+>
+
+
+
 h2. Contents
 
 * [References|#references]
@@ -102,19 +111,3 @@ _Смотрите также:_
 * [[268-references]]
 * [[338-ссылки]]
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[52-author-contact|Author & Contact]] _25%_
-* [[104-appendix-c-references|Appendix C: References]] _21%_
-* [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _21%_
-* [[148-appendix-a-glossary|Appendix A: Glossary]] _21%_
-* [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]] _21%_
-* [[183-references|References]] _21%_
-* [[225-references|References]] _21%_
-* [[25-13-reference-implementation|13. Reference Implementation]] _21%_

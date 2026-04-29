@@ -10,6 +10,11 @@ date: 2026-04-29
 
 # Existing Approximations
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -20,10 +25,18 @@ date: 2026-04-29
   - [Notion / Obsidian / Roam](#notion-obsidian-roam)
   - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
   - [Combination workflows](#combination-workflows)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** It solves part of the problem (persistent context) but not the threading and structural needs.
+> 🔧 **Подход:** Limitations: - No AI collaboration - Not designed for documents as first-class artifacts - Not designed for project-style work tracking These tools are good for community discussio
+> ✅ **Результат:** Anthropic Projects Provides persistent context across multiple chats grouped around a topic.
+> 🏷️ **Ключевые слова:** `anthropic`, `layer`, `vacancies`, `existing`, `github`, `discussions`, `tools`, `projects`
+>
 
 
 <!-- toc-auto -->
@@ -32,7 +45,7 @@ date: 2026-04-29
 - [Existing Approximations](#existing-approximations)
   - [Anthropic Projects](#anthropic-projects)
   - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Notion / Obsidian / Roam](#notion-[obsidian](../docs/01-svyazi/03-component-catalog.md)-roam)
   - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
   - [Combination workflows](#combination-workflows)
 
@@ -69,7 +82,7 @@ and structural needs.
 
 ### GitHub Discussions
 
-Provides threaded forum within GitHub repositories. Threading 
+Provides threaded forum within [[03-component-catalog|GitHub]] repositories. Threading 
 works well. Limitations:
 - Culturally code-oriented; intellectual discussions feel 
   out of place
@@ -78,7 +91,7 @@ works well. Limitations:
   links between them are external references, not first-class
 - No annotation on document text
 
-GitHub Discussions is **structurally close** but **culturally 
+[[03-component-catalog|GitHub]] Discussions is **structurally close** but **culturally 
 distant** for intellectual work.
 
 ### Notion / Obsidian / Roam
@@ -111,7 +124,7 @@ designed for intellectual project development**.
 
 Most serious intellectual workers combine tools:
 - Anthropic Projects for AI-assisted writing
-- GitHub for storage and versioning
+- [[03-component-catalog|GitHub]] for storage and versioning
 - Notion or Obsidian for personal knowledge
 - Email or messaging for real-time
 - Discord or Slack for community
@@ -148,19 +161,3 @@ problem.
 - [[280-the-specific-case-in-front-of-us]]
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[282-what-industry-will-likely-build|What Industry Will Likely Build]] _33%_
-- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] _29%_
-- [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] _29%_
-- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _25%_
-- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _25%_
-- [[294-существующие-приближения|Существующие приближения]] _25%_
-- [[277-what-s-missing-layer-b|What's Missing — Layer B]] _17%_
-- [[281-the-recursive-insight|The Recursive Insight]] _17%_

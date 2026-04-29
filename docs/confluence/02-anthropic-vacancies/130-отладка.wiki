@@ -79,9 +79,19 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [Конфигурация для Claude Desktop|124-конфигурация-для-claude-desktop.md]
+* [Подключение к Claude Desktop|127-подключение-к-claude-desktop.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Конфигурация для Claude Desktop|124-конфигурация-для-claude-desktop.md] _25%_
+* [Подключение к Claude Desktop|127-подключение-к-claude-desktop.md] _21%_
+* [portal-mcp.py|123-portal-mcp-py.md] _17%_
 h2. Связанные документы
 
 * [Конфигурация для Claude Desktop|124-конфигурация-для-claude-desktop.md] _33%_

@@ -31,9 +31,30 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[202-12-заключение|12. Заключение]]
+- [[307-abstract|Abstract]]
+- [[13-angle-perspective|Angle / Perspective]]
+- [[12-content-overview|Content Overview]]
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]]
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]]
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _81%_
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _73%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _53%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _29%_
+- [[168-abstract|Abstract]] _25%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _25%_
+- [[13-angle-perspective|Angle / Perspective]] _21%_
+- [[307-abstract|Abstract]] _21%_
 ## Связанные документы
 
 - [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _66%_

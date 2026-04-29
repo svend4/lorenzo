@@ -15,6 +15,16 @@ date: 2026-04-29
 
 h1. 4. Ten Domains of Application
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Domain 3 — Social Workers Managing Client Caseloads Principal: Social worker, case manager, community organizer managing many clients with complex needs.{quote}
+{quote}🔧 _Подход:_ Existing solutions: Legal aid (severely underfunded), advocacy organizations (selective), private lawyers (unaffordable).{quote}
+{quote}✅ _Результат:_ Counterparties: Service providers, government agencies, community resources, fellow social workers.{quote}
+{quote}🏷️ _Ключевые слова:_ {{domain}}, {{agent}}, {{principal}}, {{managing}}, {{deployment}}, {{existing}}, {{solutions}}, {{domains}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -382,6 +392,13 @@ _Смотрите также:_
 * [[171-2-historical-precedents-agents-as-civilizational-i]]
 
 
+h2. Упоминается в
+
+* [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]]
+* [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]]
+* [[218-7-application-domains|7. Application Domains]]
+* [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
 h2. Упоминается в
 
 * [[README|Вакансии Anthropic — Анализ по кластерам]]

@@ -9,6 +9,15 @@ date: 2026-04-29
 
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Primary Empirical Source(primary-empirical-source) - Companion Papers(companion-papers) - Foundation Sources (continued from Represen
+> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
+> 🏷️ **Ключевые слова:** `references`, `anthropic`, `vacancies`, `professional`, `practice`, `architecture`, `foundation`, `representative`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -97,19 +106,3 @@ date: 2026-04-29
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 - [[268-references]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[268-references|References]] _29%_
-- [[183-references|References]] _25%_
-- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _25%_
-- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _21%_
-- [[147-references|References]] _21%_
-- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _21%_
-- [[168-abstract|Abstract]] _21%_
-- [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]] _21%_

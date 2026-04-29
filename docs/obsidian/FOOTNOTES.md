@@ -7,17 +7,7 @@ date: 2026-04-29
 
 # Сноски и определения терминов
 
-<!-- summary -->
-> title: "Сноски и определения терминов"
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement -->
-
-
-
-
-**Обновлено файлов:** 3  **Вставлено сносок:** 11
+**Обновлено файлов:** 4  **Вставлено сносок:** 14
 
 ## Словарь сносок
 
@@ -35,8 +25,8 @@ date: 2026-04-29
 | **PII** | Personally Identifiable Information — персональные данные | 0 |
 | **RAG** | Retrieval-Augmented Generation — генерация с поиском | 2 |
 | **Rufler** | OSS-проект: оркестратор AI-агентов | 0 |
-| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 0 |
-| **Svyazi** | Главный проект: экосистема AI-компонентов | 0 |
+| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 1 |
+| **Svyazi** | Главный проект: экосистема AI-компонентов | 2 |
 | **TF-IDF** | Term Frequency–Inverse Document Frequency — метрика важности термина | 0 |
 | **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 0 |
 | **knowledge-space** | OSS-проект: база знаний 785+ карточек (MIT) | 0 |
@@ -56,8 +46,8 @@ date: 2026-04-29
 ---
 
 **Смотрите также:**
-- [[08-conclusions]]
 - [[01-executive-summary]]
-- [[CONTRADICTIONS]]
+- [[08-conclusions]]
 - [[07-выводы]]
+- [[ONBOARDING]]
 

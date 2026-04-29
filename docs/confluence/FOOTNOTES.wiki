@@ -5,7 +5,7 @@
 
 h1. Сноски и определения терминов
 
-_Обновлено файлов:_ 3  _Вставлено сносок:_ 11
+_Обновлено файлов:_ 4  _Вставлено сносок:_ 14
 
 h2. Словарь сносок
 
@@ -22,8 +22,8 @@ h2. Словарь сносок
 || **PII** || Personally Identifiable Information — персональные данные || 0 ||
 || **RAG** || Retrieval-Augmented Generation — генерация с поиском || 2 ||
 || **Rufler** || OSS-проект: оркестратор AI-агентов || 0 ||
-|| **SENTINEL** || OSS-проект: безопасность и allowlist для MCP || 0 ||
-|| **Svyazi** || Главный проект: экосистема AI-компонентов || 0 ||
+|| **SENTINEL** || OSS-проект: безопасность и allowlist для MCP || 1 ||
+|| **Svyazi** || Главный проект: экосистема AI-компонентов || 2 ||
 || **TF-IDF** || Term Frequency–Inverse Document Frequency — метрика важности термина || 0 ||
 || **Yodoca** || OSS-проект: система памяти с консолидацией (Apache 2.0) || 0 ||
 || **knowledge-space** || OSS-проект: база знаний 785+ карточек (MIT) || 0 ||
@@ -43,8 +43,8 @@ h2. Как это работает
 ----
 
 _Смотрите также:_
-* [08-conclusions|docs/01-svyazi/08-conclusions.md]
 * [01-executive-summary|docs/04-ai-collaborations/01-executive-summary.md]
-* [CONTRADICTIONS|docs/CONTRADICTIONS.md]
+* [08-conclusions|docs/01-svyazi/08-conclusions.md]
 * [07-выводы|docs/04-ai-collaborations/07-выводы.md]
+* [ONBOARDING|docs/ONBOARDING.md]
 

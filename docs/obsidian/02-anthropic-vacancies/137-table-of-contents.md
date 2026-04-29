@@ -53,9 +53,34 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]]
+- [[136-abstract|Abstract]]
+- [[146-acknowledgments|Acknowledgments]]
+- [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]]
+- [[271-appendix-c-configuration-template-example|Appendix C: Configuration Template Example]]
+- [[268-references|References]]
+- [[154-table-of-contents|Table of Contents]]
+- [[169-table-of-contents|Table of Contents]]
+- [[253-table-of-contents|Table of Contents]]
+- [[308-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[326-содержание|Содержание]]
+- [[352-что-ты-не-можешь-делать-без-max-approval|Что ты НЕ МОЖЕШЬ делать без Max approval]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[224-acknowledgments|Acknowledgments]] _37%_
+- [[146-acknowledgments|Acknowledgments]] _33%_
+- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _33%_
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _29%_
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _29%_
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _29%_
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] _29%_
+- [[136-abstract|Abstract]] _21%_
 ## Связанные документы
 
 - [[146-acknowledgments|Acknowledgments]] _37%_

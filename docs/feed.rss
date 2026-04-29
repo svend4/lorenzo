@@ -5,7 +5,28 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 15:04:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 15:10:05 GMT</lastBuildDate>
+    <item>
+      <title>Merge remote-tracking branch 'origin/claude/organize-monorepo-docs-XI9Aa' into claude/organize-monorepo-docs-XI9Aa</title>
+      <link>https://github.com/svend4/lorenzo/commit/789e8516b41b304065bc8d7835dad326bbaec4bf</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/789e8516b41b304065bc8d7835dad326bbaec4bf</guid>
+      <pubDate>Wed, 29 Apr 2026 15:09:52 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge remote-tracking branch 'origin/claude/organize-monorepo-docs-XI9Aa' into claude/organize-monorepo-docs-XI9Aa</strong></p><p>Коммит: <code>789e8516</code></p>]]></description>
+    </item>
+    <item>
+      <title>merge: resolve 34 conflicts with origin/main</title>
+      <link>https://github.com/svend4/lorenzo/commit/d39595f2989158666c78a5d5f92e3494ac8bb1cf</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/d39595f2989158666c78a5d5f92e3494ac8bb1cf</guid>
+      <pubDate>Wed, 29 Apr 2026 15:08:44 GMT</pubDate>
+      <description><![CDATA[<p><strong>merge: resolve 34 conflicts with origin/main</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/contact-outreach.md">docs/templates/contact-outreach.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/decision-record.md">docs/templates/decision-record.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/ensemble.md">docs/templates/ensemble.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/project-component.md">docs/templates/project-component.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/research-note.md">docs/templates/research-note.md</a></li></ul><p>Коммит: <code>d39595f2</code></p>]]></description>
+    </item>
+    <item>
+      <title>docs: auto-update via improve_run_all [skip ci]</title>
+      <link>https://github.com/svend4/lorenzo/commit/c3a31450cba8d22a2e6310dc3d188aac5e4ddf05</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/c3a31450cba8d22a2e6310dc3d188aac5e4ddf05</guid>
+      <pubDate>Wed, 29 Apr 2026 15:06:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: auto-update via improve_run_all [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/AUTHORS.md">docs/AUTHORS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPLEXITY.md">docs/COMPLEXITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPTS.md">docs/CONCEPTS.md</a></li></ul><p>Коммит: <code>c3a31450</code></p>]]></description>
+    </item>
     <item>
       <title>fix: CI Catalog check — improve_auto_toc respects .docignore</title>
       <link>https://github.com/svend4/lorenzo/commit/d6279595352b683eee7533864056a6bf71f22214</link>
@@ -124,27 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/519d41b5be0b1fe8400e6f989ca543c5bce3464d</guid>
       <pubDate>Wed, 29 Apr 2026 13:56:12 GMT</pubDate>
       <description><![CDATA[<p><strong>docs: auto-update via improve_run_all [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/AUTHORS.md">docs/AUTHORS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPLEXITY.md">docs/COMPLEXITY.md</a></li></ul><p>Коммит: <code>519d41b5</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML)</title>
-      <link>https://github.com/svend4/lorenzo/commit/b471bbad9e4de3fbe2507d786269c39ae85bc660</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/b471bbad9e4de3fbe2507d786269c39ae85bc660</guid>
-      <pubDate>Wed, 29 Apr 2026 13:52:01 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>b471bbad</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD</title>
-      <link>https://github.com/svend4/lorenzo/commit/22c4cf8d984265807b8369ae6436d08889f4cd2f</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/22c4cf8d984265807b8369ae6436d08889f4cd2f</guid>
-      <pubDate>Wed, 29 Apr 2026 13:51:18 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SKILL_DASHBOARD.md">docs/SKILL_DASHBOARD.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li></ul><p>Коммит: <code>22c4cf8d</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: regenerate VALIDATION.md after rebase</title>
-      <link>https://github.com/svend4/lorenzo/commit/093bb8c850911bb22ba51d76b9ea06b9956b6984</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/093bb8c850911bb22ba51d76b9ea06b9956b6984</guid>
-      <pubDate>Wed, 29 Apr 2026 13:37:59 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: regenerate VALIDATION.md after rebase</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li></ul><p>Коммит: <code>093bb8c8</code></p>]]></description>
     </item>
   </channel>
 </rss>

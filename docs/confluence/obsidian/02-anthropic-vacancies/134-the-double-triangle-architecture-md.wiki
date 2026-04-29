@@ -40,9 +40,42 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[174-5-architectural-specification|5. Architectural Specification]]
+- [[143-6-four-deployment-domains|6. Four Deployment Domains]]
+- [[144-7-open-questions|7. Open Questions]]
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]]
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]]
+- [[168-abstract|Abstract]]
+- [[13-angle-perspective|Angle / Perspective]]
+- [[148-appendix-a-glossary|Appendix A: Glossary]]
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]]
+- [[12-content-overview|Content Overview]]
+- [[31-content-overview|Content Overview]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]]
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]]
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]]
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]]
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]]
+- [[225-references|References]]
+- [[230-аннотация|Аннотация]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]]
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _66%_
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _53%_
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]] _53%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _53%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _37%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _33%_
+- [[13-angle-perspective|Angle / Perspective]] _25%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _25%_
 ## Связанные документы
 
 - [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _56%_

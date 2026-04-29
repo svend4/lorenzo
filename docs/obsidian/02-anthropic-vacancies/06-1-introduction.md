@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 1. Introduction
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла 
+> 🔧 **Подход:** Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре, что уменьшает выразительность.
+> 🏷️ **Ключевые слова:** `introduction`, `goals`, `anthropic`, `vacancies`, `проекте`, `federation`, `merging`, `motivation`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -100,18 +109,3 @@ NPP **не** пытается:
 - [[26-14-adr-001-federation-over-merging]]
 - [[94-19-adr-001-federation-over-merging]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[76-1-introduction|1. Introduction]] _53%_
-- [[26-14-adr-001-federation-over-merging|14. ADR-001: Federation over Merging]] _21%_
-- [[67-о-проекте|🇷🇺 О проекте]] _17%_
-- [[77-2-terminology|2. Terminology]] _17%_
-- [[94-19-adr-001-federation-over-merging|19. ADR-001: Federation over Merging]] _17%_
-- [[95-20-adr-002-q6-as-first-class-protocol-concept|20. ADR-002: Q6 as First-Class Protocol Concept]] _17%_
-- [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-Rank]] _17%_

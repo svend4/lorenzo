@@ -7,21 +7,6 @@ date: 2026-04-29
 
 # Прогресс MVP
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Обновлено: 2026-04-29 (improve_progress_sync.py)_
-**Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
-
----
-<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
-
-
 _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
@@ -46,16 +31,16 @@ _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 14 файлов, не отправлено | 14 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 125 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
-| Claude Skills | ✅ 5 скиллов | review-docs, analyze-project, status, write-contact, improve |
+| Скрипты обработки | ✅ 155 скриптов | 5 LLM-скриптов, MCP=✅ |
+| DIGEST.md | ✅ 6 секций | python scripts/improve_llm_summary.py |
+| Claude Skills | ✅ 28 скиллов | weekly-review, audit-corpus, review-docs, propose-collaboration, track-decisions, summarize, dispatch, evaluate-skill, find-cinderella, synthesize, design-ensemble, analyze-project, search, evaluate-tech, new-research, generate-rfc, status, plan-mvp, write-contact, improve, review-architecture, skill-router, propose-mega-stack, outreach-day, compare, find-contradictions, find-gaps, daily-routine |
 
 ## Метрики качества
 
 | Метрика | Балл | Статус |
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 77.0/100 | 🟡 |
-| Качество доков (METRICS) | 73.4/100 | 🟡 |
+| Качество доков (METRICS) | 71.2/100 | 🟡 |
 | Go/No-Go (SCORING) | 93.0/100 | 🟡 |
 
 ## Следующий шаг
@@ -83,14 +68,3 @@ cat docs/contacts/anastasiyaw.md
 - [[SCORING|Go/No-Go Scoring]]
 - [[HEALTH|Health Dashboard]]
 - [[07-mvp-planning|MVP Planning]]
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[ONBOARDING]]
-- [[INDEX]]
-- [[HEALTH]]
-- [[SCHEDULE]]
-

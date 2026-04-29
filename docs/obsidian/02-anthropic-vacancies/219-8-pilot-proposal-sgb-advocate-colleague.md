@@ -10,6 +10,16 @@ date: 2026-04-29
 
 # 8. Pilot Proposal: SGB Advocate Colleague
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Clear demand: Author personally needs this.
+> 🔧 **Подход:** Tertiary requires careful design and supervision; appropriate for later phase.
+> ✅ **Результат:** Direct experience shows that legal advocacy in this domain is severely under-resourced.
+> 🏷️ **Ключевые слова:** `pilot`, `procedural`, `colleague`, `practitioners`, `knowledge`, `domain`, `advocates`, `agent`
+>
+
+
 <!-- summary -->
 > We now apply the Professional Colleague Agent framework to a
 
@@ -251,9 +261,34 @@ incremental rather than novel.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[155-1-problem-statement|1. Problem Statement]]
+- [[222-11-call-for-collaboration|11. Call for Collaboration]]
+- [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]]
+- [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]]
+- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]]
+- [[173-4-ten-domains-of-application|4. Ten Domains of Application]]
+- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]]
+- [[143-6-four-deployment-domains|6. Four Deployment Domains]]
+- [[218-7-application-domains|7. Application Domains]]
+- [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]]
+- [[161-7-phased-rollout-plan|7. Phased Rollout Plan]]
+- [[178-9-phased-rollout-strategy|9. Phased Rollout Strategy]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]] _33%_
+- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]] _33%_
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _25%_
+- [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]] _25%_
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _21%_
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]] _21%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _21%_
+- [[265-12-call-for-collaboration|12. Call for Collaboration]] _21%_
 ## Связанные документы
 
 - [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]] _29%_

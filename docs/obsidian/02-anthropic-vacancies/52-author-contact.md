@@ -57,9 +57,33 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[25-13-reference-implementation|13. Reference Implementation]]
+- [[93-18-reference-implementation|18. Reference Implementation]]
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]]
+- [[42-author-contact|Author & Contact]]
+- [[62-author-contact|Author & Contact]]
+- [[48-content-overview|Content Overview]]
+- [[03-portal-protocol-md|PORTAL-PROTOCOL.md]]
+- [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]]
+- [[147-references|References]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[345-кто-ты|Кто ты]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[03-portal-protocol-md|PORTAL-PROTOCOL.md]] _53%_
+- [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]] _48%_
+- [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]] _48%_
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]] _33%_
+- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _25%_
+- [[25-13-reference-implementation|13. Reference Implementation]] _25%_
+- [[42-author-contact|Author & Contact]] _25%_
+- [[62-author-contact|Author & Contact]] _25%_
 ## Связанные документы
 
 - [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]] _37%_

@@ -9,12 +9,21 @@ date: 2026-04-29
 # Appendix A: Comparative Table — Five Agent Types
 
 <!-- summary -->
-> - [[269-appendix-a-the-six-type-taxonomy-updated]] (сходство 0.31)
+> > 🎯 **Проблема:** Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst
 
 ---
 <!-- tags: anthropic -->
 
 
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst
+> 🔧 **Подход:** Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst
+> 🏷️ **Ключевые слова:** `appendix`, `institutional`, `profession`, `anthropic`, `vacancies`, `table`, `individual`, `taxonomy`
+>
 
 
 ## Appendix A: Comparative Table — Five Agent Types
@@ -56,19 +65,3 @@ date: 2026-04-29
 - [[227-appendix-b-decision-framework-when-to-build-type-1]]
 - [[211-table-of-contents]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _37%_
-- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] _37%_
-- [[211-table-of-contents|Table of Contents]] _33%_
-- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _33%_
-- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _29%_
-- [[146-acknowledgments|Acknowledgments]] _21%_
-- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _21%_
-- [[182-acknowledgments|Acknowledgments]] _21%_

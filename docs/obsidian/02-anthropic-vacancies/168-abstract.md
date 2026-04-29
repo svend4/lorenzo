@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # Abstract
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Each category exhibits the same structural problem: gap between value created or held and capacity to make that value visible to relevant counterparties.
+> 🔧 **Подход:** We propose architectural specifications, ethical commitments, governance structures, and rollout pathways.
+> 🏷️ **Ключевые слова:** `abstract`, `anthropic`, `vacancies`, `representative`, `closing`, `agent`, `architectural`, `architecture`
+>
+
+
 <!-- summary -->
 > We introduce the **Representative Agent Layer** — an architectural
 
@@ -78,9 +87,38 @@ service organizations, civil society, and policymakers.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]]
+- [[180-11-call-for-collaboration|11. Call for Collaboration]]
+- [[181-12-closing|12. Closing]]
+- [[266-13-closing|13. Closing]]
+- [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]]
+- [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]]
+- [[174-5-architectural-specification|5. Architectural Specification]]
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]]
+- [[210-abstract|Abstract]]
+- [[307-abstract|Abstract]]
+- [[267-acknowledgments|Acknowledgments]]
+- [[285-closing|Closing]]
+- [[225-references|References]]
+- [[281-the-recursive-insight|The Recursive Insight]]
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]] _25%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _21%_
+- [[174-5-architectural-specification|5. Architectural Specification]] _21%_
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _21%_
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _21%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _21%_
+- [[145-8-call-to-action|8. Call to Action]] _17%_
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _17%_
 ## Связанные документы
 
 - [[210-abstract|Abstract]] _29%_

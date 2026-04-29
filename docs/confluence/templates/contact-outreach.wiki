@@ -3,6 +3,20 @@
 Дата: 2026-04-29
 {info}
 
+----
+template: contact-outreach
+version: "1.0"
+author: "[Имя]"
+author_handle: "[@handle]"
+projects: []
+platform: "[Habr|GitHub|Telegram]"
+status: not_started
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+----
+
 h1. Контакт: [Имя / Проект]
 
 
@@ -44,14 +58,3 @@ h2. Открытые вопросы для обсуждения
 
 ----
 _Создано: 2026-04-29_
-
-
-
-----
-
-_Смотрите также:_
-* [vladspace|../contacts/vladspace.md]
-* [cutcode|../contacts/cutcode.md]
-* [dmitriila|../contacts/dmitriila.md]
-* [mixaill76|../contacts/mixaill76.md]
-

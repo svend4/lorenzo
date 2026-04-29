@@ -5,20 +5,19 @@ tags:
 date: 2026-04-29
 ---
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** citeturn33view3turn20view2turn37search0 Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude.
+> 🔧 **Подход:** Если нет — всё равно спасибо за публикацию, она уже повлияла на архитектуру прототипа.
+> ✅ **Результат:** citeturn22view5turn18search1turn15search3 Многоагентный хаос раньше пользы Рой даёт выгоду только после появления handoff/lock и чётких спецификаций Начинать с mclaude + AI Fa
+> 🏷️ **Ключевые слова:** `search`, `svyazi`, `memory`, `проект`, `knowledge`, `cardindex`, `agentfs`, `yodoca`
+>
 
-
-<!-- toc -->
-## Содержание
-
-- [План прототипа и возможные контакты](#план-прототипа-и-возможные-контакты)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
 
 <!-- summary -->
 > Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым 
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [[03-component-catalog|knowledge-space]][^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
@@ -85,7 +84,7 @@ date: 2026-04-29
 **Похожие документы:**
 - [[05-план-прототипа-и-возможные-контакты]] (сходство 1.00)
 - [[09-архитектурные-зазоры-которые-важнее-новых-инструме]] (сходство 0.15)
-- [[09-architectural-gaps]] (сходство 0.15)
+- [[00-intro-part2|09-architectural-gaps]]/09-architectural-gaps.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -93,9 +92,9 @@ date: 2026-04-29
 ---
 
 **Смотрите также:**
-- [[09-architectural-gaps]]
-- [[11-integration-contracts]]
-- [[12-roadmap]]
+- [[00-intro-part2|09-architectural-gaps]]/09-architectural-gaps.md)
+- [[00-intro-part2|11-integration-contracts]]/11-integration-contracts.md)
+- [[00-intro-part2|12-roadmap]]/12-roadmap.md)
 
 
 
@@ -128,22 +127,3 @@ date: 2026-04-29
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
 
 [^bsl]: Business Source License — коммерческая лицензия с открытым кодом
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[REPORT|Executive Report: Репозиторий Lorenzo]]
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
-- [[PROGRESS|Прогресс MVP]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[05-план-прототипа-и-возможные-контакты|План прототипа и возможные контакты]] _90%_
-- [[13-контактная-стратегия-и-узкие-вопросы-для-авторов|Контактная стратегия и узкие вопросы для авторов]] _48%_
-- [[09-architectural-gaps|09 Architectural Gaps]] _42%_
-- [[10-second-order-ensembles|10 Second Order Ensembles]] _42%_
-- [[13-contacts|13 Contacts]] _42%_
-- [[04-приоритетные-ансамбли|Приоритетные ансамбли]] _42%_
-- [[09-архитектурные-зазоры-которые-важнее-новых-инструме|Архитектурные зазоры, которые важнее новых инструментов]] _42%_
-- [[10-новые-ансамбли-следующего-шага|Новые ансамбли следующего шага]] _42%_

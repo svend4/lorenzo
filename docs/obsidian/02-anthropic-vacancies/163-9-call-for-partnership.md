@@ -19,17 +19,24 @@ date: 2026-04-29
   - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
   - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
   - [9.5. For Potential Contributors](#95-for-potential-contributors)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** For Policy Organizations (EU Commission, National Governments, OECD) What we ask: - Regulatory guidance and dialogue - Recognition of experimental status - Potential grant funding 
+> 🔧 **Подход:** For Academic and Research Partners (Universities, Think Tanks) What we ask: - Research collaboration on methodology and outcomes - Student and researcher contributor recruitment - 
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `partnership`, `research`, `policy`, `contributors`, `academic`, `infrastructure`
+>
 
 
 <!-- toc-auto -->
 ## Contents
 
 - [9. Call for Partnership](#9-call-for-partnership)
-  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-[mistral](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-openai-google-microsoft)
   - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
   - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
   - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
@@ -153,17 +160,3 @@ section explicitly invites partnership.
 - [[159-5-economic-model]]
 - [[153-executive-summary]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[160-6-governance-and-ethics|6. Governance and Ethics]] _21%_
-- [[161-7-phased-rollout-plan|7. Phased Rollout Plan]] _21%_
-- [[164-10-appendices|10. Appendices]] _21%_
-- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]] _21%_
-- [[145-8-call-to-action|8. Call to Action]] _17%_
-- [[159-5-economic-model|5. Economic Model]] _17%_

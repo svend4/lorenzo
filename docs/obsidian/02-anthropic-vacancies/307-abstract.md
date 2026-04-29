@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # Abstract
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** InGit should position as the structure layer that Cowork needs — substrate for sustained, organized, recoverable, shareable AI-collaborative work.
+> 🔧 **Подход:** The document was theoretical, naming the problem without specifying solutions.
+> ✅ **Результат:** Their integration creates something neither could provide separately: a structured, versioned, AI-augmented intellectual workspace.
+> 🏷️ **Ключевые слова:** `cowork`, `anthropic`, `ingit`, `vacancies`, `layer`, `architecture`, `platform`, `document`
+>
+
+
 <!-- summary -->
 > Document 2.3 identified Layer B — the missing infrastructure
 
@@ -72,9 +82,33 @@ shareable AI-collaborative work.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]]
+- [[318-10-strategic-positioning|10. Strategic Positioning]]
+- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|2. What Cowork Provides That InGit Doesn't Need to Build]]
+- [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]]
+- [[315-7-practical-first-steps-this-month|7. Practical First Steps This Month]]
+- [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]]
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]]
+- [[322-appendix-b-comparison-matrix|Appendix B: Comparison Matrix]]
+- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]]
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]]
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]] _29%_
+- [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _25%_
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]] _21%_
+- [[308-table-of-contents|Table of Contents]] _21%_
+- [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] _21%_
+- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]] _21%_
+- [[CLUSTERS|Кластеры тематически близких файлов]] _21%_
+- [[SOURCE_MAP|Карта происхождения текстов]] _21%_
 ## Связанные документы
 
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _29%_

@@ -35,9 +35,34 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]]
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]]
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]]
+- [[31-content-overview|Content Overview]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]]
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]]
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]]
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]]
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]]
+- [[WORD_CLOUD|Word Cloud]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]]
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _81%_
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _73%_
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _73%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _53%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _53%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _33%_
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _25%_
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _25%_
 ## Связанные документы
 
 - [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _60%_

@@ -51,9 +51,40 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [14. SDK Contract (Informative)|89-14-sdk-contract-informative.md]
+* [4. Passport ({{passport.md}})|09-4-passport-passport-md.md]
+* [Abstract|74-abstract.md]
+* [Appendix A: Minimal Working Example|28-appendix-a-minimal-working-example.md]
+* [Appendix A: Minimal Working Example|98-appendix-a-minimal-working-example.md]
+* [Appendix B: Change Log|34-appendix-b-change-log.md]
+* [For the Curious: Philosophy|44-for-the-curious-philosophy.md]
+* [For the Curious: Philosophy|54-for-the-curious-philosophy.md]
+* [Native Format|37-native-format.md]
+* [Native Format|47-native-format.md]
+* [Planned (v0.2.0)|132-planned-v0-2-0.md]
+* [README.md|65-readme-md.md]
+* [REVIEW_METHODOLOGY.md|105-review-methodology-md.md]
+* [portal-mcp.py|123-portal-mcp-py.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [Инвертированный индекс ключевых слов|../KEYWORD_INDEX.md]
+* [Подключение к Claude Desktop|127-подключение-к-claude-desktop.md]
+* [Что ты ВСЕГДА делаешь|360-что-ты-всегда-делаешь.md]
+* [⬡|69-section.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [portal-mcp.py|123-portal-mcp-py.md] _37%_
+* [For the Curious: Philosophy|54-for-the-curious-philosophy.md] _37%_
+* [Appendix A: Minimal Working Example|28-appendix-a-minimal-working-example.md] _33%_
+* [For the Curious: Philosophy|44-for-the-curious-philosophy.md] _33%_
+* [For the Curious: Philosophy|64-for-the-curious-philosophy.md] _33%_
+* [Abstract|74-abstract.md] _33%_
+* [REVIEW_METHODOLOGY.md|105-review-methodology-md.md] _29%_
+* [Индекс «Смотрите также»|../SEE_ALSO.md] _29%_
 h2. Связанные документы
 
 * [Abstract|74-abstract.md] _42%_

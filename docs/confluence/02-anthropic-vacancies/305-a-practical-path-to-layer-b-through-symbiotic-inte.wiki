@@ -28,9 +28,30 @@ _Похожие документы:_
 
 h2. Упоминается в
 
+* [12. Заключение|202-12-заключение.md]
+* [Abstract|307-abstract.md]
+* [Angle / Perspective|13-angle-perspective.md]
+* [Content Overview|12-content-overview.md]
+* [REPRESENTATIVE AGENT LAYER.md|166-representative-agent-layer-md.md]
+* [THE DOUBLE-TRIANGLE ARCHITECTURE.md|134-the-double-triangle-architecture-md.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT|344-системный-промпт-для-lorenzo-project.md]
+* [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md|187-слой-представительских-агентов-md.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md|187-слой-представительских-агентов-md.md] _81%_
+* [REPRESENTATIVE AGENT LAYER.md|166-representative-agent-layer-md.md] _73%_
+* [THE DOUBLE-TRIANGLE ARCHITECTURE.md|134-the-double-triangle-architecture-md.md] _53%_
+* [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT|344-системный-промпт-для-lorenzo-project.md] _29%_
+* [Abstract|168-abstract.md] _25%_
+* [COMPOSITE SKILLS AGENT.md|249-composite-skills-agent-md.md] _25%_
+* [Angle / Perspective|13-angle-perspective.md] _21%_
+* [Abstract|307-abstract.md] _21%_
 h2. Связанные документы
 
 * [REPRESENTATIVE AGENT LAYER.md|166-representative-agent-layer-md.md] _66%_

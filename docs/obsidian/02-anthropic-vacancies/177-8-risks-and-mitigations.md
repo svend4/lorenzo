@@ -20,10 +20,16 @@ date: 2026-04-29
   - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
   - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
   - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Risks and Mitigations(8-risks-and-mitigations) - 8.1.
+> 🏷️ **Ключевые слова:** `agent`, `principal`, `risks`, `scenario`, `mitigation`, `anthropic`, `vacancies`, `mitigations`
+>
 
 
 <!-- toc-auto -->
@@ -173,19 +179,3 @@ lose the social and negotiation skills they currently have.
 - [[217-6-risks-specific-to-this-category]]
 - [[174-5-architectural-specification]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _42%_
-- [[179-10-open-questions|10. Open Questions]] _25%_
-- [[144-7-open-questions|7. Open Questions]] _21%_
-- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]] _21%_
-- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _21%_
-- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _17%_
-- [[175-6-ethical-framework|6. Ethical Framework]] _17%_
-- [[183-references|References]] _17%_

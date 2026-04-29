@@ -13,23 +13,12 @@ date: 2026-04-29
 h1. Приоритетные ансамбли
 
 
-h2. Содержание
-
-* [Статус|#статус]
-* [Приоритетные ансамбли|#приоритетные-ансамбли]
-* [Упоминается в|#упоминается-в]
-* [Связанные документы|#связанные-документы]
-
-----
-
-
-
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ citeturn35search0 - Контекст реального мира доступен агенту как tool, а не как догадка: Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации.{quote}
 {quote}🔧 _Подход:_ Изучите их перед принятием архитектурных решений.{quote}
 {quote}✅ _Результат:_ citeturn20view19 - Review без центрального bottleneck: Sequential‑протокол в экспериментах автора даёт качество выше coordinator‑режима на сильных моделях.{quote}
-{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{search}}, {{knowledge}}, {{first}}, {{ensembles}}, {{проект}}, {{agentfs}}, {{новые}}{quote}
+{quote}🏷️ _Ключевые слова:_ {{search}}, {{svyazi}}, {{knowledge}}, {{first}}, {{проект}}, {{agentfs}}, {{space}}, {{rufler}}{quote}
 >
 
 
@@ -53,7 +42,7 @@ _Обновлено: 2026-04-29_
 
 
 {quote}Ниже — не все теоретически возможные комбинации, а _пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске_.{quote}
-_Проекты:_ Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+_Проекты:_ Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [[03-component-catalog|knowledge-space]][^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ----
 
@@ -67,7 +56,7 @@ h2. Приоритетные ансамбли
 
 _Ансамбль A — Collaboration OS_
 
-Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, knowledge-space — за agent‑readable reference layer, NGT[^ngt] Memory — за быстрые ассоциативные связи, Yodoca[^yodoca] — за ночную консолидацию и забывание шумов. Такой стек превращает “случайные находки коллабораций” в воспроизводимую машинерию. citeturn41search0turn27view0turn33view2turn22view4turn21view0
+Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, [[03-component-catalog|knowledge-space]] — за agent‑readable reference layer, NGT[^ngt] Memory — за быстрые ассоциативные связи, Yodoca[^yodoca] — за ночную консолидацию и забывание шумов. Такой стек превращает “случайные находки коллабораций” в воспроизводимую машинерию. citeturn41search0turn27view0turn33view2turn22view4turn21view0
 mermaid
 flowchart LR
     A[Свободный текст профилей] --> B[Svyazi-style import + LLM[^llm] extraction]
@@ -88,7 +77,7 @@ CLAUDE.md
 .cursor/rules/
 и другим runtime‑форматам. citeturn33view4turn27view0
 * _Контролируемое забывание вместо бесконечного накопления мусора_: Yodoca явно вводит Ebbinghaus‑decay, prune и приватный write‑path‑консолидатор. citeturn21view0turn21view1
-* _Agent‑first knowledge retrieval_: knowledge-space снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами. citeturn33view3turn37search1
+* _Agent‑first knowledge retrieval_: [[03-component-catalog|knowledge-space]] снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами. citeturn33view3turn37search1
 
 _Ансамбль B — Forensic RAG[^rag] для доказуемого matching и review_
 
@@ -113,7 +102,7 @@ flowchart LR
 
 _Ансамбль C — Spec‑driven multi‑agent factory_
 
-Для развития самого продукта нужен не просто один агент, а управляемая фабрика: mclaude закрывает locks/handoffs/mailbox, AI Factory/AIF Handoff — spec‑driven pipeline и self‑learning patches, Rufler — декларативное поднятие роя, Skills/CodeWiki — reusable skills и автоматическую кодовую документацию, Sequential — более сильный reviewer‑режим, а AutoResearch — ночную петлю самоулучшения. citeturn20view2turn20view3turn20view4turn12search2turn20view11turn20view19
+Для развития самого продукта нужен не просто один агент, а управляемая фабрика: mclaude закрывает locks/handoffs/mailbox, AI Factory/AIF Handoff — spec‑driven pipeline и self‑learning patches, Rufler — декларативное поднятие роя, Skills/CodeWiki — reusable skills и автоматическую кодовую документацию, Sequential — более сильный reviewer‑режим, а [[01-executive-summary|AutoResearch]] — ночную петлю самоулучшения. citeturn20view2turn20view3turn20view4turn12search2turn20view11turn20view19
 mermaid
 flowchart LR
     A[Задача / spec] --> B[AI Factory / AIF Handoff]
@@ -129,7 +118,7 @@ flowchart LR
 * _Параллелизм без хаоса_: locks, mailbox и handoffs снижают шанс, что два агента одновременно поломают один участок системы или понесут устаревший контекст. citeturn20view2turn37search0
 * _Patch‑driven learning_: AI Factory накапливает патчи и умеет эволюционно обновлять skills по повторяющимся классам ошибок. citeturn21view6turn29search0
 * _Повторяемая оркестрация_: Rufler выносит структуру роя в YAML и даже показывает разрез токенов по задачам, что критично для cost discipline. citeturn20view4turn21view8
-* _Улучшение не по интуиции, а по циклу “изменил → измерил → откатил/сохранил”_: AutoResearch ровно эту петлю и формализует. citeturn20view19
+* _Улучшение не по интуиции, а по циклу “изменил → измерил → откатил/сохранил”_: [[01-executive-summary|AutoResearch]] ровно эту петлю и формализует. citeturn20view19
 * _Review без центрального bottleneck_: Sequential‑протокол в экспериментах автора даёт качество выше coordinator‑режима на сильных моделях. citeturn20view11
 
 _Ансамбль D — Voice‑first local knowledge mesh_
@@ -137,7 +126,7 @@ _Ансамбль D — Voice‑first local knowledge mesh_
 Для реальных пользователей и операторов Svyazi‑2.0 важно не только “искать по базе”, но и пополнять её без боли. Здесь локальный Whisper/Ollama‑стек даёт ввод, Handy/OpenWhispr/GigaAM — удобный UX, Yttri — более широкий local‑first workspace вокруг заметок/встреч/документов, AgentFS — файловую агентную оболочку, а Yjs/Automerge — мультидевайсный sync‑слой. Self‑Aware MCP[^mcp] добавляет правильный time/location context поверх этого. citeturn21view10turn21view11turn21view12turn35search0turn27view0turn11search0turn11search11turn20view12
 mermaid
 flowchart LR
-    A[Микрофон / встреча / голосовая заметка] --> B[Whisper / Handy / OpenWhispr / GigaAM]
+    A[Микрофон / встреча / голосовая заметка] --> B[[03-component-catalog|Whisper / Handy / [OpenWhispr]] / GigaAM]
     B --> C[Локальная LLM post-processing]
     C --> D[Vault / Yttri / AgentFS]
     D --> E[Yjs / Automerge sync]
@@ -177,9 +166,9 @@ flowchart LR
 ----
 
 _Похожие документы:_
-* [[04-ensembles-overview]] (сходство 0.92)
+* [[00-intro-part2|04-ensembles-overview]]/04-ensembles-overview.md) (сходство 0.92)
 * [[03-карта-найденных-проектов-и-паттернов]] (сходство 0.17)
-* [[03-component-catalog]] (сходство 0.16)
+* [[00-intro-part2|03-component-catalog]]/03-component-catalog.md) (сходство 0.16)
 
 
 
@@ -187,9 +176,9 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [[04-ensembles-overview]]
+* [[00-intro-part2|04-ensembles-overview]]/04-ensembles-overview.md)
 * [[03-карта-найденных-проектов-и-паттернов]]
-* [[03-component-catalog]]
+* [[00-intro-part2|03-component-catalog]]/03-component-catalog.md)
 * [[05-план-прототипа-и-возможные-контакты]]
 
 
@@ -221,20 +210,3 @@ _Смотрите также:_
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
-
-
-h2. Упоминается в
-
-* [[README|Поиск AI-коллабораций]]
-
-
-h2. Связанные документы
-
-* [[04-ensembles-overview|04 Ensembles Overview]] _60%_
-* [[07-mvp-planning|07 Mvp Planning]] _42%_
-* [[09-architectural-gaps|09 Architectural Gaps]] _42%_
-* [[10-second-order-ensembles|10 Second Order Ensembles]] _42%_
-* [[05-план-прототипа-и-возможные-контакты|План прототипа и возможные контакты]] _42%_
-* [[09-архитектурные-зазоры-которые-важнее-новых-инструме|Архитектурные зазоры, которые важнее новых инструментов]] _42%_
-* [[10-новые-ансамбли-следующего-шага|Новые ансамбли следующего шага]] _42%_
-* [[13-contacts|13 Contacts]] _37%_

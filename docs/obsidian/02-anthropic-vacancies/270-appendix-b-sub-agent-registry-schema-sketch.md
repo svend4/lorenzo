@@ -7,6 +7,14 @@ date: 2026-04-29
 
 # Appendix B: Sub-Agent Registry Schema (Sketch)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, su
+> 🏷️ **Ключевые слова:** `appendix`, `anthropic`, `vacancies`, `example`, `schema`, `agent`, `registry`, `decision`
+>
+
+
 <!-- summary -->
 > For implementation, sub-agent registry entries might follow
 
@@ -94,7 +102,7 @@ substantial refinement based on actual implementation experience.
 ---
 
 **Похожие документы:**
-- [[321-appendix-a-decision-tree-for-ingit-adopters]] (сходство 0.13)
+- [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.13)
 - [[271-appendix-c-configuration-template-example]] (сходство 0.11)
 
 
@@ -103,24 +111,8 @@ substantial refinement based on actual implementation experience.
 ---
 
 **Смотрите также:**
-- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [[271-appendix-c-configuration-template-example]]
 - [[28-appendix-a-minimal-working-example]]
 - [[308-table-of-contents]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[321-appendix-a-decision-tree-for-ingit-adopters|Appendix A: Decision Tree for InGit Adopters]] _48%_
-- [[271-appendix-c-configuration-template-example|Appendix C: Configuration Template Example]] _37%_
-- [[253-table-of-contents|Table of Contents]] _21%_
-- [[308-table-of-contents|Table of Contents]] _21%_
-- [[360-что-ты-всегда-делаешь|Что ты ВСЕГДА делаешь]] _21%_
-- [[CLUSTERS|Кластеры тематически близких файлов]] _21%_
-- [[PARAGRAPH_QUALITY|Качество абзацев]] _21%_
-- [[READING_ORDER|Рекомендуемый порядок чтения]] _21%_

@@ -15,6 +15,14 @@ date: 2026-04-29
 h1. 12. Call for Collaboration
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ For Curators and Domain Experts Sub-agent registry development needs curated knowledge across many narrow specializations.{quote}
+{quote}🏷️ _Ключевые слова:_ {{collaboration}}, {{questions}}, {{anthropic}}, {{agents}}, {{infrastructure}}, {{vacancies}}, {{composite}}, {{practitioners}}{quote}
+>
+
+
+
 h2. Contents
 
 * [12. Call for Collaboration|#12-call-for-collaboration]
@@ -122,19 +130,3 @@ _Смотрите также:_
 * [[264-11-open-questions]]
 * [[262-9-integration-with-okwf-infrastructure]]
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[222-11-call-for-collaboration|11. Call for Collaboration]] _33%_
-* [[264-11-open-questions|11. Open Questions]] _33%_
-* [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _29%_
-* [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _29%_
-* [[221-10-open-questions|10. Open Questions]] _25%_
-* [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _25%_
-* [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _21%_
-* [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]] _21%_

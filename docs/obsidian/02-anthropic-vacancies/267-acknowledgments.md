@@ -9,6 +9,15 @@ date: 2026-04-29
 
 # Acknowledgments
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Acknowledgments The Composite Skills Agent concept emerged from dialogue with --- Acknowledgments The Composite Skills Agent concept emerged from dialogue with Claude (Anthropic) o
+> ✅ **Результат:** The metaphor of the Indian yoga master who studied with twenty teachers, drawn from a journalist's interview the user remembered, provides the central illustration that makes the p
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `acknowledgments`, `agent`, `between`, `middle`, `layer`, `missing`
+>
+
+
 <!-- summary -->
 > The Composite Skills Agent concept emerged from dialogue with
 
@@ -76,9 +85,34 @@ when AI augments human practice.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[266-13-closing|13. Closing]]
+- [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]]
+- [[168-abstract|Abstract]]
+- [[252-abstract|Abstract]]
+- [[146-acknowledgments|Acknowledgments]]
+- [[182-acknowledgments|Acknowledgments]]
+- [[224-acknowledgments|Acknowledgments]]
+- [[286-acknowledgments|Acknowledgments]]
+- [[319-acknowledgments|Acknowledgments]]
+- [[287-references|References]]
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]]
+- [[275-why-this-document-exists|Why This Document Exists]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _37%_
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _37%_
+- [[268-references|References]] _37%_
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _37%_
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] _37%_
+- [[286-acknowledgments|Acknowledgments]] _29%_
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _25%_
+- [[287-references|References]] _25%_
 ## Связанные документы
 
 - [[286-acknowledgments|Acknowledgments]] _48%_

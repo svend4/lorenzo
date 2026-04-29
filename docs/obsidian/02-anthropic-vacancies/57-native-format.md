@@ -76,9 +76,30 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[49-angle-perspective|Angle / Perspective]]
+- [[40-bridges|Bridges]]
+- [[50-bridges|Bridges]]
+- [[60-bridges|Bridges]]
+- [[51-compatibility-level|Compatibility Level]]
+- [[61-compatibility-level|Compatibility Level]]
+- [[37-native-format|Native Format]]
+- [[47-native-format|Native Format]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[51-compatibility-level|Compatibility Level]] _42%_
+- [[49-angle-perspective|Angle / Perspective]] _37%_
+- [[60-bridges|Bridges]] _37%_
+- [[47-native-format|Native Format]] _33%_
+- [[50-bridges|Bridges]] _33%_
+- [[61-compatibility-level|Compatibility Level]] _33%_
+- [[39-angle-perspective|Angle / Perspective]] _29%_
+- [[40-bridges|Bridges]] _29%_
 ## Связанные документы
 
 - [[37-native-format|Native Format]] _33%_

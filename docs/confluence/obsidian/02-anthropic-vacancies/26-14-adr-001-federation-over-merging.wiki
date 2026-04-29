@@ -78,9 +78,22 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[06-1-introduction|1. Introduction]]
+* [[94-19-adr-001-federation-over-merging|19. ADR-001: Federation over Merging]]
+* [[95-20-adr-002-q6-as-first-class-protocol-concept|20. ADR-002: Q6 as First-Class Protocol Concept]]
+* [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-Rank]]
+* [[83-8-q6-space-normative|8. Q6 Space (Normative)]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[94-19-adr-001-federation-over-merging|19. ADR-001: Federation over Merging]] _53%_
+* [[95-20-adr-002-q6-as-first-class-protocol-concept|20. ADR-002: Q6 as First-Class Protocol Concept]] _42%_
+* [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-Rank]] _42%_
 h2. Связанные документы
 
 * [[94-19-adr-001-federation-over-merging|19. ADR-001: Federation over Merging]] _37%_

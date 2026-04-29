@@ -14,6 +14,16 @@ date: 2026-04-29
 
 # Appendix C: References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Informative — описывает, что нужно SDK на других языках, чтобы считаться NPP-compatible.
+> 🔧 **Подход:** Нормализация isfallback в протокол — честный подход, который позволяет consensus-модели различать real и fallback coverage.
+> ✅ **Результат:** Нормализация isfallback в протокол — честный подход, который позволяет consensus-модели различать real и fallback coverage.
+> 🏷️ **Ключевые слова:** `protocol`, `portal`, `anthropic`, `nautilus`, `appendix`, `vacancies`, `normative`, `informative`
+>
+
+
 <!-- summary -->
 > - RFC 2119 — Key words for use in RFCs to Indicate Requirement Levels
 
@@ -124,9 +134,42 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[25-13-reference-implementation|13. Reference Implementation]]
+- [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]]
+- [[91-16-mcp-extension-informative|16. MCP Extension (Informative)]]
+- [[93-18-reference-implementation|18. Reference Implementation]]
+- [[95-20-adr-002-q6-as-first-class-protocol-concept|20. ADR-002: Q6 as First-Class Protocol Concept]]
+- [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-Rank]]
+- [[78-3-registry-nautilus-json|3. Registry (`nautilus.json`)]]
+- [[109-3-принципы-консолидации-фаза-c|3. Принципы консолидации (Фаза C)]]
+- [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]]
+- [[103-appendix-b-change-log|Appendix B: Change Log]]
+- [[34-appendix-b-change-log|Appendix B: Change Log]]
+- [[64-for-the-curious-philosophy|For the Curious: Philosophy]]
+- [[147-references|References]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[122-глоссарий|Глоссарий]]
+- [[128-доступные-инструменты|Доступные инструменты]]
+- [[70-зачем-две-версии-параллельно|Зачем две версии параллельно]]
+- [[02-общий-план-развития-nautilus-portal-protocol|ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL]]
+- [[69-section|⬡]]
+- [[68-about|🇬🇧 About]]
+- [[67-о-проекте|🇷🇺 О проекте]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[93-18-reference-implementation|18. Reference Implementation]] _29%_
+- [[25-13-reference-implementation|13. Reference Implementation]] _25%_
+- [[34-appendix-b-change-log|Appendix B: Change Log]] _21%_
+- [[69-section|⬡]] _21%_
+- [[103-appendix-b-change-log|Appendix B: Change Log]] _17%_
+- [[122-глоссарий|Глоссарий]] _17%_
+- [[147-references|References]] _17%_
+- [[64-for-the-curious-philosophy|For the Curious: Philosophy]] _17%_
 ## Связанные документы
 
 - [[93-18-reference-implementation|18. Reference Implementation]] _33%_

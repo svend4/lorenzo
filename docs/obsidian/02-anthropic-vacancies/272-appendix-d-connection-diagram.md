@@ -13,6 +13,16 @@ date: 2026-04-29
 
 # Appendix D: Connection Diagram
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Если у вас есть bandwidth хотеть участвовать в этом — даже на уровне написания о том, что нужно — вы могли бы внести вклад.
+> 🔧 **Подход:** Это интегрирующий документ, который подтягивает остальные шесть в более согласованную архитектуру.
+> ✅ **Результат:** Если у вас есть hosting и technical comfort, простой Discourse instance (open source, free) даёт вам threaded discussions.
+> 🏷️ **Ключевые слова:** `github`, `nautilus`, `infrastructure`, `composite`, `agent`, `project`, `intellectual`, `appendix`
+>
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -345,9 +355,32 @@ Pero никто не построил yet what you described. Это opportunity
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]]
+- [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]]
+- [[150-appendix-c-version-history|Appendix C: Version History]]
+- [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]]
+- [[165-closing|Closing]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[00-intro|Введение]]
+- [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]]
+- [[133-обратная-связь|Обратная связь]]
+- [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а|Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги]]
+- [[303-приложение-визуализация-позиции-в-серии|Приложение: Визуализация позиции в серии]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[165-closing|Closing]] _25%_
+- [[150-appendix-c-version-history|Appendix C: Version History]] _21%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _21%_
+- [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] _17%_
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _17%_
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _17%_
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _17%_
+- [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]] _17%_
 ## Связанные документы
 
 - [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] _21%_

@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # 4. The Sub-Agent Registry
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Curation and Trust An open registry needs curation to maintain quality.
+> 🔧 **Подход:** Existing knowledge artifacts (textbooks, methodological documents, case studies) are integrated into sub-agent knowledge bases through partial automation plus expert review.
+> ✅ **Результат:** Foundation curators provide baseline; peer review distributes load; reputation accumulates over time; federation allows diverse views.
+> 🏷️ **Ключевые слова:** `agent`, `registry`, `agents`, `infrastructure`, `composite`, `model`, `anthropic`, `vacancies`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -185,9 +195,32 @@ across both journals and individual researchers.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]]
+- [[266-13-closing|13. Closing]]
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]]
+- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]]
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]]
+- [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]]
+- [[161-7-phased-rollout-plan|7. Phased Rollout Plan]]
+- [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]]
+- [[163-9-call-for-partnership|9. Call for Partnership]]
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]] _33%_
+- [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]] _33%_
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _25%_
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _25%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _25%_
+- [[153-executive-summary|Executive Summary]] _21%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _21%_
+- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]] _21%_
 ## Связанные документы
 
 - [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _33%_

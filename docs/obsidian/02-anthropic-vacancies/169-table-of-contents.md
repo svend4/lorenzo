@@ -56,9 +56,29 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]]
+- [[181-12-closing|12. Closing]]
+- [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]]
+- [[154-table-of-contents|Table of Contents]]
+- [[211-table-of-contents|Table of Contents]]
+- [[253-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[358-твоя-relationship-с-другими-ai|Твоя relationship с другими AI]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[154-table-of-contents|Table of Contents]] _29%_
+- [[326-содержание|Содержание]] _29%_
+- [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]] _25%_
+- [[181-12-closing|12. Closing]] _25%_
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]] _21%_
+- [[190-содержание|Содержание]] _21%_
+- [[41-compatibility-level|Compatibility Level]] _21%_
+- [[137-table-of-contents|Table of Contents]] _17%_
 ## Связанные документы
 
 - [[211-table-of-contents|Table of Contents]] _29%_
