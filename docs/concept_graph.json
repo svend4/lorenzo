@@ -128,8 +128,8 @@
     },
     {
       "id": "work",
-      "count": 75,
-      "files": 75,
+      "count": 72,
+      "files": 72,
       "category": "other"
     },
     {
@@ -265,7 +265,7 @@
     {
       "source": "auto",
       "target": "summary",
-      "weight": 176
+      "weight": 200
     },
     {
       "source": "auto",
@@ -525,7 +525,7 @@
     {
       "source": "auto",
       "target": "knowledge",
-      "weight": 59
+      "weight": 64
     },
     {
       "source": "collaborations",
@@ -2400,7 +2400,7 @@
     {
       "source": "work",
       "target": "сходство",
-      "weight": 40
+      "weight": 39
     },
     {
       "source": "abstract",
@@ -2715,7 +2715,7 @@
     {
       "source": "appendix",
       "target": "layer",
-      "weight": 26
+      "weight": 25
     },
     {
       "source": "appendix",
@@ -3105,7 +3105,7 @@
     {
       "source": "tags",
       "target": "what",
-      "weight": 9
+      "weight": 12
     },
     {
       "source": "what",
@@ -3420,12 +3420,92 @@
     {
       "source": "memory",
       "target": "what",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "abstract",
       "target": "memory",
       "weight": 5
+    },
+    {
+      "source": "document",
+      "target": "ingit",
+      "weight": 14
+    },
+    {
+      "source": "cowork",
+      "target": "проект",
+      "weight": 7
+    },
+    {
+      "source": "ingit",
+      "target": "проект",
+      "weight": 7
+    },
+    {
+      "source": "appendix",
+      "target": "cowork",
+      "weight": 18
+    },
+    {
+      "source": "claude",
+      "target": "cowork",
+      "weight": 10
+    },
+    {
+      "source": "claude",
+      "target": "ingit",
+      "weight": 9
+    },
+    {
+      "source": "cowork",
+      "target": "если",
+      "weight": 5
+    },
+    {
+      "source": "cowork",
+      "target": "через",
+      "weight": 8
+    },
+    {
+      "source": "ingit",
+      "target": "если",
+      "weight": 5
+    },
+    {
+      "source": "ingit",
+      "target": "через",
+      "weight": 8
+    },
+    {
+      "source": "portal",
+      "target": "агентов",
+      "weight": 2
+    },
+    {
+      "source": "claude",
+      "target": "first",
+      "weight": 8
+    },
+    {
+      "source": "first",
+      "target": "ingit",
+      "weight": 18
+    },
+    {
+      "source": "cowork",
+      "target": "memory",
+      "weight": 7
+    },
+    {
+      "source": "ingit",
+      "target": "memory",
+      "weight": 7
+    },
+    {
+      "source": "memory",
+      "target": "what",
+      "weight": 3
     },
     {
       "source": "layer",
@@ -3568,11 +3648,6 @@
       "weight": 9
     },
     {
-      "source": "project",
-      "target": "svyazi",
-      "weight": 2
-    },
-    {
       "source": "svyazi",
       "target": "vacancies",
       "weight": 30
@@ -3608,6 +3683,21 @@
       "weight": 4
     },
     {
+      "source": "svyazi",
+      "target": "документ",
+      "weight": 12
+    },
+    {
+      "source": "knowledge",
+      "target": "readme",
+      "weight": 7
+    },
+    {
+      "source": "статус",
+      "target": "через",
+      "weight": 4
+    },
+    {
       "source": "appendix",
       "target": "memory",
       "weight": 7
@@ -3615,7 +3705,7 @@
     {
       "source": "memory",
       "target": "portal",
-      "weight": 6
+      "weight": 5
     },
     {
       "source": "first",
@@ -3773,6 +3863,96 @@
       "weight": 29
     },
     {
+      "source": "first",
+      "target": "статус",
+      "weight": 4
+    },
+    {
+      "source": "github",
+      "target": "статус",
+      "weight": 16
+    },
+    {
+      "source": "architecture",
+      "target": "yodoca",
+      "weight": 2
+    },
+    {
+      "source": "collaboration",
+      "target": "yodoca",
+      "weight": 5
+    },
+    {
+      "source": "collaboration",
+      "target": "проекты",
+      "weight": 10
+    },
+    {
+      "source": "portal",
+      "target": "yodoca",
+      "weight": 3
+    },
+    {
+      "source": "portal",
+      "target": "проекты",
+      "weight": 4
+    },
+    {
+      "source": "readme",
+      "target": "yodoca",
+      "weight": 8
+    },
+    {
+      "source": "readme",
+      "target": "проекты",
+      "weight": 15
+    },
+    {
+      "source": "tags",
+      "target": "yodoca",
+      "weight": 4
+    },
+    {
+      "source": "memory",
+      "target": "readme",
+      "weight": 8
+    },
+    {
+      "source": "readme",
+      "target": "проект",
+      "weight": 4
+    },
+    {
+      "source": "collaboration",
+      "target": "memory",
+      "weight": 6
+    },
+    {
+      "source": "collaboration",
+      "target": "svyazi",
+      "weight": 9
+    },
+    {
+      "source": "portal",
+      "target": "svyazi",
+      "weight": 12
+    },
+    {
+      "source": "portal",
+      "target": "проект",
+      "weight": 2
+    },
+    {
+      "source": "yodoca",
+      "target": "документ",
+      "weight": 4
+    },
+    {
+      "source": "nautilus",
+      "target": "svyazi",
+      "weight": 19
+    },
+    {
       "source": "protocol",
       "target": "svyazi",
       "weight": 6
@@ -3805,6 +3985,41 @@
     {
       "source": "agents",
       "target": "svyazi",
+      "weight": 4
+    },
+    {
+      "source": "agents",
+      "target": "svyazi",
+      "weight": 6
+    },
+    {
+      "source": "svyazi",
+      "target": "what",
+      "weight": 7
+    },
+    {
+      "source": "cardindex",
+      "target": "nautilus",
+      "weight": 4
+    },
+    {
+      "source": "cardindex",
+      "target": "svend",
+      "weight": 5
+    },
+    {
+      "source": "memory",
+      "target": "svend",
+      "weight": 2
+    },
+    {
+      "source": "svend",
+      "target": "проект",
+      "weight": 4
+    },
+    {
+      "source": "svend",
+      "target": "слой",
       "weight": 4
     },
     {

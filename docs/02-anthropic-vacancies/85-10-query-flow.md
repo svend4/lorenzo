@@ -16,6 +16,8 @@
 > 1. Client вызывает `portal.query(q, target_repos=None)`
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

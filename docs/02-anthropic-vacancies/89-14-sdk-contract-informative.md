@@ -15,6 +15,8 @@
 > Reference implementation предоставляет Python SDK (`nautilus_sdk.py`).
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

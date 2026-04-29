@@ -637,6 +637,7 @@ digraph lorenzo {
 ---
 
 **Смотрите также:**
+- [NETWORK](docs/NETWORK.md)
 - [GLOSSARY](docs/GLOSSARY.md)
 - [NETWORK](docs/NETWORK.md)
 - [MINDMAP](docs/MINDMAP.md)

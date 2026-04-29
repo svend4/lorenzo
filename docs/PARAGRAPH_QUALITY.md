@@ -1423,7 +1423,17 @@ _абзац: 5, Оборванный: 3_
 
 ### `docs/02-anthropic-vacancies/06-1-introduction.md` (8 проблем)
 
-_Оборванный: 3, абзац: 5_
+_абзац: 6, Оборванный: 2_
+
+
+### `docs/ACTION_ITEMS.md` (8 проблем)
+
+_абзац: 3, Оборванный: 3, предложение: 2_
+
+
+### `docs/DEPENDENCY_MAP.md` (8 проблем)
+
+_абзац: 7, Оборванный: 1_
 
 
 ### `docs/02-anthropic-vacancies/105-review-methodology-md.md` (8 проблем)
@@ -2446,6 +2456,11 @@ _абзац: 2, Оборванный: 1_
 _абзац: 3_
 
 
+### `docs/PRIORITIES.md` (3 проблем)
+
+_абзац: 3_
+
+
 ### `docs/SCHEDULE.md` (3 проблем)
 
 _абзац: 2, Оборванный: 1_
@@ -2478,7 +2493,7 @@ _Оборванный: 1, абзац: 1_
 
 ### `docs/04-ai-collaborations/README.md` (2 проблем)
 
-_Оборванный: 1, абзац: 1_
+_абзац: 2_
 
 
 ### `docs/ALERTS.md` (2 проблем)
@@ -2501,7 +2516,7 @@ _Оборванный: 1, абзац: 1_
 _Оборванный: 1, абзац: 1_
 
 
-### `docs/COVERAGE.md` (2 проблем)
+### `docs/FOOTNOTES.md` (2 проблем)
 
 _абзац: 1, Оборванный: 1_
 
@@ -2557,6 +2572,26 @@ _абзац: 1, Оборванный: 1_
 
 
 ### `docs/03-technology-combinations/README.md` (1 проблем)
+
+_Оборванный: 1_
+
+
+### `docs/05-habr-projects/memory/README.md` (1 проблем)
+
+_абзац: 1_
+
+
+### `docs/02-anthropic-vacancies/README.md` (1 проблем)
+
+_Оборванный: 1_
+
+
+### `docs/03-technology-combinations/README.md` (1 проблем)
+
+_Оборванный: 1_
+
+
+### `docs/04-ai-collaborations/README.md` (1 проблем)
 
 _Оборванный: 1_
 

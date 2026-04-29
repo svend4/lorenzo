@@ -43,7 +43,6 @@
 
 **Смотрите также:**
 - [MINDMAP](docs/MINDMAP.md)
-- [GRAPH](docs/GRAPH.md)
 - [NETWORK](docs/NETWORK.md)
 - [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 
