@@ -28,6 +28,8 @@ SERVERS = [
     "mcp_llm_server",
     "mcp_watch_server",
     "mcp_skills_server",
+    "mcp_embed_server",
+    "mcp_ops_server",
 ]
 
 

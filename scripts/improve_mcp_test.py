@@ -51,6 +51,15 @@ SERVERS = [
         ("compose_skills", {"skills": ["search", "summarize"]}),
         ("get_skill", {"name": "skill-router"}),
     ]),
+    ("mcp_embed_server", [
+        ("list_providers", {}),
+        ("keyword_search", {"query": "memory", "top_k": 3}),
+        ("encode", {"text": "test text"}),
+    ]),
+    ("mcp_ops_server", [
+        ("workflow_stats", {}),
+        ("audit_top_tools", {"n": 3}),
+    ]),
 ]
 
 

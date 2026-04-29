@@ -10,3 +10,10 @@ __all__ = [
     "write_doc", "clean_text",
     "extract_frontmatter", "parse_yaml",
 ]
+
+# Авто-подгрузка плагинов при импорте (тихо, не падает если что-то не так)
+try:
+    from docstoolkit.plugins import autoload_all
+    autoload_all()
+except Exception:
+    pass

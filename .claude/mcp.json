@@ -45,6 +45,16 @@
       "args": ["scripts/mcp_skills_server.py"],
       "description": "Скилы: list_skills, get_skill, match_skill (router), compose_skills, evaluate_skill"
     },
+    "lorenzo-embed": {
+      "command": "python",
+      "args": ["scripts/mcp_embed_server.py"],
+      "description": "Семантический поиск: keyword/semantic/hybrid_search, encode, list_providers"
+    },
+    "lorenzo-ops": {
+      "command": "python",
+      "args": ["scripts/mcp_ops_server.py"],
+      "description": "Операции: doctor, audit_query, audit_top_tools, workflow_history, workflow_stats"
+    },
     "lorenzo-docs": {
       "command": "python",
       "args": ["scripts/mcp_server.py"],

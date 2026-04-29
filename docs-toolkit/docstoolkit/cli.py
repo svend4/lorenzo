@@ -93,6 +93,10 @@ def cmd_doc_validate(args):
     files = sorted(base.rglob("*.md"))
     skip_dirs = set(cfg.validation.get("skip_dirs", []))
 
+    # i18n: выбираем локаль по cfg или auto
+    from docstoolkit.lang import t, set_locale
+    set_locale(cfg.language.get("primary", "en"))
+
     valid = 0
     errors_count = 0
     for f in files:
@@ -104,14 +108,13 @@ def cmd_doc_validate(args):
             continue
         template = fm["template"]
         if template not in schemas:
-            print(f"⚠️  {f.relative_to(cfg.root)}: схема '{template}' не найдена")
+            print(f"⚠️  {f.relative_to(cfg.root)}: schema {template!r} not found")
             continue
-        # Простая проверка: required-поля
         schema = schemas[template]
         errs: list[str] = []
         for req in schema.get("required", []):
             if req not in fm:
-                errs.append(f"missing required: {req}")
+                errs.append(t("validation.missing_field", field=req))
         if errs:
             errors_count += 1
             print(f"❌ {f.relative_to(cfg.root)}")
@@ -120,7 +123,11 @@ def cmd_doc_validate(args):
         else:
             valid += 1
 
-    print(f"\nВалидно: {valid}, с ошибками: {errors_count}")
+    n_total = valid + errors_count
+    if cfg.language.get("primary") == "ru":
+        print(f"\nВалидно: {valid}, с ошибками: {errors_count}")
+    else:
+        print(f"\nValid: {valid}, with errors: {errors_count}")
     return 1 if errors_count and cfg.validation.get("strict") else 0
 
 
@@ -284,8 +291,41 @@ def main():
     p_search.add_argument("--json", action="store_true", help="JSON вывод")
     p_search.set_defaults(func=cmd_search)
 
+    p_plugins = sub.add_parser("plugins", help="Управление плагинами")
+    p_plugins_sub = p_plugins.add_subparsers(dest="plugins_cmd", required=True)
+
+    p_plugins_list = p_plugins_sub.add_parser("list", help="Список плагинов")
+    p_plugins_list.set_defaults(func=cmd_plugins_list)
+
+    p_plugins_inspect = p_plugins_sub.add_parser("inspect", help="Инфо о плагине")
+    p_plugins_inspect.add_argument("group")
+    p_plugins_inspect.add_argument("name")
+    p_plugins_inspect.set_defaults(func=cmd_plugins_inspect)
+
     args = parser.parse_args()
     return args.func(args)
+
+
+def cmd_plugins_list(args):
+    from docstoolkit.plugins import list_plugin_groups, SUPPORTED_GROUPS
+    groups = list_plugin_groups()
+    print(f"# Плагины (entry_points)\n")
+    print(f"Поддерживаемых групп: {len(SUPPORTED_GROUPS)}\n")
+    for group, names in groups.items():
+        print(f"## {group} ({len(names)})")
+        for n in names:
+            print(f"  - {n}")
+        if not names:
+            print("  (нет зарегистрированных)")
+        print()
+    return 0
+
+
+def cmd_plugins_inspect(args):
+    from docstoolkit.plugins import inspect_plugin
+    info = inspect_plugin(args.group, args.name)
+    print(json.dumps(info, ensure_ascii=False, indent=2))
+    return 0
 
 
 def cmd_serve(args):

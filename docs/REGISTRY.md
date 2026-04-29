@@ -26,7 +26,7 @@ _Обновлено: 2026-04-29_
 | Скрипты `improve_*.py` | 154 |
 | Шаблоны `docs/templates/*.md` | 22 |
 | Скилы `.claude/skills/*.md` | 28 |
-| MCP-серверы | 10 |
+| MCP-серверы | 12 |
 | Манифесты задач | 13 |
 | Контакты | 14 |
 
@@ -117,9 +117,11 @@ _Обновлено: 2026-04-29_
 |--------|----------|
 | `lorenzo-contacts` | Контакты: get_contact, list_contacts, update_contact_status, propose_outreach |
 | `lorenzo-docs` | [Legacy] Монолитный сервер для обратной совместимости |
+| `lorenzo-embed` | Семантический поиск: keyword/semantic/hybrid_search, encode, list_providers |
 | `lorenzo-export` | Экспорт: Obsidian, Confluence, EPUB, RSS, CSV, HTML, Report |
 | `lorenzo-graph` | Аналитика: get_health, get_decisions, get_concept_graph, kpi_history, get_project_status |
 | `lorenzo-llm` | LLM с кэшем: llm_summary, llm_qa, llm_enrich, llm_contact |
+| `lorenzo-ops` | Операции: doctor, audit_query, audit_top_tools, workflow_history, workflow_stats |
 | `lorenzo-runner` | Запуск improve_*.py: list_scripts, describe_script, run_improve, run_group |
 | `lorenzo-search` | Read-only поиск: search_docs, bm25_passages, find_similar, faceted_search |
 | `lorenzo-skills` | Скилы: list_skills, get_skill, match_skill (router), compose_skills, evaluate_skill |
