@@ -1,5 +1,13 @@
 # Контакт: VitalyOborin / Yodoca
 
+<!-- summary -->
+> <!-- summary: Шаблон для связи с автором Yodoca -->
+**Проекты:** Svyazi, Yodoca
+
+---
+
+
+
 <!-- summary: Шаблон для связи с автором Yodoca -->
 <!-- tags: контакты, команда -->
 
@@ -43,3 +51,14 @@ Yodoca закрывает слой «memory» в архитектуре.
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [dmitriila](docs/contacts/dmitriila.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+

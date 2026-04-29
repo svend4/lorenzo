@@ -1,5 +1,15 @@
 # kksudo
 
+<!-- summary -->
+> _Компонент экосистемы Svyazi 2.0_
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, collaboration -->
+
+
+
+
 **Тип:** 32
 **Статус:** GO 🟢
 **Упоминаний:** 14

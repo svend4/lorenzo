@@ -1,5 +1,18 @@
 # Контакт: Antipozitive / MemNet
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> <!-- summary: Шаблон для связи с автором MemNet -->
+**Проекты:** Svyazi, MemNet
+
+---
+
+
+
 <!-- summary: Шаблон для связи с автором MemNet -->
 <!-- tags: контакты, команда -->
 
@@ -41,3 +54,14 @@ MemNet закрывает слой «memory» в архитектуре.
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [dmitriila](docs/contacts/dmitriila.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+

@@ -1,5 +1,20 @@
 # Онбординг — Svyazi 2.0 / Lorenzo
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> _Руководство для новых участников проекта._
+**Проекты:** Svyazi, CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Firecrawl
+
+---
+<!-- tags: memory, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 _Руководство для новых участников проекта._
 
 ## Что это такое?
@@ -102,4 +117,15 @@ python scripts/improve_watcher.py
 
 _Этот документ генерируется скриптом `improve_onboarding.py`._
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [INDEX](docs/INDEX.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [PROGRESS](docs/PROGRESS.md)
+- [TECH_RADAR](docs/TECH_RADAR.md)
 

@@ -1,5 +1,14 @@
 # COMPOSITE SKILLS AGENT.md
 
+<!-- summary -->
+> - [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md) (сходство 0.25)
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 ## COMPOSITE SKILLS AGENT.md
 markdown
 ```markdown

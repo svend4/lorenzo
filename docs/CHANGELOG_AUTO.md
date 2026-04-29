@@ -1,5 +1,14 @@
 # Changelog (авто)
 
+<!-- summary -->
+> _Сгенерировано из 25 коммитов git-истории._
+
+---
+<!-- tags: rag, ingestion, roadmap, anthropic -->
+
+
+
+
 _Сгенерировано из 25 коммитов git-истории._
 
 ## Статистика коммитов
@@ -54,4 +63,15 @@ _Сгенерировано из 25 коммитов git-истории._
 _Changelog генерируется автоматически из conventional commits._
 
 _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST](docs/DIGEST.md)
+- [DEPENDENCY_MAP](docs/DEPENDENCY_MAP.md)
+- [CHANGELOG](docs/CHANGELOG.md)
+- [TAGS](docs/TAGS.md)
 

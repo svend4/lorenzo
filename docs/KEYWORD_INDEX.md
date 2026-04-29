@@ -1,5 +1,15 @@
 # Инвертированный индекс ключевых слов
 
+<!-- summary -->
+> Уникальных слов: **23264** | Биграмм: **13489** | Файлов: **487**
+**Проекты:** Svyazi, NGT Memory
+
+---
+<!-- tags: memory, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Уникальных слов: **23264** | Биграмм: **13489** | Файлов: **487**
@@ -122,13 +132,13 @@ _Обновлено: 2026-04-29_
 | `docs collaborations` | 43 | 295 |
 | `docs svyazi` | 40 | 540 |
 | `professional colleague` | 40 | 189 |
-| `ngt memory` | 38 | 147 |
+| `NGT Memory` | 38 | 147 |
 | `nautilus portal` | 38 | 174 |
 | `executive summary` | 35 | 164 |
 | `appendix minimal` | 34 | 90 |
 | `minimal working` | 34 | 90 |
 | `working example` | 34 | 90 |
-| `knowledge space` | 32 | 191 |
+| `knowledge-space` | 32 | 191 |
 | `table contents` | 32 | 162 |
 | `turn view` | 31 | 917 |
 | `double triangle` | 31 | 171 |
@@ -145,3 +155,14 @@ _Обновлено: 2026-04-29_
 | `cite turn` | 27 | 487 |
 | `skills agent` | 27 | 88 |
 | `colleague agents` | 27 | 86 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [WORD_FREQ](docs/WORD_FREQ.md)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+

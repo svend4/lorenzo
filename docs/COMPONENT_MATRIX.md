@@ -1,5 +1,26 @@
 # Матрица компонентов Svyazi 2.0
 
+<!-- summary -->
+> _Совместимость и возможности 14 компонентов экосистемы._
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, Rufler, LiteParse, Yodoca
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Матрица возможностей](#матрица-возможностей)
+- [Покрытие возможностей](#покрытие-возможностей)
+- [Каталог компонентов](#каталог-компонентов)
+- [Рекомендуемые ансамбли](#рекомендуемые-ансамбли)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, collaboration -->
+
+
+
+
 _Совместимость и возможности 14 компонентов экосистемы._
 
 **Легенда:** ✅ Поддерживается · 🟡 Частично · ❌ Не поддерживается
@@ -42,7 +63,7 @@ _Совместимость и возможности 14 компонентов 
 
 | Компонент | Лицензия | Статус | Репозиторий |
 |-----------|----------|--------|-------------|
-| **CardIndex** | 🟢 MIT | 🟢 stable | `kksudo/card-index` |
+| **CardIndex** | 🟢 MIT | 🟢 stable | `kksudo/CardIndex` |
 | **AgentFS** | 🟢 MIT | 🟢 stable | `kksudo/agentfs` |
 | **Yodoca** | 🟢 Apache 2.0 | 🔵 active | `spbmolot/yodoca` |
 | **NGT-memory** | 🟠 BSL 1.1 | 🔵 active | — |
@@ -66,4 +87,15 @@ _Совместимость и возможности 14 компонентов 
 | Security Runtime | SENTINEL + AgentFS | PII-защита + MCP allowlist |
 | Web Intelligence | Firecrawl + CardIndex + Yodoca | Краулинг → память |
 | Agent Orchestra | Rufler + agent-pool + AI Factory | Оркестрация агентов |
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [MINDMAP](docs/MINDMAP.md)
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+- [TECH_RADAR](docs/TECH_RADAR.md)
+- [ONBOARDING](docs/ONBOARDING.md)
 

@@ -4,6 +4,8 @@
 > 1. **Why the Binary View Is Incomplete**
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

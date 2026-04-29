@@ -1,6 +1,6 @@
 # Валидация структуры репозитория
 
-**Ошибок:** 0  **Предупреждений:** 16  **Пройдено:** 27
+**Ошибок:** 0  **Предупреждений:** 17  **Пройдено:** 27
 
 ## Сводка
 
@@ -8,7 +8,7 @@
 |----------|--------|---------|
 | Разделы и README | ✅ | 0 |
 | Мета-файлы | ✅ | 0 |
-| Пустые/короткие файлы | ⚠️ | 5 |
+| Пустые/короткие файлы | ⚠️ | 6 |
 | Именование файлов | ✅ | 10 |
 | Заголовки H1 | ⚠️ | 11 |
 | Внутренние ссылки | ✅ | 15 |
@@ -25,9 +25,10 @@ _Всё в порядке_
 
 - ⚠️ Слишком короткий файл: `docs/01-svyazi/00-intro-part2.md` (6 слов)
 - ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/102-доступ-к-данным.md` (23 слов)
-- ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/12-content-overview.md` (24 слов)
 - ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (16 слов)
-- ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/31-content-overview.md` (23 слов)
+- ⚠️ Слишком короткий файл: `docs/05-habr-projects/knowledge/README.md` (13 слов)
+- ⚠️ Слишком короткий файл: `docs/05-habr-projects/memory/README.md` (25 слов)
+- ⚠️ Слишком короткий файл: `docs/autofilled/README.md` (21 слов)
 
 ## Именование файлов
 
@@ -63,20 +64,20 @@ _Всё в порядке_
 - 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/04-ai-collaborations/07-выводы.md`
 - 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md`
 - 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/04-ai-collaborations/README.md`
+- 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md`
+- 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/04-ai-collaborations/01-executive-summary.md`
+- 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md`
+- 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/DUPLICATES.md`
 - 🔗 Сломана ссылка в `docs/01-svyazi/03-component-catalog.md`: `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
 - 🔗 Сломана ссылка в `docs/01-svyazi/03-component-catalog.md`: `docs/TABLES.md`
 - 🔗 Сломана ссылка в `docs/01-svyazi/03-component-catalog.md`: `docs/04-ai-collaborations/04-приоритетные-ансамбли.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/04-ensembles-overview.md`: `docs/04-ai-collaborations/04-приоритетные-ансамбли.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/04-ensembles-overview.md`: `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/04-ensembles-overview.md`: `docs/01-svyazi/03-component-catalog.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/06-security-privacy.md`: `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/06-security-privacy.md`: `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/06-security-privacy.md`: `docs/01-svyazi/07-mvp-planning.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/07-mvp-planning.md`: `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md`
+- 🔗 Сломана ссылка в `docs/01-svyazi/03-component-catalog.md`: `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
+- 🔗 Сломана ссылка в `docs/01-svyazi/03-component-catalog.md`: `docs/TABLES.md`
+- 🔗 Сломана ссылка в `docs/01-svyazi/03-component-catalog.md`: `docs/04-ai-collaborations/04-приоритетные-ансамбли.md`
 
 ## Итог
 
-⚠️ **16 предупреждений** — рекомендуется исправить.
+⚠️ **17 предупреждений** — рекомендуется исправить.
 
 <!-- see-also -->
 
@@ -84,7 +85,7 @@ _Всё в порядке_
 
 **Смотрите также:**
 - [SITEMAP](docs/SITEMAP.md)
-- [TAGS](docs/TAGS.md)
-- [PRIORITIES](docs/PRIORITIES.md)
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
+- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
 - [COMPARE](docs/COMPARE.md)
 

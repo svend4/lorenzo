@@ -1,57 +1,42 @@
 # Авторы и коллаборации
 
-<!-- summary -->
-> Авторы проектов, упоминаемые в исследованиях.
-
----
-
-
-
 Авторы проектов, упоминаемые в исследованиях.
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 9 |
-| **Antipozitive** | 2 |
-| **BerriAI** | 5 |
-| **Cutcode** | 4 |
-| **Dmitriila** | 2 |
-| **MiXaiLL76** | 3 |
-| **Sonia_Black** | 5 |
-| **VitaliySemenov** | 2 |
-| **VitalyOborin** | 6 |
-| **VladSpace** | 2 |
-| **akazant** | 4 |
-| **akzhankalimatov** | 2 |
-| **andrey_chuyan** | 3 |
-| **iximy** | 3 |
-| **kksudo** | 8 |
-| **lee-to** | 4 |
-| **lib4u** | 5 |
-| **moshael** | 4 |
-| **nlaik** | 2 |
-| **spbmolot** | 7 |
-| **tagir_analyzes** | 3 |
-| **vpakspace** | 2 |
-| **zodigancode** | 2 |
-| **Андрей Чуян** | 11 |
-| **Виталий Оборин** | 2 |
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CONTACTS](docs/CONTACTS.md) (сходство 0.15)
-
+| **AnastasiyaW** | 25 |
+| **Antipozitive** | 12 |
+| **BerriAI** | 7 |
+| **Cutcode** | 13 |
+| **Dmitriila** | 11 |
+| **MiXaiLL76** | 12 |
+| **Sonia_Black** | 11 |
+| **VitaliySemenov** | 4 |
+| **VitalyOborin** | 19 |
+| **VladSpace** | 12 |
+| **akazant** | 6 |
+| **akzhankalimatov** | 4 |
+| **andrey_chuyan** | 10 |
+| **iximy** | 5 |
+| **kksudo** | 34 |
+| **lee-to** | 8 |
+| **lib4u** | 7 |
+| **moshael** | 6 |
+| **nlaik** | 11 |
+| **spbmolot** | 33 |
+| **tagir_analyzes** | 8 |
+| **vpakspace** | 4 |
+| **zodigancode** | 10 |
+| **Андрей Чуян** | 21 |
+| **Виталий Оборин** | 7 |
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 - [CONTACTS](docs/CONTACTS.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
-- [ENTITIES](docs/ENTITIES.md)
+- [LINKS](docs/LINKS.md)
+- [NETWORK](docs/NETWORK.md)
 

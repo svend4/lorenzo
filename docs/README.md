@@ -1,20 +1,94 @@
-# Документация Lorenzo
+# docs
 
-Все документы организованы по тематическим разделам.
-Каждый раздел содержит маленькие файлы по подтемам.
+**Файлов:** 75
 
-## Навигация
+## Содержание
 
-- [01-svyazi/](01-svyazi/) — Svyazi 2.0
-- [02-anthropic-vacancies/](02-anthropic-vacancies/) — Вакансии Anthropic
-- [03-technology-combinations/](03-technology-combinations/) — Комбинации технологий
-- [04-ai-collaborations/](04-ai-collaborations/) — AI коллаборации
-- [05-habr-projects/](05-habr-projects/) — Проекты с Хабра
+- [ABBREVIATIONS.md](ABBREVIATIONS.md) — > [!TIP]
+- [ACTION_ITEMS.md](ACTION_ITEMS.md) — > [!TIP]
+- [ALERTS.md](ALERTS.md) — Добавлено **129** callout-блоков в документы.
+- [AUTHORS.md](AUTHORS.md) — <!-- summary -->
+- [AUTOFILLED.md](AUTOFILLED.md) — _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
+- [BACKLINKS.md](BACKLINKS.md) — **Файлов с входящими ссылками:** 405
+- [BROKEN_LINKS.md](BROKEN_LINKS.md) — **Найдено:** 4037 проблем
+- [CHANGELOG.md](CHANGELOG.md) — Всего коммитов: **10**
+- [CHANGELOG_AUTO.md](CHANGELOG_AUTO.md) — _Сгенерировано из 25 коммитов git-истории._
+- [CLUSTERS.md](CLUSTERS.md) — > [!TIP]
+- [CODE_BLOCKS.md](CODE_BLOCKS.md) — > [!IMPORTANT]
+- [COMPARE.md](COMPARE.md) — > [!WARNING]
+- [COMPLEXITY.md](COMPLEXITY.md) — > [!WARNING]
+- [COMPONENT_MATRIX.md](COMPONENT_MATRIX.md) — _Совместимость и возможности 14 компонентов экосистемы._
+- [CONCEPTS.md](CONCEPTS.md) — > [!TIP]
+- [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) — _Обновлено: 2026-04-29_
+- [CONSISTENCY.md](CONSISTENCY.md) — Анализ различных написаний одних и тех же терминов.
+- [CONTACTS.md](CONTACTS.md) — | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
+- [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) — _Обновлено: 2026-04-29_
+- [CONTRADICTIONS.md](CONTRADICTIONS.md) — _Обновлено: 2026-04-29_
+- [COST.md](COST.md) — _Ориентировочные цифры на основе документации проекта._
+- [COVERAGE.md](COVERAGE.md) — _Обновлено: 2026-04-29_
+- [CROSSREFS.md](CROSSREFS.md) — > [!TIP]
+- [DECISIONS.md](DECISIONS.md) — > [!TIP]
+- [DENSITY.md](DENSITY.md) — > [!TIP]
+- [DEPENDENCY_MAP.md](DEPENDENCY_MAP.md) — _Что каждый `improve_*.py` производит и от чего зависит._
+- [DIGEST.md](DIGEST.md) — _Обновлено: 2026-04-29_
+- [DIGEST_WEEKLY.md](DIGEST_WEEKLY.md) — _Период: последние 7 дней (с 2026-04-22)_
+- [DUPLICATES.md](DUPLICATES.md) — Порог сходства: **0.5**
+- [ENTITIES.md](ENTITIES.md) — **Файлов просмотрено:** 434
+- [FAQ.md](FAQ.md) — _Извлечено: 54 вопросов и ответов_
+- [FOOTNOTES.md](FOOTNOTES.md) — **Обновлено файлов:** 37  **Вставлено сносок:** 255
+- [GLOSSARY.md](GLOSSARY.md) — <!-- summary -->
+- [GRAPH.md](GRAPH.md) — Рёбра = совместные упоминания в одном файле (≥ 2 раз).
+- [HEALTH.md](HEALTH.md) — _Обновлено: 2026-04-29_
+- [HEATMAP.md](HEATMAP.md) — > [!TIP]
+- [INDEX.md](INDEX.md) — _Главный навигационный хаб. Все разделы и документы._
+- [KEYWORD_INDEX.md](KEYWORD_INDEX.md) — _Обновлено: 2026-04-29_
+- [KPI.md](KPI.md) — > [!TIP]
+- [KPI_HISTORY.md](KPI_HISTORY.md) — _Последнее обновление: 2026-04-29 · Снапшотов в истории: 1_
+- [LINKS.md](LINKS.md) — Всего уникальных URL: 120
+- [LLM_SUMMARIES.md](LLM_SUMMARIES.md) — _Модель: claude-haiku-4-5 · Разделов: 5_
+- [METRICS.md](METRICS.md) — **Файлов:** 478  **Средний балл:** 67.5/100
+- [MINDMAP.md](MINDMAP.md) — ```mermaid
+- [MISSING.md](MISSING.md) — Анализ покрытия ключевых тем и проектов в docs/.
+- [NAMED_ENTITIES.md](NAMED_ENTITIES.md) — _Обновлено: 2026-04-29_
+- [NARRATIVE.md](NARRATIVE.md) — > [!TIP]
+- [NETWORK.md](NETWORK.md) — **Узлов:** 20  **Связей:** 185
+- [ONBOARDING.md](ONBOARDING.md) — _Руководство для новых участников проекта._
+- [ORPHANS.md](ORPHANS.md) — **Найдено:** 0 файлов без входящих ссылок из 400 проверено.
+- [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — _Обновлено: 2026-04-29_
+- [PRIORITIES.md](PRIORITIES.md) — > [!TIP]
+- [PROGRESS.md](PROGRESS.md) — _Обновлено: 2026-04-29 (improve_progress_sync.py)_
+- [QA.md](QA.md) — > [!TIP]
+- [QUESTIONS.md](QUESTIONS.md) — > [!WARNING]
+- [READING_ORDER.md](READING_ORDER.md) — > [!TIP]
+- [REPORT.md](REPORT.md) — _Дата генерации: 2026-04-29_
+- [RISK_REGISTER.md](RISK_REGISTER.md) — _Курированных рисков: 10 · Из документов: 15_
+- [SCHEDULE.md](SCHEDULE.md) — _Дорожная карта с вехами и задачами по кварталам._
+- [SCORING.md](SCORING.md) — _Дата: 2026-04-29_
+- [SEARCH.md](SEARCH.md) — **Файлов:** 483
+- [SEE_ALSO.md](SEE_ALSO.md) — **Файлов с блоком See Also:** 814
+- [SENTIMENT.md](SENTIMENT.md) — > [!WARNING]
+- [SIMILAR.md](SIMILAR.md) — > [!TIP]
+- [SITEMAP.md](SITEMAP.md) — > [!TIP]
+- [STALENESS.md](STALENESS.md) — _Порог: 30 дней. Обновлено: 2026-04-29_
+- [STATS.md](STATS.md) — **Разделов:** 6  **Файлов:** 436  **Слов:** 356,902  **Символов:** 2,886,931
+- [TABLES.md](TABLES.md) — > [!TIP]
+- [TAGS.md](TAGS.md) — > [!TIP]
+- [TECH_RADAR.md](TECH_RADAR.md) — _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
+- [TIMELINE.md](TIMELINE.md) — _Обновлено: 2026-04-29_
+- [VALIDATION.md](VALIDATION.md) — **Ошибок:** 0  **Предупреждений:** 16  **Пройдено:** 27
+- [VOCABULARY.md](VOCABULARY.md) — _Обновлено: 2026-04-29_
+- [WORD_CLOUD.md](WORD_CLOUD.md) — Визуализация 80 самых частых слов репозитория.
+- [WORD_FREQ.md](WORD_FREQ.md) — **Всего слов (очищенных):** 184,485
 
-<!-- similar-docs -->
+## Подразделы
 
----
-
-**Похожие документы:**
-- [DENSITY](docs/DENSITY.md) (сходство 0.11)
-
+- [01-svyazi/](01-svyazi/) — Svyazi 2.0 — Архитектура и исследование
+- [02-anthropic-vacancies/](02-anthropic-vacancies/) — Вакансии Anthropic — Анализ по кластерам
+- [03-technology-combinations/](03-technology-combinations/) — Комбинирование технологий для новых свойств
+- [04-ai-collaborations/](04-ai-collaborations/) — Поиск AI-коллабораций
+- [05-habr-projects/](05-habr-projects/) — Уникальные проекты с Хабра
+- [autofilled/](autofilled/) — autofilled
+- [badges/](badges/) — badges
+- [chunks/](chunks/) — chunks
+- [contacts/](contacts/) — contacts
+- [templates/](templates/) — templates

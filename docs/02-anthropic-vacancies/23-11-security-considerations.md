@@ -1,4 +1,6 @@
 # 11. Security Considerations
+<!-- tags: ingestion, architecture, anthropic -->
+
 
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.

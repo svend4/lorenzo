@@ -1,5 +1,14 @@
 # Дайджест изменений
 
+<!-- summary -->
+> > improve: batch 11 — orphans, alerts, metrics, index update, master runner
+
+---
+<!-- tags: rag, ingestion, roadmap, anthropic -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 ## Последний коммит

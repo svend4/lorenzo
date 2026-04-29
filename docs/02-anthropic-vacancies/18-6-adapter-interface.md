@@ -1,4 +1,6 @@
 # 6. Adapter Interface
+<!-- tags: ingestion, architecture, anthropic -->
+
 
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.

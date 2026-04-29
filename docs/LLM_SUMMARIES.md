@@ -1,5 +1,15 @@
 # AI-саммари разделов документации
 
+<!-- summary -->
+> _Модель: claude-haiku-4-5 · Разделов: 5_
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, local-first, architecture, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Модель: claude-haiku-4-5 · Разделов: 5_
 
 ## Архитектура Svyazi 2.0
@@ -37,4 +47,15 @@ _`docs/05-habr-projects/` · 10 файлов · 8,296 слов_
 _Запустите с `ANTHROPIC_API_KEY` для AI-генерации резюме._
 
 _Без ключа — автоматическое резюме на основе метаданных._
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [VALIDATION](docs/VALIDATION.md)
+- [SITEMAP](docs/SITEMAP.md)
+- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
+- [METRICS](docs/METRICS.md)
 

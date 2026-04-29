@@ -5,80 +5,64 @@
 
 <!-- alert-added -->
 
-<!-- toc -->
-## Содержание
-
-- [Топ-50 самых важных файлов](#топ-50-самых-важных-файлов)
-- [Топ-5 по каждому разделу](#топ-5-по-каждому-разделу)
-  - [01-svyazi](#01-svyazi)
-  - [02-anthropic-vacancies](#02-anthropic-vacancies)
-  - [03-technology-combinations](#03-technology-combinations)
-  - [04-ai-collaborations](#04-ai-collaborations)
-  - [05-habr-projects](#05-habr-projects)
-  - [knowledge](#knowledge)
-  - [memory](#memory)
-
----
-
-
 Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).
 
-**Всего файлов:** 394
+**Всего файлов:** 488
 
 ## Топ-50 самых важных файлов
 
 | # | Файл | Score | Слов | Ключевые термины |
 |---|------|-------|------|-----------------|
-| 1 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **63.48** | 19795 | agent, memory, MIT, rag, NGT Memory |
-| 2 | `docs/04-ai-collaborations/00-intro.md` | **52.49** | 11115 | rag, agent, локальн, memory, Svyazi |
-| 3 | `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **51.66** | 3664 | agent, memory, MIT, evidence, Svyazi |
-| 4 | `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **50.07** | 3004 | memory, evidence, Svyazi, agent, mclaude |
-| 5 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **39.81** | 4184 | agent, MIT, rag, mclaude, license |
-| 6 | `docs/05-habr-projects/memory/memnet.md` | **23.24** | 6765 | локальн, memory, rag, Yodoca, agent |
-| 7 | `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` | **22.27** | 10862 | agent, MIT, rag, CardIndex, memory |
-| 8 | `docs/01-svyazi/09-architectural-gaps.md` | **21.99** | 580 | memory, agent, Svyazi, evidence, rag |
-| 9 | `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | **21.87** | 1251 | memory, MIT, agent, Svyazi, rag |
-| 10 | `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | **21.82** | 583 | memory, agent, Svyazi, evidence, rag |
-| 11 | `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` | **21.6** | 1085 | rag, agent, Svyazi, memory, локальн |
-| 12 | `docs/01-svyazi/04-ensembles-overview.md` | **21.6** | 1086 | rag, agent, Svyazi, memory, локальн |
-| 13 | `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | **21.19** | 611 | memory, rag, agent, evidence, AgentFS |
-| 14 | `docs/01-svyazi/11-integration-contracts.md` | **20.97** | 566 | memory, rag, agent, evidence, AgentFS |
-| 15 | `docs/01-svyazi/01-executive-summary.md` | **20.77** | 496 | Svyazi, agent, rag, memory, CardIndex |
-| 16 | `docs/01-svyazi/07-mvp-planning.md` | **20.26** | 863 | memory, agent, Svyazi, CardIndex, AgentFS |
-| 17 | `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | **20.23** | 870 | memory, agent, Svyazi, CardIndex, AgentFS |
-| 18 | `docs/01-svyazi/10-second-order-ensembles.md` | **19.06** | 740 | memory, Svyazi, evidence, локальн, knowledge-space |
-| 19 | `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md` | **19.04** | 745 | memory, Svyazi, evidence, локальн, knowledge-space |
-| 20 | `docs/01-svyazi/03-component-catalog.md` | **19.03** | 1201 | memory, MIT, agent, Svyazi, rag |
-| 21 | `docs/02-anthropic-vacancies/165-closing.md` | **15.82** | 8956 | agent, MIT, локальн, evidence, CardIndex |
-| 22 | `docs/04-ai-collaborations/01-executive-summary.md` | **15.4** | 367 | agent, rag, Svyazi, memory, CardIndex |
-| 23 | `docs/01-svyazi/13-contacts.md` | **13.55** | 661 | agent, knowledge-space, CardIndex, AgentFS, mclaude |
-| 24 | `docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` | **13.51** | 671 | agent, knowledge-space, CardIndex, AgentFS, mclaude |
-| 25 | `docs/02-anthropic-vacancies/00-intro.md` | **13.49** | 8477 | rag, agent, security, MIT, MVP |
-| 26 | `docs/02-anthropic-vacancies/133-обратная-связь.md` | **13.48** | 16554 | agent, MIT, rag, memory, security |
-| 27 | `docs/01-svyazi/14-limitations.md` | **11.95** | 487 | memory, evidence, Svyazi, mclaude, AI Factory |
-| 28 | `docs/04-ai-collaborations/07-выводы.md` | **11.53** | 234 | Svyazi, rag, CardIndex, AgentFS, Yodoca |
-| 29 | `docs/01-svyazi/08-conclusions.md` | **11.11** | 220 | Svyazi, rag, CardIndex, AgentFS, Yodoca |
-| 30 | `docs/01-svyazi/12-roadmap.md` | **10.38** | 577 | memory, evidence, MVP, orchestration, Svyazi |
-| 31 | `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` | **10.36** | 584 | memory, evidence, MVP, orchestration, Svyazi |
-| 32 | `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` | **9.86** | 6778 | MIT, MVP, agent, memory, локальн |
-| 33 | `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` | **9.8** | 1027 | agent, MIT, local-first, security |
-| 34 | `docs/01-svyazi/06-security-privacy.md` | **9.54** | 662 | memory, локальн, Svyazi, agent, SENTINEL |
-| 35 | `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` | **9.53** | 668 | memory, локальн, Svyazi, agent, SENTINEL |
-| 36 | `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` | **9.35** | 18677 | agent, rag, MIT, security, MVP |
-| 37 | `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` | **8.83** | 796 | agent, rag |
-| 38 | `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` | **7.46** | 813 | agent, MIT, rag, memory |
-| 39 | `docs/03-technology-combinations/05-benchmarks.md` | **7.38** | 762 | agent, Svyazi, rag, Yodoca, local-first |
-| 40 | `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` | **6.7** | 1293 | agent, Rufler, CardIndex, Svyazi, mclaude |
-| 41 | `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` | **6.7** | 3658 | agent, rag, MIT, evidence, roadmap |
-| 42 | `docs/03-technology-combinations/03-local-first.md` | **6.68** | 293 | Svyazi, CardIndex, rag, локальн, local-first |
-| 43 | `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` | **6.38** | 613 | agent, MIT, rag |
-| 44 | `docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md` | **6.03** | 640 | agent, rag, orchestration, roadmap, MIT |
-| 45 | `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` | **5.98** | 1856 | agent, MIT, evidence, rag, roadmap |
-| 46 | `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md` | **5.86** | 233 | Svyazi, rag, CardIndex, forensic, memory |
-| 47 | `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` | **5.75** | 439 | agent, MIT, rag, local-first, security |
-| 48 | `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md` | **5.57** | 258 | agent, memory, CardIndex, knowledge-space, NGT Memory |
-| 49 | `docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` | **5.55** | 658 | agent, MIT, rag, evidence |
-| 50 | `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` | **5.44** | 5624 | agent, CardIndex, roadmap, локальн, security |
+| 1 | `docs/TABLES.md` | **132.3** | 16278 | memory, Svyazi, agent, rag, MIT |
+| 2 | `docs/CONTRADICTIONS.md` | **70.92** | 1996 | Svyazi, AgentFS, Rufler, agent, LiteParse |
+| 3 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **63.8** | 20349 | agent, memory, MIT, rag, NGT Memory |
+| 4 | `docs/04-ai-collaborations/00-intro.md` | **57.42** | 11314 | rag, agent, локальн, memory, Svyazi |
+| 5 | `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **56.76** | 3190 | memory, Svyazi, evidence, agent, rag |
+| 6 | `docs/CONCEPTS.md` | **54.13** | 11468 | agent, Svyazi, MIT, rag, memory |
+| 7 | `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **53.24** | 3810 | agent, memory, Svyazi, MIT, evidence |
+| 8 | `docs/NARRATIVE.md` | **49.9** | 1110 | Svyazi, memory, MVP, rag, agent |
+| 9 | `docs/NAMED_ENTITIES.md` | **40.47** | 1537 | Svyazi, MVP, CardIndex, Yodoca, rag |
+| 10 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **40.0** | 4334 | agent, MIT, rag, mclaude, license |
+| 11 | `docs/BROKEN_LINKS.md` | **37.91** | 673 | Svyazi, MVP, security, roadmap, knowledge-space |
+| 12 | `docs/MINDMAP.md` | **37.35** | 290 | rag, memory, CardIndex, knowledge-space, agent |
+| 13 | `docs/NETWORK.md` | **32.21** | 465 | Svyazi, CardIndex, AI Factory, AgentFS, Yodoca |
+| 14 | `docs/01-svyazi/09-architectural-gaps.md` | **30.39** | 673 | agent, Svyazi, memory, rag, AgentFS |
+| 15 | `docs/PARAGRAPH_QUALITY.md` | **29.87** | 6032 | Svyazi, agent, memory, security, MIT |
+| 16 | `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | **29.44** | 1056 | Svyazi, agent, memory, MVP, CardIndex |
+| 17 | `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | **28.93** | 761 | Svyazi, memory, rag, agent, AgentFS |
+| 18 | `docs/05-habr-projects/memory/memnet.md` | **28.72** | 7168 | локальн, rag, memory, Yodoca, agent |
+| 19 | `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | **28.71** | 720 | Svyazi, agent, memory, rag, AgentFS |
+| 20 | `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` | **28.55** | 1265 | Svyazi, rag, agent, AgentFS, knowledge-space |
+| 21 | `docs/01-svyazi/07-mvp-planning.md` | **28.27** | 989 | Svyazi, agent, memory, CardIndex, AgentFS |
+| 22 | `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | **28.26** | 1413 | memory, MIT, Svyazi, agent, rag |
+| 23 | `docs/01-svyazi/04-ensembles-overview.md` | **27.93** | 1198 | Svyazi, rag, agent, AgentFS, knowledge-space |
+| 24 | `docs/01-svyazi/11-integration-contracts.md` | **27.73** | 658 | memory, Svyazi, rag, agent, AgentFS |
+| 25 | `docs/01-svyazi/10-second-order-ensembles.md` | **25.85** | 836 | Svyazi, memory, knowledge-space, evidence, локальн |
+| 26 | `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md` | **25.72** | 899 | Svyazi, memory, knowledge-space, evidence, локальн |
+| 27 | `docs/01-svyazi/01-executive-summary.md` | **25.64** | 621 | Svyazi, agent, rag, CardIndex, AgentFS |
+| 28 | `docs/01-svyazi/03-component-catalog.md` | **25.47** | 1316 | memory, MIT, Svyazi, rag, agent |
+| 29 | `docs/04-ai-collaborations/01-executive-summary.md` | **24.59** | 523 | Svyazi, agent, rag, CardIndex, AgentFS |
+| 30 | `docs/ACTION_ITEMS.md` | **23.28** | 5857 | MIT, agent, Svyazi, MVP, memory |
+| 31 | `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` | **22.2** | 11194 | agent, MIT, rag, CardIndex, memory |
+| 32 | `docs/COMPONENT_MATRIX.md` | **19.78** | 873 | agent, MIT, memory, CardIndex, AgentFS |
+| 33 | `docs/ENTITIES.md` | **19.55** | 812 | Svyazi, AI Factory, agent, CardIndex, AgentFS |
+| 34 | `docs/READING_ORDER.md` | **19.52** | 6057 | agent, Svyazi, security, MVP, memory |
+| 35 | `docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` | **19.12** | 806 | agent, Svyazi, knowledge-space, CardIndex, AgentFS |
+| 36 | `docs/CODE_BLOCKS.md` | **18.93** | 3992 | Svyazi, rag, agent, локальн, memory |
+| 37 | `docs/DECISIONS.md` | **18.9** | 1832 | agent, MIT, AgentFS, Svyazi, MVP |
+| 38 | `docs/04-ai-collaborations/07-выводы.md` | **18.02** | 357 | Svyazi, rag, CardIndex, AgentFS, Yodoca |
+| 39 | `docs/01-svyazi/13-contacts.md` | **18.01** | 738 | agent, knowledge-space, CardIndex, AgentFS, Svyazi |
+| 40 | `docs/VALIDATION.md` | **17.94** | 409 | Svyazi, security, MVP, roadmap, memory |
+| 41 | `docs/01-svyazi/08-conclusions.md` | **16.98** | 301 | Svyazi, rag, CardIndex, AgentFS, Yodoca |
+| 42 | `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` | **16.74** | 804 | Svyazi, memory, локальн, agent, security |
+| 43 | `docs/02-anthropic-vacancies/165-closing.md` | **16.65** | 9220 | agent, MIT, локальн, evidence, Svyazi |
+| 44 | `docs/SITEMAP.md` | **16.51** | 1522 | Svyazi, memory, MVP, Yodoca, security |
+| 45 | `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` | **15.51** | 716 | Svyazi, memory, evidence, roadmap, MVP |
+| 46 | `docs/01-svyazi/14-limitations.md` | **15.21** | 549 | Svyazi, memory, Rufler, roadmap, evidence |
+| 47 | `docs/02-anthropic-vacancies/00-intro.md` | **15.07** | 8853 | rag, agent, security, MIT, MVP |
+| 48 | `docs/01-svyazi/06-security-privacy.md` | **14.98** | 740 | memory, Svyazi, локальн, agent, SENTINEL |
+| 49 | `docs/DENSITY.md` | **14.72** | 726 | Svyazi, CardIndex, AgentFS, MVP, Yodoca |
+| 50 | `docs/RISK_REGISTER.md` | **14.66** | 914 | agent, AgentFS, Svyazi, security, CardIndex |
 
 ## Топ-5 по каждому разделу
 
@@ -87,72 +71,108 @@
 
 | Файл | Score |
 |------|-------|
-| `docs/01-svyazi/09-architectural-gaps.md` | 21.99 |
-| `docs/01-svyazi/04-ensembles-overview.md` | 21.6 |
-| `docs/01-svyazi/11-integration-contracts.md` | 20.97 |
-| `docs/01-svyazi/01-executive-summary.md` | 20.77 |
-| `docs/01-svyazi/07-mvp-planning.md` | 20.26 |
+| `docs/01-svyazi/09-architectural-gaps.md` | 30.39 |
+| `docs/01-svyazi/07-mvp-planning.md` | 28.27 |
+| `docs/01-svyazi/04-ensembles-overview.md` | 27.93 |
+| `docs/01-svyazi/11-integration-contracts.md` | 27.73 |
+| `docs/01-svyazi/10-second-order-ensembles.md` | 25.85 |
 
 ### 02-anthropic-vacancies
 
 | Файл | Score |
 |------|-------|
-| `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | 63.48 |
-| `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | 51.66 |
-| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 39.81 |
-| `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` | 22.27 |
-| `docs/02-anthropic-vacancies/165-closing.md` | 15.82 |
+| `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | 63.8 |
+| `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | 53.24 |
+| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 40.0 |
+| `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` | 22.2 |
+| `docs/02-anthropic-vacancies/165-closing.md` | 16.65 |
 
 ### 03-technology-combinations
 
 | Файл | Score |
 |------|-------|
-| `docs/03-technology-combinations/05-benchmarks.md` | 7.38 |
-| `docs/03-technology-combinations/03-local-first.md` | 6.68 |
-| `docs/03-technology-combinations/02-knowledge-graphs.md` | 5.06 |
-| `docs/03-technology-combinations/04-sozialrecht-domain.md` | 4.26 |
-| `docs/03-technology-combinations/01-agent-routing.md` | 1.13 |
+| `docs/03-technology-combinations/05-benchmarks.md` | 8.79 |
+| `docs/03-technology-combinations/03-local-first.md` | 7.25 |
+| `docs/03-technology-combinations/02-knowledge-graphs.md` | 5.95 |
+| `docs/03-technology-combinations/04-sozialrecht-domain.md` | 4.13 |
+| `docs/03-technology-combinations/01-agent-routing.md` | 1.85 |
 
 ### 04-ai-collaborations
 
 | Файл | Score |
 |------|-------|
-| `docs/04-ai-collaborations/00-intro.md` | 52.49 |
-| `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | 50.07 |
-| `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 21.87 |
-| `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | 21.82 |
-| `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` | 21.6 |
+| `docs/04-ai-collaborations/00-intro.md` | 57.42 |
+| `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | 56.76 |
+| `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 29.44 |
+| `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | 28.93 |
+| `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | 28.71 |
 
 ### 05-habr-projects
 
 | Файл | Score |
 |------|-------|
-| `docs/05-habr-projects/02-collaboration-partners.md` | 1.23 |
-| `docs/05-habr-projects/01-synthesis.md` | 0.23 |
+| `docs/05-habr-projects/02-collaboration-partners.md` | 3.73 |
+| `docs/05-habr-projects/01-synthesis.md` | 1.22 |
+
+### autofilled
+
+| Файл | Score |
+|------|-------|
+| `docs/autofilled/research-summary.md` | 0.0 |
+
+### components
+
+| Файл | Score |
+|------|-------|
+| `docs/autofilled/components/svyazi.md` | 3.3 |
+| `docs/autofilled/components/.md` | 2.47 |
+| `docs/autofilled/components/lorenzo.md` | 2.47 |
+| `docs/autofilled/components/cowork.md` | 2.47 |
+| `docs/autofilled/components/spbmolot.md` | 2.47 |
+
+### contacts
+
+| Файл | Score |
+|------|-------|
+| `docs/contacts/andrey-chuyan.md` | 9.02 |
+| `docs/contacts/kksudo.md` | 7.64 |
+| `docs/contacts/anastasiyaw.md` | 7.59 |
+| `docs/contacts/tagir-analyzes.md` | 6.45 |
+| `docs/contacts/spbmolot.md` | 6.26 |
+
+### docs
+
+| Файл | Score |
+|------|-------|
+| `docs/TABLES.md` | 132.3 |
+| `docs/CONTRADICTIONS.md` | 70.92 |
+| `docs/CONCEPTS.md` | 54.13 |
+| `docs/NARRATIVE.md` | 49.9 |
+| `docs/NAMED_ENTITIES.md` | 40.47 |
 
 ### knowledge
 
 | Файл | Score |
 |------|-------|
-| `docs/05-habr-projects/knowledge/wikontic.md` | 0.0 |
+| `docs/05-habr-projects/knowledge/wikontic.md` | 2.1 |
 
 ### memory
 
 | Файл | Score |
 |------|-------|
-| `docs/05-habr-projects/memory/memnet.md` | 23.24 |
-| `docs/05-habr-projects/memory/yodoca.md` | 4.71 |
-| `docs/05-habr-projects/memory/ngt-memory.md` | 2.43 |
+| `docs/05-habr-projects/memory/memnet.md` | 28.72 |
+| `docs/05-habr-projects/memory/yodoca.md` | 6.62 |
+| `docs/05-habr-projects/memory/ngt-memory.md` | 4.21 |
 
-<!-- similar-docs -->
+### templates
 
----
-
-**Похожие документы:**
-- [MISSING](docs/MISSING.md) (сходство 0.24)
-- [SEARCH](docs/SEARCH.md) (сходство 0.24)
-- [TAGS](docs/TAGS.md) (сходство 0.24)
-
+| Файл | Score |
+|------|-------|
+| `docs/templates/project-component.md` | 1.84 |
+| `docs/templates/contact-outreach.md` | 1.2 |
+| `docs/templates/ensemble.md` | 0.59 |
+| `docs/templates/decision-record.md` | 0.0 |
+| `docs/templates/research-note.md` | 0.0 |
 
 <!-- see-also -->
 
@@ -160,7 +180,7 @@
 
 **Смотрите также:**
 - [SITEMAP](docs/SITEMAP.md)
-- [TAGS](docs/TAGS.md)
+- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
 - [SEARCH](docs/SEARCH.md)
-- [MISSING](docs/MISSING.md)
+- [READABILITY](docs/READABILITY.md)
 

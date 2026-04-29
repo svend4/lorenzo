@@ -1,5 +1,14 @@
 # Appendix A: Comparative Table — Five Agent Types
 
+<!-- summary -->
+> - [269-appendix-a-the-six-type-taxonomy-updated](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.31)
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 ## Appendix A: Comparative Table — Five Agent Types
 
 | Property | Type 0: Personal AI Assistant | Type 1: Professional Colleague | Type 2: Institutional | Type 3: Employee | Type 4: Representative |
