@@ -163,6 +163,17 @@ GROUPS = {
         "improve_version_diff.py",
         "improve_topic_model.py",
     ],
+    "textwork": [
+        # Работа с текстом: рубрикация, слияние, сравнение
+        "improve_outline.py",
+        "improve_reclassify.py",
+        "improve_merge_by_topic.py",
+        "improve_compare_docs.py",
+        "improve_subtopic_fill.py",
+        "improve_crosslink_all.py",
+        "improve_source_map.py",
+        "improve_duplicate_across.py",
+    ],
 }
 
 # Скрипты, которые можно пропустить при --fast (медленные)
@@ -180,6 +191,11 @@ SLOW_SCRIPTS = {
     "improve_obsidian.py",       # запись множества файлов
     "improve_confluence.py",     # запись множества файлов
     "improve_benchmark.py",      # запуск всех скриптов
+    "improve_reclassify.py",     # перемещение файлов
+    "improve_merge_by_topic.py", # слияние файлов
+    "improve_duplicate_across.py", # попарное сравнение всех файлов
+    "improve_compare_docs.py",   # может делать batch
+    "improve_external_compare.py", # HTTP-запросы
 }
 
 # Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
@@ -192,7 +208,7 @@ LLM_SCRIPTS = {
 
 GROUP_ORDER = ["structure", "index", "analysis", "extract",
                "quality", "graph", "generate", "reports", "export",
-               "cicd", "analytics"]
+               "cicd", "analytics", "textwork"]
 
 # ---------------------------------------------------------------------------
 # Stage 2: условное выполнение по результату предыдущих скриптов
