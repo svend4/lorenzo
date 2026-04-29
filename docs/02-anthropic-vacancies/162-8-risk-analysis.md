@@ -1,5 +1,10 @@
 # 8. Risk Analysis
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Impact**: High (foundational failure)
 

@@ -1,5 +1,10 @@
 # 6. Ethical Framework
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Representative Agents raise novel ethical questions. We
 

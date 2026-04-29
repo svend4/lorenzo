@@ -1,5 +1,10 @@
 # 4. Proposed Infrastructure
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > OKWF infrastructure consists of six interlocking layers. Each
 

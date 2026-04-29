@@ -1,5 +1,10 @@
 # 4. Ten Domains of Application
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > The Representative Agent pattern applies broadly. We identify
 

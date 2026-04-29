@@ -1,5 +1,10 @@
 # 4. The Sub-Agent Registry
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > The infrastructure underlying Composite Skills Agents requires
 

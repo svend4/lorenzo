@@ -1,5 +1,10 @@
 # MemNet: исследовательская память
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > MemNet — «Memory Is All You Need» https://habr.com/ru/articles/983684/ Здесь автор делает то же самое, что NGT Memory из прошлого ответа, но на уровне обучаемой архитектуры, а не приложения. Память — 
 **Проекты:** Svyazi, CardIndex, Hybrid RAG, Yodoca, NGT Memory, MemNet, LiteLLM, Auto AI Router

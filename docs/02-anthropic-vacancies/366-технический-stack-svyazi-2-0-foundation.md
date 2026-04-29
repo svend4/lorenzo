@@ -1,5 +1,10 @@
 # Технический stack (Svyazi 2.0 foundation)
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Lorenzo's architecture builds on верифицированных open-source компонентах:
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse

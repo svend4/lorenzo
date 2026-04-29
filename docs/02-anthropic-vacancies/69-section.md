@@ -1,5 +1,10 @@
 # ⬡
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > *Nautilus Portal Protocol v1.0.0-draft · Reference implementation ·
 

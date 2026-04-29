@@ -1,5 +1,10 @@
 # Appendix A: Glossary
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - **Double-Triangle Architecture**: The topology where each
 

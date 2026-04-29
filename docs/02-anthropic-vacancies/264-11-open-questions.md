@@ -1,5 +1,10 @@
 # 11. Open Questions
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Many questions about Composite Skills Agents remain open.
 

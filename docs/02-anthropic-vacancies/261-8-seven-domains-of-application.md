@@ -1,5 +1,10 @@
 # 8. Seven Domains of Application
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Composite Skills Agents apply naturally to professions where
 

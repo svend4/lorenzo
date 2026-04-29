@@ -1,5 +1,10 @@
 # 15. Security Considerations
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Adapters выполняются внутри Portal-процесса. Portal MUST
 

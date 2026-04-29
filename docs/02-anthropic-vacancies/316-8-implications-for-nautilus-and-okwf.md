@@ -1,5 +1,10 @@
 # 8. Implications for Nautilus and OKWF
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Beyond InGit specifically, this positioning has implications
 

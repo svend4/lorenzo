@@ -1,5 +1,10 @@
 # 2. The Twenty-One Teachers Pattern
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > The metaphor that crystallizes this pattern comes from a story
 

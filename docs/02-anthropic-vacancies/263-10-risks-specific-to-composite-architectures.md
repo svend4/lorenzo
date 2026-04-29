@@ -1,5 +1,10 @@
 # 10. Risks Specific to Composite Architectures
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Composite Skills Agents inherit some risks from Professional
 

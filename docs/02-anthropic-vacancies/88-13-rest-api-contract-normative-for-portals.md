@@ -1,5 +1,10 @@
 # 13. REST API Contract (Normative for Portals)
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > v1.1 делает REST API mandatory частью протокола. Это обеспечивает
 

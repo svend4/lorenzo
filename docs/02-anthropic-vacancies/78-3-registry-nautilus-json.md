@@ -1,5 +1,10 @@
 # 3. Registry (`nautilus.json`)
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Registry — central source of truth о том, какие Repos входят в
 

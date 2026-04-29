@@ -1,5 +1,10 @@
 # 17. Versioning Policy
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - **Major** (v1 → v2): breaking changes в interfaces или schemas
 

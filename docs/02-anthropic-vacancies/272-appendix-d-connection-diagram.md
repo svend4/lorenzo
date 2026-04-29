@@ -1,5 +1,10 @@
 # Appendix D: Connection Diagram
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > The relationship between the seven documents in this series:
 

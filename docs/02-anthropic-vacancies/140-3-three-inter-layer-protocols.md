@@ -1,5 +1,10 @@
 # 3. Three Inter-Layer Protocols
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > The architecture requires three formalized protocols between layers.
 

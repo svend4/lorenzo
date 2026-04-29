@@ -1,5 +1,10 @@
 # 6. Risks Specific to this Category
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Professional Colleague Agents have risks distinct from
 

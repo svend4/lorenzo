@@ -1,5 +1,10 @@
 # Acknowledgments
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > This concept emerged through dialogue across multiple
 

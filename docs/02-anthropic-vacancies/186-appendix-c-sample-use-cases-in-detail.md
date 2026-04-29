@@ -1,5 +1,10 @@
 # Appendix C: Sample Use Cases in Detail
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Mariya is 67, retired three years ago after 35 years
 

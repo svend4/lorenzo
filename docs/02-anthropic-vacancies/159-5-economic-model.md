@@ -1,5 +1,10 @@
 # 5. Economic Model
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > OKWF is not and will not become a for-profit entity. Operational
 

@@ -1,5 +1,10 @@
 # Closing
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > The Open Knowledge Work Foundation is proposed as response
 **Проекты:** Svyazi, CardIndex

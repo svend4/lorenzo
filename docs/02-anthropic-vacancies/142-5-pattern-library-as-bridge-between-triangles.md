@@ -1,5 +1,10 @@
 # 5. Pattern Library as Bridge Between Triangles
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Double-Triangle systems face a fundamental question: how do
 

@@ -1,5 +1,10 @@
 # Appendix C: Quick-Start Architecture for SGB Advocate Colleague
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > For readers interested in concrete architecture for the
 

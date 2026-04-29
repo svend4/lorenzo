@@ -1,5 +1,10 @@
 # 9. Risks and Open Questions
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Several uncertainties merit explicit attention.
 

@@ -1,5 +1,10 @@
 # Appendix B: Change Log
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - **2026-04: v1.0.0-draft** — Initial draft published.
 

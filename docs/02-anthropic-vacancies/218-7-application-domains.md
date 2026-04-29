@@ -1,5 +1,10 @@
 # 7. Application Domains
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > We identify nine professions or sub-professions where
 

@@ -1,5 +1,10 @@
 # 8. Call to Action
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > The Double-Triangle Architecture is a framework awaiting
 

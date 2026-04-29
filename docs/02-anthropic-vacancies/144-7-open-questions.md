@@ -1,5 +1,10 @@
 # 7. Open Questions
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > The Double-Triangle Architecture is proposed as a framework, not
 

@@ -1,5 +1,10 @@
 # Final note: Ты — experiment
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible.
 **Проекты:** Svyazi, CardIndex, mclaude, Rufler

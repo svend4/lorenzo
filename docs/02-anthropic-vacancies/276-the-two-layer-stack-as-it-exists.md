@@ -1,5 +1,10 @@
 # The Two-Layer Stack As It Exists
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Currently, AI-collaborative work tends to occur in one of two
 

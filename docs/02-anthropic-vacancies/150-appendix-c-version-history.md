@@ -1,5 +1,10 @@
 # Appendix C: Version History
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Initial consolidating draft. Synthesizes work across PORTAL-PROTOCOL
 

@@ -1,5 +1,10 @@
 # 2. The Double-Triangle Architecture
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > We formalize the architecture using two triangles sharing a common
 
