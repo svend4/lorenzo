@@ -31,14 +31,14 @@
 
 knowledge-space, mclaude закрывает слой «knowledge/orchestration» в архитектуре.
 
-Один конкретный вопрос: Держать operational benchmark/gotcha cards в одной базе с reference cards или от
+Один конкретный вопрос: Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем?
 
 Было бы интересно пообщаться — как лучше связаться?
 ```
 
 ## Открытые вопросы
 
-1. Держать operational benchmark/gotcha cards в одной базе с reference cards или от
+1. Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем?
 2. [Вопрос 2]
 
 ---

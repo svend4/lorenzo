@@ -10,12 +10,14 @@ Stage 3a: скрипт управляет процессом, LLM заполня
 
 Требует: pip install anthropic
 Стоимость: ~$0.001 на файл (claude-haiku-4-5)
-           ~$0.03 для всех ~30 проектных файлов
+           ~$0.011 для всех ~21 проектных файлов
 
 Запуск:
-    python scripts/improve_llm_enrich.py --dry-run    # план без запроса к API
-    python scripts/improve_llm_enrich.py              # реальный запуск
+    python scripts/improve_llm_enrich.py --dry-run
+    python scripts/improve_llm_enrich.py
     python scripts/improve_llm_enrich.py --section 05-habr-projects
+    python scripts/improve_llm_enrich.py --file docs/05-habr-projects/memory/yodoca.md
+    python scripts/improve_llm_enrich.py --force     # перезаписать уже обогащённые
     python scripts/improve_llm_enrich.py --model claude-haiku-4-5-20251001
 """
 import re
@@ -51,6 +53,17 @@ if "--section" in sys.argv:
     idx = sys.argv.index("--section")
     if idx + 1 < len(sys.argv):
         SECTION_FILTER = sys.argv[idx + 1]
+
+# --file: обработать один конкретный файл
+FILE_FILTER: Path | None = None
+if "--file" in sys.argv:
+    idx = sys.argv.index("--file")
+    if idx + 1 < len(sys.argv):
+        fp = Path(sys.argv[idx + 1])
+        FILE_FILTER = fp if fp.is_absolute() else ROOT / fp
+
+# --force: перезаписать уже обогащённые файлы
+FORCE = "--force" in sys.argv
 
 
 # ---------------------------------------------------------------------------
@@ -203,21 +216,30 @@ def main():
     print("🤖 improve_llm_enrich.py — семантическое обогащение через LLM")
     print(f"   Модель: {DEFAULT_MODEL}")
     if DRY_RUN:
-        print("   Режим: dry-run (API не вызывается)\n")
-    else:
-        print()
+        print("   Режим: dry-run (API не вызывается)")
+    if FORCE:
+        print("   Режим: --force (перезаписывает существующие файлы)")
+    if FILE_FILTER:
+        print(f"   Файл: {FILE_FILTER.relative_to(ROOT)}")
+    print()
 
     # Собираем целевые файлы
-    target_sections = SECTIONS if not SECTION_FILTER else [SECTION_FILTER]
-    targets: list[Path] = []
-    for section in target_sections:
-        sec_path = DOCS / section
-        if not sec_path.exists():
-            continue
-        for md in sorted(sec_path.rglob("*.md")):
-            if md.name in ("README.md", "QA.md"):
+    if FILE_FILTER:
+        if not FILE_FILTER.exists():
+            print(f"❌ Файл не найден: {FILE_FILTER}")
+            sys.exit(1)
+        targets = [FILE_FILTER]
+    else:
+        target_sections = SECTIONS if not SECTION_FILTER else [SECTION_FILTER]
+        targets = []
+        for section in target_sections:
+            sec_path = DOCS / section
+            if not sec_path.exists():
                 continue
-            targets.append(md)
+            for md in sorted(sec_path.rglob("*.md")):
+                if md.name in ("README.md", "QA.md"):
+                    continue
+                targets.append(md)
 
     print(f"Файлов для обогащения: {len(targets)}")
 
@@ -253,8 +275,8 @@ def main():
         out_section.mkdir(parents=True, exist_ok=True)
         out_path = out_section / f"{path.stem}-enriched.md"
 
-        if out_path.exists():
-            print(f"  ⏩ {path.stem} — уже обогащён, пропускаем")
+        if out_path.exists() and not FORCE:
+            print(f"  ⏩ {path.stem} — уже обогащён (используйте --force для перезаписи)")
             continue
 
         print(f"  🔄 {path.relative_to(DOCS)}...")

@@ -31,14 +31,14 @@
 
 Svyazi закрывает слой «ingestion/CardIndex» в архитектуре.
 
-Один конкретный вопрос: Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держат
+Один конкретный вопрос: Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы?
 
 Было бы интересно пообщаться — как лучше связаться?
 ```
 
 ## Открытые вопросы
 
-1. Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держат
+1. Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы?
 2. [Вопрос 2]
 
 ---

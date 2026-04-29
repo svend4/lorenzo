@@ -31,14 +31,14 @@
 
 AgentFS закрывает слой «knowledge/filesystem» в архитектуре.
 
-Один конкретный вопрос: Что лучше класть в .agentos, а что выносить в machine-only state вне vault conve
+Один конкретный вопрос: Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions?
 
 Было бы интересно пообщаться — как лучше связаться?
 ```
 
 ## Открытые вопросы
 
-1. Что лучше класть в .agentos, а что выносить в machine-only state вне vault conve
+1. Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions?
 2. [Вопрос 2]
 
 ---

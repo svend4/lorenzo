@@ -31,15 +31,36 @@ TODAY = date.today().isoformat()
 # Парсеры данных из уже сгенерированных файлов
 # ---------------------------------------------------------------------------
 
+def _load_full_questions() -> dict[str, str]:
+    """Читает полные вопросы напрямую из improve_contacts.py через import модуля.
+
+    CONTACTS.md хранит вопросы в таблице — там они обрезаны [:80].
+    Источник правды — FIRST_QUESTIONS в improve_contacts.py.
+    Используем importlib вместо regex-парсинга исходника, чтобы корректно
+    обрабатывать Python-конкатенацию строк через несколько строк.
+    """
+    import importlib.util
+    contacts_script = ROOT / "scripts" / "improve_contacts.py"
+    if not contacts_script.exists():
+        return {}
+    try:
+        spec = importlib.util.spec_from_file_location("_contacts_mod", contacts_script)
+        mod  = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)          # type: ignore[union-attr]
+        return dict(getattr(mod, "FIRST_QUESTIONS", {}))
+    except Exception:
+        return {}
+
+
 def parse_contacts() -> list[dict]:
-    """Читает таблицу авторов из CONTACTS.md."""
+    """Читает таблицу авторов из CONTACTS.md + полные вопросы из improve_contacts.py."""
     path = DOCS / "CONTACTS.md"
     if not path.exists():
         print("  ⚠️  CONTACTS.md не найден — запустите improve_contacts.py")
         return []
 
+    full_questions = _load_full_questions()
     text = path.read_text(encoding="utf-8")
-    # Ищем строки таблицы: | **Author** | Project | Layer | N | Question |
     rows = []
     for line in text.splitlines():
         m = re.match(
@@ -47,16 +68,21 @@ def parse_contacts() -> list[dict]:
             r'\s*([^|]+)\|'                      # Проект
             r'\s*([^|]+)\|'                      # Слой
             r'\s*(\d+)\s*\|'                     # Упоминаний
-            r'\s*(.*?)\s*\|',                    # Вопрос
+            r'\s*(.*?)\s*\|',                    # Вопрос (может быть обрезан)
             line,
         )
         if m and m.group(1).lower() not in ("автор", "---"):
+            author = m.group(1).strip()
+            # Предпочитаем полный вопрос из исходника скрипта
+            question = full_questions.get(author, m.group(5).strip())
+            if question == "—":
+                question = ""
             rows.append({
-                "author":    m.group(1).strip(),
+                "author":    author,
                 "project":   m.group(2).strip(),
                 "layer":     m.group(3).strip(),
                 "mentions":  int(m.group(4)),
-                "question":  m.group(5).strip() if m.group(5).strip() != "—" else "",
+                "question":  question,
             })
     return rows
 
