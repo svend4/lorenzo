@@ -24,18 +24,54 @@ docs/
   HEALTH.md            — балл здоровья репо (75/100)
   METRICS.md           — метрики качества документов (65.7/100)
   SCORING.md           — Go/No-Go (96% → GO)
-  search_index.json    — поисковый индекс (460 документов)
+  search_index.json    — поисковый индекс (483 документа, content+preview)
+  CONTENT_GAPS.md      — темы без документа
+  READING_TIME.md      — время чтения всех файлов
+  TOPIC_MODEL.md       — тематические кластеры (TF-IDF)
+  CITATION_INDEX.md    — индекс внешних URL
+  VERSION_DIFF.md      — семантический diff последних коммитов
+  GITHUB_ISSUES.md     — список задач для GitHub Issues
+  DEPENDABOT.md        — статус зависимостей
+  feed.rss / feed.atom — RSS/Atom фид изменений
+  benchmark.json       — история замеров скриптов
 
 scripts/
-  improve_*.py           — 71 скрипт обработки документов
+  improve_*.py           — 87 скриптов обработки документов (11 групп)
   utils_chunker.py       — утилиты чанкинга для больших текстов
   mcp_server.py          — MCP-сервер с 7 инструментами
-  improve_run_all.py     — оркестратор (--smart, --fast, --group, --changed)
+  improve_run_all.py     — оркестратор (--smart, --fast, --group, --changed, --parallel)
   improve_autofill.py    — заполняет шаблоны из данных других скриптов
   improve_contact_status.py — CLI для обновления статуса контактов
   improve_llm_enrich.py  — Stage 3: LLM-обогащение проектных файлов
   improve_llm_summary.py — Stage 3: каскадная суммаризация → DIGEST.md
   improve_llm_qa.py      — Stage 3: Q&A по базе знаний (поиск + LLM)
+  improve_llm_contact.py — Stage 3: персонализированные сообщения авторам
+  improve_benchmark.py   — замер времени выполнения, история в benchmark.json
+  improve_watch.py       — авто-запуск при изменении файлов (polling)
+
+  # Quality/validation (группа quality)
+  improve_spellcheck.py        — орфография (KNOWN_FIXES + pyspellchecker)
+  improve_readability_v2.py    — индекс читаемости Флеш-Кинкейд для RU
+  improve_content_gaps.py      — темы упомянутые, но без документа
+  improve_link_preview.py      — статус внешних ссылок + title страниц
+
+  # Export formats (группа export)
+  improve_obsidian.py    — YAML frontmatter + [[wikilinks]] для Obsidian
+  improve_epub.py        — EPUB через pandoc (apt install pandoc)
+  improve_rss.py         — RSS/Atom фид из git log
+  improve_confluence.py  — Confluence Wiki Markup
+
+  # CI/CD (группа cicd)
+  improve_github_issues.py — список задач → GitHub Issues (опц. gh CLI)
+  improve_ci_config.py     — .github/workflows/docs.yml
+  improve_pre_commit.py    — .pre-commit-config.yaml
+  improve_dependabot.py    — мониторинг версий + .github/dependabot.yml
+
+  # Analytics (группа analytics)
+  improve_citation_index.py — индекс цитирования внешних URL
+  improve_reading_time.py   — оценка времени чтения (200 сл/мин RU)
+  improve_version_diff.py   — семантический diff между коммитами
+  improve_topic_model.py    — TF-IDF кластеризация без ML-зависимостей
 
 .claude/skills/
   analyze-project.md   — анализ проекта из docs/
@@ -58,10 +94,15 @@ scripts/
 
 ### Запустить все скрипты обработки
 ```bash
-python scripts/improve_run_all.py --smart       # пропускает скрипты с хорошими метриками
-python scripts/improve_run_all.py --fast        # пропускает медленные
-python scripts/improve_run_all.py --group reports  # только отчёты
-python scripts/improve_run_all.py --changed     # только группы для изменённых файлов
+python scripts/improve_run_all.py --smart           # пропускает скрипты с хорошими метриками
+python scripts/improve_run_all.py --fast            # пропускает медленные
+python scripts/improve_run_all.py --group reports   # только отчёты
+python scripts/improve_run_all.py --group quality   # проверка качества
+python scripts/improve_run_all.py --group analytics # тематика + цитирование
+python scripts/improve_run_all.py --group export    # экспорт форматов
+python scripts/improve_run_all.py --group cicd      # CI/CD конфиги
+python scripts/improve_run_all.py --changed         # только группы для изменённых файлов
+python scripts/improve_run_all.py --parallel 4      # параллельное выполнение групп
 ```
 
 ### Работа с контактами
@@ -106,6 +147,40 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 ```
 
 Каждая ступень не заменяет предыдущую, а оркестрирует её.
+
+### Новые инструменты качества
+```bash
+python scripts/improve_spellcheck.py              # орфография
+python scripts/improve_spellcheck.py --fix        # авто-исправление
+python scripts/improve_readability_v2.py          # читаемость (Flesch-Kincaid)
+python scripts/improve_content_gaps.py --min-mentions 3  # пробелы в базе
+python scripts/improve_link_preview.py            # статус ссылок (с кэшем)
+```
+
+### Экспорт
+```bash
+python scripts/improve_obsidian.py                # vault для Obsidian
+python scripts/improve_epub.py --check            # проверить pandoc
+python scripts/improve_epub.py --section 01-svyazi  # EPUB одной секции
+python scripts/improve_rss.py                     # RSS + Atom фид
+python scripts/improve_confluence.py              # Confluence Wiki
+```
+
+### Аналитика
+```bash
+python scripts/improve_topic_model.py --topics 8       # тематическое моделирование
+python scripts/improve_citation_index.py               # индекс URL
+python scripts/improve_reading_time.py                 # время чтения
+python scripts/improve_version_diff.py --last 10       # diff за 10 коммитов
+```
+
+### CI/CD (одноразовая настройка)
+```bash
+python scripts/improve_ci_config.py               # .github/workflows/docs.yml
+python scripts/improve_pre_commit.py --install    # pre-commit хуки
+python scripts/improve_dependabot.py --generate-config  # dependabot.yml
+python scripts/improve_github_issues.py           # список задач
+```
 
 ## Важные предупреждения
 

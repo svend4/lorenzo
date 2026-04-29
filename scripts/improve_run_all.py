@@ -85,6 +85,9 @@ GROUPS = {
         "improve_validate.py",
         "improve_metrics.py",
         "improve_alerts.py",
+        "improve_spellcheck.py",
+        "improve_readability_v2.py",
+        "improve_content_gaps.py",
     ],
     "graph": [
         # Граф и визуализация
@@ -134,6 +137,7 @@ GROUPS = {
         "improve_contact_priority.py",
         "improve_staleness.py",
         "improve_coverage.py",
+        "improve_benchmark.py",
         "improve_report.py",
     ],
     "export": [
@@ -141,6 +145,23 @@ GROUPS = {
         "improve_export_csv.py",
         "improve_export_json.py",
         "improve_export_html.py",
+        "improve_obsidian.py",
+        "improve_rss.py",
+        "improve_confluence.py",
+    ],
+    "cicd": [
+        # CI/CD и автоматизация разработки
+        "improve_github_issues.py",
+        "improve_ci_config.py",
+        "improve_pre_commit.py",
+        "improve_dependabot.py",
+    ],
+    "analytics": [
+        # Глубокая аналитика
+        "improve_citation_index.py",
+        "improve_reading_time.py",
+        "improve_version_diff.py",
+        "improve_topic_model.py",
     ],
 }
 
@@ -153,6 +174,12 @@ SLOW_SCRIPTS = {
     "improve_search_index.py",   # полный индекс
     "improve_word_cloud.py",     # SVG рендеринг
     "improve_digest.py",         # полный обход git
+    "improve_link_preview.py",   # HTTP-запросы к внешним URL
+    "improve_topic_model.py",    # TF-IDF на всех файлах
+    "improve_epub.py",           # pandoc сборка
+    "improve_obsidian.py",       # запись множества файлов
+    "improve_confluence.py",     # запись множества файлов
+    "improve_benchmark.py",      # запуск всех скриптов
 }
 
 # Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
@@ -160,10 +187,12 @@ LLM_SCRIPTS = {
     "improve_llm_enrich.py",
     "improve_llm_summary.py",
     "improve_llm_qa.py",
+    "improve_llm_contact.py",
 }
 
 GROUP_ORDER = ["structure", "index", "analysis", "extract",
-               "quality", "graph", "generate", "reports", "export"]
+               "quality", "graph", "generate", "reports", "export",
+               "cicd", "analytics"]
 
 # ---------------------------------------------------------------------------
 # Stage 2: условное выполнение по результату предыдущих скриптов
