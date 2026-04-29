@@ -95,9 +95,17 @@ GROUPS = {
     "enrich": [
         # Ступень 2-3: шаблоны + LLM (запускать отдельно)
         "improve_autofill.py",        # заполнение шаблонов (без API)
+        "improve_llm_summary.py",     # AI-саммари разделов (с/без API)
         "improve_llm_enrich.py",      # LLM-обогащение stub-файлов
         "improve_llm_qa.py",          # LLM-ответы на открытые вопросы
         "improve_llm_gaps.py",        # LLM-анализ пробелов
+    ],
+    "meta": [
+        # Мета-документы о самом репозитории
+        "improve_tech_radar.py",      # tech radar (ADOPT/TRIAL/ASSESS/HOLD)
+        "improve_onboarding.py",      # руководство для новых участников
+        "improve_dependency_map.py",  # карта зависимостей скриптов→файлов
+        "improve_digest_weekly.py",   # еженедельный дайджест изменений
     ],
 }
 
@@ -116,7 +124,7 @@ SLOW_SCRIPTS = {
 
 GROUP_ORDER = ["structure", "index", "analysis", "extract",
                "quality", "graph", "reports", "export"]
-# "enrich" намеренно не в GROUP_ORDER — запускается отдельно (требует API ключ)
+# "enrich" и "meta" не в GROUP_ORDER — запускаются отдельно
 
 
 def run_script(script: str, dry_run: bool = False) -> tuple[bool, float]:
