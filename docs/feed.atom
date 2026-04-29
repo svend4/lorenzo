@@ -3,8 +3,29 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-04-29T17:51:36+00:00</updated>
+  <updated>2026-04-29T18:35:57+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/a1a300b0ead36a398ae153e31ecb89ba7a451655</id>
+    <title>Merge branch 'main' into claude/organize-monorepo-docs-XI9Aa</title>
+    <link href="https://github.com/svend4/lorenzo/commit/a1a300b0ead36a398ae153e31ecb89ba7a451655"/>
+    <updated>2026-04-29T18:34:37+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>Merge branch 'main' into claude/organize-monorepo-docs-XI9Aa</strong></p><p>Коммит: <code>a1a300b0</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/dc593910a8008b4ef7a326bf2db8e61eb953a791</id>
+    <title>docs: refresh main README + docs-toolkit README/CONTRIBUTING to reflect current state</title>
+    <link href="https://github.com/svend4/lorenzo/commit/dc593910a8008b4ef7a326bf2db8e61eb953a791"/>
+    <updated>2026-04-29T18:22:41+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>docs: refresh main README + docs-toolkit README/CONTRIBUTING to reflect current state</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>dc593910</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/ce9c1b8039803ec331a4fd8303fc91494a3f41e6</id>
+    <title>docs: auto-update metrics [skip ci]</title>
+    <link href="https://github.com/svend4/lorenzo/commit/ce9c1b8039803ec331a4fd8303fc91494a3f41e6"/>
+    <updated>2026-04-29T17:51:38+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>docs: auto-update metrics [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STATS.md">docs/STATS.md</a></li></ul><p>Коммит: <code>ce9c1b80</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/2a263a3f1ba47c628ac625060c1acd7b1c775b04</id>
     <title>Merge pull request #15 from svend4/claude/organize-monorepo-docs-XI9Aa</title>
@@ -123,26 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/7c83cefc23f0fd01b869a7a530b97e321ed3d608"/>
     <updated>2026-04-29T16:17:14+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: синхронизировать docs после обновления корпуса</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/00-intro-part2.md">docs/01-svyazi/00-intro-part2.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/136-abstract.md">docs/02-anthropic-vacancies/136-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/153-executive-summary.md">docs/02-anthropic-vacancies/153-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/16-history.md">docs/02-anthropic-vacancies/16-history.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/168-abstract.md">docs/02-anthropic-vacancies/168-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/18-6-adapter-interface.md">docs/02-anthropic-vacancies/18-6-adapter-interface.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md">docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/210-abstract.md">docs/02-anthropic-vacancies/210-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/223-12-closing.md">docs/02-anthropic-vacancies/223-12-closing.md</a></li></ul><p>Коммит: <code>7c83cefc</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/e335cb8fca2369cb7b7904f1eebc104d6964b99d</id>
-    <title>chore: обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов)</title>
-    <link href="https://github.com/svend4/lorenzo/commit/e335cb8fca2369cb7b7904f1eebc104d6964b99d"/>
-    <updated>2026-04-29T16:10:59+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>chore: обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KNOWLEDGE_MAP.md">docs/KNOWLEDGE_MAP.md</a></li></ul><p>Коммит: <code>e335cb8f</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/7d1a69d254cfa2f694ca7d1d3a5c2dc6b43ce8d0</id>
-    <title>chore: regenerate auto-feeds after Sprint 42-44</title>
-    <link href="https://github.com/svend4/lorenzo/commit/7d1a69d254cfa2f694ca7d1d3a5c2dc6b43ce8d0"/>
-    <updated>2026-04-29T16:10:32+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 42-44</strong></p><p>Коммит: <code>7d1a69d2</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/89c8f56f5c4259087564b773da1092e039b345d2</id>
-    <title>Merge remote-tracking branch 'origin/claude/organize-monorepo-docs-VmctA' into claude/organize-monorepo-docs-VmctA</title>
-    <link href="https://github.com/svend4/lorenzo/commit/89c8f56f5c4259087564b773da1092e039b345d2"/>
-    <updated>2026-04-29T16:01:57+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>Merge remote-tracking branch 'origin/claude/organize-monorepo-docs-VmctA' into claude/organize-monorepo-docs-VmctA</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md">docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/136-abstract.md">docs/02-anthropic-vacancies/136-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/176-7-governance-and-oversight.md">docs/02-anthropic-vacancies/176-7-governance-and-oversight.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/179-10-open-questions.md">docs/02-anthropic-vacancies/179-10-open-questions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/18-6-adapter-interface.md">docs/02-anthropic-vacancies/18-6-adapter-interface.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/221-10-open-questions.md">docs/02-anthropic-vacancies/221-10-open-questions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/223-12-closing.md">docs/02-anthropic-vacancies/223-12-closing.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md">docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/265-12-call-for-collaboration.md">docs/02-anthropic-vacancies/265-12-call-for-collaboration.md</a></li></ul><p>Коммит: <code>89c8f56f</code></p>]]></content>
   </entry>
 </feed>
