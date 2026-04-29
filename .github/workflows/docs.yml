@@ -1,5 +1,5 @@
 # Автоматически создан improve_ci_config.py
-# Обновляет метрики и индексы после push в main/master
+# Обновляет только безопасные индексы — НЕ запускает скрипты изменяющие контент
 name: docs-update
 
 on:
@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # нужен для git log в staleness/rss
+          fetch-depth: 0  # нужен для git log в rss/version_diff
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,11 +33,13 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
 
       - name: Install dependencies
-        run: |
-          pip install --quiet anthropic || true
+        run: pip install --quiet anthropic || true
 
-      - name: Run fast scripts
-        run: python scripts/improve_run_all.py --fast --group reports
+      # ВАЖНО: запускаем только скрипты которые НЕ изменяют контентные файлы.
+      # Скрипты типа improve_summaries / improve_readmes / improve_qa / improve_similar
+      # должны запускаться ТОЛЬКО вручную — они зависят от предварительно
+      # сгенерированных индексов и при запуске на чистом CI перезаписывают
+      # более богатый авто-генерированный контент заглушками.
 
       - name: Update search index
         run: python scripts/improve_search_index.py
@@ -45,10 +47,18 @@ jobs:
       - name: Generate RSS feed
         run: python scripts/improve_rss.py
 
+      - name: Update health metrics
+        run: python scripts/improve_health.py
+
+      - name: Update stats
+        run: python scripts/improve_stats.py
+
       - name: Commit updated docs
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
+          # Коммитим только конкретные безопасные файлы, не весь docs/
+          git add docs/search_index.json docs/feed.rss docs/feed.atom \
+                  docs/HEALTH.md docs/STATS.md || true
           git diff --staged --quiet || git commit -m "docs: auto-update metrics [skip ci]"
           git push

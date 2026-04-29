@@ -18,6 +18,12 @@ PROJECTS = [
     "Wikontic", "Firecrawl", "Yjs", "Automerge", "Whisper", "Yttri",
 ]
 
+# Маркеры которые означают «уже обработан более богатым скриптом»
+SKIP_MARKERS = (
+    "<!-- summary -->",
+    "<!-- abstract-auto -->",
+    "<!-- textrank-summary -->",
+)
 ALREADY_HAS_SUMMARY = "<!-- summary -->"
 
 
@@ -39,8 +45,8 @@ def extract_annotation(text: str) -> tuple[str, list[str]]:
 def add_summary(path: Path) -> bool:
     text = path.read_text(encoding="utf-8")
 
-    if ALREADY_HAS_SUMMARY in text:
-        return False  # уже обработан
+    if any(marker in text for marker in SKIP_MARKERS):
+        return False  # уже обработан более богатым скриптом
     if len(text) < 150:
         return False  # слишком короткий
 
