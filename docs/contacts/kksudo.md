@@ -1,3 +1,16 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "kksudo"
+author_handle: "@kksudo"
+projects: ["Svyazi", "AgentFS"]
+platform: GitHub
+status: studied
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+---
 # Контакт: kksudo / AgentFS
 
 <!-- summary -->

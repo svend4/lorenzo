@@ -1,194 +1,8 @@
 # Каталог скриптов
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> **словарь аббревиатур и сокращений из docs/.**
-**Проекты:** Svyazi
-
----
-
-<!-- toc -->
-## Содержание
-
-- [По группам](#по-группам)
-  - [analysis (9)](#analysis-9)
-  - [analytics (6)](#analytics-6)
-  - [cicd (4)](#cicd-4)
-  - [content (4)](#content-4)
-  - [deeptext (10)](#deeptext-10)
-  - [export (7)](#export-7)
-  - [extract (9)](#extract-9)
-  - [generate (7)](#generate-7)
-  - [graph (4)](#graph-4)
-  - [index (6)](#index-6)
-  - [nlpplus (10)](#nlpplus-10)
-  - [quality (10)](#quality-10)
-  - [reports (19)](#reports-19)
-  - [structure (6)](#structure-6)
-  - [textwork (8)](#textwork-8)
-  - [без группы (27)](#без-группы-27)
-- [Подробно](#подробно)
-  - [`improve_abbreviations.py` _(группа: extract)_](#improve_abbreviationspy-_группа-extract_)
-  - [`improve_abstract.py` _(группа: content)_](#improve_abstractpy-_группа-content_)
-  - [`improve_action_items.py` _(группа: extract)_](#improve_action_itemspy-_группа-extract_)
-  - [`improve_alerts.py` _(группа: quality)_](#improve_alertspy-_группа-quality_)
-  - [`improve_auto_linker.py` _(группа: content)_](#improve_auto_linkerpy-_группа-content_)
-  - [`improve_auto_toc.py` _(группа: content)_](#improve_auto_tocpy-_группа-content_)
-  - [`improve_autocorrect.py` _(группа: structure)_](#improve_autocorrectpy-_группа-structure_)
-  - [`improve_autofill.py` _(группа: generate)_](#improve_autofillpy-_группа-generate_)
-  - [`improve_backlinks.py` _(группа: index)_](#improve_backlinkspy-_группа-index_)
-  - [`improve_badges.py` _(группа: generate)_](#improve_badgespy-_группа-generate_)
-  - [`improve_benchmark.py` _(группа: reports)_](#improve_benchmarkpy-_группа-reports_)
-  - [`improve_broken_links.py` _(группа: quality)_](#improve_broken_linkspy-_группа-quality_)
-  - [`improve_changelog.py` _(группа: reports)_](#improve_changelogpy-_группа-reports_)
-  - [`improve_changelog_auto.py` _(группа: без группы)_](#improve_changelog_autopy-_группа-без-группы_)
-  - [`improve_chunk_semantic.py` _(группа: deeptext)_](#improve_chunk_semanticpy-_группа-deeptext_)
-  - [`improve_ci_config.py` _(группа: cicd)_](#improve_ci_configpy-_группа-cicd_)
-  - [`improve_citation_index.py` _(группа: analytics)_](#improve_citation_indexpy-_группа-analytics_)
-  - [`improve_clusters.py` _(группа: analysis)_](#improve_clusterspy-_группа-analysis_)
-  - [`improve_compare.py` _(группа: reports)_](#improve_comparepy-_группа-reports_)
-  - [`improve_compare_docs.py` _(группа: textwork)_](#improve_compare_docspy-_группа-textwork_)
-  - [`improve_complexity.py` _(группа: analysis)_](#improve_complexitypy-_группа-analysis_)
-  - [`improve_component_matrix.py` _(группа: без группы)_](#improve_component_matrixpy-_группа-без-группы_)
-  - [`improve_concept_graph.py` _(группа: deeptext)_](#improve_concept_graphpy-_группа-deeptext_)
-  - [`improve_concepts.py` _(группа: extract)_](#improve_conceptspy-_группа-extract_)
-  - [`improve_confluence.py` _(группа: export)_](#improve_confluencepy-_группа-export_)
-  - [`improve_consistency.py` _(группа: quality)_](#improve_consistencypy-_группа-quality_)
-  - [`improve_contact_priority.py` _(группа: reports)_](#improve_contact_prioritypy-_группа-reports_)
-  - [`improve_contact_status.py` _(группа: без группы)_](#improve_contact_statuspy-_группа-без-группы_)
-  - [`improve_contacts.py` _(группа: reports)_](#improve_contactspy-_группа-reports_)
-  - [`improve_content_gaps.py` _(группа: quality)_](#improve_content_gapspy-_группа-quality_)
-  - [`improve_contradiction_check.py` _(группа: deeptext)_](#improve_contradiction_checkpy-_группа-deeptext_)
-  - [`improve_cost.py` _(группа: reports)_](#improve_costpy-_группа-reports_)
-  - [`improve_coverage.py` _(группа: reports)_](#improve_coveragepy-_группа-reports_)
-  - [`improve_cross_section.py` _(группа: analytics)_](#improve_cross_sectionpy-_группа-analytics_)
-  - [`improve_crosslink_all.py` _(группа: textwork)_](#improve_crosslink_allpy-_группа-textwork_)
-  - [`improve_crossrefs.py` _(группа: index)_](#improve_crossrefspy-_группа-index_)
-  - [`improve_decisions.py` _(группа: extract)_](#improve_decisionspy-_группа-extract_)
-  - [`improve_dedup.py` _(группа: analysis)_](#improve_deduppy-_группа-analysis_)
-  - [`improve_density.py` _(группа: analysis)_](#improve_densitypy-_группа-analysis_)
-  - [`improve_dependabot.py` _(группа: cicd)_](#improve_dependabotpy-_группа-cicd_)
-  - [`improve_dependency_map.py` _(группа: без группы)_](#improve_dependency_mappy-_группа-без-группы_)
-  - [`improve_digest.py` _(группа: reports)_](#improve_digestpy-_группа-reports_)
-  - [`improve_digest_auto.py` _(группа: analytics)_](#improve_digest_autopy-_группа-analytics_)
-  - [`improve_digest_weekly.py` _(группа: без группы)_](#improve_digest_weeklypy-_группа-без-группы_)
-  - [`improve_duplicate_across.py` _(группа: textwork)_](#improve_duplicate_acrosspy-_группа-textwork_)
-  - [`improve_empty_sections.py` _(группа: nlpplus)_](#improve_empty_sectionspy-_группа-nlpplus_)
-  - [`improve_entities.py` _(группа: extract)_](#improve_entitiespy-_группа-extract_)
-  - [`improve_epub.py` _(группа: без группы)_](#improve_epubpy-_группа-без-группы_)
-  - [`improve_export_csv.py` _(группа: export)_](#improve_export_csvpy-_группа-export_)
-  - [`improve_export_html.py` _(группа: export)_](#improve_export_htmlpy-_группа-export_)
-  - [`improve_export_json.py` _(группа: export)_](#improve_export_jsonpy-_группа-export_)
-  - [`improve_export_report.py` _(группа: export)_](#improve_export_reportpy-_группа-export_)
-  - [`improve_external_compare.py` _(группа: без группы)_](#improve_external_comparepy-_группа-без-группы_)
-  - [`improve_extract_code.py` _(группа: extract)_](#improve_extract_codepy-_группа-extract_)
-  - [`improve_extract_tables.py` _(группа: extract)_](#improve_extract_tablespy-_группа-extract_)
-  - [`improve_faceted_search.py` _(группа: nlpplus)_](#improve_faceted_searchpy-_группа-nlpplus_)
-  - [`improve_faq.py` _(группа: generate)_](#improve_faqpy-_группа-generate_)
-  - [`improve_footnotes.py` _(группа: generate)_](#improve_footnotespy-_группа-generate_)
-  - [`improve_gap_filler.py` _(группа: content)_](#improve_gap_fillerpy-_группа-content_)
-  - [`improve_github_issues.py` _(группа: cicd)_](#improve_github_issuespy-_группа-cicd_)
-  - [`improve_glossary.py` _(группа: index)_](#improve_glossarypy-_группа-index_)
-  - [`improve_graph.py` _(группа: graph)_](#improve_graphpy-_группа-graph_)
-  - [`improve_heading_audit.py` _(группа: nlpplus)_](#improve_heading_auditpy-_группа-nlpplus_)
-  - [`improve_health.py` _(группа: reports)_](#improve_healthpy-_группа-reports_)
-  - [`improve_heatmap.py` _(группа: analysis)_](#improve_heatmappy-_группа-analysis_)
-  - [`improve_index_master.py` _(группа: без группы)_](#improve_index_masterpy-_группа-без-группы_)
-  - [`improve_index_update.py` _(группа: index)_](#improve_index_updatepy-_группа-index_)
-  - [`improve_keyword_index.py` _(группа: deeptext)_](#improve_keyword_indexpy-_группа-deeptext_)
-  - [`improve_knowledge_map.py` _(группа: nlpplus)_](#improve_knowledge_mappy-_группа-nlpplus_)
-  - [`improve_kpi.py` _(группа: extract)_](#improve_kpipy-_группа-extract_)
-  - [`improve_kpi_snapshot.py` _(группа: без группы)_](#improve_kpi_snapshotpy-_группа-без-группы_)
-  - [`improve_language_split.py` _(группа: nlpplus)_](#improve_language_splitpy-_группа-nlpplus_)
-  - [`improve_link_preview.py` _(группа: без группы)_](#improve_link_previewpy-_группа-без-группы_)
-  - [`improve_llm_contact.py` _(группа: без группы)_](#improve_llm_contactpy-_группа-без-группы_)
-  - [`improve_llm_enrich.py` _(группа: без группы)_](#improve_llm_enrichpy-_группа-без-группы_)
-  - [`improve_llm_gaps.py` _(группа: без группы)_](#improve_llm_gapspy-_группа-без-группы_)
-  - [`improve_llm_qa.py` _(группа: без группы)_](#improve_llm_qapy-_группа-без-группы_)
-  - [`improve_llm_summary.py` _(группа: без группы)_](#improve_llm_summarypy-_группа-без-группы_)
-  - [`improve_mcp_dashboard.py` _(группа: без группы)_](#improve_mcp_dashboardpy-_группа-без-группы_)
-  - [`improve_mcp_test.py` _(группа: без группы)_](#improve_mcp_testpy-_группа-без-группы_)
-  - [`improve_merge_by_topic.py` _(группа: textwork)_](#improve_merge_by_topicpy-_группа-textwork_)
-  - [`improve_merge_short.py` _(группа: structure)_](#improve_merge_shortpy-_группа-structure_)
-  - [`improve_metrics.py` _(группа: quality)_](#improve_metricspy-_группа-quality_)
-  - [`improve_mindmap.py` _(группа: graph)_](#improve_mindmappy-_группа-graph_)
-  - [`improve_missing.py` _(группа: quality)_](#improve_missingpy-_группа-quality_)
-  - [`improve_named_entity_index.py` _(группа: deeptext)_](#improve_named_entity_indexpy-_группа-deeptext_)
-  - [`improve_narrative.py` _(группа: graph)_](#improve_narrativepy-_группа-graph_)
-  - [`improve_network.py` _(группа: graph)_](#improve_networkpy-_группа-graph_)
-  - [`improve_obsidian.py` _(группа: export)_](#improve_obsidianpy-_группа-export_)
-  - [`improve_onboarding.py` _(группа: без группы)_](#improve_onboardingpy-_группа-без-группы_)
-  - [`improve_orphans.py` _(группа: quality)_](#improve_orphanspy-_группа-quality_)
-  - [`improve_outline.py` _(группа: textwork)_](#improve_outlinepy-_группа-textwork_)
-  - [`improve_paragraph_quality.py` _(группа: deeptext)_](#improve_paragraph_qualitypy-_группа-deeptext_)
-  - [`improve_passage_retrieval.py` _(группа: deeptext)_](#improve_passage_retrievalpy-_группа-deeptext_)
-  - [`improve_passive_voice.py` _(группа: nlpplus)_](#improve_passive_voicepy-_группа-nlpplus_)
-  - [`improve_pre_commit.py` _(группа: cicd)_](#improve_pre_commitpy-_группа-cicd_)
-  - [`improve_priorities.py` _(группа: analysis)_](#improve_prioritiespy-_группа-analysis_)
-  - [`improve_progress.py` _(группа: reports)_](#improve_progresspy-_группа-reports_)
-  - [`improve_progress_sync.py` _(группа: reports)_](#improve_progress_syncpy-_группа-reports_)
-  - [`improve_qa.py` _(группа: reports)_](#improve_qapy-_группа-reports_)
-  - [`improve_question_extractor.py` _(группа: nlpplus)_](#improve_question_extractorpy-_группа-nlpplus_)
-  - [`improve_questions.py` _(группа: extract)_](#improve_questionspy-_группа-extract_)
-  - [`improve_readability_v2.py` _(группа: quality)_](#improve_readability_v2py-_группа-quality_)
-  - [`improve_reading_list.py` _(группа: nlpplus)_](#improve_reading_listpy-_группа-nlpplus_)
-  - [`improve_reading_order.py` _(группа: reports)_](#improve_reading_orderpy-_группа-reports_)
-  - [`improve_reading_time.py` _(группа: analytics)_](#improve_reading_timepy-_группа-analytics_)
-  - [`improve_readmes.py` _(группа: structure)_](#improve_readmespy-_группа-structure_)
-  - [`improve_reclassify.py` _(группа: textwork)_](#improve_reclassifypy-_группа-textwork_)
-  - [`improve_report.py` _(группа: reports)_](#improve_reportpy-_группа-reports_)
-  - [`improve_risk_register.py` _(группа: без группы)_](#improve_risk_registerpy-_группа-без-группы_)
-  - [`improve_rss.py` _(группа: export)_](#improve_rsspy-_группа-export_)
-  - [`improve_run_all.py` _(группа: без группы)_](#improve_run_allpy-_группа-без-группы_)
-  - [`improve_schedule.py` _(группа: reports)_](#improve_schedulepy-_группа-reports_)
-  - [`improve_scoring.py` _(группа: reports)_](#improve_scoringpy-_группа-reports_)
-  - [`improve_search_index.py` _(группа: index)_](#improve_search_indexpy-_группа-index_)
-  - [`improve_see_also.py` _(группа: generate)_](#improve_see_alsopy-_группа-generate_)
-  - [`improve_sentiment.py` _(группа: analysis)_](#improve_sentimentpy-_группа-analysis_)
-  - [`improve_similar.py` _(группа: analysis)_](#improve_similarpy-_группа-analysis_)
-  - [`improve_similar_passages.py` _(группа: nlpplus)_](#improve_similar_passagespy-_группа-nlpplus_)
-  - [`improve_sitemap.py` _(группа: reports)_](#improve_sitemappy-_группа-reports_)
-  - [`improve_source_map.py` _(группа: textwork)_](#improve_source_mappy-_группа-textwork_)
-  - [`improve_spellcheck.py` _(группа: quality)_](#improve_spellcheckpy-_группа-quality_)
-  - [`improve_staleness.py` _(группа: reports)_](#improve_stalenesspy-_группа-reports_)
-  - [`improve_stats.py` _(группа: reports)_](#improve_statspy-_группа-reports_)
-  - [`improve_subtopic_fill.py` _(группа: textwork)_](#improve_subtopic_fillpy-_группа-textwork_)
-  - [`improve_summaries.py` _(группа: structure)_](#improve_summariespy-_группа-structure_)
-  - [`improve_tags.py` _(группа: structure)_](#improve_tagspy-_группа-structure_)
-  - [`improve_task_codegen.py` _(группа: без группы)_](#improve_task_codegenpy-_группа-без-группы_)
-  - [`improve_tech_radar.py` _(группа: без группы)_](#improve_tech_radarpy-_группа-без-группы_)
-  - [`improve_template_init.py` _(группа: без группы)_](#improve_template_initpy-_группа-без-группы_)
-  - [`improve_template_migrate.py` _(группа: без группы)_](#improve_template_migratepy-_группа-без-группы_)
-  - [`improve_templates.py` _(группа: generate)_](#improve_templatespy-_группа-generate_)
-  - [`improve_text_segmenter.py` _(группа: deeptext)_](#improve_text_segmenterpy-_группа-deeptext_)
-  - [`improve_textrank.py` _(группа: nlpplus)_](#improve_textrankpy-_группа-nlpplus_)
-  - [`improve_timeline.py` _(группа: index)_](#improve_timelinepy-_группа-index_)
-  - [`improve_timeline_events.py` _(группа: deeptext)_](#improve_timeline_eventspy-_группа-deeptext_)
-  - [`improve_toc.py` _(группа: structure)_](#improve_tocpy-_группа-structure_)
-  - [`improve_topic_model.py` _(группа: analytics)_](#improve_topic_modelpy-_группа-analytics_)
-  - [`improve_validate.py` _(группа: quality)_](#improve_validatepy-_группа-quality_)
-  - [`improve_validate_templates.py` _(группа: без группы)_](#improve_validate_templatespy-_группа-без-группы_)
-  - [`improve_version_diff.py` _(группа: analytics)_](#improve_version_diffpy-_группа-analytics_)
-  - [`improve_vocabulary_richness.py` _(группа: deeptext)_](#improve_vocabulary_richnesspy-_группа-deeptext_)
-  - [`improve_watch.py` _(группа: без группы)_](#improve_watchpy-_группа-без-группы_)
-  - [`improve_watcher.py` _(группа: без группы)_](#improve_watcherpy-_группа-без-группы_)
-  - [`improve_word_cloud.py` _(группа: generate)_](#improve_word_cloudpy-_группа-generate_)
-  - [`improve_word_freq.py` _(группа: analysis)_](#improve_word_freqpy-_группа-analysis_)
-
----
-
-<!-- tags: rag, orchestration, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 _Обновлено: 2026-04-29_
 
-**Всего скриптов:** 146
+**Всего скриптов:** 149
 
 
 ## По группам
@@ -388,7 +202,7 @@ _Обновлено: 2026-04-29_
 | `improve_source_map.py` | строит карту происхождения текстов. | `--authors`, `--format`, `--section`, `--show-imported` |
 | `improve_subtopic_fill.py` | дополняет файлы-заглушки контентом из базы знаний. | `--apply`, `--dry-run`, `--min-words`, `--section` |
 
-### без группы (27)
+### без группы (30)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
@@ -409,7 +223,9 @@ _Обновлено: 2026-04-29_
 | `improve_llm_summary.py` | каскадная суммаризация больших документов через Claude API. | `--dry-run`, `--file`, `--section` |
 | `improve_mcp_dashboard.py` | статистика вызовов MCP-серверов. |  |
 | `improve_mcp_test.py` | smoke-тесты для всех MCP-серверов. |  |
+| `improve_migrate_contacts.py` | миграция docs/contacts/*.md на frontmatter contact-outreach. | `--apply`, `--dry-run` |
 | `improve_onboarding.py` | руководство для новых участников проекта. |  |
+| `improve_registry.py` | единый реестр всех артефактов проекта в docs/REGISTRY.md. |  |
 | `improve_risk_register.py` | реестр рисков проекта Svyazi 2.0. |  |
 | `improve_run_all.py` | мастер-скрипт для запуска всех improve_*.py. | `--changed`, `--dry-run`, `--fast`, `--group`, `--only`, `--parallel`, … |
 | `improve_task_codegen.py` | генератор слоёв (скилл / MCP-tool / index) из манифестов tasks/*.task.yaml. | `--dry-run`, `--list`, `--task`, `--validate` |
@@ -419,6 +235,7 @@ _Обновлено: 2026-04-29_
 | `improve_validate_templates.py` | валидация документов по схемам шаблонов. | `--file`, `--report`, `--section`, `--strict` |
 | `improve_watch.py` | следит за изменениями в docs/ и перезапускает нужные скрипты. | `--changed`, `--fast`, `--group`, `--interval` |
 | `improve_watcher.py` | автономный агент-наблюдатель (Ступень 6). | `--once` |
+| `improve_workflow_run.py` | исполнитель пайплайнов из манифестов tasks/*.task.yaml. | `--dry-run`, `--inputs`, `--list`, `--task` |
 
 ## Подробно
 
@@ -1080,6 +897,15 @@ Stage 3b: map-reduce для документов любого размера. А
 Считает: индекс покрытия, плотность ссылок, насыщенность примерами, баланс разделов, индекс связности. Создаёт docs/METRICS.md.
 
 
+### `improve_migrate_contacts.py` _(группа: без группы)_
+
+**миграция docs/contacts/*.md на frontmatter contact-outreach.**
+
+Парсит существующие контакты (без frontmatter) и добавляет YAML-frontmatter с извлечёнными полями: author, projects, статус, платформа. Использование:
+
+**Флаги:** `--apply`, `--dry-run`
+
+
 ### `improve_mindmap.py` _(группа: graph)_
 
 **строит майндмап всего репозитория в формате Mermaid mindmap.**
@@ -1279,6 +1105,13 @@ README содержит: список файлов, первые строки к
 Алгоритм: 1. TF-IDF по всем файлам секции 2. k-means кластеризация (без numpy: по ключевым словам) 3. Именование кластеров по топ-словам 4. Предложение подпапок + перемещение файлов (с --apply)
 
 **Флаги:** `--apply`, `--dry-run`, `--section`, `--topics`
+
+
+### `improve_registry.py` _(группа: без группы)_
+
+**единый реестр всех артефактов проекта в docs/REGISTRY.md.**
+
+Сводит в одну таблицу: - Скрипты (из docs/SCRIPTS_CATALOG.md) - Шаблоны (из docs/templates/_schemas/) - Скилы (из .claude/skills/) - MCP-серверы (из .claude/mcp.json)
 
 
 ### `improve_report.py` _(группа: reports)_
@@ -1583,13 +1416,11 @@ README содержит: список файлов, первые строки к
 Топ-30 слов в каждом разделе и общий топ-50. Создаёт docs/WORD_FREQ.md.
 
 
-<!-- see-also -->
+### `improve_workflow_run.py` _(группа: без группы)_
 
----
+**исполнитель пайплайнов из манифестов tasks/*.task.yaml.**
 
-**Смотрите также:**
-- [TABLES](docs/TABLES.md)
-- [CHANGELOG](docs/CHANGELOG.md)
-- [SITEMAP](docs/SITEMAP.md)
-- [OUTLINE](docs/OUTLINE.md)
+Превращает декларативный pipeline в реальное исполнение. Поддерживает шаги: - read: <path>           — прочитать файл - read_glob: <pattern>   — прочитать файлы по glob - run_script: <name>     — запустить scripts/<name> - run_template_init: <type>  — создать документ из шаблона
+
+**Флаги:** `--dry-run`, `--inputs`, `--list`, `--task`
 

@@ -1,0 +1,32 @@
+id: compare
+version: 1.0
+description: Сравнение двух документов / разделов / подходов
+
+trigger_phrases:
+  - "сравни"
+  - "в чём разница"
+  - "что общего"
+  - "какой подход лучше"
+
+inputs:
+  a:
+    type: string
+    required: true
+  b:
+    type: string
+    required: true
+
+mcp_server: lorenzo-runner
+mcp_tool: compare
+
+pipeline:
+  - read: "{a}"
+  - read: "{b}"
+  - run_script: "improve_compare_docs.py --a {a} --b {b}"
+  - generate: "Матрица сравнения + рекомендация когда X / когда Y / гибрид"
+
+post_checks: []
+
+related:
+  skills: [compare, search, summarize]
+  templates: []

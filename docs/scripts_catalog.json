@@ -760,6 +760,16 @@
     "group": "quality"
   },
   {
+    "name": "improve_migrate_contacts.py",
+    "summary": "миграция docs/contacts/*.md на frontmatter contact-outreach.",
+    "description": "Парсит существующие контакты (без frontmatter) и добавляет YAML-frontmatter с извлечёнными полями: author, projects, статус, платформа. Использование:",
+    "flags": [
+      "--apply",
+      "--dry-run"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_mindmap.py",
     "summary": "строит майндмап всего репозитория в формате Mermaid mindmap.",
     "description": "Создаёт docs/MINDMAP.md.",
@@ -983,6 +993,13 @@
       "--topics"
     ],
     "group": "textwork"
+  },
+  {
+    "name": "improve_registry.py",
+    "summary": "единый реестр всех артефактов проекта в docs/REGISTRY.md.",
+    "description": "Сводит в одну таблицу: - Скрипты (из docs/SCRIPTS_CATALOG.md) - Шаблоны (из docs/templates/_schemas/) - Скилы (из .claude/skills/) - MCP-серверы (из .claude/mcp.json)",
+    "flags": [],
+    "group": "без группы"
   },
   {
     "name": "improve_report.py",
@@ -1339,5 +1356,17 @@
     "description": "Топ-30 слов в каждом разделе и общий топ-50. Создаёт docs/WORD_FREQ.md.",
     "flags": [],
     "group": "analysis"
+  },
+  {
+    "name": "improve_workflow_run.py",
+    "summary": "исполнитель пайплайнов из манифестов tasks/*.task.yaml.",
+    "description": "Превращает декларативный pipeline в реальное исполнение. Поддерживает шаги: - read: <path>           — прочитать файл - read_glob: <pattern>   — прочитать файлы по glob - run_script: <name>     — запустить scripts/<name> - run_template_init: <type>  — создать документ из шаблона",
+    "flags": [
+      "--dry-run",
+      "--inputs",
+      "--list",
+      "--task"
+    ],
+    "group": "без группы"
   }
 ]

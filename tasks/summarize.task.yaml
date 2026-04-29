@@ -1,0 +1,33 @@
+id: summarize
+version: 1.0
+description: Резюмирование документа, раздела или подборки по теме
+
+trigger_phrases:
+  - "кратко расскажи"
+  - "сделай резюме"
+  - "что в двух словах"
+  - "TL;DR"
+
+inputs:
+  target:
+    type: string
+    required: true
+    description: Файл, раздел или тема
+  level:
+    type: string
+    required: false
+    description: "tldr | brief | detailed"
+
+mcp_server: lorenzo-search
+mcp_tool: summarize
+
+pipeline:
+  - read: docs/SUMMARIES.md
+  - read_glob: "{target}/**/*.md"
+  - generate: "TL;DR + Главные идеи + Ключевые сущности + См. также"
+
+post_checks: []
+
+related:
+  skills: [summarize, search, synthesize]
+  templates: []

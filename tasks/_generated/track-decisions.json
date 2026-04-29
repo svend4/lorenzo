@@ -1,0 +1,43 @@
+{
+  "id": "track-decisions",
+  "version": 1.0,
+  "description": "Отслеживание ADR по теме / в хронологии",
+  "trigger_phrases": [
+    "какие решения по",
+    "история решений",
+    "почему мы выбрали"
+  ],
+  "inputs": {
+    "topic": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "mcp_server": "lorenzo-graph",
+  "mcp_tool": "get_decisions",
+  "pipeline": [
+    {
+      "read": "docs/DECISIONS.md"
+    },
+    {
+      "filter_by_topic": "{topic}"
+    },
+    {
+      "read_glob": "docs/**/ADR-*.md"
+    },
+    {
+      "generate": "Хронологический рассказ: дата → решение → обоснование"
+    }
+  ],
+  "post_checks": [],
+  "related": {
+    "skills": [
+      "track-decisions",
+      "audit-corpus",
+      "find-contradictions"
+    ],
+    "templates": [
+      "decision-record"
+    ]
+  }
+}
