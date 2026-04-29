@@ -1,0 +1,13 @@
+skill: summarize
+cases:
+  - name: structure_complete
+    input: {}
+    expects:
+      mentions: ["TL;DR", "summary", "Связанные"]
+      min_length: 1500
+      required_sections: ["Когда использовать", "Шаги"]
+
+  - name: mentions_levels
+    input: {}
+    expects:
+      mentions: ["TL;DR", "Краткое", "Подробное"]

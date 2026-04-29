@@ -1,0 +1,16 @@
+skill: search
+cases:
+  - name: structure_complete
+    input:
+      query: ""
+    expects:
+      mentions: ["faceted_search", "passage_retrieval", "reading_list"]
+      min_length: 1500
+      max_length: 8000
+      required_sections: ["Когда использовать", "Шаги", "Связанные скилы"]
+
+  - name: no_destructive
+    input:
+      query: ""
+    expects:
+      not_mentions: ["DROP TABLE", "DELETE FROM", "rm -rf /"]

@@ -5,7 +5,7 @@ _Обновлено: 2026-04-29_
 
 ## Превью
 
-- **tests** ![tests](https://img.shields.io/badge/tests-155--passing-brightgreen)
+- **tests** ![tests](https://img.shields.io/badge/tests-175--passing-brightgreen)
 - **templates** ![templates](https://img.shields.io/badge/templates-23-blue)
 - **skills** ![skills](https://img.shields.io/badge/skills-28-blue)
 - **mcp-servers** ![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
@@ -16,7 +16,7 @@ _Обновлено: 2026-04-29_
 
 ## Markdown сниппеты для README
 ```markdown
-![tests](https://img.shields.io/badge/tests-155--passing-brightgreen)
+![tests](https://img.shields.io/badge/tests-175--passing-brightgreen)
 ![templates](https://img.shields.io/badge/templates-23-blue)
 ![skills](https://img.shields.io/badge/skills-28-blue)
 ![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)

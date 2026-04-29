@@ -302,8 +302,214 @@ def main():
     p_plugins_inspect.add_argument("name")
     p_plugins_inspect.set_defaults(func=cmd_plugins_inspect)
 
+    p_index = sub.add_parser("index", help="Управление persistent embeddings cache")
+    p_index_sub = p_index.add_subparsers(dest="index_cmd", required=True)
+
+    p_idx_build = p_index_sub.add_parser("build", help="Построить кэш с нуля")
+    p_idx_build.add_argument("--provider", default="tfidf",
+                              choices=["tfidf", "sentence-transformers"])
+    p_idx_build.add_argument("--model", default="paraphrase-multilingual-MiniLM-L12-v2")
+    p_idx_build.set_defaults(func=cmd_index_build)
+
+    p_idx_update = p_index_sub.add_parser("update", help="Обновить только изменённые файлы")
+    p_idx_update.add_argument("--provider", default="tfidf",
+                               choices=["tfidf", "sentence-transformers"])
+    p_idx_update.set_defaults(func=cmd_index_update)
+
+    p_idx_clear = p_index_sub.add_parser("clear", help="Очистить кэш")
+    p_idx_clear.add_argument("--provider", default=None, help="Если не указан — все")
+    p_idx_clear.set_defaults(func=cmd_index_clear)
+
+    p_idx_stats = p_index_sub.add_parser("stats", help="Статистика кэша")
+    p_idx_stats.set_defaults(func=cmd_index_stats)
+
+    p_skills = sub.add_parser("skills", help="Управление скилами")
+    p_skills_sub = p_skills.add_subparsers(dest="skills_cmd", required=True)
+
+    p_skl_list = p_skills_sub.add_parser("list", help="Список доступных скилов")
+    p_skl_list.set_defaults(func=cmd_skills_list)
+
+    p_skl_test = p_skills_sub.add_parser("test", help="Запустить golden tests для скилов")
+    p_skl_test.add_argument("--skill", default="", help="Фильтр по имени")
+    p_skl_test.add_argument("--golden-dir", default=".claude/skills/_golden",
+                             help="Директория с *.test.yaml")
+    p_skl_test.add_argument("--strict", action="store_true",
+                             help="Exit 1 если есть failed")
+    p_skl_test.set_defaults(func=cmd_skills_test)
+
     args = parser.parse_args()
     return args.func(args)
+
+
+def cmd_skills_list(args):
+    from docstoolkit.skills import list_skills
+    skills = list_skills()
+    print(f"Найдено скилов: {len(skills)}")
+    for name, path in sorted(skills.items()):
+        print(f"  {name:30s} {path}")
+    return 0
+
+
+def cmd_skills_test(args):
+    from docstoolkit.skills import run_golden_tests
+    from docstoolkit.skills.testing import render_results
+
+    cfg = load_config()
+    golden = Path(args.golden_dir)
+    if not golden.is_absolute():
+        golden = cfg.root / golden
+
+    if not golden.exists():
+        print(f"❌ {golden} не существует")
+        return 1
+
+    results = run_golden_tests(golden, skill_filter=args.skill)
+    print(render_results(results))
+
+    failed = sum(1 for r in results if r.status == "fail")
+    if args.strict and failed:
+        return 1
+    return 0
+
+
+def _open_cache():
+    from docstoolkit.embeddings.cache import EmbeddingCache
+    cfg = load_config()
+    cache_dir = cfg.root / ".docstoolkit" / "cache"
+    return EmbeddingCache(cache_dir / "embeddings.sqlite")
+
+
+def _load_index_docs():
+    cfg = load_config()
+    index_path = cfg.docs_dir / "search_index.json"
+    if not index_path.exists():
+        return None, None
+    docs = json.loads(index_path.read_text(encoding="utf-8"))
+    if isinstance(docs, dict):
+        docs = docs.get("docs", [])
+    return cfg, docs
+
+
+def cmd_index_build(args):
+    cfg, docs = _load_index_docs()
+    if not docs:
+        print("❌ search_index.json не найден")
+        return 1
+    cache = _open_cache()
+    cache.invalidate(args.provider)  # очистить старое
+
+    from docstoolkit.embeddings import get_provider
+    if args.provider == "sentence-transformers":
+        try:
+            prov = get_provider("sentence-transformers", model=args.model)
+        except ImportError as e:
+            print(f"❌ {e}")
+            return 1
+        prov_name = "sentence-transformers"
+    else:
+        from docstoolkit.embeddings.tfidf import TFIDFProvider
+        prov = TFIDFProvider(cache=cache)
+        prov_name = "tfidf"
+
+    print(f"Building cache: provider={prov_name}, docs={len(docs)}")
+
+    if prov_name == "tfidf":
+        prov.fit([d.get("content", "") + " " + d.get("title", "") for d in docs], force=True)
+        print(f"  ✓ IDF saved ({len(prov._idf)} tokens)")
+
+    # Vectorize each doc
+    import time
+    t0 = time.time()
+    n_saved = 0
+    for d in docs:
+        text = d.get("content", "") + " " + d.get("title", "")
+        if not text.strip():
+            continue
+        doc_id = d.get("path", d.get("id", ""))
+        if not doc_id:
+            continue
+        vec = prov.encode([text])[0]
+        cache.save_vector(prov_name, doc_id, text, vec,
+                          dim=len(vec) if isinstance(vec, list) else 0)
+        n_saved += 1
+        if n_saved % 100 == 0:
+            print(f"  {n_saved} vectorized...")
+    duration = time.time() - t0
+    print(f"\n✅ Cached {n_saved} vectors in {duration:.1f}s")
+    print(f"   ({n_saved/duration:.1f} docs/sec)")
+    cache.close()
+    return 0
+
+
+def cmd_index_update(args):
+    """Только новые/изменённые файлы."""
+    cfg, docs = _load_index_docs()
+    if not docs:
+        print("❌ search_index.json не найден")
+        return 1
+    cache = _open_cache()
+    from docstoolkit.embeddings.cache import hash_content
+
+    if args.provider == "sentence-transformers":
+        from docstoolkit.embeddings import get_provider
+        try:
+            prov = get_provider("sentence-transformers")
+        except ImportError as e:
+            print(f"❌ {e}")
+            return 1
+        prov_name = "sentence-transformers"
+    else:
+        from docstoolkit.embeddings.tfidf import TFIDFProvider
+        prov = TFIDFProvider(cache=cache)
+        prov_name = "tfidf"
+
+    skipped = 0
+    updated = 0
+    for d in docs:
+        text = d.get("content", "") + " " + d.get("title", "")
+        if not text.strip():
+            continue
+        doc_id = d.get("path", "")
+        if not doc_id:
+            continue
+        if cache.has_vector(prov_name, doc_id, text):
+            skipped += 1
+            continue
+        vec = prov.encode([text])[0]
+        cache.save_vector(prov_name, doc_id, text, vec,
+                          dim=len(vec) if isinstance(vec, list) else 0)
+        updated += 1
+
+    print(f"✅ {updated} обновлено, {skipped} в кэше уже актуальны")
+    cache.close()
+    return 0
+
+
+def cmd_index_clear(args):
+    cache = _open_cache()
+    if args.provider:
+        cache.invalidate(args.provider)
+        print(f"✓ Кэш '{args.provider}' очищен")
+    else:
+        cache.clear_all()
+        print("✓ Весь кэш очищен")
+    cache.close()
+    return 0
+
+
+def cmd_index_stats(args):
+    cache = _open_cache()
+    stats = cache.stats()
+    print("# Embedding cache stats")
+    print(f"  Размер БД: {stats['db_size_kb']} KB")
+    print(f"  Всего векторов: {stats['total_vectors']}")
+    print(f"  IDF провайдеры: {', '.join(stats['idf_providers']) or '(нет)'}")
+    if stats['per_provider']:
+        print("\n  По провайдерам:")
+        for prov, n in stats['per_provider'].items():
+            print(f"    {prov:30s} {n}")
+    cache.close()
+    return 0
 
 
 def cmd_plugins_list(args):

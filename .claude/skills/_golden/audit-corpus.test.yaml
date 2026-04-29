@@ -1,0 +1,13 @@
+skill: audit-corpus
+cases:
+  - name: structure
+    input: {}
+    expects:
+      mentions: ["HEALTH.md", "CONTRADICTIONS.md", "CONTENT_GAPS.md"]
+      min_length: 1000
+      required_sections: ["Когда использовать", "Шаги"]
+
+  - name: covers_all_dimensions
+    input: {}
+    expects:
+      mentions: ["битых ссылок", "противоречия", "пробелы"]

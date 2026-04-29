@@ -32,12 +32,22 @@ class TFIDFProvider(EmbeddingProvider):
     name = "tfidf"
     dim = 0  # sparse, dim не определена
 
-    def __init__(self):
+    def __init__(self, cache=None):
+        """cache: EmbeddingCache | None — если задан, IDF и vectors кэшируются."""
         self._idf: dict[str, float] = {}
         self._fitted = False
+        self._cache = cache
 
-    def fit(self, corpus: list[str]):
-        """Считает IDF на корпусе."""
+        if self._cache:
+            cached = self._cache.load_idf(self.name)
+            if cached:
+                self._idf, _ = cached
+                self._fitted = True
+
+    def fit(self, corpus: list[str], force: bool = False):
+        """Считает IDF на корпусе. Из кэша если есть, force=True для перерасчёта."""
+        if self._fitted and not force:
+            return
         df: Counter = Counter()
         n_docs = len(corpus)
         for text in corpus:
@@ -49,6 +59,8 @@ class TFIDFProvider(EmbeddingProvider):
             for t, cnt in df.items()
         }
         self._fitted = True
+        if self._cache:
+            self._cache.save_idf(self.name, self._idf, n_docs)
 
     def encode(self, texts: list[str]) -> list[dict[str, float]]:
         """Возвращает sparse-векторы (dict)."""

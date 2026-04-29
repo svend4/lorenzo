@@ -20,3 +20,4 @@ docs/confluence/
 docs-toolkit/dist/
 docs-toolkit/build/
 docs-toolkit/*.egg-info/
+.docstoolkit/
