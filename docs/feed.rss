@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 17:09:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 17:11:33 GMT</lastBuildDate>
+    <item>
+      <title>merge: resolve conflicts with main (regenerate auto-feeds)</title>
+      <link>https://github.com/svend4/lorenzo/commit/ee6904cc6468e5c8e3ea8aa09447834d3f10a3b4</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/ee6904cc6468e5c8e3ea8aa09447834d3f10a3b4</guid>
+      <pubDate>Wed, 29 Apr 2026 17:10:08 GMT</pubDate>
+      <description><![CDATA[<p><strong>merge: resolve conflicts with main (regenerate auto-feeds)</strong></p><p>Коммит: <code>ee6904cc</code></p>]]></description>
+    </item>
     <item>
       <title>chore: regenerate auto-feeds after Sprint 51-53</title>
       <link>https://github.com/svend4/lorenzo/commit/ba2fcac1b165d5bc9311b4e9b1651a62aa22af3f</link>
@@ -77,6 +84,13 @@
       <description><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 27-29</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>40f1222e</code></p>]]></description>
     </item>
     <item>
+      <title>docs: auto-update metrics [skip ci]</title>
+      <link>https://github.com/svend4/lorenzo/commit/bf2aa84555582cab37cd0c33360d359e6df9ad32</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/bf2aa84555582cab37cd0c33360d359e6df9ad32</guid>
+      <pubDate>Wed, 29 Apr 2026 15:16:12 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: auto-update metrics [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STATS.md">docs/STATS.md</a></li></ul><p>Коммит: <code>bf2aa845</code></p>]]></description>
+    </item>
+    <item>
       <title>chore: regenerate SPELLCHECK.md</title>
       <link>https://github.com/svend4/lorenzo/commit/471565f1aafe20259dc347b4343d00eea8ef2904</link>
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/471565f1aafe20259dc347b4343d00eea8ef2904</guid>
@@ -131,20 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/d6279595352b683eee7533864056a6bf71f22214</guid>
       <pubDate>Wed, 29 Apr 2026 15:00:30 GMT</pubDate>
       <description><![CDATA[<p><strong>fix: CI Catalog check — improve_auto_toc respects .docignore</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li></ul><p>Коммит: <code>d6279595</code></p>]]></description>
-    </item>
-    <item>
-      <title>docs: auto-update via improve_run_all [skip ci]</title>
-      <link>https://github.com/svend4/lorenzo/commit/b0ed2c154f8cae1c443ceca922a6af2caa169364</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/b0ed2c154f8cae1c443ceca922a6af2caa169364</guid>
-      <pubDate>Wed, 29 Apr 2026 15:00:47 GMT</pubDate>
-      <description><![CDATA[<p><strong>docs: auto-update via improve_run_all [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/AUTHORS.md">docs/AUTHORS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPLEXITY.md">docs/COMPLEXITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPTS.md">docs/CONCEPTS.md</a></li></ul><p>Коммит: <code>b0ed2c15</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: regenerate auto-exports after Sprint 24-26</title>
-      <link>https://github.com/svend4/lorenzo/commit/6421a1fc26889e84742a849ec9c73f5fbf0e4a52</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/6421a1fc26889e84742a849ec9c73f5fbf0e4a52</guid>
-      <pubDate>Wed, 29 Apr 2026 14:55:58 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 24-26</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>6421a1fc</code></p>]]></description>
     </item>
   </channel>
 </rss>
