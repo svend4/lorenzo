@@ -174,6 +174,21 @@ GROUPS = {
         "improve_source_map.py",
         "improve_duplicate_across.py",
     ],
+    "deeptext": [
+        # Глубокая обработка текста: структура, поиск, NLP-анализ
+        "improve_auto_toc.py",           # оглавление (TOC) в каждый файл
+        "improve_abstract.py",           # структурированный абстракт
+        "improve_paragraph_quality.py",  # метрики качества абзацев
+        "improve_vocabulary_richness.py",# TTR / STTR / lexical density
+        "improve_named_entity_index.py", # именованные сущности → JSON
+        "improve_timeline_events.py",    # события на шкале времени
+        "improve_contradiction_check.py",# поиск противоречивых утверждений
+        "improve_concept_graph.py",      # граф концептов → Mermaid + JSON
+        "improve_keyword_index.py",      # инвертированный индекс слов
+        "improve_passage_retrieval.py",  # BM25-поиск по абзацам
+        "improve_chunk_semantic.py",     # семантические чанки для RAG
+        "improve_text_segmenter.py",     # разбивка больших файлов на части
+    ],
 }
 
 # Скрипты, которые можно пропустить при --fast (медленные)
@@ -196,6 +211,10 @@ SLOW_SCRIPTS = {
     "improve_duplicate_across.py", # попарное сравнение всех файлов
     "improve_compare_docs.py",   # может делать batch
     "improve_external_compare.py", # HTTP-запросы
+    "improve_chunk_semantic.py",   # записывает JSONL для всех файлов
+    "improve_keyword_index.py",    # строит большой JSON-индекс
+    "improve_text_segmenter.py",   # создаёт подпапки с частями
+    "improve_passage_retrieval.py",# строит passages.json
 }
 
 # Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
@@ -208,7 +227,7 @@ LLM_SCRIPTS = {
 
 GROUP_ORDER = ["structure", "index", "analysis", "extract",
                "quality", "graph", "generate", "reports", "export",
-               "cicd", "analytics", "textwork"]
+               "cicd", "analytics", "textwork", "deeptext"]
 
 # ---------------------------------------------------------------------------
 # Stage 2: условное выполнение по результату предыдущих скриптов
