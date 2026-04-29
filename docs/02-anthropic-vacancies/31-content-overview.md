@@ -1,5 +1,14 @@
 # Content Overview
 
+<!-- summary -->
+> ~200 заметок, темы: software engineering, philosophy, music.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 ## Content Overview
 ~200 заметок, темы: software engineering, philosophy, music.
 

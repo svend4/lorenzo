@@ -1,4 +1,6 @@
 # Abstract
+<!-- tags: anthropic -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

@@ -1,4 +1,6 @@
 # Метрики качества документации
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -69,3 +71,13 @@
 - Файлов с оглавлением: **22.4%**
 - Файлов с callout: **27.2%**
 - Средний балл качества: **67.5/100**
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SENTIMENT](docs/SENTIMENT.md) (сходство 0.20)
+- [HEATMAP](docs/HEATMAP.md) (сходство 0.20)
+- [CONSISTENCY](docs/CONSISTENCY.md) (сходство 0.19)
+

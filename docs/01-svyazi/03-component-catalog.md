@@ -1,3 +1,11 @@
+
+<!-- summary -->
+> > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

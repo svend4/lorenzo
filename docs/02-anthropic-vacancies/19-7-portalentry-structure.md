@@ -1,4 +1,6 @@
 # 7. PortalEntry Structure
+<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

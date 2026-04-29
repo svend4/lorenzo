@@ -1,5 +1,13 @@
 # Контакт: spbmolot / NGT Memory
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, NGT Memory
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -52,3 +60,13 @@ NGT Memory закрывает слой «memory» в архитектуре.
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.73)
+- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.72)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.71)
+

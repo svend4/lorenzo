@@ -1,4 +1,6 @@
 # Appendix B: Примеры расхождений и их разрешения
+<!-- tags: architecture, anthropic -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -103,4 +105,14 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 - [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
 - [298-что-этот-документ-не-решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
 - [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ensemble](docs/templates/ensemble.md) (сходство 0.25)
+- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.25)
+- [SENTIMENT](docs/SENTIMENT.md) (сходство 0.21)
 

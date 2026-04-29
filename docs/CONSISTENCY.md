@@ -1,84 +1,85 @@
 # Согласованность терминов
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Согласованность терминов Contents - Детали по файлам(детали-по-файлам) - knowledgespace → должно быть knowledge-space(knowledgespace-должно-быть-knowledge-space) - knowledge space 
-> 🏷️ **Ключевые слова:** `должно`, `knowledge`, `space`, `svyazi`, `memory`, `factory`, `anthropic`, `vacancies`
->
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Детали по файлам](#детали-по-файлам)
-  - [knowledgespace → должно быть knowledge-space](#knowledgespace-должно-быть-[knowledge-space](../docs/01-svyazi/03-component-catalog.md))
-  - [knowledge space → должно быть knowledge-space](#[knowledge-space](../docs/01-svyazi/03-component-catalog.md)-должно-быть-knowledge-space)
-  - [AI-Factory → должно быть AI Factory](#ai-factory-должно-быть-ai-factory)
-  - [NGT-Memory → должно быть NGT Memory](#[ngt](../docs/01-svyazi/01-executive-summary.md)-memory-должно-быть-ngt-memory)
-  - [self-improve → должно быть self-improvement](#self-improve-должно-быть-self-improvement)
-  - [Svyazi-2.0 → должно быть Svyazi 2.0](#[svyazi](../docs/01-svyazi/00-intro-part2.md)-20-должно-быть-svyazi-20)
-- [Как исправить](#как-исправить)
-
-
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledge_space` | 2 |
-| **knowledge-space** | `knowledge-space` | `knowledge space` | 6 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 1 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 5 |
-| **self-improvement** | `self-improvement` | `self-improve` | 48 |
+| **knowledge-space** | `knowledge-space` | `knowledge space` | 8 |
+| **knowledge-space** | `knowledge-space` | `knowledge_space` | 3 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 3 |
+| **AI Factory** | `AI Factory` | `AI-Factory` | 5 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 17 |
+| **self-improvement** | `self-improvement` | `self-improve` | 68 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 5 |
 
-**Всего несогласованных написаний: 66**
+**Всего несогласованных написаний: 113**
 
 
 ## Детали по файлам
 
 
-### `knowledge_space` → должно быть `knowledge-space`
-
-- `docs/GRAPH.md`
-- `docs/MINDMAP.md`
-
 ### `knowledge space` → должно быть `knowledge-space`
 
-- `docs/MINDMAP.md`
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/CONCEPTS.md`
 - `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
-- `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md`
-- _...и ещё 1_
+- _...и ещё 3_
+
+### `knowledge_space` → должно быть `knowledge-space`
+
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/04-ai-collaborations/QA.md`
+
+### `knowledgespace` → должно быть `knowledge-space`
+
+- `docs/CONSISTENCY.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
 
 ### `AI-Factory` → должно быть `AI Factory`
 
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/QA.md`
 - `docs/04-ai-collaborations/00-intro.md`
+- `docs/02-anthropic-vacancies/QA.md`
 
 ### `NGT-Memory` → должно быть `NGT Memory`
 
-- `docs/SEARCH.md`
-- `docs/PRIORITIES.md`
-- `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-- `docs/05-habr-projects/memory/README.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/PARAGRAPH_QUALITY.md`
+- `docs/FAQ.md`
+- _...и ещё 12_
 
 ### `self-improve` → должно быть `self-improvement`
 
-- `docs/TAGS.md`
-- `docs/MISSING.md`
-- `docs/MINDMAP.md`
-- `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-- `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md`
-- _...и ещё 43_
+- `docs/READING_LIST.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/FOOTNOTES.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/CONSISTENCY.md`
+- _...и ещё 63_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
-- `docs/04-ai-collaborations/04-приоритетные-ансамбли.md`
-- `docs/02-anthropic-vacancies/366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation.md`
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
+
+### `Evidence-Envelope` → должно быть `Evidence Envelope`
+
+- `docs/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/01-svyazi/QA.md`
 
 ## Как исправить
 
@@ -86,24 +87,3 @@
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.24)
-- [MISSING](docs/MISSING.md) (сходство 0.16)
-- [TAGS](docs/TAGS.md) (сходство 0.11)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [PRIORITIES](docs/PRIORITIES.md)
-- [MISSING](docs/MISSING.md)
-- [DENSITY](docs/DENSITY.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-

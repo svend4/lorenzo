@@ -1,4 +1,11 @@
 # A Practical Path to Layer B Through Symbiotic Integration
+
+<!-- summary -->
+> - [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md) (сходство 0.27)
+
+---
+
+
 <!-- tags: architecture -->
 
 

@@ -1,5 +1,20 @@
 # 9. Risks and Open Questions
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [9. Risks and Open Questions](#9-risks-and-open-questions)
+  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
+  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
+  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
+  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
+  - [9.5. Author Capacity](#95-author-capacity)
+  - [9.6. Open Questions](#96-open-questions)
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

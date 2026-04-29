@@ -1,5 +1,12 @@
 # ADR: [Название решения]
 
+<!-- summary -->
+> - [Рассмотренные варианты](#рассмотренные-варианты)
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -51,4 +58,14 @@ _Дата: 2026-04-29_
 **Смотрите также:**
 - [ensemble](docs/templates/ensemble.md)
 - [project-component](docs/templates/project-component.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ensemble](docs/templates/ensemble.md) (сходство 0.18)
+- [research-note](docs/templates/research-note.md) (сходство 0.16)
+- [project-component](docs/templates/project-component.md) (сходство 0.14)
 

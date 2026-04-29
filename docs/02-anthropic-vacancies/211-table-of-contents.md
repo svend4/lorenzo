@@ -4,6 +4,8 @@
 > 1. **The Five-Type Typology of Principal-Side Agents**
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

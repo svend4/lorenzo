@@ -1,5 +1,26 @@
 # Сеть проектов и авторов
 
+<!-- summary -->
+> > 🎯 **Проблема:** Сеть проектов и авторов Contents - Топ-20 ко-упоминаемых пар(топ-20-ко-упоминаемых-пар) - Центральность узлов (влиятельность)(центральность-узлов-влиятельность) - Авторы ↔ Проекты(
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Топ-20 ко-упоминаемых пар](#топ-20-ко-упоминаемых-пар)
+- [Центральность узлов (влиятельность)](#центральность-узлов-влиятельность)
+- [Авторы ↔ Проекты](#авторы-проекты)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -86,4 +107,14 @@
 - [GLOSSARY](docs/GLOSSARY.md)
 - [MINDMAP](docs/MINDMAP.md)
 - [GRAPH](docs/GRAPH.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GRAPH](docs/GRAPH.md) (сходство 0.39)
+- [ENTITIES](docs/ENTITIES.md) (сходство 0.39)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.38)
 

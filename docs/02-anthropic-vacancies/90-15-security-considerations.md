@@ -1,4 +1,6 @@
 # 15. Security Considerations
+<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

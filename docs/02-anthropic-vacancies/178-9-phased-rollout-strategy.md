@@ -1,5 +1,20 @@
 # 9. Phased Rollout Strategy
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [9. Phased Rollout Strategy](#9-phased-rollout-strategy)
+  - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1-12)
+  - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-domain-maturation-year-2)
+  - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansion-years-3-4)
+  - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
+  - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
+  - [9.6. Pace Considerations](#96-pace-considerations)
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

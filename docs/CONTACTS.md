@@ -1,5 +1,27 @@
 # Контакты и авторы
 
+<!-- summary -->
+> > 🎯 **Проблема:** Контакты и авторы Contents - Ключевые авторы проектов(ключевые-авторы-проектов) - GitHub репозитории(github-репозитории) - Email адреса(email-адреса) - Шаблон первого сообщения(шаб
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Ключевые авторы проектов](#ключевые-авторы-проектов)
+- [GitHub репозитории](#github-репозитории)
+- [Email адреса](#email-адреса)
+- [Шаблон первого сообщения](#шаблон-первого-сообщения)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -82,3 +104,13 @@
 Если интересно — пришлю одностраничную схему интеграции.
 Если нет — спасибо за публикацию, она уже повлияла на архитектуру.
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md) (сходство 0.31)
+- [ENTITIES](docs/ENTITIES.md) (сходство 0.25)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.23)
+

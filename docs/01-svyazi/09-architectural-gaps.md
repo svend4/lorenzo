@@ -10,7 +10,7 @@
 
 <!-- summary -->
 > После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi[^svyazi] хорошо закрывает ingest и нормализацию; AgentFS[^agentfs] даёт `.agentos` и compile‑to‑runtime политику
-**Проекты:** Svyazi, CardIndex[^cardindex], AgentFS, [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi, CardIndex[^cardindex], AgentFS, [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement -->
@@ -76,4 +76,4 @@
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

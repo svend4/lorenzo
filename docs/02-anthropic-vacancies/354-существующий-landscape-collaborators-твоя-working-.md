@@ -54,3 +54,13 @@
 - [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
 - [ENTITIES](docs/ENTITIES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KEYWORD_INDEX](docs/KEYWORD_INDEX.md) (сходство 0.17)
+- [CONSISTENCY](docs/CONSISTENCY.md) (сходство 0.16)
+- [NETWORK](docs/NETWORK.md) (сходство 0.14)
+

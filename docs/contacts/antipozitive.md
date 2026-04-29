@@ -1,5 +1,13 @@
 # Контакт: Antipozitive / MemNet
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, MemNet
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -50,3 +58,13 @@ MemNet закрывает слой «memory» в архитектуре.
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [nlaik](docs/contacts/nlaik.md) (сходство 0.87)
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.84)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.82)
+

@@ -10,7 +10,7 @@
 
 <!-- summary -->
 > С практической точки зрения следующие письма или комментарии лучше строить не вокруг общей фразы “давайте сделаем Svyazi[^svyazi]‑2.0”, а вокруг **одного конкретного шва**, который автор уже хорошо понимает. У
-**Проекты:** Svyazi, CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge_space], mclaude, AI Factory, Yodoca[^yodoca], NGT[^ngt] Memory
+**Проекты:** Svyazi, CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Yodoca[^yodoca], NGT[^ngt] Memory
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, self-improvement, collaboration -->
@@ -77,4 +77,4 @@
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

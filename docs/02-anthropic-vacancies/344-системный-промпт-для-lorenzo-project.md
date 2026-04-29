@@ -1,5 +1,14 @@
 # СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT
 
+<!-- summary -->
+> - [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md) (сходство 0.20)
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 ## СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT
 markdown
 ```markdown

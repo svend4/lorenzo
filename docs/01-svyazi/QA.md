@@ -1,5 +1,15 @@
 # Q&A: 01-svyazi
 
+<!-- summary -->
+> > 🎯 **Проблема:** Q&A: 01-svyazi Contents - Как реализован forensic RAG^rag с доказуемостью?(как-реализован-forensic-ragrag-с-доказуемостью) - Что такое Evidence Envelope и зачем он нужен?(что-такое
+**Проекты:** Svyazi, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL, LiteLLM, Auto AI Router
+
+---
+<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

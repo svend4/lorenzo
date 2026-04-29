@@ -1,4 +1,6 @@
 # 8. Q6 Space (Normative)
+<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

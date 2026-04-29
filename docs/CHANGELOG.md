@@ -1,5 +1,15 @@
 # CHANGELOG
 
+<!-- summary -->
+> > 🎯 **Проблема:** CHANGELOG Contents - 2026-04-29 (10 коммитов)(2026-04-29-10-коммитов) - 🔧 Обслуживание(обслуживание) - ✨ Новые функции(новые-функции) - ⚡ Улучшения(улучшения) Всего коммитов: 10 Ст
+**Проекты:** Svyazi
+
+---
+<!-- tags: rag, ingestion, roadmap, anthropic -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -54,4 +64,14 @@
 
 **Смотрите также:**
 - [DIGEST](docs/DIGEST.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST](docs/DIGEST.md) (сходство 0.39)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.14)
+- [README](docs/README.md) (сходство 0.14)
 

@@ -1,5 +1,13 @@
 # Контакт: VladSpace / Graph RAG
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, Graph RAG
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -50,3 +58,13 @@ Graph RAG закрывает слой «rag» в архитектуре.
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.88)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.88)
+- [mixaill76](docs/contacts/mixaill76.md) (сходство 0.88)
+

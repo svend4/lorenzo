@@ -1,5 +1,15 @@
 # Health Dashboard
 
+<!-- summary -->
+> - [Общий балл: 75/100 🟡](#общий-балл-75100)
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, anthropic, collaboration -->
+
+
+
+
 <!-- toc-auto -->
 ## Contents
 

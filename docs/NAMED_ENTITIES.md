@@ -1,5 +1,53 @@
 # Индекс именованных сущностей
 
+<!-- summary -->
+> - [anthropic (374 файлов)](#anthropic-374-файлов)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, LiteParse, Yodoca, MemNet, AutoResearch
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [👤 People (17)](#people-17)
+  - [`anthropic` (374 файлов)](#anthropic-374-файлов)
+  - [`claude` (143 файлов)](#claude-143-файлов)
+  - [`svend4` (84 файлов)](#svend4-84-файлов)
+  - [`kksudo` (20 файлов)](#kksudo-20-файлов)
+  - [`spbmolot` (18 файлов)](#spbmolot-18-файлов)
+- [📦 Projects (93)](#projects-93)
+  - [`nautilus` (147 файлов)](#nautilus-147-файлов)
+  - [`GitHub` (118 файлов)](#github-118-файлов)
+  - [`svyazi` (100 файлов)](#svyazi-100-файлов)
+  - [`CardIndex` (60 файлов)](#cardindex-60-файлов)
+  - [`yodoca` (57 файлов)](#yodoca-57-файлов)
+- [⚙️ Tech (28)](#tech-28)
+  - [`mcp` (126 файлов)](#mcp-126-файлов)
+  - [`api` (72 файлов)](#api-72-файлов)
+  - [`llm` (64 файлов)](#llm-64-файлов)
+  - [`rag` (58 файлов)](#rag-58-файлов)
+  - [`markdown` (52 файлов)](#markdown-52-файлов)
+- [🏢 Orgs (8)](#orgs-8)
+  - [`вк` (115 файлов)](#вк-115-файлов)
+  - [`meta` (83 файлов)](#meta-83-файлов)
+  - [`mail` (31 файлов)](#mail-31-файлов)
+  - [`openai` (19 файлов)](#openai-19-файлов)
+  - [`google` (12 файлов)](#google-12-файлов)
+- [📅 Dates (28)](#dates-28)
+  - [`2026-04` (66 файлов)](#2026-04-66-файлов)
+  - [`2026-04-19` (11 файлов)](#2026-04-19-11-файлов)
+  - [`апрель 2026` (9 файлов)](#апрель-2026-9-файлов)
+  - [`2026-04-26` (9 файлов)](#2026-04-26-9-файлов)
+  - [`2026/04/25` (7 файлов)](#20260425-7-файлов)
+
+---
+
+<!-- tags: memory, rag, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -424,4 +472,14 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md`
 - `docs/LINKS.md`
 - _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.21)
+- [ENTITIES](docs/ENTITIES.md) (сходство 0.20)
+- [SITEMAP](docs/SITEMAP.md) (сходство 0.19)
 

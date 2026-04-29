@@ -1,5 +1,20 @@
 # 12. Onboarding Paths (Normative)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
+  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
+  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
+  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
+  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
+  - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
+  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -127,4 +142,14 @@ python scan_repo.py owner/repo-name
 - [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
 - [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.16)
+- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.16)
+- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.15)
 

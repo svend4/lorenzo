@@ -1,5 +1,27 @@
 # Рекомендуемый порядок чтения
 
+<!-- summary -->
+> > 🎯 **Проблема:** Problem Statement(docs/02-anthropic-vacancies/155-1-problem-statement.md) 534 — 189 🟢 Начало 2.
+**Проекты:** Svyazi, Yodoca, NGT Memory, MemNet, Wikontic
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Маршруты по целям](#маршруты-по-целям)
+  - [🚀 Быстрый старт (30 минут)](#быстрый-старт-30-минут)
+  - [🏗️ Архитектура (2 часа)](#архитектура-2-часа)
+  - [🔬 Полное исследование (1 день)](#полное-исследование-1-день)
+
+---
+
+<!-- tags: memory, security, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

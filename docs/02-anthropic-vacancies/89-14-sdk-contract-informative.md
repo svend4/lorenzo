@@ -1,4 +1,6 @@
 # 14. SDK Contract (Informative)
+<!-- tags: memory, anthropic, collaboration -->
+
 
 <!-- toc-auto -->
 ## Contents

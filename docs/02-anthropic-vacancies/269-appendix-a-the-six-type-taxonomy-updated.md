@@ -1,4 +1,6 @@
 # Appendix A: The Six-Type Taxonomy (Updated)
+<!-- tags: anthropic -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

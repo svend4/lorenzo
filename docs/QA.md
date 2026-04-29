@@ -1,5 +1,15 @@
 # Глобальный Q&A
 
+<!-- summary -->
+> > 🎯 **Проблема:** Глобальный Q&A !TIP Этот документ описывает MVP-подход.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

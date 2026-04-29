@@ -10,7 +10,7 @@
 
 <!-- summary -->
 > Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**.
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
@@ -185,4 +185,4 @@ flowchart LR
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

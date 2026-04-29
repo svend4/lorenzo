@@ -4,6 +4,8 @@
 > **Semantic** — `pro2` смотрит на мир через **структуру значений**.
 
 ---
+<!-- tags: anthropic, collaboration -->
+
 
 
 

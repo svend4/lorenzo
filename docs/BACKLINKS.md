@@ -1,58 +1,62 @@
 # Индекс обратных ссылок
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Индекс обратных ссылок Файлов с входящими ссылками: 405 Топ-30 самых цитируемых документов Документ Входящих ссылок Ссылающиеся файлы --------------------------------------------- 
-> 🔧 **Подход:** Индекс обратных ссылок Файлов с входящими ссылками: 405 Топ-30 самых цитируемых документов Документ Входящих ссылок Ссылающиеся файлы --------------------------------------------- 
-> 🏷️ **Ключевые слова:** `readme`, `ensembles`, `ссылок`, `входящих`, `svyazi`, `индекс`, `обратных`, `файлов`
->
-
-
-**Файлов с входящими ссылками:** 405
+**Файлов с входящими ссылками:** 504
 
 ## Топ-30 самых цитируемых документов
 
 | Документ | Входящих ссылок | Ссылающиеся файлы |
 |----------|----------------|-------------------|
-| `07-mvp-planning` | 1 | `README.md` |
-| `02-methodology` | 1 | `README.md` |
-| `08-conclusions` | 1 | `README.md` |
-| `03-component-catalog` | 1 | `README.md` |
-| `11-integration-contracts` | 1 | `README.md` |
-| `01-executive-summary` | 1 | `README.md` |
-| `12-roadmap` | 1 | `README.md` |
-| `ensembles` | 1 | `README.md` |
-| `13-contacts` | 1 | `README.md` |
-| `14-limitations` | 1 | `README.md` |
-| `06-security-privacy` | 1 | `README.md` |
+| `00-intro-part2` | 17 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CODE_BLOCKS.md` +13 |
+| `03-component-catalog` | 14 | `README.md`, `ACTION_ITEMS.md`, `ALERTS.md`, `BROKEN_LINKS.md` +10 |
+| `memnet` | 12 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CODE_BLOCKS.md` +8 |
+| `249-composite-skills-agent-md` | 8 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CONCEPTS.md` +4 |
+| `01-интегральный-анализ-профиля-sven` | 7 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CODE_BLOCKS.md` +3 |
+| `01-executive-summary` | 6 | `README.md`, `CONCEPTS.md`, `DECISIONS.md`, `QA.md` +2 |
+| `306-with-anthropic-s-cowork-platfor` | 6 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CODE_BLOCKS.md` +2 |
+| `HEALTH` | 3 | `PROGRESS.md`, `README.md`, `REPORT.md` |
+| `CONTACTS` | 3 | `PROGRESS.md`, `README.md`, `REPORT.md` |
+| `07-mvp-planning` | 2 | `README.md`, `PROGRESS.md` |
+| `02-общий-план-развития-nautilus-por` | 2 | `README.md`, `CODE_BLOCKS.md` |
+| `141-4-nautilus-portal-as-reference-` | 2 | `README.md`, `CONCEPTS.md` |
+| `spbmolot` | 2 | `CONTACT_PRIORITY.md`, `README.md` |
+| `anastasiyaw` | 2 | `CONTACT_PRIORITY.md`, `README.md` |
+| `kksudo` | 2 | `CONTACT_PRIORITY.md`, `README.md` |
+| `SCORING` | 2 | `PROGRESS.md`, `README.md` |
+| `SIMILAR` | 2 | `README.md`, `REPORT.md` |
+| `READING_ORDER` | 2 | `README.md`, `REPORT.md` |
+| `VALIDATION` | 2 | `README.md`, `REPORT.md` |
+| `BROKEN_LINKS` | 2 | `README.md`, `REPORT.md` |
+| `SITEMAP` | 2 | `README.md`, `REPORT.md` |
+| `KPI` | 2 | `README.md`, `REPORT.md` |
+| `NARRATIVE` | 2 | `README.md`, `REPORT.md` |
+| `DECISIONS` | 2 | `README.md`, `REPORT.md` |
+| `QUESTIONS` | 2 | `README.md`, `REPORT.md` |
 | `09-architectural-gaps` | 1 | `README.md` |
+| `11-integration-contracts` | 1 | `README.md` |
+| `QA` | 1 | `README.md` |
 | `10-second-order-ensembles` | 1 | `README.md` |
-| `04-ensembles-overview` | 1 | `README.md` |
-| `00-intro-part2` | 1 | `README.md` |
-| `196-6-этическая-рамка` | 1 | `README.md` |
-| `292-что-отсутствует-слой-b` | 1 | `README.md` |
-| `347-твоя-миссия` | 1 | `README.md` |
-| `142-5-pattern-library-as-bridge-bet` | 1 | `README.md` |
-| `202-12-заключение` | 1 | `README.md` |
-| `136-abstract` | 1 | `README.md` |
-| `163-9-call-for-partnership` | 1 | `README.md` |
-| `203-благодарности` | 1 | `README.md` |
-| `05-0-status-of-this-document` | 1 | `README.md` |
-| `60-bridges` | 1 | `README.md` |
-| `201-11-призыв-к-сотрудничеству` | 1 | `README.md` |
-| `116-9-checklist-применения-методоло` | 1 | `README.md` |
-| `366-технический-stack-svyazi-2-0-fo` | 1 | `README.md` |
-| `351-что-ты-можешь-делать` | 1 | `README.md` |
-| `148-appendix-a-glossary` | 1 | `README.md` |
+| `12-roadmap` | 1 | `README.md` |
 
 ## Ссылки по разделам
 
 | Раздел | Входящих | Исходящих |
 |--------|----------|-----------|
-| **01-svyazi** | 15 | 15 |
-| **02-anthropic-vacancies** | 356 | 356 |
-| **03-technology-combinations** | 5 | 5 |
+| **01-svyazi** | 50 | 15 |
+| **02-anthropic-vacancies** | 376 | 356 |
+| **03-technology-combinations** | 6 | 6 |
 | **04-ai-collaborations** | 16 | 16 |
-| **05-habr-projects** | 8 | 8 |
-| **root** | 5 | 5 |
+| **05-habr-projects** | 20 | 9 |
+| **badges** | 0 | 0 |
+| **contacts** | 17 | 14 |
+| **root** | 97 | 166 |
+| **templates** | 5 | 5 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.24)
+- [README](docs/README.md) (сходство 0.22)
+- [README](docs/01-svyazi/README.md) (сходство 0.19)
+

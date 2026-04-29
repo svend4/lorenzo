@@ -1,5 +1,13 @@
 # [Название компонента]
 
+<!-- summary -->
+> - [Ключевые особенности](#ключевые-особенности)
+**Проекты:** Svyazi
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -53,4 +61,14 @@ _Создано: 2026-04-29_
 - [ensemble](docs/templates/ensemble.md)
 - [research-note](docs/templates/research-note.md)
 - [decision-record](docs/templates/decision-record.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [contact-outreach](docs/templates/contact-outreach.md) (сходство 0.26)
+- [ensemble](docs/templates/ensemble.md) (сходство 0.19)
+- [nlaik](docs/contacts/nlaik.md) (сходство 0.18)
 

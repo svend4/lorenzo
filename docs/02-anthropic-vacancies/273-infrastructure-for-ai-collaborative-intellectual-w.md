@@ -1,5 +1,14 @@
 # INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
 
+<!-- summary -->
+> - [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) (сходство 0.25)
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 ## INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
 markdown
 ```markdown

@@ -1,5 +1,73 @@
 # Резюме документов (TextRank)
 
+<!-- summary -->
+> > 🎯 **Проблема:** citeturn21view0turn21view1turn18search1 Комментарии к статье Yodoca и GitHub issues/discussions в repo.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [`docs/01-svyazi/01-executive-summary.md`](#docs01-svyazi01-executive-summarymd)
+- [`docs/01-svyazi/02-methodology.md`](#docs01-svyazi02-methodologymd)
+- [`docs/01-svyazi/03-component-catalog.md`](#docs01-svyazi03-component-catalogmd)
+- [`docs/01-svyazi/04-ensembles-overview.md`](#docs01-svyazi04-ensembles-overviewmd)
+- [`docs/01-svyazi/06-security-privacy.md`](#docs01-svyazi06-security-privacymd)
+- [`docs/01-svyazi/07-mvp-planning.md`](#docs01-svyazi07-mvp-planningmd)
+- [`docs/01-svyazi/08-conclusions.md`](#docs01-svyazi08-conclusionsmd)
+- [`docs/01-svyazi/09-architectural-gaps.md`](#docs01-svyazi09-architectural-gapsmd)
+- [`docs/01-svyazi/10-second-order-ensembles.md`](#docs01-svyazi10-second-order-ensemblesmd)
+- [`docs/01-svyazi/11-integration-contracts.md`](#docs01-svyazi11-integration-contractsmd)
+- [`docs/01-svyazi/12-roadmap.md`](#docs01-svyazi12-roadmapmd)
+- [`docs/01-svyazi/13-contacts.md`](#docs01-svyazi13-contactsmd)
+- [`docs/01-svyazi/14-limitations.md`](#docs01-svyazi14-limitationsmd)
+- [`docs/01-svyazi/README.md`](#docs01-svyazireadmemd)
+- [`docs/02-anthropic-vacancies/00-intro.md`](#docs02-anthropic-vacancies00-intromd)
+- [`docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`](#docs02-anthropic-vacancies01-интегральный-анализ-профиля-svend4md)
+- [`docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`](#docs02-anthropic-vacancies02-общий-план-развития-nautilus-portal-protocolmd)
+- [`docs/02-anthropic-vacancies/06-1-introduction.md`](#docs02-anthropic-vacancies06-1-introductionmd)
+- [`docs/02-anthropic-vacancies/07-2-terminology.md`](#docs02-anthropic-vacancies07-2-terminologymd)
+- [`docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md`](#docs02-anthropic-vacancies08-3-registry-nautilus-jsonmd)
+- [`docs/02-anthropic-vacancies/104-appendix-c-references.md`](#docs02-anthropic-vacancies104-appendix-c-referencesmd)
+- [`docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md`](#docs02-anthropic-vacancies107-1-контекст-и-мотивацияmd)
+- [`docs/02-anthropic-vacancies/108-2-формальный-workflow.md`](#docs02-anthropic-vacancies108-2-формальный-workflowmd)
+- [`docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md`](#docs02-anthropic-vacancies109-3-принципы-консолидации-фаза-cmd)
+- [`docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md`](#docs02-anthropic-vacancies110-вопрос-fallback-ratio-как-критический-или-осмысленmd)
+- [`docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md`](#docs02-anthropic-vacancies112-5-связь-с-существующими-методологиямиmd)
+- [`docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`](#docs02-anthropic-vacancies114-7-реализация-в-проекте-nautilusmd)
+- [`docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md`](#docs02-anthropic-vacancies115-8-ограничения-и-открытые-вопросыmd)
+- [`docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md`](#docs02-anthropic-vacancies116-9-checklist-применения-методологииmd)
+- [`docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md`](#docs02-anthropic-vacancies117-10-конкретный-план-применения-к-текущим-документамmd)
+- [`docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md`](#docs02-anthropic-vacancies119-appendix-b-примеры-расхождений-и-их-разрешенияmd)
+- [`docs/02-anthropic-vacancies/122-глоссарий.md`](#docs02-anthropic-vacancies122-глоссарийmd)
+- [`docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md`](#docs02-anthropic-vacancies124-конфигурация-для-claude-desktopmd)
+- [`docs/02-anthropic-vacancies/130-отладка.md`](#docs02-anthropic-vacancies130-отладкаmd)
+- [`docs/02-anthropic-vacancies/133-обратная-связь.md`](#docs02-anthropic-vacancies133-обратная-связьmd)
+- [`docs/02-anthropic-vacancies/136-abstract.md`](#docs02-anthropic-vacancies136-abstractmd)
+- [`docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md`](#docs02-anthropic-vacancies138-1-why-single-triangle-models-are-incompletemd)
+- [`docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md`](#docs02-anthropic-vacancies139-2-the-double-triangle-architecturemd)
+- [`docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md`](#docs02-anthropic-vacancies140-3-three-inter-layer-protocolsmd)
+- [`docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md`](#docs02-anthropic-vacancies141-4-nautilus-portal-as-reference-substratemd)
+- [`docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`](#docs02-anthropic-vacancies142-5-pattern-library-as-bridge-between-trianglesmd)
+- [`docs/02-anthropic-vacancies/143-6-four-deployment-domains.md`](#docs02-anthropic-vacancies143-6-four-deployment-domainsmd)
+- [`docs/02-anthropic-vacancies/144-7-open-questions.md`](#docs02-anthropic-vacancies144-7-open-questionsmd)
+- [`docs/02-anthropic-vacancies/145-8-call-to-action.md`](#docs02-anthropic-vacancies145-8-call-to-actionmd)
+- [`docs/02-anthropic-vacancies/146-acknowledgments.md`](#docs02-anthropic-vacancies146-acknowledgmentsmd)
+- [`docs/02-anthropic-vacancies/147-references.md`](#docs02-anthropic-vacancies147-referencesmd)
+- [`docs/02-anthropic-vacancies/148-appendix-a-glossary.md`](#docs02-anthropic-vacancies148-appendix-a-glossarymd)
+- [`docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md`](#docs02-anthropic-vacancies149-appendix-b-summary-of-contributionsmd)
+- [`docs/02-anthropic-vacancies/150-appendix-c-version-history.md`](#docs02-anthropic-vacancies150-appendix-c-version-historymd)
+- [`docs/02-anthropic-vacancies/153-executive-summary.md`](#docs02-anthropic-vacancies153-executive-summarymd)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -115,7 +183,7 @@ _08-conclusions_
 
 _09-architectural-gaps_
 
-> Svyazi ^svyazi хорошо закрывает ingest и нормализацию; AgentFS ^agentfs даёт .agentos и compile‑to‑runtime политику Проекты: Svyazi, CardIndex ^cardindex , AgentFS, knowledge-space ^knowledge space , mclaude, AI Factory, Rufler ^rufler , LiteParse --- После первичного обзора видно, что дефицит уже не в наличии компонентов, а в стыках между ними . Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт .agentos и compile‑to‑runtime политику; knowledge-space формирует agent‑readable reference cards; NGT ^ngt Memory и Yodoca ^yodoca решают разные режимы памяти; research-docs/LiteParse и Legal RAG ^rag решают доказуемость; LiteLLM, Auto AI Router и Tool Search — execution plane; SENTINEL ^sentinel и path‑guard практики — безопасность. В‑третьих, нужен memory governance layer , который не даёт ассоциативной памяти записывать предлагаемое как истинное.
+> Svyazi ^svyazi хорошо закрывает ingest и нормализацию; AgentFS ^agentfs даёт .agentos и compile‑to‑runtime политику Проекты: Svyazi, CardIndex ^cardindex , AgentFS, knowledge-space ^knowledge-space , mclaude, AI Factory, Rufler ^rufler , LiteParse --- После первичного обзора видно, что дефицит уже не в наличии компонентов, а в стыках между ними . Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт .agentos и compile‑to‑runtime политику; knowledge-space формирует agent‑readable reference cards; NGT ^ngt Memory и Yodoca ^yodoca решают разные режимы памяти; research-docs/LiteParse и Legal RAG ^rag решают доказуемость; LiteLLM, Auto AI Router и Tool Search — execution plane; SENTINEL ^sentinel и path‑guard практики — безопасность. В‑третьих, нужен memory governance layer , который не даёт ассоциативной памяти записывать предлагаемое как истинное.
 
 ## `docs/01-svyazi/10-second-order-ensembles.md`
 
@@ -368,4 +436,14 @@ _Appendix C: Version History_
 _Executive Summary_
 
 > Existing staffing platforms Deel, Toptal, Upwork, Mercor treat these populations as transactional labor, not as dignified contributors with persistent professional identity. Nautilus Portal Protocol — open technical substrate for federated knowledge work 2. Double-Triangle Architecture — human-AI collaboration pattern preserving individual autonomy 3.
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TABLES](docs/TABLES.md) (сходство 0.17)
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.17)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.17)
 

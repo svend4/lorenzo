@@ -1,4 +1,6 @@
 # 7. Practical First Steps This Month
+<!-- tags: anthropic -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

@@ -1,4 +1,6 @@
 # 5. Configuration: How Principals Build Their Ensembles
+<!-- tags: anthropic -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

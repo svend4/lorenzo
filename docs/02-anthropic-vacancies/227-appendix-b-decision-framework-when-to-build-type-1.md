@@ -1,4 +1,6 @@
 # Appendix B: Decision Framework — When to Build Type 1 First
+<!-- tags: anthropic -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

@@ -1,5 +1,13 @@
 # Контакт: [Имя / Проект]
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -58,4 +66,14 @@ _Создано: 2026-04-29_
 - [project-component](docs/templates/project-component.md)
 - [research-note](docs/templates/research-note.md)
 - [PROGRESS](docs/PROGRESS.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [nlaik](docs/contacts/nlaik.md) (сходство 0.60)
+- [sonia-black](docs/contacts/sonia-black.md) (сходство 0.58)
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.57)
 

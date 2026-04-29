@@ -4,6 +4,8 @@
 > **Структура файла:** [? уточнить — Markdown с YAML frontmatter, чистый JSON,
 
 ---
+<!-- tags: anthropic, collaboration -->
+
 
 
 

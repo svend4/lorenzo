@@ -1,5 +1,13 @@
 # Контакт: andrey_chuyan / Svyazi
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, CardIndex
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -52,3 +60,13 @@ Svyazi закрывает слой «ingestion/CardIndex» в архитекту
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [nlaik](docs/contacts/nlaik.md) (сходство 0.70)
+- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.70)
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.67)
+

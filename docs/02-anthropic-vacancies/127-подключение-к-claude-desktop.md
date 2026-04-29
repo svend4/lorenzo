@@ -1,4 +1,6 @@
 # Подключение к Claude Desktop
+<!-- tags: anthropic -->
+
 
 <!-- toc-auto -->
 ## Contents

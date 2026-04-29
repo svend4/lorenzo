@@ -1,5 +1,14 @@
 # Дайджест изменений
 
+<!-- summary -->
+> > 🎯 **Проблема:** Дайджест изменений Contents - Последний коммит(последний-коммит) - Последние 3 коммита — итого(последние-3-коммита-итого) - Новые документы(новые-документы) - История коммитов (пос
+
+---
+<!-- tags: rag, ingestion, roadmap, anthropic -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -93,4 +102,14 @@ _Обновлено: 2026-04-29_
 - [SITEMAP](docs/SITEMAP.md)
 - [REPORT](docs/REPORT.md)
 - [README](docs/templates/README.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CHANGELOG](docs/CHANGELOG.md) (сходство 0.39)
+- [README](docs/README.md) (сходство 0.27)
+- [REPORT](docs/REPORT.md) (сходство 0.15)
 

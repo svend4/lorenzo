@@ -1,5 +1,14 @@
 # Angle / Perspective
 
+<!-- summary -->
+> С какого угла Repo смотрит на общие концепты
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 ## Angle / Perspective
 С какого угла Repo смотрит на общие концепты 
 (methodological / semantic / symbolic / other).

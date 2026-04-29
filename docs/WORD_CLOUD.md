@@ -1,5 +1,15 @@
 # Word Cloud
 
+<!-- summary -->
+> Визуализация 80 самых частых слов репозитория.
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, anthropic -->
+
+
+
+
 Визуализация 80 самых частых слов репозитория.
 
 ![Word Cloud](WORD_CLOUD.svg)
@@ -28,3 +38,13 @@
 | 18 | **memory** | 591 |
 | 19 | **lorenzo** | 557 |
 | 20 | **claude** | 556 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md) (сходство 0.30)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.20)
+- [304-ingit-as-cowork-native-workspace-substrate-md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) (сходство 0.19)
+

@@ -1,5 +1,15 @@
 # Индекс «Смотрите также»
 
+<!-- summary -->
+> > 🎯 **Проблема:** Индекс «Смотрите также» Файлов с блоком See Also: 814 Ключевые связи - 01-executive-summary → 03-component-catalog, 04-ensembles-overview, 07-mvp-planning - 02-methodology → 02-мет
+**Проекты:** Svyazi, MemNet
+
+---
+<!-- tags: memory, security, ingestion, architecture, roadmap, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -44,3 +54,13 @@
 - **105-review-methodology-md** → `28-appendix-a-minimal-working-example`, `03-portal-protocol-md`, `42-author-contact`, `188-ai-опосредованное-представительство-для-недопредст`
 - **106-tl-dr** → `70-зачем-две-версии-параллельно`, `108-2-формальный-workflow`, `107-1-контекст-и-мотивация`, `105-review-methodology-md`
 - **107-1-контекст-и-мотивация** → `115-8-ограничения-и-открытые-вопросы`, `106-tl-dr`, `108-2-формальный-workflow`, `116-9-checklist-применения-методологии`
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SITEMAP](docs/SITEMAP.md) (сходство 0.37)
+- [VALIDATION](docs/VALIDATION.md) (сходство 0.34)
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.30)
+

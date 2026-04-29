@@ -1,5 +1,14 @@
 # INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md
 
+<!-- summary -->
+> - [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md) (сходство 0.11)
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 ## INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md
 markdown
 ```markdown

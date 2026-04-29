@@ -1,4 +1,6 @@
 # 5. Compatibility Levels
+<!-- tags: memory, ingestion, anthropic, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

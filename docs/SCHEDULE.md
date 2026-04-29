@@ -1,5 +1,15 @@
 # Расписание проекта
 
+<!-- summary -->
+> > 🎯 **Проблема:** Расписание проекта Contents - Ключевые вехи(ключевые-вехи) - Gantt-диаграмма(gantt-диаграмма) - Задачи по фазам(задачи-по-фазам) - Исследование(исследование) - Архитектура(архитект
+**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
+
+---
+<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -74,3 +84,13 @@ _█ = активная работа, ░ = ожидание_
 - Вех выполнено: **3/10** (30%)
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.22)
+- [DENSITY](docs/DENSITY.md) (сходство 0.20)
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md) (сходство 0.18)
+

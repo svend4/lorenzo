@@ -1,5 +1,13 @@
 # Контакт: AnastasiyaW / knowledge-space, mclaude
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, knowledge-space, mclaude
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -52,3 +60,13 @@ knowledge-space, mclaude закрывает слой «knowledge/orchestration»
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [sonia-black](docs/contacts/sonia-black.md) (сходство 0.74)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.67)
+- [cutcode](docs/contacts/cutcode.md) (сходство 0.67)
+

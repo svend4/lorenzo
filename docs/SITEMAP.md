@@ -1,5 +1,30 @@
 # Карта репозитория Lorenzo
 
+<!-- summary -->
+> > 🎯 **Проблема:** Обновлено: 2026-04-29 Всего файлов: 442 Навигация - Мета-документы(мета-документы) - Svyazi 2.0 — Архитектура системы(01-svyazi) - Вакансии Anthropic — 436 позиций(02-anthropic-vac
+**Проекты:** Svyazi, Yodoca, NGT Memory, MemNet, Wikontic
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Навигация](#навигация)
+- [Мета-документы](#мета-документы)
+- [Svyazi 2.0 — Архитектура системы](#svyazi-20-архитектура-системы)
+- [Вакансии Anthropic — 436 позиций](#вакансии-anthropic-436-позиций)
+- [Комбинации технологий](#комбинации-технологий)
+- [AI Коллаборации — ансамбли проектов](#ai-коллаборации-ансамбли-проектов)
+- [Хабр-проекты — память и граф](#хабр-проекты-память-и-граф)
+
+---
+
+<!-- tags: memory, orchestration, security, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -229,4 +254,14 @@ _`docs/05-habr-projects/` — 6 файлов_
 - [SEARCH](docs/SEARCH.md)
 - [PRIORITIES](docs/PRIORITIES.md)
 - [VALIDATION](docs/VALIDATION.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.37)
+- [LANGUAGE_STATS](docs/LANGUAGE_STATS.md) (сходство 0.33)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.32)
 

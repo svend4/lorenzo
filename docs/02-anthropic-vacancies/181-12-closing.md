@@ -1,4 +1,6 @@
 # 12. Closing
+<!-- tags: anthropic -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

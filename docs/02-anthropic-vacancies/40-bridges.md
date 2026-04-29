@@ -1,4 +1,6 @@
 # Bridges
+<!-- tags: memory, anthropic, collaboration -->
+
 
 <!-- toc-auto -->
 ## Contents

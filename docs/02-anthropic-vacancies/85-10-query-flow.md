@@ -1,4 +1,6 @@
 # 10. Query Flow
+<!-- tags: anthropic -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

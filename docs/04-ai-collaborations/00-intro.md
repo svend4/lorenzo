@@ -31,7 +31,7 @@ _Обновлено: 2026-04-29_
 
 <!-- summary -->
 > https://habr.com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект по разработке программного обеспечени
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge_space], AI Factory, Rufler[^rufler], LiteParse, Legal RAG[^rag]
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge-space], AI Factory, Rufler[^rufler], LiteParse, Legal RAG[^rag]
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
@@ -847,7 +847,7 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
 
 [^firecrawl]: Инструмент: веб-краулер для AI (MIT)
 

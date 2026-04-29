@@ -1,5 +1,15 @@
 # Сноски и определения терминов
 
+<!-- summary -->
+> > 🎯 **Проблема:** Сноски и определения терминов Обновлено файлов: 37 Вставлено сносок: 255 Словарь сносок Термин Определение Файлов ----------------------------- AgentFS OSS-проект: файловая система
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -41,3 +51,13 @@
 
 [^mcp]: Model Context Protocol — протокол для AI-инструментов
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GRAPH](docs/GRAPH.md) (сходство 0.21)
+- [08-conclusions](docs/01-svyazi/08-conclusions.md) (сходство 0.21)
+- [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.20)
+

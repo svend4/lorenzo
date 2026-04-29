@@ -1,5 +1,13 @@
 # Контакт: tagir_analyzes / Legal RAG
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, Legal RAG
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -50,3 +58,13 @@ Legal RAG закрывает слой «rag» в архитектуре.
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.88)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.86)
+- [mixaill76](docs/contacts/mixaill76.md) (сходство 0.86)
+

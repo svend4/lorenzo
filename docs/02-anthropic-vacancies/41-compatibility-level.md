@@ -4,6 +4,8 @@
 > **Текущий уровень: 3 (Interactive / Bridged)**
 
 ---
+<!-- tags: anthropic, collaboration -->
+
 
 
 

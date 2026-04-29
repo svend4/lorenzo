@@ -1,5 +1,12 @@
 # [Тема исследования]
 
+<!-- summary -->
+> - [Ключевые находки](#ключевые-находки)
+
+---
+
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -48,4 +55,14 @@ _Создано: 2026-04-29_
 **Смотрите также:**
 - [contact-outreach](docs/templates/contact-outreach.md)
 - [project-component](docs/templates/project-component.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [contact-outreach](docs/templates/contact-outreach.md) (сходство 0.22)
+- [project-component](docs/templates/project-component.md) (сходство 0.17)
+- [decision-record](docs/templates/decision-record.md) (сходство 0.16)
 

@@ -1,4 +1,6 @@
 # 6. Adapter Interface
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

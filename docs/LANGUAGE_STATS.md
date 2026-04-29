@@ -1,5 +1,27 @@
 # Языковой состав документов
 
+<!-- summary -->
+> > 🎯 **Проблема:** Языковой состав документов Contents - Распределение(распределение) - Файлы с неожиданным языком(файлы-с-неожиданным-языком) - Смешанные файлы (MIX)(смешанные-файлы-mix) - По секция
+**Проекты:** Svyazi, Yodoca, MemNet, Wikontic
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Распределение](#распределение)
+- [Файлы с неожиданным языком](#файлы-с-неожиданным-языком)
+- [Смешанные файлы (MIX)](#смешанные-файлы-mix)
+- [По секциям](#по-секциям)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -481,3 +503,13 @@ _Обновлено: 2026-04-29_
 | `contacts` | 0 | 0 | 14 |
 | `root` | 2 | 6 | 54 |
 | `templates` | 0 | 0 | 6 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEARCH](docs/SEARCH.md) (сходство 0.78)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.67)
+- [README](docs/02-anthropic-vacancies/README.md) (сходство 0.61)
+

@@ -1,5 +1,15 @@
 # Карта пробелов знаний
 
+<!-- summary -->
+> > 🎯 **Проблема:** Статус Тема / Проект Файлов Слов Минимум Примеры файлов -------------------------------------------------------------- ⚠️ бюджетный роутинг 6 68 ≥2ф/300сл QA.md, 06-безопасность-пр
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

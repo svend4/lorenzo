@@ -1,345 +1,302 @@
 # Индекс тегов
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** anthropic (79 файлов) - docs/02-anthropic-vacancies/00-intro.md - docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md - docs/02-anthropic-vacancies/02-общий-план-р
-> 🔧 **Подход:** Индекс тегов Contents - anthropic (79 файлов)(anthropic-79-файлов) - architecture (205 файлов)(architecture-205-файлов) - collaboration (155 файлов)(collaboration-155-файлов) - ing
-> ✅ **Результат:** anthropic (79 файлов) - docs/02-anthropic-vacancies/00-intro.md - docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md - docs/02-anthropic-vacancies/02-общий-план-р
-> 🏷️ **Ключевые слова:** `svyazi`, `anthropic`, `vacancies`, `файлов`, `ensembles`, `roadmap`, `security`, `nautilus`
->
-
-
-<!-- toc-auto -->
-## Contents
-
-- [#anthropic (79 файлов)](#anthropic-79-файлов)
-- [#architecture (205 файлов)](#architecture-205-файлов)
-- [#collaboration (155 файлов)](#collaboration-155-файлов)
-- [#ingestion (75 файлов)](#ingestion-75-файлов)
-- [#knowledge (46 файлов)](#knowledge-46-файлов)
-- [#local-first (57 файлов)](#local-first-57-файлов)
-- [#memory (52 файлов)](#memory-52-файлов)
-- [#orchestration (54 файлов)](#orchestration-54-файлов)
-- [#rag (110 файлов)](#rag-110-файлов)
-- [#roadmap (104 файлов)](#roadmap-104-файлов)
-- [#security (39 файлов)](#security-39-файлов)
-- [#self-improvement (45 файлов)](#self-improvement-45-файлов)
-
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 Каждый файл помечен тегами по темам автоматически.
 
 
-## #anthropic (79 файлов)
+## #anthropic (118 файлов)
 
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md`
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
-- `docs/02-anthropic-vacancies/133-обратная-связь.md`
-- `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md`
-- `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md`
-- `docs/02-anthropic-vacancies/146-acknowledgments.md`
-- `docs/02-anthropic-vacancies/147-references.md`
-- `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
-- `docs/02-anthropic-vacancies/153-executive-summary.md`
-- `docs/02-anthropic-vacancies/155-1-problem-statement.md`
-- `docs/02-anthropic-vacancies/156-2-target-populations.md`
-- `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md`
-- `docs/02-anthropic-vacancies/159-5-economic-model.md`
-- `docs/02-anthropic-vacancies/162-8-risk-analysis.md`
-- `docs/02-anthropic-vacancies/163-9-call-for-partnership.md`
-- `docs/02-anthropic-vacancies/164-10-appendices.md`
-- `docs/02-anthropic-vacancies/165-closing.md`
-- `docs/02-anthropic-vacancies/182-acknowledgments.md`
-- _...и ещё 59_
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/04-abstract.md`
+- `docs/02-anthropic-vacancies/09-4-passport-passport-md.md`
+- `docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md`
+- `docs/02-anthropic-vacancies/12-content-overview.md`
+- `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md`
+- `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md`
+- `docs/02-anthropic-vacancies/13-angle-perspective.md`
+- `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md`
+- `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md`
+- `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md`
+- `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md`
+- `docs/02-anthropic-vacancies/17-5-compatibility-levels.md`
+- `docs/02-anthropic-vacancies/18-6-adapter-interface.md`
+- `docs/02-anthropic-vacancies/181-12-closing.md`
+- `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md`
+- `docs/02-anthropic-vacancies/19-7-portalentry-structure.md`
+- `docs/02-anthropic-vacancies/200-10-открытые-вопросы.md`
+- `docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md`
+- `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md`
+- _...и ещё 98_
 
-## #architecture (205 файлов)
+## #architecture (66 файлов)
 
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/02-methodology.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/13-contacts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md`
-- `docs/02-anthropic-vacancies/07-2-terminology.md`
-- `docs/02-anthropic-vacancies/08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json.md`
-- `docs/02-anthropic-vacancies/103-appendix-b-change-log.md`
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
-- _...и ещё 185_
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md`
+- `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md`
+- `docs/02-anthropic-vacancies/18-6-adapter-interface.md`
+- `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md`
+- `docs/02-anthropic-vacancies/19-7-portalentry-structure.md`
+- `docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md`
+- `docs/02-anthropic-vacancies/23-11-security-considerations.md`
+- `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md`
+- `docs/02-anthropic-vacancies/286-acknowledgments.md`
+- `docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md`
+- `docs/02-anthropic-vacancies/83-8-q6-space-normative.md`
+- `docs/02-anthropic-vacancies/90-15-security-considerations.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/ABBREVIATIONS.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/BACKLINKS.md`
+- _...и ещё 46_
 
-## #collaboration (155 файлов)
+## #collaboration (80 файлов)
 
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/02-methodology.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/13-contacts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md`
-- `docs/02-anthropic-vacancies/03-portal-protocol-md.md`
-- `docs/02-anthropic-vacancies/05-0-status-of-this-document.md`
-- `docs/02-anthropic-vacancies/06-1-introduction.md`
-- `docs/02-anthropic-vacancies/07-2-terminology.md`
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
-- `docs/02-anthropic-vacancies/105-review-methodology-md.md`
-- `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md`
-- _...и ещё 135_
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md`
+- `docs/02-anthropic-vacancies/17-5-compatibility-levels.md`
+- `docs/02-anthropic-vacancies/18-6-adapter-interface.md`
+- `docs/02-anthropic-vacancies/19-7-portalentry-structure.md`
+- `docs/02-anthropic-vacancies/23-11-security-considerations.md`
+- `docs/02-anthropic-vacancies/37-native-format.md`
+- `docs/02-anthropic-vacancies/39-angle-perspective.md`
+- `docs/02-anthropic-vacancies/40-bridges.md`
+- `docs/02-anthropic-vacancies/41-compatibility-level.md`
+- `docs/02-anthropic-vacancies/43-history.md`
+- `docs/02-anthropic-vacancies/47-native-format.md`
+- `docs/02-anthropic-vacancies/49-angle-perspective.md`
+- `docs/02-anthropic-vacancies/50-bridges.md`
+- `docs/02-anthropic-vacancies/51-compatibility-level.md`
+- `docs/02-anthropic-vacancies/59-angle-perspective.md`
+- `docs/02-anthropic-vacancies/60-bridges.md`
+- `docs/02-anthropic-vacancies/61-compatibility-level.md`
+- `docs/02-anthropic-vacancies/80-5-compatibility-levels.md`
+- `docs/02-anthropic-vacancies/83-8-q6-space-normative.md`
+- _...и ещё 60_
 
-## #ingestion (75 файлов)
+## #ingestion (65 файлов)
 
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/02-methodology.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/13-contacts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md`
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
-- `docs/02-anthropic-vacancies/123-portal-mcp-py.md`
-- `docs/02-anthropic-vacancies/130-отладка.md`
-- `docs/02-anthropic-vacancies/133-обратная-связь.md`
-- _...и ещё 55_
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/18-6-adapter-interface.md`
+- `docs/02-anthropic-vacancies/19-7-portalentry-structure.md`
+- `docs/02-anthropic-vacancies/23-11-security-considerations.md`
+- `docs/02-anthropic-vacancies/80-5-compatibility-levels.md`
+- `docs/02-anthropic-vacancies/83-8-q6-space-normative.md`
+- `docs/02-anthropic-vacancies/90-15-security-considerations.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/ALERTS.md`
+- `docs/BACKLINKS.md`
+- `docs/BROKEN_LINKS.md`
+- `docs/CHANGELOG.md`
+- `docs/CLUSTERS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/CONCEPTS.md`
+- `docs/CONCEPT_GRAPH.md`
+- _...и ещё 45_
 
-## #knowledge (46 файлов)
+## #knowledge (37 файлов)
 
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/13-contacts.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md`
-- `docs/02-anthropic-vacancies/141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate.md`
-- `docs/02-anthropic-vacancies/165-closing.md`
-- `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
-- `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md`
-- `docs/02-anthropic-vacancies/343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи.md`
-- `docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md`
-- `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md`
-- _...и ещё 26_
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/BROKEN_LINKS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/CONCEPTS.md`
+- `docs/CONCEPT_GRAPH.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/DENSITY.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/ENTITIES.md`
+- `docs/FAQ.md`
+- `docs/FOOTNOTES.md`
+- _...и ещё 17_
 
-## #local-first (57 файлов)
+## #local-first (23 файлов)
 
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/133-обратная-связь.md`
-- `docs/02-anthropic-vacancies/165-closing.md`
-- `docs/02-anthropic-vacancies/174-5-architectural-specification.md`
-- `docs/02-anthropic-vacancies/175-6-ethical-framework.md`
-- `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md`
-- `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md`
-- `docs/02-anthropic-vacancies/196-6-этическая-рамка.md`
-- `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md`
-- `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md`
-- _...и ещё 37_
+- `docs/ABBREVIATIONS.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONCEPTS.md`
+- `docs/CONTACTS.md`
+- `docs/ENTITIES.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/MINDMAP.md`
+- `docs/MISSING.md`
+- `docs/NAMED_ENTITIES.md`
+- `docs/PARAGRAPH_QUALITY.md`
+- `docs/PRIORITIES.md`
+- `docs/QUESTIONS.md`
+- `docs/READING_ORDER.md`
+- `docs/SEARCH.md`
+- _...и ещё 3_
 
-## #memory (52 файлов)
+## #memory (54 файлов)
 
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/13-contacts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
-- `docs/02-anthropic-vacancies/106-tl-dr.md`
-- `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md`
-- `docs/02-anthropic-vacancies/108-2-формальный-workflow.md`
-- `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md`
-- `docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md`
-- `docs/02-anthropic-vacancies/111-4-условия-применимости.md`
-- _...и ещё 32_
-
-## #orchestration (54 файлов)
-
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/13-contacts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md`
-- `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md).md`
-- `docs/02-anthropic-vacancies/133-обратная-связь.md`
-- `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md`
-- `docs/02-anthropic-vacancies/174-5-architectural-specification.md`
-- `docs/02-anthropic-vacancies/175-6-ethical-framework.md`
+- `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md`
+- `docs/02-anthropic-vacancies/17-5-compatibility-levels.md`
+- `docs/02-anthropic-vacancies/19-7-portalentry-structure.md`
+- `docs/02-anthropic-vacancies/23-11-security-considerations.md`
+- `docs/02-anthropic-vacancies/40-bridges.md`
+- `docs/02-anthropic-vacancies/43-history.md`
+- `docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md`
+- `docs/02-anthropic-vacancies/80-5-compatibility-levels.md`
+- `docs/02-anthropic-vacancies/83-8-q6-space-normative.md`
+- `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md`
+- `docs/02-anthropic-vacancies/90-15-security-considerations.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/CLUSTERS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPARE.md`
+- `docs/CONCEPTS.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
 - _...и ещё 34_
 
-## #rag (110 файлов)
+## #orchestration (31 файлов)
 
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/02-methodology.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/13-contacts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md`
-- `docs/02-anthropic-vacancies/103-appendix-b-change-log.md`
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
-- `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md`
-- `docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md`
-- _...и ещё 90_
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/CONCEPTS.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/DENSITY.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/ENTITIES.md`
+- `docs/FAQ.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
+- `docs/HEATMAP.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/MINDMAP.md`
+- `docs/MISSING.md`
+- _...и ещё 11_
 
-## #roadmap (104 файлов)
+## #rag (39 файлов)
 
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/02-methodology.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md`
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
-- `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md`
-- `docs/02-anthropic-vacancies/108-2-формальный-workflow.md`
-- `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md`
-- `docs/02-anthropic-vacancies/111-4-условия-применимости.md`
-- `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md).md`
-- `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md`
-- _...и ещё 84_
-
-## #security (39 файлов)
-
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/02-methodology.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md`
-- `docs/02-anthropic-vacancies/133-обратная-связь.md`
-- `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`
-- `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md`
-- `docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md`
-- `docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md`
-- `docs/02-anthropic-vacancies/238-7-области-применения.md`
-- `docs/02-anthropic-vacancies/329-3-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает.md`
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/ABBREVIATIONS.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/CHANGELOG.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/CONCEPTS.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/DENSITY.md`
+- `docs/DIGEST.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/ENTITIES.md`
+- `docs/FAQ.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
 - _...и ещё 19_
 
-## #self-improvement (45 файлов)
+## #roadmap (49 файлов)
 
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/13-contacts.md`
-- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md`
-- `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
-- `docs/02-anthropic-vacancies/165-closing.md`
-- `docs/02-anthropic-vacancies/174-5-architectural-specification.md`
-- `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md`
-- `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md`
-- `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
-- _...и ещё 25_
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md`
+- `docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/ABBREVIATIONS.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/BACKLINKS.md`
+- `docs/BROKEN_LINKS.md`
+- `docs/CHANGELOG.md`
+- `docs/CLUSTERS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPARE.md`
+- `docs/CONCEPTS.md`
+- `docs/CONTACTS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/DENSITY.md`
+- `docs/DIGEST.md`
+- _...и ещё 29_
+
+## #security (41 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/ABBREVIATIONS.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/BROKEN_LINKS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/CONCEPTS.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/DENSITY.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/ENTITIES.md`
+- `docs/FAQ.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
+- _...и ещё 21_
+
+## #self-improvement (30 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/ABBREVIATIONS.md`
+- `docs/ACTION_ITEMS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONCEPTS.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
+- `docs/KNOWLEDGE_MAP.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/MINDMAP.md`
+- `docs/MISSING.md`
+- `docs/NAMED_ENTITIES.md`
+- _...и ещё 10_
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [SEARCH](docs/SEARCH.md) (сходство 0.25)
-- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.24)
-- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.22)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CLUSTERS](docs/CLUSTERS.md)
-- [PRIORITIES](docs/PRIORITIES.md)
-- [SEARCH](docs/SEARCH.md)
-- [SITEMAP](docs/SITEMAP.md)
+- [README](docs/README.md) (сходство 0.27)
+- [COVERAGE](docs/COVERAGE.md) (сходство 0.21)
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.19)
 

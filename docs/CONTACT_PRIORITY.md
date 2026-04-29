@@ -1,5 +1,15 @@
 # Приоритет контактов
 
+<!-- summary -->
+> > 🎯 **Проблема:** Приоритет контактов Contents - Топ авторов по приоритету(топ-авторов-по-приоритету) - Рекомендуемые следующие шаги(рекомендуемые-следующие-шаги) - Написать первым (ещё не контактир
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -56,3 +66,13 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 ```
 
 _Чем выше балл — тем важнее написать первым._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NETWORK](docs/NETWORK.md) (сходство 0.33)
+- [CONTACTS](docs/CONTACTS.md) (сходство 0.31)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.30)
+

@@ -1,5 +1,15 @@
 # Граф концептов базы знаний
 
+<!-- summary -->
+> > 🎯 **Проблема:** Граф концептов базы знаний Обновлено: 2026-04-29 Концептов: 40 Связей: 726 (мин.
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: knowledge, ingestion, architecture, anthropic -->
+
+
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -152,3 +162,13 @@ graph TD
 | `слой` | 70 | 515 | architecture |
 | `svend` | 49 | 507 | other |
 | `memory` | 65 | 494 | memory |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [WORD_CLOUD](docs/WORD_CLOUD.md) (сходство 0.30)
+- [KEYWORD_INDEX](docs/KEYWORD_INDEX.md) (сходство 0.29)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) (сходство 0.27)
+
