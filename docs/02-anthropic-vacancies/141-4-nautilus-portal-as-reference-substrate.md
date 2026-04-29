@@ -1,0 +1,96 @@
+# 4. Nautilus Portal as Reference Substrate
+
+## 4. Nautilus Portal as Reference Substrate
+
+The Double-Triangle Architecture requires a substrate capable of:
+- Representing diverse knowledge sources uniformly (for assistants 
+  to query across Nodes)
+- Providing distributed, persistent memory (for context continuity)
+- Supporting multi-level consensus (for conflict resolution)
+- Enabling federated queries (for Protocol 3 routing)
+
+**Nautilus Portal Protocol (NPP) v1.1** was designed for knowledge 
+federation but provides exactly these properties. We propose NPP 
+as the **reference substrate** for Double-Triangle implementations.
+
+### 4.1. NPP Components Mapped to Double-Triangle Requirements
+
+**Adapters** (NPP) = interface between participants and shared 
+space. In Double-Triangle, each assistant can read and write 
+through the same adapter mechanism used by any participant, 
+providing uniform cross-triangle access.
+
+**PortalEntry structure** (NPP) = unified unit of knowledge. In 
+Double-Triangle, this represents tasks, deliverables, context 
+updates, and notifications uniformly, enabling a single mechanism 
+for all inter-layer communication.
+
+**Consensus model** (NPP) = conflict resolution between sources. 
+In Double-Triangle, consensus operates at three levels (intra-Node 
+between assistants, inter-Node, meta-level), all using the same 
+mechanism with different scope.
+
+**Q6 coordinate space** (NPP) = unified addressing for concepts. 
+In Double-Triangle, Q6 addresses tasks and deliverables uniformly 
+across domains, enabling cross-Node task similarity queries.
+
+**Bridges** (NPP) = formal links between participants' domains. 
+In Double-Triangle, bridges formalize responsibility boundaries 
+between Nodes ("authentication is N_1's domain, authorization is 
+N_2's, interface is: token format").
+
+**Compatibility levels** (NPP) = graduated participation. In 
+Double-Triangle, this allows Nodes to join teams with minimal 
+setup (Level 0–1) and mature over time to full integration 
+(Level 3).
+
+**Federation over merging** (NPP principle) = preserve source 
+autonomy. In Double-Triangle, this ensures Nodes remain 
+functional without the meta-agent; M augments coordination but 
+does not replace Node autonomy.
+
+### 4.2. Required Extensions to NPP for Double-Triangle
+
+While NPP v1.1 provides the substrate, three extensions are needed 
+for full Double-Triangle support:
+
+**Extension 1: Agent Registry.** NPP v1.1 registers repositories. 
+Double-Triangle requires registering **agents** (AI assistants 
+and meta-agents) as first-class participants. Agents have 
+identities, capabilities, scope of authority, and audit trails.
+
+**Extension 2: Task Protocol.** NPP v1.1 supports queries but not 
+tasks. Double-Triangle requires formal task objects: task 
+assignment, acceptance, completion, rejection, reassignment.
+
+**Extension 3: Role Protocol.** NPP v1.1 has no concept of roles. 
+Double-Triangle requires roles to be first-class: "this Node is 
+responsible for X", "this assistant handles Y". Role assignments 
+constrain Protocol 3 routing.
+
+These extensions are additive — they do not break NPP v1.1 
+compatibility. A Double-Triangle implementation is an NPP v1.1 
+implementation plus these extensions.
+
+### 4.3. Empirical Evidence from Nautilus Reference Implementation
+
+The Nautilus reference implementation at `github.com/svend4/nautilus` 
+provides empirical evidence that the substrate works in practice. 
+As of 2026-04:
+
+- 6,782 lines of Python, 13 adapters, 60 tests passing, 0 mypy 
+  errors
+- 7 knowledge repositories federated (info1, pro2, meta, data2, 
+  data7, infosystems, ai_agents)
+- 5 extended adapters enabling federation of external sources 
+  (Obsidian vaults, arXiv papers, GitHub-topic repos, JSONL files, 
+  self-declaring repos via AutoAdapter)
+- Zero external dependencies (Python stdlib only)
+- Full REST API, MCP wrapper, OpenAPI specification, Docker 
+  deployment, CI/CD
+
+This demonstrates that NPP can be implemented by a single 
+developer in 4 months, providing a practical foundation for 
+Double-Triangle deployments.
+
+---

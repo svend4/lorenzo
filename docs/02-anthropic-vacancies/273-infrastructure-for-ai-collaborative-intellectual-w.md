@@ -1,0 +1,6 @@
+# INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
+
+## INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
+markdown
+```markdown
+# Infrastructure for AI-Collaborative Intellectual Work

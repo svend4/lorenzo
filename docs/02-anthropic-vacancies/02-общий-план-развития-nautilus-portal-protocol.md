@@ -1,0 +1,405 @@
+# ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL
+
+## ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL
+### Часть 1. Сводка исходных данных, на которых строится план
+Прежде чем проектировать — фиксирую, что у нас уже есть объективно.
+Артефакты, которые я видел:
+- README пор pro2/nautilus/ (embedded-версия, 112 строк) — архитектурная спецификация v1.0 с философией federation-over-merging, триадой info1/pro2/meta, четырёхуровневой compatibility scheme, consensus-механизмом
+- Структура репо svend4/nautilus (standalone-версия) — те же компоненты плюс glyph_adapter.py и requirements.txt , но с минималистичным README
+Артефакты, известные косвенно из userMemories и предыдущих обсуждений:
+- info1 — 74 документа с α-уровнями, методологический угол
+- pro2 — Q6-концепты, граф знаний, семантический угол, YiJing-Transformer v53–v61, LCI target π
+- meta — 256 CA-правил, гексаграммы, символьный угол
+- 70 репозиториев в экосистеме svend4 , созданных за 4 месяца
+- Claude Code как сооруденно-разработчик репо nautilus
+Главный архитектурный инсайт, который надо сохранить:
+Nautilus — это не единый продукт, а протокол федерации . Это меняет всё: протоколы живут дольше продуктов, протоколы могут быть реализованы разными клиентами, протоколы не умирают вместе с автором.
+---
+### Часть 2. Целевая архитектура — шесть слоёв
+Разделяю всю систему на шесть логических слоёв, каждый со своей ответственностью. Это важнее конкретного кода — это контракт , который код должен реализовать.
+#### Слой 0 — Протокол (спецификация)
+Живёт как документ PORTAL-PROTOCOL.md , а не как код. Определяет:
+- Что такое репозиторий-участник
+- Что такое nautilus.json — реестр репо
+- Что такое passport.md — описание репо для людей и для адаптеров
+- Что такое адаптер и какой у него обязательный интерфейс
+- Что такое PortalEntry — unified data structure, в которую адаптеры конвертируют native-форматы
+- Что такое consensus и как он вычисляется
+- Какие есть уровни совместимости (0–3)
+- Как версионируется сам протокол (v1.0, v1.1, breaking changes policy)
+Ключевой принцип слоя 0 : спецификация должна быть такой, чтобы её мог реализовать кто угодно, не зная исходного кода Nautilus . Это делает протокол вечным, а не привязанным к одному repo.
+#### Слой 1 — Репозитории-участники
+Это info1 , pro2 , meta и любые будущие. Каждый участник хранит свои данные в своём native формате (так, как удобно автору). Единственное требование для участия — положить два файла в корень:
+- nautilus.json — minimal manifest (имя, формат, версия, мосты)
+- passport.md — human-readable описание
+Всё остальное — свободно. Это low barrier to entry : подключить существующий репо к Nautilus занимает 5 минут, не требует рефакторинга.
+#### Слой 2 — Адаптеры
+Файлы Python в папке adapters/ . Каждый адаптер:
+- Наследуется от BaseAdapter
+- Умеет fetch(query) — поиск в своём native формате
+- Умеет describe() — возврат метаданных
+- Конвертирует внутренние данные в унифицированный PortalEntry
+- Знает свои bridges — как его концепты мапятся на концепты других репо
+Адаптеры — это граница между мирами . Внутри — любой формат. Снаружи — стандартный PortalEntry . Это классический Adapter Pattern (GoF), применённый к data federation.
+#### Слой 3 — Движок портала
+portal.py — центральная оркестрация. Отвечает за:
+- Загрузку nautilus.json и регистрацию адаптеров
+- Параллельный вызов fetch() у всех зарегистрированных адаптеров
+- Агрегацию результатов в единое view
+- Вычисление consensus (полный / частичный / отсутствует)
+- Кеширование (чтобы повторные запросы были мгновенными)
+- Логирование (для debugging и telemetry)
+Движок не знает ничего про native форматы — он знает только про BaseAdapter и PortalEntry . Это обеспечивает extensibility: добавить новый репо — значит написать один новый адаптер, не трогая движок.
+#### Слой 4 — Интерфейсы доступа
+Три канала входа к движку:
+- CLI — portal.py --query "кристалл" для прямой работы из shell
+- HTTP/Web — portal.py --serve , статический index.html на GitHub Pages для браузерного доступа
+- MCP — portal-mcp.py , экспонирующий функции портала как MCP-tools для Claude и других LLM
+Все три интерфейса — тонкие обёртки над одним движком. Никакой бизнес-логики в них. Это обеспечивает consistency: CLI и MCP возвращают одинаковые результаты на одинаковые запросы.
+#### Слой 5 — Клиенты и потребители
+Это то, для чего всё существует. Потенциальные клиенты:
+- Вы сами через Claude Desktop (через MCP)
+- Внешние исследователи через CLI или web
+- AI-агенты в вашей будущей «AI-managed team» модели — каждый агент-член команды через MCP получает доступ ко всей экосистеме знаний
+- Авторы других экосистем, которые форкают Nautilus и создают свои федерации
+---
+### Часть 3. Принципы дизайна, которым следовать во всей разработке
+Шесть инвариантов, которые не нарушаются:
+Принцип федерации, а не слияния. Native форматы репозиториев не меняются. Adapter переводит на унифицированный язык только в момент обращения. Если завтра кто-то хочет использовать Obsidian-markdown или Notion-exports — он пишет адаптер, а не мигрирует данные.
+Принцип локальной автономии. Каждый репо в экосистеме остаётся самодостаточным . Он работает без Nautilus. Nautilus — это опциональный федерационный слой сверху, не требование. Если Nautilus завтра исчезнет — info1, pro2, meta продолжают жить как обычные git-репо.
+Принцип минимального манифеста. Чтобы подключить репо к Nautilus — нужен только nautilus.json (10–20 строк JSON) и passport.md (1 страница markdown). Это всё. Никаких форматных требований к остальному содержимому.
+Принцип версионирования протокола. Протокол имеет semver (v1.0 сейчас). Breaking changes возможны только в major-версиях. Реализация портала поддерживает несколько версий протокола одновременно через shim-адаптеры.
+Принцип read-only по умолчанию. Nautilus читает репо, не пишет в них. Если в будущем понадобится writing — это отдельный extension протокола (v2.0 или как опциональное расширение), не меняющее read-path.
+Принцип прозрачности консенсуса. Когда портал говорит «концепт согласован в 2 из 3 репо», он возвращает список конкретных entries с репо-атрибуцией , не просто score. Пользователь всегда может проверить, откуда пришёл каждый факт.
+---
+### Часть 4. Псевдокод ключевых компонентов
+Пишу на уровне, достаточном для независимой реализации любым разработчиком. Не привязан к конкретным именам классов из существующего код — фиксирую архитектурные контракты , а не конкретный код.
+#### 4.1 Структураnautilus.json(registry)
+```
+{
+  "protocol_version": "1.0",
+  "ecosystem_name": "svend4",
+  "repositories": [
+    {
+      "name": "info1",
+      "url": "https://github.com/svend4/info1",
+      "format": ".info1",
+      "native_unit": "document with α-levels",
+      "adapter": "adapters/info1.py",
+      "passport": "passports/info1.md",
+      "angle": "methodological",
+      "compatibility_level": 3,
+      "bridges": {
+        "pro2": "α-level ↔ Q6-concept-depth",
+        "meta": "α-level ↔ CA-rule-class"
+      }
+    },
+    {
+      "name": "pro2",
+      "url": "https://github.com/svend4/pro2",
+      "format": ".pro2",
+      "native_unit": "Q6-concept",
+      "adapter": "adapters/pro2.py",
+      "passport": "passports/pro2.md",
+      "angle": "semantic",
+      "compatibility_level": 3,
+      "bridges": {
+        "info1": "Q6-concept-depth ↔ α-level",
+        "meta": "Q6-vertex ↔ hexagram"
+      }
+    },
+    {
+      "name": "meta",
+      "url": "https://github.com/svend4/meta",
+      "format": ".meta",
+      "native_unit": "CA-rule / hexagram",
+      "adapter": "adapters/meta.py",
+      "passport": "passports/meta.md",
+      "angle": "symbolic",
+      "compatibility_level": 3,
+      "bridges": {
+        "info1": "hexagram ↔ α-level",
+        "pro2": "hexagram ↔ Q6-vertex"
+      }
+    }
+  ]
+}
+```
+#### 4.2 КонтрактBaseAdapter(псевдокод)
+```
+class BaseAdapter:
+    """
+    Базовый класс для всех адаптеров.
+    Каждый конкретный адаптер реализует минимум 3 метода.
+    """
+
+    name: str              # имя репо (соответствует entry в nautilus.json)
+    repo_path: Path        # локальный путь или URL к исходному репо
+    cache: dict            # опциональный локальный кеш fetch-результатов
+
+    def fetch(self, query: str) -> list[PortalEntry]:
+        """
+        Ищет query в native формате репо.
+        Возвращает список PortalEntry — унифицированных записей.
+        Если ничего не найдено — пустой список.
+        """
+        raise NotImplementedError
+
+    def describe(self) -> dict:
+        """
+        Возвращает метаданные репо:
+        - total_entries: сколько вообще единиц хранится
+        - last_updated: дата последнего коммита
+        - topics: ключевые темы/теги
+        - bridges: мосты к другим репо
+        """
+        raise NotImplementedError
+
+    def translate_to(self, entry: PortalEntry, target_repo: str) -> str | None:
+        """
+        Опционально: переводит свою запись в формат другого репо через bridge.
+        Возвращает None, если моста нет.
+        Используется для deep queries ("покажи мне X как его видит meta").
+        """
+        return None
+
+
+class PortalEntry:
+    """Унифицированная запись, которую возвращают все адаптеры."""
+
+    repo_name: str         # откуда пришло ("info1" / "pro2" / "meta")
+    native_id: str         # id в native формате репо
+    title: str             # человекочитаемое имя концепта
+    summary: str           # краткое описание (до 280 символов)
+    content: str           # полный текст/представление
+    tags: list[str]        # теги/ключевые слова
+    confidence: float      # 0.0–1.0, субъективная уверенность адаптера
+    native_metadata: dict  # любые native-специфичные поля
+    url: str | None        # прямая ссылка на исходник, если есть
+```
+#### 4.3 Логика движкаportal.py
+```
+def query(user_query: str, target_repos: list[str] | None = None) -> QueryResult:
+    """
+    Главная функция портала.
+    
+    Шаги:
+      1. Загрузить nautilus.json (registry)
+      2. Отфильтровать адаптеры по target_repos (если задано)
+      3. Параллельно вызвать adapter.fetch(user_query) для всех
+      4. Собрать результаты
+      5. Вычислить consensus
+      6. Вернуть QueryResult
+    """
+    
+    registry = load_registry("nautilus.json")
+    adapters = instantiate_adapters(registry, filter=target_repos)
+    
+    # параллельный вызов fetch — каждый адаптер работает независимо
+    results_by_repo = parallel_fetch(adapters, user_query)
+    
+    # вычисление consensus
+    consensus = compute_consensus(results_by_repo)
+    
+    return QueryResult(
+        query=user_query,
+        results_by_repo=results_by_repo,
+        consensus=consensus,
+        total_entries=sum(len(r) for r in results_by_repo.values()),
+        repos_queried=[a.name for a in adapters]
+    )
+
+
+def compute_consensus(results_by_repo: dict[str, list[PortalEntry]]) -> Consensus:
+    """
+    Вычисление consensus между репо.
+    
+    Стратегия v1.0: простая string-similarity по заголовкам.
+    В v2.0: semantic similarity через embeddings.
+    """
+    
+    all_concepts = set()
+    for entries in results_by_repo.values():
+        for e in entries:
+            all_concepts.add(normalize(e.title))
+    
+    concept_coverage = {}  # concept → {список репо, где найден}
+    for concept in all_concepts:
+        for repo, entries in results_by_repo.items():
+            if any(similar(concept, normalize(e.title)) for e in entries):
+                concept_coverage.setdefault(concept, []).append(repo)
+    
+    total_repos = len(results_by_repo)
+    
+    full_consensus = [c for c, repos in concept_coverage.items() if len(repos) == total_repos]
+    partial_consensus = [(c, repos) for c, repos in concept_coverage.items() 
+                         if 1 < len(repos) < total_repos]
+    singular = [(c, repos[0]) for c, repos in concept_coverage.items() if len(repos) == 1]
+    
+    return Consensus(
+        full=full_consensus,
+        partial=partial_consensus,
+        singular=singular,
+        coverage_ratio=len(full_consensus) / max(len(all_concepts), 1)
+    )
+```
+#### 4.4 СтруктураQueryResultвозврата
+```
+class QueryResult:
+    query: str                              # исходный запрос
+    results_by_repo: dict[str, list[PortalEntry]]  # что нашёл каждый адаптер
+    consensus: Consensus                    # результат консенсуса
+    total_entries: int                      # общее число найденных
+    repos_queried: list[str]                # какие репо опрошены
+    timing: dict[str, float]                # сколько занял каждый fetch (для telemetry)
+    
+    def to_json(self) -> str: ...
+    def to_markdown(self) -> str: ...       # для CLI/MCP
+    def to_html(self) -> str: ...           # для веб
+
+
+class Consensus:
+    full: list[str]                         # концепты во всех репо
+    partial: list[tuple[str, list[str]]]    # концепт + где найден
+    singular: list[tuple[str, str]]         # концепт, только в одном репо
+    coverage_ratio: float                   # 0.0–1.0
+```
+#### 4.5 Псевдокод MCP-обёртки (опция C)
+```
+# portal-mcp.py
+
+from mcp.server import Server
+from portal import query, list_repos, describe_repo
+
+server = Server("nautilus-portal")
+
+@server.tool("nautilus_query")
+def nautilus_query(query: str, repos: list[str] | None = None) -> dict:
+    """Search the Nautilus ecosystem. Returns consensus-aware results."""
+    result = query(query, target_repos=repos)
+    return result.to_json()
+
+@server.tool("nautilus_list_repos")
+def nautilus_list_repos() -> dict:
+    """List all repositories in the Nautilus ecosystem with metadata."""
+    return {"repositories": list_repos()}
+
+@server.tool("nautilus_query_repo")
+def nautilus_query_repo(repo: str, query: str) -> dict:
+    """Query a single repository by name."""
+    result = query(query, target_repos=[repo])
+    return result.to_json()
+
+@server.tool("nautilus_consensus_check")
+def nautilus_consensus_check(concept: str) -> dict:
+    """Check if a concept is consensus-validated across ecosystem repos."""
+    result = query(concept)
+    return {
+        "concept": concept,
+        "consensus_full": concept in result.consensus.full,
+        "found_in_repos": [r for r, es in result.results_by_repo.items() if es],
+        "total_repos": len(result.repos_queried)
+    }
+
+@server.tool("nautilus_describe")
+def nautilus_describe() -> dict:
+    """Describe the ecosystem: philosophy, protocol version, repos."""
+    return {
+        "protocol_version": "1.0",
+        "philosophy": "Federation over merging: native formats preserved, consensus via adapters",
+        "ecosystem_name": "svend4",
+        "repos": [describe_repo(r) for r in list_repos()]
+    }
+
+if __name__ == "__main__":
+    server.run()
+```
+---
+### Часть 5. Roadmap развития — пять фаз
+Не имея возможности работать бесконечно, важно разбить развитие на дискретные фазы с чёткими deliverables . Каждая фаза имеет smoke-test: завершена или нет.
+#### Фаза 1 — Спецификация (неделя 1)
+Deliverables:
+- PORTAL-PROTOCOL.md — 10–15 страниц formal spec (слой 0)
+- Чёткие определения nautilus.json schema, passport.md format, BaseAdapter interface
+- Versioning policy, compatibility levels с примерами
+- ADR-001 (Architecture Decision Record) с обоснованием federation-over-merging
+Smoke test: может ли другой разработчик, прочитав только PORTAL-PROTOCOL.md, написать собственный адаптер для нового репо без задавания вопросов автору?
+#### Фаза 2 — Reference implementation (неделя 2–3)
+Deliverables:
+- BaseAdapter + PortalEntry + Consensus + QueryResult классы
+- portal.py — движок с CLI-интерфейсом
+- Рабочие адаптеры для info1, pro2, meta
+- nautilus.json и passports/*.md для текущей экосистемы
+- Unit tests покрывающие core-логику (fetch, consensus, bridges)
+- requirements.txt с явными версиями
+Smoke test: python portal.py --query "Q6" возвращает non-empty результат с consensus-информацией?
+#### Фаза 3 — MCP интерфейс (неделя 3, параллельно)
+Deliverables:
+- portal-mcp.py — MCP server с 5 tools
+- claude_desktop_config.json пример для подключения
+- README-MCP.md — инструкция по установке через Termux
+- Минимальный integration test с mock MCP client
+Smoke test: подключить к Claude Desktop, спросить Claude «найди в моей экосистеме все упоминания кристалла», получить osmыслený ответ с указанием репо.
+#### Фаза 4 — Web interface и публичная видимость (неделя 4)
+Deliverables:
+- index.html — GitHub Pages портал (static)
+- Fetch из nautilus.json в браузере, минимальный UI для query
+- README.md с рабочими ссылками, quick start, example queries
+- Исправление broken links из embedded-версии
+Smoke test: открыть GitHub Pages URL, выполнить query через браузер, получить отформатированный результат.
+#### Фаза 5 — Публикация и адаптация (неделя 5+)
+Deliverables:
+- Arxiv preprint «Nautilus Portal: A Git-Based Federation Protocol for Personal Knowledge Ecosystems»
+- PyPI package nautilus-portal с CLI-entry-point
+- Submission в MCP Registry ( https://github.com/mcp )
+- Blog post на Substack с demo video
+- 2–3 примера подключения chisto external репо (например, форк-чьего-то Obsidian vault)
+Smoke test: первый external user подключает свой репо к своему форку Nautilus, описывает процесс в Issue.
+---
+### Часть 6. Инструкция для дальнейшей разработки
+Короткий и практичный набор правил для поддержания качества по мере роста.
+#### Правила для кода
+Каждый адаптер — один файл. adapters/info1.py , adapters/pro2.py , adapters/meta.py . Не смешивать адаптеры между собой. Это обеспечивает independence.
+Адаптеры не импортируют друг друга. Если нужен bridge между info1 и pro2 — он описан декларативно в nautilus.json поле bridges , и интерпретируется движком, а не hardcoded в адаптере.
+BaseAdapter — только абстрактный контракт. В нём не должно быть логики, только сигнатуры методов + docstrings. Изменения в BaseAdapter = breaking change = bump major version протокола.
+Версионируемые схемы JSON. nautilus.json включает поле protocol_version . Движок поддерживает несколько версий через shim-логику.
+Типизация через dataclass или TypedDict . Все data structures имеют explicit schemas. Это помогает IDE, документации и будущим adapter-авторам.
+#### Правила для документации
+Каждый подключённый репо имеет passport.md в passports/ . Паспорт — это не техническая спецификация, а human-readable описание : что в репо лежит, какая у него философия, кто его автор, как с ним работать. Это важнее технического README для external discoverability.
+PORTAL-PROTOCOL.md — единственный source of truth по протоколу. Если в README что-то противоречит PORTAL-PROTOCOL, PROTOCOL побеждает.
+ADR для каждого architectural decision. Почему federation, а не merging? Почему Python, а не Rust? Почему consensus через string match, а не через embeddings? Каждое решение задокументировано отдельным ADR-XXX.md. Это критично для того, чтобы спустя 6 месяцев (или чтобы другой разработчик, приходящий на проект) понимал обоснование , а не только факт .
+#### Правила для экосистемы
+Добавление нового репо — это PR, не hardcode. Когда кто-то хочет подключить новый репо, он открывает PR с: новым entry в nautilus.json , новым adapters/<name>.py , новым passports/<name>.md . Ревью по чеклисту, merge.
+Protocol breaking changes — через RFC process. Изменение v1.0 → v2.0 проходит через RFC-документ, obsuzhdaetся в Issues, требует миграционного гайда для всех существующих адаптеров.
+glyph_adapter.py — специальный случай. Он лежит в корне, не в adapters/ . Вероятно, это мета-адаптер, работающий над остальными. Документировать его роль явно в PROTOCOL — иначе future разработчики будут gадать.
+#### Правила для безопасности и приватности
+Nautilus не читает приватные репо через MCP по умолчанию. Адаптеры для приватных репо (как ваши soz* ) должны быть отдельно isolated — либо жить в отдельном private-nautilus/ репо, либо через явный opt-in в конфиге. Это защита на случай, если MCP-server будет подключён к агенту, которому не следует иметь доступ к чувствительным данным.
+passports/ репо — публичны, но содержат только метаданные , не данные. В паспорте info1 можно написать «74 документа с α-уровнями про такие-то темы», но не сами документы.
+Логирование query через MCP обнуляется при ребуте. Это защищает от случайного накопления чувствительных запросов, которые могут попасть в backup или логи.
+#### Правила для публикации и коммуникации
+README — на двух языках минимум. Русский как primary (ваш родной рабочий язык), English как secondary — для external visibility. В идеале — параллельные columns или разделы, не separate files (чтобы не desyncronize).
+Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHANGELOG.md в корне.
+Контакт с MCP Registry и Anthropic community — после Фазы 3, не раньше. Показывать сырую реализацию без рабочего MCP-bridge — это терять первое впечатление. Один рабочий demo > десять черновиков.
+#### Правила для саморефлексии
+Каждые 4 недели — retrospective. Что из roadmap выполнено? Что застряло? Почему? Это можно делать даже наедине с Claude в отдельной session, без внешнего партнёра.
+Каждые 12 недель — revisit целей. Nautilus как протокол — для чего он нужен именно вам на этом этапе? Если цель сдвинулась (от research-publication к founder-startup, например) — архитектурные приоритеты могут меняться.
+---
+### Что делать сразу
+Три первых шага, которые переводят план в действие:
+Шаг 1 (сегодня-завтра, 2–3 часа). Создать PORTAL-PROTOCOL.md как скелет — разделы, заголовки, 1–2 предложения в каждый. Даже пустой скелет с правильной структурой — уже ценный артефакт. Позже наполнять каждый раздел.
+Шаг 2 (в течение недели, 4–6 часов). Написать три паспорта ( passports/info1.md , passports/pro2.md , passports/meta.md ) — по 1 странице каждый. Это документация экосистемы для людей , не для машин. Она обычно откладывается на потом и потом не пишется никогда. Сделать сразу.
+Шаг 3 (параллельно, 2 часа). Исправить README.md в standalone-репо: вернуть туда архитектурный контекст из embedded-версии (то, что было в pro2/nautilus/README.md), убрать broken links, добавить правильный Quick Start для нового URL.
+После этих трёх шагов у вас будет минимальный, но полный документационный слой , который поддерживает всю будущую разработку — включая MCP-обёртку, arxiv-paper, внешних contributors.
+---
+### Что я могу сделать прямо сейчас
+Не дожидаясь файлов, могу сегодня же написать для вас черновики :
+- PORTAL-PROTOCOL.md draft — 10–15 страниц на основе того, что уже понятно из README и архитектурного тезиса. Разделы, заголовки, ключевые определения, compatibility levels, consensus algorithm, ADR-001. Потом вы правите и дополняете.
+- Три шаблона passport.md — один для info1, один для pro2, один для meta. Каркас, в который вы подставите детали.
+- Draft README.md для standalone repo — восстанавливающий архитектурный контекст из embedded-версии, с рабочими ссылками на новый URL svend4/nautilus .
+Любой из этих артефактов — ценный сам по себе и не требует от меня доступа к конкретному коду. С чего начнём? Я бы рекомендовал порядок: PORTAL-PROTOCOL.md draft → README.md → passport шаблоны . Но ваш выбор может быть другим, если есть более срочная необходимость.
+
+**[Запрос]** По порядку
+
+Хорошо, по порядку. Начинаю с PORTAL-PROTOCOL.md — это самый важный из трёх, потому что он фиксирует архитектурный контракт, от которого зависят остальные артефакты.
+Пишу как formal specification в стиле W3C/IETF draft — с чёткими определениями, явными инвариантами, пронумерованными разделами. Цель: документ, который может прочитать другой разработчик через полгода и написать совместимый адаптер или альтернативный движок, не задавая вопросов автору.
+---

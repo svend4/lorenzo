@@ -1,0 +1,49 @@
+# Acknowledgments
+
+## Acknowledgments
+
+This document emerged from author's question about how to 
+integrate InGit specifically with the Cowork tab in Claude 
+Desktop. The question prompted Claude to research current 
+Cowork capabilities (web searches conducted during the 
+session) and discover that substantial Layer B infrastructure 
+already exists in production.
+
+This discovery substantially updated Document 2.3's framing. 
+Where Document 2.3 treated Layer B as essentially missing, 
+this document recognizes Cowork as substantial existing 
+implementation requiring complementary substrate rather than 
+competition.
+
+The InGit project (https://github.com/svend4/ingit) provides 
+the specific candidate substrate. Author's existing work on 
+InGit makes this proposal practically achievable.
+
+The four-path integration strategy emerged from analysis of 
+Cowork's capabilities, MCP standard, and InGit's existing 
+scope. The sequencing reflects pragmatic considerations of 
+development effort, dependency on external API maturation, 
+and value at each stage.
+
+Author retained editorial authority. All claims, errors, and 
+specific architectural proposals are author's responsibility. 
+Claude contributed research and structure.
+
+This is the ninth document in the series. With its inclusion:
+1. Nautilus Portal Protocol v1.1
+2. Review Methodology v1.0
+2.3 Infrastructure for AI-Collaborative Intellectual Work
+2.4 InGit as Cowork-Native Workspace Substrate (this paper)
+3. Double-Triangle Architecture v1.0
+4. Open Knowledge Work Foundation Concept Document v1.0
+5. Representative Agent Layer v1.0
+6. Professional Colleague Agents v1.0
+7. Composite Skills Agent v1.0
+
+The architectural vision now spans technical substrate (1, 
+2.4), methodology (2), infrastructure (2.3), coordination (3), 
+institution (4), and agent typology (5, 6, 7). Together they 
+form unusually comprehensive treatment of AI-supported 
+knowledge work.
+
+---
