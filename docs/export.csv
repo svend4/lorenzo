@@ -399,28 +399,28 @@ docs/05-habr-projects/memory/memnet.md,05-habr-projects,memnet.md,MemNet: исс
 docs/05-habr-projects/memory/ngt-memory.md,05-habr-projects,ngt-memory.md,NGT[^ngt] Memory: ассоциативный граф,50,2921,"memory, ingestion, collaboration",Svyazi; Yodoca; NGT Memory; Wikontic,ассоциативные связи в персистентной памяти LLM[^llm],нет,нет
 docs/05-habr-projects/memory/yodoca.md,05-habr-projects,yodoca.md,Yodoca[^yodoca]: консолидация и забывание,15,1792,"memory, ingestion, architecture, collaboration",Svyazi; Yodoca; Wikontic,"Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не просто аналог, это архитектурное продолжение Svyazi[^svyazi] на уровне agentic memory",нет,да
 docs/ABBREVIATIONS.md,ABBREVIATIONS.md,ABBREVIATIONS.md,Словарь аббревиатур и сокращений,0,9501,,SENTINEL; LiteLLM; Auto AI Router,,нет,да
-docs/ACTION_ITEMS.md,ACTION_ITEMS.md,ACTION_ITEMS.md,"Action Items, риски и решения",1429,75963,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search,,да,да
+docs/ACTION_ITEMS.md,ACTION_ITEMS.md,ACTION_ITEMS.md,"Action Items, риски и решения",1419,75342,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search,,да,да
 docs/ALERTS.md,ALERTS.md,ALERTS.md,Callout-блоки,8,513,,,,да,нет
 docs/AUTHORS.md,AUTHORS.md,AUTHORS.md,Авторы и коллаборации,2,922,,,,нет,нет
 docs/AUTOFILLED.md,AUTOFILLED.md,AUTOFILLED.md,Автозаполненные шаблоны,25,1653,"ingestion, collaboration",Svyazi,"_Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_",нет,нет
 docs/BACKLINKS.md,BACKLINKS.md,BACKLINKS.md,Индекс обратных ссылок,0,2839,"memory, orchestration, ingestion, roadmap, anthropic, collaboration",Svyazi; MemNet,**Файлов с входящими ссылками:** 504,нет,да
 docs/BADGES.md,BADGES.md,BADGES.md,Status Badges,2,1238,,,,нет,нет
 docs/BROKEN_LINKS.md,BROKEN_LINKS.md,BROKEN_LINKS.md,Сломанные внутренние ссылки,13,9732,"security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration",Svyazi; knowledge-space,> 🎯 **Проблема:** файл не существует docs/01-svyazi/09-architectural-gaps.md 06-security-privacy docs/01-svyazi/06-security-privacy.md файл не существует docs/01-svyazi/09-architectural-gaps.md 07-m,да,да
-docs/CHANGELOG.md,CHANGELOG.md,CHANGELOG.md,CHANGELOG,6,11820,,Svyazi,,да,нет
+docs/CHANGELOG.md,CHANGELOG.md,CHANGELOG.md,CHANGELOG,6,12019,,Svyazi,,да,нет
 docs/CHANGELOG_AUTO.md,CHANGELOG_AUTO.md,CHANGELOG_AUTO.md,Changelog (авто),13,2527,"rag, ingestion, roadmap, anthropic",,_Сгенерировано из 25 коммитов git-истории._,нет,нет
-docs/CITATION_INDEX.md,CITATION_INDEX.md,CITATION_INDEX.md,Индекс цитирования URL,44,9030,"memory, knowledge, anthropic, collaboration",knowledge-space; Yodoca; MemNet,Уникальных URL: **148** | Отфильтровано (≥1): **148**,нет,нет
+docs/CITATION_INDEX.md,CITATION_INDEX.md,CITATION_INDEX.md,Индекс цитирования URL,44,9118,"memory, knowledge, anthropic, collaboration",knowledge-space; Yodoca; MemNet; Wikontic,Уникальных URL: **138** | Отфильтровано (≥1): **138**,нет,нет
 docs/CLUSTERS.md,CLUSTERS.md,CLUSTERS.md,Кластеры тематически близких файлов,9,25321,"rag, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration",Svyazi; CardIndex,Метод: TF-IDF + косинусное сходство (порог 0.15),да,да
-docs/CODE_BLOCKS.md,CODE_BLOCKS.md,CODE_BLOCKS.md,Code-блоки репозитория,1185,44088,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; NGT Memory; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Yjs; Automerge,,нет,да
+docs/CODE_BLOCKS.md,CODE_BLOCKS.md,CODE_BLOCKS.md,Code-блоки репозитория,1185,44092,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; NGT Memory; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Yjs; Automerge,,нет,да
 docs/COMPARE.md,COMPARE.md,COMPARE.md,Сравнение с предыдущим коммитом,3,4757,,,,да,нет
 docs/COMPLEXITY.md,COMPLEXITY.md,COMPLEXITY.md,Оценка читаемости документов,0,3490,,MemNet,,да,нет
 docs/COMPONENT_MATRIX.md,COMPONENT_MATRIX.md,COMPONENT_MATRIX.md,Матрица компонентов Svyazi 2.0,6,4071,,Svyazi; CardIndex; AgentFS; knowledge-space; AI Factory; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; Wikontic; Firecrawl,_Совместимость и возможности 14 компонентов экосистемы._,да,нет
-docs/CONCEPTS.md,CONCEPTS.md,CONCEPTS.md,Глоссарий понятий,5491,193708,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic,,да,да
+docs/CONCEPTS.md,CONCEPTS.md,CONCEPTS.md,Глоссарий понятий,5505,194216,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic,,да,да
 docs/CONCEPT_GRAPH.md,CONCEPT_GRAPH.md,CONCEPT_GRAPH.md,Граф концептов базы знаний,105,5495,"ingestion, architecture, anthropic, collaboration",Svyazi,Концептов: **40** | Связей: **773** (мин. вес: 2),нет,нет
 docs/CONSISTENCY.md,CONSISTENCY.md,CONSISTENCY.md,Согласованность терминов,10,3103,,Svyazi; knowledge-space; AI Factory; NGT Memory; Auto AI Router,,нет,нет
 docs/CONTACTS.md,CONTACTS.md,CONTACTS.md,Контакты и авторы,30,4043,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router; Yjs,,нет,нет
 docs/CONTACT_PRIORITY.md,CONTACT_PRIORITY.md,CONTACT_PRIORITY.md,Приоритет контактов,22,1940,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,нет,нет
-docs/CONTENT_GAPS.md,CONTENT_GAPS.md,CONTENT_GAPS.md,Тематические пробелы (Content Gaps),64,10889,,Svyazi,,да,да
-docs/CONTRADICTIONS.md,CONTRADICTIONS.md,CONTRADICTIONS.md,Противоречия в базе знаний,3,17228,,Svyazi; knowledge-space; LiteParse; NGT Memory; MemNet; AutoResearch,Утверждений: **52678** | Противоречий: **6476**,да,нет
+docs/CONTENT_GAPS.md,CONTENT_GAPS.md,CONTENT_GAPS.md,Тематические пробелы (Content Gaps),64,10788,,Svyazi,,да,да
+docs/CONTRADICTIONS.md,CONTRADICTIONS.md,CONTRADICTIONS.md,Противоречия в базе знаний,3,17228,,Svyazi; knowledge-space; LiteParse; NGT Memory; MemNet; AutoResearch,Утверждений: **52644** | Противоречий: **6481**,да,нет
 docs/COST.md,COST.md,COST.md,Оценка стоимости MVP,10,3067,,CardIndex; AgentFS; Rufler; Yodoca; SENTINEL; Tool Search,,да,да
 docs/COVERAGE.md,COVERAGE.md,COVERAGE.md,Матрица покрытия документов,18,3451,,Svyazi,,нет,нет
 docs/CROSSREFS.md,CROSSREFS.md,CROSSREFS.md,Перекрёстные ссылки,10,7556,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,,нет,да
@@ -430,23 +430,23 @@ docs/DENSITY.md,DENSITY.md,DENSITY.md,Карта плотности тем,11,29
 docs/DEPENDABOT.md,DEPENDABOT.md,DEPENDABOT.md,Мониторинг зависимостей,12,1728,"memory, knowledge, ingestion, anthropic, collaboration",Svyazi; AgentFS; knowledge-space; Yodoca; NGT Memory,python scripts/improve_dependabot.py --generate-config,нет,нет
 docs/DEPENDENCY_MAP.md,DEPENDENCY_MAP.md,DEPENDENCY_MAP.md,Карта зависимостей скриптов,38,5394,"ingestion, roadmap, anthropic",,_Что каждый `improve_*.py` производит и от чего зависит._,нет,нет
 docs/DIGEST.md,DIGEST.md,DIGEST.md,Дайджест изменений,4,3693,"rag, ingestion, roadmap, anthropic",,> 🎯 **Проблема:** Дайджест изменений Contents - Последний коммит(последний-коммит) - Последние 3 коммита — итого(последние-3-коммита-итого) - Новые документы(новые-документы) - История коммитов (пос,нет,нет
-docs/DIGEST_AUTO.md,DIGEST_AUTO.md,DIGEST_AUTO.md,Автодайджест изменений,6,2938,"ingestion, anthropic, collaboration",Svyazi,_Период: 2026-04-22 — 2026-04-29 (7 дней)_,нет,нет
-docs/DIGEST_WEEKLY.md,DIGEST_WEEKLY.md,DIGEST_WEEKLY.md,Еженедельный дайджест — 2026-04-29,63,1543,,,_Период: последние 7 дней (с 2026-04-22)_,нет,нет
-docs/DUPLICATES.md,DUPLICATES.md,DUPLICATES.md,Отчёт о дублировании,10,24744,,,,да,да
-docs/EMPTY_SECTIONS.md,EMPTY_SECTIONS.md,EMPTY_SECTIONS.md,Пустые секции,5,89447,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Yjs; Automerge,Файлов с проблемами: **402** | Пустых секций: **1673**,да,да
+docs/DIGEST_AUTO.md,DIGEST_AUTO.md,DIGEST_AUTO.md,Автодайджест изменений,6,2979,"rag, ingestion, anthropic, collaboration",Svyazi,_Период: 2026-04-22 — 2026-04-29 (7 дней)_,нет,нет
+docs/DIGEST_WEEKLY.md,DIGEST_WEEKLY.md,DIGEST_WEEKLY.md,Еженедельный дайджест — 2026-04-29,61,1538,rag,,_Период: последние 7 дней (с 2026-04-22)_,нет,нет
+docs/DUPLICATES.md,DUPLICATES.md,DUPLICATES.md,Отчёт о дублировании,10,24704,,,,да,да
+docs/EMPTY_SECTIONS.md,EMPTY_SECTIONS.md,EMPTY_SECTIONS.md,Пустые секции,5,89279,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Yjs; Automerge,Файлов с проблемами: **401** | Пустых секций: **1671**,да,да
 docs/ENTITIES.md,ENTITIES.md,ENTITIES.md,Именованные сущности,0,4163,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; Tool Search; Wikontic; Firecrawl,,нет,нет
 docs/FAQ.md,FAQ.md,FAQ.md,Часто задаваемые вопросы (FAQ),194,8049,,Svyazi; AgentFS; knowledge-space; Yodoca; MemNet,,да,да
 docs/FOOTNOTES.md,FOOTNOTES.md,FOOTNOTES.md,Сноски и определения терминов,9,1885,,Svyazi; CardIndex; AgentFS; knowledge-space; Rufler; Yodoca; SENTINEL; Firecrawl,,да,нет
 docs/GITHUB_ISSUES.md,GITHUB_ISSUES.md,GITHUB_ISSUES.md,GitHub Issues — список задач,9,15116,,,> Создайте Issues вручную или запустите с `--create` (требует gh CLI),нет,да
 docs/GLOSSARY.md,GLOSSARY.md,GLOSSARY.md,Глоссарий проектов,2,1075,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,,нет,нет
 docs/GRAPH.md,GRAPH.md,GRAPH.md,Граф связей проектов,623,21006,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,,нет,нет
-docs/HEADING_AUDIT.md,HEADING_AUDIT.md,HEADING_AUDIT.md,Аудит заголовков,1665,191390,,Svyazi; Rufler; MemNet; AutoResearch; Wikontic,Файлов с проблемами: **830** из 1187,да,да
+docs/HEADING_AUDIT.md,HEADING_AUDIT.md,HEADING_AUDIT.md,Аудит заголовков,1663,191264,,Svyazi; Rufler; MemNet; AutoResearch; Wikontic,Файлов с проблемами: **829** из 1187,да,да
 docs/HEALTH.md,HEALTH.md,HEALTH.md,Health Dashboard,10,1180,,Svyazi,,нет,нет
 docs/HEATMAP.md,HEATMAP.md,HEATMAP.md,Тепловая карта тем,22,3203,,Svyazi,,да,да
 docs/INDEX.md,INDEX.md,INDEX.md,Индекс документации — Lorenzo / Svyazi 2.0,57,5767,"memory, knowledge, ingestion, architecture, roadmap, anthropic, collaboration",Svyazi; AgentFS; knowledge-space; Yodoca,_Главный навигационный хаб. Все разделы и документы._,да,да
 docs/KEYWORD_INDEX.md,KEYWORD_INDEX.md,KEYWORD_INDEX.md,Инвертированный индекс ключевых слов,4,5385,"memory, ingestion, architecture, roadmap, anthropic, collaboration",Svyazi; knowledge-space; NGT Memory,"> 🎯 **Проблема:** Инвертированный индекс ключевых слов Обновлено: 2026-04-29 Уникальных слов: 23264 Биграмм: 13489 Файлов: 487 python scripts/improvekeywordindex.py --query ""ваш запрос"" — поиск по и",нет,да
-docs/KNOWLEDGE_MAP.md,KNOWLEDGE_MAP.md,KNOWLEDGE_MAP.md,Карта базы знаний Lorenzo,24,4043,,Svyazi,- - - - - - - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOW,да,нет
-docs/KPI.md,KPI.md,KPI.md,Числовые KPI и метрики,1,16235,,Svyazi; CardIndex; MemNet; Auto AI Router,,да,да
+docs/KNOWLEDGE_MAP.md,KNOWLEDGE_MAP.md,KNOWLEDGE_MAP.md,Карта базы знаний Lorenzo,24,4043,,Svyazi,- - - - - - - - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KN,да,нет
+docs/KPI.md,KPI.md,KPI.md,Числовые KPI и метрики,1,16343,,Svyazi; CardIndex; MemNet; Auto AI Router,,да,да
 docs/KPI_HISTORY.md,KPI_HISTORY.md,KPI_HISTORY.md,История метрик KPI,11,653,,,_Последнее обновление: 2026-04-29 · Снапшотов в истории: 1_,нет,нет
 docs/LANGUAGE_STATS.md,LANGUAGE_STATS.md,LANGUAGE_STATS.md,Языковой состав документов,3,40626,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,,да,да
 docs/LINKS.md,LINKS.md,LINKS.md,Индекс ссылок,4,10521,,AgentFS; knowledge-space; Yodoca,,нет,нет
@@ -455,22 +455,22 @@ docs/MCP_DASHBOARD.md,MCP_DASHBOARD.md,MCP_DASHBOARD.md,MCP Dashboard,2,1297,,,,
 docs/METRICS.md,METRICS.md,METRICS.md,Метрики качества документации,0,2946,,Svyazi,,нет,нет
 docs/MINDMAP.md,MINDMAP.md,MINDMAP.md,Майндмап репозитория Lorenzo,100,2412,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,,да,да
 docs/MISSING.md,MISSING.md,MISSING.md,Карта пробелов знаний,18,2592,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; NGT Memory; SENTINEL; AutoResearch,,нет,да
-docs/NAMED_ENTITIES.md,NAMED_ENTITIES.md,NAMED_ENTITIES.md,Индекс именованных сущностей,4,14097,,Svyazi; CardIndex; AgentFS; knowledge-space; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs,Всего сущностей: **234** (мин. 2 упоминаний),нет,да
+docs/NAMED_ENTITIES.md,NAMED_ENTITIES.md,NAMED_ENTITIES.md,Индекс именованных сущностей,4,14122,,Svyazi; CardIndex; AgentFS; knowledge-space; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs,Всего сущностей: **233** (мин. 2 упоминаний),нет,да
 docs/NARRATIVE.md,NARRATIVE.md,NARRATIVE.md,Нарратив проекта Lorenzo,29,8504,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Hybrid RAG; Yodoca; NGT Memory; MemNet,,да,да
 docs/NETWORK.md,NETWORK.md,NETWORK.md,Сеть проектов и авторов,0,2347,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; Wikontic; Firecrawl,,нет,нет
 docs/ONBOARDING.md,ONBOARDING.md,ONBOARDING.md,Онбординг — Svyazi 2.0 / Lorenzo,48,4607,"memory, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration",Svyazi; CardIndex; AgentFS; Rufler; Yodoca; SENTINEL; Firecrawl,_Руководство для новых участников проекта._,да,да
 docs/ORPHANS.md,ORPHANS.md,ORPHANS.md,Изолированные документы (Orphans),28,713,,,,нет,нет
-docs/OUTLINE.md,OUTLINE.md,OUTLINE.md,Outline базы знаний,2527,484159,"security, knowledge",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router; AutoResearch; Wikontic; Yjs; Automerge,Секций: **18** | Файлов: **1182**,да,да
-docs/PARAGRAPH_QUALITY.md,PARAGRAPH_QUALITY.md,PARAGRAPH_QUALITY.md,Качество абзацев,2357,295826,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,"_абзац: 819, Оборванный: 644, начала: 274, Дубль: 5_",да,да
+docs/OUTLINE.md,OUTLINE.md,OUTLINE.md,Outline базы знаний,2527,484164,"security, knowledge",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router; AutoResearch; Wikontic; Yjs; Automerge,Секций: **18** | Файлов: **1182**,да,да
+docs/PARAGRAPH_QUALITY.md,PARAGRAPH_QUALITY.md,PARAGRAPH_QUALITY.md,Качество абзацев,2357,295816,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,"_абзац: 793, Оборванный: 625, начала: 260, Дубль: 4_",да,да
 docs/PASSIVE_VOICE.md,PASSIVE_VOICE.md,PASSIVE_VOICE.md,Пассивный залог и канцеляризмы,3,2334,,AutoResearch,Файлов: **882** | Средний пассив: **1.7%** (🟢 Активный стиль),нет,нет
-docs/PRIORITIES.md,PRIORITIES.md,PRIORITIES.md,Приоритеты файлов,3,34164,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; NGT Memory; MemNet; AutoResearch; Wikontic,,да,да
+docs/PRIORITIES.md,PRIORITIES.md,PRIORITIES.md,Приоритеты файлов,3,34190,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; NGT Memory; MemNet; AutoResearch; Wikontic,,да,да
 docs/PROGRESS.md,PROGRESS.md,PROGRESS.md,Прогресс MVP,65,2098,,Svyazi; AgentFS; knowledge-space; NGT Memory,,нет,да
 docs/QA.md,QA.md,QA.md,Глобальный Q&A,189,11248,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search,,да,да
 docs/QUESTIONS.md,QUESTIONS.md,QUESTIONS.md,Открытые вопросы,257,15178,,Svyazi; CardIndex; AgentFS,,да,да
-docs/READABILITY.md,READABILITY.md,READABILITY.md,Читаемость документов (Flesch-Kincaid),5,122533,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,,да,да
+docs/READABILITY.md,READABILITY.md,READABILITY.md,Читаемость документов (Flesch-Kincaid),5,122531,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,,да,да
 docs/READING_LIST.md,READING_LIST.md,READING_LIST.md,Список чтения,2,2188,,Svyazi,**по запросу «RAG retrieval»** | Документов: **5** | Время: **~20 мин** (0ч 20м),нет,нет
 docs/READING_ORDER.md,READING_ORDER.md,READING_ORDER.md,Рекомендуемый порядок чтения,22,49884,,Svyazi; Yodoca; MemNet; Wikontic,,да,да
-docs/READING_TIME.md,READING_TIME.md,READING_TIME.md,Время чтения документов,3,101279,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,"Документов: **1113** | Слов всего: **684,468** | Время чтения всей базы: **56ч 33мин**",да,да
+docs/READING_TIME.md,READING_TIME.md,READING_TIME.md,Время чтения документов,3,101277,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,"Документов: **1113** | Слов всего: **681,711** | Время чтения всей базы: **56ч 21мин**",да,да
 docs/REGISTRY.md,REGISTRY.md,REGISTRY.md,REGISTRY — реестр артефактов Lorenzo,14,11065,,Svyazi,,да,да
 docs/REPORT.md,REPORT.md,REPORT.md,Executive Report: Репозиторий Lorenzo,45,2412,,Svyazi,,нет,да
 docs/RISK_REGISTER.md,RISK_REGISTER.md,RISK_REGISTER.md,Реестр рисков — Svyazi 2.0,17,7290,,Svyazi; CardIndex; AgentFS; Rufler; SENTINEL,_Курированных рисков: 10 · Из документов: 15_,да,да
@@ -490,14 +490,14 @@ docs/SPELLCHECK.md,SPELLCHECK.md,SPELLCHECK.md,Отчёт орфографии,1
 docs/STALENESS.md,STALENESS.md,STALENESS.md,Отчёт об устаревших документах,13,3935,,Svyazi,,да,нет
 docs/STATS.md,STATS.md,STATS.md,Детальная статистика репозитория,0,2725,,Svyazi,,нет,нет
 docs/SUMMARIES.md,SUMMARIES.md,SUMMARIES.md,Резюме документов (TextRank),144,41681,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch,> 🎯 **Проблема:** citeturn21view0turn21view1turn18search1 Комментарии к статье Yodoca и GitHub issues/discussions в repo.,да,да
-docs/TABLES.md,TABLES.md,TABLES.md,Все таблицы репозитория,433,873535,anthropic,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,,да,да
-docs/TAGS.md,TAGS.md,TAGS.md,Индекс тегов,7,6732,,Svyazi,,нет,нет
+docs/TABLES.md,TABLES.md,TABLES.md,Все таблицы репозитория,433,872954,anthropic,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,,да,да
+docs/TAGS.md,TAGS.md,TAGS.md,Индекс тегов,7,6741,,Svyazi,,нет,нет
 docs/TASKS_INDEX.md,TASKS_INDEX.md,TASKS_INDEX.md,Каталог задач (TASKS_INDEX),6,8365,,,,нет,да
 docs/TECH_RADAR.md,TECH_RADAR.md,TECH_RADAR.md,Tech Radar — Svyazi 2.0,119,4632,,Svyazi; CardIndex; AgentFS; knowledge-space; Rufler; Yodoca; SENTINEL; Tool Search; Wikontic; Firecrawl,_Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._,да,нет
 docs/TIMELINE.md,TIMELINE.md,TIMELINE.md,Хронология и временные маркеры,3,36525,anthropic,Svyazi; LiteParse; MemNet; LiteLLM; Auto AI Router; Tool Search,,да,да
 docs/VALIDATION.md,VALIDATION.md,VALIDATION.md,Валидация структуры репозитория,7,6690,,Svyazi,,да,да
-docs/VERSION_DIFF.md,VERSION_DIFF.md,VERSION_DIFF.md,Diff базы знаний между версиями,4,7189,,Svyazi,**HEAD~10** (`1bf1481`) → **HEAD** (`6ac5970`),да,да
-docs/VOCABULARY.md,VOCABULARY.md,VOCABULARY.md,Богатство словаря документов,3,5570,,,"Файлов: **1115** | Токенов: **766,897** | Уникальных: **287,089**",да,нет
+docs/VERSION_DIFF.md,VERSION_DIFF.md,VERSION_DIFF.md,Diff базы знаний между версиями,4,6391,,CardIndex,**HEAD~10** (`2265a4d`) → **HEAD** (`6421a1f`),да,нет
+docs/VOCABULARY.md,VOCABULARY.md,VOCABULARY.md,Богатство словаря документов,3,5571,,,"Файлов: **1115** | Токенов: **766,510** | Уникальных: **287,065**",да,нет
 docs/WORD_CLOUD.md,WORD_CLOUD.md,WORD_CLOUD.md,Word Cloud,6,1622,"ingestion, anthropic",Svyazi,Визуализация 80 самых частых слов репозитория.,нет,нет
 docs/WORD_FREQ.md,WORD_FREQ.md,WORD_FREQ.md,Частотный анализ слов,1,17621,,Svyazi; CardIndex; AgentFS; Yodoca; Wikontic,,нет,нет
 docs/ai-collaborations/candidates/01-three-key-candidates.md,ai-collaborations,01-three-key-candidates.md,"Три ключевых кандидата: K2-18, Wikontic, NGT Memory",18,2945,"memory, ingestion, architecture, collaboration",NGT Memory; Wikontic,> Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).,нет,нет

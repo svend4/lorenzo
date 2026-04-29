@@ -162,6 +162,7 @@ graph TD
   Legal_RAG -- 36 --> Yodoca
   Legal_RAG -- 36 --> Auto_AI_Router
   Hybrid_RAG -- 36 --> Graph_RAG
+  Yodoca -- 36 --> Wikontic
   Yjs -- 36 --> Automerge
   AI_Factory -- 35 --> Legal_RAG
   AI_Factory -- 35 --> LiteLLM
@@ -169,7 +170,6 @@ graph TD
   Legal_RAG -- 35 --> NGT_Memory
   Hybrid_RAG -- 35 --> NGT_Memory
   Hybrid_RAG -- 35 --> SENTINEL
-  Yodoca -- 35 --> Wikontic
   NGT_Memory -- 35 --> LiteLLM
   NGT_Memory -- 35 --> AutoResearch
   mclaude -- 34 --> Legal_RAG
@@ -208,10 +208,10 @@ graph TD
   knowledge_space -- 30 --> Tool_Search
   knowledge_space -- 30 --> Yjs
   AI_Factory -- 30 --> Graph_RAG
+  MemNet -- 30 --> Wikontic
   Rufler -- 29 --> Graph_RAG
   Rufler -- 29 --> Yjs
   LiteParse -- 29 --> Yjs
-  MemNet -- 29 --> Wikontic
   LiteLLM -- 29 --> AutoResearch
   AgentFS -- 28 --> Automerge
   Yodoca -- 28 --> Automerge
@@ -225,11 +225,11 @@ graph TD
   Hybrid_RAG -- 27 --> Tool_Search
   Graph_RAG -- 27 --> MemNet
   Graph_RAG -- 27 --> LiteLLM
+  knowledge_space -- 26 --> Wikontic
   LiteParse -- 26 --> Automerge
   Legal_RAG -- 26 --> MemNet
   MemNet -- 26 --> Yjs
   AutoResearch -- 26 --> Automerge
-  knowledge_space -- 25 --> Wikontic
   mclaude -- 25 --> Automerge
   Hybrid_RAG -- 25 --> MemNet
   Hybrid_RAG -- 25 --> AutoResearch
@@ -454,7 +454,7 @@ digraph lorenzo {
   knowledge_space -> Auto_AI_Router [label="37"];
   knowledge_space -> Tool_Search [label="30"];
   knowledge_space -> AutoResearch [label="38"];
-  knowledge_space -> Wikontic [label="25"];
+  knowledge_space -> Wikontic [label="26"];
   knowledge_space -> Firecrawl [label="18"];
   knowledge_space -> Yjs [label="30"];
   knowledge_space -> Automerge [label="27"];
@@ -570,7 +570,7 @@ digraph lorenzo {
   Yodoca -> Auto_AI_Router [label="45"];
   Yodoca -> Tool_Search [label="38"];
   Yodoca -> AutoResearch [label="48"];
-  Yodoca -> Wikontic [label="35"];
+  Yodoca -> Wikontic [label="36"];
   Yodoca -> Firecrawl [label="16"];
   Yodoca -> Yjs [label="31"];
   Yodoca -> Automerge [label="28"];
@@ -589,7 +589,7 @@ digraph lorenzo {
   MemNet -> Auto_AI_Router [label="31"];
   MemNet -> Tool_Search [label="21"];
   MemNet -> AutoResearch [label="34"];
-  MemNet -> Wikontic [label="29"];
+  MemNet -> Wikontic [label="30"];
   MemNet -> Firecrawl [label="13"];
   MemNet -> Yjs [label="26"];
   MemNet -> Automerge [label="22"];
