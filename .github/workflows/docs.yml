@@ -18,7 +18,7 @@ on:
       fast:
         description: "Только быстрые скрипты"
         required: false
-        default: "false"
+        default: "true"
         type: boolean
 
 jobs:
@@ -40,37 +40,36 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: |
-          pip install beautifulsoup4 lxml --quiet
+        run: pip install beautifulsoup4 lxml --quiet
 
-      - name: Run all scripts (fast)
-        if: ${{ github.event.inputs.group == '' && github.event.inputs.fast != 'false' }}
-        run: python scripts/improve_run_all.py --fast
-
-      - name: Run group
+      - name: Run scripts (group)
         if: ${{ github.event.inputs.group != '' }}
+        continue-on-error: true
         run: python scripts/improve_run_all.py --group ${{ github.event.inputs.group }}
 
-      - name: Run all scripts
-        if: ${{ github.event.inputs.group == '' && github.event.inputs.fast == 'false' || github.event_name != 'workflow_dispatch' }}
+      - name: Run scripts (fast, default)
+        if: ${{ github.event.inputs.group == '' }}
+        continue-on-error: true
         run: python scripts/improve_run_all.py --fast
 
       - name: Run weekly digest
+        continue-on-error: true
         run: python scripts/improve_digest_weekly.py
 
-      - name: Run autofill (no API key needed)
+      - name: Run autofill
+        continue-on-error: true
         run: python scripts/improve_autofill.py
 
       - name: Commit and push if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/ -A
+          git add -A docs/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "docs: auto-update via improve_run_all [skip ci]"
-            git push
+            git push origin HEAD
           fi
 
   validate:
