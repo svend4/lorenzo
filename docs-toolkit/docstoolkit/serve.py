@@ -147,6 +147,21 @@ class DocsHandler(http.server.BaseHTTPRequestHandler):
                 self._stream_build_index(params.get("provider", ["tfidf"])[0])
             elif path == "/api/stream/heartbeat":
                 self._stream_heartbeat(int(params.get("count", ["5"])[0]))
+            elif path == "/api/stream/rag":
+                self._stream_rag_sse(
+                    params.get("q", [""])[0],
+                    params.get("method", ["hybrid"])[0],
+                    params.get("answerer", ["echo"])[0],
+                    int(params.get("top_k", ["5"])[0]),
+                )
+            elif path == "/metrics":
+                # Prometheus exposition format
+                try:
+                    from docstoolkit.telemetry import prometheus_format
+                    self._send(200, prometheus_format(),
+                               "text/plain; version=0.0.4")
+                except ImportError:
+                    self._send(503, "telemetry not available", "text/plain")
             else:
                 self._send(404, _wrap_html("404", "<h1>404 Not Found</h1>"))
         except Exception as e:
@@ -582,6 +597,29 @@ loadGraph();
             self.wfile.flush()
         except (BrokenPipeError, ConnectionResetError):
             pass
+
+    def _stream_rag_sse(self, q: str, method: str, answerer: str, top_k: int):
+        """SSE-стрим RAG с token-by-token output."""
+        try:
+            from docstoolkit.rag.streaming import stream_rag
+        except ImportError:
+            self._send_sse_headers()
+            self.wfile.write(self._sse_event("error", {"msg": "rag not available"}))
+            return
+
+        self._send_sse_headers()
+        try:
+            for chunk in stream_rag(q, top_k=top_k, method=method, answerer=answerer):
+                self.wfile.write(self._sse_event(chunk.type, chunk.data))
+                self.wfile.flush()
+        except (BrokenPipeError, ConnectionResetError):
+            pass
+        except Exception as e:
+            try:
+                self.wfile.write(self._sse_event("error", {"msg": str(e)[:200]}))
+                self.wfile.flush()
+            except (BrokenPipeError, ConnectionResetError):
+                pass
 
     def _stream_build_index(self, provider: str = "tfidf"):
         """SSE-стрим build embeddings cache с progress events."""
