@@ -57,6 +57,8 @@
 3. [`anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md`](anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md) — финальное ранжирование под профиль svend4.
 4. [`anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md`](anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md) — альтернативы (fellowships, accelerators, гранты).
 5. [`anthropic-vacancies/beneficial-deployments-concept/README.md`](anthropic-vacancies/beneficial-deployments-concept/README.md) — outline concept document для outreach.
+6. [`anthropic-vacancies/ai-managed-virtual-company/README.md`](anthropic-vacancies/ai-managed-virtual-company/README.md) — альтернатива «один человек / $500K» как AI-управляемая команда фрилансеров (Variant C).
+7. [`anthropic-vacancies/mmorpg-for-programmers/README.md`](anthropic-vacancies/mmorpg-for-programmers/README.md) — гипотеза gamified work для технарей.
 
 ## 7. «Я ищу конкретный компонент по имени»
 

@@ -17,6 +17,8 @@
 | [`profile-mapping/`](profile-mapping/) | Маппинг профиля svend4 на роли Anthropic — три итерации (FDE → Public Benefit → «платформа, а не должность») |
 | [`extra-collaborator-findings/`](extra-collaborator-findings/) | Variant D: четыре новых collaborator-проекта (CoAlly, Виталий, Анастасия, Mem0) + финальный tier ranking 12 collaborators |
 | [`beneficial-deployments-concept/`](beneficial-deployments-concept/) | Variant C: outline 8–15-страничного concept document для Anthropic Beneficial Deployments outreach (10 sections) |
+| [`ai-managed-virtual-company/`](ai-managed-virtual-company/) | Идея разделить $500K зарплату на команду 5–10 фрилансеров; AI-managed distributed virtual company (Variants A/B/C) |
+| [`mmorpg-for-programmers/`](mmorpg-for-programmers/) | Гипотеза MMORPG-RPG для программистов / технарей как способ организовать distributed work |
 
 ## Главный вывод
 
