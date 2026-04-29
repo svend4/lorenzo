@@ -36,7 +36,7 @@
 | `github.com/github.com/VitalyOborin/yodoca` | 4 |
 | `github.com/github.com/VladSpace` | 4 |
 | `github.com/github.com/andrey` | 4 |
-| `github.com/github.com/anthropics/mcp` | 5 |
+| `github.com/github.com/anthropics/mcp` | 6 |
 | `github.com/github.com/artur-gavronchuk/tg-chat-analyser` | 5 |
 | `github.com/github.com/camel-ai/camel` | 6 |
 | `github.com/github.com/dementev-dev/adversarial-review` | 5 |
@@ -52,7 +52,7 @@
 | `github.com/github.com/spbmolot` | 4 |
 | `github.com/github.com/spbmolot/ngt-memory` | 4 |
 | `github.com/github.com/svend4` | 4 |
-| `github.com/github.com/svend4/data70` | 6 |
+| `github.com/github.com/svend4/data70` | 5 |
 | `github.com/github.com/svend4/info1` | 12 |
 | `github.com/github.com/svend4/info40` | 4 |
 | `github.com/github.com/svend4/info7` | 4 |

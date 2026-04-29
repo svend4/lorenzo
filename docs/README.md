@@ -12,7 +12,7 @@
 - [BACKLINKS.md](BACKLINKS.md) — <!-- summary -->
 - [BADGES.md](BADGES.md) — _Обновлено: 2026-04-29_
 - [BROKEN_LINKS.md](BROKEN_LINKS.md) — > [!TIP]
-- [CHANGELOG.md](CHANGELOG.md) — Всего коммитов: **92**
+- [CHANGELOG.md](CHANGELOG.md) — Всего коммитов: **95**
 - [CHANGELOG_AUTO.md](CHANGELOG_AUTO.md) — <!-- summary -->
 - [CITATION_INDEX.md](CITATION_INDEX.md) — _Обновлено: 2026-04-29_
 - [CLUSTERS.md](CLUSTERS.md) — > [!TIP]
@@ -55,7 +55,7 @@
 - [KPI.md](KPI.md) — > [!TIP]
 - [KPI_HISTORY.md](KPI_HISTORY.md) — <!-- summary -->
 - [LANGUAGE_STATS.md](LANGUAGE_STATS.md) — _Обновлено: 2026-04-29_
-- [LINKS.md](LINKS.md) — Всего уникальных URL: 227
+- [LINKS.md](LINKS.md) — Всего уникальных URL: 229
 - [LLM_SUMMARIES.md](LLM_SUMMARIES.md) — <!-- summary -->
 - [MCP_DASHBOARD.md](MCP_DASHBOARD.md) — _Обновлено: 2026-04-29_
 - [METRICS.md](METRICS.md) — **Файлов:** 1174  **Средний балл:** 71.2/100
@@ -77,16 +77,16 @@
 - [READING_LIST.md](READING_LIST.md) — <!-- summary -->
 - [READING_ORDER.md](READING_ORDER.md) — От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 - [READING_TIME.md](READING_TIME.md) — _Обновлено: 2026-04-29_
-- [REGISTRY.md](REGISTRY.md) — <!-- toc -->
+- [REGISTRY.md](REGISTRY.md) — _Обновлено: 2026-04-29_
 - [REPORT.md](REPORT.md) — _Сгенерировано автоматически: 2026-04-29_
 - [RISK_REGISTER.md](RISK_REGISTER.md) — > [!TIP]
 - [SCHEDULE.md](SCHEDULE.md) — _Дорожная карта с вехами и задачами по кварталам._
 - [SCORING.md](SCORING.md) — _Дата: 2026-04-29_
-- [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) — <!-- toc -->
+- [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) — _Обновлено: 2026-04-29_
 - [SEARCH.md](SEARCH.md) — > [!TIP]
 - [SEARCH_RESULTS.md](SEARCH_RESULTS.md) — <!-- summary -->
 - [SEE_ALSO.md](SEE_ALSO.md) — **Файлов с блоком See Also:** 1066
-- [SENTIMENT.md](SENTIMENT.md) — **Файлов проанализировано:** 1032
+- [SENTIMENT.md](SENTIMENT.md) — **Файлов проанализировано:** 1035
 - [SIMILAR.md](SIMILAR.md) — > [!TIP]
 - [SIMILAR_PASSAGES.md](SIMILAR_PASSAGES.md) — > [!TIP]
 - [SITEMAP.md](SITEMAP.md) — _Обновлено: 2026-04-29_
@@ -94,18 +94,18 @@
 - [SOURCE_MAP.md](SOURCE_MAP.md) — _Обновлено: 2026-04-29_
 - [SPELLCHECK.md](SPELLCHECK.md) — _Обновлено: 2026-04-29_
 - [STALENESS.md](STALENESS.md) — _Порог: 30 дней. Обновлено: 2026-04-29_
-- [STATS.md](STATS.md) — **Разделов:** 18  **Файлов:** 1191  **Слов:** 944,878  **Символов:** 8,453,050
+- [STATS.md](STATS.md) — **Разделов:** 18  **Файлов:** 1191  **Слов:** 944,616  **Символов:** 8,449,654
 - [SUMMARIES.md](SUMMARIES.md) — > [!TIP]
 - [TABLES.md](TABLES.md) — > [!TIP]
 - [TAGS.md](TAGS.md) — Каждый файл помечен тегами по темам автоматически.
 - [TASKS_INDEX.md](TASKS_INDEX.md) — <!-- toc -->
 - [TECH_RADAR.md](TECH_RADAR.md) — > [!WARNING]
 - [TIMELINE.md](TIMELINE.md) — _Обновлено: 2026-04-29_
-- [VALIDATION.md](VALIDATION.md) — **Ошибок:** 0  **Предупреждений:** 42  **Пройдено:** 27
+- [VALIDATION.md](VALIDATION.md) — _Обновлено: 2026-04-29_
 - [VERSION_DIFF.md](VERSION_DIFF.md) — _Обновлено: 2026-04-29_
 - [VOCABULARY.md](VOCABULARY.md) — _Обновлено: 2026-04-29_
 - [WORD_CLOUD.md](WORD_CLOUD.md) — <!-- summary -->
-- [WORD_FREQ.md](WORD_FREQ.md) — **Всего слов (очищенных):** 663,479
+- [WORD_FREQ.md](WORD_FREQ.md) — **Всего слов (очищенных):** 662,225
 - [reading-paths.md](reading-paths.md) — > [!TIP]
 
 ## Подразделы

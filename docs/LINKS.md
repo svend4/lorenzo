@@ -1,6 +1,6 @@
 # Индекс ссылок
 
-Всего уникальных URL: 229
+Всего уникальных URL: 231
 
 | URL | Найден в файлах |
 |-----|-----------------|
@@ -36,6 +36,7 @@
 | https://github.com/VladSpace | 4 |
 | https://github.com/andrey_chuyan | 4 |
 | https://github.com/anthropics/mcp | 5 |
+| https://github.com/anthropics/mcp` | 1 |
 | https://github.com/camel-ai/camel | 6 |
 | https://github.com/kksudo | 4 |
 | https://github.com/kksudo/agentfs | 4 |
@@ -49,7 +50,7 @@
 | https://github.com/spbmolot/ngt-memory | 4 |
 | https://github.com/svend4/ | 3 |
 | https://github.com/svend4/data70 | 5 |
-| https://github.com/svend4/data70` | 3 |
+| https://github.com/svend4/data70` | 2 |
 | https://github.com/svend4/info1 | 8 |
 | https://github.com/svend4/info1` | 3 |
 | https://github.com/svend4/info1`, | 2 |
@@ -57,6 +58,7 @@
 | https://github.com/svend4/info7 | 4 |
 | https://github.com/svend4/ingit | 13 |
 | https://github.com/svend4/ingit/issues | 4 |
+| https://github.com/svend4/ingit/issues` | 1 |
 | https://github.com/svend4/ingit` | 3 |
 | https://github.com/svend4/meta | 6 |
 | https://github.com/svend4/meta` | 3 |
@@ -69,12 +71,13 @@
 | https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 3 |
 | https://github.com/svend4/nautilus/blob/main/README.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md | 4 |
-| https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 3 |
+| https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 2 |
 | https://github.com/svend4/nautilus/blob/main/STATUS.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_1.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_2.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_3.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_4.md | 3 |
+| https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0...` | 1 |
 | https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md | 4 |
 | https://github.com/svend4/nautilus/branches | 3 |
 | https://github.com/svend4/nautilus/commits/main | 3 |
@@ -105,7 +108,7 @@
 | https://habr.com/ru/articles/1007122/ | 6 |
 | https://habr.com/ru/articles/1007122/, | 5 |
 | https://habr.com/ru/articles/1007122/` | 3 |
-| https://habr.com/ru/articles/1007122/`, | 1 |
+| https://habr.com/ru/articles/1007122/`, | 2 |
 | https://habr.com/ru/articles/1009538/ | 6 |
 | https://habr.com/ru/articles/1009538/` | 3 |
 | https://habr.com/ru/articles/1009608/ | 6 |
@@ -129,7 +132,7 @@
 | https://habr.com/ru/articles/1019588/` | 3 |
 | https://habr.com/ru/articles/1020598/ | 4 |
 | https://habr.com/ru/articles/1020598/, | 4 |
-| https://habr.com/ru/articles/1020598/` | 3 |
+| https://habr.com/ru/articles/1020598/` | 2 |
 | https://habr.com/ru/articles/1020702/ | 3 |
 | https://habr.com/ru/articles/1020860/ | 6 |
 | https://habr.com/ru/articles/1020860/` | 3 |
@@ -155,7 +158,7 @@
 | https://habr.com/ru/articles/1027878/` | 3 |
 | https://habr.com/ru/articles/495554/ | 7 |
 | https://habr.com/ru/articles/495554/` | 3 |
-| https://habr.com/ru/articles/495554/`, | 2 |
+| https://habr.com/ru/articles/495554/`, | 3 |
 | https://habr.com/ru/articles/786278/ | 3 |
 | https://habr.com/ru/articles/800033/ | 3 |
 | https://habr.com/ru/articles/893356/ | 6 |
@@ -198,12 +201,9 @@
 | https://happyin.space/ | 4 |
 | https://img.shields.io/badge/health-77/100-green | 4 |
 | https://img.shields.io/badge/manifests-13-blue | 4 |
-| https://img.shields.io/badge/mcp--servers-10-blue | 3 |
-| https://img.shields.io/badge/mcp--servers-12-blue | 1 |
+| https://img.shields.io/badge/mcp--servers-10-blue | 2 |
+| https://img.shields.io/badge/mcp--servers-12-blue | 4 |
 | https://img.shields.io/badge/scripts-152-blue | 2 |
-| https://img.shields.io/badge/scripts-153-blue | 2 |
-| https://img.shields.io/badge/scripts-155-blue | 4 |
-| https://img.shields.io/badge/skills-28-blue | 4 |
 
 <!-- see-also -->
 

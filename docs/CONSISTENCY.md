@@ -11,12 +11,12 @@
 | **NGT Memory** | `NGT Memory` | `NGT-Memory` | 38 |
 | **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 18 |
 | **local-first** | `local-first` | `localfirst` | 3 |
-| **self-improvement** | `self-improvement` | `self-improve` | 155 |
+| **self-improvement** | `self-improvement` | `self-improve` | 154 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 17 |
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 14 |
 
-**Всего несогласованных написаний: 291**
+**Всего несогласованных написаний: 290**
 
 
 ## Детали по файлам
@@ -82,7 +82,7 @@
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/LLM_SUMMARIES.md`
 - `docs/SPELLCHECK.md`
-- _...и ещё 150_
+- _...и ещё 149_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 

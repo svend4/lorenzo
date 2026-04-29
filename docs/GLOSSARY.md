@@ -10,7 +10,7 @@
 | **Auto AI Router** | 65 |
 | **AutoResearch** | 66 |
 | **Automerge** | 38 |
-| **CardIndex** | 139 |
+| **CardIndex** | 138 |
 | **Firecrawl** | 22 |
 | **Graph RAG** | 47 |
 | **Hybrid RAG** | 51 |
@@ -26,10 +26,10 @@
 | **SENTINEL** | 69 |
 | **Self-Aware MCP** | 21 |
 | **Sequential** | 119 |
-| **Svyazi** | 316 |
+| **Svyazi** | 315 |
 | **Tool Search** | 50 |
 | **Whisper** | 24 |
-| **Wikontic** | 51 |
+| **Wikontic** | 50 |
 | **Yjs** | 47 |
 | **Yodoca** | 142 |
 | **Yttri** | 19 |

@@ -321,7 +321,6 @@ _Обновлено: 2026-04-29_
 | `12-technical-program-management.md` | 29% | 71% |
 | `13-communications.md` | 29% | 71% |
 | `COVERAGE.md` | 29% | 71% |
-| `VERSION_DIFF.md` | 29% | 71% |
 | `11-zaklyuchenie.md` | 71% | 29% |
 | `review-record.md` | 29% | 71% |
 | `01-search-results-not-found.md` | 30% | 70% |
@@ -360,13 +359,13 @@ _Обновлено: 2026-04-29_
 | `12-workflow.md` | 31% | 69% |
 | `00-question-multi-tier.md` | 69% | 31% |
 | `85-10-query-flow.md` | 31% | 69% |
-| `SPELLCHECK.md` | 31% | 69% |
 | `06-angel-vs-demon-duality.md` | 69% | 31% |
 | `11-concrete-potential-collaborator.md` | 30% | 69% |
 | `05-anchor-node-habr-scout.md` | 30% | 69% |
 | `01-legal-ai-stack.md` | 31% | 69% |
 | `07-specialized-knowledge-workspace.md` | 31% | 69% |
 | `97-22-glossary-of-reference-examples.md` | 31% | 69% |
+| `SPELLCHECK.md` | 31% | 69% |
 | `13-rest-api.md` | 32% | 68% |
 | `128-доступные-инструменты.md` | 32% | 68% |
 | `14-sdk.md` | 31% | 68% |
@@ -431,13 +430,13 @@ _Обновлено: 2026-04-29_
 | `01-what-to-anonymize-german-standard.md` | 65% | 35% |
 | `DECISIONS.md` | 65% | 35% |
 | `knowledge-space.md` | 35% | 65% |
-| `CONCEPTS.md` | 35% | 65% |
 | `11-legal.md` | 35% | 65% |
 | `04-mem0-letta-graphiti.md` | 35% | 65% |
 | `14-other-ai-relationships.md` | 35% | 65% |
 | `narrow-questions.md` | 65% | 35% |
 | `356-твой-workflow.md` | 35% | 65% |
 | `84-9-consensus-algorithm.md` | 35% | 65% |
+| `CONCEPTS.md` | 35% | 65% |
 | `STALENESS.md` | 35% | 65% |
 | `04-similarity-4-multi-platform.md` | 35% | 65% |
 | `04-dochkina-sequential.md` | 65% | 35% |
@@ -480,6 +479,7 @@ _Обновлено: 2026-04-29_
 | `127-подключение-к-claude-desktop.md` | 37% | 63% |
 | `204-ссылки.md` | 63% | 37% |
 | `78-3-registry-nautilus-json.md` | 37% | 63% |
+| `VERSION_DIFF.md` | 37% | 63% |
 | `05-level-4-extended-mature.md` | 37% | 63% |
 | `00-question-habr-link.md` | 37% | 63% |
 | `117-10-конкретный-план-применения-к-текущим-документам.md` | 63% | 37% |
@@ -538,11 +538,11 @@ _Обновлено: 2026-04-29_
 | `18-escalate-to-max.md` | 39% | 61% |
 | `108-2-формальный-workflow.md` | 61% | 38% |
 | `50-bridges.md` | 39% | 61% |
-| `COMPARE.md` | 39% | 61% |
 | `INDEX.md` | 39% | 61% |
 | `02-memnet.md` | 61% | 39% |
 | `00-intro.md` | 61% | 39% |
 | `34-appendix-b-change-log.md` | 61% | 39% |
+| `COMPARE.md` | 39% | 61% |
 | `REPORT.md` | 61% | 39% |
 | `05-similarity-5-self-hosting-privacy.md` | 39% | 61% |
 | `09-query-flow.md` | 40% | 60% |
@@ -614,7 +614,6 @@ _Обновлено: 2026-04-29_
 | `risk-entry.md` | 58% | 42% |
 | `19-7-portalentry-structure.md` | 42% | 58% |
 | `06-безопасность-приватность-и-бюджетный-роутинг.md` | 58% | 42% |
-| `KPI.md` | 58% | 42% |
 | `REGISTRY.md` | 42% | 58% |
 | `mixaill76.md` | 42% | 58% |
 | `1-one-person-one-company.md` | 58% | 42% |
@@ -623,6 +622,7 @@ _Обновлено: 2026-04-29_
 | `9-ambient-team-agent.md` | 58% | 42% |
 | `tech-radar-entry.md` | 58% | 42% |
 | `63-history.md` | 42% | 58% |
+| `KPI.md` | 58% | 42% |
 | `03-similarity-3-mcp-support.md` | 42% | 58% |
 | `01-fde-downgraded.md` | 58% | 42% |
 | `rfc.md` | 42% | 58% |

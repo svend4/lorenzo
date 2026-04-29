@@ -2,15 +2,15 @@
 
 _Обновлено: 2026-04-29_
 
-Всего: **2091** | Файлов: **1187**
+Всего: **2095** | Файлов: **1187**
 
 ## Сводка
 
 | Тип | Кол-во |
 |-----|--------|
-| ❓ Вопрос | 1558 |
-| 💭 Гипотеза | 379 |
-| 📌 TODO/Идея | 138 |
+| ❓ Вопрос | 1560 |
+| 💭 Гипотеза | 383 |
+| 📌 TODO/Идея | 136 |
 | 🔓 Открытый вопрос | 16 |
 
 ## 🔓 Открытый вопрос (16)
@@ -80,11 +80,11 @@ _Обновлено: 2026-04-29_
 - Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL 1.1 и прямо говорит о бесплатн [Лицензионные развилки]
 
 
-## ❓ Вопрос (1558)
+## ❓ Вопрос (1560)
 
 ### `OUTLINE.md` (129)
 
-- - - - - - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md)]
+- - - - - - - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md)]
 - - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A](docs/QA.md)]
 - - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A](docs/QA.md)]
 - - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A](docs/QA.md)]
@@ -336,8 +336,8 @@ _Обновлено: 2026-04-29_
 
 ### `KNOWLEDGE_MAP.md` (11)
 
-- - - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
-- - - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - - - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - - - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
 - - - Как реализован forensic RAG с доказуемостью? [Топ сущностей]
 - - - Что такое Evidence Envelope и зачем он нужен? [Открытые вопросы]
 - - - Какие RAG-подходы сравниваются в документах? [Открытые вопросы]
@@ -440,6 +440,15 @@ _Обновлено: 2026-04-29_
 - Draft outreach используя single-question template — к кому первому? [Анализ конкретных компонентов из документа (новых для нас)]
 - Verify top 5 components — мне fetch их Хабр articles + GitHub? [Анализ конкретных компонентов из документа (новых для нас)]
 - Save documents в DHLab repo — у меня есть create file capability? [Анализ конкретных компонентов из документа (новых для нас)]
+- _...ещё 2_
+
+### `DUPLICATES.md` (7)
+
+- Почему работает  : Голливуд — индустрия, интенсивная отношениями. [88% — `docs/02-anthropic-vacancies/192-2-исторические-прецед]
+- Why subsidiarity is right model  : - Below full-salary level preserves other life activities    (elders, disabled, caregivers) - Above charity level p [77% — `docs/02-anthropic-vacancies/158-4-proposed-infrastruc]
+- ### 71% —  docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md  vs  docs/nautilus/representative-agent-layer-ru/01-s [71% — `docs/02-anthropic-vacancies/233-2-что-делает-агента-п]
+- Синдром Золушки: Почему качество остаётся невидимым (#1-синдром-золушки-почему-качество-остаётся-невидимым)   -  1.1. [71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-поч]
+- The composite agent should help the principal monitor  configuration health: - Which sub-agents are most used? [69% — `docs/02-anthropic-vacancies/258-5-configuration-how-p]
 - _...ещё 2_
 
 ### `SUMMARIES.md` (7)
@@ -640,14 +649,6 @@ _Обновлено: 2026-04-29_
 - andrey chuyan     Svyazi   ingestion/CardIndex   15   Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы [Ключевые авторы проектов]
 - kksudo     AgentFS   knowledge/filesystem   57   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
 - spbmolot     NGT Memory   memory   58   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discover [Ключевые авторы проектов]
-
-### `DUPLICATES.md` (5)
-
-- Почему работает  : Голливуд — индустрия, интенсивная отношениями. [88% — `docs/02-anthropic-vacancies/192-2-исторические-прецед]
-- How are contributions to pattern library rewarded? [73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` ]
-- ### 71% —  docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md  vs  docs/nautilus/representative-agent-layer-ru/01-s [71% — `docs/02-anthropic-vacancies/233-2-что-делает-агента-п]
-- ### 69% —  docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md  vs  docs/nautilus/composite-skills-agents/01-why-binary-incomplete. [71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-поч]
-- Why the Binary View Is Incomplete (#1-why-the-binary-view-is-incomplete)   -  1.1. [69% — `docs/02-anthropic-vacancies/254-1-why-the-binary-view]
 
 ### `00-question-rephrasing.md` (5)
 
@@ -1118,8 +1119,8 @@ _Обновлено: 2026-04-29_
 
 ### `KPI.md` (2)
 
-- 2     адаптер для нового репо без задавания вопросов автору? [Этап (64)]
-- 3     озвращает non-empty результат с consensus-информацией? [Этап (64)]
+- 2     адаптер для нового репо без задавания вопросов автору? [Этап (66)]
+- 3     озвращает non-empty результат с consensus-информацией? [Этап (66)]
 
 ### `PASSIVE_VOICE.md` (2)
 
@@ -1713,11 +1714,11 @@ _Обновлено: 2026-04-29_
 - Эмерджентное свойство — почему пара важнее суммы. [Чт]
 
 
-## 📌 TODO/Идея (138)
+## 📌 TODO/Идея (136)
 
 ### `TABLES.md` (12)
 
-- TODO   ⭐   To Do — задача к выполнению   16 [1. Словарь аббревиатур и сокращений]
+- TODO   ⭐   To Do — задача к выполнению   18 [1. Словарь аббревиатур и сокращений]
 - 2025-Q1     ⬜ Написать авторам AgentFS, Yodoca, NGT   ⬜ Планируется [119. Шаблоны]
 - 2025-Q2     ⬜ Получить согласие на сотрудничество   ⬜ Планируется [119. Шаблоны]
 - 2025-Q2     ⬜ Создать рабочее окружение Knowledge OS   ⬜ Планируется [119. Шаблоны]
@@ -1959,23 +1960,15 @@ _Обновлено: 2026-04-29_
 
 ### `ABBREVIATIONS.md` (1)
 
-- TODO   ⭐   To Do — задача к выполнению   16 [Словарь аббревиатур и сокращений]
+- TODO   ⭐   To Do — задача к выполнению   18 [Словарь аббревиатур и сокращений]
 
 ### `DECISIONS.md` (1)
 
 - - склеивать  ###  memnet.md  (1) - Это синхронизируемая многоуровневая память Yodoca/xMemory, которая «следует» за тобой между устройствами. [Память (12)]
 
-### `DUPLICATES.md` (1)
-
-- The practitioner does not need to… [69% — `docs/02-anthropic-vacancies/213-2-what-makes-a-profes]
-
 ### `SUMMARIES.md` (1)
 
 - Финальная консолидированная — после Фазы C Удалять исходные ветки не следует до завершения Фазы C — они могут содержать контекст, нужный для разрешени [`docs/02-anthropic-vacancies/114-7-реализация-в-проекте-naut]
-
-### `VERSION_DIFF.md` (1)
-
-- docs/ACTION ITEMS.md    +106   ⚠️ Риски (596), ✅ Решения и рекомендации (277), 📋 Задачи (TODO) (24) +1   ⚠️ Риски (585), ✅ Решения и рекомендации (265 [📝 Изменённые файлы (92)]
 
 ### `01-three-key-candidates.md` (1)
 
@@ -2066,7 +2059,7 @@ _Обновлено: 2026-04-29_
 - Из этих линий следует, что «записать что‑то в память» никогда не должно быть одной неразличимой операцией. [Memory Write Policy]
 
 
-## 💭 Гипотеза (379)
+## 💭 Гипотеза (383)
 
 ### `01-интегральный-анализ-профиля-svend4.md` (21)
 
@@ -2109,7 +2102,7 @@ _Обновлено: 2026-04-29_
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
 - 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [27. Топ авторов по приоритету]
-- 4-6     ner (может быть Anthropic или Mistral). [75. Количество (245)]
+- 4-6     ner (может быть Anthropic или Mistral). [75. Количество (248)]
 - docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   308   43   7.2 [113. Все документы]
 - _...ещё 4_
 
@@ -2200,6 +2193,14 @@ _Обновлено: 2026-04-29_
 - - Возможно engaged в его own vision, не interested в applied domain [⚠️ Риски (596)]
 - - Working at Яндекс, может быть constraints на external collaboration [⚠️ Риски (596)]
 - - Если они see, что Lorenzo сам lists them as «collaborators» до того, как они agreed, может быть perception of presumption. [⚠️ Риски (596)]
+
+### `DUPLICATES.md` (5)
+
+- Sub-agent specializations might include  : Classical  composition, jazz improvisation, electronic music production,  specific instruments (piano, viol [82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-ap]
+- Sub-agent specializations might include  : Therapeutic  modalities (CBT, somatic experiencing, narrative therapy,  gestalt), specific conditions (trau [82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-ap]
+- Phase 0   (Months 1-12): Foundation establishment, initial  sub-agent set for one profession (perhaps SGB social law). [71% — `docs/02-anthropic-vacancies/262-9-integration-with-ok]
+- A new social  law lawyer might benefit from a starting template: - General SGB IX sub-agent - General SGB XII sub-agent   - Procedural law sub-agent … [69% — `docs/02-anthropic-vacancies/258-5-configuration-how-p]
+- This domain is perhaps the broadest application  of Double-Triangle architecture. [69% — `docs/02-anthropic-vacancies/143-6-four-deployment-dom]
 
 ### `258-5-configuration-how-principals-build-their-ensembl.md` (4)
 
@@ -2681,10 +2682,6 @@ _Обновлено: 2026-04-29_
 ### `COST.md` (1)
 
 - 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [Временные оценки из документов]
-
-### `DUPLICATES.md` (1)
-
-- Sub-agent specializations might include  : Specific organ  systems, types of conditions (acute, chronic, infectious,  autoimmune), patient populations [82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-ap]
 
 ### `KPI.md` (1)
 

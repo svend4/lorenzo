@@ -31,22 +31,22 @@ _Обновлено: 2026-04-29_
 | Документ | Описание | Слов |
 |----------|----------|------|
 | [ABBREVIATIONS.md](docs/ABBREVIATIONS.md) | — | 1628 |
-| [ACTION_ITEMS.md](docs/ACTION_ITEMS.md) | Задачи и риски (490) | 8135 |
+| [ACTION_ITEMS.md](docs/ACTION_ITEMS.md) | Задачи и риски (490) | 8130 |
 | [ALERTS.md](docs/ALERTS.md) | — | 79 |
 | [AUTHORS.md](docs/AUTHORS.md) | Авторы и контакты | 158 |
 | [AUTOFILLED.md](docs/AUTOFILLED.md) | — | 102 |
 | [BACKLINKS.md](docs/BACKLINKS.md) | — | 397 |
 | [BADGES.md](docs/BADGES.md) | — | 46 |
 | [BROKEN_LINKS.md](docs/BROKEN_LINKS.md) | Сломанные ссылки (26) | 790 |
-| [CHANGELOG.md](docs/CHANGELOG.md) | История изменений | 1454 |
+| [CHANGELOG.md](docs/CHANGELOG.md) | История изменений | 1486 |
 | [CHANGELOG_AUTO.md](docs/CHANGELOG_AUTO.md) | — | 353 |
-| [CITATION_INDEX.md](docs/CITATION_INDEX.md) | — | 935 |
+| [CITATION_INDEX.md](docs/CITATION_INDEX.md) | — | 934 |
 | [CLUSTERS.md](docs/CLUSTERS.md) | Кластеры (384 → 120 групп) | 1380 |
 | [CODE_BLOCKS.md](docs/CODE_BLOCKS.md) | — | 4713 |
 | [COMPARE.md](docs/COMPARE.md) | Сравнение с предыдущим коммитом | 477 |
 | [COMPLEXITY.md](docs/COMPLEXITY.md) | Оценка читаемости | 605 |
 | [COMPONENT_MATRIX.md](docs/COMPONENT_MATRIX.md) | — | 887 |
-| [CONCEPTS.md](docs/CONCEPTS.md) | Глоссарий понятий (888) | 13172 |
+| [CONCEPTS.md](docs/CONCEPTS.md) | Глоссарий понятий (888) | 13455 |
 | [CONCEPT_GRAPH.md](docs/CONCEPT_GRAPH.md) | — | 682 |
 | [CONSISTENCY.md](docs/CONSISTENCY.md) | — | 375 |
 | [CONTACTS.md](docs/CONTACTS.md) | Контакты (15 авторов) | 547 |
@@ -62,9 +62,9 @@ _Обновлено: 2026-04-29_
 | [DEPENDABOT.md](docs/DEPENDABOT.md) | — | 173 |
 | [DEPENDENCY_MAP.md](docs/DEPENDENCY_MAP.md) | — | 558 |
 | [DIGEST.md](docs/DIGEST.md) | — | 487 |
-| [DIGEST_AUTO.md](docs/DIGEST_AUTO.md) | — | 317 |
+| [DIGEST_AUTO.md](docs/DIGEST_AUTO.md) | — | 318 |
 | [DIGEST_WEEKLY.md](docs/DIGEST_WEEKLY.md) | — | 212 |
-| [DUPLICATES.md](docs/DUPLICATES.md) | — | 2699 |
+| [DUPLICATES.md](docs/DUPLICATES.md) | — | 2655 |
 | [EMPTY_SECTIONS.md](docs/EMPTY_SECTIONS.md) | — | 12122 |
 | [ENTITIES.md](docs/ENTITIES.md) | Именованные сущности | 742 |
 | [FAQ.md](docs/FAQ.md) | — | 892 |
@@ -72,13 +72,13 @@ _Обновлено: 2026-04-29_
 | [GITHUB_ISSUES.md](docs/GITHUB_ISSUES.md) | — | 1754 |
 | [GLOSSARY.md](docs/GLOSSARY.md) | Глоссарий проектов (33 записи) | 204 |
 | [GRAPH.md](docs/GRAPH.md) | Граф связей проектов | 2656 |
-| [HEADING_AUDIT.md](docs/HEADING_AUDIT.md) | — | 9028 |
+| [HEADING_AUDIT.md](docs/HEADING_AUDIT.md) | — | 9038 |
 | [HEALTH.md](docs/HEALTH.md) | Дашборд здоровья (75/100) | 214 |
 | [HEATMAP.md](docs/HEATMAP.md) | — | 537 |
 | [INDEX.md](docs/INDEX.md) | — | 616 |
 | [KEYWORD_INDEX.md](docs/KEYWORD_INDEX.md) | — | 1138 |
-| [KNOWLEDGE_MAP.md](docs/KNOWLEDGE_MAP.md) | — | 655 |
-| [KPI.md](docs/KPI.md) | Числовые KPI (737 показателей) | 2490 |
+| [KNOWLEDGE_MAP.md](docs/KNOWLEDGE_MAP.md) | — | 657 |
+| [KPI.md](docs/KPI.md) | Числовые KPI (737 показателей) | 2507 |
 | [KPI_HISTORY.md](docs/KPI_HISTORY.md) | — | 106 |
 | [LANGUAGE_STATS.md](docs/LANGUAGE_STATS.md) | — | 6767 |
 | [LINKS.md](docs/LINKS.md) | Внешние ссылки | 1029 |
@@ -87,12 +87,12 @@ _Обновлено: 2026-04-29_
 | [METRICS.md](docs/METRICS.md) | — | 465 |
 | [MINDMAP.md](docs/MINDMAP.md) | Майндмап в Mermaid | 242 |
 | [MISSING.md](docs/MISSING.md) | Пробелы знаний | 434 |
-| [NAMED_ENTITIES.md](docs/NAMED_ENTITIES.md) | — | 1669 |
+| [NAMED_ENTITIES.md](docs/NAMED_ENTITIES.md) | — | 1661 |
 | [NARRATIVE.md](docs/NARRATIVE.md) | — | 1043 |
 | [NETWORK.md](docs/NETWORK.md) | — | 413 |
 | [ONBOARDING.md](docs/ONBOARDING.md) | — | 552 |
 | [ORPHANS.md](docs/ORPHANS.md) | — | 105 |
-| [OUTLINE.md](docs/OUTLINE.md) | — | 35052 |
+| [OUTLINE.md](docs/OUTLINE.md) | — | 35053 |
 | [PARAGRAPH_QUALITY.md](docs/PARAGRAPH_QUALITY.md) | — | 15375 |
 | [PASSIVE_VOICE.md](docs/PASSIVE_VOICE.md) | — | 408 |
 | [PRIORITIES.md](docs/PRIORITIES.md) | Приоритеты (TF-IDF) | 3028 |
@@ -117,7 +117,7 @@ _Обновлено: 2026-04-29_
 | [README.md](docs/05-habr-projects/README.md) | Главная страница и навигация | 42 |
 | [README.md](docs/05-habr-projects/knowledge/README.md) | Главная страница и навигация | 13 |
 | [README.md](docs/05-habr-projects/memory/README.md) | Главная страница и навигация | 24 |
-| [README.md](docs/README.md) | Главная страница и навигация | 781 |
+| [README.md](docs/README.md) | Главная страница и навигация | 775 |
 | [README.md](docs/ai-collaborations/README.md) | Главная страница и навигация | 39 |
 | [README.md](docs/ai-collaborations/candidates/README.md) | Главная страница и навигация | 23 |
 | [README.md](docs/ai-collaborations/channels/README.md) | Главная страница и навигация | 25 |
@@ -204,7 +204,7 @@ _Обновлено: 2026-04-29_
 | [README.md](docs/technology-combinations/synthesis-tables/README.md) | Главная страница и навигация | 42 |
 | [README.md](docs/templates/README.md) | Главная страница и навигация | 82 |
 | [REGISTRY.md](docs/REGISTRY.md) | — | 1347 |
-| [REPORT.md](docs/REPORT.md) | — | 975 |
+| [REPORT.md](docs/REPORT.md) | — | 976 |
 | [RISK_REGISTER.md](docs/RISK_REGISTER.md) | — | 944 |
 | [SCHEDULE.md](docs/SCHEDULE.md) | — | 332 |
 | [SCORING.md](docs/SCORING.md) | — | 387 |
@@ -217,17 +217,17 @@ _Обновлено: 2026-04-29_
 | [SIMILAR_PASSAGES.md](docs/SIMILAR_PASSAGES.md) | — | 1931 |
 | [SKILL_DASHBOARD.md](docs/SKILL_DASHBOARD.md) | — | 35 |
 | [SOURCE_MAP.md](docs/SOURCE_MAP.md) | — | 6167 |
-| [SPELLCHECK.md](docs/SPELLCHECK.md) | — | 234 |
+| [SPELLCHECK.md](docs/SPELLCHECK.md) | — | 241 |
 | [STALENESS.md](docs/STALENESS.md) | — | 439 |
 | [STATS.md](docs/STATS.md) | Детальная статистика | 630 |
 | [SUMMARIES.md](docs/SUMMARIES.md) | — | 3910 |
-| [TABLES.md](docs/TABLES.md) | — | 117552 |
+| [TABLES.md](docs/TABLES.md) | — | 117529 |
 | [TAGS.md](docs/TAGS.md) | Теги (316 файлов, 12 тем) | 600 |
 | [TASKS_INDEX.md](docs/TASKS_INDEX.md) | — | 1012 |
 | [TECH_RADAR.md](docs/TECH_RADAR.md) | — | 612 |
 | [TIMELINE.md](docs/TIMELINE.md) | Временная шкала (800 маркеров) | 4347 |
 | [VALIDATION.md](docs/VALIDATION.md) | — | 581 |
-| [VERSION_DIFF.md](docs/VERSION_DIFF.md) | — | 1339 |
+| [VERSION_DIFF.md](docs/VERSION_DIFF.md) | — | 1364 |
 | [VOCABULARY.md](docs/VOCABULARY.md) | — | 943 |
 | [WORD_CLOUD.md](docs/WORD_CLOUD.md) | — | 212 |
 | [WORD_FREQ.md](docs/WORD_FREQ.md) | Частотный анализ слов | 2786 |

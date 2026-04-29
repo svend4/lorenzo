@@ -157,7 +157,7 @@ graph TD
     снимок["снимок\n(400)"]
     репозитория("репозитория\n(387)")
     корень["корень\n(377)"]
-    agent{{"agent\n(358)"}}
+    agent{{"agent\n(357)"}}
     tags["tags\n(353)"]
     nautilus["nautilus\n(321)"]
     раздел["раздел\n(310)"]
@@ -170,7 +170,7 @@ graph TD
     сходство["сходство\n(235)"]
     memory[("memory\n(193)")]
     collaboration["collaboration\n(189)"]
-    habr["habr\n(167)"]
+    habr["habr\n(168)"]
     layer[/"layer\n(159)"/]
     work["work\n(158)"]
 # ... (обрезано)
@@ -1539,7 +1539,7 @@ _`docs/ALERTS.md` | 11 строк_
 _`docs/BADGES.md` | 8 строк_
 
 ```markdown
-![tests](https://img.shields.io/badge/tests-155--passing-brightgreen)
+![tests](https://img.shields.io/badge/tests-175--passing-brightgreen)
 ![templates](https://img.shields.io/badge/templates-23-blue)
 ![skills](https://img.shields.io/badge/skills-28-blue)
 ![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
@@ -1718,5 +1718,5 @@ interface Adapter {
 - [READING_ORDER](docs/READING_ORDER.md)
 - [SEARCH](docs/SEARCH.md)
 - [CLUSTERS](docs/CLUSTERS.md)
-- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
+- [COMPARE](docs/COMPARE.md)
 

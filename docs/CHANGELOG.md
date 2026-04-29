@@ -1,7 +1,7 @@
 # CHANGELOG
 
-Всего коммитов: **95**  
-Статистика: 🔧 chore: 39 | ✨ feat: 28 | ⚡ improve: 14 | 📝 docs: 11 | 🐛 fix: 3
+Всего коммитов: **98**  
+Статистика: 🔧 chore: 40 | ✨ feat: 29 | ⚡ improve: 14 | 📝 docs: 12 | 🐛 fix: 3
 
 
 ## semantic (1 коммитов)
@@ -10,10 +10,11 @@
 
 - hybrid _  E4. cm_
 
-## 2026-04-29 (92 коммитов)
+## 2026-04-29 (95 коммитов)
 
 ### 🔧 Обслуживание
 
+- regenerate auto-exports after Sprint 21-23 _6ac59707_
 - regenerate auto-exports after Sprint 18-20 _f053125f_
 - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737f2_
 - regenerate badges + auto-exports after Sprint 12-14 _25de4e63_
@@ -80,6 +81,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _88a8480c_
 - auto-update via improve_run_all [skip ci] _6f3be4a7_
 - auto-update via improve_run_all [skip ci] _0c696915_
 - auto-update via improve_run_all [skip ci] _519d41b5_
@@ -95,6 +97,8 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- Sprint 21-23 — embeddings cache, skill testing, release engineering _11d7bad1_
+  > Sprint 21 — Persistent embeddings cache
 - Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest _89f9dc93_
   > Sprint 18 — MCP-изация
 - Sprint 15-17 — workflow v2, observability, embeddings, i18n _2265a4db_

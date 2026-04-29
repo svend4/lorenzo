@@ -23,7 +23,7 @@ digraph network {
   "ingit" [fillcolor=lightblue];
   "Cowork" -- "ingit" [weight=135, penwidth=5];
   "Svyazi" -- "Yodoca" [weight=122, penwidth=5];
-  "Svyazi" -- "CardIndex" [weight=117, penwidth=5];
+  "Svyazi" -- "CardIndex" [weight=116, penwidth=5];
   "Svyazi" -- "NGT" [weight=116, penwidth=5];
   "Yodoca" -- "NGT" [weight=101, penwidth=5];
   "Svyazi" -- "AgentFS" [weight=89, penwidth=5];
@@ -44,9 +44,9 @@ digraph network {
   "Yodoca" -- "MemNet" [weight=68, penwidth=5];
   "NGT" -- "knowledge-space" [weight=68, penwidth=5];
   "Yodoca" -- "Rufler" [weight=65, penwidth=5];
-  "CardIndex" -- "knowledge-space" [weight=64, penwidth=5];
   "NGT" -- "mclaude" [weight=64, penwidth=5];
   "Svyazi" -- "Lorenzo (svend4)" [weight=63, penwidth=5];
+  "CardIndex" -- "knowledge-space" [weight=63, penwidth=5];
   "AgentFS" -- "LiteParse" [weight=63, penwidth=5];
   "NGT" -- "Rufler" [weight=62, penwidth=5];
   "Rufler" -- "mclaude" [weight=62, penwidth=5];

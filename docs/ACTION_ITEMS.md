@@ -400,8 +400,6 @@ _(51 дублей скрыто)_
   _→ 00-intro_
 - 2019 года, после изменений 2024 года применяется иначе»);  
   _→ 00-intro_
-- Record (ADR): контекст → варианты → решение → последствия  
-  _→ CONCEPTS_
 - tree для разрешения расхождений в §3  
   _→ CONCEPTS_
 - + обоснование]  
@@ -410,6 +408,8 @@ _(51 дублей скрыто)_
   _→ CONTENT_GAPS_
 - создать документы  
   _→ CONTENT_GAPS_
+- упростить | | `docs/templates/decision-record.md` | -16 | — | — | | `docs/CODE_BLOCKS.md` | -15 | Markdown сниппеты для README, markdown (21), 💻  
+  _→ DECISIONS_
 - формат с параллельными разделами, а не отдельны…  
   _→ DUPLICATES_
 - (5 сл., строка 22)  
@@ -454,12 +454,10 @@ _(51 дублей скрыто)_
   _→ TABLES_
 - создать документы](#28-рекомендуется-создать-документы)  
   _→ TABLES_
-- упростить | Самые сложные тексты (1142) — рекомендуется упростить |  
-  _→ TABLES_
-- исправить.  
-  _→ VALIDATION_
 - упростить | Самые сложные тексты (1161) — рекомендуется упростить |  
-  _→ VERSION_DIFF_
+  _→ TABLES_
+- Record (ADR): контекст → варианты → решение → последствия  
+  _→ VALIDATION_
 - позиционировать как research database, не как legal service. «Вот как типичный case структурируется» — OK. «Вот что вам лично делать» — не OK без юрид  
   _→ 03-what-this-gives-technically_
 - Но reality: knowledge work ветвится постоянно. Во время обсуждения проекта X возникает идея для проекта Y. Во время review кода возникает architectura  
@@ -481,7 +479,7 @@ _(51 дублей скрыто)_
 - 1] — см. [ADR-NNNN](../decisions/ADR-NNNN.md)  
   _→ weekly-digest_
 
-_(142 дублей скрыто)_
+_(143 дублей скрыто)_
 
 ## ⚠️ Риски (596)
 
@@ -939,9 +937,9 @@ _(142 дублей скрыто)_
   _→ DECISIONS_
 - | `root` | 79% |  
   _→ DENSITY_
-- mitigations**: - If anchor commitment fails: pivot to foundation-only funding with delayed, smaller pilot - If core team assembly slow: partner wit  
+- Configuration Paralysis](#101-risk-configuration-paralysis) - [10.2. Risk: Configura…  
   _→ DUPLICATES_
-- Analysis](#8-risk-analysis) - [8.1. Risk: Insufficient Demand from Target Contributor Population](#81-risk-insufficient-demand-from-target-contribut  
+- sources**: - Employment law reclassifying contributors as employees - GDPR enforcement challenges with anonymization pipeline - AI Act regulatory requ  
   _→ DUPLICATES_
 - Analysis (0 сл., строка 41)  
   _→ EMPTY_SECTIONS_
@@ -1039,8 +1037,6 @@ _(142 дублей скрыто)_
   _→ TABLES_
 - идентифицирован | [Имя] |  
   _→ TABLES_
-- | `root` | 80% |  
-  _→ TABLES_
 - и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
   _→ TABLES_
 - склеивать, выводы |  
@@ -1070,7 +1066,7 @@ _(142 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(304 дублей скрыто)_
+_(305 дублей скрыто)_
 
 ## 🚫 Ограничения (144)
 
@@ -1247,11 +1243,11 @@ _(68 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- ⭐ To Do — задача к выполнению 14 [1. Словарь аббревиатур и сокращений]  
+- ⭐ To Do — задача к выполнению 16 [1. Словарь аббревиатур и сокращений]  
   _→ QUESTIONS_
 - из docs/. [extract (9)]  
   _→ QUESTIONS_
-- ⭐ To Do — задача к выполнению 14 [Словарь аббревиатур и сокращений]  
+- ⭐ To Do — задача к выполнению 16 [Словарь аббревиатур и сокращений]  
   _→ QUESTIONS_
 - во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
   _→ QUESTIONS_
@@ -1261,7 +1257,7 @@ _(68 дублей скрыто)_
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
   _→ SCRIPTS_CATALOG_
-- меток: **47**  
+- меток: **51**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_

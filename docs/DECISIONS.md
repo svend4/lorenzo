@@ -133,11 +133,11 @@ _...ещё 17 записей в этой категории_
 - в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](docs/contacts/README.md) > Файлов: 14 - Содержание _Слов: 62_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude  
   _→ OUTLINE_
 
-- вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
+- упростить | Самые сложные тексты (1161) — рекомендуется упростить | | `docs/templates/decision-record.md` | -16 | — | — | | `docs/CODE_BLOCKS.md` | -15 | Markdown сниппеты для README, markdown (21), 💻  
   _→ TABLES_
 
-- упростить | Самые сложные тексты (1161) — рекомендуется упростить | | `docs/templates/decision-record.md` | -16 | — | — | | `docs/CODE_BLOCKS.md` | -15 | Markdown сниппеты для README, markdown (21), 💻  
-  _→ VERSION_DIFF_
+- вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
+  _→ TABLES_
 
 - склеивать». ## Оркестрация — выбрать один spine Хотя mclaude, AI Factory, Rufler и Sequential выглядят очень привлекательно, их не стоит собирать вс  
   _→ do-not-glue_
