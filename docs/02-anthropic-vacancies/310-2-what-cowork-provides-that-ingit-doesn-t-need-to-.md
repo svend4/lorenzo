@@ -1,5 +1,10 @@
 # 2. What Cowork Provides That InGit Doesn't Need to Build
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

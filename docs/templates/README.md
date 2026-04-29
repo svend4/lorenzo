@@ -1,21 +1,31 @@
-# templates
+# Шаблоны документов
 
-**Файлов:** 5
+_Создано: 2026-04-29_
 
-## Содержание
+Готовые заготовки для создания новых документов в репозитории.
 
-- [contact-outreach.md](contact-outreach.md) — <!-- toc-auto -->
-- [decision-record.md](decision-record.md) — <!-- toc-auto -->
-- [ensemble.md](ensemble.md) — <!-- toc-auto -->
-- [project-component.md](project-component.md) — <!-- toc-auto -->
-- [research-note.md](research-note.md) — <!-- toc-auto -->
+## Доступные шаблоны
 
-<!-- similar-docs -->
+| Шаблон | Назначение |
+|--------|------------|
+| [project-component.md](project-component.md) | Описание отдельного OSS-компонента |
+| [ensemble.md](ensemble.md) | Ансамбль из нескольких компонентов |
+| [research-note.md](research-note.md) | Заметка об исследовании/анализе |
+| [decision-record.md](decision-record.md) | Архитектурное решение (ADR) |
+| [contact-outreach.md](contact-outreach.md) | Шаблон контакта с автором |
+
+## Использование
+
+```bash
+# Скопируйте нужный шаблон в нужную папку
+cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.md
+# Затем откройте и заполните поля в [квадратных скобках]
+```
+
+<!-- see-also -->
 
 ---
 
-**Похожие документы:**
-- [README](docs/05-habr-projects/memory/README.md) (сходство 0.14)
-- [research-note](docs/templates/research-note.md) (сходство 0.14)
-- [project-component](docs/templates/project-component.md) (сходство 0.14)
+**Смотрите также:**
+- [research-summary](docs/autofilled/research-summary.md)
 

@@ -1,57 +1,18 @@
 # Отчёт об устаревших документах
 
-<!-- summary -->
-> > 🎯 **Проблема:** Обновлено: 2026-04-29 Найдено проблем: 189 файлов Без метаданных (нет summary или тегов) — 150 файлов Файл Слов Проблемы --------------------- docs/01-svyazi/00-intro-part2.md 5 не
-**Проекты:** Svyazi
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Без метаданных (нет summary или тегов) — 150 файлов](#без-метаданных-нет-summary-или-тегов-150-файлов)
-- [Короткие (< 100 слов, заготовки) — 39 файлов](#короткие-100-слов-заготовки-39-файлов)
-- [Рекомендуемые действия](#рекомендуемые-действия)
-
----
-
-<!-- tags: ingestion, architecture, anthropic, collaboration -->
-
-
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Обновлено: 2026-04-29 Найдено проблем: 189 файлов Без метаданных (нет summary или тегов) — 150 файлов Файл Слов Проблемы --------------------- docs/01-svyazi/00-intro-part2.md 5 не
-> 🔧 **Подход:** Обновлено: 2026-04-29 Найдено проблем: 189 файлов Без метаданных (нет summary или тегов) — 150 файлов Файл Слов Проблемы --------------------- docs/01-svyazi/00-intro-part2.md 5 не
-> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `тегов`, `summary`, `короткий`, `файлов`, `svyazi`, `contents`
->
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Без метаданных (нет summary или тегов) — 150 файлов](#без-метаданных-нет-summary-или-тегов-150-файлов)
-- [Короткие (< 100 слов, заготовки) — 39 файлов](#короткие-100-слов-заготовки-39-файлов)
-- [Рекомендуемые действия](#рекомендуемые-действия)
-
-
 _Порог: 30 дней. Обновлено: 2026-04-29_
 
-Найдено проблем: **254** файлов
+Найдено проблем: **250** файлов
 
-## Без метаданных (нет summary или тегов) — 164 файлов
+## Без метаданных (нет summary или тегов) — 163 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
 | `docs/01-svyazi/00-intro-part2.md` | 5 | нет summary, нет тегов, короткий (5 слов) |
-| `docs/01-svyazi/QA.md` | 255 | нет summary, нет тегов |
-| `docs/01-svyazi/README.md` | 77 | нет тегов, короткий (77 слов) |
+| `docs/01-svyazi/QA.md` | 206 | нет summary, нет тегов |
+| `docs/01-svyazi/README.md` | 69 | нет тегов, короткий (69 слов) |
 | `docs/02-anthropic-vacancies/102-доступ-к-данным.md` | 20 | нет summary, нет тегов, короткий (20 слов) |
 | `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | 148 | нет тегов |
-| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | 148 | нет тегов |
 | `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 41 | нет тегов, короткий (41 слов) |
 | `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` | 91 | нет summary, нет тегов, короткий (91 слов) |
 | `docs/02-anthropic-vacancies/202-12-заключение.md` | 179 | нет тегов |
@@ -62,12 +23,13 @@ _Порог: 30 дней. Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` | 178 | нет тегов |
 | `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | 77 | нет тегов, короткий (77 слов) |
 | `docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md` | 75 | нет тегов, короткий (75 слов) |
-| `docs/02-anthropic-vacancies/38-content-overview.md` | 97 | нет тегов, короткий (97 слов) |
-| `docs/02-anthropic-vacancies/QA.md` | 360 | нет summary, нет тегов |
+| `docs/02-anthropic-vacancies/QA.md` | 362 | нет summary, нет тегов |
 | `docs/03-technology-combinations/QA.md` | 146 | нет summary, нет тегов |
-| `docs/03-technology-combinations/README.md` | 38 | нет тегов, короткий (38 слов) |
+| `docs/03-technology-combinations/README.md` | 32 | нет тегов, короткий (32 слов) |
+| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
+| `docs/04-ai-collaborations/README.md` | 69 | нет тегов, короткий (69 слов) |
 
-## Короткие (< 100 слов, заготовки) — 90 файлов
+## Короткие (< 100 слов, заготовки) — 87 файлов
 
 | Файл | Слов |
 |------|------|
@@ -77,10 +39,8 @@ _Порог: 30 дней. Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/12-content-overview.md` | 29 |
 | `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | 68 |
 | `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` | 88 |
-| `docs/02-anthropic-vacancies/126-установка.md` | 86 |
-| `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` | 83 |
 | `docs/02-anthropic-vacancies/13-angle-perspective.md` | 58 |
-| `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` | 87 |
+| `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` | 88 |
 | `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` | 62 |
 | `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | 35 |
 | `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | 82 |
@@ -91,6 +51,8 @@ _Порог: 30 дней. Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/16-history.md` | 71 |
 | `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | 36 |
 | `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | 99 |
+| `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` | 35 |
+| `docs/02-anthropic-vacancies/190-содержание.md` | 88 |
 
 ## Рекомендуемые действия
 
@@ -102,13 +64,3 @@ python scripts/improve_tags.py
 # Обогатить короткие файлы через LLM
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [COVERAGE](docs/COVERAGE.md) (сходство 0.35)
-- [SITEMAP](docs/SITEMAP.md) (сходство 0.21)
-- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.21)
-

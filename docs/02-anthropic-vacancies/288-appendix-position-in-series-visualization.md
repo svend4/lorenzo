@@ -1,5 +1,10 @@
 # Appendix: Position in Series Visualization
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

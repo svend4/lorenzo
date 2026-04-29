@@ -1,5 +1,20 @@
 # Кластеры тематически близких файлов
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> Метод: TF-IDF + косинусное сходство (порог 0.15)
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
 Документов: 473, кластеров: 131
 
@@ -343,3 +358,14 @@
 - `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` — _216-5-the-economics-of-profession-wide-replication_
 
 _...и ещё 101 малых кластеров (по 1-2 файла)_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LANGUAGE_STATS](docs/LANGUAGE_STATS.md)
+- [SEARCH](docs/SEARCH.md)
+- [READING_ORDER](docs/READING_ORDER.md)
+- [SOURCE_MAP](docs/SOURCE_MAP.md)
+

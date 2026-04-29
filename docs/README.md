@@ -1,82 +1,106 @@
 # docs
 
-**Файлов:** 73
+**Файлов:** 97
 
 ## Содержание
 
-- [ABBREVIATIONS.md](ABBREVIATIONS.md) — <!-- abstract-auto -->
-- [ACTION_ITEMS.md](ACTION_ITEMS.md) — <!-- abstract-auto -->
-- [ALERTS.md](ALERTS.md) — Добавлено **129** callout-блоков в документы.
-- [AUTHORS.md](AUTHORS.md) — <!-- summary -->
-- [BACKLINKS.md](BACKLINKS.md) — <!-- abstract-auto -->
-- [BROKEN_LINKS.md](BROKEN_LINKS.md) — <!-- abstract-auto -->
-- [CHANGELOG.md](CHANGELOG.md) — <!-- abstract-auto -->
-- [CLUSTERS.md](CLUSTERS.md) — <!-- abstract-auto -->
-- [CODE_BLOCKS.md](CODE_BLOCKS.md) — <!-- abstract-auto -->
-- [COMPARE.md](COMPARE.md) — > [!WARNING]
-- [COMPLEXITY.md](COMPLEXITY.md) — <!-- abstract-auto -->
-- [CONCEPTS.md](CONCEPTS.md) — <!-- abstract-auto -->
-- [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) — <!-- abstract-auto -->
-- [CONSISTENCY.md](CONSISTENCY.md) — <!-- abstract-auto -->
-- [CONTACTS.md](CONTACTS.md) — <!-- abstract-auto -->
-- [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) — <!-- abstract-auto -->
-- [CONTRADICTIONS.md](CONTRADICTIONS.md) — _Обновлено: 2026-04-29_
-- [COST.md](COST.md) — <!-- abstract-auto -->
-- [COVERAGE.md](COVERAGE.md) — <!-- abstract-auto -->
-- [CROSSREFS.md](CROSSREFS.md) — <!-- abstract-auto -->
-- [DECISIONS.md](DECISIONS.md) — <!-- abstract-auto -->
-- [DENSITY.md](DENSITY.md) — <!-- abstract-auto -->
-- [DIGEST.md](DIGEST.md) — <!-- abstract-auto -->
-- [DUPLICATES.md](DUPLICATES.md) — <!-- abstract-auto -->
-- [EMPTY_SECTIONS.md](EMPTY_SECTIONS.md) — <!-- abstract-auto -->
-- [ENTITIES.md](ENTITIES.md) — <!-- abstract-auto -->
-- [FAQ.md](FAQ.md) — <!-- abstract-auto -->
-- [FOOTNOTES.md](FOOTNOTES.md) — <!-- abstract-auto -->
-- [GLOSSARY.md](GLOSSARY.md) — <!-- abstract-auto -->
-- [GRAPH.md](GRAPH.md) — <!-- abstract-auto -->
-- [HEADING_AUDIT.md](HEADING_AUDIT.md) — <!-- abstract-auto -->
-- [HEALTH.md](HEALTH.md) — <!-- toc-auto -->
-- [HEATMAP.md](HEATMAP.md) — <!-- abstract-auto -->
-- [KEYWORD_INDEX.md](KEYWORD_INDEX.md) — <!-- abstract-auto -->
-- [KNOWLEDGE_MAP.md](KNOWLEDGE_MAP.md) — _Обновлено: 2026-04-29_
-- [KPI.md](KPI.md) — <!-- abstract-auto -->
-- [LANGUAGE_STATS.md](LANGUAGE_STATS.md) — <!-- abstract-auto -->
-- [LINKS.md](LINKS.md) — <!-- abstract-auto -->
-- [METRICS.md](METRICS.md) — <!-- abstract-auto -->
-- [MINDMAP.md](MINDMAP.md) — <!-- abstract-auto -->
-- [MISSING.md](MISSING.md) — <!-- abstract-auto -->
-- [NAMED_ENTITIES.md](NAMED_ENTITIES.md) — <!-- toc-auto -->
-- [NARRATIVE.md](NARRATIVE.md) — <!-- abstract-auto -->
-- [NETWORK.md](NETWORK.md) — <!-- abstract-auto -->
-- [ORPHANS.md](ORPHANS.md) — <!-- toc-auto -->
-- [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — <!-- abstract-auto -->
-- [PASSIVE_VOICE.md](PASSIVE_VOICE.md) — <!-- abstract-auto -->
-- [PRIORITIES.md](PRIORITIES.md) — <!-- abstract-auto -->
+- [ABBREVIATIONS.md](ABBREVIATIONS.md) — **Найдено:** 84 аббревиатур (22 известных + 62 автоматически)
+- [ACTION_ITEMS.md](ACTION_ITEMS.md) — Автоматически извлечено из всех документов.
+- [ALERTS.md](ALERTS.md) — <!-- summary -->
+- [AUTHORS.md](AUTHORS.md) — Авторы проектов, упоминаемые в исследованиях.
+- [AUTOFILLED.md](AUTOFILLED.md) — <!-- summary -->
+- [BACKLINKS.md](BACKLINKS.md) — **Файлов с входящими ссылками:** 504
+- [BROKEN_LINKS.md](BROKEN_LINKS.md) — <!-- summary -->
+- [CHANGELOG.md](CHANGELOG.md) — <!-- summary -->
+- [CHANGELOG_AUTO.md](CHANGELOG_AUTO.md) — <!-- summary -->
+- [CITATION_INDEX.md](CITATION_INDEX.md) — _Обновлено: 2026-04-29_
+- [CLUSTERS.md](CLUSTERS.md) — Метод: TF-IDF + косинусное сходство (порог 0.15)
+- [CODE_BLOCKS.md](CODE_BLOCKS.md) — **Всего блоков:** 224
+- [COMPARE.md](COMPARE.md) — <!-- summary -->
+- [COMPLEXITY.md](COMPLEXITY.md) — **Файлов проанализировано:** 495
+- [COMPONENT_MATRIX.md](COMPONENT_MATRIX.md) — <!-- summary -->
+- [CONCEPTS.md](CONCEPTS.md) — _Определения извлечены автоматически из документов._
+- [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) — <!-- summary -->
+- [CONSISTENCY.md](CONSISTENCY.md) — Анализ различных написаний одних и тех же терминов.
+- [CONTACTS.md](CONTACTS.md) — <!-- summary -->
+- [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) — <!-- summary -->
+- [CONTENT_GAPS.md](CONTENT_GAPS.md) — _Обновлено: 2026-04-29_
+- [CONTRADICTIONS.md](CONTRADICTIONS.md) — <!-- summary -->
+- [COST.md](COST.md) — <!-- summary -->
+- [COVERAGE.md](COVERAGE.md) — <!-- summary -->
+- [CROSSREFS.md](CROSSREFS.md) — Для каждого проекта — в каких файлах он упоминается.
+- [CROSS_SECTION.md](CROSS_SECTION.md) — _Обновлено: 2026-04-29_
+- [DECISIONS.md](DECISIONS.md) — Автоматически извлечено из всех документов: **196 записей**
+- [DENSITY.md](DENSITY.md) — Количество упоминаний каждой темы в каждом разделе.
+- [DEPENDABOT.md](DEPENDABOT.md) — _Обновлено: 2026-04-29_
+- [DEPENDENCY_MAP.md](DEPENDENCY_MAP.md) — <!-- summary -->
+- [DIGEST.md](DIGEST.md) — <!-- summary -->
+- [DIGEST_AUTO.md](DIGEST_AUTO.md) — _Период: 2026-04-15 — 2026-04-29 (14 дней)_
+- [DIGEST_WEEKLY.md](DIGEST_WEEKLY.md) — _Период: последние 7 дней (с 2026-04-22)_
+- [DUPLICATES.md](DUPLICATES.md) — Порог сходства: **0.5**
+- [EMPTY_SECTIONS.md](EMPTY_SECTIONS.md) — <!-- summary -->
+- [ENTITIES.md](ENTITIES.md) — **Файлов просмотрено:** 500
+- [FAQ.md](FAQ.md) — <!-- summary -->
+- [FOOTNOTES.md](FOOTNOTES.md) — <!-- summary -->
+- [GITHUB_ISSUES.md](GITHUB_ISSUES.md) — _Обновлено: 2026-04-29_
+- [GLOSSARY.md](GLOSSARY.md) — Все проекты, упоминаемые в документах, с количеством файлов.
+- [GRAPH.md](GRAPH.md) — <!-- summary -->
+- [HEADING_AUDIT.md](HEADING_AUDIT.md) — <!-- summary -->
+- [HEALTH.md](HEALTH.md) — <!-- summary -->
+- [HEATMAP.md](HEATMAP.md) — Плотность упоминаний каждой темы по разделам (‰ — на тысячу слов).
+- [INDEX.md](INDEX.md) — > [!TIP]
+- [KEYWORD_INDEX.md](KEYWORD_INDEX.md) — <!-- summary -->
+- [KNOWLEDGE_MAP.md](KNOWLEDGE_MAP.md) — <!-- summary -->
+- [KPI.md](KPI.md) — _Извлечено: **820** числовых показателей из документов_
+- [KPI_HISTORY.md](KPI_HISTORY.md) — <!-- summary -->
+- [LANGUAGE_STATS.md](LANGUAGE_STATS.md) — <!-- summary -->
+- [LINKS.md](LINKS.md) — Всего уникальных URL: 137
+- [LLM_SUMMARIES.md](LLM_SUMMARIES.md) — <!-- summary -->
+- [METRICS.md](METRICS.md) — <!-- tags: ingestion, architecture, anthropic, collaboration -->
+- [MINDMAP.md](MINDMAP.md) — <!-- summary -->
+- [MISSING.md](MISSING.md) — <!-- summary -->
+- [NAMED_ENTITIES.md](NAMED_ENTITIES.md) — <!-- summary -->
+- [NARRATIVE.md](NARRATIVE.md) — <!-- toc -->
+- [NETWORK.md](NETWORK.md) — <!-- summary -->
+- [ONBOARDING.md](ONBOARDING.md) — > [!TIP]
+- [ORPHANS.md](ORPHANS.md) — <!-- summary -->
+- [OUTLINE.md](OUTLINE.md) — _Обновлено: 2026-04-29_
+- [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — <!-- summary -->
+- [PASSIVE_VOICE.md](PASSIVE_VOICE.md) — <!-- summary -->
+- [PRIORITIES.md](PRIORITIES.md) — Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).
 - [PROGRESS.md](PROGRESS.md) — _Обновлено: 2026-04-29 (improve_progress_sync.py)_
-- [QA.md](QA.md) — <!-- abstract-auto -->
-- [QUESTIONS.md](QUESTIONS.md) — <!-- abstract-auto -->
-- [READING_LIST.md](READING_LIST.md) — _Обновлено: 2026-04-29_
-- [READING_ORDER.md](READING_ORDER.md) — <!-- abstract-auto -->
-- [REPORT.md](REPORT.md) — <!-- abstract-auto -->
-- [SCHEDULE.md](SCHEDULE.md) — <!-- abstract-auto -->
-- [SCORING.md](SCORING.md) — <!-- abstract-auto -->
-- [SEARCH.md](SEARCH.md) — **Файлов:** 483
-- [SEARCH_RESULTS.md](SEARCH_RESULTS.md) — _Обновлено: 2026-04-29_
-- [SEE_ALSO.md](SEE_ALSO.md) — <!-- abstract-auto -->
-- [SENTIMENT.md](SENTIMENT.md) — <!-- abstract-auto -->
-- [SIMILAR.md](SIMILAR.md) — <!-- abstract-auto -->
-- [SIMILAR_PASSAGES.md](SIMILAR_PASSAGES.md) — <!-- abstract-auto -->
-- [SITEMAP.md](SITEMAP.md) — <!-- abstract-auto -->
-- [STALENESS.md](STALENESS.md) — <!-- abstract-auto -->
-- [STATS.md](STATS.md) — <!-- abstract-auto -->
-- [SUMMARIES.md](SUMMARIES.md) — <!-- abstract-auto -->
-- [TABLES.md](TABLES.md) — <!-- abstract-auto -->
-- [TAGS.md](TAGS.md) — <!-- abstract-auto -->
-- [TIMELINE.md](TIMELINE.md) — <!-- toc-auto -->
-- [VALIDATION.md](VALIDATION.md) — <!-- abstract-auto -->
-- [VOCABULARY.md](VOCABULARY.md) — <!-- abstract-auto -->
-- [WORD_CLOUD.md](WORD_CLOUD.md) — Визуализация 80 самых частых слов репозитория.
-- [WORD_FREQ.md](WORD_FREQ.md) — <!-- abstract-auto -->
+- [QA.md](QA.md) — <!-- summary -->
+- [QUESTIONS.md](QUESTIONS.md) — _Извлечено автоматически из всех документов: **521** вопросов_
+- [READABILITY.md](READABILITY.md) — _Обновлено: 2026-04-29_
+- [READING_LIST.md](READING_LIST.md) — <!-- summary -->
+- [READING_ORDER.md](READING_ORDER.md) — <!-- summary -->
+- [READING_TIME.md](READING_TIME.md) — _Обновлено: 2026-04-29_
+- [REPORT.md](REPORT.md) — _Сгенерировано автоматически: 2026-04-29_
+- [RISK_REGISTER.md](RISK_REGISTER.md) — > [!TIP]
+- [SCHEDULE.md](SCHEDULE.md) — <!-- summary -->
+- [SCORING.md](SCORING.md) — <!-- summary -->
+- [SEARCH.md](SEARCH.md) — **Файлов:** 502
+- [SEARCH_RESULTS.md](SEARCH_RESULTS.md) — <!-- tags: security, knowledge -->
+- [SEE_ALSO.md](SEE_ALSO.md) — <!-- summary -->
+- [SENTIMENT.md](SENTIMENT.md) — **Файлов проанализировано:** 441
+- [SIMILAR.md](SIMILAR.md) — **Файлов проанализировано:** 496
+- [SIMILAR_PASSAGES.md](SIMILAR_PASSAGES.md) — <!-- summary -->
+- [SITEMAP.md](SITEMAP.md) — <!-- summary -->
+- [SOURCE_MAP.md](SOURCE_MAP.md) — _Обновлено: 2026-04-29_
+- [SPELLCHECK.md](SPELLCHECK.md) — _Обновлено: 2026-04-29_
+- [STALENESS.md](STALENESS.md) — <!-- summary -->
+- [STATS.md](STATS.md) — <!-- summary -->
+- [SUMMARIES.md](SUMMARIES.md) — <!-- summary -->
+- [TABLES.md](TABLES.md) — **Всего таблиц:** 239
+- [TAGS.md](TAGS.md) — Каждый файл помечен тегами по темам автоматически.
+- [TECH_RADAR.md](TECH_RADAR.md) — > [!WARNING]
+- [TIMELINE.md](TIMELINE.md) — Всего временных меток: **1534**
+- [VALIDATION.md](VALIDATION.md) — <!-- summary -->
+- [VERSION_DIFF.md](VERSION_DIFF.md) — _Обновлено: 2026-04-29_
+- [VOCABULARY.md](VOCABULARY.md) — <!-- summary -->
+- [WORD_CLOUD.md](WORD_CLOUD.md) — <!-- summary -->
+- [WORD_FREQ.md](WORD_FREQ.md) — **Всего слов (очищенных):** 314,739
+- [reading-paths.md](reading-paths.md) — > [!TIP]
 
 ## Подразделы
 
@@ -85,17 +109,16 @@
 - [03-technology-combinations/](03-technology-combinations/) — Комбинирование технологий для новых свойств
 - [04-ai-collaborations/](04-ai-collaborations/) — Поиск AI-коллабораций
 - [05-habr-projects/](05-habr-projects/) — Уникальные проекты с Хабра
+- [ai-collaborations/](ai-collaborations/) — ai-collaborations
+- [anthropic-vacancies/](anthropic-vacancies/) — anthropic-vacancies
+- [autofilled/](autofilled/) — autofilled
 - [badges/](badges/) — badges
 - [chunks/](chunks/) — chunks
 - [contacts/](contacts/) — contacts
+- [glossary/](glossary/) — glossary
+- [habr-unique-projects/](habr-unique-projects/) — habr-unique-projects
+- [lorenzo-agent/](lorenzo-agent/) — lorenzo-agent
+- [nautilus/](nautilus/) — nautilus
+- [svyazi-2-0/](svyazi-2-0/) — svyazi-2-0
+- [technology-combinations/](technology-combinations/) — technology-combinations
 - [templates/](templates/) — templates
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [TAGS](docs/TAGS.md) (сходство 0.27)
-- [DIGEST](docs/DIGEST.md) (сходство 0.27)
-- [BACKLINKS](docs/BACKLINKS.md) (сходство 0.22)
-

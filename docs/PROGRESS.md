@@ -26,15 +26,15 @@ _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
 | Скрипты обработки | ✅ 140 скриптов | 5 LLM-скриптов, MCP=✅ |
 | DIGEST.md | ✅ 6 секций | python scripts/improve_llm_summary.py |
-| Claude Skills | ✅ 5 скиллов | review-docs, status, write-contact, improve, analyze-project |
+| Claude Skills | ✅ 5 скиллов | review-docs, analyze-project, status, write-contact, improve |
 
 ## Метрики качества
 
 | Метрика | Балл | Статус |
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 77.0/100 | 🟡 |
-| Качество доков (METRICS) | 67.5/100 | 🟡 |
-| Go/No-Go (SCORING) | 100.0/100 | 🟢 |
+| Качество доков (METRICS) | 71.3/100 | 🟡 |
+| Go/No-Go (SCORING) | 93.0/100 | 🟡 |
 
 ## Следующий шаг
 

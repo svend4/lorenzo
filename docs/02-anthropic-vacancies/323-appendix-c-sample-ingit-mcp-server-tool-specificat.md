@@ -1,5 +1,10 @@
 # Appendix C: Sample InGit MCP Server Tool Specifications
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

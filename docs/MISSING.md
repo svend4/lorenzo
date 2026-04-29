@@ -1,51 +1,32 @@
 # Карта пробелов знаний
 
-<!-- summary -->
-> > 🎯 **Проблема:** Статус Тема / Проект Файлов Слов Минимум Примеры файлов -------------------------------------------------------------- ⚠️ бюджетный роутинг 6 68 ≥2ф/300сл QA.md, 06-безопасность-пр
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
-
-
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Статус Тема / Проект Файлов Слов Минимум Примеры файлов -------------------------------------------------------------- ⚠️ бюджетный роутинг 6 68 ≥2ф/300сл QA.md, 06-безопасность-пр
-> 🔧 **Подход:** Статус Тема / Проект Файлов Слов Минимум Примеры файлов -------------------------------------------------------------- ⚠️ бюджетный роутинг 6 68 ≥2ф/300сл QA.md, 06-безопасность-пр
-> 🏷️ **Ключевые слова:** `glossary`, `action`, `items`, `priorities`, `карта`, `consistency`, `проектов`, `интеграционный`
->
-
-
 Анализ покрытия ключевых тем и проектов в docs/.
 
 | Статус | Тема / Проект | Файлов | Слов | Минимум | Примеры файлов |
 |--------|---------------|--------|------|---------|----------------|
-| ✅ | **Svyazi** | 256 | 217700 | ≥5ф/2000сл | `CROSSREFS.md`, `README.md` |
-| ✅ | **local-first** | 171 | 135013 | ≥2ф/300сл | `CONTACTS.md`, `PARAGRAPH_QUALITY.md` |
-| ✅ | **self-improvement** | 141 | 11897 | ≥1ф/100сл | `CONTACTS.md`, `PARAGRAPH_QUALITY.md` |
-| ✅ | **Yodoca** | 137 | 161413 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **CardIndex** | 130 | 157429 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **knowledge-space** | 98 | 137005 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **AgentFS** | 94 | 129100 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **NGT Memory** | 91 | 60588 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **mclaude** | 85 | 114202 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **Rufler** | 79 | 109938 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **LiteParse** | 76 | 112576 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **AI Factory** | 72 | 52732 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **SENTINEL** | 67 | 51706 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **CRDT** | 62 | 107896 | ≥1ф/100сл | `PARAGRAPH_QUALITY.md`, `TABLES.md` |
-| ✅ | **AutoResearch** | 61 | 102847 | ≥1ф/100сл | `CROSSREFS.md`, `PARAGRAPH_QUALITY.md` |
-| ✅ | **Sozialrecht** | 40 | 114807 | ≥1ф/200сл | `PARAGRAPH_QUALITY.md`, `LLM_SUMMARIES.md` |
-| ✅ | **Evidence Envelope** | 39 | 20039 | ≥2ф/200сл | `QA.md`, `TABLES.md` |
-| ✅ | **Card Envelope** | 29 | 17934 | ≥2ф/200сл | `QA.md`, `TABLES.md` |
-| ✅ | **privacy by design** | 22 | 15110 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
-| ✅ | **Memory Write Policy** | 21 | 16368 | ≥2ф/200сл | `TABLES.md`, `SITEMAP.md` |
-| ✅ | **Review Record** | 19 | 15330 | ≥1ф/100сл | `QA.md`, `TABLES.md` |
-| ✅ | **бюджетный роутинг** | 17 | 22107 | ≥2ф/300сл | `QA.md`, `TABLES.md` |
-| ✅ | **Skill Policy** | 14 | 4129 | ≥1ф/100сл | `QA.md`, `TABLES.md` |
+| ✅ | **Svyazi** | 315 | 274042 | ≥5ф/2000сл | `CROSSREFS.md`, `README.md` |
+| ✅ | **local-first** | 173 | 136975 | ≥2ф/300сл | `CONTACTS.md`, `PARAGRAPH_QUALITY.md` |
+| ✅ | **self-improvement** | 148 | 12176 | ≥1ф/100сл | `READING_LIST.md`, `CONTACTS.md` |
+| ✅ | **Yodoca** | 141 | 166821 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **CardIndex** | 137 | 158897 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **knowledge-space** | 100 | 129209 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **AgentFS** | 99 | 129455 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **NGT Memory** | 95 | 72263 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **mclaude** | 87 | 110517 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **Rufler** | 82 | 110950 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **LiteParse** | 77 | 108159 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **AI Factory** | 76 | 54391 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **SENTINEL** | 68 | 52577 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **CRDT** | 63 | 101107 | ≥1ф/100сл | `PARAGRAPH_QUALITY.md`, `TABLES.md` |
+| ✅ | **AutoResearch** | 60 | 96883 | ≥1ф/100сл | `CROSSREFS.md`, `PARAGRAPH_QUALITY.md` |
+| ✅ | **Evidence Envelope** | 43 | 20856 | ≥2ф/200сл | `QA.md`, `EMPTY_SECTIONS.md` |
+| ✅ | **Sozialrecht** | 41 | 113760 | ≥1ф/200сл | `PARAGRAPH_QUALITY.md`, `LLM_SUMMARIES.md` |
+| ✅ | **Card Envelope** | 30 | 17127 | ≥2ф/200сл | `QA.md`, `TABLES.md` |
+| ✅ | **Memory Write Policy** | 22 | 15573 | ≥2ф/200сл | `TABLES.md`, `MINDMAP.md` |
+| ✅ | **privacy by design** | 22 | 15240 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
+| ✅ | **Review Record** | 19 | 14443 | ≥1ф/100сл | `QA.md`, `TABLES.md` |
+| ✅ | **бюджетный роутинг** | 19 | 21956 | ≥2ф/300сл | `QA.md`, `TABLES.md` |
+| ✅ | **Skill Policy** | 15 | 4228 | ≥1ф/100сл | `QA.md`, `TABLES.md` |
 | ✅ | **лицензия BSL** | 3 | 1344 | ≥1ф/50сл | `TABLES.md`, `MISSING.md` |
 | ✅ | **voice ingestion** | 2 | 760 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
 

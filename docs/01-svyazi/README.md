@@ -5,9 +5,9 @@
 ## Содержание
 
 - [00-intro-part2.md](00-intro-part2.md) — 
-- [01-executive-summary.md](01-executive-summary.md) — <!-- abstract-auto -->
+- [01-executive-summary.md](01-executive-summary.md) — <!-- toc -->
 - [02-methodology.md](02-methodology.md) — <!-- abstract-auto -->
-- [03-component-catalog.md](03-component-catalog.md) — <!-- abstract-auto -->
+- [03-component-catalog.md](03-component-catalog.md) — <!-- summary -->
 - [04-ensembles-overview.md](04-ensembles-overview.md) — <!-- abstract-auto -->
 - [06-security-privacy.md](06-security-privacy.md) — <!-- abstract-auto -->
 - [07-mvp-planning.md](07-mvp-planning.md) — <!-- abstract-auto -->
@@ -18,14 +18,4 @@
 - [12-roadmap.md](12-roadmap.md) — <!-- abstract-auto -->
 - [13-contacts.md](13-contacts.md) — <!-- abstract-auto -->
 - [14-limitations.md](14-limitations.md) — <!-- abstract-auto -->
-- [QA.md](QA.md) — <!-- abstract-auto -->
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [BACKLINKS](docs/BACKLINKS.md) (сходство 0.19)
-- [VALIDATION](docs/VALIDATION.md) (сходство 0.18)
-- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.14)
-
+- [QA.md](QA.md) — <!-- summary -->

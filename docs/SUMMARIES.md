@@ -1,5 +1,10 @@
 # Резюме документов (TextRank)
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > 🎯 **Проблема:** citeturn21view0turn21view1turn18search1 Комментарии к статье Yodoca и GitHub issues/discussions в repo.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -446,4 +451,15 @@ _Executive Summary_
 - [TABLES](docs/TABLES.md) (сходство 0.17)
 - [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.17)
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.17)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DECISIONS](docs/DECISIONS.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
+- [HEADING_AUDIT](docs/HEADING_AUDIT.md)
 

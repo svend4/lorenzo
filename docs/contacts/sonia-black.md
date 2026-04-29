@@ -1,5 +1,10 @@
 # Контакт: Sonia_Black / knowledge-space
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, knowledge-space
@@ -67,4 +72,15 @@ _Создано автоматически: 2026-04-29_
 - [vladspace](docs/contacts/vladspace.md) (сходство 0.80)
 - [nlaik](docs/contacts/nlaik.md) (сходство 0.79)
 - [antipozitive](docs/contacts/antipozitive.md) (сходство 0.79)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [antipozitive](docs/contacts/antipozitive.md)
+- [nlaik](docs/contacts/nlaik.md)
+- [spbmolot](docs/contacts/spbmolot.md)
+- [andrey-chuyan](docs/contacts/andrey-chuyan.md)
 

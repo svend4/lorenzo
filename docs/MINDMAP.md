@@ -1,31 +1,5 @@
 # Майндмап репозитория Lorenzo
 
-<!-- summary -->
-> > 🎯 **Проблема:** Майндмап репозитория Lorenzo Contents - Структура разделов(структура-разделов) - Поток данных между проектами(поток-данных-между-проектами) - Легенда(легенда) Структура разделов По
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Майндмап репозитория Lorenzo Contents - Структура разделов(структура-разделов) - Поток данных между проектами(поток-данных-между-проектами) - Легенда(легенда) Структура разделов По
-> 🏷️ **Ключевые слова:** `graph`, `glossary`, `entities`, `структура`, `разделов`, `поток`, `данных`, `между`
->
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Структура разделов](#структура-разделов)
-- [Поток данных между проектами](#поток-данных-между-проектами)
-- [Легенда](#легенда)
-
-
 ## Структура разделов
 
 ```mermaid
@@ -131,7 +105,7 @@ flowchart LR
 
 **Смотрите также:**
 - [GLOSSARY](docs/GLOSSARY.md)
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 - [GRAPH](docs/GRAPH.md)
 - [NETWORK](docs/NETWORK.md)
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 
