@@ -125,3 +125,13 @@ for inclusion of those who never had the skills
 - [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
 - [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.88)
+- [177-8-risks-and-mitigations](docs/obsidian/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.87)
+- [10-open-questions](docs/nautilus/representative-agent-layer-en/10-open-questions.md) (сходство 0.20)
+

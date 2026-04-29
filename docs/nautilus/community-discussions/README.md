@@ -9,3 +9,11 @@
 | [`voiceless-contributors/`](voiceless-contributors/) | Могут ли быть voiceless контрибьюторы |
 | [`agent-changes-reality/`](agent-changes-reality/) | Catalyst Agent меняет реальность не только своего человека |
 | [`habr-article-2-reaction/`](habr-article-2-reaction/) | Реакция на вторую Habr-статью |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.10)
+

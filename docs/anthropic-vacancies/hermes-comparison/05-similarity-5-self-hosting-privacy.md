@@ -29,3 +29,13 @@ Hermes полностью self-hosted, MIT license, all data stays on your machi
 - [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
 - [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.40)
+- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.38)
+- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md) (сходство 0.33)
+

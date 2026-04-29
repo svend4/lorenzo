@@ -1,4 +1,6 @@
 # Индекс «Смотрите также»
+<!-- tags: memory, security, ingestion, architecture, roadmap, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -44,3 +46,13 @@
 - **105-review-methodology-md** → `28-appendix-a-minimal-working-example`, `03-portal-protocol-md`, `42-author-contact`, `188-ai-опосредованное-представительство-для-недопредст`
 - **106-tl-dr** → `70-зачем-две-версии-параллельно`, `108-2-формальный-workflow`, `107-1-контекст-и-мотивация`, `105-review-methodology-md`
 - **107-1-контекст-и-мотивация** → `115-8-ограничения-и-открытые-вопросы`, `106-tl-dr`, `108-2-формальный-workflow`, `116-9-checklist-применения-методологии`
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.66)
+- [PRIORITIES](docs/obsidian/PRIORITIES.md) (сходство 0.30)
+- [SITEMAP](docs/obsidian/SITEMAP.md) (сходство 0.29)
+

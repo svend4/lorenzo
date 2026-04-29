@@ -61,3 +61,13 @@ _Создано: 2026-04-29_
 - [[vladspace]]
 - [[cutcode]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [project-component](docs/templates/project-component.md) (сходство 0.87)
+- [contact-outreach](docs/obsidian/templates/contact-outreach.md) (сходство 0.27)
+- [contact-outreach](docs/templates/contact-outreach.md) (сходство 0.20)
+

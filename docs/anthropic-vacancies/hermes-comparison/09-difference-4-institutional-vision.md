@@ -37,3 +37,13 @@ Document 2.3: Infrastructure analysis
 - [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
 - [08-difference-3-federation-missing](docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md) (сходство 0.41)
+- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md) (сходство 0.36)
+- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md) (сходство 0.35)
+

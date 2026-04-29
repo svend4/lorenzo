@@ -82,3 +82,13 @@ date: 2026-04-29
 ## Упоминается в
 
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) (сходство 0.84)
+- [04-fallback-ratio-question](docs/nautilus/review-methodology/04-fallback-ratio-question.md) (сходство 0.80)
+- [82-7-portalentry-structure](docs/obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.19)
+

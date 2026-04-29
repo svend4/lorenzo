@@ -408,3 +408,13 @@ _...ещё 246 упоминаний в 2026_
 - [[READING_ORDER]]
 - [[SEARCH]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TIMELINE](docs/TIMELINE.md) (сходство 0.17)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md) (сходство 0.15)
+- [READING_TIME](docs/obsidian/READING_TIME.md) (сходство 0.15)
+

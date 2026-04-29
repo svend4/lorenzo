@@ -81,3 +81,13 @@ service organizations, civil society, and policymakers.
 11. **Call for Collaboration**
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [168-abstract](docs/obsidian/02-anthropic-vacancies/168-abstract.md) (сходство 0.67)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md) (сходство 0.64)
+- [00-abstract](docs/nautilus/professional-colleague-agents-en/00-abstract.md) (сходство 0.27)
+

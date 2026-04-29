@@ -34,3 +34,13 @@ AI-бот для самопознания
 - [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
 - [03-pda-llm-as-periphery](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [2-tsu-mome](docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md) (сходство 0.19)
+- [01-yodoca](docs/habr-unique-projects/key-findings/01-yodoca.md) (сходство 0.18)
+- [03-pda-llm-as-periphery](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md) (сходство 0.17)
+

@@ -13,3 +13,13 @@
 - [06-level-5-full-network.md](06-level-5-full-network.md) — <!-- summary -->
 - [07-progression-logic.md](07-progression-logic.md) — <!-- summary -->
 - [08-current-session-poc.md](08-current-session-poc.md) — > [!TIP]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/technology-combinations/synthesis-tables/README.md) (сходство 0.16)
+- [README](docs/svyazi-2-0/overview/README.md) (сходство 0.15)
+- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md) (сходство 0.14)
+

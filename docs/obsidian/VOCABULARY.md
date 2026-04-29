@@ -130,3 +130,13 @@ _Обновлено: 2026-04-29_
 - [[PARAGRAPH_QUALITY]]
 - [[SOURCE_MAP]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [VOCABULARY](docs/VOCABULARY.md) (сходство 0.44)
+- [COVERAGE](docs/COVERAGE.md) (сходство 0.19)
+- [CONTENT_GAPS](docs/CONTENT_GAPS.md) (сходство 0.19)
+

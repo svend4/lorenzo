@@ -36,3 +36,13 @@ Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments
 - [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
 - [signals](docs/anthropic-vacancies/signals.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.23)
+- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.20)
+- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.17)
+

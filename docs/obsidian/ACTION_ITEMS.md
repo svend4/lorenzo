@@ -1216,3 +1216,13 @@ _(17 дублей скрыто)_
 - [[SEARCH]]
 - [[READING_TIME]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.92)
+- [QUESTIONS](docs/QUESTIONS.md) (сходство 0.21)
+- [CONCEPTS](docs/obsidian/CONCEPTS.md) (сходство 0.21)
+

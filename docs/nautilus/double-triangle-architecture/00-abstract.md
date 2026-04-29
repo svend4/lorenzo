@@ -81,3 +81,13 @@ unsolved issues.
 8. **Call to Action**
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [136-abstract](docs/obsidian/02-anthropic-vacancies/136-abstract.md) (сходство 0.82)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.77)
+- [01-why-single-triangle-incomplete](docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md) (сходство 0.25)
+

@@ -74,3 +74,13 @@ work.
 - [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
 - [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [281-the-recursive-insight](docs/obsidian/02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.76)
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.71)
+- [09-what-industry-will-build](docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md) (сходство 0.25)
+

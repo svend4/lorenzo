@@ -34,3 +34,13 @@
 - [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
 - [review-record](docs/svyazi-2-0/architecture/review-record.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [memory-write-policy](docs/svyazi-2-0/architecture/memory-write-policy.md) (сходство 0.23)
+- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md) (сходство 0.23)
+- [review-record](docs/svyazi-2-0/architecture/review-record.md) (сходство 0.22)
+

@@ -27,3 +27,13 @@ Du hast gesagt: А под какой сценарий больше всего п
 - [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
 - [00-question-practical](docs/nautilus/community-discussions/practical-observations/00-question-practical.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.31)
+- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.28)
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.26)
+

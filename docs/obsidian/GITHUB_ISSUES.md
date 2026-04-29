@@ -235,3 +235,13 @@ python scripts/improve_github_issues.py --create --label docs,automation
 - [[anastasiyaw]]
 - [[nlaik]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GITHUB_ISSUES](docs/GITHUB_ISSUES.md) (сходство 0.88)
+- [116-9-checklist-применения-методологии](docs/obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.36)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md) (сходство 0.36)
+

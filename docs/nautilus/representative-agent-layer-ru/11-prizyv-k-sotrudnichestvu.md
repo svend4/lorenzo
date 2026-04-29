@@ -60,3 +60,13 @@
 - [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
 - [199-9-стратегия-поэтапного-развёртывания](docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [201-11-призыв-к-сотрудничеству](docs/obsidian/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) (сходство 0.86)
+- [201-11-призыв-к-сотрудничеству](docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) (сходство 0.83)
+- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md) (сходство 0.18)
+

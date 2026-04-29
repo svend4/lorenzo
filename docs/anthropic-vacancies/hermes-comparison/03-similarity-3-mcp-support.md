@@ -33,3 +33,13 @@ InGit MCP server, который мы планировали, работал б�
 - [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
 - [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.43)
+- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md) (сходство 0.40)
+- [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md) (сходство 0.40)
+

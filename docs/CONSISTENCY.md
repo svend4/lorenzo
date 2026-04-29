@@ -1,5 +1,15 @@
 # Согласованность терминов
 
+<!-- summary -->
+> Анализ различных написаний одних и тех же терминов.
+**Проекты:** Svyazi, knowledge-space, AI Factory, NGT Memory, Auto AI Router
+
+---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improve, collaboration -->
+
+
+
+
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
@@ -125,4 +135,14 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 - [TAGS](docs/TAGS.md)
 - [STATS](docs/STATS.md)
 - [SPELLCHECK](docs/SPELLCHECK.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONSISTENCY](docs/obsidian/CONSISTENCY.md) (сходство 0.65)
+- [TAGS](docs/TAGS.md) (сходство 0.24)
+- [PRIORITIES](docs/obsidian/PRIORITIES.md) (сходство 0.20)
 

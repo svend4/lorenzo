@@ -53,3 +53,13 @@ date: 2026-04-29
 - [[STALENESS]]
 - [[HEATMAP]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [AUTOFILLED](docs/obsidian/AUTOFILLED.md) (сходство 0.21)
+- [svyazi](docs/obsidian/autofilled/components/svyazi.md) (сходство 0.20)
+- [svend4](docs/obsidian/autofilled/components/svend4.md) (сходство 0.20)
+

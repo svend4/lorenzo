@@ -44,3 +44,13 @@ date: 2026-04-29
 - [[185-appendix-b-domain-comparison-matrix]]
 - [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [362-когда-сомневаешься-escalate-к-max](docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) (сходство 0.59)
+- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md) (сходство 0.53)
+- [121-appendix-c-история-изменений-методологии](docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md) (сходство 0.31)
+

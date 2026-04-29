@@ -47,3 +47,13 @@ date: 2026-04-29
 - [[118-appendix-a-шаблон-для-header-warning]]
 - [[121-appendix-c-история-изменений-методологии]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [359-твои-anti-patterns](docs/02-anthropic-vacancies/359-твои-anti-patterns.md) (сходство 0.72)
+- [15-anti-patterns](docs/lorenzo-agent/15-anti-patterns.md) (сходство 0.66)
+- [102-доступ-к-данным](docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md) (сходство 0.27)
+

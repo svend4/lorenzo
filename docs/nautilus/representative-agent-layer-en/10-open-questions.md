@@ -104,3 +104,13 @@ of whether ethical frameworks keep pace.
 - [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
 - [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.85)
+- [179-10-open-questions](docs/obsidian/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.83)
+- [08-risks-mitigations](docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md) (сходство 0.20)
+

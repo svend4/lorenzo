@@ -62,3 +62,13 @@ Du hast gesagt: Да
 - [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
 - [22-glossary](docs/nautilus/npp-v1-1/22-glossary.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [34-appendix-b-change-log](docs/obsidian/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.75)
+- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.73)
+- [03-registry](docs/nautilus/npp-v1-0/03-registry.md) (сходство 0.16)
+

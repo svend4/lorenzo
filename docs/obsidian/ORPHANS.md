@@ -46,3 +46,13 @@ _Эти документы не связаны с остальными — их 
 - [[STATS]]
 - [[HEALTH]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ORPHANS](docs/ORPHANS.md) (сходство 0.88)
+- [DIGEST_WEEKLY](docs/obsidian/DIGEST_WEEKLY.md) (сходство 0.17)
+- [BACKLINKS](docs/obsidian/BACKLINKS.md) (сходство 0.16)
+

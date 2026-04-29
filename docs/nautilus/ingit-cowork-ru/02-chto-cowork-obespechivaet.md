@@ -165,3 +165,13 @@ Cowork работает на macOS и Windows (Linux,
 - [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
 - [01-otkrytie-cowork](docs/nautilus/ingit-cowork-ru/01-otkrytie-cowork.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/obsidian/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.88)
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.86)
+- [06-utochnyonnyy-obyom-ingit](docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md) (сходство 0.19)
+

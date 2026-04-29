@@ -43,3 +43,13 @@ Mermaid
 - [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
 - [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [5-agent-firewall](docs/ai-collaborations/ensembles/5-agent-firewall.md) (сходство 0.20)
+- [03-a2a-vs-mcp-protocols](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md) (сходство 0.19)
+- [01-shared-memory-between-agents](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md) (сходство 0.17)
+

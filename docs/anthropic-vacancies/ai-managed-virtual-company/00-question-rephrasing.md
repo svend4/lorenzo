@@ -58,3 +58,13 @@ Claude hat geantwortet: Я понял вашу мысль.
 - [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
 - [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.47)
+- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.16)
+- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md) (сходство 0.13)
+

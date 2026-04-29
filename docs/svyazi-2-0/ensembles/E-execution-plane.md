@@ -46,3 +46,13 @@ flowchart LR
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
 - [budget-routing](docs/svyazi-2-0/security/budget-routing.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [security-routing-plane](docs/svyazi-2-0/components/security-routing-plane.md) (сходство 0.29)
+- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
+- [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.21)
+

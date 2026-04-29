@@ -7,6 +7,14 @@ date: 2026-04-29
 
 # Именованные сущности
 
+<!-- summary -->
+> - [Люди и авторы (7)](#люди-и-авторы-7)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
+
 <!-- toc -->
 ## Содержание
 
@@ -158,4 +166,14 @@ date: 2026-04-29
 - [[GLOSSARY]]
 - [[MINDMAP]]
 - [[CONTACTS]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ENTITIES](docs/ENTITIES.md) (сходство 0.92)
+- [NETWORK](docs/obsidian/NETWORK.md) (сходство 0.37)
+- [NETWORK](docs/NETWORK.md) (сходство 0.34)
 

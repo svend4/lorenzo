@@ -463,3 +463,13 @@ _Обновлено: 2026-04-29_
 - [[VALIDATION]]
 - [[CITATION_INDEX]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NAMED_ENTITIES](docs/NAMED_ENTITIES.md) (сходство 0.86)
+- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.26)
+- [PRIORITIES](docs/obsidian/PRIORITIES.md) (сходство 0.24)
+

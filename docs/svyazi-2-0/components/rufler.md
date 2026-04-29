@@ -38,3 +38,13 @@
 - [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
 - [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [mclaude](docs/svyazi-2-0/components/mclaude.md) (сходство 0.43)
+- [memnet](docs/svyazi-2-0/components/memnet.md) (сходство 0.39)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md) (сходство 0.38)
+

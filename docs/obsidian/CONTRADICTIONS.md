@@ -434,3 +434,13 @@ _Обновлено: 2026-04-29_
 - [[08-что-это-продолжение-добавляет]]
 - [[01-executive-summary]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTRADICTIONS](docs/CONTRADICTIONS.md) (сходство 0.29)
+- [FOOTNOTES](docs/obsidian/FOOTNOTES.md) (сходство 0.19)
+- [FOOTNOTES](docs/FOOTNOTES.md) (сходство 0.18)
+

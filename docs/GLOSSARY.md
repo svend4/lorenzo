@@ -1,75 +1,48 @@
 # Глоссарий проектов
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Глоссарий проектов Все проекты, упоминаемые в документах, с количеством файлов.
-> 🏷️ **Ключевые слова:** `graph`, `mindmap`, `entities`, `проекты`, `memory`, `сходство`, `упоминаемые`, `документах`
->
-
-
-<!-- summary -->
-> Все проекты, упоминаемые в документах, с количеством файлов.
-**Проекты:** Svyazi, CardIndex, AgentFS, [knowledge-space](../docs/01-svyazi/03-component-catalog.md), mclaude, AI Factory, Rufler, LiteParse
-
----
-
-
-
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 27 |
-| **AIF Handoff** | 11 |
-| **AgentFS** | 24 |
-| **Auto AI Router** | 21 |
-| **AutoResearch** | 19 |
-| **Automerge** | 10 |
-| **CardIndex** | 36 |
-| **Firecrawl** | 3 |
-| **Graph RAG** | 14 |
-| **Hybrid RAG** | 15 |
-| **Legal RAG** | 15 |
-| **LiteLLM** | 19 |
-| **LiteParse** | 22 |
-| **MemNet** | 7 |
-| **Memory OS** | 15 |
-| **NGT Memory** | 29 |
-| **OpenWhispr** | 7 |
-| **RLM-Toolkit** | 4 |
-| **Rufler** | 20 |
-| **SENTINEL** | 19 |
-| **Self-Aware MCP** | 6 |
-| **Sequential** | 35 |
-| **Svyazi** | 45 |
-| **Tool Search** | 17 |
-| **Whisper** | 8 |
-| **Wikontic** | 7 |
-| **Yjs** | 11 |
-| **Yodoca** | 29 |
-| **Yttri** | 7 |
-| **agent-memory-mcp** | 12 |
-| **knowledge-space** | 18 |
-| **mclaude** | 25 |
+| **AI Factory** | 123 |
+| **AIF Handoff** | 65 |
+| **AgentFS** | 178 |
+| **Auto AI Router** | 121 |
+| **AutoResearch** | 95 |
+| **Automerge** | 55 |
+| **CardIndex** | 208 |
+| **Firecrawl** | 37 |
+| **Graph RAG** | 91 |
+| **Hybrid RAG** | 79 |
+| **Legal RAG** | 93 |
+| **LiteLLM** | 81 |
+| **LiteParse** | 131 |
+| **MemNet** | 176 |
+| **Memory OS** | 57 |
+| **NGT Memory** | 155 |
+| **OpenWhispr** | 32 |
+| **RLM-Toolkit** | 17 |
+| **Rufler** | 147 |
+| **SENTINEL** | 132 |
+| **Self-Aware MCP** | 30 |
+| **Sequential** | 165 |
+| **Svyazi** | 456 |
+| **Tool Search** | 84 |
+| **Whisper** | 38 |
+| **Wikontic** | 82 |
+| **Yjs** | 66 |
+| **Yodoca** | 226 |
+| **Yttri** | 33 |
+| **agent-memory-mcp** | 61 |
+| **knowledge-space** | 162 |
+| **mclaude** | 140 |
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [MINDMAP](docs/MINDMAP.md) (сходство 0.42)
-- [GRAPH](docs/GRAPH.md) (сходство 0.23)
-- [ENTITIES](docs/ENTITIES.md) (сходство 0.20)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [MINDMAP](docs/MINDMAP.md)
-- [GRAPH](docs/GRAPH.md)
-- [NETWORK](docs/NETWORK.md)
-- [ENTITIES](docs/ENTITIES.md)
+- [GLOSSARY](docs/obsidian/GLOSSARY.md) (сходство 0.80)
+- [README](docs/svyazi-2-0/components/README.md) (сходство 0.39)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.35)
 

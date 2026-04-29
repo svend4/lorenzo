@@ -88,3 +88,13 @@ date: 2026-04-29
 ## Связанные документы
 
 - [[108-2-формальный-workflow|2. Формальный workflow]] _17%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.84)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md) (сходство 0.74)
+- [GITHUB_ISSUES](docs/obsidian/GITHUB_ISSUES.md) (сходство 0.36)
+

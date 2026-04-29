@@ -99,3 +99,13 @@ _Отчёт сгенерирован автоматически · 2026-04-29_
 - [[LLM_SUMMARIES]]
 - [[ONBOARDING]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [BACKLINKS](docs/obsidian/BACKLINKS.md) (сходство 0.23)
+- [INDEX](docs/obsidian/INDEX.md) (сходство 0.20)
+- [LLM_SUMMARIES](docs/obsidian/LLM_SUMMARIES.md) (сходство 0.20)
+

@@ -60,3 +60,13 @@ _Компонент экосистемы Svyazi 2.0_
 - [Автозаполненные шаблоны](../../AUTOFILLED.md)
 - [Все таблицы репозитория](../../TABLES.md)
 - [Карта репозитория Lorenzo](../../SITEMAP.md)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [svyazi](docs/autofilled/components/svyazi.md) (сходство 1.00)
+- [sgb](docs/autofilled/components/sgb.md) (сходство 1.00)
+- [nautilus](docs/autofilled/components/nautilus.md) (сходство 1.00)
+

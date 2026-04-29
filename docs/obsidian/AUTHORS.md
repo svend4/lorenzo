@@ -54,3 +54,13 @@ date: 2026-04-29
 - [[nlaik]]
 - [[sonia-black]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [AUTHORS](docs/AUTHORS.md) (сходство 0.80)
+- [README](docs/contacts/README.md) (сходство 0.38)
+- [README](docs/obsidian/contacts/README.md) (сходство 0.35)
+

@@ -350,3 +350,13 @@ _`docs/templates/` — 5 файлов_
 - [[READING_TIME]]
 - [[PARAGRAPH_QUALITY]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_TIME](docs/obsidian/READING_TIME.md) (сходство 0.38)
+- [PRIORITIES](docs/obsidian/PRIORITIES.md) (сходство 0.36)
+- [SITEMAP](docs/SITEMAP.md) (сходство 0.34)
+

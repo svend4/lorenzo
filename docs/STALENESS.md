@@ -1,4 +1,6 @@
 # Отчёт об устаревших документах
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -81,3 +83,13 @@ python scripts/improve_tags.py
 # Обогатить короткие файлы через LLM
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COVERAGE](docs/COVERAGE.md) (сходство 0.35)
+- [TAGS](docs/obsidian/TAGS.md) (сходство 0.23)
+- [STALENESS](docs/obsidian/STALENESS.md) (сходство 0.22)
+

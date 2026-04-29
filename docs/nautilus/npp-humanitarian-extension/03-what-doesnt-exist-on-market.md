@@ -37,3 +37,13 @@ EIC Pathfinder (€4M max) — deep-tech, можно защитить через
 - [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
 - [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.21)
+- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.21)
+- [11-dhlab-documents](docs/lorenzo-agent/11-dhlab-documents.md) (сходство 0.19)
+

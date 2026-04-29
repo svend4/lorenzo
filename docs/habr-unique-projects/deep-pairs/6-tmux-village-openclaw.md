@@ -33,3 +33,13 @@ Telegram-orchestrated headless village — пишешь в Telegram «откро
 - [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
 - [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md) (сходство 0.20)
+- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md) (сходство 0.19)
+- [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md) (сходство 0.18)
+

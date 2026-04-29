@@ -83,3 +83,13 @@ _Без ключа — автоматическое резюме на основ
 - [[ONBOARDING]]
 - [[WORD_CLOUD]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md) (сходство 0.87)
+- [VALIDATION](docs/obsidian/VALIDATION.md) (сходство 0.24)
+- [VALIDATION](docs/VALIDATION.md) (сходство 0.24)
+

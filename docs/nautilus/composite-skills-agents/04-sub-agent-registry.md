@@ -167,3 +167,13 @@ across both journals and individual researchers.
 - [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [257-4-the-sub-agent-registry](docs/obsidian/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.91)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.86)
+- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md) (сходство 0.23)
+

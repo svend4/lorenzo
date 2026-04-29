@@ -11,3 +11,13 @@
 - [04-recommendations.md](04-recommendations.md) — > [!TIP]
 - [05-anchor-node-habr-scout.md](05-anchor-node-habr-scout.md) — > [!TIP]
 - [06-conclusion-deserves-attention.md](06-conclusion-deserves-attention.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/community-discussions/habr-article-2-reaction/README.md) (сходство 0.17)
+- [README](docs/anthropic-vacancies/mmorpg-for-programmers/README.md) (сходство 0.17)
+- [README](docs/svyazi-2-0/overview/README.md) (сходство 0.17)
+

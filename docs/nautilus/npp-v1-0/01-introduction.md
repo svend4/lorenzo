@@ -64,3 +64,13 @@ NPP **не** пытается:
 применяется трактовка из RFC 2119.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md) (сходство 0.82)
+- [06-1-introduction](docs/obsidian/02-anthropic-vacancies/06-1-introduction.md) (сходство 0.79)
+- [01-introduction](docs/nautilus/npp-v1-1/01-introduction.md) (сходство 0.54)
+

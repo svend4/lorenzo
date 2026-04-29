@@ -41,3 +41,13 @@ Fundamental questions для Lorenzo
 - [07-q7-success-metrics](docs/lorenzo-agent/specification/07-q7-success-metrics.md)
 - [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.28)
+- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.24)
+- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md) (сходство 0.24)
+

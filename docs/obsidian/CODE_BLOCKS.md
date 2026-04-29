@@ -1454,3 +1454,13 @@ _`docs/badges/README.md` | 7 строк_
 - [[CLUSTERS]]
 - [[READING_TIME]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CODE_BLOCKS](docs/CODE_BLOCKS.md) (сходство 0.80)
+- [SITEMAP](docs/obsidian/SITEMAP.md) (сходство 0.17)
+- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.17)
+

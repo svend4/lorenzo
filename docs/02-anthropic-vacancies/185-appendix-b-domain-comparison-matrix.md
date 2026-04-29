@@ -58,3 +58,13 @@
 - [Кому ты служишь (слоистая модель)](348-кому-ты-служишь-слоистая-модель.md) _25%_
 - [Когда ты Honestly не знаешь](361-когда-ты-honestly-не-знаешь.md) _21%_
 - [Когда сомневаешься — escalate к Max](362-когда-сомневаешься-escalate-к-max.md) _21%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [185-appendix-b-domain-comparison-matrix](docs/obsidian/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md) (сходство 0.73)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md) (сходство 0.49)
+- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md) (сходство 0.47)
+

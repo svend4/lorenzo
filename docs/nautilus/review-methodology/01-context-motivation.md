@@ -76,3 +76,13 @@ third agent с явным контекстом обоих) создаёт фин
 - [09-limitations-open-questions](docs/nautilus/review-methodology/09-limitations-open-questions.md)
 - [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [107-1-контекст-и-мотивация](docs/obsidian/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) (сходство 0.78)
+- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) (сходство 0.77)
+- [00-tldr](docs/nautilus/review-methodology/00-tldr.md) (сходство 0.19)
+

@@ -210,3 +210,13 @@ date: 2026-04-29
 - [[CONTACTS]]
 - [[AUTHORS]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [LINKS](docs/LINKS.md) (сходство 0.81)
+- [BROKEN_LINKS](docs/BROKEN_LINKS.md) (сходство 0.31)
+- [CITATION_INDEX](docs/obsidian/CITATION_INDEX.md) (сходство 0.26)
+

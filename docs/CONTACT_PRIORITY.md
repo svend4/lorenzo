@@ -1,4 +1,6 @@
 # Приоритет контактов
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -56,3 +58,13 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 ```
 
 _Чем выше балл — тем важнее написать первым._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTACT_PRIORITY](docs/obsidian/CONTACT_PRIORITY.md) (сходство 0.73)
+- [kksudo](docs/autofilled/components/kksudo.md) (сходство 0.31)
+- [sonia-black](docs/obsidian/contacts/sonia-black.md) (сходство 0.29)
+

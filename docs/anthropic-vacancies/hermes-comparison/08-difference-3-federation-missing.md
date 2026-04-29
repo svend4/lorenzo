@@ -34,3 +34,13 @@ Nautilus Portal Protocol specifically addresses federated queries across multipl
 - [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
 - [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.33)
+- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md) (сходство 0.32)
+- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.32)
+

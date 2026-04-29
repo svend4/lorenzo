@@ -48,3 +48,13 @@
 - [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
 - [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.73)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/obsidian/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.68)
+- [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md) (сходство 0.27)
+

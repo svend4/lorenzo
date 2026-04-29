@@ -1,5 +1,52 @@
 # Индекс именованных сущностей
 
+<!-- summary -->
+> Всего сущностей: **228** (мин. 2 упоминаний)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, LiteParse, Yodoca, MemNet, AutoResearch
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [👤 People (20)](#people-20)
+  - [`anthropic` (746 файлов)](#anthropic-746-файлов)
+  - [`claude` (399 файлов)](#claude-399-файлов)
+  - [`svend4` (196 файлов)](#svend4-196-файлов)
+  - [`spbmolot` (42 файлов)](#spbmolot-42-файлов)
+  - [`kksudo` (39 файлов)](#kksudo-39-файлов)
+- [📦 Projects (137)](#projects-137)
+  - [`nautilus` (463 файлов)](#nautilus-463-файлов)
+  - [`svyazi` (295 файлов)](#svyazi-295-файлов)
+  - [`github` (234 файлов)](#github-234-файлов)
+  - [`yodoca` (130 файлов)](#yodoca-130-файлов)
+  - [`CardIndex` (126 файлов)](#cardindex-126-файлов)
+- [⚙️ Tech (31)](#tech-31)
+  - [`mcp` (291 файлов)](#mcp-291-файлов)
+  - [`llm` (188 файлов)](#llm-188-файлов)
+  - [`api` (165 файлов)](#api-165-файлов)
+  - [`rag` (148 файлов)](#rag-148-файлов)
+  - [`markdown` (88 файлов)](#markdown-88-файлов)
+- [🏢 Orgs (8)](#orgs-8)
+  - [`вк` (261 файлов)](#вк-261-файлов)
+  - [`meta` (200 файлов)](#meta-200-файлов)
+  - [`mail` (69 файлов)](#mail-69-файлов)
+  - [`openai` (45 файлов)](#openai-45-файлов)
+  - [`google` (34 файлов)](#google-34-файлов)
+- [📅 Dates (32)](#dates-32)
+  - [`2026-04` (99 файлов)](#2026-04-99-файлов)
+  - [`2026-04-29` (22 файлов)](#2026-04-29-22-файлов)
+  - [`2026-04-19` (19 файлов)](#2026-04-19-19-файлов)
+  - [`апрель 2026` (16 файлов)](#апрель-2026-16-файлов)
+  - [`2026-04-26` (12 файлов)](#2026-04-26-12-файлов)
+
+---
+
+<!-- tags: memory, rag, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Всего сущностей: **228** (мин. 2 упоминаний)
@@ -399,4 +446,14 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md`
 - `docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md`
 - _...ещё 7_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NAMED_ENTITIES](docs/obsidian/NAMED_ENTITIES.md) (сходство 0.86)
+- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.23)
+- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.22)
 

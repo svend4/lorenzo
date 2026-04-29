@@ -12,3 +12,13 @@
 - [6-tmux-village-openclaw.md](6-tmux-village-openclaw.md) — <!-- summary -->
 - [7-autoresearch-distributed.md](7-autoresearch-distributed.md) — <!-- summary -->
 - [8-self-aware-mcp-specs.md](8-self-aware-mcp-specs.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/svyazi-2-0/components/README.md) (сходство 0.17)
+- [README](docs/habr-unique-projects/software-pairs/README.md) (сходство 0.15)
+- [README](docs/svyazi-2-0/ensembles/README.md) (сходство 0.14)
+

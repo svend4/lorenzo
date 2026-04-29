@@ -46,3 +46,13 @@ flowchart LR
 - [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
 - [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
+- [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.20)
+

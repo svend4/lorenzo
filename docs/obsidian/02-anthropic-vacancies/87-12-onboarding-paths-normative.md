@@ -155,3 +155,13 @@ python scan_repo.py owner/repo-name
 
 - [[77-2-terminology|2. Terminology]] _21%_
 - [[78-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _17%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-onboarding-paths](docs/nautilus/npp-v1-1/12-onboarding-paths.md) (сходство 0.87)
+- [87-12-onboarding-paths-normative](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md) (сходство 0.84)
+- [07-2-terminology](docs/obsidian/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.15)
+

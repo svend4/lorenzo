@@ -122,3 +122,13 @@ _Минимальный сценарий: open source + личное время 
 - [SCORING](../SCORING.md)
 - [ONBOARDING](../ONBOARDING.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COST](docs/COST.md) (сходство 0.81)
+- [DENSITY](docs/obsidian/DENSITY.md) (сходство 0.17)
+- [SCHEDULE](docs/obsidian/SCHEDULE.md) (сходство 0.17)
+

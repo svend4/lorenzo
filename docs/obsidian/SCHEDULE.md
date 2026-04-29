@@ -85,3 +85,13 @@ _█ = активная работа, ░ = ожидание_
 - [[project-component]]
 - [[ONBOARDING]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SCHEDULE](docs/SCHEDULE.md) (сходство 0.70)
+- [DENSITY](docs/obsidian/DENSITY.md) (сходство 0.28)
+- [PROGRESS](docs/obsidian/PROGRESS.md) (сходство 0.26)
+

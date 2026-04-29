@@ -36,3 +36,13 @@
 - [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
 - [03-a2a-vs-mcp-protocols](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md) (сходство 0.17)
+- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md) (сходство 0.16)
+- [06-metrics-tree](docs/ai-collaborations/continuation/06-metrics-tree.md) (сходство 0.15)
+

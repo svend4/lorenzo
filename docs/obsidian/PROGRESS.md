@@ -94,3 +94,13 @@ cat docs/contacts/anastasiyaw.md
 - [[HEALTH]]
 - [[SCHEDULE]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PROGRESS](docs/PROGRESS.md) (сходство 0.84)
+- [SCHEDULE](docs/obsidian/SCHEDULE.md) (сходство 0.26)
+- [ONBOARDING](docs/obsidian/ONBOARDING.md) (сходство 0.22)
+

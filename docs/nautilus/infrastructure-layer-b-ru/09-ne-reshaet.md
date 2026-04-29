@@ -55,3 +55,13 @@
 - [01-zachem-dokument](docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md)
 - [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [298-что-этот-документ-не-решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md) (сходство 0.71)
+- [298-что-этот-документ-не-решает](docs/obsidian/02-anthropic-vacancies/298-что-этот-документ-не-решает.md) (сходство 0.67)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.29)
+

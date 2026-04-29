@@ -1,5 +1,26 @@
 # Карта происхождения текстов
 
+<!-- summary -->
+> Проанализировано: **1164** файлов
+**Проекты:** Svyazi, CardIndex, knowledge-space, Yodoca, MemNet
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Категории](#категории)
+- [Авторы](#авторы)
+- [🤖 Авто-импортированные файлы (846)](#авто-импортированные-файлы-846)
+- [🔗 Файлы с внешними ссылками (97)](#файлы-с-внешними-ссылками-97)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Проанализировано: **1164** файлов
@@ -894,3 +915,13 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` — https://github.com/svend4/ingit
 - `docs/02-anthropic-vacancies/319-acknowledgments.md` — https://github.com/svend4/ingit
 - `docs/02-anthropic-vacancies/320-references.md` — https://github.com/svend4/ingit
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEARCH](docs/SEARCH.md) (сходство 0.84)
+- [READABILITY](docs/READABILITY.md) (сходство 0.84)
+- [READING_TIME](docs/READING_TIME.md) (сходство 0.84)
+

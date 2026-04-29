@@ -179,3 +179,13 @@ workflow.
 - [06-risks](docs/nautilus/professional-colleague-agents-en/06-risks.md)
 - [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [215-4-architecture-of-professional-colleague-agents](docs/obsidian/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.89)
+- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.86)
+- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md) (сходство 0.18)
+

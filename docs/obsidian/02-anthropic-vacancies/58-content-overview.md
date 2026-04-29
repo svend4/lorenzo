@@ -59,3 +59,13 @@ date: 2026-04-29
 ## Связанные документы
 
 - [[38-content-overview|Content Overview]] _17%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [58-content-overview](docs/02-anthropic-vacancies/58-content-overview.md) (сходство 0.80)
+- [56-essence](docs/obsidian/02-anthropic-vacancies/56-essence.md) (сходство 0.21)
+- [57-native-format](docs/obsidian/02-anthropic-vacancies/57-native-format.md) (сходство 0.21)
+

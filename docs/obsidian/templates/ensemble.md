@@ -77,3 +77,13 @@ _Создано: 2026-04-29_
 - [[decision-record]]
 - [[research-summary]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ensemble](docs/templates/ensemble.md) (сходство 0.51)
+- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.23)
+- [118-appendix-a-шаблон-для-header-warning](docs/obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.21)
+

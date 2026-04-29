@@ -120,3 +120,13 @@ dignified issues
 - [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
 - [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [160-6-governance-and-ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md) (сходство 0.85)
+- [160-6-governance-and-ethics](docs/obsidian/02-anthropic-vacancies/160-6-governance-and-ethics.md) (сходство 0.85)
+- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md) (сходство 0.18)
+

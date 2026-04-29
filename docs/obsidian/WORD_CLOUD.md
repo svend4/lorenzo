@@ -71,3 +71,13 @@ date: 2026-04-29
 - [[270-appendix-b-sub-agent-registry-schema-sketch]]
 - [[321-appendix-a-decision-tree-for-ingit-adopters]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [WORD_CLOUD](docs/WORD_CLOUD.md) (сходство 0.43)
+- [270-appendix-b-sub-agent-registry-schema-sketch](docs/obsidian/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md) (сходство 0.29)
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/obsidian/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.28)
+

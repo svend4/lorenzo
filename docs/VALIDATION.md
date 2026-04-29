@@ -1,5 +1,30 @@
 # Валидация структуры репозитория
 
+<!-- summary -->
+> **Ошибок:** 0  **Предупреждений:** 42  **Пройдено:** 27
+**Проекты:** Svyazi
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Сводка](#сводка)
+- [✅ Разделы и README](#разделы-и-readme)
+- [✅ Мета-файлы](#мета-файлы)
+- [Пустые/короткие файлы](#пустыекороткие-файлы)
+- [Именование файлов](#именование-файлов)
+- [Заголовки H1](#заголовки-h1)
+- [Внутренние ссылки](#внутренние-ссылки)
+- [Итог](#итог)
+
+---
+
+<!-- tags: memory, ingestion, local-first, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 **Ошибок:** 0  **Предупреждений:** 42  **Пройдено:** 27
 
 ## Сводка
@@ -113,4 +138,14 @@ _Всё в порядке_
 - [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
 - [COMPARE](docs/COMPARE.md)
 - [BROKEN_LINKS](docs/BROKEN_LINKS.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [VALIDATION](docs/obsidian/VALIDATION.md) (сходство 0.64)
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md) (сходство 0.26)
+- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.24)
 

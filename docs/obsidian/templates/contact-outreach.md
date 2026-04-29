@@ -68,3 +68,13 @@ _Создано: 2026-04-29_
 - [[dmitriila]]
 - [[mixaill76]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [contact-outreach](docs/templates/contact-outreach.md) (сходство 0.83)
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.56)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.56)
+

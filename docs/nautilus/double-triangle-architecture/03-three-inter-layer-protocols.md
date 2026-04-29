@@ -166,3 +166,13 @@ in distributed systems, adapted for human-AI hybrid execution.
 - [01-why-single-triangle-incomplete](docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md)
 - [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [140-3-three-inter-layer-protocols](docs/obsidian/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.91)
+- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.88)
+- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md) (сходство 0.22)
+

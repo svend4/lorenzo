@@ -213,3 +213,13 @@ _Извлечено: **893** числовых показателей из док
 - [[SOURCE_MAP]]
 - [[CLUSTERS]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KPI](docs/KPI.md) (сходство 0.85)
+- [TIMELINE](docs/TIMELINE.md) (сходство 0.19)
+- [TABLES](docs/obsidian/TABLES.md) (сходство 0.17)
+

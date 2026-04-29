@@ -33,3 +33,13 @@
 - [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md)
 - [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md) (сходство 0.16)
+- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.14)
+- [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) (сходство 0.13)
+

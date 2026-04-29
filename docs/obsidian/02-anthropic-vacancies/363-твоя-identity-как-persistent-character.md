@@ -41,3 +41,13 @@ date: 2026-04-29
 ## Упоминается в
 
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [363-твоя-identity-как-persistent-character](docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) (сходство 0.76)
+- [19-persistent-character](docs/lorenzo-agent/19-persistent-character.md) (сходство 0.69)
+- [356-твой-workflow](docs/02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.18)
+

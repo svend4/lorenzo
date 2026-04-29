@@ -311,3 +311,13 @@ HIPAA, GDPR, эквивалентное соответствие.
 - [235-4-архитектура-профессиональных-коллег-агентов](docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
 - [04-arkhitektura](docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [237-6-риски-специфичные-для-этой-категории](docs/obsidian/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md) (сходство 0.94)
+- [237-6-риски-специфичные-для-этой-категории](docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md) (сходство 0.93)
+- [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md) (сходство 0.12)
+

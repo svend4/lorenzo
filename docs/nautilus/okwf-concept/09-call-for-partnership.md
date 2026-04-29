@@ -109,3 +109,13 @@ pipeline
 - [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md)
 - [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [163-9-call-for-partnership](docs/obsidian/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.86)
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.85)
+- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md) (сходство 0.21)
+

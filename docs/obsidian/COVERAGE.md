@@ -77,3 +77,13 @@ python scripts/improve_autofill.py
 - [[LLM_SUMMARIES]]
 - [[VALIDATION]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/obsidian/04-ai-collaborations/README.md) (сходство 0.30)
+- [COVERAGE](docs/COVERAGE.md) (сходство 0.24)
+- [PRIORITIES](docs/obsidian/PRIORITIES.md) (сходство 0.24)
+

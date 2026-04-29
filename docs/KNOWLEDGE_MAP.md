@@ -1,5 +1,29 @@
 # Карта базы знаний Lorenzo
 
+<!-- summary -->
+> - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md
+**Проекты:** Svyazi
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Корпус](#корпус)
+- [Метрики качества](#метрики-качества)
+- [По секциям](#по-секциям)
+- [Ключевые концепты](#ключевые-концепты)
+- [Топ сущностей](#топ-сущностей)
+- [Открытые вопросы](#открытые-вопросы)
+- [Быстрые команды](#быстрые-команды)
+
+---
+
+<!-- tags: rag, security, ingestion, architecture, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 ---
@@ -108,4 +132,14 @@ python scripts/improve_run_all.py --group nlpplus
 ```
 
 _Карта сгенерирована автоматически: 2026-04-29_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [REPORT](docs/REPORT.md) (сходство 0.29)
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md) (сходство 0.23)
+- [QA](docs/03-technology-combinations/QA.md) (сходство 0.21)
 

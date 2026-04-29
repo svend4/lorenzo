@@ -151,3 +151,13 @@ _Для каждого концепта — TF-IDF вес в каждой сек
 - [CONTACTS](docs/CONTACTS.md)
 - [andrey-chuyan](docs/contacts/andrey-chuyan.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [kksudo](docs/contacts/kksudo.md) (сходство 0.23)
+- [kksudo](docs/obsidian/contacts/kksudo.md) (сходство 0.23)
+- [andrey-chuyan](docs/obsidian/contacts/andrey-chuyan.md) (сходство 0.23)
+

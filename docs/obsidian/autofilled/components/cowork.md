@@ -52,3 +52,13 @@ _Компонент экосистемы Svyazi 2.0_
 - [[lorenzo]]
 - [[nautilus]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [svyazi](docs/obsidian/autofilled/components/svyazi.md) (сходство 1.00)
+- [sgb](docs/obsidian/autofilled/components/sgb.md) (сходство 1.00)
+- [nautilus](docs/obsidian/autofilled/components/nautilus.md) (сходство 1.00)
+

@@ -491,3 +491,13 @@ Option E: Discuss ethical considerations подробнее — что нужн�
 Option F: Pause exploration — это substantial concept, нужно time to digest
 
 Что вам useful right now?
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.36)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.36)
+- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.18)
+

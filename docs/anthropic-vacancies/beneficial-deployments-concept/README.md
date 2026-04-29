@@ -16,3 +16,13 @@
 - [09-section-9-timeliness.md](09-section-9-timeliness.md) — <!-- summary -->
 - [10-section-10-engagement-request.md](10-section-10-engagement-request.md) — <!-- summary -->
 - [11-not-and-format.md](11-not-and-format.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md) (сходство 0.18)
+- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) (сходство 0.17)
+- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md) (сходство 0.16)
+

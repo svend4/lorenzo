@@ -215,3 +215,13 @@ _→ [[200-10-открытые-вопросы]]_
 - [ONBOARDING](../ONBOARDING.md)
 - [SOURCE_MAP](../SOURCE_MAP.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [FAQ](docs/FAQ.md) (сходство 0.90)
+- [QUESTIONS](docs/obsidian/QUESTIONS.md) (сходство 0.16)
+- [179-10-open-questions](docs/obsidian/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.15)
+

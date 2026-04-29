@@ -51,3 +51,13 @@
 - [02-level-1-minimal-zero](docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md)
 - [07-progression-logic](docs/lorenzo-agent/phased-deployment/07-progression-logic.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.30)
+- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md) (сходство 0.30)
+- [02-level-1-minimal-zero](docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md) (сходство 0.28)
+

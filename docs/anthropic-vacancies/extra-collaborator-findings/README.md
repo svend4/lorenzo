@@ -11,3 +11,13 @@
 - [05-existing-infrastructure-stack.md](05-existing-infrastructure-stack.md) — <!-- summary -->
 - [06-final-tier-ranking.md](06-final-tier-ranking.md) — <!-- summary -->
 - [07-key-observation.md](07-key-observation.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/svyazi-2-0/components/README.md) (сходство 0.17)
+- [README](docs/nautilus/multi-tier-architecture/README.md) (сходство 0.17)
+- [README](docs/habr-unique-projects/key-findings/README.md) (сходство 0.15)
+

@@ -78,3 +78,13 @@ product.
 - [07-specific-case](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
 - [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [277-what-s-missing-layer-b](docs/obsidian/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.83)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.76)
+- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md) (сходство 0.24)
+

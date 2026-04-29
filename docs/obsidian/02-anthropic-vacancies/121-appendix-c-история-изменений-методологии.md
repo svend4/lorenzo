@@ -43,3 +43,13 @@ IMPLEMENTATION_STAGE_PART_*.md в апреле 2026.
 - [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
 - [[185-appendix-b-domain-comparison-matrix]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md) (сходство 0.58)
+- [102-доступ-к-данным](docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md) (сходство 0.51)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/obsidian/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md) (сходство 0.47)
+

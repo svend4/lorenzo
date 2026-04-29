@@ -17,3 +17,13 @@
 - [10-open-questions.md](10-open-questions.md) — <!-- summary -->
 - [11-call-for-collaboration.md](11-call-for-collaboration.md) — <!-- summary -->
 - [12-closing.md](12-closing.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [211-table-of-contents](docs/obsidian/02-anthropic-vacancies/211-table-of-contents.md) (сходство 0.37)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md) (сходство 0.30)
+- [README](docs/nautilus/composite-skills-agents/README.md) (сходство 0.30)
+

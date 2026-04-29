@@ -81,3 +81,13 @@ date: 2026-04-29
 - [[CONTENT_GAPS]]
 - [[HEALTH]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [METRICS](docs/METRICS.md) (сходство 0.88)
+- [BACKLINKS](docs/BACKLINKS.md) (сходство 0.21)
+- [SENTIMENT](docs/obsidian/SENTIMENT.md) (сходство 0.21)
+

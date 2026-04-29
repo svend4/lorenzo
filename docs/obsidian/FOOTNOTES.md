@@ -61,3 +61,13 @@ date: 2026-04-29
 - [[CONTRADICTIONS]]
 - [[07-выводы]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [FOOTNOTES](docs/FOOTNOTES.md) (сходство 0.94)
+- [GRAPH](docs/obsidian/GRAPH.md) (сходство 0.20)
+- [08-conclusions](docs/obsidian/01-svyazi/08-conclusions.md) (сходство 0.20)
+

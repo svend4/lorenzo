@@ -1,5 +1,12 @@
 # Ансамбль: [Название]
 
+<!-- summary -->
+> <!-- summary: Ансамбль из X компонентов для Y задачи -->
+
+---
+
+
+
 <!-- summary: Ансамбль из X компонентов для Y задачи -->
 <!-- tags: ансамбль, архитектура -->
 
@@ -70,3 +77,13 @@ _Создано: 2026-04-29_
 - [[Название компонента]](project-component.md) _21%_
 - [[Тема исследования]](research-note.md) _21%_
 - [Шаблоны документов](README.md) _17%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ensemble](docs/obsidian/templates/ensemble.md) (сходство 0.51)
+- [decision-record](docs/templates/decision-record.md) (сходство 0.33)
+- [research-summary](docs/autofilled/research-summary.md) (сходство 0.31)
+

@@ -88,3 +88,13 @@ match actual technology architecture.
 - [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
 - [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.85)
+- [265-12-call-for-collaboration](docs/obsidian/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.82)
+- [11-call-for-collaboration](docs/nautilus/professional-colleague-agents-en/11-call-for-collaboration.md) (сходство 0.30)
+

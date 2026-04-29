@@ -11,6 +11,8 @@ date: 2026-04-29
 > _Последнее обновление: 2026-04-29 · Снапшотов в истории: 1_
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -44,4 +46,14 @@ _Запускать регулярно для получения трендов.
 - [ALERTS](../ALERTS.md)
 - [HEALTH](../HEALTH.md)
 - [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KPI_HISTORY](docs/KPI_HISTORY.md) (сходство 0.64)
+- [DIGEST_WEEKLY](docs/obsidian/DIGEST_WEEKLY.md) (сходство 0.22)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.20)
 

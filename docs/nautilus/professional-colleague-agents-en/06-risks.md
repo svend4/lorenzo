@@ -249,3 +249,13 @@ emerge.
 - [10-risks](docs/nautilus/composite-skills-agents/10-risks.md)
 - [04-architecture](docs/nautilus/professional-colleague-agents-en/04-architecture.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [217-6-risks-specific-to-this-category](docs/obsidian/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.93)
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.90)
+- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md) (сходство 0.18)
+

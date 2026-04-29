@@ -153,3 +153,13 @@ efficiently between levels.
 - [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
 - [07-open-questions](docs/nautilus/double-triangle-architecture/07-open-questions.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [142-5-pattern-library-as-bridge-between-triangles](docs/obsidian/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.87)
+- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.85)
+- [148-appendix-a-glossary](docs/obsidian/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.21)
+

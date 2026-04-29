@@ -132,3 +132,13 @@ procedural_stage: "klage"
 - [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
 - [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md) (сходство 0.15)
+- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.12)
+- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.12)
+

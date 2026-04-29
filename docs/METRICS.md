@@ -1,4 +1,6 @@
 # Метрики качества документации
+<!-- tags: memory, ingestion, architecture, roadmap, anthropic, collaboration -->
+
 
 **Файлов:** 1150  **Средний балл:** 71.3/100
 
@@ -72,4 +74,14 @@
 - [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
 - [CONTENT_GAPS](docs/CONTENT_GAPS.md)
 - [HEALTH](docs/HEALTH.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [METRICS](docs/obsidian/METRICS.md) (сходство 0.88)
+- [BACKLINKS](docs/BACKLINKS.md) (сходство 0.22)
+- [LLM_SUMMARIES](docs/obsidian/LLM_SUMMARIES.md) (сходство 0.20)
 

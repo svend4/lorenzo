@@ -167,3 +167,13 @@ _Полная дорожная карта: [[12-roadmap|docs/01-svyazi/12-roadma
 - [[07-mvp-planning]]
 - [[01-executive-summary]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NARRATIVE](docs/NARRATIVE.md) (сходство 0.46)
+- [SIMILAR_PASSAGES](docs/SIMILAR_PASSAGES.md) (сходство 0.27)
+- [README](docs/04-ai-collaborations/README.md) (сходство 0.24)
+

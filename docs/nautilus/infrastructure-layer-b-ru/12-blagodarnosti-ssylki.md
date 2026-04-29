@@ -186,3 +186,13 @@ Knowledge Work*
 - [00-intro](docs/nautilus/infrastructure-layer-b-ru/00-intro.md)
 - [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [302-ссылки](docs/obsidian/02-anthropic-vacancies/302-ссылки.md) (сходство 0.35)
+- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md) (сходство 0.33)
+- [301-благодарности](docs/obsidian/02-anthropic-vacancies/301-благодарности.md) (сходство 0.29)
+

@@ -67,3 +67,13 @@
 - [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
 - [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-roadmap](docs/01-svyazi/12-roadmap.md) (сходство 0.80)
+- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.79)
+- [12-roadmap](docs/obsidian/01-svyazi/12-roadmap.md) (сходство 0.77)
+

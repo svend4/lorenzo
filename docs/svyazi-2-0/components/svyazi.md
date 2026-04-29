@@ -40,3 +40,13 @@
 - [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
 - [yodoca](docs/svyazi-2-0/components/yodoca.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [rufler](docs/svyazi-2-0/components/rufler.md) (сходство 0.33)
+- [memnet](docs/svyazi-2-0/components/memnet.md) (сходство 0.33)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md) (сходство 0.31)
+

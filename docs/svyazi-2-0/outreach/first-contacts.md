@@ -35,3 +35,13 @@
 - [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
 - [CONTACTS](docs/CONTACTS.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [message-template](docs/svyazi-2-0/outreach/message-template.md) (сходство 0.24)
+- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.22)
+- [05-план-прототипа-и-возможные-контакты](docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.22)
+

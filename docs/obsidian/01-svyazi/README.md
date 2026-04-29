@@ -19,3 +19,13 @@
 - [13-contacts.md](13-contacts.md) — ---
 - [14-limitations.md](14-limitations.md) — ---
 - [QA.md](QA.md) — ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [BACKLINKS](docs/obsidian/BACKLINKS.md) (сходство 0.24)
+- [README](docs/svyazi-2-0/overview/README.md) (сходство 0.24)
+- [VALIDATION](docs/obsidian/VALIDATION.md) (сходство 0.18)
+

@@ -110,3 +110,13 @@ date: 2026-04-29
 - [[VOCABULARY]]
 - [[WORD_FREQ]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COMPLEXITY](docs/COMPLEXITY.md) (сходство 0.61)
+- [SENTIMENT](docs/obsidian/SENTIMENT.md) (сходство 0.21)
+- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.19)
+

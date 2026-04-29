@@ -160,3 +160,13 @@ requires research.
 - [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [144-7-open-questions](docs/obsidian/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.91)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.89)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md) (сходство 0.21)
+

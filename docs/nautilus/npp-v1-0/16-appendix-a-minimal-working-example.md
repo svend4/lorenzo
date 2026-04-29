@@ -81,3 +81,13 @@ example_user, example@email.com
 - [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
 - [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.30)
+- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md) (сходство 0.28)
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.27)
+

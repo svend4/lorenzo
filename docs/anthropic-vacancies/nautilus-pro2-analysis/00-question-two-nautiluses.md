@@ -43,3 +43,13 @@ Claude hat geantwortet: Правильно разграничиваете — э
 - [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
 - [00-question-can-it-apply-to-docs](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-shell-metaphor-two-projections](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) (сходство 0.20)
+- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.16)
+- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.15)
+

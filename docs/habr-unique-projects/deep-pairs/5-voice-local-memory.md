@@ -34,3 +34,13 @@ Daily voice journal — каждый вечер 5 минут устного ра
 - [2-document-rag](docs/habr-unique-projects/deep-pairs/2-document-rag.md)
 - [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.42)
+- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.20)
+- [2-document-rag](docs/habr-unique-projects/deep-pairs/2-document-rag.md) (сходство 0.18)
+

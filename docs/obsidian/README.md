@@ -97,3 +97,13 @@
 - [badges/](badges/) — badges
 - [contacts/](contacts/) — contacts
 - [templates/](templates/) — templates
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/README.md) (сходство 0.51)
+- [DEPENDENCY_MAP](docs/obsidian/DEPENDENCY_MAP.md) (сходство 0.42)
+- [DEPENDENCY_MAP](docs/DEPENDENCY_MAP.md) (сходство 0.40)
+

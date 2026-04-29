@@ -13,3 +13,13 @@
 - [7-domain-agent-app-factory.md](7-domain-agent-app-factory.md) — <!-- summary -->
 - [8-budget-aware-intelligence-stack.md](8-budget-aware-intelligence-stack.md) — <!-- summary -->
 - [9-ambient-team-agent.md](9-ambient-team-agent.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/svyazi-2-0/ensembles/README.md) (сходство 0.19)
+- [README](docs/svyazi-2-0/components/README.md) (сходство 0.17)
+- [README](docs/obsidian/03-technology-combinations/README.md) (сходство 0.14)
+

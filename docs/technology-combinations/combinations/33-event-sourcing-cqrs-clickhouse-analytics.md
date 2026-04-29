@@ -65,3 +65,13 @@ ROI: Write once (event), read many ways (projections)
 - [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
 - [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md) (сходство 0.41)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.36)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.33)
+

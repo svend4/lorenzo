@@ -201,3 +201,13 @@ _Обновлено: 2026-04-29_
 - [[306-with-anthropic-s-cowork-platform]]
 - [[WORD_CLOUD]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KEYWORD_INDEX](docs/KEYWORD_INDEX.md) (сходство 0.77)
+- [CONCEPT_GRAPH](docs/obsidian/CONCEPT_GRAPH.md) (сходство 0.28)
+- [WORD_CLOUD](docs/obsidian/WORD_CLOUD.md) (сходство 0.28)
+

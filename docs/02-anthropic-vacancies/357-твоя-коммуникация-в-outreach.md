@@ -37,3 +37,13 @@
 - [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md)
 - [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [357-твоя-коммуникация-в-outreach](docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.82)
+- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md) (сходство 0.82)
+- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md) (сходство 0.19)
+

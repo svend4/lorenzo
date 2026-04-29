@@ -482,3 +482,13 @@ _Обновлено: 2026-04-29_
 - [[PARAGRAPH_QUALITY]]
 - [[READABILITY]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_ORDER](docs/obsidian/READING_ORDER.md) (сходство 0.86)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.84)
+- [READING_TIME](docs/obsidian/READING_TIME.md) (сходство 0.83)
+

@@ -1,5 +1,15 @@
 # Читаемость документов (Flesch-Kincaid)
 
+<!-- summary -->
+> Средний индекс FRE: **2.1/100**
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Средний индекс FRE: **2.1/100**
@@ -1199,4 +1209,14 @@ _Обновлено: 2026-04-29_
 - [SOURCE_MAP](docs/SOURCE_MAP.md)
 - [PARAGRAPH_QUALITY](docs/PARAGRAPH_QUALITY.md)
 - [SEARCH](docs/SEARCH.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEARCH](docs/SEARCH.md) (сходство 0.97)
+- [READING_TIME](docs/READING_TIME.md) (сходство 0.96)
+- [SOURCE_MAP](docs/SOURCE_MAP.md) (сходство 0.84)
 

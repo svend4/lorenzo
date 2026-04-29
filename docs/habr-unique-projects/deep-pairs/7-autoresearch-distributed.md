@@ -34,3 +34,13 @@ Sequential протокол для модерации inferred-фактов — 
 - [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
 - [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.17)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.16)
+- [2-autoresearch-legal](docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md) (сходство 0.16)
+

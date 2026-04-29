@@ -105,3 +105,13 @@ return list(visited.keys())
 - [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
 - [13-rest-api](docs/nautilus/npp-v1-1/13-rest-api.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [83-8-q6-space-normative](docs/02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.77)
+- [83-8-q6-space-normative](docs/obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.76)
+- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md) (сходство 0.21)
+

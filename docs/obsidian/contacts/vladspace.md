@@ -90,3 +90,13 @@ _Создано автоматически: 2026-04-29_
 - [[mixaill76]]
 - [[zodigancode]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [zodigancode](docs/obsidian/contacts/zodigancode.md) (сходство 0.98)
+- [mixaill76](docs/obsidian/contacts/mixaill76.md) (сходство 0.98)
+- [dmitriila](docs/obsidian/contacts/dmitriila.md) (сходство 0.98)
+

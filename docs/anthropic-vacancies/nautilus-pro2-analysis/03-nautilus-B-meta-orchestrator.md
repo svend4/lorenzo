@@ -129,3 +129,13 @@ Du hast gesagt: https://github.
 - [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 - [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DECISIONS](docs/obsidian/DECISIONS.md) (сходство 0.15)
+- [DECISIONS](docs/DECISIONS.md) (сходство 0.14)
+- [02-общий-план-развития-nautilus-portal-protocol](docs/obsidian/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) (сходство 0.12)
+

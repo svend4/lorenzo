@@ -1,4 +1,6 @@
 # Карта пробелов знаний
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

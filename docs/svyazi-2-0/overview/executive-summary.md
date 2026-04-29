@@ -33,3 +33,13 @@
 - [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
 - [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md) (сходство 0.72)
+- [01-executive-summary](docs/obsidian/04-ai-collaborations/01-executive-summary.md) (сходство 0.67)
+- [01-executive-summary](docs/01-svyazi/01-executive-summary.md) (сходство 0.57)
+

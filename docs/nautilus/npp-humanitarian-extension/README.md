@@ -10,3 +10,13 @@
 - [03-what-doesnt-exist-on-market.md](03-what-doesnt-exist-on-market.md) — <!-- summary -->
 - [04-grant-opportunities.md](04-grant-opportunities.md) — > [!TIP]
 - [05-which-combination-more-valuable.md](05-which-combination-more-valuable.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/community-discussions/habr-article-1-reaction/README.md) (сходство 0.17)
+- [README](docs/nautilus/community-discussions/practical-observations/README.md) (сходство 0.15)
+- [README](docs/lorenzo-agent/scenarios/README.md) (сходство 0.15)
+

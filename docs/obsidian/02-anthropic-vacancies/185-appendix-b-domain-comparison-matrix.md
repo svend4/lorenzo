@@ -49,3 +49,13 @@ date: 2026-04-29
 - [[121-appendix-c-история-изменений-методологии]]
 - [[361-когда-ты-honestly-не-знаешь]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [185-appendix-b-domain-comparison-matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md) (сходство 0.73)
+- [121-appendix-c-история-изменений-методологии](docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md) (сходство 0.36)
+- [361-когда-ты-honestly-не-знаешь](docs/obsidian/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) (сходство 0.35)
+

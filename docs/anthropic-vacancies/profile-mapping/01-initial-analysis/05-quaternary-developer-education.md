@@ -41,3 +41,13 @@ Certification Development Lead
 - [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
 - [07-unique-niche-eu-legal-infra](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.28)
+- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md) (сходство 0.25)
+- [06-not-applicable-roles](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md) (сходство 0.25)
+

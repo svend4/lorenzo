@@ -41,3 +41,13 @@ _Компонент экосистемы Svyazi 2.0_
 - [[kksudo]] _83%_
 - [[lorenzo]] _83%_
 - [[nautilus]] _83%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [kksudo](docs/obsidian/autofilled/components/kksudo.md) (сходство 1.00)
+- [svyazi](docs/obsidian/autofilled/components/svyazi.md) (сходство 0.94)
+- [sgb](docs/obsidian/autofilled/components/sgb.md) (сходство 0.94)
+

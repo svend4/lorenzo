@@ -1,5 +1,18 @@
 # Языковой состав документов
 
+<!-- toc -->
+## Содержание
+
+- [Распределение](#распределение)
+- [Файлы с неожиданным языком](#файлы-с-неожиданным-языком)
+- [Смешанные файлы (MIX)](#смешанные-файлы-mix)
+- [По секциям](#по-секциям)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 _Обновлено: 2026-04-29_
 
 Файлов: **1138**
@@ -864,3 +877,13 @@ _Обновлено: 2026-04-29_
 | `svyazi-2-0` | 0 | 8 | 51 |
 | `technology-combinations` | 0 | 31 | 20 |
 | `templates` | 0 | 0 | 6 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READABILITY](docs/READABILITY.md) (сходство 0.77)
+- [SEARCH](docs/SEARCH.md) (сходство 0.77)
+- [READING_TIME](docs/READING_TIME.md) (сходство 0.77)
+

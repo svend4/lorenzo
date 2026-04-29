@@ -25,3 +25,13 @@
 - [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
 - [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.25)
+- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.24)
+- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md) (сходство 0.24)
+

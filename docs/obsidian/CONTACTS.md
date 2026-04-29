@@ -122,3 +122,13 @@ date: 2026-04-29
 - [[NETWORK]]
 - [[PROGRESS]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTACTS](docs/CONTACTS.md) (сходство 0.87)
+- [CONTACT_PRIORITY](docs/obsidian/CONTACT_PRIORITY.md) (сходство 0.28)
+- [narrow-questions](docs/svyazi-2-0/outreach/narrow-questions.md) (сходство 0.27)
+

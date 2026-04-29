@@ -72,3 +72,13 @@ _Чем выше балл — тем важнее написать первым.
 - [[CONTACTS]]
 - [[anastasiyaw]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md) (сходство 0.73)
+- [antipozitive](docs/obsidian/contacts/antipozitive.md) (сходство 0.33)
+- [sonia-black](docs/obsidian/contacts/sonia-black.md) (сходство 0.32)
+

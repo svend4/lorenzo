@@ -105,3 +105,13 @@ _Всё в порядке_
 - [[SITEMAP]]
 - [[CONTENT_GAPS]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [VALIDATION](docs/VALIDATION.md) (сходство 0.64)
+- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.25)
+- [LLM_SUMMARIES](docs/obsidian/LLM_SUMMARIES.md) (сходство 0.24)
+

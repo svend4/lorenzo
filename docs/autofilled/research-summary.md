@@ -74,3 +74,13 @@ _Создано: 2026-04-29_
 - [Автозаполненные шаблоны](../AUTOFILLED.md)
 - [Ансамбль: [Название]](../templates/ensemble.md)
 - [Шаблоны документов](../templates/README.md)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [research-summary](docs/obsidian/autofilled/research-summary.md) (сходство 0.82)
+- [research-note](docs/templates/research-note.md) (сходство 0.64)
+- [research-note](docs/obsidian/templates/research-note.md) (сходство 0.55)
+

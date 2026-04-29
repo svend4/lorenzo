@@ -33,3 +33,13 @@
 - [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
 - [message-template](docs/svyazi-2-0/outreach/message-template.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-методика-и-рамка-отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.76)
+- [02-методика-и-рамка-отбора](docs/obsidian/04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.71)
+- [02-methodology](docs/01-svyazi/02-methodology.md) (сходство 0.63)
+

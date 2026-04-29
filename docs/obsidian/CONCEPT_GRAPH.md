@@ -172,3 +172,13 @@ graph TD
 - [[208-professional-colleague-agents-md]]
 - [[151-open-knowledge-work-foundation-md]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md) (сходство 0.47)
+- [249-composite-skills-agent-md](docs/obsidian/02-anthropic-vacancies/249-composite-skills-agent-md.md) (сходство 0.42)
+- [304-ingit-as-cowork-native-workspace-substrate-md](docs/obsidian/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) (сходство 0.41)
+

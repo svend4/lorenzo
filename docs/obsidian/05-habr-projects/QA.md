@@ -70,3 +70,13 @@ _Не найдено в этом файле._
 [^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
 
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](docs/05-habr-projects/QA.md) (сходство 0.72)
+- [QA](docs/obsidian/01-svyazi/QA.md) (сходство 0.49)
+- [QA](docs/obsidian/04-ai-collaborations/QA.md) (сходство 0.48)
+

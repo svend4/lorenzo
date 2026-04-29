@@ -37,3 +37,13 @@
 - [hybrid-rag](docs/svyazi-2-0/components/hybrid-rag.md)
 - [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [memnet](docs/svyazi-2-0/components/memnet.md) (сходство 0.39)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md) (сходство 0.37)
+- [hybrid-rag](docs/svyazi-2-0/components/hybrid-rag.md) (сходство 0.35)
+

@@ -27,3 +27,13 @@ Du hast gesagt: Ещё есть такие вопросы то есть если
 - [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
 - [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.26)
+- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.24)
+- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.22)
+

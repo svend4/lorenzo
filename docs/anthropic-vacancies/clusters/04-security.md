@@ -23,3 +23,13 @@ Application Security, Detection & Response, Offensive Security, Insider Risk, Pl
 - [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md)
 - [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [16-people](docs/anthropic-vacancies/clusters/16-people.md) (сходство 0.42)
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.41)
+- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md) (сходство 0.39)
+

@@ -56,3 +56,13 @@ date: 2026-04-29
 - **104-appendix-c-references** → `122-глоссарий`, `34-appendix-b-change-log`, `69-section`, `64-for-the-curious-philosophy`
 - **105-review-methodology-md** → `28-appendix-a-minimal-working-example`, `125-readme-mcp-md-инструкция-по-установке`, `65-readme-md`, `123-portal-mcp-py`
 - **106-tl-dr** → `70-зачем-две-версии-параллельно`, `71-критерии-выбора-для-фазы-3`, `28-appendix-a-minimal-working-example`, `57-native-format`
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.66)
+- [PRIORITIES](docs/obsidian/PRIORITIES.md) (сходство 0.36)
+- [SITEMAP](docs/obsidian/SITEMAP.md) (сходство 0.31)
+

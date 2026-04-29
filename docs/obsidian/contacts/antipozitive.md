@@ -95,3 +95,13 @@ _Создано автоматически: 2026-04-29_
 - [[tagir-analyzes]]
 - [[vladspace]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [sonia-black](docs/obsidian/contacts/sonia-black.md) (сходство 0.85)
+- [nlaik](docs/obsidian/contacts/nlaik.md) (сходство 0.85)
+- [tagir-analyzes](docs/obsidian/contacts/tagir-analyzes.md) (сходство 0.79)
+

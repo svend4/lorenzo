@@ -32,3 +32,13 @@
 - [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
 - [review-record](docs/svyazi-2-0/architecture/review-record.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.21)
+- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md) (сходство 0.21)
+- [11-integration-contracts](docs/obsidian/01-svyazi/11-integration-contracts.md) (сходство 0.20)
+

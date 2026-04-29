@@ -1,5 +1,15 @@
 # Q&A: lorenzo-agent
 
+<!-- summary -->
+> _Автоматически сгенерировано по 55 файлам раздела._
+**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, NGT Memory
+
+---
+<!-- tags: memory, rag, knowledge, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 _Автоматически сгенерировано по 55 файлам раздела._
 
 ## Какие кластеры найма выделены у Anthropic?
@@ -69,3 +79,13 @@ _Не найдено в этом файле._
 ## Что входит в интеграционный контракт между слоями?
 
 _Не найдено в этом файле._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](docs/obsidian/QA.md) (сходство 0.49)
+- [QA](docs/obsidian/02-anthropic-vacancies/QA.md) (сходство 0.49)
+- [QA](docs/QA.md) (сходство 0.45)
+

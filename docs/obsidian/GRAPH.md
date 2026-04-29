@@ -660,3 +660,13 @@ digraph lorenzo {
 - [[MINDMAP]]
 - [[CONTACT_PRIORITY]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GRAPH](docs/GRAPH.md) (сходство 0.85)
+- [MINDMAP](docs/obsidian/MINDMAP.md) (сходство 0.45)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.41)
+

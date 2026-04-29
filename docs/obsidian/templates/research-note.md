@@ -56,3 +56,13 @@ _Создано: 2026-04-29_
 - [[vladspace]]
 - [[cutcode]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [research-note](docs/templates/research-note.md) (сходство 0.76)
+- [research-summary](docs/obsidian/autofilled/research-summary.md) (сходство 0.68)
+- [research-summary](docs/autofilled/research-summary.md) (сходство 0.55)
+

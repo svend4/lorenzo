@@ -92,3 +92,13 @@ _Дата: 2026-04-29_
 - [[ONBOARDING]]
 - [[INDEX]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SCORING](docs/SCORING.md) (сходство 0.73)
+- [HEATMAP](docs/obsidian/HEATMAP.md) (сходство 0.21)
+- [DENSITY](docs/obsidian/DENSITY.md) (сходство 0.21)
+

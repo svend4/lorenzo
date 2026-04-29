@@ -1,5 +1,19 @@
 # Матрица покрытия документов
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Сводка по секциям](#сводка-по-секциям)
+- [Файлы с низким покрытием (< 3 признаков) — 87 файлов](#файлы-с-низким-покрытием-3-признаков-87-файлов)
+- [Полное покрытие — 0 файлов](#полное-покрытие-0-файлов)
+- [Рекомендуемые действия](#рекомендуемые-действия)
+
+---
+
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -96,3 +110,13 @@ python scripts/improve_backlinks.py
 # Заполнить блок ## Статус в проектных файлах
 python scripts/improve_autofill.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [STALENESS](docs/STALENESS.md) (сходство 0.35)
+- [TAGS](docs/obsidian/TAGS.md) (сходство 0.30)
+- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md) (сходство 0.26)
+

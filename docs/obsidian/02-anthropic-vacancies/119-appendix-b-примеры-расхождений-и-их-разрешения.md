@@ -109,3 +109,13 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 ## Упоминается в
 
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) (сходство 0.77)
+- [13-appendix-b-examples](docs/nautilus/review-methodology/13-appendix-b-examples.md) (сходство 0.67)
+- [118-appendix-a-шаблон-для-header-warning](docs/obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.27)
+

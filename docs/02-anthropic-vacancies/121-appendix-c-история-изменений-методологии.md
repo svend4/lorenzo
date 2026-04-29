@@ -61,3 +61,13 @@ IMPLEMENTATION_STAGE_PART_*.md в апреле 2026.
 - [Appendix B: Domain Comparison Matrix](185-appendix-b-domain-comparison-matrix.md) _29%_
 - [Твоя миссия](347-твоя-миссия.md) _29%_
 - [Главные технические риски](120-главные-технические-риски.md) _25%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md) (сходство 0.70)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md) (сходство 0.59)
+- [121-appendix-c-история-изменений-методологии](docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md) (сходство 0.58)
+

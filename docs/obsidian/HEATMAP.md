@@ -105,3 +105,13 @@ _██ = максимум, ▓▓ = высокое, ▒▒ = среднее, �
 - [[SCHEDULE]]
 - [[SCORING]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [HEATMAP](docs/HEATMAP.md) (сходство 0.95)
+- [DENSITY](docs/obsidian/DENSITY.md) (сходство 0.44)
+- [DENSITY](docs/DENSITY.md) (сходство 0.32)
+

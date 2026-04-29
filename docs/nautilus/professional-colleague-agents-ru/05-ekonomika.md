@@ -187,3 +187,13 @@ $5/месяц. Стоимость для фонда: $1,5
 - [04-arkhitektura](docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md)
 - [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [236-5-экономика-тиражирования-по-профессии](docs/obsidian/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md) (сходство 0.88)
+- [236-5-экономика-тиражирования-по-профессии](docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md) (сходство 0.86)
+- [08-pilot-sgb-kolega](docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md) (сходство 0.13)
+

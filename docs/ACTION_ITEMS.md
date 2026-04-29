@@ -1,16 +1,11 @@
 # Action Items, риски и решения
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 1230
+**Всего элементов:** 2092
 
 
-## ➡️ Следующие шаги (141)
+## ➡️ Следующие шаги (246)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -156,6 +151,8 @@
   _→ 01-executive-summary_
 - как понятны роли агентов, типы задач и review states.  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
+- от одного агента к ансамблю агентов  
+  _→ CONCEPTS_
 - _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_  
   _→ CONCEPTS_
 - за вами: либо я могу составить конкретный чек-лист для ш  
@@ -168,10 +165,20 @@
   _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
+- — call? [S]  
+  _→ QUESTIONS_
+- — call? [Твоя коммуникация в outreach]  
+  _→ QUESTIONS_
+- набора узкоспециализированных под-аге [Какой под-агент (или какие) должны её обработать]  
+  _→ QUESTIONS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
   _→ RISK_REGISTER_
 - — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Po  
   _→ SUMMARIES_
+- как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |  
+  _→ TABLES_
+- Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
+  _→ TABLES_
 - строит личную или индивидуально‑командную knowledge memory. Svyazi‑2.0 должна строить социально‑проектный граф: кто може  
   _→ 07-vs-notion-mem-affine-langgraph_
 - как понятны роли агентов, типы задач и review states. A2A Protocol+1  
@@ -193,19 +200,19 @@
 - ваш repo имеет defensible meta-layer: для любого внешнего человека видно, что вы работаете в осмысленной парадигме, а не в хаотичном AI-assisted режим  
   _→ 16-glossary_
 - интереснее: knowledge-space становится не просто хранилищем знаний, а приёмником результатов ночных исследований; CodeWiki и Skills превращают эти рез  
-  _→ H-research-to-product-flywheel_
+  _→ 10-second-order-ensembles_
+- _→ [[342-что-такое-вариант-c-concept-document-для-anthropic]]_  
+  _→ CONCEPTS_
+- как InGit | `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |  
+  _→ TABLES_
 - как появилась **метрика качества**, benchmark set и отчётливое понимание, что считать регрессией. До этого автоматическая оптимизация будет скорее про  
   _→ do-not-glue_
-- как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |  
-  _→ risks_
-- Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
-  _→ risks_
 - validation Bescheid parsing:  
   _→ 30-mega-stack-3-0-with-dsl-ast_
 
-_(46 дублей скрыто)_
+_(145 дублей скрыто)_
 
-## ✅ Решения и рекомендации (257)
+## ✅ Решения и рекомендации (439)
 
 - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идёт  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -307,6 +314,8 @@ _(46 дублей скрыто)_
   _→ 165-closing_
 - проблемы «cold start» для контрибьюторов. Один из вызовов любой platform с workers и tasks — что делать с новыми участниками, у которых ещё нет track  
   _→ 165-closing_
+- Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _21%_  
+  _→ 172-3-what-makes-a-representative-agent_
 - to principal rather than acting  
   _→ 174-5-architectural-specification_
 - - Principal c  
@@ -353,6 +362,8 @@ _(46 дублей скрыто)_
   _→ 303-приложение-визуализация-позиции-в-серии_
 - , которая стоит внимания.  
   _→ 303-приложение-визуализация-позиции-в-серии_
+- Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)  
+  _→ 308-table-of-contents_
 - Tree for InGit Adopters  
   _→ 321-appendix-a-decision-tree-for-ingit-adopters_
 - framework для CAMEL Workforce setups  
@@ -409,12 +420,8 @@ _(46 дублей скрыто)_
   _→ DUPLICATES_
 - (5 сл., строка 22)  
   _→ EMPTY_SECTIONS_
-- × Auto AI Router` (строка 25)  
-  _→ HEADING_AUDIT_
-- framework — when to build type 1 first`  
-  _→ HEADING_AUDIT_
-- tree for ingit adopters`  
-  _→ HEADING_AUDIT_
+- прочитать в первую очередь. <!-- alert-added --> <!-- autofill-status --> | Параметр | Значение | |----------|---------| | Теги | — | | Упоминаний в р  
+  _→ NARRATIVE_
 - Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-f  
   _→ OUTLINE_
 - Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters  
@@ -425,8 +432,10 @@ _(46 дублей скрыто)_
   _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
-- Framework — When to Buil](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 221 | — |  
+- Framework — When to Buil](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 496 | — |  
   _→ READING_ORDER_
+- × Auto A](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) | 171 |  
+  _→ SITEMAP_
 - автоматическое, по правилу - Наша методология: разрешение ручное, через правила 1-5 В security и public policy используется структура red vs blue : од  
   _→ SUMMARIES_
 - через Правило 2 §3.1 : Финальная запись : Правило: итоговое число — точное, верифицированное , не среднее между A и B. Из IMPLEMENTATION STAGE PART 1.  
@@ -437,20 +446,58 @@ _(46 дублей скрыто)_
   _→ TABLES_
 - 2019 года, после изменений 2024 года примен | `docs/TABLES.md` |  
   _→ TABLES_
+- создать документы](#26-рекомендуется-создать-документы)  
+  _→ TABLES_
 - исправить.  
   _→ VALIDATION_
 - позиционировать как research database, не как legal service. «Вот как типичный case структурируется» — OK. «Вот что вам лично делать» — не OK без юрид  
   _→ 03-what-this-gives-technically_
 - Но reality: knowledge work ветвится постоянно. Во время обсуждения проекта X возникает идея для проекта Y. Во время review кода возникает architectura  
   _→ 01-three-related-themes_
-- (extractor / reviewer / publisher)  
-  _→ review-record_
+- Framework — When to Build Type 1 First]] _29%_  
+  _→ 212-1-the-five-type-typology-of-principal-side-agents_
+- Framework — When to Build Type 1 First]] _37%_  
+  _→ 226-appendix-a-comparative-table-five-agent-types_
+- Framework — When to Build Type 1 First"  
+  _→ 227-appendix-b-decision-framework-when-to-build-type-1_
+- Framework — When to Build Type 1 First]] _66%_  
+  _→ 269-appendix-a-the-six-type-taxonomy-updated_
+- Tree for InGit Adopters]] _48%_  
+  _→ 270-appendix-b-sub-agent-registry-schema-sketch_
+- Tree for InGit Adopters]] _29%_  
+  _→ 271-appendix-c-configuration-template-example_
+- Tree for InGit Adopters"  
+  _→ 321-appendix-a-decision-tree-for-ingit-adopters_
+- Tree for InGit Adopters]] _25%_  
+  _→ 322-appendix-b-comparison-matrix_
+- Framework — When to Build Type 1 First]] _17%_  
+  _→ 345-кто-ты_
+- прочитать в первую очередь. <!--…  
+  _→ NARRATIVE_
+- Framework — When to Build Type 1 First]]](#227-appendix-b-decision-framework-when-to-build-type-1appendix-b-decision-framework-when-to-build-type-1-fi  
+  _→ OUTLINE_
+- Tree for InGit Adopters]]](#321-appendix-a-decision-tree-for-ingit-adoptersappendix-a-decision-tree-for-ingit-adopters)  
+  _→ OUTLINE_
+- Framework — When to Build Type 1 First]]  
+  _→ OUTLINE_
+- Tree for InGit Adopters]]  
+  _→ OUTLINE_
+- Framework — When to Buil]] | 332 | — |  
+  _→ READING_ORDER_
+- Tree for InGit Adopters]] | 241 | — |  
+  _→ READING_ORDER_
+- Framework — When to Buil]] | 328 | — |  
+  _→ TABLES_
+- - templates  
+  _→ decision-record_
 - **Выбрано:** [Вариант X]  
   _→ decision-record_
+- (extractor / reviewer / publisher)  
+  _→ review-record_
 
-_(137 дублей скрыто)_
+_(299 дублей скрыто)_
 
-## ⚠️ Риски (544)
+## ⚠️ Риски (903)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -517,6 +564,8 @@ _(137 дублей скрыто)_
 - Analysis**  
   _→ 154-table-of-contents_
 - mitigations**:  
+  _→ 161-7-phased-rollout-plan_
+- Analysis](162-8-risk-analysis.md)  
   _→ 161-7-phased-rollout-plan_
 - Assessment On balance, OKWF faces typical challenges of a new foundation with novel scope.  
   _→ 162-8-risk-analysis_
@@ -890,48 +939,42 @@ _(137 дублей скрыто)_
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 - склеивать в один релиз  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
-- (6 файлов)  
-  _→ CLUSTERS_
+- register, auto-changelog, master index; fix run_all missing scripts _59617c5d_  
+  _→ CHANGELOG_
 - mitigations**  
   _→ CONCEPTS_
+- 5: Burnout. Проект … | 60 |  
+  _→ COST_
 - | Senior Python Dev | 2 | $6,800 |  
   _→ COST_
 - mitigation для каждой. Полезно для grant  
   _→ DECISIONS_
-- | `root` | 76% |  
+- собирать вс  
+  _→ DECISIONS_
+- склеивать](docs/svyazi-2-0/limitations/do-not-glue.md) > > !WARNING - Оркестрация — выбрать один spine - Voice/local‑fir  
+  _→ DECISIONS_
+- | `root` | 86% |  
   _→ DENSITY_
-- Коллапс Опосредования](#61-риск-коллапс-опосредования) - [6.2. Риск: Атрофия Навыков у Новых Пра…  
+- - Conflict between mission и user req…  
   _→ DUPLICATES_
-- sources**: - Employment law reclassifying contributors as employees - GDPR enforcement challenges with anonymization pipeline - AI Act regulatory requ  
+- mitigations**: - If contributor recruitment slow: increase outreach investment; partner with existing networks (LinkedIn groups, disability advo  
   _→ DUPLICATES_
-- Analysis (0 сл., строка 32)  
+- Analysis (0 сл., строка 41)  
   _→ EMPTY_SECTIONS_
-- агентов? (8 сл., строка 106)  
+- Analysis (0 сл., строка 34)  
   _→ EMPTY_SECTIONS_
 - агентов? (8 сл., строка 22)  
   _→ EMPTY_SECTIONS_
-- и allowlist для MCP | 16 |  
+- агентов? (8 сл., строка 17)  
+  _→ EMPTY_SECTIONS_
+- и allowlist для MCP | 0 |  
   _→ FOOTNOTES_
-- analysis docs/02-anthropic-vacancies/164-10-appendices.md (2 проблем) секция: 1, заголовок: 1 - 🕳️ Пустая секция — 0 слов: 10.  
-  _→ HEADING_AUDIT_
-- Analysis` (строка 32)  
-  _→ HEADING_AUDIT_
-- агентов?` (строка 106)  
-  _→ HEADING_AUDIT_
-- агентов?` (строка 22)  
-  _→ HEADING_AUDIT_
-- склеивать` (строка 1)  
-  _→ HEADING_AUDIT_
-- склеивать`  
-  _→ HEADING_AUDIT_
-- | ██ 6.8 | 0.4 | 0.3 | ▒▒ 4.0 | 0.1 |  
+- | ██ 6.5 | 0.4 | 0.3 | ▓▓ 4.0 | 0.1 |  
   _→ HEATMAP_
-- агентов? [Содержание]  
+- агентов? [[Глобальный Q&A](docs/QA.md)]  
   _→ KNOWLEDGE_MAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
-- того, что через две недели **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, LiteParse, Legal RAG, Hybrid RAG --- <!-- tags: memory, rag,  
-  _→ NARRATIVE_
 - Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysisdocs02-anthropic-vacancies162-8-risk-analysismd)  
   _→ OUTLINE_
 - Analysis](docs/nautilus/okwf-concept/08-risk-analysis.md)](#8-risk-analysisdocsnautilusokwf-concept08-risk-analysismd)  
@@ -954,7 +997,29 @@ _(137 дублей скрыто)_
   _→ OUTLINE_
 - склеивать](docs/svyazi-2-0/limitations/do-not-glue.md)  
   _→ OUTLINE_
-- скл](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3004 | — |  
+- Почему это важно Снижение риска [6. План прототипа и возможные контакты]  
+  _→ QUESTIONS_
+- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н [5.  
+  _→ QUESTIONS_
+- Почему это важно Снижение риска [План прототипа и возможные контакты]  
+  _→ QUESTIONS_
+- Двусмысленность Ответственности]  
+  _→ QUESTIONS_
+- Coordinator Bias]  
+  _→ QUESTIONS_
+- Почему это важно Снижение риска … [Упоминания рисков в документах]  
+  _→ QUESTIONS_
+- Почему это важно Снижение риска [Ключевые риски и как их закрывать]  
+  _→ QUESTIONS_
+- Нарушения Конфиденциальности]  
+  _→ QUESTIONS_
+- агентов? [Какие RAG-подходы сравниваются в документах?]  
+  _→ QUESTIONS_
+- агентов? [Открытые вопросы]  
+  _→ QUESTIONS_
+- склеивать]  
+  _→ QUESTIONS_
+- скл](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3274 | — |  
   _→ READING_ORDER_
 - | Категория | Вероятн. | Влияние | Score | Уровень |  
   _→ RISK_REGISTER_
@@ -968,21 +1033,25 @@ _(137 дублей скрыто)_
   _→ RISK_REGISTER_
 - и PII описаны | ✅ | 8 |  
   _→ SCORING_
-- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н  
-  _→ SIMILAR_PASSAGES_
 - собирать все сраз  
   _→ SIMILAR_PASSAGES_
-- склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3022 |  
+- склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3274 |  
+  _→ SITEMAP_
+- склеивать](docs/svyazi-2-0/limitations/do-not-glue.md) | 343 |  
   _→ SITEMAP_
 - того, что через две недели Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, LiteParse, Legal RAG ^rag , Hybrid  
   _→ SUMMARIES_
-- 5: Burnout. Проект … | 60 |  
-  _→ TABLES_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
   _→ TABLES_
-- | `root` | 59% |  
+- | `root` | 76% |  
+  _→ TABLES_
+- и allowlist для MCP | 16 |  
+  _→ TABLES_
+- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
+  _→ TABLES_
+- склеивать, выводы |  
   _→ TABLES_
 - проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
@@ -994,18 +1063,54 @@ _(137 дублей скрыто)_
   _→ 01-response_
 - становится отдельной способностью, ортогональной к умению создавать качество.  
   _→ 01-response_
+- склеивать](#ограничения-лицензии-и-что-пока-лучше-не-склеивать)  
+  _→ 14-limitations_
+- Analysis]] _17%_  
+  _→ 159-5-economic-model_
+- склеивать]] _21%_  
+  _→ 00-intro_
+- склеивать"  
+  _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
+- (4 файлов)](#кластер-26-medium-high-low-risk-4-файлов)  
+  _→ CLUSTERS_
+- (4 файлов)  
+  _→ CLUSTERS_
+- | `root` | 58% |  
+  _→ DENSITY_
+- register, auto-changelog, master index; fix run_all mis |  
+  _→ DIGEST_
+- | ██ 7.7 | 0.4 | 0.4 | ▒▒ 4.1 | 0.1 |  
+  _→ HEATMAP_
+- того, что через две недели **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, LiteParse, Legal RAG[^rag], Hy  
+  _→ NARRATIVE_
+- Analysis]]](#162-8-risk-analysis8-risk-analysis)  
+  _→ OUTLINE_
+- Analysis]]  
+  _→ OUTLINE_
+- склеивать]]](#14-ограничения-лицензии-и-что-пока-лучше-не-склеиватьограничения-лицензии-и-что-пока-лучше-не-склеивать)  
+  _→ OUTLINE_
+- склеивать]]  
+  _→ OUTLINE_
+- Analysis]] | 653 | — |  
+  _→ READING_ORDER_
+- скл]] | 3362 | — |  
+  _→ READING_ORDER_
+- склеиват]] | 3362 |  
+  _→ SITEMAP_
+- скл]] | 3339 | — |  
+  _→ TABLES_
+- склеиват]] | 3339 |  
+  _→ TABLES_
 - и бюджетный execution plane для агентных систем.  
   _→ security-routing-plane_
 - склеивать».  
   _→ do-not-glue_
-- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
-  _→ projects-map_
 - (critical for Anwaltsgeheimnis)  
   _→ 14-local-first-agent-development-environment_
 
-_(269 дублей скрыто)_
+_(599 дублей скрыто)_
 
-## 🚫 Ограничения (141)
+## 🚫 Ограничения (248)
 
 - не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi[^svyazi] как базовый пат  
   _→ 14-limitations_
@@ -1033,6 +1138,8 @@ _(269 дублей скрыто)_
   _→ 115-8-ограничения-и-открытые-вопросы_
 - и альтернативы  
   _→ 122-глоссарий_
+- текущей версии (0.1.0-draft)](131-ограничения-текущей-версии-0-1-0-draft.md)  
+  _→ 128-доступные-инструменты_
 - текущей версии (0.1.0-draft)  
   _→ 131-ограничения-текущей-версии-0-1-0-draft_
 - для такой infrastructure, потому что:  
@@ -1117,16 +1224,14 @@ _(269 дублей скрыто)_
   _→ 365-развёрнутый-анализ-внуковой-комбинации_
 - исчезают**  
   _→ CONCEPTS_
-- (6 сл., строка 30)  
+- при коммерческом использовании | | **Monolithic LLM…  
+  _→ DUPLICATES_
+- (6 сл., строка 25)  
   _→ EMPTY_SECTIONS_
-- и открытые вопросы (0 сл., строка 17)  
+- и открытые вопросы (0 сл., строка 35)  
   _→ EMPTY_SECTIONS_
-- и открытые вопросы` (строка 17)  
-  _→ HEADING_AUDIT_
-- и открытые вопросы`  
-  _→ HEADING_AUDIT_
-- текущей версии (0.1.0-draft)`  
-  _→ HEADING_AUDIT_
+- и открытые вопросы (0 сл., строка 19)  
+  _→ EMPTY_SECTIONS_
 - и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросыdocs02-anthropic-vacancies1  
   _→ OUTLINE_
 - текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draftdocs02-  
@@ -1137,10 +1242,20 @@ _(269 дублей скрыто)_
   _→ OUTLINE_
 - (честно)](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)](#что-не-подходит-чес  
   _→ OUTLINE_
+- Git [Итог]  
+  _→ QUESTIONS_
+- текущей версии (0.1.0-draft)](docs/02-anthropic]  
+  _→ QUESTIONS_
+- текущей версии (0.1.0-draft)]  
+  _→ QUESTIONS_
+- и открытые вопросы](docs/obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 429 |  
+  _→ SITEMAP_
 - и открытые вопросы_  
   _→ SUMMARIES_
 - при коммерческом использовании |  
-  _→ TECH_RADAR_
+  _→ TABLES_
+- - `docs/01-svyazi/QA.md` — упоминаются, envelope, evidence, какие  
+  _→ TOPIC_MODEL_
 - Habr Scout: Habr articles often hype или incomplete; need quality filter  
   _→ 02-minuses-1-10_
 - Память не сохраняется между сессиями  
@@ -1153,12 +1268,48 @@ _(269 дублей скрыто)_
   _→ 04-level-3-medium-active_
 - Significant operational complexity  
   _→ 05-level-4-extended-mature_
+- GitHub на crawling. Поэтому сделаю так: сейчас детально разберу то, к чему у меня есть доступ (два pinned репозитория со звёздочкой + data70), а затем  
+  _→ 00-intro_
+- и открытые вопросы]] _25%_  
+  _→ 107-1-контекст-и-мотивация_
+- и открытые вопросы"  
+  _→ 115-8-ограничения-и-открытые-вопросы_
+- текущей версии (0.1.0-draft)]] _29%_  
+  _→ 128-доступные-инструменты_
+- текущей версии (0.1.0-draft)"  
+  _→ 131-ограничения-текущей-версии-0-1-0-draft_
+- и открытые вопросы]] _21%_  
+  _→ 335-9-риски-и-открытые-вопросы_
+- GitHub на crawling  
+  _→ CONCEPTS_
+- и открытые вопросы]]](#115-8-ограничения-и-открытые-вопросы8-ограничения-и-открытые-вопросы)  
+  _→ OUTLINE_
+- текущей версии (0.1.0-draft)]]](#131-ограничения-текущей-версии-0-1-0-draftограничения-текущей-версии-010-draft)  
+  _→ OUTLINE_
+- и открытые вопросы]]  
+  _→ OUTLINE_
+- и открытые вопросы(#8-ограничения-и-открытые-вопросы)  
+  _→ OUTLINE_
+- текущей версии (0.1.0-draft)]]  
+  _→ OUTLINE_
+- и открытые вопросы]] | 412 | — |  
+  _→ READING_ORDER_
+- текущей версии (0.1.0-draft)]] | 133 | — |  
+  _→ READING_ORDER_
+- и открытые вопросы]] | 412 |  
+  _→ SITEMAP_
+- текущей версии (0.1.0-draft)]] | 133 |  
+  _→ SITEMAP_
+- текущей версии (0.1.0-draft)]] | 129 | — |  
+  _→ TABLES_
+- текущей версии (0.1.0-draft)]] | 129 |  
+  _→ TABLES_
 - - [Риск 1]  
   _→ ensemble_
 
-_(67 дублей скрыто)_
+_(151 дублей скрыто)_
 
-## 📋 Задачи (TODO) (13)
+## 📋 Задачи (TODO) (27)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -1176,16 +1327,26 @@ _(67 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- меток: **22**  
+- ⭐ To Do — задача к выполнению 4 [1. Словарь аббревиатур и сокращений]  
+  _→ QUESTIONS_
+- ⭐ To Do — задача к выполнению 4 [Словарь аббревиатур и сокращений]  
+  _→ QUESTIONS_
+- во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
+  _→ QUESTIONS_
+- [12.4. Path D — Auto-Scanner]  
+  _→ QUESTIONS_
+- меток: **68**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
+- меток: **23**  
+  _→ STATS_
 - после решения  
   _→ review-record_
 
-_(2 дублей скрыто)_
+_(11 дублей скрыто)_
 
-## 📬 Контактные действия (134)
+## 📬 Контактные действия (229)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1321,12 +1482,24 @@ _(2 дублей скрыто)_
   _→ CONTACT_PRIORITY_
 - abstract arxiv paper (1 страница) - Опция 2: identify конкретную grant call с de  
   _→ DECISIONS_
+- vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про  
+  _→ DECISIONS_
+- один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRAR  
+  _→ DECISIONS_
+- PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1  
+  _→ DECISIONS_
 - авторами компонентов?](#как-связаться-с-авторами-компонентов)  
   _→ FAQ_
 - авторами и реализовать прототип Knowledge OS.  
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [112. Все документы]  
+  _→ QUESTIONS_
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
+  _→ QUESTIONS_
+- авторами компонентов? [Какова лицензия проекта?]  
+  _→ QUESTIONS_
 - авторам AgentFS, Yodoca, NGT | ⬜ Планируется |  
   _→ SCHEDULE_
 - авторам AgentFS, Yodoca, NGT**  
@@ -1337,30 +1510,17 @@ _(2 дублей скрыто)_
   _→ 10-three-entry-points_
 - vision paper на 10-15 страниц. «MMORPG as Professional Work Infrastructure: A Th  
   _→ 05-minuses-as-business_
-- vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про  
-  _→ 05-minuses-as-business_
 - CRUD», а те, что на переднем крае самой модели (pre‑training, RL, alignment, int  
   _→ signals_
 - companion paper про Профессиональных Коллег. Это будет более готовая для развёрт  
   _→ 01-response_
-- один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRAR  
-  _→ 01-strategic-significance_
 - `adapters/<format>.py`, наследуясь от `BaseAdapter`  
   _→ 12-onboarding-paths_
-- PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1  
-  _→ 04-what-i-can-do-now_
 - anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
+- nautilus/README.md отдельно от корневого README pro2 . Минимум 1 страница, объяс  
+  _→ 01-интегральный-анализ-профиля-svend4_
+- авторами компонентов → [[CONTACTS|CONTACTS.md]]  
+  _→ REPORT_
 
-_(52 дублей скрыто)_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CONCEPTS](docs/CONCEPTS.md)
-- [READING_TIME](docs/READING_TIME.md)
-- [READABILITY](docs/READABILITY.md)
-- [TABLES](docs/TABLES.md)
-
+_(142 дублей скрыто)_

@@ -60,3 +60,13 @@ python scripts/improve_dependabot.py --check-pypi
 - [[vladspace]]
 - [[cutcode]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DEPENDABOT](docs/DEPENDABOT.md) (сходство 0.83)
+- [GRAPH](docs/obsidian/GRAPH.md) (сходство 0.21)
+- [NETWORK](docs/obsidian/NETWORK.md) (сходство 0.21)
+

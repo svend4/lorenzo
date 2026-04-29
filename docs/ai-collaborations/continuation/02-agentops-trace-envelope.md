@@ -61,3 +61,13 @@ anomaly_flags:
 - [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
 - [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.17)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.16)
+- [09-do-not-glue](docs/ai-collaborations/continuation/09-do-not-glue.md) (сходство 0.16)
+

@@ -1,4 +1,6 @@
 # Q&A: 04-ai-collaborations
+<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -88,7 +90,7 @@ _Автоматически сгенерировано по 15 файлам ра
 
 Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
 
-## Что такое knowledge-space[^knowledge_space] и для кого он предназначен?
+## Что такое knowledge-space[^knowledge-space] и для кого он предназначен?
 
 Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
 
@@ -117,4 +119,4 @@ _Автоматически сгенерировано по 15 файлам ра
 
 [^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

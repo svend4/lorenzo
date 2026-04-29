@@ -39,3 +39,13 @@
 - [33-event-sourcing-cqrs-clickhouse-analytics.md](33-event-sourcing-cqrs-clickhouse-analytics.md) — <!-- summary -->
 - [34-distributed-event-store-with-paxos.md](34-distributed-event-store-with-paxos.md) — <!-- summary -->
 - [35-mega-stack-4-0-with-event-sourcing-consensus.md](35-mega-stack-4-0-with-event-sourcing-consensus.md) — > [!TIP]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [components-by-name](docs/glossary/components-by-name.md) (сходство 0.27)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.24)
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.22)
+

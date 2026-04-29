@@ -97,3 +97,13 @@ python scripts/improve_llm_enrich.py --section 05-habr-projects
 - [[VALIDATION]]
 - [[VERSION_DIFF]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [120-главные-технические-риски](docs/obsidian/02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.23)
+- [COVERAGE](docs/COVERAGE.md) (сходство 0.23)
+- [118-appendix-a-шаблон-для-header-warning](docs/obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.22)
+

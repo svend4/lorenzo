@@ -1,36 +1,21 @@
-# Шаблоны документов
+# templates
 
-_Создано: 2026-04-29_
+**Файлов:** 5
 
-Готовые заготовки для создания новых документов в репозитории.
+## Содержание
 
-## Доступные шаблоны
+- [contact-outreach.md](contact-outreach.md) — <!-- summary: Шаблон для связи с автором X -->
+- [decision-record.md](decision-record.md) — <!-- summary: Решение о X -->
+- [ensemble.md](ensemble.md) — <!-- summary: Ансамбль из X компонентов для Y задачи -->
+- [project-component.md](project-component.md) — <!-- summary: Краткое описание в 1-2 предложениях -->
+- [research-note.md](research-note.md) — <!-- summary: Краткий итог исследования -->
 
-| Шаблон | Назначение |
-|--------|------------|
-| [project-component.md](project-component.md) | Описание отдельного OSS-компонента |
-| [ensemble.md](ensemble.md) | Ансамбль из нескольких компонентов |
-| [research-note.md](research-note.md) | Заметка об исследовании/анализе |
-| [decision-record.md](decision-record.md) | Архитектурное решение (ADR) |
-| [contact-outreach.md](contact-outreach.md) | Шаблон контакта с автором |
-
-## Использование
-
-```bash
-# Скопируйте нужный шаблон в нужную папку
-cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.md
-# Затем откройте и заполните поля в [квадратных скобках]
-```
-
-<!-- see-also -->
+<!-- similar-docs -->
 
 ---
 
-**Смотрите также:**
-- [research-summary](../autofilled/research-summary.md)
+**Похожие документы:**
+- [README](docs/obsidian/templates/README.md) (сходство 0.46)
+- [research-summary](docs/autofilled/research-summary.md) (сходство 0.21)
+- [research-note](docs/templates/research-note.md) (сходство 0.21)
 
-<!-- related-auto -->
-## Связанные документы
-
-- [Ансамбль: [Название]](ensemble.md) _17%_
-- [[Тема исследования]](research-note.md) _17%_

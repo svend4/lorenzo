@@ -185,3 +185,13 @@ defers complex decisions until evidence is available.
 - [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
 - [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.88)
+- [313-5-four-integration-paths-in-order-of-accessibility](docs/obsidian/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.87)
+- [07-practical-first-steps](docs/nautilus/ingit-cowork-en/07-practical-first-steps.md) (сходство 0.20)
+

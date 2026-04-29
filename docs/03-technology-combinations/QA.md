@@ -1,5 +1,15 @@
 # Q&A: 03-technology-combinations
 
+<!-- summary -->
+> - [Как реализован forensic RAG с доказуемостью?](#как-реализован-forensic-rag-с-доказуемостью)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space
+
+---
+<!-- tags: rag, knowledge, ingestion, architecture, anthropic, collaboration -->
+
+
+
+
 <!-- toc-auto -->
 ## Contents
 

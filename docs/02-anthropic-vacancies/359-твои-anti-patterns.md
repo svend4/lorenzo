@@ -31,3 +31,12 @@
 **Смотрите также:**
 - [15-anti-patterns](docs/lorenzo-agent/15-anti-patterns.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-anti-patterns](docs/lorenzo-agent/15-anti-patterns.md) (сходство 0.79)
+- [359-твои-anti-patterns](docs/obsidian/02-anthropic-vacancies/359-твои-anti-patterns.md) (сходство 0.72)
+

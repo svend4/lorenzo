@@ -583,3 +583,13 @@ _Обновлено: 2026-04-29_
 - [[SEARCH]]
 - [[SOURCE_MAP]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md) (сходство 0.83)
+- [READING_ORDER](docs/obsidian/READING_ORDER.md) (сходство 0.78)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.76)
+

@@ -37,3 +37,13 @@ Claude hat geantwortet: Отличный, осмысленный подход.
 - [01-what-to-anonymize-german-standard](docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md)
 - [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-can-it-apply-to-docs](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md) (сходство 0.16)
+- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.15)
+- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md) (сходство 0.14)
+

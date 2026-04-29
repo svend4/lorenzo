@@ -1,5 +1,35 @@
 # Индекс цитирования URL
 
+<!-- summary -->
+> Уникальных URL: **139** | Отфильтровано (≥1): **139**
+**Проекты:** knowledge-space, Yodoca, MemNet
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Топ доменов](#топ-доменов)
+- [Наиболее цитируемые URL](#наиболее-цитируемые-url)
+- [Детали топ-10](#детали-топ-10)
+  - [`https://github.com/svend4/nautilus/issues`](#httpsgithubcomsvend4nautilusissues)
+  - [`https://github.com/svend4/nautilus`](#httpsgithubcomsvend4nautilus)
+  - [`https://github.com/svend4/ingit`](#httpsgithubcomsvend4ingit)
+  - [`https://github.com/svend4/pro2`](#httpsgithubcomsvend4pro2)
+  - [`https://habr.com/ru/articles/1007122/`](#httpshabrcomruarticles1007122)
+  - [`https://github.com/AnastasiyaW/knowledge-space`](#httpsgithubcomanastasiyawknowledge-space)
+  - [`https://github.com/svend4/info1`](#httpsgithubcomsvend4info1)
+  - [`https://habr.com/ru/articles/1006622/`](#httpshabrcomruarticles1006622)
+  - [`https://habr.com/ru/articles/1017200/`](#httpshabrcomruarticles1017200)
+  - [`https://habr.com/ru/companies/yandex/articles/1019928/`](#httpshabrcomrucompaniesyandexarticles1019928)
+
+---
+
+<!-- tags: memory, knowledge, anthropic, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Уникальных URL: **139** | Отфильтровано (≥1): **139**
@@ -195,4 +225,14 @@ _Обновлено: 2026-04-29_
 - `docs/TABLES.md`
 - `docs/ai-collaborations/candidates/01-three-key-candidates.md`
 - ... и ещё 2
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CITATION_INDEX](docs/obsidian/CITATION_INDEX.md) (сходство 0.79)
+- [LINKS](docs/obsidian/LINKS.md) (сходство 0.23)
+- [LINKS](docs/LINKS.md) (сходство 0.21)
 

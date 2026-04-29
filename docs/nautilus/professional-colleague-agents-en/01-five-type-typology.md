@@ -208,3 +208,13 @@ ethical, and economic framework.
 - [09-relationship-other-agents](docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
 - [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/obsidian/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.91)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.84)
+- [226-appendix-a-comparative-table-five-agent-types](docs/obsidian/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.27)
+

@@ -37,3 +37,13 @@
 - [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
 - [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.50)
+- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md) (сходство 0.18)
+- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.18)
+

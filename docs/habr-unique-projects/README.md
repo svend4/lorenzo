@@ -26,3 +26,13 @@
 > На Хабре за последние полгода кристаллизовалась полная экосистема софтверных кубиков для one-man-AI-company, где каждый автор закрывает свой узкий кусок.
 
 Имена, которые стоит держать в голове: Дмитрий Дементьев (adversarial-review), Никита Списак (second-brain skill-pack для Obsidian), vuguzum (self-aware MCP), автор «Деревни» (tmux-агенты), автор «9 агентов», Андрей Чуян (Svyazi), Аскольд Романов (K2-18), Алла Чепурова (Wikontic), автор Yodoca, автор NGT Memory, автор PDA-бота. См. [`final-ensembles/4-summary-authors.md`](final-ensembles/4-summary-authors.md).
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md) (сходство 0.31)
+- [authors-by-name](docs/glossary/authors-by-name.md) (сходство 0.17)
+- [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md) (сходство 0.14)
+

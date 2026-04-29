@@ -17,3 +17,13 @@
 - [10-profession-specific-workflows.md](10-profession-specific-workflows.md) — > [!TIP]
 - [11-concrete-potential-collaborator.md](11-concrete-potential-collaborator.md) — <!-- summary -->
 - [12-concrete-next-step.md](12-concrete-next-step.md) — > [!IMPORTANT]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.16)
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md) (сходство 0.16)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.15)
+

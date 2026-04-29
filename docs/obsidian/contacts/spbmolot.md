@@ -97,3 +97,13 @@ _Создано автоматически: 2026-04-29_
 - [[cutcode]]
 - [[dmitriila]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [kksudo](docs/obsidian/contacts/kksudo.md) (сходство 0.77)
+- [vladspace](docs/obsidian/contacts/vladspace.md) (сходство 0.74)
+- [zodigancode](docs/obsidian/contacts/zodigancode.md) (сходство 0.73)
+

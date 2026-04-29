@@ -38,3 +38,13 @@
 - [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
 - [agent-memory-mcp](docs/svyazi-2-0/components/agent-memory-mcp.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [rufler](docs/svyazi-2-0/components/rufler.md) (сходство 0.34)
+- [yjs-automerge](docs/svyazi-2-0/components/yjs-automerge.md) (сходство 0.31)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md) (сходство 0.31)
+

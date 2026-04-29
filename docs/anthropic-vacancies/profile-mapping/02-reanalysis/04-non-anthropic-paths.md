@@ -38,3 +38,13 @@ Patent filing. 6 патентабельных изобретений — это 
 - [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
 - [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md) (сходство 0.21)
+- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.16)
+- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md) (сходство 0.14)
+

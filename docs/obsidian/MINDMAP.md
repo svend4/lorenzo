@@ -126,3 +126,13 @@ flowchart LR
 - [[CONTACT_PRIORITY]]
 - [[NETWORK]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.93)
+- [GLOSSARY](docs/obsidian/GLOSSARY.md) (сходство 0.46)
+- [GRAPH](docs/obsidian/GRAPH.md) (сходство 0.45)
+

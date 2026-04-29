@@ -16,3 +16,13 @@
 - [09-acknowledgments.md](09-acknowledgments.md) — > [!TIP]
 - [10-references.md](10-references.md) — <!-- summary -->
 - [11-glossary.md](11-glossary.md) — > [!TIP]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [137-table-of-contents](docs/obsidian/02-anthropic-vacancies/137-table-of-contents.md) (сходство 0.32)
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md) (сходство 0.29)
+- [README](docs/nautilus/representative-agent-layer-en/README.md) (сходство 0.20)
+

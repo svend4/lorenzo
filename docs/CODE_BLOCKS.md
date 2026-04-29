@@ -1,5 +1,140 @@
 # Code-блоки репозитория
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [📊 Диаграммы Mermaid (19)](#диаграммы-mermaid-19)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+  - [Новые ансамбли следующего шага](#новые-ансамбли-следующего-шага)
+  - [Новые ансамбли следующего шага](#новые-ансамбли-следующего-шага)
+  - [Новые ансамбли следующего шага](#новые-ансамбли-следующего-шага)
+  - [Диаграмма](#диаграмма)
+  - [Граф связей](#граф-связей)
+  - [Схема](#схема)
+  - [Схема](#схема)
+  - [Схема](#схема)
+  - [Схема](#схема)
+  - [Схема](#схема)
+- [🐍 Python (35)](#python-35)
+  - [portal-mcp.py](#portal-mcppy)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. `describe()` — Required for Level 1+](#62-describe-required-for-level-1)
+  - [7. PortalEntry Structure](#7-portalentry-structure)
+  - [10. QueryResult Structure](#10-queryresult-structure)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.3. `describe()` — Required](#63-describe-required)
+  - [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+  - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
+  - [9.2. Consensus Structure](#92-consensus-structure)
+  - [9.4. Algorithm](#94-algorithm)
+  - [11.1. Scoring Formula](#111-scoring-formula)
+  - [14.1. Required SDK Methods](#141-required-sdk-methods)
+- [📋 YAML (5)](#yaml-5)
+  - [Appendix B: Sub-Agent Registry Schema (Sketch)](#appendix-b-sub-agent-registry-schema-sketch)
+  - [Appendix C: Configuration Template Example](#appendix-c-configuration-template-example)
+  - [Appendix C: Sample InGit MCP Server Tool Specifications](#appendix-c-sample-ingit-mcp-server-tool-specifications)
+  - [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](#приложение-c-образец-спецификаций-инструментов-ingit-mcp-се)
+  - [Контракт взаимодействия](#контракт-взаимодействия)
+- [💻 Bash / Shell (36)](#bash-shell-36)
+  - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
+  - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
+  - [Что сделать прямо сейчас](#что-сделать-прямо-сейчас)
+  - [Как правильно прислать код](#как-правильно-прислать-код)
+  - [Что на самом деле ускоряет работу](#что-на-самом-деле-ускоряет-работу)
+  - [3.1. Для каждого расхождения применяются правила](#31-для-каждого-расхождения-применяются-правила)
+  - [10.1. IMPLEMENTATION_STAGE_PART_[1-4].md](#101-implementation_stage_part_1-4md)
+  - [B.1. Расхождение в числе строк кода](#b1-расхождение-в-числе-строк-кода)
+  - [B.2. Расхождение в количестве строк тестов](#b2-расхождение-в-количестве-строк-тестов)
+  - [1. Установить MCP SDK](#1-установить-mcp-sdk)
+  - [2. Проверить, что portal.py работает](#2-проверить-что-portalpy-работает)
+  - [3. Протестировать MCP-обёртку локально](#3-протестировать-mcp-обёртку-локально)
+  - [Сервер не подключается](#сервер-не-подключается)
+  - [Tool-call падает с "adapter_failed"](#tool-call-падает-с-adapter_failed)
+  - [Быстрый старт](#быстрый-старт)
+- [📦 JSON (22)](#json-22)
+  - [3.2. Schema](#32-schema)
+  - [Конфигурация для Claude Desktop](#конфигурация-для-claude-desktop)
+  - [Содержимое](#содержимое)
+  - [5.2. Pattern Library Architecture](#52-pattern-library-architecture)
+  - [A.1. Minimal `nautilus.json`](#a1-minimal-nautilusjson)
+  - [Подключить свой репозиторий](#подключить-свой-репозиторий)
+  - [Connect Your Repository](#connect-your-repository)
+  - [3.2. Schema](#32-schema)
+  - [13.3. Response Schemas](#133-response-schemas)
+  - [13.3. Response Schemas](#133-response-schemas)
+  - [13.3. Response Schemas](#133-response-schemas)
+  - [13.6. Error Responses](#136-error-responses)
+  - [A.1. Minimal `nautilus.json`](#a1-minimal-nautilusjson)
+  - [5.2. Pattern Library Architecture](#52-pattern-library-architecture)
+  - [3.2. Schema](#32-schema)
+- [📝 Без языка (174)](#без-языка-174)
+  - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список)
+  - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список)
+  - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
+  - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
+  - [Что сделать прямо сейчас](#что-сделать-прямо-сейчас)
+  - [Как правильно прислать код](#как-правильно-прислать-код)
+  - [Что на самом деле ускоряет работу](#что-на-самом-деле-ускоряет-работу)
+  - [Финальная честная рекомендация](#финальная-честная-рекомендация)
+  - [Возвращаемся к опции C](#возвращаемся-к-опции-c)
+  - [Что изменилось со времени embedded-версии](#что-изменилось-со-времени-embedded-версии)
+  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
+  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
+  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
+  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
+  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
+- [markdown (17)](#markdown-17)
+  - [2.4. Заголовок транзитного состояния](#24-заголовок-транзитного-состояния)
+  - [Q6-покрытие](#q6-покрытие)
+  - [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
+  - [B.1. Расхождение в числе строк кода](#b1-расхождение-в-числе-строк-кода)
+  - [4.2. Required Structure](#42-required-structure)
+  - [Пример синтаксиса](#пример-синтаксиса)
+  - [Как это работает](#как-это-работает)
+  - [Использование в README](#использование-в-readme)
+  - [4.2. Recommended Structure](#42-recommended-structure)
+- [Essence](#essence)
+- [Native Format](#native-format)
+- [Content Overview](#content-overview)
+- [Angle / Perspective](#angle-perspective)
+- [Bridges](#bridges)
+- [Author & Contact](#author-contact)
+- [History](#history)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+- [Essence](#essence)
+- [Native Format](#native-format)
+- [Content Overview](#content-overview)
+- [Angle / Perspective](#angle-perspective)
+- [Author](#author)
+  - [4.2. Required Structure](#42-required-structure)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+- [Описание](#описание)
+- [Объём](#объём)
+- [Q6-отображение](#q6-отображение)
+- [Доступ к данным](#доступ-к-данным)
+  - [2.4. Заголовок транзитного состояния](#24-заголовок-транзитного-состояния)
+  - [Q6-покрытие](#q6-покрытие)
+  - [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -1634,4 +1769,14 @@ _...и ещё 2 блоков этого языка_
 - [LANGUAGE_STATS](docs/LANGUAGE_STATS.md)
 - [SITEMAP](docs/SITEMAP.md)
 - [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CODE_BLOCKS](docs/obsidian/CODE_BLOCKS.md) (сходство 0.80)
+- [SITEMAP](docs/obsidian/SITEMAP.md) (сходство 0.18)
+- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.18)
 

@@ -37,3 +37,13 @@
 - [self-aware-mcp](docs/svyazi-2-0/components/self-aware-mcp.md)
 - [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [self-aware-mcp](docs/svyazi-2-0/components/self-aware-mcp.md) (сходство 0.31)
+- [rufler](docs/svyazi-2-0/components/rufler.md) (сходство 0.31)
+- [memnet](docs/svyazi-2-0/components/memnet.md) (сходство 0.31)
+

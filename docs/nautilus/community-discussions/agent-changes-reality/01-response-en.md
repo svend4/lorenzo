@@ -1982,3 +1982,13 @@ Thank you for the collaboration.
 - [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
 - [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md) (сходство 0.45)
+- [186-appendix-c-sample-use-cases-in-detail](docs/obsidian/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.37)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.37)
+

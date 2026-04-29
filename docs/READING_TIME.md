@@ -1,5 +1,25 @@
 # Время чтения документов
 
+<!-- summary -->
+> Документов: **1094** | Слов всего: **666,551** | Время чтения всей базы: **55ч 2мин**
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Все документы](#все-документы)
+- [Самые длинные документы (42)](#самые-длинные-документы-42)
+- [По категориям](#по-категориям)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Документов: **1094** | Слов всего: **666,551** | Время чтения всей базы: **55ч 2мин**
@@ -1124,3 +1144,13 @@ _Обновлено: 2026-04-29_
 - 📘 Средне: 152 документов
 - 📕 Очень долго: 25 документов
 - 📙 Долго: 21 документов
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READABILITY](docs/READABILITY.md) (сходство 0.96)
+- [SEARCH](docs/SEARCH.md) (сходство 0.96)
+- [SOURCE_MAP](docs/SOURCE_MAP.md) (сходство 0.84)
+

@@ -53,3 +53,13 @@ _Поддерживается в GitHub Markdown с 2023 года._
 - [cowork](../autofilled/components/cowork.md)
 - [ingit](../autofilled/components/ingit.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ALERTS](docs/ALERTS.md) (сходство 0.69)
+- [svyazi](docs/obsidian/autofilled/components/svyazi.md) (сходство 0.19)
+- [svend4](docs/obsidian/autofilled/components/svend4.md) (сходство 0.19)
+

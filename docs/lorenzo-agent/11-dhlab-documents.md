@@ -37,3 +37,13 @@
 - [273-infrastructure-for-ai-collaborative-intellectual-w](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md)
 - [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [355-существующие-документы-dhlab-твой-context](docs/obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.59)
+- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.58)
+- [344-системный-промпт-для-lorenzo-project](docs/obsidian/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md) (сходство 0.33)
+

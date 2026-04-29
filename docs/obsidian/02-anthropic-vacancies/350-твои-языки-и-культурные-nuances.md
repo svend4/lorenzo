@@ -48,3 +48,13 @@ date: 2026-04-29
 ## Упоминается в
 
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [350-твои-языки-и-культурные-nuances](docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) (сходство 0.81)
+- [06-yazyki-kultura](docs/lorenzo-agent/06-yazyki-kultura.md) (сходство 0.69)
+- [346-твоё-происхождение](docs/obsidian/02-anthropic-vacancies/346-твоё-происхождение.md) (сходство 0.23)
+

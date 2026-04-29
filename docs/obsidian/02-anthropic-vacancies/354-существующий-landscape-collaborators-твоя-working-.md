@@ -70,3 +70,13 @@ date: 2026-04-29
 - [[341-приложение-c-образец-спецификаций-инструментов-ing|Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера]] _25%_
 - [[KEYWORD_INDEX|Инвертированный индекс ключевых слов]] _21%_
 - [[364-final-note-ты-experiment|Final note: Ты — experiment]] _17%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.82)
+- [10-collaborators-landscape](docs/lorenzo-agent/10-collaborators-landscape.md) (сходство 0.73)
+- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md) (сходство 0.34)
+

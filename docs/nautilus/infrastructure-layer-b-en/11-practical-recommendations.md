@@ -68,3 +68,13 @@ The friction will be lower than no infrastructure at all.
 - [07-specific-case](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
 - [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [284-practical-recommendations-for-the-current-project](docs/obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.77)
+- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.68)
+- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md) (сходство 0.24)
+

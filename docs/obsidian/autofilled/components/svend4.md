@@ -52,3 +52,13 @@ _Компонент экосистемы Svyazi 2.0_
 - [[ingit]]
 - [[lorenzo]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [svyazi](docs/obsidian/autofilled/components/svyazi.md) (сходство 0.94)
+- [sgb](docs/obsidian/autofilled/components/sgb.md) (сходство 0.94)
+- [nautilus](docs/obsidian/autofilled/components/nautilus.md) (сходство 0.94)
+

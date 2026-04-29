@@ -33,3 +33,13 @@
 - [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
 - [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-what-to-do](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md) (сходство 0.20)
+- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.15)
+- [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md) (сходство 0.14)
+

@@ -30,3 +30,13 @@
 - [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
 - [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.45)
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.44)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.35)
+

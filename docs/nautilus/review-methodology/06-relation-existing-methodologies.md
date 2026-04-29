@@ -89,3 +89,13 @@ consolidation.
 - [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
 - [09-limitations-open-questions](docs/nautilus/review-methodology/09-limitations-open-questions.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [112-5-связь-с-существующими-методологиями](docs/obsidian/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md) (сходство 0.85)
+- [112-5-связь-с-существующими-методологиями](docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md) (сходство 0.81)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md) (сходство 0.20)
+

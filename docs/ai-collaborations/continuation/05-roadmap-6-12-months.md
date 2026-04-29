@@ -42,3 +42,13 @@
 - [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
 - [12-roadmap](docs/01-svyazi/12-roadmap.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [roadmap](docs/svyazi-2-0/prototype/roadmap.md) (сходство 0.20)
+- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md) (сходство 0.19)
+- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.18)
+

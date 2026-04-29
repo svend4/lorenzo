@@ -67,3 +67,13 @@ date: 2026-04-29
 - [[GLOSSARY]]
 - [[PRIORITIES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MISSING](docs/MISSING.md) (сходство 0.52)
+- [GRAPH](docs/obsidian/GRAPH.md) (сходство 0.27)
+- [MINDMAP](docs/obsidian/MINDMAP.md) (сходство 0.26)
+

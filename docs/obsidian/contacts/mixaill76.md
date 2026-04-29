@@ -90,3 +90,13 @@ _Создано автоматически: 2026-04-29_
 - [[cutcode]]
 - [[zodigancode]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [dmitriila](docs/obsidian/contacts/dmitriila.md) (сходство 1.00)
+- [vladspace](docs/obsidian/contacts/vladspace.md) (сходство 0.98)
+- [zodigancode](docs/obsidian/contacts/zodigancode.md) (сходство 0.97)
+

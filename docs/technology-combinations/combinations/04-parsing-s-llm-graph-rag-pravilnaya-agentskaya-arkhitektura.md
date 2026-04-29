@@ -49,3 +49,13 @@ Query: вопросы типа "найди дела где § 78 + retroactive b
 - [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
 - [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-local-first](docs/obsidian/03-technology-combinations/03-local-first.md) (сходство 0.27)
+- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md) (сходство 0.27)
+- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.26)
+

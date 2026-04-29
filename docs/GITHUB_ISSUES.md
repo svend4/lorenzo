@@ -1,5 +1,47 @@
 # GitHub Issues — список задач
 
+<!-- summary -->
+> > Создайте Issues вручную или запустите с `--create` (требует gh CLI)
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [`docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (18 задач)](#docs02-anthropic-vacancies116-9-checklist-применения-методологииmd-18-задач)
+- [`docs/02-anthropic-vacancies/69-section.md` (1 задач)](#docs02-anthropic-vacancies69-sectionmd-1-задач)
+- [`docs/FAQ.md` (1 задач)](#docsfaqmd-1-задач)
+- [`docs/HEADING_AUDIT.md` (5 задач)](#docsheading_auditmd-5-задач)
+- [`docs/MISSING.md` (1 задач)](#docsmissingmd-1-задач)
+- [`docs/SPELLCHECK.md` (1 задач)](#docsspellcheckmd-1-задач)
+- [`docs/autofilled/research-summary.md` (2 задач)](#docsautofilledresearch-summarymd-2-задач)
+- [`docs/contacts/anastasiyaw.md` (4 задач)](#docscontactsanastasiyawmd-4-задач)
+- [`docs/contacts/andrey-chuyan.md` (4 задач)](#docscontactsandrey-chuyanmd-4-задач)
+- [`docs/contacts/antipozitive.md` (4 задач)](#docscontactsantipozitivemd-4-задач)
+- [`docs/contacts/cutcode.md` (4 задач)](#docscontactscutcodemd-4-задач)
+- [`docs/contacts/dmitriila.md` (4 задач)](#docscontactsdmitriilamd-4-задач)
+- [`docs/contacts/kksudo.md` (3 задач)](#docscontactskksudomd-3-задач)
+- [`docs/contacts/mixaill76.md` (4 задач)](#docscontactsmixaill76md-4-задач)
+- [`docs/contacts/nlaik.md` (4 задач)](#docscontactsnlaikmd-4-задач)
+- [`docs/contacts/sonia-black.md` (4 задач)](#docscontactssonia-blackmd-4-задач)
+- [`docs/contacts/spbmolot.md` (3 задач)](#docscontactsspbmolotmd-3-задач)
+- [`docs/contacts/tagir-analyzes.md` (4 задач)](#docscontactstagir-analyzesmd-4-задач)
+- [`docs/contacts/vitalyoborin.md` (4 задач)](#docscontactsvitalyoborinmd-4-задач)
+- [`docs/contacts/vladspace.md` (4 задач)](#docscontactsvladspacemd-4-задач)
+- [`docs/contacts/zodigancode.md` (4 задач)](#docscontactszodigancodemd-4-задач)
+- [`docs/nautilus/review-methodology/10-checklist.md` (18 задач)](#docsnautilusreview-methodology10-checklistmd-18-задач)
+- [`docs/templates/contact-outreach.md` (4 задач)](#docstemplatescontact-outreachmd-4-задач)
+- [`docs/templates/decision-record.md` (1 задач)](#docstemplatesdecision-recordmd-1-задач)
+- [`docs/templates/research-note.md` (2 задач)](#docstemplatesresearch-notemd-2-задач)
+- [Создание через gh CLI](#создание-через-gh-cli)
+
+---
+
+<!-- tags: anthropic, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Найдено задач: **108**
@@ -200,4 +242,14 @@ brew install gh  # macOS
 # Создание Issues
 python scripts/improve_github_issues.py --create --label docs,automation
 ```
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GITHUB_ISSUES](docs/obsidian/GITHUB_ISSUES.md) (сходство 0.88)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md) (сходство 0.34)
+- [116-9-checklist-применения-методологии](docs/obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.32)
 

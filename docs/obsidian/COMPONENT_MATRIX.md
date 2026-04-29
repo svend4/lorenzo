@@ -130,3 +130,13 @@ _Совместимость и возможности 14 компонентов 
 - [[PRIORITIES]]
 - [[CONTACTS]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md) (сходство 0.80)
+- [ONBOARDING](docs/obsidian/ONBOARDING.md) (сходство 0.25)
+- [DENSITY](docs/obsidian/DENSITY.md) (сходство 0.24)
+

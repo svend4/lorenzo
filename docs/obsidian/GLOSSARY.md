@@ -61,3 +61,13 @@ date: 2026-04-29
 - [[NETWORK]]
 - [[CONTACT_PRIORITY]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GLOSSARY](docs/GLOSSARY.md) (сходство 0.80)
+- [MINDMAP](docs/obsidian/MINDMAP.md) (сходство 0.46)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.42)
+

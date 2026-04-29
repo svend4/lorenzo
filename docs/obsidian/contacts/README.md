@@ -18,3 +18,13 @@
 - [vitalyoborin.md](vitalyoborin.md) — ---
 - [vladspace.md](vladspace.md) — ---
 - [zodigancode.md](zodigancode.md) — ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/contacts/README.md) (сходство 0.95)
+- [AUTHORS](docs/AUTHORS.md) (сходство 0.44)
+- [AUTHORS](docs/obsidian/AUTHORS.md) (сходство 0.35)
+

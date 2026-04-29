@@ -54,3 +54,13 @@ date: 2026-04-29
 - [[346-твоё-происхождение]]
 - [[356-твой-workflow]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.82)
+- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md) (сходство 0.76)
+- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md) (сходство 0.18)
+

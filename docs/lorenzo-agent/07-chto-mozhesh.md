@@ -35,3 +35,13 @@
 - [03-tvoya-missiya](docs/lorenzo-agent/03-tvoya-missiya.md)
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [351-что-ты-можешь-делать](docs/obsidian/02-anthropic-vacancies/351-что-ты-можешь-делать.md) (сходство 0.65)
+- [351-что-ты-можешь-делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md) (сходство 0.64)
+- [12-workflow](docs/lorenzo-agent/12-workflow.md) (сходство 0.24)
+

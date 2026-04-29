@@ -78,3 +78,13 @@ Hypothes.is для аннотаций существует; мог бы
 - [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
 - [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [297-что-промышленность-вероятно-построит](docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) (сходство 0.76)
+- [297-что-промышленность-вероятно-построит](docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) (сходство 0.76)
+- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md) (сходство 0.21)
+

@@ -222,3 +222,13 @@ date: 2026-04-29
 - [[SEARCH]]
 - [[BROKEN_LINKS]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SITEMAP](docs/obsidian/SITEMAP.md) (сходство 0.36)
+- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.36)
+- [MISSING](docs/MISSING.md) (сходство 0.31)
+

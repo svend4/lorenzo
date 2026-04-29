@@ -48,3 +48,13 @@
 - [08-safeguards-trust-safety](docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md)
 - [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/anthropic-vacancies/clusters/README.md) (сходство 0.33)
+- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.33)
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.32)
+

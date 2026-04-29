@@ -75,3 +75,13 @@ supply-chain риск.
 - [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
 - [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [90-15-security-considerations](docs/obsidian/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.74)
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.69)
+- [11-security-considerations](docs/nautilus/npp-v1-0/11-security-considerations.md) (сходство 0.59)
+

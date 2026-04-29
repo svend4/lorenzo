@@ -1,5 +1,12 @@
 # ADR: [Название решения]
 
+<!-- summary -->
+> <!-- tags: архитектура, решение -->
+
+---
+
+
+
 <!-- summary: Решение о X -->
 <!-- tags: архитектура, решение -->
 
@@ -53,3 +60,13 @@ _Дата: 2026-04-29_
 - [Ансамбль: [Название]](ensemble.md) _25%_
 - [[Название компонента]](project-component.md) _25%_
 - [[Тема исследования]](research-note.md) _21%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [decision-record](docs/obsidian/templates/decision-record.md) (сходство 0.68)
+- [ensemble](docs/templates/ensemble.md) (сходство 0.33)
+- [research-summary](docs/autofilled/research-summary.md) (сходство 0.30)
+

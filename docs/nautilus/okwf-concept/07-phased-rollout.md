@@ -147,3 +147,13 @@ qualified individuals regardless of traditional constraints.
 - [09-phased-rollout](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
 - [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [161-7-phased-rollout-plan](docs/obsidian/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.88)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.86)
+- [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md) (сходство 0.23)
+

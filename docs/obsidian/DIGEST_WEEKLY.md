@@ -62,3 +62,13 @@ _Сгенерировано: 2026-04-29 09:32_
 - [ALERTS](../ALERTS.md)
 - [HEALTH](../HEALTH.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST_WEEKLY](docs/DIGEST_WEEKLY.md) (сходство 0.63)
+- [KPI_HISTORY](docs/obsidian/KPI_HISTORY.md) (сходство 0.22)
+- [ORPHANS](docs/obsidian/ORPHANS.md) (сходство 0.17)
+

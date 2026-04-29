@@ -1,4 +1,6 @@
 # Q&A: 01-svyazi
+<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

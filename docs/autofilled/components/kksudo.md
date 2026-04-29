@@ -69,3 +69,13 @@ _Компонент экосистемы Svyazi 2.0_
 - [Контакт: spbmolot / NGT Memory](../../contacts/spbmolot.md)
 - [Контакт: tagir_analyzes / Legal RAG](../../contacts/tagir-analyzes.md)
 - [Контакт: zodigancode / Rufler](../../contacts/zodigancode.md)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [spbmolot](docs/autofilled/components/spbmolot.md) (сходство 0.87)
+- [svyazi](docs/autofilled/components/svyazi.md) (сходство 0.59)
+- [svend4](docs/autofilled/components/svend4.md) (сходство 0.59)
+

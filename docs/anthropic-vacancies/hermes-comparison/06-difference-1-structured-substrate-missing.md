@@ -37,3 +37,13 @@ InGit specifically provides структуру (00_inbox через 90_exports, 
 - [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
 - [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.33)
+- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.32)
+- [08-difference-3-federation-missing](docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md) (сходство 0.31)
+

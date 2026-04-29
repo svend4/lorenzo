@@ -50,3 +50,13 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 - [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
 - [14-sdk](docs/nautilus/npp-v1-1/14-sdk.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/obsidian/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.70)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.69)
+- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md) (сходство 0.27)
+

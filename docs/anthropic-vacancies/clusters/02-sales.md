@@ -23,3 +23,13 @@
 - [05-marketing-brand](docs/anthropic-vacancies/clusters/05-marketing-brand.md)
 - [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [signals](docs/anthropic-vacancies/signals.md) (сходство 0.33)
+- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md) (сходство 0.31)
+- [05-marketing-brand](docs/anthropic-vacancies/clusters/05-marketing-brand.md) (сходство 0.28)
+

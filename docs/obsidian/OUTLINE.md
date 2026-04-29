@@ -5796,3 +5796,13 @@ _Слов: 78_
 - [[READING_TIME]]
 - [[PARAGRAPH_QUALITY]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [OUTLINE](docs/OUTLINE.md) (сходство 0.35)
+- [READING_TIME](docs/obsidian/READING_TIME.md) (сходство 0.33)
+- [READING_ORDER](docs/obsidian/READING_ORDER.md) (сходство 0.32)
+

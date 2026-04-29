@@ -48,3 +48,13 @@ class Bescheid(BaseModel):
 - [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
 - [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md) (сходство 0.36)
+- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.34)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.33)
+

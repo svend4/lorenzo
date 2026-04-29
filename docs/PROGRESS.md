@@ -1,5 +1,15 @@
 # Прогресс MVP
 
+<!-- summary -->
+> _Обновлено: 2026-04-29 (improve_progress_sync.py)_
+**Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
+
+---
+<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
@@ -61,3 +71,13 @@ cat docs/contacts/anastasiyaw.md
 - [Go/No-Go Scoring](SCORING.md)
 - [Health Dashboard](HEALTH.md)
 - [MVP Planning](01-svyazi/07-mvp-planning.md)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PROGRESS](docs/obsidian/PROGRESS.md) (сходство 0.84)
+- [SCHEDULE](docs/obsidian/SCHEDULE.md) (сходство 0.16)
+- [ONBOARDING](docs/obsidian/ONBOARDING.md) (сходство 0.15)
+

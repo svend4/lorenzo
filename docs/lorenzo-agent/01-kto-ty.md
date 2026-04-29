@@ -27,3 +27,13 @@
 - [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
 - [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [345-кто-ты](docs/02-anthropic-vacancies/345-кто-ты.md) (сходство 0.60)
+- [345-кто-ты](docs/obsidian/02-anthropic-vacancies/345-кто-ты.md) (сходство 0.54)
+- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md) (сходство 0.28)
+

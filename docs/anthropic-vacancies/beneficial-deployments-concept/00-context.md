@@ -55,3 +55,13 @@ What's the role of you (the proposer)? Specifically.
 - [01-section-1-problem](docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
 - [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-section-5-role-of-anthropic](docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md) (сходство 0.24)
+- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.24)
+- [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) (сходство 0.21)
+

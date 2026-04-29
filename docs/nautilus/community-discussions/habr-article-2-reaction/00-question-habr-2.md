@@ -27,3 +27,13 @@ Du hast gesagt: https://www.
 - [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
 - [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.25)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.24)
+- [00-question-practical](docs/nautilus/community-discussions/practical-observations/00-question-practical.md) (сходство 0.24)
+

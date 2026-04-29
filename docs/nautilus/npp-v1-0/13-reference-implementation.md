@@ -35,3 +35,13 @@ Reference НЕ является нормативной. Альтернативн
 - [18-reference-implementation](docs/nautilus/npp-v1-1/18-reference-implementation.md)
 - [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.50)
+- [25-13-reference-implementation](docs/obsidian/02-anthropic-vacancies/25-13-reference-implementation.md) (сходство 0.49)
+- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md) (сходство 0.48)
+

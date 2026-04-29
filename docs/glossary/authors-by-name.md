@@ -57,3 +57,13 @@
 - [CONTACTS](docs/CONTACTS.md)
 - [source-projects](docs/ai-collaborations/source-projects.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [components-by-name](docs/glossary/components-by-name.md) (сходство 0.24)
+- [CONTACTS](docs/CONTACTS.md) (сходство 0.23)
+- [CONTACTS](docs/obsidian/CONTACTS.md) (сходство 0.22)
+

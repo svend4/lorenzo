@@ -68,3 +68,13 @@ date: 2026-04-29
 | **contacts** | 17 | 14 |
 | **root** | 109 | 114 |
 | **templates** | 5 | 5 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [BACKLINKS](docs/BACKLINKS.md) (сходство 0.59)
+- [README](docs/obsidian/01-svyazi/README.md) (сходство 0.24)
+- [REPORT](docs/obsidian/REPORT.md) (сходство 0.23)
+

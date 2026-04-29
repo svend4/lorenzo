@@ -102,3 +102,13 @@ _Обновлено: 2026-04-29_
 - [[CHANGELOG]]
 - [[DEPENDENCY_MAP]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CHANGELOG_AUTO](docs/obsidian/CHANGELOG_AUTO.md) (сходство 0.28)
+- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md) (сходство 0.27)
+- [VERSION_DIFF](docs/obsidian/VERSION_DIFF.md) (сходство 0.26)
+

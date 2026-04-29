@@ -90,3 +90,13 @@ _Создано автоматически: 2026-04-29_
 - [[antipozitive]]
 - [[vladspace]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [nlaik](docs/obsidian/contacts/nlaik.md) (сходство 1.00)
+- [tagir-analyzes](docs/obsidian/contacts/tagir-analyzes.md) (сходство 0.88)
+- [antipozitive](docs/obsidian/contacts/antipozitive.md) (сходство 0.85)
+

@@ -1,9 +1,9 @@
 # Ключевые решения и выводы
 
-Автоматически извлечено из всех документов: **369 записей**
+Автоматически извлечено из всех документов: **600 записей**
 
 
-## Архитектура (34)
+## Архитектура (59)
 
 - **На Хабре пока не видно одного готового проекта, который уже собрал все слои в единое целое, но видно много авторов, каждый из которых почти идеально закрывает один слой будущей системы.** Поэтому реальная ценность исследования — не в списке ссылок,  
   _→ 01-executive-summary_
@@ -47,6 +47,9 @@
 - кандидат для слоя .agentos/ и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и [GitHub](../docs/01-svyazi/03-component-catalog.md) issues в AgentFS. citeturn33vie  
   _→ 05-план-прототипа-и-возможные-контакты_
 
+- Svyazi + AgentFS +… _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_ --- ## Глава 2: Экосистема проектов > <!-- summary --> > > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antip  
+  _→ NARRATIVE_
+
 - Svyazi + AgentFS + NGT ^ngt /Yodoca + LitePa **B:** `docs/04-ai-collaborations/07-выводы.md` > Если ранжировать найденные направления по практической силе именно для старта, то порядок такой. Первое  
   _→ SIMILAR_PASSAGES_
 
@@ -62,13 +65,10 @@
 - второй части Лучший следующий шаг — **не искать ещё двадцать новых проектов**, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record. На этом основании уже можно  
   _→ conclusions_
 
-- склеивать». **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG --- <!-- tags: memory, rag, orchest  
-  _→ license-tree_
-
-_...ещё 14 записей в этой категории_
+_...ещё 39 записей в этой категории_
 
 
-## Mvp (6)
+## Mvp (9)
 
 - подготовить strategic roadmap document — структурированный план на 12-18 месяцев, который разбивает развитие Nautilus на phases, с deliverables, metrics, risk mitigation для каждой. Полезно для grant  
   _→ 133-обратная-связь_
@@ -83,7 +83,7 @@ _...ещё 14 записей в этой категории_
   _→ 01-response_
 
 
-## Память (11)
+## Память (18)
 
 - опубликовать спецификацию .[nautilus](../docs/05-habr-projects/memory/memnet.md).yaml и подать её как RFC. Если формат внятный, это потенциально open-source standard. Есть прямой целевой рынок: все, к  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -112,11 +112,17 @@ _...ещё 14 записей в этой категории_
 - просто “записать всё, что сказал агент”. Mermaid Практическое правило: внешний текст не должен иметь права становиться instruction memory . Он может с  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 
+- склеивать] ### `memnet.md` (1) - Это синхронизируемая многоуровневая память Yodoca/xMemory, которая «следует» за тобой между устройствами. [Пара 3.  
+  _→ QUESTIONS_
+
+- прочитать в первую очередь. <!--… _[[yodoca|→ Читать полностью]]_ --- ## Глава 11: NGT — граф памяти > <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** У Романова уже решена задач  
+  _→ NARRATIVE_
+
 - склеивать». **Проекты:** mclaude, AI Factory, Rufler, AutoResearch, Whisper, Yttri --- <!-- tags: memory, rag, orchestration, local-first, self-impro  
   _→ do-not-glue_
 
 
-## Оркестрация (13)
+## Оркестрация (25)
 
 - на файловое ядро Svyazi‑2.0. | | **mclaude** | AnastasiyaW | Хабр + GitHub citeturn20view2turn37search0 | Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом. | Lo  
   _→ 03-component-catalog_
@@ -127,23 +133,23 @@ _...ещё 14 записей в этой категории_
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
   _→ 14-limitations_
 
-- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](docs/contacts/README.md) > Файлов: 14 - Содержание _Слов: 89_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude  
+- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](docs/contacts/README.md) > Файлов: 14 - Содержание _Слов: 90_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude  
   _→ OUTLINE_
+
+- вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
+  _→ TABLES_
 
 - склеивать». ## Оркестрация — выбрать один spine Хотя mclaude, AI Factory, Rufler и Sequential выглядят очень привлекательно, их не стоит собирать вс  
   _→ do-not-glue_
 
-- вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
-  _→ narrow-questions_
 
-
-## Безопасность (2)
+## Безопасность (3)
 
 - написать anonymization_pipeline.py как reference implementation . Рабочий Python-модуль, реализующий 5 шагов pipeline: PII detection, placeholder replacement, verification report, structural metadata  
   _→ 133-обратная-связь_
 
 
-## Лицензия (12)
+## Лицензия (17)
 
 - создать REVIEW_METHODOLOGY.md в корне репо (не в docs/ , потому что это применимо ко всему проекту, не к специфической области). Commit: docs: add REVIEW_METHODOLOGY for three-phase review process . В  
   _→ 122-глоссарий_
@@ -166,14 +172,14 @@ _...ещё 14 записей в этой категории_
 - склеивать](docs/svyazi-2-0/limitations/do-not-glue.md)](#что-пока-лучше-не-склеиватьdocssvyazi-2-0limitationsdo-not-gluemd) - [[Лицензионные развилк  
   _→ OUTLINE_
 
-- склеивать](docs/01-svyazi/14-limitations.md) _Слов: 549_ ### [Q&A: 01-svyazi](docs/01-svyazi/QA.md) > Автоматически сгенерировано по 14 файлам разде  
+- склеивать](docs/01-svyazi/14-limitations.md) _Слов: 638_ ### [Q&A: 01-svyazi](docs/01-svyazi/QA.md) > Автоматически сгенерировано по 14 файлам разде  
   _→ OUTLINE_
 
 - конкретные next steps. Save in repo as docs/REPRESENTATIVE-AGENT-LAYER.md. Commit. Add link from main README. Done. Третье — гордиться этим. Five interconnected documents addressing real problems wit  
   _→ 01-response-en_
 
 
-## Риски (3)
+## Риски (5)
 
 - доверять» - Неправильная атрибуция: «Lorenzo крадёт кредит» Один крупный инцидент может уничтожить все усилия. Вопрос : Толерантность к риску? #### Сл  
   _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
@@ -185,7 +191,7 @@ _...ещё 14 записей в этой категории_
   _→ do-not-glue_
 
 
-## Контакты (23)
+## Контакты (35)
 
 - немедленный шаг — написать vision paper , где вы связываете data7, info40, infom, meta2, daten1 и тезис про AI-orchestrated teams в единую аргументацию «MMORPG as Work Infrastructure». Один документ,  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -229,8 +235,11 @@ _...ещё 14 записей в этой категории_
 - написать PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1.1, которая формализует всё описанное здесь: humanity-specific format_types, conventional metadata, anonymizati  
   _→ 04-what-i-can-do-now_
 
+- написать nautilus/README.md отдельно от корневого README pro2 . Минимум 1 страница, объясняющая, что эта подпапка делает и как она связана с основной моделью в pro2 . Сейчас, если исследователь клонир  
+  _→ 01-интегральный-анализ-профиля-svend4_
 
-## Общее (265)
+
+## Общее (429)
 
 - идти. Эта фаза даёт уже очень ценный эффект: объяснимые suggestions вместо “магического мэтчинга”. citeturn41search0turn20view5turn34view2turn20v  
   _→ 12-roadmap_
@@ -292,14 +301,5 @@ _...ещё 14 записей в этой категории_
 - прочитать в первую очередь. <!-- alert-added --> <!-- summary --> > Прежде чем проектировать — фиксирую, что у нас уже есть объективно. --- <!-- toc --> ## Содержание - [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTI  
   _→ 02-общий-план-развития-nautilus-portal-protocol_
 
-_...ещё 245 записей в этой категории_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [PROGRESS](docs/PROGRESS.md)
+_...ещё 409 записей в этой категории_
 

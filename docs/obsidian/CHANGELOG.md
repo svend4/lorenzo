@@ -144,3 +144,13 @@ date: 2026-04-29
 - [[DIGEST]]
 - [[SITEMAP]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CHANGELOG](docs/CHANGELOG.md) (сходство 0.71)
+- [CHANGELOG_AUTO](docs/obsidian/CHANGELOG_AUTO.md) (сходство 0.68)
+- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md) (сходство 0.65)
+

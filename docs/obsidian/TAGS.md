@@ -316,3 +316,13 @@ date: 2026-04-29
 - [[SITEMAP]]
 - [[COMPARE]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TAGS](docs/TAGS.md) (сходство 0.36)
+- [COVERAGE](docs/COVERAGE.md) (сходство 0.30)
+- [README](docs/obsidian/README.md) (сходство 0.26)
+

@@ -1,5 +1,15 @@
 # Сеть проектов и авторов
 
+<!-- summary -->
+> **Андрей (kksudo)** → **Svyazi** (45), **AgentFS** (38), **knowledge-space** (37), **Yodoca** (35), **NGT** (35), **CardIndex** (32), **mclaude** (26), **LiteParse** (25)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, collaboration -->
+
+
+
+
 **Узлов:** 20  **Связей:** 189
 
 ## Топ-20 ко-упоминаемых пар
@@ -70,4 +80,14 @@
 - [GRAPH](docs/GRAPH.md)
 - [GLOSSARY](docs/GLOSSARY.md)
 - [MINDMAP](docs/MINDMAP.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NETWORK](docs/obsidian/NETWORK.md) (сходство 0.93)
+- [GRAPH](docs/GRAPH.md) (сходство 0.40)
+- [ENTITIES](docs/ENTITIES.md) (сходство 0.36)
 

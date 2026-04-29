@@ -360,3 +360,13 @@
 - [97-22-glossary-of-reference-examples.md](97-22-glossary-of-reference-examples.md) — <!-- summary -->
 - [98-appendix-a-minimal-working-example.md](98-appendix-a-minimal-working-example.md) — <!-- abstract-auto -->
 - [QA.md](QA.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/obsidian/02-anthropic-vacancies/README.md) (сходство 0.97)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md) (сходство 0.81)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.76)
+

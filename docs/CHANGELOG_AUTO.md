@@ -138,3 +138,13 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 
 - [CHANGELOG](CHANGELOG.md) _33%_
 - [Карта зависимостей скриптов](DEPENDENCY_MAP.md) _17%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CHANGELOG_AUTO](docs/obsidian/CHANGELOG_AUTO.md) (сходство 0.95)
+- [CHANGELOG](docs/obsidian/CHANGELOG.md) (сходство 0.65)
+- [CHANGELOG](docs/CHANGELOG.md) (сходство 0.49)
+

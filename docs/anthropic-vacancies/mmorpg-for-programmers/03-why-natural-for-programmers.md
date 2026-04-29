@@ -75,3 +75,13 @@ daten1 ⭐1 («блокнот, игры») — ранняя попытка gamif
 - [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
 - [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.12)
+- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.11)
+- [01-response](docs/nautilus/innovation-transitions/01-response.md) (сходство 0.11)
+

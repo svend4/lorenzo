@@ -38,3 +38,13 @@ Spec‑driven многоагентный development‑framework и автоно
 - [memnet](docs/svyazi-2-0/components/memnet.md)
 - [mclaude](docs/svyazi-2-0/components/mclaude.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [rufler](docs/svyazi-2-0/components/rufler.md) (сходство 0.38)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md) (сходство 0.37)
+- [mclaude](docs/svyazi-2-0/components/mclaude.md) (сходство 0.35)
+

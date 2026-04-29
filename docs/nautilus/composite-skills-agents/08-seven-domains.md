@@ -201,3 +201,13 @@ within 5-10 years.
 - [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
 - [07-application-domains](docs/nautilus/professional-colleague-agents-en/07-application-domains.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [261-8-seven-domains-of-application](docs/obsidian/02-anthropic-vacancies/261-8-seven-domains-of-application.md) (сходство 0.91)
+- [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md) (сходство 0.89)
+- [02-twenty-one-teachers-pattern](docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md) (сходство 0.22)
+

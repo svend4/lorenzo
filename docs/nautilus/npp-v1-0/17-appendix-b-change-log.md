@@ -29,3 +29,13 @@
 - [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.50)
+- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md) (сходство 0.45)
+- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.44)
+

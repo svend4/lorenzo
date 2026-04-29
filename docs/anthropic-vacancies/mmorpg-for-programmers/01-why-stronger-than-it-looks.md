@@ -33,3 +33,13 @@
 - [04-pluses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
 - [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-existing-niche](docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md) (сходство 0.14)
+- [00-question-mmorpg-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md) (сходство 0.13)
+- [04-pluses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md) (сходство 0.10)
+

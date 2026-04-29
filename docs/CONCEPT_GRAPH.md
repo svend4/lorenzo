@@ -1,5 +1,15 @@
 # Граф концептов базы знаний
 
+<!-- summary -->
+> Концептов: **40** | Связей: **773** (мин. вес: 2)
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Концептов: **40** | Связей: **773** (мин. вес: 2)
@@ -144,3 +154,13 @@ graph TD
 | `memory` | 192 | 1704 | memory |
 | `infrastructure` | 143 | 1548 | other |
 | `projects` | 140 | 1488 | other |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONCEPT_GRAPH](docs/obsidian/CONCEPT_GRAPH.md) (сходство 0.47)
+- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.30)
+- [00-intro](docs/lorenzo-agent/00-intro.md) (сходство 0.28)
+

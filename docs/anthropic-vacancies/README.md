@@ -20,3 +20,13 @@
 - [nautilus-pro2-analysis/](nautilus-pro2-analysis/) — nautilus-pro2-analysis
 - [nautilus-vs-camel/](nautilus-vs-camel/) — nautilus-vs-camel
 - [profile-mapping/](profile-mapping/) — profile-mapping
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](docs/anthropic-vacancies/QA.md) (сходство 0.15)
+- [README](docs/anthropic-vacancies/beneficial-deployments-concept/README.md) (сходство 0.14)
+- [README](docs/svyazi-2-0/overview/README.md) (сходство 0.13)
+

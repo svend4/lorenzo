@@ -1,5 +1,15 @@
 # Майндмап репозитория Lorenzo
 
+<!-- summary -->
+> knowledge-space[knowledge-space]
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 ## Структура разделов
 
 ```mermaid
@@ -51,7 +61,7 @@ flowchart LR
   end
   subgraph KNOWLEDGE
     AgentFS[AgentFS]
-    knowledge_space[knowledge space]
+    knowledge-space[knowledge-space]
   end
   subgraph MEMORY
     Yodoca[Yodoca]
@@ -75,14 +85,14 @@ flowchart LR
   end
   Svyazi -->|ingest→index| CardIndex
   CardIndex -->|storage| AgentFS
-  AgentFS -->|reference| knowledge_space
+  AgentFS -->|reference| knowledge-space
   Yodoca -->|consolidation| NGT_Memory
   NGT_Memory -->|recall→discovery| Svyazi
   LiteParse -->|evidence| Legal_RAG
   Legal_RAG -->|proof→card| CardIndex
   mclaude -->|coordination| AI_Factory
   AI_Factory -->|orchestration| Rufler
-  Rufler -->|self-improve| AutoResearch
+  Rufler -->|self-improvement| AutoResearch
   LiteLLM -->|gateway→guard| SENTINEL
   Tool_Search -->|lazy-load| LiteLLM
 ```
@@ -108,4 +118,14 @@ flowchart LR
 - [GRAPH](docs/GRAPH.md)
 - [NETWORK](docs/NETWORK.md)
 - [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MINDMAP](docs/obsidian/MINDMAP.md) (сходство 0.93)
+- [GRAPH](docs/GRAPH.md) (сходство 0.42)
+- [GLOSSARY](docs/obsidian/GLOSSARY.md) (сходство 0.42)
 

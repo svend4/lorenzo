@@ -35,3 +35,13 @@
 - [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
 - [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-profile-five-layers](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md) (сходство 0.14)
+- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.13)
+- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md) (сходство 0.13)
+

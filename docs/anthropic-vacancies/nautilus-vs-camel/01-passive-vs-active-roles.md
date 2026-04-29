@@ -31,3 +31,13 @@ CAMEL — это active execution framework. Когда вы создаёте Ch
 - [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
 - [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-difference-3-federation-missing](docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md) (сходство 0.21)
+- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md) (сходство 0.20)
+- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.20)
+

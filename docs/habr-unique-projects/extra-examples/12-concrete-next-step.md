@@ -60,3 +60,13 @@ Honest reflection
 - [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
 - [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-concrete-potential-collaborator](docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md) (сходство 0.23)
+- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md) (сходство 0.21)
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md) (сходство 0.20)
+

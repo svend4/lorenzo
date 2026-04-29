@@ -34,3 +34,13 @@ Discovery-loop через voice journal — каждый вечер пять м�
 - [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
 - [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.42)
+- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.20)
+- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.18)
+

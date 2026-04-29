@@ -466,3 +466,13 @@ date: 2026-04-29
 - [[PARAGRAPH_QUALITY]]
 - [[READABILITY]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.98)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md) (сходство 0.86)
+- [READING_TIME](docs/obsidian/READING_TIME.md) (сходство 0.78)
+

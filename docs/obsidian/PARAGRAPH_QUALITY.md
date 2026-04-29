@@ -3208,3 +3208,13 @@ _абзац: 1_
 - [[SEARCH]]
 - [[SOURCE_MAP]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [HEADING_AUDIT](docs/HEADING_AUDIT.md) (сходство 0.67)
+- [READING_TIME](docs/obsidian/READING_TIME.md) (сходство 0.63)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md) (сходство 0.55)
+

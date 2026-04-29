@@ -1,4 +1,6 @@
 # Расписание проекта
+<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -74,3 +76,13 @@ _█ = активная работа, ░ = ожидание_
 - Вех выполнено: **3/10** (30%)
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SCHEDULE](docs/obsidian/SCHEDULE.md) (сходство 0.70)
+- [DENSITY](docs/DENSITY.md) (сходство 0.19)
+- [SCORING](docs/SCORING.md) (сходство 0.17)
+

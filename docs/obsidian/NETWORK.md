@@ -88,3 +88,13 @@ date: 2026-04-29
 - [[GLOSSARY]]
 - [[MINDMAP]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NETWORK](docs/NETWORK.md) (сходство 0.93)
+- [GRAPH](docs/obsidian/GRAPH.md) (сходство 0.38)
+- [ENTITIES](docs/obsidian/ENTITIES.md) (сходство 0.37)
+

@@ -150,3 +150,13 @@ API для AI-сотрудничества через кастомный
 - [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
 - [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.86)
+- [295-конкретный-случай-перед-нами](docs/obsidian/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.86)
+- [10-rekomendatsii](docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md) (сходство 0.19)
+

@@ -220,3 +220,13 @@ PDF/DOCX в других). Медицинские записи должны
 - [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
 - [06-riski](docs/nautilus/professional-colleague-agents-ru/06-riski.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [235-4-архитектура-профессиональных-коллег-агентов](docs/obsidian/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md) (сходство 0.88)
+- [235-4-архитектура-профессиональных-коллег-агентов](docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md) (сходство 0.88)
+- [05-ekonomika](docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md) (сходство 0.13)
+

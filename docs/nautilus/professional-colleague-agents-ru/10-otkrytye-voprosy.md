@@ -95,3 +95,13 @@ AI-усиление подрывает? Что мы могли бы потеря
 технические решения.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [241-10-открытые-вопросы](docs/obsidian/02-anthropic-vacancies/241-10-открытые-вопросы.md) (сходство 0.88)
+- [241-10-открытые-вопросы](docs/02-anthropic-vacancies/241-10-открытые-вопросы.md) (сходство 0.83)
+- [00-abstract](docs/nautilus/professional-colleague-agents-ru/00-abstract.md) (сходство 0.12)
+

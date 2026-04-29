@@ -221,3 +221,13 @@ YAML)
 - [04-simbioticheskaya-arkhitektura](docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md)
 - [06-utochnyonnyy-obyom-ingit](docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/obsidian/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.87)
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.85)
+- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md) (сходство 0.14)
+

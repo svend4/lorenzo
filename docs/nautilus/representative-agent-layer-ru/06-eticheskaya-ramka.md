@@ -87,3 +87,13 @@
 - [05-arkhitekturnaya-spetsifikatsiya](docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md)
 - [07-upravlenie-nadzor](docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [196-6-этическая-рамка](docs/obsidian/02-anthropic-vacancies/196-6-этическая-рамка.md) (сходство 0.84)
+- [196-6-этическая-рамка](docs/02-anthropic-vacancies/196-6-этическая-рамка.md) (сходство 0.81)
+- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md) (сходство 0.13)
+

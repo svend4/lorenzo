@@ -61,3 +61,13 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 - [[ingit]]
 - [[lorenzo]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [AUTOFILLED](docs/AUTOFILLED.md) (сходство 0.83)
+- [svyazi](docs/obsidian/autofilled/components/svyazi.md) (сходство 0.31)
+- [svend4](docs/obsidian/autofilled/components/svend4.md) (сходство 0.31)
+

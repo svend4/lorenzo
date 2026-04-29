@@ -14,3 +14,13 @@
 - [08-implikatsii-nautilus-okwf.md](08-implikatsii-nautilus-okwf.md) — <!-- summary -->
 - [09-riski-voprosy.md](09-riski-voprosy.md) — > [!WARNING]
 - [10-strategicheskoe-pozitsionirovanie.md](10-strategicheskoe-pozitsionirovanie.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/professional-colleague-agents-ru/README.md) (сходство 0.20)
+- [README](docs/autofilled/components/README.md) (сходство 0.19)
+- [README](docs/nautilus/ingit-cowork-en/README.md) (сходство 0.16)
+

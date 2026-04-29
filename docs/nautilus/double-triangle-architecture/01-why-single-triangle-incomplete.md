@@ -87,3 +87,13 @@ such a protocol.
 - [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
 - [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.87)
+- [138-1-why-single-triangle-models-are-incomplete](docs/obsidian/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.85)
+- [00-abstract](docs/nautilus/double-triangle-architecture/00-abstract.md) (сходство 0.25)
+

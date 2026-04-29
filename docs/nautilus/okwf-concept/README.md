@@ -15,3 +15,13 @@
 - [08-risk-analysis.md](08-risk-analysis.md) — > [!TIP]
 - [09-call-for-partnership.md](09-call-for-partnership.md) — <!-- summary -->
 - [10-appendices.md](10-appendices.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [154-table-of-contents](docs/obsidian/02-anthropic-vacancies/154-table-of-contents.md) (сходство 0.36)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md) (сходство 0.31)
+- [README](docs/nautilus/representative-agent-layer-en/README.md) (сходство 0.17)
+

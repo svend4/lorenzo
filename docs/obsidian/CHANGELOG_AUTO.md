@@ -136,3 +136,13 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 - [[DIGEST]]
 - [[SITEMAP]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md) (сходство 0.95)
+- [CHANGELOG](docs/obsidian/CHANGELOG.md) (сходство 0.68)
+- [CHANGELOG](docs/CHANGELOG.md) (сходство 0.49)
+

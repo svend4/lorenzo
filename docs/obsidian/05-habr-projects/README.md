@@ -12,3 +12,13 @@
 
 - [knowledge/](knowledge/) — Системы знаний
 - [memory/](memory/) — Системы памяти
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/05-habr-projects/README.md) (сходство 0.39)
+- [README](docs/obsidian/05-habr-projects/memory/README.md) (сходство 0.31)
+- [README](docs/obsidian/05-habr-projects/knowledge/README.md) (сходство 0.27)
+

@@ -42,3 +42,13 @@ date: 2026-04-29
 - [[118-appendix-a-шаблон-для-header-warning]]
 - [[121-appendix-c-история-изменений-методологии]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [361-когда-ты-honestly-не-знаешь](docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) (сходство 0.51)
+- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md) (сходство 0.46)
+- [102-доступ-к-данным](docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md) (сходство 0.43)
+

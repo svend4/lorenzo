@@ -77,3 +77,13 @@ Revert** для публичных-facing docs.
 - [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
 - [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [115-8-ограничения-и-открытые-вопросы](docs/obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) (сходство 0.85)
+- [115-8-ограничения-и-открытые-вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) (сходство 0.83)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md) (сходство 0.21)
+

@@ -1,5 +1,26 @@
 # Рекомендуемый порядок чтения
 
+<!-- summary -->
+> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
+**Проекты:** Svyazi, Yodoca, MemNet, Wikontic
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Маршруты по целям](#маршруты-по-целям)
+  - [🚀 Быстрый старт (30 минут)](#быстрый-старт-30-минут)
+  - [🏗️ Архитектура (2 часа)](#архитектура-2-часа)
+  - [🔬 Полное исследование (1 день)](#полное-исследование-1-день)
+
+---
+
+<!-- tags: memory, security, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 
 | # | Уровень | Документ | Слов | Предварительно прочитать |
@@ -422,3 +443,13 @@
 3. `04-ai-collaborations/` — ансамбли
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_ORDER](docs/obsidian/READING_ORDER.md) (сходство 0.98)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md) (сходство 0.84)
+- [README](docs/obsidian/02-anthropic-vacancies/README.md) (сходство 0.78)
+

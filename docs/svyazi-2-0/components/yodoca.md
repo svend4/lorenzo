@@ -39,3 +39,13 @@
 - [mclaude](docs/svyazi-2-0/components/mclaude.md)
 - [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md) (сходство 0.37)
+- [ai-factory](docs/svyazi-2-0/components/ai-factory.md) (сходство 0.37)
+- [memnet](docs/svyazi-2-0/components/memnet.md) (сходство 0.36)
+

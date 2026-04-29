@@ -70,3 +70,13 @@ _Создано: 2026-04-29_
 - [[Тема исследования]](docs/templates/research-note.md) _100%_
 - [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md) _17%_
 - [[Название компонента]](docs/templates/project-component.md) _17%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [research-summary](docs/autofilled/research-summary.md) (сходство 0.82)
+- [research-note](docs/templates/research-note.md) (сходство 0.72)
+- [research-note](docs/obsidian/templates/research-note.md) (сходство 0.68)
+

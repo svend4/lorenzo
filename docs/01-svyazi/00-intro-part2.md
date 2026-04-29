@@ -1,1 +1,9 @@
 # Продолжение исследования для Svyazi 2.0
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-intro-part2](docs/obsidian/01-svyazi/00-intro-part2.md) (сходство 0.33)
+

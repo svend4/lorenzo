@@ -105,3 +105,13 @@ by mission-driven foundations.
 - [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
 - [09-phased-rollout](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.86)
+- [176-7-governance-and-oversight](docs/obsidian/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.82)
+- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md) (сходство 0.20)
+

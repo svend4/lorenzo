@@ -90,3 +90,13 @@ _Создано автоматически: 2026-04-29_
 - [[sonia-black]]
 - [[cutcode]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [sonia-black](docs/obsidian/contacts/sonia-black.md) (сходство 0.88)
+- [nlaik](docs/obsidian/contacts/nlaik.md) (сходство 0.88)
+- [vladspace](docs/obsidian/contacts/vladspace.md) (сходство 0.83)
+

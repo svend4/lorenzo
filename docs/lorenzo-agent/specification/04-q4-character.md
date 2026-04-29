@@ -56,3 +56,13 @@ Offer easy decline path
 - [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
 - [05-tvoya-lichnost](docs/lorenzo-agent/05-tvoya-lichnost.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md) (сходство 0.24)
+- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.19)
+- [357-твоя-коммуникация-в-outreach](docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.18)
+

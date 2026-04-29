@@ -52,3 +52,13 @@ Self-aware agent с пониманием контекста — self-aware MCP-�
 - [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
 - [2-pkm-mcp-skills](docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.17)
+- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.17)
+- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md) (сходство 0.15)
+

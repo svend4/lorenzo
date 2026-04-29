@@ -97,3 +97,13 @@ _Создано автоматически: 2026-04-29_
 - [[kksudo]]
 - [[tagir-analyzes]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [tagir-analyzes](docs/obsidian/contacts/tagir-analyzes.md) (сходство 0.69)
+- [sonia-black](docs/obsidian/contacts/sonia-black.md) (сходство 0.68)
+- [nlaik](docs/obsidian/contacts/nlaik.md) (сходство 0.68)
+

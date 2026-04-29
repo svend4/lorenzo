@@ -46,3 +46,13 @@ flowchart LR
 - [H-research-to-product-flywheel](docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md)
 - [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
+- [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.20)
+

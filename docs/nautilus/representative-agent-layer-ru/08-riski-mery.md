@@ -129,3 +129,13 @@
 - [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
 - [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [198-8-риски-и-меры-противодействия](docs/obsidian/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) (сходство 0.87)
+- [198-8-риски-и-меры-противодействия](docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) (сходство 0.85)
+- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) (сходство 0.14)
+

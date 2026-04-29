@@ -66,3 +66,13 @@ transitional state:
 - [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
 - [[185-appendix-b-domain-comparison-matrix]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.55)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.47)
+- [121-appendix-c-история-изменений-методологии](docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md) (сходство 0.45)
+

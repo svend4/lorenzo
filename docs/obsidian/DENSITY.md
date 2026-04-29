@@ -111,3 +111,13 @@ _Все темы достаточно раскрыты_
 - [[ONBOARDING]]
 - [[COMPONENT_MATRIX]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DENSITY](docs/DENSITY.md) (сходство 0.70)
+- [HEATMAP](docs/obsidian/HEATMAP.md) (сходство 0.44)
+- [HEATMAP](docs/HEATMAP.md) (сходство 0.41)
+

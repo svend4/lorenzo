@@ -34,3 +34,13 @@ Mesh из таких узлов — несколько community-nodes в раз
 - [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
 - [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md) (сходство 0.21)
+- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.18)
+- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md) (сходство 0.18)
+

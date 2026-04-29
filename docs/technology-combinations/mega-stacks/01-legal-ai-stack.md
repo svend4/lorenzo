@@ -54,3 +54,13 @@
 - [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
 - [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.37)
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.34)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.30)
+

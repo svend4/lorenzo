@@ -236,3 +236,13 @@ _Обновлено: 2026-04-29_
 - [[BROKEN_LINKS]]
 - [[ENTITIES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CITATION_INDEX](docs/CITATION_INDEX.md) (сходство 0.79)
+- [LINKS](docs/obsidian/LINKS.md) (сходство 0.26)
+- [LINKS](docs/LINKS.md) (сходство 0.21)
+

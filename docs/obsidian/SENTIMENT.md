@@ -88,3 +88,13 @@ date: 2026-04-29
 - [[METRICS]]
 - [[COMPARE]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SENTIMENT](docs/SENTIMENT.md) (сходство 0.43)
+- [STALENESS](docs/obsidian/STALENESS.md) (сходство 0.22)
+- [COMPLEXITY](docs/obsidian/COMPLEXITY.md) (сходство 0.21)
+

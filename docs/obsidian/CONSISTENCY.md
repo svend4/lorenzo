@@ -121,3 +121,13 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 - [[STATS]]
 - [[SPELLCHECK]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONSISTENCY](docs/CONSISTENCY.md) (сходство 0.65)
+- [MISSING](docs/obsidian/MISSING.md) (сходство 0.25)
+- [GRAPH](docs/obsidian/GRAPH.md) (сходство 0.22)
+

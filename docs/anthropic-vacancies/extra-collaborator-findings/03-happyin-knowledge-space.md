@@ -56,3 +56,13 @@ MIT license — open для использования и адаптации
 - [01-coally](docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md)
 - [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md) (сходство 0.20)
+- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md) (сходство 0.17)
+- [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md) (сходство 0.17)
+

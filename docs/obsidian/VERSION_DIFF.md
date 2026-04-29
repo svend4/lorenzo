@@ -103,3 +103,13 @@ _Обновлено: 2026-04-29_
 - [[SITEMAP]]
 - [[CONTACT_PRIORITY]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST](docs/obsidian/DIGEST.md) (сходство 0.26)
+- [PRIORITIES](docs/obsidian/PRIORITIES.md) (сходство 0.26)
+- [CONTACT_PRIORITY](docs/obsidian/CONTACT_PRIORITY.md) (сходство 0.24)
+

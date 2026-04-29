@@ -248,3 +248,13 @@ _...ещё 125 записей в этой категории_
 - [[ACTION_ITEMS]]
 - [[PROGRESS]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DECISIONS](docs/DECISIONS.md) (сходство 0.84)
+- [ACTION_ITEMS](docs/obsidian/ACTION_ITEMS.md) (сходство 0.16)
+- [SUMMARIES](docs/SUMMARIES.md) (сходство 0.16)
+

@@ -77,3 +77,13 @@
 - [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
 - [08-riski-mery](docs/nautilus/representative-agent-layer-ru/08-riski-mery.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [200-10-открытые-вопросы](docs/obsidian/02-anthropic-vacancies/200-10-открытые-вопросы.md) (сходство 0.85)
+- [200-10-открытые-вопросы](docs/02-anthropic-vacancies/200-10-открытые-вопросы.md) (сходство 0.83)
+- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) (сходство 0.13)
+

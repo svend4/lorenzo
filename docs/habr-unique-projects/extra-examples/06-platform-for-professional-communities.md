@@ -39,3 +39,13 @@ AI matcher находит unexpected combinations (Wi-Fi инженер + SPb р
 - [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
 - [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.35)
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.32)
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md) (сходство 0.27)
+

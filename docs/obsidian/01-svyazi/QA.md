@@ -96,3 +96,13 @@ _Автоматически сгенерировано по 14 файлам ра
 [^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
 
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](docs/obsidian/04-ai-collaborations/QA.md) (сходство 0.98)
+- [QA](docs/04-ai-collaborations/QA.md) (сходство 0.85)
+- [QA](docs/01-svyazi/QA.md) (сходство 0.72)
+

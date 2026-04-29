@@ -62,3 +62,13 @@ ROI: Legal documents never lost, even with datacenter failure
 - [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
 - [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.28)
+- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md) (сходство 0.27)
+- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.26)
+

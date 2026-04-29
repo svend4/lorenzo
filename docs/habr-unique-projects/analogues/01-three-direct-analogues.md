@@ -47,3 +47,13 @@ https://habr.com/ru/articles/1014366/
 - [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
 - [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.70)
+- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md) (сходство 0.43)
+- [ngt-memory](docs/obsidian/05-habr-projects/memory/ngt-memory.md) (сходство 0.41)
+

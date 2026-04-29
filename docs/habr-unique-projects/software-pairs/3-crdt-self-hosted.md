@@ -34,3 +34,13 @@ Hierarchical CRDT memory layers — рабочий контекст (быстр�
 - [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
 - [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.21)
+- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md) (сходство 0.19)
+- [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md) (сходство 0.18)
+
