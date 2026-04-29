@@ -1,5 +1,12 @@
 # Status Badges
 
+<!-- summary -->
+> - **tests** ![tests](https://img.shields.io/badge/tests-99--passing-brightgreen)
+
+---
+
+
+
 _Обновлено: 2026-04-29_
 
 
@@ -25,3 +32,11 @@ _Обновлено: 2026-04-29_
 ![health](https://img.shields.io/badge/health-77/100-green)
 ![validation](https://img.shields.io/badge/validation-14--valid-brightgreen)
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LINKS](docs/LINKS.md)
+

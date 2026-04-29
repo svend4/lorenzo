@@ -2,7 +2,7 @@
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 1306
+**Всего элементов:** 1331
 
 
 ## ➡️ Следующие шаги (150)
@@ -208,7 +208,7 @@
 
 _(51 дублей скрыто)_
 
-## ✅ Решения и рекомендации (265)
+## ✅ Решения и рекомендации (273)
 
 - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идёт  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -400,6 +400,8 @@ _(51 дублей скрыто)_
   _→ 00-intro_
 - 2019 года, после изменений 2024 года применяется иначе»);  
   _→ 00-intro_
+- Record (ADR): контекст → варианты → решение → последствия  
+  _→ CONCEPTS_
 - tree для разрешения расхождений в §3  
   _→ CONCEPTS_
 - + обоснование]  
@@ -412,6 +414,8 @@ _(51 дублей скрыто)_
   _→ DUPLICATES_
 - (5 сл., строка 22)  
   _→ EMPTY_SECTIONS_
+- go / no-go** _`docs`, `automation`_  
+  _→ GITHUB_ISSUES_
 - прочитать в первую очередь. <!-- alert-added --> <!-- autofill-status --> | Параметр | Значение | |----------|---------| | Теги | — | | Упоминаний в р  
   _→ NARRATIVE_
 - Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-f  
@@ -422,26 +426,34 @@ _(51 дублей скрыто)_
   _→ OUTLINE_
 - × Auto AI Router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)](#комбинация-2-мультиагентный-хаос-реше  
   _→ OUTLINE_
+- - Связанные противоречия  
+  _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
 - Framework — When to Buil](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 307 | — |  
   _→ READING_ORDER_
+- boundary | 7 |  
+  _→ REGISTRY_
+- Record (ADR): контекст → варианты → решение → последствия | 5 |  
+  _→ REGISTRY_
 - × Auto A](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) | 171 |  
   _→ SITEMAP_
 - автоматическое, по правилу - Наша методология: разрешение ручное, через правила 1-5 В security и public policy используется структура red vs blue : од  
   _→ SUMMARIES_
 - через Правило 2 §3.1 : Финальная запись : Правило: итоговое число — точное, верифицированное , не среднее между A и B. Из IMPLEMENTATION STAGE PART 1.  
   _→ SUMMARIES_
+- boundary](#4-decision-boundary)  
+  _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `docs/04-ai-collaborations/00-intro.md` |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `docs/05-habr-projects/memory/memnet.md` |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года примен | `docs/TABLES.md` |  
   _→ TABLES_
-- создать документы](#26-рекомендуется-создать-документы)  
+- | Суд | Дата | Релевантность |  
   _→ TABLES_
-- Record (ADR): контекст → варианты → решение → последствия  
-  _→ VALIDATION_
+- создать документы](#28-рекомендуется-создать-документы)  
+  _→ TABLES_
 - позиционировать как research database, не как legal service. «Вот как типичный case структурируется» — OK. «Вот что вам лично делать» — не OK без юрид  
   _→ 03-what-this-gives-technically_
 - Но reality: knowledge work ветвится постоянно. Во время обсуждения проекта X возникает идея для проекта Y. Во время review кода возникает architectura  
@@ -454,8 +466,6 @@ _(51 дублей скрыто)_
   _→ decision-record_
 - зависит от исхода эксперимента.]  
   _→ experiment-log_
-- | Суд | Дата | Релевантность |  
-  _→ legal-case_
 - 1] — отв. [Имя]  
   _→ meeting-notes_
 - 2] — отв. [Имя]  
@@ -465,9 +475,9 @@ _(51 дублей скрыто)_
 - 1] — см. [ADR-NNNN](../decisions/ADR-NNNN.md)  
   _→ weekly-digest_
 
-_(138 дублей скрыто)_
+_(141 дублей скрыто)_
 
-## ⚠️ Риски (585)
+## ⚠️ Риски (595)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -921,9 +931,11 @@ _(138 дублей скрыто)_
   _→ DECISIONS_
 - склеивать](docs/svyazi-2-0/limitations/do-not-glue.md) > > !WARNING - Оркестрация — выбрать один spine - Voice/local‑fir  
   _→ DECISIONS_
-- | `root` | 79% |  
+- | `root` | 80% |  
   _→ DENSITY_
 - Configuration Paralysis](#101-risk-configuration-paralysis) - [10.2. Risk: Configura…  
+  _→ DUPLICATES_
+- sources**: - Employment law reclassifying contributors as employees - GDPR enforcement challenges with anonymization pipeline - AI Act regulatory requ  
   _→ DUPLICATES_
 - Analysis (0 сл., строка 41)  
   _→ EMPTY_SECTIONS_
@@ -933,9 +945,9 @@ _(138 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - агентов? (8 сл., строка 17)  
   _→ EMPTY_SECTIONS_
-- и allowlist для MCP | 0 |  
+- и allowlist для MCP | 2 |  
   _→ FOOTNOTES_
-- | ██ 7.0 | 0.4 | 0.4 | ▒▒ 4.1 | 0.1 |  
+- | ██ 6.9 | 0.4 | 0.4 | ▓▓ 4.1 | 0.1 |  
   _→ HEATMAP_
 - агентов? [[Глобальный Q&A](docs/QA.md)]  
   _→ KNOWLEDGE_MAP_
@@ -945,11 +957,15 @@ _(138 дублей скрыто)_
   _→ OUTLINE_
 - Analysis](docs/nautilus/okwf-concept/08-risk-analysis.md)](#8-risk-analysisdocsnautilusokwf-concept08-risk-analysismd)  
   _→ OUTLINE_
+- [Название]](docs/templates/risk-entry.md)](#риск-названиеdocstemplatesrisk-entrymd)  
+  _→ OUTLINE_
 - Regulatory Complexity Deployment Readiness  
   _→ OUTLINE_
 - Регулятивная Сложность Готовность к Развёртыванию  
   _→ OUTLINE_
 - Analysis](docs/nautilus/okwf-concept/08-risk-analysis.md)  
+  _→ OUTLINE_
+- [Название]](docs/templates/risk-entry.md)  
   _→ OUTLINE_
 - склеивать в один релиз](docs/ai-collaborations/continuation/09-do-not-glue.md)](#что-пока-не-стоит-склеивать-в-один-рели  
   _→ OUTLINE_
@@ -981,8 +997,6 @@ _(138 дублей скрыто)_
   _→ QUESTIONS_
 - агентов? [Какие RAG-подходы сравниваются в документах?]  
   _→ QUESTIONS_
-- агентов? [Открытые вопросы]  
-  _→ QUESTIONS_
 - склеивать]  
   _→ QUESTIONS_
 - скл](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3274 | — |  
@@ -1001,6 +1015,8 @@ _(138 дублей скрыто)_
   _→ SCORING_
 - собирать все сраз  
   _→ SIMILAR_PASSAGES_
+- [Название]](docs/templates/risk-entry.md) | 233 |  
+  _→ SITEMAP_
 - склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3274 |  
   _→ SITEMAP_
 - склеивать](docs/svyazi-2-0/limitations/do-not-glue.md) | 343 |  
@@ -1011,9 +1027,15 @@ _(138 дублей скрыто)_
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
   _→ TABLES_
-- | `root` | 76% |  
+- | Severity | Митигация |  
   _→ TABLES_
-- и allowlist для MCP | 16 |  
+- Score | [P × I, 1-25] |  
+  _→ TABLES_
+- идентифицирован | [Имя] |  
+  _→ TABLES_
+- | `root` | 79% |  
+  _→ TABLES_
+- и allowlist для MCP | 0 |  
   _→ TABLES_
 - и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
   _→ TABLES_
@@ -1037,20 +1059,14 @@ _(138 дублей скрыто)_
   _→ 14-local-first-agent-development-environment_
 - - **Auth:** как агент аутентифицируется  
   _→ agent-spec_
-- | Severity | Митигация |  
-  _→ mega-stack_
 - [Название]  
   _→ risk-entry_
-- Score | [P × I, 1-25] |  
-  _→ risk-entry_
 - реализуется)  
-  _→ risk-entry_
-- идентифицирован | [Имя] |  
   _→ risk-entry_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(295 дублей скрыто)_
+_(302 дублей скрыто)_
 
 ## 🚫 Ограничения (144)
 
@@ -1209,7 +1225,7 @@ _(295 дублей скрыто)_
 
 _(68 дублей скрыто)_
 
-## 📋 Задачи (TODO) (21)
+## 📋 Задачи (TODO) (24)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -1227,9 +1243,13 @@ _(68 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- ⭐ To Do — задача к выполнению 4 [1. Словарь аббревиатур и сокращений]  
+- ⭐ To Do — задача к выполнению 11 [1. Словарь аббревиатур и сокращений]  
   _→ QUESTIONS_
-- ⭐ To Do — задача к выполнению 4 [Словарь аббревиатур и сокращений]  
+- из docs/. [export (7)]  
+  _→ QUESTIONS_
+- из docs/. [extract (9)]  
+  _→ QUESTIONS_
+- ⭐ To Do — задача к выполнению 11 [Словарь аббревиатур и сокращений]  
   _→ QUESTIONS_
 - во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
   _→ QUESTIONS_
@@ -1239,7 +1259,7 @@ _(68 дублей скрыто)_
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
   _→ SCRIPTS_CATALOG_
-- меток: **37**  
+- меток: **47**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
@@ -1248,9 +1268,9 @@ _(68 дублей скрыто)_
 - SGB Y — [пояснение]  
   _→ legal-case_
 
-_(3 дублей скрыто)_
+_(4 дублей скрыто)_
 
-## 📬 Контактные действия (141)
+## 📬 Контактные действия (145)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1394,20 +1414,26 @@ _(3 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется [112. Все документы]  
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [113. Все документы]  
   _→ QUESTIONS_
 - авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
   _→ QUESTIONS_
 - авторами компонентов? [Какова лицензия проекта?]  
   _→ QUESTIONS_
+- первое сообщение автору проекта. |  
+  _→ REGISTRY_
+- первое сообщение автору OSS-проекта | `lorenzo-contacts` | `write_contact` | `co  
+  _→ REGISTRY_
+- N приоритетными контактами. |  
+  _→ REGISTRY_
 - авторам AgentFS, Yodoca, NGT | ⬜ Планируется |  
   _→ SCHEDULE_
 - авторам AgentFS, Yodoca, NGT**  
   _→ SCHEDULE_
+- первое сообщение автору OSS-проекта | "напиши письмо автору", "составь запрос на  
+  _→ TABLES_
 - PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
   _→ TABLES_
-- первое сообщение автору OSS-проекта | "напиши письмо автору", "составь запрос на  
-  _→ TASKS_INDEX_
 - первое сообщение автору OSS-проекта  
   _→ TASKS_INDEX_
 - technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого арте  
@@ -1423,7 +1449,7 @@ _(3 дублей скрыто)_
 - anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
 
-_(56 дублей скрыто)_
+_(57 дублей скрыто)_
 
 <!-- see-also -->
 

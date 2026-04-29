@@ -1,6 +1,6 @@
 # Индекс ссылок
 
-Всего уникальных URL: 210
+Всего уникальных URL: 219
 
 | URL | Найден в файлах |
 |-----|-----------------|
@@ -13,10 +13,11 @@
 | https://api.github.com/users/svend4/repos?per_page=100&sort=updated | 5 |
 | https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner | 5 |
 | https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv | 4 |
-| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 1 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 3 |
 | https://claude.com/product/cowork | 9 |
 | https://creativecommons.org/licenses/by/4.0/ | 5 |
-| https://datatracker.ietf.org/doc/html/rfc2119 | 1 |
+| https://datatracker | 2 |
+| https://datatracker.ietf.org/doc/html/rfc2119 | 3 |
 | https://forum.[obsidian | 5 |
 | https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a-queryable-knowledge-base-privately/113223 | 3 |
 | https://github | 4 |
@@ -46,7 +47,7 @@
 | https://github.com/spbmolot/ngt-memory | 4 |
 | https://github.com/svend4/ | 3 |
 | https://github.com/svend4/data70 | 5 |
-| https://github.com/svend4/data70` | 2 |
+| https://github.com/svend4/data70` | 3 |
 | https://github.com/svend4/info1 | 8 |
 | https://github.com/svend4/info1` | 3 |
 | https://github.com/svend4/info40 | 4 |
@@ -62,7 +63,7 @@
 | https://github.com/svend4/nautilus/blob/main/INTEGRATION.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL | 3 |
 | https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md | 4 |
-| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 2 |
+| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 3 |
 | https://github.com/svend4/nautilus/blob/main/README.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md | 4 |
 | https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 3 |
@@ -112,7 +113,7 @@
 | https://habr.com/ru/articles/1010478/ | 6 |
 | https://habr.com/ru/articles/1010478/` | 3 |
 | https://habr.com/ru/articles/1012894/ | 4 |
-| https://habr.com/ru/articles/1012894/` | 1 |
+| https://habr.com/ru/articles/1012894/` | 2 |
 | https://habr.com/ru/articles/1014366/ | 6 |
 | https://habr.com/ru/articles/1014366/` | 3 |
 | https://habr.com/ru/articles/1016096/ | 6 |
@@ -129,7 +130,7 @@
 | https://habr.com/ru/articles/1020860/ | 6 |
 | https://habr.com/ru/articles/1020860/` | 3 |
 | https://habr.com/ru/articles/1021622/ | 4 |
-| https://habr.com/ru/articles/1021622/` | 1 |
+| https://habr.com/ru/articles/1021622/` | 2 |
 | https://habr.com/ru/articles/1023446/ | 6 |
 | https://habr.com/ru/articles/1023446/` | 3 |
 | https://habr.com/ru/articles/1024634/ | 6 |
@@ -190,20 +191,19 @@
 | https://habr.com/ru/companies/yoomoney/articles/1012870/` | 3 |
 | https://habr.com/ru/news/789164/ | 3 |
 | https://happyin.space/ | 4 |
-| https://json-schema.org/draft/2020-12/schema | 1 |
+| https://img.shields.io/badge/health-77/100-green | 1 |
+| https://img.shields.io/badge/manifests-13-blue | 1 |
+| https://img.shields.io/badge/mcp--servers-10-blue | 1 |
+| https://img.shields.io/badge/scripts-152-blue | 1 |
+| https://img.shields.io/badge/skills-28-blue | 1 |
+| https://img.shields.io/badge/templates-23-blue | 1 |
+| https://img.shields.io/badge/tests-99--passing-brightgreen | 1 |
+| https://img.shields.io/badge/validation-14--valid-brightgreen | 1 |
+| https://json-schema.org/draft/2020-12/schema | 3 |
 | https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7 | 3 |
 | https://olegtalks.ru/base/tpost/xn7kev4fa1-docling-gotovim-dannie-dlya-rag-i-llm | 6 |
 | https://raw.githubusercontent.com/svend4/nautilus/main/adapters/base.py | 4 |
 | https://raw.githubusercontent.com/svend4/nautilus/main/glyph_adapter.py | 4 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/nautilus.json | 4 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md | 4 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/portal.py | 4 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/requirements.txt | 4 |
-| https://raw.githubusercontent.com/svend4/pro2/main/README.md | 4 |
-| https://raw.githubusercontent.com/svend4/pro2/main/nautilus/README.md | 4 |
-| https://raw.githubusercontent.com/svend4/pro2/main/nautilus/adapters/base.py | 4 |
-| https://raw.githubusercontent.com/svend4/pro2/main/nautilus/adapters/info1.py | 4 |
-| https://raw.githubusercontent.com/svend4/pro2/main/nautilus/nautilus.json | 4 |
 
 <!-- see-also -->
 

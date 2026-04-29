@@ -3,8 +3,22 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-04-29T13:50:40+00:00</updated>
+  <updated>2026-04-29T13:54:10+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/b471bbad9e4de3fbe2507d786269c39ae85bc660</id>
+    <title>chore: regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML)</title>
+    <link href="https://github.com/svend4/lorenzo/commit/b471bbad9e4de3fbe2507d786269c39ae85bc660"/>
+    <updated>2026-04-29T13:52:01+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>b471bbad</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/22c4cf8d984265807b8369ae6436d08889f4cd2f</id>
+    <title>feat: Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD</title>
+    <link href="https://github.com/svend4/lorenzo/commit/22c4cf8d984265807b8369ae6436d08889f4cd2f"/>
+    <updated>2026-04-29T13:51:18+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>feat: Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SKILL_DASHBOARD.md">docs/SKILL_DASHBOARD.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li></ul><p>Коммит: <code>22c4cf8d</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/093bb8c850911bb22ba51d76b9ea06b9956b6984</id>
     <title>chore: regenerate VALIDATION.md after rebase</title>
@@ -130,19 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/ef99f46a0683bfc0561f13cdcda207a539ca6304"/>
     <updated>2026-04-29T09:38:42+00:00</updated>
     <content type="html"><![CDATA[<p><strong>feat: применить auto-linker + gap-filler ко всей базе знаний</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/02-methodology.md">docs/01-svyazi/02-methodology.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/03-component-catalog.md">docs/01-svyazi/03-component-catalog.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/04-ensembles-overview.md">docs/01-svyazi/04-ensembles-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/06-security-privacy.md">docs/01-svyazi/06-security-privacy.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/07-mvp-planning.md">docs/01-svyazi/07-mvp-planning.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/08-conclusions.md">docs/01-svyazi/08-conclusions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/09-architectural-gaps.md">docs/01-svyazi/09-architectural-gaps.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/10-second-order-ensembles.md">docs/01-svyazi/10-second-order-ensembles.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/11-integration-contracts.md">docs/01-svyazi/11-integration-contracts.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/12-roadmap.md">docs/01-svyazi/12-roadmap.md</a></li></ul><p>Коммит: <code>ef99f46a</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/19398486ddbd1b756a737082e16281c5d4fd54a1</id>
-    <title>feat: improve_reading_list.py — BM25-список чтения по теме</title>
-    <link href="https://github.com/svend4/lorenzo/commit/19398486ddbd1b756a737082e16281c5d4fd54a1"/>
-    <updated>2026-04-29T09:38:32+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: improve_reading_list.py — BM25-список чтения по теме</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/READING_LIST.md">docs/READING_LIST.md</a></li></ul><p>Коммит: <code>19398486</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/7822b1306e67b4e623d68fd7cd831ed549fe4624</id>
-    <title>Extract Hermes Agent comparison and re-prioritization</title>
-    <link href="https://github.com/svend4/lorenzo/commit/7822b1306e67b4e623d68fd7cd831ed549fe4624"/>
-    <updated>2026-04-29T09:37:53+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>Extract Hermes Agent comparison and re-prioritization</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/README.md">docs/anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md">docs/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md">docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md">docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md">docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md">docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md">docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md">docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md">docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md">docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md</a></li></ul><p>Коммит: <code>7822b130</code></p>]]></content>
   </entry>
 </feed>

@@ -1,5 +1,45 @@
 # Каталог задач (TASKS_INDEX)
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> Этот файл автогенерируется из `tasks/*.task.yaml`. Не редактируйте вручную.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [По MCP-серверу](#по-mcp-серверу)
+  - [lorenzo-contacts (1)](#lorenzo-contacts-1)
+  - [lorenzo-graph (4)](#lorenzo-graph-4)
+  - [lorenzo-runner (5)](#lorenzo-runner-5)
+  - [lorenzo-search (3)](#lorenzo-search-3)
+- [Подробно](#подробно)
+  - [`audit-corpus`](#audit-corpus)
+  - [`compare`](#compare)
+  - [`daily-routine`](#daily-routine)
+  - [`find-contradictions`](#find-contradictions)
+  - [`find-gaps`](#find-gaps)
+  - [`generate-rfc`](#generate-rfc)
+  - [`plan-mvp`](#plan-mvp)
+  - [`search`](#search)
+  - [`summarize`](#summarize)
+  - [`synthesize`](#synthesize)
+  - [`track-decisions`](#track-decisions)
+  - [`weekly-review`](#weekly-review)
+  - [`write-contact`](#write-contact)
+
+---
+
+<!-- tags: architecture, roadmap, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 **Всего задач:** 13
@@ -284,4 +324,15 @@ _Обновлено: 2026-04-29_
 
 **Связанные скилы:** write-contact, propose-collaboration, status
 **Связанные шаблоны:** contact-outreach
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [REGISTRY](docs/REGISTRY.md)
+- [PROGRESS](docs/PROGRESS.md)
+- [DIGEST_AUTO](docs/DIGEST_AUTO.md)
+- [GITHUB_ISSUES](docs/GITHUB_ISSUES.md)
 

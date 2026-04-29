@@ -2,1055 +2,431 @@
 
 _Обновлено: 2026-04-29_
 
-**HEAD~10** (`55575ec`) → **HEAD** (`8164448`)
+**HEAD~10** (`e50208e`) → **HEAD** (`b471bba`)
 
-Изменено файлов: **1045** | Добавлено слов: **+704835** | Удалено слов: **-0**
+Изменено файлов: **416** | Добавлено слов: **+111612** | Удалено слов: **-7522**
 
 
-## ✅ Новые файлы (1045)
+## ✅ Новые файлы (34)
 
-- `docs/TABLES.md` (+72920 слов)
-- `docs/OUTLINE.md` (+28410 слов)
-- `docs/CONCEPTS.md` (+21530 слов)
-- `docs/QUESTIONS.md` (+20005 слов)
-- `docs/PARAGRAPH_QUALITY.md` (+12647 слов)
-- `docs/04-ai-collaborations/00-intro.md` (+11894 слов)
-- `docs/READABILITY.md` (+11132 слов)
-- `docs/READING_TIME.md` (+10586 слов)
-- `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` (+9138 слов)
-- `docs/02-anthropic-vacancies/00-intro.md` (+8581 слов)
-- `docs/ACTION_ITEMS.md` (+8281 слов)
-- `docs/HEADING_AUDIT.md` (+7715 слов)
-- `docs/05-habr-projects/memory/memnet.md` (+7546 слов)
-- `docs/SITEMAP.md` (+7460 слов)
-- `docs/SOURCE_MAP.md` (+7212 слов)
-- `docs/SCRIPTS_CATALOG.md` (+6810 слов)
-- `docs/02-anthropic-vacancies/165-closing.md` (+6548 слов)
-- `docs/EMPTY_SECTIONS.md` (+5241 слов)
+- `docs/HEADING_AUDIT.md` (+7852 слов)
+- `docs/SCRIPTS_CATALOG.md` (+7068 слов)
+- `docs/EMPTY_SECTIONS.md` (+5757 слов)
 - `docs/SUMMARIES.md` (+5146 слов)
-- `docs/READING_ORDER.md` (+4837 слов)
-- `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` (+4717 слов)
-- `docs/SEARCH.md` (+4659 слов)
-- `docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md` (+4200 слов)
-- `docs/02-anthropic-vacancies/README.md` (+3888 слов)
-- `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` (+3658 слов)
-- `docs/PRIORITIES.md` (+3506 слов)
-- `docs/LANGUAGE_STATS.md` (+3474 слов)
-- `docs/nautilus/transmission-box/01-completing-loop.md` (+3047 слов)
-- `docs/DUPLICATES.md` (+2902 слов)
-- `docs/nautilus/innovation-transitions/00-question-innovations-transitions.md` (+2875 слов)
-- `docs/nautilus/supply-demand/01-three-related-themes.md` (+2820 слов)
-- `docs/CLUSTERS.md` (+2760 слов)
-- `docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md` (+2661 слов)
-- `docs/nautilus/multi-tier-architecture/01-strategic-significance.md` (+2609 слов)
-- `docs/nautilus/representative-agent-layer-en/12-closing.md` (+2578 слов)
-- `docs/nautilus/community-discussions/voiceless-contributors/01-response.md` (+2476 слов)
-- `docs/DECISIONS.md` (+2470 слов)
-- `docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md` (+2424 слов)
-- `docs/nautilus/innovation-transitions/01-response.md` (+2383 слов)
-- `docs/lorenzo-agent/scenarios/01-response.md` (+2367 слов)
-- `docs/glossary/components-by-name.md` (+2150 слов)
-- `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` (+2019 слов)
-- `docs/nautilus/community-discussions/practical-observations/01-response.md` (+1809 слов)
-- `docs/TIMELINE.md` (+1778 слов)
+- `docs/LANGUAGE_STATS.md` (+3532 слов)
 - `docs/SIMILAR_PASSAGES.md` (+1711 слов)
-- `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` (+1650 слов)
-- `docs/KPI.md` (+1635 слов)
-- `docs/nautilus/double-triangle-architecture/11-glossary.md` (+1587 слов)
-- `docs/01-svyazi/03-component-catalog.md` (+1564 слов)
-- `docs/nautilus/representative-agent-layer-en/04-ten-domains.md` (+1562 слов)
-- `docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md` (+1550 слов)
-- `docs/CONTRADICTIONS.md` (+1547 слов)
-- `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (+1486 слов)
-- `docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md` (+1443 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md` (+1423 слов)
-- `docs/lorenzo-agent/naming/03-dhlab-umbrella.md` (+1408 слов)
-- `docs/nautilus/privacy-federation/03-what-this-gives-technically.md` (+1408 слов)
-- `docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md` (+1387 слов)
-- `docs/svyazi-2-0/overview/projects-map.md` (+1373 слов)
-- `docs/CHANGELOG.md` (+1329 слов)
-- `docs/01-svyazi/04-ensembles-overview.md` (+1277 слов)
-- `docs/LINKS.md` (+1267 слов)
-- `docs/nautilus/npp-v1-1/22-glossary.md` (+1260 слов)
-- `docs/02-anthropic-vacancies/69-section.md` (+1221 слов)
-- `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` (+1216 слов)
-- `docs/CODE_BLOCKS.md` (+1213 слов)
-- `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` (+1207 слов)
-- `docs/QA.md` (+1202 слов)
-- `docs/CONTENT_GAPS.md` (+1190 слов)
-- `docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` (+1153 слов)
-- `docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md` (+1153 слов)
-- `docs/NAMED_ENTITIES.md` (+1151 слов)
-- `docs/01-svyazi/07-mvp-planning.md` (+1143 слов)
-- `docs/nautilus/professional-colleague-agents-en/06-risks.md` (+1142 слов)
-- `docs/BROKEN_LINKS.md` (+1126 слов)
-- `docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md` (+1125 слов)
-- `docs/nautilus/professional-colleague-agents-ru/06-riski.md` (+1124 слов)
-- `docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md` (+1111 слов)
-- `docs/reading-paths.md` (+1108 слов)
-- `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` (+1058 слов)
-- `docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md` (+1049 слов)
-- `docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md` (+1022 слов)
-- `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` (+1015 слов)
-- `docs/FAQ.md` (+1009 слов)
-- `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` (+1006 слов)
-- `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` (+981 слов)
-- `docs/nautilus/review-methodology/16-glossary.md` (+972 слов)
-- `docs/NARRATIVE.md` (+965 слов)
-- `docs/nautilus/composite-skills-agents/08-seven-domains.md` (+958 слов)
-- `docs/anthropic-vacancies/hermes-comparison/13-reprioritization.md` (+954 слов)
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md` (+949 слов)
-- `docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` (+941 слов)
-- `docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md` (+941 слов)
-- `docs/ABBREVIATIONS.md` (+940 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md` (+939 слов)
-- `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` (+932 слов)
-- `docs/nautilus/composite-skills-agents/03-what-makes-csa.md` (+932 слов)
-- `docs/nautilus/okwf-concept/04-proposed-infrastructure.md` (+932 слов)
-- `docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md` (+929 слов)
-- `docs/01-svyazi/10-second-order-ensembles.md` (+924 слов)
-- `docs/01-svyazi/13-contacts.md` (+922 слов)
-- `docs/nautilus/representative-agent-layer-en/02-historical-precedents.md` (+915 слов)
-- `docs/01-svyazi/06-security-privacy.md` (+903 слов)
-- `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` (+902 слов)
-- `docs/01-svyazi/11-integration-contracts.md` (+900 слов)
-- `docs/01-svyazi/09-architectural-gaps.md` (+896 слов)
-- `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md` (+894 слов)
-- `docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md` (+887 слов)
-- `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` (+882 слов)
-- `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` (+877 слов)
-- `docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` (+869 слов)
-- `docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md` (+868 слов)
-- `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` (+867 слов)
-- `docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md` (+867 слов)
-- `docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md` (+862 слов)
-- `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (+861 слов)
-- `docs/nautilus/professional-colleague-agents-en/04-architecture.md` (+859 слов)
-- `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` (+847 слов)
-- `docs/02-anthropic-vacancies/68-about.md` (+846 слов)
-- `docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md` (+841 слов)
-- `docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md` (+840 слов)
-- `docs/glossary/concepts.md` (+835 слов)
-- `docs/CITATION_INDEX.md` (+830 слов)
-- `docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md` (+825 слов)
-- `docs/02-anthropic-vacancies/318-10-strategic-positioning.md` (+823 слов)
-- `docs/CROSSREFS.md` (+823 слов)
-- `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` (+819 слов)
-- `docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md` (+818 слов)
-- `docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md` (+817 слов)
-- `docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md` (+809 слов)
-- `docs/nautilus/ingit-cowork-en/03-ingit-provides.md` (+807 слов)
-- `docs/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md` (+807 слов)
-- `docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md` (+807 слов)
-- `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` (+805 слов)
-- `docs/TAGS.md` (+805 слов)
-- `docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md` (+805 слов)
-- `docs/03-technology-combinations/05-benchmarks.md` (+803 слов)
-- `docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` (+802 слов)
-- `docs/GITHUB_ISSUES.md` (+802 слов)
-- `docs/ai-collaborations/source-projects.md` (+802 слов)
-- `docs/02-anthropic-vacancies/164-10-appendices.md` (+796 слов)
-- `docs/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md` (+791 слов)
-- `docs/lorenzo-agent/phased-deployment/08-current-session-poc.md` (+790 слов)
-- `docs/02-anthropic-vacancies/144-7-open-questions.md` (+789 слов)
-- `docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md` (+788 слов)
-- `docs/01-svyazi/14-limitations.md` (+785 слов)
-- `docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md` (+784 слов)
-- `docs/nautilus/composite-skills-agents/04-sub-agent-registry.md` (+782 слов)
-- `docs/nautilus/composite-skills-agents/06-coordination-disagreement.md` (+779 слов)
-- `docs/02-anthropic-vacancies/145-8-call-to-action.md` (+773 слов)
-- `docs/README.md` (+773 слов)
-- `docs/02-anthropic-vacancies/218-7-application-domains.md` (+771 слов)
-- `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` (+770 слов)
-- `docs/03-technology-combinations/02-knowledge-graphs.md` (+770 слов)
-- `docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md` (+768 слов)
-- `docs/01-svyazi/12-roadmap.md` (+766 слов)
-- `docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` (+765 слов)
-- `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` (+764 слов)
-- `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` (+761 слов)
-- `docs/nautilus/composite-skills-agents/10-risks.md` (+758 слов)
-- `docs/01-svyazi/01-executive-summary.md` (+756 слов)
-- `docs/nautilus/composite-skills-agents/07-economics-combinatorial.md` (+752 слов)
-- `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` (+740 слов)
-- `docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md` (+738 слов)
-- `docs/nautilus/double-triangle-architecture/07-open-questions.md` (+737 слов)
-- `docs/nautilus/double-triangle-architecture/08-call-to-action.md` (+735 слов)
-- `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` (+729 слов)
-- `docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md` (+728 слов)
-- `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` (+727 слов)
-- `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` (+724 слов)
-- `docs/lorenzo-agent/operationalized/02-minuses-1-10.md` (+722 слов)
-- `docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md` (+722 слов)
-- `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md` (+719 слов)
-- `docs/04-ai-collaborations/01-executive-summary.md` (+716 слов)
-- `docs/nautilus/professional-colleague-agents-en/07-application-domains.md` (+715 слов)
-- `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` (+714 слов)
-- `docs/nautilus/composite-skills-agents/09-okwf-integration.md` (+713 слов)
-- `docs/nautilus/ingit-cowork-en/10-strategic-positioning.md` (+713 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md` (+711 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md` (+705 слов)
-- `docs/nautilus/composite-skills-agents/05-configuration-ensembles.md` (+705 слов)
-- `docs/nautilus/professional-colleague-agents-en/05-economics-replication.md` (+695 слов)
-- `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` (+693 слов)
-- `docs/02-anthropic-vacancies/156-2-target-populations.md` (+692 слов)
-- `docs/WORD_FREQ.md` (+692 слов)
-- `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` (+691 слов)
-- `docs/02-anthropic-vacancies/279-existing-approximations.md` (+688 слов)
-- `docs/nautilus/okwf-concept/03-why-existing-fail.md` (+685 слов)
-- `docs/nautilus/ingit-cowork-en/05-four-integration-paths.md` (+672 слов)
-- `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` (+671 слов)
-- `docs/svyazi-2-0/architecture/gaps.md` (+669 слов)
-- `docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md` (+668 слов)
-- `docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md` (+667 слов)
-- `docs/02-anthropic-vacancies/174-5-architectural-specification.md` (+666 слов)
-- `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` (+662 слов)
-- `docs/RISK_REGISTER.md` (+662 слов)
-- `docs/nautilus/ingit-cowork-en/01-cowork-discovery.md` (+662 слов)
-- `docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md` (+661 слов)
-- `docs/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md` (+659 слов)
-- `docs/02-anthropic-vacancies/162-8-risk-analysis.md` (+657 слов)
-- `docs/DEPENDENCY_MAP.md` (+655 слов)
-- `docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md` (+655 слов)
-- `docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md` (+654 слов)
-- `docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md` (+651 слов)
-- `docs/nautilus/composite-skills-agents/13-closing.md` (+651 слов)
-- `docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md` (+651 слов)
-- `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` (+647 слов)
-- `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` (+646 слов)
-- `docs/02-anthropic-vacancies/264-11-open-questions.md` (+646 слов)
-- `docs/nautilus/infrastructure-layer-b-en/07-specific-case.md` (+646 слов)
-- `docs/02-anthropic-vacancies/155-1-problem-statement.md` (+644 слов)
-- `docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md` (+644 слов)
-- `docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md` (+638 слов)
-- `docs/nautilus/okwf-concept/02-target-populations.md` (+637 слов)
-- `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` (+636 слов)
-- `docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md` (+636 слов)
-- `docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md` (+635 слов)
-- `docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md` (+634 слов)
-- `docs/nautilus/ingit-cowork-en/02-cowork-provides.md` (+630 слов)
-- `docs/glossary/authors-by-name.md` (+626 слов)
-- `docs/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md` (+626 слов)
-- `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` (+625 слов)
-- `docs/technology-combinations/combinations/19-multi-agent-observability-platform.md` (+625 слов)
-- `docs/nautilus/representative-agent-layer-en/05-architectural-specification.md` (+623 слов)
-- `docs/svyazi-2-0/prototype/roadmap.md` (+623 слов)
-- `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` (+622 слов)
-- `docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md` (+622 слов)
-- `docs/02-anthropic-vacancies/175-6-ethical-framework.md` (+621 слов)
-- `docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md` (+620 слов)
-- `docs/nautilus/ingit-cowork-ru/01-otkrytie-cowork.md` (+616 слов)
-- `docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md` (+615 слов)
-- `docs/nautilus/okwf-concept/10-appendices.md` (+613 слов)
-- `docs/nautilus/okwf-concept/08-risk-analysis.md` (+610 слов)
-- `docs/INDEX.md` (+609 слов)
-- `docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md` (+605 слов)
-- `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md` (+605 слов)
-- `docs/nautilus/README.md` (+604 слов)
-- `docs/02-anthropic-vacancies/159-5-economic-model.md` (+599 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md` (+598 слов)
-- `docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md` (+586 слов)
-- `docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md` (+584 слов)
-- `docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md` (+583 слов)
-- `docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md` (+581 слов)
-- `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md` (+580 слов)
-- `docs/nautilus/okwf-concept/07-phased-rollout.md` (+578 слов)
-- `docs/REPORT.md` (+576 слов)
-- `docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md` (+574 слов)
-- `docs/nautilus/transmission-box/00-question-mountain-to-person.md` (+573 слов)
-- `docs/nautilus/okwf-concept/01-problem-statement.md` (+572 слов)
-- `docs/nautilus/privacy-federation/02-two-tier-publication.md` (+571 слов)
-- `docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md` (+564 слов)
-- `docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md` (+562 слов)
-- `docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md` (+561 слов)
-- `docs/nautilus/representative-agent-layer-ru/08-riski-mery.md` (+558 слов)
-- `docs/nautilus/ingit-cowork-en/09-risks-open-questions.md` (+556 слов)
-- `docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md` (+554 слов)
-- `docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md` (+551 слов)
-- `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` (+549 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md` (+549 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md` (+548 слов)
-- `docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md` (+545 слов)
-- `docs/technology-combinations/combinations/14-local-first-agent-development-environment.md` (+542 слов)
-- `docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md` (+540 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md` (+532 слов)
-- `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` (+530 слов)
+- `docs/REGISTRY.md` (+1111 слов)
+- `docs/TASKS_INDEX.md` (+848 слов)
 - `docs/CROSS_SECTION.md` (+518 слов)
-- `docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md` (+517 слов)
-- `docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` (+514 слов)
-- `docs/technology-combinations/combinations/24-mega-integration-full-stack.md` (+512 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/00-intro.md` (+510 слов)
-- `docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` (+509 слов)
-- `docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md` (+500 слов)
-- `docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md` (+498 слов)
-- `docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md` (+498 слов)
-- `docs/nautilus/okwf-concept/05-economic-model.md` (+496 слов)
-- `docs/nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md` (+493 слов)
-- `docs/nautilus/professional-colleague-agents-en/12-closing.md` (+493 слов)
-- `docs/02-anthropic-vacancies/77-2-terminology.md` (+487 слов)
-- `docs/02-anthropic-vacancies/76-1-introduction.md` (+485 слов)
-- `docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md` (+483 слов)
-- `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` (+482 слов)
-- `docs/nautilus/npp-v1-0/18-comment-on-document.md` (+479 слов)
-- `docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md` (+478 слов)
-- `docs/nautilus/composite-skills-agents/11-open-questions.md` (+478 слов)
-- `docs/01-svyazi/02-methodology.md` (+476 слов)
-- `docs/svyazi-2-0/overview/executive-summary.md` (+475 слов)
-- `docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md` (+471 слов)
-- `docs/ai-collaborations/continuation/01-shared-memory-between-agents.md` (+470 слов)
-- `docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md` (+468 слов)
-- `docs/01-svyazi/08-conclusions.md` (+467 слов)
-- `docs/nautilus/supply-demand/00-question-supply-demand.md` (+467 слов)
-- `docs/technology-combinations/combinations/README.md` (+464 слов)
-- `docs/habr-unique-projects/extra-examples/00-question-habr-examples.md` (+463 слов)
-- `docs/nautilus/okwf-concept/06-governance-ethics.md` (+460 слов)
-- `docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md` (+459 слов)
-- `docs/COMPARE.md` (+458 слов)
-- `docs/nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md` (+458 слов)
-- `docs/02-anthropic-vacancies/221-10-open-questions.md` (+457 слов)
-- `docs/lorenzo-agent/operationalized/01-pluses-1-7.md` (+457 слов)
-- `docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md` (+455 слов)
-- `docs/02-anthropic-vacancies/180-11-call-for-collaboration.md` (+454 слов)
-- `docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md` (+454 слов)
-- `docs/nautilus/representative-agent-layer-en/06-ethical-framework.md` (+454 слов)
-- `docs/02-anthropic-vacancies/266-13-closing.md` (+452 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md` (+449 слов)
-- `docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md` (+448 слов)
-- `docs/02-anthropic-vacancies/136-abstract.md` (+444 слов)
-- `docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md` (+436 слов)
-- `docs/02-anthropic-vacancies/223-12-closing.md` (+435 слов)
-- `docs/02-anthropic-vacancies/319-acknowledgments.md` (+435 слов)
-- `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` (+434 слов)
-- `docs/habr-unique-projects/analogues/01-three-direct-analogues.md` (+433 слов)
-- `docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md` (+433 слов)
-- `docs/ai-collaborations/ensembles/5-agent-firewall.md` (+432 слов)
-- `docs/lorenzo-agent/operationalized/04-recommendations.md` (+431 слов)
-- `docs/02-anthropic-vacancies/179-10-open-questions.md` (+430 слов)
-- `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` (+430 слов)
-- `docs/CONTACTS.md` (+430 слов)
-- `docs/ai-collaborations/continuation/02-agentops-trace-envelope.md` (+430 слов)
-- `docs/03-technology-combinations/03-local-first.md` (+429 слов)
-- `docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md` (+428 слов)
-- `docs/02-anthropic-vacancies/268-references.md` (+427 слов)
-- `docs/ai-collaborations/ensembles/3-forensic-rag.md` (+425 слов)
-- `docs/02-anthropic-vacancies/281-the-recursive-insight.md` (+424 слов)
-- `docs/habr-unique-projects/README.md` (+423 слов)
-- `docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md` (+422 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md` (+422 слов)
-- `docs/nautilus/npp-v1-1/01-introduction.md` (+422 слов)
-- `docs/nautilus/okwf-concept/09-call-for-partnership.md` (+420 слов)
-- `docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md` (+419 слов)
-- `docs/nautilus/npp-v1-1/12-onboarding-paths.md` (+417 слов)
-- `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md` (+413 слов)
-- `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` (+412 слов)
-- `docs/habr-unique-projects/extra-examples/12-concrete-next-step.md` (+412 слов)
-- `docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` (+409 слов)
-- `docs/nautilus/representative-agent-layer-en/09-phased-rollout.md` (+409 слов)
-- `docs/ONBOARDING.md` (+408 слов)
-- `docs/STALENESS.md` (+408 слов)
-- `docs/02-anthropic-vacancies/83-8-q6-space-normative.md` (+403 слов)
-- `docs/nautilus/professional-colleague-agents-en/00-abstract.md` (+402 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md` (+401 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md` (+400 слов)
-- `docs/habr-unique-projects/analogues/02-related-projects.md` (+399 слов)
-- `docs/nautilus/double-triangle-architecture/00-abstract.md` (+399 слов)
-- `docs/SEE_ALSO.md` (+398 слов)
-- `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` (+396 слов)
-- `docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md` (+396 слов)
-- `docs/TASKS_INDEX.md` (+394 слов)
-- `docs/02-anthropic-vacancies/222-11-call-for-collaboration.md` (+393 слов)
-- `docs/nautilus/representative-agent-layer-en/07-governance-oversight.md` (+393 слов)
-- `docs/02-anthropic-vacancies/153-executive-summary.md` (+392 слов)
-- `docs/02-anthropic-vacancies/90-15-security-considerations.md` (+392 слов)
-- `docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md` (+392 слов)
-- `docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md` (+391 слов)
-- `docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md` (+388 слов)
-- `docs/svyazi-2-0/limitations/do-not-glue.md` (+388 слов)
-- `docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md` (+387 слов)
-- `docs/02-anthropic-vacancies/210-abstract.md` (+386 слов)
-- `docs/SIMILAR.md` (+385 слов)
-- `docs/02-anthropic-vacancies/07-2-terminology.md` (+383 слов)
-- `docs/02-anthropic-vacancies/147-references.md` (+382 слов)
-- `docs/02-anthropic-vacancies/252-abstract.md` (+382 слов)
-- `docs/nautilus/representative-agent-layer-en/10-open-questions.md` (+382 слов)
-- `docs/DIGEST.md` (+381 слов)
-- `docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md` (+381 слов)
-- `docs/technology-combinations/synthesis-tables/01-08-summary.md` (+381 слов)
-- `docs/02-anthropic-vacancies/80-5-compatibility-levels.md` (+380 слов)
-- `docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md` (+379 слов)
-- `docs/habr-unique-projects/deep-pairs/2-document-rag.md` (+377 слов)
-- `docs/lorenzo-agent/specification/01-q1-what-lorenzo-is.md` (+377 слов)
-- `docs/nautilus/npp-v1-1/03-registry.md` (+377 слов)
-- `docs/svyazi-2-0/limitations/conclusions.md` (+377 слов)
-- `docs/templates/README.md` (+377 слов)
-- `docs/02-anthropic-vacancies/307-abstract.md` (+376 слов)
-- `docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md` (+376 слов)
-- `docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md` (+375 слов)
-- `docs/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md` (+374 слов)
-- `docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md` (+373 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md` (+372 слов)
-- `docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md` (+372 слов)
-- `docs/ai-collaborations/candidates/01-three-key-candidates.md` (+371 слов)
-- `docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md` (+371 слов)
-- `docs/svyazi-2-0/security/default-policy.md` (+371 слов)
-- `docs/02-anthropic-vacancies/06-1-introduction.md` (+370 слов)
-- `docs/nautilus/npp-v1-1/02-terminology.md` (+370 слов)
-- `docs/nautilus/representative-agent-layer-en/00-abstract.md` (+370 слов)
-- `docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md` (+368 слов)
-- `docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md` (+366 слов)
-- `docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md` (+366 слов)
-- `docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` (+365 слов)
-- `docs/02-anthropic-vacancies/275-why-this-document-exists.md` (+365 слов)
-- `docs/nautilus/ingit-cowork-en/07-practical-first-steps.md` (+365 слов)
-- `docs/ai-collaborations/ensembles/6-continuous-eval-loop.md` (+364 слов)
-- `docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md` (+363 слов)
-- `docs/CONSISTENCY.md` (+362 слов)
-- `docs/TECH_RADAR.md` (+362 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md` (+362 слов)
-- `docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md` (+362 слов)
-- `docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md` (+361 слов)
-- `docs/nautilus/privacy-federation/04-what-i-can-do-now.md` (+361 слов)
-- `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` (+360 слов)
-- `docs/VOCABULARY.md` (+359 слов)
-- `docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md` (+359 слов)
-- `docs/02-anthropic-vacancies/18-6-adapter-interface.md` (+357 слов)
-- `docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md` (+357 слов)
-- `docs/02-anthropic-vacancies/79-4-passport-passport-md.md` (+356 слов)
-- `docs/nautilus/okwf-concept/00-abstract.md` (+354 слов)
-- `docs/nautilus/npp-v1-1/00-abstract-status.md` (+353 слов)
-- `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md` (+352 слов)
-- `docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md` (+352 слов)
-- `docs/nautilus/composite-skills-agents/12-call-for-collaboration.md` (+352 слов)
-- `docs/nautilus/review-methodology/09-limitations-open-questions.md` (+351 слов)
-- `docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md` (+350 слов)
-- `docs/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md` (+350 слов)
-- `docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md` (+349 слов)
-- `docs/KEYWORD_INDEX.md` (+348 слов)
-- `docs/habr-unique-projects/hardware-pairs/7-metaphor.md` (+348 слов)
-- `docs/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md` (+347 слов)
-- `docs/02-anthropic-vacancies/168-abstract.md` (+346 слов)
-- `docs/02-anthropic-vacancies/267-acknowledgments.md` (+346 слов)
-- `docs/02-anthropic-vacancies/183-references.md` (+342 слов)
-- `docs/ai-collaborations/continuation/05-roadmap-6-12-months.md` (+342 слов)
-- `docs/DIGEST_AUTO.md` (+341 слов)
-- `docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md` (+341 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md` (+338 слов)
-- `docs/05-habr-projects/memory/ngt-memory.md` (+337 слов)
-- `docs/nautilus/review-methodology/03-consolidation-principles.md` (+337 слов)
-- `docs/svyazi-2-0/security/budget-routing.md` (+337 слов)
-- `docs/02-anthropic-vacancies/148-appendix-a-glossary.md` (+336 слов)
-- `docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md` (+336 слов)
-- `docs/nautilus/professional-colleague-agents-en/10-open-questions.md` (+336 слов)
-- `docs/svyazi-2-0/outreach/narrow-questions.md` (+336 слов)
-- `docs/02-anthropic-vacancies/225-references.md` (+334 слов)
-- `docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md` (+333 слов)
-- `docs/lorenzo-agent/10-collaborators-landscape.md` (+333 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md` (+333 слов)
-- `docs/02-anthropic-vacancies/287-references.md` (+332 слов)
-- `docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md` (+332 слов)
-- `docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md` (+331 слов)
-- `docs/02-anthropic-vacancies/82-7-portalentry-structure.md` (+330 слов)
-- `docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md` (+330 слов)
-- `docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md` (+329 слов)
-- `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` (+328 слов)
-- `docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md` (+328 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md` (+328 слов)
-- `docs/svyazi-2-0/architecture/integration-spec.md` (+328 слов)
-- `docs/svyazi-2-0/prototype/risks.md` (+327 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md` (+326 слов)
-- `docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md` (+325 слов)
-- `docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md` (+325 слов)
-- `docs/nautilus/privacy-federation/00-question-anonymization.md` (+325 слов)
-- `docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md` (+324 слов)
-- `docs/CHANGELOG_AUTO.md` (+322 слов)
-- `docs/ENTITIES.md` (+322 слов)
-- `docs/nautilus/review-methodology/01-context-motivation.md` (+321 слов)
-- `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md` (+320 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md` (+320 слов)
-- `docs/nautilus/professional-colleague-agents-ru/10-otkrytye-voprosy.md` (+319 слов)
-- `docs/02-anthropic-vacancies/285-closing.md` (+318 слов)
-- `docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md` (+318 слов)
-- `docs/nautilus/review-methodology/06-relation-existing-methodologies.md` (+318 слов)
-- `docs/svyazi-2-0/prototype/mvp-plan.md` (+318 слов)
-- `docs/habr-unique-projects/deep-pairs/1-llm-gateway.md` (+316 слов)
-- `docs/lorenzo-agent/naming/01-search-results-not-found.md` (+316 слов)
-- `docs/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md` (+315 слов)
-- `docs/02-anthropic-vacancies/81-6-adapter-interface.md` (+313 слов)
-- `docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md` (+313 слов)
-- `docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md` (+313 слов)
-- `docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md` (+312 слов)
-- `docs/habr-unique-projects/key-findings/04-dochkina-sequential.md` (+312 слов)
-- `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` (+310 слов)
-- `docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` (+310 слов)
-- `docs/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md` (+310 слов)
-- `docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md` (+310 слов)
-- `docs/anthropic-vacancies/overview.md` (+309 слов)
-- `docs/ai-collaborations/continuation/08-commercialization-three-paths.md` (+307 слов)
-- `docs/nautilus/npp-v1-1/08-q6-space.md` (+307 слов)
-- `docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md` (+307 слов)
-- `docs/02-anthropic-vacancies/QA.md` (+305 слов)
-- `docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md` (+305 слов)
-- `docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md` (+303 слов)
-- `docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md` (+302 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md` (+302 слов)
-- `docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md` (+301 слов)
-- `docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md` (+301 слов)
-- `docs/svyazi-2-0/overview/methodology.md` (+301 слов)
-- `docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md` (+300 слов)
-- `docs/lorenzo-agent/specification/04-q4-character.md` (+300 слов)
-- `docs/svyazi-2-0/limitations/license-tree.md` (+300 слов)
-- `docs/nautilus/double-triangle-architecture/10-references.md` (+295 слов)
-- `docs/ai-collaborations/fast-tracks/README.md` (+294 слов)
-- `docs/02-anthropic-vacancies/74-abstract.md` (+293 слов)
-- `docs/SPELLCHECK.md` (+293 слов)
-- `docs/svyazi-2-0/overview/continuation-intro.md` (+293 слов)
-- `docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` (+292 слов)
-- `docs/03-technology-combinations/01-agent-routing.md` (+292 слов)
-- `docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md` (+292 слов)
-- `docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md` (+292 слов)
-- `docs/nautilus/npp-v1-1/13-rest-api.md` (+291 слов)
-- `docs/nautilus/npp-v1-1/05-compatibility-levels.md` (+289 слов)
-- `docs/svyazi-2-0/outreach/first-contacts.md` (+289 слов)
-- `docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md` (+288 слов)
-- `docs/02-anthropic-vacancies/85-10-query-flow.md` (+287 слов)
-- `docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md` (+286 слов)
-- `docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md` (+286 слов)
-- `docs/02-anthropic-vacancies/92-17-versioning-policy.md` (+285 слов)
-- `docs/BACKLINKS.md` (+284 слов)
-- `docs/ai-collaborations/continuation/09-do-not-glue.md` (+284 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md` (+284 слов)
-- `docs/02-anthropic-vacancies/20-8-consensus-algorithm.md` (+281 слов)
-- `docs/nautilus/npp-v1-0/01-introduction.md` (+281 слов)
-- `docs/technology-combinations/research-reports/continuation-10-domains.md` (+281 слов)
-- `docs/COMPONENT_MATRIX.md` (+280 слов)
-- `docs/ai-collaborations/ensembles/9-ambient-team-agent.md` (+280 слов)
-- `docs/nautilus/professional-colleague-agents-en/11-call-for-collaboration.md` (+280 слов)
-- `docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md` (+279 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md` (+278 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md` (+278 слов)
-- `docs/nautilus/npp-v1-1/15-security.md` (+278 слов)
-- `docs/habr-unique-projects/software-pairs/6-metaphor.md` (+276 слов)
-- `docs/COST.md` (+275 слов)
-- `docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md` (+275 слов)
-- `docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md` (+274 слов)
-- `docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md` (+274 слов)
-- `docs/02-anthropic-vacancies/146-acknowledgments.md` (+273 слов)
-- `docs/habr-unique-projects/final-ensembles/4-summary-authors.md` (+272 слов)
-- `docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md` (+271 слов)
-- `docs/nautilus/professional-colleague-agents-ru/11-prizyv-k-sotrudnichestvu.md` (+271 слов)
-- `docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md` (+271 слов)
-- `docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md` (+270 слов)
-- `docs/lorenzo-agent/specification/10-q10-funding-model.md` (+270 слов)
-- `docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md` (+270 слов)
-- `docs/02-anthropic-vacancies/181-12-closing.md` (+269 слов)
-- `docs/02-anthropic-vacancies/23-11-security-considerations.md` (+269 слов)
-- `docs/habr-unique-projects/key-findings/01-yodoca.md` (+269 слов)
-- `docs/nautilus/review-methodology/08-implementation-nautilus.md` (+269 слов)
-- `docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md` (+269 слов)
-- `docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md` (+269 слов)
-- `docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md` (+268 слов)
-- `docs/nautilus/review-methodology/04-fallback-ratio-question.md` (+268 слов)
-- `docs/svyazi-2-0/ensembles/D-voice-first-mesh.md` (+268 слов)
-- `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` (+267 слов)
-- `docs/svyazi-2-0/ensembles/G-federated-local-graph.md` (+267 слов)
-- `docs/nautilus/npp-v1-0/08-consensus-algorithm.md` (+266 слов)
-- `docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md` (+265 слов)
-- `docs/anthropic-vacancies/signals.md` (+264 слов)
-- `docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md` (+264 слов)
-- `docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md` (+262 слов)
-- `docs/lorenzo-agent/05-tvoya-lichnost.md` (+261 слов)
-- `docs/nautilus/review-methodology/02-formal-workflow.md` (+261 слов)
-- `docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md` (+261 слов)
-- `docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md` (+261 слов)
-- `docs/lorenzo-agent/specification/05-q5-authority-limits.md` (+260 слов)
-- `docs/02-anthropic-vacancies/84-9-consensus-algorithm.md` (+258 слов)
-- `docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md` (+258 слов)
-- `docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md` (+258 слов)
-- `docs/COMPLEXITY.md` (+257 слов)
-- `docs/nautilus/community-discussions/practical-observations/00-question-practical.md` (+257 слов)
-- `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md` (+256 слов)
-- `docs/nautilus/npp-v1-0/02-terminology.md` (+256 слов)
-- `docs/nautilus/npp-v1-1/04-passport.md` (+256 слов)
-- `docs/nautilus/review-methodology/05-conditions-of-applicability.md` (+255 слов)
-- `docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md` (+254 слов)
-- `docs/lorenzo-agent/naming/00-question-lorenzo-codename.md` (+254 слов)
-- `docs/MISSING.md` (+252 слов)
-- `docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md` (+252 слов)
-- `docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md` (+252 слов)
-- `docs/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md` (+248 слов)
-- `docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md` (+248 слов)
-- `docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md` (+247 слов)
-- `docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md` (+247 слов)
-- `docs/technology-combinations/combinations/22-russian-international-oss-stack.md` (+246 слов)
-- `docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md` (+245 слов)
-- `docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md` (+245 слов)
-- `docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` (+244 слов)
-- `docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md` (+244 слов)
-- `docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md` (+244 слов)
-- `docs/nautilus/review-methodology/10-checklist.md` (+244 слов)
-- `docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md` (+243 слов)
-- `docs/svyazi-2-0/ensembles/C-multi-agent-factory.md` (+243 слов)
-- `docs/METRICS.md` (+242 слов)
-- `docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md` (+242 слов)
-- `docs/lorenzo-agent/specification/07-q7-success-metrics.md` (+242 слов)
-- `docs/svyazi-2-0/outreach/message-template.md` (+242 слов)
-- `docs/ai-collaborations/candidates/02-related-projects-context.md` (+241 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md` (+241 слов)
-- `docs/habr-unique-projects/key-findings/02-memnet.md` (+241 слов)
-- `docs/svyazi-2-0/architecture/evidence-envelope.md` (+241 слов)
-- `docs/svyazi-2-0/ensembles/A-collaboration-os.md` (+241 слов)
-- `docs/02-anthropic-vacancies/286-acknowledgments.md` (+240 слов)
-- `docs/svyazi-2-0/ensembles/E-execution-plane.md` (+240 слов)
-- `docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md` (+239 слов)
-- `docs/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md` (+239 слов)
-- `docs/nautilus/infrastructure-layer-b-en/10-what-not-solved.md` (+238 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md` (+237 слов)
-- `docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md` (+237 слов)
-- `docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md` (+237 слов)
-- `docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md` (+236 слов)
-- `docs/svyazi-2-0/ensembles/B-forensic-rag.md` (+236 слов)
-- `docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md` (+235 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md` (+235 слов)
-- `docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md` (+235 слов)
-- `docs/05-habr-projects/02-collaboration-partners.md` (+234 слов)
-- `docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md` (+233 слов)
-- `docs/lorenzo-agent/specification/06-q6-accountability.md` (+232 слов)
-- `docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md` (+232 слов)
-- `docs/nautilus/npp-v1-0/03-registry.md` (+232 слов)
-- `docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md` (+231 слов)
-- `docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md` (+231 слов)
-- `docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md` (+231 слов)
-- `docs/lorenzo-agent/13-outreach-communication.md` (+231 слов)
-- `docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md` (+231 слов)
-- `docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md` (+230 слов)
-- `docs/nautilus/double-triangle-architecture/09-acknowledgments.md` (+230 слов)
-- `docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md` (+230 слов)
-- `docs/COVERAGE.md` (+229 слов)
-- `docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md` (+228 слов)
-- `docs/lorenzo-agent/specification/00-context-fundamental-questions.md` (+228 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md` (+228 слов)
-- `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md` (+227 слов)
-- `docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md` (+226 слов)
-- `docs/nautilus/multi-tier-architecture/00-question-multi-tier.md` (+226 слов)
-- `docs/nautilus/review-methodology/07-why-valid-for-ai.md` (+226 слов)
-- `docs/technology-combinations/research-reports/sozialrecht-35-combinations.md` (+226 слов)
-- `docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md` (+225 слов)
-- `docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md` (+225 слов)
-- `docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md` (+225 слов)
-- `docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` (+224 слов)
-- `docs/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md` (+224 слов)
-- `docs/technology-combinations/README.md` (+224 слов)
-- `docs/KNOWLEDGE_MAP.md` (+223 слов)
-- `docs/ai-collaborations/continuation/06-metrics-tree.md` (+223 слов)
-- `docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md` (+223 слов)
-- `docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md` (+223 слов)
-- `docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md` (+222 слов)
-- `docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md` (+222 слов)
-- `docs/nautilus/npp-v1-1/10-query-flow.md` (+221 слов)
-- `docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md` (+221 слов)
-- `docs/templates/agent-spec.md` (+221 слов)
-- `docs/VALIDATION.md` (+220 слов)
-- `docs/habr-unique-projects/extra-examples/09-federated-platform.md` (+220 слов)
-- `docs/technology-combinations/combinations/09-agent-orchestration-stack.md` (+220 слов)
-- `docs/technology-combinations/synthesis-tables/31-35-final.md` (+220 слов)
-- `docs/templates/prototype-mvp.md` (+220 слов)
-- `docs/02-anthropic-vacancies/40-bridges.md` (+218 слов)
-- `docs/04-ai-collaborations/QA.md` (+218 слов)
-- `docs/02-anthropic-vacancies/224-acknowledgments.md` (+217 слов)
-- `docs/nautilus/npp-v1-1/06-adapter-interface.md` (+216 слов)
-- `docs/nautilus/npp-v1-1/07-portal-entry.md` (+216 слов)
-- `docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md` (+216 слов)
-- `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` (+215 слов)
-- `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md` (+215 слов)
-- `docs/nautilus/npp-v1-1/17-versioning-policy.md` (+215 слов)
-- `docs/templates/template-of-templates.md` (+215 слов)
-- `docs/02-anthropic-vacancies/21-9-query-flow.md` (+214 слов)
-- `docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` (+213 слов)
+- `docs/DIGEST_AUTO.md` (+272 слов)
+- `docs/templates/prototype-mvp.md` (+242 слов)
+- `docs/templates/agent-spec.md` (+226 слов)
+- `docs/KNOWLEDGE_MAP.md` (+222 слов)
+- `docs/templates/template-of-templates.md` (+220 слов)
 - `docs/READING_LIST.md` (+213 слов)
-- `docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` (+212 слов)
-- `docs/technology-combinations/synthesis-tables/20-24-final.md` (+211 слов)
-- `docs/technology-combinations/synthesis-tables/25-30-extended.md` (+211 слов)
-- `docs/lorenzo-agent/06-yazyki-kultura.md` (+210 слов)
-- `docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` (+209 слов)
-- `docs/05-habr-projects/memory/yodoca.md` (+209 слов)
-- `docs/LLM_SUMMARIES.md` (+209 слов)
-- `docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md` (+208 слов)
-- `docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md` (+208 слов)
-- `docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` (+207 слов)
-- `docs/03-technology-combinations/04-sozialrecht-domain.md` (+207 слов)
-- `docs/lorenzo-agent/11-dhlab-documents.md` (+207 слов)
-- `docs/technology-combinations/combinations/13-legal-document-transpiler.md` (+207 слов)
-- `docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md` (+206 слов)
-- `docs/02-anthropic-vacancies/182-acknowledgments.md` (+205 слов)
-- `docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md` (+205 слов)
-- `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md` (+205 слов)
-- `docs/lorenzo-agent/scenarios/00-question-scenario.md` (+205 слов)
-- `docs/nautilus/infrastructure-layer-b-en/12-closing.md` (+205 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md` (+204 слов)
-- `docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md` (+204 слов)
-- `docs/lorenzo-agent/12-workflow.md` (+204 слов)
-- `docs/templates/protocol-spec.md` (+204 слов)
-- `docs/02-anthropic-vacancies/320-references.md` (+203 слов)
-- `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md` (+203 слов)
-- `docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md` (+203 слов)
-- `docs/nautilus/review-methodology/00-tldr.md` (+203 слов)
-- `docs/svyazi-2-0/components/security-routing-plane.md` (+203 слов)
-- `docs/technology-combinations/synthesis-tables/09-14-extended.md` (+203 слов)
-- `docs/ai-collaborations/continuation/10-architecture-rfc.md` (+202 слов)
-- `docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md` (+202 слов)
-- `docs/nautilus/npp-v1-1/09-consensus-algorithm.md` (+202 слов)
-- `docs/nautilus/review-methodology/13-appendix-b-examples.md` (+202 слов)
-- `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` (+201 слов)
-- `docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md` (+201 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md` (+200 слов)
-- `docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md` (+200 слов)
-- `docs/02-anthropic-vacancies/93-18-reference-implementation.md` (+199 слов)
-- `docs/technology-combinations/combinations/12-multi-agent-observability-stack.md` (+199 слов)
-- `docs/02-anthropic-vacancies/24-12-versioning-policy.md` (+198 слов)
-- `docs/04-ai-collaborations/README.md` (+198 слов)
-- `docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md` (+198 слов)
-- `docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md` (+198 слов)
-- `docs/nautilus/npp-v1-0/05-compatibility-levels.md` (+197 слов)
-- `docs/nautilus/npp-v1-0/11-security-considerations.md` (+197 слов)
-- `docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md` (+196 слов)
-- `docs/lorenzo-agent/phased-deployment/01-level-0-manual.md` (+196 слов)
-- `docs/05-habr-projects/knowledge/wikontic.md` (+195 слов)
-- `docs/AUTOFILLED.md` (+195 слов)
-- `docs/lorenzo-agent/operationalized/03-honest-opinion.md` (+195 слов)
-- `docs/lorenzo-agent/phased-deployment/07-progression-logic.md` (+195 слов)
-- `docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md` (+195 слов)
-- `docs/templates/mega-stack.md` (+195 слов)
-- `docs/nautilus/npp-v1-0/06-adapter-interface.md` (+194 слов)
-- `docs/02-anthropic-vacancies/46-essence.md` (+193 слов)
-- `docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md` (+193 слов)
-- `docs/nautilus/npp-v1-0/00-abstract-status.md` (+193 слов)
-- `docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md` (+193 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md` (+192 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md` (+192 слов)
-- `docs/lorenzo-agent/14-other-ai-relationships.md` (+192 слов)
-- `docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md` (+191 слов)
-- `docs/nautilus/npp-v1-0/09-query-flow.md` (+190 слов)
-- `docs/svyazi-2-0/architecture/card-envelope.md` (+190 слов)
-- `docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md` (+189 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md` (+189 слов)
-- `docs/lorenzo-agent/QA.md` (+189 слов)
-- `docs/nautilus/review-methodology/11-application-plan-current-docs.md` (+189 слов)
-- `docs/technology-combinations/mega-stacks/01-legal-ai-stack.md` (+189 слов)
-- `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` (+188 слов)
-- `docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` (+188 слов)
-- `docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md` (+188 слов)
-- `docs/svyazi-2-0/architecture/memory-write-policy.md` (+187 слов)
-- `docs/svyazi-2-0/architecture/skill-tool-policy.md` (+187 слов)
-- `docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md` (+186 слов)
-- `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md` (+186 слов)
-- `docs/lorenzo-agent/phased-deployment/00-overview.md` (+186 слов)
-- `docs/02-anthropic-vacancies/19-7-portalentry-structure.md` (+185 слов)
-- `docs/02-anthropic-vacancies/48-content-overview.md` (+184 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md` (+184 слов)
-- `docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md` (+184 слов)
-- `docs/lorenzo-agent/02-tvoyo-proishozhdenie.md` (+184 слов)
-- `docs/02-anthropic-vacancies/50-bridges.md` (+183 слов)
-- `docs/02-anthropic-vacancies/56-essence.md` (+183 слов)
-- `docs/FOOTNOTES.md` (+183 слов)
-- `docs/lorenzo-agent/README.md` (+183 слов)
-- `docs/lorenzo-agent/19-persistent-character.md` (+182 слов)
-- `docs/templates/tech-pair.md` (+182 слов)
-- `docs/SENTIMENT.md` (+181 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md` (+181 слов)
-- `docs/02-anthropic-vacancies/36-essence.md` (+180 слов)
-- `docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md` (+180 слов)
-- `docs/lorenzo-agent/15-anti-patterns.md` (+180 слов)
-- `docs/02-anthropic-vacancies/39-angle-perspective.md` (+179 слов)
-- `docs/02-anthropic-vacancies/27-15-glossary-of-examples.md` (+178 слов)
-- `docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md` (+178 слов)
-- `docs/technology-combinations/synthesis-tables/15-19-extended.md` (+178 слов)
-- `docs/02-anthropic-vacancies/211-table-of-contents.md` (+177 слов)
-- `docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md` (+176 слов)
-- `docs/nautilus/npp-v1-1/16-mcp-extension.md` (+175 слов)
-- `docs/01-svyazi/QA.md` (+174 слов)
-- `docs/02-anthropic-vacancies/123-portal-mcp-py.md` (+174 слов)
-- `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` (+174 слов)
-- `docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md` (+174 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md` (+173 слов)
-- `docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md` (+172 слов)
-- `docs/nautilus/npp-v1-0/12-versioning-policy.md` (+172 слов)
-- `docs/templates/legal-case.md` (+171 слов)
-- `docs/02-anthropic-vacancies/37-native-format.md` (+170 слов)
-- `docs/lorenzo-agent/01-kto-ty.md` (+170 слов)
-- `docs/nautilus/npp-v1-1/18-reference-implementation.md` (+170 слов)
-- `docs/02-anthropic-vacancies/137-table-of-contents.md` (+169 слов)
-- `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` (+169 слов)
-- `docs/lorenzo-agent/04-komu-ty-sluzhish.md` (+169 слов)
-- `docs/lorenzo-agent/08-bez-max-approval.md` (+169 слов)
-- `docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md` (+169 слов)
-- `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` (+168 слов)
-- `docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md` (+168 слов)
-- `docs/02-anthropic-vacancies/106-tl-dr.md` (+166 слов)
-- `docs/02-anthropic-vacancies/75-0-status-of-this-document.md` (+166 слов)
-- `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md` (+166 слов)
-- `docs/lorenzo-agent/03-tvoya-missiya.md` (+165 слов)
-- `docs/lorenzo-agent/07-chto-mozhesh.md` (+165 слов)
-- `docs/NETWORK.md` (+164 слов)
-- `docs/02-anthropic-vacancies/60-bridges.md` (+163 слов)
-- `docs/contacts/andrey-chuyan.md` (+163 слов)
-- `docs/lorenzo-agent/20-experiment.md` (+163 слов)
-- `docs/nautilus/npp-v1-1/README.md` (+163 слов)
-- `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` (+162 слов)
-- `docs/anthropic-vacancies/clusters/02-sales.md` (+162 слов)
-- `docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md` (+162 слов)
-- `docs/lorenzo-agent/09-voobshche-nelzya.md` (+162 слов)
-- `docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md` (+162 слов)
-- `docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md` (+162 слов)
-- `docs/nautilus/infrastructure-layer-b-en/00-intro.md` (+161 слов)
-- `docs/02-anthropic-vacancies/53-history.md` (+160 слов)
-- `docs/habr-unique-projects/final-ensembles/3-discovery-research.md` (+160 слов)
-- `docs/contacts/anastasiyaw.md` (+159 слов)
-- `docs/contacts/spbmolot.md` (+159 слов)
-- `docs/svyazi-2-0/security/privacy.md` (+159 слов)
-- `docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md` (+158 слов)
-- `docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md` (+158 слов)
-- `docs/nautilus/review-methodology/14-main-technical-risks.md` (+158 слов)
-- `docs/templates/tech-radar-entry.md` (+158 слов)
-- `docs/02-anthropic-vacancies/308-table-of-contents.md` (+157 слов)
-- `docs/02-anthropic-vacancies/59-angle-perspective.md` (+157 слов)
-- `docs/nautilus/npp-v1-1/14-sdk.md` (+157 слов)
-- `docs/02-anthropic-vacancies/03-portal-protocol-md.md` (+155 слов)
-- `docs/svyazi-2-0/README.md` (+155 слов)
-- `docs/nautilus/npp-v1-0/15-glossary.md` (+154 слов)
-- `docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md` (+153 слов)
-- `docs/contacts/nlaik.md` (+153 слов)
-- `docs/contacts/sonia-black.md` (+153 слов)
-- `docs/contacts/vitalyoborin.md` (+152 слов)
-- `docs/templates/contradiction-record.md` (+152 слов)
-- `docs/DENSITY.md` (+151 слов)
-- `docs/PASSIVE_VOICE.md` (+151 слов)
-- `docs/PROGRESS.md` (+151 слов)
-- `docs/nautilus/review-methodology/12-appendix-a-header-warning.md` (+151 слов)
-- `docs/CONTACT_PRIORITY.md` (+150 слов)
-- `docs/svyazi-2-0/components/agent-memory-mcp.md` (+150 слов)
-- `docs/02-anthropic-vacancies/253-table-of-contents.md` (+149 слов)
-- `docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` (+149 слов)
-- `docs/anthropic-vacancies/clusters/01-ai-research-engineering.md` (+149 слов)
-- `docs/02-anthropic-vacancies/49-angle-perspective.md` (+148 слов)
-- `docs/contacts/kksudo.md` (+148 слов)
-- `docs/HEATMAP.md` (+146 слов)
-- `docs/WORD_CLOUD.md` (+146 слов)
-- `docs/lorenzo-agent/17-honestly-ne-znaesh.md` (+146 слов)
-- `docs/templates/risk-entry.md` (+146 слов)
-- `docs/02-anthropic-vacancies/86-11-relevance-ranking.md` (+145 слов)
-- `docs/03-technology-combinations/QA.md` (+145 слов)
-- `docs/contacts/antipozitive.md` (+145 слов)
-- `docs/lorenzo-agent/18-escalate-to-max.md` (+145 слов)
-- `docs/svyazi-2-0/components/self-aware-mcp.md` (+145 слов)
-- `docs/templates/rfc.md` (+145 слов)
-- `docs/02-anthropic-vacancies/52-author-contact.md` (+144 слов)
-- `docs/02-anthropic-vacancies/63-history.md` (+143 слов)
-- `docs/nautilus/npp-v1-0/README.md` (+143 слов)
-- `docs/nautilus/review-methodology/README.md` (+143 слов)
-- `docs/02-anthropic-vacancies/04-abstract.md` (+142 слов)
-- `docs/02-anthropic-vacancies/25-13-reference-implementation.md` (+142 слов)
-- `docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md` (+142 слов)
-- `docs/02-anthropic-vacancies/65-readme-md.md` (+142 слов)
-- `docs/nautilus/npp-v1-0/04-passport.md` (+142 слов)
-- `docs/svyazi-2-0/components/voice-stack.md` (+140 слов)
-- `docs/nautilus/npp-v1-1/11-relevance-ranking.md` (+139 слов)
-- `docs/contacts/mixaill76.md` (+138 слов)
-- `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` (+137 слов)
-- `docs/02-anthropic-vacancies/169-table-of-contents.md` (+137 слов)
-- `docs/02-anthropic-vacancies/22-10-queryresult-structure.md` (+137 слов)
-- `docs/lorenzo-agent/16-vsegda-delaesh.md` (+137 слов)
-- `docs/anthropic-vacancies/hermes-comparison/README.md` (+136 слов)
-- `docs/anthropic-vacancies/profile-mapping/README.md` (+136 слов)
-- `docs/contacts/tagir-analyzes.md` (+136 слов)
-- `docs/contacts/vladspace.md` (+136 слов)
-- `docs/nautilus/professional-colleague-agents-ru/00-abstract.md` (+136 слов)
-- `docs/technology-combinations/mega-stacks/03-dsl-ast.md` (+136 слов)
-- `docs/anthropic-vacancies/clusters/03-finance.md` (+135 слов)
-- `docs/contacts/cutcode.md` (+134 слов)
-- `docs/nautilus/npp-v1-0/10-query-result.md` (+134 слов)
-- `docs/svyazi-2-0/components/autoresearch-sequential.md` (+134 слов)
-- `docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md` (+132 слов)
-- `docs/contacts/zodigancode.md` (+132 слов)
-- `docs/svyazi-2-0/components/README.md` (+132 слов)
-- `docs/nautilus/npp-v1-0/07-portal-entry.md` (+131 слов)
-- `docs/nautilus/npp-v1-0/13-reference-implementation.md` (+131 слов)
-- `docs/contacts/dmitriila.md` (+130 слов)
-- `docs/templates/project-component.md` (+130 слов)
-- `docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md` (+129 слов)
-- `docs/SCORING.md` (+129 слов)
-- `docs/templates/experiment-log.md` (+129 слов)
-- `docs/nautilus/representative-agent-layer-ru/00-abstract.md` (+128 слов)
-- `docs/nautilus/review-methodology/15-appendix-c-history.md` (+128 слов)
-- `docs/templates/weekly-digest.md` (+128 слов)
-- `docs/02-anthropic-vacancies/38-content-overview.md` (+127 слов)
-- `docs/05-habr-projects/QA.md` (+127 слов)
-- `docs/anthropic-vacancies/clusters/07-software-engineering-infrastructure.md` (+127 слов)
-- `docs/svyazi-2-0/components/yjs-automerge.md` (+127 слов)
-- `docs/02-anthropic-vacancies/61-compatibility-level.md` (+126 слов)
-- `docs/svyazi-2-0/components/ngt-memory.md` (+126 слов)
-- `docs/templates/kpi-snapshot.md` (+126 слов)
-- `docs/02-anthropic-vacancies/105-review-methodology-md.md` (+125 слов)
-- `docs/habr-unique-projects/extra-examples/README.md` (+125 слов)
-- `docs/svyazi-2-0/components/research-docs-liteparse.md` (+125 слов)
-- `docs/02-anthropic-vacancies/41-compatibility-level.md` (+124 слов)
-- `docs/02-anthropic-vacancies/43-history.md` (+124 слов)
-- `docs/05-habr-projects/01-synthesis.md` (+124 слов)
-- `docs/anthropic-vacancies/clusters/05-marketing-brand.md` (+124 слов)
-- `docs/anthropic-vacancies/clusters/10-compute.md` (+124 слов)
-- `docs/02-anthropic-vacancies/42-author-contact.md` (+122 слов)
-- `docs/svyazi-2-0/components/ai-factory.md` (+122 слов)
-- `docs/svyazi-2-0/components/yodoca.md` (+122 слов)
-- `docs/02-anthropic-vacancies/51-compatibility-level.md` (+121 слов)
-- `docs/02-anthropic-vacancies/58-content-overview.md` (+121 слов)
-- `docs/anthropic-vacancies/clusters/06-engineering-design-product.md` (+121 слов)
-- `docs/STATS.md` (+120 слов)
-- `docs/nautilus/infrastructure-layer-b-en/README.md` (+118 слов)
-- `docs/svyazi-2-0/architecture/review-record.md` (+118 слов)
-- `docs/svyazi-2-0/components/agentfs.md` (+118 слов)
-- `docs/02-anthropic-vacancies/35-passports-info1-md.md` (+117 слов)
-- `docs/lorenzo-agent/specification/README.md` (+117 слов)
-- `docs/02-anthropic-vacancies/45-passports-pro2-md.md` (+116 слов)
-- `docs/anthropic-vacancies/clusters/README.md` (+116 слов)
-- `docs/svyazi-2-0/components/legal-rag.md` (+116 слов)
-- `docs/02-anthropic-vacancies/13-angle-perspective.md` (+115 слов)
-- `docs/anthropic-vacancies/clusters/11-legal.md` (+115 слов)
-- `docs/02-anthropic-vacancies/55-passports-meta-md.md` (+114 слов)
-- `docs/anthropic-vacancies/methodology.md` (+114 слов)
-- `docs/svyazi-2-0/components/graph-rag.md` (+114 слов)
-- `docs/svyazi-2-0/components/knowledge-space.md` (+114 слов)
-- `docs/svyazi-2-0/components/memnet.md` (+114 слов)
-- `docs/svyazi-2-0/components/svyazi.md` (+114 слов)
-- `docs/02-anthropic-vacancies/47-native-format.md` (+112 слов)
-- `docs/nautilus/npp-v1-0/17-appendix-b-change-log.md` (+112 слов)
-- `docs/01-svyazi/README.md` (+111 слов)
-- `docs/02-anthropic-vacancies/62-author-contact.md` (+111 слов)
-- `docs/anthropic-vacancies/clusters/09-product-management-support-ops.md` (+111 слов)
-- `docs/anthropic-vacancies/clusters/12-technical-program-management.md` (+110 слов)
-- `docs/anthropic-vacancies/clusters/04-security.md` (+108 слов)
-- `docs/svyazi-2-0/components/hybrid-rag.md` (+108 слов)
-- `docs/anthropic-vacancies/ai-managed-virtual-company/README.md` (+107 слов)
-- `docs/anthropic-vacancies/beneficial-deployments-concept/README.md` (+107 слов)
-- `docs/svyazi-2-0/components/rufler.md` (+107 слов)
-- `docs/templates/meeting-notes.md` (+105 слов)
-- `docs/SCHEDULE.md` (+104 слов)
-- `docs/nautilus/composite-skills-agents/README.md` (+104 слов)
-- `docs/templates/faq-entry.md` (+104 слов)
-- `docs/DEPENDABOT.md` (+103 слов)
-- `docs/anthropic-vacancies/clusters/14-public-policy.md` (+103 слов)
-- `docs/svyazi-2-0/components/mclaude.md` (+103 слов)
-- `docs/02-anthropic-vacancies/57-native-format.md` (+102 слов)
-- `docs/GRAPH.md` (+102 слов)
-- `docs/anthropic-vacancies/README.md` (+102 слов)
-- `docs/anthropic-vacancies/clusters/15-public-benefit.md` (+102 слов)
-- `docs/ai-collaborations/continuation/README.md` (+101 слов)
-- `docs/nautilus/professional-colleague-agents-en/README.md` (+101 слов)
-- `docs/templates/glossary-entry.md` (+101 слов)
-- `docs/02-anthropic-vacancies/154-table-of-contents.md` (+100 слов)
-- `docs/anthropic-vacancies/clusters/13-communications.md` (+100 слов)
-- `docs/nautilus/double-triangle-architecture/README.md` (+99 слов)
-- `docs/nautilus/representative-agent-layer-en/README.md` (+99 слов)
-- `docs/templates/contact-outreach.md` (+99 слов)
-- `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` (+97 слов)
-- `docs/anthropic-vacancies/clusters/16-people.md` (+97 слов)
-- `docs/nautilus/representative-agent-layer-ru/README.md` (+97 слов)
-- `docs/templates/retrospective.md` (+97 слов)
-- `docs/nautilus/professional-colleague-agents-ru/README.md` (+95 слов)
-- `docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md` (+94 слов)
-- `docs/nautilus/infrastructure-layer-b-ru/README.md` (+93 слов)
-- `docs/nautilus/community-discussions/README.md` (+92 слов)
-- `docs/svyazi-2-0/ensembles/README.md` (+88 слов)
-- `docs/ai-collaborations/ensembles/README.md` (+87 слов)
-- `docs/templates/ensemble.md` (+87 слов)
-- `docs/nautilus/ingit-cowork-en/README.md` (+85 слов)
-- `docs/nautilus/ingit-cowork-ru/README.md` (+85 слов)
-- `docs/templates/decision-record.md` (+85 слов)
-- `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` (+83 слов)
-- `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` (+83 слов)
-- `docs/GLOSSARY.md` (+82 слов)
-- `docs/HEALTH.md` (+81 слов)
-- `docs/nautilus/okwf-concept/README.md` (+81 слов)
-- `docs/contacts/README.md` (+79 слов)
-- `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` (+78 слов)
-- `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` (+78 слов)
-- `docs/CONCEPT_GRAPH.md` (+78 слов)
-- `docs/ORPHANS.md` (+78 слов)
-- `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md` (+78 слов)
-- `docs/badges/README.md` (+78 слов)
-- `docs/anthropic-vacancies/nautilus-vs-camel/README.md` (+77 слов)
-- `docs/lorenzo-agent/phased-deployment/README.md` (+77 слов)
-- `docs/nautilus/npp-humanitarian-extension/README.md` (+77 слов)
-- `docs/templates/research-note.md` (+77 слов)
-- `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` (+76 слов)
-- `docs/02-anthropic-vacancies/16-history.md` (+76 слов)
-- `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md` (+76 слов)
-- `docs/anthropic-vacancies/QA.md` (+76 слов)
-- `docs/MINDMAP.md` (+72 слов)
-- `docs/habr-unique-projects/deep-pairs/README.md` (+72 слов)
-- `docs/AUTHORS.md` (+71 слов)
-- `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` (+65 слов)
-- `docs/anthropic-vacancies/extra-collaborator-findings/README.md` (+64 слов)
-- `docs/lorenzo-agent/00-intro.md` (+61 слов)
-- `docs/autofilled/research-summary.md` (+57 слов)
-- `docs/habr-unique-projects/hardware-pairs/README.md` (+57 слов)
-- `docs/nautilus/privacy-federation/README.md` (+57 слов)
-- `docs/habr-unique-projects/software-pairs/README.md` (+56 слов)
-- `docs/lorenzo-agent/operationalized/README.md` (+54 слов)
-- `docs/svyazi-2-0/architecture/README.md` (+54 слов)
-- `docs/KPI_HISTORY.md` (+51 слов)
-- `docs/autofilled/components/README.md` (+51 слов)
-- `docs/03-technology-combinations/README.md` (+49 слов)
-- `docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md` (+48 слов)
-- `docs/habr-unique-projects/key-findings/README.md` (+48 слов)
+- `docs/templates/protocol-spec.md` (+209 слов)
+- `docs/templates/mega-stack.md` (+203 слов)
+- `docs/templates/tech-pair.md` (+189 слов)
+- `docs/templates/legal-case.md` (+179 слов)
+- `docs/templates/risk-entry.md` (+166 слов)
+- `docs/templates/tech-radar-entry.md` (+163 слов)
+- `docs/templates/contradiction-record.md` (+157 слов)
+- `docs/templates/rfc.md` (+152 слов)
+- `docs/PASSIVE_VOICE.md` (+149 слов)
+- `docs/templates/weekly-digest.md` (+138 слов)
+- `docs/templates/experiment-log.md` (+133 слов)
+- `docs/templates/kpi-snapshot.md` (+133 слов)
+- `docs/templates/meeting-notes.md` (+112 слов)
+- `docs/templates/faq-entry.md` (+110 слов)
+- `docs/templates/glossary-entry.md` (+108 слов)
+- `docs/templates/retrospective.md` (+106 слов)
+- `docs/BADGES.md` (+85 слов)
 - `docs/SEARCH_RESULTS.md` (+47 слов)
-- `docs/anthropic-vacancies/nautilus-pro2-analysis/README.md` (+47 слов)
-- `docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md` (+47 слов)
-- `docs/nautilus/composite-skills-agents-companion-mentors/README.md` (+43 слов)
-- `docs/habr-unique-projects/evaluation/README.md` (+41 слов)
-- `docs/lorenzo-agent/naming/README.md` (+41 слов)
-- `docs/technology-combinations/mega-stacks/README.md` (+38 слов)
-- `docs/02-anthropic-vacancies/12-content-overview.md` (+36 слов)
-- `docs/habr-unique-projects/final-ensembles/README.md` (+36 слов)
-- `docs/05-habr-projects/README.md` (+34 слов)
-- `docs/ai-collaborations/README.md` (+34 слов)
-- `docs/technology-combinations/synthesis-tables/README.md` (+34 слов)
-- `docs/02-anthropic-vacancies/31-content-overview.md` (+32 слов)
-- `docs/ai-collaborations/candidates/README.md` (+32 слов)
-- `docs/ALERTS.md` (+31 слов)
-- `docs/svyazi-2-0/overview/README.md` (+29 слов)
-- `docs/ai-collaborations/strategy/README.md` (+27 слов)
-- `docs/glossary/README.md` (+26 слов)
-- `docs/habr-unique-projects/search-strategy/README.md` (+25 слов)
-- `docs/svyazi-2-0/limitations/README.md` (+24 слов)
-- `docs/svyazi-2-0/outreach/README.md` (+24 слов)
-- `docs/05-habr-projects/memory/README.md` (+23 слов)
-- `docs/DIGEST_WEEKLY.md` (+23 слов)
-- `docs/ai-collaborations/channels/README.md` (+23 слов)
-- `docs/autofilled/components/kksudo.md` (+23 слов)
-- `docs/autofilled/components/svend4.md` (+23 слов)
-- `docs/nautilus/community-discussions/agent-changes-reality/README.md` (+23 слов)
-- `docs/autofilled/components/.md` (+22 слов)
-- `docs/autofilled/components/cowork.md` (+22 слов)
-- `docs/autofilled/components/ingit.md` (+22 слов)
-- `docs/autofilled/components/lorenzo.md` (+22 слов)
-- `docs/autofilled/components/nautilus.md` (+22 слов)
-- `docs/autofilled/components/sgb.md` (+22 слов)
-- `docs/autofilled/components/spbmolot.md` (+22 слов)
-- `docs/autofilled/components/svyazi.md` (+22 слов)
-- `docs/nautilus/supply-demand/README.md` (+22 слов)
-- `docs/nautilus/transmission-box/README.md` (+22 слов)
-- `docs/svyazi-2-0/security/README.md` (+22 слов)
-- `docs/nautilus/community-discussions/habr-article-1-reaction/README.md` (+21 слов)
-- `docs/nautilus/multi-tier-architecture/README.md` (+21 слов)
-- `docs/svyazi-2-0/prototype/README.md` (+20 слов)
-- `docs/habr-unique-projects/analogues/README.md` (+19 слов)
-- `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (+18 слов)
-- `docs/VERSION_DIFF.md` (+18 слов)
-- `docs/nautilus/innovation-transitions/README.md` (+18 слов)
-- `docs/technology-combinations/research-reports/README.md` (+18 слов)
-- `docs/nautilus/community-discussions/habr-article-2-reaction/README.md` (+17 слов)
-- `docs/nautilus/community-discussions/practical-observations/README.md` (+16 слов)
-- `docs/nautilus/community-discussions/voiceless-contributors/README.md` (+16 слов)
-- `docs/technology-combinations/properties/README.md` (+16 слов)
-- `docs/lorenzo-agent/scenarios/README.md` (+15 слов)
-- `docs/autofilled/README.md` (+14 слов)
-- `docs/05-habr-projects/knowledge/README.md` (+10 слов)
-- `docs/01-svyazi/00-intro-part2.md` (+4 слов)
+- `docs/SKILL_DASHBOARD.md` (+23 слов)
+
+## 📝 Изменённые файлы (382)
+
+| Файл | Δ слов | Добавленные темы | Удалённые темы |
+|------|--------|------------------|----------------|
+| `docs/TABLES.md` | +29971 | 1. Скилы агента, 10. Детальные метрики, 100. Центральность узлов (влиятельность) +236 | 100. Ключевые вехи, 101. Документация — 48/48 (100%) 🟢 GO, 102. Документация — 48/48 (100%) 🟢 GO +150 |
+| `docs/QUESTIONS.md` | +18336 | `00-abstract.md` (1), `00-context.md` (1), `00-intro.md` (2) +502 | Mvp/сроки (28), Архитектура (27), Интеграция (20) +5 |
+| `docs/VERSION_DIFF.md` | +3027 | ✅ Новые файлы (1045) | ✅ Новые файлы (691), 📝 Изменённые файлы (4) |
+| `docs/DUPLICATES.md` | +1152 | 67% — `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` vs `docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md`, 67% — `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` vs `docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md`, 69% — `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` vs `docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md` +26 | 100% — `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` vs `docs/nautilus/review-methodology/06-relation-existing-methodologies.md`, 100% — `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` vs `docs/nautilus/review-methodology/07-why-valid-for-ai.md`, 100% — `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` vs `docs/nautilus/review-methodology/12-appendix-a-header-warning.md` +27 |
+| `docs/ACTION_ITEMS.md` | +892 | ⚠️ Риски (585), ✅ Решения и рекомендации (265), ➡️ Следующие шаги (150) +3 | ⚠️ Риски (483), ✅ Решения и рекомендации (215), ➡️ Следующие шаги (139) +3 |
+| `docs/SEARCH.md` | +590 | — | — |
+| `docs/CONCEPTS.md` | +518 | — | — |
+| `docs/PARAGRAPH_QUALITY.md` | +469 | `docs/01-svyazi/01-executive-summary.md` (26 проблем), `docs/01-svyazi/02-methodology.md` (14 проблем), `docs/01-svyazi/04-ensembles-overview.md` (31 проблем) +370 | `docs/01-svyazi/01-executive-summary.md` (19 проблем), `docs/01-svyazi/02-methodology.md` (11 проблем), `docs/01-svyazi/04-ensembles-overview.md` (30 проблем) +320 |
+| `docs/REPORT.md` | +391 | Executive Summary, LLM Q&A (требует ANTHROPIC_API_KEY), Svyazi 2.0 — Knowledge Base Report +12 | Executive Report: Репозиторий Lorenzo, Аналитические инструменты, Извлечённые знания +4 |
+| `docs/VALIDATION.md` | -362 | Валидация шаблонов, Шаблоны | Валидация структуры репозитория, Внутренние ссылки, Заголовки H1 +6 |
+| `docs/technology-combinations/combinations/README.md` | -350 | — | — |
+| `docs/04-ai-collaborations/00-intro.md` | +329 | — | — |
+| `docs/nautilus/npp-v1-1/README.md` | -322 | — | — |
+| `docs/GITHUB_ISSUES.md` | +320 | `docs/SCRIPTS_CATALOG.md` (1 задач), `docs/TABLES.md` (1 задач), `docs/templates/agent-spec.md` (3 задач) +9 | — |
+| `docs/lorenzo-agent/README.md` | -285 | — | — |
+| `docs/nautilus/npp-v1-0/README.md` | -266 | — | — |
+| `docs/DECISIONS.md` | +265 | Архитектура (37), Контакты (23), Лицензия (13) +4 | Архитектура (30), Контакты (24), Лицензия (11) +4 |
+| `docs/02-anthropic-vacancies/00-intro.md` | +259 | — | — |
+| `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | +259 | Contents, Содержание | — |
+| `docs/nautilus/review-methodology/README.md` | -238 | — | — |
+| `docs/SITEMAP.md` | +224 | — | — |
+| `docs/anthropic-vacancies/clusters/README.md` | -224 | — | — |
+| `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` | +219 | Contents, Содержание | — |
+| `docs/CLUSTERS.md` | +212 | Кластер 1 — turn, view, svyazi, cardindex (30 файлов), Кластер 10 — turn, view, cite, search (9 файлов), Кластер 11 — table-of-contents, anthropic-vacancies, docs, table (9 файлов) +27 | Кластер 1 — cowork, ingit, yes, project (22 файлов), Кластер 10 — principal, agent, agents, type (10 файлов), Кластер 11 — editorial, collaboration, draft, date (8 файлов) +27 |
+| `docs/CHANGELOG.md` | +204 | 2026-04-29 (77 коммитов), 22 скила  (1 коммитов) | 2026-04-29 (63 коммитов) |
+| `docs/READABILITY.md` | +199 | Самые сложные тексты (1161) — рекомендуется упростить | Самые сложные тексты (1146) — рекомендуется упростить |
+| `docs/anthropic-vacancies/hermes-comparison/README.md` | -196 | — | — |
+| `docs/nautilus/infrastructure-layer-b-en/README.md` | -196 | — | — |
+| `docs/02-anthropic-vacancies/README.md` | +193 | — | — |
+| `docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md` | +191 | Contents | — |
+| `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` | +185 | Contents, Содержание | — |
+| `docs/nautilus/composite-skills-agents/README.md` | -182 | — | — |
+| `docs/nautilus/infrastructure-layer-b-ru/README.md` | -182 | — | — |
+| `docs/nautilus/professional-colleague-agents-en/README.md` | -182 | — | — |
+| `docs/nautilus/professional-colleague-agents-ru/README.md` | -182 | — | — |
+| `docs/nautilus/representative-agent-layer-en/README.md` | -182 | — | — |
+| `docs/nautilus/representative-agent-layer-ru/README.md` | -182 | — | — |
+| `docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md` | +181 | Contents | — |
+| `docs/05-habr-projects/memory/memnet.md` | +177 | — | — |
+| `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` | +172 | Contents, Содержание | — |
+| `docs/habr-unique-projects/extra-examples/README.md` | -169 | — | — |
+| `docs/02-anthropic-vacancies/175-6-ethical-framework.md` | +168 | Contents, Содержание | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/README.md` | -168 | — | — |
+| `docs/lorenzo-agent/specification/README.md` | -168 | — | — |
+| `docs/nautilus/double-triangle-architecture/README.md` | -168 | — | — |
+| `docs/02-anthropic-vacancies/279-existing-approximations.md` | +167 | Contents, Содержание | — |
+| `docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md` | +160 | Contents, Содержание | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/README.md` | -154 | — | — |
+| `docs/nautilus/okwf-concept/README.md` | -154 | — | — |
+| `docs/02-anthropic-vacancies/264-11-open-questions.md` | +149 | Contents, Содержание | — |
+| `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` | +148 | — | — |
+| `docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` | +148 | Contents, Содержание | — |
+| `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` | +146 | Contents, Содержание | — |
+| `docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md` | +146 | Contents | — |
+| `docs/CONTRADICTIONS.md` | -142 | 1. 🔢 Числовое — 4.0 vs 9.0 (уверенность: 0.8), 10. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8), 11. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8) +25 | 1. 🔢 Числовое — 6.0 vs 58.0 (уверенность: 0.8), 10. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8), 11. 🔢 Числовое — 22.0 vs 785.0 (уверенность: 0.8) +25 |
+| `docs/nautilus/ingit-cowork-en/README.md` | -140 | — | — |
+| `docs/nautilus/ingit-cowork-ru/README.md` | -140 | — | — |
+| `docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md` | +134 | — | — |
+| `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | +132 | Contents | — |
+| `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md` | +127 | Contents, Содержание | — |
+| `docs/BROKEN_LINKS.md` | +124 | Внешние URL (129 уникальных) | Внешние URL (184 уникальных) |
+| `docs/01-svyazi/04-ensembles-overview.md` | +123 | — | — |
+| `docs/01-svyazi/14-limitations.md` | +123 | — | — |
+| `docs/READING_TIME.md` | +123 | Самые длинные документы (42) | Самые длинные документы (38) |
+| `docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md` | +122 | Contents, Содержание | — |
+| `docs/02-anthropic-vacancies/82-7-portalentry-structure.md` | +119 | Contents | — |
+| `docs/lorenzo-agent/phased-deployment/README.md` | -117 | — | — |
+| `docs/02-anthropic-vacancies/77-2-terminology.md` | +116 | — | — |
+| `docs/02-anthropic-vacancies/69-section.md` | +115 | — | — |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md` | -112 | — | — |
+| `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | +111 | — | — |
+| `docs/01-svyazi/10-second-order-ensembles.md` | +110 | — | — |
+| `docs/02-anthropic-vacancies/68-about.md` | +109 | — | — |
+| `docs/01-svyazi/01-executive-summary.md` | +106 | Contents | — |
+| `docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` | +106 | — | — |
+| `docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md` | +106 | Contents | — |
+| `docs/02-anthropic-vacancies/83-8-q6-space-normative.md` | +106 | Contents | — |
+| `docs/01-svyazi/09-architectural-gaps.md` | +105 | — | — |
+| `docs/02-anthropic-vacancies/81-6-adapter-interface.md` | +105 | Contents | — |
+| `docs/habr-unique-projects/deep-pairs/README.md` | -104 | — | — |
+| `docs/02-anthropic-vacancies/318-10-strategic-positioning.md` | +103 | — | — |
+| `docs/02-anthropic-vacancies/80-5-compatibility-levels.md` | +102 | Contents | — |
+| `docs/01-svyazi/11-integration-contracts.md` | +101 | — | — |
+| `docs/01-svyazi/07-mvp-planning.md` | +100 | — | — |
+| `docs/04-ai-collaborations/01-executive-summary.md` | +100 | — | — |
+| `docs/02-anthropic-vacancies/79-4-passport-passport-md.md` | +99 | Contents | — |
+| `docs/02-anthropic-vacancies/07-2-terminology.md` | +98 | — | — |
+| `docs/anthropic-vacancies/extra-collaborator-findings/README.md` | -98 | — | — |
+| `docs/lorenzo-agent/operationalized/README.md` | -98 | — | — |
+| `docs/02-anthropic-vacancies/159-5-economic-model.md` | +97 | Contents | — |
+| `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` | +96 | — | — |
+| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | +95 | Contents | — |
+| `docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` | +95 | — | — |
+| `docs/03-technology-combinations/03-local-first.md` | +95 | — | — |
+| `docs/DIGEST.md` | +95 | Contents | — |
+| `docs/01-svyazi/02-methodology.md` | +94 | Contents | — |
+| `docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` | +94 | Contents | — |
+| `docs/02-anthropic-vacancies/90-15-security-considerations.md` | +91 | Contents | — |
+| `docs/QA.md` | +91 | — | — |
+| `docs/TIMELINE.md` | +91 | 2020 (6 упоминаний), 2021 (3 упоминаний), 2022 (12 упоминаний) +2 | 2020 (4 упоминаний), 2021 (2 упоминаний), 2022 (10 упоминаний) +2 |
+| `docs/habr-unique-projects/hardware-pairs/README.md` | -91 | — | — |
+| `docs/02-anthropic-vacancies/180-11-call-for-collaboration.md` | +89 | Contents | — |
+| `docs/02-anthropic-vacancies/225-references.md` | +89 | Contents | — |
+| `docs/KEYWORD_INDEX.md` | +89 | — | — |
+| `docs/02-anthropic-vacancies/287-references.md` | +88 | Contents | — |
+| `docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md` | +88 | — | — |
+| `docs/01-svyazi/08-conclusions.md` | +87 | — | — |
+| `docs/03-technology-combinations/02-knowledge-graphs.md` | +86 | — | — |
+| `docs/02-anthropic-vacancies/147-references.md` | +85 | Contents | — |
+| `docs/02-anthropic-vacancies/165-closing.md` | +85 | — | — |
+| `docs/01-svyazi/06-security-privacy.md` | +84 | — | — |
+| `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` | +84 | Contents | — |
+| `docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md` | +84 | — | — |
+| `docs/02-anthropic-vacancies/76-1-introduction.md` | +84 | Contents | — |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` | -84 | — | — |
+| `docs/anthropic-vacancies/nautilus-vs-camel/README.md` | -84 | — | — |
+| `docs/01-svyazi/03-component-catalog.md` | +83 | — | — |
+| `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` | +83 | — | — |
+| `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` | +82 | — | — |
+| `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` | +81 | — | — |
+| `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` | +81 | — | — |
+| `docs/02-anthropic-vacancies/221-10-open-questions.md` | +80 | Contents | — |
+| `docs/CODE_BLOCKS.md` | +80 | 1. Frontmatter (YAML), 3. Registry / Discovery, 6. Adapter Interface +14 | markdown (17), 💻 Bash / Shell (35), 📊 Диаграммы Mermaid (18) +2 |
+| `docs/ai-collaborations/continuation/README.md` | -80 | — | — |
+| `docs/02-anthropic-vacancies/222-11-call-for-collaboration.md` | +79 | Contents | — |
+| `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | +79 | — | — |
+| `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` | +78 | — | — |
+| `docs/02-anthropic-vacancies/223-12-closing.md` | +78 | — | — |
+| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | +78 | Contents | — |
+| `docs/contacts/andrey-chuyan.md` | +78 | Contents | — |
+| `docs/contacts/sonia-black.md` | +78 | Contents | — |
+| `docs/habr-unique-projects/key-findings/README.md` | -78 | — | — |
+| `docs/habr-unique-projects/software-pairs/README.md` | -78 | — | — |
+| `docs/nautilus/npp-humanitarian-extension/README.md` | -78 | — | — |
+| `docs/02-anthropic-vacancies/268-references.md` | +77 | Contents | — |
+| `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` | +76 | — | — |
+| `docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` | +76 | — | — |
+| `docs/contacts/nlaik.md` | +76 | Contents | — |
+| `docs/01-svyazi/12-roadmap.md` | +75 | — | — |
+| `docs/technology-combinations/synthesis-tables/README.md` | -75 | — | — |
+| `docs/02-anthropic-vacancies/183-references.md` | +74 | Contents | — |
+| `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` | +74 | — | — |
+| `docs/BACKLINKS.md` | +74 | — | — |
+| `docs/nautilus/representative-agent-layer-ru/08-riski-mery.md` | +74 | Содержание | — |
+| `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | +73 | — | — |
+| `docs/02-anthropic-vacancies/85-10-query-flow.md` | +73 | Contents | — |
+| `docs/03-technology-combinations/05-benchmarks.md` | +73 | — | — |
+| `docs/01-svyazi/13-contacts.md` | +72 | — | — |
+| `docs/02-anthropic-vacancies/06-1-introduction.md` | +72 | Contents | — |
+| `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` | +72 | — | — |
+| `docs/02-anthropic-vacancies/23-11-security-considerations.md` | +72 | Contents | — |
+| `docs/02-anthropic-vacancies/74-abstract.md` | +72 | — | — |
+| `docs/ai-collaborations/ensembles/README.md` | -72 | — | — |
+| `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` | +71 | — | — |
+| `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` | +71 | — | — |
+| `docs/contacts/vitalyoborin.md` | +71 | Contents | — |
+| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | +70 | — | — |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md` | -70 | — | — |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md` | -70 | — | — |
+| `docs/contacts/spbmolot.md` | +70 | Contents | — |
+| `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` | +69 | — | — |
+| `docs/03-technology-combinations/01-agent-routing.md` | +69 | — | — |
+| `docs/anthropic-vacancies/QA.md` | +69 | Как реализован forensic RAG с доказуемостью?, Какие 5 архитектурных зазоров выделены в исследовании?, Какие RAG-подходы сравниваются в документах? +4 | — |
+| `docs/02-anthropic-vacancies/155-1-problem-statement.md` | +68 | — | — |
+| `docs/02-anthropic-vacancies/20-8-consensus-algorithm.md` | +68 | Contents | — |
+| `docs/02-anthropic-vacancies/267-acknowledgments.md` | +68 | — | — |
+| `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` | +68 | — | — |
+| `docs/02-anthropic-vacancies/319-acknowledgments.md` | +68 | — | — |
+| `docs/02-anthropic-vacancies/84-9-consensus-algorithm.md` | +68 | Contents | — |
+| `docs/README.md` | +68 | — | — |
+| `docs/contacts/anastasiyaw.md` | +68 | Contents | — |
+| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | +67 | Contents | — |
+| `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` | +66 | — | — |
+| `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` | +66 | — | — |
+| `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` | +66 | — | — |
+| `docs/contacts/antipozitive.md` | +66 | Contents | — |
+| `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` | +65 | — | — |
+| `docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md` | +65 | — | — |
+| `docs/nautilus/privacy-federation/README.md` | -65 | — | — |
+| `docs/02-anthropic-vacancies/153-executive-summary.md` | +64 | — | — |
+| `docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` | +64 | — | — |
+| `docs/02-anthropic-vacancies/136-abstract.md` | +63 | — | — |
+| `docs/02-anthropic-vacancies/252-abstract.md` | +63 | — | — |
+| `docs/02-anthropic-vacancies/40-bridges.md` | +63 | Contents | — |
+| `docs/contacts/tagir-analyzes.md` | +63 | Contents | — |
+| `docs/contacts/vladspace.md` | +63 | Contents | — |
+| `docs/contacts/zodigancode.md` | +63 | Contents | — |
+| `docs/02-anthropic-vacancies/210-abstract.md` | +62 | — | — |
+| `docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` | +62 | — | — |
+| `docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md` | +62 | — | — |
+| `docs/contacts/kksudo.md` | +62 | Contents | — |
+| `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` | +61 | — | — |
+| `docs/02-anthropic-vacancies/307-abstract.md` | +61 | — | — |
+| `docs/contacts/cutcode.md` | +61 | Contents | — |
+| `docs/contacts/dmitriila.md` | +61 | Contents | — |
+| `docs/contacts/mixaill76.md` | +61 | Contents | — |
+| `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` | +60 | — | — |
+| `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` | +60 | — | — |
+| `docs/02-anthropic-vacancies/104-appendix-c-references.md` | +59 | — | — |
+| `docs/02-anthropic-vacancies/164-10-appendices.md` | +59 | — | — |
+| `docs/02-anthropic-vacancies/179-10-open-questions.md` | +59 | Contents | — |
+| `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` | +59 | — | — |
+| `docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` | +59 | — | — |
+| `docs/02-anthropic-vacancies/92-17-versioning-policy.md` | +59 | Contents | — |
+| `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` | +58 | — | — |
+| `docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md` | +58 | — | — |
+| `docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md` | +58 | — | — |
+| `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` | +56 | — | — |
+| `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` | +56 | — | — |
+| `docs/COMPARE.md` | +56 | Изменившиеся файлы (84) — топ по Δ слов, Новые файлы (165) | Изменившиеся файлы (618) — топ по Δ слов, Новые файлы (529) |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/README.md` | -56 | — | — |
+| `docs/lorenzo-agent/naming/README.md` | -56 | — | — |
+| `docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md` | +55 | — | — |
+| `docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md` | +54 | — | — |
+| `docs/02-anthropic-vacancies/145-8-call-to-action.md` | +53 | — | — |
+| `docs/02-anthropic-vacancies/162-8-risk-analysis.md` | +53 | — | — |
+| `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` | +53 | — | — |
+| `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` | +53 | — | — |
+| `docs/02-anthropic-vacancies/281-the-recursive-insight.md` | +53 | — | — |
+| `docs/02-anthropic-vacancies/156-2-target-populations.md` | +52 | — | — |
+| `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` | +52 | — | — |
+| `docs/05-habr-projects/memory/ngt-memory.md` | +52 | — | — |
+| `docs/habr-unique-projects/final-ensembles/README.md` | -52 | — | — |
+| `docs/nautilus/composite-skills-agents-companion-mentors/README.md` | -52 | — | — |
+| `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` | +51 | — | — |
+| `docs/WORD_CLOUD.md` | +51 | — | — |
+| `docs/02-anthropic-vacancies/168-abstract.md` | +50 | — | — |
+| `docs/svyazi-2-0/architecture/README.md` | -50 | — | — |
+| `docs/02-anthropic-vacancies/266-13-closing.md` | +49 | — | — |
+| `docs/02-anthropic-vacancies/38-content-overview.md` | +49 | — | — |
+| `docs/svyazi-2-0/components/README.md` | -49 | — | — |
+| `docs/technology-combinations/mega-stacks/README.md` | -49 | — | — |
+| `docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` | +48 | — | — |
+| `docs/02-anthropic-vacancies/46-essence.md` | +48 | — | — |
+| `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` | +47 | — | — |
+| `docs/02-anthropic-vacancies/285-closing.md` | +47 | — | — |
+| `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` | +46 | — | — |
+| `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md` | +46 | — | — |
+| `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` | +46 | — | — |
+| `docs/nautilus/ingit-cowork-en/09-risks-open-questions.md` | +46 | Содержание | — |
+| `docs/02-anthropic-vacancies/218-7-application-domains.md` | +45 | — | — |
+| `docs/LINKS.md` | +45 | — | — |
+| `docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md` | +44 | Содержание | — |
+| `docs/02-anthropic-vacancies/174-5-architectural-specification.md` | +43 | — | — |
+| `docs/02-anthropic-vacancies/181-12-closing.md` | +43 | — | — |
+| `docs/02-anthropic-vacancies/144-7-open-questions.md` | +41 | — | — |
+| `docs/02-anthropic-vacancies/39-angle-perspective.md` | +41 | — | — |
+| `docs/02-anthropic-vacancies/19-7-portalentry-structure.md` | +40 | — | — |
+| `docs/02-anthropic-vacancies/27-15-glossary-of-examples.md` | +40 | — | — |
+| `docs/02-anthropic-vacancies/50-bridges.md` | +40 | Contents | — |
+| `docs/02-anthropic-vacancies/60-bridges.md` | +40 | Contents | — |
+| `docs/02-anthropic-vacancies/148-appendix-a-glossary.md` | +39 | — | — |
+| `docs/02-anthropic-vacancies/275-why-this-document-exists.md` | +39 | — | — |
+| `docs/svyazi-2-0/limitations/README.md` | -39 | — | — |
+| `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` | +38 | — | — |
+| `docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md` | +38 | Contents | — |
+| `docs/glossary/README.md` | -38 | — | — |
+| `docs/02-anthropic-vacancies/21-9-query-flow.md` | +37 | Contents | — |
+| `docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` | +37 | — | — |
+| `docs/PROGRESS.md` | +37 | — | — |
+| `docs/05-habr-projects/02-collaboration-partners.md` | +36 | — | — |
+| `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md` | +35 | Contents | — |
+| `docs/NARRATIVE.md` | +35 | — | — |
+| `docs/svyazi-2-0/ensembles/README.md` | -35 | — | — |
+| `docs/svyazi-2-0/overview/README.md` | -35 | — | — |
+| `docs/02-anthropic-vacancies/123-portal-mcp-py.md` | +34 | — | — |
+| `docs/02-anthropic-vacancies/36-essence.md` | +32 | — | — |
+| `docs/svyazi-2-0/outreach/README.md` | -32 | — | — |
+| `docs/VOCABULARY.md` | +31 | — | — |
+| `docs/SIMILAR.md` | +30 | contacts, templates | 03-technology-combinations |
+| `docs/lorenzo-agent/scenarios/README.md` | -30 | — | — |
+| `docs/nautilus/transmission-box/README.md` | -30 | — | — |
+| `docs/svyazi-2-0/prototype/README.md` | -30 | — | — |
+| `docs/svyazi-2-0/security/README.md` | -30 | — | — |
+| `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` | +29 | Contents | — |
+| `docs/02-anthropic-vacancies/320-references.md` | +29 | Contents | — |
+| `docs/OUTLINE.md` | -28 | [FAQ: [Вопрос]](docs/templates/faq-entry.md), [KPI Snapshot: [дата]](docs/templates/kpi-snapshot.md), [MVP: [Название]](docs/templates/prototype-mvp.md) +37 | [Executive Report: Репозиторий Lorenzo](docs/REPORT.md), [Svyazi 2.0 — Архитектура и исследование](docs/01-svyazi/README.md), Агенты (156 документов) +6 |
+| `docs/nautilus/community-discussions/agent-changes-reality/README.md` | -28 | — | — |
+| `docs/nautilus/community-discussions/habr-article-1-reaction/README.md` | -28 | — | — |
+| `docs/nautilus/community-discussions/habr-article-2-reaction/README.md` | -28 | — | — |
+| `docs/nautilus/community-discussions/voiceless-contributors/README.md` | -28 | — | — |
+| `docs/nautilus/innovation-transitions/README.md` | -28 | — | — |
+| `docs/nautilus/supply-demand/README.md` | -28 | — | — |
+| `docs/02-anthropic-vacancies/58-content-overview.md` | +27 | — | — |
+| `docs/02-anthropic-vacancies/86-11-relevance-ranking.md` | +26 | Contents | — |
+| `docs/CONSISTENCY.md` | +26 | `knowledgespace` → должно быть `knowledge-space`, `localfirst` → должно быть `local-first` | — |
+| `docs/habr-unique-projects/analogues/README.md` | -26 | — | — |
+| `docs/nautilus/community-discussions/practical-observations/README.md` | -26 | — | — |
+| `docs/nautilus/multi-tier-architecture/README.md` | -26 | — | — |
+| `docs/technology-combinations/research-reports/README.md` | -26 | — | — |
+| `docs/anthropic-vacancies/README.md` | -25 | — | — |
+| `docs/02-anthropic-vacancies/25-13-reference-implementation.md` | +24 | — | — |
+| `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` | +24 | — | — |
+| `docs/02-anthropic-vacancies/56-essence.md` | +24 | — | — |
+| `docs/ai-collaborations/candidates/README.md` | -24 | — | — |
+| `docs/ABBREVIATIONS.md` | +23 | — | — |
+| `docs/WORD_FREQ.md` | -23 | 01-svyazi (9,290 слов), 02-anthropic-vacancies (165,798 слов), 03-technology-combinations (2,140 слов) +13 | 01-svyazi (8,358 слов), 02-anthropic-vacancies (149,436 слов), 03-technology-combinations (1,855 слов) +13 |
+| `docs/02-anthropic-vacancies/93-18-reference-implementation.md` | +22 | — | — |
+| `docs/02-anthropic-vacancies/24-12-versioning-policy.md` | +21 | Contents | — |
+| `docs/05-habr-projects/QA.md` | +21 | Какие кластеры найма выделены у Anthropic?, Какие роли наиболее релевантны для профиля svend4? | — |
+| `docs/COVERAGE.md` | -21 | Файлы с низким покрытием (< 3 признаков) — 22 файлов | Файлы с низким покрытием (< 3 признаков) — 25 файлов |
+| `docs/01-svyazi/README.md` | +20 | Svyazi[^svyazi] 2.0 — Архитектура и исследование | Svyazi 2.0 — Архитектура и исследование |
+| `docs/KPI.md` | +20 | Версия (389), Время (277), Количество (203) +4 | Версия (384), Время (275), Количество (179) +4 |
+| `docs/03-technology-combinations/04-sozialrecht-domain.md` | +19 | — | — |
+| `docs/02-anthropic-vacancies/59-angle-perspective.md` | +17 | — | — |
+| `docs/02-anthropic-vacancies/61-compatibility-level.md` | +17 | — | — |
+| `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` | +16 | Contents | — |
+| `docs/02-anthropic-vacancies/43-history.md` | +16 | — | — |
+| `docs/PRIORITIES.md` | -16 | — | — |
+| `docs/NAMED_ENTITIES.md` | +15 | `2026-04-29` (36 файлов), `2026-04` (119 файлов), `CardIndex` (125 файлов) +22 | `2026-04` (88 файлов), `CardIndex` (120 файлов), `GitHub` (234 файлов) +22 |
+| `docs/ai-collaborations/continuation/01-shared-memory-between-agents.md` | +15 | — | — |
+| `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md` | +15 | — | — |
+| `docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md` | +15 | — | — |
+| `docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md` | +15 | — | — |
+| `docs/nautilus/review-methodology/00-tldr.md` | +15 | — | — |
+| `docs/nautilus/review-methodology/05-conditions-of-applicability.md` | +15 | — | — |
+| `docs/nautilus/review-methodology/06-relation-existing-methodologies.md` | +15 | — | — |
+| `docs/nautilus/review-methodology/12-appendix-a-header-warning.md` | +15 | — | — |
+| `docs/nautilus/review-methodology/14-main-technical-risks.md` | +15 | — | — |
+| `docs/svyazi-2-0/security/budget-routing.md` | +15 | — | — |
+| `docs/svyazi-2-0/security/default-policy.md` | +15 | — | — |
+| `docs/svyazi-2-0/security/privacy.md` | +15 | — | — |
+| `docs/02-anthropic-vacancies/48-content-overview.md` | +14 | — | — |
+| `docs/ai-collaborations/README.md` | -14 | — | — |
+| `docs/svyazi-2-0/ensembles/D-voice-first-mesh.md` | +13 | — | — |
+| `docs/02-anthropic-vacancies/22-10-queryresult-structure.md` | +10 | — | — |
+| `docs/CITATION_INDEX.md` | -10 | `https://github.com/svend4/info1`, `https://habr.com/ru/articles/495554/`, `https://habr.com/ru/companies/airi/articles/1000720/` | `https://github.com/AnastasiyaW/knowledge-space`, `https://github.com/mcp`, `https://habr.com/ru/companies/airi/articles/855128/` |
+| `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md` | +10 | — | — |
+| `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md` | +10 | — | — |
+| `docs/nautilus/transmission-box/00-question-mountain-to-person.md` | +10 | — | — |
+| `docs/02-anthropic-vacancies/37-native-format.md` | +9 | — | — |
+| `docs/02-anthropic-vacancies/41-compatibility-level.md` | +9 | — | — |
+| `docs/02-anthropic-vacancies/47-native-format.md` | +9 | — | — |
+| `docs/02-anthropic-vacancies/49-angle-perspective.md` | +9 | — | — |
+| `docs/02-anthropic-vacancies/51-compatibility-level.md` | +9 | — | — |
+| `docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md` | +9 | — | — |
+| `docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md` | +9 | — | — |
+| `docs/COMPLEXITY.md` | +9 | — | — |
+| `docs/CROSSREFS.md` | -9 | — | — |
+| `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` | +8 | — | — |
+| `docs/02-anthropic-vacancies/63-history.md` | +8 | — | — |
+| `docs/SPELLCHECK.md` | +8 | `docs/KPI.md`, `docs/SCRIPTS_CATALOG.md` | `docs/TABLES.md` |
+| `docs/CONTENT_GAPS.md` | +7 | `AIF` (27 файлов), `BSG` (30 файлов), `BSL` (41 файлов) +15 | `AIF` (25 файлов), `AutoGen` (22 файлов), `BSG` (29 файлов) +15 |
+| `docs/SENTIMENT.md` | +7 | — | — |
+| `docs/templates/ensemble.md` | +7 | — | — |
+| `docs/02-anthropic-vacancies/42-author-contact.md` | +6 | — | — |
+| `docs/02-anthropic-vacancies/53-history.md` | +6 | — | — |
+| `docs/FAQ.md` | +6 | — | — |
+| `docs/GRAPH.md` | -5 | — | — |
+| `docs/HEALTH.md` | -5 | Общий балл: **77/100** 🟡 | Общий балл: **73/100** 🟡 |
+| `docs/STATS.md` | -5 | — | — |
+| `docs/TAGS.md` | +5 | #anthropic (52 файлов), #architecture (53 файлов), #collaboration (64 файлов) +9 | #anthropic (457 файлов), #architecture (357 файлов), #collaboration (315 файлов) +9 |
+| `docs/03-technology-combinations/README.md` | +4 | — | — |
+| `docs/ORPHANS.md` | -4 | — | — |
+| `docs/FOOTNOTES.md` | -3 | — | — |
+| `docs/SEE_ALSO.md` | +3 | — | — |
+| `docs/04-ai-collaborations/README.md` | -2 | — | — |
+| `docs/ENTITIES.md` | -2 | — | — |
+| `docs/METRICS.md` | +2 | — | — |
+| `docs/MISSING.md` | +2 | — | — |
+| `docs/STALENESS.md` | -2 | Короткие (< 100 слов, заготовки) — 87 файлов | Короткие (< 100 слов, заготовки) — 91 файлов |
+| `docs/02-anthropic-vacancies/QA.md` | +1 | — | — |
+| `docs/COST.md` | +1 | — | — |
+| `docs/HEATMAP.md` | +1 | — | — |
+| `docs/SOURCE_MAP.md` | -1 | — | — |
+| `docs/05-habr-projects/README.md` | 0 | — | — |
+| `docs/05-habr-projects/memory/README.md` | 0 | — | — |
+| `docs/ALERTS.md` | 0 | — | — |
+| `docs/AUTHORS.md` | 0 | — | — |
+| `docs/CONCEPT_GRAPH.md` | 0 | — | — |
+| `docs/CONTACTS.md` | 0 | — | — |
+| `docs/CONTACT_PRIORITY.md` | 0 | — | — |
+| `docs/DENSITY.md` | 0 | — | — |
+| `docs/DIGEST_WEEKLY.md` | 0 | — | — |
+| `docs/GLOSSARY.md` | 0 | — | — |
+| `docs/MINDMAP.md` | 0 | — | — |
+| `docs/NETWORK.md` | 0 | — | — |
+| `docs/READING_ORDER.md` | 0 | — | — |
+| `docs/contacts/README.md` | 0 | — | — |
+| `docs/templates/contact-outreach.md` | 0 | — | — |
+| `docs/templates/project-component.md` | 0 | — | — |
+| `docs/templates/research-note.md` | 0 | — | — |

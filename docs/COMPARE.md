@@ -1,10 +1,10 @@
 # Сравнение с предыдущим коммитом
 
-**Файлов было:** 1025  **стало:** 1190  
-**Слов было:** 743,673  **стало:** 933,393  **Δ:** +189,720
+**Файлов было:** 1048  **стало:** 1193  
+**Слов было:** 779,434  **стало:** 946,556  **Δ:** +167,122
 
 
-## Новые файлы (165)
+## Новые файлы (145)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19144 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3207 слов)
@@ -46,42 +46,42 @@
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (610 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (459 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (658 слов)
-_...и ещё 125_
+_...и ещё 105_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (84) — топ по Δ слов
+## Изменившиеся файлы (75) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `QUESTIONS.md` | 21214 | 1838 | -19376 |
-| `TABLES.md` | 99622 | 112953 | +13331 |
-| `OUTLINE.md` | 27592 | 34216 | +6624 |
-| `PARAGRAPH_QUALITY.md` | 10418 | 15105 | +4687 |
-| `HEADING_AUDIT.md` | 5507 | 8808 | +3301 |
-| `TIMELINE.md` | 2073 | 4280 | +2207 |
-| `EMPTY_SECTIONS.md` | 8827 | 10804 | +1977 |
-| `CONTRADICTIONS.md` | 1526 | 1897 | +371 |
-| `ACTION_ITEMS.md` | 7697 | 8003 | +306 |
-| `READABILITY.md` | 17606 | 17905 | +299 |
-| `CONCEPTS.md` | 13165 | 13438 | +273 |
-| `CODE_BLOCKS.md` | 4618 | 4808 | +190 |
-| `NAMED_ENTITIES.md` | 1448 | 1638 | +190 |
-| `GITHUB_ISSUES.md` | 1148 | 1312 | +164 |
-| `SITEMAP.md` | 6883 | 7004 | +121 |
-| `READING_TIME.md` | 12198 | 12287 | +89 |
-| `REPORT.md` | 911 | 995 | +84 |
+| `QUESTIONS.md` | 21351 | 1838 | -19513 |
+| `OUTLINE.md` | 28293 | 34987 | +6694 |
+| `PARAGRAPH_QUALITY.md` | 10564 | 15331 | +4767 |
+| `HEADING_AUDIT.md` | 5627 | 9008 | +3381 |
+| `TABLES.md` | 112953 | 115626 | +2673 |
+| `TIMELINE.md` | 2210 | 4335 | +2125 |
+| `EMPTY_SECTIONS.md` | 9891 | 11968 | +2077 |
+| `SCRIPTS_CATALOG.md` | 6852 | 7603 | +751 |
+| `CONTRADICTIONS.md` | 1439 | 1811 | +372 |
+| `VALIDATION.md` | 254 | 595 | +341 |
+| `GITHUB_ISSUES.md` | 1545 | 1754 | +209 |
+| `NAMED_ENTITIES.md` | 1471 | 1661 | +190 |
+| `SITEMAP.md` | 7050 | 7171 | +121 |
+| `ACTION_ITEMS.md` | 8003 | 8117 | +114 |
+| `TASKS_INDEX.md` | 956 | 1055 | +99 |
+| `CODE_BLOCKS.md` | 4808 | 4713 | -95 |
+| `REPORT.md` | 911 | 1005 | +94 |
+| `READING_TIME.md` | 12431 | 12520 | +89 |
 | `COST.md` | 547 | 629 | +82 |
 | `SOURCE_MAP.md` | 6086 | 6167 | +81 |
-| `CITATION_INDEX.md` | 861 | 934 | +73 |
-| `QA.md` | 1290 | 1363 | +73 |
-| `KNOWLEDGE_MAP.md` | 577 | 647 | +70 |
-| `LANGUAGE_STATS.md` | 6573 | 6638 | +65 |
+| `REGISTRY.md` | 1293 | 1371 | +78 |
+| `CITATION_INDEX.md` | 861 | 935 | +74 |
+| `KNOWLEDGE_MAP.md` | 578 | 649 | +71 |
+| `CHANGELOG.md` | 1280 | 1345 | +65 |
+| `LANGUAGE_STATS.md` | 6709 | 6774 | +65 |
 | `COVERAGE.md` | 595 | 659 | +64 |
+| `VERSION_DIFF.md` | 4209 | 4273 | +64 |
 | `SCHEDULE.md` | 271 | 332 | +61 |
 | `VOCABULARY.md` | 882 | 943 | +61 |
-| `TAGS.md` | 544 | 600 | +56 |
-| `ABBREVIATIONS.md` | 1532 | 1587 | +55 |
-| `DUPLICATES.md` | 2750 | 2695 | -55 |
-| `PROGRESS.md` | 238 | 292 | +54 |
+| `PROGRESS.md` | 258 | 313 | +55 |

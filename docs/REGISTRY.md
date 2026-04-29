@@ -1,5 +1,35 @@
 # REGISTRY — реестр артефактов Lorenzo
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> python scripts/improve_template_init.py --type rfc --slug docs/rfcs/RFC-NNNN.md
+**Проекты:** Svyazi
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Сводка](#сводка)
+- [Скрипты по группам](#скрипты-по-группам)
+- [Шаблоны](#шаблоны)
+- [Скилы](#скилы)
+- [MCP-серверы](#mcp-серверы)
+- [Манифесты задач](#манифесты-задач)
+- [Контакты](#контакты)
+- [Полезные команды](#полезные-команды)
+
+---
+
+<!-- tags: knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 ## Сводка
@@ -167,3 +197,14 @@ python scripts/improve_task_codegen.py
 # Реестр артефактов (этот файл)
 python scripts/improve_registry.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TASKS_INDEX](docs/TASKS_INDEX.md)
+- [PROGRESS](docs/PROGRESS.md)
+- [GITHUB_ISSUES](docs/GITHUB_ISSUES.md)
+- [EMPTY_SECTIONS](docs/EMPTY_SECTIONS.md)
+

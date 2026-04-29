@@ -7,16 +7,16 @@
 | **knowledge-space** | `knowledge-space` | `knowledgespace` | 3 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 16 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 2 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 21 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 39 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 18 |
+| **AI Factory** | `AI Factory` | `AI-Factory` | 22 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 40 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 19 |
 | **local-first** | `local-first` | `localfirst` | 3 |
-| **self-improvement** | `self-improvement` | `self-improve` | 149 |
+| **self-improvement** | `self-improvement` | `self-improve` | 156 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 17 |
-| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 14 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 18 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 15 |
 
-**Всего несогласованных написаний: 286**
+**Всего несогласованных написаний: 298**
 
 
 ## Детали по файлам
@@ -49,7 +49,7 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
-- _...и ещё 16_
+- _...и ещё 17_
 
 ### `NGT-Memory` → должно быть `NGT Memory`
 
@@ -58,7 +58,7 @@
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/DEPENDABOT.md`
 - `docs/EMPTY_SECTIONS.md`
-- _...и ещё 34_
+- _...и ещё 35_
 
 ### `Auto-AI-Router` → должно быть `Auto AI Router`
 
@@ -67,7 +67,7 @@
 - `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
 - `docs/SITEMAP.md`
-- _...и ещё 13_
+- _...и ещё 14_
 
 ### `localfirst` → должно быть `local-first`
 
@@ -80,9 +80,9 @@
 - `docs/READING_LIST.md`
 - `docs/CONTACTS.md`
 - `docs/PARAGRAPH_QUALITY.md`
+- `docs/DIGEST_AUTO.md`
 - `docs/LLM_SUMMARIES.md`
-- `docs/SPELLCHECK.md`
-- _...и ещё 144_
+- _...и ещё 151_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
@@ -98,7 +98,7 @@
 - `docs/QA.md`
 - `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
-- _...и ещё 12_
+- _...и ещё 13_
 
 ### `Card-Envelope` → должно быть `Card Envelope`
 
@@ -106,8 +106,8 @@
 - `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
 - `docs/SITEMAP.md`
-- `docs/READING_TIME.md`
-- _...и ещё 9_
+- `docs/VERSION_DIFF.md`
+- _...и ещё 10_
 
 ## Как исправить
 

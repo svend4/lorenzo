@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-Найдено пробелов: **392** (мин. упоминаний: 3)
+Найдено пробелов: **390** (мин. упоминаний: 3)
 
 > Концепции, упоминаемые во многих файлах, но не имеющие собственного документа.
 
@@ -10,8 +10,8 @@ _Обновлено: 2026-04-29_
 
 | Концепция | Упоминаний | Рекомендуемая папка |
 |-----------|-----------|-------------------|
-| `MHTML` | 501 | `docs/nautilus/` |
-| `NPP` | 74 | `docs/nautilus/` |
+| `MHTML` | 502 | `docs/nautilus/` |
+| `NPP` | 76 | `docs/nautilus/` |
 | `GDPR` | 60 | `docs/nautilus/` |
 | `MUST` | 57 | `docs/nautilus/` |
 | `SHOULD` | 42 | `docs/nautilus/` |
@@ -20,62 +20,62 @@ _Обновлено: 2026-04-29_
 | `XII` | 32 | `docs/nautilus/` |
 | `PII` | 31 | `docs/nautilus/` |
 | `BSG` | 30 | `docs/02-anthropic-vacancies/` |
+| `LinkedIn` | 30 | `docs/nautilus/` |
+| `URL` | 29 | `docs/02-anthropic-vacancies/` |
 | `MAY` | 29 | `docs/nautilus/` |
-| `LinkedIn` | 28 | `docs/nautilus/` |
-| `URL` | 28 | `docs/02-anthropic-vacancies/` |
-| `AIF` | 27 | `docs/04-ai-collaborations/` |
+| `AIF` | 27 | `docs/svyazi-2-0/` |
 | `KSV` | 27 | `docs/nautilus/` |
-| `HMP` | 25 | `docs/lorenzo-agent/` |
-| `YiJing` | 24 | `docs/02-anthropic-vacancies/` |
+| `YiJing` | 25 | `docs/02-anthropic-vacancies/` |
+| `HMP` | 24 | `docs/lorenzo-agent/` |
+| `HIPAA` | 23 | `docs/02-anthropic-vacancies/` |
 | `EMEA` | 23 | `docs/anthropic-vacancies/` |
 | `RLM` | 22 | `docs/svyazi-2-0/` |
 | `IDF` | 22 | `docs/svyazi-2-0/` |
-| `HIPAA` | 22 | `docs/02-anthropic-vacancies/` |
 | `AutoGen` | 22 | `docs/nautilus/` |
-| `EIC` | 21 | `docs/nautilus/` |
-| `OpenWhispr` | 18 | `docs/svyazi-2-0/` |
-| `LCI` | 18 | `docs/02-anthropic-vacancies/` |
-| `RSS` | 18 | `docs/02-anthropic-vacancies/` |
+| `EIC` | 22 | `docs/nautilus/` |
+| `RSS` | 20 | `docs/lorenzo-agent/` |
+| `OpenWhispr` | 18 | `docs/04-ai-collaborations/` |
+| `LCI` | 18 | `docs/habr-unique-projects/` |
 | `CodeWiki` | 17 | `docs/svyazi-2-0/` |
 | `BaseAdapter` | 17 | `docs/02-anthropic-vacancies/` |
-| `ChatDev` | 16 | `docs/nautilus/` |
 | `DeepSeek` | 16 | `docs/habr-unique-projects/` |
+| `ChatDev` | 16 | `docs/nautilus/` |
 | `LangChain` | 15 | `docs/02-anthropic-vacancies/` |
+| `NNNN` | 15 | `docs/templates/` |
 | `III` | 14 | `docs/02-anthropic-vacancies/` |
 | `DOCX` | 14 | `docs/nautilus/` |
 | `AIRI` | 14 | `docs/habr-unique-projects/` |
+| `author:` | 14 | `docs/contacts/` |
+| `author_handle:` | 14 | `docs/contacts/` |
+| `projects: [` | 14 | `docs/contacts/` |
+| `CRM` | 13 | `docs/nautilus/` |
 | `HTTP` | 13 | `docs/02-anthropic-vacancies/` |
 | `IBM` | 13 | `docs/technology-combinations/` |
-| `NNNN` | 13 | `docs/templates/` |
 | `Composite Skills Agents` | 13 | `docs/nautilus/` |
 | `Professional Colleague Agents (EN)` | 13 | `docs/nautilus/` |
 | `Профессиональные Коллеги-Агенты (RU)` | 13 | `docs/nautilus/` |
 | `Representative Agent Layer (EN)` | 13 | `docs/nautilus/` |
 | `Representative Agent Layer (RU)` | 13 | `docs/nautilus/` |
-| `FAISS` | 12 | `docs/04-ai-collaborations/` |
 | `STDP` | 12 | `docs/habr-unique-projects/` |
-| `CRM` | 12 | `docs/04-ai-collaborations/` |
+| `FAISS` | 12 | `docs/04-ai-collaborations/` |
+| `GPU` | 12 | `docs/habr-unique-projects/` |
 | `TypeScript` | 12 | `docs/02-anthropic-vacancies/` |
-| `DeepMind` | 12 | `docs/02-anthropic-vacancies/` |
-| `SGG` | 12 | `docs/nautilus/` |
-| `GPU` | 11 | `docs/habr-unique-projects/` |
-| `RDF` | 11 | `docs/02-anthropic-vacancies/` |
 
 ## Детали по топ-20 пробелам
 
-### `MHTML` (501 файлов)
+### `MHTML` (502 файлов)
 
 Упоминается в:
 - `docs/CHANGELOG.md`
 - `docs/OUTLINE.md`
+- `docs/TABLES.md`
 - `docs/ai-collaborations/candidates/01-three-key-candidates.md`
 - `docs/ai-collaborations/candidates/02-related-projects-context.md`
-- `docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md`
-- ... и ещё 496 файлах
+- ... и ещё 497 файлах
 
 Создать: `docs/nautilus/mhtml.md`
 
-### `NPP` (74 файлов)
+### `NPP` (76 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/04-abstract.md`
@@ -83,7 +83,7 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/07-2-terminology.md`
 - `docs/02-anthropic-vacancies/104-appendix-c-references.md`
 - `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`
-- ... и ещё 69 файлах
+- ... и ещё 71 файлах
 
 Создать: `docs/nautilus/npp.md`
 
@@ -183,6 +183,30 @@ _Обновлено: 2026-04-29_
 
 Создать: `docs/02-anthropic-vacancies/bsg.md`
 
+### `LinkedIn` (30 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+- `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
+- `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md`
+- `docs/02-anthropic-vacancies/162-8-risk-analysis.md`
+- `docs/02-anthropic-vacancies/165-closing.md`
+- ... и ещё 25 файлах
+
+Создать: `docs/nautilus/linkedin.md`
+
+### `URL` (29 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
+- `docs/02-anthropic-vacancies/145-8-call-to-action.md`
+- `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md`
+- `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
+- ... и ещё 24 файлах
+
+Создать: `docs/02-anthropic-vacancies/url.md`
+
 ### `MAY` (29 файлов)
 
 Упоминается в:
@@ -195,30 +219,6 @@ _Обновлено: 2026-04-29_
 
 Создать: `docs/nautilus/may.md`
 
-### `LinkedIn` (28 файлов)
-
-Упоминается в:
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
-- `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md`
-- `docs/02-anthropic-vacancies/162-8-risk-analysis.md`
-- `docs/02-anthropic-vacancies/165-closing.md`
-- ... и ещё 23 файлах
-
-Создать: `docs/nautilus/linkedin.md`
-
-### `URL` (28 файлов)
-
-Упоминается в:
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
-- `docs/02-anthropic-vacancies/145-8-call-to-action.md`
-- `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md`
-- `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
-- ... и ещё 23 файлах
-
-Создать: `docs/02-anthropic-vacancies/url.md`
-
 ### `AIF` (27 файлов)
 
 Упоминается в:
@@ -229,7 +229,7 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
 - ... и ещё 22 файлах
 
-Создать: `docs/04-ai-collaborations/aif.md`
+Создать: `docs/svyazi-2-0/aif.md`
 
 ### `KSV` (27 файлов)
 
@@ -243,19 +243,7 @@ _Обновлено: 2026-04-29_
 
 Создать: `docs/nautilus/ksv.md`
 
-### `HMP` (25 файлов)
-
-Упоминается в:
-- `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
-- `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md`
-- `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md`
-- `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md`
-- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- ... и ещё 20 файлах
-
-Создать: `docs/lorenzo-agent/hmp.md`
-
-### `YiJing` (24 файлов)
+### `YiJing` (25 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/00-intro.md`
@@ -263,9 +251,33 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
 - `docs/02-anthropic-vacancies/45-passports-pro2-md.md`
 - `docs/02-anthropic-vacancies/46-essence.md`
-- ... и ещё 19 файлах
+- ... и ещё 20 файлах
 
 Создать: `docs/02-anthropic-vacancies/yijing.md`
+
+### `HMP` (24 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
+- `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md`
+- `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md`
+- `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md`
+- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
+- ... и ещё 19 файлах
+
+Создать: `docs/lorenzo-agent/hmp.md`
+
+### `HIPAA` (23 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/00-intro.md`
+- `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md`
+- `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md`
+- `docs/02-anthropic-vacancies/179-10-open-questions.md`
+- `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md`
+- ... и ещё 18 файлах
+
+Создать: `docs/02-anthropic-vacancies/hipaa.md`
 
 ### `EMEA` (23 файлов)
 
@@ -291,18 +303,6 @@ _Обновлено: 2026-04-29_
 
 Создать: `docs/svyazi-2-0/rlm.md`
 
-### `IDF` (22 файлов)
-
-Упоминается в:
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/01-svyazi/04-ensembles-overview.md`
-- `docs/02-anthropic-vacancies/86-11-relevance-ranking.md`
-- `docs/04-ai-collaborations/00-intro.md`
-- `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-- ... и ещё 17 файлах
-
-Создать: `docs/svyazi-2-0/idf.md`
-
 
 <!-- see-also -->
 
@@ -310,7 +310,7 @@ _Обновлено: 2026-04-29_
 
 **Смотрите также:**
 - [CLUSTERS](docs/CLUSTERS.md)
-- [NAMED_ENTITIES](docs/NAMED_ENTITIES.md)
 - [READING_ORDER](docs/READING_ORDER.md)
 - [SEARCH](docs/SEARCH.md)
+- [NAMED_ENTITIES](docs/NAMED_ENTITIES.md)
 
