@@ -7,13 +7,21 @@ Stage 3c: RAG без векторной БД — поиск по search_index.js
   2. Batch: читает вопросы из файла, пишет ответы в docs/QA_ANSWERS.md
   3. Single: ответ на один вопрос через --question "..."
 
+Флаги:
+  --save      Сохранять каждый ответ в docs/QA_ANSWERS.md (работает во всех режимах)
+  --no-cache  Отключить JSON-кэш (по умолчанию кэш включён, экономит токены)
+  --clear-cache  Очистить кэш ответов
+
 Стоимость: ~$0.003-0.01 на вопрос (haiku), зависит от числа найденных источников.
+Кэш сохраняет ответы в docs/qa_cache.json — повторные вопросы бесплатны.
 
 Запуск:
     python scripts/improve_llm_qa.py                             # интерактивный режим
     python scripts/improve_llm_qa.py --question "Что такое NGT?" # один вопрос
+    python scripts/improve_llm_qa.py --question "..." --save     # + сохранить ответ
     python scripts/improve_llm_qa.py --batch docs/QUESTIONS.md   # batch из файла
     python scripts/improve_llm_qa.py --dry-run --question "..."  # план без API
+    python scripts/improve_llm_qa.py --clear-cache               # сбросить кэш
 """
 import re
 import sys
@@ -28,12 +36,16 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from utils_chunker import chunk_by_paragraphs, estimate_tokens  # noqa: E402
 
-DRY_RUN   = "--dry-run" in sys.argv
-TODAY     = date.today().isoformat()
-MODEL     = "claude-haiku-4-5-20251001"
-INDEX_PATH = DOCS / "search_index.json"
-TOP_K     = 5   # сколько документов брать для контекста
-MAX_CTX   = 6000  # символов контекста на вопрос
+DRY_RUN     = "--dry-run"     in sys.argv
+SAVE        = "--save"        in sys.argv
+NO_CACHE    = "--no-cache"    in sys.argv
+CLEAR_CACHE = "--clear-cache" in sys.argv
+TODAY       = date.today().isoformat()
+MODEL       = "claude-haiku-4-5-20251001"
+INDEX_PATH  = DOCS / "search_index.json"
+CACHE_PATH  = DOCS / "qa_cache.json"
+TOP_K       = 5     # сколько документов брать для контекста
+MAX_CTX     = 6000  # символов контекста на вопрос
 
 
 # ---------------------------------------------------------------------------
@@ -107,7 +119,7 @@ def build_context(docs: list[dict], max_chars: int = MAX_CTX) -> str:
     for doc in docs:
         title   = doc.get("title", doc.get("path", "?"))
         path    = doc.get("path", "")
-        content = doc.get("content", "")[:800]  # первые 800 символов
+        content = _doc_text(doc)[:800]
         entry   = f"[Источник: {title}]({path})\n{content}"
         if len(entry) > budget:
             entry = entry[:budget]
@@ -116,6 +128,58 @@ def build_context(docs: list[dict], max_chars: int = MAX_CTX) -> str:
         if budget <= 0:
             break
     return "\n\n---\n\n".join(parts)
+
+
+# ---------------------------------------------------------------------------
+# Кэш ответов (docs/qa_cache.json) — экономит токены на повторных вопросах
+# ---------------------------------------------------------------------------
+
+def _cache_key(question: str) -> str:
+    import hashlib
+    return hashlib.md5(question.strip().lower().encode()).hexdigest()[:12]
+
+
+def load_cache() -> dict:
+    if NO_CACHE or not CACHE_PATH.exists():
+        return {}
+    try:
+        return json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def save_cache(cache: dict) -> None:
+    if NO_CACHE:
+        return
+    CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def get_cached(question: str, cache: dict) -> str | None:
+    entry = cache.get(_cache_key(question))
+    if entry:
+        return entry.get("answer")
+    return None
+
+
+def put_cached(question: str, answer: str, cache: dict) -> None:
+    cache[_cache_key(question)] = {"question": question, "answer": answer, "date": TODAY}
+
+
+# ---------------------------------------------------------------------------
+# Сохранение ответа в QA_ANSWERS.md
+# ---------------------------------------------------------------------------
+
+def append_to_qa_answers(question: str, answer: str, sources: list[dict]) -> None:
+    header_needed = not QA_ANSWERS_PATH.exists()
+    source_list = "\n".join(
+        f"- [{d.get('title', d.get('path', '?'))}]({d.get('path', '')})"
+        for d in sources
+    )
+    entry = f"### {question}\n\n{answer}\n\n**Источники:**\n{source_list}\n\n---\n"
+    with open(QA_ANSWERS_PATH, "a", encoding="utf-8") as f:
+        if header_needed:
+            f.write(QA_ANSWERS_HEADER)
+        f.write(entry)
 
 
 # ---------------------------------------------------------------------------
@@ -196,8 +260,9 @@ ANSWER_TEMPLATE = """\
 # Точка входа
 # ---------------------------------------------------------------------------
 
-def single_question(question: str, index: list[dict], client=None) -> None:
-    """Отвечает на один вопрос."""
+def single_question(question: str, index: list[dict], client=None,
+                    cache: dict | None = None) -> str:
+    """Отвечает на один вопрос. Возвращает текст ответа."""
     docs = find_relevant(question, index)
     print(f"\n  Найдено источников: {len(docs)}")
     for d in docs:
@@ -207,15 +272,37 @@ def single_question(question: str, index: list[dict], client=None) -> None:
         context = build_context(docs)
         tokens = estimate_tokens(QA_PROMPT.format(question=question, context=context))
         print(f"  Токенов запроса: ~{tokens:,}  (~${tokens/1e6*0.25:.4f})")
-        return
+        return ""
+
+    # Проверяем кэш
+    if cache is not None:
+        cached = get_cached(question, cache)
+        if cached:
+            print("  (из кэша, API не вызывался)")
+            print(f"\n{cached}\n")
+            if SAVE:
+                append_to_qa_answers(question, cached, docs)
+                print("  📝 Сохранено в QA_ANSWERS.md")
+            return cached
 
     context = build_context(docs)
     answer = ask_llm(question, context, client)
     print(f"\n{answer}\n")
 
+    if cache is not None:
+        put_cached(question, answer, cache)
+        save_cache(cache)
 
-def interactive_mode(index: list[dict], client) -> None:
-    print("\nИнтерактивный режим. Введите вопрос (или 'exit'):\n")
+    if SAVE:
+        append_to_qa_answers(question, answer, docs)
+        print("  📝 Сохранено в QA_ANSWERS.md")
+
+    return answer
+
+
+def interactive_mode(index: list[dict], client, cache: dict) -> None:
+    save_hint = " (ответы сохраняются в QA_ANSWERS.md)" if SAVE else " (--save для сохранения)"
+    print(f"\nИнтерактивный режим{save_hint}. Введите вопрос (или 'exit'):\n")
     while True:
         try:
             q = input("❓ ").strip()
@@ -224,39 +311,60 @@ def interactive_mode(index: list[dict], client) -> None:
             break
         if not q or q.lower() in ("exit", "quit", "выход"):
             break
-        single_question(q, index, client)
+        single_question(q, index, client, cache)
         time.sleep(0.3)
 
 
-def batch_mode(batch_path: Path, index: list[dict], client) -> None:
+def batch_mode(batch_path: Path, index: list[dict], client, cache: dict) -> None:
     questions = extract_questions_from_md(batch_path)
     print(f"Вопросов из {batch_path.name}: {len(questions)}\n")
 
-    if not QA_ANSWERS_PATH.exists():
-        QA_ANSWERS_PATH.write_text(QA_ANSWERS_HEADER, encoding="utf-8")
-
+    saved = 0
     for q in questions:
         print(f"  🔄 {q[:60]}...")
         docs = find_relevant(q, index)
         if not docs:
             print("     нет источников — пропускаем")
             continue
-        context = build_context(docs)
-        answer = ask_llm(q, context, client)
-        entry = ANSWER_TEMPLATE.format(question=q, answer=answer)
-        with open(QA_ANSWERS_PATH, "a", encoding="utf-8") as f:
-            f.write(entry)
-        print(f"  ✅ записано в QA_ANSWERS.md")
-        time.sleep(0.5)
+        # batch режим всегда сохраняет (--save подразумевается)
+        cached = get_cached(q, cache)
+        if cached:
+            answer = cached
+            print("  (из кэша)")
+        else:
+            context = build_context(docs)
+            answer = ask_llm(q, context, client)
+            put_cached(q, answer, cache)
+            save_cache(cache)
+            time.sleep(0.5)
 
-    print(f"\n✅ Ответы: {QA_ANSWERS_PATH.relative_to(ROOT)}")
+        append_to_qa_answers(q, answer, docs)
+        saved += 1
+        print(f"  ✅ записано в QA_ANSWERS.md")
+
+    print(f"\n✅ Ответы ({saved}): {QA_ANSWERS_PATH.relative_to(ROOT)}")
 
 
 def main():
     print("❓ improve_llm_qa.py — Q&A по базе знаний Lorenzo")
     print(f"   Модель: {MODEL}")
-    if DRY_RUN:
-        print("   Режим: dry-run\n")
+    if DRY_RUN:    print("   Режим: dry-run")
+    if SAVE:       print("   Режим: --save (ответы → QA_ANSWERS.md)")
+    if NO_CACHE:   print("   Режим: --no-cache")
+    print()
+
+    # Управление кэшем
+    if CLEAR_CACHE:
+        if CACHE_PATH.exists():
+            CACHE_PATH.unlink()
+            print(f"✅ Кэш очищен: {CACHE_PATH.relative_to(ROOT)}")
+        else:
+            print("ℹ️  Кэш уже пуст")
+        return
+
+    cache = load_cache()
+    if cache and not NO_CACHE:
+        print(f"   Кэш: {len(cache)} ответов в {CACHE_PATH.name}")
 
     index = load_index()
     if not index:
@@ -281,7 +389,7 @@ def main():
 
     if DRY_RUN:
         q = question_arg or "Что такое NGT Memory?"
-        single_question(q, index, client=None)
+        single_question(q, index, client=None, cache=None)
         return
 
     try:
@@ -293,11 +401,11 @@ def main():
     client = anthropic.Anthropic()
 
     if question_arg:
-        single_question(question_arg, index, client)
+        single_question(question_arg, index, client, cache)
     elif batch_arg:
-        batch_mode(Path(batch_arg), index, client)
+        batch_mode(Path(batch_arg), index, client, cache)
     else:
-        interactive_mode(index, client)
+        interactive_mode(index, client, cache)
 
 
 if __name__ == "__main__":

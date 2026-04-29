@@ -3,11 +3,12 @@ improve_run_all.py — мастер-скрипт для запуска всех 
 Запускает скрипты в правильном порядке (зависимости учтены).
 
 Флаги:
-  --fast     Пропускает медленные скрипты (clusters, similar, html-export)
-  --smart    Условный запуск: пропускает если метрика выше порога
-  --dry-run  Показывает план без реального запуска
-  --group X  Запускает только одну группу
-  --changed  Запускает только скрипты, связанные с git-изменёнными файлами
+  --fast          Пропускает медленные скрипты (clusters, similar, html-export)
+  --smart         Условный запуск: пропускает если метрика выше порога
+  --dry-run       Показывает план без реального запуска
+  --group X       Запускает только одну группу
+  --changed       Запускает только скрипты, связанные с git-изменёнными файлами
+  --only a,b,c    Запускает конкретные скрипты (без группировки)
 
 Группы (в порядке выполнения):
   structure → index → analysis → extract → quality →
@@ -17,6 +18,7 @@ improve_run_all.py — мастер-скрипт для запуска всех 
         python scripts/improve_run_all.py --fast --smart
         python scripts/improve_run_all.py --group generate
         python scripts/improve_run_all.py --changed
+        python scripts/improve_run_all.py --only improve_metrics.py,improve_health.py
 """
 import re
 import subprocess
@@ -292,10 +294,22 @@ def main():
     smart    = "--smart"   in args
     changed  = "--changed" in args
     group_filter = None
+    only_scripts: list[str] = []
+
     if "--group" in args:
         idx = args.index("--group")
         if idx + 1 < len(args):
             group_filter = args[idx + 1]
+
+    if "--only" in args:
+        idx = args.index("--only")
+        if idx + 1 < len(args):
+            raw = args[idx + 1].split(",")
+            for name in raw:
+                name = name.strip()
+                if not name.endswith(".py"):
+                    name += ".py"
+                only_scripts.append(name)
 
     print("=" * 60)
     print("Lorenzo — запуск всех скриптов обработки")
@@ -303,6 +317,7 @@ def main():
     if dry_run: print("  Режим: DRY-RUN (реальный запуск отключён)")
     if smart:   print("  Режим: SMART (условный запуск по метрикам)")
     if changed: print("  Режим: CHANGED (только скрипты для изменённых файлов)")
+    if only_scripts: print(f"  Режим: ONLY — {', '.join(only_scripts)}")
     if group_filter: print(f"  Группа: {group_filter}")
     print("=" * 60)
 
@@ -310,6 +325,31 @@ def main():
     total_err  = 0
     total_skip = 0
     total_time = 0.0
+
+    # --only: запускаем список скриптов напрямую, без группировки
+    if only_scripts:
+        print(f"\n{'─'*40}")
+        print(f"Запуск: {len(only_scripts)} скриптов")
+        print(f"{'─'*40}")
+        for script in only_scripts:
+            if script in LLM_SCRIPTS:
+                print(f"  🤖 {script} — пропущен (требует ANTHROPIC_API_KEY)")
+                total_skip += 1
+                continue
+            ok, elapsed = run_script(script, dry_run)
+            if ok:
+                total_ok += 1
+            else:
+                total_err += 1
+            total_time += elapsed
+
+        print("\n" + "=" * 60)
+        print(f"Итог: ✅ {total_ok} успешно  ❌ {total_err} ошибок  "
+              f"⏩ {total_skip} пропущено  ⏱ {total_time:.0f}с")
+        print("=" * 60)
+        if total_err > 0:
+            sys.exit(1)
+        return
 
     if group_filter:
         groups_to_run = [group_filter]

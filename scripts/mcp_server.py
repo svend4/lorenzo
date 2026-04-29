@@ -3,13 +3,14 @@ mcp_server.py — MCP-сервер Lorenzo: инструменты для раб
 Stage 5: постоянный сервис, доступный любому MCP-совместимому LLM-агенту.
 
 Инструменты:
-  search_docs(query)         — полнотекстовый поиск по search_index.json
-  get_decisions(topic)       — решения по теме из DECISIONS.md
-  get_contacts(project)      — контакты авторов из CONTACTS.md
-  get_project_status(name)   — теги, упоминания, связи проекта
-  run_improve(script, dry_run) — запустить скрипт обработки
-  get_health()               — общий балл здоровья репозитория
-  list_scripts()             — список доступных скриптов
+  search_docs(query)              — полнотекстовый поиск по search_index.json
+  get_decisions(topic)            — решения по теме из DECISIONS.md
+  get_contacts(project)           — контакты авторов из CONTACTS.md
+  get_project_status(name)        — теги, упоминания, связи проекта
+  run_improve(script, dry_run)    — запустить скрипт обработки
+  get_health()                    — общий балл здоровья репозитория
+  list_scripts()                  — список доступных скриптов
+  update_contact_status(author, status, note) — обновить статус контакта
 
 Установка:
   pip install mcp
@@ -213,6 +214,33 @@ async def list_tools() -> list[Tool]:
                 },
             },
         ),
+        Tool(
+            name="update_contact_status",
+            description=(
+                "Обновляет статус контакта автора в docs/contacts/<author>.md. "
+                "Устанавливает чекбокс studied/messaged/replied/agreed и/или добавляет заметку. "
+                "Автоматически синхронизирует PROGRESS.md."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "author": {
+                        "type": "string",
+                        "description": "Имя автора (или часть имени): kksudo, spbmolot, kk…",
+                    },
+                    "status": {
+                        "type": "string",
+                        "description": "Новый статус: studied | messaged | replied | agreed",
+                        "enum": ["studied", "messaged", "replied", "agreed"],
+                    },
+                    "note": {
+                        "type": "string",
+                        "description": "Текстовая заметка (опционально), добавляется в раздел ## Заметки",
+                    },
+                },
+                "required": ["author"],
+            },
+        ),
     ]
 
 
@@ -240,6 +268,12 @@ def _dispatch(name: str, args: dict) -> str:
         return _tool_health()
     if name == "list_scripts":
         return _tool_list_scripts(args.get("group", "all"))
+    if name == "update_contact_status":
+        return _tool_update_contact(
+            args.get("author", ""),
+            args.get("status", ""),
+            args.get("note", ""),
+        )
     return f"Неизвестный инструмент: {name}"
 
 
@@ -428,6 +462,91 @@ def _tool_list_scripts(group: str) -> str:
     keywords = group_map[group]
     matched = [s for s in all_scripts if any(k in s for k in keywords)]
     return f"**Группа {group}** ({len(matched)} скриптов):\n" + "\n".join(f"- `{s}`" for s in matched)
+
+
+CONTACT_CHECKBOXES = {
+    "studied":  "Изучили профиль",
+    "messaged": "Написали первое сообщение",
+    "replied":  "Получили ответ",
+    "agreed":   "Договорились о сотрудничестве",
+}
+
+
+def _tool_update_contact(author: str, status: str, note: str) -> str:
+    """Обновляет чекбокс и/или добавляет заметку в файл контакта."""
+    import re as _re
+    from datetime import date as _date
+
+    if not author:
+        return "❌ Укажите имя автора (author)."
+
+    contact_dir = DOCS / "contacts"
+    if not contact_dir.exists():
+        return "❌ docs/contacts/ не найден. Запустите improve_autofill.py"
+
+    query = author.lower()
+    candidates = [f for f in contact_dir.glob("*.md") if query in f.stem.lower()]
+
+    if len(candidates) == 0:
+        slug = _re.sub(r'[^a-z0-9]', '-', query)
+        direct = contact_dir / f"{slug}.md"
+        if direct.exists():
+            candidates = [direct]
+        else:
+            available = sorted(f.stem for f in contact_dir.glob("*.md"))
+            return f"❌ Контакт '{author}' не найден.\nДоступные: {', '.join(available)}"
+    elif len(candidates) > 1:
+        return f"❓ Несколько совпадений: {', '.join(f.stem for f in candidates)}. Уточните имя."
+
+    path = candidates[0]
+    text = path.read_text(encoding="utf-8")
+    changes = []
+
+    # Обновляем статус
+    if status and status in CONTACT_CHECKBOXES:
+        label = CONTACT_CHECKBOXES[status]
+        pattern = rf'(\[[ x]\])(\s*{_re.escape(label)})'
+        new_text, count = _re.subn(pattern, rf'[x]\2', text, flags=_re.IGNORECASE)
+        if count > 0:
+            text = new_text
+            changes.append(f"✅ Отмечено: {label}")
+        else:
+            changes.append(f"⚠️ Строка '{label}' не найдена в файле")
+
+    # Добавляем заметку
+    if note:
+        today = _date.today().isoformat()
+        note_line = f"- {today}: {note}"
+        if "## Заметки" in text:
+            text = text.replace("## Заметки\n", f"## Заметки\n{note_line}\n")
+        else:
+            footer = _re.search(r'\n---\n', text)
+            if footer:
+                pos = footer.start()
+                text = text[:pos] + f"\n## Заметки\n\n{note_line}\n" + text[pos:]
+            else:
+                text += f"\n## Заметки\n\n{note_line}\n"
+        changes.append(f"📝 Заметка: {note}")
+
+    if not changes:
+        # Просто показываем текущий статус
+        lines = [f"## Статус контакта: {path.stem}\n"]
+        for key, label in CONTACT_CHECKBOXES.items():
+            checked = bool(_re.search(rf'\[x\].*{_re.escape(label)}', text, _re.IGNORECASE))
+            lines.append(f"{'✅' if checked else '⬜'} {label}")
+        return "\n".join(lines)
+
+    path.write_text(text, encoding="utf-8")
+
+    # Синхронизируем прогресс
+    sync = ROOT / "scripts" / "improve_progress_sync.py"
+    if sync.exists():
+        result = subprocess.run([sys.executable, str(sync)],
+                                capture_output=True, text=True, cwd=ROOT)
+        if result.returncode == 0:
+            changes.append("📊 PROGRESS.md синхронизирован")
+
+    return f"**{path.stem}** обновлён:\n" + "\n".join(changes)
 
 
 # ---------------------------------------------------------------------------
