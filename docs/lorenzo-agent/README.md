@@ -7,6 +7,8 @@
 - [`specification/`](specification/) — процесс уточнения концепта Lorenzo через **10 фундаментальных вопросов** (Direction E). Это пред-история финального промпта.
 - [`phased-deployment/`](phased-deployment/) — **шесть уровней** деплоймента Lorenzo (от Уровня 0 ручного режима до Уровня 5 Network) с conservative escalation logic.
 - [`operationalized/`](operationalized/) — анализ конкретной 6-узловой архитектуры pipeline (Habr Scout → Cards → Knowledge OS → Agent Team Kernel → Forensic RAG → Secure Runtime), которая операционализирует концепт Lorenzo.
+- [`naming/`](naming/) — выбор имени Lorenzo (Lorenzo Medici как patron-фасилитатор) и DHLab / Dream Hub umbrella.
+- [`scenarios/`](scenarios/) — под какие сценарии больше всего подходит Lorenzo (объединение творчества людей в новые программы).
 
 ## Что такое Lorenzo
 

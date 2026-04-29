@@ -21,6 +21,7 @@
 | [`mmorpg-for-programmers/`](mmorpg-for-programmers/) | Гипотеза MMORPG-RPG для программистов / технарей как способ организовать distributed work |
 | [`hermes-comparison/`](hermes-comparison/) | Сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent (Nous Research, 95K+ stars) — где сходства, где различия, переоценка приоритетов |
 | [`nautilus-vs-camel/`](nautilus-vs-camel/) | Можно ли скрестить пассивный Nautilus с активным CAMEL framework; разбор content из info repositories |
+| [`nautilus-pro2-analysis/`](nautilus-pro2-analysis/) | Два «Наутилуса» в репозиториях svend4 — pro2 (YiJing-Transformer) и nautilus (мета-оркестратор), scale invariance — прямой источник идеи NPP |
 
 ## Главный вывод
 
