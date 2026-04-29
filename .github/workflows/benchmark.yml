@@ -1,0 +1,54 @@
+name: Benchmarks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs-toolkit/docstoolkit/**"
+      - "docs-toolkit/bench/**"
+      - ".github/workflows/benchmark.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "docs-toolkit/docstoolkit/**"
+      - "docs-toolkit/bench/**"
+  workflow_dispatch:
+
+jobs:
+  bench:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install docs-toolkit
+        working-directory: docs-toolkit
+        run: pip install -e .
+
+      - name: Run benchmarks (JSON output)
+        working-directory: docs-toolkit
+        run: |
+          python -m bench.runner --json > /tmp/bench-results.json
+          python -m bench.runner
+
+      - name: Save benchmark results
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: /tmp/bench-results.json
+          retention-days: 90
+
+      - name: Compare with main (regression check)
+        if: github.event_name == 'pull_request'
+        working-directory: docs-toolkit
+        continue-on-error: true
+        run: |
+          # Если history.jsonl есть от main → compare
+          if [ -f bench/history.jsonl ]; then
+            python -m bench.runner --suite embeddings search graph cluster jobs --compare 0 --threshold 50
+          else
+            echo "ℹ️  No baseline yet, skipping regression check"
+          fi

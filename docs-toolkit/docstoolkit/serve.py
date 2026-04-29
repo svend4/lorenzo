@@ -57,7 +57,9 @@ NAV = """
   <a href="/">🏠 Home</a>
   <a href="/docs">📚 Docs</a>
   <a href="/templates">📝 Templates</a>
-  <a href="/api/registry">🗂 Registry (JSON)</a>
+  <a href="/search">🔍 Search</a>
+  <a href="/rag">🤖 RAG</a>
+  <a href="/graph">🌐 Graph</a>
   <a href="/api/health">💚 Health (JSON)</a>
 </nav>
 """
@@ -113,16 +115,42 @@ class DocsHandler(http.server.BaseHTTPRequestHandler):
             elif path == "/templates":
                 self._send(200, self._render_templates())
             elif path == "/search":
+                # HTML form + result rendering
                 q = params.get("q", [""])[0]
-                self._send_json(self._search(q))
+                if "json" in params:
+                    self._send_json(self._search(q))
+                else:
+                    self._send(200, self._render_search_ui(q))
+            elif path == "/rag":
+                q = params.get("q", [""])[0]
+                method = params.get("method", ["hybrid"])[0]
+                if "json" in params:
+                    self._send_json(self._rag_ask(q, method))
+                else:
+                    self._send(200, self._render_rag_ui(q, method))
+            elif path == "/graph":
+                self._send(200, self._render_graph_ui())
             elif path == "/api/health":
                 self._send_json(self._health())
             elif path == "/api/registry":
                 self._send_json(self._registry())
+            elif path == "/api/graph":
+                self._send_json(self._graph_data(
+                    int(params.get("max_nodes", ["50"])[0]),
+                    int(params.get("min_edge", ["3"])[0]),
+                ))
+            elif path.startswith("/api/stream/jobs/"):
+                job_id = path[len("/api/stream/jobs/"):]
+                self._stream_job_progress(job_id)
+            elif path == "/api/stream/build":
+                # Streaming embeddings build
+                self._stream_build_index(params.get("provider", ["tfidf"])[0])
+            elif path == "/api/stream/heartbeat":
+                self._stream_heartbeat(int(params.get("count", ["5"])[0]))
             else:
                 self._send(404, _wrap_html("404", "<h1>404 Not Found</h1>"))
         except Exception as e:
-            self._send(500, _wrap_html("Error", f"<h1>500</h1><pre>{e}</pre>"))
+            self._send(500, _wrap_html("Error", f"<h1>500</h1><pre>{_escape(str(e))}</pre>"))
 
     # ----- Renderers -----
 
@@ -292,6 +320,356 @@ class DocsHandler(http.server.BaseHTTPRequestHandler):
             },
             "health": self._health(),
         }
+
+    # ----- New UI endpoints -----
+
+    def _render_search_ui(self, q: str) -> str:
+        result = self._search(q) if q else {"results": []}
+        results_html = ""
+        if q:
+            if not result.get("results"):
+                results_html = f"<p>Ничего не найдено по «{_escape(q)}»</p>"
+            else:
+                rows = []
+                for r in result["results"]:
+                    snippet = _escape(r.get("preview", "")[:300])
+                    title = _escape(r.get("title", r.get("path", "?")))
+                    path = r.get("path", "")
+                    score = r.get("score", 0)
+                    rows.append(
+                        f'<div style="margin-bottom:1.5em;padding:0.5em;'
+                        f'border-left:3px solid #0366d6">'
+                        f'<a href="/docs/{_escape(path[5:] if path.startswith("docs/") else path)}">'
+                        f'<strong>{title}</strong></a> '
+                        f'<span style="color:#586069">score {score:.3f}</span>'
+                        f'<div style="color:#586069;font-size:0.9em">{path}</div>'
+                        f'<p>{snippet}…</p></div>')
+                results_html = f"<p>Найдено: {len(result['results'])}</p>" + "".join(rows)
+
+        body = f"""
+<h1>🔍 Поиск</h1>
+<form action="/search" method="get">
+  <input name="q" placeholder="Запрос..." value="{_escape(q)}" autofocus
+         style="width:60%">
+  <button>Найти</button>
+  <a href="/search?q={urllib.parse.quote(q)}&json=1" style="margin-left:1em">JSON</a>
+</form>
+<hr>
+{results_html}
+"""
+        return _wrap_html("Search", body)
+
+    def _render_rag_ui(self, q: str, method: str = "hybrid") -> str:
+        result_html = ""
+        if q:
+            try:
+                result = self._rag_ask(q, method)
+                citations = result.get("citations", [])
+                cites_html = ""
+                if citations:
+                    rows = []
+                    for c in citations:
+                        rows.append(f'<li>[{c["n"]}] '
+                                    f'<a href="/docs/{_escape(c["doc_id"][5:] if c["doc_id"].startswith("docs/") else c["doc_id"])}">'
+                                    f'<strong>{_escape(c.get("title", c["doc_id"]))}</strong></a> '
+                                    f'<span style="color:#586069">score {c["score"]:.3f}</span></li>')
+                    cites_html = f"<h3>Источники</h3><ol>{''.join(rows)}</ol>"
+                answer_html = _md_to_html(result.get("answer", ""))
+                result_html = (
+                    f'<div style="background:#f6f8fa;padding:1em;border-radius:6px">'
+                    f'<h3>Ответ</h3>{answer_html}{cites_html}'
+                    f'<p style="color:#586069;font-size:0.85em">'
+                    f'Время: {result.get("duration_ms", 0)}ms · '
+                    f'Метод: {result.get("method", "?")} · '
+                    f'Токенов: {result.get("tokens_used", 0)} · '
+                    f'Cost: ${result.get("cost_estimate", 0):.6f}'
+                    f'</p></div>'
+                )
+            except Exception as e:
+                result_html = f'<p style="color:red">Ошибка: {_escape(str(e))}</p>'
+
+        method_options = "".join(
+            f'<option value="{m}"{" selected" if m == method else ""}>{m}</option>'
+            for m in ["hybrid", "keyword", "semantic"]
+        )
+        body = f"""
+<h1>🤖 RAG: вопрос-ответ</h1>
+<form action="/rag" method="get">
+  <input name="q" placeholder="Вопрос..." value="{_escape(q)}" autofocus
+         style="width:55%">
+  <select name="method">{method_options}</select>
+  <button>Спросить</button>
+</form>
+<p style="color:#586069;font-size:0.85em">
+Используется echo answerer (mock). Для реальных ответов установите
+provider через config.</p>
+<hr>
+{result_html}
+"""
+        return _wrap_html("RAG", body)
+
+    def _render_graph_ui(self) -> str:
+        body = """
+<h1>🌐 Knowledge graph</h1>
+<p>Топ концептов и их связей. Загружается из <code>/api/graph</code>.</p>
+
+<div style="margin:1em 0">
+  Max nodes:
+  <select id="max-nodes">
+    <option value="30">30</option>
+    <option value="50" selected>50</option>
+    <option value="100">100</option>
+    <option value="200">200</option>
+  </select>
+  Min edge weight:
+  <select id="min-edge">
+    <option value="2">2</option>
+    <option value="3" selected>3</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+  </select>
+  <button onclick="loadGraph()">Обновить</button>
+</div>
+
+<div id="graph" style="width:100%;height:600px;border:1px solid #e1e4e8"></div>
+<div id="info" style="margin-top:1em;padding:0.5em;background:#f6f8fa"></div>
+
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<script>
+const KIND_COLORS = {
+  person: '#e1ecf4',
+  project: '#d4f0d4',
+  concept: '#f3e6d4',
+  date: '#f0d4d4',
+};
+
+let network = null;
+
+async function loadGraph() {
+  const maxN = document.getElementById('max-nodes').value;
+  const minE = document.getElementById('min-edge').value;
+  document.getElementById('info').textContent = 'Загрузка...';
+  const r = await fetch(`/api/graph?max_nodes=${maxN}&min_edge=${minE}`);
+  const data = await r.json();
+  document.getElementById('info').textContent =
+    `Узлов: ${data.nodes.length}, связей: ${data.edges.length}`;
+
+  const nodes = new vis.DataSet(data.nodes.map(n => ({
+    id: n.name,
+    label: `${n.name} (${n.count})`,
+    color: KIND_COLORS[n.kind] || '#eeeeee',
+    shape: 'box',
+    title: `${n.kind}: ${n.count} mentions, ${n.docs} docs`,
+  })));
+  const edges = new vis.DataSet(data.edges.map(e => ({
+    from: e[0], to: e[1], value: e[2],
+    title: `weight ${e[2]}`,
+  })));
+
+  network = new vis.Network(
+    document.getElementById('graph'),
+    { nodes, edges },
+    {
+      physics: { enabled: true, stabilization: { iterations: 100 } },
+      edges: { smooth: false },
+      interaction: { hover: true },
+    }
+  );
+
+  network.on('click', params => {
+    if (params.nodes.length > 0) {
+      const id = params.nodes[0];
+      const node = data.nodes.find(n => n.name === id);
+      document.getElementById('info').innerHTML =
+        `<strong>${node.name}</strong> (${node.kind}): ${node.count} mentions, ${node.docs} docs`;
+    }
+  });
+}
+
+loadGraph();
+</script>
+"""
+        return _wrap_html("Graph", body)
+
+    def _rag_ask(self, q: str, method: str = "hybrid") -> dict:
+        if not q:
+            return {"answer": "", "citations": []}
+        try:
+            from docstoolkit.rag import ask
+            result = ask(q, top_k=5, method=method, answerer="echo")
+            return {
+                "answer": result.answer,
+                "citations": result.citations,
+                "method": result.method,
+                "duration_ms": result.duration_ms,
+                "tokens_used": result.tokens_used,
+                "cost_estimate": result.cost_estimate,
+            }
+        except Exception as e:
+            return {"error": str(e), "answer": "", "citations": []}
+
+    # ----- SSE (Server-Sent Events) -----
+
+    def _send_sse_headers(self):
+        """Подготовка SSE-ответа: длинный поток events."""
+        self.send_response(200)
+        self.send_header("Content-Type", "text/event-stream; charset=utf-8")
+        self.send_header("Cache-Control", "no-cache")
+        self.send_header("Connection", "keep-alive")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+
+    def _sse_event(self, event: str, data) -> bytes:
+        """Форматирует одно SSE-событие."""
+        if not isinstance(data, str):
+            data = json.dumps(data, ensure_ascii=False)
+        return f"event: {event}\ndata: {data}\n\n".encode("utf-8")
+
+    def _stream_heartbeat(self, count: int = 5):
+        """Простой demo: heartbeat каждую секунду."""
+        import time as _time
+        self._send_sse_headers()
+        try:
+            for i in range(count):
+                self.wfile.write(self._sse_event("tick", {
+                    "n": i + 1, "ts": datetime.now().isoformat(timespec='seconds')
+                }))
+                self.wfile.flush()
+                _time.sleep(1.0)
+            self.wfile.write(self._sse_event("done", {"total": count}))
+            self.wfile.flush()
+        except (BrokenPipeError, ConnectionResetError):
+            pass
+
+    def _stream_job_progress(self, job_id: str):
+        """SSE-стрим прогресса job'а из jobs.sqlite."""
+        import time as _time
+        try:
+            from docstoolkit.jobs import get_status
+        except ImportError:
+            self._send_sse_headers()
+            self.wfile.write(self._sse_event("error", {"msg": "jobs not available"}))
+            return
+
+        self._send_sse_headers()
+        try:
+            last_progress = -1
+            for _ in range(60):  # макс 60 итераций по 0.5с = 30 сек
+                job = get_status(job_id)
+                if not job:
+                    self.wfile.write(self._sse_event("error", {"msg": "not found"}))
+                    self.wfile.flush()
+                    return
+                if job.progress != last_progress or job.status != "running":
+                    self.wfile.write(self._sse_event("progress", {
+                        "id": job.id, "status": job.status,
+                        "progress": job.progress,
+                        "message": job.progress_message,
+                    }))
+                    self.wfile.flush()
+                    last_progress = job.progress
+                if job.status in ("completed", "failed", "cancelled"):
+                    self.wfile.write(self._sse_event("done", {
+                        "id": job.id, "status": job.status,
+                        "duration_ms": job.duration_ms,
+                        "result": job.result,
+                        "error": job.error,
+                    }))
+                    self.wfile.flush()
+                    return
+                _time.sleep(0.5)
+            self.wfile.write(self._sse_event("timeout", {"id": job_id}))
+            self.wfile.flush()
+        except (BrokenPipeError, ConnectionResetError):
+            pass
+
+    def _stream_build_index(self, provider: str = "tfidf"):
+        """SSE-стрим build embeddings cache с progress events."""
+        try:
+            from docstoolkit.embeddings.cache import EmbeddingCache
+            from docstoolkit.embeddings import get_provider
+        except ImportError:
+            self._send_sse_headers()
+            self.wfile.write(self._sse_event("error", {"msg": "embeddings not available"}))
+            return
+
+        self._send_sse_headers()
+        try:
+            self.wfile.write(self._sse_event("start", {"provider": provider}))
+            self.wfile.flush()
+
+            docs = self._load_search_index()
+            if not docs:
+                self.wfile.write(self._sse_event("error", {"msg": "no search_index.json"}))
+                return
+
+            cache_path = self.cfg.root / ".docstoolkit" / "cache" / "embeddings.sqlite"
+            cache = EmbeddingCache(cache_path)
+            cache.invalidate(provider)
+
+            if provider == "tfidf":
+                from docstoolkit.embeddings.tfidf import TFIDFProvider
+                prov = TFIDFProvider(cache=cache)
+                prov.fit([d.get("content", "") + " " + d.get("title", "")
+                          for d in docs], force=True)
+                self.wfile.write(self._sse_event("idf", {"tokens": len(prov._idf)}))
+                self.wfile.flush()
+            else:
+                prov = get_provider(provider)
+
+            n = len(docs)
+            saved = 0
+            for i, d in enumerate(docs):
+                text = d.get("content", "") + " " + d.get("title", "")
+                if not text.strip():
+                    continue
+                doc_id = d.get("path", "")
+                if not doc_id:
+                    continue
+                vec = prov.encode([text])[0]
+                cache.save_vector(provider, doc_id, text, vec,
+                                  dim=len(vec) if isinstance(vec, list) else 0)
+                saved += 1
+                if i % 50 == 0:
+                    self.wfile.write(self._sse_event("progress", {
+                        "saved": saved, "total": n,
+                        "percent": int(100 * i / n) if n else 100,
+                    }))
+                    self.wfile.flush()
+
+            cache.close()
+            self.wfile.write(self._sse_event("done", {
+                "provider": provider, "vectors": saved, "total": n,
+            }))
+            self.wfile.flush()
+        except (BrokenPipeError, ConnectionResetError):
+            pass
+        except Exception as e:
+            try:
+                self.wfile.write(self._sse_event("error", {"msg": str(e)[:200]}))
+                self.wfile.flush()
+            except (BrokenPipeError, ConnectionResetError):
+                pass
+
+    def _graph_data(self, max_nodes: int = 50, min_edge: int = 3) -> dict:
+        try:
+            from docstoolkit.graph import build_from_docs_index
+        except ImportError:
+            return {"nodes": [], "edges": []}
+        g = build_from_docs_index()
+        top_names = {name for name, _ in g.top_concepts(max_nodes)}
+        nodes = [
+            {"name": name, "kind": data["kind"],
+             "count": data["count"], "docs": len(data["docs"])}
+            for name, data in g.nodes.items() if name in top_names
+        ]
+        edges = [
+            [a, b, w]
+            for (a, b), w in g.edges.items()
+            if a in top_names and b in top_names and w >= min_edge
+        ]
+        return {"nodes": nodes, "edges": edges,
+                "stats": g.stats()}
 
 
 def _md_to_html(md: str) -> str:
