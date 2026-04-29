@@ -6,10 +6,10 @@ _Обновлено: 2026-04-29_
 
 | Слой | Кол-во |
 |------|--------|
-| Скрипты `improve_*.py` | 149 |
+| Скрипты `improve_*.py` | 151 |
 | Шаблоны `docs/templates/*.md` | 22 |
 | Скилы `.claude/skills/*.md` | 28 |
-| MCP-серверы | 9 |
+| MCP-серверы | 10 |
 | Манифесты задач | 13 |
 | Контакты | 14 |
 
@@ -32,7 +32,7 @@ _Обновлено: 2026-04-29_
 | `reports` | 19 |
 | `structure` | 6 |
 | `textwork` | 8 |
-| `без группы` | 30 |
+| `без группы` | 32 |
 
 ## Шаблоны
 
@@ -105,6 +105,7 @@ _Обновлено: 2026-04-29_
 | `lorenzo-llm` | LLM с кэшем: llm_summary, llm_qa, llm_enrich, llm_contact |
 | `lorenzo-runner` | Запуск improve_*.py: list_scripts, describe_script, run_improve, run_group |
 | `lorenzo-search` | Read-only поиск: search_docs, bm25_passages, find_similar, faceted_search |
+| `lorenzo-skills` | Скилы: list_skills, get_skill, match_skill (router), compose_skills, evaluate_skill |
 | `lorenzo-templates` | Шаблоны и манифесты: list_templates, init_doc, validate_doc, list_tasks, show_task |
 | `lorenzo-watch` | Мониторинг: recent_changes, pending_actions, watch_status, trigger_recompute |
 

@@ -1104,6 +1104,13 @@
     "group": "reports"
   },
   {
+    "name": "improve_skill_dashboard.py",
+    "summary": "статистика использования и оценок скилов.",
+    "description": "Читает .claude/skill_metrics.jsonl и формирует docs/SKILL_DASHBOARD.md: - какие скилы используются чаще - средняя оценка по 4 осям - тренд за последние N дней - топ feedback'ов",
+    "flags": [],
+    "group": "без группы"
+  },
+  {
     "name": "improve_source_map.py",
     "summary": "строит карту происхождения текстов.",
     "description": "Для каждого файла определяет: - Дата первого появления (git log) - Автор коммита (git log --format=%an) - Источники в frontmatter (поле source:, url:, origin:) - Внешние URL, указанные в тексте",
@@ -1141,6 +1148,13 @@
     "description": "Считает: файлы, слова, заголовки H1-H4, таблицы, code-блоки, ссылки, изображения. Создаёт docs/STATS.md.",
     "flags": [],
     "group": "reports"
+  },
+  {
+    "name": "improve_status_badges.py",
+    "summary": "генератор SVG status badges для README.",
+    "description": "Создаёт docs/badges/*.svg для: - tests        → 101 passing | 99 failing - templates    → 22 templates - skills       → 28 skills - mcp-servers  → 9 servers",
+    "flags": [],
+    "group": "без группы"
   },
   {
     "name": "improve_subtopic_fill.py",

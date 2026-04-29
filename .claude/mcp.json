@@ -40,6 +40,11 @@
       "args": ["scripts/mcp_watch_server.py"],
       "description": "Мониторинг: recent_changes, pending_actions, watch_status, trigger_recompute"
     },
+    "lorenzo-skills": {
+      "command": "python",
+      "args": ["scripts/mcp_skills_server.py"],
+      "description": "Скилы: list_skills, get_skill, match_skill (router), compose_skills, evaluate_skill"
+    },
     "lorenzo-docs": {
       "command": "python",
       "args": ["scripts/mcp_server.py"],

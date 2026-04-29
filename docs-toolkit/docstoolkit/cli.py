@@ -124,6 +124,69 @@ def cmd_doc_validate(args):
     return 1 if errors_count and cfg.validation.get("strict") else 0
 
 
+def cmd_ingest(args):
+    """Ингестия файла (PDF/EPUB/HTML/MHTML/DOCX/Jupyter/MD) → markdown."""
+    from docstoolkit.ingest import ingest_file, ingest_dir, list_plugins
+
+    src = Path(args.path)
+    if not src.exists():
+        print(f"❌ Не существует: {src}")
+        return 1
+
+    if args.list_plugins:
+        plugins = sorted(list_plugins())
+        print(f"Доступных плагинов: {len(plugins)}")
+        for p in plugins:
+            print(f"  .{p}")
+        return 0
+
+    docs = []
+    if src.is_dir():
+        docs = ingest_dir(src, recursive=args.recursive)
+    else:
+        try:
+            docs = [ingest_file(src)]
+        except Exception as e:
+            print(f"❌ {e}")
+            return 1
+
+    if not docs:
+        print("⚠️ Ничего не извлечено.")
+        return 1
+
+    out_dir = Path(args.output) if args.output else None
+
+    for doc in docs:
+        # Frontmatter
+        fm = {
+            "ingested_from": str(doc.source.path),
+            "format": doc.source.format,
+            "title": doc.title,
+        }
+        if doc.metadata:
+            for k, v in doc.metadata.items():
+                if isinstance(v, (str, int, float, bool)) and v not in (None, ""):
+                    fm[k] = v
+        md = doc.to_markdown(frontmatter=fm)
+
+        if out_dir:
+            out_dir.mkdir(parents=True, exist_ok=True)
+            slug = doc.source.path.stem
+            target = out_dir / f"{slug}.md"
+            target.write_text(md, encoding="utf-8")
+            print(f"✅ {doc.source.path.name} → {target} ({doc.word_count} слов)")
+        else:
+            print(f"\n{'=' * 60}")
+            print(f"# {doc.title} ({doc.word_count} слов)")
+            print(f"From: {doc.source.path}")
+            print(f"{'=' * 60}\n")
+            print(md[:2000])
+            if len(md) > 2000:
+                print(f"\n... (обрезано, всего {len(md)} символов)")
+
+    return 0
+
+
 def cmd_doc_list_templates(args):
     """Список доступных шаблонов."""
     cfg = load_config()
@@ -195,6 +258,13 @@ def main():
 
     p_list = p_doc_sub.add_parser("list-templates", help="Список шаблонов")
     p_list.set_defaults(func=cmd_doc_list_templates)
+
+    p_ing = sub.add_parser("ingest", help="Ингестия PDF/EPUB/HTML/DOCX/Jupyter → markdown")
+    p_ing.add_argument("path", help="Файл или директория")
+    p_ing.add_argument("-o", "--output", help="Куда писать markdown (по умолчанию stdout)")
+    p_ing.add_argument("-r", "--recursive", action="store_true", help="Рекурсивно для директории")
+    p_ing.add_argument("--list-plugins", action="store_true", help="Список доступных плагинов")
+    p_ing.set_defaults(func=cmd_ingest)
 
     args = parser.parse_args()
     return args.func(args)

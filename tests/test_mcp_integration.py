@@ -27,6 +27,7 @@ SERVERS = [
     "mcp_export_server",
     "mcp_llm_server",
     "mcp_watch_server",
+    "mcp_skills_server",
 ]
 
 
@@ -145,3 +146,37 @@ def test_contacts_server_lists_migrated_contacts():
         m = re.search(r'\*\*Контактов:\s*(\d+)\*\*', result)
         if m:
             assert int(m.group(1)) >= 10
+
+
+def test_skills_server_match_finds_search_for_query():
+    """Skill router: «найди про X» должен матчить search."""
+    mod = load_server('mcp_skills_server')
+    result = mod.dispatch('match_skill', {'query': 'найди про память'})
+    assert isinstance(result, str)
+    # Search должен быть в топе (с большим score)
+    assert '`search`' in result
+
+
+def test_skills_server_compose_with_pipeline():
+    mod = load_server('mcp_skills_server')
+    result = mod.dispatch('compose_skills', {'skills': ['search', 'summarize']})
+    assert isinstance(result, str)
+    assert 'search' in result
+    assert 'summarize' in result
+    assert 'Композиция' in result
+
+
+def test_skills_server_get_skill_attaches_manifest():
+    """Когда у скила есть манифест — get_skill добавляет инфу о нём."""
+    mod = load_server('mcp_skills_server')
+    result = mod.dispatch('get_skill', {'name': 'write-contact'})
+    assert isinstance(result, str)
+    assert 'write-contact' in result.lower()
+
+
+def test_skills_server_evaluate_validates_scores():
+    """evaluate_skill отклоняет невалидные scores."""
+    mod = load_server('mcp_skills_server')
+    # Нет scores — ошибка
+    result = mod.dispatch('evaluate_skill', {'skill': 'search', 'scores': {}})
+    assert '❌' in result or 'Нужны' in result

@@ -45,6 +45,12 @@ SERVERS = [
         ("recent_changes", {"hours": 24}),
         ("pending_actions", {}),
     ]),
+    ("mcp_skills_server", [
+        ("list_skills", {"category": "meta"}),
+        ("match_skill", {"query": "найди про"}),
+        ("compose_skills", {"skills": ["search", "summarize"]}),
+        ("get_skill", {"name": "skill-router"}),
+    ]),
 ]
 
 

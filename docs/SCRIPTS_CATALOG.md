@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-**Всего скриптов:** 149
+**Всего скриптов:** 151
 
 
 ## По группам
@@ -202,7 +202,7 @@ _Обновлено: 2026-04-29_
 | `improve_source_map.py` | строит карту происхождения текстов. | `--authors`, `--format`, `--section`, `--show-imported` |
 | `improve_subtopic_fill.py` | дополняет файлы-заглушки контентом из базы знаний. | `--apply`, `--dry-run`, `--min-words`, `--section` |
 
-### без группы (30)
+### без группы (32)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
@@ -228,6 +228,8 @@ _Обновлено: 2026-04-29_
 | `improve_registry.py` | единый реестр всех артефактов проекта в docs/REGISTRY.md. |  |
 | `improve_risk_register.py` | реестр рисков проекта Svyazi 2.0. |  |
 | `improve_run_all.py` | мастер-скрипт для запуска всех improve_*.py. | `--changed`, `--dry-run`, `--fast`, `--group`, `--only`, `--parallel`, … |
+| `improve_skill_dashboard.py` | статистика использования и оценок скилов. |  |
+| `improve_status_badges.py` | генератор SVG status badges для README. |  |
 | `improve_task_codegen.py` | генератор слоёв (скилл / MCP-tool / index) из манифестов tasks/*.task.yaml. | `--dry-run`, `--list`, `--task`, `--validate` |
 | `improve_tech_radar.py` | tech radar для технологий проекта Svyazi 2.0. |  |
 | `improve_template_init.py` | инициализация нового документа из шаблона. | `--list`, `--show`, `--slug`, `--type`, `--vars` |
@@ -1202,6 +1204,13 @@ README содержит: список файлов, первые строки к
 Создаёт: docs/SITEMAP.md (текстовый) + docs/sitemap.xml (XML для поиска).
 
 
+### `improve_skill_dashboard.py` _(группа: без группы)_
+
+**статистика использования и оценок скилов.**
+
+Читает .claude/skill_metrics.jsonl и формирует docs/SKILL_DASHBOARD.md: - какие скилы используются чаще - средняя оценка по 4 осям - тренд за последние N дней - топ feedback'ов
+
+
 ### `improve_source_map.py` _(группа: textwork)_
 
 **строит карту происхождения текстов.**
@@ -1234,6 +1243,13 @@ README содержит: список файлов, первые строки к
 **детальная статистика по каждому разделу docs/.**
 
 Считает: файлы, слова, заголовки H1-H4, таблицы, code-блоки, ссылки, изображения. Создаёт docs/STATS.md.
+
+
+### `improve_status_badges.py` _(группа: без группы)_
+
+**генератор SVG status badges для README.**
+
+Создаёт docs/badges/*.svg для: - tests        → 101 passing | 99 failing - templates    → 22 templates - skills       → 28 skills - mcp-servers  → 9 servers
 
 
 ### `improve_subtopic_fill.py` _(группа: textwork)_
