@@ -38,7 +38,14 @@ if "--section" in sys.argv:
 SKIP_FILES = {
     "CONTRADICTIONS.md", "SEARCH.md", "READABILITY.md",
     "TIMELINE.md", "NAMED_ENTITIES.md", "SOURCE_MAP.md",
+    "READING_ORDER.md", "SITEMAP.md", "OUTLINE.md",
+    "CONCEPT_GRAPH.md", "KEYWORD_INDEX.md", "PARAGRAPH_QUALITY.md",
+    "VOCABULARY.md", "COVERAGE.md", "HEATMAP.md", "GRAPH.md",
+    "TABLES.md", "CONSISTENCY.md", "METRICS.md", "HEALTH.md",
 }
+
+# Числа меньше MIN_NUM игнорируются как нумерация списков
+MIN_NUM = 3.0
 
 STOPWORDS = {
     "и", "в", "не", "на", "с", "по", "к", "из", "за", "для", "это",
@@ -56,12 +63,15 @@ NEG_RE     = re.compile(r'\bне\s+\w+|\bнет\b|\bno\b|\bnot\b|\bdoesn.t\b|\bd
 def _clean_sentence(s: str) -> str:
     s = re.sub(r'[*_`#|>\[\]]', '', s)
     s = re.sub(r'https?://\S+', '[URL]', s)
+    # убираем bare URL-пути вида domain.com/path/123/
+    s = re.sub(r'\b\w+\.\w{2,4}/\S+', '[URL]', s)
     return re.sub(r'\s+', ' ', s).strip()
 
 
 def _keywords(sentence: str, n: int = 6) -> frozenset[str]:
     tokens = re.findall(r'[а-яёa-z]{3,}', sentence.lower())
-    return frozenset(t for t in tokens if t not in STOPWORDS)[:n]  # type: ignore
+    filtered = [t for t in tokens if t not in STOPWORDS]
+    return frozenset(filtered[:n])
 
 
 def _extract_claims(text: str, source: str) -> list[dict]:
@@ -77,9 +87,11 @@ def _extract_claims(text: str, source: str) -> list[dict]:
         if len(kw) < 2:
             continue
 
-        # Числовые утверждения
+        # Числовые утверждения (пропускаем маленькие числа — нумерация списков)
         for m in NUMBER_RE.finditer(sent_clean):
             num = float(m.group(1).replace(',', '.'))
+            if num < MIN_NUM:
+                continue
             claims.append({
                 "type": "numeric",
                 "keywords": kw,
@@ -126,60 +138,85 @@ def _keywords_overlap(a: frozenset, b: frozenset) -> float:
     return len(a & b) / len(a | b)
 
 
+MAX_BUCKET = 50  # пропускаем слишком общие ключевые слова
+
+
 def _find_contradictions(all_claims: list[dict]) -> list[dict]:
-    """Ищет противоречия между claims."""
+    """Ищет противоречия через инвертированный keyword-индекс (не O(n²))."""
+    from collections import defaultdict
+
+    # Строим индекс: (type, keyword) → [claim_idx]
+    inv: dict[tuple, list[int]] = defaultdict(list)
+    for idx, c in enumerate(all_claims):
+        for kw in c["keywords"]:
+            inv[(c["type"], kw)].append(idx)
+
+    seen: set[tuple] = set()
     contradictions = []
 
-    for i in range(len(all_claims)):
-        for j in range(i + 1, len(all_claims)):
-            ci, cj = all_claims[i], all_claims[j]
+    for (claim_type, kw), idxs in inv.items():
+        if len(idxs) < 2 or len(idxs) > MAX_BUCKET:
+            continue
+        # Проверяем только пары в пределах этого bucket
+        for ii in range(len(idxs)):
+            for jj in range(ii + 1, len(idxs)):
+                i, j = idxs[ii], idxs[jj]
+                pair_key = (min(i, j), max(i, j))
+                if pair_key in seen:
+                    continue
+                seen.add(pair_key)
 
-            # Из одного файла — пропускаем
-            if ci["source"] == cj["source"]:
-                continue
+                ci, cj = all_claims[i], all_claims[j]
+                if ci["source"] == cj["source"]:
+                    continue
 
-            # Должен быть один тип
-            if ci["type"] != cj["type"]:
-                continue
+                kw_sim = _keywords_overlap(ci["keywords"], cj["keywords"])
+                if kw_sim < 0.3:
+                    continue
 
-            # Должно быть хорошее пересечение ключевых слов
-            kw_sim = _keywords_overlap(ci["keywords"], cj["keywords"])
-            if kw_sim < 0.3:
-                continue
+                contradiction = False
+                detail = ""
 
-            contradiction = False
-            detail = ""
+                if ci["type"] == "numeric":
+                    if ci["value"] != cj["value"]:
+                        denom = max(ci["value"], cj["value"])
+                        ratio = min(ci["value"], cj["value"]) / denom if denom else 1.0
+                        if ratio < 0.7:
+                            contradiction = True
+                            detail = f"{ci['value']} vs {cj['value']}"
 
-            if ci["type"] == "numeric":
-                if abs(ci["value"] - cj["value"]) > 0 and ci["value"] != cj["value"]:
-                    ratio = min(ci["value"], cj["value"]) / max(ci["value"], cj["value"])
-                    if ratio < 0.7:  # разница > 30%
+                elif ci["type"] == "version":
+                    if ci["value"] != cj["value"]:
                         contradiction = True
-                        detail = f"{ci['value']} vs {cj['value']}"
+                        detail = f"v{ci['value']} vs v{cj['value']}"
 
-            elif ci["type"] == "version":
-                if ci["value"] != cj["value"]:
-                    contradiction = True
-                    detail = f"v{ci['value']} vs v{cj['value']}"
+                elif ci["type"] == "boolean":
+                    if ci["value"] != cj["value"]:
+                        contradiction = True
+                        detail = "утверждение vs отрицание"
 
-            elif ci["type"] == "boolean":
-                if ci["value"] != cj["value"]:
-                    contradiction = True
-                    detail = "утверждение vs отрицание"
+                if contradiction:
+                    confidence = kw_sim * (0.8 if ci["type"] in ("version", "numeric") else 0.5)
+                    if confidence >= MIN_CONFIDENCE:
+                        contradictions.append({
+                            "type": ci["type"],
+                            "detail": detail,
+                            "confidence": round(confidence, 2),
+                            "keywords": sorted(ci["keywords"] & cj["keywords"])[:5],
+                            "claim_a": {"sentence": ci["sentence"], "source": ci["source"]},
+                            "claim_b": {"sentence": cj["sentence"], "source": cj["source"]},
+                            "_dedup_key": tuple(sorted([ci["source"], cj["source"]])) + (detail,),
+                        })
 
-            if contradiction:
-                confidence = kw_sim * (0.8 if ci["type"] in ("version", "numeric") else 0.5)
-                if confidence >= MIN_CONFIDENCE:
-                    contradictions.append({
-                        "type": ci["type"],
-                        "detail": detail,
-                        "confidence": round(confidence, 2),
-                        "keywords": sorted(ci["keywords"] & cj["keywords"])[:5],
-                        "claim_a": {"sentence": ci["sentence"], "source": ci["source"]},
-                        "claim_b": {"sentence": cj["sentence"], "source": cj["source"]},
-                    })
-
-    return sorted(contradictions, key=lambda x: -x["confidence"])
+    # Дедупликация: одна пара предложений → одно противоречие (лучшая уверенность)
+    dedup: dict = {}
+    for c in contradictions:
+        sent_key = (c["claim_a"]["sentence"][:80], c["claim_b"]["sentence"][:80])
+        norm_key = tuple(sorted(sent_key))
+        if norm_key not in dedup or c["confidence"] > dedup[norm_key]["confidence"]:
+            dedup[norm_key] = c
+    result = [{k: v for k, v in c.items() if k != "_dedup_key"} for c in dedup.values()]
+    return sorted(result, key=lambda x: -x["confidence"])
 
 
 def main() -> None:
