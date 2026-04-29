@@ -14,12 +14,21 @@ date: 2026-04-29
 h1. Appendix A: Comparative Table — Five Agent Types
 
 
-{quote}- [[269-appendix-a-the-six-type-taxonomy-updated]] (сходство 0.31){quote}
+{quote}> 🎯 _Проблема:_ Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst{quote}
 
 ----
 
 
 
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst{quote}
+{quote}🔧 _Подход:_ Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst{quote}
+{quote}🏷️ _Ключевые слова:_ {{appendix}}, {{institutional}}, {{profession}}, {{anthropic}}, {{vacancies}}, {{table}}, {{individual}}, {{taxonomy}}{quote}
+>
 
 
 h2. Appendix A: Comparative Table — Five Agent Types
@@ -60,19 +69,3 @@ _Смотрите также:_
 * [[227-appendix-b-decision-framework-when-to-build-type-1]]
 * [[211-table-of-contents]]
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _37%_
-* [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] _37%_
-* [[211-table-of-contents|Table of Contents]] _33%_
-* [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _33%_
-* [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _29%_
-* [[146-acknowledgments|Acknowledgments]] _21%_
-* [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _21%_
-* [[182-acknowledgments|Acknowledgments]] _21%_

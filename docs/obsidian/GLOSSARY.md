@@ -7,50 +7,42 @@ date: 2026-04-29
 
 # Глоссарий проектов
 
-<!-- summary -->
-> Все проекты, упоминаемые в документах, с количеством файлов.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
-
-
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 50 |
-| **AIF Handoff** | 34 |
-| **AgentFS** | 75 |
-| **Auto AI Router** | 56 |
-| **AutoResearch** | 30 |
-| **Automerge** | 16 |
-| **CardIndex** | 72 |
-| **Firecrawl** | 14 |
-| **Graph RAG** | 43 |
-| **Hybrid RAG** | 26 |
-| **Legal RAG** | 41 |
-| **LiteLLM** | 33 |
-| **LiteParse** | 53 |
-| **MemNet** | 40 |
-| **Memory OS** | 19 |
-| **NGT Memory** | 58 |
-| **OpenWhispr** | 12 |
-| **RLM-Toolkit** | 6 |
-| **Rufler** | 60 |
-| **SENTINEL** | 64 |
-| **Self-Aware MCP** | 9 |
-| **Sequential** | 45 |
-| **Svyazi** | 138 |
-| **Tool Search** | 34 |
-| **Whisper** | 13 |
-| **Wikontic** | 31 |
-| **Yjs** | 20 |
-| **Yodoca** | 81 |
-| **Yttri** | 13 |
-| **agent-memory-mcp** | 19 |
-| **knowledge-space** | 60 |
-| **mclaude** | 50 |
+| **AI Factory** | 74 |
+| **AIF Handoff** | 30 |
+| **AgentFS** | 101 |
+| **Auto AI Router** | 65 |
+| **AutoResearch** | 66 |
+| **Automerge** | 38 |
+| **CardIndex** | 139 |
+| **Firecrawl** | 22 |
+| **Graph RAG** | 47 |
+| **Hybrid RAG** | 51 |
+| **Legal RAG** | 51 |
+| **LiteLLM** | 49 |
+| **LiteParse** | 80 |
+| **MemNet** | 141 |
+| **Memory OS** | 38 |
+| **NGT Memory** | 95 |
+| **OpenWhispr** | 21 |
+| **RLM-Toolkit** | 11 |
+| **Rufler** | 86 |
+| **SENTINEL** | 69 |
+| **Self-Aware MCP** | 21 |
+| **Sequential** | 119 |
+| **Svyazi** | 315 |
+| **Tool Search** | 50 |
+| **Whisper** | 24 |
+| **Wikontic** | 51 |
+| **Yjs** | 47 |
+| **Yodoca** | 142 |
+| **Yttri** | 19 |
+| **agent-memory-mcp** | 39 |
+| **knowledge-space** | 103 |
+| **mclaude** | 90 |
 
 <!-- see-also -->
 
@@ -58,6 +50,7 @@ date: 2026-04-29
 
 **Смотрите также:**
 - [[MINDMAP]]
+- [[GRAPH]]
 - [[NETWORK]]
 - [[CONTACT_PRIORITY]]
 

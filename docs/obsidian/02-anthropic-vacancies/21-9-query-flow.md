@@ -38,7 +38,7 @@ date: 2026-04-29
 4. Portal параллельно вызывает `adapter.fetch(q)` для всех выбранных
 5. Portal собирает `results_by_repo: dict[str, list[PortalEntry]]`
 6. Portal вычисляет consensus через алгоритм раздела 8
-7. Portal возвращает `QueryResult`
+7. Portal возвращает `[[02-общий-план-развития-nautilus-portal-protocol|QueryResult]]`
 
 ### 9.2. Parallelism
 
@@ -50,7 +50,7 @@ Repos.
 
 Если один adapter падает (exception, timeout), Portal MUST:
 
-- Включить этот репо в `errors` список QueryResult
+- Включить этот репо в `errors` список [[02-общий-план-развития-nautilus-portal-protocol|QueryResult]]
 - Продолжить обработку остальных
 - Не падать целиком
 
@@ -81,9 +81,28 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[85-10-query-flow|10. Query Flow]]
+- [[22-10-queryresult-structure|10. QueryResult Structure]]
+- [[90-15-security-considerations|15. Security Considerations]]
+- [[18-6-adapter-interface|6. Adapter Interface]]
+- [[81-6-adapter-interface|6. Adapter Interface]]
+- [[20-8-consensus-algorithm|8. Consensus Algorithm]]
+- [[84-9-consensus-algorithm|9. Consensus Algorithm]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[85-10-query-flow|10. Query Flow]] _66%_
+- [[18-6-adapter-interface|6. Adapter Interface]] _33%_
+- [[81-6-adapter-interface|6. Adapter Interface]] _29%_
+- [[22-10-queryresult-structure|10. QueryResult Structure]] _25%_
+- [[84-9-consensus-algorithm|9. Consensus Algorithm]] _21%_
+- [[82-7-portalentry-structure|7. PortalEntry Structure]] _17%_
+- [[86-11-relevance-ranking|11. Relevance Ranking]] _17%_
 ## Связанные документы
 
 - [[85-10-query-flow|10. Query Flow]] _66%_

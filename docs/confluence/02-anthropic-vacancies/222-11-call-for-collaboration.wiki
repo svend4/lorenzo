@@ -6,6 +6,14 @@
 h1. 11. Call for Collaboration
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Liability, professional licensure interaction, quality standards — all need development.{quote}
+{quote}🏷️ _Ключевые слова:_ {{collaboration}}, {{professional}}, {{anthropic}}, {{vacancies}}, {{practitioners}}, {{colleague}}, {{experts}}, {{curators}}{quote}
+>
+
+
+
 h2. Contents
 
 * [11. Call for Collaboration|#11-call-for-collaboration]
@@ -92,9 +100,9 @@ practitioners during framework development valuable.
 ----
 
 _Похожие документы:_
-* [265-12-call-for-collaboration|265-12-call-for-collaboration.md] (сходство 0.26)
-* [145-8-call-to-action|145-8-call-to-action.md] (сходство 0.15)
-* [223-12-closing|223-12-closing.md] (сходство 0.13)
+* [265-12-call-for-collaboration|docs/02-anthropic-vacancies/265-12-call-for-collaboration.md] (сходство 0.26)
+* [145-8-call-to-action|docs/02-anthropic-vacancies/145-8-call-to-action.md] (сходство 0.15)
+* [223-12-closing|docs/02-anthropic-vacancies/223-12-closing.md] (сходство 0.13)
 
 
 
@@ -102,24 +110,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [265-12-call-for-collaboration|265-12-call-for-collaboration.md]
-* [145-8-call-to-action|145-8-call-to-action.md]
-* [223-12-closing|223-12-closing.md]
-* [180-11-call-for-collaboration|180-11-call-for-collaboration.md]
+* [265-12-call-for-collaboration|docs/02-anthropic-vacancies/265-12-call-for-collaboration.md]
+* [145-8-call-to-action|docs/02-anthropic-vacancies/145-8-call-to-action.md]
+* [223-12-closing|docs/02-anthropic-vacancies/223-12-closing.md]
+* [180-11-call-for-collaboration|docs/02-anthropic-vacancies/180-11-call-for-collaboration.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [12. Call for Collaboration|265-12-call-for-collaboration.md] _33%_
-* [11. Call for Collaboration|180-11-call-for-collaboration.md] _21%_
-* [5. The Economics of Profession-Wide Replication|216-5-the-economics-of-profession-wide-replication.md] _21%_
-* [8. Pilot Proposal: SGB Advocate Colleague|219-8-pilot-proposal-sgb-advocate-colleague.md] _21%_
-* [10. Open Questions|221-10-open-questions.md] _21%_
-* [12. Closing|223-12-closing.md] _21%_
-* [OPEN KNOWLEDGE WORK FOUNDATION.md|151-open-knowledge-work-foundation-md.md] _17%_
-* [Abstract|210-abstract.md] _17%_

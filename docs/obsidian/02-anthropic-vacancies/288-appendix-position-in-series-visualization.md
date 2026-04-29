@@ -12,6 +12,21 @@ date: 2026-04-29
 
 # Appendix: Position in Series Visualization
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Он identifies a problem, surveys existing approximations, и stops short of specifying solution.
+> 🔧 **Подход:** Он identifies a problem, surveys existing approximations, и stops short of specifying solution.
+> ✅ **Результат:** Эта восьмёрка documents — substantial intellectual achievement.
+> 🏷️ **Ключевые слова:** `appendix`, `documents`, `document`, `anthropic`, `infrastructure`, `project`, `vacancies`, `nautilus`
+>
+
+
 <!-- summary -->
 > Document 1: Nautilus Portal Protocol
 
@@ -182,9 +197,27 @@ So I named the possibility without pushing toward it.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[164-10-appendices|10. Appendices]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]]
+- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]]
+- [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]]
+- [[150-appendix-c-version-history|Appendix C: Version History]]
+- [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]]
+- [[285-closing|Closing]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]] _48%_
+- [[285-closing|Closing]] _21%_
+- [[150-appendix-c-version-history|Appendix C: Version History]] _17%_
+- [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _17%_
+- [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] _17%_
+- [[318-10-strategic-positioning|10. Strategic Positioning]] _17%_
 ## Связанные документы
 
 - [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]] _33%_

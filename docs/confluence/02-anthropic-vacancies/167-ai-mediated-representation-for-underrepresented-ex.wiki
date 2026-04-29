@@ -53,9 +53,39 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work|135-a-formal-model-for-human-ai-collaboration-in-distr.md]
+* [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers|209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+* [AI Support Through Configurable Specialist Ensembles|251-ai-support-through-configurable-specialist-ensembl.md]
+* [AI-Coordinated Infrastructure for Distributed Expert Contribution|152-ai-coordinated-infrastructure-for-distributed-expe.md]
+* [Acknowledgments|146-acknowledgments.md]
+* [Acknowledgments|182-acknowledgments.md]
+* [Acknowledgments|224-acknowledgments.md]
+* [Appendix A: Comparative Table — Five Agent Types|226-appendix-a-comparative-table-five-agent-types.md]
+* [Appendix A: Connection to Companion Papers|184-appendix-a-connection-to-companion-papers.md]
+* [Author & Contact|52-author-contact.md]
+* [PORTAL-PROTOCOL.md|03-portal-protocol-md.md]
+* [PORTAL-PROTOCOL.md v1.1|73-portal-protocol-md-v1-1.md]
+* [References|183-references.md]
+* [References|268-references.md]
+* [Table of Contents|137-table-of-contents.md]
+* [The Missing Middle Layer Between Chat and Code|274-the-missing-middle-layer-between-chat-and-code.md]
+* [with Anthropic's Cowork Platform|306-with-anthropic-s-cowork-platform.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work|135-a-formal-model-for-human-ai-collaboration-in-distr.md] _37%_
+* [Table of Contents|137-table-of-contents.md] _33%_
+* [Acknowledgments|146-acknowledgments.md] _33%_
+* [Appendix A: Connection to Companion Papers|184-appendix-a-connection-to-companion-papers.md] _29%_
+* [Acknowledgments|224-acknowledgments.md] _29%_
+* [The Missing Middle Layer Between Chat and Code|274-the-missing-middle-layer-between-chat-and-code.md] _29%_
+* [with Anthropic's Cowork Platform|306-with-anthropic-s-cowork-platform.md] _29%_
+* [Существующие документы DHLab (твой context)|355-существующие-документы-dhlab-твой-context.md] _29%_
 h2. Связанные документы
 
 * [Acknowledgments|146-acknowledgments.md] _48%_

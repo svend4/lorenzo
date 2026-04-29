@@ -31,9 +31,9 @@ Reference implementation:
 Reference НЕ является нормативной. Альтернативные implementations 
 NPP-compatible, если они:
 
-* Корректно парсят {{nautilus.json}} per раздел 3
-* Реализуют BaseAdapter interface per раздел 6
-* Производят PortalEntry структуры per раздел 7
+* Корректно парсят {{[[memnet|nautilus]].json}} per раздел 3
+* Реализуют [[01-интегральный-анализ-профиля-svend4|BaseAdapter]] interface per раздел 6
+* Производят [[01-интегральный-анализ-профиля-svend4|PortalEntry]] структуры per раздел 7
 * Обеспечивают Q6 для Level 2+ per раздел 8
 * Вычисляют consensus per раздел 9
 * Предоставляют required REST endpoints per раздел 13
@@ -76,9 +76,37 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[05-0-status-of-this-document|0. Status of This Document]]
+* [[75-0-status-of-this-document|0. Status of This Document]]
+* [[25-13-reference-implementation|13. Reference Implementation]]
+* [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]]
+* [[103-appendix-b-change-log|Appendix B: Change Log]]
+* [[104-appendix-c-references|Appendix C: References]]
+* [[42-author-contact|Author & Contact]]
+* [[52-author-contact|Author & Contact]]
+* [[62-author-contact|Author & Contact]]
+* [[48-content-overview|Content Overview]]
+* [[53-history|History]]
+* [[35-passports-info1-md|passports/info1.md]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[128-доступные-инструменты|Доступные инструменты]]
+* [[68-about|🇬🇧 About]]
+* [[67-о-проекте|🇷🇺 О проекте]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[25-13-reference-implementation|13. Reference Implementation]] _81%_
+* [[42-author-contact|Author & Contact]] _60%_
+* [[62-author-contact|Author & Contact]] _53%_
+* [[05-0-status-of-this-document|0. Status of This Document]] _48%_
+* [[75-0-status-of-this-document|0. Status of This Document]] _48%_
+* [[48-content-overview|Content Overview]] _33%_
+* [[104-appendix-c-references|Appendix C: References]] _29%_
+* [[24-12-versioning-policy|12. Versioning Policy]] _29%_
 h2. Связанные документы
 
 * [[25-13-reference-implementation|13. Reference Implementation]] _81%_

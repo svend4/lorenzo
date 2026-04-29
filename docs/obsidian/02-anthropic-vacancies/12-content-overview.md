@@ -30,9 +30,26 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[111-4-условия-применимости|4. Условия применимости]]
+- [[13-angle-perspective|Angle / Perspective]]
+- [[31-content-overview|Content Overview]]
+- [[38-content-overview|Content Overview]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[13-angle-perspective|Angle / Perspective]] _48%_
+- [[31-content-overview|Content Overview]] _37%_
+- [[38-content-overview|Content Overview]] _25%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _21%_
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _17%_
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _17%_
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]] _17%_
+- [[36-essence|Essence]] _17%_
 ## Связанные документы
 
 - [[31-content-overview|Content Overview]] _47%_

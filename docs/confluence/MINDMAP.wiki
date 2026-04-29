@@ -108,8 +108,8 @@ h2. Легенда
 ----
 
 _Смотрите также:_
-* [GLOSSARY|GLOSSARY.md]
-* [GRAPH|GRAPH.md]
-* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
-* [NETWORK|NETWORK.md]
+* [GLOSSARY|docs/GLOSSARY.md]
+* [CONTACT_PRIORITY|docs/CONTACT_PRIORITY.md]
+* [GRAPH|docs/GRAPH.md]
+* [NETWORK|docs/NETWORK.md]
 

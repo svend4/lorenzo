@@ -1,0 +1,124 @@
+name: Test & Validate
+
+on:
+  push:
+    branches: [main, master, "claude/**"]
+    paths:
+      - "scripts/**.py"
+      - "tests/**"
+      - "docs-toolkit/**"
+      - "tasks/**"
+      - "docs/templates/**"
+      - "tests/**"
+      - ".github/workflows/test.yml"
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  python-syntax:
+    name: Python syntax check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compile all .py files
+        run: |
+          set -e
+          for f in scripts/*.py docs-toolkit/docstoolkit/**/*.py docs-toolkit/docstoolkit/*.py; do
+            if [ -f "$f" ]; then python -m py_compile "$f"; fi
+          done
+
+  unit-tests:
+    name: Unit tests (pytest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install pytest
+        run: pip install pytest --quiet
+
+      - name: Run tests/
+        run: python -m pytest tests/ -q
+
+      - name: Run docs-toolkit tests/
+        run: python -m pytest docs-toolkit/tests/ -q
+
+  mcp-smoke:
+    name: MCP smoke tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run MCP smoke tests
+        run: python scripts/improve_mcp_test.py
+
+  validate-templates:
+    name: Validate document templates
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate all documents with frontmatter
+        run: python scripts/improve_validate_templates.py --strict --report
+
+      - name: Upload VALIDATION.md
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: docs/VALIDATION.md
+          retention-days: 30
+
+  validate-tasks:
+    name: Validate task manifests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate manifests
+        run: python scripts/improve_task_codegen.py --validate
+
+  catalog-fresh:
+    name: Catalog up-to-date check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Regenerate catalog & registry
+        run: |
+          python scripts/improve_scripts_catalog.py
+          python scripts/improve_task_codegen.py
+          python scripts/improve_registry.py
+
+      - name: Check git diff (should be clean)
+        run: |
+          if git diff --quiet docs/SCRIPTS_CATALOG.md docs/scripts_catalog.json docs/TASKS_INDEX.md docs/REGISTRY.md tasks/_generated/; then
+            echo "✓ Catalogs are up-to-date"
+          else
+            echo "❌ Catalogs are out of date. Запустите локально:"
+            echo "   python scripts/improve_scripts_catalog.py"
+            echo "   python scripts/improve_task_codegen.py"
+            echo "   python scripts/improve_registry.py"
+            git diff docs/SCRIPTS_CATALOG.md docs/scripts_catalog.json docs/TASKS_INDEX.md docs/REGISTRY.md tasks/_generated/
+            exit 1
+          fi

@@ -1,3 +1,16 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "tagir_analyzes"
+author_handle: "@tagir_analyzes"
+projects: ["Svyazi", "Legal RAG"]
+platform: GitHub
+status: not_started
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+---
 # Контакт: tagir_analyzes / Legal RAG
 
 > [!TIP]

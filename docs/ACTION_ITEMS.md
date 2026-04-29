@@ -1,10 +1,5 @@
 # Action Items, риски и решения
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 Автоматически извлечено из всех документов.
 
 **Всего элементов:** 1630
@@ -168,10 +163,20 @@
   _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
+- — call? [S]  
+  _→ QUESTIONS_
+- — call? [Твоя коммуникация в outreach]  
+  _→ QUESTIONS_
+- набора узкоспециализированных под-аге [Какой под-агент (или какие) должны её обработать]  
+  _→ QUESTIONS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
   _→ RISK_REGISTER_
 - — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Po  
   _→ SUMMARIES_
+- как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |  
+  _→ TABLES_
+- Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
+  _→ TABLES_
 - строит личную или индивидуально‑командную knowledge memory. Svyazi‑2.0 должна строить социально‑проектный граф: кто може  
   _→ 07-vs-notion-mem-affine-langgraph_
 - как понятны роли агентов, типы задач и review states. A2A Protocol+1  
@@ -196,10 +201,6 @@
   _→ H-research-to-product-flywheel_
 - как появилась **метрика качества**, benchmark set и отчётливое понимание, что считать регрессией. До этого автоматическая оптимизация будет скорее про  
   _→ do-not-glue_
-- как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |  
-  _→ risks_
-- Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
-  _→ risks_
 - validation Bescheid parsing:  
   _→ 30-mega-stack-3-0-with-dsl-ast_
 
@@ -417,6 +418,8 @@ _(118 дублей скрыто)_
   _→ OUTLINE_
 - Tree for InGit Adopters](obsidian/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adop  
   _→ OUTLINE_
+- - Связанные противоречия  
+  _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
 - Framework — When to Buil](obsidian/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 332 | — |  
@@ -469,6 +472,16 @@ _(118 дублей скрыто)_
   _→ decision-record_
 - **Выбрано:** [Вариант X]  
   _→ decision-record_
+- зависит от исхода эксперимента.]  
+  _→ experiment-log_
+- 1] — отв. [Имя]  
+  _→ meeting-notes_
+- 2] — отв. [Имя]  
+  _→ meeting-notes_
+- go / no-go  
+  _→ prototype-mvp_
+- 1] — см. [ADR-NNNN](../decisions/ADR-NNNN.md)  
+  _→ weekly-digest_
 
 _(225 дублей скрыто)_
 
@@ -920,6 +933,8 @@ _(225 дублей скрыто)_
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 - склеивать в один релиз  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
+- register, auto-changelog, master index; fix run_all missing scripts _59617c5d_  
+  _→ CHANGELOG_
 - (6 файлов)  
   _→ CLUSTERS_
 - mitigations**  
@@ -928,7 +943,11 @@ _(225 дублей скрыто)_
   _→ COST_
 - mitigation для каждой. Полезно для grant  
   _→ DECISIONS_
-- | `root` | 76% |  
+- собирать вс  
+  _→ DECISIONS_
+- склеивать](docs/svyazi-2-0/limitations/do-not-glue.md) > > !WARNING - Оркестрация — выбрать один spine - Voice/local‑fir  
+  _→ DECISIONS_
+- | `root` | 79% |  
   _→ DENSITY_
 - register, auto-changelog, master index; fix run_all mis |  
   _→ DIGEST_
@@ -936,13 +955,15 @@ _(225 дублей скрыто)_
   _→ FOOTNOTES_
 - | ██ 8.1 | 0.5 | 0.4 | ▒▒ 4.3 | 0.1 |  
   _→ HEATMAP_
-- агентов? [Содержание]  
+- агентов? [[Глобальный Q&A](docs/QA.md)]  
   _→ KNOWLEDGE_MAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
 - того, что через две недели **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, LiteParse, Legal RAG, Hybrid RAG --- <!-- tags: memory, rag,  
   _→ NARRATIVE_
 - Analysis](obsidian/02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysisobsidian02-anthropic-vacancies162-8-risk-analysismd)  
+  _→ OUTLINE_
+- [Название]](docs/templates/risk-entry.md)](#риск-названиеdocstemplatesrisk-entrymd)  
   _→ OUTLINE_
 - Regulatory Complexity Deployment Readiness  
   _→ OUTLINE_
@@ -1018,10 +1039,16 @@ _(225 дублей скрыто)_
   _→ security-routing-plane_
 - склеивать».  
   _→ do-not-glue_
-- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
-  _→ projects-map_
 - (critical for Anwaltsgeheimnis)  
   _→ 14-local-first-agent-development-environment_
+- - **Auth:** как агент аутентифицируется  
+  _→ agent-spec_
+- [Название]  
+  _→ risk-entry_
+- реализуется)  
+  _→ risk-entry_
+- - [Антисценарий 1]  
+  _→ tech-pair_
 
 _(418 дублей скрыто)_
 
@@ -1189,10 +1216,12 @@ _(418 дублей скрыто)_
   _→ TABLES_
 - - [Риск 1]  
   _→ ensemble_
+- ## 12. Compatibility  
+  _→ protocol-spec_
 
 _(124 дублей скрыто)_
 
-## 📋 Задачи (TODO) (13)
+## 📋 Задачи (TODO) (24)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -1218,8 +1247,10 @@ _(124 дублей скрыто)_
   _→ 02-minuses-1-10_
 - после решения  
   _→ review-record_
+- SGB Y — [пояснение]  
+  _→ legal-case_
 
-_(2 дублей скрыто)_
+_(5 дублей скрыто)_
 
 ## 📬 Контактные действия (179)
 
@@ -1349,13 +1380,15 @@ _(2 дублей скрыто)_
   _→ 87-12-onboarding-paths-normative_
 - ему в комменты с тегами на Чепурову и Романова (и со ссылкой на NGT Memory), опи  
   _→ 00-intro_
-- первым (ещё не контактир  
-  _→ CONTACT_PRIORITY_
-- первым (ещё не контактировали)](#написать-первым-ещё-не-контактировали)  
-  _→ CONTACT_PRIORITY_
 - первым (ещё не контактировали)  
   _→ CONTACT_PRIORITY_
 - abstract arxiv paper (1 страница) - Опция 2: identify конкретную grant call с de  
+  _→ DECISIONS_
+- vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про  
+  _→ DECISIONS_
+- один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRAR  
+  _→ DECISIONS_
+- PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1  
   _→ DECISIONS_
 - авторами компонентов?](#как-связаться-с-авторами-компонентов)  
   _→ FAQ_
@@ -1363,28 +1396,38 @@ _(2 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [119. Шаблоны]  
+  _→ QUESTIONS_
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
+  _→ QUESTIONS_
+- авторами компонентов? [Какова лицензия проекта?]  
+  _→ QUESTIONS_
+- первое сообщение автору проекта. |  
+  _→ REGISTRY_
+- первое сообщение автору OSS-проекта | `lorenzo-contacts` | `write_contact` | `co  
+  _→ REGISTRY_
+- N приоритетными контактами. |  
+  _→ REGISTRY_
 - авторам AgentFS, Yodoca, NGT | ⬜ Планируется |  
   _→ SCHEDULE_
 - авторам AgentFS, Yodoca, NGT**  
   _→ SCHEDULE_
+- первое сообщение автору OSS-проекта | "напиши письмо автору", "составь запрос на  
+  _→ TABLES_
 - PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
   _→ TABLES_
+- первое сообщение автору OSS-проекта  
+  _→ TASKS_INDEX_
 - technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого арте  
   _→ 10-three-entry-points_
 - vision paper на 10-15 страниц. «MMORPG as Professional Work Infrastructure: A Th  
-  _→ 05-minuses-as-business_
-- vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про  
   _→ 05-minuses-as-business_
 - CRUD», а те, что на переднем крае самой модели (pre‑training, RL, alignment, int  
   _→ signals_
 - companion paper про Профессиональных Коллег. Это будет более готовая для развёрт  
   _→ 01-response_
-- один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRAR  
-  _→ 01-strategic-significance_
 - `adapters/<format>.py`, наследуясь от `BaseAdapter`  
   _→ 12-onboarding-paths_
-- PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1  
-  _→ 04-what-i-can-do-now_
 - anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
 

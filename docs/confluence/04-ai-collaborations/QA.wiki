@@ -7,7 +7,7 @@ h1. Q&A: 04-ai-collaborations
 
 _Автоматически сгенерировано по 15 файлам раздела._
 
-h2. Как реализован forensic RAG[^rag] с доказуемостью?
+h2. Как реализован forensic RAG с доказуемостью?
 
 Упоминаются: _liteparse_, _bounding box_, _page-level_, _evidence_
 
@@ -43,18 +43,6 @@ h2. Какие вопросы лучше задавать авторам при 
 
 Упоминаются: _первый вопрос_, _архитектурный_, _шаблон_, _контакт_
 
-h2. Как работает AgentFS[^agentfs] и что такое .agentos?
-
-Упоминаются: _agentos_, _vault_, _compile_, _persistent state_
-
-h2. Что такое knowledge-space[^knowledge_space] и для кого он предназначен?
-
-Упоминаются: _reference card_, _agent-readable_, _785_, _gotcha_
-
-h2. Как CardIndex[^cardindex] хранит и версионирует карточки?
-
-Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
-
 h2. Какие инструменты обеспечивают безопасность агентов?
 
 Упоминаются: _SENTINEL_, _LiteLLM_, _Tool Search_, _Auto AI Router_
@@ -78,16 +66,3 @@ h2. Что такое knowledge-space и для кого он предназна
 h2. Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
-
-
-
-
-----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском
-
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)

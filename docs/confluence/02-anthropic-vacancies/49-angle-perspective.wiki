@@ -16,7 +16,7 @@ h1. Angle / Perspective
 
 h2. Angle / Perspective
 
-_Semantic_ — {{pro2}} смотрит на мир через _структуру значений_. 
+_Semantic_ — {{[pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}} смотрит на мир через _структуру значений_. 
 На вопрос «что такое кристалл» он отвечает Q6-координатами 
 (положение в гиперкубе), семантическими связями (соседи по Hamming), 
 и гексаграммой (классическая И-Цзин интерпретация).
@@ -51,9 +51,29 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [Angle / Perspective|13-angle-perspective.md]
+* [Angle / Perspective|39-angle-perspective.md]
+* [Angle / Perspective|59-angle-perspective.md]
+* [Compatibility Level|51-compatibility-level.md]
+* [Essence|36-essence.md]
+* [Native Format|47-native-format.md]
+* [Native Format|57-native-format.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Compatibility Level|51-compatibility-level.md] _37%_
+* [Native Format|57-native-format.md] _37%_
+* [Angle / Perspective|59-angle-perspective.md] _37%_
+* [Angle / Perspective|39-angle-perspective.md] _33%_
+* [Bridges|60-bridges.md] _33%_
+* [Essence|36-essence.md] _29%_
+* [passports/pro2.md|45-passports-pro2-md.md] _29%_
+* [Essence|46-essence.md] _29%_
 h2. Связанные документы
 
 * [Angle / Perspective|39-angle-perspective.md] _42%_

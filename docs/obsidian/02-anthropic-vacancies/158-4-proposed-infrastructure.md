@@ -11,6 +11,16 @@ date: 2026-04-29
 
 # 4. Proposed Infrastructure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.
+> 🔧 **Подход:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.
+> ✅ **Результат:** Legal and Compliance Layer What it provides: - Single contractual interface for contributors (across jurisdictions) - Tax compliance infrastructure - GDPR-compliant data handling -
+> 🏷️ **Ключевые слова:** `guild`, `layer`, `level`, `nautilus`, `triangle`, `foundation`, `contributors`, `pattern`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -25,7 +35,7 @@ date: 2026-04-29
 ## Содержание
 
 - [4. Proposed Infrastructure](#4-proposed-infrastructure)
-  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-nautilus-portal-protocol)
+  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol)
   - [4.2. Coordination Pattern: Double-Triangle Architecture](#42-coordination-pattern-double-triangle-architecture)
   - [4.3. Knowledge Layer: Pattern Library with Private Instances](#43-knowledge-layer-pattern-library-with-private-instances)
   - [4.4. Community Layer: Guild Structure](#44-community-layer-guild-structure)
@@ -243,7 +253,7 @@ Community governance operates:
 ---
 
 **Похожие документы:**
-- [[141-4-nautilus-portal-as-reference-substrate]] (сходство 0.20)
+- [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
 - [[143-6-four-deployment-domains]] (сходство 0.18)
 - [[144-7-open-questions]] (сходство 0.16)
 
@@ -253,21 +263,8 @@ Community governance operates:
 ---
 
 **Смотрите также:**
-- [[141-4-nautilus-portal-as-reference-substrate]]
+- [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [[143-6-four-deployment-domains]]
 - [[144-7-open-questions]]
 - [[145-8-call-to-action]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _25%_
-- [[145-8-call-to-action|8. Call to Action]] _21%_
-- [[150-appendix-c-version-history|Appendix C: Version History]] _17%_
-- [[153-executive-summary|Executive Summary]] _17%_
-- [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] _17%_

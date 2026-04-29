@@ -29,6 +29,16 @@ h2. Ссылки
 
 h2. Связанные документы
 
+* [Cowork|cowork.md] _90%_
+* [ingit|ingit.md] _90%_
+* [kksudo|kksudo.md] _90%_
+* [Lorenzo|lorenzo.md] _90%_
+* [Nautilus|nautilus.md] _90%_
+* [SGB|sgb.md] _90%_
+* [spbmolot|spbmolot.md] _90%_
+* [Svyazi|svyazi.md] _90%_
+h2. Связанные документы
+
 * [SGB|sgb.md] _90%_
 * [Svyazi|svyazi.md] _90%_
 * [Cowork|cowork.md] _83%_

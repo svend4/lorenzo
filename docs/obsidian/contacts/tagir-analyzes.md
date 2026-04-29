@@ -11,7 +11,7 @@ date: 2026-04-29
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, LiteParse, Legal RAG, Graph RAG, SENTINEL, Auto AI Router
+**Проекты:** Svyazi, Legal RAG
 
 ---
 
@@ -68,17 +68,15 @@ Legal RAG закрывает слой «rag» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _73%_
-- [[dmitriila|Контакт: Dmitriila / SENTINEL]] _73%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _73%_
-- [[vladspace|Контакт: VladSpace / Graph RAG]] _73%_
-- [[zodigancode|Контакт: zodigancode / Rufler]] _73%_
-- [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] _66%_
-- [[kksudo|Контакт: kksudo / AgentFS]] _66%_
-- [[nlaik|Контакт: nlaik / LiteParse / research-docs]] _66%_
+---
+
+**Похожие документы:**
+- [[vladspace]] (сходство 0.88)
+- [[zodigancode]] (сходство 0.86)
+- [[mixaill76]] (сходство 0.86)
+
 
 <!-- see-also -->
 
@@ -86,7 +84,7 @@ _Создано автоматически: 2026-04-29_
 
 **Смотрите также:**
 - [[vladspace]]
-- [[nlaik]]
-- [[sonia-black]]
 - [[cutcode]]
+- [[zodigancode]]
+- [[dmitriila]]
 

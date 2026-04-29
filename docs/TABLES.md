@@ -7528,7 +7528,7 @@ _Файл: `docs/obsidian/templates/project-component.md` | 2 колонок, 4 
 
 
 ### 1. Словарь аббревиатур и сокращений
-_Файл: `docs/ABBREVIATIONS.md` | 3 колонок, 94 строк_
+_Файл: `docs/ABBREVIATIONS.md` | 3 колонок, 102 строк_
 
 | Аббревиатура | Расшифровка | Упоминаний |
 |-------------|-------------|------------|
@@ -7823,22 +7823,21 @@ _Файл: `docs/CITATION_INDEX.md` | 3 колонок, 20 строк_
 
 | Домен | URL | Авторитетность |
 |-------|-----|----------------|
-| `github.com` | 55 | ⭐⭐⭐⭐⭐ |
-| `habr.com` | 54 | ⭐⭐⭐⭐ |
+| `habr.com` | 53 | ⭐⭐⭐⭐ |
+| `github.com` | 47 | ⭐⭐⭐⭐⭐ |
+| `img.shields.io` | 9 | ⭐ |
 | `3dnews.ru` | 2 | ⭐ |
 | `claude.ai` | 2 | ⭐ |
 | `api.github.com` | 2 | ⭐⭐⭐⭐⭐ |
 | `fontanka.ru` | 1 | ⭐ |
-| `eb.hypothes.is` | 1 | ⭐ |
 | `discourse.org` | 1 | ⭐ |
+| `eb.hypothes.is` | 1 | ⭐ |
 | `claude.com` | 1 | ⭐ |
 | `support.claude.com` | 1 | ⭐ |
 | `fossil-scm.org` | 1 | ⭐ |
 | `install.sh` | 1 | ⭐ |
 | `happyin.space` | 1 | ⭐ |
 | `creativecommons.org` | 1 | ⭐ |
-| `solidproject.org` | 1 | ⭐ |
-| `3.org` | 1 | ⭐ |
 | `activitypub.rocks` | 1 | ⭐ |
 | `vc.ru` | 1 | ⭐ |
 | `forum.obsidian.md` | 1 | ⭐ |
@@ -8214,8 +8213,8 @@ _Файл: `docs/CONTACTS.md` | 2 колонок, 46 строк_
 | `github.com/github.com/kksudo` | 8 |
 | `github.com/github.com/kksudo/agentfs` | 6 |
 | `github.com/github.com/lib4u/rufler` | 2 |
-| `github.com/github.com/mcp` | 7 |
-| `github.com/github.com/nlaik` | 3 |
+| `github.com/github.com/mcp` | 9 |
+| `github.com/github.com/nlaik` | 4 |
 | `github.com/github.com/ruvnet/ruflo` | 2 |
 | `github.com/github.com/settings/tokens` | 10 |
 | `github.com/github.com/spbmolot` | 9 |
@@ -8382,13 +8381,13 @@ _Файл: `docs/COST.md` | 3 колонок, 7 строк_
 | `343-lorenzo-catalyst` | рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс… | 72 |
 | `365-развёрнутый-анал` | eam. С solo developer (Макс) и part-time, реальный timeline … | 72 |
 | `ACTION_ITEMS` | обратная-связь_ - 5: Burnout. Проект 12-18 месяцев для singl… | 72 |
+| `CONCEPTS` | инимально жизнеспособный прототип за 12-18 месяцев     _→ [N… | 72 |
 | `DECISIONS` | document — структурированный план на 12-18 месяцев, который … | 72 |
-| `NARRATIVE` | инимально жизнеспособный прототип за 12-18 месяцев 4. **Кома… | 72 |
 | `TABLES` | 65-развёрнутый-анал` | Макс) и part-time, реальный timeline … | 72 |
 | `01-response` | есяцев) → maybe eventual formalization как RFC or standard (… | 72 |
+| `332-6-уточнённый-объ` | ультат:** Чистая временная линия: От 10-16 месяцев до пример… | 64 |
 | `332-6-уточнённый-объ` | Оригинальная дорожная карта InGit (10-16 месяцев до v1.0) от… | 64 |
-| `332-6-уточнённый-объ` | окращённый Объём  Оригинальный план: 10-16 месяцев до v1.0 с… | 64 |
-| `00-intro` | ом смысле. Это архив 1105 разговоров за 15 месяцев (dec 2024… | 60 |
+| `06-utochnyonnyy-obyo` | окращённый Объём  Оригинальный план: 10-16 месяцев до v1.0 с… | 64 |
 
 
 ### 36. Сводка по секциям
@@ -8396,8 +8395,8 @@ _Файл: `docs/COVERAGE.md` | 8 колонок, 5 строк_
 
 | Секция | Файлов | Summary | Теги | TOC | CrossRefs | Статус | Backlinks |
 |--------|--------|---------|------|-----|-----------|--------|-----------|
-| `01-svyazi` | 14 | 🟢 13/14 | 🟢 13/14 | 🔴 1/14 | 🟢 12/14 | 🔴 0/14 | 🔴 0/14 |
-| `02-anthropic-vacancies` | 355 | 🟢 351/355 | 🟢 341/355 | 🔴 102/355 | 🟢 336/355 | 🔴 0/355 | 🔴 0/355 |
+| `01-svyazi` | 14 | 🟢 13/14 | 🟢 13/14 | 🔴 2/14 | 🟢 12/14 | 🔴 0/14 | 🔴 0/14 |
+| `02-anthropic-vacancies` | 355 | 🟢 351/355 | 🟢 343/355 | 🟡 184/355 | 🟢 338/355 | 🔴 0/355 | 🔴 0/355 |
 | `03-technology-combinations` | 5 | 🟢 5/5 | 🟢 5/5 | 🔴 1/5 | 🟢 5/5 | 🔴 0/5 | 🔴 0/5 |
 | `04-ai-collaborations` | 15 | 🟢 15/15 | 🟢 15/15 | 🔴 0/15 | 🟢 15/15 | 🟢 15/15 | 🔴 0/15 |
 | `05-habr-projects` | 6 | 🟢 6/6 | 🟢 6/6 | 🔴 1/6 | 🟢 6/6 | 🟢 6/6 | 🔴 0/6 |
@@ -8416,15 +8415,12 @@ _Файл: `docs/COVERAGE.md` | 8 колонок, 2 строк_
 | `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 41 | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/202-12-заключение.md` | 179 | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md` | 140 | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| `docs/02-anthropic-vacancies/38-content-overview.md` | 97 | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | 148 | ✅ | ⬜ | ⬜ | ✅ | ⬜ | ⬜ |
-| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | 148 | ✅ | ⬜ | ⬜ | ✅ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/12-content-overview.md` | 29 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | 35 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | 38 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | 36 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` | 35 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
-| `docs/02-anthropic-vacancies/189-аннотация.md` | 247 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` | 35 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md` | 36 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/31-content-overview.md` | 27 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -8621,11 +8617,11 @@ _Файл: `docs/DIGEST_WEEKLY.md` | 2 колонок, 5 строк_
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за неделю | **64** |
+| Коммитов за неделю | **98** |
 | Новых файлов | **0** |
 | Изменённых файлов | **0** |
-| Всего MD файлов | **1159** |
-| Всего слов | **830,262** |
+| Всего MD файлов | **1194** |
+| Всего слов | **943,891** |
 
 
 ### 47. Люди и авторы (7)
@@ -8787,7 +8783,7 @@ _Файл: `docs/FOOTNOTES.md` | 3 колонок, 17 строк_
 | **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 2 |
 | **Svyazi** | Главный проект: экосистема AI-компонентов | 2 |
 | **TF-IDF** | Term Frequency–Inverse Document Frequency — метрика важности термина | 0 |
-| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 22 |
+| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 0 |
 | **knowledge-space** | OSS-проект: база знаний 785+ карточек (MIT) | 0 |
 
 
@@ -8854,10 +8850,10 @@ _Файл: `docs/HEALTH.md` | 2 колонок, 11 строк_
 | habr-unique-projects | 56 |
 | lorenzo-agent | 62 |
 | nautilus | 255 |
-| root | 87 |
+| root | 104 |
 | svyazi-2-0 | 59 |
 | technology-combinations | 53 |
-| templates | 6 |
+| templates | 24 |
 
 
 ### 57. Числовые значения (‰)
@@ -9295,6 +9291,13 @@ _Файл: `docs/KPI.md` | 3 колонок, 6 строк_
 | **4** | кристалла», получить osmыслený ответ с указанием репо. #### Фаза 4 — Web interfa | `02-общий-план-развития-na` |
 | **5** | y через браузер, получить отформатированный результат. #### Фаза 5 — Публикация  | `02-общий-план-развития-na` |
 | **0** | ёртывания](#9-стратегия-поэтапного-развёртывания) - [9.1. Фаза 0 — Основание (Ме | `199-9-стратегия-поэтапног` |
+| **24** | митов) ### 🔧 Обслуживание - regenerate auto-exports after Sprint 24-26 _6421a1fc | `CHANGELOG` |
+| **21** | ter Sprint 24-26 _6421a1fc_ - regenerate auto-exports after Sprint 21-23 _6ac597 | `CHANGELOG` |
+| **18** | ter Sprint 21-23 _6ac59707_ - regenerate auto-exports after Sprint 18-20 _f05312 | `CHANGELOG` |
+| **15** | 3125f_ - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737 | `CHANGELOG` |
+| **12** | t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e | `CHANGELOG` |
+| **9** | web dashboard _1bf14810_ > Sprint 12 — bot-aware system - Sprint 9-11 — skills M | `CHANGELOG` |
+| **6** | ins, CI/CD _22c4cf8d_ > Sprint 9 — agentic skills layer - Sprint 6-8 — миграции, | `CHANGELOG` |
 
 
 ### 73. Текущие метрики
@@ -9732,6 +9735,7 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 29 строк_
 | `webhook` | 3 | tech |
 | `kubernetes` | 3 | tech |
 | `graphql` | 2 | tech |
+| `fastapi` | 2 | tech |
 
 
 ### 83. 👤 People (16)
@@ -9781,6 +9785,7 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 30 строк_
 | `февраль 2026` | 3 | dates |
 | `2026-02-01` | 2 | dates |
 | `ноябре 2025` | 2 | dates |
+| `2026-02-01` | 2 | dates |
 | `2026-10-15` | 2 | dates |
 | `ноябре 2025` | 2 | dates |
 
@@ -9907,9 +9912,9 @@ _Файл: `docs/PROGRESS.md` | 3 колонок, 5 строк_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 14 файлов, не отправлено | 14 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 140 скриптов | 5 LLM-скриптов, MCP=✅ |
+| Скрипты обработки | ✅ 155 скриптов | 5 LLM-скриптов, MCP=✅ |
 | DIGEST.md | ✅ 6 секций | python scripts/improve_llm_summary.py |
-| Claude Skills | ✅ 5 скиллов | review-docs, status, write-contact, improve, analyze-project |
+| Claude Skills | ✅ 28 скиллов | weekly-review, audit-corpus, review-docs, propose-collaboration, track-decisions, summarize, dispatch, evaluate-skill, find-cinderella, synthesize, design-ensemble, analyze-project, search, evaluate-tech, new-research, generate-rfc, status, plan-mvp, write-contact, improve, review-architecture, skill-router, propose-mega-stack, outreach-day, compare, find-contradictions, find-gaps, daily-routine |
 
 
 ### 93. Метрики качества
@@ -12411,13 +12416,22 @@ _Файл: `docs/REPORT.md` | 3 колонок, 5 строк_
 
 | Секция | Файлов | Слов |
 |--------|--------|------|
-| **Anthropic Vacancies** | 357 | 278,474 |
-| **AI Collaborations** | 17 | 26,447 |
-| **Svyazi 2.0** | 16 | 11,287 |
-| **Habr Projects** | 10 | 8,894 |
-| **Contacts** | 15 | 2,895 |
-| **Tech Combinations** | 7 | 2,876 |
-| **Templates** | 6 | 842 |
+| **Anthropic Vacancies** | 357 | 278,999 |
+| **nautilus** | 255 | 148,523 |
+| **anthropic-vacancies** | 111 | 30,960 |
+| **AI Collaborations** | 17 | 26,057 |
+| **lorenzo-agent** | 62 | 19,979 |
+| **habr-unique-projects** | 56 | 13,161 |
+| **technology-combinations** | 53 | 12,903 |
+| **svyazi-2-0** | 59 | 12,455 |
+| **Svyazi 2.0** | 16 | 11,052 |
+| **Habr Projects** | 10 | 8,622 |
+| **ai-collaborations** | 30 | 8,207 |
+| **Templates** | 24 | 4,858 |
+| **Contacts** | 15 | 3,492 |
+| **Tech Combinations** | 7 | 2,799 |
+| **glossary** | 4 | 2,282 |
+| **autofilled** | 13 | 533 |
 | **badges** | 1 | 44 |
 
 
@@ -12426,14 +12440,14 @@ _Файл: `docs/REPORT.md` | 2 колонок, 7 строк_
 
 | Автор | Проект | Слой | Приоритет |
 |-------|--------|------|-----------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 20 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 7 | — |
-| **Cutcode** | AIF Handoff | orchestration | 8 | — |
-| **Dmitriila** | SENTINEL | security | 6 | — |
-| **MiXaiLL76** | Auto AI Router | security | 7 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 9 | — |
-| **VitalyOborin** | Yodoca | memory | 12 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 6 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 50 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 33 | — |
+| **Cutcode** | AIF Handoff | orchestration | 36 | — |
+| **Dmitriila** | SENTINEL | security | 34 | — |
+| **MiXaiLL76** | Auto AI Router | security | 30 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 19 | — |
+| **VitalyOborin** | Yodoca | memory | 40 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 43 | — |
 
 
 ### 100. Реестр
@@ -12814,19 +12828,19 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 14 строк_
 | # | Документ | Слов |
 |---|----------|------|
 | 1 | [Продолжение исследования для Svyazi 2.0](docs/01-svyazi/00-intro-part2.md) | 6 |
-| 2 | [Svyazi 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) | 514 |
-| 3 | [Методика и рамка отбора проектов](docs/01-svyazi/02-methodology.md) | 339 |
-| 4 | [03-component-catalog](docs/01-svyazi/03-component-catalog.md) | 1219 |
-| 5 | [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) | 1105 |
-| 6 | [06-security-privacy](docs/01-svyazi/06-security-privacy.md) | 680 |
-| 7 | [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md) | 881 |
-| 8 | [08-conclusions](docs/01-svyazi/08-conclusions.md) | 238 |
-| 9 | [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md) | 598 |
-| 10 | [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md) | 758 |
-| 11 | [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) | 584 |
-| 12 | [12-roadmap](docs/01-svyazi/12-roadmap.md) | 595 |
-| 13 | [13-contacts](docs/01-svyazi/13-contacts.md) | 679 |
-| 14 | [14-limitations](docs/01-svyazi/14-limitations.md) | 505 |
+| 2 | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) | 726 |
+| 3 | [Методика и рамка отбора проектов](docs/01-svyazi/02-methodology.md) | 480 |
+| 4 | [03-component-catalog](docs/01-svyazi/03-component-catalog.md) | 1383 |
+| 5 | [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) | 1288 |
+| 6 | [06-security-privacy](docs/01-svyazi/06-security-privacy.md) | 823 |
+| 7 | [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md) | 1063 |
+| 8 | [08-conclusions](docs/01-svyazi/08-conclusions.md) | 380 |
+| 9 | [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md) | 758 |
+| 10 | [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md) | 908 |
+| 11 | [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) | 737 |
+| 12 | [12-roadmap](docs/01-svyazi/12-roadmap.md) | 722 |
+| 13 | [13-contacts](docs/01-svyazi/13-contacts.md) | 806 |
+| 14 | [14-limitations](docs/01-svyazi/14-limitations.md) | 638 |
 
 
 ### 116. Svyazi 2.0 — Архитектура системы
@@ -12892,11 +12906,11 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 5 строк_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [Агентные системы и роутинг](docs/03-technology-combinations/01-agent-routing.md) | 207 |
-| 2 | [Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md) | 690 |
-| 3 | [Local-first и P2P стек](docs/03-technology-combinations/03-local-first.md) | 311 |
-| 4 | [Домен: немецкое социальное право](docs/03-technology-combinations/04-sozialrecht-domain.md) | 146 |
-| 5 | [Бенчмарки и производительность](docs/03-technology-combinations/05-benchmarks.md) | 808 |
+| 1 | [Агентные системы и роутинг](docs/03-technology-combinations/01-agent-routing.md) | 298 |
+| 2 | [Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md) | 802 |
+| 3 | [Local-first и P2P стек](docs/03-technology-combinations/03-local-first.md) | 419 |
+| 4 | [Домен: немецкое социальное право](docs/03-technology-combinations/04-sozialrecht-domain.md) | 160 |
+| 5 | [Бенчмарки и производительность](docs/03-technology-combinations/05-benchmarks.md) | 915 |
 
 
 ### 118. Svyazi 2.0 — Архитектура системы
@@ -12904,21 +12918,21 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 15 строк_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [Введение](docs/04-ai-collaborations/00-intro.md) | 11133 |
-| 2 | [Executive summary](docs/04-ai-collaborations/01-executive-summary.md) | 385 |
-| 3 | [Методика и рамка отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md) | 264 |
-| 4 | [Карта найденных проектов и паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) | 1269 |
-| 5 | [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) | 1104 |
-| 6 | [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) | 888 |
-| 7 | [Безопасность, приватность и бюджетный роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) | 686 |
-| 8 | [Выводы](docs/04-ai-collaborations/07-выводы.md) | 252 |
-| 9 | [Что это продолжение добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) | 251 |
-| 10 | [Архитектурные зазоры, которые важнее новых инструм](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) | 601 |
-| 11 | [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) | 763 |
-| 12 | [Интеграционный контракт, который стоит зафиксирова](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) | 629 |
-| 13 | [Дорожная карта прототипа следующей итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) | 602 |
-| 14 | [Контактная стратегия и узкие вопросы для авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) | 689 |
-| 15 | [Ограничения, лицензии и что пока лучше не склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3022 |
+| 1 | [Введение](docs/04-ai-collaborations/00-intro.md) | 11389 |
+| 2 | [Executive summary](docs/04-ai-collaborations/01-executive-summary.md) | 575 |
+| 3 | [Методика и рамка отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md) | 434 |
+| 4 | [Карта найденных проектов и паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) | 1478 |
+| 5 | [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) | 1340 |
+| 6 | [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) | 1130 |
+| 7 | [Безопасность, приватность и бюджетный роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) | 887 |
+| 8 | [Выводы](docs/04-ai-collaborations/07-выводы.md) | 470 |
+| 9 | [Что это продолжение добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) | 439 |
+| 10 | [Архитектурные зазоры, которые важнее новых инструм](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) | 821 |
+| 11 | [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) | 984 |
+| 12 | [Интеграционный контракт, который стоит зафиксирова](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) | 846 |
+| 13 | [Дорожная карта прототипа следующей итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) | 787 |
+| 14 | [Контактная стратегия и узкие вопросы для авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) | 874 |
+| 15 | [Ограничения, лицензии и что пока лучше не склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3274 |
 
 
 ### 119. Svyazi 2.0 — Архитектура системы
@@ -12926,12 +12940,12 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 6 строк_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [Синтез: как проекты собираются вместе](docs/05-habr-projects/01-synthesis.md) | 80 |
-| 2 | [Авторы и контакты](docs/05-habr-projects/02-collaboration-partners.md) | 138 |
-| 3 | [Wikontic: семантический граф](docs/05-habr-projects/knowledge/wikontic.md) | 130 |
-| 4 | [MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md) | 7028 |
-| 5 | [NGT Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 217 |
-| 6 | [Yodoca: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 115 |
+| 1 | [Синтез: как проекты собираются вместе](docs/05-habr-projects/01-synthesis.md) | 136 |
+| 2 | [Авторы и контакты](docs/05-habr-projects/02-collaboration-partners.md) | 261 |
+| 3 | [Wikontic: семантический граф](docs/05-habr-projects/knowledge/wikontic.md) | 186 |
+| 4 | [MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md) | 7246 |
+| 5 | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 364 |
+| 6 | [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 212 |
 
 
 ### 120. Svyazi 2.0 — Архитектура системы
@@ -14071,9 +14085,8 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 | `2026 год` | стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: | `docs/04-ai-collaborations/01-executive-summary.md` |
 | `2026 год` | гим агентом”. Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с бо | `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` |
 | `2024 год` | «это решение 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `docs/05-habr-projects/memory/memnet.md` |
-| `2024 год` | 00-intro_ - 2019 года, после изменений 2024 года применяется иначе»); _→ 00-intro_ - tree для разрешени | `docs/ACTION_ITEMS.md` |
-| `2026 год` | ates / / `март 2026` / 8 / dates / / `в 2026 году` / 8 / dates / / `марта 2026` / 6 / dates / / `декабрь 202 | `docs/NAMED_ENTITIES.md` |
-| `2026 год` | стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: | `docs/NARRATIVE.md` |
+| `2024 год` | 00-intro_ - 2019 года, после изменений 2024 года применяется иначе»); _→ 00-intro_ - Record (ADR): конт | `docs/ACTION_ITEMS.md` |
+| `2026 год` | es / / `2026/04/25` / 10 / dates / / `в 2026 году` / 8 / dates / / `март 2026` / 8 / dates / / `2026-04-22` | `docs/NAMED_ENTITIES.md` |
 | `2026 год` | кла через диалог в нескольких сессиях в 2026 году. Формулировка «Синдром Золушки» и расширение к со… - Бл | `docs/OUTLINE.md` |
 | `2026 год` | tes / / `2026/04/25` / 7 / dates / / `в 2026 году` / 6 / dates / / `март 2026` / 5 / dates / / `декабрь 2025 | `docs/TABLES.md` |
 | `2025 год` | ic-vacancies/203-благодарности.md` / / `2025 год` / Кириллом Дьологом сервис «Обучай» летом 2025 года. К апр | `docs/TABLES.md` |
@@ -14130,7 +14143,6 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 6 строк_
 |--------|----------|------|
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `docs/01-svyazi/01-executive-summary.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `docs/04-ai-collaborations/01-executive-summary.md` |
-| `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `docs/NARRATIVE.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для Svyazi‑2.0 : | `docs/SUMMARIES.md` |
 | `первые месяцы 2026` | `2026 год` / стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `docs/TABLES.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` |
@@ -15031,10 +15043,51 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **исследования** | 7 | `███████░░░░░░░░` |
 
 
-## templates (4 таблиц)
+## templates (41 таблиц)
 
 
-### 1. Профиль
+### 1. Скилы агента
+_Файл: `docs/templates/agent-spec.md` | 3 колонок, 2 строк_
+
+| Скилл | Откуда | Когда применяет |
+|-------|--------|-----------------|
+| [скилл 1] | [`docs/.claude/skills/...`] | [триггер] |
+| [скилл 2] | | |
+
+
+### 2. Tools (плагины)
+_Файл: `docs/templates/agent-spec.md` | 3 колонок, 2 строк_
+
+| MCP-сервер | Инструменты | Зачем |
+|------------|-------------|-------|
+| lorenzo-search | search_docs, … | поиск контекста |
+| … | | |
+
+
+### 3. Память
+_Файл: `docs/templates/agent-spec.md` | 4 колонок, 4 строк_
+
+| Тип памяти | Хранилище | Объём | Срок жизни |
+|------------|-----------|-------|-----------|
+| Working | in-context | 200K tokens | сессия |
+| Episodic | … | … | 30 дней |
+| Semantic | search_index.json | весь корпус | вечно |
+| Procedural | скилы | — | — |
+
+
+### 4. Decision boundary
+_Файл: `docs/templates/agent-spec.md` | 4 колонок, 5 строк_
+
+| Класс решения | Сам агент | С подтверждением | Только человек |
+|---------------|-----------|------------------|----------------|
+| Чтение docs | ✅ | | |
+| Edit файла | | ✅ | |
+| Push в remote | | | ✅ |
+| Финансовые | | | ✅ |
+| Связь с авторами | | ✅ | |
+
+
+### 5. Профиль
 _Файл: `docs/templates/contact-outreach.md` | 2 колонок, 4 строк_
 
 | Параметр | Значение |
@@ -15045,7 +15098,7 @@ _Файл: `docs/templates/contact-outreach.md` | 2 колонок, 4 строк
 | Платформа | [Habr/GitHub/Telegram] |
 
 
-### 2. Рассмотренные варианты
+### 6. Рассмотренные варианты
 _Файл: `docs/templates/decision-record.md` | 3 колонок, 3 строк_
 
 | Вариант | Плюсы | Минусы |
@@ -15055,7 +15108,7 @@ _Файл: `docs/templates/decision-record.md` | 3 колонок, 3 строк_
 | C | | |
 
 
-### 3. Компоненты
+### 7. Компоненты
 _Файл: `docs/templates/ensemble.md` | 3 колонок, 2 строк_
 
 | Компонент | Роль | Лицензия |
@@ -15064,7 +15117,152 @@ _Файл: `docs/templates/ensemble.md` | 3 колонок, 2 строк_
 | [Проект B] | [роль] | [лицензия] |
 
 
-### 4. Статус
+### 8. Журнал
+_Файл: `docs/templates/experiment-log.md` | 4 колонок, 2 строк_
+
+| Дата | Действие | Замер | Заметка |
+|------|----------|-------|---------|
+| 2026-04-29 | start | — | Начали эксперимент |
+| | | | |
+
+
+### 9. История обновлений
+_Файл: `docs/templates/faq-entry.md` | 3 колонок, 1 строк_
+
+| Дата | Что обновили | Кто |
+|------|--------------|-----|
+| 2026-04-29 | Создан | — |
+
+
+### 10. Детальные метрики
+_Файл: `docs/templates/kpi-snapshot.md` | 5 колонок, 7 строк_
+
+| Метрика | Значение | Цель | Δ vs прошлая | Статус |
+|---------|----------|------|--------------|--------|
+| HEALTH score | | 80 | | 🟢/🟡/🔴 |
+| Файлов в docs/ | | | | |
+| Слов | | | | |
+| Битых ссылок | | 0 | | |
+| Покрытие тегов | | 90% | | |
+| Контактов написано | | | | |
+| Контактов ответили | | | | |
+
+
+### 11. Идентификация
+_Файл: `docs/templates/legal-case.md` | 2 колонок, 6 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Aktenzeichen | [A 1 SO 123/24] |
+| Тип | [Sozialgericht / Verwaltungsgericht / …] |
+| Stage | [Antrag / Bescheid / Widerspruch / Klage / Berufung] |
+| Filed | [дата] |
+| Deadline | [дата] |
+| Status | [open / closed / appeal] |
+
+
+### 12. Стороны
+_Файл: `docs/templates/legal-case.md` | 2 колонок, 2 строк_
+
+| Роль | Кто |
+|------|-----|
+| Antragsteller / Kläger | [имя] |
+| Behörde / Beklagte | [имя] |
+
+
+### 13. Хронология
+_Файл: `docs/templates/legal-case.md` | 3 колонок, 3 строк_
+
+| Дата | Событие | Документ |
+|------|---------|----------|
+| YYYY-MM-DD | Antrag eingereicht | [файл] |
+| YYYY-MM-DD | Bescheid erhalten | [файл] |
+| YYYY-MM-DD | Widerspruch | [файл] |
+
+
+### 14. Прецеденты
+_Файл: `docs/templates/legal-case.md` | 4 колонок, 1 строк_
+
+| Решение | Суд | Дата | Релевантность |
+|---------|-----|------|---------------|
+| [BSG B 14 AS 1/22 R] | BSG | 2022-XX | [как относится] |
+
+
+### 15. Участники
+_Файл: `docs/templates/meeting-notes.md` | 3 колонок, 1 строк_
+
+| Имя | Роль | Платформа |
+|-----|------|-----------|
+| [имя] | [роль] | [GitHub/Habr/Telegram] |
+
+
+### 16. 1. UI / Client
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 1 строк_
+
+| Компонент | Лицензия | Зрелость |
+|-----------|----------|----------|
+| | | |
+
+
+### 17. 2. Agent Layer
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 1 строк_
+
+| Компонент | Тип агента | Откуда |
+|-----------|------------|--------|
+| | | |
+
+
+### 18. 3. Orchestration
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 0 строк_
+
+| Компонент | Паттерн | … |
+|-----------|---------|---|
+
+
+### 19. 4. RAG / Search
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 0 строк_
+
+| Компонент | Тип | Узлы |
+|-----------|-----|------|
+
+
+### 20. Cross-layer контракты
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 2 строк_
+
+| Слой → слой | Формат | Протокол |
+|-------------|--------|----------|
+| Ingestion → Storage | JSON | HTTP REST |
+| Storage → RAG | … | … |
+
+
+### 21. Стоимость
+_Файл: `docs/templates/mega-stack.md` | 2 колонок, 4 строк_
+
+| Категория | $/месяц |
+|-----------|---------|
+| LLM API | |
+| Хостинг | |
+| Платные лицензии | |
+| **Итого** | |
+
+
+### 22. Риски и митигации
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 1 строк_
+
+| Риск | Severity | Митигация |
+|------|----------|-----------|
+| | | |
+
+
+### 23. Альтернативные стеки
+_Файл: `docs/templates/mega-stack.md` | 2 колонок, 1 строк_
+
+| Альтернатива | Когда лучше |
+|--------------|-------------|
+| | |
+
+
+### 24. Статус
 _Файл: `docs/templates/project-component.md` | 2 колонок, 4 строк_
 
 | Параметр | Значение |

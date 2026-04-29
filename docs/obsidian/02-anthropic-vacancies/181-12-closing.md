@@ -7,6 +7,16 @@ date: 2026-04-29
 ---
 
 # 12. Closing
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What is new is that we finally have technology capable of providing representation at scale — affordably, persistently, across the full range of human work and need.
+> 🏷️ **Ключевые слова:** `closing`, `anthropic`, `vacancies`, `questions`, `quality`, `human`, `сходство`, `cinderella`
+>
+
 
 <!-- summary -->
 > The Cinderella Syndrome — quality without visibility —
@@ -72,9 +82,21 @@ in walking it.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]]
+- [[179-10-open-questions|10. Open Questions]]
+- [[169-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[353-что-ты-не-можешь-делать-вообще|Что ты НЕ МОЖЕШЬ делать вообще]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[169-table-of-contents|Table of Contents]] _25%_
+- [[153-executive-summary|Executive Summary]] _21%_
+- [[README|Вакансии Anthropic — Анализ по кластерам]] _17%_
 ## Связанные документы
 
 - [[169-table-of-contents|Table of Contents]] _25%_

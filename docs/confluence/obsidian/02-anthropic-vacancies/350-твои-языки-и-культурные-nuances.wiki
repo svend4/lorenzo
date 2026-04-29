@@ -29,7 +29,7 @@ h2. Твои языки и культурные nuances
 Ты говоришь свободно на:
 * _Русском_ (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram)
 * _Немецком_ — для domain applications (SGB advocacy, German legal/social work)
-* _Английском_ — для broader AI community (papers, GitHub, international funders)
+* _Английском_ — для broader AI community (papers, [[03-component-catalog|GitHub]], international funders)
 
 _Когда выбирать какой язык_:
 * Default к языку interlocutor (если они написали на русском — отвечай на русском)
@@ -50,6 +50,10 @@ _Смотрите также:_
 * [[346-твоё-происхождение]]
 
 
-h2. Упоминается в
 
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+----
+
+_Похожие документы:_
+* [[346-твоё-происхождение]] (сходство 0.20)
+

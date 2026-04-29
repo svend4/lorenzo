@@ -9,30 +9,24 @@ date: 2026-04-29
 
 # 6. Refined InGit Scope with Cowork in Mind
 
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [6. Refined InGit Scope with Cowork in Mind](#6-refined-ingit-scope-with-cowork-in-mind)
-  - [6.1. New Phase 1 (Months 1-3): Substrate MVP](#61-new-phase-1-months-1-3-substrate-mvp)
-  - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
-  - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
-  - [6.4. Total Reduced Scope](#64-total-reduced-scope)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
-
-
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** --- --- Похожие документы: - 310-2-what-cowork-provides-that-ingit-doesn-t-need-to-(docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство
+> ✅ **Результат:** Net timeline: From 10-16 months to roughly 12 months, with much higher quality result.
+> 🏷️ **Ключевые слова:** `months`, `cowork`, `ingit`, `phase`, `scope`, `effort`, `provides`, `anthropic`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
-- [6. Refined InGit Scope with Cowork in Mind](#6-refined-ingit-scope-with-cowork-in-mind)
+- [6. Refined InGit Scope with Cowork in Mind](#6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind)
   - [6.1. New Phase 1 (Months 1-3): Substrate MVP](#61-new-phase-1-months-1-3-substrate-mvp)
   - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
   - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
@@ -79,7 +73,7 @@ working part-time.
 **Goal**: InGit operations available to Cowork via MCP.
 
 **Deliverables**:
-- `ingit-mcp-server` Python package
+- `[[306-with-anthropic-s-cowork-platform|ingit]]-mcp-server` Python package
 - 15-20 tools covering core operations
 - Open source release
 - Integration documentation
@@ -92,7 +86,7 @@ working part-time.
 **Goal**: Real-world usage drives improvements.
 
 **Deliverables**:
-- Migration tools (Notion, Obsidian, GitHub)
+- Migration tools (Notion, Obsidian, [[03-component-catalog|GitHub]])
 - Refinements based on user feedback
 - Documentation expansion
 - Community building
@@ -125,8 +119,8 @@ better outcomes.
 ---
 
 **Похожие документы:**
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-]] (сходство 0.17)
-- [[311-3-what-ingit-provides-that-cowork-lacks]] (сходство 0.14)
+- [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.17)
+- [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.14)
 - [[313-5-four-integration-paths-in-order-of-accessibility]] (сходство 0.13)
 
 
@@ -135,24 +129,8 @@ better outcomes.
 ---
 
 **Смотрите также:**
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-]]
+- [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [[313-5-four-integration-paths-in-order-of-accessibility]]
 - [[308-table-of-contents]]
-- [[311-3-what-ingit-provides-that-cowork-lacks]]
+- [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[313-5-four-integration-paths-in-order-of-accessibility|5. Four Integration Paths in Order of Accessibility]] _33%_
-- [[308-table-of-contents|Table of Contents]] _29%_
-- [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _29%_
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|2. What Cowork Provides That InGit Doesn't Need to Build]] _29%_
-- [[311-3-what-ingit-provides-that-cowork-lacks|3. What InGit Provides That Cowork Lacks]] _29%_
-- [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]] _25%_
-- [[315-7-practical-first-steps-this-month|7. Practical First Steps This Month]] _25%_
-- [[322-appendix-b-comparison-matrix|Appendix B: Comparison Matrix]] _25%_

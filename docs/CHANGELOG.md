@@ -38,6 +38,14 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _b0ed2c15_
+- auto-update via improve_run_all [skip ci] _0f740af3_
+- auto-update via improve_run_all [skip ci] _88a8480c_
+- auto-update via improve_run_all [skip ci] _6f3be4a7_
+- auto-update via improve_run_all [skip ci] _0c696915_
+- auto-update via improve_run_all [skip ci] _519d41b5_
+- auto-update via improve_run_all [skip ci] _fdd84b5b_
+- auto-update via improve_run_all [skip ci] _ba78ff20_
 - auto-update via improve_run_all [skip ci] _039a4a2a_
 - auto-update via improve_run_all [skip ci] _dfc530a0_
 - auto-update via improve_run_all [skip ci] _f73c58f7_
@@ -48,6 +56,22 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph _d3dd0884_
+  > Sprint 24 — RAG end-to-end
+- Sprint 21-23 — embeddings cache, skill testing, release engineering _11d7bad1_
+  > Sprint 21 — Persistent embeddings cache
+- Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest _89f9dc93_
+  > Sprint 18 — MCP-изация
+- Sprint 15-17 — workflow v2, observability, embeddings, i18n _2265a4db_
+  > Sprint 15 — workflow & observability
+- Sprint 12-14 — bot-aware exclusions, distribution, web dashboard _1bf14810_
+  > Sprint 12 — bot-aware system
+- Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD _22c4cf8d_
+  > Sprint 9 — agentic skills layer
+- Sprint 6-8 — миграции, мета-скилы, workflow-runner, registry, docs-toolkit vendoring _589fe47e_
+  > Sprint 6 — операционализация
+- 5-sprint roadmap — templates, skills, plugins + manifest engine _81644487_
+  > Sprint 1 (T1+S1+P1): универсальный слой
 - 3 новых скрипта — cross_section, digest_auto, export_report _cd90a751_
   > improve_cross_section.py (группа analytics):
 - применить auto-linker + gap-filler ко всей базе знаний _ef99f46a_
@@ -134,6 +158,13 @@
   > - improve_summaries.py: added auto-annotations to 376 files
 - verify coverage, merge short files, add READMEs and glossary _91dd9685_
   > - verify_coverage.py: checks 97.6%→100.5% text coverage, all 26 terms found
+
+##  22 скила  (1 коммитов)
+
+### 🔧 Обслуживание
+
+- 9 MCP-серверов (+8) _Итого: 2_
+  > 5 манифестов
 
 ##  (1 коммитов)
 

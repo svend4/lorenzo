@@ -62,9 +62,36 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]]
+* [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]]
+* [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]]
+* [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]]
+* [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]]
+* [[252-abstract|Abstract]]
+* [[270-appendix-b-sub-agent-registry-schema-sketch|Appendix B: Sub-Agent Registry Schema (Sketch)]]
+* [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]]
+* [[271-appendix-c-configuration-template-example|Appendix C: Configuration Template Example]]
+* [[137-table-of-contents|Table of Contents]]
+* [[154-table-of-contents|Table of Contents]]
+* [[169-table-of-contents|Table of Contents]]
+* [[211-table-of-contents|Table of Contents]]
+* [[308-table-of-contents|Table of Contents]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _33%_
+* [[252-abstract|Abstract]] _29%_
+* [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _29%_
+* [[README|Вакансии Anthropic — Анализ по кластерам]] _25%_
+* [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]] _21%_
+* [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]] _17%_
+* [[169-table-of-contents|Table of Contents]] _17%_
+* [[190-содержание|Содержание]] _17%_
 h2. Связанные документы
 
 * [[211-table-of-contents|Table of Contents]] _33%_

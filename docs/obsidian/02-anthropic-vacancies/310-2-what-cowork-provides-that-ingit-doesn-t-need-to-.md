@@ -9,6 +9,21 @@ date: 2026-04-29
 
 # 2. What Cowork Provides That InGit Doesn't Need to Build
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What Cowork Provides That InGit Doesn't Need to Build(2-what-cowork-provides-that-ingit-doesnt-need-to-build) - 2.1.
+> 🔧 **Подход:** Claude in Cowork can: - Read multiple files, synthesize information - Make decisions about approach - Execute shell commands in isolated VM - Iterate based on results - Coordinate 
+> ✅ **Результат:** What Cowork Provides That InGit Doesn't Need to Build(2-what-cowork-provides-that-ingit-doesnt-need-to-build) - 2.1.
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `provides`, `roadmap`, `build`, `anthropic`, `vacancies`, `memory`
+>
+
+
 <!-- summary -->
 > If InGit positions to complement Cowork rather than replace
 
@@ -17,7 +32,7 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [2. What Cowork Provides That InGit Doesn't Need to Build](#2-what-cowork-provides-that-ingit-doesnt-need-to-build)
+- [2. What Cowork Provides That InGit Doesn't Need to Build](#2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesnt-need-to-build)
   - [2.1. Agentic Task Execution](#21-agentic-task-execution)
   - [2.2. Persistent Memory Across Sessions](#22-persistent-memory-across-sessions)
   - [2.3. UI for Knowledge Work](#23-ui-for-knowledge-work)
@@ -25,7 +40,7 @@ date: 2026-04-29
   - [2.5. Computer Use Capability](#25-computer-use-capability)
   - [2.6. Scheduled Recurring Tasks](#26-scheduled-recurring-tasks)
   - [2.7. Cross-Platform Availability](#27-cross-platform-availability)
-  - [2.8. What This Removes from InGit Roadmap](#28-what-this-removes-from-ingit-roadmap)
+  - [2.8. What This Removes from InGit Roadmap](#28-what-this-removes-from-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-roadmap)
 
 ---
 
@@ -77,7 +92,7 @@ becomes unnecessary**. Saves substantial development effort.
 
 ### 2.4. Connector Ecosystem
 
-Cowork integrates with Gmail, Drive, Slack, GitHub, Notion, 
+Cowork integrates with Gmail, Drive, Slack, [[03-component-catalog|GitHub]], Notion, 
 many others. Through MCP, custom connectors can be added.
 
 InGit was not planning to build connectors itself, but 
@@ -143,9 +158,9 @@ individual developer or small team.
 ---
 
 **Похожие документы:**
-- [[311-3-what-ingit-provides-that-cowork-lacks]] (сходство 0.20)
+- [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.20)
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.18)
-- [[314-6-refined-ingit-scope-with-cowork-in-mind]] (сходство 0.17)
+- [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -153,24 +168,8 @@ individual developer or small team.
 ---
 
 **Смотрите также:**
-- [[311-3-what-ingit-provides-that-cowork-lacks]]
-- [[314-6-refined-ingit-scope-with-cowork-in-mind]]
+- [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
 - [[307-abstract]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]] _37%_
-- [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _33%_
-- [[311-3-what-ingit-provides-that-cowork-lacks|3. What InGit Provides That Cowork Lacks]] _33%_
-- [[313-5-four-integration-paths-in-order-of-accessibility|5. Four Integration Paths in Order of Accessibility]] _33%_
-- [[308-table-of-contents|Table of Contents]] _29%_
-- [[314-6-refined-ingit-scope-with-cowork-in-mind|6. Refined InGit Scope with Cowork in Mind]] _29%_
-- [[315-7-practical-first-steps-this-month|7. Practical First Steps This Month]] _29%_
-- [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _21%_

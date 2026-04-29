@@ -53,9 +53,36 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[155-1-problem-statement|1. Problem Statement]]
+- [[156-2-target-populations|2. Target Populations]]
+- [[157-3-why-existing-solutions-fail|3. Why Existing Solutions Fail]]
+- [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]]
+- [[153-executive-summary|Executive Summary]]
+- [[44-for-the-curious-philosophy|For the Curious: Philosophy]]
+- [[63-history|History]]
+- [[132-planned-v0-2-0|Planned (v0.2.0)]]
+- [[169-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[190-содержание|Содержание]]
+- [[326-содержание|Содержание]]
+- [[126-установка|Установка]]
+- [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]]
+- [[352-что-ты-не-можешь-делать-без-max-approval|Что ты НЕ МОЖЕШЬ делать без Max approval]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[190-содержание|Содержание]] _37%_
+- [[326-содержание|Содержание]] _33%_
+- [[169-table-of-contents|Table of Contents]] _29%_
+- [[41-compatibility-level|Compatibility Level]] _29%_
+- [[44-for-the-curious-philosophy|For the Curious: Philosophy]] _29%_
+- [[123-portal-mcp-py|portal-mcp.py]] _25%_
+- [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] _25%_
+- [[54-for-the-curious-philosophy|For the Curious: Philosophy]] _25%_
 ## Связанные документы
 
 - [[326-содержание|Содержание]] _37%_

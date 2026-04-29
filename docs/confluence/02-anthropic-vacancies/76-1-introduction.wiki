@@ -6,6 +6,15 @@
 h1. 1. Introduction
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Changes from v1.0(15-changes-from-v10) Современные системы управления знаниями (Notion, Obsidian, Roam Research, --- 1.{quote}
+{quote}🔧 _Подход:_ Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре 3.{quote}
+{quote}🏷️ _Ключевые слова:_ {{introduction}}, {{anthropic}}, {{vacancies}}, {{goals}}, {{раздел}}, {{terminology}}, {{implementation}}, {{проекте}}{quote}
+>
+
+
+
 h2. Contents
 
 * [1. Introduction|#1-introduction]
@@ -48,10 +57,10 @@ h3. 1.2. Design Goals
 Протокол спроектирован так, чтобы одновременно достичь:
 
 * _Low barrier to entry_: подключение существующего репо к федерации 
-  занимает не более 5 минут (один файл {{nautilus.json}} в корне + 
+  занимает не более 5 минут (один файл {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} в корне + 
   опциональный passport)
 * _Five onboarding paths_: от ручного адаптера до полностью 
-  автоматической регистрации через GitHub Actions webhook
+  автоматической регистрации через [GitHub|../docs/01-svyazi/03-component-catalog.md] Actions webhook
 * _Local autonomy_: каждый репо остаётся функциональным без портала
 * _Progressive enhancement_: репо может подключиться на Level 0 и 
   дорастать до Level 3 без переделки
@@ -89,7 +98,7 @@ h3. 1.5. Changes from v1.0
   стратегии (раздел 12)
 * _REST API контракт_ сделан mandatory для совместимых порталов 
   (раздел 13)
-* _{{is_fallback}}_ поле добавлено в PortalEntry как нормативное
+* _{{is_fallback}}_ поле добавлено в [PortalEntry|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md] как нормативное
 * _Консенсус-модель_ расширена: различаются {{coverage}} (только real) 
   и {{coverage_with_fallback}} (раздел 9)
 * _Passport schema_ формализована в {{passport_schema.json}} (раздел 4)
@@ -102,9 +111,9 @@ h3. 1.5. Changes from v1.0
 ----
 
 _Похожие документы:_
-* [06-1-introduction|06-1-introduction.md] (сходство 0.53)
-* [67-о-проекте|67-о-проекте.md] (сходство 0.14)
-* [74-abstract|74-abstract.md] (сходство 0.13)
+* [06-1-introduction|docs/02-anthropic-vacancies/06-1-introduction.md] (сходство 0.53)
+* [67-о-проекте|docs/02-anthropic-vacancies/67-о-проекте.md] (сходство 0.14)
+* [74-abstract|docs/02-anthropic-vacancies/74-abstract.md] (сходство 0.13)
 
 
 
@@ -112,19 +121,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [06-1-introduction|06-1-introduction.md]
-* [74-abstract|74-abstract.md]
-* [67-о-проекте|67-о-проекте.md]
-* [77-2-terminology|77-2-terminology.md]
+* [06-1-introduction|docs/02-anthropic-vacancies/06-1-introduction.md]
+* [74-abstract|docs/02-anthropic-vacancies/74-abstract.md]
+* [67-о-проекте|docs/02-anthropic-vacancies/67-о-проекте.md]
+* [77-2-terminology|docs/02-anthropic-vacancies/77-2-terminology.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [1. Introduction|06-1-introduction.md] _53%_
-* [🇷🇺 О проекте|67-о-проекте.md] _21%_
-* [Abstract|74-abstract.md] _17%_

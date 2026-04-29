@@ -14,6 +14,48 @@
 
 ---
 
+## Auto-discovery скриптов
+
+**Перед тем, как выбирать скрипт, прочитайте актуальный каталог:**
+
+```
+Read: docs/SCRIPTS_CATALOG.md
+```
+
+Или для машинного чтения:
+```bash
+cat docs/scripts_catalog.json | python -m json.tool | head -100
+```
+
+Каталог автогенерируется через `python scripts/improve_scripts_catalog.py`
+из docstring каждого `improve_*.py`. Список скриптов в этом скилле ниже —
+**может быть устаревшим**: каталог всегда актуальнее.
+
+**Алгоритм выбора скрипта:**
+1. Прочесть `docs/SCRIPTS_CATALOG.md`
+2. Найти подходящие скрипты по группе и описанию
+3. Если ничего не подошло — `grep -i "ключевое-слово" docs/SCRIPTS_CATALOG.md`
+4. Если совсем ничего — задача за пределами текущего инструментария, нужен новый скрипт
+
+**Группы скриптов:**
+- `structure` — базовая структура (TOC, README, summaries, tags)
+- `index` — индексы, поиск, бэклинки
+- `analysis` — кластеры, дубли, частоты, приоритеты
+- `extract` — action items, decisions, KPI, entities
+- `quality` — валидация, broken links, орфография, читаемость
+- `graph` — graph, mindmap, network, narrative
+- `generate` — templates, autofill, footnotes, see-also
+- `reports` — QA, contacts, changelog, health, report
+- `export` — CSV, JSON, HTML, Obsidian, RSS, Confluence
+- `cicd` — github issues, CI, pre-commit, dependabot
+- `analytics` — citation index, reading time, version diff, topic model
+- `textwork` — outline, reclassify, merge, compare, source map
+- `deeptext` — TOC, abstract, paragraph quality, NER, BM25
+- `nlpplus` — TextRank, headings, language split, passive, faceted search
+- `content` — auto-linker, gap-filler (меняют файлы)
+
+---
+
 ## Шаг 0 — Определить тип улучшения
 
 Прочитать запрос и выбрать одну из веток:

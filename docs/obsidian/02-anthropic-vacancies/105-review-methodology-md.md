@@ -52,9 +52,45 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[117-10-конкретный-план-применения-к-текущим-документам|10. Конкретный план применения к текущим документам]]
+- [[108-2-формальный-workflow|2. Формальный workflow]]
+- [[240-9-связь-с-другими-типами-агентов|9. Связь с другими типами агентов]]
+- [[188-ai-опосредованное-представительство-для-недопредст|AI-опосредованное представительство для недопредставленных экспертов и уязвимых категорий населения]]
+- [[74-abstract|Abstract]]
+- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+- [[34-appendix-b-change-log|Appendix B: Change Log]]
+- [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]]
+- [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]]
+- [[65-readme-md|README.md]]
+- [[106-tl-dr|TL;DR]]
+- [[123-portal-mcp-py|portal-mcp.py]]
+- [[230-аннотация|Аннотация]]
+- [[301-благодарности|Благодарности]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[122-глоссарий|Глоссарий]]
+- [[70-зачем-две-версии-параллельно|Зачем две версии параллельно]]
+- [[289-инфраструктура-для-ai-совместной-интеллектуальной-|ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛЬНОЙ РАБОТЫ]]
+- [[229-профессиональные-коллеги-агенты|ПРОФЕССИОНАЛЬНЫЕ КОЛЛЕГИ-АГЕНТЫ]]
+- [[190-содержание|Содержание]]
+- [[245-ссылки|Ссылки]]
+- [[69-section|⬡]]
+- [[67-о-проекте|🇷🇺 О проекте]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _42%_
+- [[65-readme-md|README.md]] _37%_
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _37%_
+- [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] _33%_
+- [[04-abstract|Abstract]] _29%_
+- [[123-portal-mcp-py|portal-mcp.py]] _29%_
+- [[64-for-the-curious-philosophy|For the Curious: Philosophy]] _29%_
+- [[190-содержание|Содержание]] _25%_
 ## Связанные документы
 
 - [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _37%_

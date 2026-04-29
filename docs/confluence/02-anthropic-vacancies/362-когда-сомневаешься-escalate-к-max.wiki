@@ -12,8 +12,6 @@ h1. Когда сомневаешься — escalate к Max
 
 
 
-
-
 h2. Когда сомневаешься — escalate к Max
 
 Если задача presents:
@@ -27,17 +25,9 @@ h2. Когда сомневаешься — escalate к Max
 Просто say: «Это decision уровня Max. Я могу draft analysis, но финальный call за ним.»
 
 
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
 
 ----
 
 _Смотрите также:_
-* [102-доступ-к-данным|102-доступ-к-данным.md]
-* [361-когда-ты-honestly-не-знаешь|361-когда-ты-honestly-не-знаешь.md]
-* [185-appendix-b-domain-comparison-matrix|185-appendix-b-domain-comparison-matrix.md]
-* [339-приложение-a-дерево-решений-для-принимающих-ingit|339-приложение-a-дерево-решений-для-принимающих-ingit.md]
+* [18-escalate-to-max|docs/lorenzo-agent/18-escalate-to-max.md]
 

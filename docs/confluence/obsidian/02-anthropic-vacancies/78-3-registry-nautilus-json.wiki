@@ -24,10 +24,18 @@ h2. Содержание
   * [3.4. Optional Fields|#34-optional-fields]
   * [3.5. Validation Rules|#35-validation-rules]
   * [3.6. AutoAdapter Special Case|#36-autoadapter-special-case]
-* [Упоминается в|#упоминается-в]
-* [Связанные документы|#связанные-документы]
 
 ----
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Registry (nautilus.json)(3-registry-nautilusjson) - 3.1.{quote}
+{quote}🔧 _Подход:_ AutoAdapter Special Case(36-autoadapter-special-case) !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+{quote}✅ _Результат:_ Это enables Onboarding Path C (self-declaring repo).{quote}
+{quote}🏷️ _Ключевые слова:_ {{registry}}, {{nautilus}}, {{terminology}}, {{fields}}, {{anthropic}}, {{vacancies}}, {{autoadapter}}, {{required}}{quote}
+>
 
 
 
@@ -39,7 +47,7 @@ h2. Contents
   * [3.3. Required Fields|#33-required-fields]
   * [3.4. Optional Fields|#34-optional-fields]
   * [3.5. Validation Rules|#35-validation-rules]
-  * [3.6. AutoAdapter Special Case|#36-autoadapter-special-case]
+  * [[141-4-nautilus-portal-as-reference-substrate|3.6. [AutoAdapter]] Special Case](#36-autoadapter-special-case)
 
 
 {quote}[!IMPORTANT]{quote}
@@ -106,7 +114,7 @@ h3. 3.3. Required Fields
 * {{format}} — идентификатор native-формата (используется для 
   именования адаптера и passport)
 * {{adapter}} — имя адаптера: либо имя Python-модуля в {{adapters/}}, 
-  либо {{"auto"}} для использования AutoAdapter (см. раздел 12.3)
+  либо {{"auto"}} для использования [[141-4-nautilus-portal-as-reference-substrate|AutoAdapter]] (см. раздел 12.3)
 * {{compatibility}} — целое 0..3
 
 h3. 3.4. Optional Fields
@@ -141,8 +149,8 @@ Portal SHOULD выдавать warning (но не отклонять), если:
 
 h3. 3.6. AutoAdapter Special Case
 
-Если {{adapter: "auto"}}, portal MUST использовать AutoAdapter (см. 
-раздел 12.3), который загружает {{nautilus.json}} из корня 
+Если {{adapter: "auto"}}, portal MUST использовать [[141-4-nautilus-portal-as-reference-substrate|AutoAdapter]] (см. 
+раздел 12.3), который загружает {{[[memnet|nautilus]].json}} из корня 
 target-репо вместо локального модуля-адаптера. Это enables 
 Onboarding Path C (self-declaring repo).
 
@@ -153,7 +161,7 @@ Onboarding Path C (self-declaring repo).
 ----
 
 _Похожие документы:_
-* [[08-3-registry-nautilus-json]] (сходство 0.52)
+* [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.52)
 * [[77-2-terminology]] (сходство 0.16)
 * [[07-2-terminology]] (сходство 0.15)
 
@@ -163,24 +171,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [[08-3-registry-nautilus-json]]
+* [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 * [[82-7-portalentry-structure]]
 * [[77-2-terminology]]
 * [[07-2-terminology]]
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[08-3-registry-nautilus-json|3. Registry ({{nautilus.json}})]] _66%_
-* [[79-4-passport-passport-md|4. Passport ({{passport.md}})]] _37%_
-* [[19-7-portalentry-structure|7. PortalEntry Structure]] _29%_
-* [[77-2-terminology|2. Terminology]] _29%_
-* [[07-2-terminology|2. Terminology]] _25%_
-* [[104-appendix-c-references|Appendix C: References]] _25%_
-* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _21%_
-* [[82-7-portalentry-structure|7. PortalEntry Structure]] _21%_

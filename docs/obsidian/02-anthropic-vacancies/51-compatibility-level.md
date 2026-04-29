@@ -2,6 +2,7 @@
 title: "Compatibility Level"
 tags:
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,7 +13,7 @@ date: 2026-04-29
 > **Текущий уровень: 3 (Interactive / Bridged)**
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
@@ -26,7 +27,7 @@ date: 2026-04-29
 - ✅ Level 2: `fetch(query)` по концептам через Q6-координаты или 
   tags
 - ✅ Level 3: `translate_to(entry, "meta")` через biective Q6↔hexagram 
-  mapping; `translate_to(entry, "info1")` через α-level mapping
+  mapping; `translate_to(entry, "[[01-интегральный-анализ-профиля-svend4|info1]]")` через α-level mapping
 
 ---
 
@@ -53,9 +54,33 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[17-5-compatibility-levels|5. Compatibility Levels]]
+- [[80-5-compatibility-levels|5. Compatibility Levels]]
+- [[49-angle-perspective|Angle / Perspective]]
+- [[40-bridges|Bridges]]
+- [[50-bridges|Bridges]]
+- [[60-bridges|Bridges]]
+- [[41-compatibility-level|Compatibility Level]]
+- [[61-compatibility-level|Compatibility Level]]
+- [[47-native-format|Native Format]]
+- [[57-native-format|Native Format]]
+- [[132-planned-v0-2-0|Planned (v0.2.0)]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[61-compatibility-level|Compatibility Level]] _73%_
+- [[57-native-format|Native Format]] _42%_
+- [[40-bridges|Bridges]] _37%_
+- [[41-compatibility-level|Compatibility Level]] _37%_
+- [[49-angle-perspective|Angle / Perspective]] _37%_
+- [[60-bridges|Bridges]] _37%_
+- [[47-native-format|Native Format]] _25%_
+- [[50-bridges|Bridges]] _25%_
 ## Связанные документы
 
 - [[61-compatibility-level|Compatibility Level]] _73%_

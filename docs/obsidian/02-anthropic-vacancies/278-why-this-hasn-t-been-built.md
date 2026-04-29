@@ -9,6 +9,15 @@ date: 2026-04-29
 
 # Why This Hasn't Been Built
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Infrastructure built in the last three years is mostly focused on the chat layer, where the immediate need was visible.
+> ✅ **Результат:** Wikis showed cross-references can work but did not integrate AI collaboration.
+> 🏷️ **Ключевые слова:** `anthropic`, `layer`, `vacancies`, `exists`, `built`, `explanation`, `collaboration`, `closing`
+>
+
+
 <!-- summary -->
 > Several explanations for the gap.
 
@@ -86,9 +95,31 @@ integration does not.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[266-13-closing|13. Closing]]
+- [[168-abstract|Abstract]]
+- [[285-closing|Closing]]
+- [[279-existing-approximations|Existing Approximations]]
+- [[281-the-recursive-insight|The Recursive Insight]]
+- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]]
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]]
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]]
+- [[277-what-s-missing-layer-b|What's Missing — Layer B]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[285-closing|Closing]] _29%_
+- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] _25%_
+- [[286-acknowledgments|Acknowledgments]] _25%_
+- [[168-abstract|Abstract]] _21%_
+- [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] _21%_
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]] _21%_
+- [[266-13-closing|13. Closing]] _17%_
+- [[275-why-this-document-exists|Why This Document Exists]] _17%_
 ## Связанные документы
 
 - [[285-closing|Closing]] _33%_

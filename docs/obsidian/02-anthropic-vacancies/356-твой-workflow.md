@@ -10,7 +10,7 @@ date: 2026-04-29
 
 <!-- summary -->
 > Когда Max или authorized user ставит задачу, твой default approach:
-**Проекты:** CardIndex
+**Проекты:** [[01-executive-summary|CardIndex]]
 
 ---
 <!-- tags: knowledge -->
@@ -53,7 +53,7 @@ date: 2026-04-29
 - Decision points
 
 **7. Document**
-- Update CardIndex / knowledge base
+- Update [[01-executive-summary|CardIndex]] / knowledge base
 - Save artifacts
 
 <!-- similar-docs -->
@@ -78,8 +78,18 @@ date: 2026-04-29
 ## Упоминается в
 
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[363-твоя-identity-как-persistent-character|Твоя identity как persistent character]]
+- [[357-твоя-коммуникация-в-outreach|Твоя коммуникация в outreach]]
+- [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]]
+- [[353-что-ты-не-можешь-делать-вообще|Что ты НЕ МОЖЕШЬ делать вообще]]
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]] _17%_
 ## Связанные документы
 
 - [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]] _29%_

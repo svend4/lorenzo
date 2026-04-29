@@ -42,14 +42,3 @@ python scripts/improve_dependabot.py --check-pypi
 
 После {{--generate-config}} Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
-
-
-
-----
-
-_Смотрите также:_
-* [[ENTITIES]]
-* [[CONTACT_PRIORITY]]
-* [[vladspace]]
-* [[cutcode]]
-

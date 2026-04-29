@@ -35,9 +35,27 @@ _Похожие документы:_
 
 h2. Упоминается в
 
+* [[111-4-условия-применимости|4. Условия применимости]]
+* [[113-6-почему-это-валидный-паттерн-для-ai-assisted-work|6. Почему это валидный паттерн для AI-assisted workflows]]
+* [[13-angle-perspective|Angle / Perspective]]
+* [[12-content-overview|Content Overview]]
+* [[38-content-overview|Content Overview]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[12-content-overview|Content Overview]] _37%_
+* [[13-angle-perspective|Angle / Perspective]] _33%_
+* [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _21%_
+* [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _21%_
+* [[150-appendix-c-version-history|Appendix C: Version History]] _17%_
+* [[36-essence|Essence]] _17%_
+* [[38-content-overview|Content Overview]] _17%_
+* [[43-history|History]] _17%_
 h2. Связанные документы
 
 * [[12-content-overview|Content Overview]] _47%_

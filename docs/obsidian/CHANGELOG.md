@@ -7,24 +7,60 @@ date: 2026-04-29
 
 # CHANGELOG
 
-<!-- summary -->
-> Статистика: ✨ feat: 17 | ⚡ improve: 14 | 🔧 chore: 13 | 🐛 fix: 3 | 📝 docs: 2
-**Проекты:** Svyazi
-
----
-<!-- tags: rag, ingestion, roadmap, anthropic, self-improve, collaboration -->
+Всего коммитов: **103**  
+Статистика: 🔧 chore: 41 | ✨ feat: 30 | 📝 docs: 14 | ⚡ improve: 14 | 🐛 fix: 4
 
 
-
-
-Всего коммитов: **49**  
-Статистика: ✨ feat: 17 | ⚡ improve: 14 | 🔧 chore: 13 | 🐛 fix: 3 | 📝 docs: 2
-
-
-## 2026-04-29 (48 коммитов)
+## semantic (1 коммитов)
 
 ### 🔧 Обслуживание
 
+- hybrid _  E4. cm_
+
+## 2026-04-29 (100 коммитов)
+
+### 🔧 Обслуживание
+
+- regenerate auto-exports after Sprint 24-26 _6421a1fc_
+- regenerate auto-exports after Sprint 21-23 _6ac59707_
+- regenerate auto-exports after Sprint 18-20 _f053125f_
+- extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737f2_
+- regenerate badges + auto-exports after Sprint 12-14 _25de4e63_
+- regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML) _b471bbad_
+- ignore auto-generated exports and runtime caches _41a9c8aa_
+- regenerate VALIDATION.md after rebase _093bb8c8_
+- sync PROGRESS.md _2a9e9403_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- sync PROGRESS.md _fc65bef5_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- Audit-driven extraction of major missing substantive content _fedc045a_
+  > After audit of source dialogs against extracted content, 12 major
+- синхронизировать сгенерированные отчёты и docs _64358a84_
+  > Обновление всех авто-генерируемых файлов после запуска
+- Extract Nautilus Portal Protocol v1.0.0-draft (earlier version) _c6592525_
+  > docs/nautilus/npp-v1-0/ (NEW, 20 files):
+- Extract Nautilus-vs-CAMEL analysis and Habr extra-examples _ee71737e_
+  > docs/anthropic-vacancies/nautilus-vs-camel/ (NEW, 7 files):
+- Extract Hermes Agent comparison and re-prioritization _7822b130_
+  > docs/anthropic-vacancies/hermes-comparison/ (NEW, 15 files):
+- sync PROGRESS.md after content scripts commit _afe64e18_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- Extract AI-managed virtual company and MMORPG-for-programmers analyses _e965e1cd_
+  > docs/anthropic-vacancies/ai-managed-virtual-company/ (NEW, 12 files):
+- Extract Anthropic outreach concept, collaborator findings, reading paths _088f3f16_
+  > docs/anthropic-vacancies/beneficial-deployments-concept/ (NEW, 13 files):
+- Extract Lorenzo specification questions and phased deployment _9d9d2fee_
+  > The same anthropic-vacancies dialog contained more substantive
+- Extract Three-Phase Review Methodology and operationalized Lorenzo _047d6c06_
+  > docs/nautilus/review-methodology/ (NEW):
+- Extract Lorenzo agent prompt and 4 more DHLab papers _5a34f469_
+  > The same MHTML dialog (anthropic-vacancies) contained even more
+- sync PROGRESS.md after nlpplus scripts commit _78f4f118_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- Extract Nautilus Portal Protocol RFC and companion papers _cbe83e6e_
+  > The anthropic-vacancies dialog drifted into substantial Nautilus
+- Add profile-mapping, glossary, source-projects index _b552bcfc_
+  > docs/anthropic-vacancies/profile-mapping/:
 - sync CONTRADICTIONS.md (background task output) _89d3e8fb_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync CONTRADICTIONS.md after contradiction_check fix _6b81ffed_
@@ -33,6 +69,8 @@ date: 2026-04-29
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 - sync PROGRESS.md after deeptext scripts commit _1d552d4e_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- Extract MHTML content into topic docs _4b567b23_
+  > Continuation of the monorepo split: parsed each MHTML snapshot and
 - sync PROGRESS.md after session _53bfdbd8_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync generated docs (CONTACTS, HEALTH, METRICS) _5571b369_
@@ -45,18 +83,58 @@ date: 2026-04-29
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 - add extract_mhtml.py and ignore pycache _ff8a8161_
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- Organize repo as monorepo with topic-split docs _d5ddac56_
+  > - Make repo a monorepo (package.json workspaces, pnpm-workspace.yaml,
 - Add files via upload _183c4e9f_
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _b0ed2c15_
+- auto-update via improve_run_all [skip ci] _0f740af3_
+- auto-update via improve_run_all [skip ci] _88a8480c_
+- auto-update via improve_run_all [skip ci] _6f3be4a7_
+- auto-update via improve_run_all [skip ci] _0c696915_
+- auto-update via improve_run_all [skip ci] _519d41b5_
+- auto-update via improve_run_all [skip ci] _fdd84b5b_
+- auto-update via improve_run_all [skip ci] _ba78ff20_
+- auto-update via improve_run_all [skip ci] _039a4a2a_
+- auto-update via improve_run_all [skip ci] _dfc530a0_
+- auto-update via improve_run_all [skip ci] _f73c58f7_
+- auto-update via improve_run_all [skip ci] _8e689b3d_
 - sync PROGRESS.md _4e217f2b_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync PROGRESS.md after adding 16 new scripts _4d237951_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph _d3dd0884_
+  > Sprint 24 — RAG end-to-end
+- Sprint 21-23 — embeddings cache, skill testing, release engineering _11d7bad1_
+  > Sprint 21 — Persistent embeddings cache
+- Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest _89f9dc93_
+  > Sprint 18 — MCP-изация
+- Sprint 15-17 — workflow v2, observability, embeddings, i18n _2265a4db_
+  > Sprint 15 — workflow & observability
+- Sprint 12-14 — bot-aware exclusions, distribution, web dashboard _1bf14810_
+  > Sprint 12 — bot-aware system
+- Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD _22c4cf8d_
+  > Sprint 9 — agentic skills layer
+- Sprint 6-8 — миграции, мета-скилы, workflow-runner, registry, docs-toolkit vendoring _589fe47e_
+  > Sprint 6 — операционализация
+- 5-sprint roadmap — templates, skills, plugins + manifest engine _81644487_
+  > Sprint 1 (T1+S1+P1): универсальный слой
+- 3 новых скрипта — cross_section, digest_auto, export_report _cd90a751_
+  > improve_cross_section.py (группа analytics):
+- применить auto-linker + gap-filler ко всей базе знаний _ef99f46a_
+  > Практические улучшения контента:
+- improve_reading_list.py — BM25-список чтения по теме _19398486_
+  > Новый скрипт для создания персонализированных списков чтения:
+- ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний _a8455926_
+  > Новые скрипты (группа content + nlpplus):
 - add component matrix, KPI history tracker, fix run_all coverage _69562b02_
   > - improve_component_matrix.py: 14×10 compatibility matrix (memory/search/
+- добавить 8 скриптов группы nlpplus — расширенный NLP-анализ _4bcc9739_
+  > Новые скрипты:
 - add risk register, auto-changelog, master index; fix run_all missing scripts _59617c5d_
   > - improve_risk_register.py: 10 curated risks + 15 extracted from docs,
 - add tech radar, onboarding guide, dependency map, meta group in run_all _4ddee95e_
@@ -91,6 +169,8 @@ date: 2026-04-29
   > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
 ### 🐛 Исправления
 
+- CI Catalog check — improve_auto_toc respects .docignore _d6279595_
+  > CI workflow .github/workflows/test.yml job 'Catalog up-to-date check'
 - fix update-docs CI job failures _42f561dd_
   > Three issues fixed:
 - исправить ошибки в deeptext скриптах, добавить выходные файлы _4755dd94_
@@ -128,19 +208,15 @@ date: 2026-04-29
 - verify coverage, merge short files, add READMEs and glossary _91dd9685_
   > - verify_coverage.py: checks 97.6%→100.5% text coverage, all 26 terms found
 
+##  22 скила  (1 коммитов)
+
+### 🔧 Обслуживание
+
+- 9 MCP-серверов (+8) _Итого: 2_
+  > 5 манифестов
+
 ##  (1 коммитов)
 
 ### 🔧 Обслуживание
 
 - preview _- _doc_t_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[CHANGELOG_AUTO]]
-- [[DEPENDENCY_MAP]]
-- [[DIGEST]]
-- [[SITEMAP]]
-

@@ -6,6 +6,15 @@
 h1. 1. The Cinderella Syndrome: Why Quality Stays Invisible
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ The Cinderella Syndrome: Why Quality Stays Invisible There is a recurring asymmetry in modern markets — markets for --- Содержание - 1.{quote}
+{quote}🔧 _Подход:_ The Structural Solution Throughout history, civilizations have developed institutional solutions to this asymmetry.{quote}
+{quote}🏷️ _Ключевые слова:_ {{quality}}, {{value}}, {{attention}}, {{cannot}}, {{anthropic}}, {{vacancies}}, {{cinderella}}, {{syndrome}}{quote}
+>
+
+
+
 {quote}There is a recurring asymmetry in modern markets — markets for{quote}
 
 ----
@@ -106,7 +115,7 @@ real-world consequences:
 
 * A retired electrical engineer with 40 years of microwave 
   experience never contributes to open hardware projects 
-  because they cannot navigate GitHub culture
+  because they cannot navigate [GitHub|../docs/01-svyazi/03-component-catalog.md] culture
 * A disabled mathematician with novel insights never publishes 
   because the conference travel system excludes them
 * A domain expert in an underrepresented region with deep 
@@ -164,9 +173,19 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [12. Closing|181-12-closing.md]
+* [2. Historical Precedents: Agents as Civilizational Innovation|171-2-historical-precedents-agents-as-civilizational-i.md]
+* [2. Target Populations|156-2-target-populations.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Table of Contents|169-table-of-contents.md] _21%_
+* [2. Historical Precedents: Agents as Civilizational Innovation|171-2-historical-precedents-agents-as-civilizational-i.md] _17%_
 h2. Связанные документы
 
 * [12. Closing|181-12-closing.md] _25%_

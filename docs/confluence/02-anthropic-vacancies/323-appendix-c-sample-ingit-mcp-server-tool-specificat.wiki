@@ -5,6 +5,21 @@
 
 h1. Appendix C: Sample InGit MCP Server Tool Specifications
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Contact via github.com/svend4/nautilus/issues(URL or github.com/svend4/ingit/issues(URL --- Заметки к девятому документу (2.4) Несколько важных решений в его дизайне.{quote}
+{quote}🔧 _Подход:_ This is starting point, not final design.{quote}
+{quote}✅ _Результат:_ Four paths in order — actionable Section 5 даёт четыре конкретные integration paths в order of accessibility: 1.{quote}
+{quote}🏷️ _Ключевые слова:_ {{document}}, {{ingit}}, {{cowork}}, {{appendix}}, {{anthropic}}, {{infrastructure}}, {{positioning}}, {{section}}{quote}
+>
+
+
 
 {quote}For reference, here are detailed specifications for first{quote}
 
@@ -293,9 +308,28 @@ This recursive nature — каждый ваш observation refines understanding,
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Abstract](307-abstract.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _48%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _25%_
+- [Abstract](307-abstract.md) _21%_
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _21%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _17%_
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md) _17%_
 ## Связанные документы
 
 - [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _33%_

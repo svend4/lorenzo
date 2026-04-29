@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # 5. Architectural Specification
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** User Interface: Multi-modal access (web, mobile, voice) appropriate to principal's accessibility needs.
+> 🔧 **Подход:** Enables principal review, dispute resolution, accountability.
+> ✅ **Результат:** Enables principal review, dispute resolution, accountability.
+> 🏷️ **Ключевые слова:** `principal`, `agent`, `representative`, `component`, `anthropic`, `vacancies`, `triangle`, `principle`
+>
+
+
 <!-- summary -->
 > A Representative Agent system consists of seven components:
 
@@ -167,9 +177,34 @@ that touches the world beyond the personal context.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[179-10-open-questions|10. Open Questions]]
+- [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]]
+- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]]
+- [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]]
+- [[175-6-ethical-framework|6. Ethical Framework]]
+- [[176-7-governance-and-oversight|7. Governance and Oversight]]
+- [[144-7-open-questions|7. Open Questions]]
+- [[145-8-call-to-action|8. Call to Action]]
+- [[177-8-risks-and-mitigations|8. Risks and Mitigations]]
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]]
+- [[168-abstract|Abstract]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _25%_
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _25%_
+- [[168-abstract|Abstract]] _21%_
+- [[176-7-governance-and-oversight|7. Governance and Oversight]] _21%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _17%_
+- [[179-10-open-questions|10. Open Questions]] _17%_
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _17%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _17%_
 ## Связанные документы
 
 - [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _29%_

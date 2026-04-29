@@ -52,9 +52,39 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[05-0-status-of-this-document|0. Status of This Document]]
+- [[75-0-status-of-this-document|0. Status of This Document]]
+- [[24-12-versioning-policy|12. Versioning Policy]]
+- [[25-13-reference-implementation|13. Reference Implementation]]
+- [[92-17-versioning-policy|17. Versioning Policy]]
+- [[93-18-reference-implementation|18. Reference Implementation]]
+- [[114-7-реализация-в-проекте-nautilus|7. Реализация в проекте Nautilus]]
+- [[42-author-contact|Author & Contact]]
+- [[52-author-contact|Author & Contact]]
+- [[48-content-overview|Content Overview]]
+- [[44-for-the-curious-philosophy|For the Curious: Philosophy]]
+- [[16-history|History]]
+- [[53-history|History]]
+- [[35-passports-info1-md|passports/info1.md]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[70-зачем-две-версии-параллельно|Зачем две версии параллельно]]
+- [[338-ссылки|Ссылки]]
+- [[353-что-ты-не-можешь-делать-вообще|Что ты НЕ МОЖЕШЬ делать вообще]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[42-author-contact|Author & Contact]] _60%_
+- [[25-13-reference-implementation|13. Reference Implementation]] _53%_
+- [[93-18-reference-implementation|18. Reference Implementation]] _53%_
+- [[75-0-status-of-this-document|0. Status of This Document]] _48%_
+- [[05-0-status-of-this-document|0. Status of This Document]] _42%_
+- [[24-12-versioning-policy|12. Versioning Policy]] _37%_
+- [[92-17-versioning-policy|17. Versioning Policy]] _33%_
+- [[35-passports-info1-md|passports/info1.md]] _29%_
 ## Связанные документы
 
 - [[42-author-contact|Author & Contact]] _66%_

@@ -2,6 +2,7 @@
 title: "Compatibility Level"
 tags:
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,7 +13,7 @@ date: 2026-04-29
 > **Текущий уровень: 3 (Interactive / Bridged)**
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
@@ -25,7 +26,7 @@ date: 2026-04-29
 - ✅ Level 1: имеет passport + `describe()` в адаптере
 - ✅ Level 2: `fetch(query)` работает
 - ✅ Level 3: `translate_to(entry, target_repo)` реализован для 
-  мостов с `pro2` и `meta`
+  мостов с `[[01-интегральный-анализ-профиля-svend4|pro2]]` и `meta`
 
 ---
 
@@ -52,9 +53,35 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]]
+- [[17-5-compatibility-levels|5. Compatibility Levels]]
+- [[80-5-compatibility-levels|5. Compatibility Levels]]
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+- [[40-bridges|Bridges]]
+- [[60-bridges|Bridges]]
+- [[51-compatibility-level|Compatibility Level]]
+- [[61-compatibility-level|Compatibility Level]]
+- [[63-history|History]]
+- [[37-native-format|Native Format]]
+- [[132-planned-v0-2-0|Planned (v0.2.0)]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[190-содержание|Содержание]]
+- [[326-содержание|Содержание]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[61-compatibility-level|Compatibility Level]] _42%_
+- [[326-содержание|Содержание]] _37%_
+- [[51-compatibility-level|Compatibility Level]] _37%_
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _33%_
+- [[132-planned-v0-2-0|Planned (v0.2.0)]] _33%_
+- [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] _29%_
+- [[154-table-of-contents|Table of Contents]] _29%_
+- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _29%_
 ## Связанные документы
 
 - [[61-compatibility-level|Compatibility Level]] _53%_

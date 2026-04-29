@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # What's Missing — Layer B
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What's Missing — Layer B Between chat and repository, there should exist Layer B: an --- What's Missing — Layer B Between chat and repository, there should exist Layer B: an intell
+> ✅ **Результат:** Documents could be versioned, with diffs shown, but without the cultural overhead of pull requests and code review processes.
+> 🏷️ **Ключевые слова:** `layer`, `could`, `would`, `anthropic`, `vacancies`, `specific`, `repository`, `project`
+>
+
+
 <!-- summary -->
 > Between chat and repository, there should exist Layer B: an
 
@@ -97,9 +106,31 @@ product.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[218-7-application-domains|7. Application Domains]]
+- [[279-existing-approximations|Existing Approximations]]
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]]
+- [[281-the-recursive-insight|The Recursive Insight]]
+- [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]]
+- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]]
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]]
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]]
+- [[275-why-this-document-exists|Why This Document Exists]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] _53%_
+- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] _37%_
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _37%_
+- [[275-why-this-document-exists|Why This Document Exists]] _29%_
+- [[279-existing-approximations|Existing Approximations]] _29%_
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]] _21%_
+- [[315-7-practical-first-steps-this-month|7. Practical First Steps This Month]] _21%_
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _17%_
 ## Связанные документы
 
 - [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] _37%_

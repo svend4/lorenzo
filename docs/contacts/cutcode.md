@@ -1,3 +1,16 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "Cutcode"
+author_handle: "@Cutcode"
+projects: ["Svyazi"]
+platform: GitHub
+status: not_started
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+---
 # Контакт: Cutcode / AIF Handoff
 
 > [!TIP]

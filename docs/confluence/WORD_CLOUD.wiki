@@ -44,24 +44,22 @@ h2. Топ-20 слов
 || 20 || **claude** || 556 ||
 
 
-h2. Связанные документы
 
-* [Время чтения документов|READING_TIME.md] _29%_
-* [Кластеры тематически близких файлов|CLUSTERS.md] _25%_
-* [Инвертированный индекс ключевых слов|KEYWORD_INDEX.md] _25%_
-* [Рекомендуемый порядок чтения|READING_ORDER.md] _25%_
-* [Карта происхождения текстов|SOURCE_MAP.md] _25%_
-* [Частотный анализ слов|WORD_FREQ.md] _25%_
-* [Качество абзацев|PARAGRAPH_QUALITY.md] _21%_
-* [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md|02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md] _17%_
+----
+
+_Похожие документы:_
+* [CONCEPT_GRAPH|docs/CONCEPT_GRAPH.md] (сходство 0.30)
+* [28-appendix-a-minimal-working-example|docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md] (сходство 0.20)
+* [304-ingit-as-cowork-native-workspace-substrate-md|docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md] (сходство 0.19)
+
 
 
 
 ----
 
 _Смотрите также:_
-* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
-* [KEYWORD_INDEX|KEYWORD_INDEX.md]
-* [270-appendix-b-sub-agent-registry-schema-sketch|02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md]
-* [321-appendix-a-decision-tree-for-ingit-adopters|02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md]
+* [CONCEPT_GRAPH|docs/CONCEPT_GRAPH.md]
+* [28-appendix-a-minimal-working-example|docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md]
+* [65-readme-md|docs/02-anthropic-vacancies/65-readme-md.md]
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md]
 

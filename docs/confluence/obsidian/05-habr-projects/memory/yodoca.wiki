@@ -90,9 +90,23 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [NGT[^ngt] Memory: ассоциативный граф](ngt-memory.md)
+* [[wikontic|Wikontic: семантический граф]]
+* [[02-collaboration-partners|Авторы и контакты]]
+* [[DECISIONS|Ключевые решения и выводы]]
+* [[01-synthesis|Синтез: как проекты собираются вместе]]
+* [[README|Системы памяти]]
+h2. Упоминается в
+
 * [[README|Системы памяти]]
 
 
+h2. Связанные документы
+
+* [NGT[^ngt] Memory: ассоциативный граф](ngt-memory.md) _29%_
+* [[01-synthesis|Синтез: как проекты собираются вместе]] _25%_
+* [[wikontic|Wikontic: семантический граф]] _25%_
+* [[02-collaboration-partners|Авторы и контакты]] _21%_
 h2. Связанные документы
 
 * [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) _21%_

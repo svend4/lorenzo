@@ -7,7 +7,7 @@ h1. GitHub Issues — список задач
 
 _Обновлено: 2026-04-29_
 
-Найдено задач: _85_
+Найдено задач: _148_
 
 {quote}Создайте Issues вручную или запустите с {{--create}} (требует gh CLI){quote}
 
@@ -45,9 +45,17 @@ h2. {{docs/MISSING.md}} (1 задач)
 
 * [ ] _Отсутствует: 0_  _{{docs}}, {{automation}}_
 
+h2. {{docs/SCRIPTS_CATALOG.md}} (1 задач)
+
+* [ ] _из docs/. | |_  _{{docs}}, {{automation}}_
+
 h2. {{docs/SPELLCHECK.md}} (1 задач)
 
 * [ ] _проверяет → проверяет_  _{{docs}}, {{automation}}_
+
+h2. {{docs/TABLES.md}} (1 задач)
+
+* [ ] _из docs/. | |_  _{{docs}}, {{automation}}_
 
 h2. {{docs/autofilled/research-summary.md}} (2 задач)
 
@@ -150,6 +158,33 @@ h2. {{docs/contacts/zodigancode.md}} (4 задач)
 * [ ] _Получили ответ_  _{{docs}}, {{automation}}_
 * [ ] _Договорились о сотрудничестве_  _{{docs}}, {{automation}}_
 
+h2. {{docs/nautilus/review-methodology/10-checklist.md}} (18 задач)
+
+* [ ] _Документ действительно критически важен (см. §4.1)?_  _{{docs}}, {{automation}}_
+* [ ] _Есть время на Фазу C в течение 2 недель?_  _{{docs}}, {{automation}}_
+* [ ] _Две ветки будут работать на полностью независимых_  _{{docs}}, {{automation}}_
+* [ ] _Агенты работают в разных ветках (не в одной)_  _{{docs}}, {{automation}}_
+* [ ] _Prompt'ы для A и B идентичны (иначе это не_  _{{docs}}, {{automation}}_
+* [ ] _Каждый агент не видит результат другого_  _{{docs}}, {{automation}}_
+* [ ] _Header warning добавлен (см. §2.4)_  _{{docs}}, {{automation}}_
+* [ ] _Документ скомпозирован с дубликатами, а не с одним_  _{{docs}}, {{automation}}_
+* [ ] _Ветки A и B не удалены (audit trail)_  _{{docs}}, {{automation}}_
+* [ ] _Установлен deadline Фазы C (ISO дата или sprint marker)_  _{{docs}}, {{automation}}_
+* [ ] _Прочитаны A и B целиком_  _{{docs}}, {{automation}}_
+* [ ] _Outline финальной версии создан_  _{{docs}}, {{automation}}_
+* [ ] _Применены правила 1-5 ко всем расхождениям_  _{{docs}}, {{automation}}_
+* [ ] _Числа верифицированы (команды из §3.1 Правило 2)_  _{{docs}}, {{automation}}_
+* [ ] _Уникальные секции из A и B сохранены_  _{{docs}}, {{automation}}_
+* [ ] _Header warning удалён_  _{{docs}}, {{automation}}_
+* [ ] _Changelog запись добавлена_  _{{docs}}, {{automation}}_
+* [ ] _Исходные ветки могут быть удалены или archived_  _{{docs}}, {{automation}}_
+
+h2. {{docs/templates/agent-spec.md}} (3 задач)
+
+* [ ] _Одного человека (имя)_  _{{docs}}, {{automation}}_
+* [ ] _Организацию_  _{{docs}}, {{automation}}_
+* [ ] _Сообщество_  _{{docs}}, {{automation}}_
+
 h2. {{docs/templates/contact-outreach.md}} (4 задач)
 
 * [ ] _Изучили профиль_  _{{docs}}, {{automation}}_
@@ -157,14 +192,81 @@ h2. {{docs/templates/contact-outreach.md}} (4 задач)
 * [ ] _Получили ответ_  _{{docs}}, {{automation}}_
 * [ ] _Договорились о сотрудничестве_  _{{docs}}, {{automation}}_
 
+h2. {{docs/templates/contradiction-record.md}} (3 задач)
+
+* [ ] _[Что меняем в A]_  _{{docs}}, {{automation}}_
+* [ ] _[Что меняем в B]_  _{{docs}}, {{automation}}_
+* [ ] _[Что добавляем в глоссарий / FAQ]_  _{{docs}}, {{automation}}_
+
 h2. {{docs/templates/decision-record.md}} (1 задач)
 
 * [ ] _[Компромисс]_  _{{docs}}, {{automation}}_
+
+h2. {{docs/templates/experiment-log.md}} (2 задач)
+
+* [ ] _[Действие 1]_  _{{docs}}, {{automation}}_
+* [ ] _[Действие 2]_  _{{docs}}, {{automation}}_
+
+h2. {{docs/templates/kpi-snapshot.md}} (3 задач)
+
+* [ ] _[Цель 1] — таргет [значение]_  _{{docs}}, {{automation}}_
+* [ ] _[Цель 2] — таргет [значение]_  _{{docs}}, {{automation}}_
+* [ ] _[Цель 3] — таргет [значение]_  _{{docs}}, {{automation}}_
+
+h2. {{docs/templates/legal-case.md}} (2 задач)
+
+* [ ] _[Action 1] — отв. [имя], срок [дата]_  _{{docs}}, {{automation}}_
+* [ ] _[Action 2]_  _{{docs}}, {{automation}}_
+
+h2. {{docs/templates/meeting-notes.md}} (2 задач)
+
+* [ ] _[Действие 1] — отв. [Имя], срок [дата]_  _{{docs}}, {{automation}}_
+* [ ] _[Действие 2] — отв. [Имя], срок [дата]_  _{{docs}}, {{automation}}_
+
+h2. {{docs/templates/prototype-mvp.md}} (16 задач)
+
+* [ ] _Окружение настроено_  _{{docs}}, {{automation}}_
+* [ ] _Все зависимости установлены_  _{{docs}}, {{automation}}_
+* [ ] _Тестовые данные загружены_  _{{docs}}, {{automation}}_
+* [ ] _Контакты с авторами компонентов установлены_  _{{docs}}, {{automation}}_
+* [ ] _Один пайплайн A → B → C работает_  _{{docs}}, {{automation}}_
+* [ ] _Базовый smoke test проходит_  _{{docs}}, {{automation}}_
+* [ ] _Логирование настроено_  _{{docs}}, {{automation}}_
+* [ ] _[Дополнительный сценарий 1]_  _{{docs}}, {{automation}}_
+* [ ] _[Дополнительный сценарий 2]_  _{{docs}}, {{automation}}_
+* [ ] _Метрики собираются_  _{{docs}}, {{automation}}_
+* [ ] _Бенчмарк на реальных данных_  _{{docs}}, {{automation}}_
+* [ ] _Сравнение с метрикой успеха_  _{{docs}}, {{automation}}_
+* [ ] _Решение go / no-go_  _{{docs}}, {{automation}}_
+* [ ] _Ретроспектива_  _{{docs}}, {{automation}}_
+* [ ] _[Действие 1]_  _{{docs}}, {{automation}}_
+* [ ] _[Действие 2]_  _{{docs}}, {{automation}}_
 
 h2. {{docs/templates/research-note.md}} (2 задач)
 
 * [ ] _[Действие 1]_  _{{docs}}, {{automation}}_
 * [ ] _[Действие 2]_  _{{docs}}, {{automation}}_
+
+h2. {{docs/templates/retrospective.md}} (2 задач)
+
+* [ ] _[Действие 1] — отв. [Имя], срок [дата]_  _{{docs}}, {{automation}}_
+* [ ] _[Действие 2] — отв. [Имя], срок [дата]_  _{{docs}}, {{automation}}_
+
+h2. {{docs/templates/template-of-templates.md}} (7 задач)
+
+* [ ] _Создан docs/templates/<имя>.md с frontmatter_  _{{docs}}, {{automation}}_
+* [ ] _Создана docs/templates/schemas/<имя>.json_  _{{docs}}, {{automation}}_
+* [ ] _Все required-секции присутствуют в шаблоне_  _{{docs}}, {{automation}}_
+* [ ] _Все enum-значения в схеме покрывают плейсхолдеры_  _{{docs}}, {{automation}}_
+* [ ] _Шаблон проверен через improvevalidatetemplates.py (не должен падать)_  _{{docs}}, {{automation}}_
+* [ ] _init работает: python scripts/improvetemplateinit.py --type <имя> --slug /tmp/test.md_  _{{docs}}, {{automation}}_
+* [ ] _Добавлено упоминание в docs/templates/README.md_  _{{docs}}, {{automation}}_
+
+h2. {{docs/templates/weekly-digest.md}} (3 задач)
+
+* [ ] _[Задача 1]_  _{{docs}}, {{automation}}_
+* [ ] _[Задача 2]_  _{{docs}}, {{automation}}_
+* [ ] _[Задача 3]_  _{{docs}}, {{automation}}_
 
 h2. Создание через gh CLI
 
@@ -176,15 +278,4 @@ brew install gh  # macOS
 # Создание Issues
 python scripts/improve_github_issues.py --create --label docs,automation
 {code}
-
-
-
-
-----
-
-_Смотрите также:_
-* [116-9-checklist-применения-методологии|docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md]
-* [tagir-analyzes|docs/contacts/tagir-analyzes.md]
-* [anastasiyaw|docs/contacts/anastasiyaw.md]
-* [nlaik|docs/contacts/nlaik.md]
 

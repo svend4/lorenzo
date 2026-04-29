@@ -11,6 +11,16 @@ date: 2026-04-29
 
 # 5. Four Integration Paths in Order of Accessibility
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** --- --- Похожие документы: - 311-3-what-ingit-provides-that-cowork-lacks(docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16) - 310-2-what-co
+> 🔧 **Подход:** Path 2 without Path 1 risks designing wrong tools.
+> ✅ **Результат:** Requires Anthropic to enable substantial third-party extension.
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `project`, `anthropic`, `integration`, `provides`, `paths`, `server`
+>
+
+
 <!-- summary -->
 > We identify four paths from most-immediate to most-mature.
 
@@ -20,9 +30,9 @@ date: 2026-04-29
 ## Содержание
 
 - [5. Four Integration Paths in Order of Accessibility](#5-four-integration-paths-in-order-of-accessibility)
-  - [5.1. Path 1 — InGit Project in Cowork (Immediate)](#51-path-1-ingit-project-in-cowork-immediate)
-  - [5.2. Path 2 — InGit MCP Server (Short-Term)](#52-path-2-ingit-mcp-server-short-term)
-  - [5.3. Path 3 — InGit Cowork Project Template (Medium-Term)](#53-path-3-ingit-cowork-project-template-medium-term)
+  - [5.1. Path 1 — InGit Project in Cowork (Immediate)](#51-path-1-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-project-in-cowork-immediate)
+  - [5.2. Path 2 — InGit MCP Server (Short-Term)](#52-path-2-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-short-term)
+  - [5.3. Path 3 — InGit Cowork Project Template (Medium-Term)](#53-path-3-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-cowork-project-template-medium-term)
   - [5.4. Path 4 — Deep Cowork Integration (Long-Term)](#54-path-4-deep-cowork-integration-long-term)
   - [5.5. Sequencing Logic](#55-sequencing-logic)
 
@@ -72,7 +82,7 @@ about what works and what's missing.
 
 **Development required. 2-4 weeks for basic version.**
 
-Build `ingit-mcp-server` exposing InGit operations:
+Build `[[306-with-anthropic-s-cowork-platform|ingit]]-mcp-server` exposing InGit operations:
 
 ```
 Knowledge Base operations:
@@ -189,8 +199,8 @@ defers complex decisions until evidence is available.
 ---
 
 **Похожие документы:**
-- [[311-3-what-ingit-provides-that-cowork-lacks]] (сходство 0.16)
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-]] (сходство 0.15)
+- [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16)
+- [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.15)
 
 
@@ -199,24 +209,8 @@ defers complex decisions until evidence is available.
 ---
 
 **Смотрите также:**
-- [[314-6-refined-ingit-scope-with-cowork-in-mind]]
-- [[311-3-what-ingit-provides-that-cowork-lacks]]
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-]]
+- [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [[315-7-practical-first-steps-this-month]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _37%_
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|2. What Cowork Provides That InGit Doesn't Need to Build]] _33%_
-- [[311-3-what-ingit-provides-that-cowork-lacks|3. What InGit Provides That Cowork Lacks]] _33%_
-- [[314-6-refined-ingit-scope-with-cowork-in-mind|6. Refined InGit Scope with Cowork in Mind]] _33%_
-- [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]] _29%_
-- [[315-7-practical-first-steps-this-month|7. Practical First Steps This Month]] _29%_
-- [[303-приложение-визуализация-позиции-в-серии|Приложение: Визуализация позиции в серии]] _25%_
-- [[308-table-of-contents|Table of Contents]] _25%_

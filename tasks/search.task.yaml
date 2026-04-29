@@ -1,0 +1,28 @@
+id: search
+version: 1.0
+description: Полнотекстовый поиск по корпусу
+
+trigger_phrases:
+  - "найди про"
+  - "что есть о"
+  - "где упоминается"
+  - "поиск по теме"
+
+inputs:
+  query:
+    type: string
+    required: true
+
+mcp_server: lorenzo-search
+mcp_tool: search_docs
+
+pipeline:
+  - read: docs/search_index.json
+  - bm25_passages: "{query}"
+  - generate: "Top-N результатов с контекстом и тегами"
+
+post_checks: []
+
+related:
+  skills: [search, summarize, compare]
+  templates: []

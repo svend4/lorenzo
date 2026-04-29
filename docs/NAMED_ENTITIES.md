@@ -303,17 +303,17 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/155-1-problem-statement.md`
 - _...ещё 40_
 
-### `google` (34 файлов)
+### `google` (35 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md`
 - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
 - `docs/02-anthropic-vacancies/155-1-problem-statement.md`
-- _...ещё 29_
+- _...ещё 30_
 
 
-## 📅 Dates (32)
+## 📅 Dates (35)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
@@ -330,8 +330,9 @@ _Обновлено: 2026-04-29_
 | `декабря 2025` | 4 | dates |
 | `2025-12-15` | 4 | dates |
 | `2024-01-01` | 4 | dates |
-| `май 2025` | 4 | dates |
 | `феврале 2025` | 4 | dates |
+| `май 2025` | 4 | dates |
+| `2026-04-15` | 4 | dates |
 | `Сентябрь 2025` | 4 | dates |
 | `январе 2026` | 4 | dates |
 | `марта 2026` | 3 | dates |

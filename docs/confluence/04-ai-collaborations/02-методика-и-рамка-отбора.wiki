@@ -10,8 +10,7 @@ h1. Методика и рамка отбора
 >
 {quote}🎯 _Проблема:_ Методика и рамка отбора Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 !TIP Этот документ опи{quote}
 {quote}🔧 _Подход:_ Методика и рамка отбора Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 !TIP Этот документ опи{quote}
-{quote}✅ _Результат:_ citeturn20view5turn20view6turn34view2turn34view3turn39view1turn39view0turn20view10turn20view18 --- Похожие документы: - 02-methodology(docs/01-svyazi/02-methodology.md) ({quote}
-{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{summary}}, {{collaborations}}, {{executive}}, {{methodology}}, {{поиск}}, {{первичный}}, {{conclusions}}{quote}
+{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{summary}}, {{первичный}}, {{methodology}}, {{executive}}, {{репозитории}}, {{лицензии}}, {{зрелости}}{quote}
 >
 
 
@@ -35,7 +34,7 @@ _Обновлено: 2026-04-29_
 
 
 {quote}Поиск вёлся с приоритетом на _Хабр как первичный слой описания идеи_ и на _репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса_. В выборку включались только {quote}
-_Проекты:_ Svyazi[^svyazi], LiteParse, Legal RAG[^rag], Graph RAG
+_Проекты:_ Svyazi[^svyazi], [LiteParse|../docs/01-svyazi/01-executive-summary.md], Legal RAG[^rag], Graph RAG
 
 ----
 
@@ -56,8 +55,8 @@ h2. Методика и рамка отбора
 ----
 
 _Похожие документы:_
-* [02-methodology|../01-svyazi/02-methodology.md] (сходство 0.74)
-* [01-executive-summary|01-executive-summary.md] (сходство 0.11)
+* [02-methodology|docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md]/02-methodology.md) (сходство 0.74)
+* [01-executive-summary|docs/04-ai-collaborations/01-executive-summary.md] (сходство 0.11)
 
 
 
@@ -65,10 +64,10 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [02-methodology|../01-svyazi/02-methodology.md]
-* [01-executive-summary|01-executive-summary.md]
-* [DUPLICATES|../DUPLICATES.md]
-* [08-conclusions|../01-svyazi/08-conclusions.md]
+* [02-methodology|docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md]/02-methodology.md)
+* [01-executive-summary|docs/04-ai-collaborations/01-executive-summary.md]
+* [DUPLICATES|docs/DUPLICATES.md]
+* [08-conclusions|docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md]/08-conclusions.md)
 
 
 
@@ -79,19 +78,3 @@ _Смотрите также:_
 [^rag]: Retrieval-Augmented Generation — генерация с поиском
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-
-h2. Упоминается в
-
-* [Поиск AI-коллабораций|../README.md]
-
-
-h2. Связанные документы
-
-* [Методика и рамка отбора проектов|../01-svyazi/02-methodology.md] _37%_
-* [Что это продолжение добавляет|08-что-это-продолжение-добавляет.md] _25%_
-* [08 Conclusions|../01-svyazi/08-conclusions.md] _21%_
-* [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md) _21%_
-* [Executive summary|01-executive-summary.md] _21%_
-* [Выводы|07-выводы.md] _21%_
-* [Поиск AI-коллабораций|../README.md] _17%_

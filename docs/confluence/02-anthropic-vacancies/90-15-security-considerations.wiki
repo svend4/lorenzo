@@ -8,6 +8,27 @@ h1. 15. Security Considerations
 
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Security Considerations(15-security-considerations) - 15.1.{quote}
+{quote}🔧 _Подход:_ Supply Chain(155-supply-chain) !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+{quote}✅ _Результат:_ Для приватных Repos RECOMMENDED: - Отдельный private-nautilus.json с explicit opt-in - Отдельный portal instance, не доступный публично - Authentication на REST API (JWT / API keys{quote}
+{quote}🏷️ _Ключевые слова:_ {{security}}, {{considerations}}, {{adapters}}, {{portal}}, {{anthropic}}, {{vacancies}}, {{private}}, {{untrusted}}{quote}
+>
+
+
+
+h2. Contents
+
+* [15. Security Considerations|#15-security-considerations]
+  * [15.1. Untrusted Adapters|#151-untrusted-adapters]
+  * [15.2. Private Repositories|#152-private-repositories]
+  * [15.3. MCP Exposure|#153-mcp-exposure]
+  * [15.4. Rate Limiting|#154-rate-limiting]
+  * [15.5. Supply Chain|#155-supply-chain]
+
+
+
 h2. Contents
 
 * [15. Security Considerations|#15-security-considerations]
@@ -50,7 +71,7 @@ SHOULD НЕ включаться в публичную registry.
 
 Для приватных Repos RECOMMENDED:
 
-* Отдельный {{private-nautilus.json}} с explicit opt-in
+* Отдельный {{private-[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} с explicit opt-in
 * Отдельный portal instance, не доступный публично
 * Authentication на REST API (JWT / API keys)
 * Нет MCP exposure без whitelist
@@ -107,9 +128,18 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [11. Security Considerations|23-11-security-considerations.md]
+* [13. REST API Contract (Normative for Portals)|88-13-rest-api-contract-normative-for-portals.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [11. Security Considerations|23-11-security-considerations.md] _48%_
+* [13. REST API Contract (Normative for Portals)|88-13-rest-api-contract-normative-for-portals.md] _25%_
 h2. Связанные документы
 
 * [11. Security Considerations|23-11-security-considerations.md] _42%_

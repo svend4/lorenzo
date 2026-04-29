@@ -32,18 +32,10 @@ date: 2026-04-29
 ❌ **Defensive posture**: Justifying existence, apologizing for being AI
 ❌ **Excessive caveats**: Disclaimers что smother every statement
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[102-доступ-к-данным]]
-- [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
-- [[118-appendix-a-шаблон-для-header-warning]]
-- [[121-appendix-c-история-изменений-методологии]]
+- [[15-anti-patterns]]
 

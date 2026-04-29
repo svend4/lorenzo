@@ -5,14 +5,19 @@
 
 h1. Графы знаний и Legal AI
 
-{quote}[!IMPORTANT]{quote}
-{quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.{quote}
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Yodoca-консолидатор ночью: - Извлекает durable knowledge (прецеденты, применённые статьи, аргументы) - Старые неиспользуемые дела затухают по Эббингаузу - Часто используемые — укре{quote}
+{quote}🔧 _Подход:_ 6.2 AutoResearch loop с геометрическим роутингом AutoResearch Карпатого + Q6-роутер + ZINC: - Ночью агент крутит эксперименты с промптами - Роутер геометрически выбирает, какой экс{quote}
+{quote}✅ _Результат:_ Yodoca-консолидатор ночью: - Извлекает durable knowledge (прецеденты, применённые статьи, аргументы) - Старые неиспользуемые дела затухают по Эббингаузу - Часто используемые — укре{quote}
+{quote}🏷️ _Ключевые слова:_ {{через}}, {{claude}}, {{articles}}, {{legal}}, {{skills}}, {{agent}}, {{роутер}}, {{знаний}}{quote}
+>
 
 
 
 {quote}граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller){quote}
-_Проекты:_ Yodoca, Auto AI Router, AutoResearch
+_Проекты:_ Yodoca, Auto AI Router, [AutoResearch|../docs/01-svyazi/01-executive-summary.md]
 
 ----
 
@@ -56,7 +61,7 @@ h4. Комбинация 6: OpenClaude (утёкший Claude Code) × ZINC infe
 * Всё локально, никаких API-ключей
 * LCI контролирует когерентность агента
 Применение: legal AI на собственном железе без отправки данных наружу. GDPR-compliant, RISC-V-ready.
-6.2 AutoResearch loop с геометрическим роутингом AutoResearch Карпатого + Q6-роутер + ZINC:
+6.2 [AutoResearch|../docs/01-svyazi/01-executive-summary.md] loop с геометрическим роутингом AutoResearch Карпатого + Q6-роутер + ZINC:
 * Ночью агент крутит эксперименты с промптами
 * Роутер геометрически выбирает, какой эксперт подходит для данного типа задач
 * Лучший промпт сохраняется, LCI отслеживает стабильность
@@ -95,8 +100,8 @@ h4. Комбинация 8: Conductor × adversarial-review × Auto AI Router
 ----
 
 _Похожие документы:_
-* [05-benchmarks|05-benchmarks.md] (сходство 0.14)
-* [03-local-first|03-local-first.md] (сходство 0.11)
+* [05-benchmarks|docs/03-technology-combinations/05-benchmarks.md] (сходство 0.14)
+* [03-local-first|docs/03-technology-combinations/03-local-first.md] (сходство 0.11)
 
 
 
@@ -104,22 +109,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [05-benchmarks|05-benchmarks.md]
-* [03-local-first|03-local-first.md]
-* [01-agent-routing|01-agent-routing.md]
-* [04-приоритетные-ансамбли|../04-ai-collaborations/04-приоритетные-ансамбли.md]
+* [05-benchmarks|docs/03-technology-combinations/05-benchmarks.md]
+* [03-local-first|docs/03-technology-combinations/03-local-first.md]
+* [01-agent-routing|docs/03-technology-combinations/01-agent-routing.md]
+* [04-приоритетные-ансамбли|docs/04-ai-collaborations/04-приоритетные-ансамбли.md]
 
-
-h2. Упоминается в
-
-* [Комбинирование технологий для новых свойств|../README.md]
-
-
-h2. Связанные документы
-
-* [Local-first и P2P стек|03-local-first.md] _29%_
-* [Бенчмарки и производительность|05-benchmarks.md] _21%_
-* [Введение|../04-ai-collaborations/00-intro.md] _21%_
-* [MemNet: исследовательская память|../05-habr-projects/memory/memnet.md] _21%_
-* [Тепловая карта тем|../HEATMAP.md] _17%_
-* [Приоритеты файлов|../PRIORITIES.md] _17%_

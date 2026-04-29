@@ -3,11 +3,24 @@
 Дата: 2026-04-29
 {info}
 
+----
+template: contact-outreach
+version: "1.0"
+author: "MiXaiLL76"
+author_handle: "@MiXaiLL76"
+projects: ["Svyazi", "Auto AI Router"]
+platform: GitHub
+status: not_started
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+----
 h1. Контакт: MiXaiLL76 / Auto AI Router
 
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+_Проекты:_ Svyazi, Auto AI Router
 
 ----
 
@@ -64,24 +77,22 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Связанные документы
 
-* [Контакт: Cutcode / AIF Handoff|cutcode.md] _81%_
-* [Контакт: Dmitriila / SENTINEL|dmitriila.md] _81%_
-* [Контакт: VladSpace / Graph RAG|vladspace.md] _81%_
-* [Контакт: zodigancode / Rufler|zodigancode.md] _81%_
-* [Контакт: kksudo / AgentFS|../autofilled/components/kksudo.md] _73%_
-* [Контакт: spbmolot / NGT Memory|../autofilled/components/spbmolot.md] _73%_
-* [Контакт: tagir_analyzes / Legal RAG|tagir-analyzes.md] _73%_
-* [Контакт: VitalyOborin / Yodoca|vitalyoborin.md] _73%_
+----
+
+_Похожие документы:_
+* [dmitriila|docs/contacts/dmitriila.md] (сходство 0.90)
+* [vladspace|docs/contacts/vladspace.md] (сходство 0.88)
+* [zodigancode|docs/contacts/zodigancode.md] (сходство 0.86)
+
 
 
 
 ----
 
 _Смотрите также:_
-* [dmitriila|dmitriila.md]
-* [vladspace|vladspace.md]
-* [cutcode|cutcode.md]
-* [zodigancode|zodigancode.md]
+* [dmitriila|docs/contacts/dmitriila.md]
+* [tagir-analyzes|docs/contacts/tagir-analyzes.md]
+* [vladspace|docs/contacts/vladspace.md]
+* [cutcode|docs/contacts/cutcode.md]
 

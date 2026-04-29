@@ -28,25 +28,25 @@ h2. 22. Glossary of Reference Examples
 
 В качестве иллюстраций используется экосистема {{svend4}} с 7 Repos:
 
-* _info1_ (Level 1) — 74+ Markdown-документа с α-уровнями 
+* _[[01-интегральный-анализ-профиля-svend4|info1]]_ (Level 1) — 74+ Markdown-документа с α-уровнями 
   (-4..+4), методологический угол
-* _pro2_ (Level 3) — Q6-концепты, граф знаний, bidir-цикл, 
+* _[[01-интегральный-анализ-профиля-svend4|pro2]]_ (Level 3) — Q6-концепты, граф знаний, bidir-цикл, 
   семантический угол
 * _meta_ (Level 1) — 256 CA-правил + 64 гексаграммы, символьный 
   угол
 * _data2_ (Level 1) — 310+ томов ЕТД (Единая Теория Движения)
 * _data7_ (Level 2) — граф знаний, K₀→K∞ трансформация
-* _infosystems_ (Level 2, домен pro2) — архитектура ИС
-* _ai_agents_ (Level 2, домен pro2) — ИИ-агенты и мультиагентные 
+* _infosystems_ (Level 2, домен [[01-интегральный-анализ-профиля-svend4|pro2]]) — архитектура ИС
+* _ai_agents_ (Level 2, домен [[01-интегральный-анализ-профиля-svend4|pro2]]) — ИИ-агенты и мультиагентные 
   системы
 
 Плюс 5 "расширенных" адаптеров (не в registry, но useable):
 
 * _ObsidianAdapter_ — локальный Obsidian vault ([[wikilinks]])
 * _ArxivAdapter_ — arXiv API с 12h cache
-* _GitHubTopicAdapter_ — discovery по GitHub топику
+* _GitHubTopicAdapter_ — discovery по [[03-component-catalog|GitHub]] топику
 * _JSONLAdapter_ — JSON Lines files
-* _AutoAdapter_ — любой repo с nautilus.json в корне
+* _[[141-4-nautilus-portal-as-reference-substrate|AutoAdapter]]_ — любой repo с nautilus.json в корне
 
 ----
 
@@ -66,22 +66,6 @@ _Похожие документы:_
 _Смотрите также:_
 * [[27-15-glossary-of-examples]]
 * [[55-passports-meta-md]]
-* [[35-passports-info1-md]]
-* [[45-passports-pro2-md]]
+* [[01-интегральный-анализ-профиля-svend4|35-passports-[info1]]-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+* [[01-интегральный-анализ-профиля-svend4|45-passports-[pro2]]-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[27-15-glossary-of-examples|15. Glossary of Examples]] _66%_
-* [[45-passports-pro2-md|passports/pro2.md]] _37%_
-* [[35-passports-info1-md|passports/info1.md]] _33%_
-* [[55-passports-meta-md|passports/meta.md]] _33%_
-* [[56-essence|Essence]] _29%_
-* [[67-о-проекте|🇷🇺 О проекте]] _21%_
-* [[68-about|🇬🇧 About]] _21%_
-* [[40-bridges|Bridges]] _17%_

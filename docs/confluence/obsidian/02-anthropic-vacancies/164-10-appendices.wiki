@@ -17,6 +17,15 @@ date: 2026-04-29
 h1. 10. Appendices
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Appendix F: Document Metadata Document status: Working draft, seeking feedback Review version: v1.0.0-draft Next planned revision: v1.1-draft incorporating partner feedback Primary{quote}
+{quote}🔧 _Подход:_ Author proposes serving as founder but not necessarily Executive Director.{quote}
+{quote}🏷️ _Ключевые слова:_ {{appendix}}, {{anthropic}}, {{partial}}, {{infrastructure}}, {{partnership}}, {{author}}, {{vacancies}}, {{status}}{quote}
+>
+
+
+
 {quote}_Nautilus Portal Protocol v1.1_:{quote}
 
 ----
@@ -62,7 +71,7 @@ _Nautilus Portal Protocol v1.1_:
 * 6,782 LOC Python, 60 tests passing, 0 mypy errors
 * 13 adapters, 7 repositories federated
 * REST API, SDK, MCP integration, OpenAPI specification
-* Docker deployment, CI/CD via GitHub Actions
+* Docker deployment, CI/CD via [[03-component-catalog|GitHub]] Actions
 * Documentation: README, STATUS, INTEGRATION, PORTAL-PROTOCOL 
   (15+ pages formal spec), REVIEW_METHODOLOGY, 
   DOUBLE-TRIANGLE-ARCHITECTURE (20 pages)
@@ -166,7 +175,7 @@ _Document status_: Working draft, seeking feedback
 _Review version_: v1.0.0-draft
 _Next planned revision_: v1.1-draft incorporating partner feedback
 _Primary maintenance_: author (svend4)
-_Contact for discussion_: [author's GitHub issues, email 
+_Contact for discussion_: [[03-component-catalog|author's [GitHub]] issues, email 
 TBD for foundation launch]
 _Public availability_: This document is CC BY 4.0; can be 
 shared, cited, refined by anyone with attribution.
@@ -196,9 +205,32 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[156-2-target-populations|2. Target Populations]]
+* [[143-6-four-deployment-domains|6. Four Deployment Domains]]
+* [[160-6-governance-and-ethics|6. Governance and Ethics]]
+* [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]]
+* [[162-8-risk-analysis|8. Risk Analysis]]
+* [[163-9-call-for-partnership|9. Call for Partnership]]
+* [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]]
+* [[153-executive-summary|Executive Summary]]
+* [[282-what-industry-will-likely-build|What Industry Will Likely Build]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[68-about|🇬🇧 About]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[03-portal-protocol-md|PORTAL-PROTOCOL.md]] _21%_
+* [[25-13-reference-implementation|13. Reference Implementation]] _21%_
+* [[93-18-reference-implementation|18. Reference Implementation]] _21%_
+* [[04-abstract|Abstract]] _17%_
+* [[05-0-status-of-this-document|0. Status of This Document]] _17%_
+* [[42-author-contact|Author & Contact]] _17%_
+* [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]] _17%_
+* [[75-0-status-of-this-document|0. Status of This Document]] _17%_
 h2. Связанные документы
 
 * [[CONCEPTS|Глоссарий понятий]] _25%_

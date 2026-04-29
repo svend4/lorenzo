@@ -11,8 +11,8 @@ h1. Bridges
 h2. Contents
 
 * [Bridges|#bridges]
-  * [info1 ↔ pro2|#info1-pro2]
-  * [info1 ↔ meta|#info1-meta]
+  * [info1 ↔ pro2|#[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]-pro2)
+  * [info1 ↔ meta|#[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]-meta)
   * [Способ обращения через мост|#способ-обращения-через-мост]
 
 
@@ -28,8 +28,8 @@ h2. Contents
 h2. Bridges
 
 h3. {{info1 ↔ pro2}}
-_α-level ↔ Q6-concept-depth_. Уровень α в {{info1}} коррелирует с 
-глубиной концепта в Q6-графе знаний {{pro2}}. [? уточнить exact mapping: 
+_α-level ↔ Q6-concept-depth_. Уровень α в {{[info1|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}} коррелирует с 
+глубиной концепта в Q6-графе знаний {{[pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}}. [? уточнить exact mapping: 
 например, α₀ ↔ leaf-вершины Q6, α₃ ↔ root-вершины?]
 
 h3. {{info1 ↔ meta}}
@@ -38,7 +38,7 @@ _α-level ↔ CA-rule-class_. α-уровни соотносятся с клас
 mapping если есть, или отметить, что мост пока декларативный]
 
 h3. Способ обращения через мост
-Портал использует {{nautilus.json}} для lookup bridge-описания и передаёт 
+Портал использует {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} для lookup bridge-описания и передаёт 
 его адаптеру при вызове {{translate_to()}}. Фактический перевод — 
 свободная текстовая интерпретация, не formal mapping.
 
@@ -49,9 +49,9 @@ h3. Способ обращения через мост
 ----
 
 _Похожие документы:_
-* [60-bridges|60-bridges.md] (сходство 0.22)
-* [50-bridges|50-bridges.md] (сходство 0.20)
-* [61-compatibility-level|61-compatibility-level.md] (сходство 0.14)
+* [60-bridges|docs/02-anthropic-vacancies/60-bridges.md] (сходство 0.22)
+* [50-bridges|docs/02-anthropic-vacancies/50-bridges.md] (сходство 0.20)
+* [61-compatibility-level|docs/02-anthropic-vacancies/61-compatibility-level.md] (сходство 0.14)
 
 
 
@@ -59,24 +59,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [60-bridges|60-bridges.md]
-* [50-bridges|50-bridges.md]
-* [61-compatibility-level|61-compatibility-level.md]
-* [51-compatibility-level|51-compatibility-level.md]
+* [60-bridges|docs/02-anthropic-vacancies/60-bridges.md]
+* [50-bridges|docs/02-anthropic-vacancies/50-bridges.md]
+* [61-compatibility-level|docs/02-anthropic-vacancies/61-compatibility-level.md]
+* [51-compatibility-level|docs/02-anthropic-vacancies/51-compatibility-level.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [Bridges|50-bridges.md] _37%_
-* [Bridges|60-bridges.md] _37%_
-* [Compatibility Level|51-compatibility-level.md] _33%_
-* [Compatibility Level|61-compatibility-level.md] _29%_
-* [Native Format|57-native-format.md] _25%_
-* [Compatibility Level|41-compatibility-level.md] _21%_
-* [Essence|56-essence.md] _21%_
-* [8. Q6 Space (Normative)|83-8-q6-space-normative.md] _21%_

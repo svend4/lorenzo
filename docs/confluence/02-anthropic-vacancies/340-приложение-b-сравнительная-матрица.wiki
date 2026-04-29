@@ -39,9 +39,15 @@ Cowork.
 ----
 
 _Смотрите также:_
-* [332-6-уточнённый-объём-ingit-с-учётом-cowork|332-6-уточнённый-объём-ingit-с-учётом-cowork.md]
+* [332-6-уточнённый-объём-[ingit|../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
 
 
-h2. Упоминается в
 
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+----
+
+_Похожие документы:_
+* [326-содержание|docs/02-anthropic-vacancies/326-содержание.md] (сходство 0.12)
+* [332-6-уточнённый-объём-ingit-с-учётом-cowork|docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md] (сходство 0.11)
+* [322-appendix-b-comparison-matrix|docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md] (сходство 0.11)
+

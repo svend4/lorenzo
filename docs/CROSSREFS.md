@@ -48,7 +48,7 @@
 
 | Файл | Проектов | Список |
 |------|----------|--------|
-| `docs/TABLES.md` | 29 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +23 |
+| `docs/TABLES.md` | 30 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +24 |
 | `docs/01-svyazi/03-component-catalog.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 |
 | `docs/04-ai-collaborations/00-intro.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, AIF Handoff +21 |
 | `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 |
@@ -59,7 +59,9 @@
 | `docs/01-svyazi/04-ensembles-overview.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
 | `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
 | `docs/OUTLINE.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
+| `docs/SITEMAP.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
 | `docs/SUMMARIES.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
+| `docs/CONCEPTS.md` | 23 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 |
 | `docs/GRAPH.md` | 23 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 |
 | `docs/MINDMAP.md` | 23 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 |
 | `docs/01-svyazi/01-executive-summary.md` | 22 | Svyazi, CardIndex, AgentFS, mclaude, AI Factory, AIF Handoff +16 |

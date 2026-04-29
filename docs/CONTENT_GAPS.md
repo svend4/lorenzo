@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-Найдено пробелов: **374** (мин. упоминаний: 3)
+Найдено пробелов: **391** (мин. упоминаний: 3)
 
 > Концепции, упоминаемые во многих файлах, но не имеющие собственного документа.
 
@@ -123,6 +123,18 @@ _Обновлено: 2026-04-29_
 
 Создать: `docs/nautilus/must.md`
 
+### `SHOULD` (42 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/06-1-introduction.md`
+- `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md`
+- `docs/02-anthropic-vacancies/09-4-passport-passport-md.md`
+- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
+- `docs/02-anthropic-vacancies/18-6-adapter-interface.md`
+- ... и ещё 37 файлах
+
+Создать: `docs/nautilus/should.md`
+
 ### `BSL` (41 файлов)
 
 Упоминается в:
@@ -167,7 +179,7 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md`
 - `docs/02-anthropic-vacancies/218-7-application-domains.md`
 - `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md`
-- ... и ещё 29 файлах
+- ... и ещё 27 файлах
 
 Создать: `docs/nautilus/xii.md`
 
@@ -251,9 +263,21 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md`
 - `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md`
 - `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md`
-- ... и ещё 25 файлах
+- ... и ещё 26 файлах
 
 Создать: `docs/technology-combinations/pdf.md`
+
+### `PII` (31 файлов)
+
+Упоминается в:
+- `docs/01-svyazi/06-security-privacy.md`
+- `docs/01-svyazi/07-mvp-planning.md`
+- `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`
+- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
+- `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
+- ... и ещё 26 файлах
+
+Создать: `docs/nautilus/pii.md`
 
 ### `BSG` (30 файлов)
 
@@ -265,19 +289,31 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md`
 - ... и ещё 25 файлах
 
-Создать: `docs/02-anthropic-vacancies/bsg.md`
+Создать: `docs/nautilus/bsg.md`
 
-### `PII` (29 файлов)
+### `MAY` (29 файлов)
 
 Упоминается в:
-- `docs/01-svyazi/06-security-privacy.md`
-- `docs/01-svyazi/07-mvp-planning.md`
-- `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`
-- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
+- `docs/02-anthropic-vacancies/06-1-introduction.md`
+- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
+- `docs/02-anthropic-vacancies/19-7-portalentry-structure.md`
+- `docs/02-anthropic-vacancies/20-8-consensus-algorithm.md`
+- `docs/02-anthropic-vacancies/34-appendix-b-change-log.md`
 - ... и ещё 24 файлах
 
-Создать: `docs/nautilus/pii.md`
+Создать: `docs/nautilus/may.md`
+
+### `URL` (28 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
+- `docs/02-anthropic-vacancies/145-8-call-to-action.md`
+- `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md`
+- `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
+- ... и ещё 23 файлах
+
+Создать: `docs/02-anthropic-vacancies/url.md`
 
 ### `LinkedIn` (28 файлов)
 
@@ -291,6 +327,18 @@ _Обновлено: 2026-04-29_
 
 Создать: `docs/nautilus/linkedin.md`
 
+### `AIF` (27 файлов)
+
+Упоминается в:
+- `docs/01-svyazi/01-executive-summary.md`
+- `docs/01-svyazi/03-component-catalog.md`
+- `docs/01-svyazi/04-ensembles-overview.md`
+- `docs/01-svyazi/07-mvp-planning.md`
+- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
+- ... и ещё 22 файлах
+
+Создать: `docs/04-ai-collaborations/aif.md`
+
 ### `KSV` (27 файлов)
 
 Упоминается в:
@@ -303,15 +351,15 @@ _Обновлено: 2026-04-29_
 
 Создать: `docs/nautilus/ksv.md`
 
-### `AIF` (26 файлов)
+### `HMP` (25 файлов)
 
 Упоминается в:
-- `docs/01-svyazi/01-executive-summary.md`
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/01-svyazi/04-ensembles-overview.md`
-- `docs/01-svyazi/07-mvp-planning.md`
+- `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
+- `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md`
+- `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md`
+- `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- ... и ещё 21 файлах
+- ... и ещё 20 файлах
 
 Создать: `docs/svyazi-2-0/aif.md`
 

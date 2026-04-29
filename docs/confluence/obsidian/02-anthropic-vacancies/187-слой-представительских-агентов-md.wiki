@@ -39,9 +39,29 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]]
+- [[174-5-architectural-specification|5. Architectural Specification]]
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]]
+- [[168-abstract|Abstract]]
+- [[132-planned-v0-2-0|Planned (v0.2.0)]]
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]]
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]] _81%_
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _73%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _53%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _29%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _25%_
+- [[13-angle-perspective|Angle / Perspective]] _21%_
+- [[168-abstract|Abstract]] _21%_
+- [[12-content-overview|Content Overview]] _17%_
 ## Связанные документы
 
 - [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _81%_

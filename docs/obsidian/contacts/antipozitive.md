@@ -9,9 +9,14 @@ date: 2026-04-29
 
 # Контакт: Antipozitive / MemNet
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, knowledge-space, Rufler, LiteParse, Legal RAG, Graph RAG, MemNet, SENTINEL
+**Проекты:** Svyazi, MemNet
 
 ---
 
@@ -26,12 +31,7 @@ date: 2026-04-29
 - [Открытые вопросы](#открытые-вопросы)
 
 
-> [!TIP]
-> Документ содержит практические рекомендации и лучшие практики.
-
-<!-- alert-added -->
-
-<!-- summary: Шаблон для связи с автором MemNet -->
+<!-- summary: Шаблон для связи с автором [[01-executive-summary|MemNet]] -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -73,17 +73,15 @@ MemNet закрывает слой «memory» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _42%_
-- [[dmitriila|Контакт: Dmitriila / SENTINEL]] _42%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _42%_
-- [[nlaik|Контакт: nlaik / LiteParse / research-docs]] _42%_
-- [[sonia-black|Контакт: Sonia_Black / knowledge-space]] _42%_
-- [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] _42%_
-- [[vladspace|Контакт: VladSpace / Graph RAG]] _42%_
-- [[zodigancode|Контакт: zodigancode / Rufler]] _42%_
+---
+
+**Похожие документы:**
+- [[nlaik]] (сходство 0.87)
+- [[vladspace]] (сходство 0.84)
+- [[zodigancode]] (сходство 0.82)
+
 
 <!-- see-also -->
 
@@ -92,6 +90,6 @@ _Создано автоматически: 2026-04-29_
 **Смотрите также:**
 - [[nlaik]]
 - [[sonia-black]]
-- [[tagir-analyzes]]
-- [[vladspace]]
+- [[spbmolot]]
+- [[vitalyoborin]]
 

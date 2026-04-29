@@ -9,6 +9,15 @@ date: 2026-04-29
 
 # 7. Open Questions
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Open Questions !TIP Документ содержит практические рекомендации и лучшие практики.
+> 🔧 **Подход:** Possible approaches: reputation systems, revenue sharing from commercial uses, academic citation as reward, governance tokens.
+> 🏷️ **Ключевые слова:** `scale`, `architecture`, `questions`, `agent`, `anthropic`, `vacancies`, `triangle`, `proposed`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -180,9 +189,31 @@ requires research.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]]
+- [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]]
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]]
+- [[174-5-architectural-specification|5. Architectural Specification]]
+- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]]
+- [[175-6-ethical-framework|6. Ethical Framework]]
+- [[143-6-four-deployment-domains|6. Four Deployment Domains]]
+- [[176-7-governance-and-oversight|7. Governance and Oversight]]
+- [[145-8-call-to-action|8. Call to Action]]
+- [[177-8-risks-and-mitigations|8. Risks and Mitigations]]
+- [[148-appendix-a-glossary|Appendix A: Glossary]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _25%_
+- [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _25%_
+- [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] _21%_
+- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _21%_
+- [[145-8-call-to-action|8. Call to Action]] _21%_
+- [[148-appendix-a-glossary|Appendix A: Glossary]] _21%_
 ## Связанные документы
 
 - [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _29%_

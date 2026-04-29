@@ -13,39 +13,413 @@ date: 2026-04-29
 h1. Отчёт о дублировании
 
 {quote}[!TIP]{quote}
-{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
 
 
 Порог сходства: _0.5_  
 Точных дублей: _0_  
-Похожих пар: _1_
-
-h2. Точные дубли (одинаковое содержимое)
-
-|| Группа || Файлы ||
-|| #1 || `docs/templates/research-note.md`, `docs/autofilled/research-summary.md` ||
+Похожих пар: _175_
 
 h2. Похожие файлы (Jaccard ≥ 0.5)
 
-h3. 100% — {{docs/autofilled/components/spbmolot.md}} vs {{docs/autofilled/components/svend4.md}}
+h3. 100% — {{docs/02-anthropic-vacancies/16-history.md}} vs {{docs/nautilus/npp-v1-0/04-passport.md}}
 
 _Общих абзацев:_ 1  
 _Примеры совпадений:_
 
-{quote}- [[sgb]] _90%_ - [[svyazi]] _90%_ - [[.md|Антропик]] _83%_ - [[.md|Cowork]]{quote}
-* [[cowork]]
-* [[ingit]]
-* [[lorenzo]]
+{quote}Passports MAY быть на любом языке. Для международной видимости  RECOMMENDED иметь минимум две секции: primary language автора +  English. Рекомендуется формат с параллельными разделами, а не  отдельны…{quote}
 
+----
+
+h3. 88% — {{docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md}} vs {{docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Механика_: Агенты обычно берут 10-20% комиссии от заработка клиента. Они: - Развивают портфолио клиентов в течение лет - Поддерживают отношения с потенциальными покупателями (издатели, студии, сети…{quote}
+
+{quote}_Ограничения_: Экономически жизнеспособно только для клиентов с достаточно высоким заработком, чтобы 10-20% комиссии стоили того для агента. Авторы литературной фантастики, например, часто не могут …{quote}
+
+{quote}_Функция_: Граждане, ориентирующиеся в бюрократии. Формы, процедуры, апелляции, слушания. Граждане часто не могут эффективно представлять себя; бюрократическая инфраструктура предполагает наличие пр…{quote}
+
+----
+
+h3. 82% — {{docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md}} vs {{docs/nautilus/representative-agent-layer-en/04-ten-domains.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Agent function_: Track all open procedures and deadlines.  Decode bureaucratic communications. Draft responses.  Identify entitlements not yet claimed. Flag procedural  errors by authorities. Conne…{quote}
+
+{quote}_Personal note from author_: This is the domain where the  author currently engages, navigating Sozialgericht proceedings  with disability status. The need is intensely felt. Existing  infrastructur…{quote}
+
+{quote}_Concrete example_: A social worker in Diakonie or  Caritas managing 25 elderly clients. Each client has  unique needs (medical, housing, social, financial). The  agent monitors program announcement…{quote}
+
+----
+
+h3. 82% — {{docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md}} vs {{docs/nautilus/composite-skills-agents/08-seven-domains.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Typical configurations_: A primary care physician working  in a rural clinic with elderly patients faces different  challenges from a specialist working in tertiary care. Even  within specialties, …{quote}
+
+{quote}_Typical configurations_: A jazz pianist who teaches has  different needs from a classical violinist, who has different  needs from an electronic music producer. Each builds their  own configuration…{quote}
+
+{quote}_Typical configurations_: A therapist working with adolescents  who have eating disorders in immigrant families requires  specific combinations spanning therapeutic modalities,  developmental psycho…{quote}
+
+----
+
+h3. 81% — {{docs/02-anthropic-vacancies/194-4-десять-областей-применения.md}} vs {{docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Принципал_: Концептуальный — те, кто не может представлять себя сами: будущие поколения, затронутые текущими решениями, экосистемы, на которые влияет политика, животные в средах, изменённых человек…{quote}
+
+{quote}Паттерн Представительских Агентов широко применим. Мы выделяем десять разных областей, упорядоченных по готовности к развёртыванию (наиболее простые сначала, наиболее сложные в конце). Каждый раздел к…{quote}
+
+{quote}_Принципал_: Инвалид, ориентирующийся в системе социального обеспечения. Пожилой человек, управляющий несколькими государственными услугами. Иммигрант, ориентирующийся в правовых процедурах. Человек…{quote}
+
+----
+
+h3. 79% — {{docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md}} vs {{docs/nautilus/composite-skills-agents/03-what-makes-csa.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}We suggest twenty as a reasonable working constraint:  configurations under five are probably better served by Type 1;  configurations over forty are probably indicating a need for  narrower focus or …{quote}
+
+{quote}_Property 3 — Configuration Is Individually Specific._ While  each sub-agent is general, the specific combination belongs to  the principal. A different principal would have a different  configurati…{quote}
+
+{quote}_Function 1 — Routing._ When the principal poses a question  or task, the composite agent determines which sub-agents are  relevant. Some questions need only one sub-agent. Others need  several in c…{quote}
+
+----
+
+h3. 79% — {{docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md}} vs {{docs/nautilus/composite-skills-agents/10-risks.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Scenario_: Principal selects sub-agents that confirm their  existing approach, missing specializations that would challenge  or expand their practice. Composite becomes a sophisticated  form of con…{quote}
+
+{quote}_Mitigations_: - Open coordinator architecture, with multiple coordinator    options - Transparent routing logic (principal can see why sub-agent    was selected) - Auditable behavior over time - Co…{quote}
+
+{quote}_Scenario_: Principals discover that specific configurations  are particularly effective. They keep these configurations  secret as competitive advantage. Configuration knowledge becomes  hoarded ra…{quote}
+
+----
+
+h3. 78% — {{docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md}} vs {{docs/nautilus/professional-colleague-agents-ru/06-riski.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Сценарий_: Младшие практикующие, использующие агента с первого дня, никогда не развивают основополагающие навыки, которые агент автоматизирует. Когда агент даёт сбой (неизбежно) или недоступен, пра…{quote}
+
+{quote}_Меры противодействия 4 — Приемлемые компромиссы._ Некоторая атрофия навыков приемлема. Мы не сожалеем о потере навыков ментальной арифметики из-за калькуляторов. Вопрос в том, какие навыки существе…{quote}
+
+{quote}_Конкретный пример_: Терапевт использует Профессионального Коллегу-Агента для синтеза заметок. Конфиденциальность пациента скомпрометирована, когда у провайдера агента происходит инцидент безопаснос…{quote}
+
+----
+
+h3. 78% — {{docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md}} vs {{docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Teaching._ A teacher whose effectiveness comes from combining  subject expertise (mathematics), pedagogical approach  (constructivist), specialty (working with neurodivergent  students), and cultur…{quote}
+
+{quote}_Law._ Lawyers who combine practice areas. A lawyer with  expertise in technology law plus disability rights plus  international human rights occupies a niche shaped by her  specific combination, ev…{quote}
+
+{quote}_Software architecture._ Engineers whose distinctive value  comes from combining specialized skills — for example, systems  performance engineering plus distributed systems plus security.  Each skil…{quote}
+
+----
+
+h3. 77% — {{docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md}} vs {{docs/nautilus/okwf-concept/04-proposed-infrastructure.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Why Double-Triangle for OKWF_: - Explicitly designed for single contributors in distributed    teams - Preserves contributor autonomy (lower triangle) - Enables coordination at scale (upper triangl…{quote}
+
+{quote}_What it provides_: - Two-tier knowledge structure: public patterns + private    instances - Three bridge types: inheritance, citation, contribution - Anonymization pipeline enabling privacy-preserv…{quote}
+
+{quote}_Why subsidiarity is right model_: - Below full-salary level preserves other life activities    (elders, disabled, caregivers) - Above charity level preserves dignity and agency - Predictable baseli…{quote}
+
+----
+
+h3. 76% — {{docs/02-anthropic-vacancies/156-2-target-populations.md}} vs {{docs/nautilus/okwf-concept/02-target-populations.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}These four populations overlap substantially. A retired lawyer  in Belarus with chronic illness fits all four categories.  Traditional hiring infrastructure treats each constraint as  individual disqu…{quote}
+
+{quote}_Example use cases_: - Retired German law professor contributing to legal pattern    library and junior legal writer mentorship - Former medical researcher reviewing bioinformatics code - Retired jo…{quote}
+
+{quote}_Unique value proposition from OKWF_: - Foundation-handled compliance (single legal interface for    contributors globally) - Persistent professional identity across engagements - Reputation portabl…{quote}
+
+----
+
+h3. 76% — {{docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md}} vs {{docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Механизм QA 3 — Требуется проверка практикующим._ Результаты — это черновики, требующие проверки и принятия практикующим, не окончательные продукты. Интерфейс агента должен делать проверку естестве…{quote}
+
+{quote}_Слой A — База Профессиональных Знаний._ Закодированное знание профессии: стандарты, регуляции, методологии, шаблоны, словари, общие паттерны. Курируется и поддерживается профессиональными экспертам…{quote}
+
+{quote}Это самый дорогой слой для построения и наиболее ценный конкурентный ров. Высококачественная база профессиональных знаний для немецкого социального права, например, представляет собой тысячи часов экс…{quote}
+
+----
+
+h3. 75% — {{docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md}} vs {{docs/nautilus/okwf-concept/07-phased-rollout.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}OKWF evolves into trusted infrastructure for distributed  expert work globally. Multiple foundations and corporate  partners sustain operations. Contributors span every continent.  Specialization exte…{quote}
+
+{quote}_Key activities_: - Build production-ready technical infrastructure    (Nautilus-based) - Recruit first 50 contributors, primarily in legal writing    guild - Execute 5-10 pilot projects (mix of int…{quote}
+
+{quote}_Key activities_: - Expand to 5000+ contributors - Develop endowment and reduce funding dependency - Formalize international partnerships - Influence policy on AI-assisted distributed work - Publish…{quote}
+
+----
+
+h3. 75% — {{docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md}} vs {{docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}Намеренный эффект — _не_ уменьшение учительского труда в смысле игры с нулевой суммой. Это _перераспределение_ учительского труда от рутины к отношениям. Агент автоматизирует бюрократическую работ…{quote}
+
+{quote}_Дизайн-выбор 3_: Однокликовая интеграция с существующим рабочим процессом. Цель дорожной карты: интерфейс годового планирования учителя с однокликовой генерацией материалов прямо в школьный электро…{quote}
+
+{quote}«Обучай» — российский AI-сервис для школьных учителей, запущенный осенью 2025 года Константином Чукавиным (тогда 25 лет, учителем и образовательным предпринимателем в Петербурге) вместе с разработчико…{quote}
+
+----
+
+h3. 73% — {{docs/02-anthropic-vacancies/162-8-risk-analysis.md}} vs {{docs/nautilus/okwf-concept/08-risk-analysis.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Mitigations_: - Anchor partner committed before launch - Multiple partnership types explored in parallel - Hybrid funding model (corporate + foundation + grants) - Strong pipeline of grants submiss…{quote}
+
+{quote}On balance, OKWF faces typical challenges of a new foundation  with novel scope. None of identified risks are unique or  categorically concerning. Established mitigations and contingency  planning add…{quote}
+
+{quote}_Mitigations_: - Rigorous selection in Phase 1 - Explicit quality gates at each guild level - Peer review processes - AI-assisted consistency checking - External quality auditing - Willingness to re…{quote}
+
+----
+
+h3. 73% — {{docs/02-anthropic-vacancies/144-7-open-questions.md}} vs {{docs/nautilus/double-triangle-architecture/07-open-questions.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}As AI capabilities improve, the architecture becomes more  practical. But the architecture should work _partially_ even  with weaker AI, degrading gracefully to more human involvement  in protocols …{quote}
+
+{quote}_How are contributions to pattern library rewarded?_  Contributors generate value for future users. Uncompensated  contribution is unstable (the "tragedy of the commons" applies).  Compensation mech…{quote}
+
+{quote}_Who decides who meta-agent coordinates?_ Node's participation  in a team means meta-agent has authority over Node's task  assignment. But what if Node disagrees with an assignment? What  is the "ex…{quote}
+
+----
+
+h3. 73% — {{docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md}} vs {{docs/nautilus/representative-agent-layer-en/02-historical-precedents.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}- _Economic viability_ drops dramatically — AI agent costs    $10-100/month vs. human agent's $50K+ annual cost - _Entry-level access_ becomes universal — even small    contributors can have repre…{quote}
+
+{quote}_Mechanics_: Commission-based (10% standard). Agencies  (CAA, WME, UTA) have hundreds of agents, structured as  sophisticated organizations with specialized departments  (film, TV, music, publishing…{quote}
+
+{quote}1. _Decoupling expertise from market interface_ — value     creator focuses on creation 2. _Aligned incentive structure_ — agent succeeds when     client succeeds (commission) 3. **Accumulated rel…{quote}
+
+----
+
+h3. 73% — {{docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md}} vs {{docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Компонент 6 — Монитор Защиты_: Выявляет риски, несоответствия, мошенничество, эксплуатацию. Предупреждает принципала о тревожных знаках. Поддерживает скептическую позицию по отношению к контрагента…{quote}
+
+{quote}- [5. Архитектурная спецификация|#5-архитектурная-спецификация]   - [5.1. Основные компоненты|#51-основные-компоненты]   - [5.2. Принципы работы|#52-принципы-работы]   - [5.3. Технический стек](#53…{quote}
+
+{quote}_Пользовательский Интерфейс_: Мульти-модальный доступ (веб, мобильный, голос), соответствующий потребностям доступности принципала. Особенно важно для пожилых, инвалидов или незнакомых с технологиям…{quote}
+
+----
+
+h3. 72% — {{docs/02-anthropic-vacancies/145-8-call-to-action.md}} vs {{docs/nautilus/double-triangle-architecture/08-call-to-action.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Regulatory frameworks._ Existing labor and AI regulations  assume either single-human knowledge work or fully-automated  systems. Double-Triangle hybrid work requires regulatory  attention: liabili…{quote}
+
+{quote}The Double-Triangle Architecture emerged from recognizing that  my own work exhibits both triangles simultaneously. I am a  single person coordinating multiple AI assistants (lower  triangle), and als…{quote}
+
+{quote}_Pattern library construction._ Begin contributing to domain  pattern libraries. Anonymize your successful workflows and  publish them. Early contributors gain first-mover advantage in  shaping conv…{quote}
+
+----
+
+h3. 72% — {{docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md}} vs {{docs/nautilus/professional-colleague-agents-en/04-architecture.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_QA Mechanism 3 — Practitioner Review Required._ Outputs are drafts requiring practitioner review and acceptance, not final products. The agent's interface should make review natural rather than bur…{quote}
+
+{quote}_Layer A — Professional Knowledge Base._ Encoded knowledge of the profession: standards, regulations, methodologies, templates, vocabularies, common patterns. Curated and maintained by professional …{quote}
+
+{quote}This is the most expensive layer to build and the most valuable competitive moat. A high-quality professional knowledge base for German social law, for example, represents thousands of hours of expert…{quote}
+
+----
+
+h3. 71% — {{docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md}} vs {{docs/nautilus/composite-skills-agents/09-okwf-integration.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}- [9. Integration with OKWF Infrastructure|#9-integration-with-okwf-infrastructure]   - [9.1. Connection to Pattern Library|#91-connection-to-pattern-library]   - [9.2. Connection to Guild Structure…{quote}
+
+{quote}This is a better proposal for foundation funders even at higher  cost, because it demonstrates a more sophisticated understanding  of how skilled practice works and produces infrastructure with  broad…{quote}
+
+{quote}The connection is not just analogical. The same infrastructure  serves both: - Pattern library: knowledge fragments accessible to humans    for review - Sub-agent registry: knowledge fragments operati…{quote}
+
+----
+
+h3. 71% — {{docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md}} vs {{docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Функция 5 — Поиск знаний._ Обеспечивать быстрый доступ к профессиональным базам знаний — прецеденты, клиническая литература, методологические ссылки, обновления регуляций. Сокращает время исследова…{quote}
+
+{quote}_Свойство 4 — Никаких внешних коммуникаций._ Агент не общается со сторонами за пределами практикующего. Результаты предоставляются практикующему для проверки и использования. Это отличает от Предста…{quote}
+
+{quote}_Свойство 1 — Встроенный профессиональный контекст._ Агент имеет глубокое, постоянное знание профессиональных норм, методологий, регуляций, словаря и шаблонов. Практикующему не нужно заново объяснят…{quote}
+
+----
+
+h3. 71% — {{docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md}} vs {{docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}Мы рассмотрим эти прецеденты в Разделе 2. Предложение этой статьи прямолинейно: _AI теперь делает этот представительский класс доступным и доступным в масштабах, ранее невозможных_. Это и есть Слой …{quote}
+
+{quote}_Причина 3 — Личностная предрасположенность._ Многие высококачественные эксперты по природе _интроверты_, находят самопродвижение _психологически затратным_ или имеют **моральное сопротивление к…{quote}
+
+{quote}Мы называем это _Синдромом Золушки_ — по сказке, где действительно ценный человек невидим для потенциальных партнёров, потому что у него нет социальной инфраструктуры (фея-крёстная в этой метафоре),…{quote}
+
+----
+
+h3. 69% — {{docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md}} vs {{docs/nautilus/composite-skills-agents/05-configuration-ensembles.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}1. _Initial AI recommendation_ based on principal's stated     profile generates a starting configuration 2. _Self-directed exploration_ lets principal browse, adjust,     add specializations they…{quote}
+
+{quote}The composite agent should help the principal monitor  configuration health: - Which sub-agents are most used? - Which are rarely consulted? - Are there new sub-agents that match the principal's recen…{quote}
+
+{quote}A principal entering an ecosystem with hundreds of available  sub-agents faces a configuration problem. They do not yet know: - Which specializations are most relevant to their work - Which combinatio…{quote}
+
+----
+
+h3. 69% — {{docs/02-anthropic-vacancies/143-6-four-deployment-domains.md}} vs {{docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Novel opportunity._ Open-source projects traditionally lack  scalable coordination. A Double-Triangle deployment could enable  small maintainer teams to manage much larger contributor  communities …{quote}
+
+{quote}_Lower triangle contents._ Assistants specialized for: - Legal research (case law, statute lookup) - Document drafting (Widerspruch, Klage, petitions) - Compliance checking (GDPR, medical confidenti…{quote}
+
+{quote}- [6. Four Deployment Domains|#6-four-deployment-domains]   - [6.1. Humanities Domain (Legal, Medical, Social)|#61-humanities-domain-legal-medical-social]   - [6.2. Project Management Domain](#62-pr…{quote}
+
+----
+
+h3. 69% — {{docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md}} vs {{docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}The Composite Skills Agent pattern emerges naturally once the  question is asked: "What about practitioners whose distinctive  value comes from combining specializations?" But this question  was not a…{quote}
+
+{quote}_They are differentiated within the profession._ No two  musicians are identical. No two lawyers practice exactly the  same way. Each combines particular specializations, particular  influences, par…{quote}
+
+{quote}What matches is an architecture where: - Many narrow-specialist sub-agents exist, each built once - Sub-agents are shared across all practitioners who need that    specialization - Each principal conf…{quote}
+
+----
+
+h3. 69% — {{docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md}} vs {{docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}```json {   "name": "my-case-2026",   "format": "case_instance",   "inherits_from": [     "public:nautilus-legal:pattern/eingliederungshilfe_denial_reversal",     "public:nautilus-legal:norm/sgb_xii_9…{quote}
+
+{quote}_Tier 1 — Public Patterns._ Repositories of abstract patterns:  methodologies (Scrum, Kanban, DDD), legal norms (SGB statutes,  EU directives), templates (pull request templates, meeting  formats), …{quote}
+
+{quote}1. PII detection (names, dates, addresses, identifiers) 2. Replacement with type-consistent placeholders 3. Manual verification (automated anonymization is insufficient) 4. Structural metadata additio…{quote}
+
+----
+
+h3. 69% — {{docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md}} vs {{docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Function 2 — Application of Professional Standards._ Apply relevant standards, regulations, methodologies automatically. The teacher does not need to manually consult educational standards every ti…{quote}
+
+{quote}_Property 2 — Single-Profession Specialization._ The agent serves one defined profession (or one defined sub-specialty). Not "multiple professions". Not "general professional work." This focus enabl…{quote}
+
+{quote}- [2. What Makes a Professional Colleague Agent|#2-what-makes-a-professional-colleague-agent]   - [2.1. Defining Properties|#21-defining-properties]   - [[01-response-en|2.2. What a Professional Colleague Agent Doe…{quote}
+
+----
+
+h3. 67% — {{docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md}} vs {{docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Аннотация на документах._ Конкретные разделы документов могли бы быть аннотированы комментариями. Комментарии могли бы быть тредированы. Другие AI-агенты (или человек-сотрудник) могли бы отвечать н…{quote}
+
+{quote}_Двунаправленный поток._ Продвижение не односторонне. Материал в Слое C мог бы быть возвращён в Слой B для дальнейшей разработки, затем перепродвинут. Материал в Слое B мог бы быть извлечён в чат дл…{quote}
+
+{quote}_Рабочий процесс продвижения._ Содержание, разработанное в Слое B, могло бы быть продвинуто в Слой C (закоммичено в репозиторий), когда оно достаточно стабильно. Содержание из Слоя A (чата) могло бы…{quote}
+
+----
+
+h3. 67% — {{docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md}} vs {{docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md}}
+
+_Общих абзацев:_ 3  
+_Примеры совпадений:_
+
+{quote}_Versioning without code-orientation._ Documents could be  versioned, with diffs shown, but without the cultural overhead  of pull requests and code review processes. Edits could be  collaborative, …{quote}
+
+{quote}_Promotion workflow._ Content developed in Layer B could be  promoted to Layer C (committed to repository) when stable  enough. Content from Layer A (chat) could be promoted to Layer  B when worth p…{quote}
+
+{quote}_AI collaboration as primary operation._ Each thread, each  document, each annotation could be developed in collaboration  with AI. The AI would have access to the full context of the  project — not…{quote}
+
+----
+
+_...и ещё 145 пар._
+
+{quote}Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.{quote}
 
 
 
 ----
 
 _Смотрите также:_
-* [[AUTOFILLED]]
-* [[DENSITY]]
-* [[STALENESS]]
-* [[HEATMAP]]
+* [01-response-en]]
+* [[SOURCE_MAP]]
+* [[READING_TIME]]
+* [[READABILITY]]
 

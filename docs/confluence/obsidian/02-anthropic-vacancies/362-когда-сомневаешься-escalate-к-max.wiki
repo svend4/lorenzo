@@ -6,7 +6,6 @@
 ----
 title: "Когда сомневаешься — escalate к Max"
 tags:
-  * anthropic
   * anthropic-vacancies
 date: 2026-04-29
 ----
@@ -17,8 +16,6 @@ h1. Когда сомневаешься — escalate к Max
 {quote}- Ethical complexity beyond обычных protocols{quote}
 
 ----
-
-
 
 
 
@@ -35,17 +32,9 @@ h2. Когда сомневаешься — escalate к Max
 Просто say: «Это decision уровня Max. Я могу draft analysis, но финальный call за ним.»
 
 
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
 
 ----
 
 _Смотрите также:_
-* [[102-доступ-к-данным]]
-* [[361-когда-ты-honestly-не-знаешь]]
-* [[185-appendix-b-domain-comparison-matrix]]
-* [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
+* [[18-escalate-to-max]]
 

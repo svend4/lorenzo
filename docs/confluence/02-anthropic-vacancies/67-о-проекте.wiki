@@ -6,6 +6,16 @@
 h1. 🇷🇺 О проекте
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Документация - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal specification v1.0 (15 страниц) - passports/(./passports/) — описания репо экосистемы для людей - info1(./passports{quote}
+{quote}🔧 _Подход:_ - 0: Discoverable — только объявлен в registry - 1: Readable — имеет passport + describe() метод - 2: Queryable — реализует fetch(query) — поиск работает - 3: Interactive — transla{quote}
+{quote}✅ _Результат:_ Это создаёт lock-in, теряет авторские модели, гомогенизирует разные типы знания.{quote}
+{quote}🏷️ _Ключевые слова:_ {{nautilus}}, {{svend}}, {{passports}}, {{portal}}, {{terminology}}, {{protocol}}, {{anthropic}}, {{vacancies}}{quote}
+>
+
+
+
 {quote}Nautilus — протокол и reference implementation для _федерации_{quote}
 
 ----
@@ -92,7 +102,7 @@ h3. Подключить свой репозиторий
 
 _Минимально (Level 0–1, 5 минут):_
 
-1. Положите {{nautilus.json}} в корень вашего репо:
+1. Положите {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} в корень вашего репо:
 
 {code:language=json}
 {
@@ -113,9 +123,9 @@ _Минимально (Level 0–1, 5 минут):_
 _Полностью (Level 2–3, несколько часов):_
 
 3. Добавьте адаптер в {{adapters/my_repo.py}}, реализующий 
-   {{BaseAdapter}} интерфейс (см. [PORTAL-PROTOCOL.md §6|./PORTAL-PROTOCOL.md#6-adapter-interface])
+   {{[BaseAdapter|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}} интерфейс (см. [PORTAL-PROTOCOL.md §6|./PORTAL-PROTOCOL.md#6-adapter-interface])
 
-4. Зарегистрируйте репо в {{nautilus.json}} корневого портала
+4. Зарегистрируйте репо в {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} корневого портала
 
 h3. Как это работает
 
@@ -238,9 +248,30 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [1. Introduction|06-1-introduction.md]
+* [1. Introduction|76-1-introduction.md]
+* [2. Terminology|07-2-terminology.md]
+* [2. Terminology|77-2-terminology.md]
+* [22. Glossary of Reference Examples|97-22-glossary-of-reference-examples.md]
+* [For the Curious: Philosophy|64-for-the-curious-philosophy.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL|02-общий-план-развития-nautilus-portal-protocol.md]
+* [🇬🇧 About|68-about.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [🇬🇧 About|68-about.md] _29%_
+* [13. Reference Implementation|25-13-reference-implementation.md] _25%_
+* [Author & Contact|42-author-contact.md] _21%_
+* [For the Curious: Philosophy|64-for-the-curious-philosophy.md] _21%_
+* [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL|02-общий-план-развития-nautilus-portal-protocol.md] _17%_
+* [15. Glossary of Examples|27-15-glossary-of-examples.md] _17%_
+* [passports/info1.md|35-passports-info1-md.md] _17%_
+* [Essence|46-essence.md] _17%_
 h2. Связанные документы
 
 * [🇬🇧 About|68-about.md] _33%_

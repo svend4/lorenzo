@@ -35,10 +35,11 @@ _Обновлено: 2026-04-29_
 | habr-unique-projects | 56 |
 | lorenzo-agent | 62 |
 | nautilus | 255 |
-| root | 98 |
+| obsidian | 524 |
+| root | 105 |
 | svyazi-2-0 | 59 |
 | technology-combinations | 53 |
-| templates | 6 |
+| templates | 24 |
 
 ## Action Items
 
@@ -48,7 +49,7 @@ _Обновлено: 2026-04-29_
 
 ## Скрипты обработки
 
-Скриптов в `scripts/`: **153**
+Скриптов в `scripts/`: **181**
 
 ## Рекомендации
 

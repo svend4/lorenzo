@@ -9,6 +9,15 @@ date: 2026-04-29
 
 # The Two-Layer Stack As It Exists
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The problem is what happens between them.
+> ✅ **Результат:** The Anthropic chat interface (and similar products from other providers).
+> 🏷️ **Ключевые слова:** `anthropic`, `document`, `specific`, `vacancies`, `layer`, `exists`, `artifacts`, `human`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -33,7 +42,7 @@ products from other providers). Excellent for creative dialogue,
 exploration, generating content. The natural creative space. 
 Linear by structure.
 
-**Layer C — Code repositories.** GitHub, GitLab, Codeberg. 
+**Layer C — Code repositories.** [[03-component-catalog|GitHub]], GitLab, Codeberg. 
 Excellent for storing structured artifacts, version control, 
 collaboration around technical artifacts. Branching, merging, 
 issues, discussions. Code-oriented by design.
@@ -90,9 +99,32 @@ infrastructure that does not exist as a unified product.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[218-7-application-domains|7. Application Domains]]
+- [[315-7-practical-first-steps-this-month|7. Practical First Steps This Month]]
+- [[279-existing-approximations|Existing Approximations]]
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]]
+- [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]]
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]]
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]]
+- [[277-what-s-missing-layer-b|What's Missing — Layer B]]
+- [[275-why-this-document-exists|Why This Document Exists]]
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[277-what-s-missing-layer-b|What's Missing — Layer B]] _37%_
+- [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] _37%_
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _37%_
+- [[275-why-this-document-exists|Why This Document Exists]] _29%_
+- [[279-existing-approximations|Existing Approximations]] _29%_
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _25%_
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]] _25%_
+- [[286-acknowledgments|Acknowledgments]] _25%_
 ## Связанные документы
 
 - [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] _42%_

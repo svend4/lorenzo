@@ -12,6 +12,15 @@ date: 2026-04-29
 
 h1. Технический stack (Svyazi 2.0 foundation)
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Запрос проанализировать нужно проанализировать то что уже сделано то информацию которая уже есть благодаря этим последним нескольким документам благодаря тем что уже было сделано в{quote}
+{quote}🔧 _Подход:_ cardid (immutable) cardtype (person/project/episode/doc/hypothesis) state (raw/normalized/inferred/approved/rejected/decayed) sources edges updatedat payloadhash sourceid pageorspa{quote}
+{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{lorenzo}}, {{layer}}, {{foundation}}, {{документ}}, {{новых}}, {{вопросы}}, {{которые}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -19,17 +28,17 @@ h1. Технический stack (Svyazi 2.0 foundation)
 
 
 {quote}Lorenzo's architecture builds on верифицированных open-source компонентах:{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+_Проекты:_ Svyazi, CardIndex, AgentFS, [[03-component-catalog|knowledge-space]], mclaude, AI Factory, Rufler, LiteParse
 
 ----
 
 
 h2. Содержание
 
-* [Технический stack (Svyazi 2.0 foundation)|#технический-stack-svyazi-20-foundation]
+* [Технический stack (Svyazi 2.0 foundation)|#технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md]-20-foundation)
   * [Анализ конкретных компонентов из документа (новых для нас)|#анализ-конкретных-компонентов-из-документа-новых-для-нас]
   * [Synthesizing с нашим existing landscape|#synthesizing-с-нашим-existing-landscape]
-  * [Strategic implications для Lorenzo|#strategic-implications-для-lorenzo]
+  * [Strategic implications для Lorenzo|#strategic-implications-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md])
   * [Конкретные next steps|#конкретные-next-steps]
   * [Ключевые вопросы к вам|#ключевые-вопросы-к-вам]
   * [Что это за документ — диагностика|#что-это-за-документ-диагностика]
@@ -55,7 +64,7 @@ h2. Технический stack (Svyazi 2.0 foundation)
 Lorenzo's architecture builds on верифицированных open-source компонентах:
 
 _Layer 1 — Ingestion_: Svyazi-style hybrid extraction (Чуян pattern)
-_Layer 2 — Knowledge_: knowledge-space (Анастасия, MIT)
+_Layer 2 — Knowledge_: [[03-component-catalog|knowledge-space]] (Анастасия, MIT)
 _Layer 3 — Kernel_: AgentFS-style file architecture (kksudo pattern, MIT)
 _Layer 4 — Memory_: Yodoca consolidation + NGT Memory associations
 _Layer 5 — Evidence_: research-docs/LiteParse forensic RAG (Apache 2.0)
@@ -584,9 +593,19 @@ Wiederholen
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[11-integration-contracts|11 Integration Contracts]]
+- [[364-final-note-ты-experiment|Final note: Ты — experiment]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[11-интеграционный-контракт-который-стоит-зафиксироват|Интеграционный контракт, который стоит зафиксировать сразу]]
+- [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]] _17%_
 ## Связанные документы
 
 - [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]] _17%_

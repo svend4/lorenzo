@@ -10,6 +10,15 @@ date: 2026-04-29
 
 # Why This Document Exists
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** If the project continues — and it should — the next phase needs different infrastructure than chat alone.
+> ✅ **Результат:** Document 3 provides architectural pattern that Document 7 extends.
+> 🏷️ **Ключевые слова:** `document`, `anthropic`, `vacancies`, `exists`, `layer`, `stack`, `acknowledgments`, `seven`
+>
+
+
 <!-- summary -->
 > The seven preceding documents in this series were produced in
 
@@ -78,9 +87,30 @@ This document explores that observation.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[286-acknowledgments|Acknowledgments]]
+- [[285-closing|Closing]]
+- [[320-references|References]]
+- [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]]
+- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]]
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]]
+- [[277-what-s-missing-layer-b|What's Missing — Layer B]]
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]] _37%_
+- [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] _33%_
+- [[286-acknowledgments|Acknowledgments]] _33%_
+- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] _29%_
+- [[277-what-s-missing-layer-b|What's Missing — Layer B]] _29%_
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _25%_
+- [[287-references|References]] _25%_
+- [[319-acknowledgments|Acknowledgments]] _21%_
 ## Связанные документы
 
 - [[286-acknowledgments|Acknowledgments]] _42%_

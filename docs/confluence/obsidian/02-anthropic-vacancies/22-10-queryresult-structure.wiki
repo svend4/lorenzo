@@ -37,7 +37,7 @@ class QueryResult:
 
 h3. 10.1. Serialization
 
-QueryResult MUST поддерживать сериализацию в JSON, Markdown, HTML.
+[[02-общий-план-развития-nautilus-portal-protocol|QueryResult]] MUST поддерживать сериализацию в JSON, Markdown, HTML.
 
 * {{to_json()}} — для MCP / API
 * {{to_markdown()}} — для CLI и LLM consumption
@@ -71,9 +71,39 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[85-10-query-flow|10. Query Flow]]
+* [[86-11-relevance-ranking|11. Relevance Ranking]]
+* [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]]
+* [[91-16-mcp-extension-informative|16. MCP Extension (Informative)]]
+* [[09-4-passport-passport-md|4. Passport ({{passport.md}})]]
+* [[18-6-adapter-interface|6. Adapter Interface]]
+* [[81-6-adapter-interface|6. Adapter Interface]]
+* [[82-7-portalentry-structure|7. PortalEntry Structure]]
+* [[20-8-consensus-algorithm|8. Consensus Algorithm]]
+* [[21-9-query-flow|9. Query Flow]]
+* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+* [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+* [[103-appendix-b-change-log|Appendix B: Change Log]]
+* [[63-history|History]]
+* [[37-native-format|Native Format]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]]
+* [[360-что-ты-всегда-делаешь|Что ты ВСЕГДА делаешь]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _33%_
+* [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]] _33%_
+* [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _29%_
+* [[21-9-query-flow|9. Query Flow]] _25%_
+* [[41-compatibility-level|Compatibility Level]] _25%_
+* [[81-6-adapter-interface|6. Adapter Interface]] _25%_
+* [[09-4-passport-passport-md|4. Passport ({{passport.md}})]] _21%_
+* [[103-appendix-b-change-log|Appendix B: Change Log]] _21%_
 h2. Связанные документы
 
 * [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _37%_

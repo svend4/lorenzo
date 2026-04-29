@@ -15,15 +15,22 @@
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 4 |
 
-**Всего несогласованных написаний: 276**
+**Всего несогласованных написаний: 291**
 
 
 ## Детали по файлам
 
 
+### `knowledgespace` → должно быть `knowledge-space`
+
+- `docs/EMPTY_SECTIONS.md`
+- `docs/TABLES.md`
+- `docs/CONSISTENCY.md`
+
 ### `knowledge space` → должно быть `knowledge-space`
 
 - `docs/TABLES.md`
+- `docs/SITEMAP.md`
 - `docs/CONCEPTS.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/CONCEPTS.md`
@@ -33,23 +40,15 @@
 
 - `docs/TABLES.md`
 - `docs/CONSISTENCY.md`
-- `docs/04-ai-collaborations/QA.md`
-
-### `knowledgespace` → должно быть `knowledge-space`
-
-- `docs/TABLES.md`
-- `docs/CONSISTENCY.md`
-- `docs/04-ai-collaborations/QA.md`
-- `docs/05-habr-projects/QA.md`
 
 ### `AI-Factory` → должно быть `AI Factory`
 
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/QA.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
-- `docs/READING_TIME.md`
-- `docs/CONSISTENCY.md`
-- _...и ещё 13_
+- _...и ещё 16_
 
 ### `NGT-Memory` → должно быть `NGT Memory`
 
@@ -57,20 +56,22 @@
 - `docs/FAQ.md`
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/DEPENDABOT.md`
-- `docs/LANGUAGE_STATS.md`
-- _...и ещё 34_
+- `docs/EMPTY_SECTIONS.md`
+- _...и ещё 33_
 
 ### `Auto-AI-Router` → должно быть `Auto AI Router`
 
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/SPELLCHECK.md`
+- `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
-- `docs/SOURCE_MAP.md`
-- `docs/READING_TIME.md`
-- _...и ещё 10_
+- `docs/SITEMAP.md`
+- _...и ещё 13_
 
 ### `localfirst` → должно быть `local-first`
 
+- `docs/TABLES.md`
+- `docs/CONSISTENCY.md`
 - `docs/OUTLINE.md`
 
 ### `self-improve` → должно быть `self-improvement`
@@ -91,21 +92,21 @@
 
 ### `Evidence-Envelope` → должно быть `Evidence Envelope`
 
+- `docs/READING_LIST.md`
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/QA.md`
+- `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
-- `docs/CONCEPTS.md`
-- `docs/READING_TIME.md`
-- _...и ещё 13_
+- _...и ещё 12_
 
 ### `Card-Envelope` → должно быть `Card Envelope`
 
 - `docs/PARAGRAPH_QUALITY.md`
+- `docs/LANGUAGE_STATS.md`
 - `docs/TABLES.md`
+- `docs/SITEMAP.md`
 - `docs/READING_TIME.md`
-- `docs/OUTLINE.md`
-- `docs/READABILITY.md`
-- _...и ещё 6_
+- _...и ещё 9_
 
 ## Как исправить
 

@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # 10. Strategic Positioning
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.
+> 🔧 **Подход:** InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.
+> ✅ **Результат:** The combination provides perspective neither pure technologist nor pure practitioner could achieve.
+> 🏷️ **Ключевые слова:** `ingit`, `cowork`, `anthropic`, `author`, `agent`, `nautilus`, `vacancies`, `strategic`
+>
+
+
 <!-- summary -->
 > Closing thoughts on broader strategic implications.
 
@@ -16,7 +26,7 @@ date: 2026-04-29
 ## Содержание
 
 - [10. Strategic Positioning](#10-strategic-positioning)
-  - [10.1. InGit as Niche Player](#101-ingit-as-niche-player)
+  - [10.1. InGit as Niche Player](#101-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-as-niche-player)
   - [10.2. Cowork as Distribution Channel](#102-cowork-as-distribution-channel)
   - [10.3. Open Source as Sustainability](#103-open-source-as-sustainability)
   - [10.4. The Bigger Pattern](#104-the-bigger-pattern)
@@ -36,7 +46,7 @@ Closing thoughts on broader strategic implications.
 
 ### 10.1. InGit as Niche Player
 
-InGit will not become the next GitHub or Notion. Its market 
+InGit will not become the next [[03-component-catalog|GitHub]] or Notion. Its market 
 is narrower:
 
 - Technical users comfortable with Git and YAML
@@ -160,8 +170,8 @@ Either way, the material exists.
 ---
 
 **Похожие документы:**
-- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat]] (сходство 0.21)
-- [[316-8-implications-for-nautilus-and-okwf]] (сходство 0.16)
+- [[306-with-anthropic-s-cowork-platform|323-appendix-c-sample-[ingit]]-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
+- [[memnet|316-8-implications-for-[nautilus]]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
 - [[307-abstract]] (сходство 0.16)
 
 
@@ -170,24 +180,8 @@ Either way, the material exists.
 ---
 
 **Смотрите также:**
-- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat]]
-- [[316-8-implications-for-nautilus-and-okwf]]
+- [[306-with-anthropic-s-cowork-platform|323-appendix-c-sample-[ingit]]-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [[memnet|316-8-implications-for-[nautilus]]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 - [[307-abstract]]
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] _33%_
-- [[317-9-risks-and-open-questions|9. Risks and Open Questions]] _33%_
-- [[SOURCE_MAP|Карта происхождения текстов]] _29%_
-- [[319-acknowledgments|Acknowledgments]] _25%_
-- [[READING_ORDER|Рекомендуемый порядок чтения]] _25%_
-- [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]] _21%_
-- [[281-the-recursive-insight|The Recursive Insight]] _21%_
-- [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _21%_

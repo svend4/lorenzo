@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "agent-spec",
+  "description": "Спецификация AI-агента: тип, принципал, скилы, tools, память, decision boundary",
+  "type": "object",
+  "required": ["template", "version", "agent_name", "agent_type"],
+  "properties": {
+    "template": {"const": "agent-spec"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "agent_name": {"type": "string", "minLength": 1},
+    "agent_type": {"enum": ["representative", "professional-colleague", "composite-skills", "catalyst", "companion", "coordinator", "other"]},
+    "layer": {"type": "string"},
+    "maturity": {"enum": ["experimental", "alpha", "beta", "stable"]},
+    "created": {"type": "string", "format": "date"},
+    "authors": {"type": "array", "items": {"type": "string"}},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Тип агента", "Назначение", "Принципал", "Скилы агента", "Tools (плагины)", "Decision boundary", "Failure modes"]
+}

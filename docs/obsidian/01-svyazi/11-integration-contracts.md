@@ -5,20 +5,19 @@ tags:
 date: 2026-04-29
 ---
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Каждый skill или MCP^mcp‑инструмент должен иметь класс доступа, класс среды, условия вызова и postcondition.
+> 🔧 **Подход:** Любой retrieval‑ответ, match suggestion, profile enrichment или auto‑summary должен возвращать не только текст, но и sourceid, page, span, box, retrievalmethod, confidence, support
+> ✅ **Результат:** Это не “идеальная онтология”, а минимальный договор, который позволяет системам вообще разговаривать между собой.
+> 🏷️ **Ключевые слова:** `контракт`, `memory`, `svyazi`, `который`, `через`, `search`, `проект`, `agentfs`
+>
 
-
-<!-- toc -->
-## Содержание
-
-- [Интеграционный контракт, который стоит зафиксировать сразу](#интеграционный-контракт-который-стоит-зафиксировать-сразу)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
 
 <!-- summary -->
 > Чтобы все эти ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели 
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, LiteParse, Legal RAG[^rag], Hybrid RAG
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, [[01-executive-summary|LiteParse]], Legal RAG[^rag], Hybrid RAG
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement -->
@@ -29,9 +28,9 @@ date: 2026-04-29
 
 Чтобы все эти ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели появятся три несовместимые сущности с названием “карточка”, два разных формата evidence и четыре несовместимых местоположения памяти.
 
-Первый контракт — **Card Envelope**. У каждой карточки должен быть неизменяемый `card_id`, `card_type`, статус `raw | normalized | inferred | approved | rejected | decayed`, список source links, список relation edges, временные метки и хэш полезной нагрузки. Эта структура логически следует из CardIndex‑мышления Svyazi, immutable/event‑style практик AgentFS и Memory OS, а также из необходимости разводить truth и proposal в memory‑системах. Это не “идеальная онтология”, а минимальный договор, который позволяет системам вообще разговаривать между собой. citeturn41search0turn27view0turn39view3turn20view16
+Первый контракт — **Card Envelope**. У каждой карточки должен быть неизменяемый `card_id`, `card_type`, статус `raw | normalized | inferred | approved | rejected | decayed`, список source links, список relation edges, временные метки и хэш полезной нагрузки. Эта структура логически следует из [[01-executive-summary|CardIndex]]‑мышления Svyazi, immutable/event‑style практик AgentFS и Memory OS, а также из необходимости разводить truth и proposal в memory‑системах. Это не “идеальная онтология”, а минимальный договор, который позволяет системам вообще разговаривать между собой. citeturn41search0turn27view0turn39view3turn20view16
 
-Второй контракт — **Evidence Envelope**. Любой retrieval‑ответ, match suggestion, profile enrichment или auto‑summary должен возвращать не только текст, но и `source_id`, `page`, `span`, `box`, `retrieval_method`, `confidence`, `supporting_nodes`. Для документов это page+box; для чатов и заметок — message/thread/time span; для голосовых эпизодов — timestamp window; для ассоциативных выводов — список triggered nodes и path explanation. Это прямой синтез из LiteParse/research-docs, Legal RAG, Hybrid RAG и Graph RAG. Без такого формата нельзя построить ни нормальную ручную модерацию, ни “объяснение рекомендации”. citeturn20view5turn20view6turn34view2turn34view3
+Второй контракт — **Evidence Envelope**. Любой retrieval‑ответ, match suggestion, profile enrichment или auto‑summary должен возвращать не только текст, но и `source_id`, `page`, `span`, `box`, `retrieval_method`, `confidence`, `supporting_nodes`. Для документов это page+box; для чатов и заметок — message/thread/time span; для голосовых эпизодов — timestamp window; для ассоциативных выводов — список triggered nodes и path explanation. Это прямой синтез из [[01-executive-summary|LiteParse]]/research-docs, Legal RAG, Hybrid RAG и Graph RAG. Без такого формата нельзя построить ни нормальную ручную модерацию, ни “объяснение рекомендации”. citeturn20view5turn20view6turn34view2turn34view3
 
 Третий контракт — **Memory Write Policy**. Система должна различать хотя бы четыре режима записи: `episode` для сырых наблюдений, `fact` для подтверждённого знания, `proposal` для гипотез и `decay_event` для понижения значимости. Yodoca[^yodoca] уже мыслит память через consolidation + forgetting, NGT[^ngt] Memory — через ассоциативные связи и иерархическую консолидацию, agent-memory-mcp — через typed memory primitives, а Memory OS — через bi‑temporal и provenance‑heavy представление знаний. Из этих линий следует, что “записать что-то в память” никогда не должно быть одной неразличимой операцией. citeturn21view0turn22view4turn20view16turn39view3
 
@@ -53,7 +52,7 @@ date: 2026-04-29
 
 **Похожие документы:**
 - [[11-интеграционный-контракт-который-стоит-зафиксироват]] (сходство 1.00)
-- [[366-технический-stack-svyazi-2-0-foundation]] (сходство 0.19)
+- [[00-intro-part2|366-технический-stack-[svyazi]]-2-0-foundation](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md) (сходство 0.19)
 - [[09-архитектурные-зазоры-которые-важнее-новых-инструме]] (сходство 0.16)
 
 
@@ -63,8 +62,8 @@ date: 2026-04-29
 
 **Смотрите также:**
 - [[11-интеграционный-контракт-который-стоит-зафиксироват]]
-- [[366-технический-stack-svyazi-2-0-foundation]]
-- [[09-architectural-gaps]]
+- [[00-intro-part2|366-технический-stack-[svyazi]]-2-0-foundation](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)
+- [[00-intro-part2|09-architectural-gaps]]/09-architectural-gaps.md)
 - [[09-архитектурные-зазоры-которые-важнее-новых-инструме]]
 
 
@@ -88,20 +87,3 @@ date: 2026-04-29
 [^sentinel]: OSS-проект: безопасность и allowlist для MCP
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[11-интеграционный-контракт-который-стоит-зафиксироват|Интеграционный контракт, который стоит зафиксировать сразу]] _81%_
-- [[09-architectural-gaps|09 Architectural Gaps]] _48%_
-- [[09-архитектурные-зазоры-которые-важнее-новых-инструме|Архитектурные зазоры, которые важнее новых инструментов]] _48%_
-- [[07-mvp-planning|07 Mvp Planning]] _33%_
-- [[10-second-order-ensembles|10 Second Order Ensembles]] _33%_
-- [[05-план-прототипа-и-возможные-контакты|План прототипа и возможные контакты]] _33%_
-- [[10-новые-ансамбли-следующего-шага|Новые ансамбли следующего шага]] _33%_
-- [[13-contacts|13 Contacts]] _29%_

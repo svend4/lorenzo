@@ -18,6 +18,12 @@ PROJECTS = [
     "Wikontic", "Firecrawl", "Yjs", "Automerge", "Whisper", "Yttri",
 ]
 
+# Маркеры которые означают «уже обработан более богатым скриптом»
+SKIP_MARKERS = (
+    "<!-- summary -->",
+    "<!-- abstract-auto -->",
+    "<!-- textrank-summary -->",
+)
 ALREADY_HAS_SUMMARY = "<!-- summary -->"
 
 
@@ -39,8 +45,8 @@ def extract_annotation(text: str) -> tuple[str, list[str]]:
 def add_summary(path: Path) -> bool:
     text = path.read_text(encoding="utf-8")
 
-    if ALREADY_HAS_SUMMARY in text:
-        return False  # уже обработан
+    if any(marker in text for marker in SKIP_MARKERS):
+        return False  # уже обработан более богатым скриптом
     if len(text) < 150:
         return False  # слишком короткий
 
@@ -72,10 +78,20 @@ def add_summary(path: Path) -> bool:
 
 
 def main():
+    import sys
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from utils_docignore import is_ignored
+    except ImportError:
+        is_ignored = lambda p: False
+
     updated = 0
     skipped = 0
     for f in sorted(DOCS.rglob("*.md")):
         if f.name == "README.md":
+            continue
+        if is_ignored(f):
+            skipped += 1
             continue
         if add_summary(f):
             updated += 1

@@ -18,17 +18,25 @@ date: 2026-04-29
   - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
   - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
   - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Each can be added to practitioner's Cowork Project as needed.
+> 🔧 **Подход:** OKWF Pilot Implications Document 4 (OKWF Concept) and Document 6 (Professional Colleague Agents) proposed SGB Advocate Colleague pilot.
+> ✅ **Результат:** Multiple InGit projects can be Nautilus nodes; Nautilus Portal Protocol enables querying across them.
+> 🏷️ **Ключевые слова:** `nautilus`, `cowork`, `ingit`, `document`, `implications`, `architecture`, `project`, `substrate`
+>
 
 
 <!-- toc-auto -->
 ## Contents
 
-- [8. Implications for Nautilus and OKWF](#8-implications-for-nautilus-and-okwf)
-  - [8.1. Nautilus as Federated Knowledge Substrate](#81-nautilus-as-federated-knowledge-substrate)
+- [8. Implications for Nautilus and OKWF](#8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf)
+  - [8.1. Nautilus as Federated Knowledge Substrate](#81-[nautilus](../docs/05-habr-projects/memory/memnet.md)-as-federated-knowledge-substrate)
   - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
   - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
   - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
@@ -169,7 +177,7 @@ implementable starting next week.
 **Похожие документы:**
 - [[318-10-strategic-positioning]] (сходство 0.16)
 - [[262-9-integration-with-okwf-infrastructure]] (сходство 0.16)
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-]] (сходство 0.14)
+- [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -179,22 +187,6 @@ implementable starting next week.
 **Смотрите также:**
 - [[262-9-integration-with-okwf-infrastructure]]
 - [[318-10-strategic-positioning]]
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-]]
+- [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [[317-9-risks-and-open-questions]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[318-10-strategic-positioning|10. Strategic Positioning]] _33%_
-- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]] _29%_
-- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _29%_
-- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _29%_
-- [[307-abstract|Abstract]] _29%_
-- [[315-7-practical-first-steps-this-month|7. Practical First Steps This Month]] _29%_
-- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]] _29%_
-- [[SOURCE_MAP|Карта происхождения текстов]] _29%_

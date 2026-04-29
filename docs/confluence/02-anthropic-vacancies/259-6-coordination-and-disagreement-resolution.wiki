@@ -6,6 +6,16 @@
 h1. 6. Coordination and Disagreement Resolution
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ They differ on specific issue: A says X; B says Y." Helps principal see what is settled and what is contested.{quote}
+{quote}🔧 _Подход:_ Coordination and Disagreement Resolution The composite agent's most subtle function is coordinating --- Содержание - 6.{quote}
+{quote}✅ _Результат:_ "A's recommendation may produce result X.{quote}
+{quote}🏷️ _Ключевые слова:_ {{agent}}, {{principal}}, {{composite}}, {{disagreement}}, {{resolution}}, {{agents}}, {{recommendation}}, {{their}}{quote}
+>
+
+
+
 {quote}The composite agent's most subtle function is coordinating{quote}
 
 ----
@@ -173,9 +183,29 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [1. Why the Binary View Is Incomplete|254-1-why-the-binary-view-is-incomplete.md]
+* [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md]
+* [2. The Twenty-One Teachers Pattern|255-2-the-twenty-one-teachers-pattern.md]
+* [3. What Makes a Composite Skills Agent|256-3-what-makes-a-composite-skills-agent.md]
+* [3. What Makes a Representative Agent|172-3-what-makes-a-representative-agent.md]
+* [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md]
+* [8. Seven Domains of Application|261-8-seven-domains-of-application.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [3. What Makes a Composite Skills Agent|256-3-what-makes-a-composite-skills-agent.md] _37%_
+* [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md] _37%_
+* [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md] _33%_
+* [Table of Contents|253-table-of-contents.md] _21%_
+* [1. Why the Binary View Is Incomplete|254-1-why-the-binary-view-is-incomplete.md] _21%_
+* [2. The Twenty-One Teachers Pattern|255-2-the-twenty-one-teachers-pattern.md] _21%_
+* [11. Open Questions|264-11-open-questions.md] _21%_
+* [10. Open Questions|179-10-open-questions.md] _17%_
 h2. Связанные документы
 
 * [2. The Twenty-One Teachers Pattern|255-2-the-twenty-one-teachers-pattern.md] _33%_

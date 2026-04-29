@@ -5,6 +5,16 @@
 
 h1. 6. Risks Specific to this Category
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Teacher's agent generates problems requiring active human reasoning, not pattern-matching.{quote}
+{quote}🔧 _Подход:_ Agents support practitioner customization that goes beyond preferences into methodology choices.{quote}
+{quote}✅ _Результат:_ Risk: Profession Capture by Service Providers Scenario: One Professional Colleague Agent dominates profession.{quote}
+{quote}🏷️ _Ключевые слова:_ {{agent}}, {{mitigation}}, {{professional}}, {{practitioner}}, {{risks}}, {{agents}}, {{profession}}, {{colleague}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -265,9 +275,26 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [3. Empirical Case Study: «Обучай»|214-3-empirical-case-study-обучай.md]
+* [4. Architecture of Professional Colleague Agents|215-4-architecture-of-professional-colleague-agents.md]
+* [5. The Economics of Profession-Wide Replication|216-5-the-economics-of-profession-wide-replication.md]
+* [8. Risks and Mitigations|177-8-risks-and-mitigations.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [4. Architecture of Professional Colleague Agents|215-4-architecture-of-professional-colleague-agents.md] _42%_
+* [5. The Economics of Profession-Wide Replication|216-5-the-economics-of-profession-wide-replication.md] _29%_
+* [Appendix C: Quick-Start Architecture for SGB Advocate Colleague|228-appendix-c-quick-start-architecture-for-sgb-advoca.md] _25%_
+* [8. Pilot Proposal: SGB Advocate Colleague|219-8-pilot-proposal-sgb-advocate-colleague.md] _21%_
+* [10. Open Questions|221-10-open-questions.md] _21%_
+* [1. Why the Binary View Is Incomplete|254-1-why-the-binary-view-is-incomplete.md] _21%_
+* [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md] _21%_
+* [8. Risks and Mitigations|177-8-risks-and-mitigations.md] _17%_
 h2. Связанные документы
 
 * [4. Architecture of Professional Colleague Agents|215-4-architecture-of-professional-colleague-agents.md] _33%_

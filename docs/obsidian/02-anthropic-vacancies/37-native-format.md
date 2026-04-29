@@ -2,6 +2,7 @@
 title: "Native Format"
 tags:
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -9,17 +10,17 @@ date: 2026-04-29
 # Native Format
 
 <!-- summary -->
-> **Структура файла:** [? уточнить — Markdown с YAML frontmatter, чистый JSON,
+> **Структура файла:** [[01-интегральный-анализ-профиля-svend4|? уточнить — Markdown с YAML frontmatter, чистый JSON,
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
 
 ## Native Format
 
-**Расширение:** `.info1`
+**Расширение:** `.[info1]]`
 
 **Структура файла:** [? уточнить — Markdown с YAML frontmatter, чистый JSON, 
 or something custom?]
@@ -65,9 +66,26 @@ or something custom?]
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+- [[54-for-the-curious-philosophy|For the Curious: Philosophy]]
+- [[47-native-format|Native Format]]
+- [[57-native-format|Native Format]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[41-compatibility-level|Compatibility Level]] _29%_
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _25%_
+- [[57-native-format|Native Format]] _25%_
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _25%_
+- [[132-planned-v0-2-0|Planned (v0.2.0)]] _21%_
+- [[22-10-queryresult-structure|10. QueryResult Structure]] _21%_
+- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _17%_
+- [[326-содержание|Содержание]] _17%_
 ## Связанные документы
 
 - [[57-native-format|Native Format]] _33%_

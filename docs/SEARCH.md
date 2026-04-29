@@ -12,7 +12,7 @@
 
 | Файл | Теги | Проекты | Слов |
 |------|------|---------|------|
-| `docs/01-svyazi/01-executive-summary.md` |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 710 |
+| `docs/01-svyazi/01-executive-summary.md` |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 737 |
 | `docs/01-svyazi/02-methodology.md` | rag, security, ingestion | Svyazi[^svyazi], [LiteParse](../docs/01-svyazi/01-executive-summary.md), Legal RAG[^rag] | 451 |
 | `docs/01-svyazi/03-component-catalog.md` |  | Svyazi, CardIndex, AgentFS | 1239 |
 | `docs/01-svyazi/04-ensembles-overview.md` |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 1361 |
@@ -23,180 +23,180 @@
 | `docs/01-svyazi/10-second-order-ensembles.md` |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 950 |
 | `docs/01-svyazi/11-integration-contracts.md` |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 755 |
 | `docs/01-svyazi/12-roadmap.md` |  | Svyazi[^svyazi], mclaude, AI Factory | 693 |
-| `docs/01-svyazi/13-contacts.md` |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 796 |
+| `docs/01-svyazi/13-contacts.md` |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 1023 |
 | `docs/01-svyazi/14-limitations.md` |  | Svyazi, mclaude, AI Factory | 634 |
-| `docs/01-svyazi/QA.md` |  | Svyazi, LiteParse, Legal RAG | 508 |
+| `docs/01-svyazi/QA.md` |  |  | 206 |
 | `docs/01-svyazi/README.md` |  |  | 69 |
-| `docs/02-anthropic-vacancies/00-intro.md` |  | Graph RAG, SENTINEL | 8934 |
-| `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |  |  | 19159 |
-| `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` | rag, orchestration, security |  | 3183 |
-| `docs/02-anthropic-vacancies/03-portal-protocol-md.md` | collaboration |  | 65 |
-| `docs/02-anthropic-vacancies/04-abstract.md` | anthropic |  | 116 |
-| `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` | collaboration |  | 92 |
+| `docs/02-anthropic-vacancies/00-intro.md` |  | Graph RAG, SENTINEL | 8979 |
+| `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |  |  | 19235 |
+| `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` | rag, orchestration, security |  | 3280 |
+| `docs/02-anthropic-vacancies/03-portal-protocol-md.md` | collaboration |  | 338 |
+| `docs/02-anthropic-vacancies/04-abstract.md` | anthropic |  | 328 |
+| `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` | collaboration |  | 317 |
 | `docs/02-anthropic-vacancies/06-1-introduction.md` | collaboration |  | 387 |
 | `docs/02-anthropic-vacancies/07-2-terminology.md` | architecture, collaboration |  | 309 |
 | `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | architecture |  | 392 |
-| `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` | anthropic |  | 127 |
-| `docs/02-anthropic-vacancies/102-доступ-к-данным.md` |  |  | 20 |
-| `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` | rag, architecture |  | 172 |
-| `docs/02-anthropic-vacancies/104-appendix-c-references.md` | memory, rag, ingestion |  | 933 |
-| `docs/02-anthropic-vacancies/105-review-methodology-md.md` | collaboration |  | 64 |
-| `docs/02-anthropic-vacancies/106-tl-dr.md` | memory |  | 122 |
+| `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` | anthropic |  | 304 |
+| `docs/02-anthropic-vacancies/102-доступ-к-данным.md` | anthropic |  | 220 |
+| `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` | rag, architecture |  | 325 |
+| `docs/02-anthropic-vacancies/104-appendix-c-references.md` | memory, rag, ingestion |  | 1170 |
+| `docs/02-anthropic-vacancies/105-review-methodology-md.md` | collaboration |  | 292 |
+| `docs/02-anthropic-vacancies/106-tl-dr.md` | memory |  | 213 |
 | `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md` | memory, roadmap, collaboration |  | 438 |
 | `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | memory, architecture, roadmap |  | 425 |
-| `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` | memory, rag, roadmap |  | 530 |
-| `docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` | memory, rag, collaboration |  | 300 |
+| `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` | memory, rag, roadmap |  | 658 |
+| `docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` | memory, rag, collaboration |  | 318 |
 | `docs/02-anthropic-vacancies/111-4-условия-применимости.md` | memory, architecture, roadmap |  | 262 |
-| `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` | memory, rag |  | 345 |
-| `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` |  |  | 142 |
+| `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` | memory, rag |  | 376 |
+| `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` |  |  | 148 |
 | `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` | orchestration, architecture, roadmap |  | 310 |
 | `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` | memory, roadmap |  | 424 |
-| `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` | roadmap |  | 328 |
-| `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` | architecture, roadmap |  | 294 |
-| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` |  |  | 129 |
-| `docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md` | architecture, anthropic |  | 332 |
-| `docs/02-anthropic-vacancies/12-content-overview.md` | anthropic |  | 29 |
-| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | collaboration |  | 62 |
-| `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` |  |  | 41 |
-| `docs/02-anthropic-vacancies/122-глоссарий.md` | memory, architecture, roadmap |  | 1317 |
-| `docs/02-anthropic-vacancies/123-portal-mcp-py.md` | rag, ingestion, architecture |  | 2232 |
-| `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` | anthropic |  | 165 |
-| `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` | collaboration |  | 88 |
-| `docs/02-anthropic-vacancies/126-установка.md` | architecture |  | 113 |
-| `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` | anthropic |  | 107 |
-| `docs/02-anthropic-vacancies/128-доступные-инструменты.md` | architecture |  | 100 |
-| `docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md` | collaboration |  | 101 |
-| `docs/02-anthropic-vacancies/13-angle-perspective.md` | anthropic |  | 43 |
-| `docs/02-anthropic-vacancies/130-отладка.md` | ingestion |  | 166 |
-| `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` | memory, anthropic, collaboration |  | 88 |
-| `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` | architecture |  | 62 |
-| `docs/02-anthropic-vacancies/133-обратная-связь.md` |  |  | 16960 |
-| `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | architecture, anthropic |  | 35 |
-| `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | collaboration |  | 82 |
-| `docs/02-anthropic-vacancies/136-abstract.md` | rag, architecture |  | 371 |
-| `docs/02-anthropic-vacancies/137-table-of-contents.md` | architecture |  | 85 |
+| `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` | roadmap |  | 346 |
+| `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` | architecture, roadmap |  | 307 |
+| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | architecture |  | 148 |
+| `docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md` | architecture, anthropic |  | 350 |
+| `docs/02-anthropic-vacancies/12-content-overview.md` | anthropic |  | 183 |
+| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | collaboration |  | 68 |
+| `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | anthropic |  | 214 |
+| `docs/02-anthropic-vacancies/122-глоссарий.md` | memory, architecture, roadmap |  | 1515 |
+| `docs/02-anthropic-vacancies/123-portal-mcp-py.md` | rag, ingestion, architecture |  | 2477 |
+| `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` | anthropic |  | 229 |
+| `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` | collaboration |  | 277 |
+| `docs/02-anthropic-vacancies/126-установка.md` | architecture |  | 131 |
+| `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` | anthropic |  | 246 |
+| `docs/02-anthropic-vacancies/128-доступные-инструменты.md` | architecture |  | 252 |
+| `docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md` | collaboration |  | 281 |
+| `docs/02-anthropic-vacancies/13-angle-perspective.md` | anthropic |  | 214 |
+| `docs/02-anthropic-vacancies/130-отладка.md` | ingestion |  | 234 |
+| `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` | memory, anthropic, collaboration |  | 166 |
+| `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` | architecture |  | 214 |
+| `docs/02-anthropic-vacancies/133-обратная-связь.md` |  |  | 17013 |
+| `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | architecture, anthropic |  | 299 |
+| `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | collaboration |  | 269 |
+| `docs/02-anthropic-vacancies/136-abstract.md` | rag, architecture |  | 590 |
+| `docs/02-anthropic-vacancies/137-table-of-contents.md` | architecture |  | 298 |
 | `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` | architecture, anthropic |  | 582 |
 | `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` | architecture |  | 731 |
-| `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` |  |  | 857 |
-| `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | rag, knowledge, architecture |  | 692 |
-| `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` | security, roadmap |  | 688 |
-| `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` | rag, roadmap, collaboration |  | 676 |
-| `docs/02-anthropic-vacancies/144-7-open-questions.md` | rag, roadmap |  | 748 |
-| `docs/02-anthropic-vacancies/145-8-call-to-action.md` | architecture, roadmap, collaboration |  | 722 |
-| `docs/02-anthropic-vacancies/146-acknowledgments.md` | rag, roadmap, anthropic |  | 174 |
+| `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` |  |  | 1024 |
+| `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | rag, knowledge, architecture |  | 902 |
+| `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` | security, roadmap |  | 850 |
+| `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` | rag, roadmap, collaboration |  | 855 |
+| `docs/02-anthropic-vacancies/144-7-open-questions.md` | rag, roadmap |  | 941 |
+| `docs/02-anthropic-vacancies/145-8-call-to-action.md` | architecture, roadmap, collaboration |  | 908 |
+| `docs/02-anthropic-vacancies/146-acknowledgments.md` | rag, roadmap, anthropic |  | 441 |
 | `docs/02-anthropic-vacancies/147-references.md` | roadmap, anthropic, collaboration |  | 352 |
-| `docs/02-anthropic-vacancies/148-appendix-a-glossary.md` | roadmap |  | 310 |
-| `docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` | architecture |  | 174 |
-| `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` |  |  | 8355 |
-| `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | anthropic |  | 38 |
-| `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` | collaboration |  | 77 |
-| `docs/02-anthropic-vacancies/153-executive-summary.md` | anthropic |  | 357 |
-| `docs/02-anthropic-vacancies/154-table-of-contents.md` | roadmap |  | 70 |
-| `docs/02-anthropic-vacancies/155-1-problem-statement.md` | anthropic |  | 639 |
-| `docs/02-anthropic-vacancies/156-2-target-populations.md` | anthropic |  | 698 |
-| `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` | rag, anthropic |  | 723 |
+| `docs/02-anthropic-vacancies/148-appendix-a-glossary.md` | roadmap |  | 518 |
+| `docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` | architecture |  | 322 |
+| `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` |  |  | 8540 |
+| `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | anthropic |  | 373 |
+| `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` | collaboration |  | 244 |
+| `docs/02-anthropic-vacancies/153-executive-summary.md` | anthropic |  | 573 |
+| `docs/02-anthropic-vacancies/154-table-of-contents.md` | roadmap |  | 257 |
+| `docs/02-anthropic-vacancies/155-1-problem-statement.md` | anthropic |  | 771 |
+| `docs/02-anthropic-vacancies/156-2-target-populations.md` | anthropic |  | 809 |
+| `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` | rag, anthropic |  | 812 |
 | `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` | rag, architecture, roadmap |  | 1044 |
-| `docs/02-anthropic-vacancies/159-5-economic-model.md` | roadmap, anthropic |  | 587 |
-| `docs/02-anthropic-vacancies/16-history.md` | collaboration |  | 65 |
+| `docs/02-anthropic-vacancies/159-5-economic-model.md` | roadmap, anthropic |  | 621 |
+| `docs/02-anthropic-vacancies/16-history.md` | collaboration |  | 148 |
 | `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md` | roadmap, anthropic |  | 611 |
-| `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` | roadmap |  | 658 |
-| `docs/02-anthropic-vacancies/162-8-risk-analysis.md` | rag, roadmap, anthropic |  | 698 |
+| `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` | roadmap |  | 791 |
+| `docs/02-anthropic-vacancies/162-8-risk-analysis.md` | rag, roadmap, anthropic |  | 750 |
 | `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` | rag, anthropic |  | 645 |
-| `docs/02-anthropic-vacancies/164-10-appendices.md` | rag, roadmap, anthropic |  | 866 |
-| `docs/02-anthropic-vacancies/165-closing.md` |  | Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md) | 9271 |
-| `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | architecture |  | 36 |
-| `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | collaboration |  | 99 |
-| `docs/02-anthropic-vacancies/168-abstract.md` | architecture |  | 328 |
-| `docs/02-anthropic-vacancies/169-table-of-contents.md` | roadmap |  | 100 |
+| `docs/02-anthropic-vacancies/164-10-appendices.md` | rag, roadmap, anthropic |  | 1051 |
+| `docs/02-anthropic-vacancies/165-closing.md` |  | Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md) | 9376 |
+| `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | architecture |  | 246 |
+| `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | collaboration |  | 374 |
+| `docs/02-anthropic-vacancies/168-abstract.md` | architecture |  | 543 |
+| `docs/02-anthropic-vacancies/169-table-of-contents.md` | roadmap |  | 263 |
 | `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` | memory, anthropic, collaboration |  | 308 |
-| `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` | architecture |  | 845 |
-| `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` | rag, architecture |  | 982 |
-| `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` | architecture |  | 674 |
-| `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` | rag, ingestion, roadmap |  | 1663 |
-| `docs/02-anthropic-vacancies/174-5-architectural-specification.md` |  |  | 660 |
+| `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` | architecture |  | 936 |
+| `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` | rag, architecture |  | 1104 |
+| `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` | architecture |  | 901 |
+| `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` | rag, ingestion, roadmap |  | 1716 |
+| `docs/02-anthropic-vacancies/174-5-architectural-specification.md` |  |  | 865 |
 | `docs/02-anthropic-vacancies/175-6-ethical-framework.md` |  |  | 614 |
 | `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | roadmap |  | 473 |
 | `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` |  |  | 644 |
 | `docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md` | roadmap |  | 648 |
 | `docs/02-anthropic-vacancies/179-10-open-questions.md` | orchestration |  | 412 |
-| `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | ingestion, architecture, anthropic |  | 424 |
+| `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | ingestion, architecture, anthropic |  | 659 |
 | `docs/02-anthropic-vacancies/180-11-call-for-collaboration.md` | ingestion |  | 446 |
-| `docs/02-anthropic-vacancies/181-12-closing.md` | anthropic |  | 254 |
-| `docs/02-anthropic-vacancies/182-acknowledgments.md` | anthropic |  | 155 |
+| `docs/02-anthropic-vacancies/181-12-closing.md` | anthropic |  | 382 |
+| `docs/02-anthropic-vacancies/182-acknowledgments.md` | anthropic |  | 346 |
 | `docs/02-anthropic-vacancies/183-references.md` | collaboration |  | 315 |
-| `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` | architecture, anthropic |  | 147 |
-| `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` |  |  | 91 |
-| `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` | rag, ingestion, architecture |  | 2022 |
-| `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` | architecture |  | 35 |
+| `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` | architecture, anthropic |  | 395 |
+| `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` | anthropic |  | 226 |
+| `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` | rag, ingestion, architecture |  | 2215 |
+| `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` | architecture |  | 224 |
 | `docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md` | architecture, collaboration |  | 100 |
-| `docs/02-anthropic-vacancies/189-аннотация.md` | architecture |  | 305 |
+| `docs/02-anthropic-vacancies/189-аннотация.md` | architecture |  | 341 |
 | `docs/02-anthropic-vacancies/19-7-portalentry-structure.md` | memory, ingestion, architecture |  | 220 |
-| `docs/02-anthropic-vacancies/190-содержание.md` | architecture |  | 88 |
-| `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` | architecture |  | 798 |
-| `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` | architecture, collaboration |  | 959 |
-| `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md` | architecture, roadmap, anthropic |  | 647 |
-| `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` | architecture, collaboration |  | 1672 |
-| `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md` |  |  | 655 |
-| `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` |  |  | 580 |
-| `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` | architecture |  | 437 |
-| `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` | security, collaboration |  | 661 |
-| `docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md` | security, roadmap |  | 654 |
+| `docs/02-anthropic-vacancies/190-содержание.md` | architecture |  | 259 |
+| `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` | architecture |  | 817 |
+| `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` | architecture, collaboration |  | 994 |
+| `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md` | architecture, roadmap, anthropic |  | 781 |
+| `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` | architecture, collaboration |  | 1690 |
+| `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md` |  |  | 668 |
+| `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` |  |  | 611 |
+| `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` | architecture |  | 459 |
+| `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` | security, collaboration |  | 679 |
+| `docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md` | security, roadmap |  | 672 |
 | `docs/02-anthropic-vacancies/20-8-consensus-algorithm.md` | rag |  | 307 |
-| `docs/02-anthropic-vacancies/200-10-открытые-вопросы.md` | anthropic |  | 373 |
-| `docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md` | architecture, anthropic |  | 441 |
-| `docs/02-anthropic-vacancies/202-12-заключение.md` |  |  | 179 |
-| `docs/02-anthropic-vacancies/203-благодарности.md` | anthropic, collaboration |  | 157 |
+| `docs/02-anthropic-vacancies/200-10-открытые-вопросы.md` | anthropic |  | 391 |
+| `docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md` | architecture, anthropic |  | 459 |
+| `docs/02-anthropic-vacancies/202-12-заключение.md` | anthropic |  | 214 |
+| `docs/02-anthropic-vacancies/203-благодарности.md` | anthropic, collaboration |  | 186 |
 | `docs/02-anthropic-vacancies/204-ссылки.md` | architecture, collaboration |  | 307 |
 | `docs/02-anthropic-vacancies/205-приложение-a-связь-с-сопроводительными-статьями.md` | architecture |  | 143 |
-| `docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md` |  |  | 93 |
-| `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` | architecture, roadmap, collaboration |  | 4113 |
-| `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` | anthropic |  | 35 |
-| `docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` | architecture, collaboration |  | 113 |
-| `docs/02-anthropic-vacancies/21-9-query-flow.md` | anthropic |  | 172 |
-| `docs/02-anthropic-vacancies/210-abstract.md` | rag, architecture, roadmap |  | 348 |
-| `docs/02-anthropic-vacancies/211-table-of-contents.md` | anthropic |  | 107 |
-| `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` | ingestion, architecture, anthropic |  | 898 |
-| `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` | ingestion |  | 824 |
-| `docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md` | rag, roadmap |  | 843 |
-| `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` | rag, architecture |  | 878 |
-| `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` | rag, architecture |  | 754 |
-| `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` |  |  | 1194 |
-| `docs/02-anthropic-vacancies/218-7-application-domains.md` | ingestion, architecture |  | 767 |
-| `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md` | rag, architecture, roadmap |  | 982 |
-| `docs/02-anthropic-vacancies/22-10-queryresult-structure.md` | anthropic |  | 125 |
-| `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` |  |  | 657 |
+| `docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md` | anthropic |  | 170 |
+| `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` | architecture, roadmap, collaboration |  | 4197 |
+| `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` | architecture, anthropic |  | 323 |
+| `docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` | architecture, collaboration |  | 362 |
+| `docs/02-anthropic-vacancies/21-9-query-flow.md` | anthropic |  | 323 |
+| `docs/02-anthropic-vacancies/210-abstract.md` | rag, architecture, roadmap |  | 579 |
+| `docs/02-anthropic-vacancies/211-table-of-contents.md` | anthropic |  | 433 |
+| `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` | ingestion, architecture, anthropic |  | 1167 |
+| `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` | ingestion |  | 1086 |
+| `docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md` | rag, roadmap |  | 1039 |
+| `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` | rag, architecture |  | 1103 |
+| `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` | rag, architecture |  | 967 |
+| `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` |  |  | 1386 |
+| `docs/02-anthropic-vacancies/218-7-application-domains.md` | ingestion, architecture |  | 854 |
+| `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md` | rag, architecture, roadmap |  | 1213 |
+| `docs/02-anthropic-vacancies/22-10-queryresult-structure.md` | anthropic |  | 353 |
+| `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` |  |  | 909 |
 | `docs/02-anthropic-vacancies/221-10-open-questions.md` | architecture, anthropic |  | 426 |
 | `docs/02-anthropic-vacancies/222-11-call-for-collaboration.md` | rag, architecture |  | 374 |
-| `docs/02-anthropic-vacancies/223-12-closing.md` | architecture, roadmap |  | 411 |
-| `docs/02-anthropic-vacancies/224-acknowledgments.md` | anthropic |  | 141 |
+| `docs/02-anthropic-vacancies/223-12-closing.md` | architecture, roadmap |  | 693 |
+| `docs/02-anthropic-vacancies/224-acknowledgments.md` | anthropic |  | 289 |
 | `docs/02-anthropic-vacancies/225-references.md` | architecture, collaboration |  | 342 |
 | `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | anthropic |  | 328 |
-| `docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` | anthropic |  | 293 |
-| `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` |  |  | 1680 |
-| `docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md` | architecture, collaboration |  | 98 |
-| `docs/02-anthropic-vacancies/23-11-security-considerations.md` | memory, ingestion, architecture |  | 243 |
-| `docs/02-anthropic-vacancies/230-аннотация.md` | architecture, collaboration |  | 306 |
-| `docs/02-anthropic-vacancies/231-содержание.md` | architecture |  | 100 |
-| `docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md` | architecture |  | 844 |
-| `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` | collaboration |  | 725 |
-| `docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` | architecture, collaboration |  | 774 |
-| `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md` | architecture, collaboration |  | 809 |
-| `docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md` | architecture |  | 722 |
-| `docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md` | security, architecture |  | 1167 |
-| `docs/02-anthropic-vacancies/238-7-области-применения.md` | security, architecture, collaboration |  | 745 |
-| `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md` | rag, architecture, roadmap |  | 1036 |
-| `docs/02-anthropic-vacancies/24-12-versioning-policy.md` | architecture |  | 169 |
-| `docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md` | architecture, collaboration |  | 700 |
-| `docs/02-anthropic-vacancies/241-10-открытые-вопросы.md` | collaboration |  | 400 |
-| `docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md` | architecture |  | 375 |
-| `docs/02-anthropic-vacancies/243-12-заключение.md` | architecture, roadmap |  | 347 |
-| `docs/02-anthropic-vacancies/244-благодарности.md` | anthropic, collaboration |  | 124 |
+| `docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` | anthropic |  | 497 |
+| `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` |  |  | 1968 |
+| `docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md` | architecture, collaboration |  | 334 |
+| `docs/02-anthropic-vacancies/23-11-security-considerations.md` | memory, ingestion, architecture |  | 360 |
+| `docs/02-anthropic-vacancies/230-аннотация.md` | architecture, collaboration |  | 457 |
+| `docs/02-anthropic-vacancies/231-содержание.md` | architecture |  | 318 |
+| `docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md` | architecture |  | 1040 |
+| `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` | collaboration |  | 922 |
+| `docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` | architecture, collaboration |  | 846 |
+| `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md` | architecture, collaboration |  | 840 |
+| `docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md` | architecture |  | 832 |
+| `docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md` | security, architecture |  | 1185 |
+| `docs/02-anthropic-vacancies/238-7-области-применения.md` | security, architecture, collaboration |  | 763 |
+| `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md` | rag, architecture, roadmap |  | 1114 |
+| `docs/02-anthropic-vacancies/24-12-versioning-policy.md` | architecture |  | 339 |
+| `docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md` | architecture, collaboration |  | 752 |
+| `docs/02-anthropic-vacancies/241-10-открытые-вопросы.md` | collaboration |  | 418 |
+| `docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md` | architecture |  | 393 |
+| `docs/02-anthropic-vacancies/243-12-заключение.md` | architecture, roadmap |  | 549 |
+| `docs/02-anthropic-vacancies/244-благодарности.md` | anthropic, collaboration |  | 284 |
 | `docs/02-anthropic-vacancies/245-ссылки.md` | architecture, collaboration |  | 320 |
 | `docs/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md` | anthropic |  | 284 |
-| `docs/02-anthropic-vacancies/247-приложение-b-рамка-принятия-решений-когда-строить-.md` | architecture |  | 294 |
-| `docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` | orchestration, architecture, anthropic |  | 3471 |
-| `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md` | architecture, anthropic |  | 36 |
-| `docs/02-anthropic-vacancies/25-13-reference-implementation.md` | collaboration |  | 88 |
+| `docs/02-anthropic-vacancies/247-приложение-b-рамка-принятия-решений-когда-строить-.md` | architecture |  | 312 |
+| `docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` | orchestration, architecture, anthropic |  | 3536 |
+| `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md` | architecture, anthropic |  | 277 |
+| `docs/02-anthropic-vacancies/25-13-reference-implementation.md` | collaboration |  | 316 |
 | `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` |  |  | 14 |
 | `docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` | architecture, collaboration |  | 366 |
 | `docs/02-anthropic-vacancies/252-abstract.md` | anthropic |  | 472 |

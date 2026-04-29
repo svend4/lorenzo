@@ -9,9 +9,14 @@ date: 2026-04-29
 
 # Контакт: spbmolot / NGT Memory
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, Graph RAG, Yodoca, NGT Memory, SENTINEL, Auto AI Router
+**Проекты:** Svyazi, NGT Memory
 
 ---
 
@@ -70,30 +75,23 @@ NGT Memory закрывает слой «memory» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- backlinks-auto -->
-## Упоминается в
+<!-- similar-docs -->
 
-- [[CONTACT_PRIORITY|Приоритет контактов]]
+---
 
-<!-- related-auto -->
-## Связанные документы
+**Похожие документы:**
+- [[vladspace]] (сходство 0.73)
+- [[antipozitive]] (сходство 0.72)
+- [[zodigancode]] (сходство 0.71)
 
-- [[kksudo|Контакт: kksudo / AgentFS]] _81%_
-- [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _81%_
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _73%_
-- [[dmitriila|Контакт: Dmitriila / SENTINEL]] _73%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _73%_
-- [[vladspace|Контакт: VladSpace / Graph RAG]] _73%_
-- [[zodigancode|Контакт: zodigancode / Rufler]] _73%_
-- [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] _66%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[kksudo]]
-- [[vladspace]]
-- [[cutcode]]
-- [[dmitriila]]
+- [[antipozitive]]
+- [[nlaik]]
+- [[sonia-black]]
+- [[vitalyoborin]]
 

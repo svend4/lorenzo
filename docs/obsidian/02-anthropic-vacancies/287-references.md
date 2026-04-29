@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** AI Collaboration Infrastructure - Anthropic Projects documentation (current) - Microsoft Copilot Studio (different approach to similar problem) - Various multi-agent frameworks (La
+> 🔧 **Подход:** (Zettelkasten method, foundational for modern personal knowledge management.) - Andy Matuschak (ongoing).
+> 🏷️ **Ключевые слова:** `anthropic`, `references`, `vacancies`, `annotation`, `knowledge`, `management`, `documents`, `series`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -54,7 +63,7 @@ than specifying. Key relevant work includes:
 - Anthropic Projects documentation (current)
 - Microsoft Copilot Studio (different approach to similar 
   problem)
-- Various multi-agent frameworks (LangChain, CrewAI, AutoGen)
+- Various multi-agent frameworks (LangChain, CrewAI, [[01-интегральный-анализ-профиля-svend4|AutoGen]])
 
 ### Earlier Companion Documents in This Series
 
@@ -83,19 +92,3 @@ header of this document.
 - [[306-with-anthropic-s-cowork-platform]]
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[286-acknowledgments|Acknowledgments]] _42%_
-- [[319-acknowledgments|Acknowledgments]] _37%_
-- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _33%_
-- [[267-acknowledgments|Acknowledgments]] _33%_
-- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _33%_
-- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] _33%_
-- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _29%_
-- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _29%_

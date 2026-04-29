@@ -8,11 +8,21 @@ date: 2026-04-29
 
 # 6. Adapter Interface
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Type Safety Reference implementation требует mypy-clean код.
+> 🔧 **Подход:** Type Safety(64-type-safety) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Implementation MUST: - Возвращать пустой список или fallback-entries, если ничего не найдено (NOT None, NOT raise exception) - Ограничить результат разумным числом (SHOULD ≤ 100) -
+> 🏷️ **Ключевые слова:** `adapter`, `interface`, `structure`, `portalentry`, `anthropic`, `vacancies`, `query`, `required`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [[01-интегральный-анализ-профиля-svend4|6.1. [BaseAdapter]] Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
@@ -37,7 +47,7 @@ date: 2026-04-29
 ### 6.1. BaseAdapter Contract
 
 Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс) 
-от `BaseAdapter`:
+от `[[01-интегральный-анализ-профиля-svend4|BaseAdapter]]`:
 
 ```python
 from abc import ABC, abstractmethod
@@ -59,7 +69,7 @@ class BaseAdapter(ABC):
 
 ### 6.2. `fetch(query)` — Required
 
-Accepts string query, returns list of `PortalEntry`.
+Accepts string query, returns list of `[[01-интегральный-анализ-профиля-svend4|PortalEntry]]`.
 
 Implementation MUST:
 
@@ -121,19 +131,3 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 - [[19-7-portalentry-structure]]
 - [[22-10-queryresult-structure]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[18-6-adapter-interface|6. Adapter Interface]] _53%_
-- [[22-10-queryresult-structure|10. QueryResult Structure]] _29%_
-- [[82-7-portalentry-structure|7. PortalEntry Structure]] _29%_
-- [[08-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _25%_
-- [[21-9-query-flow|9. Query Flow]] _25%_
-- [[103-appendix-b-change-log|Appendix B: Change Log]] _21%_
-- [[86-11-relevance-ranking|11. Relevance Ranking]] _21%_
-- [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]] _21%_

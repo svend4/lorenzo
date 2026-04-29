@@ -1,0 +1,44 @@
+{
+  "id": "daily-routine",
+  "version": 1.0,
+  "description": "Ежедневная процедура аудита и проверки изменений",
+  "trigger_phrases": [
+    "ежедневный обход",
+    "что важного за день",
+    "daily routine"
+  ],
+  "inputs": {},
+  "mcp_server": "lorenzo-runner",
+  "mcp_tool": "daily_routine",
+  "pipeline": [
+    {
+      "run_script": "improve_digest_auto.py --days 1"
+    },
+    {
+      "read": "docs/HEALTH.md"
+    },
+    {
+      "run_script": "improve_contradiction_check.py"
+    },
+    {
+      "run_script": "improve_content_gaps.py"
+    },
+    {
+      "read": "docs/CONTACT_PRIORITY.md"
+    },
+    {
+      "generate": "Дневной отчёт: балл, изменения, новые противоречия, контакты"
+    }
+  ],
+  "post_checks": [],
+  "related": {
+    "skills": [
+      "daily-routine",
+      "audit-corpus",
+      "find-contradictions",
+      "find-gaps",
+      "status"
+    ],
+    "templates": []
+  }
+}

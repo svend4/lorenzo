@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 10. Open Questions
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Open Questions(10-open-questions) - 10.1.
+> ✅ **Результат:** What are appropriate trust hierarchies between principal-owned and platform-provided agents?
+> 🏷️ **Ключевые слова:** `questions`, `agents`, `anthropic`, `vacancies`, `agent`, `closing`, `economic`, `legal`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -131,19 +140,3 @@ of whether ethical frameworks keep pace.
 - [[264-11-open-questions]]
 - [[223-12-closing]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _29%_
-- [[264-11-open-questions|11. Open Questions]] _29%_
-- [[FAQ|Часто задаваемые вопросы (FAQ)]] _29%_
-- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _25%_
-- [[174-5-architectural-specification|5. Architectural Specification]] _25%_
-- [[177-8-risks-and-mitigations|8. Risks and Mitigations]] _25%_
-- [[221-10-open-questions|10. Open Questions]] _25%_
-- [[223-12-closing|12. Closing]] _25%_

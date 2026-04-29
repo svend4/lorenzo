@@ -1,3 +1,16 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "nlaik"
+author_handle: "@nlaik"
+projects: ["Svyazi", "LiteParse"]
+platform: GitHub
+status: not_started
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+---
 # Контакт: nlaik / LiteParse / research-docs
 
 > [!TIP]

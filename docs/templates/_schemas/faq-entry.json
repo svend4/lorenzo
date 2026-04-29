@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "faq-entry",
+  "description": "FAQ-запись: вопрос, краткий и подробный ответ",
+  "type": "object",
+  "required": ["template", "version", "question"],
+  "properties": {
+    "template": {"const": "faq-entry"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "question": {"type": "string", "minLength": 5},
+    "category": {"type": "string"},
+    "audience": {"enum": ["any", "developer", "researcher", "stakeholder", "newcomer"]},
+    "priority": {"enum": ["low", "medium", "high"]},
+    "created": {"type": "string", "format": "date"},
+    "last_verified": {"type": "string", "format": "date"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Вопрос", "Краткий ответ", "Подробный ответ"]
+}

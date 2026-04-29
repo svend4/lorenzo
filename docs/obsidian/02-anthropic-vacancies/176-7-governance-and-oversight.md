@@ -8,6 +8,16 @@ date: 2026-04-29
 
 # 7. Governance and Oversight
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Governance and Oversight(7-governance-and-oversight) - 7.1.
+> 🔧 **Подход:** Includes ethical commitments, technical standards, dispute resolution, transparency requirements.
+> ✅ **Результат:** Foundation-Based Governance A foundation model (such as OKWF) is well-positioned to provide governance because: - Mission alignment: Foundation accountable to beneficiaries, not sh
+> 🏷️ **Ключевые слова:** `governance`, `audit`, `agent`, `level`, `foundation`, `anthropic`, `vacancies`, `platform`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -132,19 +142,3 @@ by mission-driven foundations.
 - [[178-9-phased-rollout-strategy]]
 - [[177-8-risks-and-mitigations]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[175-6-ethical-framework|6. Ethical Framework]] _21%_
-- [[144-7-open-questions|7. Open Questions]] _17%_
-- [[160-6-governance-and-ethics|6. Governance and Ethics]] _17%_
-- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _17%_
-- [[174-5-architectural-specification|5. Architectural Specification]] _17%_
-- [[179-10-open-questions|10. Open Questions]] _17%_
-- [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]] _17%_
-- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _17%_

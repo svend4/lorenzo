@@ -80,9 +80,33 @@ Passport SHOULD содержать следующие разделы:
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
+- [5. Compatibility Levels](17-5-compatibility-levels.md)
+- [5. Compatibility Levels](80-5-compatibility-levels.md)
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md)
+- [Compatibility Level](41-compatibility-level.md)
+- [History](63-history.md)
+- [Native Format](37-native-format.md)
+- [Planned (v0.2.0)](132-planned-v0-2-0.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Что ты ВСЕГДА делаешь](360-что-ты-всегда-делаешь.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Compatibility Level](41-compatibility-level.md) _33%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _25%_
+- [Native Format](37-native-format.md) _25%_
+- [5. Compatibility Levels](80-5-compatibility-levels.md) _25%_
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md) _25%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _25%_
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _21%_
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _21%_
 ## Связанные документы
 
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _33%_

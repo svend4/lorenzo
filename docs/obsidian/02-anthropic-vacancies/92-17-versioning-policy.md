@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 17. Versioning Policy
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Breaking Changes Process Для major version bump требуется: 1.
+> 🔧 **Подход:** Deprecation Policy(174-deprecation-policy) !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `policy`, `versioning`, `status`, `document`, `version`, `anthropic`, `vacancies`, `major`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -89,19 +98,3 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 - [[75-0-status-of-this-document]]
 - [[05-0-status-of-this-document]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[24-12-versioning-policy|12. Versioning Policy]] _81%_
-- [[05-0-status-of-this-document|0. Status of This Document]] _25%_
-- [[42-author-contact|Author & Contact]] _25%_
-- [[62-author-contact|Author & Contact]] _25%_
-- [[75-0-status-of-this-document|0. Status of This Document]] _25%_
-- [[03-portal-protocol-md|PORTAL-PROTOCOL.md]] _21%_
-- [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]] _21%_
-- [[77-2-terminology|2. Terminology]] _21%_

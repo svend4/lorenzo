@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "legal-case",
+  "description": "Юридический кейс: Aktenzeichen, стороны, хронология, нормы, прецеденты",
+  "type": "object",
+  "required": ["template", "version", "case_id", "case_type", "status"],
+  "properties": {
+    "template": {"const": "legal-case"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "case_id": {"type": "string", "minLength": 1},
+    "case_type": {"enum": ["sozialgericht", "verwaltungsgericht", "amtsgericht", "landgericht", "oberlandesgericht", "bundesgericht", "other"]},
+    "status": {"enum": ["open", "appeal", "closed", "settled", "withdrawn"]},
+    "filed": {"type": ["string", "null"], "format": "date"},
+    "deadline": {"type": ["string", "null"], "format": "date"},
+    "parties": {"type": "array", "items": {"type": "string"}},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Идентификация", "Стороны", "Хронология", "Предмет спора", "Применимые нормы"]
+}

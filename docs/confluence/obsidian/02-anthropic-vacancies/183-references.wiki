@@ -14,6 +14,15 @@ date: 2026-04-29
 h1. References
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ References Contents - References(references) - Foundational Sources(foundational-sources) - Principal-Agent Theory(principal-agent-theory) - Disability and Access(disability-and-ac{quote}
+{quote}🔧 _Подход:_ "Designing Organizations for an Information-Rich World".{quote}
+{quote}🏷️ _Ключевые слова:_ {{references}}, {{principal}}, {{anthropic}}, {{vacancies}}, {{theory}}, {{disability}}, {{ethics}}, {{ссылки}}{quote}
+>
+
+
+
 h2. Contents
 
 * [References|#references]
@@ -98,19 +107,3 @@ _Смотрите также:_
 * [[251-ai-support-through-configurable-specialist-ensembl]]
 * [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _25%_
-* [[211-table-of-contents|Table of Contents]] _25%_
-* [[225-references|References]] _25%_
-* [[268-references|References]] _25%_
-* [[146-acknowledgments|Acknowledgments]] _21%_
-* [[147-references|References]] _21%_
-* [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _21%_
-* [[182-acknowledgments|Acknowledgments]] _21%_

@@ -14,86 +14,70 @@ h1. Diff базы знаний между версиями
 
 _Обновлено: 2026-04-29_
 
-_HEAD~10_ ({{7aee1db}}) → _HEAD_ ({{b326b33}})
+_HEAD~10_ ({{6f3be4a}}) → _HEAD_ ({{d627959}})
 
-Изменено файлов: _61_ | Добавлено слов: _+14101_ | Удалено слов: _-2460_
+Изменено файлов: _59_ | Добавлено слов: _+143_ | Удалено слов: _-2403_
 
 
-h2. ✅ Новые файлы (45)
-
-* {{docs/PARAGRAPH_QUALITY.md}} (+4796 слов)
-* {{docs/CONTRADICTIONS.md}} (+1693 слов)
-* {{docs/NAMED_ENTITIES.md}} (+1132 слов)
-* {{docs/DEPENDENCY_MAP.md}} (+601 слов)
-* {{docs/INDEX.md}} (+467 слов)
-* {{docs/RISK_REGISTER.md}} (+449 слов)
-* {{docs/STALENESS.md}} (+404 слов)
-* {{docs/COVERAGE.md}} (+379 слов)
-* {{docs/VOCABULARY.md}} (+361 слов)
-* {{docs/ONBOARDING.md}} (+312 слов)
-* {{docs/CHANGELOG_AUTO.md}} (+289 слов)
-* {{docs/TECH_RADAR.md}} (+275 слов)
-* {{docs/COMPONENT_MATRIX.md}} (+211 слов)
-* {{docs/KEYWORD_INDEX.md}} (+197 слов)
-* {{docs/LLM_SUMMARIES.md}} (+171 слов)
-* {{docs/AUTOFILLED.md}} (+155 слов)
-* {{docs/CONTACT_PRIORITY.md}} (+151 слов)
-* {{docs/CONCEPT_GRAPH.md}} (+78 слов)
-* {{docs/contacts/anastasiyaw.md}} (+77 слов)
-* {{docs/contacts/andrey-chuyan.md}} (+75 слов)
-* {{docs/contacts/spbmolot.md}} (+75 слов)
-* {{docs/contacts/kksudo.md}} (+73 слов)
-* {{docs/contacts/vitalyoborin.md}} (+69 слов)
-* {{docs/contacts/sonia-black.md}} (+64 слов)
-* {{docs/contacts/tagir-analyzes.md}} (+64 слов)
-* {{docs/contacts/mixaill76.md}} (+63 слов)
-* {{docs/contacts/nlaik.md}} (+63 слов)
-* {{docs/contacts/cutcode.md}} (+60 слов)
-* {{docs/contacts/vladspace.md}} (+60 слов)
-* {{docs/contacts/antipozitive.md}} (+57 слов)
-* {{docs/contacts/dmitriila.md}} (+57 слов)
-* {{docs/contacts/zodigancode.md}} (+57 слов)
-* {{docs/autofilled/research-summary.md}} (+52 слов)
-* {{docs/KPI_HISTORY.md}} (+35 слов)
-* {{docs/DIGEST_WEEKLY.md}} (+23 слов)
-* {{docs/autofilled/components/.md}} (+14 слов)
-* {{docs/autofilled/components/cowork.md}} (+14 слов)
-* {{docs/autofilled/components/ingit.md}} (+14 слов)
-* {{docs/autofilled/components/kksudo.md}} (+14 слов)
-* {{docs/autofilled/components/lorenzo.md}} (+14 слов)
-* {{docs/autofilled/components/nautilus.md}} (+14 слов)
-* {{docs/autofilled/components/sgb.md}} (+14 слов)
-* {{docs/autofilled/components/spbmolot.md}} (+14 слов)
-* {{docs/autofilled/components/svend4.md}} (+14 слов)
-* {{docs/autofilled/components/svyazi.md}} (+14 слов)
-
-h2. 📝 Изменённые файлы (16)
+h2. 📝 Изменённые файлы (59)
 
 || Файл || Δ слов || Добавленные темы || Удалённые темы ||
-|| `docs/TIMELINE.md` || -2390 || 2020 (2 упоминаний), 2021 (1 упоминаний), 2022 (5 упоминаний) +7 || Версия (394), Год (27), Длительность (95) +6 ||
-|| `docs/SEARCH.md` || +316 || — || — ||
-|| `docs/BROKEN_LINKS.md` || +273 || Внешние URL (129 уникальных) || Внешние URL (113 уникальных) ||
-|| `docs/DUPLICATES.md` || +81 || 50% — `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` vs `docs/01-svyazi/06-security-privacy.md`, 50% — `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` vs `docs/01-svyazi/12-roadmap.md` || — ||
-|| `docs/PROGRESS.md` || -26 || Метрики качества, Приоритет 1: kksudo (AgentFS, 13 упоминаний), Приоритет 2: spbmolot (NGT Memory, 12 упоминаний) +3 || Ближайшие задачи (открытые чеклисты), Чеклисты по фазам ||
-|| `docs/05-habr-projects/memory/memnet.md` || +22 || Статус || — ||
-|| `docs/05-habr-projects/memory/ngt-memory.md` || +22 || Статус || — ||
-|| `docs/05-habr-projects/memory/yodoca.md` || +22 || Статус || — ||
-|| `docs/METRICS.md` || -22 || — || — ||
-|| `docs/04-ai-collaborations/00-intro.md` || +16 || Статус || — ||
-|| `docs/04-ai-collaborations/01-executive-summary.md` || +16 || Статус || — ||
-|| `docs/05-habr-projects/01-synthesis.md` || +16 || Статус || — ||
-|| `docs/05-habr-projects/02-collaboration-partners.md` || +16 || Статус || — ||
-|| `docs/05-habr-projects/knowledge/wikontic.md` || +16 || Статус || — ||
-|| `docs/HEALTH.md` || -13 || — || — ||
-|| `docs/CONTACTS.md` || -9 || — || — ||
-
-
-
-----
-
-_Смотрите также:_
-* [[DIGEST]]
-* [[PRIORITIES]]
-* [[SITEMAP]]
-* [[CONTACT_PRIORITY]]
-
+|| `docs/SCRIPTS_CATALOG.md` || -1688 || — || Содержание ||
+|| `docs/CONCEPTS.md` || -320 || — || — ||
+|| `docs/VERSION_DIFF.md` || -174 || 📝 Изменённые файлы (69) || ✅ Новые файлы (3), 📝 Изменённые файлы (90) ||
+|| `docs/CHANGELOG.md` || +92 || 2026-04-29 (98 коммитов) || 2026-04-29 (89 коммитов) ||
+|| `docs/TABLES.md` || -92 || 15. Изменившиеся файлы (66) — топ по Δ слов, 179. Без метаданных (нет summary или тегов) — 170 файлов, 191. Точная дата (2047) +25 || 15. Изменившиеся файлы (74) — топ по Δ слов, 179. Без метаданных (нет summary или тегов) — 166 файлов, 191. Точная дата (2041) +24 ||
+|| `docs/TASKS_INDEX.md` || -76 || — || Содержание ||
+|| `docs/KPI.md` || +30 || Версия (390), Количество (243), Размер (32) +3 || Версия (389), Количество (244), Размер (33) +3 ||
+|| `docs/REGISTRY.md` || -12 || — || Содержание ||
+|| `docs/EMPTY_SECTIONS.md` || -11 || `TABLES.md` (16 из 449) || `TABLES.md` (16 из 448), `VERSION_DIFF.md` (1 из 2) ||
+|| `docs/DIGEST_AUTO.md` || -8 || — || — ||
+|| `docs/ACTION_ITEMS.md` || +7 || ✅ Решения и рекомендации (278), 🚫 Ограничения (145) || ✅ Решения и рекомендации (277), 🚫 Ограничения (144) ||
+|| `docs/DUPLICATES.md` || +7 || — || — ||
+|| `docs/QUESTIONS.md` || -6 || `DUPLICATES.md` (1), `DUPLICATES.md` (6), `TABLES.md` (119) +3 || `DUPLICATES.md` (2), `DUPLICATES.md` (4), `TABLES.md` (121) +4 ||
+|| `docs/CONTENT_GAPS.md` || +5 || `GDPR` (60 файлов), `HMP` (25 файлов), `IDF` (23 файлов) +1 || `GDPR` (59 файлов), `HMP` (24 файлов), `LinkedIn` (28 файлов) +1 ||
+|| `docs/CITATION_INDEX.md` || -4 || — || — ||
+|| `docs/LINKS.md` || -4 || — || — ||
+|| `docs/COMPARE.md` || -2 || — || — ||
+|| `docs/PRIORITIES.md` || -2 || — || — ||
+|| `docs/README.md` || +2 || — || — ||
+|| `docs/TIMELINE.md` || -2 || 2024 (45 упоминаний), 2025 (44 упоминаний), 2026 (458 упоминаний) || 2024 (46 упоминаний), 2025 (42 упоминаний), 2026 (456 упоминаний) ||
+|| `docs/SEE_ALSO.md` || -1 || — || — ||
+|| `docs/TAGS.md` || -1 || #architecture (55 файлов), #collaboration (62 файлов), #ingestion (55 файлов) +5 || #architecture (59 файлов), #collaboration (65 файлов), #ingestion (56 файлов) +5 ||
+|| `docs/ABBREVIATIONS.md` || 0 || — || — ||
+|| `docs/ALERTS.md` || 0 || — || — ||
+|| `docs/AUTHORS.md` || 0 || — || — ||
+|| `docs/BADGES.md` || 0 || — || — ||
+|| `docs/CODE_BLOCKS.md` || 0 || — || — ||
+|| `docs/COMPLEXITY.md` || 0 || — || — ||
+|| `docs/CONCEPT_GRAPH.md` || 0 || — || — ||
+|| `docs/CONSISTENCY.md` || 0 || — || — ||
+|| `docs/CONTACTS.md` || 0 || — || — ||
+|| `docs/CONTACT_PRIORITY.md` || 0 || — || — ||
+|| `docs/CONTRADICTIONS.md` || 0 || 19. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8), 20. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8), 21. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8) +2 || 19. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8), 20. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8), 21. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8) +2 ||
+|| `docs/CROSSREFS.md` || 0 || — || — ||
+|| `docs/DENSITY.md` || 0 || — || — ||
+|| `docs/DIGEST_WEEKLY.md` || 0 || — || — ||
+|| `docs/ENTITIES.md` || 0 || — || — ||
+|| `docs/GLOSSARY.md` || 0 || — || — ||
+|| `docs/GRAPH.md` || 0 || — || — ||
+|| `docs/HEALTH.md` || 0 || — || — ||
+|| `docs/KNOWLEDGE_MAP.md` || 0 || — || — ||
+|| `docs/LANGUAGE_STATS.md` || 0 || — || — ||
+|| `docs/METRICS.md` || 0 || — || — ||
+|| `docs/MISSING.md` || 0 || — || — ||
+|| `docs/NAMED_ENTITIES.md` || 0 || `github` (237 файлов), `google` (35 файлов), `llm` (193 файлов) +6 || `GitHub` (237 файлов), `google` (36 файлов), `llm` (192 файлов) +6 ||
+|| `docs/NETWORK.md` || 0 || — || — ||
+|| `docs/OUTLINE.md` || 0 || — || — ||
+|| `docs/PARAGRAPH_QUALITY.md` || 0 || `docs/ACTION_ITEMS.md` (12 проблем), `docs/CHANGELOG.md` (11 проблем), `docs/CONCEPTS.md` (1682 проблем) +7 || `docs/ACTION_ITEMS.md` (13 проблем), `docs/CHANGELOG.md` (10 проблем), `docs/CONCEPTS.md` (1734 проблем) +7 ||
+|| `docs/PASSIVE_VOICE.md` || 0 || — || — ||
+|| `docs/READABILITY.md` || 0 || — || — ||
+|| `docs/READING_TIME.md` || 0 || — || — ||
+|| `docs/REPORT.md` || 0 || — || — ||
+|| `docs/SENTIMENT.md` || 0 || — || — ||
+|| `docs/SITEMAP.md` || 0 || — || — ||
+|| `docs/SPELLCHECK.md` || 0 || — || — ||
+|| `docs/STALENESS.md` || 0 || Без метаданных (нет summary или тегов) — 170 файлов || Без метаданных (нет summary или тегов) — 169 файлов ||
+|| `docs/STATS.md` || 0 || — || — ||
+|| `docs/VOCABULARY.md` || 0 || — || — ||
+|| `docs/WORD_FREQ.md` || 0 || root (261,186 слов), templates (2,484 слов) || root (262,433 слов), templates (2,375 слов) ||

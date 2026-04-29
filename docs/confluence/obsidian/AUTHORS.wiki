@@ -15,31 +15,31 @@ h1. Авторы и коллаборации
 Авторы проектов, упоминаемые в исследованиях.
 
 || Автор || Упоминается в файлах ||
-|| **AnastasiyaW** || 35 ||
-|| **Antipozitive** || 19 ||
-|| **BerriAI** || 7 ||
-|| **Cutcode** || 33 ||
-|| **Dmitriila** || 31 ||
-|| **MiXaiLL76** || 32 ||
-|| **Sonia_Black** || 16 ||
-|| **VitaliySemenov** || 4 ||
-|| **VitalyOborin** || 33 ||
-|| **VladSpace** || 30 ||
-|| **akazant** || 6 ||
-|| **akzhankalimatov** || 4 ||
-|| **andrey_chuyan** || 16 ||
-|| **iximy** || 5 ||
-|| **kksudo** || 61 ||
-|| **lee-to** || 8 ||
-|| **lib4u** || 7 ||
-|| **moshael** || 6 ||
-|| **nlaik** || 23 ||
+|| **AnastasiyaW** || 51 ||
+|| **Antipozitive** || 33 ||
+|| **BerriAI** || 12 ||
+|| **Cutcode** || 36 ||
+|| **Dmitriila** || 34 ||
+|| **MiXaiLL76** || 30 ||
+|| **Sonia_Black** || 19 ||
+|| **VitaliySemenov** || 8 ||
+|| **VitalyOborin** || 40 ||
+|| **VladSpace** || 43 ||
+|| **akazant** || 10 ||
+|| **akzhankalimatov** || 8 ||
+|| **andrey_chuyan** || 15 ||
+|| **iximy** || 8 ||
+|| **kksudo** || 58 ||
+|| **lee-to** || 11 ||
+|| **lib4u** || 14 ||
+|| **moshael** || 10 ||
+|| **nlaik** || 31 ||
 || **spbmolot** || 59 ||
-|| **tagir_analyzes** || 19 ||
-|| **vpakspace** || 4 ||
-|| **zodigancode** || 26 ||
-|| **Андрей Чуян** || 21 ||
-|| **Виталий Оборин** || 7 ||
+|| **tagir_analyzes** || 14 ||
+|| **vpakspace** || 8 ||
+|| **zodigancode** || 36 ||
+|| **Андрей Чуян** || 37 ||
+|| **Виталий Оборин** || 9 ||
 
 
 
@@ -47,7 +47,7 @@ h1. Авторы и коллаборации
 
 _Смотрите также:_
 * [[CONTACT_PRIORITY]]
-* [[tagir-analyzes]]
-* [[nlaik]]
-* [[sonia-black]]
+* [[authors-by-name]]
+* [[CONTACTS]]
+* [[LINKS]]
 

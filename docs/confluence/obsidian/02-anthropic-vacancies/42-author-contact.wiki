@@ -32,7 +32,7 @@ _Контакт:_ через Issues в {{github.com/svend4/info1}} или
 _Лицензия контента:_ [? уточнить — CC BY-SA? CC BY 4.0? proprietary?]
 
 _Лицензия адаптера:_ MIT (следуя reference implementation 
-{{nautilus-portal}})
+{{[[memnet|nautilus]]-portal}})
 
 ----
 
@@ -59,9 +59,46 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[05-0-status-of-this-document|0. Status of This Document]]
+* [[75-0-status-of-this-document|0. Status of This Document]]
+* [[164-10-appendices|10. Appendices]]
+* [[24-12-versioning-policy|12. Versioning Policy]]
+* [[25-13-reference-implementation|13. Reference Implementation]]
+* [[92-17-versioning-policy|17. Versioning Policy]]
+* [[93-18-reference-implementation|18. Reference Implementation]]
+* [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]]
+* [[114-7-реализация-в-проекте-nautilus|7. Реализация в проекте Nautilus]]
+* [[04-abstract|Abstract]]
+* [[52-author-contact|Author & Contact]]
+* [[62-author-contact|Author & Contact]]
+* [[48-content-overview|Content Overview]]
+* [[43-history|History]]
+* [[53-history|History]]
+* [[47-native-format|Native Format]]
+* [[03-portal-protocol-md|PORTAL-PROTOCOL.md]]
+* [[132-planned-v0-2-0|Planned (v0.2.0)]]
+* [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]]
+* [[105-review-methodology-md|REVIEW_METHODOLOGY.md]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[70-зачем-две-версии-параллельно|Зачем две версии параллельно]]
+* [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]]
+* [[68-about|🇬🇧 About]]
+* [[67-о-проекте|🇷🇺 О проекте]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[25-13-reference-implementation|13. Reference Implementation]] _66%_
+* [[62-author-contact|Author & Contact]] _60%_
+* [[93-18-reference-implementation|18. Reference Implementation]] _60%_
+* [[75-0-status-of-this-document|0. Status of This Document]] _53%_
+* [[05-0-status-of-this-document|0. Status of This Document]] _48%_
+* [[24-12-versioning-policy|12. Versioning Policy]] _33%_
+* [[48-content-overview|Content Overview]] _33%_
+* [[35-passports-info1-md|passports/info1.md]] _29%_
 h2. Связанные документы
 
 * [[62-author-contact|Author & Contact]] _66%_

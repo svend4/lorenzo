@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "tech-pair",
+  "description": "Пара технологий с описанием синергии",
+  "type": "object",
+  "required": ["template", "version", "pair_id", "pair_type", "component_a", "component_b"],
+  "properties": {
+    "template": {"const": "tech-pair"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "pair_id": {"type": "string", "pattern": "^PAIR-\\d{4}$"},
+    "pair_type": {"enum": ["hardware", "software", "deep", "hybrid"]},
+    "component_a": {"type": "string", "minLength": 1},
+    "component_b": {"type": "string", "minLength": 1},
+    "synergy_score": {"type": "integer", "minimum": 0, "maximum": 10},
+    "maturity": {"enum": ["hypothesis", "tested", "validated", "production"]},
+    "created": {"type": "string", "format": "date"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Компонент A", "Компонент B", "Синергия", "Антисинергии", "Когда стоит использовать"]
+}

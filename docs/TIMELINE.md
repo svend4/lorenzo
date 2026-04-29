@@ -34,12 +34,12 @@ _Обновлено: 2026-04-29_
   Минусы: 5-7 лет до устойчивой монетизации (это не 18-месячный стартап) $10-50M минимум capital requirements для нормальн  
   `05-minuses-as-business.md`
 
-- 📌 **2021** · _69. К_  
-  Корпус Файл: docs/KNOWLEDGEMAP.md 2 колонок, 4 строк Параметр Значение -------------------- Документов 492 Слов 433,953   
+- 📌 **2021** · _70. К_  
+  Корпус Файл: docs/KNOWLEDGEMAP.md 2 колонок, 4 строк Параметр Значение -------------------- Документов 1185 Слов 908,390  
   `TABLES.md`
 
 
-## 2022 (10 упоминаний)
+## 2022 (12 упоминаний)
 
 - 📌 **2022** · _1.3. The Rising Urgency_  
   When Copilot produced autocomplete in 2022, misalignment with team context was minor.  
@@ -61,6 +61,10 @@ _Обновлено: 2026-04-29_
   Galactica (Meta, 2022) — пыталась быть «AI scientist» который could synthesize across literatures.  
   `342-что-такое-вариант-c-concept-document-для-anthropic.md`
 
+- 📌 **2022** · _14. П_  
+  Прецеденты Файл: docs/templates/legal-case.md 4 колонок, 1 строк Решение Суд Дата Релевантность ------------------------  
+  `TABLES.md`
+
 - 📌 **2022** · _Claude hat geantwortet: Очень интересный вопрос._  
   Galactica (Meta, 2022) — пыталась быть «AI scientist» который could synthesize across literatures.  
   `01-response.md`
@@ -80,6 +84,10 @@ _Обновлено: 2026-04-29_
 - 📌 **2022** · _Почему это не было построено_  
   Объяснение 4 — AI-сотрудничество недавнее. До 2022-2023 годов, совместная AI-работа на этой глубине не была осуществимой  
   `04-pochemu-ne-postroeno.md`
+
+- 📌 **2022** · _Behörde / Beklagte_  
+  Контр-аргумент 2 Прецеденты Решение Суд Дата Релевантность ----------------------------------- BSG B 14 AS 1/22 R BSG 20  
+  `legal-case.md`
 
 
 ## 2023 (11 упоминаний)
@@ -126,6 +134,10 @@ _Обновлено: 2026-04-29_
   Для гуманитарных документов рекомендую conventional metadata keys: python @dataclass class LegalPortalEntry(PortalEntry)  
   `01-structural-comparison-code-vs-docs.md`
 
+- 🔔 **2024-03-15** · _`improve_timeline.py` _(группа: index)__  
+  improvetimelineevents.py (группа: deeptext) извлекает даты и события из базы знаний. Строит хронологическую ленту: - Кон  
+  `SCRIPTS_CATALOG.md`
+
 - 🔔 **2024** · _1. Problem Statement_  
   > ✅ Результат: The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for A  
   `155-1-problem-statement.md`
@@ -150,8 +162,8 @@ _Обновлено: 2026-04-29_
   Расписание проекта Дорожная карта с вехами и задачами по кварталам. Ключевые вехи Срок Веха Статус --------------------   
   `SCHEDULE.md`
 
-- 🔔 **2024** · _78. К_  
-  Количество (216) Файл: docs/KPI.md 3 колонок, 8 строк Значение Контекст Источник ----------------------------- 80 y‑слое  
+- 🔔 **2024** · _79. К_  
+  Количество (242) Файл: docs/KPI.md 3 колонок, 8 строк Значение Контекст Источник ----------------------------- 80 y‑слое  
   `TABLES.md`
 
 - 🔔 **2024** · _179. Содержание_  
@@ -173,6 +185,10 @@ _Обновлено: 2026-04-29_
 - 🔔 **2024** · _103. К_  
   Ключевые вехи Файл: docs/SCHEDULE.md 3 колонок, 10 строк Срок Веха Статус -------------------- 2024-Q4 ✅ Исследование ко  
   `TABLES.md`
+
+- 🔔 **2024** · _📝 Изменённые файлы (59)_  
+  Точная дата (2041) +24 docs/TASKSINDEX.md -76 — Содержание docs/KPI.md +30 Версия (390), Количество (243), Размер (32) +  
+  `VERSION_DIFF.md`
 
 - 🔔 **2024** · _1.3. Why Now_  
   The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for AI-assisted work  
@@ -221,7 +237,7 @@ _Обновлено: 2026-04-29_
 _...ещё 14 упоминаний в 2024_
 
 
-## 2025 (43 упоминаний)
+## 2025 (44 упоминаний)
 
 - 🔔 **2025-02** · _137. Точная дата (2918)_  
   Теперь по существ docs/02-anthropic-vacancies/150-appendix-c-version-history.md май 2025 am building (статья Mandelbro в  
@@ -247,8 +263,8 @@ _...ещё 14 упоминаний в 2024_
   Deployment Trajectory Date Status -------------- Summer 2025 Development begins September 2025 Public launch April 2026   
   `214-3-empirical-case-study-обучай.md`
 
-- 🔔 **2025** · _76% — `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md` vs `docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md`_  
-  Высококачественная база профессиональных знаний для немецкого социального права, например, представляет собой тысячи час  
+- 🔔 **2025** · _75% — `docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` vs `docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md`_  
+  Цель дорожной карты: интерфейс годового планирования учителя с однокликовой генерацией материалов прямо в школьный элект  
   `DUPLICATES.md`
 
 - 🔔 **2025** · _11. 3.3. D_  

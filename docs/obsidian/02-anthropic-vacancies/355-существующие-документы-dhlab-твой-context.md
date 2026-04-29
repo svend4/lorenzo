@@ -57,9 +57,31 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]]
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]]
+- [[319-acknowledgments|Acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]]
+- [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]]
+- [[268-references|References]]
+- [[287-references|References]]
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]]
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _73%_
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _73%_
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _60%_
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _53%_
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _53%_
+- [[267-acknowledgments|Acknowledgments]] _37%_
+- [[268-references|References]] _37%_
+- [[319-acknowledgments|Acknowledgments]] _37%_
 ## Связанные документы
 
 - [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _66%_

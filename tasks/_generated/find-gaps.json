@@ -1,0 +1,46 @@
+{
+  "id": "find-gaps",
+  "version": 1.0,
+  "description": "Поиск пробелов в базе знаний",
+  "trigger_phrases": [
+    "чего не хватает",
+    "какие темы упомянуты но без документа",
+    "где пробелы"
+  ],
+  "inputs": {
+    "topic": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "mcp_server": "lorenzo-graph",
+  "mcp_tool": "find_gaps",
+  "pipeline": [
+    {
+      "run_script": "improve_content_gaps.py --min-mentions 3"
+    },
+    {
+      "read": "docs/CONTENT_GAPS.md"
+    },
+    {
+      "filter_by_topic": "{topic}"
+    },
+    {
+      "generate": "Категоризация по типу + приоритеты + команды для заполнения"
+    }
+  ],
+  "post_checks": [],
+  "related": {
+    "skills": [
+      "find-gaps",
+      "audit-corpus",
+      "synthesize"
+    ],
+    "templates": [
+      "glossary-entry",
+      "project-component",
+      "rfc",
+      "decision-record"
+    ]
+  }
+}

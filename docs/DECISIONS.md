@@ -47,6 +47,9 @@
 - кандидат для слоя .agentos/ и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и [GitHub](../docs/01-svyazi/03-component-catalog.md) issues в AgentFS. citeturn33vie  
   _→ 05-план-прототипа-и-возможные-контакты_
 
+- Svyazi + AgentFS +… _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_ --- ## Глава 2: Экосистема проектов > <!-- summary --> > > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antip  
+  _→ NARRATIVE_
+
 - Svyazi + AgentFS + NGT ^ngt /Yodoca + LitePa **B:** `docs/04-ai-collaborations/07-выводы.md` > Если ранжировать найденные направления по практической силе именно для старта, то порядок такой. Первое  
   _→ SIMILAR_PASSAGES_
 
@@ -62,10 +65,7 @@
 - второй части Лучший следующий шаг — **не искать ещё двадцать новых проектов**, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record. На этом основании уже можно  
   _→ conclusions_
 
-- склеивать». **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG --- <!-- tags: memory, rag, orchest  
-  _→ license-tree_
-
-_...ещё 14 записей в этой категории_
+_...ещё 17 записей в этой категории_
 
 
 ## Mvp (11)
@@ -90,7 +90,7 @@ _...ещё 14 записей в этой категории_
 
 
 
-## Память (11)
+## Память (12)
 
 - опубликовать спецификацию .[nautilus](../docs/05-habr-projects/memory/memnet.md).yaml и подать её как RFC. Если формат внятный, это потенциально open-source standard. Есть прямой целевой рынок: все, к  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -140,11 +140,11 @@ _...ещё 14 записей в этой категории_
 - в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](README.md) > Файлов: 14 - Содержание _Слов: 90_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude](obsidian/con  
   _→ OUTLINE_
 
+- вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
+  _→ TABLES_
+
 - склеивать». ## Оркестрация — выбрать один spine Хотя mclaude, AI Factory, Rufler и Sequential выглядят очень привлекательно, их не стоит собирать вс  
   _→ do-not-glue_
-
-- вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
-  _→ narrow-questions_
 
 
 ## Безопасность (2)
@@ -153,7 +153,7 @@ _...ещё 14 записей в этой категории_
   _→ 133-обратная-связь_
 
 
-## Лицензия (12)
+## Лицензия (14)
 
 - создать REVIEW_METHODOLOGY.md в корне репо (не в docs/ , потому что это применимо ко всему проекту, не к специфической области). Commit: docs: add REVIEW_METHODOLOGY for three-phase review process . В  
   _→ 122-глоссарий_
