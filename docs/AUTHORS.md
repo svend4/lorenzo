@@ -1,0 +1,31 @@
+# Авторы и коллаборации
+
+Авторы проектов, упоминаемые в исследованиях.
+
+| Автор | Упоминается в файлах |
+|-------|---------------------|
+| **AnastasiyaW** | 9 |
+| **Antipozitive** | 2 |
+| **BerriAI** | 5 |
+| **Cutcode** | 4 |
+| **Dmitriila** | 2 |
+| **MiXaiLL76** | 3 |
+| **Sonia_Black** | 5 |
+| **VitaliySemenov** | 2 |
+| **VitalyOborin** | 6 |
+| **VladSpace** | 2 |
+| **akazant** | 4 |
+| **akzhankalimatov** | 2 |
+| **andrey_chuyan** | 3 |
+| **iximy** | 3 |
+| **kksudo** | 8 |
+| **lee-to** | 4 |
+| **lib4u** | 5 |
+| **moshael** | 4 |
+| **nlaik** | 2 |
+| **spbmolot** | 7 |
+| **tagir_analyzes** | 3 |
+| **vpakspace** | 2 |
+| **zodigancode** | 2 |
+| **Андрей Чуян** | 11 |
+| **Виталий Оборин** | 2 |

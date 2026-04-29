@@ -1,9 +1,11 @@
-# Методология комбинирования технологий
+# Комбинирование технологий для новых свойств
 
-Методологические оговорки — MinIO maintenance-only, Bytewax stagnation, vendor benchmark предостережения
-Теперь у вас два полных документа: исходный на 10 областей (45 комбинаций) + продолжение на 10 областей (35+ новых комбинаций) = 80+ синергетических комбинаций в 20 технологических областях!
-Software synergies continuation 2025 2026 ru
-Dokument
-·
-MD
-Herunterladen
+**Файлов:** 5
+
+## Содержание
+
+- [01-agent-routing.md](01-agent-routing.md) — самоулучшения промпта". Добавляем durable state из агентской архитектуры:
+- [02-knowledge-graphs.md](02-knowledge-graphs.md) — граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller)
+- [03-local-first.md](03-local-first.md) — локальная Qwen3:8B
+- [04-sozialrecht-domain.md](04-sozialrecht-domain.md) — Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PDFs (headings, paragraphs, citations) LLM…
+- [05-benchmarks.md](05-benchmarks.md) — производительность

@@ -112,3 +112,8 @@ ensures the architecture scales from small teams (Star(1)) to
 large organizations (Star(n)) without protocol changes.
 
 ---
+
+# Bridges
+
+## Bridges
+Как концепты Repo соотносятся с концепциями других Repos в экосистеме.

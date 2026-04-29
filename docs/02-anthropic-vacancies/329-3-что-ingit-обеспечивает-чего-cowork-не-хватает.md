@@ -177,3 +177,11 @@ InGit может включать инструменты миграции:
 почва, на которой Cowork эффективно работает.
 
 ---
+
+# Author
+
+## Author
+example_user, example@email.com
+```
+
+---

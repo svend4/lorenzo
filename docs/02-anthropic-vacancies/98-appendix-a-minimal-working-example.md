@@ -78,3 +78,9 @@ class MyNotesAdapter(BaseAdapter):
 | Единица | Markdown-документ |
 | Адаптер | `adapters/my_notes.py` |
 | Уровень совместимости | 1 — читаемый |
+
+# Описание
+
+## Описание
+
+Персональная коллекция Markdown-заметок.

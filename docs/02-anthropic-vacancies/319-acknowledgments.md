@@ -47,3 +47,8 @@ form unusually comprehensive treatment of AI-supported
 knowledge work.
 
 ---
+
+# Angle / Perspective
+
+## Angle / Perspective
+Methodological: how-to и reflection.
