@@ -63,9 +63,10 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [project-component](docs/templates/project-component.md)
-- [research-note](docs/templates/research-note.md)
-- [PROGRESS](docs/PROGRESS.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [dmitriila](docs/contacts/dmitriila.md)
 
 
 <!-- similar-docs -->

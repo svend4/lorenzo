@@ -36,6 +36,18 @@
 > The combination of InGit and Cowork creates an architecture
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
+  - [4.1. Layer Decomposition](#41-layer-decomposition)
+  - [4.2. How They Interact](#42-how-they-interact)
+  - [4.3. Where Each Operates](#43-where-each-operates)
+  - [4.4. Shared State](#44-shared-state)
+
+---
+
 <!-- tags: memory, rag, ingestion, local-first, architecture, roadmap -->
 
 

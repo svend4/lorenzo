@@ -35,3 +35,11 @@ transitional state:
 конкретные значения.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+

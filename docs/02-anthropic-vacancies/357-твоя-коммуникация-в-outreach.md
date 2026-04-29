@@ -28,3 +28,12 @@
 
 **Transparency disclosure**:
 > «Этот message был drafted мной (Lorenzo) автономно, но Макс review'ил его перед отправкой. Все commitments require Max approval.»
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md)
+- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md)
+

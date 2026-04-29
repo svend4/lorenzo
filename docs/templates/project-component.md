@@ -59,8 +59,8 @@ _Создано: 2026-04-29_
 **Смотрите также:**
 - [contact-outreach](docs/templates/contact-outreach.md)
 - [ensemble](docs/templates/ensemble.md)
-- [research-note](docs/templates/research-note.md)
-- [decision-record](docs/templates/decision-record.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+- [vladspace](docs/contacts/vladspace.md)
 
 
 <!-- similar-docs -->

@@ -15,6 +15,8 @@
 > **α-level ↔ Q6-concept-depth**. Уровень α в `info1` коррелирует с
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

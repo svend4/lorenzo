@@ -16,6 +16,8 @@
 > A central question for Composite Skills Agents: how does a
 
 ---
+<!-- tags: anthropic -->
+
 
 <!-- toc -->
 ## Содержание

@@ -1,0 +1,69 @@
+# Графовая когнитивная память на SQLite (Виталий, март 2026)
+
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
+**Проекты:** NGT Memory
+
+---
+<!-- tags: memory, ingestion, local-first, architecture, anthropic, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
+
+2. Графовая когнитивная память на SQLite (Виталий, март 2026)
+
+Проект: «Научил ИИ-агента помнить важное и забывать лишнее в SQLite»
+
+URL: https://habr.com/ru/articles/1006622/
+
+Что делает: Локально работающий ИИ-агент с графовой когнитивной памятью на одном SQLite-файле. Не просто vector DB, а полная архитектура:
+
+Эпизодические и семантические узлы (различение опыта vs знания)
+
+Типизированные рёбра (causal, temporal, contradicts, replaces)
+
+Именованные сущности + junction-таблица node_entities
+
+Гибридный поиск: FTS5 + vector + graph через Reciprocal Rank Fusion (RRF)
+
+Кривая забывания Эббингауза — память постепенно теряет важность без подкрепления
+
+Фоновая LLM-консолидация — агент сам перерабатывает воспоминания
+
+confirm_fact: пользователь подтверждает факт → навсегда в памяти
+
+Ключевые insights:
+
+«Чисто векторный поиск плох для коротких фактов» — поэтому нужен hybrid
+
+Контекст инжектится в system role, не в user message → экономия токенов на порядок
+
+Бюджеты по секциям памяти, дедупликация по нормализованному content
+
+Почему важно для нас: Это single-author, working implementation именно того, что NGT Memory предлагает на theoretical level, но с дополнительными элементами:
+
+Эббингауз forgetting curve — физиологически валидная модель забывания
+
+Background consolidation — sleep-like процесс переработки знаний
+
+Local-first, single-file SQLite — portable, offline-capable, simple
+
+Для personal SGB advocate workspace это точно подходящий компонент. Все case data, decisions, patterns в одном SQLite файле, доступном через любой MCP-совместимый агент.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+- [01-coally](docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+- [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+

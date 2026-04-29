@@ -42,6 +42,18 @@
 > Beyond InGit specifically, this positioning has implications
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [8. Implications for Nautilus and OKWF](#8-implications-for-nautilus-and-okwf)
+  - [8.1. Nautilus as Federated Knowledge Substrate](#81-nautilus-as-federated-knowledge-substrate)
+  - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
+  - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
+  - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
+
+---
+
 <!-- tags: rag, architecture -->
 
 

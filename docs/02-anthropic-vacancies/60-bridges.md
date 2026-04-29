@@ -14,6 +14,8 @@
 > **Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `pro2/passport.md`).
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

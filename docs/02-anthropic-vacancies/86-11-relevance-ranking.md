@@ -14,6 +14,8 @@
 > v1.1 нормализует алгоритм ранжирования из reference implementation.
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

@@ -29,6 +29,16 @@
 > - **2026-04: v1.0.0-draft** — Initial draft published.
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Appendix B: Change Log](#appendix-b-change-log)
+  - [Комментарий к документу](#комментарий-к-документу)
+  - [Паспорт 1 из 3](#паспорт-1-из-3)
+
+---
+
 <!-- tags: security, architecture, collaboration -->
 
 

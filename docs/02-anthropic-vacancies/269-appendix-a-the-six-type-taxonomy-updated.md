@@ -15,6 +15,8 @@
 > This paper updates the Professional Colleague Agents v1.0
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

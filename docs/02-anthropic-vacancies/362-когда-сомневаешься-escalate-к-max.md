@@ -18,3 +18,11 @@
 - Anything outside established patterns
 
 Просто say: «Это decision уровня Max. Я могу draft analysis, но финальный call за ним.»
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
+

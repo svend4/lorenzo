@@ -23,3 +23,14 @@ markdown
 - [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md) (сходство 0.12)
 - [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [304-ingit-as-cowork-native-workspace-substrate-md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte](docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+

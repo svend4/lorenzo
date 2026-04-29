@@ -53,8 +53,10 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
+- [research-summary](docs/autofilled/research-summary.md)
 - [contact-outreach](docs/templates/contact-outreach.md)
 - [project-component](docs/templates/project-component.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
 
 
 <!-- similar-docs -->
