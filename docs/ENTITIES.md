@@ -7,136 +7,125 @@
 
 | Имя | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Lorenzo** | 2737 | 143 |
-| **svend4** | 1340 | 238 |
-| **spbmolot** | 176 | 56 |
-| **kksudo** | 173 | 55 |
-| **Андрей** | 127 | 40 |
-| **Виталий** | 52 | 29 |
-| **Антропик** | 10 | 7 |
+| **svend4** | 2141 | 251 |
+| **Lorenzo** | 1832 | 202 |
+| **kksudo** | 492 | 130 |
+| **spbmolot** | 452 | 124 |
+| **Андрей** | 158 | 45 |
+| **Виталий** | 75 | 28 |
+| **Антропик** | 58 | 31 |
 
 ## Проекты (22)
 
 | Проект | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Nautilus** | 7881 | 508 |
-| **Svyazi** | 4763 | 313 |
-| **Lorenzo** | 2737 | 143 |
-| **Cowork** | 2678 | 170 |
-| **ingit** | 2453 | 145 |
-| **SGB** | 1134 | 199 |
-| **Yodoca** | 734 | 139 |
-| **CardIndex** | 730 | 137 |
-| **AgentFS** | 676 | 99 |
-| **NGT** | 665 | 152 |
-| **knowledge-space** | 564 | 100 |
-| **MemNet** | 539 | 139 |
-| **mclaude** | 407 | 87 |
-| **Rufler** | 385 | 83 |
-| **LiteParse** | 344 | 79 |
-| **AI Factory** | 283 | 72 |
-| **SENTINEL** | 268 | 67 |
-| **Wikontic** | 192 | 48 |
-| **Firecrawl** | 114 | 20 |
-| **agent-memory-mcp** | 104 | 37 |
-| **Shield** | 48 | 13 |
-| **MCP Tool Search** | 14 | 7 |
+| **Svyazi** | 4730 | 281 |
+| **Nautilus** | 4225 | 429 |
+| **ingit** | 3561 | 271 |
+| **Cowork** | 3505 | 261 |
+| **Lorenzo** | 1832 | 202 |
+| **SGB** | 1694 | 228 |
+| **AgentFS** | 1189 | 156 |
+| **NGT** | 1103 | 197 |
+| **CardIndex** | 1064 | 141 |
+| **Yodoca** | 1054 | 166 |
+| **knowledge-space** | 847 | 124 |
+| **Rufler** | 631 | 118 |
+| **SENTINEL** | 573 | 122 |
+| **mclaude** | 556 | 101 |
+| **LiteParse** | 506 | 109 |
+| **AI Factory** | 439 | 92 |
+| **MemNet** | 399 | 82 |
+| **Wikontic** | 336 | 61 |
+| **Firecrawl** | 197 | 24 |
+| **agent-memory-mcp** | 99 | 36 |
+| **MCP Tool Search** | 26 | 10 |
+| **Shield** | 20 | 10 |
 
 ## Организации (9)
 
 | Организация | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Anthropic** | 16842 | 839 |
-| **Claude** | 3542 | 702 |
-| **Habr** | 2921 | 292 |
-| **GitHub** | 1624 | 275 |
-| **Хабр** | 625 | 143 |
-| **Obsidian** | 239 | 85 |
-| **Google** | 85 | 40 |
-| **OpenAI** | 81 | 49 |
-| **ChatGPT** | 71 | 46 |
+| **Anthropic** | 17620 | 857 |
+| **Obsidian** | 5931 | 115 |
+| **GitHub** | 2947 | 290 |
+| **Claude** | 2638 | 375 |
+| **Habr** | 1938 | 168 |
+| **Хабр** | 509 | 85 |
+| **Google** | 109 | 37 |
+| **OpenAI** | 108 | 50 |
+| **ChatGPT** | 90 | 50 |
 
 ## Технологии и стандарты (24)
 
 | Технология | Упоминаний | Файлов |
 |---------|------------|--------|
-| **RAG** | 2303 | 364 |
-| **MCP** | 2287 | 323 |
-| **MIT** | 1740 | 342 |
-| **LLM** | 1166 | 241 |
-| **JSON** | 575 | 127 |
-| **Python** | 422 | 139 |
-| **REST** | 384 | 148 |
-| **CRDT** | 272 | 63 |
-| **YAML** | 261 | 104 |
-| **Rust** | 163 | 83 |
-| **Apache** | 107 | 53 |
-| **BSL** | 103 | 45 |
-| **SQLite** | 84 | 34 |
-| **Mermaid** | 76 | 33 |
-| **PostgreSQL** | 50 | 28 |
-| **TF-IDF** | 48 | 17 |
-| **TypeScript** | 32 | 18 |
-| **LangChain** | 31 | 21 |
-| **FAISS** | 23 | 14 |
-| **WebSocket** | 13 | 10 |
-| **FastAPI** | 10 | 6 |
-| **JWT** | 8 | 6 |
-| **GraphQL** | 6 | 5 |
-| **OAuth** | 4 | 3 |
+| **MCP** | 3058 | 332 |
+| **RAG** | 2778 | 364 |
+| **MIT** | 2253 | 374 |
+| **LLM** | 1295 | 215 |
+| **JSON** | 977 | 175 |
+| **Python** | 592 | 149 |
+| **REST** | 457 | 156 |
+| **YAML** | 331 | 113 |
+| **BSL** | 214 | 83 |
+| **CRDT** | 185 | 41 |
+| **Apache** | 176 | 80 |
+| **Rust** | 152 | 78 |
+| **Mermaid** | 103 | 29 |
+| **SQLite** | 102 | 30 |
+| **TypeScript** | 46 | 25 |
+| **LangChain** | 43 | 25 |
+| **TF-IDF** | 41 | 22 |
+| **FAISS** | 32 | 17 |
+| **PostgreSQL** | 30 | 18 |
+| **WebSocket** | 29 | 17 |
+| **FastAPI** | 21 | 11 |
+| **JWT** | 12 | 8 |
+| **GraphQL** | 11 | 8 |
+| **OAuth** | 9 | 6 |
 
 ## GitHub репозитории (15)
 
 | Репозиторий | Упоминаний |
 |-------------|------------|
-| [https://github.com/svend4/nautilus](https://github.com/svend4/nautilus) | 40 |
-| [https://github.com/svend4/ingit](https://github.com/svend4/ingit) | 13 |
-| [https://github.com/svend4/pro2](https://github.com/svend4/pro2) | 10 |
-| [https://github.com/svend4/info1](https://github.com/svend4/info1) | 8 |
-| [https://github.com/AnastasiyaW/knowledge-space](https://github.com/AnastasiyaW/knowledge-space) | 7 |
-| [https://github.com/svend4/meta](https://github.com/svend4/meta) | 6 |
-| [https://github.com/settings/tokens](https://github.com/settings/tokens) | 5 |
-| [https://github.com/camel-ai/camel](https://github.com/camel-ai/camel) | 5 |
-| [https://github.com/svend4/data70](https://github.com/svend4/data70) | 4 |
-| [https://github.com/anthropics/mcp](https://github.com/anthropics/mcp) | 4 |
-| [https://github.com/svend4/info40](https://github.com/svend4/info40) | 3 |
-| [https://github.com/svend4/info7](https://github.com/svend4/info7) | 3 |
-| [https://github.com/VitalyOborin/yodoca](https://github.com/VitalyOborin/yodoca) | 3 |
-| [https://github.com/spbmolot/ngt-memory](https://github.com/spbmolot/ngt-memory) | 3 |
-| [https://github.com/kksudo/agentfs](https://github.com/kksudo/agentfs) | 3 |
+| [https://github.com/svend4/nautilus](https://github.com/svend4/nautilus) | 56 |
+| [https://github.com/svend4/ingit](https://github.com/svend4/ingit) | 26 |
+| [https://github.com/svend4/pro2](https://github.com/svend4/pro2) | 16 |
+| [https://github.com/svend4/info1](https://github.com/svend4/info1) | 16 |
+| [https://github.com/svend4/meta](https://github.com/svend4/meta) | 12 |
+| [https://github.com/AnastasiyaW/knowledge-space](https://github.com/AnastasiyaW/knowledge-space) | 11 |
+| [https://github.com/svend4/data70](https://github.com/svend4/data70) | 10 |
+| [https://github.com/settings/tokens](https://github.com/settings/tokens) | 8 |
+| [https://github.com/camel-ai/camel](https://github.com/camel-ai/camel) | 8 |
+| [https://github.com/anthropics/mcp](https://github.com/anthropics/mcp) | 8 |
+| [https://github.com/svend4/info7](https://github.com/svend4/info7) | 6 |
+| [https://github.com/svend4/info40](https://github.com/svend4/info40) | 6 |
+| [https://github.com/VitalyOborin/yodoca](https://github.com/VitalyOborin/yodoca) | 5 |
+| [https://github.com/kksudo/agentfs](https://github.com/kksudo/agentfs) | 5 |
+| [https://github.com/spbmolot/ngt-memory](https://github.com/spbmolot/ngt-memory) | 4 |
 
 ## Ко-встречаемость проектов (топ пары)
 
 | Пара | Общих файлов |
 |------|-------------|
-| Cowork ↔ ingit | 136 |
-| Nautilus ↔ SGB | 123 |
-| Svyazi ↔ Yodoca | 123 |
-| Nautilus ↔ Cowork | 119 |
-| Svyazi ↔ CardIndex | 117 |
-| Svyazi ↔ NGT | 117 |
-| Nautilus ↔ ingit | 109 |
-| Yodoca ↔ NGT | 102 |
-| Svyazi ↔ AgentFS | 90 |
-| Svyazi ↔ MemNet | 90 |
-| Nautilus ↔ MemNet | 84 |
-| Svyazi ↔ knowledge-space | 84 |
-| CardIndex ↔ NGT | 84 |
-| Svyazi ↔ mclaude | 82 |
-| Nautilus ↔ Svyazi | 81 |
-| Yodoca ↔ CardIndex | 81 |
-| AgentFS ↔ NGT | 80 |
-| Svyazi ↔ Rufler | 79 |
-| Yodoca ↔ AgentFS | 78 |
-| CardIndex ↔ AgentFS | 77 |
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [NETWORK](docs/NETWORK.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [GRAPH](docs/GRAPH.md)
-- [CONTACTS](docs/CONTACTS.md)
-
+| ingit ↔ Cowork | 220 |
+| Nautilus ↔ Cowork | 193 |
+| Nautilus ↔ ingit | 172 |
+| Svyazi ↔ NGT | 165 |
+| NGT ↔ Yodoca | 155 |
+| Svyazi ↔ Yodoca | 150 |
+| Svyazi ↔ AgentFS | 149 |
+| Svyazi ↔ Lorenzo | 148 |
+| Nautilus ↔ SGB | 147 |
+| AgentFS ↔ NGT | 136 |
+| AgentFS ↔ Yodoca | 129 |
+| Svyazi ↔ CardIndex | 121 |
+| ingit ↔ SGB | 119 |
+| Cowork ↔ SGB | 117 |
+| Svyazi ↔ Rufler | 115 |
+| Svyazi ↔ SENTINEL | 115 |
+| NGT ↔ CardIndex | 115 |
+| AgentFS ↔ SENTINEL | 114 |
+| Svyazi ↔ knowledge-space | 112 |
+| AgentFS ↔ CardIndex | 111 |

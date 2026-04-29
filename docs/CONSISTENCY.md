@@ -4,17 +4,16 @@
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
+| **knowledge-space** | `knowledge-space` | `knowledge space` | 15 |
+| **knowledge-space** | `knowledge-space` | `knowledge_space` | 3 |
 | **knowledge-space** | `knowledge-space` | `knowledgespace` | 3 |
-| **knowledge-space** | `knowledge-space` | `knowledge space` | 16 |
-| **knowledge-space** | `knowledge-space` | `knowledge_space` | 2 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 21 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 38 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 18 |
-| **local-first** | `local-first` | `localfirst` | 3 |
-| **self-improvement** | `self-improvement` | `self-improve` | 155 |
-| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 17 |
-| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 14 |
+| **CardIndex** | `CardIndex` | `card-index` | 3 |
+| **AI Factory** | `AI Factory` | `AI-Factory` | 6 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 54 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 5 |
+| **self-improvement** | `self-improvement` | `self-improve` | 145 |
+| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 4 |
 
 **Всего несогласованных написаний: 291**
 
@@ -33,9 +32,9 @@
 - `docs/TABLES.md`
 - `docs/SITEMAP.md`
 - `docs/CONCEPTS.md`
-- `docs/CONSISTENCY.md`
-- `docs/OUTLINE.md`
-- _...и ещё 11_
+- `docs/obsidian/CONSISTENCY.md`
+- `docs/obsidian/CONCEPTS.md`
+- _...и ещё 10_
 
 ### `knowledge_space` → должно быть `knowledge-space`
 
@@ -77,12 +76,12 @@
 
 ### `self-improve` → должно быть `self-improvement`
 
-- `docs/READING_LIST.md`
-- `docs/CONTACTS.md`
-- `docs/PARAGRAPH_QUALITY.md`
-- `docs/LLM_SUMMARIES.md`
-- `docs/SPELLCHECK.md`
-- _...и ещё 150_
+- `docs/FOOTNOTES.md`
+- `docs/CONSISTENCY.md`
+- `docs/READING_TIME.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/TABLES.md`
+- _...и ещё 140_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
@@ -115,14 +114,3 @@
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [MISSING](docs/MISSING.md)
-- [TAGS](docs/TAGS.md)
-- [STATS](docs/STATS.md)
-- [VERSION_DIFF](docs/VERSION_DIFF.md)
-

@@ -1,12 +1,21 @@
 # 10. Open Questions
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Open Questions(10-open-questions) - 10.1.
-> ✅ **Результат:** What are appropriate trust hierarchies between principal-owned and platform-provided agents?
-> 🏷️ **Ключевые слова:** `questions`, `agents`, `anthropic`, `vacancies`, `agent`, `closing`, `economic`, `legal`
->
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [10. Open Questions](#10-open-questions)
+  - [10.1. Technical Questions](#101-technical-questions)
+  - [10.2. Economic Questions](#102-economic-questions)
+  - [10.3. Legal Questions](#103-legal-questions)
+  - [10.4. Social Questions](#104-social-questions)
+  - [10.5. Philosophical Questions](#105-philosophical-questions)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
 
 
 <!-- toc-auto -->

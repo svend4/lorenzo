@@ -1,13 +1,20 @@
 # 6. Adapter Interface
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Type Safety Reference implementation требует mypy-clean код.
-> 🔧 **Подход:** Type Safety(64-type-safety) !IMPORTANT Ключевой документ для понимания архитектуры.
-> ✅ **Результат:** Implementation MUST: - Возвращать пустой список или fallback-entries, если ничего не найдено (NOT None, NOT raise exception) - Ограничить результат разумным числом (SHOULD ≤ 100) -
-> 🏷️ **Ключевые слова:** `adapter`, `interface`, `structure`, `portalentry`, `anthropic`, `vacancies`, `query`, `required`
->
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Adapter Interface](#6-adapter-interface)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. `fetch(query)` — Required](#62-fetchquery-required)
+  - [6.3. `describe()` — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
 
 
 <!-- toc-auto -->

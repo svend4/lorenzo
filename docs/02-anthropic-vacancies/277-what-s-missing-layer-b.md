@@ -13,6 +13,18 @@
 > Between chat and repository, there should exist Layer B: an
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [What's Missing — Layer B](#whats-missing-layer-b)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture -->
 
 

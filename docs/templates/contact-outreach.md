@@ -54,3 +54,14 @@ tags: [контакты, команда]
 
 ---
 _Создано: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vladspace](docs/obsidian/contacts/vladspace.md)
+- [cutcode](docs/obsidian/contacts/cutcode.md)
+- [dmitriila](docs/obsidian/contacts/dmitriila.md)
+- [mixaill76](docs/obsidian/contacts/mixaill76.md)
+

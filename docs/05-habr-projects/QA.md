@@ -91,14 +91,4 @@ _Не найдено в этом файле._
 - [QA](docs/04-ai-collaborations/QA.md) (сходство 0.40)
 - [QA](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/QA.md) (сходство 0.32)
 
-
-
-<!-- footnotes-added -->
-
----
-
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+Упоминаются: **архитектурный**, **шаблон**, **контакт**

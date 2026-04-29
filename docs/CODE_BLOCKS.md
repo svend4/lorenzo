@@ -147,32 +147,33 @@ _`docs/CONCEPT_GRAPH.md` | 101 строк_
 
 ```mermaid
 graph TD
-    docs["docs\n(995)"]
-    anthropic["anthropic\n(791)"]
-    claude["claude\n(502)"]
-    summary["summary\n(497)"]
-    vacancies["vacancies\n(474)"]
-    источник["источник\n(467)"]
-    mhtml["mhtml\n(411)"]
-    снимок["снимок\n(400)"]
-    репозитория("репозитория\n(387)")
-    корень["корень\n(377)"]
-    agent{{"agent\n(358)"}}
-    tags["tags\n(352)"]
-    nautilus["nautilus\n(321)"]
-    раздел["раздел\n(310)"]
-    вакансии["вакансии\n(305)"]
-    кластерам["кластерам\n(295)"]
-    диалога["диалога\n(269)"]
-    svyazi("svyazi\n(250)")
-    knowledge["knowledge\n(243)"]
-    architecture["architecture\n(236)"]
-    сходство["сходство\n(235)"]
-    memory[("memory\n(193)")]
-    collaboration["collaboration\n(189)"]
-    habr["habr\n(167)"]
-    layer[/"layer\n(159)"/]
-    work["work\n(158)"]
+    auto["auto\n(299)"]
+    документы["документы\n(261)"]
+    summary["summary\n(245)"]
+    tags["tags\n(200)"]
+    anthropic["anthropic\n(190)"]
+    сходство["сходство\n(184)"]
+    appendix["appendix\n(144)"]
+    agent{{"agent\n(131)"}}
+    nautilus["nautilus\n(128)"]
+    knowledge["knowledge\n(125)"]
+    architecture["architecture\n(119)"]
+    svyazi("svyazi\n(116)")
+    contents["contents\n(116)"]
+    ingit["ingit\n(103)"]
+    portal["portal\n(99)"]
+    cowork["cowork\n(93)"]
+    collaboration["collaboration\n(90)"]
+    docs["docs\n(88)"]
+    agents{{"agents\n(88)"}}
+    protocol[/"protocol\n(79)"/]
+    work["work\n(79)"]
+    readme["readme\n(76)"]
+    memory[("memory\n(74)")]
+    layer[/"layer\n(73)"/]
+    what["what\n(71)"]
+    claude["claude\n(65)"]
+    документ["документ\n(
 # ... (обрезано)
 ```
 
@@ -1720,3 +1721,39 @@ interface Adapter {
 - [CLUSTERS](docs/CLUSTERS.md)
 - [EMPTY_SECTIONS](docs/EMPTY_SECTIONS.md)
 
+| Поле | Значение |
+|------|----------|
+| Репозиторий | / |
+| Формат | `.` — краткое описание |
+| Единица | что является одной записью |
+| Адаптер | `adapters/.py` |
+| Уровень совместимости | <0-3> —  |
+```
+
+### Пример синтаксиса
+_`docs/obsidian/ALERTS.md` | 11 строк_
+
+```markdown
+> [!NOTE]
+> Это заметка.
+
+> [!TIP]
+> Практический совет.
+
+> [!WARNING]
+> Предупреждение.
+
+> [!IMPORTANT]
+> Важная информация.
+```
+
+### Как это работает
+_`docs/obsidian/FOOTNOTES.md` | 3 строк_
+
+```markdown
+Используем MCP[^mcp] для подключения инструментов.
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+```
+
+_...и ещё 1 блоков этого языка_

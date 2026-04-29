@@ -2,57 +2,57 @@
 
 _Порог: 30 дней. Обновлено: 2026-04-29_
 
-Найдено проблем: **258** файлов
+Найдено проблем: **113** файлов
 
-## Без метаданных (нет summary или тегов) — 169 файлов
+## Без метаданных (нет summary или тегов) — 88 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
 | `docs/01-svyazi/00-intro-part2.md` | 5 | нет summary, нет тегов, короткий (5 слов) |
-| `docs/01-svyazi/QA.md` | 255 | нет summary, нет тегов |
-| `docs/01-svyazi/README.md` | 83 | нет тегов, короткий (83 слов) |
-| `docs/02-anthropic-vacancies/102-доступ-к-данным.md` | 20 | нет summary, нет тегов, короткий (20 слов) |
-| `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | 148 | нет тегов |
-| `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 41 | нет тегов, короткий (41 слов) |
-| `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` | 91 | нет summary, нет тегов, короткий (91 слов) |
-| `docs/02-anthropic-vacancies/202-12-заключение.md` | 179 | нет тегов |
-| `docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md` | 93 | нет summary, нет тегов, короткий (93 слов) |
+| `docs/01-svyazi/QA.md` | 277 | нет summary, нет тегов |
+| `docs/01-svyazi/README.md` | 90 | нет тегов, короткий (90 слов) |
 | `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 14 | нет summary, нет тегов, короткий (14 слов) |
-| `docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md` | 140 | нет тегов |
-| `docs/02-anthropic-vacancies/347-твоя-миссия.md` | 110 | нет тегов |
-| `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` | 178 | нет тегов |
-| `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | 77 | нет тегов, короткий (77 слов) |
-| `docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md` | 75 | нет тегов, короткий (75 слов) |
-| `docs/02-anthropic-vacancies/QA.md` | 362 | нет summary, нет тегов |
-| `docs/03-technology-combinations/QA.md` | 146 | нет summary, нет тегов |
-| `docs/03-technology-combinations/README.md` | 38 | нет тегов, короткий (38 слов) |
-| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
-| `docs/04-ai-collaborations/README.md` | 78 | нет summary, нет тегов, короткий (78 слов) |
+| `docs/02-anthropic-vacancies/QA.md` | 360 | нет summary, нет тегов |
+| `docs/03-technology-combinations/QA.md` | 124 | нет summary, нет тегов |
+| `docs/03-technology-combinations/README.md` | 39 | нет тегов, короткий (39 слов) |
+| `docs/04-ai-collaborations/QA.md` | 282 | нет summary, нет тегов |
+| `docs/04-ai-collaborations/README.md` | 84 | нет summary, нет тегов, короткий (84 слов) |
+| `docs/05-habr-projects/QA.md` | 111 | нет summary, нет тегов |
+| `docs/05-habr-projects/README.md` | 38 | нет summary, нет тегов, короткий (38 слов) |
+| `docs/05-habr-projects/knowledge/README.md` | 10 | нет summary, нет тегов, короткий (10 слов) |
+| `docs/05-habr-projects/memory/README.md` | 17 | нет summary, нет тегов, короткий (17 слов) |
+| `docs/ABBREVIATIONS.md` | 1018 | нет summary, нет тегов |
+| `docs/ACTION_ITEMS.md` | 7160 | нет summary, нет тегов |
+| `docs/ALERTS.md` | 50 | нет summary, нет тегов, короткий (50 слов) |
+| `docs/AUTHORS.md` | 66 | нет summary, нет тегов, короткий (66 слов) |
+| `docs/CHANGELOG.md` | 914 | нет summary, нет тегов |
+| `docs/CODE_BLOCKS.md` | 4580 | нет summary, нет тегов |
+| `docs/COMPARE.md` | 321 | нет summary, нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 89 файлов
+## Короткие (< 100 слов, заготовки) — 25 файлов
 
 | Файл | Слов |
 |------|------|
-| `docs/02-anthropic-vacancies/03-portal-protocol-md.md` | 65 |
-| `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` | 92 |
-| `docs/02-anthropic-vacancies/105-review-methodology-md.md` | 64 |
-| `docs/02-anthropic-vacancies/12-content-overview.md` | 29 |
-| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | 68 |
-| `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` | 88 |
-| `docs/02-anthropic-vacancies/13-angle-perspective.md` | 58 |
-| `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` | 88 |
-| `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` | 62 |
-| `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | 35 |
-| `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | 82 |
-| `docs/02-anthropic-vacancies/137-table-of-contents.md` | 85 |
-| `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | 38 |
-| `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` | 77 |
-| `docs/02-anthropic-vacancies/154-table-of-contents.md` | 70 |
-| `docs/02-anthropic-vacancies/16-history.md` | 71 |
-| `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | 36 |
-| `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | 99 |
-| `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` | 35 |
-| `docs/02-anthropic-vacancies/190-содержание.md` | 88 |
+| `docs/obsidian/01-svyazi/00-intro-part2.md` | 27 |
+| `docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md` | 61 |
+| `docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 77 |
+| `docs/obsidian/02-anthropic-vacancies/16-history.md` | 97 |
+| `docs/obsidian/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 38 |
+| `docs/obsidian/ALERTS.md` | 80 |
+| `docs/obsidian/KPI_HISTORY.md` | 89 |
+| `docs/obsidian/autofilled/components/.md` | 78 |
+| `docs/obsidian/autofilled/components/cowork.md` | 80 |
+| `docs/obsidian/autofilled/components/ingit.md` | 80 |
+| `docs/obsidian/autofilled/components/kksudo.md` | 68 |
+| `docs/obsidian/autofilled/components/lorenzo.md` | 80 |
+| `docs/obsidian/autofilled/components/nautilus.md` | 80 |
+| `docs/obsidian/autofilled/components/sgb.md` | 80 |
+| `docs/obsidian/autofilled/components/spbmolot.md` | 68 |
+| `docs/obsidian/autofilled/components/svend4.md` | 80 |
+| `docs/obsidian/autofilled/components/svyazi.md` | 80 |
+| `docs/obsidian/templates/decision-record.md` | 82 |
+| `docs/obsidian/templates/project-component.md` | 99 |
+| `docs/obsidian/templates/research-note.md` | 77 |
 
 ## Рекомендуемые действия
 

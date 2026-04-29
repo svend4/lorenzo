@@ -1,6 +1,6 @@
 # Индекс «Смотрите также»
 
-**Файлов с блоком See Also:** 1066
+**Файлов с блоком See Also:** 514
 
 ## Ключевые связи
 
@@ -17,20 +17,20 @@
 - **12-roadmap** → `12-дорожная-карта-прототипа-следующей-итерации`, `roadmap`, `14-limitations`, `08-conclusions`
 - **13-contacts** → `13-контактная-стратегия-и-узкие-вопросы-для-авторов`, `narrow-questions`, `CONTACTS`, `05-план-прототипа-и-возможные-контакты`
 - **14-limitations** → `do-not-glue`, `conclusions`, `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать`, `license-tree`
-- **QA** → `CONTACTS`, `integration-spec`, `first-contacts`, `SCHEDULE`
-- **00-intro** → `288-appendix-position-in-series-visualization`, `289-инфраструктура-для-ai-совместной-интеллектуальной-`, `324-ingit-как-cowork-интегрированная-подложка-рабочего`, `229-профессиональные-коллеги-агенты`
-- **01-интегральный-анализ-профиля-svend4** → `00-question-innovations-transitions`, `CONCEPTS`, `TABLES`, `ACTION_ITEMS`
-- **02-общий-план-развития-nautilus-portal-protocol** → `TIMELINE`, `34-appendix-b-change-log`, `133-обратная-связь`, `67-о-проекте`
-- **03-portal-protocol-md** → `73-portal-protocol-md-v1-1`, `152-ai-coordinated-infrastructure-for-distributed-expe`, `135-a-formal-model-for-human-ai-collaboration-in-distr`, `167-ai-mediated-representation-for-underrepresented-ex`
-- **04-abstract** → `74-abstract`, `00-abstract-status`, `105-review-methodology-md`, `65-readme-md`
-- **05-0-status-of-this-document** → `75-0-status-of-this-document`, `42-author-contact`, `62-author-contact`, `03-portal-protocol-md`
-- **06-1-introduction** → `76-1-introduction`, `01-introduction`, `67-о-проекте`, `26-14-adr-001-federation-over-merging`
-- **07-2-terminology** → `77-2-terminology`, `02-terminology`, `08-3-registry-nautilus-json`, `82-7-portalentry-structure`
-- **08-3-registry-nautilus-json** → `78-3-registry-nautilus-json`, `03-registry`, `19-7-portalentry-structure`, `82-7-portalentry-structure`
-- **09-4-passport-passport-md** → `28-appendix-a-minimal-working-example`, `79-4-passport-passport-md`, `04-passport`, `98-appendix-a-minimal-working-example`
-- **103-appendix-b-change-log** → `91-16-mcp-extension-informative`, `41-compatibility-level`, `28-appendix-a-minimal-working-example`, `22-10-queryresult-structure`
-- **104-appendix-c-references** → `22-glossary`, `122-глоссарий`, `34-appendix-b-change-log`, `16-glossary`
-- **105-review-methodology-md** → `28-appendix-a-minimal-working-example`, `65-readme-md`, `188-ai-опосредованное-представительство-для-недопредст`, `125-readme-mcp-md-инструкция-по-установке`
-- **106-tl-dr** → `00-tldr`, `70-зачем-две-версии-параллельно`, `71-критерии-выбора-для-фазы-3`, `28-appendix-a-minimal-working-example`
-- **107-1-контекст-и-мотивация** → `01-context-motivation`, `115-8-ограничения-и-открытые-вопросы`, `116-9-checklist-применения-методологии`, `108-2-формальный-workflow`
-- **108-2-формальный-workflow** → `02-formal-workflow`, `117-10-конкретный-план-применения-к-текущим-документам`, `114-7-реализация-в-проекте-nautilus`, `111-4-условия-применимости`
+- **QA** → `integration-spec`, `first-contacts`, `KNOWLEDGE_MAP`, `ONBOARDING`
+- **README** → `research-summary`
+- **00-intro** → `memnet`, `TABLES`, `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать`, `01-интегральный-анализ-профиля-svend4`
+- **01-интегральный-анализ-профиля-svend4** → `CONCEPTS`, `TABLES`, `00-intro`, `ACTION_ITEMS`
+- **02-общий-план-развития-nautilus-portal-protocol** → `34-appendix-b-change-log`, `122-глоссарий`, `133-обратная-связь`, `67-о-проекте`
+- **03-portal-protocol-md** → `73-portal-protocol-md-v1-1`, `152-ai-coordinated-infrastructure-for-distributed-expe`, `135-a-formal-model-for-human-ai-collaboration-in-distr`, `52-author-contact`
+- **04-abstract** → `74-abstract`, `42-author-contact`, `98-appendix-a-minimal-working-example`, `125-readme-mcp-md-инструкция-по-установке`
+- **05-0-status-of-this-document** → `75-0-status-of-this-document`, `42-author-contact`, `62-author-contact`, `25-13-reference-implementation`
+- **06-1-introduction** → `76-1-introduction`, `26-14-adr-001-federation-over-merging`, `94-19-adr-001-federation-over-merging`, `95-20-adr-002-q6-as-first-class-protocol-concept`
+- **07-2-terminology** → `77-2-terminology`, `08-3-registry-nautilus-json`, `82-7-portalentry-structure`, `98-appendix-a-minimal-working-example`
+- **08-3-registry-nautilus-json** → `78-3-registry-nautilus-json`, `82-7-portalentry-structure`, `19-7-portalentry-structure`, `18-6-adapter-interface`
+- **09-4-passport-passport-md** → `28-appendix-a-minimal-working-example`, `79-4-passport-passport-md`, `98-appendix-a-minimal-working-example`, `41-compatibility-level`
+- **102-доступ-к-данным** → `339-приложение-a-дерево-решений-для-принимающих-ingit`, `348-кому-ты-служишь-слоистая-модель`, `121-appendix-c-история-изменений-методологии`, `118-appendix-a-шаблон-для-header-warning`
+- **103-appendix-b-change-log** → `22-10-queryresult-structure`, `28-appendix-a-minimal-working-example`, `91-16-mcp-extension-informative`, `89-14-sdk-contract-informative`
+- **104-appendix-c-references** → `122-глоссарий`, `34-appendix-b-change-log`, `69-section`, `64-for-the-curious-philosophy`
+- **105-review-methodology-md** → `28-appendix-a-minimal-working-example`, `125-readme-mcp-md-инструкция-по-установке`, `65-readme-md`, `123-portal-mcp-py`
+- **106-tl-dr** → `70-зачем-две-версии-параллельно`, `71-критерии-выбора-для-фазы-3`, `28-appendix-a-minimal-working-example`, `57-native-format`

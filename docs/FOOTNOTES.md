@@ -1,6 +1,6 @@
 # Сноски и определения терминов
 
-**Обновлено файлов:** 4  **Вставлено сносок:** 14
+**Обновлено файлов:** 4  **Вставлено сносок:** 15
 
 ## Словарь сносок
 
@@ -18,8 +18,8 @@
 | **PII** | Personally Identifiable Information — персональные данные | 0 |
 | **RAG** | Retrieval-Augmented Generation — генерация с поиском | 2 |
 | **Rufler** | OSS-проект: оркестратор AI-агентов | 0 |
-| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 1 |
-| **Svyazi** | Главный проект: экосистема AI-компонентов | 2 |
+| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 0 |
+| **Svyazi** | Главный проект: экосистема AI-компонентов | 4 |
 | **TF-IDF** | Term Frequency–Inverse Document Frequency — метрика важности термина | 0 |
 | **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 0 |
 | **knowledge-space** | OSS-проект: база знаний 785+ карточек (MIT) | 0 |
@@ -33,14 +33,3 @@
 
 [^mcp]: Model Context Protocol — протокол для AI-инструментов
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [08-conclusions](docs/01-svyazi/08-conclusions.md)
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
-- [ONBOARDING](docs/ONBOARDING.md)
-

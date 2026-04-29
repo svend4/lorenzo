@@ -4,6 +4,18 @@
 > > 🎯 **Проблема:** Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Appendix A: Comparative Table — Five Agent Types](#appendix-a-comparative-table-five-agent-types)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: anthropic -->
 
 

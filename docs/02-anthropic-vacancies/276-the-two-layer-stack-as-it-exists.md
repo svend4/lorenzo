@@ -18,6 +18,18 @@
 > Currently, AI-collaborative work tends to occur in one of two
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [The Two-Layer Stack As It Exists](#the-two-layer-stack-as-it-exists)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture, anthropic -->
 
 

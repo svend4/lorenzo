@@ -23,9 +23,3 @@
 ![license](docs/badges/license.svg)
 ![branch](docs/badges/branch.svg)
 ```
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Карта зависимостей скриптов](../DEPENDENCY_MAP.md) _15%_
-- [Прогресс MVP](../PROGRESS.md) _15%_
