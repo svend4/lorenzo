@@ -51,7 +51,7 @@ flowchart LR
   end
   subgraph KNOWLEDGE
     AgentFS[AgentFS]
-    knowledge_space[knowledge space]
+    knowledge-space[knowledge-space]
   end
   subgraph MEMORY
     Yodoca[Yodoca]
@@ -75,14 +75,14 @@ flowchart LR
   end
   Svyazi -->|ingest→index| CardIndex
   CardIndex -->|storage| AgentFS
-  AgentFS -->|reference| knowledge_space
+  AgentFS -->|reference| knowledge-space
   Yodoca -->|consolidation| NGT_Memory
   NGT_Memory -->|recall→discovery| Svyazi
   LiteParse -->|evidence| Legal_RAG
   Legal_RAG -->|proof→card| CardIndex
   mclaude -->|coordination| AI_Factory
   AI_Factory -->|orchestration| Rufler
-  Rufler -->|self-improve| AutoResearch
+  Rufler -->|self-improvement| AutoResearch
   LiteLLM -->|gateway→guard| SENTINEL
   Tool_Search -->|lazy-load| LiteLLM
 ```

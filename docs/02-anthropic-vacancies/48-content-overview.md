@@ -4,7 +4,7 @@
 > 1. **Концептуальная база** — [? уточнить объём: сколько концептов,
 
 ---
-<!-- tags: self-improve, collaboration -->
+<!-- tags: self-improvement, collaboration -->
 
 
 

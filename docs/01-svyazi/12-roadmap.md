@@ -4,7 +4,7 @@
 **Проекты:** Svyazi, mclaude, AI Factory, Yodoca, NGT Memory
 
 ---
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improve -->
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement -->
 
 
 

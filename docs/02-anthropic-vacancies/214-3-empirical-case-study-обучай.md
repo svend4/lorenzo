@@ -4,6 +4,22 @@
 > We document a successfully deployed Professional Colleague
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [3. Empirical Case Study: «Обучай»](#3-empirical-case-study-обучай)
+  - [3.1. Background](#31-background)
+  - [3.2. Functional Description](#32-functional-description)
+  - [3.3. Deployment Trajectory](#33-deployment-trajectory)
+  - [3.4. Adoption Pattern](#34-adoption-pattern)
+  - [3.5. Key Design Decisions Documented](#35-key-design-decisions-documented)
+  - [3.6. Stated Philosophy](#36-stated-philosophy)
+  - [3.7. Evidence of Type 1 Properties](#37-evidence-of-type-1-properties)
+  - [3.8. Caveats](#38-caveats)
+
+---
+
 <!-- tags: rag, roadmap -->
 
 

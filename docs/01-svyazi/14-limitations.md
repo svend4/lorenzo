@@ -4,7 +4,7 @@
 **Проекты:** Svyazi, mclaude, AI Factory, Rufler, NGT Memory, AutoResearch, Whisper, Yttri
 
 ---
-<!-- tags: memory, rag, orchestration, ingestion, local-first, architecture, roadmap, self-improve, collaboration -->
+<!-- tags: memory, rag, orchestration, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
 
 
 

@@ -4,7 +4,19 @@
 > The architecture requires three formalized protocols between layers.
 
 ---
-<!-- tags: rag, orchestration, architecture, anthropic, self-improve -->
+
+<!-- toc -->
+## Содержание
+
+- [3. Three Inter-Layer Protocols](#3-three-inter-layer-protocols)
+  - [3.1. Protocol 1 — Human Conducts Assistants](#31-protocol-1-human-conducts-assistants)
+  - [3.2. Protocol 2 — Meta-Agent Coordinates Nodes](#32-protocol-2-meta-agent-coordinates-nodes)
+  - [3.3. Protocol 3 — Assistant-to-Meta Negotiation](#33-protocol-3-assistant-to-meta-negotiation)
+  - [3.4. Protocol Interactions](#34-protocol-interactions)
+
+---
+
+<!-- tags: rag, orchestration, architecture, anthropic, self-improvement -->
 
 
 

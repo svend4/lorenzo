@@ -5,7 +5,63 @@
 **Проекты:** Graph RAG, SENTINEL
 
 ---
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+<!-- toc -->
+## Содержание
+
+  - [AI Research & Engineering — 68 ролей](#ai-research-engineering-68-ролей)
+  - [Sales — 150 ролей (самый большой кластер, ≈34% всего найма)](#sales-150-ролей-самый-большой-кластер-34-всего-найма)
+  - [Finance — 36 ролей](#finance-36-ролей)
+  - [Security — 24 роли](#security-24-роли)
+  - [Marketing & Brand — 23 роли](#marketing-brand-23-роли)
+  - [Engineering & Design - Product — 22 роли](#engineering-design---product-22-роли)
+  - [Software Engineering - Infrastructure — 22 роли](#software-engineering---infrastructure-22-роли)
+  - [Safeguards (Trust & Safety) — 21 роль](#safeguards-trust-safety-21-роль)
+  - [Product Management, Support, & Operations — 17 ролей](#product-management-support-operations-17-ролей)
+  - [Compute — 13 ролей](#compute-13-ролей)
+  - [Legal — 13 ролей](#legal-13-ролей)
+  - [Technical Program Management — 10 ролей](#technical-program-management-10-ролей)
+  - [Communications — 5 ролей](#communications-5-ролей)
+  - [Public Policy — 5 ролей](#public-policy-5-ролей)
+  - [Public Benefit — 4 роли](#public-benefit-4-роли)
+  - [People — 3 роли](#people-3-роли)
+  - [Сводка профиля, как я его вижу](#сводка-профиля-как-я-его-вижу)
+  - [Primary match: Forward Deployed Engineer, Applied AI (EMEA)](#primary-match-forward-deployed-engineer-applied-ai-emea)
+  - [Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments](#secondary-match-applied-ai-engineer-emea-beneficial-deployments)
+  - [Tertiary match: Research Engineer, Agents / Virtual Collaborator (Cowork)](#tertiary-match-research-engineer-agents-virtual-collaborator-cowork)
+  - [Quarternary match: Developer Education Lead / Prompt Engineer, Claude Code](#quarternary-match-developer-education-lead-prompt-engineer-claude-code)
+  - [Что НЕ подходит (честно)](#что-не-подходит-честно)
+  - [Уникальная ниша, которой у Anthropic формально нет](#уникальная-ниша-которой-у-anthropic-формально-нет)
+  - [Практический вывод](#практический-вывод)
+  - [Что на самом деле в data70](#что-на-самом-деле-в-data70)
+  - [Коррекция моего предыдущего ответа](#коррекция-моего-предыдущего-ответа)
+  - [Что это значит для маппинга на Anthropic](#что-это-значит-для-маппинга-на-anthropic)
+  - [Альтернативные пути, которых у меня не было в прошлом ответе](#альтернативные-пути-которых-у-меня-не-было-в-прошлом-ответе)
+  - [Честный reality check](#честный-reality-check)
+  - [Итог](#итог)
+  - [1. svend4/daten ⭐1](#1-svend4daten-1)
+  - [2. svend4/universal-file-storage-mcp ⭐1](#2-svend4universal-file-storage-mcp-1)
+  - [3. svend4/data70 ⭐0](#3-svend4data70-0)
+  - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список)
+  - [Итог по тому, что уже вижу](#итог-по-тому-что-уже-вижу)
+  - [Ключевое наблюдение: ⭐ здесь — это не внешний сигнал](#ключевое-наблюдение-здесь-это-не-внешний-сигнал)
+  - [Naming convention расшифрована](#naming-convention-расшифрована)
+  - [Кластер 1: Legal / Sozialrecht (11 репо)](#кластер-1-legal-sozialrecht-11-репо)
+  - [Кластер 2: Information OS / Rationalisation (≈20 репо)](#кластер-2-information-os-rationalisation-20-репо)
+  - [Кластер 3: AI / Agents / Novel architectures (≈13 репо)](#кластер-3-ai-agents-novel-architectures-13-репо)
+  - [Кластер 4: Archives & Experiments (≈8 репо)](#кластер-4-archives-experiments-8-репо)
+  - [Топ-10 репо, в которые стоит вкладывать время](#топ-10-репо-в-которые-стоит-вкладывать-время)
+  - [Что делать с оставшимися 50](#что-делать-с-оставшимися-50)
+  - [Пришлите страницу 3](#пришлите-страницу-3)
+  - [Критически важный факт, который меняет интерпретацию](#критически-важный-факт-который-меняет-интерпретацию)
+  - [Единственный внешний сигнал — и он неожиданный](#единственный-внешний-сигнал-и-он-неожиданный)
+  - [Последние 10 репо в контексте](#последние-10-репо-в-контексте)
+  - [Финализированный план consolidation на все 70](#финализированный-план-consolidation-на-все-70)
+  - [Итоговая целевая картина](#итоговая-целевая-картина)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 

@@ -4,6 +4,20 @@
 > Composite Skills Agents fit naturally into the OKWF infrastructure
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [9. Integration with OKWF Infrastructure](#9-integration-with-okwf-infrastructure)
+  - [9.1. Connection to Pattern Library](#91-connection-to-pattern-library)
+  - [9.2. Connection to Guild Structure](#92-connection-to-guild-structure)
+  - [9.3. Connection to Double-Triangle Architecture](#93-connection-to-double-triangle-architecture)
+  - [9.4. Connection to Representative Agents](#94-connection-to-representative-agents)
+  - [9.5. Refined OKWF Rollout Plan](#95-refined-okwf-rollout-plan)
+  - [9.6. Practical Implication for Pilot Design](#96-practical-implication-for-pilot-design)
+
+---
+
 <!-- tags: rag, architecture, roadmap -->
 
 

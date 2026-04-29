@@ -4,6 +4,25 @@
 > The Representative Agent pattern applies broadly. We identify
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [4. Ten Domains of Application](#4-ten-domains-of-application)
+  - [4.1. Domain 1 — Knowledge Workers in Distributed Markets](#41-domain-1-knowledge-workers-in-distributed-markets)
+  - [4.2. Domain 2 — Retired Professionals and Volunteers](#42-domain-2-retired-professionals-and-volunteers)
+  - [4.3. Domain 3 — Social Workers Managing Client Caseloads](#43-domain-3-social-workers-managing-client-caseloads)
+  - [4.4. Domain 4 — Vulnerable Citizens Navigating Bureaucracy](#44-domain-4-vulnerable-citizens-navigating-bureaucracy)
+  - [4.5. Domain 5 — Caregivers Managing Dependents](#45-domain-5-caregivers-managing-dependents)
+  - [4.6. Domain 6 — Small Business Owners and Solo Entrepreneurs](#46-domain-6-small-business-owners-and-solo-entrepreneurs)
+  - [4.7. Domain 7 — Patients Managing Chronic Conditions](#47-domain-7-patients-managing-chronic-conditions)
+  - [4.8. Domain 8 — Students Navigating Educational Systems](#48-domain-8-students-navigating-educational-systems)
+  - [4.9. Domain 9 — Communities Negotiating with Institutions](#49-domain-9-communities-negotiating-with-institutions)
+  - [4.10. Domain 10 — Future Generations and Non-Human Stakeholders](#410-domain-10-future-generations-and-non-human-stakeholders)
+  - [4.11. Cross-Cutting Observations](#411-cross-cutting-observations)
+
+---
+
 <!-- tags: rag, ingestion, roadmap -->
 
 

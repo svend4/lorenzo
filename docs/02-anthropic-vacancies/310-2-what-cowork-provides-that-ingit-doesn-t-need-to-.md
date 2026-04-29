@@ -4,6 +4,22 @@
 > If InGit positions to complement Cowork rather than replace
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [2. What Cowork Provides That InGit Doesn't Need to Build](#2-what-cowork-provides-that-ingit-doesnt-need-to-build)
+  - [2.1. Agentic Task Execution](#21-agentic-task-execution)
+  - [2.2. Persistent Memory Across Sessions](#22-persistent-memory-across-sessions)
+  - [2.3. UI for Knowledge Work](#23-ui-for-knowledge-work)
+  - [2.4. Connector Ecosystem](#24-connector-ecosystem)
+  - [2.5. Computer Use Capability](#25-computer-use-capability)
+  - [2.6. Scheduled Recurring Tasks](#26-scheduled-recurring-tasks)
+  - [2.7. Cross-Platform Availability](#27-cross-platform-availability)
+  - [2.8. What This Removes from InGit Roadmap](#28-what-this-removes-from-ingit-roadmap)
+
+---
+
 <!-- tags: architecture, roadmap -->
 
 

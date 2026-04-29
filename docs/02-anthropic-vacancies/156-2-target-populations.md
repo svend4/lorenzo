@@ -4,6 +4,19 @@
 > **Size estimate**: 500K+ in OECD countries with relevant skills
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [2. Target Populations](#2-target-populations)
+  - [2.1. Retired Experts with Remaining Intellectual Capacity](#21-retired-experts-with-remaining-intellectual-capacity)
+  - [2.2. Disabled Specialists with Modified Work Requirements](#22-disabled-specialists-with-modified-work-requirements)
+  - [2.3. Career-Switchers with Non-Traditional Backgrounds](#23-career-switchers-with-non-traditional-backgrounds)
+  - [2.4. Geographically Dispersed Skilled Workers](#24-geographically-dispersed-skilled-workers)
+  - [2.5. Cross-Cutting Observations](#25-cross-cutting-observations)
+
+---
+
 <!-- tags: anthropic -->
 
 

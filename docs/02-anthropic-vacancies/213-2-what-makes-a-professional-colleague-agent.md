@@ -4,6 +4,18 @@
 > We now develop Type 1 in detail.
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [2. What Makes a Professional Colleague Agent](#2-what-makes-a-professional-colleague-agent)
+  - [2.1. Defining Properties](#21-defining-properties)
+  - [2.2. What a Professional Colleague Agent Does](#22-what-a-professional-colleague-agent-does)
+  - [2.3. What a Professional Colleague Agent Does NOT Do](#23-what-a-professional-colleague-agent-does-not-do)
+  - [2.4. The "Colleague" Metaphor](#24-the-colleague-metaphor)
+
+---
+
 <!-- tags: ingestion -->
 
 

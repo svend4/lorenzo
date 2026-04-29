@@ -267,7 +267,7 @@
 - `docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md`
 - _...и ещё 19_
 
-## #self-improve (45 файлов)
+## #self-improvement (45 файлов)
 
 - `docs/01-svyazi/01-executive-summary.md`
 - `docs/01-svyazi/03-component-catalog.md`

@@ -4,6 +4,18 @@
 > The Double-Triangle Architecture is domain-agnostic but benefits
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [6. Four Deployment Domains](#6-four-deployment-domains)
+  - [6.1. Humanities Domain (Legal, Medical, Social)](#61-humanities-domain-legal-medical-social)
+  - [6.2. Project Management Domain](#62-project-management-domain)
+  - [6.3. Open-Source Development Domain](#63-open-source-development-domain)
+  - [6.4. Generic Knowledge Work Domain](#64-generic-knowledge-work-domain)
+
+---
+
 <!-- tags: rag, roadmap, collaboration -->
 
 

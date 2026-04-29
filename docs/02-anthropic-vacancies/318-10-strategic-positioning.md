@@ -4,6 +4,20 @@
 > Closing thoughts on broader strategic implications.
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [10. Strategic Positioning](#10-strategic-positioning)
+  - [10.1. InGit as Niche Player](#101-ingit-as-niche-player)
+  - [10.2. Cowork as Distribution Channel](#102-cowork-as-distribution-channel)
+  - [10.3. Open Source as Sustainability](#103-open-source-as-sustainability)
+  - [10.4. The Bigger Pattern](#104-the-bigger-pattern)
+  - [10.5. Author's Position in This](#105-authors-position-in-this)
+  - [10.6. Closing](#106-closing)
+
+---
+
 <!-- tags: local-first, architecture, roadmap, anthropic, collaboration -->
 
 

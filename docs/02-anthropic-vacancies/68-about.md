@@ -4,6 +4,26 @@
 > Nautilus is a **federation protocol** and reference implementation
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [🇬🇧 About](#about)
+  - [Philosophy](#philosophy)
+  - [Reference Ecosystem: svend4](#reference-ecosystem-svend4)
+  - [Quick Start](#quick-start)
+  - [Connect Your Repository](#connect-your-repository)
+  - [How It Works](#how-it-works)
+  - [Compatibility Levels](#compatibility-levels)
+  - [Documentation](#documentation)
+  - [Project Status](#project-status)
+  - [Why "Nautilus"?](#why-nautilus)
+  - [Related Work](#related-work)
+  - [Licenses](#licenses)
+  - [Contact](#contact)
+
+---
+
 <!-- tags: rag, architecture, anthropic, collaboration -->
 
 

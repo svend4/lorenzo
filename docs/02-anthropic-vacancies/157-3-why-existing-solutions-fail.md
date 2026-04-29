@@ -4,6 +4,22 @@
 > Seven existing infrastructure categories partially address the
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [3. Why Existing Solutions Fail](#3-why-existing-solutions-fail)
+  - [3.1. Classical Employment (Full-Time)](#31-classical-employment-full-time)
+  - [3.2. Freelance Platforms (Upwork, Fiverr, Toptal)](#32-freelance-platforms-upwork-fiverr-toptal)
+  - [3.3. Executive Contracting (Deel, Remote, Oyster, Velocity Global)](#33-executive-contracting-deel-remote-oyster-velocity-global)
+  - [3.4. AI Talent Platforms (Mercor, Braintrust, A.Team)](#34-ai-talent-platforms-mercor-braintrust-ateam)
+  - [3.5. Open-Source Foundations (Apache, Linux, Python, Mozilla)](#35-open-source-foundations-apache-linux-python-mozilla)
+  - [3.6. Government-Funded Training Programs](#36-government-funded-training-programs)
+  - [3.7. Corporate Social Responsibility Programs](#37-corporate-social-responsibility-programs)
+  - [3.8. Summary](#38-summary)
+
+---
+
 <!-- tags: rag, anthropic -->
 
 

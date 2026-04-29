@@ -1,5 +1,21 @@
 # Приоритеты файлов
 
+<!-- toc -->
+## Содержание
+
+- [Топ-50 самых важных файлов](#топ-50-самых-важных-файлов)
+- [Топ-5 по каждому разделу](#топ-5-по-каждому-разделу)
+  - [01-svyazi](#01-svyazi)
+  - [02-anthropic-vacancies](#02-anthropic-vacancies)
+  - [03-technology-combinations](#03-technology-combinations)
+  - [04-ai-collaborations](#04-ai-collaborations)
+  - [05-habr-projects](#05-habr-projects)
+  - [knowledge](#knowledge)
+  - [memory](#memory)
+
+---
+
+
 Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).
 
 **Всего файлов:** 394

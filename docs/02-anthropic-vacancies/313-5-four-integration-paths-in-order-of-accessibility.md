@@ -4,6 +4,19 @@
 > We identify four paths from most-immediate to most-mature.
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [5. Four Integration Paths in Order of Accessibility](#5-four-integration-paths-in-order-of-accessibility)
+  - [5.1. Path 1 — InGit Project in Cowork (Immediate)](#51-path-1-ingit-project-in-cowork-immediate)
+  - [5.2. Path 2 — InGit MCP Server (Short-Term)](#52-path-2-ingit-mcp-server-short-term)
+  - [5.3. Path 3 — InGit Cowork Project Template (Medium-Term)](#53-path-3-ingit-cowork-project-template-medium-term)
+  - [5.4. Path 4 — Deep Cowork Integration (Long-Term)](#54-path-4-deep-cowork-integration-long-term)
+  - [5.5. Sequencing Logic](#55-sequencing-logic)
+
+---
+
 <!-- tags: rag, orchestration, architecture, anthropic -->
 
 

@@ -4,6 +4,19 @@
 > The economics of Composite Skills Agents differ from both
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [7. Economics of Combinatorial Replication](#7-economics-of-combinatorial-replication)
+  - [7.1. Cost Structure](#71-cost-structure)
+  - [7.2. Combinatorial Value](#72-combinatorial-value)
+  - [7.3. Investment Strategy](#73-investment-strategy)
+  - [7.4. Funding Models for Sub-Agent Development](#74-funding-models-for-sub-agent-development)
+  - [7.5. Sustainable Economics for the SGB Pilot](#75-sustainable-economics-for-the-sgb-pilot)
+
+---
+
 <!-- tags: rag, orchestration, roadmap, anthropic -->
 
 

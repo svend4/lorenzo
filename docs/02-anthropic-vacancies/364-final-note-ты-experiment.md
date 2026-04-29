@@ -5,6 +5,20 @@
 **Проекты:** Svyazi, CardIndex, mclaude, Rufler
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Final note: Ты — experiment](#final-note-ты-experiment)
+  - [Что я только что сделал](#что-я-только-что-сделал)
+  - [Что нужно decide перед использованием](#что-нужно-decide-перед-использованием)
+  - [Как использовать этот системный промпт](#как-использовать-этот-системный-промпт)
+  - [Открытые improvements](#открытые-improvements)
+  - [Альтернативы / customizations возможные](#альтернативы-customizations-возможные)
+  - [Что предлагаю как next steps](#что-предлагаю-как-next-steps)
+
+---
+
 <!-- tags: rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, collaboration -->
 
 

@@ -4,6 +4,19 @@
 > Mariya is 67, retired three years ago after 35 years
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Appendix C: Sample Use Cases in Detail](#appendix-c-sample-use-cases-in-detail)
+  - [Use Case 1: Retired Wi-Fi Engineer Becomes Visible](#use-case-1-retired-wi-fi-engineer-becomes-visible)
+  - [Use Case 2: Social Worker Manages Larger Caseload Better](#use-case-2-social-worker-manages-larger-caseload-better)
+  - [Use Case 3: Disabled Citizen Accesses Entitlements](#use-case-3-disabled-citizen-accesses-entitlements)
+  - [Use Case 4: Author of This Paper](#use-case-4-author-of-this-paper)
+  - [Комментарий к этому документу](#комментарий-к-этому-документу)
+
+---
+
 <!-- tags: rag, ingestion, architecture, roadmap, anthropic, collaboration -->
 
 

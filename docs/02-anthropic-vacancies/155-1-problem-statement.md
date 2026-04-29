@@ -4,6 +4,17 @@
 > The AI industry in 2026 exhibits an apparent paradox. Frontier
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [1. Problem Statement](#1-problem-statement)
+  - [1.1. The Paradox of Abundant Demand and Underutilized Supply](#11-the-paradox-of-abundant-demand-and-underutilized-supply)
+  - [1.2. Why This Matters Beyond Economics](#12-why-this-matters-beyond-economics)
+  - [1.3. Why Now](#13-why-now)
+
+---
+
 <!-- tags: anthropic -->
 
 

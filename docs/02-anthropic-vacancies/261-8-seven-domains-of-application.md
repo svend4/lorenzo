@@ -4,6 +4,22 @@
 > Composite Skills Agents apply naturally to professions where
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [8. Seven Domains of Application](#8-seven-domains-of-application)
+  - [8.1. Domain 1 — Music Education and Performance](#81-domain-1-music-education-and-performance)
+  - [8.2. Domain 2 — Visual and Creative Arts](#82-domain-2-visual-and-creative-arts)
+  - [8.3. Domain 3 — Specialized Legal Practice](#83-domain-3-specialized-legal-practice)
+  - [8.4. Domain 4 — Medical Practice with Multiple Specialties](#84-domain-4-medical-practice-with-multiple-specialties)
+  - [8.5. Domain 5 — Technical Architecture and Engineering](#85-domain-5-technical-architecture-and-engineering)
+  - [8.6. Domain 6 — Academic Research and Cross-Disciplinary Work](#86-domain-6-academic-research-and-cross-disciplinary-work)
+  - [8.7. Domain 7 — Therapeutic Practice and Mental Health](#87-domain-7-therapeutic-practice-and-mental-health)
+  - [8.8. Pattern Across Domains](#88-pattern-across-domains)
+
+---
+
 <!-- tags: local-first -->
 
 

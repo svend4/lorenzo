@@ -4,6 +4,18 @@
 > A Representative Agent is distinct from existing AI categories.
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [3. What Makes a Representative Agent](#3-what-makes-a-representative-agent)
+  - [3.1. Three-Layer Distinction](#31-three-layer-distinction)
+  - [3.2. Five Core Functions](#32-five-core-functions)
+  - [3.3. What Distinguishes from Generic Personal AI Assistants](#33-what-distinguishes-from-generic-personal-ai-assistants)
+  - [3.4. The Principal-Agent Relationship](#34-the-principal-agent-relationship)
+
+---
+
 <!-- tags: architecture -->
 
 

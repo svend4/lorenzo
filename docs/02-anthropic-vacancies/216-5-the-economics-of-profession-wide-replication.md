@@ -4,6 +4,19 @@
 > A defining feature of Professional Colleague Agents is that
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [5. The Economics of Profession-Wide Replication](#5-the-economics-of-profession-wide-replication)
+  - [5.1. Cost Structure](#51-cost-structure)
+  - [5.2. Revenue Models](#52-revenue-models)
+  - [5.3. Network Effects and Knowledge Compounding](#53-network-effects-and-knowledge-compounding)
+  - [5.4. Competitive Dynamics](#54-competitive-dynamics)
+  - [5.5. Sustainability Considerations](#55-sustainability-considerations)
+
+---
+
 <!-- tags: rag, architecture -->
 
 

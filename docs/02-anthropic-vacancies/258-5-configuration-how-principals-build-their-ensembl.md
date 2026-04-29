@@ -5,6 +5,19 @@
 
 ---
 
+<!-- toc -->
+## Содержание
+
+- [5. Configuration: How Principals Build Their Ensembles](#5-configuration-how-principals-build-their-ensembles)
+  - [5.1. The Configuration Problem](#51-the-configuration-problem)
+  - [5.2. Three Configuration Approaches](#52-three-configuration-approaches)
+  - [5.3. Hybrid Configuration](#53-hybrid-configuration)
+  - [5.4. Configuration Evolution](#54-configuration-evolution)
+  - [5.5. Templates and Starting Points](#55-templates-and-starting-points)
+
+---
+
+
 
 
 ## 5. Configuration: How Principals Build Their Ensembles

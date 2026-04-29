@@ -4,7 +4,20 @@
 > The infrastructure underlying Composite Skills Agents requires
 
 ---
-<!-- tags: ingestion, roadmap, self-improve -->
+
+<!-- toc -->
+## Содержание
+
+- [4. The Sub-Agent Registry](#4-the-sub-agent-registry)
+  - [4.1. What a Sub-Agent Is](#41-what-a-sub-agent-is)
+  - [4.2. Registry Structure](#42-registry-structure)
+  - [4.3. How Sub-Agents Get Built](#43-how-sub-agents-get-built)
+  - [4.4. The Registry as Public Good](#44-the-registry-as-public-good)
+  - [4.5. Curation and Trust](#45-curation-and-trust)
+
+---
+
+<!-- tags: ingestion, roadmap, self-improvement -->
 
 
 

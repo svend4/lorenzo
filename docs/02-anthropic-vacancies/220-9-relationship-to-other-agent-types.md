@@ -4,7 +4,20 @@
 > Professional Colleague Agents do not stand alone. They
 
 ---
-<!-- tags: orchestration, architecture, roadmap, self-improve -->
+
+<!-- toc -->
+## Содержание
+
+- [9. Relationship to Other Agent Types](#9-relationship-to-other-agent-types)
+  - [9.1. With Personal AI Assistants (Type 0)](#91-with-personal-ai-assistants-type-0)
+  - [9.2. With Institutional Agents (Type 2)](#92-with-institutional-agents-type-2)
+  - [9.3. With Employee Agents (Type 3)](#93-with-employee-agents-type-3)
+  - [9.4. With Representative Agents (Type 4)](#94-with-representative-agents-type-4)
+  - [9.5. Stack-Level View](#95-stack-level-view)
+
+---
+
+<!-- tags: orchestration, architecture, roadmap, self-improvement -->
 
 
 

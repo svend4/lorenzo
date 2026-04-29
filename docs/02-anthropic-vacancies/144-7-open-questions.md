@@ -4,6 +4,20 @@
 > The Double-Triangle Architecture is proposed as a framework, not
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [7. Open Questions](#7-open-questions)
+  - [7.1. Governance and Consent](#71-governance-and-consent)
+  - [7.2. Economics and Incentives](#72-economics-and-incentives)
+  - [7.3. Burnout and Sustainability](#73-burnout-and-sustainability)
+  - [7.4. Scale Limits](#74-scale-limits)
+  - [7.5. AI Capability Dependencies](#75-ai-capability-dependencies)
+  - [7.6. Adversarial Dynamics](#76-adversarial-dynamics)
+
+---
+
 <!-- tags: rag, roadmap -->
 
 

@@ -4,6 +4,19 @@
 > The composite agent's most subtle function is coordinating
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [6. Coordination and Disagreement Resolution](#6-coordination-and-disagreement-resolution)
+  - [6.1. Why Sub-Agents Disagree](#61-why-sub-agents-disagree)
+  - [6.2. Surfacing Versus Resolving](#62-surfacing-versus-resolving)
+  - [6.3. Presentation of Disagreement](#63-presentation-of-disagreement)
+  - [6.4. When the Principal Cannot Decide](#64-when-the-principal-cannot-decide)
+  - [6.5. Learning from Resolution](#65-learning-from-resolution)
+
+---
+
 <!-- tags: rag, ingestion -->
 
 

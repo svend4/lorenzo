@@ -4,6 +4,17 @@
 > - RFC 2119 — Key words for use in RFCs to Indicate Requirement Levels
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Appendix C: References](#appendix-c-references)
+  - [Normative](#normative)
+  - [Informative](#informative)
+  - [Комментарий к документу](#комментарий-к-документу)
+
+---
+
 <!-- tags: memory, rag, ingestion, architecture, roadmap, anthropic, collaboration -->
 
 

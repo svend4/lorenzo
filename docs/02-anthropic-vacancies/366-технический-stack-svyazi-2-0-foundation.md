@@ -1,16 +1,39 @@
-# Технический stack (Svyazi-2.0 foundation)
+# Технический stack (Svyazi 2.0 foundation)
 
 <!-- summary -->
 > Lorenzo's architecture builds on верифицированных open-source компонентах:
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improve, collaboration -->
+
+<!-- toc -->
+## Содержание
+
+- [Технический stack (Svyazi 2.0 foundation)](#технический-stack-svyazi-20-foundation)
+  - [Анализ конкретных компонентов из документа (новых для нас)](#анализ-конкретных-компонентов-из-документа-новых-для-нас)
+  - [Synthesizing с нашим existing landscape](#synthesizing-с-нашим-existing-landscape)
+  - [Strategic implications для Lorenzo](#strategic-implications-для-lorenzo)
+  - [Конкретные next steps](#конкретные-next-steps)
+  - [Ключевые вопросы к вам](#ключевые-вопросы-к-вам)
+  - [Что это за документ — диагностика](#что-это-за-документ-диагностика)
+  - [Главное прозрение этого документа](#главное-прозрение-этого-документа)
+  - [Что критически нового добавляет этот документ](#что-критически-нового-добавляет-этот-документ)
+  - [Критический разбор — что сильно](#критический-разбор-что-сильно)
+  - [Критический разбор — что слабо или missing](#критический-разбор-что-слабо-или-missing)
+  - [Моё honest synthesis](#моё-honest-synthesis)
+  - [Strategic recommendations](#strategic-recommendations)
+  - [Конкретные next steps](#конкретные-next-steps)
+  - [Synthesis наблюдение](#synthesis-наблюдение)
+  - [Ключевые вопросы к вам](#ключевые-вопросы-к-вам)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
 
 
 
 
-## Технический stack (Svyazi-2.0 foundation)
+## Технический stack (Svyazi 2.0 foundation)
 
 Lorenzo's architecture builds on верифицированных open-source компонентах:
 
@@ -229,7 +252,7 @@ follow_up
 - «Редакция сигналов» вместо «парсера профилей»
 - Различает достоверное / предположительное / свежее
 - Critical для quality маркетинговых данных
-Ансамбль G: Federated Local-First Community Graph
+Ансамбль G: Federated local-first Community Graph
 - Распределённое владение
 - Privacy by architecture, не just policy
 - Tiered sharing: private / semi-public / public discovery
@@ -355,7 +378,7 @@ Now у нас 35+ Habr references plus этот документа claims . На
 - Coordinates collaboration
 Документ describes infrastructure , не agent persona . Need to ADD persona layer.
 ### Моё honest synthesis
-После reading both documents (this + previous Svyazi-2.0 survey), вижу clearly:
+После reading both documents (this + previous Svyazi 2.0 survey), вижу clearly:
 Что есть :
 - Отличный technical foundation (Habr stack components)
 - Отличные integration contracts (этот документ)
@@ -367,17 +390,17 @@ Now у нас 35+ Habr references plus этот документа claims . На
 - Synthesis/coordination/publication workflows
 - Beneficial deployment ethics
 - DHLab institutional framing
-Implication : эти documents дают «Svyazi-2.0» как technical platform. Lorenzo это «Svyazi-2.0 + active catalyst persona + mission focus + ethics layer» .
+Implication : эти documents дают «Svyazi 2.0» как technical platform. Lorenzo это «Svyazi 2.0 + active catalyst persona + mission focus + ethics layer» .
 Различие важно:
 ```
-Svyazi-2.0 = passive infrastructure для discovery
+Svyazi 2.0 = passive infrastructure для discovery
 Lorenzo    = active catalyst поверх такой infrastructure
 ```
-Эти complementary , not redundant. Svyazi-2.0 — backbone. Lorenzo — agent that uses backbone к serve mission.
+Эти complementary , not redundant. Svyazi 2.0 — backbone. Lorenzo — agent that uses backbone к serve mission.
 ### Strategic recommendations
 #### Рекомендация 1: Принять documents как дуальный foundation
 Two roles:
-Document 1 (Svyazi-2.0 survey) : Technical inventory Document 2 (этот, integration contracts) : Engineering specification
+Document 1 (Svyazi 2.0 survey) : Technical inventory Document 2 (этот, integration contracts) : Engineering specification
 Both должны save в DHLab repo:
 - docs/SVYAZI-2.0-TECHNICAL-FOUNDATION.md (survey)
 - docs/SVYAZI-2.0-INTEGRATION-CONTRACTS.md (этот документ)

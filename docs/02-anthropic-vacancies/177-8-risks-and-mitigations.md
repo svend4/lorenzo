@@ -4,7 +4,7 @@
 > We address eight categories of risk with specific mitigations.
 
 ---
-<!-- tags: rag, orchestration, ingestion, local-first, self-improve -->
+<!-- tags: rag, orchestration, ingestion, local-first, self-improvement -->
 
 
 

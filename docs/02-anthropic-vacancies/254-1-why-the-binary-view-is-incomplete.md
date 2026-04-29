@@ -4,6 +4,18 @@
 > Professional Colleague Agents (PCA) v1.0 introduced five types
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [1. Why the Binary View Is Incomplete](#1-why-the-binary-view-is-incomplete)
+  - [1.1. The Problem with the Existing Taxonomy](#11-the-problem-with-the-existing-taxonomy)
+  - [1.2. How Mastery Actually Develops](#12-how-mastery-actually-develops)
+  - [1.3. The Architecture That Should Match](#13-the-architecture-that-should-match)
+  - [1.4. Why This Was Not Recognized Earlier](#14-why-this-was-not-recognized-earlier)
+
+---
+
 <!-- tags: ingestion, architecture, roadmap -->
 
 

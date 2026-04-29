@@ -4,6 +4,18 @@
 > The metaphor that crystallizes this pattern comes from a story
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [2. The Twenty-One Teachers Pattern](#2-the-twenty-one-teachers-pattern)
+  - [2.1. The Story](#21-the-story)
+  - [2.2. What This Pattern Reveals](#22-what-this-pattern-reveals)
+  - [2.3. Why This Pattern Generalizes](#23-why-this-pattern-generalizes)
+  - [2.4. AI Architecture Should Mirror This](#24-ai-architecture-should-mirror-this)
+
+---
+
 <!-- tags: local-first -->
 
 

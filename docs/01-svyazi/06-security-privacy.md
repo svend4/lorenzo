@@ -4,7 +4,7 @@
 **Проекты:** Svyazi, AgentFS, AI Factory, agent-memory-mcp, SENTINEL, LiteLLM, Auto AI Router, Tool Search
 
 ---
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improve, collaboration -->
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
 
 
 

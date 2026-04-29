@@ -4,6 +4,19 @@
 > - Establish legal entity (non-profit foundation in Germany or
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [7. Phased Rollout Plan](#7-phased-rollout-plan)
+  - [7.1. Phase 0: Foundation and Funding (Months 1-6)](#71-phase-0-foundation-and-funding-months-1-6)
+  - [7.2. Phase 1: Infrastructure and First Cohort (Months 6-18)](#72-phase-1-infrastructure-and-first-cohort-months-6-18)
+  - [7.3. Phase 2: Scale and Diversification (Months 18-36)](#73-phase-2-scale-and-diversification-months-18-36)
+  - [7.4. Phase 3: Consolidation and Self-Sustaining Operations](#74-phase-3-consolidation-and-self-sustaining-operations)
+  - [7.5. Long-Term Vision (Years 5-10)](#75-long-term-vision-years-5-10)
+
+---
+
 <!-- tags: roadmap -->
 
 

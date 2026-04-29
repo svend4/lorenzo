@@ -4,6 +4,19 @@
 > Double-Triangle systems face a fundamental question: how do
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [5. Pattern Library as Bridge Between Triangles](#5-pattern-library-as-bridge-between-triangles)
+  - [5.1. The Problem of Shared Knowledge](#51-the-problem-of-shared-knowledge)
+  - [5.2. Pattern Library Architecture](#52-pattern-library-architecture)
+  - [5.3. Three Types of Bridges](#53-three-types-of-bridges)
+  - [5.4. Anonymization as Contribution Mechanism](#54-anonymization-as-contribution-mechanism)
+  - [5.5. Why This Architecture Is Critical for Double-Triangle](#55-why-this-architecture-is-critical-for-double-triangle)
+
+---
+
 <!-- tags: security, roadmap -->
 
 

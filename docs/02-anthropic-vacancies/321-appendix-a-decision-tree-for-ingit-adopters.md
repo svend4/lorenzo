@@ -4,7 +4,7 @@
 > Quick reference for users evaluating InGit + Cowork:
 
 ---
-<!-- tags: local-first, self-improve -->
+<!-- tags: local-first, self-improvement -->
 
 
 

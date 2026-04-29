@@ -4,7 +4,7 @@
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improve, collaboration -->
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
 
 
 
@@ -112,7 +112,7 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    A[Claude Code / Cursor / сервисы Svyazi-2.0] --> B[Tool Search]
+    A[Claude Code / Cursor / сервисы Svyazi 2.0] --> B[Tool Search]
     B --> C[LiteLLM gateway]
     C --> D[Auto AI Router]
     D --> E[Локальные модели]

@@ -5,7 +5,43 @@
 **Проекты:** Svyazi, CardIndex, Hybrid RAG, Yodoca, NGT Memory, MemNet, LiteLLM, Auto AI Router
 
 ---
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+<!-- toc -->
+## Содержание
+
+  - [Философский родственник: «LLM как периферия»](#философский-родственник-llm-как-периферия)
+  - [Параллель к MoME-роутингу](#параллель-к-mome-роутингу)
+  - [Источник данных и инфраструктурные кусочки](#источник-данных-и-инфраструктурные-кусочки)
+  - [Что из этого всего слипается в более проработанную схему](#что-из-этого-всего-слипается-в-более-проработанную-схему)
+  - [Пара 1. Нейроморфные процессоры × State Space Models (Mamba/Mamba-2)](#пара-1-нейроморфные-процессоры-state-space-models-mambamamba-2)
+  - [Пара 2. Термодинамические TSU (Extropic, Normal Computing) × MoE/MoME-роутинг](#пара-2-термодинамические-tsu-extropic-normal-computing-moemome-роутинг)
+  - [Пара 3. Кастомный inference engine на Zig/Vulkan (ZINC) × гибрид Attention+SSM+MoE](#пара-3-кастомный-inference-engine-на-zigvulkan-zinc-гибрид-attentionssmmoe)
+  - [Пара 4. RISC-V с аппаратной поддержкой LLM (Alibaba XuanTie C950) × privacy-by-design община](#пара-4-risc-v-с-аппаратной-поддержкой-llm-alibaba-xuantie-c950-privacy-by-design-община)
+  - [Пара 5. TinyML/Edge AI × MCP-протокол + skills-система](#пара-5-tinymledge-ai-mcp-протокол-skills-система)
+  - [Бонус-родитель, который по-разному сочетается со всеми пятью](#бонус-родитель-который-по-разному-сочетается-со-всеми-пятью)
+  - [Метафора, которую ты заложил](#метафора-которую-ты-заложил)
+  - [Пара 1. Workflow-автоматизация × LLM-агенты с MCP](#пара-1-workflow-автоматизация-llm-агенты-с-mcp)
+  - [Пара 2. Local-first PKM (Obsidian/Logseq) × MCP/Skills](#пара-2-local-first-pkm-obsidianlogseq-mcpskills)
+  - [Пара 3. CRDT-синхронизация (Yjs/Automerge) × Self-hosted persistence](#пара-3-crdt-синхронизация-yjsautomerge-self-hosted-persistence)
+  - [Пара 4. Speech-to-text локально × LLM с памятью](#пара-4-speech-to-text-локально-llm-с-памятью)
+  - [Пара 5. Browser agents × headless web extraction](#пара-5-browser-agents-headless-web-extraction)
+  - [Главная рационализация: пять кубиков заменяют стек подписок](#главная-рационализация-пять-кубиков-заменяют-стек-подписок)
+  - [Метафора в твоей терминологии](#метафора-в-твоей-терминологии)
+  - [Пара 1. LLM-gateway × Self-hosted фронт + локальный inference](#пара-1-llm-gateway-self-hosted-фронт-локальный-inference)
+  - [Пара 2. Парсинг документов × локальный RAG](#пара-2-парсинг-документов-локальный-rag)
+  - [Пара 3. Adversarial agents × Multi-IDE стэк](#пара-3-adversarial-agents-multi-ide-стэк)
+  - [Пара 4. Скилл-каталоги × Subagent-оркестрация](#пара-4-скилл-каталоги-subagent-оркестрация)
+  - [Пара 5. Голосовой ввод × Локальная память](#пара-5-голосовой-ввод-локальная-память)
+  - [Пара 6. Деревня агентов через tmux × OpenClaw оркестратор](#пара-6-деревня-агентов-через-tmux-openclaw-оркестратор)
+  - [Пара 7. AutoResearch цикл × Распределённый рой](#пара-7-autoresearch-цикл-распределённый-рой)
+  - [Пара 8. Self-aware MCP × Specs-first архитектура](#пара-8-self-aware-mcp-specs-first-архитектура)
+  - [Ансамбль 1: «Один человек = одна компания»](#ансамбль-1-один-человек-одна-компания)
+  - [Ансамбль 2: «AutoResearch для legal precedent mining»](#ансамбль-2-autoresearch-для-legal-precedent-mining)
+  - [Ансамбль 3: «Discovery-engine для научной работы Max'а»](#ансамбль-3-discovery-engine-для-научной-работы-maxа)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 

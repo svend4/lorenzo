@@ -4,6 +4,19 @@
 > A Professional Colleague Agent has three distinct internal
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [4. Architecture of Professional Colleague Agents](#4-architecture-of-professional-colleague-agents)
+  - [4.1. Three-Layer Internal Architecture](#41-three-layer-internal-architecture)
+  - [4.2. Knowledge Curation Strategies](#42-knowledge-curation-strategies)
+  - [4.3. Update and Versioning](#43-update-and-versioning)
+  - [4.4. Quality Assurance Architecture](#44-quality-assurance-architecture)
+  - [4.5. Integration Standards](#45-integration-standards)
+
+---
+
 <!-- tags: rag, architecture -->
 
 

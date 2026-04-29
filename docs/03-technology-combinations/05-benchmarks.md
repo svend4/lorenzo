@@ -5,6 +5,17 @@
 **Проекты:** Svyazi, Yodoca
 
 ---
+
+<!-- toc -->
+## Содержание
+
+  - [📊Сводная таблица синергии](#сводная-таблица-синергии)
+  - [🎯Главная находка: паттерн "скромные родители → мощные дети"](#главная-находка-паттерн-скромные-родители-мощные-дети)
+  - [КОМБИНАЦИЯ 9: Agent Orchestration Stack](#комбинация-9-agent-orchestration-stack)
+  - [КОМБИНАЦИЯ 10: Legal Document Intelligence Pipeline](#комбинация-10-legal-document-intelligence-pipeline)
+
+---
+
 <!-- tags: memory, rag, orchestration, ingestion, local-first, architecture, collaboration -->
 
 

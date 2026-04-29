@@ -5,7 +5,7 @@
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, Rufler, LiteParse, Legal RAG
 
 ---
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 

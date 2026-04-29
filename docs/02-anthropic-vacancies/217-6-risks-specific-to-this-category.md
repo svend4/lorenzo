@@ -4,6 +4,21 @@
 > Professional Colleague Agents have risks distinct from
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [6. Risks Specific to this Category](#6-risks-specific-to-this-category)
+  - [6.1. Risk: Mediation Collapse](#61-risk-mediation-collapse)
+  - [6.2. Risk: Skill Atrophy in New Practitioners](#62-risk-skill-atrophy-in-new-practitioners)
+  - [6.3. Risk: Standardization Lock-In](#63-risk-standardization-lock-in)
+  - [6.4. Risk: Liability Ambiguity](#64-risk-liability-ambiguity)
+  - [6.5. Risk: Privacy Cascade](#65-risk-privacy-cascade)
+  - [6.6. Risk: Subtle Bias in Knowledge Base](#66-risk-subtle-bias-in-knowledge-base)
+  - [6.7. Risk: Profession Capture by Service Providers](#67-risk-profession-capture-by-service-providers)
+
+---
+
 <!-- tags: local-first, architecture -->
 
 

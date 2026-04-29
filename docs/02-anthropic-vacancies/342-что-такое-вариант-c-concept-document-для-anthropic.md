@@ -5,7 +5,64 @@
 **Проекты:** CardIndex, NGT Memory, Wikontic
 
 ---
-<!-- tags: memory, rag, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+<!-- toc -->
+## Содержание
+
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](#что-такое-вариант-c-concept-document-для-anthropic-beneficial-deployments)
+  - [Контекст](#контекст)
+  - [Что было бы Concept Document](#что-было-бы-concept-document)
+  - [Применение к Synthesis A: Professional Community Matching](#применение-к-synthesis-a-professional-community-matching)
+  - [Что concept document NOT](#что-concept-document-not)
+  - [Length и format](#length-и-format)
+  - [Potential outcomes](#potential-outcomes)
+  - [Effort to produce](#effort-to-produce)
+  - [Что mне нужно знать перед drafting](#что-mне-нужно-знать-перед-drafting)
+  - [Strategic positioning](#strategic-positioning)
+  - [Один critical caveat](#один-critical-caveat)
+  - [Возможный workflow](#возможный-workflow)
+  - [Что выбираете?](#что-выбираете)
+  - [Сначала разбор сценария](#сначала-разбор-сценария)
+  - [На что это структурно похоже](#на-что-это-структурно-похоже)
+  - [Самое близкое сходство — гибрид нескольких pattern](#самое-близкое-сходство-гибрид-нескольких-pattern)
+  - [Архетипические образы](#архетипические-образы)
+  - [Самый точный existing concept](#самый-точный-existing-concept)
+  - [Где это уже происходит частично](#где-это-уже-происходит-частично)
+  - [На что это похоже в будущем — emerging vision](#на-что-это-похоже-в-будущем-emerging-vision)
+  - [Одна historical параллель](#одна-historical-параллель)
+  - [А теперь — что reality outside metaphor](#а-теперь-что-reality-outside-metaphor)
+  - [Этический аспект](#этический-аспект)
+  - [Существующее ethical framework](#существующее-ethical-framework)
+  - [Кому это похоже больше всего: точный ответ](#кому-это-похоже-больше-всего-точный-ответ)
+  - [А reflection — это вы делаете уже?](#а-reflection-это-вы-делаете-уже)
+  - [Что это вам говорит о вашем video](#что-это-вам-говорит-о-вашем-video)
+  - [А practical implications](#а-practical-implications)
+  - [Какие existing examples ближайшие](#какие-existing-examples-ближайшие)
+  - [Финальный ответ на вопрос «на что это больше всего похоже»](#финальный-ответ-на-вопрос-на-что-это-больше-всего-похоже)
+  - [Один important caveat](#один-important-caveat)
+  - [Заключительное предложение](#заключительное-предложение)
+  - [Результаты последнего поиска — что нашлось и что не нашлось](#результаты-последнего-поиска-что-нашлось-и-что-не-нашлось)
+  - [Naming: «Лоренцо ИИ Агент» под «DHLab / Dream Hub»](#naming-лоренцо-ии-агент-под-dhlab-dream-hub)
+  - [Implications для документации](#implications-для-документации)
+  - [Lorenzo specifically: что нужно specifиcate](#lorenzo-specifically-что-нужно-specifиcate)
+  - [Что я думаю practical wise](#что-я-думаю-practical-wise)
+  - [Что Anthropic specifically может найти interesting](#что-anthropic-specifically-может-найти-interesting)
+  - [Вопрос к вам](#вопрос-к-вам)
+  - [Какие следующие шаги предлагаю](#какие-следующие-шаги-предлагаю)
+  - [Какиевариантыдля следующего шага](#какиевариантыдля-следующего-шага)
+  - [Fundamental questions для Lorenzo](#fundamental-questions-для-lorenzo)
+  - [Где сейчас сложности](#где-сейчас-сложности)
+  - [Reframe based on these difficulties](#reframe-based-on-these-difficulties)
+  - [Предлагаемая структура Document 10](#предлагаемая-структура-document-10)
+  - [Прежде чем drafting document — вопросы к вам](#прежде-чем-drafting-document-вопросы-к-вам)
+  - [Что я могу делать прямо now](#что-я-могу-делать-прямо-now)
+  - [Один important reflection](#один-important-reflection)
+  - [Структурированное предложение для vous](#структурированное-предложение-для-vous)
+  - [Direct question](#direct-question)
+
+---
+
+<!-- tags: memory, rag, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 

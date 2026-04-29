@@ -4,7 +4,23 @@
 > Composite Skills Agents inherit some risks from Professional
 
 ---
-<!-- tags: rag, self-improve -->
+
+<!-- toc -->
+## Содержание
+
+- [10. Risks Specific to Composite Architectures](#10-risks-specific-to-composite-architectures)
+  - [10.1. Risk: Configuration Paralysis](#101-risk-configuration-paralysis)
+  - [10.2. Risk: Configuration Echo Chamber](#102-risk-configuration-echo-chamber)
+  - [10.3. Risk: Sub-Agent Dependency](#103-risk-sub-agent-dependency)
+  - [10.4. Risk: Coordinator Bias](#104-risk-coordinator-bias)
+  - [10.5. Risk: Quality Variation Across Sub-Agents](#105-risk-quality-variation-across-sub-agents)
+  - [10.6. Risk: Profession Fragmentation](#106-risk-profession-fragmentation)
+  - [10.7. Risk: Hidden Dependencies Among Sub-Agents](#107-risk-hidden-dependencies-among-sub-agents)
+  - [10.8. Risk: Configuration as Competitive Advantage Hoarding](#108-risk-configuration-as-competitive-advantage-hoarding)
+
+---
+
+<!-- tags: rag, self-improvement -->
 
 
 

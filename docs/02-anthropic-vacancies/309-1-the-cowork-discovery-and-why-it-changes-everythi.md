@@ -4,6 +4,17 @@
 > When Document 2.3 was written earlier in this session, the
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [1. The Cowork Discovery and Why It Changes Everything](#1-the-cowork-discovery-and-why-it-changes-everything)
+  - [1.1. Document 2.3's Position Was Incomplete](#11-document-23s-position-was-incomplete)
+  - [1.2. What Document 2.3 Got Right](#12-what-document-23-got-right)
+  - [1.3. The Strategic Implication](#13-the-strategic-implication)
+
+---
+
 <!-- tags: rag, local-first, architecture, anthropic -->
 
 

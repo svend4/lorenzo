@@ -4,6 +4,21 @@
 > The pattern of representative agents is ancient and recurring.
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [2. Historical Precedents: Agents as Civilizational Innovation](#2-historical-precedents-agents-as-civilizational-innovation)
+  - [2.1. Literary and Performance Agents](#21-literary-and-performance-agents)
+  - [2.2. Sports Agents](#22-sports-agents)
+  - [2.3. Talent Agents in Hollywood](#23-talent-agents-in-hollywood)
+  - [2.4. Civil Service Representation](#24-civil-service-representation)
+  - [2.5. Real Estate Agents](#25-real-estate-agents)
+  - [2.6. Pattern Recognition](#26-pattern-recognition)
+  - [2.7. AI Representative Agents Address These Limits](#27-ai-representative-agents-address-these-limits)
+
+---
+
 <!-- tags: rag, architecture -->
 
 

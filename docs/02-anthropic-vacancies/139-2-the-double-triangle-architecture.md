@@ -4,6 +4,18 @@
 > We formalize the architecture using two triangles sharing a common
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [2. The Double-Triangle Architecture](#2-the-double-triangle-architecture)
+  - [2.1. Topology](#21-topology)
+  - [2.2. Fractal Self-Similarity](#22-fractal-self-similarity)
+  - [2.3. Six Architectural Invariants](#23-six-architectural-invariants)
+- [Bridges](#bridges)
+
+---
+
 <!-- tags: architecture -->
 
 

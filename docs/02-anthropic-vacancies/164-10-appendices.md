@@ -4,6 +4,20 @@
 > **Nautilus Portal Protocol v1.1**:
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [10. Appendices](#10-appendices)
+  - [Appendix A: Comparison Matrix Against Existing Solutions](#appendix-a-comparison-matrix-against-existing-solutions)
+  - [Appendix B: Reference Implementation Status](#appendix-b-reference-implementation-status)
+  - [Appendix C: Founder Biography](#appendix-c-founder-biography)
+  - [Appendix D: Specific Anchor Partnership Proposal to Anthropic](#appendix-d-specific-anchor-partnership-proposal-to-anthropic)
+  - [Appendix E: Key Open Questions for Potential Partners](#appendix-e-key-open-questions-for-potential-partners)
+  - [Appendix F: Document Metadata](#appendix-f-document-metadata)
+
+---
+
 <!-- tags: rag, roadmap, anthropic, collaboration -->
 
 

@@ -4,6 +4,21 @@
 > **Impact**: High (foundational failure)
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [8. Risk Analysis](#8-risk-analysis)
+  - [8.1. Risk: Insufficient Demand from Target Contributor Population](#81-risk-insufficient-demand-from-target-contributor-population)
+  - [8.2. Risk: Insufficient Demand from Clients/Sponsors](#82-risk-insufficient-demand-from-clientssponsors)
+  - [8.3. Risk: Quality Outcomes Insufficient](#83-risk-quality-outcomes-insufficient)
+  - [8.4. Risk: Regulatory Challenges](#84-risk-regulatory-challenges)
+  - [8.5. Risk: Organizational Capacity](#85-risk-organizational-capacity)
+  - [8.6. Risk: Adversarial Participants](#86-risk-adversarial-participants)
+  - [8.7. Comprehensive Risk Assessment](#87-comprehensive-risk-assessment)
+
+---
+
 <!-- tags: rag, roadmap, anthropic -->
 
 

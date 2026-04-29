@@ -4,6 +4,17 @@
 > The Double-Triangle Architecture requires a substrate capable of:
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [4. Nautilus Portal as Reference Substrate](#4-nautilus-portal-as-reference-substrate)
+  - [4.1. NPP Components Mapped to Double-Triangle Requirements](#41-npp-components-mapped-to-double-triangle-requirements)
+  - [4.2. Required Extensions to NPP for Double-Triangle](#42-required-extensions-to-npp-for-double-triangle)
+  - [4.3. Empirical Evidence from Nautilus Reference Implementation](#43-empirical-evidence-from-nautilus-reference-implementation)
+
+---
+
 <!-- tags: rag, knowledge, architecture, collaboration -->
 
 

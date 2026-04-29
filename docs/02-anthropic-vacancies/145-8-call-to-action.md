@@ -4,6 +4,19 @@
 > The Double-Triangle Architecture is a framework awaiting
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [8. Call to Action](#8-call-to-action)
+  - [8.1. For Researchers](#81-for-researchers)
+  - [8.2. For Practitioners](#82-for-practitioners)
+  - [8.3. For Founders and Organizations](#83-for-founders-and-organizations)
+  - [8.4. For Policymakers](#84-for-policymakers)
+  - [8.5. For the First Author](#85-for-the-first-author)
+
+---
+
 <!-- tags: architecture, roadmap, collaboration -->
 
 

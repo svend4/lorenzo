@@ -4,6 +4,17 @@
 > The seven documents produced in this session have specific
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [The Specific Case in Front of Us](#the-specific-case-in-front-of-us)
+  - [What we have](#what-we-have)
+  - [What we need but lack](#what-we-need-but-lack)
+  - [What we can do pragmatically](#what-we-can-do-pragmatically)
+
+---
+
 <!-- tags: rag, anthropic -->
 
 

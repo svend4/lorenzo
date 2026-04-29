@@ -1,4 +1,4 @@
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improve, collaboration -->
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
 
 ## Карта найденных проектов и паттернов
 

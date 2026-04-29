@@ -4,6 +4,18 @@
 > There is a recurring asymmetry in modern markets — markets for
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](#1-the-cinderella-syndrome-why-quality-stays-invisible)
+  - [1.1. The Pattern](#11-the-pattern)
+  - [1.2. Anecdotal Illustration](#12-anecdotal-illustration)
+  - [1.3. Real-World Manifestations](#13-real-world-manifestations)
+  - [1.4. The Structural Solution](#14-the-structural-solution)
+
+---
+
 <!-- tags: architecture -->
 
 

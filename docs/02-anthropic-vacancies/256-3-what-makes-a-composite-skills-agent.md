@@ -4,7 +4,20 @@
 > We define the type with precision.
 
 ---
-<!-- tags: rag, ingestion, architecture, self-improve -->
+
+<!-- toc -->
+## Содержание
+
+- [3. What Makes a Composite Skills Agent](#3-what-makes-a-composite-skills-agent)
+  - [3.1. Defining Properties](#31-defining-properties)
+  - [3.2. What a Composite Skills Agent Does](#32-what-a-composite-skills-agent-does)
+  - [3.3. What a Composite Skills Agent Does NOT Do](#33-what-a-composite-skills-agent-does-not-do)
+  - [3.4. The Twenty-Sub-Agents Constraint](#34-the-twenty-sub-agents-constraint)
+  - [3.5. The Coordinator-Within-Configuration Pattern](#35-the-coordinator-within-configuration-pattern)
+
+---
+
+<!-- tags: rag, ingestion, architecture, self-improvement -->
 
 
 
