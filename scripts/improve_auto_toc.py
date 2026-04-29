@@ -149,8 +149,16 @@ def main() -> None:
     print(f"   Мин. заголовков: {MIN_HEADINGS}  |  Глубина: H2–H{TOC_DEPTH}")
     print(f"   Режим: {'APPLY' if APPLY else 'dry-run'}\n")
 
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from utils_docignore import is_ignored
+    except ImportError:
+        is_ignored = lambda p: False
+
     target = SECTION_FILTER or DOCS
-    files = [f for f in sorted(target.rglob("*.md")) if f.name not in SKIP_FILES]
+    files = [f for f in sorted(target.rglob("*.md"))
+             if f.name not in SKIP_FILES and not is_ignored(f)]
     print(f"   Файлов: {len(files)}\n")
 
     updated = skipped_short = skipped_has = 0
