@@ -1,0 +1,26 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/privacy-federation/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. privacy-federation
+
+_Файлов:_ 5
+
+h2. Содержание
+
+* [00-question-anonymization.md|00-question-anonymization.md] — 
+* [01-what-to-anonymize-german-standard.md|01-what-to-anonymize-german-standard.md] — 
+* [02-two-tier-publication.md|02-two-tier-publication.md] — 
+* [03-what-this-gives-technically.md|03-what-this-gives-technically.md] — > [!WARNING]
+* [04-what-i-can-do-now.md|04-what-i-can-do-now.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/multi-tier-architecture/README.md] (сходство 0.29)
+* [README|docs/nautilus/community-discussions/voiceless-contributors/README.md] (сходство 0.25)
+* [README|docs/nautilus/supply-demand/README.md] (сходство 0.23)
+

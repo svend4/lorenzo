@@ -23,3 +23,13 @@
 - [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md)
 - [08-safeguards-trust-safety](docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.36)
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.33)
+- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md) (сходство 0.32)
+

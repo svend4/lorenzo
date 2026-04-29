@@ -1,0 +1,32 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "nautilus-pro2-analysis"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. nautilus-pro2-analysis
+
+_Файлов:_ 4
+
+h2. Содержание
+
+* [[00-question-two-nautiluses|00-question-two-nautiluses.md]] — 
+* [[01-shell-metaphor-two-projections|01-shell-metaphor-two-projections.md]] — 
+* [[02-nautilus-A-pro2-meta|02-nautilus-A-pro2-meta.md]] — 
+* [[03-nautilus-B-meta-orchestrator|03-nautilus-B-meta-orchestrator.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.27)
+* [[README]] (сходство 0.27)
+* [[README]] (сходство 0.25)
+

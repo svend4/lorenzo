@@ -17,3 +17,13 @@
 - [10-otkrytye-voprosy.md](10-otkrytye-voprosy.md) — <!-- summary -->
 - [11-prizyv-k-sotrudnichestvu.md](11-prizyv-k-sotrudnichestvu.md) — <!-- summary -->
 - [12-zaklyuchenie.md](12-zaklyuchenie.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/representative-agent-layer-ru/README.md) (сходство 0.27)
+- [README](docs/nautilus/ingit-cowork-ru/README.md) (сходство 0.20)
+- [README](docs/nautilus/professional-colleague-agents-en/README.md) (сходство 0.18)
+

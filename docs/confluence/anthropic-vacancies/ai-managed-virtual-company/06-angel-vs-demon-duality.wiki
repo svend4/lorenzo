@@ -1,0 +1,58 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.{quote}
+
+Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
+
+Эта часть вашей мысли — не орнамент, это ядро дизайна, и она незаслуженно редко формулируется в AI-agents литературе. Развёрну почему.
+
+Существующие personal AI coaches (Cursor, Copilot, ChatGPT) работают как помощники-соучастники. Они соглашаются с пользователем, помогают реализовать то, что пользователь уже решил делать. Это создаёт известную проблему: confirmation bias + hallucinated consensus. Пользователь пишет плохой код, AI помогает сделать этот плохой код быстрее. AI никогда не говорит «ты решил не ту задачу» или «твоё решение концептуально неверно».
+
+С другой стороны, существующие code-review tools (SonarQube, Coverity) работают как строгие критики. Они проверяют против правил, но не помогают понять почему правило есть и как решить задачу лучше.
+
+Ваша формулировка объединяет две роли в одного агента с переключением режима, причём переключение триггерится по фазе работы: в фазе brainstorming и early drafting — ангел-хранитель (supportive, exploratory), в фазе review и QA — демон-критик (adversarial, rigorous). Это именно то, что делают хорошие live-менторы. Они знают, когда поддержать ученика, а когда сломать его наивный подход.
+
+Реализация этого в AI-агенте требует явного state machine — агент должен знать, в какой фазе проекта он сейчас, и переключать персону. Большинство существующих agent-frameworks этого не делают, они работают в одном режиме. Ваша идея предлагает конкретный архитектурный инвариант: agent.mode = "mentor" if phase in ["ideation", "drafting"] else "critic" if phase in ["review", "validation"]. Это нетривиальное проектное решение с реальной новизной.
+
+Архитектурные слои, которых вы не обозначили, но которые обязательны
+
+Чтобы ваша модель работала, нужны ещё два слоя, о которых имеет смысл упомянуть.
+
+Слой памяти и координации между суб-агентами. Если у каждого из пяти фрилансеров свой AI-куратор, эти пять кураторов должны между собой общаться. Иначе они дублируют работу, дают противоречивые советы, пропускают integration-bugs. Нужна архитектура shared context — общая память проекта, к которой все пять агентов имеют доступ, плюс протокол коммуникации между ними. Это близко к MCP (Model Context Protocol от Anthropic) + что-то вроде inter-agent message bus. Anthropic Claude Cowork движется ровно в этом направлении, но медленно.
+
+Слой conflict resolution. Что происходит, когда два фрилансера с разными суб-агентами делают несовместимые решения? В классической корпоративной структуре конфликты поднимаются по иерархии — junior → tech lead → manager. В вашей модели мета-агент должен иметь authority разрешать конфликты, но на основании чего? Если мета-агент просто LLM, он склонен к дипломатическому размытию (выбирает compromise, который никому не оптимален). Нужен отдельный механизм — либо human-in-the-loop escalation (живой senior разбирает сложные кейсы), либо objective tests (выбирается то решение, которое прошло больше integration tests), либо weighted voting между несколькими сильными LLM. Это — не решённая проблема в multi-agent systems сегодня.
+
+
+
+----
+
+_Смотрите также:_
+* [00-question-innovations-transitions|docs/nautilus/innovation-transitions/00-question-innovations-transitions.md]
+* [07-current-implementations|docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md]
+* [05-polymath-project-tao-comparison|docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md]
+* [08-pluses-of-model|docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [00-question-innovations-transitions|docs/nautilus/innovation-transitions/00-question-innovations-transitions.md] (сходство 0.23)
+* [07-current-implementations|docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md] (сходство 0.13)
+* [05-polymath-project-tao-comparison|docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md] (сходство 0.13)
+

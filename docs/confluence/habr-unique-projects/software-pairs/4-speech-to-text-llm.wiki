@@ -1,0 +1,51 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Пара 4 — Speech-to-text локально × LLM с памятью
+
+
+{quote}> Источник: MHTML‑снимок {{Поиск уникальных проектов на Хабре для совместной разработки - Claude}} (корень репозитория).{quote}
+_Проекты:_ Yodoca, NGT Memory, MemNet, Whisper
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Поиск уникальных проектов на Хабре для совместной разработки - Claude}} (корень репозитория).{quote}
+
+Пара 4. Speech-to-text локально × LLM с памятью
+
+Родители: Whisper.cpp Георги Герганова (тот же автор llama.cpp, работает от десктопа до телефона), Handy и OpenWhispr (push-to-talk обёртки локально, habr.com/ru/articles/1024634/), GigaAM v3 (русская модель), WhisperX (диаризация), Whisper Notes (Mac/iOS). Параллельно — память Yodoca, NGT Memory, MemNet из прошлых ответов. Поодиночке: транскрипция — это просто текст, без структуры; память — без входного канала. Вместе появляется voice-first second brain.
+
+Дети:
+
+Voice-first second brain — Handy (push-to-talk, Pause-key) + Whisper.cpp + NGT Memory + Obsidian: зажал, надиктовал мысль о деле или о Nautilus, отпустил — текст разобран как у Чуяна (entities извлечены), сохранён в граф памяти, появились wikilinks. На ходу, без печати, без интернета. Для legal — захват пометок после заседания. Для AI/ML research — мгновенная фиксация идеи о Q6 при выходе из метро.
+
+Court hearing analyser с диаризацией — Whisper + voice-эмбеддинги через wespeaker-voxceleb-resnet34-LM (https://habr.com/ru/companies/yoomoney/articles/1012870/) + кастомный MCP-сервер. Запись с заседания Sozialgericht автоматически делится на спикеров (судья / KSV-вертретер / клиент / ты), каждый блок передаётся в соответствующий skill. Полная запись + структурированный протокол + extracted facts — за один проход, без отправки наружу.
+
+Discovery-loop через voice journal — каждый вечер пять минут устного рассказа о дне. Whisper транскрибирует → LLM извлекает события и сущности → Yodoca-консолидатор ночью кристаллизует факты → утром в Obsidian вышли wikilinks к новым связям. Это life-log + research-log в одном пайплайне, без необходимости печатать.
+
+
+
+----
+
+_Смотрите также:_
+* [5-voice-local-memory|docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md]
+* [5-tinyml-mcp-skills|docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md]
+* [3-discovery-research|docs/habr-unique-projects/final-ensembles/3-discovery-research.md]
+* [6-metaphor|docs/habr-unique-projects/software-pairs/6-metaphor.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [5-voice-local-memory|docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md] (сходство 0.42)
+* [3-discovery-research|docs/habr-unique-projects/final-ensembles/3-discovery-research.md] (сходство 0.20)
+* [5-tinyml-mcp-skills|docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md] (сходство 0.18)
+

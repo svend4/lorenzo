@@ -120,3 +120,13 @@ markdown
 - [324-ingit-как-cowork-интегрированная-подложка-рабочего](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
 - [12-blagodarnosti-ssylki](docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [288-appendix-position-in-series-visualization](docs/obsidian/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.40)
+- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.38)
+- [289-инфраструктура-для-ai-совместной-интеллектуальной-](docs/obsidian/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md) (сходство 0.29)
+

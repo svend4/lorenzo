@@ -148,3 +148,13 @@ Active participant target in first three years: 5,000-10,000.
 - [03-why-existing-fail](docs/nautilus/okwf-concept/03-why-existing-fail.md)
 - [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [156-2-target-populations](docs/obsidian/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.88)
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.87)
+- [01-problem-statement](docs/nautilus/okwf-concept/01-problem-statement.md) (сходство 0.21)
+

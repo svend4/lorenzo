@@ -148,3 +148,13 @@ Layer.
 - [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
 - [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/obsidian/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.89)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.88)
+- [02-historical-precedents](docs/nautilus/representative-agent-layer-en/02-historical-precedents.md) (сходство 0.18)
+

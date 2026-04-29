@@ -1,0 +1,25 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/nautilus-pro2-analysis/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. nautilus-pro2-analysis
+
+_Файлов:_ 4
+
+h2. Содержание
+
+* [00-question-two-nautiluses.md|00-question-two-nautiluses.md] — 
+* [01-shell-metaphor-two-projections.md|01-shell-metaphor-two-projections.md] — 
+* [02-nautilus-A-pro2-meta.md|02-nautilus-A-pro2-meta.md] — 
+* [03-nautilus-B-meta-orchestrator.md|03-nautilus-B-meta-orchestrator.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/community-discussions/practical-observations/README.md] (сходство 0.27)
+* [README|docs/lorenzo-agent/scenarios/README.md] (сходство 0.27)
+* [README|docs/nautilus/community-discussions/voiceless-contributors/README.md] (сходство 0.25)
+

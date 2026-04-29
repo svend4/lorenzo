@@ -169,3 +169,13 @@ AI-помощник нет.
 - [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
 - [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [240-9-связь-с-другими-типами-агентов](docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) (сходство 0.88)
+- [240-9-связь-с-другими-типами-агентов](docs/obsidian/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) (сходство 0.86)
+- [01-pyat-tipov](docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md) (сходство 0.16)
+

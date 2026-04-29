@@ -49,3 +49,13 @@ agents/04_strategic_advisor.md — для общей стратегии
 - [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
 - [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md) (сходство 0.34)
+- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md) (сходство 0.32)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.31)
+

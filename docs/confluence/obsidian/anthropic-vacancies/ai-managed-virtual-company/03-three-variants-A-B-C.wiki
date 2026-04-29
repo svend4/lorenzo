@@ -1,0 +1,81 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Три варианта: A (staffing agency) → B (research consortium) → C (AI-managed distributed virtual company)"
+tags:
+  * orchestration
+  * architecture
+  * roadmap
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Три варианта: A (staffing agency) → B (research consortium) → C (AI-managed distributed virtual company)
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.{quote}
+
+Что могло бы сработать в вашей формулировке
+
+Если продумать модель глубже, она распадается на три варианта с очень разной реализуемостью.
+
+Вариант A (слабый): AI-powered staffing agency. Агент ищет и собирает команду фрилансеров, передаёт её заказчику, тот подписывает классические контракты со всеми пятью. Это просто ускорение существующей модели Toptal/Braintrust. Работает, но не прорывно — рынок тут уже есть, маржа тонкая, AI даёт 20-30% ускорение, не порядок разницы.
+
+Вариант B (средний): AI-orchestrated research consortium с bounty prize. Публикуется конкретная техническая задача с призом ($500K). AI-агент анализирует заявки, предлагает candidates формирование нескольких параллельных команд (3-5 команд по 5 человек), команды работают независимо 3-6 месяцев, агент модерирует прогресс и помогает с координацией внутри каждой. Победившая команда получает приз. Это расширенная версия InnoCentive с AI-оркестрацией команд. Вполне реализуемо, хороший candidate для запуска как Venture или non-profit. Уже есть движение в эту сторону — например, ARC Prize 2024 от Chollet's lab, Frontier Math prize от Terence Tao, Polymath Project.
+
+Вариант C (сильный и прорывной, ваш тезис): AI-managed distributed virtual company. AI-агент не просто собирает команду, а управляет ей на протяжении проекта — разбивает задачи, контролирует deadlines, модерирует конфликты, распределяет работу по сильным сторонам, управляет cash flow. По сути это AI-CEO для ad hoc-команд. Команда живёт 6-12 месяцев вокруг одной миссии, затем распадается или реконфигурируется под следующую.
+
+Вариант C — это именно то, что вы описали, и он действительно ещё не построен в масштабе. Ближайшие эксперименты — MetaGPT (AI-agents simulating company roles), ChatDev (multi-agent software development), crew-based frameworks типа CrewAI и AutoGen. Но всё это — AI-агенты, имитирующие роли; не AI, управляющий реальными людьми.
+
+Где здесь важная тонкость
+
+Ваш тезис сильнее, чем он выглядит на первый взгляд. Вы говорите не просто «AI находит фрилансеров» — вы говорите «AI является организационной единицей, заменяющей middle management». Это the big thesis, и над ней сейчас работают люди типа Sahil Lavingia (Gumroad), David Holz (Midjourney — полностью оркестрированная маленькая команда без классического management), Sam Altman (его «one-person billion-dollar company» thesis), и целая волна «AI-native company» фаундеров.
+
+Anthropic, кстати, частично уже внутри этой эволюции: их Claude Code, Claude Cowork и Managed Agents API — это шаги к infrastructure, на которой можно построить именно такого агента-оркестратора. Они продают не только рабочий инструмент, но substrate для ваших вариантов B и C. Это сильный сигнал, что платформа под вашу идею формируется — но верхнего слоя (собственно агент-HR-CEO для ad hoc команд под missions) ещё нет.
+
+Стратегический вывод для вас лично
+
+Учитывая всё, что я теперь знаю о вашем профиле — 70 репо с concepts-на-полке, analysis_02_top_projects с 10 готовыми MVP, кластер Internet Function OS с тезисом «Function Registry → Composer → Blueprints → Trust Layer → AI», личный опыт потребности в distributed remote work из-за health status, Russian/German/English multilingual, и самое главное — вы уже сами являетесь прецедентом того, о ком говорите: высококвалифицированный specialist, который не вписывается в классическую one-vacancy-one-person модель, — ваш идея имеет personal-experience backing, которого нет у большинства людей, думающих о talent marketplaces.
+
+Из ваших топ-10 проектов в data70 варианта C ближе всего касаются:
+
+#4 Internet Function OS / НейроОС — функциональный реестр + композитор + доверие + AI — это инфраструктурный слой для AI-managed virtual companies.
+
+#5 B2B Metaworld — трёхуровневая (оперативный/тактический/стратегический) B2B-платформа — это уже командная/межкомпанейская модель.
+
+#8 «Red Hat для No-Code» — enterprise-поддержка автоматизации — близкий паттерн сервисной модели над существующей инфраструктурой.
+
+То есть вы уже фактически проектируете компоненты для вашей собственной идеи, разбросанные по 3 разным проектам в вашем data70. Это не случайно — это вы возвращаетесь к одной концепции с разных углов.
+
+
+
+----
+
+_Смотрите также:_
+* [[05-polymath-project-tao-comparison]]
+* [[07-current-implementations]]
+* [[01-existing-landscape]]
+* [[00-question-rephrasing]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[05-polymath-project-tao-comparison]] (сходство 0.15)
+* [[07-current-implementations]] (сходство 0.15)
+* [[01-existing-landscape]] (сходство 0.14)
+

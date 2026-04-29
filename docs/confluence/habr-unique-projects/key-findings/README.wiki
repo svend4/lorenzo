@@ -1,0 +1,27 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/habr-unique-projects/key-findings/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. key-findings
+
+_Файлов:_ 6
+
+h2. Содержание
+
+* [01-yodoca.md|01-yodoca.md] — 
+* [02-memnet.md|02-memnet.md] — 
+* [03-pda-llm-as-periphery.md|03-pda-llm-as-periphery.md] — 
+* [04-dochkina-sequential.md|04-dochkina-sequential.md] — 
+* [05-supplementary-infrastructure.md|05-supplementary-infrastructure.md] — 
+* [06-svyazi-2-0-block-map.md|06-svyazi-2-0-block-map.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/obsidian/05-habr-projects/memory/README.md] (сходство 0.25)
+* [README|docs/autofilled/components/README.md] (сходство 0.19)
+* [README|docs/svyazi-2-0/components/README.md] (сходство 0.19)
+

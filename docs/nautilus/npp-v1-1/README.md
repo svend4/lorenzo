@@ -27,3 +27,13 @@
 - [20-adr-002-q6-first-class.md](20-adr-002-q6-first-class.md) — <!-- summary -->
 - [21-adr-003-five-onboarding-paths.md](21-adr-003-five-onboarding-paths.md) — <!-- summary -->
 - [22-glossary.md](22-glossary.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/npp-v1-0/README.md) (сходство 0.60)
+- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) (сходство 0.15)
+- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md) (сходство 0.15)
+

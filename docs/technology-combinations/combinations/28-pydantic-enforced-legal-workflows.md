@@ -76,3 +76,13 @@ ROI: Type-safe legal automation, catches errors before human review
 - [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
 - [23-security-first-code-review-pipeline](docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.30)
+- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md) (сходство 0.28)
+- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md) (сходство 0.28)
+

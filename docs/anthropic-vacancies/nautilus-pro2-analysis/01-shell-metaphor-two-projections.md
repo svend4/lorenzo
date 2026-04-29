@@ -31,3 +31,13 @@
 - [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
 - [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md) (сходство 0.20)
+- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md) (сходство 0.18)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.18)
+

@@ -1,0 +1,33 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "02-reanalysis"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 02-reanalysis
+
+_Файлов:_ 5
+
+h2. Содержание
+
+* [[01-fde-downgraded|01-fde-downgraded.md]] — 
+* [[02-three-overlapping-identities|02-three-overlapping-identities.md]] — 
+* [[03-revised-anthropic-mapping|03-revised-anthropic-mapping.md]] — 
+* [[04-non-anthropic-paths|04-non-anthropic-paths.md]] — > [!TIP]
+* [[05-reality-check-distribution-gap|05-reality-check-distribution-gap.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.24)
+* [[README]] (сходство 0.21)
+* [[README]] (сходство 0.21)
+

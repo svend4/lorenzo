@@ -66,3 +66,13 @@ integration does not.
 - [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
 - [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [278-why-this-hasn-t-been-built](docs/obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) (сходство 0.83)
+- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) (сходство 0.76)
+- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md) (сходство 0.21)
+

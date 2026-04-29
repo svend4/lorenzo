@@ -97,3 +97,13 @@ _Без ключа — автоматическое резюме на основ
 - [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]]
 - [[SITEMAP|Карта репозитория Lorenzo]]
 - [[ONBOARDING|Онбординг — Svyazi 2.0 / Lorenzo]]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[LLM_SUMMARIES]] (сходство 0.87)
+- [[VALIDATION]] (сходство 0.26)
+- [[VALIDATION]] (сходство 0.23)
+

@@ -77,3 +77,13 @@
 - [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
 - [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.41)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.40)
+- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md) (сходство 0.33)
+

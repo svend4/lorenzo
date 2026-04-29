@@ -5,6 +5,70 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <lastBuildDate>Wed, 29 Apr 2026 16:24:14 GMT</lastBuildDate>
+    <item>
+      <title>chore: синхронизировать docs после обновления корпуса</title>
+      <link>https://github.com/svend4/lorenzo/commit/7c83cefc23f0fd01b869a7a530b97e321ed3d608</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/7c83cefc23f0fd01b869a7a530b97e321ed3d608</guid>
+      <pubDate>Wed, 29 Apr 2026 16:17:14 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: синхронизировать docs после обновления корпуса</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/00-intro-part2.md">docs/01-svyazi/00-intro-part2.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/136-abstract.md">docs/02-anthropic-vacancies/136-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/153-executive-summary.md">docs/02-anthropic-vacancies/153-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/16-history.md">docs/02-anthropic-vacancies/16-history.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/168-abstract.md">docs/02-anthropic-vacancies/168-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/18-6-adapter-interface.md">docs/02-anthropic-vacancies/18-6-adapter-interface.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md">docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/210-abstract.md">docs/02-anthropic-vacancies/210-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/223-12-closing.md">docs/02-anthropic-vacancies/223-12-closing.md</a></li></ul><p>Коммит: <code>7c83cefc</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов)</title>
+      <link>https://github.com/svend4/lorenzo/commit/e335cb8fca2369cb7b7904f1eebc104d6964b99d</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/e335cb8fca2369cb7b7904f1eebc104d6964b99d</guid>
+      <pubDate>Wed, 29 Apr 2026 16:10:59 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KNOWLEDGE_MAP.md">docs/KNOWLEDGE_MAP.md</a></li></ul><p>Коммит: <code>e335cb8f</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: sync PROGRESS.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/78e6481d1d436974cf7ef5ec489f2d61093e4410</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/78e6481d1d436974cf7ef5ec489f2d61093e4410</guid>
+      <pubDate>Wed, 29 Apr 2026 10:51:00 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: sync PROGRESS.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>78e6481d</code></p>]]></description>
+    </item>
+    <item>
+      <title>fix: восстановить 24 файла повреждённых GitHub Actions ботом</title>
+      <link>https://github.com/svend4/lorenzo/commit/643d52dedee7baa9f022b8cdaa4ff86824977007</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/643d52dedee7baa9f022b8cdaa4ff86824977007</guid>
+      <pubDate>Wed, 29 Apr 2026 10:50:43 GMT</pubDate>
+      <description><![CDATA[<p><strong>fix: восстановить 24 файла повреждённых GitHub Actions ботом</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/03-technology-combinations/QA.md">docs/03-technology-combinations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/03-technology-combinations/README.md">docs/03-technology-combinations/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/QA.md">docs/04-ai-collaborations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/README.md">docs/04-ai-collaborations/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/QA.md">docs/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/README.md">docs/05-habr-projects/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/knowledge/README.md">docs/05-habr-projects/knowledge/README.md</a></li></ul><p>Коммит: <code>643d52de</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: sync PROGRESS.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/d4d34b4aecafac7060135e2fe6c551a1e8904628</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/d4d34b4aecafac7060135e2fe6c551a1e8904628</guid>
+      <pubDate>Wed, 29 Apr 2026 10:42:45 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: sync PROGRESS.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>d4d34b4a</code></p>]]></description>
+    </item>
+    <item>
+      <title>merge: разрешить конфликты с remote (авто-обновление main)</title>
+      <link>https://github.com/svend4/lorenzo/commit/e713385500becd96d147f1e3b7fbe40077ead2ae</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/e713385500becd96d147f1e3b7fbe40077ead2ae</guid>
+      <pubDate>Wed, 29 Apr 2026 10:42:35 GMT</pubDate>
+      <description><![CDATA[<p><strong>merge: разрешить конфликты с remote (авто-обновление main)</strong></p><p>Коммит: <code>e7133855</code></p>]]></description>
+    </item>
+    <item>
+      <title>docs: auto-update metrics [skip ci]</title>
+      <link>https://github.com/svend4/lorenzo/commit/94be1ad1767d1d96bd1a1e1742156826c4cc13b5</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/94be1ad1767d1d96bd1a1e1742156826c4cc13b5</guid>
+      <pubDate>Wed, 29 Apr 2026 10:36:43 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: auto-update metrics [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/03-technology-combinations/QA.md">docs/03-technology-combinations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/QA.md">docs/04-ai-collaborations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/QA.md">docs/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACTS.md">docs/CONTACTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACT_PRIORITY.md">docs/CONTACT_PRIORITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COST.md">docs/COST.md</a></li></ul><p>Коммит: <code>94be1ad1</code></p>]]></description>
+    </item>
+=======
+    <lastBuildDate>Wed, 29 Apr 2026 17:24:24 GMT</lastBuildDate>
+>>>>>>> origin/main
+    <item>
+      <title>Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA</title>
+      <link>https://github.com/svend4/lorenzo/commit/e1a1f48a681d2b1b7f5defd7fd547431461a5a7f</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/e1a1f48a681d2b1b7f5defd7fd547431461a5a7f</guid>
+      <pubDate>Wed, 29 Apr 2026 17:22:46 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/README.md">docs/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/03-technology-combinations/QA.md">docs/03-technology-combinations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/QA.md">docs/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li></ul><p>Коммит: <code>e1a1f48a</code></p>]]></description>
+    </item>
+    <item>
+=======
     <lastBuildDate>Wed, 29 Apr 2026 17:24:24 GMT</lastBuildDate>
     <item>
       <title>Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA</title>
@@ -14,18 +78,42 @@
       <description><![CDATA[<p><strong>Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/README.md">docs/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/03-technology-combinations/QA.md">docs/03-technology-combinations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/QA.md">docs/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li></ul><p>Коммит: <code>e1a1f48a</code></p>]]></description>
     </item>
     <item>
+>>>>>>> origin/main
       <title>docs: auto-update metrics [skip ci]</title>
       <link>https://github.com/svend4/lorenzo/commit/d4da24260244eafa2b23af5d732bddff6e174889</link>
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/d4da24260244eafa2b23af5d732bddff6e174889</guid>
       <pubDate>Wed, 29 Apr 2026 17:11:35 GMT</pubDate>
       <description><![CDATA[<p><strong>docs: auto-update metrics [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STATS.md">docs/STATS.md</a></li></ul><p>Коммит: <code>d4da2426</code></p>]]></description>
+<<<<<<< HEAD
     </item>
     <item>
+<<<<<<< HEAD
+      <title>docs: auto-update via improve_run_all [skip ci]</title>
+      <link>https://github.com/svend4/lorenzo/commit/f63f1a9fca23733fa687e52d256c3263e82480cf</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/f63f1a9fca23733fa687e52d256c3263e82480cf</guid>
+      <pubDate>Wed, 29 Apr 2026 10:22:25 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: auto-update via improve_run_all [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/143-6-four-deployment-domains.md">docs/02-anthropic-vacancies/143-6-four-deployment-domains.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/279-existing-approximations.md">docs/02-anthropic-vacancies/279-existing-approximations.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md">docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md">docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md">docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md">docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/38-content-overview.md">docs/02-anthropic-vacancies/38-content-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li></ul><p>Коммит: <code>f63f1a9f</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: sync PROGRESS.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/2a9e9403b385b920faf896d9e915fc39a6b0dcc9</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/2a9e9403b385b920faf896d9e915fc39a6b0dcc9</guid>
+      <pubDate>Wed, 29 Apr 2026 10:18:20 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: sync PROGRESS.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>2a9e9403</code></p>]]></description>
+=======
+=======
+    </item>
+    <item>
+>>>>>>> origin/main
       <title>docs: add 10-part processing guide with combined master document</title>
       <link>https://github.com/svend4/lorenzo/commit/c4b470af4a5c5f0fecec417f8dd6d1f443d33bc1</link>
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/c4b470af4a5c5f0fecec417f8dd6d1f443d33bc1</guid>
       <pubDate>Wed, 29 Apr 2026 17:11:06 GMT</pubDate>
       <description><![CDATA[<p><strong>docs: add 10-part processing guide with combined master document</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/01-overview.md">docs/processing-guide/01-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/02-extraction.md">docs/processing-guide/02-extraction.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/03-chunking.md">docs/processing-guide/03-chunking.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/04-structuring.md">docs/processing-guide/04-structuring.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/05-analysis.md">docs/processing-guide/05-analysis.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/06-search.md">docs/processing-guide/06-search.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/07-llm.md">docs/processing-guide/07-llm.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/08-export.md">docs/processing-guide/08-export.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/09-automation.md">docs/processing-guide/09-automation.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/10-future.md">docs/processing-guide/10-future.md</a></li></ul><p>Коммит: <code>c4b470af</code></p>]]></description>
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
+>>>>>>> origin/main
     </item>
     <item>
       <title>merge: resolve conflicts with main (regenerate auto-feeds)</title>
@@ -89,6 +177,61 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/6efb6b90e71e8c5830c8c510396d0669b35341ce</guid>
       <pubDate>Wed, 29 Apr 2026 15:49:36 GMT</pubDate>
       <description><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 36-38</strong></p><p>Коммит: <code>6efb6b90</code></p>]]></description>
+<<<<<<< HEAD
+    </item>
+<<<<<<< HEAD
+=======
+    <item>
+      <title>chore: regenerate auto-feeds after Sprint 33-35</title>
+      <link>https://github.com/svend4/lorenzo/commit/65941440969581f7316e6875cc64bc90ed45e722</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/65941440969581f7316e6875cc64bc90ed45e722</guid>
+      <pubDate>Wed, 29 Apr 2026 15:42:21 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 33-35</strong></p><p>Коммит: <code>65941440</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: regenerate confluence/obsidian REPORT exports</title>
+      <link>https://github.com/svend4/lorenzo/commit/2b1e57d2771599ee5581b32aa9f728e51792472c</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/2b1e57d2771599ee5581b32aa9f728e51792472c</guid>
+      <pubDate>Wed, 29 Apr 2026 15:32:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate confluence/obsidian REPORT exports</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>2b1e57d2</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: regenerate auto-exports after Sprint 30-32</title>
+      <link>https://github.com/svend4/lorenzo/commit/e0233b2695664e649f6d6992f28737c422e4379e</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/e0233b2695664e649f6d6992f28737c422e4379e</guid>
+      <pubDate>Wed, 29 Apr 2026 15:32:16 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 30-32</strong></p><p>Коммит: <code>e0233b26</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: regenerate auto-exports after Sprint 27-29</title>
+      <link>https://github.com/svend4/lorenzo/commit/40f1222e1393d6cf11a9ae5246b4444b708f409e</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/40f1222e1393d6cf11a9ae5246b4444b708f409e</guid>
+      <pubDate>Wed, 29 Apr 2026 15:22:50 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 27-29</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>40f1222e</code></p>]]></description>
+    </item>
+    <item>
+      <title>docs: auto-update metrics [skip ci]</title>
+      <link>https://github.com/svend4/lorenzo/commit/bf2aa84555582cab37cd0c33360d359e6df9ad32</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/bf2aa84555582cab37cd0c33360d359e6df9ad32</guid>
+      <pubDate>Wed, 29 Apr 2026 15:16:12 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: auto-update metrics [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STATS.md">docs/STATS.md</a></li></ul><p>Коммит: <code>bf2aa845</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: regenerate SPELLCHECK.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/471565f1aafe20259dc347b4343d00eea8ef2904</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/471565f1aafe20259dc347b4343d00eea8ef2904</guid>
+      <pubDate>Wed, 29 Apr 2026 15:12:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate SPELLCHECK.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SPELLCHECK.md">docs/SPELLCHECK.md</a></li></ul><p>Коммит: <code>471565f1</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: regenerate READABILITY.md after merge</title>
+      <link>https://github.com/svend4/lorenzo/commit/4bdf6b832d951da21f6105d81404e8686caf6a68</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/4bdf6b832d951da21f6105d81404e8686caf6a68</guid>
+      <pubDate>Wed, 29 Apr 2026 15:12:29 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate READABILITY.md after merge</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/READABILITY.md">docs/READABILITY.md</a></li></ul><p>Коммит: <code>4bdf6b83</code></p>]]></description>
+    </item>
+    <item>
+=======
     </item>
     <item>
       <title>chore: regenerate auto-feeds after Sprint 33-35</title>
@@ -140,11 +283,13 @@
       <description><![CDATA[<p><strong>chore: regenerate READABILITY.md after merge</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/READABILITY.md">docs/READABILITY.md</a></li></ul><p>Коммит: <code>4bdf6b83</code></p>]]></description>
     </item>
     <item>
+>>>>>>> origin/main
       <title>fix: regenerate catalogs (Catalog up-to-date check)</title>
       <link>https://github.com/svend4/lorenzo/commit/8ac2cdaafa9c71d3b9a8c3b83ade54738271eb16</link>
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/8ac2cdaafa9c71d3b9a8c3b83ade54738271eb16</guid>
       <pubDate>Wed, 29 Apr 2026 15:12:17 GMT</pubDate>
       <description><![CDATA[<p><strong>fix: regenerate catalogs (Catalog up-to-date check)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li></ul><p>Коммит: <code>8ac2cdaa</code></p>]]></description>
     </item>
+>>>>>>> origin/main
   </channel>
 </rss>

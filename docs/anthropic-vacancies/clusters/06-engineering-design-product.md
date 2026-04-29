@@ -23,3 +23,13 @@
 - [16-people](docs/anthropic-vacancies/clusters/16-people.md)
 - [04-security](docs/anthropic-vacancies/clusters/04-security.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.40)
+- [16-people](docs/anthropic-vacancies/clusters/16-people.md) (сходство 0.36)
+- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.35)
+

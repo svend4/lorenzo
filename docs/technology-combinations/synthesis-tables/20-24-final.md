@@ -40,3 +40,13 @@
 - [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
 - [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.39)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.35)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.34)
+

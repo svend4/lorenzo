@@ -37,3 +37,13 @@ Claude hat geantwortet: Понял — переключаюсь на софт.
 - [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
 - [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md) (сходство 0.52)
+- [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md) (сходство 0.18)
+- [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md) (сходство 0.16)
+

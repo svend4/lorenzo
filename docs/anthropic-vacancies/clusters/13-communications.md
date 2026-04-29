@@ -23,3 +23,13 @@ Communications Lead для Claude Code и для Anthropic Institute, Communicat
 - [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md)
 - [16-people](docs/anthropic-vacancies/clusters/16-people.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md) (сходство 0.61)
+- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md) (сходство 0.59)
+- [16-people](docs/anthropic-vacancies/clusters/16-people.md) (сходство 0.58)
+

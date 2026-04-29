@@ -358,9 +358,15 @@
 - [95-20-adr-002-q6-as-first-class-protocol-concept.md](95-20-adr-002-q6-as-first-class-protocol-concept.md) — <!-- summary -->
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank.md](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) — <!-- summary -->
 - [97-22-glossary-of-reference-examples.md](97-22-glossary-of-reference-examples.md) — <!-- summary -->
-- [98-appendix-a-minimal-working-example.md](98-appendix-a-minimal-working-example.md) — <!-- toc-auto -->
-- [QA.md](QA.md) — _Автоматически сгенерировано по 355 файлам раздела._
+- [98-appendix-a-minimal-working-example.md](98-appendix-a-minimal-working-example.md) — <!-- abstract-auto -->
+- [QA.md](QA.md) — <!-- summary -->
 
-## Подразделы
+<!-- similar-docs -->
 
-- [clusters/](clusters/) — Кластеры вакансий
+---
+
+**Похожие документы:**
+- [README](docs/obsidian/02-anthropic-vacancies/README.md) (сходство 0.97)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md) (сходство 0.81)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.76)
+

@@ -153,3 +153,13 @@ Cowork не имеет.
 - [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
 - [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [327-1-открытие-cowork-и-почему-это-меняет-всё](docs/obsidian/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.88)
+- [327-1-открытие-cowork-и-почему-это-меняет-всё](docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.85)
+- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md) (сходство 0.15)
+

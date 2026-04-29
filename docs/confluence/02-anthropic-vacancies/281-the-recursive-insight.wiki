@@ -6,6 +6,18 @@
 h1. The Recursive Insight
 
 
+h2. Содержание
+
+* [The Recursive Insight|#the-recursive-insight]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ The Recursive Insight There is something subtle in all this that warrants explicit --- The Recursive Insight There is something subtle in all this that warrants explicit attention.{quote}

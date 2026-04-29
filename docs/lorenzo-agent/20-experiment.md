@@ -38,3 +38,13 @@ End of system prompt.
 - [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md) (сходство 0.27)
+- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md) (сходство 0.27)
+- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md) (сходство 0.27)
+

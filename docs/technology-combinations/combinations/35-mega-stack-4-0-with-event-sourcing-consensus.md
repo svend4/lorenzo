@@ -131,3 +131,13 @@ Alternative: Комбинация 32 (Raft multi-agent) — если нужна 
 - [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
 - [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.49)
+- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.41)
+- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.36)
+

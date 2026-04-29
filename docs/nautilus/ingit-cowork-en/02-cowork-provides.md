@@ -141,3 +141,13 @@ individual developer or small team.
 - [06-refined-ingit-scope](docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md)
 - [01-cowork-discovery](docs/nautilus/ingit-cowork-en/01-cowork-discovery.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.86)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/obsidian/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.85)
+- [06-refined-ingit-scope](docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md) (сходство 0.23)
+

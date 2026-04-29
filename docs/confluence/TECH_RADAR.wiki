@@ -146,3 +146,13 @@ h2. Упоминается в
 * [Глоссарий понятий|CONCEPTS.md]
 * [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md]
 * [Карта репозитория Lorenzo|SITEMAP.md]
+
+
+
+----
+
+_Похожие документы:_
+* [TECH_RADAR|docs/obsidian/TECH_RADAR.md] (сходство 0.92)
+* [ONBOARDING|docs/obsidian/ONBOARDING.md] (сходство 0.21)
+* [COMPONENT_MATRIX|docs/COMPONENT_MATRIX.md] (сходство 0.21)
+

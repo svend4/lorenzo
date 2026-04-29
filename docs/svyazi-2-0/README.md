@@ -23,3 +23,13 @@
 - [`deep-research-report (4).md`](../../deep-research-report%20%284%29.md) — байт-в-байт дубликат (3).
 
 Дубликаты сохранены, как просил пользователь.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/obsidian/04-ai-collaborations/README.md) (сходство 0.18)
+- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.12)
+- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.12)
+

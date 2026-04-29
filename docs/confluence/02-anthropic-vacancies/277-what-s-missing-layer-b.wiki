@@ -6,6 +6,18 @@
 h1. What's Missing — Layer B
 
 
+h2. Содержание
+
+* [What's Missing — Layer B|#whats-missing-layer-b]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ What's Missing — Layer B Between chat and repository, there should exist Layer B: an --- What's Missing — Layer B Between chat and repository, there should exist Layer B: an intell{quote}

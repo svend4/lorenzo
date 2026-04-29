@@ -1,0 +1,48 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/clusters/05-marketing-brand.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Marketing & Brand — 23 роли"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Marketing & Brand — 23 роли
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+Art Director Enterprise, Copy Leads, Customer Marketing (включая Startup Marketing EMEA), Field Marketing, Partner Marketing, Segment Marketing по вертикалям (Financial Services & Insurance, Strategic Accounts), Video Director Product Launches, Developer Community Lead EMEA. Отражает переход от «research lab» к продуктовой компании с B2B-воронкой.
+
+
+
+----
+
+_Смотрите также:_
+* [[13-communications]]
+* [[16-people]]
+* [[15-public-benefit]]
+* [[09-product-management-support-ops]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[13-communications]] (сходство 0.44)
+* [[16-people]] (сходство 0.41)
+* [[15-public-benefit]] (сходство 0.40)
+

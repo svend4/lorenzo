@@ -1,5 +1,10 @@
 # Ансамбль A — Collaboration OS
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory
@@ -45,4 +50,14 @@ flowchart LR
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
 - [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
 - [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
+- [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.20)
 

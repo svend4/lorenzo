@@ -193,3 +193,13 @@ h2. Упоминается в
 * [Все таблицы репозитория|TABLES.md]
 * [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md]
 * [Карта репозитория Lorenzo|SITEMAP.md]
+
+
+
+----
+
+_Похожие документы:_
+* [RISK_REGISTER|docs/obsidian/RISK_REGISTER.md] (сходство 0.94)
+* [COMPONENT_MATRIX|docs/COMPONENT_MATRIX.md] (сходство 0.20)
+* [ONBOARDING|docs/obsidian/ONBOARDING.md] (сходство 0.18)
+

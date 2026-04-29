@@ -23,3 +23,13 @@ Immigration Coordinator, People Operations Lead, Technical Recruiter. Мален
 - [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
 - [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.58)
+- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md) (сходство 0.54)
+- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md) (сходство 0.50)
+

@@ -151,3 +151,13 @@ LiteParse research-docs (1021098) — узел 5
 - [02-minuses-1-10](docs/lorenzo-agent/operationalized/02-minuses-1-10.md)
 - [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.57)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.22)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.21)
+

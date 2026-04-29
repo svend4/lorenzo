@@ -1,0 +1,38 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/ingit-cowork-en/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "ingit-cowork-en"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. ingit-cowork-en
+
+_Файлов:_ 10
+
+h2. Содержание
+
+* [[01-cowork-discovery|01-cowork-discovery.md]] — 
+* [[02-cowork-provides|02-cowork-provides.md]] — 
+* [[03-ingit-provides|03-ingit-provides.md]] — 
+* [[04-symbiotic-architecture|04-symbiotic-architecture.md]] — 
+* [[05-four-integration-paths|05-four-integration-paths.md]] — 
+* [[06-refined-ingit-scope|06-refined-ingit-scope.md]] — 
+* [[07-practical-first-steps|07-practical-first-steps.md]] — 
+* [[08-implications-nautilus-okwf|08-implications-nautilus-okwf.md]] — > [!TIP]
+* [[09-risks-open-questions|09-risks-open-questions.md]] — > [!TIP]
+* [[10-strategic-positioning|10-strategic-positioning.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[308-table-of-contents]] (сходство 0.36)
+* [[308-table-of-contents]] (сходство 0.31)
+* [[README]] (сходство 0.19)
+

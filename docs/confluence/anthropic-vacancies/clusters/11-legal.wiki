@@ -1,0 +1,40 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/clusters/11-legal.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Legal — 13 ролей
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+Commercial Counsel по поднаправлениям (Colocation & Networks, Datacenters & Construction, Compute & Infrastructure, EMEA, GTM), Frontier Counsel (регуляторика передовых моделей), Trade Compliance Counsel, Product Counsel Claude Platform, People Legal. Юридический стек заточен под инфраструктурные сделки + экспортный контроль.
+
+
+
+----
+
+_Смотрите также:_
+* [13-communications|docs/anthropic-vacancies/clusters/13-communications.md]
+* [12-technical-program-management|docs/anthropic-vacancies/clusters/12-technical-program-management.md]
+* [09-product-management-support-ops|docs/anthropic-vacancies/clusters/09-product-management-support-ops.md]
+* [16-people|docs/anthropic-vacancies/clusters/16-people.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [12-technical-program-management|docs/anthropic-vacancies/clusters/12-technical-program-management.md] (сходство 0.43)
+* [13-communications|docs/anthropic-vacancies/clusters/13-communications.md] (сходство 0.41)
+* [09-product-management-support-ops|docs/anthropic-vacancies/clusters/09-product-management-support-ops.md] (сходство 0.38)
+

@@ -1,0 +1,182 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/hermes-comparison/13-reprioritization.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Переприоритизация: что Hermes покрывает / не покрывает / synergy"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Переприоритизация: что Hermes покрывает / не покрывает / synergy
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Research.{quote}
+
+Domain-specific specialization (наша central contribution): Hermes provides general agent; кто-то нужен для строить SGB-specific, medical-specific, education-specific skills и configurations. Documents 5, 6, 7 specify how.
+
+Institutional framework (OKWF): не addressed by Hermes. Наш Document 4 fills this gap.
+
+Federation (Nautilus): not addressed by Hermes. Naval Document 1 fills this gap.
+
+Vulnerable populations focus (Representative Agents): not Hermes's emphasis. Document 5 fills this gap.
+
+Что нужно reconsider:
+
+InGit's positioning: возможно, less InGit-specific MCP server, больше general structured workspace conventions which work с Hermes, Cowork, и других agents.
+
+MCP servers для domain expertise становится более important. Эти portable между Hermes, Cowork, Claude Code, любых MCP-compliant agents. Это где наши Composite Skills Agent specifications matter.
+
+Stop trying to build the agent layer. Hermes и Cowork (и multiple others coming) covered это. Focus на what's still missing: domain expertise, institutional architecture, federation.
+
+Конкретные impact на проект
+
+Если бы я сейчас пере-приоритизировал:
+
+Низкий приоритет (Hermes/Cowork covers это):
+
+Persistent memory infrastructure
+
+Multi-platform reach
+
+Skill creation framework
+
+Agent orchestration
+
+Computer use capability
+
+Высокий приоритет (Hermes/Cowork doesn't cover):
+
+SGB-specific MCP servers (Composite Skills sub-agents)
+
+Pattern Library architecture (Document 1's Nautilus)
+
+OKWF institutional design (Document 4)
+
+Representative Agent-specific governance (Document 5)
+
+Cross-practitioner federation (Document 1's Portal Protocol)
+
+Audit infrastructure для regulated domains
+
+Средний приоритет (synergy possible):
+
+InGit structured workspace conventions
+
+Migration tools между systems
+
+Documentation для bridging Hermes/Cowork users to domain-specific configurations
+
+Практически: что делать сейчас
+
+Учитывая Hermes existence:
+
+Шаг 1: Попробовать Hermes lично. Установить на your Termux/Android setup. Это direct test of whether он лучше matches your workflow than Cowork.
+
+Шаг 2: Compare honestly: Hermes vs Cowork в context vашей actual work. Какой serves better? Возможно both have complementary roles.
+
+Шаг 3: Если Hermes serves better, переориентировать наши documents. Document 2.4 specifically about Cowork integration might need a parallel/replacement document about Hermes integration.
+
+Шаг 4: Focus future development effort на domain-specific MCP servers. Эти работают с обоими Hermes и Cowork. Effort переносим.
+
+Шаг 5: SGB Advocate Colleague pilot становится более concrete. Build SGB MCP server, test с Hermes (locally hosted, privacy-friendly для legal work), test с Cowork (если pilots allow). Pick whichever serves better.
+
+Honest assessment of наших документов с учётом Hermes
+
+Наши девять documents were written predominantly без awareness Hermes. Document 2.3 was explicitly inquiring about missing Layer B; Document 2.4 was about Cowork integration. Hermes was not in our consideration.
+
+Это partial blind spot в нашей analysis. Нечестно было бы pretend, что documents fully accounted for current 2026 landscape.
+
+Однако:
+
+Documents 1, 3, 4, 5 в основном independent of specific agent platform. Their concepts apply regardless of whether Hermes, Cowork, or future agents implement them.
+
+Documents 6, 7 specify architectural patterns which can be implemented in Hermes (через skills + sub-agents) or Cowork (через MCP servers + configurations). Patterns are platform-agnostic.
+
+Documents 2.3, 2.4 are most affected by Hermes existence. They might need revision.
+
+Если бы я писал serию сегодня with knowledge of Hermes, я бы написал additional document specifically about Hermes integration parallel to Document 2.4. Probably Document 2.5 or отдельный paper.
+
+Один особенно важный insight
+
+Hermes implements что-то очень similar to Composite Skills Agent pattern (Document 7), но without our architectural attention to disagreement surfacing, transparent attribution, and principal authority preservation.
+
+Hermes self-improves agents. Skills get better automatically. This is impressive technically. Но questions Document 7 raised:
+
+Когда sub-agents disagree, what does Hermes do?
+
+Does Hermes surface disagreements or auto-resolve?
+
+Does the principal see attribution когда multiple skills contribute?
+
+Does self-improvement preserve principal authority over their work?
+
+Hermes documentation не explicitly addresses these. Это legitimate concern для professional applications (юридическая, медицинская работа), где transparency и principal authority matter.
+
+Это где наш Document 7 adds value, которая не replicated by Hermes. Architectural commitments matter, не just technical capability.
+
+Заключение
+
+Hermes Agent — это впечатляющий и серьёзный проект, который substantially overlaps с тем, что наши documents теоретизируют. В некоторых respects (working software, multi-platform, self-improving), Hermes уже ahead of our specifications.
+
+Однако:
+
+Domain-specific specializations
+
+Institutional framework
+
+Federated architecture
+
+Vulnerable populations focus
+
+Architectural commitments к principal authority
+
+— все остаются distinct contributions наших documents.
+
+Hermes доказывает, что agent infrastructure layer is rapidly maturing. Это actually good news для наших documents, потому что они не должны больше worry about building this layer. Focus shifts к what still needs to be built: domain expertise, institutional support, federation, governance.
+
+Practical next step рекомендация: попробовать Hermes на ваш Termux setup. Compare с Cowork. Decide which serves your actual workflow better. Adjust documents accordingly.
+
+Если хотите, я могу написать дополнительный документ specifically о Hermes — что-то вроде «Hermes Agent and the Open Knowledge Work Foundation Architecture» — который analyzes how наши seven applied documents could be implemented using Hermes infrastructure. Это могло бы быть Document 2.5 в серии. Но возможно лучше сначала experiment с Hermes practically, прежде чем writing more theory о нём.
+
+Что скажете? Хотите ли сделать паузу, попробовать Hermes, потом возвращаться к documents с experience? Или продолжить теоретическую работу сейчас?
+
+Du hast gesagt: https://github.
+
+https://github.com/camel-ai/camel сравнить этого Агента нужно с Агентом Гермес надо сравнить
+
+
+
+----
+
+_Смотрите также:_
+* [[02-what-info-repos-contain]]
+* [[08-implications-nautilus-okwf]]
+* [[12-minuses-of-hermes]]
+* [[10-strategic-positioning]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[02-what-info-repos-contain]] (сходство 0.17)
+* [[04-what-to-take-from-info-repos]] (сходство 0.16)
+* [[08-implications-nautilus-okwf]] (сходство 0.16)
+

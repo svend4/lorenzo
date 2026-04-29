@@ -1,0 +1,54 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Различие 4: Institutional vision
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Research.{quote}
+
+Различие 4: Institutional vision
+
+Hermes — это technical product. Очень хороший product, но всё ещё product.
+
+Наша серия documents охватывает gораздо более широкое:
+
+Document 4: Open Knowledge Work Foundation (institutional design)
+
+Document 5: Representative Agent Layer (для vulnerable populations)
+
+Document 7: Composite Skills Agent for specific professional pilots
+
+Document 2.3: Infrastructure analysis
+
+Это вопросы governance, ethics, institutional architecture, которые Hermes как technical project не addresses. Hermes провайдит инструменты; кто-то ещё должен решать, как использовать их responsibly.
+
+
+
+----
+
+_Смотрите также:_
+* [07-difference-2-domain-specialization|docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md]
+* [02-similarity-2-persistent-memory|docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md]
+* [10-difference-5-tool-vs-mission-drift|docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md]
+* [08-difference-3-federation-missing|docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [07-difference-2-domain-specialization|docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md] (сходство 0.41)
+* [02-similarity-2-persistent-memory|docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md] (сходство 0.36)
+* [10-difference-5-tool-vs-mission-drift|docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md] (сходство 0.35)
+

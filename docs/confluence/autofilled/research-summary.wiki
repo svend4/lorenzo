@@ -79,3 +79,13 @@ h2. Упоминается в
 * [Автозаполненные шаблоны|../AUTOFILLED.md]
 * [Ансамбль: [Название]](../templates/ensemble.md)
 * [Шаблоны документов|../templates/README.md]
+
+
+
+----
+
+_Похожие документы:_
+* [research-summary|docs/obsidian/autofilled/research-summary.md] (сходство 0.82)
+* [research-note|docs/templates/research-note.md] (сходство 0.64)
+* [research-note|docs/obsidian/templates/research-note.md] (сходство 0.55)
+

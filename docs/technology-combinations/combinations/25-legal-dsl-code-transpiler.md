@@ -98,3 +98,13 @@ ROI: 50k docs structured in 1 day vs weeks of manual work
 - [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
 - [26-ast-based-code-analysis-for-legal-automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md) (сходство 0.34)
+- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md) (сходство 0.30)
+- [26-ast-based-code-analysis-for-legal-automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md) (сходство 0.27)
+

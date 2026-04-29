@@ -65,3 +65,13 @@ ROI: Self-maintaining corpus, stale precedents auto-archive
 - [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 - [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.26)
+- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md) (сходство 0.24)
+- [17-distributed-agent-memory-with-graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md) (сходство 0.24)
+

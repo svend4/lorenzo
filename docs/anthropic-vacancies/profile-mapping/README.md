@@ -13,3 +13,13 @@
 1. **Первая итерация:** Forward Deployed Engineer, Applied AI EMEA — primary.
 2. **Вторая итерация:** Public Benefit / Anthropic Institute, FDE → tertiary; параллельно — европейские акселераторы и research fellowships.
 3. **Третья итерация:** Transformative AI Research Economist (≈30–40% покрытия) лучшая, но ни одна вакансия не закрывает профиль; стратегически — гибридная структура (fellowship + open‑source publish + founder‑track + патенты).
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.12)
+- [02-three-overlapping-identities](docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md) (сходство 0.12)
+- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.11)
+

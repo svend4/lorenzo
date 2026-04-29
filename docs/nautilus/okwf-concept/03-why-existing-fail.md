@@ -174,3 +174,13 @@ is this integration.
 - [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
 - [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [157-3-why-existing-solutions-fail](docs/obsidian/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.91)
+- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.89)
+- [02-target-populations](docs/nautilus/okwf-concept/02-target-populations.md) (сходство 0.20)
+

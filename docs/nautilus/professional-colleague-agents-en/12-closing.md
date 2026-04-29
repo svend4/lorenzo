@@ -108,3 +108,13 @@ https://www.fontanka.ru/2026/04/25/76378978/
 
 - svend4 (2026). *The Representative Agent Layer v1.0*.
 - svend4 (2026). *Open Knowledge Work Foundation Concept Document v1.0*.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [223-12-closing](docs/obsidian/02-anthropic-vacancies/223-12-closing.md) (сходство 0.60)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.56)
+- [00-abstract](docs/nautilus/professional-colleague-agents-en/00-abstract.md) (сходство 0.31)
+

@@ -33,3 +33,13 @@ Security Engineer уровня Offensive/Red Team — требует конкр�
 - [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
 - [07-unique-niche-eu-legal-infra](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.25)
+- [03-partial-fit-honesty](docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md) (сходство 0.24)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.23)
+

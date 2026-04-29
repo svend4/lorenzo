@@ -34,3 +34,13 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 - [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
 - [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.23)
+- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.17)
+- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.16)
+

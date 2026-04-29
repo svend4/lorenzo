@@ -1,0 +1,202 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/composite-skills-agents/03-what-makes-csa.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "3. What Makes a Composite Skills Agent"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 3. What Makes a Composite Skills Agent
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Composite Skills Agents».{quote}
+
+----
+
+
+h2. Содержание
+
+* [3. What Makes a Composite Skills Agent|#3-what-makes-a-composite-skills-agent]
+  * [3.1. Defining Properties|#31-defining-properties]
+  * [3.2. What a Composite Skills Agent Does|#32-what-a-composite-skills-agent-does]
+  * [3.3. What a Composite Skills Agent Does NOT Do|#33-what-a-composite-skills-agent-does-not-do]
+  * [3.4. The Twenty-Sub-Agents Constraint|#34-the-twenty-sub-agents-constraint]
+  * [3.5. The Coordinator-Within-Configuration Pattern|#35-the-coordinator-within-configuration-pattern]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Composite Skills Agents».{quote}
+
+h2. 3. What Makes a Composite Skills Agent
+
+We define the type with precision.
+
+h3. 3.1. Defining Properties
+
+A Composite Skills Agent has eight defining properties.
+
+_Property 1 — Configurable Sub-Agent Set._ The composite 
+agent draws on a specified set of narrow-specialist sub-agents, 
+selected by the principal (with possible AI assistance) from a 
+larger registry. The set is the configuration.
+
+_Property 2 — Sub-Agents Are Individually General._ Each 
+sub-agent in the configuration is a Type 1-style Professional 
+Colleague Agent for a narrow specialization, shared across 
+all principals who need that specialization. Sub-agents are 
+not built per-principal.
+
+_Property 3 — Configuration Is Individually Specific._ While 
+each sub-agent is general, the specific combination belongs to 
+the principal. A different principal would have a different 
+configuration even within the same general profession.
+
+_Property 4 — Coordinated Single-Surface Interaction._ The 
+principal interacts with the composite agent as a coherent 
+whole, not with each sub-agent separately. The composite agent's 
+job is to route, coordinate, and integrate.
+
+_Property 5 — Transparent Source Attribution._ When outputs 
+draw on specific sub-agents, the principal can see which 
+sub-agents contributed what. Attribution is preserved, not 
+hidden.
+
+_Property 6 — Disagreement Surfacing._ When sub-agents 
+disagree (which is normal and informative), the composite agent 
+surfaces the disagreement to the principal rather than masking 
+it through averaging or arbitration.
+
+_Property 7 — Configuration Evolution._ The principal can 
+add or remove sub-agents over time as their specializations 
+develop. The configuration is not static.
+
+_Property 8 — Principal Authorship Preserved._ Despite drawing 
+on many sub-agents, the principal remains the author of their 
+work. Sub-agents inform; the principal decides and produces.
+
+h3. 3.2. What a Composite Skills Agent Does
+
+The composite agent provides four core functions:
+
+_Function 1 — Routing._ When the principal poses a question 
+or task, the composite agent determines which sub-agents are 
+relevant. Some questions need only one sub-agent. Others need 
+several in combination. Some need a specific sequence (one 
+sub-agent's output feeds into another).
+
+_Function 2 — Synthesis._ When multiple sub-agents contribute 
+to a response, the composite agent integrates their outputs 
+into a coherent whole — without obscuring which sub-agent 
+contributed what.
+
+_Function 3 — Disagreement Management._ When sub-agents 
+provide conflicting recommendations, the composite agent 
+presents the disagreement clearly to the principal: "Sub-agent 
+A recommends X for these reasons; sub-agent B recommends Y for 
+these reasons." The principal decides.
+
+_Function 4 — Configuration Maintenance._ Over time, the 
+composite agent helps the principal evaluate their configuration: 
+which sub-agents are most used, which are underutilized, which 
+specializations might be worth adding given the principal's 
+work patterns.
+
+h3. 3.3. What a Composite Skills Agent Does NOT Do
+
+Like other agent types, what the composite agent _does not do_ 
+is equally important.
+
+_Not invent specializations._ The composite agent does not 
+create new sub-agents. It draws from the existing registry. 
+Sub-agent creation is a separate process involving expert 
+curation.
+
+_Not replace principal judgment._ When sub-agents disagree, 
+the composite agent does not decide. The principal decides, 
+informed by visible disagreement.
+
+_Not hide its workings._ The composite agent does not present 
+synthesized outputs as if from a single source. Attribution 
+is preserved.
+
+_Not build permanent fixed configurations._ The configuration 
+is meant to evolve. The composite agent does not lock the 
+principal into an unchangeable set.
+
+_Not act externally._ Like Professional Colleague Agents, the 
+composite agent works inside the principal's professional 
+practice. External representation is the role of Representative 
+Agents (Type 4).
+
+h3. 3.4. The Twenty-Sub-Agents Constraint
+
+The yoga metaphor suggests around twenty as a meaningful number. 
+Why?
+
+A configuration of two or three sub-agents is too narrow — it 
+duplicates what specialized Professional Colleague Agents 
+already do.
+
+A configuration of fifty or a hundred sub-agents becomes 
+unmanageable — coordination overhead exceeds benefit.
+
+Empirically, complex skilled practice typically draws on between 
+ten and thirty specializations. This range matches the 
+cognitive bandwidth of human practitioners and the operational 
+capacity of coordinating layers.
+
+We suggest twenty as a reasonable working constraint: 
+configurations under five are probably better served by Type 1; 
+configurations over forty are probably indicating a need for 
+narrower focus or different agent type.
+
+h3. 3.5. The Coordinator-Within-Configuration Pattern
+
+A subtle architectural point: the composite agent itself is 
+_not_ another specialist sub-agent. It is a coordinator.
+
+This means:
+* The coordinator does not have profession-specific expertise
+* The coordinator's expertise is in routing, synthesis, 
+disagreement management
+* Different principals can use the same coordinator with 
+different configurations
+* The coordinator is general; the configurations it manages 
+are specific
+
+This is analogous to how an orchestra conductor is not another 
+musician with their own instrument. The conductor's expertise 
+is coordination of musicians, not playing music. Composite 
+agents inherit this distinction.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[256-3-what-makes-a-composite-skills-agent]]
+* [[06-coordination-disagreement]]
+* [[11-open-questions]]
+* [[01-why-binary-incomplete]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[256-3-what-makes-a-composite-skills-agent]] (сходство 0.90)
+* [[256-3-what-makes-a-composite-skills-agent]] (сходство 0.86)
+* [[06-coordination-disagreement]] (сходство 0.21)
+

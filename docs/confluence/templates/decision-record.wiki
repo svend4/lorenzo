@@ -50,3 +50,12 @@ h2. Последствия
 
 ----
 _Дата: 2026-04-29_
+
+
+
+----
+
+_Смотрите также:_
+* [ensemble|docs/templates/ensemble.md]
+* [project-component|docs/templates/project-component.md]
+

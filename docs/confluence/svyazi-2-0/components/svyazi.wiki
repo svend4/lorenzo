@@ -1,0 +1,57 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/svyazi.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Svyazi
+
+
+{quote}- _Источник:_ Хабр citeturn41search0{quote}
+_Проекты:_ Svyazi, CardIndex
+
+----
+
+
+
+
+
+* _Автор:_ Андрей Чуян
+* _Источник:_ Хабр citeturn41search0
+* _Лицензия:_ код закрыт. citeturn41search0
+* _Maturity:_ активный закрытый авторский прототип. citeturn41search0
+* _Релевантность к Svyazi‑2.0:_ очень высокая — это базовый ingest/normalize/discovery‑слой.
+
+h2. Описание
+
+Гибридная система извлечения структурированных профилей участников сообщества из свободного текста; уже показала кейс «карточек коллабораций».
+
+h2. Ключевые компоненты и паттерны
+
+* 6 слоёв (ingest, extract, normalize, dedup, index, discover)
+* YAML
+* SHA256‑дедупликация
+* Ollama + Qwen
+* LLM + детерминированный код
+* CardIndex
+* Privacy by design
+
+
+
+----
+
+_Смотрите также:_
+* [rufler|docs/svyazi-2-0/components/rufler.md]
+* [memnet|docs/svyazi-2-0/components/memnet.md]
+* [knowledge-space|docs/svyazi-2-0/components/knowledge-space.md]
+* [yodoca|docs/svyazi-2-0/components/yodoca.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [rufler|docs/svyazi-2-0/components/rufler.md] (сходство 0.33)
+* [memnet|docs/svyazi-2-0/components/memnet.md] (сходство 0.33)
+* [knowledge-space|docs/svyazi-2-0/components/knowledge-space.md] (сходство 0.31)
+

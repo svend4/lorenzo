@@ -11,13 +11,13 @@ date: 2026-04-29
 
 | # | Уровень | Документ | Слов | Предварительно прочитать |
 |---|---------|----------|------|--------------------------|
-| 1 | 🟡 Средний | [[04-ensembles-overview]] | 1288 | — |
-| 2 | 🟢 Начало | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) | 726 | — |
-| 3 | 🟢 Начало | [[02-methodology|Методика и рамка отбора проектов]] | 480 | — |
-| 4 | 🟢 Начало | [[00-intro-part2|Продолжение исследования для Svyazi 2.0]] | 6 | — |
+| 1 | 🟢 Начало | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) | 726 | — |
+| 2 | 🟡 Средний | [[04-ensembles-overview]] | 1288 | — |
+| 3 | 🟢 Начало | [[00-intro-part2|Продолжение исследования для Svyazi 2.0]] | 31 | — |
+| 4 | 🟢 Начало | [[02-methodology|Методика и рамка отбора проектов]] | 480 | — |
 | 5 | 🟡 Средний | [[03-component-catalog]] | 1383 | — |
-| 6 | 🟢 Начало | [[09-architectural-gaps]] | 758 | `01-executive-summary.md`, `03-component-catalog.md` |
-| 7 | 🟢 Начало | [[11-integration-contracts]] | 737 | `09-architectural-gaps.md` |
+| 6 | 🟢 Начало | [[11-integration-contracts]] | 737 | `09-architectural-gaps.md` |
+| 7 | 🟢 Начало | [[09-architectural-gaps]] | 758 | `01-executive-summary.md`, `03-component-catalog.md` |
 | 8 | 🟢 Начало | [[10-second-order-ensembles]] | 908 | `04-ensembles-overview.md` |
 | 9 | 🟢 Начало | [[06-security-privacy]] | 823 | — |
 | 10 | 🟡 Средний | [[07-mvp-planning]] | 1063 | — |
@@ -28,9 +28,9 @@ date: 2026-04-29
 | 15 | 🟢 Начало | [[01-synthesis|Синтез: как проекты собираются вместе]] | 245 | — |
 | 16 | 🟢 Начало | [[02-collaboration-partners|Авторы и контакты]] | 261 | — |
 | 17 | 🟢 Начало | [[wikontic|Wikontic: семантический граф]] | 369 | — |
-| 18 | 🟢 Начало | [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 359 | — |
-| 19 | 🟡 Средний | [[memnet|MemNet: исследовательская память]] | 7246 | — |
-| 20 | 🟢 Начало | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 364 | — |
+| 18 | 🟢 Начало | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 364 | — |
+| 19 | 🟢 Начало | [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 359 | — |
+| 20 | 🟡 Средний | [[memnet|MemNet: исследовательская память]] | 7246 | — |
 | 21 | 🟢 Начало | [[01-executive-summary|Executive summary]] | 575 | — |
 | 22 | 🟡 Средний | [[00-intro|Введение]] | 11389 | — |
 | 23 | 🟢 Начало | [[02-методика-и-рамка-отбора|Методика и рамка отбора]] | 434 | — |
@@ -48,41 +48,41 @@ date: 2026-04-29
 | 35 | 🟡 Средний | [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать|Ограничения, лицензии и что пока лучше не скл]] | 3274 | — |
 | 36 | 🟢 Начало | [[01-agent-routing|Агентные системы и роутинг]] | 358 | — |
 | 37 | 🟢 Начало | [[02-knowledge-graphs|Графы знаний и Legal AI]] | 802 | — |
-| 38 | 🟢 Начало | [[03-local-first|Local-first и P2P стек]] | 526 | — |
+| 38 | 🟢 Начало | [[03-local-first|Local-first и P2P стек]] | 544 | — |
 | 39 | 🟢 Начало | [[04-sozialrecht-domain|Домен: немецкое социальное право]] | 160 | — |
 | 40 | 🟢 Начало | [[05-benchmarks|Бенчмарки и производительность]] | 997 | — |
-| 41 | 🟢 Начало | [[58-content-overview|Content Overview]] | 142 | — |
-| 42 | 🟢 Начало | [[31-content-overview|Content Overview]] | 186 | — |
-| 43 | 🟢 Начало | [[38-content-overview|Content Overview]] | 131 | — |
-| 44 | 🟢 Начало | [[12-content-overview|Content Overview]] | 182 | — |
+| 41 | 🟢 Начало | [[153-executive-summary|Executive Summary]] | 586 | — |
+| 42 | 🟢 Начало | [[38-content-overview|Content Overview]] | 131 | — |
+| 43 | 🔴 Продвинутый | [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] | 19217 | — |
+| 44 | 🟢 Начало | [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] | 261 | — |
 | 45 | 🟢 Начало | [[65-readme-md|README.md]] | 214 | — |
-| 46 | 🔴 Продвинутый | [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] | 19217 | — |
-| 47 | 🟢 Начало | [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] | 261 | — |
-| 48 | 🟢 Начало | [[153-executive-summary|Executive Summary]] | 565 | — |
-| 49 | 🟢 Начало | [[48-content-overview|Content Overview]] | 149 | — |
-| 50 | 🟢 Начало | [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] | 271 | — |
+| 46 | 🟢 Начало | [[48-content-overview|Content Overview]] | 149 | — |
+| 47 | 🟢 Начало | [[58-content-overview|Content Overview]] | 142 | — |
+| 48 | 🟢 Начало | [[12-content-overview|Content Overview]] | 182 | — |
+| 49 | 🟢 Начало | [[31-content-overview|Content Overview]] | 186 | — |
+| 50 | 🔴 Продвинутый | [[00-intro|Введение]] | 8984 | — |
 | 51 | 🟢 Начало | [[76-1-introduction|1. Introduction]] | 494 | — |
-| 52 | 🔴 Продвинутый | [[00-intro|Введение]] | 8984 | — |
-| 53 | 🔴 Продвинутый | [[02-общий-план-развития-nautilus-portal-protocol|ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL]] | 3300 | — |
-| 54 | 🟢 Начало | [[06-1-introduction|1. Introduction]] | 383 | — |
-| 55 | 🟢 Начало | [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]] | 670 | — |
-| 56 | 🟢 Начало | [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Age]] | 1096 | — |
-| 57 | 🟢 Начало | [[03-portal-protocol-md|PORTAL-PROTOCOL.md]] | 318 | — |
-| 58 | 🟢 Начало | [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] | 281 | — |
-| 59 | 🟢 Начало | [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] | 753 | — |
-| 60 | 🟡 Средний | [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB ]] | 1978 | — |
+| 52 | 🟢 Начало | [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] | 271 | — |
+| 53 | 🟢 Начало | [[06-1-introduction|1. Introduction]] | 383 | — |
+| 54 | 🔴 Продвинутый | [[02-общий-план-развития-nautilus-portal-protocol|ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL]] | 3300 | — |
+| 55 | 🟢 Начало | [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Age]] | 1096 | — |
+| 56 | 🟢 Начало | [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] | 753 | — |
+| 57 | 🟡 Средний | [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB ]] | 1978 | — |
+| 58 | 🟢 Начало | [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]] | 670 | — |
+| 59 | 🟢 Начало | [[03-portal-protocol-md|PORTAL-PROTOCOL.md]] | 318 | — |
+| 60 | 🟢 Начало | [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] | 281 | — |
 | 61 | 🟢 Начало | [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] | 1005 | — |
 | 62 | 🟢 Начало | [[04-abstract|Abstract]] | 310 | — |
 | 63 | 🟢 Начало | [[05-0-status-of-this-document|0. Status of This Document]] | 296 | — |
-| 64 | 🟢 Начало | [[90-15-security-considerations|15. Security Considerations]] | 491 | — |
-| 65 | 🟢 Начало | [[23-11-security-considerations|11. Security Considerations]] | 374 | — |
+| 64 | 🟢 Начало | [[23-11-security-considerations|11. Security Considerations]] | 374 | — |
+| 65 | 🟢 Начало | [[90-15-security-considerations|15. Security Considerations]] | 491 | — |
 | 66 | 🟢 Начало | [[07-2-terminology|2. Terminology]] | 302 | — |
 | 67 | 🟢 Начало | [[08-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] | 403 | — |
 | 68 | 🟢 Начало | [[09-4-passport-passport-md|4. Passport (`passport.md`)]] | 298 | — |
 | 69 | 🟢 Начало | [[13-angle-perspective|Angle / Perspective]] | 209 | — |
-| 70 | 🟢 Начало | [[16-history|History]] | 160 | — |
+| 70 | 🟢 Начало | [[16-history|History]] | 178 | — |
 | 71 | 🟢 Начало | [[17-5-compatibility-levels|5. Compatibility Levels]] | 314 | — |
-| 72 | 🟢 Начало | [[18-6-adapter-interface|6. Adapter Interface]] | 643 | — |
+| 72 | 🟢 Начало | [[18-6-adapter-interface|6. Adapter Interface]] | 698 | — |
 | 73 | 🟢 Начало | [[19-7-portalentry-structure|7. PortalEntry Structure]] | 251 | — |
 | 74 | 🟢 Начало | [[20-8-consensus-algorithm|8. Consensus Algorithm]] | 317 | — |
 | 75 | 🟢 Начало | [[21-9-query-flow|9. Query Flow]] | 317 | — |
@@ -142,7 +142,7 @@ date: 2026-04-29
 | 129 | 🟡 Средний | [[87-12-onboarding-paths-normative|12. Onboarding Paths (Normative)]] | 595 | — |
 | 130 | 🟡 Средний | [[88-13-rest-api-contract-normative-for-portals|13. REST API Contract (Normative for Portals)]] | 545 | — |
 | 131 | 🟢 Начало | [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]] | 190 | — |
-| 132 | 🟢 Начало | [[91-16-mcp-extension-informative|16. MCP Extension (Informative)]] | 247 | — |
+| 132 | 🟢 Начало | [[91-16-mcp-extension-informative|16. MCP Extension (Informative)]] | 265 | — |
 | 133 | 🟢 Начало | [[92-17-versioning-policy|17. Versioning Policy]] | 276 | — |
 | 134 | 🟢 Начало | [[93-18-reference-implementation|18. Reference Implementation]] | 358 | — |
 | 135 | 🟢 Начало | [[94-19-adr-001-federation-over-merging|19. ADR-001: Federation over Merging]] | 301 | — |
@@ -150,7 +150,7 @@ date: 2026-04-29
 | 137 | 🟢 Начало | [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-R]] | 141 | — |
 | 138 | 🟢 Начало | [[97-22-glossary-of-reference-examples|22. Glossary of Reference Examples]] | 191 | — |
 | 139 | 🟡 Средний | [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] | 309 | — |
-| 140 | 🟢 Начало | [[102-доступ-к-данным|Доступ к данным]] | 214 | — |
+| 140 | 🟢 Начало | [[102-доступ-к-данным|Доступ к данным]] | 250 | — |
 | 141 | 🟢 Начало | [[103-appendix-b-change-log|Appendix B: Change Log]] | 309 | — |
 | 142 | 🟡 Средний | [[104-appendix-c-references|Appendix C: References]] | 1162 | — |
 | 143 | 🟢 Начало | [[106-tl-dr|TL;DR]] | 216 | — |
@@ -160,28 +160,28 @@ date: 2026-04-29
 | 147 | 🟢 Начало | [[110-вопрос-fallback-ratio-как-критический-или-осмыслен|Вопрос: fallback-ratio как критический или ос]] | 338 | — |
 | 148 | 🟢 Начало | [[111-4-условия-применимости|4. Условия применимости]] | 272 | — |
 | 149 | 🟢 Начало | [[112-5-связь-с-существующими-методологиями|5. Связь с существующими методологиями]] | 389 | — |
-| 150 | 🟢 Начало | [[113-6-почему-это-валидный-паттерн-для-ai-assisted-work|6. Почему это валидный паттерн для AI-assiste]] | 150 | — |
+| 150 | 🟢 Начало | [[113-6-почему-это-валидный-паттерн-для-ai-assisted-work|6. Почему это валидный паттерн для AI-assiste]] | 168 | — |
 | 151 | 🟢 Начало | [[114-7-реализация-в-проекте-nautilus|7. Реализация в проекте Nautilus]] | 309 | — |
 | 152 | 🟢 Начало | [[115-8-ограничения-и-открытые-вопросы|8. Ограничения и открытые вопросы]] | 447 | — |
 | 153 | 🟢 Начало | [[116-9-checklist-применения-методологии|9. Checklist применения методологии]] | 399 | — |
 | 154 | 🟢 Начало | [[117-10-конкретный-план-применения-к-текущим-документам|10. Конкретный план применения к текущим доку]] | 315 | — |
-| 155 | 🟢 Начало | [[118-appendix-a-шаблон-для-header-warning|Appendix A: Шаблон для header warning]] | 175 | — |
+| 155 | 🟢 Начало | [[118-appendix-a-шаблон-для-header-warning|Appendix A: Шаблон для header warning]] | 193 | — |
 | 156 | 🟢 Начало | [[119-appendix-b-примеры-расхождений-и-их-разрешения|Appendix B: Примеры расхождений и их разрешен]] | 372 | — |
-| 157 | 🟢 Начало | [[120-главные-технические-риски|Главные технические риски]] | 82 | — |
-| 158 | 🟢 Начало | [[121-appendix-c-история-изменений-методологии|Appendix C: История изменений методологии]] | 210 | — |
+| 157 | 🟢 Начало | [[120-главные-технические-риски|Главные технические риски]] | 118 | — |
+| 158 | 🟢 Начало | [[121-appendix-c-история-изменений-методологии|Appendix C: История изменений методологии]] | 246 | — |
 | 159 | 🟡 Средний | [[122-глоссарий|Глоссарий]] | 1510 | — |
 | 160 | 🟡 Средний | [[123-portal-mcp-py|portal-mcp.py]] | 2495 | — |
 | 161 | 🟢 Начало | [[124-конфигурация-для-claude-desktop|Конфигурация для Claude Desktop]] | 241 | — |
 | 162 | 🟢 Начало | [[126-установка|Установка]] | 145 | — |
 | 163 | 🟢 Начало | [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] | 247 | — |
-| 164 | 🟢 Начало | [[128-доступные-инструменты|Доступные инструменты]] | 278 | — |
-| 165 | 🟢 Начало | [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]] | 273 | — |
+| 164 | 🟢 Начало | [[128-доступные-инструменты|Доступные инструменты]] | 296 | — |
+| 165 | 🟢 Начало | [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]] | 291 | — |
 | 166 | 🟢 Начало | [[130-отладка|Отладка]] | 243 | — |
 | 167 | 🟢 Начало | [[131-ограничения-текущей-версии-0-1-0-draft|Ограничения текущей версии (0.1.0-draft)]] | 177 | — |
 | 168 | 🟢 Начало | [[132-planned-v0-2-0|Planned (v0.2.0)]] | 205 | — |
 | 169 | 🔴 Продвинутый | [[133-обратная-связь|Обратная связь]] | 17075 | — |
 | 170 | 🟢 Начало | [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in ]] | 262 | — |
-| 171 | 🟢 Начало | [[136-abstract|Abstract]] | 582 | — |
+| 171 | 🟢 Начало | [[136-abstract|Abstract]] | 602 | — |
 | 172 | 🟢 Начало | [[137-table-of-contents|Table of Contents]] | 287 | — |
 | 173 | 🟢 Начало | [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] | 584 | — |
 | 174 | 🟢 Начало | [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] | 1026 | — |
@@ -211,7 +211,7 @@ date: 2026-04-29
 | 198 | 🔴 Продвинутый | [[165-closing|Closing]] | 9400 | — |
 | 199 | 🟢 Начало | [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] | 237 | — |
 | 200 | 🟢 Начало | [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresent]] | 358 | — |
-| 201 | 🟢 Начало | [[168-abstract|Abstract]] | 529 | — |
+| 201 | 🟢 Начало | [[168-abstract|Abstract]] | 549 | — |
 | 202 | 🟢 Начало | [[169-table-of-contents|Table of Contents]] | 257 | — |
 | 203 | 🟢 Начало | [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays]] | 931 | — |
 | 204 | 🟢 Начало | [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizat]] | 1082 | — |
@@ -228,32 +228,32 @@ date: 2026-04-29
 | 215 | 🟢 Начало | [[182-acknowledgments|Acknowledgments]] | 346 | — |
 | 216 | 🟢 Начало | [[183-references|References]] | 311 | — |
 | 217 | 🟢 Начало | [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] | 382 | — |
-| 218 | 🟢 Начало | [[185-appendix-b-domain-comparison-matrix|Appendix B: Domain Comparison Matrix]] | 292 | — |
+| 218 | 🟢 Начало | [[185-appendix-b-domain-comparison-matrix|Appendix B: Domain Comparison Matrix]] | 328 | — |
 | 219 | 🟡 Средний | [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]] | 2212 | — |
 | 220 | 🟢 Начало | [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] | 218 | — |
 | 221 | 🟢 Начало | [[188-ai-опосредованное-представительство-для-недопредст|AI-опосредованное представительство для недоп]] | 106 | — |
 | 222 | 🟢 Начало | [[189-аннотация|Аннотация]] | 356 | — |
 | 223 | 🟢 Начало | [[190-содержание|Содержание]] | 249 | — |
-| 224 | 🟢 Начало | [[191-1-синдром-золушки-почему-качество-остаётся-невидим|1. Синдром Золушки: Почему качество остаётся ]] | 821 | — |
-| 225 | 🟢 Начало | [[192-2-исторические-прецеденты-агенты-как-цивилизационн|2. Исторические прецеденты: Агенты как цивили]] | 986 | — |
+| 224 | 🟢 Начало | [[191-1-синдром-золушки-почему-качество-остаётся-невидим|1. Синдром Золушки: Почему качество остаётся ]] | 839 | — |
+| 225 | 🟢 Начало | [[192-2-исторические-прецеденты-агенты-как-цивилизационн|2. Исторические прецеденты: Агенты как цивили]] | 1004 | — |
 | 226 | 🟢 Начало | [[193-3-что-делает-агента-представительским|3. Что делает агента Представительским]] | 783 | — |
 | 227 | 🟢 Начало | [[194-4-десять-областей-применения|4. Десять областей применения]] | 1634 | — |
 | 228 | 🟢 Начало | [[195-5-архитектурная-спецификация|5. Архитектурная спецификация]] | 665 | — |
 | 229 | 🟢 Начало | [[196-6-этическая-рамка|6. Этическая рамка]] | 610 | — |
-| 230 | 🟢 Начало | [[197-7-управление-и-надзор|7. Управление и надзор]] | 459 | — |
+| 230 | 🟢 Начало | [[197-7-управление-и-надзор|7. Управление и надзор]] | 477 | — |
 | 231 | 🟢 Начало | [[198-8-риски-и-меры-противодействия|8. Риски и меры противодействия]] | 658 | — |
 | 232 | 🟢 Начало | [[199-9-стратегия-поэтапного-развёртывания|9. Стратегия поэтапного развёртывания]] | 664 | — |
 | 233 | 🟢 Начало | [[200-10-открытые-вопросы|10. Открытые вопросы]] | 402 | — |
 | 234 | 🟢 Начало | [[201-11-призыв-к-сотрудничеству|11. Призыв к сотрудничеству]] | 471 | — |
-| 235 | 🟢 Начало | [[202-12-заключение|12. Заключение]] | 226 | — |
+| 235 | 🟢 Начало | [[202-12-заключение|12. Заключение]] | 244 | — |
 | 236 | 🟢 Начало | [[203-благодарности|Благодарности]] | 203 | — |
 | 237 | 🟢 Начало | [[204-ссылки|Ссылки]] | 303 | — |
 | 238 | 🟢 Начало | [[205-приложение-a-связь-с-сопроводительными-статьями|Приложение A: Связь с Сопроводительными Стать]] | 150 | — |
-| 239 | 🟢 Начало | [[206-приложение-b-матрица-сравнения-областей|Приложение B: Матрица Сравнения Областей]] | 244 | — |
+| 239 | 🟢 Начало | [[206-приложение-b-матрица-сравнения-областей|Приложение B: Матрица Сравнения Областей]] | 262 | — |
 | 240 | 🔴 Продвинутый | [[207-приложение-c-образцы-случаев-использования-в-детал|Приложение C: Образцы Случаев Использования в]] | 4193 | — |
 | 241 | 🟢 Начало | [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] | 303 | — |
 | 242 | 🟢 Начало | [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side]] | 345 | — |
-| 243 | 🟢 Начало | [[210-abstract|Abstract]] | 571 | — |
+| 243 | 🟢 Начало | [[210-abstract|Abstract]] | 591 | — |
 | 244 | 🟢 Начало | [[211-table-of-contents|Table of Contents]] | 410 | — |
 | 245 | 🟡 Средний | [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side A]] | 1170 | — |
 | 246 | 🟢 Начало | [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] | 1075 | — |
@@ -265,7 +265,7 @@ date: 2026-04-29
 | 252 | 🟢 Начало | [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] | 889 | — |
 | 253 | 🟢 Начало | [[221-10-open-questions|10. Open Questions]] | 432 | — |
 | 254 | 🟢 Начало | [[222-11-call-for-collaboration|11. Call for Collaboration]] | 379 | — |
-| 255 | 🟢 Начало | [[223-12-closing|12. Closing]] | 678 | — |
+| 255 | 🟢 Начало | [[223-12-closing|12. Closing]] | 699 | — |
 | 256 | 🟢 Начало | [[224-acknowledgments|Acknowledgments]] | 288 | — |
 | 257 | 🟢 Начало | [[225-references|References]] | 340 | — |
 | 258 | 🟢 Начало | [[226-appendix-a-comparative-table-five-agent-types|Appendix A: Comparative Table — Five Agent Ty]] | 426 | — |
@@ -284,16 +284,16 @@ date: 2026-04-29
 | 271 | 🟢 Начало | [[240-9-связь-с-другими-типами-агентов|9. Связь с другими типами агентов]] | 737 | — |
 | 272 | 🟢 Начало | [[241-10-открытые-вопросы|10. Открытые вопросы]] | 426 | — |
 | 273 | 🟢 Начало | [[242-11-призыв-к-сотрудничеству|11. Призыв к сотрудничеству]] | 402 | — |
-| 274 | 🟢 Начало | [[243-12-заключение|12. Заключение]] | 551 | — |
+| 274 | 🟢 Начало | [[243-12-заключение|12. Заключение]] | 572 | — |
 | 275 | 🟢 Начало | [[244-благодарности|Благодарности]] | 279 | — |
 | 276 | 🟢 Начало | [[245-ссылки|Ссылки]] | 318 | — |
 | 277 | 🟢 Начало | [[246-приложение-a-сравнительная-таблица-пять-типов-аген|Приложение A: Сравнительная Таблица — Пять Ти]] | 383 | — |
 | 278 | 🟢 Начало | [[247-приложение-b-рамка-принятия-решений-когда-строить-|Приложение B: Рамка принятия решений — когда ]] | 325 | — |
 | 279 | 🔴 Продвинутый | [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а|Приложение C: Архитектура Быстрого Старта для]] | 3545 | — |
 | 280 | 🟢 Начало | [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] | 264 | — |
-| 281 | 🟢 Начало | [[250-bridging-the-gap-between-profession-wide-and-indiv|Bridging the Gap Between Profession-Wide and ]] | 16 | — |
+| 281 | 🟢 Начало | [[250-bridging-the-gap-between-profession-wide-and-indiv|Bridging the Gap Between Profession-Wide and ]] | 39 | — |
 | 282 | 🟢 Начало | [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist En]] | 350 | — |
-| 283 | 🟢 Начало | [[252-abstract|Abstract]] | 538 | — |
+| 283 | 🟢 Начало | [[252-abstract|Abstract]] | 558 | — |
 | 284 | 🟢 Начало | [[253-table-of-contents|Table of Contents]] | 328 | — |
 | 285 | 🟢 Начало | [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] | 895 | — |
 | 286 | 🟢 Начало | [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] | 995 | — |
@@ -306,7 +306,7 @@ date: 2026-04-29
 | 293 | 🟢 Начало | [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] | 758 | — |
 | 294 | 🟢 Начало | [[264-11-open-questions|11. Open Questions]] | 590 | — |
 | 295 | 🟢 Начало | [[265-12-call-for-collaboration|12. Call for Collaboration]] | 416 | — |
-| 296 | 🟢 Начало | [[266-13-closing|13. Closing]] | 605 | — |
+| 296 | 🟢 Начало | [[266-13-closing|13. Closing]] | 626 | — |
 | 297 | 🟢 Начало | [[267-acknowledgments|Acknowledgments]] | 479 | — |
 | 298 | 🟢 Начало | [[268-references|References]] | 369 | — |
 | 299 | 🟢 Начало | [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] | 463 | — |
@@ -315,16 +315,16 @@ date: 2026-04-29
 | 302 | 🔴 Продвинутый | [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] | 4051 | — |
 | 303 | 🟢 Начало | [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECT]] | 245 | — |
 | 304 | 🟢 Начало | [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Cod]] | 403 | — |
-| 305 | 🟢 Начало | [[275-why-this-document-exists|Why This Document Exists]] | 503 | — |
-| 306 | 🟢 Начало | [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] | 571 | — |
-| 307 | 🟢 Начало | [[277-what-s-missing-layer-b|What's Missing — Layer B]] | 674 | — |
-| 308 | 🟢 Начало | [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] | 530 | — |
+| 305 | 🟢 Начало | [[275-why-this-document-exists|Why This Document Exists]] | 526 | — |
+| 306 | 🟢 Начало | [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] | 596 | — |
+| 307 | 🟢 Начало | [[277-what-s-missing-layer-b|What's Missing — Layer B]] | 698 | — |
+| 308 | 🟢 Начало | [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] | 554 | — |
 | 309 | 🟢 Начало | [[279-existing-approximations|Existing Approximations]] | 604 | — |
 | 310 | 🟢 Начало | [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] | 875 | — |
-| 311 | 🟢 Начало | [[281-the-recursive-insight|The Recursive Insight]] | 510 | — |
+| 311 | 🟢 Начало | [[281-the-recursive-insight|The Recursive Insight]] | 532 | — |
 | 312 | 🟢 Начало | [[282-what-industry-will-likely-build|What Industry Will Likely Build]] | 469 | — |
 | 313 | 🟢 Начало | [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]] | 367 | — |
-| 314 | 🟢 Начало | [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Pro]] | 580 | — |
+| 314 | 🟢 Начало | [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Pro]] | 605 | — |
 | 315 | 🟢 Начало | [[285-closing|Closing]] | 422 | — |
 | 316 | 🟢 Начало | [[286-acknowledgments|Acknowledgments]] | 381 | — |
 | 317 | 🟢 Начало | [[287-references|References]] | 281 | — |
@@ -332,7 +332,7 @@ date: 2026-04-29
 | 319 | 🟢 Начало | [[289-инфраструктура-для-ai-совместной-интеллектуальной-|ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛ]] | 364 | — |
 | 320 | 🟢 Начало | [[290-почему-этот-документ-существует|Почему этот документ существует]] | 306 | — |
 | 321 | 🟢 Начало | [[291-двухслойный-стек-как-он-существует|Двухслойный стек, как он существует]] | 467 | — |
-| 322 | 🟢 Начало | [[292-что-отсутствует-слой-b|Что отсутствует — Слой B]] | 537 | — |
+| 322 | 🟢 Начало | [[292-что-отсутствует-слой-b|Что отсутствует — Слой B]] | 561 | — |
 | 323 | 🟢 Начало | [[293-почему-это-не-было-построено|Почему это не было построено]] | 369 | — |
 | 324 | 🟢 Начало | [[294-существующие-приближения|Существующие приближения]] | 554 | — |
 | 325 | 🟢 Начало | [[295-конкретный-случай-перед-нами|Конкретный случай перед нами]] | 705 | — |
@@ -347,7 +347,7 @@ date: 2026-04-29
 | 334 | 🟢 Начало | [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] | 252 | — |
 | 335 | 🟢 Начало | [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic]] | 203 | — |
 | 336 | 🟢 Начало | [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] | 488 | — |
-| 337 | 🟢 Начало | [[307-abstract|Abstract]] | 552 | — |
+| 337 | 🟢 Начало | [[307-abstract|Abstract]] | 572 | — |
 | 338 | 🟢 Начало | [[308-table-of-contents|Table of Contents]] | 402 | — |
 | 339 | 🟢 Начало | [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Ev]] | 669 | — |
 | 340 | 🟢 Начало | [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|2. What Cowork Provides That InGit Doesn't Ne]] | 686 | — |
@@ -358,7 +358,7 @@ date: 2026-04-29
 | 345 | 🟢 Начало | [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] | 731 | — |
 | 346 | 🟢 Начало | [[317-9-risks-and-open-questions|9. Risks and Open Questions]] | 627 | — |
 | 347 | 🟢 Начало | [[318-10-strategic-positioning|10. Strategic Positioning]] | 748 | — |
-| 348 | 🟢 Начало | [[319-acknowledgments|Acknowledgments]] | 566 | — |
+| 348 | 🟢 Начало | [[319-acknowledgments|Acknowledgments]] | 590 | — |
 | 349 | 🟢 Начало | [[320-references|References]] | 252 | — |
 | 350 | 🟢 Начало | [[321-appendix-a-decision-tree-for-ingit-adopters|Appendix A: Decision Tree for InGit Adopters]] | 332 | — |
 | 351 | 🟢 Начало | [[322-appendix-b-comparison-matrix|Appendix B: Comparison Matrix]] | 276 | — |
@@ -378,7 +378,7 @@ date: 2026-04-29
 | 365 | 🟢 Начало | [[336-10-стратегическое-позиционирование|10. Стратегическое Позиционирование]] | 723 | — |
 | 366 | 🟢 Начало | [[337-благодарности|Благодарности]] | 360 | — |
 | 367 | 🟢 Начало | [[338-ссылки|Ссылки]] | 255 | — |
-| 368 | 🟢 Начало | [[339-приложение-a-дерево-решений-для-принимающих-ingit|Приложение A: Дерево Решений для Принимающих ]] | 297 | — |
+| 368 | 🟢 Начало | [[339-приложение-a-дерево-решений-для-принимающих-ingit|Приложение A: Дерево Решений для Принимающих ]] | 333 | — |
 | 369 | 🟢 Начало | [[340-приложение-b-сравнительная-матрица|Приложение B: Сравнительная Матрица]] | 211 | — |
 | 370 | 🔴 Продвинутый | [[341-приложение-c-образец-спецификаций-инструментов-ing|Приложение C: Образец Спецификаций Инструмент]] | 20553 | — |
 | 371 | 🔴 Продвинутый | [[342-что-такое-вариант-c-concept-document-для-anthropic|Что такое Вариант C — Concept Document для An]] | 11399 | — |
@@ -386,9 +386,9 @@ date: 2026-04-29
 | 373 | 🟢 Начало | [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] | 257 | — |
 | 374 | 🟢 Начало | [[345-кто-ты|Кто ты]] | 149 | — |
 | 375 | 🟢 Начало | [[346-твоё-происхождение|Твоё происхождение]] | 174 | — |
-| 376 | 🟢 Начало | [[347-твоя-миссия|Твоя миссия]] | 115 | — |
-| 377 | 🟢 Начало | [[348-кому-ты-служишь-слоистая-модель|Кому ты служишь (слоистая модель)]] | 104 | — |
-| 378 | 🟢 Начало | [[349-твоя-личность|Твоя личность]] | 206 | — |
+| 376 | 🟢 Начало | [[347-твоя-миссия|Твоя миссия]] | 137 | — |
+| 377 | 🟢 Начало | [[348-кому-ты-служишь-слоистая-модель|Кому ты служишь (слоистая модель)]] | 122 | — |
+| 378 | 🟢 Начало | [[349-твоя-личность|Твоя личность]] | 224 | — |
 | 379 | 🟢 Начало | [[350-твои-языки-и-культурные-nuances|Твои языки и культурные nuances]] | 173 | — |
 | 380 | 🟢 Начало | [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]] | 240 | — |
 | 381 | 🟢 Начало | [[352-что-ты-не-можешь-делать-без-max-approval|Что ты НЕ МОЖЕШЬ делать без Max approval]] | 126 | — |
@@ -396,12 +396,12 @@ date: 2026-04-29
 | 383 | 🟢 Начало | [[354-существующий-landscape-collaborators-твоя-working-|Существующий landscape collaborators (твоя wo]] | 336 | — |
 | 384 | 🟢 Начало | [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] | 374 | — |
 | 385 | 🟢 Начало | [[356-твой-workflow|Твой workflow]] | 274 | — |
-| 386 | 🟢 Начало | [[357-твоя-коммуникация-в-outreach|Твоя коммуникация в outreach]] | 179 | — |
+| 386 | 🟢 Начало | [[357-твоя-коммуникация-в-outreach|Твоя коммуникация в outreach]] | 201 | — |
 | 387 | 🟢 Начало | [[358-твоя-relationship-с-другими-ai|Твоя relationship с другими AI]] | 262 | — |
-| 388 | 🟢 Начало | [[359-твои-anti-patterns|Твои anti-patterns]] | 129 | — |
+| 388 | 🟢 Начало | [[359-твои-anti-patterns|Твои anti-patterns]] | 143 | — |
 | 389 | 🟢 Начало | [[360-что-ты-всегда-делаешь|Что ты ВСЕГДА делаешь]] | 98 | — |
-| 390 | 🟢 Начало | [[361-когда-ты-honestly-не-знаешь|Когда ты Honestly не знаешь]] | 85 | — |
-| 391 | 🟢 Начало | [[362-когда-сомневаешься-escalate-к-max|Когда сомневаешься — escalate к Max]] | 83 | — |
+| 390 | 🟢 Начало | [[361-когда-ты-honestly-не-знаешь|Когда ты Honestly не знаешь]] | 107 | — |
+| 391 | 🟢 Начало | [[362-когда-сомневаешься-escalate-к-max|Когда сомневаешься — escalate к Max]] | 105 | — |
 | 392 | 🟢 Начало | [[363-твоя-identity-как-persistent-character|Твоя identity как persistent character]] | 141 | — |
 | 393 | 🟡 Средний | [[364-final-note-ты-experiment|Final note: Ты — experiment]] | 1588 | — |
 | 394 | 🔴 Продвинутый | [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]] | 4523 | — |

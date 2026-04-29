@@ -1,0 +1,34 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/infrastructure-layer-b-ru/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. infrastructure-layer-b-ru
+
+_Файлов:_ 13
+
+h2. Содержание
+
+* [00-intro.md|00-intro.md] — 
+* [01-zachem-dokument.md|01-zachem-dokument.md] — 
+* [02-dvukhsloynyy-stek.md|02-dvukhsloynyy-stek.md] — 
+* [03-otsutstvuet-sloy-b.md|03-otsutstvuet-sloy-b.md] — 
+* [04-pochemu-ne-postroeno.md|04-pochemu-ne-postroeno.md] — 
+* [05-priblizheniya.md|05-priblizheniya.md] — > [!WARNING]
+* [06-konkretnyy-sluchay.md|06-konkretnyy-sluchay.md] — > [!WARNING]
+* [07-rekursivnoe-prozrenie.md|07-rekursivnoe-prozrenie.md] — 
+* [08-promyshlennost-postroit.md|08-promyshlennost-postroit.md] — > [!WARNING]
+* [09-ne-reshaet.md|09-ne-reshaet.md] — > [!WARNING]
+* [10-rekomendatsii.md|10-rekomendatsii.md] — 
+* [11-zaklyuchenie.md|11-zaklyuchenie.md] — 
+* [12-blagodarnosti-ssylki.md|12-blagodarnosti-ssylki.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/community-discussions/voiceless-contributors/README.md] (сходство 0.13)
+* [README|docs/svyazi-2-0/overview/README.md] (сходство 0.12)
+* [README|docs/svyazi-2-0/limitations/README.md] (сходство 0.12)
+

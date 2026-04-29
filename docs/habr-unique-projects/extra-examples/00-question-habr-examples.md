@@ -70,3 +70,13 @@ Web durchsucht
 - [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
 - [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md) (сходство 0.17)
+- [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md) (сходство 0.16)
+- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md) (сходство 0.15)
+

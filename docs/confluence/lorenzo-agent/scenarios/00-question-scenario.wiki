@@ -1,0 +1,44 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/lorenzo-agent/scenarios/00-question-scenario.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Du hast gesagt: А под какой сценарий больше всего подходит такой сценарий что тв…
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — под какой сценарий больше всего подходит — творчество людей объединяется.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — под какой сценарий больше всего подходит — творчество людей объединяется.{quote}
+
+Du hast gesagt: А под какой сценарий больше всего подходит такой сценарий что творчество этих людей объединяется делать какие-то новые программы с их участием допустим пишется…
+
+А под какой сценарий больше всего подходит такой сценарий что творчество этих людей объединяется делать какие-то новые программы с их участием допустим пишется код дальше адаптируется а потом от имени агента искусственного интеллекта такого скаута по поиску талантов учёных и программистов с помощью людей других продвигается допустим для проектов которые были описаны здесь выше как на что это больше всего похоже
+
+26 апр.
+
+
+
+----
+
+_Смотрите также:_
+* [00-question-habr-link|docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md]
+* [17-appendix-b-change-log|docs/nautilus/npp-v1-0/17-appendix-b-change-log.md]
+* [00-question-camel-vs-nautilus|docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md]
+* [00-question-practical|docs/nautilus/community-discussions/practical-observations/00-question-practical.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [17-appendix-b-change-log|docs/nautilus/npp-v1-0/17-appendix-b-change-log.md] (сходство 0.31)
+* [00-question-habr-link|docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md] (сходство 0.28)
+* [15-appendix-c-history|docs/nautilus/review-methodology/15-appendix-c-history.md] (сходство 0.26)
+

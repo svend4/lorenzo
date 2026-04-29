@@ -134,3 +134,13 @@ works regardless of any of them.
 - [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
 - [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [317-9-risks-and-open-questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md) (сходство 0.87)
+- [317-9-risks-and-open-questions](docs/obsidian/02-anthropic-vacancies/317-9-risks-and-open-questions.md) (сходство 0.86)
+- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) (сходство 0.19)
+

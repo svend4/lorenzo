@@ -70,3 +70,13 @@ New domain exploration (medical advocacy? educational?)
 - [06-q6-accountability](docs/lorenzo-agent/specification/06-q6-accountability.md)
 - [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-q7-success-metrics](docs/lorenzo-agent/specification/07-q7-success-metrics.md) (сходство 0.26)
+- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md) (сходство 0.26)
+- [06-q6-accountability](docs/lorenzo-agent/specification/06-q6-accountability.md) (сходство 0.24)
+

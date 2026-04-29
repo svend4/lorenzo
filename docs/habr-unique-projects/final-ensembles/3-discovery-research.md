@@ -34,3 +34,13 @@ transcription → entity extraction → vault wikilinks;
 - [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
 - [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [2-autoresearch-legal](docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md) (сходство 0.27)
+- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md) (сходство 0.27)
+- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.20)
+

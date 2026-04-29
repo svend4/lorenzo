@@ -47,3 +47,13 @@ Cannot substitute для domain expertise — Lorenzo нужны humans для a
 - [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md) (сходство 0.22)
+- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md) (сходство 0.21)
+- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md) (сходство 0.21)
+

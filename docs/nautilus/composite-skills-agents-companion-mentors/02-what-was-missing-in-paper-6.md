@@ -136,3 +136,13 @@
 - [01-yogi-metaphor](docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md)
 - [00-question-multiple-mentors](docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.36)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.35)
+- [03-the-spectrum](docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md) (сходство 0.19)
+

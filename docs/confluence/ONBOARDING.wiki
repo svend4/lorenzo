@@ -146,3 +146,13 @@ _Смотрите также:_
 * [PROGRESS|docs/PROGRESS.md]
 * [TECH_RADAR|docs/TECH_RADAR.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [ONBOARDING|docs/obsidian/ONBOARDING.md] (сходство 0.93)
+* [COMPONENT_MATRIX|docs/COMPONENT_MATRIX.md] (сходство 0.26)
+* [COMPONENT_MATRIX|docs/obsidian/COMPONENT_MATRIX.md] (сходство 0.23)
+

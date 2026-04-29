@@ -68,3 +68,13 @@ Synthesis quality зависит от model capabilities
 - [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
 - [02-level-1-minimal-zero](docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.30)
+- [05-level-4-extended-mature](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md) (сходство 0.26)
+- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md) (сходство 0.25)
+

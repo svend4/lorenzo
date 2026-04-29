@@ -85,3 +85,13 @@ Limitation: developer task automation, не community synthesis
 - [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
 - [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md) (сходство 0.17)
+- [05-existing-infrastructure-stack](docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md) (сходство 0.17)
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.16)
+

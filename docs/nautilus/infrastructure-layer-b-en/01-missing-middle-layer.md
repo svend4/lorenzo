@@ -57,3 +57,13 @@ This document explores that observation.
 - [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
 - [10-what-not-solved](docs/nautilus/infrastructure-layer-b-en/10-what-not-solved.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md) (сходство 0.99)
+- [275-why-this-document-exists](docs/obsidian/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.80)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.75)
+

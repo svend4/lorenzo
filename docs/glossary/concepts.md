@@ -51,3 +51,13 @@
 - [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
 - [QA](docs/QA.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [components-by-name](docs/glossary/components-by-name.md) (сходство 0.19)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.17)
+- [11-integration-contracts](docs/obsidian/01-svyazi/11-integration-contracts.md) (сходство 0.17)
+

@@ -41,3 +41,13 @@ Orchestrator pattern в .ai/agents/01_orchestrator.md
 - [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.30)
+- [02-vshe-scientific-networking](docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md) (сходство 0.27)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.25)
+

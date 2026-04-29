@@ -33,3 +33,13 @@ h2. Твоя миссия
 _Смотрите также:_
 * [03-tvoya-missiya|docs/lorenzo-agent/03-tvoya-missiya.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [03-tvoya-missiya|docs/lorenzo-agent/03-tvoya-missiya.md] (сходство 0.70)
+* [347-твоя-миссия|docs/obsidian/02-anthropic-vacancies/347-твоя-миссия.md] (сходство 0.64)
+* [13-outreach-communication|docs/lorenzo-agent/13-outreach-communication.md] (сходство 0.10)
+

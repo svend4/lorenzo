@@ -1,0 +1,268 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/okwf-concept/04-proposed-infrastructure.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "4. Proposed Infrastructure"
+tags:
+  * rag
+  * architecture
+  * roadmap
+  * anthropic
+  * collaboration
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 4. Proposed Infrastructure
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».{quote}
+
+----
+
+
+h2. Содержание
+
+* [4. Proposed Infrastructure|#4-proposed-infrastructure]
+  * [4.1. Technical Substrate: Nautilus Portal Protocol|#41-technical-substrate-nautilus-portal-protocol]
+  * [4.2. Coordination Pattern: Double-Triangle Architecture|#42-coordination-pattern-double-triangle-architecture]
+  * [4.3. Knowledge Layer: Pattern Library with Private Instances|#43-knowledge-layer-pattern-library-with-private-instances]
+  * [4.4. Community Layer: Guild Structure|#44-community-layer-guild-structure]
+  * [4.5. Economic Layer: Subsidiarity-Based Compensation|#45-economic-layer-subsidiarity-based-compensation]
+  * [4.6. Legal and Compliance Layer|#46-legal-and-compliance-layer]
+  * [4.7. Integration|#47-integration]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».{quote}
+
+h2. 4. Proposed Infrastructure
+
+OKWF infrastructure consists of six interlocking layers. Each 
+layer has reference implementation (open source), operational 
+component (foundation-staffed), and community component 
+(contributor-governed).
+
+h3. 4.1. Technical Substrate: Nautilus Portal Protocol
+
+_Reference implementation_: {{github.com/svend4/nautilus}} (v1.1)
+
+_What it provides_:
+* Federated knowledge storage across heterogeneous formats
+* Adapter-based access to diverse knowledge sources
+* Unified coordinate space (Q6) for concepts
+* Consensus model for conflict resolution
+* REST API, SDK, MCP integration
+* Open specification enabling alternative implementations
+
+_Why Nautilus over alternatives_:
+* Already exists and demonstrably works
+* Zero external dependencies (auditable, portable)
+* Federation-over-merging principle aligns with foundation values
+* Humanities extension in development
+* Author-maintained and open source
+
+_Extensions required for OKWF_:
+* Agent registry (AI assistants and meta-agents as first-class 
+participants)
+* Task protocol (formal task objects with lifecycle)
+* Role protocol (first-class roles and scope)
+* Identity and reputation extensions
+
+Implementation timeline: 6-9 months from funding to production-ready 
+for pilot.
+
+h3. 4.2. Coordination Pattern: Double-Triangle Architecture
+
+_Reference document_: {{THE-DOUBLE-TRIANGLE-ARCHITECTURE.md}} 
+(available on request)
+
+_What it provides_:
+* Formal model for human-AI collaboration preserving human 
+agency
+* Three inter-layer protocols (Human↔Assistants, 
+Meta-agent↔Human, Assistant↔Meta-agent negotiation)
+* Fractal self-similarity supporting arbitrary organizational 
+scale
+* Six architectural invariants ensuring dignified collaboration
+
+_Why Double-Triangle for OKWF_:
+* Explicitly designed for single contributors in distributed 
+teams
+* Preserves contributor autonomy (lower triangle)
+* Enables coordination at scale (upper triangle)
+* Compatible with any AI capability level (degrades gracefully)
+
+_Application to OKWF_:
+* Each contributor = Node with personal AI assistants (lower 
+triangle)
+* Guild-level coordination via meta-agent (upper triangle)
+* Cross-guild coordination via higher-level meta-agents (fractal)
+* Foundation staff provide meta-meta coordination where 
+required
+
+h3. 4.3. Knowledge Layer: Pattern Library with Private Instances
+
+_Reference document_: Described in Nautilus humanities 
+extension and Double-Triangle document
+
+_What it provides_:
+* Two-tier knowledge structure: public patterns + private 
+instances
+* Three bridge types: inheritance, citation, contribution
+* Anonymization pipeline enabling privacy-preserving sharing
+* Version control and update propagation
+
+_Why pattern library is critical_:
+* Compounds knowledge across contributors
+* Enables specialized work without reinvention
+* Preserves contributor intellectual property through 
+anonymization
+* Creates foundation's unique asset over time
+
+_Application to OKWF_:
+* Public patterns maintained by foundation and guilds
+* Private instances held by individual contributors
+* Anonymization pipeline operated by foundation with contributor 
+consent
+* Contribution credits toward reputation and bonuses
+
+h3. 4.4. Community Layer: Guild Structure
+
+_What it is_: Persistent professional communities organized 
+by specialization.
+
+_Proposed initial guilds_:
+* _Legal Writing Guild_ — German/EU social and disability 
+law documentation
+* _Science Communication Guild_ — arxiv paper translation 
+and summarization
+* _Medical Documentation Guild_ — healthcare system 
+documentation and translation
+* _Technical Writing Guild_ — software documentation, 
+educational materials
+* _Code Review Guild_ — open-source code review for specified 
+projects
+* _Research Synthesis Guild_ — literature review and synthesis
+
+_Guild functions_:
+* Skill validation and graduation
+* Mentorship (senior contributors guide juniors)
+* Quality assurance (peer review of outputs)
+* Project formation (teams assemble for specific engagements)
+* Community governance (guild-internal decisions)
+
+_Graduation structure_:
+* Level 0: Onboarding quests (2-4 weeks)
+* Level 1: Simple structured tasks (3-6 months)
+* Level 2: Specialized work (6-18 months)
+* Level 3: Project participation (ongoing)
+* Level 4: Project leadership (elected or merit-based)
+* Level 5: Guild leadership (elected)
+
+h3. 4.5. Economic Layer: Subsidiarity-Based Compensation
+
+_Principles_:
+* _Dignified baseline_: all active contributors receive 
+stipend meeting minimum threshold
+* _Contribution bonuses_: measurable high-impact work 
+generates additional compensation
+* _Long-term incentives_: reputation and credentials 
+translate into tangible benefits
+* _No full-replacement income_: contributors retain other 
+life activities
+
+_Proposed structure_:
+* _Base stipend_: €500-1500/month for active contributors 
+(depending on region cost-of-living)
+* _Project bonuses_: €500-5000/project for specific deliverables
+* _Revenue sharing_: when projects serve paying clients, 
+substantial share flows to contributors
+* _Milestone awards_: guild-level recognition with tangible 
+credentials
+
+_Why subsidiarity is right model_:
+* Below full-salary level preserves other life activities 
+(elders, disabled, caregivers)
+* Above charity level preserves dignity and agency
+* Predictable baseline allows planning
+* Variable bonus allows excellence recognition
+
+_Funding sources_:
+* Corporate sponsorships (core unrestricted funds)
+* Grant funding (project-specific)
+* Client payments (commercial projects)
+* Foundation endowment (eventual self-sustaining core)
+
+h3. 4.6. Legal and Compliance Layer
+
+_What it provides_:
+* Single contractual interface for contributors (across 
+jurisdictions)
+* Tax compliance infrastructure
+* GDPR-compliant data handling
+* Dispute resolution process
+* Intellectual property framework
+
+_Mechanism_:
+* OKWF foundation provides EoR-equivalent services
+* AI-assisted compliance automation reduces costs 10x vs. 
+existing platforms
+* Modular legal templates for different engagement types
+* Clear IP ownership model (default: contributor retains rights; 
+project-specific exceptions with transparent terms)
+
+h3. 4.7. Integration
+
+All six layers integrate:
+
+* Contributors log in (community identity), pick up tasks 
+(guild structure, pattern library), execute work (Nautilus 
+substrate + Double-Triangle with assistants), receive 
+compensation (economic layer handled by legal layer).
+
+Foundation staff operate:
+* Technical infrastructure
+* Initial pattern curation
+* Legal and compliance
+* Funding relationships
+
+Community governance operates:
+* Guild-level quality gates
+* Mentorship programs
+* Strategic input to foundation leadership
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[158-4-proposed-infrastructure]]
+* [[04-nautilus-portal-substrate]]
+* [[05-economic-model]]
+* [[06-four-deployment-domains]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[158-4-proposed-infrastructure]] (сходство 0.93)
+* [[158-4-proposed-infrastructure]] (сходство 0.93)
+* [[04-nautilus-portal-substrate]] (сходство 0.23)
+

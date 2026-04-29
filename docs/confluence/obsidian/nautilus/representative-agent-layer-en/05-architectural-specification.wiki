@@ -1,0 +1,173 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/representative-agent-layer-en/05-architectural-specification.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "5. Architectural Specification"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 5. Architectural Specification
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+----
+
+
+h2. Содержание
+
+* [5. Architectural Specification|#5-architectural-specification]
+  * [5.1. Core Components|#51-core-components]
+  * [5.2. Operating Principles|#52-operating-principles]
+  * [5.3. Technical Stack|#53-technical-stack]
+  * [5.4. Integration with Double-Triangle Architecture|#54-integration-with-double-triangle-architecture]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+h2. 5. Architectural Specification
+
+h3. 5.1. Core Components
+
+A Representative Agent system consists of seven components:
+
+_Component 1 — Principal Profile_: Comprehensive 
+representation of the principal's expertise, capacity, 
+preferences, history, goals, constraints. Constructed 
+through onboarding interview, refined through ongoing 
+interaction. Owned by principal, modifiable by principal.
+
+_Component 2 — Discovery Engine_: Continuously monitors 
+relevant domains for opportunities. Sources include: 
+public job boards, RSS feeds, partner systems, peer 
+networks, regulatory announcements. Outputs a stream of 
+candidate opportunities.
+
+_Component 3 — Curation Filter_: Evaluates each 
+opportunity against profile fit, capacity match, 
+preference alignment. Outputs ranked shortlist. 
+Conservative by default — better to surface fewer high-fit 
+opportunities than overwhelm.
+
+_Component 4 — Presentation Generator_: Crafts 
+counterparty-appropriate presentations of the principal 
+when relevant opportunity is found. Translates principal's 
+value into target's language. Preserves principal's voice 
+where possible.
+
+_Component 5 — Communication Manager_: Handles ongoing 
+correspondence with counterparties. Initial outreach, 
+clarification, scheduling. Surfaces complex decisions to 
+principal. Operates within bounds set by principal.
+
+_Component 6 — Protection Monitor_: Identifies risks, 
+inconsistencies, scams, exploitation. Alerts principal to 
+warning signs. Maintains skeptical posture toward 
+counterparties.
+
+_Component 7 — Audit Log_: Comprehensive record of all 
+agent decisions and communications. Enables principal 
+review, dispute resolution, accountability.
+
+h3. 5.2. Operating Principles
+
+Six principles govern agent behavior:
+
+_Principle 1 — Principal Authority_: Final authority on 
+all consequential decisions remains with principal. Agent 
+recommends, principal decides.
+
+_Principle 2 — Transparent Operation_: All agent actions 
+are visible to principal upon request. No hidden actions 
+or communications.
+
+_Principle 3 — Conservative Default_: When uncertain, 
+agent surfaces decision to principal rather than acting 
+independently. Better to over-consult than overstep.
+
+_Principle 4 — Loyalty_: Agent serves only principal's 
+interests. No conflicts of interest with platforms, 
+counterparties, or third parties.
+
+_Principle 5 — Capability Honesty_: Agent acknowledges 
+limits of its capabilities. When complexity exceeds 
+agent capability, agent escalates to human professional.
+
+_Principle 6 — Reversibility_: All agent actions are 
+reversible to extent possible. Principal can override, 
+withdraw, modify any agent decision.
+
+h3. 5.3. Technical Stack
+
+_Large Language Models_: Foundation for natural language 
+understanding, generation, communication. Multiple model 
+support (Claude, GPT, local models like Qwen) for 
+redundancy and choice.
+
+_Persistent Memory_: Long-term storage of profile, 
+history, relationships. Vector databases for semantic 
+retrieval. Structured data for transactional records.
+
+_Federation Protocol_: Standard interfaces for agents 
+to interact with external systems and other agents. 
+Nautilus Portal Protocol provides foundation.
+
+_Encryption and Access Control_: All sensitive data 
+encrypted at rest and in transit. Granular permissions 
+for what agent can access in principal's data.
+
+_Audit Infrastructure_: Tamper-resistant logging of 
+all agent actions for accountability.
+
+_User Interface_: Multi-modal access (web, mobile, 
+voice) appropriate to principal's accessibility needs. 
+Particularly important for elderly, disabled, or 
+technology-unfamiliar principals.
+
+h3. 5.4. Integration with Double-Triangle Architecture
+
+Representative Agents operate at the **boundary between 
+Lower Triangle and outside world** in Double-Triangle 
+Architecture. They are:
+
+* Owned by Node (principal)
+* Distinct from Node's task-execution assistants
+* Interact with Meta-agents and external systems
+* Represent Node's interests in those interactions
+
+In Star of David topology, the Representative Agent is 
+the _outer boundary_ of the Lower Triangle — the layer 
+that touches the world beyond the personal context.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[174-5-architectural-specification]]
+* [[03-what-makes-representative-agent]]
+* [[172-3-what-makes-a-representative-agent]]
+* [[06-ethical-framework]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[174-5-architectural-specification]] (сходство 0.90)
+* [[174-5-architectural-specification]] (сходство 0.84)
+* [[03-what-makes-representative-agent]] (сходство 0.24)
+

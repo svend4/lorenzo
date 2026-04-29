@@ -55,3 +55,12 @@ output:
 
 ---
 _Создано: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[project-component]]
+- [[decision-record]]
+

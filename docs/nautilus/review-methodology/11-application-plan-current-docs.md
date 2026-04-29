@@ -62,3 +62,13 @@ docs) методология **не применяется**.
 - [08-implementation-nautilus](docs/nautilus/review-methodology/08-implementation-nautilus.md)
 - [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [117-10-конкретный-план-применения-к-текущим-документам](docs/obsidian/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.70)
+- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.61)
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.27)
+

@@ -150,3 +150,13 @@ large organizations (Star(n)) without protocol changes.
 - [04-nautilus-portal-substrate](docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md)
 - [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.83)
+- [139-2-the-double-triangle-architecture](docs/obsidian/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.82)
+- [03-three-inter-layer-protocols](docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md) (сходство 0.22)
+

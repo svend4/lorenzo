@@ -48,3 +48,13 @@
 - [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
 - [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [354-существующий-landscape-collaborators-твоя-working-](docs/obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.73)
+- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.72)
+- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md) (сходство 0.44)
+

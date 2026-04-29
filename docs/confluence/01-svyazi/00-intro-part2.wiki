@@ -4,3 +4,21 @@
 {info}
 
 h1. Продолжение исследования для Svyazi 2.0
+
+
+{quote}- [00-intro-part2|docs/obsidian/01-svyazi/00-intro-part2.md] (сходство 0.33){quote}
+_Проекты:_ Svyazi
+
+----
+
+
+
+
+
+
+
+----
+
+_Похожие документы:_
+* [00-intro-part2|docs/obsidian/01-svyazi/00-intro-part2.md] (сходство 0.33)
+

@@ -36,3 +36,12 @@ h2. Твои anti-patterns
 _Смотрите также:_
 * [15-anti-patterns|docs/lorenzo-agent/15-anti-patterns.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [15-anti-patterns|docs/lorenzo-agent/15-anti-patterns.md] (сходство 0.79)
+* [359-твои-anti-patterns|docs/obsidian/02-anthropic-vacancies/359-твои-anti-patterns.md] (сходство 0.72)
+

@@ -65,3 +65,13 @@ Termux support (что особенно релевантно для вас, уч
 - [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
 - [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.26)
+- [11-pluses-of-hermes](docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md) (сходство 0.20)
+- [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md) (сходство 0.19)
+

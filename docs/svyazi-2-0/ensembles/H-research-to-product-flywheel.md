@@ -41,3 +41,13 @@ flowchart LR
 - [C-multi-agent-factory](docs/svyazi-2-0/ensembles/C-multi-agent-factory.md)
 - [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md) (сходство 0.28)
+- [10-second-order-ensembles](docs/obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.27)
+- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) (сходство 0.25)
+

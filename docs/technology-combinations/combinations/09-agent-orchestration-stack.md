@@ -53,3 +53,13 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 - [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
 - [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-benchmarks](docs/obsidian/03-technology-combinations/05-benchmarks.md) (сходство 0.26)
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.25)
+- [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md) (сходство 0.23)
+

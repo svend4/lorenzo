@@ -1,0 +1,50 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Что НЕ подходит (честно)
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.{quote}
+
+Pre-training / Post-training Research Scientist — требует опыта обучения многомиллиардных моделей с реальными production-constraints, которого у вас нет.
+
+Staff Software Engineer, Inference — это CUDA/TPU kernel-уровень, низкоуровневые оптимизации по latency и throughput в миллисекундах. Не ваш стек.
+
+Interpretability Research Engineer — MechInterp — очень узкая субдисциплина с жёсткими требованиями по publications.
+
+Security Engineer уровня Offensive/Red Team — требует конкретного CVE-трека или CTF-истории.
+
+Любые Sales/Account Executive — не ваш профиль по темпераменту.
+
+Уникальная ниша, которой у Anthropic формально нет
+
+
+
+----
+
+_Смотрите также:_
+* [01-ai-research-engineering|docs/anthropic-vacancies/clusters/01-ai-research-engineering.md]
+* [00-question-habr-link|docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md]
+* [05-quaternary-developer-education|docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md]
+* [07-unique-niche-eu-legal-infra|docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [05-quaternary-developer-education|docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md] (сходство 0.25)
+* [03-partial-fit-honesty|docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md] (сходство 0.24)
+* [17-appendix-b-change-log|docs/nautilus/npp-v1-0/17-appendix-b-change-log.md] (сходство 0.23)
+

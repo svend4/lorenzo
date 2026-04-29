@@ -15,6 +15,18 @@ date: 2026-04-29
 h1. Practical Recommendations for the Current Project
 
 
+h2. Содержание
+
+* [Practical Recommendations for the Current Project|#practical-recommendations-for-the-current-project]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Practical Recommendations for the Current Project For the seven-document Nautilus / OKWF project specifically, --- Practical Recommendations for the Current Project For the seven-d{quote}

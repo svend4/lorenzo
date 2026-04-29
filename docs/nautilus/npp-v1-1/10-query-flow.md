@@ -61,3 +61,13 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 - [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
 - [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [85-10-query-flow](docs/obsidian/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.74)
+- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.72)
+- [09-query-flow](docs/nautilus/npp-v1-0/09-query-flow.md) (сходство 0.72)
+

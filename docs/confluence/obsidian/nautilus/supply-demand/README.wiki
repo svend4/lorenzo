@@ -1,0 +1,30 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/supply-demand/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "supply-demand"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. supply-demand
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [[00-question-supply-demand|00-question-supply-demand.md]] — 
+* [[01-three-related-themes|01-three-related-themes.md]] — > [!WARNING]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.38)
+* [[README]] (сходство 0.38)
+* [[README]] (сходство 0.33)
+

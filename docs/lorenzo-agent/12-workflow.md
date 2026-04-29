@@ -60,3 +60,13 @@
 - [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
 - [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [356-твой-workflow](docs/obsidian/02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.69)
+- [356-твой-workflow](docs/02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.65)
+- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md) (сходство 0.24)
+

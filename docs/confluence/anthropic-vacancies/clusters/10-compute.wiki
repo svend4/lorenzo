@@ -1,0 +1,40 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/clusters/10-compute.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Compute — 13 ролей
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+Чисто «железная» инфраструктура: Data Center Engineers (Electrical, Capacity Delivery, Portfolio Planning, Resource Efficiency), Network Engineer, Cluster Deployment Engineer, Transaction Principal/Manager (закупка/аренда мощностей в US/UK/Australia). Отдельная роль Strategic Deals Lead, Compute & Infrastructure — показатель масштаба контрактов с облаками.
+
+
+
+----
+
+_Смотрите также:_
+* [13-communications|docs/anthropic-vacancies/clusters/13-communications.md]
+* [14-public-policy|docs/anthropic-vacancies/clusters/14-public-policy.md]
+* [12-technical-program-management|docs/anthropic-vacancies/clusters/12-technical-program-management.md]
+* [09-product-management-support-ops|docs/anthropic-vacancies/clusters/09-product-management-support-ops.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [13-communications|docs/anthropic-vacancies/clusters/13-communications.md] (сходство 0.40)
+* [14-public-policy|docs/anthropic-vacancies/clusters/14-public-policy.md] (сходство 0.38)
+* [09-product-management-support-ops|docs/anthropic-vacancies/clusters/09-product-management-support-ops.md] (сходство 0.38)
+

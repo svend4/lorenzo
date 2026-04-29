@@ -109,14 +109,3 @@ h2. Легенда
 || Orchestration || mclaude, AI Factory, Rufler, AutoResearch ||
 || Security || LiteLLM, SENTINEL, Tool Search, Auto AI Router ||
 || Sync || Yjs, Automerge ||
-
-
-
-----
-
-_Смотрите также:_
-* [[GLOSSARY]]
-* [[CONTACT_PRIORITY]]
-* [[GRAPH]]
-* [[NETWORK]]
-

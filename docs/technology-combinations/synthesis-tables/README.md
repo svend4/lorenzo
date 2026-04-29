@@ -10,3 +10,13 @@
 - [20-24-final.md](20-24-final.md) — <!-- summary -->
 - [25-30-extended.md](25-30-extended.md) — <!-- summary -->
 - [31-35-final.md](31-35-final.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/obsidian/autofilled/README.md) (сходство 0.27)
+- [README](docs/nautilus/community-discussions/practical-observations/README.md) (сходство 0.27)
+- [README](docs/lorenzo-agent/scenarios/README.md) (сходство 0.27)
+

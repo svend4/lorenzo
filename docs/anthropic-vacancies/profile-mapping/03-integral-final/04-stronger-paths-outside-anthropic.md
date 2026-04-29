@@ -37,3 +37,13 @@ Patent filing на 6 патентабельных изобретений. DPMA (
 - [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
 - [03-partial-fit-honesty](docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-non-anthropic-paths](docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md) (сходство 0.21)
+- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.19)
+- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) (сходство 0.16)
+

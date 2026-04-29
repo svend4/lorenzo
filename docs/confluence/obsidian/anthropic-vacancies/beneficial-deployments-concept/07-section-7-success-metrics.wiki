@@ -1,0 +1,63 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Section 7: Success metrics"
+tags:
+  * roadmap
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Section 7: Success metrics
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 страниц).{quote}
+
+Section 7: Success metrics
+
+Concrete:
+
+Cases processed: target 50/year by end Phase 1
+
+Time saved per case: target 60% reduction in document preparation time
+
+Quality: target 95% accuracy on legal citations
+
+Vulnerable individuals reached: target X newly accessible cases (those who couldn't afford traditional advocate)
+
+Advocate capacity multiplier: target 2-3x increase in cases each advocate can handle
+
+Pattern library growth: target N reusable case patterns by Phase 2
+
+
+
+----
+
+_Смотрите также:_
+* [[04-section-4-sgb-pilot]]
+* [[02-section-2-beneficial-dimension]]
+* [[01-section-1-problem]]
+* [[08-section-8-risks-mitigations]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[04-section-4-sgb-pilot]] (сходство 0.33)
+* [[02-section-2-beneficial-dimension]] (сходство 0.32)
+* [[01-section-1-problem]] (сходство 0.30)
+

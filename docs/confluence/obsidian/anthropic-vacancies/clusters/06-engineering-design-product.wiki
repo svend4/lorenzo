@@ -1,0 +1,48 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/clusters/06-engineering-design-product.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Engineering & Design - Product — 22 роли"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Engineering & Design - Product — 22 роли
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+Продуктовая инженерия: Software Engineer (Full-stack, Backend, Platform, UI, iOS, Android, Desktop), Staff+ уровни, Product Designer Claude Code, Prompt Engineer, Model Quality Engineer, API (Senior Staff), Billing Platform, Cybersecurity Products, Auth & Identity. Это ваши коллеги по стеку Managed Agents API / Claude Code.
+
+
+
+----
+
+_Смотрите также:_
+* [[13-communications]]
+* [[09-product-management-support-ops]]
+* [[16-people]]
+* [[04-security]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[13-communications]] (сходство 0.40)
+* [[16-people]] (сходство 0.36)
+* [[12-technical-program-management]] (сходство 0.35)
+

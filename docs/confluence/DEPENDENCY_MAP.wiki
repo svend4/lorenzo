@@ -11,6 +11,17 @@ h1. Карта зависимостей скриптов
 ----
 
 
+h2. Содержание
+
+* [Зависимости|#зависимости]
+* [Порядок запуска (рекомендуемый)|#порядок-запуска-рекомендуемый]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 
 
 
@@ -175,6 +186,22 @@ h2. Упоминается в
 
 
 h2. Связанные документы
+
+* [CHANGELOG|CHANGELOG.md] _25%_
+* [docs|README.md] _25%_
+* [Индекс тегов|TAGS.md] _21%_
+* [Changelog (авто)|CHANGELOG_AUTO.md] _17%_
+* [Прогресс MVP|PROGRESS.md] _17%_
+* [Бейджи репозитория|badges/README.md] _15%_
+
+
+
+----
+
+_Похожие документы:_
+* [DEPENDENCY_MAP|docs/obsidian/DEPENDENCY_MAP.md] (сходство 0.79)
+* [README|docs/obsidian/README.md] (сходство 0.40)
+* [CHANGELOG_AUTO|docs/CHANGELOG_AUTO.md] (сходство 0.34)
 
 * [CHANGELOG|CHANGELOG.md] _25%_
 * [docs|README.md] _25%_

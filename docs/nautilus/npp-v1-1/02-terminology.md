@@ -84,3 +84,13 @@ Repo к экосистеме (A–E, см. раздел 12).
 - [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
 - [05-compatibility-levels](docs/nautilus/npp-v1-1/05-compatibility-levels.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [77-2-terminology](docs/obsidian/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.87)
+- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.85)
+- [02-terminology](docs/nautilus/npp-v1-0/02-terminology.md) (сходство 0.62)
+

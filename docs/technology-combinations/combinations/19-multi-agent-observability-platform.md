@@ -164,3 +164,13 @@ Claude hat geantwortet: Продолжаю охоту за уникальным�
 - [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
 - [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.41)
+- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md) (сходство 0.34)
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.29)
+

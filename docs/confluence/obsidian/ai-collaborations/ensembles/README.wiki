@@ -1,0 +1,37 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/ai-collaborations/ensembles/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Ансамбли проектов"
+tags:
+  * ai-collaborations
+date: 2026-04-29
+----
+
+h1. Ансамбли проектов
+
+_Файлов:_ 9
+
+h2. Содержание
+
+* [[1-agentic-knowledge-os|1-agentic-knowledge-os.md]] — 
+* [[2-distributed-agent-workshop|2-distributed-agent-workshop.md]] — 
+* [[3-forensic-rag|3-forensic-rag.md]] — 
+* [[4-web-to-knowledge-pipeline|4-web-to-knowledge-pipeline.md]] — 
+* [[5-agent-firewall|5-agent-firewall.md]] — > [!WARNING]
+* [[6-continuous-eval-loop|6-continuous-eval-loop.md]] — 
+* [[7-domain-agent-app-factory|7-domain-agent-app-factory.md]] — 
+* [[8-budget-aware-intelligence-stack|8-budget-aware-intelligence-stack.md]] — 
+* [[9-ambient-team-agent|9-ambient-team-agent.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.19)
+* [[README]] (сходство 0.17)
+* [[README]] (сходство 0.14)
+

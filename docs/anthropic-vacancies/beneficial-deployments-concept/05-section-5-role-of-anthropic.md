@@ -54,3 +54,13 @@ This is mutual benefit framing. Не «вы дайте денег», но «да
 - [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
 - [01-section-1-problem](docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) (сходство 0.26)
+- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md) (сходство 0.24)
+- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md) (сходство 0.24)
+

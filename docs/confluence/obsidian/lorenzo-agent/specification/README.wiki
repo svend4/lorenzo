@@ -1,0 +1,40 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/lorenzo-agent/specification/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "specification"
+tags:
+  * lorenzo-agent
+date: 2026-04-29
+----
+
+h1. specification
+
+_Файлов:_ 12
+
+h2. Содержание
+
+* [[00-context-fundamental-questions|00-context-fundamental-questions.md]] — 
+* [[01-q1-what-lorenzo-is|01-q1-what-lorenzo-is.md]] — 
+* [[02-q2-whom-lorenzo-serves|02-q2-whom-lorenzo-serves.md]] — 
+* [[03-q3-what-lorenzo-does|03-q3-what-lorenzo-does.md]] — 
+* [[04-q4-character|04-q4-character.md]] — 
+* [[05-q5-authority-limits|05-q5-authority-limits.md]] — 
+* [[06-q6-accountability|06-q6-accountability.md]] — 
+* [[07-q7-success-metrics|07-q7-success-metrics.md]] — 
+* [[08-q8-other-ai-relationships|08-q8-other-ai-relationships.md]] — 
+* [[09-q9-geographic-linguistic-scope|09-q9-geographic-linguistic-scope.md]] — 
+* [[10-q10-funding-model|10-q10-funding-model.md]] — 
+* [[11-difficulties-and-recommendations|11-difficulties-and-recommendations.md]] — > [!IMPORTANT]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.14)
+* [[08-q8-other-ai-relationships]] (сходство 0.13)
+* [[README]] (сходство 0.13)
+

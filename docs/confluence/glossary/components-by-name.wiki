@@ -1,0 +1,204 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/glossary/components-by-name.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Компоненты — алфавитный список с обратными ссылками
+
+
+{quote}Для каждого проекта / технологии / паттерна — все доки в монорепозитории, где он упоминается. Если компонент имеет собственную карточку, она указана первой.{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+----
+
+
+h2. Содержание
+
+* [A|#a]
+* [B|#b]
+* [C|#c]
+* [D|#d]
+* [E|#e]
+* [F|#f]
+* [G|#g]
+* [H|#h]
+* [K|#k]
+* [L|#l]
+* [M|#m]
+* [N|#n]
+* [O|#o]
+* [P|#p]
+* [R|#r]
+* [S|#s]
+* [T|#t]
+* [V|#v]
+* [W|#w]
+* [Y|#y]
+* [Z|#z]
+
+----
+
+
+
+
+
+
+Для каждого проекта / технологии / паттерна — все доки в монорепозитории, где он упоминается. Если компонент имеет собственную карточку, она указана первой.
+
+h2. A
+
+* _AgentFS_ — [карточка|../svyazi-2-0/components/agentfs.md] · [Ансамбль A|../svyazi-2-0/ensembles/A-collaboration-os.md] · [Ансамбль G|../svyazi-2-0/ensembles/G-federated-local-graph.md] · [Cross‑Agent Memory Bus|../ai-collaborations/continuation/01-shared-memory-between-agents.md] · [Agentic Knowledge OS|../ai-collaborations/ensembles/1-agentic-knowledge-os.md]
+* _Agent‑Bridge_ — [Agent Orchestration Stack (комбо 9)|../technology-combinations/combinations/09-agent-orchestration-stack.md] · [Local‑First Dev Env (комбо 14)|../technology-combinations/combinations/14-local-first-agent-development-environment.md]
+* _agent-memory-mcp_ — [карточка|../svyazi-2-0/components/agent-memory-mcp.md] · [Memory Write Policy|../svyazi-2-0/architecture/memory-write-policy.md]
+* _Agent-pool_ — [Distributed Agent Workshop|../ai-collaborations/ensembles/2-distributed-agent-workshop.md]
+* _AI Factory + AIF Handoff_ — [карточка|../svyazi-2-0/components/ai-factory.md] · [Ансамбль C|../svyazi-2-0/ensembles/C-multi-agent-factory.md] · [Ансамбль H|../svyazi-2-0/ensembles/H-research-to-product-flywheel.md] · [Distributed Agent Workshop|../ai-collaborations/ensembles/2-distributed-agent-workshop.md]
+* _Anthropic Skills_ — [Self‑Aware MCP + Skills + CodeWiki|../svyazi-2-0/components/self-aware-mcp.md] · [PKM × MCP/Skills|../habr-unique-projects/software-pairs/2-pkm-mcp-skills.md]
+* _A2A protocol_ — [A2A vs MCP, ансамбль H|../ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md]
+* _AutoResearch_ — [карточка|../svyazi-2-0/components/autoresearch-sequential.md] · [Ансамбль C|../svyazi-2-0/ensembles/C-multi-agent-factory.md] · [Ансамбль H|../svyazi-2-0/ensembles/H-research-to-product-flywheel.md] · [AutoResearch для legal|../habr-unique-projects/final-ensembles/2-autoresearch-legal.md] · [AutoResearch × Distributed Roy (deep pair 7)|../habr-unique-projects/deep-pairs/7-autoresearch-distributed.md]
+* _Auto AI Router_ — [Security + routing plane|../svyazi-2-0/components/security-routing-plane.md] · [Ансамбль E|../svyazi-2-0/ensembles/E-execution-plane.md] · [Комбинация 2|../technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md] · [Комбинация 8|../technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md]
+
+h2. B
+
+* _Biome / Ruff / uv_ — [Continuation 10 domains|../technology-combinations/research-reports/continuation-10-domains.md]
+* _ByteRover_ — [Supplementary infrastructure|../habr-unique-projects/key-findings/05-supplementary-infrastructure.md]
+
+h2. C
+
+* _CardIndex_ (Svyazi) — [Card Envelope|../svyazi-2-0/architecture/card-envelope.md] · [Svyazi|../svyazi-2-0/components/svyazi.md] · [Ансамбль A|../svyazi-2-0/ensembles/A-collaboration-os.md] · [Комбинация 3|../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md]
+* _CatBoost_ — [Комбинация 22|../technology-combinations/combinations/22-russian-international-oss-stack.md]
+* _Claude Code_ — [Комбинация 5|../technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md] · [Adversarial × Multi‑IDE (deep pair 3)|../habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md]
+* _ClickHouse_ — [Комбинация 20|../technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md] · [Комбинация 21|../technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md] · [Комбинация 33|../technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md] · [Mega‑Stack 4.0|../technology-combinations/mega-stacks/04-event-sourcing-consensus.md]
+* _CoAlly_ — [Cross‑Agent Memory Bus|../ai-collaborations/continuation/01-shared-memory-between-agents.md]
+* _Conductor_ — [Комбинация 8|../technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md] · [Комбинация 9|../technology-combinations/combinations/09-agent-orchestration-stack.md]
+* _CodeWiki_ — [Self‑Aware MCP + Skills + CodeWiki|../svyazi-2-0/components/self-aware-mcp.md] · [Ансамбль C|../svyazi-2-0/ensembles/C-multi-agent-factory.md]
+* _CRDT (Yjs / Automerge)_ — [Yjs + Automerge|../svyazi-2-0/components/yjs-automerge.md] · [Ансамбль D|../svyazi-2-0/ensembles/D-voice-first-mesh.md] · [Ансамбль G|../svyazi-2-0/ensembles/G-federated-local-graph.md] · [Комбинация 3|../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md] · [Комбинация 11|../technology-combinations/combinations/11-hybrid-crdt-sql-database.md] · [CRDT × Self‑hosted (software pair 3)|../habr-unique-projects/software-pairs/3-crdt-self-hosted.md]
+* _Crawl4AI_ — [Комбинация 7|../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md] · [Комбинация 15|../technology-combinations/combinations/15-self-consolidating-legal-corpus.md] · [Комбинация 18|../technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md] · [Комбинация 21|../technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md]
+
+h2. D
+
+* _Docling_ — [Комбинация 7|../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md] · [Комбинация 10|../technology-combinations/combinations/10-legal-document-intelligence-pipeline.md] · [Комбинация 15|../technology-combinations/combinations/15-self-consolidating-legal-corpus.md] · [AutoResearch legal|../habr-unique-projects/final-ensembles/2-autoresearch-legal.md]
+* _Дочкина (Sequential протокол)_ — [AutoResearch + Sequential|../svyazi-2-0/components/autoresearch-sequential.md] · [Dochkina Sequential|../habr-unique-projects/key-findings/04-dochkina-sequential.md] · [Комбинация 5|../technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md]
+* _DuckDB / Turso / pgvector_ — [Continuation 10 domains|../technology-combinations/research-reports/continuation-10-domains.md]
+
+h2. E
+
+* _Ebbinghaus decay_ — [Yodoca|../svyazi-2-0/components/yodoca.md] · [Memory Write Policy|../svyazi-2-0/architecture/memory-write-policy.md] · [Комбинация 15|../technology-combinations/combinations/15-self-consolidating-legal-corpus.md] · [Habr key‑findings — Yodoca|../habr-unique-projects/key-findings/01-yodoca.md]
+* _Event Sourcing_ — [Комбинация 31|../technology-combinations/combinations/31-event-sourced-legal-document-history.md] · [Mega‑Stack 4.0|../technology-combinations/mega-stacks/04-event-sourcing-consensus.md] · [PDA — LLM как периферия|../habr-unique-projects/key-findings/03-pda-llm-as-periphery.md]
+* _Extropic / Normal Computing (TSU)_ — [Hardware pair 2 — TSU × MoME|../habr-unique-projects/hardware-pairs/2-tsu-mome.md]
+
+h2. F
+
+* _Forward Deployed Engineer (FDE)_ — [Initial primary match|../anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md] · [Reanalysis: FDE downgraded|../anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md]
+
+h2. G
+
+* _Graph RAG_ — [карточка|../svyazi-2-0/components/graph-rag.md] · [Ансамбль B|../svyazi-2-0/ensembles/B-forensic-rag.md] · [Комбинация 4|../technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md] · [Комбинация 22|../technology-combinations/combinations/22-russian-international-oss-stack.md] · [Комбинация 27|../technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md] · [Forensic RAG (ai‑collab ансамбль 3)|../ai-collaborations/ensembles/3-forensic-rag.md]
+
+h2. H
+
+* _Handy / OpenWhispr / GigaAM_ (voice stack) — [Voice / local-first stack|../svyazi-2-0/components/voice-stack.md] · [Ансамбль D|../svyazi-2-0/ensembles/D-voice-first-mesh.md] · [Speech‑to‑text × LLM (software pair 4)|../habr-unique-projects/software-pairs/4-speech-to-text-llm.md] · [Voice × local memory (deep pair 5)|../habr-unique-projects/deep-pairs/5-voice-local-memory.md]
+* _Hybrid RAG_ — [карточка|../svyazi-2-0/components/hybrid-rag.md] · [Ансамбль B|../svyazi-2-0/ensembles/B-forensic-rag.md] · [Document RAG (deep pair 2)|../habr-unique-projects/deep-pairs/2-document-rag.md]
+* _Huginn_ — [Software pair 1|../habr-unique-projects/software-pairs/1-workflow-llm-mcp.md]
+
+h2. K
+
+* _K2-18 (Романов)_ — [Three direct analogues|../habr-unique-projects/analogues/01-three-direct-analogues.md] · [Three key candidates|../ai-collaborations/candidates/01-three-key-candidates.md]
+* _Knowledge Graph Kit_ — [Related projects|../habr-unique-projects/analogues/02-related-projects.md] · [Related projects context|../ai-collaborations/candidates/02-related-projects-context.md]
+* _knowledge-space_ — [карточка|../svyazi-2-0/components/knowledge-space.md] · [Ансамбль A|../svyazi-2-0/ensembles/A-collaboration-os.md] · [Ансамбль H|../svyazi-2-0/ensembles/H-research-to-product-flywheel.md] · [Agentic Knowledge OS|../ai-collaborations/ensembles/1-agentic-knowledge-os.md]
+
+h2. L
+
+* _Langfuse / TraceDebugger_ — [AgentOps + Trace Envelope|../ai-collaborations/continuation/02-agentops-trace-envelope.md]
+* _LangGraph_ — [vs Notion/Mem/AFFiNE/LangGraph|../ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md] · [A2A vs MCP|../ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md]
+* _Legal RAG_ — [карточка|../svyazi-2-0/components/legal-rag.md] · [Ансамбль B|../svyazi-2-0/ensembles/B-forensic-rag.md] · [Commercialization B|../ai-collaborations/continuation/08-commercialization-three-paths.md]
+* _LiteLLM_ — [Security + routing plane|../svyazi-2-0/components/security-routing-plane.md] · [Ансамбль E|../svyazi-2-0/ensembles/E-execution-plane.md] · [Deep pair 1 — LLM gateway|../habr-unique-projects/deep-pairs/1-llm-gateway.md]
+* _LiteParse / research-docs_ — [карточка|../svyazi-2-0/components/research-docs-liteparse.md] · [Ансамбль B|../svyazi-2-0/ensembles/B-forensic-rag.md] · [Ансамбль F|../svyazi-2-0/ensembles/F-evidence-backed-intake.md] · [Forensic RAG (ai‑collab)|../ai-collaborations/ensembles/3-forensic-rag.md]
+
+h2. M
+
+* _Mamba (SSM)_ — [Hardware pair 1 — Neuromorphic × SSM|../habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md]
+* _mclaude_ — [карточка|../svyazi-2-0/components/mclaude.md] · [Ансамбль C|../svyazi-2-0/ensembles/C-multi-agent-factory.md] · [Ансамбль H|../svyazi-2-0/ensembles/H-research-to-product-flywheel.md] · [Distributed Agent Workshop|../ai-collaborations/ensembles/2-distributed-agent-workshop.md]
+* _MCP (Model Context Protocol)_ — [Self‑Aware MCP|../svyazi-2-0/components/self-aware-mcp.md] · [A2A vs MCP|../ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md] · [Hardware pair 5|../habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md] · [PKM × MCP|../habr-unique-projects/software-pairs/2-pkm-mcp-skills.md] · [Self‑aware MCP × Specs|../habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md]
+* _Memory OS_ — [карточка|../svyazi-2-0/components/agent-memory-mcp.md] · [Card Envelope|../svyazi-2-0/architecture/card-envelope.md] · [Memory Write Policy|../svyazi-2-0/architecture/memory-write-policy.md] · [Agentic Knowledge OS|../ai-collaborations/ensembles/1-agentic-knowledge-os.md]
+* _MemNet_ — [карточка|../svyazi-2-0/components/memnet.md] · [Habr key‑findings — MemNet|../habr-unique-projects/key-findings/02-memnet.md]
+
+h2. N
+
+* _Node-RED_ — [Software pair 1|../habr-unique-projects/software-pairs/1-workflow-llm-mcp.md]
+* _NGT Memory_ — [карточка|../svyazi-2-0/components/ngt-memory.md] · [Ансамбль A|../svyazi-2-0/ensembles/A-collaboration-os.md] · [Ансамбль G|../svyazi-2-0/ensembles/G-federated-local-graph.md] · [Three key candidates|../ai-collaborations/candidates/01-three-key-candidates.md]
+* _Нейроморфные процессоры (Loihi, TrueNorth, BrainScaleS, Алтай)_ — [Hardware pair 1|../habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md]
+
+h2. O
+
+* _Obsidian / Logseq / Foam_ (PKM) — [PKM × MCP/Skills|../habr-unique-projects/software-pairs/2-pkm-mcp-skills.md] · [Skill catalogs × Subagents|../habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md]
+* _OpenClaude_ — [Комбинация 6|../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md] · [Комбинация 14|../technology-combinations/combinations/14-local-first-agent-development-environment.md] · [Tmux Village × OpenClaw|../habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md] · [Memory Firewall|../ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md]
+
+h2. P
+
+* _Paxos / Raft_ — [Комбинация 32|../technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md] · [Комбинация 34|../technology-combinations/combinations/34-distributed-event-store-with-paxos.md] · [Mega‑Stack 4.0|../technology-combinations/mega-stacks/04-event-sourcing-consensus.md]
+* _PostgreSQL 18 async_ — [Комбинация 11|../technology-combinations/combinations/11-hybrid-crdt-sql-database.md] · [Комбинация 20|../technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md]
+* _PDA-бот (Possibility-Driven Architecture)_ — [Habr key‑findings — PDA|../habr-unique-projects/key-findings/03-pda-llm-as-periphery.md]
+* _Prompt Worms / OpenClaw audit_ — [Memory Firewall|../ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md] · [Default policy|../svyazi-2-0/security/default-policy.md]
+* _Pydantic_ — [Комбинация 25|../technology-combinations/combinations/25-legal-dsl-code-transpiler.md] · [Комбинация 28|../technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md] · [Mega‑Stack 3.0|../technology-combinations/mega-stacks/03-dsl-ast.md]
+
+h2. R
+
+* _RISC-V (Alibaba XuanTie C950)_ — [Hardware pair 4|../habr-unique-projects/hardware-pairs/4-riscv-privacy.md]
+* _RRAM / CBRAM мемристоры_ — [Hardware bonus|../habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md]
+* _Rufler_ — [карточка|../svyazi-2-0/components/rufler.md] · [Ансамбль C|../svyazi-2-0/ensembles/C-multi-agent-factory.md] · [Distributed Agent Workshop|../ai-collaborations/ensembles/2-distributed-agent-workshop.md]
+
+h2. S
+
+* _SENTINEL_ — [Security + routing plane|../svyazi-2-0/components/security-routing-plane.md] · [Ансамбль E|../svyazi-2-0/ensembles/E-execution-plane.md] · [Default policy|../svyazi-2-0/security/default-policy.md] · [Memory Firewall|../ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md]
+* _Self-Aware MCP_ — [карточка|../svyazi-2-0/components/self-aware-mcp.md] · [Ансамбль F|../svyazi-2-0/ensembles/F-evidence-backed-intake.md] · [Ансамбль G|../svyazi-2-0/ensembles/G-federated-local-graph.md] · [Self-aware MCP × Specs|../habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md]
+* _Skate_ — [Distributed Agent Workshop|../ai-collaborations/ensembles/2-distributed-agent-workshop.md]
+* _SourceCraft CLI_ — [Комбинация 5|../technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md]
+* _Svyazi_ — [карточка|../svyazi-2-0/components/svyazi.md] · во всех ансамблях A‑H · [Комбинация 1|../technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md] · [Комбинация 3|../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md] · [Комбинация 18|../technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md]
+
+h2. T
+
+* _tg-chat-analyser_ — [Supplementary infrastructure|../habr-unique-projects/key-findings/05-supplementary-infrastructure.md]
+* _TimescaleDB_ — [Комбинация 11|../technology-combinations/combinations/11-hybrid-crdt-sql-database.md] · [Mega‑Stack 1.0|../technology-combinations/mega-stacks/01-legal-ai-stack.md]
+* _TinyML / TinyChat_ — [Hardware pair 5|../habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md]
+* _Tool Search_ — [Security + routing plane|../svyazi-2-0/components/security-routing-plane.md] · [Skill and Tool Policy|../svyazi-2-0/architecture/skill-tool-policy.md]
+* _TSU (Thermodynamic Sampling Unit)_ — [Hardware pair 2|../habr-unique-projects/hardware-pairs/2-tsu-mome.md]
+
+h2. V
+
+* _VictoriaMetrics / VictoriaLogs / VictoriaTraces_ — [Sozialrecht report|../technology-combinations/research-reports/sozialrecht-35-combinations.md]
+
+h2. W
+
+* _Wikontic_ — [Three direct analogues|../habr-unique-projects/analogues/01-three-direct-analogues.md] · [Three key candidates|../ai-collaborations/candidates/01-three-key-candidates.md]
+* _Windmill_ — [Software pair 1|../habr-unique-projects/software-pairs/1-workflow-llm-mcp.md]
+
+h2. Y
+
+* _YDB / Tarantool DB 3.0_ — [Sozialrecht report|../technology-combinations/research-reports/sozialrecht-35-combinations.md]
+* _Yjs / Automerge_ — см. _CRDT_ выше
+* _Yodoca_ — [карточка|../svyazi-2-0/components/yodoca.md] · [Ансамбль A|../svyazi-2-0/ensembles/A-collaboration-os.md] · [Ансамбль F|../svyazi-2-0/ensembles/F-evidence-backed-intake.md] · [Habr key‑findings — Yodoca|../habr-unique-projects/key-findings/01-yodoca.md] · [Комбинация 7|../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md] · [Комбинация 15|../technology-combinations/combinations/15-self-consolidating-legal-corpus.md]
+
+h2. Z
+
+* _ZINC inference engine (Zig/Vulkan)_ — [Комбинация 6|../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md] · [Hardware pair 3|../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md]
+
+
+
+----
+
+_Смотрите также:_
+* [authors-by-name|docs/glossary/authors-by-name.md]
+* [concepts|docs/glossary/concepts.md]
+* [PRIORITIES|docs/PRIORITIES.md]
+* [source-projects|docs/ai-collaborations/source-projects.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/technology-combinations/combinations/README.md] (сходство 0.27)
+* [authors-by-name|docs/glossary/authors-by-name.md] (сходство 0.24)
+* [PRIORITIES|docs/PRIORITIES.md] (сходство 0.19)
+

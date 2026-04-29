@@ -56,3 +56,13 @@ Discovery-файл Svyazi (накопление неизвестного) син
 - [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
 - [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-local-first](docs/obsidian/03-technology-combinations/03-local-first.md) (сходство 0.44)
+- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.41)
+- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md) (сходство 0.21)
+

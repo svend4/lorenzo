@@ -53,3 +53,13 @@ ROI: Detect agent bottlenecks 60 sec vs manual review
 - [16-adversarial-multi-agent-code-review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md)
 - [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [16-adversarial-multi-agent-code-review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md) (сходство 0.25)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.24)
+- [09-agent-orchestration-stack](docs/technology-combinations/combinations/09-agent-orchestration-stack.md) (сходство 0.23)
+

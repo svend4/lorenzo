@@ -39,3 +39,13 @@
 - [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
 - [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.18)
+- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md) (сходство 0.18)
+- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.17)
+

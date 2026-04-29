@@ -23,3 +23,13 @@ TPM по Alignment, Compute, Inference Performance, Infrastructure, Platform, Sa
 - [16-people](docs/anthropic-vacancies/clusters/16-people.md)
 - [01-ai-research-engineering](docs/anthropic-vacancies/clusters/01-ai-research-engineering.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.47)
+- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md) (сходство 0.44)
+- [11-legal](docs/anthropic-vacancies/clusters/11-legal.md) (сходство 0.43)
+

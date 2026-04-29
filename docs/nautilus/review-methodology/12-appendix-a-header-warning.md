@@ -55,3 +55,13 @@ transitional state:
 - [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
 - [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.60)
+- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.48)
+- [118-appendix-a-шаблон-для-header-warning](docs/obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.47)
+

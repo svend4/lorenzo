@@ -67,3 +67,13 @@ embeddings) могут использоваться, но MUST быть опци
 - [09-consensus-algorithm](docs/nautilus/npp-v1-1/09-consensus-algorithm.md)
 - [14-sdk](docs/nautilus/npp-v1-1/14-sdk.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [86-11-relevance-ranking](docs/obsidian/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.58)
+- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.58)
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.34)
+

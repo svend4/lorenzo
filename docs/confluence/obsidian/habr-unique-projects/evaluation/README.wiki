@@ -1,0 +1,27 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/evaluation/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "evaluation/ — оценка уникальности и зрелости"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. evaluation/ — оценка уникальности и зрелости
+
+Один файл — один критерий или аспект оценки. Шкала зрелости и лицензионные развилки уже частично описаны в:
+
+* [[methodology|{{docs/svyazi-2-0/overview/methodology.md}}]]
+* [[license-tree|{{docs/svyazi-2-0/limitations/license-tree.md}}]]
+
+
+
+----
+
+_Похожие документы:_
+* [[SEARCH_RESULTS]] (сходство 0.11)
+* [[README]] (сходство 0.11)
+

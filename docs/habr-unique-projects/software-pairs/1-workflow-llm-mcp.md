@@ -33,3 +33,13 @@ Event-driven legal watcher — Huginn собирает RSS/обновления 
 - [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
 - [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md) (сходство 0.19)
+- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md) (сходство 0.19)
+- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.18)
+

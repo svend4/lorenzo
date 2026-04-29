@@ -47,3 +47,13 @@ Domain applications
 - [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
 - [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md) (сходство 0.26)
+- [10-collaborators-landscape](docs/lorenzo-agent/10-collaborators-landscape.md) (сходство 0.24)
+- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md) (сходство 0.24)
+

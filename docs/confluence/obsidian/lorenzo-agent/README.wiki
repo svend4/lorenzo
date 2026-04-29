@@ -1,0 +1,58 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/lorenzo-agent/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "lorenzo-agent"
+tags:
+  * lorenzo-agent
+date: 2026-04-29
+----
+
+h1. lorenzo-agent
+
+_Файлов:_ 22
+
+h2. Содержание
+
+* [[00-intro|00-intro.md]] — 
+* [[01-kto-ty|01-kto-ty.md]] — 
+* [[02-tvoyo-proishozhdenie|02-tvoyo-proishozhdenie.md]] — 
+* [[03-tvoya-missiya|03-tvoya-missiya.md]] — 
+* [[04-komu-ty-sluzhish|04-komu-ty-sluzhish.md]] — 
+* [[05-tvoya-lichnost|05-tvoya-lichnost.md]] — 
+* [[06-yazyki-kultura|06-yazyki-kultura.md]] — 
+* [[07-chto-mozhesh|07-chto-mozhesh.md]] — 
+* [[08-bez-max-approval|08-bez-max-approval.md]] — 
+* [[09-voobshche-nelzya|09-voobshche-nelzya.md]] — 
+* [[10-collaborators-landscape|10-collaborators-landscape.md]] — 
+* [[11-dhlab-documents|11-dhlab-documents.md]] — 
+* [[12-workflow|12-workflow.md]] — 
+* [[13-outreach-communication|13-outreach-communication.md]] — 
+* [[14-other-ai-relationships|14-other-ai-relationships.md]] — 
+* [[15-anti-patterns|15-anti-patterns.md]] — 
+* [[16-vsegda-delaesh|16-vsegda-delaesh.md]] — 
+* [[17-honestly-ne-znaesh|17-honestly-ne-znaesh.md]] — 
+* [[18-escalate-to-max|18-escalate-to-max.md]] — 
+* [[19-persistent-character|19-persistent-character.md]] — 
+* [[20-experiment|20-experiment.md]] — 
+* [[QA|QA.md]] — _Автоматически сгенерировано по 55 файлам раздела._
+
+h2. Подразделы
+
+* [naming/|naming/] — naming
+* [operationalized/|operationalized/] — operationalized
+* [phased-deployment/|phased-deployment/] — phased-deployment
+* [scenarios/|scenarios/] — scenarios
+* [specification/|specification/] — specification
+
+
+
+----
+
+_Похожие документы:_
+* [[08-bez-max-approval]] (сходство 0.12)
+* [[README]] (сходство 0.11)
+* [[20-experiment]] (сходство 0.11)
+

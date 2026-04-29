@@ -187,3 +187,13 @@
 - [PRIORITIES](docs/PRIORITIES.md)
 - [source-projects](docs/ai-collaborations/source-projects.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/technology-combinations/combinations/README.md) (сходство 0.27)
+- [authors-by-name](docs/glossary/authors-by-name.md) (сходство 0.24)
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.19)
+

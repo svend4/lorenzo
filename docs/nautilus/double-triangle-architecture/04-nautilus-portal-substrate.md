@@ -127,3 +127,13 @@ Double-Triangle deployments.
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 - [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [141-4-nautilus-portal-as-reference-substrate](docs/obsidian/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.87)
+- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.77)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md) (сходство 0.23)
+

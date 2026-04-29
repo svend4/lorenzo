@@ -7,62 +7,62 @@
 
 Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).
 
-**Всего файлов:** 1082
+**Всего файлов:** 1556
 
 ## Топ-50 самых важных файлов
 
 | # | Файл | Score | Слов | Ключевые термины |
 |---|------|-------|------|-----------------|
-| 1 | `docs/TABLES.md` | **502.43** | 119041 | Svyazi, agent, memory, MIT, rag |
+| 1 | `docs/TABLES.md` | **779.95** | 165401 | agent, Svyazi, memory, rag, MIT |
 | 2 | `docs/obsidian/TABLES.md` | **281.19** | 64720 | Svyazi, agent, memory, MIT, rag |
-| 3 | `docs/OUTLINE.md` | **87.58** | 16780 | agent, Svyazi, memory, security, rag |
-| 4 | `docs/obsidian/OUTLINE.md` | **74.61** | 16818 | agent, Svyazi, security, rag, MVP |
-| 5 | `docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **63.78** | 20430 | agent, memory, MIT, rag, NGT Memory |
-| 6 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **63.76** | 20476 | agent, memory, MIT, rag, NGT Memory |
-| 7 | `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **62.49** | 3444 | Svyazi, memory, evidence, agent, rag |
-| 8 | `docs/04-ai-collaborations/00-intro.md` | **58.38** | 11524 | rag, agent, memory, локальн, Svyazi |
-| 9 | `docs/obsidian/04-ai-collaborations/00-intro.md` | **57.56** | 11454 | rag, agent, локальн, memory, Svyazi |
-| 10 | `docs/obsidian/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **57.23** | 3378 | memory, evidence, Svyazi, agent, rag |
-| 11 | `docs/CONCEPTS.md` | **53.91** | 11699 | agent, Svyazi, MIT, memory, rag |
-| 12 | `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **53.85** | 3876 | agent, memory, Svyazi, MIT, evidence |
-| 13 | `docs/NARRATIVE.md` | **52.93** | 1148 | Svyazi, MVP, agent, memory, AgentFS |
-| 14 | `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **52.45** | 3848 | agent, memory, MIT, Svyazi, evidence |
-| 15 | `docs/obsidian/NARRATIVE.md` | **52.19** | 1087 | Svyazi, MVP, agent, AgentFS, CardIndex |
-| 16 | `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | **42.55** | 1048 | Svyazi, memory, agent, AgentFS, MVP |
-| 17 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **42.27** | 4438 | agent, MIT, rag, Svyazi, mclaude |
-| 18 | `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **40.89** | 4397 | agent, MIT, rag, mclaude, license |
-| 19 | `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | **40.34** | 1356 | Svyazi, MVP, memory, agent, CardIndex |
-| 20 | `docs/obsidian/NAMED_ENTITIES.md` | **39.04** | 1598 | Svyazi, MVP, Yodoca, rag, security |
-| 21 | `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` | **38.98** | 1573 | Svyazi, agent, rag, AgentFS, MVP |
-| 22 | `docs/NAMED_ENTITIES.md` | **38.69** | 1620 | Svyazi, MVP, Yodoca, rag, security |
-| 23 | `docs/obsidian/CONCEPTS.md` | **38.48** | 11565 | agent, MIT, Svyazi, rag, memory |
-| 24 | `docs/MINDMAP.md` | **37.53** | 331 | rag, memory, Svyazi, CardIndex, knowledge-space |
-| 25 | `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md` | **37.17** | 1245 | Svyazi, memory, локальн, knowledge-space, evidence |
-| 26 | `docs/obsidian/MINDMAP.md` | **36.73** | 286 | rag, memory, CardIndex, agent, AgentFS |
-| 27 | `docs/01-svyazi/09-architectural-gaps.md` | **36.19** | 919 | Svyazi, agent, memory, MVP, rag |
-| 28 | `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | **35.62** | 1024 | Svyazi, memory, rag, MVP, agent |
-| 29 | `docs/ACTION_ITEMS.md` | **35.6** | 7365 | agent, MIT, Svyazi, MVP, rag |
-| 30 | `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | **35.26** | 1638 | Svyazi, memory, MIT, agent, rag |
-| 31 | `docs/obsidian/ACTION_ITEMS.md` | **34.72** | 6725 | agent, MIT, Svyazi, rag, MVP |
-| 32 | `docs/01-svyazi/11-integration-contracts.md` | **34.12** | 844 | Svyazi, memory, rag, MVP, agent |
-| 33 | `docs/04-ai-collaborations/01-executive-summary.md` | **34.05** | 761 | Svyazi, agent, MVP, rag, CardIndex |
-| 34 | `docs/04-ai-collaborations/07-выводы.md` | **31.64** | 649 | Svyazi, MVP, AgentFS, Yodoca, agent |
-| 35 | `docs/obsidian/01-svyazi/09-architectural-gaps.md` | **30.99** | 768 | Svyazi, agent, memory, rag, AgentFS |
-| 36 | `docs/01-svyazi/10-second-order-ensembles.md` | **30.97** | 1067 | Svyazi, memory, MVP, knowledge-space, evidence |
-| 37 | `docs/obsidian/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | **30.93** | 915 | memory, agent, Svyazi, AgentFS, evidence |
-| 38 | `docs/01-svyazi/04-ensembles-overview.md` | **30.88** | 1367 | Svyazi, rag, agent, AgentFS, knowledge-space |
-| 39 | `docs/01-svyazi/07-mvp-planning.md` | **30.82** | 1257 | Svyazi, agent, memory, CardIndex, AgentFS |
-| 40 | `docs/PARAGRAPH_QUALITY.md` | **30.78** | 6669 | Svyazi, agent, memory, security, MIT |
-| 41 | `docs/obsidian/PARAGRAPH_QUALITY.md` | **30.75** | 6715 | Svyazi, agent, memory, security, MIT |
-| 42 | `docs/CODE_BLOCKS.md` | **30.19** | 5493 | Svyazi, agent, rag, memory, локальн |
-| 43 | `docs/obsidian/01-svyazi/11-integration-contracts.md` | **29.41** | 756 | memory, Svyazi, rag, agent, AgentFS |
-| 44 | `docs/obsidian/01-svyazi/04-ensembles-overview.md` | **29.33** | 1285 | Svyazi, rag, agent, AgentFS, knowledge-space |
-| 45 | `docs/obsidian/05-habr-projects/memory/memnet.md` | **29.12** | 7282 | локальн, rag, memory, Yodoca, agent |
-| 46 | `docs/05-habr-projects/memory/memnet.md` | **29.12** | 7298 | локальн, rag, memory, Yodoca, agent |
-| 47 | `docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | **28.96** | 1225 | memory, agent, Svyazi, MVP, CardIndex |
-| 48 | `docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | **28.95** | 1566 | memory, MIT, Svyazi, agent, rag |
-| 49 | `docs/01-svyazi/03-component-catalog.md` | **28.88** | 1486 | memory, Svyazi, MIT, rag, agent |
-| 50 | `docs/01-svyazi/01-executive-summary.md` | **28.82** | 780 | Svyazi, agent, rag, CardIndex, AgentFS |
+| 3 | `docs/OUTLINE.md` | **271.82** | 34220 | agent, Svyazi, memory, rag, security |
+| 4 | `docs/PARAGRAPH_QUALITY.md` | **167.62** | 15109 | agent, Svyazi, memory, security, MIT |
+| 5 | `docs/HEADING_AUDIT.md` | **92.23** | 8826 | agent, Svyazi, security, MIT, rag |
+| 6 | `docs/SITEMAP.md` | **87.66** | 7920 | agent, Svyazi, memory, rag, security |
+| 7 | `docs/SUMMARIES.md` | **83.66** | 3910 | Svyazi, agent, rag, memory, AgentFS |
+| 8 | `docs/obsidian/OUTLINE.md` | **74.6** | 16836 | agent, Svyazi, security, rag, MVP |
+| 9 | `docs/04-ai-collaborations/00-intro.md` | **70.87** | 11389 | Svyazi, rag, memory, agent, локальн |
+| 10 | `docs/glossary/components-by-name.md` | **68.24** | 1132 | Svyazi, agent, memory, rag, Yodoca |
+| 11 | `docs/READABILITY.md` | **67.2** | 25557 | agent, Svyazi, memory, security, MIT |
+| 12 | `docs/CONCEPTS.md` | **66.09** | 13383 | agent, Svyazi, MIT, memory, rag |
+| 13 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **64.75** | 20553 | agent, memory, MIT, rag, NGT Memory |
+| 14 | `docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **63.78** | 20430 | agent, memory, MIT, rag, NGT Memory |
+| 15 | `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **63.25** | 3274 | Svyazi, memory, evidence, agent, rag |
+| 16 | `docs/obsidian/04-ai-collaborations/00-intro.md` | **57.56** | 11454 | rag, agent, локальн, memory, Svyazi |
+| 17 | `docs/obsidian/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **57.23** | 3378 | memory, evidence, Svyazi, agent, rag |
+| 18 | `docs/READING_TIME.md` | **56.18** | 12291 | agent, Svyazi, memory, security, rag |
+| 19 | `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **55.32** | 3939 | agent, Svyazi, memory, MIT, evidence |
+| 20 | `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **52.45** | 3848 | agent, memory, MIT, Svyazi, evidence |
+| 21 | `docs/obsidian/NARRATIVE.md` | **52.07** | 1105 | Svyazi, MVP, agent, AgentFS, CardIndex |
+| 22 | `docs/ACTION_ITEMS.md` | **46.63** | 8519 | agent, MIT, Svyazi, AgentFS, rag |
+| 23 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **45.86** | 4523 | agent, MIT, Svyazi, rag, mclaude |
+| 24 | `docs/BROKEN_LINKS.md` | **45.85** | 790 | Svyazi, MVP, security, roadmap, knowledge-space |
+| 25 | `docs/SIMILAR_PASSAGES.md` | **42.29** | 1931 | Svyazi, MVP, архитектурный зазор, agent, AgentFS |
+| 26 | `docs/DECISIONS.md` | **41.46** | 2537 | Svyazi, agent, MIT, AgentFS, memory |
+| 27 | `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **40.89** | 4397 | agent, MIT, rag, mclaude, license |
+| 28 | `docs/NAMED_ENTITIES.md` | **40.24** | 1642 | Svyazi, MVP, CardIndex, Yodoca, rag |
+| 29 | `docs/glossary/authors-by-name.md` | **39.37** | 515 | Svyazi, memory, agent, rag, security |
+| 30 | `docs/obsidian/NAMED_ENTITIES.md` | **38.98** | 1616 | Svyazi, MVP, Yodoca, rag, security |
+| 31 | `docs/obsidian/CONCEPTS.md` | **38.47** | 11583 | agent, MIT, Svyazi, rag, memory |
+| 32 | `docs/MINDMAP.md` | **38.12** | 258 | rag, memory, CardIndex, knowledge-space, agent |
+| 33 | `docs/EMPTY_SECTIONS.md` | **37.68** | 10822 | agent, rag, security, MIT, knowledge-space |
+| 34 | `docs/01-svyazi/09-architectural-gaps.md` | **36.63** | 758 | Svyazi, agent, memory, AgentFS, evidence |
+| 35 | `docs/obsidian/MINDMAP.md` | **36.34** | 304 | rag, memory, CardIndex, agent, AgentFS |
+| 36 | `docs/05-habr-projects/memory/memnet.md` | **35.44** | 7246 | локальн, Svyazi, rag, memory, Yodoca |
+| 37 | `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | **35.01** | 821 | Svyazi, memory, agent, AgentFS, evidence |
+| 38 | `docs/obsidian/ACTION_ITEMS.md` | **34.71** | 6743 | agent, MIT, Svyazi, rag, MVP |
+| 39 | `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` | **33.74** | 1340 | Svyazi, agent, rag, AgentFS, Rufler |
+| 40 | `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | **33.7** | 1130 | Svyazi, agent, memory, CardIndex, AgentFS |
+| 41 | `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | **33.22** | 846 | Svyazi, memory, rag, agent, AgentFS |
+| 42 | `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` | **32.87** | 9486 | agent, MIT, rag, memory, evidence |
+| 43 | `docs/01-svyazi/07-mvp-planning.md` | **32.85** | 1063 | Svyazi, agent, memory, CardIndex, AgentFS |
+| 44 | `docs/01-svyazi/04-ensembles-overview.md` | **32.11** | 1288 | Svyazi, rag, agent, AgentFS, Rufler |
+| 45 | `docs/SOURCE_MAP.md` | **31.74** | 6171 | agent, Svyazi, security, memory, MIT |
+| 46 | `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | **31.23** | 1478 | memory, Svyazi, MIT, agent, rag |
+| 47 | `docs/01-svyazi/11-integration-contracts.md` | **31.19** | 737 | Svyazi, memory, rag, agent, AgentFS |
+| 48 | `docs/obsidian/01-svyazi/09-architectural-gaps.md` | **30.99** | 768 | Svyazi, agent, memory, rag, AgentFS |
+| 49 | `docs/obsidian/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | **30.93** | 915 | memory, agent, Svyazi, AgentFS, evidence |
+| 50 | `docs/obsidian/PARAGRAPH_QUALITY.md` | **30.74** | 6733 | Svyazi, agent, memory, security, MIT |
 
 ## Топ-5 по каждому разделу
 
@@ -71,134 +71,390 @@
 
 | Файл | Score |
 |------|-------|
-| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md` | 0.88 |
-| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md` | 0.76 |
-| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md` | 0.74 |
-| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md` | 0.58 |
-| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md` | 0.57 |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md` | 1.12 |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md` | 0.95 |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md` | 0.94 |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md` | 0.87 |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md` | 0.73 |
 
 ### 01-svyazi
 
 | Файл | Score |
 |------|-------|
-| `docs/01-svyazi/09-architectural-gaps.md` | 36.19 |
-| `docs/01-svyazi/11-integration-contracts.md` | 34.12 |
+| `docs/01-svyazi/09-architectural-gaps.md` | 36.63 |
+| `docs/01-svyazi/07-mvp-planning.md` | 32.85 |
+| `docs/01-svyazi/04-ensembles-overview.md` | 32.11 |
+| `docs/01-svyazi/11-integration-contracts.md` | 31.19 |
 | `docs/obsidian/01-svyazi/09-architectural-gaps.md` | 30.99 |
-| `docs/01-svyazi/10-second-order-ensembles.md` | 30.97 |
-| `docs/01-svyazi/04-ensembles-overview.md` | 30.88 |
 
 ### 02-anthropic-vacancies
 
 | Файл | Score |
 |------|-------|
+| `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | 64.75 |
 | `docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | 63.78 |
-| `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | 63.76 |
-| `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | 53.85 |
+| `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | 55.32 |
 | `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | 52.45 |
-| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 42.27 |
+| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 45.86 |
+
+### 02-reanalysis
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md` | 2.17 |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md` | 0.9 |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md` | 0.89 |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md` | 0.71 |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md` | 0.0 |
+
+### 03-integral-final
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md` | 2.15 |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md` | 1.01 |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md` | 0.33 |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md` | 0.32 |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md` | 0.0 |
 
 ### 03-technology-combinations
 
 | Файл | Score |
 |------|-------|
-| `docs/03-technology-combinations/05-benchmarks.md` | 9.84 |
+| `docs/03-technology-combinations/03-local-first.md` | 12.06 |
+| `docs/03-technology-combinations/05-benchmarks.md` | 11.44 |
 | `docs/obsidian/03-technology-combinations/05-benchmarks.md` | 8.71 |
-| `docs/03-technology-combinations/02-knowledge-graphs.md` | 7.28 |
-| `docs/03-technology-combinations/03-local-first.md` | 7.25 |
+| `docs/03-technology-combinations/02-knowledge-graphs.md` | 8.07 |
 | `docs/obsidian/03-technology-combinations/03-local-first.md` | 7.01 |
 
 ### 04-ai-collaborations
 
 | Файл | Score |
 |------|-------|
-| `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | 62.49 |
-| `docs/04-ai-collaborations/00-intro.md` | 58.38 |
+| `docs/04-ai-collaborations/00-intro.md` | 70.87 |
+| `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | 63.25 |
 | `docs/obsidian/04-ai-collaborations/00-intro.md` | 57.56 |
 | `docs/obsidian/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | 57.23 |
-| `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | 42.55 |
+| `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | 35.01 |
 
 ### 05-habr-projects
 
 | Файл | Score |
 |------|-------|
-| `docs/05-habr-projects/02-collaboration-partners.md` | 9.3 |
 | `docs/05-habr-projects/01-synthesis.md` | 6.72 |
 | `docs/obsidian/05-habr-projects/02-collaboration-partners.md` | 4.85 |
+| `docs/05-habr-projects/02-collaboration-partners.md` | 4.31 |
 | `docs/obsidian/05-habr-projects/01-synthesis.md` | 2.63 |
+
+### agent-changes-reality
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` | 32.87 |
+| `docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md` | 0.37 |
+
+### ai-collaborations
+
+| Файл | Score |
+|------|-------|
+| `docs/ai-collaborations/source-projects.md` | 9.57 |
+
+### ai-managed-virtual-company
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md` | 1.22 |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md` | 1.22 |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md` | 0.96 |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md` | 0.69 |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md` | 0.32 |
+
+### analogues
+
+| Файл | Score |
+|------|-------|
+| `docs/habr-unique-projects/analogues/01-three-direct-analogues.md` | 4.13 |
+| `docs/habr-unique-projects/analogues/02-related-projects.md` | 4.05 |
+
+### anthropic-vacancies
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/overview.md` | 0.53 |
+| `docs/anthropic-vacancies/methodology.md` | 0.2 |
+| `docs/anthropic-vacancies/signals.md` | 0.18 |
+
+### architecture
+
+| Файл | Score |
+|------|-------|
+| `docs/svyazi-2-0/architecture/gaps.md` | 22.41 |
+| `docs/svyazi-2-0/architecture/integration-spec.md` | 17.49 |
+| `docs/svyazi-2-0/architecture/review-record.md` | 11.39 |
+| `docs/svyazi-2-0/architecture/evidence-envelope.md` | 10.75 |
+| `docs/svyazi-2-0/architecture/memory-write-policy.md` | 9.93 |
 
 ### autofilled
 
 | Файл | Score |
 |------|-------|
 | `docs/autofilled/research-summary.md` | 0.0 |
+| `docs/obsidian/autofilled/research-summary.md` | 0.0 |
 
 ### beneficial-deployments-concept
 
 | Файл | Score |
 |------|-------|
-| `docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md` | 2.13 |
-| `docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md` | 1.96 |
-| `docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md` | 1.16 |
-| `docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md` | 0.78 |
-| `docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md` | 0.6 |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md` | 2.47 |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md` | 1.92 |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md` | 1.52 |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md` | 1.15 |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md` | 0.77 |
 
 ### candidates
 
 | Файл | Score |
 |------|-------|
-| `docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md` | 3.76 |
-| `docs/ai-collaborations/candidates/02-related-projects-context.md` | 2.08 |
-| `docs/ai-collaborations/candidates/01-three-key-candidates.md` | 1.72 |
+| `docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md` | 3.72 |
+| `docs/ai-collaborations/candidates/02-related-projects-context.md` | 2.05 |
+| `docs/ai-collaborations/candidates/01-three-key-candidates.md` | 1.7 |
 
 ### clusters
 
 | Файл | Score |
 |------|-------|
-| `docs/anthropic-vacancies/clusters/04-security.md` | 1.09 |
-| `docs/anthropic-vacancies/clusters/06-engineering-design-product.md` | 0.85 |
-| `docs/anthropic-vacancies/clusters/01-ai-research-engineering.md` | 0.41 |
-| `docs/anthropic-vacancies/clusters/12-technical-program-management.md` | 0.22 |
-| `docs/anthropic-vacancies/clusters/14-public-policy.md` | 0.22 |
+| `docs/anthropic-vacancies/clusters/04-security.md` | 1.05 |
+| `docs/anthropic-vacancies/clusters/06-engineering-design-product.md` | 0.82 |
+| `docs/anthropic-vacancies/clusters/01-ai-research-engineering.md` | 0.4 |
+| `docs/anthropic-vacancies/clusters/12-technical-program-management.md` | 0.21 |
+| `docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md` | 0.21 |
 
 ### combinations
 
 | Файл | Score |
 |------|-------|
-| `docs/technology-combinations/combinations/19-multi-agent-observability-platform.md` | 11.96 |
-| `docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md` | 7.87 |
-| `docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md` | 7.71 |
-| `docs/technology-combinations/combinations/14-local-first-agent-development-environment.md` | 7.43 |
-| `docs/technology-combinations/combinations/24-mega-integration-full-stack.md` | 6.73 |
+| `docs/technology-combinations/combinations/19-multi-agent-observability-platform.md` | 12.52 |
+| `docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md` | 9.06 |
+| `docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md` | 8.49 |
+| `docs/technology-combinations/combinations/14-local-first-agent-development-environment.md` | 7.7 |
+| `docs/technology-combinations/combinations/24-mega-integration-full-stack.md` | 7.63 |
 
 ### components
 
 | Файл | Score |
 |------|-------|
-| `docs/autofilled/components/spbmolot.md` | 9.57 |
-| `docs/autofilled/components/kksudo.md` | 9.34 |
-| `docs/autofilled/components/ingit.md` | 5.41 |
-| `docs/autofilled/components/cowork.md` | 5.41 |
-| `docs/autofilled/components/lorenzo.md` | 5.41 |
+| `docs/svyazi-2-0/components/memnet.md` | 12.97 |
+| `docs/svyazi-2-0/components/agentfs.md` | 12.76 |
+| `docs/svyazi-2-0/components/research-docs-liteparse.md` | 12.73 |
+| `docs/svyazi-2-0/components/legal-rag.md` | 12.43 |
+| `docs/svyazi-2-0/components/security-routing-plane.md` | 11.95 |
+
+### composite-skills-agents
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/composite-skills-agents/03-what-makes-csa.md` | 11.6 |
+| `docs/nautilus/composite-skills-agents/10-risks.md` | 8.46 |
+| `docs/nautilus/composite-skills-agents/04-sub-agent-registry.md` | 7.07 |
+| `docs/nautilus/composite-skills-agents/07-economics-combinatorial.md` | 6.81 |
+| `docs/nautilus/composite-skills-agents/06-coordination-disagreement.md` | 6.63 |
+
+### composite-skills-agents-companion-mentors
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md` | 1.11 |
+| `docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md` | 1.03 |
+| `docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md` | 1.01 |
+| `docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md` | 0.79 |
 
 ### contacts
 
 | Файл | Score |
 |------|-------|
-| `docs/contacts/andrey-chuyan.md` | 18.62 |
-| `docs/contacts/dmitriila.md` | 16.75 |
-| `docs/contacts/cutcode.md` | 16.57 |
-| `docs/contacts/mixaill76.md` | 16.56 |
-| `docs/contacts/zodigancode.md` | 16.32 |
+| `docs/obsidian/contacts/andrey-chuyan.md` | 13.95 |
+| `docs/obsidian/contacts/anastasiyaw.md` | 11.9 |
+| `docs/obsidian/contacts/kksudo.md` | 11.42 |
+| `docs/obsidian/contacts/dmitriila.md` | 10.96 |
+| `docs/obsidian/contacts/tagir-analyzes.md` | 10.56 |
+
+### continuation
+
+| Файл | Score |
+|------|-------|
+| `docs/ai-collaborations/continuation/05-roadmap-6-12-months.md` | 13.64 |
+| `docs/ai-collaborations/continuation/01-shared-memory-between-agents.md` | 12.27 |
+| `docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md` | 9.77 |
+| `docs/ai-collaborations/continuation/08-commercialization-three-paths.md` | 8.92 |
+| `docs/ai-collaborations/continuation/02-agentops-trace-envelope.md` | 8.77 |
+
+### deep-pairs
+
+| Файл | Score |
+|------|-------|
+| `docs/habr-unique-projects/deep-pairs/2-document-rag.md` | 4.78 |
+| `docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md` | 4.39 |
+| `docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md` | 3.3 |
+| `docs/habr-unique-projects/deep-pairs/1-llm-gateway.md` | 2.45 |
+| `docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md` | 1.7 |
 
 ### docs
 
 | Файл | Score |
 |------|-------|
-| `docs/TABLES.md` | 502.43 |
-| `docs/OUTLINE.md` | 87.58 |
-| `docs/CONCEPTS.md` | 53.91 |
-| `docs/NARRATIVE.md` | 52.93 |
-| `docs/NAMED_ENTITIES.md` | 38.69 |
+| `docs/TABLES.md` | 779.95 |
+| `docs/OUTLINE.md` | 271.82 |
+| `docs/PARAGRAPH_QUALITY.md` | 167.62 |
+| `docs/HEADING_AUDIT.md` | 92.23 |
+| `docs/SITEMAP.md` | 87.66 |
+
+### double-triangle-architecture
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md` | 2.67 |
+| `docs/nautilus/double-triangle-architecture/11-glossary.md` | 2.57 |
+| `docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md` | 2.47 |
+| `docs/nautilus/double-triangle-architecture/07-open-questions.md` | 2.42 |
+| `docs/nautilus/double-triangle-architecture/10-references.md` | 1.58 |
+
+### ensembles
+
+| Файл | Score |
+|------|-------|
+| `docs/svyazi-2-0/ensembles/A-collaboration-os.md` | 14.87 |
+| `docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md` | 13.47 |
+| `docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md` | 11.56 |
+| `docs/svyazi-2-0/ensembles/B-forensic-rag.md` | 11.12 |
+| `docs/svyazi-2-0/ensembles/G-federated-local-graph.md` | 10.24 |
+
+### extra-collaborator-findings
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md` | 3.83 |
+| `docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md` | 2.64 |
+| `docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md` | 2.51 |
+| `docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md` | 2.43 |
+| `docs/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md` | 1.76 |
+
+### extra-examples
+
+| Файл | Score |
+|------|-------|
+| `docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md` | 4.82 |
+| `docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md` | 4.31 |
+| `docs/habr-unique-projects/extra-examples/00-question-habr-examples.md` | 4.23 |
+| `docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md` | 3.76 |
+| `docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md` | 3.45 |
+
+### final-ensembles
+
+| Файл | Score |
+|------|-------|
+| `docs/habr-unique-projects/final-ensembles/4-summary-authors.md` | 4.87 |
+| `docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md` | 3.21 |
+| `docs/habr-unique-projects/final-ensembles/3-discovery-research.md` | 2.98 |
+| `docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md` | 2.66 |
+
+### glossary
+
+| Файл | Score |
+|------|-------|
+| `docs/glossary/components-by-name.md` | 68.24 |
+| `docs/glossary/authors-by-name.md` | 39.37 |
+| `docs/glossary/concepts.md` | 30.45 |
+
+### habr-article-1-reaction
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md` | 4.73 |
+| `docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md` | 0.0 |
+
+### habr-article-2-reaction
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md` | 2.9 |
+| `docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md` | 0.77 |
+
+### hardware-pairs
+
+| Файл | Score |
+|------|-------|
+| `docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md` | 6.49 |
+| `docs/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md` | 3.45 |
+| `docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md` | 2.85 |
+| `docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md` | 2.4 |
+| `docs/habr-unique-projects/hardware-pairs/7-metaphor.md` | 2.22 |
+
+### hermes-comparison
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/hermes-comparison/13-reprioritization.md` | 3.5 |
+| `docs/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md` | 2.53 |
+| `docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md` | 1.65 |
+| `docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md` | 1.54 |
+| `docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md` | 1.38 |
+
+### infrastructure-layer-b-en
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/infrastructure-layer-b-en/07-specific-case.md` | 2.48 |
+| `docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md` | 1.29 |
+| `docs/nautilus/infrastructure-layer-b-en/12-closing.md` | 0.92 |
+| `docs/nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md` | 0.78 |
+| `docs/nautilus/infrastructure-layer-b-en/00-intro.md` | 0.75 |
+
+### infrastructure-layer-b-ru
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/infrastructure-layer-b-ru/00-intro.md` | 0.79 |
+| `docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md` | 0.34 |
+| `docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md` | 0.18 |
+| `docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md` | 0.0 |
+| `docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md` | 0.0 |
+
+### ingit-cowork-en
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/ingit-cowork-en/02-cowork-provides.md` | 3.26 |
+| `docs/nautilus/ingit-cowork-en/09-risks-open-questions.md` | 2.84 |
+| `docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md` | 2.51 |
+| `docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md` | 2.49 |
+| `docs/nautilus/ingit-cowork-en/10-strategic-positioning.md` | 1.97 |
+
+### ingit-cowork-ru
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md` | 0.84 |
+| `docs/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md` | 0.74 |
+| `docs/nautilus/ingit-cowork-ru/01-otkrytie-cowork.md` | 0.62 |
+| `docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md` | 0.47 |
+| `docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md` | 0.31 |
+
+### innovation-transitions
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/innovation-transitions/01-response.md` | 4.62 |
+| `docs/nautilus/innovation-transitions/00-question-innovations-transitions.md` | 1.89 |
+
+### key-findings
+
+| Файл | Score |
+|------|-------|
+| `docs/habr-unique-projects/key-findings/01-yodoca.md` | 6.78 |
+| `docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md` | 5.58 |
+| `docs/habr-unique-projects/key-findings/02-memnet.md` | 4.78 |
+| `docs/habr-unique-projects/key-findings/04-dochkina-sequential.md` | 4.07 |
+| `docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md` | 1.84 |
 
 ### knowledge
 
@@ -207,32 +463,329 @@
 | `docs/05-habr-projects/knowledge/wikontic.md` | 7.61 |
 | `docs/obsidian/05-habr-projects/knowledge/wikontic.md` | 2.94 |
 
+### limitations
+
+| Файл | Score |
+|------|-------|
+| `docs/svyazi-2-0/limitations/license-tree.md` | 17.46 |
+| `docs/svyazi-2-0/limitations/conclusions.md` | 15.8 |
+| `docs/svyazi-2-0/limitations/do-not-glue.md` | 11.2 |
+
+### lorenzo-agent
+
+| Файл | Score |
+|------|-------|
+| `docs/lorenzo-agent/10-collaborators-landscape.md` | 5.71 |
+| `docs/lorenzo-agent/08-bez-max-approval.md` | 2.51 |
+| `docs/lorenzo-agent/19-persistent-character.md` | 2.48 |
+| `docs/lorenzo-agent/07-chto-mozhesh.md` | 2.3 |
+| `docs/lorenzo-agent/12-workflow.md` | 2.19 |
+
+### mega-stacks
+
+| Файл | Score |
+|------|-------|
+| `docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md` | 7.21 |
+| `docs/technology-combinations/mega-stacks/01-legal-ai-stack.md` | 6.98 |
+| `docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md` | 2.24 |
+| `docs/technology-combinations/mega-stacks/03-dsl-ast.md` | 1.09 |
+
 ### memory
 
 | Файл | Score |
 |------|-------|
+| `docs/05-habr-projects/memory/memnet.md` | 35.44 |
 | `docs/obsidian/05-habr-projects/memory/memnet.md` | 29.12 |
-| `docs/05-habr-projects/memory/memnet.md` | 29.12 |
 | `docs/obsidian/05-habr-projects/memory/yodoca.md` | 9.68 |
 | `docs/05-habr-projects/memory/yodoca.md` | 9.34 |
-| `docs/05-habr-projects/memory/ngt-memory.md` | 6.64 |
+| `docs/obsidian/05-habr-projects/memory/ngt-memory.md` | 5.42 |
 
 ### mmorpg-for-programmers
 
 | Файл | Score |
 |------|-------|
+| `docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md` | 2.0 |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md` | 0.86 |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md` | 0.77 |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md` | 0.17 |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md` | 0.16 |
+
+### multi-tier-architecture
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/multi-tier-architecture/01-strategic-significance.md` | 1.91 |
+| `docs/nautilus/multi-tier-architecture/00-question-multi-tier.md` | 1.49 |
+
+### naming
+
+| Файл | Score |
+|------|-------|
+| `docs/lorenzo-agent/naming/03-dhlab-umbrella.md` | 6.47 |
+| `docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md` | 5.92 |
+| `docs/lorenzo-agent/naming/01-search-results-not-found.md` | 4.52 |
+| `docs/lorenzo-agent/naming/00-question-lorenzo-codename.md` | 1.26 |
+
+### nautilus-pro2-analysis
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md` | 1.28 |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md` | 0.28 |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md` | 0.18 |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md` | 0.16 |
+
+### nautilus-vs-camel
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` | 9.96 |
+| `docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md` | 2.32 |
+| `docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md` | 1.61 |
+| `docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md` | 0.92 |
+| `docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md` | 0.51 |
+
+### npp-humanitarian-extension
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md` | 1.09 |
+| `docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md` | 0.63 |
+| `docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md` | 0.38 |
+| `docs/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md` | 0.18 |
+| `docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md` | 0.0 |
+
+### npp-v1-0
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/npp-v1-0/11-security-considerations.md` | 2.97 |
+| `docs/nautilus/npp-v1-0/08-consensus-algorithm.md` | 0.53 |
+| `docs/nautilus/npp-v1-0/00-abstract-status.md` | 0.37 |
+| `docs/nautilus/npp-v1-0/18-comment-on-document.md` | 0.32 |
+| `docs/nautilus/npp-v1-0/03-registry.md` | 0.17 |
+
+### npp-v1-1
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/npp-v1-1/15-security.md` | 2.79 |
+| `docs/nautilus/npp-v1-1/09-consensus-algorithm.md` | 2.54 |
+| `docs/nautilus/npp-v1-1/22-glossary.md` | 1.37 |
+| `docs/nautilus/npp-v1-1/02-terminology.md` | 0.67 |
+| `docs/nautilus/npp-v1-1/13-rest-api.md` | 0.49 |
+
+### obsidian
+
+| Файл | Score |
+|------|-------|
 | `docs/obsidian/TABLES.md` | 281.19 |
-| `docs/obsidian/OUTLINE.md` | 74.61 |
-| `docs/obsidian/NARRATIVE.md` | 52.19 |
-| `docs/obsidian/NAMED_ENTITIES.md` | 39.04 |
-| `docs/obsidian/CONCEPTS.md` | 38.48 |
+| `docs/obsidian/OUTLINE.md` | 74.6 |
+| `docs/obsidian/NARRATIVE.md` | 52.07 |
+| `docs/obsidian/NAMED_ENTITIES.md` | 38.98 |
+| `docs/obsidian/CONCEPTS.md` | 38.47 |
+
+### okwf-concept
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/okwf-concept/08-risk-analysis.md` | 2.46 |
+| `docs/nautilus/okwf-concept/07-phased-rollout.md` | 2.17 |
+| `docs/nautilus/okwf-concept/06-governance-ethics.md` | 1.75 |
+| `docs/nautilus/okwf-concept/04-proposed-infrastructure.md` | 1.3 |
+| `docs/nautilus/okwf-concept/09-call-for-partnership.md` | 1.13 |
+
+### operationalized
+
+| Файл | Score |
+|------|-------|
+| `docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md` | 12.59 |
+| `docs/lorenzo-agent/operationalized/02-minuses-1-10.md` | 8.75 |
+| `docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md` | 6.87 |
+| `docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` | 6.84 |
+| `docs/lorenzo-agent/operationalized/01-pluses-1-7.md` | 5.65 |
+
+### outreach
+
+| Файл | Score |
+|------|-------|
+| `docs/svyazi-2-0/outreach/first-contacts.md` | 12.08 |
+| `docs/svyazi-2-0/outreach/message-template.md` | 11.45 |
+| `docs/svyazi-2-0/outreach/narrow-questions.md` | 8.81 |
+
+### overview
+
+| Файл | Score |
+|------|-------|
+| `docs/svyazi-2-0/overview/projects-map.md` | 23.7 |
+| `docs/svyazi-2-0/overview/executive-summary.md` | 18.72 |
+| `docs/svyazi-2-0/overview/continuation-intro.md` | 7.54 |
+| `docs/svyazi-2-0/overview/methodology.md` | 7.24 |
+
+### phased-deployment
+
+| Файл | Score |
+|------|-------|
+| `docs/lorenzo-agent/phased-deployment/08-current-session-poc.md` | 3.7 |
+| `docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md` | 2.88 |
+| `docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md` | 2.55 |
+| `docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md` | 1.96 |
+| `docs/lorenzo-agent/phased-deployment/00-overview.md` | 1.53 |
+
+### practical-observations
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/community-discussions/practical-observations/01-response.md` | 1.59 |
+| `docs/nautilus/community-discussions/practical-observations/00-question-practical.md` | 0.91 |
+
+### privacy-federation
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/privacy-federation/03-what-this-gives-technically.md` | 0.82 |
+| `docs/nautilus/privacy-federation/02-two-tier-publication.md` | 0.48 |
+| `docs/nautilus/privacy-federation/04-what-i-can-do-now.md` | 0.34 |
+| `docs/nautilus/privacy-federation/00-question-anonymization.md` | 0.0 |
+| `docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md` | 0.0 |
+
+### professional-colleague-agents-en
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/professional-colleague-agents-en/06-risks.md` | 10.9 |
+| `docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md` | 7.74 |
+| `docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md` | 6.72 |
+| `docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md` | 6.48 |
+| `docs/nautilus/professional-colleague-agents-en/04-architecture.md` | 5.03 |
+
+### professional-colleague-agents-ru
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md` | 1.01 |
+| `docs/nautilus/professional-colleague-agents-ru/06-riski.md` | 0.71 |
+| `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md` | 0.61 |
+| `docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md` | 0.61 |
+| `docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md` | 0.61 |
+
+### prototype
+
+| Файл | Score |
+|------|-------|
+| `docs/svyazi-2-0/prototype/mvp-plan.md` | 15.85 |
+| `docs/svyazi-2-0/prototype/roadmap.md` | 14.59 |
+| `docs/svyazi-2-0/prototype/risks.md` | 14.14 |
+
+### representative-agent-layer-en
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/representative-agent-layer-en/02-historical-precedents.md` | 10.97 |
+| `docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md` | 7.89 |
+| `docs/nautilus/representative-agent-layer-en/12-closing.md` | 7.85 |
+| `docs/nautilus/representative-agent-layer-en/05-architectural-specification.md` | 5.57 |
+| `docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md` | 5.26 |
+
+### representative-agent-layer-ru
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md` | 2.98 |
+| `docs/nautilus/representative-agent-layer-ru/08-riski-mery.md` | 1.25 |
+| `docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md` | 1.14 |
+| `docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md` | 1.1 |
+| `docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md` | 1.09 |
+
+### research-reports
+
+| Файл | Score |
+|------|-------|
+| `docs/technology-combinations/research-reports/continuation-10-domains.md` | 0.69 |
+| `docs/technology-combinations/research-reports/sozialrecht-35-combinations.md` | 0.36 |
+
+### review-methodology
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/review-methodology/06-relation-existing-methodologies.md` | 1.7 |
+| `docs/nautilus/review-methodology/09-limitations-open-questions.md` | 1.17 |
+| `docs/nautilus/review-methodology/01-context-motivation.md` | 1.01 |
+| `docs/nautilus/review-methodology/03-consolidation-principles.md` | 0.81 |
+| `docs/nautilus/review-methodology/04-fallback-ratio-question.md` | 0.7 |
+
+### scenarios
+
+| Файл | Score |
+|------|-------|
+| `docs/lorenzo-agent/scenarios/01-response.md` | 7.55 |
+| `docs/lorenzo-agent/scenarios/00-question-scenario.md` | 0.0 |
+
+### security
+
+| Файл | Score |
+|------|-------|
+| `docs/svyazi-2-0/security/default-policy.md` | 9.31 |
+| `docs/svyazi-2-0/security/privacy.md` | 6.84 |
+| `docs/svyazi-2-0/security/budget-routing.md` | 6.15 |
+
+### software-pairs
+
+| Файл | Score |
+|------|-------|
+| `docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md` | 8.56 |
+| `docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md` | 4.17 |
+| `docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md` | 3.98 |
+| `docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md` | 1.95 |
+| `docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md` | 0.81 |
+
+### specification
+
+| Файл | Score |
+|------|-------|
+| `docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md` | 3.44 |
+| `docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md` | 3.26 |
+| `docs/lorenzo-agent/specification/05-q5-authority-limits.md` | 2.72 |
+| `docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md` | 2.21 |
+| `docs/lorenzo-agent/specification/10-q10-funding-model.md` | 2.13 |
+
+### supply-demand
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/supply-demand/01-three-related-themes.md` | 1.5 |
+| `docs/nautilus/supply-demand/00-question-supply-demand.md` | 0.81 |
+
+### synthesis-tables
+
+| Файл | Score |
+|------|-------|
+| `docs/technology-combinations/synthesis-tables/01-08-summary.md` | 8.67 |
+| `docs/technology-combinations/synthesis-tables/09-14-extended.md` | 4.47 |
+| `docs/technology-combinations/synthesis-tables/15-19-extended.md` | 4.42 |
+| `docs/technology-combinations/synthesis-tables/31-35-final.md` | 1.79 |
+| `docs/technology-combinations/synthesis-tables/20-24-final.md` | 0.92 |
 
 ### templates
 
 | Файл | Score |
 |------|-------|
-| `docs/templates/contact-outreach.md` | 6.44 |
-| `docs/obsidian/templates/project-component.md` | 1.8 |
-| `docs/templates/project-component.md` | 1.75 |
-| `docs/obsidian/templates/contact-outreach.md` | 1.37 |
-| `docs/obsidian/templates/ensemble.md` | 0.58 |
+| `docs/templates/project-component.md` | 1.84 |
+| `docs/obsidian/templates/project-component.md` | 1.76 |
+| `docs/templates/contact-outreach.md` | 1.59 |
+| `docs/obsidian/templates/contact-outreach.md` | 1.35 |
+| `docs/templates/ensemble.md` | 0.61 |
+
+### transmission-box
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/transmission-box/01-completing-loop.md` | 2.48 |
+| `docs/nautilus/transmission-box/00-question-mountain-to-person.md` | 0.16 |
+
+### voiceless-contributors
+
+| Файл | Score |
+|------|-------|
+| `docs/nautilus/community-discussions/voiceless-contributors/01-response.md` | 10.83 |
+| `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` | 0.32 |

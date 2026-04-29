@@ -41,3 +41,13 @@ Federation between practitioner deployments (Nautilus)
 - [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
 - [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md) (сходство 0.35)
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.31)
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md) (сходство 0.30)
+

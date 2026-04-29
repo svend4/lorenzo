@@ -139,3 +139,13 @@ confusion. Distinguishing them enables clear architecture.
 - [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [220-9-relationship-to-other-agent-types](docs/obsidian/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.87)
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.82)
+- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md) (сходство 0.23)
+

@@ -77,3 +77,13 @@ Portal SHOULD предоставлять команду валидации:
 - [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
 - [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [79-4-passport-passport-md](docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.76)
+- [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.74)
+- [04-passport](docs/nautilus/npp-v1-0/04-passport.md) (сходство 0.26)
+

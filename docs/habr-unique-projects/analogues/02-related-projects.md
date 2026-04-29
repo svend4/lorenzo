@@ -42,3 +42,13 @@
 - [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
 - [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.60)
+- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md) (сходство 0.50)
+- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.23)
+

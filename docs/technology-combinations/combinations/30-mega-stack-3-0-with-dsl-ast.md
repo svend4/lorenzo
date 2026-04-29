@@ -105,3 +105,13 @@ Claude hat geantwortet: Продолжаю углубленный поиск п�
 - [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
 - [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.36)
+- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.26)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.24)
+

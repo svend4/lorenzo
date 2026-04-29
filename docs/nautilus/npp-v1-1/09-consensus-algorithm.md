@@ -118,3 +118,13 @@ v2.0 MAY использовать:
 - [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
 - [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.72)
+- [84-9-consensus-algorithm](docs/obsidian/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.70)
+- [08-consensus-algorithm](docs/nautilus/npp-v1-0/08-consensus-algorithm.md) (сходство 0.37)
+

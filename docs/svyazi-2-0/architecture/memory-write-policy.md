@@ -38,3 +38,13 @@ Yodoca уже мыслит память через consolidation + forgetting, N
 - [card-envelope](docs/svyazi-2-0/architecture/card-envelope.md)
 - [review-record](docs/svyazi-2-0/architecture/review-record.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [card-envelope](docs/svyazi-2-0/architecture/card-envelope.md) (сходство 0.23)
+- [review-record](docs/svyazi-2-0/architecture/review-record.md) (сходство 0.22)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.21)
+

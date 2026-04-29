@@ -280,3 +280,13 @@ Provides empirical validation что архитектура работает в 
 - [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
 - [01-response](docs/nautilus/innovation-transitions/01-response.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [165-closing](docs/obsidian/02-anthropic-vacancies/165-closing.md) (сходство 0.25)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.25)
+- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md) (сходство 0.15)
+

@@ -402,3 +402,13 @@ Specific proposal involving HMP integration
 - [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-naming-rationale-lorenzo-medici](docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md) (сходство 0.23)
+- [11-difficulties-and-recommendations](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md) (сходство 0.23)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.21)
+

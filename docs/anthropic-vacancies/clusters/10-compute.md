@@ -23,3 +23,13 @@
 - [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md)
 - [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.40)
+- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md) (сходство 0.38)
+- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md) (сходство 0.38)
+

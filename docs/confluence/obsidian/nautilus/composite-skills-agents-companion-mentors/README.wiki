@@ -1,0 +1,32 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/composite-skills-agents-companion-mentors/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "composite-skills-agents-companion-mentors"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. composite-skills-agents-companion-mentors
+
+_Файлов:_ 4
+
+h2. Содержание
+
+* [[00-question-multiple-mentors|00-question-multiple-mentors.md]] — 
+* [[01-yogi-metaphor|01-yogi-metaphor.md]] — > [!IMPORTANT]
+* [[02-what-was-missing-in-paper-6|02-what-was-missing-in-paper-6.md]] — > [!WARNING]
+* [[03-the-spectrum|03-the-spectrum.md]] — > [!WARNING]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.24)
+* [[README]] (сходство 0.22)
+* [[README]] (сходство 0.22)
+

@@ -21,3 +21,13 @@
 - [14-main-technical-risks.md](14-main-technical-risks.md) — > [!WARNING]
 - [15-appendix-c-history.md](15-appendix-c-history.md) — <!-- summary -->
 - [16-glossary.md](16-glossary.md) — > [!WARNING]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.16)
+- [README](docs/nautilus/double-triangle-architecture/README.md) (сходство 0.13)
+- [README](docs/anthropic-vacancies/ai-managed-virtual-company/README.md) (сходство 0.12)
+

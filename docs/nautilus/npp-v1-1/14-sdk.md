@@ -53,3 +53,13 @@ acceptable только для debugging/experimental версий.
 - [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
 - [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [89-14-sdk-contract-informative](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.57)
+- [89-14-sdk-contract-informative](docs/obsidian/02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.55)
+- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md) (сходство 0.33)
+

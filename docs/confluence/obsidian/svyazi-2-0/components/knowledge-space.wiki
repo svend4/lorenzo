@@ -1,0 +1,66 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/components/knowledge-space.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "knowledge-space"
+tags:
+  * knowledge
+  * ingestion
+  * architecture
+  * collaboration
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. knowledge-space
+
+
+{quote}- _Автор:_ Sonia_Black / AnastasiyaW{quote}
+_Проекты:_ Svyazi, knowledge-space
+
+----
+
+
+
+
+
+* _Автор:_ Sonia_Black / AnastasiyaW
+* _Источник:_ Хабр + GitHub citeturn33view0turn33view2turn37search1
+* _Лицензия:_ _MIT_. citeturn33view0turn37search1
+* _Maturity:_ активный OSS, база растёт почти ежедневно. citeturn33view1turn37search1
+* _Релевантность к Svyazi‑2.0:_ высокая — внешний knowledge layer для агентов и нормализатора.
+
+h2. Описание
+
+Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий.
+
+h2. Ключевые компоненты и паттерны
+
+* Dense reference cards
+* Gotchas
+* Wiki‑links
+* {{research/inbox/}}
+* «для агентов, не людей»
+
+
+
+----
+
+_Смотрите также:_
+* [[mclaude]]
+* [[rufler]]
+* [[memnet]]
+* [[yodoca]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[mclaude]] (сходство 0.42)
+* [[rufler]] (сходство 0.38)
+* [[memnet]] (сходство 0.38)
+

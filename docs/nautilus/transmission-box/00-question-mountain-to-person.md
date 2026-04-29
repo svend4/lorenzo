@@ -34,3 +34,13 @@ Mehr anzeigen
 - [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
 - [00-question-multiple-mentors](docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [150-appendix-c-version-history](docs/obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.15)
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.15)
+- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md) (сходство 0.15)
+

@@ -55,3 +55,13 @@
 - [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
 - [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.34)
+- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.31)
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.30)
+

@@ -31,3 +31,13 @@ Mehr anzeigen
 - [00-question-voiceless](docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
 - [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md) (сходство 0.47)
+- [00-question-voiceless](docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md) (сходство 0.14)
+- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md) (сходство 0.14)
+

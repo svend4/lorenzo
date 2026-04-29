@@ -116,3 +116,13 @@ tech-sophisticated principals fails its core mission.
 - [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
 - [08-risks-mitigations](docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.88)
+- [175-6-ethical-framework](docs/obsidian/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.85)
+- [07-governance-oversight](docs/nautilus/representative-agent-layer-en/07-governance-oversight.md) (сходство 0.20)
+

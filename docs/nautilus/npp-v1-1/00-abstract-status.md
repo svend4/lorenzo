@@ -78,3 +78,13 @@ stable требуют bump до v2.0 с migration guide.
 - [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
 - [01-introduction](docs/nautilus/npp-v1-1/01-introduction.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [74-abstract](docs/obsidian/02-anthropic-vacancies/74-abstract.md) (сходство 0.60)
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md) (сходство 0.55)
+- [00-abstract-status](docs/nautilus/npp-v1-0/00-abstract-status.md) (сходство 0.46)
+

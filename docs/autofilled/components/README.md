@@ -14,3 +14,13 @@
 - [spbmolot.md](spbmolot.md) — <!-- summary -->
 - [svend4.md](svend4.md) — <!-- summary -->
 - [svyazi.md](svyazi.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/obsidian/autofilled/components/README.md) (сходство 0.92)
+- [README](docs/obsidian/autofilled/README.md) (сходство 0.27)
+- [README](docs/autofilled/README.md) (сходство 0.27)
+

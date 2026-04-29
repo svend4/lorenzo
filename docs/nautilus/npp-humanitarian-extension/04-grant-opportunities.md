@@ -60,3 +60,13 @@ Aktion Mensch — поддерживает disability-related tech specifically.
 - [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
 - [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-what-i-can-do-now](docs/nautilus/privacy-federation/04-what-i-can-do-now.md) (сходство 0.22)
+- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md) (сходство 0.14)
+- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.13)
+

@@ -93,3 +93,13 @@ NPP **не** пытается:
 - [00-abstract-status](docs/nautilus/npp-v1-1/00-abstract-status.md)
 - [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [76-1-introduction](docs/obsidian/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.89)
+- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.86)
+- [01-introduction](docs/nautilus/npp-v1-0/01-introduction.md) (сходство 0.54)
+

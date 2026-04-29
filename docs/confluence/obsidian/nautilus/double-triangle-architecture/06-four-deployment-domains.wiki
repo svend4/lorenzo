@@ -1,0 +1,179 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/double-triangle-architecture/06-four-deployment-domains.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "6. Four Deployment Domains"
+tags:
+  * rag
+  * roadmap
+  * anthropic
+  * collaboration
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 6. Four Deployment Domains
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».{quote}
+
+----
+
+
+h2. Содержание
+
+* [6. Four Deployment Domains|#6-four-deployment-domains]
+  * [6.1. Humanities Domain (Legal, Medical, Social)|#61-humanities-domain-legal-medical-social]
+  * [6.2. Project Management Domain|#62-project-management-domain]
+  * [6.3. Open-Source Development Domain|#63-open-source-development-domain]
+  * [6.4. Generic Knowledge Work Domain|#64-generic-knowledge-work-domain]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».{quote}
+
+h2. 6. Four Deployment Domains
+
+The Double-Triangle Architecture is domain-agnostic but benefits 
+from concrete deployment analysis. We describe four domains where 
+the architecture applies naturally.
+
+h3. 6.1. Humanities Domain (Legal, Medical, Social)
+
+_Participants._ Legal professionals, social workers, medical 
+practitioners, rights advocates.
+
+_Lower triangle contents._ Assistants specialized for:
+* Legal research (case law, statute lookup)
+* Document drafting (Widerspruch, Klage, petitions)
+* Compliance checking (GDPR, medical confidentiality)
+* Timeline tracking (deadlines, Fristwahrung)
+
+_Upper triangle contents._ Meta-agent coordinating multiple 
+advocates on related cases, sharing anonymized patterns, 
+escalating cross-jurisdictional issues.
+
+_Pattern library examples._ SGB statutes, anonymized court 
+decisions, Widerspruch templates, ICD-10 classifications, 
+institutional procedure patterns.
+
+_Concrete deployment._ An individual (the first author, 
+svend4) currently engages with Sozialgericht Dresden on cases 
+S 6 SO 58/26 ER and S 7 SO 99/25. Personal workflow already 
+exhibits lower triangle structure (Claude Code for technical 
+documents, Claude Sonnet for German legal drafting). Upper 
+triangle would emerge when other advocates working on related 
+cases coordinate through shared anonymized pattern library.
+
+_Regulatory considerations._ GDPR Article 5 (data minimization), 
+§ 203 StGB (professional confidentiality), UrhG § 5 (public 
+domain status of statutes and court decisions). All compatible 
+with Double-Triangle if anonymization pipeline operates correctly.
+
+h3. 6.2. Project Management Domain
+
+_Participants._ Software engineers, product managers, designers, 
+DevOps engineers, QA engineers.
+
+_Lower triangle contents._ Assistants specialized for:
+* Code generation and review (Copilot, Cursor, Claude Code)
+* Design ideation (Figma AI, sketch tools)
+* Deployment automation (Terraform AI, kubectl-ai)
+* Test generation (property-based test synthesis)
+
+_Upper triangle contents._ Meta-agent performing sprint 
+planning, dependency analysis, cross-team coordination, 
+retrospective synthesis.
+
+_Pattern library examples._ Agile methodologies, CI/CD 
+patterns, deployment playbooks, incident postmortems (anonymized), 
+architecture decision records.
+
+_Existing partial implementations._ Jira AI, Linear AI, GitHub 
+Projects automation — all provide fragments of this architecture 
+but lack Protocol 3.
+
+_Business opportunity._ Organizations currently spend 20–30% 
+of engineering budget on middle management. A Double-Triangle 
+implementation that replaces some coordination functions with AI 
+meta-agents (while keeping humans in the engineer role) could 
+significantly alter organizational economics.
+
+h3. 6.3. Open-Source Development Domain
+
+_Participants._ Maintainers, contributors, reviewers, users.
+
+_Lower triangle contents._ Per-participant assistants for:
+* Contribution drafting (PRs, issues, documentation)
+* Code review (automated checks, suggestion generation)
+* Community moderation (anti-spam, tone analysis)
+
+_Upper triangle contents._ Meta-agent handling:
+* Triage and routing of incoming contributions
+* Release planning and coordination
+* Security vulnerability coordination
+* Community health monitoring
+
+_Pattern library examples._ Governance templates (BDFL, 
+foundation-based, consensus), contribution guidelines, release 
+playbooks, security advisory formats, code of conduct templates.
+
+_Novel opportunity._ Open-source projects traditionally lack 
+scalable coordination. A Double-Triangle deployment could enable 
+small maintainer teams to manage much larger contributor 
+communities without proportional coordination overhead.
+
+h3. 6.4. Generic Knowledge Work Domain
+
+_Participants._ Researchers, writers, consultants, analysts, 
+educators.
+
+_Lower triangle contents._ Assistants for:
+* Literature review and synthesis
+* Draft generation and revision
+* Data analysis and visualization
+* Citation management
+
+_Upper triangle contents._ Meta-agent coordinating:
+* Research group collaboration
+* Multi-author paper writing
+* Conference/workshop organization
+* Grant application coordination
+
+_Pattern library examples._ Research methodologies, writing 
+templates, citation styles, peer review conventions.
+
+_Observation._ This domain is perhaps the broadest application 
+of Double-Triangle architecture. Most modern knowledge workers 
+could potentially benefit from this structure once mature tools 
+exist.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[143-6-four-deployment-domains]]
+* [[04-proposed-infrastructure]]
+* [[08-call-to-action]]
+* [[158-4-proposed-infrastructure]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[143-6-four-deployment-domains]] (сходство 0.89)
+* [[143-6-four-deployment-domains]] (сходство 0.84)
+* [[04-proposed-infrastructure]] (сходство 0.21)
+

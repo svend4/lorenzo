@@ -43,3 +43,13 @@
 - [rufler](docs/svyazi-2-0/components/rufler.md)
 - [yodoca](docs/svyazi-2-0/components/yodoca.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [E-execution-plane](docs/svyazi-2-0/ensembles/E-execution-plane.md) (сходство 0.29)
+- [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md) (сходство 0.25)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md) (сходство 0.24)
+

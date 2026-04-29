@@ -43,3 +43,13 @@ h2. Следующие шаги
 
 ----
 _Создано: 2026-04-29_
+
+
+
+----
+
+_Смотрите также:_
+* [[research-summary]]
+* [[contact-outreach]]
+* [[project-component]]
+

@@ -1,0 +1,15 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/ai-collaborations/channels/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "channels/ — каналы первого контакта"
+tags:
+  * ai-collaborations
+date: 2026-04-29
+----
+
+h1. channels/ — каналы первого контакта
+
+Один файл — один канал (Хабр, GitHub, Twitter/X, конференции, рассылки и т. д.). Внутри: преимущества канала, ограничения, тон, шаблоны.

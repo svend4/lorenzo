@@ -36,3 +36,13 @@
 - [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
 - [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [359-твои-anti-patterns](docs/02-anthropic-vacancies/359-твои-anti-patterns.md) (сходство 0.79)
+- [359-твои-anti-patterns](docs/obsidian/02-anthropic-vacancies/359-твои-anti-patterns.md) (сходство 0.66)
+- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md) (сходство 0.22)
+

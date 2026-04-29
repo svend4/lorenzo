@@ -4,21 +4,21 @@
 
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
 |-------|--------|------|-------------------|---------------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 78 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 50 | — |
-| **Cutcode** | AIF Handoff | orchestration | 76 | — |
-| **Dmitriila** | SENTINEL | security | 69 | — |
-| **MiXaiLL76** | Auto AI Router | security | 68 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 38 | — |
-| **VitalyOborin** | Yodoca | memory | 71 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 69 | — |
-| **andrey_chuyan** | Svyazi | ingestion/CardIndex | 43 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
-| **kksudo** | AgentFS | knowledge/filesystem | 133 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
-| **lee-to** | AI Factory | orchestration | 16 | — |
-| **nlaik** | LiteParse / research-docs | rag | 49 | — |
-| **spbmolot** | NGT Memory | memory | 128 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
-| **tagir_analyzes** | Legal RAG | rag | 41 | — |
-| **zodigancode** | Rufler | orchestration | 59 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 85 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 53 | — |
+| **Cutcode** | AIF Handoff | orchestration | 74 | — |
+| **Dmitriila** | SENTINEL | security | 68 | — |
+| **MiXaiLL76** | Auto AI Router | security | 64 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 33 | — |
+| **VitalyOborin** | Yodoca | memory | 70 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 77 | — |
+| **andrey_chuyan** | Svyazi | ingestion/CardIndex | 32 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
+| **kksudo** | AgentFS | knowledge/filesystem | 130 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
+| **lee-to** | AI Factory | orchestration | 19 | — |
+| **nlaik** | LiteParse / research-docs | rag | 50 | — |
+| **spbmolot** | NGT Memory | memory | 131 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
+| **tagir_analyzes** | Legal RAG | rag | 33 | — |
+| **zodigancode** | Rufler | orchestration | 64 | — |
 
 ## GitHub репозитории
 
@@ -42,15 +42,15 @@
 | `github.com/github.com/dementev-dev/adversarial-review` | 4 |
 | `github.com/github.com/github` | 4 |
 | `github.com/github.com/kagvi13/HMP` | 2 |
-| `github.com/github.com/kagvi13/HMP.` | 2 |
-| `github.com/github.com/kksudo` | 4 |
-| `github.com/github.com/kksudo/agentfs` | 4 |
-| `github.com/github.com/lib4u/rufler` | 2 |
-| `github.com/github.com/mcp` | 14 |
+| `github.com/github.com/kagvi13/HMP.` | 3 |
+| `github.com/github.com/kksudo` | 8 |
+| `github.com/github.com/kksudo/agentfs` | 6 |
+| `github.com/github.com/lib4u/rufler` | 3 |
+| `github.com/github.com/mcp` | 15 |
 | `github.com/github.com/nlaik` | 7 |
-| `github.com/github.com/ruvnet/ruflo` | 2 |
-| `github.com/github.com/settings/tokens` | 10 |
-| `github.com/github.com/spbmolot` | 10 |
+| `github.com/github.com/ruvnet/ruflo` | 3 |
+| `github.com/github.com/settings/tokens` | 11 |
+| `github.com/github.com/spbmolot` | 9 |
 | `github.com/github.com/spbmolot/ngt-memory` | 5 |
 | `github.com/github.com/svend4` | 9 |
 | `github.com/github.com/svend4/data70` | 12 |
@@ -60,10 +60,10 @@
 | `github.com/github.com/svend4/ingit` | 28 |
 | `github.com/github.com/svend4/meta` | 22 |
 | `github.com/github.com/svend4/n` | 3 |
-| `github.com/github.com/svend4/nautilus` | 83 |
-| `github.com/github.com/svend4/nautilus.` | 4 |
-| `github.com/github.com/svend4/nautilus.git` | 7 |
-| `github.com/github.com/svend4/pro2` | 22 |
+| `github.com/github.com/svend4/nautilus` | 101 |
+| `github.com/github.com/svend4/nautilus.` | 5 |
+| `github.com/github.com/svend4/nautilus.git` | 6 |
+| `github.com/github.com/svend4/pro2` | 24 |
 | `github.com/github.com/tagir` | 6 |
 | `github.com/github.com/tree` | 2 |
 | `github.com/github.com/users/svend4` | 9 |

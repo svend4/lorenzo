@@ -1,0 +1,34 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/representative-agent-layer-ru/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. representative-agent-layer-ru
+
+_Файлов:_ 13
+
+h2. Содержание
+
+* [00-abstract.md|00-abstract.md] — 
+* [01-sindrom-zolushki.md|01-sindrom-zolushki.md] — 
+* [02-istoricheskie-pretsedenty.md|02-istoricheskie-pretsedenty.md] — > [!WARNING]
+* [03-chto-delaet-predstavitelskim.md|03-chto-delaet-predstavitelskim.md] — > [!TIP]
+* [04-desyat-oblastey.md|04-desyat-oblastey.md] — > [!WARNING]
+* [05-arkhitekturnaya-spetsifikatsiya.md|05-arkhitekturnaya-spetsifikatsiya.md] — 
+* [06-eticheskaya-ramka.md|06-eticheskaya-ramka.md] — 
+* [07-upravlenie-nadzor.md|07-upravlenie-nadzor.md] — 
+* [08-riski-mery.md|08-riski-mery.md] — > [!WARNING]
+* [09-strategiya-razvyortyvaniya.md|09-strategiya-razvyortyvaniya.md] — > [!WARNING]
+* [10-otkrytye-voprosy.md|10-otkrytye-voprosy.md] — 
+* [11-prizyv-k-sotrudnichestvu.md|11-prizyv-k-sotrudnichestvu.md] — > [!WARNING]
+* [12-zaklyuchenie.md|12-zaklyuchenie.md] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/professional-colleague-agents-ru/README.md] (сходство 0.27)
+* [README|docs/nautilus/ingit-cowork-ru/README.md] (сходство 0.14)
+* [README|docs/nautilus/representative-agent-layer-en/README.md] (сходство 0.13)
+

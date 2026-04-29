@@ -66,3 +66,13 @@
 - [09-acknowledgments](docs/nautilus/double-triangle-architecture/09-acknowledgments.md)
 - [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [147-references](docs/02-anthropic-vacancies/147-references.md) (сходство 0.74)
+- [147-references](docs/obsidian/02-anthropic-vacancies/147-references.md) (сходство 0.70)
+- [11-dhlab-documents](docs/lorenzo-agent/11-dhlab-documents.md) (сходство 0.19)
+

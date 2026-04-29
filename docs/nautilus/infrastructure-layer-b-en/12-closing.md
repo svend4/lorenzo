@@ -42,3 +42,13 @@ The infrastructure question deserves attention. It does not
 need to be solved before other work proceeds.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [285-closing](docs/obsidian/02-anthropic-vacancies/285-closing.md) (сходство 0.70)
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md) (сходство 0.66)
+- [05-why-not-built](docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md) (сходство 0.21)
+

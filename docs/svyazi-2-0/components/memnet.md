@@ -38,3 +38,13 @@
 - [rufler](docs/svyazi-2-0/components/rufler.md)
 - [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md) (сходство 0.39)
+- [rufler](docs/svyazi-2-0/components/rufler.md) (сходство 0.39)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md) (сходство 0.38)
+

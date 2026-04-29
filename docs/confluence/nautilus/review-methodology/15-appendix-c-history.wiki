@@ -1,0 +1,54 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/review-methodology/15-appendix-c-history.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Appendix C: История изменений методологии
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».{quote}
+
+h2. Appendix C: История изменений методологии
+
+h3. v1.0 (2026-04)
+
+Первая формализация, основана на опыте применения к 
+IMPLEMENTATION_STAGE_PART_*.md в апреле 2026.
+
+Будущие версии методологии будут задокументированы в этом appendix.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [12-appendix-a-header-warning|docs/nautilus/review-methodology/12-appendix-a-header-warning.md]
+* [17-appendix-b-change-log|docs/nautilus/npp-v1-0/17-appendix-b-change-log.md]
+* [00-question-habr-link|docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md]
+* [14-main-technical-risks|docs/nautilus/review-methodology/14-main-technical-risks.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [17-appendix-b-change-log|docs/nautilus/npp-v1-0/17-appendix-b-change-log.md] (сходство 0.42)
+* [12-appendix-a-header-warning|docs/nautilus/review-methodology/12-appendix-a-header-warning.md] (сходство 0.40)
+* [121-appendix-c-история-изменений-методологии|docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md] (сходство 0.38)
+

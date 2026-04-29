@@ -31,3 +31,13 @@
 - [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [361-когда-ты-honestly-не-знаешь](docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) (сходство 0.59)
+- [361-когда-ты-honestly-не-знаешь](docs/obsidian/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) (сходство 0.46)
+- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md) (сходство 0.35)
+

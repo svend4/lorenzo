@@ -67,3 +67,13 @@ Local-first, single-file SQLite — portable, offline-capable, simple
 - [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md)
 - [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-coally](docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md) (сходство 0.17)
+- [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md) (сходство 0.17)
+- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md) (сходство 0.17)
+

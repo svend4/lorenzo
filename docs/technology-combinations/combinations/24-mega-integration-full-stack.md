@@ -140,3 +140,13 @@ Charted specialized domains for discovering innovative projects
 - [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
 - [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md) (сходство 0.41)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.39)
+- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md) (сходство 0.30)
+

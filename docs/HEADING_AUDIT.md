@@ -2,15 +2,15 @@
 
 _Обновлено: 2026-04-29_
 
-Файлов с проблемами: **829** из 1187
+Файлов с проблемами: **814** из 1164
 
 ## Типы проблем
 
 | Тип | Кол-во |
 |-----|--------|
-| ⚠️  Нет родительского H2 | 7 |
-| 🕳️  Пустая секция | 1323 |
-| ♊ Дублирующийся заголовок | 650 |
+| ⚠️  Нет родительского H2 | 5 |
+| 🕳️  Пустая секция | 1375 |
+| ♊ Дублирующийся заголовок | 1152 |
 | 📏 Длинный заголовок | 4 |
 | 🪜 Пропущен уровень | 7 |
 | ❌ Нет H1 | 11 |
@@ -18,29 +18,34 @@ _Обновлено: 2026-04-29_
 
 ## По файлам
 
-### `docs/EMPTY_SECTIONS.md` (161 проблем)
+### `docs/EMPTY_SECTIONS.md` (246 проблем)
 
-_секция: 157, заголовок: 4_
+_секция: 243, заголовок: 3_
 
 
-### `docs/QA.md` (127 проблем)
+### `docs/QA.md` (150 проблем)
 
-_секция: 107, заголовок: 20_
+_секция: 127, заголовок: 23_
 
 
 ### `docs/CODE_BLOCKS.md` (126 проблем)
 
-_секция: 106, заголовок: 20_
+_секция: 101, заголовок: 25_
 
 
-### `docs/SPELLCHECK.md` (29 проблем)
+### `docs/QUESTIONS.md` (85 проблем)
 
-_секция: 29_
+_заголовок: 45, секция: 40_
 
 
-### `docs/TABLES.md` (24 проблем)
+### `docs/SPELLCHECK.md` (44 проблем)
 
-_секция: 16, заголовок: 8_
+_секция: 44_
+
+
+### `docs/TABLES.md` (35 проблем)
+
+_заголовок: 18, секция: 17_
 
 
 ### `docs/02-anthropic-vacancies/QA.md` (23 проблем)
@@ -53,19 +58,14 @@ _секция: 23_
 _секция: 18_
 
 
-### `docs/templates/protocol-spec.md` (18 проблем)
-
-_секция: 18_
-
-
-### `docs/templates/rfc.md` (16 проблем)
-
-_секция: 16_
-
-
 ### `docs/01-svyazi/QA.md` (15 проблем)
 
 _секция: 15_
+
+
+### `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` (15 проблем)
+
+_секция: 8, заголовок: 6, H1: 1_
 
 
 ### `docs/04-ai-collaborations/QA.md` (15 проблем)
@@ -73,24 +73,14 @@ _секция: 15_
 _секция: 15_
 
 
-### `docs/templates/mega-stack.md` (14 проблем)
-
-_секция: 14_
-
-
-### `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` (13 проблем)
-
-_секция: 8, заголовок: 4, H1: 1_
-
-
 ### `docs/03-technology-combinations/QA.md` (13 проблем)
 
 _секция: 13_
 
 
-### `docs/templates/template-of-templates.md` (13 проблем)
+### `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` (12 проблем)
 
-_секция: 13_
+_секция: 8, заголовок: 4_
 
 
 ### `docs/02-anthropic-vacancies/69-section.md` (12 проблем)
@@ -103,19 +93,24 @@ _секция: 10, H1: 1, заголовок: 1_
 _секция: 12_
 
 
+### `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` (11 проблем)
+
+_секция: 8, заголовок: 3_
+
+
 ### `docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md` (11 проблем)
 
 _секция: 10, H1: 1_
 
 
-### `docs/templates/tech-pair.md` (11 проблем)
+### `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` (10 проблем)
 
-_секция: 11_
+_заголовок: 5, секция: 4, H1: 1_
 
 
-### `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` (10 проблем)
+### `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` (10 проблем)
 
-_секция: 8, заголовок: 2_
+_секция: 5, заголовок: 3, H1: 1, уровень: 1_
 
 
 ### `docs/FAQ.md` (10 проблем)
@@ -123,9 +118,9 @@ _секция: 8, заголовок: 2_
 _секция: 10_
 
 
-### `docs/anthropic-vacancies/QA.md` (10 проблем)
+### `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (9 проблем)
 
-_секция: 10_
+_секция: 6, заголовок: 3_
 
 
 ### `docs/nautilus/npp-v1-1/22-glossary.md` (9 проблем)
@@ -133,14 +128,14 @@ _секция: 10_
 _секция: 7, H1: 1, заголовок: 1_
 
 
-### `docs/templates/experiment-log.md` (9 проблем)
+### `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` (8 проблем)
 
-_секция: 9_
+_секция: 5, заголовок: 3_
 
 
-### `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` (8 проблем)
+### `docs/02-anthropic-vacancies/133-обратная-связь.md` (8 проблем)
 
-_секция: 7, заголовок: 1_
+_секция: 3, заголовок: 3, H1: 1, уровень: 1_
 
 
 ### `docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` (8 проблем)
@@ -158,9 +153,14 @@ _секция: 7, заголовок: 1_
 _секция: 7, H1: 1_
 
 
-### `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (7 проблем)
+### `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (7 проблем)
 
-_секция: 6, заголовок: 1_
+_заголовок: 5, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/18-6-adapter-interface.md` (7 проблем)
+
+_заголовок: 4, секция: 3_
 
 
 ### `docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md` (7 проблем)
@@ -168,9 +168,24 @@ _секция: 6, заголовок: 1_
 _секция: 5, H1: 1, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` (7 проблем)
+### `docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md` (7 проблем)
 
-_секция: 4, H1: 1, уровень: 1, заголовок: 1_
+_заголовок: 4, секция: 2, H1: 1_
+
+
+### `docs/02-anthropic-vacancies/319-acknowledgments.md` (7 проблем)
+
+_заголовок: 4, секция: 2, H1: 1_
+
+
+### `docs/02-anthropic-vacancies/65-readme-md.md` (7 проблем)
+
+_заголовок: 4, секция: 2, H1: 1_
+
+
+### `docs/03-technology-combinations/05-benchmarks.md` (7 проблем)
+
+_заголовок: 4, секция: 3_
 
 
 ### `docs/SCHEDULE.md` (7 проблем)
@@ -178,14 +193,59 @@ _секция: 4, H1: 1, уровень: 1, заголовок: 1_
 _секция: 7_
 
 
-### `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` (6 проблем)
+### `docs/anthropic-vacancies/QA.md` (7 проблем)
 
-_секция: 3, заголовок: 2, H1: 1_
+_секция: 7_
 
 
-### `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` (6 проблем)
+### `docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` (6 проблем)
 
-_секция: 5, заголовок: 1_
+_заголовок: 4, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` (6 проблем)
+
+_заголовок: 4, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md` (6 проблем)
+
+_заголовок: 4, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/320-references.md` (6 проблем)
+
+_секция: 3, заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (6 проблем)
+
+_заголовок: 4, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/338-ссылки.md` (6 проблем)
+
+_секция: 3, заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` (6 проблем)
+
+_секция: 3, заголовок: 3_
+
+
+### `docs/CONSISTENCY.md` (6 проблем)
+
+_секция: 6_
+
+
+### `docs/GITHUB_ISSUES.md` (6 проблем)
+
+_секция: 6_
+
+
+### `docs/GITHUB_ISSUES.md` (6 проблем)
+
+_секция: 6_
 
 
 ### `docs/GITHUB_ISSUES.md` (6 проблем)
@@ -198,24 +258,34 @@ _секция: 6_
 _секция: 5, H1: 1_
 
 
-### `docs/templates/legal-case.md` (6 проблем)
+### `docs/02-anthropic-vacancies/03-portal-protocol-md.md` (5 проблем)
 
-_секция: 6_
-
-
-### `docs/templates/meeting-notes.md` (6 проблем)
-
-_секция: 6_
+_заголовок: 3, H1: 1, секция: 1_
 
 
-### `docs/templates/weekly-digest.md` (6 проблем)
-
-_секция: 6_
-
-
-### `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (5 проблем)
+### `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` (5 проблем)
 
 _заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/104-appendix-c-references.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/105-review-methodology-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/130-отладка.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
 
 
 ### `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` (5 проблем)
@@ -223,14 +293,129 @@ _заголовок: 3, секция: 2_
 _секция: 2, заголовок: 2, H1: 1_
 
 
-### `docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md` (5 проблем)
+### `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` (5 проблем)
 
-_секция: 2, заголовок: 2, H1: 1_
+_заголовок: 3, H1: 1, секция: 1_
 
 
-### `docs/02-anthropic-vacancies/65-readme-md.md` (5 проблем)
+### `docs/02-anthropic-vacancies/165-closing.md` (5 проблем)
 
-_секция: 2, заголовок: 2, H1: 1_
+_заголовок: 3, H1: 1, уровень: 1_
+
+
+### `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/21-9-query-flow.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/23-11-security-considerations.md` (5 проблем)
+
+_заголовок: 4, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/24-12-versioning-policy.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/296-рекурсивное-прозрение.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` (5 проблем)
+
+_заголовок: 4, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/35-passports-info1-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/45-passports-pro2-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/55-passports-meta-md.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/67-о-проекте.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` (5 проблем)
+
+_заголовок: 3, H1: 1, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/90-15-security-considerations.md` (5 проблем)
+
+_заголовок: 4, секция: 1_
 
 
 ### `docs/03-technology-combinations/02-knowledge-graphs.md` (5 проблем)
@@ -238,9 +423,14 @@ _секция: 2, заголовок: 2, H1: 1_
 _H2: 4, уровень: 1_
 
 
-### `docs/CONSISTENCY.md` (5 проблем)
+### `docs/03-technology-combinations/03-local-first.md` (5 проблем)
 
-_секция: 5_
+_секция: 2, заголовок: 2, уровень: 1_
+
+
+### `docs/autofilled/research-summary.md` (5 проблем)
+
+_секция: 4, заголовок: 1_
 
 
 ### `docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md` (5 проблем)
@@ -253,29 +443,19 @@ _секция: 3, H1: 1, заголовок: 1_
 _секция: 3, H1: 1, заголовок: 1_
 
 
-### `docs/templates/faq-entry.md` (5 проблем)
+### `docs/02-anthropic-vacancies/00-intro.md` (4 проблем)
 
-_секция: 5_
-
-
-### `docs/templates/glossary-entry.md` (5 проблем)
-
-_секция: 5_
+_секция: 2, заголовок: 2_
 
 
-### `docs/templates/prototype-mvp.md` (5 проблем)
+### `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` (4 проблем)
 
-_секция: 5_
-
-
-### `docs/templates/risk-entry.md` (5 проблем)
-
-_секция: 5_
+_заголовок: 3, секция: 1_
 
 
-### `docs/templates/tech-radar-entry.md` (5 проблем)
+### `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` (4 проблем)
 
-_секция: 5_
+_заголовок: 3, H1: 1_
 
 
 ### `docs/02-anthropic-vacancies/126-установка.md` (4 проблем)
@@ -283,19 +463,29 @@ _секция: 5_
 _секция: 3, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/133-обратная-связь.md` (4 проблем)
+### `docs/02-anthropic-vacancies/136-abstract.md` (4 проблем)
 
-_H1: 1, секция: 1, уровень: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` (4 проблем)
-
-_заголовок: 2, H1: 1, секция: 1_
+_заголовок: 3, секция: 1_
 
 
-### `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` (4 проблем)
+### `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` (4 проблем)
 
-_секция: 2, заголовок: 2_
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/153-executive-summary.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/155-1-problem-statement.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/156-2-target-populations.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
 
 
 ### `docs/02-anthropic-vacancies/159-5-economic-model.md` (4 проблем)
@@ -303,29 +493,189 @@ _секция: 2, заголовок: 2_
 _секция: 2, заголовок: 2_
 
 
-### `docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md` (4 проблем)
+### `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` (4 проблем)
 
-_заголовок: 2, H1: 1, секция: 1_
-
-
-### `docs/02-anthropic-vacancies/319-acknowledgments.md` (4 проблем)
-
-_заголовок: 2, H1: 1, секция: 1_
+_заголовок: 3, секция: 1_
 
 
-### `docs/02-anthropic-vacancies/320-references.md` (4 проблем)
+### `docs/02-anthropic-vacancies/164-10-appendices.md` (4 проблем)
 
-_секция: 3, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (4 проблем)
-
-_заголовок: 2, H1: 1, секция: 1_
+_заголовок: 3, секция: 1_
 
 
-### `docs/02-anthropic-vacancies/338-ссылки.md` (4 проблем)
+### `docs/02-anthropic-vacancies/168-abstract.md` (4 проблем)
 
-_секция: 3, заголовок: 1_
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/174-5-architectural-specification.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/203-благодарности.md` (4 проблем)
+
+_секция: 2, заголовок: 2_
+
+
+### `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/210-abstract.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/22-10-queryresult-structure.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/223-12-closing.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/243-12-заключение.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/252-abstract.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/266-13-closing.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/275-why-this-document-exists.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/281-the-recursive-insight.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` (4 проблем)
+
+_заголовок: 3, уровень: 1_
+
+
+### `docs/02-anthropic-vacancies/307-abstract.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/356-твой-workflow.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md` (4 проблем)
+
+_заголовок: 3, секция: 1_
 
 
 ### `docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` (4 проблем)
@@ -348,9 +698,19 @@ _секция: 3, заголовок: 1_
 _секция: 3, заголовок: 1_
 
 
-### `docs/03-technology-combinations/05-benchmarks.md` (4 проблем)
+### `docs/03-technology-combinations/01-agent-routing.md` (4 проблем)
+
+_уровень: 1, H2: 1, секция: 1, заголовок: 1_
+
+
+### `docs/05-habr-projects/01-synthesis.md` (4 проблем)
 
 _секция: 2, заголовок: 2_
+
+
+### `docs/CHANGELOG.md` (4 проблем)
+
+_секция: 3, заголовок: 1_
 
 
 ### `docs/HEALTH.md` (4 проблем)
@@ -358,7 +718,7 @@ _секция: 2, заголовок: 2_
 _секция: 4_
 
 
-### `docs/SCRIPTS_CATALOG.md` (4 проблем)
+### `docs/SIMILAR.md` (4 проблем)
 
 _секция: 4_
 
@@ -388,14 +748,19 @@ _секция: 4_
 _секция: 4_
 
 
-### `docs/templates/retrospective.md` (4 проблем)
+### `docs/01-svyazi/13-contacts.md` (3 проблем)
 
-_секция: 4_
+_заголовок: 2, H1: 1_
 
 
-### `docs/02-anthropic-vacancies/03-portal-protocol-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/04-abstract.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` (3 проблем)
@@ -403,19 +768,9 @@ _H1: 1, секция: 1, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` (3 проблем)
+### `docs/02-anthropic-vacancies/106-tl-dr.md` (3 проблем)
 
-_секция: 2, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/104-appendix-c-references.md` (3 проблем)
-
-_секция: 2, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/105-review-methodology-md.md` (3 проблем)
-
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` (3 проблем)
@@ -423,14 +778,59 @@ _H1: 1, секция: 1, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/130-отладка.md` (3 проблем)
+### `docs/02-anthropic-vacancies/12-content-overview.md` (3 проблем)
 
-_секция: 2, заголовок: 1_
+_заголовок: 3_
 
 
-### `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 2, секция: 1_
+
+
+### `docs/02-anthropic-vacancies/122-глоссарий.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/123-portal-mcp-py.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/128-доступные-инструменты.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/13-angle-perspective.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/137-table-of-contents.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` (3 проблем)
@@ -438,9 +838,59 @@ _H1: 1, секция: 1, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/144-7-open-questions.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/145-8-call-to-action.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/146-acknowledgments.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/148-appendix-a-glossary.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/154-table-of-contents.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/16-history.md` (3 проблем)
+
+_заголовок: 2, секция: 1_
 
 
 ### `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md` (3 проблем)
@@ -448,14 +898,34 @@ _H1: 1, секция: 1, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/165-closing.md` (3 проблем)
+### `docs/02-anthropic-vacancies/162-8-risk-analysis.md` (3 проблем)
 
-_H1: 1, уровень: 1, заголовок: 1_
+_заголовок: 2, секция: 1_
 
 
-### `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/169-table-of-contents.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` (3 проблем)
+
+_заголовок: 2, секция: 1_
 
 
 ### `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` (3 проблем)
@@ -463,14 +933,29 @@ _H1: 1, секция: 1, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/18-6-adapter-interface.md` (3 проблем)
+### `docs/02-anthropic-vacancies/181-12-closing.md` (3 проблем)
 
-_секция: 2, заголовок: 1_
+_заголовок: 3_
 
 
-### `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/182-acknowledgments.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/190-содержание.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (3 проблем)
@@ -483,19 +968,89 @@ _секция: 2, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/202-12-заключение.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/21-9-query-flow.md` (3 проблем)
-
-_секция: 2, заголовок: 1_
+_заголовок: 2, секция: 1_
 
 
-### `docs/02-anthropic-vacancies/24-12-versioning-policy.md` (3 проблем)
+### `docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md` (3 проблем)
 
-_секция: 2, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/211-table-of-contents.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/224-acknowledgments.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/230-аннотация.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/231-содержание.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md` (3 проблем)
@@ -503,14 +1058,64 @@ _секция: 2, заголовок: 1_
 _заголовок: 2, секция: 1_
 
 
-### `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/244-благодарности.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
 
 
-### `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (3 проблем)
+### `docs/02-anthropic-vacancies/25-13-reference-implementation.md` (3 проблем)
 
-_секция: 2, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/253-table-of-contents.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/264-11-open-questions.md` (3 проблем)
@@ -518,9 +1123,49 @@ _секция: 2, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md` (3 проблем)
+### `docs/02-anthropic-vacancies/267-acknowledgments.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/285-closing.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/286-acknowledgments.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md` (3 проблем)
@@ -528,9 +1173,29 @@ _H1: 1, секция: 1, заголовок: 1_
 _заголовок: 2, секция: 1_
 
 
-### `docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/301-благодарности.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/308-table-of-contents.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/31-content-overview.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md` (3 проблем)
@@ -546,6 +1211,16 @@ _заголовок: 2, секция: 1_
 ### `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` (3 проблем)
 
 _секция: 2, заголовок: 1_
+
+
+### `docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/326-содержание.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md` (3 проблем)
@@ -568,29 +1243,34 @@ _заголовок: 2, секция: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` (3 проблем)
+### `docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md` (3 проблем)
 
-_заголовок: 2, секция: 1_
-
-
-### `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (3 проблем)
-
-_секция: 2, заголовок: 1_
+_заголовок: 3_
 
 
-### `docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md` (3 проблем)
+### `docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/35-passports-info1-md.md` (3 проблем)
-
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
 
 
-### `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` (3 проблем)
+### `docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md` (3 проблем)
 
-_секция: 2, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/37-native-format.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/39-angle-perspective.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/40-bridges.md` (3 проблем)
@@ -598,9 +1278,29 @@ _секция: 2, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/45-passports-pro2-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/41-compatibility-level.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/42-author-contact.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/47-native-format.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/49-angle-perspective.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/50-bridges.md` (3 проблем)
@@ -608,9 +1308,34 @@ _H1: 1, секция: 1, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/55-passports-meta-md.md` (3 проблем)
+### `docs/02-anthropic-vacancies/51-compatibility-level.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/52-author-contact.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/53-history.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/57-native-format.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/59-angle-perspective.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/60-bridges.md` (3 проблем)
@@ -618,14 +1343,39 @@ _H1: 1, секция: 1, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/67-о-проекте.md` (3 проблем)
+### `docs/02-anthropic-vacancies/61-compatibility-level.md` (3 проблем)
 
-_секция: 2, заголовок: 1_
+_заголовок: 3_
 
 
-### `docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` (3 проблем)
+### `docs/02-anthropic-vacancies/62-author-contact.md` (3 проблем)
 
-_H1: 1, секция: 1, заголовок: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/63-history.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/74-abstract.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/75-0-status-of-this-document.md` (3 проблем)
+
+_заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/79-4-passport-passport-md.md` (3 проблем)
@@ -638,9 +1388,34 @@ _секция: 2, заголовок: 1_
 _секция: 2, заголовок: 1_
 
 
-### `docs/03-technology-combinations/03-local-first.md` (3 проблем)
+### `docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md` (3 проблем)
 
-_H2: 2, уровень: 1_
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/93-18-reference-implementation.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md` (3 проблем)
+
+_заголовок: 3_
+
+
+### `docs/05-habr-projects/knowledge/wikontic.md` (3 проблем)
+
+_заголовок: 2, секция: 1_
+
+
+### `docs/05-habr-projects/memory/yodoca.md` (3 проблем)
+
+_заголовок: 2, секция: 1_
 
 
 ### `docs/CONTACTS.md` (3 проблем)
@@ -673,19 +1448,54 @@ _секция: 3_
 _секция: 3_
 
 
-### `docs/TASKS_INDEX.md` (3 проблем)
+### `docs/autofilled/components/.md` (3 проблем)
 
-_секция: 3_
-
-
-### `docs/autofilled/README.md` (3 проблем)
-
-_секция: 3_
+_секция: 2, заголовок: 1_
 
 
-### `docs/autofilled/research-summary.md` (3 проблем)
+### `docs/autofilled/components/cowork.md` (3 проблем)
 
-_секция: 3_
+_секция: 2, заголовок: 1_
+
+
+### `docs/autofilled/components/ingit.md` (3 проблем)
+
+_секция: 2, заголовок: 1_
+
+
+### `docs/autofilled/components/kksudo.md` (3 проблем)
+
+_секция: 2, заголовок: 1_
+
+
+### `docs/autofilled/components/lorenzo.md` (3 проблем)
+
+_секция: 2, заголовок: 1_
+
+
+### `docs/autofilled/components/nautilus.md` (3 проблем)
+
+_секция: 2, заголовок: 1_
+
+
+### `docs/autofilled/components/sgb.md` (3 проблем)
+
+_секция: 2, заголовок: 1_
+
+
+### `docs/autofilled/components/spbmolot.md` (3 проблем)
+
+_секция: 2, заголовок: 1_
+
+
+### `docs/autofilled/components/svend4.md` (3 проблем)
+
+_секция: 2, заголовок: 1_
+
+
+### `docs/autofilled/components/svyazi.md` (3 проблем)
+
+_секция: 2, заголовок: 1_
 
 
 ### `docs/nautilus/infrastructure-layer-b-en/00-intro.md` (3 проблем)
@@ -738,11 +1548,6 @@ _H1: 1, секция: 1, заголовок: 1_
 _H1: 1, секция: 1, заголовок: 1_
 
 
-### `docs/nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md` (3 проблем)
-
-_секция: 2, заголовок: 1_
-
-
 ### `docs/nautilus/representative-agent-layer-en/00-abstract.md` (3 проблем)
 
 _H1: 1, секция: 1, заголовок: 1_
@@ -780,7 +1585,7 @@ _секция: 1, заголовок: 1_
 
 ### `docs/02-anthropic-vacancies/102-доступ-к-данным.md` (2 проблем)
 
-_секция: 1, заголовок: 1_
+_заголовок: 2_
 
 
 ### `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md` (2 проблем)
@@ -823,62 +1628,12 @@ _секция: 1, заголовок: 1_
 _секция: 1, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` (2 проблем)
-
-_H1: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/147-references.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/155-1-problem-statement.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/156-2-target-populations.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/162-8-risk-analysis.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/164-10-appendices.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/174-5-architectural-specification.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
 
@@ -905,12 +1660,7 @@ _секция: 1, заголовок: 1_
 
 ### `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` (2 проблем)
 
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
+_заголовок: 2_
 
 
 ### `docs/02-anthropic-vacancies/19-7-portalentry-structure.md` (2 проблем)
@@ -921,6 +1671,11 @@ _секция: 1, заголовок: 1_
 ### `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
+
+
+### `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (2 проблем)
+
+_заголовок: 2_
 
 
 ### `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md` (2 проблем)
@@ -943,29 +1698,9 @@ _секция: 1, заголовок: 1_
 _секция: 1, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md` (2 проблем)
+### `docs/02-anthropic-vacancies/218-7-application-domains.md` (2 проблем)
 
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/22-10-queryresult-structure.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
+_заголовок: 2_
 
 
 ### `docs/02-anthropic-vacancies/221-10-open-questions.md` (2 проблем)
@@ -979,21 +1714,6 @@ _секция: 1, заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/225-references.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/23-11-security-considerations.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
 
@@ -1018,16 +1738,6 @@ _секция: 1, заголовок: 1_
 _секция: 1, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
@@ -1038,24 +1748,9 @@ _секция: 1, заголовок: 1_
 _секция: 1, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/294-существующие-приближения.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` (2 проблем)
-
-_уровень: 1, заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md` (2 проблем)
@@ -1074,16 +1769,6 @@ _секция: 1, заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/318-10-strategic-positioning.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
 
@@ -1108,12 +1793,12 @@ _секция: 1, заголовок: 1_
 _секция: 1, заголовок: 1_
 
 
+### `docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md` (2 проблем)
+
+_заголовок: 2_
+
+
 ### `docs/02-anthropic-vacancies/68-about.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
 
@@ -1148,29 +1833,9 @@ _секция: 1, заголовок: 1_
 _секция: 1, заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/90-15-security-considerations.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/92-17-versioning-policy.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
-
-
-### `docs/03-technology-combinations/01-agent-routing.md` (2 проблем)
-
-_уровень: 1, H2: 1_
-
-
-### `docs/05-habr-projects/knowledge/README.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/BADGES.md` (2 проблем)
-
-_секция: 2_
 
 
 ### `docs/CITATION_INDEX.md` (2 проблем)
@@ -1178,7 +1843,17 @@ _секция: 2_
 _секция: 2_
 
 
+### `docs/CROSS_SECTION.md` (2 проблем)
+
+_секция: 2_
+
+
 ### `docs/INDEX.md` (2 проблем)
+
+_секция: 2_
+
+
+### `docs/KNOWLEDGE_MAP.md` (2 проблем)
 
 _секция: 2_
 
@@ -1208,11 +1883,6 @@ _секция: 2_
 _секция: 2_
 
 
-### `docs/SIMILAR.md` (2 проблем)
-
-_секция: 2_
-
-
 ### `docs/STALENESS.md` (2 проблем)
 
 _секция: 2_
@@ -1228,52 +1898,7 @@ _секция: 2_
 _секция: 2_
 
 
-### `docs/autofilled/components/.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/autofilled/components/cowork.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/autofilled/components/ingit.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/autofilled/components/kksudo.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/autofilled/components/lorenzo.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/autofilled/components/nautilus.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/autofilled/components/sgb.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/autofilled/components/spbmolot.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/autofilled/components/svend4.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/autofilled/components/svyazi.md` (2 проблем)
+### `docs/autofilled/README.md` (2 проблем)
 
 _секция: 2_
 
@@ -1281,11 +1906,6 @@ _секция: 2_
 ### `docs/badges/README.md` (2 проблем)
 
 _секция: 2_
-
-
-### `docs/lorenzo-agent/00-intro.md` (2 проблем)
-
-_H1: 1, секция: 1_
 
 
 ### `docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` (2 проблем)
@@ -1533,6 +2153,11 @@ _секция: 1, заголовок: 1_
 _секция: 1, заголовок: 1_
 
 
+### `docs/nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md` (2 проблем)
+
+_секция: 1, заголовок: 1_
+
+
 ### `docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md` (2 проблем)
 
 _секция: 1, заголовок: 1_
@@ -1648,11 +2273,6 @@ _секция: 2_
 _секция: 2_
 
 
-### `docs/01-svyazi/00-intro-part2.md` (1 проблем)
-
-_секция: 1_
-
-
 ### `docs/01-svyazi/03-component-catalog.md` (1 проблем)
 
 _H1: 1_
@@ -1698,11 +2318,6 @@ _H1: 1_
 _H1: 1_
 
 
-### `docs/01-svyazi/13-contacts.md` (1 проблем)
-
-_H1: 1_
-
-
 ### `docs/01-svyazi/14-limitations.md` (1 проблем)
 
 _H1: 1_
@@ -1713,22 +2328,7 @@ _H1: 1_
 _секция: 1_
 
 
-### `docs/02-anthropic-vacancies/04-abstract.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/07-2-terminology.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/106-tl-dr.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -1748,122 +2348,7 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/12-content-overview.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/120-главные-технические-риски.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/122-глоссарий.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/123-portal-mcp-py.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/128-доступные-инструменты.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/13-angle-perspective.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/136-abstract.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/137-table-of-contents.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/144-7-open-questions.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/145-8-call-to-action.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/146-acknowledgments.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/148-appendix-a-glossary.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/153-executive-summary.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/154-table-of-contents.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -1873,42 +2358,7 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/16-history.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/168-abstract.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/169-table-of-contents.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -1923,42 +2373,12 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/181-12-closing.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/182-acknowledgments.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md` (1 проблем)
 
 _заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/189-аннотация.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/190-содержание.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -1983,117 +2403,12 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/202-12-заключение.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/203-благодарности.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/205-приложение-a-связь-с-сопроводительными-статьями.md` (1 проблем)
 
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/210-abstract.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/211-table-of-contents.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/218-7-application-domains.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/223-12-closing.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/224-acknowledgments.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/230-аннотация.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/231-содержание.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2108,21 +2423,6 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/243-12-заключение.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/244-благодарности.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md` (1 проблем)
 
 _заголовок: 1_
@@ -2133,87 +2433,12 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/25-13-reference-implementation.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/252-abstract.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/253-table-of-contents.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` (1 проблем)
+### `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (1 проблем)
 
 _заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/266-13-closing.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/267-acknowledgments.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2233,67 +2458,7 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/275-why-this-document-exists.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/279-existing-approximations.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/281-the-recursive-insight.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/285-closing.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/286-acknowledgments.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2304,26 +2469,6 @@ _заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/296-рекурсивное-прозрение.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2343,37 +2488,7 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/301-благодарности.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/302-ссылки.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/307-abstract.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/308-table-of-contents.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/31-content-overview.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2393,11 +2508,6 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` (1 проблем)
 
 _заголовок: 1_
@@ -2408,22 +2518,12 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/326-содержание.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md` (1 проблем)
 
 _заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/337-благодарности.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2463,17 +2563,7 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2483,22 +2573,7 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/356-твой-workflow.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2533,32 +2608,7 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/37-native-format.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/38-content-overview.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/39-angle-perspective.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/41-compatibility-level.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/42-author-contact.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2568,17 +2618,7 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/46-essence.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/47-native-format.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2588,87 +2628,12 @@ _заголовок: 1_
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/49-angle-perspective.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/51-compatibility-level.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/52-author-contact.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/53-history.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/56-essence.md` (1 проблем)
 
 _заголовок: 1_
 
 
-### `docs/02-anthropic-vacancies/57-native-format.md` (1 проблем)
-
-_заголовок: 1_
-
-
 ### `docs/02-anthropic-vacancies/58-content-overview.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/59-angle-perspective.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/61-compatibility-level.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/62-author-contact.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/63-history.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/74-abstract.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/75-0-status-of-this-document.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2679,26 +2644,6 @@ _заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/80-5-compatibility-levels.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/93-18-reference-implementation.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md` (1 проблем)
-
-_заголовок: 1_
-
-
-### `docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md` (1 проблем)
 
 _заголовок: 1_
 
@@ -2798,17 +2743,12 @@ _заголовок: 1_
 _секция: 1_
 
 
-### `docs/05-habr-projects/01-synthesis.md` (1 проблем)
-
-_секция: 1_
-
-
 ### `docs/05-habr-projects/README.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/05-habr-projects/knowledge/wikontic.md` (1 проблем)
+### `docs/05-habr-projects/knowledge/README.md` (1 проблем)
 
 _секция: 1_
 
@@ -2828,6 +2768,11 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/AUTOFILLED.md` (1 проблем)
+
+_заголовок: 1_
+
+
 ### `docs/CHANGELOG_AUTO.md` (1 проблем)
 
 _секция: 1_
@@ -2836,6 +2781,11 @@ _секция: 1_
 ### `docs/COMPARE.md` (1 проблем)
 
 _секция: 1_
+
+
+### `docs/COMPONENT_MATRIX.md` (1 проблем)
+
+_заголовок: 1_
 
 
 ### `docs/CONCEPTS.md` (1 проблем)
@@ -2858,11 +2808,6 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/CROSS_SECTION.md` (1 проблем)
-
-_секция: 1_
-
-
 ### `docs/DECISIONS.md` (1 проблем)
 
 _секция: 1_
@@ -2874,6 +2819,11 @@ _секция: 1_
 
 
 ### `docs/DEPENDABOT.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/DEPENDENCY_MAP.md` (1 проблем)
 
 _секция: 1_
 
@@ -2896,6 +2846,21 @@ _секция: 1_
 ### `docs/FOOTNOTES.md` (1 проблем)
 
 _секция: 1_
+
+
+### `docs/GRAPH.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/LANGUAGE_STATS.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/LLM_SUMMARIES.md` (1 проблем)
+
+_заголовок: 1_
 
 
 ### `docs/METRICS.md` (1 проблем)
@@ -2934,11 +2899,6 @@ _секция: 1_
 
 
 ### `docs/SEE_ALSO.md` (1 проблем)
-
-_секция: 1_
-
-
-### `docs/SENTIMENT.md` (1 проблем)
 
 _секция: 1_
 
@@ -3191,6 +3151,11 @@ _секция: 1_
 ### `docs/habr-unique-projects/software-pairs/README.md` (1 проблем)
 
 _секция: 1_
+
+
+### `docs/lorenzo-agent/00-intro.md` (1 проблем)
+
+_H1: 1_
 
 
 ### `docs/lorenzo-agent/01-kto-ty.md` (1 проблем)
@@ -4129,11 +4094,6 @@ _секция: 1_
 
 
 ### `docs/technology-combinations/mega-stacks/README.md` (1 проблем)
-
-_секция: 1_
-
-
-### `docs/technology-combinations/properties/README.md` (1 проблем)
 
 _секция: 1_
 

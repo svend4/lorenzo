@@ -1,0 +1,55 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/memnet.md}}
+Дата: 2026-04-29
+{info}
+
+h1. MemNet / memory-is-all-you-need
+
+
+{quote}- _Источник:_ Хабр + GitHub citeturn21view4turn17search0turn18search2{quote}
+_Проекты:_ Svyazi, MemNet
+
+----
+
+
+
+
+
+* _Автор:_ Antipozitive
+* _Источник:_ Хабр + GitHub citeturn21view4turn17search0turn18search2
+* _Лицензия:_ _MIT_. citeturn17search0turn18search2
+* _Maturity:_ экспериментальный research codebase. citeturn17search0
+* _Релевантность к Svyazi‑2.0:_ средне‑высокая — не MVP‑слой, но сильная идея для future memory engine.
+
+h2. Описание
+
+Исследовательская активная память для трансформеров.
+
+h2. Ключевые компоненты и паттерны
+
+* Hebbian graph memory
+* STDP
+* Spreading activation
+* «Dreaming»
+* Anti‑forgetting
+
+
+
+----
+
+_Смотрите также:_
+* [ngt-memory|docs/svyazi-2-0/components/ngt-memory.md]
+* [yodoca|docs/svyazi-2-0/components/yodoca.md]
+* [rufler|docs/svyazi-2-0/components/rufler.md]
+* [knowledge-space|docs/svyazi-2-0/components/knowledge-space.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [ngt-memory|docs/svyazi-2-0/components/ngt-memory.md] (сходство 0.39)
+* [rufler|docs/svyazi-2-0/components/rufler.md] (сходство 0.39)
+* [knowledge-space|docs/svyazi-2-0/components/knowledge-space.md] (сходство 0.38)
+

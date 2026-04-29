@@ -16,3 +16,13 @@
 - [09-q9-geographic-linguistic-scope.md](09-q9-geographic-linguistic-scope.md) — <!-- summary -->
 - [10-q10-funding-model.md](10-q10-funding-model.md) — <!-- summary -->
 - [11-difficulties-and-recommendations.md](11-difficulties-and-recommendations.md) — > [!IMPORTANT]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/representative-agent-layer-en/README.md) (сходство 0.14)
+- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.13)
+- [README](docs/anthropic-vacancies/beneficial-deployments-concept/README.md) (сходство 0.13)
+

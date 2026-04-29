@@ -110,3 +110,13 @@ indefinitely; "graduation" may not be the right metaphor.
 - [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
 - [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.89)
+- [264-11-open-questions](docs/obsidian/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.86)
+- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md) (сходство 0.22)
+

@@ -1,0 +1,54 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/ngt-memory.md}}
+Дата: 2026-04-29
+{info}
+
+h1. NGT Memory
+
+
+{quote}- _Автор:_ spbmolot / ngt-memory{quote}
+_Проекты:_ Svyazi, NGT Memory
+
+----
+
+
+
+
+
+* _Автор:_ spbmolot / ngt-memory
+* _Источник:_ Хабр + GitHub/site citeturn22view4turn22view3turn32search2
+* _Лицензия:_ _BSL 1.1_; в статье прямо сказано «бесплатно для личных проектов». citeturn22view5
+* _Maturity:_ активная разработка. citeturn22view3turn32search2
+* _Релевантность к Svyazi‑2.0:_ очень высокая — быстрый ассоциативный memory‑слой для discovery и matching.
+
+h2. Описание
+
+Персистентная память для LLM‑приложений с ассоциативным графом и миллисекундным retrieval overhead.
+
+h2. Ключевые компоненты и паттерны
+
+* Cosine similarity + Hebbian graph + hierarchical consolidation
+* REST API
+* Docker
+* 2–3 ms собственных затрат
+
+
+
+----
+
+_Смотрите также:_
+* [memnet|docs/svyazi-2-0/components/memnet.md]
+* [yodoca|docs/svyazi-2-0/components/yodoca.md]
+* [hybrid-rag|docs/svyazi-2-0/components/hybrid-rag.md]
+* [graph-rag|docs/svyazi-2-0/components/graph-rag.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [memnet|docs/svyazi-2-0/components/memnet.md] (сходство 0.39)
+* [yodoca|docs/svyazi-2-0/components/yodoca.md] (сходство 0.37)
+* [hybrid-rag|docs/svyazi-2-0/components/hybrid-rag.md] (сходство 0.35)
+

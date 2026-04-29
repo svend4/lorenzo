@@ -1,0 +1,167 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "8. Implications for Nautilus and OKWF"
+tags:
+  * rag
+  * architecture
+  * anthropic
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 8. Implications for Nautilus and OKWF
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».{quote}
+
+----
+
+
+h2. Содержание
+
+* [8. Implications for Nautilus and OKWF|#8-implications-for-nautilus-and-okwf]
+  * [8.1. Nautilus as Federated Knowledge Substrate|#81-nautilus-as-federated-knowledge-substrate]
+  * [8.2. OKWF Pilot Implications|#82-okwf-pilot-implications]
+  * [8.3. Composite Skills Agent in This Architecture|#83-composite-skills-agent-in-this-architecture]
+  * [8.4. Document 2.3's Recursive Insight Realized|#84-document-23s-recursive-insight-realized]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».{quote}
+
+h2. 8. Implications for Nautilus and OKWF
+
+Beyond InGit specifically, this positioning has implications 
+for the broader Nautilus / OKWF project.
+
+h3. 8.1. Nautilus as Federated Knowledge Substrate
+
+Nautilus was designed for federated knowledge across multiple 
+repositories with semantic organization (Q6 hypercube, Pattern 
+Library). With InGit as Cowork substrate, Nautilus's role 
+clarifies:
+
+_Nautilus operates one level above InGit_. While InGit 
+structures individual projects, Nautilus federates across 
+many projects. Multiple InGit projects can be Nautilus nodes; 
+Nautilus Portal Protocol enables querying across them.
+
+Cowork users with InGit Projects could optionally federate 
+through Nautilus, gaining cross-project search, pattern 
+sharing, and contribution paths.
+
+This is consistent with Document 1 (Portal Protocol) but now 
+with concrete substrate underneath.
+
+h3. 8.2. OKWF Pilot Implications
+
+Document 4 (OKWF Concept) and Document 6 (Professional 
+Colleague Agents) proposed SGB Advocate Colleague pilot. With 
+the InGit/Cowork combination available:
+
+_Pilot architecture refined_:
+* Each advocate has InGit Project for their case work
+* Cowork operates within these Projects
+* MCP server for SGB-specific knowledge (statutes, precedents)
+* Pattern Library integration via Nautilus
+* Cross-advocate sharing via federated Nautilus
+
+This is dramatically more achievable than building everything 
+custom. Substantial infrastructure (Cowork) is leveraged. 
+Specialized layers (SGB MCP server, pattern library) are 
+focused additions, not full system.
+
+_Revised Year 1 budget_: Original Document 6 estimate was 
+€430K, then Document 7 increased to €1.5M for composite 
+architecture. With Cowork as agentic layer:
+
+* Cowork: included in user subscriptions (€20/month per 
+practitioner)
+* InGit substrate: ~€100K to mature
+* SGB-specific MCP server: ~€200K to build
+* Pattern library integration: ~€100K
+* Operations and support: ~€100K
+* _Revised Year 1: €500K_, plus practitioner Cowork 
+subscriptions
+
+Closer to original estimate, more achievable, leverages 
+existing infrastructure.
+
+h3. 8.3. Composite Skills Agent in This Architecture
+
+Document 7 introduced Composite Skills Agent — Type 1.5 
+between Professional Colleague (Type 1) and Representative 
+Agent (Type 4). With Cowork:
+
+_Cowork is the coordinator of composite agents_. The 
+configuration of sub-agents (specialized MCP servers for 
+narrow specializations) is the principal's composite identity. 
+Cowork orchestrates them, surfaces disagreements, integrates 
+outputs.
+
+Sub-agents become specialized MCP servers:
+* {{mcp-sgb-ix-section-78}}
+* {{mcp-german-procedural-law}}
+* {{mcp-saxony-court-procedures}}
+* {{mcp-ksv-sachsen-patterns}}
+* {{mcp-medical-assessment-interpretation}}
+
+Each is independently maintainable. Each can be added to 
+practitioner's Cowork Project as needed. Configuration is 
+literally the set of MCP servers active for that Project.
+
+This is more concrete than Document 7's abstract description. 
+The architecture maps onto actual Cowork capabilities.
+
+h3. 8.4. Document 2.3's Recursive Insight Realized
+
+Document 2.3 noted recursive symmetry: Nautilus extending 
+itself to provide infrastructure for its own development. With 
+InGit/Cowork:
+
+_This now has concrete shape_. The Nautilus / OKWF intellectual 
+project can:
+* Live in InGit Project (substrate)
+* Be developed in Cowork (agent layer)
+* Federate via Nautilus (across-project layer)
+* Inform its own architecture through usage
+
+The recursive insight is no longer aspirational. It is 
+implementable starting next week.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[316-8-implications-for-nautilus-and-okwf]]
+* [[09-okwf-integration]]
+* [[10-strategic-positioning]]
+* [[262-9-integration-with-okwf-infrastructure]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[316-8-implications-for-nautilus-and-okwf]] (сходство 0.85)
+* [[316-8-implications-for-nautilus-and-okwf]] (сходство 0.81)
+* [[09-okwf-integration]] (сходство 0.21)
+

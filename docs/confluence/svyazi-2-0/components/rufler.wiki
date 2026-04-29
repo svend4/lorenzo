@@ -1,0 +1,55 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/rufler.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Rufler
+
+
+{quote}- _Автор:_ zodigancode / lib4u{quote}
+_Проекты:_ Svyazi, Rufler
+
+----
+
+
+
+
+
+* _Автор:_ zodigancode / lib4u
+* _Источник:_ Хабр + repo/DEV citeturn20view4turn21view8turn32search0
+* _Лицензия:_ _MIT_. citeturn32search0
+* _Maturity:_ активный OSS. citeturn32search0
+* _Релевантность к Svyazi‑2.0:_ средне‑высокая — быстрый orchestration‑слой без тяжёлого UI.
+
+h2. Описание
+
+Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов.
+
+h2. Ключевые компоненты и паттерны
+
+* {{depends_on}}
+* Auto‑objective prompts
+* Pause / resume
+* Token accounting
+* MCP server management
+
+
+
+----
+
+_Смотрите также:_
+* [mclaude|docs/svyazi-2-0/components/mclaude.md]
+* [memnet|docs/svyazi-2-0/components/memnet.md]
+* [ai-factory|docs/svyazi-2-0/components/ai-factory.md]
+* [knowledge-space|docs/svyazi-2-0/components/knowledge-space.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [mclaude|docs/svyazi-2-0/components/mclaude.md] (сходство 0.43)
+* [memnet|docs/svyazi-2-0/components/memnet.md] (сходство 0.39)
+* [knowledge-space|docs/svyazi-2-0/components/knowledge-space.md] (сходство 0.38)
+

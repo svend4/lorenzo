@@ -35,3 +35,13 @@
 - [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
 - [10-three-entry-points](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) (сходство 0.20)
+- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md) (сходство 0.16)
+- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md) (сходство 0.15)
+

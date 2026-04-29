@@ -95,3 +95,13 @@
 - [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
 - [10-rekomendatsii](docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [292-что-отсутствует-слой-b](docs/obsidian/02-anthropic-vacancies/292-что-отсутствует-слой-b.md) (сходство 0.82)
+- [292-что-отсутствует-слой-b](docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md) (сходство 0.79)
+- [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md) (сходство 0.18)
+

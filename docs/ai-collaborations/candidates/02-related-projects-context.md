@@ -33,3 +33,13 @@
 - [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
 - [01-yodoca](docs/habr-unique-projects/key-findings/01-yodoca.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.60)
+- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.22)
+- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md) (сходство 0.18)
+

@@ -52,3 +52,13 @@ Legal/Research Case OS — каждое дело, научная гипотез�
 - [4-web-to-knowledge-pipeline](docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md)
 - [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.18)
+- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md) (сходство 0.18)
+- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.17)
+

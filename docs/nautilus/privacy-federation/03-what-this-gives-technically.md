@@ -192,3 +192,13 @@ Riskи и trade-offs, которые стоит осознавать
 - [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
 - [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [133-обратная-связь](docs/obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.16)
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.16)
+- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md) (сходство 0.16)
+

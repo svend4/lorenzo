@@ -1,0 +1,65 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Что уже существует (InnoCentive, Kaggle, Toptal, Anthropic Fellows, DAOs)"
+tags:
+  * orchestration
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Что уже существует (InnoCentive, Kaggle, Toptal, Anthropic Fellows, DAOs)
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.{quote}
+
+Что уже существует в этом пространстве
+
+InnoCentive (ныне Wazoku Crowd) — с 2001 года платформа открытых R&D-задач с cash prizes. Работает, но по старой модели: задача → много независимых решений → комитет выбирает одно. Командообразования нет, AI-оркестрации нет. Решает узкий класс задач, где решение можно формализовать заранее.
+
+Kaggle competitions — то же самое для ML-задач. Команды формируются, но органически, без AI-посредника, и только среди самоорганизующихся энтузиастов.
+
+Topcoder, Toptal, Braintrust, Turing, Andela — talent marketplaces, которые матчат одиночных фрилансеров с задачами. Команды собирают вручную project-manager'ы, не агенты.
+
+a16z Crypto, Protocol Labs RFPs, Zama bounties — публикуют исследовательские RFPs с денежными призами, приглашают независимых исследователей. Ближе всего к вашей идее по духу, но команду всё ещё собирают вручную.
+
+Anthropic Fellows Program, OpenAI Residency, Google X moonshots — корпоративные программы, которые берут нестандартных одиночек на 6-12 месяцев, обучают, иногда принимают в штат. Гибридная модель, но всё ещё внутри одной компании.
+
+Gitcoin quests, DAOs типа MolochDAO — децентрализованная модель финансирования и координации исследователей. Идеологически ближе всего к вашей модели, но технологически сырая.
+
+AI-агенты для рекрутинга конкретно — сейчас активно растёт, но в текущем виде почти все делают плохо: Mercor (AI-interviewer), Eightfold (matching), Paradox (chatbot для HR). Ни один из них пока не собирает команды, они все оптимизируют под «один кандидат — одна вакансия».
+
+То есть: пространство существует, инструменты частично есть, но такой сборщик команд под open technical missions — пока не построен. Ваша формулировка — это в явном виде непокрытая ниша.
+
+
+
+----
+
+_Смотрите также:_
+* [[07-current-implementations]]
+* [[03-three-variants-A-B-C]]
+* [[08-pluses-of-model]]
+* [[10-three-entry-points]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[07-current-implementations]] (сходство 0.20)
+* [[08-pluses-of-model]] (сходство 0.14)
+* [[03-three-variants-A-B-C]] (сходство 0.14)
+

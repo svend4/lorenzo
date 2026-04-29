@@ -1,0 +1,72 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/npp-v1-0/02-terminology.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 2. Terminology
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+h2. 2. Terminology
+
+_Ecosystem_ — набор репозиториев, участвующих в одной федерации. 
+Имеет уникальное имя (например, {{svend4}}).
+
+_Repository-participant_ (далее — _Repo_) — Git-репозиторий, 
+содержащий минимум {{nautilus.json}} и {{passport.md}} в корне.
+
+_Native format_ — исходный формат данных в Repo, определяемый автором. 
+Может быть любым: Markdown, JSON, YAML, plain text, бинарный формат, 
+и так далее. NPP не ограничивает native format.
+
+_Portal_ — implementation NPP, которая загружает registry, инстанцирует 
+адаптеры и выполняет query-операции. Reference implementation: 
+{{github.com/svend4/nautilus}}, но возможны альтернативные.
+
+_Registry_ — файл {{nautilus.json}} в корне Portal-репо, перечисляющий 
+все Repos экосистемы с их метаданными.
+
+_Adapter_ — Python-модуль (или эквивалент на другом языке), 
+реализующий {{BaseAdapter}} interface и переводящий native format Repo 
+в унифицированный {{PortalEntry}}.
+
+_Passport_ — {{passport.md}} файл в корне каждого Repo, 
+human-readable описание: что хранит, какая философия, кто автор, 
+как работать.
+
+_PortalEntry_ — унифицированная структура данных, в которую 
+адаптеры конвертируют native-записи при fetch.
+
+_Bridge_ — декларативное описание моста между концепциями 
+разных Repos. Описан в {{nautilus.json}} в поле {{bridges}}.
+
+_Consensus_ — результат сопоставления найденных концептов между 
+несколькими Repos. Может быть full (во всех Repos), partial (в 
+некоторых), singular (только в одном).
+
+_Compatibility Level_ — целое число от 0 до 3, характеризующее 
+степень интеграции Repo с экосистемой. Определение в разделе 5.
+
+_Protocol Version_ — semver-версия NPP, объявляемая в 
+{{nautilus.json}} поле {{protocol_version}}.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [07-2-terminology|docs/obsidian/02-anthropic-vacancies/07-2-terminology.md] (сходство 0.80)
+* [07-2-terminology|docs/02-anthropic-vacancies/07-2-terminology.md] (сходство 0.78)
+* [02-terminology|docs/nautilus/npp-v1-1/02-terminology.md] (сходство 0.62)
+

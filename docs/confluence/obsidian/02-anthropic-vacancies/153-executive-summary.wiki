@@ -14,6 +14,18 @@ date: 2026-04-29
 h1. Executive Summary
 
 
+h2. Содержание
+
+* [Executive Summary|#executive-summary]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ --- --- Похожие документы: - 155-1-problem-statement(docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.17) - 156-2-target-populations(docs/02-anthropic-vacancies/{quote}

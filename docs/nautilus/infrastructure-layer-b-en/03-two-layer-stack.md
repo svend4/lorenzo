@@ -70,3 +70,13 @@ infrastructure that does not exist as a unified product.
 - [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
 - [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [276-the-two-layer-stack-as-it-exists](docs/obsidian/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.82)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.75)
+- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md) (сходство 0.25)
+

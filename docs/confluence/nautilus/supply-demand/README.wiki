@@ -1,0 +1,23 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/supply-demand/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. supply-demand
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [00-question-supply-demand.md|00-question-supply-demand.md] — 
+* [01-three-related-themes.md|01-three-related-themes.md] — > [!WARNING]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/community-discussions/voiceless-contributors/README.md] (сходство 0.38)
+* [README|docs/habr-unique-projects/analogues/README.md] (сходство 0.38)
+* [README|docs/nautilus/multi-tier-architecture/README.md] (сходство 0.33)
+

@@ -1,0 +1,34 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/software-pairs/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "software-pairs"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. software-pairs
+
+_Файлов:_ 6
+
+h2. Содержание
+
+* [[1-workflow-llm-mcp|1-workflow-llm-mcp.md]] — 
+* [[2-pkm-mcp-skills|2-pkm-mcp-skills.md]] — 
+* [[3-crdt-self-hosted|3-crdt-self-hosted.md]] — 
+* [[4-speech-to-text-llm|4-speech-to-text-llm.md]] — 
+* [[5-browser-agents-headless|5-browser-agents-headless.md]] — 
+* [[6-metaphor|6-metaphor.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.21)
+* [[README]] (сходство 0.21)
+* [[README]] (сходство 0.17)
+

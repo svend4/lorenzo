@@ -43,3 +43,13 @@ Optional sync с Cowork для agentic capabilities
 - [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
 - [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.34)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.30)
+- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md) (сходство 0.27)
+

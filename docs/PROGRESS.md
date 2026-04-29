@@ -24,16 +24,16 @@ _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 14 файлов, не отправлено | 14 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 125 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 7 секций | python scripts/improve_llm_summary.py |
-| Claude Skills | ✅ 5 скиллов | review-docs, status, write-contact, improve, analyze-project |
+| Скрипты обработки | ✅ 155 скриптов | 5 LLM-скриптов, MCP=✅ |
+| DIGEST.md | ✅ 4 секций | python scripts/improve_llm_summary.py |
+| Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
 
 ## Метрики качества
 
 | Метрика | Балл | Статус |
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 84.0/100 | 🟡 |
-| Качество доков (METRICS) | 73.2/100 | 🟡 |
+| Качество доков (METRICS) | 73.0/100 | 🟡 |
 | Go/No-Go (SCORING) | 93.0/100 | 🟡 |
 
 ## Следующий шаг

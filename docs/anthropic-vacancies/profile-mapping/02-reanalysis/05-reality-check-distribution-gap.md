@@ -31,3 +31,13 @@ Du hast gesagt: https://github.
 - [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
 - [01-fde-downgraded](docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.22)
+- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.21)
+- [01-fde-downgraded](docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md) (сходство 0.20)
+

@@ -73,3 +73,13 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 - [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
 - [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [20-8-consensus-algorithm](docs/obsidian/02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.69)
+- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.67)
+- [09-consensus-algorithm](docs/nautilus/npp-v1-1/09-consensus-algorithm.md) (сходство 0.37)
+

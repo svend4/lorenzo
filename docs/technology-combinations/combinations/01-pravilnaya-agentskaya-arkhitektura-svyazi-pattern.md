@@ -56,3 +56,13 @@ Cross-domain запросы через event bus
 - [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
 - [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-agent-routing](docs/obsidian/03-technology-combinations/01-agent-routing.md) (сходство 0.52)
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md) (сходство 0.51)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md) (сходство 0.24)
+

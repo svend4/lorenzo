@@ -124,3 +124,13 @@ coordinated action now.
 - [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
 - [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [155-1-problem-statement](docs/obsidian/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.89)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.85)
+- [00-abstract](docs/nautilus/okwf-concept/00-abstract.md) (сходство 0.21)
+

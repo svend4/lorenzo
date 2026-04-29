@@ -167,3 +167,13 @@ funding or modest practitioner contribution.
 - [05-economics-replication](docs/nautilus/professional-colleague-agents-en/05-economics-replication.md)
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [260-7-economics-of-combinatorial-replication](docs/obsidian/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.90)
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.87)
+- [05-economics-replication](docs/nautilus/professional-colleague-agents-en/05-economics-replication.md) (сходство 0.24)
+

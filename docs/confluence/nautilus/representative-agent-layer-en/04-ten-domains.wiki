@@ -1,0 +1,375 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/representative-agent-layer-en/04-ten-domains.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 4. Ten Domains of Application
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+----
+
+
+h2. Содержание
+
+* [4. Ten Domains of Application|#4-ten-domains-of-application]
+  * [4.1. Domain 1 — Knowledge Workers in Distributed Markets|#41-domain-1-knowledge-workers-in-distributed-markets]
+  * [4.2. Domain 2 — Retired Professionals and Volunteers|#42-domain-2-retired-professionals-and-volunteers]
+  * [4.3. Domain 3 — Social Workers Managing Client Caseloads|#43-domain-3-social-workers-managing-client-caseloads]
+  * [4.4. Domain 4 — Vulnerable Citizens Navigating Bureaucracy|#44-domain-4-vulnerable-citizens-navigating-bureaucracy]
+  * [4.5. Domain 5 — Caregivers Managing Dependents|#45-domain-5-caregivers-managing-dependents]
+  * [4.6. Domain 6 — Small Business Owners and Solo Entrepreneurs|#46-domain-6-small-business-owners-and-solo-entrepreneurs]
+  * [4.7. Domain 7 — Patients Managing Chronic Conditions|#47-domain-7-patients-managing-chronic-conditions]
+  * [4.8. Domain 8 — Students Navigating Educational Systems|#48-domain-8-students-navigating-educational-systems]
+  * [4.9. Domain 9 — Communities Negotiating with Institutions|#49-domain-9-communities-negotiating-with-institutions]
+  * [4.10. Domain 10 — Future Generations and Non-Human Stakeholders|#410-domain-10-future-generations-and-non-human-stakeholders]
+  * [4.11. Cross-Cutting Observations|#411-cross-cutting-observations]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+h2. 4. Ten Domains of Application
+
+The Representative Agent pattern applies broadly. We identify 
+ten distinct domains, ordered by readiness for deployment 
+(easiest first, most challenging last). Each section briefly 
+outlines: who is the principal, who are counterparties, what 
+the agent does, what makes it different from existing 
+solutions.
+
+h3. 4.1. Domain 1 — Knowledge Workers in Distributed Markets
+
+_Principal_: Skilled engineer, designer, researcher, 
+writer, consultant — operating outside traditional employment.
+
+_Counterparties_: Companies, projects, foundations, clients 
+seeking specialized work.
+
+_Agent function_: Monitor opportunities, prepare 
+applications, surface matches, negotiate basic terms.
+
+_Existing solutions_: LinkedIn, Upwork, Toptal — but these 
+require active self-marketing by the worker.
+
+_What's different_: Worker can focus on craft. Agent does 
+visibility work. Critical for retired experts, disabled 
+specialists, geographically dispersed talent, career 
+switchers, neurodivergent professionals.
+
+_Deployment readiness_: High. This is the original case 
+that motivated the OKWF concept.
+
+h3. 4.2. Domain 2 — Retired Professionals and Volunteers
+
+_Principal_: Retired teacher, doctor, engineer, civil 
+servant with available time and unique expertise but no 
+desire to actively seek "work".
+
+_Counterparties_: Schools, charities, mentorship programs, 
+foundation projects, civic organizations.
+
+_Agent function_: Identify volunteer opportunities matching 
+principal's expertise and capacity. Manage scheduling. 
+Handle communications with multiple organizations.
+
+_Existing solutions_: VolunteerMatch, Idealist — passive 
+listings requiring active search.
+
+_What's different_: Retired professional doesn't have to 
+"job hunt" for volunteer work. Agent finds the right matches 
+proactively. Particularly valuable for those experiencing 
+post-retirement identity loss.
+
+_Deployment readiness_: High. Volunteer matching is well-defined 
+problem space.
+
+h3. 4.3. Domain 3 — Social Workers Managing Client Caseloads
+
+_Principal_: Social worker, case manager, community organizer 
+managing many clients with complex needs.
+
+_Counterparties_: Service providers, government agencies, 
+community resources, fellow social workers.
+
+_Agent function_: Track each client's status across 
+multiple service systems. Alert worker to deadlines, 
+opportunities, complications. Draft routine communications. 
+Prepare client-specific resource summaries.
+
+_Critical clarification_: The agent represents the **social 
+worker**, not the clients directly. It serves the worker's 
+ability to advocate for clients. Direct client representation 
+is more sensitive (see Domain 4).
+
+_Existing solutions_: Case management software (Penelope, 
+Casebook, etc.) — typically database-oriented, not proactive.
+
+_What's different_: Proactive advocacy. Agent surfaces 
+opportunities for clients without requiring worker's manual 
+search. Reduces caseload-fatigue. Helps social workers serve 
+more clients more effectively.
+
+_Deployment readiness_: Medium. Requires careful design 
+around privacy and data governance, but no fundamental 
+technical barriers.
+
+_Concrete example_: A social worker in Diakonie or 
+Caritas managing 25 elderly clients. Each client has 
+unique needs (medical, housing, social, financial). The 
+agent monitors program announcements, deadline changes, 
+new community resources. When a relevant opportunity 
+emerges for client X (e.g., a new home-delivered meals 
+program), the agent flags it to the worker with relevant 
+context. The worker decides whether to apply, but the 
+discovery work is done.
+
+h3. 4.4. Domain 4 — Vulnerable Citizens Navigating Bureaucracy
+
+_Principal_: Disabled person navigating welfare system. 
+Elderly person managing multiple government services. 
+Immigrant navigating legal procedures. Person with mental 
+illness managing healthcare bureaucracy.
+
+_Counterparties_: Government agencies, courts, healthcare 
+systems, advocacy organizations.
+
+_Agent function_: Track all open procedures and deadlines. 
+Decode bureaucratic communications. Draft responses. 
+Identify entitlements not yet claimed. Flag procedural 
+errors by authorities. Connect with appropriate human 
+advocates when complexity exceeds AI capability.
+
+_Existing solutions_: Legal aid (severely underfunded), 
+advocacy organizations (selective), private lawyers 
+(unaffordable).
+
+_What's different_: Universal access to procedural 
+representation. Citizen who would otherwise lose entitlement 
+through procedural failure has effective advocate.
+
+_Deployment readiness_: Medium-High. Some pilot work 
+exists (e.g., DoNotPay had early version of this concept), 
+but mostly limited to single domains.
+
+_Critical caveat_: Must be paired with human advocate 
+escalation. AI agent _cannot replace_ lawyer for serious 
+legal matters. Must clearly communicate limitations to 
+principal.
+
+_Personal note from author_: This is the domain where the 
+author currently engages, navigating Sozialgericht proceedings 
+with disability status. The need is intensely felt. Existing 
+infrastructure is insufficient. Representative Agent for 
+disability/social-law contexts could substantially improve 
+access to entitlements for millions of people.
+
+h3. 4.5. Domain 5 — Caregivers Managing Dependents
+
+_Principal_: Adult child caring for elderly parent. Parent 
+caring for disabled child. Spouse caring for ill partner.
+
+_Counterparties_: Healthcare providers, insurance, 
+government services, support organizations.
+
+_Agent function_: Centralize information across multiple 
+care contexts. Monitor for service changes. Schedule and 
+remind. Draft communications. Identify support resources 
+for the caregiver themselves (often overlooked).
+
+_Existing solutions_: CaringBridge, Lotsa Helping Hands — 
+mostly focused on coordination among caregivers, not on 
+representation across systems.
+
+_What's different_: Single point of coordination across 
+fragmented care systems. Reduces caregiver cognitive load 
+significantly.
+
+_Deployment readiness_: Medium. Requires careful privacy 
+design (HIPAA in US, equivalent elsewhere). Data sensitivity 
+is high.
+
+h3. 4.6. Domain 6 — Small Business Owners and Solo Entrepreneurs
+
+_Principal_: Small shop owner, solo consultant, micro-business 
+operator without staff for marketing, customer service, 
+admin.
+
+_Counterparties_: Customers, suppliers, regulators, 
+financial services.
+
+_Agent function_: Monitor customer inquiries across channels. 
+Draft responses. Track regulatory deadlines. Identify 
+opportunities (grants for small business, new market trends). 
+Manage routine communications.
+
+_Existing solutions_: CRM tools, marketing automation — 
+require active configuration and don't truly proactively 
+represent.
+
+_What's different_: Owner can focus on craft (their 
+restaurant, their consulting, their small workshop) while 
+agent handles business-development overhead. Particularly 
+valuable for micro-entrepreneurs who would otherwise hire 
+no staff.
+
+_Deployment readiness_: Medium. Plenty of point solutions 
+exist, but integration into a unified representative agent 
+is novel.
+
+h3. 4.7. Domain 7 — Patients Managing Chronic Conditions
+
+_Principal_: Patient with chronic illness or complex 
+condition requiring ongoing management.
+
+_Counterparties_: Healthcare providers, insurance, 
+employers, support communities, family.
+
+_Agent function_: Track condition. Alert to upcoming 
+appointments, refills, lab results. Translate medical 
+communications. Monitor for new treatments, clinical trials. 
+Coordinate among providers (currently a major gap).
+
+_Existing solutions_: Patient portals, but each provider 
+has separate portal with no integration.
+
+_What's different_: Patient-centric integration across all 
+care providers. Proactive monitoring for relevant new 
+information.
+
+_Deployment readiness_: Medium-Low. Healthcare data 
+regulations (HIPAA, GDPR Article 9) make this challenging. 
+But high impact when achieved.
+
+h3. 4.8. Domain 8 — Students Navigating Educational Systems
+
+_Principal_: Student (especially first-generation college, 
+non-traditional learners, students with disabilities) 
+navigating complex educational bureaucracy.
+
+_Counterparties_: Universities, financial aid offices, 
+academic advisors, scholarship organizations.
+
+_Agent function_: Monitor opportunities (scholarships, 
+research programs, internships). Decode institutional 
+communications. Track deadlines. Identify entitlements. 
+Connect with relevant advisors.
+
+_Existing solutions_: University career services 
+(under-resourced), private college counselors 
+(unaffordable for many).
+
+_What's different_: Universal access to navigation 
+support. Particularly valuable for first-gen students 
+who lack family knowledge of academic systems.
+
+_Deployment readiness_: Medium.
+
+h3. 4.9. Domain 9 — Communities Negotiating with Institutions
+
+_Principal_: Tenants association negotiating with landlord. 
+Neighborhood association engaging with city government. 
+Worker collective dealing with employer.
+
+_Counterparties_: Institutional powers (governments, 
+corporations, large landlords).
+
+_Agent function_: Coordinate across community members. 
+Maintain consistent position across communications. 
+Research relevant law and precedent. Draft formal 
+documents. Identify allies.
+
+_Existing solutions_: Community organizers (limited 
+capacity), civil society lawyers (limited availability).
+
+_What's different_: Communities can match institutional 
+sophistication. Power asymmetry reduced.
+
+_Deployment readiness_: Medium-Low. Requires careful 
+governance to prevent agent capture by sub-groups within 
+community. But potentially transformative for civil 
+society balance.
+
+h3. 4.10. Domain 10 — Future Generations and Non-Human Stakeholders
+
+_Principal_: Conceptual — those who cannot represent 
+themselves: future generations affected by current 
+decisions, ecosystems impacted by policy, animals in 
+human-modified environments.
+
+_Counterparties_: Decision-making institutions making 
+choices that will affect these stakeholders.
+
+_Agent function_: Articulate likely interests of 
+unrepresented stakeholders. Surface considerations 
+otherwise omitted. Provide structured input to 
+deliberative processes.
+
+_Existing solutions_: Some advocacy organizations 
+attempt this. Limited and contested.
+
+_What's different_: Systematic representation of 
+non-self-representing stakeholders in institutional 
+decisions. Highly speculative but potentially important.
+
+_Deployment readiness_: Low. Requires significant 
+philosophical and political development. Included for 
+conceptual completeness, not immediate deployment.
+
+h3. 4.11. Cross-Cutting Observations
+
+These ten domains share structural features:
+
+* Principal lacks _capacity_ to navigate complexity
+* Counterparty has _systemic advantages_ in negotiation
+* _Discovery, navigation, negotiation_ are bottlenecks
+* Existing _representation infrastructure_ is insufficient
+* AI representation has _transformative potential_ if 
+properly designed
+
+They differ in:
+
+* _Privacy sensitivity_ (highest in healthcare, social 
+services)
+* _Regulatory complexity_ (highest in legal, healthcare)
+* _Adversarial dynamics_ (highest in legal, community 
+organizing)
+* _Required AI capability_ (highest in domains 4, 7, 9)
+
+Phased deployment should start with **less sensitive, less 
+adversarial, less regulated** domains (1, 2, 6, 8) before 
+tackling more challenging ones (3, 4, 5, 7, 9, 10).
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [173-4-ten-domains-of-application|docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md]
+* [01-response-en|docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md]
+* [12-closing|docs/nautilus/representative-agent-layer-en/12-closing.md]
+* [186-appendix-c-sample-use-cases-in-detail|docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [173-4-ten-domains-of-application|docs/obsidian/02-anthropic-vacancies/173-4-ten-domains-of-application.md] (сходство 0.95)
+* [173-4-ten-domains-of-application|docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md] (сходство 0.93)
+* [01-response-en|docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md] (сходство 0.27)
+

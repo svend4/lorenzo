@@ -1,0 +1,140 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/representative-agent-layer-en/06-ethical-framework.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "6. Ethical Framework"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 6. Ethical Framework
+
+{quote}[!IMPORTANT]{quote}
+{quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+h2. 6. Ethical Framework
+
+Representative Agents raise novel ethical questions. We 
+propose a framework grounded in established principles 
+adapted to AI context.
+
+h3. 6.1. Principal Sovereignty
+
+The principal is _sovereign_ over their own representation. 
+This means:
+
+* Principal owns all data about themselves used by agent
+* Principal can modify or terminate agent at any time
+* Principal can override any agent decision
+* Principal can audit all agent actions
+* Principal cannot be exploited by agent provider
+
+This is non-negotiable. Without principal sovereignty, 
+the system becomes another mechanism for exploitation 
+of the very populations it claims to serve.
+
+h3. 6.2. Transparent Capability
+
+Agents must be **honest about what they can and cannot 
+do**. This includes:
+
+* Acknowledging when domain expertise exceeds agent 
+capability
+* Recommending human professional involvement when 
+appropriate
+* Not overstating likelihood of success
+* Disclosing failure rates and limitations
+
+Particularly critical in legal, medical, and financial 
+domains where overconfidence can cause harm.
+
+h3. 6.3. No Adverse Action Without Notice
+
+Agent cannot take consequential actions adverse to 
+counterparties without principal awareness and approval. 
+Examples of adverse actions: legal complaints, public 
+allegations, withdrawal of cooperation. These require 
+explicit principal decision.
+
+h3. 6.4. Fairness Across Principals
+
+If multiple principals use agents that interact, fairness 
+considerations apply. Agent should not gain advantage 
+through manipulation, deception, or exploitation of other 
+agents' behavior. Adversarial robustness is required.
+
+h3. 6.5. Vulnerability Protection
+
+When principal is in vulnerable state (mental health 
+crisis, severe illness, cognitive decline), agent's role 
+shifts toward protection. May involve:
+
+* Refusing high-stakes commitments
+* Escalating to designated trusted human
+* Maintaining stable status quo until vulnerability 
+resolves
+
+h3. 6.6. Consent and Capacity
+
+Some principals (severe cognitive disability, dementia, 
+minors) cannot fully consent to agent operation. For 
+these populations:
+
+* Agent operates only with explicit guardian authorization
+* Guardian retains all override capability
+* Agent's scope is conservative, defaulting to status quo
+* Periodic re-authorization required
+
+h3. 6.7. Accessibility as First-Class Concern
+
+Agent interfaces must be _accessible_ to populations 
+they serve. This means:
+
+* Visual disabilities: full screen-reader compatibility
+* Cognitive disabilities: clear, simple language options
+* Motor disabilities: voice and alternative input
+* Linguistic diversity: high-quality multi-language 
+support
+* Technology unfamiliarity: human-mediated onboarding
+
+A Representative Agent that's only accessible to 
+tech-sophisticated principals fails its core mission.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[175-6-ethical-framework]]
+* [[07-governance-oversight]]
+* [[05-architectural-specification]]
+* [[08-risks-mitigations]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[175-6-ethical-framework]] (сходство 0.88)
+* [[175-6-ethical-framework]] (сходство 0.85)
+* [[07-governance-oversight]] (сходство 0.20)
+

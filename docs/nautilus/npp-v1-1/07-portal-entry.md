@@ -84,3 +84,13 @@ is_fallback=False
 - [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
 - [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [82-7-portalentry-structure](docs/obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.75)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.68)
+- [07-portal-entry](docs/nautilus/npp-v1-0/07-portal-entry.md) (сходство 0.38)
+

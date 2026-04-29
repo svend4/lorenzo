@@ -37,3 +37,13 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 ChatGPT сказал:
 
 Вы сказали:
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.19)
+- [3-forensic-rag](docs/ai-collaborations/ensembles/3-forensic-rag.md) (сходство 0.12)
+- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md) (сходство 0.12)
+

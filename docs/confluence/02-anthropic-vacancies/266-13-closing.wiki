@@ -6,6 +6,18 @@
 h1. 13. Closing
 
 
+h2. Содержание
+
+* [13. Closing|#13-closing]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Building uniquely customized agents serves deep representational needs but cannot scale.{quote}

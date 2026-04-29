@@ -132,3 +132,13 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 - [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
 - [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-benchmarks](docs/obsidian/03-technology-combinations/05-benchmarks.md) (сходство 0.66)
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.64)
+- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md) (сходство 0.49)
+

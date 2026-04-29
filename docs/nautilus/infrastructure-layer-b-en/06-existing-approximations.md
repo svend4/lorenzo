@@ -103,3 +103,13 @@ problem.
 - [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
 - [07-specific-case](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.78)
+- [279-existing-approximations](docs/obsidian/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.77)
+- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md) (сходство 0.25)
+

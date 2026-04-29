@@ -1,0 +1,28 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/habr-unique-projects/hardware-pairs/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. hardware-pairs
+
+_Файлов:_ 7
+
+h2. Содержание
+
+* [1-neuromorphic-ssm.md|1-neuromorphic-ssm.md] — 
+* [2-tsu-mome.md|2-tsu-mome.md] — 
+* [3-zinc-hybrid-arch.md|3-zinc-hybrid-arch.md] — 
+* [4-riscv-privacy.md|4-riscv-privacy.md] — 
+* [5-tinyml-mcp-skills.md|5-tinyml-mcp-skills.md] — 
+* [6-bonus-rram-memristor.md|6-bonus-rram-memristor.md] — 
+* [7-metaphor.md|7-metaphor.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/habr-unique-projects/software-pairs/README.md] (сходство 0.21)
+* [README|docs/nautilus/composite-skills-agents-companion-mentors/README.md] (сходство 0.16)
+* [README|docs/anthropic-vacancies/nautilus-pro2-analysis/README.md] (сходство 0.15)
+

@@ -42,3 +42,13 @@ Privacy by design
 - [svyazi](docs/svyazi-2-0/components/svyazi.md)
 - [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-vshe-scientific-networking](docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md) (сходство 0.25)
+- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.25)
+- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md) (сходство 0.21)
+

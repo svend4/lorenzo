@@ -1,0 +1,30 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/community-discussions/habr-article-2-reaction/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "habr-article-2-reaction"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. habr-article-2-reaction
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [[00-question-habr-2|00-question-habr-2.md]] — 
+* [[01-response|01-response.md]] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.73)
+* [[README]] (сходство 0.50)
+* [[README]] (сходство 0.50)
+

@@ -74,3 +74,13 @@ h2. Упоминается в
 * [Контакт: spbmolot / NGT Memory|../../contacts/spbmolot.md]
 * [Контакт: tagir_analyzes / Legal RAG|../../contacts/tagir-analyzes.md]
 * [Контакт: zodigancode / Rufler|../../contacts/zodigancode.md]
+
+
+
+----
+
+_Похожие документы:_
+* [spbmolot|docs/autofilled/components/spbmolot.md] (сходство 0.87)
+* [svyazi|docs/autofilled/components/svyazi.md] (сходство 0.59)
+* [svend4|docs/autofilled/components/svend4.md] (сходство 0.59)
+

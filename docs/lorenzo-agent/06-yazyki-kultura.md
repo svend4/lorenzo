@@ -39,3 +39,13 @@
 - [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
 - [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [350-твои-языки-и-культурные-nuances](docs/obsidian/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) (сходство 0.69)
+- [350-твои-языки-и-культурные-nuances](docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) (сходство 0.68)
+- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.24)
+

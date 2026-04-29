@@ -1,0 +1,24 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/security/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. security
+
+_Файлов:_ 3
+
+h2. Содержание
+
+* [budget-routing.md|budget-routing.md] — > [!WARNING]
+* [default-policy.md|default-policy.md] — > [!WARNING]
+* [privacy.md|privacy.md] — > [!WARNING]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/innovation-transitions/README.md] (сходство 0.21)
+* [README|docs/nautilus/community-discussions/voiceless-contributors/README.md] (сходство 0.21)
+* [README|docs/svyazi-2-0/limitations/README.md] (сходство 0.20)
+

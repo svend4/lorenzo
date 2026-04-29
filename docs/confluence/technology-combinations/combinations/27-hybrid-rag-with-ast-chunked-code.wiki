@@ -1,0 +1,82 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Комбинация 27: Hybrid RAG with AST-Chunked Code
+
+
+{quote}> Источник: MHTML‑снимок {{Комбинирование технологий для новых свойств - Claude}} (корень репозитория).{quote}
+_Проекты:_ Hybrid RAG
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Комбинирование технологий для новых свойств - Claude}} (корень репозитория).{quote}
+
+Родители:
+
+ASTChunk (structural code chunking)
+
+Graph-RAG (precedent linking)
+
+Crawl4AI (corpus building)
+
+ClickHouse (columnar analytics)
+
+Дети:
+
+Code + legal precedents unified knowledge base
+
+Knowledge base components:
+1. Legal decisions (Crawl4AI → ClickHouse)
+2. Automation scripts (ASTChunk → vector DB)
+3. Graph links (§§ citations + code references)
+
+Query: "How to calculate Widerspruchsfrist for KSV Bescheid?"
+
+Retrieval:
+* Graph-RAG: finds precedents citing SGG § 84
+* ASTChunk: finds code implementing deadline calc
+* ClickHouse: aggregates historical processing times
+
+Output: 
+* Legal basis (precedents)
+* Implementation (code)
+* Statistics (average duration)
+
+Self-documenting legal corpus
+
+Every code chunk links to relevant precedents
+
+Every precedent links to implementation code
+
+Graph shows: Legal rule → Code → Test cases → Decisions
+
+ROI: Developer understands legal context, lawyer sees implementation
+
+Уникальность: First hybrid knowledge graph combining legal texts + code. ASTChunk makes code semantically searchable. Bridges gap between legal theory and practice.
+
+
+
+----
+
+_Смотрите также:_
+* [03-dsl-ast|docs/technology-combinations/mega-stacks/03-dsl-ast.md]
+* [26-ast-based-code-analysis-for-legal-automation|docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md]
+* [10-legal-document-intelligence-pipeline|docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md]
+* [25-30-extended|docs/technology-combinations/synthesis-tables/25-30-extended.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [25-30-extended|docs/technology-combinations/synthesis-tables/25-30-extended.md] (сходство 0.27)
+* [03-dsl-ast|docs/technology-combinations/mega-stacks/03-dsl-ast.md] (сходство 0.27)
+* [22-russian-international-oss-stack|docs/technology-combinations/combinations/22-russian-international-oss-stack.md] (сходство 0.24)
+

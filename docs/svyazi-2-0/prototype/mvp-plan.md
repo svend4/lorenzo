@@ -41,3 +41,13 @@
 - [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
 - [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.32)
+- [05-план-прототипа-и-возможные-контакты](docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.31)
+- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md) (сходство 0.31)
+

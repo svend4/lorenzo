@@ -17,3 +17,13 @@
 - [10-rekomendatsii.md](10-rekomendatsii.md) — <!-- summary -->
 - [11-zaklyuchenie.md](11-zaklyuchenie.md) — <!-- summary -->
 - [12-blagodarnosti-ssylki.md](12-blagodarnosti-ssylki.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.13)
+- [README](docs/svyazi-2-0/overview/README.md) (сходство 0.12)
+- [README](docs/svyazi-2-0/limitations/README.md) (сходство 0.12)
+

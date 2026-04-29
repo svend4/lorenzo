@@ -151,3 +151,13 @@ exist.
 - [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [143-6-four-deployment-domains](docs/obsidian/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.89)
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.84)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md) (сходство 0.21)
+

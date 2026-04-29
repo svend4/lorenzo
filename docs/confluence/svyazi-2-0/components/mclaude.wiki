@@ -1,0 +1,55 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/mclaude.md}}
+Дата: 2026-04-29
+{info}
+
+h1. mclaude
+
+
+{quote}- _Источник:_ Хабр + GitHub citeturn20view2turn37search0{quote}
+_Проекты:_ Svyazi, mclaude
+
+----
+
+
+
+
+
+* _Автор:_ AnastasiyaW
+* _Источник:_ Хабр + GitHub citeturn20view2turn37search0
+* _Лицензия:_ _MIT_. citeturn37search0
+* _Maturity:_ активный OSS. citeturn37search0
+* _Релевантность к Svyazi‑2.0:_ высокая — решает параллельную работу модераторов/агентов над общим графом.
+
+h2. Описание
+
+Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом.
+
+h2. Ключевые компоненты и паттерны
+
+* Locks
+* Handoffs
+* Mailbox
+* Multi‑session turn‑taking
+* Shared project memory
+
+
+
+----
+
+_Смотрите также:_
+* [rufler|docs/svyazi-2-0/components/rufler.md]
+* [knowledge-space|docs/svyazi-2-0/components/knowledge-space.md]
+* [yodoca|docs/svyazi-2-0/components/yodoca.md]
+* [memnet|docs/svyazi-2-0/components/memnet.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [rufler|docs/svyazi-2-0/components/rufler.md] (сходство 0.43)
+* [knowledge-space|docs/svyazi-2-0/components/knowledge-space.md] (сходство 0.42)
+* [memnet|docs/svyazi-2-0/components/memnet.md] (сходство 0.38)
+

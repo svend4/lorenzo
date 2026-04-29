@@ -68,3 +68,13 @@ _Компонент экосистемы Svyazi 2.0_
 - [Контакт: andrey_chuyan / Svyazi](../../contacts/andrey-chuyan.md)
 - [Контакт: kksudo / AgentFS](../../contacts/kksudo.md)
 - [Контакт: zodigancode / Rufler](../../contacts/zodigancode.md)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [kksudo](docs/autofilled/components/kksudo.md) (сходство 0.87)
+- [svyazi](docs/autofilled/components/svyazi.md) (сходство 0.56)
+- [svend4](docs/autofilled/components/svend4.md) (сходство 0.56)
+

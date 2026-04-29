@@ -64,3 +64,13 @@ Project knowledge: накопленная база (CardIndex авторов, п
 - [04-level-3-medium-active](docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md)
 - [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md) (сходство 0.28)
+- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.25)
+- [05-level-4-extended-mature](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md) (сходство 0.24)
+

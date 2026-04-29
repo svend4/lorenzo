@@ -27,3 +27,13 @@
 - [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
 - [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.21)
+- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) (сходство 0.20)
+- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.20)
+

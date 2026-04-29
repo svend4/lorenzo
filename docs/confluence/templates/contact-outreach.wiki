@@ -58,3 +58,14 @@ h2. Открытые вопросы для обсуждения
 
 ----
 _Создано: 2026-04-29_
+
+
+
+----
+
+_Смотрите также:_
+* [vladspace|docs/obsidian/contacts/vladspace.md]
+* [cutcode|docs/obsidian/contacts/cutcode.md]
+* [dmitriila|docs/obsidian/contacts/dmitriila.md]
+* [mixaill76|docs/obsidian/contacts/mixaill76.md]
+

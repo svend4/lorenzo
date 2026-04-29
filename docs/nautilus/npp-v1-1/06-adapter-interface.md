@@ -95,3 +95,13 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 - [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
 - [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [81-6-adapter-interface](docs/obsidian/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.71)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.71)
+- [06-adapter-interface](docs/nautilus/npp-v1-0/06-adapter-interface.md) (сходство 0.57)
+

@@ -70,3 +70,13 @@ Lorenzo ultimately serves vulnerable populations, directly works с independent 
 - [01-q1-what-lorenzo-is](docs/lorenzo-agent/specification/01-q1-what-lorenzo-is.md)
 - [07-q7-success-metrics](docs/lorenzo-agent/specification/07-q7-success-metrics.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.27)
+- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.25)
+- [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md) (сходство 0.24)
+

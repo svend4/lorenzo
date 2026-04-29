@@ -1,0 +1,34 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/professional-colleague-agents-en/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. professional-colleague-agents-en
+
+_Файлов:_ 13
+
+h2. Содержание
+
+* [00-abstract.md|00-abstract.md] — 
+* [01-five-type-typology.md|01-five-type-typology.md] — 
+* [02-what-makes-pca.md|02-what-makes-pca.md] — 
+* [03-empirical-case-obuchay.md|03-empirical-case-obuchay.md] — 
+* [04-architecture.md|04-architecture.md] — 
+* [05-economics-replication.md|05-economics-replication.md] — 
+* [06-risks.md|06-risks.md] — > [!TIP]
+* [07-application-domains.md|07-application-domains.md] — > [!TIP]
+* [08-pilot-sgb-advocate.md|08-pilot-sgb-advocate.md] — 
+* [09-relationship-other-agents.md|09-relationship-other-agents.md] — 
+* [10-open-questions.md|10-open-questions.md] — 
+* [11-call-for-collaboration.md|11-call-for-collaboration.md] — 
+* [12-closing.md|12-closing.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [211-table-of-contents|docs/obsidian/02-anthropic-vacancies/211-table-of-contents.md] (сходство 0.37)
+* [211-table-of-contents|docs/02-anthropic-vacancies/211-table-of-contents.md] (сходство 0.30)
+* [README|docs/nautilus/composite-skills-agents/README.md] (сходство 0.30)
+

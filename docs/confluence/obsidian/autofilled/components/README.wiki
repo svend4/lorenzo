@@ -26,3 +26,13 @@ h2. Содержание
 * [[spbmolot|spbmolot.md]] — 
 * [[svend4|svend4.md]] — 
 * [[svyazi|svyazi.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.92)
+* [[README]] (сходство 0.27)
+* [[README]] (сходство 0.27)
+

@@ -138,3 +138,13 @@ These questions await substantive input from partners:
 - [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
 - [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [164-10-appendices](docs/obsidian/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.75)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.73)
+- [00-abstract](docs/nautilus/okwf-concept/00-abstract.md) (сходство 0.22)
+

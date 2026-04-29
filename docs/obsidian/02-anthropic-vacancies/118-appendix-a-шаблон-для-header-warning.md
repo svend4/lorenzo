@@ -58,3 +58,13 @@ transitional state:
 **Смотрите также:**
 - [[12-appendix-a-header-warning]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[12-appendix-a-header-warning]] (сходство 0.60)
+- [[118-appendix-a-шаблон-для-header-warning]] (сходство 0.55)
+- [[14-main-technical-risks]] (сходство 0.24)
+

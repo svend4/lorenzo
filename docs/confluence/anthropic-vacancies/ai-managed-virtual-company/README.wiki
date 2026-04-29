@@ -1,0 +1,32 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/ai-managed-virtual-company/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. ai-managed-virtual-company
+
+_Файлов:_ 11
+
+h2. Содержание
+
+* [00-question-rephrasing.md|00-question-rephrasing.md] — > [!WARNING]
+* [01-existing-landscape.md|01-existing-landscape.md] — 
+* [02-four-structural-blockers.md|02-four-structural-blockers.md] — 
+* [03-three-variants-A-B-C.md|03-three-variants-A-B-C.md] — 
+* [04-what-to-do.md|04-what-to-do.md] — 
+* [05-polymath-project-tao-comparison.md|05-polymath-project-tao-comparison.md] — > [!WARNING]
+* [06-angel-vs-demon-duality.md|06-angel-vs-demon-duality.md] — 
+* [07-current-implementations.md|07-current-implementations.md] — 
+* [08-pluses-of-model.md|08-pluses-of-model.md] — 
+* [09-minuses-and-risks.md|09-minuses-and-risks.md] — > [!WARNING]
+* [10-three-entry-points.md|10-three-entry-points.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/anthropic-vacancies/mmorpg-for-programmers/README.md] (сходство 0.18)
+* [README|docs/nautilus/supply-demand/README.md] (сходство 0.17)
+* [README|docs/nautilus/community-discussions/voiceless-contributors/README.md] (сходство 0.15)
+

@@ -182,3 +182,13 @@ ground on which Cowork operates effectively.
 - [04-symbiotic-architecture](docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md)
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.89)
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.87)
+- [04-symbiotic-architecture](docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md) (сходство 0.23)
+

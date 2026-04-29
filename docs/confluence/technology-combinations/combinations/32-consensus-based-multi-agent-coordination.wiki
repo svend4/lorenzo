@@ -1,0 +1,88 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Комбинация 32: Consensus-Based Multi-Agent Coordination
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Комбинирование технологий для новых свойств - Claude}} (корень репозитория).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Комбинирование технологий для новых свойств - Claude}} (корень репозитория).{quote}
+
+Родители:
+
+Raft consensus (easier than Paxos, etcd implementation)
+
+Agent orchestration (Conductor, Sequential Protocol)
+
+Distributed systems (multi-machine coordination)
+
+CRDT (conflict-free state sync)
+
+Дети:
+
+Multi-agent cluster with Raft coordination
+
+Architecture:
+[Agent Node 1] ← Raft leader
+[Agent Node 2] ← Raft follower
+[Agent Node 3] ← Raft follower
+
+Coordination:
+* Leader election: which agent handles Bescheid analysis?
+* Log replication: all agents see same event sequence
+* Consensus: "approve Widerspruch draft" requires majority vote
+
+Benefits:
+* Fault tolerance: leader dies → new leader elected
+* Consistency: all agents agree on task assignment
+* Partition tolerance: network split → majority side continues
+
+Distributed legal document processing
+
+Multiple Claude Code instances on different machines
+
+Raft ensures single Widerspruch generated (no duplicates)
+
+Work distribution: Agent 1 writes, Agent 2 reviews, Agent 3 formats
+
+Failure scenario:
+
+Agent 1 crashes mid-generation → Agent 2 becomes leader → resumes work
+
+ROI: Resilient multi-agent workflows, no single point of failure
+
+Уникальность: First Raft-coordinated AI agents. Agents elect leader, replicate logs, achieve consensus on task completion. Solves "multiple agents editing same file" problem with distributed consensus.
+
+
+
+----
+
+_Смотрите также:_
+* [04-event-sourcing-consensus|docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md]
+* [35-mega-stack-4-0-with-event-sourcing-consensus|docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md]
+* [34-distributed-event-store-with-paxos|docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md]
+* [31-35-final|docs/technology-combinations/synthesis-tables/31-35-final.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [04-event-sourcing-consensus|docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md] (сходство 0.33)
+* [35-mega-stack-4-0-with-event-sourcing-consensus|docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md] (сходство 0.28)
+* [34-distributed-event-store-with-paxos|docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md] (сходство 0.27)
+

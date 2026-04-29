@@ -29,3 +29,13 @@ Mehr anzeigen
 - [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
 - [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md) (сходство 0.16)
+- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.16)
+- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.15)
+

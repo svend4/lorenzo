@@ -54,3 +54,13 @@ ROI: 10 sec queries vs 2 hour manual search
 - [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md)
 - [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-sozialrecht-domain](docs/obsidian/03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.58)
+- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.54)
+- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md) (сходство 0.39)
+

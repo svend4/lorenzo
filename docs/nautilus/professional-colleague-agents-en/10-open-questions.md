@@ -80,3 +80,13 @@ What might we lose? These are not technical questions but
 they shape technical decisions.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.83)
+- [221-10-open-questions](docs/obsidian/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.80)
+- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md) (сходство 0.20)
+

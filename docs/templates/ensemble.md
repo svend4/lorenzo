@@ -66,5 +66,4 @@ _Создано: 2026-04-29_
 **Смотрите также:**
 - [project-component](docs/templates/project-component.md)
 - [decision-record](docs/templates/decision-record.md)
-- [research-summary](docs/obsidian/autofilled/research-summary.md)
 

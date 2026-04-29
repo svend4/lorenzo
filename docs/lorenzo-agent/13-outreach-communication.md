@@ -43,3 +43,13 @@
 - [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
 - [03-tvoya-missiya](docs/lorenzo-agent/03-tvoya-missiya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.82)
+- [357-твоя-коммуникация-в-outreach](docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.76)
+- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md) (сходство 0.24)
+

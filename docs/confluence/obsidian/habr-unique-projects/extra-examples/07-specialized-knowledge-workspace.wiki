@@ -1,0 +1,67 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Specialized knowledge workspace"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. Specialized knowledge workspace
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).{quote}
+
+Что получается: Specialized knowledge workspace для professionals:
+
+Markdown как substrate (Obsidian-style)
+
+AI structures incoming information (Свяжи style)
+
+Local-first с optional cloud (BrainBox philosophy)
+
+Domain-specific Templates (например, SGB case management)
+
+Cross-references и graph (Obsidian's strength)
+
+Optional sync с Cowork для agentic capabilities
+
+Применение: SGB Advocate's personal workspace где cases organized с deep metadata, AI extracts key facts из incoming Bescheids automatically, links между cases automatically discovered, all running locally на Termux setup или desktop.
+
+Это прямое extension Document 2.4 (InGit как Cowork-Integrated Substrate). Но с inspiration из реальных working Obsidian + AI ecosystems, не с нуля.
+
+Синтез C: «Multi-agent hub для domain experts»
+
+Совмещение: BrainBox (local AI hub) + мультиагентная разработка patterns + WorkTeam (decomposition) + CAMEL (как мы обсуждали).
+
+
+
+----
+
+_Смотрите также:_
+* [[08-personal-multi-agent-hub]]
+* [[06-platform-for-professional-communities]]
+* [[10-profession-specific-workflows]]
+* [[09-federated-platform]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[08-personal-multi-agent-hub]] (сходство 0.34)
+* [[09-federated-platform]] (сходство 0.30)
+* [[10-profession-specific-workflows]] (сходство 0.27)
+

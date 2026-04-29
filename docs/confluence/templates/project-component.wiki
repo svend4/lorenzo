@@ -51,3 +51,14 @@ h2. Контакты
 
 ----
 _Создано: 2026-04-29_
+
+
+
+----
+
+_Смотрите также:_
+* [contact-outreach|docs/templates/contact-outreach.md]
+* [ensemble|docs/templates/ensemble.md]
+* [vladspace|docs/obsidian/contacts/vladspace.md]
+* [cutcode|docs/obsidian/contacts/cutcode.md]
+

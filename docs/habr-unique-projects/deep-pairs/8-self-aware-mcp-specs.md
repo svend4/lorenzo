@@ -37,3 +37,13 @@ Self-aware legal MCP — агент знает «сейчас 26 апреля 20
 - [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
 - [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-pda-llm-as-periphery](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md) (сходство 0.21)
+- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md) (сходство 0.18)
+- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.18)
+

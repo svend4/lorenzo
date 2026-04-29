@@ -15,31 +15,31 @@ h1. Карта пробелов знаний
 Анализ покрытия ключевых тем и проектов в docs/.
 
 || Статус || Тема / Проект || Файлов || Слов || Минимум || Примеры файлов ||
-|| ✅ || **Svyazi** || 315 || 294606 || ≥5ф/2000сл || `CROSSREFS.md`, `README.md` ||
-|| ✅ || **local-first** || 176 || 148012 || ≥2ф/300сл || `CONTACTS.md`, `PARAGRAPH_QUALITY.md` ||
-|| ✅ || **self-improvement** || 154 || 11710 || ≥1ф/100сл || `READING_LIST.md`, `CONTACTS.md` ||
-|| ✅ || **Yodoca** || 141 || 179044 || ≥2ф/300сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **CardIndex** || 139 || 176457 || ≥3ф/500сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **knowledge-space** || 102 || 151970 || ≥3ф/500сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **AgentFS** || 101 || 150567 || ≥3ф/500сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **NGT Memory** || 94 || 61698 || ≥2ф/300сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **mclaude** || 89 || 132234 || ≥2ф/200сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **Rufler** || 85 || 136150 || ≥2ф/200сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **LiteParse** || 81 || 130040 || ≥2ф/300сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **AI Factory** || 74 || 53965 || ≥2ф/200сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **SENTINEL** || 69 || 53197 || ≥2ф/200сл || `CROSSREFS.md`, `CONTACTS.md` ||
-|| ✅ || **AutoResearch** || 66 || 123951 || ≥1ф/100сл || `CROSSREFS.md`, `PARAGRAPH_QUALITY.md` ||
-|| ✅ || **CRDT** || 64 || 119748 || ≥1ф/100сл || `PARAGRAPH_QUALITY.md`, `LANGUAGE_STATS.md` ||
-|| ✅ || **Evidence Envelope** || 44 || 20944 || ≥2ф/200сл || `QA.md`, `EMPTY_SECTIONS.md` ||
-|| ✅ || **Sozialrecht** || 42 || 127426 || ≥1ф/200сл || `PARAGRAPH_QUALITY.md`, `LLM_SUMMARIES.md` ||
-|| ✅ || **Card Envelope** || 31 || 18402 || ≥2ф/200сл || `QA.md`, `TABLES.md` ||
-|| ✅ || **Memory Write Policy** || 23 || 16687 || ≥2ф/200сл || `TABLES.md`, `SITEMAP.md` ||
-|| ✅ || **privacy by design** || 22 || 15240 || ≥1ф/100сл || `TABLES.md`, `MISSING.md` ||
-|| ✅ || **Review Record** || 20 || 15557 || ≥1ф/100сл || `QA.md`, `TABLES.md` ||
-|| ✅ || **бюджетный роутинг** || 18 || 22306 || ≥2ф/300сл || `QA.md`, `TABLES.md` ||
-|| ✅ || **Skill Policy** || 15 || 4228 || ≥1ф/100сл || `QA.md`, `TABLES.md` ||
-|| ✅ || **лицензия BSL** || 3 || 1344 || ≥1ф/50сл || `TABLES.md`, `MISSING.md` ||
-|| ✅ || **voice ingestion** || 2 || 760 || ≥1ф/100сл || `TABLES.md`, `MISSING.md` ||
+|| ✅ || **Svyazi** || 474 || 477599 || ≥5ф/2000сл || `WORD_FREQ.md`, `SCHEDULE.md` ||
+|| ✅ || **local-first** || 260 || 253183 || ≥2ф/300сл || `LANGUAGE_STATS.md`, `FOOTNOTES.md` ||
+|| ✅ || **Yodoca** || 227 || 304792 || ≥2ф/300сл || `WORD_FREQ.md`, `SCHEDULE.md` ||
+|| ✅ || **self-improvement** || 223 || 22680 || ≥1ф/100сл || `PASSIVE_VOICE.md`, `READING_LIST.md` ||
+|| ✅ || **CardIndex** || 208 || 265477 || ≥3ф/500сл || `WORD_FREQ.md`, `SCHEDULE.md` ||
+|| ✅ || **AgentFS** || 180 || 230703 || ≥3ф/500сл || `WORD_FREQ.md`, `SCHEDULE.md` ||
+|| ✅ || **knowledge-space** || 163 || 224717 || ≥3ф/500сл || `LANGUAGE_STATS.md`, `FOOTNOTES.md` ||
+|| ✅ || **NGT Memory** || 155 || 119713 || ≥2ф/300сл || `GLOSSARY.md`, `CONSISTENCY.md` ||
+|| ✅ || **Rufler** || 146 || 204133 || ≥2ф/200сл || `LANGUAGE_STATS.md`, `FOOTNOTES.md` ||
+|| ✅ || **mclaude** || 140 || 195623 || ≥2ф/200сл || `LANGUAGE_STATS.md`, `EMPTY_SECTIONS.md` ||
+|| ✅ || **LiteParse** || 133 || 193954 || ≥2ф/300сл || `LANGUAGE_STATS.md`, `TIMELINE.md` ||
+|| ✅ || **SENTINEL** || 132 || 111296 || ≥2ф/200сл || `SCHEDULE.md`, `FOOTNOTES.md` ||
+|| ✅ || **AI Factory** || 122 || 104244 || ≥2ф/200сл || `EMPTY_SECTIONS.md`, `GLOSSARY.md` ||
+|| ✅ || **AutoResearch** || 95 || 172491 || ≥1ф/100сл || `PASSIVE_VOICE.md`, `LANGUAGE_STATS.md` ||
+|| ✅ || **CRDT** || 86 || 170652 || ≥1ф/100сл || `LANGUAGE_STATS.md`, `FOOTNOTES.md` ||
+|| ✅ || **Evidence Envelope** || 70 || 30642 || ≥2ф/200сл || `EMPTY_SECTIONS.md`, `CONSISTENCY.md` ||
+|| ✅ || **Sozialrecht** || 65 || 219657 || ≥1ф/200сл || `LANGUAGE_STATS.md`, `EMPTY_SECTIONS.md` ||
+|| ✅ || **Card Envelope** || 46 || 26502 || ≥2ф/200сл || `CONSISTENCY.md`, `TABLES.md` ||
+|| ✅ || **Memory Write Policy** || 34 || 23651 || ≥2ф/200сл || `QUESTIONS.md`, `TABLES.md` ||
+|| ✅ || **privacy by design** || 33 || 28106 || ≥1ф/100сл || `TABLES.md`, `MISSING.md` ||
+|| ✅ || **бюджетный роутинг** || 32 || 46519 || ≥2ф/300сл || `RISK_REGISTER.md`, `TABLES.md` ||
+|| ✅ || **Review Record** || 31 || 22234 || ≥1ф/100сл || `TABLES.md`, `SUMMARIES.md` ||
+|| ✅ || **Skill Policy** || 26 || 8482 || ≥1ф/100сл || `TABLES.md`, `SUMMARIES.md` ||
+|| ✅ || **лицензия BSL** || 6 || 3499 || ≥1ф/50сл || `RISK_REGISTER.md`, `TABLES.md` ||
+|| ✅ || **voice ingestion** || 4 || 1900 || ≥1ф/100сл || `TABLES.md`, `MISSING.md` ||
 
 h2. Итог
 
@@ -50,14 +50,3 @@ h2. Итог
 h2. Рекомендации
 
 Темы со статусом ❌ или ⚠️ нужно дополнить отдельными документами.
-
-
-
-----
-
-_Смотрите также:_
-* [[CONSISTENCY]]
-* [[GRAPH]]
-* [[GLOSSARY]]
-* [[MINDMAP]]
-

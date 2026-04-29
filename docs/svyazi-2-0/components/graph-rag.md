@@ -38,3 +38,13 @@
 - [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md)
 - [yodoca](docs/svyazi-2-0/components/yodoca.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [hybrid-rag](docs/svyazi-2-0/components/hybrid-rag.md) (сходство 0.34)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md) (сходство 0.34)
+- [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md) (сходство 0.34)
+

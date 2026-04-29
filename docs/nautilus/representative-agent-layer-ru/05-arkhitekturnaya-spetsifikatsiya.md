@@ -96,3 +96,13 @@
 - [193-3-что-делает-агента-представительским](docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md)
 - [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [195-5-архитектурная-спецификация](docs/obsidian/02-anthropic-vacancies/195-5-архитектурная-спецификация.md) (сходство 0.88)
+- [195-5-архитектурная-спецификация](docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md) (сходство 0.86)
+- [03-chto-delaet-predstavitelskim](docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md) (сходство 0.16)
+

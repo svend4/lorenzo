@@ -1,0 +1,61 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/components/legal-rag.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Legal RAG"
+tags:
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. Legal RAG
+
+
+{quote}- _Источник:_ Хабр citeturn20view6{quote}
+_Проекты:_ Svyazi, Legal RAG
+
+----
+
+
+
+
+
+* _Автор:_ tagir_analyzes
+* _Источник:_ Хабр citeturn20view6
+* _Лицензия:_ неуточнено. citeturn20view6
+* _Maturity:_ зрелый инженерный кейс, а не только концепт. citeturn20view6
+* _Релевантность к Svyazi‑2.0:_ очень высокая — лучший источник для evidence‑first и audit‑friendly retrieval.
+
+h2. Описание
+
+Подробный кейс page‑level Legal RAG с 17 итерациями и измерением пределов масштабирования.
+
+h2. Ключевые компоненты и паттерны
+
+* Page‑level grounding
+* Context distillation
+* Систематический eval loop
+* Error analysis
+
+
+
+----
+
+_Смотрите также:_
+* [[hybrid-rag]]
+* [[yodoca]]
+* [[graph-rag]]
+* [[research-docs-liteparse]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[hybrid-rag]] (сходство 0.34)
+* [[research-docs-liteparse]] (сходство 0.33)
+* [[graph-rag]] (сходство 0.32)
+

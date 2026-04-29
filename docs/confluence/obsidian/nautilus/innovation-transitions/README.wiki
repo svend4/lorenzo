@@ -1,0 +1,30 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/innovation-transitions/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "innovation-transitions"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. innovation-transitions
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [[00-question-innovations-transitions|00-question-innovations-transitions.md]] — > [!WARNING]
+* [[01-response|01-response.md]] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.45)
+* [[README]] (сходство 0.36)
+* [[README]] (сходство 0.36)
+

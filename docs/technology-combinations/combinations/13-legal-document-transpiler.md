@@ -53,3 +53,13 @@ ROI: 50k historical documents searchable in structured DB
 - [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
 - [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md) (сходство 0.34)
+- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.32)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md) (сходство 0.26)
+

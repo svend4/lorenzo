@@ -1,0 +1,173 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/professional-colleague-agents-en/05-economics-replication.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 5. The Economics of Profession-Wide Replication
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.{quote}
+
+----
+
+
+h2. Содержание
+
+* [5. The Economics of Profession-Wide Replication|#5-the-economics-of-profession-wide-replication]
+  * [5.1. Cost Structure|#51-cost-structure]
+  * [5.2. Revenue Models|#52-revenue-models]
+  * [5.3. Network Effects and Knowledge Compounding|#53-network-effects-and-knowledge-compounding]
+  * [5.4. Competitive Dynamics|#54-competitive-dynamics]
+  * [5.5. Sustainability Considerations|#55-sustainability-considerations]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.{quote}
+
+h2. 5. The Economics of Profession-Wide Replication
+
+A defining feature of Professional Colleague Agents is that
+_one agent serves all practitioners of a profession_. This
+has profound economic implications.
+
+h3. 5.1. Cost Structure
+
+_Layer A (knowledge base) is high-cost, one-time._ Building
+a high-quality knowledge base for a profession requires
+substantial expert time. Estimate: 1,000-10,000 expert-hours
+to bootstrap, ongoing 100-500 hours/year to maintain.
+
+_Layer B (generation engine) is low marginal cost._ LLM
+inference costs continue to drop. With current trends, a
+sophisticated Professional Colleague Agent costs perhaps
+$5-50 per practitioner per month in LLM API fees, depending
+on usage intensity.
+
+_Layer C (interface) is moderate-cost, one-time._ Building
+a professional-grade interface costs perhaps 2,000-5,000
+developer hours. Ongoing maintenance perhaps 500 hours/year.
+
+So total fixed costs are high (thousands of expert hours)
+but per-user costs are low (tens of dollars per month).
+
+h3. 5.2. Revenue Models
+
+Several viable revenue structures:
+
+_Model 1 — Practitioner Subscription._ Each practitioner
+pays directly. Common for individual professionals (lawyers,
+accountants, consultants). Requires demonstrating clear ROI
+to individual practitioner.
+
+_Model 2 — Institutional License._ Schools, hospitals,
+firms pay for entire workforce. Reduces per-practitioner
+cost; institution captures aggregate ROI.
+
+_Model 3 — Government Procurement._ State or municipal
+government purchases for entire profession. Fits well with
+public professions (teachers, social workers, public
+defenders).
+
+_Model 4 — Foundation-Funded Public Good._ Mission-driven
+foundation funds development and operation; service provided
+free or at minimal cost. Particularly fitting for professions
+serving vulnerable populations.
+
+_Model 5 — Hybrid._ Free tier for basic functions, paid
+tiers for advanced features. «Обучай» appears to use this
+model.
+
+_Model 6 — Cooperative Ownership._ Practitioners own the
+service collectively, paying nominal subscription that funds
+operations. Most aligned with profession's interests, requires
+institutional capacity.
+
+For OKWF specifically, Model 4 (foundation-funded) and Model
+6 (cooperative) are most aligned with mission. Model 3 is
+appropriate for partnerships with public-sector employers.
+
+h3. 5.3. Network Effects and Knowledge Compounding
+
+A unique property: knowledge compounds. As more practitioners
+use the agent, opportunities emerge to learn from collective
+patterns:
+
+* Common errors → improved Layer A guidance
+* Effective approaches → patterns added to knowledge base
+* Edge cases → expanded coverage
+* Regional variations → specialized sub-knowledge
+
+This creates positive feedback. Professional Colleague Agents
+become more valuable as more practitioners use them. This
+favors first-movers and platforms with broad reach.
+
+For a foundation like OKWF, this means: deploy widely (and
+freely if possible) to capture network effects, even at cost
+of forgoing per-user revenue.
+
+h3. 5.4. Competitive Dynamics
+
+Professional Colleague Agents tend toward:
+
+* _One dominant per profession_, due to knowledge compounding
+* _Low switching costs at individual level_, but high
+institutional switching costs
+* _Commoditization of Layer B_ as LLM providers proliferate
+* _Strong moat at Layer A_ for established players
+
+Implication: First-mover advantage is real. Quality of Layer
+A determines long-term position. Expert curation network is
+the competitive asset.
+
+h3. 5.5. Sustainability Considerations
+
+Professional Colleague Agents have potentially sustainable
+unit economics. With reasonable usage:
+
+* Layer A maintenance: ~500 hours/year × $100/hour = $50,000
+* LLM costs: ~$30/practitioner/month × 10,000 practitioners
+× 12 months = $3,600,000
+* Interface and infrastructure: ~$200,000/year
+* Operations: ~$300,000/year
+
+Total annual operating cost for a profession of 10,000
+practitioners: approximately $4 million.
+
+If practitioners pay $30/month, revenue: $3,600,000. Roughly
+break-even on subscription alone.
+
+If foundations subsidize Layer A and operations, individual
+practitioners might pay only $5/month. Foundation cost:
+$1.5 million/year.
+
+These are rough estimates but order-of-magnitude reasonable.
+Foundation-funded Professional Colleague Agents are
+economically viable for moderately sized professions.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [216-5-the-economics-of-profession-wide-replication|docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md]
+* [07-economics-combinatorial|docs/nautilus/composite-skills-agents/07-economics-combinatorial.md]
+* [260-7-economics-of-combinatorial-replication|docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]
+* [08-pilot-sgb-advocate|docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [216-5-the-economics-of-profession-wide-replication|docs/obsidian/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md] (сходство 0.86)
+* [216-5-the-economics-of-profession-wide-replication|docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md] (сходство 0.83)
+* [07-economics-combinatorial|docs/nautilus/composite-skills-agents/07-economics-combinatorial.md] (сходство 0.24)
+

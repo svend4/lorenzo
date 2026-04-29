@@ -21,3 +21,13 @@ date: 2026-04-29
 - [[spbmolot|spbmolot.md]] — <!-- summary -->
 - [[svend4|svend4.md]] — <!-- summary -->
 - [[svyazi|svyazi.md]] — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[README]] (сходство 0.92)
+- [[README]] (сходство 0.27)
+- [[README]] (сходство 0.27)
+

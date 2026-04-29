@@ -77,3 +77,13 @@ _Компонент экосистемы Svyazi 2.0_
 - [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]]
 - [[kksudo|Контакт: kksudo / AgentFS]]
 - [[zodigancode|Контакт: zodigancode / Rufler]]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[kksudo]] (сходство 0.87)
+- [[svyazi]] (сходство 0.56)
+- [[svend4]] (сходство 0.56)
+

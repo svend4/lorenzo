@@ -1,0 +1,28 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/extra-collaborator-findings/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. extra-collaborator-findings
+
+_Файлов:_ 7
+
+h2. Содержание
+
+* [01-coally.md|01-coally.md] — > [!WARNING]
+* [02-vitaly-graph-cognitive-memory.md|02-vitaly-graph-cognitive-memory.md] — > [!IMPORTANT]
+* [03-happyin-knowledge-space.md|03-happyin-knowledge-space.md] — 
+* [04-mem0-letta-graphiti.md|04-mem0-letta-graphiti.md] — 
+* [05-existing-infrastructure-stack.md|05-existing-infrastructure-stack.md] — 
+* [06-final-tier-ranking.md|06-final-tier-ranking.md] — 
+* [07-key-observation.md|07-key-observation.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/svyazi-2-0/components/README.md] (сходство 0.17)
+* [README|docs/nautilus/multi-tier-architecture/README.md] (сходство 0.17)
+* [README|docs/habr-unique-projects/key-findings/README.md] (сходство 0.15)
+

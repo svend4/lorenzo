@@ -1,0 +1,62 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/components/graph-rag.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Graph RAG"
+tags:
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. Graph RAG
+
+
+{quote}- _Автор:_ VladSpace / vpakspace{quote}
+_Проекты:_ Svyazi, Graph RAG
+
+----
+
+
+
+
+
+* _Автор:_ VladSpace / vpakspace
+* _Источник:_ Хабр + GitHub citeturn34view3turn40search2
+* _Лицензия:_ неуточнено. citeturn34view3turn40search2
+* _Maturity:_ активный публичный repo / production‑ready ambition. citeturn34view3turn40search2
+* _Релевантность к Svyazi‑2.0:_ высокая — добавляет multi‑hop retrieval и relation‑reasoning.
+
+h2. Описание
+
+Графовый RAG с provenance‑trace и typed API, собранный из 5 исследовательских техник.
+
+h2. Ключевые компоненты и паттерны
+
+* Skeleton Indexing
+* Phrase / Passage dual nodes
+* VectorCypher
+* Datalog reasoning
+* Agentic routing
+
+
+
+----
+
+_Смотрите также:_
+* [[hybrid-rag]]
+* [[mclaude]]
+* [[ngt-memory]]
+* [[yodoca]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[hybrid-rag]] (сходство 0.34)
+* [[yodoca]] (сходство 0.34)
+* [[ngt-memory]] (сходство 0.34)
+

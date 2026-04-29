@@ -13,6 +13,18 @@ date: 2026-04-29
 h1. Abstract
 
 
+h2. Содержание
+
+* [Abstract|#abstract]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ InGit should position as the structure layer that Cowork needs — substrate for sustained, organized, recoverable, shareable AI-collaborative work.{quote}

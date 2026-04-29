@@ -24,3 +24,13 @@
 
 - [`docs/svyazi-2-0/ensembles/`](../svyazi-2-0/ensembles/) — детальная сборка ансамблей под Svyazi 2.0 (та же логика «новые свойства от комбинирования»).
 - [`docs/svyazi-2-0/architecture/integration-spec.md`](../svyazi-2-0/architecture/integration-spec.md) — пять интеграционных контрактов.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.18)
+- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.15)
+- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md) (сходство 0.14)
+

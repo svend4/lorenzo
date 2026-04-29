@@ -1,0 +1,122 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/representative-agent-layer-en/07-governance-oversight.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 7. Governance and Oversight
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+h2. 7. Governance and Oversight
+
+h3. 7.1. Three Levels of Governance
+
+Effective Representative Agent systems require governance 
+at three levels:
+
+_Individual Level_: Each principal-agent relationship 
+governed by clear contract. Default templates, customizable 
+by principal. Specifies scope, limits, consent, audit, 
+termination.
+
+_Platform Level_: System-wide policies for all agents 
+operating on platform. Includes ethical commitments, 
+technical standards, dispute resolution, transparency 
+requirements.
+
+_Societal Level_: Regulatory frameworks at national/EU 
+level. Likely to emerge over time as technology matures. 
+Should aim for: protection of vulnerable populations, 
+prevention of exploitation, preservation of principal 
+sovereignty, accountability for agent failures.
+
+h3. 7.2. Audit and Accountability
+
+Every Representative Agent platform must support:
+
+* _Internal audit_: Principal reviews agent actions
+* _External audit_: Independent review of platform 
+practices
+* _Public audit_: Transparency reports on aggregate 
+behavior
+* _Legal audit_: Cooperation with regulatory inquiries
+
+Audit logs must be tamper-resistant, comprehensive, 
+preserved for adequate periods (probably 7-10 years 
+minimum), and accessible to principals on request.
+
+h3. 7.3. Dispute Resolution
+
+When agent operations cause harm or disputes:
+
+_First level_: Principal-platform direct resolution 
+(refund, correction, restoration)
+
+_Second level_: Independent ombudsman within platform
+
+_Third level_: External arbitration
+
+_Fourth level_: Regulatory complaint or legal action
+
+Each level should have clear timelines and standards.
+
+h3. 7.4. Vulnerable Population Protection
+
+Special governance for vulnerable populations:
+
+* _Independent advocate review_ of agent setup for 
+cognitively impaired principals
+* _Periodic capacity assessment_ for elderly principals
+* _Family/guardian involvement_ with appropriate consent
+* _Specialized oversight committees_ for high-risk 
+domains (children, severely disabled, mental health)
+
+h3. 7.5. Foundation-Based Governance
+
+A foundation model (such as OKWF) is well-positioned to 
+provide governance because:
+
+* _Mission alignment_: Foundation accountable to 
+beneficiaries, not shareholders
+* _Long-term horizon_: Foundation incentives align with 
+durable value, not quarterly metrics
+* _Transparency norm_: Foundation operations expected to 
+be public
+* _Multi-stakeholder governance_: Boards include 
+beneficiary representatives
+
+For-profit Representative Agent providers may be necessary 
+and useful but should operate within standards established 
+by mission-driven foundations.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [176-7-governance-and-oversight|docs/02-anthropic-vacancies/176-7-governance-and-oversight.md]
+* [06-ethical-framework|docs/nautilus/representative-agent-layer-en/06-ethical-framework.md]
+* [05-architectural-specification|docs/nautilus/representative-agent-layer-en/05-architectural-specification.md]
+* [09-phased-rollout|docs/nautilus/representative-agent-layer-en/09-phased-rollout.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [176-7-governance-and-oversight|docs/02-anthropic-vacancies/176-7-governance-and-oversight.md] (сходство 0.86)
+* [176-7-governance-and-oversight|docs/obsidian/02-anthropic-vacancies/176-7-governance-and-oversight.md] (сходство 0.82)
+* [06-ethical-framework|docs/nautilus/representative-agent-layer-en/06-ethical-framework.md] (сходство 0.20)
+

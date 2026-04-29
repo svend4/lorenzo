@@ -14,3 +14,13 @@
 - [08-implications-nautilus-okwf.md](08-implications-nautilus-okwf.md) — > [!TIP]
 - [09-risks-open-questions.md](09-risks-open-questions.md) — > [!TIP]
 - [10-strategic-positioning.md](10-strategic-positioning.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [308-table-of-contents](docs/obsidian/02-anthropic-vacancies/308-table-of-contents.md) (сходство 0.36)
+- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md) (сходство 0.31)
+- [README](docs/autofilled/components/README.md) (сходство 0.19)
+

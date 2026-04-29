@@ -39,3 +39,13 @@ https://habr.com/ru/articles/1006622/
 - [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
 - [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [yodoca](docs/05-habr-projects/memory/yodoca.md) (сходство 0.21)
+- [yodoca](docs/obsidian/05-habr-projects/memory/yodoca.md) (сходство 0.21)
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md) (сходство 0.20)
+

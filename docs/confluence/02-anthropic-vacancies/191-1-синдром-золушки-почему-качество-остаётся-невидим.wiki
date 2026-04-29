@@ -97,3 +97,13 @@ h3. 1.4. Структурное решение
 _Смотрите также:_
 * [01-sindrom-zolushki|docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [191-1-синдром-золушки-почему-качество-остаётся-невидим|docs/obsidian/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md] (сходство 0.89)
+* [01-sindrom-zolushki|docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md] (сходство 0.88)
+* [297-что-промышленность-вероятно-построит|docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md] (сходство 0.10)
+

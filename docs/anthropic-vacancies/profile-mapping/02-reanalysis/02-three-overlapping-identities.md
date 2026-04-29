@@ -31,3 +31,13 @@
 - [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
 - [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md) (сходство 0.18)
+- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.16)
+- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) (сходство 0.16)
+

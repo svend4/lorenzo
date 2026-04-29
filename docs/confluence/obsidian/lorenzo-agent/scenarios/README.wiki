@@ -1,0 +1,30 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/lorenzo-agent/scenarios/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "scenarios"
+tags:
+  * lorenzo-agent
+date: 2026-04-29
+----
+
+h1. scenarios
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [[00-question-scenario|00-question-scenario.md]] — 
+* [[01-response|01-response.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.56)
+* [[README]] (сходство 0.50)
+* [[README]] (сходство 0.50)
+

@@ -63,3 +63,13 @@ prompts (не «продолжи вариант A»)?
 - [13-appendix-b-examples](docs/nautilus/review-methodology/13-appendix-b-examples.md)
 - [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [116-9-checklist-применения-методологии](docs/obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.74)
+- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.72)
+- [GITHUB_ISSUES](docs/obsidian/GITHUB_ISSUES.md) (сходство 0.36)
+

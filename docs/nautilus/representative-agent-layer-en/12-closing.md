@@ -492,3 +492,13 @@ pasted
 - [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
 - [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [186-appendix-c-sample-use-cases-in-detail](docs/obsidian/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.80)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.79)
+- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.45)
+

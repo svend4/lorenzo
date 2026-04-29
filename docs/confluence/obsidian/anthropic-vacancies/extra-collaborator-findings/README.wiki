@@ -1,0 +1,35 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/extra-collaborator-findings/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "extra-collaborator-findings"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. extra-collaborator-findings
+
+_Файлов:_ 7
+
+h2. Содержание
+
+* [[01-coally|01-coally.md]] — > [!WARNING]
+* [[02-vitaly-graph-cognitive-memory|02-vitaly-graph-cognitive-memory.md]] — > [!IMPORTANT]
+* [[03-happyin-knowledge-space|03-happyin-knowledge-space.md]] — 
+* [[04-mem0-letta-graphiti|04-mem0-letta-graphiti.md]] — 
+* [[05-existing-infrastructure-stack|05-existing-infrastructure-stack.md]] — 
+* [[06-final-tier-ranking|06-final-tier-ranking.md]] — 
+* [[07-key-observation|07-key-observation.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.17)
+* [[README]] (сходство 0.17)
+* [[README]] (сходство 0.15)
+

@@ -1,0 +1,35 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/hardware-pairs/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "hardware-pairs"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. hardware-pairs
+
+_Файлов:_ 7
+
+h2. Содержание
+
+* [[1-neuromorphic-ssm|1-neuromorphic-ssm.md]] — 
+* [[2-tsu-mome|2-tsu-mome.md]] — 
+* [[3-zinc-hybrid-arch|3-zinc-hybrid-arch.md]] — 
+* [[4-riscv-privacy|4-riscv-privacy.md]] — 
+* [[5-tinyml-mcp-skills|5-tinyml-mcp-skills.md]] — 
+* [[6-bonus-rram-memristor|6-bonus-rram-memristor.md]] — 
+* [[7-metaphor|7-metaphor.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.21)
+* [[README]] (сходство 0.16)
+* [[README]] (сходство 0.15)
+

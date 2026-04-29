@@ -150,3 +150,13 @@ modifies their configuration over time.
 - [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
 - [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [258-5-configuration-how-principals-build-their-ensembl](docs/obsidian/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.87)
+- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.83)
+- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md) (сходство 0.21)
+

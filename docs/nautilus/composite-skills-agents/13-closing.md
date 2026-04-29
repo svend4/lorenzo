@@ -142,3 +142,13 @@ synthesis.)
 - [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
 - [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [266-13-closing](docs/obsidian/02-anthropic-vacancies/266-13-closing.md) (сходство 0.61)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.60)
+- [267-acknowledgments](docs/obsidian/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.39)
+

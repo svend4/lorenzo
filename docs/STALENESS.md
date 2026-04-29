@@ -2,57 +2,57 @@
 
 _Порог: 30 дней. Обновлено: 2026-04-29_
 
-Найдено проблем: **113** файлов
+Найдено проблем: **208** файлов
 
-## Без метаданных (нет summary или тегов) — 88 файлов
+## Без метаданных (нет summary или тегов) — 171 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
-| `docs/01-svyazi/00-intro-part2.md` | 5 | нет summary, нет тегов, короткий (5 слов) |
-| `docs/01-svyazi/QA.md` | 277 | нет summary, нет тегов |
-| `docs/01-svyazi/README.md` | 90 | нет тегов, короткий (90 слов) |
-| `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 14 | нет summary, нет тегов, короткий (14 слов) |
-| `docs/02-anthropic-vacancies/QA.md` | 360 | нет summary, нет тегов |
-| `docs/03-technology-combinations/QA.md` | 124 | нет summary, нет тегов |
-| `docs/03-technology-combinations/README.md` | 39 | нет тегов, короткий (39 слов) |
-| `docs/04-ai-collaborations/QA.md` | 282 | нет summary, нет тегов |
-| `docs/04-ai-collaborations/README.md` | 84 | нет summary, нет тегов, короткий (84 слов) |
-| `docs/05-habr-projects/QA.md` | 111 | нет summary, нет тегов |
-| `docs/05-habr-projects/README.md` | 38 | нет summary, нет тегов, короткий (38 слов) |
-| `docs/05-habr-projects/knowledge/README.md` | 10 | нет summary, нет тегов, короткий (10 слов) |
-| `docs/05-habr-projects/memory/README.md` | 17 | нет summary, нет тегов, короткий (17 слов) |
-| `docs/ABBREVIATIONS.md` | 1018 | нет summary, нет тегов |
-| `docs/ACTION_ITEMS.md` | 7160 | нет summary, нет тегов |
+| `docs/01-svyazi/QA.md` | 255 | нет summary, нет тегов |
+| `docs/01-svyazi/README.md` | 339 | нет summary, нет тегов |
+| `docs/02-anthropic-vacancies/QA.md` | 362 | нет summary, нет тегов |
+| `docs/03-technology-combinations/QA.md` | 146 | нет summary, нет тегов |
+| `docs/03-technology-combinations/README.md` | 77 | нет summary, нет тегов, короткий (77 слов) |
+| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
+| `docs/04-ai-collaborations/README.md` | 364 | нет summary, нет тегов |
+| `docs/05-habr-projects/QA.md` | 133 | нет summary, нет тегов |
+| `docs/05-habr-projects/README.md` | 71 | нет summary, нет тегов, короткий (71 слов) |
+| `docs/05-habr-projects/knowledge/README.md` | 38 | нет summary, нет тегов, короткий (38 слов) |
+| `docs/05-habr-projects/memory/README.md` | 75 | нет summary, нет тегов, короткий (75 слов) |
+| `docs/ABBREVIATIONS.md` | 1097 | нет summary, нет тегов |
+| `docs/ACTION_ITEMS.md` | 8241 | нет summary, нет тегов |
 | `docs/ALERTS.md` | 50 | нет summary, нет тегов, короткий (50 слов) |
 | `docs/AUTHORS.md` | 66 | нет summary, нет тегов, короткий (66 слов) |
-| `docs/CHANGELOG.md` | 914 | нет summary, нет тегов |
-| `docs/CODE_BLOCKS.md` | 4580 | нет summary, нет тегов |
+| `docs/CHANGELOG.md` | 1321 | нет summary, нет тегов |
+| `docs/CODE_BLOCKS.md` | 4716 | нет summary, нет тегов |
 | `docs/COMPARE.md` | 321 | нет summary, нет тегов |
+| `docs/COMPLEXITY.md` | 328 | нет summary, нет тегов |
+| `docs/CONCEPTS.md` | 14289 | нет summary, нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 25 файлов
+## Короткие (< 100 слов, заготовки) — 37 файлов
 
 | Файл | Слов |
 |------|------|
-| `docs/obsidian/01-svyazi/00-intro-part2.md` | 27 |
-| `docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md` | 61 |
-| `docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 77 |
-| `docs/obsidian/02-anthropic-vacancies/16-history.md` | 97 |
-| `docs/obsidian/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 38 |
-| `docs/obsidian/ALERTS.md` | 80 |
-| `docs/obsidian/KPI_HISTORY.md` | 89 |
-| `docs/obsidian/autofilled/components/.md` | 78 |
-| `docs/obsidian/autofilled/components/cowork.md` | 80 |
-| `docs/obsidian/autofilled/components/ingit.md` | 80 |
-| `docs/obsidian/autofilled/components/kksudo.md` | 68 |
-| `docs/obsidian/autofilled/components/lorenzo.md` | 80 |
-| `docs/obsidian/autofilled/components/nautilus.md` | 80 |
-| `docs/obsidian/autofilled/components/sgb.md` | 80 |
-| `docs/obsidian/autofilled/components/spbmolot.md` | 68 |
-| `docs/obsidian/autofilled/components/svend4.md` | 80 |
-| `docs/obsidian/autofilled/components/svyazi.md` | 80 |
-| `docs/obsidian/templates/decision-record.md` | 82 |
-| `docs/obsidian/templates/project-component.md` | 99 |
-| `docs/obsidian/templates/research-note.md` | 77 |
+| `docs/01-svyazi/00-intro-part2.md` | 21 |
+| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | 99 |
+| `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 28 |
+| `docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md` | 89 |
+| `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | 95 |
+| `docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md` | 93 |
+| `docs/SEARCH_RESULTS.md` | 65 |
+| `docs/VERSION_DIFF.md` | 53 |
+| `docs/WORD_CLOUD.md` | 88 |
+| `docs/anthropic-vacancies/clusters/12-technical-program-management.md` | 96 |
+| `docs/anthropic-vacancies/clusters/13-communications.md` | 89 |
+| `docs/anthropic-vacancies/clusters/14-public-policy.md` | 96 |
+| `docs/anthropic-vacancies/clusters/15-public-benefit.md` | 96 |
+| `docs/anthropic-vacancies/clusters/16-people.md` | 87 |
+| `docs/lorenzo-agent/00-intro.md` | 84 |
+| `docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md` | 79 |
+| `docs/obsidian/01-svyazi/00-intro-part2.md` | 60 |
+| `docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md` | 79 |
+| `docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 95 |
+| `docs/obsidian/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 71 |
 
 ## Рекомендуемые действия
 

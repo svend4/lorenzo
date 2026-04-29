@@ -70,3 +70,13 @@ ROI: Automated review → manual approval only for edge cases
 - [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
 - [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [23-security-first-code-review-pipeline](docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md) (сходство 0.35)
+- [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md) (сходство 0.25)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md) (сходство 0.23)
+

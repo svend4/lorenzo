@@ -1,0 +1,220 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/representative-agent-layer-en/02-historical-precedents.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 2. Historical Precedents: Agents as Civilizational Innovation
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+----
+
+
+h2. Содержание
+
+* [2. Historical Precedents: Agents as Civilizational Innovation|#2-historical-precedents-agents-as-civilizational-innovation]
+  * [2.1. Literary and Performance Agents|#21-literary-and-performance-agents]
+  * [2.2. Sports Agents|#22-sports-agents]
+  * [2.3. Talent Agents in Hollywood|#23-talent-agents-in-hollywood]
+  * [2.4. Civil Service Representation|#24-civil-service-representation]
+  * [2.5. Real Estate Agents|#25-real-estate-agents]
+  * [2.6. Pattern Recognition|#26-pattern-recognition]
+  * [2.7. AI Representative Agents Address These Limits|#27-ai-representative-agents-address-these-limits]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».{quote}
+
+h2. 2. Historical Precedents: Agents as Civilizational Innovation
+
+The pattern of representative agents is ancient and recurring. 
+Examining its history reveals what works and what doesn't.
+
+h3. 2.1. Literary and Performance Agents
+
+_Origin_: Late 19th century in Europe and America, formalized 
+in 1880s.
+
+_Function_: Authors and performers focused on craft. Agents 
+handled negotiations with publishers, theatres, and later 
+studios.
+
+_Mechanics_: Agents typically take 10-20% commission of 
+client earnings. They:
+* Develop client portfolio over years
+* Maintain relationships with potential buyers (publishers, 
+studios, networks)
+* Match clients to opportunities
+* Negotiate contracts and protect client interests
+* Manage marketing on client's behalf
+* Provide career advice
+
+_Why it works_: Allows highly-talented but business-naive 
+creators to focus on creation while still receiving fair 
+compensation. The agent's incentive (commission) aligns with 
+client's interest (high earnings).
+
+_Limitations_: Only economically viable for clients with 
+sufficiently high earnings to make 10-20% commission worth 
+it for the agent. Authors of literary fiction, for example, 
+often cannot afford agents until they're already moderately 
+successful.
+
+h3. 2.2. Sports Agents
+
+_Origin_: Mid-20th century, formalized in 1960s-70s.
+
+_Function_: Athletes focus on performance. Agents handle 
+contract negotiations, endorsement deals, post-career planning.
+
+_Mechanics_: Similar commission structure (3-10% in sports, 
+typically lower because contracts are larger). Major agents 
+become institutional powers (e.g., Scott Boras in baseball, 
+who has fundamentally shaped how player contracts are 
+structured).
+
+_Why it works_: Athletes' careers are short and physically 
+demanding. Decoupling them from business management protects 
+their performance and extends their economic value.
+
+h3. 2.3. Talent Agents in Hollywood
+
+_Origin_: Early 20th century, formalized in 1920s-30s.
+
+_Function_: Most comprehensive form of representation. Agents 
+guide careers across decades, connecting actors, directors, 
+writers with projects.
+
+_Mechanics_: Commission-based (10% standard). Agencies 
+(CAA, WME, UTA) have hundreds of agents, structured as 
+sophisticated organizations with specialized departments 
+(film, TV, music, publishing, sports — increasingly cross-domain).
+
+_Why it works_: Hollywood is a relationship-intensive 
+industry. Agents bring institutional memory, cross-project 
+visibility, and negotiation expertise that individual 
+performers cannot match.
+
+_Limitations_: Major agencies cater to top tier only. New 
+or low-earning performers struggle to get representation. 
+This creates the same Cinderella problem at the entry level.
+
+h3. 2.4. Civil Service Representation
+
+_Origin_: Various — administrative tribunals, ombudsman 
+offices, immigration services have had representational 
+support functions for decades.
+
+_Function_: Citizens navigating bureaucracy. Forms, procedures, 
+appeals, hearings. Citizens often cannot represent themselves 
+effectively; bureaucratic infrastructure assumes representation.
+
+_Mechanics_: Mixed — some publicly funded (legal aid, 
+ombudsmen), some commercial (immigration consultants, tax 
+preparers), some volunteer (advocacy organizations).
+
+_Why it works_: Specialized knowledge of procedural systems 
+gives representatives leverage that average citizens cannot 
+attain.
+
+_Limitations_: Severely underfunded for the scale of need. 
+In disability rights, social welfare, immigration — most 
+people who need representation cannot access it. This is 
+the largest domain where AI Representative Agents could 
+have transformative impact.
+
+h3. 2.5. Real Estate Agents
+
+_Origin_: 19th century, formalized in early 20th.
+
+_Function_: Sellers focus on their lives. Agents handle 
+discovery (find buyers), presentation (stage, market), 
+negotiation, paperwork.
+
+_Mechanics_: Commission-based (5-7% typical), split between 
+seller's and buyer's agents.
+
+_Why it works_: Real estate transactions are infrequent for 
+individuals but constant for agents. Agents accumulate 
+expertise that one-time transactors cannot match.
+
+_Limitations_: Adversarial buyer/seller relationship can 
+create conflicts of interest. Agent paid by seller may not 
+fully represent buyer. Modern alternatives (Redfin, Zillow) 
+attempt to disrupt this with technology.
+
+h3. 2.6. Pattern Recognition
+
+What all these systems share:
+
+1. _Decoupling expertise from market interface_ — value 
+creator focuses on creation
+2. _Aligned incentive structure_ — agent succeeds when 
+client succeeds (commission)
+3. _Accumulated relational capital_ — agent's value comes 
+from network, not just transaction skill
+4. _Asymmetric information advantage_ — agent knows market 
+in ways individual cannot
+5. _Specialization by domain_ — different markets need 
+different agent expertise
+
+What limits all these systems:
+
+1. _Economic viability requires sufficient client value_ — 
+agents need commission to survive
+2. _Major agencies serve major clients_ — entry-level 
+creators are excluded
+3. _Conflicts of interest emerge_ — agent may serve own 
+interests over client's
+4. _Relational capital is limited_ — one human can only 
+maintain so many relationships
+5. _Geographic concentration_ — agents serve clients in 
+their region
+
+h3. 2.7. AI Representative Agents Address These Limits
+
+AI Representative Agents preserve the pattern's strengths 
+while addressing its limitations:
+
+* _Economic viability_ drops dramatically — AI agent costs 
+$10-100/month vs. human agent's $50K+ annual cost
+* _Entry-level access_ becomes universal — even small 
+contributors can have representation
+* _Conflicts of interest_ can be structurally limited — 
+agent owned by client, transparent operations, audit logs
+* _Relational capital scales_ — AI can monitor thousands 
+of opportunities simultaneously
+* _Geographic constraints disappear_ — AI works globally
+
+This is not "AI replacing human agents". This is 
+**representation becoming accessible to populations who 
+never had it**.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [171-2-historical-precedents-agents-as-civilizational-i|docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]
+* [01-response-en|docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md]
+* [01-cinderella-syndrome|docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md]
+* [04-ten-domains|docs/nautilus/representative-agent-layer-en/04-ten-domains.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [171-2-historical-precedents-agents-as-civilizational-i|docs/obsidian/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md] (сходство 0.87)
+* [171-2-historical-precedents-agents-as-civilizational-i|docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md] (сходство 0.86)
+* [01-cinderella-syndrome|docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md] (сходство 0.18)
+

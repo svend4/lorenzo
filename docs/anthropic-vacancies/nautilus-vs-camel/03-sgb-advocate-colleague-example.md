@@ -75,3 +75,13 @@ MCP interoperability
 - [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
 - [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.24)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.23)
+- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.20)
+

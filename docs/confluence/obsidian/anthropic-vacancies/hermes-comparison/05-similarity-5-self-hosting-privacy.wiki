@@ -1,0 +1,53 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Сходство 5: Self-hosting и privacy"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Сходство 5: Self-hosting и privacy
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Research.{quote}
+
+Сходство 5: Self-hosting и privacy
+
+Hermes полностью self-hosted, MIT license, all data stays on your machine. Это точно соответствует offline-first философии InGit. На самом деле, Hermes реализует то, что InGit стремится быть — minus файловые конвенции и Git-нативную структуру.
+
+Чем Hermes отличается — где наши документы добавляют value
+
+Несмотря на впечатляющий functionality Hermes, есть несколько важных различий, где наша архитектура остаётся релевантной.
+
+
+
+----
+
+_Смотрите также:_
+* [[03-similarity-3-mcp-support]]
+* [[04-similarity-4-multi-platform]]
+* [[10-difference-5-tool-vs-mission-drift]]
+* [[02-similarity-2-persistent-memory]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[03-similarity-3-mcp-support]] (сходство 0.40)
+* [[04-similarity-4-multi-platform]] (сходство 0.38)
+* [[10-difference-5-tool-vs-mission-drift]] (сходство 0.33)
+

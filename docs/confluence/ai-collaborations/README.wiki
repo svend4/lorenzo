@@ -1,0 +1,31 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/ai-collaborations/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. ai-collaborations
+
+_Файлов:_ 1
+
+h2. Содержание
+
+* [source-projects.md|source-projects.md] — 
+
+h2. Подразделы
+
+* [candidates/|candidates/] — candidates
+* [channels/|channels/] — channels
+* [continuation/|continuation/] — continuation
+* [ensembles/|ensembles/] — Ансамбли проектов
+* [fast-tracks/|fast-tracks/] — fast-tracks
+* [strategy/|strategy/] — strategy
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/svyazi-2-0/overview/README.md] (сходство 0.25)
+* [README|docs/ai-collaborations/candidates/README.md] (сходство 0.22)
+* [README|docs/obsidian/autofilled/README.md] (сходство 0.21)
+

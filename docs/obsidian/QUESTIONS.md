@@ -9,15 +9,15 @@ date: 2026-04-29
 
 _Обновлено: 2026-04-29_
 
-Всего: **2094** | Файлов: **1187**
+Всего: **2366** | Файлов: **1164**
 
 ## Сводка
 
 | Тип | Кол-во |
 |-----|--------|
-| ❓ Вопрос | 1562 |
-| 💭 Гипотеза | 380 |
-| 📌 TODO/Идея | 136 |
+| ❓ Вопрос | 1819 |
+| 💭 Гипотеза | 392 |
+| 📌 TODO/Идея | 139 |
 | 🔓 Открытый вопрос | 16 |
 
 ## 🔓 Открытый вопрос (16)
@@ -52,7 +52,7 @@ _Обновлено: 2026-04-29_
 
 ### `ACTION_ITEMS.md` (1)
 
-- - №3: Health Score 82/100 — это хорошо, но неясно по какому алгоритму . [⚠️ Риски (593)]
+- - №3: Health Score 82/100 — это хорошо, но неясно по какому алгоритму . [⚠️ Риски (909)]
 
 ### `CONCEPTS.md` (1)
 
@@ -87,43 +87,43 @@ _Обновлено: 2026-04-29_
 - Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL 1.1 и прямо говорит о бесплатн [Лицензионные развилки]
 
 
-## ❓ Вопрос (1562)
+## ❓ Вопрос (1819)
 
-### `OUTLINE.md` (129)
-
-- - - - - - - - - - -  Как реализован forensic RAG с доказуемостью? [[KNOWLEDGE_MAP|[Карта базы знаний Lorenzo]]]
-- - Как реализован forensic RAG с доказуемостью? [[QA|[Глобальный Q&A]]]
-- - Что такое Evidence Envelope и зачем он нужен? [[QA|[Глобальный Q&A]]]
-- - Какие RAG-подходы сравниваются в документах? [[QA|[Глобальный Q&A]]]
-- - Какие инструменты обеспечивают безопасность агентов? [[QA|[Глобальный Q&A]]]
-- _...ещё 124_
-
-### `TABLES.md` (119)
+### `TABLES.md` (191)
 
 - Контур   Что входит   Зачем   Оценка усилий [5. План прототипа и возможные контакты]
 - Риск   Почему это важно   Снижение риска [6. План прототипа и возможные контакты]
 - Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [7. План прототипа и возможные контакты]
 - Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [9. Интеграционный контракт, который стоит зафиксировать сраз]
 - Кому   Лучший первый вопрос   Почему именно он [11. Контактная стратегия и узкие вопросы для авторов]
-- _...ещё 114_
+- _...ещё 186_
 
-### `QA.md` (101)
+### `OUTLINE.md` (128)
+
+- - - -  Как реализован forensic RAG с доказуемостью? [[KNOWLEDGE_MAP|[Карта базы знаний Lorenzo]]]
+- - Как реализован forensic RAG с доказуемостью? [[QA|[Глобальный Q&A]]]
+- - Что такое Evidence Envelope и зачем он нужен? [[QA|[Глобальный Q&A]]]
+- - Какие RAG-подходы сравниваются в документах? [[QA|[Глобальный Q&A]]]
+- - Какие инструменты обеспечивают безопасность агентов? [[QA|[Глобальный Q&A]]]
+- _...ещё 123_
+
+### `QA.md` (120)
 
 - ## Как реализован forensic RAG с доказуемостью? [Раздел: 01-svyazi]
 - ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
 - ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
 - ## Какие инструменты обеспечивают безопасность агентов? [Какие RAG-подходы сравниваются в документах?]
 - ## Какова политика доступа по умолчанию (tool classes)? [Какие инструменты обеспечивают безопасность агентов?]
-- _...ещё 96_
+- _...ещё 115_
 
-### `EMPTY_SECTIONS.md` (66)
+### `EMPTY_SECTIONS.md` (64)
 
 - -   138-1-why-single-triangle-models-are-incomplete.md  (1 из 6) (#138-1-why-single-triangle-models-are-incompletemd-1-из-6) [Содержание]
 - -   157-3-why-existing-solutions-fail.md  (1 из 10) (#157-3-why-existing-solutions-failmd-1-из-10) [Содержание]
 - -   170-1-the-cinderella-syndrome-why-quality-stays-invisi.md  (1 из 6) (#170-1-the-cinderella-syndrome-why-quality-stays-invisimd-1-из-6) [Содержание]
 - -   191-1-синдром-золушки-почему-качество-остаётся-невидим.md  (1 из 6) (#191-1-синдром-золушки-почему-качество-остаётся-невидимmd-1-из-6) [Содержание]
 - -   254-1-why-the-binary-view-is-incomplete.md  (1 из 6) (#254-1-why-the-binary-view-is-incompletemd-1-из-6) [Содержание]
-- _...ещё 61_
+- _...ещё 59_
 
 ### `342-что-такое-вариант-c-concept-document-для-anthropic.md` (51)
 
@@ -161,6 +161,24 @@ _Обновлено: 2026-04-29_
 - ### Является ли наш Nautilus Portal Protocol still valuable? [Это реализуется существующими tools?]
 - _...ещё 30_
 
+### `READABILITY.md` (34)
+
+- docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md    0   🔴 Очень сложный   178   14   12.7 [Все документы]
+- docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md    0   🔴 Очень сложный   765   68   11.2 [Все документы]
+- docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    0   🔴 Очень сложный   887   80   11.1 [Все документы]
+- docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    0   🔴 Очень сложный   729   65   11.2 [Все документы]
+- docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md    0   🔴 Очень сложный   291   29   10.0 [Все документы]
+- _...ещё 29_
+
+### `READING_TIME.md` (34)
+
+- docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md    ~4 мин   999   📘 Средне [Все документы]
+- docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md    ~3 мин   916   📘 Средне [Все документы]
+- docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    ~3 мин   887   📘 Средне [Все документы]
+- docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    ~3 мин   737   📘 Средне [Все документы]
+- docs/obsidian/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    ~3 мин   676   📘 Средне [Все документы]
+- _...ещё 29_
+
 ### `11-difficulties-and-recommendations.md` (27)
 
 - With your active SGB cases (S 6 SO 58/26 ER, S 7 SO 99/25), health considerations, other commitments — can you realistically dedicate 10-20 hours/week [Сложности и рекомендации перед detailed specification]
@@ -174,28 +192,10 @@ _Обновлено: 2026-04-29_
 
 - ## Какие 5 архитектурных зазоров выделены в исследовании? [Q&A: 02-anthropic-vacancies]
 - ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
-- ## Кто ключевые авторы проектов для контакта? [Что входит в интеграционный контракт между слоями?]
-- ## Какие вопросы лучше задавать авторам при первом контакте? [Кто ключевые авторы проектов для контакта?]
-- ## Какие кластеры найма выделены у Anthropic? [Какие вопросы лучше задавать авторам при первом контакте?]
+- ## Какие кластеры найма выделены у Anthropic? [Что входит в интеграционный контракт между слоями?]
+- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
+- ## Кто ключевые авторы проектов для контакта? [Какие роли наиболее релевантны для профиля svend4?]
 - _...ещё 17_
-
-### `READABILITY.md` (21)
-
-- docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md    0   🔴 Очень сложный   140   10   14.0 [Все документы]
-- docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md    0   🔴 Очень сложный   700   49   14.3 [Все документы]
-- docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    0   🔴 Очень сложный   817   62   13.2 [Все документы]
-- docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    0   🔴 Очень сложный   684   59   11.6 [Все документы]
-- docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md    0   🔴 Очень сложный   698   54   12.9 [Все документы]
-- _...ещё 16_
-
-### `READING_TIME.md` (21)
-
-- docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md    ~4 мин   960   📘 Средне [Все документы]
-- docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    ~3 мин   692   📘 Средне [Все документы]
-- docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    ~3 мин   817   📘 Средне [Все документы]
-- docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md    ~3 мин   647   📘 Средне [Все документы]
-- docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md    ~2 мин   700   📗 Быстро [Все документы]
-- _...ещё 16_
 
 ### `01-response-en.md` (19)
 
@@ -215,13 +215,13 @@ _Обновлено: 2026-04-29_
 - Какова правильная модель ценообразования для представительских агентов? [10.1. Технические Вопросы]
 - _...ещё 13_
 
-### `ACTION_ITEMS.md` (18)
+### `SITEMAP.md` (18)
 
-- - Хотите, чтобы я написал consolidating document «The Double-Triangle Architecture» в следующем сообщении? [➡️ Следующие шаги (150)]
-- - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идё [✅ Решения и рекомендации (275)]
-- Are you actually committing к multi-year Variant D vision, or treating это как aspirational document? [✅ Решения и рекомендации (275)]
-- - Adopt these documents как Lorenzo technical foundation? [✅ Решения и рекомендации (275)]
-- -   Почему это важно   Снижение риска [⚠️ Риски (593)]
+- Почему это валидный паттерн для AI-assisted wor (docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)   168 [Вакансии Anthropic — 436 позиций]
+- Why Single-Triangle Models Are Incomplete (docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)   584 [Вакансии Anthropic — 436 позиций]
+- 3    Четыре структурные причины, почему это не работает (docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)   357 [anthropic-vacancies]
+- 7    Почему двойственность «ангел-хранитель + строгий д (docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)   529 [anthropic-vacancies]
+- 14    Section 2: Why this matters — beneficial dimension (docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md [anthropic-vacancies]
 - _...ещё 13_
 
 ### `10-otkrytye-voprosy.md` (18)
@@ -233,22 +233,13 @@ _Обновлено: 2026-04-29_
 - Какова правильная модель ценообразования для представительских агентов? [10.1. Технические Вопросы]
 - _...ещё 13_
 
-### `SITEMAP.md` (17)
-
-- Почему это валидный паттерн для AI-assisted wor (docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)   150 [Вакансии Anthropic — 436 позиций]
-- Why Single-Triangle Models Are Incomplete (docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)   584 [Вакансии Anthropic — 436 позиций]
-- 3    Четыре структурные причины, почему это не работает (docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)   339 [anthropic-vacancies]
-- 7    Почему двойственность «ангел-хранитель + строгий д (docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)   511 [anthropic-vacancies]
-- 14    Section 2: Why this matters — beneficial dimension (docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md [anthropic-vacancies]
-- _...ещё 12_
-
 ### `QA.md` (17)
 
 - ## Какие кластеры найма выделены у Anthropic? [Q&A: lorenzo-agent]
 - ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
-- ## Как работает AgentFS и что такое .agentos? [Какие роли наиболее релевантны для профиля svend4?]
-- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
-- ## Как CardIndex хранит и версионирует карточки? [Что такое knowledge-space и для кого он предназначен?]
+- ## Каковы этапы MVP и их оценка по времени? [Какие роли наиболее релевантны для профиля svend4?]
+- ## Что входит в первую итерацию прототипа? [Каковы этапы MVP и их оценка по времени?]
+- ## Кто ключевые авторы проектов для контакта? [Что входит в первую итерацию прототипа?]
 - _...ещё 12_
 
 ### `QA.md` (15)
@@ -278,13 +269,22 @@ _Обновлено: 2026-04-29_
 - - Why : Quality metrics framework directly applicable [Краткие заметки к переводу]
 - _...ещё 9_
 
+### `ACTION_ITEMS.md` (14)
+
+- - Хотите, чтобы я написал consolidating document «The Double-Triangle Architecture» в следующем сообщении? [➡️ Следующие шаги (246)]
+- - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идё [✅ Решения и р]
+- Are you actually committing к multi-year Variant D vision, or treating это как aspirational document? [✅ Решения и рекомендации (444)]
+- - Adopt these documents как Lorenzo technical foundation? [✅ Решения и рекомендации (444)]
+- -   Почему это важно   Снижение риска [⚠️ Риски (909)]
+- _...ещё 9_
+
 ### `READING_ORDER.md` (13)
 
-- 113   🟢 Начало    Зачем две версии параллельно (docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)   97   — [Рекомендуемый порядок чтения]
-- Почему это валидный паттерн для AI-assiste (docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)   150   — [Рекомендуемый порядок чтения]
+- 113   🟢 Начало    Зачем две версии параллельно (docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)   218   — [Рекомендуемый порядок чтения]
+- Почему это валидный паттерн для AI-assiste (docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)   168   — [Рекомендуемый порядок чтения]
 - Why Single-Triangle Models Are Incomplete (docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)   584   — [Рекомендуемый порядок чтения]
-- Why Existing Solutions Fail (docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)   700   — [Рекомендуемый порядок чтения]
-- The Cinderella Syndrome: Why Quality Stays (docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)   842   — [Рекомендуемый порядок чтения]
+- Why Existing Solutions Fail (docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)   785   — [Рекомендуемый порядок чтения]
+- The Cinderella Syndrome: Why Quality Stays (docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)   931   — [Рекомендуемый порядок чтения]
 - _...ещё 8_
 
 ### `QA.md` (12)
@@ -343,8 +343,8 @@ _Обновлено: 2026-04-29_
 
 ### `KNOWLEDGE_MAP.md` (11)
 
-- - - - - - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
-- - - - - - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
 - - - Как реализован forensic RAG с доказуемостью? [Топ сущностей]
 - - - Что такое Evidence Envelope и зачем он нужен? [Открытые вопросы]
 - - - Какие RAG-подходы сравниваются в документах? [Открытые вопросы]
@@ -386,22 +386,13 @@ _Обновлено: 2026-04-29_
 - Что из этого feels aligned с вашими current capabilities и interest? [Следующие конкретные шаги]
 - _...ещё 4_
 
-### `DUPLICATES.md` (9)
+### `171-2-historical-precedents-agents-as-civilizational-i.md` (9)
 
-- Mitigations  : - Open coordinator architecture, with multiple coordinator    options - Transparent routing logic (principal can see why sub-agent    w [79% — `docs/02-anthropic-vacancies/263-10-risks-specific-to-]
-- Why Double-Triangle for OKWF  : - Explicitly designed for single contributors in distributed    teams - Preserves contributor autonomy (lower triangle [77% — `docs/02-anthropic-vacancies/158-4-proposed-infrastruc]
-- Why subsidiarity is right model  : - Below full-salary level preserves other life activities    (elders, disabled, caregivers) - Above charity level p [77% — `docs/02-anthropic-vacancies/158-4-proposed-infrastruc]
-- How are contributions to pattern library rewarded? [73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` ]
-- But what if Node disagrees with an assignment? [73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` ]
-- _...ещё 4_
-
-### `QA.md` (9)
-
-- ## Какие кластеры найма выделены у Anthropic? [Q&A: anthropic-vacancies]
-- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
-- ## Как реализован forensic RAG с доказуемостью? [Какие роли наиболее релевантны для профиля svend4?]
-- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
-- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
+- Why it works  : Allows highly-talented but business-naive [2.1. Literary and Performance Agents]
+- Why it works  : Athletes' careers are short and physically [2.2. Sports Agents]
+- Why it works  : Hollywood is a relationship-intensive [2.3. Talent Agents in Hollywood]
+- Why it works  : Specialized knowledge of procedural systems [2.4. Civil Service Representation]
+- Why it works  : Real estate transactions are infrequent for [2.5. Real Estate Agents]
 - _...ещё 4_
 
 ### `10-open-questions.md` (9)
@@ -413,6 +404,15 @@ _Обновлено: 2026-04-29_
 - What's the legal status of agent communications? [10.2. Economic Questions]
 - _...ещё 4_
 
+### `144-7-open-questions.md` (8)
+
+- Who decides what the meta-agent can see? [7. Open Questions]
+- comment made in private mode — visible? [7.1. Governance and Consent]
+- But what if Node disagrees with an assignment? [7.1. Governance and Consent]
+- How are contributions to pattern library rewarded? [7.2. Economics and Incentives]
+- Does the Double-Triangle reduce or increase cognitive load? [7.2. Economics and Incentives]
+- _...ещё 3_
+
 ### `248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (8)
 
 - 🎯   Проблема:   Почему это важно архитектурно Композитный Агент решает критическую проблему , которую ни Тип 1, ни Тип 5 решить не могут. [Приложение C: Архитектура Быстрого Старта для SGB Адвоката-К]
@@ -420,6 +420,15 @@ _Обновлено: 2026-04-29_
 - -  Почему это важно архитектурно (#почему-это-важно-архитектурно) [Содержание]
 - Хотите, чтобы я также перевёл предыдущие документы (PORTAL-PROTOCOL, REVIEW METHODOLOGY, DOUBLE-TRIANGLE-ARCHITECTURE, OKWF Concept), или что-то ещё? [Краткие заметки к переводу]
 - Возникает интересный вопрос: кто выбирает , какие под-агенты подключить? [Технические компоненты]
+- _...ещё 3_
+
+### `283-what-this-document-doesn-t-solve.md` (8)
+
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [What This Document Doesn't Solve]
+- -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
+- -  Why This Document Exists (275-why-this-document-exists.md)  37% [Упоминается в]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  21% [What This Document Doesn't Solve]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  17% [Связанные документы]
 - _...ещё 3_
 
 ### `SIMILAR_PASSAGES.md` (8)
@@ -431,6 +440,15 @@ _Обновлено: 2026-04-29_
 - Контракт Минимальные поля Зачем нужен в MVP На какие идеи опирается --- --- --- --- Card Envelope card id , card type , state , sources , edges , upda [23. Сходство: 1.0 (100%)]
 - _...ещё 3_
 
+### `VERSION_DIFF.md` (8)
+
+- docs/FAQ.md    -264   Did creator approve final attribution?, Question 5: Каковы limits Lorenzo's authority?, Принимаем эту architecture как Lorenzo v [📝 Изменённые файлы (933)]
+- docs/02-anthropic-vacancies/275-why-this-document-exists.md    +249   Связанные документы, Содержание, Упоминается в   — [📝 Изменённые файлы (933)]
+- docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md    +229   Связанные документы, Упоминается в   — [📝 Изменённые файлы (933)]
+- docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md    +215   Связанные документы, Содержание, Упоминается в   — [📝 Изменённые файлы (933)]
+- docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    +79   Связанные документы, Упоминается в   — [📝 Изменённые файлы (933)]
+- _...ещё 3_
+
 ### `01-three-related-themes.md` (8)
 
 - Часть 1: Почему Anthropic имеет 400+ открытых вакансий в мировой компании №1? [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
@@ -440,13 +458,13 @@ _Обновлено: 2026-04-29_
 - Почему это именно сейчас стало возможным [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
 - _...ещё 3_
 
-### `144-7-open-questions.md` (7)
+### `192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (7)
 
-- Who decides what the meta-agent can see? [7. Open Questions]
-- comment made in private mode — visible? [7.1. Governance and Consent]
-- But what if Node disagrees with an assignment? [7.1. Governance and Consent]
-- How are contributions to pattern library rewarded? [7.2. Economics and Incentives]
-- Does the Double-Triangle reduce or increase cognitive load? [7.2. Economics and Incentives]
+- ✅   Результат:   Почему работает: Специализированное знание процедурных систем даёт представителям рычаги, которые обычные граждане не могут получить. [2. Исторические прецеденты: Агенты как цивилизационная иннов]
+- Почему работает  : Позволяет высокоталантливым, но наивным в бизнесе создателям сосредоточиться на творчестве, по-прежнему получая справедливое вознаг [2.1. Литературные и исполнительские агенты]
+- Почему работает  : Карьеры спортсменов короткие и физически требовательные. [2.2. Спортивные агенты]
+- Почему работает  : Голливуд — индустрия, интенсивная отношениями. [2.3. Талант-агенты в Голливуде]
+- Почему работает  : Специализированное знание процедурных систем даёт представителям рычаги, которые обычные граждане не могут получить. [2.4. Представительство в гражданских службах]
 - _...ещё 2_
 
 ### `366-технический-stack-svyazi-2-0-foundation.md` (7)
@@ -469,10 +487,10 @@ _Обновлено: 2026-04-29_
 
 ### `TIMELINE.md` (7)
 
-- - 📌   2022   ·  Why This Hasn't Been Built [2022 (12 упоминаний)]
-- - 📌   2022   ·  Почему это не было построено [2022 (12 упоминаний)]
-- - 📌   2022   ·  Why This Hasn't Been Built [2022 (12 упоминаний)]
-- - 📌   2022   ·  Почему это не было построено [2022 (12 упоминаний)]
+- - 📌   2022   ·  Why This Hasn't Been Built [2022 (10 упоминаний)]
+- - 📌   2022   ·  Почему это не было построено [2022 (10 упоминаний)]
+- - 📌   2022   ·  Why This Hasn't Been Built [2022 (10 упоминаний)]
+- - 📌   2022   ·  Почему это не было построено [2022 (10 упоминаний)]
 - Почему это именно сейчас стало возможным В 2023 — невозможно. [2023 (11 упоминаний)]
 - _...ещё 2_
 
@@ -503,15 +521,6 @@ _Обновлено: 2026-04-29_
 - information (Mar 11, «новости ньюз») — новостной агрегатор? [Кластер 3: AI / Agents / Novel architectures (≈13 репо)]
 - _...ещё 1_
 
-### `192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (6)
-
-- ✅   Результат:   Почему работает: Специализированное знание процедурных систем даёт представителям рычаги, которые обычные граждане не могут получить. [2. Исторические прецеденты: Агенты как цивилизационная иннов]
-- Почему работает  : Позволяет высокоталантливым, но наивным в бизнесе создателям сосредоточиться на творчестве, по-прежнему получая справедливое вознаг [2.1. Литературные и исполнительские агенты]
-- Почему работает  : Карьеры спортсменов короткие и физически требовательные. [2.2. Спортивные агенты]
-- Почему работает  : Голливуд — индустрия, интенсивная отношениями. [2.3. Талант-агенты в Голливуде]
-- Почему работает  : Специализированное знание процедурных систем даёт представителям рычаги, которые обычные граждане не могут получить. [2.4. Представительство в гражданских службах]
-- _...ещё 1_
-
 ### `254-1-why-the-binary-view-is-incomplete.md` (6)
 
 - Why the Binary View Is Incomplete [1.]
@@ -530,6 +539,42 @@ _Обновлено: 2026-04-29_
 - configuration span sub-agents from multiple professions? [11.3. Cross-Professional Configurations]
 - _...ещё 1_
 
+### `276-the-two-layer-stack-as-it-exists.md` (6)
+
+- -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
+- -  Why This Document Exists (275-why-this-document-exists.md)  29% [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  25% [Упоминается в]
+- -  Why This Document Exists (275-why-this-document-exists.md)  29% [Упоминается в]
+- _...ещё 1_
+
+### `277-what-s-missing-layer-b.md` (6)
+
+- What would Layer B look like, ideally? [What's Missing — Layer B]
+- -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
+- -  Why This Document Exists (275-why-this-document-exists.md)  29% [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  17% [Связанные документы]
+- -  Why This Document Exists (275-why-this-document-exists.md)  29% [Упоминается в]
+- _...ещё 1_
+
+### `280-the-specific-case-in-front-of-us.md` (6)
+
+- Given the gap, what can we realistically do now? [What we need but lack]
+- -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
+- -  Why This Document Exists (275-why-this-document-exists.md)  33% [Упоминается в]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  25% [Связанные документы]
+- -  Why This Document Exists (275-why-this-document-exists.md)  29% [Упоминается в]
+- _...ещё 1_
+
+### `285-closing.md` (6)
+
+- -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  29% [Упоминается в]
+- -  Why This Document Exists (275-why-this-document-exists.md)  17% [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  33% [Упоминается в]
+- _...ещё 1_
+
 ### `365-развёрнутый-анализ-внуковой-комбинации.md` (6)
 
 - Decide : Принимаем эту architecture как Lorenzo vision? [Final мнение]
@@ -541,11 +586,20 @@ _Обновлено: 2026-04-29_
 
 ### `REPORT.md` (6)
 
-- AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   50   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые проекты]
-- VitalyOborin     Yodoca   memory   39   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
+- AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   85   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые проекты]
+- VitalyOborin     Yodoca   memory   70   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
 - -   Интерфейс   — есть ли понятный публичный API/контракт для интеграции? [Открытые вопросы]
 - -   Доказуемость   — можно ли проверить, что слой работает правильно? [Открытые вопросы]
 - - Как двойственная архитектура избегает этого? [Открытые вопросы]
+- _...ещё 1_
+
+### `QA.md` (6)
+
+- ## Какие кластеры найма выделены у Anthropic? [Q&A: anthropic-vacancies]
+- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
+- ## Какие 5 архитектурных зазоров выделены в исследовании? [Какие роли наиболее релевантны для профиля svend4?]
+- ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
+- ## Кто ключевые авторы проектов для контакта? [Что входит в интеграционный контракт между слоями?]
 - _...ещё 1_
 
 ### `05-polymath-project-tao-comparison.md` (6)
@@ -601,6 +655,14 @@ _Обновлено: 2026-04-29_
 - Q3  : Что делать, если A и B радикально расходятся в структуре? [8.2. Открытые вопросы]
 - Q4  : Как долго может оставаться документ в transitional state? [8.2. Открытые вопросы]
 
+### `122-глоссарий.md` (5)
+
+- Когда в академической статье/документе вводится новая методология, первый вопрос рецензента: «а что из этого новое, что старое?». [Комментарий к документу]
+- Это единственное место в документе, где проговорена экономическая подоплёка : почему традиционная DRY-policy перестаёт работать, когда unit cost меняе [Комментарий к документу]
+- #### Почему этот документ важнее, чем кажется [Комментарий к документу]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  29% [Упоминается в]
+
 ### `138-1-why-single-triangle-models-are-incomplete.md` (5)
 
 - Why Single-Triangle Models Are Incomplete (#1-why-single-triangle-models-are-incomplete) [1.]
@@ -609,13 +671,13 @@ _Обновлено: 2026-04-29_
 - answers:   how do we automate entire workflows with AI? [1.1. The Current Landscape]
 - lead's decisions about   how   to coordinate the engineer depend [1.2. What Both Paradigms Miss]
 
-### `171-2-historical-precedents-agents-as-civilizational-i.md` (5)
+### `142-5-pattern-library-as-bridge-between-triangles.md` (5)
 
-- Why it works  : Allows highly-talented but business-naive [2.1. Literary and Performance Agents]
-- Why it works  : Athletes' careers are short and physically [2.2. Sports Agents]
-- Why it works  : Hollywood is a relationship-intensive [2.3. Talent Agents in Hollywood]
-- Why it works  : Specialized knowledge of procedural systems [2.4. Civil Service Representation]
-- Why it works  : Real estate transactions are infrequent for [2.5. Real Estate Agents]
+- Why This Architecture Is Critical for Double-Triangle (#55-why-this-architecture-is-critical-for-double-triangle) [Содержание]
+- each Node privately replicating this knowledge? [5.1. The Problem of Shared Knowledge]
+- Why This Architecture Is Critical for Double-Triangle [Содержание]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [5.5. Why This Architecture Is Critical for Double-Triangle]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  21% [5.5. Why This Architecture Is Critical for Double-Triangle]
 
 ### `221-10-open-questions.md` (5)
 
@@ -625,6 +687,14 @@ _Обновлено: 2026-04-29_
 - Should some professions resist Professional Colleague Agents? [10.7. Profession-Wide Effects]
 - Are there professional values that AI augmentation undermines? [10.]
 
+### `253-table-of-contents.md` (5)
+
+- Why the Binary View Is Incomplete [Table of Contents]
+- Why the Binary View Is Incomplete [Table of Contents]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Table of Contents]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [Table of Contents]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [Table of Contents]
+
 ### `257-4-the-sub-agent-registry.md` (5)
 
 - What does this sub-agent specialize in? [4.1. What a Sub-Agent Is]
@@ -633,6 +703,14 @@ _Обновлено: 2026-04-29_
 - How is this sub-agent typically used? [4.2. Registry Structure]
 - At what stages of professional work? [4.2. Registry Structure]
 
+### `266-13-closing.md` (5)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [13. Closing]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  25% [13. Closing]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  17% [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  29% [Упоминается в]
+
 ### `272-appendix-d-connection-diagram.md` (5)
 
 - -  Что существует сейчас и почему этого недостаточно (#что-существует-сейчас-и-почему-этого-недостаточно) [Содержание]
@@ -640,6 +718,46 @@ _Обновлено: 2026-04-29_
 - Существуют ли organizations, которые могли бы это построить? [Технически это построить — что нужно]
 - Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать? [Связь с тем, что вы построили]
 - Запрос    Что-то типа два второй пункт но не второй пункт а второй пункт.три  2.3 почему два точка три а не 2.5 потому что этот вопрос находится не со [Один honest мысль]
+
+### `278-why-this-hasn-t-been-built.md` (5)
+
+- # Why This Hasn't Been Built
+- -  Why This Hasn't Been Built (#why-this-hasnt-been-built) [С]
+- ## Why This Hasn't Been Built [Содержание]
+- -  Why This Document Exists (275-why-this-document-exists.md)  17% [Связанные документы]
+- -  Why This Document Exists (275-why-this-document-exists.md)  21% [Связанные документы]
+
+### `281-the-recursive-insight.md` (5)
+
+- What if Nautilus, extended slightly, became a personal [The Recursive Insight]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  17% [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  29% [Упоминается в]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  21% [Связанные документы]
+
+### `286-acknowledgments.md` (5)
+
+- -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
+- -  Why This Document Exists (275-why-this-document-exists.md)  33% [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  25% [Упоминается в]
+- -  Why This Document Exists (275-why-this-document-exists.md)  42% [Упоминается в]
+
+### `308-table-of-contents.md` (5)
+
+- The Cowork Discovery and Why It Changes Everything [Table of Contents]
+- The Cowork Discovery and Why It Changes Everything [Table of Contents]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Table of Contents]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  37% [Table of Contents]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  42% [Table of Contents]
+
+### `329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (5)
+
+- ✅   Результат:   Что InGit обеспечивает, чего Cowork не хватает Не менее важно: где InGit добавляет ценность, которую Cowork в одиночку не обеспечивае [3. Что InGit обеспечивает, чего Cowork не хватает]
+- которую Cowork в одиночку не обеспечивает? [3. Что InGit обеспечивает, чего Cowork не хватает]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md) [Author]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  17% [Author]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  21% [Author]
 
 ### `00-intro.md` (5)
 
@@ -651,11 +769,19 @@ _Обновлено: 2026-04-29_
 
 ### `CONTACTS.md` (5)
 
-- AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   50   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые авторы проектов]
-- VitalyOborin     Yodoca   memory   39   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые авторы проектов]
-- andrey chuyan     Svyazi   ingestion/CardIndex   15   Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы [Ключевые авторы проектов]
-- kksudo     AgentFS   knowledge/filesystem   57   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
-- spbmolot     NGT Memory   memory   58   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discover [Ключевые авторы проектов]
+- AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   85   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые авторы проектов]
+- VitalyOborin     Yodoca   memory   70   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые авторы проектов]
+- andrey chuyan     Svyazi   ingestion/CardIndex   32   Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы [Ключевые авторы проектов]
+- kksudo     AgentFS   knowledge/filesystem   130   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
+- spbmolot     NGT Memory   memory   131   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discove [Ключевые авторы проектов]
+
+### `GITHUB_ISSUES.md` (5)
+
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
 
 ### `00-question-rephrasing.md` (5)
 
@@ -736,6 +862,34 @@ _Обновлено: 2026-04-29_
 - Почему consensus через string match, а не через embeddings? [Часть 4. Псевдокод ключевых компонентов]
 - Nautilus как протокол — для чего он нужен именно вам на этом этапе? [portal-mcp.py]
 
+### `104-appendix-c-references.md` (4)
+
+- #### Почему это важный артефакт для вас [Комментарий к документу]
+- Любой reviewer, спрашивающий "почему federation, а не centralization?" — получает ссылку на ADR-001. [Комментарий к документу]
+- Пишу его с расчётом на две аудитории: вас самого (как напоминание правил на будущее) и внешнего читателя (researcher, collaborator, grant reviewer), к [Комментарий к документу]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
+
+### `156-2-target-populations.md` (4)
+
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [2.5. Cross-Cutting Observations]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [Упоминается в]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  17% [Упоминается в]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)  17% [2.5. Cross-Cutting Observations]
+
+### `168-abstract.md` (4)
+
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [Abstract]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  21% [Упоминается в]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  25% [Упоминается в]
+
+### `169-table-of-contents.md` (4)
+
+- The Cinderella Syndrome: Why Quality Stays Invisible [Table of Contents]
+- The Cinderella Syndrome: Why Quality Stays Invisible [Table of Contents]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [Table of Contents]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)  21% [Table of Contents]
+
 ### `170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (4)
 
 - The Cinderella Syndrome: Why Quality Stays Invisible [1.]
@@ -763,6 +917,20 @@ _Обновлено: 2026-04-29_
 - The Cowork Discovery and Why It Changes Everything (#1-the-cowork-discovery-and-why-it-changes-everything) [1.]
 - The Cowork Discovery and Why It Changes Everything [1.]
 - does InGit position itself relative to Cowork? [1.3. The Strategic Implication]
+
+### `319-acknowledgments.md` (4)
+
+- 🎯   Проблема:   Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's ques [Содержание]
+- This document emerged from author's question about how to [Содержание]
+- This document emerged from author's question about how to [Содержание]
+- -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
+
+### `326-содержание.md` (4)
+
+- Открытие Cowork и почему это меняет всё [Содержание]
+- Открытие Cowork и почему это меняет всё [Содержание]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md) [Содержание]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  29% [Содержание]
 
 ### `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` (4)
 
@@ -833,11 +1001,11 @@ _Обновлено: 2026-04-29_
 - Риск   Почему это важно   Снижение риска [План прототипа и возможные контакты]
 - Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [План прототипа и возможные контакты]
 
-### `104-appendix-c-references.md` (3)
+### `106-tl-dr.md` (3)
 
-- #### Почему это важный артефакт для вас [Комментарий к документу]
-- Любой reviewer, спрашивающий "почему federation, а не centralization?" — получает ссылку на ADR-001. [Комментарий к документу]
-- Пишу его с расчётом на две аудитории: вас самого (как напоминание правил на будущее) и внешнего читателя (researcher, collaborator, grant reviewer), к [Комментарий к документу]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  33% [Упоминается в]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  42% [Упоминается в]
 
 ### `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` (3)
 
@@ -845,17 +1013,29 @@ _Обновлено: 2026-04-29_
 - ✅   Результат:   Два независимых анализа пришли к разным выводам: --- Вопрос: fallback-ratio как критический или осмысленный? [Вопрос: fallback-ratio как критический или осмысленный?]
 - ## Вопрос: fallback-ratio как критический или осмысленный? [Вопрос: fallback-ratio как критический или осмысленный?]
 
-### `122-глоссарий.md` (3)
+### `136-abstract.md` (3)
 
-- Когда в академической статье/документе вводится новая методология, первый вопрос рецензента: «а что из этого новое, что старое?». [Комментарий к документу]
-- Это единственное место в документе, где проговорена экономическая подоплёка : почему традиционная DRY-policy перестаёт работать, когда unit cost меняе [Комментарий к документу]
-- #### Почему этот документ важнее, чем кажется [Комментарий к документу]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Abstract]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  25% [Abstract]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  33% [Abstract]
 
-### `142-5-pattern-library-as-bridge-between-triangles.md` (3)
+### `140-3-three-inter-layer-protocols.md` (3)
 
-- Why This Architecture Is Critical for Double-Triangle (#55-why-this-architecture-is-critical-for-double-triangle) [Содержание]
-- each Node privately replicating this knowledge? [5.1. The Problem of Shared Knowledge]
-- Why This Architecture Is Critical for Double-Triangle [Содержание]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [3.4. Protocol Interactions]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  25% [3.4. Protocol Interactions]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  29% [3.4. Protocol Interactions]
+
+### `155-1-problem-statement.md` (3)
+
+- Why This Matters Beyond Economics (#12-why-this-matters-beyond-economics) [Содержание]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [1.3. Why Now]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [1.3. Why Now]
+
+### `190-содержание.md` (3)
+
+- Синдром Золушки: Почему качество остаётся невидимым [Содержание]
+- Синдром Золушки: Почему качество остаётся невидимым [Содержание]
+- Синдром Золушки: Почему качество остаётся невидимым (191-1-синдром-золушки-почему-качество-остаётся-невидим.md) [Содержание]
 
 ### `191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (3)
 
@@ -869,11 +1049,41 @@ _Обновлено: 2026-04-29_
 - Это объясняет, почему «Обучай» прошёл от 0 до 93 тысяч пользователей без сопротивления, в то время как Representative Agent Layer воспринимается как « [Семь различий между Представительским Агентом и Профессионал]
 - Хотите, чтобы я написал этот sixth paper в следующем сообщении, или предпочтёте другое направление? [Почему этот переход — не просто «улучшение», а архитектурный]
 
-### `319-acknowledgments.md` (3)
+### `252-abstract.md` (3)
 
-- 🎯   Проблема:   Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's ques [Acknowledgments]
-- This document emerged from author's question about how to [Acknowledgments]
-- This document emerged from author's question about how to [Acknowledgments]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Abstract]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  48% [Abstract]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  42% [Abstract]
+
+### `255-2-the-twenty-one-teachers-pattern.md` (3)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [2.4. AI Architecture Should Mirror This]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [2.4. AI Architecture Should Mirror This]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  25% [2.4. AI Architecture Should Mirror This]
+
+### `284-practical-recommendations-for-the-current-project.md` (3)
+
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Practical Recommendations for the Current Project]
+- -  Why This Document Exists (275-why-this-document-exists.md)  25% [Связанные документы]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  29% [Practical Recommendations for the Current Project]
+
+### `296-рекурсивное-прозрение.md` (3)
+
+- -  Почему это не было построено (293-почему-это-не-было-построено.md) [Рекурсивное прозрение]
+- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Упоминается в]
+- -  Почему этот документ существует (290-почему-этот-документ-существует.md)  17% [Упоминается в]
+
+### `303-приложение-визуализация-позиции-в-серии.md` (3)
+
+- -  Стоит ли разделить InGit на части и интегрировать в чат? [Содержание]
+- Что если InGit станет template для Cowork Projects ? [Краткие заметки к переводу]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  17% [Конкретный практический вопрос]
+
+### `307-abstract.md` (3)
+
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Abstract]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  25% [Abstract]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  29% [Abstract]
 
 ### `327-1-открытие-cowork-и-почему-это-меняет-всё.md` (3)
 
@@ -886,12 +1096,6 @@ _Обновлено: 2026-04-29_
 - Контур   Что входит   Зачем   Оценка усилий [План прототипа и возможные контакты]
 - Риск   Почему это важно   Снижение риска [План прототипа и возможные контакты]
 - Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [План прототипа и возможные контакты]
-
-### `GITHUB_ISSUES.md` (3)
-
-- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
 
 ### `03-nautilus-B-meta-orchestrator.md` (3)
 
@@ -999,50 +1203,65 @@ _Обновлено: 2026-04-29_
 - Почему это валидный паттерн для AI-assisted workflows [6.]
 - Почему это валидный паттерн для AI-assisted workflows [6.]
 
+### `137-table-of-contents.md` (2)
+
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Table of Contents]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  29% [Table of Contents]
+
 ### `147-references.md` (2)
 
 - "How do committees invent?"  Datamation . [Contents]
 - "How do committees invent?"  Datamation . [Contents]
+
+### `153-executive-summary.md` (2)
+
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [Упоминается в]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  29% [Упоминается в]
 
 ### `158-4-proposed-infrastructure.md` (2)
 
 - Why pattern library is critical  : [4.3. Knowledge Layer: Pattern Library with Private Instances]
 - Why subsidiarity is right model  : [4.5. Economic Layer: Subsidiarity-Based Compensation]
 
-### `169-table-of-contents.md` (2)
-
-- The Cinderella Syndrome: Why Quality Stays Invisible [Table of Contents]
-- The Cinderella Syndrome: Why Quality Stays Invisible [Table of Contents]
-
 ### `172-3-what-makes-a-representative-agent.md` (2)
 
 - - How does principal monitor agent? [3.4. The Principal-Agent Relationship]
 - - What recourse if agent misbehaves? [3.4. The Principal-Agent Relationship]
 
-### `190-содержание.md` (2)
+### `181-12-closing.md` (2)
 
-- Синдром Золушки: Почему качество остаётся невидимым [Содержание]
-- Синдром Золушки: Почему качество остаётся невидимым [Содержание]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [12. Closing]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)  25% [12. Closing]
+
+### `215-4-architecture-of-professional-colleague-agents.md` (2)
+
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [4.5. Integration Standards]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [Связанные документы]
 
 ### `228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (2)
 
 - - Mediation collapse (учитель и ученик оба используют AI; где обучение?) — самый цитированный public concern [Комментарий к шестому документу]
 - Что бы вы хотели делать дальше? [Комментарий к шестому документу]
 
-### `253-table-of-contents.md` (2)
+### `259-6-coordination-and-disagreement-resolution.md` (2)
 
-- Why the Binary View Is Incomplete [Table of Contents]
-- Why the Binary View Is Incomplete [Table of Contents]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [6.5. Learning from Resolution]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [6.5. Learning from Resolution]
 
 ### `265-12-call-for-collaboration.md` (2)
 
 - configuration of sub-agents would actually serve your work? [12.]
 - What would make composite agents valuable versus merely complex? [12.1. For Practitioners]
 
-### `278-why-this-hasn-t-been-built.md` (2)
+### `275-why-this-document-exists.md` (2)
 
-- # Why This Hasn't Been Built
-- ## Why This Hasn't Been Built [Why This Hasn't Been Built]
+- -  Why This Document Exists (#why-this-document-exists) [С]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
+
+### `282-what-industry-will-likely-build.md` (2)
+
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  21% [Связанные документы]
+- -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  21% [Связанные документы]
 
 ### `288-appendix-position-in-series-visualization.md` (2)
 
@@ -1054,15 +1273,15 @@ _Обновлено: 2026-04-29_
 - 🎯   Проблема:   Почему этот документ существует Семь предыдущих документов в этой серии были --- Почему этот документ существует Семь предыдущих докум [Почему этот документ существует]
 - 🏷️   Ключевые слова:    документ ,  anthropic ,  vacancies ,  документов ,  почему ,  существует ,  предыдущих ,  серии [Почему этот документ существует]
 
-### `303-приложение-визуализация-позиции-в-серии.md` (2)
+### `292-что-отсутствует-слой-b.md` (2)
 
-- -  Стоит ли разделить InGit на части и интегрировать в чат? [Содержание]
-- Что если InGit станет template для Cowork Projects ? [Краткие заметки к переводу]
+- Как бы выглядел Слой B идеально? [Что отсутствует — Слой B]
+- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Упоминается в]
 
-### `308-table-of-contents.md` (2)
+### `301-благодарности.md` (2)
 
-- The Cowork Discovery and Why It Changes Everything [Table of Contents]
-- The Cowork Discovery and Why It Changes Everything [Table of Contents]
+- -  Почему это не было построено (293-почему-это-не-было-построено.md) [Упоминается в]
+- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Упоминается в]
 
 ### `315-7-practical-first-steps-this-month.md` (2)
 
@@ -1074,15 +1293,10 @@ _Обновлено: 2026-04-29_
 - Q3  : How does pricing evolve? [9.6. Open Questions]
 - Q4  : Will Cowork add threading/branching/annotation features? [9.6. Open Questions]
 
-### `326-содержание.md` (2)
+### `324-ingit-как-cowork-интегрированная-подложка-рабочего.md` (2)
 
-- Открытие Cowork и почему это меняет всё [Содержание]
-- Открытие Cowork и почему это меняет всё [Содержание]
-
-### `329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (2)
-
-- ✅   Результат:   Что InGit обеспечивает, чего Cowork не хватает Не менее важно: где InGit добавляет ценность, которую Cowork в одиночку не обеспечивае [3. Что InGit обеспечивает, чего Cowork не хватает]
-- которую Cowork в одиночку не обеспечивает? [3. Что InGit обеспечивает, чего Cowork не хватает]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md) [Практический путь к Слою B через симбиотическую интеграцию с]
+- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Упоминается в]
 
 ### `333-7-практические-первые-шаги-в-этом-месяце.md` (2)
 
@@ -1119,15 +1333,15 @@ _Обновлено: 2026-04-29_
 - Слой qwen-classifier перед роутером — твой legal-domain-manager уже умеет классифицировать тип запроса (Bescheid? [Пара 1. LLM-gateway × Self-hosted фронт + локальный inferenc]
 - - утром tmux-деревня готовит саммари: «вчера ночью провёл 47 экспериментов, эти 3 улучшили LCI на 0.05, эти 2 деградировали — посмотри почему». [Ансамбль 1: «Один человек = одна компания»]
 
-### `CLUSTERS.md` (2)
+### `DUPLICATES.md` (2)
 
-- ## Кластер 21 — вариант, docs, anthropic-vacancies, зачем-две-версии-параллельно (7 файлов) [Кластер 20 — adr-, federation-over-merging, anthropic-vacanc]
-- ## Кластер 26 — acknowledgments, document, anthropic-vacancies, why-this-document-exists (6 файлов) [Кластер 25 — query, portal, consensus, repos (6 файлов)]
+- ### 81% —  docs/obsidian/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md  vs  docs/nautilus/representative-agent-laye [100% — `docs/obsidian/autofilled/components/cowork.md` vs `d]
+- The Cinderella Syndrome: Why Quality Stays Invisible (#1-the-cinderella-syndrome-why-quality-stays-invisible)   -  1.1. [86% — `docs/obsidian/02-anthropic-vacancies/261-8-seven-doma]
 
 ### `KPI.md` (2)
 
-- 2     адаптер для нового репо без задавания вопросов автору? [Этап (71)]
-- 3     озвращает non-empty результат с consensus-информацией? [Этап (71)]
+- 2     адаптер для нового репо без задавания вопросов автору? [Этап (74)]
+- 3     озвращает non-empty результат с consensus-информацией? [Этап (74)]
 
 ### `PASSIVE_VOICE.md` (2)
 
@@ -1268,33 +1482,93 @@ _Обновлено: 2026-04-29_
 
 - Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [Интеграционный контракт, который стоит зафиксировать сразу]
 
+### `03-portal-protocol-md.md` (1)
+
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
+
 ### `09-4-passport-passport-md.md` (1)
 
 - Один абзац: что это, для кого, почему существует. [4.2. Recommended Structure]
+
+### `102-доступ-к-данным.md` (1)
+
+- Почему это валидный паттерн для AI-assisted workflows (113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) [Доступ к данным]
+
+### `105-review-methodology-md.md` (1)
+
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
 
 ### `116-9-checklist-применения-методологии.md` (1)
 
 - -     Есть время на Фазу C в течение 2 недель? [9. Checklist применения методологии]
 
+### `121-appendix-c-история-изменений-методологии.md` (1)
+
+- Почему это валидный паттерн для AI-assisted workflows (113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) [v1.0 (2026-04)]
+
+### `123-portal-mcp-py.md` (1)
+
+- -  Вопрос: fallback-ratio как критический или осмысленный? [try:]
+
+### `125-readme-mcp-md-инструкция-по-установке.md` (1)
+
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
+
 ### `129-примеры-запросов-в-claude.md` (1)
 
 - - «Какие репо есть в Nautilus?» →  nautilus list repos [Примеры запросов (в Claude)]
 
-### `155-1-problem-statement.md` (1)
+### `141-4-nautilus-portal-as-reference-substrate.md` (1)
 
-- Why This Matters Beyond Economics (#12-why-this-matters-beyond-economics) [Содержание]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [4.3. Empirical Evidence from Nautilus Reference Implementati]
+
+### `149-appendix-b-summary-of-contributions.md` (1)
+
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  17% [Связанные документы]
+
+### `154-table-of-contents.md` (1)
+
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  29% [Упоминается в]
 
 ### `157-3-why-existing-solutions-fail.md` (1)
 
 - 🎯   Проблема:   Why Existing Solutions Fail Seven existing infrastructure categories partially address the problem but collectively fail to solve it. [3. Why Existing Solutions Fail]
 
+### `173-4-ten-domains-of-application.md` (1)
+
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [4.11. Cross-Cutting Observations]
+
+### `187-слой-представительских-агентов-md.md` (1)
+
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Слой Представительских Агентов]
+
 ### `193-3-что-делает-агента-представительским.md` (1)
 
 - - Какое средство правовой защиты, если агент ведёт себя неправильно? [3.4. Отношения принципал-агент]
 
+### `208-professional-colleague-agents-md.md` (1)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Professional Colleague Agents]
+
+### `212-1-the-five-type-typology-of-principal-side-agents.md` (1)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [1.7. Why This Distinction Matters]
+
 ### `213-2-what-makes-a-professional-colleague-agent.md` (1)
 
 - Why "Colleague" rather than "Assistant" or "Tool"? [2.3. What a Professional Colleague Agent Does NOT Do]
+
+### `214-3-empirical-case-study-обучай.md` (1)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [Связанные документы]
+
+### `216-5-the-economics-of-profession-wide-replication.md` (1)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  17% [Связанные документы]
+
+### `217-6-risks-specific-to-this-category.md` (1)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [Связанные документы]
 
 ### `222-11-call-for-collaboration.md` (1)
 
@@ -1308,29 +1582,33 @@ _Обновлено: 2026-04-29_
 
 - Провайдер LLM, лежащий в основе генерации? [6.4. Риск: Двусмысленность Ответственности]
 
+### `256-3-what-makes-a-composite-skills-agent.md` (1)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [3.5. The Coordinator-Within-Configuration Pattern]
+
+### `260-7-economics-of-combinatorial-replication.md` (1)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [Связанные документы]
+
+### `261-8-seven-domains-of-application.md` (1)
+
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [Связанные документы]
+
 ### `263-10-risks-specific-to-composite-architectures.md` (1)
 
 - - Transparent routing logic (principal can see why sub-agent [10.4. Risk: Coordinator Bias]
 
-### `277-what-s-missing-layer-b.md` (1)
+### `267-acknowledgments.md` (1)
 
-- What would Layer B look like, ideally? [What's Missing — Layer B]
-
-### `280-the-specific-case-in-front-of-us.md` (1)
-
-- Given the gap, what can we realistically do now? [What we need but lack]
-
-### `281-the-recursive-insight.md` (1)
-
-- What if Nautilus, extended slightly, became a personal [The Recursive Insight]
+- -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
 
 ### `287-references.md` (1)
 
 - How to Take Smart Notes . [Threading and Annotation]
 
-### `292-что-отсутствует-слой-b.md` (1)
+### `31-content-overview.md` (1)
 
-- Как бы выглядел Слой B идеально? [Что отсутствует — Слой B]
+- Почему это валидный паттерн для AI-assisted workflows (113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) [Content Overview]
 
 ### `311-3-what-ingit-provides-that-cowork-lacks.md` (1)
 
@@ -1339,6 +1617,10 @@ _Обновлено: 2026-04-29_
 ### `312-4-the-symbiotic-architecture.md` (1)
 
 - This is why Git-native is important: Git provides authoritative [4.3. Where Each Operates]
+
+### `320-references.md` (1)
+
+- -  Why This Document Exists (275-why-this-document-exists.md)  21% [Связанные документы]
 
 ### `346-твоё-происхождение.md` (1)
 
@@ -1360,9 +1642,17 @@ _Обновлено: 2026-04-29_
 
 - - Формулы — математические, физические, инженерные  ? [Content Overview]
 
+### `42-author-contact.md` (1)
+
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
+
 ### `56-essence.md` (1)
 
 - CA-правил, через классы Вольфрама, через аттракторы динамики? [Essence]
+
+### `62-author-contact.md` (1)
+
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
 
 ### `64-for-the-curious-philosophy.md` (1)
 
@@ -1371,6 +1661,10 @@ _Обновлено: 2026-04-29_
 ### `69-section.md` (1)
 
 - -  Как это разрешить за две минуты (#как-это-разрешить-за-две-минуты) [Содержание]
+
+### `71-критерии-выбора-для-фазы-3.md` (1)
+
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  17% [С]
 
 ### `72-расписание-фазы-3.md` (1)
 
@@ -1388,21 +1682,17 @@ _Обновлено: 2026-04-29_
 
 - Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [Интеграционный контракт, который стоит зафиксировать сразу]
 
-### `COVERAGE.md` (1)
+### `CLUSTERS.md` (1)
 
-- docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md    148   ✅   ⬜   ⬜   ✅   ⬜   ⬜ [Файлы с низким покрытием (< 3 признаков) — 22 файлов]
+- ## Кластер 26 — фазы, зачем-две-версии-параллельно, формальный-workflow, вариант (14 файлов) [Кластер 25 — appendix-a-шаблон-для-header-warning, приложени]
 
 ### `DECISIONS.md` (1)
 
-- - построить такой же конвейер для разработки программного обеспечения или решения серьёзных R&D-задач? [Контакты (23)]
+- - построить такой же конвейер для разработки программного обеспечения или решения серьёзных R&D-задач? [Контакты (35)]
 
 ### `RISK_REGISTER.md` (1)
 
 - Ключевые риски и как их закрывать     Риск   Почему это важно   Снижение риска  … [Упоминания рисков в документах]
-
-### `SCRIPTS_CATALOG.md` (1)
-
-- Ищет в текстах: - Вопросы: предложения с «?» или «как», «почему», «зачем», «что если» - Гипотезы: «возможно», «предположим», «скорее всего», «вероятно [`improve_qa.py` _(группа: reports)_]
 
 ### `SEE_ALSO.md` (1)
 
@@ -1708,29 +1998,17 @@ _Обновлено: 2026-04-29_
 
 - Почему нужно было принять это решение. [Статус]
 
-### `faq-entry.md` (1)
 
-- -   docs/path/file.md  (docs/path/file.md) —  почему важен [Связанные вопросы]
+## 📌 TODO/Идея (139)
 
-### `rfc.md` (1)
+### `TABLES.md` (16)
 
-- 1-2 параграфа: что предлагается и зачем. [Status of this Docu]
-
-### `tech-pair.md` (1)
-
-- Эмерджентное свойство — почему пара важнее суммы. [Чт]
-
-
-## 📌 TODO/Идея (136)
-
-### `TABLES.md` (11)
-
-- TODO   ⭐   To Do — задача к выполнению   14 [1. Словарь аббревиатур и сокращений]
-- 2025-Q1     ⬜ Написать авторам AgentFS, Yodoca, NGT   ⬜ Планируется [119. Шаблоны]
-- 2025-Q2     ⬜ Получить согласие на сотрудничество   ⬜ Планируется [119. Шаблоны]
-- 2025-Q2     ⬜ Создать рабочее окружение Knowledge OS   ⬜ Планируется [119. Шаблоны]
-- 2025-Q3     ⬜ Прототип ансамбля (Svyazi + CardIndex)   ⬜ Планируется [119. Шаблоны]
-- _...ещё 6_
+- TODO   ⭐   To Do — задача к выполнению   3 [91. Словарь аббревиатур и сокращений]
+- 2025-Q1     ⬜ Написать авторам AgentFS, Yodoca, NGT   ⬜ Планируется [180. Все документы]
+- 2025-Q2     ⬜ Получить согласие на сотрудничество   ⬜ Планируется [180. Все документы]
+- 2025-Q2     ⬜ Создать рабочее окружение Knowledge OS   ⬜ Планируется [180. Все документы]
+- 2025-Q3     ⬜ Прототип ансамбля (Svyazi + CardIndex)   ⬜ Планируется [180. Все документы]
+- _...ещё 11_
 
 ### `SCHEDULE.md` (7)
 
@@ -1763,13 +2041,12 @@ _Обновлено: 2026-04-29_
 - - Работает только в stdio mode (HTTP-mode планируется) [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|[Ограничения текущей версии (0.1.0-draft)]] [[02-cowork-provides|[Content Overview]] [[Content Overview](docs/02-anthropic-vacancies/31-content-ov]
 - What Cowork Provides That InGit Doesn't Need to Build [[Content Overview](docs/02-anthropic-vacancies/31-content-ov]
 
-### `SCRIPTS_CATALOG.md` (5)
+### `308-table-of-contents.md` (4)
 
-- improve github issues.py    создаёт GitHub Issues из ACTION ITEMS.md и TODO-блоков. [cicd (4)]
-- improve action items.py    извлекает задачи, риски, решения и TODO из docs/. [extract (9)]
-- improve question extractor.py    извлечение вопросов, гипотез и TODO. [nlpplus (10)]
-- извлекает задачи, риски, решения и TODO из docs/. [extract (9)]
-- создаёт GitHub Issues из ACTION ITEMS.md и TODO-блоков. [cicd (4)]
+- What Cowork Provides That InGit Doesn't Need to Build [Table of Contents]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [Table of Contents]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  37% [Table of Contents]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  29% [Table of Contents]
 
 ### `02-cowork-provides.md` (4)
 
@@ -1797,17 +2074,17 @@ _Обновлено: 2026-04-29_
 - Это не one-off hack, это repeatable practice . [Комментарий к документу]
 - Это означает, что код — reference implementation , который нужно будет сверить с реальными именами методов и полей в вашем репо после публикации. [Глоссарий]
 
+### `303-приложение-визуализация-позиции-в-серии.md` (3)
+
+- 🎯   Проблема:   Если они уже это позволяют (нужно проверить), то 1-2 недели для создания template. [Приложение: Визуализация позиции в серии]
+- Если они уже это позволяют (нужно проверить), то 1-2 недели для создания template. [Приложение: Визуализация позиции в серии]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  21% [Конкретный практический вопрос]
+
 ### `343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (3)
 
 - 🎯   Проблема:   Начну с фундаментальных вопросов , на которые нужно ответить до архитектуры — потому что архитектура следует из этих ответов. [Lorenzo Catalyst Agent — глубокая проработка спецификации (р]
 - 🔧   Подход:   Начну с фундаментальных вопросов , на которые нужно ответить до архитектуры — потому что архитектура следует из этих ответов. [Lorenzo Catalyst Agent — глубокая проработка спецификации (р]
 - Начну с фундаментальных вопросов , на которые нужно ответить до архитектуры — потому что архитектура следует из этих ответов. [Lorenzo Catalyst Agent — глубокая проработка спецификации (р]
-
-### `ACTION_ITEMS.md` (3)
-
-- - авторам AgentFS, Yodoca, NGT ⬜ Планируется  119. [📬 Контактные действия (148)]
-- - авторам AgentFS, Yodoca, NGT ⬜ Планируется  Ключевые вехи [📬 Контактные действия (148)]
-- - авторам AgentFS, Yodoca, NGT   ⬜ Планируется [📬 Контактные действия (148)]
 
 ### `11-difficulties-and-recommendations.md` (3)
 
@@ -1835,6 +2112,11 @@ _Обновлено: 2026-04-29_
 - В Nautilus README или PORTAL-PROTOCOL стоит добавить аналогичный сквозной пример для humanities domain. [Комментарий к документу]
 - Стоит добавить это в protocol как formal recommendation для adapters. [Комментарий к документу]
 
+### `255-2-the-twenty-one-teachers-pattern.md` (2)
+
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [2.4. AI Architecture Should Mirror This]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  21% [2.4. AI Architecture Should Mirror This]
+
 ### `270-appendix-b-sub-agent-registry-schema-sketch.md` (2)
 
 - This schema captures what coordinators need to route effectively, [Appendix B: Sub-Agent Registry Schema (Sk]
@@ -1844,11 +2126,6 @@ _Обновлено: 2026-04-29_
 
 - - Cross-references between artifacts need to be maintained [The Two-Layer Stack As It Exists]
 - - Multiple parallel developments need to be tracked [The Two-Layer Stack As It Exists]
-
-### `303-приложение-визуализация-позиции-в-серии.md` (2)
-
-- 🎯   Проблема:   Если они уже это позволяют (нужно проверить), то 1-2 недели для создания template. [Приложение: Визуализация позиции в серии]
-- Если они уже это позволяют (нужно проверить), то 1-2 недели для создания template. [Приложение: Визуализация позиции в серии]
 
 ### `311-3-what-ingit-provides-that-cowork-lacks.md` (2)
 
@@ -1934,9 +2211,9 @@ _Обновлено: 2026-04-29_
 
 - need to be solved before other work proceeds. [Closing]
 
-### `308-table-of-contents.md` (1)
+### `307-abstract.md` (1)
 
-- What Cowork Provides That InGit Doesn't Need to Build [Table of Contents]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [Упоминается в]
 
 ### `34-appendix-b-change-log.md` (1)
 
@@ -1964,15 +2241,11 @@ _Обновлено: 2026-04-29_
 
 ### `ABBREVIATIONS.md` (1)
 
-- TODO   ⭐   To Do — задача к выполнению   14 [Словарь аббревиатур и сокращений]
+- TODO   ⭐   To Do — задача к выполнению   10 [Словарь аббревиатур и сокращений]
 
-### `DECISIONS.md` (1)
+### `ACTION_ITEMS.md` (1)
 
-- - склеивать  ###  memnet.md  (1) - Это синхронизируемая многоуровневая память Yodoca/xMemory, которая «следует» за тобой между устройствами. [Память (12)]
-
-### `DUPLICATES.md` (1)
-
-- The teacher does not need to manually consult educational standards every ti… [69% — `docs/02-anthropic-vacancies/213-2-what-makes-a-profes]
+- - авторам AgentFS, Yodoca, NGT   ⬜ Планируется [📬 Контактные действия (224)]
 
 ### `SUMMARIES.md` (1)
 
@@ -2067,7 +2340,7 @@ _Обновлено: 2026-04-29_
 - Из этих линий следует, что «записать что‑то в память» никогда не должно быть одной неразличимой операцией. [Memory Write Policy]
 
 
-## 💭 Гипотеза (380)
+## 💭 Гипотеза (392)
 
 ### `01-интегральный-анализ-профиля-svend4.md` (21)
 
@@ -2077,6 +2350,15 @@ _Обновлено: 2026-04-29_
 - Каждый закрывает свой узкий фрагмент роли, а вместе они покрывают вакансию полностью — и часто лучше одного человека, потому что один человек не может [Переписанная версия вашего вопроса]
 - Вы как Principal Investigator, 2-3 institutional partner (DFKI, Fraunhofer IAO, Turing Institute), и один industry partner (может быть Anthropic или M [Ответ по существу]
 - _...ещё 16_
+
+### `TABLES.md` (16)
+
+- Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
+- Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
+- Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
+- Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
+- 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [113. GitHub репозитории]
+- _...ещё 11_
 
 ### `165-closing.md` (12)
 
@@ -2104,15 +2386,6 @@ _Обновлено: 2026-04-29_
 - - Возможно локальный LLM как backup [Где сейчас сложности]
 - - Закладывает фундамент для возможно более автономного Lorenzo позже [Где сейчас сложности]
 - _...ещё 5_
-
-### `TABLES.md` (9)
-
-- Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
-- Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
-- 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [27. Топ авторов по приоритету]
-- 4-6     ner (может быть Anthropic или Mistral). [75. Количество (242)]
-- docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   308   43   7.2 [113. Все документы]
-- _...ещё 4_
 
 ### `248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (8)
 
@@ -2196,11 +2469,11 @@ _Обновлено: 2026-04-29_
 
 ### `ACTION_ITEMS.md` (5)
 
-- - is probably practical experimentation — start using Cowork+InGit for actual work, see what works, refine based on experience. [➡️ Следующие шаги (150)]
-- Может быть efficient но также может быть manipulated. [⚠️ Риски (593)]
-- - Возможно engaged в его own vision, не interested в applied domain [⚠️ Риски (593)]
-- - Working at Яндекс, может быть constraints на external collaboration [⚠️ Риски (593)]
-- - Если они see, что Lorenzo сам lists them as «collaborators» до того, как они agreed, может быть perception of presumption. [⚠️ Риски (593)]
+- - is probably practical experimentation — start using Cowork+InGit for actual work, see what works, refine based on experience. [➡️ Следующие шаги (246)]
+- Может быть efficient но также может быть manipulated. [⚠️ Риски (909)]
+- - Возможно engaged в его own vision, не interested в applied domain [⚠️ Риски (909)]
+- - Working at Яндекс, может быть constraints на external collaboration [⚠️ Риски (909)]
+- - Если они see, что Lorenzo сам lists them as «collaborators» до того, как они agreed, может быть perception of presumption. [⚠️ Риски (909)]
 
 ### `258-5-configuration-how-principals-build-their-ensembl.md` (4)
 
@@ -2234,7 +2507,7 @@ _Обновлено: 2026-04-29_
 
 - ###  Что промышленность вероятно построит (docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) [[Рекурсивное прозрение](docs/02-anthropic-vacancies/296-реку]
 - ###  Что промышленность вероятно построит (docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md) [[Рекурсивное прозрение](docs/02-anthropic-vacancies/296-реку]
-- ###  Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да… (docs/nautilus/privacy-federation/00-question-anonymization.md) [[9. Call for Partnership](docs/nautilus/okwf-concept/09-call]
+- ###  Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да… (docs/nautilus/privacy-federation/00-question-anonymization.md) [[10. Appendices](docs/nautilus/o]
 - ###  Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к… (docs/nautilus/transmission-box/00-question-mountain-to-person. [[Du hast gesagt: Спрос рождает предложение - это простая эко]
 
 ### `13-reprioritization.md` (4)
@@ -2403,10 +2676,15 @@ _Обновлено: 2026-04-29_
 - Запрос    Предложение поиска сбора конструктора совмещение lego и  пазлов логическими информационными это могут быть и другие темы технические имеются [Что из этого всего слипается в более проработанную схему]
 - Запрос    Хорошо теперь на базе этого образца можно ещё вернуться к самому началу больше к программному обеспечению чем железо поиск новых проектов ко [Метафора, которую ты заложил]
 
-### `DUPLICATES.md` (2)
+### `READABILITY.md` (2)
 
-- We suggest twenty as a reasonable working constraint:  configurations under five are probably better served by Type 1;  configurations over forty are  [79% — `docs/02-anthropic-vacancies/256-3-what-makes-a-compos]
-- Existing labor and AI regulations  assume either single-human knowledge work or fully-automated  systems. [72% — `docs/02-anthropic-vacancies/145-8-call-to-action.md` ]
+- docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   308   43   7.2 [Все документы]
+- docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   313   33   9.5 [Все документы]
+
+### `READING_TIME.md` (2)
+
+- docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    ~1 мин   310   📗 Быстро [Все документы]
+- docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    ~1 мин   315   📗 Быстро [Все документы]
 
 ### `00-question-rephrasing.md` (2)
 
@@ -2620,13 +2898,29 @@ _Обновлено: 2026-04-29_
 
 - varies — music might support finer granularity than law. [11.1. Granularity Questions]
 
+### `282-what-industry-will-likely-build.md` (1)
+
+- -  Что промышленность вероятно построит (297-что-промышленность-вероятно-построит.md) [Упоминается в]
+
 ### `287-references.md` (1)
 
 - - Hypothesis project (  — open [References]
 
+### `291-двухслойный-стек-как-он-существует.md` (1)
+
+- -  Что промышленность вероятно построит (297-что-промышленность-вероятно-построит.md)  21% [Связанные документы]
+
+### `292-что-отсутствует-слой-b.md` (1)
+
+- -  Что промышленность вероятно построит (297-что-промышленность-вероятно-построит.md)  17% [Связанные документы]
+
 ### `296-рекурсивное-прозрение.md` (1)
 
 - Это может быть или не быть проектом, который [Рекурсивное прозрение]
+
+### `299-практические-рекомендации-для-текущего-проекта.md` (1)
+
+- -  Что промышленность вероятно построит (297-что-промышленность-вероятно-построит.md)  21% [Связанные документы]
 
 ### `300-заключение.md` (1)
 
@@ -2684,25 +2978,25 @@ _Обновлено: 2026-04-29_
 
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [Архитектурные зазоры, которые важнее новых инструментов]
 
+### `README.md` (1)
+
+- -  02-collaboration-partners.md (02-collaboration-partners.md) — автора статьи выше подобных авторов подобных разработчиков или ещё может быть или мож [Содержание]
+
 ### `COST.md` (1)
 
 - 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [Временные оценки из документов]
 
+### `DUPLICATES.md` (1)
+
+- We suggest twenty as a reasonable working constraint:  configurations under five are probably better served by Type 1;  configurations over forty are  [100% — `docs/MINDMAP.md` vs `docs/obsidian/MINDMAP.md`]
+
 ### `KPI.md` (1)
 
-- 4-6     ner (может быть Anthropic или Mistral). [Время (278)]
-
-### `READABILITY.md` (1)
-
-- docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   308   43   7.2 [Все документы]
+- 4-6     ner (может быть Anthropic или Mistral). [Время (418)]
 
 ### `READING_ORDER.md` (1)
 
 - 327   🟢 Начало    Что промышленность вероятно построит (docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)   313   — [Рекомендуемый порядок чтения]
-
-### `READING_TIME.md` (1)
-
-- docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    ~1 мин   310   📗 Быстро [Все документы]
 
 ### `SUMMARIES.md` (1)
 
@@ -2931,8 +3225,4 @@ _Обновлено: 2026-04-29_
 ### `D-voice-first-mesh.md` (1)
 
 - -   Нулевой friction для входа данных  : мысль после звонка или встречи сразу превращается в текст и может быть автоматически структурирована. [Ансамбль D — Voice‑first local knowledge mesh]
-
-### `experiment-log.md` (1)
-
-- hypothesis: " Гипотеза одной строкой "
 

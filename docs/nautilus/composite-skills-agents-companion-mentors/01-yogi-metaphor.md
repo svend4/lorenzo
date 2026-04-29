@@ -78,3 +78,13 @@ Claude hat geantwortet: Это очень тонкое и важное набл�
 - [00-question-multiple-mentors](docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
 - [03-the-spectrum](docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.20)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.19)
+- [02-what-was-missing-in-paper-6](docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md) (сходство 0.17)
+

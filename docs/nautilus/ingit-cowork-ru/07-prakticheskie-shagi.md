@@ -107,3 +107,13 @@ MCP сервера. Не реализовывать пока; сначала
 - [05-chetyre-puti-integratsii](docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
 - [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [333-7-практические-первые-шаги-в-этом-месяце](docs/obsidian/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md) (сходство 0.83)
+- [333-7-практические-первые-шаги-в-этом-месяце](docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md) (сходство 0.75)
+- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md) (сходство 0.15)
+

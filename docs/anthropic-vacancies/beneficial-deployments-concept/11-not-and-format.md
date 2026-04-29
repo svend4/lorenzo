@@ -85,3 +85,13 @@ Each session maybe 2-3 hours. Total time investment: 20-30 hours of yours, simil
 - [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
 - [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.45)
+- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md) (сходство 0.21)
+- [05-section-5-role-of-anthropic](docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md) (сходство 0.21)
+

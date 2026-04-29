@@ -1,0 +1,24 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/glossary/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. glossary
+
+_Файлов:_ 3
+
+h2. Содержание
+
+* [authors-by-name.md|authors-by-name.md] — 
+* [components-by-name.md|components-by-name.md] — 
+* [concepts.md|concepts.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/obsidian/autofilled/README.md] (сходство 0.36)
+* [README|docs/autofilled/README.md] (сходство 0.36)
+* [README|docs/technology-combinations/synthesis-tables/README.md] (сходство 0.25)
+

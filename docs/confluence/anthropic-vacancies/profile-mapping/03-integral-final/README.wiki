@@ -1,0 +1,26 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 03-integral-final
+
+_Файлов:_ 5
+
+h2. Содержание
+
+* [01-three-archetypes.md|01-three-archetypes.md] — 
+* [02-final-ranking.md|02-final-ranking.md] — > [!TIP]
+* [03-partial-fit-honesty.md|03-partial-fit-honesty.md] — 
+* [04-stronger-paths-outside-anthropic.md|04-stronger-paths-outside-anthropic.md] — 
+* [05-platform-not-position.md|05-platform-not-position.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md] (сходство 0.24)
+* [README|docs/technology-combinations/synthesis-tables/README.md] (сходство 0.21)
+* [README|docs/habr-unique-projects/analogues/README.md] (сходство 0.20)
+

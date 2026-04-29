@@ -52,3 +52,13 @@ Open discussion of how community-matching patterns scale до vulnerable populat
 - [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
 - [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-concrete-next-step](docs/habr-unique-projects/extra-examples/12-concrete-next-step.md) (сходство 0.23)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.22)
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.20)
+

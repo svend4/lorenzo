@@ -52,3 +52,13 @@
 - [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
 - [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-three-overlapping-identities](docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md) (сходство 0.15)
+- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.14)
+- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md) (сходство 0.13)
+

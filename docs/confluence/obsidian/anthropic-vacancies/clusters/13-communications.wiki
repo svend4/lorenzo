@@ -1,0 +1,48 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/clusters/13-communications.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Communications — 5 ролей"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Communications — 5 ролей
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+Communications Lead для Claude Code и для Anthropic Institute, Communications Manager Research, Engineering Editorial Lead, Internal Communications Manager Policy.
+
+
+
+----
+
+_Смотрите также:_
+* [[09-product-management-support-ops]]
+* [[14-public-policy]]
+* [[15-public-benefit]]
+* [[16-people]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[09-product-management-support-ops]] (сходство 0.61)
+* [[15-public-benefit]] (сходство 0.59)
+* [[16-people]] (сходство 0.58)
+

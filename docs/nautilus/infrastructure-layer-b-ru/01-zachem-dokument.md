@@ -66,3 +66,13 @@
 - [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
 - [03-otsutstvuet-sloy-b](docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [290-почему-этот-документ-существует](docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md) (сходство 0.73)
+- [290-почему-этот-документ-существует](docs/obsidian/02-anthropic-vacancies/290-почему-этот-документ-существует.md) (сходство 0.72)
+- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md) (сходство 0.18)
+

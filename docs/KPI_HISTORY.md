@@ -27,3 +27,11 @@ _История хранится в `docs/kpi_history.json`._
 
 _Запускать регулярно для получения трендов._
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KPI_HISTORY](docs/obsidian/KPI_HISTORY.md) (сходство 0.64)
+

@@ -85,3 +85,13 @@ prefer honest critics to unreserved enthusiasts.
 - [09-phased-rollout](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
 - [10-open-questions](docs/nautilus/representative-agent-layer-en/10-open-questions.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) (сходство 0.84)
+- [180-11-call-for-collaboration](docs/obsidian/02-anthropic-vacancies/180-11-call-for-collaboration.md) (сходство 0.83)
+- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md) (сходство 0.23)
+

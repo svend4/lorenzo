@@ -1,0 +1,48 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/clusters/16-people.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "People — 3 роли"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. People — 3 роли
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+Immigration Coordinator, People Operations Lead, Technical Recruiter. Маленький кластер — значит, рекрутинговая машина в целом уже собрана.
+
+
+
+----
+
+_Смотрите также:_
+* [[13-communications]]
+* [[15-public-benefit]]
+* [[09-product-management-support-ops]]
+* [[14-public-policy]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[13-communications]] (сходство 0.58)
+* [[15-public-benefit]] (сходство 0.54)
+* [[14-public-policy]] (сходство 0.50)
+

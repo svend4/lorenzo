@@ -1,0 +1,78 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/npp-v1-1/14-sdk.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "14. SDK Contract (Informative)"
+tags:
+  * anthropic
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 14. SDK Contract (Informative)
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+h2. 14. SDK Contract (Informative)
+
+Reference implementation предоставляет Python SDK ({{nautilus_sdk.py}}). 
+SDK-ы на других языках MAY быть написаны — они считаются 
+NPP-compatible, если предоставляют эквиваленты следующих методов.
+
+h3. 14.1. Required SDK Methods
+
+{code:language=python}
+class NautilusClient:
+def __init__(self, base_url: str = "http://localhost:8080"): ...
+
+def query(self, q: str, ranked: bool = True) -> QueryResult: ...
+def describe(self) -> dict: ...
+def health(self) -> HealthReport: ...
+{code}
+
+h3. 14.2. Optional SDK Methods
+
+{code:language=python}
+def links(self) -> LinksReport: ...
+def neighbors(self, q6: str, dist: int = 1) -> list[QueryResult]: ...
+{code}
+
+h3. 14.3. Return Types
+
+SDK MUST деsериализовать JSON responses в typed structures (dataclasses 
+для Python, interfaces для TypeScript и т.д.). Raw dict return 
+acceptable только для debugging/experimental версий.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[89-14-sdk-contract-informative]]
+* [[18-reference-implementation]]
+* [[11-relevance-ranking]]
+* [[17-appendix-b-change-log]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[89-14-sdk-contract-informative]] (сходство 0.57)
+* [[89-14-sdk-contract-informative]] (сходство 0.55)
+* [[11-relevance-ranking]] (сходство 0.33)
+

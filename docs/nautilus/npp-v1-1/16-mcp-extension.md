@@ -39,3 +39,13 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 - [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
 - [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md) (сходство 0.60)
+- [91-16-mcp-extension-informative](docs/obsidian/02-anthropic-vacancies/91-16-mcp-extension-informative.md) (сходство 0.60)
+- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md) (сходство 0.33)
+

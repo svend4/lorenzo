@@ -149,3 +149,13 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 
 - [[CHANGELOG]] _33%_
 - [[DEPENDENCY_MAP|Карта зависимостей скриптов]] _17%_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[CHANGELOG_AUTO]] (сходство 0.95)
+- [[CHANGELOG]] (сходство 0.65)
+- [[CHANGELOG]] (сходство 0.49)
+

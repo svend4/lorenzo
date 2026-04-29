@@ -64,3 +64,13 @@ memory_fact: "review_required"
 - [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
 - [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-vs-notion-mem-affine-langgraph](docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md) (сходство 0.19)
+- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.19)
+- [01-shared-memory-between-agents](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md) (сходство 0.18)
+

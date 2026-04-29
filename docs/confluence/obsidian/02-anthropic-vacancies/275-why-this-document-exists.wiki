@@ -16,6 +16,18 @@ date: 2026-04-29
 h1. Why This Document Exists
 
 
+h2. Содержание
+
+* [Why This Document Exists|#why-this-document-exists]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ If the project continues — and it should — the next phase needs different infrastructure than chat alone.{quote}

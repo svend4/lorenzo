@@ -15,6 +15,18 @@ date: 2026-04-29
 h1. The Two-Layer Stack As It Exists
 
 
+h2. Содержание
+
+* [The Two-Layer Stack As It Exists|#the-two-layer-stack-as-it-exists]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ The problem is what happens between them.{quote}

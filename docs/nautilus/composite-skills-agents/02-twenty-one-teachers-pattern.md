@@ -151,3 +151,13 @@ practitioner can configure into their own combination.
 - [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
 - [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [255-2-the-twenty-one-teachers-pattern](docs/obsidian/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.87)
+- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.86)
+- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md) (сходство 0.22)
+

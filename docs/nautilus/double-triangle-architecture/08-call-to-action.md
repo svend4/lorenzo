@@ -159,3 +159,13 @@ Contact: via GitHub issues at
 - [07-open-questions](docs/nautilus/double-triangle-architecture/07-open-questions.md)
 - [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [145-8-call-to-action](docs/obsidian/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.91)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.87)
+- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md) (сходство 0.21)
+

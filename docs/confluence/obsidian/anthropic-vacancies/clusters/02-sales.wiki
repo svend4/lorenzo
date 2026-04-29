@@ -1,0 +1,48 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/clusters/02-sales.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Sales — 150 ролей (≈34% всего найма)"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Sales — 150 ролей (≈34% всего найма)
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+То, что статья замалчивает: основной рост Anthropic сейчас — не в инженерах, а в GTM. Account Executive (Enterprise, Strategic, Mid-Market, SMB, Startups, Federal, State & Local, DOD/IC), Solutions Architect Applied AI по вертикалям (Industries, Life Sciences, Financial Services, Government, National Security, Digital Native, Startups), Forward Deployed Engineer (та самая роль, которую Амодеи называет «новой специальностью»), Customer Success Manager, Business Development Representative, Partner Managers под GSI и Systems Integrators. География — SF, NY, London, Dublin, Munich, Paris, Tokyo, Seoul, Bangalore, Sydney, Zurich.
+
+
+
+----
+
+_Смотрите также:_
+* [[signals]]
+* [[14-public-policy]]
+* [[05-marketing-brand]]
+* [[09-product-management-support-ops]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[signals]] (сходство 0.33)
+* [[14-public-policy]] (сходство 0.31)
+* [[05-marketing-brand]] (сходство 0.28)
+

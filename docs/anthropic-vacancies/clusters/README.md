@@ -20,3 +20,13 @@
 - [14-public-policy.md](14-public-policy.md) — <!-- summary -->
 - [15-public-benefit.md](15-public-benefit.md) — <!-- summary -->
 - [16-people.md](16-people.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [overview](docs/anthropic-vacancies/overview.md) (сходство 0.33)
+- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.23)
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.20)
+

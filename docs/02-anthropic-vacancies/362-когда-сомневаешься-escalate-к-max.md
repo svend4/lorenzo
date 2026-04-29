@@ -9,6 +9,8 @@
 > - Ethical complexity beyond обычных protocols
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -30,4 +32,14 @@
 
 **Смотрите также:**
 - [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md) (сходство 0.64)
+- [362-когда-сомневаешься-escalate-к-max](docs/obsidian/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) (сходство 0.59)
+- [361-когда-ты-honestly-не-знаешь](docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) (сходство 0.11)
 

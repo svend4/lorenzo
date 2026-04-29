@@ -1,0 +1,59 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/ai-collaborations/continuation/05-roadmap-6-12-months.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Roadmap на 6–12 месяцев
+
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Поиск коллабораций AI проектов}} (корень репозитория).{quote}
+_Проекты:_ CardIndex, mclaude, AI Factory
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Поиск коллабораций AI проектов}} (корень репозитория).{quote}
+
+5. Roadmap на 6–12 месяцев
+
+Ниже дорожная карта уже не “по инструментам”, а по системным способностям. Она предполагает, что базовый MVP из CardIndex + evidence + memory уже начат.
+
+|| Фаза || Срок || Главная цель || Definition of Done ||
+|| 0. Contract Freeze || 2–3 недели || Зафиксировать Card Envelope, Evidence Envelope, Memory Write Policy, Trace Envelope || Есть JSON/YAML‑схемы, тестовые карточки person/project/episode/evidence, все pipeline‑шаги пишут в один формат ||
+|| 1. Evidence‑first MVP || 1 месяц || Любой match объясняется источниками || UI показывает match + evidence pack + page/span/source links ||
+|| 2. Memory Governance || 1–2 месяца || Ассоциации не смешиваются с фактами || Есть episode/proposal/fact/decayed/conflict states и review queue ||
+|| 3. AgentOps Layer || 2–3 месяца || Все agent runs трассируются || Langfuse/Trace‑подобный слой пишет model/tool/cost/latency/anomaly ||
+|| 4. Multi‑agent Moderation || 3–4 месяца || Extractor/reviewer/publisher работают как роли || mclaude/AI Factory/A2A‑style handoff; risky actions через HITL ||
+|| 5. Local‑first/Federation || 4–6 месяцев || Узлы сообщества синхронизируют только разрешённые слои || Локальный vault + selective sync + shared metadata graph ||
+|| 6. Self‑Improvement Loop || 6–12 месяцев || Ошибки превращаются в benchmark/prompt/skill patches || Есть regression set, nightly eval, rollback policy ||
+
+Ключевой порядок такой: контракты → evidence → memory governance → AgentOps → multi‑agent → federation → self‑improvement. Не наоборот. Если сначала строить “рой”, он ускорит хаос. Если сначала закрепить card/evidence/memory/trace contracts, рой будет ускорять проверяемый процесс.
+
+
+
+----
+
+_Смотрите также:_
+* [roadmap|docs/svyazi-2-0/prototype/roadmap.md]
+* [10-architecture-rfc|docs/ai-collaborations/continuation/10-architecture-rfc.md]
+* [12-дорожная-карта-прототипа-следующей-итерации|docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md]
+* [12-roadmap|docs/01-svyazi/12-roadmap.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [roadmap|docs/svyazi-2-0/prototype/roadmap.md] (сходство 0.20)
+* [10-architecture-rfc|docs/ai-collaborations/continuation/10-architecture-rfc.md] (сходство 0.19)
+* [12-дорожная-карта-прототипа-следующей-итерации|docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md] (сходство 0.18)
+

@@ -84,3 +84,13 @@ stakeholders as basis for dialogue and refinement.
 10. **Appendices**
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [153-executive-summary](docs/obsidian/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.78)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.73)
+- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md) (сходство 0.22)
+

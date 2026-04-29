@@ -93,3 +93,13 @@ better outcomes.
 - [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.76)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/obsidian/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.73)
+- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md) (сходство 0.23)
+
