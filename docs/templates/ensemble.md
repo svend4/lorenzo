@@ -1,15 +1,3 @@
----
-template: ensemble
-version: "1.0"
-ensemble_name: "[Название]"
-components: []
-task: "[Какую задачу решает]"
-maturity: experimental
-mvp_phase: 0
-created: 2026-04-29
-tags: [ансамбль, архитектура]
----
-
 # Ансамбль: [Название]
 
 <!-- summary: Ансамбль из X компонентов для Y задачи -->

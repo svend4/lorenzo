@@ -26,7 +26,7 @@
 | **SENTINEL** | 69 |
 | **Self-Aware MCP** | 21 |
 | **Sequential** | 119 |
-| **Svyazi** | 315 |
+| **Svyazi** | 316 |
 | **Tool Search** | 50 |
 | **Whisper** | 24 |
 | **Wikontic** | 50 |
@@ -34,7 +34,7 @@
 | **Yodoca** | 142 |
 | **Yttri** | 19 |
 | **agent-memory-mcp** | 39 |
-| **knowledge-space** | 104 |
+| **knowledge-space** | 103 |
 | **mclaude** | 90 |
 
 <!-- see-also -->

@@ -28,7 +28,7 @@ digraph network {
   "Yodoca" -- "NGT" [weight=101, penwidth=5];
   "Svyazi" -- "AgentFS" [weight=89, penwidth=5];
   "Svyazi" -- "MemNet" [weight=89, penwidth=5];
-  "Svyazi" -- "knowledge-space" [weight=84, penwidth=5];
+  "Svyazi" -- "knowledge-space" [weight=83, penwidth=5];
   "CardIndex" -- "NGT" [weight=83, penwidth=5];
   "Svyazi" -- "mclaude" [weight=81, penwidth=5];
   "CardIndex" -- "Yodoca" [weight=80, penwidth=5];

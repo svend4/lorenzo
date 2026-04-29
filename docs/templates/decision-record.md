@@ -1,16 +1,3 @@
----
-template: decision-record
-version: "1.0"
-adr_id: "ADR-NNNN"
-title: "[Название решения]"
-status: proposed
-date: 2026-04-29
-deciders: []
-tags: [архитектура, решение]
-supersedes: null
-superseded_by: null
----
-
 # ADR: [Название решения]
 
 <!-- summary: Решение о X -->

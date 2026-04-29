@@ -45,7 +45,7 @@ graph TD
   Svyazi -- 119 --> CardIndex
   Svyazi -- 92 --> AgentFS
   Svyazi -- 92 --> MemNet
-  Svyazi -- 87 --> knowledge_space
+  Svyazi -- 86 --> knowledge_space
   Svyazi -- 84 --> mclaude
   CardIndex -- 83 --> Yodoca
   Svyazi -- 82 --> NGT_Memory
@@ -304,7 +304,7 @@ graph TD
 | **Svyazi** | **CardIndex** | 119 |
 | **Svyazi** | **AgentFS** | 92 |
 | **Svyazi** | **MemNet** | 92 |
-| **Svyazi** | **knowledge-space** | 87 |
+| **Svyazi** | **knowledge-space** | 86 |
 | **Svyazi** | **mclaude** | 84 |
 | **CardIndex** | **Yodoca** | 83 |
 | **Svyazi** | **NGT Memory** | 82 |
@@ -378,7 +378,7 @@ digraph lorenzo {
   }
   Svyazi -> CardIndex [label="119"];
   Svyazi -> AgentFS [label="92"];
-  Svyazi -> knowledge_space [label="87"];
+  Svyazi -> knowledge_space [label="86"];
   Svyazi -> mclaude [label="84"];
   Svyazi -> AI_Factory [label="72"];
   Svyazi -> Rufler [label="81"];

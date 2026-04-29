@@ -13,7 +13,7 @@
 | **Yodoca** ↔ **NGT** | 101 |
 | **Svyazi** ↔ **AgentFS** | 89 |
 | **Svyazi** ↔ **MemNet** | 89 |
-| **Svyazi** ↔ **knowledge-space** | 84 |
+| **Svyazi** ↔ **knowledge-space** | 83 |
 | **CardIndex** ↔ **NGT** | 83 |
 | **Svyazi** ↔ **mclaude** | 81 |
 | **CardIndex** ↔ **Yodoca** | 80 |
@@ -31,12 +31,12 @@
 
 | Узел | Балл центральности | Тип |
 |------|--------------------|-----|
-| **Svyazi** | 1350 | 📦 Проект |
+| **Svyazi** | 1348 | 📦 Проект |
 | **NGT** | 1050 | 📦 Проект |
 | **Yodoca** | 1035 | 📦 Проект |
 | **CardIndex** | 980 | 📦 Проект |
 | **AgentFS** | 928 | 📦 Проект |
-| **knowledge-space** | 879 | 📦 Проект |
+| **knowledge-space** | 877 | 📦 Проект |
 | **Rufler** | 801 | 📦 Проект |
 | **mclaude** | 800 | 📦 Проект |
 | **MemNet** | 778 | 📦 Проект |
@@ -45,8 +45,8 @@
 | **SENTINEL** | 630 | 📦 Проект |
 | **Lorenzo (svend4)** | 590 | 👤 Автор |
 | **Cowork** | 550 | 📦 Проект |
-| **Lorenzo** | 549 | 📦 Проект |
 | **Андрей (kksudo)** | 549 | 👤 Автор |
+| **Lorenzo** | 547 | 📦 Проект |
 | **ingit** | 529 | 📦 Проект |
 | **Виталий (spbmolot)** | 498 | 👤 Автор |
 | **Wikontic** | 399 | 📦 Проект |

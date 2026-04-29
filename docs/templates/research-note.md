@@ -1,13 +1,3 @@
----
-template: research-note
-version: "1.0"
-title: "[Тема исследования]"
-created: 2026-04-29
-status: draft
-tags: [исследование]
-related: []
----
-
 # [Тема исследования]
 
 <!-- summary: Краткий итог исследования -->

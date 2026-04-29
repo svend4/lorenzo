@@ -119,7 +119,7 @@ _...ещё 17 записей в этой категории_
   _→ do-not-glue_
 
 
-## Оркестрация (16)
+## Оркестрация (15)
 
 - на файловое ядро Svyazi‑2.0. | | **mclaude** | AnastasiyaW | Хабр + GitHub citeturn20view2turn37search0 | Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом. | Lo  
   _→ 03-component-catalog_
@@ -132,9 +132,6 @@ _...ещё 17 записей в этой категории_
 
 - в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](docs/contacts/README.md) > Файлов: 14 - Содержание _Слов: 62_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude  
   _→ OUTLINE_
-
-- упростить | Самые сложные тексты (1161) — рекомендуется упростить | | `docs/templates/decision-record.md` | -16 | — | — | | `docs/CODE_BLOCKS.md` | -15 | Markdown сниппеты для README, markdown (21), 💻  
-  _→ TABLES_
 
 - вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
   _→ TABLES_
@@ -236,7 +233,7 @@ _...ещё 17 записей в этой категории_
   _→ 04-what-i-can-do-now_
 
 
-## Общее (282)
+## Общее (283)
 
 - идти. Эта фаза даёт уже очень ценный эффект: объяснимые suggestions вместо “магического мэтчинга”. citeturn41search0turn20view5turn34view2turn20v  
   _→ 12-roadmap_
@@ -298,7 +295,7 @@ _...ещё 17 записей в этой категории_
 - прочитать в первую очередь. <!-- alert-added --> <!-- summary --> > Прежде чем проектировать — фиксирую, что у нас уже есть объективно. --- <!-- toc --> ## Содержание - [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTI  
   _→ 02-общий-план-развития-nautilus-portal-protocol_
 
-_...ещё 262 записей в этой категории_
+_...ещё 263 записей в этой категории_
 
 
 <!-- see-also -->

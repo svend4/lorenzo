@@ -62,8 +62,8 @@
     },
     {
       "id": "agent",
-      "count": 357,
-      "files": 357,
+      "count": 358,
+      "files": 358,
       "category": "agent"
     },
     {
@@ -104,8 +104,8 @@
     },
     {
       "id": "svyazi",
-      "count": 251,
-      "files": 251,
+      "count": 250,
+      "files": 250,
       "category": "project"
     },
     {
@@ -140,8 +140,8 @@
     },
     {
       "id": "habr",
-      "count": 168,
-      "files": 168,
+      "count": 167,
+      "files": 167,
       "category": "other"
     },
     {
@@ -164,8 +164,8 @@
     },
     {
       "id": "agents",
-      "count": 153,
-      "files": 153,
+      "count": 152,
+      "files": 152,
       "category": "agent"
     },
     {
@@ -193,15 +193,15 @@
       "category": "other"
     },
     {
-      "id": "first",
+      "id": "auto",
       "count": 138,
       "files": 138,
       "category": "other"
     },
     {
-      "id": "auto",
-      "count": 137,
-      "files": 137,
+      "id": "first",
+      "count": 138,
+      "files": 138,
       "category": "other"
     },
     {
@@ -230,8 +230,8 @@
     },
     {
       "id": "если",
-      "count": 124,
-      "files": 124,
+      "count": 123,
+      "files": 123,
       "category": "other"
     },
     {
@@ -245,7 +245,7 @@
     {
       "source": "agent",
       "target": "auto",
-      "weight": 33
+      "weight": 34
     },
     {
       "source": "agent",
@@ -270,17 +270,17 @@
     {
       "source": "agent",
       "target": "summary",
-      "weight": 101
+      "weight": 102
     },
     {
       "source": "agent",
       "target": "svyazi",
-      "weight": 75
+      "weight": 76
     },
     {
       "source": "auto",
       "target": "docs",
-      "weight": 128
+      "weight": 129
     },
     {
       "source": "auto",
@@ -330,7 +330,7 @@
     {
       "source": "docs",
       "target": "svyazi",
-      "weight": 222
+      "weight": 221
     },
     {
       "source": "first",
@@ -425,7 +425,7 @@
     {
       "source": "docs",
       "target": "если",
-      "weight": 115
+      "weight": 114
     },
     {
       "source": "first",
@@ -565,7 +565,7 @@
     {
       "source": "agents",
       "target": "anthropic",
-      "weight": 136
+      "weight": 135
     },
     {
       "source": "agents",
@@ -575,7 +575,7 @@
     {
       "source": "agents",
       "target": "docs",
-      "weight": 129
+      "weight": 128
     },
     {
       "source": "agents",
@@ -615,7 +615,7 @@
     {
       "source": "anthropic",
       "target": "если",
-      "weight": 99
+      "weight": 98
     },
     {
       "source": "claude",
@@ -660,7 +660,7 @@
     {
       "source": "anthropic",
       "target": "habr",
-      "weight": 93
+      "weight": 92
     },
     {
       "source": "anthropic",
@@ -720,7 +720,7 @@
     {
       "source": "docs",
       "target": "habr",
-      "weight": 152
+      "weight": 151
     },
     {
       "source": "docs",
@@ -1145,7 +1145,7 @@
     {
       "source": "anthropic",
       "target": "auto",
-      "weight": 89
+      "weight": 90
     },
     {
       "source": "auto",
@@ -1185,7 +1185,7 @@
     {
       "source": "appendix",
       "target": "auto",
-      "weight": 16
+      "weight": 17
     },
     {
       "source": "appendix",
@@ -1250,7 +1250,7 @@
     {
       "source": "appendix",
       "target": "если",
-      "weight": 20
+      "weight": 19
     },
     {
       "source": "appendix",
@@ -1380,7 +1380,7 @@
     {
       "source": "agents",
       "target": "vacancies",
-      "weight": 76
+      "weight": 75
     },
     {
       "source": "agents",
@@ -1390,7 +1390,7 @@
     {
       "source": "auto",
       "target": "habr",
-      "weight": 15
+      "weight": 14
     },
     {
       "source": "auto",
@@ -1405,7 +1405,7 @@
     {
       "source": "agent",
       "target": "anthropic",
-      "weight": 271
+      "weight": 272
     },
     {
       "source": "agent",
@@ -1415,7 +1415,7 @@
     {
       "source": "agent",
       "target": "vacancies",
-      "weight": 130
+      "weight": 131
     },
     {
       "source": "agent",
@@ -1515,7 +1515,7 @@
     {
       "source": "agent",
       "target": "habr",
-      "weight": 60
+      "weight": 61
     },
     {
       "source": "agent",
@@ -1525,7 +1525,7 @@
     {
       "source": "agent",
       "target": "projects",
-      "weight": 35
+      "weight": 36
     },
     {
       "source": "agent",
@@ -1820,7 +1820,7 @@
     {
       "source": "agents",
       "target": "appendix",
-      "weight": 19
+      "weight": 18
     },
     {
       "source": "agents",
@@ -1835,7 +1835,7 @@
     {
       "source": "agents",
       "target": "nautilus",
-      "weight": 44
+      "weight": 43
     },
     {
       "source": "appendix",
@@ -1910,7 +1910,7 @@
     {
       "source": "agent",
       "target": "agents",
-      "weight": 120
+      "weight": 119
     },
     {
       "source": "agent",
@@ -2135,7 +2135,7 @@
     {
       "source": "agents",
       "target": "projects",
-      "weight": 21
+      "weight": 20
     },
     {
       "source": "collaboration",
@@ -2255,7 +2255,7 @@
     {
       "source": "auto",
       "target": "источник",
-      "weight": 19
+      "weight": 20
     },
     {
       "source": "docs",
@@ -2680,22 +2680,12 @@
     {
       "source": "agents",
       "target": "svyazi",
-      "weight": 13
+      "weight": 12
     },
     {
       "source": "agent",
       "target": "mhtml",
       "weight": 140
-    },
-    {
-      "source": "agents",
-      "target": "habr",
-      "weight": 16
-    },
-    {
-      "source": "agents",
-      "target": "mhtml",
-      "weight": 39
     },
     {
       "source": "appendix",
@@ -2761,6 +2751,11 @@
       "source": "репозитория",
       "target": "сходство",
       "weight": 8
+    },
+    {
+      "source": "agents",
+      "target": "habr",
+      "weight": 15
     },
     {
       "source": "habr",
@@ -2841,11 +2836,6 @@
       "source": "appendix",
       "target": "источник",
       "weight": 35
-    },
-    {
-      "source": "если",
-      "target": "источник",
-      "weight": 45
     },
     {
       "source": "architecture",
@@ -3549,6 +3539,11 @@
     },
     {
       "source": "если",
+      "target": "источник",
+      "weight": 44
+    },
+    {
+      "source": "если",
       "target": "корень",
       "weight": 37
     },
@@ -3586,6 +3581,11 @@
       "source": "first",
       "target": "снимок",
       "weight": 46
+    },
+    {
+      "source": "agents",
+      "target": "mhtml",
+      "weight": 38
     },
     {
       "source": "agents",

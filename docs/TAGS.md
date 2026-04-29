@@ -27,7 +27,7 @@
 - `docs/DIGEST_AUTO.md`
 - _...и ещё 35_
 
-## #architecture (58 файлов)
+## #architecture (55 файлов)
 
 - `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/QA.md`
@@ -49,9 +49,9 @@
 - `docs/CONTRADICTIONS.md`
 - `docs/COST.md`
 - `docs/COVERAGE.md`
-- _...и ещё 38_
+- _...и ещё 35_
 
-## #collaboration (64 файлов)
+## #collaboration (62 файлов)
 
 - `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/QA.md`
@@ -73,9 +73,9 @@
 - `docs/COST.md`
 - `docs/COVERAGE.md`
 - `docs/DENSITY.md`
-- _...и ещё 44_
+- _...и ещё 42_
 
-## #ingestion (56 файлов)
+## #ingestion (55 файлов)
 
 - `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/QA.md`
@@ -97,9 +97,9 @@
 - `docs/DEPENDABOT.md`
 - `docs/DIGEST_AUTO.md`
 - `docs/EMPTY_SECTIONS.md`
-- _...и ещё 36_
+- _...и ещё 35_
 
-## #knowledge (45 файлов)
+## #knowledge (42 файлов)
 
 - `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/QA.md`
@@ -121,14 +121,13 @@
 - `docs/ENTITIES.md`
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
-- _...и ещё 25_
+- _...и ещё 22_
 
-## #local-first (29 файлов)
+## #local-first (28 файлов)
 
 - `docs/ABBREVIATIONS.md`
 - `docs/ACTION_ITEMS.md`
 - `docs/CODE_BLOCKS.md`
-- `docs/COMPARE.md`
 - `docs/COMPLEXITY.md`
 - `docs/CONCEPTS.md`
 - `docs/CONSISTENCY.md`
@@ -145,7 +144,8 @@
 - `docs/NAMED_ENTITIES.md`
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/PRIORITIES.md`
-- _...и ещё 9_
+- `docs/QUESTIONS.md`
+- _...и ещё 8_
 
 ## #memory (44 файлов)
 
@@ -159,7 +159,6 @@
 - `docs/CONSISTENCY.md`
 - `docs/CONTACTS.md`
 - `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
 - `docs/CONTRADICTIONS.md`
 - `docs/COST.md`
 - `docs/DENSITY.md`
@@ -169,9 +168,10 @@
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
 - `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
 - _...и ещё 24_
 
-## #orchestration (34 файлов)
+## #orchestration (33 файлов)
 
 - `docs/02-anthropic-vacancies/QA.md`
 - `docs/ACTION_ITEMS.md`
@@ -193,9 +193,9 @@
 - `docs/LANGUAGE_STATS.md`
 - `docs/MINDMAP.md`
 - `docs/MISSING.md`
-- _...и ещё 14_
+- _...и ещё 13_
 
-## #rag (47 файлов)
+## #rag (46 файлов)
 
 - `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/QA.md`
@@ -217,9 +217,9 @@
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
 - `docs/GRAPH.md`
-- _...и ещё 27_
+- _...и ещё 26_
 
-## #roadmap (45 файлов)
+## #roadmap (43 файлов)
 
 - `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/QA.md`
@@ -241,7 +241,7 @@
 - `docs/GITHUB_ISSUES.md`
 - `docs/HEADING_AUDIT.md`
 - `docs/HEATMAP.md`
-- _...и ещё 25_
+- _...и ещё 23_
 
 ## #security (37 файлов)
 
@@ -267,7 +267,7 @@
 - `docs/KNOWLEDGE_MAP.md`
 - _...и ещё 17_
 
-## #self-improvement (36 файлов)
+## #self-improvement (35 файлов)
 
 - `docs/ABBREVIATIONS.md`
 - `docs/ACTION_ITEMS.md`
@@ -289,7 +289,7 @@
 - `docs/MINDMAP.md`
 - `docs/MISSING.md`
 - `docs/NAMED_ENTITIES.md`
-- _...и ещё 16_
+- _...и ещё 15_
 
 <!-- see-also -->
 

@@ -8,7 +8,7 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **106** |
+| Коммитов | **109** |
 | Новых файлов | **20** |
 | Изменённых файлов | **0** |
 | Слов добавлено | **+0** |
@@ -21,7 +21,7 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 | `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
 | `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 234 |
 | `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 186 |
-| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 125 |
+| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 142 |
 | `anthropic-vacancies` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 111 |
 | `lorenzo-agent` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 62 |
 | `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 59 |
@@ -29,6 +29,9 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 
 ## Последние коммиты
 
+- `2026-04-29` [6421a1fc] chore: regenerate auto-exports after Sprint 24-26
+- `2026-04-29` [d3dd0884] feat: Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph
+- `2026-04-29` [0f740af3] docs: auto-update via improve_run_all [skip ci]
 - `2026-04-29` [6ac59707] chore: regenerate auto-exports after Sprint 21-23
 - `2026-04-29` [11d7bad1] feat: Sprint 21-23 — embeddings cache, skill testing, release engineer
 - `2026-04-29` [88a8480c] docs: auto-update via improve_run_all [skip ci]
@@ -36,27 +39,24 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 - `2026-04-29` [89f9dc93] feat: Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest
 - `2026-04-29` [6f3be4a7] docs: auto-update via improve_run_all [skip ci]
 - `2026-04-29` [3ca737f2] chore: extend gitignore + regenerate badges/exports after Sprint 15-17
-- `2026-04-29` [2265a4db] feat: Sprint 15-17 — workflow v2, observability, embeddings, i18n
-- `2026-04-29` [0c696915] docs: auto-update via improve_run_all [skip ci]
-- `2026-04-29` [25de4e63] chore: regenerate badges + auto-exports after Sprint 12-14
 
 ## Новые файлы
 
-- [`CHANGELOG.md`](docs-toolkit/CHANGELOG.md) — `root`
-- [`CONTRIBUTING.md`](docs-toolkit/CONTRIBUTING.md) — `root`
-- [`RELEASE.md`](docs-toolkit/RELEASE.md) — `root`
-- [`SECURITY.md`](docs-toolkit/SECURITY.md) — `root`
-- [`cache.py`](docs-toolkit/docstoolkit/embeddings/cache.py) — `root`
-- [`__init__.py`](docs-toolkit/docstoolkit/skills/__init__.py) — `root`
-- [`registry.py`](docs-toolkit/docstoolkit/skills/registry.py) — `root`
-- [`testing.py`](docs-toolkit/docstoolkit/skills/testing.py) — `root`
-- [`test_cache.py`](docs-toolkit/tests/test_cache.py) — `root`
-- [`test_skill_testing.py`](docs-toolkit/tests/test_skill_testing.py) — `root`
-- [`plugins.py`](docs-toolkit/docstoolkit/plugins.py) — `root`
-- [`__init__.py`](docs-toolkit/docstoolkit/web/__init__.py) — `root`
-- [`arxiv.py`](docs-toolkit/docstoolkit/web/arxiv.py) — `root`
-- [`habr.py`](docs-toolkit/docstoolkit/web/habr.py) — `root`
-- [`hackernews.py`](docs-toolkit/docstoolkit/web/hackernews.py) — `root`
+- [`__init__.py`](docs-toolkit/docstoolkit/graph/__init__.py) — `root`
+- [`builder.py`](docs-toolkit/docstoolkit/graph/builder.py) — `root`
+- [`export.py`](docs-toolkit/docstoolkit/graph/export.py) — `root`
+- [`ner.py`](docs-toolkit/docstoolkit/graph/ner.py) — `root`
+- [`__init__.py`](docs-toolkit/docstoolkit/jobs/__init__.py) — `root`
+- [`handlers.py`](docs-toolkit/docstoolkit/jobs/handlers.py) — `root`
+- [`queue.py`](docs-toolkit/docstoolkit/jobs/queue.py) — `root`
+- [`worker.py`](docs-toolkit/docstoolkit/jobs/worker.py) — `root`
+- [`__init__.py`](docs-toolkit/docstoolkit/rag/__init__.py) — `root`
+- [`answerer.py`](docs-toolkit/docstoolkit/rag/answerer.py) — `root`
+- [`assembler.py`](docs-toolkit/docstoolkit/rag/assembler.py) — `root`
+- [`pipeline.py`](docs-toolkit/docstoolkit/rag/pipeline.py) — `root`
+- [`retriever.py`](docs-toolkit/docstoolkit/rag/retriever.py) — `root`
+- [`types.py`](docs-toolkit/docstoolkit/rag/types.py) — `root`
+- [`test_graph.py`](docs-toolkit/tests/test_graph.py) — `root`
 
 ---
 _Дайджест сгенерирован автоматически: 2026-04-29_

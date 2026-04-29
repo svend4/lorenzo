@@ -8,9 +8,9 @@ _Обновлено: 2026-04-29_
 |---|-------|--------|------|-----------|--------|------|
 | 1 | **spbmolot** | NGT Memory | memory | 58 | 👁 Изучили | 185 |
 | 2 | **kksudo** | AgentFS | knowledge/filesystem | 57 | 👁 Изучили | 182 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 51 | ⬜ Не начато | 159 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 50 | ⬜ Не начато | 156 |
 | 4 | **VladSpace** | Graph RAG | rag | 43 | ⬜ Не начато | 133 |
-| 5 | **VitalyOborin** | Yodoca | memory | 39 | ⬜ Не начато | 123 |
+| 5 | **VitalyOborin** | Yodoca | memory | 40 | ⬜ Не начато | 126 |
 | 6 | **Cutcode** | AIF Handoff | orchestration | 36 | ⬜ Не начато | 112 |
 | 7 | **zodigancode** | Rufler | orchestration | 36 | ⬜ Не начато | 112 |
 | 8 | **Antipozitive** | MemNet | memory | 33 | ⬜ Не начато | 105 |
@@ -28,7 +28,7 @@ _Обновлено: 2026-04-29_
 
 1. **spbmolot** (NGT Memory, 58 упоминаний) → [открыть контакт](contacts/spbmolot.md)
 1. **kksudo** (AgentFS, 57 упоминаний) → [открыть контакт](contacts/kksudo.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 51 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 50 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 

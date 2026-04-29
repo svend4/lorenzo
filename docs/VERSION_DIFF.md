@@ -2,70 +2,61 @@
 
 _Обновлено: 2026-04-29_
 
-**HEAD~10** (`1bf1481`) → **HEAD** (`6ac5970`)
+**HEAD~10** (`2265a4d`) → **HEAD** (`6421a1f`)
 
-Изменено файлов: **73** | Добавлено слов: **+1395** | Удалено слов: **-6014**
+Изменено файлов: **69** | Добавлено слов: **+2782** | Удалено слов: **-2897**
 
 
-## ✅ Новые файлы (1)
-
-- `docs/MCP_DASHBOARD.md` (+72 слов)
-
-## 📝 Изменённые файлы (72)
+## 📝 Изменённые файлы (69)
 
 | Файл | Δ слов | Добавленные темы | Удалённые темы |
 |------|--------|------------------|----------------|
-| `docs/VERSION_DIFF.md` | -2501 | ✅ Новые файлы (1), 📝 Изменённые файлы (92) | ✅ Новые файлы (34), 📝 Изменённые файлы (382) |
-| `docs/SCRIPTS_CATALOG.md` | -1550 | `improve_audit_db.py` _(группа: без группы)_, `improve_workflow_v2.py` _(группа: без группы)_, без группы (35) | Содержание, без группы (33) |
-| `docs/TABLES.md` | +942 | 100. 👤 People (20), 101. 👤 People (20), 102. Топ-20 ко-упоминаемых пар +96 | 100. Центральность узлов (влиятельность), 101. Структура документации, 102. Ключевые документы +91 |
-| `docs/VALIDATION.md` | -593 | Валидация шаблонов, Шаблоны | Валидация структуры репозитория, Внутренние ссылки, Заголовки H1 +6 |
-| `docs/templates/README.md` | -360 | Доступные шаблоны, Затем откройте и заполните поля в [квадратных скобках], Скопируйте нужный шаблон в нужную папку | Валидация документов, Все документы, Доменные (T3) — 6 +13 |
-| `docs/CONCEPTS.md` | -279 | — | — |
-| `docs/QUESTIONS.md` | -117 | `DUPLICATES.md` (5), `TABLES.md` (12), `VERSION_DIFF.md` (1) +4 | `DUPLICATES.md` (3), `DUPLICATES.md` (7), `TABLES.md` (11) +5 |
-| `docs/CHANGELOG.md` | +98 | 2026-04-29 (92 коммитов), semantic (1 коммитов) | 2026-04-29 (83 коммитов) |
-| `docs/TIMELINE.md` | -74 | 2020 (4 упоминаний), 2026 (459 упоминаний) | 2020 (7 упоминаний), 2026 (454 упоминаний) |
-| `docs/REGISTRY.md` | -69 | — | Содержание |
-| `docs/templates/project-component.md` | -65 | — | — |
-| `docs/DUPLICATES.md` | -57 | — | — |
-| `docs/templates/contact-outreach.md` | -51 | — | — |
-| `docs/TASKS_INDEX.md` | -49 | — | — |
-| `docs/EMPTY_SECTIONS.md` | +46 | `CHANGELOG.md` (7 из 12), `DIGEST_WEEKLY.md` (1 из 2), `OUTLINE.md` (511 из 1210) +9 | `CHANGELOG.md` (5 из 10), `OUTLINE.md` (511 из 1209), `SCRIPTS_CATALOG.md` (23 из 170) +7 |
-| `docs/KPI.md` | +46 | Версия (389), Количество (245), Проценты (198) +3 | Версия (390), Количество (208), Проценты (199) +3 |
-| `docs/templates/research-note.md` | -45 | — | — |
-| `docs/templates/ensemble.md` | -44 | — | — |
-| `docs/DIGEST_AUTO.md` | +43 | — | — |
-| `docs/templates/decision-record.md` | -39 | — | — |
+| `docs/TABLES.md` | -2394 | 1. Скилы агента, 10. Детальные метрики, 100. 👤 People (20) +133 | 1. Универсальные (T1) — 8, 10. Рассмотренные варианты, 100. Центральность узлов (влиятельность) +135 |
+| `docs/SCRIPTS_CATALOG.md` | +1688 | Содержание | — |
+| `docs/VALIDATION.md` | +569 | Валидация структуры репозитория, Внутренние ссылки, Заголовки H1 +6 | Валидация шаблонов, Шаблоны |
+| `docs/VERSION_DIFF.md` | -312 | ✅ Новые файлы (1), 📝 Изменённые файлы (72) | ✅ Новые файлы (23), 📝 Изменённые файлы (95) |
+| `docs/CHANGELOG.md` | +97 | 2026-04-29 (95 коммитов), semantic (1 коммитов) | 2026-04-29 (86 коммитов) |
+| `docs/TASKS_INDEX.md` | +76 | Содержание | — |
+| `docs/REGISTRY.md` | +60 | Содержание | — |
+| `docs/TIMELINE.md` | -52 | 2020 (4 упоминаний), 2023 (11 упоминаний), 2026 (460 упоминаний) | 2020 (5 упоминаний), 2023 (13 упоминаний), 2026 (455 упоминаний) |
+| `docs/DUPLICATES.md` | -51 | — | — |
+| `docs/templates/project-component.md` | +37 | — | — |
 | `docs/CONTRADICTIONS.md` | -32 | 11. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8), 12. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8), 19. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8) +8 | 11. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8), 12. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8), 19. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8) +8 |
-| `docs/LINKS.md` | -26 | — | — |
-| `docs/READING_TIME.md` | -26 | — | — |
-| `docs/DECISIONS.md` | +22 | Общее (282), Оркестрация (16) | Общее (281), Оркестрация (15) |
-| `docs/ACTION_ITEMS.md` | +20 | ⚠️ Риски (596), ✅ Решения и рекомендации (277), 📬 Контактные действия (148) | ⚠️ Риски (595), ✅ Решения и рекомендации (273), 📬 Контактные действия (145) |
-| `docs/BADGES.md` | -19 | — | — |
+| `docs/KPI.md` | +30 | Версия (391), Количество (248), Проценты (197) +4 | Версия (389), Количество (230), Проценты (198) +4 |
+| `docs/templates/contact-outreach.md` | +25 | — | — |
+| `docs/templates/decision-record.md` | +23 | — | — |
+| `docs/DECISIONS.md` | +21 | Оркестрация (16) | Оркестрация (15) |
+| `docs/templates/ensemble.md` | +19 | — | — |
+| `docs/QUESTIONS.md` | -17 | `DUPLICATES.md` (7), `TABLES.md` (119), `TABLES.md` (12) +2 | `DUPLICATES.md` (1), `DUPLICATES.md` (3), `TABLES.md` (11) +4 |
 | `docs/REPORT.md` | +15 | — | — |
-| `docs/SEE_ALSO.md` | +12 | — | — |
-| `docs/HEADING_AUDIT.md` | +11 | `docs/BADGES.md` (2 проблем), `docs/CHANGELOG.md` (8 проблем), `docs/EMPTY_SECTIONS.md` (161 проблем) +8 | `docs/BADGES.md` (1 проблем), `docs/CHANGELOG.md` (6 проблем), `docs/EMPTY_SECTIONS.md` (160 проблем) +6 |
-| `docs/OUTLINE.md` | +11 | [MCP Dashboard](docs/MCP_DASHBOARD.md), Агенты (156 документов), Анализ (19 документов) +4 | Агенты (155 документов), Анализ (20 документов), Архитектура (565 документов) +3 |
-| `docs/ABBREVIATIONS.md` | +10 | — | — |
-| `docs/LANGUAGE_STATS.md` | -10 | — | — |
-| `docs/01-svyazi/README.md` | +9 | Svyazi[^svyazi] 2.0 — Архитектура и исследование | Svyazi 2.0 — Архитектура и исследование |
+| `docs/OUTLINE.md` | +14 | [MCP Dashboard](docs/MCP_DASHBOARD.md), Анализ (19 документов), Контакты (56 документов) +1 | Анализ (18 документов), Контакты (55 документов), Проекты (143 документов) |
+| `docs/CONCEPTS.md` | +13 | — | — |
+| `docs/EMPTY_SECTIONS.md` | +13 | `CHANGELOG.md` (7 из 12), `OUTLINE.md` (511 из 1210), `SCRIPTS_CATALOG.md` (23 из 173) +3 | `CHANGELOG.md` (5 из 10), `OUTLINE.md` (511 из 1209), `SCRIPTS_CATALOG.md` (23 из 171) +2 |
+| `docs/templates/research-note.md` | +13 | — | — |
+| `docs/HEADING_AUDIT.md` | +11 | `docs/CHANGELOG.md` (8 проблем), `docs/REGISTRY.md` (2 проблем), `docs/SCRIPTS_CATALOG.md` (4 проблем) +4 | `docs/CHANGELOG.md` (6 проблем), `docs/SCRIPTS_CATALOG.md` (3 проблем), `docs/SPELLCHECK.md` (29 проблем) +2 |
+| `docs/CITATION_INDEX.md` | -9 | `https://habr.com/ru/articles/1007122/`, `https://habr.com/ru/articles/1017200/` | `https://habr.com/ru/articles/495554/`, `https://habr.com/ru/companies/airi/articles/1000720/` |
+| `docs/DIGEST_AUTO.md` | -9 | — | — |
+| `docs/ABBREVIATIONS.md` | +8 | — | — |
+| `docs/CONSISTENCY.md` | -8 | — | — |
+| `docs/PARAGRAPH_QUALITY.md` | +8 | `docs/ACTION_ITEMS.md` (12 проблем), `docs/CHANGELOG.md` (11 проблем), `docs/CITATION_INDEX.md` (22 проблем) +15 | `docs/ACTION_ITEMS.md` (13 проблем), `docs/CHANGELOG.md` (9 проблем), `docs/CITATION_INDEX.md` (21 проблем) +14 |
+| `docs/PRIORITIES.md` | +8 | — | — |
+| `docs/README.md` | +7 | — | — |
 | `docs/SITEMAP.md` | +7 | — | — |
 | `docs/METRICS.md` | +6 | Документы, требующие улучшения (18) | Документы, требующие улучшения (17) |
-| `docs/PARAGRAPH_QUALITY.md` | +6 | `docs/BADGES.md` (1 проблем), `docs/CHANGELOG.md` (10 проблем), `docs/CONCEPTS.md` (1686 проблем) +25 | `docs/BADGES.md` (2 проблем), `docs/CHANGELOG.md` (9 проблем), `docs/CONCEPTS.md` (1732 проблем) +24 |
-| `docs/PRIORITIES.md` | +6 | — | — |
-| `docs/SPELLCHECK.md` | -5 | — | `docs/TABLES.md` |
-| `docs/READABILITY.md` | +4 | Самые сложные тексты (1164) — рекомендуется упростить | Самые сложные тексты (1163) — рекомендуется упростить |
-| `docs/README.md` | +3 | — | — |
-| `docs/TAGS.md` | +2 | #architecture (55 файлов), #collaboration (62 файлов), #ingestion (55 файлов) +6 | #architecture (59 файлов), #collaboration (66 файлов), #ingestion (57 файлов) +6 |
-| `docs/CITATION_INDEX.md` | +1 | `https://github.com/mcp`, `https://habr.com/ru/articles/495554/` | `https://habr.com/ru/companies/airi/articles/1000720/`, `https://habr.com/ru/companies/yandex/articles/1019928/` |
-| `docs/COMPARE.md` | -1 | Изменившиеся файлы (70) — топ по Δ слов | Изменившиеся файлы (75) — топ по Δ слов |
-| `docs/CONSISTENCY.md` | -1 | — | — |
-| `docs/CONTENT_GAPS.md` | +1 | `HMP` (25 файлов), `IDF` (23 файлов), `LinkedIn` (29 файлов) +3 | `HIPAA` (23 файлов), `HMP` (24 файлов), `LinkedIn` (30 файлов) +3 |
-| `docs/GRAPH.md` | +1 | — | — |
-| `docs/NAMED_ENTITIES.md` | -1 | `2026-04` (123 файлов), `anthropic` (745 файлов), `api` (168 файлов) +12 | `2026-04` (121 файлов), `GitHub` (237 файлов), `anthropic` (744 файлов) +12 |
-| `docs/VOCABULARY.md` | +1 | — | — |
+| `docs/READABILITY.md` | +5 | — | — |
+| `docs/SPELLCHECK.md` | +5 | `docs/TABLES.md` | — |
+| `docs/ACTION_ITEMS.md` | -4 | ✅ Решения и рекомендации (277) | ✅ Решения и рекомендации (276) |
+| `docs/LANGUAGE_STATS.md` | +3 | — | — |
+| `docs/CODE_BLOCKS.md` | -2 | 💻 Bash / Shell (37) | 💻 Bash / Shell (42) |
+| `docs/LINKS.md` | -2 | — | — |
+| `docs/NAMED_ENTITIES.md` | -2 | `2026-04-29` (51 файлов), `2026-04` (123 файлов), `CardIndex` (125 файлов) +11 | `2026-04-29` (50 файлов), `2026-04` (122 файлов), `CardIndex` (126 файлов) +11 |
+| `docs/COMPARE.md` | -1 | Изменившиеся файлы (66) — топ по Δ слов | Изменившиеся файлы (74) — топ по Δ слов |
+| `docs/CONTENT_GAPS.md` | -1 | `GDPR` (60 файлов), `HIPAA` (23 файлов), `IDF` (23 файлов) +4 | `GDPR` (59 файлов), `IDF` (22 файлов), `MHTML` (501 файлов) +4 |
+| `docs/TAGS.md` | +1 | #anthropic (55 файлов), #architecture (58 файлов), #collaboration (64 файлов) +5 | #anthropic (54 файлов), #architecture (56 файлов), #collaboration (62 файлов) +5 |
+| `docs/VOCABULARY.md` | -1 | — | — |
 | `docs/ALERTS.md` | 0 | — | — |
 | `docs/AUTHORS.md` | 0 | — | — |
-| `docs/CODE_BLOCKS.md` | 0 | — | — |
+| `docs/BADGES.md` | 0 | — | — |
 | `docs/COMPLEXITY.md` | 0 | — | — |
 | `docs/CONCEPT_GRAPH.md` | 0 | — | — |
 | `docs/CONTACTS.md` | 0 | — | — |
@@ -75,6 +66,7 @@ _Обновлено: 2026-04-29_
 | `docs/DIGEST_WEEKLY.md` | 0 | — | — |
 | `docs/ENTITIES.md` | 0 | — | — |
 | `docs/GLOSSARY.md` | 0 | — | — |
+| `docs/GRAPH.md` | 0 | — | — |
 | `docs/HEALTH.md` | 0 | — | — |
 | `docs/KNOWLEDGE_MAP.md` | 0 | — | — |
 | `docs/MISSING.md` | 0 | — | — |
@@ -82,8 +74,9 @@ _Обновлено: 2026-04-29_
 | `docs/ORPHANS.md` | 0 | — | — |
 | `docs/PASSIVE_VOICE.md` | 0 | — | — |
 | `docs/PROGRESS.md` | 0 | — | — |
+| `docs/READING_TIME.md` | 0 | — | — |
 | `docs/SENTIMENT.md` | 0 | — | — |
 | `docs/SOURCE_MAP.md` | 0 | — | — |
-| `docs/STALENESS.md` | 0 | Без метаданных (нет summary или тегов) — 169 файлов, Короткие (< 100 слов, заготовки) — 89 файлов | Без метаданных (нет summary или тегов) — 165 файлов, Короткие (< 100 слов, заготовки) — 88 файлов |
+| `docs/STALENESS.md` | 0 | Без метаданных (нет summary или тегов) — 170 файлов | Без метаданных (нет summary или тегов) — 166 файлов |
 | `docs/STATS.md` | 0 | — | — |
-| `docs/WORD_FREQ.md` | 0 | root (261,070 слов), templates (2,484 слов) | root (263,515 слов), templates (2,510 слов) |
+| `docs/WORD_FREQ.md` | 0 | root (260,600 слов), templates (2,375 слов) | root (261,509 слов), templates (2,783 слов) |

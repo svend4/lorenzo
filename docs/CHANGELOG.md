@@ -1,7 +1,7 @@
 # CHANGELOG
 
-Всего коммитов: **98**  
-Статистика: 🔧 chore: 40 | ✨ feat: 29 | ⚡ improve: 14 | 📝 docs: 12 | 🐛 fix: 3
+Всего коммитов: **101**  
+Статистика: 🔧 chore: 41 | ✨ feat: 30 | ⚡ improve: 14 | 📝 docs: 13 | 🐛 fix: 3
 
 
 ## semantic (1 коммитов)
@@ -10,10 +10,11 @@
 
 - hybrid _  E4. cm_
 
-## 2026-04-29 (95 коммитов)
+## 2026-04-29 (98 коммитов)
 
 ### 🔧 Обслуживание
 
+- regenerate auto-exports after Sprint 24-26 _6421a1fc_
 - regenerate auto-exports after Sprint 21-23 _6ac59707_
 - regenerate auto-exports after Sprint 18-20 _f053125f_
 - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737f2_
@@ -81,6 +82,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _0f740af3_
 - auto-update via improve_run_all [skip ci] _88a8480c_
 - auto-update via improve_run_all [skip ci] _6f3be4a7_
 - auto-update via improve_run_all [skip ci] _0c696915_
@@ -97,6 +99,8 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph _d3dd0884_
+  > Sprint 24 — RAG end-to-end
 - Sprint 21-23 — embeddings cache, skill testing, release engineering _11d7bad1_
   > Sprint 21 — Persistent embeddings cache
 - Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest _89f9dc93_

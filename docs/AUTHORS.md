@@ -4,7 +4,7 @@
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 52 |
+| **AnastasiyaW** | 51 |
 | **Antipozitive** | 33 |
 | **BerriAI** | 12 |
 | **Cutcode** | 36 |
@@ -12,7 +12,7 @@
 | **MiXaiLL76** | 30 |
 | **Sonia_Black** | 19 |
 | **VitaliySemenov** | 8 |
-| **VitalyOborin** | 40 |
+| **VitalyOborin** | 41 |
 | **VladSpace** | 43 |
 | **akazant** | 10 |
 | **akzhankalimatov** | 8 |

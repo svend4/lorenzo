@@ -148,7 +148,7 @@ _`docs/CONCEPT_GRAPH.md` | 101 строк_
 ```mermaid
 graph TD
     docs["docs\n(995)"]
-    anthropic["anthropic\n(792)"]
+    anthropic["anthropic\n(791)"]
     claude["claude\n(502)"]
     summary["summary\n(497)"]
     vacancies["vacancies\n(474)"]
@@ -158,14 +158,14 @@ graph TD
     репозитория("репозитория\n(387)")
     корень["корень\n(377)"]
     agent{{"agent\n(357)"}}
-    tags["tags\n(353)"]
+    tags["tags\n(352)"]
     nautilus["nautilus\n(321)"]
     раздел["раздел\n(310)"]
     вакансии["вакансии\n(305)"]
     кластерам["кластерам\n(295)"]
     диалога["диалога\n(269)"]
-    svyazi("svyazi\n(250)")
-    knowledge["knowledge\n(244)"]
+    svyazi("svyazi\n(251)")
+    knowledge["knowledge\n(243)"]
     architecture["architecture\n(236)"]
     сходство["сходство\n(235)"]
     memory[("memory\n(193)")]
@@ -1539,7 +1539,7 @@ _`docs/ALERTS.md` | 11 строк_
 _`docs/BADGES.md` | 8 строк_
 
 ```markdown
-![tests](https://img.shields.io/badge/tests-175--passing-brightgreen)
+![tests](https://img.shields.io/badge/tests-209--passing-brightgreen)
 ![templates](https://img.shields.io/badge/templates-23-blue)
 ![skills](https://img.shields.io/badge/skills-28-blue)
 ![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
@@ -1718,5 +1718,5 @@ interface Adapter {
 - [READING_ORDER](docs/READING_ORDER.md)
 - [SEARCH](docs/SEARCH.md)
 - [CLUSTERS](docs/CLUSTERS.md)
-- [COMPARE](docs/COMPARE.md)
+- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
 
