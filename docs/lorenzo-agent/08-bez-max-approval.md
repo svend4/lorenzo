@@ -32,3 +32,13 @@
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 - [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [352-что-ты-не-можешь-делать-без-max-approval](docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md) (сходство 0.59)
+- [352-что-ты-не-можешь-делать-без-max-approval](docs/obsidian/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md) (сходство 0.54)
+- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md) (сходство 0.37)
+

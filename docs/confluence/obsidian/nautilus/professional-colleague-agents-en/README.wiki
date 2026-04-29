@@ -1,0 +1,41 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/professional-colleague-agents-en/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "professional-colleague-agents-en"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. professional-colleague-agents-en
+
+_Файлов:_ 13
+
+h2. Содержание
+
+* [[00-abstract|00-abstract.md]] — 
+* [[01-five-type-typology|01-five-type-typology.md]] — 
+* [[02-what-makes-pca|02-what-makes-pca.md]] — 
+* [[03-empirical-case-obuchay|03-empirical-case-obuchay.md]] — 
+* [[04-architecture|04-architecture.md]] — 
+* [[05-economics-replication|05-economics-replication.md]] — 
+* [[06-risks|06-risks.md]] — > [!TIP]
+* [[07-application-domains|07-application-domains.md]] — > [!TIP]
+* [[08-pilot-sgb-advocate|08-pilot-sgb-advocate.md]] — 
+* [[09-relationship-other-agents|09-relationship-other-agents.md]] — 
+* [[10-open-questions|10-open-questions.md]] — 
+* [[11-call-for-collaboration|11-call-for-collaboration.md]] — 
+* [[12-closing|12-closing.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[211-table-of-contents]] (сходство 0.37)
+* [[211-table-of-contents]] (сходство 0.30)
+* [[README]] (сходство 0.30)
+

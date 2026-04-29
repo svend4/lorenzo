@@ -1,0 +1,47 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/components/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "components"
+tags:
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. components
+
+_Файлов:_ 19
+
+h2. Содержание
+
+* [[agent-memory-mcp|agent-memory-mcp.md]] — 
+* [[agentfs|agentfs.md]] — 
+* [[ai-factory|ai-factory.md]] — 
+* [[autoresearch-sequential|autoresearch-sequential.md]] — 
+* [[graph-rag|graph-rag.md]] — 
+* [[hybrid-rag|hybrid-rag.md]] — 
+* [[knowledge-space|knowledge-space.md]] — 
+* [[legal-rag|legal-rag.md]] — 
+* [[mclaude|mclaude.md]] — 
+* [[memnet|memnet.md]] — 
+* [[ngt-memory|ngt-memory.md]] — 
+* [[research-docs-liteparse|research-docs-liteparse.md]] — 
+* [[rufler|rufler.md]] — 
+* [[security-routing-plane|security-routing-plane.md]] — 
+* [[self-aware-mcp|self-aware-mcp.md]] — 
+* [[svyazi|svyazi.md]] — 
+* [[voice-stack|voice-stack.md]] — 
+* [[yjs-automerge|yjs-automerge.md]] — 
+* [[yodoca|yodoca.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[GLOSSARY]] (сходство 0.39)
+* [[GLOSSARY]] (сходство 0.34)
+* [[MINDMAP]] (сходство 0.29)
+

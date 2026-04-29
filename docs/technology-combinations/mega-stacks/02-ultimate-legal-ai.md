@@ -74,3 +74,13 @@
 - [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
 - [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.44)
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.40)
+- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md) (сходство 0.37)
+

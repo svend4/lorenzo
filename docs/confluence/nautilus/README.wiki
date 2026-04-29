@@ -1,0 +1,67 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. nautilus/ — Nautilus Portal Protocol и связанные working papers
+
+Часть исходного MHTML‑снимка {{Вакансии в Anthropic по кластерам - Claude}} посвящена не вакансиям, а собственным архитектурным работам пользователя — формальной спецификации _Nautilus Portal Protocol_ и нескольким companion papers. Содержимое разбито здесь на тематические подпапки.
+
+h2. Подпапки
+
+|| Подпапка || Что содержит ||
+|| [`npp-v1-0/`](npp-v1-0/) || Nautilus Portal Protocol v1.0.0-draft RFC — более ранняя версия, 18 разделов + комментарий о дизайн-решениях ||
+|| [`npp-v1-1/`](npp-v1-1/) || Nautilus Portal Protocol v1.1 RFC — полная формальная спецификация, 23 раздела ||
+|| [`review-methodology/`](review-methodology/) || Трёхфазная методология Review v1.0 — параллельная разработка двух вариантов с последующей ручной консолидацией (17 разделов) ||
+|| [`okwf-concept/`](okwf-concept/) || Open Knowledge Work Foundation — Concept Document (11 разделов): шестислойная инфраструктура, target populations, governance, phased rollout ||
+|| [`representative-agent-layer-en/`](representative-agent-layer-en/) || Representative Agent Layer (EN) — Cinderella Syndrome, исторические прецеденты, архитектурная спецификация (13 разделов) ||
+|| [`representative-agent-layer-ru/`](representative-agent-layer-ru/) || Слой Представительских Агентов (RU, 13 разделов) ||
+|| [`professional-colleague-agents-en/`](professional-colleague-agents-en/) || Professional Colleague Agents — типология AI-агентов на стороне принципала (13 разделов, EN) ||
+|| [`professional-colleague-agents-ru/`](professional-colleague-agents-ru/) || Тот же документ на русском (13 разделов) ||
+|| [`composite-skills-agents/`](composite-skills-agents/) || Composite Skills Agents — Twenty-One Teachers Pattern, sub-agent registry, ensembles (13 разделов) ||
+|| [`double-triangle-architecture/`](double-triangle-architecture/) || Double-Triangle Architecture for Human-AI Collaboration — звезда Давида (12 разделов) ||
+|| [`infrastructure-layer-b-en/`](infrastructure-layer-b-en/) || Infrastructure for AI-Collaborative Intellectual Work (EN) — «missing middle Layer B» между Chat и Code (14 разделов) ||
+|| [`infrastructure-layer-b-ru/`](infrastructure-layer-b-ru/) || Инфраструктура для AI-совместной интеллектуальной работы (RU, 13 разделов) ||
+|| [`ingit-cowork-en/`](ingit-cowork-en/) || InGit + Cowork — Symbiotic Architecture (10 разделов, EN) ||
+|| [`ingit-cowork-ru/`](ingit-cowork-ru/) || Тот же документ на русском (10 разделов) ||
+|| [`npp-humanitarian-extension/`](npp-humanitarian-extension/) || Применение NPP к гуманитарным документам (юридические / социальные), grant opportunities ||
+|| [`privacy-federation/`](privacy-federation/) || Privacy-aware federation: что анонимизировать, двухуровневая публикация ||
+|| [`multi-tier-architecture/`](multi-tier-architecture/) || Многоуровневая архитектура: общая база + приватные подключения ||
+|| [`innovation-transitions/`](innovation-transitions/) || Инновация как переход состояний (паровоз → тепловоз) ||
+|| [`supply-demand/`](supply-demand/) || «Спрос рождает предложение» — три связанные темы ||
+|| [`transmission-box/`](transmission-box/) || Если гора не идёт к человеку — посредник как коробка передач ||
+|| [`composite-skills-agents-companion-mentors/`](composite-skills-agents-companion-mentors/) || Companion paper: метафора 21 учителя индийского йога — спектр между Professional Colleague и Representative Agent ||
+|| [`community-discussions/`](community-discussions/) || Реакции на Habr-статьи, voiceless контрибьюторы, агент меняющий реальность ||
+
+h2. Как читать
+
+1. _Начните с [{{okwf-concept/}}|okwf-concept/]_ — это foundational concept document, фон для всех остальных.
+2. _Затем [{{npp-v1-1/}}|npp-v1-1/]_ — формальный протокол, на который ссылаются остальные.
+3. _[{{representative-agent-layer-en/}}|representative-agent-layer-en/]_ (или RU) — Cinderella Syndrome и общая идея агентов на стороне принципала.
+4. _[{{professional-colleague-agents-en/}}|professional-colleague-agents-en/]_ (или RU) — типология агентов и кейс «Обучай».
+5. _Composite Skills Agents_ — следующий шаг от одного агента к ансамблю агентов.
+6. _[{{double-triangle-architecture/}}|double-triangle-architecture/]_ — топология взаимодействия людей и AI.
+7. _[{{infrastructure-layer-b-en/}}|infrastructure-layer-b-en/]_ (или RU) — «missing middle Layer B».
+8. _InGit + Cowork_ — практическая интеграция с продуктом Anthropic Cowork.
+
+h2. Ключевой принцип Nautilus
+
+{quote}_Федерация, а не слияние._ Native-форматы репозиториев сохраняются; унификация происходит только в момент обращения, через адаптер.{quote}
+
+См. [{{npp-v1-1/19-adr-001-federation-over-merging.md}}|npp-v1-1/19-adr-001-federation-over-merging.md] для архитектурного обоснования.
+
+h2. Связь с остальным монорепозиторием
+
+* _Q6-гиперкуб / MoME_ упоминается во многих местах: [{{../glossary/concepts.md}}|../glossary/concepts.md], [{{../habr-unique-projects/hardware-pairs/2-tsu-mome.md}}|../habr-unique-projects/hardware-pairs/2-tsu-mome.md], [{{../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md}}|../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md].
+* _Architecture Spec_ и _Card Envelope_ в Svyazi 2.0 связаны с PortalEntry/Card паттернами здесь: [{{../svyazi-2-0/architecture/}}|../svyazi-2-0/architecture/].
+* _Профиль svend4_ (автор) — см. [{{../anthropic-vacancies/profile-mapping/}}|../anthropic-vacancies/profile-mapping/].
+
+
+
+----
+
+_Похожие документы:_
+* [355-существующие-документы-dhlab-твой-context|docs/obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md] (сходство 0.14)
+* [355-существующие-документы-dhlab-твой-context|docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md] (сходство 0.14)
+* [306-with-anthropic-s-cowork-platform|docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md] (сходство 0.14)
+

@@ -19,6 +19,29 @@ date: 2026-04-29
 >
 
 
+<!-- toc -->
+## Содержание
+
+- [Abstract](#abstract)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Abstract The five-type taxonomy introduced in Professional Colleague --- Abstract The five-type taxonomy introduced in Professional Colleague Agents (Type 0 through Type 4) treats 
+> 🔧 **Подход:** Most skilled professionals occupy a middle zone: not generic practitioners of a profession, not unique individuals beyond categorization, but composite specialists — practitioners 
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `binary`, `incomplete`, `abstract`, `unique`, `composite`, `narrow`
+>
+
+
 <!-- summary -->
 > The five-type taxonomy introduced in Professional Colleague
 

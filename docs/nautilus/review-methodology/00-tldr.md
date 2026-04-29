@@ -53,3 +53,13 @@
 - [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
 - [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [106-tl-dr](docs/obsidian/02-anthropic-vacancies/106-tl-dr.md) (сходство 0.52)
+- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md) (сходство 0.51)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.34)
+

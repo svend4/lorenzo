@@ -1,0 +1,50 @@
+---
+title: "Сводная таблица 9–14 (Extended)"
+tags:
+  - technology-combinations
+date: 2026-04-29
+---
+
+# Сводная таблица 9–14 (Extended)
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «SYNTHESIS TABLE (Extended)».
+**Проекты:** Svyazi
+
+---
+<!-- tags: orchestration, ingestion, local-first -->
+
+
+
+
+> Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «SYNTHESIS TABLE (Extended)».
+
+| Combo | Components | Unique Result | Economic Impact |
+|---|---|---|---|
+| [[09-agent-orchestration-stack|9]] | Agent‑Bridge + Conductor + Sequential | Visual multi‑machine agent IDE | 1 dev = 10 agents = $700/mo |
+| [[10-legal-document-intelligence-pipeline|10]] | LLM‑parsing + Docling + Svyazi | Auto‑building legal corpus | 10 sec search vs 2 hr manual |
+| [[11-hybrid-crdt-sql-database|11]] | CRDT + PostgreSQL 18 async + TimescaleDB | Real‑time collaborative DB | 100k ops/sec, zero conflicts |
+| [[12-multi-agent-observability-stack|12]] | OpenTelemetry + Prometheus + AgentStack | Multi‑agent observability | Detect bottleneck in 60 sec |
+| [[13-legal-document-transpiler|13]] | COBOL transpiler pattern + LLM + templates | Legal document transpiler | 50k docs structured in 1 day |
+| [[14-local-first-agent-development-environment|14]] | OpenClaude + ZINC + CRDT + Agent‑Bridge | Local‑first multi‑agent env | $0/mo, 100% GDPR compliant |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[15-19-extended]]
+- [[02-ultimate-legal-ai]]
+- [[14-local-first-agent-development-environment]]
+- [[01-legal-ai-stack]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[15-19-extended]] (сходство 0.45)
+- [[02-ultimate-legal-ai]] (сходство 0.40)
+- [[01-legal-ai-stack]] (сходство 0.34)
+

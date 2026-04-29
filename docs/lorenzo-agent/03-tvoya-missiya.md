@@ -35,3 +35,13 @@
 - [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
 - [07-chto-mozhesh](docs/lorenzo-agent/07-chto-mozhesh.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [347-твоя-миссия](docs/02-anthropic-vacancies/347-твоя-миссия.md) (сходство 0.70)
+- [347-твоя-миссия](docs/obsidian/02-anthropic-vacancies/347-твоя-миссия.md) (сходство 0.59)
+- [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md) (сходство 0.25)
+

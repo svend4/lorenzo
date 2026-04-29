@@ -73,3 +73,13 @@ ROI: Real-time collaboration + analytical insights, best of both worlds
 - [17-distributed-agent-memory-with-graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
 - [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md) (сходство 0.36)
+- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.30)
+- [17-distributed-agent-memory-with-graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md) (сходство 0.29)
+

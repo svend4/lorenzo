@@ -48,3 +48,13 @@
 - [19-persistent-character](docs/lorenzo-agent/19-persistent-character.md)
 - [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [349-твоя-личность](docs/02-anthropic-vacancies/349-твоя-личность.md) (сходство 0.81)
+- [349-твоя-личность](docs/obsidian/02-anthropic-vacancies/349-твоя-личность.md) (сходство 0.77)
+- [19-persistent-character](docs/lorenzo-agent/19-persistent-character.md) (сходство 0.20)
+

@@ -1,0 +1,51 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/npp-v1-1/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "npp-v1-1"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. npp-v1-1
+
+_Файлов:_ 23
+
+h2. Содержание
+
+* [[00-abstract-status|00-abstract-status.md]] — 
+* [[01-introduction|01-introduction.md]] — 
+* [[02-terminology|02-terminology.md]] — 
+* [[03-registry|03-registry.md]] — > [!IMPORTANT]
+* [[04-passport|04-passport.md]] — 
+* [[05-compatibility-levels|05-compatibility-levels.md]] — 
+* [[06-adapter-interface|06-adapter-interface.md]] — > [!IMPORTANT]
+* [[07-portal-entry|07-portal-entry.md]] — > [!IMPORTANT]
+* [[08-q6-space|08-q6-space.md]] — > [!IMPORTANT]
+* [[09-consensus-algorithm|09-consensus-algorithm.md]] — 
+* [[10-query-flow|10-query-flow.md]] — 
+* [[11-relevance-ranking|11-relevance-ranking.md]] — 
+* [[12-onboarding-paths|12-onboarding-paths.md]] — 
+* [[13-rest-api|13-rest-api.md]] — > [!IMPORTANT]
+* [[14-sdk|14-sdk.md]] — 
+* [[15-security|15-security.md]] — 
+* [[16-mcp-extension|16-mcp-extension.md]] — 
+* [[17-versioning-policy|17-versioning-policy.md]] — > [!IMPORTANT]
+* [[18-reference-implementation|18-reference-implementation.md]] — 
+* [[19-adr-001-federation-over-merging|19-adr-001-federation-over-merging.md]] — 
+* [[20-adr-002-q6-first-class|20-adr-002-q6-first-class.md]] — 
+* [[21-adr-003-five-onboarding-paths|21-adr-003-five-onboarding-paths.md]] — 
+* [[22-glossary|22-glossary.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.60)
+* [[103-appendix-b-change-log]] (сходство 0.15)
+* [[21-adr-003-five-onboarding-paths]] (сходство 0.15)
+

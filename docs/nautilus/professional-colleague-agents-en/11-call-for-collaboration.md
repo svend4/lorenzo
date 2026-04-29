@@ -70,3 +70,13 @@ quality standards — all need development. Engagement with
 practitioners during framework development valuable.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.81)
+- [222-11-call-for-collaboration](docs/obsidian/02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.78)
+- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md) (сходство 0.30)
+

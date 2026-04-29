@@ -337,3 +337,13 @@ Advocate/evangelist (spreading the idea)
 - [01-response](docs/nautilus/innovation-transitions/01-response.md)
 - [165-closing](docs/02-anthropic-vacancies/165-closing.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [150-appendix-c-version-history](docs/obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.30)
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.30)
+- [01-completing-loop](docs/nautilus/transmission-box/01-completing-loop.md) (сходство 0.19)
+

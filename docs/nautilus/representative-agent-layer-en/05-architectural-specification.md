@@ -149,3 +149,13 @@ that touches the world beyond the personal context.
 - [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
 - [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [174-5-architectural-specification](docs/obsidian/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.90)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.84)
+- [03-what-makes-representative-agent](docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md) (сходство 0.24)
+

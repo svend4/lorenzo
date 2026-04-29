@@ -70,3 +70,13 @@ and B (branch Y) on YYYY-MM-DD»
 - [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
 - [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](docs/obsidian/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) (сходство 0.80)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) (сходство 0.74)
+- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.19)
+

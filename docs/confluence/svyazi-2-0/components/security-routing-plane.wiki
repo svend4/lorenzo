@@ -1,0 +1,60 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/security-routing-plane.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Security + routing plane
+
+
+{quote}- _Авторы:_ Dmitriila / BerriAI / MiXaiLL76 / Maslennikovig{quote}
+_Проекты:_ Svyazi, SENTINEL, LiteLLM, Auto AI Router, Tool Search
+
+----
+
+
+
+
+
+* _Авторы:_ Dmitriila / BerriAI / MiXaiLL76 / Maslennikovig
+* _Источник:_ Хабр + GitHub/docs citeturn20view10turn11search2turn19search5turn39view0turn39view1turn20view18
+* _Лицензия:_ смешанная — SENTINEL — неуточнено; LiteLLM — MIT вне enterprise‑директорий; Auto AI Router — Apache 2.0. citeturn20view10turn19search5turn28search3
+* _Maturity:_ активный operational stack. citeturn20view10turn11search2turn39view0turn39view1
+* _Релевантность к Svyazi‑2.0:_ очень высокая — без этого Svyazi‑2.0 будет либо дорогой, либо небезопасной.
+
+h2. Описание
+
+Рантайм‑безопасность и бюджетный execution plane для агентных систем.
+
+h2. Ключевые компоненты и паттерны
+
+* _SENTINEL_ — micro‑model swarm для защиты агентной поверхности
+* _LiteLLM_ — unified API
+* _Auto AI Router_ — Go‑sidecar для rate limits и failover
+* _Tool Search_ — lazy MCP loading
+* _RLM‑Toolkit_ — budget / privacy presets
+
+h2. Числовые наблюдения
+
+* Tool Search: MCP‑overhead падает с 82k до 5.7k токенов; свободное окно растёт на 76k. citeturn39view1
+* Auto AI Router: lightweight sidecar на Go с 30–80 MB RAM, OpenAI‑совместимый endpoint. citeturn39view0
+
+
+
+----
+
+_Смотрите также:_
+* [E-execution-plane|docs/svyazi-2-0/ensembles/E-execution-plane.md]
+* [research-docs-liteparse|docs/svyazi-2-0/components/research-docs-liteparse.md]
+* [rufler|docs/svyazi-2-0/components/rufler.md]
+* [yodoca|docs/svyazi-2-0/components/yodoca.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [E-execution-plane|docs/svyazi-2-0/ensembles/E-execution-plane.md] (сходство 0.29)
+* [research-docs-liteparse|docs/svyazi-2-0/components/research-docs-liteparse.md] (сходство 0.25)
+* [knowledge-space|docs/svyazi-2-0/components/knowledge-space.md] (сходство 0.24)
+

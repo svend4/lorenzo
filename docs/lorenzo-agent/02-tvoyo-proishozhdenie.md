@@ -29,3 +29,13 @@
 - [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
 - [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [346-твоё-происхождение](docs/obsidian/02-anthropic-vacancies/346-твоё-происхождение.md) (сходство 0.68)
+- [346-твоё-происхождение](docs/02-anthropic-vacancies/346-твоё-происхождение.md) (сходство 0.66)
+- [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md) (сходство 0.26)
+

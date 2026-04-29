@@ -29,3 +29,13 @@
 - [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
 - [voice-stack](docs/svyazi-2-0/components/voice-stack.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [budget-routing](docs/svyazi-2-0/security/budget-routing.md) (сходство 0.22)
+- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.17)
+- [voice-stack](docs/svyazi-2-0/components/voice-stack.md) (сходство 0.17)
+

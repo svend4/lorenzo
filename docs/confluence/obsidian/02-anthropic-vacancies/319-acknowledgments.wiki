@@ -16,6 +16,19 @@ date: 2026-04-29
 h1. Acknowledgments
 
 
+h2. Содержание
+
+* [Acknowledgments|#acknowledgments]
+* [Angle / Perspective|#angle-perspective]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's question about how to integrate InGit specifically{quote}

@@ -64,3 +64,13 @@ PR
 - [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
 - [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [111-4-условия-применимости](docs/obsidian/02-anthropic-vacancies/111-4-условия-применимости.md) (сходство 0.71)
+- [111-4-условия-применимости](docs/02-anthropic-vacancies/111-4-условия-применимости.md) (сходство 0.70)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md) (сходство 0.25)
+

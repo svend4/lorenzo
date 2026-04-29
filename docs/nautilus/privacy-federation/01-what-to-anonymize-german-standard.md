@@ -65,3 +65,13 @@
 - [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
 - [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md) (сходство 0.14)
+- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.14)
+- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.14)
+

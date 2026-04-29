@@ -32,3 +32,13 @@ Mehr anzeigen
 - [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md)
 - [165-closing](docs/02-anthropic-vacancies/165-closing.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.14)
+- [01-response](docs/nautilus/community-discussions/practical-observations/01-response.md) (сходство 0.14)
+- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md) (сходство 0.13)
+

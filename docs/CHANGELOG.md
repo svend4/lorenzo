@@ -1,59 +1,29 @@
 # CHANGELOG
 
-Всего коммитов: **103**  
-Статистика: 🔧 chore: 41 | ✨ feat: 30 | 📝 docs: 14 | ⚡ improve: 14 | 🐛 fix: 4
+Всего коммитов: **89**  
+Статистика: 🔧 chore: 36 | ✨ feat: 23 | ⚡ improve: 14 | 📝 docs: 9 | 🐛 fix: 7
 
 
-## semantic (1 коммитов)
-
-### 🔧 Обслуживание
-
-- hybrid _  E4. cm_
-
-## 2026-04-29 (100 коммитов)
+## 2026-04-29 (88 коммитов)
 
 ### 🔧 Обслуживание
 
-- regenerate auto-exports after Sprint 24-26 _6421a1fc_
-- regenerate auto-exports after Sprint 21-23 _6ac59707_
-- regenerate auto-exports after Sprint 18-20 _f053125f_
-- extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737f2_
-- regenerate badges + auto-exports after Sprint 12-14 _25de4e63_
-- regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML) _b471bbad_
-- ignore auto-generated exports and runtime caches _41a9c8aa_
-- regenerate VALIDATION.md after rebase _093bb8c8_
+- синхронизировать docs после обновления корпуса _7c83cefc_
+  > Авто-сгенерированные изменения после расширения корпуса
+- обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов) _e335cb8f_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- sync PROGRESS.md _78e6481d_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- sync PROGRESS.md _d4d34b4a_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync PROGRESS.md _2a9e9403_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync PROGRESS.md _fc65bef5_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - Audit-driven extraction of major missing substantive content _fedc045a_
   > After audit of source dialogs against extracted content, 12 major
-- синхронизировать сгенерированные отчёты и docs _64358a84_
-  > Обновление всех авто-генерируемых файлов после запуска
-- Extract Nautilus Portal Protocol v1.0.0-draft (earlier version) _c6592525_
-  > docs/nautilus/npp-v1-0/ (NEW, 20 files):
-- Extract Nautilus-vs-CAMEL analysis and Habr extra-examples _ee71737e_
-  > docs/anthropic-vacancies/nautilus-vs-camel/ (NEW, 7 files):
-- Extract Hermes Agent comparison and re-prioritization _7822b130_
-  > docs/anthropic-vacancies/hermes-comparison/ (NEW, 15 files):
-- sync PROGRESS.md after content scripts commit _afe64e18_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- Extract AI-managed virtual company and MMORPG-for-programmers analyses _e965e1cd_
-  > docs/anthropic-vacancies/ai-managed-virtual-company/ (NEW, 12 files):
-- Extract Anthropic outreach concept, collaborator findings, reading paths _088f3f16_
-  > docs/anthropic-vacancies/beneficial-deployments-concept/ (NEW, 13 files):
-- Extract Lorenzo specification questions and phased deployment _9d9d2fee_
-  > The same anthropic-vacancies dialog contained more substantive
-- Extract Three-Phase Review Methodology and operationalized Lorenzo _047d6c06_
-  > docs/nautilus/review-methodology/ (NEW):
-- Extract Lorenzo agent prompt and 4 more DHLab papers _5a34f469_
-  > The same MHTML dialog (anthropic-vacancies) contained even more
-- sync PROGRESS.md after nlpplus scripts commit _78f4f118_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- Extract Nautilus Portal Protocol RFC and companion papers _cbe83e6e_
-  > The anthropic-vacancies dialog drifted into substantial Nautilus
-- Add profile-mapping, glossary, source-projects index _b552bcfc_
-  > docs/anthropic-vacancies/profile-mapping/:
+- refresh executive report _12dea45c_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 - sync CONTRADICTIONS.md (background task output) _89d3e8fb_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync CONTRADICTIONS.md after contradiction_check fix _6b81ffed_
@@ -82,14 +52,9 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
-- auto-update via improve_run_all [skip ci] _b0ed2c15_
-- auto-update via improve_run_all [skip ci] _0f740af3_
-- auto-update via improve_run_all [skip ci] _88a8480c_
-- auto-update via improve_run_all [skip ci] _6f3be4a7_
-- auto-update via improve_run_all [skip ci] _0c696915_
-- auto-update via improve_run_all [skip ci] _519d41b5_
-- auto-update via improve_run_all [skip ci] _fdd84b5b_
+- auto-update metrics [skip ci] _94be1ad1_
 - auto-update via improve_run_all [skip ci] _ba78ff20_
+- auto-update via improve_run_all [skip ci] _f63f1a9f_
 - auto-update via improve_run_all [skip ci] _039a4a2a_
 - auto-update via improve_run_all [skip ci] _dfc530a0_
 - auto-update via improve_run_all [skip ci] _f73c58f7_
@@ -162,8 +127,14 @@
   > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
 ### 🐛 Исправления
 
-- CI Catalog check — improve_auto_toc respects .docignore _d6279595_
-  > CI workflow .github/workflows/test.yml job 'Catalog up-to-date check'
+- восстановить 24 файла повреждённых GitHub Actions ботом _643d52de_
+  > Бот (improve_run_all --fast --group reports) на чистом CI-сервере
+- остановить деструктивные авто-обновления от GitHub Actions бота _ee0b767e_
+  > Проблема: бот запускал improve_run_all.py --fast --group reports на чистом
+- fix crosslink root cause (relative paths), map all 125 scripts in dependency map _ed3fa81f_
+  > - Fixed improve_crosslink_all.py: links now use os.path.relpath() instead of
+- fix 8607 broken internal links, improve health score formula _52179ba5_
+  > - Fixed 8607 broken links (absolute → relative paths via improve_broken_links --fix)
 - fix update-docs CI job failures _42f561dd_
   > Three issues fixed:
 - исправить ошибки в deeptext скриптах, добавить выходные файлы _4755dd94_

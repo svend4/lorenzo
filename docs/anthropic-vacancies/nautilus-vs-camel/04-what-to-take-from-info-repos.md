@@ -139,3 +139,13 @@ Marketplace layer (longer term) для economy dimension
 - [05-what-to-do-right-now](docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md)
 - [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-what-info-repos-contain](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) (сходство 0.28)
+- [05-what-to-do-right-now](docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md) (сходство 0.21)
+- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md) (сходство 0.20)
+

@@ -68,3 +68,13 @@
 - [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
 - [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [sozialrecht-35-combinations](docs/technology-combinations/research-reports/sozialrecht-35-combinations.md) (сходство 0.25)
+- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.15)
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.13)
+

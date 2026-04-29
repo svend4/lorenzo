@@ -54,3 +54,13 @@
 - [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
 - [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-conductor-adversarial-review-auto-ai-router](docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md) (сходство 0.49)
+- [05-benchmarks](docs/obsidian/03-technology-combinations/05-benchmarks.md) (сходство 0.39)
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.38)
+

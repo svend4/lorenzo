@@ -33,7 +33,7 @@
 - [118-appendix-a-шаблон-для-header-warning.md](118-appendix-a-шаблон-для-header-warning.md) — <!-- tags: architecture -->
 - [119-appendix-b-примеры-расхождений-и-их-разрешения.md](119-appendix-b-примеры-расхождений-и-их-разрешения.md) — <!-- tags: architecture, anthropic -->
 - [12-content-overview.md](12-content-overview.md) — <!-- summary -->
-- [120-главные-технические-риски.md](120-главные-технические-риски.md) — <!-- summary -->
+- [120-главные-технические-риски.md](120-главные-технические-риски.md) — > [!WARNING]
 - [121-appendix-c-история-изменений-методологии.md](121-appendix-c-история-изменений-методологии.md) — <!-- summary -->
 - [122-глоссарий.md](122-глоссарий.md) — <!-- abstract-auto -->
 - [123-portal-mcp-py.md](123-portal-mcp-py.md) — <!-- abstract-auto -->
@@ -241,9 +241,9 @@
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) — > [!TIP]
 - [311-3-what-ingit-provides-that-cowork-lacks.md](311-3-what-ingit-provides-that-cowork-lacks.md) — <!-- abstract-auto -->
 - [312-4-the-symbiotic-architecture.md](312-4-the-symbiotic-architecture.md) — <!-- toc -->
-- [313-5-four-integration-paths-in-order-of-accessibility.md](313-5-four-integration-paths-in-order-of-accessibility.md) — <!-- abstract-auto -->
-- [314-6-refined-ingit-scope-with-cowork-in-mind.md](314-6-refined-ingit-scope-with-cowork-in-mind.md) — > [!TIP]
-- [315-7-practical-first-steps-this-month.md](315-7-practical-first-steps-this-month.md) — <!-- tags: anthropic -->
+- [313-5-four-integration-paths-in-order-of-accessibility.md](313-5-four-integration-paths-in-order-of-accessibility.md) — <!-- summary -->
+- [314-6-refined-ingit-scope-with-cowork-in-mind.md](314-6-refined-ingit-scope-with-cowork-in-mind.md) — <!-- toc -->
+- [315-7-practical-first-steps-this-month.md](315-7-practical-first-steps-this-month.md) — <!-- tags: architecture, anthropic -->
 - [316-8-implications-for-nautilus-and-okwf.md](316-8-implications-for-nautilus-and-okwf.md) — <!-- toc -->
 - [317-9-risks-and-open-questions.md](317-9-risks-and-open-questions.md) — <!-- toc -->
 - [318-10-strategic-positioning.md](318-10-strategic-positioning.md) — <!-- abstract-auto -->
@@ -259,9 +259,9 @@
 - [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md](328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) — <!-- toc -->
 - [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md](329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) — <!-- abstract-auto -->
 - [330-4-симбиотическая-архитектура.md](330-4-симбиотическая-архитектура.md) — <!-- toc -->
-- [331-5-четыре-пути-интеграции-в-порядке-доступности.md](331-5-четыре-пути-интеграции-в-порядке-доступности.md) — <!-- abstract-auto -->
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork.md](332-6-уточнённый-объём-ingit-с-учётом-cowork.md) — > [!TIP]
-- [333-7-практические-первые-шаги-в-этом-месяце.md](333-7-практические-первые-шаги-в-этом-месяце.md) — > [!WARNING]
+- [331-5-четыре-пути-интеграции-в-порядке-доступности.md](331-5-четыре-пути-интеграции-в-порядке-доступности.md) — > [!TIP]
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork.md](332-6-уточнённый-объём-ingit-с-учётом-cowork.md) — <!-- toc -->
+- [333-7-практические-первые-шаги-в-этом-месяце.md](333-7-практические-первые-шаги-в-этом-месяце.md) — <!-- toc-auto -->
 - [334-8-импликации-для-nautilus-и-okwf.md](334-8-импликации-для-nautilus-и-okwf.md) — <!-- toc -->
 - [335-9-риски-и-открытые-вопросы.md](335-9-риски-и-открытые-вопросы.md) — <!-- toc -->
 - [336-10-стратегическое-позиционирование.md](336-10-стратегическое-позиционирование.md) — <!-- abstract-auto -->
@@ -359,4 +359,14 @@
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank.md](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) — <!-- summary -->
 - [97-22-glossary-of-reference-examples.md](97-22-glossary-of-reference-examples.md) — <!-- summary -->
 - [98-appendix-a-minimal-working-example.md](98-appendix-a-minimal-working-example.md) — <!-- abstract-auto -->
-- [QA.md](QA.md) — _Автоматически сгенерировано по 355 файлам раздела._
+- [QA.md](QA.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/obsidian/02-anthropic-vacancies/README.md) (сходство 0.97)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md) (сходство 0.81)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.76)
+

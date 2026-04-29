@@ -1,0 +1,48 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/clusters/09-product-management-support-ops.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Product Management, Support, & Operations — 17 ролей"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Product Management, Support, & Operations — 17 ролей
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+Product Manager по Claude Code, API Growth, Consumer, Monetization, Multi-Cloud Growth - Google, Research Product; Product Operations Manager (Feedback Loops, Research Product); Product Support Specialist/Manager (US + Dublin + Tokyo).
+
+
+
+----
+
+_Смотрите также:_
+* [[13-communications]]
+* [[14-public-policy]]
+* [[15-public-benefit]]
+* [[12-technical-program-management]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[13-communications]] (сходство 0.61)
+* [[16-people]] (сходство 0.50)
+* [[14-public-policy]] (сходство 0.50)
+

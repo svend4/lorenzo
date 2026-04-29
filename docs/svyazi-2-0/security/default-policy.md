@@ -38,3 +38,13 @@
 - [risks](docs/svyazi-2-0/prototype/risks.md)
 - [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-security-privacy](docs/01-svyazi/06-security-privacy.md) (сходство 0.45)
+- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) (сходство 0.44)
+- [06-security-privacy](docs/obsidian/01-svyazi/06-security-privacy.md) (сходство 0.43)
+

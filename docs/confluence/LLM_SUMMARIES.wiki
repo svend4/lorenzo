@@ -95,3 +95,13 @@ h2. Упоминается в
 * [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md]
 * [Карта репозитория Lorenzo|SITEMAP.md]
 * [Онбординг — Svyazi 2.0 / Lorenzo|ONBOARDING.md]
+
+
+
+----
+
+_Похожие документы:_
+* [LLM_SUMMARIES|docs/obsidian/LLM_SUMMARIES.md] (сходство 0.87)
+* [VALIDATION|docs/VALIDATION.md] (сходство 0.26)
+* [VALIDATION|docs/obsidian/VALIDATION.md] (сходство 0.23)
+

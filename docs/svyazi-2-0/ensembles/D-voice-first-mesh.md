@@ -49,3 +49,13 @@ flowchart LR
 - [voice-stack](docs/svyazi-2-0/components/voice-stack.md)
 - [F-evidence-backed-intake](docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.23)
+- [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.23)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.21)
+

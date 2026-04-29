@@ -203,3 +203,13 @@ never had it**.
 - [01-cinderella-syndrome](docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md)
 - [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [171-2-historical-precedents-agents-as-civilizational-i](docs/obsidian/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.87)
+- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.86)
+- [01-cinderella-syndrome](docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md) (сходство 0.18)
+

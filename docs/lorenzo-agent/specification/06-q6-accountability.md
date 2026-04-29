@@ -73,3 +73,13 @@ Worst case: public retirement of Lorenzo persona
 - [03-q3-what-lorenzo-does](docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md)
 - [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-q7-success-metrics](docs/lorenzo-agent/specification/07-q7-success-metrics.md) (сходство 0.25)
+- [03-q3-what-lorenzo-does](docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md) (сходство 0.24)
+- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md) (сходство 0.23)
+

@@ -33,3 +33,13 @@ Remote-friendly EMEA + accommodation под health status — Anthropic дела
 - [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
 - [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.26)
+- [06-not-applicable-roles](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md) (сходство 0.24)
+- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.21)
+

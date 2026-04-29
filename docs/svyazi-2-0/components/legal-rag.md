@@ -37,3 +37,13 @@
 - [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
 - [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [hybrid-rag](docs/svyazi-2-0/components/hybrid-rag.md) (сходство 0.34)
+- [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md) (сходство 0.33)
+- [graph-rag](docs/svyazi-2-0/components/graph-rag.md) (сходство 0.32)
+

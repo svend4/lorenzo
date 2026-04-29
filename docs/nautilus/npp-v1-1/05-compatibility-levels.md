@@ -79,3 +79,13 @@ Portal возвращает static entries.
 - [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
 - [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [80-5-compatibility-levels](docs/obsidian/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.80)
+- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.72)
+- [05-compatibility-levels](docs/nautilus/npp-v1-0/05-compatibility-levels.md) (сходство 0.36)
+

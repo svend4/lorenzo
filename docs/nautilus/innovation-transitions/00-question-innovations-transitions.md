@@ -189,3 +189,13 @@ Mehr anzeigen
 - [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
 - [06-angel-vs-demon-duality](docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.40)
+- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md) (сходство 0.30)
+- [01-интегральный-анализ-профиля-svend4](docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (сходство 0.23)
+

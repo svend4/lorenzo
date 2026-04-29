@@ -117,3 +117,13 @@ example_user, example@email.com
 - [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
 - [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) (сходство 0.49)
+- [27-15-glossary-of-examples](docs/obsidian/02-anthropic-vacancies/27-15-glossary-of-examples.md) (сходство 0.48)
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.44)
+

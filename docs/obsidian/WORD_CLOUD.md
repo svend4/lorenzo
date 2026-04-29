@@ -2,6 +2,7 @@
 title: "Word Cloud"
 tags:
   - ingestion
+  - architecture
   - anthropic
   - general
 date: 2026-04-29
@@ -14,7 +15,7 @@ date: 2026-04-29
 **Проекты:** Svyazi
 
 ---
-<!-- tags: ingestion, anthropic -->
+<!-- tags: ingestion, architecture, anthropic -->
 
 
 
@@ -27,44 +28,23 @@ date: 2026-04-29
 
 | # | Слово | Частота |
 |---|-------|---------|
-| 1 | **anthropic** | 5,050 |
-| 2 | **vacancies** | 4,506 |
-| 3 | **agent** | 1,422 |
-| 4 | **turn** | 1,376 |
-| 5 | **svyazi** | 1,039 |
-| 6 | **сходство** | 1,007 |
-| 7 | **view** | 973 |
-| 8 | **cowork** | 926 |
-| 9 | **nautilus** | 912 |
-| 10 | **appendix** | 822 |
-| 11 | **ingit** | 776 |
-| 12 | **agents** | 701 |
-| 13 | **knowledge** | 691 |
-| 14 | **portal** | 659 |
-| 15 | **protocol** | 617 |
-| 16 | **search** | 604 |
-| 17 | **document** | 599 |
-| 18 | **memory** | 591 |
-| 19 | **lorenzo** | 557 |
-| 20 | **claude** | 556 |
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[CONCEPT_GRAPH]] (сходство 0.30)
-- [[28-appendix-a-minimal-working-example]] (сходство 0.20)
-- [[304-ingit-as-cowork-native-workspace-substrate-md]] (сходство 0.19)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[CONCEPT_GRAPH]]
-- [[28-appendix-a-minimal-working-example]]
-- [[65-readme-md]]
-- [[305-a-practical-path-to-layer-b-through-symbiotic-inte]]
-
+| 1 | **anthropic** | 23,355 |
+| 2 | **vacancies** | 18,816 |
+| 3 | **nautilus** | 8,612 |
+| 4 | **agent** | 8,510 |
+| 5 | **проблем** | 7,523 |
+| 6 | **svyazi** | 6,941 |
+| 7 | **сходство** | 4,888 |
+| 8 | **appendix** | 4,757 |
+| 9 | **cowork** | 4,349 |
+| 10 | **readme** | 4,036 |
+| 11 | **turn** | 4,014 |
+| 12 | **очень** | 3,927 |
+| 13 | **agents** | 3,918 |
+| 14 | **документы** | 3,779 |
+| 15 | **ingit** | 3,663 |
+| 16 | **lorenzo** | 3,612 |
+| 17 | **claude** | 3,597 |
+| 18 | **layer** | 3,586 |
+| 19 | **сложный** | 3,526 |
+| 20 | **knowledge** | 3,322 |

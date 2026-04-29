@@ -31,3 +31,13 @@ Hermes не имеет этого domain layer. Чтобы превратить 
 - [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
 - [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.41)
+- [01-similarity-1-composite-skills](docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md) (сходство 0.37)
+- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md) (сходство 0.36)
+

@@ -32,3 +32,13 @@
 - [evidence-envelope](docs/svyazi-2-0/architecture/evidence-envelope.md)
 - [memory-write-policy](docs/svyazi-2-0/architecture/memory-write-policy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md) (сходство 0.25)
+- [card-envelope](docs/svyazi-2-0/architecture/card-envelope.md) (сходство 0.22)
+- [memory-write-policy](docs/svyazi-2-0/architecture/memory-write-policy.md) (сходство 0.22)
+

@@ -1,0 +1,29 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/habr-unique-projects/deep-pairs/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. deep-pairs
+
+_Файлов:_ 8
+
+h2. Содержание
+
+* [1-llm-gateway.md|1-llm-gateway.md] — 
+* [2-document-rag.md|2-document-rag.md] — 
+* [3-adversarial-multi-ide.md|3-adversarial-multi-ide.md] — 
+* [4-skill-catalogs-subagents.md|4-skill-catalogs-subagents.md] — 
+* [5-voice-local-memory.md|5-voice-local-memory.md] — 
+* [6-tmux-village-openclaw.md|6-tmux-village-openclaw.md] — 
+* [7-autoresearch-distributed.md|7-autoresearch-distributed.md] — 
+* [8-self-aware-mcp-specs.md|8-self-aware-mcp-specs.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/svyazi-2-0/components/README.md] (сходство 0.17)
+* [README|docs/habr-unique-projects/software-pairs/README.md] (сходство 0.15)
+* [README|docs/svyazi-2-0/ensembles/README.md] (сходство 0.14)
+

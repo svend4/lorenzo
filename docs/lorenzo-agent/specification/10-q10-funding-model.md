@@ -94,3 +94,13 @@ Phase 4 (year 3+): Sustainable operating model
 - [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
 - [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.24)
+- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.22)
+- [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md) (сходство 0.21)
+

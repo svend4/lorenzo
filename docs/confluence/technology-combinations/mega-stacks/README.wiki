@@ -1,0 +1,25 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/technology-combinations/mega-stacks/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. mega-stacks
+
+_Файлов:_ 4
+
+h2. Содержание
+
+* [01-legal-ai-stack.md|01-legal-ai-stack.md] — 
+* [02-ultimate-legal-ai.md|02-ultimate-legal-ai.md] — 
+* [03-dsl-ast.md|03-dsl-ast.md] — 
+* [04-event-sourcing-consensus.md|04-event-sourcing-consensus.md] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/habr-unique-projects/final-ensembles/README.md] (сходство 0.21)
+* [README|docs/technology-combinations/synthesis-tables/README.md] (сходство 0.20)
+* [README|docs/obsidian/autofilled/README.md] (сходство 0.20)
+

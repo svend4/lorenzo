@@ -550,3 +550,13 @@ Roadmap для гильдийных коллег в OKWF
 - [CONCEPTS](docs/CONCEPTS.md)
 - [ACTION_ITEMS](docs/ACTION_ITEMS.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-response](docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md) (сходство 0.62)
+- [207-приложение-c-образцы-случаев-использования-в-детал](docs/obsidian/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) (сходство 0.58)
+- [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) (сходство 0.58)
+

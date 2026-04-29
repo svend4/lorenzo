@@ -1,0 +1,83 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "19. ADR-001: Federation over Merging"
+tags:
+  * architecture
+  * anthropic
+  * collaboration
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 19. ADR-001: Federation over Merging
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+h2. 19. ADR-001: Federation over Merging
+
+_Status_: Accepted (since v1.0, reaffirmed in v1.1)
+
+_Context_: При построении системы knowledge management встаёт 
+выбор: заставить все данные мигрировать в единую схему (merge), 
+либо сохранить разные native-форматы и переводить по необходимости 
+(federation).
+
+_Decision_: Выбрана federation.
+
+_Consequences_:
+
+_Positive_:
+* Low barrier to entry: существующие Repos подключаются без 
+рефакторинга
+* Authorship preserved: каждый автор работает в своей модели
+* Multi-angle views: один концепт может существовать в трёх Repos 
+с тремя разными углами одновременно
+* Five onboarding paths: гибкость от manual до fully automated
+
+_Negative_:
+* Cross-repo queries дороже: требуется вызов всех адаптеров
+* Consensus нетривиален: string matching — аппроксимация, не 
+formal mapping
+* Bridges — текстовые описания, не machine-executable (открытый 
+вопрос для v2.0)
+
+_Alternatives rejected_:
+* Unified RDF/OWL ontology: слишком высокий barrier
+* Centralized database: нарушает local autonomy
+* Schema-less dump: теряется семантика angles
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[14-adr-001-federation-over-merging]]
+* [[94-19-adr-001-federation-over-merging]]
+* [[26-14-adr-001-federation-over-merging]]
+* [[21-adr-003-five-onboarding-paths]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[14-adr-001-federation-over-merging]] (сходство 0.85)
+* [[94-19-adr-001-federation-over-merging]] (сходство 0.79)
+* [[94-19-adr-001-federation-over-merging]] (сходство 0.79)
+

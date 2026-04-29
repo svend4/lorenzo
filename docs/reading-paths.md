@@ -128,3 +128,13 @@
 - [SITEMAP](docs/SITEMAP.md)
 - [READING_ORDER](docs/READING_ORDER.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.17)
+- [PRIORITIES](docs/obsidian/PRIORITIES.md) (сходство 0.17)
+- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.16)
+

@@ -48,3 +48,13 @@ implementation MUST поддерживать **минимум текущую maj
 - [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
 - [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [24-12-versioning-policy](docs/obsidian/02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.60)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.59)
+- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md) (сходство 0.57)
+

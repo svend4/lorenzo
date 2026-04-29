@@ -54,3 +54,13 @@ formal mapping
 - [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
 - [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [19-adr-001-federation-over-merging](docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md) (сходство 0.85)
+- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) (сходство 0.75)
+- [26-14-adr-001-federation-over-merging](docs/obsidian/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) (сходство 0.74)
+

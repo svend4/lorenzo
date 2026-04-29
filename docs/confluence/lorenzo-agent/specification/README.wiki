@@ -1,0 +1,33 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/lorenzo-agent/specification/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. specification
+
+_Файлов:_ 12
+
+h2. Содержание
+
+* [00-context-fundamental-questions.md|00-context-fundamental-questions.md] — 
+* [01-q1-what-lorenzo-is.md|01-q1-what-lorenzo-is.md] — 
+* [02-q2-whom-lorenzo-serves.md|02-q2-whom-lorenzo-serves.md] — 
+* [03-q3-what-lorenzo-does.md|03-q3-what-lorenzo-does.md] — 
+* [04-q4-character.md|04-q4-character.md] — 
+* [05-q5-authority-limits.md|05-q5-authority-limits.md] — 
+* [06-q6-accountability.md|06-q6-accountability.md] — 
+* [07-q7-success-metrics.md|07-q7-success-metrics.md] — 
+* [08-q8-other-ai-relationships.md|08-q8-other-ai-relationships.md] — 
+* [09-q9-geographic-linguistic-scope.md|09-q9-geographic-linguistic-scope.md] — 
+* [10-q10-funding-model.md|10-q10-funding-model.md] — 
+* [11-difficulties-and-recommendations.md|11-difficulties-and-recommendations.md] — > [!IMPORTANT]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/representative-agent-layer-en/README.md] (сходство 0.14)
+* [08-q8-other-ai-relationships|docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md] (сходство 0.13)
+* [README|docs/anthropic-vacancies/beneficial-deployments-concept/README.md] (сходство 0.13)
+

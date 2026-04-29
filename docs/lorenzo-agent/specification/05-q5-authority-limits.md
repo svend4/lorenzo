@@ -76,3 +76,13 @@ Engage с vulnerable individuals directly without human safeguards
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 - [352-что-ты-не-можешь-делать-без-max-approval](docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md) (сходство 0.37)
+- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md) (сходство 0.26)
+- [03-q3-what-lorenzo-does](docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md) (сходство 0.26)
+

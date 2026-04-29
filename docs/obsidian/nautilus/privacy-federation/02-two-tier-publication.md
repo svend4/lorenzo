@@ -1,0 +1,156 @@
+---
+title: "Архитектурное решение: две-уровневая публикация"
+tags:
+  - rag
+  - security
+  - architecture
+  - anthropic
+  - collaboration
+  - nautilus
+date: 2026-04-29
+---
+
+# Архитектурное решение: две-уровневая публикация
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
+
+---
+<!-- tags: rag, security, architecture, anthropic, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
+
+Архитектурное решение: две-уровневая публикация
+
+Применительно к Nautilus это транслируется в элегантную двухуровневую архитектуру:
+
+Уровень A — Public Nautilus-Legal
+
+Репозиторий: svend4/nautilus-legal (публичный)
+
+Содержит:
+
+Адаптеры для публичных источников: SGB I-XIV с gesetze-im-internet.de, SGG, BGB, VwVfG, решения Bundessozialgericht и Bundesverfassungsgericht (они публичные по закону)
+
+Адаптеры для анонимизированных решений региональных судов (openJur, dejure.org offer бесплатные API)
+
+Адаптеры для ваших собственных обобщённых патернов — это ключевое!
+
+Полностью публичная документация protocol, passports, MCP integration
+
+Общие шаблоны Widerspruch, Klage, Antrag без конкретных деталей
+
+Методология работы с типовыми кейсами
+
+Уровень B — Private Nautilus-Cases
+
+Репозиторий: svend4/cases-private (приватный, с access control)
+
+Содержит:
+
+Реальные Aktenzeichen, имена, даты, адреса
+
+Конкретные Bescheide со всеми персональными данными
+
+Корреспонденция с Sozialamt, KSV, опекуном
+
+Медицинские заключения
+
+Внутренняя переписка по стратегии дела
+
+Ключевое: Bridge между уровнями
+
+Каждый приватный кейс в уровне B ссылается на публичные patterns уровня A:
+
+python
+
+# В приватном репо cases-private:
+PortalEntry(
+id="private:case:S_6_SO_58_26_ER",
+title="[REDACTED] vs Sozialamt Dresden",
+source="private/cases",
+format_type="case_file",
+content="[private details]",
+metadata={
+"aktenzeichen": "[REDACTED]",
+"parties": ["[REDACTED_PLAINTIFF]", "Sozialamt Dresden"],
+"public_pattern_refs": [
+"nautilus-legal:pattern:eingliederungshilfe_denial",
+"nautilus-legal:pattern:persoenliches_budget_refusal",
+"nautilus-legal:norm:sgb_xii_90",
+"nautilus-legal:precedent:anonymized_2024_similar_case"
+]
+}
+)
+
+Логика такая: приватный кейс — это instance публичного паттерна. Паттерн общий, instance персонализированный. Когда вы работаете над private case, Nautilus может подтягивать из public-репо все релевантные patterns и нормы. Когда вы обобщаете опыт, новый public pattern создаётся из private case через процедуру анонимизации.
+
+Конкретный workflow анонимизации
+
+Это самая практическая часть. Как именно из private case получить public pattern без утечки данных?
+
+Предлагаю автоматизированный pipeline с ручной верификацией:
+
+Шаг 1 — детекция PII (Personally Identifiable Information). Adapter AnonymizationAdapter сканирует private документ и находит:
+
+Имена (паттерны: капитализированные слова 2+ букв вне словаря общих слов)
+
+Даты (regex для DD.MM.YYYY, YYYY-MM-DD, немецкие форматы)
+
+Aktenzeichen (regex для S \d+ [A-Z]+ \d+/\d+)
+
+Адреса (POI-lookup против OpenStreetMap, можно офлайн)
+
+Номера телефонов, банковских счетов (regex)
+
+Email'ы (regex)
+
+Диагнозы (match против ICD-10 коротких кодов — иногда надо)
+
+Шаг 2 — замена на holder'ы. Каждый detected PII заменяется на type-consistent placeholder:
+
+"Herr Max Mustermann, geboren am 15.03.1978 in Dresden"
+↓
+"der Kläger [PERSON_1], geboren [YEAR_1] in [CITY_1]"
+
+Placeholder сохраняют тип информации (person, year, city), но не содержимое.
+
+Шаг 3 — ручная верификация. Я предлагаю всегда требовать ручную проверку перед публикацией. Автоматика может пропустить context-specific PII (например, упоминание «бывшая супруга моего брата» — здесь нет имени, но это идентифицирующая информация в малом городе).
+
+Шаг 4 — добавление structural metadata. В анонимизированный документ добавляются теги, характеризующие паттерн:
+
+yaml
+
+pattern_type: "eingliederungshilfe_denial_reversal"
+legal_area: "SGB_XII"
+outcome: "plaintiff_won"
+key_arguments: ["verfassungsmäßige_pflicht", "bedarfsdeckungsprinzip"]
+procedural_stage: "klage"
+
+Это делает анонимизированный документ машинно-обрабатываемым паттерном, не просто PDF-ом с вычеркнутыми словами.
+
+Шаг 5 — публикация в nautilus-legal. Анонимизированный документ коммитится в публичный репо с метаданными о том, что он прошёл pipeline анонимизации.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[03-what-this-gives-technically]]
+- [[01-structural-comparison-code-vs-docs]]
+- [[04-grant-opportunities]]
+- [[00-question-anonymization]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[03-what-this-gives-technically]] (сходство 0.15)
+- [[04-grant-opportunities]] (сходство 0.12)
+- [[00-question-anonymization]] (сходство 0.12)
+

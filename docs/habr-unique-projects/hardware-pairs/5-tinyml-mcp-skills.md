@@ -34,3 +34,13 @@ Edge multi-agent mesh — рой Pi/Jetson-агентов, каждый — уз
 - [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
 - [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.18)
+- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.18)
+- [2-tsu-mome](docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md) (сходство 0.17)
+

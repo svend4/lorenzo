@@ -331,3 +331,13 @@ markdown
 - [16-glossary](docs/nautilus/review-methodology/16-glossary.md)
 - [18-comment-on-document](docs/nautilus/npp-v1-0/18-comment-on-document.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [104-appendix-c-references](docs/obsidian/02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.72)
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.71)
+- [122-глоссарий](docs/obsidian/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.17)
+

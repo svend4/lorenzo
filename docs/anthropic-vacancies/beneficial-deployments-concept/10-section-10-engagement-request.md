@@ -61,3 +61,13 @@ Potential outcomes
 - [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
 - [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) (сходство 0.45)
+- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md) (сходство 0.27)
+- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md) (сходство 0.24)
+

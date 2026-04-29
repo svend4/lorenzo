@@ -92,3 +92,13 @@ work. Most successful infrastructure projects start this way.
 - [06-refined-ingit-scope](docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md)
 - [11-practical-recommendations](docs/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [315-7-practical-first-steps-this-month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) (сходство 0.82)
+- [315-7-practical-first-steps-this-month](docs/obsidian/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) (сходство 0.78)
+- [05-four-integration-paths](docs/nautilus/ingit-cowork-en/05-four-integration-paths.md) (сходство 0.20)
+

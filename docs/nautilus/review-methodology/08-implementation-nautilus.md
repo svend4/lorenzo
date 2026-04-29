@@ -68,3 +68,13 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 - [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
 - [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [114-7-реализация-в-проекте-nautilus](docs/obsidian/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) (сходство 0.75)
+- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) (сходство 0.74)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md) (сходство 0.27)
+

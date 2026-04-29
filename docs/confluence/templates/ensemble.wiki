@@ -62,3 +62,12 @@ h2. MVP-шаги
 
 ----
 _Создано: 2026-04-29_
+
+
+
+----
+
+_Смотрите также:_
+* [project-component|docs/templates/project-component.md]
+* [decision-record|docs/templates/decision-record.md]
+

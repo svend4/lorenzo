@@ -58,3 +58,12 @@ output:
 
 ---
 _Создано: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [project-component](docs/templates/project-component.md)
+- [decision-record](docs/templates/decision-record.md)
+

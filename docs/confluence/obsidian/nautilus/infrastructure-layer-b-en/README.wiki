@@ -1,0 +1,42 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/infrastructure-layer-b-en/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "infrastructure-layer-b-en"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. infrastructure-layer-b-en
+
+_Файлов:_ 14
+
+h2. Содержание
+
+* [[00-intro|00-intro.md]] — 
+* [[01-missing-middle-layer|01-missing-middle-layer.md]] — 
+* [[02-why-document-exists|02-why-document-exists.md]] — 
+* [[03-two-layer-stack|03-two-layer-stack.md]] — > [!TIP]
+* [[04-whats-missing-layer-b|04-whats-missing-layer-b.md]] — 
+* [[05-why-not-built|05-why-not-built.md]] — 
+* [[06-existing-approximations|06-existing-approximations.md]] — 
+* [[07-specific-case|07-specific-case.md]] — 
+* [[08-recursive-insight|08-recursive-insight.md]] — 
+* [[09-what-industry-will-build|09-what-industry-will-build.md]] — 
+* [[10-what-not-solved|10-what-not-solved.md]] — 
+* [[11-practical-recommendations|11-practical-recommendations.md]] — 
+* [[12-closing|12-closing.md]] — 
+* [[13-acknowledgments-refs|13-acknowledgments-refs.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[283-what-this-document-doesn-t-solve]] (сходство 0.16)
+* [[283-what-this-document-doesn-t-solve]] (сходство 0.14)
+* [[282-what-industry-will-likely-build]] (сходство 0.13)
+

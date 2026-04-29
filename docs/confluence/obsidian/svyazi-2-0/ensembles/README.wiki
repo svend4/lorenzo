@@ -1,0 +1,36 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/ensembles/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Ансамбли проектов"
+tags:
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. Ансамбли проектов
+
+_Файлов:_ 8
+
+h2. Содержание
+
+* [[A-collaboration-os|A-collaboration-os.md]] — 
+* [[B-forensic-rag|B-forensic-rag.md]] — 
+* [[C-multi-agent-factory|C-multi-agent-factory.md]] — 
+* [[D-voice-first-mesh|D-voice-first-mesh.md]] — > [!IMPORTANT]
+* [[E-execution-plane|E-execution-plane.md]] — 
+* [[F-evidence-backed-intake|F-evidence-backed-intake.md]] — 
+* [[G-federated-local-graph|G-federated-local-graph.md]] — 
+* [[H-research-to-product-flywheel|H-research-to-product-flywheel.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.19)
+* [[README]] (сходство 0.19)
+* [[README]] (сходство 0.16)
+

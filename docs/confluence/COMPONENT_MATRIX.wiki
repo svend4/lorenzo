@@ -142,3 +142,13 @@ h2. Упоминается в
 * [Все таблицы репозитория|TABLES.md]
 * [Карта репозитория Lorenzo|SITEMAP.md]
 * [Онбординг — Svyazi 2.0 / Lorenzo|ONBOARDING.md]
+
+
+
+----
+
+_Похожие документы:_
+* [COMPONENT_MATRIX|docs/obsidian/COMPONENT_MATRIX.md] (сходство 0.80)
+* [ONBOARDING|docs/obsidian/ONBOARDING.md] (сходство 0.27)
+* [ONBOARDING|docs/ONBOARDING.md] (сходство 0.26)
+

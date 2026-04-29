@@ -58,3 +58,13 @@ Tier 4 — institutional reference
 - [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
 - [05-existing-infrastructure-stack](docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-collaborators-landscape](docs/lorenzo-agent/10-collaborators-landscape.md) (сходство 0.44)
+- [354-существующий-landscape-collaborators-твоя-working-](docs/obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.34)
+- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.34)
+

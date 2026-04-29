@@ -1,7 +1,22 @@
 # Поисковый индекс
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 **Файлов:** 1694  
-**Слов:** 1,318,735
+**Слов:** 1,363,724
 
 | Файл | Теги | Проекты | Слов |
 |------|------|---------|------|
@@ -18,8 +33,8 @@
 | `docs/01-svyazi/12-roadmap.md` |  | Svyazi[^svyazi], mclaude, AI Factory | 693 |
 | `docs/01-svyazi/13-contacts.md` |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 1023 |
 | `docs/01-svyazi/14-limitations.md` |  | Svyazi, mclaude, AI Factory | 634 |
-| `docs/01-svyazi/QA.md` |  |  | 206 |
-| `docs/01-svyazi/README.md` |  |  | 69 |
+| `docs/01-svyazi/QA.md` |  |  | 472 |
+| `docs/01-svyazi/README.md` |  |  | 339 |
 | `docs/02-anthropic-vacancies/00-intro.md` |  | Graph RAG, SENTINEL | 8979 |
 | `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |  |  | 19235 |
 | `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` | rag, orchestration, security |  | 3280 |
@@ -66,7 +81,7 @@
 | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  |  | 17013 |
 | `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | architecture, anthropic |  | 299 |
 | `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | collaboration |  | 269 |
-| `docs/02-anthropic-vacancies/136-abstract.md` | rag, architecture |  | 590 |
+| `docs/02-anthropic-vacancies/136-abstract.md` | rag, architecture |  | 616 |
 | `docs/02-anthropic-vacancies/137-table-of-contents.md` | architecture |  | 298 |
 | `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` | architecture, anthropic |  | 582 |
 | `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` | architecture |  | 731 |
@@ -83,7 +98,7 @@
 | `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` |  |  | 8540 |
 | `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | anthropic |  | 373 |
 | `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` | collaboration |  | 244 |
-| `docs/02-anthropic-vacancies/153-executive-summary.md` | anthropic |  | 573 |
+| `docs/02-anthropic-vacancies/153-executive-summary.md` | anthropic |  | 600 |
 | `docs/02-anthropic-vacancies/154-table-of-contents.md` | roadmap |  | 257 |
 | `docs/02-anthropic-vacancies/155-1-problem-statement.md` | anthropic |  | 771 |
 | `docs/02-anthropic-vacancies/156-2-target-populations.md` | anthropic |  | 809 |
@@ -99,7 +114,7 @@
 | `docs/02-anthropic-vacancies/165-closing.md` |  | Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md) | 9376 |
 | `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | architecture |  | 246 |
 | `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | collaboration |  | 374 |
-| `docs/02-anthropic-vacancies/168-abstract.md` | architecture |  | 543 |
+| `docs/02-anthropic-vacancies/168-abstract.md` | architecture |  | 569 |
 | `docs/02-anthropic-vacancies/169-table-of-contents.md` | roadmap |  | 263 |
 | `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` | memory, anthropic, collaboration |  | 308 |
 | `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` | architecture |  | 936 |
@@ -112,7 +127,7 @@
 | `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` |  |  | 644 |
 | `docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md` | roadmap |  | 648 |
 | `docs/02-anthropic-vacancies/179-10-open-questions.md` | orchestration |  | 412 |
-| `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | ingestion, architecture, anthropic |  | 659 |
+| `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | ingestion, architecture, anthropic |  | 732 |
 | `docs/02-anthropic-vacancies/180-11-call-for-collaboration.md` | ingestion |  | 446 |
 | `docs/02-anthropic-vacancies/181-12-closing.md` | anthropic |  | 382 |
 | `docs/02-anthropic-vacancies/182-acknowledgments.md` | anthropic |  | 346 |
@@ -146,7 +161,7 @@
 | `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` | architecture, anthropic |  | 323 |
 | `docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` | architecture, collaboration |  | 362 |
 | `docs/02-anthropic-vacancies/21-9-query-flow.md` | anthropic |  | 323 |
-| `docs/02-anthropic-vacancies/210-abstract.md` | rag, architecture, roadmap |  | 579 |
+| `docs/02-anthropic-vacancies/210-abstract.md` | rag, architecture, roadmap |  | 605 |
 | `docs/02-anthropic-vacancies/211-table-of-contents.md` | anthropic |  | 433 |
 | `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` | ingestion, architecture, anthropic |  | 1167 |
 | `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` | ingestion |  | 1086 |
@@ -160,7 +175,7 @@
 | `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` |  |  | 909 |
 | `docs/02-anthropic-vacancies/221-10-open-questions.md` | architecture, anthropic |  | 426 |
 | `docs/02-anthropic-vacancies/222-11-call-for-collaboration.md` | rag, architecture |  | 374 |
-| `docs/02-anthropic-vacancies/223-12-closing.md` | architecture, roadmap |  | 693 |
+| `docs/02-anthropic-vacancies/223-12-closing.md` | architecture, roadmap |  | 720 |
 | `docs/02-anthropic-vacancies/224-acknowledgments.md` | anthropic |  | 289 |
 | `docs/02-anthropic-vacancies/225-references.md` | architecture, collaboration |  | 342 |
 | `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | anthropic |  | 328 |
@@ -182,7 +197,7 @@
 | `docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md` | architecture, collaboration |  | 752 |
 | `docs/02-anthropic-vacancies/241-10-открытые-вопросы.md` | collaboration |  | 418 |
 | `docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md` | architecture |  | 393 |
-| `docs/02-anthropic-vacancies/243-12-заключение.md` | architecture, roadmap |  | 549 |
+| `docs/02-anthropic-vacancies/243-12-заключение.md` | architecture, roadmap |  | 576 |
 | `docs/02-anthropic-vacancies/244-благодарности.md` | anthropic, collaboration |  | 284 |
 | `docs/02-anthropic-vacancies/245-ссылки.md` | architecture, collaboration |  | 320 |
 | `docs/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md` | anthropic |  | 284 |
@@ -192,14 +207,14 @@
 | `docs/02-anthropic-vacancies/25-13-reference-implementation.md` | collaboration |  | 316 |
 | `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` |  |  | 14 |
 | `docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` | architecture, collaboration |  | 366 |
-| `docs/02-anthropic-vacancies/252-abstract.md` | anthropic |  | 543 |
+| `docs/02-anthropic-vacancies/252-abstract.md` | anthropic |  | 569 |
 | `docs/02-anthropic-vacancies/253-table-of-contents.md` | anthropic |  | 341 |
-| `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` | ingestion, architecture, roadmap |  | 905 |
-| `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` |  |  | 993 |
-| `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` |  |  | 1163 |
-| `docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md` |  |  | 1013 |
-| `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` | anthropic |  | 955 |
-| `docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` | rag, ingestion |  | 1005 |
+| `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` | ingestion, architecture, roadmap |  | 820 |
+| `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` |  |  | 923 |
+| `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` |  |  | 1099 |
+| `docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md` |  |  | 940 |
+| `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` | anthropic |  | 868 |
+| `docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` | rag, ingestion |  | 936 |
 | `docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` | architecture, collaboration |  | 295 |
 | `docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md` | rag, orchestration, roadmap |  | 941 |
 | `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` |  |  | 1170 |
@@ -207,7 +222,7 @@
 | `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` |  |  | 1029 |
 | `docs/02-anthropic-vacancies/264-11-open-questions.md` | rag, anthropic |  | 596 |
 | `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | rag, anthropic |  | 409 |
-| `docs/02-anthropic-vacancies/266-13-closing.md` | rag |  | 614 |
+| `docs/02-anthropic-vacancies/266-13-closing.md` | rag |  | 641 |
 | `docs/02-anthropic-vacancies/267-acknowledgments.md` | architecture, anthropic |  | 487 |
 | `docs/02-anthropic-vacancies/268-references.md` | rag, architecture, collaboration |  | 376 |
 | `docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` | anthropic |  | 421 |
@@ -217,25 +232,25 @@
 | `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` | rag, orchestration, architecture |  | 4042 |
 | `docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md` | anthropic |  | 256 |
 | `docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md` | architecture, collaboration |  | 415 |
-| `docs/02-anthropic-vacancies/275-why-this-document-exists.md` | orchestration, architecture, roadmap |  | 506 |
-| `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` | architecture, anthropic |  | 574 |
-| `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` | architecture |  | 680 |
-| `docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` | architecture, anthropic |  | 535 |
+| `docs/02-anthropic-vacancies/275-why-this-document-exists.md` | orchestration, architecture, roadmap |  | 535 |
+| `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` | architecture, anthropic |  | 605 |
+| `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` | architecture |  | 710 |
+| `docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` | architecture, anthropic |  | 565 |
 | `docs/02-anthropic-vacancies/279-existing-approximations.md` | rag, architecture, anthropic |  | 606 |
 | `docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md` | ingestion |  | 176 |
 | `docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` | rag, anthropic |  | 886 |
-| `docs/02-anthropic-vacancies/281-the-recursive-insight.md` | architecture |  | 511 |
+| `docs/02-anthropic-vacancies/281-the-recursive-insight.md` | architecture |  | 539 |
 | `docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md` | architecture, anthropic |  | 473 |
 | `docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` | architecture, roadmap |  | 370 |
-| `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` | architecture, anthropic |  | 592 |
+| `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` | architecture, anthropic |  | 623 |
 | `docs/02-anthropic-vacancies/285-closing.md` | rag, ingestion, architecture |  | 425 |
 | `docs/02-anthropic-vacancies/286-acknowledgments.md` | architecture, anthropic |  | 391 |
-| `docs/02-anthropic-vacancies/287-references.md` | anthropic |  | 274 |
-| `docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` | orchestration, architecture, roadmap |  | 1236 |
+| `docs/02-anthropic-vacancies/287-references.md` | anthropic |  | 388 |
+| `docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` | orchestration, architecture, roadmap |  | 1164 |
 | `docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md` | architecture, collaboration |  | 372 |
 | `docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md` | architecture, roadmap, collaboration |  | 293 |
 | `docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md` | architecture, anthropic |  | 458 |
-| `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` | architecture |  | 533 |
+| `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` | architecture |  | 563 |
 | `docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md` | architecture, anthropic |  | 352 |
 | `docs/02-anthropic-vacancies/294-существующие-приближения.md` | architecture, anthropic, collaboration |  | 558 |
 | `docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md` | architecture, anthropic, collaboration |  | 705 |
@@ -245,14 +260,14 @@
 | `docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md` | architecture, anthropic |  | 440 |
 | `docs/02-anthropic-vacancies/300-заключение.md` | architecture, collaboration |  | 186 |
 | `docs/02-anthropic-vacancies/301-благодарности.md` | architecture, collaboration |  | 364 |
-| `docs/02-anthropic-vacancies/302-ссылки.md` | anthropic |  | 271 |
-| `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |  |  | 7247 |
+| `docs/02-anthropic-vacancies/302-ссылки.md` | anthropic |  | 263 |
+| `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |  |  | 7159 |
 | `docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` | architecture, anthropic |  | 262 |
 | `docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md` | architecture |  | 211 |
 | `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` |  |  | 496 |
-| `docs/02-anthropic-vacancies/307-abstract.md` |  |  | 556 |
+| `docs/02-anthropic-vacancies/307-abstract.md` |  |  | 582 |
 | `docs/02-anthropic-vacancies/308-table-of-contents.md` | anthropic |  | 420 |
-| `docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md` |  |  | 666 |
+| `docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md` |  |  | 883 |
 | `docs/02-anthropic-vacancies/31-content-overview.md` | anthropic |  | 188 |
 | `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` | architecture, roadmap |  | 692 |
 | `docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md` |  |  | 842 |
@@ -263,127 +278,127 @@
 | `docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md` | rag, architecture |  | 743 |
 | `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` |  |  | 638 |
 | `docs/02-anthropic-vacancies/318-10-strategic-positioning.md` |  |  | 748 |
-| `docs/02-anthropic-vacancies/319-acknowledgments.md` | rag, architecture, collaboration |  | 567 |
+| `docs/02-anthropic-vacancies/319-acknowledgments.md` | rag, architecture, collaboration |  | 599 |
 | `docs/02-anthropic-vacancies/320-references.md` | anthropic, collaboration |  | 260 |
 | `docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md` |  |  | 332 |
-| `docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` |  |  | 217 |
-| `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` |  |  | 1737 |
-| `docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` |  |  | 486 |
-| `docs/02-anthropic-vacancies/325-аннотация.md` |  |  | 317 |
+| `docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` |  |  | 314 |
+| `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` |  |  | 1656 |
+| `docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` |  |  | 424 |
+| `docs/02-anthropic-vacancies/325-аннотация.md` |  |  | 434 |
 | `docs/02-anthropic-vacancies/326-содержание.md` | architecture |  | 342 |
-| `docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md` |  |  | 651 |
-| `docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md` | architecture, roadmap |  | 828 |
-| `docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` |  |  | 1055 |
-| `docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md` | architecture, roadmap, collaboration |  | 709 |
-| `docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md` | architecture, anthropic, collaboration |  | 797 |
-| `docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md` | architecture, roadmap |  | 477 |
-| `docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md` | architecture |  | 428 |
-| `docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md` | orchestration, architecture |  | 712 |
-| `docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md` |  |  | 648 |
-| `docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md` |  |  | 721 |
-| `docs/02-anthropic-vacancies/337-благодарности.md` | architecture, collaboration |  | 351 |
+| `docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md` |  |  | 745 |
+| `docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md` | architecture, roadmap |  | 865 |
+| `docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` |  |  | 979 |
+| `docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md` | architecture, roadmap, collaboration |  | 828 |
+| `docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md` | architecture, anthropic, collaboration |  | 882 |
+| `docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md` | architecture, roadmap |  | 660 |
+| `docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md` | architecture |  | 386 |
+| `docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md` | orchestration, architecture |  | 784 |
+| `docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md` |  |  | 618 |
+| `docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md` |  |  | 763 |
+| `docs/02-anthropic-vacancies/337-благодарности.md` | architecture, collaboration |  | 472 |
 | `docs/02-anthropic-vacancies/338-ссылки.md` | anthropic, collaboration |  | 265 |
 | `docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md` | anthropic |  | 297 |
-| `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` | security, architecture, collaboration |  | 830 |
-| `docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md` | architecture |  | 145 |
-| `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |  | Svyazi, CardIndex, [knowledge-space](../docs/01-svyazi/03-component-catalog.md) | 20475 |
-| `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` |  | [CardIndex](../docs/01-svyazi/01-executive-summary.md), NGT Memory, Wikontic | 11370 |
-| `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` |  | [CardIndex](../docs/01-svyazi/01-executive-summary.md) | 5893 |
+| `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` | security, architecture, collaboration |  | 719 |
+| `docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md` | architecture |  | 156 |
+| `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |  | Svyazi, CardIndex, knowledge-space | 20394 |
+| `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` |  | CardIndex, NGT Memory, Wikontic | 11261 |
+| `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` |  | CardIndex | 5792 |
 | `docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md` | architecture, anthropic |  | 268 |
-| `docs/02-anthropic-vacancies/345-кто-ты.md` | anthropic |  | 140 |
-| `docs/02-anthropic-vacancies/346-твоё-происхождение.md` | collaboration |  | 164 |
-| `docs/02-anthropic-vacancies/347-твоя-миссия.md` |  |  | 110 |
-| `docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md` | collaboration |  | 90 |
-| `docs/02-anthropic-vacancies/349-твоя-личность.md` | rag, ingestion |  | 205 |
+| `docs/02-anthropic-vacancies/345-кто-ты.md` | anthropic |  | 243 |
+| `docs/02-anthropic-vacancies/346-твоё-происхождение.md` | collaboration |  | 178 |
+| `docs/02-anthropic-vacancies/347-твоя-миссия.md` | anthropic |  | 208 |
+| `docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md` | collaboration |  | 207 |
+| `docs/02-anthropic-vacancies/349-твоя-личность.md` | rag, ingestion |  | 231 |
 | `docs/02-anthropic-vacancies/35-passports-info1-md.md` | rag, collaboration |  | 240 |
-| `docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md` | roadmap, anthropic, collaboration |  | 160 |
-| `docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md` | knowledge | [CardIndex](../docs/01-svyazi/01-executive-summary.md) | 242 |
-| `docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md` | anthropic |  | 117 |
+| `docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md` | roadmap, anthropic, collaboration |  | 175 |
+| `docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md` | knowledge | CardIndex | 240 |
+| `docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md` | anthropic |  | 251 |
 | `docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md` | anthropic |  | 264 |
-| `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md` | memory, knowledge, ingestion | CardIndex, [knowledge-space](../docs/01-svyazi/03-component-catalog.md), NGT Memory | 337 |
+| `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md` | memory, knowledge, ingestion | CardIndex, knowledge-space, NGT Memory | 350 |
 | `docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md` | architecture, roadmap |  | 381 |
-| `docs/02-anthropic-vacancies/356-твой-workflow.md` | knowledge | [CardIndex](../docs/01-svyazi/01-executive-summary.md) | 265 |
-| `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` |  |  | 178 |
+| `docs/02-anthropic-vacancies/356-твой-workflow.md` | knowledge | CardIndex | 263 |
+| `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` | anthropic |  | 208 |
 | `docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md` | anthropic |  | 254 |
-| `docs/02-anthropic-vacancies/359-твои-anti-patterns.md` | rag |  | 128 |
-| `docs/02-anthropic-vacancies/36-essence.md` | collaboration |  | 126 |
-| `docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md` | ingestion |  | 89 |
-| `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` |  |  | 77 |
-| `docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md` |  |  | 75 |
-| `docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md` | knowledge, roadmap | [CardIndex](../docs/01-svyazi/01-executive-summary.md) | 131 |
-| `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` |  | Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md), mclaude | 1563 |
-| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` |  | Svyazi, CardIndex, AgentFS | 4425 |
-| `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` |  | Svyazi, CardIndex, AgentFS | 3745 |
-| `docs/02-anthropic-vacancies/37-native-format.md` | anthropic, collaboration |  | 314 |
-| `docs/02-anthropic-vacancies/38-content-overview.md` | anthropic |  | 120 |
-| `docs/02-anthropic-vacancies/39-angle-perspective.md` | anthropic, collaboration |  | 249 |
-| `docs/02-anthropic-vacancies/40-bridges.md` | memory, anthropic, collaboration |  | 163 |
-| `docs/02-anthropic-vacancies/41-compatibility-level.md` | anthropic, collaboration |  | 262 |
-| `docs/02-anthropic-vacancies/42-author-contact.md` | collaboration |  | 317 |
-| `docs/02-anthropic-vacancies/43-history.md` | memory, anthropic, collaboration |  | 109 |
-| `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` | rag |  | 271 |
+| `docs/02-anthropic-vacancies/359-твои-anti-patterns.md` | rag |  | 218 |
+| `docs/02-anthropic-vacancies/36-essence.md` | collaboration |  | 256 |
+| `docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md` | ingestion |  | 257 |
+| `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | anthropic |  | 187 |
+| `docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md` | anthropic |  | 166 |
+| `docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md` | knowledge, roadmap | CardIndex | 136 |
+| `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` |  | Svyazi, CardIndex, mclaude | 1472 |
+| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` |  | Svyazi, CardIndex, AgentFS | 4329 |
+| `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` |  | Svyazi, CardIndex, AgentFS | 3678 |
+| `docs/02-anthropic-vacancies/37-native-format.md` | anthropic |  | 312 |
+| `docs/02-anthropic-vacancies/38-content-overview.md` | anthropic |  | 192 |
+| `docs/02-anthropic-vacancies/39-angle-perspective.md` | anthropic |  | 244 |
+| `docs/02-anthropic-vacancies/40-bridges.md` | anthropic |  | 304 |
+| `docs/02-anthropic-vacancies/41-compatibility-level.md` | anthropic |  | 261 |
+| `docs/02-anthropic-vacancies/42-author-contact.md` | collaboration |  | 316 |
+| `docs/02-anthropic-vacancies/43-history.md` | anthropic |  | 221 |
+| `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` | rag |  | 268 |
 | `docs/02-anthropic-vacancies/45-passports-pro2-md.md` | collaboration |  | 219 |
-| `docs/02-anthropic-vacancies/46-essence.md` | architecture, collaboration |  | 120 |
-| `docs/02-anthropic-vacancies/47-native-format.md` | anthropic, collaboration |  | 249 |
-| `docs/02-anthropic-vacancies/48-content-overview.md` |  |  | 143 |
-| `docs/02-anthropic-vacancies/49-angle-perspective.md` | anthropic, collaboration |  | 244 |
-| `docs/02-anthropic-vacancies/50-bridges.md` | anthropic, collaboration |  | 160 |
-| `docs/02-anthropic-vacancies/51-compatibility-level.md` | anthropic, collaboration |  | 237 |
+| `docs/02-anthropic-vacancies/46-essence.md` | architecture, collaboration |  | 242 |
+| `docs/02-anthropic-vacancies/47-native-format.md` | anthropic |  | 247 |
+| `docs/02-anthropic-vacancies/48-content-overview.md` |  |  | 289 |
+| `docs/02-anthropic-vacancies/49-angle-perspective.md` | anthropic |  | 243 |
+| `docs/02-anthropic-vacancies/50-bridges.md` | anthropic |  | 280 |
+| `docs/02-anthropic-vacancies/51-compatibility-level.md` | anthropic |  | 235 |
 | `docs/02-anthropic-vacancies/52-author-contact.md` | collaboration |  | 295 |
-| `docs/02-anthropic-vacancies/53-history.md` | collaboration |  | 275 |
-| `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` | architecture |  | 272 |
+| `docs/02-anthropic-vacancies/53-history.md` | collaboration |  | 274 |
+| `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` | architecture |  | 271 |
 | `docs/02-anthropic-vacancies/55-passports-meta-md.md` | collaboration |  | 217 |
-| `docs/02-anthropic-vacancies/56-essence.md` | collaboration |  | 140 |
+| `docs/02-anthropic-vacancies/56-essence.md` | collaboration |  | 287 |
 | `docs/02-anthropic-vacancies/57-native-format.md` | anthropic |  | 267 |
-| `docs/02-anthropic-vacancies/58-content-overview.md` | anthropic |  | 130 |
-| `docs/02-anthropic-vacancies/59-angle-perspective.md` | anthropic, collaboration |  | 242 |
-| `docs/02-anthropic-vacancies/60-bridges.md` | anthropic, collaboration |  | 127 |
-| `docs/02-anthropic-vacancies/61-compatibility-level.md` | anthropic, collaboration |  | 229 |
+| `docs/02-anthropic-vacancies/58-content-overview.md` | anthropic |  | 156 |
+| `docs/02-anthropic-vacancies/59-angle-perspective.md` | anthropic |  | 240 |
+| `docs/02-anthropic-vacancies/60-bridges.md` | anthropic |  | 262 |
+| `docs/02-anthropic-vacancies/61-compatibility-level.md` | anthropic |  | 225 |
 | `docs/02-anthropic-vacancies/62-author-contact.md` | collaboration |  | 281 |
-| `docs/02-anthropic-vacancies/63-history.md` | architecture |  | 260 |
-| `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | architecture, collaboration |  | 847 |
+| `docs/02-anthropic-vacancies/63-history.md` | architecture |  | 259 |
+| `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | architecture, collaboration |  | 763 |
 | `docs/02-anthropic-vacancies/65-readme-md.md` | anthropic |  | 212 |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | rag, architecture, collaboration |  | 981 |
-| `docs/02-anthropic-vacancies/68-about.md` | rag, architecture, anthropic |  | 908 |
-| `docs/02-anthropic-vacancies/69-section.md` | memory, rag, security |  | 9486 |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | rag, architecture, collaboration |  | 892 |
+| `docs/02-anthropic-vacancies/68-about.md` | rag, architecture, anthropic |  | 993 |
+| `docs/02-anthropic-vacancies/69-section.md` | memory, rag, security |  | 9552 |
 | `docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md` | memory |  | 219 |
 | `docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md` | memory, roadmap, anthropic |  | 192 |
-| `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` | memory, roadmap, collaboration |  | 890 |
+| `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` | memory, roadmap, collaboration |  | 802 |
 | `docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` | collaboration |  | 288 |
-| `docs/02-anthropic-vacancies/74-abstract.md` | architecture |  | 384 |
+| `docs/02-anthropic-vacancies/74-abstract.md` | architecture |  | 327 |
 | `docs/02-anthropic-vacancies/75-0-status-of-this-document.md` | collaboration |  | 292 |
-| `docs/02-anthropic-vacancies/76-1-introduction.md` | rag, architecture, collaboration |  | 503 |
-| `docs/02-anthropic-vacancies/77-2-terminology.md` | rag, architecture, collaboration |  | 406 |
-| `docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` | architecture |  | 593 |
-| `docs/02-anthropic-vacancies/79-4-passport-passport-md.md` | architecture |  | 345 |
-| `docs/02-anthropic-vacancies/80-5-compatibility-levels.md` | memory, ingestion, anthropic |  | 363 |
-| `docs/02-anthropic-vacancies/81-6-adapter-interface.md` | ingestion |  | 385 |
-| `docs/02-anthropic-vacancies/82-7-portalentry-structure.md` | ingestion, architecture, collaboration |  | 359 |
-| `docs/02-anthropic-vacancies/83-8-q6-space-normative.md` | memory, ingestion, architecture |  | 466 |
-| `docs/02-anthropic-vacancies/84-9-consensus-algorithm.md` | rag |  | 375 |
-| `docs/02-anthropic-vacancies/85-10-query-flow.md` | anthropic |  | 267 |
-| `docs/02-anthropic-vacancies/86-11-relevance-ranking.md` | anthropic, collaboration |  | 181 |
-| `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | architecture, collaboration |  | 613 |
-| `docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md` | rag, architecture, collaboration |  | 512 |
-| `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md` | memory, anthropic, collaboration |  | 179 |
-| `docs/02-anthropic-vacancies/90-15-security-considerations.md` | memory, ingestion, architecture |  | 485 |
+| `docs/02-anthropic-vacancies/76-1-introduction.md` | rag, architecture, collaboration |  | 513 |
+| `docs/02-anthropic-vacancies/77-2-terminology.md` | rag, architecture, collaboration |  | 570 |
+| `docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` | architecture |  | 728 |
+| `docs/02-anthropic-vacancies/79-4-passport-passport-md.md` | architecture |  | 445 |
+| `docs/02-anthropic-vacancies/80-5-compatibility-levels.md` | anthropic |  | 450 |
+| `docs/02-anthropic-vacancies/81-6-adapter-interface.md` | ingestion |  | 522 |
+| `docs/02-anthropic-vacancies/82-7-portalentry-structure.md` | ingestion, architecture, collaboration |  | 496 |
+| `docs/02-anthropic-vacancies/83-8-q6-space-normative.md` | ingestion, architecture, anthropic |  | 571 |
+| `docs/02-anthropic-vacancies/84-9-consensus-algorithm.md` | rag |  | 449 |
+| `docs/02-anthropic-vacancies/85-10-query-flow.md` | anthropic |  | 361 |
+| `docs/02-anthropic-vacancies/86-11-relevance-ranking.md` | anthropic |  | 327 |
+| `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | architecture, collaboration |  | 526 |
+| `docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md` | rag, architecture, collaboration |  | 517 |
+| `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md` | anthropic |  | 339 |
+| `docs/02-anthropic-vacancies/90-15-security-considerations.md` | ingestion, architecture, anthropic |  | 382 |
 | `docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md` | architecture |  | 248 |
-| `docs/02-anthropic-vacancies/92-17-versioning-policy.md` | architecture |  | 264 |
-| `docs/02-anthropic-vacancies/93-18-reference-implementation.md` | rag, collaboration |  | 352 |
+| `docs/02-anthropic-vacancies/92-17-versioning-policy.md` | architecture |  | 352 |
+| `docs/02-anthropic-vacancies/93-18-reference-implementation.md` | rag, collaboration |  | 349 |
 | `docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md` | architecture, collaboration |  | 301 |
 | `docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md` | anthropic, collaboration |  | 325 |
 | `docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md` | anthropic |  | 139 |
 | `docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md` | knowledge, architecture, collaboration |  | 191 |
 | `docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` | ingestion |  | 275 |
-| `docs/02-anthropic-vacancies/QA.md` |  |  | 362 |
+| `docs/02-anthropic-vacancies/QA.md` | memory, rag, orchestration |  | 904 |
 | `docs/02-anthropic-vacancies/README.md` | anthropic |  | 1459 |
 | `docs/03-technology-combinations/01-agent-routing.md` |  | [CardIndex](../docs/01-svyazi/01-executive-summary.md), Auto AI Router | 342 |
 | `docs/03-technology-combinations/02-knowledge-graphs.md` |  | Yodoca, Auto AI Router, [AutoResearch](../docs/01-svyazi/01-executive-summary.md) | 783 |
-| `docs/03-technology-combinations/03-local-first.md` |  | Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md), Yjs | 518 |
+| `docs/03-technology-combinations/03-local-first.md` |  | Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md), Yjs | 540 |
 | `docs/03-technology-combinations/04-sozialrecht-domain.md` | rag, knowledge, ingestion | Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md) | 153 |
 | `docs/03-technology-combinations/05-benchmarks.md` |  | Svyazi, Yodoca | 926 |
-| `docs/03-technology-combinations/QA.md` |  |  | 100 |
-| `docs/03-technology-combinations/README.md` |  |  | 32 |
+| `docs/03-technology-combinations/QA.md` | rag, knowledge, ingestion | Svyazi, CardIndex, AgentFS | 216 |
+| `docs/03-technology-combinations/README.md` |  |  | 77 |
 | `docs/04-ai-collaborations/00-intro.md` |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 11428 |
 | `docs/04-ai-collaborations/01-executive-summary.md` |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 566 |
 | `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md` | rag, security, ingestion | Svyazi[^svyazi], [LiteParse](../docs/01-svyazi/01-executive-summary.md), Legal RAG[^rag] | 404 |
@@ -399,116 +414,116 @@
 | `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` |  | Svyazi[^svyazi], mclaude, AI Factory | 732 |
 | `docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 839 |
 | `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 3275 |
-| `docs/04-ai-collaborations/QA.md` |  |  | 258 |
-| `docs/04-ai-collaborations/README.md` |  |  | 69 |
+| `docs/04-ai-collaborations/QA.md` |  |  | 537 |
+| `docs/04-ai-collaborations/README.md` |  |  | 364 |
 | `docs/05-habr-projects/01-synthesis.md` | architecture, roadmap |  | 229 |
 | `docs/05-habr-projects/02-collaboration-partners.md` | knowledge, ingestion, collaboration | Svyazi[^svyazi] | 228 |
-| `docs/05-habr-projects/QA.md` |  |  | 111 |
-| `docs/05-habr-projects/README.md` |  |  | 32 |
-| `docs/05-habr-projects/knowledge/README.md` |  |  | 10 |
+| `docs/05-habr-projects/QA.md` | knowledge, ingestion, architecture |  | 354 |
+| `docs/05-habr-projects/README.md` |  |  | 71 |
+| `docs/05-habr-projects/knowledge/README.md` |  |  | 38 |
 | `docs/05-habr-projects/knowledge/wikontic.md` | ingestion, collaboration | Wikontic | 349 |
-| `docs/05-habr-projects/memory/README.md` |  |  | 18 |
+| `docs/05-habr-projects/memory/README.md` |  |  | 75 |
 | `docs/05-habr-projects/memory/memnet.md` |  | Svyazi[^svyazi], [CardIndex](../docs/01-svyazi/01-executive-summary.md)[^cardindex], Hybrid RAG[^rag] | 7269 |
 | `docs/05-habr-projects/memory/ngt-memory.md` | memory, ingestion, collaboration | Svyazi[^svyazi], NGT Memory | 333 |
 | `docs/05-habr-projects/memory/yodoca.md` | memory, ingestion, architecture | Svyazi, Yodoca | 333 |
-| `docs/ABBREVIATIONS.md` |  |  | 1111 |
-| `docs/ACTION_ITEMS.md` |  | Svyazi, CardIndex, AgentFS | 5511 |
-| `docs/ALERTS.md` |  |  | 50 |
-| `docs/AUTHORS.md` |  |  | 81 |
+| `docs/ABBREVIATIONS.md` |  | SENTINEL, LiteLLM, Auto AI Router | 1128 |
+| `docs/ACTION_ITEMS.md` |  | Svyazi, CardIndex, AgentFS | 5575 |
+| `docs/ALERTS.md` | ingestion |  | 56 |
+| `docs/AUTHORS.md` |  |  | 66 |
 | `docs/AUTOFILLED.md` | ingestion, collaboration | Svyazi | 161 |
 | `docs/BACKLINKS.md` | memory, orchestration, ingestion | Svyazi, MemNet | 262 |
 | `docs/BROKEN_LINKS.md` | security, knowledge, ingestion | Svyazi, knowledge-space | 516 |
-| `docs/CHANGELOG.md` |  |  | 1242 |
+| `docs/CHANGELOG.md` |  | Svyazi | 1261 |
 | `docs/CHANGELOG_AUTO.md` | rag, ingestion, roadmap |  | 635 |
-| `docs/CITATION_INDEX.md` |  |  | 512 |
+| `docs/CITATION_INDEX.md` | memory, knowledge, anthropic | knowledge-space, Yodoca, MemNet | 581 |
 | `docs/CLUSTERS.md` | rag, security, knowledge | Svyazi, CardIndex | 1330 |
-| `docs/CODE_BLOCKS.md` |  |  | 4335 |
-| `docs/COMPARE.md` |  |  | 321 |
-| `docs/COMPLEXITY.md` |  |  | 343 |
+| `docs/CODE_BLOCKS.md` |  | Svyazi, CardIndex, AgentFS | 5124 |
+| `docs/COMPARE.md` | memory, architecture, roadmap |  | 327 |
+| `docs/COMPLEXITY.md` |  |  | 465 |
 | `docs/COMPONENT_MATRIX.md` |  | Svyazi, CardIndex, AgentFS | 688 |
-| `docs/CONCEPTS.md` |  |  | 14201 |
-| `docs/CONCEPT_GRAPH.md` |  |  | 584 |
-| `docs/CONSISTENCY.md` |  |  | 304 |
-| `docs/CONTACTS.md` |  |  | 314 |
-| `docs/CONTACT_PRIORITY.md` |  |  | 237 |
-| `docs/CONTENT_GAPS.md` |  |  | 674 |
-| `docs/CONTRADICTIONS.md` |  |  | 1517 |
-| `docs/COST.md` |  |  | 332 |
-| `docs/COVERAGE.md` |  |  | 215 |
-| `docs/CROSSREFS.md` |  |  | 503 |
+| `docs/CONCEPTS.md` |  | Svyazi, CardIndex, AgentFS | 14444 |
+| `docs/CONCEPT_GRAPH.md` | ingestion, architecture, anthropic | Svyazi | 594 |
+| `docs/CONSISTENCY.md` |  | Svyazi, knowledge-space, AI Factory | 323 |
+| `docs/CONTACTS.md` |  | Svyazi, CardIndex, AgentFS | 359 |
+| `docs/CONTACT_PRIORITY.md` | memory, rag, orchestration |  | 306 |
+| `docs/CONTENT_GAPS.md` | memory, security, ingestion | Svyazi | 818 |
+| `docs/CONTRADICTIONS.md` |  | Svyazi, knowledge-space, NGT Memory | 1896 |
+| `docs/COST.md` | memory, orchestration, security |  | 524 |
+| `docs/COVERAGE.md` | ingestion, architecture, anthropic |  | 618 |
+| `docs/CROSSREFS.md` |  |  | 490 |
 | `docs/CROSS_SECTION.md` | memory, knowledge, ingestion | Svyazi, CardIndex, AgentFS | 1033 |
 | `docs/DECISIONS.md` | memory, rag, collaboration | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 1478 |
-| `docs/DENSITY.md` |  |  | 336 |
-| `docs/DEPENDABOT.md` |  |  | 90 |
-| `docs/DEPENDENCY_MAP.md` |  |  | 805 |
+| `docs/DENSITY.md` | memory, rag, orchestration |  | 461 |
+| `docs/DEPENDABOT.md` | memory, knowledge, ingestion | Svyazi, AgentFS, knowledge-space | 101 |
+| `docs/DEPENDENCY_MAP.md` |  |  | 827 |
 | `docs/DIGEST.md` | rag, ingestion, roadmap |  | 401 |
-| `docs/DIGEST_AUTO.md` |  |  | 229 |
-| `docs/DIGEST_WEEKLY.md` |  |  | 151 |
-| `docs/DUPLICATES.md` |  |  | 2694 |
-| `docs/EMPTY_SECTIONS.md` |  |  | 7225 |
-| `docs/ENTITIES.md` |  |  | 386 |
-| `docs/FAQ.md` |  |  | 876 |
-| `docs/FOOTNOTES.md` |  |  | 204 |
-| `docs/GITHUB_ISSUES.md` |  |  | 1220 |
-| `docs/GLOSSARY.md` |  |  | 106 |
-| `docs/GRAPH.md` |  |  | 2859 |
-| `docs/HEADING_AUDIT.md` |  |  | 4674 |
-| `docs/HEALTH.md` |  |  | 131 |
-| `docs/HEATMAP.md` |  |  | 323 |
+| `docs/DIGEST_AUTO.md` | ingestion, anthropic, collaboration | Svyazi | 238 |
+| `docs/DIGEST_WEEKLY.md` | ingestion, collaboration |  | 158 |
+| `docs/DUPLICATES.md` |  |  | 2957 |
+| `docs/EMPTY_SECTIONS.md` |  | Svyazi, CardIndex, AgentFS | 9908 |
+| `docs/ENTITIES.md` |  |  | 425 |
+| `docs/FAQ.md` | memory, rag, orchestration | Svyazi, AgentFS, knowledge-space | 1179 |
+| `docs/FOOTNOTES.md` |  | Svyazi, CardIndex, AgentFS | 220 |
+| `docs/GITHUB_ISSUES.md` | anthropic, collaboration |  | 1390 |
+| `docs/GLOSSARY.md` |  |  | 91 |
+| `docs/GRAPH.md` |  | Svyazi, CardIndex, AgentFS | 2880 |
+| `docs/HEADING_AUDIT.md` |  | Svyazi, Rufler, MemNet | 9541 |
+| `docs/HEALTH.md` | ingestion, anthropic, collaboration | Svyazi | 143 |
+| `docs/HEATMAP.md` | rag, orchestration, security | Svyazi | 356 |
 | `docs/INDEX.md` | memory, knowledge, ingestion | Svyazi, AgentFS, knowledge-space | 546 |
 | `docs/KEYWORD_INDEX.md` | memory, ingestion, architecture | Svyazi, NGT Memory | 593 |
-| `docs/KNOWLEDGE_MAP.md` |  |  | 362 |
-| `docs/KPI.md` |  |  | 1842 |
-| `docs/KPI_HISTORY.md` |  |  | 54 |
-| `docs/LANGUAGE_STATS.md` |  |  | 2886 |
-| `docs/LINKS.md` |  |  | 428 |
+| `docs/KNOWLEDGE_MAP.md` |  | Svyazi | 419 |
+| `docs/KPI.md` |  | Svyazi, CardIndex, MemNet | 1903 |
+| `docs/KPI_HISTORY.md` |  |  | 63 |
+| `docs/LANGUAGE_STATS.md` |  |  | 2910 |
+| `docs/LINKS.md` |  |  | 413 |
 | `docs/LLM_SUMMARIES.md` |  | Svyazi | 284 |
-| `docs/METRICS.md` |  |  | 273 |
-| `docs/MINDMAP.md` |  |  | 243 |
-| `docs/MISSING.md` |  |  | 280 |
-| `docs/NAMED_ENTITIES.md` |  |  | 883 |
+| `docs/METRICS.md` | memory, ingestion, architecture |  | 273 |
+| `docs/MINDMAP.md` |  | Svyazi, CardIndex, AgentFS | 255 |
+| `docs/MISSING.md` |  |  | 352 |
+| `docs/NAMED_ENTITIES.md` |  | Svyazi, CardIndex, AgentFS | 1082 |
 | `docs/NARRATIVE.md` |  | Svyazi, CardIndex, AgentFS | 937 |
-| `docs/NETWORK.md` |  |  | 266 |
+| `docs/NETWORK.md` | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 296 |
 | `docs/ONBOARDING.md` | memory, orchestration, security | Svyazi, CardIndex, AgentFS | 444 |
-| `docs/ORPHANS.md` |  |  | 92 |
-| `docs/OUTLINE.md` | security, knowledge |  | 25208 |
-| `docs/PARAGRAPH_QUALITY.md` |  |  | 9246 |
-| `docs/PASSIVE_VOICE.md` |  |  | 213 |
-| `docs/PRIORITIES.md` |  |  | 1534 |
-| `docs/PROGRESS.md` |  |  | 196 |
-| `docs/QA.md` |  |  | 1630 |
-| `docs/QUESTIONS.md` |  |  | 20599 |
-| `docs/READABILITY.md` |  |  | 9439 |
+| `docs/ORPHANS.md` |  |  | 102 |
+| `docs/OUTLINE.md` | security, knowledge | Svyazi, CardIndex, AgentFS | 35363 |
+| `docs/PARAGRAPH_QUALITY.md` |  | Svyazi, CardIndex, AgentFS | 16188 |
+| `docs/PASSIVE_VOICE.md` |  | AutoResearch | 224 |
+| `docs/PRIORITIES.md` |  | Svyazi, CardIndex, AgentFS | 1883 |
+| `docs/PROGRESS.md` | memory, knowledge, ingestion | Svyazi, AgentFS, knowledge-space | 206 |
+| `docs/QA.md` | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 2751 |
+| `docs/QUESTIONS.md` |  | Svyazi, CardIndex, AgentFS | 23346 |
+| `docs/READABILITY.md` |  | Svyazi, CardIndex, AgentFS | 9453 |
 | `docs/READING_LIST.md` |  | Svyazi | 186 |
-| `docs/READING_ORDER.md` |  |  | 3977 |
-| `docs/READING_TIME.md` |  |  | 6719 |
-| `docs/README.md` | ingestion, architecture, anthropic |  | 694 |
-| `docs/REPORT.md` |  |  | 235 |
+| `docs/READING_ORDER.md` |  | Svyazi, Yodoca, MemNet | 4028 |
+| `docs/READING_TIME.md` |  | Svyazi, CardIndex, AgentFS | 6759 |
+| `docs/README.md` |  |  | 756 |
+| `docs/REPORT.md` |  | Svyazi, CardIndex, AgentFS | 827 |
 | `docs/RISK_REGISTER.md` |  | Svyazi, CardIndex, AgentFS | 932 |
-| `docs/SCHEDULE.md` |  |  | 212 |
-| `docs/SCORING.md` |  |  | 223 |
-| `docs/SEARCH.md` |  | Svyazi, CardIndex, AgentFS | 2246 |
+| `docs/SCHEDULE.md` | memory, security, knowledge |  | 305 |
+| `docs/SCORING.md` | security, architecture, roadmap |  | 357 |
+| `docs/SEARCH.md` |  |  | 7067 |
 | `docs/SEARCH_RESULTS.md` | security, knowledge | AgentFS | 47 |
-| `docs/SEE_ALSO.md` |  |  | 299 |
-| `docs/SENTIMENT.md` |  |  | 268 |
+| `docs/SEE_ALSO.md` | memory, security, ingestion |  | 398 |
+| `docs/SENTIMENT.md` | rag, ingestion, anthropic | Svyazi | 300 |
 | `docs/SIMILAR.md` | memory, security, architecture | MemNet | 232 |
 | `docs/SIMILAR_PASSAGES.md` |  | Svyazi, CardIndex, AgentFS | 1926 |
-| `docs/SITEMAP.md` |  |  | 5582 |
-| `docs/SOURCE_MAP.md` |  |  | 2676 |
-| `docs/SPELLCHECK.md` |  |  | 191 |
-| `docs/STALENESS.md` |  |  | 234 |
-| `docs/STATS.md` |  |  | 339 |
+| `docs/SITEMAP.md` |  | Svyazi, CardIndex, AgentFS | 5692 |
+| `docs/SOURCE_MAP.md` |  | Svyazi, CardIndex, knowledge-space | 2712 |
+| `docs/SPELLCHECK.md` |  | knowledge-space, MemNet | 198 |
+| `docs/STALENESS.md` | ingestion, architecture, anthropic |  | 327 |
+| `docs/STATS.md` | rag, ingestion, anthropic | Svyazi | 371 |
 | `docs/SUMMARIES.md` |  | Svyazi, CardIndex, AgentFS | 3979 |
-| `docs/TABLES.md` | anthropic | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… | | 59168 |
-| `docs/TAGS.md` |  |  | 532 |
+| `docs/TABLES.md` | anthropic | Svyazi, CardIndex, AgentFS | 61877 |
+| `docs/TAGS.md` |  |  | 573 |
 | `docs/TECH_RADAR.md` |  | Svyazi, CardIndex, AgentFS | 555 |
-| `docs/TIMELINE.md` |  |  | 2057 |
+| `docs/TIMELINE.md` |  | Svyazi, Yjs, Automerge | 2122 |
 | `docs/TOPIC_MODEL.md` | rag, knowledge, ingestion | Svyazi, AgentFS | 1054 |
-| `docs/VALIDATION.md` |  |  | 576 |
-| `docs/VERSION_DIFF.md` |  |  | 25 |
-| `docs/VOCABULARY.md` |  |  | 494 |
+| `docs/VALIDATION.md` |  | Svyazi | 627 |
+| `docs/VERSION_DIFF.md` |  |  | 35 |
+| `docs/VOCABULARY.md` |  |  | 532 |
 | `docs/WORD_CLOUD.md` | ingestion, anthropic | Svyazi | 121 |
-| `docs/WORD_FREQ.md` |  |  | 1420 |
+| `docs/WORD_FREQ.md` | memory, rag, knowledge | Svyazi, CardIndex, AgentFS | 1568 |
 | `docs/ai-collaborations/README.md` |  |  | 40 |
 | `docs/ai-collaborations/candidates/01-three-key-candidates.md` | memory, ingestion, architecture | NGT Memory, Wikontic | 322 |
 | `docs/ai-collaborations/candidates/02-related-projects-context.md` |  | Svyazi | 181 |
@@ -539,7 +554,7 @@
 | `docs/ai-collaborations/fast-tracks/README.md` |  |  | 309 |
 | `docs/ai-collaborations/source-projects.md` |  | Svyazi, Hybrid RAG, Yodoca | 534 |
 | `docs/ai-collaborations/strategy/README.md` |  |  | 31 |
-| `docs/anthropic-vacancies/QA.md` |  |  | 42 |
+| `docs/anthropic-vacancies/QA.md` | anthropic, collaboration |  | 49 |
 | `docs/anthropic-vacancies/README.md` |  |  | 73 |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md` | orchestration, anthropic |  | 893 |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md` | orchestration, anthropic |  | 316 |
@@ -652,7 +667,7 @@
 | `docs/anthropic-vacancies/signals.md` | anthropic |  | 251 |
 | `docs/autofilled/README.md` |  |  | 14 |
 | `docs/autofilled/components/.md` | ingestion, collaboration | Svyazi | 111 |
-| `docs/autofilled/components/README.md` |  |  | 44 |
+| `docs/autofilled/components/README.md` |  |  | 80 |
 | `docs/autofilled/components/cowork.md` | ingestion, collaboration | Svyazi | 157 |
 | `docs/autofilled/components/ingit.md` | ingestion, collaboration | Svyazi | 157 |
 | `docs/autofilled/components/kksudo.md` | ingestion, collaboration | Svyazi | 209 |
@@ -664,7 +679,7 @@
 | `docs/autofilled/components/svyazi.md` | ingestion, collaboration | Svyazi | 157 |
 | `docs/autofilled/research-summary.md` | исследование |  | 137 |
 | `docs/badges/README.md` |  |  | 82 |
-| `docs/contacts/README.md` |  |  | 60 |
+| `docs/contacts/README.md` |  |  | 66 |
 | `docs/contacts/anastasiyaw.md` | контакты, команда | Svyazi, knowledge-space, mclaude | 187 |
 | `docs/contacts/andrey-chuyan.md` | контакты, команда | Svyazi, CardIndex | 187 |
 | `docs/contacts/antipozitive.md` | контакты, команда | Svyazi, MemNet | 163 |
@@ -760,7 +775,7 @@
 | `docs/lorenzo-agent/18-escalate-to-max.md` | anthropic |  | 124 |
 | `docs/lorenzo-agent/19-persistent-character.md` | knowledge, roadmap, anthropic | CardIndex | 157 |
 | `docs/lorenzo-agent/20-experiment.md` | anthropic |  | 147 |
-| `docs/lorenzo-agent/QA.md` |  |  | 197 |
+| `docs/lorenzo-agent/QA.md` | memory, rag, knowledge | CardIndex, AgentFS, knowledge-space | 217 |
 | `docs/lorenzo-agent/README.md` |  |  | 124 |
 | `docs/lorenzo-agent/naming/00-question-lorenzo-codename.md` | anthropic, collaboration |  | 227 |
 | `docs/lorenzo-agent/naming/01-search-results-not-found.md` | anthropic, collaboration |  | 284 |
@@ -1056,7 +1071,7 @@
 | `docs/nautilus/transmission-box/00-question-mountain-to-person.md` | anthropic |  | 534 |
 | `docs/nautilus/transmission-box/01-completing-loop.md` |  |  | 3107 |
 | `docs/nautilus/transmission-box/README.md` |  |  | 14 |
-| `docs/obsidian/01-svyazi/00-intro-part2.md` | ingestion |  | 18 |
+| `docs/obsidian/01-svyazi/00-intro-part2.md` | ingestion | Svyazi | 27 |
 | `docs/obsidian/01-svyazi/01-executive-summary.md` |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 761 |
 | `docs/obsidian/01-svyazi/02-methodology.md` | rag, security, ingestion | Svyazi[^svyazi], LiteParse, Legal RAG[^rag] | 415 |
 | `docs/obsidian/01-svyazi/03-component-catalog.md` |  | Svyazi, CardIndex, AgentFS | 1247 |
@@ -1493,7 +1508,7 @@
 | `docs/obsidian/DIGEST.md` | rag, collaboration |  | 300 |
 | `docs/obsidian/DIGEST_WEEKLY.md` | rag |  | 216 |
 | `docs/obsidian/DUPLICATES.md` |  | Svyazi | 104 |
-| `docs/obsidian/ENTITIES.md` |  |  | 422 |
+| `docs/obsidian/ENTITIES.md` |  | Svyazi, CardIndex, AgentFS | 440 |
 | `docs/obsidian/FAQ.md` | memory, rag, orchestration | Svyazi, AgentFS, knowledge-space | 1130 |
 | `docs/obsidian/FOOTNOTES.md` |  | Svyazi, CardIndex, AgentFS | 227 |
 | `docs/obsidian/GITHUB_ISSUES.md` | anthropic, collaboration |  | 1121 |
@@ -1504,7 +1519,7 @@
 | `docs/obsidian/INDEX.md` | memory, knowledge, ingestion | Svyazi, AgentFS, knowledge-space | 501 |
 | `docs/obsidian/KEYWORD_INDEX.md` | memory, ingestion, architecture | Svyazi, NGT Memory | 597 |
 | `docs/obsidian/KPI.md` |  | Svyazi, Auto AI Router, Whisper | 1885 |
-| `docs/obsidian/KPI_HISTORY.md` |  |  | 89 |
+| `docs/obsidian/KPI_HISTORY.md` | anthropic |  | 89 |
 | `docs/obsidian/LINKS.md` |  |  | 409 |
 | `docs/obsidian/LLM_SUMMARIES.md` |  | Svyazi | 229 |
 | `docs/obsidian/METRICS.md` | memory, ingestion, architecture |  | 274 |
@@ -1519,7 +1534,7 @@
 | `docs/obsidian/PARAGRAPH_QUALITY.md` |  | Svyazi, Yodoca, MemNet | 7195 |
 | `docs/obsidian/PRIORITIES.md` |  | Svyazi, CardIndex, AgentFS | 755 |
 | `docs/obsidian/PROGRESS.md` | memory, knowledge, ingestion | Svyazi, AgentFS, knowledge-space | 238 |
-| `docs/obsidian/QA.md` |  |  | 385 |
+| `docs/obsidian/QA.md` | memory, rag, orchestration | CardIndex, AgentFS, knowledge-space | 403 |
 | `docs/obsidian/QUESTIONS.md` |  | Svyazi, CardIndex, AgentFS | 1677 |
 | `docs/obsidian/READING_ORDER.md` |  | Svyazi, Yodoca, MemNet | 4040 |
 | `docs/obsidian/READING_TIME.md` |  | Svyazi, Yodoca, MemNet | 3272 |
@@ -1693,9 +1708,30 @@
 | `docs/technology-combinations/synthesis-tables/25-30-extended.md` | rag, orchestration |  | 192 |
 | `docs/technology-combinations/synthesis-tables/31-35-final.md` |  |  | 210 |
 | `docs/technology-combinations/synthesis-tables/README.md` |  |  | 28 |
-| `docs/templates/README.md` |  |  | 82 |
-| `docs/templates/contact-outreach.md` | контакты, команда |  | 96 |
-| `docs/templates/decision-record.md` | архитектура, решение |  | 85 |
-| `docs/templates/ensemble.md` | ансамбль, архитектура |  | 138 |
-| `docs/templates/project-component.md` | архитектура, проект |  | 84 |
-| `docs/templates/research-note.md` | исследование |  | 66 |
+| `docs/templates/README.md` |  |  | 24 |
+| `docs/templates/contact-outreach.md` | контакты, команда | Svyazi | 99 |
+| `docs/templates/decision-record.md` | архитектура, решение |  | 86 |
+| `docs/templates/ensemble.md` | ансамбль, архитектура |  | 139 |
+| `docs/templates/project-component.md` | архитектура, проект | Svyazi | 87 |
+| `docs/templates/research-note.md` | исследование |  | 67 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READABILITY](docs/READABILITY.md) (сходство 0.97)
+- [READING_TIME](docs/READING_TIME.md) (сходство 0.96)
+- [SOURCE_MAP](docs/SOURCE_MAP.md) (сходство 0.84)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](docs/READABILITY.md)
+- [LANGUAGE_STATS](docs/LANGUAGE_STATS.md)
+- [READING_TIME](docs/obsidian/READING_TIME.md)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md)
+

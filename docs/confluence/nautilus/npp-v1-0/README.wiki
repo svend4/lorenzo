@@ -1,0 +1,40 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/npp-v1-0/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. npp-v1-0
+
+_Файлов:_ 19
+
+h2. Содержание
+
+* [00-abstract-status.md|00-abstract-status.md] — 
+* [01-introduction.md|01-introduction.md] — 
+* [02-terminology.md|02-terminology.md] — 
+* [03-registry.md|03-registry.md] — > [!IMPORTANT]
+* [04-passport.md|04-passport.md] — 
+* [05-compatibility-levels.md|05-compatibility-levels.md] — 
+* [06-adapter-interface.md|06-adapter-interface.md] — > [!IMPORTANT]
+* [07-portal-entry.md|07-portal-entry.md] — > [!IMPORTANT]
+* [08-consensus-algorithm.md|08-consensus-algorithm.md] — 
+* [09-query-flow.md|09-query-flow.md] — 
+* [10-query-result.md|10-query-result.md] — 
+* [11-security-considerations.md|11-security-considerations.md] — 
+* [12-versioning-policy.md|12-versioning-policy.md] — 
+* [13-reference-implementation.md|13-reference-implementation.md] — 
+* [14-adr-001-federation-over-merging.md|14-adr-001-federation-over-merging.md] — 
+* [15-glossary.md|15-glossary.md] — 
+* [16-appendix-a-minimal-working-example.md|16-appendix-a-minimal-working-example.md] — 
+* [17-appendix-b-change-log.md|17-appendix-b-change-log.md] — 
+* [18-comment-on-document.md|18-comment-on-document.md] — > [!IMPORTANT]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/npp-v1-1/README.md] (сходство 0.60)
+* [22-10-queryresult-structure|docs/02-anthropic-vacancies/22-10-queryresult-structure.md] (сходство 0.17)
+* [22-10-queryresult-structure|docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md] (сходство 0.16)
+

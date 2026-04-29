@@ -1,0 +1,58 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/agent-memory-mcp.md}}
+Дата: 2026-04-29
+{info}
+
+h1. agent-memory-mcp + Memory OS
+
+
+{quote}- _Автор:_ VitaliySemenov / moshael{quote}
+_Проекты:_ Svyazi, agent-memory-mcp
+
+----
+
+
+
+
+
+* _Автор:_ VitaliySemenov / moshael
+* _Источник:_ Хабр + GitHub + Хабр citeturn20view16turn15search3turn39view3
+* _Лицензия:_ для {{agent-memory-mcp}} — неуточнено; для Memory OS — неуточнено. citeturn15search3turn39view3
+* _Maturity:_ {{agent-memory-mcp}} — рабочий OSS; Memory OS — концептуально амбициозный кейс без явного публичного репо в статье. citeturn15search3turn39view3
+* _Релевантность к Svyazi‑2.0:_ высокая — слой typed memory и governance для более поздних итераций.
+
+h2. Описание
+
+Typed memory MCP плюс более тяжёлая концепция Memory OS с онтологией, gardener‑loop и bi‑temporal facts.
+
+h2. Ключевые компоненты и паттерны
+
+* SQLite + WAL
+* Typed memories
+* Repo / doc search
+* Path guard
+* Ontology
+* Concept loop
+* Maintenance contour
+* Planner / scout / synthesizer
+
+
+
+----
+
+_Смотрите также:_
+* [memnet|docs/svyazi-2-0/components/memnet.md]
+* [yodoca|docs/svyazi-2-0/components/yodoca.md]
+* [rufler|docs/svyazi-2-0/components/rufler.md]
+* [ngt-memory|docs/svyazi-2-0/components/ngt-memory.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [memnet|docs/svyazi-2-0/components/memnet.md] (сходство 0.35)
+* [yodoca|docs/svyazi-2-0/components/yodoca.md] (сходство 0.32)
+* [rufler|docs/svyazi-2-0/components/rufler.md] (сходство 0.31)
+

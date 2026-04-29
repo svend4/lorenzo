@@ -1,0 +1,39 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/okwf-concept/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "okwf-concept"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. okwf-concept
+
+_Файлов:_ 11
+
+h2. Содержание
+
+* [[00-abstract|00-abstract.md]] — 
+* [[01-problem-statement|01-problem-statement.md]] — 
+* [[02-target-populations|02-target-populations.md]] — 
+* [[03-why-existing-fail|03-why-existing-fail.md]] — 
+* [[04-proposed-infrastructure|04-proposed-infrastructure.md]] — > [!TIP]
+* [[05-economic-model|05-economic-model.md]] — > [!TIP]
+* [[06-governance-ethics|06-governance-ethics.md]] — 
+* [[07-phased-rollout|07-phased-rollout.md]] — 
+* [[08-risk-analysis|08-risk-analysis.md]] — > [!TIP]
+* [[09-call-for-partnership|09-call-for-partnership.md]] — 
+* [[10-appendices|10-appendices.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[154-table-of-contents]] (сходство 0.36)
+* [[154-table-of-contents]] (сходство 0.31)
+* [[README]] (сходство 0.17)
+

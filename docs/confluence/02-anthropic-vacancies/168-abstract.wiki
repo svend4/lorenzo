@@ -6,6 +6,18 @@
 h1. Abstract
 
 
+h2. Содержание
+
+* [Abstract|#abstract]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Each category exhibits the same structural problem: gap between value created or held and capacity to make that value visible to relevant counterparties.{quote}

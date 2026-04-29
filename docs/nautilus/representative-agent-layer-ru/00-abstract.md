@@ -39,3 +39,13 @@
 - [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
 - [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [190-содержание](docs/obsidian/02-anthropic-vacancies/190-содержание.md) (сходство 0.52)
+- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md) (сходство 0.51)
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.33)
+

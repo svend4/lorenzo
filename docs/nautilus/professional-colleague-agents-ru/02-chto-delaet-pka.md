@@ -196,3 +196,13 @@
 - [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
 - [01-pyat-tipov](docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [233-2-что-делает-агента-профессиональным-коллегой](docs/obsidian/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md) (сходство 0.85)
+- [233-2-что-делает-агента-профессиональным-коллегой](docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md) (сходство 0.83)
+- [03-keys-obuchay](docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md) (сходство 0.15)
+

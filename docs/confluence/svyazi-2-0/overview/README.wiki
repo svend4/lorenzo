@@ -1,0 +1,25 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/overview/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. overview
+
+_Файлов:_ 4
+
+h2. Содержание
+
+* [continuation-intro.md|continuation-intro.md] — 
+* [executive-summary.md|executive-summary.md] — > [!TIP]
+* [methodology.md|methodology.md] — > [!TIP]
+* [projects-map.md|projects-map.md] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/habr-unique-projects/analogues/README.md] (сходство 0.31)
+* [README|docs/technology-combinations/research-reports/README.md] (сходство 0.29)
+* [README|docs/ai-collaborations/README.md] (сходство 0.25)
+

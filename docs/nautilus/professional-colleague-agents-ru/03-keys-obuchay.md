@@ -204,3 +204,13 @@
 - [233-2-что-делает-агента-профессиональным-коллегой](docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)
 - [06-riski](docs/nautilus/professional-colleague-agents-ru/06-riski.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [234-3-эмпирический-кейс-обучай](docs/obsidian/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) (сходство 0.87)
+- [234-3-эмпирический-кейс-обучай](docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) (сходство 0.86)
+- [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md) (сходство 0.15)
+

@@ -1,0 +1,96 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/npp-v1-1/05-compatibility-levels.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 5. Compatibility Levels
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+h2. 5. Compatibility Levels
+
+NPP определяет 4 уровня совместимости Repo с экосистемой. Это 
+позволяет постепенное подключение.
+
+h3. Level 0 — Discoverable
+
+Repo объявлен в {{nautilus.json}}. Адаптера нет. Portal знает о 
+существовании Repo, но не может запрашивать.
+
+_Use case_: анонс намерения подключить Repo до написания кода.
+
+_Требования_:
+* Только запись в {{nautilus.json}} (минимально {{name}} + {{format}} + {{repo}})
+
+h3. Level 1 — Readable
+
+Repo имеет passport + адаптер со статическими записями. 
+Portal возвращает static entries.
+
+_Use case_: архивы, reference docs, стабильные репо.
+
+_Требования_:
+* Всё из Level 0
+* {{passport.md}} в {{passports/}}
+* Адаптер реализует {{fetch()}} + {{describe()}} (см. раздел 6)
+* Fallback-entries в адаптере (≥3 записи)
+
+h3. Level 2 — Linked
+
+Адаптер производит записи с заполненными Q6-координатами в 
+{{metadata.q6}} и {{links}} на другие Repos. Portal может вычислять 
+кросс-ссылки и визуализировать граф.
+
+_Use case_: активные Repos с семантическими связями.
+
+_Требования_:
+* Всё из Level 1
+* Каждый PortalEntry MUST иметь {{metadata.q6}} (если Q6-маппинг 
+определён для этого Repo)
+* Каждый PortalEntry SHOULD иметь ≥1 link на другой Repo
+
+h3. Level 3 — Interactive
+
+Адаптер выполняет live-fetch через GitHub API или эквивалент, 
+возвращая реальные данные из Repo (не только fallback).
+
+_Use case_: Repos, глубоко интегрированные с экосистемой.
+
+_Требования_:
+* Всё из Level 2
+* {{fetch()}} делает real network call (с timeout ≤ 5 сек)
+* Graceful fallback: при ошибке сети/API возвращает static entries 
+с {{is_fallback=True}}
+* {{PortalEntry.is_fallback}} явно помечается
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [80-5-compatibility-levels|docs/02-anthropic-vacancies/80-5-compatibility-levels.md]
+* [17-5-compatibility-levels|docs/02-anthropic-vacancies/17-5-compatibility-levels.md]
+* [07-portal-entry|docs/nautilus/npp-v1-1/07-portal-entry.md]
+* [06-adapter-interface|docs/nautilus/npp-v1-1/06-adapter-interface.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [80-5-compatibility-levels|docs/obsidian/02-anthropic-vacancies/80-5-compatibility-levels.md] (сходство 0.80)
+* [80-5-compatibility-levels|docs/02-anthropic-vacancies/80-5-compatibility-levels.md] (сходство 0.72)
+* [05-compatibility-levels|docs/nautilus/npp-v1-0/05-compatibility-levels.md] (сходство 0.36)
+

@@ -158,3 +158,13 @@ https://github.com/camel-ai/camel сравнить этого Агента ну�
 - [12-minuses-of-hermes](docs/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md)
 - [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-what-info-repos-contain](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) (сходство 0.17)
+- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.16)
+- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) (сходство 0.16)
+

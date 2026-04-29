@@ -1,0 +1,56 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/hybrid-rag.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Hybrid RAG knowledge base
+
+
+{quote}- _Источник:_ Хабр citeturn34view2{quote}
+_Проекты:_ Svyazi, Hybrid RAG
+
+----
+
+
+
+
+
+* _Автор:_ iximy
+* _Источник:_ Хабр citeturn34view2
+* _Лицензия:_ неуточнено. citeturn34view2
+* _Maturity:_ практический implementation guide; публичный код в статье не акцентирован. citeturn34view2
+* _Релевантность к Svyazi‑2.0:_ высокая — полезен как быстрый базовый retrieval‑контур.
+
+h2. Описание
+
+Минималистский Hybrid RAG без тяжёлых фреймворков.
+
+h2. Ключевые компоненты и паттерны
+
+* {{pdfplumber}}
+* Координаты слов
+* TF‑IDF
+* FAISS
+* Metadata filtering
+* Прозрачный retrieval‑layer
+
+
+
+----
+
+_Смотрите также:_
+* [ngt-memory|docs/svyazi-2-0/components/ngt-memory.md]
+* [graph-rag|docs/svyazi-2-0/components/graph-rag.md]
+* [legal-rag|docs/svyazi-2-0/components/legal-rag.md]
+* [rufler|docs/svyazi-2-0/components/rufler.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [ngt-memory|docs/svyazi-2-0/components/ngt-memory.md] (сходство 0.35)
+* [graph-rag|docs/svyazi-2-0/components/graph-rag.md] (сходство 0.34)
+* [legal-rag|docs/svyazi-2-0/components/legal-rag.md] (сходство 0.34)
+

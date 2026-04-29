@@ -1,0 +1,173 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/okwf-concept/02-target-populations.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "2. Target Populations"
+tags:
+  * anthropic
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 2. Target Populations
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».{quote}
+
+----
+
+
+h2. Содержание
+
+* [2. Target Populations|#2-target-populations]
+  * [2.1. Retired Experts with Remaining Intellectual Capacity|#21-retired-experts-with-remaining-intellectual-capacity]
+  * [2.2. Disabled Specialists with Modified Work Requirements|#22-disabled-specialists-with-modified-work-requirements]
+  * [2.3. Career-Switchers with Non-Traditional Backgrounds|#23-career-switchers-with-non-traditional-backgrounds]
+  * [2.4. Geographically Dispersed Skilled Workers|#24-geographically-dispersed-skilled-workers]
+  * [2.5. Cross-Cutting Observations|#25-cross-cutting-observations]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».{quote}
+
+h2. 2. Target Populations
+
+h3. 2.1. Retired Experts with Remaining Intellectual Capacity
+
+_Size estimate_: 500K+ in OECD countries with relevant skills 
+for knowledge work.
+
+_Characteristics_:
+* Decades of domain expertise
+* Reduced but significant work capacity (15-25 hours/week 
+typical)
+* Modest income supplementation preferred over full salary
+* Value meaning, mentorship, intellectual engagement
+* Often excluded from tech roles due to age bias
+
+_Unique value proposition from OKWF_:
+* Dignified part-time engagement
+* Mentorship opportunities for younger contributors
+* AI assistance mitigating technical skill obsolescence
+* Identity continuity with professional life
+
+_Example use cases_:
+* Retired German law professor contributing to legal pattern 
+library and junior legal writer mentorship
+* Former medical researcher reviewing bioinformatics code
+* Retired journalist leading science communication guild
+
+h3. 2.2. Disabled Specialists with Modified Work Requirements
+
+_Size estimate_: 5M+ in OECD countries with preserved 
+intellectual capacity and specific support needs.
+
+_Characteristics_:
+* Technical expertise often comparable to non-disabled peers
+* Variable daily capacity (good days and bad days)
+* Need flexibility impossible in most full-time roles
+* Often experience employment discrimination
+* Frequently have direct relevant experience (e.g., disability 
+rights advocacy)
+
+_Unique value proposition from OKWF_:
+* Asynchronous work accommodating variable capacity
+* No discrimination in selection (AI-assisted blind matching)
+* Bringing disability-informed perspective to beneficial AI
+* Direct expertise in accessibility research
+
+_Example use cases_:
+* Blind contributor working on screen reader AI improvements
+* Chronic fatigue patient contributing health AI research 
+during good hours
+* Person with Sozialgericht experience (like this document's 
+author) contributing to legal advocacy infrastructure
+
+h3. 2.3. Career-Switchers with Non-Traditional Backgrounds
+
+_Size estimate_: Difficult to quantify; substantial and 
+growing.
+
+_Characteristics_:
+* Established expertise in non-CS domain (law, medicine, 
+education, humanities)
+* Interest and aptitude for technical work
+* Often mid-career with family responsibilities
+* Credentials don't match AI company hiring criteria
+* Self-taught technical skills through coursework, projects
+
+_Unique value proposition from OKWF_:
+* Recognition of transferable expertise
+* Domain knowledge as differentiator, not disadvantage
+* Graduated progression from advisory to technical roles
+* Mentorship relationships with domain-specific AI teams
+
+_Example use cases_:
+* Lawyer contributing to legal AI alignment research
+* Medical doctor reviewing medical AI safety
+* Teacher designing educational AI curricula
+
+h3. 2.4. Geographically Dispersed Skilled Workers
+
+_Size estimate_: Millions globally outside US/UK/EU.
+
+_Characteristics_:
+* CS or technical skills comparable to hire-eligible peers
+* Cannot relocate due to family, legal, or preference
+* Existing platforms (Toptal, Upwork) treat them as commodities
+* Legal/tax infrastructure burden makes direct hire impractical 
+for companies
+
+_Unique value proposition from OKWF_:
+* Foundation-handled compliance (single legal interface for 
+contributors globally)
+* Persistent professional identity across engagements
+* Reputation portable across clients
+* Dignity-preserving rate structure
+
+_Example use cases_:
+* Senior engineer in Belarus contributing to AI safety research
+* ML researcher in Argentina working on multilingual models
+* Medical AI specialist in Kenya contributing to global health 
+AI
+
+h3. 2.5. Cross-Cutting Observations
+
+These four populations overlap substantially. A retired lawyer 
+in Belarus with chronic illness fits all four categories. 
+Traditional hiring infrastructure treats each constraint as 
+individual disqualifier. OKWF treats each as attribute of a 
+unique contributor whose combination of characteristics has value.
+
+Estimated total addressable contributor pool: 10M+ globally. 
+Active participant target in first three years: 5,000-10,000.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[156-2-target-populations]]
+* [[01-problem-statement]]
+* [[03-why-existing-fail]]
+* [[10-appendices]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[156-2-target-populations]] (сходство 0.88)
+* [[156-2-target-populations]] (сходство 0.87)
+* [[01-problem-statement]] (сходство 0.21)
+

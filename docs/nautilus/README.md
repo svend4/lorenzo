@@ -51,3 +51,13 @@
 - **Q6-гиперкуб / MoME** упоминается во многих местах: [`../glossary/concepts.md`](../glossary/concepts.md), [`../habr-unique-projects/hardware-pairs/2-tsu-mome.md`](../habr-unique-projects/hardware-pairs/2-tsu-mome.md), [`../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md`](../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md).
 - **Architecture Spec** и **Card Envelope** в Svyazi 2.0 связаны с PortalEntry/Card паттернами здесь: [`../svyazi-2-0/architecture/`](../svyazi-2-0/architecture/).
 - **Профиль svend4** (автор) — см. [`../anthropic-vacancies/profile-mapping/`](../anthropic-vacancies/profile-mapping/).
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [355-существующие-документы-dhlab-твой-context](docs/obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.14)
+- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.14)
+- [306-with-anthropic-s-cowork-platform](docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.14)
+

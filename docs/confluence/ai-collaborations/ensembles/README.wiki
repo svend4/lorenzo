@@ -1,0 +1,30 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/ai-collaborations/ensembles/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Ансамбли проектов
+
+_Файлов:_ 9
+
+h2. Содержание
+
+* [1-agentic-knowledge-os.md|1-agentic-knowledge-os.md] — 
+* [2-distributed-agent-workshop.md|2-distributed-agent-workshop.md] — 
+* [3-forensic-rag.md|3-forensic-rag.md] — 
+* [4-web-to-knowledge-pipeline.md|4-web-to-knowledge-pipeline.md] — 
+* [5-agent-firewall.md|5-agent-firewall.md] — > [!WARNING]
+* [6-continuous-eval-loop.md|6-continuous-eval-loop.md] — 
+* [7-domain-agent-app-factory.md|7-domain-agent-app-factory.md] — 
+* [8-budget-aware-intelligence-stack.md|8-budget-aware-intelligence-stack.md] — 
+* [9-ambient-team-agent.md|9-ambient-team-agent.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/svyazi-2-0/ensembles/README.md] (сходство 0.19)
+* [README|docs/svyazi-2-0/components/README.md] (сходство 0.17)
+* [README|docs/obsidian/03-technology-combinations/README.md] (сходство 0.14)
+

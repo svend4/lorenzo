@@ -80,3 +80,13 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 - [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
 - [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [364-final-note-ты-experiment](docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md) (сходство 0.24)
+- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md) (сходство 0.24)
+- [README](docs/ai-collaborations/fast-tracks/README.md) (сходство 0.19)
+

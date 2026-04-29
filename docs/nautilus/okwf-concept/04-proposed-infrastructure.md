@@ -239,3 +239,13 @@ Community governance operates:
 - [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md)
 - [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [158-4-proposed-infrastructure](docs/obsidian/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.93)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.93)
+- [04-nautilus-portal-substrate](docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md) (сходство 0.23)
+

@@ -1,0 +1,36 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/deep-pairs/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "deep-pairs"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. deep-pairs
+
+_Файлов:_ 8
+
+h2. Содержание
+
+* [[1-llm-gateway|1-llm-gateway.md]] — 
+* [[2-document-rag|2-document-rag.md]] — 
+* [[3-adversarial-multi-ide|3-adversarial-multi-ide.md]] — 
+* [[4-skill-catalogs-subagents|4-skill-catalogs-subagents.md]] — 
+* [[5-voice-local-memory|5-voice-local-memory.md]] — 
+* [[6-tmux-village-openclaw|6-tmux-village-openclaw.md]] — 
+* [[7-autoresearch-distributed|7-autoresearch-distributed.md]] — 
+* [[8-self-aware-mcp-specs|8-self-aware-mcp-specs.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.17)
+* [[README]] (сходство 0.15)
+* [[README]] (сходство 0.14)
+

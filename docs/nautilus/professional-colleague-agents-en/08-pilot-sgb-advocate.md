@@ -230,3 +230,13 @@ incremental rather than novel.
 - [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
 - [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/obsidian/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.90)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.85)
+- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md) (сходство 0.20)
+

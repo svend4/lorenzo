@@ -6,29 +6,29 @@ _Обновлено: 2026-04-29_
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **spbmolot** | NGT Memory | memory | 58 | 👁 Изучили | 185 |
-| 2 | **kksudo** | AgentFS | knowledge/filesystem | 57 | 👁 Изучили | 182 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 50 | ⬜ Не начато | 156 |
-| 4 | **VladSpace** | Graph RAG | rag | 43 | ⬜ Не начато | 133 |
-| 5 | **VitalyOborin** | Yodoca | memory | 39 | ⬜ Не начато | 123 |
-| 6 | **Cutcode** | AIF Handoff | orchestration | 36 | ⬜ Не начато | 112 |
-| 7 | **zodigancode** | Rufler | orchestration | 36 | ⬜ Не начато | 112 |
-| 8 | **Antipozitive** | MemNet | memory | 33 | ⬜ Не начато | 105 |
-| 9 | **Dmitriila** | SENTINEL | security | 34 | ⬜ Не начато | 104 |
-| 10 | **nlaik** | LiteParse / research-docs | rag | 31 | ⬜ Не начато | 97 |
-| 11 | **MiXaiLL76** | Auto AI Router | security | 30 | ⬜ Не начато | 92 |
-| 12 | **Sonia_Black** | knowledge-space | knowledge | 19 | ⬜ Не начато | 63 |
-| 13 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 15 | ⬜ Не начато | 47 |
-| 14 | **tagir_analyzes** | Legal RAG | rag | 14 | ⬜ Не начато | 46 |
-| 15 | **lee-to** | AI Factory | orchestration | 11 | ⬜ Не начато | 37 |
+| 1 | **spbmolot** | NGT Memory | memory | 131 | 👁 Изучили | 404 |
+| 2 | **kksudo** | AgentFS | knowledge/filesystem | 130 | 👁 Изучили | 401 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 85 | ⬜ Не начато | 261 |
+| 4 | **VladSpace** | Graph RAG | rag | 77 | ⬜ Не начато | 235 |
+| 5 | **Cutcode** | AIF Handoff | orchestration | 74 | ⬜ Не начато | 226 |
+| 6 | **VitalyOborin** | Yodoca | memory | 70 | ⬜ Не начато | 216 |
+| 7 | **Dmitriila** | SENTINEL | security | 68 | ⬜ Не начато | 206 |
+| 8 | **zodigancode** | Rufler | orchestration | 64 | ⬜ Не начато | 196 |
+| 9 | **MiXaiLL76** | Auto AI Router | security | 64 | ⬜ Не начато | 194 |
+| 10 | **Antipozitive** | MemNet | memory | 53 | ⬜ Не начато | 165 |
+| 11 | **nlaik** | LiteParse / research-docs | rag | 50 | ⬜ Не начато | 154 |
+| 12 | **Sonia_Black** | knowledge-space | knowledge | 33 | ⬜ Не начато | 105 |
+| 13 | **tagir_analyzes** | Legal RAG | rag | 33 | ⬜ Не начато | 103 |
+| 14 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 32 | ⬜ Не начато | 98 |
+| 15 | **lee-to** | AI Factory | orchestration | 19 | ⬜ Не начато | 61 |
 
 ## Рекомендуемые следующие шаги
 
 ### Написать первым (ещё не контактировали)
 
-1. **spbmolot** (NGT Memory, 58 упоминаний) → [открыть контакт](contacts/spbmolot.md)
-1. **kksudo** (AgentFS, 57 упоминаний) → [открыть контакт](contacts/kksudo.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 50 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
+1. **spbmolot** (NGT Memory, 131 упоминаний) → [открыть контакт](contacts/spbmolot.md)
+1. **kksudo** (AgentFS, 130 упоминаний) → [открыть контакт](contacts/kksudo.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 85 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 

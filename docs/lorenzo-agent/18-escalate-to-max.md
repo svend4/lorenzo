@@ -33,3 +33,13 @@
 - [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [362-когда-сомневаешься-escalate-к-max](docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) (сходство 0.64)
+- [362-когда-сомневаешься-escalate-к-max](docs/obsidian/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) (сходство 0.53)
+- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md) (сходство 0.35)
+

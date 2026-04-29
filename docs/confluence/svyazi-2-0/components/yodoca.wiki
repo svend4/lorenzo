@@ -1,0 +1,56 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/yodoca.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Yodoca
+
+
+{quote}- _Источник:_ Хабр + GitHub citeturn38view7turn21view0turn21view1turn18search1{quote}
+_Проекты:_ Svyazi, Yodoca
+
+----
+
+
+
+
+
+* _Автор:_ VitalyOborin
+* _Источник:_ Хабр + GitHub citeturn38view7turn21view0turn21view1turn18search1
+* _Лицензия:_ _Apache 2.0_. citeturn18search1
+* _Maturity:_ активный OSS. citeturn18search1
+* _Релевантность к Svyazi‑2.0:_ очень высокая — лучший слой для nightly consolidation и controlled forgetting.
+
+h2. Описание
+
+Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией.
+
+h2. Ключевые компоненты и паттерны
+
+* Hot / slow path
+* Private write‑path consolidator
+* {{is_session_consolidated}}
+* Ebbinghaus decay
+* Causal edges
+* Proactive memory
+
+
+
+----
+
+_Смотрите также:_
+* [ngt-memory|docs/svyazi-2-0/components/ngt-memory.md]
+* [memnet|docs/svyazi-2-0/components/memnet.md]
+* [mclaude|docs/svyazi-2-0/components/mclaude.md]
+* [ai-factory|docs/svyazi-2-0/components/ai-factory.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [ngt-memory|docs/svyazi-2-0/components/ngt-memory.md] (сходство 0.37)
+* [ai-factory|docs/svyazi-2-0/components/ai-factory.md] (сходство 0.37)
+* [memnet|docs/svyazi-2-0/components/memnet.md] (сходство 0.36)
+

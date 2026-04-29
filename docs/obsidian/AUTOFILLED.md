@@ -77,3 +77,13 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 - [[README|docs]]
 - [[TABLES|Все таблицы репозитория]]
 - [[SITEMAP|Карта репозитория Lorenzo]]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[AUTOFILLED]] (сходство 0.83)
+- [[svyazi]] (сходство 0.45)
+- [[svend4]] (сходство 0.45)
+

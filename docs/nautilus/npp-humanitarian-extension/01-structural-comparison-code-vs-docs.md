@@ -270,3 +270,13 @@ legal-nautilus/ ← отдельный приватный репо
 - [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
 - [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [133-обратная-связь](docs/obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.20)
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.20)
+- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md) (сходство 0.14)
+

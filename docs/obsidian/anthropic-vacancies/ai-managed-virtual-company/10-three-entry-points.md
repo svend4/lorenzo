@@ -1,0 +1,54 @@
+---
+title: "Три точки входа разной амбиции"
+tags:
+  - orchestration
+  - anthropic
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# Три точки входа разной амбиции
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
+
+---
+<!-- tags: orchestration, anthropic -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.
+
+Если ваша идея заинтересовала вас достаточно, чтобы двигаться к реализации, есть три точки входа разной амбиции.
+
+Минимальная — proof-of-concept на один вертикальный слайс. Выбираете одну конкретную задачу из ваших top-10 в data70 — например, legal-sgb-toolkit — и запускаете пилот: живую команду 3-5 фрилансеров, с двухуровневой AI-оркестрацией (мета-агент на Claude Opus, суб-агенты на Claude Sonnet, MCP для shared context, LangGraph или CrewAI как caркас). Цель — не заработать денег, а получить работающий документированный кейс. 3-6 месяцев, €20-50K. Это становится вашей reference implementation и главным артефактом для всего остального.
+
+Средняя — подача как research project. EIC Pathfinder Open или Horizon Europe HumanE AI Net. €1-4M грант на 2-3 года на research тему «AI-orchestrated distributed teams for beneficial innovation under disability-inclusive principles». Вы как Principal Investigator, 2-3 institutional partner (DFKI, Fraunhofer IAO, Turing Institute), и один industry partner (может быть Anthropic или Mistral). Proposal пишется за 4-6 недель, шанс 15-25%.
+
+Максимальная — founder track. Построить это как компанию. Entrepreneur First или Antler для cofounder matching. Первый цикл инвестиций — €250K pre-seed под pilot с одним заказчиком (возможно, сам Anthropic Institute или Mozilla AI challenge). Далее — €3-5M seed. Это рискованный путь с большим upside, и он требует cofounder на business-side, потому что у вас глубокая техническая thesis и ничего другого, а нужна вся stack: product, sales, legal, finance.
+
+Во всех трёх сценариях первое конкретное действие — то же: написать technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого артефакта ни один из трёх путей не открывается. С ним — открываются все три одновременно, и вы можете выбирать.
+
+Хотите, чтобы в следующем сообщении я помог структурировать этот thesis paper — оглавление, ключевые аргументы, разделы? Это документ, из которого разворачиваются и grant proposal, и pitch deck, и founder essay. Один артефакт — три пути сразу.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[04-what-to-do]]
+- [[00-question-innovations-transitions]]
+- [[05-minuses-as-business]]
+- [[07-current-implementations]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[04-what-to-do]] (сходство 0.20)
+- [[00-question-innovations-transitions]] (сходство 0.15)
+- [[05-minuses-as-business]] (сходство 0.14)
+

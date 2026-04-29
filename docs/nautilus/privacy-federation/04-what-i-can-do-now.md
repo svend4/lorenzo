@@ -35,3 +35,13 @@
 - [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
 - [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.22)
+- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.16)
+- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md) (сходство 0.13)
+

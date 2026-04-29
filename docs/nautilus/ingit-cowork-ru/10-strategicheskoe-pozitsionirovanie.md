@@ -190,3 +190,13 @@ InGit папкой) немедленно
 - [05-chetyre-puti-integratsii](docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
 - [09-riski-voprosy](docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [336-10-стратегическое-позиционирование](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) (сходство 0.84)
+- [336-10-стратегическое-позиционирование](docs/obsidian/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) (сходство 0.83)
+- [08-implikatsii-nautilus-okwf](docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md) (сходство 0.14)
+

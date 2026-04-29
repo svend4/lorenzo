@@ -1,0 +1,93 @@
+---
+title: "Комбинация 16: Adversarial Multi-Agent Code Review"
+tags:
+  - rag
+  - orchestration
+  - anthropic
+  - collaboration
+  - technology-combinations
+date: 2026-04-29
+---
+
+# Комбинация 16: Adversarial Multi-Agent Code Review
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Auto AI Router
+
+---
+<!-- tags: rag, orchestration, anthropic, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+Родители:
+
+Adversarial review pattern (habr.com/ru/articles/1019588/) - Opus writes, Codex reviews, cycle until APPROVED
+
+Anthropic Code Review (команда агентов, 54% PR coverage vs 16%)
+
+Auto AI Router (Go proxy, model routing by complexity)
+
+Sequential Protocol (chain of specialists, 44% quality boost)
+
+Дети:
+
+Multi-model adversarial pipeline with sequential specialization
+
+Writer Agent: Claude Opus 4.6 writes code
+
+Reviewer Chain (Sequential):
+
+Agent 1: Style reviewer (DeepSeek R1, cheap)
+
+Agent 2: Logic reviewer (Claude Sonnet 4.6)
+
+Agent 3: Security auditor (Qwen3.5-35B fine-tuned on CVEs)
+
+Router: Auto AI Router balances load (if Sonnet overloaded → GPT-4o)
+
+Cycle: Writer → Sequential Review → Fix → Review → APPROVED
+
+Metrics: Anthropic saw 16%→54% PR coverage; Sequential adds 44% quality
+
+ROI: 3× faster review cycles vs single reviewer
+
+Enterprise legal document review workflow
+
+Writer: LLM generates Widerspruch from Bescheid template
+
+Reviewer 1: Legal compliance (cites correct §§, Fristwahrung)
+
+Reviewer 2: Style (professional tone, no jargon)
+
+Reviewer 3: QA (all fields filled, attachments referenced)
+
+Router: cheap models for style, expensive for legal reasoning
+
+ROI: Automated review → manual approval only for edge cases
+
+Уникальность: Combines adversarial (Opus vs reviewers) with sequential (chain of specialists) and routing (cost optimization). Никто не делает это одновременно.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[23-security-first-code-review-pipeline]]
+- [[12-multi-agent-observability-stack]]
+- [[28-pydantic-enforced-legal-workflows]]
+- [[15-19-extended]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[23-security-first-code-review-pipeline]] (сходство 0.35)
+- [[12-multi-agent-observability-stack]] (сходство 0.25)
+- [[28-pydantic-enforced-legal-workflows]] (сходство 0.23)
+

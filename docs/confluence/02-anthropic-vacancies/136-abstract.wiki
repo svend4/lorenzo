@@ -6,6 +6,18 @@
 h1. Abstract
 
 
+h2. Содержание
+
+* [Abstract|#abstract]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ We conclude with open questions on governance, consent, economics, and burnout dynamics, and invite research collaboration on these unsolved issues.{quote}

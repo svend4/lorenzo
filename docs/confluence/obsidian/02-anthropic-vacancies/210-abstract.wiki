@@ -16,6 +16,18 @@ date: 2026-04-29
 h1. Abstract
 
 
+h2. Содержание
+
+* [Abstract|#abstract]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Each type serves a different need, has different economics, requires different governance, and proceeds at a different pace of deployment.{quote}

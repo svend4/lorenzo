@@ -191,3 +191,13 @@ _Курированных рисков: 10 · Из документов: 15_
 - [Все таблицы репозитория](TABLES.md)
 - [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
 - [Карта репозитория Lorenzo](SITEMAP.md)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [RISK_REGISTER](docs/obsidian/RISK_REGISTER.md) (сходство 0.94)
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md) (сходство 0.20)
+- [ONBOARDING](docs/obsidian/ONBOARDING.md) (сходство 0.18)
+

@@ -58,3 +58,13 @@ _Смотрите также:_
 * [lorenzo|lorenzo.md]
 * [nautilus|nautilus.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [svyazi|docs/obsidian/autofilled/components/svyazi.md] (сходство 0.90)
+* [sgb|docs/obsidian/autofilled/components/sgb.md] (сходство 0.90)
+* [nautilus|docs/obsidian/autofilled/components/nautilus.md] (сходство 0.90)
+

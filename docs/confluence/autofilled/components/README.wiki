@@ -19,3 +19,13 @@ h2. Содержание
 * [spbmolot.md|spbmolot.md] — 
 * [svend4.md|svend4.md] — 
 * [svyazi.md|svyazi.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/obsidian/autofilled/components/README.md] (сходство 0.92)
+* [README|docs/obsidian/autofilled/README.md] (сходство 0.27)
+* [README|docs/autofilled/README.md] (сходство 0.27)
+

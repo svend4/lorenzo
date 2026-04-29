@@ -10,3 +10,13 @@
 - [04-dochkina-sequential.md](04-dochkina-sequential.md) — <!-- summary -->
 - [05-supplementary-infrastructure.md](05-supplementary-infrastructure.md) — <!-- summary -->
 - [06-svyazi-2-0-block-map.md](06-svyazi-2-0-block-map.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/obsidian/05-habr-projects/memory/README.md) (сходство 0.25)
+- [README](docs/autofilled/components/README.md) (сходство 0.19)
+- [README](docs/svyazi-2-0/components/README.md) (сходство 0.19)
+

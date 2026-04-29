@@ -41,3 +41,13 @@ Typed memory MCP плюс более тяжёлая концепция Memory OS
 - [rufler](docs/svyazi-2-0/components/rufler.md)
 - [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [memnet](docs/svyazi-2-0/components/memnet.md) (сходство 0.35)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md) (сходство 0.32)
+- [rufler](docs/svyazi-2-0/components/rufler.md) (сходство 0.31)
+

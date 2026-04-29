@@ -89,3 +89,13 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 - [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
 - [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/obsidian/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) (сходство 0.67)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) (сходство 0.61)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.36)
+

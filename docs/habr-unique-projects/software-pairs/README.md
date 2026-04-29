@@ -10,3 +10,13 @@
 - [4-speech-to-text-llm.md](4-speech-to-text-llm.md) — <!-- summary -->
 - [5-browser-agents-headless.md](5-browser-agents-headless.md) — <!-- summary -->
 - [6-metaphor.md](6-metaphor.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/composite-skills-agents-companion-mentors/README.md) (сходство 0.21)
+- [README](docs/habr-unique-projects/hardware-pairs/README.md) (сходство 0.21)
+- [README](docs/anthropic-vacancies/nautilus-pro2-analysis/README.md) (сходство 0.17)
+

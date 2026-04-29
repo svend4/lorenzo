@@ -11,71 +11,72 @@ date: 2026-04-29
 
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
 |-------|--------|------|-------------------|---------------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 50 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 33 | — |
-| **Cutcode** | AIF Handoff | orchestration | 36 | — |
-| **Dmitriila** | SENTINEL | security | 34 | — |
-| **MiXaiLL76** | Auto AI Router | security | 30 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 19 | — |
-| **VitalyOborin** | Yodoca | memory | 39 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 43 | — |
-| **andrey_chuyan** | Svyazi | ingestion/CardIndex | 15 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
-| **kksudo** | AgentFS | knowledge/filesystem | 57 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
-| **lee-to** | AI Factory | orchestration | 11 | — |
-| **nlaik** | LiteParse / research-docs | rag | 31 | — |
-| **spbmolot** | NGT Memory | memory | 58 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
-| **tagir_analyzes** | Legal RAG | rag | 14 | — |
-| **zodigancode** | Rufler | orchestration | 36 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 85 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 53 | — |
+| **Cutcode** | AIF Handoff | orchestration | 74 | — |
+| **Dmitriila** | SENTINEL | security | 68 | — |
+| **MiXaiLL76** | Auto AI Router | security | 64 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 33 | — |
+| **VitalyOborin** | Yodoca | memory | 70 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 77 | — |
+| **andrey_chuyan** | Svyazi | ingestion/CardIndex | 32 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
+| **kksudo** | AgentFS | knowledge/filesystem | 130 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
+| **lee-to** | AI Factory | orchestration | 19 | — |
+| **nlaik** | LiteParse / research-docs | rag | 50 | — |
+| **spbmolot** | NGT Memory | memory | 131 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
+| **tagir_analyzes** | Legal RAG | rag | 33 | — |
+| **zodigancode** | Rufler | orchestration | 64 | — |
 
 ## GitHub репозитории
 
 | Репозиторий | Упоминается в файлах |
 |-------------|---------------------|
-| `github.com/github.com/AnastasiyaW` | 4 |
-| `github.com/github.com/AnastasiyaW/knowledge-space` | 10 |
-| `github.com/github.com/Antipozitive` | 4 |
-| `github.com/github.com/Cutcode` | 4 |
-| `github.com/github.com/Dmitriila` | 4 |
-| `github.com/github.com/MiXaiLL76` | 4 |
-| `github.com/github.com/NicholasSpisak/second-brain` | 3 |
-| `github.com/github.com/Sonia` | 4 |
-| `github.com/github.com/VitalyOborin` | 4 |
-| `github.com/github.com/VitalyOborin/yodoca` | 4 |
-| `github.com/github.com/VladSpace` | 4 |
-| `github.com/github.com/andrey` | 4 |
-| `github.com/github.com/anthropics/mcp` | 5 |
-| `github.com/github.com/artur-gavronchuk/tg-chat-analyser` | 5 |
-| `github.com/github.com/camel-ai/camel` | 6 |
-| `github.com/github.com/dementev-dev/adversarial-review` | 5 |
-| `github.com/github.com/github` | 2 |
-| `github.com/github.com/kagvi13/HMP.` | 2 |
-| `github.com/github.com/kksudo` | 4 |
-| `github.com/github.com/kksudo/agentfs` | 4 |
-| `github.com/github.com/lib4u/rufler` | 2 |
-| `github.com/github.com/mcp` | 8 |
-| `github.com/github.com/nlaik` | 4 |
-| `github.com/github.com/ruvnet/ruflo` | 2 |
-| `github.com/github.com/settings/tokens` | 6 |
-| `github.com/github.com/spbmolot` | 4 |
-| `github.com/github.com/spbmolot/ngt-memory` | 4 |
-| `github.com/github.com/svend4` | 4 |
-| `github.com/github.com/svend4/data70` | 5 |
-| `github.com/github.com/svend4/info1` | 12 |
-| `github.com/github.com/svend4/info40` | 4 |
-| `github.com/github.com/svend4/info7` | 4 |
-| `github.com/github.com/svend4/ingit` | 14 |
-| `github.com/github.com/svend4/meta` | 11 |
-| `github.com/github.com/svend4/n` | 2 |
-| `github.com/github.com/svend4/nautilu` | 2 |
-| `github.com/github.com/svend4/nautilus` | 60 |
-| `github.com/github.com/svend4/nautilus.` | 3 |
-| `github.com/github.com/svend4/nautilus.git` | 3 |
-| `github.com/github.com/svend4/pro2` | 13 |
-| `github.com/github.com/tagir` | 3 |
-| `github.com/github.com/users/svend4` | 5 |
-| `github.com/github.com/vuguzum/self-aware-mcp-server` | 6 |
-| `github.com/github.com/yjs/yjs` | 3 |
-| `github.com/github.com/zodigancode` | 3 |
+| `github.com/github.com/AnastasiyaW` | 8 |
+| `github.com/github.com/AnastasiyaW/knowledge-space` | 17 |
+| `github.com/github.com/Antipozitive` | 7 |
+| `github.com/github.com/Cutcode` | 7 |
+| `github.com/github.com/Dmitriila` | 7 |
+| `github.com/github.com/MiXaiLL76` | 7 |
+| `github.com/github.com/NicholasSpisak/second-brain` | 5 |
+| `github.com/github.com/Sonia` | 7 |
+| `github.com/github.com/VitalyOborin` | 7 |
+| `github.com/github.com/VitalyOborin/yodoca` | 5 |
+| `github.com/github.com/VladSpace` | 7 |
+| `github.com/github.com/andrey` | 7 |
+| `github.com/github.com/anthropics/mcp` | 10 |
+| `github.com/github.com/artur-gavronchuk/tg-chat-analyser` | 7 |
+| `github.com/github.com/camel-ai/camel` | 11 |
+| `github.com/github.com/dementev-dev/adversarial-review` | 7 |
+| `github.com/github.com/github` | 4 |
+| `github.com/github.com/kagvi13/HMP` | 2 |
+| `github.com/github.com/kagvi13/HMP.` | 3 |
+| `github.com/github.com/kksudo` | 8 |
+| `github.com/github.com/kksudo/agentfs` | 6 |
+| `github.com/github.com/lib4u/rufler` | 3 |
+| `github.com/github.com/mcp` | 15 |
+| `github.com/github.com/nlaik` | 7 |
+| `github.com/github.com/ruvnet/ruflo` | 3 |
+| `github.com/github.com/settings/tokens` | 11 |
+| `github.com/github.com/spbmolot` | 9 |
+| `github.com/github.com/spbmolot/ngt-memory` | 5 |
+| `github.com/github.com/svend4` | 8 |
+| `github.com/github.com/svend4/data70` | 11 |
+| `github.com/github.com/svend4/info1` | 24 |
+| `github.com/github.com/svend4/info40` | 8 |
+| `github.com/github.com/svend4/info7` | 8 |
+| `github.com/github.com/svend4/ingit` | 28 |
+| `github.com/github.com/svend4/meta` | 22 |
+| `github.com/github.com/svend4/n` | 3 |
+| `github.com/github.com/svend4/nautilus` | 101 |
+| `github.com/github.com/svend4/nautilus.` | 5 |
+| `github.com/github.com/svend4/nautilus.git` | 6 |
+| `github.com/github.com/svend4/pro2` | 24 |
+| `github.com/github.com/tagir` | 6 |
+| `github.com/github.com/tree` | 2 |
+| `github.com/github.com/users/svend4` | 9 |
+| `github.com/github.com/vuguzum/self-aware-mcp-server` | 8 |
+| `github.com/github.com/yjs/yjs` | 5 |
+| `github.com/github.com/zodigancode` | 6 |
 
 ## Email адреса
 

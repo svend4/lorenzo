@@ -47,3 +47,13 @@ category (сначала full, затем partial, затем singular).
 - [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
 - [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.48)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.45)
+- [22-10-queryresult-structure](docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md) (сходство 0.44)
+

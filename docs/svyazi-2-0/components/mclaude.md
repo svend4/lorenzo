@@ -38,3 +38,13 @@
 - [yodoca](docs/svyazi-2-0/components/yodoca.md)
 - [memnet](docs/svyazi-2-0/components/memnet.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [rufler](docs/svyazi-2-0/components/rufler.md) (сходство 0.43)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md) (сходство 0.42)
+- [memnet](docs/svyazi-2-0/components/memnet.md) (сходство 0.38)
+

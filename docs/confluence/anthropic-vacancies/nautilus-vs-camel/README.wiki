@@ -1,0 +1,27 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/nautilus-vs-camel/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. nautilus-vs-camel
+
+_Файлов:_ 6
+
+h2. Содержание
+
+* [00-question-camel-vs-nautilus.md|00-question-camel-vs-nautilus.md] — 
+* [01-passive-vs-active-roles.md|01-passive-vs-active-roles.md] — 
+* [02-what-info-repos-contain.md|02-what-info-repos-contain.md] — > [!TIP]
+* [03-sgb-advocate-colleague-example.md|03-sgb-advocate-colleague-example.md] — 
+* [04-what-to-take-from-info-repos.md|04-what-to-take-from-info-repos.md] — 
+* [05-what-to-do-right-now.md|05-what-to-do-right-now.md] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/anthropic-vacancies/nautilus-pro2-analysis/README.md] (сходство 0.19)
+* [README|docs/nautilus/community-discussions/practical-observations/README.md] (сходство 0.18)
+* [README|docs/lorenzo-agent/scenarios/README.md] (сходство 0.18)
+

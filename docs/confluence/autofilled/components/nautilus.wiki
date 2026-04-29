@@ -74,3 +74,13 @@ h2. Упоминается в
 * [Антропик|.md]
 * [Все таблицы репозитория|../../TABLES.md]
 * [Карта репозитория Lorenzo|../../SITEMAP.md]
+
+
+
+----
+
+_Похожие документы:_
+* [svyazi|docs/autofilled/components/svyazi.md] (сходство 1.00)
+* [svend4|docs/autofilled/components/svend4.md] (сходство 1.00)
+* [sgb|docs/autofilled/components/sgb.md] (сходство 1.00)
+

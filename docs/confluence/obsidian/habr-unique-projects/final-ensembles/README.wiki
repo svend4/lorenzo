@@ -1,0 +1,32 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/final-ensembles/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "final-ensembles"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. final-ensembles
+
+_Файлов:_ 4
+
+h2. Содержание
+
+* [[1-one-person-one-company|1-one-person-one-company.md]] — 
+* [[2-autoresearch-legal|2-autoresearch-legal.md]] — 
+* [[3-discovery-research|3-discovery-research.md]] — 
+* [[4-summary-authors|4-summary-authors.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.27)
+* [[README]] (сходство 0.27)
+* [[README]] (сходство 0.27)
+

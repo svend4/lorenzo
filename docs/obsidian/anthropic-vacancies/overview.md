@@ -1,0 +1,68 @@
+---
+title: "Обзор: 436 открытых ролей Anthropic, разбитых на 16 кластеров"
+tags:
+  - anthropic
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# Обзор: 436 открытых ролей Anthropic, разбитых на 16 кластеров
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Затравка — статья 3dnews.ru/1140248 («≈429 вакансий, вилка $320–405 тыс.»).
+
+---
+<!-- tags: anthropic -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Затравка — статья 3dnews.ru/1140248 («≈429 вакансий, вилка $320–405 тыс.»).
+
+## Поправка к статье
+
+Статья даёт только общие цифры (≈429 вакансий, вилка $320–405 тыс.). На официальной странице вакансий Anthropic — **436 открытых ролей** (цифра плавает ежедневно). Важная поправка к формулировке журналиста: это **все открытые позиции компании**, а не «429 разработчиков» — инженерных из них примерно **40–45%**.
+
+## Распределение по кластерам
+
+| Кластер | Ролей | Файл |
+|---|---|---|
+| AI Research & Engineering | 68 | [[01-ai-research-engineering|`clusters/01-ai-research-engineering.md`]] |
+| Sales | 150 (≈34%) | [[02-sales|`clusters/02-sales.md`]] |
+| Finance | 36 | [[03-finance|`clusters/03-finance.md`]] |
+| Security | 24 | [[04-security|`clusters/04-security.md`]] |
+| Marketing & Brand | 23 | [[05-marketing-brand|`clusters/05-marketing-brand.md`]] |
+| Engineering & Design - Product | 22 | [[06-engineering-design-product|`clusters/06-engineering-design-product.md`]] |
+| Software Engineering - Infrastructure | 22 | [[07-software-engineering-infrastructure|`clusters/07-software-engineering-infrastructure.md`]] |
+| Safeguards (Trust & Safety) | 21 | [[08-safeguards-trust-safety|`clusters/08-safeguards-trust-safety.md`]] |
+| Product Management, Support, & Operations | 17 | [[09-product-management-support-ops|`clusters/09-product-management-support-ops.md`]] |
+| Compute | 13 | [[10-compute|`clusters/10-compute.md`]] |
+| Legal | 13 | [[11-legal|`clusters/11-legal.md`]] |
+| Technical Program Management | 10 | [[12-technical-program-management|`clusters/12-technical-program-management.md`]] |
+| Communications | 5 | [[13-communications|`clusters/13-communications.md`]] |
+| Public Policy | 5 | [[14-public-policy|`clusters/14-public-policy.md`]] |
+| Public Benefit | 4 | [[15-public-benefit|`clusters/15-public-benefit.md`]] |
+| People | 3 | [[16-people|`clusters/16-people.md`]] |
+
+См. также: [[signals|`signals.md`]] — что говорит эта структура о приоритетах Anthropic.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[12-technical-program-management]]
+- [[13-communications]]
+- [[08-safeguards-trust-safety]]
+- [[09-product-management-support-ops]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[README]] (сходство 0.33)
+- [[12-technical-program-management]] (сходство 0.33)
+- [[13-communications]] (сходство 0.32)
+

@@ -1,0 +1,51 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/habr-unique-projects/final-ensembles/3-discovery-research.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Ансамбль 3 — «Discovery-engine для научной работы»
+
+
+{quote}> Источник: MHTML‑снимок {{Поиск уникальных проектов на Хабре для совместной разработки - Claude}} (корень репозитория).{quote}
+_Проекты:_ AutoResearch
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Поиск уникальных проектов на Хабре для совместной разработки - Claude}} (корень репозитория).{quote}
+
+Ансамбль 3: «Discovery-engine для научной работы Max'а»
+
+Пары 5 + 6 + 7:
+
+voice-journal каждый вечер захватывает твои мысли о Nautilus / YiJing / Q6;
+
+transcription → entity extraction → vault wikilinks;
+
+ночной AutoResearch-цикл над репозиторием pro2 пробует малые архитектурные модификации, мерит LCI, сохраняет/откатывает;
+
+утром tmux-деревня готовит саммари: «вчера ночью провёл 47 экспериментов, эти 3 улучшили LCI на 0.05, эти 2 деградировали — посмотри почему».
+
+
+
+----
+
+_Смотрите также:_
+* [1-one-person-one-company|docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md]
+* [2-autoresearch-legal|docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md]
+* [5-voice-local-memory|docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md]
+* [4-speech-to-text-llm|docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [2-autoresearch-legal|docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md] (сходство 0.27)
+* [1-one-person-one-company|docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md] (сходство 0.27)
+* [4-speech-to-text-llm|docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md] (сходство 0.20)
+

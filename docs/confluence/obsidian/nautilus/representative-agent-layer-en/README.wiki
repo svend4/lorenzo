@@ -1,0 +1,41 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/representative-agent-layer-en/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "representative-agent-layer-en"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. representative-agent-layer-en
+
+_Файлов:_ 13
+
+h2. Содержание
+
+* [[00-abstract|00-abstract.md]] — 
+* [[01-cinderella-syndrome|01-cinderella-syndrome.md]] — 
+* [[02-historical-precedents|02-historical-precedents.md]] — 
+* [[03-what-makes-representative-agent|03-what-makes-representative-agent.md]] — 
+* [[04-ten-domains|04-ten-domains.md]] — > [!TIP]
+* [[05-architectural-specification|05-architectural-specification.md]] — 
+* [[06-ethical-framework|06-ethical-framework.md]] — > [!IMPORTANT]
+* [[07-governance-oversight|07-governance-oversight.md]] — 
+* [[08-risks-mitigations|08-risks-mitigations.md]] — 
+* [[09-phased-rollout|09-phased-rollout.md]] — 
+* [[10-open-questions|10-open-questions.md]] — 
+* [[11-call-for-collaboration|11-call-for-collaboration.md]] — 
+* [[12-closing|12-closing.md]] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [[169-table-of-contents]] (сходство 0.41)
+* [[169-table-of-contents]] (сходство 0.39)
+* [[README]] (сходство 0.28)
+

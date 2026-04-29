@@ -128,3 +128,13 @@ to minimum dignity threshold; upward is merit-based.
 - [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
 - [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.87)
+- [159-5-economic-model](docs/obsidian/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.86)
+- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md) (сходство 0.23)
+

@@ -21,3 +21,11 @@ _Создано: 2026-04-29_
 cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.md
 # Затем откройте и заполните поля в [квадратных скобках]
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [research-summary](docs/obsidian/autofilled/research-summary.md)
+

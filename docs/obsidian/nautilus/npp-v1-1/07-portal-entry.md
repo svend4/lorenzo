@@ -1,0 +1,107 @@
+---
+title: "7. PortalEntry Structure"
+tags:
+  - ingestion
+  - architecture
+  - anthropic
+  - collaboration
+  - nautilus
+date: 2026-04-29
+---
+
+# 7. PortalEntry Structure
+
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+## 7. PortalEntry Structure
+
+Унифицированная структура данных, возвращаемая адаптерами.
+
+```python
+from dataclasses import dataclass, field
+from typing import Any
+
+@dataclass
+class PortalEntry:
+id: str # REQUIRED: "format:slug"
+title: str # REQUIRED: human-readable
+source: str # REQUIRED: owner/repo-name
+format_type: str # REQUIRED: concept type
+content: str # REQUIRED: full text
+metadata: dict[str, Any] = field(default_factory=dict)
+links: list[str] = field(default_factory=list)
+is_fallback: bool = False
+```
+
+### 7.1. Field Semantics
+
+- `id` MUST быть уникален в пределах экосистемы. Формат: 
+`"<format>:<slug>"` (например, `"info1:alpha-3-doc-1"`)
+- `title` SHOULD быть до 120 символов
+- `source` — GitHub slug `owner/repo-name`
+- `format_type` — one of: `document`, `concept`, `rule`, `theory`, 
+`schema`, `archetype`. Implementation MAY расширять список
+- `content` — полный текст/представление, MAY быть большим
+- `metadata` — MUST содержать `q6` для Level 2+ адаптеров
+- `links` — список id из других Repos, формат `"<format>:<type>:<id>"` 
+или `"<format>:<id>"` (например, `"pro2:q6:010011"`, 
+`"meta:hexagram:50"`)
+- `is_fallback` — Boolean, MUST быть `True` для fallback-entries, 
+`False` (default) для real fetch results
+
+### 7.2. Q6 Metadata
+
+Для адаптеров Level 2+, каждый PortalEntry MUST содержать 
+`metadata["q6"]` — 6-битную строку длиной 6, только символы `"0"` 
+и `"1"`.
+
+Пример:
+```python
+PortalEntry(
+id="info1:synthesis",
+title="Синтез",
+source="svend4/info1",
+format_type="concept",
+content="...",
+metadata={"q6": "010100", "alpha": 0},
+links=["pro2:q6:010100", "meta:hexagram:20"],
+is_fallback=False
+)
+```
+
+---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[82-7-portalentry-structure]]
+- [[19-7-portalentry-structure]]
+- [[06-adapter-interface]]
+- [[17-versioning-policy]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[82-7-portalentry-structure]] (сходство 0.75)
+- [[82-7-portalentry-structure]] (сходство 0.68)
+- [[07-portal-entry]] (сходство 0.38)
+

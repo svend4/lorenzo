@@ -107,3 +107,13 @@ Cascade означает: первая модель делает простую 
 - [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
 - [01-shell-metaphor-two-projections](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-nautilus-B-meta-orchestrator](docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md) (сходство 0.12)
+- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md) (сходство 0.11)
+- [01-shell-metaphor-two-projections](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) (сходство 0.11)
+

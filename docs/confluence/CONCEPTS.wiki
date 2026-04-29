@@ -12,7 +12,7 @@ h1. Глоссарий понятий
 
 _Определения извлечены автоматически из документов._
 
-_Извлечено понятий:_ 1038  (из 2063 совпадений)
+_Извлечено понятий:_ 1043  (из 3069 совпадений)
 
 
 h2. A
@@ -20,6 +20,10 @@ h2. A
 _a coherent composite agent This_
 : _Composite Skills Agent_ pattern  
   _→ [254-1-why-the-binary-view-is-incomplete|docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md]_
+
+_A nautilus shell_
+: _spiral of nested chambers_, each larger  
+  _→ [68-about|docs/obsidian/02-anthropic-vacancies/68-about.md]_
 
 _A2A protocol_
 : [A2A vs MCP, ансамбль H](  
@@ -95,7 +99,7 @@ _Agent‑Bridge_
 
 _Agent‑first knowledge retrieval_
 : knowledge-space снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами  
-  _→ [A-collaboration-os|docs/svyazi-2-0/ensembles/A-collaboration-os.md]_
+  _→ [04-ensembles-overview|docs/obsidian/01-svyazi/04-ensembles-overview.md]_
 
 _AI safety harms_
 : narrower perspective pool in AI  
@@ -104,10 +108,6 @@ _AI safety harms_
 _al) к Professional Colleagues (practical)_
 : natural progression сложности и concreteness  
   _→ [228-appendix-c-quick-start-architecture-for-sgb-advoca|docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]_
-
-_Aligned incentive structure_
-: agent succeeds when client succeeds (commission) 3  
-  _→ [DUPLICATES|docs/DUPLICATES.md]_
 
 _Aligned values_
 : Serves vulnerable populations; mission-fit  
@@ -438,6 +438,10 @@ _Configuration management_
 _Consensus_
 : результат сопоставления найденных концептов между  
   _→ [07-2-terminology|docs/02-anthropic-vacancies/07-2-terminology.md]_
+
+_Contact for discussion_
+: [author's GitHub issues, email  
+  _→ [164-10-appendices|docs/obsidian/02-anthropic-vacancies/164-10-appendices.md]_
 
 _Contribution bonuses_
 : measurable high-impact work  
@@ -855,9 +859,17 @@ _Get in touch_
 : via [Issues](https://github  
   _→ [68-about|docs/02-anthropic-vacancies/68-about.md]_
 
+_GitHub archive flag_
+: одна кнопка, репо остаётся читаемым но помечается «не активен»  
+  _→ [00-intro|docs/obsidian/02-anthropic-vacancies/00-intro.md]_
+
 _GitHub fork_
 : именно «private instance of public pattern»  
   _→ [01-strategic-significance|docs/nautilus/multi-tier-architecture/01-strategic-significance.md]_
+
+_GitHub-аккаунт svend4_
+: сейчас центральная точка организации ваших 70 проектов и вашей будущей founder-истории  
+  _→ [01-интегральный-анализ-профиля-svend4|docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
 
 _GitHubTopicAdapter_
 : discovery по [GitHub](  
@@ -960,6 +972,10 @@ _Identification_
 _ied AI EMEA понижаю с primary на tertiary_
 : fallback, если остальное не сработает, не флагман  
   _→ [00-intro|docs/02-anthropic-vacancies/00-intro.md]_
+
+_ilus» как имя папки для внешнего читателя_
+: метафора без контекста, и она сбивает с толку на фоне отдельного nautilus репо  
+  _→ [01-интегральный-анализ-профиля-svend4|docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
 
 _Impact_
 : High (foundational failure)  
@@ -1097,6 +1113,10 @@ _Large Language Models_
 _Layer 1 — Ingestion_
 : Svyazi-style hybrid extraction (Чуян pattern)  
   _→ [366-технический-stack-svyazi-2-0-foundation|docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
+
+_Layer 2 — Knowledge_
+: knowledge-space (Анастасия, MIT)  
+  _→ [366-технический-stack-svyazi-2-0-foundation|docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
 
 _Layer 3 — Kernel_
 : AgentFS-style file architecture (kksudo pattern, MIT)  
@@ -2210,6 +2230,10 @@ _Three-phase review_
 : Methodology for parallel AI-agent  
   _→ [148-appendix-a-glossary|docs/02-anthropic-vacancies/148-appendix-a-glossary.md]_
 
+_tHub уже автоматически отозвал этот токен_
+: занимает обычно от нескольких минут до нескольких часов после обнаружения  
+  _→ [01-интегральный-анализ-профиля-svend4|docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
 _ti-device vault (3) + Obsidian-as-MCP (2)_
 : уже не три проекта, а единая архитектура захвата-консолидации-доступа, где каждый слой делает то, что умеет лучше всего, и не лезет в чужую зону  
   _→ [00-intro|docs/04-ai-collaborations/00-intro.md]_
@@ -2354,10 +2378,6 @@ _What it is_
 _What it provides_
 : - Federated knowledge storage across heterogeneous formats  
   _→ [158-4-proposed-infrastructure|docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
-
-_What matches_
-: architecture where: - Many narrow-specialist sub-agents exist, each built once - Sub-agents are shared across all practitioners who need that specialization - Each principal conf…  
-  _→ [DUPLICATES|docs/DUPLICATES.md]_
 
 _What we ask_
 : - Core partnership funding commitment (€1-3M over 3 years)  
@@ -2673,6 +2693,10 @@ _вопрос — 24/7 Präsenz Assistenz Kraft»)_
 _Время_
 : 30 минут настройки, далее полностью автоматически  
   _→ [87-12-onboarding-paths-normative|docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md]_
+
+_Встроенный профессиональный контекст_
+: Да (ФГОС, методологии) 2  
+  _→ [DUPLICATES|docs/DUPLICATES.md]_
 
 _Вторичные_
 : Защитники прав инвалидов в НКО  
@@ -3383,14 +3407,6 @@ _о он не имел доступа к soz_ репо с делами*
 : главное, что могло бы быть по-настоящему плохо  
   _→ [01-интегральный-анализ-профиля-svend4|docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
 
-_Оба неверны_
-: нужно переформулировать  
-  _→ [contradiction-record|docs/templates/contradiction-record.md]_
-
-_Оба правы в разных контекстах_
-: нужно разделить области применимости  
-  _→ [contradiction-record|docs/templates/contradiction-record.md]_
-
 _Обнаружение_
 : Агент мониторит open-source проекты ячеистых сетей, гражданские технологические инициативы на её языке, исследовательские сотрудничества  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал|docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
@@ -3537,6 +3553,10 @@ _поддерживает и текучесть, и структуру_
 _Поддержка составления_
 : Когда ему нужно подать Widerspruch, агент составляет формальный документ для его проверки и подписи  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал|docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Подпапка {{nautilus/}}_
+: historical embedded-версия Portal  
+  _→ [48-content-overview|docs/obsidian/02-anthropic-vacancies/48-content-overview.md]_
 
 _Позиция A_
 : 88% fallback критично, требует срочных живых  
@@ -3716,10 +3736,6 @@ _Регионы карты_
 _Результат_
 : Мария вкладывает 8 часов/неделю как советник  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал|docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
-
-_Результаты_
-: черновики, требующие проверки и принятия практикующим, не окончательные продукты  
-  _→ [DUPLICATES|docs/DUPLICATES.md]_
 
 _Рекомендация_
 : _Сделайте это сейчас_  
@@ -3903,6 +3919,10 @@ _специализаций)_
 _Специализация_
 : Глубокая, единственная  
   _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц|docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md]_
+
+_Специализация на единственной профессии_
+: Да (только учителя) 3  
+  _→ [DUPLICATES|docs/DUPLICATES.md]_
 
 _Специализация по области_
 : разные рынки нуждаются в разной агентской экспертизе  
@@ -4330,15 +4350,4 @@ _явного state machine_
 _Ясный спрос_
 : Автор лично нуждается в этом  
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат|docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
-
-
-
-
-----
-
-_Смотрите также:_
-* [TABLES|docs/TABLES.md]
-* [ACTION_ITEMS|docs/ACTION_ITEMS.md]
-* [01-интегральный-анализ-профиля-svend4|docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]
-* [342-что-такое-вариант-c-concept-document-для-anthropic|docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]
 

@@ -18,7 +18,7 @@ _Сгенерировано автоматически: 2026-04-29_
 
 **Svyazi 2.0 — Knowledge Base Report** — аналитический обзор базы знаний, сгенерированный автоматически 2026-04-29.
 
-База содержит **1195 документов** объёмом **1,009,546 слов** в **20 секциях**. Здоровье репозитория: **77/100/100**, средний балл документов: **71.2/100/100**, словарное богатство (STTR): **0.675**.
+База содержит **1171 документов** объёмом **1,073,843 слов** в **20 секциях**. Здоровье репозитория: **77/100/100**, средний балл документов: **73.0/100/100**, словарное богатство (STTR): **0.637**.
 
 Цель базы знаний — поддержка разработки **Svyazi 2.0**, community intelligence platform, объединяющей лучшие OSS-проекты с Хабра в единую архитектуру Knowledge OS.
 
@@ -28,35 +28,35 @@ _Сгенерировано автоматически: 2026-04-29_
 
 | Метрика | Значение |
 |---------|----------|
-| Документов | **1195** |
-| Слов | **1,009,546** |
+| Документов | **1171** |
+| Слов | **1,073,843** |
 | Секций | **20** |
 | Здоровье репо | **77/100/100** |
-| Средний балл | **71.2/100/100** |
-| Словарное богатство (STTR) | **0.675** |
+| Средний балл | **73.0/100/100** |
+| Словарное богатство (STTR) | **0.637** |
 
 ### По секциям
 
 | Секция | Файлов | Слов |
 |--------|--------|------|
-| **obsidian** | 1190 | 974,229 |
-| **Anthropic Vacancies** | 357 | 311,655 |
-| **nautilus** | 255 | 148,523 |
-| **anthropic-vacancies** | 111 | 30,960 |
-| **AI Collaborations** | 17 | 26,057 |
-| **lorenzo-agent** | 62 | 19,979 |
-| **habr-unique-projects** | 56 | 13,161 |
-| **technology-combinations** | 53 | 12,903 |
-| **svyazi-2-0** | 59 | 12,455 |
-| **Svyazi 2.0** | 16 | 11,256 |
-| **Habr Projects** | 10 | 9,333 |
-| **ai-collaborations** | 30 | 8,207 |
-| **Templates** | 24 | 4,973 |
-| **Contacts** | 15 | 3,492 |
-| **Tech Combinations** | 7 | 3,084 |
-| **glossary** | 4 | 2,282 |
-| **autofilled** | 13 | 1,710 |
-| **badges** | 1 | 59 |
+| **obsidian** | 1166 | 1,049,176 |
+| **Anthropic Vacancies** | 357 | 312,388 |
+| **nautilus** | 255 | 153,298 |
+| **anthropic-vacancies** | 111 | 32,927 |
+| **AI Collaborations** | 17 | 26,299 |
+| **lorenzo-agent** | 62 | 21,077 |
+| **habr-unique-projects** | 56 | 14,157 |
+| **technology-combinations** | 53 | 13,849 |
+| **svyazi-2-0** | 59 | 13,565 |
+| **Svyazi 2.0** | 16 | 11,501 |
+| **Habr Projects** | 10 | 9,164 |
+| **ai-collaborations** | 30 | 8,743 |
+| **Contacts** | 15 | 3,163 |
+| **Tech Combinations** | 7 | 3,093 |
+| **glossary** | 4 | 2,354 |
+| **autofilled** | 13 | 1,944 |
+| **Templates** | 6 | 633 |
+| **badges** | 1 | 44 |
 
 ## Ключевые проекты
 
@@ -64,27 +64,27 @@ _Авторы и проекты из CONTACTS.md:_
 
 | Автор | Проект | Слой | Приоритет |
 |-------|--------|------|-----------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 50 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 33 | — |
-| **Cutcode** | AIF Handoff | orchestration | 36 | — |
-| **Dmitriila** | SENTINEL | security | 34 | — |
-| **MiXaiLL76** | Auto AI Router | security | 30 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 19 | — |
-| **VitalyOborin** | Yodoca | memory | 39 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 43 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 85 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 53 | — |
+| **Cutcode** | AIF Handoff | orchestration | 74 | — |
+| **Dmitriila** | SENTINEL | security | 68 | — |
+| **MiXaiLL76** | Auto AI Router | security | 64 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 33 | — |
+| **VitalyOborin** | Yodoca | memory | 70 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 77 | — |
 
 ## Ключевые сущности
 
-- 👤 **anthropic** (people) — упомянут в 743 файлах
-- 📦 **nautilus** (projects) — упомянут в 467 файлах
-- 👤 **claude** (people) — упомянут в 400 файлах
-- ⚙️ **mcp** (tech) — упомянут в 300 файлах
-- 📦 **svyazi** (projects) — упомянут в 296 файлах
-- 🏢 **вк** (orgs) — упомянут в 265 файлах
-- 📦 **github** (projects) — упомянут в 238 файлах
-- 🏢 **meta** (orgs) — упомянут в 199 файлах
-- 👤 **svend4** (people) — упомянут в 195 файлах
-- ⚙️ **llm** (tech) — упомянут в 192 файлах
+- 👤 **anthropic** (people) — упомянут в 802 файлах
+- 📦 **nautilus** (projects) — упомянут в 532 файлах
+- 📦 **obsidian** (projects) — упомянут в 432 файлах
+- 👤 **claude** (people) — упомянут в 417 файлах
+- 📦 **svyazi** (projects) — упомянут в 318 файлах
+- ⚙️ **mcp** (tech) — упомянут в 314 файлах
+- 🏢 **вк** (orgs) — упомянут в 273 файлах
+- 📦 **github** (projects) — упомянут в 239 файлах
+- 👤 **svend4** (people) — упомянут в 206 файлах
+- 🏢 **meta** (orgs) — упомянут в 200 файлах
 
 ## Архитектурные решения
 
@@ -103,7 +103,7 @@ _Из DECISIONS.md:_
 
 _Из QUESTIONS.md — вопросы, требующие решения:_
 
-- - - - - - - - - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/
+- - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.
 - - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A](docs/QA.md)]
 - - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A](docs/QA.md)]
 - - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A](docs/QA.md)]

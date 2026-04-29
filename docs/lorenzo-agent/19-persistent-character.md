@@ -33,3 +33,13 @@
 - [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
 - [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [363-твоя-identity-как-persistent-character](docs/obsidian/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) (сходство 0.69)
+- [363-твоя-identity-как-persistent-character](docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) (сходство 0.64)
+- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md) (сходство 0.28)
+

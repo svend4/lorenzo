@@ -23,3 +23,13 @@
 - [voice-stack.md](voice-stack.md) — <!-- summary -->
 - [yjs-automerge.md](yjs-automerge.md) — <!-- summary -->
 - [yodoca.md](yodoca.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GLOSSARY](docs/GLOSSARY.md) (сходство 0.39)
+- [GLOSSARY](docs/obsidian/GLOSSARY.md) (сходство 0.34)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.29)
+

@@ -16,3 +16,13 @@ date: 2026-04-29
 ## Подразделы
 
 - [components/](components/) — components
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[README]] (сходство 1.00)
+- [[README]] (сходство 0.36)
+- [[README]] (сходство 0.33)
+

@@ -1,0 +1,32 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/lorenzo-agent/naming/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "naming"
+tags:
+  * lorenzo-agent
+date: 2026-04-29
+----
+
+h1. naming
+
+_Файлов:_ 4
+
+h2. Содержание
+
+* [[00-question-lorenzo-codename|00-question-lorenzo-codename.md]] — 
+* [[01-search-results-not-found|01-search-results-not-found.md]] — 
+* [[02-naming-rationale-lorenzo-medici|02-naming-rationale-lorenzo-medici.md]] — > [!TIP]
+* [[03-dhlab-umbrella|03-dhlab-umbrella.md]] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.24)
+* [[README]] (сходство 0.24)
+* [[README]] (сходство 0.22)
+

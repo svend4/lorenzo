@@ -5,6 +5,11 @@
 
 h1. Главные технические риски
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
 
 {quote}Два независимых анализа выделили разные приоритеты:{quote}
 
@@ -36,4 +41,14 @@ readiness.
 
 **Смотрите также:**
 - [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.50)
+- [120-главные-технические-риски](docs/obsidian/02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.46)
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.13)
 

@@ -1,0 +1,32 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/okwf-concept/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. okwf-concept
+
+_Файлов:_ 11
+
+h2. Содержание
+
+* [00-abstract.md|00-abstract.md] — 
+* [01-problem-statement.md|01-problem-statement.md] — 
+* [02-target-populations.md|02-target-populations.md] — 
+* [03-why-existing-fail.md|03-why-existing-fail.md] — 
+* [04-proposed-infrastructure.md|04-proposed-infrastructure.md] — > [!TIP]
+* [05-economic-model.md|05-economic-model.md] — > [!TIP]
+* [06-governance-ethics.md|06-governance-ethics.md] — 
+* [07-phased-rollout.md|07-phased-rollout.md] — 
+* [08-risk-analysis.md|08-risk-analysis.md] — > [!TIP]
+* [09-call-for-partnership.md|09-call-for-partnership.md] — 
+* [10-appendices.md|10-appendices.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [154-table-of-contents|docs/obsidian/02-anthropic-vacancies/154-table-of-contents.md] (сходство 0.36)
+* [154-table-of-contents|docs/02-anthropic-vacancies/154-table-of-contents.md] (сходство 0.31)
+* [README|docs/nautilus/representative-agent-layer-en/README.md] (сходство 0.17)
+

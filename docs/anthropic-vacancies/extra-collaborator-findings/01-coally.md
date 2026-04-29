@@ -56,3 +56,13 @@ Personalized PageRank по графу знаний (HippoRAG, Stanford/OSU)
 - [02-vitaly-graph-cognitive-memory](docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md)
 - [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-tldr](docs/nautilus/review-methodology/00-tldr.md) (сходство 0.20)
+- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.19)
+- [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md) (сходство 0.19)
+

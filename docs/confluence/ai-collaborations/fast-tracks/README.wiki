@@ -1,0 +1,54 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/ai-collaborations/fast-tracks/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Пять быстрых связок (fast-tracks)
+
+{quote}Источник: MHTML‑снимок {{Поиск коллабораций AI проектов}} (корень репозитория).{quote}
+
+1. Svyazi + AgentFS + knowledge-space + Memory OS = Collaboration Knowledge OS.
+
+Это самый прямой наследник исходной статьи. Svyazi даёт людей/профили/поиск коллабораций, AgentFS даёт операционку для агентов, knowledge-space — карточную переработку ресёрча, Memory OS — provenance и многослойную память. Это может стать системой, где не случайно находятся два человека, а постоянно рождаются проектные пары, тройки и команды.
+
+2. LiteParse/research-docs + Hybrid RAG + Legal RAG Challenge + Graph RAG = Forensic Legal RAG.
+
+Это уже почти готовый путь к серьёзной юридической/документной системе: визуальные цитаты, page grounding, answer-type scoring, graph reasoning, подсветка источника. Для документов, судов, регуляторики и научных статей это намного сильнее обычного RAG.
+
+3. Rufler + agent-pool + locks/handoffs + Skate + AI Factory = Agent Team Kernel.
+
+Это превращает хаотичные Claude/Cursor-сессии в управляемую команду: план, зависимости, статусы, handoffs, память, эволюция скиллов, Telegram/PR-выход.
+
+4. SENTINEL/Shield + Prompt Worms lessons + Claude permissions + MCP Tool Search = Secure Agent Runtime.
+
+Без этого все красивые агентные системы опасны. С этим появляется шанс допустить агентов к документам, GitHub, почте, браузеру, календарю, базам и локальным файлам.
+
+5. Firecrawl/Playwright + Svyazi extraction + knowledge-space = Habr Scout / Project Scout.
+
+Это как раз продолжение твоего текущего поиска: агент сам регулярно обходит Хабр, вытаскивает одиночные проекты, авторов, технологии, открытые вопросы и предлагает новые «родительские пары» для будущих проектов.
+
+Самая интересная «внуковая» комбинация из всего найденного:
+
+Habr Scout → Svyazi-like карточки авторов/проектов → Collaboration Knowledge OS → Agent Team Kernel → Forensic RAG → Secure Agent Runtime
+
+То есть система, которая сама ищет на Хабре одиночные проекты, превращает их в карточки, находит связки 2–5 проектов, предлагает новые уникальные комбинации, проверяет источники, создаёт backlog и запускает агентную команду на прототип. Это уже не просто подбор статей — это машина технологической селекции и сборки проектов.
+
+Источники
+
+Вы сказали:
+
+Продолжение 
+
+ChatGPT сказал:
+
+Вы сказали:
+
+
+
+----
+
+_Похожие документы:_
+* [00-overview-grandchild-combination|docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md] (сходство 0.19)
+* [3-forensic-rag|docs/ai-collaborations/ensembles/3-forensic-rag.md] (сходство 0.12)
+* [1-agentic-knowledge-os|docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md] (сходство 0.12)
+

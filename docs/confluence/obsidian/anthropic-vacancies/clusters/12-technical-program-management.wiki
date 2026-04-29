@@ -1,0 +1,47 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/clusters/12-technical-program-management.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Technical Program Management — 10 ролей"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Technical Program Management — 10 ролей
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+TPM по Alignment, Compute, Inference Performance, Infrastructure, Platform, Safeguards (Infrastructure & Evals), Security, Consumer Engineering, Marketing Tech. Классический coordinator-слой между ML research и shipping.
+
+
+
+----
+
+_Смотрите также:_
+* [[13-communications]]
+* [[09-product-management-support-ops]]
+* [[16-people]]
+* [[01-ai-research-engineering]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[13-communications]] (сходство 0.47)
+* [[09-product-management-support-ops]] (сходство 0.44)
+* [[11-legal]] (сходство 0.43)
+

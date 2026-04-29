@@ -38,3 +38,13 @@ date: 2026-04-29
 
 ---
 _Создано: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[research-summary]]
+- [[contact-outreach]]
+- [[project-component]]
+

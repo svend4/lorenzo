@@ -1,0 +1,26 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 02-reanalysis
+
+_Файлов:_ 5
+
+h2. Содержание
+
+* [01-fde-downgraded.md|01-fde-downgraded.md] — 
+* [02-three-overlapping-identities.md|02-three-overlapping-identities.md] — 
+* [03-revised-anthropic-mapping.md|03-revised-anthropic-mapping.md] — 
+* [04-non-anthropic-paths.md|04-non-anthropic-paths.md] — > [!TIP]
+* [05-reality-check-distribution-gap.md|05-reality-check-distribution-gap.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md] (сходство 0.24)
+* [README|docs/nautilus/community-discussions/agent-changes-reality/README.md] (сходство 0.21)
+* [README|docs/habr-unique-projects/analogues/README.md] (сходство 0.21)
+

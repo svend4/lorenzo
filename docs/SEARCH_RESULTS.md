@@ -32,3 +32,13 @@ _Обновлено: 2026-04-29_
 - [privacy](docs/svyazi-2-0/security/privacy.md)
 - [DEPENDABOT](docs/DEPENDABOT.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [privacy](docs/svyazi-2-0/security/privacy.md) (сходство 0.15)
+- [GRAPH](docs/GRAPH.md) (сходство 0.15)
+- [NETWORK](docs/NETWORK.md) (сходство 0.14)
+

@@ -23,3 +23,13 @@
 - [16-appendix-a-minimal-working-example.md](16-appendix-a-minimal-working-example.md) — <!-- summary -->
 - [17-appendix-b-change-log.md](17-appendix-b-change-log.md) — <!-- summary -->
 - [18-comment-on-document.md](18-comment-on-document.md) — > [!IMPORTANT]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/npp-v1-1/README.md) (сходство 0.60)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) (сходство 0.17)
+- [22-10-queryresult-structure](docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md) (сходство 0.16)
+

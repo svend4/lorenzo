@@ -34,3 +34,13 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 - [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
 - [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.19)
+- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.17)
+- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md) (сходство 0.16)
+

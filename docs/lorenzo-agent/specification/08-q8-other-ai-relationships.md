@@ -63,3 +63,13 @@ Acknowledges dependencies
 - [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md)
 - [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md) (сходство 0.28)
+- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md) (сходство 0.28)
+- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.26)
+

@@ -41,3 +41,13 @@
 - [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
 - [08-commercialization-three-paths](docs/ai-collaborations/continuation/08-commercialization-three-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md) (сходство 0.26)
+- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md) (сходство 0.17)
+- [09-do-not-glue](docs/ai-collaborations/continuation/09-do-not-glue.md) (сходство 0.15)
+

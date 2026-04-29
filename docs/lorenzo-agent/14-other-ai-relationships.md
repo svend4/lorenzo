@@ -40,3 +40,13 @@
 - [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [358-твоя-relationship-с-другими-ai](docs/obsidian/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md) (сходство 0.60)
+- [358-твоя-relationship-с-другими-ai](docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md) (сходство 0.60)
+- [00-intro](docs/lorenzo-agent/00-intro.md) (сходство 0.28)
+

@@ -1,0 +1,31 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/limitations/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "limitations"
+tags:
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. limitations
+
+_Файлов:_ 3
+
+h2. Содержание
+
+* [[conclusions|conclusions.md]] — 
+* [[do-not-glue|do-not-glue.md]] — > [!WARNING]
+* [[license-tree|license-tree.md]] — > [!WARNING]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.31)
+* [[README]] (сходство 0.27)
+* [[README]] (сходство 0.27)
+

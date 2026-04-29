@@ -1,0 +1,66 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/components/rufler.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Rufler"
+tags:
+  * orchestration
+  * ingestion
+  * architecture
+  * collaboration
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. Rufler
+
+
+{quote}- _Автор:_ zodigancode / lib4u{quote}
+_Проекты:_ Svyazi, Rufler
+
+----
+
+
+
+
+
+* _Автор:_ zodigancode / lib4u
+* _Источник:_ Хабр + repo/DEV citeturn20view4turn21view8turn32search0
+* _Лицензия:_ _MIT_. citeturn32search0
+* _Maturity:_ активный OSS. citeturn32search0
+* _Релевантность к Svyazi‑2.0:_ средне‑высокая — быстрый orchestration‑слой без тяжёлого UI.
+
+h2. Описание
+
+Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов.
+
+h2. Ключевые компоненты и паттерны
+
+* {{depends_on}}
+* Auto‑objective prompts
+* Pause / resume
+* Token accounting
+* MCP server management
+
+
+
+----
+
+_Смотрите также:_
+* [[mclaude]]
+* [[memnet]]
+* [[ai-factory]]
+* [[knowledge-space]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[mclaude]] (сходство 0.43)
+* [[memnet]] (сходство 0.39)
+* [[knowledge-space]] (сходство 0.38)
+

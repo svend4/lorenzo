@@ -162,3 +162,13 @@ Cowork в настоящее время дорог в использовании
 - [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
 - [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [335-9-риски-и-открытые-вопросы](docs/obsidian/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md) (сходство 0.88)
+- [335-9-риски-и-открытые-вопросы](docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md) (сходство 0.87)
+- [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md) (сходство 0.14)
+

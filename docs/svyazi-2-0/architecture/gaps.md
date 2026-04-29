@@ -63,3 +63,13 @@
 - [QA](docs/QA.md)
 - [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md) (сходство 0.79)
+- [09-architectural-gaps](docs/obsidian/01-svyazi/09-architectural-gaps.md) (сходство 0.78)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.76)
+

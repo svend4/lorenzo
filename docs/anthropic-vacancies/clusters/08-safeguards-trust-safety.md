@@ -23,3 +23,13 @@ Trust & Safety в ML-смысле: Biological Safety Research Scientist, Policy 
 - [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
 - [16-people](docs/anthropic-vacancies/clusters/16-people.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.41)
+- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md) (сходство 0.38)
+- [16-people](docs/anthropic-vacancies/clusters/16-people.md) (сходство 0.38)
+

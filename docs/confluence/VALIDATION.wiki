@@ -5,36 +5,85 @@
 
 h1. Валидация шаблонов
 
-_Обновлено: 2026-04-29_
+_Ошибок:_ 0  _Предупреждений:_ 22  _Пройдено:_ 27
 
 _Загружено схем:_ 22
 
-_Документов с frontmatter:_ 14
+|| Проверка || Статус || Проблем ||
+|| Разделы и README || ✅ || 0 ||
+|| Мета-файлы || ✅ || 0 ||
+|| Пустые/короткие файлы || ⚠️ || 2 ||
+|| Именование файлов || ✅ || 10 ||
+|| Заголовки H1 || ⚠️ || 20 ||
+|| Внутренние ссылки || ✅ || 15 ||
 
-_Валидно:_ 14 | _С ошибками:_ 0 | _Без шаблона:_ 2323
+h2. ✅ Разделы и README
 
+_Всё в порядке_
 
-h2. Шаблоны
+h2. ✅ Мета-файлы
 
-* _agent-spec_ — Спецификация AI-агента: тип, принципал, скилы, tools, память, decision boundary
-* _contact-outreach_ — Контактный файл автора OSS-проекта: профиль, статус связи, первое сообщение
-* _contradiction-record_ — Запись о противоречии между двумя источниками
-* _decision-record_ — Architecture Decision Record (ADR): контекст → варианты → решение → последствия
-* _ensemble_ — Описание ансамбля компонентов: задача, состав, контракт, риски, MVP
-* _experiment-log_ — Журнал эксперимента: гипотеза, метод, журнал, результат, выводы
-* _faq-entry_ — FAQ-запись: вопрос, краткий и подробный ответ
-* _glossary-entry_ — Глоссарная статья: определение, происхождение, синонимы, примеры
-* _kpi-snapshot_ — Снапшот KPI с деталями метрик и трендом
-* _legal-case_ — Юридический кейс: Aktenzeichen, стороны, хронология, нормы, прецеденты
-* _meeting-notes_ — Протокол встречи: повестка, обсуждение, решения, action items
-* _mega-stack_ — Полный технологический стек для класса задач со всеми слоями
-* _project-component_ — Карточка компонента: что это, особенности, статус, интеграция с экосистемой
-* _protocol-spec_ — Спецификация протокола в стиле IETF / Nautilus NPP
-* _prototype-mvp_ — План MVP с фазами, метриками успеха, рисками
-* _research-note_ — Свободная заметка-исследование: контекст, находки, источники, открытые вопросы
-* _retrospective_ — Ретроспектива: что хорошо, что плохо, action items
-* _rfc_ — Request for Comments — формальная спецификация в стиле IETF/Nautilus NPP
-* _risk-entry_ — Запись риска: вероятность, влияние, митигация
-* _tech-pair_ — Пара технологий с описанием синергии
-* _tech-radar-entry_ — Запись Tech Radar: квадрант, кольцо, обоснование
-* _weekly-digest_ — Еженедельный дайджест: TL;DR, что сделано, метрики, решения, план
+_Всё в порядке_
+
+h2. Пустые/короткие файлы
+
+* ⚠️ Слишком короткий файл: {{docs/ai-collaborations/channels/README.md}} (25 слов)
+* ⚠️ Слишком короткий файл: {{docs/obsidian/05-habr-projects/knowledge/README.md}} (29 слов)
+
+h2. Именование файлов
+
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}}
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md}}
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md}}
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md}}
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md}}
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md}}
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md}}
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md}}
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md}}
+* ℹ️ Длинное кириллическое имя: {{docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md}}
+
+h2. Заголовки H1
+
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/03-component-catalog.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/04-ensembles-overview.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/06-security-privacy.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/07-mvp-planning.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/08-conclusions.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/09-architectural-gaps.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/10-second-order-ensembles.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/11-integration-contracts.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/12-roadmap.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/13-contacts.md}}
+* ⚠️ Нет заголовка H1: {{docs/01-svyazi/14-limitations.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/03-component-catalog.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/04-ensembles-overview.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/06-security-privacy.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/07-mvp-planning.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/08-conclusions.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/09-architectural-gaps.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/10-second-order-ensembles.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/11-integration-contracts.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/12-roadmap.md}}
+
+h2. Внутренние ссылки
+
+* 🔗 Сломана ссылка в {{docs/01-svyazi/00-intro-part2.md}}: {{docs/obsidian/01-svyazi/00-intro-part2.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/00-intro-part2.md}}: {{docs/obsidian/01-svyazi/00-intro-part2.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/04-ai-collaborations/01-executive-summary.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/04-ai-collaborations/07-выводы.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{../docs/01-svyazi/01-executive-summary.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/README.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/01-executive-summary.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/DUPLICATES.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/03-component-catalog.md}}: {{docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/03-component-catalog.md}}: {{docs/TABLES.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/03-component-catalog.md}}: {{docs/04-ai-collaborations/04-приоритетные-ансамбли.md}}
+
+h2. Итог
+
+⚠️ _22 предупреждений_ — рекомендуется исправить.

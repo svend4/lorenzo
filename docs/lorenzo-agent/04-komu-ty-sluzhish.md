@@ -38,3 +38,13 @@
 - [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [348-кому-ты-служишь-слоистая-модель](docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md) (сходство 0.37)
+- [348-кому-ты-служишь-слоистая-модель](docs/obsidian/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md) (сходство 0.31)
+- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md) (сходство 0.27)
+

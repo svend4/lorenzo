@@ -9,3 +9,13 @@
 ## Подразделы
 
 - [components/](components/) — components
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/obsidian/autofilled/README.md) (сходство 1.00)
+- [README](docs/glossary/README.md) (сходство 0.36)
+- [README](docs/technology-combinations/research-reports/README.md) (сходство 0.33)
+

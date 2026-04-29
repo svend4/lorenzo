@@ -33,3 +33,13 @@ Claude hat geantwortet: Отличная идея — Лоренцо как ко
 - [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md)
 - [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.23)
+- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.23)
+- [00-question-practical](docs/nautilus/community-discussions/practical-observations/00-question-practical.md) (сходство 0.23)
+

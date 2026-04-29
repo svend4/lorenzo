@@ -1,0 +1,55 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/ai-factory.md}}
+Дата: 2026-04-29
+{info}
+
+h1. AI Factory + AIF Handoff
+
+
+{quote}- _Источник:_ Хабр + GitHub citeturn20view3turn29search0turn29search9{quote}
+_Проекты:_ Svyazi, AI Factory
+
+----
+
+
+
+
+
+* _Автор:_ lee-to / Cutcode
+* _Источник:_ Хабр + GitHub citeturn20view3turn29search0turn29search9
+* _Лицензия:_ _MIT_. citeturn29search0turn29search9
+* _Maturity:_ активный OSS, релизы v2.x; handoff добавлен в свежих релизах. citeturn29search4
+* _Релевантность к Svyazi‑2.0:_ высокая — готовый оркестратор для build‑ и moderation‑контуров.
+
+h2. Описание
+
+Spec‑driven многоагентный development‑framework и автономный Kanban‑слой поверх него.
+
+h2. Ключевые компоненты и паттерны
+
+* Skills, patches, self‑learning
+* Worktrees
+* MCP handoff
+* Plan / implement / review
+* WebSocket Kanban
+
+
+
+----
+
+_Смотрите также:_
+* [rufler|docs/svyazi-2-0/components/rufler.md]
+* [yodoca|docs/svyazi-2-0/components/yodoca.md]
+* [memnet|docs/svyazi-2-0/components/memnet.md]
+* [mclaude|docs/svyazi-2-0/components/mclaude.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [rufler|docs/svyazi-2-0/components/rufler.md] (сходство 0.38)
+* [yodoca|docs/svyazi-2-0/components/yodoca.md] (сходство 0.37)
+* [mclaude|docs/svyazi-2-0/components/mclaude.md] (сходство 0.35)
+

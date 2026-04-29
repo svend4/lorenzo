@@ -41,3 +41,13 @@
 - [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
 - [risks](docs/svyazi-2-0/prototype/risks.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [14-limitations](docs/01-svyazi/14-limitations.md) (сходство 0.20)
+- [14-limitations](docs/obsidian/01-svyazi/14-limitations.md) (сходство 0.20)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.19)
+

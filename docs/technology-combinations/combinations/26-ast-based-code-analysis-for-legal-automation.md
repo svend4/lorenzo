@@ -78,3 +78,13 @@ ROI: Prevents errors from inconsistent legal implementations
 - [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
 - [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md) (сходство 0.27)
+- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md) (сходство 0.25)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md) (сходство 0.25)
+

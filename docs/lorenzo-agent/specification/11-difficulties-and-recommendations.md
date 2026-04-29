@@ -358,3 +358,13 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.23)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.21)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.21)
+

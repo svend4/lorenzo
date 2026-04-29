@@ -1,12 +1,21 @@
 # 1. Introduction
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Changes from v1.0(15-changes-from-v10) Современные системы управления знаниями (Notion, Obsidian, Roam Research, --- 1.
-> 🔧 **Подход:** Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре 3.
-> 🏷️ **Ключевые слова:** `introduction`, `anthropic`, `vacancies`, `goals`, `раздел`, `terminology`, `implementation`, `проекте`
->
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [1. Introduction](#1-introduction)
+  - [1.1. Motivation](#11-motivation)
+  - [1.2. Design Goals](#12-design-goals)
+  - [1.3. Non-Goals](#13-non-goals)
+  - [1.4. Terminology](#14-terminology)
+  - [1.5. Changes from v1.0](#15-changes-from-v10)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
 
 
 <!-- toc-auto -->

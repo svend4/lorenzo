@@ -46,3 +46,13 @@ document provides framing. It does not provide answers.
 - [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
 - [08-recursive-insight](docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [283-what-this-document-doesn-t-solve](docs/obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.62)
+- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.61)
+- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md) (сходство 0.24)
+

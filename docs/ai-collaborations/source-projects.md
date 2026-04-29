@@ -141,3 +141,13 @@
 - [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
 - [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [authors-by-name](docs/glossary/authors-by-name.md) (сходство 0.22)
+- [components-by-name](docs/glossary/components-by-name.md) (сходство 0.19)
+- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.14)
+

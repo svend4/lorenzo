@@ -42,3 +42,13 @@ readiness.
 - [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
 - [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [120-главные-технические-риски](docs/obsidian/02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.58)
+- [120-главные-технические-риски](docs/02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.50)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.48)
+

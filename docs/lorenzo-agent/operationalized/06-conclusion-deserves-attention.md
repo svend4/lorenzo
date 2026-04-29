@@ -122,3 +122,13 @@ Continue conversation или pause для обдумывания?
 - [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
 - [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.19)
+- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md) (сходство 0.18)
+- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.18)
+

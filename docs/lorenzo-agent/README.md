@@ -34,3 +34,13 @@
 - [phased-deployment/](phased-deployment/) — phased-deployment
 - [scenarios/](scenarios/) — scenarios
 - [specification/](specification/) — specification
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md) (сходство 0.12)
+- [README](docs/lorenzo-agent/specification/README.md) (сходство 0.11)
+- [20-experiment](docs/lorenzo-agent/20-experiment.md) (сходство 0.11)
+

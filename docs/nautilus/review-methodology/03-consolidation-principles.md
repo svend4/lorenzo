@@ -109,3 +109,13 @@ target interface и native-форматами как adaptees»
 - [04-fallback-ratio-question](docs/nautilus/review-methodology/04-fallback-ratio-question.md)
 - [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [109-3-принципы-консолидации-фаза-c](docs/obsidian/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) (сходство 0.74)
+- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) (сходство 0.72)
+- [71-критерии-выбора-для-фазы-3](docs/obsidian/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md) (сходство 0.26)
+

@@ -358,3 +358,13 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 - [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
 - [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [173-4-ten-domains-of-application](docs/obsidian/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.95)
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.93)
+- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.27)
+

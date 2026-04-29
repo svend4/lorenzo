@@ -39,3 +39,13 @@
 - [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
 - [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md) (сходство 0.18)
+- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.17)
+- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md) (сходство 0.16)
+

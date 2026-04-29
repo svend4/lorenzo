@@ -15,6 +15,18 @@ date: 2026-04-29
 h1. 12. Closing
 
 
+h2. Содержание
+
+* [12. Closing|#12-closing]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Specifically, an SGB Advocate Colleague pilot can demonstrate the model and serve real need simultaneously.{quote}

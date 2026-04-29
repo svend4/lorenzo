@@ -73,3 +73,13 @@ h2. Упоминается в
 * [docs|README.md]
 * [Все таблицы репозитория|TABLES.md]
 * [Карта репозитория Lorenzo|SITEMAP.md]
+
+
+
+----
+
+_Похожие документы:_
+* [AUTOFILLED|docs/obsidian/AUTOFILLED.md] (сходство 0.83)
+* [svyazi|docs/autofilled/components/svyazi.md] (сходство 0.45)
+* [svend4|docs/autofilled/components/svend4.md] (сходство 0.45)
+

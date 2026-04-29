@@ -57,3 +57,13 @@ ROI: Automated compliance vs manual audit (weeks → minutes)
 - [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
 - [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [16-adversarial-multi-agent-code-review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md) (сходство 0.35)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md) (сходство 0.25)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.23)
+

@@ -23,3 +23,13 @@ Commercial Counsel по поднаправлениям (Colocation & Networks, D
 - [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
 - [16-people](docs/anthropic-vacancies/clusters/16-people.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.43)
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.41)
+- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md) (сходство 0.38)
+

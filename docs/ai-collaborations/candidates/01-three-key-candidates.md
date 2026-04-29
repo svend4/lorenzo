@@ -31,3 +31,13 @@
 - [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
 - [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md) (сходство 0.70)
+- [wikontic](docs/obsidian/05-habr-projects/knowledge/wikontic.md) (сходство 0.27)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md) (сходство 0.27)
+

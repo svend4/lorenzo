@@ -1,0 +1,38 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/ai-collaborations/continuation/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "continuation"
+tags:
+  * ai-collaborations
+date: 2026-04-29
+----
+
+h1. continuation
+
+_Файлов:_ 10
+
+h2. Содержание
+
+* [[01-shared-memory-between-agents|01-shared-memory-between-agents.md]] — > [!WARNING]
+* [[02-agentops-trace-envelope|02-agentops-trace-envelope.md]] — 
+* [[03-a2a-vs-mcp-protocols|03-a2a-vs-mcp-protocols.md]] — > [!WARNING]
+* [[04-memory-firewall-vs-prompt-worms|04-memory-firewall-vs-prompt-worms.md]] — > [!WARNING]
+* [[05-roadmap-6-12-months|05-roadmap-6-12-months.md]] — > [!TIP]
+* [[06-metrics-tree|06-metrics-tree.md]] — 
+* [[07-vs-notion-mem-affine-langgraph|07-vs-notion-mem-affine-langgraph.md]] — > [!WARNING]
+* [[08-commercialization-three-paths|08-commercialization-three-paths.md]] — 
+* [[09-do-not-glue|09-do-not-glue.md]] — 
+* [[10-architecture-rfc|10-architecture-rfc.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.19)
+* [[README]] (сходство 0.15)
+* [[README]] (сходство 0.15)
+

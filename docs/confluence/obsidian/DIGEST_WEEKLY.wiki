@@ -6,43 +6,64 @@
 ----
 title: "Еженедельный дайджест — 2026-04-29"
 tags:
+  * ingestion
+  * collaboration
   * general
 date: 2026-04-29
 ----
 
 h1. Еженедельный дайджест — 2026-04-29
 
+
+{quote}_Период: последние 7 дней (с 2026-04-22)_{quote}
+
+----
+
+
+
+
+
 _Период: последние 7 дней (с 2026-04-22)_
 
 h2. Итого
 
 || Метрика || Значение ||
-|| Коммитов за неделю || **100** ||
+|| Коммитов за неделю || **75** ||
 || Новых файлов || **0** ||
 || Изменённых файлов || **0** ||
-|| Всего MD файлов || **1194** ||
-|| Всего слов || **943,714** ||
+|| Всего MD файлов || **1170** ||
+|| Всего слов || **905,038** ||
 
 h2. Коммиты
 
 {code}
-d627959 fix: CI Catalog check — improve_auto_toc respects .docignore
-b0ed2c1 docs: auto-update via improve_run_all [skip ci]
-6421a1f chore: regenerate auto-exports after Sprint 24-26
-d3dd088 feat: Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph
-0f740af docs: auto-update via improve_run_all [skip ci]
-6ac5970 chore: regenerate auto-exports after Sprint 21-23
-11d7bad feat: Sprint 21-23 — embeddings cache, skill testing, release engineering
-88a8480 docs: auto-update via improve_run_all [skip ci]
-f053125 chore: regenerate auto-exports after Sprint 18-20
-89f9dc9 feat: Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest
-6f3be4a docs: auto-update via improve_run_all [skip ci]
-3ca737f chore: extend gitignore + regenerate badges/exports after Sprint 15-17
-2265a4d feat: Sprint 15-17 — workflow v2, observability, embeddings, i18n
-0c69691 docs: auto-update via improve_run_all [skip ci]
-25de4e6 chore: regenerate badges + auto-exports after Sprint 12-14
+2a9e940 chore: sync PROGRESS.md
+fc65bef chore: sync PROGRESS.md
+039a4a2 docs: auto-update via improve_run_all [skip ci]
+dfc530a docs: auto-update via improve_run_all [skip ci]
+fedc045 Audit-driven extraction of major missing substantive content
+64358a8 chore: синхронизировать сгенерированные отчёты и docs
+c659252 Extract Nautilus Portal Protocol v1.0.0-draft (earlier version)
+cd90a75 feat: 3 новых скрипта — cross_section, digest_auto, export_report
+ee71737 Extract Nautilus-vs-CAMEL analysis and Habr extra-examples
+ef99f46 feat: применить auto-linker + gap-filler ко всей базе знаний
+1939848 feat: improve_reading_list.py — BM25-список чтения по теме
+7822b13 Extract Hermes Agent comparison and re-prioritization
+afe64e1 chore: sync PROGRESS.md after content scripts commit
+e965e1c Extract AI-managed virtual company and MMORPG-for-programmers analyses
+a845592 feat: ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний
 {code}
 
 ----
 
-_Сгенерировано: 2026-04-29 15:06_
+_Сгенерировано: 2026-04-29 10:26_
+
+
+
+----
+
+_Похожие документы:_
+* [[DIGEST_WEEKLY]] (сходство 0.63)
+* [[DIGEST_AUTO]] (сходство 0.16)
+* [[00-intro-part2]] (сходство 0.11)
+

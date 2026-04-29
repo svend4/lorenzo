@@ -47,3 +47,13 @@ transport
 стандартные поля
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [19-7-portalentry-structure](docs/obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.61)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.57)
+- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md) (сходство 0.38)
+

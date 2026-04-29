@@ -102,3 +102,13 @@ Lorenzo's role: facilitate connection между Анастасией и дру�
 - [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
 - [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.21)
+- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) (сходство 0.19)
+- [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md) (сходство 0.18)
+

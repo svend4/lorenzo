@@ -80,3 +80,13 @@
 - [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
 - [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [197-7-управление-и-надзор](docs/obsidian/02-anthropic-vacancies/197-7-управление-и-надзор.md) (сходство 0.86)
+- [197-7-управление-и-надзор](docs/02-anthropic-vacancies/197-7-управление-и-надзор.md) (сходство 0.84)
+- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md) (сходство 0.12)
+

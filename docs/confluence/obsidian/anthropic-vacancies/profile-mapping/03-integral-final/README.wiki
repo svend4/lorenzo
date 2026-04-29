@@ -1,0 +1,33 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/profile-mapping/03-integral-final/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "03-integral-final"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 03-integral-final
+
+_Файлов:_ 5
+
+h2. Содержание
+
+* [[01-three-archetypes|01-three-archetypes.md]] — 
+* [[02-final-ranking|02-final-ranking.md]] — > [!TIP]
+* [[03-partial-fit-honesty|03-partial-fit-honesty.md]] — 
+* [[04-stronger-paths-outside-anthropic|04-stronger-paths-outside-anthropic.md]] — 
+* [[05-platform-not-position|05-platform-not-position.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.24)
+* [[README]] (сходство 0.21)
+* [[README]] (сходство 0.20)
+

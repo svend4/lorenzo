@@ -1,0 +1,30 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/analogues/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "analogues"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. analogues
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [[01-three-direct-analogues|01-three-direct-analogues.md]] — 
+* [[02-related-projects|02-related-projects.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.43)
+* [[README]] (сходство 0.38)
+* [[README]] (сходство 0.31)
+

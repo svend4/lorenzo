@@ -15,3 +15,13 @@
 - [08-pluses-of-model.md](08-pluses-of-model.md) — <!-- summary -->
 - [09-minuses-and-risks.md](09-minuses-and-risks.md) — > [!WARNING]
 - [10-three-entry-points.md](10-three-entry-points.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/anthropic-vacancies/mmorpg-for-programmers/README.md) (сходство 0.18)
+- [README](docs/nautilus/supply-demand/README.md) (сходство 0.17)
+- [README](docs/nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.15)
+

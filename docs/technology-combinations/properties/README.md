@@ -25,3 +25,11 @@
 
 <…критерий приёмки>
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/ai-collaborations/strategy/README.md) (сходство 0.12)
+

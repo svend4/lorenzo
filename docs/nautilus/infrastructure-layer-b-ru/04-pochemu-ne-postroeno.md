@@ -78,3 +78,13 @@ AI-сотрудничество. Каждый инструмент решал
 - [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
 - [07-rekursivnoe-prozrenie](docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [293-почему-это-не-было-построено](docs/obsidian/02-anthropic-vacancies/293-почему-это-не-было-построено.md) (сходство 0.81)
+- [293-почему-это-не-было-построено](docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md) (сходство 0.80)
+- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md) (сходство 0.19)
+

@@ -108,3 +108,13 @@
 - [195-5-архитектурная-спецификация](docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md)
 - [01-pyat-tipov](docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [193-3-что-делает-агента-представительским](docs/obsidian/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md) (сходство 0.86)
+- [193-3-что-делает-агента-представительским](docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md) (сходство 0.82)
+- [05-arkhitekturnaya-spetsifikatsiya](docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md) (сходство 0.16)
+

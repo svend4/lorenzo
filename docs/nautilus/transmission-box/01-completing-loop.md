@@ -502,3 +502,13 @@ Personal manifesto — dignified contribution infrastructure for qualified indiv
 - [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
 - [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [150-appendix-c-version-history](docs/obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.70)
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.70)
+- [01-three-related-themes](docs/nautilus/supply-demand/01-three-related-themes.md) (сходство 0.19)
+

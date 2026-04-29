@@ -34,3 +34,13 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 - [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
 - [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md) (сходство 0.19)
+- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.18)
+- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md) (сходство 0.17)
+

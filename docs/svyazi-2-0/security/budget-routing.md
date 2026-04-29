@@ -48,3 +48,13 @@
 - [privacy](docs/svyazi-2-0/security/privacy.md)
 - [E-execution-plane](docs/svyazi-2-0/ensembles/E-execution-plane.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-security-privacy](docs/01-svyazi/06-security-privacy.md) (сходство 0.38)
+- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) (сходство 0.37)
+- [06-security-privacy](docs/obsidian/01-svyazi/06-security-privacy.md) (сходство 0.37)
+

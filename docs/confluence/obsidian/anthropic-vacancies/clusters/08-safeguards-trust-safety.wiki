@@ -1,0 +1,48 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/clusters/08-safeguards-trust-safety.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Safeguards (Trust & Safety) — 21 роль"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Safeguards (Trust & Safety) — 21 роль
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.{quote}
+
+Trust & Safety в ML-смысле: Biological Safety Research Scientist, Policy Manager по CBRN-E (Chemical/Biological/Radiological/Nuclear/Explosives), Offensive Security Research Engineer, Threat Investigators (CBRN-E, Cyber, Influence Operations), Safeguards Analysts (Account Abuse, Human Exploitation, Fraud & Scams), Age-Appropriate Design Policy Manager. Кластер объясняет недавний анонс «ИИ по паспорту» для Claude.
+
+
+
+----
+
+_Смотрите также:_
+* [[13-communications]]
+* [[14-public-policy]]
+* [[09-product-management-support-ops]]
+* [[16-people]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[13-communications]] (сходство 0.41)
+* [[14-public-policy]] (сходство 0.38)
+* [[16-people]] (сходство 0.38)
+

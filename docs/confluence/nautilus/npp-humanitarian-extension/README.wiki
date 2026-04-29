@@ -1,0 +1,27 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/npp-humanitarian-extension/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. npp-humanitarian-extension
+
+_Файлов:_ 6
+
+h2. Содержание
+
+* [00-question-can-it-apply-to-docs.md|00-question-can-it-apply-to-docs.md] — 
+* [01-structural-comparison-code-vs-docs.md|01-structural-comparison-code-vs-docs.md] — 
+* [02-mcp-claude-desktop-use-cases.md|02-mcp-claude-desktop-use-cases.md] — 
+* [03-what-doesnt-exist-on-market.md|03-what-doesnt-exist-on-market.md] — 
+* [04-grant-opportunities.md|04-grant-opportunities.md] — > [!TIP]
+* [05-which-combination-more-valuable.md|05-which-combination-more-valuable.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/community-discussions/habr-article-1-reaction/README.md] (сходство 0.17)
+* [README|docs/nautilus/community-discussions/practical-observations/README.md] (сходство 0.15)
+* [README|docs/lorenzo-agent/scenarios/README.md] (сходство 0.15)
+

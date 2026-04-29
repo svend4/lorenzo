@@ -148,3 +148,13 @@ placed where infrastructure considerations naturally fit.
 - [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
 - [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [287-references](docs/02-anthropic-vacancies/287-references.md) (сходство 0.45)
+- [287-references](docs/obsidian/02-anthropic-vacancies/287-references.md) (сходство 0.45)
+- [286-acknowledgments](docs/obsidian/02-anthropic-vacancies/286-acknowledgments.md) (сходство 0.41)
+

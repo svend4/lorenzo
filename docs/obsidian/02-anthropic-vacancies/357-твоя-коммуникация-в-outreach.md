@@ -44,3 +44,13 @@ date: 2026-04-29
 - [[13-outreach-communication]]
 - [[04-q4-character]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[357-твоя-коммуникация-в-outreach]] (сходство 0.82)
+- [[13-outreach-communication]] (сходство 0.82)
+- [[04-q4-character]] (сходство 0.19)
+

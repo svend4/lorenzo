@@ -68,3 +68,13 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 - [docs](README.md)
 - [Все таблицы репозитория](TABLES.md)
 - [Карта репозитория Lorenzo](SITEMAP.md)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [AUTOFILLED](docs/obsidian/AUTOFILLED.md) (сходство 0.83)
+- [svyazi](docs/autofilled/components/svyazi.md) (сходство 0.45)
+- [svend4](docs/autofilled/components/svend4.md) (сходство 0.45)
+

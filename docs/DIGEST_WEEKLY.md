@@ -1,5 +1,14 @@
 # Еженедельный дайджест — 2026-04-29
 
+<!-- summary -->
+> _Период: последние 7 дней (с 2026-04-22)_
+
+---
+<!-- tags: ingestion, collaboration -->
+
+
+
+
 _Период: последние 7 дней (с 2026-04-22)_
 
 ## Итого
@@ -34,4 +43,14 @@ f053125 chore: regenerate auto-exports after Sprint 18-20
 
 ---
 
-_Сгенерировано: 2026-04-29 15:06_
+_Сгенерировано: 2026-04-29 10:26_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST_WEEKLY](docs/obsidian/DIGEST_WEEKLY.md) (сходство 0.63)
+- [DIGEST_AUTO](docs/DIGEST_AUTO.md) (сходство 0.16)
+- [00-intro-part2](docs/obsidian/01-svyazi/00-intro-part2.md) (сходство 0.11)
+

@@ -39,3 +39,13 @@
 - [legal-rag](docs/svyazi-2-0/components/legal-rag.md)
 - [rufler](docs/svyazi-2-0/components/rufler.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md) (сходство 0.35)
+- [graph-rag](docs/svyazi-2-0/components/graph-rag.md) (сходство 0.34)
+- [legal-rag](docs/svyazi-2-0/components/legal-rag.md) (сходство 0.34)
+

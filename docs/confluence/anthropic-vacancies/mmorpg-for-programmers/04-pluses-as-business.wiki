@@ -1,0 +1,59 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Плюсы как бизнеса
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed work.{quote}
+
+Плюсы и минусы как бизнес
+
+Плюсы:
+
+Огромный underserved рынок — нет прямых конкурентов, пустое пространство
+
+Естественная аудитория (разработчики) уже культурно готова
+
+Viral механика — игроки зовут друзей в игру легче, чем в job board
+
+Потенциал становиться инфраструктурой для других профессий (дизайнеры, аналитики, копирайтеры, юристы) после MVP на программистах
+
+Perfect match для remote-first и disability-inclusive work
+
+Venture-attractive — «Roblox for professional work» — понятная инвесторам метафора
+
+
+
+----
+
+_Смотрите также:_
+* [00-question-habr-link|docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md]
+* [17-appendix-b-change-log|docs/nautilus/npp-v1-0/17-appendix-b-change-log.md]
+* [12-appendix-a-header-warning|docs/nautilus/review-methodology/12-appendix-a-header-warning.md]
+* [15-appendix-c-history|docs/nautilus/review-methodology/15-appendix-c-history.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [15-appendix-c-history|docs/nautilus/review-methodology/15-appendix-c-history.md] (сходство 0.27)
+* [12-appendix-a-header-warning|docs/nautilus/review-methodology/12-appendix-a-header-warning.md] (сходство 0.26)
+* [17-appendix-b-change-log|docs/nautilus/npp-v1-0/17-appendix-b-change-log.md] (сходство 0.25)
+

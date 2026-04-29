@@ -175,3 +175,13 @@ Both produce artifacts which are immediately useful
 - [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
 - [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/obsidian/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) (сходство 0.18)
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) (сходство 0.18)
+- [364-final-note-ты-experiment](docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md) (сходство 0.14)
+

@@ -2,25 +2,25 @@
 
 _Обновлено: 2026-04-29_
 
-Утверждений: **52611** | Противоречий: **6442**
+Утверждений: **68025** | Противоречий: **9367**
 
 > Автоматический поиск без LLM — возможны ложные срабатывания.
 
 ## Найденные противоречия
 
-### 1. 🔢 Числовое — 4.0 vs 9.0 (уверенность: 0.8)
+### 1. 🔢 Числовое — 42.0 vs 81.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `first`, `software`, `можно`, `собирать`
+**Общие ключевые слова:** `docs`, `liteparse`, `nlaik`, `research`
 
-**A:** `docs/SIMILAR_PASSAGES.md`
-> 0 уже можно собирать из существующих software‑first кирпичей , не придумывая половину архитек ✅ Результат: Самый д B: docs/04-ai-collaborations/07-выв
+**A:** `docs/contacts/antipozitive.md`
+> md) 42% - Контакт: nlaik / LiteParse / research-docs(nlaik
 
-**B:** `docs/SUMMARIES.md`
-> 0 уже можно собирать из существующих software‑first кирпичей , не придумывая пол… - 09-architectural-gaps
+**B:** `docs/contacts/sonia-black.md`
+> md) 81% - Контакт: nlaik / LiteParse / research-docs(nlaik
 
 ---
 
-### 2. 🔢 Числовое — 6.0 vs 58.0 (уверенность: 0.8)
+### 2. 🔢 Числовое — 42.0 vs 66.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `автор`, `вовлечён`, `контекст`, `непосредственно`
 
@@ -32,7 +32,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 3. 🔢 Числовое — 1027724.0 vs 26.0 (уверенность: 0.8)
+### 2. 🔢 Числовое — 1027724.0 vs 26.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `articles`, `com`, `было`, `конце`
 
@@ -44,7 +44,55 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 4. 🔢 Числовое — 50.0 vs 27.0 (уверенность: 0.8)
+### 3. 🔢 Числовое — 9.0 vs 4.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `first`, `software`, `можно`, `собирать`
+
+**A:** `docs/01-svyazi/README.md`
+> 0 уже можно собирать из существующих software‑first кирпичей, не придумывая пол… - 09-architectural-gaps
+
+**B:** `docs/SIMILAR_PASSAGES.md`
+> 0 уже можно собирать из существующих software‑first кирпичей , не придумывая половину архитек ✅ Результат: Самый д B: docs/04-ai-collaborations/07-выв
+
+---
+
+### 4. 🔢 Числовое — 20.0 vs 8.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `ещё`, `запрос`, `можно`, `нормально`
+
+**A:** `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md`
+> Запрос Да это нормально хорошо сделано ну можно ещё поговорить пообсуждать про технические инфраструктурные вопросы например это большая сессия много 
+
+**B:** `docs/QUESTIONS.md`
+> md (8) - Запрос Да это нормально хорошо сделано ну можно ещё поговорить пообсуждать про технические инфраструктурные вопросы например это большая сесс
+
+---
+
+### 5. 🔢 Числовое — 4.0 vs 9.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `first`, `software`, `можно`, `собирать`
+
+**A:** `docs/SIMILAR_PASSAGES.md`
+> 0 уже можно собирать из существующих software‑first кирпичей , не придумывая половину архитек ✅ Результат: Самый д B: docs/04-ai-collaborations/07-выв
+
+**B:** `docs/SUMMARIES.md`
+> 0 уже можно собирать из существующих software‑first кирпичей , не придумывая пол… - 09-architectural-gaps
+
+---
+
+### 6. 🔢 Числовое — 100.0 vs 4.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `входит`, `зачем`, `контур`, `оценка`
+
+**A:** `docs/QUESTIONS.md`
+> 0 (100%) - Контур Что входит Зачем Оценка усилий --- --- --- --- Ядро данных CardIndex‑схема, профили, raw/inferred разделение, файловый vault в стиле
+
+**B:** `docs/SIMILAR_PASSAGES.md`
+> md Контур Что входит Зачем Оценка усилий --- --- --- --- Ядро данных CardIndex‑схема, профили, raw/inferred разделение, файловый vault в стиле AgentFS
+
+---
+
+### 7. 🔢 Числовое — 50.0 vs 74.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `docs`, `liteparse`, `research`
 
@@ -52,23 +100,47 @@ _Обновлено: 2026-04-29_
 > md 1 2 50% research-docs-liteparse
 
 **B:** `docs/LANGUAGE_STATS.md`
-> md 27% 73% research-docs-liteparse
+> md 74% 26% research-docs-liteparse
 
 ---
 
-### 5. 🔢 Числовое — 70.0 vs 4.0 (уверенность: 0.8)
+### 8. 🔢 Числовое — 76.0 vs 27.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `второе`, `месячная`, `одна`, `отрезвляющее`
+**Общие ключевые слова:** `components`, `docs`, `liteparse`, `research`
 
-**A:** `docs/02-anthropic-vacancies/00-intro.md`
-> Второе — отрезвляющее: эти 70 репо — это одна 4-месячная брейн-волна , а не плоды многолетней разработки
+**A:** `docs/PRIORITIES.md`
+> 76 docs/svyazi-2-0/components/research-docs-liteparse
 
-**B:** `docs/CONCEPTS.md`
-> md) Второе — отрезвляющее: эти 70 репо : одна 4-месячная брейн-волна , а не плоды многолетней разработки → 00-intro(docs/02-anthropic-vacancies/00-int
+**B:** `docs/VERSION_DIFF.md`
+> md +27 — — docs/svyazi-2-0/components/research-docs-liteparse
 
 ---
 
-### 6. 🔢 Числовое — 3.0 vs 8.0 (уверенность: 0.8)
+### 9. 🔢 Числовое — 76.0 vs 34.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `components`, `docs`, `liteparse`, `research`
+
+**A:** `docs/PRIORITIES.md`
+> 76 docs/svyazi-2-0/components/research-docs-liteparse
+
+**B:** `docs/svyazi-2-0/components/legal-rag.md`
+> 34) - research-docs-liteparse(docs/svyazi-2-0/components/research-docs-liteparse
+
+---
+
+### 10. 🔢 Числовое — 76.0 vs 29.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `components`, `docs`, `liteparse`, `research`
+
+**A:** `docs/PRIORITIES.md`
+> 76 docs/svyazi-2-0/components/research-docs-liteparse
+
+**B:** `docs/svyazi-2-0/components/security-routing-plane.md`
+> 29) - research-docs-liteparse(docs/svyazi-2-0/components/research-docs-liteparse
+
+---
+
+### 11. 🔢 Числовое — 3.0 vs 8.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `годы`, `деятельность`, `добавить`, `областей`
 
@@ -80,7 +152,19 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 7. 🔢 Числовое — 68.0 vs 8.0 (уверенность: 0.8)
+### 12. 🔢 Числовое — 70.0 vs 4.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `второе`, `месячная`, `одна`, `отрезвляющее`
+
+**A:** `docs/02-anthropic-vacancies/00-intro.md`
+> Второе — отрезвляющее: эти 70 репо — это одна 4-месячная брейн-волна , а не плоды многолетней разработки
+
+**B:** `docs/CONCEPTS.md`
+> md) Второе — отрезвляющее: эти 70 репо : одна 4-месячная брейн-волна , а не плоды многолетней разработки → 00-intro(docs/02-anthropic-vacancies/00-int
+
+---
+
+### 13. 🔢 Числовое — 68.0 vs 8.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `collaborations`, `docs`, `добавляет`, `продолжение`
 
@@ -92,7 +176,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 8. 🔢 Числовое — 68.0 vs 4.0 (уверенность: 0.8)
+### 14. 🔢 Числовое — 68.0 vs 4.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `collaborations`, `docs`, `добавляет`, `продолжение`
 
@@ -104,7 +188,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 9. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
+### 15. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `collaborations`, `docs`, `добавляет`, `продолжение`
 
@@ -116,7 +200,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 10. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
+### 16. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `collaborations`, `docs`, `добавляет`, `продолжение`
 
@@ -128,19 +212,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 11. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `добавляет`, `продолжение`
-
-**A:** `docs/04-ai-collaborations/README.md`
-> md(08-что-это-продолжение-добавляет
-
-**B:** `docs/LANGUAGE_STATS.md`
-> md 58% 42% 08-что-это-продолжение-добавляет
-
----
-
-### 12. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8)
+### 17. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `habr`, `moltbot`, `openclaw`, `автономного`
 
@@ -152,31 +224,103 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 13. 🔢 Числовое — 22.0 vs 785.0 (уверенность: 0.8)
+### 18. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `добавляет`, `продолжение`
+
+**A:** `docs/04-ai-collaborations/README.md`
+> md(08-что-это-продолжение-добавляет
+
+**B:** `docs/LANGUAGE_STATS.md`
+> md 58% 42% 08-что-это-продолжение-добавляет
+
+---
+
+### 19. 🔢 Числовое — 22.0 vs 11.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
 
 **A:** `docs/01-svyazi/01-executive-summary.md`
 > 22) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+
+**B:** `docs/01-svyazi/README.md`
+> 11) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов
+
+---
+
+### 20. 🔢 Числовое — 22.0 vs 785.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
+
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> 22) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+
+**B:** `docs/01-svyazi/03-component-catalog.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+
+---
+
+### 7. 🔢 Числовое — 22.0 vs 3.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
+
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> 22) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+
+**B:** `docs/01-svyazi/06-security-privacy.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^llm: Large Language Model — большая языковая модель ^pii: Personally Identifiable
+
+---
+
+### 8. 🔢 Числовое — 4.0 vs 785.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
+
+**A:** `docs/01-svyazi/03-component-catalog.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
 
 **B:** `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
 > md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
 
 ---
 
-### 14. 🔢 Числовое — 22.0 vs 11.0 (уверенность: 0.8)
+### 21. 🔢 Числовое — 22.0 vs 11.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
 
-**A:** `docs/01-svyazi/01-executive-summary.md`
-> 22) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+**A:** `docs/01-svyazi/03-component-catalog.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
 
-**B:** `docs/SUMMARIES.md`
-> 11 --- ^mcp : Model Context Protocol — протокол для AI-инструментов ^svyazi : Главный проект: экосистема AI-компонентов docs/02-anthropic-vacancies/00
+**B:** `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^llm: Large Language Model — большая языковая модель ^pii: Personally Identifiable
 
 ---
 
-### 15. 🔢 Числовое — 5.0 vs 30.0 (уверенность: 0.8)
+### 22. 🔢 Числовое — 11.0 vs 785.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
+
+**A:** `docs/01-svyazi/README.md`
+> 11) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов
+
+**B:** `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+
+---
+
+### 23. 🔢 Числовое — 11.0 vs 16.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
+
+**A:** `docs/01-svyazi/README.md`
+> 11) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов
+
+**B:** `docs/04-ai-collaborations/README.md`
+> 16) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов
+
+---
+
+### 24. 🔢 Числовое — 5.0 vs 30.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `edge`, `mcp`, `skills`, `tinyml`
 
@@ -188,183 +332,75 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 16. 🔢 Числовое — 1017200.0 vs 44.0 (уверенность: 0.8)
+### 25. 🔢 Числовое — 1017200.0 vs 44.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `articles`, `com`, `sequential`, `координатора`
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
 
-**A:** `docs/04-ai-collaborations/00-intro.md`
-> com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(08-conclusions
 
-**B:** `docs/05-habr-projects/memory/memnet.md`
-> com/ru/articles/1017200/ ) — Sequential протокол лучше координатора на 44%
-
----
-
-### 17. 🔢 Числовое — 1017200.0 vs 44.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `articles`, `com`, `sequential`, `координатора`
-
-**A:** `docs/04-ai-collaborations/00-intro.md`
-> com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%
-
-**B:** `docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md`
-> com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%
+**B:** `docs/04-ai-collaborations/01-executive-summary.md`
+> md) 29% Связанные документы - 08 Conclusions(
 
 ---
 
-### 18. 🔢 Числовое — 785.0 vs 11.0 (уверенность: 0.8)
+### 26. 🔢 Числовое — 1017200.0 vs 44.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
+
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(08-conclusions
+
+**B:** `docs/04-ai-collaborations/07-выводы.md`
+> md) 21% Связанные документы - 08 Conclusions(
+
+---
+
+### 27. 🔢 Числовое — 785.0 vs 16.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
+
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(08-conclusions
+
+**B:** `docs/04-ai-collaborations/README.md`
+> 16) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов
+
+---
+
+### 28. 🔢 Числовое — 785.0 vs 11.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
+
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(08-conclusions
+
+**B:** `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
+> md) 17% Связанные документы - 08 Conclusions(
+
+---
+
+### 29. 🔢 Числовое — 16.0 vs 11.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
 
-**A:** `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+**A:** `docs/04-ai-collaborations/README.md`
+> 16) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов
 
 **B:** `docs/SUMMARIES.md`
 > 11 --- ^mcp : Model Context Protocol — протокол для AI-инструментов ^svyazi : Главный проект: экосистема AI-компонентов docs/02-anthropic-vacancies/00
 
 ---
 
-### 19. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
+### 30. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `match`, `pendingreview`, `proposalid`, `reviewstate`
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
 
-**A:** `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md`
-> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
+**A:** `docs/04-ai-collaborations/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(
 
-**B:** `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md`
-> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
-
----
-
-### 20. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `различение`, `слоёв`, `трёх`
-
-**A:** `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md`
-> Различение трёх слоёв(31-различение-трёх-слоёв) - 3
-
-**B:** `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md`
-> Различение трёх слоёв(31-различение-трёх-слоёв) - 3
-
----
-
-### 21. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `attention`, `full`, `moe`, `ssm`
-
-**A:** `docs/04-ai-collaborations/00-intro.md`
-> 5: 4 слоя full attention + 36 слоёв SSM + MoE-роутер с 8+1 экспертами на слой
-
-**B:** `docs/05-habr-projects/memory/memnet.md`
-> 5: 4 слоя full attention + 36 слоёв SSM + MoE-роутер с 8+1 экспертами на слой
-
----
-
-### 22. 🔢 Числовое — 80.0 vs 8.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `coder`, `context`, `embed`, `nomic`
-
-**A:** `docs/04-ai-collaborations/00-intro.md`
-> qwen3-coder:30b, nomic-embed-text, 80k context, 8k max tokens, температура 0
-
-**B:** `docs/05-habr-projects/memory/memnet.md`
-> qwen3-coder:30b, nomic-embed-text, 80k context, 8k max tokens, температура 0
-
----
-
-### 23. 🔢 Числовое — 785.0 vs 26.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `anastasiyaw`, `github`, `knowledge`, `soniablack`
-
-**A:** `docs/01-svyazi/03-component-catalog.md`
-> knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референсная база: 785+ карточек по 26 
-
-**B:** `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-> knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референсная база: 785+ карточек по 26 
-
----
-
-### 24. 🔢 Числовое — 785.0 vs 26.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `anastasiyaw`, `github`, `knowledge`, `soniablack`
-
-**A:** `docs/01-svyazi/03-component-catalog.md`
-> knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референсная база: 785+ карточек по 26 
-
-**B:** `docs/svyazi-2-0/overview/projects-map.md`
-> knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референсная база: 785+ карточек по 26 домен
-
----
-
-### 25. 🔢 Числовое — 2026.0 vs 4.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `vladspace`, `автоматически`, `вопрос`, `документы`
-
-**A:** `docs/contacts/kksudo.md`
-> Вопрос 2 --- Создано автоматически: 2026-04-29 --- Похожие документы: - vladspace(docs/contacts/vladspace
-
-**B:** `docs/contacts/sonia-black.md`
-> Вопрос 2 --- Создано автоматически: 2026-04-29 --- Похожие документы: - vladspace(docs/contacts/vladspace
-
----
-
-### 26. 🔢 Числовое — 4.0 vs 11.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `engine`, `hebbian`, `memory`, `ngt`
-
-**A:** `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
-> NGT Memory автор — Hebbian engine Tier 4 — institutional reference 11
-
-**B:** `docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md`
-> NGT Memory автор — Hebbian engine Tier 4 — institutional reference 11
-
----
-
-### 27. 🔢 Числовое — 68.0 vs 3.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `collaboration`, `graph`, `hebbian`, `synthesis`
-
-**A:** `docs/LANGUAGE_STATS.md`
-> md 68% 32% 03-synthesis-hebbian-collaboration-graph
-
-**B:** `docs/ai-collaborations/candidates/README.md`
-> md) — - 03-synthesis-hebbian-collaboration-graph
-
----
-
-### 28. 🔢 Числовое — 68.0 vs 3.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `collaboration`, `graph`, `hebbian`, `synthesis`
-
-**A:** `docs/LANGUAGE_STATS.md`
-> md 68% 32% 03-synthesis-hebbian-collaboration-graph
-
-**B:** `docs/ai-collaborations/candidates/README.md`
-> md(03-synthesis-hebbian-collaboration-graph
-
----
-
-### 29. 🔢 Числовое — 7.0 vs 76.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `выросло`, `окно`, `свободное`, `токенов`
-
-**A:** `docs/01-svyazi/04-ensembles-overview.md`
-> 7k токенов, а свободное окно выросло на 76k
-
-**B:** `docs/04-ai-collaborations/04-приоритетные-ансамбли.md`
-> 7k токенов, а свободное окно выросло на 76k
-
----
-
-### 30. 🔢 Числовое — 7.0 vs 76.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `claude`, `code`, `контекста`, `свободного`
-
-**A:** `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md`
-> 7k токенов и +76k свободного контекста в Claude Code
-
-**B:** `docs/ai-collaborations/continuation/02-agentops-trace-envelope.md`
-> 7k токенов и +76k свободного контекста в Claude Code
+**B:** `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
+> md) 17% Связанные документы - 08 Conclusions(
 
 ---
 

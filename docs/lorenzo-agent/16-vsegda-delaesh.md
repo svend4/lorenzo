@@ -34,3 +34,13 @@
 - [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
 - [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [360-что-ты-всегда-делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md) (сходство 0.51)
+- [360-что-ты-всегда-делаешь](docs/obsidian/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md) (сходство 0.46)
+- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md) (сходство 0.33)
+

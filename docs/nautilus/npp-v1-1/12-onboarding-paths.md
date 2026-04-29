@@ -110,3 +110,13 @@ python scan_repo.py owner/repo-name
 - [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
 - [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [87-12-onboarding-paths-normative](docs/obsidian/02-anthropic-vacancies/87-12-onboarding-paths-normative.md) (сходство 0.87)
+- [87-12-onboarding-paths-normative](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md) (сходство 0.80)
+- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md) (сходство 0.17)
+

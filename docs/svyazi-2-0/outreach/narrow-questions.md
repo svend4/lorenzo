@@ -34,3 +34,13 @@
 - [CONTACTS](docs/CONTACTS.md)
 - [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-contacts](docs/obsidian/01-svyazi/13-contacts.md) (сходство 0.43)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) (сходство 0.43)
+- [13-contacts](docs/01-svyazi/13-contacts.md) (сходство 0.41)
+

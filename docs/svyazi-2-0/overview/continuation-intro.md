@@ -26,3 +26,13 @@
 - [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
 - [08-conclusions](docs/01-svyazi/08-conclusions.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.70)
+- [08-что-это-продолжение-добавляет](docs/obsidian/04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.65)
+- [01-executive-summary](docs/obsidian/01-svyazi/01-executive-summary.md) (сходство 0.22)
+

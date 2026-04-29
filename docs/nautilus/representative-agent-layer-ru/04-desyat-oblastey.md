@@ -218,3 +218,13 @@
 - [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
 - [07-oblasti-primeneniya](docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [194-4-десять-областей-применения](docs/obsidian/02-anthropic-vacancies/194-4-десять-областей-применения.md) (сходство 0.95)
+- [194-4-десять-областей-применения](docs/02-anthropic-vacancies/194-4-десять-областей-применения.md) (сходство 0.95)
+- [12-zaklyuchenie](docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) (сходство 0.11)
+

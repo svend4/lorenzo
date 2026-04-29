@@ -205,3 +205,13 @@ application drafting.
 - [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
 - [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [218-7-application-domains](docs/obsidian/02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.88)
+- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.86)
+- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md) (сходство 0.17)
+

@@ -13,6 +13,11 @@ date: 2026-04-29
 
 h1. 16. MCP Extension (Informative)
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
 
 {quote}NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED{quote}
 

@@ -219,3 +219,13 @@ API доступно
 - [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
 - [07-prakticheskie-shagi](docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [331-5-четыре-пути-интеграции-в-порядке-доступности](docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md) (сходство 0.90)
+- [331-5-четыре-пути-интеграции-в-порядке-доступности](docs/obsidian/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md) (сходство 0.85)
+- [06-utochnyonnyy-obyom-ingit](docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md) (сходство 0.15)
+

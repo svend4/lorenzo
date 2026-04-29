@@ -35,3 +35,13 @@ Daten70, судя по названию-паттерну (Daten = нем. «да
 - [01-three-archetypes](docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md)
 - [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.18)
+- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.15)
+- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.15)
+

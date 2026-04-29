@@ -38,3 +38,13 @@
 - [mclaude](docs/svyazi-2-0/components/mclaude.md)
 - [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [mclaude](docs/svyazi-2-0/components/mclaude.md) (сходство 0.35)
+- [memnet](docs/svyazi-2-0/components/memnet.md) (сходство 0.35)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md) (сходство 0.34)
+

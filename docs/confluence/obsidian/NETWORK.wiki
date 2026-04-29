@@ -12,72 +12,61 @@ date: 2026-04-29
 
 h1. Сеть проектов и авторов
 
-_Узлов:_ 20  _Связей:_ 189
+_Узлов:_ 20  _Связей:_ 190
 
 h2. Топ-20 ко-упоминаемых пар
 
 || Пара || Общих файлов ||
-|| **Cowork** ↔ **ingit** || 135 ||
-|| **Svyazi** ↔ **Yodoca** || 122 ||
-|| **Svyazi** ↔ **CardIndex** || 116 ||
-|| **Svyazi** ↔ **NGT** || 116 ||
-|| **Yodoca** ↔ **NGT** || 101 ||
-|| **Svyazi** ↔ **AgentFS** || 89 ||
-|| **Svyazi** ↔ **MemNet** || 89 ||
-|| **Svyazi** ↔ **knowledge-space** || 83 ||
-|| **CardIndex** ↔ **NGT** || 83 ||
-|| **Svyazi** ↔ **mclaude** || 81 ||
-|| **CardIndex** ↔ **Yodoca** || 80 ||
-|| **AgentFS** ↔ **NGT** || 79 ||
-|| **Svyazi** ↔ **Rufler** || 78 ||
-|| **AgentFS** ↔ **Yodoca** || 77 ||
-|| **CardIndex** ↔ **AgentFS** || 76 ||
-|| **Svyazi** ↔ **LiteParse** || 74 ||
-|| **AgentFS** ↔ **knowledge-space** || 72 ||
-|| **Svyazi** ↔ **AI Factory** || 69 ||
-|| **Yodoca** ↔ **mclaude** || 69 ||
-|| **Yodoca** ↔ **knowledge-space** || 68 ||
+|| **Cowork** ↔ **ingit** || 270 ||
+|| **Svyazi** ↔ **NGT** || 198 ||
+|| **Svyazi** ↔ **Yodoca** || 197 ||
+|| **Yodoca** ↔ **NGT** || 182 ||
+|| **Svyazi** ↔ **CardIndex** || 172 ||
+|| **Svyazi** ↔ **AgentFS** || 161 ||
+|| **AgentFS** ↔ **NGT** || 147 ||
+|| **AgentFS** ↔ **Yodoca** || 141 ||
+|| **CardIndex** ↔ **NGT** || 140 ||
+|| **Svyazi** ↔ **knowledge-space** || 136 ||
+|| **Svyazi** ↔ **Rufler** || 133 ||
+|| **Svyazi** ↔ **Lorenzo** || 129 ||
+|| **CardIndex** ↔ **AgentFS** || 129 ||
+|| **CardIndex** ↔ **Yodoca** || 129 ||
+|| **Svyazi** ↔ **mclaude** || 127 ||
+|| **Cowork** ↔ **Lorenzo (svend4)** || 124 ||
+|| **Svyazi** ↔ **LiteParse** || 121 ||
+|| **Svyazi** ↔ **MemNet** || 120 ||
+|| **AgentFS** ↔ **knowledge-space** || 119 ||
+|| **NGT** ↔ **knowledge-space** || 118 ||
 
 h2. Центральность узлов (влиятельность)
 
 || Узел || Балл центральности || Тип ||
-|| **Svyazi** || 1348 || 📦 Проект ||
-|| **NGT** || 1050 || 📦 Проект ||
-|| **Yodoca** || 1036 || 📦 Проект ||
-|| **CardIndex** || 980 || 📦 Проект ||
-|| **AgentFS** || 928 || 📦 Проект ||
-|| **knowledge-space** || 878 || 📦 Проект ||
-|| **Rufler** || 801 || 📦 Проект ||
-|| **mclaude** || 800 || 📦 Проект ||
-|| **MemNet** || 779 || 📦 Проект ||
-|| **LiteParse** || 776 || 📦 Проект ||
-|| **AI Factory** || 677 || 📦 Проект ||
-|| **SENTINEL** || 630 || 📦 Проект ||
-|| **Lorenzo (svend4)** || 591 || 👤 Автор ||
-|| **Cowork** || 551 || 📦 Проект ||
-|| **Андрей (kksudo)** || 549 || 👤 Автор ||
-|| **Lorenzo** || 547 || 📦 Проект ||
-|| **ingit** || 530 || 📦 Проект ||
-|| **Виталий (spbmolot)** || 498 || 👤 Автор ||
-|| **Wikontic** || 405 || 📦 Проект ||
-|| **Firecrawl** || 182 || 📦 Проект ||
+|| **Svyazi** || 2363 || 📦 Проект ||
+|| **NGT** || 1900 || 📦 Проект ||
+|| **Yodoca** || 1814 || 📦 Проект ||
+|| **AgentFS** || 1675 || 📦 Проект ||
+|| **CardIndex** || 1603 || 📦 Проект ||
+|| **knowledge-space** || 1483 || 📦 Проект ||
+|| **Rufler** || 1416 || 📦 Проект ||
+|| **mclaude** || 1322 || 📦 Проект ||
+|| **LiteParse** || 1310 || 📦 Проект ||
+|| **SENTINEL** || 1219 || 📦 Проект ||
+|| **Lorenzo** || 1182 || 📦 Проект ||
+|| **Андрей (kksudo)** || 1173 || 👤 Автор ||
+|| **AI Factory** || 1162 || 📦 Проект ||
+|| **MemNet** || 1151 || 📦 Проект ||
+|| **Cowork** || 1134 || 📦 Проект ||
+|| **ingit** || 1127 || 📦 Проект ||
+|| **Виталий (spbmolot)** || 1090 || 👤 Автор ||
+|| **Lorenzo (svend4)** || 1061 || 👤 Автор ||
+|| **Wikontic** || 710 || 📦 Проект ||
+|| **Firecrawl** || 357 || 📦 Проект ||
 
 h2. Авторы ↔ Проекты
 
-_Андрей (kksudo)_ → _Svyazi_ (48), _AgentFS_ (41), _knowledge-space_ (40), _Yodoca_ (37), _NGT_ (36), _CardIndex_ (35), _LiteParse_ (29), _MemNet_ (29)
+_Андрей (kksudo)_ → _Svyazi_ (112), _AgentFS_ (83), _Yodoca_ (79), _NGT_ (79), _knowledge-space_ (71), _Lorenzo_ (68), _ingit_ (60), _CardIndex_ (59)
 
-_Виталий (spbmolot)_ → _Svyazi_ (48), _knowledge-space_ (36), _AgentFS_ (35), _Yodoca_ (35), _NGT_ (35), _CardIndex_ (32), _LiteParse_ (25), _MemNet_ (25)
+_Виталий (spbmolot)_ → _Svyazi_ (112), _NGT_ (77), _Yodoca_ (76), _AgentFS_ (75), _knowledge-space_ (65), _Lorenzo_ (61), _Cowork_ (55), _ingit_ (55)
 
-_Lorenzo (svend4)_ → _Svyazi_ (63), _MemNet_ (61), _Cowork_ (60), _ingit_ (52), _Lorenzo_ (37), _CardIndex_ (35), _NGT_ (35), _knowledge-space_ (30)
-
-
-
-
-----
-
-_Смотрите также:_
-* [[GRAPH]]
-* [[ENTITIES]]
-* [[GLOSSARY]]
-* [[MINDMAP]]
+_Lorenzo (svend4)_ → _Cowork_ (124), _ingit_ (114), _Svyazi_ (108), _MemNet_ (79), _Lorenzo_ (79), _NGT_ (65), _Yodoca_ (52), _CardIndex_ (50)
 

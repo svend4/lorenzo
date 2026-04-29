@@ -18,3 +18,13 @@
 - [11-pluses-of-hermes.md](11-pluses-of-hermes.md) — <!-- summary -->
 - [12-minuses-of-hermes.md](12-minuses-of-hermes.md) — <!-- summary -->
 - [13-reprioritization.md](13-reprioritization.md) — > [!TIP]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/nautilus/composite-skills-agents-companion-mentors/README.md) (сходство 0.19)
+- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.18)
+- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.17)
+

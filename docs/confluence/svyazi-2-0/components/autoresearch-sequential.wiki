@@ -1,0 +1,54 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/components/autoresearch-sequential.md}}
+Дата: 2026-04-29
+{info}
+
+h1. AutoResearch + Sequential
+
+
+{quote}- _Авторы:_ Андрей Карпаты / Виктория Дочкина{quote}
+_Проекты:_ Svyazi, AutoResearch
+
+----
+
+
+
+
+
+* _Авторы:_ Андрей Карпаты / Виктория Дочкина
+* _Источник:_ Хабр + GitHub/обзор citeturn20view19turn20view11
+* _Лицензия:_ для AutoResearch — по статье на GitHub; лицензия в Habr‑обзоре не уточнялась. Для Sequential — исследовательская статья без OSS‑лицензии. citeturn20view19turn20view11
+* _Maturity:_ active research / practical harness. citeturn20view19turn20view11
+* _Релевантность к Svyazi‑2.0:_ высокая — кандидат на self‑improvement и multi‑review.
+
+h2. Описание
+
+Ночной цикл самоулучшения и протокол reviewer‑цепочки без централизованного координатора.
+
+h2. Ключевые компоненты и паттерны
+
+* Edit‑run‑measure‑rollback loop
+* Bounded experiments
+* Sequential protocol
+* Strong‑model self‑organization
+
+
+
+----
+
+_Смотрите также:_
+* [memnet|docs/svyazi-2-0/components/memnet.md]
+* [yodoca|docs/svyazi-2-0/components/yodoca.md]
+* [ai-factory|docs/svyazi-2-0/components/ai-factory.md]
+* [graph-rag|docs/svyazi-2-0/components/graph-rag.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [memnet|docs/svyazi-2-0/components/memnet.md] (сходство 0.29)
+* [yodoca|docs/svyazi-2-0/components/yodoca.md] (сходство 0.29)
+* [ai-factory|docs/svyazi-2-0/components/ai-factory.md] (сходство 0.29)
+

@@ -63,3 +63,13 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 - [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
 - [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.74)
+- [92-17-versioning-policy](docs/obsidian/02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.73)
+- [12-versioning-policy](docs/nautilus/npp-v1-0/12-versioning-policy.md) (сходство 0.57)
+

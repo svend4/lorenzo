@@ -1,0 +1,33 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/lorenzo-agent/00-intro.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Введение: Lorenzo — Catalyst Agent at DHLab
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).{quote}
+
+СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT
+
+markdown
+
+h1. Lorenzo — Catalyst Agent at DHLab
+
+
+
+----
+
+_Похожие документы:_
+* [17-honestly-ne-znaesh|docs/lorenzo-agent/17-honestly-ne-znaesh.md] (сходство 0.33)
+* [16-vsegda-delaesh|docs/lorenzo-agent/16-vsegda-delaesh.md] (сходство 0.31)
+* [09-voobshche-nelzya|docs/lorenzo-agent/09-voobshche-nelzya.md] (сходство 0.30)
+

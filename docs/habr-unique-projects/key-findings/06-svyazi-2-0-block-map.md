@@ -40,3 +40,13 @@ Claude hat geantwortet: Понял задачу: ты хочешь не один
 - [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
 - [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.28)
+- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md) (сходство 0.16)
+- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.16)
+

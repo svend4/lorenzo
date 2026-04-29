@@ -37,3 +37,13 @@
 - [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
 - [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [memnet](docs/svyazi-2-0/components/memnet.md) (сходство 0.29)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md) (сходство 0.29)
+- [ai-factory](docs/svyazi-2-0/components/ai-factory.md) (сходство 0.29)
+

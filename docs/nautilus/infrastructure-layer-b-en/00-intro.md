@@ -37,3 +37,13 @@ applied work demonstrated its absence
 **Status:** Inquiry paper, exploring rather than specifying
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [274-the-missing-middle-layer-between-chat-and-code](docs/obsidian/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.56)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.53)
+- [306-with-anthropic-s-cowork-platform](docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.34)
+

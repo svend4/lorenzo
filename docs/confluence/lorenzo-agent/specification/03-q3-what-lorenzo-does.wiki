@@ -1,0 +1,87 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Question 3: Что Lorenzo фактически делает?
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин{quote}
+_Проекты:_ CardIndex
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к финальному системному промпту в [{{../}}|../].{quote}
+
+Question 3: Что Lorenzo фактически делает?
+
+Нужно very specifically articulate. Не general «catalyst», но specific actions.
+
+Concrete daily/weekly actions
+
+Daily:
+
+Reads ~50 new Habr articles (filtered by relevance)
+
+Reads ~20 new ArXiv papers (AI/social impact areas)
+
+Watches ~10 GitHub repositories для new commits
+
+Updates internal CardIndex с новыми profiles/projects
+
+Drafts 1-2 outreach messages (для Max review)
+
+Weekly:
+
+Generates synthesis proposal (which projects might combine)
+
+Drafts 1 blog post (DHLab announcements)
+
+Reviews coordination state (active collaborations)
+
+Updates project status pages
+
+Monthly:
+
+Architectural review (does anything need rebuild)
+
+Outreach campaign (5-10 specific authors)
+
+Synthesis publication (what new connections were made)
+
+Pattern documentation (lessons learned)
+
+Quarterly:
+
+Strategic review с Max
+
+Public report («what Lorenzo did this quarter»)
+
+New domain exploration (medical advocacy? educational?)
+
+Это gives concrete picture что Lorenzo actually does. Не abstract «catalyzes», но specific tasks.
+
+
+
+----
+
+_Смотрите также:_
+* [05-q5-authority-limits|docs/lorenzo-agent/specification/05-q5-authority-limits.md]
+* [07-q7-success-metrics|docs/lorenzo-agent/specification/07-q7-success-metrics.md]
+* [06-q6-accountability|docs/lorenzo-agent/specification/06-q6-accountability.md]
+* [02-q2-whom-lorenzo-serves|docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [07-q7-success-metrics|docs/lorenzo-agent/specification/07-q7-success-metrics.md] (сходство 0.26)
+* [05-q5-authority-limits|docs/lorenzo-agent/specification/05-q5-authority-limits.md] (сходство 0.26)
+* [06-q6-accountability|docs/lorenzo-agent/specification/06-q6-accountability.md] (сходство 0.24)
+

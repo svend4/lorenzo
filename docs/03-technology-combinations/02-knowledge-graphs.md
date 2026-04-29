@@ -15,6 +15,17 @@
 **Проекты:** Yodoca, Auto AI Router, [AutoResearch](../docs/01-svyazi/01-executive-summary.md)
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: memory, rag, orchestration, knowledge, self-improvement, collaboration -->
 
 

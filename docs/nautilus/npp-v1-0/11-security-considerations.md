@@ -53,3 +53,13 @@ Implementation MUST различать public и private registries и не
 - [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
 - [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [23-11-security-considerations](docs/obsidian/02-anthropic-vacancies/23-11-security-considerations.md) (сходство 0.60)
+- [15-security](docs/nautilus/npp-v1-1/15-security.md) (сходство 0.59)
+- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md) (сходство 0.55)
+

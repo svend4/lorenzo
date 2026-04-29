@@ -1,0 +1,55 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/limitations/conclusions.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Итоговые выводы и порядок сборки
+
+
+{quote}> Источники: {{deep-research-report (1).md}} (раздел «Выводы») и итог из {{deep-research-report (3).md}}.{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, mclaude, AI Factory, Rufler, LiteParse, Yodoca
+
+----
+
+
+
+
+
+{quote}Источники: {{deep-research-report (1).md}} (раздел «Выводы») и итог из {{deep-research-report (3).md}}.{quote}
+
+h2. Главный вывод первой части
+
+По итогам поиска видно, что _Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей_, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — _правильная сборка_: где CardIndex остаётся source of truth, где память умеет и усиливать, и забывать, где retrieval остаётся доказуемым, где агентность не ломает безопасность, и где стоимость не взрывается ещё до первой полезной операции. citeturn41search0turn27view0turn22view4turn21view0turn20view5turn20view6turn20view11turn20view10turn39view1turn39view0
+
+h2. Порядок практической сборки
+
+1. _Svyazi + AgentFS + NGT/Yodoca + LiteParse_ — это даёт уже полезный MVP.
+2. _Добавить AI Factory / mclaude / Rufler / Sequential_ как build‑ и moderation‑контур.
+3. _Подключить voice/local-first sync_ и только потом AutoResearch.
+
+Другими словами, наиболее реалистичная стратегия — сначала собрать _машину обнаружения и объяснения коллабораций_, а уже затем превращать её в полностью самоулучшающуюся агентную фабрику. Именно такой порядок лучше всего соответствует зрелости найденных проектов и снижает интеграционный риск. citeturn41search0turn27view0turn21view0turn22view4turn20view5turn20view3turn20view2turn20view4turn20view11turn21view10turn11search11turn20view19
+
+h2. Главный вывод второй части
+
+Лучший следующий шаг — _не искать ещё двадцать новых проектов_, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record. На этом основании уже можно по‑настоящему проверить, превращается ли набор «скромных» pet‑проектов с Хабра в новую систему свойств — discovery, explainability, local ownership, controlled memory и cheap/safe execution. Если этот слой заработает, тогда уже есть смысл возвращаться к расширению ансамблей в сторону federation, richer voice UX и self-improving research loop. citeturn41search0turn27view0turn20view5turn21view0turn39view1turn20view10
+
+
+
+----
+
+_Смотрите также:_
+* [08-conclusions|docs/01-svyazi/08-conclusions.md]
+* [07-выводы|docs/04-ai-collaborations/07-выводы.md]
+* [14-limitations|docs/01-svyazi/14-limitations.md]
+* [executive-summary|docs/svyazi-2-0/overview/executive-summary.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [08-conclusions|docs/01-svyazi/08-conclusions.md] (сходство 0.51)
+* [08-conclusions|docs/obsidian/01-svyazi/08-conclusions.md] (сходство 0.49)
+* [07-выводы|docs/04-ai-collaborations/07-выводы.md] (сходство 0.47)
+

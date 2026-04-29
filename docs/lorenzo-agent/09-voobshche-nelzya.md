@@ -32,3 +32,13 @@
 - [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md)
 - [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) (сходство 0.54)
+- [353-что-ты-не-можешь-делать-вообще](docs/obsidian/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) (сходство 0.54)
+- [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md) (сходство 0.33)
+

@@ -1,0 +1,30 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/community-discussions/agent-changes-reality/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "agent-changes-reality"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. agent-changes-reality
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [[00-question-agent-changes-reality|00-question-agent-changes-reality.md]] — 
+* [[01-response-en|01-response-en.md]] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.50)
+* [[README]] (сходство 0.50)
+* [[README]] (сходство 0.45)
+

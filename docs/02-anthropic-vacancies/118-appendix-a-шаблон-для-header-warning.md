@@ -7,6 +7,11 @@
 
 <!-- alert-added -->
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Готовый копи-паст шаблон для вставки в начало документов в
 
@@ -49,4 +54,14 @@ transitional state:
 
 **Смотрите также:**
 - [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.60)
+- [118-appendix-a-шаблон-для-header-warning](docs/obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.55)
+- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.24)
 

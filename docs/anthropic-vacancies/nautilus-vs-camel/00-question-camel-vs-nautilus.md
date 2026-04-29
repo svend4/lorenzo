@@ -31,3 +31,13 @@ Claude hat geantwortet: Очень хороший вопрос — и он по�
 - [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
 - [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.26)
+- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.26)
+- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.24)
+

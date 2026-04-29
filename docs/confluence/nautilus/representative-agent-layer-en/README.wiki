@@ -1,0 +1,34 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/representative-agent-layer-en/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. representative-agent-layer-en
+
+_Файлов:_ 13
+
+h2. Содержание
+
+* [00-abstract.md|00-abstract.md] — 
+* [01-cinderella-syndrome.md|01-cinderella-syndrome.md] — 
+* [02-historical-precedents.md|02-historical-precedents.md] — 
+* [03-what-makes-representative-agent.md|03-what-makes-representative-agent.md] — 
+* [04-ten-domains.md|04-ten-domains.md] — > [!TIP]
+* [05-architectural-specification.md|05-architectural-specification.md] — 
+* [06-ethical-framework.md|06-ethical-framework.md] — > [!IMPORTANT]
+* [07-governance-oversight.md|07-governance-oversight.md] — 
+* [08-risks-mitigations.md|08-risks-mitigations.md] — 
+* [09-phased-rollout.md|09-phased-rollout.md] — 
+* [10-open-questions.md|10-open-questions.md] — 
+* [11-call-for-collaboration.md|11-call-for-collaboration.md] — 
+* [12-closing.md|12-closing.md] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [169-table-of-contents|docs/obsidian/02-anthropic-vacancies/169-table-of-contents.md] (сходство 0.41)
+* [169-table-of-contents|docs/02-anthropic-vacancies/169-table-of-contents.md] (сходство 0.39)
+* [README|docs/nautilus/professional-colleague-agents-en/README.md] (сходство 0.28)
+

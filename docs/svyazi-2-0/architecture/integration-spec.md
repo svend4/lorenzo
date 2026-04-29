@@ -45,3 +45,13 @@
 - [review-record](docs/svyazi-2-0/architecture/review-record.md)
 - [QA](docs/QA.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.39)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.37)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/obsidian/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.37)
+

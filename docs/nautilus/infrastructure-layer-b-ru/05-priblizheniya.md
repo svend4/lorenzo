@@ -130,3 +130,13 @@ AI-сотрудничества над общей работой**.
 - [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
 - [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [294-существующие-приближения](docs/02-anthropic-vacancies/294-существующие-приближения.md) (сходство 0.80)
+- [294-существующие-приближения](docs/obsidian/02-anthropic-vacancies/294-существующие-приближения.md) (сходство 0.79)
+- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md) (сходство 0.18)
+

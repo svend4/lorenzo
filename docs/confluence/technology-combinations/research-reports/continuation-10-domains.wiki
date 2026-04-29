@@ -1,0 +1,85 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/technology-combinations/research-reports/continuation-10-domains.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Research Report: Continuation — 10 New Domains Beyond the Original 45 Combinations
+
+
+{quote}> Источник: MHTML‑снимок {{Комбинирование технологий для новых свойств - Claude}}, секция «Continuation Research — 10 New Domains Beyond the Original 45 Combinations».{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Комбинирование технологий для новых свойств - Claude}}, секция «Continuation Research — 10 New Domains Beyond the Original 45 Combinations».{quote}
+
+Продолжение исследования, которое расширяет каталог 45 комбинаций десятью новыми областями.
+
+h2. 10 новых технологических областей
+
+1. _Database innovations_ — pgvector, Turso, DuckDB.
+2. _Code intelligence_ — Semgrep, CodeQL.
+3. _Build systems_ — Bazel, Buck2, Turborepo.
+4. _API technologies_ — Connect RPC, Buf.
+5. _Storage_ — SeaweedFS, Garage, Iroh.
+6. _Secrets management_ — Vault, SOPS, age.
+7. _Search_ — Meilisearch, Typesense.
+8. _Authorization_ — SpiceDB, Cedar.
+9. _Developer tooling_ — Biome, Ruff, uv.
+10. _Data processing_ — Polars, Pathway, Temporal.
+
+h2. 35+ новых синергетических комбинаций
+
+Среди наиболее заметных:
+
+* _pgvector + pgvectorscale_ — 11.4× преимущество над Qdrant.
+* _Turso edge DB + MVCC_ — database‑per‑tenant в 100–1000× дешевле.
+* _Biome v2_ — 56× быстрее ESLint.
+* _Pathway_ (44k звёзд > Spark/Flink) _+ live‑RAG_.
+* _SpiceDB_ — 5 мс p95, миллионы QPS.
+
+h2. 5 кросс‑сквозных эмерджентных архитектур
+
+Демонстрируют мощные emergent свойства за счёт сочетания технологий из разных областей.
+
+h2. Методологические оговорки
+
+* _MinIO_ — maintenance‑only.
+* _Bytewax_ — stagnation.
+* _Vendor benchmarks_ — требуют независимой верификации.
+
+h2. Применение к Sozialrecht
+
+Все комбинации показаны с примерами для Bürgergeld, SGB II/IX/XII.
+
+h2. Артефакт документа
+
+В диалоге создан документ {{Software synergies continuation 2025 2026 ru}} (Markdown). Полный текст доступен через интерфейс claude.ai в исходном MHTML‑снимке.
+
+h2. Итоговый объём исследования
+
+{quote}Теперь у вас два полных документа: исходный на 10 областей (45 комбинаций) + продолжение на 10 областей (35+ новых комбинаций) = _80+ синергетических комбинаций в 20 технологических областях_.{quote}
+
+
+
+----
+
+_Смотрите также:_
+* [sozialrecht-35-combinations|docs/technology-combinations/research-reports/sozialrecht-35-combinations.md]
+* [03-dsl-ast|docs/technology-combinations/mega-stacks/03-dsl-ast.md]
+* [02-ultimate-legal-ai|docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md]
+* [30-mega-stack-3-0-with-dsl-ast|docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [sozialrecht-35-combinations|docs/technology-combinations/research-reports/sozialrecht-35-combinations.md] (сходство 0.25)
+* [03-dsl-ast|docs/technology-combinations/mega-stacks/03-dsl-ast.md] (сходство 0.15)
+* [02-ultimate-legal-ai|docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md] (сходство 0.13)
+

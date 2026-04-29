@@ -1,0 +1,54 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Appendix B: Change Log"
+tags:
+  * anthropic
+  * nautilus
+date: 2026-04-29
+----
+
+h1. Appendix B: Change Log
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+h2. Appendix B: Change Log
+
+* _2026-04: v1.0.0-draft_ — Initial draft published.
+
+----
+
+_End of Nautilus Portal Protocol v1.0.0-draft_
+
+
+
+----
+
+_Смотрите также:_
+* [[13-reference-implementation]]
+* [[10-query-result]]
+* [[00-question-habr-link]]
+* [[15-glossary]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[13-reference-implementation]] (сходство 0.50)
+* [[10-query-result]] (сходство 0.45)
+* [[00-question-habr-link]] (сходство 0.44)
+

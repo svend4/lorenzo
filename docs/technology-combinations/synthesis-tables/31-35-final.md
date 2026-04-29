@@ -64,3 +64,13 @@ def get_state_at(case_id, target_date):
 - [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
 - [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.49)
+- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.40)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.34)
+

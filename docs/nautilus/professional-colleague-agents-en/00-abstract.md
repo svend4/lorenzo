@@ -82,3 +82,13 @@ their daily work.
 11. **Call for Collaboration**
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [210-abstract](docs/obsidian/02-anthropic-vacancies/210-abstract.md) (сходство 0.72)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md) (сходство 0.68)
+- [12-closing](docs/nautilus/professional-colleague-agents-en/12-closing.md) (сходство 0.31)
+

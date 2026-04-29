@@ -14,3 +14,13 @@
 - [08-commercialization-three-paths.md](08-commercialization-three-paths.md) — <!-- summary -->
 - [09-do-not-glue.md](09-do-not-glue.md) — <!-- summary -->
 - [10-architecture-rfc.md](10-architecture-rfc.md) — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/svyazi-2-0/limitations/README.md) (сходство 0.19)
+- [README](docs/svyazi-2-0/architecture/README.md) (сходство 0.15)
+- [README](docs/nautilus/supply-demand/README.md) (сходство 0.15)
+

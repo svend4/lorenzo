@@ -13,6 +13,11 @@ tags: [контакты, команда]
 ---
 # Контакт: AnastasiyaW / knowledge-space, mclaude
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, knowledge-space, mclaude

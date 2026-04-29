@@ -6,6 +6,18 @@
 h1. Why This Hasn't Been Built
 
 
+h2. Содержание
+
+* [Why This Hasn't Been Built|#why-this-hasnt-been-built]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Infrastructure built in the last three years is mostly focused on the chat layer, where the immediate need was visible.{quote}

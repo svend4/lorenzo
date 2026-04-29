@@ -37,3 +37,13 @@
 - [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
 - [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md) (сходство 0.28)
+- [04-dochkina-sequential](docs/habr-unique-projects/key-findings/04-dochkina-sequential.md) (сходство 0.23)
+- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.17)
+

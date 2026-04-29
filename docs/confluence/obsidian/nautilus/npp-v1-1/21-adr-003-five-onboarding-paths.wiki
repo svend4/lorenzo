@@ -1,0 +1,73 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "21. ADR-003: Five Onboarding Paths as Equal-Rank"
+tags:
+  * anthropic
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 21. ADR-003: Five Onboarding Paths as Equal-Rank
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+h2. 21. ADR-003: Five Onboarding Paths as Equal-Rank
+
+_Status_: Accepted (new in v1.1)
+
+_Context_: В v1.0 была одна "основная" стратегия подключения 
+(manual adapter). В процессе развития reference implementation 
+появились 4 дополнительных пути (B–E). Возникал вопрос: какой 
+канонический?
+
+_Decision_: Все 5 путей — равнорангованные. Выбор делается по 
+контексту (раздел 12.6), не по иерархии.
+
+_Consequences_:
+
+_Positive_:
+* Flexibility для разных use cases
+* Self-declaring repos (Path C) enables federation без центральной 
+координации
+* Automated paths (D, E) scale для fleet-federation
+
+_Negative_:
+* Больше документации
+* Users могут путаться, какой путь выбрать (mitigated via раздел 
+12.6 guidance)
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[96-21-adr-003-five-onboarding-paths-as-equal-rank]]
+* [[19-adr-001-federation-over-merging]]
+* [[20-adr-002-q6-first-class]]
+* [[11-relevance-ranking]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[96-21-adr-003-five-onboarding-paths-as-equal-rank]] (сходство 0.73)
+* [[96-21-adr-003-five-onboarding-paths-as-equal-rank]] (сходство 0.68)
+* [[20-adr-002-q6-first-class]] (сходство 0.27)
+

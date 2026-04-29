@@ -48,3 +48,13 @@ review.
 - [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
 - [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [146-acknowledgments](docs/obsidian/02-anthropic-vacancies/146-acknowledgments.md) (сходство 0.64)
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) (сходство 0.60)
+- [08-difference-3-federation-missing](docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md) (сходство 0.23)
+

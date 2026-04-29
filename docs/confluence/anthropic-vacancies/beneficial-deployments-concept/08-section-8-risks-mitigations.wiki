@@ -1,0 +1,52 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Section 8: Risks & mitigations
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 страниц).{quote}
+
+Section 8: Risks & mitigations
+
+Honest acknowledgment:
+
+Technical risk: integration complexity, multiple components → mitigated by phased approach
+
+Adoption risk: advocates may resist change → mitigated by starting с proposer's own work, demonstrating value before requesting adoption
+
+Privacy/compliance: legal data sensitive → mitigated by local-first architecture, GDPR-by-design
+
+Quality risk: AI hallucinations в legal context dangerous → mitigated by structured outputs, validation, human-in-loop
+
+Sustainability risk: solo developer may burn out → mitigated by documenting everything, building на existing components
+
+
+
+----
+
+_Смотрите также:_
+* [09-section-9-timeliness|docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md]
+* [04-section-4-sgb-pilot|docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md]
+* [03-section-3-solution-architecture|docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md]
+* [07-section-7-success-metrics|docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [09-section-9-timeliness|docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md] (сходство 0.32)
+* [03-section-3-solution-architecture|docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md] (сходство 0.31)
+* [04-section-4-sgb-pilot|docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md] (сходство 0.30)
+

@@ -40,3 +40,13 @@ related: []
 
 ---
 _Создано: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [research-summary](docs/obsidian/autofilled/research-summary.md)
+- [contact-outreach](docs/templates/contact-outreach.md)
+- [project-component](docs/templates/project-component.md)
+
