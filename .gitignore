@@ -10,3 +10,13 @@ docs/confluence/
 .claude/llm_cache.jsonl
 .claude/mcp_calls.jsonl
 .claude/skill_metrics.jsonl
+.claude/workflow_runs.jsonl
+.claude/audit.sqlite
+
+# Pytest
+.pytest_cache/
+
+# docs-toolkit build artifacts
+docs-toolkit/dist/
+docs-toolkit/build/
+docs-toolkit/*.egg-info/
