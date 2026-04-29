@@ -11,6 +11,7 @@
 | [`technology-combinations/`](technology-combinations/) | Комбинирование технологий для новых свойств. Источник: MHTML-снимок диалога с claude.ai. |
 | [`ai-collaborations/`](ai-collaborations/) | Поиск коллабораций AI-проектов. Источник: MHTML-снимок диалога с claude.ai. |
 | [`habr-unique-projects/`](habr-unique-projects/) | Поиск уникальных проектов на Хабре для совместной разработки. Источник: MHTML-снимок диалога с claude.ai. |
+| [`glossary/`](glossary/) | Кросс-ссылочный словарь компонентов, авторов и понятий — единая точка входа для поиска всех упоминаний одного проекта. |
 
 ## Принципы организации
 
