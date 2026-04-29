@@ -1,5 +1,15 @@
 # 9. Relationship to Other Agent Types
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Integration challenge: Layer C (interface layer) of Type 1 needs to talk to Type 2 systems.
+> 🔧 **Подход:** This sequencing differs from what Representative Agent Layer paper proposed.
+> ✅ **Результат:** Distinguishing them enables clear architecture.
+> 🏷️ **Ключевые слова:** `agent`, `professional`, `agents`, `colleague`, `relationship`, `representative`, `practitioner`, `institutional`
+>
+
+
 <!-- summary -->
 > Professional Colleague Agents do not stand alone. They
 

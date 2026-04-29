@@ -1,5 +1,15 @@
 # 8. Pilot Proposal: SGB Advocate Colleague
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Clear demand: Author personally needs this.
+> 🔧 **Подход:** Tertiary requires careful design and supervision; appropriate for later phase.
+> ✅ **Результат:** Direct experience shows that legal advocacy in this domain is severely under-resourced.
+> 🏷️ **Ключевые слова:** `pilot`, `procedural`, `colleague`, `practitioners`, `knowledge`, `domain`, `advocates`, `agent`
+>
+
+
 <!-- summary -->
 > We now apply the Professional Colleague Agent framework to a
 

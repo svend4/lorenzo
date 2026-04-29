@@ -1,5 +1,15 @@
 # Appendix D: Connection Diagram
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Если у вас есть bandwidth хотеть участвовать в этом — даже на уровне написания о том, что нужно — вы могли бы внести вклад.
+> 🔧 **Подход:** Это интегрирующий документ, который подтягивает остальные шесть в более согласованную архитектуру.
+> ✅ **Результат:** Если у вас есть hosting и technical comfort, простой Discourse instance (open source, free) даёт вам threaded discussions.
+> 🏷️ **Ключевые слова:** `github`, `nautilus`, `infrastructure`, `composite`, `agent`, `project`, `intellectual`, `appendix`
+>
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 

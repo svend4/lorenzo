@@ -1,5 +1,25 @@
 # 7. Practical First Steps This Month
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** If problems emerge, they reveal what InGit needs to address.
+> 🔧 **Подход:** Action 3: Sketch initial MCP server design.
+> ✅ **Результат:** Specific Test Case: This Document Series The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7) provide an ideal first test case.
+> 🏷️ **Ключевые слова:** `ingit`, `cowork`, `action`, `month`, `anthropic`, `vacancies`, `practical`, `first`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [7. Practical First Steps This Month](#7-practical-first-steps-this-month)
+  - [7.1. This Week](#71-this-week)
+  - [7.2. This Month](#72-this-month)
+  - [7.3. Next Quarter](#73-next-quarter)
+  - [7.4. Specific Test Case: This Document Series](#74-specific-test-case-this-document-series)
+
+
 <!-- summary -->
 > Concrete actions for the immediate term.
 

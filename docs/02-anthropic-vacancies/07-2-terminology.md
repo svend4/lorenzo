@@ -1,5 +1,14 @@
 # 2. Terminology
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Terminology Ecosystem — набор репозиториев, участвующих в одной федерации.
+> ✅ **Результат:** Consensus — результат сопоставления найденных концептов между несколькими Repos.
+> 🏷️ **Ключевые слова:** `nautilus`, `registry`, `anthropic`, `vacancies`, `terminology`, `native`, `repos`, `проекте`
+>
+
+
 <!-- summary -->
 > **Ecosystem** — набор репозиториев, участвующих в одной федерации.
 

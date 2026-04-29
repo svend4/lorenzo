@@ -1,5 +1,15 @@
 # Индекс «Смотрите также»
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Индекс «Смотрите также» Файлов с блоком See Also: 814 Ключевые связи - 01-executive-summary → 03-component-catalog, 04-ensembles-overview, 07-mvp-planning - 02-methodology → 02-мет
+> 🔧 **Подход:** Индекс «Смотрите также» Файлов с блоком See Also: 814 Ключевые связи - 01-executive-summary → 03-component-catalog, 04-ensembles-overview, 07-mvp-planning - 02-methodology → 02-мет
+> ✅ **Результат:** Индекс «Смотрите также» Файлов с блоком See Also: 814 Ключевые связи - 01-executive-summary → 03-component-catalog, 04-ensembles-overview, 07-mvp-planning - 02-methodology → 02-мет
+> 🏷️ **Ключевые слова:** `appendix`, `nautilus`, `portal`, `protocol`, `ensembles`, `прототипа`, `ансамбли`, `minimal`
+>
+
+
 **Файлов с блоком See Also:** 814
 
 ## Ключевые связи

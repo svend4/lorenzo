@@ -1,5 +1,14 @@
 # The Two-Layer Stack As It Exists
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The problem is what happens between them.
+> ✅ **Результат:** The Anthropic chat interface (and similar products from other providers).
+> 🏷️ **Ключевые слова:** `anthropic`, `document`, `specific`, `vacancies`, `layer`, `exists`, `artifacts`, `human`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

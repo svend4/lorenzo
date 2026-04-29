@@ -1,5 +1,15 @@
 # Executive Summary
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** --- --- Похожие документы: - 155-1-problem-statement(docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.17) - 156-2-target-populations(docs/02-anthropic-vacancies/
+> 🔧 **Подход:** OKWF proposes a foundation-funded infrastructure combining: 1.
+> ✅ **Результат:** Executive Summary The Open Knowledge Work Foundation (OKWF) proposes to build --- Executive Summary The Open Knowledge Work Foundation (OKWF) proposes to build infrastructure that 
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `populations`, `knowledge`, `target`, `foundation`, `existing`, `problem`
+>
+
+
 <!-- summary -->
 > The Open Knowledge Work Foundation (OKWF) proposes to build
 

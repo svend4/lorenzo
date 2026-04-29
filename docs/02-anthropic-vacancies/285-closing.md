@@ -1,5 +1,14 @@
 # Closing
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** That vision rests on infrastructure that partially exists and partially needs building.
+> ✅ **Результат:** The author is unusually positioned to contribute to filling this gap, because the existing Nautilus work provides relevant components.
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `practical`, `infrastructure`, `built`, `recursive`, `insight`, `recommendations`
+>
+
+
 <!-- summary -->
 > The seven documents in this series describe substantial
 

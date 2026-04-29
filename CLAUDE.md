@@ -107,6 +107,11 @@ scripts/
   improve_empty_sections.py    — пустые секции-заглушки; --fill добавляет placeholder
   improve_faceted_search.py    — фасетный поиск (--query, --entity, --type, --section)
   improve_similar_passages.py  — похожие абзацы между файлами TF-IDF cosine → SIMILAR_PASSAGES.md
+  improve_knowledge_map.py     — единый дашборд: корпус + метрики + концепты → KNOWLEDGE_MAP.md
+
+  # Применение изменений к контенту (группа content)
+  improve_auto_linker.py       — авто-ссылки на проекты/технологии в текстах (--apply)
+  improve_gap_filler.py        — заполняет пустые секции BM25-контентом из базы (--apply)
 
 .claude/skills/
   analyze-project.md   — анализ проекта из docs/
@@ -307,6 +312,22 @@ python scripts/improve_faceted_search.py --type projects --section 05-habr-proje
 # Похожий контент
 python scripts/improve_similar_passages.py                        # SIMILAR_PASSAGES.md
 python scripts/improve_similar_passages.py --min-sim 0.7          # только очень похожие
+
+# Дашборд
+python scripts/improve_knowledge_map.py                           # KNOWLEDGE_MAP.md
+```
+
+### Применение изменений к контенту (group content)
+```bash
+# ВНИМАНИЕ: меняют файлы напрямую, использовать осторожно
+python scripts/improve_auto_toc.py --apply                        # TOC во все файлы
+python scripts/improve_abstract.py --apply                        # абстракты во все файлы
+python scripts/improve_auto_linker.py --apply --types projects    # ссылки на проекты
+python scripts/improve_auto_linker.py --apply --min-mentions 5   # только популярные
+python scripts/improve_gap_filler.py --dry-run                    # план заполнения
+python scripts/improve_gap_filler.py --apply --mode link          # вставить ссылки
+python scripts/improve_gap_filler.py --apply --mode cite --top 2 # вставить цитаты
+python scripts/improve_empty_sections.py --fill                   # плейсхолдеры
 ```
 
 ### CI/CD (одноразовая настройка)

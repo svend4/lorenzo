@@ -1,5 +1,27 @@
 # 9. Risks and Open Questions
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Risks and Open Questions(9-risks-and-open-questions) - 9.1.
+> 🔧 **Подход:** Mitigation: InGit Projects with Cowork should be designed for efficient agent use, not chatty interaction.
+> ✅ **Результат:** --- --- Похожие документы: - 318-10-strategic-positioning(docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15) - 311-3-what-ingit-provides-that-cowork-lacks
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `anthropic`, `questions`, `vacancies`, `sensitive`, `integration`, `positioning`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [9. Risks and Open Questions](#9-risks-and-open-questions)
+  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
+  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
+  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
+  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
+  - [9.5. Author Capacity](#95-author-capacity)
+  - [9.6. Open Questions](#96-open-questions)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

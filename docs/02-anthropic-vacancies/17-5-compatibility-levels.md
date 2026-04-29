@@ -1,5 +1,25 @@
 # 5. Compatibility Levels
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Use case: статические Repos (архивы, reference docs), которые не нужно искать.
+> 🔧 **Подход:** Адаптер реализует только describe() метод.
+> ✅ **Результат:** Это позволяет постепенное подключение: существующий Repo может начать на уровне 0 и расти к уровню 3 без переделки.
+> 🏷️ **Ключевые слова:** `level`, `compatibility`, `levels`, `anthropic`, `vacancies`, `может`, `portal`, `repos`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [5. Compatibility Levels](#5-compatibility-levels)
+  - [Level 0 — Discoverable](#level-0-discoverable)
+  - [Level 1 — Readable](#level-1-readable)
+  - [Level 2 — Queryable](#level-2-queryable)
+  - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
+
+
 <!-- summary -->
 > NPP определяет 4 уровня совместимости Repo с экосистемой. Это
 

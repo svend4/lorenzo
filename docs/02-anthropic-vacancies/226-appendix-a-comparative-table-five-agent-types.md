@@ -1,5 +1,14 @@
 # Appendix A: Comparative Table — Five Agent Types
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst
+> 🔧 **Подход:** Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst
+> 🏷️ **Ключевые слова:** `appendix`, `institutional`, `profession`, `anthropic`, `vacancies`, `table`, `individual`, `taxonomy`
+>
+
+
 ## Appendix A: Comparative Table — Five Agent Types
 
 | Property | Type 0: Personal AI Assistant | Type 1: Professional Colleague | Type 2: Institutional | Type 3: Employee | Type 4: Representative |

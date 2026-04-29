@@ -1,5 +1,15 @@
 # 6. Four Deployment Domains
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Meta-agent coordinating multiple advocates on related cases, sharing anonymized patterns, escalating cross-jurisdictional issues.
+> 🔧 **Подход:** Agile methodologies, CI/CD patterns, deployment playbooks, incident postmortems (anonymized), architecture decision records.
+> ✅ **Результат:** Jira AI, Linear AI, GitHub Projects automation — all provide fragments of this architecture but lack Protocol 3.
+> 🏷️ **Ключевые слова:** `triangle`, `domain`, `deployment`, `contents`, `coordination`, `anthropic`, `vacancies`, `double`
+>
+
+
 <!-- summary -->
 > The Double-Triangle Architecture is domain-agnostic but benefits
 

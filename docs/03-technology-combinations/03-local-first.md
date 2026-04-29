@@ -1,5 +1,15 @@
 # Local-first и P2P стек
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B - Средние → облачная DeepSeek - Сложные архитектурные → Claude O
+> 🔧 **Подход:** Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B - Средние → облачная DeepSeek - Сложные архитектурные → Claude O
+> ✅ **Результат:** 2.2 Fault-tolerant агентский граф Router даёт fallback из коробки.
+> 🏷️ **Ключевые слова:** `knowledge`, `technology`, `combinations`, `svyazi`, `articles`, `first`, `cardindex`, `graph`
+>
+
+
 <!-- summary -->
 > - Сложные архитектурные → Claude Opus
 **Проекты:** Svyazi, CardIndex, Yjs

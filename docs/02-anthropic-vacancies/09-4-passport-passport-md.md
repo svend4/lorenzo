@@ -1,5 +1,13 @@
 # 4. Passport (`passport.md`)
 
+<!-- toc-auto -->
+## Contents
+
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Recommended Structure](#42-recommended-structure)
+
+
 <!-- summary -->
 > Passport — human-readable описание Repo, расположенное в корне
 

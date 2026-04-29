@@ -1,5 +1,15 @@
 # Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Не «нет хорошего», а «много good options, нужно выбирать правильную combination».
+> 🔧 **Подход:** Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера !TIP Этот документ описывает MVP-подход.
+> ✅ **Результат:** Уникальные свойства : - Knowledge written for agents, not humans — fundamentally different design - Domain-specific freshness thresholds : алгоритмы стабильны (обновлять не нужно),
+> 🏷️ **Ключевые слова:** `layer`, `memory`, `knowledge`, `agent`, `domain`, `hermes`, `federation`, `ingit`
+>
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 

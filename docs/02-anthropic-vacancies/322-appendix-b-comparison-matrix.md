@@ -1,5 +1,14 @@
 # Appendix B: Comparison Matrix
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix B: Comparison Matrix InGit + Cowork's distinct profile: maximum structure with full --- Appendix B: Comparison Matrix Capability Plain Folder + Cowork InGit + Cowork Notio
+> ✅ **Результат:** --- --- Похожие документы: - 307-abstract(docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.12) - 314-6-refined-ingit-scope-with-cowork-in-mind(docs/02-anthropic-vacancies/3
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `anthropic`, `vacancies`, `appendix`, `plugin`, `dependent`, `abstract`
+>
+
+
 <!-- summary -->
 > InGit + Cowork's distinct profile: maximum structure with full
 

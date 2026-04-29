@@ -1,5 +1,14 @@
 # Appendix C: Configuration Template Example
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Some will remove sub-agents they don't need.
+> ✅ **Результат:** Appendix C: Configuration Template Example For the SGB Advocate Colleague pilot, a starting configuration --- Appendix C: Configuration Template Example For the SGB Advocate Collea
+> 🏷️ **Ключевые слова:** `appendix`, `configuration`, `anthropic`, `vacancies`, `their`, `template`, `agent`, `registry`
+>
+
+
 <!-- summary -->
 > For the SGB Advocate Colleague pilot, a starting configuration
 

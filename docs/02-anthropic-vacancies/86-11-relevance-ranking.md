@@ -1,5 +1,13 @@
 # 11. Relevance Ranking
 
+<!-- toc-auto -->
+## Contents
+
+- [11. Relevance Ranking](#11-relevance-ranking)
+  - [11.1. Scoring Formula](#111-scoring-formula)
+  - [11.2. MAY Extensions](#112-may-extensions)
+
+
 <!-- summary -->
 > v1.1 нормализует алгоритм ранжирования из reference implementation.
 

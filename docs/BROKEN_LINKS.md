@@ -1,5 +1,15 @@
 # Сломанные внутренние ссылки
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** файл не существует docs/01-svyazi/09-architectural-gaps.md 06-security-privacy docs/01-svyazi/06-security-privacy.md файл не существует docs/01-svyazi/09-architectural-gaps.md 07-m
+> 🔧 **Подход:** файл не существует docs/01-svyazi/07-mvp-planning.md 12-roadmap docs/01-svyazi/12-roadmap.md файл не существует docs/01-svyazi/08-conclusions.md 07-выводы docs/04-ai-collaborations
+> ✅ **Результат:** файл не существует docs/01-svyazi/07-mvp-planning.md 12-roadmap docs/01-svyazi/12-roadmap.md файл не существует docs/01-svyazi/08-conclusions.md 07-выводы docs/04-ai-collaborations
+> 🏷️ **Ключевые слова:** `svyazi`, `существует`, `collaborations`, `https`, `github`, `executive`, `planning`, `component`
+>
+
+
 **Найдено:** 4037 проблем
 
 | Файл | Текст ссылки | Цель | Проблема |

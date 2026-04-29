@@ -1,5 +1,25 @@
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Principal-Agent Theory(principal-agent-theory) - Disability and Access(disability-and-ac
+> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
+> 🏷️ **Ключевые слова:** `references`, `principal`, `anthropic`, `vacancies`, `theory`, `disability`, `ethics`, `ссылки`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Principal-Agent Theory](#principal-agent-theory)
+  - [Disability and Access](#disability-and-access)
+  - [Modern AI Ethics](#modern-ai-ethics)
+  - [Companion Documents](#companion-documents)
+
+
 <!-- summary -->
 > - Akerlof, G. (1970). "The Market for Lemons: Quality
 

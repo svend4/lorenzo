@@ -1,5 +1,25 @@
 # 10. Query Flow
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Error Handling(103-error-handling) - 10.4.
+> 🔧 **Подход:** Portal вычисляет consensus по алгоритму раздела 9 7.
+> ✅ **Результат:** Portal собирает resultsbyrepo: dictstr, listPortalEntry 6.
+> 🏷️ **Ключевые слова:** `portal`, `query`, `adapter`, `timeout`, `anthropic`, `vacancies`, `interface`, `error`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [10. Query Flow](#10-query-flow)
+  - [10.1. Lifecycle](#101-lifecycle)
+  - [10.2. Parallelism](#102-parallelism)
+  - [10.3. Error Handling](#103-error-handling)
+  - [10.4. Timeout Behavior](#104-timeout-behavior)
+
+
 <!-- summary -->
 > 1. Client вызывает `portal.query(q, target_repos=None)`
 

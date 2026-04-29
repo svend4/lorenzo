@@ -1,5 +1,23 @@
 # 1. Why Single-Triangle Models Are Incomplete
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The gap needs to be closed not through yet another centralized platform, but through a protocol — a way for the two triangles to negotiate through well-defined interfaces.
+> 🔧 **Подход:** What Both Paradigms Miss Both single-triangle approaches share a structural blind spot: they assume humans exist in one role at a time.
+> 🏷️ **Ключевые слова:** `triangle`, `anthropic`, `vacancies`, `architecture`, `copilot`, `single`, `assistants`, `layer`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
+  - [1.1. The Current Landscape](#11-the-current-landscape)
+  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
+  - [1.3. The Rising Urgency](#13-the-rising-urgency)
+
+
 <!-- summary -->
 > The AI-assisted knowledge work field currently divides into two
 

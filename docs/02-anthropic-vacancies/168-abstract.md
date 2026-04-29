@@ -1,5 +1,14 @@
 # Abstract
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Each category exhibits the same structural problem: gap between value created or held and capacity to make that value visible to relevant counterparties.
+> 🔧 **Подход:** We propose architectural specifications, ethical commitments, governance structures, and rollout pathways.
+> 🏷️ **Ключевые слова:** `abstract`, `anthropic`, `vacancies`, `representative`, `closing`, `agent`, `architectural`, `architecture`
+>
+
+
 <!-- summary -->
 > We introduce the **Representative Agent Layer** — an architectural
 

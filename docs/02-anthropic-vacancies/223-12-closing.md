@@ -1,5 +1,15 @@
 # 12. Closing
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Specifically, an SGB Advocate Colleague pilot can demonstrate the model and serve real need simultaneously.
+> 🔧 **Подход:** «Обучай»'s growth from zero to 93,000 teachers in seven months suggests these systems, when well-designed and addressing real burdens, achieve adoption rapidly.
+> ✅ **Результат:** «Обучай»'s growth from zero to 93,000 teachers in seven months suggests these systems, when well-designed and addressing real burdens, achieve adoption rapidly.
+> 🏷️ **Ключевые слова:** `agents`, `types`, `anthropic`, `vacancies`, `closing`, `agent`, `professional`, `abstract`
+>
+
+
 <!-- summary -->
 > The Representative Agent Layer paper, when first written,
 

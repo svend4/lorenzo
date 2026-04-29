@@ -1,5 +1,13 @@
 # Индекс ссылок
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Индекс ссылок Всего уникальных URL: 120 URL Найден в файлах ---------------------- URL 2 URL 1 URL 1 URL 1 URL 1 URL 1 URL 1 URL 1 URL 6 URL 2 URL 2 URL 1 URL 1 URL 1 URL 4 URL 1 U
+> 🏷️ **Ключевые слова:** `https`, `articles`, `svend`, `github`, `nautilus`, `githubusercontent`, `anthropic`, `companies`
+>
+
+
 Всего уникальных URL: 120
 
 | URL | Найден в файлах |

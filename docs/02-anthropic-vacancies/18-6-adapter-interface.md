@@ -1,5 +1,25 @@
 # 6. Adapter Interface
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Adapter Interface(6-adapter-interface) - 6.1.
+> 🔧 **Подход:** translateto(entry, targetrepo) — Required for Level 3(64-translatetoentry-targetrepo-required-for-level-3) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Implementation MUST: - Возвращать пустой список, если ничего не найдено (не None, не exception) - Ограничить результат разумным числом (SHOULD ≤ 100) - Не выполнять сетевые запросы
+> 🏷️ **Ключевые слова:** `required`, `level`, `adapter`, `interface`, `query`, `anthropic`, `vacancies`, `portalentry`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [6. Adapter Interface](#6-adapter-interface)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
+  - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
+  - [6.4. translateto(entry, targetrepo) — Required for Level 3](#64-translatetoentry-targetrepo-required-for-level-3)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 

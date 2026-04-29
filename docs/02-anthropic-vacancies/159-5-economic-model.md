@@ -1,5 +1,24 @@
 # 5. Economic Model
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Budget Philosophy(51-budget-philosophy) - 5.2.
+> 🔧 **Подход:** --- --- Похожие документы: - 161-7-phased-rollout-plan(docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.18) - 158-4-proposed-infrastructure(docs/02-anthropic-v
+> 🏷️ **Ключевые слова:** `contributor`, `anthropic`, `month`, `vacancies`, `budget`, `total`, `funding`, `infrastructure`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [5. Economic Model](#5-economic-model)
+  - [5.1. Budget Philosophy](#51-budget-philosophy)
+  - [5.2. Three-Year Pilot Budget (Estimated)](#52-three-year-pilot-budget-estimated)
+  - [5.3. Funding Strategy](#53-funding-strategy)
+  - [5.4. Contributor Economics](#54-contributor-economics)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

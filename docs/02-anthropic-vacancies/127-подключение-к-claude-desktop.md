@@ -1,5 +1,15 @@
 # Подключение к Claude Desktop
 
+<!-- toc-auto -->
+## Contents
+
+- [Подключение к Claude Desktop](#подключение-к-claude-desktop)
+  - [macOS](#macos)
+  - [Windows](#windows)
+  - [Linux](#linux)
+  - [Содержимое](#содержимое)
+
+
 <!-- summary -->
 > ~/Library/Application Support/Claude/claude_desktop_config.json
 

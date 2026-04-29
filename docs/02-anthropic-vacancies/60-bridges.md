@@ -1,5 +1,13 @@
 # Bridges
 
+<!-- toc-auto -->
+## Contents
+
+- [Bridges](#bridges)
+  - [meta ↔ pro2](#meta-pro2)
+  - [meta ↔ info1](#meta-info1)
+
+
 <!-- summary -->
 > **Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `pro2/passport.md`).
 

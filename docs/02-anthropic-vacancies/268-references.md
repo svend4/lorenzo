@@ -1,5 +1,24 @@
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources for Composite Architecture(foundational-sources-for-composite-architecture) - Pattern of Composite Mastery(patte
+> 🏷️ **Ключевые слова:** `architecture`, `anthropic`, `vacancies`, `references`, `composite`, `svend`, `companion`, `press`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
+  - [Pattern of Composite Mastery](#pattern-of-composite-mastery)
+  - [Multi-Agent Coordination](#multi-agent-coordination)
+  - [Practical Examples](#practical-examples)
+  - [Companion Documents in This Series](#companion-documents-in-this-series)
+
+
 <!-- summary -->
 > - Anderson, J. R. (1983). *The Architecture of Cognition*.
 

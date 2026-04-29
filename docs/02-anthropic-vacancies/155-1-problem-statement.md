@@ -1,5 +1,15 @@
 # 1. Problem Statement
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** It is a present problem with actionable solutions that require coordinated action now.
+> 🔧 **Подход:** It is a present problem with actionable solutions that require coordinated action now.
+> ✅ **Результат:** The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for AI-assisted workflows.
+> 🏷️ **Ключевые слова:** `anthropic`, `demand`, `vacancies`, `problem`, `positions`, `populations`, `summary`, `paradox`
+>
+
+
 <!-- summary -->
 > The AI industry in 2026 exhibits an apparent paradox. Frontier
 

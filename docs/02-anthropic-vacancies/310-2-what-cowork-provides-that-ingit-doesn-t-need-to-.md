@@ -1,5 +1,15 @@
 # 2. What Cowork Provides That InGit Doesn't Need to Build
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What Cowork Provides That InGit Doesn't Need to Build(2-what-cowork-provides-that-ingit-doesnt-need-to-build) - 2.1.
+> 🔧 **Подход:** Claude in Cowork can: - Read multiple files, synthesize information - Make decisions about approach - Execute shell commands in isolated VM - Iterate based on results - Coordinate 
+> ✅ **Результат:** What Cowork Provides That InGit Doesn't Need to Build(2-what-cowork-provides-that-ingit-doesnt-need-to-build) - 2.1.
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `provides`, `roadmap`, `build`, `anthropic`, `vacancies`, `memory`
+>
+
+
 <!-- summary -->
 > If InGit positions to complement Cowork rather than replace
 

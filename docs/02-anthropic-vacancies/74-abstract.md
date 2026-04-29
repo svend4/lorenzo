@@ -1,5 +1,14 @@
 # Abstract
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации --- Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации независимых Git-репозито
+> 🔧 **Подход:** Алгоритм вычисления консенсуса между репозиториями 6.
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `abstract`, `introduction`, `terminology`, `nautilus`, `федерации`, `сходство`
+>
+
+
 <!-- summary -->
 > Nautilus Portal Protocol (далее — **NPP**) определяет способ федерации
 

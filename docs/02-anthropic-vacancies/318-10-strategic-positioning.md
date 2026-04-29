@@ -1,5 +1,15 @@
 # 10. Strategic Positioning
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.
+> 🔧 **Подход:** InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.
+> ✅ **Результат:** The combination provides perspective neither pure technologist nor pure practitioner could achieve.
+> 🏷️ **Ключевые слова:** `ingit`, `cowork`, `anthropic`, `author`, `agent`, `nautilus`, `vacancies`, `strategic`
+>
+
+
 <!-- summary -->
 > Closing thoughts on broader strategic implications.
 

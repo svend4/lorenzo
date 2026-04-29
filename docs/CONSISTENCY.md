@@ -1,5 +1,26 @@
 # Согласованность терминов
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Согласованность терминов Contents - Детали по файлам(детали-по-файлам) - knowledgespace → должно быть knowledge-space(knowledgespace-должно-быть-knowledge-space) - knowledge space 
+> 🏷️ **Ключевые слова:** `должно`, `knowledge`, `space`, `svyazi`, `memory`, `factory`, `anthropic`, `vacancies`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Детали по файлам](#детали-по-файлам)
+  - [knowledgespace → должно быть knowledge-space](#knowledgespace-должно-быть-knowledge-space)
+  - [knowledge space → должно быть knowledge-space](#knowledge-space-должно-быть-knowledge-space)
+  - [AI-Factory → должно быть AI Factory](#ai-factory-должно-быть-ai-factory)
+  - [NGT-Memory → должно быть NGT Memory](#ngt-memory-должно-быть-ngt-memory)
+  - [self-improve → должно быть self-improvement](#self-improve-должно-быть-self-improvement)
+  - [Svyazi-2.0 → должно быть Svyazi 2.0](#svyazi-20-должно-быть-svyazi-20)
+- [Как исправить](#как-исправить)
+
+
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |

@@ -1,5 +1,24 @@
 # 6. Refined InGit Scope with Cowork in Mind
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** --- --- Похожие документы: - 310-2-what-cowork-provides-that-ingit-doesn-t-need-to-(docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство
+> ✅ **Результат:** Net timeline: From 10-16 months to roughly 12 months, with much higher quality result.
+> 🏷️ **Ключевые слова:** `months`, `cowork`, `ingit`, `phase`, `scope`, `effort`, `provides`, `anthropic`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [6. Refined InGit Scope with Cowork in Mind](#6-refined-ingit-scope-with-cowork-in-mind)
+  - [6.1. New Phase 1 (Months 1-3): Substrate MVP](#61-new-phase-1-months-1-3-substrate-mvp)
+  - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
+  - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
+  - [6.4. Total Reduced Scope](#64-total-reduced-scope)
+
+
 <!-- summary -->
 > The original InGit roadmap (10-16 months to v1.0) reflected
 

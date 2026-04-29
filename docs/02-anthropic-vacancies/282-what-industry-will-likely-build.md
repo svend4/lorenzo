@@ -1,5 +1,13 @@
 # What Industry Will Likely Build
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Likely Build Independent of what the author does, the industry wi
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `layer`, `build`, `industry`, `likely`, `infrastructure`, `notion`
+>
+
+
 <!-- summary -->
 > Independent of what the author does, the industry will move
 

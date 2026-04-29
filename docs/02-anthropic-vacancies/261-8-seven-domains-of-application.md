@@ -1,5 +1,15 @@
 # 8. Seven Domains of Application
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Typical configurations: A jazz pianist who teaches has different needs from a classical violinist, who has different needs from an electronic music producer.
+> 🔧 **Подход:** Typical configurations: A computational biologist working on epidemiology with humanities co-authors faces unique configuration needs combining biology, computer science, epidemiol
+> ✅ **Результат:** Pattern Across Domains What unites these domains: - Practice is deeply specialized, but specialization combines rather than replaces general profession competency - Practitioners t
+> 🏷️ **Ключевые слова:** `domain`, `specific`, `domains`, `practice`, `pattern`, `agents`, `configurations`, `application`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

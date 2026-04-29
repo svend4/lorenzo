@@ -1,5 +1,15 @@
 # 🇬🇧 About
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Documentation - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in
+> 🔧 **Подход:** - 0: Discoverable — declared in registry only - 1: Readable — has passport + describe() method - 2: Queryable — implements fetch(query) — search works - 3: Interactive — translatet
+> ✅ **Результат:** Reports always show attribution — which repo each result came from.
+> 🏷️ **Ключевые слова:** `nautilus`, `portal`, `protocol`, `reference`, `https`, `anthropic`, `svend`, `passports`
+>
+
+
 <!-- summary -->
 > Nautilus is a **federation protocol** and reference implementation
 

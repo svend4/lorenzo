@@ -1,5 +1,15 @@
 # 3. Three Inter-Layer Protocols
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Instead, it issues a structured query that travels: A → N → M → N' → A' → response back through the chain.
+> 🔧 **Подход:** Three Inter-Layer Protocols !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** The Node issues tasks to assistants, reviews outputs, integrates results.
+> 🏷️ **Ключевые слова:** `protocol`, `assistant`, `triangle`, `nodes`, `assistants`, `agent`, `anthropic`, `context`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 

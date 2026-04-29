@@ -1,5 +1,13 @@
 # Appendix B: Change Log
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Change Log](#appendix-b-change-log)
+  - [v1.1.0-draft (2026-04-19)](#v110-draft-2026-04-19)
+  - [v1.0.0-draft (2026-04 earlier)](#v100-draft-2026-04-earlier)
+
+
 <!-- summary -->
 > - **New**: Q6 as normative concept (section 8, ADR-002)
 

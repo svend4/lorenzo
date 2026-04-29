@@ -1,5 +1,27 @@
 # 3. Registry (`nautilus.json`)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Registry (nautilus.json)(3-registry-nautilusjson) - 3.1.
+> 🔧 **Подход:** AutoAdapter Special Case(36-autoadapter-special-case) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Это enables Onboarding Path C (self-declaring repo).
+> 🏷️ **Ключевые слова:** `registry`, `nautilus`, `terminology`, `fields`, `anthropic`, `vacancies`, `autoadapter`, `required`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+  - [3.6. AutoAdapter Special Case](#36-autoadapter-special-case)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 

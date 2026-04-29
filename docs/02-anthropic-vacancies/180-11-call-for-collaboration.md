@@ -1,5 +1,27 @@
 # 11. Call for Collaboration
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Pilot partnerships allow the technology to develop in service of actual need rather than imagined need.
+> 🔧 **Подход:** Your needs should drive design decisions.
+> 🏷️ **Ключевые слова:** `collaboration`, `organizations`, `invite`, `anthropic`, `vacancies`, `social`, `critics`, `researchers`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [11. Call for Collaboration](#11-call-for-collaboration)
+  - [11.1. For AI Researchers](#111-for-ai-researchers)
+  - [11.2. For Social Service Organizations](#112-for-social-service-organizations)
+  - [11.3. For Disability Rights Organizations](#113-for-disability-rights-organizations)
+  - [11.4. For Foundation Funders](#114-for-foundation-funders)
+  - [11.5. For Policymakers](#115-for-policymakers)
+  - [11.6. For Potential Principals](#116-for-potential-principals)
+  - [11.7. For Critics](#117-for-critics)
+
+
 <!-- summary -->
 > This paper is offered as starting point, not finished
 

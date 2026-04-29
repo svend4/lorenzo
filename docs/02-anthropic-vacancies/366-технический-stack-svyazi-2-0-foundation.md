@@ -1,5 +1,14 @@
 # Технический stack (Svyazi 2.0 foundation)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Запрос проанализировать нужно проанализировать то что уже сделано то информацию которая уже есть благодаря этим последним нескольким документам благодаря тем что уже было сделано в
+> 🔧 **Подход:** cardid (immutable) cardtype (person/project/episode/doc/hypothesis) state (raw/normalized/inferred/approved/rejected/decayed) sources edges updatedat payloadhash sourceid pageorspa
+> 🏷️ **Ключевые слова:** `svyazi`, `lorenzo`, `layer`, `foundation`, `документ`, `новых`, `вопросы`, `которые`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

@@ -1,5 +1,27 @@
 # Похожие документы
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Похожие документы Contents - Топ-20 самых похожих пар(топ-20-самых-похожих-пар) - По разделам(по-разделам) - 02-anthropic-vacancies(02-anthropic-vacancies) - 03-technology-combinat
+> 🔧 **Подход:** Похожие документы Contents - Топ-20 самых похожих пар(топ-20-самых-похожих-пар) - По разделам(по-разделам) - 02-anthropic-vacancies(02-anthropic-vacancies) - 03-technology-combinat
+> ✅ **Результат:** Топ-20 самых похожих пар Сходство Файл A Файл B -------------------------- 1.000 13-контактная-стратегия-и-узкие-вопросы-для-авторов.md 13-contacts.md 1.000 12-дорожная-карта-прото
+> 🏷️ **Ключевые слова:** `похожих`, `прототипа`, `federation`, `merging`, `query`, `compatibility`, `level`, `самых`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Топ-20 самых похожих пар](#топ-20-самых-похожих-пар)
+- [По разделам](#по-разделам)
+  - [02-anthropic-vacancies](#02-anthropic-vacancies)
+  - [03-technology-combinations](#03-technology-combinations)
+  - [04-ai-collaborations](#04-ai-collaborations)
+  - [05-habr-projects](#05-habr-projects)
+  - [root](#root)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 

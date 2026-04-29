@@ -1,5 +1,14 @@
 # 10. Appendices
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix F: Document Metadata Document status: Working draft, seeking feedback Review version: v1.0.0-draft Next planned revision: v1.1-draft incorporating partner feedback Primary
+> 🔧 **Подход:** Author proposes serving as founder but not necessarily Executive Director.
+> 🏷️ **Ключевые слова:** `appendix`, `anthropic`, `partial`, `infrastructure`, `partnership`, `author`, `vacancies`, `status`
+>
+
+
 <!-- summary -->
 > **Nautilus Portal Protocol v1.1**:
 

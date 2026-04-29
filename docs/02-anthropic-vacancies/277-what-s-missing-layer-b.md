@@ -1,5 +1,14 @@
 # What's Missing — Layer B
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What's Missing — Layer B Between chat and repository, there should exist Layer B: an --- What's Missing — Layer B Between chat and repository, there should exist Layer B: an intell
+> ✅ **Результат:** Documents could be versioned, with diffs shown, but without the cultural overhead of pull requests and code review processes.
+> 🏷️ **Ключевые слова:** `layer`, `could`, `would`, `anthropic`, `vacancies`, `specific`, `repository`, `project`
+>
+
+
 <!-- summary -->
 > Between chat and repository, there should exist Layer B: an
 

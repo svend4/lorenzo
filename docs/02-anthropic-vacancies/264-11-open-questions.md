@@ -1,5 +1,27 @@
 # 11. Open Questions
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What signals suggest configuration revision is needed?
+> 🏷️ **Ключевые слова:** `composite`, `questions`, `agent`, `agents`, `configuration`, `configurations`, `anthropic`, `vacancies`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [11. Open Questions](#11-open-questions)
+  - [11.1. Granularity Questions](#111-granularity-questions)
+  - [11.2. Configuration Stability](#112-configuration-stability)
+  - [11.3. Cross-Professional Configurations](#113-cross-professional-configurations)
+  - [11.4. Configuration Evolution at Scale](#114-configuration-evolution-at-scale)
+  - [11.5. Sub-Agent Quality Across Cultures](#115-sub-agent-quality-across-cultures)
+  - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
+  - [11.7. The "Emergence" Question](#117-the-emergence-question)
+  - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

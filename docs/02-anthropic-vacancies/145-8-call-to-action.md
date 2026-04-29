@@ -1,5 +1,14 @@
 # 8. Call to Action
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Contact: via GitHub issues at github.com/svend4/nautilus(URL --- --- Похожие документы: - 136-abstract(docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.18) - 143-6-four-dep
+> 🔧 **Подход:** Early experimentation informs future workplace design.
+> 🏷️ **Ключевые слова:** `triangle`, `double`, `domains`, `pattern`, `anthropic`, `vacancies`, `single`, `research`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

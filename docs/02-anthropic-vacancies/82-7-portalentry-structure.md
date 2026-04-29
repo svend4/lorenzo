@@ -1,5 +1,23 @@
 # 7. PortalEntry Structure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** PortalEntry Structure(7-portalentry-structure) - 7.1.
+> 🔧 **Подход:** Q6 Metadata(72-q6-metadata) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Implementation MAY расширять список - content — полный текст/представление, MAY быть большим - metadata — MUST содержать q6 для Level 2+ адаптеров - links — список id из других Rep
+> 🏷️ **Ключевые слова:** `portalentry`, `structure`, `anthropic`, `vacancies`, `metadata`, `format`, `adapter`, `interface`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 

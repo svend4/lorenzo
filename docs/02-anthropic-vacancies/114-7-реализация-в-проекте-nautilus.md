@@ -1,5 +1,23 @@
 # 7. Реализация в проекте Nautilus
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Реализация в проекте Nautilus Contents - 7.
+> 🔧 **Подход:** В будущем методология может быть формализована в NPP v2.0 как рекомендованный workflow для community-contributed documentation.
+> 🏷️ **Ключевые слова:** `nautilus`, `применения`, `anthropic`, `vacancies`, `status`, `workflow`, `реализация`, `проекте`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
+  - [7.1. Хронология применения](#71-хронология-применения)
+  - [7.2. Артефакты](#72-артефакты)
+  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
+
+
 <!-- summary -->
 > **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md**
 

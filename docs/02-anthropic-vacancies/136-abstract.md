@@ -1,5 +1,14 @@
 # Abstract
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** We conclude with open questions on governance, consent, economics, and burnout dynamics, and invite research collaboration on these unsolved issues.
+> ✅ **Результат:** Reference implementation via Nautilus Portal Protocol (NPP v1.1), which provides the federated knowledge substrate required to support the architecture 3.
+> 🏷️ **Ключевые слова:** `triangle`, `anthropic`, `vacancies`, `single`, `architecture`, `human`, `double`, `knowledge`
+>
+
+
 <!-- summary -->
 > We introduce the **Double-Triangle Architecture** for human-AI
 

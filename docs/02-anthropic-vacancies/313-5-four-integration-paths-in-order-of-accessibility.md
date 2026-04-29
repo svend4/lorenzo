@@ -1,5 +1,15 @@
 # 5. Four Integration Paths in Order of Accessibility
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** --- --- Похожие документы: - 311-3-what-ingit-provides-that-cowork-lacks(docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16) - 310-2-what-co
+> 🔧 **Подход:** Path 2 without Path 1 risks designing wrong tools.
+> ✅ **Результат:** Requires Anthropic to enable substantial third-party extension.
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `project`, `anthropic`, `integration`, `provides`, `paths`, `server`
+>
+
+
 <!-- summary -->
 > We identify four paths from most-immediate to most-mature.
 

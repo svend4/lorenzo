@@ -1,5 +1,24 @@
 # Рекомендуемый порядок чтения
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Problem Statement(docs/02-anthropic-vacancies/155-1-problem-statement.md) 534 — 189 🟢 Начало 2.
+> 🔧 **Подход:** Why Existing Solutions Fail(docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) 612 — 191 🟢 Начало 4.
+> ✅ **Результат:** What InGit Provides That Cowork Lacks(docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) 747 — 342 🟢 Начало 5.
+> 🏷️ **Ключевые слова:** `anthropic`, `начало`, `vacancies`, `appendix`, `svyazi`, `cowork`, `средний`, `agent`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Маршруты по целям](#маршруты-по-целям)
+  - [🚀 Быстрый старт (30 минут)](#быстрый-старт-30-минут)
+  - [🏗️ Архитектура (2 часа)](#архитектура-2-часа)
+  - [🔬 Полное исследование (1 день)](#полное-исследование-1-день)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 

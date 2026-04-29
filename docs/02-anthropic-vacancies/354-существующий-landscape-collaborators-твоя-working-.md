@@ -1,5 +1,13 @@
 # Существующий landscape collaborators (твоя working knowledge)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Существующий landscape collaborators (твоя working knowledge) В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more): Проекты: CardIndex, knowl
+> 🏷️ **Ключевые слова:** `knowledge`, `memory`, `space`, `anthropic`, `graph`, `agent`, `collaborators`, `protocol`
+>
+
+
 <!-- summary -->
 > В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):
 **Проекты:** CardIndex, knowledge-space, NGT Memory, Wikontic

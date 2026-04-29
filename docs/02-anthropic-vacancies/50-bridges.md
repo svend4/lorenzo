@@ -1,5 +1,13 @@
 # Bridges
 
+<!-- toc-auto -->
+## Contents
+
+- [Bridges](#bridges)
+  - [pro2 ↔ info1](#pro2-info1)
+  - [pro2 ↔ meta](#pro2-meta)
+
+
 <!-- summary -->
 > **Q6-concept-depth ↔ α-level**. Глубина концепта в Q6-графе (число
 

@@ -1,5 +1,14 @@
 # 3. What InGit Provides That Cowork Lacks
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** If you use Cowork extensively and later need to switch platforms (Gemini, GPT, local models), Cowork-specific patterns don't transfer.
+> ✅ **Результат:** What InGit Provides That Cowork Lacks Equally important: where does InGit add value that Cowork alone doesn't provide?
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `provides`, `anthropic`, `encryption`, `structure`, `metadata`, `validation`
+>
+
+
 <!-- summary -->
 > Equally important: where does InGit add value that Cowork
 

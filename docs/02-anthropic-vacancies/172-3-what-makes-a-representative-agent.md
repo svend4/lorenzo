@@ -1,5 +1,14 @@
 # 3. What Makes a Representative Agent
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Adapting them to AI principals is a key research and design challenge addressed in Sections 6 and 7.
+> 🔧 **Подход:** Adapting them to AI principals is a key research and design challenge addressed in Sections 6 and 7.
+> 🏷️ **Ключевые слова:** `agent`, `principal`, `representative`, `assistants`, `makes`, `relationship`, `current`, `function`
+>
+
+
 <!-- summary -->
 > A Representative Agent is distinct from existing AI categories.
 

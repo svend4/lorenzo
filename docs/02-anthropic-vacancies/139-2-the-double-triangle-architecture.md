@@ -1,5 +1,15 @@
 # 2. The Double-Triangle Architecture
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🔧 **Подход:** The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** N conducts the triangle: tasks flow downward from N to assistants, results flow upward from assistants to N for integration.
+> 🏷️ **Ключевые слова:** `triangle`, `architecture`, `human`, `assistants`, `context`, `level`, `anthropic`, `vacancies`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 

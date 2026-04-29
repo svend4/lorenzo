@@ -1,5 +1,15 @@
 # 2. What Makes a Professional Colleague Agent
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The practitioner does not need to re-explain professional context with each interaction.
+> 🔧 **Подход:** The agent has deep, persistent knowledge of professional norms, methodologies, regulations, vocabulary, and templates.
+> ✅ **Результат:** Provide rapid access to professional knowledge bases — case law, clinical literature, methodological references, regulatory updates.
+> 🏷️ **Ключевые слова:** `professional`, `agent`, `colleague`, `practitioner`, `agents`, `anthropic`, `vacancies`, `property`
+>
+
+
 <!-- summary -->
 > We now develop Type 1 in detail.
 

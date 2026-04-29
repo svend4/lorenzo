@@ -199,6 +199,14 @@ GROUPS = {
         "improve_empty_sections.py",     # пустые секции-заглушки
         "improve_faceted_search.py",     # фасетный поиск (запускать с --query)
         "improve_similar_passages.py",   # похожие абзацы TF-IDF cosine
+        "improve_knowledge_map.py",      # единый дашборд → KNOWLEDGE_MAP.md
+    ],
+    "content": [
+        # Применение изменений к контенту (запускать осторожно — меняют файлы)
+        "improve_auto_toc.py",           # TOC во все файлы (--apply)
+        "improve_abstract.py",           # абстракты во все файлы (--apply)
+        "improve_auto_linker.py",        # внутренние ссылки (--apply)
+        "improve_gap_filler.py",         # заполнить пустые секции (--apply)
     ],
 }
 
@@ -228,6 +236,8 @@ SLOW_SCRIPTS = {
     "improve_passage_retrieval.py",# строит passages.json
     "improve_similar_passages.py", # попарное TF-IDF сравнение абзацев
     "improve_textrank.py",         # TextRank на всех файлах
+    "improve_gap_filler.py",       # BM25-поиск + вставка в файлы
+    "improve_auto_linker.py",      # вставка ссылок в тексты
 }
 
 # Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
@@ -240,7 +250,7 @@ LLM_SCRIPTS = {
 
 GROUP_ORDER = ["structure", "index", "analysis", "extract",
                "quality", "graph", "generate", "reports", "export",
-               "cicd", "analytics", "textwork", "deeptext", "nlpplus"]
+               "cicd", "analytics", "textwork", "deeptext", "nlpplus", "content"]
 
 # ---------------------------------------------------------------------------
 # Stage 2: условное выполнение по результату предыдущих скриптов

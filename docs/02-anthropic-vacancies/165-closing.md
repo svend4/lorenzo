@@ -1,5 +1,15 @@
 # Closing
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolation.
+> 🔧 **Подход:** Андрей формулирует это explicitly как архитектурный invariant : «expensive operations only on pre-filtered shortlist».
+> ✅ **Результат:** Идея 3: Стиль написания примеров в документации Андрей даёт сквозной пример через все 6 слоёв с конкретными данными.
+> 🏷️ **Ключевые слова:** `agent`, `свйази`, `matching`, `agents`, `может`, `contributor`, `который`, `nautilus`
+>
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 

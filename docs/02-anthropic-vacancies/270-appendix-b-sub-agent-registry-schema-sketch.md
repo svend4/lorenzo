@@ -1,5 +1,13 @@
 # Appendix B: Sub-Agent Registry Schema (Sketch)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, su
+> 🏷️ **Ключевые слова:** `appendix`, `anthropic`, `vacancies`, `example`, `schema`, `agent`, `registry`, `decision`
+>
+
+
 <!-- summary -->
 > For implementation, sub-agent registry entries might follow
 

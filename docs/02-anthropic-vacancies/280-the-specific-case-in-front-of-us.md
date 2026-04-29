@@ -1,5 +1,15 @@
 # The Specific Case in Front of Us
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Future Claude sessions about specific aspects of this work need specific context — not the whole 50,000 words.
+> 🔧 **Подход:** The author may want to try two different approaches to Composite Skills Agent rollout, develop both, compare them, and choose.
+> ✅ **Результат:** When the author shows the documents to potential collaborators, those collaborators will want to comment on specific sections.
+> 🏷️ **Ключевые слова:** `specific`, `documents`, `anthropic`, `github`, `layer`, `context`, `vacancies`, `option`
+>
+
+
 <!-- summary -->
 > The seven documents produced in this session have specific
 

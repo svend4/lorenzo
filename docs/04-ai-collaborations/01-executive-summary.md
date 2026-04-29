@@ -1,5 +1,14 @@
 # Executive summary
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Executive summary Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 !IMPORTANT Главный документ 
+> ✅ **Результат:** citeturn33view2turn27view0turn21view1turn22view3turn21view4turn20view16turn39view3turn20view2turn20view3turn20view4turn20view11turn20view5turn34view2turn34view3turn
+> 🏷️ **Ключевые слова:** `svyazi`, `проект`, `summary`, `cardindex`, `agentfs`, `executive`, `rufler`, `memory`
+>
+
+
 <!-- autofill-status -->
 ## Статус
 

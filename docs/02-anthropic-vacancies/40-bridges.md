@@ -1,5 +1,14 @@
 # Bridges
 
+<!-- toc-auto -->
+## Contents
+
+- [Bridges](#bridges)
+  - [info1 ↔ pro2](#info1-pro2)
+  - [info1 ↔ meta](#info1-meta)
+  - [Способ обращения через мост](#способ-обращения-через-мост)
+
+
 <!-- summary -->
 > **α-level ↔ Q6-concept-depth**. Уровень α в `info1` коррелирует с
 

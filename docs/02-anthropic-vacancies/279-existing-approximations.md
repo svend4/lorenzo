@@ -1,5 +1,26 @@
 # Existing Approximations
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** It solves part of the problem (persistent context) but not the threading and structural needs.
+> 🔧 **Подход:** Limitations: - No AI collaboration - Not designed for documents as first-class artifacts - Not designed for project-style work tracking These tools are good for community discussio
+> ✅ **Результат:** Anthropic Projects Provides persistent context across multiple chats grouped around a topic.
+> 🏷️ **Ключевые слова:** `anthropic`, `layer`, `vacancies`, `existing`, `github`, `discussions`, `tools`, `projects`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+
+
 <!-- summary -->
 > Several existing tools approximate parts of what Layer B
 

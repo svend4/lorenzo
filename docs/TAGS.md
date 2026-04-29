@@ -1,5 +1,32 @@
 # Индекс тегов
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** anthropic (79 файлов) - docs/02-anthropic-vacancies/00-intro.md - docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md - docs/02-anthropic-vacancies/02-общий-план-р
+> 🔧 **Подход:** Индекс тегов Contents - anthropic (79 файлов)(anthropic-79-файлов) - architecture (205 файлов)(architecture-205-файлов) - collaboration (155 файлов)(collaboration-155-файлов) - ing
+> ✅ **Результат:** anthropic (79 файлов) - docs/02-anthropic-vacancies/00-intro.md - docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md - docs/02-anthropic-vacancies/02-общий-план-р
+> 🏷️ **Ключевые слова:** `svyazi`, `anthropic`, `vacancies`, `файлов`, `ensembles`, `roadmap`, `security`, `nautilus`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [#anthropic (79 файлов)](#anthropic-79-файлов)
+- [#architecture (205 файлов)](#architecture-205-файлов)
+- [#collaboration (155 файлов)](#collaboration-155-файлов)
+- [#ingestion (75 файлов)](#ingestion-75-файлов)
+- [#knowledge (46 файлов)](#knowledge-46-файлов)
+- [#local-first (57 файлов)](#local-first-57-файлов)
+- [#memory (52 файлов)](#memory-52-файлов)
+- [#orchestration (54 файлов)](#orchestration-54-файлов)
+- [#rag (110 файлов)](#rag-110-файлов)
+- [#roadmap (104 файлов)](#roadmap-104-файлов)
+- [#security (39 файлов)](#security-39-файлов)
+- [#self-improvement (45 файлов)](#self-improvement-45-файлов)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 

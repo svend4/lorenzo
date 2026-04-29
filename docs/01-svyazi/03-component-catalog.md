@@ -1,3 +1,12 @@
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.
+> 🔧 **Подход:** 6 слоёв, YAML, SHA256‑дедупликация, Ollama+Qwen, LLM^llm+детерминированный код, CardIndex^cardindex, privacy by design.
+> ✅ **Результат:** citeturn15search1turn15search5 Очень высокая: даёт visual grounding, которого Svyazi‑подобным системам обычно не хватает.
+> 🏷️ **Ключевые слова:** `search`, `memory`, `высокая`, `github`, `активный`, `svyazi`, `неуточнено`, `first`
+>
+
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
 
 ## Карта найденных проектов и паттернов

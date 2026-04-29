@@ -1,5 +1,14 @@
 # Why This Hasn't Been Built
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Infrastructure built in the last three years is mostly focused on the chat layer, where the immediate need was visible.
+> ✅ **Результат:** Wikis showed cross-references can work but did not integrate AI collaboration.
+> 🏷️ **Ключевые слова:** `anthropic`, `layer`, `vacancies`, `exists`, `built`, `explanation`, `collaboration`, `closing`
+>
+
+
 <!-- summary -->
 > Several explanations for the gap.
 

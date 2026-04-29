@@ -1,5 +1,14 @@
 # 2. Target Populations
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Disabled Specialists with Modified Work Requirements Size estimate: 5M+ in OECD countries with preserved intellectual capacity and specific support needs.
+> 🔧 **Подход:** --- --- Похожие документы: - 153-executive-summary(docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.17) - 155-1-problem-statement(docs/02-anthropic-vacancies/155-1
+> 🏷️ **Ключевые слова:** `anthropic`, `capacity`, `legal`, `vacancies`, `retired`, `value`, `technical`, `contributing`
+>
+
+
 <!-- summary -->
 > **Size estimate**: 500K+ in OECD countries with relevant skills
 

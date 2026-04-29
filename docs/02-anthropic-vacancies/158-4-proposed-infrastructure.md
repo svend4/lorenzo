@@ -1,5 +1,15 @@
 # 4. Proposed Infrastructure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.
+> 🔧 **Подход:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.
+> ✅ **Результат:** Legal and Compliance Layer What it provides: - Single contractual interface for contributors (across jurisdictions) - Tax compliance infrastructure - GDPR-compliant data handling -
+> 🏷️ **Ключевые слова:** `guild`, `layer`, `level`, `nautilus`, `triangle`, `foundation`, `contributors`, `pattern`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

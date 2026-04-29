@@ -1,5 +1,15 @@
 # Final note: Ты — experiment
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Проекты: Svyazi, CardIndex, mclaude, Rufler --- Содержание - Final note: Ты — experiment(final-note-ты-experiment) - Что я только что сделал(что-я-только-что-сделал) - Что нужно de
+> 🔧 **Подход:** Запрос Самая интересная «внуковая» комбинация из всего найденного: Habr Scout → Svyazi-like карточки авторов/проектов → Collaboration Knowledge OS → Agent Team Kernel → Forensic RA
+> ✅ **Результат:** - Option 3 даёт immediate test of voice - Option 2 даёт portable artifact Что предпочитаете?
+> 🏷️ **Ключевые слова:** `lorenzo`, `agent`, `option`, `anthropic`, `системный`, `промпт`, `альтернативы`, `knowledge`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

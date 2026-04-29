@@ -1,5 +1,14 @@
 # 7. PortalEntry Structure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🔧 **Подход:** PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `portalentry`, `structure`, `anthropic`, `vacancies`, `данных`, `registry`, `summary`, `унифицированная`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 

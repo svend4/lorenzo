@@ -1,5 +1,47 @@
 # Часто задаваемые вопросы (FAQ)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** - Верхний треугольник — частично через GitHub Issues/Linear/Asana с AI-assisted triage.
+> 🔧 **Подход:** → 68-about(docs/02-anthropic-vacancies/68-about.md) Лицензия Какой подход resonates?
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `questions`, `agent`, `nautilus`, `какой`, `legal`, `такое`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Архитектура](#архитектура)
+  - [Что такое MCP?](#что-такое-mcp)
+  - [Каков статус готовности MVP?](#каков-статус-готовности-mvp)
+  - [Какой вариант резонирует?](#какой-вариант-резонирует)
+- [MVP/Запуск](#mvpзапуск)
+  - [С чего начать?](#с-чего-начать)
+  - [Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать?](#сейчас-для-этой-конкретной-сессии-с-семью-документами-что-вы-хотите-сделать)
+- [Компоненты](#компоненты)
+  - [Какова лицензия проекта?](#какова-лицензия-проекта)
+  - [Как связаться с авторами компонентов?](#как-связаться-с-авторами-компонентов)
+- [Интеграция](#интеграция)
+  - [Какой направление приоритетно?](#какой-направление-приоритетно)
+  - [Это реализуется существующими tools?](#это-реализуется-существующими-tools)
+  - [Является ли наш Nautilus Portal Protocol still valuable? Или HMP makes it redundant?](#является-ли-наш-nautilus-portal-protocol-still-valuable-или-hmp-makes-it-redundant)
+  - [Question Set 4: Your resources 4a) Budget для setup (€500-1500 одноразовый)?](#question-set-4-your-resources-4a-budget-для-setup-500-1500-одноразовый)
+  - [Набор вопросов 4: Ваши ресурсы 4a) Бюджет для setup (€500-1500 одноразово)?](#набор-вопросов-4-ваши-ресурсы-4a-бюджет-для-setup-500-1500-одноразово)
+  - [Why "Nautilus"?](#why-nautilus)
+- [Лицензия](#лицензия)
+  - [Какой подход resonates? Integration в OKWF document, или separate short paper?](#какой-подход-resonates-integration-в-okwf-document-или-separate-short-paper)
+- [Общее](#общее)
+  - [Что такое Svyazi 2.0?](#что-такое-svyazi-20)
+  - [9.1. Перед началом (Pre-Phase A) - [ ] Документ действительно критически важен (см. §4.1)?](#91-перед-началом-pre-phase-a---документ-действительно-критически-важен-см-41)
+  - [Что из этого feels aligned с вашими current capabilities и interest?](#что-из-этого-feels-aligned-с-вашими-current-capabilities-и-interest)
+  - [10.3. Legal Questions What's the legal status of agent communications?](#103-legal-questions-whats-the-legal-status-of-agent-communications)
+  - [10.4. Social Questions Will representative agents reduce or increase inequality?](#104-social-questions-will-representative-agents-reduce-or-increase-inequality)
+  - [How do we ensure access for those who cannot pay?](#how-do-we-ensure-access-for-those-who-cannot-pay)
+  - [What's the legal status of agent communications?](#whats-the-legal-status-of-agent-communications)
+  - [10.3. Правовые Вопросы Каков правовой статус коммуникаций агента? Они обязательны для принципала?](#103-правовые-вопросы-каков-правовой-статус-коммуникаций-агента-они-обязательны-для-принципала)
+
+
 _Извлечено: 54 вопросов и ответов_
 
 

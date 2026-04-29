@@ -1,5 +1,14 @@
 # 1. The Cowork Discovery and Why It Changes Everything
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Position InGit as the structure layer that Cowork needs.
+> ✅ **Результат:** Leverage Cowork's agentic intelligence; provide structured workspace substrate that Cowork's general- purpose Project storage doesn't.
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `document`, `anthropic`, `layer`, `provides`, `vacancies`, `changes`
+>
+
+
 <!-- summary -->
 > When Document 2.3 was written earlier in this session, the
 

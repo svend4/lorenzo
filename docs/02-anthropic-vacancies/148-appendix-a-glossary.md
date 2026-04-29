@@ -1,5 +1,14 @@
 # Appendix A: Glossary
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие практики.
+> 🔧 **Подход:** - Three-phase review: Methodology for parallel AI-agent review with subsequent consolidation.
+> 🏷️ **Ключевые слова:** `triangle`, `architecture`, `pattern`, `anthropic`, `vacancies`, `double`, `library`, `bridge`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

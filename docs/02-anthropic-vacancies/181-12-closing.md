@@ -1,5 +1,13 @@
 # 12. Closing
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What is new is that we finally have technology capable of providing representation at scale — affordably, persistently, across the full range of human work and need.
+> 🏷️ **Ключевые слова:** `closing`, `anthropic`, `vacancies`, `questions`, `quality`, `human`, `сходство`, `cinderella`
+>
+
+
 <!-- summary -->
 > The Cinderella Syndrome — quality without visibility —
 

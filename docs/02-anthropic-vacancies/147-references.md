@@ -1,5 +1,27 @@
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Multi-Agent Systems(multi-agent-systems) - Protocols and Federation(protocols-and-federa
+> 🔧 **Подход:** "Architectural Styles and the Design of Network-based Software Architectures".
+> 🏷️ **Ключевые слова:** `anthropic`, `references`, `protocol`, `portal`, `vacancies`, `svend`, `human`, `nautilus`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Multi-Agent Systems](#multi-agent-systems)
+  - [Protocols and Federation](#protocols-and-federation)
+  - [Human-AI Collaboration](#human-ai-collaboration)
+  - [Related Architectures](#related-architectures)
+  - [Pattern Libraries](#pattern-libraries)
+  - [Primary Reference](#primary-reference)
+
+
 <!-- summary -->
 > - Conway, M. E. (1968). "How do committees invent?" *Datamation*.
 
