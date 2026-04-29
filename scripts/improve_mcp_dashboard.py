@@ -65,14 +65,42 @@ def main():
         pct = round(cnt * 100 / total, 1)
         lines.append(f'| `{srv}` | {cnt} | {pct}% |')
 
-    lines.append('\n## Топ-15 инструментов\n')
-    lines.append('| Сервер | Инструмент | Вызовов | Avg ms | p95 ms |')
-    lines.append('|--------|------------|---------|--------|--------|')
+    def _percentile(values: list[int], p: float) -> int:
+        if not values:
+            return 0
+        sorted_v = sorted(values)
+        idx = int(len(sorted_v) * p)
+        idx = min(idx, len(sorted_v) - 1)
+        return sorted_v[idx]
+
+    lines.append('\n## Топ-15 инструментов (с латентностью)\n')
+    lines.append('| Сервер | Инструмент | Вызовов | Avg | p50 | p95 | p99 | Max | Errors |')
+    lines.append('|--------|------------|--------:|----:|----:|----:|----:|----:|-------:|')
     for (srv, tool), cnt in by_tool.most_common(15):
         ds = durations[(srv, tool)]
         avg = round(sum(ds) / len(ds))
-        p95 = sorted(ds)[int(len(ds) * 0.95)] if len(ds) >= 20 else max(ds)
-        lines.append(f'| `{srv}` | `{tool}` | {cnt} | {avg} | {p95} |')
+        err_count = sum(1 for e in entries
+                        if e['server'] == srv and e['tool'] == tool
+                        and e.get('status') == 'error')
+        p50 = _percentile(ds, 0.5)
+        p95 = _percentile(ds, 0.95)
+        p99 = _percentile(ds, 0.99)
+        max_ms = max(ds) if ds else 0
+        lines.append(f'| `{srv}` | `{tool}` | {cnt} | {avg} | {p50} | {p95} | {p99} | {max_ms} | {err_count} |')
+
+    # Сводно по серверам — латентность
+    lines.append('\n## Латентность по серверам\n')
+    lines.append('| Сервер | p50 | p95 | p99 | Max |')
+    lines.append('|--------|----:|----:|----:|----:|')
+    server_durations: dict[str, list[int]] = {}
+    for e in entries:
+        server_durations.setdefault(e['server'], []).append(e.get('duration_ms', 0))
+    for srv in sorted(server_durations):
+        ds = server_durations[srv]
+        p50 = _percentile(ds, 0.5)
+        p95 = _percentile(ds, 0.95)
+        p99 = _percentile(ds, 0.99)
+        lines.append(f'| `{srv}` | {p50} | {p95} | {p99} | {max(ds)} |')
 
     if errors:
         lines.append('\n## Последние ошибки (топ-10)\n')

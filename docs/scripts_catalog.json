@@ -33,6 +33,20 @@
     "group": "quality"
   },
   {
+    "name": "improve_audit_db.py",
+    "summary": "SQLite audit log для всех событий системы.",
+    "description": "Собирает 4 типа событий из jsonl-файлов в единую SQLite БД: - mcp_calls (.claude/mcp_calls.jsonl) - workflow_runs (.claude/workflow_runs.jsonl) - skill_metrics (.claude/skill_metrics.jsonl) - llm_cache (.claude/llm_cache.jsonl)",
+    "flags": [
+      "--query",
+      "--rebuild",
+      "--recent",
+      "--slow-calls",
+      "--top-tools",
+      "--workflow-stats"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_auto_linker.py",
     "summary": "автоматические внутренние ссылки в документах.",
     "description": "Находит упоминания проектов/технологий/людей из named_entities.json и превращает их в markdown-ссылки на соответствующие файлы. Алгоритм: 1. Загружает named_entities.json → словарь {имя: best_file} 2. Для каждого файла ищет plain-text упоминания сущностей",
@@ -1389,6 +1403,19 @@
       "--dry-run",
       "--inputs",
       "--list",
+      "--task"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_workflow_v2.py",
+    "summary": "workflow engine v2.",
+    "description": "Расширяет improve_workflow_run.py: - retry с exponential backoff на сетевые/таймаут ошибки - parallel execution для независимых шагов (через ThreadPoolExecutor) - DAG: шаг может объявить depends_on: [step_id, ...] - JSONL execution log в .claude/workflow_runs.jsonl",
+    "flags": [
+      "--history",
+      "--output",
+      "--parallel",
+      "--resume",
       "--task"
     ],
     "group": "без группы"

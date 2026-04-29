@@ -271,6 +271,19 @@ def main():
     p_serve.add_argument("--bind", default="127.0.0.1")
     p_serve.set_defaults(func=cmd_serve)
 
+    p_doc_doctor = sub.add_parser("doctor", help="Диагностика установки и конфига")
+    p_doc_doctor.add_argument("--json", action="store_true", help="JSON вывод")
+    p_doc_doctor.set_defaults(func=cmd_doctor)
+
+    p_search = sub.add_parser("search", help="Поиск по корпусу (keyword/semantic/hybrid)")
+    p_search.add_argument("query", help="Поисковый запрос")
+    p_search.add_argument("-k", "--top", type=int, default=10, help="Top-K")
+    p_search.add_argument("--method", choices=["keyword", "semantic", "hybrid"],
+                          default="keyword")
+    p_search.add_argument("--model", default="paraphrase-multilingual-MiniLM-L12-v2")
+    p_search.add_argument("--json", action="store_true", help="JSON вывод")
+    p_search.set_defaults(func=cmd_search)
+
     args = parser.parse_args()
     return args.func(args)
 
@@ -279,6 +292,66 @@ def cmd_serve(args):
     """Запустить встроенный HTTP-сервер."""
     from docstoolkit.serve import serve
     serve(port=args.port, bind=args.bind)
+    return 0
+
+
+def cmd_doctor(args):
+    """Запуск диагностики."""
+    from docstoolkit.doctor import doctor
+    return doctor(as_json=args.json)
+
+
+def cmd_search(args):
+    """Поиск по корпусу."""
+    from docstoolkit.embeddings import get_provider, HybridSearcher
+    from docstoolkit.config import load_config
+
+    cfg = load_config()
+    index_path = cfg.docs_dir / "search_index.json"
+    if not index_path.exists():
+        print(f"❌ {index_path} не найден")
+        return 1
+
+    docs = json.loads(index_path.read_text(encoding="utf-8"))
+    if isinstance(docs, dict):
+        docs = docs.get("docs", [])
+
+    keyword = get_provider("tfidf")
+    keyword.fit([(d.get("content", "") + " " + d.get("title", "")) for d in docs])
+
+    if args.method == "keyword":
+        results = keyword.search(args.query, docs, top_k=args.top)
+    elif args.method == "semantic":
+        try:
+            semantic = get_provider("sentence-transformers", model=args.model)
+            results = semantic.search(args.query, docs, top_k=args.top)
+        except ImportError as e:
+            print(f"❌ {e}")
+            return 1
+    else:
+        semantic = None
+        try:
+            semantic = get_provider("sentence-transformers", model=args.model)
+        except ImportError:
+            print("⚠️  semantic недоступен — fallback на keyword only")
+        searcher = HybridSearcher(keyword=keyword, semantic=semantic)
+        results = searcher.search(args.query, docs, top_k=args.top)
+
+    if args.json:
+        print(json.dumps(
+            [{"score": r.score, "title": r.title, "path": r.path,
+              "snippet": r.snippet} for r in results],
+            ensure_ascii=False, indent=2
+        ))
+    else:
+        print(f"# Поиск: {args.query!r} ({args.method})")
+        print(f"Найдено: {len(results)}\n")
+        for r in results:
+            print(f"  [{r.score:.3f}] {r.title}")
+            print(f"          {r.path}")
+            if r.snippet:
+                print(f"          > {r.snippet[:120]}...")
+            print()
     return 0
 
 
