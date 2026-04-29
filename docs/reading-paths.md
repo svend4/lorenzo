@@ -59,6 +59,7 @@
 5. [`anthropic-vacancies/beneficial-deployments-concept/README.md`](anthropic-vacancies/beneficial-deployments-concept/README.md) — outline concept document для outreach.
 6. [`anthropic-vacancies/ai-managed-virtual-company/README.md`](anthropic-vacancies/ai-managed-virtual-company/README.md) — альтернатива «один человек / $500K» как AI-управляемая команда фрилансеров (Variant C).
 7. [`anthropic-vacancies/mmorpg-for-programmers/README.md`](anthropic-vacancies/mmorpg-for-programmers/README.md) — гипотеза gamified work для технарей.
+8. [`anthropic-vacancies/hermes-comparison/README.md`](anthropic-vacancies/hermes-comparison/README.md) — сравнение с Hermes Agent (Nous Research) и переоценка приоритетов.
 
 ## 7. «Я ищу конкретный компонент по имени»
 
