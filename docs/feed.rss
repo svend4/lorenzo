@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 15:41:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 15:48:53 GMT</lastBuildDate>
+    <item>
+      <title>chore: regenerate auto-feeds after Sprint 33-35</title>
+      <link>https://github.com/svend4/lorenzo/commit/65941440969581f7316e6875cc64bc90ed45e722</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/65941440969581f7316e6875cc64bc90ed45e722</guid>
+      <pubDate>Wed, 29 Apr 2026 15:42:21 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 33-35</strong></p><p>Коммит: <code>65941440</code></p>]]></description>
+    </item>
     <item>
       <title>chore: regenerate confluence/obsidian REPORT exports</title>
       <link>https://github.com/svend4/lorenzo/commit/2b1e57d2771599ee5581b32aa9f728e51792472c</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/f053125f9e634d831aa7d2ed9318e1269b4cebc0</guid>
       <pubDate>Wed, 29 Apr 2026 14:36:16 GMT</pubDate>
       <description><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 18-20</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>f053125f</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest</title>
-      <link>https://github.com/svend4/lorenzo/commit/89f9dc9392e5c716d7f05b9eb5b161c093cd3e30</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/89f9dc9392e5c716d7f05b9eb5b161c093cd3e30</guid>
-      <pubDate>Wed, 29 Apr 2026 14:35:40 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/contact-outreach.md">docs/templates/contact-outreach.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/decision-record.md">docs/templates/decision-record.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/ensemble.md">docs/templates/ensemble.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/project-component.md">docs/templates/project-component.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/research-note.md">docs/templates/research-note.md</a></li></ul><p>Коммит: <code>89f9dc93</code></p>]]></description>
     </item>
   </channel>
 </rss>
