@@ -5,7 +5,28 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 17:40:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 17:51:36 GMT</lastBuildDate>
+    <item>
+      <title>Merge pull request #15 from svend4/claude/organize-monorepo-docs-XI9Aa</title>
+      <link>https://github.com/svend4/lorenzo/commit/2a263a3f1ba47c628ac625060c1acd7b1c775b04</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/2a263a3f1ba47c628ac625060c1acd7b1c775b04</guid>
+      <pubDate>Wed, 29 Apr 2026 17:51:04 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge pull request #15 from svend4/claude/organize-monorepo-docs-XI9Aa</strong></p><p>Коммит: <code>2a263a3f</code></p>]]></description>
+    </item>
+    <item>
+      <title>docs: ROADMAP series — current state + 35 development options + priorities</title>
+      <link>https://github.com/svend4/lorenzo/commit/9ae5acbb64513234681b616c3f6f54f60d01b6ab</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/9ae5acbb64513234681b616c3f6f54f60d01b6ab</guid>
+      <pubDate>Wed, 29 Apr 2026 17:48:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: ROADMAP series — current state + 35 development options + priorities</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ROADMAP/00-CURRENT-STATE.md">docs/ROADMAP/00-CURRENT-STATE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ROADMAP/01-SIMPLE.md">docs/ROADMAP/01-SIMPLE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ROADMAP/02-MEDIUM.md">docs/ROADMAP/02-MEDIUM.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ROADMAP/03-INNOVATIVE.md">docs/ROADMAP/03-INNOVATIVE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ROADMAP/04-NOVEL.md">docs/ROADMAP/04-NOVEL.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ROADMAP/05-PRIORITIES.md">docs/ROADMAP/05-PRIORITIES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ROADMAP/README.md">docs/ROADMAP/README.md</a></li></ul><p>Коммит: <code>9ae5acbb</code></p>]]></description>
+    </item>
+    <item>
+      <title>docs: auto-update metrics [skip ci]</title>
+      <link>https://github.com/svend4/lorenzo/commit/3ba5687ecdad9502c90c4e4b485c04c8cff00aa1</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/3ba5687ecdad9502c90c4e4b485c04c8cff00aa1</guid>
+      <pubDate>Wed, 29 Apr 2026 17:40:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: auto-update metrics [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STATS.md">docs/STATS.md</a></li></ul><p>Коммит: <code>3ba5687e</code></p>]]></description>
+    </item>
     <item>
       <title>chore: разрешить конфликты слияния с main (стратегия --ours)</title>
       <link>https://github.com/svend4/lorenzo/commit/9f7ba56697437003ff806cb16cb1876e7cfe2089</link>
@@ -124,27 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/89c8f56f5c4259087564b773da1092e039b345d2</guid>
       <pubDate>Wed, 29 Apr 2026 16:01:57 GMT</pubDate>
       <description><![CDATA[<p><strong>Merge remote-tracking branch 'origin/claude/organize-monorepo-docs-VmctA' into claude/organize-monorepo-docs-VmctA</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md">docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/136-abstract.md">docs/02-anthropic-vacancies/136-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/176-7-governance-and-oversight.md">docs/02-anthropic-vacancies/176-7-governance-and-oversight.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/179-10-open-questions.md">docs/02-anthropic-vacancies/179-10-open-questions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/18-6-adapter-interface.md">docs/02-anthropic-vacancies/18-6-adapter-interface.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/221-10-open-questions.md">docs/02-anthropic-vacancies/221-10-open-questions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/223-12-closing.md">docs/02-anthropic-vacancies/223-12-closing.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md">docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/265-12-call-for-collaboration.md">docs/02-anthropic-vacancies/265-12-call-for-collaboration.md</a></li></ul><p>Коммит: <code>89c8f56f</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: sync auto-generated docs after status report run</title>
-      <link>https://github.com/svend4/lorenzo/commit/2ed1bf01bc29b28486a582bd4843c4dd320d6a3c</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/2ed1bf01bc29b28486a582bd4843c4dd320d6a3c</guid>
-      <pubDate>Wed, 29 Apr 2026 16:01:50 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: sync auto-generated docs after status report run</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md">docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/136-abstract.md">docs/02-anthropic-vacancies/136-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/176-7-governance-and-oversight.md">docs/02-anthropic-vacancies/176-7-governance-and-oversight.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/179-10-open-questions.md">docs/02-anthropic-vacancies/179-10-open-questions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/18-6-adapter-interface.md">docs/02-anthropic-vacancies/18-6-adapter-interface.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md">docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/221-10-open-questions.md">docs/02-anthropic-vacancies/221-10-open-questions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/223-12-closing.md">docs/02-anthropic-vacancies/223-12-closing.md</a></li></ul><p>Коммит: <code>2ed1bf01</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: regenerate auto-feeds after Sprint 39-41</title>
-      <link>https://github.com/svend4/lorenzo/commit/d445ffb3bbaf56a846c1bd6209411954ca72b0e2</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/d445ffb3bbaf56a846c1bd6209411954ca72b0e2</guid>
-      <pubDate>Wed, 29 Apr 2026 15:57:18 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 39-41</strong></p><p>Коммит: <code>d445ffb3</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: regenerate auto-feeds after Sprint 36-38</title>
-      <link>https://github.com/svend4/lorenzo/commit/6efb6b90e71e8c5830c8c510396d0669b35341ce</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/6efb6b90e71e8c5830c8c510396d0669b35341ce</guid>
-      <pubDate>Wed, 29 Apr 2026 15:49:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 36-38</strong></p><p>Коммит: <code>6efb6b90</code></p>]]></description>
     </item>
   </channel>
 </rss>
