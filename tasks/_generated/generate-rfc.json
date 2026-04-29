@@ -1,0 +1,69 @@
+{
+  "id": "generate-rfc",
+  "version": 1.0,
+  "description": "Создание RFC-документа по теме с подтягиванием контекста из корпуса",
+  "trigger_phrases": [
+    "напиши RFC по",
+    "оформи спецификацию для",
+    "формализуй идею в RFC"
+  ],
+  "inputs": {
+    "topic": {
+      "type": "string",
+      "required": true,
+      "description": "Тема RFC одной строкой"
+    },
+    "rfc_id": {
+      "type": "string",
+      "required": false,
+      "description": "ID вида RFC-NNNN (если не указан — присваивается автоматически)"
+    }
+  },
+  "template": "rfc",
+  "output_path": "docs/rfcs/{rfc_id}.md",
+  "mcp_server": "lorenzo-runner",
+  "mcp_tool": "generate_rfc",
+  "pipeline": [
+    {
+      "bm25_passages": "\"{topic}\"  # вызов lorenzo-search"
+    },
+    {
+      "read": "docs/DECISIONS.md"
+    },
+    {
+      "read_glob": "\"docs/nautilus/npp-v1-1/*.md\"  # пример формата"
+    },
+    {
+      "run_template_init": "rfc"
+    },
+    {
+      "generate": "Заполнить разделы Abstract, Motivation, Specification"
+    }
+  ],
+  "post_checks": [
+    {
+      "file_exists": "docs/rfcs/{rfc_id}.md"
+    },
+    {
+      "section_exists": "Abstract"
+    },
+    {
+      "section_exists": "Motivation"
+    },
+    {
+      "validate_template": "rfc"
+    }
+  ],
+  "related": {
+    "skills": [
+      "generate-rfc",
+      "search",
+      "synthesize"
+    ],
+    "templates": [
+      "rfc",
+      "decision-record",
+      "protocol-spec"
+    ]
+  }
+}

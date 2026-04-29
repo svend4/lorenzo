@@ -25,10 +25,10 @@ _Обновлено: 2026-04-29_
 | `eb.hypothes.is` | 1 | ⭐ |
 | `discourse.org` | 1 | ⭐ |
 | `claude.com` | 1 | ⭐ |
-| `support.claude.com` | 1 | ⭐ |
 | `fossil-scm.org` | 1 | ⭐ |
-| `install.sh` | 1 | ⭐ |
+| `support.claude.com` | 1 | ⭐ |
 | `happyin.space` | 1 | ⭐ |
+| `install.sh` | 1 | ⭐ |
 | `creativecommons.org` | 1 | ⭐ |
 | `solidproject.org` | 1 | ⭐ |
 | `activitypub.rocks` | 1 | ⭐ |

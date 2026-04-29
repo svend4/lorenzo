@@ -1626,6 +1626,20 @@ _{{docs/ALERTS.md}} | 11 строк_
 > Важная информация.
 {code}
 
+h3. Markdown сниппеты для README
+_{{docs/BADGES.md}} | 8 строк_
+
+{code:language=markdown}
+![tests](https://img.shields.io/badge/tests-209--passing-brightgreen)
+![templates](https://img.shields.io/badge/templates-23-blue)
+![skills](https://img.shields.io/badge/skills-28-blue)
+![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
+![manifests](https://img.shields.io/badge/manifests-13-blue)
+![scripts](https://img.shields.io/badge/scripts-155-blue)
+![health](https://img.shields.io/badge/health-77/100-green)
+![validation](https://img.shields.io/badge/validation-14--valid-brightgreen)
+{code}
+
 h3. Как это работает
 _{{docs/FOOTNOTES.md}} | 3 строк_
 

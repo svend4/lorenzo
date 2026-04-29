@@ -2,10 +2,10 @@
 
 _Обновлено: 2026-04-29_
 
-Всего сущностей: **228** (мин. 2 упоминаний)
+Всего сущностей: **183** (мин. 2 упоминаний)
 
 
-## 👤 People (20)
+## 👤 People (19)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
@@ -34,7 +34,9 @@ _Обновлено: 2026-04-29_
 
 ### `anthropic` (802 файлов)
 
+- `docs/01-svyazi/09-architectural-gaps.md`
 - `docs/01-svyazi/11-integration-contracts.md`
+- `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
@@ -52,6 +54,7 @@ _Обновлено: 2026-04-29_
 
 ### `svend4` (206 файлов)
 
+- `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
@@ -372,14 +375,14 @@ _Обновлено: 2026-04-29_
 - `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md`
 - _...ещё 15_
 
-### `2026-04-19` (19 файлов)
+### `2026-04-19` (11 файлов)
 
 - `docs/02-anthropic-vacancies/103-appendix-b-change-log.md`
 - `docs/02-anthropic-vacancies/133-обратная-связь.md`
 - `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md`
 - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
 - `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md`
-- _...ещё 14_
+- _...ещё 6_
 
 ### `апрель 2026` (15 файлов)
 

@@ -8,7 +8,19 @@ _Обновлено: 2026-04-29_
 
 ## Найденные противоречия
 
-### 1. 🔢 Числовое — 6.0 vs 58.0 (уверенность: 0.8)
+### 1. 🔢 Числовое — 42.0 vs 81.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `docs`, `liteparse`, `nlaik`, `research`
+
+**A:** `docs/contacts/antipozitive.md`
+> md) 42% - Контакт: nlaik / LiteParse / research-docs(nlaik
+
+**B:** `docs/contacts/sonia-black.md`
+> md) 81% - Контакт: nlaik / LiteParse / research-docs(nlaik
+
+---
+
+### 2. 🔢 Числовое — 42.0 vs 66.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `автор`, `вовлечён`, `контекст`, `непосредственно`
 
@@ -243,6 +255,30 @@ _Обновлено: 2026-04-29_
 **A:** `docs/01-svyazi/01-executive-summary.md`
 > 22) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
 
+**B:** `docs/01-svyazi/03-component-catalog.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+
+---
+
+### 7. 🔢 Числовое — 22.0 vs 3.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
+
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> 22) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+
+**B:** `docs/01-svyazi/06-security-privacy.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^llm: Large Language Model — большая языковая модель ^pii: Personally Identifiable
+
+---
+
+### 8. 🔢 Числовое — 4.0 vs 785.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
+
+**A:** `docs/01-svyazi/03-component-catalog.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+
 **B:** `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
 > md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
 
@@ -252,11 +288,11 @@ _Обновлено: 2026-04-29_
 
 **Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
 
-**A:** `docs/01-svyazi/01-executive-summary.md`
-> 22) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+**A:** `docs/01-svyazi/03-component-catalog.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
 
-**B:** `docs/SUMMARIES.md`
-> 11 --- ^mcp : Model Context Protocol — протокол для AI-инструментов ^svyazi : Главный проект: экосистема AI-компонентов docs/02-anthropic-vacancies/00
+**B:** `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md`
+> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^llm: Large Language Model — большая языковая модель ^pii: Personally Identifiable
 
 ---
 
@@ -298,25 +334,25 @@ _Обновлено: 2026-04-29_
 
 ### 25. 🔢 Числовое — 1017200.0 vs 44.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `articles`, `com`, `sequential`, `координатора`
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
 
-**A:** `docs/04-ai-collaborations/00-intro.md`
-> com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(08-conclusions
 
-**B:** `docs/05-habr-projects/memory/memnet.md`
-> com/ru/articles/1017200/ ) — Sequential протокол лучше координатора на 44%
+**B:** `docs/04-ai-collaborations/01-executive-summary.md`
+> md) 29% Связанные документы - 08 Conclusions(
 
 ---
 
 ### 26. 🔢 Числовое — 1017200.0 vs 44.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `articles`, `com`, `sequential`, `координатора`
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
 
-**A:** `docs/04-ai-collaborations/00-intro.md`
-> com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(08-conclusions
 
-**B:** `docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md`
-> com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%
+**B:** `docs/04-ai-collaborations/07-выводы.md`
+> md) 21% Связанные документы - 08 Conclusions(
 
 ---
 
@@ -334,13 +370,13 @@ _Обновлено: 2026-04-29_
 
 ### 28. 🔢 Числовое — 785.0 vs 11.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
 
-**A:** `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(08-conclusions
 
-**B:** `docs/SUMMARIES.md`
-> 11 --- ^mcp : Model Context Protocol — протокол для AI-инструментов ^svyazi : Главный проект: экосистема AI-компонентов docs/02-anthropic-vacancies/00
+**B:** `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
+> md) 17% Связанные документы - 08 Conclusions(
 
 ---
 
@@ -358,13 +394,13 @@ _Обновлено: 2026-04-29_
 
 ### 30. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `различение`, `слоёв`, `трёх`
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
 
-**A:** `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md`
-> Различение трёх слоёв(31-различение-трёх-слоёв) - 3
+**A:** `docs/04-ai-collaborations/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(
 
-**B:** `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md`
-> Различение трёх слоёв(31-различение-трёх-слоёв) - 3
+**B:** `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
+> md) 17% Связанные документы - 08 Conclusions(
 
 ---
 

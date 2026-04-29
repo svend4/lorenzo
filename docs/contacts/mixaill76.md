@@ -1,4 +1,22 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "MiXaiLL76"
+author_handle: "@MiXaiLL76"
+projects: ["Svyazi", "Auto AI Router"]
+platform: GitHub
+status: not_started
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+---
 # Контакт: MiXaiLL76 / Auto AI Router
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)

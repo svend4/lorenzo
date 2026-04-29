@@ -39,7 +39,6 @@ date: 2026-04-29
 
 ### `knowledge space` → должно быть `knowledge-space`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
 - `docs/OUTLINE.md`
 - `docs/CONCEPTS.md`
@@ -48,7 +47,6 @@ date: 2026-04-29
 
 ### `knowledge_space` → должно быть `knowledge-space`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
 
@@ -102,7 +100,6 @@ date: 2026-04-29
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`

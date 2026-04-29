@@ -1,3 +1,16 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "spbmolot"
+author_handle: "@spbmolot"
+projects: ["Svyazi", "NGT Memory"]
+platform: GitHub
+status: studied
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+---
 # Контакт: spbmolot / NGT Memory
 
 > [!TIP]

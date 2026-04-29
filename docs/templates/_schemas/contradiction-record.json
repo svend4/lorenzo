@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "contradiction-record",
+  "description": "Запись о противоречии между двумя источниками",
+  "type": "object",
+  "required": ["template", "version", "contradiction_id", "title", "severity", "status"],
+  "properties": {
+    "template": {"const": "contradiction-record"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "contradiction_id": {"type": "string", "pattern": "^CONTRA-\\d{4}$"},
+    "title": {"type": "string", "minLength": 3},
+    "severity": {"enum": ["low", "medium", "high", "critical"]},
+    "status": {"enum": ["open", "investigating", "resolved", "dismissed"]},
+    "detected": {"type": "string", "format": "date"},
+    "resolved": {"type": ["string", "null"], "format": "date"},
+    "sources": {"type": "array", "items": {"type": "string"}},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Источник A", "Источник B", "В чём противоречие", "Возможные интерпретации", "Решение"]
+}

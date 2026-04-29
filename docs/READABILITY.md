@@ -1706,16 +1706,16 @@ _Обновлено: 2026-04-29_
 
 ## Самые сложные тексты (1680) — рекомендуется упростить
 
-- `docs/01-svyazi/01-executive-summary.md` — FRE 0, среднее 18.3 слов/предложение
-- `docs/01-svyazi/02-methodology.md` — FRE 0, среднее 15.3 слов/предложение
-- `docs/01-svyazi/03-component-catalog.md` — FRE 0, среднее 13.9 слов/предложение
-- `docs/01-svyazi/04-ensembles-overview.md` — FRE 0, среднее 17.2 слов/предложение
-- `docs/01-svyazi/06-security-privacy.md` — FRE 0, среднее 18.5 слов/предложение
-- `docs/01-svyazi/07-mvp-planning.md` — FRE 0, среднее 16.8 слов/предложение
-- `docs/01-svyazi/08-conclusions.md` — FRE 0, среднее 11.3 слов/предложение
-- `docs/01-svyazi/09-architectural-gaps.md` — FRE 0, среднее 18.8 слов/предложение
-- `docs/01-svyazi/10-second-order-ensembles.md` — FRE 0, среднее 14.5 слов/предложение
-- `docs/01-svyazi/11-integration-contracts.md` — FRE 0, среднее 15.7 слов/предложение
+- `docs/01-svyazi/01-executive-summary.md` — FRE 0, среднее 11.9 слов/предложение
+- `docs/01-svyazi/02-methodology.md` — FRE 0, среднее 9.6 слов/предложение
+- `docs/01-svyazi/03-component-catalog.md` — FRE 0, среднее 11.1 слов/предложение
+- `docs/01-svyazi/04-ensembles-overview.md` — FRE 0, среднее 12.9 слов/предложение
+- `docs/01-svyazi/06-security-privacy.md` — FRE 0, среднее 12.2 слов/предложение
+- `docs/01-svyazi/07-mvp-planning.md` — FRE 0, среднее 11.0 слов/предложение
+- `docs/01-svyazi/08-conclusions.md` — FRE 0, среднее 7.1 слов/предложение
+- `docs/01-svyazi/09-architectural-gaps.md` — FRE 0, среднее 11.7 слов/предложение
+- `docs/01-svyazi/10-second-order-ensembles.md` — FRE 0, среднее 10.2 слов/предложение
+- `docs/01-svyazi/11-integration-contracts.md` — FRE 0, среднее 11.7 слов/предложение
 
 <!-- see-also -->
 

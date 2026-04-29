@@ -21,8 +21,19 @@ _Обновлено: 2026-04-29_
 | `docs/01-svyazi/00-intro-part2.md` | 21 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 28 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 
-## Полное покрытие — 0 файлов
+## Полное покрытие — 16 файлов
 
+- ✅ `docs/04-ai-collaborations/00-intro.md`
+- ✅ `docs/04-ai-collaborations/01-executive-summary.md`
+- ✅ `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md`
+- ✅ `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
+- ✅ `docs/04-ai-collaborations/04-приоритетные-ансамбли.md`
+- ✅ `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md`
+- ✅ `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md`
+- ✅ `docs/04-ai-collaborations/07-выводы.md`
+- ✅ `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
+- ✅ `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md`
+- _...и ещё 6_
 
 ## Рекомендуемые действия
 

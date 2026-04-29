@@ -7,9 +7,9 @@ _Обновлено: 2026-04-29_
 
 ## 2020 (5 упоминаний)
 
-- 🔔 **2020-01-01** · _Pipeline_  
-  ClickHouse stores for analytics Schema CREATE TABLE decisions ( aktenzeichen String, court String, decisiondate Date, pa  
-  `21-legal-corpus-analytics-at-scale.md`
+- 🔔 **2020** · _220. 📝_  
+  📝 Изменённые файлы (16) Файл: docs/obsidian/VERSIONDIFF.md 4 колонок, 16 строк Файл Δ слов Добавленные темы Удалённые те  
+  `TABLES.md`
 
 - 🔔 **2020** · _220. 📝_  
   📝 Изменённые файлы (16) Файл: docs/obsidian/VERSIONDIFF.md 4 колонок, 16 строк Файл Δ слов Добавленные темы Удалённые те  
@@ -85,6 +85,10 @@ _Обновлено: 2026-04-29_
   Объяснение 4 — AI-сотрудничество недавнее. До 2022-2023 годов, совместная AI-работа на этой глубине не была осуществимой  
   `04-pochemu-ne-postroeno.md`
 
+- 📌 **2022** · _Behörde / Beklagte_  
+  Контр-аргумент 2 Прецеденты Решение Суд Дата Релевантность ----------------------------------- BSG B 14 AS 1/22 R BSG 20  
+  `legal-case.md`
+
 
 ## 2023 (13 упоминаний)
 
@@ -155,6 +159,10 @@ _Обновлено: 2026-04-29_
   Для гуманитарных документов рекомендую conventional metadata keys: python @dataclass class LegalPortalEntry(PortalEntry)  
   `01-structural-comparison-code-vs-docs.md`
 
+- 🔔 **2024-03-15** · _`improve_timeline.py` _(группа: index)__  
+  improvetimelineevents.py (группа: deeptext) извлекает даты и события из базы знаний. Строит хронологическую ленту: - Кон  
+  `SCRIPTS_CATALOG.md`
+
 - 🔔 **2024** · _1. Problem Statement_  
   > ✅ Результат: The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for A  
   `155-1-problem-statement.md`
@@ -202,6 +210,10 @@ _Обновлено: 2026-04-29_
 - 🔔 **2024** · _121. К_  
   Ключевые вехи Файл: docs/SCHEDULE.md 3 колонок, 10 строк Срок Веха Статус -------------------- 2024-Q4 ✅ Исследование ко  
   `TABLES.md`
+
+- 🔔 **2024** · _📝 Изменённые файлы (59)_  
+  Точная дата (2041) +24 docs/TASKSINDEX.md -76 — Содержание docs/KPI.md +30 Версия (390), Количество (243), Размер (32) +  
+  `VERSION_DIFF.md`
 
 - 🔔 **2024** · _1.3. Why Now_  
   The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for AI-assisted work  

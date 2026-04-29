@@ -24,16 +24,16 @@
 - [109-3-принципы-консолидации-фаза-c.md](109-3-принципы-консолидации-фаза-c.md) — <!-- toc -->
 - [110-вопрос-fallback-ratio-как-критический-или-осмыслен.md](110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) — <!-- abstract-auto -->
 - [111-4-условия-применимости.md](111-4-условия-применимости.md) — <!-- abstract-auto -->
-- [112-5-связь-с-существующими-методологиями.md](112-5-связь-с-существующими-методологиями.md) — <!-- abstract-auto -->
+- [112-5-связь-с-существующими-методологиями.md](112-5-связь-с-существующими-методологиями.md) — > [!WARNING]
 - [113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md](113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) — <!-- summary -->
 - [114-7-реализация-в-проекте-nautilus.md](114-7-реализация-в-проекте-nautilus.md) — <!-- abstract-auto -->
 - [115-8-ограничения-и-открытые-вопросы.md](115-8-ограничения-и-открытые-вопросы.md) — <!-- abstract-auto -->
 - [116-9-checklist-применения-методологии.md](116-9-checklist-применения-методологии.md) — <!-- abstract-auto -->
-- [117-10-конкретный-план-применения-к-текущим-документам.md](117-10-конкретный-план-применения-к-текущим-документам.md) — <!-- abstract-auto -->
-- [118-appendix-a-шаблон-для-header-warning.md](118-appendix-a-шаблон-для-header-warning.md) — > [!WARNING]
+- [117-10-конкретный-план-применения-к-текущим-документам.md](117-10-конкретный-план-применения-к-текущим-документам.md) — > [!WARNING]
+- [118-appendix-a-шаблон-для-header-warning.md](118-appendix-a-шаблон-для-header-warning.md) — <!-- tags: architecture -->
 - [119-appendix-b-примеры-расхождений-и-их-разрешения.md](119-appendix-b-примеры-расхождений-и-их-разрешения.md) — <!-- tags: architecture, anthropic -->
 - [12-content-overview.md](12-content-overview.md) — <!-- summary -->
-- [120-главные-технические-риски.md](120-главные-технические-риски.md) — <!-- summary -->
+- [120-главные-технические-риски.md](120-главные-технические-риски.md) — > [!WARNING]
 - [121-appendix-c-история-изменений-методологии.md](121-appendix-c-история-изменений-методологии.md) — <!-- summary -->
 - [122-глоссарий.md](122-глоссарий.md) — <!-- abstract-auto -->
 - [123-portal-mcp-py.md](123-portal-mcp-py.md) — <!-- abstract-auto -->
@@ -57,7 +57,7 @@
 - [140-3-three-inter-layer-protocols.md](140-3-three-inter-layer-protocols.md) — <!-- abstract-auto -->
 - [141-4-nautilus-portal-as-reference-substrate.md](141-4-nautilus-portal-as-reference-substrate.md) — <!-- abstract-auto -->
 - [142-5-pattern-library-as-bridge-between-triangles.md](142-5-pattern-library-as-bridge-between-triangles.md) — <!-- abstract-auto -->
-- [143-6-four-deployment-domains.md](143-6-four-deployment-domains.md) — <!-- abstract-auto -->
+- [143-6-four-deployment-domains.md](143-6-four-deployment-domains.md) — > [!TIP]
 - [144-7-open-questions.md](144-7-open-questions.md) — <!-- abstract-auto -->
 - [145-8-call-to-action.md](145-8-call-to-action.md) — <!-- abstract-auto -->
 - [146-acknowledgments.md](146-acknowledgments.md) — > [!TIP]
@@ -106,16 +106,16 @@
 - [186-appendix-c-sample-use-cases-in-detail.md](186-appendix-c-sample-use-cases-in-detail.md) — <!-- abstract-auto -->
 - [187-слой-представительских-агентов-md.md](187-слой-представительских-агентов-md.md) — <!-- summary -->
 - [188-ai-опосредованное-представительство-для-недопредст.md](188-ai-опосредованное-представительство-для-недопредст.md) — <!-- summary -->
-- [189-аннотация.md](189-аннотация.md) — <!-- abstract-auto -->
+- [189-аннотация.md](189-аннотация.md) — > [!WARNING]
 - [19-7-portalentry-structure.md](19-7-portalentry-structure.md) — <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 - [190-содержание.md](190-содержание.md) — <!-- summary -->
-- [191-1-синдром-золушки-почему-качество-остаётся-невидим.md](191-1-синдром-золушки-почему-качество-остаётся-невидим.md) — <!-- abstract-auto -->
+- [191-1-синдром-золушки-почему-качество-остаётся-невидим.md](191-1-синдром-золушки-почему-качество-остаётся-невидим.md) — > [!WARNING]
 - [192-2-исторические-прецеденты-агенты-как-цивилизационн.md](192-2-исторические-прецеденты-агенты-как-цивилизационн.md) — <!-- abstract-auto -->
-- [193-3-что-делает-агента-представительским.md](193-3-что-делает-агента-представительским.md) — <!-- abstract-auto -->
+- [193-3-что-делает-агента-представительским.md](193-3-что-делает-агента-представительским.md) — > [!WARNING]
 - [194-4-десять-областей-применения.md](194-4-десять-областей-применения.md) — <!-- abstract-auto -->
-- [195-5-архитектурная-спецификация.md](195-5-архитектурная-спецификация.md) — <!-- abstract-auto -->
-- [196-6-этическая-рамка.md](196-6-этическая-рамка.md) — <!-- toc -->
-- [197-7-управление-и-надзор.md](197-7-управление-и-надзор.md) — <!-- abstract-auto -->
+- [195-5-архитектурная-спецификация.md](195-5-архитектурная-спецификация.md) — > [!WARNING]
+- [196-6-этическая-рамка.md](196-6-этическая-рамка.md) — > [!WARNING]
+- [197-7-управление-и-надзор.md](197-7-управление-и-надзор.md) — > [!WARNING]
 - [198-8-риски-и-меры-противодействия.md](198-8-риски-и-меры-противодействия.md) — <!-- toc -->
 - [199-9-стратегия-поэтапного-развёртывания.md](199-9-стратегия-поэтапного-развёртывания.md) — <!-- toc -->
 - [20-8-consensus-algorithm.md](20-8-consensus-algorithm.md) — <!-- abstract-auto -->
@@ -152,12 +152,12 @@
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca.md](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) — <!-- abstract-auto -->
 - [229-профессиональные-коллеги-агенты.md](229-профессиональные-коллеги-агенты.md) — <!-- summary -->
 - [23-11-security-considerations.md](23-11-security-considerations.md) — <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
-- [230-аннотация.md](230-аннотация.md) — <!-- abstract-auto -->
+- [230-аннотация.md](230-аннотация.md) — > [!WARNING]
 - [231-содержание.md](231-содержание.md) — <!-- summary -->
 - [232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md](232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md) — <!-- abstract-auto -->
 - [233-2-что-делает-агента-профессиональным-коллегой.md](233-2-что-делает-агента-профессиональным-коллегой.md) — <!-- abstract-auto -->
-- [234-3-эмпирический-кейс-обучай.md](234-3-эмпирический-кейс-обучай.md) — <!-- abstract-auto -->
-- [235-4-архитектура-профессиональных-коллег-агентов.md](235-4-архитектура-профессиональных-коллег-агентов.md) — <!-- abstract-auto -->
+- [234-3-эмпирический-кейс-обучай.md](234-3-эмпирический-кейс-обучай.md) — > [!WARNING]
+- [235-4-архитектура-профессиональных-коллег-агентов.md](235-4-архитектура-профессиональных-коллег-агентов.md) — > [!WARNING]
 - [236-5-экономика-тиражирования-по-профессии.md](236-5-экономика-тиражирования-по-профессии.md) — <!-- abstract-auto -->
 - [237-6-риски-специфичные-для-этой-категории.md](237-6-риски-специфичные-для-этой-категории.md) — <!-- abstract-auto -->
 - [238-7-области-применения.md](238-7-области-применения.md) — <!-- abstract-auto -->
@@ -166,7 +166,7 @@
 - [240-9-связь-с-другими-типами-агентов.md](240-9-связь-с-другими-типами-агентов.md) — <!-- toc -->
 - [241-10-открытые-вопросы.md](241-10-открытые-вопросы.md) — <!-- abstract-auto -->
 - [242-11-призыв-к-сотрудничеству.md](242-11-призыв-к-сотрудничеству.md) — <!-- abstract-auto -->
-- [243-12-заключение.md](243-12-заключение.md) — <!-- abstract-auto -->
+- [243-12-заключение.md](243-12-заключение.md) — > [!WARNING]
 - [244-благодарности.md](244-благодарности.md) — <!-- summary -->
 - [245-ссылки.md](245-ссылки.md) — <!-- abstract-auto -->
 - [246-приложение-a-сравнительная-таблица-пять-типов-аген.md](246-приложение-a-сравнительная-таблица-пять-типов-аген.md) — <!-- summary -->
@@ -205,7 +205,7 @@
 - [276-the-two-layer-stack-as-it-exists.md](276-the-two-layer-stack-as-it-exists.md) — <!-- abstract-auto -->
 - [277-what-s-missing-layer-b.md](277-what-s-missing-layer-b.md) — <!-- abstract-auto -->
 - [278-why-this-hasn-t-been-built.md](278-why-this-hasn-t-been-built.md) — <!-- abstract-auto -->
-- [279-existing-approximations.md](279-existing-approximations.md) — <!-- toc -->
+- [279-existing-approximations.md](279-existing-approximations.md) — > [!TIP]
 - [28-appendix-a-minimal-working-example.md](28-appendix-a-minimal-working-example.md) — <!-- toc-auto -->
 - [280-the-specific-case-in-front-of-us.md](280-the-specific-case-in-front-of-us.md) — <!-- abstract-auto -->
 - [281-the-recursive-insight.md](281-the-recursive-insight.md) — <!-- abstract-auto -->
@@ -215,10 +215,10 @@
 - [285-closing.md](285-closing.md) — <!-- abstract-auto -->
 - [286-acknowledgments.md](286-acknowledgments.md) — <!-- summary -->
 - [287-references.md](287-references.md) — <!-- abstract-auto -->
-- [288-appendix-position-in-series-visualization.md](288-appendix-position-in-series-visualization.md) — <!-- abstract-auto -->
+- [288-appendix-position-in-series-visualization.md](288-appendix-position-in-series-visualization.md) — > [!WARNING]
 - [289-инфраструктура-для-ai-совместной-интеллектуальной-.md](289-инфраструктура-для-ai-совместной-интеллектуальной-.md) — <!-- summary -->
 - [290-почему-этот-документ-существует.md](290-почему-этот-документ-существует.md) — <!-- abstract-auto -->
-- [291-двухслойный-стек-как-он-существует.md](291-двухслойный-стек-как-он-существует.md) — <!-- abstract-auto -->
+- [291-двухслойный-стек-как-он-существует.md](291-двухслойный-стек-как-он-существует.md) — > [!WARNING]
 - [292-что-отсутствует-слой-b.md](292-что-отсутствует-слой-b.md) — <!-- abstract-auto -->
 - [293-почему-это-не-было-построено.md](293-почему-это-не-было-построено.md) — <!-- abstract-auto -->
 - [294-существующие-приближения.md](294-существующие-приближения.md) — <!-- toc -->
@@ -229,7 +229,7 @@
 - [299-практические-рекомендации-для-текущего-проекта.md](299-практические-рекомендации-для-текущего-проекта.md) — <!-- abstract-auto -->
 - [300-заключение.md](300-заключение.md) — <!-- summary -->
 - [301-благодарности.md](301-благодарности.md) — <!-- summary -->
-- [302-ссылки.md](302-ссылки.md) — <!-- abstract-auto -->
+- [302-ссылки.md](302-ссылки.md) — > [!WARNING]
 - [303-приложение-визуализация-позиции-в-серии.md](303-приложение-визуализация-позиции-в-серии.md) — <!-- abstract-auto -->
 - [304-ingit-as-cowork-native-workspace-substrate-md.md](304-ingit-as-cowork-native-workspace-substrate-md.md) — <!-- summary -->
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte.md](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) — <!-- summary -->
@@ -238,12 +238,12 @@
 - [308-table-of-contents.md](308-table-of-contents.md) — <!-- summary -->
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi.md](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) — <!-- abstract-auto -->
 - [31-content-overview.md](31-content-overview.md) — <!-- summary -->
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) — <!-- abstract-auto -->
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) — > [!TIP]
 - [311-3-what-ingit-provides-that-cowork-lacks.md](311-3-what-ingit-provides-that-cowork-lacks.md) — <!-- abstract-auto -->
 - [312-4-the-symbiotic-architecture.md](312-4-the-symbiotic-architecture.md) — <!-- toc -->
-- [313-5-four-integration-paths-in-order-of-accessibility.md](313-5-four-integration-paths-in-order-of-accessibility.md) — <!-- abstract-auto -->
-- [314-6-refined-ingit-scope-with-cowork-in-mind.md](314-6-refined-ingit-scope-with-cowork-in-mind.md) — <!-- abstract-auto -->
-- [315-7-practical-first-steps-this-month.md](315-7-practical-first-steps-this-month.md) — <!-- tags: anthropic -->
+- [313-5-four-integration-paths-in-order-of-accessibility.md](313-5-four-integration-paths-in-order-of-accessibility.md) — <!-- summary -->
+- [314-6-refined-ingit-scope-with-cowork-in-mind.md](314-6-refined-ingit-scope-with-cowork-in-mind.md) — <!-- toc -->
+- [315-7-practical-first-steps-this-month.md](315-7-practical-first-steps-this-month.md) — <!-- tags: architecture, anthropic -->
 - [316-8-implications-for-nautilus-and-okwf.md](316-8-implications-for-nautilus-and-okwf.md) — <!-- toc -->
 - [317-9-risks-and-open-questions.md](317-9-risks-and-open-questions.md) — <!-- toc -->
 - [318-10-strategic-positioning.md](318-10-strategic-positioning.md) — <!-- abstract-auto -->
@@ -251,17 +251,17 @@
 - [320-references.md](320-references.md) — <!-- toc-auto -->
 - [321-appendix-a-decision-tree-for-ingit-adopters.md](321-appendix-a-decision-tree-for-ingit-adopters.md) — <!-- summary -->
 - [322-appendix-b-comparison-matrix.md](322-appendix-b-comparison-matrix.md) — <!-- abstract-auto -->
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat.md](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) — <!-- abstract-auto -->
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat.md](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) — > [!WARNING]
 - [324-ingit-как-cowork-интегрированная-подложка-рабочего.md](324-ingit-как-cowork-интегрированная-подложка-рабочего.md) — <!-- abstract-auto -->
 - [325-аннотация.md](325-аннотация.md) — <!-- abstract-auto -->
 - [326-содержание.md](326-содержание.md) — <!-- summary -->
-- [327-1-открытие-cowork-и-почему-это-меняет-всё.md](327-1-открытие-cowork-и-почему-это-меняет-всё.md) — <!-- abstract-auto -->
+- [327-1-открытие-cowork-и-почему-это-меняет-всё.md](327-1-открытие-cowork-и-почему-это-меняет-всё.md) — > [!WARNING]
 - [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md](328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) — <!-- toc -->
 - [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md](329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) — <!-- abstract-auto -->
 - [330-4-симбиотическая-архитектура.md](330-4-симбиотическая-архитектура.md) — <!-- toc -->
-- [331-5-четыре-пути-интеграции-в-порядке-доступности.md](331-5-четыре-пути-интеграции-в-порядке-доступности.md) — <!-- abstract-auto -->
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork.md](332-6-уточнённый-объём-ingit-с-учётом-cowork.md) — <!-- abstract-auto -->
-- [333-7-практические-первые-шаги-в-этом-месяце.md](333-7-практические-первые-шаги-в-этом-месяце.md) — <!-- abstract-auto -->
+- [331-5-четыре-пути-интеграции-в-порядке-доступности.md](331-5-четыре-пути-интеграции-в-порядке-доступности.md) — > [!TIP]
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork.md](332-6-уточнённый-объём-ingit-с-учётом-cowork.md) — <!-- toc -->
+- [333-7-практические-первые-шаги-в-этом-месяце.md](333-7-практические-первые-шаги-в-этом-месяце.md) — <!-- toc-auto -->
 - [334-8-импликации-для-nautilus-и-okwf.md](334-8-импликации-для-nautilus-и-okwf.md) — <!-- toc -->
 - [335-9-риски-и-открытые-вопросы.md](335-9-риски-и-открытые-вопросы.md) — <!-- toc -->
 - [336-10-стратегическое-позиционирование.md](336-10-стратегическое-позиционирование.md) — <!-- abstract-auto -->

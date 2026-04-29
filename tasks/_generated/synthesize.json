@@ -1,0 +1,51 @@
+{
+  "id": "synthesize",
+  "version": 1.0,
+  "description": "Синтез единой картины по теме из многих документов",
+  "trigger_phrases": [
+    "сделай синтез",
+    "собери всё про",
+    "что мы знаем о"
+  ],
+  "inputs": {
+    "topic": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "template": "research-note",
+  "output_path": "docs/syntheses/synth-{topic}.md",
+  "mcp_server": "lorenzo-search",
+  "mcp_tool": "synthesize",
+  "pipeline": [
+    {
+      "bm25_passages": "{topic}"
+    },
+    {
+      "read": "docs/SUMMARIES.md"
+    },
+    {
+      "read": "docs/CROSSREFS.md"
+    },
+    {
+      "generate": "TL;DR + consensus + разногласия + пробелы + эволюция + open questions"
+    },
+    {
+      "run_template_init": "research-note"
+    }
+  ],
+  "post_checks": [],
+  "related": {
+    "skills": [
+      "synthesize",
+      "search",
+      "summarize",
+      "compare",
+      "find-gaps",
+      "find-contradictions"
+    ],
+    "templates": [
+      "research-note"
+    ]
+  }
+}

@@ -241,6 +241,10 @@ h2. 2025 (45 упоминаний)
   {{210-abstract.md}}
 
 * 🔔 _2025_ · _Abstract_  
+  > 🔧 Подход: We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew fro  
+  {{210-abstract.md}}
+
+* 🔔 _2025_ · _Abstract_  
   We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to 93  
   {{210-abstract.md}}
 
@@ -251,6 +255,10 @@ h2. 2025 (45 упоминаний)
 * 🔔 _2025_ · _3.3. D_  
   Deployment Trajectory Date Status -------------- Summer 2025 Development begins September 2025 Public launch April 2026   
   {{214-3-empirical-case-study-обучай.md}}
+
+* 🔔 _2025_ · _75% — {{docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md}} vs {{docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md}}_  
+  Цель дорожной карты: интерфейс годового планирования учителя с однокликовой генерацией материалов прямо в школьный элект  
+  {{DUPLICATES.md}}
 
 * 🔔 _2025_ · _11. 3.3. D_  
   Deployment Trajectory Файл: docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md 2 колонок, 3 строк Date Sta  

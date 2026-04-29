@@ -22,6 +22,16 @@ date: 2026-04-29
 
 <!-- alert-added -->
 
+<!-- summary -->
+> Метод: TF-IDF + косинусное сходство (порог 0.15)
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
 Документов: 1559, кластеров: 168
 

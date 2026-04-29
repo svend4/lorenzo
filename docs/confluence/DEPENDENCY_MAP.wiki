@@ -203,3 +203,9 @@ _Похожие документы:_
 * [README|docs/obsidian/README.md] (сходство 0.40)
 * [CHANGELOG_AUTO|docs/CHANGELOG_AUTO.md] (сходство 0.34)
 
+* [CHANGELOG|CHANGELOG.md] _25%_
+* [docs|README.md] _25%_
+* [Индекс тегов|TAGS.md] _21%_
+* [Changelog (авто)|CHANGELOG_AUTO.md] _17%_
+* [Прогресс MVP|PROGRESS.md] _17%_
+* [Бейджи репозитория|badges/README.md] _15%_

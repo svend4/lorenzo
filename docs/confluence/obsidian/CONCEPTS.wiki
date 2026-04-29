@@ -28,9 +28,8 @@ _a coherent composite agent This_
 : _Composite Skills Agent_ pattern  
   _→ [[254-1-why-the-binary-view-is-incomplete]]_
 
-_A nautilus shell_
-: _spiral of nested chambers_, each larger  
-  _→ [[68-about]]_
+_A2A protocol_
+: [[components-by-name|A2A vs MCP, ансамбль H]]_
 
 _A2A protocol_
 : [[components-by-name|A2A vs MCP, ансамбль H]]_
@@ -103,7 +102,7 @@ _Agent‑Bridge_
 
 _Agent‑first knowledge retrieval_
 : knowledge-space снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами  
-  _→ [[04-ensembles-overview]]_
+  _→ [[A-collaboration-os]]_
 
 _AI safety harms_
 : narrower perspective pool in AI  
@@ -112,6 +111,10 @@ _AI safety harms_
 _al) к Professional Colleagues (practical)_
 : natural progression сложности и concreteness  
   _→ [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]_
+
+_Aligned incentive structure_
+: agent succeeds when client succeeds (commission) 3  
+  _→ [[DUPLICATES]]_
 
 _Aligned values_
 : Serves vulnerable populations; mission-fit  
@@ -435,10 +438,6 @@ _Configuration management_
 _Consensus_
 : результат сопоставления найденных концептов между  
   _→ [[07-2-terminology]]_
-
-_Contact for discussion_
-: [[164-10-appendices|author's GitHub issues, email  
-  _→ [164-10-appendices]]_
 
 _Contribution bonuses_
 : measurable high-impact work  
@@ -965,10 +964,6 @@ _ied AI EMEA понижаю с primary на tertiary_
 : fallback, если остальное не сработает, не флагман  
   _→ [[00-intro]]_
 
-_ilus» как имя папки для внешнего читателя_
-: метафора без контекста, и она сбивает с толку на фоне отдельного nautilus репо  
-  _→ [[01-интегральный-анализ-профиля-svend4]]_
-
 _Impact_
 : High (foundational failure)  
   _→ [[162-8-risk-analysis]]_
@@ -1100,10 +1095,6 @@ _Large Language Models_
 
 _Layer 1 — Ingestion_
 : Svyazi-style hybrid extraction (Чуян pattern)  
-  _→ [[366-технический-stack-svyazi-2-0-foundation]]_
-
-_Layer 2 — Knowledge_
-: knowledge-space (Анастасия, MIT)  
   _→ [[366-технический-stack-svyazi-2-0-foundation]]_
 
 _Layer 3 — Kernel_
@@ -2212,10 +2203,6 @@ _Three-phase review_
 : Methodology for parallel AI-agent  
   _→ [[148-appendix-a-glossary]]_
 
-_tHub уже автоматически отозвал этот токен_
-: занимает обычно от нескольких минут до нескольких часов после обнаружения  
-  _→ [[01-интегральный-анализ-профиля-svend4]]_
-
 _ti-device vault (3) + Obsidian-as-MCP (2)_
 : уже не три проекта, а единая архитектура захвата-консолидации-доступа, где каждый слой делает то, что умеет лучше всего, и не лезет в чужую зону  
   _→ [[00-intro]]_
@@ -2358,6 +2345,10 @@ _What it is_
 _What it provides_
 : - Federated knowledge storage across heterogeneous formats  
   _→ [[158-4-proposed-infrastructure]]_
+
+_What matches_
+: architecture where: - Many narrow-specialist sub-agents exist, each built once - Sub-agents are shared across all practitioners who need that specialization - Each principal conf…  
+  _→ [[DUPLICATES]]_
 
 _What we ask_
 : - Core partnership funding commitment (€1-3M over 3 years)  
@@ -3381,6 +3372,14 @@ _о он не имел доступа к soz_ репо с делами*
 : главное, что могло бы быть по-настоящему плохо  
   _→ [[01-интегральный-анализ-профиля-svend4]]_
 
+_Оба неверны_
+: нужно переформулировать  
+  _→ [[contradiction-record]]_
+
+_Оба правы в разных контекстах_
+: нужно разделить области применимости  
+  _→ [[contradiction-record]]_
+
 _Обнаружение_
 : Агент мониторит open-source проекты ячеистых сетей, гражданские технологические инициативы на её языке, исследовательские сотрудничества  
   _→ [[207-приложение-c-образцы-случаев-использования-в-детал]]_
@@ -3527,10 +3526,6 @@ _поддерживает и текучесть, и структуру_
 _Поддержка составления_
 : Когда ему нужно подать Widerspruch, агент составляет формальный документ для его проверки и подписи  
   _→ [[207-приложение-c-образцы-случаев-использования-в-детал]]_
-
-_Подпапка {{nautilus/}}_
-: historical embedded-версия Portal  
-  _→ [[48-content-overview]]_
 
 _Позиция A_
 : 88% fallback критично, требует срочных живых  
@@ -3709,6 +3704,10 @@ _Регионы карты_
 _Результат_
 : Мария вкладывает 8 часов/неделю как советник  
   _→ [[207-приложение-c-образцы-случаев-использования-в-детал]]_
+
+_Результаты_
+: черновики, требующие проверки и принятия практикующим, не окончательные продукты  
+  _→ [[DUPLICATES]]_
 
 _Рекомендация_
 : _Сделайте это сейчас_  

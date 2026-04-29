@@ -143,6 +143,11 @@ _секция: 3, заголовок: 3, H1: 1, уровень: 1_
 _секция: 5, заголовок: 2, H1: 1_
 
 
+### `docs/CHANGELOG.md` (8 проблем)
+
+_секция: 7, заголовок: 1_
+
+
 ### `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` (8 проблем)
 
 _секция: 7, H1: 1_
@@ -229,6 +234,11 @@ _секция: 3, заголовок: 3_
 
 
 ### `docs/CONSISTENCY.md` (6 проблем)
+
+_секция: 6_
+
+
+### `docs/GITHUB_ISSUES.md` (6 проблем)
 
 _секция: 6_
 
@@ -721,6 +731,11 @@ _секция: 3, заголовок: 1_
 ### `docs/nautilus/npp-v1-1/09-consensus-algorithm.md` (4 проблем)
 
 _секция: 3, заголовок: 1_
+
+
+### `docs/templates/contradiction-record.md` (4 проблем)
+
+_секция: 4_
 
 
 ### `docs/templates/ensemble.md` (4 проблем)
@@ -1853,12 +1868,22 @@ _секция: 2_
 _секция: 2_
 
 
+### `docs/REGISTRY.md` (2 проблем)
+
+_секция: 2_
+
+
 ### `docs/RISK_REGISTER.md` (2 проблем)
 
 _секция: 2_
 
 
 ### `docs/STALENESS.md` (2 проблем)
+
+_секция: 2_
+
+
+### `docs/WORD_FREQ.md` (2 проблем)
 
 _секция: 2_
 
@@ -2231,6 +2256,11 @@ _H1: 1, секция: 1_
 ### `docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md` (2 проблем)
 
 _H1: 1, секция: 1_
+
+
+### `docs/templates/contact-outreach.md` (2 проблем)
+
+_секция: 2_
 
 
 ### `docs/templates/project-component.md` (2 проблем)
@@ -2723,6 +2753,11 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/ACTION_ITEMS.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/ALERTS.md` (1 проблем)
 
 _секция: 1_
@@ -2894,11 +2929,6 @@ _секция: 1_
 
 
 ### `docs/TIMELINE.md` (1 проблем)
-
-_секция: 1_
-
-
-### `docs/WORD_FREQ.md` (1 проблем)
 
 _секция: 1_
 
@@ -4083,7 +4113,7 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/templates/contact-outreach.md` (1 проблем)
+### `docs/templates/agent-spec.md` (1 проблем)
 
 _секция: 1_
 

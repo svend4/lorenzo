@@ -147,6 +147,7 @@ _Обновлено: 2026-04-29_
 | `73-portal-protocol-md-v1-1.md` | EN | RU | 12% | 88% |
 | `25-13-reference-implementation.md` | EN | RU | 13% | 87% |
 | `225-references.md` | EN | RU | 13% | 87% |
+| `README.md` | EN | RU | 13% | 87% |
 | `04-sozialrecht-domain.md` | EN | RU | 14% | 86% |
 | `22-10-queryresult-structure.md` | EN | RU | 14% | 86% |
 | `35-passports-info1-md.md` | EN | RU | 14% | 86% |

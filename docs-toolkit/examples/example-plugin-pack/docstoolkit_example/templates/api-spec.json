@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "api-spec",
+  "description": "REST API specification template",
+  "type": "object",
+  "required": ["template", "version", "api_name", "api_version", "auth_type"],
+  "properties": {
+    "template": {"const": "api-spec"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "api_name": {"type": "string", "minLength": 1},
+    "api_version": {"type": "string"},
+    "auth_type": {"enum": ["bearer", "oauth2", "api-key", "none"]},
+    "base_url": {"type": "string"},
+    "created": {"type": "string", "format": "date"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Базовый URL", "Аутентификация", "Endpoints"]
+}

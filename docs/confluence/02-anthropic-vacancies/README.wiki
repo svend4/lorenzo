@@ -29,7 +29,7 @@ h2. Содержание
 * [109-3-принципы-консолидации-фаза-c.md|109-3-принципы-консолидации-фаза-c.md] — 
 * [110-вопрос-fallback-ratio-как-критический-или-осмыслен.md|110-вопрос-fallback-ratio-как-критический-или-осмыслен.md] — 
 * [111-4-условия-применимости.md|111-4-условия-применимости.md] — 
-* [112-5-связь-с-существующими-методологиями.md|112-5-связь-с-существующими-методологиями.md] — 
+* [112-5-связь-с-существующими-методологиями.md|112-5-связь-с-существующими-методологиями.md] — > [!WARNING]
 * [113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md|113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md] — 
 * [114-7-реализация-в-проекте-nautilus.md|114-7-реализация-в-проекте-nautilus.md] — 
 * [115-8-ограничения-и-открытые-вопросы.md|115-8-ограничения-и-открытые-вопросы.md] — 
@@ -157,7 +157,7 @@ h2. Содержание
 * [228-appendix-c-quick-start-architecture-for-sgb-advoca.md|228-appendix-c-quick-start-architecture-for-sgb-advoca.md] — 
 * [229-профессиональные-коллеги-агенты.md|229-профессиональные-коллеги-агенты.md] — 
 * [23-11-security-considerations.md|23-11-security-considerations.md] — 
-* [230-аннотация.md|230-аннотация.md] — 
+* [230-аннотация.md|230-аннотация.md] — > [!WARNING]
 * [231-содержание.md|231-содержание.md] — 
 * [232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md|232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md] — 
 * [233-2-что-делает-агента-профессиональным-коллегой.md|233-2-что-делает-агента-профессиональным-коллегой.md] — 
@@ -171,7 +171,7 @@ h2. Содержание
 * [240-9-связь-с-другими-типами-агентов.md|240-9-связь-с-другими-типами-агентов.md] — 
 * [241-10-открытые-вопросы.md|241-10-открытые-вопросы.md] — 
 * [242-11-призыв-к-сотрудничеству.md|242-11-призыв-к-сотрудничеству.md] — 
-* [243-12-заключение.md|243-12-заключение.md] — 
+* [243-12-заключение.md|243-12-заключение.md] — > [!WARNING]
 * [244-благодарности.md|244-благодарности.md] — 
 * [245-ссылки.md|245-ссылки.md] — 
 * [246-приложение-a-сравнительная-таблица-пять-типов-аген.md|246-приложение-a-сравнительная-таблица-пять-типов-аген.md] — 
@@ -210,7 +210,7 @@ h2. Содержание
 * [276-the-two-layer-stack-as-it-exists.md|276-the-two-layer-stack-as-it-exists.md] — 
 * [277-what-s-missing-layer-b.md|277-what-s-missing-layer-b.md] — 
 * [278-why-this-hasn-t-been-built.md|278-why-this-hasn-t-been-built.md] — 
-* [279-existing-approximations.md|279-existing-approximations.md] — 
+* [279-existing-approximations.md|279-existing-approximations.md] — > [!TIP]
 * [28-appendix-a-minimal-working-example.md|28-appendix-a-minimal-working-example.md] — 
 * [280-the-specific-case-in-front-of-us.md|280-the-specific-case-in-front-of-us.md] — 
 * [281-the-recursive-insight.md|281-the-recursive-insight.md] — 
@@ -220,10 +220,10 @@ h2. Содержание
 * [285-closing.md|285-closing.md] — 
 * [286-acknowledgments.md|286-acknowledgments.md] — 
 * [287-references.md|287-references.md] — 
-* [288-appendix-position-in-series-visualization.md|288-appendix-position-in-series-visualization.md] — 
+* [288-appendix-position-in-series-visualization.md|288-appendix-position-in-series-visualization.md] — > [!WARNING]
 * [289-инфраструктура-для-ai-совместной-интеллектуальной-.md|289-инфраструктура-для-ai-совместной-интеллектуальной-.md] — 
 * [290-почему-этот-документ-существует.md|290-почему-этот-документ-существует.md] — 
-* [291-двухслойный-стек-как-он-существует.md|291-двухслойный-стек-как-он-существует.md] — 
+* [291-двухслойный-стек-как-он-существует.md|291-двухслойный-стек-как-он-существует.md] — > [!WARNING]
 * [292-что-отсутствует-слой-b.md|292-что-отсутствует-слой-b.md] — 
 * [293-почему-это-не-было-построено.md|293-почему-это-не-было-построено.md] — 
 * [294-существующие-приближения.md|294-существующие-приближения.md] — 
@@ -247,7 +247,7 @@ h2. Содержание
 * [311-3-what-ingit-provides-that-cowork-lacks.md|311-3-what-ingit-provides-that-cowork-lacks.md] — 
 * [312-4-the-symbiotic-architecture.md|312-4-the-symbiotic-architecture.md] — 
 * [313-5-four-integration-paths-in-order-of-accessibility.md|313-5-four-integration-paths-in-order-of-accessibility.md] — 
-* [314-6-refined-ingit-scope-with-cowork-in-mind.md|314-6-refined-ingit-scope-with-cowork-in-mind.md] — 
+* [314-6-refined-ingit-scope-with-cowork-in-mind.md|314-6-refined-ingit-scope-with-cowork-in-mind.md] — > [!TIP]
 * [315-7-practical-first-steps-this-month.md|315-7-practical-first-steps-this-month.md] — 
 * [316-8-implications-for-nautilus-and-okwf.md|316-8-implications-for-nautilus-and-okwf.md] — 
 * [317-9-risks-and-open-questions.md|317-9-risks-and-open-questions.md] — 
@@ -256,11 +256,11 @@ h2. Содержание
 * [320-references.md|320-references.md] — 
 * [321-appendix-a-decision-tree-for-ingit-adopters.md|321-appendix-a-decision-tree-for-ingit-adopters.md] — 
 * [322-appendix-b-comparison-matrix.md|322-appendix-b-comparison-matrix.md] — 
-* [323-appendix-c-sample-ingit-mcp-server-tool-specificat.md|323-appendix-c-sample-ingit-mcp-server-tool-specificat.md] — 
+* [323-appendix-c-sample-ingit-mcp-server-tool-specificat.md|323-appendix-c-sample-ingit-mcp-server-tool-specificat.md] — > [!WARNING]
 * [324-ingit-как-cowork-интегрированная-подложка-рабочего.md|324-ingit-как-cowork-интегрированная-подложка-рабочего.md] — 
 * [325-аннотация.md|325-аннотация.md] — 
 * [326-содержание.md|326-содержание.md] — 
-* [327-1-открытие-cowork-и-почему-это-меняет-всё.md|327-1-открытие-cowork-и-почему-это-меняет-всё.md] — 
+* [327-1-открытие-cowork-и-почему-это-меняет-всё.md|327-1-открытие-cowork-и-почему-это-меняет-всё.md] — > [!WARNING]
 * [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md|328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md] — 
 * [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md|329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md] — 
 * [330-4-симбиотическая-архитектура.md|330-4-симбиотическая-архитектура.md] — 

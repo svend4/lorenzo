@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+docstoolkit_example/__init__.py
+docstoolkit_example/embeddings_random.py
+docstoolkit_example/ingest_csv.py
+docstoolkit_example.egg-info/PKG-INFO
+docstoolkit_example.egg-info/SOURCES.txt
+docstoolkit_example.egg-info/dependency_links.txt
+docstoolkit_example.egg-info/entry_points.txt
+docstoolkit_example.egg-info/requires.txt
+docstoolkit_example.egg-info/top_level.txt
+docstoolkit_example/skills/__init__.py
+docstoolkit_example/templates/__init__.py

@@ -1,0 +1,43 @@
+{
+  "id": "find-contradictions",
+  "version": 1.0,
+  "description": "Поиск противоречий между документами",
+  "trigger_phrases": [
+    "где противоречия про",
+    "что в моих документах конфликтует",
+    "проверь нет ли несостыковок"
+  ],
+  "inputs": {
+    "topic": {
+      "type": "string",
+      "required": false,
+      "description": "Опционально — тема для фильтрации"
+    }
+  },
+  "mcp_server": "lorenzo-graph",
+  "mcp_tool": "find_contradictions",
+  "pipeline": [
+    {
+      "run_script": "improve_contradiction_check.py"
+    },
+    {
+      "read": "docs/CONTRADICTIONS.md"
+    },
+    {
+      "filter_by_topic": "\"{topic}\"  # если указан"
+    },
+    {
+      "generate": "Классифицировать по severity, предложить разрешение"
+    }
+  ],
+  "post_checks": [],
+  "related": {
+    "skills": [
+      "find-contradictions",
+      "audit-corpus"
+    ],
+    "templates": [
+      "contradiction-record"
+    ]
+  }
+}

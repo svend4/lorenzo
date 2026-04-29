@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "kpi-snapshot",
+  "description": "Снапшот KPI с деталями метрик и трендом",
+  "type": "object",
+  "required": ["template", "version", "snapshot_date", "period"],
+  "properties": {
+    "template": {"const": "kpi-snapshot"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "snapshot_date": {"type": "string", "format": "date"},
+    "period": {"enum": ["daily", "weekly", "monthly", "quarterly"]},
+    "trend": {"enum": ["up", "down", "flat"]},
+    "total_score": {"type": "integer", "minimum": 0, "maximum": 100},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Период", "Сводка", "Детальные метрики", "Топ-3 фокуса на следующий период"]
+}

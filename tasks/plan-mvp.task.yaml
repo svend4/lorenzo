@@ -1,0 +1,37 @@
+id: plan-mvp
+version: 1.0
+description: Планирование MVP/прототипа из имеющихся компонентов
+
+trigger_phrases:
+  - "составь план MVP"
+  - "что нужно для прототипа"
+  - "минимальный пайплайн"
+
+inputs:
+  goal:
+    type: string
+    required: true
+  layers:
+    type: array
+    required: false
+
+template: prototype-mvp
+output_path: "docs/svyazi-2-0/prototype/MVP-{mvp_id}.md"
+
+mcp_server: lorenzo-runner
+mcp_tool: plan_mvp
+
+pipeline:
+  - read: docs/COMPONENT_MATRIX.md
+  - read: docs/RISK_REGISTER.md
+  - bm25_passages: "{goal}"
+  - run_template_init: "prototype-mvp"
+  - generate: "MVP с фазами (0/1/2/3), метрикой успеха, рисками"
+
+post_checks:
+  - file_exists_pattern: "docs/svyazi-2-0/prototype/MVP-*.md"
+  - validate_template: prototype-mvp
+
+related:
+  skills: [plan-mvp, design-ensemble, evaluate-tech]
+  templates: [prototype-mvp, ensemble, mega-stack]

@@ -9,6 +9,9 @@ _Связный рассказ о том, как складывается про
 
 > <!-- toc --> - [Contents](#contents) - [Главная линия синергии](#главная-линия-синергии) - [Ключевой вывод](#ключевой-вывод) - [Что добавляет продолжение исследования](#что-добавляет-продолжение-исследования) - [Приоритет ансамблей для старта](#приоритет-ансамблей-для-старта) --- <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Svyazi^svyazi 2.0 — Исполнительное резюме Contents - Главная линия синергии(главная-линия-синергии) - Ключевой вывод(ключевой-вывод) - Что добавляет продолжение исследования(что-до > ✅ **Результат:** Первое — Svyazi + AgentFS +…
 
+- **🛠️ MVP:** Planning](07-mvp-planning
+- **🛠️ MVP:** Planning](07-mvp-planning
+
 _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_
 
 ---
@@ -18,6 +21,9 @@ _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_
 
 > <!-- summary --> > > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров. **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse --- <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров. > 🔧 **Подход:** 6 слоёв, YAML,…
 
+- **🛠️ MVP:** Planning](07-mvp-planning
+- **🛠️ MVP:** Planning](07-mvp-planning
+
 _[→ Читать полностью](docs/01-svyazi/03-component-catalog.md)_
 
 ---
@@ -26,6 +32,9 @@ _[→ Читать полностью](docs/01-svyazi/03-component-catalog.md)_
 ## Глава 3: Ансамбли — синергия компонентов
 
 > <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** citeturn35search0 - Контекст реального мира доступен агенту как tool, а не как догадка: Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации. > 🔧 **Подход:** citeturn34view3 - Контроль над retrieval‑слоем без «фреймворкового тумана»: Hybrid RAG‑подход на pdfplumber/FAISS/TF‑IDF проще дебажить и дешевле держать в локальном контуре, че > ✅ **Результат:**…
+
+- **🛠️ MVP:** Planning](07-mvp-planning
+- **🛠️ MVP:** Planning](07-mvp-planning
 
 _[→ Читать полностью](docs/01-svyazi/04-ensembles-overview.md)_
 
@@ -48,7 +57,9 @@ _[→ Читать полностью](docs/01-svyazi/07-mvp-planning.md)_
 
 > <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Архитектурный зазор Уже сильные кандидаты Что в них уже хорошо закрыто Что пока остаётся незакрытым Что брать в MVP --------------- Карточка как единица правды Svyazi, AgentFS Card > 🔧 **Подход:** В‑третьих, нужен memory governance layer, который не даёт ассоциативной памяти записывать предлагаемое как истинное. > ✅ **Результат:** Наоборот, даже средний…
 
-- **🛠️ MVP:** --------------- Карточка как единица правды Svyazi, AgentFS Card
+- **🛠️ MVP:** Planning](07-mvp-planning
+- **🛠️ MVP:** Planning](07-mvp-planning
+- **🛠️ MVP:** Planning](07-mvp-planning
 
 _[→ Читать полностью](docs/01-svyazi/09-architectural-gaps.md)_
 
@@ -61,6 +72,9 @@ _[→ Читать полностью](docs/01-svyazi/09-architectural-gaps.md)_
 
 - **🛠️ MVP:** без чрезмерной формализации
 - **🛠️ MVP:** | На какие идеи опирается |
+- **🛠️ MVP:** Planning](07-mvp-planning
+- **🛠️ MVP:** Planning](07-mvp-planning
+- **🛠️ MVP:** Planning](07-mvp-planning
 
 _[→ Читать полностью](docs/01-svyazi/11-integration-contracts.md)_
 
@@ -72,6 +86,9 @@ _[→ Читать полностью](docs/01-svyazi/11-integration-contracts.m
 > <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Тут нужно решить прежде всего не “какая память умнее”, а “какая licence/policy лучше подходит”. > 🔧 **Подход:** Это хорошая новость: такую архитектуру можно собрать без огромной команды, если с самого начала дисциплинировать стыки. > ✅ **Результат:** Эта фаза даёт уже очень ценный эффект: объяснимые suggestions вместо “магического мэтчинга”. > 🏷️…
 
 - **🚀 Старт:** должна закрепить контракт и доказуемость
+- **🛠️ MVP:** Planning](07-mvp-planning
+- **🛠️ MVP:** Planning](07-mvp-planning
+- **🛠️ MVP:** Planning](07-mvp-planning
 - **🎯 Цель:** | Минимум, который должен заработать | Оценка усилий | Главный риск |
 
 _[→ Читать полностью](docs/01-svyazi/12-roadmap.md)_

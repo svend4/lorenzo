@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "tech-radar-entry",
+  "description": "Запись Tech Radar: квадрант, кольцо, обоснование",
+  "type": "object",
+  "required": ["template", "version", "tech_name", "quadrant", "ring"],
+  "properties": {
+    "template": {"const": "tech-radar-entry"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "tech_name": {"type": "string", "minLength": 1},
+    "quadrant": {"enum": ["techniques", "tools", "platforms", "languages-and-frameworks"]},
+    "ring": {"enum": ["adopt", "trial", "assess", "hold"]},
+    "moved": {"type": "boolean"},
+    "previous_ring": {"type": ["string", "null"]},
+    "created": {"type": "string", "format": "date"},
+    "review_due": {"type": ["string", "null"], "format": "date"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Quadrant", "Ring", "Описание", "Почему именно этот ring", "Когда использовать"]
+}

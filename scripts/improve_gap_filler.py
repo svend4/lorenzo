@@ -229,11 +229,19 @@ def main() -> None:
     print(f"🔧 improve_gap_filler.py — заполнение пустых секций ({mode_label})")
     print(f"   Режим: {'APPLY' if APPLY else 'dry-run'} | TOP={TOP}\n")
 
+    import sys as _sys
+    _sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from utils_docignore import is_ignored
+    except ImportError:
+        is_ignored = lambda p: False
+
     target = SECTION_FILTER or DOCS
     files = [f for f in sorted(target.rglob("*.md"))
              if f.name not in SKIP_FILES
              and "-parts" not in str(f)
-             and "obsidian" not in str(f)]
+             and "obsidian" not in str(f)
+             and not is_ignored(f)]
     print(f"   Файлов: {len(files)}")
     print("   Строю BM25-корпус...", end=" ", flush=True)
 

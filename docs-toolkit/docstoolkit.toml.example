@@ -1,0 +1,21 @@
+# Пример docstoolkit.toml для монорепо документации
+
+[paths]
+docs = "docs"
+templates = "docs/templates"
+schemas = "docs/templates/_schemas"
+tasks = "tasks"
+skills = ".claude/skills"
+
+[validation]
+strict = false
+skip_dirs = ["templates", "_schemas", "node_modules", ".git"]
+
+[language]
+primary = "en"
+fallback = "en"
+
+[sections]
+# Опционально: имена ваших разделов
+# "01-architecture" = "Архитектура"
+# "02-api" = "API Reference"

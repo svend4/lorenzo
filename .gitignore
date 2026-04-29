@@ -2,5 +2,25 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Auto-generated exports (regenerated on each build)
+docs/obsidian/
+docs/confluence/
+
+# LLM cache and runtime logs
+.claude/llm_cache.jsonl
+.claude/mcp_calls.jsonl
+.claude/skill_metrics.jsonl
+.claude/workflow_runs.jsonl
+.claude/audit.sqlite
+
+# Pytest
+.pytest_cache/
+
+# docs-toolkit build artifacts
+docs-toolkit/dist/
+docs-toolkit/build/
+docs-toolkit/*.egg-info/
+.docstoolkit/
+
 # pre-commit cache
 .pre-commit-cache/

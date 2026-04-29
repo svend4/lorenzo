@@ -12,8 +12,6 @@ h1. 6. Почему это валидный паттерн для AI-assisted wo
 
 
 
-
-
 h2. 6. Почему это валидный паттерн для AI-assisted workflows
 
 Традиционная software engineering оптимизировалась против 

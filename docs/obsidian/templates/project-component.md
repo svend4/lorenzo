@@ -42,14 +42,3 @@ date: 2026-04-29
 
 ---
 _Создано: 2026-04-29_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[contact-outreach]]
-- [[ensemble]]
-- [[vladspace]]
-- [[cutcode]]
-

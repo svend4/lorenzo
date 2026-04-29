@@ -1,7 +1,6 @@
 ---
 title: "Когда сомневаешься — escalate к Max"
 tags:
-  - anthropic
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,8 +11,6 @@ date: 2026-04-29
 > - Ethical complexity beyond обычных protocols
 
 ---
-<!-- tags: anthropic -->
-
 
 
 

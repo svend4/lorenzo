@@ -1,0 +1,60 @@
+{
+  "id": "weekly-review",
+  "version": 1.0,
+  "description": "Еженедельное ревью с дайджестом, аудитом, ретро и KPI snapshot",
+  "trigger_phrases": [
+    "weekly review",
+    "пятничный обход",
+    "еженедельный отчёт"
+  ],
+  "inputs": {},
+  "mcp_server": "lorenzo-runner",
+  "mcp_tool": "weekly_review",
+  "pipeline": [
+    {
+      "run_script": "improve_digest_weekly.py"
+    },
+    {
+      "run_script": "improve_digest_auto.py --days 7"
+    },
+    {
+      "run_script": "improve_kpi_snapshot.py"
+    },
+    {
+      "run_template_init": "weekly-digest"
+    },
+    {
+      "run_template_init": "kpi-snapshot"
+    },
+    {
+      "run_template_init": "retrospective"
+    },
+    {
+      "update_index": "docs/INDEX.md"
+    }
+  ],
+  "post_checks": [
+    {
+      "file_exists_pattern": "docs/digests/*.md"
+    },
+    {
+      "file_exists_pattern": "docs/kpi-snapshots/*.md"
+    },
+    {
+      "file_exists_pattern": "docs/retrospectives/*.md"
+    }
+  ],
+  "related": {
+    "skills": [
+      "weekly-review",
+      "audit-corpus",
+      "daily-routine",
+      "track-decisions"
+    ],
+    "templates": [
+      "weekly-digest",
+      "kpi-snapshot",
+      "retrospective"
+    ]
+  }
+}

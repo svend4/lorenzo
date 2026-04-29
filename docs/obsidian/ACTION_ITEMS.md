@@ -177,6 +177,12 @@ date: 2026-04-29
   _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
+- — call? [S]  
+  _→ QUESTIONS_
+- — call? [Твоя коммуникация в outreach]  
+  _→ QUESTIONS_
+- набора узкоспециализированных под-аге [Какой под-агент (или какие) должны её обработать]  
+  _→ QUESTIONS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
   _→ RISK_REGISTER_
 - — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Po  
@@ -1280,6 +1286,8 @@ _(616 дублей скрыто)_
   _→ TABLES_
 - - [Риск 1]  
   _→ ensemble_
+- ## 12. Compatibility  
+  _→ protocol-spec_
 
 _(156 дублей скрыто)_
 
@@ -1462,6 +1470,8 @@ _(10 дублей скрыто)_
   _→ SCHEDULE_
 - авторам AgentFS, Yodoca, NGT**  
   _→ SCHEDULE_
+- первое сообщение автору OSS-проекта | "напиши письмо автору", "составь запрос на  
+  _→ TABLES_
 - PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
   _→ TABLES_
 - technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого арте  

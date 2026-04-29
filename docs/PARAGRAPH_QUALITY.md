@@ -266,9 +266,9 @@ _Оборванный: 7, абзац: 33, начала: 3, Дубль: 1_
 _абзац: 23, Оборванный: 20, Дубль: 1_
 
 
-### `docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md` (43 проблем)
+### `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` (43 проблем)
 
-_Оборванный: 3, абзац: 12, начала: 28_
+_абзац: 33, Оборванный: 6, начала: 3, Дубль: 1_
 
 
 ### `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md` (43 проблем)
@@ -278,7 +278,7 @@ _Оборванный: 18, абзац: 16, начала: 9_
 
 ### `docs/04-ai-collaborations/00-intro.md` (43 проблем)
 
-_Оборванный: 10, абзац: 29, предложение: 4_
+_абзац: 16, Оборванный: 17, начала: 9_
 
 
 ### `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` (42 проблем)
@@ -383,12 +383,12 @@ _Дубль: 1, Оборванный: 3, абзац: 33_
 
 ### `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` (36 проблем)
 
-_Оборванный: 6, абзац: 30_
+_Оборванный: 5, абзац: 31_
 
 
 ### `docs/SUMMARIES.md` (36 проблем)
 
-_абзац: 28, Оборванный: 6, Дубль: 1, предложение: 1_
+_абзац: 20, Оборванный: 15_
 
 
 ### `docs/lorenzo-agent/specification/01-q1-what-lorenzo-is.md` (36 проблем)
@@ -406,9 +406,9 @@ _Дубль: 1, Оборванный: 10, абзац: 25_
 _абзац: 31, Дубль: 1, Оборванный: 4_
 
 
-### `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` (35 проблем)
+### `docs/01-svyazi/QA.md` (34 проблем)
 
-_Оборванный: 23, абзац: 12_
+_абзац: 17, начала: 16, Оборванный: 1_
 
 
 ### `docs/SITEMAP.md` (35 проблем)
@@ -451,14 +451,14 @@ _абзац: 11, Дубль: 1, Оборванный: 22_
 _Дубль: 1, Оборванный: 2, абзац: 31_
 
 
-### `docs/02-anthropic-vacancies/69-section.md` (33 проблем)
+### `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` (31 проблем)
 
-_Оборванный: 13, абзац: 19, предложение: 1_
+_абзац: 20, Оборванный: 11_
 
 
-### `docs/05-habr-projects/memory/memnet.md` (33 проблем)
+### `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` (31 проблем)
 
-_Оборванный: 7, абзац: 12, предложение: 4, начала: 10_
+_абзац: 18, Оборванный: 13_
 
 
 ### `docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md` (33 проблем)
@@ -486,9 +486,9 @@ _абзац: 16, начала: 15, Оборванный: 1_
 _Оборванный: 20, абзац: 7, предложение: 5_
 
 
-### `docs/04-ai-collaborations/QA.md` (32 проблем)
+### `docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md` (30 проблем)
 
-_абзац: 16, начала: 15, Оборванный: 1_
+_абзац: 16, Оборванный: 13, Дубль: 1_
 
 
 ### `docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md` (32 проблем)
@@ -501,9 +501,9 @@ _Дубль: 1, абзац: 25, Оборванный: 2, начала: 4_
 _абзац: 25, Дубль: 1, Оборванный: 4, предложение: 2_
 
 
-### `docs/01-svyazi/04-ensembles-overview.md` (31 проблем)
+### `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` (30 проблем)
 
-_Оборванный: 13, абзац: 18_
+_абзац: 17, Оборванный: 12, предложение: 1_
 
 
 ### `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` (31 проблем)
@@ -541,9 +541,9 @@ _Оборванный: 7, Дубль: 3, абзац: 20, предложение:
 _Оборванный: 11, абзац: 16, предложение: 3_
 
 
-### `docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md` (30 проблем)
+### `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` (28 проблем)
 
-_Оборванный: 11, Дубль: 2, начала: 4, абзац: 13_
+_абзац: 7, Оборванный: 5, начала: 15, Дубль: 1_
 
 
 ### `docs/glossary/components-by-name.md` (30 проблем)
@@ -571,9 +571,9 @@ _Оборванный: 13, абзац: 11, начала: 5_
 _Оборванный: 6, абзац: 7, начала: 15, Дубль: 1_
 
 
-### `docs/02-anthropic-vacancies/68-about.md` (29 проблем)
+### `docs/02-anthropic-vacancies/162-8-risk-analysis.md` (27 проблем)
 
-_Оборванный: 11, абзац: 18_
+_абзац: 11, Оборванный: 16_
 
 
 ### `docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md` (29 проблем)
@@ -591,9 +591,9 @@ _Дубль: 1, абзац: 25, Оборванный: 3_
 _Оборванный: 13, абзац: 10, Дубль: 1, предложение: 4_
 
 
-### `docs/02-anthropic-vacancies/159-5-economic-model.md` (28 проблем)
+### `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` (27 проблем)
 
-_Оборванный: 12, Дубль: 2, абзац: 6, начала: 8_
+_абзац: 16, Оборванный: 9, предложение: 2_
 
 
 ### `docs/02-anthropic-vacancies/162-8-risk-analysis.md` (28 проблем)
@@ -756,9 +756,9 @@ _Оборванный: 8, абзац: 9, начала: 8_
 _Оборванный: 13, абзац: 8, предложение: 4_
 
 
-### `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` (25 проблем)
+### `docs/TAGS.md` (26 проблем)
 
-_Оборванный: 8, абзац: 16, предложение: 1_
+_абзац: 1, Оборванный: 12, начала: 12, Дубль: 1_
 
 
 ### `docs/CONSISTENCY.md` (25 проблем)
@@ -801,14 +801,14 @@ _Оборванный: 13, абзац: 11_
 _Оборванный: 12, абзац: 7, начала: 5_
 
 
-### `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md` (24 проблем)
+### `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` (25 проблем)
 
-_Оборванный: 9, Дубль: 1, абзац: 7, начала: 7_
+_абзац: 7, Оборванный: 14, Дубль: 1, предложение: 3_
 
 
 ### `docs/02-anthropic-vacancies/200-10-открытые-вопросы.md` (24 проблем)
 
-_Оборванный: 3, абзац: 20, Дубль: 1_
+_абзац: 14, Оборванный: 11_
 
 
 ### `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` (24 проблем)
@@ -821,14 +821,14 @@ _Оборванный: 10, абзац: 11, начала: 3_
 _Оборванный: 13, абзац: 11_
 
 
-### `docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md` (24 проблем)
+### `docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` (25 проблем)
 
-_Оборванный: 10, Дубль: 2, абзац: 12_
+_абзац: 11, Оборванный: 14_
 
 
 ### `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` (24 проблем)
 
-_Оборванный: 6, абзац: 18_
+_абзац: 7, Оборванный: 11, предложение: 1, начала: 5_
 
 
 ### `docs/NARRATIVE.md` (24 проблем)
@@ -848,7 +848,7 @@ _Оборванный: 8, Дубль: 2, абзац: 14_
 
 ### `docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md` (24 проблем)
 
-_Оборванный: 2, Дубль: 1, абзац: 21_
+_абзац: 12, Оборванный: 11, предложение: 1_
 
 
 ### `docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md` (24 проблем)
@@ -878,7 +878,7 @@ _Оборванный: 3, абзац: 20_
 
 ### `docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md` (23 проблем)
 
-_Оборванный: 5, абзац: 9, начала: 9_
+_Оборванный: 9, абзац: 12, Дубль: 1_
 
 
 ### `docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md` (23 проблем)
@@ -1086,17 +1086,47 @@ _Оборванный: 9, абзац: 8, начала: 4_
 _абзац: 6, Оборванный: 6, начала: 8, Дубль: 1_
 
 
-### `docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` (21 проблем)
+### `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` (21 проблем)
 
-_Оборванный: 10, абзац: 8, начала: 3_
+_абзац: 10, Оборванный: 5, начала: 5, Дубль: 1_
 
 
-### `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` (21 проблем)
+### `docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` (21 проблем)
+
+_абзац: 6, Оборванный: 9, начала: 5, Дубль: 1_
+
+
+### `docs/02-anthropic-vacancies/279-existing-approximations.md` (21 проблем)
+
+_Оборванный: 12, Дубль: 2, абзац: 7_
+
+
+### `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` (21 проблем)
+
+_Оборванный: 6, Дубль: 1, абзац: 11, начала: 3_
+
+
+### `docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md` (21 проблем)
+
+_Оборванный: 3, абзац: 9, начала: 9_
+
+
+### `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` (21 проблем)
 
 _Оборванный: 8, абзац: 13_
 
 
-### `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md` (21 проблем)
+### `docs/04-ai-collaborations/07-выводы.md` (21 проблем)
+
+_Оборванный: 8, абзац: 13_
+
+
+### `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` (21 проблем)
+
+_абзац: 10, Оборванный: 11_
+
+
+### `docs/CITATION_INDEX.md` (21 проблем)
 
 _Оборванный: 6, абзац: 12, предложение: 3_
 
@@ -1188,12 +1218,12 @@ _Оборванный: 9, абзац: 11_
 
 ### `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` (20 проблем)
 
-_Оборванный: 8, абзац: 9, начала: 3_
+_абзац: 11, Оборванный: 8, Дубль: 1_
 
 
-### `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` (20 проблем)
+### `docs/01-svyazi/14-limitations.md` (19 проблем)
 
-_Оборванный: 5, абзац: 9, начала: 6_
+_абзац: 8, Оборванный: 11_
 
 
 ### `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` (20 проблем)
@@ -1211,9 +1241,9 @@ _Оборванный: 8, Дубль: 1, абзац: 11_
 _Оборванный: 9, абзац: 8, начала: 3_
 
 
-### `docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` (20 проблем)
+### `docs/02-anthropic-vacancies/247-приложение-b-рамка-принятия-решений-когда-строить-.md` (19 проблем)
 
-_Оборванный: 6, абзац: 9, начала: 5_
+_абзац: 7, Оборванный: 7, начала: 5_
 
 
 ### `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` (20 проблем)
@@ -1226,19 +1256,19 @@ _Оборванный: 14, абзац: 5, Дубль: 1_
 _Оборванный: 6, абзац: 5, начала: 8, Дубль: 1_
 
 
-### `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` (20 проблем)
+### `docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` (19 проблем)
 
-_Оборванный: 9, абзац: 11_
-
-
-### `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` (20 проблем)
-
-_Оборванный: 9, абзац: 11_
+_абзац: 5, начала: 8, Оборванный: 5, Дубль: 1_
 
 
-### `docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` (20 проблем)
+### `docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md` (19 проблем)
 
-_Оборванный: 10, абзац: 10_
+_Оборванный: 7, Дубль: 3, абзац: 5, начала: 4_
+
+
+### `docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md` (19 проблем)
+
+_Оборванный: 9, Дубль: 3, абзац: 7_
 
 
 ### `docs/LLM_SUMMARIES.md` (20 проблем)
@@ -1398,7 +1428,7 @@ _Дубль: 1, Оборванный: 10, абзац: 8_
 
 ### `docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md` (19 проблем)
 
-_Дубль: 1, Оборванный: 13, абзац: 5_
+_абзац: 6, начала: 8, Оборванный: 3, Дубль: 1_
 
 
 ### `docs/technology-combinations/combinations/12-multi-agent-observability-stack.md` (19 проблем)
@@ -1636,7 +1666,77 @@ _абзац: 11, начала: 6_
 _абзац: 12, Оборванный: 5_
 
 
-### `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` (17 проблем)
+### `docs/01-svyazi/08-conclusions.md` (17 проблем)
+
+_Оборванный: 7, абзац: 10_
+
+
+### `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` (17 проблем)
+
+_абзац: 9, начала: 5, Оборванный: 3_
+
+
+### `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` (17 проблем)
+
+_абзац: 13, Оборванный: 4_
+
+
+### `docs/02-anthropic-vacancies/130-отладка.md` (17 проблем)
+
+_Оборванный: 5, абзац: 12_
+
+
+### `docs/02-anthropic-vacancies/18-6-adapter-interface.md` (17 проблем)
+
+_Оборванный: 8, абзац: 8, Дубль: 1_
+
+
+### `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (17 проблем)
+
+_Дубль: 1, Оборванный: 6, абзац: 10_
+
+
+### `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (17 проблем)
+
+_Оборванный: 8, Дубль: 2, абзац: 7_
+
+
+### `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` (17 проблем)
+
+_Оборванный: 7, абзац: 5, начала: 5_
+
+
+### `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` (17 проблем)
+
+_абзац: 8, Оборванный: 7, предложение: 1, Дубль: 1_
+
+
+### `docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` (17 проблем)
+
+_абзац: 10, Оборванный: 7_
+
+
+### `docs/02-anthropic-vacancies/320-references.md` (17 проблем)
+
+_Оборванный: 6, абзац: 8, начала: 3_
+
+
+### `docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md` (17 проблем)
+
+_абзац: 7, Оборванный: 6, начала: 4_
+
+
+### `docs/02-anthropic-vacancies/338-ссылки.md` (17 проблем)
+
+_Оборванный: 6, абзац: 8, начала: 3_
+
+
+### `docs/02-anthropic-vacancies/356-твой-workflow.md` (17 проблем)
+
+_абзац: 9, Оборванный: 7, Дубль: 1_
+
+
+### `docs/02-anthropic-vacancies/81-6-adapter-interface.md` (17 проблем)
 
 _Оборванный: 8, абзац: 9_
 
@@ -1771,14 +1871,14 @@ _абзац: 8, Оборванный: 7, Дубль: 1_
 _абзац: 9, Оборванный: 5, Дубль: 2_
 
 
-### `docs/02-anthropic-vacancies/294-существующие-приближения.md` (16 проблем)
+### `docs/02-anthropic-vacancies/48-content-overview.md` (16 проблем)
 
-_Оборванный: 9, Дубль: 1, абзац: 6_
+_абзац: 7, Оборванный: 8, Дубль: 1_
 
 
-### `docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md` (16 проблем)
+### `docs/02-anthropic-vacancies/57-native-format.md` (16 проблем)
 
-_Оборванный: 8, Дубль: 2, абзац: 6_
+_абзац: 8, начала: 3, Оборванный: 4, Дубль: 1_
 
 
 ### `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` (16 проблем)
@@ -1798,7 +1898,7 @@ _абзац: 8, начала: 3, Оборванный: 4, Дубль: 1_
 
 ### `docs/02-anthropic-vacancies/79-4-passport-passport-md.md` (16 проблем)
 
-_Оборванный: 5, начала: 6, абзац: 5_
+_Оборванный: 8, абзац: 8_
 
 
 ### `docs/03-technology-combinations/05-benchmarks.md` (16 проблем)
@@ -1838,7 +1938,7 @@ _Оборванный: 2, Дубль: 1, абзац: 10, начала: 3_
 
 ### `docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md` (16 проблем)
 
-_Оборванный: 4, Дубль: 1, абзац: 11_
+_Оборванный: 4, абзац: 11_
 
 
 ### `docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md` (16 проблем)
@@ -1983,7 +2083,7 @@ _абзац: 9, Оборванный: 6_
 
 ### `docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md` (15 проблем)
 
-_Дубль: 1, абзац: 13, Оборванный: 1_
+_абзац: 8, Оборванный: 6, Дубль: 1_
 
 
 ### `docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md` (15 проблем)
@@ -2013,7 +2113,7 @@ _Дубль: 1, абзац: 8, начала: 3, Оборванный: 3_
 
 ### `docs/nautilus/npp-v1-1/05-compatibility-levels.md` (15 проблем)
 
-_Дубль: 1, абзац: 9, Оборванный: 5_
+_Оборванный: 5, абзац: 9, Дубль: 1_
 
 
 ### `docs/nautilus/npp-v1-1/13-rest-api.md` (15 проблем)
@@ -2103,7 +2203,7 @@ _абзац: 8, Оборванный: 6_
 
 ### `docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md` (14 проблем)
 
-_абзац: 7, Оборванный: 7_
+_абзац: 9, Оборванный: 2, начала: 3_
 
 
 ### `docs/ai-collaborations/ensembles/3-forensic-rag.md` (14 проблем)
@@ -2158,7 +2258,7 @@ _абзац: 7, Дубль: 1, Оборванный: 6_
 
 ### `docs/nautilus/double-triangle-architecture/07-open-questions.md` (14 проблем)
 
-_абзац: 9, Дубль: 1, Оборванный: 4_
+_абзац: 8, Дубль: 2, Оборванный: 3_
 
 
 ### `docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md` (14 проблем)
@@ -2273,7 +2373,7 @@ _Оборванный: 5, абзац: 8_
 
 ### `docs/02-anthropic-vacancies/81-6-adapter-interface.md` (13 проблем)
 
-_Оборванный: 5, абзац: 8_
+_абзац: 9, Оборванный: 3_
 
 
 ### `docs/02-anthropic-vacancies/85-10-query-flow.md` (13 проблем)
@@ -2438,12 +2538,12 @@ _абзац: 6, Оборванный: 5, Дубль: 1_
 
 ### `docs/02-anthropic-vacancies/65-readme-md.md` (12 проблем)
 
-_абзац: 7, Оборванный: 5_
+_Оборванный: 4, абзац: 8_
 
 
-### `docs/02-anthropic-vacancies/83-8-q6-space-normative.md` (12 проблем)
+### `docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` (12 проблем)
 
-_Оборванный: 3, абзац: 9_
+_абзац: 4, Оборванный: 6, Дубль: 2_
 
 
 ### `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md` (12 проблем)
@@ -2468,7 +2568,7 @@ _Оборванный: 6, Дубль: 1, абзац: 5_
 
 ### `docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md` (12 проблем)
 
-_Оборванный: 3, Дубль: 1, абзац: 8_
+_абзац: 7, Оборванный: 5_
 
 
 ### `docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md` (12 проблем)
@@ -2773,7 +2873,7 @@ _Дубль: 1, Оборванный: 3, начала: 4, абзац: 3_
 
 ### `docs/nautilus/ingit-cowork-en/02-cowork-provides.md` (11 проблем)
 
-_Дубль: 1, Оборванный: 5, абзац: 5_
+_абзац: 4, Оборванный: 6, Дубль: 1_
 
 
 ### `docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md` (11 проблем)
@@ -2793,12 +2893,12 @@ _абзац: 8, Дубль: 1, Оборванный: 2_
 
 ### `docs/nautilus/npp-v1-1/10-query-flow.md` (11 проблем)
 
-_Дубль: 1, Оборванный: 4, абзац: 6_
+_Оборванный: 4, абзац: 4, начала: 3_
 
 
 ### `docs/nautilus/npp-v1-1/17-versioning-policy.md` (11 проблем)
 
-_абзац: 6, Дубль: 1, Оборванный: 4_
+_абзац: 6, Оборванный: 5_
 
 
 ### `docs/nautilus/okwf-concept/01-problem-statement.md` (11 проблем)
@@ -2826,9 +2926,9 @@ _абзац: 4, Оборванный: 5, Дубль: 1_
 _абзац: 5, Оборванный: 5_
 
 
-### `docs/02-anthropic-vacancies/07-2-terminology.md` (10 проблем)
+### `docs/02-anthropic-vacancies/62-author-contact.md` (11 проблем)
 
-_Оборванный: 2, абзац: 8_
+_абзац: 5, Оборванный: 5, Дубль: 1_
 
 
 ### `docs/02-anthropic-vacancies/105-review-methodology-md.md` (10 проблем)
@@ -2843,17 +2943,17 @@ _абзац: 6, Оборванный: 4_
 
 ### `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` (10 проблем)
 
-_Оборванный: 4, абзац: 6_
+_абзац: 8, Оборванный: 3_
 
 
-### `docs/02-anthropic-vacancies/111-4-условия-применимости.md` (10 проблем)
+### `docs/02-anthropic-vacancies/75-0-status-of-this-document.md` (11 проблем)
 
-_Оборванный: 5, абзац: 5_
+_абзац: 5, Оборванный: 5, Дубль: 1_
 
 
 ### `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` (10 проблем)
 
-_Оборванный: 4, абзац: 6_
+_абзац: 6, Оборванный: 5_
 
 
 ### `docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md` (10 проблем)
@@ -2898,7 +2998,7 @@ _Оборванный: 4, абзац: 5, предложение: 1_
 
 ### `docs/02-anthropic-vacancies/268-references.md` (10 проблем)
 
-_Оборванный: 7, абзац: 3_
+_абзац: 5, Оборванный: 5, Дубль: 1_
 
 
 ### `docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` (10 проблем)
@@ -2911,9 +3011,9 @@ _Оборванный: 5, абзац: 4, Дубль: 1_
 _абзац: 5, Оборванный: 5_
 
 
-### `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md` (10 проблем)
+### `docs/DIGEST.md` (11 проблем)
 
-_Оборванный: 4, абзац: 3, начала: 3_
+_абзац: 6, Оборванный: 4, Дубль: 1_
 
 
 ### `docs/02-anthropic-vacancies/41-compatibility-level.md` (10 проблем)
@@ -2948,12 +3048,12 @@ _абзац: 4, Оборванный: 5, Дубль: 1_
 
 ### `docs/02-anthropic-vacancies/82-7-portalentry-structure.md` (10 проблем)
 
-_Оборванный: 4, абзац: 6_
+_абзац: 5, Оборванный: 6_
 
 
-### `docs/02-anthropic-vacancies/84-9-consensus-algorithm.md` (10 проблем)
+### `docs/contacts/antipozitive.md` (11 проблем)
 
-_Оборванный: 4, абзац: 6_
+_Оборванный: 5, абзац: 6_
 
 
 ### `docs/02-anthropic-vacancies/93-18-reference-implementation.md` (10 проблем)
@@ -2973,7 +3073,7 @@ _Оборванный: 4, абзац: 5, предложение: 1_
 
 ### `docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md` (10 проблем)
 
-_Оборванный: 2, Дубль: 1, абзац: 7_
+_Оборванный: 5, абзац: 5_
 
 
 ### `docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md` (10 проблем)
@@ -3038,7 +3138,7 @@ _Дубль: 1, Оборванный: 3, абзац: 6_
 
 ### `docs/nautilus/composite-skills-agents/12-call-for-collaboration.md` (10 проблем)
 
-_Дубль: 1, абзац: 5, Оборванный: 4_
+_абзац: 4, Оборванный: 6_
 
 
 ### `docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md` (10 проблем)
@@ -3073,7 +3173,7 @@ _Дубль: 1, Оборванный: 4, абзац: 5_
 
 ### `docs/nautilus/review-methodology/03-consolidation-principles.md` (10 проблем)
 
-_Дубль: 1, абзац: 7, Оборванный: 2_
+_Оборванный: 4, абзац: 5, Дубль: 1_
 
 
 ### `docs/nautilus/review-methodology/13-appendix-b-examples.md` (10 проблем)
@@ -3091,9 +3191,9 @@ _абзац: 5, Оборванный: 5_
 _абзац: 5, Оборванный: 4_
 
 
-### `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (9 проблем)
+### `docs/02-anthropic-vacancies/224-acknowledgments.md` (10 проблем)
 
-_Оборванный: 6, абзац: 3_
+_абзац: 6, Оборванный: 3, Дубль: 1_
 
 
 ### `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` (9 проблем)
@@ -3166,7 +3266,127 @@ _абзац: 4, Оборванный: 5_
 _абзац: 5, Оборванный: 4_
 
 
-### `docs/02-anthropic-vacancies/245-ссылки.md` (9 проблем)
+### `docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md` (10 проблем)
+
+_абзац: 5, начала: 5_
+
+
+### `docs/02-anthropic-vacancies/337-благодарности.md` (10 проблем)
+
+_абзац: 4, Оборванный: 5, Дубль: 1_
+
+
+### `docs/02-anthropic-vacancies/38-content-overview.md` (10 проблем)
+
+_абзац: 7, Оборванный: 3_
+
+
+### `docs/02-anthropic-vacancies/41-compatibility-level.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` (10 проблем)
+
+_абзац: 6, Оборванный: 4_
+
+
+### `docs/02-anthropic-vacancies/53-history.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/02-anthropic-vacancies/60-bridges.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/02-anthropic-vacancies/61-compatibility-level.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/02-anthropic-vacancies/63-history.md` (10 проблем)
+
+_абзац: 6, Оборванный: 4_
+
+
+### `docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` (10 проблем)
+
+_абзац: 4, Оборванный: 5, Дубль: 1_
+
+
+### `docs/02-anthropic-vacancies/74-abstract.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/02-anthropic-vacancies/93-18-reference-implementation.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/AUTOFILLED.md` (10 проблем)
+
+_абзац: 7, Оборванный: 3_
+
+
+### `docs/BACKLINKS.md` (10 проблем)
+
+_абзац: 5, Оборванный: 4, Дубль: 1_
+
+
+### `docs/KEYWORD_INDEX.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/contacts/cutcode.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/contacts/dmitriila.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/contacts/mixaill76.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/contacts/nlaik.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/contacts/sonia-black.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/contacts/tagir-analyzes.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/contacts/vitalyoborin.md` (10 проблем)
+
+_Оборванный: 6, абзац: 3, Дубль: 1_
+
+
+### `docs/contacts/vladspace.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/contacts/zodigancode.md` (10 проблем)
+
+_абзац: 5, Оборванный: 5_
+
+
+### `docs/02-anthropic-vacancies/06-1-introduction.md` (9 проблем)
 
 _Оборванный: 4, абзац: 5_
 
@@ -3253,10 +3473,20 @@ _абзац: 5, Оборванный: 4_
 
 ### `docs/05-habr-projects/02-collaboration-partners.md` (9 проблем)
 
-_Оборванный: 4, Дубль: 1, абзац: 4_
+_абзац: 4, Оборванный: 5_
 
 
-### `docs/BROKEN_LINKS.md` (9 проблем)
+### `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` (9 проблем)
+
+_абзац: 4, Оборванный: 4, Дубль: 1_
+
+
+### `docs/02-anthropic-vacancies/169-table-of-contents.md` (9 проблем)
+
+_абзац: 4, Оборванный: 5_
+
+
+### `docs/02-anthropic-vacancies/182-acknowledgments.md` (9 проблем)
 
 _абзац: 5, Оборванный: 4_
 
@@ -3446,24 +3676,24 @@ _абзац: 4, Оборванный: 4_
 _абзац: 4, Оборванный: 4_
 
 
-### `docs/02-anthropic-vacancies/221-10-open-questions.md` (8 проблем)
+### `docs/02-anthropic-vacancies/45-passports-pro2-md.md` (9 проблем)
 
-_Оборванный: 3, абзац: 5_
-
-
-### `docs/02-anthropic-vacancies/222-11-call-for-collaboration.md` (8 проблем)
-
-_Оборванный: 4, абзац: 4_
+_абзац: 4, Оборванный: 4, Дубль: 1_
 
 
-### `docs/02-anthropic-vacancies/225-references.md` (8 проблем)
+### `docs/02-anthropic-vacancies/46-essence.md` (9 проблем)
 
-_Оборванный: 4, абзац: 4_
+_абзац: 4, Оборванный: 4, Дубль: 1_
 
 
-### `docs/02-anthropic-vacancies/241-10-открытые-вопросы.md` (8 проблем)
+### `docs/02-anthropic-vacancies/55-passports-meta-md.md` (9 проблем)
 
-_Оборванный: 3, абзац: 5_
+_абзац: 4, Оборванный: 4, Дубль: 1_
+
+
+### `docs/02-anthropic-vacancies/59-angle-perspective.md` (9 проблем)
+
+_абзац: 4, Оборванный: 4, Дубль: 1_
 
 
 ### `docs/02-anthropic-vacancies/244-благодарности.md` (8 проблем)
@@ -3481,9 +3711,9 @@ _абзац: 4, Оборванный: 4_
 _абзац: 4, Оборванный: 4_
 
 
-### `docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md` (8 проблем)
+### `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` (8 проблем)
 
-_Оборванный: 2, абзац: 6_
+_абзац: 5, Оборванный: 2, Дубль: 1_
 
 
 ### `docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` (8 проблем)
@@ -3531,14 +3761,14 @@ _абзац: 4, Оборванный: 4_
 _абзац: 5, Оборванный: 3_
 
 
-### `docs/02-anthropic-vacancies/77-2-terminology.md` (8 проблем)
+### `docs/02-anthropic-vacancies/244-благодарности.md` (8 проблем)
 
-_Оборванный: 2, абзац: 6_
+_абзац: 5, Оборванный: 3_
 
 
-### `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md` (8 проблем)
+### `docs/02-anthropic-vacancies/252-abstract.md` (8 проблем)
 
-_Оборванный: 3, абзац: 5_
+_абзац: 4, Оборванный: 4_
 
 
 ### `docs/05-habr-projects/01-synthesis.md` (8 проблем)
@@ -3553,7 +3783,7 @@ _Оборванный: 5, абзац: 2, Дубль: 1_
 
 ### `docs/05-habr-projects/memory/ngt-memory.md` (8 проблем)
 
-_Оборванный: 2, абзац: 6_
+_абзац: 5, Оборванный: 3_
 
 
 ### `docs/CHANGELOG.md` (8 проблем)
@@ -3818,7 +4048,7 @@ _Дубль: 1, абзац: 6, Оборванный: 1_
 
 ### `docs/02-anthropic-vacancies/06-1-introduction.md` (7 проблем)
 
-_Оборванный: 3, абзац: 4_
+_абзац: 7, Оборванный: 1_
 
 
 ### `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` (7 проблем)
@@ -4231,14 +4461,19 @@ _Дубль: 1, абзац: 4, Оборванный: 2_
 _абзац: 3, Оборванный: 3_
 
 
-### `docs/02-anthropic-vacancies/126-установка.md` (6 проблем)
+### `docs/autofilled/components/spbmolot.md` (7 проблем)
+
+_абзац: 3, Оборванный: 3, Дубль: 1_
+
+
+### `docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md` (6 проблем)
 
 _Оборванный: 2, абзац: 4_
 
 
 ### `docs/02-anthropic-vacancies/180-11-call-for-collaboration.md` (6 проблем)
 
-_Оборванный: 3, абзац: 3_
+_Оборванный: 4, абзац: 2_
 
 
 ### `docs/02-anthropic-vacancies/183-references.md` (6 проблем)
@@ -4571,9 +4806,14 @@ _Оборванный: 2, Дубль: 1, абзац: 3_
 _Дубль: 1, абзац: 4, Оборванный: 1_
 
 
+### `docs/WORD_CLOUD.md` (6 проблем)
+
+_абзац: 3, Оборванный: 3_
+
+
 ### `docs/templates/project-component.md` (6 проблем)
 
-_абзац: 5, Оборванный: 1_
+_Оборванный: 3, абзац: 3_
 
 
 ### `docs/templates/research-note.md` (6 проблем)
@@ -4593,7 +4833,7 @@ _абзац: 5_
 
 ### `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` (5 проблем)
 
-_абзац: 4, Оборванный: 1_
+_Оборванный: 2, Дубль: 1, абзац: 2_
 
 
 ### `docs/02-anthropic-vacancies/203-благодарности.md` (5 проблем)
@@ -4616,9 +4856,9 @@ _абзац: 4, Оборванный: 1_
 _Оборванный: 1, абзац: 4_
 
 
-### `docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md` (5 проблем)
+### `docs/02-anthropic-vacancies/203-благодарности.md` (5 проблем)
 
-_Оборванный: 2, абзац: 3_
+_Оборванный: 1, абзац: 4_
 
 
 ### `docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md` (5 проблем)
@@ -4653,12 +4893,17 @@ _абзац: 2, Оборванный: 3_
 
 ### `docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` (5 проблем)
 
-_Оборванный: 3, абзац: 2_
+_абзац: 3, Оборванный: 2_
 
 
 ### `docs/DIGEST.md` (5 проблем)
 
 _абзац: 4, Оборванный: 1_
+
+
+### `docs/DIGEST_AUTO.md` (5 проблем)
+
+_абзац: 2, Оборванный: 2, предложение: 1_
 
 
 ### `docs/HEALTH.md` (5 проблем)
@@ -4898,7 +5143,7 @@ _абзац: 3, Оборванный: 2_
 
 ### `docs/02-anthropic-vacancies/189-аннотация.md` (4 проблем)
 
-_Оборванный: 2, абзац: 2_
+_Оборванный: 3, абзац: 2_
 
 
 ### `docs/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md` (4 проблем)
@@ -4984,6 +5229,11 @@ _абзац: 3, Оборванный: 1_
 ### `docs/NETWORK.md` (4 проблем)
 
 _абзац: 1, Оборванный: 3_
+
+
+### `docs/PASSIVE_VOICE.md` (4 проблем)
+
+_абзац: 3, Оборванный: 1_
 
 
 ### `docs/PROGRESS.md` (4 проблем)
@@ -5641,9 +5891,9 @@ _абзац: 2, Оборванный: 1_
 _абзац: 2, Оборванный: 1_
 
 
-### `docs/templates/contact-outreach.md` (3 проблем)
+### `docs/templates/decision-record.md` (3 проблем)
 
-_Оборванный: 1, абзац: 2_
+_абзац: 3_
 
 
 ### `docs/01-svyazi/00-intro-part2.md` (2 проблем)
@@ -5689,6 +5939,11 @@ _абзац: 1, Оборванный: 1_
 ### `docs/PRIORITIES.md` (2 проблем)
 
 _абзац: 2_
+
+
+### `docs/REGISTRY.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
 
 
 ### `docs/SCORING.md` (2 проблем)
@@ -5749,6 +6004,11 @@ _Оборванный: 1_
 ### `docs/CONCEPT_GRAPH.md` (1 проблем)
 
 _абзац: 1_
+
+
+### `docs/BADGES.md` (1 проблем)
+
+_Оборванный: 1_
 
 
 ### `docs/COVERAGE.md` (1 проблем)

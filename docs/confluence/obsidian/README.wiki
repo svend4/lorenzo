@@ -98,6 +98,7 @@ h2. Содержание
 * [[SIMILAR|SIMILAR.md]] — > [!TIP]
 * [[SIMILAR_PASSAGES|SIMILAR_PASSAGES.md]] — > [!TIP]
 * [[SITEMAP|SITEMAP.md]] — _Обновлено: 2026-04-29_
+* [[SKILL_DASHBOARD|SKILL_DASHBOARD.md]] — 
 * [[SOURCE_MAP|SOURCE_MAP.md]] — _Обновлено: 2026-04-29_
 * [[SPELLCHECK|SPELLCHECK.md]] — _Обновлено: 2026-04-29_
 * [[STALENESS|STALENESS.md]] — 

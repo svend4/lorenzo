@@ -3,6 +3,19 @@
 Дата: 2026-04-29
 {info}
 
+----
+template: decision-record
+version: "1.0"
+adr_id: "ADR-NNNN"
+title: "[Название решения]"
+status: proposed
+date: 2026-04-29
+deciders: []
+tags: [архитектура, решение]
+supersedes: null
+superseded_by: null
+----
+
 h1. ADR: [Название решения]
 
 

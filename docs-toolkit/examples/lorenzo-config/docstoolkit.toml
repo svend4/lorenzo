@@ -1,0 +1,26 @@
+# Lorenzo-specific config for docstoolkit
+
+[paths]
+docs = "docs"
+templates = "docs/templates"
+schemas = "docs/templates/_schemas"
+tasks = "tasks"
+skills = ".claude/skills"
+
+[validation]
+strict = false
+skip_dirs = ["templates", "_schemas", "node_modules", ".git", "autofilled", "chunks"]
+
+[language]
+primary = "ru"
+fallback = "en"
+
+[sections]
+"01-svyazi" = "Svyazi 2.0"
+"02-anthropic-vacancies" = "Вакансии Anthropic"
+"03-technology-combinations" = "Комбинирование технологий"
+"04-ai-collaborations" = "AI-коллаборации"
+"05-habr-projects" = "Хабр-проекты"
+"nautilus" = "Nautilus Portal Protocol"
+"lorenzo-agent" = "Lorenzo Catalyst Agent"
+"glossary" = "Глоссарий"

@@ -1,0 +1,41 @@
+id: write-contact
+version: 1.0
+description: Помогает написать первое сообщение автору OSS-проекта
+
+trigger_phrases:
+  - "напиши письмо автору"
+  - "составь запрос на коллаборацию"
+  - "подготовь сообщение для"
+  - "мне нужно написать"
+
+inputs:
+  author:
+    type: string
+    required: true
+    description: Имя или slug автора (kksudo, spbmolot)
+  project:
+    type: string
+    required: false
+    description: Конкретный проект автора если несколько
+
+template: contact-outreach
+output_path: "docs/contacts/{author}.md"
+
+mcp_server: lorenzo-contacts
+mcp_tool: write_contact
+
+pipeline:
+  - read: "docs/contacts/{author}.md"
+  - read_glob: "docs/05-habr-projects/**/*{project}*"
+  - generate: "5-7 sentences personalized message"
+  - write_section: "Первое сообщение"
+  - update_checklist: "[x] Изучили профиль"
+
+post_checks:
+  - file_exists: "docs/contacts/{author}.md"
+  - section_exists: "Первое сообщение"
+  - status_updated: true
+
+related:
+  skills: [write-contact, propose-collaboration, status]
+  templates: [contact-outreach]

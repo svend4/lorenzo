@@ -105,8 +105,17 @@ def main():
             "Контакты ключевых разработчиков для сотрудничества."),
     }
 
+    import sys
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from utils_docignore import is_ignored
+    except ImportError:
+        is_ignored = lambda p: False
+
     for f in sorted(DOCS.rglob("*.md")):
         if f.name in SKIP:
+            continue
+        if is_ignored(f):
             continue
         text = f.read_text(encoding="utf-8")
         if MARKER in text:

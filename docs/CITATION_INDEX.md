@@ -21,6 +21,7 @@ _Обновлено: 2026-04-29_
 | `claude.com` | 1 | ⭐ |
 | `fossil-scm.org` | 1 | ⭐ |
 | `support.claude.com` | 1 | ⭐ |
+| `install.sh` | 1 | ⭐ |
 | `happyin.space` | 1 | ⭐ |
 | `install.sh` | 1 | ⭐ |
 | `creativecommons.org` | 1 | ⭐ |
@@ -140,6 +141,17 @@ _Обновлено: 2026-04-29_
 - `docs/05-habr-projects/memory/yodoca.md`
 - `docs/LINKS.md`
 - ... и ещё 13
+
+### `https://github.com/mcp`
+
+Цитируется в 6 файлах, авторитетность: 5
+
+- `docs/02-anthropic-vacancies/00-intro.md`
+- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
+- `docs/02-anthropic-vacancies/67-о-проекте.md`
+- `docs/02-anthropic-vacancies/68-about.md`
+- `docs/LINKS.md`
+- ... и ещё 1
 
 ### `https://github.com/AnastasiyaW/knowledge-space`
 

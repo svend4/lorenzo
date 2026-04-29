@@ -24,22 +24,22 @@
 
 | Репозиторий | Упоминается в файлах |
 |-------------|---------------------|
-| `github.com/github.com/AnastasiyaW` | 8 |
-| `github.com/github.com/AnastasiyaW/knowledge-space` | 17 |
-| `github.com/github.com/Antipozitive` | 7 |
-| `github.com/github.com/Cutcode` | 7 |
-| `github.com/github.com/Dmitriila` | 7 |
-| `github.com/github.com/MiXaiLL76` | 7 |
-| `github.com/github.com/NicholasSpisak/second-brain` | 5 |
-| `github.com/github.com/Sonia` | 7 |
-| `github.com/github.com/VitalyOborin` | 7 |
-| `github.com/github.com/VitalyOborin/yodoca` | 5 |
+| `github.com/github.com/AnastasiyaW` | 9 |
+| `github.com/github.com/AnastasiyaW/knowledge-space` | 15 |
+| `github.com/github.com/Antipozitive` | 8 |
+| `github.com/github.com/Cutcode` | 8 |
+| `github.com/github.com/Dmitriila` | 8 |
+| `github.com/github.com/MiXaiLL76` | 8 |
+| `github.com/github.com/NicholasSpisak/second-brain` | 4 |
+| `github.com/github.com/Sonia` | 8 |
+| `github.com/github.com/VitalyOborin` | 8 |
+| `github.com/github.com/VitalyOborin/yodoca` | 6 |
 | `github.com/github.com/VladSpace` | 7 |
 | `github.com/github.com/andrey` | 7 |
 | `github.com/github.com/anthropics/mcp` | 10 |
-| `github.com/github.com/artur-gavronchuk/tg-chat-analyser` | 7 |
-| `github.com/github.com/camel-ai/camel` | 11 |
-| `github.com/github.com/dementev-dev/adversarial-review` | 7 |
+| `github.com/github.com/artur-gavronchuk/tg-chat-analyser` | 4 |
+| `github.com/github.com/camel-ai/camel` | 10 |
+| `github.com/github.com/dementev-dev/adversarial-review` | 4 |
 | `github.com/github.com/github` | 4 |
 | `github.com/github.com/kagvi13/HMP` | 2 |
 | `github.com/github.com/kagvi13/HMP.` | 3 |
@@ -52,8 +52,8 @@
 | `github.com/github.com/settings/tokens` | 11 |
 | `github.com/github.com/spbmolot` | 9 |
 | `github.com/github.com/spbmolot/ngt-memory` | 5 |
-| `github.com/github.com/svend4` | 8 |
-| `github.com/github.com/svend4/data70` | 11 |
+| `github.com/github.com/svend4` | 9 |
+| `github.com/github.com/svend4/data70` | 12 |
 | `github.com/github.com/svend4/info1` | 24 |
 | `github.com/github.com/svend4/info40` | 8 |
 | `github.com/github.com/svend4/info7` | 8 |
@@ -67,8 +67,8 @@
 | `github.com/github.com/tagir` | 6 |
 | `github.com/github.com/tree` | 2 |
 | `github.com/github.com/users/svend4` | 9 |
-| `github.com/github.com/vuguzum/self-aware-mcp-server` | 8 |
-| `github.com/github.com/yjs/yjs` | 5 |
+| `github.com/github.com/vuguzum/self-aware-mcp-server` | 4 |
+| `github.com/github.com/yjs/yjs` | 4 |
 | `github.com/github.com/zodigancode` | 6 |
 
 ## Email адреса

@@ -44,6 +44,7 @@
 | `DENSITY` | 30 | summary, tags, TOC, callout |
 | `GLOSSARY` | 30 | summary, tags, TOC, callout |
 | `LINKS` | 30 | summary, tags, TOC, callout |
+| `MCP_DASHBOARD` | 30 | summary, tags, TOC, callout |
 | `MISSING` | 30 | summary, tags, TOC, callout |
 | `PRIORITIES` | 30 | summary, tags, TOC, callout |
 | `QUESTIONS` | 30 | summary, tags, TOC, callout |

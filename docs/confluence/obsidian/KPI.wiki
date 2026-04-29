@@ -147,6 +147,7 @@ h2. Версия (615)
 || **3.1.0** || RFCs to Indicate Requirement Levels - OpenAPI Specification v3.1.0 (for REST API || `104-appendix-c-references` ||
 || **1.2** || прямое следствие этого. #### Что я сознательно оставил для v1.2 или v2.0 Formal || `104-appendix-c-references` ||
 || **3.0** || Удалить transitional header 7. Добавить changelog-запись: «v3.0 consolidated fro || `110-вопрос-fallback-ratio` ||
+|| **0.2.0** || # Planned (v0.2.0) > - HTTP-mode для debugging и remote access --- ## || `132-planned-v0-2-0` ||
 || **0.6.0** || laude (Анастасия Бутова, AnastasiyaW) — реально существует, версия 0.6.0, MIT, 1 || `365-развёрнутый-анализ-вн` ||
 || **3.2** || viewer 1 (GPT-5.4): проверяет логику - Reviewer 2 (DeepSeek-V3.2): проверяет --- || `02-knowledge-graphs` ||
 || **0.1** || st per card, trace completeness. MVP boundary: что входит в v0.1, что запрещено || `14-ограничения-лицензии-и` ||

@@ -189,6 +189,13 @@ h3. ⚡ Улучшения
 * verify coverage, merge short files, add READMEs and glossary _91dd9685_
   > - verify_coverage.py: checks 97.6%→100.5% text coverage, all 26 terms found
 
+h2.  22 скила  (1 коммитов)
+
+h3. 🔧 Обслуживание
+
+* 9 MCP-серверов (+8) _Итого: 2_
+  > 5 манифестов
+
 h2.  (1 коммитов)
 
 h3. 🔧 Обслуживание

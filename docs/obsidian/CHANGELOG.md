@@ -191,6 +191,13 @@ date: 2026-04-29
 - verify coverage, merge short files, add READMEs and glossary _91dd9685_
   > - verify_coverage.py: checks 97.6%→100.5% text coverage, all 26 terms found
 
+##  22 скила  (1 коммитов)
+
+### 🔧 Обслуживание
+
+- 9 MCP-серверов (+8) _Итого: 2_
+  > 5 манифестов
+
 ##  (1 коммитов)
 
 ### 🔧 Обслуживание

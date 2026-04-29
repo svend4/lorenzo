@@ -81,7 +81,6 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/04-abstract.md`
 - `docs/02-anthropic-vacancies/06-1-introduction.md`
 - `docs/02-anthropic-vacancies/07-2-terminology.md`
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
 - `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`
 - ... и ещё 101 файлах
 

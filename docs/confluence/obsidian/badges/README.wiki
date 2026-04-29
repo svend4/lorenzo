@@ -35,3 +35,9 @@ h2. Использование в README
 ![license](docs/badges/license.svg)
 ![branch](docs/badges/branch.svg)
 {code}
+
+
+h2. Связанные документы
+
+* [[DEPENDENCY_MAP|Карта зависимостей скриптов]] _15%_
+* [[PROGRESS|Прогресс MVP]] _15%_

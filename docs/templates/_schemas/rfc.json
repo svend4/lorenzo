@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "rfc",
+  "description": "Request for Comments — формальная спецификация в стиле IETF/Nautilus NPP",
+  "type": "object",
+  "required": ["template", "version", "rfc_id", "title", "status"],
+  "properties": {
+    "template": {"const": "rfc"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "rfc_id": {"type": "string", "pattern": "^RFC-\\d{4}$"},
+    "title": {"type": "string", "minLength": 3},
+    "status": {"enum": ["draft", "proposed", "accepted", "rejected", "implemented", "superseded"]},
+    "authors": {"type": "array", "items": {"type": "string"}},
+    "created": {"type": "string", "format": "date"},
+    "target_release": {"type": ["string", "null"]},
+    "implementations": {"type": "array", "items": {"type": "string"}},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Abstract", "Introduction", "Specification", "Security Considerations", "Open Questions"]
+}

@@ -25,6 +25,18 @@
 > For the seven-document Nautilus / OKWF project specifically,
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Practical Recommendations for the Current Project](#practical-recommendations-for-the-current-project)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture, anthropic -->
 
 

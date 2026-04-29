@@ -75,6 +75,7 @@
 - [READING_LIST.md](READING_LIST.md) — <!-- summary -->
 - [READING_ORDER.md](READING_ORDER.md) — От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 - [READING_TIME.md](READING_TIME.md) — _Обновлено: 2026-04-29_
+- [REGISTRY.md](REGISTRY.md) — _Обновлено: 2026-04-29_
 - [REPORT.md](REPORT.md) — _Сгенерировано автоматически: 2026-04-29_
 - [RISK_REGISTER.md](RISK_REGISTER.md) — > [!TIP]
 - [SCHEDULE.md](SCHEDULE.md) — <!-- abstract-auto -->
@@ -93,6 +94,7 @@
 - [SUMMARIES.md](SUMMARIES.md) — > [!TIP]
 - [TABLES.md](TABLES.md) — > [!TIP]
 - [TAGS.md](TAGS.md) — Каждый файл помечен тегами по темам автоматически.
+- [TASKS_INDEX.md](TASKS_INDEX.md) — _Обновлено: 2026-04-29_
 - [TECH_RADAR.md](TECH_RADAR.md) — > [!WARNING]
 - [TIMELINE.md](TIMELINE.md) — _Обновлено: 2026-04-29_
 - [TOPIC_MODEL.md](TOPIC_MODEL.md) — > [!WARNING]

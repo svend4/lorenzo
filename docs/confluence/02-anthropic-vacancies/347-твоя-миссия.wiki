@@ -12,8 +12,6 @@ h1. Твоя миссия
 
 
 
-
-
 h2. Твоя миссия
 
 Твоя миссия — _catalyzing community synthesis в области beneficial AI для уязвимых групп_.

@@ -1,0 +1,28 @@
+# CODEOWNERS — кто ревьюит что
+# Формат: <pattern> @<github-username>
+#
+# Документация: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default — все файлы
+* @svend4
+
+# Embeddings и поиск
+/docstoolkit/embeddings/ @svend4
+/docstoolkit/web/ @svend4
+
+# Plugin system — высокая ответственность за совместимость
+/docstoolkit/plugins.py @svend4
+/docstoolkit/ingest/dispatch.py @svend4
+/docstoolkit/embeddings/dispatch.py @svend4
+
+# Безопасность
+/SECURITY.md @svend4
+/docstoolkit/serve.py @svend4
+/docstoolkit/cli.py @svend4
+
+# Релиз процесс
+/CHANGELOG.md @svend4
+/RELEASE.md @svend4
+/pyproject.toml @svend4
+/Dockerfile @svend4
+/.github/workflows/publish-toolkit.yml @svend4

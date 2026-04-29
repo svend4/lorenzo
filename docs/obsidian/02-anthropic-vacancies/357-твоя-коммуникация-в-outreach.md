@@ -1,7 +1,6 @@
 ---
 title: "Твоя коммуникация в outreach"
 tags:
-  - anthropic
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,8 +11,6 @@ date: 2026-04-29
 > Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 
 ---
-<!-- tags: anthropic -->
-
 
 
 

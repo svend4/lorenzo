@@ -1,0 +1,85 @@
+name: "docs-toolkit"
+description: "Validate, init и process markdown documentation monorepos"
+author: "Lorenzo Project"
+
+branding:
+  icon: "book-open"
+  color: "blue"
+
+inputs:
+  command:
+    description: "Команда: validate | init | ingest | doctor"
+    required: true
+    default: "validate"
+  args:
+    description: "Аргументы для команды"
+    required: false
+    default: ""
+  python-version:
+    description: "Версия Python"
+    required: false
+    default: "3.11"
+  toolkit-version:
+    description: "Версия docs-toolkit (PyPI или 'latest')"
+    required: false
+    default: "latest"
+  fail-on-warnings:
+    description: "Завершить с ошибкой при warnings"
+    required: false
+    default: "false"
+
+outputs:
+  exit-code:
+    description: "Код возврата команды"
+    value: ${{ steps.run.outputs.exit-code }}
+  files-checked:
+    description: "Сколько файлов проверено"
+    value: ${{ steps.run.outputs.files-checked }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ inputs.python-version }}
+
+    - name: Install docs-toolkit
+      shell: bash
+      run: |
+        if [ "${{ inputs.toolkit-version }}" = "latest" ]; then
+          pip install docs-toolkit
+        else
+          pip install "docs-toolkit==${{ inputs.toolkit-version }}"
+        fi
+
+    - name: Run docstoolkit ${{ inputs.command }}
+      id: run
+      shell: bash
+      run: |
+        set +e
+        case "${{ inputs.command }}" in
+          validate)
+            docstoolkit doc validate ${{ inputs.args }} 2>&1 | tee /tmp/docstoolkit.out
+            ;;
+          init)
+            docstoolkit init ${{ inputs.args }} 2>&1 | tee /tmp/docstoolkit.out
+            ;;
+          ingest)
+            docstoolkit ingest ${{ inputs.args }} 2>&1 | tee /tmp/docstoolkit.out
+            ;;
+          doctor)
+            docstoolkit doctor ${{ inputs.args }} 2>&1 | tee /tmp/docstoolkit.out || true
+            ;;
+          *)
+            echo "❌ Неизвестная команда: ${{ inputs.command }}"
+            exit 1
+            ;;
+        esac
+        rc=$?
+        echo "exit-code=$rc" >> $GITHUB_OUTPUT
+        files=$(grep -oE '[Пп]роверено:?\s+[0-9]+' /tmp/docstoolkit.out | head -1 | grep -oE '[0-9]+' || echo "0")
+        echo "files-checked=$files" >> $GITHUB_OUTPUT
+        if [ "$rc" -ne 0 ] && [ "${{ inputs.fail-on-warnings }}" = "true" ]; then
+          exit $rc
+        fi

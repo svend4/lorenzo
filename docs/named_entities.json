@@ -143,9 +143,11 @@
       "docs/READING_LIST.md",
       "docs/READING_ORDER.md",
       "docs/README.md",
+      "docs/REGISTRY.md",
       "docs/REPORT.md",
       "docs/RISK_REGISTER.md",
       "docs/SCHEDULE.md",
+      "docs/SCRIPTS_CATALOG.md",
       "docs/SEARCH_RESULTS.md",
       "docs/SENTIMENT.md",
       "docs/SIMILAR.md",
@@ -830,6 +832,7 @@
       "docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md",
       "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
       "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md",
+      "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
       "docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md",
       "docs/02-anthropic-vacancies/286-acknowledgments.md",
       "docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md",
@@ -920,10 +923,12 @@
       "docs/QA.md",
       "docs/QUESTIONS.md",
       "docs/READING_ORDER.md",
+      "docs/REGISTRY.md",
       "docs/REPORT.md",
       "docs/RISK_REGISTER.md",
       "docs/SIMILAR_PASSAGES.md",
       "docs/SITEMAP.md",
+      "docs/SKILL_DASHBOARD.md",
       "docs/SUMMARIES.md",
       "docs/TABLES.md",
       "docs/TECH_RADAR.md",
@@ -1502,25 +1507,10 @@
       "docs/ai-collaborations/ensembles/3-forensic-rag.md",
       "docs/ai-collaborations/fast-tracks/README.md",
       "docs/contacts/nlaik.md",
-      "docs/glossary/authors-by-name.md",
-      "docs/glossary/components-by-name.md",
-      "docs/lorenzo-agent/QA.md",
-      "docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md",
-      "docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md",
-      "docs/svyazi-2-0/architecture/evidence-envelope.md",
-      "docs/svyazi-2-0/architecture/gaps.md",
-      "docs/svyazi-2-0/architecture/integration-spec.md",
-      "docs/svyazi-2-0/components/research-docs-liteparse.md",
-      "docs/svyazi-2-0/ensembles/B-forensic-rag.md",
-      "docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md",
-      "docs/svyazi-2-0/limitations/conclusions.md",
-      "docs/svyazi-2-0/limitations/license-tree.md",
-      "docs/svyazi-2-0/overview/executive-summary.md",
-      "docs/svyazi-2-0/overview/methodology.md",
-      "docs/svyazi-2-0/overview/projects-map.md",
-      "docs/svyazi-2-0/prototype/mvp-plan.md"
+      "docs/contacts/sonia-black.md",
+      "docs/contacts/tagir-analyzes.md"
     ],
-    "mention_count": 65
+    "mention_count": 321
   },
   "ngt": {
     "name": "ngt",
@@ -2373,6 +2363,7 @@
       "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
       "docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md",
       "docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md",
+      "docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md",
       "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
       "docs/02-anthropic-vacancies/42-author-contact.md",
       "docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md",
@@ -2410,7 +2401,7 @@
       "docs/05-habr-projects/memory/yodoca.md",
       "docs/ABBREVIATIONS.md",
       "docs/ACTION_ITEMS.md",
-      "docs/BROKEN_LINKS.md",
+      "docs/BACKLINKS.md",
       "docs/CHANGELOG.md",
       "docs/CHANGELOG_AUTO.md",
       "docs/CITATION_INDEX.md",
@@ -2655,8 +2646,10 @@
       "docs/02-anthropic-vacancies/72-расписание-фазы-3.md",
       "docs/02-anthropic-vacancies/74-abstract.md",
       "docs/02-anthropic-vacancies/76-1-introduction.md",
+      "docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md",
       "docs/02-anthropic-vacancies/80-5-compatibility-levels.md",
       "docs/02-anthropic-vacancies/81-6-adapter-interface.md",
+      "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
       "docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md",
       "docs/02-anthropic-vacancies/90-15-security-considerations.md",
       "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md",
@@ -2688,6 +2681,7 @@
       "docs/QUESTIONS.md",
       "docs/READING_ORDER.md",
       "docs/RISK_REGISTER.md",
+      "docs/SCRIPTS_CATALOG.md",
       "docs/TABLES.md",
       "docs/TECH_RADAR.md",
       "docs/ai-collaborations/ensembles/3-forensic-rag.md",
@@ -2904,6 +2898,7 @@
       "docs/QUESTIONS.md",
       "docs/READING_ORDER.md",
       "docs/REPORT.md",
+      "docs/SCRIPTS_CATALOG.md",
       "docs/SITEMAP.md",
       "docs/STALENESS.md",
       "docs/STATS.md",
@@ -3050,7 +3045,10 @@
       "docs/technology-combinations/combinations/19-multi-agent-observability-platform.md",
       "docs/technology-combinations/combinations/24-mega-integration-full-stack.md",
       "docs/technology-combinations/mega-stacks/03-dsl-ast.md",
-      "docs/templates/README.md"
+      "docs/templates/README.md",
+      "docs/templates/faq-entry.md",
+      "docs/templates/mega-stack.md",
+      "docs/templates/prototype-mvp.md"
     ],
     "mention_count": 273
   },
@@ -3099,12 +3097,15 @@
       "docs/autofilled/components/svend4.md",
       "docs/autofilled/components/svyazi.md",
       "docs/contacts/README.md",
-      "docs/contacts/kksudo.md",
-      "docs/glossary/authors-by-name.md",
-      "docs/svyazi-2-0/components/agentfs.md",
-      "docs/svyazi-2-0/outreach/first-contacts.md",
-      "docs/svyazi-2-0/outreach/narrow-questions.md",
-      "docs/svyazi-2-0/overview/projects-map.md"
+      "docs/contacts/anastasiyaw.md",
+      "docs/contacts/andrey-chuyan.md",
+      "docs/contacts/antipozitive.md",
+      "docs/contacts/cutcode.md",
+      "docs/contacts/dmitriila.md",
+      "docs/contacts/mixaill76.md",
+      "docs/contacts/nlaik.md",
+      "docs/contacts/sonia-black.md",
+      "docs/contacts/tagir-analyzes.md"
     ],
     "mention_count": 47
   },
@@ -3126,8 +3127,8 @@
       "docs/AUTHORS.md",
       "docs/AUTOFILLED.md",
       "docs/BROKEN_LINKS.md",
-      "docs/CLUSTERS.md",
       "docs/CONTACT_PRIORITY.md",
+      "docs/CROSS_SECTION.md",
       "docs/DEPENDABOT.md",
       "docs/FAQ.md",
       "docs/NETWORK.md",
@@ -3153,9 +3154,14 @@
       "docs/contacts/README.md",
       "docs/contacts/andrey-chuyan.md",
       "docs/contacts/antipozitive.md",
+      "docs/contacts/cutcode.md",
+      "docs/contacts/dmitriila.md",
+      "docs/contacts/kksudo.md",
+      "docs/contacts/mixaill76.md",
       "docs/contacts/nlaik.md",
       "docs/contacts/sonia-black.md",
       "docs/contacts/spbmolot.md",
+      "docs/contacts/tagir-analyzes.md",
       "docs/contacts/vitalyoborin.md",
       "docs/glossary/authors-by-name.md",
       "docs/svyazi-2-0/components/ngt-memory.md",
@@ -3199,19 +3205,42 @@
     ],
     "mention_count": 50
   },
-  "anastasiyaw": {
-    "name": "anastasiyaw",
-    "type": "people",
+  "obsidian": {
+    "name": "obsidian",
+    "type": "projects",
     "files": [
       "docs/01-svyazi/03-component-catalog.md",
-      "docs/01-svyazi/07-mvp-planning.md",
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
+      "docs/02-anthropic-vacancies/06-1-introduction.md",
+      "docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md",
+      "docs/02-anthropic-vacancies/150-appendix-c-version-history.md",
+      "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
+      "docs/02-anthropic-vacancies/279-existing-approximations.md",
+      "docs/02-anthropic-vacancies/294-существующие-приближения.md",
+      "docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md",
+      "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md",
+      "docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md",
+      "docs/02-anthropic-vacancies/318-10-strategic-positioning.md",
+      "docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md",
+      "docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md",
+      "docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md",
+      "docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md",
+      "docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md",
+      "docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md",
       "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
-      "docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md",
-      "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md",
       "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "docs/02-anthropic-vacancies/67-о-проекте.md",
+      "docs/02-anthropic-vacancies/68-about.md",
+      "docs/02-anthropic-vacancies/76-1-introduction.md",
+      "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md",
+      "docs/03-technology-combinations/02-knowledge-graphs.md",
+      "docs/04-ai-collaborations/00-intro.md",
       "docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md",
-      "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md",
-      "docs/AUTHORS.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/ACTION_ITEMS.md",
+      "docs/BACKLINKS.md",
       "docs/BROKEN_LINKS.md",
       "docs/CITATION_INDEX.md",
       "docs/CONCEPTS.md",
@@ -3219,9 +3248,14 @@
       "docs/DEPENDABOT.md",
       "docs/KPI.md",
       "docs/LINKS.md",
+      "docs/ORPHANS.md",
       "docs/OUTLINE.md",
-      "docs/REPORT.md",
+      "docs/PRIORITIES.md",
+      "docs/QA.md",
+      "docs/README.md",
+      "docs/SENTIMENT.md",
       "docs/SITEMAP.md",
+      "docs/STATS.md",
       "docs/TABLES.md",
       "docs/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md",
       "docs/autofilled/components/kksudo.md",
@@ -3349,6 +3383,7 @@
       "docs/QUESTIONS.md",
       "docs/REPORT.md",
       "docs/SCHEDULE.md",
+      "docs/SCRIPTS_CATALOG.md",
       "docs/SUMMARIES.md",
       "docs/TABLES.md",
       "docs/TIMELINE.md",
@@ -3481,6 +3516,7 @@
       "docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md",
       "docs/technology-combinations/combinations/22-russian-international-oss-stack.md",
       "docs/templates/contact-outreach.md",
+      "docs/templates/meeting-notes.md",
       "docs/templates/project-component.md"
     ],
     "mention_count": 667
@@ -3515,18 +3551,9 @@
       "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
       "docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md",
       "docs/ACTION_ITEMS.md",
-      "docs/CONCEPTS.md",
-      "docs/OUTLINE.md",
-      "docs/SITEMAP.md",
-      "docs/TABLES.md",
-      "docs/glossary/authors-by-name.md",
-      "docs/glossary/components-by-name.md",
-      "docs/svyazi-2-0/components/self-aware-mcp.md",
-      "docs/svyazi-2-0/ensembles/C-multi-agent-factory.md",
-      "docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md",
-      "docs/svyazi-2-0/overview/projects-map.md"
+      "docs/TABLES.md"
     ],
-    "mention_count": 17
+    "mention_count": 8
   },
   "vectorcypher": {
     "name": "VectorCypher",
@@ -3847,8 +3874,6 @@
       "docs/03-technology-combinations/05-benchmarks.md",
       "docs/04-ai-collaborations/00-intro.md",
       "docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md",
-      "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
-      "docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md",
       "docs/05-habr-projects/memory/memnet.md",
       "docs/ABBREVIATIONS.md",
       "docs/ACTION_ITEMS.md",
@@ -4154,9 +4179,6 @@
       "docs/OUTLINE.md",
       "docs/QUESTIONS.md",
       "docs/READING_ORDER.md",
-      "docs/REPORT.md",
-      "docs/SITEMAP.md",
-      "docs/SUMMARIES.md",
       "docs/TABLES.md",
       "docs/TIMELINE.md",
       "docs/ai-collaborations/continuation/05-roadmap-6-12-months.md",
@@ -4351,13 +4373,12 @@
       "docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md",
       "docs/04-ai-collaborations/00-intro.md",
       "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
-      "docs/TABLES.md",
       "docs/ai-collaborations/ensembles/5-agent-firewall.md",
       "docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md",
       "docs/svyazi-2-0/ensembles/E-execution-plane.md",
       "docs/templates/project-component.md"
     ],
-    "mention_count": 10
+    "mention_count": 9
   },
   "openai": {
     "name": "openai",
@@ -4426,8 +4447,18 @@
       "docs/autofilled/components/kksudo.md",
       "docs/autofilled/components/spbmolot.md",
       "docs/contacts/andrey-chuyan.md",
-      "docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md",
-      "docs/svyazi-2-0/outreach/first-contacts.md"
+      "docs/contacts/antipozitive.md",
+      "docs/contacts/cutcode.md",
+      "docs/contacts/dmitriila.md",
+      "docs/contacts/kksudo.md",
+      "docs/contacts/mixaill76.md",
+      "docs/contacts/nlaik.md",
+      "docs/contacts/sonia-black.md",
+      "docs/contacts/spbmolot.md",
+      "docs/contacts/tagir-analyzes.md",
+      "docs/contacts/vitalyoborin.md",
+      "docs/contacts/vladspace.md",
+      "docs/contacts/zodigancode.md"
     ],
     "mention_count": 13
   },
@@ -4435,7 +4466,9 @@
     "name": "anthropic",
     "type": "people",
     "files": [
+      "docs/01-svyazi/09-architectural-gaps.md",
       "docs/01-svyazi/11-integration-contracts.md",
+      "docs/01-svyazi/QA.md",
       "docs/02-anthropic-vacancies/00-intro.md",
       "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
       "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
@@ -4795,7 +4828,9 @@
       "docs/03-technology-combinations/04-sozialrecht-domain.md",
       "docs/03-technology-combinations/QA.md",
       "docs/04-ai-collaborations/00-intro.md",
+      "docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md",
       "docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md",
+      "docs/04-ai-collaborations/QA.md",
       "docs/05-habr-projects/01-synthesis.md",
       "docs/05-habr-projects/QA.md",
       "docs/05-habr-projects/memory/memnet.md",
@@ -5244,6 +5279,7 @@
     "name": "svend4",
     "type": "people",
     "files": [
+      "docs/01-svyazi/QA.md",
       "docs/02-anthropic-vacancies/00-intro.md",
       "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
       "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
@@ -5348,7 +5384,7 @@
       "docs/02-anthropic-vacancies/README.md",
       "docs/03-technology-combinations/QA.md",
       "docs/04-ai-collaborations/00-intro.md",
-      "docs/05-habr-projects/QA.md",
+      "docs/04-ai-collaborations/QA.md",
       "docs/05-habr-projects/memory/memnet.md",
       "docs/ACTION_ITEMS.md",
       "docs/AUTOFILLED.md",
@@ -5529,13 +5565,14 @@
     ],
     "mention_count": 24
   },
-  "tetradrone": {
-    "name": "TetraDrone",
+  "javascript": {
+    "name": "JavaScript",
     "type": "projects",
     "files": [
       "docs/02-anthropic-vacancies/00-intro.md",
       "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
-      "docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md"
+      "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "docs/CONCEPTS.md"
     ],
     "mention_count": 3
   },
@@ -5648,6 +5685,7 @@
       "docs/02-anthropic-vacancies/307-abstract.md",
       "docs/02-anthropic-vacancies/308-table-of-contents.md",
       "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md",
       "docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md",
       "docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md",
       "docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md",
@@ -5708,11 +5746,9 @@
       "docs/CONCEPTS.md",
       "docs/CROSS_SECTION.md",
       "docs/DECISIONS.md",
-      "docs/DIGEST_AUTO.md",
-      "docs/DUPLICATES.md",
-      "docs/EMPTY_SECTIONS.md",
       "docs/FAQ.md",
       "docs/HEALTH.md",
+      "docs/KPI.md",
       "docs/LINKS.md",
       "docs/LLM_SUMMARIES.md",
       "docs/OUTLINE.md",
@@ -5720,6 +5756,7 @@
       "docs/QUESTIONS.md",
       "docs/READING_ORDER.md",
       "docs/README.md",
+      "docs/REGISTRY.md",
       "docs/REPORT.md",
       "docs/SEE_ALSO.md",
       "docs/SENTIMENT.md",
@@ -6141,84 +6178,173 @@
     ],
     "mention_count": 24
   },
-  "git": {
-    "name": "git",
+  "tetradrone": {
+    "name": "TetraDrone",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md"
+    ],
+    "mention_count": 2
+  },
+  "skymediahub": {
+    "name": "SkyMediaHub",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "docs/KPI.md",
+      "docs/TABLES.md"
+    ],
+    "mention_count": 4
+  },
+  "flamberrotor": {
+    "name": "FlamberRotor",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md"
+    ],
+    "mention_count": 2
+  },
+  "caremate": {
+    "name": "CareMate",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md"
+    ],
+    "mention_count": 2
+  },
+  "legaltech": {
+    "name": "LegalTech",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md"
+    ],
+    "mention_count": 2
+  },
+  "data70": {
+    "name": "data70",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/LINKS.md",
+      "docs/TABLES.md"
+    ],
+    "mention_count": 3
+  },
+  "transformer": {
+    "name": "transformer",
     "type": "tech",
     "files": [
       "docs/02-anthropic-vacancies/00-intro.md",
       "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
       "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
-      "docs/02-anthropic-vacancies/04-abstract.md",
+      "docs/02-anthropic-vacancies/45-passports-pro2-md.md",
+      "docs/02-anthropic-vacancies/46-essence.md",
+      "docs/02-anthropic-vacancies/48-content-overview.md",
+      "docs/02-anthropic-vacancies/52-author-contact.md",
+      "docs/02-anthropic-vacancies/53-history.md",
+      "docs/03-technology-combinations/02-knowledge-graphs.md",
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/CONCEPTS.md",
+      "docs/DECISIONS.md"
+    ],
+    "mention_count": 13
+  },
+  "json": {
+    "name": "json",
+    "type": "tech",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
       "docs/02-anthropic-vacancies/07-2-terminology.md",
       "docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md",
       "docs/02-anthropic-vacancies/111-4-условия-применимости.md",
+      "docs/02-anthropic-vacancies/122-глоссарий.md",
+      "docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md",
+      "docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md",
+      "docs/02-anthropic-vacancies/130-отладка.md",
+      "docs/02-anthropic-vacancies/133-обратная-связь.md",
       "docs/02-anthropic-vacancies/165-closing.md",
-      "docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md",
-      "docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md",
+      "docs/02-anthropic-vacancies/18-6-adapter-interface.md",
+      "docs/02-anthropic-vacancies/19-7-portalentry-structure.md",
+      "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
       "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
-      "docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md",
-      "docs/02-anthropic-vacancies/307-abstract.md",
-      "docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md",
-      "docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md",
-      "docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md",
-      "docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md",
-      "docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md",
-      "docs/02-anthropic-vacancies/318-10-strategic-positioning.md",
-      "docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md",
-      "docs/02-anthropic-vacancies/325-аннотация.md",
-      "docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md",
-      "docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md",
-      "docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md",
-      "docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md",
-      "docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md",
-      "docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md",
-      "docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md",
-      "docs/02-anthropic-vacancies/65-readme-md.md",
-      "docs/02-anthropic-vacancies/67-о-проекте.md",
-      "docs/02-anthropic-vacancies/68-about.md",
+      "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "docs/02-anthropic-vacancies/34-appendix-b-change-log.md",
+      "docs/02-anthropic-vacancies/37-native-format.md",
+      "docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md",
       "docs/02-anthropic-vacancies/69-section.md",
       "docs/02-anthropic-vacancies/74-abstract.md",
       "docs/02-anthropic-vacancies/77-2-terminology.md",
+      "docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md",
+      "docs/02-anthropic-vacancies/79-4-passport-passport-md.md",
+      "docs/02-anthropic-vacancies/80-5-compatibility-levels.md",
+      "docs/02-anthropic-vacancies/81-6-adapter-interface.md",
+      "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
+      "docs/02-anthropic-vacancies/83-8-q6-space-normative.md",
+      "docs/02-anthropic-vacancies/85-10-query-flow.md",
+      "docs/02-anthropic-vacancies/86-11-relevance-ranking.md",
+      "docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md",
+      "docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md",
+      "docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md",
+      "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md",
+      "docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md",
+      "docs/02-anthropic-vacancies/README.md",
+      "docs/03-technology-combinations/05-benchmarks.md",
       "docs/04-ai-collaborations/00-intro.md",
+      "docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md",
       "docs/05-habr-projects/memory/memnet.md",
+      "docs/ABBREVIATIONS.md",
       "docs/ACTION_ITEMS.md",
+      "docs/CHANGELOG.md",
       "docs/CHANGELOG_AUTO.md",
+      "docs/CLUSTERS.md",
+      "docs/CODE_BLOCKS.md",
       "docs/CONCEPTS.md",
-      "docs/DECISIONS.md",
-      "docs/INDEX.md",
       "docs/KPI.md",
       "docs/LINKS.md",
       "docs/OUTLINE.md",
-      "docs/QUESTIONS.md",
-      "docs/SUMMARIES.md",
+      "docs/READING_ORDER.md",
+      "docs/SEE_ALSO.md",
+      "docs/SITEMAP.md",
       "docs/TABLES.md",
-      "docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md",
-      "docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md",
-      "docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md",
-      "docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md",
-      "docs/nautilus/ingit-cowork-en/02-cowork-provides.md",
-      "docs/nautilus/ingit-cowork-en/03-ingit-provides.md",
-      "docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md",
-      "docs/nautilus/ingit-cowork-en/05-four-integration-paths.md",
-      "docs/nautilus/ingit-cowork-en/07-practical-first-steps.md",
-      "docs/nautilus/ingit-cowork-en/10-strategic-positioning.md",
-      "docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md",
-      "docs/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md",
-      "docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md",
-      "docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md",
-      "docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md",
-      "docs/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md",
-      "docs/nautilus/innovation-transitions/01-response.md",
-      "docs/nautilus/npp-v1-0/00-abstract-status.md",
-      "docs/nautilus/npp-v1-0/02-terminology.md",
-      "docs/nautilus/npp-v1-1/00-abstract-status.md",
-      "docs/nautilus/npp-v1-1/02-terminology.md",
-      "docs/nautilus/npp-v1-1/22-glossary.md",
-      "docs/nautilus/review-methodology/01-context-motivation.md",
-      "docs/nautilus/review-methodology/05-conditions-of-applicability.md",
-      "docs/nautilus/supply-demand/01-three-related-themes.md"
+      "docs/TIMELINE.md",
+      "docs/VERSION_DIFF.md"
     ],
-    "mention_count": 72
+    "mention_count": 59
+  },
+  "ci": {
+    "name": "ci",
+    "type": "tech",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md",
+      "docs/02-anthropic-vacancies/143-6-four-deployment-domains.md",
+      "docs/02-anthropic-vacancies/164-10-appendices.md",
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/ABBREVIATIONS.md",
+      "docs/CHANGELOG.md",
+      "docs/CHANGELOG_AUTO.md",
+      "docs/COST.md",
+      "docs/DECISIONS.md",
+      "docs/DIGEST.md",
+      "docs/RISK_REGISTER.md",
+      "docs/TABLES.md",
+      "docs/ai-collaborations/ensembles/6-continuous-eval-loop.md",
+      "docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md",
+      "docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md",
+      "docs/nautilus/innovation-transitions/01-response.md",
+      "docs/nautilus/multi-tier-architecture/01-strategic-significance.md",
+      "docs/nautilus/npp-v1-1/22-glossary.md",
+      "docs/nautilus/okwf-concept/10-appendices.md"
+    ],
+    "mention_count": 13
   },
   "ci": {
     "name": "ci",
@@ -6384,7 +6510,6 @@
       "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
       "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
       "docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md",
-      "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
       "docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md",
       "docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md",
       "docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md",
@@ -6407,7 +6532,6 @@
       "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
       "docs/02-anthropic-vacancies/77-2-terminology.md",
       "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md",
-      "docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md",
       "docs/03-technology-combinations/02-knowledge-graphs.md",
       "docs/04-ai-collaborations/00-intro.md",
       "docs/05-habr-projects/memory/memnet.md",
@@ -6625,12 +6749,34 @@
     ],
     "mention_count": 35
   },
-  "март 2026": {
-    "name": "март 2026",
+  "microsoft": {
+    "name": "microsoft",
+    "type": "orgs",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md",
+      "docs/02-anthropic-vacancies/150-appendix-c-version-history.md",
+      "docs/02-anthropic-vacancies/163-9-call-for-partnership.md",
+      "docs/02-anthropic-vacancies/287-references.md",
+      "docs/02-anthropic-vacancies/302-ссылки.md",
+      "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "docs/03-technology-combinations/03-local-first.md",
+      "docs/KPI.md",
+      "docs/TABLES.md"
+    ],
+    "mention_count": 11
+  },
+  "апрель 2026": {
+    "name": "апрель 2026",
     "type": "dates",
     "files": [
       "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md",
+      "docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md",
       "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "docs/02-anthropic-vacancies/38-content-overview.md",
       "docs/02-anthropic-vacancies/53-history.md",
       "docs/OUTLINE.md",
       "docs/QUESTIONS.md",
@@ -6709,6 +6855,38 @@
     ],
     "mention_count": 3
   },
+  "марта 2026": {
+    "name": "марта 2026",
+    "type": "dates",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/TABLES.md",
+      "docs/TIMELINE.md"
+    ],
+    "mention_count": 3
+  },
+  "март 2026": {
+    "name": "март 2026",
+    "type": "dates",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "docs/02-anthropic-vacancies/53-history.md",
+      "docs/TABLES.md",
+      "docs/TIMELINE.md"
+    ],
+    "mention_count": 5
+  },
+  "декабрь 2024": {
+    "name": "декабрь 2024",
+    "type": "dates",
+    "files": [
+      "docs/02-anthropic-vacancies/00-intro.md",
+      "docs/TABLES.md",
+      "docs/TIMELINE.md"
+    ],
+    "mention_count": 3
+  },
   "settings": {
     "name": "settings",
     "type": "people",
@@ -6721,6 +6899,32 @@
     ],
     "mention_count": 5
   },
+  "gpt": {
+    "name": "gpt",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "docs/02-anthropic-vacancies/155-1-problem-statement.md",
+      "docs/02-anthropic-vacancies/165-closing.md",
+      "docs/02-anthropic-vacancies/174-5-architectural-specification.md",
+      "docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md",
+      "docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md",
+      "docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md",
+      "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md",
+      "docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md",
+      "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "docs/03-technology-combinations/02-knowledge-graphs.md",
+      "docs/03-technology-combinations/03-local-first.md",
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/CONCEPTS.md",
+      "docs/DECISIONS.md",
+      "docs/KPI.md",
+      "docs/TABLES.md"
+    ],
+    "mention_count": 38
+  },
   "portalentry": {
     "name": "PortalEntry",
     "type": "projects",
@@ -6728,6 +6932,7 @@
       "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
       "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
       "docs/02-anthropic-vacancies/07-2-terminology.md",
+      "docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md",
       "docs/02-anthropic-vacancies/103-appendix-b-change-log.md",
       "docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md",
       "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
@@ -6738,13 +6943,18 @@
       "docs/02-anthropic-vacancies/19-7-portalentry-structure.md",
       "docs/02-anthropic-vacancies/21-9-query-flow.md",
       "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
+      "docs/02-anthropic-vacancies/69-section.md",
       "docs/02-anthropic-vacancies/74-abstract.md",
       "docs/02-anthropic-vacancies/76-1-introduction.md",
       "docs/02-anthropic-vacancies/77-2-terminology.md",
+      "docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md",
+      "docs/02-anthropic-vacancies/79-4-passport-passport-md.md",
       "docs/02-anthropic-vacancies/80-5-compatibility-levels.md",
+      "docs/02-anthropic-vacancies/81-6-adapter-interface.md",
       "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
       "docs/02-anthropic-vacancies/83-8-q6-space-normative.md",
       "docs/02-anthropic-vacancies/86-11-relevance-ranking.md",
+      "docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md",
       "docs/02-anthropic-vacancies/93-18-reference-implementation.md",
       "docs/CODE_BLOCKS.md",
       "docs/CONCEPTS.md",
@@ -7047,26 +7257,34 @@
     ],
     "mention_count": 6
   },
-  "langgraph": {
-    "name": "LangGraph",
+  "sonarqube": {
+    "name": "SonarQube",
     "type": "projects",
     "files": [
       "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
-      "docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md",
-      "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
-      "docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md",
-      "docs/CONCEPTS.md",
-      "docs/OUTLINE.md",
-      "docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md",
-      "docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md",
-      "docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md",
-      "docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md",
-      "docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md",
-      "docs/glossary/components-by-name.md",
-      "docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md",
-      "docs/nautilus/innovation-transitions/00-question-innovations-transitions.md"
+      "docs/ACTION_ITEMS.md"
     ],
-    "mention_count": 14
+    "mention_count": 2
+  },
+  "mistral": {
+    "name": "mistral",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "docs/02-anthropic-vacancies/150-appendix-c-version-history.md",
+      "docs/02-anthropic-vacancies/155-1-problem-statement.md",
+      "docs/02-anthropic-vacancies/159-5-economic-model.md",
+      "docs/02-anthropic-vacancies/163-9-call-for-partnership.md",
+      "docs/CONCEPTS.md",
+      "docs/KPI.md",
+      "docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md",
+      "docs/nautilus/innovation-transitions/00-question-innovations-transitions.md",
+      "docs/nautilus/okwf-concept/01-problem-statement.md",
+      "docs/nautilus/okwf-concept/05-economic-model.md",
+      "docs/nautilus/okwf-concept/09-call-for-partnership.md",
+      "docs/nautilus/transmission-box/01-completing-loop.md"
+    ],
+    "mention_count": 13
   },
   "chatdev": {
     "name": "ChatDev",
@@ -7120,8 +7338,8 @@
     ],
     "mention_count": 22
   },
-  "info1": {
-    "name": "info1",
+  "chatdev": {
+    "name": "ChatDev",
     "type": "projects",
     "files": [
       "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
@@ -7216,17 +7434,7 @@
       "docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md",
       "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
       "docs/04-ai-collaborations/00-intro.md",
-      "docs/05-habr-projects/memory/memnet.md",
-      "docs/TABLES.md",
-      "docs/ai-collaborations/source-projects.md",
-      "docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md",
-      "docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md",
-      "docs/lorenzo-agent/10-collaborators-landscape.md",
-      "docs/lorenzo-agent/operationalized/02-minuses-1-10.md",
-      "docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md",
-      "docs/nautilus/representative-agent-layer-en/05-architectural-specification.md",
-      "docs/nautilus/representative-agent-layer-en/12-closing.md",
-      "docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md"
+      "docs/05-habr-projects/memory/memnet.md"
     ],
     "mention_count": 19
   },
@@ -7316,6 +7524,7 @@
       "docs/05-habr-projects/memory/memnet.md",
       "docs/05-habr-projects/memory/ngt-memory.md",
       "docs/05-habr-projects/memory/yodoca.md",
+      "docs/BADGES.md",
       "docs/CHANGELOG_AUTO.md",
       "docs/CITATION_INDEX.md",
       "docs/CONCEPT_GRAPH.md",
@@ -7326,8 +7535,6 @@
       "docs/CROSS_SECTION.md",
       "docs/DEPENDABOT.md",
       "docs/DIGEST.md",
-      "docs/DIGEST_AUTO.md",
-      "docs/EMPTY_SECTIONS.md",
       "docs/GITHUB_ISSUES.md",
       "docs/HEADING_AUDIT.md",
       "docs/HEALTH.md",
@@ -7341,14 +7548,18 @@
       "docs/READING_LIST.md",
       "docs/READING_TIME.md",
       "docs/README.md",
+      "docs/REGISTRY.md",
       "docs/REPORT.md",
       "docs/SCORING.md",
+      "docs/SCRIPTS_CATALOG.md",
       "docs/SEARCH_RESULTS.md",
       "docs/SIMILAR_PASSAGES.md",
       "docs/SITEMAP.md",
+      "docs/SKILL_DASHBOARD.md",
       "docs/STALENESS.md",
       "docs/SUMMARIES.md",
       "docs/TABLES.md",
+      "docs/TASKS_INDEX.md",
       "docs/TIMELINE.md",
       "docs/TOPIC_MODEL.md",
       "docs/VERSION_DIFF.md",
@@ -7378,11 +7589,29 @@
       "docs/nautilus/review-methodology/00-tldr.md",
       "docs/nautilus/review-methodology/15-appendix-c-history.md",
       "docs/templates/README.md",
+      "docs/templates/agent-spec.md",
       "docs/templates/contact-outreach.md",
+      "docs/templates/contradiction-record.md",
       "docs/templates/decision-record.md",
       "docs/templates/ensemble.md",
+      "docs/templates/experiment-log.md",
+      "docs/templates/faq-entry.md",
+      "docs/templates/glossary-entry.md",
+      "docs/templates/kpi-snapshot.md",
+      "docs/templates/legal-case.md",
+      "docs/templates/meeting-notes.md",
+      "docs/templates/mega-stack.md",
       "docs/templates/project-component.md",
-      "docs/templates/research-note.md"
+      "docs/templates/protocol-spec.md",
+      "docs/templates/prototype-mvp.md",
+      "docs/templates/research-note.md",
+      "docs/templates/retrospective.md",
+      "docs/templates/rfc.md",
+      "docs/templates/risk-entry.md",
+      "docs/templates/tech-pair.md",
+      "docs/templates/tech-radar-entry.md",
+      "docs/templates/template-of-templates.md",
+      "docs/templates/weekly-digest.md"
     ],
     "mention_count": 100
   },
@@ -7424,16 +7653,7 @@
       "docs/nautilus/okwf-concept/00-abstract.md",
       "docs/nautilus/representative-agent-layer-en/00-abstract.md"
     ],
-    "mention_count": 19
-  },
-  "gitflow": {
-    "name": "GitFlow",
-    "type": "projects",
-    "files": [
-      "docs/02-anthropic-vacancies/111-4-условия-применимости.md",
-      "docs/nautilus/review-methodology/05-conditions-of-applicability.md"
-    ],
-    "mention_count": 2
+    "mention_count": 11
   },
   "2026-05-03": {
     "name": "2026-05-03",
@@ -7790,8 +8010,8 @@
     ],
     "mention_count": 4
   },
-  "феврале 2025": {
-    "name": "феврале 2025",
+  "май 2025": {
+    "name": "май 2025",
     "type": "dates",
     "files": [
       "docs/02-anthropic-vacancies/165-closing.md",
@@ -7822,8 +8042,8 @@
     ],
     "mention_count": 4
   },
-  "caringbridge": {
-    "name": "CaringBridge",
+  "volunteermatch": {
+    "name": "VolunteerMatch",
     "type": "projects",
     "files": [
       "docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md",
@@ -7834,8 +8054,8 @@
     ],
     "mention_count": 5
   },
-  "volunteermatch": {
-    "name": "VolunteerMatch",
+  "caringbridge": {
+    "name": "CaringBridge",
     "type": "projects",
     "files": [
       "docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md",
@@ -7929,14 +8149,18 @@
       "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
       "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
       "docs/04-ai-collaborations/00-intro.md",
-      "docs/05-habr-projects/memory/memnet.md",
-      "docs/ai-collaborations/candidates/02-related-projects-context.md",
-      "docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md",
-      "docs/habr-unique-projects/analogues/02-related-projects.md",
-      "docs/habr-unique-projects/deep-pairs/2-document-rag.md",
-      "docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md"
+      "docs/05-habr-projects/memory/memnet.md"
     ],
-    "mention_count": 11
+    "mention_count": 6
+  },
+  "fastapi": {
+    "name": "fastapi",
+    "type": "tech",
+    "files": [
+      "docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md",
+      "docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md"
+    ],
+    "mention_count": 2
   },
   "fastapi": {
     "name": "fastapi",
@@ -7989,7 +8213,7 @@
     "mention_count": 4
   },
   "langchain": {
-    "name": "LangChain",
+    "name": "langchain",
     "type": "projects",
     "files": [
       "docs/02-anthropic-vacancies/287-references.md",
@@ -8138,6 +8362,58 @@
     ],
     "mention_count": 40
   },
+  "chatagent": {
+    "name": "ChatAgent",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md",
+      "docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md",
+      "docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md",
+      "docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md"
+    ],
+    "mention_count": 5
+  },
+  "openclaw": {
+    "name": "OpenClaw",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/CONTRADICTIONS.md",
+      "docs/OUTLINE.md",
+      "docs/SITEMAP.md",
+      "docs/TABLES.md",
+      "docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md",
+      "docs/ai-collaborations/continuation/09-do-not-glue.md",
+      "docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md",
+      "docs/ai-collaborations/ensembles/5-agent-firewall.md",
+      "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md",
+      "docs/ai-collaborations/ensembles/9-ambient-team-agent.md",
+      "docs/ai-collaborations/source-projects.md",
+      "docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md",
+      "docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md",
+      "docs/glossary/components-by-name.md",
+      "docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md",
+      "docs/habr-unique-projects/key-findings/04-dochkina-sequential.md"
+    ],
+    "mention_count": 21
+  },
+  "pagerank": {
+    "name": "PageRank",
+    "type": "projects",
+    "files": [
+      "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/SCRIPTS_CATALOG.md",
+      "docs/ai-collaborations/ensembles/3-forensic-rag.md",
+      "docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md"
+    ],
+    "mention_count": 5
+  },
   "brainbox": {
     "name": "BrainBox",
     "type": "projects",
@@ -8174,11 +8450,12 @@
     "type": "projects",
     "files": [
       "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
-      "docs/04-ai-collaborations/00-intro.md",
-      "docs/ai-collaborations/ensembles/3-forensic-rag.md",
-      "docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md"
+      "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md",
+      "docs/CONCEPTS.md",
+      "docs/DUPLICATES.md"
     ],
-    "mention_count": 4
+    "mention_count": 5
   },
   "yandex": {
     "name": "yandex",
@@ -8267,14 +8544,9 @@
     "files": [
       "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
       "docs/04-ai-collaborations/00-intro.md",
-      "docs/05-habr-projects/memory/memnet.md",
-      "docs/TABLES.md",
-      "docs/glossary/authors-by-name.md",
-      "docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md",
-      "docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md",
-      "docs/lorenzo-agent/scenarios/01-response.md"
+      "docs/05-habr-projects/memory/memnet.md"
     ],
-    "mention_count": 8
+    "mention_count": 3
   },
   "kagvi13": {
     "name": "kagvi13",
@@ -8316,9 +8588,9 @@
     ],
     "mention_count": 3
   },
-  "rufler": {
-    "name": "rufler",
-    "type": "projects",
+  "lib4u": {
+    "name": "lib4u",
+    "type": "people",
     "files": [
       "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md",
       "docs/TABLES.md",
@@ -8336,9 +8608,9 @@
     ],
     "mention_count": 3
   },
-  "sql": {
-    "name": "sql",
-    "type": "tech",
+  "rufler": {
+    "name": "rufler",
+    "type": "projects",
     "files": [
       "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
       "docs/OUTLINE.md",
@@ -8385,11 +8657,9 @@
     "type": "tech",
     "files": [
       "docs/02-anthropic-vacancies/76-1-introduction.md",
-      "docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md",
-      "docs/nautilus/npp-v1-1/01-introduction.md",
-      "docs/nautilus/npp-v1-1/12-onboarding-paths.md"
+      "docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md"
     ],
-    "mention_count": 4
+    "mention_count": 2
   },
   "bm25": {
     "name": "bm25",
@@ -8398,28 +8668,18 @@
       "docs/02-anthropic-vacancies/86-11-relevance-ranking.md",
       "docs/03-technology-combinations/02-knowledge-graphs.md",
       "docs/04-ai-collaborations/00-intro.md",
-      "docs/05-habr-projects/memory/memnet.md",
-      "docs/CHANGELOG.md",
-      "docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md",
-      "docs/habr-unique-projects/deep-pairs/2-document-rag.md",
-      "docs/nautilus/npp-v1-1/11-relevance-ranking.md",
-      "docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md",
-      "docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md",
-      "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md",
-      "docs/technology-combinations/combinations/19-multi-agent-observability-platform.md",
-      "docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md"
+      "docs/05-habr-projects/memory/memnet.md"
     ],
-    "mention_count": 13
+    "mention_count": 4
   },
-  "obsidianadapter": {
-    "name": "ObsidianAdapter",
+  "arxivadapter": {
+    "name": "ArxivAdapter",
     "type": "projects",
     "files": [
       "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md",
-      "docs/CONCEPTS.md",
-      "docs/nautilus/npp-v1-1/22-glossary.md"
+      "docs/CONCEPTS.md"
     ],
-    "mention_count": 3
+    "mention_count": 2
   },
   "arxivadapter": {
     "name": "ArxivAdapter",
@@ -8526,11 +8786,29 @@
     "files": [
       "docs/04-ai-collaborations/00-intro.md",
       "docs/05-habr-projects/memory/memnet.md",
-      "docs/TABLES.md",
-      "docs/ai-collaborations/source-projects.md",
-      "docs/habr-unique-projects/key-findings/04-dochkina-sequential.md"
+      "docs/TABLES.md"
     ],
-    "mention_count": 5
+    "mention_count": 3
+  },
+  "nicholasspisak": {
+    "name": "nicholasspisak",
+    "type": "people",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/TABLES.md"
+    ],
+    "mention_count": 6
+  },
+  "vuguzum": {
+    "name": "vuguzum",
+    "type": "people",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/TABLES.md"
+    ],
+    "mention_count": 3
   },
   "nicholasspisak": {
     "name": "nicholasspisak",
@@ -8549,11 +8827,9 @@
     "files": [
       "docs/04-ai-collaborations/00-intro.md",
       "docs/05-habr-projects/memory/memnet.md",
-      "docs/TABLES.md",
-      "docs/ai-collaborations/source-projects.md",
-      "docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md"
+      "docs/TABLES.md"
     ],
-    "mention_count": 5
+    "mention_count": 6
   },
   "yjs": {
     "name": "yjs",
@@ -8608,8 +8884,8 @@
       "docs/05-habr-projects/memory/memnet.md",
       "docs/TABLES.md",
       "docs/ai-collaborations/source-projects.md",
-      "docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md",
-      "docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md"
+      "docs/glossary/components-by-name.md",
+      "docs/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md"
     ],
     "mention_count": 6
   },
@@ -8771,6 +9047,104 @@
     ],
     "mention_count": 7
   },
+  "tinychat": {
+    "name": "TinyChat",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md"
+    ],
+    "mention_count": 2
+  },
+  "mempalace": {
+    "name": "MemPalace",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/CONCEPTS.md",
+      "docs/glossary/components-by-name.md",
+      "docs/habr-unique-projects/key-findings/04-dochkina-sequential.md",
+      "docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md",
+      "docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md"
+    ],
+    "mention_count": 7
+  },
+  "openviking": {
+    "name": "OpenViking",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md"
+    ],
+    "mention_count": 2
+  },
+  "adversarial-review": {
+    "name": "adversarial-review",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/TABLES.md"
+    ],
+    "mention_count": 3
+  },
+  "byterover": {
+    "name": "ByteRover",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md"
+    ],
+    "mention_count": 2
+  },
+  "tg-chat-analyser": {
+    "name": "tg-chat-analyser",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/TABLES.md"
+    ],
+    "mention_count": 3
+  },
+  "truenorth": {
+    "name": "TrueNorth",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md"
+    ],
+    "mention_count": 2
+  },
+  "xuantie": {
+    "name": "XuanTie",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md"
+    ],
+    "mention_count": 2
+  },
+  "wisprflow": {
+    "name": "WisprFlow",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md"
+    ],
+    "mention_count": 2
+  },
+  "self-aware-mcp-server": {
+    "name": "self-aware-mcp-server",
+    "type": "projects",
+    "files": [
+      "docs/04-ai-collaborations/00-intro.md",
+      "docs/05-habr-projects/memory/memnet.md",
+      "docs/TABLES.md"
+    ],
+    "mention_count": 3
+  },
   "second-brain": {
     "name": "second-brain",
     "type": "projects",
@@ -8787,11 +9161,9 @@
     "type": "tech",
     "files": [
       "docs/04-ai-collaborations/00-intro.md",
-      "docs/05-habr-projects/knowledge/wikontic.md",
-      "docs/ai-collaborations/candidates/01-three-key-candidates.md",
-      "docs/habr-unique-projects/analogues/01-three-direct-analogues.md"
+      "docs/05-habr-projects/knowledge/wikontic.md"
     ],
-    "mention_count": 4
+    "mention_count": 2
   },
   "2026-04-29": {
     "name": "2026-04-29",
@@ -8830,13 +9202,7 @@
       "docs/QUESTIONS.md",
       "docs/SITEMAP.md",
       "docs/TABLES.md",
-      "docs/ai-collaborations/continuation/02-agentops-trace-envelope.md",
-      "docs/ai-collaborations/continuation/05-roadmap-6-12-months.md",
-      "docs/ai-collaborations/continuation/06-metrics-tree.md",
-      "docs/ai-collaborations/continuation/08-commercialization-three-paths.md",
-      "docs/ai-collaborations/continuation/10-architecture-rfc.md",
-      "docs/glossary/components-by-name.md",
-      "docs/glossary/concepts.md"
+      "docs/VERSION_DIFF.md"
     ],
     "mention_count": 13
   },
@@ -8962,10 +9328,9 @@
     "files": [
       "docs/DIGEST_AUTO.md",
       "docs/DIGEST_WEEKLY.md",
-      "docs/OUTLINE.md",
-      "docs/README.md"
+      "docs/OUTLINE.md"
     ],
-    "mention_count": 4
+    "mention_count": 2
   },
   "jaccard": {
     "name": "jaccard",
@@ -8980,12 +9345,12 @@
     ],
     "mention_count": 6
   },
-  "textrank": {
-    "name": "TextRank",
+  "info7": {
+    "name": "info7",
     "type": "projects",
     "files": [
-      "docs/OUTLINE.md",
-      "docs/SUMMARIES.md"
+      "docs/LINKS.md",
+      "docs/TABLES.md"
     ],
     "mention_count": 2
   },

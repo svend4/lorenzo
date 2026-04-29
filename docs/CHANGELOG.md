@@ -24,32 +24,6 @@
   > After audit of source dialogs against extracted content, 12 major
 - refresh executive report _12dea45c_
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
-- синхронизировать сгенерированные отчёты и docs _64358a84_
-  > Обновление всех авто-генерируемых файлов после запуска
-- Extract Nautilus Portal Protocol v1.0.0-draft (earlier version) _c6592525_
-  > docs/nautilus/npp-v1-0/ (NEW, 20 files):
-- Extract Nautilus-vs-CAMEL analysis and Habr extra-examples _ee71737e_
-  > docs/anthropic-vacancies/nautilus-vs-camel/ (NEW, 7 files):
-- Extract Hermes Agent comparison and re-prioritization _7822b130_
-  > docs/anthropic-vacancies/hermes-comparison/ (NEW, 15 files):
-- sync PROGRESS.md after content scripts commit _afe64e18_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- Extract AI-managed virtual company and MMORPG-for-programmers analyses _e965e1cd_
-  > docs/anthropic-vacancies/ai-managed-virtual-company/ (NEW, 12 files):
-- Extract Anthropic outreach concept, collaborator findings, reading paths _088f3f16_
-  > docs/anthropic-vacancies/beneficial-deployments-concept/ (NEW, 13 files):
-- Extract Lorenzo specification questions and phased deployment _9d9d2fee_
-  > The same anthropic-vacancies dialog contained more substantive
-- Extract Three-Phase Review Methodology and operationalized Lorenzo _047d6c06_
-  > docs/nautilus/review-methodology/ (NEW):
-- Extract Lorenzo agent prompt and 4 more DHLab papers _5a34f469_
-  > The same MHTML dialog (anthropic-vacancies) contained even more
-- sync PROGRESS.md after nlpplus scripts commit _78f4f118_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- Extract Nautilus Portal Protocol RFC and companion papers _cbe83e6e_
-  > The anthropic-vacancies dialog drifted into substantial Nautilus
-- Add profile-mapping, glossary, source-projects index _b552bcfc_
-  > docs/anthropic-vacancies/profile-mapping/:
 - sync CONTRADICTIONS.md (background task output) _89d3e8fb_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync CONTRADICTIONS.md after contradiction_check fix _6b81ffed_
@@ -91,6 +65,22 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph _d3dd0884_
+  > Sprint 24 — RAG end-to-end
+- Sprint 21-23 — embeddings cache, skill testing, release engineering _11d7bad1_
+  > Sprint 21 — Persistent embeddings cache
+- Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest _89f9dc93_
+  > Sprint 18 — MCP-изация
+- Sprint 15-17 — workflow v2, observability, embeddings, i18n _2265a4db_
+  > Sprint 15 — workflow & observability
+- Sprint 12-14 — bot-aware exclusions, distribution, web dashboard _1bf14810_
+  > Sprint 12 — bot-aware system
+- Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD _22c4cf8d_
+  > Sprint 9 — agentic skills layer
+- Sprint 6-8 — миграции, мета-скилы, workflow-runner, registry, docs-toolkit vendoring _589fe47e_
+  > Sprint 6 — операционализация
+- 5-sprint roadmap — templates, skills, plugins + manifest engine _81644487_
+  > Sprint 1 (T1+S1+P1): универсальный слой
 - 3 новых скрипта — cross_section, digest_auto, export_report _cd90a751_
   > improve_cross_section.py (группа analytics):
 - применить auto-linker + gap-filler ко всей базе знаний _ef99f46a_
@@ -99,8 +89,6 @@
   > Новый скрипт для создания персонализированных списков чтения:
 - ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний _a8455926_
   > Новые скрипты (группа content + nlpplus):
-- run all script groups, apply TOC/abstracts/crosslinks, rebuild search index _898c42a0_
-  > - All 7 script groups pass clean (quality, analytics, deeptext, meta, textwork, reports, generate)
 - add component matrix, KPI history tracker, fix run_all coverage _69562b02_
   > - improve_component_matrix.py: 14×10 compatibility matrix (memory/search/
 - добавить 8 скриптов группы nlpplus — расширенный NLP-анализ _4bcc9739_
@@ -183,6 +171,13 @@
   > - improve_summaries.py: added auto-annotations to 376 files
 - verify coverage, merge short files, add READMEs and glossary _91dd9685_
   > - verify_coverage.py: checks 97.6%→100.5% text coverage, all 26 terms found
+
+##  22 скила  (1 коммитов)
+
+### 🔧 Обслуживание
+
+- 9 MCP-серверов (+8) _Итого: 2_
+  > 5 манифестов
 
 ##  (1 коммитов)
 

@@ -1060,7 +1060,7 @@ _Файл: `docs/05-habr-projects/memory/memnet.md` | 2 колонок, 5 стр
 | Теги | — |
 | Упоминаний в репо | 90 |
 | Слой | memory |
-| Контакт | [@Antipozitive](docs/contacts/antipozitive.md) |
+| Контакт | [@Antipozitive](../../contacts/antipozitive.md) |
 | Статус связи | не писали |
 
 
@@ -1072,7 +1072,7 @@ _Файл: `docs/05-habr-projects/memory/ngt-memory.md` | 2 колонок, 5 с
 | Теги | — |
 | Упоминаний в репо | 260 |
 | Слой | memory |
-| Контакт | [@spbmolot](docs/contacts/spbmolot.md) |
+| Контакт | [@spbmolot](../../autofilled/components/spbmolot.md) |
 | Статус связи | не писали |
 
 
@@ -7837,8 +7837,747 @@ _Файл: `docs/obsidian/templates/project-component.md` | 2 колонок, 4 
 ## root (194 таблиц)
 
 
-### 1. Словарь аббревиатур и сокращений
-_Файл: `docs/ABBREVIATIONS.md` | 3 колонок, 94 строк_
+### 24. 1.7. Почему это различение важно
+_Файл: `docs/obsidian/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md` | 6 колонок, 7 строк_
+
+| Свойство | Тип 0 | Тип 1 | Тип 2 | Тип 3 | Тип 4 |
+|----------|-------|-------|-------|-------|-------|
+| Специализация | Нет | Профессия | Институция+профессия | Задача | Личность |
+| Внешние коммуникации | Нет | Нет | Некоторые | Некоторые | Обширные |
+| Тиражируемость | Универсальная | По профессии | По институции | По задаче | По индивиду |
+| Экономика | Подписка | По профессии | Институциональная | Различная | Индивидуальная |
+| Этические вопросы | Низкие | Средние | Средние | Высокие | Высочайшие |
+| Регуляторная сложность | Низкая | Средняя | Высокая | Высочайшая | Высочайшая |
+| Готовность к развёртыванию | Зрелая | Появляющаяся | Ранняя | Начинающаяся | Концептуальная |
+
+
+### 25. 3.3. Траектория развёртывания
+_Файл: `docs/obsidian/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` | 2 колонок, 3 строк_
+
+| Дата | Статус |
+|------|--------|
+| Лето 2025 | Начало разработки |
+| Сентябрь 2025 | Публичный запуск |
+| Апрель 2026 | 93 000 активных учителей-пользователей |
+
+
+### 26. Приложение A: Сравнительная Таблица — Пять Типов Агентов
+_Файл: `docs/obsidian/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md` | 6 колонок, 12 строк_
+
+| Свойство | Тип 0: Персональный AI | Тип 1: Профессиональный Коллега | Тип 2: Институциональный | Тип 3: Сотрудник | Тип 4: Представительский |
+|----------|---|---|---|---|---|
+| **Специализация** | Нет (общий) | Одна профессия | Профессия + институция | Конкретная задача | Конкретный индивид |
+| **Направление** | Реактивный | Реактивный (в профессии) | Двунаправленный | Автономный в зоне | Внешний (к миру) |
+| **Внешние коммуникации** | Нет | Нет | Некоторые (институциональные) | Некоторые (делегированные) | Обширные |
+| **Постоянство** | Сессия | Профессиональный контекст | Институциональные записи | Постоянная работа | Долгосрочная жизненная траектория |
+| **Тиражируемость** | Универсальный продукт | Один на профессию | Один на тип институции | По задаче | По индивиду |
+| **Экономика** | Подписка | По всей профессии | Институциональная лицензия | Различная | Индивидуальная или фондом |
+| **Этические озабоченности** | Низкие | Средние (опосредование, стандартизация) | Средние (институциональная власть) | Высокие (автономия, ответственность) | Высочайшие (представительство, действующая сила) |
+| **Регуляторная сложность** | Низкая | Средняя (профессиональные регуляции) | Высокая (институциональные регуляции) | Высочайшая (право делегирования) | Высочайшая (право представительства) |
+| **Глубина знаний** | Нет | Глубокая (профессия) | Глубокая + институциональная | Глубокая (конкретная задача) | Глубокая (индивид) |
+| **Полномочия практикующего** | Полные | Полные | Полные + институциональная проверка | Делегированная зона | Стратегическое делегирование |
+| **Референсный пример** | ChatGPT | «Обучай» | Больничная EHR-интегрированная | AI страховых претензий | Предложен (нет) |
+| **Зрелость (2026)** | Зрелый | Появляющийся | Ранний | Начинающийся | Концептуальный |
+
+
+### 27. Appendix A: The Six-Type Taxonomy (Updated)
+_Файл: `docs/obsidian/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` | 5 колонок, 6 строк_
+
+| Type | Name | Specialization | Example | Maturity |
+|------|------|----------------|---------|----------|
+| 0 | Personal AI Assistant | None (general) | ChatGPT, Claude | Mature |
+| 1 | Professional Colleague Agent | Single profession | «Обучай» for teachers | Emerging |
+| **1.5** | **Composite Skills Agent** | **Configurable ensemble** | **Proposed** | **Proposed** |
+| 2 | Institutional Agent | Profession + institution | Hospital EHR-integrated | Early |
+| 3 | Employee Agent | Specific delegated task | Insurance claim AI | Beginning |
+| 4 | Representative Agent | Single individual | Proposed (none yet) | Conceptual |
+
+
+### 28. Appendix B: Comparison Matrix
+_Файл: `docs/obsidian/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` | 5 колонок, 9 строк_
+
+| Capability | Plain Folder + Cowork | InGit + Cowork | Notion | Obsidian + AI plugins |
+|-----------|----------------------|----------------|--------|----------------------|
+| Structured organization | Manual | Conventional | Database | Markdown files |
+| Versioning | Manual Git | Git native | Internal | Git via plugin |
+| Metadata | None | YAML | Properties | Frontmatter |
+| Validation | None | Hooks | UI rules | Plugin-dependent |
+| Encryption | None | Built-in | Limited | Plugin-dependent |
+| Offline | Yes | Yes | Limited | Yes |
+| AI integration | Cowork | Cowork + InGit MCP | Notion AI | Plugin-dependent |
+| Cross-platform | OS-dependent | Yes | Yes | Yes |
+| Cost | Cowork sub | Free + Cowork | Subscription | Free + plugins |
+
+
+### 29. Приложение B: Сравнительная Матрица
+_Файл: `docs/obsidian/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md` | 5 колонок, 9 строк_
+
+| Способность | Обычная Папка + Cowork | InGit + Cowork | Notion | Obsidian + AI плагины |
+|-----------|----------------------|----------------|--------|----------------------|
+| Структурированная организация | Ручная | Конвенциональная | База данных | Markdown файлы |
+| Версионирование | Ручной Git | Git-нативное | Внутреннее | Git через плагин |
+| Метаданные | Нет | YAML | Свойства | Frontmatter |
+| Валидация | Нет | Хуки | UI правила | Зависит от плагина |
+| Шифрование | Нет | Встроенное | Ограниченное | Зависит от плагина |
+| Оффлайн | Да | Да | Ограниченно | Да |
+| AI интеграция | Cowork | Cowork + InGit MCP | Notion AI | Зависит от плагина |
+| Кросс-платформенность | Зависит от ОС | Да | Да | Да |
+| Стоимость | Подписка Cowork | Бесплатно + Cowork | Подписка | Бесплатно + плагины |
+
+
+### 30. Что это такое в эссенции
+_Файл: `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 3 колонок, 6 строк_
+
+| Узел pipeline | Проект | Статус |
+| --- | --- | --- |
+| Habr Scout | Firecrawl + Playwright + Свяжи extraction | Working components |
+| Svyazi-like карточки | Свяжи (Чуян) + knowledge-space (Анастасия) | Working |
+| Collaboration Knowledge OS | AgentFS + Memory OS + knowledge-space | Working |
+| Agent Team Kernel | Rufler + agent-pool + mclaude (Анастасия) | Working |
+| Forensic RAG | LiteParse + Hybrid RAG + Graph RAG | Working |
+| Secure Agent Runtime | SENTINEL + Shield + Claude permissions | Working |
+
+
+### 31. Synthesizing с нашим existing landscape
+_Файл: `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | 5 колонок, 10 строк_
+
+| Person | Project(s) | License | Status | Layer in Stack |
+| --- | --- | --- | --- | --- |
+| Анастасия Бутова | mclaude + knowledge-space | MIT + MIT | Active | Layers 2 & 6 |
+| kagvi13 | HMP | unverified | Active | Federation (cross-cutting) |
+| Андрей Чуян | Svyazi | Closed | Active | Layer 1 |
+| VitalyOborin | Yodoca | Apache 2.0 | Active | Layer 4 |
+| kksudo | AgentFS | MIT | Active | Layer 3 |
+| spbmolot | NGT Memory | BSL 1.1 | Active | Layer 4 (alt) |
+| lee-to / Cutcode | AI Factory | MIT | Active | Layer 6 |
+| lib4u | Rufler | MIT | Active | Layer 6 (alt) |
+| moshael | Memory OS | concept | Concept | Layer 4 (theory) |
+| akazant | Self-Aware MCP | MIT | Active | Layer 7 |
+
+
+### 32. Что это за документ — диагностика
+_Файл: `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | 3 колонок, 5 строк_
+
+| Аспект | Первый survey | Этот документ |
+| --- | --- | --- |
+| Фокус | Components | Joints/contracts между components |
+| Уровень | Inventory | Architecture |
+| Вопрос | «Что есть?» | «Что между ними?» |
+| Output | Список и сравнение | Integration contracts |
+| Stage | Discovery | Specification |
+
+
+### 33. Что критически нового добавляет этот документ
+_Файл: `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | 3 колонок, 5 строк_
+
+| Итерация | Цель | Время |
+| --- | --- | --- |
+| 1: Evidence-first core | Suggestions → evidence | 1-2 weeks |
+| 2: Memory governance | Truth vs proposal | 1-2 weeks |
+| 3: Agented moderation | Roles: extractor/reviewer/publisher | 1-2 weeks |
+| 4: Local-first ingestion | Voice → episode → vault | 1-2 weeks |
+| 5: Self-improvement loop | Errors → benchmarks → patches | Continuous |
+
+
+### 34. Эталонная экосистема: svend4
+_Файл: `docs/obsidian/02-anthropic-vacancies/67-о-проекте.md` | 4 колонок, 3 строк_
+
+| Репо | Формат | Содержание | Угол зрения |
+| --- | --- | --- | --- |
+| [info1](https://github.com/svend4/info1) | `.info1` | 74 документа с α-уровнями | Методологический |
+| [pro2](https://github.com/svend4/pro2) | `.pro2` | Q6-граф концептов, 64 вершины | Семантический |
+| [meta](https://github.com/svend4/meta) | `.meta` | 256 CA-правил + 64 гексаграммы | Символьный |
+
+
+### 35. Reference Ecosystem: svend4
+_Файл: `docs/obsidian/02-anthropic-vacancies/68-about.md` | 4 колонок, 3 строк_
+
+| Repo | Format | Content | Perspective |
+| --- | --- | --- | --- |
+| [info1](https://github.com/svend4/info1) | `.info1` | 74 documents with α-levels | Methodological |
+| [pro2](https://github.com/svend4/pro2) | `.pro2` | Q6-graph, 64 vertices | Semantic |
+| [meta](https://github.com/svend4/meta) | `.meta` | 256 CA rules + 64 hexagrams | Symbolic |
+
+
+### 36. Практические рекомендации для вашего метода
+_Файл: `docs/obsidian/02-anthropic-vacancies/69-section.md` | 2 колонок, 0 строк_
+
+| LOC | 6782 |
+| Tests | 60 / 769 строк |
+
+
+### 37. Практические рекомендации для вашего метода
+_Файл: `docs/obsidian/02-anthropic-vacancies/69-section.md` | 2 колонок, 0 строк_
+
+| LOC | 6600 |
+| Tests | 60 / 415 строк |
+
+
+### 38. Метрики (сравнение двух независимых анализов)
+_Файл: `docs/obsidian/02-anthropic-vacancies/72-расписание-фазы-3.md` | 4 колонок, 5 строк_
+
+| Метрика | Вариант A ([tdywx@abc123](link)) | Вариант B ([CzylE@def456](link)) | Статус сверки |
+|---------|-----------|-----------|---------------|
+| Python LOC | 6782 | 6600 | ⚠️ расходится — требует верификации |
+| Tests | 60 | 60 | ✅ согласовано |
+| Test lines | 769 | 415 | ⚠️ расходится — требует верификации |
+| mypy errors | 0 | 0 | ✅ согласовано |
+| Паспортов | 7 | 7 | ✅ согласовано |
+
+
+### 39. Паспорт: /
+_Файл: `docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md` | 2 колонок, 5 строк_
+
+| Поле | Значение |
+|------|----------|
+| Репозиторий | / |
+| Формат | `.` — краткое описание |
+| Единица | что является одной записью |
+| Адаптер | `adapters/.py` |
+| Уровень совместимости | <0-3> —  |
+
+
+### 40. 8.3. Q6 Mapping Rules
+_Файл: `docs/obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md` | 2 колонок, 4 строк_
+
+| Format | Правило |
+|--------|---------|
+| `info1` | `alpha + 4` → 3 старших бита, остальные биты по категории |
+| `pro2` | нативные Q6-координаты (Q6 — первичный концепт pro2) |
+| `meta` | `hex_id - 1 → bin(6)` (гексаграмма 1 → `000000`, 64 → `111111`) |
+| `data7` | `порядковый номер % 64 → bin(6)` |
+
+
+### 41. 12.6. Path Selection Guidance
+_Файл: `docs/obsidian/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | 2 колонок, 5 строк_
+
+| Вариант | Когда использовать |
+|---------|-------------------|
+| **A** | Когда хорошо знаете структуру Repo и хотите high-quality |
+| **B** | Стартовая точка для большинства новых Repos |
+| **C** | Для Repos, которые автор хочет сам декларировать |
+| **D** | Для быстрой первой интеграции незнакомых Repos |
+| **E** | Для автоматической fleet-federation многих Repos |
+
+
+### 42. 13.1. Required Endpoints
+_Файл: `docs/obsidian/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md` | 3 колонок, 3 строк_
+
+| Метод | Путь | Описание |
+|-------|------|----------|
+| GET | `/api/query?q=<text>&ranked=<0\|1>` | Поиск концептов |
+| GET | `/api/describe` | Описание всех адаптеров |
+| GET | `/api/health` | Состояние экосистемы (score 0–100) |
+
+
+### 43. 13.1. Required Endpoints
+_Файл: `docs/obsidian/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md` | 3 колонок, 4 строк_
+
+| Метод | Путь | Описание |
+|-------|------|----------|
+| GET | `/api/links` | Валидация кросс-ссылок |
+| GET | `/api/neighbors?q6=<bits>&dist=<N>` | Q6-соседи |
+| GET | `/metrics` | Prometheus-метрики (text/plain) |
+| GET | `/` | Root endpoint со списком endpoints |
+
+
+### 44. 18.1. Current Reference Implementation Metrics
+_Файл: `docs/obsidian/02-anthropic-vacancies/93-18-reference-implementation.md` | 2 колонок, 7 строк_
+
+| Метрика | Значение |
+|---------|----------|
+| Python LOC | 6 782 |
+| Адаптеров | 13 (7 реестровых + 6 расширенных) |
+| Тестов | 60 / 60 passing |
+| mypy errors | 0 |
+| Внешних зависимостей | 0 (stdlib only) |
+| Health Score | 82 / 100 |
+| Q6 coverage (real) | 21.9% (14 / 64 vertices) |
+
+
+### 45. Паспорт: owner/my-notes
+_Файл: `docs/obsidian/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` | 2 колонок, 5 строк_
+
+| Поле | Значение |
+|------|----------|
+| Репозиторий | owner/my-notes |
+| Формат | `.md` — Markdown notes |
+| Единица | Markdown-документ |
+| Адаптер | `adapters/my_notes.py` |
+| Уровень совместимости | 1 — читаемый |
+
+
+### 46. 📊Сводная таблица синергии
+_Файл: `docs/obsidian/03-technology-combinations/05-benchmarks.md` | 4 колонок, 8 строк_
+
+| Комбинация | Кубики | Уникальный результат | Экономия/ROI |
+| --- | --- | --- | --- |
+| 1 | Агентская архитектура + Svyazi | Самообучающиеся промпты, multi-domain профилирование | 70% времени на модерацию |
+| 2 | Мультиагенты + Router | Иерархический роутинг, fault tolerance | 80% бюджета на LLM |
+| 3 | CRDT + Svyazi | P2P граф сообщества, offline-first discovery | Нулевые расходы на сервер |
+| 4 | LLM-парсинг + Graph-RAG + Агенты | Self-building knowledge graph | 95% точность vs 60% обычного RAG |
+| 5 | SourceCraft + Claude Code + Sequential | Distributed code review, team knowledge graph | 44% выше качества vs координатор |
+| 6 | OpenClaude + ZINC + MoME | Локальный агент с Q6-роутером | 100% privacy, $0/мес API |
+| 7 | Crawl4AI + Docling + Yodoca | Self-consolidating legal corpus | Автоматическая актуализация |
+| 8 | Conductor + adversarial + Router | Multi-model adversarial, enterprise review | 3× ускорение ревью |
+
+
+### 47. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/00-intro.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 48. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/01-executive-summary.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 49. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/02-методика-и-рамка-отбора.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 50. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 51. Карта найденных проектов и паттернов
+_Файл: `docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 8 колонок, 2 строк_
+
+| Проект или связка | Автор | Ссылка на статью и репо | Краткое описание | Ключевые компоненты и паттерны | Лицензия | Maturity / статус | Релевантность к Svyazi‑2.0 |
+|---|---|---|---|---|---|---|---|
+| **Svyazi** | Андрей Чуян | Хабр citeturn41search0 | Гибридная система извлечения структурированных профилей участников сообщества из свободного текста; уже показала кейс «карточек коллабораций». | 6 слоёв, YAML, SHA256‑дедупликация, Ollama+Qwen, LLM[^llm]+детерминированный код, CardIndex, privacy by design. | **Код закрыт**. citeturn41search0 | Активный закрытый авторский прототип. citeturn41search0 | **Очень высокая**: это базовый ingest/normalize/discovery‑слой. |
+| **knowledge-space** | Sonia_Black / AnastasiyaW | Хабр + GitHub citeturn33view0turn33view2turn37search1 | Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий. | Dense reference cards, gotchas, wiki‑links,
+
+
+### 52. Карта найденных проектов и паттернов
+_Файл: `docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 8 колонок, 1 строк_
+
+| **mclaude** | AnastasiyaW | Хабр + GitHub citeturn20view2turn37search0 | Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом. | Locks, handoffs, mailbox, multi‑session turn‑taking, shared project memory. | **MIT**. citeturn37search0 | Активный OSS. citeturn37search0 | **Высокая**: решает параллельную работу модераторов/агентов над общим графом. |
+| **AI Factory + AIF Handoff** | lee-to / Cutcode | Хабр + GitHub citeturn20view3turn29search0turn29search9 | Spec‑driven многоагентный development‑framework и автономный Kanban‑слой поверх него. | Skills, patches, self‑learning, worktrees, MCP[^mcp] handoff, plan/implement/review, WebSocket Kanban. | **MIT**. citeturn29search0turn29search9 | Активный OSS, релизы v2.x; handoff добавлен в свежих релизах. citeturn29search4 | **Высокая**: готовый оркестратор для build‑ и moderation‑контуров Svyazi‑2.0. |
+| **Rufler** | zodigancode / lib4u | Хабр + repo/DEV citeturn20view4turn21view8turn32search0 | Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов. |
+
+
+### 53. Карта найденных проектов и паттернов
+_Файл: `docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 8 колонок, 0 строк_
+
+| **research-docs + LiteParse** | nlaik / Jerry Liu / LlamaIndex | Хабр + GitHub citeturn20view5turn15search1turn15search5turn40search0 | Forensic document QA с HTML‑отчётом и bounding boxes на страницах PDF. | Локальный парсер, spatial text parsing, visual citations, multi‑format docs, HTML evidence report. | **Apache 2.0** для LiteParse; для samples — неуточнено в просмотренных источниках. citeturn40search0turn40search1 | Активный OSS. citeturn15search1turn15search5 | **Очень высокая**: даёт visual grounding, которого Svyazi‑подобным системам обычно не хватает. |
+| **Hybrid RAG[^rag] knowledge base** | iximy | Хабр citeturn34view2 | Минималистский Hybrid RAG без тяжёлых фреймворков. |
+
+
+### 54. Карта найденных проектов и паттернов
+_Файл: `docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 8 колонок, 1 строк_
+
+| **Legal RAG** | tagir_analyzes | Хабр citeturn20view6 | Подробный кейс page‑level Legal RAG с 17 итерациями и измерением пределов масштабирования. | Page‑level grounding, context distillation, систематический eval loop, error analysis. | Неуточнено. citeturn20view6 | Зрелый инженерный кейс, а не только концепт. citeturn20view6 | **Очень высокая**: лучший источник для evidence‑first и audit‑friendly retrieval. |
+| **Graph RAG** | VladSpace / vpakspace | Хабр + GitHub citeturn34view3turn40search2 | Графовый RAG с provenance‑trace и typed API, собранный из 5 исследовательских техник. | Skeleton Indexing, Phrase/Passage dual nodes, VectorCypher, Datalog reasoning, agentic routing. | Неуточнено. citeturn34view3turn40search2 | Активный публичный repo / production‑ready ambition. citeturn34view3turn40search2 | **Высокая**: добавляет multi‑hop retrieval и relation‑reasoning. |
+| **Yodoca** | VitalyOborin | Хабр + GitHub citeturn38view7turn21view0turn21view1turn18search1 | Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией. | Hot/slow path, private write‑path consolidator,
+
+
+### 55. Карта найденных проектов и паттернов
+_Файл: `docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 8 колонок, 1 строк_
+
+| **NGT Memory** | spbmolot / ngt-memory | Хабр + GitHub/site citeturn22view4turn22view3turn32search2 | Персистентная память для LLM‑приложений с ассоциативным графом и миллисекундным retrieval overhead. | Cosine similarity + Hebbian graph + hierarchical consolidation, REST API, Docker, 2–3 ms собственных затрат. | **BSL 1.1**; в статье прямо сказано «бесплатно для личных проектов». citeturn22view5 | Активная разработка. citeturn22view3turn32search2 | **Очень высокая**: быстрый ассоциативный memory‑слой для discovery и matching. |
+| **MemNet / memory-is-all-you-need** | Antipozitive | Хабр + GitHub citeturn21view4turn17search0turn18search2 | Исследовательская активная память для трансформеров. | Hebbian graph memory, STDP, spreading activation, “dreaming”, anti‑forgetting. | **MIT**. citeturn17search0turn18search2 | Экспериментальный research codebase. citeturn17search0 | **Средне‑высокая**: не MVP‑слой, но сильная идея для future memory engine. |
+| **agent-memory-mcp + Memory OS** | VitaliySemenov / moshael | Хабр + GitHub + Хабр citeturn20view16turn15search3turn39view3 | Typed memory MCP плюс более тяжёлая концепция Memory OS с онтологией, gardener‑loop и bi‑temporal facts. | SQLite+WAL, typed memories, repo/doc search, path guard; ontology, concept loop, maintenance contour, planner/scout/synthesizer. | Для
+
+
+### 56. Карта найденных проектов и паттернов
+_Файл: `docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 8 колонок, 3 строк_
+
+| **Self‑Aware MCP + Skills + CodeWiki** | akazant / akzhankalimatov / AnastasiyaW | Хабр + repo/marketplace + Хабр/репо citeturn20view12turn30search1turn20view15turn12search2turn37search7 | Контекст реального мира для агента плюс reusable skills и авто‑документация кодовой базы. | location/time/OS tools, skill files in repo, hooks, subagents, code wiki generation. | Self‑Aware MCP — **MIT** по карточке MCP Marketplace; config‑kit — **MIT**; CodeWiki — неуточнено. citeturn30search1turn37search7turn12search2 | Активный стек инструментов. citeturn20view12turn37search7turn12search2 | **Высокая**: делает агентный слой контекстным, переносимым и предсказуемым. |
+| **Voice/local-first stack** | atatchin / askid / обзоры Handy/OpenWhispr | Хабр citeturn21view10turn21view11turn21view12turn35search0 | Локальный speech→text→LLM transform и более широкий local‑first knowledge workspace с recording/transcription. | Whisper локально, Ollama post‑processing, Handy/OpenWhispr/GigaAM, live transcription, diarization, semantic links, SQLite. | Смешанная картина; для Yttri лицензия в просмотренных источниках не уточнена. citeturn35search0turn21view11 | От usable scripts до beta‑продукта. citeturn21view10turn35search0 | **Средне‑высокая**: лучший входной канал для “raw episodes” в память. |
+| **Yjs + Automerge** | Kevin Jahns / Automerge team | Документация и репо citeturn11search0turn11search7turn11search13turn11search1turn11search11turn11search23 | Базовый local‑first/CRDT[^crdt] sync‑слой для оффлайн‑совместимости и мультидевайсной синхронизации. | Shared types, automatic merge without conflicts, offline sync, local‑first data engine. | **MIT**. citeturn11search13turn11search23 | Активный OSS. citeturn11search13turn11search11 | **Средняя**, но стратегически важная: синхронизация между устройствами и узлами. |
+| **Security + routing plane** | Dmitriila / BerriAI / MiXaiLL76 / Maslennikovig | Хабр + GitHub/docs citeturn20view10turn11search2turn19search5turn39view0turn39view1turn20view18 | Рантайм‑безопасность и бюджетный execution plane для агентных систем. | SENTINEL[^sentinel] micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading; budget/privacy presets in RLM‑Toolkit. | Смешанная: SENTINEL — неуточнено; LiteLLM — MIT вне enterprise‑директорий; Auto AI Router — Apache 2.0. citeturn20view10turn19search5turn28search3 | Активный operational stack. citeturn20view10turn11search2turn39view0turn39view1 | **Очень высокая**: без этого Svyazi‑2.0 будет либо дорогой, либо небезопасной. |
+| **AutoResearch + Sequential** | Андрей Карпаты / Виктория Дочкина | Хабр + GitHub/обзор citeturn20view19turn20view11 | Ночной цикл самоулучшения и протокол reviewer‑цепочки без централизованного координатора. | Edit‑run‑measure‑rollback loop, bounded experiments, sequential protocol, strong-model self‑organization. | Для AutoResearch — по статье на GitHub; лицензия в Habr‑обзоре не уточнялась. Для Sequential — исследовательская статья без OSS‑лицензии. citeturn20view19turn20view11 | Active research / practical harness. citeturn20view19turn20view11 | **Высокая**: это кандидат на self‑improvement и multi‑review для Svyazi‑2.0. |
+
+
+### 57. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/04-приоритетные-ансамбли.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 58. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 59. План прототипа и возможные контакты
+_Файл: `docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 4 колонок, 5 строк_
+
+| Контур | Что входит | Зачем | Оценка усилий |
+|---|---|---|---|
+| Ядро данных | CardIndex‑схема, профили, raw/inferred разделение, файловый vault в стиле AgentFS | Сделать единый source of truth и трассируемый lifecycle карточки | 2–3 дня |
+| Ingest и память | LLM[^llm] extraction + нормализация + NGT Memory **или** Yodoca‑lite | Доказать, что из свободного текста получаются устойчивые профили и связи | 4–6 дней |
+| Evidence | LiteParse/research-docs + page‑level viewer | Не просто показать match, а показать основание | 3–4 дня |
+| Исполнение | LiteLLM/Auto AI Router + Tool Search + базовые правила безопасности | Удержать стоимость и не утонуть в MCP[^mcp]/context overhead | 2–3 дня |
+| Guardrails | PII[^pii]‑фильтры, allowlists, manual review для inferred | Снизить риск ложных связей и утечек | 1–2 дня |
+
+
+### 60. План прототипа и возможные контакты
+_Файл: `docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 3 колонок, 2 строк_
+
+| Риск | Почему это важно | Снижение риска |
+|---|---|---|
+| Schema drift и самовольная “оптимизация” структуры моделью | На extraction‑этапе сильная модель может начать “улучшать” схему вместо исполнения | Держать extraction на constrained schema + низком reasoning, а смысл переносить в post‑processing; это совпадает и с логикой Svyazi, и с выводами Memory OS. citeturn41search0turn39view3 |
+| Ложные ассоциации в памяти | Ассоциативная память полезна, но легко порождает шум | Вводить review queue для
+
+
+### 61. План прототипа и возможные контакты
+_Файл: `docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 3 колонок, 1 строк_
+
+| Утечка PII в карточки и prompts | Discovery‑система почти неизбежно работает с чувствительными профилями | Повторить Svyazi‑паттерн privacy‑by‑design, хранить контакты отдельно, использовать allowlist/path guard, локальные embeddings там, где можно. citeturn41search0turn20view16turn35search0 |
+| Лицензионный тупик на memory‑слое | Не все “open” memory‑решения одинаково permissive | Если нужен строго permissive/commercial‑friendly стек, NGT Memory надо проверять отдельно, потому что в статье указана BSL[^bsl] 1.1 и free‑for‑personal grant; на таком пути проще начать с Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |
+| Многоагентный хаос раньше пользы | Рой даёт выгоду только после появления handoff/lock и чётких спецификаций | Начинать с mclaude + AI Factory/AIF Handoff, а Rufler/Sequential/AutoResearch добавлять после того, как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |
+
+
+### 62. План прототипа и возможные контакты
+_Файл: `docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 4 колонок, 3 строк_
+
+| Кому писать | Почему именно он или она | Публичный вектор из просмотренных источников | Контакт в источниках |
+|---|---|---|---|
+| **andrey_chuyan** | Единственный из найденных авторов, у кого уже есть рабочий кейс “карточки коллаборации” и CardIndex‑мышление. citeturn41search0 | Комментарии к статье Svyazi на Хабре. citeturn41search0 | Публичный email/Telegram в просмотренных источниках **не найден**. |
+| **Sonia_Black / AnastasiyaW** | Закрывает сразу два слоя: knowledge-space и multi-session coordination через mclaude. citeturn33view3turn20view2turn37search0 | Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude. citeturn33view0turn37search0 | Публичный прямой контакт **не найден**. |
+| **kksudo** | Наиболее важный кандидат для слоя
+
+
+### 63. План прототипа и возможные контакты
+_Файл: `docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 4 колонок, 0 строк_
+
+| **VitalyOborin** | Сильнейший кандидат на consolidator/forgetting‑слой. citeturn21view0turn21view1turn18search1 | Комментарии к статье Yodoca и GitHub issues/discussions в repo. citeturn38view7turn18search1 | Публичный прямой контакт **не найден**. |
+| **spbmolot** | Нужен для ассоциативной памяти и очень дешёвого memory retrieval с graph‑подтягиванием слабых связей. citeturn22view4turn22view5 | Комментарии к статье NGT Memory и GitHub repository. citeturn22view5turn32search2 | Публичный прямой контакт **не найден**. |
+
+
+### 64. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 65. Безопасность, приватность и бюджетный роутинг
+_Файл: `docs/obsidian/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` | 3 колонок, 3 строк_
+
+| Контроль | Практический дефолт | Основание |
+|---|---|---|
+| Разделение tool‑классов | По умолчанию разрешать read‑only tools; любые send/write/delete/execute — только через явный approval | Автономный агент отличается от чатбота именно доступом к реальным действиям; это и создаёт катастрофы. citeturn34view5 |
+| Quarantine для external skills/MCP | Любой внешний skill/MCP сначала в sandbox, потом статический/репутационный скан, потом allowlist | AI Factory прямо предупреждает о prompt injection в SKILL.md и запускает двухуровневый security scan. citeturn29search6 |
+| Path allowlist | Жёстко ограничить, что агент вообще может читать и писать на диске |
+
+
+### 66. Безопасность, приватность и бюджетный роутинг
+_Файл: `docs/obsidian/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` | 3 колонок, 0 строк_
+
+| PII[^pii] separation | Любые контакты, email, Telegram, ссылки — в отдельном raw‑слое; в карточки уходит только очищенный профиль | Так делает Svyazi; это правильный privacy‑baseline для людей и сообществ. citeturn41search0 |
+| Truth vs Proposal |
+
+
+### 67. Безопасность, приватность и бюджетный роутинг
+_Файл: `docs/obsidian/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` | 3 колонок, 6 строк_
+
+| Этап | Дефолт | Когда эскалировать |
+|---|---|---|
+| Extraction из свободного текста | Локальная или дешёвая модель + строгая schema guidance | Только если extraction‑quality стабильно проваливает ваши acceptance tests |
+| Нормализация | Детерминированный код | Практически никогда не переводить это на дорогую модель |
+| Retrieval / rerank | Non‑LLM[^llm] hybrid retrieval или локальный reranker | При multi-hop вопросах и слабой explainability |
+| Объяснение матча / summary | Средний облачный tier | Если нужен высокий stylistic quality, а не только фактология |
+| Финальный внешний отчёт | Сильная модель | Только для user-facing/public/legal‑style текста |
+| Ночной ресёрч / оптимизация | AutoResearch‑подход с жёстким бюджетом и rollback | Когда уже есть benchmark и понятная функция качества |
+
+
+### 68. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/07-выводы.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 69. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/08-что-это-продолжение-добавляет.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 70. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 71. Архитектурные зазоры, которые важнее новых инструментов
+_Файл: `docs/obsidian/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` | 5 колонок, 5 строк_
+
+| Архитектурный зазор | Уже сильные кандидаты | Что в них уже хорошо закрыто | Что пока остаётся незакрытым | Что брать в MVP |
+|---|---|---|---|---|
+| Карточка как единица правды | Svyazi, AgentFS | CardIndex, hash/dedup, versionable vault, persistent state | Универсальная типизация для person/project/doc/episode/hypothesis | Card schema + raw/inferred split + immutable IDs citeturn41search0turn27view0turn33view4 |
+| Доказуемое основание вывода | research-docs/LiteParse, Legal RAG, Hybrid RAG | Bounding boxes, page-level grounding, coordinates, transparent retrieval | Единый формат “evidence pack” между retrieval и интерфейсом | Page-level viewer + source_id/page/span/box schema citeturn20view5turn20view6turn34view2 |
+| Память с контролируемым статусом | NGT Memory, Yodoca, agent-memory-mcp, Memory OS | Associative retrieval, consolidation, forgetting, typed memory, guard rails | Чёткая граница truth/proposal/conflict/decayed | Pending queue + confidence/state machine на наполнение графа citeturn22view4turn21view0turn20view16turn39view3 |
+| Оркестрация и review | mclaude, AI Factory, Rufler, Sequential | Locks, mailbox, patch learning, YAML swarm, sequential review | Стандарт handoff для non-code workflow и knowledge moderation | 2–3 роли: extractor → reviewer → publisher citeturn20view2turn20view3turn20view4turn20view11 |
+| Безопасный execution plane | LiteLLM, Auto AI Router, Tool Search, SENTINEL | Unified API, lightweight routing, lazy tool loading, runtime guard | Общая policy matrix на tool classes и external skills | Read-only by default + write approval + path allowlist citeturn11search2turn39view0turn39view1turn20view10turn20view16 |
+
+
+### 72. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 73. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 74. Интеграционный контракт, который стоит зафиксировать сразу
+_Файл: `docs/obsidian/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | 4 колонок, 1 строк_
+
+| Контракт | Минимальные поля | Зачем нужен в MVP | На какие идеи опирается |
+|---|---|---|---|
+| Card Envelope |
+
+
+### 75. Интеграционный контракт, который стоит зафиксировать сразу
+_Файл: `docs/obsidian/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | 2 колонок, 0 строк_
+
+| Единый source of truth и dedup/version trace | Svyazi, AgentFS, Memory OS citeturn41search0turn27view0turn39view3 |
+| Evidence Envelope |
+
+
+### 76. Интеграционный контракт, который стоит зафиксировать сразу
+_Файл: `docs/obsidian/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | 2 колонок, 0 строк_
+
+| Проверяемость выводов и ручной review | LiteParse, Legal RAG, Hybrid/Graph RAG citeturn20view5turn20view6turn34view2turn34view3 |
+| Memory Write Policy |
+
+
+### 77. Интеграционный контракт, который стоит зафиксировать сразу
+_Файл: `docs/obsidian/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | 2 колонок, 0 строк_
+
+| Развести факт, эпизод и гипотезу | Yodoca, NGT Memory, agent-memory-mcp citeturn21view0turn22view4turn20view16 |
+| Skill Policy |
+
+
+### 78. Интеграционный контракт, который стоит зафиксировать сразу
+_Файл: `docs/obsidian/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | 2 колонок, 0 строк_
+
+| Снизить blast radius и упростить audit | Tool Search, SENTINEL, AI Factory practices citeturn39view1turn20view10turn29search6 |
+| Review Record |
+
+
+### 79. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 80. Дорожная карта прототипа следующей итерации
+_Файл: `docs/obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` | 5 колонок, 5 строк_
+
+| Итерация | Главная цель | Минимум, который должен заработать | Оценка усилий | Главный риск |
+|---|---|---|---|---|
+| Evidence-first core | Из любого suggestions можно перейти к основанию | Unified cards + page/span evidence + manual reviewer UI | 1–2 недели | Переусложнение схемы слишком рано |
+| Memory governance | Ассоциации перестают путаться с фактами | Episode store + proposal queue + approval/decay states | 1–2 недели | Ложная уверенность в “умной памяти” без жёсткого review |
+| Agented moderation | Рой помогает, а не создаёт шум | extractor/reviewer/publisher roles + handoff/journal | 1–2 недели | Многоагентный хаос без хороших критериев качества |
+| Local-first ingestion | Система начинает жить в ежедневном потоке | voice→episode, local vault, selective sync | 1–2 недели | Sync-конфликты и таскание лишних данных наружу |
+| Self-improvement loop | Ошибки превращаются в benchmark и patch | benchmark set + nightly eval + rollback policy | 1 неделя на каркас, дальше непрерывно | Большой соблазн автоматизировать раньше, чем появилась метрика |
+
+
+### 81. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 82. Контактная стратегия и узкие вопросы для авторов
+_Файл: `docs/obsidian/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` | 3 колонок, 1 строк_
+
+| Кому | Лучший первый вопрос | Почему именно он |
+|---|---|---|
+| entity["people","Андрей Чуян","habr author"] | Стоит ли расширять CardIndex до
+
+
+### 83. Контактная стратегия и узкие вопросы для авторов
+_Файл: `docs/obsidian/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` | 3 колонок, 1 строк_
+
+| entity["people","Виталий Оборин","software engineer"] | Что сильнее всего влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? | Это позволяет использовать Yodoca как policy reference, а не как “ещё один ассистент”. citeturn21view0turn21view1 |
+| **spbmolot** | Где проходит практическая граница между полезной ассоциацией и ложной ко‑активацией тем? | Это самый важный вопрос для community matching. citeturn22view4turn22view5 |
+| **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Это шов между памятью, знаниями и orchestration. citeturn33view2turn20view2 |
+
+
+### 84. Статус
+_Файл: `docs/obsidian/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 85. Статус
+_Файл: `docs/obsidian/05-habr-projects/01-synthesis.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 86. Статус
+_Файл: `docs/obsidian/05-habr-projects/02-collaboration-partners.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 87. Статус
+_Файл: `docs/obsidian/05-habr-projects/knowledge/wikontic.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | 90 |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+
+### 88. Статус
+_Файл: `docs/obsidian/05-habr-projects/memory/memnet.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | 90 |
+| Слой | memory |
+| Контакт | [[antipozitive|@Antipozitive]] |
+| Статус связи | не писали |
+
+
+### 89. Статус
+_Файл: `docs/obsidian/05-habr-projects/memory/ngt-memory.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | 260 |
+| Слой | memory |
+| Контакт | [[spbmolot|@spbmolot]] |
+| Статус связи | не писали |
+
+
+### 90. Статус
+_Файл: `docs/obsidian/05-habr-projects/memory/yodoca.md` | 2 колонок, 5 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | 229 |
+| Слой | memory |
+| Контакт | [[vitalyoborin|@VitalyOborin]] |
+| Статус связи | не писали |
+
+
+### 91. Словарь аббревиатур и сокращений
+_Файл: `docs/obsidian/ABBREVIATIONS.md` | 3 колонок, 85 строк_
 
 | Аббревиатура | Расшифровка | Упоминаний |
 |-------------|-------------|------------|
@@ -8056,61 +8795,49 @@ _Файл: `docs/BACKLINKS.md` | 3 колонок, 9 строк_
 | **templates** | 5 | 5 |
 
 
-### 7. Сломанные внутренние ссылки
-_Файл: `docs/BROKEN_LINKS.md` | 4 колонок, 50 строк_
+### 7. Содержание
+_Файл: `docs/BROKEN_LINKS.md` | 4 колонок, 38 строк_
 
 | Файл | Текст ссылки | Цель | Проблема |
 |------|--------------|------|----------|
-| `docs/01-svyazi/01-executive-summary.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/01-executive-summary.md` | 08-что-это-продолжение-добавля | `docs/04-ai-collaborations/08-что-это-про` | файл не существует |
-| `docs/01-svyazi/01-executive-summary.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 02-методика-и-рамка-отбора | `docs/04-ai-collaborations/02-методика-и-` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | README | `docs/04-ai-collaborations/README.md` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 02-методика-и-рамка-отбора | `docs/04-ai-collaborations/02-методика-и-` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | DUPLICATES | `docs/DUPLICATES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TABLES | `docs/TABLES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TABLES | `docs/TABLES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-ensembles-overview | `docs/01-svyazi/04-ensembles-overview.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-component-catalog | `docs/01-svyazi/03-component-catalog.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-component-catalog | `docs/01-svyazi/03-component-catalog.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 06-безопасность-приватность-и- | `docs/04-ai-collaborations/06-безопасност` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 07-mvp-planning | `docs/01-svyazi/07-mvp-planning.md` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 06-безопасность-приватность-и- | `docs/04-ai-collaborations/06-безопасност` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 07-mvp-planning | `docs/01-svyazi/07-mvp-planning.md` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-архитектурные-зазоры-которы | `docs/04-ai-collaborations/09-архитектурн` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-architectural-gaps | `docs/01-svyazi/09-architectural-gaps.md` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-architectural-gaps | `docs/01-svyazi/09-architectural-gaps.md` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 11-integration-contracts | `docs/01-svyazi/11-integration-contracts.` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 12-roadmap | `docs/01-svyazi/12-roadmap.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 01-executive-summary | `docs/01-svyazi/01-executive-summary.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 08-что-это-продолжение-добавля | `docs/04-ai-collaborations/08-что-это-про` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | MISSING | `docs/MISSING.md` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 09-архитектурные-зазоры-которы | `docs/04-ai-collaborations/09-архитектурн` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | QA | `docs/QA.md` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 11-интеграционный-контракт-кот | `docs/04-ai-collaborations/11-интеграцион` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 11-integration-contracts | `docs/01-svyazi/11-integration-contracts.` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 06-security-privacy | `docs/01-svyazi/06-security-privacy.md` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 07-mvp-planning | `docs/01-svyazi/07-mvp-planning.md` | файл не существует |
-| `docs/01-svyazi/10-second-order-ensembles.md` | 10-новые-ансамбли-следующего-ш | `docs/04-ai-collaborations/10-новые-ансам` | файл не существует |
+| `docs/02-anthropic-vacancies/104-appendix-c-references.md` | Nautilus Portal Protocol v1.1 | `./docs/PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
+| `docs/02-anthropic-vacancies/122-глоссарий.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
+| `docs/02-anthropic-vacancies/130-отладка.md` | Tool-call падает с "adapterfai | `#tool-call-падает-с-adapterfailed` | якорь не найден |
+| `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | 6.4. translateto(entry, target | `#64-translatetoentry-targetrepo-required` | якорь не найден |
+| `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` | NPP v1.0 | `../PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` | NPP v1.0 | `../PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | NPP v1.0 | `../PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | `passports/` | `./passports/` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | PORTAL-PROTOCOL.md §6 | `./PORTAL-PROTOCOL.md#6-adapter-interface` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | PORTAL-PROTOCOL.md §5 | `./PORTAL-PROTOCOL.md#5-compatibility-lev` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | PORTAL-PROTOCOL.md | `./PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | passports/ | `./passports/` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | info1 | `./passports/info1.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | pro2 | `./passports/pro2.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | meta | `./passports/meta.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | MIT | `./LICENSE` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | `passports/` | `./passports/` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | PORTAL-PROTOCOL.md §6 | `./PORTAL-PROTOCOL.md#6-adapter-interface` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | PORTAL-PROTOCOL.md §5 | `./PORTAL-PROTOCOL.md#5-compatibility-lev` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | PORTAL-PROTOCOL.md | `./PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | passports/ | `./passports/` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | info1 | `./passports/info1.md` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | pro2 | `./passports/pro2.md` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | meta | `./passports/meta.md` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | MIT | `./LICENSE` | файл не существует |
+| `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` | tdywx@abc123 | `link` | файл не существует |
+| `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` | CzylE@def456 | `link` | файл не существует |
+| `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | 12.2. Path B — generatepasspor | `#122-path-b-generatepassportpy-wizard` | якорь не найден |
+| `docs/CODE_BLOCKS.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
+| `docs/CODE_BLOCKS.md` | docs | `docs/badges/docs.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | words | `docs/badges/words.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | scripts | `docs/badges/scripts.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | health | `docs/badges/health.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | go/no-go | `docs/badges/scoring.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | license | `docs/badges/license.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | branch | `docs/badges/branch.svg` | файл не существует |
+| `docs/DECISIONS.md` | Контакт: AnastasiyaW / knowled | `contacts/ana  
 
 
 ### 8. Статистика коммитов
@@ -8125,7 +8852,7 @@ _Файл: `docs/CHANGELOG_AUTO.md` | 3 колонок, 5 строк_
 | `other` | 📌 Прочее | 16 |
 
 
-### 9. Топ доменов
+### 12. Топ доменов
 _Файл: `docs/CITATION_INDEX.md` | 3 колонок, 20 строк_
 
 | Домен | URL | Авторитетность |
@@ -8152,7 +8879,7 @@ _Файл: `docs/CITATION_INDEX.md` | 3 колонок, 20 строк_
 | `olegtalks.ru` | 1 | ⭐ |
 
 
-### 10. Наиболее цитируемые URL
+### 13. Наиболее цитируемые URL
 _Файл: `docs/CITATION_INDEX.md` | 4 колонок, 50 строк_
 
 | URL | Файлов | Авторитетность | Домен |
@@ -8209,7 +8936,7 @@ _Файл: `docs/CITATION_INDEX.md` | 4 колонок, 50 строк_
 | `https://habr.com/ru/articles/1012894/` | 4 | ⭐⭐⭐⭐ | `habr.com` |
 
 
-### 11. Содержание
+### 14. Содержание
 _Файл: `docs/CODE_BLOCKS.md` | 2 колонок, 7 строк_
 
 | Язык | Блоков |
@@ -8223,7 +8950,7 @@ _Файл: `docs/CODE_BLOCKS.md` | 2 колонок, 7 строк_
 | 📋 YAML | 10 |
 
 
-### 12. Паспорт: /
+### 15. Паспорт: /
 _Файл: `docs/CODE_BLOCKS.md` | 2 колонок, 5 строк_
 
 | Поле | Значение |
@@ -9500,7 +10227,7 @@ _Файл: `docs/HEALTH.md` | 2 колонок, 19 строк_
 | root | 99 |
 | svyazi-2-0 | 59 |
 | technology-combinations | 53 |
-| templates | 6 |
+| templates | 24 |
 
 
 ### 62. Числовые значения (‰)
@@ -9991,6 +10718,7 @@ _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 | **3.2** | viewer 1 (GPT-5.4): проверяет логику - Reviewer 2 (DeepSeek-V3.2): проверяет --- | `02-knowledge-graphs` |
 | **0.1** | st per card, trace completeness. MVP boundary: что входит в v0.1, что запрещено  | `14-ограничения-лицензии-и` |
 | **0.2** | leteness. MVP boundary: что входит в v0.1, что запрещено до v0.2. Pilot scenario | `14-ограничения-лицензии-и` |
+| **5.0.6** | zed cognitive mesh для AI-агентов, активно разрабатываемый, версия 5.0.6 от март | `DUPLICATES` |
 | **0.11.0** | лицензия. К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё | `TABLES` |
 | **5.0.6** | 2026` \\| азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Док | `TABLES` |
 | **0.10.0** | нтегрируется с любым MCP сервером 118 встроенных навыков в v0.10.0 Open standard | `TABLES` |
@@ -10024,6 +10752,13 @@ _Файл: `docs/KPI.md` | 3 колонок, 6 строк_
 | **4** | кристалла», получить osmыслený ответ с указанием репо. #### Фаза 4 — Web interfa | `02-общий-план-развития-na` |
 | **5** | y через браузер, получить отформатированный результат. #### Фаза 5 — Публикация  | `02-общий-план-развития-na` |
 | **0** | ёртывания](#9-стратегия-поэтапного-развёртывания) - [9.1. Фаза 0 — Основание (Ме | `199-9-стратегия-поэтапног` |
+| **24** | митов) ### 🔧 Обслуживание - regenerate auto-exports after Sprint 24-26 _6421a1fc | `CHANGELOG` |
+| **21** | ter Sprint 24-26 _6421a1fc_ - regenerate auto-exports after Sprint 21-23 _6ac597 | `CHANGELOG` |
+| **18** | ter Sprint 21-23 _6ac59707_ - regenerate auto-exports after Sprint 18-20 _f05312 | `CHANGELOG` |
+| **15** | 3125f_ - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737 | `CHANGELOG` |
+| **12** | t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e | `CHANGELOG` |
+| **9** | web dashboard _1bf14810_ > Sprint 12 — bot-aware system - Sprint 9-11 — skills M | `CHANGELOG` |
+| **6** | ins, CI/CD _22c4cf8d_ > Sprint 9 — agentic skills layer - Sprint 6-8 — миграции, | `CHANGELOG` |
 
 
 ### 83. Текущие метрики
@@ -17711,6 +18446,8 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **источник** | 461 | `█████░░░░░░░░░░` |
 | **вакансии** | 459 | `█████░░░░░░░░░░` |
 
+### 1. Скилы агента
+_Файл: `docs/templates/agent-spec.md` | 3 колонок, 2 строк_
 
 ### 190. 01-svyazi (9,698 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
@@ -17733,6 +18470,8 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **mcp** | 1061 | `███░░░░░░░░░░░░` |
 | **мин** | 1002 | `██░░░░░░░░░░░░░` |
 
+### 2. Tools (плагины)
+_Файл: `docs/templates/agent-spec.md` | 3 колонок, 2 строк_
 
 ### 191. 01-svyazi (9,698 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
@@ -17777,6 +18516,8 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **deep** | 73 | `██░░░░░░░░░░░░░` |
 | **knowledge** | 68 | `██░░░░░░░░░░░░░` |
 
+### 3. Память
+_Файл: `docs/templates/agent-spec.md` | 4 колонок, 4 строк_
 
 ### 193. 01-svyazi (9,698 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
@@ -17799,6 +18540,8 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **mhtml** | 97 | `██░░░░░░░░░░░░░` |
 | **комбинирование** | 96 | `██░░░░░░░░░░░░░` |
 
+### 4. Decision boundary
+_Файл: `docs/templates/agent-spec.md` | 4 колонок, 5 строк_
 
 ### 194. 01-svyazi (9,698 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
@@ -17821,342 +18564,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **имя** | 4 | `██████░░░░░░░░░` |
 | **ссылка** | 4 | `██████░░░░░░░░░` |
 
-
-## svyazi-2-0 (12 таблиц)
-
-
-### 1. Подпапки
-_Файл: `docs/svyazi-2-0/README.md` | 2 колонок, 8 строк_
-
-| Подпапка | Тема |
-|---|---|
-| [`overview/`](overview/) | Executive summary, методика, общая карта |
-| [`components/`](components/) | Описание каждого найденного проекта-кирпичика |
-| [`ensembles/`](ensembles/) | Ансамбли A–E и три ансамбля «второго порядка» |
-| [`architecture/`](architecture/) | Архитектурные зазоры и пять интеграционных контрактов |
-| [`prototype/`](prototype/) | MVP, риски, дорожная карта итераций |
-| [`security/`](security/) | Default policy, приватность, бюджетный роутинг |
-| [`outreach/`](outreach/) | Кому писать, шаблоны сообщений, узкие вопросы |
-| [`limitations/`](limitations/) | Лицензии, что не стоит склеивать, выводы |
-
-
-### 2. Сводная таблица зазоров
-_Файл: `docs/svyazi-2-0/architecture/gaps.md` | 5 колонок, 5 строк_
-
-| Архитектурный зазор | Уже сильные кандидаты | Что в них уже хорошо закрыто | Что пока остаётся незакрытым | Что брать в MVP |
-|---|---|---|---|---|
-| Карточка как единица правды | Svyazi, AgentFS | CardIndex, hash/dedup, versionable vault, persistent state | Универсальная типизация для person/project/doc/episode/hypothesis | Card schema + raw/inferred split + immutable IDs citeturn41search0turn27view0turn33view4 |
-| Доказуемое основание вывода | research-docs/LiteParse, Legal RAG, Hybrid RAG | Bounding boxes, page-level grounding, coordinates, transparent retrieval | Единый формат «evidence pack» между retrieval и интерфейсом | Page-level viewer + source_id/page/span/box schema citeturn20view5turn20view6turn34view2 |
-| Память с контролируемым статусом | NGT Memory, Yodoca, agent-memory-mcp, Memory OS | Associative retrieval, consolidation, forgetting, typed memory, guard rails | Чёткая граница truth/proposal/conflict/decayed | Pending queue + confidence/state machine на наполнение графа citeturn22view4turn21view0turn20view16turn39view3 |
-| Оркестрация и review | mclaude, AI Factory, Rufler, Sequential | Locks, mailbox, patch learning, YAML swarm, sequential review | Стандарт handoff для non-code workflow и knowledge moderation | 2–3 роли: extractor → reviewer → publisher citeturn20view2turn20view3turn20view4turn20view11 |
-| Безопасный execution plane | LiteLLM, Auto AI Router, Tool Search, SENTINEL | Unified API, lightweight routing, lazy tool loading, runtime guard | Общая policy matrix на tool classes и external skills | Read-only by default + write approval + path allowlist citeturn11search2turn39view0turn39view1turn20view10turn20view16 |
-
-
-### 3. Интеграционная спецификация (минимум для MVP)
-_Файл: `docs/svyazi-2-0/architecture/integration-spec.md` | 4 колонок, 5 строк_
-
-| Контракт | Минимальные поля | Зачем нужен в MVP | На какие идеи опирается |
-|---|---|---|---|
-| Card Envelope | `card_id`, `card_type`, `state`, `sources`, `edges`, `updated_at`, `payload_hash` | Единый source of truth и dedup/version trace | Svyazi, AgentFS, Memory OS citeturn41search0turn27view0turn39view3 |
-| Evidence Envelope | `source_id`, `page_or_span`, `bbox_or_offset`, `method`, `confidence`, `supporting_nodes` | Проверяемость выводов и ручной review | LiteParse, Legal RAG, Hybrid/Graph RAG citeturn20view5turn20view6turn34view2turn34view3 |
-| Memory Write Policy | `write_type`, `promotion_rule`, `review_required`, `decay_policy` | Развести факт, эпизод и гипотезу | Yodoca, NGT Memory, agent-memory-mcp citeturn21view0turn22view4turn20view16 |
-| Skill Policy | `tool_class`, `approval_mode`, `path_scope`, `network_scope`, `output_target` | Снизить blast radius и упростить audit | Tool Search, SENTINEL, AI Factory practices citeturn39view1turn20view10turn29search6 |
-| Review Record | `reviewer_role`, `decision`, `reason`, `evidence_refs`, `follow_up` | Не путать machine suggestion с accepted truth | mclaude, AI Factory, Sequential citeturn20view2turn20view3turn20view11 |
-
-
-### 4. Развилки в коротком виде
-_Файл: `docs/svyazi-2-0/limitations/license-tree.md` | 4 колонок, 7 строк_
-
-| Слой | Permissive путь | BSL/закрытый путь | Замечание |
-|---|---|---|---|
-| Базовый ingest/CardIndex | свой пересборкой по описанию Svyazi | использовать только как референс архитектуры | код Svyazi в просмотренных источниках закрыт. |
-| Долговременная память | Yodoca (Apache 2.0), agent-memory-mcp (TBD), MemNet (MIT) | NGT Memory (BSL 1.1, free for personal) | для коммерческого продукта проверять отдельно. |
-| Knowledge layer | knowledge-space (MIT) | — | спокойно. |
-| Файловое ядро | AgentFS (MIT) | — | спокойно. |
-| Forensic RAG | LiteParse (Apache 2.0) | Hybrid RAG / Legal RAG / Graph RAG (TBD) | в основном статьи без явно заявленной OSS‑лицензии. |
-| Routing/security | LiteLLM (MIT, кроме enterprise dirs), Auto AI Router (Apache 2.0) | SENTINEL (TBD) | смешанная картина. |
-| Self-improvement | AutoResearch (TBD) | Sequential (research, без OSS) | использовать как pattern, не как dependency. |
-
-
-### 5. Первые контакты
-_Файл: `docs/svyazi-2-0/outreach/first-contacts.md` | 4 колонок, 5 строк_
-
-| Кому писать | Почему именно он или она | Публичный вектор из просмотренных источников | Контакт в источниках |
-|---|---|---|---|
-| **andrey_chuyan** | Единственный из найденных авторов, у кого уже есть рабочий кейс «карточки коллаборации» и CardIndex‑мышление. citeturn41search0 | Комментарии к статье Svyazi на Хабре. citeturn41search0 | Публичный email/Telegram в просмотренных источниках **не найден**. |
-| **Sonia_Black / AnastasiyaW** | Закрывает сразу два слоя: knowledge-space и multi-session coordination через mclaude. citeturn33view3turn20view2turn37search0 | Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude. citeturn33view0turn37search0 | Публичный прямой контакт **не найден**. |
-| **kksudo** | Наиболее важный кандидат для слоя `.agentos/` и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и GitHub issues в AgentFS. citeturn33view7turn27view0 | Публичный прямой контакт **не найден**. |
-| **VitalyOborin** | Сильнейший кандидат на consolidator/forgetting‑слой. citeturn21view0turn21view1turn18search1 | Комментарии к статье Yodoca и GitHub issues/discussions в repo. citeturn38view7turn18search1 | Публичный прямой контакт **не найден**. |
-| **spbmolot** | Нужен для ассоциативной памяти и очень дешёвого memory retrieval с graph‑подтягиванием слабых связей. citeturn22view4turn22view5 | Комментарии к статье NGT Memory и GitHub repository. citeturn22view5turn32search2 | Публичный прямой контакт **не найден**. |
-
-
-### 6. Адресные вопросы
-_Файл: `docs/svyazi-2-0/outreach/narrow-questions.md` | 3 колонок, 5 строк_
-
-| Кому | Лучший первый вопрос | Почему именно он |
-|---|---|---|
-| entity["people","Андрей Чуян","habr author"] | Стоит ли расширять CardIndex до `person/project/episode/evidence`, или для discovery и moderation лучше держать разные индексы? | Это продолжает его реальную архитектурную линию, а не уводит в абстракцию. citeturn41search0 |
-| **kksudo** | Что лучше класть в `.agentos`, а что выносить в machine-only state вне vault conventions? | Это вопрос в сердце AgentFS, а не общая просьба о сотрудничестве. citeturn27view0turn33view4 |
-| entity["people","Виталий Оборин","software engineer"] | Что сильнее всего влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? | Это позволяет использовать Yodoca как policy reference, а не как «ещё один ассистент». citeturn21view0turn21view1 |
-| **spbmolot** | Где проходит практическая граница между полезной ассоциацией и ложной ко‑активацией тем? | Это самый важный вопрос для community matching. citeturn22view4turn22view5 |
-| **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Это шов между памятью, знаниями и orchestration. citeturn33view2turn20view2 |
-
-
-### 7. Карта найденных проектов и паттернов
-_Файл: `docs/svyazi-2-0/overview/projects-map.md` | 8 колонок, 19 строк_
-
-| Проект или связка | Автор | Ссылка на статью и репо | Краткое описание | Ключевые компоненты и паттерны | Лицензия | Maturity / статус | Релевантность к Svyazi‑2.0 |
-|---|---|---|---|---|---|---|---|
-| **Svyazi** | Андрей Чуян | Хабр citeturn41search0 | Гибридная система извлечения структурированных профилей участников сообщества из свободного текста; уже показала кейс «карточек коллабораций». | 6 слоёв, YAML, SHA256‑дедупликация, Ollama+Qwen, LLM+детерминированный код, CardIndex, privacy by design. | **Код закрыт**. citeturn41search0 | Активный закрытый авторский прототип. citeturn41search0 | **Очень высокая**: это базовый ingest/normalize/discovery‑слой. |
-| **knowledge-space** | Sonia_Black / AnastasiyaW | Хабр + GitHub citeturn33view0turn33view2turn37search1 | Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий. | Dense reference cards, gotchas, wiki‑links, `research/inbox/`, «для агентов, не людей». | **MIT**. citeturn33view0turn37search1 | Активный OSS, база растёт почти ежедневно. citeturn33view1turn37search1 | **Высокая**: это внешний knowledge layer для агентов и нормализатора. |
-| **AgentFS** | kksudo | Хабр + GitHub citeturn33view4turn33view7turn27view0 | Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром. | Compile‑to‑native configs, persistent state, security policies, memory consolidation, doctor/triage/compile CLI. | **MIT**. citeturn33view4turn27view0 | Рабочий прототип, версия 0.1.5; «рабочая, но не финальная». citeturn33view7 | **Очень высокая**: это лучший кандидат на файловое ядро Svyazi‑2.0. |
-| **mclaude** | AnastasiyaW | Хабр + GitHub citeturn20view2turn37search0 | Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом. | Locks, handoffs, mailbox, multi‑session turn‑taking, shared project memory. | **MIT**. citeturn37search0 | Активный OSS. citeturn37search0 | **Высокая**: решает параллельную работу модераторов/агентов над общим графом. |
-| **AI Factory + AIF Handoff** | lee-to / Cutcode | Хабр + GitHub citeturn20view3turn29search0turn29search9 | Spec‑driven многоагентный development‑framework и автономный Kanban‑слой поверх него. | Skills, patches, self‑learning, worktrees, MCP handoff, plan/implement/review, WebSocket Kanban. | **MIT**. citeturn29search0turn29search9 | Активный OSS, релизы v2.x; handoff добавлен в свежих релизах. citeturn29search4 | **Высокая**: готовый оркестратор для build‑ и moderation‑контуров Svyazi‑2.0. |
-| **Rufler** | zodigancode / lib4u | Хабр + repo/DEV citeturn20view4turn21view8turn32search0 | Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов. | `depends_on`, auto‑objective prompts, pause/resume, token accounting, MCP server management. | **MIT**. citeturn32search0 | Активный OSS. citeturn32search0 | **Средне‑высокая**: быстрый orchestration‑слой без тяжёлого UI. |
-| **research-docs + LiteParse** | nlaik / Jerry Liu / LlamaIndex | Хабр + GitHub citeturn20view5turn15search1turn15search5turn40search0 | Forensic document QA с HTML‑отчётом и bounding boxes на страницах PDF. | Локальный парсер, spatial text parsing, visual citations, multi‑format docs, HTML evidence report. | **Apache 2.0** для LiteParse; для samples — неуточнено в просмотренных источниках. citeturn40search0turn40search1 | Активный OSS. citeturn15search1turn15search5 | **Очень высокая**: даёт visual grounding, которого Svyazi‑подобным системам обычно не хватает. |
-| **Hybrid RAG knowledge base** | iximy | Хабр citeturn34view2 | Минималистский Hybrid RAG без тяжёлых фреймворков. | `pdfplumber`, координаты слов, TF‑IDF, FAISS, metadata filtering, прозрачный retrieval‑layer. | Неуточнено. citeturn34view2 | Практический implementation guide; публичный код в статье не акцентирован. citeturn34view2 | **Высокая**: полезен как быстрый базовый retrieval‑контур. |
-| **Legal RAG** | tagir_analyzes | Хабр citeturn20view6 | Подробный кейс page‑level Legal RAG с 17 итерациями и измерением пределов масштабирования. | Page‑level grounding, context distillation, систематический eval loop, error analysis. | Неуточнено. citeturn20view6 | Зрелый инженерный кейс, а не только концепт. citeturn20view6 | **Очень высокая**: лучший источник для evidence‑first и audit‑friendly retrieval. |
-| **Graph RAG** | VladSpace / vpakspace | Хабр + GitHub citeturn34view3turn40search2 | Графовый RAG с provenance‑trace и typed API, собранный из 5 исследовательских техник. | Skeleton Indexing, Phrase/Passage dual nodes, VectorCypher, Datalog reasoning, agentic routing. | Неуточнено. citeturn34view3turn40search2 | Активный публичный repo / production‑ready ambition. citeturn34view3turn40search2 | **Высокая**: добавляет multi‑hop retrieval и relation‑reasoning. |
-| **Yodoca** | VitalyOborin | Хабр + GitHub citeturn38view7turn21view0turn21view1turn18search1 | Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией. | Hot/slow path, private write‑path consolidator, `is_session_consolidated`, Ebbinghaus decay, causal edges, proactive memory. | **Apache 2.0**. citeturn18search1 | Активный OSS. citeturn18search1 | **Очень высокая**: лучший слой для nightly consolidation и controlled forgetting. |
-| **NGT Memory** | spbmolot / ngt-memory | Хабр + GitHub/site citeturn22view4turn22view3turn32search2 | Персистентная память для LLM‑приложений с ассоциативным графом и миллисекундным retrieval overhead. | Cosine similarity + Hebbian graph + hierarchical consolidation, REST API, Docker, 2–3 ms собственных затрат. | **BSL 1.1**; в статье прямо сказано «бесплатно для личных проектов». citeturn22view5 | Активная разработка. citeturn22view3turn32search2 | **Очень высокая**: быстрый ассоциативный memory‑слой для discovery и matching. |
-| **MemNet / memory-is-all-you-need** | Antipozitive | Хабр + GitHub citeturn21view4turn17search0turn18search2 | Исследовательская активная память для трансформеров. | Hebbian graph memory, STDP, spreading activation, «dreaming», anti‑forgetting. | **MIT**. citeturn17search0turn18search2 | Экспериментальный research codebase. citeturn17search0 | **Средне‑высокая**: не MVP‑слой, но сильная идея для future memory engine. |
-| **agent-memory-mcp + Memory OS** | VitaliySemenov / moshael | Хабр + GitHub + Хабр citeturn20view16turn15search3turn39view3 | Typed memory MCP плюс более тяжёлая концепция Memory OS с онтологией, gardener‑loop и bi‑temporal facts. | SQLite+WAL, typed memories, repo/doc search, path guard; ontology, concept loop, maintenance contour, planner/scout/synthesizer. | Для `agent-memory-mcp` — неуточнено; для Memory OS — неуточнено. citeturn15search3turn39view3 | `agent-memory-mcp` — рабочий OSS; Memory OS — концептуально амбициозный кейс без явного публичного репо в статье. citeturn15search3turn39view3 | **Высокая**: слой typed memory и governance для более поздних итераций. |
-| **Self‑Aware MCP + Skills + CodeWiki** | akazant / akzhankalimatov / AnastasiyaW | Хабр + repo/marketplace + Хабр/репо citeturn20view12turn30search1turn20view15turn12search2turn37search7 | Контекст реального мира для агента плюс reusable skills и авто‑документация кодовой базы. | location/time/OS tools, skill files in repo, hooks, subagents, code wiki generation. | Self‑Aware MCP — **MIT** по карточке MCP Marketplace; config‑kit — **MIT**; CodeWiki — неуточнено. citeturn30search1turn37search7turn12search2 | Активный стек инструментов. citeturn20view12turn37search7turn12search2 | **Высокая**: делает агентный слой контекстным, переносимым и предсказуемым. |
-| **Voice/local-first stack** | atatchin / askid / обзоры Handy/OpenWhispr | Хабр citeturn21view10turn21view11turn21view12turn35search0 | Локальный speech→text→LLM transform и более широкий local‑first knowledge workspace с recording/transcription. | Whisper локально, Ollama post‑processing, Handy/OpenWhispr/GigaAM, live transcription, diarization, semantic links, SQLite. | Смешанная картина; для Yttri лицензия в просмотренных источниках не уточнена. citeturn35search0turn21view11 | От usable scripts до beta‑продукта. citeturn21view10turn35search0 | **Средне‑высокая**: лучший входной канал для «raw episodes» в память. |
-| **Yjs + Automerge** | Kevin Jahns / Automerge team | Документация и репо citeturn11search0turn11search7turn11search13turn11search1turn11search11turn11search23 | Базовый local‑first/CRDT sync‑слой для оффлайн‑совместимости и мультидевайсной синхронизации. | Shared types, automatic merge without conflicts, offline sync, local‑first data engine. | **MIT**. citeturn11search13turn11search23 | Активный OSS. citeturn11search13turn11search11 | **Средняя**, но стратегически важная: синхронизация между устройствами и узлами. |
-| **Security + routing plane** | Dmitriila / BerriAI / MiXaiLL76 / Maslennikovig | Хабр + GitHub/docs citeturn20view10turn11search2turn19search5turn39view0turn39view1turn20view18 | Рантайм‑безопасность и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading; budget/privacy presets in RLM‑Toolkit. | Смешанная: SENTINEL — неуточнено; LiteLLM — MIT вне enterprise‑директорий; Auto AI Router — Apache 2.0. citeturn20view10turn19search5turn28search3 | Активный operational stack. citeturn20view10turn11search2turn39view0turn39view1 | **Очень высокая**: без этого Svyazi‑2.0 будет либо дорогой, либо небезопасной. |
-| **AutoResearch + Sequential** | Андрей Карпаты / Виктория Дочкина | Хабр + GitHub/обзор citeturn20view19turn20view11 | Ночной цикл самоулучшения и протокол reviewer‑цепочки без централизованного координатора. | Edit‑run‑measure‑rollback loop, bounded experiments, sequential protocol, strong-model self‑organization. | Для AutoResearch — по статье на GitHub; лицензия в Habr‑обзоре не уточнялась. Для Sequential — исследовательская статья без OSS‑лицензии. citeturn20view19turn20view11 | Active research / practical harness. citeturn20view19turn20view11 | **Высокая**: это кандидат на self‑improvement и multi‑review для Svyazi‑2.0. |
-
-
-### 8. Минимальная сборка прототипа
-_Файл: `docs/svyazi-2-0/prototype/mvp-plan.md` | 4 колонок, 5 строк_
-
-| Контур | Что входит | Зачем | Оценка усилий |
-|---|---|---|---|
-| Ядро данных | CardIndex‑схема, профили, raw/inferred разделение, файловый vault в стиле AgentFS | Сделать единый source of truth и трассируемый lifecycle карточки | 2–3 дня |
-| Ingest и память | LLM extraction + нормализация + NGT Memory **или** Yodoca‑lite | Доказать, что из свободного текста получаются устойчивые профили и связи | 4–6 дней |
-| Evidence | LiteParse/research-docs + page‑level viewer | Не просто показать match, а показать основание | 3–4 дня |
-| Исполнение | LiteLLM/Auto AI Router + Tool Search + базовые правила безопасности | Удержать стоимость и не утонуть в MCP/context overhead | 2–3 дня |
-| Guardrails | PII‑фильтры, allowlists, manual review для inferred | Снизить риск ложных связей и утечек | 1–2 дня |
-
-
-### 9. Ключевые риски и как их закрывать
-_Файл: `docs/svyazi-2-0/prototype/risks.md` | 3 колонок, 5 строк_
-
-| Риск | Почему это важно | Снижение риска |
-|---|---|---|
-| Schema drift и самовольная «оптимизация» структуры моделью | На extraction‑этапе сильная модель может начать «улучшать» схему вместо исполнения | Держать extraction на constrained schema + низком reasoning, а смысл переносить в post‑processing; это совпадает и с логикой Svyazi, и с выводами Memory OS. citeturn41search0turn39view3 |
-| Ложные ассоциации в памяти | Ассоциативная память полезна, но легко порождает шум | Вводить review queue для `inferred`, разделять raw vs normalized, не писать Proposal сразу в Truth‑граф. citeturn41search0turn36search0 |
-| Утечка PII в карточки и prompts | Discovery‑система почти неизбежно работает с чувствительными профилями | Повторить Svyazi‑паттерн privacy‑by‑design, хранить контакты отдельно, использовать allowlist/path guard, локальные embeddings там, где можно. citeturn41search0turn20view16turn35search0 |
-| Лицензионный тупик на memory‑слое | Не все «open» memory‑решения одинаково permissive | Если нужен строго permissive/commercial‑friendly стек, NGT Memory надо проверять отдельно, потому что в статье указана BSL 1.1 и free‑for‑personal grant; на таком пути проще начать с Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |
-| Многоагентный хаос раньше пользы | Рой даёт выгоду только после появления handoff/lock и чётких спецификаций | Начинать с mclaude + AI Factory/AIF Handoff, а Rufler/Sequential/AutoResearch добавлять после того, как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |
-
-
-### 10. Сводная таблица
-_Файл: `docs/svyazi-2-0/prototype/roadmap.md` | 5 колонок, 5 строк_
-
-| Итерация | Главная цель | Минимум, который должен заработать | Оценка усилий | Главный риск |
-|---|---|---|---|---|
-| Evidence-first core | Из любого suggestions можно перейти к основанию | Unified cards + page/span evidence + manual reviewer UI | 1–2 недели | Переусложнение схемы слишком рано |
-| Memory governance | Ассоциации перестают путаться с фактами | Episode store + proposal queue + approval/decay states | 1–2 недели | Ложная уверенность в «умной памяти» без жёсткого review |
-| Agented moderation | Рой помогает, а не создаёт шум | extractor/reviewer/publisher roles + handoff/journal | 1–2 недели | Многоагентный хаос без хороших критериев качества |
-| Local-first ingestion | Система начинает жить в ежедневном потоке | voice→episode, local vault, selective sync | 1–2 недели | Sync-конфликты и таскание лишних данных наружу |
-| Self-improvement loop | Ошибки превращаются в benchmark и patch | benchmark set + nightly eval + rollback policy | 1 неделя на каркас, дальше непрерывно | Большой соблазн автоматизировать раньше, чем появилась метрика |
-
-
-### 11. Практичный бюджетный роутинг моделей
-_Файл: `docs/svyazi-2-0/security/budget-routing.md` | 3 колонок, 6 строк_
-
-| Этап | Дефолт | Когда эскалировать |
-|---|---|---|
-| Extraction из свободного текста | Локальная или дешёвая модель + строгая schema guidance | Только если extraction‑quality стабильно проваливает ваши acceptance tests |
-| Нормализация | Детерминированный код | Практически никогда не переводить это на дорогую модель |
-| Retrieval / rerank | Non‑LLM hybrid retrieval или локальный reranker | При multi-hop вопросах и слабой explainability |
-| Объяснение матча / summary | Средний облачный tier | Если нужен высокий stylistic quality, а не только фактология |
-| Финальный внешний отчёт | Сильная модель | Только для user-facing/public/legal‑style текста |
-| Ночной ресёрч / оптимизация | AutoResearch‑подход с жёстким бюджетом и rollback | Когда уже есть benchmark и понятная функция качества |
-
-
-### 12. Что стоит зафиксировать как default policy
-_Файл: `docs/svyazi-2-0/security/default-policy.md` | 3 колонок, 6 строк_
-
-| Контроль | Практический дефолт | Основание |
-|---|---|---|
-| Разделение tool‑классов | По умолчанию разрешать read‑only tools; любые send/write/delete/execute — только через явный approval | Автономный агент отличается от чатбота именно доступом к реальным действиям; это и создаёт катастрофы. citeturn34view5 |
-| Quarantine для external skills/MCP | Любой внешний skill/MCP сначала в sandbox, потом статический/репутационный скан, потом allowlist | AI Factory прямо предупреждает о prompt injection в SKILL.md и запускает двухуровневый security scan. citeturn29search6 |
-| Path allowlist | Жёстко ограничить, что агент вообще может читать и писать на диске | `agent-memory-mcp` демонстрирует хороший паттерн Path Guard/allowlist против traversal и выхода за пределы проекта. citeturn20view16 |
-| PII separation | Любые контакты, email, Telegram, ссылки — в отдельном raw‑слое; в карточки уходит только очищенный профиль | Так делает Svyazi; это правильный privacy‑baseline для людей и сообществ. citeturn41search0 |
-| Truth vs Proposal | `inferred` и weak signals не писать сразу в «истину», а ставить в pending review | И Svyazi, и более тяжёлые memory‑системы сходятся на нужде в review‑контуре. citeturn41search0turn36search0 |
-| Runtime firewall | Между агентом и mutating tools держать специализированный защитный слой | Именно для этого и нужен SENTINEL‑подобный слой, а не только «умный промпт». citeturn20view10 |
-
-
-## technology-combinations (13 таблиц)
-
-
-### 1. Подпапки
-_Файл: `docs/technology-combinations/README.md` | 2 колонок, 5 строк_
-
-| Подпапка | Что внутри |
-|---|---|
-| [`combinations/`](combinations/) | 35 комбинаций — по одному файлу на каждую |
-| [`synthesis-tables/`](synthesis-tables/) | Сводные таблицы по диапазонам комбинаций |
-| [`mega-stacks/`](mega-stacks/) | Четыре мегастека: 1.0, 2.0 (DSL/AST 3.0), 4.0 (Event Sourcing & Consensus) |
-| [`research-reports/`](research-reports/) | Два больших Markdown‑отчёта‑артефакта по итогам диалога |
-| [`properties/`](properties/) | Каркас под заметки о конкретных эмерджентных свойствах |
-
-
-### 2. Комбинация 8: Conductor × adversarial-review × Auto AI Route
-_Файл: `docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md` | 3 колонок, 7 строк_
-
-| Комбинация | Кубики | Уникальный результат | Экономия/ROI
-| 1 | Агентская архитектура + Svyazi | Самообучающиеся промпты, multi-domain профилирование | 70% времени на модерацию
-| 2 | Мультиагенты + Router | Иерархический роутинг, fault tolerance | 80% бюджета на LLM
-| 3 | CRDT + Svyazi | P2P граф сообщества, offline-first discovery | Нулевые расходы на сервер
-| 4 | LLM-парсинг + Graph-RAG + Агенты | Self-building knowledge graph | 95% точность vs 60% обычного RAG
-| 5 | SourceCraft + Claude Code + Sequential | Distributed code review, team knowledge graph | 44% выше качества vs координатор
-| 6 | OpenClaude + ZINC + MoME | Локальный агент с Q6-роутером | 100% privacy, $0/мес API
-| 7 | Crawl4AI + Docling + Yodoca | Self-consolidating legal corpus | Автоматическая актуализация
-| 8 | Conductor + adversarial + Router | Multi-model adversarial, enterprise review | 3× ускорение ревью
-
-
-### 3. Комбинация 14: local-first Agent Development Environment
-_Файл: `docs/technology-combinations/combinations/14-local-first-agent-development-environment.md` | 3 колонок, 5 строк_
-
-| Combo | Components | Unique Result | Economic Impact
-| 9 | Agent-Bridge + Conductor + Sequential | Visual multi-machine agent IDE | 1 dev = 10 agents = $700/mo
-| 10 | LLM-parsing + Docling + Svyazi | Auto-building legal corpus | 10 sec search vs 2 hr manual
-| 11 | CRDT + PostgreSQL 18 async + TimescaleDB | Real-time collaborative DB | 100k ops/sec, zero conflicts
-| 12 | OpenTelemetry + Prometheus + AgentStack | Multi-agent observability | Detect bottleneck in 60 sec
-| 13 | COBOL transpiler pattern + LLM + templates | Legal document transpiler | 50k docs structured in 1 day
-| 14 | OpenClaude + ZINC + CRDT + Agent-Bridge | Local-first multi-agent env | $0/mo, 100% GDPR compliant
-
-
-### 4. Комбинация 19: Multi-Agent Observability Platform
-_Файл: `docs/technology-combinations/combinations/19-multi-agent-observability-platform.md` | 3 колонок, 4 строк_
-
-| Combo | Components | Unique Result | Economic Impact
-| 15 | Crawl4AI + Docling + Ebbinghaus | Self-consolidating legal corpus | Auto-maintains, forgets stale
-| 16 | Adversarial + Sequential + Router | Multi-model review pipeline | 3× faster, 44% quality boost
-| 17 | agentmemory + CRDT + Graph-RAG | P2P agent knowledge graph | $0 server, biological memory
-| 18 | Crawl4AI + Svyazi + Pydantic | Automated legal DB builder | 50k docs, 95% accuracy
-| 19 | OpenTelemetry + Agent-Bridge | Multi-agent observability | Real-time bottleneck detection
-
-
-### 5. Комбинация 24: MEGA-INTEGRATION: Full Stack
-_Файл: `docs/technology-combinations/combinations/24-mega-integration-full-stack.md` | 3 колонок, 4 строк_
-
-| # | Components | Unique Result | Impact
-| 20 | ClickHouse + CRDT + PG18 async | Hybrid OLAP/OLTP real-time | Best of 3 worlds
-| 21 | ClickHouse + Crawl4AI + Pydantic | Legal corpus analytics | 100M rows in <500ms
-| 22 | ClickHouse + CatBoost + Graph-RAG | ML outcome prediction | 73-89% accuracy
-| 23 | CyberCodeReview + Adversarial + Sequential | Russian compliance pipeline | ФСТЭК automated
-| 24 | ALL ABOVE | Full legal-AI stack | Production-grade system
-
-
-### 6. Комбинация 30: MEGA-STACK 3.0 with DSL & AST
-_Файл: `docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md` | 3 колонок, 5 строк_
-
-| # | Components | Result | Impact
-| 25 | Python AST + DSL + Pydantic | Legal document transpiler | 50k docs in 1 day
-| 26 | AST + ASTChunk + LLM | Code analysis for legal automation | Self-documenting code
-| 27 | ASTChunk + Graph-RAG + ClickHouse | Code + precedents unified KB | Developer↔lawyer bridge
-| 28 | Pydantic + Sequential + Adversarial | Type-safe legal workflows | Errors caught in seconds
-| 29 | DSL + AST + Templates | Meta-programmatic templates | Write once, deploy everywhere
-| 30 | ALL ABOVE | Complete legal-AI + DSL stack | Production system with DSL
-
-
-### 7. Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensu
-_Файл: `docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md` | 3 колонок, 4 строк_
-
-| # | Components | Result | Impact
-| 31 | Event Sourcing + CQRS + ClickHouse | Audit-complete legal case mgmt | Time-travel queries
-| 32 | Raft + Multi-agent + CRDT | Consensus-based agent cluster | Fault-tolerant coordination
-| 33 | Event Sourcing + Kafka + ClickHouse | Real-time legal analytics | Write once, read many ways
-| 34 | Paxos + Event Store + Multi-DC | Geo-replicated document store | Byzantine fault tolerance
-| 35 | ALL ABOVE | Complete distributed legal-AI | Production-grade resilience
-
-
-### 8. Сводная таблица 1–8
-_Файл: `docs/technology-combinations/synthesis-tables/01-08-summary.md` | 4 колонок, 8 строк_
-
-| Комбинация | Кубики | Уникальный результат | Экономия/ROI |
-|---|---|---|---|
-| [1](../combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md) | Агентская архитектура + Svyazi | Самообучающиеся промпты, multi‑domain профилирование | 70% времени на модерацию |
-| [2](../combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) | Мультиагенты + Router | Иерархический роутинг, fault tolerance | 80% бюджета на LLM |
-| [3](../combinations/03-crdt-local-first-svyazi-cardindex.md) | CRDT + Svyazi | P2P граф сообщества, offline‑first discovery | Нулевые расходы на сервер |
-| [4](../combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md) | LLM‑парсинг + Graph‑RAG + Агенты | Self‑building knowledge graph | 95% точность vs 60% обычного RAG |
-| [5](../combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) | SourceCraft + Claude Code + Sequential | Distributed code review, team knowledge graph | 44% выше качества vs координатор |
-| [6](../combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md) | OpenClaude + ZINC + MoME | Локальный агент с Q6‑роутером | 100% privacy, $0/мес API |
-| [7](../combinations/07-crawl4ai-docling-yodoca-consolidator.md) | Crawl4AI + Docling + Yodoca | Self‑consolidating legal corpus | Автоматическая актуализация |
-| [8](../combinations/08-conductor-adversarial-review-auto-ai-router.md) | Conductor + adversarial + Router | Multi‑model adversarial, enterprise review | 3× ускорение ревью |
-
-
-### 9. Сводная таблица 9–14 (Extended)
-_Файл: `docs/technology-combinations/synthesis-tables/09-14-extended.md` | 4 колонок, 6 строк_
-
-| Combo | Components | Unique Result | Economic Impact |
-|---|---|---|---|
-| [9](../combinations/09-agent-orchestration-stack.md) | Agent‑Bridge + Conductor + Sequential | Visual multi‑machine agent IDE | 1 dev = 10 agents = $700/mo |
-| [10](../combinations/10-legal-document-intelligence-pipeline.md) | LLM‑parsing + Docling + Svyazi | Auto‑building legal corpus | 10 sec search vs 2 hr manual |
-| [11](../combinations/11-hybrid-crdt-sql-database.md) | CRDT + PostgreSQL 18 async + TimescaleDB | Real‑time collaborative DB | 100k ops/sec, zero conflicts |
-| [12](../combinations/12-multi-agent-observability-stack.md) | OpenTelemetry + Prometheus + AgentStack | Multi‑agent observability | Detect bottleneck in 60 sec |
-| [13](../combinations/13-legal-document-transpiler.md) | COBOL transpiler pattern + LLM + templates | Legal document transpiler | 50k docs structured in 1 day |
-| [14](../combinations/14-local-first-agent-development-environment.md) | OpenClaude + ZINC + CRDT + Agent‑Bridge | Local‑first multi‑agent env | $0/mo, 100% GDPR compliant |
-
-
-### 10. Сводная таблица 15–19 (Extended)
-_Файл: `docs/technology-combinations/synthesis-tables/15-19-extended.md` | 4 колонок, 5 строк_
-
-| Combo | Components | Unique Result | Economic Impact |
-|---|---|---|---|
-| [15](../combinations/15-self-consolidating-legal-corpus.md) | Crawl4AI + Docling + Ebbinghaus | Self‑consolidating legal corpus | Auto‑maintains, forgets stale |
-| [16](../combinations/16-adversarial-multi-agent-code-review.md) | Adversarial + Sequential + Router | Multi‑model review pipeline | 3× faster, 44% quality boost |
-| [17](../combinations/17-distributed-agent-memory-with-graph.md) | agentmemory + CRDT + Graph‑RAG | P2P agent knowledge graph | $0 server, biological memory |
-| [18](../combinations/18-llm-powered-legal-corpus-builder.md) | Crawl4AI + Svyazi + Pydantic | Automated legal DB builder | 50k docs, 95% accuracy |
-| [19](../combinations/19-multi-agent-observability-platform.md) | OpenTelemetry + Agent‑Bridge | Multi‑agent observability | Real‑time bottleneck detection |
-
-
-### 11. Сводная таблица 20–24 (Final 1–24)
-_Файл: `docs/technology-combinations/synthesis-tables/20-24-final.md` | 4 колонок, 5 строк_
-
-| # | Components | Unique Result | Impact |
-|---|---|---|---|
-| [20](../combinations/20-hybrid-olap-oltp-with-real-time-sync.md) | ClickHouse + CRDT + PG18 async | Hybrid OLAP/OLTP real‑time | Best of 3 worlds |
-| [21](../combinations/21-legal-corpus-analytics-at-scale.md) | ClickHouse + Crawl4AI + Pydantic | Legal corpus analytics | 100M rows in <500ms |
-| [22](../combinations/22-russian-international-oss-stack.md) | ClickHouse + CatBoost + Graph‑RAG | ML outcome prediction | 73–89% accuracy |
-| [23](../combinations/23-security-first-code-review-pipeline.md) | CyberCodeReview + Adversarial + Sequential | Russian compliance pipeline | ФСТЭК automated |
-| [24](../combinations/24-mega-integration-full-stack.md) | ALL ABOVE | Full legal‑AI stack | Production‑grade system |
-
-
-### 12. Сводная таблица 25–30 (Complete 1–30)
-_Файл: `docs/technology-combinations/synthesis-tables/25-30-extended.md` | 4 колонок, 6 строк_
-
-| # | Components | Result | Impact |
-|---|---|---|---|
-| [25](../combinations/25-legal-dsl-code-transpiler.md) | Python AST + DSL + Pydantic | Legal document transpiler | 50k docs in 1 day |
-| [26](../combinations/26-ast-based-code-analysis-for-legal-automation.md) | AST + ASTChunk + LLM | Code analysis for legal automation | Self‑documenting code |
-| [27](../combinations/27-hybrid-rag-with-ast-chunked-code.md) | ASTChunk + Graph‑RAG + ClickHouse | Code + precedents unified KB | Developer↔lawyer bridge |
-| [28](../combinations/28-pydantic-enforced-legal-workflows.md) | Pydantic + Sequential + Adversarial | Type‑safe legal workflows | Errors caught in seconds |
-| [29](../combinations/29-meta-programmatic-legal-template-generator.md) | DSL + AST + Templates | Meta‑programmatic templates | Write once, deploy everywhere |
-| [30](../combinations/30-mega-stack-3-0-with-dsl-ast.md) | ALL ABOVE | Complete legal‑AI + DSL stack | Production system with DSL |
-
-
-### 13. Сводная таблица 31–35 (Complete 1–35)
-_Файл: `docs/technology-combinations/synthesis-tables/31-35-final.md` | 4 колонок, 5 строк_
-
-| # | Components | Result | Impact |
-|---|---|---|---|
-| [31](../combinations/31-event-sourced-legal-document-history.md) | Event Sourcing + CQRS + ClickHouse | Audit‑complete legal case mgmt | Time‑travel queries |
-| [32](../combinations/32-consensus-based-multi-agent-coordination.md) | Raft + Multi‑agent + CRDT | Consensus‑based agent cluster | Fault‑tolerant coordination |
-| [33](../combinations/33-event-sourcing-cqrs-clickhouse-analytics.md) | Event Sourcing + Kafka + ClickHouse | Real‑time legal analytics | Write once, read many ways |
-| [34](../combinations/34-distributed-event-store-with-paxos.md) | Paxos + Event Store + Multi‑DC | Geo‑replicated document store | Byzantine fault tolerance |
-| [35](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) | ALL ABOVE | Complete distributed legal‑AI | Production‑grade resilience |
-
-
-## templates (4 таблиц)
-
-
-### 1. Профиль
+### 5. Профиль
 _Файл: `docs/templates/contact-outreach.md` | 2 колонок, 4 строк_
 
 | Параметр | Значение |
@@ -18167,7 +18575,7 @@ _Файл: `docs/templates/contact-outreach.md` | 2 колонок, 4 строк
 | Платформа | [Habr/GitHub/Telegram] |
 
 
-### 2. Рассмотренные варианты
+### 6. Рассмотренные варианты
 _Файл: `docs/templates/decision-record.md` | 3 колонок, 3 строк_
 
 | Вариант | Плюсы | Минусы |
@@ -18177,7 +18585,7 @@ _Файл: `docs/templates/decision-record.md` | 3 колонок, 3 строк_
 | C | | |
 
 
-### 3. Компоненты
+### 7. Компоненты
 _Файл: `docs/templates/ensemble.md` | 3 колонок, 2 строк_
 
 | Компонент | Роль | Лицензия |
@@ -18186,7 +18594,152 @@ _Файл: `docs/templates/ensemble.md` | 3 колонок, 2 строк_
 | [Проект B] | [роль] | [лицензия] |
 
 
-### 4. Статус
+### 8. Журнал
+_Файл: `docs/templates/experiment-log.md` | 4 колонок, 2 строк_
+
+| Дата | Действие | Замер | Заметка |
+|------|----------|-------|---------|
+| 2026-04-29 | start | — | Начали эксперимент |
+| | | | |
+
+
+### 9. История обновлений
+_Файл: `docs/templates/faq-entry.md` | 3 колонок, 1 строк_
+
+| Дата | Что обновили | Кто |
+|------|--------------|-----|
+| 2026-04-29 | Создан | — |
+
+
+### 10. Детальные метрики
+_Файл: `docs/templates/kpi-snapshot.md` | 5 колонок, 7 строк_
+
+| Метрика | Значение | Цель | Δ vs прошлая | Статус |
+|---------|----------|------|--------------|--------|
+| HEALTH score | | 80 | | 🟢/🟡/🔴 |
+| Файлов в docs/ | | | | |
+| Слов | | | | |
+| Битых ссылок | | 0 | | |
+| Покрытие тегов | | 90% | | |
+| Контактов написано | | | | |
+| Контактов ответили | | | | |
+
+
+### 11. Идентификация
+_Файл: `docs/templates/legal-case.md` | 2 колонок, 6 строк_
+
+| Параметр | Значение |
+|----------|---------|
+| Aktenzeichen | [A 1 SO 123/24] |
+| Тип | [Sozialgericht / Verwaltungsgericht / …] |
+| Stage | [Antrag / Bescheid / Widerspruch / Klage / Berufung] |
+| Filed | [дата] |
+| Deadline | [дата] |
+| Status | [open / closed / appeal] |
+
+
+### 12. Стороны
+_Файл: `docs/templates/legal-case.md` | 2 колонок, 2 строк_
+
+| Роль | Кто |
+|------|-----|
+| Antragsteller / Kläger | [имя] |
+| Behörde / Beklagte | [имя] |
+
+
+### 13. Хронология
+_Файл: `docs/templates/legal-case.md` | 3 колонок, 3 строк_
+
+| Дата | Событие | Документ |
+|------|---------|----------|
+| YYYY-MM-DD | Antrag eingereicht | [файл] |
+| YYYY-MM-DD | Bescheid erhalten | [файл] |
+| YYYY-MM-DD | Widerspruch | [файл] |
+
+
+### 14. Прецеденты
+_Файл: `docs/templates/legal-case.md` | 4 колонок, 1 строк_
+
+| Решение | Суд | Дата | Релевантность |
+|---------|-----|------|---------------|
+| [BSG B 14 AS 1/22 R] | BSG | 2022-XX | [как относится] |
+
+
+### 15. Участники
+_Файл: `docs/templates/meeting-notes.md` | 3 колонок, 1 строк_
+
+| Имя | Роль | Платформа |
+|-----|------|-----------|
+| [имя] | [роль] | [GitHub/Habr/Telegram] |
+
+
+### 16. 1. UI / Client
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 1 строк_
+
+| Компонент | Лицензия | Зрелость |
+|-----------|----------|----------|
+| | | |
+
+
+### 17. 2. Agent Layer
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 1 строк_
+
+| Компонент | Тип агента | Откуда |
+|-----------|------------|--------|
+| | | |
+
+
+### 18. 3. Orchestration
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 0 строк_
+
+| Компонент | Паттерн | … |
+|-----------|---------|---|
+
+
+### 19. 4. RAG / Search
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 0 строк_
+
+| Компонент | Тип | Узлы |
+|-----------|-----|------|
+
+
+### 20. Cross-layer контракты
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 2 строк_
+
+| Слой → слой | Формат | Протокол |
+|-------------|--------|----------|
+| Ingestion → Storage | JSON | HTTP REST |
+| Storage → RAG | … | … |
+
+
+### 21. Стоимость
+_Файл: `docs/templates/mega-stack.md` | 2 колонок, 4 строк_
+
+| Категория | $/месяц |
+|-----------|---------|
+| LLM API | |
+| Хостинг | |
+| Платные лицензии | |
+| **Итого** | |
+
+
+### 22. Риски и митигации
+_Файл: `docs/templates/mega-stack.md` | 3 колонок, 1 строк_
+
+| Риск | Severity | Митигация |
+|------|----------|-----------|
+| | | |
+
+
+### 23. Альтернативные стеки
+_Файл: `docs/templates/mega-stack.md` | 2 колонок, 1 строк_
+
+| Альтернатива | Когда лучше |
+|--------------|-------------|
+| | |
+
+
+### 24. Статус
 _Файл: `docs/templates/project-component.md` | 2 колонок, 4 строк_
 
 | Параметр | Значение |

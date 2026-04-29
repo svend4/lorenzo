@@ -1,4 +1,22 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "AnastasiyaW"
+author_handle: "@AnastasiyaW"
+projects: ["Svyazi", "knowledge-space", "mclaude"]
+platform: GitHub
+status: not_started
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+---
 # Контакт: AnastasiyaW / knowledge-space, mclaude
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)

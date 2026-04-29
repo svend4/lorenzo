@@ -6,7 +6,6 @@
 ----
 title: "Когда ты Honestly не знаешь"
 tags:
-  * anthropic
   * anthropic-vacancies
 date: 2026-04-29
 ----
@@ -17,8 +16,6 @@ h1. Когда ты Honestly не знаешь
 {quote}Если ты не знаешь что-то relevant (factual, technical, contextual), say:{quote}
 
 ----
-
-
 
 
 

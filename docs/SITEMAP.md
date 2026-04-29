@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-**Всего файлов:** 1693
+**Всего файлов:** 1193
 
 ## Навигация
 
@@ -20,7 +20,6 @@ _Обновлено: 2026-04-29_
 - [habr-unique-projects](#habr-unique-projects)
 - [lorenzo-agent](#lorenzo-agent)
 - [nautilus](#nautilus)
-- [obsidian](#obsidian)
 - [svyazi-2-0](#svyazi-2-0)
 - [technology-combinations](#technology-combinations)
 - [templates](#templates)
@@ -306,19 +305,19 @@ _`docs/02-anthropic-vacancies/` — 355 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [Введение](docs/02-anthropic-vacancies/00-intro.md) | 8984 |
-| 2 | [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | 19217 |
-| 3 | [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) | 3300 |
+| 1 | [Введение](docs/02-anthropic-vacancies/00-intro.md) | 8903 |
+| 2 | [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | 19139 |
+| 3 | [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) | 3221 |
 | 4 | [PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) | 318 |
 | 5 | [Abstract](docs/02-anthropic-vacancies/04-abstract.md) | 310 |
 | 6 | [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) | 296 |
-| 7 | [1. Introduction](docs/02-anthropic-vacancies/06-1-introduction.md) | 383 |
-| 8 | [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) | 302 |
-| 9 | [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) | 403 |
+| 7 | [1. Introduction](docs/02-anthropic-vacancies/06-1-introduction.md) | 428 |
+| 8 | [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) | 411 |
+| 9 | [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) | 575 |
 | 10 | [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) | 298 |
 | 11 | [Доступ к данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md) | 250 |
 | 12 | [Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) | 309 |
-| 13 | [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) | 1162 |
+| 13 | [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) | 1091 |
 | 14 | [REVIEW_METHODOLOGY.md](docs/02-anthropic-vacancies/105-review-methodology-md.md) | 271 |
 | 15 | [TL;DR](docs/02-anthropic-vacancies/106-tl-dr.md) | 216 |
 | 16 | [1. Контекст и мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) | 455 |
@@ -341,21 +340,21 @@ _`docs/02-anthropic-vacancies/` — 355 файлов_
 | 33 | [portal-mcp.py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) | 2495 |
 | 34 | [Конфигурация для Claude Desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md) | 241 |
 | 35 | [README-MCP.md— инструкция по установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) | 261 |
-| 36 | [Установка](docs/02-anthropic-vacancies/126-установка.md) | 145 |
+| 36 | [Установка](docs/02-anthropic-vacancies/126-установка.md) | 216 |
 | 37 | [Подключение к Claude Desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md) | 247 |
 | 38 | [Доступные инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md) | 296 |
 | 39 | [Примеры запросов (в Claude)](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md) | 291 |
 | 40 | [Angle / Perspective](docs/02-anthropic-vacancies/13-angle-perspective.md) | 209 |
 | 41 | [Отладка](docs/02-anthropic-vacancies/130-отладка.md) | 243 |
-| 42 | [Ограничения текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md) | 177 |
+| 42 | [Ограничения текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md) | 175 |
 | 43 | [Planned (v0.2.0)](docs/02-anthropic-vacancies/132-planned-v0-2-0.md) | 205 |
-| 44 | [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md) | 17075 |
+| 44 | [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md) | 16992 |
 | 45 | [THE DOUBLE-TRIANGLE ARCHITECTURE.md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md) | 281 |
 | 46 | [A Formal Model for Human-AI Collaboration in Distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md) | 262 |
 | 47 | [Abstract](docs/02-anthropic-vacancies/136-abstract.md) | 602 |
 | 48 | [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) | 287 |
-| 49 | [1. Why Single-Triangle Models Are Incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) | 584 |
-| 50 | [2. The Double-Triangle Architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | 753 |
+| 49 | [1. Why Single-Triangle Models Are Incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) | 651 |
+| 50 | [2. The Double-Triangle Architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | 837 |
 | ... | _ещё 305 файлов_ | |
 
 ## Комбинации технологий
@@ -376,21 +375,21 @@ _`docs/04-ai-collaborations/` — 15 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [Введение](docs/04-ai-collaborations/00-intro.md) | 11389 |
-| 2 | [Executive summary](docs/04-ai-collaborations/01-executive-summary.md) | 575 |
-| 3 | [Методика и рамка отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md) | 434 |
-| 4 | [Карта найденных проектов и паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) | 1478 |
-| 5 | [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) | 1340 |
-| 6 | [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) | 1130 |
-| 7 | [Безопасность, приватность и бюджетный роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) | 887 |
-| 8 | [Выводы](docs/04-ai-collaborations/07-выводы.md) | 470 |
-| 9 | [Что это продолжение добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) | 439 |
-| 10 | [Архитектурные зазоры, которые важнее новых инструм](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) | 821 |
-| 11 | [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) | 984 |
-| 12 | [Интеграционный контракт, который стоит зафиксирова](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) | 846 |
-| 13 | [Дорожная карта прототипа следующей итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) | 787 |
-| 14 | [Контактная стратегия и узкие вопросы для авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) | 874 |
-| 15 | [Ограничения, лицензии и что пока лучше не склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3274 |
+| 1 | [Введение](docs/04-ai-collaborations/00-intro.md) | 11524 |
+| 2 | [Executive summary](docs/04-ai-collaborations/01-executive-summary.md) | 761 |
+| 3 | [Методика и рамка отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md) | 585 |
+| 4 | [Карта найденных проектов и паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) | 1638 |
+| 5 | [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) | 1573 |
+| 6 | [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) | 1356 |
+| 7 | [Безопасность, приватность и бюджетный роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) | 1055 |
+| 8 | [Выводы](docs/04-ai-collaborations/07-выводы.md) | 649 |
+| 9 | [Что это продолжение добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) | 584 |
+| 10 | [Архитектурные зазоры, которые важнее новых инструм](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) | 1048 |
+| 11 | [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) | 1245 |
+| 12 | [Интеграционный контракт, который стоит зафиксирова](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) | 1024 |
+| 13 | [Дорожная карта прототипа следующей итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) | 934 |
+| 14 | [Контактная стратегия и узкие вопросы для авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) | 1031 |
+| 15 | [Ограничения, лицензии и что пока лучше не склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3444 |
 
 ## Хабр-проекты — память и граф
 
@@ -399,10 +398,10 @@ _`docs/05-habr-projects/` — 6 файлов_
 | # | Документ | Слов |
 |---|----------|------|
 | 1 | [Синтез: как проекты собираются вместе](docs/05-habr-projects/01-synthesis.md) | 245 |
-| 2 | [Авторы и контакты](docs/05-habr-projects/02-collaboration-partners.md) | 261 |
+| 2 | [Авторы и контакты](docs/05-habr-projects/02-collaboration-partners.md) | 369 |
 | 3 | [Wikontic: семантический граф](docs/05-habr-projects/knowledge/wikontic.md) | 369 |
-| 4 | [MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md) | 7246 |
-| 5 | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 364 |
+| 4 | [MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md) | 7298 |
+| 5 | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 480 |
 | 6 | [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 359 |
 
 ## ai-collaborations
@@ -517,20 +516,20 @@ _`docs/contacts/` — 14 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [Контакт: AnastasiyaW / knowledge-space, mclaude](docs/contacts/anastasiyaw.md) | 233 |
-| 2 | [Контакт: andrey_chuyan / Svyazi](docs/contacts/andrey-chuyan.md) | 236 |
-| 3 | [Контакт: Antipozitive / MemNet](docs/contacts/antipozitive.md) | 213 |
-| 4 | [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) | 204 |
-| 5 | [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md) | 200 |
-| 6 | [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md) | 228 |
-| 7 | [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md) | 212 |
-| 8 | [Контакт: nlaik / LiteParse / research-docs](docs/contacts/nlaik.md) | 223 |
-| 9 | [Контакт: Sonia_Black / knowledge-space](docs/contacts/sonia-black.md) | 213 |
-| 10 | [Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md) | 247 |
-| 11 | [Контакт: tagir_analyzes / Legal RAG](docs/contacts/tagir-analyzes.md) | 206 |
-| 12 | [Контакт: VitalyOborin / Yodoca](docs/contacts/vitalyoborin.md) | 240 |
-| 13 | [Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md) | 206 |
-| 14 | [Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md) | 200 |
+| 1 | [Контакт: AnastasiyaW / knowledge-space, mclaude](docs/contacts/anastasiyaw.md) | 381 |
+| 2 | [Контакт: andrey_chuyan / Svyazi](docs/contacts/andrey-chuyan.md) | 366 |
+| 3 | [Контакт: Antipozitive / MemNet](docs/contacts/antipozitive.md) | 344 |
+| 4 | [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) | 404 |
+| 5 | [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md) | 402 |
+| 6 | [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md) | 353 |
+| 7 | [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md) | 406 |
+| 8 | [Контакт: nlaik / LiteParse / research-docs](docs/contacts/nlaik.md) | 357 |
+| 9 | [Контакт: Sonia_Black / knowledge-space](docs/contacts/sonia-black.md) | 353 |
+| 10 | [Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md) | 355 |
+| 11 | [Контакт: tagir_analyzes / Legal RAG](docs/contacts/tagir-analyzes.md) | 390 |
+| 12 | [Контакт: VitalyOborin / Yodoca](docs/contacts/vitalyoborin.md) | 392 |
+| 13 | [Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md) | 398 |
+| 14 | [Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md) | 392 |
 
 ## glossary
 
@@ -882,7 +881,7 @@ _`docs/technology-combinations/` — 47 файлов_
 
 ## templates
 
-_`docs/templates/` — 5 файлов_
+_`docs/templates/` — 23 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|

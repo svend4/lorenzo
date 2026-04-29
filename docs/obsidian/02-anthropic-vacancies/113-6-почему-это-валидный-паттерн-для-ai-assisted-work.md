@@ -1,7 +1,6 @@
 ---
 title: "6. Почему это валидный паттерн для AI-assisted workflows"
 tags:
-  - anthropic
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,8 +11,6 @@ date: 2026-04-29
 > Традиционная software engineering оптимизировалась против
 
 ---
-<!-- tags: anthropic -->
-
 
 
 

@@ -95,8 +95,6 @@ _Слов: 1413_
 h3. [Changelog (авто)|docs/CHANGELOG_AUTO.md]
 {quote}> - Статистика коммитов(#статистика-коммитов){quote}
 
-  * Содержание
-  * Contents
   * Статистика коммитов
   * История изменений
   * Упоминается в
@@ -157,7 +155,6 @@ h3. [Матрица компонентов Svyazi 2.0|docs/COMPONENT_MATRIX.md]
 {quote}> !TIP{quote}
 
   * Содержание
-  * Contents
   * Матрица возможностей
   * Покрытие возможностей
   * Каталог компонентов
@@ -245,7 +242,7 @@ h3. [Перекрёстные ссылки|docs/CROSSREFS.md]
   * Проекты → файлы
   * Файлы → проекты
 
-_Слов: 653_
+_Слов: 655_
 
 h3. [Кросс-секционный анализ|docs/CROSS_SECTION.md]
 {quote}> (косинусное сходство TF-IDF векторов){quote}
@@ -307,6 +304,7 @@ _Слов: 1121_
 h3. [Дайджест изменений|docs/DIGEST.md]
 {quote}> > chore: синхронизировать docs после обновления корпуса{quote}
 
+  * Contents
   * Последний коммит
   * Последние 3 коммита — итого
   * История коммитов (последние 15)
@@ -505,7 +503,6 @@ _Слов: 1015_
 h3. [AI-саммари разделов документации|docs/LLM_SUMMARIES.md]
 {quote}> - Архитектура Svyazi 2.0(#архитектура-svyazi-20){quote}
 
-  * Contents
   * Архитектура Svyazi 2.0
   * Вакансии Anthropic
   * Комбинации технологий
@@ -641,7 +638,7 @@ h3. [Прогресс MVP|docs/PROGRESS.md]
 * Приоритет 3: AnastasiyaW (knowledge-space, 11 упоминаний)
   * Связанные документы
 
-_Слов: 238_
+_Слов: 261_
 
 h3. [Глобальный Q&A|docs/QA.md]
 {quote}Вопросы и ответы по всем разделам монорепозитория.{quote}
@@ -712,7 +709,6 @@ h3. [Реестр рисков — Svyazi 2.0|docs/RISK_REGISTER.md]
 {quote}> !TIP{quote}
 
   * Содержание
-  * Contents
   * Матрица рисков (Вероятность × Влияние)
   * Реестр
   * Митигации
@@ -757,7 +753,7 @@ h3. [Индекс «Смотрите также»|docs/SEE_ALSO.md]
 
   * Ключевые связи
 
-_Слов: 217_
+_Слов: 220_
 
 h3. [Тональный анализ документов|docs/SENTIMENT.md]
 {quote}> !WARNING{quote}
@@ -870,7 +866,6 @@ h3. [Tech Radar — Svyazi 2.0|docs/TECH_RADAR.md]
 {quote}> !WARNING{quote}
 
   * Содержание
-  * Contents
   * Обзор
   * 🟢 ADOPT
   * 🔵 TRIAL
@@ -1053,7 +1048,6 @@ h3. [Svyazi[^svyazi] 2.0 — Архитектура и исследование]
 {quote}Файлов: 14{quote}
 
   * Содержание
-  * Подразделы
 
 _Слов: 330_
 
@@ -1379,7 +1373,6 @@ _Слов: 1510_
 h3. [portal-mcp.py|docs/02-anthropic-vacancies/123-portal-mcp-py.md]
 {quote}> Абстракт (авто){quote}
 
-  * Содержание
   * portal-mcp.py
 * ============================================================
 * MCP SDK imports
@@ -2203,6 +2196,14 @@ h3. [4. Десять областей применения|docs/02-anthropic-vac
 {quote}> Абстракт (авто){quote}
 
   * Содержание
+  * 3. Что делает агента Представительским
+
+_Слов: 666_
+
+h3. [4. Десять областей применения|docs/02-anthropic-vacancies/194-4-десять-областей-применения.md]
+{quote}> Абстракт (авто){quote}
+
+  * Содержание
   * 4. Десять областей применения
 
 _Слов: 1634_
@@ -2575,7 +2576,6 @@ _Слов: 496_
 h3. [Appendix C: Quick-Start Architecture for SGB Advocate Colleague|docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]
 {quote}> Абстракт (авто){quote}
 
-  * Содержание
   * Appendix C: Quick-Start Architecture for SGB Advocate Colleague
   * Упоминается в
   * Упоминается в
@@ -3272,7 +3272,6 @@ _Слов: 281_
 h3. [Appendix: Position in Series Visualization|docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md]
 {quote}> !WARNING{quote}
 
-  * Содержание
   * Appendix: Position in Series Visualization
   * Упоминается в
   * Упоминается в
@@ -3630,7 +3629,6 @@ _Слов: 276_
 h3. [Appendix C: Sample InGit MCP Server Tool Specifications|docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md]
 {quote}> !WARNING{quote}
 
-  * Содержание
   * Appendix C: Sample InGit MCP Server Tool Specifications
   * Упоминается в
   * Упоминается в
@@ -4337,7 +4335,6 @@ _Слов: 249_
 h3. [For the Curious: Philosophy|docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md]
 {quote}> Абстракт (авто){quote}
 
-  * Содержание
   * For the Curious: Philosophy
   * Упоминается в
   * Упоминается в
@@ -4682,10 +4679,10 @@ h3. [Q&A: 02-anthropic-vacancies|docs/02-anthropic-vacancies/QA.md]
 
   * Какие 5 архитектурных зазоров выделены в исследовании?
   * Что входит в интеграционный контракт между слоями?
-  * Какие кластеры найма выделены у Anthropic?
-  * Какие роли наиболее релевантны для профиля svend4?
   * Кто ключевые авторы проектов для контакта?
   * Какие вопросы лучше задавать авторам при первом контакте?
+  * Какие кластеры найма выделены у Anthropic?
+  * Какие роли наиболее релевантны для профиля svend4?
   * Каковы этапы MVP и их оценка по времени?
   * Что входит в первую итерацию прототипа?
   _... ещё 15 разделов_
@@ -4912,7 +4909,6 @@ h3. [Поиск AI-коллабораций|docs/04-ai-collaborations/README.md]
 {quote}Файлов: 15{quote}
 
   * Содержание
-  * Подразделы
 
 _Слов: 345_
 
@@ -5003,7 +4999,7 @@ h3. [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-project
 _Слов: 364_
 
 h3. [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md)
-{quote}> Абстракт (авто){quote}
+{quote}> !IMPORTANT{quote}
 
   * Статус
   * Упоминается в
@@ -6043,9 +6039,8 @@ h3. [Svyazi|docs/autofilled/components/svyazi.md]
 _Слов: 163_
 
 h3. [[Тема исследования]](docs/autofilled/research-summary.md)
-{quote}> - Ключевые находки(#ключевые-находки){quote}
+{quote}> {quote}
 
-  * Contents
   * Контекст
   * Ключевые находки
   * Источники
@@ -6287,7 +6282,7 @@ h3. [habr-unique-projects/ — поиск уникальных проектов 
   * Подпапки
   * Главная мысль диалога
 
-_Слов: 252_
+_Слов: 229_
 
 h3. [Три прямых аналога Svyazi: K2-18, Wikontic, NGT Memory|docs/habr-unique-projects/analogues/01-three-direct-analogues.md]
 {quote}> > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).{quote}
@@ -6476,7 +6471,7 @@ h3. [Сводный список авторов и потенциальных с
 {quote}> > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).{quote}
 
 
-_Слов: 255_
+_Слов: 252_
 
 h3. [final-ensembles|docs/habr-unique-projects/final-ensembles/README.md]
 {quote}Файлов: 4{quote}
@@ -9579,7 +9574,7 @@ h3. [Комбинация 21: Legal Corpus Analytics at Scale|docs/technology-co
 * Schema
 * Analytics queries (subsecond)
 
-_Слов: 251_
+_Слов: 318_
 
 h3. [Комбинация 22: Russian-International OSS Stack|docs/technology-combinations/combinations/22-russian-international-oss-stack.md]
 {quote}> > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).{quote}
@@ -9834,7 +9829,22 @@ h3. [Шаблоны документов|docs/templates/README.md]
 * Скопируйте нужный шаблон в нужную папку
 * Затем откройте и заполните поля в [квадратных скобках]
 
-_Слов: 90_
+_Слов: 82_
+
+h3. [Спецификация агента: [Название]](docs/templates/agent-spec.md)
+{quote}representative  professional-colleague  composite-skills  catalyst  companion  other{quote}
+
+  * Тип агента
+  * Назначение
+  * Принципал
+  * Скилы агента
+  * Tools (плагины)
+  * Память
+  * Decision boundary
+  * Failure modes
+  _... ещё 3 разделов_
+
+_Слов: 356_
 
 h3. [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md)
 {quote} Параметр  Значение {quote}
@@ -9844,7 +9854,21 @@ h3. [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md
   * Первое сообщение
   * Открытые вопросы для обсуждения
 
-_Слов: 133_
+_Слов: 119_
+
+h3. [Противоречие: [Название]](docs/templates/contradiction-record.md)
+{quote}CONTRA-NNNN{quote}
+
+  * ID
+  * Серьёзность
+  * Источник A
+  * Источник B
+  * В чём противоречие
+  * Возможные интерпретации
+  * Решение
+  * Связанные противоречия
+
+_Слов: 174_
 
 h3. [ADR: [Название решения]](docs/templates/decision-record.md)
 {quote}Предложено / Принято / Отклонено / Устарело{quote}
@@ -9855,7 +9879,7 @@ h3. [ADR: [Название решения]](docs/templates/decision-record.md)
   * Принятое решение
   * Последствия
 
-_Слов: 94_
+_Слов: 84_
 
 h3. [Ансамбль: [Название]](docs/templates/ensemble.md)
 {quote}Какую задачу решает ансамбль. Почему именно эта комбинация компонентов.{quote}
@@ -9878,7 +9902,37 @@ h3. [[Название компонента]](docs/templates/project-component.m
   * Интеграция с Svyazi
   * Контакты
 
-_Слов: 116_
+_Слов: 102_
+
+h3. [[Название протокола]](docs/templates/protocol-spec.md)
+{quote}draft  proposed  implemented  superseded{quote}
+
+  * 0. Status of this Document
+  * 1. Introduction
+  * 2. Terminology
+  * 3. Registry / Discovery
+  * 4. Passport / Identity
+  * 5. Compatibility Levels
+  * 6. Adapter Interface
+  * 7. PortalEntry
+  _... ещё 10 разделов_
+
+_Слов: 361_
+
+h3. [MVP: [Название]](docs/templates/prototype-mvp.md)
+{quote}MVP-NNNN{quote}
+
+  * ID
+  * Цель
+  * Метрика успеха
+  * Срок
+  * Состав
+  * Фазы
+  * Open questions
+  * Риски
+  _... ещё 4 разделов_
+
+_Слов: 368_
 
 h3. [[Тема исследования]](docs/templates/research-note.md)
 {quote}Зачем изучали. Какой вопрос стоял.{quote}
@@ -9889,7 +9943,7 @@ h3. [[Тема исследования]](docs/templates/research-note.md)
   * Открытые вопросы
   * Следующие шаги
 
-_Слов: 78_
+_Слов: 66_
 
 _Итого в секции: 633 слов, 6 файлов_
 

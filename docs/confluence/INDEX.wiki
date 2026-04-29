@@ -193,3 +193,19 @@ _Похожие документы:_
 * [ONBOARDING|docs/obsidian/ONBOARDING.md] (сходство 0.24)
 * [ONBOARDING|docs/ONBOARDING.md] (сходство 0.23)
 
+
+h2. Упоминается в
+
+* [AI-саммари разделов документации|LLM_SUMMARIES.md]
+* [docs|README.md]
+* [Все таблицы репозитория|TABLES.md]
+* [Карта репозитория Lorenzo|SITEMAP.md]
+* [Онбординг — Svyazi 2.0 / Lorenzo|ONBOARDING.md]
+
+
+h2. Связанные документы
+
+* [AI-саммари разделов документации|LLM_SUMMARIES.md] _25%_
+* [Метрики качества документации|METRICS.md] _21%_
+* [Онбординг — Svyazi 2.0 / Lorenzo|ONBOARDING.md] _21%_
+* [Отчёт о дублировании|DUPLICATES.md] _17%_

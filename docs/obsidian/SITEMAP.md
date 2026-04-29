@@ -887,9 +887,9 @@ _`docs/technology-combinations/` — 47 файлов_
 | 46 | [[25-30-extended|Сводная таблица 25–30 (Complete 1–30)]] | 246 |
 | 47 | [[31-35-final|Сводная таблица 31–35 (Complete 1–35)]] | 267 |
 
-## templates
+## glossary
 
-_`docs/templates/` — 5 файлов_
+_`docs/glossary/` — 3 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|

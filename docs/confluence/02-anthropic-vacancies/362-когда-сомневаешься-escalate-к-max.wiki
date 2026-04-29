@@ -12,8 +12,6 @@ h1. Когда сомневаешься — escalate к Max
 
 
 
-
-
 h2. Когда сомневаешься — escalate к Max
 
 Если задача presents:

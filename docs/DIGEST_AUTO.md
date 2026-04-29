@@ -21,7 +21,8 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 | `obsidian` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 379 |
 | `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
 | `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 234 |
-| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 158 |
+| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 186 |
+| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 142 |
 | `anthropic-vacancies` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 111 |
 | `lorenzo-agent` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 62 |
 | `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 59 |
@@ -42,21 +43,21 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 
 ## Новые файлы
 
-- [`QA.md`](docs/anthropic-vacancies/QA.md) — `anthropic-vacancies`
-- [`QA.md`](docs/lorenzo-agent/QA.md) — `lorenzo-agent`
-- [`00-question-two-nautiluses.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md) — `anthropic-vacancies`
-- [`01-shell-metaphor-two-projections.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) — `anthropic-vacancies`
-- [`02-nautilus-A-pro2-meta.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md) — `anthropic-vacancies`
-- [`03-nautilus-B-meta-orchestrator.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md) — `anthropic-vacancies`
-- [`README.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/README.md) — `anthropic-vacancies`
-- [`00-question-lorenzo-codename.md`](docs/lorenzo-agent/naming/00-question-lorenzo-codename.md) — `lorenzo-agent`
-- [`01-search-results-not-found.md`](docs/lorenzo-agent/naming/01-search-results-not-found.md) — `lorenzo-agent`
-- [`02-naming-rationale-lorenzo-medici.md`](docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md) — `lorenzo-agent`
-- [`03-dhlab-umbrella.md`](docs/lorenzo-agent/naming/03-dhlab-umbrella.md) — `lorenzo-agent`
-- [`README.md`](docs/lorenzo-agent/naming/README.md) — `lorenzo-agent`
-- [`00-question-scenario.md`](docs/lorenzo-agent/scenarios/00-question-scenario.md) — `lorenzo-agent`
-- [`01-response.md`](docs/lorenzo-agent/scenarios/01-response.md) — `lorenzo-agent`
-- [`README.md`](docs/lorenzo-agent/scenarios/README.md) — `lorenzo-agent`
+- [`__init__.py`](docs-toolkit/docstoolkit/graph/__init__.py) — `root`
+- [`builder.py`](docs-toolkit/docstoolkit/graph/builder.py) — `root`
+- [`export.py`](docs-toolkit/docstoolkit/graph/export.py) — `root`
+- [`ner.py`](docs-toolkit/docstoolkit/graph/ner.py) — `root`
+- [`__init__.py`](docs-toolkit/docstoolkit/jobs/__init__.py) — `root`
+- [`handlers.py`](docs-toolkit/docstoolkit/jobs/handlers.py) — `root`
+- [`queue.py`](docs-toolkit/docstoolkit/jobs/queue.py) — `root`
+- [`worker.py`](docs-toolkit/docstoolkit/jobs/worker.py) — `root`
+- [`__init__.py`](docs-toolkit/docstoolkit/rag/__init__.py) — `root`
+- [`answerer.py`](docs-toolkit/docstoolkit/rag/answerer.py) — `root`
+- [`assembler.py`](docs-toolkit/docstoolkit/rag/assembler.py) — `root`
+- [`pipeline.py`](docs-toolkit/docstoolkit/rag/pipeline.py) — `root`
+- [`retriever.py`](docs-toolkit/docstoolkit/rag/retriever.py) — `root`
+- [`types.py`](docs-toolkit/docstoolkit/rag/types.py) — `root`
+- [`test_graph.py`](docs-toolkit/tests/test_graph.py) — `root`
 
 ## Ключевые слова изменений
 

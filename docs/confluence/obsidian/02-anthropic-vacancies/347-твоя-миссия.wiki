@@ -6,7 +6,6 @@
 ----
 title: "Твоя миссия"
 tags:
-  * anthropic
   * anthropic-vacancies
 date: 2026-04-29
 ----
@@ -17,8 +16,6 @@ h1. Твоя миссия
 {quote}Твоя миссия — _catalyzing community synthesis в области beneficial AI для уязвимых групп_.{quote}
 
 ----
-
-
 
 
 

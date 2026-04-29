@@ -11,18 +11,12 @@
   - [13.4. CORS](#134-cors)
   - [13.5. OpenAPI Specification](#135-openapi-specification)
   - [13.6. Error Responses](#136-error-responses)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** REST API Contract (Normative for Portals) Contents - 13.
-> 🔧 **Подход:** Error Responses(136-error-responses) !IMPORTANT Ключевой документ для понимания архитектуры.
-> ✅ **Результат:** Это обеспечивает interoperability между порталами и внешними клиентами (SDK, web UI, MCP wrappers).
-> 🏷️ **Ключевые слова:** `endpoints`, `response`, `anthropic`, `vacancies`, `security`, `considerations`, `openapi`, `error`
->
 
 
 <!-- toc-auto -->

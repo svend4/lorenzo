@@ -1,10 +1,5 @@
 # Action Items, риски и решения
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 Автоматически извлечено из всех документов.
 
 **Всего элементов:** 2094
@@ -170,6 +165,12 @@
   _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
+- — call? [S]  
+  _→ QUESTIONS_
+- — call? [Твоя коммуникация в outreach]  
+  _→ QUESTIONS_
+- набора узкоспециализированных под-аге [Какой под-агент (или какие) должны её обработать]  
+  _→ QUESTIONS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
   _→ RISK_REGISTER_
 - — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Po  
@@ -351,6 +352,8 @@ _(148 дублей скрыто)_
   _→ 257-4-the-sub-agent-registry_
 - ** Выбрана federation.  
   _→ 26-14-adr-001-federation-over-merging_
+- Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)  
+  _→ 270-appendix-b-sub-agent-registry-schema-sketch_
 - скрывает суждения от principal  
   _→ 272-appendix-d-connection-diagram_
 - наиболее полно соответствует требованиям Layer B, при условии добавления AI-collaboration features.»  
@@ -407,6 +410,8 @@ _(148 дублей скрыто)_
   _→ 00-intro_
 - 2019 года, после изменений 2024 года применяется иначе»);  
   _→ 00-intro_
+- Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)  
+  _→ CLUSTERS_
 - tree для разрешения расхождений в §3  
   _→ CONCEPTS_
 - + обоснование]  
@@ -421,11 +426,9 @@ _(148 дублей скрыто)_
   _→ NARRATIVE_
 - Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-f  
   _→ OUTLINE_
-- Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters  
+- Tree for InGit Adopters](obsidian/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adop  
   _→ OUTLINE_
-- две-уровневая публикация](docs/nautilus/privacy-federation/02-two-tier-publication.md)](#архитектурное-решение-две-уровневая-публикацияdocsnautiluspri  
-  _→ OUTLINE_
-- × Auto AI Router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)](#комбинация-2-мультиагентный-хаос-реше  
+- - Связанные противоречия  
   _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
@@ -500,6 +503,8 @@ _(305 дублей скрыто)_
   _→ 01-executive-summary_
 - и бюджетный execution plane для агентных систем. | SENTINEL[^sentinel] micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy  
   _→ 03-component-catalog_
+- склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)  
+  _→ 03-component-catalog_
 - ложных связей и утечек | 1–2 дня |  
   _→ 07-mvp-planning_
 - | Почему это важно | Снижение риска |  
@@ -560,6 +565,10 @@ _(305 дублей скрыто)_
   _→ 150-appendix-c-version-history_
 - Analysis**  
   _→ 154-table-of-contents_
+- Analysis](162-8-risk-analysis.md)  
+  _→ 158-4-proposed-infrastructure_
+- Analysis](162-8-risk-analysis.md) _17%_  
+  _→ 159-5-economic-model_
 - mitigations**:  
   _→ 161-7-phased-rollout-plan_
 - Analysis](162-8-risk-analysis.md)  
@@ -930,6 +939,8 @@ _(305 дублей скрыто)_
   _→ 00-intro_
 - не на один классификатор, а на специализированные guards: LLM Guard, RAG Guard, Agent Guard, Tool Guard, MCP Guard и API Guard; RAG Guard проверяет po  
   _→ 00-intro_
+- склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)  
+  _→ 00-intro_
 - собирать в один релиз. Это продолжение поэтому сосредоточено на трёх вещах: архитектурных зазорах, новых ансамблях следу  
   _→ 08-что-это-продолжение-добавляет_
 - persistent memory: вредоносные инструкции могут быть записаны в долговременную память фрагментами и позже собраны в исполняемое поведение.  
@@ -968,7 +979,7 @@ _(305 дублей скрыто)_
   _→ MINDMAP_
 - Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysisdocs02-anthropic-vacancies162-8-risk-analysismd)  
   _→ OUTLINE_
-- Analysis](docs/nautilus/okwf-concept/08-risk-analysis.md)](#8-risk-analysisdocsnautilusokwf-concept08-risk-analysismd)  
+- [Название]](docs/templates/risk-entry.md)](#риск-названиеdocstemplatesrisk-entrymd)  
   _→ OUTLINE_
 - Regulatory Complexity Deployment Readiness  
   _→ OUTLINE_
@@ -1082,6 +1093,14 @@ _(305 дублей скрыто)_
   _→ do-not-glue_
 - (critical for Anwaltsgeheimnis)  
   _→ 14-local-first-agent-development-environment_
+- - **Auth:** как агент аутентифицируется  
+  _→ agent-spec_
+- [Название]  
+  _→ risk-entry_
+- реализуется)  
+  _→ risk-entry_
+- - [Антисценарий 1]  
+  _→ tech-pair_
 
 _(616 дублей скрыто)_
 
@@ -1107,6 +1126,8 @@ _(616 дублей скрыто)_
   _→ 01-интегральный-анализ-профиля-svend4_
 - and formulated alternative content-sharing strategies  
   _→ 01-интегральный-анализ-профиля-svend4_
+- и открытые вопросы](115-8-ограничения-и-открытые-вопросы.md)  
+  _→ 107-1-контекст-и-мотивация_
 - и открытые вопросы  
   _→ 115-8-ограничения-и-открытые-вопросы_
 - и открытые вопросы](#8-ограничения-и-открытые-вопросы)  
@@ -1207,7 +1228,7 @@ _(616 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросыdocs02-anthropic-vacancies1  
   _→ OUTLINE_
-- текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draftdocs02-  
+- текущей версии (0.1.0-draft)](obsidian/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draftobs  
   _→ OUTLINE_
 - и открытые вопросы](docs/nautilus/review-methodology/09-limitations-open-questions.md)](#8-ограничения-и-открытые-вопросыdocsnautilusreview-methodolog  
   _→ OUTLINE_
@@ -1273,6 +1294,8 @@ _(616 дублей скрыто)_
   _→ TABLES_
 - - [Риск 1]  
   _→ ensemble_
+- ## 12. Compatibility  
+  _→ protocol-spec_
 
 _(156 дублей скрыто)_
 
@@ -1302,6 +1325,8 @@ _(156 дублей скрыто)_
   _→ STATS_
 - после решения  
   _→ review-record_
+- SGB Y — [пояснение]  
+  _→ legal-case_
 
 _(10 дублей скрыто)_
 
@@ -1451,12 +1476,28 @@ _(10 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [119. Шаблоны]  
+  _→ QUESTIONS_
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
+  _→ QUESTIONS_
+- авторами компонентов? [Какова лицензия проекта?]  
+  _→ QUESTIONS_
+- первое сообщение автору проекта. |  
+  _→ REGISTRY_
+- первое сообщение автору OSS-проекта | `lorenzo-contacts` | `write_contact` | `co  
+  _→ REGISTRY_
+- N приоритетными контактами. |  
+  _→ REGISTRY_
 - авторам AgentFS, Yodoca, NGT | ⬜ Планируется |  
   _→ SCHEDULE_
 - авторам AgentFS, Yodoca, NGT**  
   _→ SCHEDULE_
+- первое сообщение автору OSS-проекта | "напиши письмо автору", "составь запрос на  
+  _→ TABLES_
 - PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
   _→ TABLES_
+- первое сообщение автору OSS-проекта  
+  _→ TASKS_INDEX_
 - technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого арте  
   _→ 10-three-entry-points_
 - vision paper на 10-15 страниц. «MMORPG as Professional Work Infrastructure: A Th  

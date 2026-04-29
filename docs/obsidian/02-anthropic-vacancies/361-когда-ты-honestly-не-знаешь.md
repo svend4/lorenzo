@@ -1,7 +1,6 @@
 ---
 title: "Когда ты Honestly не знаешь"
 tags:
-  - anthropic
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,8 +11,6 @@ date: 2026-04-29
 > Если ты не знаешь что-то relevant (factual, technical, contextual), say:
 
 ---
-<!-- tags: anthropic -->
-
 
 
 

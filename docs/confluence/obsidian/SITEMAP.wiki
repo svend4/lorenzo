@@ -877,7 +877,7 @@ _{{docs/technology-combinations/}} — 47 файлов_
 
 h2. templates
 
-_{{docs/templates/}} — 5 файлов_
+_{{docs/templates/}} — 23 файлов_
 
 || # || Документ || Слов ||
 || 1 || [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md) || 133 ||
