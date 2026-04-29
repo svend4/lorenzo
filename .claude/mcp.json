@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "lorenzo-docs": {
+      "command": "python",
+      "args": ["scripts/mcp_server.py"],
+      "description": "Lorenzo/Svyazi 2.0 knowledge base — search, read docs, run scripts"
+    }
+  }
+}
