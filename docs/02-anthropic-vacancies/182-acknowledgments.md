@@ -41,9 +41,9 @@ will be more than enough.
 ---
 
 **Похожие документы:**
-- [224-acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md) (сходство 0.17)
-- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) (сходство 0.14)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.13)
+- [224-acknowledgments](224-acknowledgments.md) (сходство 0.17)
+- [146-acknowledgments](146-acknowledgments.md) (сходство 0.14)
+- [267-acknowledgments](267-acknowledgments.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -51,24 +51,24 @@ will be more than enough.
 ---
 
 **Смотрите также:**
-- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
-- [224-acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
+- [146-acknowledgments](146-acknowledgments.md)
+- [224-acknowledgments](224-acknowledgments.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md) _48%_
-- [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) _42%_
-- [AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) _37%_
-- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) _33%_
-- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _29%_
-- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _29%_
-- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _25%_
+- [Acknowledgments](224-acknowledgments.md) _48%_
+- [Acknowledgments](146-acknowledgments.md) _42%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _37%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _33%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _29%_
+- [Acknowledgments](267-acknowledgments.md) _29%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _25%_
+- [Table of Contents](211-table-of-contents.md) _25%_

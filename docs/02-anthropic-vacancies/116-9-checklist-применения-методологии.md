@@ -66,17 +66,17 @@
 ---
 
 **Смотрите также:**
-- [PROGRESS](docs/PROGRESS.md)
-- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
-- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
-- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+- [PROGRESS](../PROGRESS.md)
+- [108-2-формальный-workflow](108-2-формальный-workflow.md)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [107-1-контекст-и-мотивация](107-1-контекст-и-мотивация.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [2. Формальный workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) _17%_
+- [2. Формальный workflow](108-2-формальный-workflow.md) _17%_

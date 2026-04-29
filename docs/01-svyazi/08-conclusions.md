@@ -19,9 +19,9 @@
 ---
 
 **Похожие документы:**
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.95)
-- [01-executive-summary](docs/01-svyazi/01-executive-summary.md) (сходство 0.21)
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md) (сходство 0.14)
+- [07-выводы](../04-ai-collaborations/07-выводы.md) (сходство 0.95)
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md) (сходство 0.21)
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -29,10 +29,10 @@
 ---
 
 **Смотрите также:**
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
-- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md)
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [MISSING](docs/MISSING.md)
+- [07-выводы](../04-ai-collaborations/07-выводы.md)
+- [08-что-это-продолжение-добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md)
+- [MISSING](../MISSING.md)
 
 
 
@@ -62,11 +62,11 @@
 <!-- related-auto -->
 ## Связанные документы
 
-- [Выводы](docs/04-ai-collaborations/07-выводы.md) _81%_
-- [Executive summary](docs/04-ai-collaborations/01-executive-summary.md) _53%_
-- [Что это продолжение добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) _37%_
-- [04 Ensembles Overview](docs/01-svyazi/04-ensembles-overview.md) _33%_
-- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
-- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _33%_
+- [Выводы](../04-ai-collaborations/07-выводы.md) _81%_
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md) _53%_
+- [Что это продолжение добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md) _37%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _33%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _33%_
 - [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) _29%_
-- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _29%_
+- [07 Mvp Planning](07-mvp-planning.md) _29%_

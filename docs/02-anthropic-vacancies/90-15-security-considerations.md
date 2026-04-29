@@ -84,9 +84,9 @@ supply-chain риск.
 ---
 
 **Похожие документы:**
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md) (сходство 0.55)
-- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) (сходство 0.11)
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.10)
+- [23-11-security-considerations](23-11-security-considerations.md) (сходство 0.55)
+- [88-13-rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md) (сходство 0.11)
+- [85-10-query-flow](85-10-query-flow.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -94,20 +94,20 @@ supply-chain риск.
 ---
 
 **Смотрите также:**
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [88-13-rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [11. Security Considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md) _42%_
-- [13. REST API Contract (Normative for Portals)](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) _29%_
-- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _17%_
-- [10. Query Flow](docs/02-anthropic-vacancies/85-10-query-flow.md) _17%_
+- [11. Security Considerations](23-11-security-considerations.md) _42%_
+- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md) _29%_
+- [9. Query Flow](21-9-query-flow.md) _17%_
+- [10. Query Flow](85-10-query-flow.md) _17%_

@@ -32,21 +32,21 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Content Overview](docs/02-anthropic-vacancies/58-content-overview.md) _17%_
-- [Content Overview](docs/02-anthropic-vacancies/12-content-overview.md) _16%_
+- [Content Overview](58-content-overview.md) _17%_
+- [Content Overview](12-content-overview.md) _16%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
-- [31-content-overview](docs/02-anthropic-vacancies/31-content-overview.md)
-- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
-- [58-content-overview](docs/02-anthropic-vacancies/58-content-overview.md)
+- [12-content-overview](12-content-overview.md)
+- [31-content-overview](31-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [58-content-overview](58-content-overview.md)
 

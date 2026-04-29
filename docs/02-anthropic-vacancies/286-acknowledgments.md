@@ -39,9 +39,9 @@ contributed structure and reference work.
 ---
 
 **Похожие документы:**
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.20)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.16)
-- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) (сходство 0.16)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.20)
+- [275-why-this-document-exists](275-why-this-document-exists.md) (сходство 0.16)
+- [319-acknowledgments](319-acknowledgments.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -49,24 +49,24 @@ contributed structure and reference work.
 ---
 
 **Смотрите также:**
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
-- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [319-acknowledgments](319-acknowledgments.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [267-acknowledgments](267-acknowledgments.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _53%_
-- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _48%_
-- [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) _42%_
-- [References](docs/02-anthropic-vacancies/287-references.md) _42%_
-- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _33%_
-- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
-- [AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) _33%_
-- [with Anthropic's Cowork Platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) _33%_
+- [Acknowledgments](319-acknowledgments.md) _53%_
+- [Acknowledgments](267-acknowledgments.md) _48%_
+- [Why This Document Exists](275-why-this-document-exists.md) _42%_
+- [References](287-references.md) _42%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _33%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _33%_
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _33%_

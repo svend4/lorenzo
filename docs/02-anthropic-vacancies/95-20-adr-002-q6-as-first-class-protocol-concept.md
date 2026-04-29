@@ -43,8 +43,8 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 ---
 
 **Похожие документы:**
-- [83-8-q6-space-normative](docs/02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.11)
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) (сходство 0.10)
+- [83-8-q6-space-normative](83-8-q6-space-normative.md) (сходство 0.11)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -52,24 +52,24 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 ---
 
 **Смотрите также:**
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
-- [83-8-q6-space-normative](docs/02-anthropic-vacancies/83-8-q6-space-normative.md)
-- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
-- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [83-8-q6-space-normative](83-8-q6-space-normative.md)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
+- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [21. ADR-003: Five Onboarding Paths as Equal-Rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _42%_
-- [8. Q6 Space (Normative)](docs/02-anthropic-vacancies/83-8-q6-space-normative.md) _37%_
-- [14. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) _33%_
-- [19. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) _33%_
-- [1. Introduction](docs/02-anthropic-vacancies/06-1-introduction.md) _17%_
-- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _17%_
-- [Bridges](docs/02-anthropic-vacancies/40-bridges.md) _17%_
-- [Bridges](docs/02-anthropic-vacancies/60-bridges.md) _17%_
+- [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _42%_
+- [8. Q6 Space (Normative)](83-8-q6-space-normative.md) _37%_
+- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md) _33%_
+- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md) _33%_
+- [1. Introduction](06-1-introduction.md) _17%_
+- [Appendix C: References](104-appendix-c-references.md) _17%_
+- [Bridges](40-bridges.md) _17%_
+- [Bridges](60-bridges.md) _17%_

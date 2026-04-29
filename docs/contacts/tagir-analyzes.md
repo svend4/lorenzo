@@ -62,22 +62,22 @@ _Создано автоматически: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
-- [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) _73%_
-- [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md) _73%_
-- [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md) _73%_
-- [Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md) _73%_
-- [Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md) _73%_
-- [Контакт: andrey_chuyan / Svyazi](docs/contacts/andrey-chuyan.md) _66%_
-- [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md) _66%_
-- [Контакт: nlaik / LiteParse / research-docs](docs/contacts/nlaik.md) _66%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
+- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
+- [Контакт: VladSpace / Graph RAG](vladspace.md) _73%_
+- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
+- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _66%_
+- [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _66%_
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _66%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [vladspace](docs/contacts/vladspace.md)
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [cutcode](docs/contacts/cutcode.md)
+- [vladspace](vladspace.md)
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [cutcode](cutcode.md)
 

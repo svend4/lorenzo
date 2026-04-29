@@ -184,8 +184,8 @@ _Обновлено: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [CLUSTERS](docs/CLUSTERS.md)
-- [READING_TIME](docs/READING_TIME.md)
-- [SEARCH](docs/SEARCH.md)
-- [READABILITY](docs/READABILITY.md)
+- [CLUSTERS](CLUSTERS.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+- [READABILITY](READABILITY.md)
 

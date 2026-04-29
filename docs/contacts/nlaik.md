@@ -62,22 +62,22 @@ _Создано автоматически: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
-- [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) _66%_
-- [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md) _66%_
-- [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md) _66%_
-- [Контакт: Sonia_Black / knowledge-space](docs/contacts/sonia-black.md) _66%_
-- [Контакт: tagir_analyzes / Legal RAG](docs/contacts/tagir-analyzes.md) _66%_
-- [Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md) _66%_
-- [Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md) _66%_
-- [Контакт: AnastasiyaW / knowledge-space, mclaude](docs/contacts/anastasiyaw.md) _60%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _66%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _66%_
+- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _66%_
+- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _66%_
+- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _66%_
+- [Контакт: VladSpace / Graph RAG](vladspace.md) _66%_
+- [Контакт: zodigancode / Rufler](zodigancode.md) _66%_
+- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md) _60%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [sonia-black](docs/contacts/sonia-black.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-- [antipozitive](docs/contacts/antipozitive.md)
-- [vladspace](docs/contacts/vladspace.md)
+- [sonia-black](sonia-black.md)
+- [tagir-analyzes](tagir-analyzes.md)
+- [antipozitive](antipozitive.md)
+- [vladspace](vladspace.md)
 

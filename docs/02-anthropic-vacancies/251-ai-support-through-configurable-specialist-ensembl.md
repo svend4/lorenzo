@@ -32,9 +32,9 @@
 ---
 
 **Похожие документы:**
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.70)
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.62)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.42)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.70)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.62)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.42)
 
 
 <!-- see-also -->
@@ -42,24 +42,24 @@
 ---
 
 **Смотрите также:**
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _81%_
-- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _66%_
-- [with Anthropic's Cowork Platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) _53%_
-- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) _48%_
-- [Существующие документы DHLab (твой context)](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) _48%_
-- [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) _37%_
-- [Acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md) _37%_
-- [The Missing Middle Layer Between Chat and Code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) _37%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _81%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _66%_
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _53%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _48%_
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _48%_
+- [Acknowledgments](146-acknowledgments.md) _37%_
+- [Acknowledgments](182-acknowledgments.md) _37%_
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md) _37%_

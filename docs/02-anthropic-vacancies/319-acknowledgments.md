@@ -67,9 +67,9 @@ Methodological: how-to и reflection.
 ---
 
 **Похожие документы:**
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.26)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.25)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.23)
+- [267-acknowledgments](267-acknowledgments.md) (сходство 0.26)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.25)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.23)
 
 
 <!-- see-also -->
@@ -77,24 +77,24 @@ Methodological: how-to и reflection.
 ---
 
 **Смотрите также:**
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
-- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [267-acknowledgments](267-acknowledgments.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [355-существующие-документы-dhlab-твой-context](355-существующие-документы-dhlab-твой-context.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _53%_
-- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _42%_
-- [References](docs/02-anthropic-vacancies/287-references.md) _37%_
-- [with Anthropic's Cowork Platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) _37%_
-- [Существующие документы DHLab (твой context)](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) _37%_
-- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _29%_
-- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _29%_
-- [AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) _29%_
+- [Acknowledgments](286-acknowledgments.md) _53%_
+- [Acknowledgments](267-acknowledgments.md) _42%_
+- [References](287-references.md) _37%_
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _37%_
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _37%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _29%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _29%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _29%_

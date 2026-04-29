@@ -73,9 +73,9 @@
 ---
 
 **Похожие документы:**
-- [245-ссылки](docs/02-anthropic-vacancies/245-ссылки.md) (сходство 0.22)
-- [183-references](docs/02-anthropic-vacancies/183-references.md) (сходство 0.22)
-- [268-references](docs/02-anthropic-vacancies/268-references.md) (сходство 0.18)
+- [245-ссылки](245-ссылки.md) (сходство 0.22)
+- [183-references](183-references.md) (сходство 0.22)
+- [268-references](268-references.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -83,24 +83,24 @@
 ---
 
 **Смотрите также:**
-- [245-ссылки](docs/02-anthropic-vacancies/245-ссылки.md)
-- [183-references](docs/02-anthropic-vacancies/183-references.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
-- [268-references](docs/02-anthropic-vacancies/268-references.md)
+- [245-ссылки](245-ссылки.md)
+- [183-references](183-references.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [268-references](268-references.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [References](docs/02-anthropic-vacancies/268-references.md) _29%_
-- [References](docs/02-anthropic-vacancies/183-references.md) _25%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
-- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md) _21%_
-- [References](docs/02-anthropic-vacancies/147-references.md) _21%_
-- [REPRESENTATIVE AGENT LAYER.md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md) _21%_
-- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _21%_
-- [Appendix C: Sample Use Cases in Detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) _21%_
+- [References](268-references.md) _29%_
+- [References](183-references.md) _25%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _21%_
+- [References](147-references.md) _21%_
+- [REPRESENTATIVE AGENT LAYER.md](166-representative-agent-layer-md.md) _21%_
+- [Abstract](168-abstract.md) _21%_
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_

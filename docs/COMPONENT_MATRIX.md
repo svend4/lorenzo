@@ -107,19 +107,19 @@ _Совместимость и возможности 14 компонентов 
 <!-- related-auto -->
 ## Связанные документы
 
-- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _17%_
-- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _17%_
-- [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _17%_
-- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _17%_
-- [Сеть проектов и авторов](docs/NETWORK.md) _17%_
+- [07 Mvp Planning](01-svyazi/07-mvp-planning.md) _17%_
+- [10 Second Order Ensembles](01-svyazi/10-second-order-ensembles.md) _17%_
+- [План прототипа и возможные контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _17%_
+- [Новые ансамбли следующего шага](04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _17%_
+- [Сеть проектов и авторов](NETWORK.md) _17%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [ONBOARDING](docs/ONBOARDING.md)
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
-- [PRIORITIES](docs/PRIORITIES.md)
-- [CONTACTS](docs/CONTACTS.md)
+- [ONBOARDING](ONBOARDING.md)
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [PRIORITIES](PRIORITIES.md)
+- [CONTACTS](CONTACTS.md)
 

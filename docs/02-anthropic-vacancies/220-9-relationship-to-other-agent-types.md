@@ -132,9 +132,9 @@ confusion. Distinguishing them enables clear architecture.
 ---
 
 **Похожие документы:**
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.18)
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md) (сходство 0.17)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.17)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.18)
+- [210-abstract](210-abstract.md) (сходство 0.17)
+- [223-12-closing](223-12-closing.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -142,24 +142,24 @@ confusion. Distinguishing them enables clear architecture.
 ---
 
 **Смотрите также:**
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [210-abstract](210-abstract.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [223-12-closing](223-12-closing.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _53%_
-- [2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) _42%_
-- [Abstract](docs/02-anthropic-vacancies/210-abstract.md) _37%_
-- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _37%_
-- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _33%_
-- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _33%_
-- [Appendix A: Comparative Table — Five Agent Types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md) _29%_
-- [Appendix B: Decision Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _53%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _42%_
+- [Abstract](210-abstract.md) _37%_
+- [Table of Contents](211-table-of-contents.md) _37%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _33%_
+- [12. Closing](223-12-closing.md) _33%_
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md) _29%_
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_

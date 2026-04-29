@@ -103,9 +103,9 @@ such a protocol.
 ---
 
 **Похожие документы:**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.19)
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.18)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.14)
+- [136-abstract](136-abstract.md) (сходство 0.19)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md) (сходство 0.18)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -113,24 +113,24 @@ such a protocol.
 ---
 
 **Смотрите также:**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
+- [136-abstract](136-abstract.md)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Abstract](docs/02-anthropic-vacancies/136-abstract.md) _33%_
-- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _29%_
-- [3. Three Inter-Layer Protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) _29%_
-- [2. The Double-Triangle Architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) _21%_
-- [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _21%_
-- [5. Pattern Library as Bridge Between Triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) _21%_
-- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md) _21%_
-- [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) _21%_
+- [Abstract](136-abstract.md) _33%_
+- [Table of Contents](137-table-of-contents.md) _29%_
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _29%_
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _21%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _21%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md) _21%_
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _21%_

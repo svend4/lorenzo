@@ -33,7 +33,7 @@
 ---
 
 **Похожие документы:**
-- [345-кто-ты](docs/02-anthropic-vacancies/345-кто-ты.md) (сходство 0.15)
+- [345-кто-ты](345-кто-ты.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -41,19 +41,19 @@
 ---
 
 **Смотрите также:**
-- [345-кто-ты](docs/02-anthropic-vacancies/345-кто-ты.md)
-- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [345-кто-ты](345-кто-ты.md)
+- [353-что-ты-не-можешь-делать-вообще](353-что-ты-не-можешь-делать-вообще.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [211-table-of-contents](211-table-of-contents.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Кто ты](docs/02-anthropic-vacancies/345-кто-ты.md) _25%_
-- [Что ты НЕ МОЖЕШЬ делать вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) _21%_
-- [Final note: Ты — experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md) _17%_
+- [Кто ты](345-кто-ты.md) _25%_
+- [Что ты НЕ МОЖЕШЬ делать вообще](353-что-ты-не-можешь-делать-вообще.md) _21%_
+- [Final note: Ты — experiment](364-final-note-ты-experiment.md) _17%_

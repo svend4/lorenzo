@@ -637,9 +637,9 @@ digraph lorenzo {
 ---
 
 **Смотрите также:**
-- [NETWORK](docs/NETWORK.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [NETWORK](docs/NETWORK.md)
-- [MINDMAP](docs/MINDMAP.md)
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+- [NETWORK](NETWORK.md)
+- [GLOSSARY](GLOSSARY.md)
+- [NETWORK](NETWORK.md)
+- [MINDMAP](MINDMAP.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 

@@ -46,8 +46,8 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [dmitriila](docs/contacts/dmitriila.md)
-- [mixaill76](docs/contacts/mixaill76.md)
+- [vladspace](../contacts/vladspace.md)
+- [cutcode](../contacts/cutcode.md)
+- [dmitriila](../contacts/dmitriila.md)
+- [mixaill76](../contacts/mixaill76.md)
 

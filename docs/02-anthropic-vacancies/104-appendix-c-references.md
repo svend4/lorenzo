@@ -92,9 +92,9 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 ---
 
 **Похожие документы:**
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.16)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.13)
-- [69-section](docs/02-anthropic-vacancies/69-section.md) (сходство 0.11)
+- [122-глоссарий](122-глоссарий.md) (сходство 0.16)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md) (сходство 0.13)
+- [69-section](69-section.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -102,24 +102,24 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 ---
 
 **Смотрите также:**
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [69-section](docs/02-anthropic-vacancies/69-section.md)
-- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [122-глоссарий](122-глоссарий.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [69-section](69-section.md)
+- [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [18. Reference Implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) _33%_
-- [13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) _29%_
-- [For the Curious: Philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md) _29%_
-- [🇬🇧 About](docs/02-anthropic-vacancies/68-about.md) _29%_
-- [Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) _25%_
-- [Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) _25%_
-- [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _25%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _33%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _29%_
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _29%_
+- [🇬🇧 About](68-about.md) _29%_
+- [Appendix B: Change Log](103-appendix-b-change-log.md) _25%_
+- [Глоссарий](122-глоссарий.md) _25%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _25%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_

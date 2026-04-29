@@ -218,9 +218,9 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 ---
 
 **Похожие документы:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.15)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.14)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) (сходство 0.14)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.15)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.14)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -228,24 +228,24 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 ---
 
 **Смотрите также:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) _37%_
-- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _29%_
-- [9. Relationship to Other Agent Types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) _29%_
-- [COMPOSITE SKILLS AGENT.md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md) _29%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _25%_
-- [Appendix C: Sample Use Cases in Detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) _25%_
-- [PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md) _25%_
-- [Abstract](docs/02-anthropic-vacancies/210-abstract.md) _25%_
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _37%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _29%_
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _29%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _25%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _25%_
+- [Abstract](210-abstract.md) _25%_

@@ -51,7 +51,7 @@ class PortalEntry:
 ---
 
 **Похожие документы:**
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.25)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.25)
 
 
 <!-- see-also -->
@@ -59,24 +59,24 @@ class PortalEntry:
 ---
 
 **Смотрите также:**
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _42%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _29%_
-- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _29%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _29%_
-- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _21%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _21%_
-- [⬡](docs/02-anthropic-vacancies/69-section.md) _21%_
-- [Abstract](docs/02-anthropic-vacancies/74-abstract.md) _21%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _42%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _29%_
+- [2. Terminology](77-2-terminology.md) _29%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _29%_
+- [2. Terminology](07-2-terminology.md) _21%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _21%_
+- [⬡](69-section.md) _21%_
+- [Abstract](74-abstract.md) _21%_

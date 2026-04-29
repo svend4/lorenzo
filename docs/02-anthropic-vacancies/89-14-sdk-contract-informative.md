@@ -57,7 +57,7 @@ acceptable только для debugging/experimental версий.
 ---
 
 **Похожие документы:**
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.12)
+- [93-18-reference-implementation](93-18-reference-implementation.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -65,24 +65,24 @@ acceptable только для debugging/experimental версий.
 ---
 
 **Смотрите также:**
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _33%_
-- [Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) _25%_
-- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _25%_
-- [18. Reference Implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) _25%_
-- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _21%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _21%_
-- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) _21%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _21%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _33%_
+- [Appendix B: Change Log](103-appendix-b-change-log.md) _25%_
+- [Appendix C: References](104-appendix-c-references.md) _25%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _25%_
+- [Abstract](04-abstract.md) _21%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _21%_

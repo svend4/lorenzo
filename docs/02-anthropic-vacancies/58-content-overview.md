@@ -40,14 +40,14 @@
 ---
 
 **Смотрите также:**
-- [56-essence](docs/02-anthropic-vacancies/56-essence.md)
+- [56-essence](56-essence.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Content Overview](docs/02-anthropic-vacancies/38-content-overview.md) _17%_
+- [Content Overview](38-content-overview.md) _17%_

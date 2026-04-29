@@ -321,9 +321,9 @@ Wiederholen
 ---
 
 **Похожие документы:**
-- [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) (сходство 0.15)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) (сходство 0.11)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.11)
+- [207-приложение-c-образцы-случаев-использования-в-детал](207-приложение-c-образцы-случаев-использования-в-детал.md) (сходство 0.15)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md) (сходство 0.11)
+- [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -331,17 +331,17 @@ Wiederholen
 ---
 
 **Смотрите также:**
-- [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [207-приложение-c-образцы-случаев-использования-в-детал](207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
+- [ACTION_ITEMS](../ACTION_ITEMS.md)
+- [165-closing](165-closing.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Приложение C: Образцы Случаев Использования в Деталях](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) _17%_
+- [Приложение C: Образцы Случаев Использования в Деталях](207-приложение-c-образцы-случаев-использования-в-детал.md) _17%_

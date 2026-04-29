@@ -46,8 +46,8 @@ hamming-переходов от «root» вершин) коррелирует с
 ---
 
 **Похожие документы:**
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.21)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md) (сходство 0.20)
+- [60-bridges](60-bridges.md) (сходство 0.21)
+- [40-bridges](40-bridges.md) (сходство 0.20)
 
 
 <!-- see-also -->
@@ -55,24 +55,24 @@ hamming-переходов от «root» вершин) коррелирует с
 ---
 
 **Смотрите также:**
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [60-bridges](60-bridges.md)
+- [40-bridges](40-bridges.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [57-native-format](57-native-format.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Bridges](docs/02-anthropic-vacancies/40-bridges.md) _37%_
-- [Native Format](docs/02-anthropic-vacancies/57-native-format.md) _33%_
-- [Bridges](docs/02-anthropic-vacancies/60-bridges.md) _29%_
-- [Native Format](docs/02-anthropic-vacancies/47-native-format.md) _25%_
-- [Compatibility Level](docs/02-anthropic-vacancies/51-compatibility-level.md) _25%_
-- [Compatibility Level](docs/02-anthropic-vacancies/61-compatibility-level.md) _21%_
-- [15. Glossary of Examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) _17%_
-- [passports/info1.md](docs/02-anthropic-vacancies/35-passports-info1-md.md) _17%_
+- [Bridges](40-bridges.md) _37%_
+- [Native Format](57-native-format.md) _33%_
+- [Bridges](60-bridges.md) _29%_
+- [Native Format](47-native-format.md) _25%_
+- [Compatibility Level](51-compatibility-level.md) _25%_
+- [Compatibility Level](61-compatibility-level.md) _21%_
+- [15. Glossary of Examples](27-15-glossary-of-examples.md) _17%_
+- [passports/info1.md](35-passports-info1-md.md) _17%_

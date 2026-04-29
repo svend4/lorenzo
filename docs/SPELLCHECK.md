@@ -76,8 +76,8 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 ---
 
 **Смотрите также:**
-- [STATS](docs/STATS.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [PRIORITIES](docs/PRIORITIES.md)
-- [CITATION_INDEX](docs/CITATION_INDEX.md)
+- [STATS](STATS.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [PRIORITIES](PRIORITIES.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
 

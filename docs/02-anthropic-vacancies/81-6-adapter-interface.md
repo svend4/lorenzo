@@ -98,9 +98,9 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 ---
 
 **Похожие документы:**
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.51)
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.12)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.12)
+- [18-6-adapter-interface](18-6-adapter-interface.md) (сходство 0.51)
+- [85-10-query-flow](85-10-query-flow.md) (сходство 0.12)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -108,24 +108,24 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 ---
 
 **Смотрите также:**
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](19-7-portalentry-structure.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _53%_
-- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _29%_
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _29%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _25%_
-- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _25%_
-- [Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) _21%_
-- [11. Relevance Ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) _21%_
-- [14. SDK Contract (Informative)](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md) _21%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _53%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _29%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _25%_
+- [9. Query Flow](21-9-query-flow.md) _25%_
+- [Appendix B: Change Log](103-appendix-b-change-log.md) _21%_
+- [11. Relevance Ranking](86-11-relevance-ranking.md) _21%_
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md) _21%_

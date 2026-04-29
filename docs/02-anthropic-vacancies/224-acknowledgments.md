@@ -35,9 +35,9 @@ errors are author's responsibility.
 ---
 
 **Похожие документы:**
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.20)
-- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md) (сходство 0.17)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.15)
+- [267-acknowledgments](267-acknowledgments.md) (сходство 0.20)
+- [182-acknowledgments](182-acknowledgments.md) (сходство 0.17)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -45,24 +45,24 @@ errors are author's responsibility.
 ---
 
 **Смотрите также:**
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [267-acknowledgments](267-acknowledgments.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md) _48%_
-- [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) _42%_
-- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) _29%_
-- [AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) _29%_
-- [The Missing Middle Layer Between Chat and Code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) _29%_
-- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _25%_
-- [References](docs/02-anthropic-vacancies/183-references.md) _21%_
+- [Acknowledgments](182-acknowledgments.md) _48%_
+- [Acknowledgments](146-acknowledgments.md) _42%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _29%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _29%_
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md) _29%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _25%_
+- [Table of Contents](211-table-of-contents.md) _25%_
+- [References](183-references.md) _21%_

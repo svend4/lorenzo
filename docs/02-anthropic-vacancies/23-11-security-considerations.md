@@ -60,7 +60,7 @@ Implementation MUST различать public и private registries и не
 ---
 
 **Похожие документы:**
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.55)
+- [90-15-security-considerations](90-15-security-considerations.md) (сходство 0.55)
 
 
 <!-- see-also -->
@@ -68,20 +68,20 @@ Implementation MUST различать public и private registries и не
 ---
 
 **Смотрите также:**
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [88-13-rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
+- [19-7-portalentry-structure](19-7-portalentry-structure.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [15. Security Considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) _42%_
-- [13. REST API Contract (Normative for Portals)](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) _21%_
-- [🇬🇧 About](docs/02-anthropic-vacancies/68-about.md) _17%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _17%_
+- [15. Security Considerations](90-15-security-considerations.md) _42%_
+- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md) _21%_
+- [🇬🇧 About](68-about.md) _17%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _17%_

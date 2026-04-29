@@ -284,8 +284,8 @@ _(Слова, характерные только для этого раздел
 ---
 
 **Смотрите также:**
-- [KEYWORD_INDEX](docs/KEYWORD_INDEX.md)
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [PRIORITIES](docs/PRIORITIES.md)
-- [SENTIMENT](docs/SENTIMENT.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [PRIORITIES](PRIORITIES.md)
+- [SENTIMENT](SENTIMENT.md)
 

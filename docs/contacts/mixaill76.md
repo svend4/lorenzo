@@ -62,22 +62,22 @@ _Создано автоматически: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
-- [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) _81%_
-- [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md) _81%_
-- [Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md) _81%_
-- [Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md) _81%_
-- [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md) _73%_
-- [Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md) _73%_
-- [Контакт: tagir_analyzes / Legal RAG](docs/contacts/tagir-analyzes.md) _73%_
-- [Контакт: VitalyOborin / Yodoca](docs/contacts/vitalyoborin.md) _73%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _81%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _81%_
+- [Контакт: VladSpace / Graph RAG](vladspace.md) _81%_
+- [Контакт: zodigancode / Rufler](zodigancode.md) _81%_
+- [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _73%_
+- [Контакт: spbmolot / NGT Memory](../autofilled/components/spbmolot.md) _73%_
+- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _73%_
+- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _73%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [dmitriila](docs/contacts/dmitriila.md)
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [zodigancode](docs/contacts/zodigancode.md)
+- [dmitriila](dmitriila.md)
+- [vladspace](vladspace.md)
+- [cutcode](cutcode.md)
+- [zodigancode](zodigancode.md)
 

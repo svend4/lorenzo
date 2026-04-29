@@ -33,7 +33,7 @@ _Обновлено: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [README](docs/05-habr-projects/README.md) (сходство 0.16)
+- [README](../README.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -41,22 +41,22 @@ _Обновлено: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
-- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [yodoca](memory/yodoca.md)
+- [02-collaboration-partners](02-collaboration-partners.md)
+- [123-portal-mcp-py](../02-anthropic-vacancies/123-portal-mcp-py.md)
+- [wikontic](knowledge/wikontic.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md)
+- [Уникальные проекты с Хабра](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md) _29%_
+- [Уникальные проекты с Хабра](../README.md) _29%_
 - [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) _25%_
-- [Wikontic: семантический граф](docs/05-habr-projects/knowledge/wikontic.md) _21%_
-- [Системы памяти](docs/05-habr-projects/memory/README.md) _21%_
-- [Системы знаний](docs/05-habr-projects/knowledge/README.md) _17%_
+- [Wikontic: семантический граф](knowledge/wikontic.md) _21%_
+- [Системы памяти](../README.md) _21%_
+- [Системы знаний](../README.md) _17%_
 - [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _17%_

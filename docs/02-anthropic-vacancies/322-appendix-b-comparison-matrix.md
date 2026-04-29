@@ -33,9 +33,9 @@ local control, free substrate plus Cowork subscription.
 ---
 
 **Похожие документы:**
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.12)
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.10)
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.10)
+- [307-abstract](307-abstract.md) (сходство 0.12)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.10)
+- [311-3-what-ingit-provides-that-cowork-lacks](311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -43,24 +43,24 @@ local control, free substrate plus Cowork subscription.
 ---
 
 **Смотрите также:**
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [307-abstract](307-abstract.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _29%_
-- [6. Refined InGit Scope with Cowork in Mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) _25%_
-- [Appendix A: Decision Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) _25%_
-- [Abstract](docs/02-anthropic-vacancies/307-abstract.md) _21%_
-- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _21%_
-- [Рекомендуемый порядок чтения](docs/READING_ORDER.md) _21%_
-- [Карта происхождения текстов](docs/SOURCE_MAP.md) _21%_
-- [Appendix B: Summary of Contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) _17%_
+- [Table of Contents](308-table-of-contents.md) _29%_
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _25%_
+- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _25%_
+- [Abstract](307-abstract.md) _21%_
+- [Содержание](326-содержание.md) _21%_
+- [Рекомендуемый порядок чтения](../READING_ORDER.md) _21%_
+- [Карта происхождения текстов](../SOURCE_MAP.md) _21%_
+- [Appendix B: Summary of Contributions](149-appendix-b-summary-of-contributions.md) _17%_

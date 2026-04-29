@@ -84,9 +84,9 @@ Portal возвращает static entries.
 ---
 
 **Похожие документы:**
-- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.32)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.12)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.12)
+- [17-5-compatibility-levels](17-5-compatibility-levels.md) (сходство 0.32)
+- [77-2-terminology](77-2-terminology.md) (сходство 0.12)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -94,24 +94,24 @@ Portal возвращает static entries.
 ---
 
 **Смотрите также:**
-- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+- [17-5-compatibility-levels](17-5-compatibility-levels.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [77-2-terminology](77-2-terminology.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) _48%_
-- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) _21%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _21%_
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _21%_
-- [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md) _21%_
-- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _21%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _17%_
-- [Compatibility Level](docs/02-anthropic-vacancies/51-compatibility-level.md) _17%_
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _48%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _21%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+- [Compatibility Level](41-compatibility-level.md) _21%_
+- [2. Terminology](77-2-terminology.md) _21%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _17%_
+- [Compatibility Level](51-compatibility-level.md) _17%_

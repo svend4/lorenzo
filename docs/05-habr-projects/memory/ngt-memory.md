@@ -17,7 +17,7 @@
 | Теги | — |
 | Упоминаний в репо | 260 |
 | Слой | memory |
-| Контакт | [@spbmolot](docs/contacts/spbmolot.md) |
+| Контакт | [@spbmolot](../../autofilled/components/spbmolot.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-04-29_
@@ -49,7 +49,7 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 ---
 
 **Похожие документы:**
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md) (сходство 0.10)
+- [wikontic](../knowledge/wikontic.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -57,10 +57,10 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 ---
 
 **Смотрите также:**
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
-- [NARRATIVE](docs/NARRATIVE.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [wikontic](../knowledge/wikontic.md)
+- [02-collaboration-partners](../02-collaboration-partners.md)
+- [NARRATIVE](../../NARRATIVE.md)
+- [yodoca](yodoca.md)
 
 
 
@@ -77,15 +77,15 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Системы памяти](docs/05-habr-projects/memory/README.md)
+- [Системы памяти](../../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Синтез: как проекты собираются вместе](docs/05-habr-projects/01-synthesis.md) _25%_
-- [Системы памяти](docs/05-habr-projects/memory/README.md) _25%_
-- [Авторы и контакты](docs/05-habr-projects/02-collaboration-partners.md) _21%_
-- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md) _21%_
-- [Wikontic: семантический граф](docs/05-habr-projects/knowledge/wikontic.md) _21%_
+- [Синтез: как проекты собираются вместе](../01-synthesis.md) _25%_
+- [Системы памяти](../../README.md) _25%_
+- [Авторы и контакты](../02-collaboration-partners.md) _21%_
+- [Уникальные проекты с Хабра](../../README.md) _21%_
+- [Wikontic: семантический граф](../knowledge/wikontic.md) _21%_
 - [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _21%_
-- [Diff базы знаний между версиями](docs/VERSION_DIFF.md) _21%_
+- [Diff базы знаний между версиями](../../VERSION_DIFF.md) _21%_

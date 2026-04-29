@@ -18,7 +18,7 @@
 | Теги | — |
 | Упоминаний в репо | 90 |
 | Слой | memory |
-| Контакт | [@Antipozitive](docs/contacts/antipozitive.md) |
+| Контакт | [@Antipozitive](../../contacts/antipozitive.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-04-29_
@@ -336,9 +336,9 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 ---
 
 **Похожие документы:**
-- [00-intro](docs/04-ai-collaborations/00-intro.md) (сходство 0.67)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.13)
-- [TABLES](docs/TABLES.md) (сходство 0.13)
+- [00-intro](../../04-ai-collaborations/00-intro.md) (сходство 0.67)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.13)
+- [TABLES](../../TABLES.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -346,10 +346,10 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 ---
 
 **Смотрите также:**
-- [00-intro](docs/04-ai-collaborations/00-intro.md)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [TABLES](docs/TABLES.md)
-- [CONCEPTS](docs/CONCEPTS.md)
+- [00-intro](../../04-ai-collaborations/00-intro.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [TABLES](../../TABLES.md)
+- [CONCEPTS](../../CONCEPTS.md)
 
 
 
@@ -378,10 +378,10 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Системы памяти](docs/05-habr-projects/memory/README.md)
+- [Системы памяти](../../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Введение](docs/04-ai-collaborations/00-intro.md) _42%_
-- [Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md) _21%_
+- [Введение](../../04-ai-collaborations/00-intro.md) _42%_
+- [Графы знаний и Legal AI](../../03-technology-combinations/02-knowledge-graphs.md) _21%_

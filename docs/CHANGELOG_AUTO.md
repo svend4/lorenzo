@@ -120,8 +120,8 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 ---
 
 **Смотрите также:**
-- [CHANGELOG](docs/CHANGELOG.md)
-- [DEPENDENCY_MAP](docs/DEPENDENCY_MAP.md)
-- [DIGEST](docs/DIGEST.md)
-- [SITEMAP](docs/SITEMAP.md)
+- [CHANGELOG](CHANGELOG.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST](DIGEST.md)
+- [SITEMAP](SITEMAP.md)
 

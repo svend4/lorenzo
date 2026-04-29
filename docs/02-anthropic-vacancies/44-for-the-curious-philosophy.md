@@ -34,7 +34,7 @@ Last updated: 2026-04*
 ---
 
 **Похожие документы:**
-- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md) (сходство 0.12)
+- [54-for-the-curious-philosophy](54-for-the-curious-philosophy.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -42,24 +42,24 @@ Last updated: 2026-04*
 ---
 
 **Смотрите также:**
-- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)
-- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
+- [54-for-the-curious-philosophy](54-for-the-curious-philosophy.md)
+- [62-author-contact](62-author-contact.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _33%_
-- [Содержание](docs/02-anthropic-vacancies/190-содержание.md) _33%_
-- [For the Curious: Philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md) _33%_
-- [Planned (v0.2.0)](docs/02-anthropic-vacancies/132-planned-v0-2-0.md) _29%_
-- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _29%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _29%_
-- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _29%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _25%_
+- [Abstract](04-abstract.md) _33%_
+- [Содержание](190-содержание.md) _33%_
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _33%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _29%_
+- [Table of Contents](154-table-of-contents.md) _29%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
+- [Содержание](326-содержание.md) _29%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _25%_

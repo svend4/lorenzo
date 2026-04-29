@@ -149,9 +149,9 @@ economically viable for moderately sized professions.
 ---
 
 **Похожие документы:**
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.20)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
-- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.12)
+- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.20)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -159,24 +159,24 @@ economically viable for moderately sized professions.
 ---
 
 **Смотрите также:**
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [223-12-closing](223-12-closing.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) _29%_
-- [8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) _29%_
-- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _29%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _25%_
-- [2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) _25%_
-- [6. Risks Specific to this Category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) _25%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
-- [7. Economics of Combinatorial Replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) _25%_
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _29%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _29%_
+- [10. Open Questions](221-10-open-questions.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _25%_
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _25%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md) _25%_

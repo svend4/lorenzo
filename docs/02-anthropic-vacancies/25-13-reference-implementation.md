@@ -28,9 +28,9 @@ Reference НЕ является нормативной. Альтернативн
 ---
 
 **Похожие документы:**
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.36)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md) (сходство 0.21)
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.19)
+- [93-18-reference-implementation](93-18-reference-implementation.md) (сходство 0.36)
+- [42-author-contact](42-author-contact.md) (сходство 0.21)
+- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.19)
 
 
 <!-- see-also -->
@@ -38,24 +38,24 @@ Reference НЕ является нормативной. Альтернативн
 ---
 
 **Смотрите также:**
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
+- [42-author-contact](42-author-contact.md)
+- [62-author-contact](62-author-contact.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [18. Reference Implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) _81%_
-- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _60%_
-- [Author & Contact](docs/02-anthropic-vacancies/62-author-contact.md) _48%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _37%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) _37%_
-- [passports/info1.md](docs/02-anthropic-vacancies/35-passports-info1-md.md) _33%_
-- [Author & Contact](docs/02-anthropic-vacancies/52-author-contact.md) _33%_
-- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _29%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _81%_
+- [Author & Contact](42-author-contact.md) _60%_
+- [Author & Contact](62-author-contact.md) _48%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _37%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _37%_
+- [passports/info1.md](35-passports-info1-md.md) _33%_
+- [Author & Contact](52-author-contact.md) _33%_
+- [Appendix C: References](104-appendix-c-references.md) _29%_

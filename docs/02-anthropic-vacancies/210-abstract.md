@@ -52,9 +52,9 @@ their daily work.
 ---
 
 **Похожие документы:**
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.30)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.18)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.17)
+- [223-12-closing](223-12-closing.md) (сходство 0.30)
+- [252-abstract](252-abstract.md) (сходство 0.18)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -62,24 +62,24 @@ their daily work.
 ---
 
 **Смотрите также:**
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [223-12-closing](223-12-closing.md)
+- [252-abstract](252-abstract.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
+- [211-table-of-contents](211-table-of-contents.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _48%_
-- [9. Relationship to Other Agent Types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) _37%_
-- [Abstract](docs/02-anthropic-vacancies/252-abstract.md) _33%_
-- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _29%_
-- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _29%_
-- [COMPOSITE SKILLS AGENT.md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md) _29%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _25%_
-- [PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md) _25%_
+- [12. Closing](223-12-closing.md) _48%_
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _37%_
+- [Abstract](252-abstract.md) _33%_
+- [Abstract](168-abstract.md) _29%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _29%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _25%_

@@ -76,8 +76,8 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 ---
 
 **Похожие документы:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.34)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.10)
+- [84-9-consensus-algorithm](84-9-consensus-algorithm.md) (сходство 0.34)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -85,18 +85,18 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 ---
 
 **Смотрите также:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+- [84-9-consensus-algorithm](84-9-consensus-algorithm.md)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [21-9-query-flow](21-9-query-flow.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [9. Consensus Algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) _53%_
-- [11. Relevance Ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) _25%_
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md) _53%_
+- [11. Relevance Ranking](86-11-relevance-ranking.md) _25%_

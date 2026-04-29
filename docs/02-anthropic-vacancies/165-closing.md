@@ -538,9 +538,9 @@ Story тверже становится. «Infrastructure для distributed wor
 ---
 
 **Похожие документы:**
-- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.18)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.18)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.18)
+- [CONCEPTS](../CONCEPTS.md) (сходство 0.18)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md) (сходство 0.18)
+- [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -548,18 +548,18 @@ Story тверже становится. «Infrastructure для distributed wor
 ---
 
 **Смотрите также:**
-- [CONCEPTS](docs/CONCEPTS.md)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [ACTION_ITEMS](../ACTION_ITEMS.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) _25%_
-- [Appendix D: Connection Diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) _21%_
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _25%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _21%_

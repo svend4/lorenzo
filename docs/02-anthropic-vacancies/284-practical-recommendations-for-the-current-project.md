@@ -61,9 +61,9 @@ The friction will be lower than no infrastructure at all.
 ---
 
 **Похожие документы:**
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.16)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.15)
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.16)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md) (сходство 0.15)
+- [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -71,24 +71,24 @@ The friction will be lower than no infrastructure at all.
 ---
 
 **Смотрите также:**
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [285-closing](285-closing.md)
+- [279-existing-approximations](279-existing-approximations.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _42%_
-- [What's Missing — Layer B](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) _37%_
-- [The Specific Case in Front of Us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) _37%_
-- [7. Practical First Steps This Month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) _33%_
-- [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
-- [Existing Approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) _25%_
-- [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) _25%_
-- [What Industry Will Likely Build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md) _25%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _42%_
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _37%_
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _37%_
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _33%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
+- [Existing Approximations](279-existing-approximations.md) _25%_
+- [The Recursive Insight](281-the-recursive-insight.md) _25%_
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _25%_

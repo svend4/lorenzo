@@ -29,7 +29,7 @@
 ---
 
 **Похожие документы:**
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md) (сходство 0.17)
+- [169-table-of-contents](169-table-of-contents.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -37,24 +37,24 @@
 ---
 
 **Смотрите также:**
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [253-table-of-contents](253-table-of-contents.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _37%_
-- [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md) _29%_
-- [1. Problem Statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) _29%_
-- [3. Why Existing Solutions Fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) _29%_
-- [Содержание](docs/02-anthropic-vacancies/190-содержание.md) _29%_
-- [For the Curious: Philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md) _29%_
-- [Table of Contents](docs/02-anthropic-vacancies/169-table-of-contents.md) _25%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
+- [Содержание](326-содержание.md) _37%_
+- [Executive Summary](153-executive-summary.md) _29%_
+- [1. Problem Statement](155-1-problem-statement.md) _29%_
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md) _29%_
+- [Содержание](190-содержание.md) _29%_
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _29%_
+- [Table of Contents](169-table-of-contents.md) _25%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_

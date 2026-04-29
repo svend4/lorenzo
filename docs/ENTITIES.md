@@ -132,8 +132,8 @@
 ---
 
 **Смотрите также:**
-- [NETWORK](docs/NETWORK.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [MINDMAP](docs/MINDMAP.md)
-- [CONTACTS](docs/CONTACTS.md)
+- [NETWORK](NETWORK.md)
+- [GLOSSARY](GLOSSARY.md)
+- [MINDMAP](MINDMAP.md)
+- [CONTACTS](CONTACTS.md)
 

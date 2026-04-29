@@ -73,9 +73,9 @@ walking it.
 ---
 
 **Похожие документы:**
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.21)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.20)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.20)
+- [223-12-closing](223-12-closing.md) (сходство 0.21)
+- [252-abstract](252-abstract.md) (сходство 0.20)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.20)
 
 
 <!-- see-also -->
@@ -83,24 +83,24 @@ walking it.
 ---
 
 **Смотрите также:**
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [252-abstract](252-abstract.md)
+- [223-12-closing](223-12-closing.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Abstract](docs/02-anthropic-vacancies/252-abstract.md) _29%_
-- [4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) _29%_
-- [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) _29%_
-- [Closing](docs/02-anthropic-vacancies/285-closing.md) _29%_
-- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _25%_
-- [2. The Twenty-One Teachers Pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) _25%_
-- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _25%_
-- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _25%_
+- [Abstract](252-abstract.md) _29%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _29%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _29%_
+- [Closing](285-closing.md) _29%_
+- [Abstract](168-abstract.md) _25%_
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _25%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _25%_
+- [Acknowledgments](267-acknowledgments.md) _25%_

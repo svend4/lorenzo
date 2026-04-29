@@ -27,9 +27,9 @@
 ---
 
 **Похожие документы:**
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md) (сходство 0.67)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md) (сходство 0.52)
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.16)
+- [61-compatibility-level](61-compatibility-level.md) (сходство 0.67)
+- [41-compatibility-level](41-compatibility-level.md) (сходство 0.52)
+- [60-bridges](60-bridges.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -37,24 +37,24 @@
 ---
 
 **Смотрите также:**
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [60-bridges](60-bridges.md)
+- [57-native-format](57-native-format.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Compatibility Level](docs/02-anthropic-vacancies/61-compatibility-level.md) _73%_
-- [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md) _48%_
-- [Bridges](docs/02-anthropic-vacancies/40-bridges.md) _33%_
-- [Native Format](docs/02-anthropic-vacancies/57-native-format.md) _33%_
-- [Bridges](docs/02-anthropic-vacancies/60-bridges.md) _29%_
-- [Angle / Perspective](docs/02-anthropic-vacancies/49-angle-perspective.md) _25%_
-- [Bridges](docs/02-anthropic-vacancies/50-bridges.md) _25%_
-- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _21%_
+- [Compatibility Level](61-compatibility-level.md) _73%_
+- [Compatibility Level](41-compatibility-level.md) _48%_
+- [Bridges](40-bridges.md) _33%_
+- [Native Format](57-native-format.md) _33%_
+- [Bridges](60-bridges.md) _29%_
+- [Angle / Perspective](49-angle-perspective.md) _25%_
+- [Bridges](50-bridges.md) _25%_
+- [2. Terminology](07-2-terminology.md) _21%_

@@ -50,9 +50,9 @@ This document explores that observation.
 ---
 
 **Похожие документы:**
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.18)
-- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) (сходство 0.16)
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.18)
+- [286-acknowledgments](286-acknowledgments.md) (сходство 0.16)
+- [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -60,24 +60,24 @@ This document explores that observation.
 ---
 
 **Смотрите также:**
-- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
-- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
+- [286-acknowledgments](286-acknowledgments.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
+- [285-closing](285-closing.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _42%_
-- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _29%_
-- [What's Missing — Layer B](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) _29%_
-- [The Specific Case in Front of Us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) _29%_
-- [What This Document Doesn't Solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) _29%_
-- [References](docs/02-anthropic-vacancies/287-references.md) _29%_
-- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _29%_
-- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _25%_
+- [Acknowledgments](286-acknowledgments.md) _42%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _29%_
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _29%_
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _29%_
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md) _29%_
+- [References](287-references.md) _29%_
+- [Acknowledgments](319-acknowledgments.md) _29%_
+- [Acknowledgments](267-acknowledgments.md) _25%_

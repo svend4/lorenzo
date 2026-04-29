@@ -146,9 +146,9 @@ to minimum dignity threshold; upward is merit-based.
 ---
 
 **Похожие документы:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.18)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.16)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.15)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.18)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.16)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -156,22 +156,22 @@ to minimum dignity threshold; upward is merit-based.
 ---
 
 **Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) _25%_
-- [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) _21%_
-- [6. Governance and Ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md) _17%_
-- [8. Risk Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md) _17%_
-- [9. Call for Partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) _17%_
-- [9. Phased Rollout Strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) _17%_
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _25%_
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _21%_
+- [6. Governance and Ethics](160-6-governance-and-ethics.md) _17%_
+- [8. Risk Analysis](162-8-risk-analysis.md) _17%_
+- [9. Call for Partnership](163-9-call-for-partnership.md) _17%_
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md) _17%_

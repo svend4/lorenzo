@@ -46,9 +46,9 @@ need to be solved before other work proceeds.
 ---
 
 **Похожие документы:**
-- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) (сходство 0.15)
-- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.15)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.13)
+- [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md) (сходство 0.15)
+- [281-the-recursive-insight](281-the-recursive-insight.md) (сходство 0.15)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -56,24 +56,24 @@ need to be solved before other work proceeds.
 ---
 
 **Смотрите также:**
-- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
-- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
-- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
+- [286-acknowledgments](286-acknowledgments.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) _33%_
-- [13. Closing](docs/02-anthropic-vacancies/266-13-closing.md) _29%_
-- [Appendix: Position in Series Visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) _29%_
-- [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) _25%_
-- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _25%_
-- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _25%_
-- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _21%_
-- [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) _21%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _33%_
+- [13. Closing](266-13-closing.md) _29%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _29%_
+- [The Recursive Insight](281-the-recursive-insight.md) _25%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _25%_
+- [Acknowledgments](286-acknowledgments.md) _25%_
+- [Abstract](168-abstract.md) _21%_
+- [Why This Document Exists](275-why-this-document-exists.md) _21%_

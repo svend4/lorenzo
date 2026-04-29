@@ -26,9 +26,9 @@
 ---
 
 **Смотрите также:**
-- [356-твой-workflow](docs/02-anthropic-vacancies/356-твой-workflow.md)
+- [356-твой-workflow](356-твой-workflow.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)

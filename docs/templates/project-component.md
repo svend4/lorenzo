@@ -39,8 +39,8 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [contact-outreach](docs/templates/contact-outreach.md)
-- [ensemble](docs/templates/ensemble.md)
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
+- [contact-outreach](contact-outreach.md)
+- [ensemble](ensemble.md)
+- [vladspace](../contacts/vladspace.md)
+- [cutcode](../contacts/cutcode.md)
 

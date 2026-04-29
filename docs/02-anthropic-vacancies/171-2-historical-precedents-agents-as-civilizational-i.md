@@ -196,9 +196,9 @@ never had it**.
 ---
 
 **Похожие документы:**
-- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.14)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.14)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md) (сходство 0.12)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.14)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md) (сходство 0.14)
+- [168-abstract](168-abstract.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -206,24 +206,24 @@ never had it**.
 ---
 
 **Смотрите также:**
-- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [168-abstract](168-abstract.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _21%_
-- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _21%_
-- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _21%_
-- [1. Why the Binary View Is Incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) _21%_
-- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _21%_
-- [1. The Cinderella Syndrome: Why Quality Stays Invisible](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _17%_
-- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _17%_
-- [6. Ethical Framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) _17%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _21%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _21%_
+- [12. Closing](223-12-closing.md) _21%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _21%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _21%_
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _17%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _17%_
+- [6. Ethical Framework](175-6-ethical-framework.md) _17%_

@@ -45,8 +45,8 @@ Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive A
 ---
 
 **Похожие документы:**
-- [README](docs/05-habr-projects/knowledge/README.md) (сходство 0.19)
-- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md) (сходство 0.10)
+- [README](../../README.md) (сходство 0.19)
+- [ngt-memory](../memory/ngt-memory.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -54,22 +54,22 @@ Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive A
 ---
 
 **Смотрите также:**
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
-- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md)
-- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
+- [yodoca](../memory/yodoca.md)
+- [ngt-memory](../memory/ngt-memory.md)
+- [02-collaboration-partners](../02-collaboration-partners.md)
+- [01-synthesis](../01-synthesis.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Системы знаний](docs/05-habr-projects/knowledge/README.md)
+- [Системы знаний](../../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Системы знаний](docs/05-habr-projects/knowledge/README.md) _42%_
-- [Синтез: как проекты собираются вместе](docs/05-habr-projects/01-synthesis.md) _21%_
-- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md) _21%_
+- [Системы знаний](../../README.md) _42%_
+- [Синтез: как проекты собираются вместе](../01-synthesis.md) _21%_
+- [Уникальные проекты с Хабра](../../README.md) _21%_
 - [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) _21%_
-- [Системы памяти](docs/05-habr-projects/memory/README.md) _17%_
+- [Системы памяти](../../README.md) _17%_
 - [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _17%_

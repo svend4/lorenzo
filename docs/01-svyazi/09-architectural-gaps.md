@@ -41,9 +41,9 @@
 ---
 
 **Похожие документы:**
-- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 1.00)
-- [QA](docs/QA.md) (сходство 0.17)
-- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.16)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 1.00)
+- [QA](../QA.md) (сходство 0.17)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -51,9 +51,9 @@
 ---
 
 **Смотрите также:**
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
-- [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
+- [11-integration-contracts](11-integration-contracts.md)
+- [06-security-privacy](06-security-privacy.md)
+- [07-mvp-planning](07-mvp-planning.md)
 
 
 
@@ -87,11 +87,11 @@
 <!-- related-auto -->
 ## Связанные документы
 
-- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _90%_
-- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _48%_
-- [11 Integration Contracts](docs/01-svyazi/11-integration-contracts.md) _48%_
-- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _48%_
-- [Интеграционный контракт, который стоит зафиксировать сразу](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) _48%_
-- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _42%_
-- [13 Contacts](docs/01-svyazi/13-contacts.md) _42%_
-- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _42%_
+- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _90%_
+- [10 Second Order Ensembles](10-second-order-ensembles.md) _48%_
+- [11 Integration Contracts](11-integration-contracts.md) _48%_
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _48%_
+- [Интеграционный контракт, который стоит зафиксировать сразу](../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) _48%_
+- [07 Mvp Planning](07-mvp-planning.md) _42%_
+- [13 Contacts](13-contacts.md) _42%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _42%_

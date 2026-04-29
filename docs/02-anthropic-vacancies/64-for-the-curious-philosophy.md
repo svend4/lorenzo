@@ -73,7 +73,7 @@ Bridges описаны максимально конкретно. Особенн
 ---
 
 **Похожие документы:**
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.11)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -81,24 +81,24 @@ Bridges описаны максимально конкретно. Особенн
 ---
 
 **Смотрите также:**
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [67-о-проекте](67-о-проекте.md)
+- [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Appendix B: Change Log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) _37%_
-- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _29%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _29%_
-- [Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) _25%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
-- [For the Curious: Philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md) _25%_
-- [🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md) _25%_
-- [Хронологическая лента событий](docs/TIMELINE.md) _25%_
+- [Appendix B: Change Log](34-appendix-b-change-log.md) _37%_
+- [Appendix C: References](104-appendix-c-references.md) _29%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _29%_
+- [Глоссарий](122-глоссарий.md) _25%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _25%_
+- [🇷🇺 О проекте](67-о-проекте.md) _25%_
+- [Хронологическая лента событий](../TIMELINE.md) _25%_

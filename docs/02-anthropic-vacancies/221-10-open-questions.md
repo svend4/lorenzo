@@ -98,9 +98,9 @@ they shape technical decisions.
 ---
 
 **Похожие документы:**
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.12)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.12)
+- [264-11-open-questions](264-11-open-questions.md) (сходство 0.18)
+- [179-10-open-questions](179-10-open-questions.md) (сходство 0.12)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -108,24 +108,24 @@ they shape technical decisions.
 ---
 
 **Смотрите также:**
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [264-11-open-questions](264-11-open-questions.md)
+- [179-10-open-questions](179-10-open-questions.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [223-12-closing](223-12-closing.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) _33%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _29%_
-- [2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) _29%_
-- [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) _29%_
-- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _29%_
-- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md) _29%_
-- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _25%_
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _33%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _29%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _29%_
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _29%_
+- [11. Open Questions](264-11-open-questions.md) _29%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _29%_
+- [10. Open Questions](179-10-open-questions.md) _25%_
+- [Table of Contents](211-table-of-contents.md) _25%_

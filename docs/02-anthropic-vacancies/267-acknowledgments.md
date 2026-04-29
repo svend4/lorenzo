@@ -49,9 +49,9 @@ when AI augments human practice.
 ---
 
 **Похожие документы:**
-- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) (сходство 0.26)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.25)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.24)
+- [319-acknowledgments](319-acknowledgments.md) (сходство 0.26)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.25)
+- [252-abstract](252-abstract.md) (сходство 0.24)
 
 
 <!-- see-also -->
@@ -59,24 +59,24 @@ when AI augments human practice.
 ---
 
 **Смотрите также:**
-- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [319-acknowledgments](319-acknowledgments.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [252-abstract](252-abstract.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _48%_
-- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _42%_
-- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
-- [AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) _33%_
-- [Abstract](docs/02-anthropic-vacancies/252-abstract.md) _33%_
-- [References](docs/02-anthropic-vacancies/287-references.md) _33%_
-- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _29%_
-- [Acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md) _29%_
+- [Acknowledgments](286-acknowledgments.md) _48%_
+- [Acknowledgments](319-acknowledgments.md) _42%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _33%_
+- [Abstract](252-abstract.md) _33%_
+- [References](287-references.md) _33%_
+- [Abstract](168-abstract.md) _29%_
+- [Acknowledgments](182-acknowledgments.md) _29%_

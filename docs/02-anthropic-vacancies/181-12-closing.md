@@ -46,9 +46,9 @@ in walking it.
 ---
 
 **Похожие документы:**
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.15)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.12)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.12)
+- [223-12-closing](223-12-closing.md) (сходство 0.15)
+- [266-13-closing](266-13-closing.md) (сходство 0.12)
+- [179-10-open-questions](179-10-open-questions.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -56,24 +56,24 @@ in walking it.
 ---
 
 **Смотрите также:**
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [223-12-closing](223-12-closing.md)
+- [179-10-open-questions](179-10-open-questions.md)
+- [266-13-closing](266-13-closing.md)
+- [169-table-of-contents](169-table-of-contents.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Table of Contents](docs/02-anthropic-vacancies/169-table-of-contents.md) _25%_
-- [1. The Cinderella Syndrome: Why Quality Stays Invisible](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _25%_
-- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _21%_
-- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md) _17%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _17%_
-- [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md) _17%_
-- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _17%_
-- [Abstract](docs/02-anthropic-vacancies/210-abstract.md) _17%_
+- [Table of Contents](169-table-of-contents.md) _25%_
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _25%_
+- [10. Open Questions](179-10-open-questions.md) _21%_
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _17%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _17%_
+- [Executive Summary](153-executive-summary.md) _17%_
+- [Abstract](168-abstract.md) _17%_
+- [Abstract](210-abstract.md) _17%_

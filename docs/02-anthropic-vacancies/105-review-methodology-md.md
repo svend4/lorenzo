@@ -26,9 +26,9 @@ markdown
 ---
 
 **Похожие документы:**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.20)
-- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.17)
-- [229-профессиональные-коллеги-агенты](docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md) (сходство 0.17)
+- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.20)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.17)
+- [229-профессиональные-коллеги-агенты](229-профессиональные-коллеги-агенты.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -36,24 +36,24 @@ markdown
 ---
 
 **Смотрите также:**
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [188-ai-опосредованное-представительство-для-недопредст](docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [42-author-contact](42-author-contact.md)
+- [188-ai-опосредованное-представительство-для-недопредст](188-ai-опосредованное-представительство-для-недопредст.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _37%_
-- [README-MCP.md— инструкция по установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) _33%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _33%_
-- [Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) _29%_
-- [README.md](docs/02-anthropic-vacancies/65-readme-md.md) _29%_
-- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _25%_
-- [portal-mcp.py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) _25%_
-- [Содержание](docs/02-anthropic-vacancies/190-содержание.md) _25%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _37%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _33%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _33%_
+- [Глоссарий](122-глоссарий.md) _29%_
+- [README.md](65-readme-md.md) _29%_
+- [Abstract](04-abstract.md) _25%_
+- [portal-mcp.py](123-portal-mcp-py.md) _25%_
+- [Содержание](190-содержание.md) _25%_

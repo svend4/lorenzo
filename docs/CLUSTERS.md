@@ -368,19 +368,19 @@ _...и ещё 90 малых кластеров (по 1-2 файла)_
 ---
 
 **Смотрите также:**
-- [SEARCH](docs/SEARCH.md)
-- [READING_ORDER](docs/READING_ORDER.md)
-- [TAGS](docs/TAGS.md)
-- [COMPARE](docs/COMPARE.md)
+- [SEARCH](SEARCH.md)
+- [READING_ORDER](READING_ORDER.md)
+- [TAGS](TAGS.md)
+- [COMPARE](COMPARE.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Карта происхождения текстов](docs/SOURCE_MAP.md) _42%_
-- [Рекомендуемый порядок чтения](docs/READING_ORDER.md) _37%_
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md) _33%_
-- [Инвертированный индекс ключевых слов](docs/KEYWORD_INDEX.md) _33%_
-- [Время чтения документов](docs/READING_TIME.md) _33%_
-- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _29%_
-- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _29%_
-- [Качество абзацев](docs/PARAGRAPH_QUALITY.md) _29%_
+- [Карта происхождения текстов](SOURCE_MAP.md) _42%_
+- [Рекомендуемый порядок чтения](READING_ORDER.md) _37%_
+- [Вакансии Anthropic — Анализ по кластерам](README.md) _33%_
+- [Инвертированный индекс ключевых слов](KEYWORD_INDEX.md) _33%_
+- [Время чтения документов](READING_TIME.md) _33%_
+- [Table of Contents](02-anthropic-vacancies/211-table-of-contents.md) _29%_
+- [Table of Contents](02-anthropic-vacancies/308-table-of-contents.md) _29%_
+- [Качество абзацев](PARAGRAPH_QUALITY.md) _29%_

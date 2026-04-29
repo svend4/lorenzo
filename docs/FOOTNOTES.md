@@ -39,8 +39,8 @@
 ---
 
 **Смотрите также:**
-- [08-conclusions](docs/01-svyazi/08-conclusions.md)
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [ONBOARDING](docs/ONBOARDING.md)
-- [TECH_RADAR](docs/TECH_RADAR.md)
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [01-executive-summary](04-ai-collaborations/01-executive-summary.md)
+- [ONBOARDING](ONBOARDING.md)
+- [TECH_RADAR](TECH_RADAR.md)
 

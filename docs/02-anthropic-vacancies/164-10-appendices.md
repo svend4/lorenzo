@@ -163,9 +163,9 @@ shared, cited, refined by anyone with attribution.
 ---
 
 **Похожие документы:**
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.17)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.16)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md) (сходство 0.16)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.17)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.16)
+- [162-8-risk-analysis](162-8-risk-analysis.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -173,24 +173,24 @@ shared, cited, refined by anyone with attribution.
 ---
 
 **Смотрите также:**
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Глоссарий понятий](docs/CONCEPTS.md) _25%_
-- [PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) _21%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _21%_
-- [9. Call for Partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) _21%_
-- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _21%_
-- [Appendix: Position in Series Visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) _21%_
-- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _21%_
-- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _21%_
+- [Глоссарий понятий](../CONCEPTS.md) _25%_
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _21%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
+- [9. Call for Partnership](163-9-call-for-partnership.md) _21%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _21%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _21%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
+- [Author & Contact](42-author-contact.md) _21%_

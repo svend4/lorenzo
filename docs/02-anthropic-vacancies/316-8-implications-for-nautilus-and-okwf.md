@@ -158,9 +158,9 @@ implementable starting next week.
 ---
 
 **Похожие документы:**
-- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.16)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
+- [318-10-strategic-positioning](318-10-strategic-positioning.md) (сходство 0.16)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -168,24 +168,24 @@ implementable starting next week.
 ---
 
 **Смотрите также:**
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
-- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [317-9-risks-and-open-questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [318-10-strategic-positioning](318-10-strategic-positioning.md)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [317-9-risks-and-open-questions](317-9-risks-and-open-questions.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [10. Strategic Positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) _33%_
-- [4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) _29%_
-- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _29%_
-- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) _29%_
-- [Abstract](docs/02-anthropic-vacancies/307-abstract.md) _29%_
-- [7. Practical First Steps This Month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) _29%_
-- [Appendix C: Sample InGit MCP Server Tool Specifications](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _29%_
-- [Карта происхождения текстов](docs/SOURCE_MAP.md) _29%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _33%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _29%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _29%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _29%_
+- [Abstract](307-abstract.md) _29%_
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _29%_
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _29%_
+- [Карта происхождения текстов](../SOURCE_MAP.md) _29%_

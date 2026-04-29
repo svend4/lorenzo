@@ -53,9 +53,9 @@ in skilled work.
 ---
 
 **Похожие документы:**
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.25)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.24)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.25)
+- [267-acknowledgments](267-acknowledgments.md) (сходство 0.24)
+- [266-13-closing](266-13-closing.md) (сходство 0.20)
 
 
 <!-- see-also -->
@@ -63,24 +63,24 @@ in skilled work.
 ---
 
 **Смотрите также:**
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [267-acknowledgments](267-acknowledgments.md)
+- [266-13-closing](266-13-closing.md)
+- [210-abstract](210-abstract.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [1. Why the Binary View Is Incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) _42%_
-- [Abstract](docs/02-anthropic-vacancies/210-abstract.md) _33%_
-- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _33%_
-- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _33%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _29%_
-- [PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md) _29%_
-- [COMPOSITE SKILLS AGENT.md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md) _29%_
-- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _29%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _42%_
+- [Abstract](210-abstract.md) _33%_
+- [12. Closing](223-12-closing.md) _33%_
+- [Acknowledgments](267-acknowledgments.md) _33%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _29%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _29%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _29%_
+- [Table of Contents](253-table-of-contents.md) _29%_

@@ -120,9 +120,9 @@ Double-Triangle deployments.
 ---
 
 **Похожие документы:**
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.20)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.17)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.17)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.20)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.17)
+- [136-abstract](136-abstract.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -130,24 +130,24 @@ Double-Triangle deployments.
 ---
 
 **Смотрите также:**
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [68-about](docs/02-anthropic-vacancies/68-about.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
+- [136-abstract](136-abstract.md)
+- [68-about](68-about.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [3. Three Inter-Layer Protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) _29%_
-- [5. Pattern Library as Bridge Between Triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) _29%_
-- [Appendix A: Glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) _29%_
-- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _29%_
-- [🇬🇧 About](docs/02-anthropic-vacancies/68-about.md) _29%_
-- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _25%_
-- [4. Proposed Infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) _25%_
-- [13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) _25%_
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _29%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _29%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _29%_
+- [Author & Contact](42-author-contact.md) _29%_
+- [🇬🇧 About](68-about.md) _29%_
+- [Appendix C: References](104-appendix-c-references.md) _25%_
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _25%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _25%_

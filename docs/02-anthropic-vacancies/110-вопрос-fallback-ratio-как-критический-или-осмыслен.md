@@ -63,12 +63,12 @@
 ---
 
 **Смотрите также:**
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [116-9-checklist-применения-методологии](116-9-checklist-применения-методологии.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)

@@ -43,7 +43,7 @@ _Обновлено: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [README](docs/05-habr-projects/README.md) (сходство 0.18)
+- [README](../README.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -51,10 +51,10 @@ _Обновлено: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
-- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [01-synthesis](01-synthesis.md)
+- [yodoca](memory/yodoca.md)
+- [ngt-memory](memory/ngt-memory.md)
+- [wikontic](knowledge/wikontic.md)
 
 
 
@@ -69,12 +69,12 @@ _Обновлено: 2026-04-29_
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md)
+- [Уникальные проекты с Хабра](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md) _21%_
+- [Уникальные проекты с Хабра](../README.md) _21%_
 - [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) _21%_
 - [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _17%_
-- [Diff базы знаний между версиями](docs/VERSION_DIFF.md) _17%_
+- [Diff базы знаний между версиями](../VERSION_DIFF.md) _17%_

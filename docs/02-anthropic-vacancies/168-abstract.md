@@ -52,9 +52,9 @@ service organizations, civil society, and policymakers.
 ---
 
 **Похожие документы:**
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md) (сходство 0.16)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.15)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.14)
+- [210-abstract](210-abstract.md) (сходство 0.16)
+- [223-12-closing](223-12-closing.md) (сходство 0.15)
+- [252-abstract](252-abstract.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -62,24 +62,24 @@ service organizations, civil society, and policymakers.
 ---
 
 **Смотрите также:**
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
+- [210-abstract](210-abstract.md)
+- [223-12-closing](223-12-closing.md)
+- [252-abstract](252-abstract.md)
+- [180-11-call-for-collaboration](180-11-call-for-collaboration.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Abstract](docs/02-anthropic-vacancies/210-abstract.md) _29%_
-- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _29%_
-- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md) _25%_
-- [REPRESENTATIVE AGENT LAYER.md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md) _25%_
-- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _25%_
-- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md) _25%_
-- [13. Closing](docs/02-anthropic-vacancies/266-13-closing.md) _25%_
-- [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) _25%_
+- [Abstract](210-abstract.md) _29%_
+- [Acknowledgments](267-acknowledgments.md) _29%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _25%_
+- [REPRESENTATIVE AGENT LAYER.md](166-representative-agent-layer-md.md) _25%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _25%_
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md) _25%_
+- [13. Closing](266-13-closing.md) _25%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _25%_

@@ -153,9 +153,9 @@ Either way, the material exists.
 ---
 
 **Похожие документы:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.16)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
+- [316-8-implications-for-nautilus-and-okwf](316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
+- [307-abstract](307-abstract.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -163,24 +163,24 @@ Either way, the material exists.
 ---
 
 **Смотрите также:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [316-8-implications-for-nautilus-and-okwf](316-8-implications-for-nautilus-and-okwf.md)
+- [307-abstract](307-abstract.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _33%_
-- [9. Risks and Open Questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md) _33%_
-- [Карта происхождения текстов](docs/SOURCE_MAP.md) _29%_
-- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _25%_
-- [Рекомендуемый порядок чтения](docs/READING_ORDER.md) _25%_
-- [Appendix C: Sample Use Cases in Detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) _21%_
-- [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) _21%_
-- [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _21%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _33%_
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _33%_
+- [Карта происхождения текстов](../SOURCE_MAP.md) _29%_
+- [Acknowledgments](319-acknowledgments.md) _25%_
+- [Рекомендуемый порядок чтения](../READING_ORDER.md) _25%_
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_
+- [The Recursive Insight](281-the-recursive-insight.md) _21%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _21%_

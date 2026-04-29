@@ -25,7 +25,7 @@
 ---
 
 **Похожие документы:**
-- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) (сходство 0.10)
+- [353-что-ты-не-можешь-делать-вообще](353-что-ты-не-можешь-делать-вообще.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -33,24 +33,24 @@
 ---
 
 **Смотрите также:**
-- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
-- [360-что-ты-всегда-делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [353-что-ты-не-можешь-делать-вообще](353-что-ты-не-можешь-делать-вообще.md)
+- [360-что-ты-всегда-делаешь](360-что-ты-всегда-делаешь.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Что ты НЕ МОЖЕШЬ делать вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) _29%_
-- [Что ты ВСЕГДА делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md) _29%_
-- [Что ты МОЖЕШЬ делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _17%_
-- [Appendix B: Summary of Contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) _17%_
-- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _17%_
-- [Appendix C: Configuration Template Example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md) _17%_
-- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _17%_
+- [Что ты НЕ МОЖЕШЬ делать вообще](353-что-ты-не-можешь-делать-вообще.md) _29%_
+- [Что ты ВСЕГДА делаешь](360-что-ты-всегда-делаешь.md) _29%_
+- [Что ты МОЖЕШЬ делать](351-что-ты-можешь-делать.md) _25%_
+- [Table of Contents](137-table-of-contents.md) _17%_
+- [Appendix B: Summary of Contributions](149-appendix-b-summary-of-contributions.md) _17%_
+- [Table of Contents](154-table-of-contents.md) _17%_
+- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md) _17%_
+- [Table of Contents](308-table-of-contents.md) _17%_

@@ -115,17 +115,17 @@ python scan_repo.py owner/repo-name
 ---
 
 **Смотрите также:**
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
-- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+- [07-2-terminology](07-2-terminology.md)
+- [78-3-registry-nautilus-json](78-3-registry-nautilus-json.md)
+- [77-2-terminology](77-2-terminology.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _21%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _17%_
+- [2. Terminology](77-2-terminology.md) _21%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _17%_

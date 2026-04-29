@@ -76,9 +76,9 @@
 ---
 
 **Похожие документы:**
-- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 1.00)
-- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.15)
-- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md) (сходство 0.15)
+- [05-план-прототипа-и-возможные-контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 1.00)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.15)
+- [09-architectural-gaps](09-architectural-gaps.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -86,9 +86,9 @@
 ---
 
 **Смотрите также:**
-- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
-- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+- [09-architectural-gaps](09-architectural-gaps.md)
+- [11-integration-contracts](11-integration-contracts.md)
+- [12-roadmap](12-roadmap.md)
 
 
 
@@ -125,18 +125,18 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Executive Report: Репозиторий Lorenzo](docs/REPORT.md)
+- [Executive Report: Репозиторий Lorenzo](../REPORT.md)
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
-- [Прогресс MVP](docs/PROGRESS.md)
+- [Прогресс MVP](../PROGRESS.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _90%_
-- [Контактная стратегия и узкие вопросы для авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _48%_
-- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _42%_
-- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _42%_
-- [13 Contacts](docs/01-svyazi/13-contacts.md) _42%_
-- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _42%_
-- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _42%_
-- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _42%_
+- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _90%_
+- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _48%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _42%_
+- [10 Second Order Ensembles](10-second-order-ensembles.md) _42%_
+- [13 Contacts](13-contacts.md) _42%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _42%_
+- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _42%_
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _42%_

@@ -47,9 +47,9 @@
 ---
 
 **Похожие документы:**
-- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.99)
-- [TABLES](docs/TABLES.md) (сходство 0.20)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.16)
+- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.99)
+- [TABLES](../TABLES.md) (сходство 0.20)
+- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -57,10 +57,10 @@
 ---
 
 **Смотрите также:**
-- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [TABLES](docs/TABLES.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
+- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [TABLES](../TABLES.md)
+- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [04-ensembles-overview](04-ensembles-overview.md)
 
 
 
@@ -90,11 +90,11 @@
 <!-- related-auto -->
 ## Связанные документы
 
-- [Карта найденных проектов и паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _90%_
-- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
-- [04 Ensembles Overview](docs/01-svyazi/04-ensembles-overview.md) _29%_
-- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _29%_
-- [Все таблицы репозитория](docs/TABLES.md) _29%_
-- [06 Security Privacy](docs/01-svyazi/06-security-privacy.md) _25%_
-- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _25%_
-- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _25%_
+- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _90%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _29%_
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _29%_
+- [Все таблицы репозитория](../TABLES.md) _29%_
+- [06 Security Privacy](06-security-privacy.md) _25%_
+- [07 Mvp Planning](07-mvp-planning.md) _25%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _25%_

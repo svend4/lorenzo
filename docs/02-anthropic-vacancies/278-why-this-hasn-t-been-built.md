@@ -59,9 +59,9 @@ integration does not.
 ---
 
 **Похожие документы:**
-- [285-closing](docs/02-anthropic-vacancies/285-closing.md) (сходство 0.15)
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.12)
+- [285-closing](285-closing.md) (сходство 0.15)
+- [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -69,24 +69,24 @@ integration does not.
 ---
 
 **Смотрите также:**
-- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [285-closing](285-closing.md)
+- [279-existing-approximations](279-existing-approximations.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Closing](docs/02-anthropic-vacancies/285-closing.md) _33%_
-- [13. Closing](docs/02-anthropic-vacancies/266-13-closing.md) _29%_
-- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _29%_
-- [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) _29%_
-- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _25%_
-- [Existing Approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) _25%_
-- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _25%_
-- [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) _21%_
+- [Closing](285-closing.md) _33%_
+- [13. Closing](266-13-closing.md) _29%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _29%_
+- [The Recursive Insight](281-the-recursive-insight.md) _29%_
+- [Abstract](168-abstract.md) _25%_
+- [Existing Approximations](279-existing-approximations.md) _25%_
+- [Acknowledgments](286-acknowledgments.md) _25%_
+- [Why This Document Exists](275-why-this-document-exists.md) _21%_

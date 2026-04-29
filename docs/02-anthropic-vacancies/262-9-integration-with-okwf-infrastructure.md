@@ -151,9 +151,9 @@ broader applicability.
 ---
 
 **Похожие документы:**
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.21)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.18)
+- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.21)
+- [266-13-closing](266-13-closing.md) (сходство 0.20)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -161,24 +161,24 @@ broader applicability.
 ---
 
 **Смотрите также:**
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
+- [266-13-closing](266-13-closing.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [316-8-implications-for-nautilus-and-okwf](316-8-implications-for-nautilus-and-okwf.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md) _33%_
-- [1. Why the Binary View Is Incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) _33%_
-- [4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) _33%_
-- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md) _30%_
-- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _29%_
-- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) _29%_
-- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _29%_
-- [Appendix A: Glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) _25%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _33%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _33%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _33%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _30%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _29%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _29%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _29%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _25%_

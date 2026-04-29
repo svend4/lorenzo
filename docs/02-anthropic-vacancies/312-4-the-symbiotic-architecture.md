@@ -172,9 +172,9 @@ state. Cowork memory is convenience, not authority.
 ---
 
 **Похожие документы:**
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.18)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.16)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
+- [311-3-what-ingit-provides-that-cowork-lacks](311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.18)
+- [307-abstract](307-abstract.md) (сходство 0.16)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -182,24 +182,24 @@ state. Cowork memory is convenience, not authority.
 ---
 
 **Смотрите также:**
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [311-3-what-ingit-provides-that-cowork-lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
+- [307-abstract](307-abstract.md)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [2. What Cowork Provides That InGit Doesn't Need to Build](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _37%_
-- [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _33%_
-- [3. What InGit Provides That Cowork Lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) _29%_
-- [5. Four Integration Paths in Order of Accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) _29%_
-- [Abstract](docs/02-anthropic-vacancies/307-abstract.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _25%_
-- [6. Refined InGit Scope with Cowork in Mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) _25%_
-- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _21%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _37%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _33%_
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _29%_
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _29%_
+- [Abstract](307-abstract.md) _25%_
+- [Table of Contents](308-table-of-contents.md) _25%_
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _25%_
+- [Abstract](168-abstract.md) _21%_

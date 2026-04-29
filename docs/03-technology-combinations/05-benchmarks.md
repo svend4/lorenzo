@@ -100,8 +100,8 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 ---
 
 **Похожие документы:**
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.14)
-- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.11)
+- [02-knowledge-graphs](02-knowledge-graphs.md) (сходство 0.14)
+- [03-local-first](03-local-first.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -109,20 +109,20 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 ---
 
 **Смотрите также:**
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [WORD_FREQ](docs/WORD_FREQ.md)
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
+- [02-knowledge-graphs](02-knowledge-graphs.md)
+- [03-local-first](03-local-first.md)
+- [WORD_FREQ](../WORD_FREQ.md)
+- [01-agent-routing](01-agent-routing.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Комбинирование технологий для новых свойств](docs/03-technology-combinations/README.md)
+- [Комбинирование технологий для новых свойств](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Local-first и P2P стек](docs/03-technology-combinations/03-local-first.md) _33%_
-- [Агентные системы и роутинг](docs/03-technology-combinations/01-agent-routing.md) _21%_
-- [Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md) _21%_
-- [Приоритеты файлов](docs/PRIORITIES.md) _17%_
+- [Local-first и P2P стек](03-local-first.md) _33%_
+- [Агентные системы и роутинг](01-agent-routing.md) _21%_
+- [Графы знаний и Legal AI](02-knowledge-graphs.md) _21%_
+- [Приоритеты файлов](../PRIORITIES.md) _17%_

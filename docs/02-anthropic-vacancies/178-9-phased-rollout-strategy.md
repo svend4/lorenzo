@@ -141,9 +141,9 @@ durable, beneficial infrastructure than rapid scaling.
 ---
 
 **Похожие документы:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.17)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
-- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) (сходство 0.14)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.17)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
+- [180-11-call-for-collaboration](180-11-call-for-collaboration.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -151,22 +151,22 @@ durable, beneficial infrastructure than rapid scaling.
 ---
 
 **Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [180-11-call-for-collaboration](180-11-call-for-collaboration.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [223-12-closing](223-12-closing.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) _29%_
-- [8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
-- [5. Economic Model](docs/02-anthropic-vacancies/159-5-economic-model.md) _17%_
-- [11. Call for Collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) _17%_
-- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _17%_
-- [Глоссарий понятий](docs/CONCEPTS.md) _17%_
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _29%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
+- [5. Economic Model](159-5-economic-model.md) _17%_
+- [11. Call for Collaboration](180-11-call-for-collaboration.md) _17%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
+- [Глоссарий понятий](../CONCEPTS.md) _17%_

@@ -36,8 +36,8 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [research-summary](docs/autofilled/research-summary.md)
-- [contact-outreach](docs/templates/contact-outreach.md)
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
+- [research-summary](../autofilled/research-summary.md)
+- [contact-outreach](contact-outreach.md)
+- [vladspace](../contacts/vladspace.md)
+- [cutcode](../contacts/cutcode.md)
 

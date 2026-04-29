@@ -97,14 +97,14 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Executive Report: Репозиторий Lorenzo](docs/REPORT.md)
+- [Executive Report: Репозиторий Lorenzo](REPORT.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Документация Lorenzo](docs/README.md) _25%_
-- [Частотный анализ слов](docs/WORD_FREQ.md) _25%_
-- [Приоритеты файлов](docs/PRIORITIES.md) _21%_
-- [Карта репозитория Lorenzo](docs/SITEMAP.md) _21%_
-- [20. ADR-002: Q6 as First-Class Protocol Concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) _17%_
-- [Тепловая карта тем](docs/HEATMAP.md) _17%_
+- [Документация Lorenzo](README.md) _25%_
+- [Частотный анализ слов](WORD_FREQ.md) _25%_
+- [Приоритеты файлов](PRIORITIES.md) _21%_
+- [Карта репозитория Lorenzo](SITEMAP.md) _21%_
+- [20. ADR-002: Q6 as First-Class Protocol Concept](02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) _17%_
+- [Тепловая карта тем](HEATMAP.md) _17%_

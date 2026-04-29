@@ -145,9 +145,9 @@ flowchart LR
 ---
 
 **Похожие документы:**
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.92)
-- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.16)
-- [03-component-catalog](docs/01-svyazi/03-component-catalog.md) (сходство 0.16)
+- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.92)
+- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.16)
+- [03-component-catalog](03-component-catalog.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -155,10 +155,10 @@ flowchart LR
 ---
 
 **Смотрите также:**
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [03-component-catalog](docs/01-svyazi/03-component-catalog.md)
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
+- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [03-component-catalog](03-component-catalog.md)
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md)
 
 
 
@@ -196,11 +196,11 @@ flowchart LR
 <!-- related-auto -->
 ## Связанные документы
 
-- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _60%_
-- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _48%_
-- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _42%_
-- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _37%_
-- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _37%_
-- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _33%_
-- [08 Conclusions](docs/01-svyazi/08-conclusions.md) _33%_
-- [13 Contacts](docs/01-svyazi/13-contacts.md) _33%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _60%_
+- [10 Second Order Ensembles](10-second-order-ensembles.md) _48%_
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _42%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _37%_
+- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _37%_
+- [07 Mvp Planning](07-mvp-planning.md) _33%_
+- [08 Conclusions](08-conclusions.md) _33%_
+- [13 Contacts](13-contacts.md) _33%_

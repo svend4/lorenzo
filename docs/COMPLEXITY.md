@@ -77,8 +77,8 @@
 ---
 
 **Смотрите также:**
-- [COMPARE](docs/COMPARE.md)
-- [SENTIMENT](docs/SENTIMENT.md)
-- [VOCABULARY](docs/VOCABULARY.md)
-- [WORD_FREQ](docs/WORD_FREQ.md)
+- [COMPARE](COMPARE.md)
+- [SENTIMENT](SENTIMENT.md)
+- [VOCABULARY](VOCABULARY.md)
+- [WORD_FREQ](WORD_FREQ.md)
 

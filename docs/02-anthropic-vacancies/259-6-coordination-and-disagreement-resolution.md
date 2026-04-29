@@ -150,9 +150,9 @@ practice.
 ---
 
 **Похожие документы:**
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.14)
-- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) (сходство 0.13)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.14)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -160,24 +160,24 @@ practice.
 ---
 
 **Смотрите также:**
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
-- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
+- [264-11-open-questions](264-11-open-questions.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [2. The Twenty-One Teachers Pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) _33%_
-- [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) _33%_
-- [5. Configuration: How Principals Build Their Ensembles](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) _29%_
-- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _29%_
-- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _25%_
-- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _25%_
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _33%_
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _33%_
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _29%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _29%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _25%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _25%_
+- [Table of Contents](211-table-of-contents.md) _25%_
+- [Table of Contents](253-table-of-contents.md) _25%_

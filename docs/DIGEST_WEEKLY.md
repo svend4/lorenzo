@@ -1,29 +1,22 @@
 # Еженедельный дайджест — 2026-04-29
 
-<!-- summary -->
-> _Период: последние 7 дней (с 2026-04-22)_
-
----
-<!-- tags: rag -->
-
-
-
-
 _Период: последние 7 дней (с 2026-04-22)_
 
 ## Итого
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за неделю | **48** |
+| Коммитов за неделю | **50** |
 | Новых файлов | **0** |
 | Изменённых файлов | **0** |
-| Всего MD файлов | **522** |
-| Всего слов | **422,966** |
+| Всего MD файлов | **529** |
+| Всего слов | **523,662** |
 
 ## Коммиты
 
 ```
+898c42a feat: run all script groups, apply TOC/abstracts/crosslinks, rebuild search index
+8e689b3 docs: auto-update via improve_run_all [skip ci]
 69562b0 feat: add component matrix, KPI history tracker, fix run_all coverage
 42f561d fix: fix update-docs CI job failures
 59617c5 feat: add risk register, auto-changelog, master index; fix run_all missing scripts
@@ -37,19 +30,8 @@ _Период: последние 7 дней (с 2026-04-22)_
 00a25f7 feat: add LLM integration (Ступень 3), skills (Ступень 4), MCP server (Ступень 5)
 1d552d4 chore: sync PROGRESS.md after deeptext scripts commit
 6cbd49c feat: добавить 12 скриптов глубокой обработки текста (группа deeptext)
-4e217f2 docs: sync PROGRESS.md
-bfe2bdd feat: add 9 text-processing scripts (textwork group) for large-scale knowledge management
 ```
 
 ---
 
-_Сгенерировано: 2026-04-29 08:59_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [KPI_HISTORY](docs/KPI_HISTORY.md)
-- [HEALTH](docs/HEALTH.md)
-
+_Сгенерировано: 2026-04-29 09:32_

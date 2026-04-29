@@ -141,9 +141,9 @@ Layer.
 ---
 
 **Похожие документы:**
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.14)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.13)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md) (сходство 0.13)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.14)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md) (сходство 0.13)
+- [168-abstract](168-abstract.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -151,21 +151,21 @@ Layer.
 ---
 
 **Смотрите также:**
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [168-abstract](168-abstract.md)
+- [179-10-open-questions](179-10-open-questions.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [12. Closing](docs/02-anthropic-vacancies/181-12-closing.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/169-table-of-contents.md) _21%_
-- [2. Target Populations](docs/02-anthropic-vacancies/156-2-target-populations.md) _17%_
-- [2. Historical Precedents: Agents as Civilizational Innovation](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
-- [10. Strategic Positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) _17%_
+- [12. Closing](181-12-closing.md) _25%_
+- [Table of Contents](169-table-of-contents.md) _21%_
+- [2. Target Populations](156-2-target-populations.md) _17%_
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _17%_

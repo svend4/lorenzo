@@ -50,9 +50,9 @@ implementation MUST поддерживать **минимум текущую maj
 ---
 
 **Похожие документы:**
-- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.63)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.14)
-- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) (сходство 0.13)
+- [92-17-versioning-policy](92-17-versioning-policy.md) (сходство 0.63)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.14)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -60,24 +60,24 @@ implementation MUST поддерживать **минимум текущую maj
 ---
 
 **Смотрите также:**
-- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [92-17-versioning-policy](92-17-versioning-policy.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [17. Versioning Policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md) _81%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _29%_
-- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _29%_
-- [Author & Contact](docs/02-anthropic-vacancies/62-author-contact.md) _29%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) _29%_
-- [PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) _25%_
-- [Хронологическая лента событий](docs/TIMELINE.md) _25%_
-- [Примеры запросов (в Claude)](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md) _21%_
+- [17. Versioning Policy](92-17-versioning-policy.md) _81%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _29%_
+- [Author & Contact](42-author-contact.md) _29%_
+- [Author & Contact](62-author-contact.md) _29%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _29%_
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _25%_
+- [Хронологическая лента событий](../TIMELINE.md) _25%_
+- [Примеры запросов (в Claude)](129-примеры-запросов-в-claude.md) _21%_

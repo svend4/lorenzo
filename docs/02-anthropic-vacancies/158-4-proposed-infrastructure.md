@@ -232,9 +232,9 @@ Community governance operates:
 ---
 
 **Похожие документы:**
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.18)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.16)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.18)
+- [144-7-open-questions](144-7-open-questions.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -242,21 +242,21 @@ Community governance operates:
 ---
 
 **Смотрите также:**
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _25%_
-- [8. Call to Action](docs/02-anthropic-vacancies/145-8-call-to-action.md) _21%_
-- [Appendix C: Version History](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) _17%_
-- [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md) _17%_
-- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _17%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _25%_
+- [8. Call to Action](145-8-call-to-action.md) _21%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _17%_
+- [Executive Summary](153-executive-summary.md) _17%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _17%_

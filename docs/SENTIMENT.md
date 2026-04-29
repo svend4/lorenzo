@@ -66,8 +66,8 @@
 ---
 
 **Смотрите также:**
-- [WORD_FREQ](docs/WORD_FREQ.md)
-- [COMPLEXITY](docs/COMPLEXITY.md)
-- [METRICS](docs/METRICS.md)
-- [COMPARE](docs/COMPARE.md)
+- [WORD_FREQ](WORD_FREQ.md)
+- [COMPLEXITY](COMPLEXITY.md)
+- [METRICS](METRICS.md)
+- [COMPARE](COMPARE.md)
 

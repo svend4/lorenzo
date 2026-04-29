@@ -169,22 +169,22 @@ _Обновлено: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
-- [Кластеры тематически близких файлов](docs/CLUSTERS.md) _33%_
-- [Индекс тегов](docs/TAGS.md) _29%_
-- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _25%_
-- [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _25%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
-- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) _25%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _25%_
+- [Кластеры тематически близких файлов](CLUSTERS.md) _33%_
+- [Индекс тегов](TAGS.md) _29%_
+- [Abstract](02-anthropic-vacancies/04-abstract.md) _25%_
+- [4. Nautilus Portal as Reference Substrate](02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _25%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [Appendix A: Minimal Working Example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) _25%_
+- [Appendix A: Minimal Working Example](02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _25%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [WORD_FREQ](docs/WORD_FREQ.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [WORD_CLOUD](docs/WORD_CLOUD.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [WORD_FREQ](WORD_FREQ.md)
+- [306-with-anthropic-s-cowork-platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [WORD_CLOUD](WORD_CLOUD.md)
 

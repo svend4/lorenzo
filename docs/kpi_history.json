@@ -1,13 +1,13 @@
 [
   {
     "date": "2026-04-29",
-    "docs": 522,
-    "words": 423163,
+    "docs": 529,
+    "words": 523868,
     "scripts": 125,
     "scoring": 93,
-    "health": 75,
+    "health": 90,
     "kpis": 737,
-    "questions": 35,
+    "questions": 39,
     "actions": 0
   }
 ]

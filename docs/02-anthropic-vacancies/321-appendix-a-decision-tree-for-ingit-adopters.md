@@ -42,8 +42,8 @@ needs.
 ---
 
 **Похожие документы:**
-- [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md) (сходство 0.13)
-- [322-appendix-b-comparison-matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) (сходство 0.10)
+- [270-appendix-b-sub-agent-registry-schema-sketch](270-appendix-b-sub-agent-registry-schema-sketch.md) (сходство 0.13)
+- [322-appendix-b-comparison-matrix](322-appendix-b-comparison-matrix.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -51,24 +51,24 @@ needs.
 ---
 
 **Смотрите также:**
-- [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [271-appendix-c-configuration-template-example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md)
-- [322-appendix-b-comparison-matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md)
+- [270-appendix-b-sub-agent-registry-schema-sketch](270-appendix-b-sub-agent-registry-schema-sketch.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [271-appendix-c-configuration-template-example](271-appendix-c-configuration-template-example.md)
+- [322-appendix-b-comparison-matrix](322-appendix-b-comparison-matrix.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Appendix B: Sub-Agent Registry Schema (Sketch)](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md) _48%_
-- [Appendix C: Configuration Template Example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md) _29%_
-- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _25%_
-- [Appendix B: Comparison Matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) _25%_
-- [Что ты ВСЕГДА делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md) _25%_
-- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _21%_
-- [Кластеры тематически близких файлов](docs/CLUSTERS.md) _21%_
-- [Качество абзацев](docs/PARAGRAPH_QUALITY.md) _21%_
+- [Appendix B: Sub-Agent Registry Schema (Sketch)](270-appendix-b-sub-agent-registry-schema-sketch.md) _48%_
+- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md) _29%_
+- [Table of Contents](308-table-of-contents.md) _25%_
+- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md) _25%_
+- [Что ты ВСЕГДА делаешь](360-что-ты-всегда-делаешь.md) _25%_
+- [Содержание](326-содержание.md) _21%_
+- [Кластеры тематически близких файлов](../CLUSTERS.md) _21%_
+- [Качество абзацев](../PARAGRAPH_QUALITY.md) _21%_

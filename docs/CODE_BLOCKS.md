@@ -1337,8 +1337,8 @@ _`docs/badges/README.md` | 7 строк_
 ---
 
 **Смотрите также:**
-- [COMPARE](docs/COMPARE.md)
-- [SOURCE_MAP](docs/SOURCE_MAP.md)
-- [CLUSTERS](docs/CLUSTERS.md)
-- [READING_TIME](docs/READING_TIME.md)
+- [COMPARE](COMPARE.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [CLUSTERS](CLUSTERS.md)
+- [READING_TIME](READING_TIME.md)
 

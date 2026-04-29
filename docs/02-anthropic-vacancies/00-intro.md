@@ -421,17 +421,17 @@ soz150 / Writing OS + data4 (public) → новый legal-sgb-toolkit с:
 ---
 
 **Похожие документы:**
-- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (сходство 0.19)
-- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.18)
-- [TABLES](docs/TABLES.md) (сходство 0.15)
+- [01-интегральный-анализ-профиля-svend4](01-интегральный-анализ-профиля-svend4.md) (сходство 0.19)
+- [CONCEPTS](../CONCEPTS.md) (сходство 0.18)
+- [TABLES](../TABLES.md) (сходство 0.15)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) _21%_
-- [Appendix D: Connection Diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) _17%_
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _21%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _17%_

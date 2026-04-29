@@ -129,9 +129,9 @@ section explicitly invites partnership.
 ---
 
 **Похожие документы:**
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.17)
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.16)
-- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.15)
+- [164-10-appendices](164-10-appendices.md) (сходство 0.17)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.16)
+- [159-5-economic-model](159-5-economic-model.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -139,22 +139,22 @@ section explicitly invites partnership.
 ---
 
 **Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [164-10-appendices](164-10-appendices.md)
+- [159-5-economic-model](159-5-economic-model.md)
+- [153-executive-summary](153-executive-summary.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [6. Governance and Ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md) _21%_
-- [7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) _21%_
-- [10. Appendices](docs/02-anthropic-vacancies/164-10-appendices.md) _21%_
-- [4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) _21%_
-- [8. Call to Action](docs/02-anthropic-vacancies/145-8-call-to-action.md) _17%_
-- [5. Economic Model](docs/02-anthropic-vacancies/159-5-economic-model.md) _17%_
+- [6. Governance and Ethics](160-6-governance-and-ethics.md) _21%_
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _21%_
+- [10. Appendices](164-10-appendices.md) _21%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _21%_
+- [8. Call to Action](145-8-call-to-action.md) _17%_
+- [5. Economic Model](159-5-economic-model.md) _17%_

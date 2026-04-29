@@ -152,9 +152,9 @@ So I named the possibility without pushing toward it.
 ---
 
 **Похожие документы:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.17)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.13)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) (сходство 0.12)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.17)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.13)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -162,24 +162,24 @@ So I named the possibility without pushing toward it.
 ---
 
 **Смотрите также:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Appendix C: Sample InGit MCP Server Tool Specifications](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _33%_
-- [Appendix C: Sample Use Cases in Detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) _29%_
-- [Closing](docs/02-anthropic-vacancies/285-closing.md) _29%_
-- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _25%_
-- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _25%_
-- [10. Appendices](docs/02-anthropic-vacancies/164-10-appendices.md) _21%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _21%_
-- [Appendix D: Connection Diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) _21%_
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _33%_
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _29%_
+- [Closing](285-closing.md) _29%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _25%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _25%_
+- [10. Appendices](164-10-appendices.md) _21%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _21%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _21%_

@@ -827,9 +827,9 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 ---
 
 **Похожие документы:**
-- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.21)
-- [00-intro](docs/02-anthropic-vacancies/00-intro.md) (сходство 0.19)
-- [00-intro](docs/04-ai-collaborations/00-intro.md) (сходство 0.16)
+- [CONCEPTS](../CONCEPTS.md) (сходство 0.21)
+- [00-intro](../04-ai-collaborations/00-intro.md) (сходство 0.19)
+- [00-intro](../04-ai-collaborations/00-intro.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -837,20 +837,20 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 ---
 
 **Смотрите также:**
-- [CONCEPTS](docs/CONCEPTS.md)
-- [00-intro](docs/04-ai-collaborations/00-intro.md)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [TABLES](docs/TABLES.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [00-intro](../04-ai-collaborations/00-intro.md)
+- [ACTION_ITEMS](../ACTION_ITEMS.md)
+- [TABLES](../TABLES.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Closing](docs/02-anthropic-vacancies/165-closing.md) _25%_
-- [Введение](docs/02-anthropic-vacancies/00-intro.md) _21%_
-- [Appendix D: Connection Diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) _21%_
-- [For the Curious: Philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md) _17%_
+- [Closing](165-closing.md) _25%_
+- [Введение](../04-ai-collaborations/00-intro.md) _21%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _21%_
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _17%_

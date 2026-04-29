@@ -170,9 +170,9 @@ unchanged remains to be measured.
 ---
 
 **Похожие документы:**
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.16)
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.12)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.12)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.16)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md) (сходство 0.12)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -180,24 +180,24 @@ unchanged remains to be measured.
 ---
 
 **Смотрите также:**
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _29%_
-- [2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) _25%_
-- [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) _25%_
-- [Abstract](docs/02-anthropic-vacancies/252-abstract.md) _25%_
-- [Abstract](docs/02-anthropic-vacancies/210-abstract.md) _21%_
-- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _21%_
-- [6. Risks Specific to this Category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) _21%_
-- [8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
+- [Table of Contents](211-table-of-contents.md) _29%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _25%_
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _25%_
+- [Abstract](252-abstract.md) _25%_
+- [Abstract](210-abstract.md) _21%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _21%_
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _21%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_

@@ -47,9 +47,9 @@ shareable AI-collaborative work.
 ---
 
 **Похожие документы:**
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.19)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
-- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.16)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.19)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
+- [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -57,24 +57,24 @@ shareable AI-collaborative work.
 ---
 
 **Смотрите также:**
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md)
+- [308-table-of-contents](308-table-of-contents.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
-- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _29%_
-- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _29%_
-- [Appendix C: Sample InGit MCP Server Tool Specifications](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _29%_
-- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _25%_
-- [A Practical Path to Layer B Through Symbiotic Integration](docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _25%_
-- [4. The Symbiotic Architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) _25%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _29%_
+- [Acknowledgments](319-acknowledgments.md) _29%_
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _29%_
+- [Abstract](168-abstract.md) _25%_
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) _25%_
+- [Table of Contents](308-table-of-contents.md) _25%_
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _25%_

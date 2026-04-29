@@ -42,22 +42,22 @@
 <!-- related-auto -->
 ## Связанные документы
 
-- [Время чтения документов](docs/READING_TIME.md) _29%_
-- [Кластеры тематически близких файлов](docs/CLUSTERS.md) _25%_
-- [Инвертированный индекс ключевых слов](docs/KEYWORD_INDEX.md) _25%_
-- [Рекомендуемый порядок чтения](docs/READING_ORDER.md) _25%_
-- [Карта происхождения текстов](docs/SOURCE_MAP.md) _25%_
-- [Частотный анализ слов](docs/WORD_FREQ.md) _25%_
-- [Качество абзацев](docs/PARAGRAPH_QUALITY.md) _21%_
-- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) _17%_
+- [Время чтения документов](READING_TIME.md) _29%_
+- [Кластеры тематически близких файлов](CLUSTERS.md) _25%_
+- [Инвертированный индекс ключевых слов](KEYWORD_INDEX.md) _25%_
+- [Рекомендуемый порядок чтения](READING_ORDER.md) _25%_
+- [Карта происхождения текстов](SOURCE_MAP.md) _25%_
+- [Частотный анализ слов](WORD_FREQ.md) _25%_
+- [Качество абзацев](PARAGRAPH_QUALITY.md) _21%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) _17%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [KEYWORD_INDEX](docs/KEYWORD_INDEX.md)
-- [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [270-appendix-b-sub-agent-registry-schema-sketch](02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 

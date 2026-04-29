@@ -45,9 +45,9 @@
 ---
 
 **Похожие документы:**
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md) (сходство 0.24)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.15)
-- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.12)
+- [137-table-of-contents](137-table-of-contents.md) (сходство 0.24)
+- [136-abstract](136-abstract.md) (сходство 0.15)
+- [355-существующие-документы-dhlab-твой-context](355-существующие-документы-dhlab-твой-context.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -55,24 +55,24 @@
 ---
 
 **Смотрите также:**
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [136-abstract](136-abstract.md)
+- [355-существующие-документы-dhlab-твой-context](355-существующие-документы-dhlab-твой-context.md)
+- [211-table-of-contents](211-table-of-contents.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _33%_
-- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _29%_
-- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _21%_
-- [Table of Contents](docs/02-anthropic-vacancies/169-table-of-contents.md) _21%_
-- [Содержание](docs/02-anthropic-vacancies/190-содержание.md) _21%_
-- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _21%_
-- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _21%_
+- [Table of Contents](137-table-of-contents.md) _33%_
+- [Содержание](326-содержание.md) _29%_
+- [Table of Contents](308-table-of-contents.md) _25%_
+- [Table of Contents](154-table-of-contents.md) _21%_
+- [Table of Contents](169-table-of-contents.md) _21%_
+- [Содержание](190-содержание.md) _21%_
+- [Table of Contents](211-table-of-contents.md) _21%_
+- [Table of Contents](253-table-of-contents.md) _21%_

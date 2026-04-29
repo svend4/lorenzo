@@ -61,18 +61,18 @@ _Без ключа — автоматическое резюме на основ
 <!-- related-auto -->
 ## Связанные документы
 
-- [Индекс документации — Lorenzo / Svyazi 2.0](docs/INDEX.md) _33%_
-- [Индекс тегов](docs/TAGS.md) _21%_
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md) _33%_
+- [Индекс тегов](TAGS.md) _21%_
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md) _17%_
-- [Перекрёстные ссылки](docs/CROSSREFS.md) _17%_
+- [Перекрёстные ссылки](CROSSREFS.md) _17%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [VALIDATION](docs/VALIDATION.md)
-- [ONBOARDING](docs/ONBOARDING.md)
-- [WORD_CLOUD](docs/WORD_CLOUD.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [VALIDATION](VALIDATION.md)
+- [ONBOARDING](ONBOARDING.md)
+- [WORD_CLOUD](WORD_CLOUD.md)
 

@@ -99,8 +99,8 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ---
 
 **Смотрите также:**
-- [MISSING](docs/MISSING.md)
-- [PRIORITIES](docs/PRIORITIES.md)
-- [STATS](docs/STATS.md)
-- [SPELLCHECK](docs/SPELLCHECK.md)
+- [MISSING](MISSING.md)
+- [PRIORITIES](PRIORITIES.md)
+- [STATS](STATS.md)
+- [SPELLCHECK](SPELLCHECK.md)
 

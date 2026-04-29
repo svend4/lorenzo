@@ -194,9 +194,9 @@ within 5-10 years.
 ---
 
 **Похожие документы:**
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.17)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.14)
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.14)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md) (сходство 0.17)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.14)
+- [218-7-application-domains](218-7-application-domains.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -204,24 +204,24 @@ within 5-10 years.
 ---
 
 **Смотрите также:**
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [218-7-application-domains](218-7-application-domains.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _25%_
-- [1. Why the Binary View Is Incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) _21%_
-- [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) _21%_
-- [5. Configuration: How Principals Build Their Ensembles](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) _21%_
-- [6. Coordination and Disagreement Resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) _21%_
-- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _21%_
-- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _21%_
-- [6. Four Deployment Domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) _17%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _25%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _21%_
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _21%_
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _21%_
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _21%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _21%_
+- [11. Open Questions](264-11-open-questions.md) _21%_
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _17%_

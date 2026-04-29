@@ -67,8 +67,8 @@
 ---
 
 **Смотрите также:**
-- [STATS](docs/STATS.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
-- [HEALTH](docs/HEALTH.md)
+- [STATS](STATS.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [HEALTH](HEALTH.md)
 

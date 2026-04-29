@@ -66,8 +66,8 @@
 ---
 
 **Смотрите также:**
-- [ENTITIES](docs/ENTITIES.md)
-- [GRAPH](docs/GRAPH.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [MINDMAP](docs/MINDMAP.md)
+- [ENTITIES](ENTITIES.md)
+- [GRAPH](GRAPH.md)
+- [GLOSSARY](GLOSSARY.md)
+- [MINDMAP](MINDMAP.md)
 

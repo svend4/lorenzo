@@ -53,8 +53,8 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [contact-outreach](docs/templates/contact-outreach.md)
-- [project-component](docs/templates/project-component.md)
+- [contact-outreach](../templates/contact-outreach.md)
+- [project-component](../templates/project-component.md)
 
 <!-- related-auto -->
 ## Связанные документы

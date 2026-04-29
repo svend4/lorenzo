@@ -97,9 +97,9 @@ NPP **не** пытается:
 ---
 
 **Похожие документы:**
-- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md) (сходство 0.53)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.14)
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md) (сходство 0.13)
+- [06-1-introduction](06-1-introduction.md) (сходство 0.53)
+- [67-о-проекте](67-о-проекте.md) (сходство 0.14)
+- [74-abstract](74-abstract.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -107,19 +107,19 @@ NPP **не** пытается:
 ---
 
 **Смотрите также:**
-- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md)
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+- [06-1-introduction](06-1-introduction.md)
+- [74-abstract](74-abstract.md)
+- [67-о-проекте](67-о-проекте.md)
+- [77-2-terminology](77-2-terminology.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [1. Introduction](docs/02-anthropic-vacancies/06-1-introduction.md) _53%_
-- [🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md) _21%_
-- [Abstract](docs/02-anthropic-vacancies/74-abstract.md) _17%_
+- [1. Introduction](06-1-introduction.md) _53%_
+- [🇷🇺 О проекте](67-о-проекте.md) _21%_
+- [Abstract](74-abstract.md) _17%_

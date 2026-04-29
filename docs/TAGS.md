@@ -296,8 +296,8 @@
 ---
 
 **Смотрите также:**
-- [COVERAGE](docs/COVERAGE.md)
-- [STALENESS](docs/STALENESS.md)
-- [SITEMAP](docs/SITEMAP.md)
-- [COMPARE](docs/COMPARE.md)
+- [COVERAGE](COVERAGE.md)
+- [STALENESS](STALENESS.md)
+- [SITEMAP](SITEMAP.md)
+- [COMPARE](COMPARE.md)
 

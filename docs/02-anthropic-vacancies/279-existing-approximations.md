@@ -123,9 +123,9 @@ problem.
 ---
 
 **Похожие документы:**
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.19)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.16)
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.16)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.19)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.16)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -133,24 +133,24 @@ problem.
 ---
 
 **Смотрите также:**
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [What Industry Will Likely Build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md) _33%_
-- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _29%_
-- [The Specific Case in Front of Us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) _29%_
-- [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) _25%_
-- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _25%_
-- [Существующие приближения](docs/02-anthropic-vacancies/294-существующие-приближения.md) _25%_
-- [What's Missing — Layer B](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) _17%_
-- [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) _17%_
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _33%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _29%_
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _29%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _25%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _25%_
+- [Существующие приближения](294-существующие-приближения.md) _25%_
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _17%_
+- [The Recursive Insight](281-the-recursive-insight.md) _17%_

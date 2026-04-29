@@ -23,15 +23,15 @@ IMPLEMENTATION_STAGE_PART_*.md в апреле 2026.
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
-- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
-- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md)
-- [185-appendix-b-domain-comparison-matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md)
+- [102-доступ-к-данным](102-доступ-к-данным.md)
+- [118-appendix-a-шаблон-для-header-warning](118-appendix-a-шаблон-для-header-warning.md)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](339-приложение-a-дерево-решений-для-принимающих-ingit.md)
+- [185-appendix-b-domain-comparison-matrix](185-appendix-b-domain-comparison-matrix.md)
 

@@ -24,15 +24,15 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
-- [361-когда-ты-honestly-не-знаешь](docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md)
-- [185-appendix-b-domain-comparison-matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md)
-- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md)
+- [102-доступ-к-данным](102-доступ-к-данным.md)
+- [361-когда-ты-honestly-не-знаешь](361-когда-ты-honestly-не-знаешь.md)
+- [185-appendix-b-domain-comparison-matrix](185-appendix-b-domain-comparison-matrix.md)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](339-приложение-a-дерево-решений-для-принимающих-ingit.md)
 

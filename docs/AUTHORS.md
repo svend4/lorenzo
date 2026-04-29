@@ -35,8 +35,8 @@
 ---
 
 **Смотрите также:**
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [tagir-analyzes](contacts/tagir-analyzes.md)
+- [nlaik](contacts/nlaik.md)
+- [sonia-black](contacts/sonia-black.md)
 

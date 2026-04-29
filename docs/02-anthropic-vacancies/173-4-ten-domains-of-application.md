@@ -351,9 +351,9 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 ---
 
 **Похожие документы:**
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.16)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.15)
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.14)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.16)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.15)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -361,12 +361,12 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 ---
 
 **Смотрите также:**
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [218-7-application-domains](218-7-application-domains.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)

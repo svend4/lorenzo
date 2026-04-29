@@ -812,9 +812,9 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 ---
 
 **Похожие документы:**
-- [memnet](docs/05-habr-projects/memory/memnet.md) (сходство 0.67)
-- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (сходство 0.16)
-- [TABLES](docs/TABLES.md) (сходство 0.15)
+- [memnet](../05-habr-projects/memory/memnet.md) (сходство 0.67)
+- [01-интегральный-анализ-профиля-svend4](../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (сходство 0.16)
+- [TABLES](../TABLES.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -822,10 +822,10 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 ---
 
 **Смотрите также:**
-- [memnet](docs/05-habr-projects/memory/memnet.md)
-- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [TABLES](docs/TABLES.md)
-- [CONCEPTS](docs/CONCEPTS.md)
+- [memnet](../05-habr-projects/memory/memnet.md)
+- [01-интегральный-анализ-профиля-svend4](../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [TABLES](../TABLES.md)
+- [CONCEPTS](../CONCEPTS.md)
 
 
 
@@ -866,12 +866,12 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Поиск AI-коллабораций](docs/04-ai-collaborations/README.md)
+- [Поиск AI-коллабораций](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md) _42%_
-- [Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md) _21%_
-- [Ограничения, лицензии и что пока лучше не склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) _21%_
-- [03 Component Catalog](docs/01-svyazi/03-component-catalog.md) _17%_
+- [MemNet: исследовательская память](../05-habr-projects/memory/memnet.md) _42%_
+- [Графы знаний и Legal AI](../03-technology-combinations/02-knowledge-graphs.md) _21%_
+- [Ограничения, лицензии и что пока лучше не склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) _21%_
+- [03 Component Catalog](../01-svyazi/03-component-catalog.md) _17%_

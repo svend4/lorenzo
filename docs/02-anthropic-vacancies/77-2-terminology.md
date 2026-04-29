@@ -77,9 +77,9 @@ Repo к экосистеме (A–E, см. раздел 12).
 ---
 
 **Похожие документы:**
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.63)
-- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.16)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.15)
+- [07-2-terminology](07-2-terminology.md) (сходство 0.63)
+- [78-3-registry-nautilus-json](78-3-registry-nautilus-json.md) (сходство 0.16)
+- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -87,24 +87,24 @@ Repo к экосистеме (A–E, см. раздел 12).
 ---
 
 **Смотрите также:**
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
-- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [07-2-terminology](07-2-terminology.md)
+- [78-3-registry-nautilus-json](78-3-registry-nautilus-json.md)
+- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md)
+- [67-о-проекте](67-о-проекте.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _53%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _29%_
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _29%_
-- [🇬🇧 About](docs/02-anthropic-vacancies/68-about.md) _29%_
-- [Abstract](docs/02-anthropic-vacancies/74-abstract.md) _29%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _29%_
-- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) _29%_
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _29%_
+- [2. Terminology](07-2-terminology.md) _53%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _29%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _29%_
+- [🇬🇧 About](68-about.md) _29%_
+- [Abstract](74-abstract.md) _29%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _29%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _29%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_

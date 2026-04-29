@@ -70,8 +70,8 @@ embeddings) могут использоваться, но MUST быть опци
 ---
 
 **Похожие документы:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.12)
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.10)
+- [84-9-consensus-algorithm](84-9-consensus-algorithm.md) (сходство 0.12)
+- [20-8-consensus-algorithm](20-8-consensus-algorithm.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -79,24 +79,24 @@ embeddings) могут использоваться, но MUST быть опци
 ---
 
 **Смотрите также:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
+- [84-9-consensus-algorithm](84-9-consensus-algorithm.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [20-8-consensus-algorithm](20-8-consensus-algorithm.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [9. Consensus Algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) _29%_
-- [8. Consensus Algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) _25%_
-- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _25%_
-- [Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) _21%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _21%_
-- [14. SDK Contract (Informative)](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md) _21%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _17%_
-- [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _17%_
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md) _29%_
+- [8. Consensus Algorithm](20-8-consensus-algorithm.md) _25%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- [Appendix B: Change Log](103-appendix-b-change-log.md) _21%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _21%_
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md) _21%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _17%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _17%_

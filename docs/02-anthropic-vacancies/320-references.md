@@ -53,9 +53,9 @@ acknowledgments above.
 ---
 
 **Похожие документы:**
-- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md) (сходство 0.32)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
-- [287-references](docs/02-anthropic-vacancies/287-references.md) (сходство 0.14)
+- [338-ссылки](338-ссылки.md) (сходство 0.32)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
+- [287-references](287-references.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -63,24 +63,24 @@ acknowledgments above.
 ---
 
 **Смотрите также:**
-- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
-- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [338-ссылки](338-ссылки.md)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [References](docs/02-anthropic-vacancies/287-references.md) _25%_
-- [Ссылки](docs/02-anthropic-vacancies/338-ссылки.md) _25%_
-- [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) _21%_
-- [References](docs/02-anthropic-vacancies/183-references.md) _21%_
-- [References](docs/02-anthropic-vacancies/225-references.md) _21%_
-- [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) _21%_
-- [Closing](docs/02-anthropic-vacancies/285-closing.md) _21%_
-- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _21%_
+- [References](287-references.md) _25%_
+- [Ссылки](338-ссылки.md) _25%_
+- [Acknowledgments](146-acknowledgments.md) _21%_
+- [References](183-references.md) _21%_
+- [References](225-references.md) _21%_
+- [Why This Document Exists](275-why-this-document-exists.md) _21%_
+- [Closing](285-closing.md) _21%_
+- [Acknowledgments](286-acknowledgments.md) _21%_

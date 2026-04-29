@@ -29,9 +29,9 @@
 ---
 
 **Похожие документы:**
-- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md) (сходство 0.15)
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md) (сходство 0.13)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md) (сходство 0.13)
+- [253-table-of-contents](253-table-of-contents.md) (сходство 0.15)
+- [137-table-of-contents](137-table-of-contents.md) (сходство 0.13)
+- [211-table-of-contents](211-table-of-contents.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -39,24 +39,24 @@
 ---
 
 **Смотрите также:**
-- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [322-appendix-b-comparison-matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [322-appendix-b-comparison-matrix](322-appendix-b-comparison-matrix.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _42%_
-- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _33%_
-- [2. What Cowork Provides That InGit Doesn't Need to Build](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _29%_
-- [3. What InGit Provides That Cowork Lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) _29%_
-- [6. Refined InGit Scope with Cowork in Mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) _29%_
-- [Appendix B: Comparison Matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) _29%_
-- [Кластеры тематически близких файлов](docs/CLUSTERS.md) _29%_
-- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _25%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _42%_
+- [Содержание](326-содержание.md) _33%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _29%_
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _29%_
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _29%_
+- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md) _29%_
+- [Кластеры тематически близких файлов](../CLUSTERS.md) _29%_
+- [Table of Contents](137-table-of-contents.md) _25%_

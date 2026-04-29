@@ -62,22 +62,22 @@ _Создано автоматически: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
-- [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) _81%_
-- [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md) _81%_
-- [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md) _81%_
-- [Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md) _81%_
-- [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md) _73%_
-- [Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md) _73%_
-- [Контакт: tagir_analyzes / Legal RAG](docs/contacts/tagir-analyzes.md) _73%_
-- [Контакт: VitalyOborin / Yodoca](docs/contacts/vitalyoborin.md) _73%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _81%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _81%_
+- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _81%_
+- [Контакт: zodigancode / Rufler](zodigancode.md) _81%_
+- [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _73%_
+- [Контакт: spbmolot / NGT Memory](../autofilled/components/spbmolot.md) _73%_
+- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _73%_
+- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _73%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [cutcode](docs/contacts/cutcode.md)
-- [dmitriila](docs/contacts/dmitriila.md)
-- [mixaill76](docs/contacts/mixaill76.md)
-- [zodigancode](docs/contacts/zodigancode.md)
+- [cutcode](cutcode.md)
+- [dmitriila](dmitriila.md)
+- [mixaill76](mixaill76.md)
+- [zodigancode](zodigancode.md)
 

@@ -122,8 +122,8 @@ v2.0 MAY использовать:
 ---
 
 **Похожие документы:**
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.34)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.12)
+- [20-8-consensus-algorithm](20-8-consensus-algorithm.md) (сходство 0.34)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -131,24 +131,24 @@ v2.0 MAY использовать:
 ---
 
 **Смотрите также:**
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [20-8-consensus-algorithm](20-8-consensus-algorithm.md)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md)
+- [85-10-query-flow](85-10-query-flow.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [8. Consensus Algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) _53%_
-- [11. Relevance Ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) _29%_
-- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _21%_
-- [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) _17%_
-- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _17%_
-- [5. Compatibility Levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md) _17%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _17%_
-- [10. Query Flow](docs/02-anthropic-vacancies/85-10-query-flow.md) _17%_
+- [8. Consensus Algorithm](20-8-consensus-algorithm.md) _53%_
+- [11. Relevance Ranking](86-11-relevance-ranking.md) _29%_
+- [9. Query Flow](21-9-query-flow.md) _21%_
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _17%_
+- [2. Terminology](77-2-terminology.md) _17%_
+- [5. Compatibility Levels](80-5-compatibility-levels.md) _17%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _17%_
+- [10. Query Flow](85-10-query-flow.md) _17%_

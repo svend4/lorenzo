@@ -108,9 +108,9 @@ of whether ethical frameworks keep pace.
 ---
 
 **Похожие документы:**
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.14)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.13)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md) (сходство 0.12)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.14)
+- [264-11-open-questions](264-11-open-questions.md) (сходство 0.13)
+- [181-12-closing](181-12-closing.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -118,24 +118,24 @@ of whether ethical frameworks keep pace.
 ---
 
 **Смотрите также:**
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
+- [181-12-closing](181-12-closing.md)
+- [264-11-open-questions](264-11-open-questions.md)
+- [223-12-closing](223-12-closing.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _29%_
-- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _29%_
-- [Часто задаваемые вопросы (FAQ)](docs/FAQ.md) _29%_
-- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _25%_
-- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _25%_
-- [8. Risks and Mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) _25%_
-- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _25%_
-- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _25%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _29%_
+- [11. Open Questions](264-11-open-questions.md) _29%_
+- [Часто задаваемые вопросы (FAQ)](../FAQ.md) _29%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _25%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _25%_
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md) _25%_
+- [10. Open Questions](221-10-open-questions.md) _25%_
+- [12. Closing](223-12-closing.md) _25%_

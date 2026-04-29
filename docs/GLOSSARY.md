@@ -42,7 +42,7 @@
 ---
 
 **Смотрите также:**
-- [MINDMAP](docs/MINDMAP.md)
-- [NETWORK](docs/NETWORK.md)
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+- [MINDMAP](MINDMAP.md)
+- [NETWORK](NETWORK.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 

@@ -87,9 +87,9 @@ practitioners during framework development valuable.
 ---
 
 **Похожие документы:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.26)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.15)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.13)
+- [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.26)
+- [145-8-call-to-action](145-8-call-to-action.md) (сходство 0.15)
+- [223-12-closing](223-12-closing.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -97,24 +97,24 @@ practitioners during framework development valuable.
 ---
 
 **Смотрите также:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
+- [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [223-12-closing](223-12-closing.md)
+- [180-11-call-for-collaboration](180-11-call-for-collaboration.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [12. Call for Collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) _33%_
-- [11. Call for Collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) _21%_
-- [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) _21%_
-- [8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
-- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _21%_
-- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _21%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _17%_
-- [Abstract](docs/02-anthropic-vacancies/210-abstract.md) _17%_
+- [12. Call for Collaboration](265-12-call-for-collaboration.md) _33%_
+- [11. Call for Collaboration](180-11-call-for-collaboration.md) _21%_
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _21%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
+- [10. Open Questions](221-10-open-questions.md) _21%_
+- [12. Closing](223-12-closing.md) _21%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _17%_
+- [Abstract](210-abstract.md) _17%_

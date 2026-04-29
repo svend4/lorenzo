@@ -62,9 +62,9 @@ _Обновлено: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [01-executive-summary](docs/01-svyazi/01-executive-summary.md) (сходство 0.68)
-- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.15)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md) (сходство 0.15)
+- [01-executive-summary](01-executive-summary.md) (сходство 0.68)
+- [05-план-прототипа-и-возможные-контакты](05-план-прототипа-и-возможные-контакты.md) (сходство 0.15)
+- [07-mvp-planning](../01-svyazi/07-mvp-planning.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -72,9 +72,9 @@ _Обновлено: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [03-component-catalog](docs/01-svyazi/03-component-catalog.md)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
+- [03-component-catalog](../01-svyazi/03-component-catalog.md)
+- [04-ensembles-overview](../01-svyazi/04-ensembles-overview.md)
+- [07-mvp-planning](../01-svyazi/07-mvp-planning.md)
 
 
 
@@ -105,16 +105,16 @@ _Обновлено: 2026-04-29_
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Поиск AI-коллабораций](docs/04-ai-collaborations/README.md)
+- [Поиск AI-коллабораций](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [08 Conclusions](docs/01-svyazi/08-conclusions.md) _53%_
-- [Выводы](docs/04-ai-collaborations/07-выводы.md) _53%_
+- [08 Conclusions](../01-svyazi/08-conclusions.md) _53%_
+- [Выводы](07-выводы.md) _53%_
 - [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) _42%_
-- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _37%_
-- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _33%_
-- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _33%_
-- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _33%_
-- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
+- [Новые ансамбли следующего шага](10-новые-ансамбли-следующего-шага.md) _37%_
+- [07 Mvp Planning](../01-svyazi/07-mvp-planning.md) _33%_
+- [09 Architectural Gaps](../01-svyazi/09-architectural-gaps.md) _33%_
+- [10 Second Order Ensembles](../01-svyazi/10-second-order-ensembles.md) _33%_
+- [Приоритетные ансамбли](04-приоритетные-ансамбли.md) _33%_

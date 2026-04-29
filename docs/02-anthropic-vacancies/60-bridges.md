@@ -39,9 +39,9 @@ bridge.]
 ---
 
 **Похожие документы:**
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md) (сходство 0.22)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md) (сходство 0.22)
-- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md) (сходство 0.21)
+- [61-compatibility-level](61-compatibility-level.md) (сходство 0.22)
+- [40-bridges](40-bridges.md) (сходство 0.22)
+- [50-bridges](50-bridges.md) (сходство 0.21)
 
 
 <!-- see-also -->
@@ -49,24 +49,24 @@ bridge.]
 ---
 
 **Смотрите также:**
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
-- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [40-bridges](40-bridges.md)
+- [50-bridges](50-bridges.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Bridges](docs/02-anthropic-vacancies/40-bridges.md) _37%_
-- [Compatibility Level](docs/02-anthropic-vacancies/61-compatibility-level.md) _33%_
-- [Bridges](docs/02-anthropic-vacancies/50-bridges.md) _29%_
-- [Compatibility Level](docs/02-anthropic-vacancies/51-compatibility-level.md) _29%_
-- [Native Format](docs/02-anthropic-vacancies/57-native-format.md) _29%_
-- [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md) _25%_
-- [15. Glossary of Examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) _21%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _21%_
+- [Bridges](40-bridges.md) _37%_
+- [Compatibility Level](61-compatibility-level.md) _33%_
+- [Bridges](50-bridges.md) _29%_
+- [Compatibility Level](51-compatibility-level.md) _29%_
+- [Native Format](57-native-format.md) _29%_
+- [Compatibility Level](41-compatibility-level.md) _25%_
+- [15. Glossary of Examples](27-15-glossary-of-examples.md) _21%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _21%_

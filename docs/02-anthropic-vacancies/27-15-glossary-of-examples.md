@@ -28,9 +28,9 @@ implementations.
 ---
 
 **Похожие документы:**
-- [97-22-glossary-of-reference-examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) (сходство 0.33)
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md) (сходство 0.18)
-- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.16)
+- [97-22-glossary-of-reference-examples](97-22-glossary-of-reference-examples.md) (сходство 0.33)
+- [55-passports-meta-md](55-passports-meta-md.md) (сходство 0.18)
+- [35-passports-info1-md](35-passports-info1-md.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -38,24 +38,24 @@ implementations.
 ---
 
 **Смотрите также:**
-- [97-22-glossary-of-reference-examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md)
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
-- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
-- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+- [97-22-glossary-of-reference-examples](97-22-glossary-of-reference-examples.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [35-passports-info1-md](35-passports-info1-md.md)
+- [45-passports-pro2-md](45-passports-pro2-md.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [22. Glossary of Reference Examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) _66%_
-- [passports/info1.md](docs/02-anthropic-vacancies/35-passports-info1-md.md) _48%_
-- [passports/pro2.md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) _48%_
-- [passports/meta.md](docs/02-anthropic-vacancies/55-passports-meta-md.md) _48%_
-- [Essence](docs/02-anthropic-vacancies/56-essence.md) _33%_
-- [Essence](docs/02-anthropic-vacancies/46-essence.md) _29%_
-- [13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) _25%_
-- [Essence](docs/02-anthropic-vacancies/36-essence.md) _25%_
+- [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md) _66%_
+- [passports/info1.md](35-passports-info1-md.md) _48%_
+- [passports/pro2.md](45-passports-pro2-md.md) _48%_
+- [passports/meta.md](55-passports-meta-md.md) _48%_
+- [Essence](56-essence.md) _33%_
+- [Essence](46-essence.md) _29%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _25%_
+- [Essence](36-essence.md) _25%_

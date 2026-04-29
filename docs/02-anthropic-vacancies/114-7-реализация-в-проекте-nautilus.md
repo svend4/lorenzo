@@ -70,9 +70,9 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 ---
 
 **Похожие документы:**
-- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.18)
-- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.14)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.10)
+- [108-2-формальный-workflow](108-2-формальный-workflow.md) (сходство 0.18)
+- [117-10-конкретный-план-применения-к-текущим-документам](117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.14)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -80,24 +80,24 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 ---
 
 **Смотрите также:**
-- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
-- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- [108-2-формальный-workflow](108-2-формальный-workflow.md)
+- [117-10-конкретный-план-применения-к-текущим-документам](117-10-конкретный-план-применения-к-текущим-документам.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [24-12-versioning-policy](24-12-versioning-policy.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [2. Формальный workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) _48%_
-- [10. Конкретный план применения к текущим документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) _48%_
-- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _25%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _21%_
-- [Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) _21%_
-- [Примеры запросов (в Claude)](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md) _21%_
-- [Author & Contact](docs/02-anthropic-vacancies/62-author-contact.md) _21%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) _21%_
+- [2. Формальный workflow](108-2-формальный-workflow.md) _48%_
+- [10. Конкретный план применения к текущим документам](117-10-конкретный-план-применения-к-текущим-документам.md) _48%_
+- [Author & Contact](42-author-contact.md) _25%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
+- [Глоссарий](122-глоссарий.md) _21%_
+- [Примеры запросов (в Claude)](129-примеры-запросов-в-claude.md) _21%_
+- [Author & Contact](62-author-contact.md) _21%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _21%_

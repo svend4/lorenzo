@@ -22,21 +22,8 @@
 **Общих абзацев:** 1  
 **Примеры совпадений:**
 
-> - [SGB](docs/autofilled/components/sgb.md) _90%_ - [Svyazi](docs/autofilled/components/svyazi.md) _90%_ - [Антропик](docs/autofilled/components/.md) _83%_ - [Cowork](docs/autofilled/components/cowork.…
-
-> <!-- summary --> > Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая из которых поднимает один новый класс свойств. Первая итерац…
-
----
-
-> Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [.md](docs/autofilled/components/.md)
-- [cowork](docs/autofilled/components/cowork.md)
-- [ingit](docs/autofilled/components/ingit.md)
-- [lorenzo](docs/autofilled/components/lorenzo.md)
+> - [SGB](autofilled/components/sgb.md) _90%_ - [Svyazi](autofilled/components/svyazi.md) _90%_ - [Антропик](autofilled/components/.md) _83%_ - [Cowork](autofilled/components/.md)
+- [cowork](autofilled/components/cowork.md)
+- [ingit](autofilled/components/ingit.md)
+- [lorenzo](autofilled/components/lorenzo.md)
 

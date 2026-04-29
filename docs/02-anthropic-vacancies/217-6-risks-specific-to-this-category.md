@@ -242,9 +242,9 @@ emerge.
 ---
 
 **Похожие документы:**
-- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.15)
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.14)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.14)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md) (сходство 0.15)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.14)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -252,24 +252,24 @@ emerge.
 ---
 
 **Смотрите также:**
-- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) _33%_
-- [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) _25%_
-- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _25%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
-- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _25%_
-- [8. Risks and Mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) _21%_
-- [2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) _21%_
-- [3. Empirical Case Study: «Обучай»](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) _21%_
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _33%_
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _25%_
+- [10. Open Questions](221-10-open-questions.md) _25%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _25%_
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md) _21%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _21%_
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md) _21%_

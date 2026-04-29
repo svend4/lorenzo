@@ -92,7 +92,8 @@ def main():
     coverage_score = min(float(coverage), 100) if coverage != "?" else 0
     missing_score = 100 * ok_count / max(ok_count + warn_count + bad_count, 1)
     consist_score = max(0, 100 - consist_count)
-    links_score = max(0, 100 - broken_count * 4)
+    # score: 100 at 0 broken, 80 at 100 broken, 0 at 500+ broken
+    links_score = max(0, 100 - broken_count * 0.2)
     dup_score = max(0, 100 - exact_dups * 20)
 
     total_score = (coverage_score + missing_score + consist_score +

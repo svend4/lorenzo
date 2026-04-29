@@ -49,8 +49,8 @@
 ---
 
 **Похожие документы:**
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) (сходство 0.89)
-- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.11)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md) (сходство 0.89)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -58,20 +58,20 @@
 ---
 
 **Смотрите также:**
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
-- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
-- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [76-1-introduction](76-1-introduction.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [21. ADR-003: Five Onboarding Paths as Equal-Rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _60%_
-- [14. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) _37%_
-- [20. ADR-002: Q6 as First-Class Protocol Concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) _33%_
-- [1. Introduction](docs/02-anthropic-vacancies/06-1-introduction.md) _17%_
+- [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _60%_
+- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md) _37%_
+- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _33%_
+- [1. Introduction](06-1-introduction.md) _17%_

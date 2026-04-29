@@ -171,9 +171,9 @@ agents inherit this distinction.
 ---
 
 **Похожие документы:**
-- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.18)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.16)
+- [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md) (сходство 0.18)
+- [264-11-open-questions](264-11-open-questions.md) (сходство 0.18)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -181,24 +181,24 @@ agents inherit this distinction.
 ---
 
 **Смотрите также:**
-- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
+- [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
+- [264-11-open-questions](264-11-open-questions.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [5. Configuration: How Principals Build Their Ensembles](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) _37%_
-- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _37%_
-- [6. Coordination and Disagreement Resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) _33%_
-- [2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) _29%_
-- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _29%_
-- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _29%_
-- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _25%_
-- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _25%_
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _37%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _37%_
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _33%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _29%_
+- [Table of Contents](253-table-of-contents.md) _29%_
+- [11. Open Questions](264-11-open-questions.md) _29%_
+- [10. Open Questions](179-10-open-questions.md) _25%_
+- [Table of Contents](211-table-of-contents.md) _25%_

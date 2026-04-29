@@ -58,8 +58,8 @@ Passport SHOULD содержать следующие разделы:
 ---
 
 **Похожие документы:**
-- [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.24)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.10)
+- [79-4-passport-passport-md](79-4-passport-passport-md.md) (сходство 0.24)
+- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -67,24 +67,24 @@ Passport SHOULD содержать следующие разделы:
 ---
 
 **Смотрите также:**
-- [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [79-4-passport-passport-md](79-4-passport-passport-md.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
+- [41-compatibility-level](41-compatibility-level.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _33%_
-- [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md) _29%_
-- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) _29%_
-- [Planned (v0.2.0)](docs/02-anthropic-vacancies/132-planned-v0-2-0.md) _25%_
-- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _25%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
-- [History](docs/02-anthropic-vacancies/63-history.md) _25%_
-- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _21%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _33%_
+- [Compatibility Level](41-compatibility-level.md) _29%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _29%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _25%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
+- [History](63-history.md) _25%_
+- [Abstract](04-abstract.md) _21%_

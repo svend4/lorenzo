@@ -737,9 +737,9 @@ if __name__ == "__main__":
 ---
 
 **Похожие документы:**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.22)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) (сходство 0.21)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.17)
+- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.22)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md) (сходство 0.21)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -747,24 +747,24 @@ if __name__ == "__main__":
 ---
 
 **Смотрите также:**
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
-- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
-- [65-readme-md](docs/02-anthropic-vacancies/65-readme-md.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
+- [65-readme-md](65-readme-md.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [README.md](docs/02-anthropic-vacancies/65-readme-md.md) _37%_
-- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _33%_
-- [README-MCP.md— инструкция по установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) _33%_
-- [Подключение к Claude Desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md) _33%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _33%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _33%_
-- [For the Curious: Philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md) _29%_
-- [REVIEW_METHODOLOGY.md](docs/02-anthropic-vacancies/105-review-methodology-md.md) _25%_
+- [README.md](65-readme-md.md) _37%_
+- [Abstract](04-abstract.md) _33%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _33%_
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _33%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _33%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _33%_
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _29%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _25%_

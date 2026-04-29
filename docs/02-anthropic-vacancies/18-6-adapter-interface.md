@@ -98,9 +98,9 @@ string description концепта entry в терминах target_repo, ил�
 ---
 
 **Похожие документы:**
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.51)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md) (сходство 0.11)
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.10)
+- [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.51)
+- [21-9-query-flow](21-9-query-flow.md) (сходство 0.11)
+- [85-10-query-flow](85-10-query-flow.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -108,24 +108,24 @@ string description концепта entry в терминах target_repo, ил�
 ---
 
 **Смотрите также:**
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
+- [19-7-portalentry-structure](19-7-portalentry-structure.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _53%_
-- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _33%_
-- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _29%_
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _29%_
-- [10. Query Flow](docs/02-anthropic-vacancies/85-10-query-flow.md) _29%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _25%_
-- [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) _21%_
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _21%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _53%_
+- [9. Query Flow](21-9-query-flow.md) _33%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _29%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_
+- [10. Query Flow](85-10-query-flow.md) _29%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _25%_
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _21%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_

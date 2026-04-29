@@ -83,8 +83,8 @@ _Всё в порядке_
 ---
 
 **Смотрите также:**
-- [COMPARE](docs/COMPARE.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [SITEMAP](docs/SITEMAP.md)
-- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
+- [COMPARE](COMPARE.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [SITEMAP](SITEMAP.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
 

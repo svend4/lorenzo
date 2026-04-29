@@ -19,7 +19,7 @@ Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PD
 ---
 
 **Похожие документы:**
-- [README](docs/03-technology-combinations/README.md) (сходство 0.15)
+- [README](../README.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -27,12 +27,12 @@ Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PD
 ---
 
 **Смотрите также:**
-- [GLOSSARY](docs/GLOSSARY.md)
-- [MINDMAP](docs/MINDMAP.md)
-- [360-что-ты-всегда-делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [GLOSSARY](../GLOSSARY.md)
+- [MINDMAP](../MINDMAP.md)
+- [360-что-ты-всегда-делаешь](../02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](../02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Комбинирование технологий для новых свойств](docs/03-technology-combinations/README.md)
+- [Комбинирование технологий для новых свойств](../README.md)

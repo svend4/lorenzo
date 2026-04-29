@@ -140,9 +140,9 @@ Onboarding Path C (self-declaring repo).
 ---
 
 **Похожие документы:**
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.52)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.16)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.15)
+- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md) (сходство 0.52)
+- [77-2-terminology](77-2-terminology.md) (сходство 0.16)
+- [07-2-terminology](07-2-terminology.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -150,24 +150,24 @@ Onboarding Path C (self-declaring repo).
 ---
 
 **Смотрите также:**
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [77-2-terminology](77-2-terminology.md)
+- [07-2-terminology](07-2-terminology.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _66%_
-- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) _37%_
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _29%_
-- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _29%_
-- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _25%_
-- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _25%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _21%_
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _21%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _66%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _37%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _29%_
+- [2. Terminology](77-2-terminology.md) _29%_
+- [2. Terminology](07-2-terminology.md) _25%_
+- [Appendix C: References](104-appendix-c-references.md) _25%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _21%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _21%_

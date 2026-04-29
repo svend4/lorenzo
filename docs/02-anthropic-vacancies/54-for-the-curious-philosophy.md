@@ -37,7 +37,7 @@ Last updated: 2026-04*
 ---
 
 **Похожие документы:**
-- [44-for-the-curious-philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md) (сходство 0.12)
+- [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -45,24 +45,24 @@ Last updated: 2026-04*
 ---
 
 **Смотрите также:**
-- [44-for-the-curious-philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [47-native-format](47-native-format.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _33%_
-- [For the Curious: Philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md) _33%_
-- [portal-mcp.py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) _29%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _29%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _29%_
-- [Appendix B: Change Log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) _25%_
-- [Native Format](docs/02-anthropic-vacancies/37-native-format.md) _25%_
-- [For the Curious: Philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md) _25%_
+- [Abstract](04-abstract.md) _33%_
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _33%_
+- [portal-mcp.py](123-portal-mcp-py.md) _29%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _29%_
+- [Appendix B: Change Log](34-appendix-b-change-log.md) _25%_
+- [Native Format](37-native-format.md) _25%_
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _25%_

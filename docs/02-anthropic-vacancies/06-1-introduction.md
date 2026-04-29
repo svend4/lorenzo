@@ -78,8 +78,8 @@ NPP **не** пытается:
 ---
 
 **Похожие документы:**
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.53)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.12)
+- [76-1-introduction](76-1-introduction.md) (сходство 0.53)
+- [67-о-проекте](67-о-проекте.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -87,23 +87,23 @@ NPP **не** пытается:
 ---
 
 **Смотрите также:**
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
-- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [76-1-introduction](76-1-introduction.md)
+- [67-о-проекте](67-о-проекте.md)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [1. Introduction](docs/02-anthropic-vacancies/76-1-introduction.md) _53%_
-- [14. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) _21%_
-- [🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md) _17%_
-- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _17%_
-- [19. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) _17%_
-- [20. ADR-002: Q6 as First-Class Protocol Concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) _17%_
-- [21. ADR-003: Five Onboarding Paths as Equal-Rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _17%_
+- [1. Introduction](76-1-introduction.md) _53%_
+- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md) _21%_
+- [🇷🇺 О проекте](67-о-проекте.md) _17%_
+- [2. Terminology](77-2-terminology.md) _17%_
+- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md) _17%_
+- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _17%_
+- [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _17%_

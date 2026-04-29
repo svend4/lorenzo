@@ -66,9 +66,9 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 ---
 
 **Похожие документы:**
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md) (сходство 0.72)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.12)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.10)
+- [21-9-query-flow](21-9-query-flow.md) (сходство 0.72)
+- [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.12)
+- [18-6-adapter-interface](18-6-adapter-interface.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -76,24 +76,24 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 ---
 
 **Смотрите также:**
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _66%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _29%_
-- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _25%_
-- [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) _21%_
-- [🇬🇧 About](docs/02-anthropic-vacancies/68-about.md) _17%_
-- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _17%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _17%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _17%_
+- [9. Query Flow](21-9-query-flow.md) _66%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _29%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _21%_
+- [🇬🇧 About](68-about.md) _17%_
+- [2. Terminology](77-2-terminology.md) _17%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _17%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _17%_

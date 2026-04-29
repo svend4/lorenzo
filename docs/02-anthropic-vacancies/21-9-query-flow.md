@@ -55,9 +55,9 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 ---
 
 **Похожие документы:**
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.72)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.11)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) (сходство 0.11)
+- [85-10-query-flow](85-10-query-flow.md) (сходство 0.72)
+- [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.11)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -65,24 +65,24 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 ---
 
 **Смотрите также:**
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
+- [85-10-query-flow](85-10-query-flow.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [10. Query Flow](docs/02-anthropic-vacancies/85-10-query-flow.md) _66%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _33%_
-- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _33%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _25%_
-- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _21%_
-- [9. Consensus Algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) _21%_
-- [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) _17%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _17%_
+- [10. Query Flow](85-10-query-flow.md) _66%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _33%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _33%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _25%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _21%_
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md) _21%_
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _17%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _17%_

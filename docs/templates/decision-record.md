@@ -39,6 +39,6 @@ _Дата: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [project-component](docs/templates/project-component.md)
+- [ensemble](ensemble.md)
+- [project-component](project-component.md)
 

@@ -152,9 +152,9 @@ Contact: via GitHub issues at
 ---
 
 **Похожие документы:**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.18)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.17)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.15)
+- [136-abstract](136-abstract.md) (сходство 0.18)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.17)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -162,24 +162,24 @@ Contact: via GitHub issues at
 ---
 
 **Смотрите также:**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [136-abstract](136-abstract.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Abstract](docs/02-anthropic-vacancies/136-abstract.md) _33%_
-- [6. Four Deployment Domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) _29%_
-- [5. Pattern Library as Bridge Between Triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) _21%_
-- [7. Open Questions](docs/02-anthropic-vacancies/144-7-open-questions.md) _21%_
-- [Appendix A: Glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) _21%_
-- [4. Proposed Infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) _21%_
-- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _21%_
-- [PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md) _21%_
+- [Abstract](136-abstract.md) _33%_
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _29%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _21%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _21%_
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _21%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _21%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _21%_

@@ -38,9 +38,9 @@ training logs, benchmarks]
 ---
 
 **Похожие документы:**
-- [53-history](docs/02-anthropic-vacancies/53-history.md) (сходство 0.18)
-- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md) (сходство 0.14)
-- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.10)
+- [53-history](53-history.md) (сходство 0.18)
+- [52-author-contact](52-author-contact.md) (сходство 0.14)
+- [45-passports-pro2-md](45-passports-pro2-md.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -48,24 +48,24 @@ training logs, benchmarks]
 ---
 
 **Смотрите также:**
-- [53-history](docs/02-anthropic-vacancies/53-history.md)
-- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+- [53-history](53-history.md)
+- [52-author-contact](52-author-contact.md)
+- [42-author-contact](42-author-contact.md)
+- [62-author-contact](62-author-contact.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [History](docs/02-anthropic-vacancies/53-history.md) _37%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _29%_
-- [13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) _29%_
-- [passports/info1.md](docs/02-anthropic-vacancies/35-passports-info1-md.md) _29%_
-- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _29%_
-- [History](docs/02-anthropic-vacancies/43-history.md) _29%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) _29%_
-- [18. Reference Implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) _29%_
+- [History](53-history.md) _37%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _29%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _29%_
+- [passports/info1.md](35-passports-info1-md.md) _29%_
+- [Author & Contact](42-author-contact.md) _29%_
+- [History](43-history.md) _29%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _29%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _29%_

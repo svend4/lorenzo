@@ -60,9 +60,9 @@ header of this document.
 ---
 
 **Похожие документы:**
-- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md) (сходство 0.18)
-- [320-references](docs/02-anthropic-vacancies/320-references.md) (сходство 0.14)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.14)
+- [302-ссылки](302-ссылки.md) (сходство 0.18)
+- [320-references](320-references.md) (сходство 0.14)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -70,24 +70,24 @@ header of this document.
 ---
 
 **Смотрите также:**
-- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [302-ссылки](302-ссылки.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _42%_
-- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _37%_
-- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _33%_
-- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _33%_
-- [with Anthropic's Cowork Platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) _33%_
-- [Существующие документы DHLab (твой context)](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) _33%_
-- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _29%_
-- [AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) _29%_
+- [Acknowledgments](286-acknowledgments.md) _42%_
+- [Acknowledgments](319-acknowledgments.md) _37%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _33%_
+- [Acknowledgments](267-acknowledgments.md) _33%_
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _33%_
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _33%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _29%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _29%_

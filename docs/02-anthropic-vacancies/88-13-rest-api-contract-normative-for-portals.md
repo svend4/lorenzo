@@ -152,8 +152,8 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 ---
 
 **Похожие документы:**
-- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md) (сходство 0.12)
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.11)
+- [128-доступные-инструменты](128-доступные-инструменты.md) (сходство 0.12)
+- [90-15-security-considerations](90-15-security-considerations.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -161,22 +161,22 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 ---
 
 **Смотрите также:**
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Доступные инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md) _29%_
-- [15. Security Considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) _29%_
-- [11. Security Considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md) _21%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _17%_
-- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _17%_
-- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _17%_
+- [Доступные инструменты](128-доступные-инструменты.md) _29%_
+- [15. Security Considerations](90-15-security-considerations.md) _29%_
+- [11. Security Considerations](23-11-security-considerations.md) _21%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _17%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _17%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _17%_

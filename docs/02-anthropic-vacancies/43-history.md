@@ -32,7 +32,7 @@
 ---
 
 **Похожие документы:**
-- [63-history](docs/02-anthropic-vacancies/63-history.md) (сходство 0.16)
+- [63-history](63-history.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -40,24 +40,24 @@
 ---
 
 **Смотрите также:**
-- [63-history](docs/02-anthropic-vacancies/63-history.md)
-- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
-- [53-history](docs/02-anthropic-vacancies/53-history.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [63-history](63-history.md)
+- [35-passports-info1-md](35-passports-info1-md.md)
+- [53-history](53-history.md)
+- [42-author-contact](42-author-contact.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [passports/info1.md](docs/02-anthropic-vacancies/35-passports-info1-md.md) _29%_
-- [Content Overview](docs/02-anthropic-vacancies/48-content-overview.md) _29%_
-- [History](docs/02-anthropic-vacancies/53-history.md) _29%_
-- [For the Curious: Philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md) _21%_
-- [passports/pro2.md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) _21%_
-- [Essence](docs/02-anthropic-vacancies/46-essence.md) _21%_
-- [Native Format](docs/02-anthropic-vacancies/47-native-format.md) _21%_
-- [passports/meta.md](docs/02-anthropic-vacancies/55-passports-meta-md.md) _21%_
+- [passports/info1.md](35-passports-info1-md.md) _29%_
+- [Content Overview](48-content-overview.md) _29%_
+- [History](53-history.md) _29%_
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _21%_
+- [passports/pro2.md](45-passports-pro2-md.md) _21%_
+- [Essence](46-essence.md) _21%_
+- [Native Format](47-native-format.md) _21%_
+- [passports/meta.md](55-passports-meta-md.md) _21%_

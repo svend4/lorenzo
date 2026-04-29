@@ -314,9 +314,9 @@ Pero никто не построил yet what you described. Это opportunity
 ---
 
 **Похожие документы:**
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.17)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.15)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.15)
+- [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.17)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md) (сходство 0.15)
+- [165-closing](165-closing.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -324,24 +324,24 @@ Pero никто не построил yet what you described. Это opportunity
 ---
 
 **Смотрите также:**
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [ACTION_ITEMS](../ACTION_ITEMS.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [165-closing](165-closing.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) _21%_
-- [Closing](docs/02-anthropic-vacancies/165-closing.md) _21%_
-- [Appendix: Position in Series Visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) _21%_
-- [Введение](docs/02-anthropic-vacancies/00-intro.md) _17%_
-- [Appendix C: Version History](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) _17%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _17%_
-- [PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md) _17%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _17%_
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _21%_
+- [Closing](165-closing.md) _21%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _21%_
+- [Введение](../04-ai-collaborations/00-intro.md) _17%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _17%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _17%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _17%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _17%_

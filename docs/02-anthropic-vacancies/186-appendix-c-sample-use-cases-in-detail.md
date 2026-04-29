@@ -249,9 +249,9 @@ Thank you for the collaboration.
 ---
 
 **Похожие документы:**
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.16)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.14)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.14)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md) (сходство 0.16)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.14)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -259,24 +259,24 @@ Thank you for the collaboration.
 ---
 
 **Смотрите также:**
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Appendix: Position in Series Visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) _29%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
-- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _25%_
-- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _21%_
-- [Appendix C: Version History](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) _21%_
-- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _21%_
-- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _21%_
-- [References](docs/02-anthropic-vacancies/225-references.md) _21%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _29%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _25%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _21%_
+- [10. Open Questions](179-10-open-questions.md) _21%_
+- [12. Closing](223-12-closing.md) _21%_
+- [References](225-references.md) _21%_

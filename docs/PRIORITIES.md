@@ -179,8 +179,8 @@
 ---
 
 **Смотрите также:**
-- [SITEMAP](docs/SITEMAP.md)
-- [VERSION_DIFF](docs/VERSION_DIFF.md)
-- [SEARCH](docs/SEARCH.md)
-- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
+- [SITEMAP](SITEMAP.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [SEARCH](SEARCH.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
 

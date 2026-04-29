@@ -41,19 +41,19 @@
 ---
 
 **Смотрите также:**
-- [WORD_FREQ](docs/WORD_FREQ.md)
-- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [ENTITIES](docs/ENTITIES.md)
+- [WORD_FREQ](../WORD_FREQ.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [136-abstract](136-abstract.md)
+- [ENTITIES](../ENTITIES.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) _25%_
-- [Инвертированный индекс ключевых слов](docs/KEYWORD_INDEX.md) _21%_
-- [Final note: Ты — experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md) _17%_
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](341-приложение-c-образец-спецификаций-инструментов-ing.md) _25%_
+- [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md) _21%_
+- [Final note: Ты — experiment](364-final-note-ты-experiment.md) _17%_

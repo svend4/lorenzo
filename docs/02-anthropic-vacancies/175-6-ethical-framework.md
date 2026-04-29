@@ -140,9 +140,9 @@ tech-sophisticated principals fails its core mission.
 ---
 
 **Похожие документы:**
-- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.15)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.14)
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.13)
+- [176-7-governance-and-oversight](176-7-governance-and-oversight.md) (сходство 0.15)
+- [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.14)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -150,24 +150,24 @@ tech-sophisticated principals fails its core mission.
 ---
 
 **Смотрите также:**
-- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+- [176-7-governance-and-oversight](176-7-governance-and-oversight.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
+- [179-10-open-questions](179-10-open-questions.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [7. Governance and Oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md) _21%_
-- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _21%_
-- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _21%_
-- [5. Configuration: How Principals Build Their Ensembles](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) _21%_
-- [7. Open Questions](docs/02-anthropic-vacancies/144-7-open-questions.md) _17%_
-- [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) _17%_
-- [2. Historical Precedents: Agents as Civilizational Innovation](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
-- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _17%_
+- [7. Governance and Oversight](176-7-governance-and-oversight.md) _21%_
+- [10. Open Questions](179-10-open-questions.md) _21%_
+- [12. Closing](223-12-closing.md) _21%_
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _17%_
+- [Acknowledgments](146-acknowledgments.md) _17%_
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _17%_

@@ -26,9 +26,9 @@
 ---
 
 **Похожие документы:**
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md) (сходство 0.52)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md) (сходство 0.44)
-- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.17)
+- [51-compatibility-level](51-compatibility-level.md) (сходство 0.52)
+- [61-compatibility-level](61-compatibility-level.md) (сходство 0.44)
+- [17-5-compatibility-levels](17-5-compatibility-levels.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -36,24 +36,24 @@
 ---
 
 **Смотрите также:**
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [17-5-compatibility-levels](17-5-compatibility-levels.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Compatibility Level](docs/02-anthropic-vacancies/61-compatibility-level.md) _53%_
-- [Compatibility Level](docs/02-anthropic-vacancies/51-compatibility-level.md) _48%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _33%_
-- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) _29%_
-- [Planned (v0.2.0)](docs/02-anthropic-vacancies/132-planned-v0-2-0.md) _29%_
-- [Содержание](docs/02-anthropic-vacancies/190-содержание.md) _29%_
-- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _29%_
-- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _29%_
+- [Compatibility Level](61-compatibility-level.md) _53%_
+- [Compatibility Level](51-compatibility-level.md) _48%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _33%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _29%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _29%_
+- [Содержание](190-содержание.md) _29%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
+- [Содержание](326-содержание.md) _29%_

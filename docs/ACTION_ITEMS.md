@@ -154,7 +154,7 @@
   _→ 01-executive-summary_
 - как понятны роли агентов, типы задач и review states.  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
-- _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_  
+- _→ [342-что-такое-вариант-c-concept-document-для-anthropic](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_  
   _→ CONCEPTS_
 - за вами: либо я могу составить конкретный чек-лист для ш  
   _→ DECISIONS_
@@ -1183,8 +1183,8 @@ _(17 дублей скрыто)_
 ---
 
 **Смотрите также:**
-- [CONCEPTS](docs/CONCEPTS.md)
-- [TABLES](docs/TABLES.md)
-- [SEARCH](docs/SEARCH.md)
-- [READING_TIME](docs/READING_TIME.md)
+- [CONCEPTS](CONCEPTS.md)
+- [TABLES](TABLES.md)
+- [SEARCH](SEARCH.md)
+- [READING_TIME](READING_TIME.md)
 

@@ -60,9 +60,9 @@ stakeholders as basis for dialogue and refinement.
 ---
 
 **Похожие документы:**
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.17)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.17)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.15)
+- [155-1-problem-statement](155-1-problem-statement.md) (сходство 0.17)
+- [156-2-target-populations](156-2-target-populations.md) (сходство 0.17)
+- [164-10-appendices](164-10-appendices.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -70,24 +70,24 @@ stakeholders as basis for dialogue and refinement.
 ---
 
 **Смотрите также:**
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [1. Problem Statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) _42%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _29%_
-- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _29%_
-- [3. Why Existing Solutions Fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) _29%_
-- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md) _29%_
-- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md) _21%_
-- [2. Target Populations](docs/02-anthropic-vacancies/156-2-target-populations.md) _21%_
-- [8. Call to Action](docs/02-anthropic-vacancies/145-8-call-to-action.md) _17%_
+- [1. Problem Statement](155-1-problem-statement.md) _42%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _29%_
+- [Table of Contents](154-table-of-contents.md) _29%_
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md) _29%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _29%_
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _21%_
+- [2. Target Populations](156-2-target-populations.md) _21%_
+- [8. Call to Action](145-8-call-to-action.md) _17%_

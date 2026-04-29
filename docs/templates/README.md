@@ -27,5 +27,5 @@ cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.
 ---
 
 **Смотрите также:**
-- [research-summary](docs/autofilled/research-summary.md)
+- [research-summary](../autofilled/research-summary.md)
 

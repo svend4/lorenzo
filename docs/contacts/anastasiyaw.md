@@ -64,27 +64,27 @@ _Создано автоматически: 2026-04-29_
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Приоритет контактов](docs/CONTACT_PRIORITY.md)
+- [Приоритет контактов](../CONTACT_PRIORITY.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Контакт: Sonia_Black / knowledge-space](docs/contacts/sonia-black.md) _73%_
-- [Контакт: andrey_chuyan / Svyazi](docs/contacts/andrey-chuyan.md) _60%_
-- [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) _60%_
-- [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md) _60%_
-- [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md) _60%_
-- [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md) _60%_
-- [Контакт: nlaik / LiteParse / research-docs](docs/contacts/nlaik.md) _60%_
-- [Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md) _60%_
+- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _73%_
+- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _60%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _60%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _60%_
+- [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _60%_
+- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _60%_
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _60%_
+- [Контакт: spbmolot / NGT Memory](../autofilled/components/spbmolot.md) _60%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [kksudo](docs/contacts/kksudo.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [tagir-analyzes](tagir-analyzes.md)
 

@@ -86,7 +86,7 @@
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
   _→ 14-limitations_
 
-- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [Контакт: AnastasiyaW / knowledge-space, mclaude](docs/contacts/anastasiyaw.md) > Параметр Значение - Профиль - Статус свя  
+- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [Контакт: AnastasiyaW / knowledge-space, mclaude](contacts/anastasiyaw.md) > Параметр Значение - Профиль - Статус свя  
   _→ OUTLINE_
 
 
@@ -119,7 +119,7 @@
 - склеивать](docs/01-svyazi/14-limitations.md)](#ограничения-лицензии-и-что-пока-лучше-не-склеиватьdocs01-svyazi14-limitationsmd) - [[Q&A: 01-svyazi](  
   _→ OUTLINE_
 
-- склеивать](docs/01-svyazi/14-limitations.md) _Слов: 549_ ### [Q&A: 01-svyazi](docs/01-svyazi/QA.md) > > !TIP - Как реализован forensic RAG[^rag]  
+- склеивать](docs/01-svyazi/14-limitations.md) _Слов: 549_ ### [Q&A: 01-svyazi](QA.md) > > !TIP - Как реализован forensic RAG[^rag]  
   _→ OUTLINE_
 
 
@@ -238,6 +238,6 @@ _...ещё 125 записей в этой категории_
 ---
 
 **Смотрите также:**
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [PROGRESS](docs/PROGRESS.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [PROGRESS](PROGRESS.md)
 

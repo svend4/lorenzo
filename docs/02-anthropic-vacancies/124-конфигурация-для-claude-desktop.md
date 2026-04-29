@@ -40,8 +40,8 @@ json
 ---
 
 **Похожие документы:**
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md) (сходство 0.23)
-- [130-отладка](docs/02-anthropic-vacancies/130-отладка.md) (сходство 0.15)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md) (сходство 0.23)
+- [130-отладка](130-отладка.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -49,20 +49,20 @@ json
 ---
 
 **Смотрите также:**
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [130-отладка](docs/02-anthropic-vacancies/130-отладка.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [130-отладка](130-отладка.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
 ## Связанные документы
 
-- [Отладка](docs/02-anthropic-vacancies/130-отладка.md) _33%_
-- [Подключение к Claude Desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md) _25%_
-- [Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) _17%_
-- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _17%_
+- [Отладка](130-отладка.md) _33%_
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _25%_
+- [Глоссарий](122-глоссарий.md) _17%_
+- [2. Terminology](77-2-terminology.md) _17%_
