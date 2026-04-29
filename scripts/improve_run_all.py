@@ -1,15 +1,22 @@
 """
 improve_run_all.py — мастер-скрипт для запуска всех improve_*.py.
 Запускает скрипты в правильном порядке (зависимости учтены).
-Поддерживает: --fast (только быстрые), --group <name>, --dry-run, --smart.
 
-  --smart     Условный запуск: пропускает скрипты если метрика уже выше порога.
-              Читает docs/METRICS.md, docs/HEALTH.md, docs/SCORING.md.
+Флаги:
+  --fast     Пропускает медленные скрипты (clusters, similar, html-export)
+  --smart    Условный запуск: пропускает если метрика выше порога
+  --dry-run  Показывает план без реального запуска
+  --group X  Запускает только одну группу
+  --changed  Запускает только скрипты, связанные с git-изменёнными файлами
+
+Группы (в порядке выполнения):
+  structure → index → analysis → extract → quality →
+  graph → generate → reports → export
 
 Запуск: python scripts/improve_run_all.py
-        python scripts/improve_run_all.py --fast
-        python scripts/improve_run_all.py --group analysis
-        python scripts/improve_run_all.py --smart
+        python scripts/improve_run_all.py --fast --smart
+        python scripts/improve_run_all.py --group generate
+        python scripts/improve_run_all.py --changed
 """
 import re
 import subprocess
@@ -92,6 +99,34 @@ GROUPS = {
         "improve_sitemap.py",
         "improve_report.py",
     ],
+    "generate": [
+        # Генерация файлов из шаблонов и данных (после extract/analysis)
+        "improve_templates.py",
+        "improve_autofill.py",
+        "improve_footnotes.py",
+        "improve_see_also.py",
+        "improve_faq.py",
+        "improve_badges.py",
+        "improve_word_cloud.py",
+    ],
+    "reports": [
+        # Отчёты (запускать последними)
+        "improve_qa.py",
+        "improve_contacts.py",
+        "improve_changelog.py",
+        "improve_reading_order.py",
+        "improve_stats.py",
+        "improve_health.py",
+        "improve_compare.py",
+        "improve_sitemap.py",
+        "improve_scoring.py",
+        "improve_cost.py",
+        "improve_schedule.py",
+        "improve_digest.py",
+        "improve_progress.py",
+        "improve_progress_sync.py",
+        "improve_report.py",
+    ],
     "export": [
         # Экспорт
         "improve_export_csv.py",
@@ -107,10 +142,19 @@ SLOW_SCRIPTS = {
     "improve_export_html.py",    # 3 MB HTML
     "improve_export_json.py",    # 600 KB JSON
     "improve_search_index.py",   # полный индекс
+    "improve_word_cloud.py",     # SVG рендеринг
+    "improve_digest.py",         # полный обход git
+}
+
+# Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
+LLM_SCRIPTS = {
+    "improve_llm_enrich.py",
+    "improve_llm_summary.py",
+    "improve_llm_qa.py",
 }
 
 GROUP_ORDER = ["structure", "index", "analysis", "extract",
-               "quality", "graph", "reports", "export"]
+               "quality", "graph", "generate", "reports", "export"]
 
 # ---------------------------------------------------------------------------
 # Stage 2: условное выполнение по результату предыдущих скриптов
@@ -152,6 +196,50 @@ SMART_CONDITIONS: dict[str, tuple[str, float]] = {
     "improve_consistency.py":("HEALTH.md",  90.0),
     "improve_report.py":     ("SCORING.md", 95.0),
 }
+
+
+# Маппинг: расширение/папка docs/ → группа скриптов которую нужно запустить
+_CHANGED_SECTION_MAP: dict[str, list[str]] = {
+    "05-habr-projects": ["structure", "index", "analysis", "extract", "quality", "generate"],
+    "04-ai-collaborations": ["structure", "index", "quality", "generate"],
+    "01-svyazi": ["structure", "index", "quality"],
+    "02-anthropic-vacancies": ["structure", "index"],
+    "03-technology-combinations": ["structure", "index"],
+    "contacts": ["reports"],
+}
+
+
+def _get_changed_groups() -> list[str]:
+    """Возвращает группы скриптов, связанные с git-изменёнными файлами."""
+    result = subprocess.run(
+        ["git", "diff", "--name-only", "HEAD"],
+        cwd=ROOT, capture_output=True, text=True
+    )
+    changed_files = result.stdout.strip().splitlines()
+    # Также staged изменения
+    result2 = subprocess.run(
+        ["git", "diff", "--name-only", "--cached"],
+        cwd=ROOT, capture_output=True, text=True
+    )
+    changed_files += result2.stdout.strip().splitlines()
+
+    groups_needed: set[str] = set()
+    for f in changed_files:
+        parts = Path(f).parts
+        if len(parts) >= 2 and parts[0] == "docs":
+            section = parts[1]
+            for mapped_groups in _CHANGED_SECTION_MAP.get(section, []):
+                groups_needed.add(mapped_groups)
+        elif len(parts) >= 1 and parts[0] == "scripts":
+            # Скрипты изменились — запускаем quality и reports
+            groups_needed.update(["quality", "reports"])
+
+    # reports всегда нужен если что-то изменилось
+    if groups_needed:
+        groups_needed.add("reports")
+
+    # Сохраняем оригинальный порядок из GROUP_ORDER
+    return [g for g in GROUP_ORDER if g in groups_needed]
 
 
 def should_skip_smart(script: str, smart: bool) -> tuple[bool, str]:
@@ -202,6 +290,7 @@ def main():
     fast     = "--fast"    in args
     dry_run  = "--dry-run" in args
     smart    = "--smart"   in args
+    changed  = "--changed" in args
     group_filter = None
     if "--group" in args:
         idx = args.index("--group")
@@ -213,6 +302,7 @@ def main():
     if fast:    print("  Режим: FAST (медленные скрипты пропускаются)")
     if dry_run: print("  Режим: DRY-RUN (реальный запуск отключён)")
     if smart:   print("  Режим: SMART (условный запуск по метрикам)")
+    if changed: print("  Режим: CHANGED (только скрипты для изменённых файлов)")
     if group_filter: print(f"  Группа: {group_filter}")
     print("=" * 60)
 
@@ -221,7 +311,16 @@ def main():
     total_skip = 0
     total_time = 0.0
 
-    groups_to_run = [group_filter] if group_filter else GROUP_ORDER
+    if group_filter:
+        groups_to_run = [group_filter]
+    elif changed:
+        groups_to_run = _get_changed_groups()
+        if not groups_to_run:
+            print("\nℹ️  Нет изменённых файлов — нечего запускать")
+            return
+        print(f"  Группы для запуска: {', '.join(groups_to_run)}")
+    else:
+        groups_to_run = GROUP_ORDER
     for group in groups_to_run:
         scripts = GROUPS.get(group, [])
         if not scripts:
@@ -233,6 +332,11 @@ def main():
         print(f"{'─'*40}")
 
         for script in scripts:
+            if script in LLM_SCRIPTS:
+                print(f"  🤖 {script} — пропущен (требует ANTHROPIC_API_KEY, запускать отдельно)")
+                total_skip += 1
+                continue
+
             if fast and script in SLOW_SCRIPTS:
                 print(f"  ⏩ {script} — пропущен (slow)")
                 total_skip += 1

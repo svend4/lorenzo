@@ -27,11 +27,12 @@ docs/
   search_index.json    — поисковый индекс (460 документов)
 
 scripts/
-  improve_*.py         — 69 скриптов обработки документов
-  utils_chunker.py     — утилиты чанкинга для больших текстов
-  mcp_server.py        — MCP-сервер с 7 инструментами
-  improve_run_all.py   — мастер-оркестратор (поддерживает --smart, --fast, --group)
-  improve_autofill.py  — заполняет шаблоны из данных других скриптов
+  improve_*.py           — 71 скрипт обработки документов
+  utils_chunker.py       — утилиты чанкинга для больших текстов
+  mcp_server.py          — MCP-сервер с 7 инструментами
+  improve_run_all.py     — оркестратор (--smart, --fast, --group, --changed)
+  improve_autofill.py    — заполняет шаблоны из данных других скриптов
+  improve_contact_status.py — CLI для обновления статуса контактов
   improve_llm_enrich.py  — Stage 3: LLM-обогащение проектных файлов
   improve_llm_summary.py — Stage 3: каскадная суммаризация → DIGEST.md
   improve_llm_qa.py      — Stage 3: Q&A по базе знаний (поиск + LLM)
@@ -40,6 +41,7 @@ scripts/
   analyze-project.md   — анализ проекта из docs/
   write-contact.md     — помощь в написании первого сообщения
   review-docs.md       — рецензия документа с правками
+  improve.md           — универсальный навык улучшения любого элемента
 ```
 
 ## Ключевые проекты (из CONTACTS.md)
@@ -56,9 +58,19 @@ scripts/
 
 ### Запустить все скрипты обработки
 ```bash
-python scripts/improve_run_all.py --smart   # пропускает скрипты с хорошими метриками
-python scripts/improve_run_all.py --fast    # пропускает медленные
+python scripts/improve_run_all.py --smart       # пропускает скрипты с хорошими метриками
+python scripts/improve_run_all.py --fast        # пропускает медленные
 python scripts/improve_run_all.py --group reports  # только отчёты
+python scripts/improve_run_all.py --changed     # только группы для изменённых файлов
+```
+
+### Работа с контактами
+```bash
+python scripts/improve_contact_status.py --list              # сводная таблица
+python scripts/improve_contact_status.py --author kksudo     # статус одного
+python scripts/improve_contact_status.py --author kksudo --studied   # отметить
+python scripts/improve_contact_status.py --author kksudo --messaged  # написали
+python scripts/improve_contact_status.py --author kksudo --note "Ответил"
 ```
 
 ### LLM-обогащение (нужен ANTHROPIC_API_KEY)
@@ -97,8 +109,12 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 
 ## Важные предупреждения
 
-- `search_index.json` имеет два формата: `content` (новый) и `preview` (старый).
-  356/460 файлов используют `preview`. Поиск в `improve_llm_qa.py` и `mcp_server.py`
-  уже учитывает это через `_doc_text()`.
-- `improve_run_all.py --smart` сейчас пропускает только `improve_report.py`
-  (SCORING 96% ≥ 95%). Остальные метрики ниже порогов — все скрипты запускаются.
+- `search_index.json`: после запуска `improve_search_index.py` все записи имеют
+  оба поля — `content` (полный текст 3000 симв.) и `preview` (500 симв.).
+  Поиск в `improve_llm_qa.py` и `mcp_server.py` объединяет оба через `_doc_text()`.
+- `improve_run_all.py --smart` пропускает только скрипты где метрика выше порога.
+  Конфигурация в `SMART_CONDITIONS` — 6 скриптов с порогами 80-95%.
+- LLM-скрипты (`improve_llm_*.py`) никогда не запускаются в `run_all` —
+  только вручную. Требуют `ANTHROPIC_API_KEY`.
+- post-commit хук в `.git/hooks/post-commit` автоматически обновляет PROGRESS.md
+  после каждого коммита.
