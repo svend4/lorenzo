@@ -1,5 +1,15 @@
 # 3. Empirical Case Study: «Обучай»
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Schools can be closed for lack of need." This is a real risk we address in Section 6.
+> 🔧 **Подход:** Key Design Decisions Documented From publicly available information: Design choice 1: Generate, do not publish.
+> ✅ **Результат:** Automating the latter enables the former.
+> 🏷️ **Ключевые слова:** `teacher`, `agent`, `colleague`, `professional`, `обучай`, `teachers`, `specific`, `anthropic`
+>
+
+
 <!-- summary -->
 > We document a successfully deployed Professional Colleague
 

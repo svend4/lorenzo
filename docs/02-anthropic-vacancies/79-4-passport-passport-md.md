@@ -1,5 +1,14 @@
 # 4. Passport (`passport.md`)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Passport (passport.md)(4-passport-passportmd) - 4.1.
+> ✅ **Результат:** Recommended Sections Passport SHOULD содержать разделы: - Описание — 2-3 предложения о содержании Repo - Объём — количество единиц, связей - Q6-отображение — правило проекции на 6-
+> 🏷️ **Ключевые слова:** `passport`, `registry`, `nautilus`, `anthropic`, `vacancies`, `structure`, `schema`, `passports`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -71,7 +80,7 @@ Portal SHOULD предоставлять команду валидации:
 - Passport-файлы именуются `passports/<format>.md`, не 
   `passports/<repo-name>.md`
 - Причина: один format может обслуживаться несколькими репо 
-  (например, domain-sub-adapters в рамках pro2), но passport — 
+  (например, domain-sub-adapters в рамках [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)), но passport — 
   один на format
 
 ---
@@ -81,9 +90,9 @@ Portal SHOULD предоставлять команду валидации:
 ---
 
 **Похожие документы:**
-- [09-4-passport-passport-md](09-4-passport-passport-md.md) (сходство 0.24)
-- [78-3-registry-nautilus-json](78-3-registry-nautilus-json.md) (сходство 0.13)
-- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md) (сходство 0.13)
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) (сходство 0.24)
+- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -91,43 +100,8 @@ Portal SHOULD предоставлять команду валидации:
 ---
 
 **Смотрите также:**
-- [09-4-passport-passport-md](09-4-passport-passport-md.md)
-- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md)
-- [78-3-registry-nautilus-json](78-3-registry-nautilus-json.md)
-- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [2. Terminology](07-2-terminology.md)
-- [2. Terminology](77-2-terminology.md)
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
-- [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
-- [7. PortalEntry Structure](82-7-portalentry-structure.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _48%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _42%_
-- [2. Terminology](07-2-terminology.md) _29%_
-- [2. Terminology](77-2-terminology.md) _29%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_
-- [5. Compatibility Levels](80-5-compatibility-levels.md) _25%_
-- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
-## Связанные документы
-
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _37%_
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _37%_
-- [2. Terminology](07-2-terminology.md) _29%_
-- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _29%_
-- [2. Terminology](77-2-terminology.md) _29%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _25%_
-- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _25%_
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_

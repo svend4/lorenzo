@@ -1,5 +1,14 @@
 # 1. Introduction
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Changes from v1.0(15-changes-from-v10) Современные системы управления знаниями (Notion, Obsidian, Roam Research, --- 1.
+> 🔧 **Подход:** Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре 3.
+> 🏷️ **Ключевые слова:** `introduction`, `anthropic`, `vacancies`, `goals`, `раздел`, `terminology`, `implementation`, `проекте`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -43,10 +52,10 @@ NPP предлагает альтернативу: **федеративную м
 Протокол спроектирован так, чтобы одновременно достичь:
 
 - **Low barrier to entry**: подключение существующего репо к федерации 
-  занимает не более 5 минут (один файл `nautilus.json` в корне + 
+  занимает не более 5 минут (один файл `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в корне + 
   опциональный passport)
 - **Five onboarding paths**: от ручного адаптера до полностью 
-  автоматической регистрации через GitHub Actions webhook
+  автоматической регистрации через [GitHub](../docs/01-svyazi/03-component-catalog.md) Actions webhook
 - **Local autonomy**: каждый репо остаётся функциональным без портала
 - **Progressive enhancement**: репо может подключиться на Level 0 и 
   дорастать до Level 3 без переделки
@@ -84,7 +93,7 @@ NPP **не** пытается:
   стратегии (раздел 12)
 - **REST API контракт** сделан mandatory для совместимых порталов 
   (раздел 13)
-- **`is_fallback`** поле добавлено в PortalEntry как нормативное
+- **`is_fallback`** поле добавлено в [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) как нормативное
 - **Консенсус-модель** расширена: различаются `coverage` (только real) 
   и `coverage_with_fallback` (раздел 9)
 - **Passport schema** формализована в `passport_schema.json` (раздел 4)
@@ -97,9 +106,9 @@ NPP **не** пытается:
 ---
 
 **Похожие документы:**
-- [06-1-introduction](06-1-introduction.md) (сходство 0.53)
-- [67-о-проекте](67-о-проекте.md) (сходство 0.14)
-- [74-abstract](74-abstract.md) (сходство 0.13)
+- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md) (сходство 0.53)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.14)
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -107,29 +116,8 @@ NPP **не** пытается:
 ---
 
 **Смотрите также:**
-- [06-1-introduction](06-1-introduction.md)
-- [74-abstract](74-abstract.md)
-- [67-о-проекте](67-о-проекте.md)
-- [77-2-terminology](77-2-terminology.md)
+- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md)
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. Introduction](06-1-introduction.md)
-- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md)
-- [Abstract](74-abstract.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [🇷🇺 О проекте](67-о-проекте.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [1. Introduction](06-1-introduction.md) _42%_
-## Связанные документы
-
-- [1. Introduction](06-1-introduction.md) _53%_
-- [🇷🇺 О проекте](67-о-проекте.md) _21%_
-- [Abstract](74-abstract.md) _17%_

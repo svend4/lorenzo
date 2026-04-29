@@ -2,7 +2,7 @@
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, Graph RAG, Yodoca, NGT Memory, SENTINEL, Auto AI Router
+**Проекты:** Svyazi, AgentFS
 
 ---
 
@@ -61,44 +61,23 @@ AgentFS закрывает слой «knowledge/filesystem» в архитект
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- backlinks-auto -->
-## Упоминается в
+<!-- similar-docs -->
 
-- [contacts](README.md)
-- [Приоритет контактов](../CONTACT_PRIORITY.md)
-## Упоминается в
+---
 
-- [Приоритет контактов](../CONTACT_PRIORITY.md)
+**Похожие документы:**
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.71)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.70)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.70)
 
-<!-- related-auto -->
-## Связанные документы
-
-- [Контакт: spbmolot / NGT Memory](spbmolot.md) _90%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _81%_
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
-- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _66%_
-- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _66%_
-## Связанные документы
-
-- [Контакт: spbmolot / NGT Memory](../autofilled/components/spbmolot.md) _81%_
-- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _81%_
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _73%_
-- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _66%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [spbmolot](../autofilled/components/spbmolot.md)
-- [vladspace](vladspace.md)
-- [cutcode](cutcode.md)
-- [dmitriila](dmitriila.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [zodigancode](docs/contacts/zodigancode.md)
 

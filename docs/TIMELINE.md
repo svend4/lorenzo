@@ -2,18 +2,14 @@
 
 _Обновлено: 2026-04-29_
 
-Период: **2020–2030** | Событий: **364**
+Период: **2020–2030** | Событий: **515**
 
 
 ## 2020 (4 упоминаний)
 
-- 🔔 **2020** · _220. 📝_  
-  📝 Изменённые файлы (16) Файл: docs/obsidian/VERSIONDIFF.md 4 колонок, 16 строк Файл Δ слов Добавленные темы Удалённые те  
-  `TABLES.md`
-
-- 🔔 **2020** · _141. 📝_  
-  📝 Изменённые файлы (16) Файл: docs/VERSIONDIFF.md 4 колонок, 16 строк Файл Δ слов Добавленные темы Удалённые темы ------  
-  `TABLES.md`
+- 🔔 **2020-01-01** · _Pipeline_  
+  ClickHouse stores for analytics Schema CREATE TABLE decisions ( aktenzeichen String, court String, decisiondate Date, pa  
+  `21-legal-corpus-analytics-at-scale.md`
 
 - 📌 **2020** · _Multi-Agent Systems_  
   (2020).  
@@ -23,15 +19,27 @@ _Обновлено: 2026-04-29_
   (2020).  
   `268-references.md`
 
+- 📌 **2020** · _Multi-Agent Systems_  
+  (2020).  
+  `10-references.md`
 
-## 2021 (1 упоминаний)
+
+## 2021 (3 упоминаний)
 
 - 🔔 **2021** · _Ответ по существу_  
   Плюсы и минусы как бизнес Плюсы : - Огромный underserved рынок — нет прямых конкурентов, пустое пространство - Естествен  
   `01-интегральный-анализ-профиля-svend4.md`
 
+- 🔔 **2021** · _Минусы и риски как бизнеса_  
+  Минусы: 5-7 лет до устойчивой монетизации (это не 18-месячный стартап) $10-50M минимум capital requirements для нормальн  
+  `05-minuses-as-business.md`
 
-## 2022 (5 упоминаний)
+- 📌 **2021** · _69. К_  
+  Корпус Файл: docs/KNOWLEDGEMAP.md 2 колонок, 4 строк Параметр Значение -------------------- Документов 492 Слов 433,953   
+  `TABLES.md`
+
+
+## 2022 (10 упоминаний)
 
 - 📌 **2022** · _1.3. The Rising Urgency_  
   When Copilot produced autocomplete in 2022, misalignment with team context was minor.  
@@ -53,8 +61,28 @@ _Обновлено: 2026-04-29_
   Galactica (Meta, 2022) — пыталась быть «AI scientist» который could synthesize across literatures.  
   `342-что-такое-вариант-c-concept-document-для-anthropic.md`
 
+- 📌 **2022** · _Claude hat geantwortet: Очень интересный вопрос._  
+  Galactica (Meta, 2022) — пыталась быть «AI scientist» который could synthesize across literatures.  
+  `01-response.md`
 
-## 2023 (6 упоминаний)
+- 📌 **2022** · _1.3. The Rising Urgency_  
+  When Copilot produced autocomplete in 2022, misalignment with team context was minor.  
+  `01-why-single-triangle-incomplete.md`
+
+- 📌 **2022** · _Human-AI Collaboration_  
+  (2022).  
+  `10-references.md`
+
+- 📌 **2022** · _Why This Hasn't Been Built_  
+  Explanation 4 — AI collaboration is recent. Until 2022-2023, collaborative AI work at this depth was not feasible.  
+  `05-why-not-built.md`
+
+- 📌 **2022** · _Почему это не было построено_  
+  Объяснение 4 — AI-сотрудничество недавнее. До 2022-2023 годов, совместная AI-работа на этой глубине не была осуществимой  
+  `04-pochemu-ne-postroeno.md`
+
+
+## 2023 (11 упоминаний)
 
 - 📌 **2023** · _1.1. The Current Landscape_  
   This paradigm has rapidly matured over 2023–2026 and is now mainstream.  
@@ -77,19 +105,47 @@ _Обновлено: 2026-04-29_
   `342-что-такое-вариант-c-concept-document-для-anthropic.md`
 
 - 📌 **2023** · _Callout-блоки_  
-  Тип Количество Назначение ----------------------------- !NOTE 0 Нейтральная заметка !TIP 63 Практический совет !WARNING   
+  Тип Количество Назначение ----------------------------- !NOTE 0 Нейтральная заметка !TIP 47 Практический совет !WARNING   
   `ALERTS.md`
 
+- 📌 **2023** · _Claude hat geantwortet: Очень интересный вопрос._  
+  На Generative agents в Stanford research Помните 2023 Stanford «Generative Agents: Interactive Simulacra of Human Behavi  
+  `01-response.md`
 
-## 2024 (33 упоминаний)
+- 📌 **2023** · _1.1. The Current Landscape_  
+  This paradigm has rapidly matured over 2023–2026 and is now mainstream.  
+  `01-why-single-triangle-incomplete.md`
+
+- 📌 **2023** · _Multi-Agent Systems_  
+  (2023).  
+  `10-references.md`
+
+- 📌 **2023** · _Claude hat geantwortet: Отличный запрос._  
+  Vision paper про MMORPG работал бы в 2023.  
+  `01-response.md`
+
+- 📌 **2023** · _Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы._  
+  Почему это именно сейчас стало возможным В 2023 — невозможно.  
+  `01-three-related-themes.md`
+
+
+## 2024 (45 упоминаний)
 
 - 🔔 **2024-01-01** · _Конфигурация: см. R_  
   README-MCP.md python FORMATTYPESHUMANITIES = Законодательные "lawsection", статья закона (§ 90 SGB XII) "lawparagraph",   
   `133-обратная-связь.md`
 
-- 🔔 **2024-01-01** · _132. Точная дата (2492)_  
+- 🔔 **2024-01-01** · _149. Точная дата (1135)_  
   Содержит: issuer, addressee, дата, срок Widerspruc docs/02-anthropic-vacancies/133-обратная-связь.md 2024-01-01 Темпорал  
   `TABLES.md`
+
+- 🔔 **2024-01-01** · _Метаданные_  
+  Для гуманитарных документов рекомендую conventional metadata keys: python @dataclass class LegalPortalEntry(PortalEntry)  
+  `01-structural-comparison-code-vs-docs.md`
+
+- 🔔 **2024** · _1. Problem Statement_  
+  > ✅ Результат: The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for A  
+  `155-1-problem-statement.md`
 
 - 🔔 **2024** · _1.3. Why Now_  
   The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for AI-assisted work  
@@ -100,44 +156,40 @@ _Обновлено: 2026-04-29_
   `218-7-application-domains.md`
 
 - 🔔 **2024** · _Глоссарий понятий_  
-  Определения извлечены автоматически из документов. Извлечено понятий: 899 (из 2045 совпадений) A a coherent composite ag  
+  Определения извлечены автоматически из документов. Извлечено понятий: 1036 (из 2069 совпадений) A a coherent composite a  
   `CONCEPTS.md`
 
-- 🔔 **2024** · _Стоимость (539)_  
-  Economic layer: - Base stipend для active contributors (€500-1500/month part 150-appendix-c-version-hi ...ещё 519 Размер  
+- 🔔 **2024** · _Стоимость (458)_  
+  Economic layer: - Base stipend для active contributors (€500-1500/month part 150-appendix-c-version-hi ...ещё 438 Размер  
   `KPI.md`
-
-- 🔔 **2024** · _Рекомендуемый порядок чтения_  
-  Closing(obsidian/02-anthropic-vacancies/181-12-closing.md) 281 — 215 🟢 Начало Acknowledgments(obsidian/02-anthropic-vaca  
-  `READING_ORDER.md`
 
 - 🔔 **2024**  
   Расписание проекта Дорожная карта с вехами и задачами по кварталам. Ключевые вехи Срок Веха Статус --------------------   
   `SCHEDULE.md`
 
-- 🔔 **2024** · _154. К_  
-  Количество (134) Файл: docs/obsidian/KPI.md 3 колонок, 8 строк Значение Контекст Источник -----------------------------   
+- 🔔 **2024** · _78. К_  
+  Количество (216) Файл: docs/KPI.md 3 колонок, 8 строк Значение Контекст Источник ----------------------------- 80 y‑слое  
   `TABLES.md`
 
-- 🔔 **2024** · _179. Содержание_  
-  Closing 281 — 215 🟢 Начало 182-acknowledgmentsAcknowledgments 245 — 216 🟢 Начало 183-referencesReferences 322 — 217 🟢 На  
-  `TABLES.md`
-
-- 🔔 **2024** · _187. К_  
-  Ключевые вехи Файл: docs/obsidian/SCHEDULE.md 3 колонок, 10 строк Срок Веха Статус -------------------- 2024-Q4 ✅ Исслед  
-  `TABLES.md`
-
-- 🔔 **2024** · _66. К_  
-  Количество (306) Файл: docs/KPI.md 3 колонок, 8 строк Значение Контекст Источник ----------------------------- 80 y‑слое  
-  `TABLES.md`
-
-- 🔔 **2024** · _92. Содержание_  
-  Closing(obsidian/02-anthropic-vacancies/181-12-closing.md) 281 — 215 🟢 Начало Acknowledgments(obsidian/02-anthropic-vaca  
-  `TABLES.md`
-
-- 🔔 **2024** · _100. К_  
+- 🔔 **2024** · _120. К_  
   Ключевые вехи Файл: docs/SCHEDULE.md 3 колонок, 10 строк Срок Веха Статус -------------------- 2024-Q4 ✅ Исследование ко  
   `TABLES.md`
+
+- 🔔 **2024** · _1.3. Why Now_  
+  The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for AI-assisted work  
+  `01-problem-statement.md`
+
+- 🔔 **2024** · _7.3. Medical Practice (Specific Specialties)_  
+  Maturity: Rapid deployment in 2024-2026.  
+  `07-application-domains.md`
+
+- 🔔 **2024-06-15** · _Комбинация 31: Event-Sourced Legal Document History_  
+  Родители: Event Sourcing (immutable event log, time-travel queries) CQRS (Command Query Responsibility Segregation) Clic  
+  `31-event-sourced-legal-document-history.md`
+
+- 🔔 **2024-06-15** · _Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus_  
+  Complete architecture combining ALL 35 combinations: ┌─ DISTRIBUTED COORDINATION ──────────────────────────┐ │ Raft: mul  
+  `35-mega-stack-4-0-with-event-sourcing-consensus.md`
 
 - 📌 **2024** · _Что на самом деле в data70_  
   Это архив 1105 разговоров за 15 месяцев (dec 2024 → mar 2026), 78 МБ текста, 29 802 сообщения — с собственной аналитикой  
@@ -159,22 +211,22 @@ _Обновлено: 2026-04-29_
   - Anthropic (2024).  
   `147-references.md`
 
-- 📌 **2024** · _1.3. W_  
-  Why Now Three trends converge to make this infrastructure newly feasible: First, AI capabilities (particularly LLM-based  
-  `155-1-problem-statement.md`
-
-_...ещё 13 упоминаний в 2024_
+_...ещё 25 упоминаний в 2024_
 
 
-## 2025 (27 упоминаний)
+## 2025 (43 упоминаний)
 
-- 🔔 **2025-02** · _134. Точная дата (2492)_  
+- 🔔 **2025-02** · _151. Точная дата (1135)_  
   Теперь по существ docs/02-anthropic-vacancies/150-appendix-c-version-history.md май 2025 am building (статья Mandelbro в  
   `TABLES.md`
 
 - 🔔 **2025** · _Пришлите страницу 3_  
   svend4 1 follower · 0 following Achievements Achievement: Quickdraw Achievement: Pair Extraordinaire Achievement: Pull S  
   `00-intro.md`
+
+- 🔔 **2025** · _Abstract_  
+  > 🔧 Подход: We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew fro  
+  `210-abstract.md`
 
 - 🔔 **2025** · _Abstract_  
   We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to 93  
@@ -188,80 +240,76 @@ _...ещё 13 упоминаний в 2024_
   Deployment Trajectory Date Status -------------- Summer 2025 Development begins September 2025 Public launch April 2026   
   `214-3-empirical-case-study-обучай.md`
 
+- 🔔 **2025** · _76% — `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md` vs `docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md`_  
+  Высококачественная база профессиональных знаний для немецкого социального права, например, представляет собой тысячи час  
+  `DUPLICATES.md`
+
 - 🔔 **2025** · _11. 3.3. D_  
   Deployment Trajectory Файл: docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md 2 колонок, 3 строк Date Sta  
   `TABLES.md`
 
-- 🔔 **2025** · _22. 3.3. D_  
-  Deployment Trajectory Файл: docs/obsidian/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md 2 колонок, 3 строк  
+- 🔔 **2025** · _15. 3.3. D_  
+  Deployment Trajectory Файл: docs/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md 2 колонок, 3 стр  
   `TABLES.md`
+
+- 🔔 **2025** · _Abstract_  
+  We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to 93  
+  `00-abstract.md`
+
+- 🔔 **2025** · _3.1. B_  
+  Background «Обучай» (transliterated as "Obuchay", meaning "Teach") is a Russian AI service for school teachers, launched  
+  `03-empirical-case-obuchay.md`
+
+- 🔔 **2025** · _3.3. D_  
+  Deployment Trajectory Date Status -------------- Summer 2025 Development begins September 2025 Public launch April 2026   
+  `03-empirical-case-obuchay.md`
+
+- 🔔 **2025** · _Комбинация 11: Hybrid CRDT-SQL Database_  
+  Родители: CRDT/Yjs/Automerge (local-first, conflict-free sync) PostgreSQL 18 (async I/O, 2025 release, habr.com/ru/compa  
+  `11-hybrid-crdt-sql-database.md`
+
+- 🔔 **2025** · _Комбинация 20: Hybrid OLAP-OLTP with Real-Time Sync_  
+  Родители: ClickHouse (Yandex, колоночная OLAP, 100M+ строк/сек, $2B valuation) CRDT (Yjs/Automerge, conflict-free sync)   
+  `20-hybrid-olap-oltp-with-real-time-sync.md`
 
 - 🔔 **2025-12-15** · _Конфигурация: см. README-MCP.md_  
   3234", официальная публикация "aktenzeichen": "S 6 SO 58/26 ER", номер дела (для судов) Классификация "q6": "010011", ка  
   `133-обратная-связь.md`
 
+- 🔔 **2025-12-15** · _Источник_  
+  3234", официальная публикация "aktenzeichen": "S 6 SO 58/26 ER", номер дела (для судов) Классификация "q6": "010011", ка  
+  `01-structural-comparison-code-vs-docs.md`
+
 - 📌 **2025-02** · _Ландшафт того, чтоуже существует— и где именно ниша Свйази_  
   Андрей независимо реализовал то, о чём в феврале 2025 публикуют academic papers.  
   `165-closing.md`
+
+- 📌 **2025-02** · _Claude hat geantwortet: Отличное наблюдение._  
+  Андрей независимо реализовал то, о чём в феврале 2025 публикуют academic papers.  
+  `01-response.md`
 
 - 📌 **2025-05** · _Ландшафт того, чтоуже существует— и где именно ниша Свйази_  
   Категория 4: Personal LLM team building (статья Mandelbro в Medium, май 2025) Что делает : автор описывает, как он «наня  
   `165-closing.md`
 
-- 📌 **2025** · _Кластер 3: AI / Agents / Novel architectures (≈13 репо)_  
-  prima.cpp — новый проект для распределённого inference на heterogeneous домашних устройствах, ко-написанный весной 2025.  
-  `00-intro.md`
+- 📌 **2025-05** · _Claude hat geantwortet: Отличное наблюдение._  
+  Категория 4: Personal LLM team building (статья Mandelbro в Medium, май 2025) Что делает: автор описывает, как он «нанял  
+  `01-response.md`
 
-- 📌 **2025** · _Единственный внешний сигнал — и он неожиданный_  
-  Последние 10 репо в контексте Это «нулевое поколение» — декабрь 25-31, 2025, первая неделя публикаций.  
-  `00-intro.md`
-
-- 📌 **2025** · _Аннотация_  
-  Мы документируем эмпирический кейс из российского образования (сервис «Обучай», который вырос с нуля до 93 000 учителей-  
-  `230-аннотация.md`
-
-- 📌 **2025** · _3.1. П_  
-  Предыстория «Обучай» — российский AI-сервис для школьных учителей, запущенный осенью 2025 года Константином Чукавиным (т  
-  `234-3-эмпирический-кейс-обучай.md`
-
-- 📌 **2025** · _133. Точная дата (2492)_  
-  Формулировка «Синдром Золушки» и расширение к социальным docs/02-anthropic-vacancies/203-благодарности.md 2025 год Кирил  
-  `TABLES.md`
-
-- 📌 **2025-11-12** · _132. Точная дата (2492)_  
-  2026 docs/02-anthropic-vacancies/133-обратная-связь.md 2025-11-12 икальный ID: sozialamtdresden:bescheid:2025-11-12:SO-1  
-  `TABLES.md`
-
-- 📌 **2025-12** · _Пришлите страницу 3_  
-  Критически важный факт, который меняет интерпретацию Самый ранний репозиторий — daten2 , 25 декабря 2025.  
-  `00-intro.md`
-
-- 📌 **2025-12** · _Критически важный факт, который меняет интерпретацию_  
-  Хронологически профиль выглядит так: в конце декабря 2025 вы решили вывести из ChatGPT-архивов сырые концепции на GitHub  
-  `00-intro.md`
-
-- 📌 **2025-12** · _History_  
-  уточнить — декабрь 2025, если совпадает с волной --- History Создан: ?  
-  `43-history.md`
-
-- 📌 **2025-12** · _History_  
-  уточнить — декабрь 2025, если совпадает с волной создания остальных репо экосистемы Ключевые этапы: - ?  
-  `43-history.md`
-
-_...ещё 7 упоминаний в 2025_
+_...ещё 23 упоминаний в 2025_
 
 
-## 2026 (284 упоминаний)
+## 2026 (394 упоминаний)
 
 - 🔔 **2026-01** · _History_  
   дата первого коммита Ключевые этапы: - Формирование Q6-концептуальной базы - Embedded-версия Nautilus Portal в подпапке   
   `53-history.md`
 
-- 🔔 **2026-01** · _134. Точная дата (2492)_  
+- 🔔 **2026-01** · _151. Точная дата (1135)_  
   Автор интегрировал, расширил и сохранил редакторские docs/02-anthropic-vacancies/203-благодарности.md Сентябрь 2025 --/   
   `TABLES.md`
 
-- 🔔 **2026-01** · _134. Точная дата (2492)_  
+- 🔔 **2026-01** · _151. Точная дата (1135)_  
   Проект 3: Brain docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md март 2026 азработк  
   `TABLES.md`
 
@@ -269,45 +317,49 @@ _...ещё 7 упоминаний в 2025_
   History > Создан: февраль 2026 (судя по repo creation date) --- History Создан: февраль 2026 (судя по repo creation date  
   `63-history.md`
 
-- 🔔 **2026-02-01** · _132. Точная дата (2492)_  
+- 🔔 **2026-02-01** · _149. Точная дата (1135)_  
   Дата документации — 2026-02-01, то есть проект активно развивался около двух-трёх месяцев docs/02-anthropic-vacancies/30  
   `TABLES.md`
 
-- 🔔 **2026-02** · _134. Точная дата (2492)_  
+- 🔔 **2026-02** · _151. Точная дата (1135)_  
   Cowork конкр docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md февраля 2026 I-агент от Nous R  
   `TABLES.md`
 
+- 🔔 **2026-02** · _Что такое Hermes Agent (Nous Research, MIT, 95K+ stars)_  
+  Что такое Hermes Agent Hermes Agent — open-source автономный AI-агент от Nous Research, выпущенный 25 февраля 2026 года,  
+  `00-question-what-is-hermes.md`
+
 - 🔔 **2026-03** · _Честный reality check_  
-  Публикация data70 на GitHub 27 марта 2026 — сигнал изменения этого паттерна, попытка зафиксировать корпус снаружи.  
+  Публикация data70 на GitHub(../docs/01-svyazi/03-component-catalog.md) 27 марта 2026 — сигнал изменения этого паттерна,   
   `00-intro.md`
 
 - 🔔 **2026-03** · _Финальный список potential collaborators_  
   OpenClaw foundation (after Steinberger transition) — independent foundation governance Самое важное наблюдение из этого   
   `341-приложение-c-образец-спецификаций-инструментов-ing.md`
 
-- 🔔 **2026-03** · _Версия (426)_  
+- 🔔 **2026-03** · _Версия (386)_  
   К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё TABLES 5.0.6 2026 \\ азработка : версии HMP-0001   
   `KPI.md`
 
-- 🔔 **2026-03** · _155. Количество (134)_  
-  К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё TABLES 5.0.6 2026 \ азработка : версии HMP-0001 →  
-  `TABLES.md`
-
-- 🔔 **2026-03** · _67. Количество (306)_  
+- 🔔 **2026-03** · _79. Количество (216)_  
   К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё TABLES 5.0.6 2026 \\ азработка : версии HMP-0001   
   `TABLES.md`
 
-- 🔔 **2026-03** · _134. Точная дата (2492)_  
+- 🔔 **2026-03** · _150. Точная дата (1135)_  
+  Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с бо docs/04-ai-collaborations  
+  `TABLES.md`
+
+- 🔔 **2026-03** · _151. Точная дата (1135)_  
   К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звёзд на docs/02-anthropic-vacancies/341-приложение-c  
   `TABLES.md`
+
+- 🔔 **2026-03** · _Альтернативные пути вне Anthropic_  
+  Публикация data70 на GitHub 27 марта 2026 — сигнал изменения этого паттерна, попытка зафиксировать корпус снаружи.  
+  `04-non-anthropic-paths.md`
 
 - 🔔 **2026-04-01**  
   PORTAL-PROTOCOL.md > Status: Draft (Working Document) --- PORTAL-PROTOCOL.md markdown markdown Nautilus Portal Protocol   
   `03-portal-protocol-md.md`
-
-- 🔔 **2026-04-01**  
-  A Formal Model for Human-AI Collaboration in Distributed Knowledge Work > Editorial review: Claude (intellectual collabo  
-  `135-a-formal-model-for-human-ai-collaboration-in-distr.md`
 
 - 🔔 **2026-04-01** · _4.3. Empirical Evidence from Nautilus Reference Implementation_  
   As of 2026-04: - 6,782 lines of Python, 13 adapters, 60 tests passing, 0 mypy errors - 7 knowledge repositories federate  
@@ -321,62 +373,39 @@ _...ещё 7 упоминаний в 2025_
   Траектория развёртывания Дата Статус -------------- Лето 2025 Начало разработки Сентябрь 2025 Публичный запуск Апрель 20  
   `234-3-эмпирический-кейс-обучай.md`
 
-- 🔔 **2026-04-01** · _Appendix B: Change Log_  
+- 🔔 **2026-04-01** · _Содержание_  
   > - 2026-04: v1.0.0-draft — Initial draft published.  
   `34-appendix-b-change-log.md`
 
-- 🔔 **2026-04-01** · _Appendix B: Change Log_  
+- 🔔 **2026-04-01** · _Содержание_  
   --- Содержание - Appendix B: Change Log(appendix-b-change-log) - Комментарий к документу(комментарий-к-документу) - Пасп  
   `34-appendix-b-change-log.md`
 
-- 🔔 **2026-04-01** · _For the Curious: Philosophy_  
-  --- Passport version: 1.0 · Protocol: NPP v1.0(../PORTAL-PROTOCOL.md) · Last updated: 2026-04 --- Паспорт 2 из 3 --- Пох  
-  `44-for-the-curious-philosophy.md`
-
-_...ещё 264 упоминаний в 2026_
+_...ещё 374 упоминаний в 2026_
 
 
-## 2027 (2 упоминаний)
+## 2027 (3 упоминаний)
 
 - 🔔 **2027** · _Альтернативные пути, которых у меня не было в прошлом ответе_  
   Y Combinator Winter 2027 batch — если решите упаковать кластер 1 как LegalTech-стартап.  
   `00-intro.md`
 
-- 📌 **2027** · _133. Точная дата (2492)_  
+- 🔔 **2027** · _Пересмотренный маппинг на Anthropic_  
+  Y Combinator Winter 2027 batch — если решите упаковать кластер 1 как LegalTech-стартап.  
+  `03-revised-anthropic-mapping.md`
+
+- 📌 **2027** · _150. Точная дата (1135)_  
   К апр docs/TABLES.md 2027 год ic-vacancies/244-благодарности.md / / 2027 год / к функциональности Projects через 2026-20  
   `TABLES.md`
 
 
-## 2028 (1 упоминаний)
+## 2028 (2 упоминаний)
 
 - 📌 **2028** · _Применение к Synthesis A: Professional Community Matching_  
   Building в 2028 risks being late to wave.  
   `342-что-такое-вариант-c-concept-document-для-anthropic.md`
 
+- 📌 **2028** · _Section 9: Why this is timely_  
+  Building в 2028 risks being late to wave.  
+  `09-section-9-timeliness.md`
 
-## 2029 (1 упоминаний)
-
-- 📌 **2029** · _133. П_  
-  Проекты (22) Файл: docs/obsidian/ENTITIES.md 3 колонок, 22 строк Проект Упоминаний Файлов -----------------------------   
-  `TABLES.md`
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [12. Versioning Policy](02-anthropic-vacancies/24-12-versioning-policy.md)
-- [Appendix B: Change Log](02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [For the Curious: Philosophy](02-anthropic-vacancies/64-for-the-curious-philosophy.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-- [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Все таблицы репозитория](TABLES.md) _25%_
-- [Валидация структуры репозитория](VALIDATION.md) _21%_
-- [Code-блоки репозитория](CODE_BLOCKS.md) _17%_
-- [Отчёт о дублировании](DUPLICATES.md) _17%_
-- [Индекс именованных сущностей](NAMED_ENTITIES.md) _17%_
-- [Карта происхождения текстов](SOURCE_MAP.md) _17%_

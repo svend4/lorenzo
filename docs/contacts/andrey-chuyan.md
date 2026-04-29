@@ -1,8 +1,13 @@
 # Контакт: andrey_chuyan / Svyazi
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, CardIndex, AgentFS, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+**Проекты:** Svyazi, CardIndex
 
 ---
 
@@ -55,50 +60,29 @@ Svyazi закрывает слой «ingestion/CardIndex» в архитекту
 
 ## Открытые вопросы
 
-1. Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы?
+1. Стоит ли расширять [CardIndex](../docs/01-svyazi/01-executive-summary.md) до person/project/episode/evidence или лучше держать разные индексы?
 2. [Вопрос 2]
 
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
-- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _73%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _73%_
-- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
-- [Контакт: kksudo / AgentFS](kksudo.md) _66%_
-- [Контакт: spbmolot / NGT Memory](spbmolot.md) _66%_
-## Связанные документы
+---
 
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _66%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _66%_
-- [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _66%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _66%_
-- [Контакт: spbmolot / NGT Memory](../autofilled/components/spbmolot.md) _66%_
-- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _66%_
-- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _66%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _66%_
+**Похожие документы:**
+- [nlaik](docs/contacts/nlaik.md) (сходство 0.70)
+- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.70)
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.67)
+
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [vladspace](vladspace.md)
-- [cutcode](cutcode.md)
-- [dmitriila](dmitriila.md)
-- [mixaill76](mixaill76.md)
+- [antipozitive](docs/contacts/antipozitive.md)
+- [nlaik](docs/contacts/nlaik.md)
+- [sonia-black](docs/contacts/sonia-black.md)
+- [spbmolot](docs/contacts/spbmolot.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [contacts](README.md)
-- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md)
-- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md)
-- [Контакт: kksudo / AgentFS](kksudo.md)
-- [Контакт: spbmolot / NGT Memory](spbmolot.md)
-- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md)

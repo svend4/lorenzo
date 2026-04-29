@@ -1,5 +1,20 @@
 # Appendix C: Sample InGit MCP Server Tool Specifications
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Contact via github.com/svend4/nautilus/issues(URL or github.com/svend4/ingit/issues(URL --- Заметки к девятому документу (2.4) Несколько важных решений в его дизайне.
+> 🔧 **Подход:** This is starting point, not final design.
+> ✅ **Результат:** Four paths in order — actionable Section 5 даёт четыре конкретные integration paths в order of accessibility: 1.
+> 🏷️ **Ключевые слова:** `document`, `ingit`, `cowork`, `appendix`, `anthropic`, `infrastructure`, `positioning`, `section`
+>
+
+
 <!-- summary -->
 > For reference, here are detailed specifications for first
 

@@ -1,5 +1,15 @@
 # ⬡
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Что с ними делать(три-артефакта-готовы-что-с-ними-делать) - Что изменилось — ничего(что-изменилось-ничего) - Что это значит(что-это-значит) - Как проверить точно(как-проверить-точн
+> 🔧 **Подход:** ⬡ !TIP Этот документ описывает MVP-подход.
+> ✅ **Результат:** Пошаговые команды для Termux(рекомендую-вариант-a-пошаговые-команды-для-termux) - Предложение(предложение) - Что я реально вижу вmain(что-я-реально-вижу-вmain) - Где могут быть «но
+> 🏷️ **Ключевые слова:** `nautilus`, `passports`, `protocol`, `portal`, `github`, `svend`, `claude`, `anthropic`
+>
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -205,11 +215,11 @@ bash
 # Шаг 1: клонировать репо, если ещё нет
 cd ~/storage/shared
 git clone https://github.com/svend4/nautilus.git
-cd nautilus
+cd [nautilus](../docs/05-habr-projects/memory/memnet.md)
 
 # Шаг 2: переключиться на существующую ветку
 git fetch origin
-git checkout claude/review-nautilus-changes-tdywx
+git checkout claude/review-[nautilus](../docs/05-habr-projects/memory/memnet.md)-changes-tdywx
 
 # Шаг 3: создать файлы (пустые, наполним позже)
 touch PORTAL-PROTOCOL.md
@@ -235,7 +245,7 @@ git commit -m "docs: add v1.0-draft documentation layer
 - Add PORTAL-PROTOCOL.md (formal specification v1.0)
 - Add passports/info1.md, passports/pro2.md, passports/meta.md
 - Expand README.md with bilingual content and fixed links"
-git push origin claude/review-nautilus-changes-tdywx
+git push origin claude/review-[nautilus](../docs/05-habr-projects/memory/memnet.md)-changes-tdywx
 
 # Шаг 7: открыть PR через GitHub web
 # github.com/svend4/nautilus/compare/main...claude/review-nautilus-changes-tdywx
@@ -344,7 +354,7 @@ find . -type f -name "*.md" -o -name "*.py" -o -name "*.json" | grep -v ".git" |
 === passports/info1.md ===
 <содержимое>
 
-=== nautilus.json ===
+=== [nautilus](../docs/05-habr-projects/memory/memnet.md).json ===
 <содержимое>
 ```
 Я разбираю по маркерам и делаю диф с моими предыдущими версиями артефактов.
@@ -364,7 +374,7 @@ find . -type f -name "*.md" -o -name "*.py" -o -name "*.json" | grep -v ".git" |
 
 Ветки:
 - main (HEAD: 7 commits)
-- claude/review-nautilus-changes-tdywx (не слита, устарела)
+- claude/review-[nautilus](../docs/05-habr-projects/memory/memnet.md)-changes-tdywx (не слита, устарела)
 ```
 Три-пять строк — и я вижу полную картину, могу дать конкретный анализ плюсов и минусов. Это быстрее, чем я пытаюсь (безуспешно) fetch'нуть /tree/ , и быстрее, чем я читаю rendered-страницу ветки с кэшированием.
 ### Предложение на сейчас
@@ -774,9 +784,9 @@ markdown
 ---
 
 **Похожие документы:**
-- [72-расписание-фазы-3](72-расписание-фазы-3.md) (сходство 0.12)
-- [122-глоссарий](122-глоссарий.md) (сходство 0.11)
-- [104-appendix-c-references](104-appendix-c-references.md) (сходство 0.11)
+- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md) (сходство 0.12)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.11)
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -784,42 +794,8 @@ markdown
 ---
 
 **Смотрите также:**
-- [72-расписание-фазы-3](72-расписание-фазы-3.md)
-- [122-глоссарий](122-глоссарий.md)
-- [104-appendix-c-references](104-appendix-c-references.md)
-- [114-7-реализация-в-проекте-nautilus](114-7-реализация-в-проекте-nautilus.md)
+- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md).md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [7. PortalEntry Structure](19-7-portalentry-structure.md)
-- [Appendix C: References](104-appendix-c-references.md)
-- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Глоссарий](122-глоссарий.md)
-- [Расписание фазы 3](72-расписание-фазы-3.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Appendix C: References](104-appendix-c-references.md) _21%_
-- [Глоссарий](122-глоссарий.md) _21%_
-- [13. Reference Implementation](25-13-reference-implementation.md) _21%_
-- [Индекс обратных ссылок](../BACKLINKS.md) _21%_
-- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _17%_
-- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _17%_
-- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _17%_
-- [🇷🇺 О проекте](67-о-проекте.md) _17%_
-## Связанные документы
-
-- [Глоссарий](122-глоссарий.md) _25%_
-- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _25%_
-- [Abstract](04-abstract.md) _21%_
-- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
-- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _21%_
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
-- [13. Reference Implementation](25-13-reference-implementation.md) _21%_
-- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _21%_

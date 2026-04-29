@@ -1,5 +1,14 @@
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** AI Collaboration Infrastructure - Anthropic Projects documentation (current) - Microsoft Copilot Studio (different approach to similar problem) - Various multi-agent frameworks (La
+> 🔧 **Подход:** (Zettelkasten method, foundational for modern personal knowledge management.) - Andy Matuschak (ongoing).
+> 🏷️ **Ключевые слова:** `anthropic`, `references`, `vacancies`, `annotation`, `knowledge`, `management`, `documents`, `series`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -46,7 +55,7 @@ than specifying. Key relevant work includes:
 - Anthropic Projects documentation (current)
 - Microsoft Copilot Studio (different approach to similar 
   problem)
-- Various multi-agent frameworks (LangChain, CrewAI, AutoGen)
+- Various multi-agent frameworks (LangChain, CrewAI, [AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
 
 ### Earlier Companion Documents in This Series
 
@@ -60,9 +69,9 @@ header of this document.
 ---
 
 **Похожие документы:**
-- [302-ссылки](302-ссылки.md) (сходство 0.18)
-- [320-references](320-references.md) (сходство 0.14)
-- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.14)
+- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md) (сходство 0.18)
+- [320-references](docs/02-anthropic-vacancies/320-references.md) (сходство 0.14)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -70,44 +79,8 @@ header of this document.
 ---
 
 **Смотрите также:**
-- [302-ссылки](302-ссылки.md)
-- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
-- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Acknowledgments](267-acknowledgments.md)
-- [Acknowledgments](286-acknowledgments.md)
-- [Acknowledgments](319-acknowledgments.md)
-- [References](320-references.md)
-- [What's Missing — Layer B](277-what-s-missing-layer-b.md)
-- [Why This Document Exists](275-why-this-document-exists.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Ссылки](302-ссылки.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Acknowledgments](319-acknowledgments.md) _42%_
-- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _37%_
-- [Acknowledgments](286-acknowledgments.md) _37%_
-- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
-- [References](268-references.md) _29%_
-- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _29%_
-- [References](320-references.md) _29%_
-- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _29%_
-## Связанные документы
-
-- [Acknowledgments](286-acknowledgments.md) _42%_
-- [Acknowledgments](319-acknowledgments.md) _37%_
-- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _33%_
-- [Acknowledgments](267-acknowledgments.md) _33%_
-- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _33%_
-- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _33%_
-- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _29%_
-- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _29%_

@@ -24,16 +24,16 @@ _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 14 файлов, не отправлено | 14 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 125 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
-| Claude Skills | ✅ 5 скиллов | review-docs, status, write-contact, improve, analyze-project |
+| Скрипты обработки | ✅ 140 скриптов | 5 LLM-скриптов, MCP=✅ |
+| DIGEST.md | ✅ 6 секций | python scripts/improve_llm_summary.py |
+| Claude Skills | ✅ 5 скиллов | review-docs, analyze-project, status, write-contact, improve |
 
 ## Метрики качества
 
 | Метрика | Балл | Статус |
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 77.0/100 | 🟡 |
-| Качество доков (METRICS) | 71.9/100 | 🟡 |
+| Качество доков (METRICS) | 71.3/100 | 🟡 |
 | Go/No-Go (SCORING) | 93.0/100 | 🟡 |
 
 ## Следующий шаг
@@ -61,20 +61,3 @@ cat docs/contacts/anastasiyaw.md
 - [Go/No-Go Scoring](SCORING.md)
 - [Health Dashboard](HEALTH.md)
 - [MVP Planning](01-svyazi/07-mvp-planning.md)
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [07 Mvp Planning](01-svyazi/07-mvp-planning.md)
-- [9. Checklist применения методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-- [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Карта зависимостей скриптов](DEPENDENCY_MAP.md) _17%_
-- [Бейджи репозитория](badges/README.md) _15%_

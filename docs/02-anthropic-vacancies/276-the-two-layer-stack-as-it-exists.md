@@ -1,5 +1,14 @@
 # The Two-Layer Stack As It Exists
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The problem is what happens between them.
+> ✅ **Результат:** The Anthropic chat interface (and similar products from other providers).
+> 🏷️ **Ключевые слова:** `anthropic`, `document`, `specific`, `vacancies`, `layer`, `exists`, `artifacts`, `human`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -24,7 +33,7 @@ products from other providers). Excellent for creative dialogue,
 exploration, generating content. The natural creative space. 
 Linear by structure.
 
-**Layer C — Code repositories.** GitHub, GitLab, Codeberg. 
+**Layer C — Code repositories.** [GitHub](../docs/01-svyazi/03-component-catalog.md), GitLab, Codeberg. 
 Excellent for storing structured artifacts, version control, 
 collaboration around technical artifacts. Branching, merging, 
 issues, discussions. Code-oriented by design.

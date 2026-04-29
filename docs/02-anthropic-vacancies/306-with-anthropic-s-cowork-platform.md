@@ -1,5 +1,14 @@
 # with Anthropic's Cowork Platform
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork Platform Document type: Practical implementation paper, buildin
+> 🔧 **Подход:** with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork Platform Document type: Practical implementation paper, buildin
+> 🏷️ **Ключевые слова:** `document`, `anthropic`, `vacancies`, `layer`, `cowork`, `through`, `agents`, `implementation`
+>
+
+
 <!-- summary -->
 > **Document type:** Practical implementation paper, building
 

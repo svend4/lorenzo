@@ -1,5 +1,14 @@
 # Why This Document Exists
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** If the project continues — and it should — the next phase needs different infrastructure than chat alone.
+> ✅ **Результат:** Document 3 provides architectural pattern that Document 7 extends.
+> 🏷️ **Ключевые слова:** `document`, `anthropic`, `vacancies`, `exists`, `layer`, `stack`, `acknowledgments`, `seven`
+>
+
+
 <!-- summary -->
 > The seven preceding documents in this series were produced in
 

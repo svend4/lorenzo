@@ -1,5 +1,15 @@
 # 10. Strategic Positioning
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.
+> 🔧 **Подход:** InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.
+> ✅ **Результат:** The combination provides perspective neither pure technologist nor pure practitioner could achieve.
+> 🏷️ **Ключевые слова:** `ingit`, `cowork`, `anthropic`, `author`, `agent`, `nautilus`, `vacancies`, `strategic`
+>
+
+
 <!-- summary -->
 > Closing thoughts on broader strategic implications.
 
@@ -9,7 +19,7 @@
 ## Содержание
 
 - [10. Strategic Positioning](#10-strategic-positioning)
-  - [10.1. InGit as Niche Player](#101-ingit-as-niche-player)
+  - [10.1. InGit as Niche Player](#101-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-as-niche-player)
   - [10.2. Cowork as Distribution Channel](#102-cowork-as-distribution-channel)
   - [10.3. Open Source as Sustainability](#103-open-source-as-sustainability)
   - [10.4. The Bigger Pattern](#104-the-bigger-pattern)
@@ -29,7 +39,7 @@ Closing thoughts on broader strategic implications.
 
 ### 10.1. InGit as Niche Player
 
-InGit will not become the next GitHub or Notion. Its market 
+InGit will not become the next [GitHub](../docs/01-svyazi/03-component-catalog.md) or Notion. Its market 
 is narrower:
 
 - Technical users comfortable with Git and YAML
@@ -153,9 +163,9 @@ Either way, the material exists.
 ---
 
 **Похожие документы:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
-- [316-8-implications-for-nautilus-and-okwf](316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
-- [307-abstract](307-abstract.md) (сходство 0.16)
+- [323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
+- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -163,42 +173,8 @@ Either way, the material exists.
 ---
 
 **Смотрите также:**
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [316-8-implications-for-nautilus-and-okwf](316-8-implications-for-nautilus-and-okwf.md)
-- [307-abstract](307-abstract.md)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
-- [10. Стратегическое Позиционирование](336-10-стратегическое-позиционирование.md)
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
-- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
-- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _25%_
-- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _25%_
-- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_
-- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _21%_
-- [Вакансии Anthropic — Анализ по кластерам](README.md) _21%_
-- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _17%_
-- [10. Стратегическое Позиционирование](336-10-стратегическое-позиционирование.md) _17%_
-- [Рекомендуемый порядок чтения](../READING_ORDER.md) _17%_
-## Связанные документы
-
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _33%_
-- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _33%_
-- [Карта происхождения текстов](../SOURCE_MAP.md) _29%_
-- [Acknowledgments](319-acknowledgments.md) _25%_
-- [Рекомендуемый порядок чтения](../READING_ORDER.md) _25%_
-- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_
-- [The Recursive Insight](281-the-recursive-insight.md) _21%_
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _21%_

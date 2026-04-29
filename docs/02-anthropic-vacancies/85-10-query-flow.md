@@ -2,6 +2,16 @@
 <!-- tags: anthropic -->
 
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Error Handling(103-error-handling) - 10.4.
+> 🔧 **Подход:** Portal вычисляет consensus по алгоритму раздела 9 7.
+> ✅ **Результат:** Portal собирает resultsbyrepo: dictstr, listPortalEntry 6.
+> 🏷️ **Ключевые слова:** `portal`, `query`, `adapter`, `timeout`, `anthropic`, `vacancies`, `interface`, `error`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -32,7 +42,7 @@
 5. Portal собирает `results_by_repo: dict[str, list[PortalEntry]]`
 6. Portal вычисляет consensus по алгоритму раздела 9
 7. Portal вычисляет relevance ranking (раздел 11)
-8. Portal возвращает `QueryResult`
+8. Portal возвращает `[QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)`
 
 ### 10.2. Parallelism
 
@@ -44,7 +54,7 @@ Repos.
 
 Если adapter падает (exception, timeout), Portal MUST:
 
-- Включить repo в `errors` список QueryResult
+- Включить repo в `errors` список [QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 - Продолжить обработку остальных
 - Не падать целиком
 
@@ -66,9 +76,9 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 ---
 
 **Похожие документы:**
-- [21-9-query-flow](21-9-query-flow.md) (сходство 0.72)
-- [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.12)
-- [18-6-adapter-interface](18-6-adapter-interface.md) (сходство 0.10)
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md) (сходство 0.72)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.12)
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -76,41 +86,8 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 ---
 
 **Смотрите также:**
-- [21-9-query-flow](21-9-query-flow.md)
-- [22-10-queryresult-structure](22-10-queryresult-structure.md)
-- [81-6-adapter-interface](81-6-adapter-interface.md)
-- [86-11-relevance-ranking](86-11-relevance-ranking.md)
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [15. Security Considerations](90-15-security-considerations.md)
-- [5. Compatibility Levels](17-5-compatibility-levels.md)
-- [6. Adapter Interface](18-6-adapter-interface.md)
-- [6. Adapter Interface](81-6-adapter-interface.md)
-- [9. Consensus Algorithm](84-9-consensus-algorithm.md)
-- [9. Query Flow](21-9-query-flow.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [9. Query Flow](21-9-query-flow.md) _66%_
-- [6. Adapter Interface](18-6-adapter-interface.md) _25%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
-- [6. Adapter Interface](81-6-adapter-interface.md) _21%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _17%_
-- [9. Consensus Algorithm](84-9-consensus-algorithm.md) _17%_
-## Связанные документы
-
-- [9. Query Flow](21-9-query-flow.md) _66%_
-- [6. Adapter Interface](18-6-adapter-interface.md) _29%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
-- [5. Compatibility Levels](17-5-compatibility-levels.md) _21%_
-- [🇬🇧 About](68-about.md) _17%_
-- [2. Terminology](77-2-terminology.md) _17%_
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _17%_
-- [6. Adapter Interface](81-6-adapter-interface.md) _17%_

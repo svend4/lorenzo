@@ -36,20 +36,8 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [research-summary](../autofilled/research-summary.md)
-- [contact-outreach](../obsidian/templates/contact-outreach.md)
-- [project-component](../obsidian/templates/project-component.md)
+- [research-summary](docs/autofilled/research-summary.md)
+- [contact-outreach](docs/templates/contact-outreach.md)
+- [project-component](docs/templates/project-component.md)
+- [dmitriila](docs/contacts/dmitriila.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Шаблоны документов](README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[Тема исследования]](../autofilled/research-summary.md) _37%_
-- [ADR: [Название решения]](decision-record.md) _21%_
-- [Ансамбль: [Название]](ensemble.md) _21%_
-- [[Название компонента]](project-component.md) _21%_
-- [Шаблоны документов](README.md) _17%_

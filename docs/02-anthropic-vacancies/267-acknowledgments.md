@@ -1,5 +1,14 @@
 # Acknowledgments
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Acknowledgments The Composite Skills Agent concept emerged from dialogue with --- Acknowledgments The Composite Skills Agent concept emerged from dialogue with Claude (Anthropic) o
+> ✅ **Результат:** The metaphor of the Indian yoga master who studied with twenty teachers, drawn from a journalist's interview the user remembered, provides the central illustration that makes the p
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `acknowledgments`, `agent`, `between`, `middle`, `layer`, `missing`
+>
+
+
 <!-- summary -->
 > The Composite Skills Agent concept emerged from dialogue with
 

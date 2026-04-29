@@ -1,5 +1,14 @@
 # 10. Open Questions
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Open Questions(10-open-questions) - 10.1.
+> ✅ **Результат:** What are appropriate trust hierarchies between principal-owned and platform-provided agents?
+> 🏷️ **Ключевые слова:** `questions`, `agents`, `anthropic`, `vacancies`, `agent`, `closing`, `economic`, `legal`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -108,9 +117,9 @@ of whether ethical frameworks keep pace.
 ---
 
 **Похожие документы:**
-- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.14)
-- [264-11-open-questions](264-11-open-questions.md) (сходство 0.13)
-- [181-12-closing](181-12-closing.md) (сходство 0.12)
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.14)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.13)
+- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -118,50 +127,8 @@ of whether ethical frameworks keep pace.
 ---
 
 **Смотрите также:**
-- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
-- [181-12-closing](181-12-closing.md)
-- [264-11-open-questions](264-11-open-questions.md)
-- [223-12-closing](223-12-closing.md)
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
-- [10. Open Questions](221-10-open-questions.md)
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
-- [11. Open Questions](264-11-open-questions.md)
-- [12. Closing](181-12-closing.md)
-- [12. Closing](223-12-closing.md)
-- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md)
-- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md)
-- [5. Architectural Specification](174-5-architectural-specification.md)
-- [6. Ethical Framework](175-6-ethical-framework.md)
-- [7. Governance and Oversight](176-7-governance-and-oversight.md)
-- [8. Risks and Mitigations](177-8-risks-and-mitigations.md)
-- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _21%_
-- [12. Closing](223-12-closing.md) _21%_
-- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _21%_
-- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _21%_
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _21%_
-- [11. Open Questions](264-11-open-questions.md) _21%_
-- [5. Architectural Specification](174-5-architectural-specification.md) _17%_
-- [8. Risks and Mitigations](177-8-risks-and-mitigations.md) _17%_
-## Связанные документы
-
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _29%_
-- [11. Open Questions](264-11-open-questions.md) _29%_
-- [Часто задаваемые вопросы (FAQ)](../FAQ.md) _29%_
-- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _25%_
-- [5. Architectural Specification](174-5-architectural-specification.md) _25%_
-- [8. Risks and Mitigations](177-8-risks-and-mitigations.md) _25%_
-- [10. Open Questions](221-10-open-questions.md) _25%_
-- [12. Closing](223-12-closing.md) _25%_

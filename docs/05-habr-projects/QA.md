@@ -38,16 +38,10 @@ _Не найдено в этом файле._
 
 Упоминаются: **архитектурный**, **шаблон**, **контакт**
 
-<!-- backlinks-auto -->
-## Упоминается в
+## Какие кластеры найма выделены у Anthropic?
 
-- [Уникальные проекты с Хабра](README.md)
+Упоминаются: **research**, **inference**
 
-<!-- related-auto -->
-## Связанные документы
+## Какие роли наиболее релевантны для профиля svend4?
 
-- [Q&A: 03-technology-combinations](../03-technology-combinations/QA.md) _37%_
-- [Глобальный Q&A](../QA.md) _29%_
-- [Q&A: 01-svyazi](../01-svyazi/QA.md) _17%_
-- [Q&A: 04-ai-collaborations](../04-ai-collaborations/QA.md) _17%_
-- [Приоритеты файлов](../PRIORITIES.md) _17%_
+_Не найдено в этом файле._

@@ -1,4 +1,15 @@
 # Appendix A: The Six-Type Taxonomy (Updated)
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix A: The Six-Type Taxonomy (Updated) This paper updates the Professional Colleague Agents v1.0 --- Appendix A: The Six-Type Taxonomy (Updated) This paper updates the Profess
+> 🔧 **Подход:** Updated full taxonomy: Type Name Specialization Example Maturity ----------------------------------------------- 0 Personal AI Assistant None (general) ChatGPT, Claude Mature 1 Pro
+> 🏷️ **Ключевые слова:** `appendix`, `agent`, `anthropic`, `vacancies`, `table`, `types`, `taxonomy`, `professional`
+>
+
 
 <!-- summary -->
 > This paper updates the Professional Colleague Agents v1.0

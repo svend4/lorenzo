@@ -1,5 +1,14 @@
 # 17. Versioning Policy
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Breaking Changes Process Для major version bump требуется: 1.
+> 🔧 **Подход:** Deprecation Policy(174-deprecation-policy) !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `policy`, `versioning`, `status`, `document`, `version`, `anthropic`, `vacancies`, `major`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -66,9 +75,9 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 ---
 
 **Похожие документы:**
-- [24-12-versioning-policy](24-12-versioning-policy.md) (сходство 0.63)
-- [75-0-status-of-this-document](75-0-status-of-this-document.md) (сходство 0.15)
-- [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.12)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.63)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) (сходство 0.15)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -76,38 +85,8 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 ---
 
 **Смотрите также:**
-- [24-12-versioning-policy](24-12-versioning-policy.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
-- [75-0-status-of-this-document](75-0-status-of-this-document.md)
-- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [12. Versioning Policy](24-12-versioning-policy.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [12. Versioning Policy](24-12-versioning-policy.md) _81%_
-- [Author & Contact](62-author-contact.md) _33%_
-- [Author & Contact](42-author-contact.md) _29%_
-- [0. Status of This Document](75-0-status-of-this-document.md) _29%_
-- [0. Status of This Document](05-0-status-of-this-document.md) _25%_
-- [13. Reference Implementation](25-13-reference-implementation.md) _25%_
-- [18. Reference Implementation](93-18-reference-implementation.md) _25%_
-- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _17%_
-## Связанные документы
-
-- [12. Versioning Policy](24-12-versioning-policy.md) _81%_
-- [0. Status of This Document](05-0-status-of-this-document.md) _25%_
-- [Author & Contact](42-author-contact.md) _25%_
-- [Author & Contact](62-author-contact.md) _25%_
-- [0. Status of This Document](75-0-status-of-this-document.md) _25%_
-- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _21%_
-- [Примеры запросов (в Claude)](129-примеры-запросов-в-claude.md) _21%_
-- [2. Terminology](77-2-terminology.md) _21%_

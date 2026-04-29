@@ -1,5 +1,14 @@
 # 13. Closing
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Building uniquely customized agents serves deep representational needs but cannot scale.
+> ✅ **Результат:** For the Open Knowledge Work Foundation specifically, composite infrastructure provides: - More flexible support for diverse practitioner needs - Stronger alignment with mission of 
+> 🏷️ **Ключевые слова:** `infrastructure`, `anthropic`, `vacancies`, `closing`, `skilled`, `composite`, `agents`, `practice`
+>
+
+
 <!-- summary -->
 > Mastery in skilled work has always been composite. The yoga
 

@@ -1,5 +1,15 @@
 # Abstract
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** InGit should position as the structure layer that Cowork needs — substrate for sustained, organized, recoverable, shareable AI-collaborative work.
+> 🔧 **Подход:** The document was theoretical, naming the problem without specifying solutions.
+> ✅ **Результат:** Their integration creates something neither could provide separately: a structured, versioned, AI-augmented intellectual workspace.
+> 🏷️ **Ключевые слова:** `cowork`, `anthropic`, `ingit`, `vacancies`, `layer`, `architecture`, `platform`, `document`
+>
+
+
 <!-- summary -->
 > Document 2.3 identified Layer B — the missing infrastructure
 

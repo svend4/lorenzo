@@ -1,17 +1,16 @@
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Такой порядок согласуется и с Yttri‑подходом к workspace вокруг записей, и с простыми локальными whisper‑сценариями, и с идеей local-first sync как следующего, а не первого слоя сл
+> 🔧 **Подход:** Такой порядок согласуется и с Yttri‑подходом к workspace вокруг записей, и с простыми локальными whisper‑сценариями, и с идеей local-first sync как следующего, а не первого слоя сл
+> ✅ **Результат:** citeturn41search0turn27view0turn20view5turn21view0turn39view1turn20view10 --- Похожие документы: - 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать(docs/04-ai-collabor
+> 🏷️ **Ключевые слова:** `svyazi`, `memory`, `лучше`, `search`, `rufler`, `roadmap`, `ограничения`, `лицензии`
+>
 
-
-<!-- toc -->
-## Содержание
-
-- [Ограничения, лицензии и что пока лучше не склеивать](#ограничения-лицензии-и-что-пока-лучше-не-склеивать)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
 
 <!-- summary -->
 > Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi[^svyazi] как базовый паттерн остаётся авторским закрытым п
-**Проекты:** Svyazi, mclaude, AI Factory, Rufler[^rufler], NGT[^ngt] Memory, AutoResearch, Whisper, Yttri
+**Проекты:** Svyazi, mclaude, AI Factory, Rufler[^rufler], NGT[^ngt] Memory, [AutoResearch](../docs/01-svyazi/01-executive-summary.md), Whisper, Yttri
 
 ---
 <!-- tags: memory, rag, orchestration, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
@@ -26,7 +25,7 @@
 
 Третье ограничение касается voice/local‑first mesh. Голосовой вход очень соблазнительно добавляет “живую ткань” системы, но именно здесь легко утонуть в необязательной инженерии: streaming transcription, diarization, semantic post‑processing, multi-device sync, offline UX, conflict resolution. Для первой публично полезной версии достаточно не “идеальной диктовки”, а простого и надёжного пути `voice → episode card → review`. Всё, что дальше, лучше добавлять после того, как уже появилась ценность от графа, evidence и review. Такой порядок согласуется и с Yttri‑подходом к workspace вокруг записей, и с простыми локальными whisper‑сценариями, и с идеей local-first sync как следующего, а не первого слоя сложности. citeturn21view10turn21view11turn35search0turn11search11
 
-Последняя развилка — это уровень “самоулучшения”. AutoResearch и Sequential выглядят очень мощно, но только после того, как появилась **метрика качества**, benchmark set и отчетливое понимание, что считать регрессией. До этого автоматическая оптимизация будет скорее производить вариации, чем устойчивые улучшения. Поэтому self-improvement контур разумно активировать только тогда, когда вы уже можете померить quality of match, quality of evidence и false positive rate по review‑очереди. Это не консерватизм, а инженерная трезвость, полностью согласующаяся с духом AutoResearch — “изменяй только то, что умеешь измерить и откатывать”. citeturn20view19turn20view11turn20view6
+Последняя развилка — это уровень “самоулучшения”. [AutoResearch](../docs/01-svyazi/01-executive-summary.md) и Sequential выглядят очень мощно, но только после того, как появилась **метрика качества**, benchmark set и отчетливое понимание, что считать регрессией. До этого автоматическая оптимизация будет скорее производить вариации, чем устойчивые улучшения. Поэтому self-improvement контур разумно активировать только тогда, когда вы уже можете померить quality of match, quality of evidence и false positive rate по review‑очереди. Это не консерватизм, а инженерная трезвость, полностью согласующаяся с духом AutoResearch — “изменяй только то, что умеешь измерить и откатывать”. citeturn20view19turn20view11turn20view6
 
 Итоговое продолжение therefore выглядит так. Лучший следующий шаг — **не искать ещё двадцать новых проектов**, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record. На этом основании уже можно по‑настоящему проверить, превращается ли набор “скромных” pet‑проектов с Хабра в новую систему свойств — discovery, explainability, local ownership, controlled memory и cheap/safe execution. Если этот слой заработает, тогда уже есть смысл возвращаться к расширению ансамблей в сторону federation, richer voice UX и self-improving research loop. citeturn41search0turn27view0turn20view5turn21view0turn39view1turn20view10
 
@@ -35,9 +34,9 @@
 ---
 
 **Похожие документы:**
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.22)
-- [12-дорожная-карта-прототипа-следующей-итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.13)
-- [12-roadmap](12-roadmap.md) (сходство 0.13)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.22)
+- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.13)
+- [12-roadmap](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -45,10 +44,10 @@
 ---
 
 **Смотрите также:**
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [12-roadmap](12-roadmap.md)
-- [12-дорожная-карта-прототипа-следующей-итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-- [07-выводы](../04-ai-collaborations/07-выводы.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [12-roadmap](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md)
+- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
 
 
 
@@ -63,38 +62,3 @@
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^bsl]: Business Source License — коммерческая лицензия с открытым кодом
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [06 Security Privacy](06-security-privacy.md)
-- [12 Roadmap](12-roadmap.md)
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
-- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-- [Ограничения, лицензии и что пока лучше не склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [Что это продолжение добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
-## Упоминается в
-
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [12 Roadmap](12-roadmap.md) _42%_
-- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) _42%_
-- [07 Mvp Planning](07-mvp-planning.md) _25%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _25%_
-- [13 Contacts](13-contacts.md) _25%_
-- [03 Component Catalog](03-component-catalog.md) _21%_
-- [04 Ensembles Overview](04-ensembles-overview.md) _21%_
-- [06 Security Privacy](06-security-privacy.md) _21%_
-## Связанные документы
-
-- [06 Security Privacy](06-security-privacy.md) _29%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _29%_
-- [10 Second Order Ensembles](10-second-order-ensembles.md) _29%_
-- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _29%_
-- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _29%_
-- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) _29%_
-- [03 Component Catalog](03-component-catalog.md) _25%_
-- [04 Ensembles Overview](04-ensembles-overview.md) _25%_

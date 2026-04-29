@@ -10,12 +10,19 @@
   - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
   - [6.4. Regulatory Compliance](#64-regulatory-compliance)
   - [6.5. Ethical Red Lines](#65-ethical-red-lines)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
 
 <!-- tags: roadmap, anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Ethical Red Lines Foundation will not: - Support projects intended for military use - Accept funding contingent on compromising commitment 1-7 - Use contributor data for AI trainin
+> 🔧 **Подход:** Disability rights (all jurisdictions): Infrastructure explicitly designed for accessibility.
+> 🏷️ **Ключевые слова:** `contributor`, `foundation`, `governance`, `commitment`, `anthropic`, `vacancies`, `ethical`, `compliance`
+>
 
 
 <!-- toc-auto -->
@@ -142,9 +149,9 @@ Foundation will not:
 ---
 
 **Похожие документы:**
-- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.14)
-- [164-10-appendices](164-10-appendices.md) (сходство 0.11)
-- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.11)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.14)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.11)
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -152,29 +159,8 @@ Foundation will not:
 ---
 
 **Смотрите также:**
-- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
-- [164-10-appendices](164-10-appendices.md)
-- [163-9-call-for-partnership](163-9-call-for-partnership.md)
-- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [5. Economic Model](159-5-economic-model.md)
-- [7. Governance and Oversight](176-7-governance-and-oversight.md)
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
-- [9. Call for Partnership](163-9-call-for-partnership.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [9. Call for Partnership](163-9-call-for-partnership.md) _21%_
-- [5. Economic Model](159-5-economic-model.md) _17%_
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _17%_
-- [10. Appendices](164-10-appendices.md) _17%_
-- [7. Governance and Oversight](176-7-governance-and-oversight.md) _17%_
-- [12. Call for Collaboration](265-12-call-for-collaboration.md) _17%_

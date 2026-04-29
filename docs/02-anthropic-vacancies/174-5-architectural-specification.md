@@ -1,5 +1,15 @@
 # 5. Architectural Specification
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** User Interface: Multi-modal access (web, mobile, voice) appropriate to principal's accessibility needs.
+> 🔧 **Подход:** Enables principal review, dispute resolution, accountability.
+> ✅ **Результат:** Enables principal review, dispute resolution, accountability.
+> 🏷️ **Ключевые слова:** `principal`, `agent`, `representative`, `component`, `anthropic`, `vacancies`, `triangle`, `principle`
+>
+
+
 <!-- summary -->
 > A Representative Agent system consists of seven components:
 

@@ -1,5 +1,15 @@
 # 9. Integration with OKWF Infrastructure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** This plan is more realistic than the earlier proposal because it matches how skilled practitioners actually develop and what they actually need.
+> 🔧 **Подход:** Practical Implication for Pilot Design(96-practical-implication-for-pilot-design) --- 9.
+> ✅ **Результат:** Connection to Guild Structure OKWF's guild structure (groups of practitioners by professional area) provides natural organization for sub-agent development.
+> 🏷️ **Ключевые слова:** `agent`, `agents`, `connection`, `infrastructure`, `triangle`, `composite`, `registry`, `pattern`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -151,9 +161,9 @@ broader applicability.
 ---
 
 **Похожие документы:**
-- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.21)
-- [266-13-closing](266-13-closing.md) (сходство 0.20)
-- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.18)
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.21)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -161,54 +171,8 @@ broader applicability.
 ---
 
 **Смотрите также:**
-- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
-- [266-13-closing](266-13-closing.md)
-- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
-- [316-8-implications-for-nautilus-and-okwf](316-8-implications-for-nautilus-and-okwf.md)
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
+- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md)
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
-- [11. Open Questions](264-11-open-questions.md)
-- [12. Call for Collaboration](265-12-call-for-collaboration.md)
-- [13. Closing](266-13-closing.md)
-- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
-- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md)
-- [5. Architectural Specification](174-5-architectural-specification.md)
-- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md)
-- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
-- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md)
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
-- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
-- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md)
-- [Appendix A: Glossary](148-appendix-a-glossary.md)
-- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _25%_
-- [5. Architectural Specification](174-5-architectural-specification.md) _25%_
-- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _25%_
-- [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](344-системный-промпт-для-lorenzo-project.md) _25%_
-- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _21%_
-- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _21%_
-- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md) _21%_
-- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _17%_
-## Связанные документы
-
-- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _33%_
-- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _33%_
-- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _33%_
-- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _30%_
-- [5. Architectural Specification](174-5-architectural-specification.md) _29%_
-- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _29%_
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _29%_
-- [Appendix A: Glossary](148-appendix-a-glossary.md) _25%_

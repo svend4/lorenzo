@@ -4,18 +4,19 @@
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledge space` | 16 |
+| **knowledge-space** | `knowledge-space` | `knowledge space` | 15 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 3 |
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 3 |
-| **CardIndex** | `CardIndex` | `card-index` | 3 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 6 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 54 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 5 |
-| **self-improvement** | `self-improvement` | `self-improve` | 144 |
-| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 4 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 4 |
+| **AI Factory** | `AI Factory` | `AI-Factory` | 18 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 39 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 15 |
+| **local-first** | `local-first` | `localfirst` | 1 |
+| **self-improvement** | `self-improvement` | `self-improve` | 148 |
+| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 18 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 11 |
 
-**Всего несогласованных написаний: 245**
+**Всего несогласованных написаний: 276**
 
 
 ## Детали по файлам
@@ -23,81 +24,90 @@
 
 ### `knowledge space` → должно быть `knowledge-space`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
 - `docs/CONCEPTS.md`
-- `docs/DUPLICATES.md`
-- `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 11_
+- `docs/CONSISTENCY.md`
+- `docs/OUTLINE.md`
+- `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
+- _...и ещё 10_
 
 ### `knowledge_space` → должно быть `knowledge-space`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/obsidian/CONSISTENCY.md`
+- `docs/CONSISTENCY.md`
+- `docs/04-ai-collaborations/QA.md`
 
 ### `knowledgespace` → должно быть `knowledge-space`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/obsidian/CONSISTENCY.md`
-
-### `card-index` → должно быть `CardIndex`
-
 - `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
-- `docs/obsidian/CONSISTENCY.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
 
 ### `AI-Factory` → должно быть `AI Factory`
 
-- `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
+- `docs/PARAGRAPH_QUALITY.md`
 - `docs/QA.md`
-- `docs/04-ai-collaborations/00-intro.md`
-- `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 1_
+- `docs/TABLES.md`
+- `docs/READING_TIME.md`
+- `docs/CONSISTENCY.md`
+- _...и ещё 13_
 
 ### `NGT-Memory` → должно быть `NGT Memory`
 
-- `docs/CONSISTENCY.md`
-- `docs/READING_TIME.md`
-- `docs/TABLES.md`
-- `docs/DEPENDABOT.md`
+- `docs/CONTACTS.md`
+- `docs/FAQ.md`
 - `docs/PARAGRAPH_QUALITY.md`
-- _...и ещё 49_
+- `docs/DEPENDABOT.md`
+- `docs/LANGUAGE_STATS.md`
+- _...и ещё 34_
 
 ### `Auto-AI-Router` → должно быть `Auto AI Router`
 
-- `docs/CONSISTENCY.md`
+- `docs/PARAGRAPH_QUALITY.md`
+- `docs/SPELLCHECK.md`
 - `docs/TABLES.md`
+- `docs/SOURCE_MAP.md`
+- `docs/READING_TIME.md`
+- _...и ещё 10_
+
+### `localfirst` → должно быть `local-first`
+
 - `docs/OUTLINE.md`
-- `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/OUTLINE.md`
 
 ### `self-improve` → должно быть `self-improvement`
 
-- `docs/FOOTNOTES.md`
-- `docs/CONSISTENCY.md`
-- `docs/READING_TIME.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/TABLES.md`
-- _...и ещё 139_
+- `docs/READING_LIST.md`
+- `docs/CONTACTS.md`
+- `docs/PARAGRAPH_QUALITY.md`
+- `docs/LLM_SUMMARIES.md`
+- `docs/SPELLCHECK.md`
+- _...и ещё 143_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
-- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
-- `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- _...и ещё 2_
+- `docs/CONSISTENCY.md`
+- `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
+- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
 
 ### `Evidence-Envelope` → должно быть `Evidence Envelope`
 
-- `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
+- `docs/PARAGRAPH_QUALITY.md`
 - `docs/QA.md`
-- `docs/obsidian/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/CONCEPTS.md`
+- `docs/READING_TIME.md`
+- _...и ещё 13_
+
+### `Card-Envelope` → должно быть `Card Envelope`
+
+- `docs/PARAGRAPH_QUALITY.md`
+- `docs/TABLES.md`
+- `docs/READING_TIME.md`
+- `docs/OUTLINE.md`
+- `docs/READABILITY.md`
+- _...и ещё 6_
 
 ## Как исправить
 
@@ -106,19 +116,13 @@
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
 
-<!-- backlinks-auto -->
-## Упоминается в
+<!-- see-also -->
 
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
+---
 
-<!-- related-auto -->
-## Связанные документы
+**Смотрите также:**
+- [MISSING](docs/MISSING.md)
+- [TAGS](docs/TAGS.md)
+- [STATS](docs/STATS.md)
+- [SPELLCHECK](docs/SPELLCHECK.md)
 
-- [Приоритеты файлов](PRIORITIES.md) _25%_
-- [Перекрёстные ссылки](CROSSREFS.md) _21%_
-- [Граф связей проектов](GRAPH.md) _21%_
-- [Нарратив проекта Lorenzo](NARRATIVE.md) _21%_
-- [Приоритетные ансамбли](04-ai-collaborations/04-приоритетные-ансамбли.md) _17%_
-- [Матрица компонентов Svyazi 2.0](COMPONENT_MATRIX.md) _17%_

@@ -1,5 +1,15 @@
 # Appendix C: Version History
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Вы точно заметили паттерн: корм для животного в приюте не решает проблему приюта, потому что животное снова становится голодным.
+> 🔧 **Подход:** Это demonstrates, что подход работает, и создаёт reference case , на который можно ссылаться во всех future discussions.
+> ✅ **Результат:** Это demonstrates, что подход работает, и создаёт reference case , на который можно ссылаться во всех future discussions.
+> 🏷️ **Ключевые слова:** `infrastructure`, `часть`, `anthropic`, `foundation`, `nautilus`, `contributors`, `architecture`, `legal`
+>
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -205,7 +215,7 @@ python
 @dataclass
 class Annotation:
     id: str                     # "annot:uuid"
-    target: str                 # id of PortalEntry being annotated
+    target: str                 # id of [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) being annotated
     author: str                 # Node name или assistant id
     content: str                # annotation text
     visibility: str             # "private" | "team" | "public"

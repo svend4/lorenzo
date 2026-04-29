@@ -1,5 +1,15 @@
 # 4. The Sub-Agent Registry
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Curation and Trust An open registry needs curation to maintain quality.
+> 🔧 **Подход:** Existing knowledge artifacts (textbooks, methodological documents, case studies) are integrated into sub-agent knowledge bases through partial automation plus expert review.
+> ✅ **Результат:** Foundation curators provide baseline; peer review distributes load; reputation accumulates over time; federation allows diverse views.
+> 🏷️ **Ключевые слова:** `agent`, `registry`, `agents`, `infrastructure`, `composite`, `model`, `anthropic`, `vacancies`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

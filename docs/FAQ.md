@@ -1,6 +1,6 @@
 # Часто задаваемые вопросы (FAQ)
 
-_Извлечено: 104 вопросов и ответов_
+_Извлечено: 125 вопросов и ответов_
 
 
 ## Архитектура
@@ -17,13 +17,19 @@ Model Context Protocol — открытый протокол Anthropic для в
 
 Если выберете первый или второй вариант, я могу написать в следующем сообщении. Если третий — то этот ответ остаётся как ваша заметка к шестому документу, и работа сессии завершена с шестью полноценными артефактами плюс этим архитектурным расширением.
 
-_→ [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)_
+_→ [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)_
 
 ### Что это такое?
 
-**Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: **93% 🟢 GO** (документация и архитектура).
+**Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: **96% 🟢 GO** (документация и архитектура).
 
-_→ [ONBOARDING](ONBOARDING.md)_
+_→ [ONBOARDING](docs/ONBOARDING.md)_
+
+### Принимаем эту architecture как Lorenzo vision (с моими caveats)?
+
+Если да — должен ли я update Lorenzo системный промпт с этой архитектурой?
+
+_→ [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)_
 
 
 ## MVP/Запуск
@@ -36,7 +42,7 @@ _→ [ONBOARDING](ONBOARDING.md)_
 
 Вариант 1. Закрыть сессию, commitнуть все семь документов в Nautilus repository, начать использовать GitHub Discussions для дальнейших observations и refinements. Pragmatic compromise.
 
-_→ [272-appendix-d-connection-diagram](obsidian/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)_
+_→ [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)_
 
 
 ## Компоненты
@@ -56,37 +62,43 @@ _→ [272-appendix-d-connection-diagram](obsidian/02-anthropic-vacancies/272-app
 
 Хорошо. Пишу portal-mcp.py — MCP wrapper над Nautilus Portal. Это обёртка, которая экспонирует движок портала как tools для LLM через Model Context Protocol.
 
-_→ [122-глоссарий](obsidian/02-anthropic-vacancies/122-глоссарий.md)_
+_→ [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)_
 
 ### Это реализуется существующими tools?
 
 Частично да. - Нижний треугольник — уже работает через MCP (каждый человек конфигурирует свои MCP servers для своих assistant'ов). - Верхний треугольник — частично через GitHub Issues/Linear/Asana с AI-assisted triage. - Протокол 3 — не реализован нигде . Это именно то, чем стоит заняться.
 
-_→ [133-обратная-связь](obsidian/02-anthropic-vacancies/133-обратная-связь.md)_
+_→ [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)_
 
 ### Является ли наш Nautilus Portal Protocol still valuable? Или HMP makes it redundant?
 
 My honest answer: Document 1 still has unique value , но не как «we're going to build this». Скорее как:
 
-_→ [341-приложение-c-образец-спецификаций-инструментов-ing](obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)_
+_→ [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)_
 
 ### Question Set 4: Your resources 4a) Budget для setup (€500-1500 одноразовый)?
 
 4b) Budget для monthly operations (€100-500/month)? 4c) Можете maintain Claude API access для Lorenzo's «brain»?
 
-_→ [342-что-такое-вариант-c-concept-document-для-anthropic](obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
+_→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
 
 ### Набор вопросов 4: Ваши ресурсы 4a) Бюджет для setup (€500-1500 одноразово)?
 
 4b) Бюджет для месячных операций (€100-500/месяц)? 4c) Можете поддерживать Claude API доступ для «мозга» Lorenzo?
 
-_→ [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](obsidian/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)_
+_→ [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)_
 
 ### Why "Nautilus"?
 
-A nautilus shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
+A [nautilus](../docs/05-habr-projects/memory/memnet.md) shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
 
-_→ [68-about](obsidian/02-anthropic-vacancies/68-about.md)_
+_→ [68-about](docs/02-anthropic-vacancies/68-about.md)_
+
+### Did creator approve final attribution?
+
+Это много steps. И violations damage Lorenzo's reputation rapidly.
+
+_→ [11-difficulties-and-recommendations](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md)_
 
 
 ## Лицензия
@@ -95,7 +107,13 @@ _→ [68-about](obsidian/02-anthropic-vacancies/68-about.md)_
 
 И еще один thoughtful вопрос для consideration: в вашем личном случае , как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ва
 
-_→ [165-closing](obsidian/02-anthropic-vacancies/165-closing.md)_
+_→ [165-closing](docs/02-anthropic-vacancies/165-closing.md)_
+
+### Question 5: Каковы limits Lorenzo's authority?
+
+Critical question для ethical design.
+
+_→ [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md)_
 
 
 ## Общее
@@ -108,62 +126,41 @@ Svyazi 2.0 — это экосистема из 20+ взаимосвязанны
 
 - [ ] Есть время на Фазу C в течение 2 недель? - [ ] Две ветки будут работать на **полностью независимых** prompts (не «продолжи вариант A»)?
 
-_→ [116-9-checklist-применения-методологии](obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)_
+_→ [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)_
 
 ### Что из этого feels aligned с вашими current capabilities и interest?
 
 И один дополнительный вопрос, который поможет calibrate: когда вы говорите о «гнезде для больших птиц», вы видите себя в роли:
 
-_→ [150-appendix-c-version-history](obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md)_
+_→ [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)_
 
 ### 10.3. Legal Questions What's the legal status of agent communications?
 
 Are they binding on the principal? How does liability work when agent makes consequential errors? What jurisdictional rules apply when agent represents person in country A communicating with party in country B? How do existing regulations (GDPR, HIPAA, AI Act) apply specifically to representative agents?
 
-_→ [179-10-open-questions](obsidian/02-anthropic-vacancies/179-10-open-questions.md)_
+_→ [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)_
 
 ### 10.4. Social Questions Will representative agents reduce or increase inequality?
 
 What happens to professions currently providing representational services (lawyers, agents, intermediaries) when AI agents become widespread? What new social dynamics emerge when most interactions involve mediation by agents? How do we preserve direct human connection in a world of mediated communication?
 
-_→ [179-10-open-questions](obsidian/02-anthropic-vacancies/179-10-open-questions.md)_
+_→ [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)_
 
 ### How do we ensure access for those who cannot pay?
 
 What economic effects do widespread representative
 
-_→ [179-10-open-questions](obsidian/02-anthropic-vacancies/179-10-open-questions.md)_
+_→ [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)_
 
 ### What's the legal status of agent communications?
 
 Are they binding on the principal?
 
-_→ [179-10-open-questions](obsidian/02-anthropic-vacancies/179-10-open-questions.md)_
+_→ [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)_
 
 ### 10.3. Правовые Вопросы Каков правовой статус коммуникаций агента? Они обязательны для принципала?
 
 Как работает ответственность, когда агент совершает существенные ошибки? Какие юрисдикционные правила применяются, когда агент представляет человека в стране A, общающегося со стороной в стране B? Как существующие регуляции (GDPR, HIPAA, AI Act) применяются конкретно к представительским агентам?
 
-_→ [200-10-открытые-вопросы](obsidian/02-anthropic-vacancies/200-10-открытые-вопросы.md)_
+_→ [200-10-открытые-вопросы](docs/02-anthropic-vacancies/200-10-открытые-вопросы.md)_
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. Open Questions](02-anthropic-vacancies/179-10-open-questions.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Глоссарий понятий](CONCEPTS.md)
-- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Кластеры тематически близких файлов](CLUSTERS.md) _29%_
-- [Рекомендуемый порядок чтения](READING_ORDER.md) _29%_
-- [Время чтения документов](READING_TIME.md) _29%_
-- [Карта происхождения текстов](SOURCE_MAP.md) _29%_
-- [Вакансии Anthropic — Анализ по кластерам](02-anthropic-vacancies/README.md) _21%_
-- [Глоссарий понятий](CONCEPTS.md) _21%_
-- [Карта репозитория Lorenzo](SITEMAP.md) _21%_
-- [10. Appendices](02-anthropic-vacancies/164-10-appendices.md) _17%_

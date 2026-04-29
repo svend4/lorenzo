@@ -12,10 +12,18 @@
   - [6.5. Vulnerability Protection](#65-vulnerability-protection)
   - [6.6. Consent and Capacity](#66-consent-and-capacity)
   - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Ethical Framework(6-ethical-framework) - 6.1.
+> 🔧 **Подход:** Accessibility as First-Class Concern(67-accessibility-as-first-class-concern) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** This means: - Principal owns all data about themselves used by agent - Principal can modify or terminate agent at any time - Principal can override any agent decision - Principal c
+> 🏷️ **Ключевые слова:** `agent`, `principal`, `anthropic`, `vacancies`, `ethical`, `principals`, `framework`, `capability`
+>
 
 
 <!-- toc-auto -->
@@ -140,9 +148,9 @@ tech-sophisticated principals fails its core mission.
 ---
 
 **Похожие документы:**
-- [176-7-governance-and-oversight](176-7-governance-and-oversight.md) (сходство 0.15)
-- [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.14)
-- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.13)
+- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.15)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.14)
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -150,36 +158,8 @@ tech-sophisticated principals fails its core mission.
 ---
 
 **Смотрите также:**
-- [176-7-governance-and-oversight](176-7-governance-and-oversight.md)
-- [174-5-architectural-specification](174-5-architectural-specification.md)
-- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
-- [179-10-open-questions](179-10-open-questions.md)
+- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
-- [5. Architectural Specification](174-5-architectural-specification.md)
-- [7. Governance and Oversight](176-7-governance-and-oversight.md)
-- [8. Risks and Mitigations](177-8-risks-and-mitigations.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [7. Governance and Oversight](176-7-governance-and-oversight.md) _21%_
-- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _17%_
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _17%_
-## Связанные документы
-
-- [7. Governance and Oversight](176-7-governance-and-oversight.md) _21%_
-- [10. Open Questions](179-10-open-questions.md) _21%_
-- [12. Closing](223-12-closing.md) _21%_
-- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _21%_
-- [7. Open Questions](144-7-open-questions.md) _17%_
-- [Acknowledgments](146-acknowledgments.md) _17%_
-- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
-- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _17%_

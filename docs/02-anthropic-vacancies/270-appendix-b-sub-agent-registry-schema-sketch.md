@@ -1,5 +1,13 @@
 # Appendix B: Sub-Agent Registry Schema (Sketch)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, su
+> 🏷️ **Ключевые слова:** `appendix`, `anthropic`, `vacancies`, `example`, `schema`, `agent`, `registry`, `decision`
+>
+
+
 <!-- summary -->
 > For implementation, sub-agent registry entries might follow
 
@@ -87,8 +95,8 @@ substantial refinement based on actual implementation experience.
 ---
 
 **Похожие документы:**
-- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.13)
-- [271-appendix-c-configuration-template-example](271-appendix-c-configuration-template-example.md) (сходство 0.11)
+- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.13)
+- [271-appendix-c-configuration-template-example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -96,39 +104,8 @@ substantial refinement based on actual implementation experience.
 ---
 
 **Смотрите также:**
-- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [271-appendix-c-configuration-template-example](271-appendix-c-configuration-template-example.md)
-- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
-- [308-table-of-contents](308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [271-appendix-c-configuration-template-example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md)
-- [Word Cloud](../WORD_CLOUD.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md) _53%_
-- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _42%_
-- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md) _21%_
-- [Table of Contents](253-table-of-contents.md) _17%_
-- [Table of Contents](308-table-of-contents.md) _17%_
-- [Вакансии Anthropic — Анализ по кластерам](README.md) _17%_
-- [Кластеры тематически близких файлов](../CLUSTERS.md) _17%_
-## Связанные документы
-
-- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _48%_
-- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md) _37%_
-- [Table of Contents](253-table-of-contents.md) _21%_
-- [Table of Contents](308-table-of-contents.md) _21%_
-- [Что ты ВСЕГДА делаешь](360-что-ты-всегда-делаешь.md) _21%_
-- [Кластеры тематически близких файлов](../CLUSTERS.md) _21%_
-- [Качество абзацев](../PARAGRAPH_QUALITY.md) _21%_
-- [Рекомендуемый порядок чтения](../READING_ORDER.md) _21%_

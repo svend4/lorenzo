@@ -1,5 +1,14 @@
 # 11. Call for Collaboration
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Pilot partnerships allow the technology to develop in service of actual need rather than imagined need.
+> 🔧 **Подход:** Your needs should drive design decisions.
+> 🏷️ **Ключевые слова:** `collaboration`, `organizations`, `invite`, `anthropic`, `vacancies`, `social`, `critics`, `researchers`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -91,9 +100,9 @@ prefer honest critics to unreserved enthusiasts.
 ---
 
 **Похожие документы:**
-- [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.16)
-- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md) (сходство 0.14)
-- [223-12-closing](223-12-closing.md) (сходство 0.13)
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.16)
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.14)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -101,31 +110,8 @@ prefer honest critics to unreserved enthusiasts.
 ---
 
 **Смотрите также:**
-- [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
-- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md)
-- [223-12-closing](223-12-closing.md)
-- [168-abstract](168-abstract.md)
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [11. Call for Collaboration](222-11-call-for-collaboration.md)
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
-- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md)
-- [Abstract](168-abstract.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md) _17%_
-- [11. Call for Collaboration](222-11-call-for-collaboration.md) _17%_
-## Связанные документы
-
-- [11. Call for Collaboration](222-11-call-for-collaboration.md) _21%_
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _17%_
-- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md) _17%_
-- [12. Call for Collaboration](265-12-call-for-collaboration.md) _17%_

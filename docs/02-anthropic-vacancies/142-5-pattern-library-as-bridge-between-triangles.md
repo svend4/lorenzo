@@ -1,5 +1,15 @@
 # 5. Pattern Library as Bridge Between Triangles
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Fully distributed knowledge (every assistant learns independently) has opposite problems: it doesn't compound, and it diverges.
+> 🔧 **Подход:** Pattern Library Architecture We propose a pattern library architecture operating in two tiers: Tier 1 — Public Patterns.
+> ✅ **Результат:** Publication to public tier This pipeline enables Tier 2 instances to generate Tier 1 patterns while preserving privacy.
+> 🏷️ **Ключевые слова:** `pattern`, `library`, `knowledge`, `architecture`, `triangle`, `instance`, `bridge`, `double`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

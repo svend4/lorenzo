@@ -1,5 +1,14 @@
 # 8. Q6 Space (Normative)
-<!-- tags: ingestion, architecture, anthropic -->
+<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Это не обязательно, но RECOMMENDED для экосистем, интегрирующих symbolic и dynamical angles: - Class I (стационарные) — стабильные концепты (базовые алгоритмы, определения) - Class
+> 🔧 **Подход:** CA-Class Mapping (Informative)(85-ca-class-mapping-informative) !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `class`, `mapping`, `level`, `portalentry`, `anthropic`, `vacancies`, `space`, `normative`
+>
 
 
 <!-- toc-auto -->
@@ -36,7 +45,7 @@ Q6 — 6-мерное бинарное пространство {0,1}⁶. Сод
 ### 8.2. Mandatory for Level 2+
 
 Адаптеры Level 2 и выше MUST обеспечивать Q6-координату в каждом 
-PortalEntry через `metadata["q6"]`.
+[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) через `metadata["q6"]`.
 
 ### 8.3. Q6 Mapping Rules
 
@@ -109,7 +118,7 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 ---
 
 **Похожие документы:**
-- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.11)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -117,41 +126,8 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 ---
 
 **Смотрите также:**
-- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
-- [82-7-portalentry-structure](82-7-portalentry-structure.md)
-- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md)
-- [19-7-portalentry-structure](19-7-portalentry-structure.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md)
-- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
-- [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
-- [Appendix B: Change Log](103-appendix-b-change-log.md)
-- [Bridges](40-bridges.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _25%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _17%_
-- [Bridges](40-bridges.md) _17%_
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _17%_
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _17%_
-- [5. Compatibility Levels](80-5-compatibility-levels.md) _17%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _17%_
-## Связанные документы
-
-- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _37%_
-- [Appendix B: Change Log](103-appendix-b-change-log.md) _21%_
-- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md) _21%_
-- [Bridges](40-bridges.md) _21%_
-- [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _21%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _17%_
-- [6. Adapter Interface](18-6-adapter-interface.md) _17%_
-- [Bridges](60-bridges.md) _17%_

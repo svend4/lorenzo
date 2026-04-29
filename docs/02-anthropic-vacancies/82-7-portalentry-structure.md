@@ -1,9 +1,19 @@
 # 7. PortalEntry Structure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** PortalEntry Structure(7-portalentry-structure) - 7.1.
+> 🔧 **Подход:** Q6 Metadata(72-q6-metadata) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Implementation MAY расширять список - content — полный текст/представление, MAY быть большим - metadata — MUST содержать q6 для Level 2+ адаптеров - links — список id из других Rep
+> 🏷️ **Ключевые слова:** `portalentry`, `structure`, `anthropic`, `vacancies`, `metadata`, `format`, `adapter`, `interface`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
-- [7. PortalEntry Structure](#7-portalentry-structure)
+- [7. [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
 
@@ -45,22 +55,22 @@ class PortalEntry:
 ### 7.1. Field Semantics
 
 - `id` MUST быть уникален в пределах экосистемы. Формат: 
-  `"<format>:<slug>"` (например, `"info1:alpha-3-doc-1"`)
+  `"<format>:<slug>"` (например, `"[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md):alpha-3-doc-1"`)
 - `title` SHOULD быть до 120 символов
-- `source` — GitHub slug `owner/repo-name`
+- `source` — [GitHub](../docs/01-svyazi/03-component-catalog.md) slug `owner/repo-name`
 - `format_type` — one of: `document`, `concept`, `rule`, `theory`, 
   `schema`, `archetype`. Implementation MAY расширять список
 - `content` — полный текст/представление, MAY быть большим
 - `metadata` — MUST содержать `q6` для Level 2+ адаптеров
 - `links` — список id из других Repos, формат `"<format>:<type>:<id>"` 
-  или `"<format>:<id>"` (например, `"pro2:q6:010011"`, 
+  или `"<format>:<id>"` (например, `"[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md):q6:010011"`, 
   `"meta:hexagram:50"`)
 - `is_fallback` — Boolean, MUST быть `True` для fallback-entries, 
   `False` (default) для real fetch results
 
 ### 7.2. Q6 Metadata
 
-Для адаптеров Level 2+, каждый PortalEntry MUST содержать 
+Для адаптеров Level 2+, каждый [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) MUST содержать 
 `metadata["q6"]` — 6-битную строку длиной 6, только символы `"0"` 
 и `"1"`.
 
@@ -85,9 +95,9 @@ PortalEntry(
 ---
 
 **Похожие документы:**
-- [19-7-portalentry-structure](19-7-portalentry-structure.md) (сходство 0.25)
-- [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.12)
-- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md) (сходство 0.12)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.25)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.12)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -95,52 +105,8 @@ PortalEntry(
 ---
 
 **Смотрите также:**
-- [19-7-portalentry-structure](19-7-portalentry-structure.md)
-- [81-6-adapter-interface](81-6-adapter-interface.md)
-- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md)
-- [2. Terminology](07-2-terminology.md)
-- [2. Terminology](77-2-terminology.md)
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
-- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
-- [5. Compatibility Levels](80-5-compatibility-levels.md)
-- [6. Adapter Interface](18-6-adapter-interface.md)
-- [6. Adapter Interface](81-6-adapter-interface.md)
-- [7. PortalEntry Structure](19-7-portalentry-structure.md)
-- [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
-- [9. Query Flow](21-9-query-flow.md)
-- [Appendix B: Change Log](103-appendix-b-change-log.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Вопрос: fallback-ratio как критический или осмысленный?](110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _48%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _37%_
-- [2. Terminology](07-2-terminology.md) _29%_
-- [2. Terminology](77-2-terminology.md) _29%_
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _29%_
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _29%_
-- [6. Adapter Interface](18-6-adapter-interface.md) _21%_
-- [5. Compatibility Levels](80-5-compatibility-levels.md) _21%_
-## Связанные документы
-
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _42%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _33%_
-- [6. Adapter Interface](18-6-adapter-interface.md) _29%_
-- [2. Terminology](77-2-terminology.md) _29%_
-- [6. Adapter Interface](81-6-adapter-interface.md) _29%_
-- [2. Terminology](07-2-terminology.md) _25%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _25%_

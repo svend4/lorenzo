@@ -2,7 +2,7 @@
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+**Проекты:** Svyazi
 
 ---
 
@@ -59,52 +59,23 @@ AIF Handoff закрывает слой «orchestration» в архитекту�
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _90%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _90%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _90%_
-- [Контакт: zodigancode / Rufler](zodigancode.md) _90%_
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _73%_
-- [Контакт: kksudo / AgentFS](kksudo.md) _73%_
-- [Контакт: spbmolot / NGT Memory](spbmolot.md) _73%_
-- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _73%_
-## Связанные документы
+---
 
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _81%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _81%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _81%_
-- [Контакт: zodigancode / Rufler](zodigancode.md) _81%_
-- [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _73%_
-- [Контакт: spbmolot / NGT Memory](../autofilled/components/spbmolot.md) _73%_
-- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _73%_
-- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _73%_
+**Похожие документы:**
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.90)
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.88)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.86)
+
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [zodigancode](zodigancode.md)
-- [vladspace](vladspace.md)
-- [dmitriila](dmitriila.md)
-- [mixaill76](mixaill76.md)
+- [zodigancode](docs/contacts/zodigancode.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+- [vladspace](docs/contacts/vladspace.md)
+- [dmitriila](docs/contacts/dmitriila.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [contacts](README.md)
-- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md)
-- [Контакт: Antipozitive / MemNet](antipozitive.md)
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md)
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md)
-- [Контакт: Sonia_Black / knowledge-space](sonia-black.md)
-- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md)
-- [Контакт: VladSpace / Graph RAG](vladspace.md)
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md)
-- [Контакт: kksudo / AgentFS](kksudo.md)
-- [Контакт: nlaik / LiteParse / research-docs](nlaik.md)
-- [Контакт: spbmolot / NGT Memory](spbmolot.md)
-- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md)
-- [Контакт: zodigancode / Rufler](zodigancode.md)

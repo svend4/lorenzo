@@ -1,8 +1,13 @@
 # Контакт: Antipozitive / MemNet
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, knowledge-space, Rufler, LiteParse, Legal RAG, Graph RAG, MemNet, SENTINEL
+**Проекты:** Svyazi, MemNet
 
 ---
 
@@ -17,12 +22,7 @@
 - [Открытые вопросы](#открытые-вопросы)
 
 
-> [!TIP]
-> Документ содержит практические рекомендации и лучшие практики.
-
-<!-- alert-added -->
-
-<!-- summary: Шаблон для связи с автором MemNet -->
+<!-- summary: Шаблон для связи с автором [MemNet](../docs/01-svyazi/01-executive-summary.md) -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -64,42 +64,23 @@ MemNet закрывает слой «memory» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _81%_
-- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _66%_
-- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _60%_
-- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md) _48%_
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _48%_
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _48%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _48%_
-- [Контакт: kksudo / AgentFS](kksudo.md) _48%_
-## Связанные документы
+---
 
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _42%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _42%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _42%_
-- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _42%_
-- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _42%_
-- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _42%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _42%_
-- [Контакт: zodigancode / Rufler](zodigancode.md) _42%_
+**Похожие документы:**
+- [nlaik](docs/contacts/nlaik.md) (сходство 0.87)
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.84)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.82)
+
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [nlaik](nlaik.md)
-- [sonia-black](sonia-black.md)
-- [tagir-analyzes](tagir-analyzes.md)
-- [vladspace](vladspace.md)
+- [nlaik](docs/contacts/nlaik.md)
+- [sonia-black](docs/contacts/sonia-black.md)
+- [spbmolot](docs/contacts/spbmolot.md)
+- [vitalyoborin](docs/contacts/vitalyoborin.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [MemNet: исследовательская память](../05-habr-projects/memory/memnet.md)
-- [contacts](README.md)
-- [Контакт: Sonia_Black / knowledge-space](sonia-black.md)
-- [Контакт: nlaik / LiteParse / research-docs](nlaik.md)

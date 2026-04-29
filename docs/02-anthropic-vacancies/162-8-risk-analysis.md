@@ -1,5 +1,14 @@
 # 8. Risk Analysis
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Comprehensive Risk Assessment On balance, OKWF faces typical challenges of a new foundation with novel scope.
+> 🔧 **Подход:** Risk: Regulatory Challenges Probability: Low-Medium Impact: Medium Risk sources: - Employment law reclassifying contributors as employees - GDPR enforcement challenges with anonymi
+> 🏷️ **Ключевые слова:** `insufficient`, `quality`, `anthropic`, `demand`, `medium`, `impact`, `mitigations`, `vacancies`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

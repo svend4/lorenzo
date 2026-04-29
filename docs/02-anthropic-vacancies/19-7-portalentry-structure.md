@@ -1,5 +1,14 @@
 # 7. PortalEntry Structure
-<!-- tags: ingestion, architecture, anthropic -->
+<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🔧 **Подход:** PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `portalentry`, `structure`, `anthropic`, `vacancies`, `данных`, `registry`, `summary`, `унифицированная`
+>
 
 
 > [!IMPORTANT]
@@ -51,7 +60,7 @@ class PortalEntry:
 ---
 
 **Похожие документы:**
-- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.25)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.25)
 
 
 <!-- see-also -->
@@ -59,51 +68,8 @@ class PortalEntry:
 ---
 
 **Смотрите также:**
-- [82-7-portalentry-structure](82-7-portalentry-structure.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
-- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md)
-- [81-6-adapter-interface](81-6-adapter-interface.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [11. Security Considerations](23-11-security-considerations.md)
-- [2. Terminology](07-2-terminology.md)
-- [2. Terminology](77-2-terminology.md)
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
-- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
-- [5. Compatibility Levels](80-5-compatibility-levels.md)
-- [6. Adapter Interface](18-6-adapter-interface.md)
-- [6. Adapter Interface](81-6-adapter-interface.md)
-- [7. PortalEntry Structure](82-7-portalentry-structure.md)
-- [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
-- [Abstract](74-abstract.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [⬡](69-section.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _48%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _33%_
-- [2. Terminology](07-2-terminology.md) _25%_
-- [2. Terminology](77-2-terminology.md) _25%_
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _25%_
-- [6. Adapter Interface](18-6-adapter-interface.md) _21%_
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _21%_
-- [5. Compatibility Levels](80-5-compatibility-levels.md) _21%_
-## Связанные документы
-
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _42%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _29%_
-- [2. Terminology](77-2-terminology.md) _29%_
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _29%_
-- [2. Terminology](07-2-terminology.md) _21%_
-- [6. Adapter Interface](18-6-adapter-interface.md) _21%_
-- [⬡](69-section.md) _21%_
-- [Abstract](74-abstract.md) _21%_

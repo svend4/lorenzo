@@ -1,5 +1,5 @@
 # 14. SDK Contract (Informative)
-<!-- tags: anthropic -->
+<!-- tags: memory, anthropic, collaboration -->
 
 
 <!-- toc-auto -->
@@ -47,7 +47,7 @@ class NautilusClient:
 ### 14.3. Return Types
 
 SDK MUST деsериализовать JSON responses в typed structures (dataclasses 
-для Python, interfaces для TypeScript и т.д.). Raw dict return 
+для Python, interfaces для [TypeScript](../docs/05-habr-projects/memory/memnet.md) и т.д.). Raw dict return 
 acceptable только для debugging/experimental версий.
 
 ---
@@ -57,7 +57,7 @@ acceptable только для debugging/experimental версий.
 ---
 
 **Похожие документы:**
-- [93-18-reference-implementation](93-18-reference-implementation.md) (сходство 0.12)
+- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -65,43 +65,8 @@ acceptable только для debugging/experimental версий.
 ---
 
 **Смотрите также:**
-- [93-18-reference-implementation](93-18-reference-implementation.md)
-- [22-10-queryresult-structure](22-10-queryresult-structure.md)
-- [25-13-reference-implementation](25-13-reference-implementation.md)
-- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. QueryResult Structure](22-10-queryresult-structure.md)
-- [11. Relevance Ranking](86-11-relevance-ranking.md)
-- [18. Reference Implementation](93-18-reference-implementation.md)
-- [6. Adapter Interface](81-6-adapter-interface.md)
-- [Appendix B: Change Log](103-appendix-b-change-log.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Доступные инструменты](128-доступные-инструменты.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _33%_
-- [Appendix B: Change Log](103-appendix-b-change-log.md) _29%_
-- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
-- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
-- [Compatibility Level](41-compatibility-level.md) _21%_
-- [11. Relevance Ranking](86-11-relevance-ranking.md) _21%_
-- [18. Reference Implementation](93-18-reference-implementation.md) _21%_
-- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _21%_
-## Связанные документы
-
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _33%_
-- [Appendix B: Change Log](103-appendix-b-change-log.md) _25%_
-- [Appendix C: References](104-appendix-c-references.md) _25%_
-- [18. Reference Implementation](93-18-reference-implementation.md) _25%_
-- [Abstract](04-abstract.md) _21%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
-- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
-- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _21%_

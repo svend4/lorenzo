@@ -1,5 +1,30 @@
 # 13. REST API Contract (Normative for Portals)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [13. REST API Contract (Normative for Portals)](#13-rest-api-contract-normative-for-portals)
+  - [13.1. Required Endpoints](#131-required-endpoints)
+  - [13.2. Recommended Endpoints](#132-recommended-endpoints)
+  - [13.3. Response Schemas](#133-response-schemas)
+  - [13.4. CORS](#134-cors)
+  - [13.5. OpenAPI Specification](#135-openapi-specification)
+  - [13.6. Error Responses](#136-error-responses)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** REST API Contract (Normative for Portals) Contents - 13.
+> 🔧 **Подход:** Error Responses(136-error-responses) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Это обеспечивает interoperability между порталами и внешними клиентами (SDK, web UI, MCP wrappers).
+> 🏷️ **Ключевые слова:** `endpoints`, `response`, `anthropic`, `vacancies`, `security`, `considerations`, `openapi`, `error`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -152,8 +177,8 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 ---
 
 **Похожие документы:**
-- [128-доступные-инструменты](128-доступные-инструменты.md) (сходство 0.12)
-- [90-15-security-considerations](90-15-security-considerations.md) (сходство 0.11)
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md) (сходство 0.12)
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -161,36 +186,8 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 ---
 
 **Смотрите также:**
-- [90-15-security-considerations](90-15-security-considerations.md)
-- [23-11-security-considerations](23-11-security-considerations.md)
-- [128-доступные-инструменты](128-доступные-инструменты.md)
-- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
+- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [11. Security Considerations](23-11-security-considerations.md)
-- [15. Security Considerations](90-15-security-considerations.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Доступные инструменты](128-доступные-инструменты.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [11. Security Considerations](23-11-security-considerations.md) _33%_
-- [15. Security Considerations](90-15-security-considerations.md) _25%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _17%_
-- [Доступные инструменты](128-доступные-инструменты.md) _17%_
-- [6. Adapter Interface](18-6-adapter-interface.md) _17%_
-- [6. Adapter Interface](81-6-adapter-interface.md) _17%_
-## Связанные документы
-
-- [Доступные инструменты](128-доступные-инструменты.md) _29%_
-- [15. Security Considerations](90-15-security-considerations.md) _29%_
-- [11. Security Considerations](23-11-security-considerations.md) _21%_
-- [6. Adapter Interface](18-6-adapter-interface.md) _17%_
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _17%_
-- [6. Adapter Interface](81-6-adapter-interface.md) _17%_

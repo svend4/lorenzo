@@ -1,0 +1,66 @@
+# 4. Условия применимости
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, architecture, roadmap, anthropic -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+## 4. Условия применимости
+
+Методология не универсальна. Она **уместна при следующих условиях**:
+
+### 4.1. Когда применять
+
+- Документ критичен для архитектуры или публичного positioning
+- Время на pause между Фазами B и C есть (минимум несколько часов)
+- Работа ведётся итеративно с AI-агентами (Claude Code, Cursor, 
+Copilot Workspace, similar)
+- Потеря одной наблюдения может повлиять на downstream-решения
+- Документ длиннее 5-7 страниц (для коротких документов overhead 
+превышает пользу)
+
+### 4.2. Когда НЕ применять
+
+- Рутинный README или changelog (single-pass достаточно)
+- Code (для кода merge-conflicts — ошибки, не insights; там 
+применяются стандартные git-практики)
+- Документация с formal schema (OpenAPI, JSON Schema — там 
+правильность не субъективна)
+- Временно-чувствительные документы, где пауза на консолидацию не 
+допустима
+
+### 4.3. Когда оппонирует
+
+Этот подход **не подходит** если:
+
+- Работает команда людей вместо "solo + AI" — human reviewers 
+могут координироваться напрямую, не нуждаются в параллельных 
+версиях
+- Проект follows strict GitFlow с required code review на каждый 
+PR
+- Вы работаете с критической инфраструктурой (финансы, медицина), 
+где transitional states недопустимы
+
+---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [111-4-условия-применимости](docs/02-anthropic-vacancies/111-4-условия-применимости.md)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
+

@@ -1,5 +1,15 @@
 # 7. Practical First Steps This Month
-<!-- tags: architecture, anthropic -->
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** If problems emerge, they reveal what InGit needs to address.
+> 🔧 **Подход:** Action 3: Sketch initial MCP server design.
+> ✅ **Результат:** Specific Test Case: This Document Series The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7) provide an ideal first test case.
+> 🏷️ **Ключевые слова:** `ingit`, `cowork`, `action`, `month`, `anthropic`, `vacancies`, `practical`, `first`
+>
 
 
 <!-- toc-auto -->
@@ -97,9 +107,9 @@ work. Most successful infrastructure projects start this way.
 ---
 
 **Похожие документы:**
-- [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.14)
-- [314-6-refined-ingit-scope-with-cowork-in-mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
-- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.12)
+- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.14)
+- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -107,45 +117,8 @@ work. Most successful infrastructure projects start this way.
 ---
 
 **Смотрите также:**
-- [314-6-refined-ingit-scope-with-cowork-in-mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
-- [308-table-of-contents](308-table-of-contents.md)
-- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
+- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
-- [5. Четыре пути интеграции в порядке доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md)
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
-- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _25%_
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _25%_
-- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _21%_
-- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _21%_
-- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _21%_
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _17%_
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _17%_
-## Связанные документы
-
-- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _33%_
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _29%_
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _29%_
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _29%_
-- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _25%_
-- [Abstract](307-abstract.md) _25%_
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _25%_

@@ -15,7 +15,7 @@
 
 **Ключевые этапы:**
 - Формирование Q6-концептуальной базы
-- Embedded-версия Nautilus Portal в подпапке `nautilus/` (март 2026)
+- Embedded-версия Nautilus Portal в подпапке `[nautilus](../docs/05-habr-projects/memory/memnet.md)/` (март 2026)
 - Миграция Portal в отдельный репо `github.com/svend4/nautilus` 
   (март 2026)
 - YiJing-Transformer v53–v61 (январь–апрель 2026)

@@ -1,12 +1,21 @@
 # 7. Реализация в проекте Nautilus
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Реализация в проекте Nautilus Contents - 7.
+> 🔧 **Подход:** В будущем методология может быть формализована в NPP v2.0 как рекомендованный workflow для community-contributed documentation.
+> 🏷️ **Ключевые слова:** `nautilus`, `применения`, `anthropic`, `vacancies`, `status`, `workflow`, `реализация`, `проекте`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
-- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
+- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md))
   - [7.1. Хронология применения](#71-хронология-применения)
   - [7.2. Артефакты](#72-артефакты)
-  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
+  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol)
 
 
 <!-- summary -->
@@ -25,7 +34,7 @@
 **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md** 
 (апрель 2026):
 
-- Вариант A: ветка `claude/review-nautilus-changes-tdywx`
+- Вариант A: ветка `claude/review-[nautilus](../docs/05-habr-projects/memory/memnet.md)-changes-tdywx`
 - Вариант B: ветка `claude/project-implementation-stage-CzylE`
 - Текущий статус: Merged-to-main with parallel blocks, Фаза C не 
   пройдена
@@ -70,9 +79,9 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 ---
 
 **Похожие документы:**
-- [108-2-формальный-workflow](108-2-формальный-workflow.md) (сходство 0.18)
-- [117-10-конкретный-план-применения-к-текущим-документам](117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.14)
-- [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.10)
+- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.18)
+- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.14)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -80,43 +89,8 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 ---
 
 **Смотрите также:**
-- [108-2-формальный-workflow](108-2-формальный-workflow.md)
-- [117-10-конкретный-план-применения-к-текущим-документам](117-10-конкретный-план-применения-к-текущим-документам.md)
-- [05-0-status-of-this-document](05-0-status-of-this-document.md)
-- [24-12-versioning-policy](24-12-versioning-policy.md)
+- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. Конкретный план применения к текущим документам](117-10-конкретный-план-применения-к-текущим-документам.md)
-- [2. Формальный workflow](108-2-формальный-workflow.md)
-- [4. Условия применимости](111-4-условия-применимости.md)
-- [8. Ограничения и открытые вопросы](115-8-ограничения-и-открытые-вопросы.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Примеры запросов (в Claude)](129-примеры-запросов-в-claude.md)
-- [⬡](69-section.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [2. Формальный workflow](108-2-формальный-workflow.md) _37%_
-- [10. Конкретный план применения к текущим документам](117-10-конкретный-план-применения-к-текущим-документам.md) _37%_
-- [0. Status of This Document](05-0-status-of-this-document.md) _25%_
-- [13. Reference Implementation](25-13-reference-implementation.md) _25%_
-- [Author & Contact](42-author-contact.md) _25%_
-- [0. Status of This Document](75-0-status-of-this-document.md) _25%_
-- [18. Reference Implementation](93-18-reference-implementation.md) _25%_
-- [4. Условия применимости](111-4-условия-применимости.md) _21%_
-## Связанные документы
-
-- [2. Формальный workflow](108-2-формальный-workflow.md) _48%_
-- [10. Конкретный план применения к текущим документам](117-10-конкретный-план-применения-к-текущим-документам.md) _48%_
-- [Author & Contact](42-author-contact.md) _25%_
-- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
-- [Глоссарий](122-глоссарий.md) _21%_
-- [Примеры запросов (в Claude)](129-примеры-запросов-в-claude.md) _21%_
-- [Author & Contact](62-author-contact.md) _21%_
-- [0. Status of This Document](75-0-status-of-this-document.md) _21%_

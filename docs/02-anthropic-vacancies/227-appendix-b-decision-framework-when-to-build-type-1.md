@@ -1,4 +1,14 @@
 # Appendix B: Decision Framework — When to Build Type 1 First
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** another type: Choose Type 1 (Professional Colleague Agent) when: - Profession has well-defined standardized practices - Practitioners face significant routine burden - Professional
+> 🏷️ **Ключевые слова:** `agent`, `appendix`, `types`, `anthropic`, `vacancies`, `professional`, `choose`, `build`
+>
+
 
 <!-- summary -->
 > For an organization deciding whether to build a Professional

@@ -11,10 +11,18 @@
   - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
   - [9.5. Author Capacity](#95-author-capacity)
   - [9.6. Open Questions](#96-open-questions)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Risks and Open Questions(9-risks-and-open-questions) - 9.1.
+> 🔧 **Подход:** Mitigation: InGit Projects with Cowork should be designed for efficient agent use, not chatty interaction.
+> ✅ **Результат:** --- --- Похожие документы: - 318-10-strategic-positioning(docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15) - 311-3-what-ingit-provides-that-cowork-lacks
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `anthropic`, `questions`, `vacancies`, `sensitive`, `integration`, `positioning`
+>
 
 
 <!-- toc-auto -->
@@ -142,9 +150,9 @@ works regardless of any of them.
 ---
 
 **Похожие документы:**
-- [318-10-strategic-positioning](318-10-strategic-positioning.md) (сходство 0.15)
-- [311-3-what-ingit-provides-that-cowork-lacks](311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.13)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.13)
+- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.13)
+- [323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -152,40 +160,8 @@ works regardless of any of them.
 ---
 
 **Смотрите также:**
-- [318-10-strategic-positioning](318-10-strategic-positioning.md)
-- [316-8-implications-for-nautilus-and-okwf](316-8-implications-for-nautilus-and-okwf.md)
-- [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
-- [311-3-what-ingit-provides-that-cowork-lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
+- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
+- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. Strategic Positioning](318-10-strategic-positioning.md)
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _21%_
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _21%_
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _21%_
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _21%_
-- [10. Strategic Positioning](318-10-strategic-positioning.md) _21%_
-- [Table of Contents](308-table-of-contents.md) _17%_
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _17%_
-- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _17%_
-## Связанные документы
-
-- [10. Strategic Positioning](318-10-strategic-positioning.md) _33%_
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _25%_
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _21%_
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _21%_
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
-- [Acknowledgments](319-acknowledgments.md) _21%_
-- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _21%_
-- [8. Call to Action](145-8-call-to-action.md) _17%_

@@ -4,7 +4,7 @@
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Авторы и контакты Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 автора статьи выше подобных 
-> 🏷️ **Ключевые слова:** `projects`, `memory`, `которые`, `yodoca`, `подобных`, `может`, `проектов`, `вместе`
+> 🏷️ **Ключевые слова:** `которые`, `projects`, `подобных`, `может`, `проектов`, `вместе`, `svyazi`, `memory`
 >
 
 
@@ -43,7 +43,7 @@ _Обновлено: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [README](../README.md) (сходство 0.18)
+- [README](docs/05-habr-projects/README.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -51,10 +51,10 @@ _Обновлено: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [01-synthesis](01-synthesis.md)
-- [yodoca](memory/yodoca.md)
-- [ngt-memory](memory/ngt-memory.md)
-- [wikontic](knowledge/wikontic.md)
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
 
 
 
@@ -65,31 +65,3 @@ _Обновлено: 2026-04-29_
 [^llm]: Large Language Model — большая языковая модель
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [NGT[^ngt] Memory: ассоциативный граф](memory/ngt-memory.md)
-- [Wikontic: семантический граф](knowledge/wikontic.md)
-- [Yodoca[^yodoca]: консолидация и забывание](memory/yodoca.md)
-- [Синтез: как проекты собираются вместе](01-synthesis.md)
-- [Уникальные проекты с Хабра](README.md)
-## Упоминается в
-
-- [Уникальные проекты с Хабра](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [NGT[^ngt] Memory: ассоциативный граф](memory/ngt-memory.md) _29%_
-- [Синтез: как проекты собираются вместе](01-synthesis.md) _21%_
-- [Wikontic: семантический граф](knowledge/wikontic.md) _21%_
-- [Yodoca[^yodoca]: консолидация и забывание](memory/yodoca.md) _21%_
-- [Граф связей проектов](../GRAPH.md) _17%_
-- [Контакт: VitalyOborin / Yodoca](../contacts/vitalyoborin.md) _17%_
-## Связанные документы
-
-- [Уникальные проекты с Хабра](../README.md) _21%_
-- [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) _21%_
-- [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _17%_
-- [Diff базы знаний между версиями](../VERSION_DIFF.md) _17%_

@@ -1,5 +1,14 @@
 # 2. Terminology
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Terminology Ecosystem — набор репозиториев, участвующих в одной федерации.
+> ✅ **Результат:** Fallback — адаптер вернул статические (заранее заготовленные) данные, а не результат реального поиска.
+> 🏷️ **Ключевые слова:** `nautilus`, `registry`, `anthropic`, `vacancies`, `terminology`, `native`, `format`, `passport`
+>
+
+
 <!-- summary -->
 > **Ecosystem** — набор репозиториев, участвующих в одной федерации.
 
@@ -15,7 +24,7 @@
 Имеет уникальное имя (например, `svend4`).
 
 **Repository-participant** (далее — **Repo**) — Git-репозиторий, 
-содержащий минимум `nautilus.json` в корне и/или зарегистрированный 
+содержащий минимум `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в корне и/или зарегистрированный 
 в registry портала.
 
 **Native format** — исходный формат данных в Repo, определяемый автором. 
@@ -27,22 +36,22 @@ NPP не ограничивает native format.
 implementation: `github.com/svend4/nautilus`, но альтернативные 
 порталы совместимы через соответствие этому протоколу.
 
-**Registry** — файл `nautilus.json` в корне Portal-репо, перечисляющий 
+**Registry** — файл `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в корне Portal-репо, перечисляющий 
 все Repos экосистемы с их метаданными.
 
 **Adapter** — Python-модуль (или эквивалент на другом языке), 
-реализующий `BaseAdapter` interface и переводящий native format Repo 
-в унифицированный `PortalEntry`.
+реализующий `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` interface и переводящий native format Repo 
+в унифицированный `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`.
 
 **Passport** — `passport.md` файл, human-readable описание Repo, 
 располагается в `passports/<format>.md` в Portal-репо. Валидируется 
 по `passport_schema.json`.
 
-**PortalEntry** — унифицированная структура данных, в которую 
+**[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)** — унифицированная структура данных, в которую 
 адаптеры конвертируют native-записи при fetch.
 
 **Bridge** — декларативное описание моста между концепциями разных 
-Repos. Описан в `nautilus.json` в поле `bridges` и в passport 
+Repos. Описан в `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в поле `bridges` и в passport 
 соответствующего репо.
 
 **Consensus** — результат сопоставления найденных концептов между 
@@ -61,10 +70,10 @@ Repos. Описан в `nautilus.json` в поле `bridges` и в passport
 
 **Fallback** — адаптер вернул статические (заранее заготовленные) 
 данные, а не результат реального поиска. Обозначается 
-`PortalEntry.is_fallback = True`.
+`[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md).is_fallback = True`.
 
 **Protocol Version** — semver-версия NPP, объявляемая в 
-`nautilus.json` поле `protocol_version` (или `nautilus_version` 
+`[nautilus](../docs/05-habr-projects/memory/memnet.md).json` поле `protocol_version` (или `nautilus_version` 
 для v1.x из-за исторических причин).
 
 **Onboarding Path** — один из пяти стандартных способов подключения 
@@ -77,9 +86,9 @@ Repo к экосистеме (A–E, см. раздел 12).
 ---
 
 **Похожие документы:**
-- [07-2-terminology](07-2-terminology.md) (сходство 0.63)
-- [78-3-registry-nautilus-json](78-3-registry-nautilus-json.md) (сходство 0.16)
-- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md) (сходство 0.15)
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.63)
+- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.16)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -87,56 +96,8 @@ Repo к экосистеме (A–E, см. раздел 12).
 ---
 
 **Смотрите также:**
-- [07-2-terminology](07-2-terminology.md)
-- [78-3-registry-nautilus-json](78-3-registry-nautilus-json.md)
-- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md)
-- [67-о-проекте](67-о-проекте.md)
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. Introduction](06-1-introduction.md)
-- [1. Introduction](76-1-introduction.md)
-- [10. Query Flow](85-10-query-flow.md)
-- [12. Onboarding Paths (Normative)](87-12-onboarding-paths-normative.md)
-- [16. MCP Extension (Informative)](91-16-mcp-extension-informative.md)
-- [17. Versioning Policy](92-17-versioning-policy.md)
-- [2. Terminology](07-2-terminology.md)
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
-- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
-- [5. Compatibility Levels](80-5-compatibility-levels.md)
-- [7. PortalEntry Structure](19-7-portalentry-structure.md)
-- [7. PortalEntry Structure](82-7-portalentry-structure.md)
-- [9. Consensus Algorithm](84-9-consensus-algorithm.md)
-- [Abstract](74-abstract.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Конфигурация для Claude Desktop](124-конфигурация-для-claude-desktop.md)
-- [🇬🇧 About](68-about.md)
-- [🇷🇺 О проекте](67-о-проекте.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [2. Terminology](07-2-terminology.md) _60%_
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _29%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _25%_
-- [Abstract](74-abstract.md) _25%_
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _25%_
-- [12. Onboarding Paths (Normative)](87-12-onboarding-paths-normative.md) _25%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
-## Связанные документы
-
-- [2. Terminology](07-2-terminology.md) _53%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _29%_
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _29%_
-- [🇬🇧 About](68-about.md) _29%_
-- [Abstract](74-abstract.md) _29%_
-- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _29%_
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _29%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_

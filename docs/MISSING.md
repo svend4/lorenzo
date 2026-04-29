@@ -4,31 +4,31 @@
 
 | Статус | Тема / Проект | Файлов | Слов | Минимум | Примеры файлов |
 |--------|---------------|--------|------|---------|----------------|
-| ✅ | **Svyazi** | 274 | 302968 | ≥5ф/2000сл | `WORD_FREQ.md`, `SCHEDULE.md` |
-| ✅ | **local-first** | 171 | 155213 | ≥2ф/300сл | `FOOTNOTES.md`, `READING_TIME.md` |
-| ✅ | **Yodoca** | 167 | 196021 | ≥2ф/300сл | `WORD_FREQ.md`, `SCHEDULE.md` |
-| ✅ | **AgentFS** | 154 | 109911 | ≥3ф/500сл | `WORD_FREQ.md`, `SCHEDULE.md` |
-| ✅ | **CardIndex** | 144 | 130718 | ≥3ф/500сл | `WORD_FREQ.md`, `SCHEDULE.md` |
-| ✅ | **self-improvement** | 142 | 21030 | ≥1ф/100сл | `FOOTNOTES.md`, `CONSISTENCY.md` |
-| ✅ | **SENTINEL** | 123 | 90055 | ≥2ф/200сл | `SCHEDULE.md`, `FOOTNOTES.md` |
-| ✅ | **knowledge-space** | 118 | 93543 | ≥3ф/500сл | `FOOTNOTES.md`, `BROKEN_LINKS.md` |
-| ✅ | **NGT Memory** | 118 | 93632 | ≥2ф/300сл | `GLOSSARY.md`, `CONSISTENCY.md` |
-| ✅ | **Rufler** | 117 | 79611 | ≥2ф/200сл | `FOOTNOTES.md`, `GLOSSARY.md` |
-| ✅ | **LiteParse** | 108 | 79146 | ≥2ф/300сл | `TIMELINE.md`, `GLOSSARY.md` |
-| ✅ | **mclaude** | 97 | 76568 | ≥2ф/200сл | `GLOSSARY.md`, `TABLES.md` |
-| ✅ | **AI Factory** | 96 | 77489 | ≥2ф/200сл | `GLOSSARY.md`, `CONSISTENCY.md` |
-| ✅ | **AutoResearch** | 59 | 48938 | ≥1ф/100сл | `GLOSSARY.md`, `CONTENT_GAPS.md` |
-| ✅ | **Evidence Envelope** | 51 | 19592 | ≥2ф/200сл | `CONSISTENCY.md`, `TABLES.md` |
-| ✅ | **Sozialrecht** | 45 | 131823 | ≥1ф/200сл | `READING_TIME.md`, `TABLES.md` |
-| ✅ | **CRDT** | 43 | 38668 | ≥1ф/100сл | `FOOTNOTES.md`, `CONTENT_GAPS.md` |
-| ✅ | **Card Envelope** | 30 | 15841 | ≥2ф/200сл | `TABLES.md`, `ACTION_ITEMS.md` |
-| ✅ | **бюджетный роутинг** | 28 | 41037 | ≥2ф/300сл | `RISK_REGISTER.md`, `TABLES.md` |
-| ✅ | **Memory Write Policy** | 23 | 13724 | ≥2ф/200сл | `QUESTIONS.md`, `TABLES.md` |
-| ✅ | **Skill Policy** | 22 | 7984 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
-| ✅ | **Review Record** | 22 | 12997 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
-| ✅ | **privacy by design** | 22 | 24056 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
-| ✅ | **лицензия BSL** | 6 | 3499 | ≥1ф/50сл | `RISK_REGISTER.md`, `TABLES.md` |
-| ✅ | **voice ingestion** | 4 | 1900 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
+| ✅ | **Svyazi** | 315 | 274039 | ≥5ф/2000сл | `CROSSREFS.md`, `README.md` |
+| ✅ | **local-first** | 173 | 136972 | ≥2ф/300сл | `CONTACTS.md`, `PARAGRAPH_QUALITY.md` |
+| ✅ | **self-improvement** | 148 | 12176 | ≥1ф/100сл | `READING_LIST.md`, `CONTACTS.md` |
+| ✅ | **Yodoca** | 141 | 166821 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **CardIndex** | 137 | 158894 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **knowledge-space** | 100 | 129209 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **AgentFS** | 99 | 129452 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **NGT Memory** | 95 | 72263 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **mclaude** | 87 | 110514 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **Rufler** | 82 | 110947 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **LiteParse** | 77 | 108156 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **AI Factory** | 76 | 54388 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **SENTINEL** | 68 | 52574 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **CRDT** | 63 | 101107 | ≥1ф/100сл | `PARAGRAPH_QUALITY.md`, `TABLES.md` |
+| ✅ | **AutoResearch** | 60 | 96883 | ≥1ф/100сл | `CROSSREFS.md`, `PARAGRAPH_QUALITY.md` |
+| ✅ | **Evidence Envelope** | 43 | 20856 | ≥2ф/200сл | `QA.md`, `EMPTY_SECTIONS.md` |
+| ✅ | **Sozialrecht** | 41 | 113760 | ≥1ф/200сл | `PARAGRAPH_QUALITY.md`, `LLM_SUMMARIES.md` |
+| ✅ | **Card Envelope** | 30 | 17127 | ≥2ф/200сл | `QA.md`, `TABLES.md` |
+| ✅ | **Memory Write Policy** | 22 | 15573 | ≥2ф/200сл | `TABLES.md`, `MINDMAP.md` |
+| ✅ | **privacy by design** | 22 | 15240 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
+| ✅ | **Review Record** | 19 | 14443 | ≥1ф/100сл | `QA.md`, `TABLES.md` |
+| ✅ | **бюджетный роутинг** | 19 | 21956 | ≥2ф/300сл | `QA.md`, `TABLES.md` |
+| ✅ | **Skill Policy** | 15 | 4228 | ≥1ф/100сл | `QA.md`, `TABLES.md` |
+| ✅ | **лицензия BSL** | 3 | 1344 | ≥1ф/50сл | `TABLES.md`, `MISSING.md` |
+| ✅ | **voice ingestion** | 2 | 760 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
 
 ## Итог
 
@@ -40,11 +40,13 @@
 
 Темы со статусом ❌ или ⚠️ нужно дополнить отдельными документами.
 
-<!-- backlinks-auto -->
-## Упоминается в
+<!-- see-also -->
 
-- [08 Conclusions](01-svyazi/08-conclusions.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Выводы](04-ai-collaborations/07-выводы.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
+---
+
+**Смотрите также:**
+- [CONSISTENCY](docs/CONSISTENCY.md)
+- [GRAPH](docs/GRAPH.md)
+- [GLOSSARY](docs/GLOSSARY.md)
+- [MINDMAP](docs/MINDMAP.md)
+
