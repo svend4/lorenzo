@@ -2,7 +2,11 @@
 
 Это **прямой источник имени этого репозитория**. В исходном MHTML-снимке `Вакансии в Anthropic по кластерам - Claude` Claude совместно с автором составил полноценный системный промпт для автономного AI-агента **Lorenzo** — Catalyst Agent at DHLab (Dream Hub Laboratory).
 
-Промпт разбит на 21 раздел, каждый — отдельный файл. Дополнительно есть подпапка [`operationalized/`](operationalized/) с анализом конкретной 6-узловой архитектуры pipeline, которая операционализирует концепт Lorenzo.
+Промпт разбит на 21 раздел, каждый — отдельный файл. Дополнительно:
+
+- [`specification/`](specification/) — процесс уточнения концепта Lorenzo через **10 фундаментальных вопросов** (Direction E). Это пред-история финального промпта.
+- [`phased-deployment/`](phased-deployment/) — **шесть уровней** деплоймента Lorenzo (от Уровня 0 ручного режима до Уровня 5 Network) с conservative escalation logic.
+- [`operationalized/`](operationalized/) — анализ конкретной 6-узловой архитектуры pipeline (Habr Scout → Cards → Knowledge OS → Agent Team Kernel → Forensic RAG → Secure Runtime), которая операционализирует концепт Lorenzo.
 
 ## Что такое Lorenzo
 

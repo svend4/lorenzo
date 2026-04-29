@@ -13,7 +13,7 @@
 | [`habr-unique-projects/`](habr-unique-projects/) | Поиск уникальных проектов на Хабре для совместной разработки. Источник: MHTML-снимок диалога с claude.ai. |
 | [`glossary/`](glossary/) | Кросс-ссылочный словарь компонентов, авторов и понятий — единая точка входа для поиска всех упоминаний одного проекта. |
 | [`nautilus/`](nautilus/) | Nautilus Portal Protocol v1.1 (RFC из 23 разделов) + Three-Phase Review Methodology + восемь companion papers: OKWF Concept, Representative Agent Layer (EN/RU), Professional Colleague Agents (EN/RU), Composite Skills Agents, Double-Triangle Architecture, Infrastructure Layer B (EN/RU), InGit + Cowork (EN/RU). Источник: тот же MHTML, что и `anthropic-vacancies/`. |
-| [`lorenzo-agent/`](lorenzo-agent/) | Системный промпт для **Lorenzo Catalyst Agent** — это и есть источник имени этого репозитория. 21 раздел + подпапка `operationalized/` с анализом 6-узловой pipeline (Habr Scout → Cards → Knowledge OS → Agent Team Kernel → Forensic RAG → Secure Runtime). |
+| [`lorenzo-agent/`](lorenzo-agent/) | Системный промпт для **Lorenzo Catalyst Agent** — это и есть источник имени этого репозитория. 21 раздел + три подпапки: `specification/` (10 фундаментальных вопросов), `phased-deployment/` (6 уровней деплоймента), `operationalized/` (6-узловая pipeline). |
 
 ## Принципы организации
 

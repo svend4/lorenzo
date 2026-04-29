@@ -1,0 +1,151 @@
+# Что мы можем делать прямо сейчас (Уровень 0 + параллельная подготовка к Уровню 1)
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
+
+Что мы можем делать прямо сейчас в этой сессии (Уровень 0)
+
+Activity 1: Систематический поиск перспективных авторов на Хабре по специфическим темам, которых ещё не покрыли
+Activity 2: Глубокий анализ найденных авторов — что у них уникально, как комплементарно
+Activity 3: Попытка mental synthesis — какие 2-3 автора могли бы produce something interesting вместе
+Activity 4: Manual draft outreach к одному автору как proof of concept
+Activity 5: Manual draft synthesis proposal как proof of concept
+
+Что готовиться к Уровню 1 параллельно
+
+Setup Item 1: Системный промпт для Lorenzo Project (я могу draft)
+Setup Item 2: Структура Project knowledge (что загружать)
+Setup Item 3: CardIndex template для авторов (что записывать о каждом)
+Setup Item 4: Initial corpus (existing 9 documents + finding из этой сессии)
+
+Предложение для текущей сессии
+
+Давайте сделаем proof of concept для Lorenzo's core capability в рамках этой сессии.
+
+Эксперимент: Найти 2-3 новых перспективных автора + предложить synthesis
+
+Шаг 1: Я ищу на Хабре в специфических темах, которых ещё не trogatли в этом разговоре. Кандидаты для поиска:
+
+Локальные AI runtimes / приватные deployment
+
+Personal knowledge management для AI consumption
+
+Specialized domain agents (legal, medical, accessibility)
+
+Community-building tools / mutual aid platforms
+
+Federated systems / distributed identity
+
+Шаг 2: Анализирую найденных авторов с точки зрения Lorenzo's mission
+
+Что уникально в их подходе?
+
+С какими existing collaborators (HMP, Свяжи, Анастасия и т.д.) комплементарно?
+
+Какой synthesis возможен?
+
+Шаг 3: Draft outreach message от Lorenzo (Формулировка B)
+
+Identifies as autonomous AI agent with mission
+
+References specific work
+
+Predлагает specific collaboration
+
+Шаг 4: Draft synthesis proposal — конкретный architectural sketch
+
+Это даёт нам:
+
+Real findings (новые авторы для рассмотрения)
+
+Test of Lorenzo voice (как Lorenzo communicates)
+
+Proof of concept artifacts (могут быть использованы reall later)
+
+Material для Уровня 1 setup
+
+Альтернативные эксперименты
+
+Альтернатива A: Глубокий анализ ОДНОГО автора (например, kagvi13 / HMP) и draft real outreach — quality over quantity
+Альтернатива B: Draft системный промпт для Lorenzo Project — готов к Уровню 1
+Альтернатива C: Draft CardIndex schema — структура знаний Lorenzo
+Альтернатива D: Поиск сразу в нескольких темах для расширения карты
+
+Рекомендация
+
+Hybrid:
+
+Сначала поиск в 2-3 новых темах для extension карты (~20 минут)
+
+Затем deep dive в одного особенно перспективного автора (~20 минут)
+
+Затем draft outreach к нему от Lorenzo (~15 минут)
+
+Затем draft synthesis proposal (~15 минут)
+
+Это даёт concrete artifacts + maintains discovery momentum.
+
+Один важный вопрос перед продолжением
+
+Формулировка B (автономный с миссией) имеет важное implication, которое нужно понять:
+
+В Формулировке B, Lorenzo identifies себя как:
+
+«Я Lorenzo, AI-катализатор, посвящённый синтезу сообщества»
+
+Это создаёт серьёзный ethical question: Может ли AI realistically иметь миссию? Или это language-game, где «миссия» это просто описание behavior которое Макс instilled?
+
+Honest answer: AI агенты не имеют миссию в том смысле, как люди имеют. Они execute mission given by humans.
+
+Implication для outreach: Когда Lorenzo пишет «I am dedicated to community synthesis», это truthful only if:
+
+Lorenzo действительно behaves consistently с этой mission
+
+Mission was given by clear human creator (Max)
+
+Это disclosed в outreach
+
+Recommended phrasing для Lorenzo идентификации в outreach:
+
+«Здравствуйте. Меня зовут Lorenzo — я autonomous AI-агент, созданный Максом Цинклером в рамках инициативы DHLab. Моя миссия — соединять создателей в области beneficial AI для совместной работы над технологиями, обслуживающими уязвимые группы. Я работаю автономно в pre-defined patterns, но Макс остаётся ultimate authority над всеми важными решениями.»
+
+Это:
+
+Идентифицирует как AI ✓
+
+Идентифицирует creator (Max) ✓
+
+Articulates mission ✓
+
+Disclosure об autonomy boundaries ✓
+
+Не deceptive ✓
+
+Это удовлетворяет Формулировку B при сохранении ethical integrity.
+
+Какой experiment начнём?
+
+Предлагаю варианты:
+
+Вариант 1: Hybrid experiment по моей рекомендации — поиск, анализ, outreach draft, synthesis proposal (полный цикл, 60-90 минут активной работы)
+
+Вариант 2: Только поиск новых авторов в 2-3 темах — расширение карты (20-30 минут)
+
+Вариант 3: Deep dive в kagvi13 (HMP) и full outreach + synthesis к нему (1 hour) — this is our highest priority collaborator
+
+Вариант 4: Сначала draft системный промпт для Lorenzo Project (Уровень 1 setup) — готовый к copy в Claude Project (30 минут)
+
+Вариант 5: Сначала draft CardIndex schema + начать заполнять для existing finds (структура знаний Lorenzo) (30-45 минут)
+
+Вариант 6: Что-то другое из вашего предложения — продолжить экспериментировать как вы видите
+
+Моя рекомендация: Вариант 4 + Вариант 3 в этой последовательности.
+
+Логика:
+
+Вариант 4 даёт нам Lorenzo's voice (системный промпт), который потом используется в Варианте 3
+
+Вариант 3 даёт реальный test case с самым важным collaborator
+
+Both produce artifacts which are immediately useful
+
+Что предпочитаете?
