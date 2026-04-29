@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-04-29T16:46:05+00:00</updated>
+  <updated>2026-04-29T17:09:57+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/ba2fcac1b165d5bc9311b4e9b1651a62aa22af3f</id>
+    <title>chore: regenerate auto-feeds after Sprint 51-53</title>
+    <link href="https://github.com/svend4/lorenzo/commit/ba2fcac1b165d5bc9311b4e9b1651a62aa22af3f"/>
+    <updated>2026-04-29T16:46:43+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 51-53</strong></p><p>Коммит: <code>ba2fcac1</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/dedfe11df266b9cfea355ff3402fd0212bb94be3</id>
     <title>chore: regenerate auto-feeds after Sprint 48-50</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/6421a1fc26889e84742a849ec9c73f5fbf0e4a52"/>
     <updated>2026-04-29T14:55:58+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 24-26</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>6421a1fc</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/d3dd088480d9cc852f66c59c26b21f3ae6ce2e04</id>
-    <title>feat: Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph</title>
-    <link href="https://github.com/svend4/lorenzo/commit/d3dd088480d9cc852f66c59c26b21f3ae6ce2e04"/>
-    <updated>2026-04-29T14:55:31+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/contact-outreach.md">docs/templates/contact-outreach.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/decision-record.md">docs/templates/decision-record.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/ensemble.md">docs/templates/ensemble.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/project-component.md">docs/templates/project-component.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/templates/research-note.md">docs/templates/research-note.md</a></li></ul><p>Коммит: <code>d3dd0884</code></p>]]></content>
   </entry>
 </feed>
