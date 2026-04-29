@@ -2,7 +2,7 @@
 
 Это **прямой источник имени этого репозитория**. В исходном MHTML-снимке `Вакансии в Anthropic по кластерам - Claude` Claude совместно с автором составил полноценный системный промпт для автономного AI-агента **Lorenzo** — Catalyst Agent at DHLab (Dream Hub Laboratory).
 
-Промпт разбит на 21 раздел, каждый — отдельный файл.
+Промпт разбит на 21 раздел, каждый — отдельный файл. Дополнительно есть подпапка [`operationalized/`](operationalized/) с анализом конкретной 6-узловой архитектуры pipeline, которая операционализирует концепт Lorenzo.
 
 ## Что такое Lorenzo
 
@@ -50,7 +50,7 @@
 | # | Документ | Папка |
 |---|---|---|
 | 1 | Nautilus Portal Protocol v1.1 | [`../nautilus/npp-v1-1/`](../nautilus/npp-v1-1/) |
-| 2 | Review Methodology v1.0 | (остаётся в источнике; pending separate extraction) |
+| 2 | Review Methodology v1.0 | [`../nautilus/review-methodology/`](../nautilus/review-methodology/) |
 | 3 | Double-Triangle Architecture | [`../nautilus/double-triangle-architecture/`](../nautilus/double-triangle-architecture/) |
 | 4 | Open Knowledge Work Foundation | [`../nautilus/okwf-concept/`](../nautilus/okwf-concept/) |
 | 5 | Representative Agent Layer | [`../nautilus/representative-agent-layer-en/`](../nautilus/representative-agent-layer-en/) (+ ru/) |
