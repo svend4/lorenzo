@@ -457,9 +457,20 @@ README — на двух языках минимум. Русский как prim
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Appendix B: Change Log](34-appendix-b-change-log.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix B: Change Log](34-appendix-b-change-log.md) _21%_
+- [🇷🇺 О проекте](67-о-проекте.md) _17%_
 ## Связанные документы
 
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _25%_

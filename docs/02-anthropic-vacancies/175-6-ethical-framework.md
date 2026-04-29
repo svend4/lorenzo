@@ -158,9 +158,21 @@ tech-sophisticated principals fails its core mission.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [5. Architectural Specification](174-5-architectural-specification.md)
+- [7. Governance and Oversight](176-7-governance-and-oversight.md)
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [7. Governance and Oversight](176-7-governance-and-oversight.md) _21%_
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _17%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _17%_
 ## Связанные документы
 
 - [7. Governance and Oversight](176-7-governance-and-oversight.md) _21%_

@@ -158,9 +158,23 @@ qualified individuals regardless of traditional constraints.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Call for Collaboration](180-11-call-for-collaboration.md)
+- [5. Economic Model](159-5-economic-model.md)
+- [6. Governance and Ethics](160-6-governance-and-ethics.md)
+- [8. Risk Analysis](162-8-risk-analysis.md)
+- [9. Call for Partnership](163-9-call-for-partnership.md)
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [5. Economic Model](159-5-economic-model.md) _29%_
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md) _29%_
+- [9. Call for Partnership](163-9-call-for-partnership.md) _21%_
 ## Связанные документы
 
 - [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md) _29%_

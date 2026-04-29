@@ -53,9 +53,27 @@ Last updated: 2026-04*
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Abstract](04-abstract.md)
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md)
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md)
+- [Native Format](37-native-format.md)
+- [portal-mcp.py](123-portal-mcp-py.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Abstract](04-abstract.md) _37%_
+- [portal-mcp.py](123-portal-mcp-py.md) _37%_
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _33%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _29%_
+- [Table of Contents](154-table-of-contents.md) _25%_
+- [Содержание](190-содержание.md) _25%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _21%_
 ## Связанные документы
 
 - [Abstract](04-abstract.md) _33%_

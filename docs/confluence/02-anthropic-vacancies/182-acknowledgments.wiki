@@ -1,0 +1,79 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/182-acknowledgments.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Acknowledgments
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}This concept emerged through dialogue across multiple{quote}
+
+----
+
+
+
+
+
+h2. Acknowledgments
+
+This concept emerged through dialogue across multiple 
+sessions in 2026. The "Cinderella Syndrome" framing and 
+the extension to social workers, caregivers, and other 
+non-knowledge-worker domains came from conversation 
+with Claude (Anthropic) on April 19, 2026. The author 
+integrated, expanded, and retained editorial authority.
+
+Ideas from prior thinkers shape this work, particularly: 
+Herbert Simon (attention economy), Robert Merton (Matthew 
+effect), George Akerlof (information asymmetry), and the 
+extensive literature on principal-agent theory in 
+economics and law.
+
+This document, like its companions, is offered freely 
+under CC BY 4.0. If it helps anyone build infrastructure 
+that genuinely serves underrepresented populations, that 
+will be more than enough.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [224-acknowledgments|224-acknowledgments.md] (сходство 0.17)
+* [146-acknowledgments|146-acknowledgments.md] (сходство 0.14)
+* [267-acknowledgments|267-acknowledgments.md] (сходство 0.13)
+
+
+
+
+----
+
+_Смотрите также:_
+* [146-acknowledgments|146-acknowledgments.md]
+* [224-acknowledgments|224-acknowledgments.md]
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+* [167-ai-mediated-representation-for-underrepresented-ex|167-ai-mediated-representation-for-underrepresented-ex.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Acknowledgments|224-acknowledgments.md] _48%_
+* [Acknowledgments|146-acknowledgments.md] _42%_
+* [AI Support Through Configurable Specialist Ensembles|251-ai-support-through-configurable-specialist-ensembl.md] _37%_
+* [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations|167-ai-mediated-representation-for-underrepresented-ex.md] _33%_
+* [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers|209-a-typology-of-ai-agents-on-the-principal-side-and-.md] _29%_
+* [Acknowledgments|267-acknowledgments.md] _29%_
+* [Appendix A: Connection to Companion Papers|184-appendix-a-connection-to-companion-papers.md] _25%_
+* [Table of Contents|211-table-of-contents.md] _25%_

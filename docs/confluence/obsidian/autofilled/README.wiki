@@ -1,0 +1,23 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/autofilled/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "autofilled"
+tags:
+  * autofilled
+date: 2026-04-29
+----
+
+h1. autofilled
+
+_Файлов:_ 1
+
+h2. Содержание
+
+* [[research-summary|research-summary.md]] — 
+
+h2. Подразделы
+
+* [components/|components/] — components

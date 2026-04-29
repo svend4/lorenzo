@@ -184,9 +184,34 @@ practice.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Open Questions](179-10-open-questions.md)
+- [11. Open Questions](264-11-open-questions.md)
+- [12. Call for Collaboration](265-12-call-for-collaboration.md)
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md)
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md)
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md)
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md)
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md)
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md)
+- [8. Risk Analysis](162-8-risk-analysis.md)
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md)
+- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _42%_
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _37%_
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md) _33%_
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _33%_
+- [11. Open Questions](264-11-open-questions.md) _29%_
+- [10. Open Questions](179-10-open-questions.md) _21%_
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _21%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _17%_
 ## Связанные документы
 
 - [8. Risks and Mitigations](177-8-risks-and-mitigations.md) _42%_

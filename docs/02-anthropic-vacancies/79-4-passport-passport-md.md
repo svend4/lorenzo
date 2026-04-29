@@ -99,9 +99,28 @@ Portal SHOULD предоставлять команду валидации:
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. Terminology](07-2-terminology.md)
+- [2. Terminology](77-2-terminology.md)
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
+- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _48%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _42%_
+- [2. Terminology](07-2-terminology.md) _29%_
+- [2. Terminology](77-2-terminology.md) _29%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_
+- [5. Compatibility Levels](80-5-compatibility-levels.md) _25%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
 ## Связанные документы
 
 - [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _37%_

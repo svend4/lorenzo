@@ -63,9 +63,37 @@ NPP-compatible, если они:
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [0. Status of This Document](05-0-status-of-this-document.md)
+- [0. Status of This Document](75-0-status-of-this-document.md)
+- [13. Reference Implementation](25-13-reference-implementation.md)
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
+- [Appendix B: Change Log](103-appendix-b-change-log.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [Author & Contact](42-author-contact.md)
+- [Author & Contact](52-author-contact.md)
+- [Author & Contact](62-author-contact.md)
+- [Content Overview](48-content-overview.md)
+- [History](53-history.md)
+- [passports/info1.md](35-passports-info1-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Доступные инструменты](128-доступные-инструменты.md)
+- [🇬🇧 About](68-about.md)
+- [🇷🇺 О проекте](67-о-проекте.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [13. Reference Implementation](25-13-reference-implementation.md) _81%_
+- [Author & Contact](42-author-contact.md) _60%_
+- [Author & Contact](62-author-contact.md) _53%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _48%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _48%_
+- [Content Overview](48-content-overview.md) _33%_
+- [Appendix C: References](104-appendix-c-references.md) _29%_
+- [12. Versioning Policy](24-12-versioning-policy.md) _29%_
 ## Связанные документы
 
 - [13. Reference Implementation](25-13-reference-implementation.md) _81%_

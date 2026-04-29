@@ -212,9 +212,19 @@ within 5-10 years.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [7. Application Domains](218-7-application-domains.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _17%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _17%_
 ## Связанные документы
 
 - [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _25%_

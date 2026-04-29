@@ -866,9 +866,27 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Appendix D: Connection Diagram](../02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [MemNet: исследовательская память](../05-habr-projects/memory/memnet.md)
+- [Все таблицы репозитория](../TABLES.md)
+- [Глоссарий понятий](../CONCEPTS.md)
+- [Графы знаний и Legal AI](../03-technology-combinations/02-knowledge-graphs.md)
+- [Интегральный анализ профиля svend4](../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [Карта репозитория Lorenzo](../SITEMAP.md)
+- [Нарратив проекта Lorenzo](../NARRATIVE.md)
+- [Ограничения, лицензии и что пока лучше не склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [Поиск AI-коллабораций](README.md)
+- [Рекомендуемый порядок чтения](../READING_ORDER.md)
+## Упоминается в
+
 - [Поиск AI-коллабораций](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [MemNet: исследовательская память](../05-habr-projects/memory/memnet.md) _37%_
+- [Графы знаний и Legal AI](../03-technology-combinations/02-knowledge-graphs.md) _17%_
+- [Ограничения, лицензии и что пока лучше не склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) _17%_
 ## Связанные документы
 
 - [MemNet: исследовательская память](../05-habr-projects/memory/memnet.md) _42%_

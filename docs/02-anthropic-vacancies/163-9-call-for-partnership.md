@@ -147,9 +147,23 @@ section explicitly invites partnership.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Problem Statement](155-1-problem-statement.md)
+- [10. Appendices](164-10-appendices.md)
+- [5. Economic Model](159-5-economic-model.md)
+- [6. Governance and Ethics](160-6-governance-and-ethics.md)
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
+- [8. Risk Analysis](162-8-risk-analysis.md)
+- [Executive Summary](153-executive-summary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [5. Economic Model](159-5-economic-model.md) _21%_
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _21%_
 ## Связанные документы
 
 - [6. Governance and Ethics](160-6-governance-and-ethics.md) _21%_

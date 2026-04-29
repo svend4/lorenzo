@@ -62,9 +62,24 @@ Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive A
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [NGT[^ngt] Memory: ассоциативный граф](../memory/ngt-memory.md)
+- [Yodoca[^yodoca]: консолидация и забывание](../memory/yodoca.md)
+- [Авторы и контакты](../02-collaboration-partners.md)
+- [Синтез: как проекты собираются вместе](../01-synthesis.md)
+- [Системы знаний](README.md)
+## Упоминается в
+
 - [Системы знаний](../../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Синтез: как проекты собираются вместе](../01-synthesis.md) _29%_
+- [NGT[^ngt] Memory: ассоциативный граф](../memory/ngt-memory.md) _29%_
+- [Yodoca[^yodoca]: консолидация и забывание](../memory/yodoca.md) _25%_
+- [Авторы и контакты](../02-collaboration-partners.md) _21%_
+- [Уникальные проекты с Хабра](../README.md) _17%_
+- [Системы памяти](../memory/README.md) _16%_
 ## Связанные документы
 
 - [Системы знаний](../../README.md) _42%_

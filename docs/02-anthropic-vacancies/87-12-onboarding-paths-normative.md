@@ -122,9 +122,19 @@ python scan_repo.py owner/repo-name
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [2. Terminology](77-2-terminology.md) _25%_
+- [2. Terminology](07-2-terminology.md) _17%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _17%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _17%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _17%_
 ## Связанные документы
 
 - [2. Terminology](77-2-terminology.md) _21%_

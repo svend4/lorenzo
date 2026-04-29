@@ -152,9 +152,33 @@ individual developer or small team.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
+- [4. Симбиотическая Архитектура](330-4-симбиотическая-архитектура.md)
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
+- [5. Четыре пути интеграции в порядке доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md)
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
+- [Table of Contents](308-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](308-table-of-contents.md) _37%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _29%_
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _21%_
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _17%_
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _17%_
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _17%_
 ## Связанные документы
 
 - [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _37%_

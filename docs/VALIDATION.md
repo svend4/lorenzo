@@ -1,6 +1,6 @@
 # Валидация структуры репозитория
 
-**Ошибок:** 0  **Предупреждений:** 17  **Пройдено:** 27
+**Ошибок:** 0  **Предупреждений:** 30  **Пройдено:** 27
 
 ## Сводка
 
@@ -8,9 +8,9 @@
 |----------|--------|---------|
 | Разделы и README | ✅ | 0 |
 | Мета-файлы | ✅ | 0 |
-| Пустые/короткие файлы | ⚠️ | 6 |
+| Пустые/короткие файлы | ⚠️ | 10 |
 | Именование файлов | ✅ | 10 |
-| Заголовки H1 | ⚠️ | 11 |
+| Заголовки H1 | ⚠️ | 20 |
 | Внутренние ссылки | ✅ | 15 |
 
 ## ✅ Разделы и README
@@ -25,9 +25,14 @@ _Всё в порядке_
 
 - ⚠️ Слишком короткий файл: `docs/01-svyazi/00-intro-part2.md` (6 слов)
 - ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (16 слов)
-- ⚠️ Слишком короткий файл: `docs/05-habr-projects/knowledge/README.md` (13 слов)
+- ⚠️ Слишком короткий файл: `docs/05-habr-projects/knowledge/README.md` (12 слов)
 - ⚠️ Слишком короткий файл: `docs/05-habr-projects/memory/README.md` (25 слов)
 - ⚠️ Слишком короткий файл: `docs/autofilled/README.md` (18 слов)
+- ⚠️ Слишком короткий файл: `docs/obsidian/01-svyazi/00-intro-part2.md` (23 слов)
+- ⚠️ Слишком короткий файл: `docs/obsidian/05-habr-projects/knowledge/README.md` (11 слов)
+- ⚠️ Слишком короткий файл: `docs/obsidian/05-habr-projects/memory/README.md` (19 слов)
+- ⚠️ Слишком короткий файл: `docs/obsidian/autofilled/README.md` (16 слов)
+- ⚠️ Слишком короткий файл: `docs/obsidian/templates/README.md` (26 слов)
 
 ## Именование файлов
 
@@ -55,36 +60,56 @@ _Всё в порядке_
 - ⚠️ Нет заголовка H1: `docs/01-svyazi/12-roadmap.md`
 - ⚠️ Нет заголовка H1: `docs/01-svyazi/13-contacts.md`
 - ⚠️ Нет заголовка H1: `docs/01-svyazi/14-limitations.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/03-component-catalog.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/04-ensembles-overview.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/06-security-privacy.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/07-mvp-planning.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/08-conclusions.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/09-architectural-gaps.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/10-second-order-ensembles.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/11-integration-contracts.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/12-roadmap.md`
 
 ## Внутренние ссылки
 
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/04-ai-collaborations/01-executive-summary.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/04-ai-collaborations/07-выводы.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/04-ai-collaborations/01-executive-summary.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/04-ai-collaborations/07-выводы.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/01-svyazi/08-conclusions.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/01-svyazi/10-second-order-ensembles.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/GRAPH.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/01-svyazi/07-mvp-planning.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/01-svyazi/09-architectural-gaps.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/04-ai-collaborations/README.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md`
-- 🔗 Сломана ссылка в `docs/01-svyazi/02-methodology.md`: `docs/04-ai-collaborations/01-executive-summary.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/104-appendix-c-references.md`: `./docs/PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md`: `./REVIEW_METHODOLOGY.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/122-глоссарий.md`: `./REVIEW_METHODOLOGY.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md`: `../PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md`: `../PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md`: `../PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./passports/info1.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./passports/pro2.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./passports/meta.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/68-about.md`: `./PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/68-about.md`: `./PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/68-about.md`: `./PORTAL-PROTOCOL.md`
 
 ## Итог
 
-⚠️ **17 предупреждений** — рекомендуется исправить.
+⚠️ **30 предупреждений** — рекомендуется исправить.
 
-<!-- see-also -->
+<!-- backlinks-auto -->
+## Упоминается в
 
----
+- [AI-саммари разделов документации](LLM_SUMMARIES.md)
+- [Executive Report: Репозиторий Lorenzo](REPORT.md)
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
 
-**Смотрите также:**
-- [COMPARE](COMPARE.md)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [SITEMAP](SITEMAP.md)
-- [CONTENT_GAPS](CONTENT_GAPS.md)
+<!-- related-auto -->
+## Связанные документы
 
+- [Отчёт о дублировании](DUPLICATES.md) _25%_
+- [Приоритеты файлов](PRIORITIES.md) _21%_
+- [Время чтения документов](READING_TIME.md) _21%_
+- [Карта репозитория Lorenzo](SITEMAP.md) _21%_
+- [Хронологическая лента событий](TIMELINE.md) _21%_
+- [Diff базы знаний между версиями](VERSION_DIFF.md) _21%_
+- [Инвертированный индекс ключевых слов](KEYWORD_INDEX.md) _17%_
+- [AI-саммари разделов документации](LLM_SUMMARIES.md) _17%_

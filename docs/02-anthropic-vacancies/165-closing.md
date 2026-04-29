@@ -556,9 +556,23 @@ Story тверже становится. «Infrastructure для distributed wor
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md)
+- [Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md)
+- [Обратная связь](133-обратная-связь.md)
+- [Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги](248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _25%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _25%_
 ## Связанные документы
 
 - [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _25%_

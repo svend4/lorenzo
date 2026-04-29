@@ -70,9 +70,35 @@ their daily work.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [11. Call for Collaboration](222-11-call-for-collaboration.md)
+- [12. Closing](181-12-closing.md)
+- [12. Closing](223-12-closing.md)
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md)
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md)
+- [Abstract](168-abstract.md)
+- [Abstract](252-abstract.md)
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md)
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _53%_
+- [12. Closing](223-12-closing.md) _48%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _42%_
+- [Table of Contents](211-table-of-contents.md) _37%_
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _37%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _33%_
+- [Abstract](252-abstract.md) _29%_
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md) _25%_
 ## Связанные документы
 
 - [12. Closing](223-12-closing.md) _48%_

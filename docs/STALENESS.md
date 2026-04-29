@@ -2,40 +2,38 @@
 
 _Порог: 30 дней. Обновлено: 2026-04-29_
 
-Найдено проблем: **90** файлов
+Найдено проблем: **131** файлов
 
-## Без метаданных (нет summary или тегов) — 68 файлов
+## Без метаданных (нет summary или тегов) — 93 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
 | `docs/01-svyazi/00-intro-part2.md` | 5 | нет summary, нет тегов, короткий (5 слов) |
 | `docs/01-svyazi/QA.md` | 255 | нет summary, нет тегов |
+| `docs/01-svyazi/README.md` | 90 | нет тегов, короткий (90 слов) |
 | `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 14 | нет summary, нет тегов, короткий (14 слов) |
 | `docs/02-anthropic-vacancies/QA.md` | 360 | нет summary, нет тегов |
 | `docs/03-technology-combinations/QA.md` | 100 | нет summary, нет тегов |
-| `docs/03-technology-combinations/README.md` | 38 | нет тегов, короткий (38 слов) |
+| `docs/03-technology-combinations/README.md` | 39 | нет тегов, короткий (39 слов) |
 | `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
-| `docs/04-ai-collaborations/README.md` | 82 | нет summary, нет тегов, короткий (82 слов) |
+| `docs/04-ai-collaborations/README.md` | 84 | нет summary, нет тегов, короткий (84 слов) |
 | `docs/05-habr-projects/QA.md` | 111 | нет summary, нет тегов |
 | `docs/05-habr-projects/README.md` | 38 | нет summary, нет тегов, короткий (38 слов) |
-| `docs/05-habr-projects/knowledge/README.md` | 9 | нет summary, нет тегов, короткий (9 слов) |
+| `docs/05-habr-projects/knowledge/README.md` | 10 | нет summary, нет тегов, короткий (10 слов) |
 | `docs/05-habr-projects/memory/README.md` | 17 | нет summary, нет тегов, короткий (17 слов) |
-| `docs/ABBREVIATIONS.md` | 1030 | нет summary, нет тегов |
-| `docs/ACTION_ITEMS.md` | 4906 | нет summary |
+| `docs/ABBREVIATIONS.md` | 1019 | нет summary, нет тегов |
+| `docs/ACTION_ITEMS.md` | 7179 | нет summary, нет тегов |
 | `docs/ALERTS.md` | 50 | нет summary, нет тегов, короткий (50 слов) |
-| `docs/AUTHORS.md` | 81 | нет summary, нет тегов, короткий (81 слов) |
-| `docs/BACKLINKS.md` | 194 | нет summary, нет тегов |
-| `docs/BROKEN_LINKS.md` | 468 | нет summary, нет тегов |
-| `docs/CHANGELOG.md` | 829 | нет summary, нет тегов |
-| `docs/CODE_BLOCKS.md` | 3446 | нет summary, нет тегов |
+| `docs/AUTHORS.md` | 66 | нет summary, нет тегов, короткий (66 слов) |
+| `docs/BACKLINKS.md` | 373 | нет summary, нет тегов |
+| `docs/BROKEN_LINKS.md` | 443 | нет summary, нет тегов |
+| `docs/CHANGELOG.md` | 884 | нет summary, нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 22 файлов
+## Короткие (< 100 слов, заготовки) — 38 файлов
 
 | Файл | Слов |
 |------|------|
-| `docs/01-svyazi/README.md` | 86 |
 | `docs/02-anthropic-vacancies/102-доступ-к-данным.md` | 52 |
-| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | 87 |
 | `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 66 |
 | `docs/02-anthropic-vacancies/16-history.md` | 90 |
 | `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | 96 |
@@ -50,9 +48,11 @@ _Порог: 30 дней. Обновлено: 2026-04-29_
 | `docs/autofilled/components/spbmolot.md` | 62 |
 | `docs/autofilled/components/svend4.md` | 77 |
 | `docs/autofilled/components/svyazi.md` | 77 |
-| `docs/templates/contact-outreach.md` | 96 |
-| `docs/templates/decision-record.md` | 62 |
-| `docs/templates/ensemble.md` | 93 |
+| `docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md` | 61 |
+| `docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 77 |
+| `docs/obsidian/02-anthropic-vacancies/16-history.md` | 97 |
+| `docs/obsidian/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 38 |
+| `docs/obsidian/ALERTS.md` | 80 |
 
 ## Рекомендуемые действия
 

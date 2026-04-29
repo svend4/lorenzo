@@ -71,9 +71,26 @@ acknowledgments above.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [References](147-references.md)
+- [References](287-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Ссылки](338-ссылки.md)
+- [Что ты МОЖЕШЬ делать](351-что-ты-можешь-делать.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [References](287-references.md) _29%_
+- [Ссылки](338-ссылки.md) _25%_
+- [Acknowledgments](146-acknowledgments.md) _17%_
+- [References](183-references.md) _17%_
+- [References](225-references.md) _17%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _17%_
+- [Closing](285-closing.md) _17%_
+- [Acknowledgments](286-acknowledgments.md) _17%_
 ## Связанные документы
 
 - [References](287-references.md) _25%_

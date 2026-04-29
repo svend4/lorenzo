@@ -62,6 +62,16 @@ _Создано автоматически: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
+- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
+- [Контакт: Antipozitive / MemNet](antipozitive.md) _66%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _66%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _66%_
+- [Контакт: kksudo / AgentFS](kksudo.md) _66%_
+- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _66%_
+- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _66%_
+- [Контакт: spbmolot / NGT Memory](spbmolot.md) _66%_
+## Связанные документы
+
 - [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
 - [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
 - [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
@@ -81,3 +91,17 @@ _Создано автоматически: 2026-04-29_
 - [sonia-black](sonia-black.md)
 - [cutcode](cutcode.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [contacts](README.md)
+- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md)
+- [Контакт: Antipozitive / MemNet](antipozitive.md)
+- [Контакт: Cutcode / AIF Handoff](cutcode.md)
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md)
+- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md)
+- [Контакт: Sonia_Black / knowledge-space](sonia-black.md)
+- [Контакт: VladSpace / Graph RAG](vladspace.md)
+- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md)
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md)
+- [Контакт: zodigancode / Rufler](zodigancode.md)

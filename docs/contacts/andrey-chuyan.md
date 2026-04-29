@@ -64,6 +64,16 @@ _Создано автоматически: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
+- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
+- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _73%_
+- [Контакт: VladSpace / Graph RAG](vladspace.md) _73%_
+- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
+- [Контакт: kksudo / AgentFS](kksudo.md) _66%_
+- [Контакт: spbmolot / NGT Memory](spbmolot.md) _66%_
+## Связанные документы
+
 - [Контакт: Cutcode / AIF Handoff](cutcode.md) _66%_
 - [Контакт: Dmitriila / SENTINEL](dmitriila.md) _66%_
 - [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _66%_
@@ -83,3 +93,12 @@ _Создано автоматически: 2026-04-29_
 - [dmitriila](dmitriila.md)
 - [mixaill76](mixaill76.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [contacts](README.md)
+- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md)
+- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md)
+- [Контакт: kksudo / AgentFS](kksudo.md)
+- [Контакт: spbmolot / NGT Memory](spbmolot.md)
+- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md)

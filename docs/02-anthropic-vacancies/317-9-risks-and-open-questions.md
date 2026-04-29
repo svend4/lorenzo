@@ -160,9 +160,25 @@ works regardless of any of them.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _21%_
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _21%_
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _21%_
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _21%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _21%_
+- [Table of Contents](308-table-of-contents.md) _17%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _17%_
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _17%_
 ## Связанные документы
 
 - [10. Strategic Positioning](318-10-strategic-positioning.md) _33%_

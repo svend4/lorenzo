@@ -139,9 +139,22 @@ v2.0 MAY использовать:
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Relevance Ranking](86-11-relevance-ranking.md)
+- [8. Consensus Algorithm](20-8-consensus-algorithm.md)
+- [9. Query Flow](21-9-query-flow.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [8. Consensus Algorithm](20-8-consensus-algorithm.md) _42%_
+- [9. Query Flow](21-9-query-flow.md) _21%_
+- [11. Relevance Ranking](86-11-relevance-ranking.md) _21%_
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _17%_
+- [10. Query Flow](85-10-query-flow.md) _17%_
 ## Связанные документы
 
 - [8. Consensus Algorithm](20-8-consensus-algorithm.md) _53%_

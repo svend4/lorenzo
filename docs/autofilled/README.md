@@ -4,7 +4,7 @@
 
 ## Содержание
 
-- [research-summary.md](research-summary.md) — <!-- toc-auto -->
+- [research-summary.md](research-summary.md) — <!-- summary -->
 
 ## Подразделы
 

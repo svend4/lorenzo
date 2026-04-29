@@ -1,0 +1,87 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "22. Glossary of Reference Examples"
+tags:
+  * knowledge
+  * architecture
+  * collaboration
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 22. Glossary of Reference Examples
+
+
+{quote}В качестве иллюстраций используется экосистема {{svend4}} с 7 Repos:{quote}
+
+----
+
+
+
+
+
+h2. 22. Glossary of Reference Examples
+
+В качестве иллюстраций используется экосистема {{svend4}} с 7 Repos:
+
+* _info1_ (Level 1) — 74+ Markdown-документа с α-уровнями 
+  (-4..+4), методологический угол
+* _pro2_ (Level 3) — Q6-концепты, граф знаний, bidir-цикл, 
+  семантический угол
+* _meta_ (Level 1) — 256 CA-правил + 64 гексаграммы, символьный 
+  угол
+* _data2_ (Level 1) — 310+ томов ЕТД (Единая Теория Движения)
+* _data7_ (Level 2) — граф знаний, K₀→K∞ трансформация
+* _infosystems_ (Level 2, домен pro2) — архитектура ИС
+* _ai_agents_ (Level 2, домен pro2) — ИИ-агенты и мультиагентные 
+  системы
+
+Плюс 5 "расширенных" адаптеров (не в registry, но useable):
+
+* _ObsidianAdapter_ — локальный Obsidian vault ([[wikilinks]])
+* _ArxivAdapter_ — arXiv API с 12h cache
+* _GitHubTopicAdapter_ — discovery по GitHub топику
+* _JSONLAdapter_ — JSON Lines files
+* _AutoAdapter_ — любой repo с nautilus.json в корне
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[27-15-glossary-of-examples]] (сходство 0.33)
+* [[55-passports-meta-md]] (сходство 0.11)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[27-15-glossary-of-examples]]
+* [[55-passports-meta-md]]
+* [[35-passports-info1-md]]
+* [[45-passports-pro2-md]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[27-15-glossary-of-examples|15. Glossary of Examples]] _66%_
+* [[45-passports-pro2-md|passports/pro2.md]] _37%_
+* [[35-passports-info1-md|passports/info1.md]] _33%_
+* [[55-passports-meta-md|passports/meta.md]] _33%_
+* [[56-essence|Essence]] _29%_
+* [[67-о-проекте|🇷🇺 О проекте]] _21%_
+* [[68-about|🇬🇧 About]] _21%_
+* [[40-bridges|Bridges]] _17%_

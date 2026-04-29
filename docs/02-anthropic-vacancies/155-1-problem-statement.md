@@ -135,9 +135,23 @@ coordinated action now.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. Target Populations](156-2-target-populations.md)
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md)
+- [Executive Summary](153-executive-summary.md)
+- [Table of Contents](154-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Executive Summary](153-executive-summary.md) _42%_
+- [2. Target Populations](156-2-target-populations.md) _29%_
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md) _25%_
+- [Table of Contents](154-table-of-contents.md) _17%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _17%_
 ## Связанные документы
 
 - [Executive Summary](153-executive-summary.md) _42%_

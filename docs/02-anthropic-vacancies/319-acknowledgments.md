@@ -85,9 +85,31 @@ Methodological: how-to и reflection.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Abstract](307-abstract.md)
+- [Acknowledgments](267-acknowledgments.md)
+- [Acknowledgments](286-acknowledgments.md)
+- [References](287-references.md)
+- [Why This Document Exists](275-why-this-document-exists.md)
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Acknowledgments](286-acknowledgments.md) _42%_
+- [References](287-references.md) _42%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _37%_
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _37%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _29%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _25%_
+- [Acknowledgments](267-acknowledgments.md) _25%_
 ## Связанные документы
 
 - [Acknowledgments](286-acknowledgments.md) _53%_

@@ -153,9 +153,33 @@ and 7.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [10. Open Questions](179-10-open-questions.md)
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [5. Architectural Specification](174-5-architectural-specification.md)
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md)
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md)
+- [6. Ethical Framework](175-6-ethical-framework.md)
+- [7. Governance and Oversight](176-7-governance-and-oversight.md)
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md)
+- [Table of Contents](211-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](211-table-of-contents.md) _29%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _29%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _29%_
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _29%_
+- [5. Architectural Specification](174-5-architectural-specification.md) _25%_
+- [10. Open Questions](179-10-open-questions.md) _21%_
+- [Abstract](210-abstract.md) _21%_
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _21%_
 ## Связанные документы
 
 - [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _33%_

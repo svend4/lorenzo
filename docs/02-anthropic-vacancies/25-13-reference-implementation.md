@@ -46,9 +46,43 @@ Reference НЕ является нормативной. Альтернативн
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [0. Status of This Document](05-0-status-of-this-document.md)
+- [0. Status of This Document](75-0-status-of-this-document.md)
+- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- [11. Relevance Ranking](86-11-relevance-ranking.md)
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
+- [15. Glossary of Examples](27-15-glossary-of-examples.md)
+- [18. Reference Implementation](93-18-reference-implementation.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [Author & Contact](42-author-contact.md)
+- [Author & Contact](52-author-contact.md)
+- [Author & Contact](62-author-contact.md)
+- [Content Overview](48-content-overview.md)
+- [Essence](46-essence.md)
+- [History](53-history.md)
+- [References](147-references.md)
+- [passports/info1.md](35-passports-info1-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [⬡](69-section.md)
+- [🇬🇧 About](68-about.md)
+- [🇷🇺 О проекте](67-о-проекте.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [18. Reference Implementation](93-18-reference-implementation.md) _81%_
+- [Author & Contact](42-author-contact.md) _66%_
+- [Author & Contact](62-author-contact.md) _53%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _48%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _48%_
+- [Content Overview](48-content-overview.md) _37%_
+- [passports/info1.md](35-passports-info1-md.md) _33%_
+- [12. Versioning Policy](24-12-versioning-policy.md) _29%_
 ## Связанные документы
 
 - [18. Reference Implementation](93-18-reference-implementation.md) _81%_

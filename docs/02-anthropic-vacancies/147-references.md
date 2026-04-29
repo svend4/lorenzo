@@ -90,9 +90,23 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md)
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [References](183-references.md)
+- [References](225-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [References](225-references.md) _21%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _21%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _21%_
+- [Appendix C: References](104-appendix-c-references.md) _17%_
+- [Author & Contact](52-author-contact.md) _17%_
 ## Связанные документы
 
 - [Author & Contact](52-author-contact.md) _25%_

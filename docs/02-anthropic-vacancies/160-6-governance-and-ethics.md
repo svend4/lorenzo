@@ -160,6 +160,13 @@ Foundation will not:
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [5. Economic Model](159-5-economic-model.md)
+- [7. Governance and Oversight](176-7-governance-and-oversight.md)
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
+- [9. Call for Partnership](163-9-call-for-partnership.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->

@@ -67,6 +67,16 @@ _Создано автоматически: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
+- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _81%_
+- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _66%_
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _60%_
+- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md) _48%_
+- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _48%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _48%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _48%_
+- [Контакт: kksudo / AgentFS](kksudo.md) _48%_
+## Связанные документы
+
 - [Контакт: Cutcode / AIF Handoff](cutcode.md) _42%_
 - [Контакт: Dmitriila / SENTINEL](dmitriila.md) _42%_
 - [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _42%_
@@ -86,3 +96,10 @@ _Создано автоматически: 2026-04-29_
 - [tagir-analyzes](tagir-analyzes.md)
 - [vladspace](vladspace.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [MemNet: исследовательская память](../05-habr-projects/memory/memnet.md)
+- [contacts](README.md)
+- [Контакт: Sonia_Black / knowledge-space](sonia-black.md)
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md)

@@ -63,9 +63,28 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md)
+- [Table of Contents](137-table-of-contents.md)
+- [Table of Contents](169-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Содержание](326-содержание.md)
+- [Что ты МОЖЕШЬ делать](351-что-ты-можешь-делать.md)
+- [Что ты НЕ МОЖЕШЬ делать без Max approval](352-что-ты-не-можешь-делать-без-max-approval.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](169-table-of-contents.md) _25%_
+- [Содержание](326-содержание.md) _25%_
+- [Abstract](136-abstract.md) _21%_
+- [Table of Contents](137-table-of-contents.md) _17%_
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _17%_
+- [Table of Contents](154-table-of-contents.md) _17%_
+- [Содержание](190-содержание.md) _17%_
+- [Table of Contents](253-table-of-contents.md) _17%_
 ## Связанные документы
 
 - [Table of Contents](137-table-of-contents.md) _33%_

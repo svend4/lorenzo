@@ -47,9 +47,32 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [18. Reference Implementation](93-18-reference-implementation.md)
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [Author & Contact](52-author-contact.md)
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md)
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
+- [References](147-references.md)
+- [References](320-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Ссылки](338-ссылки.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _81%_
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md) _60%_
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _48%_
+- [Author & Contact](52-author-contact.md) _48%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _25%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _17%_
+- [10. Appendices](164-10-appendices.md) _17%_
 ## Связанные документы
 
 - [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _53%_

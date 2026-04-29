@@ -57,9 +57,22 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Introduction](06-1-introduction.md)
+- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md)
+- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md)
+- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md) _60%_
+- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _60%_
+- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md) _42%_
 ## Связанные документы
 
 - [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md) _60%_

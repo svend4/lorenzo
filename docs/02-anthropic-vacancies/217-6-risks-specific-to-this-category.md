@@ -260,9 +260,26 @@ emerge.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md)
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md)
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md)
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _42%_
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _29%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
+- [10. Open Questions](221-10-open-questions.md) _21%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _21%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _21%_
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md) _17%_
 ## Связанные документы
 
 - [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _33%_

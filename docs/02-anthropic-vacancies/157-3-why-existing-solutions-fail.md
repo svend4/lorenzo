@@ -185,9 +185,22 @@ is this integration.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Problem Statement](155-1-problem-statement.md)
+- [2. Target Populations](156-2-target-populations.md)
+- [Executive Summary](153-executive-summary.md)
+- [Table of Contents](154-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Executive Summary](153-executive-summary.md) _25%_
+- [1. Problem Statement](155-1-problem-statement.md) _25%_
+- [2. Target Populations](156-2-target-populations.md) _25%_
+- [Table of Contents](154-table-of-contents.md) _17%_
 ## Связанные документы
 
 - [Executive Summary](153-executive-summary.md) _29%_

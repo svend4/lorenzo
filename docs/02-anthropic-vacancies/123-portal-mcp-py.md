@@ -755,9 +755,42 @@ if __name__ == "__main__":
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Security Considerations](23-11-security-considerations.md)
+- [17. Versioning Policy](92-17-versioning-policy.md)
+- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [Abstract](04-abstract.md)
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md)
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md)
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
+- [History](63-history.md)
+- [Planned (v0.2.0)](132-planned-v0-2-0.md)
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [README.md](65-readme-md.md)
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
+- [Yodoca[^yodoca]: консолидация и забывание](../05-habr-projects/memory/yodoca.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Вопрос: fallback-ratio как критический или осмысленный?](110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md)
+- [Синтез: как проекты собираются вместе](../05-habr-projects/01-synthesis.md)
+- [Содержание](190-содержание.md)
+- [Что ты ВСЕГДА делаешь](360-что-ты-всегда-делаешь.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Abstract](04-abstract.md) _37%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _37%_
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _37%_
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _33%_
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _33%_
+- [README.md](65-readme-md.md) _33%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _29%_
+- [Содержание](190-содержание.md) _29%_
 ## Связанные документы
 
 - [README.md](65-readme-md.md) _37%_

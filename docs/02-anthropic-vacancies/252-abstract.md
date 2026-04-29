@@ -71,9 +71,34 @@ in skilled work.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
+- [12. Closing](223-12-closing.md)
+- [13. Closing](266-13-closing.md)
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md)
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md)
+- [Abstract](168-abstract.md)
+- [Abstract](210-abstract.md)
+- [Acknowledgments](267-acknowledgments.md)
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md)
+- [Table of Contents](253-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _48%_
+- [Abstract](210-abstract.md) _29%_
+- [Table of Contents](253-table-of-contents.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _25%_
+- [12. Closing](223-12-closing.md) _25%_
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _25%_
+- [13. Closing](266-13-closing.md) _25%_
 ## Связанные документы
 
 - [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _42%_

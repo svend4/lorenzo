@@ -242,9 +242,32 @@ consensus-based validation across repos.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Query Flow](85-10-query-flow.md)
+- [11. Security Considerations](23-11-security-considerations.md)
+- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md)
+- [2. Terminology](07-2-terminology.md)
+- [2. Terminology](77-2-terminology.md)
+- [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [5. Compatibility Levels](17-5-compatibility-levels.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [🇷🇺 О проекте](67-о-проекте.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [🇷🇺 О проекте](67-о-проекте.md) _29%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _25%_
+- [Author & Contact](42-author-contact.md) _25%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _21%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _21%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _17%_
+- [2. Terminology](07-2-terminology.md) _17%_
+- [Appendix C: References](104-appendix-c-references.md) _17%_
 ## Связанные документы
 
 - [🇷🇺 О проекте](67-о-проекте.md) _33%_

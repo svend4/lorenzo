@@ -116,9 +116,41 @@ flowchart LR
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [04 Ensembles Overview](04-ensembles-overview.md)
+- [06 Security Privacy](06-security-privacy.md)
+- [07 Mvp Planning](07-mvp-planning.md)
+- [09 Architectural Gaps](09-architectural-gaps.md)
+- [11 Integration Contracts](11-integration-contracts.md)
+- [13 Contacts](13-contacts.md)
+- [14 Limitations](14-limitations.md)
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-executive-summary.md)
+- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+- [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [Интеграционный контракт, который стоит зафиксировать сразу](../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [Матрица компонентов Svyazi 2.0](../COMPONENT_MATRIX.md)
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [Ограничения, лицензии и что пока лучше не склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _60%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _48%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _42%_
+- [06 Security Privacy](06-security-privacy.md) _25%_
+- [07 Mvp Planning](07-mvp-planning.md) _25%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _25%_
+- [13 Contacts](13-contacts.md) _25%_
+- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _25%_
 ## Связанные документы
 
 - [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _66%_

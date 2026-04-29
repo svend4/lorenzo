@@ -46,9 +46,29 @@ reasoning.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Angle / Perspective](13-angle-perspective.md)
+- [Angle / Perspective](39-angle-perspective.md)
+- [Angle / Perspective](59-angle-perspective.md)
+- [Compatibility Level](51-compatibility-level.md)
+- [Essence](36-essence.md)
+- [Native Format](47-native-format.md)
+- [Native Format](57-native-format.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Compatibility Level](51-compatibility-level.md) _37%_
+- [Native Format](57-native-format.md) _37%_
+- [Angle / Perspective](59-angle-perspective.md) _37%_
+- [Angle / Perspective](39-angle-perspective.md) _33%_
+- [Bridges](60-bridges.md) _33%_
+- [Essence](36-essence.md) _29%_
+- [passports/pro2.md](45-passports-pro2-md.md) _29%_
+- [Essence](46-essence.md) _29%_
 ## Связанные документы
 
 - [Angle / Perspective](39-angle-perspective.md) _42%_

@@ -67,9 +67,34 @@ when AI augments human practice.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [13. Closing](266-13-closing.md)
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [Abstract](168-abstract.md)
+- [Abstract](252-abstract.md)
+- [Acknowledgments](146-acknowledgments.md)
+- [Acknowledgments](182-acknowledgments.md)
+- [Acknowledgments](224-acknowledgments.md)
+- [Acknowledgments](286-acknowledgments.md)
+- [Acknowledgments](319-acknowledgments.md)
+- [References](287-references.md)
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md)
+- [Why This Document Exists](275-why-this-document-exists.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _37%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _37%_
+- [References](268-references.md) _37%_
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _37%_
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _37%_
+- [Acknowledgments](286-acknowledgments.md) _29%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _25%_
+- [References](287-references.md) _25%_
 ## Связанные документы
 
 - [Acknowledgments](286-acknowledgments.md) _48%_

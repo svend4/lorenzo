@@ -1,10 +1,10 @@
 # CHANGELOG
 
-Всего коммитов: **49**  
-Статистика: ✨ feat: 17 | ⚡ improve: 14 | 🔧 chore: 13 | 🐛 fix: 3 | 📝 docs: 2
+Всего коммитов: **52**  
+Статистика: ✨ feat: 18 | ⚡ improve: 14 | 🔧 chore: 13 | 🐛 fix: 4 | 📝 docs: 3
 
 
-## 2026-04-29 (48 коммитов)
+## 2026-04-29 (51 коммитов)
 
 ### 🔧 Обслуживание
 
@@ -32,12 +32,15 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _8e689b3d_
 - sync PROGRESS.md _4e217f2b_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync PROGRESS.md after adding 16 new scripts _4d237951_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- run all script groups, apply TOC/abstracts/crosslinks, rebuild search index _898c42a0_
+  > - All 7 script groups pass clean (quality, analytics, deeptext, meta, textwork, reports, generate)
 - add component matrix, KPI history tracker, fix run_all coverage _69562b02_
   > - improve_component_matrix.py: 14×10 compatibility matrix (memory/search/
 - add risk register, auto-changelog, master index; fix run_all missing scripts _59617c5d_
@@ -74,6 +77,8 @@
   > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
 ### 🐛 Исправления
 
+- fix 8607 broken internal links, improve health score formula _52179ba5_
+  > - Fixed 8607 broken links (absolute → relative paths via improve_broken_links --fix)
 - fix update-docs CI job failures _42f561dd_
   > Three issues fixed:
 - исправить ошибки в deeptext скриптах, добавить выходные файлы _4755dd94_

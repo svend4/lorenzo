@@ -1,0 +1,83 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/126-установка.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Установка"
+tags:
+  * architecture
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Установка
+
+
+h2. Contents
+
+* [Установка|#установка]
+  * [1. Установить MCP SDK|#1-установить-mcp-sdk]
+  * [2. Проверить, что portal.py работает|#2-проверить-что-portalpy-работает]
+  * [3. Протестировать MCP-обёртку локально|#3-протестировать-mcp-обёртку-локально]
+
+
+
+{quote}Это единственная внешняя зависимость. Сам portal работает без{quote}
+
+----
+
+
+
+
+
+h2. Установка
+
+h3. 1. Установить MCP SDK
+
+{code:language=bash}
+pip install 'mcp>=1.0.0'
+{code}
+
+Это единственная внешняя зависимость. Сам portal работает без 
+внешних библиотек (stdlib only).
+
+h3. 2. Проверить, что portal.py работает
+
+{code:language=bash}
+cd /path/to/nautilus
+python portal.py --query "synthesis"
+{code}
+
+Если выдаёт результаты — portal готов к MCP-интеграции.
+
+h3. 3. Протестировать MCP-обёртку локально
+
+{code:language=bash}
+python portal-mcp.py --warmup
+# Ждёт stdio-input; Ctrl+C для выхода
+{code}
+
+Если в stderr видны логи вроде `[INFO] Portal initialized: 7 
+adapters loaded` — обёртка работает.
+
+
+
+----
+
+_Смотрите также:_
+* [[28-appendix-a-minimal-working-example]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _21%_
+* [[154-table-of-contents|Table of Contents]] _17%_
+* [[326-содержание|Содержание]] _17%_
+* [[63-history|History]] _17%_
+* [[SEE_ALSO|Индекс «Смотрите также»]] _17%_

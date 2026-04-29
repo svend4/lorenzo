@@ -46,9 +46,28 @@ evolution».
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Angle / Perspective](13-angle-perspective.md)
+- [Angle / Perspective](39-angle-perspective.md)
+- [Angle / Perspective](49-angle-perspective.md)
+- [Essence](56-essence.md)
+- [passports/meta.md](55-passports-meta-md.md)
+- [passports/pro2.md](45-passports-pro2-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Angle / Perspective](39-angle-perspective.md) _48%_
+- [passports/pro2.md](45-passports-pro2-md.md) _48%_
+- [passports/meta.md](55-passports-meta-md.md) _48%_
+- [Essence](36-essence.md) _42%_
+- [passports/info1.md](35-passports-info1-md.md) _37%_
+- [Essence](46-essence.md) _37%_
+- [Angle / Perspective](49-angle-perspective.md) _37%_
+- [Essence](56-essence.md) _37%_
 ## Связанные документы
 
 - [Angle / Perspective](39-angle-perspective.md) _37%_

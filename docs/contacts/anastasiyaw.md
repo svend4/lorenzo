@@ -64,9 +64,25 @@ _Создано автоматически: 2026-04-29_
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [contacts](README.md)
+- [Контакт: Sonia_Black / knowledge-space](sonia-black.md)
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md)
+- [Приоритет контактов](../CONTACT_PRIORITY.md)
+## Упоминается в
+
 - [Приоритет контактов](../CONTACT_PRIORITY.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _60%_
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _53%_
+- [Контакт: Antipozitive / MemNet](antipozitive.md) _48%_
+- [Контакт: kksudo / AgentFS](kksudo.md) _37%_
+- [Контакт: spbmolot / NGT Memory](spbmolot.md) _37%_
+- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _37%_
+- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _33%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _33%_
 ## Связанные документы
 
 - [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _73%_

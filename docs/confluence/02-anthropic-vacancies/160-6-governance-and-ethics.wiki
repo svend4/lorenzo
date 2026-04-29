@@ -1,0 +1,178 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/160-6-governance-and-ethics.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 6. Governance and Ethics
+
+
+h2. Содержание
+
+* [Contents|#contents]
+* [6. Governance and Ethics|#6-governance-and-ethics]
+  * [6.1. Governance Structure|#61-governance-structure]
+  * [6.2. Key Ethical Commitments|#62-key-ethical-commitments]
+  * [6.3. Conflict of Interest Management|#63-conflict-of-interest-management]
+  * [6.4. Regulatory Compliance|#64-regulatory-compliance]
+  * [6.5. Ethical Red Lines|#65-ethical-red-lines]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
+
+
+h2. Contents
+
+* [6. Governance and Ethics|#6-governance-and-ethics]
+  * [6.1. Governance Structure|#61-governance-structure]
+  * [6.2. Key Ethical Commitments|#62-key-ethical-commitments]
+  * [6.3. Conflict of Interest Management|#63-conflict-of-interest-management]
+  * [6.4. Regulatory Compliance|#64-regulatory-compliance]
+  * [6.5. Ethical Red Lines|#65-ethical-red-lines]
+
+
+
+{quote}_Board of Directors_ (7 members):{quote}
+
+----
+
+
+
+
+
+h2. 6. Governance and Ethics
+
+h3. 6.1. Governance Structure
+
+_Board of Directors_ (7 members):
+* 2 corporate partners (rotating)
+* 2 foundation representatives (Mozilla-type)
+* 2 contributor representatives (elected by contributors)
+* 1 independent (academic or public policy)
+
+_Executive team_ (3-5 people):
+* Executive Director
+* Technical Director
+* Community Director
+* Legal Director
+
+_Guild councils_: Each guild has elected 3-person council 
+governing internal affairs.
+
+_Contributor assembly_: Annual gathering of all contributors 
+with binding decisional authority on specified matters 
+(stipend minimums, dignity standards, guild boundaries).
+
+h3. 6.2. Key Ethical Commitments
+
+_Commitment 1_: No contributor will be charged fees or 
+subjected to rent-seeking. Foundation takes 0% from contributor 
+earnings.
+
+_Commitment 2_: Contributor intellectual property remains 
+with contributor by default. Specific projects may transfer 
+rights with transparent, negotiated terms.
+
+_Commitment 3_: Anonymization of contributed patterns is 
+voluntary; contributor always retains attribution right.
+
+_Commitment 4_: No algorithmic management. AI assists 
+coordination but final decisions about contributors remain 
+with humans.
+
+_Commitment 5_: Private data (contributors' personal 
+circumstances, health information) remains with contributor. 
+Foundation handles compliance through delegation, not data 
+accumulation.
+
+_Commitment 6_: Transparent operations. Financials, 
+decisions, pattern library, infrastructure all publicly 
+auditable.
+
+_Commitment 7_: Graceful exit. Contributors can leave at 
+any time. Their contributions, reputation, and public patterns 
+remain with foundation. Private data exported on request.
+
+h3. 6.3. Conflict of Interest Management
+
+Corporate partners fund foundation but cannot:
+* Direct specific contributor assignment
+* Access contributor private data
+* Modify pattern library priorities
+* Override governance decisions
+
+Contributors' sponsors contribute capital but receive only:
+* Anonymized patterns (public)
+* Transparency reports (aggregated)
+* Brand association (opt-in)
+* First-look invitations to collaborative projects (not guarantees)
+
+h3. 6.4. Regulatory Compliance
+
+_GDPR_ (EU): Foundation operates as data controller for 
+minimal required personal data. Pattern library governed by 
+GDPR Article 89 (scientific/statistical research) where 
+appropriate. Contributor data sovereignty preserved.
+
+_Employment law_: Foundation-contributor relationship 
+structured as contractor/grantee, not employment. Compliance 
+with each jurisdiction's requirements (consulting tax law 
+firm during setup).
+
+_AI Act_ (EU): Foundation's use of AI in matching, 
+coordination, quality assurance subject to AI Act transparency 
+requirements. Proactive compliance and documentation.
+
+_Disability rights_ (all jurisdictions): Infrastructure 
+explicitly designed for accessibility. Contributor accommodations 
+built into platform rather than retrofitted.
+
+h3. 6.5. Ethical Red Lines
+
+Foundation will not:
+* Support projects intended for military use
+* Accept funding contingent on compromising commitment 1-7
+* Use contributor data for AI training without explicit consent
+* Share contributor private data except as legally required
+* Allow algorithmic decisions to replace human judgment on 
+  dignified issues
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [158-4-proposed-infrastructure|158-4-proposed-infrastructure.md] (сходство 0.14)
+* [164-10-appendices|164-10-appendices.md] (сходство 0.11)
+* [163-9-call-for-partnership|163-9-call-for-partnership.md] (сходство 0.11)
+
+
+
+
+----
+
+_Смотрите также:_
+* [158-4-proposed-infrastructure|158-4-proposed-infrastructure.md]
+* [164-10-appendices|164-10-appendices.md]
+* [163-9-call-for-partnership|163-9-call-for-partnership.md]
+* [161-7-phased-rollout-plan|161-7-phased-rollout-plan.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [9. Call for Partnership|163-9-call-for-partnership.md] _21%_
+* [5. Economic Model|159-5-economic-model.md] _17%_
+* [7. Phased Rollout Plan|161-7-phased-rollout-plan.md] _17%_
+* [10. Appendices|164-10-appendices.md] _17%_
+* [7. Governance and Oversight|176-7-governance-and-oversight.md] _17%_
+* [12. Call for Collaboration|265-12-call-for-collaboration.md] _17%_

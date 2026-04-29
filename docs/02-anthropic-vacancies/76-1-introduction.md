@@ -115,9 +115,19 @@ NPP **не** пытается:
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Introduction](06-1-introduction.md)
+- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md)
+- [Abstract](74-abstract.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [🇷🇺 О проекте](67-о-проекте.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [1. Introduction](06-1-introduction.md) _42%_
 ## Связанные документы
 
 - [1. Introduction](06-1-introduction.md) _53%_

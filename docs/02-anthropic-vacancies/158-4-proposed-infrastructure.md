@@ -250,9 +250,35 @@ Community governance operates:
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Appendices](164-10-appendices.md)
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md)
+- [5. Architectural Specification](174-5-architectural-specification.md)
+- [5. Economic Model](159-5-economic-model.md)
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [6. Governance and Ethics](160-6-governance-and-ethics.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [8. Call to Action](145-8-call-to-action.md)
+- [8. Risk Analysis](162-8-risk-analysis.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [🇬🇧 About](68-about.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _25%_
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _21%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _21%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _21%_
+- [8. Call to Action](145-8-call-to-action.md) _17%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _17%_
 ## Связанные документы
 
 - [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _25%_

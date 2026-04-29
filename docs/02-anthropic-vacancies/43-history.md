@@ -48,9 +48,26 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Content Overview](48-content-overview.md)
+- [History](53-history.md)
+- [History](63-history.md)
+- [Native Format](47-native-format.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Native Format](47-native-format.md) _25%_
+- [Content Overview](48-content-overview.md) _25%_
+- [passports/info1.md](35-passports-info1-md.md) _21%_
+- [Essence](36-essence.md) _21%_
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _21%_
+- [Abstract](04-abstract.md) _17%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _17%_
+- [Content Overview](31-content-overview.md) _17%_
 ## Связанные документы
 
 - [passports/info1.md](35-passports-info1-md.md) _29%_

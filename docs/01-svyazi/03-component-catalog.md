@@ -85,9 +85,30 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [04 Ensembles Overview](04-ensembles-overview.md)
+- [14 Limitations](14-limitations.md)
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Введение](../04-ai-collaborations/00-intro.md)
+- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [Ограничения, лицензии и что пока лучше не склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _66%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _29%_
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _25%_
+- [07 Mvp Planning](07-mvp-planning.md) _21%_
+- [08 Conclusions](08-conclusions.md) _21%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _21%_
+- [10 Second Order Ensembles](10-second-order-ensembles.md) _21%_
 ## Связанные документы
 
 - [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _90%_

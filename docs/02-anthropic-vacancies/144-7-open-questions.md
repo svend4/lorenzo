@@ -171,9 +171,31 @@ requires research.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md)
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md)
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md)
+- [5. Architectural Specification](174-5-architectural-specification.md)
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [6. Ethical Framework](175-6-ethical-framework.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [7. Governance and Oversight](176-7-governance-and-oversight.md)
+- [8. Call to Action](145-8-call-to-action.md)
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md)
+- [Appendix A: Glossary](148-appendix-a-glossary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _25%_
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _25%_
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _21%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [8. Call to Action](145-8-call-to-action.md) _21%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _21%_
 ## Связанные документы
 
 - [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _29%_

@@ -62,6 +62,16 @@ _Создано автоматически: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _90%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _90%_
+- [Контакт: VladSpace / Graph RAG](vladspace.md) _90%_
+- [Контакт: zodigancode / Rufler](zodigancode.md) _90%_
+- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _73%_
+- [Контакт: kksudo / AgentFS](kksudo.md) _73%_
+- [Контакт: spbmolot / NGT Memory](spbmolot.md) _73%_
+- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _73%_
+## Связанные документы
+
 - [Контакт: Cutcode / AIF Handoff](cutcode.md) _81%_
 - [Контакт: Dmitriila / SENTINEL](dmitriila.md) _81%_
 - [Контакт: VladSpace / Graph RAG](vladspace.md) _81%_
@@ -81,3 +91,20 @@ _Создано автоматически: 2026-04-29_
 - [cutcode](cutcode.md)
 - [zodigancode](zodigancode.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [contacts](README.md)
+- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md)
+- [Контакт: Antipozitive / MemNet](antipozitive.md)
+- [Контакт: Cutcode / AIF Handoff](cutcode.md)
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md)
+- [Контакт: Sonia_Black / knowledge-space](sonia-black.md)
+- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md)
+- [Контакт: VladSpace / Graph RAG](vladspace.md)
+- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md)
+- [Контакт: kksudo / AgentFS](kksudo.md)
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md)
+- [Контакт: spbmolot / NGT Memory](spbmolot.md)
+- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md)
+- [Контакт: zodigancode / Rufler](zodigancode.md)

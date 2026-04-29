@@ -32,9 +32,23 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Content Overview](58-content-overview.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Content Overview](12-content-overview.md) _25%_
+- [Content Overview](58-content-overview.md) _21%_
+- [Angle / Perspective](13-angle-perspective.md) _17%_
+- [Content Overview](31-content-overview.md) _17%_
+- [Essence](36-essence.md) _17%_
+- [Angle / Perspective](39-angle-perspective.md) _17%_
+- [Native Format](57-native-format.md) _17%_
+- [Angle / Perspective](59-angle-perspective.md) _17%_
 ## Связанные документы
 
 - [Content Overview](58-content-overview.md) _17%_

@@ -57,9 +57,27 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [15. Glossary of Examples](27-15-glossary-of-examples.md)
+- [Essence](56-essence.md)
+- [passports/info1.md](35-passports-info1-md.md)
+- [passports/meta.md](55-passports-meta-md.md)
+- [passports/pro2.md](45-passports-pro2-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [15. Glossary of Examples](27-15-glossary-of-examples.md) _53%_
+- [passports/info1.md](35-passports-info1-md.md) _29%_
+- [passports/pro2.md](45-passports-pro2-md.md) _29%_
+- [passports/meta.md](55-passports-meta-md.md) _29%_
+- [Essence](46-essence.md) _25%_
+- [Essence](56-essence.md) _21%_
+- [Essence](36-essence.md) _17%_
+- [Angle / Perspective](59-angle-perspective.md) _17%_
 ## Связанные документы
 
 - [15. Glossary of Examples](27-15-glossary-of-examples.md) _66%_

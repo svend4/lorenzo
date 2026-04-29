@@ -106,9 +106,57 @@ class MyNotesAdapter(BaseAdapter):
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
+- [9. Query Flow](21-9-query-flow.md)
+- [Abstract](04-abstract.md)
+- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md)
+- [Appendix B: Change Log](103-appendix-b-change-log.md)
+- [Appendix B: Sub-Agent Registry Schema (Sketch)](270-appendix-b-sub-agent-registry-schema-sketch.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [Bridges](60-bridges.md)
+- [Compatibility Level](41-compatibility-level.md)
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md)
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md)
+- [History](63-history.md)
+- [Planned (v0.2.0)](132-planned-v0-2-0.md)
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [README.md](65-readme-md.md)
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
+- [Table of Contents](154-table-of-contents.md)
+- [portal-mcp.py](123-portal-mcp-py.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+- [Зачем две версии параллельно](70-зачем-две-версии-параллельно.md)
+- [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md)
+- [Критерии выбора для фазы 3](71-критерии-выбора-для-фазы-3.md)
+- [Ограничения текущей версии (0.1.0-draft)](131-ограничения-текущей-версии-0-1-0-draft.md)
+- [Отладка](130-отладка.md)
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md)
+- [Содержание](190-содержание.md)
+- [Содержание](326-содержание.md)
+- [Установка](126-установка.md)
+- [Что ты ВСЕГДА делаешь](360-что-ты-всегда-делаешь.md)
+- [⬡](69-section.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _60%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _42%_
+- [portal-mcp.py](123-portal-mcp-py.md) _37%_
+- [Abstract](04-abstract.md) _33%_
+- [Содержание](190-содержание.md) _33%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _33%_
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _33%_
+- [README.md](65-readme-md.md) _33%_
 ## Связанные документы
 
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _60%_

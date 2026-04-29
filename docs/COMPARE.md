@@ -1,10 +1,10 @@
 # Сравнение с предыдущим коммитом
 
-**Файлов было:** 347  **стало:** 527  
-**Слов было:** 241,297  **стало:** 530,933  **Δ:** +289,636
+**Файлов было:** 384  **стало:** 1053  
+**Слов было:** 361,686  **стало:** 1,126,282  **Δ:** +764,596
 
 
-## Новые файлы (180)
+## Новые файлы (669)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19103 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3181 слов)
@@ -22,13 +22,13 @@
 - `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` (258 слов)
 - `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` (176 слов)
 - `docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md` (292 слов)
-- `docs/02-anthropic-vacancies/120-главные-технические-риски.md` (101 слов)
+- `docs/02-anthropic-vacancies/120-главные-технические-риски.md` (119 слов)
 - `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` (78 слов)
 - `docs/02-anthropic-vacancies/122-глоссарий.md` (1302 слов)
 - `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` (212 слов)
 - `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` (152 слов)
 - `docs/02-anthropic-vacancies/126-установка.md` (169 слов)
-- `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` (173 слов)
+- `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` (177 слов)
 - `docs/02-anthropic-vacancies/128-доступные-инструменты.md` (204 слов)
 - `docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md` (176 слов)
 - `docs/02-anthropic-vacancies/130-отладка.md` (205 слов)
@@ -46,42 +46,42 @@
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (492 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (399 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (634 слов)
-_...и ещё 140_
+_...и ещё 629_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (343) — топ по Δ слов
+## Изменившиеся файлы (374) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `TABLES.md` | 15654 | 63292 | +47638 |
-| `README.md` | 3693 | 2162 | -1531 |
-| `SEARCH.md` | 3524 | 4370 | +846 |
-| `ACTION_ITEMS.md` | 5816 | 6656 | +840 |
-| `SITEMAP.md` | 1449 | 2206 | +757 |
-| `CHANGELOG.md` | 197 | 888 | +691 |
-| `README.md` | 54 | 622 | +568 |
-| `QA.md` | 1521 | 979 | -542 |
-| `WORD_FREQ.md` | 1262 | 1790 | +528 |
-| `CLUSTERS.md` | 1231 | 1612 | +381 |
-| `LINKS.md` | 647 | 969 | +322 |
-| `CHANGELOG_AUTO.md` | 322 | 627 | +305 |
-| `BROKEN_LINKS.md` | 438 | 726 | +288 |
-| `RISK_REGISTER.md` | 785 | 1043 | +258 |
-| `README.md` | 345 | 113 | -232 |
-| `README.md` | 330 | 126 | -204 |
-| `177-8-risks-and-mitigations.md` | 471 | 666 | +195 |
-| `178-9-phased-rollout-strategy.md` | 452 | 636 | +184 |
-| `264-11-open-questions.md` | 455 | 638 | +183 |
-| `00-intro.md` | 11272 | 11445 | +173 |
-| `INDEX.md` | 514 | 685 | +171 |
-| `317-9-risks-and-open-questions.md` | 484 | 653 | +169 |
-| `163-9-call-for-partnership.md` | 443 | 610 | +167 |
-| `DEPENDENCY_MAP.md` | 508 | 675 | +167 |
-| `01-executive-summary.md` | 481 | 647 | +166 |
-| `175-6-ethical-framework.md` | 446 | 611 | +165 |
-| `ngt-memory.md` | 255 | 419 | +164 |
-| `wikontic.md` | 144 | 306 | +162 |
-| `316-8-implications-for-nautilus-and-okwf.md` | 539 | 696 | +157 |
-| `314-6-refined-ingit-scope-with-cowork-in-mind.md` | 364 | 513 | +149 |
+| `TABLES.md` | 63292 | 116145 | +52853 |
+| `READABILITY.md` | 7981 | 15848 | +7867 |
+| `OUTLINE.md` | 14228 | 16807 | +2579 |
+| `TIMELINE.md` | 1789 | 4230 | +2441 |
+| `DUPLICATES.md` | 133 | 2341 | +2208 |
+| `PARAGRAPH_QUALITY.md` | 4532 | 6705 | +2173 |
+| `CODE_BLOCKS.md` | 3658 | 4855 | +1197 |
+| `SITEMAP.md` | 2130 | 3175 | +1045 |
+| `GITHUB_ISSUES.md` | 884 | 1928 | +1044 |
+| `ACTION_ITEMS.md` | 6656 | 7144 | +488 |
+| `DEPENDENCY_MAP.md` | 675 | 1030 | +355 |
+| `CONTRADICTIONS.md` | 1209 | 1558 | +349 |
+| `QA.md` | 1028 | 1310 | +282 |
+| `NAMED_ENTITIES.md` | 1399 | 1589 | +190 |
+| `BACKLINKS.md` | 339 | 459 | +120 |
+| `SPELLCHECK.md` | 143 | 248 | +105 |
+| `WORD_FREQ.md` | 1790 | 1882 | +92 |
+| `READING_TIME.md` | 5769 | 5853 | +84 |
+| `INDEX.md` | 699 | 616 | -83 |
+| `VALIDATION.md` | 387 | 467 | +80 |
+| `SOURCE_MAP.md` | 2895 | 2970 | +75 |
+| `CITATION_INDEX.md` | 830 | 902 | +72 |
+| `VOCABULARY.md` | 882 | 947 | +65 |
+| `CHANGELOG.md` | 888 | 945 | +57 |
+| `314-6-refined-ingit-scope-with-cowork-in-mind.md` | 513 | 569 | +56 |
+| `README.md` | 622 | 673 | +51 |
+| `PRIORITIES.md` | 1151 | 1199 | +48 |
+| `SCHEDULE.md` | 271 | 318 | +47 |
+| `COST.md` | 599 | 554 | -45 |
+| `QA.md` | 268 | 226 | -42 |

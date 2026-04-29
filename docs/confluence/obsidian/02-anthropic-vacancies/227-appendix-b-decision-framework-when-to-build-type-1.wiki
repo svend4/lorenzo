@@ -1,0 +1,98 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Appendix B: Decision Framework — When to Build Type 1 First"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Appendix B: Decision Framework — When to Build Type 1 First
+
+
+{quote}For an organization deciding whether to build a Professional{quote}
+
+----
+
+
+
+
+
+h2. Appendix B: Decision Framework — When to Build Type 1 First
+
+For an organization deciding whether to build a Professional
+Colleague Agent vs. another type:
+
+_Choose Type 1 (Professional Colleague Agent) when:_
+* Profession has well-defined standardized practices
+* Practitioners face significant routine burden
+* Professional context is encodable in knowledge base
+* No strong external communication requirement
+* Regulatory environment for profession is clearer than for AI
+
+_Choose Type 0 (Personal AI Assistant) when:_
+* Use case is general-purpose, not profession-specific
+* User has no specific professional context to embed
+* Mass-market consumer product
+
+_Choose Type 2 (Institutional Agent) when:_
+* Institution has specific data/process integration needs
+* Institutional rules are central to value delivery
+* Per-institution customization is expected and accepted
+
+_Choose Type 3 (Employee Agent) when:_
+* Routine task can be cleanly delegated
+* Liability framework permits autonomous action
+* Quality of routine outputs is verifiable
+
+_Choose Type 4 (Representative Agent) when:_
+* Individual users need market navigation
+* Personal context is rich and unique
+* Long-term career-arc representation is valuable
+* Trust infrastructure is mature
+
+For most foundation-funded deployments serving professional
+populations, Type 1 is the right starting point.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[226-appendix-a-comparative-table-five-agent-types]] (сходство 0.18)
+* [[269-appendix-a-the-six-type-taxonomy-updated]] (сходство 0.13)
+* [[220-9-relationship-to-other-agent-types]] (сходство 0.13)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[226-appendix-a-comparative-table-five-agent-types]]
+* [[269-appendix-a-the-six-type-taxonomy-updated]]
+* [[220-9-relationship-to-other-agent-types]]
+* [[212-1-the-five-type-typology-of-principal-side-agents]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] _66%_
+* [[226-appendix-a-comparative-table-five-agent-types|Appendix A: Comparative Table — Five Agent Types]] _37%_
+* [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _29%_
+* [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _29%_
+* [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _29%_
+* [[223-12-closing|12. Closing]] _29%_
+* [[210-abstract|Abstract]] _25%_
+* [[211-table-of-contents|Table of Contents]] _25%_

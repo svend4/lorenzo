@@ -169,9 +169,23 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Security Considerations](23-11-security-considerations.md)
+- [15. Security Considerations](90-15-security-considerations.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Доступные инструменты](128-доступные-инструменты.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [11. Security Considerations](23-11-security-considerations.md) _33%_
+- [15. Security Considerations](90-15-security-considerations.md) _25%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _17%_
+- [Доступные инструменты](128-доступные-инструменты.md) _17%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _17%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _17%_
 ## Связанные документы
 
 - [Доступные инструменты](128-доступные-инструменты.md) _29%_

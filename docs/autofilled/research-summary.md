@@ -59,6 +59,18 @@ _Создано: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
+- [[Тема исследования]](../templates/research-note.md) _37%_
+## Связанные документы
+
 - [[Тема исследования]](docs/templates/research-note.md) _100%_
 - [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md) _17%_
 - [[Название компонента]](docs/templates/project-component.md) _17%_
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[Тема исследования]](../templates/research-note.md)
+- [autofilled](README.md)
+- [Автозаполненные шаблоны](../AUTOFILLED.md)
+- [Ансамбль: [Название]](../templates/ensemble.md)
+- [Шаблоны документов](../templates/README.md)

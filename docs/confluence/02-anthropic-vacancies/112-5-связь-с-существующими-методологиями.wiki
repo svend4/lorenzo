@@ -1,0 +1,106 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 5. Связь с существующими методологиями
+
+
+h2. Contents
+
+* [5. Связь с существующими методологиями|#5-связь-с-существующими-методологиями]
+  * [5.1. N-Version Programming|#51-n-version-programming]
+  * [5.2. Paired Reviews (Academia)|#52-paired-reviews-academia]
+  * [5.3. Consensus ML Ensembles|#53-consensus-ml-ensembles]
+  * [5.4. Red Team / Blue Team|#54-red-team-blue-team]
+  * [5.5. Новое в данной методологии|#55-новое-в-данной-методологии]
+
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
+{quote}Теоретическим прародителем является _N-version programming_{quote}
+
+----
+
+
+
+
+
+h2. 5. Связь с существующими методологиями
+
+h3. 5.1. N-Version Programming
+
+Теоретическим прародителем является _N-version programming_ 
+(Chen & Avizienis, 1977–78) — написание нескольких независимых 
+имплементаций одной спецификации для повышения reliability. 
+Использовалось в safety-critical systems (Boeing, NASA).
+
+Отличия:
+
+* N-version programming: про код, цель — fault-tolerance
+* Трёхфазная методология: про документацию, цель — completeness 
+  of insights
+
+h3. 5.2. Paired Reviews (Academia)
+
+В академической рецензии две независимые peer reviews могут 
+_противоречить друг другу_. Meta-reviewer (editor) должен 
+разрешить противоречие. Структура похожая: two independent → 
+consolidation.
+
+Отличия:
+
+* Academic review: A и B — оценки (accept / reject / major revision)
+* Наша методология: A и B — конструктивные версии документа
+
+h3. 5.3. Consensus ML Ensembles
+
+В ML используется _ensemble methods_: несколько моделей → voting 
+или averaging. Это разрешение через числовой механизм.
+
+Отличия:
+
+* ML ensembles: разрешение автоматическое, по правилу
+* Наша методология: разрешение ручное, через правила 1-5
+
+h3. 5.4. Red Team / Blue Team
+
+В security и public policy используется структура _red vs blue_: 
+один агент критикует, другой защищает. Meta-reviewer interpretates.
+
+Отличия:
+
+* Red/Blue: agents имеют разные роли (adversarial)
+* Наша методология: agents имеют одну роль, независимость 
+  исполнения (convergent)
+
+h3. 5.5. Новое в данной методологии
+
+Комбинация следующих свойств _не описана_ в известной 
+литературе:
+
+1. Применение к AI-assisted documentation (а не к человеческой 
+   работе)
+2. Сохранение параллельных версий в main (а не в отдельных ветках)
+3. Явный transitional state с документированным header warning
+4. Decision tree для ручной консолидации (правила 1-5)
+
+Это делает методологию _потенциально публикационной_.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [115-8-ограничения-и-открытые-вопросы|115-8-ограничения-и-открытые-вопросы.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]

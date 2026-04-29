@@ -69,9 +69,36 @@ collaboration
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md)
+- [Abstract](307-abstract.md)
+- [Acknowledgments](286-acknowledgments.md)
+- [Acknowledgments](319-acknowledgments.md)
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md)
+- [References](147-references.md)
+- [References](268-references.md)
+- [References](287-references.md)
+- [References](320-references.md)
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md)
+- [Ссылки](338-ссылки.md)
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _73%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _66%_
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md) _53%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _48%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _42%_
+- [Acknowledgments](224-acknowledgments.md) _37%_
+- [Acknowledgments](267-acknowledgments.md) _37%_
+- [Acknowledgments](146-acknowledgments.md) _33%_
 ## Связанные документы
 
 - [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _66%_

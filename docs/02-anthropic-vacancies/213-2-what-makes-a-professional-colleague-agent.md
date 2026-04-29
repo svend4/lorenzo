@@ -171,9 +171,35 @@ to discuss work with."
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [10. Open Questions](221-10-open-questions.md)
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md)
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md)
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md)
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md)
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md)
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md)
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md)
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md)
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md)
+- [Table of Contents](211-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Кто ты](345-кто-ты.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](211-table-of-contents.md) _60%_
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _53%_
+- [Abstract](210-abstract.md) _42%_
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _42%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _37%_
+- [12. Closing](223-12-closing.md) _33%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _29%_
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _29%_
 ## Связанные документы
 
 - [Table of Contents](211-table-of-contents.md) _42%_

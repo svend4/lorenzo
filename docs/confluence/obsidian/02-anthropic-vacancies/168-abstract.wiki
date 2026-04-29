@@ -1,0 +1,98 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/168-abstract.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Abstract"
+tags:
+  * architecture
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Abstract
+
+
+{quote}We introduce the _Representative Agent Layer_ — an architectural{quote}
+
+----
+
+
+
+
+
+h2. Abstract
+
+We introduce the _Representative Agent Layer_ — an architectural 
+pattern in which AI systems serve as proactive representatives 
+for individuals or groups who lack the capacity, resources, or 
+inclination to represent themselves in attention markets. 
+Building on the Double-Triangle Architecture and OKWF 
+infrastructure proposals, we extend the concept of personal AI 
+assistants from _work execution helpers_ to **market navigation 
+advocates** that handle visibility, opportunity discovery, 
+negotiation, and protection on behalf of their human principals.
+
+We identify ten distinct categories of populations and contexts 
+where Representative Agents have transformative potential, 
+ranging from highly-qualified invisible experts (the original 
+motivating case) to social workers managing welfare recipients, 
+caregivers managing dependents, small business owners managing 
+customer relations, and citizens navigating bureaucratic 
+institutions. Each category exhibits the same structural 
+problem: **gap between value created or held and capacity to 
+make that value visible to relevant counterparties**.
+
+We propose architectural specifications, ethical commitments, 
+governance structures, and rollout pathways. We argue that 
+Representative Agents constitute a **new category of AI 
+infrastructure** distinct from existing personal assistants 
+(which serve work execution) and multi-agent systems (which 
+replace humans). This infrastructure is technically feasible 
+today, economically viable through foundation models or 
+shared-cost structures, and morally urgent given growing 
+information asymmetries in modern attention economies.
+
+This paper invites collaboration on architecture, deployments, 
+and governance from researchers, practitioners, social 
+service organizations, civil society, and policymakers.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[210-abstract]] (сходство 0.16)
+* [[223-12-closing]] (сходство 0.15)
+* [[252-abstract]] (сходство 0.14)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[210-abstract]]
+* [[223-12-closing]]
+* [[252-abstract]]
+* [[180-11-call-for-collaboration]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[210-abstract|Abstract]] _29%_
+* [[267-acknowledgments|Acknowledgments]] _29%_
+* [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _25%_
+* [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _25%_
+* [[174-5-architectural-specification|5. Architectural Specification]] _25%_
+* [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _25%_
+* [[266-13-closing|13. Closing]] _25%_
+* [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _25%_

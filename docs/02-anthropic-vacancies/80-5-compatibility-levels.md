@@ -102,9 +102,24 @@ Portal возвращает static entries.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [5. Compatibility Levels](17-5-compatibility-levels.md)
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _42%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _29%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _25%_
+- [2. Terminology](07-2-terminology.md) _21%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+- [Compatibility Level](41-compatibility-level.md) _21%_
 ## Связанные документы
 
 - [5. Compatibility Levels](17-5-compatibility-levels.md) _48%_

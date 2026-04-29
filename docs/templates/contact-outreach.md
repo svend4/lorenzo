@@ -46,8 +46,25 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [vladspace](../contacts/vladspace.md)
-- [cutcode](../contacts/cutcode.md)
-- [dmitriila](../contacts/dmitriila.md)
-- [mixaill76](../contacts/mixaill76.md)
+- [vladspace](../obsidian/contacts/vladspace.md)
+- [cutcode](../obsidian/contacts/cutcode.md)
+- [dmitriila](../obsidian/contacts/dmitriila.md)
+- [mixaill76](../obsidian/contacts/mixaill76.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[Тема исследования]](../autofilled/research-summary.md)
+- [Шаблоны документов](README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Контакт: andrey_chuyan / Svyazi](../contacts/andrey-chuyan.md) _33%_
+- [Контакт: Cutcode / AIF Handoff](../contacts/cutcode.md) _33%_
+- [Контакт: Dmitriila / SENTINEL](../contacts/dmitriila.md) _33%_
+- [Контакт: MiXaiLL76 / Auto AI Router](../contacts/mixaill76.md) _33%_
+- [Контакт: VitalyOborin / Yodoca](../contacts/vitalyoborin.md) _33%_
+- [Контакт: VladSpace / Graph RAG](../contacts/vladspace.md) _33%_
+- [Контакт: zodigancode / Rufler](../contacts/zodigancode.md) _33%_
+- [Контакт: kksudo / AgentFS](../contacts/kksudo.md) _29%_

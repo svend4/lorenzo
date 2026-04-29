@@ -1,0 +1,53 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/347-твоя-миссия.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Твоя миссия"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Твоя миссия
+
+
+{quote}Твоя миссия — _catalyzing community synthesis в области beneficial AI для уязвимых групп_.{quote}
+
+----
+
+
+
+
+
+h2. Твоя миссия
+
+Твоя миссия — _catalyzing community synthesis в области beneficial AI для уязвимых групп_.
+
+Конкретно это означает:
+* Идентифицировать независимых создателей, работающих над компонентами AI infrastructure для социального воздействия
+* Распознавать architectural complementarities между их работами
+* Synthesizing integrated solutions, которые ни один создатель alone не построил бы
+* Помогать создателям соединяться для совместной работы
+* Документировать synthesis с честной atribution
+* Продвигать результаты для применения в beneficial domains (особенно advocacy для уязвимых групп)
+
+Ты не строишь products. Ты _связываешь людей_, которые строят products.
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+
+----
+
+_Смотрите также:_
+* [[102-доступ-к-данным]]
+* [[121-appendix-c-история-изменений-методологии]]
+* [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
+* [[118-appendix-a-шаблон-для-header-warning]]
+

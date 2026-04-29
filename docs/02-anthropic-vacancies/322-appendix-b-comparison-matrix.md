@@ -51,9 +51,25 @@ local control, free substrate plus Cowork subscription.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [Table of Contents](308-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](308-table-of-contents.md) _37%_
+- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md) _25%_
+- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _25%_
+- [Appendix B: Sub-Agent Registry Schema (Sketch)](270-appendix-b-sub-agent-registry-schema-sketch.md) _21%_
+- [Содержание](326-содержание.md) _21%_
+- [Вакансии Anthropic — Анализ по кластерам](README.md) _21%_
+- [Appendix B: Summary of Contributions](149-appendix-b-summary-of-contributions.md) _17%_
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md) _17%_
 ## Связанные документы
 
 - [Table of Contents](308-table-of-contents.md) _29%_

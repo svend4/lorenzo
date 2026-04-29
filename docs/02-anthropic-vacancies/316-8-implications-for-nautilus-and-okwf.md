@@ -176,9 +176,39 @@ implementable starting next week.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Appendices](164-10-appendices.md)
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [10. Стратегическое Позиционирование](336-10-стратегическое-позиционирование.md)
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md)
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md)
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
+- [8. Импликации для Nautilus и OKWF](334-8-импликации-для-nautilus-и-okwf.md)
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Abstract](307-abstract.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Final note: Ты — experiment](364-final-note-ты-experiment.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _25%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _25%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _25%_
+- [Abstract](307-abstract.md) _21%_
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _21%_
+- [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](344-системный-промпт-для-lorenzo-project.md) _21%_
 ## Связанные документы
 
 - [10. Strategic Positioning](318-10-strategic-positioning.md) _33%_

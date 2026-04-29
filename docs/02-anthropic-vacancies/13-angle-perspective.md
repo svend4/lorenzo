@@ -24,9 +24,29 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Angle / Perspective](39-angle-perspective.md)
+- [Angle / Perspective](49-angle-perspective.md)
+- [Angle / Perspective](59-angle-perspective.md)
+- [Content Overview](12-content-overview.md)
+- [Content Overview](31-content-overview.md)
+- [Content Overview](38-content-overview.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Приложение B: Матрица Сравнения Областей](206-приложение-b-матрица-сравнения-областей.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Content Overview](12-content-overview.md) _48%_
+- [Content Overview](31-content-overview.md) _33%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _25%_
+- [Angle / Perspective](39-angle-perspective.md) _25%_
+- [REPRESENTATIVE AGENT LAYER.md](166-representative-agent-layer-md.md) _21%_
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md) _21%_
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) _21%_
+- [Essence](36-essence.md) _21%_
 ## Связанные документы
 
 - [Angle / Perspective](39-angle-perspective.md) _30%_

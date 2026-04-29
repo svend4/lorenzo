@@ -48,9 +48,30 @@ Mixture-of-Experts routing (v53–v61).
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [15. Glossary of Examples](27-15-glossary-of-examples.md)
+- [Angle / Perspective](39-angle-perspective.md)
+- [Essence](36-essence.md)
+- [Essence](56-essence.md)
+- [History](43-history.md)
+- [passports/info1.md](35-passports-info1-md.md)
+- [passports/meta.md](55-passports-meta-md.md)
+- [passports/pro2.md](45-passports-pro2-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [passports/pro2.md](45-passports-pro2-md.md) _53%_
+- [passports/meta.md](55-passports-meta-md.md) _53%_
+- [passports/info1.md](35-passports-info1-md.md) _48%_
+- [Essence](56-essence.md) _48%_
+- [15. Glossary of Examples](27-15-glossary-of-examples.md) _42%_
+- [Essence](36-essence.md) _37%_
+- [Angle / Perspective](59-angle-perspective.md) _37%_
+- [Angle / Perspective](39-angle-perspective.md) _29%_
 ## Связанные документы
 
 - [passports/pro2.md](45-passports-pro2-md.md) _42%_

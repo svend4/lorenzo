@@ -236,9 +236,37 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md)
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md)
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md)
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Final note: Ты — experiment](364-final-note-ты-experiment.md)
+- [References](225-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md)
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [Развёрнутый анализ «внуковой» комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
+- [Что этот документ не решает](298-что-этот-документ-не-решает.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _29%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _29%_
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _25%_
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _25%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _25%_
+- [12. Closing](223-12-closing.md) _25%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _25%_
+- [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](344-системный-промпт-для-lorenzo-project.md) _25%_
 ## Связанные документы
 
 - [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _37%_

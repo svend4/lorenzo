@@ -178,9 +178,23 @@ funding or modest practitioner contribution.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md)
+- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md)
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md)
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _33%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _25%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _21%_
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _17%_
 ## Связанные документы
 
 - [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _29%_

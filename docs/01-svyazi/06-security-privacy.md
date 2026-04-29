@@ -91,9 +91,28 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [03 Component Catalog](03-component-catalog.md)
+- [09 Architectural Gaps](09-architectural-gaps.md)
+- [12 Roadmap](12-roadmap.md)
+- [14 Limitations](14-limitations.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) _48%_
+- [07 Mvp Planning](07-mvp-planning.md) _29%_
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md) _29%_
+- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _29%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _25%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _25%_
+- [10 Second Order Ensembles](10-second-order-ensembles.md) _25%_
+- [12 Roadmap](12-roadmap.md) _25%_
 ## Связанные документы
 
 - [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) _60%_

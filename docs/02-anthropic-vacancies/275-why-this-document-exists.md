@@ -68,9 +68,30 @@ This document explores that observation.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Acknowledgments](286-acknowledgments.md)
+- [Closing](285-closing.md)
+- [References](320-references.md)
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md)
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md)
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md)
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md)
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md) _37%_
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _33%_
+- [Acknowledgments](286-acknowledgments.md) _33%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _29%_
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _29%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _25%_
+- [References](287-references.md) _25%_
+- [Acknowledgments](319-acknowledgments.md) _21%_
 ## Связанные документы
 
 - [Acknowledgments](286-acknowledgments.md) _42%_

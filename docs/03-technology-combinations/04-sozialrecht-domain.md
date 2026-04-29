@@ -35,4 +35,8 @@ Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PD
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Агентные системы и роутинг](01-agent-routing.md)
+- [Комбинирование технологий для новых свойств](README.md)
+## Упоминается в
+
 - [Комбинирование технологий для новых свойств](../README.md)

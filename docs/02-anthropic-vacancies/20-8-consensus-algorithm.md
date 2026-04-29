@@ -93,9 +93,18 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Relevance Ranking](86-11-relevance-ranking.md)
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md) _42%_
+- [11. Relevance Ranking](86-11-relevance-ranking.md) _17%_
 ## Связанные документы
 
 - [9. Consensus Algorithm](84-9-consensus-algorithm.md) _53%_

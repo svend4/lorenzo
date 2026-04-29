@@ -170,9 +170,32 @@ Contact: via GitHub issues at
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Call for Collaboration](222-11-call-for-collaboration.md)
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [9. Call for Partnership](163-9-call-for-partnership.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Abstract](136-abstract.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Executive Summary](153-executive-summary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _37%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _21%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _17%_
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _17%_
+- [Abstract](168-abstract.md) _17%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _17%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
 ## Связанные документы
 
 - [Abstract](136-abstract.md) _33%_

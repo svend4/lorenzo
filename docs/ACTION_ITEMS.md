@@ -7,10 +7,10 @@
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 744
+**Всего элементов:** 1528
 
 
-## ➡️ Следующие шаги (97)
+## ➡️ Следующие шаги (193)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -168,10 +168,12 @@
   _→ RISK_REGISTER_
 - как InGit | `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |  
   _→ TABLES_
+- _→ [[342-что-такое-вариант-c-concept-document-для-anthropic]]_  
+  _→ CONCEPTS_
 
-_(19 дублей скрыто)_
+_(114 дублей скрыто)_
 
-## ✅ Решения и рекомендации (153)
+## ✅ Решения и рекомендации (318)
 
 - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идёт  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -291,7 +293,7 @@ _(19 дублей скрыто)_
   _→ 207-приложение-c-образцы-случаев-использования-в-детал_
 - — построить специализированный агент, который уже знает контекст учителя: ФГОСы, классы, уровни сложности, методические рекомендации. Учителю не нужно  
   _→ 207-приложение-c-образцы-случаев-использования-в-детал_
-- Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_  
+- Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_  
   _→ 212-1-the-five-type-typology-of-principal-side-agents_
 - Framework — When to Build Type 1 First  
   _→ 227-appendix-b-decision-framework-when-to-build-type-1_
@@ -301,7 +303,7 @@ _(19 дублей скрыто)_
   _→ 257-4-the-sub-agent-registry_
 - ** Выбрана federation.  
   _→ 26-14-adr-001-federation-over-merging_
-- Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) _48%_  
+- Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _48%_  
   _→ 270-appendix-b-sub-agent-registry-schema-sketch_
 - скрывает суждения от principal  
   _→ 272-appendix-d-connection-diagram_
@@ -365,24 +367,70 @@ _(19 дублей скрыто)_
   _→ CONTENT_GAPS_
 - создать документы  
   _→ CONTENT_GAPS_
+- прочитать в первую очередь. <!--…  
+  _→ NARRATIVE_
+- Framework — When to Build Type 1 First](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-framew  
+  _→ OUTLINE_
+- Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters02-an  
+  _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
-- Framework — When to Buil](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 328 | — |  
+- Framework — When to Buil](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 332 | — |  
   _→ READING_ORDER_
+- Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) | 241 | — |  
+  _→ READING_ORDER_
+- Framework — When to Buil](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 328 | — |  
+  _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `docs/04-ai-collaborations/00-intro.md` |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `docs/05-habr-projects/memory/memnet.md` |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года примен | `docs/TABLES.md` |  
-  _→ TIMELINE_
+  _→ TABLES_
+- создать документы](#26-рекомендуется-создать-документы)  
+  _→ TABLES_
 - исправить.  
   _→ VALIDATION_
+- Framework — When to Build Type 1 First]] _29%_  
+  _→ 212-1-the-five-type-typology-of-principal-side-agents_
+- Framework — When to Build Type 1 First]] _37%_  
+  _→ 226-appendix-a-comparative-table-five-agent-types_
+- Framework — When to Build Type 1 First"  
+  _→ 227-appendix-b-decision-framework-when-to-build-type-1_
+- Framework — When to Build Type 1 First]] _66%_  
+  _→ 269-appendix-a-the-six-type-taxonomy-updated_
+- Tree for InGit Adopters]] _48%_  
+  _→ 270-appendix-b-sub-agent-registry-schema-sketch_
+- Tree for InGit Adopters]] _29%_  
+  _→ 271-appendix-c-configuration-template-example_
+- Tree for InGit Adopters"  
+  _→ 321-appendix-a-decision-tree-for-ingit-adopters_
+- Tree for InGit Adopters]] _25%_  
+  _→ 322-appendix-b-comparison-matrix_
+- Framework — When to Build Type 1 First]] _17%_  
+  _→ 345-кто-ты_
+- Framework — When to Build Type 1 First]]](#227-appendix-b-decision-framework-when-to-build-type-1appendix-b-decision-framework-when-to-build-type-1-fi  
+  _→ OUTLINE_
+- Tree for InGit Adopters]]](#321-appendix-a-decision-tree-for-ingit-adoptersappendix-a-decision-tree-for-ingit-adopters)  
+  _→ OUTLINE_
+- Framework — When to Build Type 1 First]]  
+  _→ OUTLINE_
+- Tree for InGit Adopters]]  
+  _→ OUTLINE_
+- Framework — When to Buil]] | 332 | — |  
+  _→ READING_ORDER_
+- Tree for InGit Adopters]] | 241 | — |  
+  _→ READING_ORDER_
+- Framework — When to Buil]] | 328 | — |  
+  _→ TABLES_
+- - templates  
+  _→ decision-record_
 - **Выбрано:** [Вариант X]  
   _→ decision-record_
 
-_(50 дублей скрыто)_
+_(192 дублей скрыто)_
 
-## ⚠️ Риски (312)
+## ⚠️ Риски (638)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -450,7 +498,7 @@ _(50 дублей скрыто)_
   _→ 150-appendix-c-version-history_
 - Analysis**  
   _→ 154-table-of-contents_
-- Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md) _17%_  
+- Analysis](162-8-risk-analysis.md) _17%_  
   _→ 159-5-economic-model_
 - mitigations**:  
   _→ 161-7-phased-rollout-plan_
@@ -812,7 +860,7 @@ _(50 дублей скрыто)_
   _→ 00-intro_
 - не на один классификатор, а на специализированные guards: LLM Guard, RAG Guard, Agent Guard, Tool Guard, MCP Guard и API Guard; RAG Guard проверяет po  
   _→ 00-intro_
-- склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) _21%_  
+- склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) _21%_  
   _→ 00-intro_
 - собирать в один релиз. Это продолжение поэтому сосредоточено на трёх вещах: архитектурных зазорах, новых ансамблях следу  
   _→ 08-что-это-продолжение-добавляет_
@@ -828,35 +876,31 @@ _(50 дублей скрыто)_
   _→ CLUSTERS_
 - mitigations**  
   _→ CONCEPTS_
-- 5: Burnout. Проект … | 60 |  
-  _→ COST_
 - | Senior Python Dev | 2 | $6,800 |  
   _→ COST_
 - mitigation для каждой. Полезно для grant  
   _→ DECISIONS_
-- (1)](#безопасность-1)  
-  _→ DECISIONS_
-- | `root` | 58% |  
+- | `root` | 79% |  
   _→ DENSITY_
 - register, auto-changelog, master index; fix run_all mis |  
   _→ DIGEST_
-- и allowlist для MCP | 16 |  
+- и allowlist для MCP | 0 |  
   _→ FOOTNOTES_
-- | ██ 7.7 | 0.4 | 0.4 | ▒▒ 4.1 | 0.1 |  
+- | ██ 7.6 | 0.4 | 0.4 | ▒▒ 4.1 | 0.1 |  
   _→ HEATMAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
-- того, что через две недели **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, LiteParse, Legal RAG, Hybrid RAG --- <!-- tags: memory, rag,  
+- того, что через две недели **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, LiteParse, Legal RAG[^rag], Hy  
   _→ NARRATIVE_
-- Regulatory Complexity Deployment Readiness  
+- Analysis](02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysis02-anthropic-vacancies162-8-risk-analysismd)  
   _→ OUTLINE_
-- Регулятивная Сложность Готовность к Развёртыванию  
+- Analysis](02-anthropic-vacancies/162-8-risk-analysis.md)  
   _→ OUTLINE_
-- склеивать](docs/01-svyazi/14-limitations.md)](#ограничения-лицензии-и-что-пока-лучше-не-склеиватьdocs01-svyazi14-limitat  
+- склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)](#ограничения-лицензии-и-что-п  
   _→ OUTLINE_
-- склеивать](docs/01-svyazi/14-limitations.md)  
-  _→ OUTLINE_
-- скл](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3339 | — |  
+- Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md) | 653 | — |  
+  _→ READING_ORDER_
+- скл](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3362 | — |  
   _→ READING_ORDER_
 - | Категория | Вероятн. | Влияние | Score | Уровень |  
   _→ RISK_REGISTER_
@@ -870,18 +914,54 @@ _(50 дублей скрыто)_
   _→ RISK_REGISTER_
 - и PII описаны | ✅ | 8 |  
   _→ SCORING_
-- склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3339 |  
+- склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3362 |  
   _→ SITEMAP_
+- 5: Burnout. Проект … | 60 |  
+  _→ TABLES_
+- Analysis](02-anthropic-vacancies/162-8-risk-analysis.md) | 653 | — |  
+  _→ TABLES_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
   _→ TABLES_
-- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
+- | `root` | 58% |  
+  _→ TABLES_
+- и allowlist для MCP | 16 |  
+  _→ TABLES_
+- скл](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3339 | — |  
+  _→ TABLES_
+- склеиват](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3339 |  
+  _→ TABLES_
+- Analysis]] _17%_  
+  _→ 159-5-economic-model_
+- склеивать]] _21%_  
+  _→ 00-intro_
+- склеивать"  
+  _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
+- | ██ 7.7 | 0.4 | 0.4 | ▒▒ 4.1 | 0.1 |  
+  _→ HEATMAP_
+- Analysis]]](#162-8-risk-analysis8-risk-analysis)  
+  _→ OUTLINE_
+- Analysis]]  
+  _→ OUTLINE_
+- склеивать]]](#14-ограничения-лицензии-и-что-пока-лучше-не-склеиватьограничения-лицензии-и-что-пока-лучше-не-склеивать)  
+  _→ OUTLINE_
+- склеивать]]  
+  _→ OUTLINE_
+- Analysis]] | 653 | — |  
+  _→ READING_ORDER_
+- скл]] | 3362 | — |  
+  _→ READING_ORDER_
+- склеиват]] | 3362 |  
+  _→ SITEMAP_
+- скл]] | 3339 | — |  
+  _→ TABLES_
+- склеиват]] | 3339 |  
   _→ TABLES_
 
-_(65 дублей скрыто)_
+_(375 дублей скрыто)_
 
-## 🚫 Ограничения (84)
+## 🚫 Ограничения (183)
 
 - не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi[^svyazi] как базовый пат  
   _→ 14-limitations_
@@ -903,7 +983,7 @@ _(65 дублей скрыто)_
   _→ 01-интегральный-анализ-профиля-svend4_
 - and formulated alternative content-sharing strategies  
   _→ 01-интегральный-анализ-профиля-svend4_
-- и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) _25%_  
+- и открытые вопросы](115-8-ограничения-и-открытые-вопросы.md) _25%_  
   _→ 107-1-контекст-и-мотивация_
 - и открытые вопросы  
   _→ 115-8-ограничения-и-открытые-вопросы_
@@ -911,7 +991,7 @@ _(65 дублей скрыто)_
   _→ 115-8-ограничения-и-открытые-вопросы_
 - и альтернативы  
   _→ 122-глоссарий_
-- текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md) _29%_  
+- текущей версии (0.1.0-draft)](131-ограничения-текущей-версии-0-1-0-draft.md) _29%_  
   _→ 128-доступные-инструменты_
 - текущей версии (0.1.0-draft)  
   _→ 131-ограничения-текущей-версии-0-1-0-draft_
@@ -997,18 +1077,60 @@ _(65 дублей скрыто)_
   _→ CONCEPTS_
 - исчезают**  
   _→ CONCEPTS_
+- и открытые вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросы02-anthropic-vacancies115-8-огра  
+  _→ OUTLINE_
+- текущей версии (0.1.0-draft)](02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draft02-anthropic  
+  _→ OUTLINE_
+- и открытые вопросы(#8-ограничения-и-открытые-вопросы)  
+  _→ OUTLINE_
 - - MVP-шаги  
   _→ OUTLINE_
+- и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 412 | — |  
+  _→ READING_ORDER_
+- текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md) | 133 | — |  
+  _→ READING_ORDER_
+- и открытые вопросы](docs/obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 429 |  
+  _→ SITEMAP_
 - при коммерческом использовании |  
-  _→ TECH_RADAR_
+  _→ TABLES_
 - - `docs/01-svyazi/QA.md` — упоминаются, envelope, evidence, какие  
   _→ TOPIC_MODEL_
+- и открытые вопросы]] _25%_  
+  _→ 107-1-контекст-и-мотивация_
+- и открытые вопросы"  
+  _→ 115-8-ограничения-и-открытые-вопросы_
+- текущей версии (0.1.0-draft)]] _29%_  
+  _→ 128-доступные-инструменты_
+- текущей версии (0.1.0-draft)"  
+  _→ 131-ограничения-текущей-версии-0-1-0-draft_
+- и открытые вопросы]] _21%_  
+  _→ 335-9-риски-и-открытые-вопросы_
+- и открытые вопросы]]](#115-8-ограничения-и-открытые-вопросы8-ограничения-и-открытые-вопросы)  
+  _→ OUTLINE_
+- текущей версии (0.1.0-draft)]]](#131-ограничения-текущей-версии-0-1-0-draftограничения-текущей-версии-010-draft)  
+  _→ OUTLINE_
+- и открытые вопросы]]  
+  _→ OUTLINE_
+- текущей версии (0.1.0-draft)]]  
+  _→ OUTLINE_
+- и открытые вопросы]] | 412 | — |  
+  _→ READING_ORDER_
+- текущей версии (0.1.0-draft)]] | 133 | — |  
+  _→ READING_ORDER_
+- и открытые вопросы]] | 412 |  
+  _→ SITEMAP_
+- текущей версии (0.1.0-draft)]] | 133 |  
+  _→ SITEMAP_
+- текущей версии (0.1.0-draft)]] | 129 | — |  
+  _→ TABLES_
+- текущей версии (0.1.0-draft)]] | 129 |  
+  _→ TABLES_
 - - [Риск 1]  
   _→ ensemble_
 
-_(23 дублей скрыто)_
+_(101 дублей скрыто)_
 
-## 📋 Задачи (TODO) (9)
+## 📋 Задачи (TODO) (18)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -1026,10 +1148,14 @@ _(23 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- меток: **24**  
+- меток: **46**  
+  _→ STATS_
+- меток: **23**  
   _→ STATS_
 
-## 📬 Контактные действия (89)
+_(8 дублей скрыто)_
+
+## 📬 Контактные действия (178)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1175,16 +1301,37 @@ _(23 дублей скрыто)_
   _→ SCHEDULE_
 - PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
   _→ TABLES_
+- авторами компонентов → [[CONTACTS|CONTACTS.md]]  
+  _→ REPORT_
 
-_(17 дублей скрыто)_
+_(105 дублей скрыто)_
 
-<!-- see-also -->
+<!-- backlinks-auto -->
+## Упоминается в
 
----
+- [Appendix D: Connection Diagram](02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [Closing](02-anthropic-vacancies/165-closing.md)
+- [Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)](02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Глоссарий понятий](CONCEPTS.md)
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
+- [Интегральный анализ профиля svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
+- [Обратная связь](02-anthropic-vacancies/133-обратная-связь.md)
+- [Ограничения, лицензии и что пока лучше не склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги](02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [Приложение C: Образцы Случаев Использования в Деталях](02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [Развёрнутый анализ «внуковой» комбинации](02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 
-**Смотрите также:**
-- [CONCEPTS](CONCEPTS.md)
-- [TABLES](TABLES.md)
-- [SEARCH](SEARCH.md)
-- [READING_TIME](READING_TIME.md)
+<!-- related-auto -->
+## Связанные документы
 
+- [Глоссарий понятий](CONCEPTS.md) _33%_
+- [Открытые вопросы](QUESTIONS.md) _25%_
+- [Детальная статистика репозитория](STATS.md) _21%_
+- [Code-блоки репозитория](CODE_BLOCKS.md) _17%_
+- [Ключевые решения и выводы](DECISIONS.md) _17%_
+- [Часто задаваемые вопросы (FAQ)](FAQ.md) _17%_

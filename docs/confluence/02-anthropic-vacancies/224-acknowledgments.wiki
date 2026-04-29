@@ -1,0 +1,73 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/224-acknowledgments.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Acknowledgments
+
+
+{quote}This paper emerged through dialogue with Claude (Anthropic){quote}
+
+----
+
+
+
+
+
+h2. Acknowledgments
+
+This paper emerged through dialogue with Claude (Anthropic)
+on April 26, 2026, prompted by author's review of the
+Russian-language interview with Konstantin Chukavin in
+Fontanka.ru describing «Обучай». The fivefold typology
+of principal-side agents emerged from the user's observation
+that "Representative Agent" was an insufficient category
+to capture the full landscape.
+
+Konstantin Chukavin's «Обучай» service serves as central
+empirical reference. Public information from the Fontanka
+interview informs case study. No formal partnership with
+or endorsement of «Обучай» exists; it is documented as
+publicly observable case.
+
+The author retained editorial authority. All claims and
+errors are author's responsibility.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [267-acknowledgments|267-acknowledgments.md] (сходство 0.20)
+* [182-acknowledgments|182-acknowledgments.md] (сходство 0.17)
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [267-acknowledgments|267-acknowledgments.md]
+* [211-table-of-contents|211-table-of-contents.md]
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+* [251-ai-support-through-configurable-specialist-ensembl|251-ai-support-through-configurable-specialist-ensembl.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Acknowledgments|182-acknowledgments.md] _48%_
+* [Acknowledgments|146-acknowledgments.md] _42%_
+* [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations|167-ai-mediated-representation-for-underrepresented-ex.md] _29%_
+* [AI Support Through Configurable Specialist Ensembles|251-ai-support-through-configurable-specialist-ensembl.md] _29%_
+* [The Missing Middle Layer Between Chat and Code|274-the-missing-middle-layer-between-chat-and-code.md] _29%_
+* [Appendix A: Connection to Companion Papers|184-appendix-a-connection-to-companion-papers.md] _25%_
+* [Table of Contents|211-table-of-contents.md] _25%_
+* [References|183-references.md] _21%_

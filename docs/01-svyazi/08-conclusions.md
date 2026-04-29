@@ -57,9 +57,29 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [04 Ensembles Overview](04-ensembles-overview.md)
+- [12 Roadmap](12-roadmap.md)
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-executive-summary.md)
+- [Выводы](../04-ai-collaborations/07-выводы.md)
+- [Методика и рамка отбора](../04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [Что это продолжение добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Выводы](../04-ai-collaborations/07-выводы.md) _53%_
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md) _42%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _33%_
+- [Что это продолжение добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md) _33%_
+- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-executive-summary.md) _29%_
+- [07 Mvp Planning](07-mvp-planning.md) _29%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _29%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _25%_
 ## Связанные документы
 
 - [Выводы](../04-ai-collaborations/07-выводы.md) _81%_

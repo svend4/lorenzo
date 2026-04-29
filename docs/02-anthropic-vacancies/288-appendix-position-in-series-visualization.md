@@ -170,9 +170,27 @@ So I named the possibility without pushing toward it.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Appendices](164-10-appendices.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md)
+- [Closing](285-closing.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _48%_
+- [Closing](285-closing.md) _21%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _17%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _17%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _17%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _17%_
 ## Связанные документы
 
 - [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _33%_

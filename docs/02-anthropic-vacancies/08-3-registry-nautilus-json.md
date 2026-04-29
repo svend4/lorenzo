@@ -122,9 +122,37 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Relevance Ranking](86-11-relevance-ranking.md)
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
+- [2. Terminology](07-2-terminology.md)
+- [2. Terminology](77-2-terminology.md)
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
+- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
+- [5. Compatibility Levels](80-5-compatibility-levels.md)
+- [6. Adapter Interface](18-6-adapter-interface.md)
+- [6. Adapter Interface](81-6-adapter-interface.md)
+- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
+- [Abstract](74-abstract.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _66%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _42%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _37%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _33%_
+- [2. Terminology](07-2-terminology.md) _21%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _21%_
+- [2. Terminology](77-2-terminology.md) _21%_
+- [5. Compatibility Levels](80-5-compatibility-levels.md) _21%_
 ## Связанные документы
 
 - [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _66%_

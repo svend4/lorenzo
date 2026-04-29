@@ -216,6 +216,11 @@ application drafting.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [4. Ten Domains of Application](173-4-ten-domains-of-application.md)
+- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->

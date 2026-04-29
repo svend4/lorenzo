@@ -241,9 +241,34 @@ incremental rather than novel.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Problem Statement](155-1-problem-statement.md)
+- [11. Call for Collaboration](222-11-call-for-collaboration.md)
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md)
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md)
+- [4. Ten Domains of Application](173-4-ten-domains-of-application.md)
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [7. Application Domains](218-7-application-domains.md)
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md)
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _33%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _33%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md) _25%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _21%_
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _21%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _21%_
+- [12. Call for Collaboration](265-12-call-for-collaboration.md) _21%_
 ## Связанные документы
 
 - [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _29%_

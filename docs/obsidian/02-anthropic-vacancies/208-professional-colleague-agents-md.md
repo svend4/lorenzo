@@ -1,0 +1,61 @@
+---
+title: "PROFESSIONAL COLLEAGUE AGENTS.md"
+tags:
+  - architecture
+  - anthropic
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# PROFESSIONAL COLLEAGUE AGENTS.md
+
+<!-- summary -->
+> - [[249-composite-skills-agent-md]] (сходство 0.14)
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
+## PROFESSIONAL COLLEAGUE AGENTS.md
+markdown
+```markdown
+# Professional Colleague Agents
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[249-composite-skills-agent-md]] (сходство 0.14)
+- [[134-the-double-triangle-architecture-md]] (сходство 0.14)
+- [[273-infrastructure-for-ai-collaborative-intellectual-w]] (сходство 0.12)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _66%_
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _66%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _60%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _56%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _53%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _39%_
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _33%_
+- [[166-representative-agent-layer-md|REPRESENTATIVE AGENT LAYER.md]] _29%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[304-ingit-as-cowork-native-workspace-substrate-md]]
+- [[249-composite-skills-agent-md]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+

@@ -50,9 +50,28 @@ Last updated: 2026-04*
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Abstract](04-abstract.md)
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
+- [History](43-history.md)
+- [Planned (v0.2.0)](132-planned-v0-2-0.md)
+- [Table of Contents](154-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Содержание](190-содержание.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Abstract](04-abstract.md) _33%_
+- [portal-mcp.py](123-portal-mcp-py.md) _33%_
+- [Содержание](190-содержание.md) _33%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _33%_
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _33%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _29%_
+- [Table of Contents](154-table-of-contents.md) _29%_
+- [Compatibility Level](41-compatibility-level.md) _25%_
 ## Связанные документы
 
 - [Abstract](04-abstract.md) _33%_

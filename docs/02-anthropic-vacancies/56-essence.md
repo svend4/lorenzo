@@ -52,9 +52,33 @@ CA-правил, через классы Вольфрама, через аттр
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [15. Glossary of Examples](27-15-glossary-of-examples.md)
+- [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md)
+- [Angle / Perspective](39-angle-perspective.md)
+- [Angle / Perspective](59-angle-perspective.md)
+- [Bridges](40-bridges.md)
+- [Content Overview](58-content-overview.md)
+- [Essence](36-essence.md)
+- [Essence](46-essence.md)
+- [passports/info1.md](35-passports-info1-md.md)
+- [passports/meta.md](55-passports-meta-md.md)
+- [passports/pro2.md](45-passports-pro2-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Essence](46-essence.md) _48%_
+- [passports/pro2.md](45-passports-pro2-md.md) _42%_
+- [passports/meta.md](55-passports-meta-md.md) _42%_
+- [Angle / Perspective](59-angle-perspective.md) _37%_
+- [passports/info1.md](35-passports-info1-md.md) _33%_
+- [Essence](36-essence.md) _33%_
+- [15. Glossary of Examples](27-15-glossary-of-examples.md) _29%_
+- [Angle / Perspective](39-angle-perspective.md) _29%_
 ## Связанные документы
 
 - [passports/pro2.md](45-passports-pro2-md.md) _42%_

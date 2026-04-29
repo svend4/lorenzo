@@ -79,9 +79,35 @@ The friction will be lower than no infrastructure at all.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [10. Appendices](164-10-appendices.md)
+- [7. Application Domains](218-7-application-domains.md)
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Closing](285-closing.md)
+- [Existing Approximations](279-existing-approximations.md)
+- [The Recursive Insight](281-the-recursive-insight.md)
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md)
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md)
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md)
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _42%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _37%_
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _37%_
+- [Existing Approximations](279-existing-approximations.md) _29%_
+- [Why This Document Exists](275-why-this-document-exists.md) _25%_
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _25%_
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _25%_
+- [The Recursive Insight](281-the-recursive-insight.md) _21%_
 ## Связанные документы
 
 - [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _42%_

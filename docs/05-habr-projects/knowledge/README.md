@@ -4,4 +4,4 @@
 
 ## Содержание
 
-- [wikontic.md](wikontic.md) — <!-- abstract-auto -->
+- [wikontic.md](wikontic.md) — > [!WARNING]

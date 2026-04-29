@@ -68,9 +68,30 @@ implementation MUST поддерживать **минимум текущую maj
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [0. Status of This Document](05-0-status-of-this-document.md)
+- [0. Status of This Document](75-0-status-of-this-document.md)
+- [17. Versioning Policy](92-17-versioning-policy.md)
+- [7. Реализация в проекте Nautilus](114-7-реализация-в-проекте-nautilus.md)
+- [Author & Contact](42-author-contact.md)
+- [Author & Contact](62-author-contact.md)
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Примеры запросов (в Claude)](129-примеры-запросов-в-claude.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [17. Versioning Policy](92-17-versioning-policy.md) _81%_
+- [Author & Contact](62-author-contact.md) _37%_
+- [Author & Contact](42-author-contact.md) _33%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _33%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _29%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _29%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _29%_
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _21%_
 ## Связанные документы
 
 - [17. Versioning Policy](92-17-versioning-policy.md) _81%_

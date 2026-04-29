@@ -1,0 +1,74 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/59-angle-perspective.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Angle / Perspective"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Angle / Perspective
+
+
+{quote}_Symbolic_ — {{meta}} смотрит на мир как на **систему дискретных{quote}
+
+----
+
+
+
+
+
+h2. Angle / Perspective
+
+_Symbolic_ — {{meta}} смотрит на мир как на **систему дискретных 
+состояний и правил переходов**. На вопрос «что такое кристалл» он 
+отвечает: «это точка в пространстве 256 правил, обладающая такими-то 
+симметриями, соответствующая гексаграмме N, с такой-то динамикой 
+evolution».
+
+Это самый _формальный_ угол в экосистеме. Здесь всё — числа, 
+правила, инварианты. Практически это означает, что {{meta}} может 
+давать _формальные ответы на формальные вопросы_, где {{pro2}} и 
+{{info1}} дают прозу.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[39-angle-perspective]] (сходство 0.14)
+* [[49-angle-perspective]] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[39-angle-perspective]]
+* [[49-angle-perspective]]
+* [[36-essence]]
+* [[27-15-glossary-of-examples]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[39-angle-perspective|Angle / Perspective]] _37%_
+* [[49-angle-perspective|Angle / Perspective]] _33%_
+* [[45-passports-pro2-md|passports/pro2.md]] _29%_
+* [[55-passports-meta-md|passports/meta.md]] _29%_
+* [[56-essence|Essence]] _29%_
+* [[13-angle-perspective|Angle / Perspective]] _25%_
+* [[27-15-glossary-of-examples|15. Glossary of Examples]] _25%_
+* [[35-passports-info1-md|passports/info1.md]] _25%_

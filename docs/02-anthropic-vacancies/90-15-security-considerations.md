@@ -102,9 +102,18 @@ supply-chain риск.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Security Considerations](23-11-security-considerations.md)
+- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [11. Security Considerations](23-11-security-considerations.md) _48%_
+- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md) _25%_
 ## Связанные документы
 
 - [11. Security Considerations](23-11-security-considerations.md) _42%_

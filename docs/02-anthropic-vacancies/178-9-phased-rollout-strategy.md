@@ -159,9 +159,23 @@ durable, beneficial infrastructure than rapid scaling.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Call for Collaboration](180-11-call-for-collaboration.md)
+- [5. Economic Model](159-5-economic-model.md)
+- [7. Governance and Oversight](176-7-governance-and-oversight.md)
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _29%_
+- [5. Economic Model](159-5-economic-model.md) _21%_
+- [11. Call for Collaboration](180-11-call-for-collaboration.md) _17%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _17%_
+- [12. Call for Collaboration](265-12-call-for-collaboration.md) _17%_
 ## Связанные документы
 
 - [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _29%_

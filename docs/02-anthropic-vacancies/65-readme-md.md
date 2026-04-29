@@ -49,9 +49,26 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Abstract](04-abstract.md)
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
+- [portal-mcp.py](123-portal-mcp-py.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _37%_
+- [portal-mcp.py](123-portal-mcp-py.md) _33%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _33%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _33%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _33%_
+- [Abstract](04-abstract.md) _25%_
+- [Содержание](190-содержание.md) _21%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
 ## Связанные документы
 
 - [portal-mcp.py](123-portal-mcp-py.md) _37%_

@@ -4,39 +4,41 @@
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 35 |
-| **Antipozitive** | 19 |
-| **BerriAI** | 7 |
-| **Cutcode** | 33 |
-| **Dmitriila** | 31 |
-| **MiXaiLL76** | 32 |
-| **Sonia_Black** | 16 |
-| **VitaliySemenov** | 4 |
-| **VitalyOborin** | 33 |
-| **VladSpace** | 30 |
-| **akazant** | 6 |
-| **akzhankalimatov** | 4 |
-| **andrey_chuyan** | 16 |
-| **iximy** | 5 |
-| **kksudo** | 61 |
-| **lee-to** | 8 |
-| **lib4u** | 7 |
-| **moshael** | 6 |
-| **nlaik** | 23 |
-| **spbmolot** | 59 |
-| **tagir_analyzes** | 19 |
-| **vpakspace** | 4 |
-| **zodigancode** | 26 |
-| **Андрей Чуян** | 21 |
-| **Виталий Оборин** | 7 |
+| **AnastasiyaW** | 72 |
+| **Antipozitive** | 42 |
+| **BerriAI** | 14 |
+| **Cutcode** | 73 |
+| **Dmitriila** | 66 |
+| **MiXaiLL76** | 64 |
+| **Sonia_Black** | 31 |
+| **VitaliySemenov** | 8 |
+| **VitalyOborin** | 65 |
+| **VladSpace** | 68 |
+| **akazant** | 12 |
+| **akzhankalimatov** | 8 |
+| **andrey_chuyan** | 33 |
+| **iximy** | 10 |
+| **kksudo** | 129 |
+| **lee-to** | 16 |
+| **lib4u** | 15 |
+| **moshael** | 12 |
+| **nlaik** | 43 |
+| **spbmolot** | 125 |
+| **tagir_analyzes** | 38 |
+| **vpakspace** | 8 |
+| **zodigancode** | 54 |
+| **Андрей Чуян** | 40 |
+| **Виталий Оборин** | 14 |
 
-<!-- see-also -->
+<!-- backlinks-auto -->
+## Упоминается в
 
----
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
 
-**Смотрите также:**
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-- [tagir-analyzes](contacts/tagir-analyzes.md)
-- [nlaik](contacts/nlaik.md)
-- [sonia-black](contacts/sonia-black.md)
+<!-- related-auto -->
+## Связанные документы
 
+- [contacts](contacts/README.md) _29%_
+- [Контакты и авторы](CONTACTS.md) _21%_

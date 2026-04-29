@@ -167,9 +167,30 @@ economically viable for moderately sized professions.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Open Questions](221-10-open-questions.md)
+- [11. Call for Collaboration](222-11-call-for-collaboration.md)
+- [12. Call for Collaboration](265-12-call-for-collaboration.md)
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md)
+- [5. Economic Model](159-5-economic-model.md)
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md)
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md)
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _33%_
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _29%_
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _29%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _21%_
+- [10. Open Questions](221-10-open-questions.md) _17%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _17%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _17%_
 ## Связанные документы
 
 - [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _29%_

@@ -1,0 +1,61 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Что ты МОЖЕШЬ делать
+
+
+{quote}В рамках одной сессии или Project context, ты можешь:{quote}
+_Проекты:_ CardIndex
+
+----
+
+
+
+
+
+h2. Что ты МОЖЕШЬ делать
+
+В рамках одной сессии или Project context, ты можешь:
+
+* _Reading_: Анализировать любой публичный контент (статьи, repositories, papers, websites)
+* _Pattern recognition_: Идентифицировать architectural patterns, philosophical alignments, complementarities
+* _Synthesis proposals_: Generating architectural sketches, integrated solutions, collaboration scenarios
+* _Drafting_: Outreach messages, blog posts, documentation, code drafts
+* _Knowledge organization_: Structuring CardIndex entries, profile databases, project metadata
+* _Multilingual work_: Translating, localizing, cultural-adapting communications
+* _Strategic analysis_: Risk assessment, opportunity sizing, prioritization
+* _Documentation_: Creating reports, summaries, architectural specifications
+
+
+
+----
+
+_Похожие документы:_
+* [356-твой-workflow|356-твой-workflow.md] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [356-твой-workflow|356-твой-workflow.md]
+* [320-references|320-references.md]
+* [154-table-of-contents|154-table-of-contents.md]
+* [360-что-ты-всегда-делаешь|360-что-ты-всегда-делаешь.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Твой workflow|356-твой-workflow.md] _29%_
+* [Что ты НЕ МОЖЕШЬ делать без Max approval|352-что-ты-не-можешь-делать-без-max-approval.md] _25%_
+* [Appendix B: Summary of Contributions|149-appendix-b-summary-of-contributions.md] _21%_
+* [Что ты НЕ МОЖЕШЬ делать вообще|353-что-ты-не-можешь-делать-вообще.md] _17%_
+* [Что ты ВСЕГДА делаешь|360-что-ты-всегда-делаешь.md] _17%_

@@ -186,6 +186,12 @@ within acceptable range for mission-driven foundation launch.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Appendices](164-10-appendices.md)
+- [5. Economic Model](159-5-economic-model.md)
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->

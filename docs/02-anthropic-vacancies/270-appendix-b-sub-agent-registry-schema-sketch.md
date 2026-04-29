@@ -104,9 +104,24 @@ substantial refinement based on actual implementation experience.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md)
+- [Word Cloud](../WORD_CLOUD.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md) _53%_
+- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _42%_
+- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md) _21%_
+- [Table of Contents](253-table-of-contents.md) _17%_
+- [Table of Contents](308-table-of-contents.md) _17%_
+- [Вакансии Anthropic — Анализ по кластерам](README.md) _17%_
+- [Кластеры тематически близких файлов](../CLUSTERS.md) _17%_
 ## Связанные документы
 
 - [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _48%_

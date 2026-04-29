@@ -141,9 +141,31 @@ problem.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md)
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md)
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md)
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md)
+- [Why This Document Exists](275-why-this-document-exists.md)
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Существующие приближения](294-существующие-приближения.md)
+- [Что промышленность вероятно построит](297-что-промышленность-вероятно-построит.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _33%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _29%_
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _29%_
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _29%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _29%_
+- [Существующие приближения](294-существующие-приближения.md) _25%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _17%_
 ## Связанные документы
 
 - [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _33%_

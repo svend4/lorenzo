@@ -61,9 +61,28 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- [11. Relevance Ranking](86-11-relevance-ranking.md)
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
+- [16. MCP Extension (Informative)](91-16-mcp-extension-informative.md)
+- [6. Adapter Interface](81-6-adapter-interface.md)
+- [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Доступные инструменты](128-доступные-инструменты.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md) _29%_
+- [Доступные инструменты](128-доступные-инструменты.md) _21%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _21%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _21%_
+- [Appendix C: References](104-appendix-c-references.md) _17%_
 ## Связанные документы
 
 - [Appendix C: References](104-appendix-c-references.md) _25%_

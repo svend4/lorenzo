@@ -56,9 +56,29 @@ training logs, benchmarks]
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [0. Status of This Document](05-0-status-of-this-document.md)
+- [0. Status of This Document](75-0-status-of-this-document.md)
+- [Content Overview](12-content-overview.md)
+- [Essence](36-essence.md)
+- [History](43-history.md)
+- [History](53-history.md)
+- [Native Format](47-native-format.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [13. Reference Implementation](25-13-reference-implementation.md) _37%_
+- [History](53-history.md) _37%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _33%_
+- [Author & Contact](42-author-contact.md) _33%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _33%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _33%_
+- [Author & Contact](62-author-contact.md) _29%_
+- [History](43-history.md) _25%_
 ## Связанные документы
 
 - [History](53-history.md) _37%_

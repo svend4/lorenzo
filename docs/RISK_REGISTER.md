@@ -183,3 +183,11 @@ _Курированных рисков: 10 · Из документов: 15_
 - [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
 - [07-выводы](04-ai-collaborations/07-выводы.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Tech Radar — Svyazi 2.0](TECH_RADAR.md)
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)

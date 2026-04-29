@@ -1,0 +1,88 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/130-отладка.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Отладка
+
+
+h2. Contents
+
+* [Отладка|#отладка]
+  * [Сервер не подключается|#сервер-не-подключается]
+  * [Tool-call падает с "adapterfailed"|#tool-call-падает-с-adapterfailed]
+  * [Tool не появляется в Claude Desktop|#tool-не-появляется-в-claude-desktop]
+
+
+
+{quote}1. Проверить логи Claude Desktop:{quote}
+
+----
+
+
+
+
+
+h2. Отладка
+
+h3. Сервер не подключается
+
+1. Проверить логи Claude Desktop:
+   * macOS: {{~/Library/Logs/Claude/mcp*.log}}
+   * Windows: {{%APPDATA%\Claude\logs\mcp*.log}}
+   * Linux: {{~/.config/Claude/logs/mcp*.log}}
+
+2. Запустить {{portal-mcp.py --warmup}} напрямую в терминале — 
+   если падает, читайте stderr-вывод.
+
+3. Проверить, что {{python3}} в PATH и {{portal.py}} импортируется:
+{code:language=bash}
+   cd /path/to/nautilus
+   python3 -c "from portal import NautilusPortal; print(NautilusPortal())"
+{code}
+
+h3. Tool-call падает с "adapter_failed"
+
+Адаптер поднял исключение. Проверить:
+
+{code:language=bash}
+python3 portal.py --query ""
+{code}
+
+Если portal тоже падает — проблема не в MCP, а в самом адаптере.
+
+h3. Tool не появляется в Claude Desktop
+
+1. Проверить синтаксис {{claude_desktop_config.json}} (валидный JSON)
+2. Полностью перезапустить Claude Desktop (не reload)
+3. Убедиться, что absolute paths, не relative
+
+
+
+----
+
+_Похожие документы:_
+* [127-подключение-к-claude-desktop|127-подключение-к-claude-desktop.md] (сходство 0.15)
+* [124-конфигурация-для-claude-desktop|124-конфигурация-для-claude-desktop.md] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [127-подключение-к-claude-desktop|127-подключение-к-claude-desktop.md]
+* [124-конфигурация-для-claude-desktop|124-конфигурация-для-claude-desktop.md]
+* [28-appendix-a-minimal-working-example|28-appendix-a-minimal-working-example.md]
+* [125-readme-mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Конфигурация для Claude Desktop|124-конфигурация-для-claude-desktop.md] _33%_
+* [Подключение к Claude Desktop|127-подключение-к-claude-desktop.md] _25%_

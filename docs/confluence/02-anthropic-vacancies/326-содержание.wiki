@@ -1,0 +1,69 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/326-содержание.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Содержание
+
+
+{quote}1. _Открытие Cowork и почему это меняет всё_{quote}
+
+----
+
+
+
+
+
+h2. Содержание
+
+1. _Открытие Cowork и почему это меняет всё_
+2. **Что Cowork обеспечивает, что InGit не нужно
+   строить**
+3. **Что InGit обеспечивает, чего Cowork не
+   хватает**
+4. _Симбиотическая Архитектура_
+5. **Четыре пути интеграции в порядке
+   доступности**
+6. _Уточнённый объём InGit с учётом Cowork_
+7. _Практические первые шаги в этом месяце_
+8. _Импликации для Nautilus и OKWF_
+9. _Риски и Открытые Вопросы_
+10. _Стратегическое Позиционирование_
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [190-содержание|190-содержание.md] (сходство 0.12)
+* [231-содержание|231-содержание.md] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [190-содержание|190-содержание.md]
+* [231-содержание|231-содержание.md]
+* [28-appendix-a-minimal-working-example|28-appendix-a-minimal-working-example.md]
+* [308-table-of-contents|308-table-of-contents.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [Содержание|190-содержание.md] _48%_
+* [Table of Contents|154-table-of-contents.md] _37%_
+* [Table of Contents|308-table-of-contents.md] _33%_
+* [Table of Contents|137-table-of-contents.md] _29%_
+* [Appendix B: Summary of Contributions|149-appendix-b-summary-of-contributions.md] _29%_
+* [Appendix A: Minimal Working Example|28-appendix-a-minimal-working-example.md] _29%_
+* [1. Открытие Cowork и почему это меняет всё|327-1-открытие-cowork-и-почему-это-меняет-всё.md] _29%_
+* [Compatibility Level|41-compatibility-level.md] _29%_

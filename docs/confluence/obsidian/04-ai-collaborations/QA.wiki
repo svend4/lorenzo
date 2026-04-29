@@ -1,0 +1,100 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/04-ai-collaborations/QA.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Q&A: 04-ai-collaborations"
+tags:
+  * ai-collaborations
+date: 2026-04-29
+----
+
+h1. Q&A: 04-ai-collaborations
+
+_Автоматически сгенерировано по 15 файлам раздела._
+
+h2. Как реализован forensic RAG[^rag] с доказуемостью?
+
+Упоминаются: _liteparse_, _bounding box_, _page-level_, _evidence_
+
+h2. Что такое Evidence Envelope и зачем он нужен?
+
+Упоминаются: _evidence envelope_, _source_id_, _page_, _span_
+
+h2. Какие RAG-подходы сравниваются в документах?
+
+Упоминаются: _Legal RAG_, _Hybrid RAG_, _Graph RAG_, _LiteParse_
+
+h2. Какие 5 архитектурных зазоров выделены в исследовании?
+
+Упоминаются: _зазор_, _карточка_, _evidence_, _memory governance_, _agent contract_
+
+h2. Что входит в интеграционный контракт между слоями?
+
+Упоминаются: _card envelope_, _evidence envelope_, _memory write_, _skill policy_, _review record_
+
+h2. Каковы этапы MVP и их оценка по времени?
+
+Упоминаются: _mvp_, _итерац_, _фаза_, _неделя_
+
+h2. Что входит в первую итерацию прототипа?
+
+Упоминаются: _evidence-first_, _unified card_, _page/span_, _manual review_
+
+h2. Кто ключевые авторы проектов для контакта?
+
+Упоминаются: _Андрей Чуян_, _Виталий Оборин_, _kksudo_, _spbmolot_
+
+h2. Какие вопросы лучше задавать авторам при первом контакте?
+
+Упоминаются: _первый вопрос_, _архитектурный_, _шаблон_, _контакт_
+
+h2. Как работает AgentFS[^agentfs] и что такое .agentos?
+
+Упоминаются: _agentos_, _vault_, _compile_, _persistent state_
+
+h2. Что такое knowledge-space[^knowledge_space] и для кого он предназначен?
+
+Упоминаются: _reference card_, _agent-readable_, _785_, _gotcha_
+
+h2. Как CardIndex[^cardindex] хранит и версионирует карточки?
+
+Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
+
+h2. Какие инструменты обеспечивают безопасность агентов?
+
+Упоминаются: _SENTINEL_, _LiteLLM_, _Tool Search_, _Auto AI Router_
+
+h2. Какова политика доступа по умолчанию (tool classes)?
+
+Упоминаются: _read-only_, _allowlist_, _path guard_, _quarantine_
+
+h2. Как организован бюджетный роутинг между моделями?
+
+Упоминаются: _routing_, _budget_, _litellm_, _local model_
+
+h2. Как работает AgentFS и что такое .agentos?
+
+Упоминаются: _agentos_, _vault_, _compile_, _persistent state_
+
+h2. Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: _reference card_, _agent-readable_, _785_, _gotcha_
+
+h2. Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
+
+
+
+
+----
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)

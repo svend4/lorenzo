@@ -164,9 +164,22 @@ to minimum dignity threshold; upward is merit-based.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [6. Governance and Ethics](160-6-governance-and-ethics.md)
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
+- [8. Risk Analysis](162-8-risk-analysis.md)
+- [9. Call for Partnership](163-9-call-for-partnership.md)
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _29%_
+- [9. Call for Partnership](163-9-call-for-partnership.md) _21%_
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md) _21%_
 ## Связанные документы
 
 - [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _25%_

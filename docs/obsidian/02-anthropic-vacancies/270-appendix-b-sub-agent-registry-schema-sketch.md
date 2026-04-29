@@ -1,0 +1,126 @@
+---
+title: "Appendix B: Sub-Agent Registry Schema (Sketch)"
+tags:
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# Appendix B: Sub-Agent Registry Schema (Sketch)
+
+<!-- summary -->
+> For implementation, sub-agent registry entries might follow
+
+---
+<!-- tags: rag, architecture, self-improvement -->
+
+
+
+
+## Appendix B: Sub-Agent Registry Schema (Sketch)
+
+For implementation, sub-agent registry entries might follow 
+this schema:
+
+```yaml
+sub_agent:
+  id: "sgb-ix-paragraph-78-24-7-assistance"
+  name: "SGB IX § 78 Abs. 6 — 24/7 Psychiatric Assistance"
+  domain: "german-social-law"
+  specialization_path: 
+    - "law"
+    - "german"
+    - "social-law"
+    - "sgb-ix"
+    - "section-78"
+    - "subsection-6"
+  scope:
+    covers:
+      - "Right to 24/7 psychiatric assistance"
+      - "Documentation requirements"
+      - "Procedural pathways"
+      - "Appeal mechanisms"
+    does_not_cover:
+      - "Other forms of psychiatric care"
+      - "Voluntary commitment procedures"
+      - "Tax implications"
+  knowledge_base:
+    primary_sources:
+      - "SGB IX § 78"
+      - "BSG B 8 SO 9/19 R"
+      - "Implementing regulations"
+    methodology:
+      - "Case-based reasoning"
+      - "Statutory interpretation"
+      - "Procedural guidance"
+    last_updated: "2026-04-15"
+    next_review: "2026-10-15"
+  curators:
+    primary: 
+      name: "[Curator name]"
+      credentials: "[Legal qualifications]"
+    review_panel:
+      - "[Reviewer 1]"
+      - "[Reviewer 2]"
+  compatibility:
+    works_well_with:
+      - "sgb-ix-general-procedural"
+      - "psychiatric-assessment-interpretation"
+      - "social-services-eligibility"
+    requires_alongside:
+      - "general-german-legal-drafting"
+    conflicts_with: []
+  quality_indicators:
+    expert_review_score: 4.7
+    practitioner_satisfaction: 4.5
+    error_rate: "0.02"
+    update_frequency: "quarterly"
+  access:
+    license: "CC BY-SA 4.0"
+    cost: "Foundation-supported, free for OKWF guild members"
+    api_endpoint: "https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7"
+```
+
+This schema captures what coordinators need to route effectively, 
+what principals need to evaluate fit, and what curators need to 
+maintain quality.
+
+The schema is illustrative; production deployment would require 
+substantial refinement based on actual implementation experience.
+
+---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[321-appendix-a-decision-tree-for-ingit-adopters]] (сходство 0.13)
+- [[271-appendix-c-configuration-template-example]] (сходство 0.11)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[271-appendix-c-configuration-template-example]]
+- [[28-appendix-a-minimal-working-example]]
+- [[308-table-of-contents]]
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[321-appendix-a-decision-tree-for-ingit-adopters|Appendix A: Decision Tree for InGit Adopters]] _48%_
+- [[271-appendix-c-configuration-template-example|Appendix C: Configuration Template Example]] _37%_
+- [[253-table-of-contents|Table of Contents]] _21%_
+- [[308-table-of-contents|Table of Contents]] _21%_
+- [[360-что-ты-всегда-делаешь|Что ты ВСЕГДА делаешь]] _21%_
+- [[CLUSTERS|Кластеры тематически близких файлов]] _21%_
+- [[PARAGRAPH_QUALITY|Качество абзацев]] _21%_
+- [[READING_ORDER|Рекомендуемый порядок чтения]] _21%_

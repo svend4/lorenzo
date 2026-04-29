@@ -111,9 +111,27 @@ match actual technology architecture.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Call for Collaboration](180-11-call-for-collaboration.md)
+- [11. Call for Collaboration](222-11-call-for-collaboration.md)
+- [11. Open Questions](264-11-open-questions.md)
+- [6. Governance and Ethics](160-6-governance-and-ethics.md)
+- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [11. Call for Collaboration](222-11-call-for-collaboration.md) _33%_
+- [11. Open Questions](264-11-open-questions.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _25%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _25%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _21%_
+- [Executive Summary](153-executive-summary.md) _17%_
 ## Связанные документы
 
 - [11. Call for Collaboration](222-11-call-for-collaboration.md) _33%_

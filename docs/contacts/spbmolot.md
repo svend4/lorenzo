@@ -64,9 +64,23 @@ _Создано автоматически: 2026-04-29_
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [contacts](README.md)
+- [Приоритет контактов](../CONTACT_PRIORITY.md)
+## Упоминается в
+
 - [Приоритет контактов](../CONTACT_PRIORITY.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Контакт: kksudo / AgentFS](kksudo.md) _90%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
+- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
+- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _73%_
+- [Контакт: VladSpace / Graph RAG](vladspace.md) _73%_
+- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
+- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _66%_
 ## Связанные документы
 
 - [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _81%_

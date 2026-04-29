@@ -89,9 +89,29 @@ Bridges описаны максимально конкретно. Особенн
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
+- [Appendix B: Change Log](34-appendix-b-change-log.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md)
+- [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-общий-план-развития-nautilus-portal-protocol.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix B: Change Log](34-appendix-b-change-log.md) _37%_
+- [Abstract](04-abstract.md) _33%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _29%_
+- [portal-mcp.py](123-portal-mcp-py.md) _29%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _29%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _29%_
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _25%_
 ## Связанные документы
 
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _37%_

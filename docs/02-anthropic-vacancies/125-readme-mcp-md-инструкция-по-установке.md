@@ -43,9 +43,40 @@ svend4 как обычный tool.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Abstract](74-abstract.md)
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md)
+- [Appendix B: Change Log](34-appendix-b-change-log.md)
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md)
+- [README.md](65-readme-md.md)
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
+- [References](320-references.md)
+- [portal-mcp.py](123-portal-mcp-py.md)
+- [Благодарности](203-благодарности.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+- [Зачем две версии параллельно](70-зачем-две-версии-параллельно.md)
+- [Конфигурация для Claude Desktop](124-конфигурация-для-claude-desktop.md)
+- [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-общий-план-развития-nautilus-portal-protocol.md)
+- [Отладка](130-отладка.md)
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md)
+- [Расписание фазы 3](72-расписание-фазы-3.md)
+- [Ссылки](338-ссылки.md)
+- [⬡](69-section.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _33%_
+- [README.md](65-readme-md.md) _33%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
+- [Глоссарий](122-глоссарий.md) _25%_
+- [portal-mcp.py](123-portal-mcp-py.md) _25%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _25%_
+- [Abstract](04-abstract.md) _21%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
 ## Связанные документы
 
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _33%_

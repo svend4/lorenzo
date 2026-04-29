@@ -103,9 +103,37 @@ PortalEntry(
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md)
+- [2. Terminology](07-2-terminology.md)
+- [2. Terminology](77-2-terminology.md)
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
+- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
+- [5. Compatibility Levels](80-5-compatibility-levels.md)
+- [6. Adapter Interface](18-6-adapter-interface.md)
+- [6. Adapter Interface](81-6-adapter-interface.md)
+- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
+- [9. Query Flow](21-9-query-flow.md)
+- [Appendix B: Change Log](103-appendix-b-change-log.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Вопрос: fallback-ratio как критический или осмысленный?](110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _48%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _37%_
+- [2. Terminology](07-2-terminology.md) _29%_
+- [2. Terminology](77-2-terminology.md) _29%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _29%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _29%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _21%_
+- [5. Compatibility Levels](80-5-compatibility-levels.md) _21%_
 ## Связанные документы
 
 - [7. PortalEntry Structure](19-7-portalentry-structure.md) _42%_

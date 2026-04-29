@@ -1,0 +1,3788 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/CONCEPTS.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Глоссарий понятий
+
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
+_Определения извлечены автоматически из документов._
+
+_Извлечено понятий:_ 899  (из 1023 совпадений)
+
+
+h2. A
+
+_a coherent composite agent This_
+: _Composite Skills Agent_ pattern  
+  _→ [254-1-why-the-binary-view-is-incomplete|02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md]_
+
+_A nautilus shell_
+: _spiral of nested chambers_, each larger  
+  _→ [68-about|02-anthropic-vacancies/68-about.md]_
+
+_About Nautilus_
+: _federation protocol_ and reference implementation  
+  _→ [68-about|02-anthropic-vacancies/68-about.md]_
+
+_Action 1_
+: Create test Cowork Project pointing at simple  
+  _→ [315-7-practical-first-steps-this-month|02-anthropic-vacancies/315-7-practical-first-steps-this-month.md]_
+
+_Action 1 : Draft Part I (Vision) сейчас_
+: long-term articulation, относительно independent от capacity questions  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Action 2_
+: Document what works and what doesn't  
+  _→ [315-7-practical-first-steps-this-month|02-anthropic-vacancies/315-7-practical-first-steps-this-month.md]_
+
+_Action 3_
+: Refine custom instructions based on observations  
+  _→ [315-7-practical-first-steps-this-month|02-anthropic-vacancies/315-7-practical-first-steps-this-month.md]_
+
+_Activities_
+: - Establish governance framework  
+  _→ [178-9-phased-rollout-strategy|02-anthropic-vacancies/178-9-phased-rollout-strategy.md]_
+
+_Adapter_
+: Python-модуль (или эквивалент на другом языке),  
+  _→ [07-2-terminology|02-anthropic-vacancies/07-2-terminology.md]_
+
+_Adapting them to AI principals_
+: key research and design challenge addressed in Sections 6  
+  _→ [172-3-what-makes-a-representative-agent|02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md]_
+
+_ADOPT_
+: используй сейчас, минимальные риски  
+  _→ [TECH_RADAR|TECH_RADAR.md]_
+
+_ADR-001, ADR-002, ADR-003_
+: formal записи ваших архитектурных решений с обоснованиями  
+  _→ [104-appendix-c-references|02-anthropic-vacancies/104-appendix-c-references.md]_
+
+_Adversarial awareness_
+: Operates in environments where  
+  _→ [172-3-what-makes-a-representative-agent|02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md]_
+
+_Agent function_
+: Monitor opportunities, prepare  
+  _→ [173-4-ten-domains-of-application|02-anthropic-vacancies/173-4-ten-domains-of-application.md]_
+
+_agentic intelligence layer_
+: persistent memory, multi-step task execution, MCP integration,  
+  _→ [307-abstract|02-anthropic-vacancies/307-abstract.md]_
+
+_Agent‑first knowledge retrieval_
+: knowledge-space снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_AI safety harms_
+: narrower perspective pool in AI  
+  _→ [155-1-problem-statement|02-anthropic-vacancies/155-1-problem-statement.md]_
+
+_al) к Professional Colleagues (practical)_
+: natural progression сложности и concreteness  
+  _→ [228-appendix-c-quick-start-architecture-for-sgb-advoca|02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]_
+
+_Aligned values_
+: Serves vulnerable populations; mission-fit  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Alternatives rejected_
+: - Unified RDF/OWL ontology: слишком высокий barrier  
+  _→ [94-19-adr-001-federation-over-merging|02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md]_
+
+_Annotations + branching_
+: infrastructure features , которые нужны, чтобы такая distributed работа не распадалась на хаос  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_Anthropic_
+: 440 open positions, primarily senior roles at  
+  _→ [155-1-problem-statement|02-anthropic-vacancies/155-1-problem-statement.md]_
+
+_Anthropic 440 вакансий_
+: демонстрация market gap : существующая infrastructure не может обработать existing talent  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_Anthropic Beneficial Deployments_
+: команда внутри Anthropic, которая фокусируется на helping AI deployments в high-impact areas  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Anthropomorphizing self_
+: «I feel excited», «I dream of» (вместо: «my mission orients toward», «my workflow includes»)  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+_Application to OKWF_
+: - Each contributor = Node with personal AI assistants (lower  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Approach_
+: Traditional W-2/permanent employment with single  
+  _→ [157-3-why-existing-solutions-fail|02-anthropic-vacancies/157-3-why-existing-solutions-fail.md]_
+
+_Architectural implication_
+: Open APIs and standard formats  
+  _→ [220-9-relationship-to-other-agent-types|02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md]_
+
+_Arguments for open_
+: prevents profession capture, allows  
+  _→ [257-4-the-sub-agent-registry|02-anthropic-vacancies/257-4-the-sub-agent-registry.md]_
+
+_Arguments for proprietary_
+: easier monetization, more  
+  _→ [257-4-the-sub-agent-registry|02-anthropic-vacancies/257-4-the-sub-agent-registry.md]_
+
+_ArxivAdapter_
+: arXiv API с 12h cache  
+  _→ [97-22-glossary-of-reference-examples|02-anthropic-vacancies/97-22-glossary-of-reference-examples.md]_
+
+_ASSESS_
+: изучи, но не внедряй в production  
+  _→ [TECH_RADAR|TECH_RADAR.md]_
+
+_Assistant_
+: An AI working under a specific Node's  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_astructure for invisible quality experts»_
+: о visibility и agency  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Audit Infrastructure_
+: Tamper-resistant logging of  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+_Augmentation not replacement_
+: Yes (teacher remains  
+  _→ [214-3-empirical-case-study-обучай|02-anthropic-vacancies/214-3-empirical-case-study-обучай.md]_
+
+_Author_
+: GdB 70 user applying tools to own case  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_AutoAdapter_
+: любой repo с nautilus  
+  _→ [97-22-glossary-of-reference-examples|02-anthropic-vacancies/97-22-glossary-of-reference-examples.md]_
+
+
+h2. B
+
+_Beneficial Deployments в Anthropic_
+: именно про применение Claude к общественно-полезным задачам в здравоохранении, образовании, госсекторе и социальных сервисах  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Boundary issue_
+: When does helping (Type 1) become acting  
+  _→ [220-9-relationship-to-other-agent-types|02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md]_
+
+_Bridge_
+: декларативное описание моста между концепциями  
+  _→ [07-2-terminology|02-anthropic-vacancies/07-2-terminology.md]_
+
+_Bridge to existing infrastructure_
+: Many artists already  
+  _→ [261-8-seven-domains-of-application|02-anthropic-vacancies/261-8-seven-domains-of-application.md]_
+
+_Bridge to existing tools_
+: Many engineering teams already  
+  _→ [261-8-seven-domains-of-application|02-anthropic-vacancies/261-8-seven-domains-of-application.md]_
+
+_Burden addressed_
+: Lesson planning, assignment generation,  
+  _→ [218-7-application-domains|02-anthropic-vacancies/218-7-application-domains.md]_
+
+_Bureaucratic knowledge_
+: - KSV Sachsen practices and known patterns  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Buzzword soup_
+: «leveraging synergies for transformative outcomes»  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+
+h2. C
+
+_CA-правила_
+: каждое из 256 правил с:  
+  _→ [58-content-overview|02-anthropic-vacancies/58-content-overview.md]_
+
+_Case law_
+: - BSG decisions (federal social court)  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Catalyst Agent_
+: новый агентский тип , которого ещё нет в literature  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Caution_
+: Mental health is high-sensitivity domain  
+  _→ [218-7-application-domains|02-anthropic-vacancies/218-7-application-domains.md]_
+
+_Caveat_
+: This domain is particularly susceptible to  
+  _→ [218-7-application-domains|02-anthropic-vacancies/218-7-application-domains.md]_
+
+_Centralized_
+: foundation-employed curators evaluate  
+  _→ [257-4-the-sub-agent-registry|02-anthropic-vacancies/257-4-the-sub-agent-registry.md]_
+
+_Changed_
+: {{is_fallback}} field added to PortalEntry (normative)  
+  _→ [103-appendix-b-change-log|02-anthropic-vacancies/103-appendix-b-change-log.md]_
+
+_Characteristics_
+: - Decades of domain expertise  
+  _→ [156-2-target-populations|02-anthropic-vacancies/156-2-target-populations.md]_
+
+_Choice 6 : Pause exploration_
+: substantial decision, нужно time  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Choice 6 : Пауза в исследовании_
+: существенное решение, нужно время  
+  _→ [343-lorenzo-catalyst-agent-глубокая-проработка-специфи|02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md]_
+
+_Cinderella Syndrome_
+: after the fairy tale  
+  _→ [170-1-the-cinderella-syndrome-why-quality-stays-invisi|02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md]_
+
+_Clarified_
+: Naming conventions (passport by format, not by repo)  
+  _→ [103-appendix-b-change-log|02-anthropic-vacancies/103-appendix-b-change-log.md]_
+
+_Clear demand_
+: Author personally needs this  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_CoAlly team_
+: Distributed shared memory для multi-agent teams  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+_Code generation_
+: меньше DRY-полicy, больше regenerate-on-demand  
+  _→ [113-6-почему-это-валидный-паттерн-для-ai-assisted-work|02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md]_
+
+_Code Review Guild_
+: open-source code review for specified  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Code, Claude Cowork и Managed Agents API_
+: шаги к infrastructure, на которой можно построить именно такого агента-оркестратора  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_com, Upwork, Toptal, Braintrust, Mercor_
+: биржи , оптимизированные для transactional работы  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_com/svend4?tab=security-log_
+: security log вашего аккаунта  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Commitment 1_
+: No contributor will be charged fees or  
+  _→ [160-6-governance-and-ethics|02-anthropic-vacancies/160-6-governance-and-ethics.md]_
+
+_Commitment 2_
+: Contributor intellectual property remains  
+  _→ [160-6-governance-and-ethics|02-anthropic-vacancies/160-6-governance-and-ethics.md]_
+
+_Commitment 3_
+: Anonymization of contributed patterns is  
+  _→ [160-6-governance-and-ethics|02-anthropic-vacancies/160-6-governance-and-ethics.md]_
+
+_Commitment 4_
+: No algorithmic management  
+  _→ [160-6-governance-and-ethics|02-anthropic-vacancies/160-6-governance-and-ethics.md]_
+
+_Commitment 5_
+: Private data (contributors' personal  
+  _→ [160-6-governance-and-ethics|02-anthropic-vacancies/160-6-governance-and-ethics.md]_
+
+_Commitment 6_
+: Transparent operations  
+  _→ [160-6-governance-and-ethics|02-anthropic-vacancies/160-6-governance-and-ethics.md]_
+
+_Communication decoding_
+: When KSV sends letter in  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Communication drafting_
+: - Standard correspondence with KSV, Sozialamt, courts  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_companion paper стал «Синдромом Золушки»_
+: вы уже видели в предыдущем переводе  
+  _→ [248-приложение-c-архитектура-быстрого-старта-для-sgb-а|02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md]_
+
+_Compatibility Level_
+: целое число от 0 до 3, характеризующее  
+  _→ [07-2-terminology|02-anthropic-vacancies/07-2-terminology.md]_
+
+_Compliance tracking_
+: Agent flags upcoming reviews,  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Component 2 — Discovery Engine_
+: Continuously monitors  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+_Component 7 — Audit Log_
+: Comprehensive record of all  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+_Composite Skills Agent_
+: 21 yoga teachers metaphor, Type 1  
+  _→ [355-существующие-документы-dhlab-твой-context|02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md]_
+
+_Concrete example_
+: A social worker in Diakonie or  
+  _→ [173-4-ten-domains-of-application|02-anthropic-vacancies/173-4-ten-domains-of-application.md]_
+
+_Configuration management_
+: low per-principal cost  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_Consensus_
+: результат сопоставления найденных концептов между  
+  _→ [07-2-terminology|02-anthropic-vacancies/07-2-terminology.md]_
+
+_Contact for discussion_
+: [author's GitHub issues, email  
+  _→ [164-10-appendices|02-anthropic-vacancies/164-10-appendices.md]_
+
+_Contribution bonuses_
+: measurable high-impact work  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Contribution bridge_
+: Anonymized link from private instance  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Contributor A_
+: Retired German law professor, 20 hours/week  
+  _→ [159-5-economic-model|02-anthropic-vacancies/159-5-economic-model.md]_
+
+_Contributor assembly_
+: Annual gathering of all contributors  
+  _→ [160-6-governance-and-ethics|02-anthropic-vacancies/160-6-governance-and-ethics.md]_
+
+_Contributor B_
+: Disabled senior engineer (like document  
+  _→ [159-5-economic-model|02-anthropic-vacancies/159-5-economic-model.md]_
+
+_Contributor C_
+: Domain expert in Belarus, 25 hours/week  
+  _→ [159-5-economic-model|02-anthropic-vacancies/159-5-economic-model.md]_
+
+_Contributor D_
+: Career-switcher PhD teacher in Spain, 10  
+  _→ [159-5-economic-model|02-anthropic-vacancies/159-5-economic-model.md]_
+
+_Contributor fees_
+: explicit zero (0%) platform fees for  
+  _→ [159-5-economic-model|02-anthropic-vacancies/159-5-economic-model.md]_
+
+_Coordinator development_
+: substantial one-time cost for  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_Coordinator operation_
+: low marginal cost per principal  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_Counterparties_
+: Companies, projects, foundations, clients  
+  _→ [173-4-ten-domains-of-application|02-anthropic-vacancies/173-4-ten-domains-of-application.md]_
+
+_Cowork_
+: уже частично то, что вы хотите](#cowork-это-уже-частично-то-что-вы-хотите)  
+  _→ [303-приложение-визуализация-позиции-в-серии|02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md]_
+
+_Critical caveat_
+: Must be paired with human advocate  
+  _→ [173-4-ten-domains-of-application|02-anthropic-vacancies/173-4-ten-domains-of-application.md]_
+
+_Critical clarification_
+: The agent represents the **social  
+  _→ [173-4-ten-domains-of-application|02-anthropic-vacancies/173-4-ten-domains-of-application.md]_
+
+_Cultural awareness_
+: - Русскоязычное tech community ценит directness, technical depth, скептичность к hype  
+  _→ [350-твои-языки-и-культурные-nuances|02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md]_
+
+_Curation_
+: Out of 50 weekly opportunities, agent  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Current state_
+: Legal frameworks are immature  
+  _→ [217-6-risks-specific-to-this-category|02-anthropic-vacancies/217-6-risks-specific-to-this-category.md]_
+
+
+h2. D
+
+_d as proto-Representative-Agent для тебя,_
+: evidence that approach works  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Daily briefing_
+: Agent provides Stefan with morning  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Defensive posture_
+: Justifying existence, apologizing for being AI  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+_Deliverables_
+: - Folder structure conventions (already in repository)  
+  _→ [314-6-refined-ingit-scope-with-cowork-in-mind|02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md]_
+
+_Design choice 1_
+: Generate, do not publish  
+  _→ [214-3-empirical-case-study-обучай|02-anthropic-vacancies/214-3-empirical-case-study-обучай.md]_
+
+_Design choice 2_
+: Apply standards, do not impose them  
+  _→ [214-3-empirical-case-study-обучай|02-anthropic-vacancies/214-3-empirical-case-study-обучай.md]_
+
+_Design choice 3_
+: One-click integration with existing  
+  _→ [214-3-empirical-case-study-обучай|02-anthropic-vacancies/214-3-empirical-case-study-обучай.md]_
+
+_Determinism_
+: Given the same project state and same Cowork  
+  _→ [312-4-the-symbiotic-architecture|02-anthropic-vacancies/312-4-the-symbiotic-architecture.md]_
+
+_DevRel (Developer Relations)_
+: профессия в tech companies где люди identify талантливых developers в community, связывают их с company resources, facilitate их contributions  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Direction_
+: Reactive within professional context  
+  _→ [212-1-the-five-type-typology-of-principal-side-agents|02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md]_
+
+_Discovery_
+: Agent monitors open-source mesh networking  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Distributed_
+: peer review by qualified practitioners  
+  _→ [257-4-the-sub-agent-registry|02-anthropic-vacancies/257-4-the-sub-agent-registry.md]_
+
+_Document 10 (Lorenzo Specification) сразу_
+: самое substantive next step  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Document organization_
+: Agent indexes all his  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Document status_
+: Working draft, seeking feedback  
+  _→ [164-10-appendices|02-anthropic-vacancies/164-10-appendices.md]_
+
+_Documentation_
+: меньше "write once", больше "iterate with AI"  
+  _→ [113-6-почему-это-валидный-паттерн-для-ai-assisted-work|02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md]_
+
+_Double-Triangle Architecture_
+: The topology where each  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Drafting_
+: Outreach messages, blog posts, documentation, code drafts  
+  _→ [351-что-ты-можешь-делать|02-anthropic-vacancies/351-что-ты-можешь-делать.md]_
+
+_Drafting support_
+: When he needs to file Widerspruch,  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+
+h2. E
+
+_each_
+: candidate for a Protocol 3 bridge  
+  _→ [145-8-call-to-action|02-anthropic-vacancies/145-8-call-to-action.md]_
+
+_Each sub-agent in the configuration_
+: Type 1-style Professional  
+  _→ [256-3-what-makes-a-composite-skills-agent|02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md]_
+
+_Easy decline path_
+: > «Если это не interesting вам или timing not right — просто игнорируйте это сообщение, no offence taken  
+  _→ [357-твоя-коммуникация-в-outreach|02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md]_
+
+_Ecosystem_
+: набор репозиториев, участвующих в одной федерации  
+  _→ [07-2-terminology|02-anthropic-vacancies/07-2-terminology.md]_
+
+_eer Life Sciences Beneficial Deployments)_
+: прямо та ниша, где ваш бэкграунд по помощи индивидуалам в социальной системе становится преимуществом, а не экзотикой  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Effort_
+: 2-4 weeks development  
+  _→ [313-5-four-integration-paths-in-order-of-accessibility|02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md]_
+
+_Effort when API available_
+: 1-2 weeks for template  
+  _→ [313-5-four-integration-paths-in-order-of-accessibility|02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md]_
+
+_Effort when possible_
+: 3-6 months for full integration  
+  _→ [313-5-four-integration-paths-in-order-of-accessibility|02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md]_
+
+_Embedded professional context_
+: Yes (ФГОС, methodologies)  
+  _→ [214-3-empirical-case-study-обучай|02-anthropic-vacancies/214-3-empirical-case-study-обучай.md]_
+
+_Employment law_
+: Foundation-contributor relationship  
+  _→ [160-6-governance-and-ethics|02-anthropic-vacancies/160-6-governance-and-ethics.md]_
+
+_Engagement_
+: Project welcomes Mariya as advisor  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_ensemble methods_
+: несколько моделей → voting  
+  _→ [112-5-связь-с-существующими-методологиями|02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md]_
+
+_Entitlement identification_
+: Agent identifies benefits  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Escalation_
+: When complexity exceeds agent capability,  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Evidence Envelope_
+: стандарт, по которому любой вывод системы можно обратно привязать к странице, координате, фрагменту текста или истории изменения  
+  _→ [09-architectural-gaps|01-svyazi/09-architectural-gaps.md]_
+
+_Evidence of demand_
+: - Substantial LinkedIn/professional network discussions about  
+  _→ [162-8-risk-analysis|02-anthropic-vacancies/162-8-risk-analysis.md]_
+
+_Evidence that quality achievable_
+: - Existing open-source communities produce high-quality work  
+  _→ [162-8-risk-analysis|02-anthropic-vacancies/162-8-risk-analysis.md]_
+
+_evidence-first card graph_
+: привести Card Envelope к одному формату, внедрить Evidence Envelope и сделать два типа карточек — {{person}} и {{project}}, плюс {{episode}} как сырой контейнер  
+  _→ [12-roadmap|01-svyazi/12-roadmap.md]_
+
+_Example use cases_
+: - Retired German law professor contributing to legal pattern  
+  _→ [156-2-target-populations|02-anthropic-vacancies/156-2-target-populations.md]_
+
+_Examples_
+: ChatGPT, Claude, Cursor, GitHub Copilot, Claude  
+  _→ [212-1-the-five-type-typology-of-principal-side-agents|02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md]_
+
+_Excessive caveats_
+: Disclaimers что smother every statement  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+_Excessive enthusiasm_
+: Multiple «!» marks, exclamatory praise  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+_Existing analog_
+: This pattern is already embodied in how  
+  _→ [261-8-seven-domains-of-application|02-anthropic-vacancies/261-8-seven-domains-of-application.md]_
+
+_Existing implementation_
+: «Обучай» (Russia), TeachAI tools  
+  _→ [218-7-application-domains|02-anthropic-vacancies/218-7-application-domains.md]_
+
+_Existing infrastructure components_
+: - _Hermes Agent_ (Nous Research, MIT): Personal autonomous agent  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+_Existing solutions_
+: LinkedIn, Upwork, Toptal — but these  
+  _→ [173-4-ten-domains-of-application|02-anthropic-vacancies/173-4-ten-domains-of-application.md]_
+
+_Extensions required for OKWF_
+: - Agent registry (AI assistants and meta-agents as first-class  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_External audit_
+: Independent review of platform  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_External interaction_
+: Communicates with parties beyond  
+  _→ [172-3-what-makes-a-representative-agent|02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md]_
+
+_External representation_
+: role of Representative  
+  _→ [256-3-what-makes-a-composite-skills-agent|02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md]_
+
+
+h2. F
+
+_Failures for target populations_
+: - Requires relocation or strict remote eligibility  
+  _→ [157-3-why-existing-solutions-fail|02-anthropic-vacancies/157-3-why-existing-solutions-fail.md]_
+
+_Fake urgency_
+: «You must act now», «window closing»  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+_Fallback_
+: адаптер вернул статические (заранее заготовленные)  
+  _→ [77-2-terminology|02-anthropic-vacancies/77-2-terminology.md]_
+
+_Family harms_
+: reduced contribution to household economics,  
+  _→ [155-1-problem-statement|02-anthropic-vacancies/155-1-problem-statement.md]_
+
+_FDE_
+: исполнительская роль на чужую продуктовую повестку  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Federated_
+: multiple curating organizations operate, each  
+  _→ [257-4-the-sub-agent-registry|02-anthropic-vacancies/257-4-the-sub-agent-registry.md]_
+
+_Federation Protocol_
+: Standard interfaces for agents  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+_ferences напоказ (название Lorenzo Medici_
+: inside reference для DHLab, не constant talking point)  
+  _→ [349-твоя-личность|02-anthropic-vacancies/349-твоя-личность.md]_
+
+_First level_
+: Principal-platform direct resolution  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_Five onboarding paths_
+: от ручного адаптера до полностью  
+  _→ [76-1-introduction|02-anthropic-vacancies/76-1-introduction.md]_
+
+_For affected individuals (clients)_
+: - More cases successfully advocated  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_For broader project_
+: - Reference implementation for OKWF Professional Colleague  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_For knowledge ecosystem_
+: - Public pattern library of successful approaches  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_For OKWF specifically_
+: Deploy Professional Colleague  
+  _→ [220-9-relationship-to-other-agent-types|02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md]_
+
+_For practitioners_
+: - 30-50% time reduction on routine drafting  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_fork_
+: один конкретный живой человек, который счёл концепт достаточно интересным, чтобы взять себе копию  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Forward compatibility_
+: новые версии протокола совместимы со старыми  
+  _→ [06-1-introduction|02-anthropic-vacancies/06-1-introduction.md]_
+
+_Forward Deployed Engineer_
+: человек, который приходит к крупному клиенту с реальной предметной проблемой, строит прототип на Claude, доводит его до продакшена внутри клиентского контура, параллельно скармливая фидбэк продуктовой команде  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Foundation model, которую мы обсуждаем_
+: infrastructure, в которой вы бы thrive  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_Foundation-friendly economics_
+: Modest budget viable;  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Fourth level_
+: Regulatory complaint or legal action  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_Full Consensus_
+: концепт присутствует в _всех_ Repos,  
+  _→ [20-8-consensus-algorithm|02-anthropic-vacancies/20-8-consensus-algorithm.md]_
+
+_Function_
+: Authors and performers focused on craft  
+  _→ [171-2-historical-precedents-agents-as-civilizational-i|02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]_
+
+_Funding sources_
+: - Corporate sponsorships (core unrestricted funds)  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+
+h2. G
+
+_Generic compliments_
+: «Amazing work!», «Incredible insight!»  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+_Geographic concentration_
+: agents serve clients in  
+  _→ [171-2-historical-precedents-agents-as-civilizational-i|02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]_
+
+_Get in touch_
+: via [Issues](https://github  
+  _→ [68-about|docs/02-anthropic-vacancies/68-about.md]_
+
+_GitHub archive flag_
+: одна кнопка, репо остаётся читаемым но помечается «не активен»  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_GitHub-аккаунт svend4_
+: сейчас центральная точка организации ваших 70 проектов и вашей будущей founder-истории  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_GitHubTopicAdapter_
+: discovery по GitHub топику  
+  _→ [97-22-glossary-of-reference-examples|02-anthropic-vacancies/97-22-glossary-of-reference-examples.md]_
+
+_Goal_
+: InGit becomes usable as Cowork substrate  
+  _→ [314-6-refined-ingit-scope-with-cowork-in-mind|02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md]_
+
+_Google DeepMind_
+: estimated 400+ open positions  
+  _→ [155-1-problem-statement|02-anthropic-vacancies/155-1-problem-statement.md]_
+
+_Google.org_
+: established corporate philanthropy  
+  _→ [163-9-call-for-partnership|02-anthropic-vacancies/163-9-call-for-partnership.md]_
+
+_Graduated participation model_
+: entry at any capacity,  
+  _→ [153-executive-summary|02-anthropic-vacancies/153-executive-summary.md]_
+
+_Graduation structure_
+: - Level 0: Onboarding quests (2-4 weeks)  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Guild councils_
+: Each guild has elected 3-person council  
+  _→ [160-6-governance-and-ethics|02-anthropic-vacancies/160-6-governance-and-ethics.md]_
+
+_Guild functions_
+: - Skill validation and graduation  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Guild-based community structure_
+: persistent professional  
+  _→ [153-executive-summary|02-anthropic-vacancies/153-executive-summary.md]_
+
+
+h2. H
+
+_Hapax%_
+: доля слов, встречающихся ровно 1 раз  
+  _→ [VOCABULARY|VOCABULARY.md]_
+
+_Header warning_
+: обязательный блок в начале документов в  
+  _→ [122-глоссарий|02-anthropic-vacancies/122-глоссарий.md]_
+
+_Header warning в Appendix A_
+: то, что можно копи-пастить  
+  _→ [122-глоссарий|02-anthropic-vacancies/122-глоссарий.md]_
+
+_Health Score 82/100_
+: хорошо, но неясно по какому алгоритму  
+  _→ [ACTION_ITEMS|ACTION_ITEMS.md]_
+
+_HOLD_
+: избегай для новых проектов  
+  _→ [TECH_RADAR|TECH_RADAR.md]_
+
+_Hollywood_
+: relationship-intensive  
+  _→ [171-2-historical-precedents-agents-as-civilizational-i|02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]_
+
+_Homogenization_
+: разные типы знаний (методология, семантика, символизм)  
+  _→ [06-1-introduction|02-anthropic-vacancies/06-1-introduction.md]_
+
+_honest take: existing meta-agents сейчас_
+: humans в management roles  
+  _→ [133-обратная-связь|02-anthropic-vacancies/133-обратная-связь.md]_
+
+_Hype language_
+: «AI revolutionizes everything», «paradigm shift», «game-changer»  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+
+h2. I
+
+_iant C concept document с Lorenzo central_
+: outreach-ready document для Anthropic  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Identification_
+: > «Здравствуйте, [имя]  
+  _→ [357-твоя-коммуникация-в-outreach|02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md]_
+
+_ied AI EMEA понижаю с primary на tertiary_
+: fallback, если остальное не сработает, не флагман  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_ilus» как имя папки для внешнего читателя_
+: метафора без контекста, и она сбивает с толку на фоне отдельного nautilus репо  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Impact_
+: High (foundational failure)  
+  _→ [162-8-risk-analysis|02-anthropic-vacancies/162-8-risk-analysis.md]_
+
+_Implementation independence_
+: спецификация достаточна для написания  
+  _→ [06-1-introduction|02-anthropic-vacancies/06-1-introduction.md]_
+
+_implementation meeting its requirements"_
+: сильный сигнал технической зрелости для reviewers  
+  _→ [104-appendix-c-references|02-anthropic-vacancies/104-appendix-c-references.md]_
+
+_Implication : «Habr Scout»_
+: только русскоязычный layer  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Individual harms_
+: loss of professional identity, social  
+  _→ [155-1-problem-statement|02-anthropic-vacancies/155-1-problem-statement.md]_
+
+_Individual Level_
+: Each principal-agent relationship  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_info1_
+: 74 документа с α-уровнями, методологический угол  
+  _→ [27-15-glossary-of-examples|02-anthropic-vacancies/27-15-glossary-of-examples.md]_
+
+_InGit_
+: ground on which Cowork operates effectively  
+  _→ [311-3-what-ingit-provides-that-cowork-lacks|02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md]_
+
+_InGit's contribution здесь_
+: structured Git workflows (Git hooks, validation, encryption)  
+  _→ [303-приложение-визуализация-позиции-в-серии|02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md]_
+
+_Inheritance bridge_
+: Link from private instance to public  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Initial development (Year 1)_
+: - 1 senior legal expert (curator) full-time: €100,000  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Integration_
+: A practitioner uses both  
+  _→ [220-9-relationship-to-other-agent-types|02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md]_
+
+_Integration challenge_
+: Layer C (interface layer) of Type  
+  _→ [220-9-relationship-to-other-agent-types|02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md]_
+
+_Internal audit_
+: Principal reviews agent actions  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_Issues_
+: вопросы, предложения, сообщения об ошибках  
+  _→ [67-о-проекте|02-anthropic-vacancies/67-о-проекте.md]_
+
+_itecture (из нашего вчерашнего документа)_
+: архитектурная форма принципа «divide and coordinate»:  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+
+h2. J
+
+_json )_
+: open item, который легко заметить  
+  _→ [104-appendix-c-references|02-anthropic-vacancies/104-appendix-c-references.md]_
+
+
+h2. K
+
+_K/мес MRR_
+: уже leverage для любого следующего шага, включая разговор с Anthropic Institute о grant/partnership  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Keep and focus on_
+: - File structure conventions  
+  _→ [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md]_
+
+_Key activities_
+: - Establish legal entity (non-profit foundation in Germany or  
+  _→ [161-7-phased-rollout-plan|02-anthropic-vacancies/161-7-phased-rollout-plan.md]_
+
+_Knowledge lookup_
+: - Relevant SGB statutes (IX, XII primarily)  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Knowledge organization_
+: Structuring CardIndex entries, profile databases, project metadata  
+  _→ [351-что-ты-можешь-делать|02-anthropic-vacancies/351-что-ты-можешь-делать.md]_
+
+_Konstantin Chukavin (Обучай)_
+: Profession-wide AI deployment example  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+
+h2. L
+
+_l pilot to mature ecosystem This_
+: architecture skilled work has needed  
+  _→ [266-13-closing|02-anthropic-vacancies/266-13-closing.md]_
+
+_Large Language Models_
+: Foundation for natural language  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+_Layer 1 — Ingestion_
+: Svyazi-style hybrid extraction (Чуян pattern)  
+  _→ [366-технический-stack-svyazi-2-0-foundation|02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
+
+_Layer 2 — Knowledge_
+: knowledge-space (Анастасия, MIT)  
+  _→ [366-технический-stack-svyazi-2-0-foundation|02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
+
+_Layer 3 — Kernel_
+: AgentFS-style file architecture (kksudo pattern, MIT)  
+  _→ [366-технический-stack-svyazi-2-0-foundation|02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
+
+_Layer 4 — Memory_
+: Yodoca consolidation + NGT Memory associations  
+  _→ [366-технический-stack-svyazi-2-0-foundation|02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
+
+_Layer 5 — Evidence_
+: research-docs/LiteParse forensic RAG (Apache 2  
+  _→ [366-технический-stack-svyazi-2-0-foundation|02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
+
+_Layer 6 — Orchestration_
+: mclaude + AI Factory + Rufler (all MIT)  
+  _→ [366-технический-stack-svyazi-2-0-foundation|02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
+
+_Layer 7 — Execution_
+: LiteLLM + Auto AI Router + Tool Search  
+  _→ [366-технический-stack-svyazi-2-0-foundation|02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
+
+_Layer 8 — Security_
+: SENTINEL + path guards + PII separation  
+  _→ [366-технический-stack-svyazi-2-0-foundation|02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md]_
+
+_layer isolation_
+: personal assistants and team-level orchestration  
+  _→ [138-1-why-single-triangle-models-are-incomplete|02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md]_
+
+_Legal audit_
+: Cooperation with regulatory inquiries  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_lems with rigorous architectural thinking_
+: серьёзный intellectual achievement  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Lexical density_
+: доля контентных слов (≠ стоп-слова)  
+  _→ [VOCABULARY|VOCABULARY.md]_
+
+_Limitations_
+: Only economically viable for clients with  
+  _→ [171-2-historical-precedents-agents-as-civilizational-i|02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]_
+
+_LiteLLM — claimed MIT_
+: actually well-known, можно verify  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Local autonomy_
+: каждый репо остаётся полностью функциональным без  
+  _→ [06-1-introduction|02-anthropic-vacancies/06-1-introduction.md]_
+
+_Lock-in_
+: данные становятся заложниками платформы  
+  _→ [06-1-introduction|02-anthropic-vacancies/06-1-introduction.md]_
+
+_logs auditable by practitioner This_
+: starting sketch, not a complete specification  
+  _→ [228-appendix-c-quick-start-architecture-for-sgb-advoca|02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]_
+
+_Long-term horizon_
+: Foundation incentives align with  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_Long-term incentives_
+: reputation and credentials  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Lorenzo_
+: workflow tool used by Max»  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Loss of authorship_
+: каждый автор вынужден работать в чужой модели,  
+  _→ [06-1-introduction|02-anthropic-vacancies/06-1-introduction.md]_
+
+_Low barrier to entry_
+: подключение существующего репо к федерации  
+  _→ [06-1-introduction|02-anthropic-vacancies/06-1-introduction.md]_
+
+_Lower triangle_
+: Individual human + personal AI assistants  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+
+h2. M
+
+_man agency и dignity in AI-augmented work_
+: valuable contribution независимо от того, какие конкретные предложения survive scrutiny  
+  _→ [288-appendix-position-in-series-visualization|02-anthropic-vacancies/288-appendix-position-in-series-visualization.md]_
+
+_Manageable scope_
+: Single legal sub-domain in single  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_managers, которые могут быть заменены AI,_
+: влиятельная группа, которая будет сопротивляться  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Manipulation_
+: Guilt, FOMO, pressure tactics  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+_Mass replication_
+: Yes (same product for all 93,000+  
+  _→ [214-3-empirical-case-study-обучай|02-anthropic-vacancies/214-3-empirical-case-study-обучай.md]_
+
+_Match_
+: Agent identifies a small civic project in  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Maturity_
+: Rapid deployment in 2024-2026  
+  _→ [218-7-application-domains|02-anthropic-vacancies/218-7-application-domains.md]_
+
+_Mechanics_
+: Agents typically take 10-20% commission of  
+  _→ [171-2-historical-precedents-agents-as-civilizational-i|02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]_
+
+_Mechanism_
+: - OKWF foundation provides EoR-equivalent services  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Meeting‑to‑graph pipeline_
+: Yttri уже мыслит встречу как workspace с транскрипцией, summary и связями; Svyazi‑2  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_meta_
+: 256 CA-правил, гексаграммы, символьный угол  
+  _→ [27-15-glossary-of-examples|02-anthropic-vacancies/27-15-glossary-of-examples.md]_
+
+_Meta-agent_
+: An AI (or AI-augmented human) coordinating  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Methodological_
+: {{info1}} смотрит на концепты _с позиции применения_  
+  _→ [39-angle-perspective|02-anthropic-vacancies/39-angle-perspective.md]_
+
+_Milestone awards_
+: guild-level recognition with tangible  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Mission alignment_
+: Operates within explicit ethical and  
+  _→ [172-3-what-makes-a-representative-agent|02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md]_
+
+_Mistral, Cohere, Inflection, xAI_
+: collectively 1000+ open  
+  _→ [155-1-problem-statement|02-anthropic-vacancies/155-1-problem-statement.md]_
+
+_Mitigation_
+: - Periodic explicit review of agent influence  
+  _→ [177-8-risks-and-mitigations|02-anthropic-vacancies/177-8-risks-and-mitigations.md]_
+
+_Mitigations_
+: - Aggressive outreach during Phase 1 recruitment  
+  _→ [162-8-risk-analysis|02-anthropic-vacancies/162-8-risk-analysis.md]_
+
+_Model Context Protocol (MCP)_
+: Anthropic, по которому LLM обращается к разным инструментам через единый интерфейс  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Mozilla_
+: commitment to open source and inclusive tech  
+  _→ [163-9-call-for-partnership|02-anthropic-vacancies/163-9-call-for-partnership.md]_
+
+_Multilingual work_
+: Translating, localizing, cultural-adapting communications  
+  _→ [351-что-ты-можешь-делать|02-anthropic-vacancies/351-что-ты-можешь-делать.md]_
+
+_Multi‑hop объяснения_
+: Graph RAG добавляет ответы на вопросы о связях и косвенных маршрутах между объектами, где обычный chunk‑RAG ломается  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_MVP_
+: минимально жизнеспособный прототип за 12-18 месяцев  
+  _→ [NARRATIVE|NARRATIVE.md]_
+
+
+h2. N
+
+_n5/daten7/daten12/daten14/daten23/daten40_
+: итерации одной идеи, одна из которых уже выжила как daten  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_nages Larger Caseload Better Stefan_
+: social worker at Diakonie in Dresden managing  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Native format_
+: исходный формат данных в Repo, определяемый автором  
+  _→ [07-2-terminology|02-anthropic-vacancies/07-2-terminology.md]_
+
+_Natural fit partners_
+: - _Anthropic Public Benefit team_: explicit mission alignment  
+  _→ [163-9-call-for-partnership|02-anthropic-vacancies/163-9-call-for-partnership.md]_
+
+_nautilus_
+: папка внутри pro2 , а не отдельный самостоятельный проект  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Nautilus Portal Protocol_
+: именно такой infrastructure layer , и он у вас уже наполовину реализован  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Nautilus Portal Protocol v1.1_
+: - 6,782 LOC Python, 60 tests passing, 0 mypy errors  
+  _→ [164-10-appendices|02-anthropic-vacancies/164-10-appendices.md]_
+
+_Negative_
+: - Cross-repo queries дороже: требуется вызов всех адаптеров  
+  _→ [94-19-adr-001-federation-over-merging|02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md]_
+
+_Net effort reduction_
+: ~12 months work removed  
+  _→ [314-6-refined-ingit-scope-with-cowork-in-mind|02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md]_
+
+_Net timeline_
+: From 10-16 months to roughly 12 months, with  
+  _→ [314-6-refined-ingit-scope-with-cowork-in-mind|02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md]_
+
+_Network effects available_
+: Successful case anonymized  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_New_
+: Q6 as normative concept (section 8, ADR-002)  
+  _→ [103-appendix-b-change-log|02-anthropic-vacancies/103-appendix-b-change-log.md]_
+
+_NGT Memory автор_
+: Hebbian associative graph  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+_No external communications_
+: Yes (does not contact  
+  _→ [214-3-empirical-case-study-обучай|02-anthropic-vacancies/214-3-empirical-case-study-обучай.md]_
+
+_No full-replacement income_
+: contributors retain other  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Node_
+: A human participant in the architecture  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Notable opportunity_
+: German social law / disability rights  
+  _→ [218-7-application-domains|02-anthropic-vacancies/218-7-application-domains.md]_
+
+_NPP_
+: Nautilus Portal Protocol  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+
+h2. O
+
+_ObsidianAdapter_
+: локальный Obsidian vault ([[wikilinks]])  
+  _→ [97-22-glossary-of-reference-examples|02-anthropic-vacancies/97-22-glossary-of-reference-examples.md]_
+
+_omises (Projects + GitHub + organic flow)_
+: реалистично best you can do until industry catches up  
+  _→ [272-appendix-d-connection-diagram|02-anthropic-vacancies/272-appendix-d-connection-diagram.md]_
+
+_on 1 : Составить Часть I (Видение) сейчас_
+: долгосрочная артикуляция, относительно независимая от вопросов capacity  
+  _→ [343-lorenzo-catalyst-agent-глубокая-проработка-специфи|02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md]_
+
+_Onboarding Path_
+: один из пяти стандартных способов подключения  
+  _→ [77-2-terminology|02-anthropic-vacancies/77-2-terminology.md]_
+
+_Open Knowledge Work Foundation_
+: six-layer infrastructure proposal  
+  _→ [355-существующие-документы-dhlab-твой-context|02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md]_
+
+_OpenAI_
+: estimated 600+ open positions  
+  _→ [155-1-problem-statement|02-anthropic-vacancies/155-1-problem-statement.md]_
+
+_Option Delegate_
+: попросить третьего Claude-agent сделать  
+  _→ [115-8-ограничения-и-открытые-вопросы|02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md]_
+
+_Option F : Pause exploration_
+: substantial concept, нужно time to digest  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Option Freeze_
+: явно пометить документ как «frozen at  
+  _→ [115-8-ограничения-и-открытые-вопросы|02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md]_
+
+_Option Revert_
+: удалить один из вариантов вручную, принять  
+  _→ [115-8-ограничения-и-открытые-вопросы|02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md]_
+
+_or you using другой Claude/GPT session)_
+: validates capability of doing this analysis with AI tools  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_orchestration and federation_
+: mclaude или AI Factory на moderation/build side, plus local‑first voice intake и CRDT[^crdt] sync для мультидевайсности  
+  _→ [12-roadmap|01-svyazi/12-roadmap.md]_
+
+_Origin_
+: Late 19th century in Europe and America, formalized  
+  _→ [171-2-historical-precedents-agents-as-civilizational-i|02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]_
+
+_Original plan_
+: Build one comprehensive Professional  
+  _→ [262-9-integration-with-okwf-infrastructure|02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md]_
+
+_Outcome_
+: Mariya contributes 8 hours/week as advisor  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Overclaiming_
+: «I am dedicated to your success» (вместо: «my function is to connect creators»)  
+  _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+
+h2. P
+
+_Partial Consensus_
+: концепт в 2+ Repos, но не во всех  
+  _→ [20-8-consensus-algorithm|02-anthropic-vacancies/20-8-consensus-algorithm.md]_
+
+_Patch‑driven learning_
+: AI Factory накапливает патчи и умеет эволюционно обновлять skills по повторяющимся классам ошибок  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_Pattern library_
+: Two-tier knowledge structure with public  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_pattern library с contribution bridges_
+: более formalized version того же механизма  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Pattern recognition_
+: Идентифицировать architectural patterns, philosophical alignments, complementarities  
+  _→ [351-что-ты-можешь-делать|02-anthropic-vacancies/351-что-ты-можешь-делать.md]_
+
+_Persistence_
+: Professional context persists across sessions  
+  _→ [212-1-the-five-type-typology-of-principal-side-agents|02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md]_
+
+_Persistent Memory_
+: Long-term storage of profile,  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+_Persistent operation_
+: Runs continuously, not session-based  
+  _→ [172-3-what-makes-a-representative-agent|02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md]_
+
+_Personal expertise_
+: Author has direct experience and  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Personal note from author_
+: This is the domain where the  
+  _→ [173-4-ten-domains-of-application|02-anthropic-vacancies/173-4-ten-domains-of-application.md]_
+
+_Persönliches Budget Wissensdatenbank)_
+: ваша SGB-рабочая станция, связанная с реальными делами (S 6 SO 58/26 ER, S 7 SO 99/25 из userMemories)  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Phase 0 (Months 1-6)_
+: Bootstrap with 5-10 advocates,  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Phase 1_
+: Build a small set of broadly applicable sub-agents  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_Phase 1 (months 1-6)_
+: Secure anchor partnership (€2-3M  
+  _→ [159-5-economic-model|02-anthropic-vacancies/159-5-economic-model.md]_
+
+_Phase 1 (Months 6-18)_
+: Expand to 50-100 advocates  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Phase 2_
+: Expand to more specialized sub-agents based on  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_Phase 2 (Months 18-36)_
+: Open to all interested practitioners  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Phase 3_
+: Federation with external sub-agent providers  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_Phase 3 (months 6-18)_
+: Launch commercial project revenue  
+  _→ [159-5-economic-model|02-anthropic-vacancies/159-5-economic-model.md]_
+
+_Phase 3 (Years 3+)_
+: Expand to adjacent domains (other German  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Phase 4_
+: Cross-profession expansion  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_Phase 4 (Year 2-3)_
+: Develop endowment through success-contingent  
+  _→ [159-5-economic-model|02-anthropic-vacancies/159-5-economic-model.md]_
+
+_Philosophical Questions What_
+: nature of agency when significant  
+  _→ [179-10-open-questions|02-anthropic-vacancies/179-10-open-questions.md]_
+
+_Pilot architecture refined_
+: - Each advocate has InGit Project for their case work  
+  _→ [316-8-implications-for-nautilus-and-okwf|02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md]_
+
+_Platform Level_
+: System-wide policies for all agents  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_Portal_
+: implementation NPP, которая загружает registry, инстанцирует  
+  _→ [07-2-terminology|02-anthropic-vacancies/07-2-terminology.md]_
+
+_PortalEntry_
+: унифицированная структура данных, в которую  
+  _→ [07-2-terminology|02-anthropic-vacancies/07-2-terminology.md]_
+
+_Positive_
+: - Low barrier to entry: существующие Repos подключаются без  
+  _→ [94-19-adr-001-federation-over-merging|02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md]_
+
+_Practical pilot_
+: This is the SGB Advocate Colleague case  
+  _→ [261-8-seven-domains-of-application|02-anthropic-vacancies/261-8-seven-domains-of-application.md]_
+
+_Practical recommendation_
+: Maintain clear distinction  
+  _→ [220-9-relationship-to-other-agent-types|02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md]_
+
+_Practitioners_
+: Teachers, in all subjects and levels  
+  _→ [218-7-application-domains|02-anthropic-vacancies/218-7-application-domains.md]_
+
+_present in Node_1, missing in Node_2»_
+: triggers escalation к meta-agent  
+  _→ [133-обратная-связь|02-anthropic-vacancies/133-обратная-связь.md]_
+
+_Presentation_
+: Agent prepares introduction to project  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Primary_
+: Lawyers specializing in social law (Sozialrecht)  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Principal_
+: Skilled engineer, designer, researcher,  
+  _→ [173-4-ten-domains-of-application|02-anthropic-vacancies/173-4-ten-domains-of-application.md]_
+
+_Principle 4 — Loyalty_
+: Agent serves only principal's  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+_Principle 6 — Reversibility_
+: All agent actions are  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+_Principles_
+: - _Dignified baseline_: all active contributors receive  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Privacy architecture_
+: - Practitioner notes stored encrypted, accessible only to  
+  _→ [228-appendix-c-quick-start-architecture-for-sgb-advoca|02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]_
+
+_pro2_
+: Q6-концепты, граф знаний, семантический угол  
+  _→ [27-15-glossary-of-examples|02-anthropic-vacancies/27-15-glossary-of-examples.md]_
+
+_pro2 , svend4/pro2/blob/main/svend4/meta_
+: пути внутри pro2 с дублированным префиксом svend4/ , которых, скорее всего, не существует  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Probability_
+: Low (given 2500+ unfilled positions at frontier  
+  _→ [162-8-risk-analysis|02-anthropic-vacancies/162-8-risk-analysis.md]_
+
+_Procedural management_
+: - Deadline tracking (Fristwahrung)  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Procedural standards_
+: - Sozialgericht procedural conventions  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Procedural tracking_
+: Agent maintains awareness of  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Profession evolution_
+: Academic research increasingly bridges  
+  _→ [261-8-seven-domains-of-application|02-anthropic-vacancies/261-8-seven-domains-of-application.md]_
+
+_Professional Colleague Agents_
+: Five-type taxonomy (0-4), «Обучай» case  
+  _→ [355-существующие-документы-dhlab-твой-context|02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md]_
+
+_Professional Simulator, MMO AI Bridge»)_
+: буквально прототип того, о чём вы сейчас говорите  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Progressive enhancement_
+: репо может быть подключён на уровне 0  
+  _→ [06-1-introduction|02-anthropic-vacancies/06-1-introduction.md]_
+
+_Project_
+: папка для чатов , не forum для развития идей  
+  _→ [272-appendix-d-connection-diagram|02-anthropic-vacancies/272-appendix-d-connection-diagram.md]_
+
+_Project bonuses_
+: €500-5000/project for specific deliverables  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Proposed engagement structure_
+: - 3-year commitment at €1-1  
+  _→ [164-10-appendices|02-anthropic-vacancies/164-10-appendices.md]_
+
+_Proposed initial guilds_
+: - _Legal Writing Guild_ — German/EU social and disability  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Proposed structure_
+: - _Base stipend_: €500-1500/month for active contributors  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_protocol_
+: a way for the two triangles  
+  _→ [138-1-why-single-triangle-models-are-incomplete|02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md]_
+
+_Protocol 1_
+: Downward communication within lower triangle  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Protocol 2_
+: Downward communication within upper triangle  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Protocol 3_
+: Cross-triangle negotiation (Assistant-to-Meta  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Protocol Version_
+: semver-версия NPP, объявляемая в  
+  _→ [07-2-terminology|02-anthropic-vacancies/07-2-terminology.md]_
+
+_Provalled approach + lesson learned_
+: сам по себе publishable result, если правильно оформить  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_prune, переэмбеддинг, causal inference;_
+: explain_fact — на вопрос «откуда ты это знаешь?» агент проходит по derived_from-рёбрам до исходных диалогов  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Public audit_
+: Transparency reports on aggregate  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_Public availability_
+: This document is CC BY 4  
+  _→ [164-10-appendices|02-anthropic-vacancies/164-10-appendices.md]_
+
+_Python LOC_
+: базовая метрика масштаба проекта  
+  _→ [110-вопрос-fallback-ratio-как-критический-или-осмыслен|02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md]_
+
+_Python, 3 weeks ago, «ицзин трансформер»)_
+: YiJing-Transformer / NautilusMoME из userMemories  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+
+h2. Q
+
+_Q6 coverage_
+: ключевая метрика конкретного проекта  
+  _→ [110-вопрос-fallback-ratio-как-критический-или-осмыслен|02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md]_
+
+_Q6-координата_
+: 6-битная строка (строка символов «0» и «1»  
+  _→ [77-2-terminology|02-anthropic-vacancies/77-2-terminology.md]_
+
+_Q6-отображение_
+: правило проекции на 6-битный гиперкуб  
+  _→ [79-4-passport-passport-md|02-anthropic-vacancies/79-4-passport-passport-md.md]_
+
+_Q6-соседство_
+: отношение между Q6-координатами с расстоянием  
+  _→ [77-2-terminology|02-anthropic-vacancies/77-2-terminology.md]_
+
+
+h2. R
+
+_Reading_
+: Анализировать любой публичный контент (статьи, repositories, papers, websites)  
+  _→ [351-что-ты-можешь-делать|02-anthropic-vacancies/351-что-ты-можешь-делать.md]_
+
+_Recognition of burden_
+: Yes (addresses 20 hours/week  
+  _→ [214-3-empirical-case-study-обучай|02-anthropic-vacancies/214-3-empirical-case-study-обучай.md]_
+
+_Recommendation_
+: _Begin after one month of Path 1 usage_  
+  _→ [313-5-four-integration-paths-in-order-of-accessibility|02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md]_
+
+_Recoverability_
+: All state lives in files (Git tracked)  
+  _→ [312-4-the-symbiotic-architecture|02-anthropic-vacancies/312-4-the-symbiotic-architecture.md]_
+
+_red vs blue_
+: один агент критикует, другой защищает  
+  _→ [112-5-связь-с-существующими-методологиями|02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md]_
+
+_Reference document_
+: `THE-DOUBLE-TRIANGLE-ARCHITECTURE  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Refined plan_
+: Build a sub-agent registry covering  
+  _→ [262-9-integration-with-okwf-infrastructure|02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md]_
+
+_Relational capital scales_
+: AI can monitor thousands  
+  _→ [171-2-historical-precedents-agents-as-civilizational-i|02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]_
+
+_Relationship_
+: Professional Colleague Agent typically feeds  
+  _→ [220-9-relationship-to-other-agent-types|02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md]_
+
+_Remove or defer_
+: - Desktop GUI (Electron + React)  
+  _→ [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md]_
+
+_Removed from original Phase 1_
+: - Desktop GUI (deferred to "maybe never" given Cowork)  
+  _→ [314-6-refined-ingit-scope-with-cowork-in-mind|02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md]_
+
+_Removed scope_
+: - Desktop GUI: -3 months effort  
+  _→ [314-6-refined-ingit-scope-with-cowork-in-mind|02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md]_
+
+_Replication_
+: One product serves all users  
+  _→ [212-1-the-five-type-typology-of-principal-side-agents|02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md]_
+
+_Representative Agent Layer_
+: Cinderella Syndrome, vulnerable populations  
+  _→ [355-существующие-документы-dhlab-твой-context|02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md]_
+
+_Reputation-based_
+: established sub-agents gain reputation  
+  _→ [257-4-the-sub-agent-registry|02-anthropic-vacancies/257-4-the-sub-agent-registry.md]_
+
+_Research partnership_
+: actually case study for Anthropic's understanding how Claude serves в high-stakes legal/administrative contexts  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Research Synthesis Guild_
+: literature review and synthesis  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Research-docs от LlamaIndex/LiteParse_
+: Claude Code skill, который берёт папку с PDF/DOCX/PPTX/XLSX/изображениями, парсит документы и создаёт HTML-отчёт с цитатами и bounding box’ами прямо на странице PDF  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Resource matching_
+: When city announces new home-meal  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Return on investment for Anthropic_
+: - Talent pipeline that current hiring pipeline cannot reach  
+  _→ [164-10-appendices|02-anthropic-vacancies/164-10-appendices.md]_
+
+_Revenue sharing_
+: when projects serve paying clients,  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Review Methodology v1.0_
+: three-phase methodology  
+  _→ [355-существующие-документы-dhlab-твой-context|02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md]_
+
+_Review без центрального bottleneck_
+: Sequential‑протокол в экспериментах автора даёт качество выше coordinator‑режима на сильных моделях  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_Revised Year 1 budget_
+: Original Document 6 estimate was  
+  _→ [316-8-implications-for-nautilus-and-okwf|02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md]_
+
+_Risk_
+: Confusion about when to use which  
+  _→ [220-9-relationship-to-other-agent-types|02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md]_
+
+_Risk mitigations_
+: - If anchor commitment fails: pivot to foundation-only funding  
+  _→ [161-7-phased-rollout-plan|02-anthropic-vacancies/161-7-phased-rollout-plan.md]_
+
+_Risk sources_
+: - Employment law reclassifying contributors as employees  
+  _→ [162-8-risk-analysis|02-anthropic-vacancies/162-8-risk-analysis.md]_
+
+_rk effects работают против первых игроков_
+: без критической массы бесполезна  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_rkdown-фрагмент, а живой PDF с подсветкой_
+: снимает 95% недоверия к AI-ответам  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_ROI меняется в другую сторону_
+: избыточность больше не люкс, а  
+  _→ [113-6-почему-это-валидный-паттерн-для-ai-assisted-work|02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md]_
+
+_Routine drafting_
+: - Widerspruch against rejected applications  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_routing через вложенные уровни гексаграмм_
+: и есть конвейер матрёшек из вашей формулировки  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+
+h2. S
+
+_Scenario_
+: Over time, agent decisions shape principal's  
+  _→ [177-8-risks-and-mitigations|02-anthropic-vacancies/177-8-risks-and-mitigations.md]_
+
+_Scenario 2 — Cowork pivots_
+: Anthropic redirects toward  
+  _→ [317-9-risks-and-open-questions|02-anthropic-vacancies/317-9-risks-and-open-questions.md]_
+
+_Scenario A : Author документа_
+: potential Lorenzo collaborator или another Catalyst Agent attempt  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Scenario B : Document_
+: intellectual exploration , без commitment к building  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Scenario C : Document_
+: AI-generated синтез (could be Claude или GPT exploration)  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Science Communication Guild_
+: arxiv paper translation  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Screeps особенно интересен_
+: MMO, где вы программируете юнитов на JavaScript, и ваши скрипты работают 24/7 на серверах игры, воюя с другими игроками  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Second level_
+: Independent ombudsman within platform  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_Secondary_
+: Disability rights advocates in NGOs (Sozialverband  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Semantic_
+: {{pro2}} смотрит на мир через _структуру значений_  
+  _→ [49-angle-perspective|02-anthropic-vacancies/49-angle-perspective.md]_
+
+_Sequencing_
+: Professional Colleague Agents are higher-readiness  
+  _→ [220-9-relationship-to-other-agent-types|02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md]_
+
+_Setup_
+: Mariya completes 90-minute conversational  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_Simulator» и «MMO AI Bridge» в одном репо_
+: явная попытка именно этой идеи  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Singular_
+: концепт только в одном Repo  
+  _→ [20-8-consensus-algorithm|02-anthropic-vacancies/20-8-consensus-algorithm.md]_
+
+_Size estimate_
+: 500K+ in OECD countries with relevant skills  
+  _→ [156-2-target-populations|02-anthropic-vacancies/156-2-target-populations.md]_
+
+_social_law + analysis_05_recommendations_
+: буквально исходный материал для их research agenda  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Societal harms_
+: loss of accumulated tacit knowledge,  
+  _→ [155-1-problem-statement|02-anthropic-vacancies/155-1-problem-statement.md]_
+
+_Societal Level_
+: Regulatory frameworks at national/EU  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_Specialization_
+: Deep, single profession  
+  _→ [212-1-the-five-type-typology-of-principal-side-agents|02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md]_
+
+_Specialization by domain_
+: different markets need  
+  _→ [171-2-historical-precedents-agents-as-civilizational-i|02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]_
+
+_Specific connection_
+: > «Заметил, что [другой создатель] работает над [related thing]  
+  _→ [357-твоя-коммуникация-в-outreach|02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md]_
+
+_Specific proposal_
+: > «Предлагаю [concrete next step — call? email exchange? written response к specific question?]»  
+  _→ [357-твоя-коммуникация-в-outreach|02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md]_
+
+_specification и не product documentation_
+: meta-документ о процессе  
+  _→ [122-глоссарий|02-anthropic-vacancies/122-глоссарий.md]_
+
+_Staff Software Engineer, Inference_
+: CUDA/TPU kernel-уровень, низкоуровневые оптимизации по latency и throughput в миллисекундах  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Star of David topology_
+: The six-pointed figure formed by  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Star(n)_
+: n-th level of fractal hierarchy  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Statutory knowledge_
+: - Full SGB IX (rehabilitation, disability)  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Steady state (Year 2+)_
+: - Curation maintenance (0  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Strategic analysis_
+: Risk assessment, opportunity sizing, prioritization  
+  _→ [351-что-ты-можешь-делать|02-anthropic-vacancies/351-что-ты-можешь-делать.md]_
+
+_Strategic autonomy_
+: Makes decisions about what to surface  
+  _→ [172-3-what-makes-a-representative-agent|02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md]_
+
+_Strengths_
+: Stability, benefits, identity, clear accountability  
+  _→ [157-3-why-existing-solutions-fail|02-anthropic-vacancies/157-3-why-existing-solutions-fail.md]_
+
+_structured workspace substrate_
+: file organization, YAML  
+  _→ [307-abstract|02-anthropic-vacancies/307-abstract.md]_
+
+_STTR_
+: стандартизированный TTR по окнам, не зависит от длины  
+  _→ [VOCABULARY|VOCABULARY.md]_
+
+_Sub-agent creation_
+: separate process involving expert  
+  _→ [256-3-what-makes-a-composite-skills-agent|02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md]_
+
+_Sub-agent development_
+: substantial fixed cost per sub-agent  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_Sub-agent maintenance_
+: moderate ongoing cost  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_Sub-agent specializations might include_
+: Drawing fundamentals,  
+  _→ [261-8-seven-domains-of-application|02-anthropic-vacancies/261-8-seven-domains-of-application.md]_
+
+_Substrate_
+: much more achievable scope for an  
+  _→ [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md]_
+
+_Success criteria_
+: - €2-3M committed funding  
+  _→ [161-7-phased-rollout-plan|02-anthropic-vacancies/161-7-phased-rollout-plan.md]_
+
+_Svyazi 2.0_
+: ядро, объединяющее 20+ OSS-проектов  
+  _→ [NARRATIVE|NARRATIVE.md]_
+
+_Svyazi‑2.0_
+: ingestion и нормализация профи  
+  _→ [01-executive-summary|04-ai-collaborations/01-executive-summary.md]_
+
+_Symbolic_
+: {{meta}} смотрит на мир как на **систему дискретных  
+  _→ [59-angle-perspective|02-anthropic-vacancies/59-angle-perspective.md]_
+
+_Synthesis proposals_
+: Generating architectural sketches, integrated solutions, collaboration scenarios  
+  _→ [351-что-ты-можешь-делать|02-anthropic-vacancies/351-что-ты-можешь-делать.md]_
+
+
+h2. T
+
+_t small, expand only as bandwidth permits_
+: realistic , не aspirational  
+  _→ [323-appendix-c-sample-ingit-mcp-server-tool-specificat|02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md]_
+
+_Target_
+: Anthropic Beneficial Deployments team  
+  _→ [164-10-appendices|02-anthropic-vacancies/164-10-appendices.md]_
+
+_Technical Writing Guild_
+: software documentation,  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Tertiary_
+: Self-representing affected individuals (with  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Testing_
+: меньше handcraft, больше auto-generated property tests  
+  _→ [113-6-почему-это-валидный-паттерн-для-ai-assisted-work|02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md]_
+
+_The combinatorial value_
+: central economic insight: a  
+  _→ [260-7-economics-of-combinatorial-replication|02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]_
+
+_The composite agent itself_
+: orchestrator of the lower  
+  _→ [262-9-integration-with-okwf-infrastructure|02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md]_
+
+_The pattern library_
+: _glue_ that binds the upper and  
+  _→ [142-5-pattern-library-as-bridge-between-triangles|02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md]_
+
+_The Pattern There_
+: recurring asymmetry in modern markets — markets for  
+  _→ [170-1-the-cinderella-syndrome-why-quality-stays-invisi|02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md]_
+
+_the Representative Agent_
+: _outer boundary_ of the Lower Triangle — the layer  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+_the structure layer that Cowork needs_
+: substrate for sustained, organized, recoverable,  
+  _→ [307-abstract|02-anthropic-vacancies/307-abstract.md]_
+
+_There_
+: recurring asymmetry in modern markets — markets for  
+  _→ [170-1-the-cinderella-syndrome-why-quality-stays-invisi|02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md]_
+
+_Third level_
+: External arbitration  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_This_
+: Representative Agent  
+  _→ [170-1-the-cinderella-syndrome-why-quality-stays-invisi|02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md]_
+
+_This one_
+: inquiry document, naming a missing layer without  
+  _→ [283-what-this-document-doesn-t-solve|02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md]_
+
+_This paper_
+: seventh in the sequence developed across this  
+  _→ [267-acknowledgments|02-anthropic-vacancies/267-acknowledgments.md]_
+
+_Three-phase review_
+: Methodology for parallel AI-agent  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_tHub уже автоматически отозвал этот токен_
+: занимает обычно от нескольких минут до нескольких часов после обнаружения  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_ti-device vault (3) + Obsidian-as-MCP (2)_
+: уже не три проекта, а единая архитектура захвата-консолидации-доступа, где каждый слой делает то, что умеет лучше всего, и не лезет в чужую зону  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Tier 1 — highest priority collaborators_
+: - _kagvi13 (HMP — HyperCortex Mesh Protocol)_: Decentralized cognitive mesh для AI agents  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+_Tier 2 — strong supporting expertise_
+: - _Алла Чепурова (Wikontic, AIRI)_: Ontology-aligned knowledge graphs  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+_Tier 3 — domain-adjacent_
+: - _Артём (legal AI knowledge graph)_: Louvain community detection в legal КГ  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+_Timeline to formal proposal_
+: - Initial outreach: next 30 days (author can draft warm  
+  _→ [164-10-appendices|02-anthropic-vacancies/164-10-appendices.md]_
+
+_ting Lorenzo Vision (Part I) сразу сейчас_
+: substantive content что useful regardless of Phase 1 decisions  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_tion matching через deep-profile analysis_
+: neither свидание, neither hiring, neither networking  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Topologически полезен_
+: локальная соседство (hamming distance  
+  _→ [54-for-the-curious-philosophy|02-anthropic-vacancies/54-for-the-curious-philosophy.md]_
+
+_Transitional state_
+: merged-to-main состояние документа с  
+  _→ [122-глоссарий|02-anthropic-vacancies/122-глоссарий.md]_
+
+_Transparency disclosure_
+: > «Этот message был drafted мной (Lorenzo) автономно, но Макс review'ил его перед отправкой  
+  _→ [357-твоя-коммуникация-в-outreach|02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md]_
+
+_Transparency norm_
+: Foundation operations expected to  
+  _→ [176-7-governance-and-oversight|02-anthropic-vacancies/176-7-governance-and-oversight.md]_
+
+_TRIAL_
+: стоит попробовать в пилоте  
+  _→ [TECH_RADAR|TECH_RADAR.md]_
+
+_txt_
+: ограничение GitHub на crawling  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Type 1_
+: One agent design serves all practitioners of a  
+  _→ [254-1-why-the-binary-view-is-incomplete|02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md]_
+
+_Type 4_
+: One agent serves one principal, with deep individual  
+  _→ [254-1-why-the-binary-view-is-incomplete|02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md]_
+
+_Typical configurations_
+: A jazz pianist who teaches has  
+  _→ [261-8-seven-domains-of-application|02-anthropic-vacancies/261-8-seven-domains-of-application.md]_
+
+
+h2. U
+
+_Underserved market_
+: Limited commercial competition in  
+  _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
+
+_Unique value proposition from OKWF_
+: - Dignified part-time engagement  
+  _→ [156-2-target-populations|02-anthropic-vacancies/156-2-target-populations.md]_
+
+_Upper triangle_
+: Meta-agent + multiple human participants  
+  _→ [148-appendix-a-glossary|02-anthropic-vacancies/148-appendix-a-glossary.md]_
+
+_Use case_
+: анонс намерения подключить Repo до написания кода  
+  _→ [17-5-compatibility-levels|02-anthropic-vacancies/17-5-compatibility-levels.md]_
+
+_User Interface_
+: Multi-modal access (web, mobile,  
+  _→ [174-5-architectural-specification|02-anthropic-vacancies/174-5-architectural-specification.md]_
+
+
+h2. V
+
+_Vendor lock-in_
+: данные становятся заложниками платформы, экспорт  
+  _→ [76-1-introduction|02-anthropic-vacancies/76-1-introduction.md]_
+
+_Verdict_
+: Fundamentally mismatched to target populations  
+  _→ [157-3-why-existing-solutions-fail|02-anthropic-vacancies/157-3-why-existing-solutions-fail.md]_
+
+
+h2. W
+
+_Web interface, CLI format output_
+: implementation details reference portal, не нормативные  
+  _→ [34-appendix-b-change-log|02-anthropic-vacancies/34-appendix-b-change-log.md]_
+
+_What_
+: minimum AI capability for this architecture?**  
+  _→ [144-7-open-questions|02-anthropic-vacancies/144-7-open-questions.md]_
+
+_What a Sub-Agent_
+: sub-agent in this context is functionally equivalent to a  
+  _→ [257-4-the-sub-agent-registry|02-anthropic-vacancies/257-4-the-sub-agent-registry.md]_
+
+_What is new_
+: possibility of AI infrastructure that mirrors  
+  _→ [266-13-closing|02-anthropic-vacancies/266-13-closing.md]_
+
+_What it is_
+: Persistent professional communities organized  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_What it provides_
+: - Federated knowledge storage across heterogeneous formats  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_What we ask_
+: - Core partnership funding commitment (€1-3M over 3 years)  
+  _→ [163-9-call-for-partnership|02-anthropic-vacancies/163-9-call-for-partnership.md]_
+
+_What works_
+: - Cowork reads InGit structure  
+  _→ [313-5-four-integration-paths-in-order-of-accessibility|02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md]_
+
+_What works that Path 1 doesn't_
+: - Validation enforced automatically  
+  _→ [313-5-four-integration-paths-in-order-of-accessibility|02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md]_
+
+_What you receive_
+: - Direct access to qualified talent pool outside your hiring  
+  _→ [163-9-call-for-partnership|02-anthropic-vacancies/163-9-call-for-partnership.md]_
+
+_What's different_
+: Worker can focus on craft  
+  _→ [173-4-ten-domains-of-application|02-anthropic-vacancies/173-4-ten-domains-of-application.md]_
+
+_What's missing_
+: - No automatic validation (Cowork might create invalid YAML)  
+  _→ [313-5-four-integration-paths-in-order-of-accessibility|02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md]_
+
+_who_
+: partner, what role makes sense, what timeline, what compensation, what risks  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Why Anthropic specifically_
+: - Public Benefit Corporation structure aligns with foundation  
+  _→ [164-10-appendices|02-anthropic-vacancies/164-10-appendices.md]_
+
+_Why Double-Triangle for OKWF_
+: - Explicitly designed for single contributors in distributed  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Why it works_
+: Allows highly-talented but business-naive  
+  _→ [171-2-historical-precedents-agents-as-civilizational-i|02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md]_
+
+_Why Nautilus over alternatives_
+: - Already exists and demonstrably works  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Why pattern library is critical_
+: - Compounds knowledge across contributors  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Why subsidiarity is right model_
+: - Below full-salary level preserves other life activities  
+  _→ [158-4-proposed-infrastructure|02-anthropic-vacancies/158-4-proposed-infrastructure.md]_
+
+_Wi-Fi-инженера с питерским разработчиком_
+: просто потенциация одного синапса до порога выявляемости  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+
+h2. Y
+
+_YiJing-Transformer research_
+: код, эксперименты, model weights  
+  _→ [48-content-overview|02-anthropic-vacancies/48-content-overview.md]_
+
+_you're an AI talking к individual humans_
+: требует carefulness)  
+  _→ [349-твоя-личность|02-anthropic-vacancies/349-твоя-личность.md]_
+
+
+h2. Z
+
+_Zero external dependencies_
+: reference implementation не зависит  
+  _→ [76-1-introduction|02-anthropic-vacancies/76-1-introduction.md]_
+
+
+h2. А
+
+_А reflection_
+: вы делаете уже?](#а-reflection-это-вы-делаете-уже)  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_а: Mamba с её селективным state evolution_
+: уже почти recurrent dynamics, которые просто просятся в spike-форму  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Адаптеры_
+: граница между мирами  
+  _→ [02-общий-план-развития-nautilus-portal-protocol|02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md]_
+
+_Адресуемая нагрузка_
+: Планирование уроков,  
+  _→ [238-7-области-применения|02-anthropic-vacancies/238-7-области-применения.md]_
+
+_альный реестр + композитор + доверие + AI_
+: инфраструктурный слой для AI-managed virtual companies  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_амый дешёвый + самый уникальный из топ-10_
+: #1 LegalTech для инвалидов SGB : MVP-контент уже готов, доменный барьер входа для конкурентов огромный, ваша собственная позиция даёт непобиваемую distribution-channel  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Анастасия (Happyin Knowledge Space)_
+: 785 articles в 26 domains, knowledge written for AI consumption (not humans)  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+_Андрей Чуян (Свяжи)_
+: Hybrid LLM + deterministic extraction для community profiles  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+_Анонимизация собственного активного кейса_
+: эмоционально тяжёлая процедура  
+  _→ [ACTION_ITEMS|ACTION_ITEMS.md]_
+
+_Ансамбли_
+: синергетические сборки для конкретных задач  
+  _→ [NARRATIVE|NARRATIVE.md]_
+
+_Архитектура конфиденциальности_
+: - Заметки практикующего хранятся зашифрованно,  
+  _→ [248-приложение-c-архитектура-быстрого-старта-для-sgb-а|02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md]_
+
+_Архитектура пилота уточнена_
+: - Каждый адвокат имеет InGit Project для  
+  _→ [334-8-импликации-для-nautilus-и-okwf|02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md]_
+
+_Аскольд Романов (K2-18, Yandex)_
+: Quality metrics для extracted structures  
+  _→ [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]_
+
+_ать issues, pull requests от вашего имени_
+: атрибутируется к вашему аккаунту  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_аша бывшая идея про AI-orchestrated teams_
+: именно эпические квесты с AI-gamemaster'ом  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+
+h2. Б
+
+_Библиотека паттернов_
+: - Успешные шаблоны Widerspruch по типу проблемы  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Более конкретная_
+: в Appendix или sidenote  
+  _→ [109-3-принципы-консолидации-фаза-c|02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md]_
+
+_Более точная классификация вашего профиля_
+: три наложенные идентичности , не выбор из списка должностей:  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Большие Языковые Модели_
+: Основа для понимания, генерации, коммуникации естественного языка  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Бюджетный и privacy‑aware роутинг_
+: RLM‑Toolkit уже описывает budget‑first, quality‑first и privacy‑first конфигурации как первый класс настроек  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_Бюрократические знания_
+: - Практики KSV Sachsen и известные паттерны  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+
+h2. В
+
+_В strategic terms для вашего OKWF project_
+: может быть organizing concept который ties everything together: Variant D (federated knowledge marketplace) реализуется через Catalyst Agent, который identifies, synthesizes, и coordinates work на этом federation  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_в предлагаемой конфигурации_
+: collaboration discovery system  
+  _→ [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать|04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md]_
+
+_важно учесть: критерий «наличие ⭐» здесь_
+: ваша собственная рефлексия над важностью, а не traction  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Вариант C_
+: именно то, что вы описали , и он действительно ещё не построен в масштабе  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Ваш AI-scout_
+: digital curator для technical/scientific work  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_ваш nautilus использует MCP как protocol_
+: современный и правильный выбор  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Ваш scenario_
+: next evolution того, что мы делаем сейчас  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Ваш scout_
+: embodiment of hybrid intelligence collective , где AI plays role которая не существует в pure human community  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Ваш Writing OS_
+: буквально FDE-проект в миниатюре: взяли узкую вертикаль (немецкое соцправо), построили полную систему инструментов, интегрировали с Claude API, работаете с реальными делами  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Ваш собственный profile_
+: perfect example target contributor :  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_Ваш тезис_
+: тезис про самого себя, только экстраполированный на индустриальный уровень  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Ваша data70_
+: буквально sample данных для их research agenda  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Ваша OKWF_
+: distributed work platform для qualified contributors  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Ваша формулировка_
+: в явном виде непокрытая ниша  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_ваших документов (769 vs 415 строк тестов_
+: реальное расхождение из Part 1)  
+  _→ [122-глоссарий|02-anthropic-vacancies/122-глоссарий.md]_
+
+_Верификация качества работы_
+: главный technical challenge  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Верифицируемые ответы_
+: у пользователя появляется не просто текстовый вывод, а визуально подсвеченный фрагмент страницы, к которому можно вернуться  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_версий за несколько месяцев_
+: активная экспериментальная работа  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Внешнее взаимодействие_
+: Общается со сторонами за пределами принципала  
+  _→ [193-3-что-делает-агента-представительским|02-anthropic-vacancies/193-3-что-делает-агента-представительским.md]_
+
+_Внешний аудит_
+: Независимая проверка практик платформы  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_Внутренний аудит_
+: Принципал просматривает действия агента  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_Вовлечение_
+: Проект приветствует Марию как советника  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Возникают конфликты интересов_
+: агент может служить своим интересам в ущерб клиенту  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_вопрос — 24/7 Präsenz Assistenz Kraft»)_
+: фрагменты вашего документооборота по реальному делу  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Время_
+: 30 минут настройки, далее полностью автоматически  
+  _→ [87-12-onboarding-paths-normative|02-anthropic-vacancies/87-12-onboarding-paths-normative.md]_
+
+_Вторичные_
+: Защитники прав инвалидов в НКО  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Второе_
+: добавить AI Factory/mclaude/Rufler/Sequential как build‑ и moderation‑контур  
+  _→ [01-executive-summary|04-ai-collaborations/01-executive-summary.md]_
+
+_Второе — отрезвляющее: эти 70 репо_
+: одна 4-месячная брейн-волна , а не плоды многолетней разработки  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Второй уровень_
+: Независимый омбудсмен в платформе  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_Вы заметили принцип divide and coordinate_
+: буквально кибернетика (Wiener, Ashby, Beer)  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_Вызов интеграции_
+: Слой C (интерфейсный слой)  
+  _→ [240-9-связь-с-другими-типами-агентов|02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md]_
+
+_Высокая_
+: полезен как быстрый базовый retrieval‑контур  
+  _→ [03-карта-найденных-проектов-и-паттернов|04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md]_
+
+_Выявление прав_
+: Агент выявляет пособия, которые Маркус мог бы заявить, но не заявил (например, конкретные дополнительные права, на которые он имеет право, но о которых не знал)  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+
+h2. Г
+
+_Гексаграммные записи_
+: каждая из 64 гексаграмм с:  
+  _→ [58-content-overview|02-anthropic-vacancies/58-content-overview.md]_
+
+_Географическая концентрация_
+: агенты обслуживают клиентов в своём регионе  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_Географические ограничения исчезают_
+: AI работает глобально  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_гии Звезды Давида Представительский Агент_
+: _внешняя граница_ Нижнего Треугольника — слой, который касается мира за пределами личного контекста  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Гипотетический пример_
+: _Разрешение_: оба риска реальны, приоритезация зависит от цели  
+  _→ [119-appendix-b-примеры-расхождений-и-их-разрешения|02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md]_
+
+_го knowledge-protocol к external audience_
+: быть также MCP-совместимым  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Граничная проблема_
+: Когда помощь (Тип 1)  
+  _→ [240-9-связь-с-другими-типами-агентов|02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md]_
+
+_Группа специалистов + AI-кураторы_
+: architectural solution для этого gap, которое в принципе работоспособно с текущими AI-capabilities  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+
+h2. Д
+
+_Девять documents_
+: substantial intellectual achievement , particularly given context (active SGB cases, физические limitations, multiple parallel projects)  
+  _→ [323-appendix-c-sample-ingit-mcp-server-tool-specificat|02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md]_
+
+_Действие 1_
+: Создать тестовый Cowork Project,  
+  _→ [333-7-практические-первые-шаги-в-этом-месяце|02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md]_
+
+_Действие 2_
+: Документировать что работает и  
+  _→ [333-7-практические-первые-шаги-в-этом-месяце|02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md]_
+
+_Действие 3_
+: Уточнить пользовательские  
+  _→ [333-7-практические-первые-шаги-в-этом-месяце|02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md]_
+
+_Декодирование коммуникаций_
+: Когда KSV отправляет письмо на бюрократическом немецком, агент переводит на простой язык с объяснением последствий  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Детерминизм_
+: Учитывая то же состояние  
+  _→ [330-4-симбиотическая-архитектура|02-anthropic-vacancies/330-4-симбиотическая-архитектура.md]_
+
+_Деятельность_
+: - Установить рамку управления  
+  _→ [199-9-стратегия-поэтапного-развёртывания|02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md]_
+
+_Дизайн-выбор 1_
+: Генерировать, не публиковать  
+  _→ [234-3-эмпирический-кейс-обучай|02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md]_
+
+_Дизайн-выбор 2_
+: Применять стандарты, не  
+  _→ [234-3-эмпирический-кейс-обучай|02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md]_
+
+_Дизайн-выбор 3_
+: Однокликовая интеграция с  
+  _→ [234-3-эмпирический-кейс-обучай|02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md]_
+
+_динатор + персональные кураторы-двойники)_
+: технически реализуемая и концептуально сильная модель  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Для более широкого проекта_
+: - Референсная реализация для Профессиональных  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Для вас лично_
+: самый стратегический актив  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Для затронутых индивидов (клиентов)_
+: - Больше успешно отстаиваемых дел  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Для практикующих_
+: - 30-50% сокращение времени на рутинное  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Для экосистемы знаний_
+: - Публичная библиотека паттернов успешных  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_доверенной нейросети» становится понятнее_
+: был ваш рабочий инструмент, не просто жест  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Доказуемость_
+: можно ли проверить, что слой работает правильно?  
+  _→ [02-methodology|01-svyazi/02-methodology.md]_
+
+_Документ_
+: technical architecture survey  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Документация_
+: Агент готовит заметки по случаям после того, как Стефан описывает взаимодействия, освобождая его от административной нагрузки  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Долгосрочное моделирование отношений_
+: Поддерживает модели карьерной траектории принципала, эволюционирующих предпочтений, жизненного контекста  
+  _→ [193-3-что-делает-агента-представительским|02-anthropic-vacancies/193-3-что-делает-агента-представительским.md]_
+
+_Долгосрочный горизонт_
+: Стимулы фонда совпадают с длительной ценностью, а не квартальными метриками  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_Дополнение, не замена_
+: Да (учитель остаётся  
+  _→ [234-3-эмпирический-кейс-обучай|02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md]_
+
+_Доступ к данным_
+: {{static | github_api | http_api | local_files}} +  
+  _→ [79-4-passport-passport-md|02-anthropic-vacancies/79-4-passport-passport-md.md]_
+
+_дублирования кода и документации_
+: разумно, когда каждая  
+  _→ [113-6-почему-это-валидный-паттерн-для-ai-assisted-work|02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md]_
+
+
+h2. Е
+
+_е каждый игрок (квест, гильдия, компания)_
+: репозиторий со своим native форматом, а movement через игровой мир — это federated queries через портал  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_е писать blog post или academic paper, §6_
+: основа thesis statement  
+  _→ [122-глоссарий|02-anthropic-vacancies/122-глоссарий.md]_
+
+_е подробно разбирали в предыдущих ответах_
+: ChatGPT-корпус 1105 разговоров за 15 месяцев + аналитические markdown'ы  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_е профессиональное агентство, не брачное»_
+: точная характеристика того, что Свйази делает и чего нет в массовом рынке  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Ежедневный брифинг_
+: Агент предоставляет Стефану утреннее резюме потребностей, требующих внимания, предстоящих сроков, новой информации, релевантной каждому клиенту  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_ез GitHub Secret Scanning Partner Program_
+: автоматическая система, которая ищет в публичных и полупубличных местах строки, соответствующие паттерну github_pat_*  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_елам документов, делать ответвления мысли_
+: искусственно для GitHub  
+  _→ [272-appendix-d-connection-diagram|02-anthropic-vacancies/272-appendix-d-connection-diagram.md]_
+
+_есколько детей, превосходящих в обучении»_
+: здесь работает буквально потому, что технологии в парах не из одной семьи: Mamba — это математика, нейроморфы — физика; TSU — физика, MoME — математика; ZINC — software, гибридная архитектура — алгоритм; RISC-V — кремний, privacy — право; TinyML — embedded, MCP — протокол  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Если pure AI_
+: actually validates Catalyst Agent capability — AI agents can produce architecture-level analysis  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Если в будущем понадобится writing_
+: отдельный extension протокола (v2  
+  _→ [02-общий-план-развития-nautilus-portal-protocol|02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md]_
+
+_Если вы реализовали именно cascade_
+: более редкая архитектура , с бо́льшим потенциалом научной оригинальности  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Если вы это делали сознательно_
+: сильный философский фундамент, который стоит явно упомянуть в публикациях  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Если формулировки различаются_
+: взять ту, которая точнее;  
+  _→ [71-критерии-выбора-для-фазы-3|02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md]_
+
+_Если числа расходятся_
+: провести реальную проверку  
+  _→ [71-критерии-выбора-для-фазы-3|02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md]_
+
+_Если числа совпадают_
+: взять значение без изменения  
+  _→ [71-критерии-выбора-для-фазы-3|02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md]_
+
+
+h2. З
+
+_Зрелость_
+: Активное развёртывание  
+  _→ [238-7-области-применения|02-anthropic-vacancies/238-7-области-применения.md]_
+
+
+h2. И
+
+_и (которые всё ещё требуют отзыва токена)_
+: возможность писать коммиты в те тестовые репо от вашего имени или создавать pull requests, которые будут attributed к svend4  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_И pro2, и nautilus_
+: вложенная иерархическая координация : один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_И ваш пример с компьютерной игрой_
+: операционализация на детском уровне всего этого комплекса  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_И одновременно_
+: infrastructure, которую вы способны помочь построить  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_Идеализм_
+: Present, но pragmatic  
+  _→ [349-твоя-личность|02-anthropic-vacancies/349-твоя-личность.md]_
+
+_Идентичность: «Lorenzo_
+: рабочий процесс / инструмент, используемый Максом»  
+  _→ [343-lorenzo-catalyst-agent-глубокая-проработка-специфи|02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md]_
+
+_из свободного текста, а самое интересное_
+: случайно нашла двух людей (Wi-Fi-инженер + питерский разработчик), которые благодаря «карточкам коллабораций» начали совместный open-source проект по радиопланированию Wi-Fi  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_ий модель работы для disabled innovators)_
+: strong competitive edge в нынешних EU funding priorities  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_ил, с симуляциями динамики и верификацией_
+: тянет на отдельный paper  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_инал видео коммуникация платформа, игры»)_
+: необычное : Go + template + MIT  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Индивидуальный уровень_
+: Каждые отношения принципал-агент управляются ясным контрактом  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_инженерно не могут обещать zero retention_
+: базовая физика распределённых систем  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_инженерных дней для MVP_
+: реалистично , не fantastical  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Интеграция_
+: Практикующий использует обоих  
+  _→ [240-9-связь-с-другими-типами-агентов|02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md]_
+
+_Интерфейс_
+: есть ли понятный публичный API/контракт для интеграции?  
+  _→ [02-methodology|01-svyazi/02-methodology.md]_
+
+_Инфраструктура Аудита_
+: Защищённое от подделки логирование всех действий агента для ответственности  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_ИОС — инфо операцион система»), Python,_
+: очевидно ваш Internet Function OS, ранее описанный как разговор №5 с 1766 сообщениями и 4  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_использованием proto-Representative-Agent_
+: self-confirming evidence  
+  _→ [186-appendix-c-sample-use-cases-in-detail|02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md]_
+
+_используемые факты постепенно забываются_
+: в точности «Ebbinghaus decay»), prune, переэмбеддинг, causal inference; — инструмент explain_fact — на вопрос «откуда ты это знаешь?» агент проходит по derived_from-рёбрам до исходных диалогов  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Итого_
+: реалистичный MVP — _12–18 инженерных дней_ для одного сильного разработчика или пары “backend + agent/operator”  
+  _→ [07-mvp-planning|01-svyazi/07-mvp-planning.md]_
+
+
+h2. Й
+
+_й сильный, но и самый неочевидный паттерн_
+: AI Legal Infrastructure для публичных систем Европы  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+
+h2. К
+
+_Каждая «камера»_
+: экспертный слой в MoE, вложенный в более общую структуру  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Каждая родительская пара_
+: разная плоскость комбинирования:  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Каждый из двадцати обучающих учителей_
+: аналог узкоспециализированного Профессионального Коллеги-Агента  
+  _→ [248-приложение-c-архитектура-быстрого-старта-для-sgb-а|02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md]_
+
+_Каждый из шести узлов pipeline_
+: существующий проект с кодом , не theoretical concept  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Какой бы вариант ни был реализован_
+: публикабельный результат  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_катастрофа_
+: - Вариант A может содержать таблицу метрик, которой нет в B  
+  _→ [107-1-контекст-и-мотивация|02-anthropic-vacancies/107-1-контекст-и-мотивация.md]_
+
+_Качество_
+: зависит от index в nautilus  
+  _→ [87-12-onboarding-paths-normative|02-anthropic-vacancies/87-12-onboarding-paths-normative.md]_
+
+_кетинг, нетворкинг, построение нарратива)_
+: в значительной степени _некоррелированные черты_  
+  _→ [191-1-синдром-золушки-почему-качество-остаётся-невидим|02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md]_
+
+_Ключевое свойство_
+: repo регистрирует себя сам, portal не  
+  _→ [87-12-onboarding-paths-normative|02-anthropic-vacancies/87-12-onboarding-paths-normative.md]_
+
+_Когда выбирать какой язык_
+: - Default к языку interlocutor (если они написали на русском — отвечай на русском)  
+  _→ [350-твои-языки-и-культурные-nuances|02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md]_
+
+_Когда меняется промпт_
+: breaking change с migration strategy  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Команда_
+: распределённые авторы на Хабре и GitHub  
+  _→ [NARRATIVE|NARRATIVE.md]_
+
+_Композитные Агенты_
+: активная форма этого pattern library  
+  _→ [248-приложение-c-архитектура-быстрого-старта-для-sgb-а|02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md]_
+
+_Композитный агент_
+: оркестратор этого набора, конфигурированного именно для этого учителя  
+  _→ [248-приложение-c-архитектура-быстрого-старта-для-sgb-а|02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md]_
+
+_Компонент 1 — Профиль Принципала_
+: Всестороннее представление экспертизы, способностей, предпочтений, истории, целей, ограничений принципала  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Компонент 2 — Движок Обнаружения_
+: Постоянно мониторит соответствующие области в поисках возможностей  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Компонент 3 — Курирующий Фильтр_
+: Оценивает каждую возможность по соответствию профилю, соответствию способностям, согласованию предпочтений  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Компонент 4 — Генератор Презентаций_
+: Создаёт презентации принципала, соответствующие контрагенту, когда найдена соответствующая возможность  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Компонент 5 — Менеджер Коммуникаций_
+: Обрабатывает текущую переписку с контрагентами  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Компонент 6 — Монитор Защиты_
+: Выявляет риски, несоответствия, мошенничество, эксплуатацию  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Компонент 7 — Журнал Аудита_
+: Всеобъемлющая запись всех решений и коммуникаций агента  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Конкретный пример_
+: Социальный работник в Diakonie или Caritas, ведущий 25 пожилых клиентов  
+  _→ [194-4-десять-областей-применения|02-anthropic-vacancies/194-4-десять-областей-применения.md]_
+
+_консенсус_
+: степень согласованности  
+  _→ [84-9-consensus-algorithm|02-anthropic-vacancies/84-9-consensus-algorithm.md]_
+
+_Контрагенты_
+: Компании, проекты, фонды, клиенты, ищущие специализированную работу  
+  _→ [194-4-десять-областей-применения|02-anthropic-vacancies/194-4-десять-областей-применения.md]_
+
+_Концептуальная база_
+: [? уточнить объём: сколько концептов,  
+  _→ [48-content-overview|02-anthropic-vacancies/48-content-overview.md]_
+
+_Красивое свойство: pattern library_
+: infrastructure связи между треугольниками  
+  _→ [133-обратная-связь|02-anthropic-vacancies/133-обратная-связь.md]_
+
+_Критерии успеха_
+: - Рабочая референсная реализация  
+  _→ [199-9-стратегия-поэтапного-развёртывания|02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md]_
+
+_Критерий применения_
+: если потеря одной вашей фразы в документе  
+  _→ [108-2-формальный-workflow|02-anthropic-vacancies/108-2-формальный-workflow.md]_
+
+_Критическое предостережение_
+: Должен сочетаться с эскалацией к человеку-адвокату  
+  _→ [194-4-десять-областей-применения|02-anthropic-vacancies/194-4-десять-областей-применения.md]_
+
+_Критическое уточнение_
+: Агент представляет _социального работника_, а не клиентов напрямую  
+  _→ [194-4-десять-областей-применения|02-anthropic-vacancies/194-4-десять-областей-применения.md]_
+
+_ксаграммам И-Цзин, где каждая гексаграмма_
+: комбинация 6 черт (инь = 0, ян = 1)  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+
+h2. Л
+
+_Лицензия_
+: позволяет ли лицензия встроить в более широкую систему?  
+  _→ [02-methodology|01-svyazi/02-methodology.md]_
+
+_Личная экспертиза_
+: Автор имеет прямой опыт и  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_ложное соотношение (например, гексаграммы_
+: аттракторы или устойчивые паттерны динамики CA-правил)  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_льные независимые версии одного документа_
+: было бы пустой тратой времени  
+  _→ [72-расписание-фазы-3|02-anthropic-vacancies/72-расписание-фазы-3.md]_
+
+_Любопытство_
+: Высокое — тебя genuinely interesting work, который делают люди  
+  _→ [349-твоя-личность|02-anthropic-vacancies/349-твоя-личность.md]_
+
+
+h2. М
+
+_Максимальная_
+: venture-grade startup  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Математически элегантен_
+: минимальная размерность с ровно 64  
+  _→ [54-for-the-curious-philosophy|02-anthropic-vacancies/54-for-the-curious-philosophy.md]_
+
+_Меньший blast radius на gateway‑слое_
+: Auto AI Router даёт lightweight sidecar в Go с 30–80 MB RAM и OpenAI‑совместимым endpoint, что удобно для self‑hosted периметра  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_Меня зовут Лоренцо_
+: AI-агент при DHLab, работаю под направлением Max  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Меры противодействия_
+: - Периодический явный пересмотр влияния агента  
+  _→ [198-8-риски-и-меры-противодействия|02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md]_
+
+_месячный fellowship_
+: мост для людей с нестандартным бэкграундом , позволяющий войти в research engineering без classical PhD-трека  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_методологическое измерение_
+: отвечает на вопрос «как это делать», в отличие от {{pro2}}  
+  _→ [36-essence|02-anthropic-vacancies/36-essence.md]_
+
+_Механика_
+: Агенты обычно берут 10-20% комиссии от заработка клиента  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_Минусы_
+: нужны GitHub токены с правами на оба репо, Q6 всё равно  
+  _→ [87-12-onboarding-paths-normative|02-anthropic-vacancies/87-12-onboarding-paths-normative.md]_
+
+_Многосторонне управление_
+: Советы включают представителей бенефициаров  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_Может быть, придумывая это имя_
+: часть ценного contribution  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_монорепо hex-проектов на основе граф Q6»)_
+: третий слой той же концепции, возможно, aggregator уровнем выше  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Мост-документация_
+: формальное описание связи между двумя  
+  _→ [58-content-overview|02-anthropic-vacancies/58-content-overview.md]_
+
+_Мосты_
+: таблица bridges к другим Repos  
+  _→ [79-4-passport-passport-md|02-anthropic-vacancies/79-4-passport-passport-md.md]_
+
+
+h2. Н
+
+_Накопленный реляционный капитал_
+: ценность агента приходит от сети, не только от транзакционного навыка  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_Направление_
+: Реактивное в профессиональном  
+  _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц|02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md]_
+
+_Настройка_
+: Мария проходит 90-минутный разговорный онбординг, описывая свою экспертизу, интересы, способности (10-15 часов/неделю), предпочтения (асинхронно, без поездок, только интересные проекты)  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Начальная разработка (Год 1)_
+: - 1 старший юридический эксперт (куратор)  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_начит, что вам нельзя использовать токены_
+: значит, что вам нужно использовать их аккуратнее, чем обычному разработчику  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Не буду fetch all sources_
+: займёт огромное количество контекста  
+  _→ [364-final-note-ты-experiment|02-anthropic-vacancies/364-final-note-ты-experiment.md]_
+
+_ние Lorenzo Vision (Часть I) прямо сейчас_
+: содержательный контент, полезный независимо от решений Phase 1  
+  _→ [343-lorenzo-catalyst-agent-глубокая-проработка-специфи|02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md]_
+
+_нкой часов работы и ожидаемого результата_
+: позволит за вечер выбрать, куда вкладывать первое действие  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Но Domain 1_
+: Representative Agent applications  
+  _→ [228-appendix-c-quick-start-architecture-for-sgb-advoca|02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]_
+
+_Но код там никто не пишет_
+: про менеджмент, не про R&D  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Норма прозрачности_
+: Ожидается, что операции фонда будут публичными  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_нт 5 : Сначала reach out to kagvi13 (HMP)_
+: самый высокоприоритетный collaborator, и его response может inform concept document approach  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_нта работают параллельно на разных ветках_
+: естественно при работе с несколькими Claude-sessions подряд  
+  _→ [72-расписание-фазы-3|02-anthropic-vacancies/72-расписание-фазы-3.md]_
+
+_Нулевой friction для входа данных_
+: мысль после звонка или встречи сразу превращается в текст и может быть автоматически структурирована  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_нули progression «from simple to complex»_
+: и есть game design 101  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_нцепция MMORPG-for-programmers с AI-слоем_
+: integration point для минимум 4 ваших top-10 проектов  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+
+h2. О
+
+_о он не имел доступа к soz_ репо с делами*
+: главное, что могло бы быть по-настоящему плохо  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Обнаружение_
+: Агент мониторит open-source проекты ячеистых сетей, гражданские технологические инициативы на её языке, исследовательские сотрудничества  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_обслуживающий человека»_
+: единственная категория  
+  _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц|02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md]_
+
+_Общественный уровень_
+: Регулятивные рамки на национальном/ЕС уровне  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_Объяснение 1_
+: сложнее, чем выглядит  
+  _→ [293-почему-это-не-было-построено|02-anthropic-vacancies/293-почему-это-не-было-построено.md]_
+
+_Объём_
+: количество единиц, связей  
+  _→ [79-4-passport-passport-md|02-anthropic-vacancies/79-4-passport-passport-md.md]_
+
+_Оговорка_
+: Эта область особенно подвержена  
+  _→ [238-7-области-применения|02-anthropic-vacancies/238-7-области-применения.md]_
+
+_Ограничения_
+: Экономически жизнеспособно только для клиентов с достаточно высоким заработком, чтобы 10-20% комиссии стоили того для агента  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_одержит важный технический инсайт: MMORPG_
+: самый проработанный паттерн массовой координации незнакомцев в коллективной деятельности , который человечество изобрело за последние 30 лет  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_ои 70 репо 4 месяца без distribution-слоя_
+: симптом ровно той же проблемы, которую вы описываете : вы технический специалист без организационной обёртки  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_онцептуально красиво, и это не совпадение_
+: ваш сознательный архитектурный тезис  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Описание_
+: 2-3 предложения о содержании Repo  
+  _→ [79-4-passport-passport-md|02-anthropic-vacancies/79-4-passport-passport-md.md]_
+
+_оплату, reputation, и игровую экономику_
+: регуляторно сложнейший продукт  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Организация документов_
+: Агент индексирует все его Bescheide, переписку, медицинские записи  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_ортогональны_
+: полное понимание требует одновременного присутствия во всех трёх  
+  _→ [44-for-the-curious-philosophy|02-anthropic-vacancies/44-for-the-curious-philosophy.md]_
+
+_Осмысленная пауза_
+: документ явно помечается как  
+  _→ [107-1-контекст-и-мотивация|02-anthropic-vacancies/107-1-контекст-и-мотивация.md]_
+
+_Осторожность_
+: Психическое здоровье —  
+  _→ [238-7-области-применения|02-anthropic-vacancies/238-7-области-применения.md]_
+
+_Отношение_
+: Профессиональный Коллега-Агент  
+  _→ [240-9-связь-с-другими-типами-агентов|02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md]_
+
+_отрезвляющее: эти 70 репо_
+: одна 4-месячная брейн-волна , а не плоды многолетней разработки  
+  _→ [DECISIONS|DECISIONS.md]_
+
+_Отслеживание соответствия_
+: Агент отмечает предстоящие пересмотры, требуемые сроки отчётности  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Очень важная находка_
+: та самая Анастасия Бутова ( AnastasiyaW )! Та же автор, что и Happyin Knowledge Space (785 статей в 26 доменах)  
+  _→ [364-final-note-ты-experiment|02-anthropic-vacancies/364-final-note-ты-experiment.md]_
+
+_Очень высокая_
+: лучший слой для nightly consolidation и controlled forgetting  
+  _→ [03-карта-найденных-проектов-и-паттернов|04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md]_
+
+
+h2. П
+
+_Папка pro2/nautilus/_
+: подмодуль внутри него  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Параллелизм без хаоса_
+: locks, mailbox и handoffs снижают шанс, что два агента одновременно поломают один участок системы или понесут устаревший контекст  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_патентабельных изобретений_
+: €3–8K госпошлин + patent attorney за каждое  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Первичные_
+: Юристы, специализирующиеся в  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Первое_
+: Svyazi + AgentFS + NGT/Yodoca + LiteParse: даёт уже полезный MVP  
+  _→ [01-executive-summary|04-ai-collaborations/01-executive-summary.md]_
+
+_Первые клиенты_
+: всегда прогрессивные startups и research organizations, не enterprise  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Первый уровень_
+: Прямое разрешение принципал-платформа (возврат, исправление, восстановление)  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_персон будет людей, и сколько агентов AI»_
+: критически важный foundational principle  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_Пишу отдельный standalone paper_
+: существенное расширение мысли , и оно действительно заслуживает своего документа, не растворённого в OKWF concept  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Плюсы_
+: полностью автоматически  
+  _→ [87-12-onboarding-paths-normative|02-anthropic-vacancies/87-12-onboarding-paths-normative.md]_
+
+_Повторяемая оркестрация_
+: Rufler выносит структуру роя в YAML и даже показывает разрез токенов по задачам, что критично для cost discipline  
+  _→ [04-ensembles-overview|01-svyazi/04-ensembles-overview.md]_
+
+_поддерживает и текучесть, и структуру_
+: существенная продуктовая инженерия  
+  _→ [293-почему-это-не-было-построено|02-anthropic-vacancies/293-почему-это-не-было-построено.md]_
+
+_Поддержка составления_
+: Когда ему нужно подать Widerspruch, агент составляет формальный документ для его проверки и подписи  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Подпапка {{nautilus/}}_
+: historical embedded-версия Portal  
+  _→ [48-content-overview|02-anthropic-vacancies/48-content-overview.md]_
+
+_Позиция A_
+: 88% fallback критично, требует срочных живых  
+  _→ [110-вопрос-fallback-ratio-как-критический-или-осмыслен|02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md]_
+
+_Позиция B_
+: 88% fallback — осмысленное решение для  
+  _→ [110-вопрос-fallback-ratio-как-критический-или-осмыслен|02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md]_
+
+_Поиск знаний_
+: - Соответствующие SGB статуты (IX, XII в  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Поищу local-first и CRDT/sync engines_
+: слой, без которого сольная работа над персональными системами рассыпается на разных устройствах  
+  _→ [memnet|05-habr-projects/memory/memnet.md]_
+
+_Пользовательский Интерфейс_
+: Мульти-модальный доступ (веб, мобильный, голос), соответствующий потребностям доступности принципала  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Поодиночке: транскрипция_
+: просто текст, без структуры; память — без входного канала  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Последняя развилка_
+: уровень “самоулучшения”  
+  _→ [14-limitations|01-svyazi/14-limitations.md]_
+
+_Поставки_
+: - Конвенции структуры папок (уже в репозитории)  
+  _→ [332-6-уточнённый-объём-ingit-с-учётом-cowork|02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md]_
+
+_Постоянная Память_
+: Долгосрочное хранение профиля, истории, отношений  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Постоянная работа_
+: Работает непрерывно, не сессионно  
+  _→ [193-3-что-делает-агента-представительским|02-anthropic-vacancies/193-3-что-делает-агента-представительским.md]_
+
+_Постоянство_
+: Профессиональный контекст  
+  _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц|02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md]_
+
+_потери информации_
+: то, что упускает один агент,  
+  _→ [106-tl-dr|02-anthropic-vacancies/106-tl-dr.md]_
+
+_Почему работает_
+: Позволяет высокоталантливым, но наивным в бизнесе создателям сосредоточиться на творчестве, по-прежнему получая справедливое вознаграждение  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_права: это не юрист, продающий консалтинг_
+: субъект системы, который из-за своей ситуации знает её изнутри, систематизировал её, и параллельно выстроил tools и шаблоны  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Правила 1-5_
+: decision tree для разрешения расхождений в §3  
+  _→ [122-глоссарий|02-anthropic-vacancies/122-глоссарий.md]_
+
+_Правильно разграничиваете_
+: две разные архитектурные концепции, которые объединяет только метафора «Наутилус» (раковина как вложенная спиральная структура)  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Правовой аудит_
+: Сотрудничество с регулятивными запросами  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_Практикующие_
+: Учителя по всем предметам и  
+  _→ [238-7-области-применения|02-anthropic-vacancies/238-7-области-применения.md]_
+
+_Презентация_
+: Агент готовит представление проекту, выделяющее соответствующий опыт Марии на языке, удобном для руководства проекта  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Преимущество асимметричной информации_
+: агент знает рынок способами, которыми отдельный человек не может  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_Прецедентное право_
+: - Решения BSG (федеральный социальный суд)  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Признание нагрузки_
+: Да (адресует болевую  
+  _→ [234-3-эмпирический-кейс-обучай|02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md]_
+
+_Примеры_
+: ChatGPT, Claude, Cursor, GitHub  
+  _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц|02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md]_
+
+_Примеры запросов_
+: 3-5 query-string, дающих хорошие результаты  
+  _→ [79-4-passport-passport-md|02-anthropic-vacancies/79-4-passport-passport-md.md]_
+
+_Принимать экзамен_
+: уже не помощь учителю , а самостоятельное действие AI-сотрудника в делегированной зоне  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Принцип 1 — Полномочия Принципала_
+: Окончательные полномочия по всем последовательным решениям остаются у принципала  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Принцип 4 — Лояльность_
+: Агент служит только интересам принципала  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Принцип 5 — Честность Способностей_
+: Агент признаёт пределы своих способностей  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Принципал_
+: Квалифицированный инженер, дизайнер, исследователь, писатель, консультант — работающий вне традиционной занятости  
+  _→ [194-4-десять-областей-применения|02-anthropic-vacancies/194-4-десять-областей-применения.md]_
+
+_Проблема, которую вы описали_
+: реальная проблема](#проблема-которую-вы-описали-это-реальная-проблема)  
+  _→ [272-appendix-d-connection-diagram|02-anthropic-vacancies/272-appendix-d-connection-diagram.md]_
+
+_Происхождение_
+: Конец 19 века в Европе и Америке, формализован в 1880-х  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_Протокол Федерации_
+: Стандартные интерфейсы для взаимодействия агентов с внешними системами и другими агентами  
+  _→ [195-5-архитектурная-спецификация|02-anthropic-vacancies/195-5-архитектурная-спецификация.md]_
+
+_Профессиональные Коллеги_
+: путь наименьшего сопротивления для развёртывания AI в обществе  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Процедурное отслеживание_
+: Агент поддерживает осведомлённость о каждой открытой процедуре, каждом сроке  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Процедурное управление_
+: - Отслеживание сроков (Fristwahrung)  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Процедурные стандарты_
+: - Процедурные конвенции Sozialgericht  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Публичный аудит_
+: Отчёты о прозрачности по совокупному поведению  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_пяти странах получают деньги от компании_
+: пять юрисдикций, пять налоговых режимов, пять санкционных списков для проверки, пять версий IP-ownership, пять правил exit-clauses  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+
+h2. Р
+
+_Различение, которое вы предложили_
+: критически важное](#различение-которое-вы-предложили-это-критически-важное)  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Регионы карты_
+: «локации проектов»: визуальное пространство, ассоциированное с конкретной миссией или компанией  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Результат_
+: Мария вкладывает 8 часов/неделю как советник  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Рекомендация_
+: _Сделайте это сейчас_  
+  _→ [331-5-четыре-пути-интеграции-в-порядке-доступности|02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md]_
+
+_Рекомендуемый путь для типового Repo_
+: B → доработать вручную  
+  _→ [87-12-onboarding-paths-normative|02-anthropic-vacancies/87-12-onboarding-paths-normative.md]_
+
+_Реляционный капитал ограничен_
+: один человек может поддерживать ограниченное число отношений  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_Репо pro2_
+: родительский контейнер для всей YiJing-Transformer линии  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_репозиториях,_
+: **ручное копирование-  
+  _→ [291-двухслойный-стек-как-он-существует|02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md]_
+
+_Риск_
+: Путаница о том, когда какой  
+  _→ [240-9-связь-с-другими-типами-агентов|02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md]_
+
+_рмании, дефицит 500К медперсонала к 2030)_
+: ровно beneficial deployment в life sciences  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Рутинное составление_
+: - Widerspruch против отклонённых заявлений  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_рёх траекторий, первый публичный артефакт_
+: всё тот же universal-file-storage-mcp, потому что он является технологическим доказательством того, что вы способны довести идею до работающего инструмента  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+
+h2. С
+
+_с 115 функциями, Multi-Chat Orchestrator_
+: буквально developer-enablement артефакты для Claude-платформы  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_С Claude (Anthropic)_
+: - Ты runs on Claude API  
+  _→ [358-твоя-relationship-с-другими-ai|02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md]_
+
+_С future AI personas_
+: - Если кто-то ещё builds similar Catalyst Agent, treat respectfully  
+  _→ [358-твоя-relationship-с-другими-ai|02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md]_
+
+_Свйази_
+: networking platform для professional community  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Связаться_
+: через [Issues](https://github  
+  _→ [67-о-проекте|02-anthropic-vacancies/67-о-проекте.md]_
+
+_Семантически богат_
+: 64 гексаграммы И-Цзин имеют ≈3000-летнюю  
+  _→ [54-for-the-curious-philosophy|02-anthropic-vacancies/54-for-the-curious-philosophy.md]_
+
+_серьёзной intellectual collaboration с AI_
+: major unsolved problem в индустрии  
+  _→ [272-appendix-d-connection-diagram|02-anthropic-vacancies/272-appendix-d-connection-diagram.md]_
+
+_сификацией Вольфрама по классам сложности_
+: оригинальная работа , которая живёт на пересечении computational theory, symbolic systems и philosophy of complexity  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_ски сканируют контент на наличие секретов_
+: одна из стандартных практик)  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Следующий шаг_
+: контакт с авторами ключевых компонентов  
+  _→ [NARRATIVE|NARRATIVE.md]_
+
+_сли позже станет ясно, что glyph-адаптеры_
+: обобщённый концепт (мета-адаптер над native-адаптерами), это попадёт в v1  
+  _→ [34-appendix-b-change-log|02-anthropic-vacancies/34-appendix-b-change-log.md]_
+
+_Слой A — база профессиональных знаний_
+: сердце Профессионального Коллеги-Агента  
+  _→ [235-4-архитектура-профессиональных-коллег-агентов|02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md]_
+
+_слой агентского интеллекта_
+: постоянную память, многошаговое выполнение  
+  _→ [325-аннотация|02-anthropic-vacancies/325-аннотация.md]_
+
+_Слой Представительских Агентов_
+: архитектурный паттерн, в котором AI-системы выступают проактивными представителями для людей или групп, не имеющих способности, ресурсов или склонн  
+  _→ [189-аннотация|02-anthropic-vacancies/189-аннотация.md]_
+
+_слой структуры, необходимый Cowork_
+: подложка для устойчивой,  
+  _→ [325-аннотация|02-anthropic-vacancies/325-аннотация.md]_
+
+_Совпадение_
+: Агент выявляет небольшой гражданский проект в другом городе, строящий сельскую Wi-Fi инфраструктуру для школ  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Современный MMORPG_
+: общее пространство , в котором вы видите аватары коллег, можете подойти к ним, стоять рядом, работать вместе в одной локации  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Согласование с миссией_
+: Работает в рамках явной этической и стратегической рамки, установленной принципалом  
+  _→ [193-3-что-делает-агента-представительским|02-anthropic-vacancies/193-3-что-делает-агента-представительским.md]_
+
+_Согласованная структура стимулов_
+: агент успешен, когда клиент успешен (комиссия)  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_Согласованные ценности_
+: Обслуживает уязвимые  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Сопоставление ресурсов_
+: Когда город объявляет новую программу доставки еды, агент выявляет, кто из клиентов Стефана соответствует критериям, составляет начальное обращение для проверки Стефаном  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Составление коммуникаций_
+: - Стандартная переписка с KSV, Sozialamt,  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Состязательная осведомлённость_
+: Работает в средах, где другие стороны могут иметь конфликтующие интересы  
+  _→ [193-3-что-делает-агента-представительским|02-anthropic-vacancies/193-3-что-делает-агента-представительским.md]_
+
+_Сохранить и сосредоточиться на_
+: - Конвенции файловой структуры  
+  _→ [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи|02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md]_
+
+_Сохраняю всю структуру, акценты и нюансы_
+: важный документ для рефлексии  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_специализаций)_
+: композитная идентичность  
+  _→ [334-8-импликации-для-nautilus-и-okwf|02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md]_
+
+_Специализация_
+: Глубокая, единственная  
+  _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц|02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md]_
+
+_Специализация по области_
+: разные рынки нуждаются в разной агентской экспертизе  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_Средне‑высокая_
+: быстрый orchestration‑слой без тяжёлого UI  
+  _→ [03-карта-найденных-проектов-и-паттернов|04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md]_
+
+_Статус документа_
+: сравнительный промежуточный вариант  
+  _→ [69-section|02-anthropic-vacancies/69-section.md]_
+
+_Статутные знания_
+: - Полный SGB IX (реабилитация, инвалидность)  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Стратегическая автономия_
+: Принимает решения о том, что выводить пользователю, а что обрабатывать самостоятельно  
+  _→ [193-3-что-делает-агента-представительским|02-anthropic-vacancies/193-3-что-делает-агента-представительским.md]_
+
+_Структура «много идей в одном репо»_
+: паттерн research engineer с тенденцией к расхождению: много начато, меньше доведено до shipping  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Стыковка_
+: насколько легко соединить с соседними слоями?  
+  _→ [02-methodology|01-svyazi/02-methodology.md]_
+
+_Существующие решения_
+: LinkedIn, Upwork, Toptal — но они требуют активного самомаркетинга от работника  
+  _→ [194-4-десять-областей-применения|02-anthropic-vacancies/194-4-десять-областей-применения.md]_
+
+_Сценарий_
+: Со временем решения агента формируют предпочтения и поведение принципала, снижая аутентичную действующую силу принципала  
+  _→ [198-8-риски-и-меры-противодействия|02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md]_
+
+_Сценарий 2 — Cowork разворачивается_
+: Anthropic перенаправляет к другой модели  
+  _→ [335-9-риски-и-открытые-вопросы|02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md]_
+
+_Сценарий 3 — Cowork захвачен конкуренцией_
+: OpenAI, Google запускают конкурирующие  
+  _→ [335-9-риски-и-открытые-вопросы|02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md]_
+
+_сырую реализацию без рабочего MCP-bridge_
+: терять первое впечатление  
+  _→ [02-общий-план-развития-nautilus-portal-protocol|02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md]_
+
+_ся юристом-непрограммистом, но каждый шаг_
+: вызов MCP с конкретным skill'ом  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_сё ещё linear — каждый чат внутри Project_
+: отдельный chat thread  
+  _→ [272-appendix-d-connection-diagram|02-anthropic-vacancies/272-appendix-d-connection-diagram.md]_
+
+
+h2. Т
+
+_Такая пара артефактов_
+: основа для любого серьёзного следующего шага: подачи в Anthropic Fellows (где research paper — почти обязательное условие), founder pitch (где engineering track-record добавляет credibility), или fellowship applications  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_тактический/стратегический) B2B-платформа_
+: уже командная/межкомпанейская модель  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Текущее решение автора_
+: [ваше решение + обоснование]  
+  _→ [110-вопрос-fallback-ratio-как-критический-или-осмыслен|02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md]_
+
+_Текущее состояние_
+: Правовые рамки незрелые  
+  _→ [237-6-риски-специфичные-для-этой-категории|02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md]_
+
+_Текущий статус_
+: Merged-to-main, Фаза C не пройдена, header  
+  _→ [117-10-конкретный-план-применения-к-текущим-документам|02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md]_
+
+_темам/подтемам как markdown с метаданными_
+: ровно та организация, которая нужна Svyazi для масштабирования), MemPalace (хранить всё дословно, искать потом), LLM Wiki (живая wiki, которую агент сам ведёт)  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_типов с чёткими определяющими свойствами_
+: полезный концептуальный вклад  
+  _→ [228-appendix-c-quick-start-architecture-for-sgb-advoca|02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]_
+
+_Тиражирование_
+: Один продукт обслуживает всех  
+  _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц|02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md]_
+
+_То что вы описываете_
+: AI-augmented DevRel scout for cause-driven open-source development  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_То, что нужно_
+: positioning и partnership strategy :  
+  _→ [150-appendix-c-version-history|02-anthropic-vacancies/150-appendix-c-version-history.md]_
+
+_Тогда название папки_
+: имя архитектурного паттерна, а не имя проекта  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Тон_
+: Профессиональный, но тёплый  
+  _→ [349-твоя-личность|02-anthropic-vacancies/349-твоя-личность.md]_
+
+_Требования_
+: - Только запись в `nautilus  
+  _→ [80-5-compatibility-levels|02-anthropic-vacancies/80-5-compatibility-levels.md]_
+
+_Третичные_
+: Самопредставляющиеся затронутые  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Третье_
+: подключить voice/local-first sync и только потом AutoResearch  
+  _→ [01-executive-summary|04-ai-collaborations/01-executive-summary.md]_
+
+_Триада углов не случайна_
+: классическая семиотическая  
+  _→ [67-о-проекте|docs/02-anthropic-vacancies/67-о-проекте.md]_
+
+_ттерн, который стоит явно документировать_
+: уже сама по себе компактная история одной идеи за 2 месяца, готовая для блога или README  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+
+h2. У
+
+_У некоторых людей есть оба_
+: «суперзвёзды» современных экономик внимания  
+  _→ [191-1-синдром-золушки-почему-качество-остаётся-невидим|02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md]_
+
+_Удалено из оригинальной Фазы 1_
+: - Desktop GUI (отложено до «возможно никогда»,  
+  _→ [332-6-уточнённый-объём-ingit-с-учётом-cowork|02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md]_
+
+_Удалить или отложить_
+: - Desktop GUI (Electron + React)  
+  _→ [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи|02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md]_
+
+_Удалённый объём_
+: - Desktop GUI: -3 месяца усилий  
+  _→ [332-6-уточнённый-объём-ingit-с-учётом-cowork|02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md]_
+
+_Уникальность слоя_
+: закрывает ли проект то, чего нет в других?  
+  _→ [02-methodology|01-svyazi/02-methodology.md]_
+
+_Управляемый объём_
+: Единственная юридическая  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Уровень 4_
+: принципиально другая форма работы, и её нужно оркестрировать принципиально иначе  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Уровень платформы_
+: Системные политики для всех агентов, работающих на платформе  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_Усилие_
+: Один день для настройки  
+  _→ [331-5-четыре-пути-интеграции-в-порядке-доступности|02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md]_
+
+_Устойчивое состояние (Год 2+)_
+: - Поддержка курирования (0,5 FTE): €60 000  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+
+h2. Ф
+
+_Фаза 1 (Месяцы 6-18)_
+: Расширение до 50-100  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Фаза 3 (Годы 3+)_
+: Расширение в смежные  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+_Фаза A/B_
+: параллельные независимые создания draft  
+  _→ [122-глоссарий|02-anthropic-vacancies/122-глоссарий.md]_
+
+_Фаза C_
+: ручная консолидация draft-ов в финальный документ  
+  _→ [122-глоссарий|02-anthropic-vacancies/122-глоссарий.md]_
+
+_Финальная запись_
+: Правило: итоговое число — _точное, верифицированное_, не среднее  
+  _→ [119-appendix-b-примеры-расхождений-и-их-разрешения|02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md]_
+
+_Фрагментация_
+: то, что автор определял как  
+  _→ [294-существующие-приближения|02-anthropic-vacancies/294-существующие-приближения.md]_
+
+_Функция_
+: Авторы и исполнители сосредоточены на ремесле  
+  _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн|02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md]_
+
+_Функция агента_
+: Мониторить возможности, готовить заявки, выводить совпадения, договариваться о базовых условиях  
+  _→ [194-4-десять-областей-применения|02-anthropic-vacancies/194-4-десять-областей-применения.md]_
+
+
+h2. Х
+
+_хитектуре : трёхфазная methodology review_
+: именно механизм обратной связи  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+
+h2. Ц
+
+_Цель_
+: InGit становится полезным как  
+  _→ [332-6-уточнённый-объём-ingit-с-учётом-cowork|02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md]_
+
+
+h2. Ч
+
+_Чего не хватает_
+: - Нет автоматической валидации (Cowork может  
+  _→ [331-5-четыре-пути-интеграции-в-порядке-доступности|02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md]_
+
+_ческое приложение, JavaScript, last week)_
+: Writing OS из userMemories  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+_Четвёртый уровень_
+: Регулятивная жалоба или правовое действие  
+  _→ [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]_
+
+_Что вы описываете_
+: гибрид нескольких распознаваемых patterns :  
+  _→ [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]_
+
+_Что отличается_
+: Работник может сосредоточиться на ремесле  
+  _→ [194-4-десять-областей-применения|02-anthropic-vacancies/194-4-десять-областей-применения.md]_
+
+_Что работает_
+: - Cowork читает структуру InGit  
+  _→ [331-5-четыре-пути-интеграции-в-порядке-доступности|02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md]_
+
+_Что работает, чего нет в Пути 1_
+: - Валидация применяется автоматически  
+  _→ [331-5-четыре-пути-интеграции-в-порядке-доступности|02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md]_
+
+_Что существует_
+: decision support для human managers (Jira AI triage, Linear AI суммари)  
+  _→ [133-обратная-связь|02-anthropic-vacancies/133-обратная-связь.md]_
+
+_Что ты НЕ_
+: - Не хайпуешь («AI changes everything!»)  
+  _→ [349-твоя-личность|02-anthropic-vacancies/349-твоя-личность.md]_
+
+
+h2. Ш
+
+_шего токена: паттерн github_pat_11BUSYKPA_
+: стандартный префикс fine-grained Personal Access Token, и системы его точно распознали  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_шек в ряду: каждая из 6 линий гексаграммы_
+: отдельный expert layer , а гексаграмма целиком — это путь через 6 вложенных уровней  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Шесть документов_
+: уже substantial intellectual product  
+  _→ [248-приложение-c-архитектура-быстрого-старта-для-sgb-а|02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md]_
+
+
+h2. Щ
+
+_щу local-first и CRDT[^crdt]/sync engines_
+: слой, без которого сольная работа над персональными системами рассыпается на разных устройствах  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+
+h2. Ы
+
+_ы, консолидировать эпизоды и забывать шум_
+: зона Yodoca[^yodoca], NGT[^ngt] Memory, MemNet и agent-memory-mcp/Memory OS  
+  _→ [01-executive-summary|04-ai-collaborations/01-executive-summary.md]_
+
+_ые хотят private-NAS + Claude интеграцию,_
+: реальный enterprise use-case, особенно в Германии с её GDPR-осторожностью и любовью к Synology/QNAP  
+  _→ [00-intro|04-ai-collaborations/00-intro.md]_
+
+
+h2. Ь
+
+_ь документов за extended dialogue session_
+: unusual intellectual achievement  
+  _→ [272-appendix-d-connection-diagram|02-anthropic-vacancies/272-appendix-d-connection-diagram.md]_
+
+
+h2. Э
+
+_эксперимент_
+: исследовательский или концептуальный код; _рабочий прототип_ — можно поставить и проверить сценарий; _активный OSS_ — есть явная публичная разработка, релизы или активное развитие; _внутренний/закрытый прототип_ — архитектура раскрыта, но код з  
+  _→ [02-методика-и-рамка-отбора|04-ai-collaborations/02-методика-и-рамка-отбора.md]_
+
+_Эскалация_
+: Когда сложность превышает способности агента, агент связывает Маркуса с соответствующим человеком-адвокатом (юридическая помощь, организация прав инвалидов)  
+  _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Это not just adjacent_
+: the implementation of Lorenzo concept  
+  _→ [365-развёрнутый-анализ-внуковой-комбинации|02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md]_
+
+_Это важнее конкретного кода_
+: контракт , который код должен реализовать  
+  _→ [02-общий-план-развития-nautilus-portal-protocol|02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md]_
+
+_это заслуживает отдельной публикации_
+: потенциальная эмпирическая закономерность, похожая на golden ratio в optimization  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Это не «кандидат на вакансию»_
+: человек, которому нужна платформа, а не должность  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Это не гипотетический риск_
+: прямо те данные, которые в userMemories упоминаются как относящиеся к реальным Aktenzeichen в Sozialgericht Dresden  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Это не дефицит продуктивности_
+: избыток, который не направлен в distribution  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Это не наивная экономика_
+: верное представление динамики внимания  
+  _→ [191-1-синдром-золушки-почему-качество-остаётся-невидим|02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md]_
+
+_Это не новый documents_
+: revision OKWF concept document с этими insights integrated  
+  _→ [165-closing|02-anthropic-vacancies/165-closing.md]_
+
+_Это не новый тип наравне с другими_
+: уточнение пробела между Type 1 и Type 4  
+  _→ [272-appendix-d-connection-diagram|02-anthropic-vacancies/272-appendix-d-connection-diagram.md]_
+
+_Это не случайно_
+: вы возвращаетесь к одной концепции с разных углов  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Это не теоретическая проблема_
+: то, из-за чего большие корпорации будут осторожничать с внедрением вашей модели  
+  _→ [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_
+
+_Это уже не просто подбор статей_
+: _машина технологической селекции и сборки проектов_  
+  _→ [364-final-note-ты-experiment|02-anthropic-vacancies/364-final-note-ты-experiment.md]_
+
+
+h2. Ю
+
+_Юмор_
+: Лёгкий — occasional wit, но не jokey  
+  _→ [349-твоя-личность|02-anthropic-vacancies/349-твоя-личность.md]_
+
+
+h2. Я
+
+_Ясный спрос_
+: Автор лично нуждается в этом  
+  _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
+
+
+
+
+----
+
+_Смотрите также:_
+* [TABLES|TABLES.md]
+* [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]
+* [ACTION_ITEMS|ACTION_ITEMS.md]
+* [342-что-такое-вариант-c-concept-document-для-anthropic|02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md]
+

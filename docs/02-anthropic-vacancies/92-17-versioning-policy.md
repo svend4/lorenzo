@@ -84,9 +84,23 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [12. Versioning Policy](24-12-versioning-policy.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [12. Versioning Policy](24-12-versioning-policy.md) _81%_
+- [Author & Contact](62-author-contact.md) _33%_
+- [Author & Contact](42-author-contact.md) _29%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _29%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _25%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _25%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _25%_
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _17%_
 ## Связанные документы
 
 - [12. Versioning Policy](24-12-versioning-policy.md) _81%_

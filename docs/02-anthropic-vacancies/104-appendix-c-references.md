@@ -110,9 +110,42 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [13. Reference Implementation](25-13-reference-implementation.md)
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
+- [16. MCP Extension (Informative)](91-16-mcp-extension-informative.md)
+- [18. Reference Implementation](93-18-reference-implementation.md)
+- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
+- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [Appendix B: Change Log](103-appendix-b-change-log.md)
+- [Appendix B: Change Log](34-appendix-b-change-log.md)
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md)
+- [References](147-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+- [Доступные инструменты](128-доступные-инструменты.md)
+- [Зачем две версии параллельно](70-зачем-две-версии-параллельно.md)
+- [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-общий-план-развития-nautilus-portal-protocol.md)
+- [⬡](69-section.md)
+- [🇬🇧 About](68-about.md)
+- [🇷🇺 О проекте](67-о-проекте.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [18. Reference Implementation](93-18-reference-implementation.md) _29%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _25%_
+- [Appendix B: Change Log](34-appendix-b-change-log.md) _21%_
+- [⬡](69-section.md) _21%_
+- [Appendix B: Change Log](103-appendix-b-change-log.md) _17%_
+- [Глоссарий](122-глоссарий.md) _17%_
+- [References](147-references.md) _17%_
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _17%_
 ## Связанные документы
 
 - [18. Reference Implementation](93-18-reference-implementation.md) _33%_

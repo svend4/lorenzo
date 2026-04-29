@@ -128,9 +128,30 @@ infrastructure.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [7. Application Domains](218-7-application-domains.md)
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
+- [Existing Approximations](279-existing-approximations.md)
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md)
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md)
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md)
+- [Why This Document Exists](275-why-this-document-exists.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _53%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _42%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _37%_
+- [Why This Document Exists](275-why-this-document-exists.md) _33%_
+- [Existing Approximations](279-existing-approximations.md) _33%_
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _25%_
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md) _25%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _25%_
 ## Связанные документы
 
 - [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _42%_

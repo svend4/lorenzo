@@ -123,9 +123,22 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [08 Conclusions](08-conclusions.md) _29%_
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md) _25%_
+- [Выводы](../04-ai-collaborations/07-выводы.md) _21%_
+- [Граф связей проектов](../GRAPH.md) _21%_
+- [07 Mvp Planning](07-mvp-planning.md) _17%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _17%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _17%_
+- [Что это продолжение добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md) _17%_
 ## Связанные документы
 
 - [Executive summary](../04-ai-collaborations/01-executive-summary.md) _42%_

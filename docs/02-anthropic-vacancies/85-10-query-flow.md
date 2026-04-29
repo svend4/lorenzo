@@ -84,9 +84,26 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [15. Security Considerations](90-15-security-considerations.md)
+- [5. Compatibility Levels](17-5-compatibility-levels.md)
+- [6. Adapter Interface](18-6-adapter-interface.md)
+- [6. Adapter Interface](81-6-adapter-interface.md)
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md)
+- [9. Query Flow](21-9-query-flow.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [9. Query Flow](21-9-query-flow.md) _66%_
+- [6. Adapter Interface](18-6-adapter-interface.md) _25%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
+- [6. Adapter Interface](81-6-adapter-interface.md) _21%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _17%_
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md) _17%_
 ## Связанные документы
 
 - [9. Query Flow](21-9-query-flow.md) _66%_

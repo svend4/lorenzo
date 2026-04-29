@@ -162,9 +162,29 @@ exist.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Appendices](164-10-appendices.md)
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md)
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md)
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [7. Application Domains](218-7-application-domains.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [8. Call to Action](145-8-call-to-action.md)
+- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
+- [Appendix A: Glossary](148-appendix-a-glossary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [8. Call to Action](145-8-call-to-action.md) _37%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _21%_
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _21%_
+- [Abstract](136-abstract.md) _17%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _17%_
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
 ## Связанные документы
 
 - [Appendix A: Glossary](148-appendix-a-glossary.md) _37%_

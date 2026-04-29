@@ -1,7 +1,7 @@
 # Дайджест изменений
 
 <!-- summary -->
-> > Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA
+> > fix: fix 8607 broken internal links, improve health score formula
 
 ---
 <!-- tags: rag, collaboration -->
@@ -13,52 +13,47 @@ _Обновлено: 2026-04-29_
 
 ## Последний коммит
 
-**2026-04-29** — `b326b33a`
-> Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA
+**2026-04-29** — `52179ba5`
+> fix: fix 8607 broken internal links, improve health score formula
 
-Изменено файлов: **129** (+149977 / -3482 строк)
+Изменено файлов: **483** (+8637 / -8767 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **135**
-- Добавлено строк: **+150382**
-- Удалено строк: **-3488**
-- Новых md-файлов: **27**
+- Изменено файлов: **552**
+- Добавлено строк: **+81786**
+- Удалено строк: **-55546**
+- Новых md-файлов: **14**
 
 ## Новые документы
 
+**autofilled:**
+- `README.md`
+- `README.md`
+
 **contacts:**
-- `anastasiyaw.md`
-- `andrey-chuyan.md`
-- `antipozitive.md`
-- `cutcode.md`
-- `dmitriila.md`
-- `kksudo.md`
-- `mixaill76.md`
-- `nlaik.md`
-- `sonia-black.md`
-- `spbmolot.md`
+- `README.md`
 
 **root:**
-- `COMPONENT_MATRIX.md`
-- `CONCEPT_GRAPH.md`
-- `CONTACT_PRIORITY.md`
-- `CONTRADICTIONS.md`
-- `COVERAGE.md`
-- `KEYWORD_INDEX.md`
-- `KPI_HISTORY.md`
-- `NAMED_ENTITIES.md`
-- `PARAGRAPH_QUALITY.md`
-- `STALENESS.md`
-
-**skills:**
-- `improve.md`
-- `status.md`
+- `CITATION_INDEX.md`
+- `CONTENT_GAPS.md`
+- `DEPENDABOT.md`
+- `GITHUB_ISSUES.md`
+- `OUTLINE.md`
+- `READABILITY.md`
+- `READING_TIME.md`
+- `SOURCE_MAP.md`
+- `SPELLCHECK.md`
+- `TOPIC_MODEL.md`
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
+| 2026-04-29 | `52179ba5` | fix: fix 8607 broken internal links, improve health score formula |
+| 2026-04-29 | `d3037935` | merge: sync remote auto-generated docs, prefer local script outputs |
+| 2026-04-29 | `898c42a0` | feat: run all script groups, apply TOC/abstracts/crosslinks, rebuild s |
+| 2026-04-29 | `8e689b3d` | docs: auto-update via improve_run_all [skip ci] |
 | 2026-04-29 | `b326b33a` | Merge remote-tracking branch 'origin/main' into claude/organize-monore |
 | 2026-04-29 | `69562b02` | feat: add component matrix, KPI history tracker, fix run_all coverage |
 | 2026-04-29 | `42f561dd` | fix: fix update-docs CI job failures |
@@ -70,26 +65,24 @@ _Обновлено: 2026-04-29_
 | 2026-04-29 | `4755dd94` | fix: исправить ошибки в deeptext скриптах, добавить выходные файлы |
 | 2026-04-29 | `1f3fe74a` | feat: add autonomous watcher (Ступень 6), CI workflow, LLM section sum |
 | 2026-04-29 | `469dbced` | feat: add CLAUDE.md, weekly digest script, enrich group in run_all |
-| 2026-04-29 | `4e52a185` | chore: update mcp.json description wording |
-| 2026-04-29 | `00a25f78` | feat: add LLM integration (Ступень 3), skills (Ступень 4), MCP server  |
-| 2026-04-29 | `d9e66da8` | Merge pull request #3 from svend4/claude/current-dev-stage-iVIov |
-| 2026-04-29 | `1d552d4e` | chore: sync PROGRESS.md after deeptext scripts commit |
 
 ## Текущее состояние репозитория
 
 | Параметр | Значение |
 |----------|---------|
-| Документов `.md` | **524** |
+| Документов `.md` | **1053** |
 | Скриптов обработки | **125** |
 | Последнее обновление | **2026-04-29** |
 
-<!-- see-also -->
+<!-- backlinks-auto -->
+## Упоминается в
 
----
+- [Changelog (авто)](CHANGELOG_AUTO.md)
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
 
-**Смотрите также:**
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [VERSION_DIFF](VERSION_DIFF.md)
-- [CHANGELOG](CHANGELOG.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+<!-- related-auto -->
+## Связанные документы
 
+- [CHANGELOG](CHANGELOG.md) _21%_

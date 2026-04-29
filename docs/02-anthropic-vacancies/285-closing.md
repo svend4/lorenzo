@@ -64,9 +64,30 @@ need to be solved before other work proceeds.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [13. Closing](266-13-closing.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md)
+- [References](320-references.md)
+- [The Recursive Insight](281-the-recursive-insight.md)
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md)
+- [Why This Document Exists](275-why-this-document-exists.md)
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _29%_
+- [Acknowledgments](286-acknowledgments.md) _21%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _21%_
+- [Abstract](252-abstract.md) _17%_
+- [13. Closing](266-13-closing.md) _17%_
+- [Why This Document Exists](275-why-this-document-exists.md) _17%_
+- [The Recursive Insight](281-the-recursive-insight.md) _17%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _17%_
 ## Связанные документы
 
 - [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _33%_

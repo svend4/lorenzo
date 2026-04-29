@@ -95,9 +95,41 @@ Repo к экосистеме (A–E, см. раздел 12).
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Introduction](06-1-introduction.md)
+- [1. Introduction](76-1-introduction.md)
+- [10. Query Flow](85-10-query-flow.md)
+- [12. Onboarding Paths (Normative)](87-12-onboarding-paths-normative.md)
+- [16. MCP Extension (Informative)](91-16-mcp-extension-informative.md)
+- [17. Versioning Policy](92-17-versioning-policy.md)
+- [2. Terminology](07-2-terminology.md)
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
+- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
+- [5. Compatibility Levels](80-5-compatibility-levels.md)
+- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md)
+- [Abstract](74-abstract.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Конфигурация для Claude Desktop](124-конфигурация-для-claude-desktop.md)
+- [🇬🇧 About](68-about.md)
+- [🇷🇺 О проекте](67-о-проекте.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [2. Terminology](07-2-terminology.md) _60%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _29%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _25%_
+- [Abstract](74-abstract.md) _25%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _25%_
+- [12. Onboarding Paths (Normative)](87-12-onboarding-paths-normative.md) _25%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
 ## Связанные документы
 
 - [2. Terminology](07-2-terminology.md) _53%_

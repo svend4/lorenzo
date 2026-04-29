@@ -219,9 +219,36 @@ ethical, and economic framework.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [12. Closing](223-12-closing.md)
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md)
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md)
+- [7. Governance and Oversight](176-7-governance-and-oversight.md)
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md)
+- [Abstract](210-abstract.md)
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md)
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md)
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Table of Contents](211-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](211-table-of-contents.md) _42%_
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _42%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _37%_
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md) _37%_
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _37%_
+- [Abstract](210-abstract.md) _33%_
+- [12. Closing](223-12-closing.md) _33%_
+- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _29%_
 ## Связанные документы
 
 - [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _53%_

@@ -267,9 +267,30 @@ Thank you for the collaboration.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [4. Ten Domains of Application](173-4-ten-domains-of-application.md)
+- [7. Governance and Oversight](176-7-governance-and-oversight.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [References](225-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix C: Version History](150-appendix-c-version-history.md) _21%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _21%_
+- [10. Open Questions](179-10-open-questions.md) _17%_
+- [12. Closing](223-12-closing.md) _17%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _17%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _17%_
+- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _17%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _17%_
 ## Связанные документы
 
 - [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _29%_

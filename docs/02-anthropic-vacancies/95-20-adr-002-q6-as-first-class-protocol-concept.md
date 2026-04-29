@@ -60,9 +60,24 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Introduction](06-1-introduction.md)
+- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md)
+- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md)
+- [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
+- [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Похожие документы](../SIMILAR.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _60%_
+- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md) _53%_
+- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md) _42%_
+- [8. Q6 Space (Normative)](83-8-q6-space-normative.md) _25%_
 ## Связанные документы
 
 - [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _42%_

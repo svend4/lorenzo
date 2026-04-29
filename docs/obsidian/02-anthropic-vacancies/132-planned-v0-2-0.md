@@ -1,0 +1,61 @@
+---
+title: "Planned (v0.2.0)"
+tags:
+  - architecture
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# Planned (v0.2.0)
+
+<!-- summary -->
+> - HTTP-mode для debugging и remote access
+
+---
+<!-- tags: architecture -->
+
+
+
+
+## Planned (v0.2.0)
+
+- HTTP-mode для debugging и remote access
+- Authentication через API keys
+- Rate limiting
+- Whitelist/blacklist repos для MCP exposure
+- Caching слой для частых query
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[187-слой-представительских-агентов-md]] (сходство 0.12)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[51-compatibility-level]]
+- [[61-compatibility-level]]
+- [[28-appendix-a-minimal-working-example]]
+- [[42-author-contact]]
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[04-abstract|Abstract]] _29%_
+- [[41-compatibility-level|Compatibility Level]] _29%_
+- [[44-for-the-curious-philosophy|For the Curious: Philosophy]] _29%_
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _25%_
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _25%_
+- [[123-portal-mcp-py|portal-mcp.py]] _21%_
+- [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] _21%_
+- [[154-table-of-contents|Table of Contents]] _21%_

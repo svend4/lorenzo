@@ -44,9 +44,45 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Конкретный план применения к текущим документам](117-10-конкретный-план-применения-к-текущим-документам.md)
+- [2. Формальный workflow](108-2-формальный-workflow.md)
+- [9. Связь с другими типами агентов](240-9-связь-с-другими-типами-агентов.md)
+- [AI-опосредованное представительство для недопредставленных экспертов и уязвимых категорий населения](188-ai-опосредованное-представительство-для-недопредст.md)
+- [Abstract](74-abstract.md)
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md)
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md)
+- [Appendix B: Change Log](34-appendix-b-change-log.md)
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md)
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [README.md](65-readme-md.md)
+- [TL;DR](106-tl-dr.md)
+- [portal-mcp.py](123-portal-mcp-py.md)
+- [Аннотация](230-аннотация.md)
+- [Благодарности](301-благодарности.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+- [Зачем две версии параллельно](70-зачем-две-версии-параллельно.md)
+- [ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛЬНОЙ РАБОТЫ](289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
+- [ПРОФЕССИОНАЛЬНЫЕ КОЛЛЕГИ-АГЕНТЫ](229-профессиональные-коллеги-агенты.md)
+- [Содержание](190-содержание.md)
+- [Ссылки](245-ссылки.md)
+- [⬡](69-section.md)
+- [🇷🇺 О проекте](67-о-проекте.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _42%_
+- [README.md](65-readme-md.md) _37%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _37%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _33%_
+- [Abstract](04-abstract.md) _29%_
+- [portal-mcp.py](123-portal-mcp-py.md) _29%_
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _29%_
+- [Содержание](190-содержание.md) _25%_
 ## Связанные документы
 
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _37%_

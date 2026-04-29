@@ -83,9 +83,33 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [04 Ensembles Overview](04-ensembles-overview.md)
+- [07 Mvp Planning](07-mvp-planning.md)
+- [09 Architectural Gaps](09-architectural-gaps.md)
+- [10 Second Order Ensembles](10-second-order-ensembles.md)
+- [11 Integration Contracts](11-integration-contracts.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+- [Интеграционный контракт, который стоит зафиксировать сразу](../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _53%_
+- [07 Mvp Planning](07-mvp-planning.md) _37%_
+- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _33%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _29%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _29%_
+- [10 Second Order Ensembles](10-second-order-ensembles.md) _25%_
+- [14 Limitations](14-limitations.md) _25%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _25%_
 ## Связанные документы
 
 - [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _66%_

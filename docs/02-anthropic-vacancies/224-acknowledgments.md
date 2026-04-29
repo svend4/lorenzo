@@ -53,9 +53,24 @@ errors are author's responsibility.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Acknowledgments](146-acknowledgments.md)
+- [Acknowledgments](182-acknowledgments.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Acknowledgments](146-acknowledgments.md) _48%_
+- [Table of Contents](137-table-of-contents.md) _37%_
+- [Acknowledgments](182-acknowledgments.md) _37%_
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md) _37%_
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _37%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _33%_
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _33%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _29%_
 ## Связанные документы
 
 - [Acknowledgments](182-acknowledgments.md) _48%_

@@ -1,0 +1,68 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/43-history.md}}
+Дата: 2026-04-29
+{info}
+
+h1. History
+
+
+{quote}_Создан:_ [? уточнить — декабрь 2025, если совпадает с волной{quote}
+
+----
+
+
+
+
+
+h2. History
+
+_Создан:_ [? уточнить — декабрь 2025, если совпадает с волной 
+создания остальных репо экосистемы]
+
+_Ключевые этапы:_
+* [? v1 — первичная коллекция методов]
+* [? добавление α-уровневой системы]
+* [? подключение к nautilus как Level 3 participant]
+
+_Направление развития:_
+* Достижение 100+ документов в α₀ и α₁ уровнях
+* Уточнение схемы α-уровней по мере накопления опыта
+* Возможный переход на YAML frontmatter для улучшения машинной 
+  обработки [? если актуально]
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [63-history|63-history.md] (сходство 0.16)
+
+
+
+
+----
+
+_Смотрите также:_
+* [63-history|63-history.md]
+* [35-passports-info1-md|35-passports-info1-md.md]
+* [53-history|53-history.md]
+* [42-author-contact|42-author-contact.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [passports/info1.md|35-passports-info1-md.md] _29%_
+* [Content Overview|48-content-overview.md] _29%_
+* [History|53-history.md] _29%_
+* [For the Curious: Philosophy|44-for-the-curious-philosophy.md] _21%_
+* [passports/pro2.md|45-passports-pro2-md.md] _21%_
+* [Essence|46-essence.md] _21%_
+* [Native Format|47-native-format.md] _21%_
+* [passports/meta.md|55-passports-meta-md.md] _21%_

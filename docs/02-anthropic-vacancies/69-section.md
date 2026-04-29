@@ -792,9 +792,27 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+- [Расписание фазы 3](72-расписание-фазы-3.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix C: References](104-appendix-c-references.md) _21%_
+- [Глоссарий](122-глоссарий.md) _21%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _21%_
+- [Индекс обратных ссылок](../BACKLINKS.md) _21%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _17%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _17%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _17%_
+- [🇷🇺 О проекте](67-о-проекте.md) _17%_
 ## Связанные документы
 
 - [Глоссарий](122-глоссарий.md) _25%_

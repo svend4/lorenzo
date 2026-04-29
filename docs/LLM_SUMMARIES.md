@@ -61,6 +61,12 @@ _Без ключа — автоматическое резюме на основ
 <!-- related-auto -->
 ## Связанные документы
 
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md) _25%_
+- [Отчёт о дублировании](DUPLICATES.md) _21%_
+- [Карта репозитория Lorenzo](SITEMAP.md) _17%_
+- [Валидация структуры репозитория](VALIDATION.md) _17%_
+## Связанные документы
+
 - [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md) _33%_
 - [Индекс тегов](TAGS.md) _21%_
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md) _17%_
@@ -76,3 +82,11 @@ _Без ключа — автоматическое резюме на основ
 - [ONBOARDING](ONBOARDING.md)
 - [WORD_CLOUD](WORD_CLOUD.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
+- [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md)

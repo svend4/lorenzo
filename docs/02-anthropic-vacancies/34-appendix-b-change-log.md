@@ -81,9 +81,32 @@ Appendix A с minimal working example — это критично. Внешни�
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [16. MCP Extension (Informative)](91-16-mcp-extension-informative.md)
+- [Appendix B: Change Log](103-appendix-b-change-log.md)
+- [Appendix C: References](104-appendix-c-references.md)
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md)
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [README.md](65-readme-md.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Глоссарий](122-глоссарий.md)
+- [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-общий-план-развития-nautilus-portal-protocol.md)
+- [Ссылки](338-ссылки.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _37%_
+- [portal-mcp.py](123-portal-mcp-py.md) _29%_
+- [Abstract](04-abstract.md) _25%_
+- [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-общий-план-развития-nautilus-portal-protocol.md) _21%_
+- [Appendix C: References](104-appendix-c-references.md) _21%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _21%_
+- [Индекс обратных ссылок](../BACKLINKS.md) _21%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _17%_
 ## Связанные документы
 
 - [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _37%_

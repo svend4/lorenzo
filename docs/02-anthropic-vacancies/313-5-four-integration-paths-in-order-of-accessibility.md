@@ -196,9 +196,33 @@ defers complex decisions until evidence is available.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
+- [4. Симбиотическая Архитектура](330-4-симбиотическая-архитектура.md)
+- [5. Четыре пути интеграции в порядке доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md)
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _29%_
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _25%_
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _25%_
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _21%_
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md) _17%_
+- [Table of Contents](308-table-of-contents.md) _17%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _17%_
 ## Связанные документы
 
 - [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _37%_

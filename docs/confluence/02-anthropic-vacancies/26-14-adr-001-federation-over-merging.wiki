@@ -1,0 +1,82 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 14. ADR-001: Federation over Merging
+
+
+{quote}_Context:_ При построении системы knowledge management встаёт{quote}
+
+----
+
+
+
+
+
+h2. 14. ADR-001: Federation over Merging
+
+_Status:_ Accepted
+
+_Context:_ При построении системы knowledge management встаёт 
+выбор: заставить все данные мигрировать в единую схему (merge), 
+либо сохранить разные native-форматы и переводить по необходимости 
+(federation).
+
+_Decision:_ Выбрана federation.
+
+_Consequences:_
+
+_Positive:_
+* Low barrier to entry: существующие Repos подключаются без 
+  рефакторинга
+* Authorship preserved: каждый автор работает в своей модели
+* Multi-angle views: один концепт может существовать в трёх Repos 
+  с тремя разными углами одновременно
+
+_Negative:_
+* Cross-repo queries дороже: требуется вызов всех адаптеров
+* Consensus нетривиален: string matching — аппроксимация, не 
+  formal mapping
+* Bridges — текстовые описания, не machine-executable
+
+_Alternatives rejected:_
+* Unified RDF/OWL ontology: слишком высокий barrier to entry
+* Centralized database: нарушает принцип local autonomy
+* Schema-less dump: теряется семантика angles
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [94-19-adr-001-federation-over-merging|94-19-adr-001-federation-over-merging.md] (сходство 0.89)
+* [95-20-adr-002-q6-as-first-class-protocol-concept|95-20-adr-002-q6-as-first-class-protocol-concept.md] (сходство 0.10)
+
+
+
+
+----
+
+_Смотрите также:_
+* [94-19-adr-001-federation-over-merging|94-19-adr-001-federation-over-merging.md]
+* [95-20-adr-002-q6-as-first-class-protocol-concept|95-20-adr-002-q6-as-first-class-protocol-concept.md]
+* [96-21-adr-003-five-onboarding-paths-as-equal-rank|96-21-adr-003-five-onboarding-paths-as-equal-rank.md]
+* [06-1-introduction|06-1-introduction.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [19. ADR-001: Federation over Merging|94-19-adr-001-federation-over-merging.md] _37%_
+* [20. ADR-002: Q6 as First-Class Protocol Concept|95-20-adr-002-q6-as-first-class-protocol-concept.md] _33%_
+* [21. ADR-003: Five Onboarding Paths as Equal-Rank|96-21-adr-003-five-onboarding-paths-as-equal-rank.md] _33%_
+* [1. Introduction|06-1-introduction.md] _21%_
+* [🇬🇧 About|68-about.md] _21%_
+* [8. Q6 Space (Normative)|83-8-q6-space-normative.md] _21%_

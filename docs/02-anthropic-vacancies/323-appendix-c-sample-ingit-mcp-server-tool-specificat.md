@@ -288,9 +288,28 @@ This recursive nature — каждый ваш observation refines understanding,
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Abstract](307-abstract.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _48%_
+- [10. Strategic Positioning](318-10-strategic-positioning.md) _25%_
+- [Abstract](307-abstract.md) _21%_
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _21%_
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _17%_
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md) _17%_
 ## Связанные документы
 
 - [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _33%_

@@ -59,9 +59,28 @@ will be more than enough.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md)
+- [Acknowledgments](146-acknowledgments.md)
+- [Acknowledgments](224-acknowledgments.md)
+- [Acknowledgments](267-acknowledgments.md)
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md)
+- [References](183-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Acknowledgments](146-acknowledgments.md) _42%_
+- [Acknowledgments](224-acknowledgments.md) _37%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _33%_
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _29%_
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md) _29%_
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _25%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _17%_
+- [Acknowledgments](267-acknowledgments.md) _17%_
 ## Связанные документы
 
 - [Acknowledgments](224-acknowledgments.md) _48%_

@@ -54,9 +54,25 @@ how skilled practice actually structures itself.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [12. Closing](223-12-closing.md)
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md)
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md) _53%_
+- [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _53%_
+- [Table of Contents](211-table-of-contents.md) _29%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _29%_
+- [12. Closing](223-12-closing.md) _29%_
+- [Abstract](210-abstract.md) _25%_
+- [9. Relationship to Other Agent Types](220-9-relationship-to-other-agent-types.md) _25%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _21%_
 ## Связанные документы
 
 - [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _66%_

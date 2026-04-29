@@ -181,9 +181,32 @@ shared, cited, refined by anyone with attribution.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. Target Populations](156-2-target-populations.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [6. Governance and Ethics](160-6-governance-and-ethics.md)
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [8. Risk Analysis](162-8-risk-analysis.md)
+- [9. Call for Partnership](163-9-call-for-partnership.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Executive Summary](153-executive-summary.md)
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [🇬🇧 About](68-about.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _21%_
+- [13. Reference Implementation](25-13-reference-implementation.md) _21%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _21%_
+- [Abstract](04-abstract.md) _17%_
+- [0. Status of This Document](05-0-status-of-this-document.md) _17%_
+- [Author & Contact](42-author-contact.md) _17%_
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md) _17%_
+- [0. Status of This Document](75-0-status-of-this-document.md) _17%_
 ## Связанные документы
 
 - [Глоссарий понятий](../CONCEPTS.md) _25%_

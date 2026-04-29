@@ -169,9 +169,24 @@ lose the social and negotiation skills they currently have.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Open Questions](179-10-open-questions.md)
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
+- [5. Architectural Specification](174-5-architectural-specification.md)
+- [6. Ethical Framework](175-6-ethical-framework.md)
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md)
+- [7. Governance and Oversight](176-7-governance-and-oversight.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _33%_
+- [10. Open Questions](179-10-open-questions.md) _17%_
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _17%_
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _17%_
 ## Связанные документы
 
 - [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _42%_

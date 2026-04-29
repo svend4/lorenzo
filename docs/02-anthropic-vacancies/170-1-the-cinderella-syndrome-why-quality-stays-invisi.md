@@ -159,9 +159,19 @@ Layer.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [12. Closing](181-12-closing.md)
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [2. Target Populations](156-2-target-populations.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](169-table-of-contents.md) _21%_
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
 ## Связанные документы
 
 - [12. Closing](181-12-closing.md) _25%_

@@ -93,9 +93,31 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md)
+- [References](147-references.md)
+- [References](183-references.md)
+- [References](225-references.md)
+- [Table of Contents](137-table-of-contents.md)
+- [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _37%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _37%_
+- [Acknowledgments](267-acknowledgments.md) _37%_
+- [Существующие документы DHLab (твой context)](355-существующие-документы-dhlab-твой-context.md) _37%_
+- [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _33%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _29%_
+- [References](287-references.md) _29%_
+- [Acknowledgments](319-acknowledgments.md) _21%_
 ## Связанные документы
 
 - [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _37%_

@@ -378,9 +378,18 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Введение](../../04-ai-collaborations/00-intro.md)
+- [Графы знаний и Legal AI](../../03-technology-combinations/02-knowledge-graphs.md)
+- [Системы памяти](README.md)
+## Упоминается в
+
 - [Системы памяти](../../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Введение](../../04-ai-collaborations/00-intro.md) _37%_
+- [Графы знаний и Legal AI](../../03-technology-combinations/02-knowledge-graphs.md) _25%_
 ## Связанные документы
 
 - [Введение](../../04-ai-collaborations/00-intro.md) _42%_

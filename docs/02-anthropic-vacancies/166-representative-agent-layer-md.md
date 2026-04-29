@@ -26,9 +26,32 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [Abstract](168-abstract.md)
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md)
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md)
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md)
+- [References](225-references.md)
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md)
+- [Аннотация](230-аннотация.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](344-системный-промпт-для-lorenzo-project.md)
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md) _73%_
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) _73%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _66%_
+- [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](344-системный-промпт-для-lorenzo-project.md) _37%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _25%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _25%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _25%_
+- [Angle / Perspective](13-angle-perspective.md) _21%_
 ## Связанные документы
 
 - [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md) _81%_

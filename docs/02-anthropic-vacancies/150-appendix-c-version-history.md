@@ -563,9 +563,28 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md)
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md)
+- [Closing](165-closing.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Обратная связь](133-обратная-связь.md)
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _21%_
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _21%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _17%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _17%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _17%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _17%_
+- [Content Overview](31-content-overview.md) _17%_
 ## Связанные документы
 
 - [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_

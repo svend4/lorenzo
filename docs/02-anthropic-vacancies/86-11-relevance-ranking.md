@@ -87,9 +87,26 @@ embeddings) могут использоваться, но MUST быть опци
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Query Flow](85-10-query-flow.md)
+- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- [6. Adapter Interface](81-6-adapter-interface.md)
+- [8. Consensus Algorithm](20-8-consensus-algorithm.md)
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md)
+- [9. Query Flow](21-9-query-flow.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Критерии выбора для фазы 3](71-критерии-выбора-для-фазы-3.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [9. Consensus Algorithm](84-9-consensus-algorithm.md) _21%_
+- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md) _21%_
+- [8. Consensus Algorithm](20-8-consensus-algorithm.md) _17%_
+- [9. Query Flow](21-9-query-flow.md) _17%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _17%_
 ## Связанные документы
 
 - [9. Consensus Algorithm](84-9-consensus-algorithm.md) _29%_

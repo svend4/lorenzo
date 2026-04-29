@@ -56,9 +56,27 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Angle / Perspective](49-angle-perspective.md)
+- [Bridges](50-bridges.md)
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
+- [History](43-history.md)
+- [Native Format](37-native-format.md)
+- [Native Format](57-native-format.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Native Format](57-native-format.md) _33%_
+- [History](43-history.md) _25%_
+- [Bridges](50-bridges.md) _25%_
+- [Compatibility Level](51-compatibility-level.md) _25%_
+- [Angle / Perspective](49-angle-perspective.md) _21%_
+- [Bridges](60-bridges.md) _17%_
+- [Compatibility Level](61-compatibility-level.md) _17%_
 ## Связанные документы
 
 - [Native Format](57-native-format.md) _29%_

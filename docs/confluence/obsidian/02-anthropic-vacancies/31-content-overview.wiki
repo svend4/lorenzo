@@ -1,0 +1,61 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/31-content-overview.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Content Overview"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Content Overview
+
+
+{quote}~200 заметок, темы: software engineering, philosophy, music.{quote}
+
+----
+
+
+
+
+
+h2. Content Overview
+~200 заметок, темы: software engineering, philosophy, music.
+
+
+
+----
+
+_Похожие документы:_
+* [[12-content-overview]] (сходство 0.21)
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[12-content-overview|Content Overview]] _47%_
+* [[13-angle-perspective|Angle / Perspective]] _25%_
+* [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _25%_
+* [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _25%_
+* [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _25%_
+* [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _25%_
+* [[LINKS|Индекс ссылок]] _25%_
+* [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _20%_
+
+
+
+----
+
+_Смотрите также:_
+* [[12-content-overview]]
+* [[151-open-knowledge-work-foundation-md]]
+* [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+* [[304-ingit-as-cowork-native-workspace-substrate-md]]
+

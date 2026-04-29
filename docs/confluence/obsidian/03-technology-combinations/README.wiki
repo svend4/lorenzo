@@ -1,0 +1,24 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/03-technology-combinations/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Комбинирование технологий для новых свойств"
+tags:
+  * technology-combinations
+date: 2026-04-29
+----
+
+h1. Комбинирование технологий для новых свойств
+
+_Файлов:_ 6
+
+h2. Содержание
+
+* [[01-agent-routing|01-agent-routing.md]] — 
+* [[02-knowledge-graphs|02-knowledge-graphs.md]] — 
+* [[03-local-first|03-local-first.md]] — 
+* [[04-sozialrecht-domain|04-sozialrecht-domain.md]] — 
+* [[05-benchmarks|05-benchmarks.md]] — 
+* [[QA|QA.md]] — _Автоматически сгенерировано по 5 файлам раздела._

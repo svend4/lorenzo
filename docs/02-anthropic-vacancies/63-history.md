@@ -51,9 +51,27 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
+- [History](43-history.md)
+- [History](53-history.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Содержание](190-содержание.md)
+- [Установка](126-установка.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Compatibility Level](41-compatibility-level.md) _29%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
+- [Содержание](326-содержание.md) _25%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
+- [portal-mcp.py](123-portal-mcp-py.md) _21%_
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _21%_
+- [Planned (v0.2.0)](132-planned-v0-2-0.md) _21%_
+- [Содержание](190-содержание.md) _21%_
 ## Связанные документы
 
 - [Содержание](190-содержание.md) _29%_

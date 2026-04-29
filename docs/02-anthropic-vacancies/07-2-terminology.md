@@ -77,9 +77,35 @@ human-readable описание: что хранит, какая философ�
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [12. Onboarding Paths (Normative)](87-12-onboarding-paths-normative.md)
+- [16. MCP Extension (Informative)](91-16-mcp-extension-informative.md)
+- [2. Terminology](77-2-terminology.md)
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md)
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
+- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- [Abstract](74-abstract.md)
+- [Compatibility Level](51-compatibility-level.md)
+- [Compatibility Level](61-compatibility-level.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [🇬🇧 About](68-about.md)
+- [🇷🇺 О проекте](67-о-проекте.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [2. Terminology](77-2-terminology.md) _60%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _29%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _25%_
+- [Abstract](74-abstract.md) _25%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _25%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
+- [5. Compatibility Levels](80-5-compatibility-levels.md) _21%_
 ## Связанные документы
 
 - [2. Terminology](77-2-terminology.md) _53%_

@@ -1,5 +1,10 @@
 # Контакт: Sonia_Black / knowledge-space
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, knowledge-space, mclaude, Rufler, LiteParse, Legal RAG, Graph RAG, SENTINEL
@@ -62,6 +67,16 @@ _Создано автоматически: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
+- [Контакт: Antipozitive / MemNet](antipozitive.md) _81%_
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _73%_
+- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _66%_
+- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md) _60%_
+- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _48%_
+- [Контакт: Cutcode / AIF Handoff](cutcode.md) _48%_
+- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _48%_
+- [Контакт: kksudo / AgentFS](kksudo.md) _48%_
+## Связанные документы
+
 - [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md) _73%_
 - [Контакт: Cutcode / AIF Handoff](cutcode.md) _66%_
 - [Контакт: Dmitriila / SENTINEL](dmitriila.md) _66%_
@@ -81,3 +96,11 @@ _Создано автоматически: 2026-04-29_
 - [antipozitive](antipozitive.md)
 - [vladspace](vladspace.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [contacts](README.md)
+- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md)
+- [Контакт: Antipozitive / MemNet](antipozitive.md)
+- [Контакт: nlaik / LiteParse / research-docs](nlaik.md)
+- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md)

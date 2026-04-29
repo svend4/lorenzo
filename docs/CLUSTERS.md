@@ -377,6 +377,16 @@ _...и ещё 90 малых кластеров (по 1-2 файла)_
 ## Связанные документы
 
 - [Карта происхождения текстов](SOURCE_MAP.md) _42%_
+- [Рекомендуемый порядок чтения](READING_ORDER.md) _33%_
+- [Время чтения документов](READING_TIME.md) _33%_
+- [Вакансии Anthropic — Анализ по кластерам](02-anthropic-vacancies/README.md) _29%_
+- [Часто задаваемые вопросы (FAQ)](FAQ.md) _29%_
+- [Инвертированный индекс ключевых слов](KEYWORD_INDEX.md) _29%_
+- [Качество абзацев](PARAGRAPH_QUALITY.md) _25%_
+- [Частотный анализ слов](WORD_FREQ.md) _25%_
+## Связанные документы
+
+- [Карта происхождения текстов](SOURCE_MAP.md) _42%_
 - [Рекомендуемый порядок чтения](READING_ORDER.md) _37%_
 - [Вакансии Anthropic — Анализ по кластерам](README.md) _33%_
 - [Инвертированный индекс ключевых слов](KEYWORD_INDEX.md) _33%_
@@ -384,3 +394,17 @@ _...и ещё 90 малых кластеров (по 1-2 файла)_
 - [Table of Contents](02-anthropic-vacancies/211-table-of-contents.md) _29%_
 - [Table of Contents](02-anthropic-vacancies/308-table-of-contents.md) _29%_
 - [Качество абзацев](PARAGRAPH_QUALITY.md) _29%_
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Appendix A: Decision Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [Appendix B: Sub-Agent Registry Schema (Sketch)](02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)
+- [Table of Contents](02-anthropic-vacancies/308-table-of-contents.md)
+- [Word Cloud](WORD_CLOUD.md)
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Инвертированный индекс ключевых слов](KEYWORD_INDEX.md)
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)

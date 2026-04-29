@@ -1,5 +1,20 @@
 # 6. Refined InGit Scope with Cowork in Mind
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Refined InGit Scope with Cowork in Mind](#6-refined-ingit-scope-with-cowork-in-mind)
+  - [6.1. New Phase 1 (Months 1-3): Substrate MVP](#61-new-phase-1-months-1-3-substrate-mvp)
+  - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
+  - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
+  - [6.4. Total Reduced Scope](#64-total-reduced-scope)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -119,9 +134,31 @@ better outcomes.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md)
+- [Table of Contents](308-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](308-table-of-contents.md) _42%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _29%_
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _29%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _25%_
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _25%_
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _21%_
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _21%_
+- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md) _17%_
 ## Связанные документы
 
 - [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _33%_

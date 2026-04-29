@@ -162,9 +162,25 @@ practitioner can configure into their own combination.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [13. Closing](266-13-closing.md)
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md)
+- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
+- [Table of Contents](253-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _33%_
+- [Table of Contents](253-table-of-contents.md) _29%_
+- [Abstract](252-abstract.md) _25%_
+- [13. Closing](266-13-closing.md) _25%_
+- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _21%_
 ## Связанные документы
 
 - [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _33%_

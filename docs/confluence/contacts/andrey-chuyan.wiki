@@ -1,0 +1,89 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/contacts/andrey-chuyan.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Контакт: andrey_chuyan / Svyazi
+
+
+{quote}- [Статус связи|#статус-связи]{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+
+----
+
+
+
+
+h2. Contents
+
+* [Профиль|#профиль]
+* [Статус связи|#статус-связи]
+* [Первое сообщение|#первое-сообщение]
+* [Открытые вопросы|#открытые-вопросы]
+
+
+
+
+
+h2. Профиль
+
+|| Параметр || Значение ||
+|| Ник || **andrey_chuyan** ||
+|| GitHub || [@andrey_chuyan](https://github.com/andrey_chuyan) ||
+|| Проекты || Svyazi ||
+|| Слой в Svyazi || ingestion/CardIndex ||
+|| Упомянут в документах || 4 файлах ||
+|| Платформа || Habr / GitHub ||
+
+h2. Статус связи
+
+* [ ] Изучили профиль
+* [ ] Написали первое сообщение
+* [ ] Получили ответ
+* [ ] Договорились о сотрудничестве
+
+h2. Первое сообщение
+
+{code}
+Здравствуйте, andrey_chuyan!
+
+Я изучаю Svyazi — он отлично вписывается в Svyazi 2.0,
+которую я собираю как локальную community intelligence platform.
+
+Svyazi закрывает слой «ingestion/CardIndex» в архитектуре.
+
+Один конкретный вопрос: Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы?
+
+Было бы интересно пообщаться — как лучше связаться?
+{code}
+
+h2. Открытые вопросы
+
+1. Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы?
+2. [Вопрос 2]
+
+----
+_Создано автоматически: 2026-04-29_
+
+
+h2. Связанные документы
+
+* [Контакт: Cutcode / AIF Handoff|cutcode.md] _66%_
+* [Контакт: Dmitriila / SENTINEL|dmitriila.md] _66%_
+* [Контакт: kksudo / AgentFS|../autofilled/components/kksudo.md] _66%_
+* [Контакт: MiXaiLL76 / Auto AI Router|mixaill76.md] _66%_
+* [Контакт: spbmolot / NGT Memory|../autofilled/components/spbmolot.md] _66%_
+* [Контакт: tagir_analyzes / Legal RAG|tagir-analyzes.md] _66%_
+* [Контакт: VitalyOborin / Yodoca|vitalyoborin.md] _66%_
+* [Контакт: VladSpace / Graph RAG|vladspace.md] _66%_
+
+
+
+----
+
+_Смотрите также:_
+* [vladspace|vladspace.md]
+* [cutcode|cutcode.md]
+* [dmitriila|dmitriila.md]
+* [mixaill76|mixaill76.md]
+

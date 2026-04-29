@@ -109,9 +109,20 @@ prefer honest critics to unreserved enthusiasts.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Call for Collaboration](222-11-call-for-collaboration.md)
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md)
+- [Abstract](168-abstract.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [9. Phased Rollout Strategy](178-9-phased-rollout-strategy.md) _17%_
+- [11. Call for Collaboration](222-11-call-for-collaboration.md) _17%_
 ## Связанные документы
 
 - [11. Call for Collaboration](222-11-call-for-collaboration.md) _21%_

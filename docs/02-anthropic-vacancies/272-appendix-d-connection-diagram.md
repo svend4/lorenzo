@@ -332,9 +332,32 @@ Pero никто не построил yet what you described. Это opportunity
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md)
+- [Closing](165-closing.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Введение](00-intro.md)
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md)
+- [Обратная связь](133-обратная-связь.md)
+- [Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги](248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Closing](165-closing.md) _25%_
+- [Appendix C: Version History](150-appendix-c-version-history.md) _21%_
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _21%_
+- [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _17%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _17%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _17%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _17%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _17%_
 ## Связанные документы
 
 - [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _21%_

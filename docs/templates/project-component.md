@@ -39,8 +39,21 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [contact-outreach](contact-outreach.md)
-- [ensemble](ensemble.md)
-- [vladspace](../contacts/vladspace.md)
-- [cutcode](../contacts/cutcode.md)
+- [contact-outreach](../obsidian/templates/contact-outreach.md)
+- [ensemble](../obsidian/templates/ensemble.md)
+- [vladspace](../obsidian/contacts/vladspace.md)
+- [cutcode](../obsidian/contacts/cutcode.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[Тема исследования]](../autofilled/research-summary.md)
+- [Шаблоны документов](README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [ADR: [Название решения]](decision-record.md) _25%_
+- [Контакт: [Имя / Проект]](contact-outreach.md) _21%_
+- [Ансамбль: [Название]](ensemble.md) _21%_
+- [[Тема исследования]](research-note.md) _21%_

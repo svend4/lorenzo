@@ -62,9 +62,24 @@ fallback-статуса.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Introduction](76-1-introduction.md)
+- [2. Terminology](07-2-terminology.md)
+- [2. Terminology](77-2-terminology.md)
+- [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
+- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- [Abstract](04-abstract.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Abstract](04-abstract.md) _33%_
+- [2. Terminology](07-2-terminology.md) _25%_
+- [2. Terminology](77-2-terminology.md) _25%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _21%_
 ## Связанные документы
 
 - [Abstract](04-abstract.md) _42%_

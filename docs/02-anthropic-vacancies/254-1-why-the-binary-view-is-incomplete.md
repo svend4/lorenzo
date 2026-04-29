@@ -137,9 +137,32 @@ support to skilled professions.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Open Questions](221-10-open-questions.md)
+- [13. Closing](266-13-closing.md)
+- [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md)
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md)
+- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [Abstract](252-abstract.md)
+- [Table of Contents](253-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Abstract](252-abstract.md) _48%_
+- [Table of Contents](253-table-of-contents.md) _33%_
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _33%_
+- [13. Closing](266-13-closing.md) _25%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _21%_
+- [Abstract](210-abstract.md) _21%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _21%_
+- [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md) _21%_
 ## Связанные документы
 
 - [Abstract](252-abstract.md) _42%_

@@ -85,9 +85,26 @@ work.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Problem Statement](155-1-problem-statement.md)
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [Appendix C: Version History](150-appendix-c-version-history.md)
+- [Closing](285-closing.md)
+- [Existing Approximations](279-existing-approximations.md)
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md)
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _29%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _21%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _17%_
+- [Closing](285-closing.md) _17%_
 ## Связанные документы
 
 - [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _29%_

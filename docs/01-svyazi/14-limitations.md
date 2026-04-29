@@ -67,9 +67,27 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [06 Security Privacy](06-security-privacy.md)
+- [12 Roadmap](12-roadmap.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [Ограничения, лицензии и что пока лучше не склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [Что это продолжение добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [12 Roadmap](12-roadmap.md) _42%_
+- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) _42%_
+- [07 Mvp Planning](07-mvp-planning.md) _25%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _25%_
+- [13 Contacts](13-contacts.md) _25%_
+- [03 Component Catalog](03-component-catalog.md) _21%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _21%_
+- [06 Security Privacy](06-security-privacy.md) _21%_
 ## Связанные документы
 
 - [06 Security Privacy](06-security-privacy.md) _29%_

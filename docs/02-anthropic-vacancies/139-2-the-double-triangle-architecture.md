@@ -167,9 +167,27 @@ large organizations (Star(n)) without protocol changes.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md)
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [Abstract](136-abstract.md)
+- [Appendix A: Glossary](148-appendix-a-glossary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _29%_
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _25%_
+- [Abstract](136-abstract.md) _21%_
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _21%_
 ## Связанные документы
 
 - [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _37%_

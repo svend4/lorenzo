@@ -845,9 +845,21 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md)
+- [Closing](165-closing.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Введение](00-intro.md)
+- [Введение](../04-ai-collaborations/00-intro.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Closing](165-closing.md) _25%_
+- [Введение](00-intro.md) _21%_
+- [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _17%_
 ## Связанные документы
 
 - [Closing](165-closing.md) _25%_

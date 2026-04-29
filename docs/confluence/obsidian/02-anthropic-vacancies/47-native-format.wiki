@@ -1,0 +1,84 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/47-native-format.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Native Format"
+tags:
+  * anthropic
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Native Format
+
+
+{quote}_Структура концепта (предположительно):_ [? уточнить точный формат]{quote}
+
+----
+
+
+
+
+
+h2. Native Format
+
+_Расширение:_ {{.pro2}}
+
+_Структура концепта (предположительно):_ [? уточнить точный формат]
+{code}
+{
+"id": "unique-concept-id",
+"title": "Human-readable name",
+"q6_vertex": "binary string, 6 bits (e.g. '101100')",
+"definition": "Formal or informal definition",
+"related": ["id1", "id2", ...],  // hamming-distance 1 neighbors
+"hexagram_mapping": "hexagram number 1–64 from I Ching",
+"tags": ["tag1", "tag2"],
+"metadata": { ... }
+}
+{code}
+_Q6-вершина_ определяет 6 бинарных атрибутов концепта. Соседи по 
+графу (с hamming distance 1) — концепты, отличающиеся ровно в одном 
+атрибуте.
+
+_Особенность:_ Q6-граф имеет строго 64 вершины и 192 ребра. Каждая 
+вершина имеет ровно 6 соседей (один на каждое измерение).
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[57-native-format]] (сходство 0.12)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[57-native-format]]
+* [[50-bridges]]
+* [[49-angle-perspective]]
+* [[42-author-contact]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[57-native-format|Native Format]] _29%_
+* [[49-angle-perspective|Angle / Perspective]] _25%_
+* [[50-bridges|Bridges]] _25%_
+* [[37-native-format|Native Format]] _21%_
+* [[43-history|History]] _21%_
+* [[48-content-overview|Content Overview]] _21%_
+* [[51-compatibility-level|Compatibility Level]] _21%_
+* [[04-abstract|Abstract]] _17%_

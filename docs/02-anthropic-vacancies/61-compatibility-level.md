@@ -44,9 +44,31 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [5. Compatibility Levels](17-5-compatibility-levels.md)
+- [Bridges](40-bridges.md)
+- [Bridges](50-bridges.md)
+- [Bridges](60-bridges.md)
+- [Compatibility Level](41-compatibility-level.md)
+- [Compatibility Level](51-compatibility-level.md)
+- [Native Format](37-native-format.md)
+- [Native Format](57-native-format.md)
+- [Planned (v0.2.0)](132-planned-v0-2-0.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Compatibility Level](51-compatibility-level.md) _73%_
+- [Compatibility Level](41-compatibility-level.md) _42%_
+- [Bridges](60-bridges.md) _37%_
+- [Bridges](40-bridges.md) _33%_
+- [Native Format](57-native-format.md) _33%_
+- [Angle / Perspective](49-angle-perspective.md) _29%_
+- [Bridges](50-bridges.md) _25%_
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _21%_
 ## Связанные документы
 
 - [Compatibility Level](51-compatibility-level.md) _73%_

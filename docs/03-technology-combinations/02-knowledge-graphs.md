@@ -107,9 +107,23 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Local-first и P2P стек](03-local-first.md)
+- [MemNet: исследовательская память](../05-habr-projects/memory/memnet.md)
+- [Агентные системы и роутинг](01-agent-routing.md)
+- [Бенчмарки и производительность](05-benchmarks.md)
+- [Введение](../04-ai-collaborations/00-intro.md)
+- [Комбинирование технологий для новых свойств](README.md)
+## Упоминается в
+
 - [Комбинирование технологий для новых свойств](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Local-first и P2P стек](03-local-first.md) _33%_
+- [MemNet: исследовательская память](../05-habr-projects/memory/memnet.md) _25%_
+- [Бенчмарки и производительность](05-benchmarks.md) _21%_
+- [Введение](../04-ai-collaborations/00-intro.md) _17%_
 ## Связанные документы
 
 - [Local-first и P2P стек](03-local-first.md) _29%_

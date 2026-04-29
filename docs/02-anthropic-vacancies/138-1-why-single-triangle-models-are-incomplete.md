@@ -121,9 +121,25 @@ such a protocol.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md)
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md)
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [Abstract](136-abstract.md)
+- [Table of Contents](137-table-of-contents.md)
+- [The Recursive Insight](281-the-recursive-insight.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Abstract](136-abstract.md) _25%_
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _25%_
+- [7. Open Questions](144-7-open-questions.md) _25%_
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _21%_
+- [Appendix B: Summary of Contributions](149-appendix-b-summary-of-contributions.md) _17%_
 ## Связанные документы
 
 - [Abstract](136-abstract.md) _33%_

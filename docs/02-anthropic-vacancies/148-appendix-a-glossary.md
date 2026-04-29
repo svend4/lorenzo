@@ -87,9 +87,34 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md)
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [8. Call to Action](145-8-call-to-action.md)
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [Abstract](136-abstract.md)
+- [Acknowledgments](146-acknowledgments.md)
+- [References](147-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Обратная связь](133-обратная-связь.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _29%_
+- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _29%_
+- [Обратная связь](133-обратная-связь.md) _25%_
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md) _25%_
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _21%_
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _17%_
+- [8. Call to Action](145-8-call-to-action.md) _17%_
 ## Связанные документы
 
 - [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _37%_

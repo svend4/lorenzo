@@ -171,9 +171,27 @@ Either way, the material exists.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [10. Стратегическое Позиционирование](336-10-стратегическое-позиционирование.md)
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _25%_
+- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _25%_
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _21%_
+- [Вакансии Anthropic — Анализ по кластерам](README.md) _21%_
+- [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _17%_
+- [10. Стратегическое Позиционирование](336-10-стратегическое-позиционирование.md) _17%_
+- [Рекомендуемый порядок чтения](../READING_ORDER.md) _17%_
 ## Связанные документы
 
 - [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _33%_

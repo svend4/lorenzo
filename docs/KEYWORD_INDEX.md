@@ -169,6 +169,16 @@ _Обновлено: 2026-04-29_
 <!-- related-auto -->
 ## Связанные документы
 
+- [Кластеры тематически близких файлов](CLUSTERS.md) _29%_
+- [Частотный анализ слов](WORD_FREQ.md) _29%_
+- [Abstract](02-anthropic-vacancies/04-abstract.md) _25%_
+- [Время чтения документов](READING_TIME.md) _25%_
+- [Карта репозитория Lorenzo](SITEMAP.md) _25%_
+- [REVIEW_METHODOLOGY.md](02-anthropic-vacancies/105-review-methodology-md.md) _21%_
+- [Appendix A: Minimal Working Example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _21%_
+- [For the Curious: Philosophy](02-anthropic-vacancies/64-for-the-curious-philosophy.md) _21%_
+## Связанные документы
+
 - [Кластеры тематически близких файлов](CLUSTERS.md) _33%_
 - [Индекс тегов](TAGS.md) _29%_
 - [Abstract](02-anthropic-vacancies/04-abstract.md) _25%_
@@ -188,3 +198,13 @@ _Обновлено: 2026-04-29_
 - [306-with-anthropic-s-cowork-platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
 - [WORD_CLOUD](WORD_CLOUD.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Word Cloud](WORD_CLOUD.md)
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
+- [Кластеры тематически близких файлов](CLUSTERS.md)
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [Существующий landscape collaborators (твоя working knowledge)](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)

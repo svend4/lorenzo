@@ -1,0 +1,51 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/DUPLICATES.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Отчёт о дублировании"
+tags:
+  * general
+date: 2026-04-29
+----
+
+h1. Отчёт о дублировании
+
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
+Порог сходства: _0.5_  
+Точных дублей: _0_  
+Похожих пар: _1_
+
+h2. Точные дубли (одинаковое содержимое)
+
+|| Группа || Файлы ||
+|| #1 || `docs/templates/research-note.md`, `docs/autofilled/research-summary.md` ||
+
+h2. Похожие файлы (Jaccard ≥ 0.5)
+
+h3. 100% — {{docs/autofilled/components/spbmolot.md}} vs {{docs/autofilled/components/svend4.md}}
+
+_Общих абзацев:_ 1  
+_Примеры совпадений:_
+
+{quote}- [[sgb]] _90%_ - [[svyazi]] _90%_ - [[.md|Антропик]] _83%_ - [[.md|Cowork]]{quote}
+* [[cowork]]
+* [[ingit]]
+* [[lorenzo]]
+
+
+
+
+----
+
+_Смотрите также:_
+* [[AUTOFILLED]]
+* [[DENSITY]]
+* [[STALENESS]]
+* [[HEATMAP]]
+

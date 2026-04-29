@@ -188,9 +188,27 @@ unchanged remains to be measured.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md)
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md)
+- [Table of Contents](211-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](211-table-of-contents.md) _25%_
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _21%_
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _21%_
+- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _17%_
+- [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _17%_
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _17%_
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _17%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _17%_
 ## Связанные документы
 
 - [Table of Contents](211-table-of-contents.md) _29%_

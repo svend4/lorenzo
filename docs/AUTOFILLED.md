@@ -40,6 +40,16 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 <!-- related-auto -->
 ## Связанные документы
 
+- [components](autofilled/components/README.md) _45%_
+- [Антропик](autofilled/components/.md) _25%_
+- [Cowork](autofilled/components/cowork.md) _25%_
+- [ingit](autofilled/components/ingit.md) _25%_
+- [kksudo](autofilled/components/kksudo.md) _25%_
+- [Lorenzo](autofilled/components/lorenzo.md) _25%_
+- [Nautilus](autofilled/components/nautilus.md) _25%_
+- [SGB](autofilled/components/sgb.md) _25%_
+## Связанные документы
+
 - [Diff базы знаний между версиями](VERSION_DIFF.md) _25%_
 
 <!-- see-also -->
@@ -52,3 +62,9 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 - [ingit](autofilled/components/ingit.md)
 - [lorenzo](autofilled/components/lorenzo.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)

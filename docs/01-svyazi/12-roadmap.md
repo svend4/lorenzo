@@ -79,9 +79,27 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [07 Mvp Planning](07-mvp-planning.md)
+- [10 Second Order Ensembles](10-second-order-ensembles.md)
+- [14 Limitations](14-limitations.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) _73%_
+- [14 Limitations](14-limitations.md) _42%_
+- [06 Security Privacy](06-security-privacy.md) _25%_
+- [07 Mvp Planning](07-mvp-planning.md) _25%_
+- [03 Component Catalog](03-component-catalog.md) _21%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _21%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _21%_
+- [13 Contacts](13-contacts.md) _21%_
 ## Связанные документы
 
 - [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) _81%_

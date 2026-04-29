@@ -34,13 +34,10 @@
 [^mcp]: Model Context Protocol — протокол для AI-инструментов
 ```
 
-<!-- see-also -->
+<!-- backlinks-auto -->
+## Упоминается в
 
----
-
-**Смотрите также:**
-- [08-conclusions](01-svyazi/08-conclusions.md)
-- [01-executive-summary](04-ai-collaborations/01-executive-summary.md)
-- [ONBOARDING](ONBOARDING.md)
-- [TECH_RADAR](TECH_RADAR.md)
-
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)

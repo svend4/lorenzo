@@ -91,9 +91,26 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [References](147-references.md)
+- [References](183-references.md)
+- [References](268-references.md)
+- [References](320-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Ссылки](245-ссылки.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [References](147-references.md) _21%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _21%_
+- [References](183-references.md) _17%_
+- [References](268-references.md) _17%_
+- [References](320-references.md) _17%_
+- [Вакансии Anthropic — Анализ по кластерам](README.md) _17%_
 ## Связанные документы
 
 - [References](268-references.md) _29%_

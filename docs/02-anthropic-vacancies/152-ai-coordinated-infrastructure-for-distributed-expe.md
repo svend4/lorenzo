@@ -44,9 +44,25 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [Author & Contact](52-author-contact.md)
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md)
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md)
+- [References](147-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _60%_
+- [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md) _60%_
+- [Author & Contact](52-author-contact.md) _48%_
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _42%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _25%_
 ## Связанные документы
 
 - [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _60%_

@@ -116,9 +116,34 @@ string description концепта entry в терминах target_repo, ил�
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Query Flow](85-10-query-flow.md)
+- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md)
+- [15. Security Considerations](90-15-security-considerations.md)
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
+- [5. Compatibility Levels](17-5-compatibility-levels.md)
+- [5. Compatibility Levels](80-5-compatibility-levels.md)
+- [6. Adapter Interface](81-6-adapter-interface.md)
+- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
+- [9. Query Flow](21-9-query-flow.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [6. Adapter Interface](81-6-adapter-interface.md) _48%_
+- [9. Query Flow](21-9-query-flow.md) _33%_
+- [10. Query Flow](85-10-query-flow.md) _25%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
+- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _21%_
+- [5. Compatibility Levels](17-5-compatibility-levels.md) _17%_
 ## Связанные документы
 
 - [6. Adapter Interface](81-6-adapter-interface.md) _53%_

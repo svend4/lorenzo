@@ -164,9 +164,28 @@ efficiently between levels.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md)
+- [2. The Double-Triangle Architecture](139-2-the-double-triangle-architecture.md)
+- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md)
+- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [8. Call to Action](145-8-call-to-action.md)
+- [Abstract](136-abstract.md)
+- [Appendix A: Glossary](148-appendix-a-glossary.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Glossary](148-appendix-a-glossary.md) _29%_
+- [Abstract](136-abstract.md) _21%_
+- [7. Open Questions](144-7-open-questions.md) _21%_
+- [8. Call to Action](145-8-call-to-action.md) _21%_
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _17%_
 ## Связанные документы
 
 - [Appendix A: Glossary](148-appendix-a-glossary.md) _37%_

@@ -1,0 +1,13 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/01-svyazi/00-intro-part2.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Продолжение исследования для Svyazi 2.0"
+tags:
+  * svyazi
+date: 2026-04-29
+----
+
+h1. Продолжение исследования для Svyazi 2.0

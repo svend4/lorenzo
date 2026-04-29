@@ -126,9 +126,38 @@ class MyNotesAdapter(BaseAdapter):
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
+- [Abstract](04-abstract.md)
+- [Abstract](74-abstract.md)
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md)
+- [Compatibility Level](41-compatibility-level.md)
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md)
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md)
+- [Native Format](37-native-format.md)
+- [Planned (v0.2.0)](132-planned-v0-2-0.md)
+- [README.md](65-readme-md.md)
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
+- [portal-mcp.py](123-portal-mcp-py.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _60%_
+- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _37%_
+- [README.md](65-readme-md.md) _33%_
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _29%_
+- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _29%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
+- [portal-mcp.py](123-portal-mcp-py.md) _25%_
+- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _25%_
 ## Связанные документы
 
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _60%_

@@ -1,0 +1,48 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/autofilled/components/spbmolot.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "spbmolot"
+tags:
+  * ingestion
+  * collaboration
+  * autofilled
+date: 2026-04-29
+----
+
+h1. spbmolot
+
+
+{quote}_Компонент экосистемы Svyazi 2.0_{quote}
+_Проекты:_ Svyazi
+
+----
+
+
+
+
+
+_Тип:_ 27
+_Статус:_ GO 🟢
+_Упоминаний:_ 13
+
+h2. Описание
+_Компонент экосистемы Svyazi 2.0_
+
+h2. Ссылки
+* [Исходники|#]
+* [[README|Документация]]
+
+
+h2. Связанные документы
+
+* [[sgb]] _90%_
+* [[svyazi]] _90%_
+* [Антропик|.md] _83%_
+* [[cowork]] _83%_
+* [[ingit]] _83%_
+* [[kksudo]] _83%_
+* [[lorenzo]] _83%_
+* [[nautilus]] _83%_

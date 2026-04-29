@@ -214,9 +214,18 @@ never had it**.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [4. Ten Domains of Application](173-4-ten-domains-of-application.md)
+- [6. Ethical Framework](175-6-ethical-framework.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _17%_
 ## Связанные документы
 
 - [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _21%_

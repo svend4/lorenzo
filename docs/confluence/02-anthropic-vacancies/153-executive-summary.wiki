@@ -1,0 +1,98 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/153-executive-summary.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Executive Summary
+
+
+{quote}The Open Knowledge Work Foundation (OKWF) proposes to build{quote}
+
+----
+
+
+
+
+
+h2. Executive Summary
+
+The Open Knowledge Work Foundation (OKWF) proposes to build 
+infrastructure that enables qualified individuals outside 
+traditional employment markets to make meaningful, compensated 
+contributions to knowledge-intensive projects through 
+AI-coordinated specialization.
+
+We identify a systemic market failure: frontier AI companies 
+have hundreds of unfilled senior positions (Anthropic alone had 
+440 open roles as of April 2026), while simultaneously, 
+substantial talent pools remain underutilized due to geographic, 
+regulatory, health, or life-stage constraints. This includes 
+retired experts, disabled specialists, career-switchers, and 
+domain experts in non-CS backgrounds. Existing staffing platforms 
+(Deel, Toptal, Upwork, Mercor) treat these populations as 
+transactional labor, not as dignified contributors with persistent 
+professional identity.
+
+OKWF proposes a foundation-funded infrastructure combining:
+
+1. _Nautilus Portal Protocol_ — open technical substrate for 
+   federated knowledge work
+2. _Double-Triangle Architecture_ — human-AI collaboration 
+   pattern preserving individual autonomy
+3. _Pattern library with private instances_ — compounding 
+   shared knowledge without privacy loss
+4. _Guild-based community structure_ — persistent professional 
+   identity across engagements
+5. _Graduated participation model_ — entry at any capacity, 
+   progression at individual pace
+6. _Subsidiarity-based economic model_ — dignified stipend 
+   plus contribution bonuses, not charity and not employment
+
+We propose three-year pilot, initial funding €3-8M, launching 
+in German legal/social domain (which is unusually well-suited 
+due to existing technical infrastructure and author's direct 
+engagement with target populations), expanding to additional 
+domains and geographies based on empirical outcomes.
+
+This document is offered to potential foundation partners, 
+academic collaborators, corporate sponsors, and policy 
+stakeholders as basis for dialogue and refinement.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [155-1-problem-statement|155-1-problem-statement.md] (сходство 0.17)
+* [156-2-target-populations|156-2-target-populations.md] (сходство 0.17)
+* [164-10-appendices|164-10-appendices.md] (сходство 0.15)
+
+
+
+
+----
+
+_Смотрите также:_
+* [155-1-problem-statement|155-1-problem-statement.md]
+* [156-2-target-populations|156-2-target-populations.md]
+* [163-9-call-for-partnership|163-9-call-for-partnership.md]
+* [157-3-why-existing-solutions-fail|157-3-why-existing-solutions-fail.md]
+
+
+h2. Упоминается в
+
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+
+h2. Связанные документы
+
+* [1. Problem Statement|155-1-problem-statement.md] _42%_
+* [OPEN KNOWLEDGE WORK FOUNDATION.md|151-open-knowledge-work-foundation-md.md] _29%_
+* [Table of Contents|154-table-of-contents.md] _29%_
+* [3. Why Existing Solutions Fail|157-3-why-existing-solutions-fail.md] _29%_
+* [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md|273-infrastructure-for-ai-collaborative-intellectual-w.md] _29%_
+* [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work|135-a-formal-model-for-human-ai-collaboration-in-distr.md] _21%_
+* [2. Target Populations|156-2-target-populations.md] _21%_
+* [8. Call to Action|145-8-call-to-action.md] _17%_

@@ -191,9 +191,32 @@ flowchart LR
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [03 Component Catalog](03-component-catalog.md)
+- [06 Security Privacy](06-security-privacy.md)
+- [08 Conclusions](08-conclusions.md)
+- [10 Second Order Ensembles](10-second-order-ensembles.md)
+- [14 Limitations](14-limitations.md)
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Выводы](../04-ai-collaborations/07-выводы.md)
+- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _53%_
+- [10 Second Order Ensembles](10-second-order-ensembles.md) _48%_
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _37%_
+- [08 Conclusions](08-conclusions.md) _33%_
+- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _33%_
+- [03 Component Catalog](03-component-catalog.md) _29%_
+- [07 Mvp Planning](07-mvp-planning.md) _29%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _29%_
 ## Связанные документы
 
 - [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _60%_

@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-Найдено пробелов: **140** (мин. упоминаний: 3)
+Найдено пробелов: **339** (мин. упоминаний: 3)
 
 > Концепции, упоминаемые во многих файлах, но не имеющие собственного документа.
 
@@ -10,60 +10,60 @@ _Обновлено: 2026-04-29_
 
 | Концепция | Упоминаний | Рекомендуемая папка |
 |-----------|-----------|-------------------|
-| `LiteParse` | 50 | `docs/04-ai-collaborations/` |
-| `BSL` | 37 | `docs/04-ai-collaborations/` |
-| `NPP` | 33 | `docs/02-anthropic-vacancies/` |
-| `AIF` | 31 | `docs/contacts/` |
-| `MUST` | 28 | `docs/02-anthropic-vacancies/` |
-| `AutoResearch` | 26 | `docs/01-svyazi/` |
-| `GDPR` | 24 | `docs/02-anthropic-vacancies/` |
-| `SHOULD` | 21 | `docs/02-anthropic-vacancies/` |
-| `CRDT` | 19 | `docs/04-ai-collaborations/` |
-| `PII` | 18 | `docs/04-ai-collaborations/` |
-| `CLI` | 16 | `docs/02-anthropic-vacancies/` |
-| `XII` | 14 | `docs/02-anthropic-vacancies/` |
-| `BSG` | 14 | `docs/02-anthropic-vacancies/` |
-| `RFC` | 14 | `docs/02-anthropic-vacancies/` |
-| `RLM` | 13 | `docs/04-ai-collaborations/` |
-| `IDF` | 13 | `docs/04-ai-collaborations/` |
-| `PDF` | 13 | `docs/04-ai-collaborations/` |
-| `YiJing` | 13 | `docs/02-anthropic-vacancies/` |
-| `URL` | 13 | `docs/02-anthropic-vacancies/` |
-| `ROI` | 12 | `docs/02-anthropic-vacancies/` |
-| `LinkedIn` | 12 | `docs/02-anthropic-vacancies/` |
-| `MAY` | 12 | `docs/02-anthropic-vacancies/` |
-| `KSV` | 12 | `docs/02-anthropic-vacancies/` |
-| `HIPAA` | 11 | `docs/02-anthropic-vacancies/` |
-| `BaseAdapter` | 10 | `docs/02-anthropic-vacancies/` |
-| `LCI` | 10 | `docs/02-anthropic-vacancies/` |
-| `HEALTH` | 10 | `docs/PARAGRAPH_QUALITY.md/` |
-| `OpenWhispr` | 9 | `docs/04-ai-collaborations/` |
-| `TypeScript` | 9 | `docs/02-anthropic-vacancies/` |
-| `AutoGen` | 9 | `docs/02-anthropic-vacancies/` |
-| `EIC` | 9 | `docs/02-anthropic-vacancies/` |
-| `III` | 9 | `docs/02-anthropic-vacancies/` |
-| `CodeWiki` | 8 | `docs/01-svyazi/` |
-| `LangChain` | 8 | `docs/02-anthropic-vacancies/` |
-| `HMP` | 8 | `docs/02-anthropic-vacancies/` |
-| `FAISS` | 7 | `docs/04-ai-collaborations/` |
-| `HTTP` | 7 | `docs/02-anthropic-vacancies/` |
-| `MMORPG` | 7 | `docs/02-anthropic-vacancies/` |
-| `DeepMind` | 7 | `docs/02-anthropic-vacancies/` |
-| `DeepSeek` | 7 | `docs/03-technology-combinations/` |
-| `DOCX` | 7 | `docs/04-ai-collaborations/` |
-| `GUI` | 7 | `docs/02-anthropic-vacancies/` |
-| `CAMEL` | 7 | `docs/02-anthropic-vacancies/` |
-| `VPS` | 7 | `docs/02-anthropic-vacancies/` |
-| `AIRI` | 7 | `docs/02-anthropic-vacancies/` |
-| `WebSocket` | 6 | `docs/04-ai-collaborations/` |
-| `CRM` | 6 | `docs/04-ai-collaborations/` |
-| `GPU` | 6 | `docs/02-anthropic-vacancies/` |
-| `EMEA` | 6 | `docs/02-anthropic-vacancies/` |
-| `RDF` | 6 | `docs/02-anthropic-vacancies/` |
+| `LiteParse` | 100 | `docs/obsidian/` |
+| `BSL` | 74 | `docs/obsidian/` |
+| `NPP` | 65 | `docs/obsidian/` |
+| `AIF` | 60 | `docs/obsidian/` |
+| `MUST` | 56 | `docs/obsidian/` |
+| `AutoResearch` | 51 | `docs/obsidian/` |
+| `GDPR` | 48 | `docs/obsidian/` |
+| `SHOULD` | 42 | `docs/obsidian/` |
+| `CRDT` | 38 | `docs/obsidian/` |
+| `PII` | 36 | `docs/obsidian/` |
+| `CLI` | 34 | `docs/obsidian/` |
+| `XII` | 29 | `docs/obsidian/` |
+| `BSG` | 27 | `docs/obsidian/` |
+| `YiJing` | 27 | `docs/obsidian/` |
+| `RFC` | 27 | `docs/obsidian/` |
+| `URL` | 27 | `docs/obsidian/` |
+| `RLM` | 26 | `docs/obsidian/` |
+| `IDF` | 26 | `docs/obsidian/` |
+| `PDF` | 26 | `docs/obsidian/` |
+| `ROI` | 24 | `docs/obsidian/` |
+| `LinkedIn` | 24 | `docs/obsidian/` |
+| `MAY` | 24 | `docs/02-anthropic-vacancies/` |
+| `KSV` | 24 | `docs/obsidian/` |
+| `HIPAA` | 22 | `docs/obsidian/` |
+| `HEALTH` | 21 | `docs/obsidian/` |
+| `LCI` | 20 | `docs/obsidian/` |
+| `BaseAdapter` | 19 | `docs/obsidian/` |
+| `OpenWhispr` | 18 | `docs/obsidian/` |
+| `TypeScript` | 18 | `docs/obsidian/` |
+| `EIC` | 18 | `docs/obsidian/` |
+| `AutoGen` | 18 | `docs/obsidian/` |
+| `III` | 18 | `docs/obsidian/` |
+| `HMP` | 18 | `docs/obsidian/` |
+| `CodeWiki` | 16 | `docs/obsidian/` |
+| `LangChain` | 16 | `docs/obsidian/` |
+| `DeepMind` | 15 | `docs/obsidian/` |
+| `FAISS` | 14 | `docs/obsidian/` |
+| `HTTP` | 14 | `docs/obsidian/` |
+| `MMORPG` | 14 | `docs/obsidian/` |
+| `DeepSeek` | 14 | `docs/obsidian/` |
+| `DOCX` | 14 | `docs/obsidian/` |
+| `GUI` | 14 | `docs/obsidian/` |
+| `VPS` | 14 | `docs/obsidian/` |
+| `CAMEL` | 14 | `docs/obsidian/` |
+| `OpenClaw` | 14 | `docs/obsidian/` |
+| `AIRI` | 14 | `docs/obsidian/` |
+| `WebSocket` | 12 | `docs/obsidian/` |
+| `CRM` | 12 | `docs/obsidian/` |
+| `EMEA` | 12 | `docs/obsidian/` |
+| `ChatDev` | 12 | `docs/obsidian/` |
 
 ## Детали по топ-20 пробелам
 
-### `LiteParse` (50 файлов)
+### `LiteParse` (100 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/01-executive-summary.md`
@@ -71,11 +71,11 @@ _Обновлено: 2026-04-29_
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/07-mvp-planning.md`
-- ... и ещё 45 файлах
+- ... и ещё 95 файлах
 
-Создать: `docs/04-ai-collaborations/liteparse.md`
+Создать: `docs/obsidian/liteparse.md`
 
-### `BSL` (37 файлов)
+### `BSL` (74 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/01-executive-summary.md`
@@ -83,11 +83,11 @@ _Обновлено: 2026-04-29_
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/08-conclusions.md`
-- ... и ещё 32 файлах
+- ... и ещё 69 файлах
 
-Создать: `docs/04-ai-collaborations/bsl.md`
+Создать: `docs/obsidian/bsl.md`
 
-### `NPP` (33 файлов)
+### `NPP` (65 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/04-abstract.md`
@@ -95,11 +95,11 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/07-2-terminology.md`
 - `docs/02-anthropic-vacancies/104-appendix-c-references.md`
 - `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`
-- ... и ещё 28 файлах
+- ... и ещё 60 файлах
 
-Создать: `docs/02-anthropic-vacancies/npp.md`
+Создать: `docs/obsidian/npp.md`
 
-### `AIF` (31 файлов)
+### `AIF` (60 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/01-executive-summary.md`
@@ -107,11 +107,11 @@ _Обновлено: 2026-04-29_
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- ... и ещё 26 файлах
+- ... и ещё 55 файлах
 
-Создать: `docs/contacts/aif.md`
+Создать: `docs/obsidian/aif.md`
 
-### `MUST` (28 файлов)
+### `MUST` (56 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/06-1-introduction.md`
@@ -119,11 +119,11 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/104-appendix-c-references.md`
 - `docs/02-anthropic-vacancies/108-2-формальный-workflow.md`
 - `docs/02-anthropic-vacancies/18-6-adapter-interface.md`
-- ... и ещё 23 файлах
+- ... и ещё 51 файлах
 
-Создать: `docs/02-anthropic-vacancies/must.md`
+Создать: `docs/obsidian/must.md`
 
-### `AutoResearch` (26 файлов)
+### `AutoResearch` (51 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/01-executive-summary.md`
@@ -131,11 +131,11 @@ _Обновлено: 2026-04-29_
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/06-security-privacy.md`
 - `docs/01-svyazi/07-mvp-planning.md`
-- ... и ещё 21 файлах
+- ... и ещё 46 файлах
 
-Создать: `docs/01-svyazi/autoresearch.md`
+Создать: `docs/obsidian/autoresearch.md`
 
-### `GDPR` (24 файлов)
+### `GDPR` (48 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/00-intro.md`
@@ -143,11 +143,11 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
 - `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md`
 - `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md`
-- ... и ещё 19 файлах
+- ... и ещё 43 файлах
 
-Создать: `docs/02-anthropic-vacancies/gdpr.md`
+Создать: `docs/obsidian/gdpr.md`
 
-### `SHOULD` (21 файлов)
+### `SHOULD` (42 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/06-1-introduction.md`
@@ -155,11 +155,11 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/09-4-passport-passport-md.md`
 - `docs/02-anthropic-vacancies/104-appendix-c-references.md`
 - `docs/02-anthropic-vacancies/18-6-adapter-interface.md`
-- ... и ещё 16 файлах
+- ... и ещё 37 файлах
 
-Создать: `docs/02-anthropic-vacancies/should.md`
+Создать: `docs/obsidian/should.md`
 
-### `CRDT` (19 файлов)
+### `CRDT` (38 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/03-component-catalog.md`
@@ -167,11 +167,11 @@ _Обновлено: 2026-04-29_
 - `docs/01-svyazi/12-roadmap.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
 - `docs/03-technology-combinations/03-local-first.md`
-- ... и ещё 14 файлах
+- ... и ещё 33 файлах
 
-Создать: `docs/04-ai-collaborations/crdt.md`
+Создать: `docs/obsidian/crdt.md`
 
-### `PII` (18 файлов)
+### `PII` (36 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/06-security-privacy.md`
@@ -179,11 +179,11 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
 - `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
-- ... и ещё 13 файлах
+- ... и ещё 31 файлах
 
-Создать: `docs/04-ai-collaborations/pii.md`
+Создать: `docs/obsidian/pii.md`
 
-### `CLI` (16 файлов)
+### `CLI` (34 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/03-component-catalog.md`
@@ -191,11 +191,11 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
 - `docs/02-anthropic-vacancies/22-10-queryresult-structure.md`
 - `docs/02-anthropic-vacancies/34-appendix-b-change-log.md`
-- ... и ещё 11 файлах
+- ... и ещё 29 файлах
 
-Создать: `docs/02-anthropic-vacancies/cli.md`
+Создать: `docs/obsidian/cli.md`
 
-### `XII` (14 файлов)
+### `XII` (29 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/00-intro.md`
@@ -203,11 +203,11 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md`
 - `docs/02-anthropic-vacancies/218-7-application-domains.md`
 - `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md`
-- ... и ещё 9 файлах
+- ... и ещё 24 файлах
 
-Создать: `docs/02-anthropic-vacancies/xii.md`
+Создать: `docs/obsidian/xii.md`
 
-### `BSG` (14 файлов)
+### `BSG` (27 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/00-intro.md`
@@ -215,59 +215,11 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md`
 - `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
 - `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md`
-- ... и ещё 9 файлах
+- ... и ещё 22 файлах
 
-Создать: `docs/02-anthropic-vacancies/bsg.md`
+Создать: `docs/obsidian/bsg.md`
 
-### `RFC` (14 файлов)
-
-Упоминается в:
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
-- `docs/02-anthropic-vacancies/06-1-introduction.md`
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
-- `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`
-- ... и ещё 9 файлах
-
-Создать: `docs/02-anthropic-vacancies/rfc.md`
-
-### `RLM` (13 файлов)
-
-Упоминается в:
-- `docs/01-svyazi/01-executive-summary.md`
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/01-svyazi/04-ensembles-overview.md`
-- `docs/01-svyazi/06-security-privacy.md`
-- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- ... и ещё 8 файлах
-
-Создать: `docs/04-ai-collaborations/rlm.md`
-
-### `IDF` (13 файлов)
-
-Упоминается в:
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/01-svyazi/04-ensembles-overview.md`
-- `docs/02-anthropic-vacancies/86-11-relevance-ranking.md`
-- `docs/04-ai-collaborations/00-intro.md`
-- `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-- ... и ещё 8 файлах
-
-Создать: `docs/04-ai-collaborations/idf.md`
-
-### `PDF` (13 файлов)
-
-Упоминается в:
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/01-svyazi/10-second-order-ensembles.md`
-- `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md`
-- `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md`
-- `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md`
-- ... и ещё 8 файлах
-
-Создать: `docs/04-ai-collaborations/pdf.md`
-
-### `YiJing` (13 файлов)
+### `YiJing` (27 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/00-intro.md`
@@ -275,11 +227,23 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
 - `docs/02-anthropic-vacancies/45-passports-pro2-md.md`
 - `docs/02-anthropic-vacancies/46-essence.md`
-- ... и ещё 8 файлах
+- ... и ещё 22 файлах
 
-Создать: `docs/02-anthropic-vacancies/yijing.md`
+Создать: `docs/obsidian/yijing.md`
 
-### `URL` (13 файлов)
+### `RFC` (27 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
+- `docs/02-anthropic-vacancies/06-1-introduction.md`
+- `docs/02-anthropic-vacancies/104-appendix-c-references.md`
+- `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`
+- ... и ещё 22 файлах
+
+Создать: `docs/obsidian/rfc.md`
+
+### `URL` (27 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
@@ -287,11 +251,47 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
 - `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md`
 - `docs/04-ai-collaborations/00-intro.md`
-- ... и ещё 8 файлах
+- ... и ещё 22 файлах
 
-Создать: `docs/02-anthropic-vacancies/url.md`
+Создать: `docs/obsidian/url.md`
 
-### `ROI` (12 файлов)
+### `RLM` (26 файлов)
+
+Упоминается в:
+- `docs/01-svyazi/01-executive-summary.md`
+- `docs/01-svyazi/03-component-catalog.md`
+- `docs/01-svyazi/04-ensembles-overview.md`
+- `docs/01-svyazi/06-security-privacy.md`
+- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
+- ... и ещё 21 файлах
+
+Создать: `docs/obsidian/rlm.md`
+
+### `IDF` (26 файлов)
+
+Упоминается в:
+- `docs/01-svyazi/03-component-catalog.md`
+- `docs/01-svyazi/04-ensembles-overview.md`
+- `docs/02-anthropic-vacancies/86-11-relevance-ranking.md`
+- `docs/04-ai-collaborations/00-intro.md`
+- `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
+- ... и ещё 21 файлах
+
+Создать: `docs/obsidian/idf.md`
+
+### `PDF` (26 файлов)
+
+Упоминается в:
+- `docs/01-svyazi/03-component-catalog.md`
+- `docs/01-svyazi/10-second-order-ensembles.md`
+- `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md`
+- `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md`
+- `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md`
+- ... и ещё 21 файлах
+
+Создать: `docs/obsidian/pdf.md`
+
+### `ROI` (24 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/00-intro.md`
@@ -299,9 +299,9 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md`
 - `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md`
 - `docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md`
-- ... и ещё 7 файлах
+- ... и ещё 19 файлах
 
-Создать: `docs/02-anthropic-vacancies/roi.md`
+Создать: `docs/obsidian/roi.md`
 
 
 <!-- see-also -->
@@ -311,6 +311,6 @@ _Обновлено: 2026-04-29_
 **Смотрите также:**
 - [NAMED_ENTITIES](NAMED_ENTITIES.md)
 - [CLUSTERS](CLUSTERS.md)
-- [VALIDATION](VALIDATION.md)
 - [SOURCE_MAP](SOURCE_MAP.md)
+- [VALIDATION](VALIDATION.md)
 

@@ -117,9 +117,19 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Local-first и P2P стек](03-local-first.md)
+- [Агентные системы и роутинг](01-agent-routing.md)
+- [Графы знаний и Legal AI](02-knowledge-graphs.md)
+- [Комбинирование технологий для новых свойств](README.md)
+## Упоминается в
+
 - [Комбинирование технологий для новых свойств](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Local-first и P2P стек](03-local-first.md) _29%_
+- [Графы знаний и Legal AI](02-knowledge-graphs.md) _21%_
 ## Связанные документы
 
 - [Local-first и P2P стек](03-local-first.md) _33%_

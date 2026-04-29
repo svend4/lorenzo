@@ -178,9 +178,32 @@ across both journals and individual researchers.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
+- [13. Closing](266-13-closing.md)
+- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md)
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md)
+- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md)
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md)
+- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
+- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md)
+- [9. Call for Partnership](163-9-call-for-partnership.md)
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _33%_
+- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md) _33%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _25%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _25%_
+- [Executive Summary](153-executive-summary.md) _21%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _21%_
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _21%_
 ## Связанные документы
 
 - [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _33%_

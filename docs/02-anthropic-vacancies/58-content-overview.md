@@ -45,9 +45,17 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Content Overview](38-content-overview.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Content Overview](38-content-overview.md) _21%_
+- [Angle / Perspective](59-angle-perspective.md) _17%_
 ## Связанные документы
 
 - [Content Overview](38-content-overview.md) _17%_

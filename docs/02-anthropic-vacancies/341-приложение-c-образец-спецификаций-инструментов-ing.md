@@ -2000,9 +2000,21 @@ Web durchsucht
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Final note: Ты — experiment](364-final-note-ты-experiment.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md)
+- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
+- [Развёрнутый анализ «внуковой» комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
+- [Существующий landscape collaborators (твоя working knowledge)](354-существующий-landscape-collaborators-твоя-working-.md)
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Существующий landscape collaborators (твоя working knowledge)](354-существующий-landscape-collaborators-твоя-working-.md) _21%_
 ## Связанные документы
 
 - [Существующий landscape collaborators (твоя working knowledge)](354-существующий-landscape-collaborators-твоя-working-.md) _25%_

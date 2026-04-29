@@ -1,0 +1,169 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "4. Nautilus Portal as Reference Substrate"
+tags:
+  * rag
+  * knowledge
+  * architecture
+  * collaboration
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. 4. Nautilus Portal as Reference Substrate
+
+
+{quote}The Double-Triangle Architecture requires a substrate capable of:{quote}
+
+----
+
+
+h2. Содержание
+
+* [4. Nautilus Portal as Reference Substrate|#4-nautilus-portal-as-reference-substrate]
+  * [4.1. NPP Components Mapped to Double-Triangle Requirements|#41-npp-components-mapped-to-double-triangle-requirements]
+  * [4.2. Required Extensions to NPP for Double-Triangle|#42-required-extensions-to-npp-for-double-triangle]
+  * [4.3. Empirical Evidence from Nautilus Reference Implementation|#43-empirical-evidence-from-nautilus-reference-implementation]
+
+----
+
+
+
+
+
+
+h2. 4. Nautilus Portal as Reference Substrate
+
+The Double-Triangle Architecture requires a substrate capable of:
+* Representing diverse knowledge sources uniformly (for assistants 
+  to query across Nodes)
+* Providing distributed, persistent memory (for context continuity)
+* Supporting multi-level consensus (for conflict resolution)
+* Enabling federated queries (for Protocol 3 routing)
+
+_Nautilus Portal Protocol (NPP) v1.1_ was designed for knowledge 
+federation but provides exactly these properties. We propose NPP 
+as the _reference substrate_ for Double-Triangle implementations.
+
+h3. 4.1. NPP Components Mapped to Double-Triangle Requirements
+
+_Adapters_ (NPP) = interface between participants and shared 
+space. In Double-Triangle, each assistant can read and write 
+through the same adapter mechanism used by any participant, 
+providing uniform cross-triangle access.
+
+_PortalEntry structure_ (NPP) = unified unit of knowledge. In 
+Double-Triangle, this represents tasks, deliverables, context 
+updates, and notifications uniformly, enabling a single mechanism 
+for all inter-layer communication.
+
+_Consensus model_ (NPP) = conflict resolution between sources. 
+In Double-Triangle, consensus operates at three levels (intra-Node 
+between assistants, inter-Node, meta-level), all using the same 
+mechanism with different scope.
+
+_Q6 coordinate space_ (NPP) = unified addressing for concepts. 
+In Double-Triangle, Q6 addresses tasks and deliverables uniformly 
+across domains, enabling cross-Node task similarity queries.
+
+_Bridges_ (NPP) = formal links between participants' domains. 
+In Double-Triangle, bridges formalize responsibility boundaries 
+between Nodes ("authentication is N_1's domain, authorization is 
+N_2's, interface is: token format").
+
+_Compatibility levels_ (NPP) = graduated participation. In 
+Double-Triangle, this allows Nodes to join teams with minimal 
+setup (Level 0–1) and mature over time to full integration 
+(Level 3).
+
+_Federation over merging_ (NPP principle) = preserve source 
+autonomy. In Double-Triangle, this ensures Nodes remain 
+functional without the meta-agent; M augments coordination but 
+does not replace Node autonomy.
+
+h3. 4.2. Required Extensions to NPP for Double-Triangle
+
+While NPP v1.1 provides the substrate, three extensions are needed 
+for full Double-Triangle support:
+
+_Extension 1: Agent Registry._ NPP v1.1 registers repositories. 
+Double-Triangle requires registering _agents_ (AI assistants 
+and meta-agents) as first-class participants. Agents have 
+identities, capabilities, scope of authority, and audit trails.
+
+_Extension 2: Task Protocol._ NPP v1.1 supports queries but not 
+tasks. Double-Triangle requires formal task objects: task 
+assignment, acceptance, completion, rejection, reassignment.
+
+_Extension 3: Role Protocol._ NPP v1.1 has no concept of roles. 
+Double-Triangle requires roles to be first-class: "this Node is 
+responsible for X", "this assistant handles Y". Role assignments 
+constrain Protocol 3 routing.
+
+These extensions are additive — they do not break NPP v1.1 
+compatibility. A Double-Triangle implementation is an NPP v1.1 
+implementation plus these extensions.
+
+h3. 4.3. Empirical Evidence from Nautilus Reference Implementation
+
+The Nautilus reference implementation at {{github.com/svend4/nautilus}} 
+provides empirical evidence that the substrate works in practice. 
+As of 2026-04:
+
+* 6,782 lines of Python, 13 adapters, 60 tests passing, 0 mypy 
+  errors
+* 7 knowledge repositories federated (info1, pro2, meta, data2, 
+  data7, infosystems, ai_agents)
+* 5 extended adapters enabling federation of external sources 
+  (Obsidian vaults, arXiv papers, GitHub-topic repos, JSONL files, 
+  self-declaring repos via AutoAdapter)
+* Zero external dependencies (Python stdlib only)
+* Full REST API, MCP wrapper, OpenAPI specification, Docker 
+  deployment, CI/CD
+
+This demonstrates that NPP can be implemented by a single 
+developer in 4 months, providing a practical foundation for 
+Double-Triangle deployments.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[158-4-proposed-infrastructure]] (сходство 0.20)
+* [[139-2-the-double-triangle-architecture]] (сходство 0.17)
+* [[136-abstract]] (сходство 0.17)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[158-4-proposed-infrastructure]]
+* [[139-2-the-double-triangle-architecture]]
+* [[136-abstract]]
+* [[68-about]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _29%_
+* [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _29%_
+* [[148-appendix-a-glossary|Appendix A: Glossary]] _29%_
+* [[42-author-contact|Author & Contact]] _29%_
+* [[68-about|🇬🇧 About]] _29%_
+* [[104-appendix-c-references|Appendix C: References]] _25%_
+* [[158-4-proposed-infrastructure|4. Proposed Infrastructure]] _25%_
+* [[25-13-reference-implementation|13. Reference Implementation]] _25%_

@@ -57,9 +57,27 @@ document provides framing. It does not provide answers.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md)
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md)
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md)
+- [Why This Document Exists](275-why-this-document-exists.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Why This Document Exists](275-why-this-document-exists.md) _37%_
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _25%_
+- [Acknowledgments](286-acknowledgments.md) _25%_
+- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _21%_
+- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _21%_
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _21%_
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _21%_
+- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _17%_
 ## Связанные документы
 
 - [Why This Document Exists](275-why-this-document-exists.md) _29%_

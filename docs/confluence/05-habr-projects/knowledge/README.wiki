@@ -1,0 +1,12 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/05-habr-projects/knowledge/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Системы знаний
+
+_Файлов:_ 1
+
+h2. Содержание
+
+* [wikontic.md|wikontic.md] — 

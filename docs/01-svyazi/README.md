@@ -5,19 +5,19 @@
 ## Содержание
 
 - [00-intro-part2.md](00-intro-part2.md) — 
-- [01-executive-summary.md](01-executive-summary.md) — <!-- toc-auto -->
+- [01-executive-summary.md](01-executive-summary.md) — <!-- toc -->
 - [02-methodology.md](02-methodology.md) — <!-- toc-auto -->
-- [03-component-catalog.md](03-component-catalog.md) — <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvem…
-- [04-ensembles-overview.md](04-ensembles-overview.md) — <!-- summary -->
-- [06-security-privacy.md](06-security-privacy.md) — <!-- summary -->
-- [07-mvp-planning.md](07-mvp-planning.md) — <!-- summary -->
+- [03-component-catalog.md](03-component-catalog.md) — <!-- toc -->
+- [04-ensembles-overview.md](04-ensembles-overview.md) — <!-- toc -->
+- [06-security-privacy.md](06-security-privacy.md) — <!-- toc -->
+- [07-mvp-planning.md](07-mvp-planning.md) — <!-- toc -->
 - [08-conclusions.md](08-conclusions.md) — <!-- summary -->
-- [09-architectural-gaps.md](09-architectural-gaps.md) — <!-- summary -->
-- [10-second-order-ensembles.md](10-second-order-ensembles.md) — <!-- summary -->
-- [11-integration-contracts.md](11-integration-contracts.md) — <!-- summary -->
-- [12-roadmap.md](12-roadmap.md) — <!-- summary -->
-- [13-contacts.md](13-contacts.md) — <!-- summary -->
-- [14-limitations.md](14-limitations.md) — <!-- summary -->
+- [09-architectural-gaps.md](09-architectural-gaps.md) — <!-- toc -->
+- [10-second-order-ensembles.md](10-second-order-ensembles.md) — <!-- toc -->
+- [11-integration-contracts.md](11-integration-contracts.md) — <!-- toc -->
+- [12-roadmap.md](12-roadmap.md) — <!-- toc -->
+- [13-contacts.md](13-contacts.md) — <!-- toc -->
+- [14-limitations.md](14-limitations.md) — <!-- toc -->
 - [QA.md](QA.md) — _Автоматически сгенерировано по 14 файлам раздела._
 
 ## Подразделы
@@ -30,3 +30,10 @@
 ---
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Индекс обратных ссылок](../BACKLINKS.md) _25%_
+- [Перекрёстные ссылки](../CROSSREFS.md) _25%_
+- [Индекс «Смотрите также»](../SEE_ALSO.md) _17%_

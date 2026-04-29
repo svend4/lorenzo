@@ -125,9 +125,26 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md)
+- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [21. ADR-003: Five Onboarding Paths as Equal-Rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
+- [Appendix B: Change Log](103-appendix-b-change-log.md)
+- [Bridges](40-bridges.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _25%_
+- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _17%_
+- [Bridges](40-bridges.md) _17%_
+- [3. Registry (`nautilus.json`)](78-3-registry-nautilus-json.md) _17%_
+- [4. Passport (`passport.md`)](79-4-passport-passport-md.md) _17%_
+- [5. Compatibility Levels](80-5-compatibility-levels.md) _17%_
+- [7. PortalEntry Structure](82-7-portalentry-structure.md) _17%_
 ## Связанные документы
 
 - [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _37%_

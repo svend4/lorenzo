@@ -193,9 +193,33 @@ ground on which Cowork operates effectively.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
+- [4. Симбиотическая Архитектура](330-4-симбиотическая-архитектура.md)
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
+- [5. Четыре пути интеграции в порядке доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md)
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
+- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md)
+- [Table of Contents](308-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _33%_
+- [Table of Contents](308-table-of-contents.md) _25%_
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _25%_
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _25%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _21%_
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _21%_
+- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _21%_
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _17%_
 ## Связанные документы
 
 - [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _37%_

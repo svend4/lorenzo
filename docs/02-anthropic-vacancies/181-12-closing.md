@@ -64,9 +64,21 @@ in walking it.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [10. Open Questions](179-10-open-questions.md)
+- [Table of Contents](169-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Что ты НЕ МОЖЕШЬ делать вообще](353-что-ты-не-можешь-делать-вообще.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](169-table-of-contents.md) _25%_
+- [Executive Summary](153-executive-summary.md) _21%_
+- [Вакансии Anthropic — Анализ по кластерам](README.md) _17%_
 ## Связанные документы
 
 - [Table of Contents](169-table-of-contents.md) _25%_

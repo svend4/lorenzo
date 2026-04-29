@@ -1,0 +1,90 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/103-appendix-b-change-log.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Appendix B: Change Log"
+tags:
+  * rag
+  * architecture
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Appendix B: Change Log
+
+
+h2. Contents
+
+* [Appendix B: Change Log|#appendix-b-change-log]
+  * [v1.1.0-draft (2026-04-19)|#v110-draft-2026-04-19]
+  * [v1.0.0-draft (2026-04 earlier)|#v100-draft-2026-04-earlier]
+
+
+
+{quote}- _New_: Q6 as normative concept (section 8, ADR-002){quote}
+
+----
+
+
+
+
+
+h2. Appendix B: Change Log
+
+h3. v1.1.0-draft (2026-04-19)
+
+* _New_: Q6 as normative concept (section 8, ADR-002)
+* _New_: Five onboarding paths formalized (section 12, ADR-003)
+* _New_: REST API contract mandatory (section 13)
+* _New_: SDK contract informative (section 14)
+* _New_: MCP extension informative (section 16)
+* _Changed_: {{is_fallback}} field added to PortalEntry (normative)
+* _Changed_: Consensus structure extended with {{coverage_with_fallback}}
+* _Changed_: Passport schema formalized via {{passport_schema.json}}
+* _Clarified_: Naming conventions (passport by format, not by repo)
+* _Clarified_: Timeout RECOMMENDED 5 seconds (was 10)
+
+h3. v1.0.0-draft (2026-04 earlier)
+
+* Initial draft published
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[91-16-mcp-extension-informative]] (сходство 0.13)
+* [[82-7-portalentry-structure]] (сходство 0.11)
+* [[93-18-reference-implementation]] (сходство 0.10)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[91-16-mcp-extension-informative]]
+* [[22-10-queryresult-structure]]
+* [[28-appendix-a-minimal-working-example]]
+* [[93-18-reference-implementation]]
+
+
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+
+h2. Связанные документы
+
+* [[104-appendix-c-references|Appendix C: References]] _25%_
+* [[22-10-queryresult-structure|10. QueryResult Structure]] _25%_
+* [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]] _25%_
+* [[91-16-mcp-extension-informative|16. MCP Extension (Informative)]] _25%_
+* [[128-доступные-инструменты|Доступные инструменты]] _21%_
+* [[34-appendix-b-change-log|Appendix B: Change Log]] _21%_
+* [[81-6-adapter-interface|6. Adapter Interface]] _21%_
+* [[83-8-q6-space-normative|8. Q6 Space (Normative)]] _21%_

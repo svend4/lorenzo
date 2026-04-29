@@ -88,9 +88,26 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [8. Risks and Mitigations](177-8-risks-and-mitigations.md)
+- [Acknowledgments](224-acknowledgments.md)
+- [References](147-references.md)
+- [References](225-references.md)
+- [References](320-references.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Ссылки](204-ссылки.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](137-table-of-contents.md) _17%_
+- [Table of Contents](211-table-of-contents.md) _17%_
+- [Acknowledgments](224-acknowledgments.md) _17%_
+- [References](225-references.md) _17%_
+- [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _17%_
+- [References](320-references.md) _17%_
 ## Связанные документы
 
 - [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _25%_

@@ -105,9 +105,20 @@ practitioners during framework development valuable.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [11. Call for Collaboration](180-11-call-for-collaboration.md)
+- [12. Call for Collaboration](265-12-call-for-collaboration.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [12. Call for Collaboration](265-12-call-for-collaboration.md) _33%_
+- [Executive Summary](153-executive-summary.md) _17%_
+- [11. Call for Collaboration](180-11-call-for-collaboration.md) _17%_
+- [10. Open Questions](221-10-open-questions.md) _17%_
 ## Связанные документы
 
 - [12. Call for Collaboration](265-12-call-for-collaboration.md) _33%_

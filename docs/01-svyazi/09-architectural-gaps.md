@@ -82,9 +82,42 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [03 Component Catalog](03-component-catalog.md)
+- [04 Ensembles Overview](04-ensembles-overview.md)
+- [06 Security Privacy](06-security-privacy.md)
+- [07 Mvp Planning](07-mvp-planning.md)
+- [10 Second Order Ensembles](10-second-order-ensembles.md)
+- [11 Integration Contracts](11-integration-contracts.md)
+- [13 Contacts](13-contacts.md)
+- [14 Limitations](14-limitations.md)
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-executive-summary.md)
+- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+- [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [Интеграционный контракт, который стоит зафиксировать сразу](../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [Ограничения, лицензии и что пока лучше не склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [Технический stack (Svyazi 2.0 foundation)](../02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)
+## Упоминается в
+
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _60%_
+- [11 Integration Contracts](11-integration-contracts.md) _53%_
+- [Интеграционный контракт, который стоит зафиксировать сразу](../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) _48%_
+- [07 Mvp Planning](07-mvp-planning.md) _37%_
+- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _37%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _29%_
+- [13 Contacts](13-contacts.md) _29%_
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md) _29%_
 ## Связанные документы
 
 - [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _90%_

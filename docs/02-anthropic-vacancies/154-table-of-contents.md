@@ -45,9 +45,36 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [1. Problem Statement](155-1-problem-statement.md)
+- [2. Target Populations](156-2-target-populations.md)
+- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md)
+- [Appendix B: Summary of Contributions](149-appendix-b-summary-of-contributions.md)
+- [Executive Summary](153-executive-summary.md)
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md)
+- [History](63-history.md)
+- [Planned (v0.2.0)](132-planned-v0-2-0.md)
+- [Table of Contents](169-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Содержание](190-содержание.md)
+- [Содержание](326-содержание.md)
+- [Установка](126-установка.md)
+- [Что ты МОЖЕШЬ делать](351-что-ты-можешь-делать.md)
+- [Что ты НЕ МОЖЕШЬ делать без Max approval](352-что-ты-не-можешь-делать-без-max-approval.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Содержание](190-содержание.md) _37%_
+- [Содержание](326-содержание.md) _33%_
+- [Table of Contents](169-table-of-contents.md) _29%_
+- [Compatibility Level](41-compatibility-level.md) _29%_
+- [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _29%_
+- [portal-mcp.py](123-portal-mcp-py.md) _25%_
+- [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _25%_
+- [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _25%_
 ## Связанные документы
 
 - [Содержание](326-содержание.md) _37%_

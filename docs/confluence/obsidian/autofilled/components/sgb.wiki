@@ -1,0 +1,59 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/autofilled/components/sgb.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "SGB"
+tags:
+  * ingestion
+  * collaboration
+  * autofilled
+date: 2026-04-29
+----
+
+h1. SGB
+
+
+{quote}_Компонент экосистемы Svyazi 2.0_{quote}
+_Проекты:_ Svyazi
+
+----
+
+
+
+
+
+_Тип:_ 418
+_Статус:_ GO 🟢
+_Упоминаний:_ 64
+
+h2. Описание
+_Компонент экосистемы Svyazi 2.0_
+
+h2. Ссылки
+* [Исходники|#]
+* [[README|Документация]]
+
+
+h2. Связанные документы
+
+* [[svyazi]] _100%_
+* [Антропик|.md] _90%_
+* [[cowork]] _90%_
+* [[ingit]] _90%_
+* [[kksudo]] _90%_
+* [[lorenzo]] _90%_
+* [[nautilus]] _90%_
+* [[spbmolot]] _90%_
+
+
+
+----
+
+_Смотрите также:_
+* [.md|.md]
+* [[cowork]]
+* [[ingit]]
+* [[lorenzo]]
+

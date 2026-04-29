@@ -137,9 +137,37 @@ The remainder of this document develops Option C.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. Strategic Positioning](318-10-strategic-positioning.md)
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
+- [4. Симбиотическая Архитектура](330-4-симбиотическая-архитектура.md)
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
+- [5. Четыре пути интеграции в порядке доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md)
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
+- [Abstract](307-abstract.md)
+- [Existing Approximations](279-existing-approximations.md)
+- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md)
+- [Table of Contents](308-table-of-contents.md)
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md)
+- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](308-table-of-contents.md) _37%_
+- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _33%_
+- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _33%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _29%_
+- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _29%_
+- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _25%_
+- [Abstract](307-abstract.md) _25%_
+- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _25%_
 ## Связанные документы
 
 - [Table of Contents](308-table-of-contents.md) _42%_

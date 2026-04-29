@@ -127,9 +127,18 @@ by mission-driven foundations.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [6. Ethical Framework](175-6-ethical-framework.md)
+- [6. Governance and Ethics](160-6-governance-and-ethics.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [5. Architectural Specification](174-5-architectural-specification.md) _21%_
+- [6. Ethical Framework](175-6-ethical-framework.md) _21%_
 ## Связанные документы
 
 - [6. Ethical Framework](175-6-ethical-framework.md) _21%_

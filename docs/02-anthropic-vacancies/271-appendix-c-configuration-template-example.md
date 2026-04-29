@@ -90,9 +90,24 @@ configuration.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [Appendix B: Sub-Agent Registry Schema (Sketch)](270-appendix-b-sub-agent-registry-schema-sketch.md)
+- [Table of Contents](253-table-of-contents.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Что ты НЕ МОЖЕШЬ делать без Max approval](352-что-ты-не-можешь-делать-без-max-approval.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Appendix B: Sub-Agent Registry Schema (Sketch)](270-appendix-b-sub-agent-registry-schema-sketch.md) _53%_
+- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _42%_
+- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md) _25%_
+- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md) _21%_
+- [Table of Contents](253-table-of-contents.md) _17%_
+- [Содержание](326-содержание.md) _17%_
 ## Связанные документы
 
 - [Appendix B: Sub-Agent Registry Schema (Sketch)](270-appendix-b-sub-agent-registry-schema-sketch.md) _37%_

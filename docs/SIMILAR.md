@@ -98,6 +98,13 @@
 ## Упоминается в
 
 - [Executive Report: Репозиторий Lorenzo](REPORT.md)
+- [docs](README.md)
+- [Все таблицы репозитория](TABLES.md)
+- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
+- [Карта репозитория Lorenzo](SITEMAP.md)
+## Упоминается в
+
+- [Executive Report: Репозиторий Lorenzo](REPORT.md)
 
 <!-- related-auto -->
 ## Связанные документы

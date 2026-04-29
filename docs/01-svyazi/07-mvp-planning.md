@@ -125,11 +125,48 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [03 Component Catalog](03-component-catalog.md)
+- [04 Ensembles Overview](04-ensembles-overview.md)
+- [06 Security Privacy](06-security-privacy.md)
+- [08 Conclusions](08-conclusions.md)
+- [09 Architectural Gaps](09-architectural-gaps.md)
+- [10 Second Order Ensembles](10-second-order-ensembles.md)
+- [11 Integration Contracts](11-integration-contracts.md)
+- [12 Roadmap](12-roadmap.md)
+- [13 Contacts](13-contacts.md)
+- [Executive Report: Репозиторий Lorenzo](../REPORT.md)
+- [Executive summary](../04-ai-collaborations/01-executive-summary.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
+- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-executive-summary.md)
+- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+- [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [Выводы](../04-ai-collaborations/07-выводы.md)
+- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [Интеграционный контракт, который стоит зафиксировать сразу](../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [Матрица компонентов Svyazi 2.0](../COMPONENT_MATRIX.md)
+- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [Прогресс MVP](../PROGRESS.md)
+## Упоминается в
+
 - [Executive Report: Репозиторий Lorenzo](../REPORT.md)
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 - [Прогресс MVP](../PROGRESS.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _60%_
+- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _53%_
+- [09 Architectural Gaps](09-architectural-gaps.md) _37%_
+- [13 Contacts](13-contacts.md) _37%_
+- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _37%_
+- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
+- [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) _33%_
+- [04 Ensembles Overview](04-ensembles-overview.md) _29%_
 ## Связанные документы
 
 - [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _90%_

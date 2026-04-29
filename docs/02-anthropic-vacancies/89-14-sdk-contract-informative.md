@@ -73,9 +73,28 @@ acceptable только для debugging/experimental версий.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- [11. Relevance Ranking](86-11-relevance-ranking.md)
+- [18. Reference Implementation](93-18-reference-implementation.md)
+- [6. Adapter Interface](81-6-adapter-interface.md)
+- [Appendix B: Change Log](103-appendix-b-change-log.md)
+- [Вакансии Anthropic — Анализ по кластерам](README.md)
+- [Доступные инструменты](128-доступные-инструменты.md)
+## Упоминается в
+
 - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [10. QueryResult Structure](22-10-queryresult-structure.md) _33%_
+- [Appendix B: Change Log](103-appendix-b-change-log.md) _29%_
+- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
+- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
+- [Compatibility Level](41-compatibility-level.md) _21%_
+- [11. Relevance Ranking](86-11-relevance-ranking.md) _21%_
+- [18. Reference Implementation](93-18-reference-implementation.md) _21%_
+- [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _21%_
 ## Связанные документы
 
 - [10. QueryResult Structure](22-10-queryresult-structure.md) _33%_

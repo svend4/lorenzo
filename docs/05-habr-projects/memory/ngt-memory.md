@@ -77,9 +77,24 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [Wikontic: семантический граф](../knowledge/wikontic.md)
+- [Авторы и контакты](../02-collaboration-partners.md)
+- [Системы памяти](README.md)
+## Упоминается в
+
 - [Системы памяти](../../README.md)
 
 <!-- related-auto -->
+## Связанные документы
+
+- [Синтез: как проекты собираются вместе](../01-synthesis.md) _33%_
+- [Авторы и контакты](../02-collaboration-partners.md) _29%_
+- [Wikontic: семантический граф](../knowledge/wikontic.md) _29%_
+- [Yodoca[^yodoca]: консолидация и забывание](yodoca.md) _29%_
+- [Граф связей проектов](../../GRAPH.md) _21%_
+- [Уникальные проекты с Хабра](../README.md) _17%_
+- [Контакт: VitalyOborin / Yodoca](../../contacts/vitalyoborin.md) _17%_
+- [Системы памяти](README.md) _16%_
 ## Связанные документы
 
 - [Синтез: как проекты собираются вместе](../01-synthesis.md) _25%_

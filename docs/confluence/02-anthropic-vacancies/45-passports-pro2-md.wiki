@@ -1,0 +1,64 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/02-anthropic-vacancies/45-passports-pro2-md.md}}
+Дата: 2026-04-29
+{info}
+
+h1. passports/pro2.md
+
+
+{quote}> _Семантический угол экосистемы svend4_{quote}
+
+----
+
+
+
+
+
+h2. passports/pro2.md
+markdown
+{code:language=markdown}
+# pro2
+
+> **Семантический угол экосистемы svend4**  
+> Q6-граф концептов на основе 6-мерного гиперкуба с 64 вершинами-
+> гексаграммами. Содержит Research platform для YiJing-Transformer 
+> и онтологические мосты к другим репо экосистемы.
+
+---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [55-passports-meta-md](55-passports-meta-md.md) (сходство 0.24)
+- [35-passports-info1-md](35-passports-info1-md.md) (сходство 0.21)
+- [46-essence](46-essence.md) (сходство 0.17)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [35-passports-info1-md](35-passports-info1-md.md)
+- [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
+- [46-essence](46-essence.md)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [passports/meta.md](55-passports-meta-md.md) _73%_
+- [passports/info1.md](35-passports-info1-md.md) _66%_
+- [15. Glossary of Examples](27-15-glossary-of-examples.md) _48%_
+- [Essence](46-essence.md) _42%_
+- [Essence](56-essence.md) _42%_
+- [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md) _37%_
+- [Essence](36-essence.md) _33%_
+- [Angle / Perspective](59-angle-perspective.md) _29%_
