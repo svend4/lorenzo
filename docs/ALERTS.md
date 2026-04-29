@@ -25,4 +25,4 @@
 > Важная информация.
 ```
 
-_Поддерживается в GitHub Markdown с 2023 года._
+_Поддерживается в [GitHub](../docs/01-svyazi/03-component-catalog.md) Markdown с 2023 года._

@@ -21,7 +21,7 @@ v1.1 нормализует алгоритм ранжирования из refer
 
 ### 11.1. Scoring Formula
 
-Для каждого PortalEntry `e` и query `q` (оба normalized):
+Для каждого [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) `e` и query `q` (оба normalized):
 
 ```python
 def relevance_score(e: PortalEntry, q: str) -> float:

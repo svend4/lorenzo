@@ -17,9 +17,9 @@ Reference implementation:
 Reference НЕ является нормативной. Альтернативные implementations 
 NPP-compatible, если они:
 
-- Корректно парсят `nautilus.json` per раздел 3
-- Реализуют BaseAdapter interface per раздел 6
-- Производят PortalEntry структуры per раздел 7
+- Корректно парсят `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` per раздел 3
+- Реализуют [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
+- Производят [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) структуры per раздел 7
 - Обеспечивают Q6 для Level 2+ per раздел 8
 - Вычисляют consensus per раздел 9
 - Предоставляют required REST endpoints per раздел 13

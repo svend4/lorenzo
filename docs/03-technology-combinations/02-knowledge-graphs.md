@@ -12,7 +12,7 @@
 
 <!-- summary -->
 > граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller)
-**Проекты:** Yodoca, Auto AI Router, AutoResearch
+**Проекты:** Yodoca, Auto AI Router, [AutoResearch](../docs/01-svyazi/01-executive-summary.md)
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, self-improvement, collaboration -->
@@ -56,7 +56,7 @@
 - Всё локально, никаких API-ключей
 - LCI контролирует когерентность агента
 Применение: legal AI на собственном железе без отправки данных наружу. GDPR-compliant, RISC-V-ready.
-6.2 AutoResearch loop с геометрическим роутингом AutoResearch Карпатого + Q6-роутер + ZINC:
+6.2 [AutoResearch](../docs/01-svyazi/01-executive-summary.md) loop с геометрическим роутингом AutoResearch Карпатого + Q6-роутер + ZINC:
 - Ночью агент крутит эксперименты с промптами
 - Роутер геометрически выбирает, какой эксперт подходит для данного типа задач
 - Лучший промпт сохраняется, LCI отслеживает стабильность

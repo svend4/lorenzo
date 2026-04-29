@@ -174,5 +174,5 @@ broader applicability.
 - [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
 - [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
 - [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 

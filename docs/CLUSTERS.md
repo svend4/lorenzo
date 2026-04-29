@@ -13,20 +13,20 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Кластер 1 — cowork, ingit, yes, project (22 файлов)](#кластер-1-cowork-ingit-yes-project-22-файлов)
+- [Кластер 1 — cowork, [ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md), yes, project (22 файлов)](#кластер-1-cowork-ingit-yes-project-22-файлов)
 - [Кластер 2 — professional, agent, colleague, type (17 файлов)](#кластер-2-professional-agent-colleague-type-17-файлов)
 - [Кластер 3 — turn, view, cite, search (16 файлов)](#кластер-3-turn-view-cite-search-16-файлов)
 - [Кластер 4 — repo, passport, npp, json (15 файлов)](#кластер-4-repo-passport-npp-json-15-файлов)
 - [Кластер 5 — str, query, portal, consensus (15 файлов)](#кластер-5-str-query-portal-consensus-15-файлов)
 - [Кластер 6 — документ, document, com, github (14 файлов)](#кластер-6-документ-document-com-github-14-файлов)
-- [Кластер 7 — turn, view, label, svyazi (13 файлов)](#кластер-7-turn-view-label-svyazi-13-файлов)
+- [Кластер 7 — turn, view, label, [svyazi](../docs/01-svyazi/00-intro-part2.md) (13 файлов)](#кластер-7-turn-view-label-svyazi-13-файлов)
 - [Кластер 8 — contents, table, why, call (11 файлов)](#кластер-8-contents-table-why-call-11-файлов)
 - [Кластер 9 — document, documents, chat, cowork (11 файлов)](#кластер-9-document-documents-chat-cowork-11-файлов)
 - [Кластер 10 — principal, agent, agents, type (10 файлов)](#кластер-10-principal-agent-agents-type-10-файлов)
 - [Кластер 11 — editorial, collaboration, draft, date (8 файлов)](#кластер-11-editorial-collaboration-draft-date-8-файлов)
 - [Кластер 12 — agent, representative, agents, from (8 файлов)](#кластер-12-agent-representative-agents-from-8-файлов)
-- [Кластер 13 — репо, nautilus, info, pro (7 файлов)](#кластер-13-репо-nautilus-info-pro-7-файлов)
-- [Кластер 14 — lorenzo, dhlab, catalyst, твоя (7 файлов)](#кластер-14-lorenzo-dhlab-catalyst-твоя-7-файлов)
+- [Кластер 13 — репо, [nautilus](../docs/05-habr-projects/memory/memnet.md), info, pro (7 файлов)](#кластер-13-репо-nautilus-info-pro-7-файлов)
+- [Кластер 14 — [lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md), dhlab, catalyst, твоя (7 файлов)](#кластер-14-lorenzo-dhlab-catalyst-твоя-7-файлов)
 - [Кластер 15 — infrastructure, populations, okwf, target (6 файлов)](#кластер-15-infrastructure-populations-okwf-target-6-файлов)
 - [Кластер 16 — принципала, агента, агент, принципал (6 файлов)](#кластер-16-принципала-агента-агент-принципал-6-файлов)
 - [Кластер 17 — угол, экосистемы, glossary, passports (6 файлов)](#кластер-17-угол-экосистемы-glossary-passports-6-файлов)
@@ -56,14 +56,14 @@
 
 ## Кластер 1 — cowork, ingit, yes, project (22 файлов)
 
-- `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` — _310-2-what-cowork-provides-that-ingit-doesn-t-need-to-_
-- `docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md` — _311-3-what-ingit-provides-that-cowork-lacks_
+- `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-.md` — _310-2-what-cowork-provides-that-ingit-doesn-t-need-to-_
+- `docs/02-anthropic-vacancies/311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks.md` — _311-3-what-ingit-provides-that-cowork-lacks_
 - `docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md` — _312-4-the-symbiotic-architecture_
 - `docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md` — _313-5-four-integration-paths-in-order-of-accessibility_
-- `docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md` — _314-6-refined-ingit-scope-with-cowork-in-mind_
+- `docs/02-anthropic-vacancies/314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind.md` — _314-6-refined-ingit-scope-with-cowork-in-mind_
 - `docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md` — _315-7-practical-first-steps-this-month_
 - `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` — _317-9-risks-and-open-questions_
-- `docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md` — _321-appendix-a-decision-tree-for-ingit-adopters_
+- `docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters.md` — _321-appendix-a-decision-tree-for-ingit-adopters_
 - `docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` — _322-appendix-b-comparison-matrix_
 - `docs/02-anthropic-vacancies/326-содержание.md` — _326-содержание_
 - _...и ещё 12 файлов_
@@ -84,14 +84,14 @@
 
 ## Кластер 3 — turn, view, cite, search (16 файлов)
 
-- `docs/01-svyazi/03-component-catalog.md` — _03-component-catalog_
-- `docs/01-svyazi/04-ensembles-overview.md` — _04-ensembles-overview_
-- `docs/01-svyazi/06-security-privacy.md` — _06-security-privacy_
-- `docs/01-svyazi/09-architectural-gaps.md` — _09-architectural-gaps_
-- `docs/01-svyazi/11-integration-contracts.md` — _11-integration-contracts_
-- `docs/01-svyazi/12-roadmap.md` — _12-roadmap_
-- `docs/01-svyazi/13-contacts.md` — _13-contacts_
-- `docs/01-svyazi/14-limitations.md` — _14-limitations_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md` — _03-component-catalog_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md` — _04-ensembles-overview_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md` — _06-security-privacy_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md` — _09-architectural-gaps_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md` — _11-integration-contracts_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md` — _12-roadmap_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/13-contacts.md` — _13-contacts_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md` — _14-limitations_
 - `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md` — _02-методика-и-рамка-отбора_
 - `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` — _03-карта-найденных-проектов-и-паттернов_
 - _...и ещё 6 файлов_
@@ -99,15 +99,15 @@
 ## Кластер 4 — repo, passport, npp, json (15 файлов)
 
 - `docs/02-anthropic-vacancies/07-2-terminology.md` — _07-2-terminology_
-- `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` — _08-3-registry-nautilus-json_
+- `docs/02-anthropic-vacancies/08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json.md` — _08-3-registry-nautilus-json_
 - `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` — _09-4-passport-passport-md_
-- `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` — _141-4-nautilus-portal-as-reference-substrate_
+- `docs/02-anthropic-vacancies/141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate.md` — _141-4-nautilus-portal-as-reference-substrate_
 - `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` — _17-5-compatibility-levels_
 - `docs/02-anthropic-vacancies/18-6-adapter-interface.md` — _18-6-adapter-interface_
 - `docs/02-anthropic-vacancies/25-13-reference-implementation.md` — _25-13-reference-implementation_
 - `docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md` — _28-appendix-a-minimal-working-example_
 - `docs/02-anthropic-vacancies/77-2-terminology.md` — _77-2-terminology_
-- `docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` — _78-3-registry-nautilus-json_
+- `docs/02-anthropic-vacancies/78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json.md` — _78-3-registry-nautilus-json_
 - _...и ещё 5 файлов_
 
 ## Кластер 5 — str, query, portal, consensus (15 файлов)
@@ -119,7 +119,7 @@
 - `docs/02-anthropic-vacancies/20-8-consensus-algorithm.md` — _20-8-consensus-algorithm_
 - `docs/02-anthropic-vacancies/21-9-query-flow.md` — _21-9-query-flow_
 - `docs/02-anthropic-vacancies/22-10-queryresult-structure.md` — _22-10-queryresult-structure_
-- `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` — _323-appendix-c-sample-ingit-mcp-server-tool-specificat_
+- `docs/02-anthropic-vacancies/323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat.md` — _323-appendix-c-sample-ingit-mcp-server-tool-specificat_
 - `docs/02-anthropic-vacancies/81-6-adapter-interface.md` — _81-6-adapter-interface_
 - `docs/02-anthropic-vacancies/82-7-portalentry-structure.md` — _82-7-portalentry-structure_
 - _...и ещё 5 файлов_
@@ -135,16 +135,16 @@
 - `docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md` — _289-инфраструктура-для-ai-совместной-интеллектуальной-_
 - `docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md` — _298-что-этот-документ-не-решает_
 - `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` — _306-with-anthropic-s-cowork-platform_
-- `docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` — _324-ingit-как-cowork-интегрированная-подложка-рабочего_
+- `docs/02-anthropic-vacancies/324-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-как-cowork-интегрированная-подложка-рабочего.md` — _324-ingit-как-cowork-интегрированная-подложка-рабочего_
 - _...и ещё 4 файлов_
 
 ## Кластер 7 — turn, view, label, svyazi (13 файлов)
 
-- `docs/01-svyazi/01-executive-summary.md` — _01-executive-summary_
-- `docs/01-svyazi/02-methodology.md` — _02-methodology_
-- `docs/01-svyazi/07-mvp-planning.md` — _07-mvp-planning_
-- `docs/01-svyazi/08-conclusions.md` — _08-conclusions_
-- `docs/01-svyazi/10-second-order-ensembles.md` — _10-second-order-ensembles_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md` — _01-executive-summary_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/02-methodology.md` — _02-methodology_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md` — _07-mvp-planning_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md` — _08-conclusions_
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md` — _10-second-order-ensembles_
 - `docs/04-ai-collaborations/00-intro.md` — _00-intro_
 - `docs/04-ai-collaborations/01-executive-summary.md` — _01-executive-summary_
 - `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` — _05-план-прототипа-и-возможные-контакты_
@@ -219,7 +219,7 @@
 
 - `docs/02-anthropic-vacancies/00-intro.md` — _00-intro_
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` — _01-интегральный-анализ-профиля-svend4_
-- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` — _02-общий-план-развития-nautilus-portal-protocol_
+- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md` — _02-общий-план-развития-nautilus-portal-protocol_
 - `docs/02-anthropic-vacancies/133-обратная-связь.md` — _133-обратная-связь_
 - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` — _150-appendix-c-version-history_
 - `docs/02-anthropic-vacancies/67-о-проекте.md` — _67-о-проекте_
@@ -227,13 +227,13 @@
 
 ## Кластер 14 — lorenzo, dhlab, catalyst, твоя (7 файлов)
 
-- `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` — _343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+- `docs/02-anthropic-vacancies/343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи.md` — _343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
 - `docs/02-anthropic-vacancies/345-кто-ты.md` — _345-кто-ты_
 - `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` — _357-твоя-коммуникация-в-outreach_
 - `docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md` — _358-твоя-relationship-с-другими-ai_
 - `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` — _364-final-note-ты-experiment_
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` — _365-развёрнутый-анализ-внуковой-комбинации_
-- `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` — _366-технический-stack-svyazi-2-0-foundation_
+- `docs/02-anthropic-vacancies/366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation.md` — _366-технический-stack-svyazi-2-0-foundation_
 
 ## Кластер 15 — infrastructure, populations, okwf, target (6 файлов)
 
@@ -256,8 +256,8 @@
 ## Кластер 17 — угол, экосистемы, glossary, passports (6 файлов)
 
 - `docs/02-anthropic-vacancies/27-15-glossary-of-examples.md` — _27-15-glossary-of-examples_
-- `docs/02-anthropic-vacancies/35-passports-info1-md.md` — _35-passports-info1-md_
-- `docs/02-anthropic-vacancies/45-passports-pro2-md.md` — _45-passports-pro2-md_
+- `docs/02-anthropic-vacancies/35-passports-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md.md` — _35-passports-info1-md_
+- `docs/02-anthropic-vacancies/45-passports-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md.md` — _45-passports-pro2-md_
 - `docs/02-anthropic-vacancies/55-passports-meta-md.md` — _55-passports-meta-md_
 - `docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md` — _97-22-glossary-of-reference-examples_
 - `docs/MISSING.md` — _MISSING_

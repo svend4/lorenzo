@@ -80,7 +80,7 @@ Portal SHOULD предоставлять команду валидации:
 - Passport-файлы именуются `passports/<format>.md`, не 
   `passports/<repo-name>.md`
 - Причина: один format может обслуживаться несколькими репо 
-  (например, domain-sub-adapters в рамках pro2), но passport — 
+  (например, domain-sub-adapters в рамках [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)), но passport — 
   один на format
 
 ---
@@ -91,8 +91,8 @@ Portal SHOULD предоставлять команду валидации:
 
 **Похожие документы:**
 - [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) (сходство 0.24)
-- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
+- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -101,7 +101,7 @@ Portal SHOULD предоставлять команду валидации:
 
 **Смотрите также:**
 - [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
 

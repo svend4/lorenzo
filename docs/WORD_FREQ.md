@@ -13,7 +13,7 @@
 
 - [Глобальный топ-50 слов](#глобальный-топ-50-слов)
 - [Топ-15 слов по разделам](#топ-15-слов-по-разделам)
-  - [01-svyazi (7,088 слов)](#01-svyazi-7088-слов)
+  - [01-[svyazi](../docs/01-svyazi/00-intro-part2.md) (7,088 слов)](#01-svyazi-7088-слов)
   - [02-anthropic-vacancies (131,004 слов)](#02-anthropic-vacancies-131004-слов)
   - [03-technology-combinations (1,657 слов)](#03-technology-combinations-1657-слов)
   - [04-ai-collaborations (18,158 слов)](#04-ai-collaborations-18158-слов)
@@ -206,11 +206,11 @@
 
 _(Слова, характерные только для этого раздела)_
 
-**01-svyazi:** turn, view, cite, search, memory, svyazi, rag, слой, evidence, first, factory, agentfs
-**03-technology-combinations:** legal, habr, articles, комбинация, graph, svyazi, router, граф, rag, llm, родители, дети
-**04-ai-collaborations:** turn, view, search, cite, memory, svyazi, rag, llm, evidence, habr, проекты, память
-**05-habr-projects:** пара, llm, каждый, self, yodoca, obsidian, skills, проектов, дети, проекты, чуяна, автор
-**root:** anthropic, vacancies, search, cite, строк, файл, svyazi, svend, appendix, анализ, приложение, phase
+**01-svyazi:** turn, view, cite, search, memory, svyazi, rag, слой, evidence, first, factory, [agentfs](../docs/01-svyazi/01-executive-summary.md)
+**03-technology-combinations:** legal, habr, articles, комбинация, graph, [svyazi](../docs/01-svyazi/00-intro-part2.md), router, граф, rag, llm, родители, дети
+**04-ai-collaborations:** turn, view, search, cite, memory, [svyazi](../docs/01-svyazi/00-intro-part2.md), rag, llm, evidence, habr, проекты, память
+**05-habr-projects:** пара, llm, каждый, self, yodoca, [obsidian](../docs/01-svyazi/03-component-catalog.md), skills, проектов, дети, проекты, чуяна, автор
+**root:** anthropic, vacancies, search, cite, строк, файл, [svyazi](../docs/01-svyazi/00-intro-part2.md), svend, appendix, анализ, приложение, phase
 
 <!-- see-also -->
 

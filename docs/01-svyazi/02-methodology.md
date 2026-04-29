@@ -26,7 +26,7 @@
 
 <!-- summary -->
 > Поиск вёлся с приоритетом на **Хабр как первичный слой описания идеи** и на **репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса**.
-**Проекты:** Svyazi[^svyazi], LiteParse, Legal RAG[^rag], Graph RAG
+**Проекты:** Svyazi[^svyazi], [LiteParse](../docs/01-svyazi/01-executive-summary.md), Legal RAG[^rag], Graph RAG
 
 ---
 <!-- tags: rag, security, ingestion, architecture, roadmap, collaboration -->

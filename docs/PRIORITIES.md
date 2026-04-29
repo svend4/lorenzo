@@ -20,7 +20,7 @@
 
 - [Топ-50 самых важных файлов](#топ-50-самых-важных-файлов)
 - [Топ-5 по каждому разделу](#топ-5-по-каждому-разделу)
-  - [01-svyazi](#01-svyazi)
+  - [01-svyazi](#01-[svyazi](../docs/01-svyazi/00-intro-part2.md))
   - [02-anthropic-vacancies](#02-anthropic-vacancies)
   - [03-technology-combinations](#03-technology-combinations)
   - [04-ai-collaborations](#04-ai-collaborations)

@@ -40,13 +40,13 @@
 - путь — начать с минимального прототипа из пяти компонентов: 1. Svyazi‑подобный import/normalize/CardIndex 2. AgentFS‑подобное файловое ядро 3. NGT или Yodoca‑подобная память 4. research-docs/LitePars  
   _→ 01-executive-summary_
 
-- кандидат для слоя `.agentos/` и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и GitHub issues в AgentFS. citeturn33view7turn27view0 | Публичный прямой контакт  
+- кандидат для слоя `.agentos/` и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и [GitHub](../docs/01-svyazi/03-component-catalog.md) issues в AgentFS. citeturn33view7turn27view0 | Публичный прямой контакт  
   _→ 07-mvp-planning_
 
-- слой — не память, не RAG и не оркестр **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, Rufler, LiteParse, Yodoca --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion  
+- слой — не память, не RAG и не оркестр **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, Rufler, [LiteParse](../docs/01-svyazi/01-executive-summary.md), Yodoca --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion  
   _→ 08-conclusions_
 
-- слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — **правильная сборка**: где CardIndex остаётся source of truth, где памят  
+- слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — **правильная сборка**: где [CardIndex](../docs/01-svyazi/01-executive-summary.md) остаётся source of truth, где памят  
   _→ 08-conclusions_
 
 - **Svyazi‑2.0 нужно начинать не с “самой умной модели”, а с самой строгой структуры переходов между слоями**. Сильная модель без карточного статуса, Evidence Envelope и review protocol быстро превращае  
@@ -55,11 +55,11 @@
 - построить ни нормальную ручную модерацию, ни “объяснение рекомендации”. citeturn20view5turn20view6turn34view2turn34view3 Третий контракт — **Me  
   _→ 11-integration-contracts_
 
-- реализовать nautilus как web-portal на базе ваших 70 репо . Это и есть живая демонстрация концепции. Нужны: GitHub API integration, .nautilus.yaml parser для каждого репо, visualization слой (graph с  
+- реализовать [nautilus](../docs/05-habr-projects/memory/memnet.md) как web-portal на базе ваших 70 репо . Это и есть живая демонстрация концепции. Нужны: GitHub API integration, .nautilus.yaml parser для каждого репо, visualization слой (graph с  
   _→ 01-интегральный-анализ-профиля-svend4_
 
 - из трёх, потому что он фиксирует архитектурный контракт, от которого зависят остальные артефакты. Пишу как formal specification в стиле W3C/IETF draft — с чёткими определениями, явными инвариантами, п  
-  _→ 02-общий-план-развития-nautilus-portal-protocol_
+  _→ 02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol_
 
 - около $120/мес при том, что данные размазаны по семи юрисдикциям. Замена из open-source кубиков: слой 1 — Activepieces self-hosted (вместо Make.com) слой 2 — Obsidian + LLM Wiki плагин + Skills (вме  
   _→ 00-intro_
@@ -67,7 +67,7 @@
 - путь — не строить большой новый монолит, а начать с минимального прототипа из пяти компонентов: Svyazi‑подобный import/normalize/CardIndex, AgentFS‑подобное файловое ядро, NGT կամ Yodoca‑подобная памя  
   _→ 01-executive-summary_
 
-- кандидат для слоя .agentos/ и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и GitHub issues в AgentFS. citeturn33view7turn27view0 | Публичный прямой контакт **  
+- кандидат для слоя .agentos/ и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и [GitHub](../docs/01-svyazi/03-component-catalog.md) issues в AgentFS. citeturn33view7turn27view0 | Публичный прямой контакт **  
   _→ 05-план-прототипа-и-возможные-контакты_
 
 
@@ -97,10 +97,10 @@
 
 ## Оркестрация (9)
 
-- на файловое ядро Svyazi‑2.0. | | **mclaude** | AnastasiyaW | Хабр + GitHub citeturn20view2turn37search0 | Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом. | Lo  
+- на файловое ядро Svyazi‑2.0. | | **mclaude** | AnastasiyaW | Хабр + [GitHub](../docs/01-svyazi/03-component-catalog.md) citeturn20view2turn37search0 | Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом. | Lo  
   _→ 03-component-catalog_
 
-- вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем?  
+- вопрос для community matching. citeturn22view4turn22view5 | | **авторы [knowledge-space](../docs/01-svyazi/03-component-catalog.md) / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем?  
   _→ 13-contacts_
 
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
@@ -131,7 +131,7 @@
 ## Риски (2)
 
 - доверять» - Неправильная атрибуция: «Lorenzo крадёт кредит» Один крупный инцидент может уничтожить все усилия. Вопрос : Толерантность к риску? #### Сл  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 
 - временная уязвимость. Пока v3 не готова, файлы в main видимы всем, и любой внешний читатель, не знающий вашего метода, интерпретирует их как неряшливую документацию . Это репутационный риск, связанный  
   _→ 69-section_
@@ -142,7 +142,7 @@
 - немедленный шаг — написать vision paper , где вы связываете data7, info40, infom, meta2, daten1 и тезис про AI-orchestrated teams в единую аргументацию «MMORPG as Work Infrastructure». Один документ,  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-- написать nautilus/README.md отдельно от корневого README pro2 . Минимум 1 страница, объясняющая, что эта подпапка делает и как она связана с основной моделью в pro2 . Сейчас, если исследователь клонир  
+- написать [nautilus](../docs/05-habr-projects/memory/memnet.md)/README.md отдельно от корневого README pro2 . Минимум 1 страница, объясняющая, что эта подпапка делает и как она связана с основной моделью в pro2 . Сейчас, если исследователь клонир  
   _→ 01-интегральный-анализ-профиля-svend4_
 
 - написать чёткое ТЗ на «изобрести новую архитектуру LLM» или «решить проблему протечки в Persönliches Budget системе». Задача эволюционирует в процессе  
@@ -181,7 +181,7 @@
 - склеивать Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирова  
   _→ 14-limitations_
 
-- добавить CI через GitHub Actions для npm publish, потому что сейчас пользователь должен git clone + npm install + npm run build , а должно быть npx universal-file-storage-mcp . Третье — переписать REA  
+- добавить CI через [GitHub](../docs/01-svyazi/03-component-catalog.md) Actions для npm publish, потому что сейчас пользователь должен git clone + npm install + npm run build , а должно быть npx universal-file-storage-mcp . Третье — переписать REA  
   _→ 00-intro_
 
 - позитивное: у вас есть доказанная способность шипить концепции с огромной скоростью . Это не паттерн «всё начато — ничего не закончено», это паттерн «очень много начато параллельно» . Это принципиальн  
@@ -202,16 +202,16 @@
 - arxiv preprint . Если LCI действительно сходится к π, или если Q6-routing даёт интерпретируемость, которой нет в обычных MoE, — это publishable novelty . Формат: 8 страниц, разделы Intro / Related Wor  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-- опубликовать спецификацию .nautilus.yaml и подать её как RFC. Если формат внятный, это потенциально open-source standard. Есть прямой целевой рынок: все, кто имеет >10 репозиториев и теряется в них (э  
+- опубликовать спецификацию .[nautilus](../docs/05-habr-projects/memory/memnet.md).yaml и подать её как RFC. Если формат внятный, это потенциально open-source standard. Есть прямой целевой рынок: все, кто имеет >10 репозиториев и теряется в них (э  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-- сочетать с universal-file-storage-mcp . Если nautilus знает о всех ваших репо, а universal-file-storage-mcp даёт Claude доступ к файлам локально, то объединение даёт Claude agent, который умеет работа  
+- сочетать с universal-file-storage-mcp . Если [nautilus](../docs/05-habr-projects/memory/memnet.md) знает о всех ваших репо, а universal-file-storage-mcp даёт Claude доступ к файлам локально, то объединение даёт Claude agent, который умеет работа  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-- переименовать папку в что-то более описательное , если она действительно реализует routing ( hexagram_routing/ ) или orchestrator ( experiment_orchestrator/ ). «nautilus» как имя папки для внешнего чи  
+- переименовать папку в что-то более описательное , если она действительно реализует routing ( hexagram_routing/ ) или orchestrator ( experiment_orchestrator/ ). «[nautilus](../docs/05-habr-projects/memory/memnet.md)» как имя папки для внешнего чи  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-- явно проставить relationship в metadata . Создать файл pro2/nautilus/PROVENANCE.md , где будет написано одной фразой: «This directory contains the routing/orchestration component of YiJing-Transformer  
+- явно проставить relationship в metadata . Создать файл [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)/nautilus/PROVENANCE.md , где будет написано одной фразой: «This directory contains the routing/orchestration component of YiJing-Transformer  
   _→ 01-интегральный-анализ-профиля-svend4_
 
 - 9-to-5 office + GdB 70 + intensity вашего производства). Третий — subject-matter advocate в редкой нише «inside view» немецкой welfare системы . Вы не  

@@ -17,7 +17,7 @@
 <!-- toc -->
 ## Содержание
 
-- [3. What InGit Provides That Cowork Lacks](#3-what-ingit-provides-that-cowork-lacks)
+- [3. What InGit Provides That Cowork Lacks](#3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks)
   - [3.1. Structured File Organization](#31-structured-file-organization)
   - [3.2. Metadata as Code](#32-metadata-as-code)
   - [3.3. Git-Native Versioning](#33-git-native-versioning)
@@ -157,7 +157,7 @@ tools to convert between project structures.
 InGit can include migration tools:
 - Import from Notion (preserve structure where possible)
 - Import from Obsidian (preserve linking)
-- Import from GitHub Issues + Wiki
+- Import from [GitHub](../docs/01-svyazi/03-component-catalog.md) Issues + Wiki
 - Export to standard formats (Markdown + YAML)
 
 This makes InGit useful as **interoperability hub** for users 
@@ -184,7 +184,7 @@ ground on which Cowork operates effectively.
 ---
 
 **Похожие документы:**
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.20)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.20)
 - [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.18)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.17)
 
@@ -194,7 +194,7 @@ ground on which Cowork operates effectively.
 ---
 
 **Смотрите также:**
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 - [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)

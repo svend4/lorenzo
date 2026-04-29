@@ -37,7 +37,7 @@
 Когда Документ 2.3 был написан ранее в этой
 сессии, автор и сотрудник сформулировали пробел
 Слоя B как по существу незаполненный. Мы
-обозрели Anthropic Projects, GitHub Discussions,
+обозрели Anthropic Projects, [GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions,
 Notion, Obsidian и различные комбинации — и
 заключили, что никакой существующий инструмент
 адекватно не обслуживал устойчивую AI-совместную
@@ -156,7 +156,7 @@ Cowork не имеет.
 ---
 
 **Похожие документы:**
-- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.12)
+- [328-2-что-cowork-обеспечивает-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.12)
 - [325-аннотация](docs/02-anthropic-vacancies/325-аннотация.md) (сходство 0.10)
 - [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.10)
 
@@ -166,8 +166,8 @@ Cowork не имеет.
 ---
 
 **Смотрите также:**
-- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
+- [328-2-что-cowork-обеспечивает-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
 - [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
 - [325-аннотация](docs/02-anthropic-vacancies/325-аннотация.md)
-- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+- [329-3-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
 

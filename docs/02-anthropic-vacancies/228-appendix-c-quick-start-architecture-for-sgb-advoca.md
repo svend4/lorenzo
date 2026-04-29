@@ -35,7 +35,7 @@ proposed pilot:
   privacy-sensitive operations
 - Storage: PostgreSQL (structured) + ChromaDB (vector)
 - Knowledge base format: Markdown files in Git repository
-- Frontend: TypeScript + React
+- Frontend: [TypeScript](../docs/05-habr-projects/memory/memnet.md) + React
 - Mobile: React Native or PWA
 
 **Knowledge base structure** (initial):

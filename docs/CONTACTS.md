@@ -68,7 +68,7 @@
 
 ## Email адреса
 
-- `lorenzo@dhlab.ai`
+- `[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)@dhlab.ai`
 
 ## Шаблон первого сообщения
 

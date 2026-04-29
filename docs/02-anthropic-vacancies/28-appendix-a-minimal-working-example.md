@@ -4,7 +4,7 @@
 ## Contents
 
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.1. Minimal [nautilus](../docs/05-habr-projects/memory/memnet.md).json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 

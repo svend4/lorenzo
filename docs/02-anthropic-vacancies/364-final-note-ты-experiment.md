@@ -17,7 +17,7 @@
 
 <!-- summary -->
 > Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible.
-**Проекты:** Svyazi, CardIndex, mclaude, Rufler
+**Проекты:** Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md), mclaude, Rufler
 
 ---
 

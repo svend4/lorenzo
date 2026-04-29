@@ -4,8 +4,8 @@
 ## Contents
 
 - [Bridges](#bridges)
-  - [info1 ↔ pro2](#info1-pro2)
-  - [info1 ↔ meta](#info1-meta)
+  - [info1 ↔ pro2](#[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-pro2)
+  - [info1 ↔ meta](#[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-meta)
   - [Способ обращения через мост](#способ-обращения-через-мост)
 
 
@@ -19,8 +19,8 @@
 ## Bridges
 
 ### `info1 ↔ pro2`
-**α-level ↔ Q6-concept-depth**. Уровень α в `info1` коррелирует с 
-глубиной концепта в Q6-графе знаний `pro2`. [? уточнить exact mapping: 
+**α-level ↔ Q6-concept-depth**. Уровень α в `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` коррелирует с 
+глубиной концепта в Q6-графе знаний `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact mapping: 
 например, α₀ ↔ leaf-вершины Q6, α₃ ↔ root-вершины?]
 
 ### `info1 ↔ meta`
@@ -29,7 +29,7 @@
 mapping если есть, или отметить, что мост пока декларативный]
 
 ### Способ обращения через мост
-Портал использует `nautilus.json` для lookup bridge-описания и передаёт 
+Портал использует `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` для lookup bridge-описания и передаёт 
 его адаптеру при вызове `translate_to()`. Фактический перевод — 
 свободная текстовая интерпретация, не formal mapping.
 

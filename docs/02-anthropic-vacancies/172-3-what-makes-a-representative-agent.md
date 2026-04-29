@@ -45,7 +45,7 @@ Locus of agency: User.
 Goal: Productivity multiplication on chosen tasks.
 
 **Layer 2 — Multi-Agent Systems** (current research/prototype):  
-Examples: MetaGPT, AutoGen, ChatDev, CrewAI.  
+Examples: MetaGPT, [AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), ChatDev, CrewAI.  
 Function: AI agents collaborate among themselves to complete 
 complex tasks.  
 Direction: AI → AI.  

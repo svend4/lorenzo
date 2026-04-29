@@ -10,7 +10,7 @@
 
 <!-- summary -->
 > Все проекты, упоминаемые в документах, с количеством файлов.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+**Проекты:** Svyazi, CardIndex, AgentFS, [knowledge-space](../docs/01-svyazi/03-component-catalog.md), mclaude, AI Factory, Rufler, LiteParse
 
 ---
 

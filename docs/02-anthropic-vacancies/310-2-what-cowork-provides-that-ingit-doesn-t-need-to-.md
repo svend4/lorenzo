@@ -18,7 +18,7 @@
 <!-- toc -->
 ## Содержание
 
-- [2. What Cowork Provides That InGit Doesn't Need to Build](#2-what-cowork-provides-that-ingit-doesnt-need-to-build)
+- [2. What Cowork Provides That InGit Doesn't Need to Build](#2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesnt-need-to-build)
   - [2.1. Agentic Task Execution](#21-agentic-task-execution)
   - [2.2. Persistent Memory Across Sessions](#22-persistent-memory-across-sessions)
   - [2.3. UI for Knowledge Work](#23-ui-for-knowledge-work)
@@ -26,7 +26,7 @@
   - [2.5. Computer Use Capability](#25-computer-use-capability)
   - [2.6. Scheduled Recurring Tasks](#26-scheduled-recurring-tasks)
   - [2.7. Cross-Platform Availability](#27-cross-platform-availability)
-  - [2.8. What This Removes from InGit Roadmap](#28-what-this-removes-from-ingit-roadmap)
+  - [2.8. What This Removes from InGit Roadmap](#28-what-this-removes-from-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-roadmap)
 
 ---
 
@@ -78,7 +78,7 @@ becomes unnecessary**. Saves substantial development effort.
 
 ### 2.4. Connector Ecosystem
 
-Cowork integrates with Gmail, Drive, Slack, GitHub, Notion, 
+Cowork integrates with Gmail, Drive, Slack, [GitHub](../docs/01-svyazi/03-component-catalog.md), Notion, 
 many others. Through MCP, custom connectors can be added.
 
 InGit was not planning to build connectors itself, but 
@@ -144,9 +144,9 @@ individual developer or small team.
 ---
 
 **Похожие документы:**
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.20)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.20)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.18)
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.17)
+- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -154,8 +154,8 @@ individual developer or small team.
 ---
 
 **Смотрите также:**
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 - [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
 

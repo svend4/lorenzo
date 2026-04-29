@@ -200,5 +200,5 @@ _Извлечено: **737** числовых показателей из док
 - [TIMELINE](docs/TIMELINE.md)
 - [TABLES](docs/TABLES.md)
 - [CLUSTERS](docs/CLUSTERS.md)
-- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 

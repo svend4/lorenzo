@@ -4,8 +4,8 @@
 ## Contents
 
 - [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-info1)
-  - [pro2 ↔ meta](#pro2-meta)
+  - [pro2 ↔ info1](#pro2-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
+  - [pro2 ↔ meta](#[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-meta)
 
 
 <!-- summary -->
@@ -20,7 +20,7 @@
 ### `pro2 ↔ info1`
 **Q6-concept-depth ↔ α-level**. Глубина концепта в Q6-графе (число 
 hamming-переходов от «root» вершин) коррелирует с α-уровнем в 
-`info1`. [? уточнить exact correspondence]
+`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact correspondence]
 
 ### `pro2 ↔ meta`
 **Q6-vertex ↔ hexagram**. Это **прямой, формальный мост** (один из 

@@ -72,7 +72,7 @@ with Double-Triangle if anonymization pipeline operates correctly.
 ### 6.2. Project Management Domain
 
 **Participants.** Software engineers, product managers, designers, 
-DevOps engineers, QA engineers.
+[DevOps](../docs/05-habr-projects/memory/memnet.md) engineers, QA engineers.
 
 **Lower triangle contents.** Assistants specialized for:
 - Code generation and review (Copilot, Cursor, Claude Code)
@@ -88,7 +88,7 @@ retrospective synthesis.
 patterns, deployment playbooks, incident postmortems (anonymized), 
 architecture decision records.
 
-**Existing partial implementations.** Jira AI, Linear AI, GitHub 
+**Existing partial implementations.** Jira AI, Linear AI, [GitHub](../docs/01-svyazi/03-component-catalog.md) 
 Projects automation — all provide fragments of this architecture 
 but lack Protocol 3.
 

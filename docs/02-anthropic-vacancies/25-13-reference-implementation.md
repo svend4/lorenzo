@@ -16,10 +16,10 @@ Reference implementation: `github.com/svend4/nautilus`.
 Reference НЕ является нормативной. Альтернативные implementations 
 соответствуют NPP если они:
 
-- Корректно парсят `nautilus.json` per раздел 3
-- Реализуют BaseAdapter interface per раздел 6
+- Корректно парсят `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` per раздел 3
+- Реализуют [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
 - Вычисляют consensus per раздел 8
-- Возвращают QueryResult per раздел 10
+- Возвращают [QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) per раздел 10
 
 ---
 

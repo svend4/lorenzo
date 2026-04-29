@@ -43,7 +43,7 @@ matured over 2023–2026 and is now mainstream. It answers: **how
 does one person amplify their capacity with AI?**
 
 **Upper-triangle-only systems.** Multi-agent frameworks (CrewAI, 
-AutoGen, LangGraph, MetaGPT, ChatDev) orchestrate multiple AI 
+[AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), LangGraph, MetaGPT, ChatDev) orchestrate multiple AI 
 agents to complete complex tasks. Humans either serve as external 
 observers or are absent from the execution loop. This paradigm 
 answers: **how do we automate entire workflows with AI?**

@@ -53,7 +53,7 @@ SHOULD НЕ включаться в публичную registry.
 
 Для приватных Repos RECOMMENDED:
 
-- Отдельный `private-nautilus.json` с explicit opt-in
+- Отдельный `private-[nautilus](../docs/05-habr-projects/memory/memnet.md).json` с explicit opt-in
 - Отдельный portal instance, не доступный публично
 - Authentication на REST API (JWT / API keys)
 - Нет MCP exposure без whitelist

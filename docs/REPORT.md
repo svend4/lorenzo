@@ -74,7 +74,7 @@ _Дата генерации: 2026-04-29_
 2. ⚠️ Устранить **16 предупреждений** → [VALIDATION.md](VALIDATION.md)
 3. 🤝 Связаться с авторами компонентов → [CONTACTS.md](CONTACTS.md)
 4. 📋 Проработать открытые вопросы → [QUESTIONS.md](QUESTIONS.md)
-5. 🚀 Запустить MVP-прототип → [01-svyazi/07-mvp-planning.md](01-svyazi/07-mvp-planning.md)
+5. 🚀 Запустить MVP-прототип → [01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md](01-svyazi/07-mvp-planning.md)
 6. 🔗 Устранить сломанные ссылки → [BROKEN_LINKS.md](BROKEN_LINKS.md)
 
 ## Аналитические инструменты

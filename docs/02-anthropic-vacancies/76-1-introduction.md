@@ -52,10 +52,10 @@ NPP предлагает альтернативу: **федеративную м
 Протокол спроектирован так, чтобы одновременно достичь:
 
 - **Low barrier to entry**: подключение существующего репо к федерации 
-  занимает не более 5 минут (один файл `nautilus.json` в корне + 
+  занимает не более 5 минут (один файл `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в корне + 
   опциональный passport)
 - **Five onboarding paths**: от ручного адаптера до полностью 
-  автоматической регистрации через GitHub Actions webhook
+  автоматической регистрации через [GitHub](../docs/01-svyazi/03-component-catalog.md) Actions webhook
 - **Local autonomy**: каждый репо остаётся функциональным без портала
 - **Progressive enhancement**: репо может подключиться на Level 0 и 
   дорастать до Level 3 без переделки
@@ -93,7 +93,7 @@ NPP **не** пытается:
   стратегии (раздел 12)
 - **REST API контракт** сделан mandatory для совместимых порталов 
   (раздел 13)
-- **`is_fallback`** поле добавлено в PortalEntry как нормативное
+- **`is_fallback`** поле добавлено в [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) как нормативное
 - **Консенсус-модель** расширена: различаются `coverage` (только real) 
   и `coverage_with_fallback` (раздел 9)
 - **Passport schema** формализована в `passport_schema.json` (раздел 4)

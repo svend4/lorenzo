@@ -9,7 +9,7 @@
 - [Открытые вопросы](#открытые-вопросы)
 
 
-<!-- summary: Шаблон для связи с автором knowledge-space, mclaude -->
+<!-- summary: Шаблон для связи с автором [knowledge-space](../docs/01-svyazi/03-component-catalog.md), mclaude -->
 <!-- tags: контакты, команда -->
 
 ## Профиль

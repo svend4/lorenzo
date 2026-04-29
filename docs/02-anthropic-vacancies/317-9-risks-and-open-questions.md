@@ -136,8 +136,8 @@ works regardless of any of them.
 
 **Похожие документы:**
 - [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15)
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.13)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.13)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.13)
+- [323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -146,7 +146,7 @@ works regardless of any of them.
 
 **Смотрите также:**
 - [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 - [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 

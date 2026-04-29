@@ -12,12 +12,12 @@
 ## Contents
 
 - [Детали по файлам](#детали-по-файлам)
-  - [knowledgespace → должно быть knowledge-space](#knowledgespace-должно-быть-knowledge-space)
-  - [knowledge space → должно быть knowledge-space](#knowledge-space-должно-быть-knowledge-space)
+  - [knowledgespace → должно быть knowledge-space](#knowledgespace-должно-быть-[knowledge-space](../docs/01-svyazi/03-component-catalog.md))
+  - [knowledge space → должно быть knowledge-space](#[knowledge-space](../docs/01-svyazi/03-component-catalog.md)-должно-быть-knowledge-space)
   - [AI-Factory → должно быть AI Factory](#ai-factory-должно-быть-ai-factory)
-  - [NGT-Memory → должно быть NGT Memory](#ngt-memory-должно-быть-ngt-memory)
+  - [NGT-Memory → должно быть NGT Memory](#[ngt](../docs/01-svyazi/01-executive-summary.md)-memory-должно-быть-ngt-memory)
   - [self-improve → должно быть self-improvement](#self-improve-должно-быть-self-improvement)
-  - [Svyazi-2.0 → должно быть Svyazi 2.0](#svyazi-20-должно-быть-svyazi-20)
+  - [Svyazi-2.0 → должно быть Svyazi 2.0](#[svyazi](../docs/01-svyazi/00-intro-part2.md)-20-должно-быть-svyazi-20)
 - [Как исправить](#как-исправить)
 
 
@@ -62,7 +62,7 @@
 - `docs/PRIORITIES.md`
 - `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
 - `docs/05-habr-projects/memory/README.md`
-- `docs/01-svyazi/03-component-catalog.md`
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md`
 
 ### `self-improve` → должно быть `self-improvement`
 
@@ -76,9 +76,9 @@
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
 - `docs/04-ai-collaborations/04-приоритетные-ансамбли.md`
-- `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
+- `docs/02-anthropic-vacancies/366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- `docs/01-svyazi/04-ensembles-overview.md`
+- `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md`
 
 ## Как исправить
 

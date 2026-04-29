@@ -25,8 +25,8 @@
 - [Какова политика доступа по умолчанию (tool classes)?](#какова-политика-доступа-по-умолчанию-tool-classes)
 - [Как организован бюджетный роутинг между моделями?](#как-организован-бюджетный-роутинг-между-моделями)
 - [Как работает AgentFS[^agentfs] и что такое .agentos?](#как-работает-agentfsagentfs-и-что-такое-agentos)
-- [Что такое knowledge-space[^knowledgespace] и для кого он предназначен?](#что-такое-knowledge-spaceknowledgespace-и-для-кого-он-предназначен)
-- [Как CardIndex[^cardindex] хранит и версионирует карточки?](#как-cardindexcardindex-хранит-и-версионирует-карточки)
+- [Что такое [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledgespace] и для кого он предназначен?](#что-такое-knowledge-spaceknowledgespace-и-для-кого-он-предназначен)
+- [Как [CardIndex](../docs/01-svyazi/01-executive-summary.md)[^cardindex] хранит и версионирует карточки?](#как-cardindexcardindex-хранит-и-версионирует-карточки)
 
 
 > [!TIP]
@@ -46,7 +46,7 @@ _Автоматически сгенерировано по 15 файлам ра
 
 ## Какие RAG-подходы сравниваются в документах?
 
-Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **LiteParse**
+Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **[LiteParse](../docs/01-svyazi/01-executive-summary.md)**
 
 ## Какие 5 архитектурных зазоров выделены в исследовании?
 
@@ -101,7 +101,7 @@ _Автоматически сгенерировано по 15 файлам ра
 ---
 
 **Похожие документы:**
-- [QA](docs/01-svyazi/QA.md) (сходство 0.82)
+- [QA](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/QA.md) (сходство 0.82)
 - [QA](docs/02-anthropic-vacancies/QA.md) (сходство 0.63)
 - [QA](docs/QA.md) (сходство 0.62)
 

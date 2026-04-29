@@ -24,14 +24,14 @@
   - [Новые ансамбли следующего шага](#новые-ансамбли-следующего-шага-2)
 - [🐍 Python (18)](#python-18)
   - [portal-mcp.py](#portal-mcppy)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.1. [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) Contract](#61-baseadapter-contract)
   - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
-  - [7. PortalEntry Structure](#7-portalentry-structure)
-  - [10. QueryResult Structure](#10-queryresult-structure)
+  - [7. [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) Structure](#7-portalentry-structure)
+  - [10. [QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) Structure](#10-queryresult-structure)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract-1)
+  - [6.1. [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) Contract](#61-baseadapter-contract-1)
   - [6.3. describe() — Required](#63-describe-required)
-  - [7. PortalEntry Structure](#7-portalentry-structure-1)
+  - [7. [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) Structure](#7-portalentry-structure-1)
   - [7.2. Q6 Metadata](#72-q6-metadata)
   - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
   - [9.2. Consensus Structure](#92-consensus-structure)
@@ -41,8 +41,8 @@
 - [📋 YAML (4)](#yaml-4)
   - [Appendix B: Sub-Agent Registry Schema (Sketch)](#appendix-b-sub-agent-registry-schema-sketch)
   - [Appendix C: Configuration Template Example](#appendix-c-configuration-template-example)
-  - [Appendix C: Sample InGit MCP Server Tool Specifications](#appendix-c-sample-ingit-mcp-server-tool-specifications)
-  - [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](#приложение-c-образец-спецификаций-инструментов-ingit-mcp-се)
+  - [Appendix C: Sample InGit MCP Server Tool Specifications](#appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specifications)
+  - [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](#приложение-c-образец-спецификаций-инструментов-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-се)
 - [💻 Bash / Shell (19)](#bash-shell-19)
   - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
   - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ-1)
@@ -64,7 +64,7 @@
   - [Конфигурация для Claude Desktop](#конфигурация-для-claude-desktop)
   - [Содержимое](#содержимое)
   - [5.2. Pattern Library Architecture](#52-pattern-library-architecture)
-  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.1. Minimal [nautilus](../docs/05-habr-projects/memory/memnet.md).json](#a1-minimal-nautilusjson)
   - [Подключить свой репозиторий](#подключить-свой-репозиторий)
   - [Connect Your Repository](#connect-your-repository)
   - [3.2. Schema](#32-schema-1)
@@ -72,7 +72,7 @@
   - [13.3. Response Schemas](#133-response-schemas-1)
   - [13.3. Response Schemas](#133-response-schemas-2)
   - [13.6. Error Responses](#136-error-responses)
-  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson-1)
+  - [A.1. Minimal [nautilus](../docs/05-habr-projects/memory/memnet.md).json](#a1-minimal-nautilusjson-1)
 - [📝 Без языка (132)](#без-языка-132)
   - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список)
   - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список-1)
@@ -118,7 +118,7 @@
 
 
 ### Приоритетные ансамбли
-_`docs/01-svyazi/04-ensembles-overview.md` | 10 строк_
+_`docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md` | 10 строк_
 
 ```mermaid
 flowchart LR
@@ -134,7 +134,7 @@ flowchart LR
 ```
 
 ### Приоритетные ансамбли
-_`docs/01-svyazi/04-ensembles-overview.md` | 10 строк_
+_`docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md` | 10 строк_
 
 ```mermaid
 flowchart LR
@@ -150,7 +150,7 @@ flowchart LR
 ```
 
 ### Приоритетные ансамбли
-_`docs/01-svyazi/04-ensembles-overview.md` | 9 строк_
+_`docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md` | 9 строк_
 
 ```mermaid
 flowchart LR
@@ -165,7 +165,7 @@ flowchart LR
 ```
 
 ### Приоритетные ансамбли
-_`docs/01-svyazi/04-ensembles-overview.md` | 8 строк_
+_`docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md` | 8 строк_
 
 ```mermaid
 flowchart LR
@@ -179,7 +179,7 @@ flowchart LR
 ```
 
 ### Приоритетные ансамбли
-_`docs/01-svyazi/04-ensembles-overview.md` | 10 строк_
+_`docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md` | 10 строк_
 
 ```mermaid
 flowchart LR
@@ -195,7 +195,7 @@ flowchart LR
 ```
 
 ### Новые ансамбли следующего шага
-_`docs/01-svyazi/10-second-order-ensembles.md` | 9 строк_
+_`docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md` | 9 строк_
 
 ```mermaid
 flowchart LR
@@ -210,7 +210,7 @@ flowchart LR
 ```
 
 ### Новые ансамбли следующего шага
-_`docs/01-svyazi/10-second-order-ensembles.md` | 9 строк_
+_`docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md` | 9 строк_
 
 ```mermaid
 flowchart LR
@@ -225,7 +225,7 @@ flowchart LR
 ```
 
 ### Новые ансамбли следующего шага
-_`docs/01-svyazi/10-second-order-ensembles.md` | 8 строк_
+_`docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/10-second-order-ensembles.md` | 8 строк_
 
 ```mermaid
 flowchart LR
@@ -641,7 +641,7 @@ configuration:
 ```
 
 ### Appendix C: Sample InGit MCP Server Tool Specifications
-_`docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | 116 строк_
+_`docs/02-anthropic-vacancies/323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat.md` | 116 строк_
 
 ```yaml
 tool: ingit_search_wiki
@@ -887,7 +887,7 @@ _...и ещё 4 блоков этого языка_
 
 
 ### 3.2. Schema
-_`docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | 19 строк_
+_`docs/02-anthropic-vacancies/08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json.md` | 19 строк_
 
 ```json
 {
@@ -1019,7 +1019,7 @@ _`docs/02-anthropic-vacancies/68-about.md` | 10 строк_
 ```
 
 ### 3.2. Schema
-_`docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` | 21 строк_
+_`docs/02-anthropic-vacancies/78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json.md` | 21 строк_
 
 ```json
 {

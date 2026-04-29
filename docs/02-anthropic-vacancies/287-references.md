@@ -55,7 +55,7 @@ than specifying. Key relevant work includes:
 - Anthropic Projects documentation (current)
 - Microsoft Copilot Studio (different approach to similar 
   problem)
-- Various multi-agent frameworks (LangChain, CrewAI, AutoGen)
+- Various multi-agent frameworks (LangChain, CrewAI, [AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
 
 ### Earlier Companion Documents in This Series
 

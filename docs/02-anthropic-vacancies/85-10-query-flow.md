@@ -38,7 +38,7 @@
 5. Portal собирает `results_by_repo: dict[str, list[PortalEntry]]`
 6. Portal вычисляет consensus по алгоритму раздела 9
 7. Portal вычисляет relevance ranking (раздел 11)
-8. Portal возвращает `QueryResult`
+8. Portal возвращает `[QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)`
 
 ### 10.2. Parallelism
 
@@ -50,7 +50,7 @@ Repos.
 
 Если adapter падает (exception, timeout), Portal MUST:
 
-- Включить repo в `errors` список QueryResult
+- Включить repo в `errors` список [QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 - Продолжить обработку остальных
 - Не падать целиком
 

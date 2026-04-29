@@ -42,7 +42,7 @@ April 2026:
 - **Anthropic**: 440 open positions, primarily senior roles at 
   $320K–$405K compensation
 - **OpenAI**: estimated 600+ open positions
-- **Google DeepMind**: estimated 400+ open positions
+- **Google [DeepMind](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)**: estimated 400+ open positions
 - **Mistral, Cohere, Inflection, xAI**: collectively 1000+ open 
   positions
 

@@ -24,7 +24,7 @@ For the seven-document Nautilus / OKWF project specifically,
 practical next steps:
 
 **Step 1 — Commit documents to repository.** All seven 
-documents should be saved to `nautilus/docs/` as Markdown 
+documents should be saved to `[nautilus](../docs/05-habr-projects/memory/memnet.md)/docs/` as Markdown 
 files. This creates stable reference artifacts.
 
 **Step 2 — Create README that links them.** A top-level 
@@ -32,7 +32,7 @@ README explains the relationships between documents, in what
 order to read them, what each addresses. This serves as 
 poor-man's cross-reference index.
 
-**Step 3 — Open GitHub Discussions.** Enable Discussions on 
+**Step 3 — Open [GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions.** Enable Discussions on 
 the Nautilus repository. Create initial categories: 
 Architecture, Implementation, Pilots, Theory, Community. 
 This provides threaded discussion infrastructure.

@@ -4,8 +4,8 @@
 ## Contents
 
 - [Bridges](#bridges)
-  - [meta ↔ pro2](#meta-pro2)
-  - [meta ↔ info1](#meta-info1)
+  - [meta ↔ pro2](#meta-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
+  - [meta ↔ info1](#meta-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
 
 
 <!-- summary -->
@@ -18,7 +18,7 @@
 ## Bridges
 
 ### `meta ↔ pro2`
-**Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `pro2/passport.md`). 
+**Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)/passport.md`). 
 Это **единственный formal mapping** в экосистеме, реализованный через 
 прямую математическую функцию в адаптерах.
 

@@ -83,7 +83,7 @@ publish them. Early contributors gain first-mover advantage in
 shaping conventions.
 
 **Protocol implementations.** Build Protocol 3 implementations 
-for specific platforms. GitHub Actions, Slack, Jira, Linear — 
+for specific platforms. [GitHub](../docs/01-svyazi/03-component-catalog.md) Actions, Slack, Jira, Linear — 
 each is a candidate for a Protocol 3 bridge.
 
 ### 8.3. For Founders and Organizations
@@ -151,7 +151,7 @@ I am a single author with personal constraints (GdB 70, Pflegegrad
 team. Collaboration, critique, and contribution from others are 
 not only welcome but essential.
 
-Contact: via GitHub issues at 
+Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at 
 [github.com/svend4/nautilus](https://github.com/svend4/nautilus).
 
 ---

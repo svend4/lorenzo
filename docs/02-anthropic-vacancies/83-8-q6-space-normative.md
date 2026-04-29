@@ -43,7 +43,7 @@ Q6 — 6-мерное бинарное пространство {0,1}⁶. Сод
 ### 8.2. Mandatory for Level 2+
 
 Адаптеры Level 2 и выше MUST обеспечивать Q6-координату в каждом 
-PortalEntry через `metadata["q6"]`.
+[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) через `metadata["q6"]`.
 
 ### 8.3. Q6 Mapping Rules
 
@@ -126,6 +126,6 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 **Смотрите также:**
 - [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
 - [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
 

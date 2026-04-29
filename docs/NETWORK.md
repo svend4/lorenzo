@@ -70,11 +70,11 @@
 
 ## Авторы ↔ Проекты
 
-**Андрей (kksudo)** → **Svyazi** (15), **CardIndex** (14), **AgentFS** (14), **knowledge-space** (14), **Yodoca** (13), **NGT** (13), **SENTINEL** (13), **AI Factory** (13)
+**Андрей (kksudo)** → **Svyazi** (15), **CardIndex** (14), **AgentFS** (14), **[knowledge-space](../docs/01-svyazi/03-component-catalog.md)** (14), **Yodoca** (13), **NGT** (13), **SENTINEL** (13), **AI Factory** (13)
 
-**Виталий (spbmolot)** → **Svyazi** (13), **CardIndex** (12), **AgentFS** (12), **knowledge-space** (12), **Yodoca** (11), **NGT** (11), **SENTINEL** (11), **AI Factory** (11)
+**Виталий (spbmolot)** → **Svyazi** (13), **CardIndex** (12), **AgentFS** (12), **[knowledge-space](../docs/01-svyazi/03-component-catalog.md)** (12), **Yodoca** (11), **NGT** (11), **SENTINEL** (11), **AI Factory** (11)
 
-**Lorenzo (svend4)** → **Cowork** (36), **ingit** (34), **Svyazi** (23), **NGT** (22), **CardIndex** (16), **Yodoca** (14), **knowledge-space** (14), **Lorenzo** (14)
+**Lorenzo (svend4)** → **Cowork** (36), **ingit** (34), **Svyazi** (23), **NGT** (22), **CardIndex** (16), **Yodoca** (14), **[knowledge-space](../docs/01-svyazi/03-component-catalog.md)** (14), **Lorenzo** (14)
 
 
 <!-- see-also -->

@@ -17,7 +17,7 @@
 
 <!-- summary -->
 > The Open Knowledge Work Foundation is proposed as response
-**Проекты:** Svyazi, CardIndex
+**Проекты:** Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md)
 
 ---
 
@@ -29,7 +29,7 @@
   - [Три стратегии использования этого документа](#три-стратегии-использования-этого-документа)
   - [Что я бы сделал следующим](#что-я-бы-сделал-следующим)
   - [Final observation](#final-observation)
-  - [Что описывает статья — суть проекта Svyazi](#что-описывает-статья-суть-проекта-svyazi)
+  - [Что описывает статья — суть проекта Svyazi](#что-описывает-статья-суть-проекта-[svyazi](../docs/01-svyazi/00-intro-part2.md))
   - [Прямые параллели с вашей работой](#прямые-параллели-с-вашей-работой)
   - [Что у Андрея отличается от вашей архитектуры](#что-у-андрея-отличается-от-вашей-архитектуры)
   - [Что конкретно можно взять из проекта Свйази в вашу работу](#что-конкретно-можно-взять-из-проекта-свйази-в-вашу-работу)
@@ -40,7 +40,7 @@
   - [Цитата из статьи Андрея](#цитата-из-статьи-андрея)
   - [Ландшафт того, чтоуже существует— и где именно ниша Свйази](#ландшафт-того-чтоуже-существует-и-где-именно-ниша-свйази)
   - [Что яне нашёлв существующих решениях — гдеуникальная ниша Свйази](#что-яне-нашёлв-существующих-решениях-гдеуникальная-ниша-свйази)
-  - [Что это значит для проекта OKWF и Nautilus](#что-это-значит-для-проекта-okwf-и-nautilus)
+  - [Что это значит для проекта OKWF и Nautilus](#что-это-значит-для-проекта-okwf-и-[nautilus](../docs/05-habr-projects/memory/memnet.md))
   - [Самый интересный вопрос — могут ли быть voiceless контрибьюторы](#самый-интересный-вопрос-могут-ли-быть-voiceless-контрибьюторы)
   - [Honest assessment ниши](#honest-assessment-ниши)
   - [Конкретные рекомендации к действию](#конкретные-рекомендации-к-действию)
@@ -89,7 +89,7 @@ academic institutions, policy organizations, and individuals.
 Your feedback is welcome. Your participation is valued. Your 
 critique is essential.
 
-Contact: via GitHub issues at 
+Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at 
 [github.com/svend4/nautilus](https://github.com/svend4/nautilus) 
 until formal foundation launch.
 

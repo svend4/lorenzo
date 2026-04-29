@@ -13,7 +13,7 @@
 ## Contents
 
 - [9. Call for Partnership](#9-call-for-partnership)
-  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-[mistral](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-openai-google-microsoft)
   - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
   - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
   - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)

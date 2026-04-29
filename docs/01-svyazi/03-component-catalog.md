@@ -51,7 +51,7 @@
 - [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
 - [TABLES](docs/TABLES.md)
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
+- [04-ensembles-overview](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md)
 
 
 

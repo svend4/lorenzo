@@ -17,17 +17,17 @@
 
 <!-- summary -->
 > Для справки, вот детальные спецификации для
-**Проекты:** Svyazi, CardIndex, knowledge-space, Graph RAG, NGT Memory, Wikontic
+**Проекты:** Svyazi, CardIndex, [knowledge-space](../docs/01-svyazi/03-component-catalog.md), Graph RAG, NGT Memory, Wikontic
 
 ---
 
 <!-- toc -->
 ## Содержание
 
-- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](#приложение-c-образец-спецификаций-инструментов-ingit-mcp-сервера)
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](#приложение-c-образец-спецификаций-инструментов-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-сервера)
   - [Краткие заметки к переводу](#краткие-заметки-к-переводу)
   - [Что такое Hermes Agent](#что-такое-hermes-agent)
-  - [Чем Hermes похож на нашу архитектуру (InGit + Cowork + Nautilus)](#чем-hermes-похож-на-нашу-архитектуру-ingit-cowork-nautilus)
+  - [Чем Hermes похож на нашу архитектуру (InGit + Cowork + Nautilus)](#чем-hermes-похож-на-нашу-архитектуру-ingit-cowork-[nautilus](../docs/05-habr-projects/memory/memnet.md))
   - [Чем Hermes отличается — где наши документы добавляют value](#чем-hermes-отличается-где-наши-документы-добавляют-value)
   - [Плюсы Hermes (vs наша гипотетическая архитектура)](#плюсы-hermes-vs-наша-гипотетическая-архитектура)
   - [Минусы Hermes (где наша архитектура добавляет ценность)](#минусы-hermes-где-наша-архитектура-добавляет-ценность)
@@ -56,7 +56,7 @@
   - [Общая характеристика трёх репозиториев](#общая-характеристика-трёх-репозиториев)
   - [Что интересного и полезного в info40](#что-интересного-и-полезного-в-info40)
   - [Что интересного и полезного в info7](#что-интересного-и-полезного-в-info7)
-  - [Что интересного и полезного в info1](#что-интересного-и-полезного-в-info1)
+  - [Что интересного и полезного в info1](#что-интересного-и-полезного-в-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
   - [Integrated Analysis — что эти три together предлагают](#integrated-analysis-что-эти-три-together-предлагают)
   - [Где эти repositories valuable beyond their actual code](#где-эти-repositories-valuable-beyond-their-actual-code)
   - [Application к Cowork+InGit и других связок](#application-к-coworkingit-и-других-связок)

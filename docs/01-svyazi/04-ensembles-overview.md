@@ -10,7 +10,7 @@
 
 <!-- summary -->
 > Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**.
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
@@ -23,7 +23,7 @@
 
 **Ансамбль A — Collaboration OS**
 
-Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, knowledge-space — за agent‑readable reference layer, NGT[^ngt] Memory — за быстрые ассоциативные связи, Yodoca[^yodoca] — за ночную консолидацию и забывание шумов. Такой стек превращает “случайные находки коллабораций” в воспроизводимую машинерию. citeturn41search0turn27view0turn33view2turn22view4turn21view0
+Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, [knowledge-space](../docs/01-svyazi/03-component-catalog.md) — за agent‑readable reference layer, NGT[^ngt] Memory — за быстрые ассоциативные связи, Yodoca[^yodoca] — за ночную консолидацию и забывание шумов. Такой стек превращает “случайные находки коллабораций” в воспроизводимую машинерию. citeturn41search0turn27view0turn33view2turn22view4turn21view0
 
 ```mermaid
 flowchart LR
@@ -43,7 +43,7 @@ flowchart LR
 - **Serendipity не как баг, а как режим работы**: быстрый поиск больше не ограничен совпадением явных skills; ассоциативная память подтягивает слабые ко‑активации тем и интересов. citeturn41search0turn22view4
 - **Единый source of truth для разных агентов и сессий**: rules, memory, security и task state больше не дублируются по `CLAUDE.md`, `.cursor/rules/` и другим runtime‑форматам. citeturn33view4turn27view0
 - **Контролируемое забывание вместо бесконечного накопления мусора**: Yodoca явно вводит Ebbinghaus‑decay, prune и приватный write‑path‑консолидатор. citeturn21view0turn21view1
-- **Agent‑first knowledge retrieval**: knowledge-space снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами. citeturn33view3turn37search1
+- **Agent‑first knowledge retrieval**: [knowledge-space](../docs/01-svyazi/03-component-catalog.md) снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами. citeturn33view3turn37search1
 
 **Ансамбль B — Forensic RAG[^rag] для доказуемого matching и review**
 
@@ -71,7 +71,7 @@ flowchart LR
 
 **Ансамбль C — Spec‑driven multi‑agent factory**
 
-Для развития самого продукта нужен не просто один агент, а управляемая фабрика: mclaude закрывает locks/handoffs/mailbox, AI Factory/AIF Handoff — spec‑driven pipeline и self‑learning patches, Rufler — декларативное поднятие роя, Skills/CodeWiki — reusable skills и автоматическую кодовую документацию, Sequential — более сильный reviewer‑режим, а AutoResearch — ночную петлю самоулучшения. citeturn20view2turn20view3turn20view4turn12search2turn20view11turn20view19
+Для развития самого продукта нужен не просто один агент, а управляемая фабрика: mclaude закрывает locks/handoffs/mailbox, AI Factory/AIF Handoff — spec‑driven pipeline и self‑learning patches, Rufler — декларативное поднятие роя, Skills/CodeWiki — reusable skills и автоматическую кодовую документацию, Sequential — более сильный reviewer‑режим, а [AutoResearch](../docs/01-svyazi/01-executive-summary.md) — ночную петлю самоулучшения. citeturn20view2turn20view3turn20view4turn12search2turn20view11turn20view19
 
 ```mermaid
 flowchart LR
@@ -90,7 +90,7 @@ flowchart LR
 - **Параллелизм без хаоса**: locks, mailbox и handoffs снижают шанс, что два агента одновременно поломают один участок системы или понесут устаревший контекст. citeturn20view2turn37search0
 - **Patch‑driven learning**: AI Factory накапливает патчи и умеет эволюционно обновлять skills по повторяющимся классам ошибок. citeturn21view6turn29search0
 - **Повторяемая оркестрация**: Rufler выносит структуру роя в YAML и даже показывает разрез токенов по задачам, что критично для cost discipline. citeturn20view4turn21view8
-- **Улучшение не по интуиции, а по циклу “изменил → измерил → откатил/сохранил”**: AutoResearch ровно эту петлю и формализует. citeturn20view19
+- **Улучшение не по интуиции, а по циклу “изменил → измерил → откатил/сохранил”**: [AutoResearch](../docs/01-svyazi/01-executive-summary.md) ровно эту петлю и формализует. citeturn20view19
 - **Review без центрального bottleneck**: Sequential‑протокол в экспериментах автора даёт качество выше coordinator‑режима на сильных моделях. citeturn20view11
 
 **Ансамбль D — Voice‑first local knowledge mesh**
@@ -146,7 +146,7 @@ flowchart LR
 **Похожие документы:**
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.92)
 - [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.16)
-- [03-component-catalog](docs/01-svyazi/03-component-catalog.md) (сходство 0.16)
+- [03-component-catalog](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -156,7 +156,7 @@ flowchart LR
 **Смотрите также:**
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
 - [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [03-component-catalog](docs/01-svyazi/03-component-catalog.md)
+- [03-component-catalog](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md)
 - [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
 
 

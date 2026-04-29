@@ -35,45 +35,67 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Как реализован forensic RAG[^rag] с доказуемостью?
 
+→ _См. также:_ [QA](docs/04-ai-collaborations/QA.md)
+
 Упоминаются: **liteparse**, **bounding box**, **page-level**, **evidence**
 
 ## Что такое Evidence Envelope и зачем он нужен?
+
+→ _См. также:_ [QA](docs/03-technology-combinations/QA.md)
 
 Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
-Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **LiteParse**
+→ _См. также:_ [QA](docs/03-technology-combinations/QA.md)
+
+Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **[LiteParse](../docs/01-svyazi/01-executive-summary.md)**
 
 ## Какие инструменты обеспечивают безопасность агентов?
+
+→ _См. также:_ [QA](docs/04-ai-collaborations/QA.md)
 
 Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
 
 ## Какова политика доступа по умолчанию (tool classes)?
 
+→ _См. также:_ [QA](docs/04-ai-collaborations/QA.md)
+
 Упоминаются: **read-only**, **allowlist**, **path guard**, **quarantine**
 
 ## Как организован бюджетный роутинг между моделями?
+
+→ _См. также:_ [QA](docs/04-ai-collaborations/QA.md)
 
 Упоминаются: **routing**, **budget**, **litellm**
 
 ## Какие 5 архитектурных зазоров выделены в исследовании?
 
+→ _См. также:_ [QA](docs/02-anthropic-vacancies/QA.md)
+
 Упоминаются: **зазор**, **карточка**, **evidence**, **memory governance**, **agent contract**
 
 ## Что входит в интеграционный контракт между слоями?
+
+→ _См. также:_ [QA](docs/05-habr-projects/QA.md)
 
 Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 ## Каковы этапы MVP и их оценка по времени?
 
+→ _См. также:_ [QA](docs/05-habr-projects/QA.md)
+
 Упоминаются: **mvp**, **итерац**, **фаза**, **неделя**
 
 ## Что входит в первую итерацию прототипа?
 
+→ _См. также:_ [QA](docs/05-habr-projects/QA.md)
+
 Упоминаются: **evidence-first**, **unified card**, **page/span**, **manual review**
 
 ## Кто ключевые авторы проектов для контакта?
+
+→ _См. также:_ [QA](docs/05-habr-projects/QA.md)
 
 Упоминаются: **Андрей Чуян**, **Виталий Оборин**, **kksudo**, **spbmolot**
 

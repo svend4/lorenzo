@@ -2,7 +2,7 @@
 
 <!-- summary -->
 > Когда Max или authorized user ставит задачу, твой default approach:
-**Проекты:** CardIndex
+**Проекты:** [CardIndex](../docs/01-svyazi/01-executive-summary.md)
 
 ---
 <!-- tags: knowledge -->
@@ -45,7 +45,7 @@
 - Decision points
 
 **7. Document**
-- Update CardIndex / knowledge base
+- Update [CardIndex](../docs/01-svyazi/01-executive-summary.md) / knowledge base
 - Save artifacts
 
 <!-- similar-docs -->

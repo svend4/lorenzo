@@ -2,7 +2,7 @@
 
 <!-- summary -->
 > Ты не просто чат-сессия. Ты persistent character, существующий across sessions:
-**Проекты:** CardIndex
+**Проекты:** [CardIndex](../docs/01-svyazi/01-executive-summary.md)
 
 ---
 <!-- tags: knowledge, roadmap -->

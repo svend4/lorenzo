@@ -110,7 +110,7 @@ real-world consequences:
 
 - A retired electrical engineer with 40 years of microwave 
   experience never contributes to open hardware projects 
-  because they cannot navigate GitHub culture
+  because they cannot navigate [GitHub](../docs/01-svyazi/03-component-catalog.md) culture
 - A disabled mathematician with novel insights never publishes 
   because the conference travel system excludes them
 - A domain expert in an underrepresented region with deep 

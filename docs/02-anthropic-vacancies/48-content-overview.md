@@ -25,7 +25,7 @@
    - v60–v61: NautilusYiJin — return to separate experts with Q6-routing
    - Планы: NautilusMoME v2 с production-ready pipeline
 
-3. **Подпапка `nautilus/`** — historical embedded-версия Portal 
+3. **Подпапка `[nautilus](../docs/05-habr-projects/memory/memnet.md)/`** — historical embedded-версия Portal 
    (до миграции в отдельный репо `github.com/svend4/nautilus`)
 
 **Научные артефакты:** [? перечислить, если есть Jupyter notebooks, 
@@ -40,7 +40,7 @@ training logs, benchmarks]
 **Похожие документы:**
 - [53-history](docs/02-anthropic-vacancies/53-history.md) (сходство 0.18)
 - [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md) (сходство 0.14)
-- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.10)
+- [45-passports-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.10)
 
 
 <!-- see-also -->

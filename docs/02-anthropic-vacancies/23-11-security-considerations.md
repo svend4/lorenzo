@@ -48,7 +48,7 @@ Portal SHOULD НЕ выполнять adapters из untrusted sources без rev
 
 Repos, содержащие чувствительные данные, SHOULD НЕ включаться в 
 публичную registry. Для приватных Repos RECOMMENDED отдельный 
-`private-nautilus.json` с явным opt-in.
+`private-[nautilus](../docs/05-habr-projects/memory/memnet.md).json` с явным opt-in.
 
 Implementation MUST различать public и private registries и не 
 смешивать результаты без явного запроса.

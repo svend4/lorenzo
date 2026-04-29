@@ -13,8 +13,8 @@
 ## Contents
 
 - [Похожие файлы (Jaccard ≥ 0.5)](#похожие-файлы-jaccard-05)
-  - [50% — docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md vs docs/01-svyazi/06-security-privacy.md](#50-docs04-ai-collaborations06-безопасность-приватность-и-бюджетный-роутингmd-vs-docs01-svyazi06-security-privacymd)
-  - [50% — docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md vs docs/01-svyazi/12-roadmap.md](#50-docs04-ai-collaborations12-дорожная-карта-прототипа-следующей-итерацииmd-vs-docs01-svyazi12-roadmapmd)
+  - [50% — docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md vs docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md](#50-docs04-ai-collaborations06-безопасность-приватность-и-бюджетный-роутингmd-vs-docs01-svyazi06-security-privacymd)
+  - [50% — docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md vs docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md](#50-docs04-ai-collaborations12-дорожная-карта-прототипа-следующей-итерацииmd-vs-docs01-svyazi12-roadmapmd)
 
 
 Порог сходства: **0.5**  

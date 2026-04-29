@@ -11,10 +11,10 @@
 
 ## For the Curious: Philosophy
 
-`info1` реализует идею, что **methodology — это отдельное измерение 
+`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` реализует идею, что **methodology — это отдельное измерение 
 знания**, не сводимое к семантике. Одно и то же явление (например, 
-фрактал) имеет definition (в `pro2`), symbolic encoding (в `meta`), 
-и practical applications (в `info1`). Эти три измерения не 
+фрактал) имеет definition (в `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`), symbolic encoding (в `meta`), 
+и practical applications (в `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`). Эти три измерения не 
 дополнительны в смысле «разные аспекты», они **ортогональны**: 
 полное понимание требует одновременного присутствия во всех трёх.
 

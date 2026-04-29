@@ -14,7 +14,7 @@
 ## Contents
 
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.1. [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
@@ -39,7 +39,7 @@
 ### 6.1. BaseAdapter Contract
 
 Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс) 
-от `BaseAdapter`:
+от `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`:
 
 ```python
 from abc import ABC, abstractmethod
@@ -61,7 +61,7 @@ class BaseAdapter(ABC):
 
 ### 6.2. `fetch(query)` — Required
 
-Accepts string query, returns list of `PortalEntry`.
+Accepts string query, returns list of `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`.
 
 Implementation MUST:
 

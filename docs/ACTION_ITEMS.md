@@ -41,7 +41,7 @@
   _→ 07-mvp-planning_
 - Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
   _→ 07-mvp-planning_
-- интереснее: knowledge-space становится не просто хранилищем знаний, а приёмником результатов ночных исследований; CodeWiki и Skills превращают эти рез  
+- интереснее: [knowledge-space](../docs/01-svyazi/03-component-catalog.md) становится не просто хранилищем знаний, а приёмником результатов ночных исследований; CodeWiki и Skills превращают эти рез  
   _→ 10-second-order-ensembles_
 - — **не искать ещё двадцать новых проектов**, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write  
   _→ 14-limitations_
@@ -57,7 +57,7 @@
   _→ 01-интегральный-анализ-профиля-svend4_
 - переходим к опции A — PORTAL-PROTOCOL.md. Для неё мне понадобятся passports/info1.md , passports/pro2.md , passports/meta.md , плюс portal.py целиком,  
   _→ 01-интегральный-анализ-профиля-svend4_
-- как отозвали токен, есть три безопасных способа прислать мне base.py , info1.py , nautilus.json :  
+- как отозвали токен, есть три безопасных способа прислать мне base.py , info1.py , [nautilus](../docs/05-habr-projects/memory/memnet.md).json :  
   _→ 01-интегральный-анализ-профиля-svend4_
 - полностью возвращаемся к работе без overhead на security-тему.  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -124,9 +124,9 @@
 - как InGit имеет базовый API. Это самый высокий ROI вариант.  
   _→ 303-приложение-визуализация-позиции-в-серии_
 - , который:  
-  _→ 323-appendix-c-sample-ingit-mcp-server-tool-specificat_
+  _→ 323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat_
 - для каждого aspect.  
-  _→ 323-appendix-c-sample-ingit-mcp-server-tool-specificat_
+  _→ 323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat_
 - Пути 1 (без разработки). Расширять только  
   _→ 335-9-риски-и-открытые-вопросы_
 - рекомендация : попробовать Hermes на ваш Termux setup. Compare с Cowork. Decide which serves your actual workflow better. Adjust documents accordingly  
@@ -146,7 +146,7 @@
 - Вариант 2 : Я draft Variant C concept document с Lorenzo central — это outreach-ready document для Anthropic  
   _→ 342-что-такое-вариант-c-concept-document-для-anthropic_
 - Критическое наблюдение : эти не взаимоисключающие , но разная приоритизация меняет всё.  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - — call? email exchange? written response к specific question?]»  
   _→ 357-твоя-коммуникация-в-outreach_
 - Option 1 : Я create polished version после ваших edits/preferences (которые из 5 questions выше)  
@@ -156,8 +156,8 @@
 - (1-page diagram) ✓  
   _→ 365-развёрнутый-анализ-внуковой-комбинации_
 - Учитывая всё это, рекомендую:  
-  _→ 366-технический-stack-svyazi-2-0-foundation_
-- — обновить nautilus.json (если там нет ссылок на passports/*.md , добавить)  
+  _→ 366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation_
+- — обновить [nautilus](../docs/05-habr-projects/memory/memnet.md).json (если там нет ссылок на passports/*.md , добавить)  
   _→ 64-for-the-curious-philosophy_
 - туда добавили PORTAL-PROTOCOL.md или passport-файлы, они будут видны в этой ветке, но не в main. Чтобы слить в main, нужен merge Pull Request.  
   _→ 69-section_
@@ -205,9 +205,9 @@ _(8 дублей скрыто)_
 - для knowledge management идёт через слияние (Notion, Obsidian, Roam, Coda — все они хотят, чтобы вы перенесли все свои знания в их единый формат), вы  
   _→ 01-интегральный-анализ-профиля-svend4_
 - Record) с обоснованием federation-over-merging  
-  _→ 02-общий-план-развития-nautilus-portal-protocol_
+  _→ 02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol_
 - задокументировано отдельным ADR-XXX.md. Это критично для того, чтобы спустя 6 месяцев (или чтобы другой разработчик, приходящий на проект) понимал обо  
-  _→ 02-общий-план-развития-nautilus-portal-protocol_
+  _→ 02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol_
 - сохранить оба, консолидировать позже  
   _→ 107-1-контекст-и-мотивация_
 - tree для перехода от merged-состояния к финальному.  
@@ -311,7 +311,7 @@ _(8 дублей скрыто)_
 - , которая стоит внимания.  
   _→ 303-приложение-визуализация-позиции-в-серии_
 - Tree for InGit Adopters  
-  _→ 321-appendix-a-decision-tree-for-ingit-adopters_
+  _→ 321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters_
 - framework для CAMEL Workforce setups  
   _→ 341-приложение-c-образец-спецификаций-инструментов-ing_
 - strategies, economic models. Re-implement clean on CAMEL substrate.  
@@ -325,21 +325,21 @@ _(8 дублей скрыто)_
 - point. Proceed, defer, or pivot.  
   _→ 342-что-такое-вариант-c-concept-document-для-anthropic_
 - о том, продолжать ли / как  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - уровня Max. Я могу draft analysis, но финальный call за ним.»  
   _→ 362-когда-сомневаешься-escalate-к-max_
 - trees для recurring situation types  
   _→ 364-final-note-ты-experiment_
 - point : continue с Phase 1 build, или pivot  
-  _→ 366-технический-stack-svyazi-2-0-foundation_
+  _→ 366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation_
 - С двумя excellent documents в hand, нам в position сделать informed decisions:  
-  _→ 366-технический-stack-svyazi-2-0-foundation_
+  _→ 366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation_
 - point: capacity, funding, motivation  
-  _→ 366-технический-stack-svyazi-2-0-foundation_
+  _→ 366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation_
 - Adopt these documents как Lorenzo technical foundation?  
-  _→ 366-технический-stack-svyazi-2-0-foundation_
+  _→ 366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation_
 - point : continue, pivot, или pause  
-  _→ 366-технический-stack-svyazi-2-0-foundation_
+  _→ 366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation_
 - для sustainability  
   _→ 69-section_
 - перед запуском новой Claude Code сессии на том же проекте — сначала мержить старую ветку в main или удалять её . Иначе накапливается "археология парал  
@@ -383,7 +383,7 @@ _(6 дублей скрыто)_
   _→ 01-интегральный-анализ-профиля-svend4_
 - потому что это не выложено в открытый доступ в чате в персональном в личном чате использованного для безопасной компании безопасной нейросети ничего н  
   _→ 01-интегральный-анализ-профиля-svend4_
-- токена определяется слабейшим звеном во всей цепочке (устройство, клавиатура, сеть, Anthropic edge, Anthropic logs, GitHub scanners). Даже если 6 из 7  
+- токена определяется слабейшим звеном во всей цепочке (устройство, клавиатура, сеть, Anthropic edge, Anthropic logs, [GitHub](../docs/01-svyazi/03-component-catalog.md) scanners). Даже если 6 из 7  
   _→ 01-интегральный-анализ-профиля-svend4_
 - полагаться на это. Отзовите руками немедленно.  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -638,9 +638,9 @@ _(6 дублей скрыто)_
 - tolerance?  
   _→ 342-что-такое-вариант-c-concept-document-для-anthropic_
 - дрейфа миссии  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - возрастает с visibility  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - assessment, opportunity sizing, prioritization  
   _→ 351-что-ты-можешь-делать_
 - - Conflict between mission и user request  
@@ -668,16 +668,16 @@ _(6 дублей скрыто)_
 - schema drift с конкретной mitigation: «Держать extraction на constrained schema + низком reasoning, а смысл переносить в post-processing». Это enginee  
   _→ 365-развёрнутый-анализ-внуковой-комбинации_
 - - Documents inconsistent with mission  
-  _→ 366-технический-stack-svyazi-2-0-foundation_
+  _→ 366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation_
 - Register), затем 4-6.  
-  _→ 366-технический-stack-svyazi-2-0-foundation_
+  _→ 366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation_
 - копипаст-ошибок при ручном переносе из чата в файлы  
   _→ 69-section_
 - репутации) + возвращение английской версии README (наиболее быстрый внешний выигрыш).  
   _→ 69-section_
-- №1: STATUS.md утверждает, что это на ветке claude/review-nautilus-changes-tdywx , но я только что читал его из main . Это означает одно из двух:  
+- №1: STATUS.md утверждает, что это на ветке claude/review-[nautilus](../docs/05-habr-projects/memory/memnet.md)-changes-tdywx , но я только что читал его из main . Это означает одно из двух:  
   _→ 69-section_
-- №2: 4 adapter'а (info1, pro2, meta, data2) возвращают 0 реальных записей . Это работает как демонстрация архитектуры, но если внешний человек наберёт  
+- №2: 4 adapter'а (info1, [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), meta, data2) возвращают 0 реальных записей . Это работает как демонстрация архитектуры, но если внешний человек наберёт  
   _→ 69-section_
 - №3: Health Score 82/100 — это хорошо, но неясно по какому алгоритму . STATUS.md не показывает, что именно отнимает 18 баллов. Нужен breakdown: что сей  
   _→ 69-section_
@@ -701,7 +701,7 @@ _(6 дублей скрыто)_
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
   _→ TIMELINE_
-- ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
+- ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md` |  
   _→ TIMELINE_
 
 _(13 дублей скрыто)_
@@ -716,7 +716,7 @@ _(13 дублей скрыто)_
   _→ 14-limitations_
 - доступа к полному списку репозиториев  
   _→ 00-intro_
-- GitHub на crawling. Поэтому сделаю так: сейчас детально разберу то, к чему у меня есть доступ (два pinned репозитория со звёздочкой + data70), а затем  
+- [GitHub](../docs/01-svyazi/03-component-catalog.md) на crawling. Поэтому сделаю так: сейчас детально разберу то, к чему у меня есть доступ (два pinned репозитория со звёздочкой + data70), а затем  
   _→ 00-intro_
 - . Conway's Law и 60 лет software engineering research говорят одно: чем менее формализуема задача, тем больше ценность spontaneous human communication  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -799,15 +799,15 @@ _(13 дублей скрыто)_
 - data preparation для training, не community synthesis  
   _→ 342-что-такое-вариант-c-concept-document-для-anthropic_
 - - Память не сохраняется между сессиями  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - - Всё ещё triggered Максом (не автономный)  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - - Outreach всё ещё manual (Макс как Lorenzo)  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - - Всё ещё под Макса approval для всех external actions  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - - Significant operational complexity  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - - Habr Scout : Habr articles often hype или incomplete; need quality filter  
   _→ 365-развёрнутый-анализ-внуковой-комбинации_
 
@@ -846,22 +846,22 @@ _(9 дублей скрыто)_
   _→ 01-интегральный-анализ-профиля-svend4_
 - draft за 2-3 сессии.  
   _→ 01-интегральный-анализ-профиля-svend4_
-- nautilus/README.md отдельно от корневого README pro2 . Минимум 1 страница, объяс  
+- [nautilus](../docs/05-habr-projects/memory/memnet.md)/README.md отдельно от корневого README pro2 . Минимум 1 страница, объяс  
   _→ 01-интегральный-анализ-профиля-svend4_
 - PORTAL-PROTOCOL.md как formal specification v1.0. Минимум 8–12 страниц: (1) goal  
   _→ 01-интегральный-анализ-профиля-svend4_
 - один новый адаптер, не трогая движок.  
-  _→ 02-общий-план-развития-nautilus-portal-protocol_
+  _→ 02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol_
 - собственный адаптер для нового репо без задавания вопросов автору?  
-  _→ 02-общий-план-развития-nautilus-portal-protocol_
+  _→ 02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol_
 - «74 документа с α-уровнями про такие-то темы», но не сами документы.  
-  _→ 02-общий-план-развития-nautilus-portal-protocol_
+  _→ 02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol_
 - три паспорта ( passports/info1.md , passports/pro2.md , passports/meta.md ) — по  
-  _→ 02-общий-план-развития-nautilus-portal-protocol_
+  _→ 02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol_
 - для вас черновики :  
-  _→ 02-общий-план-развития-nautilus-portal-protocol_
+  _→ 02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol_
 - совместимый адаптер или альтернативный движок, не задавая вопросов автору.  
-  _→ 02-общий-план-развития-nautilus-portal-protocol_
+  _→ 02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol_
 - черновик финальной версии  
   _→ 110-вопрос-fallback-ratio-как-критический-или-осмыслен_
 - MCP-wrapper portal-mcp.py — discoverability через Claude Desktop, открывает arxi  
@@ -941,7 +941,7 @@ _(9 дублей скрыто)_
 - short concept document about Synthesis A для Anthropic Beneficial Deployments ou  
   _→ 341-приложение-c-образец-спецификаций-инструментов-ing_
 - системный промпт, определяющий персону Lorenzo (использует Формулировку B)  
-  _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
+  _→ 343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи_
 - MCP-wrapper (опция C из нашей давней последовательности) — как только дадите мне  
   _→ 69-section_
 - структуру, ваш Claude Code агент доделает детали)  
@@ -952,7 +952,7 @@ _(9 дублей скрыто)_
   _→ 69-section_
 - единый сводный IMPLEMENTATION_REVIEW.md взамен четырёх частей — более структурир  
   _→ 69-section_
-- `adapters/<format>.py`, наследуясь от `BaseAdapter`  
+- `adapters/<format>.py`, наследуясь от `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`  
   _→ 87-12-onboarding-paths-normative_
 - `passports/<format>.md`  
   _→ 87-12-onboarding-paths-normative_

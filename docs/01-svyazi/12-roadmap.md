@@ -45,7 +45,7 @@
 
 **Похожие документы:**
 - [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 1.00)
-- [14-limitations](docs/01-svyazi/14-limitations.md) (сходство 0.13)
+- [14-limitations](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md) (сходство 0.13)
 - [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.13)
 
 
@@ -55,9 +55,9 @@
 
 **Смотрите также:**
 - [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-- [14-limitations](docs/01-svyazi/14-limitations.md)
+- [14-limitations](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/14-limitations.md)
 - [07-выводы](docs/04-ai-collaborations/07-выводы.md)
-- [08-conclusions](docs/01-svyazi/08-conclusions.md)
+- [08-conclusions](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/08-conclusions.md)
 
 
 

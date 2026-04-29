@@ -9,7 +9,7 @@
 - [Открытые вопросы](#открытые-вопросы)
 
 
-<!-- summary: Шаблон для связи с автором LiteParse / research-docs -->
+<!-- summary: Шаблон для связи с автором [LiteParse](../docs/01-svyazi/01-executive-summary.md) / research-docs -->
 <!-- tags: контакты, команда -->
 
 ## Профиль

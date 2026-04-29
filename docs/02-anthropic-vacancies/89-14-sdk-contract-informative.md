@@ -43,7 +43,7 @@ class NautilusClient:
 ### 14.3. Return Types
 
 SDK MUST деsериализовать JSON responses в typed structures (dataclasses 
-для Python, interfaces для TypeScript и т.д.). Raw dict return 
+для Python, interfaces для [TypeScript](../docs/05-habr-projects/memory/memnet.md) и т.д.). Raw dict return 
 acceptable только для debugging/experimental версий.
 
 ---

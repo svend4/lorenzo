@@ -160,7 +160,7 @@ large organizations (Star(n)) without protocol changes.
 
 **Похожие документы:**
 - [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.19)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.17)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.17)
 - [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.17)
 
 
@@ -171,6 +171,6 @@ large organizations (Star(n)) without protocol changes.
 **Смотрите также:**
 - [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
 - [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
 

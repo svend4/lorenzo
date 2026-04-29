@@ -18,10 +18,10 @@
 <!-- toc -->
 ## Содержание
 
-- [4. Nautilus Portal as Reference Substrate](#4-nautilus-portal-as-reference-substrate)
+- [4. Nautilus Portal as Reference Substrate](#4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate)
   - [4.1. NPP Components Mapped to Double-Triangle Requirements](#41-npp-components-mapped-to-double-triangle-requirements)
   - [4.2. Required Extensions to NPP for Double-Triangle](#42-required-extensions-to-npp-for-double-triangle)
-  - [4.3. Empirical Evidence from Nautilus Reference Implementation](#43-empirical-evidence-from-nautilus-reference-implementation)
+  - [4.3. Empirical Evidence from Nautilus Reference Implementation](#43-empirical-evidence-from-[nautilus](../docs/05-habr-projects/memory/memnet.md)-reference-implementation)
 
 ---
 
@@ -50,7 +50,7 @@ space. In Double-Triangle, each assistant can read and write
 through the same adapter mechanism used by any participant, 
 providing uniform cross-triangle access.
 
-**PortalEntry structure** (NPP) = unified unit of knowledge. In 
+**[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) structure** (NPP) = unified unit of knowledge. In 
 Double-Triangle, this represents tasks, deliverables, context 
 updates, and notifications uniformly, enabling a single mechanism 
 for all inter-layer communication.
@@ -110,10 +110,10 @@ As of 2026-04:
 
 - 6,782 lines of Python, 13 adapters, 60 tests passing, 0 mypy 
   errors
-- 7 knowledge repositories federated (info1, pro2, meta, data2, 
+- 7 knowledge repositories federated (info1, [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), meta, data2, 
   data7, infosystems, ai_agents)
 - 5 extended adapters enabling federation of external sources 
-  (Obsidian vaults, arXiv papers, GitHub-topic repos, JSONL files, 
+  (Obsidian vaults, arXiv papers, [GitHub](../docs/01-svyazi/03-component-catalog.md)-topic repos, JSONL files, 
   self-declaring repos via AutoAdapter)
 - Zero external dependencies (Python stdlib only)
 - Full REST API, MCP wrapper, OpenAPI specification, Docker 

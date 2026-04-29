@@ -9,7 +9,7 @@
 
 ## Native Format
 
-**Расширение:** `.info1`
+**Расширение:** `.[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`
 
 **Структура файла:** [? уточнить — Markdown с YAML frontmatter, чистый JSON, 
 or something custom?]

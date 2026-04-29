@@ -13,7 +13,7 @@
 <!-- toc-auto -->
 ## Contents
 
-- [2. Что Cowork обеспечивает, что InGit не нужно строить](#2-что-cowork-обеспечивает-что-ingit-не-нужно-строить)
+- [2. Что Cowork обеспечивает, что InGit не нужно строить](#2-что-cowork-обеспечивает-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-не-нужно-строить)
   - [2.1. Агентское выполнение задач](#21-агентское-выполнение-задач)
   - [2.2. Постоянная Память Между Сессиями](#22-постоянная-память-между-сессиями)
   - [2.3. UI для Работы со Знаниями](#23-ui-для-работы-со-знаниями)
@@ -21,7 +21,7 @@
   - [2.5. Способность Использования Компьютера](#25-способность-использования-компьютера)
   - [2.6. Запланированные Повторяющиеся Задачи](#26-запланированные-повторяющиеся-задачи)
   - [2.7. Кросс-Платформенная Доступность](#27-кросс-платформенная-доступность)
-  - [2.8. Что это удаляет из дорожной карты InGit](#28-что-это-удаляет-из-дорожной-карты-ingit)
+  - [2.8. Что это удаляет из дорожной карты InGit](#28-что-это-удаляет-из-дорожной-карты-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md))
 
 
 <!-- summary -->
@@ -88,7 +88,7 @@ Desktop GUI с Electron + React. С Cowork как
 ### 2.4. Экосистема Коннекторов
 
 Cowork интегрируется с Gmail, Drive, Slack,
-GitHub, Notion и многими другими. Через MCP
+[GitHub](../docs/01-svyazi/03-component-catalog.md), Notion и многими другими. Через MCP
 могут быть добавлены пользовательские
 коннекторы.
 
@@ -166,9 +166,9 @@ Cowork работает на macOS и Windows (Linux,
 ---
 
 **Похожие документы:**
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.15)
+- [332-6-уточнённый-объём-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.15)
 - [327-1-открытие-cowork-и-почему-это-меняет-всё](docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.12)
-- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.12)
+- [329-3-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -176,8 +176,8 @@ Cowork работает на macOS и Windows (Linux,
 ---
 
 **Смотрите также:**
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
+- [332-6-уточнённый-объём-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
 - [327-1-открытие-cowork-и-почему-это-меняет-всё](docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md)
-- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+- [329-3-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
 - [330-4-симбиотическая-архитектура](docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md)
 

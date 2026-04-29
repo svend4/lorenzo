@@ -43,7 +43,7 @@ We now identify five distinct types.
 
 ### 1.1. Type 0 — Personal AI Assistants
 
-**Examples**: ChatGPT, Claude, Cursor, GitHub Copilot, Claude
+**Examples**: ChatGPT, Claude, Cursor, [GitHub](../docs/01-svyazi/03-component-catalog.md) Copilot, Claude
 Code.
 
 **Function**: General-purpose helper with whatever task the

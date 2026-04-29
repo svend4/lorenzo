@@ -125,8 +125,8 @@ _Обновлено: 2026-04-29_
   Уже есть движение в эту сторону — например, ARC Prize 2024 от Chollet's lab, Frontier Math prize от Terence Tao, Polymat  
   `01-интегральный-анализ-профиля-svend4.md`
 
-- 📌 **2024** · _Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME_  
-  Это похоже на tree-structured routing (как в Mixture-of-Depths от Google DeepMind 2024, или Switch Transformer от Google  
+- 📌 **2024** · _Наутилус A: [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) + meta — YiJing-Transformer / NautilusMoME_  
+  Это похоже на tree-structured routing (как в Mixture-of-Depths от Google [DeepMind](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) 2024, или Switch Transformer от Google  
   `01-интегральный-анализ-профиля-svend4.md`
 
 - 📌 **2024** · _Где это стоит среди существующих систем_  
@@ -239,7 +239,7 @@ _...ещё 3 упоминаний в 2024_
   `00-intro.md`
 
 - 📌 **2025-12** · _Критически важный факт, который меняет интерпретацию_  
-  Хронологически профиль выглядит так: в конце декабря 2025 вы решили вывести из ChatGPT-архивов сырые концепции на GitHub  
+  Хронологически профиль выглядит так: в конце декабря 2025 вы решили вывести из ChatGPT-архивов сырые концепции на [GitHub](../docs/01-svyazi/03-component-catalog.md)  
   `00-intro.md`
 
 - 📌 **2025-12** · _History_  
@@ -284,11 +284,11 @@ _...ещё 3 упоминаний в 2025_
   `TABLES.md`
 
 - 🔔 **2026-03** · _Честный reality check_  
-  Публикация data70 на GitHub 27 марта 2026 — сигнал изменения этого паттерна, попытка зафиксировать корпус снаружи.  
+  Публикация data70 на [GitHub](../docs/01-svyazi/03-component-catalog.md) 27 марта 2026 — сигнал изменения этого паттерна, попытка зафиксировать корпус снаружи.  
   `00-intro.md`
 
 - 🔔 **2026-03** · _Финальный список potential collaborators_  
-  OpenClaw foundation (after Steinberger transition) — independent foundation governance Самое важное наблюдение из этого   
+  [OpenClaw](../docs/05-habr-projects/memory/memnet.md) foundation (after Steinberger transition) — independent foundation governance Самое важное наблюдение из этого   
   `341-приложение-c-образец-спецификаций-инструментов-ing.md`
 
 - 🔔 **2026-03** · _Версия (201)_  
@@ -305,7 +305,7 @@ _...ещё 3 упоминаний в 2025_
 
 - 🔔 **2026-04-01** · _4.3. Empirical Evidence from Nautilus Reference Implementation_  
   As of 2026-04: - 6,782 lines of Python, 13 adapters, 60 tests passing, 0 mypy errors - 7 knowledge repositories federate  
-  `141-4-nautilus-portal-as-reference-substrate.md`
+  `141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate.md`
 
 - 🔔 **2026-04-01**  
   AI-Coordinated Infrastructure for Distributed Expert Contribution > Editorial collaboration: Claude (intellectual develo  
@@ -336,7 +336,7 @@ _...ещё 3 упоминаний в 2025_
   `64-for-the-curious-philosophy.md`
 
 - 🔔 **2026-04-01** · _Содержание_  
-  Claude - 339-приложение-a-дерево-решений-для-принимающих-ingit.md(339-приложение-a-дерево-решений-для-принимающих-ingit.  
+  Claude - 339-приложение-a-дерево-решений-для-принимающих-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md).md(339-приложение-a-дерево-решений-для-принимающих-ingit.  
   `README.md`
 
 _...ещё 208 упоминаний в 2026_

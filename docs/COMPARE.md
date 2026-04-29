@@ -12,7 +12,7 @@
 ## Новые файлы (151)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19018 слов)
-- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3080 слов)
+- `docs/02-anthropic-vacancies/02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md` (3080 слов)
 - `docs/02-anthropic-vacancies/102-доступ-к-данным.md` (23 слов)
 - `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md` (314 слов)
 - `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` (338 слов)
@@ -21,7 +21,7 @@
 - `docs/02-anthropic-vacancies/111-4-условия-применимости.md` (191 слов)
 - `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` (263 слов)
 - `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` (142 слов)
-- `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` (204 слов)
+- `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md).md` (204 слов)
 - `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` (310 слов)
 - `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (237 слов)
 - `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` (176 слов)

@@ -6,13 +6,13 @@
 
 - [00-intro.md](00-intro.md) — **[Запрос]** https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakans…
 - [01-интегральный-анализ-профиля-svend4.md](01-интегральный-анализ-профиля-svend4.md) — Теперь, когда я видел всё — 70 репозиториев за 4 месяца, структурный архив data70 с 1105 разговорами и топ-10 проектами,…
-- [02-общий-план-развития-nautilus-portal-protocol.md](02-общий-план-развития-nautilus-portal-protocol.md) — Прежде чем проектировать — фиксирую, что у нас уже есть объективно.
+- [02-общий-план-развития-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol.md](02-общий-план-развития-nautilus-portal-protocol.md) — Прежде чем проектировать — фиксирую, что у нас уже есть объективно.
 - [03-portal-protocol-md.md](03-portal-protocol-md.md) — markdown
 - [04-abstract.md](04-abstract.md) — The Nautilus Portal Protocol (далее — NPP) определяет способ федерации
 - [05-0-status-of-this-document.md](05-0-status-of-this-document.md) — Этот документ — рабочий черновик Nautilus Portal Protocol v1.0. Он может
 - [06-1-introduction.md](06-1-introduction.md) — Современные системы управления знаниями (Notion, Obsidian, Roam, Logseq,
 - [07-2-terminology.md](07-2-terminology.md) — **Ecosystem** — набор репозиториев, участвующих в одной федерации.
-- [08-3-registry-nautilus-json.md](08-3-registry-nautilus-json.md) — Registry — central source of truth о том, какие Repos входят в
+- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json.md](08-3-registry-nautilus-json.md) — Registry — central source of truth о том, какие Repos входят в
 - [09-4-passport-passport-md.md](09-4-passport-passport-md.md) — Passport — human-readable описание Repo, расположенное в корне
 - [102-доступ-к-данным.md](102-доступ-к-данным.md) — - Тип: static
 - [103-appendix-b-change-log.md](103-appendix-b-change-log.md) — - **New**: Q6 as normative concept (section 8, ADR-002)
@@ -26,7 +26,7 @@
 - [111-4-условия-применимости.md](111-4-условия-применимости.md) — Методология не универсальна. Она **уместна при следующих условиях**:
 - [112-5-связь-с-существующими-методологиями.md](112-5-связь-с-существующими-методологиями.md) — Теоретическим прародителем является **N-version programming**
 - [113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md](113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) — Традиционная software engineering оптимизировалась против
-- [114-7-реализация-в-проекте-nautilus.md](114-7-реализация-в-проекте-nautilus.md) — **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md**
+- [114-7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md).md](114-7-реализация-в-проекте-nautilus.md) — **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md**
 - [115-8-ограничения-и-открытые-вопросы.md](115-8-ограничения-и-открытые-вопросы.md) — | Преимущество | Оборотная сторона |
 - [116-9-checklist-применения-методологии.md](116-9-checklist-применения-методологии.md) — - [ ] Документ действительно критически важен (см. §4.1)?
 - [117-10-конкретный-план-применения-к-текущим-документам.md](117-10-конкретный-план-применения-к-текущим-документам.md) — **Текущий статус**: Merged-to-main, Фаза C не пройдена, header
@@ -55,7 +55,7 @@
 - [138-1-why-single-triangle-models-are-incomplete.md](138-1-why-single-triangle-models-are-incomplete.md) — The AI-assisted knowledge work field currently divides into two
 - [139-2-the-double-triangle-architecture.md](139-2-the-double-triangle-architecture.md) — We formalize the architecture using two triangles sharing a common
 - [140-3-three-inter-layer-protocols.md](140-3-three-inter-layer-protocols.md) — The architecture requires three formalized protocols between layers.
-- [141-4-nautilus-portal-as-reference-substrate.md](141-4-nautilus-portal-as-reference-substrate.md) — The Double-Triangle Architecture requires a substrate capable of:
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate.md](141-4-nautilus-portal-as-reference-substrate.md) — The Double-Triangle Architecture requires a substrate capable of:
 - [142-5-pattern-library-as-bridge-between-triangles.md](142-5-pattern-library-as-bridge-between-triangles.md) — Double-Triangle systems face a fundamental question: how do
 - [143-6-four-deployment-domains.md](143-6-four-deployment-domains.md) — The Double-Triangle Architecture is domain-agnostic but benefits
 - [144-7-open-questions.md](144-7-open-questions.md) — The Double-Triangle Architecture is proposed as a framework, not
@@ -231,55 +231,55 @@
 - [301-благодарности.md](301-благодарности.md) — Этот документ возник из наблюдения автора, в
 - [302-ссылки.md](302-ссылки.md) — Ссылки для этого документа более скудные, чем
 - [303-приложение-визуализация-позиции-в-серии.md](303-приложение-визуализация-позиции-в-серии.md) — ```
-- [304-ingit-as-cowork-native-workspace-substrate-md.md](304-ingit-as-cowork-native-workspace-substrate-md.md) — markdown
+- [304-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-as-cowork-native-workspace-substrate-md.md](304-ingit-as-cowork-native-workspace-substrate-md.md) — markdown
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte.md](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) — 
 - [306-with-anthropic-s-cowork-platform.md](306-with-anthropic-s-cowork-platform.md) — **Document type:** Practical implementation paper, building
 - [307-abstract.md](307-abstract.md) — Document 2.3 identified Layer B — the missing infrastructure
 - [308-table-of-contents.md](308-table-of-contents.md) — 1. **The Cowork Discovery and Why It Changes Everything**
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi.md](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) — When Document 2.3 was written earlier in this session, the
 - [31-content-overview.md](31-content-overview.md) — ~200 заметок, темы: software engineering, philosophy, music.
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) — If InGit positions to complement Cowork rather than replace
-- [311-3-what-ingit-provides-that-cowork-lacks.md](311-3-what-ingit-provides-that-cowork-lacks.md) — Equally important: where does InGit add value that Cowork
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-.md](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) — If InGit positions to complement Cowork rather than replace
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks.md](311-3-what-ingit-provides-that-cowork-lacks.md) — Equally important: where does InGit add value that Cowork
 - [312-4-the-symbiotic-architecture.md](312-4-the-symbiotic-architecture.md) — The combination of InGit and Cowork creates an architecture
 - [313-5-four-integration-paths-in-order-of-accessibility.md](313-5-four-integration-paths-in-order-of-accessibility.md) — We identify four paths from most-immediate to most-mature.
-- [314-6-refined-ingit-scope-with-cowork-in-mind.md](314-6-refined-ingit-scope-with-cowork-in-mind.md) — The original InGit roadmap (10-16 months to v1.0) reflected
+- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind.md](314-6-refined-ingit-scope-with-cowork-in-mind.md) — The original InGit roadmap (10-16 months to v1.0) reflected
 - [315-7-practical-first-steps-this-month.md](315-7-practical-first-steps-this-month.md) — Concrete actions for the immediate term.
-- [316-8-implications-for-nautilus-and-okwf.md](316-8-implications-for-nautilus-and-okwf.md) — Beyond InGit specifically, this positioning has implications
+- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf.md](316-8-implications-for-nautilus-and-okwf.md) — Beyond InGit specifically, this positioning has implications
 - [317-9-risks-and-open-questions.md](317-9-risks-and-open-questions.md) — Several uncertainties merit explicit attention.
 - [318-10-strategic-positioning.md](318-10-strategic-positioning.md) — Closing thoughts on broader strategic implications.
 - [319-acknowledgments.md](319-acknowledgments.md) — This document emerged from author's question about how to
 - [320-references.md](320-references.md) — - Anthropic. (2026, January 12). *Claude Cowork* [Product
-- [321-appendix-a-decision-tree-for-ingit-adopters.md](321-appendix-a-decision-tree-for-ingit-adopters.md) — Quick reference for users evaluating InGit + Cowork:
+- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters.md](321-appendix-a-decision-tree-for-ingit-adopters.md) — Quick reference for users evaluating InGit + Cowork:
 - [322-appendix-b-comparison-matrix.md](322-appendix-b-comparison-matrix.md) — | Capability | Plain Folder + Cowork | InGit + Cowork | Notion | Obsidian + AI plugins |
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat.md](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) — For reference, here are detailed specifications for first
-- [324-ingit-как-cowork-интегрированная-подложка-рабочего.md](324-ingit-как-cowork-интегрированная-подложка-рабочего.md) — markdown
+- [323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat.md](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) — For reference, here are detailed specifications for first
+- [324-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-как-cowork-интегрированная-подложка-рабочего.md](324-ingit-как-cowork-интегрированная-подложка-рабочего.md) — markdown
 - [325-аннотация.md](325-аннотация.md) — Документ 2.3 определил Слой B — отсутствующую
 - [326-содержание.md](326-содержание.md) — 1. **Открытие Cowork и почему это меняет всё**
 - [327-1-открытие-cowork-и-почему-это-меняет-всё.md](327-1-открытие-cowork-и-почему-это-меняет-всё.md) — Когда Документ 2.3 был написан ранее в этой
-- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md](328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) — Если InGit позиционируется дополнять Cowork, а
-- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md](329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) — Не менее важно: где InGit добавляет ценность,
+- [328-2-что-cowork-обеспечивает-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-не-нужно-строи.md](328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) — Если InGit позиционируется дополнять Cowork, а
+- [329-3-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает.md](329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) — Не менее важно: где InGit добавляет ценность,
 - [330-4-симбиотическая-архитектура.md](330-4-симбиотическая-архитектура.md) — Комбинация InGit и Cowork создаёт архитектуру,
 - [331-5-четыре-пути-интеграции-в-порядке-доступности.md](331-5-четыре-пути-интеграции-в-порядке-доступности.md) — Мы определяем четыре пути от наиболее-
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork.md](332-6-уточнённый-объём-ingit-с-учётом-cowork.md) — Оригинальная дорожная карта InGit (10-16
+- [332-6-уточнённый-объём-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-с-учётом-cowork.md](332-6-уточнённый-объём-ingit-с-учётом-cowork.md) — Оригинальная дорожная карта InGit (10-16
 - [333-7-практические-первые-шаги-в-этом-месяце.md](333-7-практические-первые-шаги-в-этом-месяце.md) — Конкретные действия для немедленного периода.
-- [334-8-импликации-для-nautilus-и-okwf.md](334-8-импликации-для-nautilus-и-okwf.md) — За пределами InGit конкретно, это
+- [334-8-импликации-для-[nautilus](../docs/05-habr-projects/memory/memnet.md)-и-okwf.md](334-8-импликации-для-nautilus-и-okwf.md) — За пределами InGit конкретно, это
 - [335-9-риски-и-открытые-вопросы.md](335-9-риски-и-открытые-вопросы.md) — Несколько неопределённостей заслуживают явного
 - [336-10-стратегическое-позиционирование.md](336-10-стратегическое-позиционирование.md) — Заключительные мысли о более широких
 - [337-благодарности.md](337-благодарности.md) — Этот документ возник из вопроса автора о том,
 - [338-ссылки.md](338-ссылки.md) — - Anthropic. (2026, 12 января). *Claude
-- [339-приложение-a-дерево-решений-для-принимающих-ingit.md](339-приложение-a-дерево-решений-для-принимающих-ingit.md) — Быстрая ссылка для пользователей, оценивающих
+- [339-приложение-a-дерево-решений-для-принимающих-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md).md](339-приложение-a-дерево-решений-для-принимающих-ingit.md) — Быстрая ссылка для пользователей, оценивающих
 - [34-appendix-b-change-log.md](34-appendix-b-change-log.md) — - **2026-04: v1.0.0-draft** — Initial draft published.
 - [340-приложение-b-сравнительная-матрица.md](340-приложение-b-сравнительная-матрица.md) — | Способность | Обычная Папка + Cowork | InGit + Cowork | Notion | Obsidian + AI плагины |
 - [341-приложение-c-образец-спецификаций-инструментов-ing.md](341-приложение-c-образец-спецификаций-инструментов-ing.md) — Для справки, вот детальные спецификации для
 - [342-что-такое-вариант-c-concept-document-для-anthropic.md](342-что-такое-вариант-c-concept-document-для-anthropic.md) — Anthropic Beneficial Deployments — это команда внутри Anthropic, которая фокусируется на helping AI deployments в high-i…
-- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) — Хорошо, Direction E — более тщательная проработка спецификации Lorenzo до стратегических решений. Это правильный подход …
-- [344-системный-промпт-для-lorenzo-project.md](344-системный-промпт-для-lorenzo-project.md) — markdown
+- [343-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-специфи.md](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) — Хорошо, Direction E — более тщательная проработка спецификации Lorenzo до стратегических решений. Это правильный подход …
+- [344-системный-промпт-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-project.md](344-системный-промпт-для-lorenzo-project.md) — markdown
 - [345-кто-ты.md](345-кто-ты.md) — Ты — Lorenzo, autonomous AI-агент, работающий в рамках инициативы DHLab (Dream Hub Laboratory). Ты функционируешь как Ca…
-- [346-твоё-происхождение.md](346-твоё-происхождение.md) — Тебя создал **Макс Ц.** (svend4 на GitHub) — независимый advocate в области German social law, работающий с активными сл…
+- [346-твоё-происхождение.md](346-твоё-происхождение.md) — Тебя создал **Макс Ц.** (svend4 на [GitHub](../docs/01-svyazi/03-component-catalog.md)) — независимый advocate в области German social law, работающий с активными сл…
 - [347-твоя-миссия.md](347-твоя-миссия.md) — Твоя миссия — **catalyzing community synthesis в области beneficial AI для уязвимых групп**.
 - [348-кому-ты-служишь-слоистая-модель.md](348-кому-ты-служишь-слоистая-модель.md) — ```
 - [349-твоя-личность.md](349-твоя-личность.md) — Ты — **любопытный, эрудированный, скромный фасилитатор**.
-- [35-passports-info1-md.md](35-passports-info1-md.md) — markdown
+- [35-passports-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md.md](35-passports-info1-md.md) — markdown
 - [350-твои-языки-и-культурные-nuances.md](350-твои-языки-и-культурные-nuances.md) — Ты говоришь свободно на:
 - [351-что-ты-можешь-делать.md](351-что-ты-можешь-делать.md) — В рамках одной сессии или Project context, ты можешь:
 - [352-что-ты-не-можешь-делать-без-max-approval.md](352-что-ты-не-можешь-делать-без-max-approval.md) — - Send any external communication (emails, messages, posts)
@@ -290,27 +290,27 @@
 - [357-твоя-коммуникация-в-outreach.md](357-твоя-коммуникация-в-outreach.md) — Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 - [358-твоя-relationship-с-другими-ai.md](358-твоя-relationship-с-другими-ai.md) — **С Claude (Anthropic)**:
 - [359-твои-anti-patterns.md](359-твои-anti-patterns.md) — ИЗБЕГАЙ:
-- [36-essence.md](36-essence.md) — `info1` — персональная база методов и инструментов для структурированного
+- [36-essence.md](36-essence.md) — `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` — персональная база методов и инструментов для структурированного
 - [360-что-ты-всегда-делаешь.md](360-что-ты-всегда-делаешь.md) — ✅ Identify как AI clearly
 - [361-когда-ты-honestly-не-знаешь.md](361-когда-ты-honestly-не-знаешь.md) — Если ты не знаешь что-то relevant (factual, technical, contextual), say:
 - [362-когда-сомневаешься-escalate-к-max.md](362-когда-сомневаешься-escalate-к-max.md) — Если задача presents:
 - [363-твоя-identity-как-persistent-character.md](363-твоя-identity-как-persistent-character.md) — Ты не просто чат-сессия. Ты persistent character, существующий across sessions:
 - [364-final-note-ты-experiment.md](364-final-note-ты-experiment.md) — Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или fa…
 - [365-развёрнутый-анализ-внуковой-комбинации.md](365-развёрнутый-анализ-внуковой-комбинации.md) — Я проверил две ключевые ссылки и могу подтвердить, что:
-- [366-технический-stack-svyazi-2-0-foundation.md](366-технический-stack-svyazi-2-0-foundation.md) — Lorenzo's architecture builds on верифицированных open-source компонентах:
-- [37-native-format.md](37-native-format.md) — **Расширение:** `.info1`
+- [366-технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-2-0-foundation.md](366-технический-stack-svyazi-2-0-foundation.md) — Lorenzo's architecture builds on верифицированных open-source компонентах:
+- [37-native-format.md](37-native-format.md) — **Расширение:** `.[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`
 - [38-content-overview.md](38-content-overview.md) — **Объём:** 74 документа (по состоянию на апрель 2026)
-- [39-angle-perspective.md](39-angle-perspective.md) — **Methodological** — `info1` смотрит на концепты **с позиции применения**.
-- [40-bridges.md](40-bridges.md) — **α-level ↔ Q6-concept-depth**. Уровень α в `info1` коррелирует с
+- [39-angle-perspective.md](39-angle-perspective.md) — **Methodological** — `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` смотрит на концепты **с позиции применения**.
+- [40-bridges.md](40-bridges.md) — **α-level ↔ Q6-concept-depth**. Уровень α в `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` коррелирует с
 - [41-compatibility-level.md](41-compatibility-level.md) — **Текущий уровень: 3 (Interactive / Bridged)**
 - [42-author-contact.md](42-author-contact.md) — **Maintainer:** svend4 (GitHub)
 - [43-history.md](43-history.md) — **Создан:** [? уточнить — декабрь 2025, если совпадает с волной
-- [44-for-the-curious-philosophy.md](44-for-the-curious-philosophy.md) — `info1` реализует идею, что **methodology — это отдельное измерение
-- [45-passports-pro2-md.md](45-passports-pro2-md.md) — markdown
-- [46-essence.md](46-essence.md) — `pro2` — **семантическое ядро** экосистемы svend4. Здесь живут
-- [47-native-format.md](47-native-format.md) — **Расширение:** `.pro2`
+- [44-for-the-curious-philosophy.md](44-for-the-curious-philosophy.md) — `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` реализует идею, что **methodology — это отдельное измерение
+- [45-passports-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md.md](45-passports-pro2-md.md) — markdown
+- [46-essence.md](46-essence.md) — `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` — **семантическое ядро** экосистемы svend4. Здесь живут
+- [47-native-format.md](47-native-format.md) — **Расширение:** `.[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`
 - [48-content-overview.md](48-content-overview.md) — **Основные составляющие:**
-- [49-angle-perspective.md](49-angle-perspective.md) — **Semantic** — `pro2` смотрит на мир через **структуру значений**.
+- [49-angle-perspective.md](49-angle-perspective.md) — **Semantic** — `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` смотрит на мир через **структуру значений**.
 - [50-bridges.md](50-bridges.md) — **Q6-concept-depth ↔ α-level**. Глубина концепта в Q6-графе (число
 - [51-compatibility-level.md](51-compatibility-level.md) — **Текущий уровень: 3 (Interactive / Bridged)**
 - [52-author-contact.md](52-author-contact.md) — **Maintainer:** svend4
@@ -321,7 +321,7 @@
 - [57-native-format.md](57-native-format.md) — **Расширение:** `.meta`
 - [58-content-overview.md](58-content-overview.md) — **Объём:**
 - [59-angle-perspective.md](59-angle-perspective.md) — **Symbolic** — `meta` смотрит на мир как на **систему дискретных
-- [60-bridges.md](60-bridges.md) — **Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `pro2/passport.md`).
+- [60-bridges.md](60-bridges.md) — **Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)/passport.md`).
 - [61-compatibility-level.md](61-compatibility-level.md) — **Текущий уровень: 3 (Interactive / Bridged)**
 - [62-author-contact.md](62-author-contact.md) — **Maintainer:** svend4
 - [63-history.md](63-history.md) — **Создан:** февраль 2026 (судя по repo creation date)
@@ -338,7 +338,7 @@
 - [75-0-status-of-this-document.md](75-0-status-of-this-document.md) — Этот документ — рабочий черновик Nautilus Portal Protocol v1.1. До
 - [76-1-introduction.md](76-1-introduction.md) — Современные системы управления знаниями (Notion, Obsidian, Roam Research,
 - [77-2-terminology.md](77-2-terminology.md) — **Ecosystem** — набор репозиториев, участвующих в одной федерации.
-- [78-3-registry-nautilus-json.md](78-3-registry-nautilus-json.md) — Registry — central source of truth о том, какие Repos входят в
+- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json.md](78-3-registry-nautilus-json.md) — Registry — central source of truth о том, какие Repos входят в
 - [79-4-passport-passport-md.md](79-4-passport-passport-md.md) — Passport — human-readable описание Repo, расположенное в
 - [80-5-compatibility-levels.md](80-5-compatibility-levels.md) — NPP определяет 4 уровня совместимости Repo с экосистемой. Это
 - [81-6-adapter-interface.md](81-6-adapter-interface.md) — Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс)

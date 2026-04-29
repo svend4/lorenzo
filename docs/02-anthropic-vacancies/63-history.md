@@ -23,7 +23,7 @@
 **Направление развития:**
 - Формальная математическая публикация mapping 64 ↔ 256
 - Интерактивные визуализации CA-динамики для каждой гексаграммы
-- Возможная публикация paper совместно с `pro2`: 
+- Возможная публикация paper совместно с `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`: 
   «64 as Projection of 256: Hexagrams as Symmetry Classes of 
   Elementary Cellular Automata»
 

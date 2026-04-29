@@ -428,20 +428,20 @@
 
 ### 🚀 Быстрый старт (30 минут)
 
-1. [Executive Summary](docs/01-svyazi/01-executive-summary.md)
-2. [Ансамбли проектов](docs/01-svyazi/04-ensembles-overview.md)
-3. [MVP Planning](docs/01-svyazi/07-mvp-planning.md)
+1. [Executive Summary](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md)
+2. [Ансамбли проектов](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md)
+3. [MVP Planning](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md)
 
 ### 🏗️ Архитектура (2 часа)
 
-1. [Component Catalog](docs/01-svyazi/03-component-catalog.md)
-2. [Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md)
-3. [Integration Contracts](docs/01-svyazi/11-integration-contracts.md)
-4. [Security & Privacy](docs/01-svyazi/06-security-privacy.md)
+1. [Component Catalog](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md)
+2. [Architectural Gaps](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md)
+3. [Integration Contracts](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md)
+4. [Security & Privacy](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/06-security-privacy.md)
 
 ### 🔬 Полное исследование (1 день)
 
-1. Весь раздел `01-svyazi/` по порядку
+1. Весь раздел `01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/` по порядку
 2. `05-habr-projects/` — отдельные проекты
 3. `04-ai-collaborations/` — ансамбли
 4. `03-technology-combinations/` — комбинации

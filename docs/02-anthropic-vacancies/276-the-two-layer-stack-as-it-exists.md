@@ -33,7 +33,7 @@ products from other providers). Excellent for creative dialogue,
 exploration, generating content. The natural creative space. 
 Linear by structure.
 
-**Layer C — Code repositories.** GitHub, GitLab, Codeberg. 
+**Layer C — Code repositories.** [GitHub](../docs/01-svyazi/03-component-catalog.md), GitLab, Codeberg. 
 Excellent for storing structured artifacts, version control, 
 collaboration around technical artifacts. Branching, merging, 
 issues, discussions. Code-oriented by design.

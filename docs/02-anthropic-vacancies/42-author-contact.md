@@ -19,7 +19,7 @@
 **Лицензия контента:** [? уточнить — CC BY-SA? CC BY 4.0? proprietary?]
 
 **Лицензия адаптера:** MIT (следуя reference implementation 
-`nautilus-portal`)
+`[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal`)
 
 ---
 
