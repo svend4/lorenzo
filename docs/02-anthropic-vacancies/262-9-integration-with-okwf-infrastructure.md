@@ -140,3 +140,13 @@ of how skilled practice works and produces infrastructure with
 broader applicability.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.21)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.18)
+

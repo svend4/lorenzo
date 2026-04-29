@@ -44,3 +44,13 @@ For most foundation-funded deployments serving professional
 populations, Type 1 is the right starting point.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [226-appendix-a-comparative-table-five-agent-types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.18)
+- [269-appendix-a-the-six-type-taxonomy-updated](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.13)
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.13)
+

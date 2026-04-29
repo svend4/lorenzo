@@ -94,3 +94,12 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 - Docling (IBM Research) - structured DoclingDocument from PDF/DOCX
 #### Дети:
 1. German
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.14)
+- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.11)
+

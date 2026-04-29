@@ -27,3 +27,13 @@ InGit + Cowork's distinct profile: maximum structure with full
 local control, free substrate plus Cowork subscription.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.12)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.10)
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.10)
+

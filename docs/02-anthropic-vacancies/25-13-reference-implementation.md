@@ -22,3 +22,13 @@ Reference НЕ является нормативной. Альтернативн
 - Возвращают QueryResult per раздел 10
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.36)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md) (сходство 0.21)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.19)
+

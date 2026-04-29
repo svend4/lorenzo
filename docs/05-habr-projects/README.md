@@ -11,3 +11,13 @@
 
 - [knowledge/](knowledge/) — Системы знаний
 - [memory/](memory/) — Системы памяти
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md) (сходство 0.18)
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md) (сходство 0.16)
+- [README](docs/05-habr-projects/knowledge/README.md) (сходство 0.10)
+

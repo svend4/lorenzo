@@ -100,3 +100,13 @@ target-репо вместо локального модуля-адаптера.
 Onboarding Path C (self-declaring repo).
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.52)
+- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.16)
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.15)
+

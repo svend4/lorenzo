@@ -29,3 +29,13 @@
 | Memory Write Policy | `write_type`, `promotion_rule`, `review_required`, `decay_policy` | Развести факт, эпизод и гипотезу | Yodoca, NGT Memory, agent-memory-mcp citeturn21view0turn22view4turn20view16 |
 | Skill Policy | `tool_class`, `approval_mode`, `path_scope`, `network_scope`, `output_target` | Снизить blast radius и упростить audit | Tool Search, SENTINEL, AI Factory practices citeturn39view1turn20view10turn29search6 |
 | Review Record | `reviewer_role`, `decision`, `reason`, `evidence_refs`, `follow_up` | Не путать machine suggestion с accepted truth | mclaude, AI Factory, Sequential citeturn20view2turn20view3turn20view11 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 1.00)
+- [366-технический-stack-svyazi-2-0-foundation](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md) (сходство 0.19)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.16)
+

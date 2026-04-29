@@ -53,3 +53,13 @@
 - svend4 (2026). *Nautilus Portal Protocol v1.1*.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [204-ссылки](docs/02-anthropic-vacancies/204-ссылки.md) (сходство 0.24)
+- [225-references](docs/02-anthropic-vacancies/225-references.md) (сходство 0.22)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.17)
+

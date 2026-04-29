@@ -144,3 +144,13 @@ the point is to give the principal insight into their own
 practice.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
+- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.14)
+- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) (сходство 0.13)
+

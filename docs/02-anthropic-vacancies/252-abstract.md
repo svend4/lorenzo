@@ -45,3 +45,13 @@ this category changes the practical strategy for AI deployment
 in skilled work.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.25)
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.24)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
+

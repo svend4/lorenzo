@@ -112,3 +112,13 @@ lose the social and negotiation skills they currently have.
   for inclusion of those who never had the skills
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.14)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.14)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.14)
+

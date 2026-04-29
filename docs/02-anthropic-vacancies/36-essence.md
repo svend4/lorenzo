@@ -22,3 +22,13 @@
 (что это значит) и `meta` (как это символически устроено).
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [46-essence](docs/02-anthropic-vacancies/46-essence.md) (сходство 0.18)
+- [56-essence](docs/02-anthropic-vacancies/56-essence.md) (сходство 0.12)
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md) (сходство 0.12)
+

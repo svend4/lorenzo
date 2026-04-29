@@ -38,3 +38,11 @@ Implementation MUST различать public и private registries и не
 - Не включать private Repos в MCP responses по умолчанию
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.55)
+

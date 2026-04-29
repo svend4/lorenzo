@@ -28,3 +28,13 @@
 CA-правил, через классы Вольфрама, через аттракторы динамики?]
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md) (сходство 0.16)
+- [46-essence](docs/02-anthropic-vacancies/46-essence.md) (сходство 0.14)
+- [36-essence](docs/02-anthropic-vacancies/36-essence.md) (сходство 0.12)
+

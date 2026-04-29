@@ -20,3 +20,13 @@
 - Simulation code: [? MIT для reproducibility]
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md) (сходство 0.37)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md) (сходство 0.37)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.15)
+

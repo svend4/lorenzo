@@ -32,3 +32,13 @@
 training logs, benchmarks]
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [53-history](docs/02-anthropic-vacancies/53-history.md) (сходство 0.18)
+- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md) (сходство 0.14)
+- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.10)
+

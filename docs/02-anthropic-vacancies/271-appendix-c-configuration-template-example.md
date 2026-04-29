@@ -66,3 +66,13 @@ develops, encouraging exploration beyond the initial
 configuration.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md) (сходство 0.11)
+- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.10)
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.10)
+

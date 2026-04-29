@@ -43,3 +43,13 @@ how professions function, and how human dignity is preserved
 when AI augments human practice.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) (сходство 0.26)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.25)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.24)
+

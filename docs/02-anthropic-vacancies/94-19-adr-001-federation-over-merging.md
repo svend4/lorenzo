@@ -43,3 +43,12 @@
 - Schema-less dump: теряется семантика angles
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) (сходство 0.89)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.11)
+

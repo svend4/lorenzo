@@ -29,3 +29,13 @@ The author retained editorial authority. All claims and
 errors are author's responsibility.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.20)
+- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md) (сходство 0.17)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.15)
+

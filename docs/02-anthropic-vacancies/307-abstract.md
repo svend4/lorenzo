@@ -41,3 +41,13 @@ needs** — substrate for sustained, organized, recoverable,
 shareable AI-collaborative work.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.19)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
+- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.16)
+

@@ -23,3 +23,13 @@ markdown
 **Date:** 2026-04  
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.47)
+- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.29)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md) (сходство 0.29)
+

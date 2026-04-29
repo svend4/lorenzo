@@ -46,3 +46,13 @@ and governance from researchers, practitioners, social
 service organizations, civil society, and policymakers.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md) (сходство 0.16)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.15)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.14)
+

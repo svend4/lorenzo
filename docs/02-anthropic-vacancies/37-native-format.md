@@ -33,3 +33,11 @@ or something custom?]
 - *Вариант D*: другое (описать)
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md) (сходство 0.12)
+

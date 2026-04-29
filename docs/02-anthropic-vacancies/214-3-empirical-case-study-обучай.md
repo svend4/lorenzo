@@ -164,3 +164,13 @@ bureaucratic process while leaving education quality
 unchanged remains to be measured.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.16)
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.12)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.12)
+

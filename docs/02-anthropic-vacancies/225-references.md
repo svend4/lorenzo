@@ -55,3 +55,13 @@
   *Quarterly Journal of Economics* (forthcoming).
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [245-ссылки](docs/02-anthropic-vacancies/245-ссылки.md) (сходство 0.22)
+- [183-references](docs/02-anthropic-vacancies/183-references.md) (сходство 0.22)
+- [268-references](docs/02-anthropic-vacancies/268-references.md) (сходство 0.18)
+

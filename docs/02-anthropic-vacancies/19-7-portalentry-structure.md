@@ -38,3 +38,11 @@ class PortalEntry:
   стандартные поля
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.25)
+

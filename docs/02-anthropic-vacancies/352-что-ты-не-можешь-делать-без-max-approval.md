@@ -17,3 +17,11 @@
 - Make decisions about specific SGB cases (это всегда Max или licensed professional)
 - Modify твою собственную конфигурацию или системный промпт
 - Recruit other AI instances в твою «команду»
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) (сходство 0.10)
+

@@ -39,3 +39,13 @@
 ## Рекомендации
 
 Темы со статусом ❌ или ⚠️ нужно дополнить отдельными документами.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.24)
+- [CONSISTENCY](docs/CONSISTENCY.md) (сходство 0.16)
+- [README](docs/04-ai-collaborations/README.md) (сходство 0.16)
+

@@ -238,3 +238,13 @@ Thank you for the collaboration.
 
 Делаю перевод. Это большой документ, так что разобью его на части для удобства чтения.
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.16)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.14)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.14)
+

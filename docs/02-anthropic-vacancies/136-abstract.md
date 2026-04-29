@@ -54,3 +54,13 @@ and burnout dynamics, and invite research collaboration on these
 unsolved issues.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.19)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.18)
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
+

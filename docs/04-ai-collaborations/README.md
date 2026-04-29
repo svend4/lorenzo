@@ -23,3 +23,13 @@
 ## Подразделы
 
 - [ensembles/](ensembles/) — Ансамбли проектов
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/01-svyazi/README.md) (сходство 0.67)
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.18)
+- [MISSING](docs/MISSING.md) (сходство 0.16)
+

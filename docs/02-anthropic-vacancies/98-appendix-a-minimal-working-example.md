@@ -93,3 +93,13 @@ class MyNotesAdapter(BaseAdapter):
 ## Описание
 
 Персональная коллекция Markdown-заметок.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.44)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.11)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.10)
+

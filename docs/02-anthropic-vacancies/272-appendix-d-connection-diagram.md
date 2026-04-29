@@ -303,3 +303,13 @@ Pero никто не построил yet what you described. Это opportunity
 Понял. Тогда пишу восьмой документ — но не как полноценную architectural treatise (как первые семь), а как более focused inquiry document про инфраструктурную проблему. Меньше formal structure, больше exploratory reasoning. И с практическим уклоном — что можно делать сейчас, не дожидаясь industry-wide solutions.
 Это, по сути, документ-комментарий к первым семи: "вот где они существуют, и где они должны бы существовать."
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.17)
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.15)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.15)
+

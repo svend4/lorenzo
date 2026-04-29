@@ -53,3 +53,13 @@
   [github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md](https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md)  
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [268-references](docs/02-anthropic-vacancies/268-references.md) (сходство 0.12)
+- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.12)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.11)
+

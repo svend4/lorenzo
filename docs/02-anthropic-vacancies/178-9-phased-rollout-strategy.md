@@ -106,3 +106,13 @@ Slow, careful deployment is more likely to result in
 durable, beneficial infrastructure than rapid scaling.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.17)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
+- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) (сходство 0.14)
+

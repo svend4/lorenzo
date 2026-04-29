@@ -19,3 +19,13 @@
   mapping; `translate_to(entry, "info1")` через α-level mapping
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md) (сходство 0.67)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md) (сходство 0.52)
+- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.16)
+

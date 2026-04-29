@@ -17,3 +17,13 @@
 Самая сильная линия синергии выглядит так. Основа — Svyazi‑подобный гибридный пайплайн: LLM извлекает смысл, детерминированный код нормализует, а **CardIndex** фиксирует состояние карточки и версионирование. Поверх этого нужен agent‑readable слой знаний и единый source of truth для разных рантаймов — здесь хорошо ложатся knowledge‑space и AgentFS. Дальше память должна не просто хранить факты, а уметь усиливать слабые сигналы, консолидировать эпизоды и забывать шум — это зона Yodoca, NGT Memory, MemNet и более инженерных систем вроде agent-memory-mcp/Memory OS. Для многоагентной работы уже есть mclaude, AI Factory, AIF Handoff, Rufler и протокол Sequential; для forensic‑режима — research-docs/LiteParse, Legal RAG, Hybrid RAG и Graph RAG; для безопасного и дешёвого исполнения — Tool Search, LiteLLM, Auto AI Router, RLM-Toolkit и SENTINEL. citeturn33view2turn27view0turn21view1turn22view3turn21view4turn20view16turn39view3turn20view2turn20view3turn20view4turn20view11turn20view5turn34view2turn34view3turn39view1turn39view0turn20view18turn20view10
 
 Главный аналитический вывод: **на Хабре пока не видно одного готового проекта, который уже собрал все слои в единое целое, но видно много авторов, каждый из которых почти идеально закрывает один слой будущей системы.** Поэтому реальная ценность исследования — не в списке ссылок, а в правильной сборке ансамблей. Наиболее прагматичный путь — не строить большой новый монолит, а начать с минимального прототипа из пяти компонентов: Svyazi‑подобный import/normalize/CardIndex, AgentFS‑подобное файловое ядро, NGT կամ Yodoca‑подобная память, research-docs/LiteParse‑подобный evidence‑слой и LiteLLM/Auto AI Router+SENTINEL как исполнительный периметр. citeturn41search0turn27view0turn22view4turn21view0turn20view5turn11search2turn39view0turn20view10
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-executive-summary](docs/01-svyazi/01-executive-summary.md) (сходство 0.68)
+- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.15)
+- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md) (сходство 0.15)
+

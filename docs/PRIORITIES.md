@@ -138,3 +138,13 @@
 | `docs/05-habr-projects/memory/memnet.md` | 23.24 |
 | `docs/05-habr-projects/memory/yodoca.md` | 4.71 |
 | `docs/05-habr-projects/memory/ngt-memory.md` | 2.43 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MISSING](docs/MISSING.md) (сходство 0.24)
+- [SEARCH](docs/SEARCH.md) (сходство 0.24)
+- [TAGS](docs/TAGS.md) (сходство 0.24)
+

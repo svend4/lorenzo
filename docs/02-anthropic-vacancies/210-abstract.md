@@ -46,3 +46,13 @@ extension once professionals have integrated AI partners into
 their daily work.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.30)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.18)
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.17)
+

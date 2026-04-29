@@ -26,3 +26,13 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 Формальная MCP-спецификация будет частью NPP v1.2 или v2.0.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md) (сходство 0.18)
+- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md) (сходство 0.14)
+- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) (сходство 0.13)
+

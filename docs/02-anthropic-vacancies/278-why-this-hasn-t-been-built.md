@@ -53,3 +53,13 @@ It is a product challenge. The components needed exist. The
 integration does not.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md) (сходство 0.15)
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.12)
+

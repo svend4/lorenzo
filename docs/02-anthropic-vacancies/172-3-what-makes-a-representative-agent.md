@@ -129,3 +129,13 @@ a key research and design challenge addressed in Sections 6
 and 7.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.20)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.15)
+- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.13)
+

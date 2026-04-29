@@ -147,3 +147,13 @@ The work proceeds when the author chooses. Or it waits.
 Either way, the material exists.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
+- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.16)
+

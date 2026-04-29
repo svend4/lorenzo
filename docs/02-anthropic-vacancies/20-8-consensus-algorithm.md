@@ -59,3 +59,12 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 параметр в query, сохраняя v1.0 как default.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.34)
+- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.10)
+

@@ -43,3 +43,13 @@
 4.1 Self-building legal knowledge graph Агент читает новые решения Sozialgericht:
 - Парсер LLM: извлекает сущности (судья, § закона, истец, ответчик, решение)
 - Graph builder: строит
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md) (сходство 0.12)
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.11)
+- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.11)
+

@@ -527,3 +527,13 @@ Story тверже становится. «Infrastructure для distributed wor
 Хорошо. Пишу отдельный standalone paper — это существенное расширение мысли , и оно действительно заслуживает своего документа, не растворённого в OKWF concept.
 Это пятый и финальный документ сессии. Связан с предыдущими, но имеет самостоятельную ценность.
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.18)
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.18)
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.18)
+

@@ -414,3 +414,13 @@
 | `docs/README.md` |  |  | 47 |
 | `docs/TAGS.md` |  |  | 573 |
 | `docs/TIMELINE.md` |  |  | 3180 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.86)
+- [README](docs/02-anthropic-vacancies/README.md) (сходство 0.31)
+- [TAGS](docs/TAGS.md) (сходство 0.25)
+

@@ -23,3 +23,13 @@
 12. **Call for Collaboration**
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md) (сходство 0.26)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md) (сходство 0.21)
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md) (сходство 0.15)
+

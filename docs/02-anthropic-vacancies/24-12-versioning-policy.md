@@ -35,3 +35,13 @@ implementation MUST поддерживать **минимум текущую maj
    периода (минимум 6 месяцев)
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.63)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.14)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) (сходство 0.13)
+

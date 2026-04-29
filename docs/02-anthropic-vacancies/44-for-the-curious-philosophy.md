@@ -28,3 +28,11 @@ Last updated: 2026-04*
 ```
 ---
 ### Паспорт 2 из 3
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md) (сходство 0.12)
+

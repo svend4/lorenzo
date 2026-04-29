@@ -183,3 +183,13 @@ become standard infrastructure across most skilled professions
 within 5-10 years.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.17)
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.14)
+- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.14)
+

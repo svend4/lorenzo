@@ -20,3 +20,13 @@
 reasoning.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md) (сходство 0.14)
+- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md) (сходство 0.12)
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md) (сходство 0.10)
+

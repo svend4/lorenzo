@@ -65,3 +65,13 @@
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.24)
+- [MISSING](docs/MISSING.md) (сходство 0.16)
+- [TAGS](docs/TAGS.md) (сходство 0.11)
+

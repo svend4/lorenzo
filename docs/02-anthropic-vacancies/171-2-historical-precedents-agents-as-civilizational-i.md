@@ -190,3 +190,13 @@ This is not "AI replacing human agents". This is
 never had it**.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.14)
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.14)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md) (сходство 0.12)
+

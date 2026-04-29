@@ -165,3 +165,13 @@ is coordination of musicians, not playing music. Composite
 agents inherit this distinction.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.18)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.16)
+

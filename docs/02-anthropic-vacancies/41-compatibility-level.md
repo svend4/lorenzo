@@ -18,3 +18,13 @@
   мостов с `pro2` и `meta`
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md) (сходство 0.52)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md) (сходство 0.44)
+- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.17)
+

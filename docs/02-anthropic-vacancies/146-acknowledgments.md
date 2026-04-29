@@ -30,3 +30,13 @@ participated in v1.0 draft. Future drafts will seek external
 review.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.17)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.17)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.17)
+

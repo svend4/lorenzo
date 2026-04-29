@@ -141,3 +141,13 @@ Contact: via GitHub issues at
 [github.com/svend4/nautilus](https://github.com/svend4/nautilus).
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.18)
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.17)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.15)
+

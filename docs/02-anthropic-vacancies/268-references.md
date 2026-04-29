@@ -58,3 +58,13 @@
 - svend4 (2026). *Professional Colleague Agents v1.0*.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.20)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.18)
+- [225-references](docs/02-anthropic-vacancies/225-references.md) (сходство 0.18)
+

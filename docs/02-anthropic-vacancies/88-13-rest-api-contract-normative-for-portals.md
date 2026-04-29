@@ -129,3 +129,12 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 - `503 adapter_timeout` — все adapters timed out
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md) (сходство 0.12)
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.11)
+

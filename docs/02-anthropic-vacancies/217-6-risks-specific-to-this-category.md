@@ -231,3 +231,13 @@ teachers in 7 months illustrates speed at which capture can
 emerge.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.15)
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.14)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.14)
+

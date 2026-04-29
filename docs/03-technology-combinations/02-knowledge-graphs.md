@@ -79,3 +79,12 @@
 - Writer (Claude Opus): пишет код
 - Reviewer 1 (GPT-5.4): проверяет логику
 - Reviewer 2 (DeepSeek-V3.2): проверяет
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.14)
+- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.11)
+

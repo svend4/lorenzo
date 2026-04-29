@@ -62,3 +62,12 @@ NPP **не** пытается:
 применяется трактовка из RFC 2119.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.53)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.12)
+

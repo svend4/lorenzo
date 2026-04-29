@@ -135,3 +135,13 @@ Estimated total addressable contributor pool: 10M+ globally.
 Active participant target in first three years: 5,000-10,000.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.17)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.16)
+- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.16)
+

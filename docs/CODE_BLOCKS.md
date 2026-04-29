@@ -1231,3 +1231,13 @@ _`docs/02-anthropic-vacancies/79-4-passport-passport-md.md` | 9 строк_
 | Адаптер | `adapters/.py` |
 | Уровень совместимости | <0-3> —  |
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TAGS](docs/TAGS.md) (сходство 0.13)
+- [SEARCH](docs/SEARCH.md) (сходство 0.12)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.12)
+

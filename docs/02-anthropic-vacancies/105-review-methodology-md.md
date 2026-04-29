@@ -20,3 +20,13 @@ markdown
 **Licensing:** CC BY 4.0
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.20)
+- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.17)
+- [229-профессиональные-коллеги-агенты](docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md) (сходство 0.17)
+

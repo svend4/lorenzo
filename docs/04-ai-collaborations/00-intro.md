@@ -767,3 +767,13 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 .
 
 **[Запрос]** # Софтверные комбинации на Хабре для Svyazi 2.0
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [memnet](docs/05-habr-projects/memory/memnet.md) (сходство 0.67)
+- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (сходство 0.16)
+- [TABLES](docs/TABLES.md) (сходство 0.15)
+

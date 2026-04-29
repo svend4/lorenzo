@@ -52,3 +52,13 @@ further work on specific parts — all of this requires
 infrastructure that does not exist as a unified product.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.19)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.18)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.18)
+

@@ -716,3 +716,13 @@ if __name__ == "__main__":
     main()
 ```
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.22)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) (сходство 0.21)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.17)
+

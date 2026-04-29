@@ -68,3 +68,13 @@ _Все темы достаточно раскрыты_
 | Комбинации | `02-anthropic-vacancies` | 48% |
 | Habr | `root` | 34% |
 | Контакты | `02-anthropic-vacancies` | 55% |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.12)
+- [MISSING](docs/MISSING.md) (сходство 0.12)
+- [GRAPH](docs/GRAPH.md) (сходство 0.11)
+

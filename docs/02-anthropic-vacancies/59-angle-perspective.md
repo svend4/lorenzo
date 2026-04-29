@@ -21,3 +21,12 @@ evolution».
 `info1` дают прозу.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md) (сходство 0.14)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md) (сходство 0.12)
+

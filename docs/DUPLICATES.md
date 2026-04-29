@@ -15,3 +15,12 @@
 | `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | `docs/01-svyazi/07-mvp-planning.md` | 56% |
 
 > Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.14)
+- [MISSING](docs/MISSING.md) (сходство 0.13)
+

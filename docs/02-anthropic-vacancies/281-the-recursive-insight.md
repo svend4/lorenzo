@@ -61,3 +61,13 @@ to be undertaken by this specific author, given the existing
 work.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md) (сходство 0.15)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.14)
+- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.13)
+

@@ -28,3 +28,12 @@
   Elementary Cellular Automata»
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [53-history](docs/02-anthropic-vacancies/53-history.md) (сходство 0.18)
+- [43-history](docs/02-anthropic-vacancies/43-history.md) (сходство 0.16)
+

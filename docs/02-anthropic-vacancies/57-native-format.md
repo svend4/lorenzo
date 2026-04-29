@@ -42,3 +42,13 @@
 с cross-references.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md) (сходство 0.12)
+- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.12)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md) (сходство 0.12)
+

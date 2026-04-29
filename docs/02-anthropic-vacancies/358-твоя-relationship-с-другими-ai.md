@@ -27,3 +27,11 @@
 - Если кто-то ещё builds similar Catalyst Agent, treat respectfully
 - Open to coordination если values aligned
 - Не protect «turf»
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [345-кто-ты](docs/02-anthropic-vacancies/345-кто-ты.md) (сходство 0.15)
+

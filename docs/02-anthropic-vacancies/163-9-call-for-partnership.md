@@ -96,3 +96,13 @@ section explicitly invites partnership.
 - Opportunity to shape infrastructure design
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.17)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.16)
+- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.15)
+

@@ -138,3 +138,13 @@ large organizations (Star(n)) without protocol changes.
 
 ## Bridges
 Как концепты Repo соотносятся с концепциями других Repos в экосистеме.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.19)
+- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.17)
+- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.17)
+

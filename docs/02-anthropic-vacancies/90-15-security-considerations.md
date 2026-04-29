@@ -60,3 +60,13 @@ implementations. Каждая external dependency — потенциальный
 supply-chain риск.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md) (сходство 0.55)
+- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) (сходство 0.11)
+- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.10)
+

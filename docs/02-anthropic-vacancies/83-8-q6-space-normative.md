@@ -85,3 +85,11 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 - **Class IV** (сложные, edge of chaos) — синтез, emergent properties
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.11)
+

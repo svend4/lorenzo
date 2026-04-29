@@ -135,3 +135,13 @@ So I named the possibility without pushing toward it.
 
 Перевожу восьмой документ (2.3) на русский с тем же узким форматированием около 60 символов на строку для удобного чтения.
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.17)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.13)
+- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) (сходство 0.12)
+

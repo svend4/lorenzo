@@ -39,3 +39,13 @@ NPP-compatible, если они:
 | Q6 coverage (real) | 21.9% (14 / 64 vertices) |
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) (сходство 0.36)
+- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.13)
+- [89-14-sdk-contract-informative](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.12)
+

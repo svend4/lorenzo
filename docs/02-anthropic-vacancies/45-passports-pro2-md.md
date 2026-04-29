@@ -20,3 +20,13 @@ markdown
 > и онтологические мосты к другим репо экосистемы.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md) (сходство 0.24)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.21)
+- [46-essence](docs/02-anthropic-vacancies/46-essence.md) (сходство 0.17)
+

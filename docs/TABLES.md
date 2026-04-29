@@ -1401,3 +1401,13 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 | `v1.1` | 00) Protocol: Nautilus Portal Protocol v1.1 Dependencies: mcp>=1.0.0 (only external dep) Python: 3.10+ | `docs/02-anthropic-vacancies/123-portal-mcp-py.md` |
 | ... | _ещё 364 записей_ | |
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TIMELINE](docs/TIMELINE.md) (сходство 0.39)
+- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.21)
+- [03-component-catalog](docs/01-svyazi/03-component-catalog.md) (сходство 0.20)
+

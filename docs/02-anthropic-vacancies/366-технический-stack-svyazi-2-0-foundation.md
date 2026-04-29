@@ -543,3 +543,13 @@ Mission docs (existing 9 documents) → Beneficial deployment focus
 
 Claudes Antwort konnte nicht vollständig generiert werden
 Wiederholen
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.19)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.19)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.12)
+

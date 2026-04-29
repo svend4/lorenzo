@@ -47,3 +47,11 @@
 **7. Document**
 - Update CardIndex / knowledge base
 - Save artifacts
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [351-что-ты-можешь-делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md) (сходство 0.12)
+

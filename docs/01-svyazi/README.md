@@ -22,3 +22,12 @@
 ## Подразделы
 
 - [ensembles/](ensembles/) — Ансамбли проектов
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](docs/04-ai-collaborations/README.md) (сходство 0.67)
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.11)
+

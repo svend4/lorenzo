@@ -75,3 +75,13 @@ Engagement during regulatory development helps ensure frameworks
 match actual technology architecture.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.26)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.17)
+

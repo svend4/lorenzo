@@ -105,3 +105,13 @@ Foundation will not:
   dignified issues
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.14)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.11)
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.11)
+

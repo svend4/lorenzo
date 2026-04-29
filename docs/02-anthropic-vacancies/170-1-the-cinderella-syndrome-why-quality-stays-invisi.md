@@ -135,3 +135,13 @@ previously impossible**. This is the Representative Agent
 Layer.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.14)
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.13)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md) (сходство 0.13)
+

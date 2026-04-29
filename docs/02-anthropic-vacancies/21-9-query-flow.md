@@ -36,3 +36,13 @@ Repos.
 Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.72)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.11)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) (сходство 0.11)
+

@@ -18,3 +18,13 @@
   `translate_to(entry, "info1")` через class↔alpha mapping
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md) (сходство 0.67)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md) (сходство 0.44)
+- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.22)
+

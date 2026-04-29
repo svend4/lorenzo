@@ -135,3 +135,13 @@ lower triangles into a coherent system where knowledge flows
 efficiently between levels.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.15)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.14)
+

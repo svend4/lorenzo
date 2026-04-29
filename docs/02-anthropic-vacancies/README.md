@@ -363,3 +363,13 @@
 ## Подразделы
 
 - [clusters/](clusters/) — Кластеры вакансий
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEARCH](docs/SEARCH.md) (сходство 0.31)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.30)
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.15)
+

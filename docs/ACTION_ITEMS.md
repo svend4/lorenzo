@@ -947,3 +947,13 @@ _(9 дублей скрыто)_
   _→ TIMELINE_
 
 _(3 дублей скрыто)_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.20)
+- [TABLES](docs/TABLES.md) (сходство 0.19)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.18)
+

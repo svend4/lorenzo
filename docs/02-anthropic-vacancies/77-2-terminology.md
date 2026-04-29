@@ -71,3 +71,13 @@ Repos. Описан в `nautilus.json` в поле `bridges` и в passport
 Repo к экосистеме (A–E, см. раздел 12).
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.63)
+- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.16)
+- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.15)
+

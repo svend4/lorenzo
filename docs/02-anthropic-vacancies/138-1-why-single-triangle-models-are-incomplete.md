@@ -74,3 +74,13 @@ to negotiate through well-defined interfaces. This paper proposes
 such a protocol.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.19)
+- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.18)
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.14)
+

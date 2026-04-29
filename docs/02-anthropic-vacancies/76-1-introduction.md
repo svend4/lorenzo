@@ -80,3 +80,13 @@ NPP **не** пытается:
 - **SDK контракт** добавлен как часть протокола (раздел 14)
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md) (сходство 0.53)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.14)
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md) (сходство 0.13)
+

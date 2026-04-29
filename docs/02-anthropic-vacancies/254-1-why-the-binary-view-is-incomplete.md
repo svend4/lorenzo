@@ -113,3 +113,13 @@ extension. It changes the practical strategy for deploying AI
 support to skilled professions.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.25)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
+- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.18)
+

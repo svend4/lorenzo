@@ -128,3 +128,13 @@ substrate**. Substrate is a much more achievable scope for an
 individual developer or small team.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.20)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.18)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.17)
+

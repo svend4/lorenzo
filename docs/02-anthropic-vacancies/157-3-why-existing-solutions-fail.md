@@ -161,3 +161,13 @@ into coherent infrastructure**. OKWF's proposed contribution
 is this integration.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.16)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.15)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.13)
+

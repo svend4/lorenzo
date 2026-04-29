@@ -135,3 +135,13 @@ Templates are starting points, not endpoints. Every practitioner
 modifies their configuration over time.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.17)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.15)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.15)
+

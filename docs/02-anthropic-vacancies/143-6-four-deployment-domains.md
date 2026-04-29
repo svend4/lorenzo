@@ -138,3 +138,13 @@ could potentially benefit from this structure once mature tools
 exist.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.18)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.17)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.15)
+

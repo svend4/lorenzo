@@ -129,3 +129,13 @@ This is why Git-native is important: Git provides authoritative
 state. Cowork memory is convenience, not authority.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.18)
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.16)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
+

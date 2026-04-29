@@ -105,3 +105,12 @@ v2.0 MAY использовать:
 `algorithm` параметр в query, сохраняя v1.1 как default.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.34)
+- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.12)
+

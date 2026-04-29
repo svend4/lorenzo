@@ -72,3 +72,13 @@ hard. Rigorous critique will improve the work. We
 prefer honest critics to unreserved enthusiasts.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.16)
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.14)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.13)
+

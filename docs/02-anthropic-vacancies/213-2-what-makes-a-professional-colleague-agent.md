@@ -147,3 +147,13 @@ resist "AI replacing their tools" may welcome "AI colleague
 to discuss work with."
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.17)
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.16)
+- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) (сходство 0.16)
+

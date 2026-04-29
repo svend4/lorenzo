@@ -196,3 +196,13 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 
 Понял. Делаю перевод с короткими строками, отформатированными для удобного чтения на экране (примерно 60-65 символов на строку, как в книжном формате A4).
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.15)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.14)
+- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) (сходство 0.14)
+

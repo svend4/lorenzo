@@ -33,3 +33,11 @@
   12.6 guidance)
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) (сходство 0.11)
+

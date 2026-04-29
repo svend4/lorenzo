@@ -80,3 +80,13 @@ This is the value of strategic positioning: less work for
 better outcomes.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.17)
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.14)
+- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.13)
+

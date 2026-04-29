@@ -61,3 +61,13 @@ _Автоматически сгенерировано по 15 файлам ра
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](docs/01-svyazi/QA.md) (сходство 0.82)
+- [QA](docs/02-anthropic-vacancies/QA.md) (сходство 0.63)
+- [QA](docs/QA.md) (сходство 0.62)
+

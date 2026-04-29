@@ -98,3 +98,13 @@ A Representative Agent that's only accessible to
 tech-sophisticated principals fails its core mission.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.15)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.14)
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.13)
+

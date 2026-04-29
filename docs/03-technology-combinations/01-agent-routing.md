@@ -28,3 +28,11 @@
 - Auto AI Router на Go (habr.com/ru/articles/1027878/) — лёгкий прокси, OpenAI-формат, мегабайты RAM, старт <1с
 Дети:
 2.1 Иерархический
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.12)
+

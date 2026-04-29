@@ -31,3 +31,13 @@ recommendations all originated with the author. Claude
 contributed structure and reference work.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.20)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.16)
+- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) (сходство 0.16)
+

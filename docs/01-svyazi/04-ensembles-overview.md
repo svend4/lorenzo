@@ -129,3 +129,13 @@ flowchart LR
 - **Бюджетный и privacy‑aware роутинг**: RLM‑Toolkit уже описывает budget‑first, quality‑first и privacy‑first конфигурации как первый класс настроек. citeturn20view18
 - **Меньший blast radius на gateway‑слое**: Auto AI Router даёт lightweight sidecar в Go с 30–80 MB RAM и OpenAI‑совместимым endpoint, что удобно для self‑hosted периметра. citeturn39view0
 - **Защитный барьер между агентом и реальным миром**: SENTINEL позиционируется как “иммунная система” для AI‑приложений с быстрыми Rust‑движками и micro‑model swarm. citeturn20view10
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.92)
+- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.16)
+- [03-component-catalog](docs/01-svyazi/03-component-catalog.md) (сходство 0.16)
+

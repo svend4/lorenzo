@@ -40,3 +40,12 @@ Passport SHOULD содержать следующие разделы:
 ## Q6-отображение
 
 Не определено (Level 1).
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.24)
+- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.10)
+

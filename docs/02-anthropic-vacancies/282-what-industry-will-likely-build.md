@@ -46,3 +46,13 @@ We should not wait for any specific outcome. We should use
 what exists and adapt as better infrastructure emerges.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.13)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.13)
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.13)
+

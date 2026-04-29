@@ -73,3 +73,13 @@ class MyNotesAdapter(BaseAdapter):
 
 ```markdown
 # my_notes
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) (сходство 0.44)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.18)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) (сходство 0.17)
+

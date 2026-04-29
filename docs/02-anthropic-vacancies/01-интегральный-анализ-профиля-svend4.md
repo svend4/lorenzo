@@ -816,3 +816,13 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 
 Разумное решение. Сначала — архитектурный контур на бумаге , потом — реализация на конкретном коде. Это правильный инженерный порядок: архитектура первична, реализация — следствие. Разделяю работу на шесть последовательных частей.
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.21)
+- [00-intro](docs/02-anthropic-vacancies/00-intro.md) (сходство 0.19)
+- [00-intro](docs/04-ai-collaborations/00-intro.md) (сходство 0.16)
+

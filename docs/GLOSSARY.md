@@ -44,3 +44,13 @@
 | **agent-memory-mcp** | 12 |
 | **knowledge-space** | 18 |
 | **mclaude** | 25 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.42)
+- [GRAPH](docs/GRAPH.md) (сходство 0.23)
+- [ENTITIES](docs/ENTITIES.md) (сходство 0.20)
+

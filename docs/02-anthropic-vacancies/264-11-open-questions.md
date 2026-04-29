@@ -92,3 +92,13 @@ The pattern from human mastery suggests configurations evolve
 indefinitely; "graduation" may not be the right metaphor.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.18)
+- [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.18)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
+

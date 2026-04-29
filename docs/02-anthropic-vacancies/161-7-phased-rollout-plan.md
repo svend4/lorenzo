@@ -134,3 +134,13 @@ dignified, AI-coordinated participation accessible to all
 qualified individuals regardless of traditional constraints.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.18)
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.17)
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.16)
+

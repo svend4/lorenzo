@@ -64,3 +64,13 @@ Portal SHOULD предоставлять команду валидации:
   один на format
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) (сходство 0.24)
+- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
+- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
+

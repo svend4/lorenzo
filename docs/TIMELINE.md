@@ -228,3 +228,13 @@
 | `v1.1` | чие от двух предыдущих (PORTAL-PROTOCOL v1.1 и trio of passports), имеет другой характер . Это не techni | `docs/02-anthropic-vacancies/122-глоссарий.md` |
 | `v1.1` | 00) Protocol: Nautilus Portal Protocol v1.1 Dependencies: mcp>=1.0.0 (only external dep) Python: 3.10+ | `docs/02-anthropic-vacancies/123-portal-mcp-py.md` |
 | ... | _ещё 364 записей_ | |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TABLES](docs/TABLES.md) (сходство 0.39)
+- [SEARCH](docs/SEARCH.md) (сходство 0.17)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.17)
+

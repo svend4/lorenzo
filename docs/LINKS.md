@@ -124,3 +124,13 @@
 | https://www.fontanka.ru/2026/04/25/76378978/ | 5 |
 | https://www.fossil-scm.org/ | 2 |
 | https://www.w3.org/standards/semanticweb/data | 1 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [BROKEN_LINKS](docs/BROKEN_LINKS.md) (сходство 0.46)
+- [ENTITIES](docs/ENTITIES.md) (сходство 0.12)
+- [68-about](docs/02-anthropic-vacancies/68-about.md) (сходство 0.11)
+

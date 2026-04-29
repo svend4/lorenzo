@@ -46,3 +46,13 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 - Логировать timeout для telemetry
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md) (сходство 0.72)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.12)
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.10)
+

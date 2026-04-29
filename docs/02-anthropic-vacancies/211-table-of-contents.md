@@ -22,3 +22,13 @@
 11. **Call for Collaboration**
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md) (сходство 0.26)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md) (сходство 0.23)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.18)
+

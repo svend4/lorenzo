@@ -161,3 +161,13 @@ Fetched: Несколько Клодов над одним проектом: loc
 Fetched: Rufler: Делаем из Claude Code автономный рой через один YAML-конфиг
 Fetched: Rufler: Делаем из Claude Code автономный рой через один YAML-конфиг
 Отлично — Rufler существует и работает ( github.com/lib4u/rufler ). И связан с ruflo ( github.com/ruvnet/ruflo ). У меня достаточно verification, чтобы сделать развёрнутый анализ. Не буду fetch all sources — это займёт огромное количество контекста. Вместо этого комментирую based on what I've verified plus the broader landscape we already have.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.16)
+- [366-технический-stack-svyazi-2-0-foundation](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md) (сходство 0.11)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) (сходство 0.11)
+

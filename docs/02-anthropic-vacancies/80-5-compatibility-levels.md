@@ -64,3 +64,13 @@ Portal возвращает static entries.
 - `PortalEntry.is_fallback` явно помечается
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.32)
+- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.12)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.12)
+

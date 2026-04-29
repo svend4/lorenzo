@@ -41,3 +41,12 @@
 - Schema-less dump: теряется семантика angles
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) (сходство 0.89)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.10)
+

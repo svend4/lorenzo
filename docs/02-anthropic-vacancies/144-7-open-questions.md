@@ -142,3 +142,13 @@ redundancy, transparency), but their adaptation to Double-Triangle
 requires research.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.16)
+- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.15)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.15)
+

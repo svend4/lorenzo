@@ -111,3 +111,13 @@ It is a present problem with actionable solutions that require
 coordinated action now.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.17)
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.16)
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.15)
+

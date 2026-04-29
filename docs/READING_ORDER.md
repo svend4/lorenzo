@@ -422,3 +422,13 @@
 3. `04-ai-collaborations/` — ансамбли
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEARCH](docs/SEARCH.md) (сходство 0.86)
+- [README](docs/02-anthropic-vacancies/README.md) (сходство 0.30)
+- [TAGS](docs/TAGS.md) (сходство 0.22)
+

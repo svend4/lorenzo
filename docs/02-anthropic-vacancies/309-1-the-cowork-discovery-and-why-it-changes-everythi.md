@@ -113,3 +113,13 @@ useful, not after years of development.
 The remainder of this document develops Option C.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.19)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.18)
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.17)
+

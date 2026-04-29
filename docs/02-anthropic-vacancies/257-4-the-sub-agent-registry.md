@@ -149,3 +149,13 @@ publishers with different standards, and reputation accumulates
 across both journals and individual researchers.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.19)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.18)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.16)
+

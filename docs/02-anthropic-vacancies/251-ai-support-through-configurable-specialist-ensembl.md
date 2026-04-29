@@ -26,3 +26,13 @@
 **Status:** Working paper, seeking reviewers
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.70)
+- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.62)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.42)
+

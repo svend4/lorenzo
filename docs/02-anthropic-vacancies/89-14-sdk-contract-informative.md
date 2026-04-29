@@ -38,3 +38,11 @@ SDK MUST деsериализовать JSON responses в typed structures (datac
 acceptable только для debugging/experimental версий.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.12)
+

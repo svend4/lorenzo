@@ -98,3 +98,13 @@ flowchart LR
 | Orchestration | mclaude, AI Factory, Rufler, AutoResearch |
 | Security | LiteLLM, SENTINEL, Tool Search, Auto AI Router |
 | Sync | Yjs, Automerge |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GLOSSARY](docs/GLOSSARY.md) (сходство 0.42)
+- [GRAPH](docs/GRAPH.md) (сходство 0.18)
+- [ENTITIES](docs/ENTITIES.md) (сходство 0.17)
+

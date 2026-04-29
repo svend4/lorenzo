@@ -36,3 +36,12 @@ This is rough heuristic. Actual decisions depend on specific
 needs.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md) (сходство 0.13)
+- [322-appendix-b-comparison-matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) (сходство 0.10)
+

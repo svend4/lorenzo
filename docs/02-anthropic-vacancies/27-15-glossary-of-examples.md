@@ -22,3 +22,13 @@ Repos:
 implementations.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [97-22-glossary-of-reference-examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) (сходство 0.33)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md) (сходство 0.18)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.16)
+

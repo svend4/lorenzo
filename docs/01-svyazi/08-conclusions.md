@@ -13,3 +13,13 @@
 По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — **правильная сборка**: где CardIndex остаётся source of truth, где память умеет и усиливать, и забывать, где retrieval остаётся доказуемым, где агентность не ломает безопасность, и где стоимость не взрывается ещё до первой полезной операции. citeturn41search0turn27view0turn22view4turn21view0turn20view5turn20view6turn20view11turn20view10turn39view1turn39view0
 
 Если ранжировать найденные направления по практической силе именно для старта, то порядок такой. **Первое** — Svyazi + AgentFS + NGT/Yodoca + LiteParse: это даёт уже полезный MVP. **Второе** — добавить AI Factory/mclaude/Rufler/Sequential как build‑ и moderation‑контур. **Третье** — подключить voice/local-first sync и только потом AutoResearch. Другими словами, наиболее реалистичная стратегия — сначала собрать **машину обнаружения и объяснения коллабораций**, а уже затем превращать её в полностью самоулучшающуюся агентную фабрику. Именно такой порядок лучше всего соответствует зрелости найденных проектов и снижает интеграционный риск. citeturn41search0turn27view0turn21view0turn22view4turn20view5turn20view3turn20view2turn20view4turn20view11turn21view10turn11search11turn20view19
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.95)
+- [01-executive-summary](docs/01-svyazi/01-executive-summary.md) (сходство 0.21)
+- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md) (сходство 0.14)
+

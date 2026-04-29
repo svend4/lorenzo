@@ -92,3 +92,13 @@ and useful but should operate within standards established
 by mission-driven foundations.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.15)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.13)
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.11)
+

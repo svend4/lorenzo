@@ -166,3 +166,13 @@ agent that no practitioner can fit into their existing
 workflow.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.15)
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.15)
+- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.14)
+

@@ -126,3 +126,13 @@ Each requires different governance. Conflating them produces
 confusion. Distinguishing them enables clear architecture.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.18)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md) (сходство 0.17)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.17)
+

@@ -55,3 +55,13 @@ using current tools**. It will work. It will have friction.
 The friction will be lower than no infrastructure at all.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.16)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.15)
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
+

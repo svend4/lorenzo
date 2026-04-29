@@ -31,3 +31,12 @@
   с `meta` репо)
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [63-history](docs/02-anthropic-vacancies/63-history.md) (сходство 0.18)
+- [48-content-overview](docs/02-anthropic-vacancies/48-content-overview.md) (сходство 0.18)
+

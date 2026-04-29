@@ -52,3 +52,12 @@ embeddings) могут использоваться, но MUST быть опци
 раздела 11.1 для воспроизводимости между порталами.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.12)
+- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.10)
+

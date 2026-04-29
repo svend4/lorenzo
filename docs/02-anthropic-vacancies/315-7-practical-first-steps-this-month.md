@@ -77,3 +77,13 @@ This is "dogfooding" — using your own product on your own
 work. Most successful infrastructure projects start this way.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.14)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.12)
+

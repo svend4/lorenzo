@@ -110,3 +110,13 @@ The recursive insight is no longer aspirational. It is
 implementable starting next week.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.16)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
+

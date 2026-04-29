@@ -33,3 +33,13 @@ If the author or readers want to develop solutions, this
 document provides framing. It does not provide answers.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.14)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.12)
+- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) (сходство 0.11)
+

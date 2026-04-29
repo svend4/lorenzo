@@ -290,3 +290,13 @@
 - `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md`
 - `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
 - _...и ещё 25_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEARCH](docs/SEARCH.md) (сходство 0.25)
+- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.24)
+- [READING_ORDER](docs/READING_ORDER.md) (сходство 0.22)
+

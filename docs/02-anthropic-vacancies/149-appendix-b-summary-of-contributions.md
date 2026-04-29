@@ -39,3 +39,13 @@
 
 ## Author & Contact
 Кто поддерживает, как связаться.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md) (сходство 0.24)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.15)
+- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.12)
+

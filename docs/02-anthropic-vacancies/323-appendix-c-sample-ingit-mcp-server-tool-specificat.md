@@ -253,3 +253,13 @@ This recursive nature — каждый ваш observation refines understanding,
 
 Перевожу девятый документ (2.4) на русский с тем же узким форматированием около 60 символов на строку для удобного чтения.
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.21)
+- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.17)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.15)
+

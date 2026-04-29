@@ -133,3 +133,13 @@ a registry of narrow-specialist AI sub-agents that any
 practitioner can configure into their own combination.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.18)
+- [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md) (сходство 0.17)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.15)
+

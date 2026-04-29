@@ -37,3 +37,13 @@ acknowledgments above.
 - Various Cowork-Project tutorials and reviews from 2026.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md) (сходство 0.32)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
+- [287-references](docs/02-anthropic-vacancies/287-references.md) (сходство 0.14)
+

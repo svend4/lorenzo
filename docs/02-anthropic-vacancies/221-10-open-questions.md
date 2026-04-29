@@ -78,3 +78,13 @@ What might we lose? These are not technical questions but
 they shape technical decisions.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.12)
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.12)
+

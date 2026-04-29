@@ -22,3 +22,13 @@
 `nautilus-portal`)
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md) (сходство 0.37)
+- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md) (сходство 0.31)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.28)
+

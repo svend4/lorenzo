@@ -114,3 +114,13 @@ developer in 4 months, providing a practical foundation for
 Double-Triangle deployments.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.20)
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.17)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.17)
+

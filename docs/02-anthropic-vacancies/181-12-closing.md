@@ -38,3 +38,13 @@ We propose the more careful path. We invite collaboration
 in walking it.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.15)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.12)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.12)
+

@@ -25,3 +25,13 @@
 | Безопасный execution plane | LiteLLM, Auto AI Router, Tool Search, SENTINEL | Unified API, lightweight routing, lazy tool loading, runtime guard | Общая policy matrix на tool classes и external skills | Read-only by default + write approval + path allowlist citeturn11search2turn39view0turn39view1turn20view10turn20view16 |
 
 Из этого следует важный практический принцип: **Svyazi‑2.0 нужно начинать не с “самой умной модели”, а с самой строгой структуры переходов между слоями**. Сильная модель без карточного статуса, Evidence Envelope и review protocol быстро превращает систему в красивый, но плохо аудитируемый генератор гипотез. Наоборот, даже средний model tier даёт много пользы, если extract/normalize/review/evidence и memory status already pinned. Это согласуется и с Svyazi‑подходом к CardIndex и privacy by design, и с Memory OS‑критикой “thoughtful but schema-breaking reasoning”, и с Legal RAG‑подходом к page‑level доказуемости. citeturn41search0turn39view3turn20view6turn20view18
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 1.00)
+- [QA](docs/QA.md) (сходство 0.17)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.16)
+

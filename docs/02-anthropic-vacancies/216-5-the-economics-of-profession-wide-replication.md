@@ -143,3 +143,13 @@ Foundation-funded Professional Colleague Agents are
 economically viable for moderately sized professions.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.20)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
+- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.12)
+

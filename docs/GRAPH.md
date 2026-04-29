@@ -631,3 +631,13 @@ digraph lorenzo {
   Yjs -> Automerge [label="12"];
 }
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GLOSSARY](docs/GLOSSARY.md) (сходство 0.23)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.18)
+- [ENTITIES](docs/ENTITIES.md) (сходство 0.12)
+

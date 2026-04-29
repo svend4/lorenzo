@@ -154,3 +154,13 @@ approximately €500/practitioner/year — feasible for foundation
 funding or modest practitioner contribution.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.21)
+- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) (сходство 0.20)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.19)
+

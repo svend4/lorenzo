@@ -340,3 +340,13 @@ adversarial, less regulated** domains (1, 2, 6, 8) before
 tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.16)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.15)
+- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.14)
+

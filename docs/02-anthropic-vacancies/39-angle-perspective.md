@@ -20,3 +20,13 @@
 **как применять × что значит × как символически устроено**.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md) (сходство 0.14)
+- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md) (сходство 0.14)
+- [46-essence](docs/02-anthropic-vacancies/46-essence.md) (сходство 0.12)
+

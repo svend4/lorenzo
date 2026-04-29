@@ -45,3 +45,13 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 - Удаляется только в следующем major bump
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.63)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) (сходство 0.15)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.12)
+

@@ -28,3 +28,12 @@ hamming-переходов от «root» вершин) коррелирует с
 все остальные — текстовые интерпретации.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.21)
+- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md) (сходство 0.20)
+

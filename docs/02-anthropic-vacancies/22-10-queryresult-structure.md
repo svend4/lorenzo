@@ -32,3 +32,13 @@ QueryResult MUST поддерживать сериализацию в JSON, Mark
 category (сначала full, затем partial, затем singular).
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md) (сходство 0.11)
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) (сходство 0.11)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.11)
+

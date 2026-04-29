@@ -126,3 +126,13 @@
 | NGT ↔ mclaude | 37 |
 | AgentFS ↔ Yodoca | 37 |
 | mclaude ↔ AI Factory | 37 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GLOSSARY](docs/GLOSSARY.md) (сходство 0.20)
+- [CONTACTS](docs/CONTACTS.md) (сходство 0.18)
+- [MINDMAP](docs/MINDMAP.md) (сходство 0.17)
+

@@ -136,3 +136,13 @@ the **outer boundary** of the Lower Triangle — the layer
 that touches the world beyond the personal context.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) (сходство 0.20)
+- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.14)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.14)
+

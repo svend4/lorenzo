@@ -102,3 +102,13 @@ These uncertainties shape but do not block progress. Path 1
 works regardless of any of them.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15)
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.13)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.13)
+

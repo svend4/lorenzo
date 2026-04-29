@@ -21,3 +21,13 @@
 bridge.]
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md) (сходство 0.22)
+- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md) (сходство 0.22)
+- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md) (сходство 0.21)
+

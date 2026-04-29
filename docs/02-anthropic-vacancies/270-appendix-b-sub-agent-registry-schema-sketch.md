@@ -81,3 +81,12 @@ The schema is illustrative; production deployment would require
 substantial refinement based on actual implementation experience.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.13)
+- [271-appendix-c-configuration-template-example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md) (сходство 0.11)
+

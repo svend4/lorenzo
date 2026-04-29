@@ -44,3 +44,13 @@ Documents 1-7 of the Nautilus / OKWF series, as listed in the
 header of this document.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md) (сходство 0.18)
+- [320-references](docs/02-anthropic-vacancies/320-references.md) (сходство 0.14)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.14)
+

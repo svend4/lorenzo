@@ -534,3 +534,13 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 
 Пишу. Это кульминационный документ всей сессии — formal concept document для external circulation. Интегрирует всё: Nautilus Portal Protocol, Double-Triangle Architecture, Foundation Model, humanities extension, MMORPG-like engagement, pattern library. Пишу как proposal, который можно отправить в Anthropic Beneficial Deployments, Mozilla Foundation, EIC Pathfinder, или academic collaborators.
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.18)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.17)
+- [CONCEPTS](docs/CONCEPTS.md) (сходство 0.16)
+

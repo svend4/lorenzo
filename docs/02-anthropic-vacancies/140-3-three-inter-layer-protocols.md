@@ -148,3 +148,13 @@ These patterns are analogous to message-passing concurrency models
 in distributed systems, adapted for human-AI hybrid execution.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.18)
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.17)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.15)
+

@@ -187,3 +187,13 @@ application drafting.
 **Maturity**: Active deployment. Researcher attitudes mixed.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.14)
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.14)
+- [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md) (сходство 0.14)
+

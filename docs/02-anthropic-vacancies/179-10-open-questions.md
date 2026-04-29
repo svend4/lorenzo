@@ -91,3 +91,13 @@ underlying technology will be developed regardless
 of whether ethical frameworks keep pace.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.14)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.13)
+- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md) (сходство 0.12)
+

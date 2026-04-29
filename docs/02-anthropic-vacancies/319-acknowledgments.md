@@ -61,3 +61,13 @@ knowledge work.
 
 ## Angle / Perspective
 Methodological: how-to и reflection.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.26)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.25)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.23)
+

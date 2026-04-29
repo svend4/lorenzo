@@ -1971,3 +1971,13 @@ Web durchsucht
 Это relevant к вашей situation — вы тоже single developer, работающий part-time. Анастасия достигла 785 статей в 26 доменах за разумное время . Виталий построил graph cognitive memory с Hebbian forgetting за один проект . Это ваше budget level .
 ---
 Теперь к подробному объяснению Варианта C.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.19)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.18)
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.16)
+

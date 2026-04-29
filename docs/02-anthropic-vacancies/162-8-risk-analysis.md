@@ -157,3 +157,13 @@ planning address most scenarios. Residual risk level: **moderate**,
 within acceptable range for mission-driven foundation launch.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.16)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.16)
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.15)
+

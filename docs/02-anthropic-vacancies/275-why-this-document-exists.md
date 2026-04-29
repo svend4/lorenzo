@@ -44,3 +44,13 @@ about a missing layer in the technology stack.
 This document explores that observation.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.18)
+- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) (сходство 0.16)
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
+

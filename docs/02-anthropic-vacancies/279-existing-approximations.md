@@ -90,3 +90,13 @@ The fragmentation is what the author was identifying as the
 problem.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.19)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.16)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.16)
+

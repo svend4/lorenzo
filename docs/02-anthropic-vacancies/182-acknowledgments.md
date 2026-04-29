@@ -30,3 +30,13 @@ that genuinely serves underrepresented populations, that
 will be more than enough.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [224-acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md) (сходство 0.17)
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) (сходство 0.14)
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.13)
+

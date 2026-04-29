@@ -34,3 +34,13 @@ applied work demonstrated its absence
 **Status:** Inquiry paper, exploring rather than specifying
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.42)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.39)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.38)
+

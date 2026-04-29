@@ -54,3 +54,13 @@ academic collaborators, corporate sponsors, and policy
 stakeholders as basis for dialogue and refinement.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.17)
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.17)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.15)
+

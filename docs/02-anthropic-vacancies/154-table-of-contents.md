@@ -23,3 +23,11 @@
 10. **Appendices**
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md) (сходство 0.17)
+

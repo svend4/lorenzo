@@ -34,3 +34,12 @@
 - **AutoAdapter** — любой repo с nautilus.json в корне
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) (сходство 0.33)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md) (сходство 0.11)
+

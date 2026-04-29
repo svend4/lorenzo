@@ -35,3 +35,12 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 - v2.0 может понадобиться Q8 или Q12 для больших экосистем
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [83-8-q6-space-normative](docs/02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.11)
+- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) (сходство 0.10)
+

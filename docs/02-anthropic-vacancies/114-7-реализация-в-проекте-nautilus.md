@@ -55,3 +55,13 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 рекомендованный workflow для community-contributed documentation.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.18)
+- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.14)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.10)
+

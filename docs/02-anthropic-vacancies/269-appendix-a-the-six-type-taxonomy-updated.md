@@ -28,3 +28,13 @@ The expansion to six types reflects more accurate mapping to
 how skilled practice actually structures itself.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [226-appendix-a-comparative-table-five-agent-types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.31)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.14)
+- [227-appendix-b-decision-framework-when-to-build-type-1](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) (сходство 0.13)
+

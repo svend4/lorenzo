@@ -58,3 +58,13 @@
   review with subsequent consolidation.
 
 ---
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.19)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.17)
+- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.17)
+
