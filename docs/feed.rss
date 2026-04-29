@@ -5,7 +5,7 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 14:48:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 14:54:56 GMT</lastBuildDate>
     <item>
       <title>chore: regenerate auto-exports after Sprint 21-23</title>
       <link>https://github.com/svend4/lorenzo/commit/6ac5970710e433af1ee99a9429c6f101598a2630</link>
