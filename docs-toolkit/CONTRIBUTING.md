@@ -13,32 +13,59 @@ python -m pytest tests/  # должно: passed
 
 ## Структура проекта
 
+**Состояние (2026-04-29):** 53 спринта, 30+ модулей, 546 тестов passed.
+
 ```
 docs-toolkit/
 ├── docstoolkit/
-│   ├── __init__.py          # public API
-│   ├── config.py            # docstoolkit.toml
-│   ├── core.py              # write_doc, clean_text
-│   ├── frontmatter.py       # YAML parser
-│   ├── cli.py               # main entry point
-│   ├── doctor.py            # diagnostics
-│   ├── serve.py             # web dashboard
-│   ├── plugins.py           # entry_points discovery
-│   ├── ingest/              # md/html/pdf/epub/docx/jupyter/mhtml
-│   ├── embeddings/          # tfidf, sentence-transformers, hybrid, cache
-│   ├── lang/                # detect, i18n, readability
-│   ├── skills/              # testing framework
-│   └── web/                 # url, arxiv, hn, habr
-├── tests/                   # pytest
-├── examples/                # example-plugin-pack
+│   ├── __init__.py            # public API
+│   ├── cli.py                 # main entry point
+│   ├── config.py              # docstoolkit.toml loader
+│   ├── core.py                # write_doc, clean_text
+│   ├── doctor.py              # diagnostics
+│   ├── frontmatter.py         # YAML parser
+│   ├── plugins.py             # PEP 621 entry_points discovery
+│   ├── serve.py               # HTTP/REST + SSE + Prometheus
+│   │
+│   ├── agent/                 # ReAct loop + planner (plan-and-execute)
+│   ├── auth/                  # RBAC scopes с wildcards
+│   ├── budget/                # Per-scope LLM budget guards
+│   ├── cache/                 # TTL memoization
+│   ├── cluster/               # k-means++ clustering
+│   ├── conversation/          # Multi-turn sessions, squash-summarize
+│   ├── embeddings/            # tfidf, sentence-transformers, hybrid, cache
+│   ├── eval/                  # Golden datasets, P/R/F1 scoring
+│   ├── events/                # Pub-sub event bus
+│   ├── experiments/           # A/B testing framework
+│   ├── federation/            # NPP — Nautilus Portal Protocol
+│   ├── feedback/              # SQLite store + Wilson confidence
+│   ├── graph/                 # Concept graph builder
+│   ├── ingest/                # md/html/pdf/epub/docx/jupyter/mhtml
+│   ├── jobs/                  # Background queue
+│   ├── lang/                  # detect, i18n, readability
+│   ├── prompts/               # Versioned prompts с A/B variants
+│   ├── rag/                   # RAG pipeline + adaptive multi-hop + streaming
+│   ├── router/                # Model chain failover
+│   ├── skills/                # Skill registry + testing framework
+│   ├── telemetry/             # OTel + Prometheus
+│   ├── timetravel/            # Git-based historical queries
+│   ├── web/                   # url, arxiv, hn, habr
+│   ├── webhooks/              # HTTP delivery с HMAC + DLQ
+│   └── workflow/              # DAG runner (sync + parallel async)
+│
+├── tests/                     # pytest (546 тестов)
+├── examples/                  # example-plugin-pack
 ├── pyproject.toml
 ├── Dockerfile
-├── action.yml               # GitHub Action
+├── action.yml                 # GitHub Action
 ├── README.md
 ├── CHANGELOG.md
+├── RELEASE.md
 ├── SECURITY.md
-└── CONTRIBUTING.md          # этот файл
+└── CONTRIBUTING.md            # этот файл
 ```
+
+Подробный обзор каждого модуля: [`../docs/ROADMAP/00-CURRENT-STATE.md`](../docs/ROADMAP/00-CURRENT-STATE.md#3-карта-модулей-docstoolkit).
 
 ## Правила кода
 
