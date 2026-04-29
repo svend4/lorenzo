@@ -4,6 +4,6 @@
 
 ## Содержание
 
-- [authors-by-name.md](authors-by-name.md) — Авторы (Хабр / GitHub / Medium), упомянутые в монорепозитории, и их ключевые проекты с обратными ссылками на доки.
-- [components-by-name.md](components-by-name.md) — Для каждого проекта / технологии / паттерна — все доки в монорепозитории, где он упоминается. Если компонент имеет собст…
-- [concepts.md](concepts.md) — Не проекты, а концепции, которые повторяются в нескольких разделах.
+- [authors-by-name.md](authors-by-name.md) — <!-- summary -->
+- [components-by-name.md](components-by-name.md) — <!-- summary -->
+- [concepts.md](concepts.md) — <!-- summary -->

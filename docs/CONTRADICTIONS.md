@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-Утверждений: **42641** | Противоречий: **5515**
+Утверждений: **41450** | Противоречий: **4805**
 
 > Автоматический поиск без LLM — возможны ложные срабатывания.
 
@@ -272,19 +272,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 23. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `match`, `pendingreview`, `proposalid`, `reviewstate`
-
-**A:** `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md`
-> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
-
-**B:** `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md`
-> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
-
----
-
-### 24. 🔢 Числовое — 80.0 vs 8.0 (уверенность: 0.8)
+### 23. 🔢 Числовое — 80.0 vs 8.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `coder`, `context`, `embed`, `nomic`
 
@@ -293,6 +281,18 @@ _Обновлено: 2026-04-29_
 
 **B:** `docs/05-habr-projects/memory/memnet.md`
 > qwen3-coder:30b, nomic-embed-text, 80k context, 8k max tokens, температура 0
+
+---
+
+### 24. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `match`, `pendingreview`, `proposalid`, `reviewstate`
+
+**A:** `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md`
+> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
+
+**B:** `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md`
+> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
 
 ---
 

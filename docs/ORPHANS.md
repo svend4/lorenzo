@@ -29,6 +29,6 @@ _Эти документы не связаны с остальными — их 
 ---
 
 **Смотрите также:**
-- [HEALTH](docs/HEALTH.md)
 - [STATS](docs/STATS.md)
+- [HEALTH](docs/HEALTH.md)
 

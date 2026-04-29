@@ -4,9 +4,9 @@
 
 ## Содержание
 
-- [01-yodoca.md](01-yodoca.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [02-memnet.md](02-memnet.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [03-pda-llm-as-periphery.md](03-pda-llm-as-periphery.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [04-dochkina-sequential.md](04-dochkina-sequential.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [05-supplementary-infrastructure.md](05-supplementary-infrastructure.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [06-svyazi-2-0-block-map.md](06-svyazi-2-0-block-map.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+- [01-yodoca.md](01-yodoca.md) — <!-- summary -->
+- [02-memnet.md](02-memnet.md) — <!-- summary -->
+- [03-pda-llm-as-periphery.md](03-pda-llm-as-periphery.md) — <!-- summary -->
+- [04-dochkina-sequential.md](04-dochkina-sequential.md) — <!-- summary -->
+- [05-supplementary-infrastructure.md](05-supplementary-infrastructure.md) — <!-- summary -->
+- [06-svyazi-2-0-block-map.md](06-svyazi-2-0-block-map.md) — <!-- summary -->

@@ -1,10 +1,10 @@
 # CHANGELOG
 
-Всего коммитов: **64**  
-Статистика: 🔧 chore: 26 | ✨ feat: 17 | ⚡ improve: 14 | 📝 docs: 4 | 🐛 fix: 3
+Всего коммитов: **65**  
+Статистика: 🔧 chore: 26 | ✨ feat: 17 | ⚡ improve: 14 | 📝 docs: 5 | 🐛 fix: 3
 
 
-## 2026-04-29 (63 коммитов)
+## 2026-04-29 (64 коммитов)
 
 ### 🔧 Обслуживание
 
@@ -58,6 +58,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _dfc530a0_
 - auto-update via improve_run_all [skip ci] _f73c58f7_
 - auto-update via improve_run_all [skip ci] _8e689b3d_
 - sync PROGRESS.md _4e217f2b_

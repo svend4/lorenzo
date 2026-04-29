@@ -146,33 +146,32 @@ _`docs/CONCEPT_GRAPH.md` | 101 строк_
 
 ```mermaid
 graph TD
-    docs["docs\n(436)"]
-    anthropic["anthropic\n(364)"]
-    vacancies["vacancies\n(338)"]
-    summary["summary\n(283)"]
-    tags["tags\n(231)"]
-    сходство["сходство\n(203)"]
-    architecture["architecture\n(125)"]
-    agent{{"agent\n(124)"}}
-    svyazi("svyazi\n(117)")
-    knowledge["knowledge\n(110)"]
-    nautilus["nautilus\n(109)"]
-    appendix["appendix\n(92)"]
-    portal["portal\n(88)"]
-    collaboration["collaboration\n(88)"]
-    agents{{"agents\n(75)"}}
-    protocol[/"protocol\n(72)"/]
-    cowork["cowork\n(72)"]
-    ingit["ingit\n(72)"]
-    work["work\n(72)"]
-    memory[("memory\n(70)")]
-    layer[/"layer\n(67)"/]
-    слой[/"слой\n(66)"/]
-    документ["документ\n(66)"]
-    what["what\n(62)"]
-    first["first\n(60)"]
-    документы["документы\n(60)"]
-    если["если\n(59)"]
+    docs["docs\n(950)"]
+    anthropic["anthropic\n(812)"]
+    claude["claude\n(552)"]
+    источник["источник\n(532)"]
+    summary["summary\n(471)"]
+    mhtml["mhtml\n(471)"]
+    снимок["снимок\n(461)"]
+    vacancies["vacancies\n(457)"]
+    репозитория("репозитория\n(442)")
+    корень["корень\n(434)"]
+    tags["tags\n(384)"]
+    раздел["раздел\n(359)"]
+    вакансии["вакансии\n(352)"]
+    agent{{"agent\n(348)"}}
+    кластерам["кластерам\n(342)"]
+    nautilus["nautilus\n(316)"]
+    диалога["диалога\n(315)"]
+    architecture["architecture\n(263)"]
+    knowledge["knowledge\n(243)"]
+    svyazi("svyazi\n(231)")
+    сходство["сходство\n(208)"]
+    collaboration["collaboration\n(184)"]
+    work["work\n(165)"]
+    memory[("memory\n(164)")]
+    habr["habr\n(161)"]
+    agents{{"agents\n(154)"
 # ... (обрезано)
 ```
 
@@ -1618,8 +1617,8 @@ _...и ещё 2 блоков этого языка_
 ---
 
 **Смотрите также:**
-- [COMPARE](docs/COMPARE.md)
 - [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
 - [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
 - [CLUSTERS](docs/CLUSTERS.md)
+- [13-appendix-b-examples](docs/nautilus/review-methodology/13-appendix-b-examples.md)
 

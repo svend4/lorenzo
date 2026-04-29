@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-Документов: **1093** | Слов всего: **571,523** | Время чтения всей базы: **48ч 3мин**
+Документов: **1085** | Слов всего: **620,230** | Время чтения всей базы: **51ч 36мин**
 
 > Скорость: 200 слов/мин (ru), 250 слов/мин (en)
 
@@ -10,21 +10,21 @@ _Обновлено: 2026-04-29_
 
 | Файл | Время | Слов | Категория |
 |------|-------|------|-----------|
-| `docs/TABLES.md` | ~2ч 2мин | 28236 | 📕 Очень долго |
+| `docs/OUTLINE.md` | ~3ч 38мин | 50380 | 📕 Очень долго |
+| `docs/TABLES.md` | ~2ч 59мин | 42324 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` | ~1ч 31мин | 17133 | 📕 Очень долго |
-| `docs/OUTLINE.md` | ~1ч 29мин | 20587 | 📕 Очень долго |
-| `docs/CODE_BLOCKS.md` | ~49 мин | 491 | 📕 Очень долго |
+| `docs/PARAGRAPH_QUALITY.md` | ~54 мин | 12019 | 📕 Очень долго |
+| `docs/CODE_BLOCKS.md` | ~49 мин | 496 | 📕 Очень долго |
 | `docs/04-ai-collaborations/00-intro.md` | ~49 мин | 10469 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` | ~41 мин | 9212 | 📕 Очень долго |
-| `docs/CONCEPTS.md` | ~40 мин | 9561 | 📕 Очень долго |
+| `docs/CONCEPTS.md` | ~40 мин | 9574 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/00-intro.md` | ~36 мин | 7725 | 📕 Очень долго |
 | `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` | ~35 мин | 8875 | 📕 Очень долго |
 | `docs/05-habr-projects/memory/memnet.md` | ~31 мин | 6610 | 📕 Очень долго |
 | `docs/SITEMAP.md` | ~29 мин | 7046 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/165-closing.md` | ~28 мин | 6065 | 📕 Очень долго |
-| `docs/PARAGRAPH_QUALITY.md` | ~24 мин | 5451 | 📕 Очень долго |
+| `docs/ACTION_ITEMS.md` | ~24 мин | 5335 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/133-обратная-связь.md` | ~23 мин | 3450 | 📕 Очень долго |
-| `docs/ACTION_ITEMS.md` | ~23 мин | 5227 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` | ~23 мин | 4657 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` | ~20 мин | 4371 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | ~20 мин | 3330 | 📕 Очень долго |
@@ -41,7 +41,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` | ~12 мин | 2079 | 📙 Долго |
 | `docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md` | ~12 мин | 2481 | 📙 Долго |
 | `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` | ~12 мин | 2261 | 📙 Долго |
-| `docs/READABILITY.md` | ~11 мин | 2391 | 📙 Долго |
+| `docs/READABILITY.md` | ~11 мин | 2379 | 📙 Долго |
 | `docs/nautilus/supply-demand/01-three-related-themes.md` | ~11 мин | 2662 | 📙 Долго |
 | `docs/nautilus/multi-tier-architecture/01-strategic-significance.md` | ~11 мин | 2470 | 📙 Долго |
 | `docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md` | ~10 мин | 2246 | 📙 Долго |
@@ -50,10 +50,10 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/representative-agent-layer-en/12-closing.md` | ~10 мин | 2440 | 📙 Долго |
 | `docs/lorenzo-agent/scenarios/01-response.md` | ~9 мин | 2223 | 📙 Долго |
 | `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` | ~8 мин | 1671 | 📙 Долго |
-| `docs/DECISIONS.md` | ~8 мин | 1789 | 📙 Долго |
-| `docs/TIMELINE.md` | ~8 мин | 1728 | 📙 Долго |
+| `docs/DUPLICATES.md` | ~8 мин | 1867 | 📙 Долго |
+| `docs/TIMELINE.md` | ~8 мин | 1741 | 📙 Долго |
 | `docs/glossary/components-by-name.md` | ~8 мин | 1984 | 📙 Долго |
-| `docs/QUESTIONS.md` | ~7 мин | 1670 | 📘 Средне |
+| `docs/QUESTIONS.md` | ~8 мин | 1697 | 📙 Долго |
 | `docs/nautilus/community-discussions/practical-observations/01-response.md` | ~7 мин | 1684 | 📘 Средне |
 | `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` | ~7 мин | 1846 | 📘 Средне |
 | `docs/01-svyazi/04-ensembles-overview.md` | ~7 мин | 1044 | 📘 Средне |
@@ -61,6 +61,7 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md` | ~7 мин | 1430 | 📘 Средне |
 | `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` | ~6 мин | 1309 | 📘 Средне |
 | `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | ~6 мин | 1464 | 📘 Средне |
+| `docs/DECISIONS.md` | ~6 мин | 1369 | 📘 Средне |
 | `docs/nautilus/double-triangle-architecture/11-glossary.md` | ~6 мин | 1476 | 📘 Средне |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md` | ~6 мин | 1308 | 📘 Средне |
 | `docs/nautilus/npp-v1-1/22-glossary.md` | ~6 мин | 1085 | 📘 Средне |
@@ -72,14 +73,14 @@ _Обновлено: 2026-04-29_
 | `docs/01-svyazi/03-component-catalog.md` | ~5 мин | 1376 | 📘 Средне |
 | `docs/svyazi-2-0/overview/projects-map.md` | ~5 мин | 1273 | 📘 Средне |
 | `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` | ~5 мин | 1219 | 📘 Средне |
+| `docs/CONTRADICTIONS.md` | ~5 мин | 1191 | 📘 Средне |
 | `docs/lorenzo-agent/naming/03-dhlab-umbrella.md` | ~5 мин | 1326 | 📘 Средне |
 | `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` | ~5 мин | 1192 | 📘 Средне |
 | `docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md` | ~5 мин | 1274 | 📘 Средне |
+| `docs/QA.md` | ~5 мин | 1111 | 📘 Средне |
 | `docs/nautilus/professional-colleague-agents-ru/06-riski.md` | ~5 мин | 1049 | 📘 Средне |
 | `docs/02-anthropic-vacancies/122-глоссарий.md` | ~5 мин | 1101 | 📘 Средне |
 | `docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md` | ~5 мин | 1028 | 📘 Средне |
-| `docs/CONTRADICTIONS.md` | ~5 мин | 1112 | 📘 Средне |
-| `docs/QA.md` | ~5 мин | 1091 | 📘 Средне |
 | `docs/01-svyazi/10-second-order-ensembles.md` | ~4 мин | 735 | 📘 Средне |
 | `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | ~4 мин | 1049 | 📘 Средне |
 | `docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md` | ~4 мин | 1014 | 📘 Средне |
@@ -106,8 +107,8 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/review-methodology/16-glossary.md` | ~4 мин | 857 | 📘 Средне |
 | `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` | ~3 мин | 775 | 📘 Средне |
 | `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md` | ~3 мин | 848 | 📘 Средне |
-| `docs/ABBREVIATIONS.md` | ~3 мин | 877 | 📘 Средне |
-| `docs/CHANGELOG.md` | ~3 мин | 955 | 📘 Средне |
+| `docs/ABBREVIATIONS.md` | ~3 мин | 874 | 📘 Средне |
+| `docs/CHANGELOG.md` | ~3 мин | 964 | 📘 Средне |
 | `docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md` | ~3 мин | 603 | 📘 Средне |
 | `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md` | ~3 мин | 778 | 📘 Средне |
 | `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` | ~3 мин | 949 | 📘 Средне |
@@ -116,6 +117,7 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md` | ~3 мин | 787 | 📘 Средне |
 | `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` | ~3 мин | 912 | 📘 Средне |
 | `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` | ~3 мин | 803 | 📘 Средне |
+| `docs/VERSION_DIFF.md` | ~3 мин | 756 | 📘 Средне |
 | `docs/nautilus/composite-skills-agents/08-seven-domains.md` | ~3 мин | 921 | 📘 Средне |
 | `docs/nautilus/review-methodology/13-appendix-b-examples.md` | ~3 мин | 156 | 📘 Средне |
 | `docs/01-svyazi/13-contacts.md` | ~3 мин | 764 | 📘 Средне |
@@ -132,7 +134,6 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md` | ~3 мин | 616 | 📘 Средне |
 | `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` | ~3 мин | 628 | 📘 Средне |
 | `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` | ~3 мин | 753 | 📘 Средне |
-| `docs/DUPLICATES.md` | ~3 мин | 796 | 📘 Средне |
 | `docs/nautilus/composite-skills-agents/03-what-makes-csa.md` | ~3 мин | 865 | 📘 Средне |
 | `docs/nautilus/representative-agent-layer-en/02-historical-precedents.md` | ~3 мин | 874 | 📘 Средне |
 | `docs/01-svyazi/06-security-privacy.md` | ~3 мин | 731 | 📘 Средне |
@@ -150,7 +151,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md` | ~3 мин | 708 | 📘 Средне |
 | `docs/lorenzo-agent/phased-deployment/08-current-session-poc.md` | ~3 мин | 714 | 📘 Средне |
 | `docs/nautilus/professional-colleague-agents-en/04-architecture.md` | ~3 мин | 817 | 📘 Средне |
-| `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md` | ~3 мин | 661 | 📘 Средне |
+| `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md` | ~3 мин | 668 | 📘 Средне |
 | `docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md` | ~3 мин | 662 | 📘 Средне |
 | `docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md` | ~3 мин | 667 | 📘 Средне |
 | `docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md` | ~3 мин | 669 | 📘 Средне |
@@ -180,7 +181,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` | ~3 мин | 752 | 📘 Средне |
 | `docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md` | ~2 мин | 617 | 📗 Быстро |
 | `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` | ~3 мин | 648 | 📘 Средне |
-| `docs/WORD_FREQ.md` | ~3 мин | 678 | 📘 Средне |
+| `docs/WORD_FREQ.md` | ~3 мин | 687 | 📘 Средне |
 | `docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md` | ~3 мин | 749 | 📘 Средне |
 | `docs/nautilus/composite-skills-agents/04-sub-agent-registry.md` | ~2 мин | 739 | 📗 Быстро |
 | `docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md` | ~3 мин | 756 | 📘 Средне |
@@ -191,6 +192,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/218-7-application-domains.md` | ~2 мин | 709 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md` | ~2 мин | 608 | 📗 Быстро |
 | `docs/03-technology-combinations/02-knowledge-graphs.md` | ~2 мин | 638 | 📗 Быстро |
+| `docs/README.md` | ~2 мин | 687 | 📗 Быстро |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md` | ~2 мин | 634 | 📗 Быстро |
 | `docs/lorenzo-agent/operationalized/02-minuses-1-10.md` | ~2 мин | 683 | 📗 Быстро |
 | `docs/nautilus/composite-skills-agents/06-coordination-disagreement.md` | ~2 мин | 714 | 📗 Быстро |
@@ -226,7 +228,7 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/ingit-cowork-en/10-strategic-positioning.md` | ~2 мин | 677 | 📗 Быстро |
 | `docs/nautilus/okwf-concept/03-why-existing-fail.md` | ~2 мин | 661 | 📗 Быстро |
 | `docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md` | ~2 мин | 558 | 📗 Быстро |
-| `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md` | ~2 мин | 547 | 📗 Быстро |
+| `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md` | ~2 мин | 554 | 📗 Быстро |
 | `docs/svyazi-2-0/architecture/gaps.md` | ~2 мин | 602 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` | ~2 мин | 640 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` | ~2 мин | 636 | 📗 Быстро |
@@ -235,7 +237,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` | ~2 мин | 647 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md` | ~2 мин | 439 | 📗 Быстро |
 | `docs/04-ai-collaborations/01-executive-summary.md` | ~2 мин | 560 | 📗 Быстро |
-| `docs/PRIORITIES.md` | ~2 мин | 632 | 📗 Быстро |
+| `docs/PRIORITIES.md` | ~2 мин | 633 | 📗 Быстро |
 | `docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md` | ~2 мин | 614 | 📗 Быстро |
 | `docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md` | ~2 мин | 528 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md` | ~2 мин | 546 | 📗 Быстро |
@@ -258,8 +260,8 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/infrastructure-layer-b-en/07-specific-case.md` | ~2 мин | 620 | 📗 Быстро |
 | `docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md` | ~2 мин | 413 | 📗 Быстро |
 | `docs/nautilus/okwf-concept/02-target-populations.md` | ~2 мин | 610 | 📗 Быстро |
-| `docs/nautilus/transmission-box/00-question-mountain-to-person.md` | ~2 мин | 509 | 📗 Быстро |
-| `docs/technology-combinations/combinations/README.md` | ~2 мин | 602 | 📗 Быстро |
+| `docs/nautilus/representative-agent-layer-ru/08-riski-mery.md` | ~2 мин | 502 | 📗 Быстро |
+| `docs/nautilus/transmission-box/00-question-mountain-to-person.md` | ~2 мин | 516 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/162-8-risk-analysis.md` | ~2 мин | 590 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/174-5-architectural-specification.md` | ~2 мин | 592 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` | ~2 мин | 601 | 📗 Быстро |
@@ -268,7 +270,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` | ~2 мин | 521 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | ~2 мин | 514 | 📗 Быстро |
 | `docs/GITHUB_ISSUES.md` | ~2 мин | 393 | 📗 Быстро |
-| `docs/KPI.md` | ~2 мин | 510 | 📗 Быстро |
+| `docs/KPI.md` | ~2 мин | 508 | 📗 Быстро |
 | `docs/ONBOARDING.md` | ~2 мин | 291 | 📗 Быстро |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md` | ~2 мин | 503 | 📗 Быстро |
 | `docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md` | ~2 мин | 491 | 📗 Быстро |
@@ -276,6 +278,7 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/ingit-cowork-en/01-cowork-discovery.md` | ~2 мин | 606 | 📗 Быстро |
 | `docs/nautilus/ingit-cowork-en/02-cowork-provides.md` | ~2 мин | 593 | 📗 Быстро |
 | `docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md` | ~2 мин | 498 | 📗 Быстро |
+| `docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md` | ~2 мин | 498 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/12-onboarding-paths.md` | ~2 мин | 308 | 📗 Быстро |
 | `docs/nautilus/okwf-concept/08-risk-analysis.md` | ~2 мин | 586 | 📗 Быстро |
 | `docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md` | ~2 мин | 600 | 📗 Быстро |
@@ -296,7 +299,6 @@ _Обновлено: 2026-04-29_
 | `docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md` | ~2 мин | 519 | 📗 Быстро |
 | `docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md` | ~2 мин | 424 | 📗 Быстро |
 | `docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md` | ~2 мин | 547 | 📗 Быстро |
-| `docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md` | ~2 мин | 459 | 📗 Быстро |
 | `docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md` | ~2 мин | 506 | 📗 Быстро |
 | `docs/nautilus/okwf-concept/01-problem-statement.md` | ~2 мин | 548 | 📗 Быстро |
 | `docs/nautilus/okwf-concept/07-phased-rollout.md` | ~2 мин | 555 | 📗 Быстро |
@@ -304,14 +306,14 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` | ~2 мин | 512 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md` | ~2 мин | 441 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-ru/00-intro.md` | ~2 мин | 470 | 📗 Быстро |
-| `docs/nautilus/representative-agent-layer-ru/08-riski-mery.md` | ~2 мин | 433 | 📗 Быстро |
+| `docs/nautilus/ingit-cowork-en/09-risks-open-questions.md` | ~2 мин | 513 | 📗 Быстро |
 | `docs/nautilus/supply-demand/00-question-supply-demand.md` | ~2 мин | 426 | 📗 Быстро |
 | `docs/technology-combinations/combinations/14-local-first-agent-development-environment.md` | ~2 мин | 498 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | ~2 мин | 217 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` | ~2 мин | 414 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/279-existing-approximations.md` | ~2 мин | 502 | 📗 Быстро |
 | `docs/TECH_RADAR.md` | ~2 мин | 331 | 📗 Быстро |
-| `docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md` | ~1 мин | 434 | 📗 Быстро |
+| `docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md` | ~2 мин | 446 | 📗 Быстро |
 | `docs/ai-collaborations/source-projects.md` | ~2 мин | 468 | 📗 Быстро |
 | `docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md` | ~2 мин | 426 | 📗 Быстро |
 | `docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md` | ~1 мин | 439 | 📗 Быстро |
@@ -328,10 +330,9 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | ~1 мин | 195 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/264-11-open-questions.md` | ~1 мин | 475 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` | ~1 мин | 379 | 📗 Быстро |
-| `docs/ai-collaborations/continuation/01-shared-memory-between-agents.md` | ~1 мин | 398 | 📗 Быстро |
+| `docs/ai-collaborations/continuation/01-shared-memory-between-agents.md` | ~1 мин | 410 | 📗 Быстро |
 | `docs/lorenzo-agent/operationalized/01-pluses-1-7.md` | ~1 мин | 426 | 📗 Быстро |
 | `docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md` | ~1 мин | 469 | 📗 Быстро |
-| `docs/nautilus/ingit-cowork-en/09-risks-open-questions.md` | ~1 мин | 470 | 📗 Быстро |
 | `docs/nautilus/npp-v1-0/18-comment-on-document.md` | ~1 мин | 405 | 📗 Быстро |
 | `docs/nautilus/professional-colleague-agents-en/12-closing.md` | ~1 мин | 458 | 📗 Быстро |
 | `docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md` | ~1 мин | 393 | 📗 Быстро |
@@ -347,7 +348,6 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` | ~1 мин | 453 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` | ~1 мин | 289 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/81-6-adapter-interface.md` | ~1 мин | 186 | 📗 Быстро |
-| `docs/README.md` | ~1 мин | 427 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md` | ~1 мин | 388 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md` | ~1 мин | 385 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/3-forensic-rag.md` | ~1 мин | 383 | 📗 Быстро |
@@ -378,6 +378,7 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/representative-agent-layer-en/06-ethical-framework.md` | ~1 мин | 425 | 📗 Быстро |
 | `docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md` | ~1 мин | 342 | 📗 Быстро |
 | `docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md` | ~1 мин | 401 | 📗 Быстро |
+| `docs/technology-combinations/combinations/README.md` | ~1 мин | 429 | 📗 Быстро |
 | `docs/01-svyazi/02-methodology.md` | ~1 мин | 334 | 📗 Быстро |
 | `docs/01-svyazi/08-conclusions.md` | ~1 мин | 344 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/130-отладка.md` | ~1 мин | 145 | 📗 Быстро |
@@ -391,6 +392,8 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/83-8-q6-space-normative.md` | ~1 мин | 233 | 📗 Быстро |
 | `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md` | ~1 мин | 342 | 📗 Быстро |
 | `docs/BROKEN_LINKS.md` | ~1 мин | 325 | 📗 Быстро |
+| `docs/NAMED_ENTITIES.md` | ~1 мин | 352 | 📗 Быстро |
+| `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md` | ~1 мин | 351 | 📗 Быстро |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md` | ~1 мин | 337 | 📗 Быстро |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md` | ~1 мин | 359 | 📗 Быстро |
 | `docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md` | ~1 мин | 351 | 📗 Быстро |
@@ -416,8 +419,6 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/296-рекурсивное-прозрение.md` | ~1 мин | 297 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md` | ~1 мин | 112 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` | ~1 мин | 114 | 📗 Быстро |
-| `docs/NAMED_ENTITIES.md` | ~1 мин | 345 | 📗 Быстро |
-| `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md` | ~1 мин | 339 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/6-continuous-eval-loop.md` | ~1 мин | 327 | 📗 Быстро |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md` | ~1 мин | 319 | 📗 Быстро |
 | `docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md` | ~1 мин | 376 | 📗 Быстро |
@@ -428,13 +429,12 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md` | ~1 мин | 311 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/08-q6-space.md` | ~1 мин | 229 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/14-sdk.md` | ~1 мин | 124 | 📗 Быстро |
-| `docs/nautilus/npp-v1-1/README.md` | ~1 мин | 342 | 📗 Быстро |
 | `docs/nautilus/professional-colleague-agents-en/00-abstract.md` | ~1 мин | 362 | 📗 Быстро |
 | `docs/nautilus/professional-colleague-agents-ru/10-otkrytye-voprosy.md` | ~1 мин | 295 | 📗 Быстро |
 | `docs/nautilus/representative-agent-layer-en/07-governance-oversight.md` | ~1 мин | 373 | 📗 Быстро |
 | `docs/nautilus/review-methodology/04-fallback-ratio-question.md` | ~1 мин | 222 | 📗 Быстро |
 | `docs/svyazi-2-0/ensembles/C-multi-agent-factory.md` | ~1 мин | 213 | 📗 Быстро |
-| `docs/svyazi-2-0/ensembles/D-voice-first-mesh.md` | ~1 мин | 221 | 📗 Быстро |
+| `docs/svyazi-2-0/ensembles/D-voice-first-mesh.md` | ~1 мин | 231 | 📗 Быстро |
 | `docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md` | ~1 мин | 213 | 📗 Быстро |
 | `docs/svyazi-2-0/limitations/conclusions.md` | ~1 мин | 321 | 📗 Быстро |
 | `docs/technology-combinations/synthesis-tables/01-08-summary.md` | ~1 мин | 344 | 📗 Быстро |
@@ -456,7 +456,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/79-4-passport-passport-md.md` | ~1 мин | 203 | 📗 Быстро |
 | `docs/03-technology-combinations/03-local-first.md` | ~1 мин | 304 | 📗 Быстро |
 | `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md` | ~1 мин | 303 | 📗 Быстро |
-| `docs/GRAPH.md` | ~1 мин | 100 | 📗 Быстро |
+| `docs/GRAPH.md` | ~1 мин | 95 | 📗 Быстро |
 | `docs/REPORT.md` | ~1 мин | 189 | 📗 Быстро |
 | `docs/ai-collaborations/candidates/01-three-key-candidates.md` | ~1 мин | 302 | 📗 Быстро |
 | `docs/ai-collaborations/continuation/05-roadmap-6-12-months.md` | ~1 мин | 309 | 📗 Быстро |
@@ -469,7 +469,6 @@ _Обновлено: 2026-04-29_
 | `docs/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md` | ~1 мин | 303 | 📗 Быстро |
 | `docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md` | ~1 мин | 301 | 📗 Быстро |
 | `docs/habr-unique-projects/hardware-pairs/7-metaphor.md` | ~1 мин | 299 | 📗 Быстро |
-| `docs/lorenzo-agent/README.md` | ~1 мин | 321 | 📗 Быстро |
 | `docs/nautilus/composite-skills-agents/12-call-for-collaboration.md` | ~1 мин | 334 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md` | ~1 мин | 350 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md` | ~1 мин | 338 | 📗 Быстро |
@@ -489,7 +488,8 @@ _Обновлено: 2026-04-29_
 | `docs/svyazi-2-0/ensembles/B-forensic-rag.md` | ~1 мин | 201 | 📗 Быстро |
 | `docs/svyazi-2-0/ensembles/E-execution-plane.md` | ~1 мин | 207 | 📗 Быстро |
 | `docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md` | ~1 мин | 199 | 📗 Быстро |
-| `docs/svyazi-2-0/security/default-policy.md` | ~1 мин | 301 | 📗 Быстро |
+| `docs/svyazi-2-0/security/budget-routing.md` | ~1 мин | 296 | 📗 Быстро |
+| `docs/svyazi-2-0/security/default-policy.md` | ~1 мин | 313 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/06-1-introduction.md` | ~1 мин | 276 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/153-executive-summary.md` | ~1 мин | 317 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/230-аннотация.md` | ~1 мин | 257 | 📗 Быстро |
@@ -505,6 +505,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/QA.md` | ~1 мин | 284 | 📗 Быстро |
 | `docs/FOOTNOTES.md` | ~1 мин | 176 | 📗 Быстро |
 | `docs/MINDMAP.md` | ~1 мин | 70 | 📗 Быстро |
+| `docs/VALIDATION.md` | ~1 мин | 270 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md` | ~1 мин | 289 | 📗 Быстро |
 | `docs/ai-collaborations/fast-tracks/README.md` | ~1 мин | 278 | 📗 Быстро |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md` | ~1 мин | 289 | 📗 Быстро |
@@ -522,7 +523,6 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md` | ~1 мин | 266 | 📗 Быстро |
 | `docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md` | ~1 мин | 284 | 📗 Быстро |
 | `docs/nautilus/npp-v1-0/03-registry.md` | ~1 мин | 170 | 📗 Быстро |
-| `docs/nautilus/npp-v1-0/README.md` | ~1 мин | 290 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/00-abstract-status.md` | ~1 мин | 277 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/02-terminology.md` | ~1 мин | 277 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/04-passport.md` | ~1 мин | 186 | 📗 Быстро |
@@ -532,7 +532,6 @@ _Обновлено: 2026-04-29_
 | `docs/svyazi-2-0/outreach/narrow-questions.md` | ~1 мин | 288 | 📗 Быстро |
 | `docs/svyazi-2-0/prototype/mvp-plan.md` | ~1 мин | 276 | 📗 Быстро |
 | `docs/svyazi-2-0/prototype/risks.md` | ~1 мин | 277 | 📗 Быстро |
-| `docs/svyazi-2-0/security/budget-routing.md` | ~1 мин | 284 | 📗 Быстро |
 | `docs/technology-combinations/synthesis-tables/25-30-extended.md` | ~1 мин | 191 | 📗 Быстро |
 | `docs/technology-combinations/synthesis-tables/31-35-final.md` | ~1 мин | 200 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` | ~1 мин | 164 | 📗 Быстро |
@@ -576,9 +575,8 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/npp-v1-0/01-introduction.md` | ~1 мин | 250 | 📗 Быстро |
 | `docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md` | ~1 мин | 260 | 📗 Быстро |
 | `docs/nautilus/professional-colleague-agents-ru/11-prizyv-k-sotrudnichestvu.md` | ~1 мин | 235 | 📗 Быстро |
-| `docs/nautilus/review-methodology/06-relation-existing-methodologies.md` | ~1 мин | 256 | 📗 Быстро |
+| `docs/nautilus/review-methodology/06-relation-existing-methodologies.md` | ~1 мин | 268 | 📗 Быстро |
 | `docs/nautilus/review-methodology/11-application-plan-current-docs.md` | ~1 мин | 158 | 📗 Быстро |
-| `docs/nautilus/review-methodology/README.md` | ~1 мин | 273 | 📗 Быстро |
 | `docs/svyazi-2-0/limitations/license-tree.md` | ~1 мин | 259 | 📗 Быстро |
 | `docs/svyazi-2-0/overview/continuation-intro.md` | ~1 мин | 261 | 📗 Быстро |
 | `docs/svyazi-2-0/overview/methodology.md` | ~1 мин | 258 | 📗 Быстро |
@@ -596,12 +594,10 @@ _Обновлено: 2026-04-29_
 | `docs/COMPONENT_MATRIX.md` | ~1 мин | 252 | 📗 Быстро |
 | `docs/COST.md` | ~1 мин | 229 | 📗 Быстро |
 | `docs/HEATMAP.md` | ~1 мин | 124 | 📗 Быстро |
-| `docs/VOCABULARY.md` | ~1 мин | 222 | 📗 Быстро |
 | `docs/ai-collaborations/continuation/09-do-not-glue.md` | ~1 мин | 242 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/9-ambient-team-agent.md` | ~1 мин | 248 | 📗 Быстро |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md` | ~1 мин | 245 | 📗 Быстро |
 | `docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md` | ~1 мин | 250 | 📗 Быстро |
-| `docs/anthropic-vacancies/clusters/README.md` | ~1 мин | 244 | 📗 Быстро |
 | `docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md` | ~1 мин | 233 | 📗 Быстро |
 | `docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md` | ~1 мин | 269 | 📗 Быстро |
 | `docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md` | ~1 мин | 252 | 📗 Быстро |
@@ -637,6 +633,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` | ~1 мин | 220 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | ~1 мин | 141 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` | ~1 мин | 173 | 📗 Быстро |
+| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | ~1 мин | 57 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | ~1 мин | 64 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/123-portal-mcp-py.md` | ~1 мин | 121 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` | ~1 мин | 133 | 📗 Быстро |
@@ -790,11 +787,11 @@ _Обновлено: 2026-04-29_
 | `docs/AUTHORS.md` | ~1 мин | 65 | 📗 Быстро |
 | `docs/AUTOFILLED.md` | ~1 мин | 128 | 📗 Быстро |
 | `docs/CHANGELOG_AUTO.md` | ~1 мин | 251 | 📗 Быстро |
-| `docs/CITATION_INDEX.md` | ~1 мин | 59 | 📗 Быстро |
+| `docs/CITATION_INDEX.md` | ~1 мин | 61 | 📗 Быстро |
 | `docs/COMPARE.md` | ~1 мин | 62 | 📗 Быстро |
 | `docs/COMPLEXITY.md` | ~1 мин | 118 | 📗 Быстро |
-| `docs/CONCEPT_GRAPH.md` | ~1 мин | 107 | 📗 Быстро |
-| `docs/CONSISTENCY.md` | ~1 мин | 82 | 📗 Быстро |
+| `docs/CONCEPT_GRAPH.md` | ~1 мин | 94 | 📗 Быстро |
+| `docs/CONSISTENCY.md` | ~1 мин | 86 | 📗 Быстро |
 | `docs/CONTENT_GAPS.md` | ~1 мин | 152 | 📗 Быстро |
 | `docs/CROSSREFS.md` | ~1 мин | 243 | 📗 Быстро |
 | `docs/DENSITY.md` | ~1 мин | 125 | 📗 Быстро |
@@ -802,31 +799,32 @@ _Обновлено: 2026-04-29_
 | `docs/DIGEST.md` | ~1 мин | 201 | 📗 Быстро |
 | `docs/ENTITIES.md` | ~1 мин | 164 | 📗 Быстро |
 | `docs/GLOSSARY.md` | ~1 мин | 79 | 📗 Быстро |
-| `docs/HEALTH.md` | ~1 мин | 77 | 📗 Быстро |
+| `docs/HEALTH.md` | ~1 мин | 74 | 📗 Быстро |
 | `docs/KEYWORD_INDEX.md` | ~1 мин | 78 | 📗 Быстро |
 | `docs/LLM_SUMMARIES.md` | ~1 мин | 177 | 📗 Быстро |
 | `docs/METRICS.md` | ~1 мин | 142 | 📗 Быстро |
 | `docs/MISSING.md` | ~1 мин | 116 | 📗 Быстро |
-| `docs/NETWORK.md` | ~1 мин | 161 | 📗 Быстро |
+| `docs/NETWORK.md` | ~1 мин | 162 | 📗 Быстро |
 | `docs/ORPHANS.md` | ~1 мин | 73 | 📗 Быстро |
 | `docs/SCHEDULE.md` | ~1 мин | 91 | 📗 Быстро |
 | `docs/SCORING.md` | ~1 мин | 126 | 📗 Быстро |
 | `docs/SEE_ALSO.md` | ~1 мин | 72 | 📗 Быстро |
 | `docs/SENTIMENT.md` | ~1 мин | 118 | 📗 Быстро |
 | `docs/SIMILAR.md` | ~1 мин | 54 | 📗 Быстро |
-| `docs/SOURCE_MAP.md` | ~1 мин | 95 | 📗 Быстро |
+| `docs/SOURCE_MAP.md` | ~1 мин | 99 | 📗 Быстро |
 | `docs/STALENESS.md` | ~1 мин | 106 | 📗 Быстро |
 | `docs/STATS.md` | ~1 мин | 76 | 📗 Быстро |
 | `docs/TAGS.md` | ~1 мин | 69 | 📗 Быстро |
-| `docs/VALIDATION.md` | ~1 мин | 182 | 📗 Быстро |
+| `docs/VOCABULARY.md` | ~1 мин | 208 | 📗 Быстро |
 | `docs/WORD_CLOUD.md` | ~1 мин | 87 | 📗 Быстро |
 | `docs/ai-collaborations/candidates/02-related-projects-context.md` | ~1 мин | 204 | 📗 Быстро |
 | `docs/ai-collaborations/continuation/06-metrics-tree.md` | ~1 мин | 199 | 📗 Быстро |
 | `docs/ai-collaborations/continuation/10-architecture-rfc.md` | ~1 мин | 175 | 📗 Быстро |
-| `docs/ai-collaborations/continuation/README.md` | ~1 мин | 137 | 📗 Быстро |
-| `docs/ai-collaborations/ensembles/README.md` | ~1 мин | 123 | 📗 Быстро |
-| `docs/anthropic-vacancies/README.md` | ~1 мин | 109 | 📗 Быстро |
-| `docs/anthropic-vacancies/ai-managed-virtual-company/README.md` | ~1 мин | 189 | 📗 Быстро |
+| `docs/ai-collaborations/continuation/README.md` | ~1 мин | 89 | 📗 Быстро |
+| `docs/ai-collaborations/ensembles/README.md` | ~1 мин | 79 | 📗 Быстро |
+| `docs/anthropic-vacancies/QA.md` | ~1 мин | 53 | 📗 Быстро |
+| `docs/anthropic-vacancies/README.md` | ~1 мин | 99 | 📗 Быстро |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/README.md` | ~1 мин | 93 | 📗 Быстро |
 | `docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md` | ~1 мин | 177 | 📗 Быстро |
 | `docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md` | ~1 мин | 160 | 📗 Быстро |
 | `docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md` | ~1 мин | 175 | 📗 Быстро |
@@ -837,7 +835,7 @@ _Обновлено: 2026-04-29_
 | `docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md` | ~1 мин | 163 | 📗 Быстро |
 | `docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md` | ~1 мин | 156 | 📗 Быстро |
 | `docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md` | ~1 мин | 211 | 📗 Быстро |
-| `docs/anthropic-vacancies/beneficial-deployments-concept/README.md` | ~1 мин | 191 | 📗 Быстро |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/README.md` | ~1 мин | 96 | 📗 Быстро |
 | `docs/anthropic-vacancies/clusters/01-ai-research-engineering.md` | ~1 мин | 130 | 📗 Быстро |
 | `docs/anthropic-vacancies/clusters/02-sales.md` | ~1 мин | 141 | 📗 Быстро |
 | `docs/anthropic-vacancies/clusters/03-finance.md` | ~1 мин | 110 | 📗 Быстро |
@@ -854,10 +852,11 @@ _Обновлено: 2026-04-29_
 | `docs/anthropic-vacancies/clusters/14-public-policy.md` | ~1 мин | 86 | 📗 Быстро |
 | `docs/anthropic-vacancies/clusters/15-public-benefit.md` | ~1 мин | 85 | 📗 Быстро |
 | `docs/anthropic-vacancies/clusters/16-people.md` | ~1 мин | 79 | 📗 Быстро |
+| `docs/anthropic-vacancies/clusters/README.md` | ~1 мин | 100 | 📗 Быстро |
 | `docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md` | ~1 мин | 155 | 📗 Быстро |
 | `docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md` | ~1 мин | 209 | 📗 Быстро |
 | `docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md` | ~1 мин | 174 | 📗 Быстро |
-| `docs/anthropic-vacancies/extra-collaborator-findings/README.md` | ~1 мин | 113 | 📗 Быстро |
+| `docs/anthropic-vacancies/extra-collaborator-findings/README.md` | ~1 мин | 59 | 📗 Быстро |
 | `docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md` | ~1 мин | 205 | 📗 Быстро |
 | `docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md` | ~1 мин | 145 | 📗 Быстро |
 | `docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md` | ~1 мин | 138 | 📗 Быстро |
@@ -869,14 +868,13 @@ _Обновлено: 2026-04-29_
 | `docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md` | ~1 мин | 164 | 📗 Быстро |
 | `docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md` | ~1 мин | 165 | 📗 Быстро |
 | `docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md` | ~1 мин | 214 | 📗 Быстро |
-| `docs/anthropic-vacancies/hermes-comparison/README.md` | ~1 мин | 234 | 📗 Быстро |
+| `docs/anthropic-vacancies/hermes-comparison/README.md` | ~1 мин | 124 | 📗 Быстро |
 | `docs/anthropic-vacancies/methodology.md` | ~1 мин | 90 | 📗 Быстро |
 | `docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md` | ~1 мин | 145 | 📗 Быстро |
-| `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` | ~1 мин | 113 | 📗 Быстро |
-| `docs/anthropic-vacancies/nautilus-pro2-analysis/README.md` | ~1 мин | 75 | 📗 Быстро |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` | ~1 мин | 60 | 📗 Быстро |
 | `docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md` | ~1 мин | 217 | 📗 Быстро |
 | `docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md` | ~1 мин | 183 | 📗 Быстро |
-| `docs/anthropic-vacancies/nautilus-vs-camel/README.md` | ~1 мин | 125 | 📗 Быстро |
+| `docs/anthropic-vacancies/nautilus-vs-camel/README.md` | ~1 мин | 73 | 📗 Быстро |
 | `docs/anthropic-vacancies/overview.md` | ~1 мин | 222 | 📗 Быстро |
 | `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md` | ~1 мин | 177 | 📗 Быстро |
 | `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md` | ~1 мин | 228 | 📗 Быстро |
@@ -884,11 +882,9 @@ _Обновлено: 2026-04-29_
 | `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md` | ~1 мин | 163 | 📗 Быстро |
 | `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md` | ~1 мин | 174 | 📗 Быстро |
 | `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md` | ~1 мин | 188 | 📗 Быстро |
-| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md` | ~1 мин | 142 | 📗 Быстро |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md` | ~1 мин | 71 | 📗 Быстро |
 | `docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md` | ~1 мин | 207 | 📗 Быстро |
-| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md` | ~1 мин | 88 | 📗 Быстро |
 | `docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md` | ~1 мин | 176 | 📗 Быстро |
-| `docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md` | ~1 мин | 87 | 📗 Быстро |
 | `docs/anthropic-vacancies/profile-mapping/README.md` | ~1 мин | 126 | 📗 Быстро |
 | `docs/anthropic-vacancies/signals.md` | ~1 мин | 230 | 📗 Быстро |
 | `docs/contacts/README.md` | ~1 мин | 66 | 📗 Быстро |
@@ -906,9 +902,8 @@ _Обновлено: 2026-04-29_
 | `docs/contacts/vitalyoborin.md` | ~1 мин | 79 | 📗 Быстро |
 | `docs/contacts/vladspace.md` | ~1 мин | 70 | 📗 Быстро |
 | `docs/contacts/zodigancode.md` | ~1 мин | 67 | 📗 Быстро |
-| `docs/glossary/README.md` | ~1 мин | 58 | 📗 Быстро |
 | `docs/habr-unique-projects/README.md` | ~1 мин | 232 | 📗 Быстро |
-| `docs/habr-unique-projects/deep-pairs/README.md` | ~1 мин | 104 | 📗 Быстро |
+| `docs/habr-unique-projects/deep-pairs/README.md` | ~1 мин | 64 | 📗 Быстро |
 | `docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md` | ~1 мин | 194 | 📗 Быстро |
 | `docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md` | ~1 мин | 165 | 📗 Быстро |
 | `docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md` | ~1 мин | 158 | 📗 Быстро |
@@ -917,17 +912,15 @@ _Обновлено: 2026-04-29_
 | `docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md` | ~1 мин | 204 | 📗 Быстро |
 | `docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md` | ~1 мин | 202 | 📗 Быстро |
 | `docs/habr-unique-projects/extra-examples/09-federated-platform.md` | ~1 мин | 191 | 📗 Быстро |
-| `docs/habr-unique-projects/extra-examples/README.md` | ~1 мин | 216 | 📗 Быстро |
+| `docs/habr-unique-projects/extra-examples/README.md` | ~1 мин | 114 | 📗 Быстро |
 | `docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md` | ~1 мин | 162 | 📗 Быстро |
 | `docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md` | ~1 мин | 164 | 📗 Быстро |
 | `docs/habr-unique-projects/final-ensembles/3-discovery-research.md` | ~1 мин | 127 | 📗 Быстро |
-| `docs/habr-unique-projects/final-ensembles/README.md` | ~1 мин | 52 | 📗 Быстро |
-| `docs/habr-unique-projects/hardware-pairs/README.md` | ~1 мин | 85 | 📗 Быстро |
+| `docs/habr-unique-projects/hardware-pairs/README.md` | ~1 мин | 50 | 📗 Быстро |
 | `docs/habr-unique-projects/key-findings/01-yodoca.md` | ~1 мин | 223 | 📗 Быстро |
 | `docs/habr-unique-projects/key-findings/02-memnet.md` | ~1 мин | 199 | 📗 Быстро |
 | `docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md` | ~1 мин | 220 | 📗 Быстро |
-| `docs/habr-unique-projects/key-findings/README.md` | ~1 мин | 72 | 📗 Быстро |
-| `docs/habr-unique-projects/software-pairs/README.md` | ~1 мин | 80 | 📗 Быстро |
+| `docs/habr-unique-projects/software-pairs/README.md` | ~1 мин | 50 | 📗 Быстро |
 | `docs/lorenzo-agent/01-kto-ty.md` | ~1 мин | 147 | 📗 Быстро |
 | `docs/lorenzo-agent/02-tvoyo-proishozhdenie.md` | ~1 мин | 157 | 📗 Быстро |
 | `docs/lorenzo-agent/03-tvoya-missiya.md` | ~1 мин | 145 | 📗 Быстро |
@@ -947,9 +940,9 @@ _Обновлено: 2026-04-29_
 | `docs/lorenzo-agent/19-persistent-character.md` | ~1 мин | 157 | 📗 Быстро |
 | `docs/lorenzo-agent/20-experiment.md` | ~1 мин | 144 | 📗 Быстро |
 | `docs/lorenzo-agent/QA.md` | ~1 мин | 167 | 📗 Быстро |
-| `docs/lorenzo-agent/naming/README.md` | ~1 мин | 73 | 📗 Быстро |
+| `docs/lorenzo-agent/README.md` | ~1 мин | 162 | 📗 Быстро |
 | `docs/lorenzo-agent/operationalized/03-honest-opinion.md` | ~1 мин | 176 | 📗 Быстро |
-| `docs/lorenzo-agent/operationalized/README.md` | ~1 мин | 110 | 📗 Быстро |
+| `docs/lorenzo-agent/operationalized/README.md` | ~1 мин | 50 | 📗 Быстро |
 | `docs/lorenzo-agent/phased-deployment/00-overview.md` | ~1 мин | 159 | 📗 Быстро |
 | `docs/lorenzo-agent/phased-deployment/01-level-0-manual.md` | ~1 мин | 171 | 📗 Быстро |
 | `docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md` | ~1 мин | 226 | 📗 Быстро |
@@ -958,7 +951,7 @@ _Обновлено: 2026-04-29_
 | `docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md` | ~1 мин | 182 | 📗 Быстро |
 | `docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md` | ~1 мин | 142 | 📗 Быстро |
 | `docs/lorenzo-agent/phased-deployment/07-progression-logic.md` | ~1 мин | 173 | 📗 Быстро |
-| `docs/lorenzo-agent/phased-deployment/README.md` | ~1 мин | 140 | 📗 Быстро |
+| `docs/lorenzo-agent/phased-deployment/README.md` | ~1 мин | 69 | 📗 Быстро |
 | `docs/lorenzo-agent/scenarios/00-question-scenario.md` | ~1 мин | 180 | 📗 Быстро |
 | `docs/lorenzo-agent/specification/00-context-fundamental-questions.md` | ~1 мин | 194 | 📗 Быстро |
 | `docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md` | ~1 мин | 226 | 📗 Быстро |
@@ -969,30 +962,29 @@ _Обновлено: 2026-04-29_
 | `docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md` | ~1 мин | 198 | 📗 Быстро |
 | `docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md` | ~1 мин | 198 | 📗 Быстро |
 | `docs/lorenzo-agent/specification/10-q10-funding-model.md` | ~1 мин | 228 | 📗 Быстро |
-| `docs/lorenzo-agent/specification/README.md` | ~1 мин | 181 | 📗 Быстро |
+| `docs/lorenzo-agent/specification/README.md` | ~1 мин | 86 | 📗 Быстро |
 | `docs/nautilus/community-discussions/README.md` | ~1 мин | 76 | 📗 Быстро |
 | `docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md` | ~1 мин | 215 | 📗 Быстро |
 | `docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md` | ~1 мин | 63 | 📗 Быстро |
 | `docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md` | ~1 мин | 157 | 📗 Быстро |
-| `docs/nautilus/composite-skills-agents/README.md` | ~1 мин | 208 | 📗 Быстро |
-| `docs/nautilus/composite-skills-agents-companion-mentors/README.md` | ~1 мин | 71 | 📗 Быстро |
+| `docs/nautilus/composite-skills-agents/README.md` | ~1 мин | 97 | 📗 Быстро |
 | `docs/nautilus/double-triangle-architecture/09-acknowledgments.md` | ~1 мин | 197 | 📗 Быстро |
 | `docs/nautilus/double-triangle-architecture/10-references.md` | ~1 мин | 224 | 📗 Быстро |
-| `docs/nautilus/double-triangle-architecture/README.md` | ~1 мин | 195 | 📗 Быстро |
+| `docs/nautilus/double-triangle-architecture/README.md` | ~1 мин | 94 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-en/00-intro.md` | ~1 мин | 137 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-en/10-what-not-solved.md` | ~1 мин | 208 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-en/12-closing.md` | ~1 мин | 186 | 📗 Быстро |
-| `docs/nautilus/infrastructure-layer-b-en/README.md` | ~1 мин | 227 | 📗 Быстро |
-| `docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md` | ~1 мин | 187 | 📗 Быстро |
+| `docs/nautilus/infrastructure-layer-b-en/README.md` | ~1 мин | 102 | 📗 Быстро |
+| `docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md` | ~1 мин | 199 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md` | ~1 мин | 204 | 📗 Быстро |
-| `docs/nautilus/infrastructure-layer-b-ru/README.md` | ~1 мин | 194 | 📗 Быстро |
-| `docs/nautilus/ingit-cowork-en/README.md` | ~1 мин | 165 | 📗 Быстро |
-| `docs/nautilus/ingit-cowork-ru/README.md` | ~1 мин | 165 | 📗 Быстро |
+| `docs/nautilus/infrastructure-layer-b-ru/README.md` | ~1 мин | 80 | 📗 Быстро |
+| `docs/nautilus/ingit-cowork-en/README.md` | ~1 мин | 77 | 📗 Быстро |
+| `docs/nautilus/ingit-cowork-ru/README.md` | ~1 мин | 79 | 📗 Быстро |
 | `docs/nautilus/multi-tier-architecture/00-question-multi-tier.md` | ~1 мин | 202 | 📗 Быстро |
 | `docs/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md` | ~1 мин | 219 | 📗 Быстро |
 | `docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md` | ~1 мин | 173 | 📗 Быстро |
 | `docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md` | ~1 мин | 145 | 📗 Быстро |
-| `docs/nautilus/npp-humanitarian-extension/README.md` | ~1 мин | 119 | 📗 Быстро |
+| `docs/nautilus/npp-humanitarian-extension/README.md` | ~1 мин | 72 | 📗 Быстро |
 | `docs/nautilus/npp-v1-0/00-abstract-status.md` | ~1 мин | 161 | 📗 Быстро |
 | `docs/nautilus/npp-v1-0/02-terminology.md` | ~1 мин | 194 | 📗 Быстро |
 | `docs/nautilus/npp-v1-0/04-passport.md` | ~1 мин | 108 | 📗 Быстро |
@@ -1006,6 +998,7 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/npp-v1-0/13-reference-implementation.md` | ~1 мин | 99 | 📗 Быстро |
 | `docs/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md` | ~1 мин | 192 | 📗 Быстро |
 | `docs/nautilus/npp-v1-0/17-appendix-b-change-log.md` | ~1 мин | 84 | 📗 Быстро |
+| `docs/nautilus/npp-v1-0/README.md` | ~1 мин | 123 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/05-compatibility-levels.md` | ~1 мин | 226 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/10-query-flow.md` | ~1 мин | 172 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/11-relevance-ranking.md` | ~1 мин | 107 | 📗 Быстро |
@@ -1016,32 +1009,33 @@ _Обновлено: 2026-04-29_
 | `docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md` | ~1 мин | 204 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md` | ~1 мин | 184 | 📗 Быстро |
 | `docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md` | ~1 мин | 162 | 📗 Быстро |
-| `docs/nautilus/okwf-concept/README.md` | ~1 мин | 169 | 📗 Быстро |
-| `docs/nautilus/privacy-federation/README.md` | ~1 мин | 90 | 📗 Быстро |
+| `docs/nautilus/npp-v1-1/README.md` | ~1 мин | 141 | 📗 Быстро |
+| `docs/nautilus/okwf-concept/README.md` | ~1 мин | 73 | 📗 Быстро |
+| `docs/nautilus/privacy-federation/README.md` | ~1 мин | 51 | 📗 Быстро |
 | `docs/nautilus/professional-colleague-agents-en/11-call-for-collaboration.md` | ~1 мин | 253 | 📗 Быстро |
-| `docs/nautilus/professional-colleague-agents-en/README.md` | ~1 мин | 205 | 📗 Быстро |
+| `docs/nautilus/professional-colleague-agents-en/README.md` | ~1 мин | 90 | 📗 Быстро |
 | `docs/nautilus/professional-colleague-agents-ru/00-abstract.md` | ~1 мин | 113 | 📗 Быстро |
-| `docs/nautilus/professional-colleague-agents-ru/README.md` | ~1 мин | 195 | 📗 Быстро |
-| `docs/nautilus/representative-agent-layer-en/README.md` | ~1 мин | 203 | 📗 Быстро |
+| `docs/nautilus/professional-colleague-agents-ru/README.md` | ~1 мин | 83 | 📗 Быстро |
+| `docs/nautilus/representative-agent-layer-en/README.md` | ~1 мин | 89 | 📗 Быстро |
 | `docs/nautilus/representative-agent-layer-ru/00-abstract.md` | ~1 мин | 102 | 📗 Быстро |
-| `docs/nautilus/representative-agent-layer-ru/README.md` | ~1 мин | 199 | 📗 Быстро |
-| `docs/nautilus/review-methodology/00-tldr.md` | ~1 мин | 153 | 📗 Быстро |
-| `docs/nautilus/review-methodology/05-conditions-of-applicability.md` | ~1 мин | 209 | 📗 Быстро |
+| `docs/nautilus/representative-agent-layer-ru/README.md` | ~1 мин | 88 | 📗 Быстро |
+| `docs/nautilus/review-methodology/00-tldr.md` | ~1 мин | 165 | 📗 Быстро |
+| `docs/nautilus/review-methodology/05-conditions-of-applicability.md` | ~1 мин | 221 | 📗 Быстро |
 | `docs/nautilus/review-methodology/07-why-valid-for-ai.md` | ~1 мин | 198 | 📗 Быстро |
 | `docs/nautilus/review-methodology/08-implementation-nautilus.md` | ~1 мин | 220 | 📗 Быстро |
 | `docs/nautilus/review-methodology/10-checklist.md` | ~1 мин | 192 | 📗 Быстро |
-| `docs/nautilus/review-methodology/12-appendix-a-header-warning.md` | ~1 мин | 97 | 📗 Быстро |
-| `docs/nautilus/review-methodology/14-main-technical-risks.md` | ~1 мин | 115 | 📗 Быстро |
+| `docs/nautilus/review-methodology/12-appendix-a-header-warning.md` | ~1 мин | 109 | 📗 Быстро |
+| `docs/nautilus/review-methodology/14-main-technical-risks.md` | ~1 мин | 127 | 📗 Быстро |
 | `docs/nautilus/review-methodology/15-appendix-c-history.md` | ~1 мин | 98 | 📗 Быстро |
+| `docs/nautilus/review-methodology/README.md` | ~1 мин | 126 | 📗 Быстро |
 | `docs/svyazi-2-0/README.md` | ~1 мин | 115 | 📗 Быстро |
-| `docs/svyazi-2-0/architecture/README.md` | ~1 мин | 76 | 📗 Быстро |
 | `docs/svyazi-2-0/architecture/card-envelope.md` | ~1 мин | 136 | 📗 Быстро |
 | `docs/svyazi-2-0/architecture/evidence-envelope.md` | ~1 мин | 184 | 📗 Быстро |
 | `docs/svyazi-2-0/architecture/integration-spec.md` | ~1 мин | 230 | 📗 Быстро |
 | `docs/svyazi-2-0/architecture/memory-write-policy.md` | ~1 мин | 149 | 📗 Быстро |
 | `docs/svyazi-2-0/architecture/review-record.md` | ~1 мин | 90 | 📗 Быстро |
 | `docs/svyazi-2-0/architecture/skill-tool-policy.md` | ~1 мин | 144 | 📗 Быстро |
-| `docs/svyazi-2-0/components/README.md` | ~1 мин | 180 | 📗 Быстро |
+| `docs/svyazi-2-0/components/README.md` | ~1 мин | 113 | 📗 Быстро |
 | `docs/svyazi-2-0/components/agent-memory-mcp.md` | ~1 мин | 129 | 📗 Быстро |
 | `docs/svyazi-2-0/components/agentfs.md` | ~1 мин | 105 | 📗 Быстро |
 | `docs/svyazi-2-0/components/ai-factory.md` | ~1 мин | 107 | 📗 Быстро |
@@ -1061,9 +1055,9 @@ _Обновлено: 2026-04-29_
 | `docs/svyazi-2-0/components/voice-stack.md` | ~1 мин | 125 | 📗 Быстро |
 | `docs/svyazi-2-0/components/yjs-automerge.md` | ~1 мин | 113 | 📗 Быстро |
 | `docs/svyazi-2-0/components/yodoca.md` | ~1 мин | 104 | 📗 Быстро |
-| `docs/svyazi-2-0/ensembles/README.md` | ~1 мин | 75 | 📗 Быстро |
+| `docs/svyazi-2-0/ensembles/README.md` | ~1 мин | 64 | 📗 Быстро |
 | `docs/svyazi-2-0/outreach/message-template.md` | ~1 мин | 203 | 📗 Быстро |
-| `docs/svyazi-2-0/security/privacy.md` | ~1 мин | 119 | 📗 Быстро |
+| `docs/svyazi-2-0/security/privacy.md` | ~1 мин | 131 | 📗 Быстро |
 | `docs/technology-combinations/README.md` | ~1 мин | 138 | 📗 Быстро |
 | `docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md` | ~1 мин | 173 | 📗 Быстро |
 | `docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md` | ~1 мин | 193 | 📗 Быстро |
@@ -1093,12 +1087,10 @@ _Обновлено: 2026-04-29_
 | `docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md` | ~1 мин | 215 | 📗 Быстро |
 | `docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md` | ~1 мин | 189 | 📗 Быстро |
 | `docs/technology-combinations/mega-stacks/03-dsl-ast.md` | ~1 мин | 115 | 📗 Быстро |
-| `docs/technology-combinations/mega-stacks/README.md` | ~1 мин | 64 | 📗 Быстро |
 | `docs/technology-combinations/research-reports/sozialrecht-35-combinations.md` | ~1 мин | 197 | 📗 Быстро |
 | `docs/technology-combinations/synthesis-tables/09-14-extended.md` | ~1 мин | 181 | 📗 Быстро |
 | `docs/technology-combinations/synthesis-tables/15-19-extended.md` | ~1 мин | 153 | 📗 Быстро |
 | `docs/technology-combinations/synthesis-tables/20-24-final.md` | ~1 мин | 190 | 📗 Быстро |
-| `docs/technology-combinations/synthesis-tables/README.md` | ~1 мин | 73 | 📗 Быстро |
 | `docs/templates/README.md` | ~1 мин | 70 | 📗 Быстро |
 | `docs/templates/contact-outreach.md` | ~1 мин | 61 | 📗 Быстро |
 | `docs/templates/project-component.md` | ~1 мин | 79 | 📗 Быстро |
@@ -1106,20 +1098,20 @@ _Обновлено: 2026-04-29_
 
 ## Самые длинные документы (38)
 
-- `docs/TABLES.md` — ~2ч 2мин, 28236 слов
+- `docs/OUTLINE.md` — ~3ч 38мин, 50380 слов
+- `docs/TABLES.md` — ~2ч 59мин, 42324 слов
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` — ~1ч 31мин, 17133 слов
-- `docs/OUTLINE.md` — ~1ч 29мин, 20587 слов
-- `docs/CODE_BLOCKS.md` — ~49 мин, 491 слов
+- `docs/PARAGRAPH_QUALITY.md` — ~54 мин, 12019 слов
+- `docs/CODE_BLOCKS.md` — ~49 мин, 496 слов
 - `docs/04-ai-collaborations/00-intro.md` — ~49 мин, 10469 слов
 - `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` — ~41 мин, 9212 слов
-- `docs/CONCEPTS.md` — ~40 мин, 9561 слов
+- `docs/CONCEPTS.md` — ~40 мин, 9574 слов
 - `docs/02-anthropic-vacancies/00-intro.md` — ~36 мин, 7725 слов
 - `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` — ~35 мин, 8875 слов
-- `docs/05-habr-projects/memory/memnet.md` — ~31 мин, 6610 слов
 
 ## По категориям
 
-- 📗 Быстро: 921 документов
+- 📗 Быстро: 912 документов
 - 📘 Средне: 129 документов
 - 📕 Очень долго: 23 документов
-- 📙 Долго: 20 документов
+- 📙 Долго: 21 документов

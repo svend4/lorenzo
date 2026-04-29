@@ -2,10 +2,10 @@
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 1104
+**Всего элементов:** 1167
 
 
-## ➡️ Следующие шаги (139)
+## ➡️ Следующие шаги (144)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -149,6 +149,8 @@
   _→ 01-executive-summary_
 - как понятны роли агентов, типы задач и review states.  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
+- от одного агента к ансамблю агентов  
+  _→ CONCEPTS_
 - _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_  
   _→ CONCEPTS_
 - за вами: либо я могу составить конкретный чек-лист для ш  
@@ -163,13 +165,17 @@
   _→ RISK_REGISTER_
 - как InGit | `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |  
   _→ TABLES_
+- как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |  
+  _→ TABLES_
+- Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
+  _→ TABLES_
 - строит личную или индивидуально‑командную knowledge memory. Svyazi‑2.0 должна строить социально‑проектный граф: кто може  
   _→ 07-vs-notion-mem-affine-langgraph_
 - как понятны роли агентов, типы задач и review states. A2A Protocol+1  
   _→ 09-do-not-glue_
 - рекомендация: попробовать Hermes на ваш Termux setup. Compare с Cowork. Decide which serves your actual workflow better. Adjust documents accordingly.  
   _→ 13-reprioritization_
-- <!-- summary -->  
+- > [!IMPORTANT]  
   _→ 12-concrete-next-step_
 - Приоритет 1: Reach out к Андрею Чуяну. Comment on Habr article или direct message. Проверить interest в discussion.  
   _→ 12-concrete-next-step_
@@ -185,16 +191,12 @@
   _→ 16-glossary_
 - как появилась **метрика качества**, benchmark set и отчётливое понимание, что считать регрессией. До этого автоматическая оптимизация будет скорее про  
   _→ do-not-glue_
-- как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |  
-  _→ risks_
-- Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
-  _→ risks_
 - validation Bescheid parsing:  
   _→ 30-mega-stack-3-0-with-dsl-ast_
 
-_(47 дублей скрыто)_
+_(51 дублей скрыто)_
 
-## ✅ Решения и рекомендации (215)
+## ✅ Решения и рекомендации (240)
 
 - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идёт  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -388,10 +390,16 @@ _(47 дублей скрыто)_
   _→ OUTLINE_
 - Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters  
   _→ OUTLINE_
+- две-уровневая публикация](docs/nautilus/privacy-federation/02-two-tier-publication.md)](#архитектурное-решение-две-уровневая-публикацияdocsnautiluspri  
+  _→ OUTLINE_
+- × Auto AI Router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)](#комбинация-2-мультиагентный-хаос-реше  
+  _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
 - Framework — When to Buil](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 257 | — |  
   _→ READING_ORDER_
+- × Auto A](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) | 171 |  
+  _→ SITEMAP_
 - 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `docs/04-ai-collaborations/00-intro.md` |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `docs/05-habr-projects/memory/memnet.md` |  
@@ -411,9 +419,9 @@ _(47 дублей скрыто)_
 - **Выбрано:** [Вариант X]  
   _→ decision-record_
 
-_(108 дублей скрыто)_
+_(130 дублей скрыто)_
 
-## ⚠️ Риски (483)
+## ⚠️ Риски (507)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -819,15 +827,17 @@ _(108 дублей скрыто)_
   _→ CLUSTERS_
 - mitigations**  
   _→ CONCEPTS_
-- 5: Burnout. Проект … | 60 |  
-  _→ COST_
 - | Senior Python Dev | 2 | $6,800 |  
   _→ COST_
 - mitigation для каждой. Полезно для grant  
   _→ DECISIONS_
-- | `root` | 73% |  
+- собирать вс  
+  _→ DECISIONS_
+- | `root` | 78% |  
   _→ DENSITY_
-- и allowlist для MCP | 2 |  
+- Configuration Paralysis](#101-risk-configuration-paralysis) - [10.2. Risk: Configura…  
+  _→ DUPLICATES_
+- и allowlist для MCP | 1 |  
   _→ FOOTNOTES_
 - | ██ 7.7 | 0.4 | 0.4 | ▒▒ 4.3 | 0.1 |  
   _→ HEATMAP_
@@ -837,15 +847,25 @@ _(108 дублей скрыто)_
   _→ NARRATIVE_
 - Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysisdocs02-anthropic-vacancies162-8-risk-analysismd)  
   _→ OUTLINE_
+- Analysis](docs/nautilus/okwf-concept/08-risk-analysis.md)](#8-risk-analysisdocsnautilusokwf-concept08-risk-analysismd)  
+  _→ OUTLINE_
 - Regulatory Complexity Deployment Readiness  
   _→ OUTLINE_
 - Регулятивная Сложность Готовность к Развёртыванию  
+  _→ OUTLINE_
+- Analysis](docs/nautilus/okwf-concept/08-risk-analysis.md)  
+  _→ OUTLINE_
+- склеивать в один релиз](docs/ai-collaborations/continuation/09-do-not-glue.md)](#что-пока-не-стоит-склеивать-в-один-рели  
   _→ OUTLINE_
 - склеивать](docs/01-svyazi/14-limitations.md)](#ограничения-лицензии-и-что-пока-лучше-не-склеиватьdocs01-svyazi14-limitat  
   _→ OUTLINE_
 - склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)](#ограничения-лицензии-и-  
   _→ OUTLINE_
+- склеивать](docs/svyazi-2-0/limitations/do-not-glue.md)](#что-пока-лучше-не-склеиватьdocssvyazi-2-0limitationsdo-not-glue  
+  _→ OUTLINE_
 - склеивать](docs/01-svyazi/14-limitations.md)  
+  _→ OUTLINE_
+- склеивать](docs/svyazi-2-0/limitations/do-not-glue.md)  
   _→ OUTLINE_
 - скл](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3190 | — |  
   _→ READING_ORDER_
@@ -863,13 +883,21 @@ _(108 дублей скрыто)_
   _→ SCORING_
 - склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3190 |  
   _→ SITEMAP_
+- склеивать](docs/svyazi-2-0/limitations/do-not-glue.md) | 343 |  
+  _→ SITEMAP_
+- 5: Burnout. Проект … | 60 |  
+  _→ TABLES_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
   _→ TABLES_
-- | `root` | 63% |  
+- | `root` | 73% |  
   _→ TABLES_
-- и allowlist для MCP | 0 |  
+- и allowlist для MCP | 2 |  
+  _→ TABLES_
+- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
+  _→ TABLES_
+- склеивать, выводы |  
   _→ TABLES_
 - проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
@@ -897,18 +925,32 @@ _(108 дублей скрыто)_
   _→ 01-response_
 - становится отдельной способностью, ортогональной к умению создавать качество.  
   _→ 01-response_
+- Захват Действующей Силы](#81-риск-захват-действующей-силы)  
+  _→ 08-riski-mery_
+- Состязательная Манипуляция Контрагентами](#82-риск-состязательная-манипуляция-контрагентами)  
+  _→ 08-riski-mery_
+- Непонимание Принципалом Способностей Агента](#83-риск-непонимание-принципалом-способностей-агента)  
+  _→ 08-riski-mery_
+- Нарушения Конфиденциальности](#84-риск-нарушения-конфиденциальности)  
+  _→ 08-riski-mery_
+- Несправедливый Доступ](#85-риск-несправедливый-доступ)  
+  _→ 08-riski-mery_
+- Культурная и Языковая Предвзятость](#86-риск-культурная-и-языковая-предвзятость)  
+  _→ 08-riski-mery_
+- Регулятивный Откат](#87-риск-регулятивный-откат)  
+  _→ 08-riski-mery_
+- Атрофия Прямых Человеческих Навыков](#88-риск-атрофия-прямых-человеческих-навыков)  
+  _→ 08-riski-mery_
 - и бюджетный execution plane для агентных систем.  
   _→ security-routing-plane_
 - склеивать».  
   _→ do-not-glue_
-- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
-  _→ projects-map_
 - (critical for Anwaltsgeheimnis)  
   _→ 14-local-first-agent-development-environment_
 
-_(238 дублей скрыто)_
+_(245 дублей скрыто)_
 
-## 🚫 Ограничения (125)
+## 🚫 Ограничения (130)
 
 - не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi[^svyazi] как базовый пат  
   _→ 14-limitations_
@@ -1022,7 +1064,11 @@ _(238 дублей скрыто)_
   _→ OUTLINE_
 - текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draftdocs02-  
   _→ OUTLINE_
+- и открытые вопросы](docs/nautilus/review-methodology/09-limitations-open-questions.md)](#8-ограничения-и-открытые-вопросыdocsnautilusreview-methodolog  
+  _→ OUTLINE_
 - - MVP-шаги  
+  _→ OUTLINE_
+- (честно)](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)](#что-не-подходит-чес  
   _→ OUTLINE_
 - при коммерческом использовании |  
   _→ TABLES_
@@ -1041,7 +1087,7 @@ _(238 дублей скрыто)_
 - - [Риск 1]  
   _→ ensemble_
 
-_(60 дублей скрыто)_
+_(63 дублей скрыто)_
 
 ## 📋 Задачи (TODO) (13)
 
@@ -1061,7 +1107,7 @@ _(60 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- меток: **23**  
+- меток: **34**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
@@ -1070,7 +1116,7 @@ _(60 дублей скрыто)_
 
 _(2 дублей скрыто)_
 
-## 📬 Контактные действия (129)
+## 📬 Контактные действия (133)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1202,6 +1248,12 @@ _(2 дублей скрыто)_
   _→ CONTACT_PRIORITY_
 - abstract arxiv paper (1 страница) - Опция 2: identify конкретную grant call с de  
   _→ DECISIONS_
+- vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про  
+  _→ DECISIONS_
+- один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRAR  
+  _→ DECISIONS_
+- PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1  
+  _→ DECISIONS_
 - авторами компонентов?](#как-связаться-с-авторами-компонентов)  
   _→ FAQ_
 - авторами и реализовать прототип Knowledge OS.  
@@ -1220,28 +1272,22 @@ _(2 дублей скрыто)_
   _→ 10-three-entry-points_
 - vision paper на 10-15 страниц. «MMORPG as Professional Work Infrastructure: A Th  
   _→ 05-minuses-as-business_
-- vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про  
-  _→ 05-minuses-as-business_
 - CRUD», а те, что на переднем крае самой модели (pre‑training, RL, alignment, int  
   _→ signals_
 - companion paper про Профессиональных Коллег. Это будет более готовая для развёрт  
   _→ 01-response_
-- один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRAR  
-  _→ 01-strategic-significance_
-- PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1  
-  _→ 04-what-i-can-do-now_
 - anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
 
-_(49 дублей скрыто)_
+_(53 дублей скрыто)_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [CONCEPTS](docs/CONCEPTS.md)
+- [READING_TIME](docs/READING_TIME.md)
 - [READABILITY](docs/READABILITY.md)
+- [CONCEPTS](docs/CONCEPTS.md)
 - [TABLES](docs/TABLES.md)
-- [SEARCH](docs/SEARCH.md)
 

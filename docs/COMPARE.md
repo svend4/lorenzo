@@ -1,42 +1,14 @@
 # Сравнение с предыдущим коммитом
 
-**Файлов было:** 630  **стало:** 1159  
-**Слов было:** 224,048  **стало:** 782,903  **Δ:** +558,855
+**Файлов было:** 383  **стало:** 1159  
+**Слов было:** 336,258  **стало:** 848,384  **Δ:** +512,126
 
 
-## Новые файлы (529)
+## Новые файлы (776)
 
-- `docs/01-svyazi/00-intro-part2.md` (6 слов)
-- `docs/01-svyazi/01-executive-summary.md` (621 слов)
-- `docs/01-svyazi/02-methodology.md` (385 слов)
-- `docs/01-svyazi/03-component-catalog.md` (1316 слов)
-- `docs/01-svyazi/04-ensembles-overview.md` (1198 слов)
-- `docs/01-svyazi/06-security-privacy.md` (740 слов)
-- `docs/01-svyazi/07-mvp-planning.md` (989 слов)
-- `docs/01-svyazi/08-conclusions.md` (301 слов)
-- `docs/01-svyazi/09-architectural-gaps.md` (673 слов)
-- `docs/01-svyazi/10-second-order-ensembles.md` (836 слов)
-- `docs/01-svyazi/11-integration-contracts.md` (658 слов)
-- `docs/01-svyazi/12-roadmap.md` (651 слов)
-- `docs/01-svyazi/13-contacts.md` (738 слов)
-- `docs/01-svyazi/14-limitations.md` (549 слов)
-- `docs/01-svyazi/QA.md` (224 слов)
-- `docs/01-svyazi/README.md` (99 слов)
-- `docs/02-anthropic-vacancies/00-intro.md` (8853 слов)
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19066 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3128 слов)
-- `docs/02-anthropic-vacancies/03-portal-protocol-md.md` (75 слов)
-- `docs/02-anthropic-vacancies/04-abstract.md` (126 слов)
-- `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` (101 слов)
-- `docs/02-anthropic-vacancies/06-1-introduction.md` (295 слов)
-- `docs/02-anthropic-vacancies/07-2-terminology.md` (258 слов)
-- `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` (338 слов)
-- `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` (124 слов)
 - `docs/02-anthropic-vacancies/102-доступ-к-данным.md` (23 слов)
-- `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` (153 слов)
-- `docs/02-anthropic-vacancies/104-appendix-c-references.md` (884 слов)
-- `docs/02-anthropic-vacancies/105-review-methodology-md.md` (74 слов)
-- `docs/02-anthropic-vacancies/106-tl-dr.md` (128 слов)
 - `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md` (360 слов)
 - `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` (388 слов)
 - `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` (454 слов)
@@ -46,42 +18,70 @@
 - `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` (150 слов)
 - `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` (236 слов)
 - `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` (352 слов)
-_...и ещё 489_
+- `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (269 слов)
+- `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` (204 слов)
+- `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` (171 слов)
+- `docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md` (244 слов)
+- `docs/02-anthropic-vacancies/120-главные-технические-риски.md` (82 слов)
+- `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` (47 слов)
+- `docs/02-anthropic-vacancies/122-глоссарий.md` (1239 слов)
+- `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` (177 слов)
+- `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` (98 слов)
+- `docs/02-anthropic-vacancies/126-установка.md` (104 слов)
+- `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` (103 слов)
+- `docs/02-anthropic-vacancies/128-доступные-инструменты.md` (136 слов)
+- `docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md` (110 слов)
+- `docs/02-anthropic-vacancies/130-отладка.md` (151 слов)
+- `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` (98 слов)
+- `docs/02-anthropic-vacancies/133-обратная-связь.md` (16935 слов)
+- `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` (45 слов)
+- `docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md` (106 слов)
+- `docs/02-anthropic-vacancies/189-аннотация.md` (254 слов)
+- `docs/02-anthropic-vacancies/190-содержание.md` (98 слов)
+- `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (729 слов)
+- `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (887 слов)
+- `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md` (579 слов)
+- `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` (1556 слов)
+- `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md` (577 слов)
+- `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (419 слов)
+- `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (347 слов)
+- `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (480 слов)
+_...и ещё 736_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (618) — топ по Δ слов
+## Изменившиеся файлы (70) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `01-response-en.md` | 8829 | 9468 | +639 |
-| `README.md` | 287 | 702 | +415 |
-| `README.md` | 379 | 94 | -285 |
-| `README.md` | 650 | 448 | -202 |
-| `README.md` | 273 | 466 | +193 |
-| `04-desyat-oblastey.md` | 1395 | 1572 | +177 |
-| `04-ten-domains.md` | 1382 | 1552 | +170 |
-| `12-closing.md` | 2520 | 2676 | +156 |
-| `reading-paths.md` | 477 | 627 | +150 |
-| `README.md` | 198 | 50 | -148 |
-| `12-zaklyuchenie.md` | 4266 | 4414 | +148 |
-| `README.md` | 292 | 146 | -146 |
-| `00-question-innovations-transitions.md` | 2659 | 2802 | +143 |
-| `08-seven-domains.md` | 810 | 948 | +138 |
-| `source-projects.md` | 574 | 705 | +131 |
-| `README.md` | 200 | 327 | +127 |
-| `01-pyat-tipov.md` | 716 | 842 | +126 |
-| `README.md` | 278 | 153 | -125 |
-| `README.md` | 210 | 86 | -124 |
-| `07-oblasti-primeneniya.md` | 592 | 716 | +124 |
-| `03-chto-ingit-obespechivaet.md` | 689 | 812 | +123 |
-| `06-riski.md` | 1019 | 1142 | +123 |
-| `07-application-domains.md` | 583 | 703 | +120 |
-| `06-risks.md` | 1034 | 1153 | +119 |
-| `README.md` | 412 | 531 | +119 |
-| `10-risks.md` | 614 | 732 | +118 |
-| `22-glossary.md` | 1368 | 1486 | +118 |
-| `08-pilot-sgb-kolega.md` | 865 | 981 | +116 |
-| `README.md` | 150 | 266 | +116 |
-| `04-proposed-infrastructure.md` | 854 | 969 | +115 |
+| `TABLES.md` | 63650 | 98785 | +35135 |
+| `OUTLINE.md` | 11939 | 34680 | +22741 |
+| `PARAGRAPH_QUALITY.md` | 4304 | 14609 | +10305 |
+| `READABILITY.md` | 7996 | 17442 | +9446 |
+| `READING_TIME.md` | 5538 | 12274 | +6736 |
+| `SITEMAP.md` | 2137 | 6927 | +4790 |
+| `SOURCE_MAP.md` | 2901 | 6172 | +3271 |
+| `VERSION_DIFF.md` | 24 | 2906 | +2882 |
+| `TIMELINE.md` | 1743 | 4306 | +2563 |
+| `DUPLICATES.md` | 266 | 2701 | +2435 |
+| `PRIORITIES.md` | 1149 | 3027 | +1878 |
+| `CONCEPTS.md` | 11376 | 13020 | +1644 |
+| `WORD_FREQ.md` | 1760 | 2814 | +1054 |
+| `CODE_BLOCKS.md` | 3658 | 4594 | +936 |
+| `ACTION_ITEMS.md` | 6518 | 7277 | +759 |
+| `CONTRADICTIONS.md` | 1188 | 1762 | +574 |
+| `DECISIONS.md` | 1902 | 2287 | +385 |
+| `GITHUB_ISSUES.md` | 884 | 1255 | +371 |
+| `QA.md` | 1028 | 1285 | +257 |
+| `NAMED_ENTITIES.md` | 1392 | 1640 | +248 |
+| `QUESTIONS.md` | 1623 | 1845 | +222 |
+| `CHANGELOG.md` | 895 | 1111 | +216 |
+| `VALIDATION.md` | 395 | 595 | +200 |
+| `STATS.md` | 494 | 630 | +136 |
+| `ABBREVIATIONS.md` | 1415 | 1520 | +105 |
+| `CITATION_INDEX.md` | 828 | 925 | +97 |
+| `SENTIMENT.md` | 393 | 487 | +94 |
+| `SPELLCHECK.md` | 143 | 227 | +84 |
+| `CONSISTENCY.md` | 275 | 350 | +75 |
+| `SCHEDULE.md` | 271 | 332 | +61 |

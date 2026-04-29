@@ -1,25 +1,25 @@
 # Индекс «Смотрите также»
 
-**Файлов с блоком See Also:** 1595
+**Файлов с блоком See Also:** 1063
 
 ## Ключевые связи
 
 - **01-executive-summary** → `03-component-catalog`, `04-ensembles-overview`, `07-mvp-planning`
 - **02-methodology** → `02-методика-и-рамка-отбора`, `methodology`, `RISK_REGISTER`, `01-executive-summary`
 - **03-component-catalog** → `03-карта-найденных-проектов-и-паттернов`, `projects-map`, `04-приоритетные-ансамбли`, `04-ensembles-overview`
-- **04-ensembles-overview** → `04-приоритетные-ансамбли`, `D-voice-first-mesh`, `A-collaboration-os`, `C-multi-agent-factory`
+- **04-ensembles-overview** → `04-приоритетные-ансамбли`, `D-voice-first-mesh`, `C-multi-agent-factory`, `A-collaboration-os`
 - **06-security-privacy** → `06-безопасность-приватность-и-бюджетный-роутинг`, `default-policy`, `budget-routing`, `07-mvp-planning`
 - **07-mvp-planning** → `09-architectural-gaps`, `11-integration-contracts`, `12-roadmap`
 - **08-conclusions** → `07-выводы`, `conclusions`, `01-executive-summary`, `08-что-это-продолжение-добавляет`
 - **09-architectural-gaps** → `11-integration-contracts`, `06-security-privacy`, `07-mvp-planning`
 - **10-second-order-ensembles** → `10-новые-ансамбли-следующего-шага`, `G-federated-local-graph`, `F-evidence-backed-intake`, `H-research-to-product-flywheel`
-- **11-integration-contracts** → `11-интеграционный-контракт-который-стоит-зафиксироват`, `integration-spec`, `366-технический-stack-svyazi-2-0-foundation`, `09-architectural-gaps`
-- **12-roadmap** → `12-дорожная-карта-прототипа-следующей-итерации`, `roadmap`, `14-limitations`, `08-conclusions`
+- **11-integration-contracts** → `11-интеграционный-контракт-который-стоит-зафиксироват`, `integration-spec`, `card-envelope`, `evidence-envelope`
+- **12-roadmap** → `12-дорожная-карта-прототипа-следующей-итерации`, `roadmap`, `14-limitations`, `05-roadmap-6-12-months`
 - **13-contacts** → `13-контактная-стратегия-и-узкие-вопросы-для-авторов`, `narrow-questions`, `CONTACTS`, `QUESTIONS`
 - **14-limitations** → `do-not-glue`, `conclusions`, `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать`, `license-tree`
-- **QA** → `CONTACTS`, `gaps`, `integration-spec`, `09-architectural-gaps`
+- **QA** → `CONTACTS`, `integration-spec`, `first-contacts`, `SCHEDULE`
 - **README** → `research-summary`
-- **00-intro** → `288-appendix-position-in-series-visualization`, `289-инфраструктура-для-ai-совместной-интеллектуальной-`, `324-ingit-как-cowork-интегрированная-подложка-рабочего`, `12-blagodarnosti-ssylki`
+- **00-intro** → `288-appendix-position-in-series-visualization`, `289-инфраструктура-для-ai-совместной-интеллектуальной-`, `324-ingit-как-cowork-интегрированная-подложка-рабочего`, `229-профессиональные-коллеги-агенты`
 - **01-интегральный-анализ-профиля-svend4** → `00-question-innovations-transitions`, `CONCEPTS`, `TABLES`, `ACTION_ITEMS`
 - **02-общий-план-развития-nautilus-portal-protocol** → `TIMELINE`, `34-appendix-b-change-log`, `22-glossary`, `133-обратная-связь`
 - **03-portal-protocol-md** → `73-portal-protocol-md-v1-1`, `152-ai-coordinated-infrastructure-for-distributed-expe`, `135-a-formal-model-for-human-ai-collaboration-in-distr`, `167-ai-mediated-representation-for-underrepresented-ex`
@@ -33,4 +33,4 @@
 - **104-appendix-c-references** → `22-glossary`, `122-глоссарий`, `34-appendix-b-change-log`, `16-glossary`
 - **105-review-methodology-md** → `28-appendix-a-minimal-working-example`, `65-readme-md`, `188-ai-опосредованное-представительство-для-недопредст`, `125-readme-mcp-md-инструкция-по-установке`
 - **106-tl-dr** → `00-tldr`, `70-зачем-две-версии-параллельно`, `108-2-формальный-workflow`, `71-критерии-выбора-для-фазы-3`
-- **107-1-контекст-и-мотивация** → `01-context-motivation`, `115-8-ограничения-и-открытые-вопросы`, `108-2-формальный-workflow`, `116-9-checklist-применения-методологии`
+- **107-1-контекст-и-мотивация** → `01-context-motivation`, `115-8-ограничения-и-открытые-вопросы`, `00-tldr`, `09-limitations-open-questions`

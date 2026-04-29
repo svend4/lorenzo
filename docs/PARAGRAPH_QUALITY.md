@@ -2,28 +2,28 @@
 
 _Обновлено: 2026-04-29_
 
-Файлов с проблемами: **1122**
+Файлов с проблемами: **1141**
 
 ## Типы проблем
 
 | Тип | Кол-во |
 |-----|--------|
-| ⚪ Короткий абзац | 9862 |
-| ✂️  Оборванный | 4001 |
+| ⚪ Короткий абзац | 9904 |
+| ✂️  Оборванный | 4050 |
 | 📏 Длинное предложение | 247 |
-| 🔁 Повтор начала | 2201 |
-| ♊ Дубль | 599 |
+| 🔁 Повтор начала | 2221 |
+| ♊ Дубль | 579 |
 
 ## По файлам
 
-### `docs/CONCEPTS.md` (1667 проблем)
+### `docs/CONCEPTS.md` (1671 проблем)
 
-_абзац: 786, Оборванный: 618, начала: 259, Дубль: 4_
+_абзац: 788, Оборванный: 620, начала: 259, Дубль: 4_
 
 
-### `docs/TABLES.md` (720 проблем)
+### `docs/TABLES.md` (740 проблем)
 
-_абзац: 338, начала: 325, Дубль: 34, Оборванный: 14, предложение: 9_
+_абзац: 348, начала: 335, Дубль: 34, Оборванный: 14, предложение: 9_
 
 
 ### `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` (218 проблем)
@@ -56,19 +56,24 @@ _Оборванный: 23, Дубль: 1, абзац: 124, начала: 16_
 _абзац: 117, Оборванный: 17, Дубль: 1, начала: 25_
 
 
-### `docs/QA.md` (157 проблем)
+### `docs/QA.md` (159 проблем)
 
-_абзац: 78, начала: 75, Оборванный: 3, Дубль: 1_
+_абзац: 78, начала: 77, Оборванный: 3, Дубль: 1_
 
 
-### `docs/QUESTIONS.md` (157 проблем)
+### `docs/QUESTIONS.md` (159 проблем)
 
-_абзац: 65, Оборванный: 73, Дубль: 10, начала: 9_
+_абзац: 67, Оборванный: 73, Дубль: 10, начала: 9_
 
 
 ### `docs/nautilus/multi-tier-architecture/01-strategic-significance.md` (144 проблем)
 
 _Дубль: 1, абзац: 110, Оборванный: 9, начала: 24_
+
+
+### `docs/DUPLICATES.md` (129 проблем)
+
+_абзац: 35, Оборванный: 88, начала: 6_
 
 
 ### `docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md` (123 проблем)
@@ -78,7 +83,7 @@ _абзац: 93, Оборванный: 14, Дубль: 1, предложение
 
 ### `docs/CONTRADICTIONS.md` (119 проблем)
 
-_Оборванный: 22, абзац: 79, Дубль: 18_
+_Оборванный: 36, абзац: 67, Дубль: 16_
 
 
 ### `docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md` (113 проблем)
@@ -89,11 +94,6 @@ _абзац: 83, Дубль: 2, Оборванный: 18, предложение
 ### `docs/nautilus/supply-demand/01-three-related-themes.md` (110 проблем)
 
 _Дубль: 1, абзац: 71, начала: 23, Оборванный: 15_
-
-
-### `docs/DUPLICATES.md` (94 проблем)
-
-_абзац: 34, Оборванный: 39, Дубль: 18, начала: 3_
 
 
 ### `docs/nautilus/innovation-transitions/01-response.md` (92 проблем)
@@ -109,11 +109,6 @@ _абзац: 14, Оборванный: 39, предложение: 37_
 ### `docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` (85 проблем)
 
 _абзац: 67, Дубль: 1, Оборванный: 8, начала: 9_
-
-
-### `docs/DECISIONS.md` (82 проблем)
-
-_абзац: 4, Оборванный: 66, Дубль: 5, начала: 7_
 
 
 ### `docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md` (82 проблем)
@@ -154,6 +149,11 @@ _абзац: 16, Оборванный: 29, предложение: 7, начал
 ### `docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md` (65 проблем)
 
 _Дубль: 1, абзац: 48, Оборванный: 15, предложение: 1_
+
+
+### `docs/DECISIONS.md` (64 проблем)
+
+_абзац: 4, Оборванный: 50, Дубль: 3, начала: 7_
 
 
 ### `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (62 проблем)
@@ -716,6 +716,16 @@ _абзац: 6, Оборванный: 3, начала: 13_
 _абзац: 8, Оборванный: 5, начала: 9_
 
 
+### `docs/CITATION_INDEX.md` (22 проблем)
+
+_абзац: 21, Дубль: 1_
+
+
+### `docs/CONSISTENCY.md` (22 проблем)
+
+_абзац: 11, начала: 10, Дубль: 1_
+
+
 ### `docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md` (22 проблем)
 
 _абзац: 17, Оборванный: 4, Дубль: 1_
@@ -769,11 +779,6 @@ _абзац: 9, начала: 9, Оборванный: 3_
 ### `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` (21 проблем)
 
 _абзац: 5, Оборванный: 12, Дубль: 1, предложение: 3_
-
-
-### `docs/CITATION_INDEX.md` (21 проблем)
-
-_абзац: 21_
 
 
 ### `docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md` (21 проблем)
@@ -869,11 +874,6 @@ _абзац: 13, Оборванный: 7_
 ### `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md` (20 проблем)
 
 _абзац: 12, Оборванный: 5, предложение: 3_
-
-
-### `docs/CONSISTENCY.md` (20 проблем)
-
-_абзац: 11, начала: 9_
 
 
 ### `docs/NARRATIVE.md` (20 проблем)
@@ -1126,6 +1126,11 @@ _Дубль: 1, Оборванный: 7, абзац: 10_
 _Дубль: 1, Оборванный: 5, абзац: 5, начала: 7_
 
 
+### `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md` (18 проблем)
+
+_абзац: 5, Дубль: 1, Оборванный: 1, начала: 11_
+
+
 ### `docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md` (18 проблем)
 
 _Оборванный: 2, Дубль: 1, абзац: 15_
@@ -1229,11 +1234,6 @@ _абзац: 7, Дубль: 1, Оборванный: 4, начала: 5_
 ### `docs/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md` (17 проблем)
 
 _абзац: 8, Дубль: 1, Оборванный: 8_
-
-
-### `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md` (17 проблем)
-
-_Дубль: 1, Оборванный: 1, абзац: 4, начала: 11_
 
 
 ### `docs/technology-combinations/combinations/12-multi-agent-observability-stack.md` (17 проблем)
@@ -1376,6 +1376,16 @@ _Дубль: 1, абзац: 7, Оборванный: 8_
 _Дубль: 1, Оборванный: 5, абзац: 10_
 
 
+### `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md` (16 проблем)
+
+_абзац: 6, Дубль: 1, Оборванный: 1, начала: 8_
+
+
+### `docs/nautilus/representative-agent-layer-ru/08-riski-mery.md` (16 проблем)
+
+_Дубль: 1, Оборванный: 9, абзац: 6_
+
+
 ### `docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md` (16 проблем)
 
 _Дубль: 1, абзац: 4, Оборванный: 11_
@@ -1511,19 +1521,9 @@ _Дубль: 1, абзац: 11, Оборванный: 3_
 _Дубль: 1, абзац: 3, Оборванный: 11_
 
 
-### `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md` (15 проблем)
-
-_Дубль: 1, Оборванный: 1, абзац: 5, начала: 8_
-
-
 ### `docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md` (15 проблем)
 
 _Дубль: 1, абзац: 11, Оборванный: 3_
-
-
-### `docs/nautilus/representative-agent-layer-ru/08-riski-mery.md` (15 проблем)
-
-_Дубль: 1, абзац: 6, Оборванный: 8_
 
 
 ### `docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md` (15 проблем)
@@ -1786,6 +1786,11 @@ _Дубль: 1, абзац: 9, начала: 3_
 _абзац: 5, Дубль: 1, Оборванный: 2, начала: 5_
 
 
+### `docs/nautilus/ingit-cowork-en/09-risks-open-questions.md` (13 проблем)
+
+_абзац: 8, Дубль: 1, Оборванный: 1, начала: 3_
+
+
 ### `docs/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md` (13 проблем)
 
 _Дубль: 1, абзац: 7, начала: 3, Оборванный: 2_
@@ -1966,9 +1971,9 @@ _абзац: 8, Дубль: 1, Оборванный: 3_
 _абзац: 7, Дубль: 1, Оборванный: 4_
 
 
-### `docs/nautilus/ingit-cowork-en/09-risks-open-questions.md` (12 проблем)
+### `docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md` (12 проблем)
 
-_абзац: 8, Дубль: 1, начала: 3_
+_Дубль: 1, Оборванный: 1, абзац: 7, начала: 3_
 
 
 ### `docs/nautilus/npp-v1-0/08-consensus-algorithm.md` (12 проблем)
@@ -2139,11 +2144,6 @@ _Дубль: 1, абзац: 2, начала: 8_
 ### `docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md` (11 проблем)
 
 _Дубль: 1, Оборванный: 4, абзац: 6_
-
-
-### `docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md` (11 проблем)
-
-_Дубль: 1, абзац: 7, начала: 3_
 
 
 ### `docs/nautilus/npp-v1-0/03-registry.md` (11 проблем)
@@ -2856,6 +2856,11 @@ _абзац: 5, Оборванный: 2_
 _абзац: 3, Оборванный: 4_
 
 
+### `docs/anthropic-vacancies/QA.md` (7 проблем)
+
+_абзац: 3, начала: 4_
+
+
 ### `docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md` (7 проблем)
 
 _Оборванный: 2, Дубль: 1, абзац: 4_
@@ -2929,6 +2934,11 @@ _Дубль: 1, абзац: 3, Оборванный: 3_
 ### `docs/nautilus/review-methodology/11-application-plan-current-docs.md` (7 проблем)
 
 _Дубль: 1, абзац: 5, Оборванный: 1_
+
+
+### `docs/svyazi-2-0/ensembles/D-voice-first-mesh.md` (7 проблем)
+
+_абзац: 4, Оборванный: 3_
 
 
 ### `docs/svyazi-2-0/overview/executive-summary.md` (7 проблем)
@@ -3261,6 +3271,11 @@ _Дубль: 1, абзац: 3, Оборванный: 2_
 _Дубль: 1, абзац: 4, Оборванный: 1_
 
 
+### `docs/nautilus/transmission-box/00-question-mountain-to-person.md` (6 проблем)
+
+_абзац: 2, Дубль: 1, Оборванный: 2, предложение: 1_
+
+
 ### `docs/svyazi-2-0/architecture/card-envelope.md` (6 проблем)
 
 _абзац: 3, Оборванный: 3_
@@ -3302,11 +3317,6 @@ _абзац: 3, Оборванный: 3_
 
 
 ### `docs/svyazi-2-0/ensembles/C-multi-agent-factory.md` (6 проблем)
-
-_абзац: 3, Оборванный: 3_
-
-
-### `docs/svyazi-2-0/ensembles/D-voice-first-mesh.md` (6 проблем)
 
 _абзац: 3, Оборванный: 3_
 
@@ -3556,6 +3566,11 @@ _абзац: 5_
 _Оборванный: 1, абзац: 4_
 
 
+### `docs/HEALTH.md` (5 проблем)
+
+_абзац: 4, Оборванный: 1_
+
+
 ### `docs/KEYWORD_INDEX.md` (5 проблем)
 
 _абзац: 4, Оборванный: 1_
@@ -3582,11 +3597,6 @@ _абзац: 2, Оборванный: 3_
 
 
 ### `docs/REPORT.md` (5 проблем)
-
-_абзац: 3, Оборванный: 2_
-
-
-### `docs/VOCABULARY.md` (5 проблем)
 
 _абзац: 3, Оборванный: 2_
 
@@ -3877,11 +3887,6 @@ _Дубль: 1, абзац: 2, Оборванный: 2_
 
 
 ### `docs/nautilus/supply-demand/00-question-supply-demand.md` (5 проблем)
-
-_Дубль: 1, Оборванный: 2, предложение: 1, абзац: 1_
-
-
-### `docs/nautilus/transmission-box/00-question-mountain-to-person.md` (5 проблем)
 
 _Дубль: 1, Оборванный: 2, предложение: 1, абзац: 1_
 
@@ -4186,11 +4191,6 @@ _абзац: 3, Оборванный: 1_
 _абзац: 4_
 
 
-### `docs/HEALTH.md` (4 проблем)
-
-_абзац: 3, Оборванный: 1_
-
-
 ### `docs/KPI_HISTORY.md` (4 проблем)
 
 _абзац: 4_
@@ -4206,9 +4206,9 @@ _абзац: 3, Оборванный: 1_
 _Оборванный: 1, абзац: 3_
 
 
-### `docs/VERSION_DIFF.md` (4 проблем)
+### `docs/VOCABULARY.md` (4 проблем)
 
-_абзац: 2, Оборванный: 2_
+_абзац: 3, Оборванный: 1_
 
 
 ### `docs/ai-collaborations/candidates/01-three-key-candidates.md` (4 проблем)
@@ -4726,6 +4726,11 @@ _абзац: 2, Оборванный: 1_
 _абзац: 1, Оборванный: 1, предложение: 1_
 
 
+### `docs/VERSION_DIFF.md` (3 проблем)
+
+_абзац: 2, Оборванный: 1_
+
+
 ### `docs/WORD_CLOUD.md` (3 проблем)
 
 _абзац: 3_
@@ -4736,9 +4741,9 @@ _абзац: 3_
 _Оборванный: 2, абзац: 1_
 
 
-### `docs/anthropic-vacancies/QA.md` (3 проблем)
+### `docs/anthropic-vacancies/README.md` (3 проблем)
 
-_абзац: 3_
+_абзац: 1, Оборванный: 2_
 
 
 ### `docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md` (3 проблем)
@@ -5081,11 +5086,6 @@ _абзац: 2_
 _абзац: 1, Оборванный: 1_
 
 
-### `docs/ai-collaborations/README.md` (2 проблем)
-
-_Оборванный: 2_
-
-
 ### `docs/ai-collaborations/strategy/README.md` (2 проблем)
 
 _абзац: 2_
@@ -5171,6 +5171,11 @@ _Дубль: 1, абзац: 1_
 _Дубль: 1, абзац: 1_
 
 
+### `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
 ### `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md` (2 проблем)
 
 _Дубль: 1, абзац: 1_
@@ -5191,9 +5196,19 @@ _Дубль: 1, абзац: 1_
 _Дубль: 1, абзац: 1_
 
 
+### `docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
 ### `docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md` (2 проблем)
 
 _Дубль: 1, абзац: 1_
+
+
+### `docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
 
 
 ### `docs/badges/README.md` (2 проблем)
@@ -5207,6 +5222,21 @@ _Оборванный: 1, абзац: 1_
 
 
 ### `docs/habr-unique-projects/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
+### `docs/habr-unique-projects/hardware-pairs/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
+### `docs/habr-unique-projects/key-findings/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
+### `docs/habr-unique-projects/software-pairs/README.md` (2 проблем)
 
 _абзац: 1, Оборванный: 1_
 
@@ -5241,6 +5271,16 @@ _Дубль: 1, абзац: 1_
 _Оборванный: 2_
 
 
+### `docs/lorenzo-agent/naming/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
+### `docs/nautilus/composite-skills-agents-companion-mentors/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
 ### `docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md` (2 проблем)
 
 _Дубль: 1, абзац: 1_
@@ -5256,9 +5296,19 @@ _Дубль: 1, абзац: 1_
 _Дубль: 1, абзац: 1_
 
 
+### `docs/nautilus/npp-humanitarian-extension/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
 ### `docs/nautilus/npp-v1-1/14-sdk.md` (2 проблем)
 
 _Дубль: 1, абзац: 1_
+
+
+### `docs/nautilus/privacy-federation/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
 
 
 ### `docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md` (2 проблем)
@@ -5271,9 +5321,24 @@ _Дубль: 1, абзац: 1_
 _Дубль: 1, абзац: 1_
 
 
+### `docs/svyazi-2-0/overview/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
+### `docs/svyazi-2-0/prototype/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
+
+
 ### `docs/technology-combinations/research-reports/sozialrecht-35-combinations.md` (2 проблем)
 
 _Дубль: 1, абзац: 1_
+
+
+### `docs/technology-combinations/synthesis-tables/README.md` (2 проблем)
+
+_абзац: 1, Оборванный: 1_
 
 
 ### `docs/01-svyazi/README.md` (1 проблем)
@@ -5351,7 +5416,22 @@ _абзац: 1_
 _абзац: 1_
 
 
-### `docs/anthropic-vacancies/README.md` (1 проблем)
+### `docs/ai-collaborations/README.md` (1 проблем)
+
+_Оборванный: 1_
+
+
+### `docs/ai-collaborations/candidates/README.md` (1 проблем)
+
+_абзац: 1_
+
+
+### `docs/ai-collaborations/continuation/README.md` (1 проблем)
+
+_Оборванный: 1_
+
+
+### `docs/ai-collaborations/ensembles/README.md` (1 проблем)
 
 _Оборванный: 1_
 
@@ -5381,14 +5461,9 @@ _Оборванный: 1_
 _Оборванный: 1_
 
 
-### `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` (1 проблем)
-
-_Оборванный: 1_
-
-
 ### `docs/anthropic-vacancies/nautilus-pro2-analysis/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/anthropic-vacancies/nautilus-vs-camel/README.md` (1 проблем)
@@ -5397,16 +5472,6 @@ _Оборванный: 1_
 
 
 ### `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md` (1 проблем)
-
-_Оборванный: 1_
-
-
-### `docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md` (1 проблем)
-
-_Оборванный: 1_
-
-
-### `docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md` (1 проблем)
 
 _Оборванный: 1_
 
@@ -5421,14 +5486,29 @@ _Оборванный: 1_
 _Оборванный: 1_
 
 
+### `docs/glossary/README.md` (1 проблем)
+
+_абзац: 1_
+
+
+### `docs/habr-unique-projects/analogues/README.md` (1 проблем)
+
+_абзац: 1_
+
+
+### `docs/habr-unique-projects/deep-pairs/README.md` (1 проблем)
+
+_Оборванный: 1_
+
+
 ### `docs/habr-unique-projects/extra-examples/README.md` (1 проблем)
 
 _Оборванный: 1_
 
 
-### `docs/lorenzo-agent/naming/README.md` (1 проблем)
+### `docs/habr-unique-projects/final-ensembles/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/lorenzo-agent/operationalized/README.md` (1 проблем)
@@ -5443,7 +5523,7 @@ _Оборванный: 1_
 
 ### `docs/lorenzo-agent/scenarios/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/lorenzo-agent/specification/README.md` (1 проблем)
@@ -5458,35 +5538,30 @@ _абзац: 1_
 
 ### `docs/nautilus/community-discussions/agent-changes-reality/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/nautilus/community-discussions/habr-article-1-reaction/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/nautilus/community-discussions/habr-article-2-reaction/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/nautilus/community-discussions/practical-observations/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/nautilus/community-discussions/voiceless-contributors/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/nautilus/composite-skills-agents/README.md` (1 проблем)
-
-_Оборванный: 1_
-
-
-### `docs/nautilus/composite-skills-agents-companion-mentors/README.md` (1 проблем)
 
 _Оборванный: 1_
 
@@ -5523,17 +5598,12 @@ _Оборванный: 1_
 
 ### `docs/nautilus/innovation-transitions/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/nautilus/multi-tier-architecture/README.md` (1 проблем)
 
-_Оборванный: 1_
-
-
-### `docs/nautilus/npp-humanitarian-extension/README.md` (1 проблем)
-
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/nautilus/npp-v1-0/README.md` (1 проблем)
@@ -5547,11 +5617,6 @@ _Оборванный: 1_
 
 
 ### `docs/nautilus/okwf-concept/README.md` (1 проблем)
-
-_Оборванный: 1_
-
-
-### `docs/nautilus/privacy-federation/README.md` (1 проблем)
 
 _Оборванный: 1_
 
@@ -5583,12 +5648,12 @@ _Оборванный: 1_
 
 ### `docs/nautilus/supply-demand/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/nautilus/transmission-box/README.md` (1 проблем)
 
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/svyazi-2-0/README.md` (1 проблем)
@@ -5596,12 +5661,47 @@ _Оборванный: 1_
 _абзац: 1_
 
 
+### `docs/svyazi-2-0/architecture/README.md` (1 проблем)
+
+_Оборванный: 1_
+
+
 ### `docs/svyazi-2-0/components/README.md` (1 проблем)
 
 _Оборванный: 1_
 
 
+### `docs/svyazi-2-0/ensembles/README.md` (1 проблем)
+
+_Оборванный: 1_
+
+
+### `docs/svyazi-2-0/limitations/README.md` (1 проблем)
+
+_абзац: 1_
+
+
+### `docs/svyazi-2-0/outreach/README.md` (1 проблем)
+
+_абзац: 1_
+
+
+### `docs/svyazi-2-0/security/README.md` (1 проблем)
+
+_абзац: 1_
+
+
 ### `docs/technology-combinations/README.md` (1 проблем)
+
+_абзац: 1_
+
+
+### `docs/technology-combinations/combinations/README.md` (1 проблем)
+
+_Оборванный: 1_
+
+
+### `docs/technology-combinations/mega-stacks/README.md` (1 проблем)
 
 _абзац: 1_
 
@@ -5613,12 +5713,7 @@ _абзац: 1_
 
 ### `docs/technology-combinations/research-reports/README.md` (1 проблем)
 
-_Оборванный: 1_
-
-
-### `docs/technology-combinations/synthesis-tables/README.md` (1 проблем)
-
-_Оборванный: 1_
+_абзац: 1_
 
 
 ### `docs/templates/README.md` (1 проблем)

@@ -1,6 +1,6 @@
 # Валидация структуры репозитория
 
-**Ошибок:** 0  **Предупреждений:** 20  **Пройдено:** 27
+**Ошибок:** 0  **Предупреждений:** 42  **Пройдено:** 27
 
 ## Сводка
 
@@ -8,7 +8,7 @@
 |----------|--------|---------|
 | Разделы и README | ✅ | 0 |
 | Мета-файлы | ✅ | 0 |
-| Пустые/короткие файлы | ⚠️ | 9 |
+| Пустые/короткие файлы | ⚠️ | 31 |
 | Именование файлов | ✅ | 10 |
 | Заголовки H1 | ⚠️ | 11 |
 | Внутренние ссылки | ✅ | 15 |
@@ -28,10 +28,32 @@ _Всё в порядке_
 - ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (16 слов)
 - ⚠️ Слишком короткий файл: `docs/05-habr-projects/knowledge/README.md` (13 слов)
 - ⚠️ Слишком короткий файл: `docs/05-habr-projects/memory/README.md` (24 слов)
+- ⚠️ Слишком короткий файл: `docs/ai-collaborations/candidates/README.md` (23 слов)
 - ⚠️ Слишком короткий файл: `docs/ai-collaborations/channels/README.md` (25 слов)
 - ⚠️ Слишком короткий файл: `docs/autofilled/README.md` (18 слов)
+- ⚠️ Слишком короткий файл: `docs/glossary/README.md` (24 слов)
+- ⚠️ Слишком короткий файл: `docs/habr-unique-projects/analogues/README.md` (18 слов)
 - ⚠️ Слишком короткий файл: `docs/habr-unique-projects/evaluation/README.md` (28 слов)
 - ⚠️ Слишком короткий файл: `docs/habr-unique-projects/search-strategy/README.md` (25 слов)
+- ⚠️ Слишком короткий файл: `docs/lorenzo-agent/naming/README.md` (28 слов)
+- ⚠️ Слишком короткий файл: `docs/lorenzo-agent/scenarios/README.md` (18 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/agent-changes-reality/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/habr-article-1-reaction/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/habr-article-2-reaction/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/practical-observations/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/voiceless-contributors/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/composite-skills-agents-companion-mentors/README.md` (27 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/innovation-transitions/README.md` (16 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/multi-tier-architecture/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/supply-demand/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/transmission-box/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/limitations/README.md` (22 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/outreach/README.md` (22 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/overview/README.md` (27 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/prototype/README.md` (21 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/security/README.md` (24 слов)
+- ⚠️ Слишком короткий файл: `docs/technology-combinations/mega-stacks/README.md` (29 слов)
+- ⚠️ Слишком короткий файл: `docs/technology-combinations/research-reports/README.md` (18 слов)
 
 ## Именование файлов
 
@@ -80,15 +102,15 @@ _Всё в порядке_
 
 ## Итог
 
-⚠️ **20 предупреждений** — рекомендуется исправить.
+⚠️ **42 предупреждений** — рекомендуется исправить.
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
 - [COMPARE](docs/COMPARE.md)
-- [SITEMAP](docs/SITEMAP.md)
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
+- [COVERAGE](docs/COVERAGE.md)
 - [BROKEN_LINKS](docs/BROKEN_LINKS.md)
 
