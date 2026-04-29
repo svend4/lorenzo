@@ -28,7 +28,8 @@ lorenzo/
 │   │   ├── outreach/                      # контактная стратегия
 │   │   └── limitations/                   # лицензии и ограничения
 │   ├── anthropic-vacancies/               # вакансии Anthropic по кластерам + маппинг профиля
-│   ├── nautilus/                          # NPP v1.1 RFC + companion papers (PCA, CSA, InGit+Cowork)
+│   ├── nautilus/                          # NPP v1.1 RFC + 8 companion papers (OKWF, RAL, PCA, CSA, Double-Triangle, Layer-B, InGit+Cowork)
+│   ├── lorenzo-agent/                     # системный промпт Lorenzo Catalyst Agent (источник имени репо)
 │   ├── technology-combinations/           # комбинирование технологий
 │   ├── ai-collaborations/                 # поиск коллабораций AI проектов
 │   ├── habr-unique-projects/              # уникальные проекты на Хабре
@@ -46,9 +47,10 @@ lorenzo/
 
 ## Точка входа
 
+- Если хотите понять **что такое Lorenzo** (по которому назван этот репозиторий) — [docs/lorenzo-agent/README.md](docs/lorenzo-agent/README.md).
 - Если вы изучаете **Svyazi 2.0** — начните с [docs/svyazi-2-0/README.md](docs/svyazi-2-0/README.md).
 - Если ищете **компонент по имени** — [docs/glossary/components-by-name.md](docs/glossary/components-by-name.md).
-- Если интересуют **архитектурные специфики Nautilus** — [docs/nautilus/README.md](docs/nautilus/README.md).
+- Если интересуют **архитектурные специфики Nautilus / DHLab** — [docs/nautilus/README.md](docs/nautilus/README.md).
 - Если нужно **разобрать карьерные опции** — [docs/anthropic-vacancies/profile-mapping/README.md](docs/anthropic-vacancies/profile-mapping/README.md).
 - Если интересуют **другие темы** — см. соответствующую подпапку в `docs/`.
 - Если нужны **исходные документы** — см. [sources/README.md](sources/README.md) или сами файлы в корне.

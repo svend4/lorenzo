@@ -6,19 +6,29 @@
 
 | Подпапка | Что содержит |
 |---|---|
-| [`npp-v1-1/`](npp-v1-1/) | Nautilus Portal Protocol v1.1 RFC — полная формальная спецификация, 23 раздела (Abstract, Introduction, Terminology, Registry, Passport, Compatibility Levels, Adapter Interface, PortalEntry, Q6 Space, Consensus Algorithm, Query Flow, Relevance Ranking, Onboarding Paths, REST API, SDK, Security, MCP Extension, Versioning, Reference Implementation, ADRs, Glossary) |
-| [`professional-colleague-agents-en/`](professional-colleague-agents-en/) | Working paper «Professional Colleague Agents» — типология AI-агентов на стороне принципала (12 разделов, EN) |
-| [`professional-colleague-agents-ru/`](professional-colleague-agents-ru/) | Тот же документ на русском (12 разделов) |
-| [`composite-skills-agents/`](composite-skills-agents/) | Working paper «Composite Skills Agents» — Twenty-One Teachers Pattern, sub-agent registry, ensembles (13 разделов) |
-| [`ingit-cowork-en/`](ingit-cowork-en/) | Working paper «InGit + Cowork — Symbiotic Architecture» (10 разделов, EN) |
+| [`npp-v1-1/`](npp-v1-1/) | Nautilus Portal Protocol v1.1 RFC — полная формальная спецификация, 23 раздела |
+| [`okwf-concept/`](okwf-concept/) | Open Knowledge Work Foundation — Concept Document (11 разделов): шестислойная инфраструктура, target populations, governance, phased rollout |
+| [`representative-agent-layer-en/`](representative-agent-layer-en/) | Representative Agent Layer (EN) — Cinderella Syndrome, исторические прецеденты, архитектурная спецификация (13 разделов) |
+| [`representative-agent-layer-ru/`](representative-agent-layer-ru/) | Слой Представительских Агентов (RU, 13 разделов) |
+| [`professional-colleague-agents-en/`](professional-colleague-agents-en/) | Professional Colleague Agents — типология AI-агентов на стороне принципала (13 разделов, EN) |
+| [`professional-colleague-agents-ru/`](professional-colleague-agents-ru/) | Тот же документ на русском (13 разделов) |
+| [`composite-skills-agents/`](composite-skills-agents/) | Composite Skills Agents — Twenty-One Teachers Pattern, sub-agent registry, ensembles (13 разделов) |
+| [`double-triangle-architecture/`](double-triangle-architecture/) | Double-Triangle Architecture for Human-AI Collaboration — звезда Давида (12 разделов) |
+| [`infrastructure-layer-b-en/`](infrastructure-layer-b-en/) | Infrastructure for AI-Collaborative Intellectual Work (EN) — «missing middle Layer B» между Chat и Code (14 разделов) |
+| [`infrastructure-layer-b-ru/`](infrastructure-layer-b-ru/) | Инфраструктура для AI-совместной интеллектуальной работы (RU, 13 разделов) |
+| [`ingit-cowork-en/`](ingit-cowork-en/) | InGit + Cowork — Symbiotic Architecture (10 разделов, EN) |
 | [`ingit-cowork-ru/`](ingit-cowork-ru/) | Тот же документ на русском (10 разделов) |
 
 ## Как читать
 
-1. **Начните с [`npp-v1-1/`](npp-v1-1/)** — это формальный протокол, на который ссылаются остальные документы.
-2. **Затем [`professional-colleague-agents-en/`](professional-colleague-agents-en/)** (или RU) — типология агентов и кейс «Обучай».
-3. **Composite Skills Agents** — следующий шаг от одного агента к ансамблю агентов.
-4. **InGit + Cowork** — практическая интеграция с продуктом Anthropic Cowork.
+1. **Начните с [`okwf-concept/`](okwf-concept/)** — это foundational concept document, фон для всех остальных.
+2. **Затем [`npp-v1-1/`](npp-v1-1/)** — формальный протокол, на который ссылаются остальные.
+3. **[`representative-agent-layer-en/`](representative-agent-layer-en/)** (или RU) — Cinderella Syndrome и общая идея агентов на стороне принципала.
+4. **[`professional-colleague-agents-en/`](professional-colleague-agents-en/)** (или RU) — типология агентов и кейс «Обучай».
+5. **Composite Skills Agents** — следующий шаг от одного агента к ансамблю агентов.
+6. **[`double-triangle-architecture/`](double-triangle-architecture/)** — топология взаимодействия людей и AI.
+7. **[`infrastructure-layer-b-en/`](infrastructure-layer-b-en/)** (или RU) — «missing middle Layer B».
+8. **InGit + Cowork** — практическая интеграция с продуктом Anthropic Cowork.
 
 ## Ключевой принцип Nautilus
 
