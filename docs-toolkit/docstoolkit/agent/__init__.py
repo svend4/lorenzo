@@ -19,8 +19,14 @@
 from docstoolkit.agent.types import Tool, ToolCall, AgentStep, AgentResult
 from docstoolkit.agent.loop import AgentLoop
 from docstoolkit.agent.builtin_tools import default_tools
+from docstoolkit.agent.planner import (
+    Subtask, SubtaskResult, Plan, PlanExecuteResult,
+    heuristic_planner, execute_plan, plan_and_execute,
+)
 
 __all__ = [
     "Tool", "ToolCall", "AgentStep", "AgentResult",
     "AgentLoop", "default_tools",
+    "Subtask", "SubtaskResult", "Plan", "PlanExecuteResult",
+    "heuristic_planner", "execute_plan", "plan_and_execute",
 ]
