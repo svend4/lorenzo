@@ -1,5 +1,15 @@
 # 6. Risks Specific to this Category
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Teacher's agent generates problems requiring active human reasoning, not pattern-matching.
+> 🔧 **Подход:** Agents support practitioner customization that goes beyond preferences into methodology choices.
+> ✅ **Результат:** Risk: Profession Capture by Service Providers Scenario: One Professional Colleague Agent dominates profession.
+> 🏷️ **Ключевые слова:** `agent`, `mitigation`, `professional`, `practitioner`, `risks`, `agents`, `profession`, `colleague`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

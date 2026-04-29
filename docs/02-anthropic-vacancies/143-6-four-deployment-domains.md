@@ -1,5 +1,20 @@
 # 6. Four Deployment Domains
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Meta-agent coordinating multiple advocates on related cases, sharing anonymized patterns, escalating cross-jurisdictional issues.
+> 🔧 **Подход:** Agile methodologies, CI/CD patterns, deployment playbooks, incident postmortems (anonymized), architecture decision records.
+> ✅ **Результат:** Jira AI, Linear AI, GitHub Projects automation — all provide fragments of this architecture but lack Protocol 3.
+> 🏷️ **Ключевые слова:** `triangle`, `domain`, `deployment`, `contents`, `coordination`, `anthropic`, `vacancies`, `double`
+>
+
+
 <!-- summary -->
 > The Double-Triangle Architecture is domain-agnostic but benefits
 
@@ -62,7 +77,7 @@ with Double-Triangle if anonymization pipeline operates correctly.
 ### 6.2. Project Management Domain
 
 **Participants.** Software engineers, product managers, designers, 
-DevOps engineers, QA engineers.
+[DevOps](../docs/05-habr-projects/memory/memnet.md) engineers, QA engineers.
 
 **Lower triangle contents.** Assistants specialized for:
 - Code generation and review (Copilot, Cursor, Claude Code)
@@ -78,7 +93,7 @@ retrospective synthesis.
 patterns, deployment playbooks, incident postmortems (anonymized), 
 architecture decision records.
 
-**Existing partial implementations.** Jira AI, Linear AI, GitHub 
+**Existing partial implementations.** Jira AI, Linear AI, [GitHub](../docs/01-svyazi/03-component-catalog.md) 
 Projects automation — all provide fragments of this architecture 
 but lack Protocol 3.
 

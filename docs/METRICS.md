@@ -37,8 +37,9 @@
 
 | Документ | Балл | Что отсутствует |
 |----------|------|----------------|
+| `185-appendix-b-domain-comparison-ma` | 30 | summary, tags, TOC, callout |
+| `206-приложение-b-матрица-сравнения-` | 30 | summary, tags, TOC, callout |
 | `ABBREVIATIONS` | 30 | summary, tags, TOC, callout |
-| `ACTION_ITEMS` | 30 | summary, tags, TOC, callout |
 | `AUTHORS` | 30 | summary, tags, TOC, callout |
 | `COMPLEXITY` | 30 | summary, tags, TOC, callout |
 | `CROSSREFS` | 30 | summary, tags, TOC, callout |
@@ -51,7 +52,7 @@
 | `SENTIMENT` | 30 | summary, tags, TOC, callout |
 | `TAGS` | 30 | summary, tags, TOC, callout |
 | `WORD_FREQ` | 30 | summary, tags, TOC, callout |
-| `LINKS` | 30 | summary, tags, TOC, callout |
+| `README` | 30 | summary, tags, TOC, callout |
 
 ## Общие показатели
 

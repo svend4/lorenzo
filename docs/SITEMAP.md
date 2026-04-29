@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-**Всего файлов:** 1051
+**Всего файлов:** 1169
 
 ## Навигация
 
@@ -12,9 +12,16 @@ _Обновлено: 2026-04-29_
 - [Комбинации технологий](#03-technology-combinations)
 - [AI Коллаборации — ансамбли проектов](#04-ai-collaborations)
 - [Хабр-проекты — память и граф](#05-habr-projects)
+- [ai-collaborations](#ai-collaborations)
+- [anthropic-vacancies](#anthropic-vacancies)
 - [autofilled](#autofilled)
 - [contacts](#contacts)
-- [obsidian](#obsidian)
+- [glossary](#glossary)
+- [habr-unique-projects](#habr-unique-projects)
+- [lorenzo-agent](#lorenzo-agent)
+- [nautilus](#nautilus)
+- [svyazi-2-0](#svyazi-2-0)
+- [technology-combinations](#technology-combinations)
 - [templates](#templates)
 
 ---
@@ -342,9 +349,9 @@ _`docs/contacts/` — 14 файлов_
 | 13 | [Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md) | 398 |
 | 14 | [Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md) | 392 |
 
-## obsidian
+## glossary
 
-_`docs/obsidian/` — 473 файлов_
+_`docs/glossary/` — 3 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|
@@ -408,6 +415,6 @@ _`docs/templates/` — 5 файлов_
 |---|----------|------|
 | 1 | [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md) | 133 |
 | 2 | [ADR: [Название решения]](docs/templates/decision-record.md) | 94 |
-| 3 | [Ансамбль: [Название]](docs/templates/ensemble.md) | 124 |
+| 3 | [Ансамбль: [Название]](docs/templates/ensemble.md) | 122 |
 | 4 | [[Название компонента]](docs/templates/project-component.md) | 116 |
 | 5 | [[Тема исследования]](docs/templates/research-note.md) | 78 |

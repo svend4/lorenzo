@@ -1018,7 +1018,7 @@ _Обновлено: 2026-04-29_
 | `docs/templates/project-component.md` | ~1 мин | 79 | 📗 Быстро |
 | `docs/templates/research-note.md` | ~1 мин | 52 | 📗 Быстро |
 
-## Самые длинные документы (52)
+## Самые длинные документы (42)
 
 - `docs/TABLES.md` — ~3ч 56мин, 54980 слов
 - `docs/obsidian/TABLES.md` — ~1ч 53мин, 25846 слов

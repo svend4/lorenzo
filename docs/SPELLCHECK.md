@@ -50,10 +50,6 @@ _Обновлено: 2026-04-29_
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/ACTION_ITEMS.md`
-
-- ❌ `проверяет` → `проверяет`
-
 ### `docs/GITHUB_ISSUES.md`
 
 - ❌ `проверяет` → `проверяет`
@@ -70,59 +66,47 @@ _Обновлено: 2026-04-29_
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md`
+### `docs/ai-collaborations/ensembles/5-agent-firewall.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md`
+### `docs/ai-collaborations/fast-tracks/README.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
+### `docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md`
+### `docs/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md`
+### `docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
+### `docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/03-technology-combinations/02-knowledge-graphs.md`
+### `docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/03-technology-combinations/05-benchmarks.md`
+### `docs/nautilus/innovation-transitions/00-question-innovations-transitions.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/04-ai-collaborations/00-intro.md`
+### `docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/05-habr-projects/memory/memnet.md`
+### `docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/ACTION_ITEMS.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/GITHUB_ISSUES.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/KPI.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/TABLES.md`
+### `docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md`
 
 - ❌ `проверяет` → `проверяет`
 

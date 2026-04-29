@@ -1,5 +1,10 @@
 # Existing Approximations
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -10,10 +15,18 @@
   - [Notion / Obsidian / Roam](#notion-obsidian-roam)
   - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
   - [Combination workflows](#combination-workflows)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** It solves part of the problem (persistent context) but not the threading and structural needs.
+> 🔧 **Подход:** Limitations: - No AI collaboration - Not designed for documents as first-class artifacts - Not designed for project-style work tracking These tools are good for community discussio
+> ✅ **Результат:** Anthropic Projects Provides persistent context across multiple chats grouped around a topic.
+> 🏷️ **Ключевые слова:** `anthropic`, `layer`, `vacancies`, `existing`, `github`, `discussions`, `tools`, `projects`
+>
 
 
 <!-- toc-auto -->
@@ -22,7 +35,7 @@
 - [Existing Approximations](#existing-approximations)
   - [Anthropic Projects](#anthropic-projects)
   - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Notion / Obsidian / Roam](#notion-[obsidian](../docs/01-svyazi/03-component-catalog.md)-roam)
   - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
   - [Combination workflows](#combination-workflows)
 
@@ -59,7 +72,7 @@ and structural needs.
 
 ### GitHub Discussions
 
-Provides threaded forum within GitHub repositories. Threading 
+Provides threaded forum within [GitHub](../docs/01-svyazi/03-component-catalog.md) repositories. Threading 
 works well. Limitations:
 - Culturally code-oriented; intellectual discussions feel 
   out of place
@@ -68,7 +81,7 @@ works well. Limitations:
   links between them are external references, not first-class
 - No annotation on document text
 
-GitHub Discussions is **structurally close** but **culturally 
+[GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions is **structurally close** but **culturally 
 distant** for intellectual work.
 
 ### Notion / Obsidian / Roam
@@ -101,7 +114,7 @@ designed for intellectual project development**.
 
 Most serious intellectual workers combine tools:
 - Anthropic Projects for AI-assisted writing
-- GitHub for storage and versioning
+- [GitHub](../docs/01-svyazi/03-component-catalog.md) for storage and versioning
 - Notion or Obsidian for personal knowledge
 - Email or messaging for real-time
 - Discord or Slack for community
@@ -123,9 +136,9 @@ problem.
 ---
 
 **Похожие документы:**
-- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.19)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.16)
-- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.16)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.19)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.16)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -133,46 +146,8 @@ problem.
 ---
 
 **Смотрите также:**
-- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
-- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
-- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md)
-- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md)
-- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md)
-- [What Industry Will Likely Build](282-what-industry-will-likely-build.md)
-- [What's Missing — Layer B](277-what-s-missing-layer-b.md)
-- [Why This Document Exists](275-why-this-document-exists.md)
-- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Существующие приближения](294-существующие-приближения.md)
-- [Что промышленность вероятно построит](297-что-промышленность-вероятно-построит.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _33%_
-- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _29%_
-- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _29%_
-- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _29%_
-- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _29%_
-- [Существующие приближения](294-существующие-приближения.md) _25%_
-- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _17%_
-## Связанные документы
-
-- [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _33%_
-- [The Two-Layer Stack As It Exists](276-the-two-layer-stack-as-it-exists.md) _29%_
-- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _29%_
-- [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _25%_
-- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _25%_
-- [Существующие приближения](294-существующие-приближения.md) _25%_
-- [What's Missing — Layer B](277-what-s-missing-layer-b.md) _17%_
-- [The Recursive Insight](281-the-recursive-insight.md) _17%_

@@ -18,7 +18,7 @@
   _→ 07-mvp-planning_
 - Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
   _→ 07-mvp-planning_
-- интереснее: knowledge-space становится не просто хранилищем знаний, а приёмником результатов ночных исследований; CodeWiki и Skills превращают эти рез  
+- интереснее: [knowledge-space](../docs/01-svyazi/03-component-catalog.md) становится не просто хранилищем знаний, а приёмником результатов ночных иссле  
   _→ 10-second-order-ensembles_
 - — **не искать ещё двадцать новых проектов**, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write  
   _→ 14-limitations_
@@ -34,7 +34,7 @@
   _→ 01-интегральный-анализ-профиля-svend4_
 - переходим к опции A — PORTAL-PROTOCOL.md. Для неё мне понадобятся passports/info1.md , passports/pro2.md , passports/meta.md , плюс portal.py целиком,  
   _→ 01-интегральный-анализ-профиля-svend4_
-- как отозвали токен, есть три безопасных способа прислать мне base.py , info1.py , nautilus.json :  
+- как отозвали токен, есть три безопасных способа прислать мне base.py , info1.py , [nautilus](../docs/05-habr-projects/memory/memnet.md).json :  
   _→ 01-интегральный-анализ-профиля-svend4_
 - полностью возвращаемся к работе без overhead на security-тему.  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -46,6 +46,8 @@
   _→ 104-appendix-c-references_
 - Для Nautilus конкретно, приоритет верификации:  
   _→ 110-вопрос-fallback-ratio-как-критический-или-осмыслен_
+- как PORTAL-PROTOCOL и REVIEWMETHODOLOGY скоммитятся в репо, у вас д  
+  _→ 122-глоссарий_
 - ваш repo имеет defensible meta-layer : для любого внешнего человека видно, что вы работаете в осмысленной парадигме, а не в хаотичном AI-assisted режи  
   _→ 122-глоссарий_
 - как PORTAL-PROTOCOL и REVIEW_METHODOLOGY скоммитятся в репо, у вас достаточно материала для :  
@@ -160,16 +162,46 @@
   _→ DECISIONS_
 - минимального прототипа из пяти компонентов: 1. Svyazi‑подобный import/normalize/CardIndex 2. AgentFS‑подобное файловое я  
   _→ DECISIONS_
+- (13 сл., строка 39)  
+  _→ EMPTY_SECTIONS_
 - - Приоритет 1: kksudo (AgentFS, 13 упоминаний)  
   _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
   _→ RISK_REGISTER_
-- как InGit | `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |  
-  _→ TABLES_
-- _→ [[342-что-такое-вариант-c-concept-document-для-anthropic]]_  
-  _→ CONCEPTS_
+- — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Po  
+  _→ SUMMARIES_
+- строит личную или индивидуально‑командную knowledge memory. Svyazi‑2.0 должна строить социально‑проектный граф: кто може  
+  _→ 07-vs-notion-mem-affine-langgraph_
+- как понятны роли агентов, типы задач и review states. A2A Protocol+1  
+  _→ 09-do-not-glue_
+- рекомендация: попробовать Hermes на ваш Termux setup. Compare с Cowork. Decide which serves your actual workflow better. Adjust documents accordingly.  
+  _→ 13-reprioritization_
+- > [!IMPORTANT]  
+  _→ 12-concrete-next-step_
+- Приоритет 1: Reach out к Андрею Чуяну. Comment on Habr article или direct message. Проверить interest в discussion.  
+  _→ 12-concrete-next-step_
+- Вариант 2: Я draft Variant C concept document с Lorenzo central — это outreach-ready document для Anthropic  
+  _→ 03-dhlab-umbrella_
+- Immediate (this session):  
+  _→ 06-conclusion-deserves-attention_
+- гильдийных Профессиональных Коллег, и только потом, когда контрибьюторы привыкнут к AI-партнёрам в работе, добавлять Пре  
+  _→ 01-response_
+- набора узкоспециализированных под-агентов, которые потом могут быть скомпонованы в разные конфигурации.  
+  _→ 03-the-spectrum_
+- ваш repo имеет defensible meta-layer: для любого внешнего человека видно, что вы работаете в осмысленной парадигме, а не в хаотичном AI-assisted режим  
+  _→ 16-glossary_
+- интереснее: knowledge-space становится не просто хранилищем знаний, а приёмником результатов ночных исследований; CodeWiki и Skills превращают эти рез  
+  _→ H-research-to-product-flywheel_
+- как появилась **метрика качества**, benchmark set и отчётливое понимание, что считать регрессией. До этого автоматическая оптимизация будет скорее про  
+  _→ do-not-glue_
+- как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |  
+  _→ risks_
+- Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
+  _→ risks_
+- validation Bescheid parsing:  
+  _→ 30-mega-stack-3-0-with-dsl-ast_
 
 _(118 дублей скрыто)_
 
@@ -203,6 +235,8 @@ _(118 дублей скрыто)_
   _→ 02-общий-план-развития-nautilus-portal-protocol_
 - прочитать в первую очередь.  
   _→ 02-общий-план-развития-nautilus-portal-protocol_
+- сохранить оба, консолидировать позже Трёхфазная методология отвечает на эту проблему следующим образом: 1.  
+  _→ 107-1-контекст-и-мотивация_
 - сохранить оба, консолидировать позже](#13-решение-сохранить-оба-консолидировать-позже)  
   _→ 107-1-контекст-и-мотивация_
 - сохранить оба, консолидировать позже  
@@ -223,6 +257,8 @@ _(118 дублей скрыто)_
   _→ 115-8-ограничения-и-открытые-вопросы_
 - ≤2 недели*. Если Фаза C откладывается дольше,  
   _→ 115-8-ограничения-и-открытые-вопросы_
+- оба риска реальны, приоритезация зависит от цели проекта.  
+  _→ 119-appendix-b-примеры-расхождений-и-их-разрешения_
 - через Правило 2** (§3.1):  
   _→ 119-appendix-b-примеры-расхождений-и-их-разрешения_
 - tree для разрешения расхождений в §3.1  
@@ -275,17 +311,21 @@ _(118 дублей скрыто)_
   _→ 172-3-what-makes-a-representative-agent_
 - to principal rather than acting  
   _→ 174-5-architectural-specification_
+- - Principal c  
+  _→ 175-6-ethical-framework_
 - - Principal can audit all agent actions  
   _→ 175-6-ethical-framework_
-- На протяжении истории цивилизации развивали институциональные решения этой асимметрии. Паттерн постоянен: **представительский класс** возникает между  
+- На протяжении истории цивилизации развивали институциональные решения этой асимметрии.  
   _→ 191-1-синдром-золушки-почему-качество-остаётся-невидим_
+- принципалу, а не действует независимо.  
+  _→ 195-5-архитектурная-спецификация_
 - споров, ответственность.  
   _→ 195-5-архитектурная-спецификация_
 - принципалу, а не действует независимо. Лучше переконсультироваться, чем переступить.  
   _→ 195-5-архитектурная-спецификация_
-- Споров](#73-разрешение-споров)  
-  _→ 197-7-управление-и-надзор_
 - споров, требования прозрачности.  
+  _→ 197-7-управление-и-надзор_
+- Споров](#73-разрешение-споров)  
   _→ 197-7-управление-и-надзор_
 - принципал-платформа (возврат, исправление, восстановление)  
   _→ 197-7-управление-и-надзор_
@@ -297,6 +337,8 @@ _(118 дублей скрыто)_
   _→ 207-приложение-c-образцы-случаев-использования-в-детал_
 - Framework — When to Build Type 1 First  
   _→ 227-appendix-b-decision-framework-when-to-build-type-1_
+- требует сознательных дизайнерских решений: Меры противодействия 1 — Асимметричный дизайн.  
+  _→ 237-6-риски-специфичные-для-этой-категории_
 - ограничивать активную конфигурацию (10-15 максимум), периодически пересматривать.  
   _→ 248-приложение-c-архитектура-быстрого-старта-для-sgb-а_
 - should the sub-agent registry  
@@ -450,15 +492,13 @@ _(225 дублей скрыто)_
   _→ 12-roadmap_
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patc  
   _→ 14-limitations_
-- склеивать](#ограничения-лицензии-и-что-пока-лучше-не-склеивать)  
-  _→ 14-limitations_
 - — это прямо те данные, которые в userMemories упоминаются как относящиеся к реальным Aktenzeichen в Sozialgericht Dresden.  
   _→ 01-интегральный-анализ-профиля-svend4_
 - для вас объективно , с учётом всех факторов вашей конкретной ситуации  
   _→ 01-интегральный-анализ-профиля-svend4_
 - потому что это не выложено в открытый доступ в чате в персональном в личном чате использованного для безопасной компании безопасной нейросети ничего н  
   _→ 01-интегральный-анализ-профиля-svend4_
-- токена определяется слабейшим звеном во всей цепочке (устройство, клавиатура, сеть, Anthropic edge, Anthropic logs, GitHub scanners). Даже если 6 из 7  
+- токена определяется слабейшим звеном во всей цепочке (устройство, клавиатура, сеть, Anthropic edge, Anthropic logs, [GitHub](../docs/01-svyazi/03-comp  
   _→ 01-интегральный-анализ-профиля-svend4_
 - полагаться на это. Отзовите руками немедленно.  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -506,6 +546,10 @@ _(225 дублей скрыто)_
   _→ 159-5-economic-model_
 - mitigations**:  
   _→ 161-7-phased-rollout-plan_
+- Assessment On balance, OKWF faces typical challenges of a new foundation with novel scope.  
+  _→ 162-8-risk-analysis_
+- Regulatory Challenges Probability: Low-Medium Impact: Medium Risk sources: - Employment law reclassifying contributors as employees - GDPR enforcement  
+  _→ 162-8-risk-analysis_
 - Analysis](#8-risk-analysis)  
   _→ 162-8-risk-analysis_
 - Insufficient Demand from Target Contributor Population](#81-risk-insufficient-demand-from-target-contributor-population)  
@@ -644,6 +688,8 @@ _(225 дублей скрыто)_
   _→ 207-приложение-c-образцы-случаев-использования-в-детал_
 - we address in Section 6.  
   _→ 214-3-empirical-case-study-обучай_
+- Profession Capture by Service Providers Scenario: One Professional Colleague Agent dominates profession.  
+  _→ 217-6-risks-specific-to-this-category_
 - Mediation Collapse](#61-risk-mediation-collapse)  
   _→ 217-6-risks-specific-to-this-category_
 - Skill Atrophy in New Practitioners](#62-risk-skill-atrophy-in-new-practitioners)  
@@ -760,6 +806,8 @@ _(225 дублей скрыто)_
   _→ 282-what-industry-will-likely-build_
 - дальше. Текущий чат не имеет механизма для  
   _→ 295-конкретный-случай-перед-нами_
+- сложность Notion создаёт барьер для входа.  
+  _→ 297-что-промышленность-вероятно-построит_
 - культура кода будет  
   _→ 297-что-промышленность-вероятно-построит_
 - обнаружения через год, что что-то fundamental не работает.  
@@ -872,11 +920,7 @@ _(225 дублей скрыто)_
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 - склеивать в один релиз  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
-- register, auto-changelog, master index; fix run_all missing scripts _59617c5d_  
-  _→ CHANGELOG_
-- (4 файлов)](#кластер-26-medium-high-low-risk-4-файлов)  
-  _→ CLUSTERS_
-- (4 файлов)  
+- (6 файлов)  
   _→ CLUSTERS_
 - mitigations**  
   _→ CONCEPTS_
@@ -892,13 +936,15 @@ _(225 дублей скрыто)_
   _→ FOOTNOTES_
 - | ██ 8.1 | 0.5 | 0.4 | ▒▒ 4.3 | 0.1 |  
   _→ HEATMAP_
+- агентов? [Содержание]  
+  _→ KNOWLEDGE_MAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
-- того, что через две недели **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, LiteParse, Legal RAG[^rag], Hy  
+- того, что через две недели **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, LiteParse, Legal RAG, Hybrid RAG --- <!-- tags: memory, rag,  
   _→ NARRATIVE_
 - Analysis](obsidian/02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysisobsidian02-anthropic-vacancies162-8-risk-analysismd)  
   _→ OUTLINE_
-- склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)](#ограничения-лицензии-и-что-п  
+- Regulatory Complexity Deployment Readiness  
   _→ OUTLINE_
 - скл](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3362 | — |  
   _→ READING_ORDER_
@@ -916,6 +962,8 @@ _(225 дублей скрыто)_
   _→ SCORING_
 - склеиват](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3362 |  
   _→ SITEMAP_
+- того, что через две недели Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, LiteParse, Legal RAG ^rag , Hybrid  
+  _→ SUMMARIES_
 - 5: Burnout. Проект … | 60 |  
   _→ TABLES_
 - Analysis]] | 653 | — |  
@@ -956,6 +1004,24 @@ _(225 дублей скрыто)_
   _→ TABLES_
 - склеиват]] | 3339 |  
   _→ TABLES_
+- проблемы. Habr  
+  _→ 04-memory-firewall-vs-prompt-worms_
+- Каждый компонент maintained by one person:  
+  _→ 02-minuses-1-10_
+- «машина технологической селекции» becomes the project, instead of being a tool for the actual project (SGB advocacy, helping vulnerable populations).  
+  _→ 02-minuses-1-10_
+- 5 — Дефицит practical learning через rejection. Часть development of judgment in business comes от experience — from being rejected, learning why, adj  
+  _→ 01-response_
+- становится отдельной способностью, ортогональной к умению создавать качество.  
+  _→ 01-response_
+- и бюджетный execution plane для агентных систем.  
+  _→ security-routing-plane_
+- склеивать».  
+  _→ do-not-glue_
+- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
+  _→ projects-map_
+- (critical for Anwaltsgeheimnis)  
+  _→ 14-local-first-agent-development-environment_
 
 _(418 дублей скрыто)_
 
@@ -969,7 +1035,7 @@ _(418 дублей скрыто)_
   _→ 14-limitations_
 - доступа к полному списку репозиториев  
   _→ 00-intro_
-- GitHub на crawling. Поэтому сделаю так: сейчас детально разберу то, к чему у меня есть доступ (два pinned репозитория со звёздочкой + data70), а затем  
+- [GitHub](../docs/01-svyazi/03-component-catalog.md) на crawling. Поэтому сделаю так: сейчас детально разберу то, к чему у меня есть доступ (два pinned  
   _→ 00-intro_
 - (честно)](#что-не-подходит-честно)  
   _→ 00-intro_
@@ -1013,6 +1079,8 @@ _(418 дублей скрыто)_
   _→ 194-4-десять-областей-применения_
 - Особенно критично в правовых, медицинских и финансовых областях, где чрезмерная уверенность может причинить вред.  
   _→ 196-6-этическая-рамка_
+- - No AI collaboration - Not designed for documents as first-class artifacts - Not designed for project-style work tracking These tools are good for co  
+  _→ 279-existing-approximations_
 - - Each chat within a project is still linear  
   _→ 279-existing-approximations_
 - - Culturally code-oriented; intellectual discussions feel  
@@ -1071,8 +1139,6 @@ _(418 дублей скрыто)_
   _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
 - - Habr Scout : Habr articles often hype или incomplete; need quality filter  
   _→ 365-развёрнутый-анализ-внуковой-комбинации_
-- GitHub на crawling  
-  _→ CONCEPTS_
 - исчезают**  
   _→ CONCEPTS_
 - при коммерческом использовании | | **Monolithic LLM…  
@@ -1083,7 +1149,7 @@ _(418 дублей скрыто)_
   _→ OUTLINE_
 - текущей версии (0.1.0-draft)](obsidian/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draftobs  
   _→ OUTLINE_
-- и открытые вопросы(#8-ограничения-и-открытые-вопросы)  
+- и открытые вопросы](docs/nautilus/review-methodology/09-limitations-open-questions.md)](#8-ограничения-и-открытые-вопросыdocsnautilusreview-methodolog  
   _→ OUTLINE_
 - - MVP-шаги  
   _→ OUTLINE_
@@ -1126,7 +1192,7 @@ _(418 дублей скрыто)_
 
 _(124 дублей скрыто)_
 
-## 📋 Задачи (TODO) (18)
+## 📋 Задачи (TODO) (13)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -1148,8 +1214,12 @@ _(124 дублей скрыто)_
   _→ STATS_
 - меток: **23**  
   _→ STATS_
+- Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
+  _→ 02-minuses-1-10_
+- после решения  
+  _→ review-record_
 
-_(8 дублей скрыто)_
+_(2 дублей скрыто)_
 
 ## 📬 Контактные действия (179)
 
@@ -1167,7 +1237,7 @@ _(8 дублей скрыто)_
   _→ 01-интегральный-анализ-профиля-svend4_
 - draft за 2-3 сессии.  
   _→ 01-интегральный-анализ-профиля-svend4_
-- nautilus/README.md отдельно от корневого README pro2 . Минимум 1 страница, объяс  
+- [nautilus](../docs/05-habr-projects/memory/memnet.md)/README.md отдельно от корн  
   _→ 01-интегральный-анализ-профиля-svend4_
 - PORTAL-PROTOCOL.md как formal specification v1.0. Минимум 8–12 страниц: (1) goal  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -1273,12 +1343,16 @@ _(8 дублей скрыто)_
   _→ 69-section_
 - единый сводный IMPLEMENTATION_REVIEW.md взамен четырёх частей — более структурир  
   _→ 69-section_
-- `adapters/<format>.py`, наследуясь от `BaseAdapter`  
+- `adapters/<format>.py`, наследуясь от `[BaseAdapter](../docs/02-anthropic-vacanc  
   _→ 87-12-onboarding-paths-normative_
 - `passports/<format>.md`  
   _→ 87-12-onboarding-paths-normative_
 - ему в комменты с тегами на Чепурову и Романова (и со ссылкой на NGT Memory), опи  
   _→ 00-intro_
+- первым (ещё не контактир  
+  _→ CONTACT_PRIORITY_
+- первым (ещё не контактировали)](#написать-первым-ещё-не-контактировали)  
+  _→ CONTACT_PRIORITY_
 - первым (ещё не контактировали)  
   _→ CONTACT_PRIORITY_
 - abstract arxiv paper (1 страница) - Опция 2: identify конкретную grant call с de  
@@ -1289,15 +1363,29 @@ _(8 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
-- авторами компонентов → [CONTACTS.md](CONTACTS.md)  
-  _→ REPORT_
 - авторам AgentFS, Yodoca, NGT | ⬜ Планируется |  
   _→ SCHEDULE_
 - авторам AgentFS, Yodoca, NGT**  
   _→ SCHEDULE_
 - PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
   _→ TABLES_
-- авторами компонентов → [[CONTACTS|CONTACTS.md]]  
-  _→ REPORT_
+- technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого арте  
+  _→ 10-three-entry-points_
+- vision paper на 10-15 страниц. «MMORPG as Professional Work Infrastructure: A Th  
+  _→ 05-minuses-as-business_
+- vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про  
+  _→ 05-minuses-as-business_
+- CRUD», а те, что на переднем крае самой модели (pre‑training, RL, alignment, int  
+  _→ signals_
+- companion paper про Профессиональных Коллег. Это будет более готовая для развёрт  
+  _→ 01-response_
+- один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRAR  
+  _→ 01-strategic-significance_
+- `adapters/<format>.py`, наследуясь от `BaseAdapter`  
+  _→ 12-onboarding-paths_
+- PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1  
+  _→ 04-what-i-can-do-now_
+- anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
+  _→ 04-what-i-can-do-now_
 
 _(106 дублей скрыто)_

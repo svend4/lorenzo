@@ -49,22 +49,18 @@
 | Файл | Проектов | Список |
 |------|----------|--------|
 | `docs/TABLES.md` | 29 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +23 |
-| `docs/obsidian/TABLES.md` | 29 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +23 |
 | `docs/01-svyazi/03-component-catalog.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 |
 | `docs/04-ai-collaborations/00-intro.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, AIF Handoff +21 |
 | `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 |
-| `docs/obsidian/01-svyazi/03-component-catalog.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 |
-| `docs/obsidian/04-ai-collaborations/00-intro.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, AIF Handoff +21 |
-| `docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 |
+| `docs/svyazi-2-0/overview/projects-map.md` | 27 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 |
+| `docs/glossary/authors-by-name.md` | 26 | Svyazi, AgentFS, knowledge-space, mclaude, AI Factory, AIF Handoff +20 |
+| `docs/glossary/components-by-name.md` | 26 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +20 |
+| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 25 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +19 |
 | `docs/01-svyazi/04-ensembles-overview.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
-| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
 | `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
-| `docs/obsidian/01-svyazi/04-ensembles-overview.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
-| `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
-| `docs/obsidian/04-ai-collaborations/04-приоритетные-ансамбли.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
+| `docs/OUTLINE.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
+| `docs/SUMMARIES.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
 | `docs/GRAPH.md` | 23 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 |
 | `docs/MINDMAP.md` | 23 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 |
-| `docs/obsidian/GRAPH.md` | 23 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 |
-| `docs/obsidian/MINDMAP.md` | 23 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 |
 | `docs/01-svyazi/01-executive-summary.md` | 22 | Svyazi, CardIndex, AgentFS, mclaude, AI Factory, AIF Handoff +16 |
 | `docs/CONCEPTS.md` | 22 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +16 |

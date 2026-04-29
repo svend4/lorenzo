@@ -10,17 +10,24 @@
   - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
   - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
   - [9.5. For Potential Contributors](#95-for-potential-contributors)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** For Policy Organizations (EU Commission, National Governments, OECD) What we ask: - Regulatory guidance and dialogue - Recognition of experimental status - Potential grant funding 
+> 🔧 **Подход:** For Academic and Research Partners (Universities, Think Tanks) What we ask: - Research collaboration on methodology and outcomes - Student and researcher contributor recruitment - 
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `partnership`, `research`, `policy`, `contributors`, `academic`, `infrastructure`
+>
 
 
 <!-- toc-auto -->
 ## Contents
 
 - [9. Call for Partnership](#9-call-for-partnership)
-  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-[mistral](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-openai-google-microsoft)
   - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
   - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
   - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
@@ -129,9 +136,9 @@ section explicitly invites partnership.
 ---
 
 **Похожие документы:**
-- [164-10-appendices](164-10-appendices.md) (сходство 0.17)
-- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.16)
-- [159-5-economic-model](159-5-economic-model.md) (сходство 0.15)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.17)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.16)
+- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -139,36 +146,8 @@ section explicitly invites partnership.
 ---
 
 **Смотрите также:**
-- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
-- [164-10-appendices](164-10-appendices.md)
-- [159-5-economic-model](159-5-economic-model.md)
-- [153-executive-summary](153-executive-summary.md)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. Problem Statement](155-1-problem-statement.md)
-- [10. Appendices](164-10-appendices.md)
-- [5. Economic Model](159-5-economic-model.md)
-- [6. Governance and Ethics](160-6-governance-and-ethics.md)
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
-- [8. Risk Analysis](162-8-risk-analysis.md)
-- [Executive Summary](153-executive-summary.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [5. Economic Model](159-5-economic-model.md) _21%_
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _21%_
-## Связанные документы
-
-- [6. Governance and Ethics](160-6-governance-and-ethics.md) _21%_
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _21%_
-- [10. Appendices](164-10-appendices.md) _21%_
-- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _21%_
-- [8. Call to Action](145-8-call-to-action.md) _17%_
-- [5. Economic Model](159-5-economic-model.md) _17%_

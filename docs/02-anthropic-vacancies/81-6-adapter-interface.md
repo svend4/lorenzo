@@ -21,7 +21,7 @@
 ## Contents
 
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.1. [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
@@ -46,7 +46,7 @@
 ### 6.1. BaseAdapter Contract
 
 Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс) 
-от `BaseAdapter`:
+от `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`:
 
 ```python
 from abc import ABC, abstractmethod
@@ -68,7 +68,7 @@ class BaseAdapter(ABC):
 
 ### 6.2. `fetch(query)` — Required
 
-Accepts string query, returns list of `PortalEntry`.
+Accepts string query, returns list of `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`.
 
 Implementation MUST:
 
@@ -115,9 +115,9 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 ---
 
 **Похожие документы:**
-- [18-6-adapter-interface](18-6-adapter-interface.md) (сходство 0.51)
-- [85-10-query-flow](85-10-query-flow.md) (сходство 0.12)
-- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.12)
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.51)
+- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.12)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -125,51 +125,8 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 ---
 
 **Смотрите также:**
-- [18-6-adapter-interface](18-6-adapter-interface.md)
-- [82-7-portalentry-structure](82-7-portalentry-structure.md)
-- [19-7-portalentry-structure](19-7-portalentry-structure.md)
-- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. Query Flow](85-10-query-flow.md)
-- [10. QueryResult Structure](22-10-queryresult-structure.md)
-- [11. Relevance Ranking](86-11-relevance-ranking.md)
-- [11. Security Considerations](23-11-security-considerations.md)
-- [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md)
-- [15. Security Considerations](90-15-security-considerations.md)
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
-- [6. Adapter Interface](18-6-adapter-interface.md)
-- [7. PortalEntry Structure](19-7-portalentry-structure.md)
-- [7. PortalEntry Structure](82-7-portalentry-structure.md)
-- [9. Consensus Algorithm](84-9-consensus-algorithm.md)
-- [9. Query Flow](21-9-query-flow.md)
-- [Appendix B: Change Log](103-appendix-b-change-log.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Вопрос: fallback-ratio как критический или осмысленный?](110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [6. Adapter Interface](18-6-adapter-interface.md) _48%_
-- [9. Query Flow](21-9-query-flow.md) _29%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
-- [Appendix B: Change Log](103-appendix-b-change-log.md) _21%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _21%_
-- [10. Query Flow](85-10-query-flow.md) _21%_
-- [11. Security Considerations](23-11-security-considerations.md) _17%_
-## Связанные документы
-
-- [6. Adapter Interface](18-6-adapter-interface.md) _53%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _29%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _25%_
-- [9. Query Flow](21-9-query-flow.md) _25%_
-- [Appendix B: Change Log](103-appendix-b-change-log.md) _21%_
-- [11. Relevance Ranking](86-11-relevance-ranking.md) _21%_
-- [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md) _21%_

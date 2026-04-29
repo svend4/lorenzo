@@ -11,19 +11,15 @@
 - `docs/ABBREVIATIONS.md`
 - `docs/ACTION_ITEMS.md`
 - `docs/BACKLINKS.md`
-- `docs/BROKEN_LINKS.md`
-- `docs/CHANGELOG.md`
 - `docs/CITATION_INDEX.md`
+- `docs/CLUSTERS.md`
 - `docs/CODE_BLOCKS.md`
 - `docs/COMPARE.md`
 - `docs/COMPLEXITY.md`
 - `docs/CONCEPTS.md`
-- `docs/CONCEPT_GRAPH.md`
 - `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
 - `docs/CONTENT_GAPS.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COVERAGE.md`
+- `docs/CROSS_SECTION.md`
 - `docs/DENSITY.md`
 - _...и ещё 35_
 
@@ -221,10 +217,6 @@
 
 ## #roadmap (46 файлов)
 
-- `docs/01-svyazi/QA.md`
-- `docs/02-anthropic-vacancies/QA.md`
-- `docs/04-ai-collaborations/QA.md`
-- `docs/05-habr-projects/QA.md`
 - `docs/ABBREVIATIONS.md`
 - `docs/ACTION_ITEMS.md`
 - `docs/BACKLINKS.md`
@@ -252,16 +244,16 @@
 - `docs/ACTION_ITEMS.md`
 - `docs/CODE_BLOCKS.md`
 - `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
+- `docs/CONSISTENCY.md`
 - `docs/CONTENT_GAPS.md`
 - `docs/COST.md`
 - `docs/COVERAGE.md`
 - `docs/DENSITY.md`
+- `docs/DEPENDABOT.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/DIGEST_WEEKLY.md`
 - `docs/ENTITIES.md`
-- `docs/FAQ.md`
-- `docs/FOOTNOTES.md`
-- `docs/GRAPH.md`
+- `docs/GITHUB_ISSUES.md`
 - `docs/HEATMAP.md`
 - `docs/MINDMAP.md`
 - `docs/MISSING.md`
@@ -276,17 +268,12 @@
 - `docs/COMPLEXITY.md`
 - `docs/CONCEPTS.md`
 - `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
 - `docs/CONTENT_GAPS.md`
 - `docs/CONTRADICTIONS.md`
 - `docs/FOOTNOTES.md`
 - `docs/GRAPH.md`
 - `docs/KPI.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- `docs/NAMED_ENTITIES.md`
 - `docs/OUTLINE.md`
-- `docs/PARAGRAPH_QUALITY.md`
 - `docs/PRIORITIES.md`
 - `docs/QUESTIONS.md`
 - _...и ещё 9_

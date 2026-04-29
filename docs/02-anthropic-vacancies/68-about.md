@@ -1,5 +1,15 @@
 # 🇬🇧 About
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Documentation - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in
+> 🔧 **Подход:** - 0: Discoverable — declared in registry only - 1: Readable — has passport + describe() method - 2: Queryable — implements fetch(query) — search works - 3: Interactive — translatet
+> ✅ **Результат:** Reports always show attribution — which repo each result came from.
+> 🏷️ **Ключевые слова:** `nautilus`, `portal`, `protocol`, `reference`, `https`, `anthropic`, `svend`, `passports`
+>
+
+
 <!-- summary -->
 > Nautilus is a **federation protocol** and reference implementation
 
@@ -17,7 +27,7 @@
   - [Compatibility Levels](#compatibility-levels)
   - [Documentation](#documentation)
   - [Project Status](#project-status)
-  - [Why "Nautilus"?](#why-nautilus)
+  - [Why "Nautilus"?](#why-[nautilus](../docs/05-habr-projects/memory/memnet.md))
   - [Related Work](#related-work)
   - [Licenses](#licenses)
   - [Contact](#contact)
@@ -91,7 +101,7 @@ python portal.py --serve
 
 **Minimal (Level 0–1, 5 minutes):**
 
-1. Place `nautilus.json` in your repo's root:
+1. Place `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` in your repo's root:
 
 ```json
 {
@@ -112,10 +122,10 @@ python portal.py --serve
 **Full (Level 2–3, a few hours):**
 
 3. Add an adapter in `adapters/my_repo.py` implementing the 
-   `BaseAdapter` interface (see 
+   `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` interface (see 
    [PORTAL-PROTOCOL.md §6](./PORTAL-PROTOCOL.md#6-adapter-interface))
 
-4. Register the repo in the portal's root `nautilus.json`
+4. Register the repo in the portal's root `[nautilus](../docs/05-habr-projects/memory/memnet.md).json`
 
 ### How It Works
 
@@ -181,7 +191,7 @@ v1.0.0-stable.
 
 ### Why "Nautilus"?
 
-A nautilus shell is a **spiral of nested chambers**, each larger 
+A [nautilus](../docs/05-habr-projects/memory/memnet.md) shell is a **spiral of nested chambers**, each larger 
 than the last but built on the same geometry. This is *fractal 
 scaling with preserved proportion*. Nautilus Protocol embodies the 
 same pattern: repos nested inside an ecosystem, each self-contained 
@@ -224,9 +234,9 @@ consensus-based validation across repos.
 ---
 
 **Похожие документы:**
-- [67-о-проекте](67-о-проекте.md) (сходство 0.17)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
-- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.12)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.17)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -234,47 +244,8 @@ consensus-based validation across repos.
 ---
 
 **Смотрите также:**
-- [67-о-проекте](67-о-проекте.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
-- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
-- [164-10-appendices](164-10-appendices.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. Query Flow](85-10-query-flow.md)
-- [11. Security Considerations](23-11-security-considerations.md)
-- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md)
-- [2. Terminology](07-2-terminology.md)
-- [2. Terminology](77-2-terminology.md)
-- [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md)
-- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
-- [5. Compatibility Levels](17-5-compatibility-levels.md)
-- [Appendix C: References](104-appendix-c-references.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [🇷🇺 О проекте](67-о-проекте.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [🇷🇺 О проекте](67-о-проекте.md) _29%_
-- [13. Reference Implementation](25-13-reference-implementation.md) _25%_
-- [Author & Contact](42-author-contact.md) _25%_
-- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _21%_
-- [18. Reference Implementation](93-18-reference-implementation.md) _21%_
-- [0. Status of This Document](05-0-status-of-this-document.md) _17%_
-- [2. Terminology](07-2-terminology.md) _17%_
-- [Appendix C: References](104-appendix-c-references.md) _17%_
-## Связанные документы
-
-- [🇷🇺 О проекте](67-о-проекте.md) _33%_
-- [Appendix C: References](104-appendix-c-references.md) _29%_
-- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _29%_
-- [13. Reference Implementation](25-13-reference-implementation.md) _29%_
-- [Author & Contact](42-author-contact.md) _29%_
-- [2. Terminology](77-2-terminology.md) _29%_
-- [18. Reference Implementation](93-18-reference-implementation.md) _29%_
-- [2. Terminology](07-2-terminology.md) _25%_

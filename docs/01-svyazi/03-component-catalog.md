@@ -1,20 +1,19 @@
 
-
-<!-- toc -->
-## Содержание
-
-- [Карта найденных проектов и паттернов](#карта-найденных-проектов-и-паттернов)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
-
 <!-- summary -->
-> <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
+> > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
 
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.
+> 🔧 **Подход:** 6 слоёв, YAML, SHA256‑дедупликация, Ollama+Qwen, LLM^llm+детерминированный код, CardIndex^cardindex, privacy by design.
+> ✅ **Результат:** citeturn15search1turn15search5 Очень высокая: даёт visual grounding, которого Svyazi‑подобным системам обычно не хватает.
+> 🏷️ **Ключевые слова:** `search`, `memory`, `высокая`, `github`, `активный`, `svyazi`, `неуточнено`, `first`
+>
 
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
 
@@ -47,9 +46,9 @@
 ---
 
 **Похожие документы:**
-- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.99)
-- [TABLES](../TABLES.md) (сходство 0.20)
-- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.16)
+- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.99)
+- [TABLES](docs/TABLES.md) (сходство 0.20)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -57,10 +56,10 @@
 ---
 
 **Смотрите также:**
-- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [TABLES](../TABLES.md)
-- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [04-ensembles-overview](04-ensembles-overview.md)
+- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [TABLES](docs/TABLES.md)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [04-ensembles-overview](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md)
 
 
 
@@ -81,41 +80,3 @@
 [^sentinel]: OSS-проект: безопасность и allowlist для MCP
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [04 Ensembles Overview](04-ensembles-overview.md)
-- [14 Limitations](14-limitations.md)
-- [Executive summary](../04-ai-collaborations/01-executive-summary.md)
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
-- [Введение](../04-ai-collaborations/00-intro.md)
-- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [Ограничения, лицензии и что пока лучше не склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
-## Упоминается в
-
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _66%_
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
-- [04 Ensembles Overview](04-ensembles-overview.md) _29%_
-- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _25%_
-- [07 Mvp Planning](07-mvp-planning.md) _21%_
-- [08 Conclusions](08-conclusions.md) _21%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _21%_
-- [10 Second Order Ensembles](10-second-order-ensembles.md) _21%_
-## Связанные документы
-
-- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _90%_
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
-- [04 Ensembles Overview](04-ensembles-overview.md) _29%_
-- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _29%_
-- [Все таблицы репозитория](../TABLES.md) _29%_
-- [06 Security Privacy](06-security-privacy.md) _25%_
-- [07 Mvp Planning](07-mvp-planning.md) _25%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _25%_

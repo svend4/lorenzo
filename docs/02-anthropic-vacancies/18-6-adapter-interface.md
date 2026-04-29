@@ -46,7 +46,7 @@
 ### 6.1. BaseAdapter Contract
 
 Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс) 
-от `BaseAdapter`:
+от `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`:
 
 ```python
 class BaseAdapter:
@@ -84,7 +84,7 @@ Returns dict со следующей обязательной структуро
 
 ### 6.3. `fetch(query)` — Required for Level 2+
 
-Accepts string query, returns list of `PortalEntry`.
+Accepts string query, returns list of `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`.
 
 Implementation MUST:
 
@@ -100,7 +100,7 @@ Implementation SHOULD:
 
 ### 6.4. `translate_to(entry, target_repo)` — Required for Level 3
 
-Accepts `PortalEntry` и имя target repo из `bridges`. Returns 
+Accepts `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` и имя target repo из `bridges`. Returns 
 string description концепта entry в терминах target_repo, или 
 `None` если перевод невозможен.
 

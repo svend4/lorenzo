@@ -1,5 +1,14 @@
 # Abstract
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Each type serves a different need, has different economics, requires different governance, and proceeds at a different pace of deployment.
+> 🔧 **Подход:** We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to 93,000 teacher-users in seven months in 2025-2026), develop fo
+> 🏷️ **Ключевые слова:** `agents`, `agent`, `anthropic`, `vacancies`, `abstract`, `professional`, `types`, `representative`
+>
+
+
 <!-- summary -->
 > Building on the Representative Agent Layer paper, we observe
 

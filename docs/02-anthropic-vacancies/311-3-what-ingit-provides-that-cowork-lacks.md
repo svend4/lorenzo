@@ -1,5 +1,14 @@
 # 3. What InGit Provides That Cowork Lacks
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** If you use Cowork extensively and later need to switch platforms (Gemini, GPT, local models), Cowork-specific patterns don't transfer.
+> ✅ **Результат:** What InGit Provides That Cowork Lacks Equally important: where does InGit add value that Cowork alone doesn't provide?
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `provides`, `anthropic`, `encryption`, `structure`, `metadata`, `validation`
+>
+
+
 <!-- summary -->
 > Equally important: where does InGit add value that Cowork
 
@@ -8,7 +17,7 @@
 <!-- toc -->
 ## Содержание
 
-- [3. What InGit Provides That Cowork Lacks](#3-what-ingit-provides-that-cowork-lacks)
+- [3. What InGit Provides That Cowork Lacks](#3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks)
   - [3.1. Structured File Organization](#31-structured-file-organization)
   - [3.2. Metadata as Code](#32-metadata-as-code)
   - [3.3. Git-Native Versioning](#33-git-native-versioning)
@@ -148,7 +157,7 @@ tools to convert between project structures.
 InGit can include migration tools:
 - Import from Notion (preserve structure where possible)
 - Import from Obsidian (preserve linking)
-- Import from GitHub Issues + Wiki
+- Import from [GitHub](../docs/01-svyazi/03-component-catalog.md) Issues + Wiki
 - Export to standard formats (Markdown + YAML)
 
 This makes InGit useful as **interoperability hub** for users 
@@ -175,9 +184,9 @@ ground on which Cowork operates effectively.
 ---
 
 **Похожие документы:**
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.20)
-- [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md) (сходство 0.18)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.17)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.20)
+- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.18)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -185,48 +194,8 @@ ground on which Cowork operates effectively.
 ---
 
 **Смотрите также:**
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
-- [4. Симбиотическая Архитектура](330-4-симбиотическая-архитектура.md)
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
-- [5. Четыре пути интеграции в порядке доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md)
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
-- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
-- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md)
-- [Table of Contents](308-table-of-contents.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _33%_
-- [Table of Contents](308-table-of-contents.md) _25%_
-- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _25%_
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _25%_
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _21%_
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _21%_
-- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _21%_
-- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _17%_
-## Связанные документы
-
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _37%_
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _33%_
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _33%_
-- [Table of Contents](308-table-of-contents.md) _29%_
-- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _29%_
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _29%_
-- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _25%_
-- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _25%_

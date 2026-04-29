@@ -7,7 +7,7 @@
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, LiteParse, Legal RAG, Graph RAG, SENTINEL, Auto AI Router
+**Проекты:** Svyazi, Legal RAG
 
 ---
 
@@ -64,49 +64,23 @@ Legal RAG закрывает слой «rag» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
-- [Контакт: Antipozitive / MemNet](antipozitive.md) _66%_
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _66%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _66%_
-- [Контакт: kksudo / AgentFS](kksudo.md) _66%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _66%_
-- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _66%_
-- [Контакт: spbmolot / NGT Memory](spbmolot.md) _66%_
-## Связанные документы
+---
 
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _73%_
-- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _66%_
-- [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _66%_
-- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _66%_
+**Похожие документы:**
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.88)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.86)
+- [mixaill76](docs/contacts/mixaill76.md) (сходство 0.86)
+
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [vladspace](vladspace.md)
-- [nlaik](nlaik.md)
-- [sonia-black](sonia-black.md)
-- [cutcode](cutcode.md)
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [zodigancode](docs/contacts/zodigancode.md)
+- [dmitriila](docs/contacts/dmitriila.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [contacts](README.md)
-- [Контакт: AnastasiyaW / knowledge-space, mclaude](anastasiyaw.md)
-- [Контакт: Antipozitive / MemNet](antipozitive.md)
-- [Контакт: Cutcode / AIF Handoff](cutcode.md)
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md)
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md)
-- [Контакт: Sonia_Black / knowledge-space](sonia-black.md)
-- [Контакт: VladSpace / Graph RAG](vladspace.md)
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md)
-- [Контакт: nlaik / LiteParse / research-docs](nlaik.md)
-- [Контакт: zodigancode / Rufler](zodigancode.md)

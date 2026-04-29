@@ -112,9 +112,9 @@ match actual technology architecture.
 ---
 
 **Похожие документы:**
-- [222-11-call-for-collaboration](222-11-call-for-collaboration.md) (сходство 0.26)
-- [264-11-open-questions](264-11-open-questions.md) (сходство 0.18)
-- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.17)
+- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.26)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -122,42 +122,8 @@ match actual technology architecture.
 ---
 
 **Смотрите также:**
-- [222-11-call-for-collaboration](222-11-call-for-collaboration.md)
-- [266-13-closing](266-13-closing.md)
-- [264-11-open-questions](264-11-open-questions.md)
-- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [11. Call for Collaboration](180-11-call-for-collaboration.md)
-- [11. Call for Collaboration](222-11-call-for-collaboration.md)
-- [11. Open Questions](264-11-open-questions.md)
-- [6. Governance and Ethics](160-6-governance-and-ethics.md)
-- [Appendix C: Configuration Template Example](271-appendix-c-configuration-template-example.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [11. Call for Collaboration](222-11-call-for-collaboration.md) _33%_
-- [11. Open Questions](264-11-open-questions.md) _29%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
-- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _25%_
-- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _25%_
-- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
-- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _21%_
-- [Executive Summary](153-executive-summary.md) _17%_
-## Связанные документы
-
-- [11. Call for Collaboration](222-11-call-for-collaboration.md) _33%_
-- [11. Open Questions](264-11-open-questions.md) _33%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _29%_
-- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _29%_
-- [10. Open Questions](221-10-open-questions.md) _25%_
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _25%_
-- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _21%_
-- [5. The Economics of Profession-Wide Replication](216-5-the-economics-of-profession-wide-replication.md) _21%_

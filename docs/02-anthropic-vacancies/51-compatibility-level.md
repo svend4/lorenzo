@@ -4,7 +4,7 @@
 > **Текущий уровень: 3 (Interactive / Bridged)**
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
@@ -18,7 +18,7 @@
 - ✅ Level 2: `fetch(query)` по концептам через Q6-координаты или 
   tags
 - ✅ Level 3: `translate_to(entry, "meta")` через biective Q6↔hexagram 
-  mapping; `translate_to(entry, "info1")` через α-level mapping
+  mapping; `translate_to(entry, "[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)")` через α-level mapping
 
 ---
 

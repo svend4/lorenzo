@@ -1,5 +1,14 @@
 # 1. The Five-Type Typology of Principal-Side Agents
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** A single human professional could simultaneously have: Personal AI Assistants (Type 0) do not occupy a fixed layer — they function across all layers as utility, used as needed.
+> 🔧 **Подход:** Embeds professional knowledge (norms, methodologies, regulations, templates) so that practitioners do not have to re-explain their context.
+> 🏷️ **Ключевые слова:** `agent`, `agents`, `principal`, `professional`, `types`, `institutional`, `representative`, `anthropic`
+>
+
+
 <!-- summary -->
 > The Representative Agent Layer paper introduced one type of AI
 
@@ -34,7 +43,7 @@ We now identify five distinct types.
 
 ### 1.1. Type 0 — Personal AI Assistants
 
-**Examples**: ChatGPT, Claude, Cursor, GitHub Copilot, Claude
+**Examples**: ChatGPT, Claude, Cursor, [GitHub](../docs/01-svyazi/03-component-catalog.md) Copilot, Claude
 Code.
 
 **Function**: General-purpose helper with whatever task the

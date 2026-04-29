@@ -8,10 +8,17 @@
 - [Ключевой вывод](#ключевой-вывод)
 - [Что добавляет продолжение исследования](#что-добавляет-продолжение-исследования)
 - [Приоритет ансамблей для старта](#приоритет-ансамблей-для-старта)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Svyazi^svyazi 2.0 — Исполнительное резюме Contents - Главная линия синергии(главная-линия-синергии) - Ключевой вывод(ключевой-вывод) - Что добавляет продолжение исследования(что-до
+> ✅ **Результат:** Первое — Svyazi + AgentFS + NGT/Yodoca + LiteParse: даёт уже полезный MVP 2.
+> 🏷️ **Ключевые слова:** `svyazi`, `проект`, `cardindex`, `agentfs`, `добавляет`, `продолжение`, `rufler`, `memory`
+>
 
 
 <!-- toc-auto -->
@@ -90,9 +97,9 @@
 ---
 
 **Похожие документы:**
-- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md) (сходство 0.68)
-- [08-что-это-продолжение-добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.24)
-- [07-выводы](../04-ai-collaborations/07-выводы.md) (сходство 0.22)
+- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md) (сходство 0.68)
+- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.24)
+- [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.22)
 
 
 
@@ -119,33 +126,3 @@
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
-## Упоминается в
-
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [08 Conclusions](08-conclusions.md) _29%_
-- [Executive summary](../04-ai-collaborations/01-executive-summary.md) _25%_
-- [Выводы](../04-ai-collaborations/07-выводы.md) _21%_
-- [Граф связей проектов](../GRAPH.md) _21%_
-- [07 Mvp Planning](07-mvp-planning.md) _17%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _17%_
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _17%_
-- [Что это продолжение добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md) _17%_
-## Связанные документы
-
-- [Executive summary](../04-ai-collaborations/01-executive-summary.md) _42%_
-- [Выводы](../04-ai-collaborations/07-выводы.md) _33%_
-- [08 Conclusions](08-conclusions.md) _29%_
-- [10 Second Order Ensembles](10-second-order-ensembles.md) _25%_
-- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _25%_
-- [Граф связей проектов](../GRAPH.md) _25%_
-- [07 Mvp Planning](07-mvp-planning.md) _21%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _21%_

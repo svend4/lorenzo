@@ -1,10 +1,19 @@
 # Appendix A: Minimal Working Example
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Appendix A: Minimal Working Example Contents - Appendix A: Minimal Working Example(appendix-a-minimal-working-example) - A.1.
+> 🔧 **Подход:** --- Похожие документы: - 28-appendix-a-minimal-working-example(docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.44) - 03-portal-protocol-md(docs/02
+> 🏷️ **Ключевые слова:** `minimal`, `appendix`, `working`, `example`, `anthropic`, `vacancies`, `portal`, `notes`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.1. Minimal [nautilus](../docs/05-habr-projects/memory/memnet.md).json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 
@@ -108,9 +117,9 @@ class MyNotesAdapter(BaseAdapter):
 ---
 
 **Похожие документы:**
-- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md) (сходство 0.44)
-- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.11)
-- [35-passports-info1-md](35-passports-info1-md.md) (сходство 0.10)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.44)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.11)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -118,53 +127,8 @@ class MyNotesAdapter(BaseAdapter):
 ---
 
 **Смотрите также:**
-- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
-- [03-portal-protocol-md](03-portal-protocol-md.md)
-- [105-review-methodology-md](105-review-methodology-md.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. QueryResult Structure](22-10-queryresult-structure.md)
-- [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
-- [4. Passport (`passport.md`)](79-4-passport-passport-md.md)
-- [Abstract](04-abstract.md)
-- [Abstract](74-abstract.md)
-- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md)
-- [Compatibility Level](41-compatibility-level.md)
-- [For the Curious: Philosophy](44-for-the-curious-philosophy.md)
-- [For the Curious: Philosophy](54-for-the-curious-philosophy.md)
-- [For the Curious: Philosophy](64-for-the-curious-philosophy.md)
-- [Native Format](37-native-format.md)
-- [Planned (v0.2.0)](132-planned-v0-2-0.md)
-- [README.md](65-readme-md.md)
-- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
-- [portal-mcp.py](123-portal-mcp-py.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _60%_
-- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _37%_
-- [README.md](65-readme-md.md) _33%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _29%_
-- [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _29%_
-- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
-- [portal-mcp.py](123-portal-mcp-py.md) _25%_
-- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _25%_
-## Связанные документы
-
-- [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _60%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _37%_
-- [Abstract](04-abstract.md) _33%_
-- [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _33%_
-- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _33%_
-- [portal-mcp.py](123-portal-mcp-py.md) _33%_
-- [Compatibility Level](41-compatibility-level.md) _33%_
-- [Native Format](37-native-format.md) _29%_

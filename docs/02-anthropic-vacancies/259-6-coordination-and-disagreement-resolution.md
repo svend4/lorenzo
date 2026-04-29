@@ -1,5 +1,15 @@
 # 6. Coordination and Disagreement Resolution
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** They differ on specific issue: A says X; B says Y." Helps principal see what is settled and what is contested.
+> 🔧 **Подход:** Coordination and Disagreement Resolution The composite agent's most subtle function is coordinating --- Содержание - 6.
+> ✅ **Результат:** "A's recommendation may produce result X.
+> 🏷️ **Ключевые слова:** `agent`, `principal`, `composite`, `disagreement`, `resolution`, `agents`, `recommendation`, `their`
+>
+
+
 <!-- summary -->
 > The composite agent's most subtle function is coordinating
 

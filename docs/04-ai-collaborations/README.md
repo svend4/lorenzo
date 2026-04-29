@@ -4,8 +4,8 @@
 
 ## Содержание
 
-- [00-intro.md](00-intro.md) — <!-- toc -->
-- [01-executive-summary.md](01-executive-summary.md) — <!-- toc -->
+- [00-intro.md](00-intro.md) — <!-- abstract-auto -->
+- [01-executive-summary.md](01-executive-summary.md) — <!-- abstract-auto -->
 - [02-методика-и-рамка-отбора.md](02-методика-и-рамка-отбора.md) — <!-- abstract-auto -->
 - [03-карта-найденных-проектов-и-паттернов.md](03-карта-найденных-проектов-и-паттернов.md) — <!-- toc -->
 - [04-приоритетные-ансамбли.md](04-приоритетные-ансамбли.md) — <!-- toc -->

@@ -1057,7 +1057,9 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` | 38.4 | 🟠 Сложный | 427 | 51 | 8.4 |
 | `docs/COMPARE.md` | 44.0 | 🟠 Сложный | 77 | 5 | 15.4 |
 | `docs/autofilled/components/README.md` | 63.3 | 🟡 Средний | 41 | 13 | 3.2 |
-| `docs/obsidian/autofilled/components/README.md` | 63.3 | 🟡 Средний | 41 | 13 | 3.2 |
+| `docs/habr-unique-projects/hardware-pairs/README.md` | 67.9 | 🟡 Средний | 50 | 14 | 3.6 |
+| `docs/svyazi-2-0/prototype/README.md` | 71.6 | 🟢 Лёгкий | 20 | 5 | 4.0 |
+| `docs/habr-unique-projects/software-pairs/README.md` | 74.0 | 🟢 Лёгкий | 50 | 12 | 4.2 |
 
 ## Самые сложные тексты (1035) — рекомендуется упростить
 

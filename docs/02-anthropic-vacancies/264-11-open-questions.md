@@ -13,10 +13,16 @@
   - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
   - [11.7. The "Emergence" Question](#117-the-emergence-question)
   - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What signals suggest configuration revision is needed?
+> 🏷️ **Ключевые слова:** `composite`, `questions`, `agent`, `agents`, `configuration`, `configurations`, `anthropic`, `vacancies`
+>
 
 
 <!-- toc-auto -->
@@ -136,9 +142,9 @@ indefinitely; "graduation" may not be the right metaphor.
 ---
 
 **Похожие документы:**
-- [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.18)
-- [221-10-open-questions](221-10-open-questions.md) (сходство 0.18)
-- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.18)
+- [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.18)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -146,47 +152,8 @@ indefinitely; "graduation" may not be the right metaphor.
 ---
 
 **Смотрите также:**
-- [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
-- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
-- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
-- [221-10-open-questions](221-10-open-questions.md)
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. Open Questions](179-10-open-questions.md)
-- [10. Open Questions](221-10-open-questions.md)
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
-- [12. Call for Collaboration](265-12-call-for-collaboration.md)
-- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md)
-- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md)
-- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md)
-- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md)
-- [7. Economics of Combinatorial Replication](260-7-economics-of-combinatorial-replication.md)
-- [8. Seven Domains of Application](261-8-seven-domains-of-application.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _33%_
-- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _29%_
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _29%_
-- [12. Call for Collaboration](265-12-call-for-collaboration.md) _29%_
-- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _21%_
-- [10. Open Questions](179-10-open-questions.md) _21%_
-- [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _21%_
-- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _17%_
-## Связанные документы
-
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _37%_
-- [12. Call for Collaboration](265-12-call-for-collaboration.md) _33%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _29%_
-- [10. Open Questions](179-10-open-questions.md) _29%_
-- [10. Open Questions](221-10-open-questions.md) _29%_
-- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _29%_
-- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _29%_
-- [5. Configuration: How Principals Build Their Ensembles](258-5-configuration-how-principals-build-their-ensembl.md) _29%_

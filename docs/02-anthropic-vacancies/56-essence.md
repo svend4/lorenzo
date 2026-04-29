@@ -12,8 +12,8 @@
 ## Essence
 
 `meta` — **символьное измерение** экосистемы svend4. Здесь концепты 
-представлены не как определения (`pro2`) и не как методы применения 
-(`info1`), а как **динамические правила поведения**: что происходит 
+представлены не как определения (`[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`) и не как методы применения 
+(`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`), а как **динамические правила поведения**: что происходит 
 с концептом во времени, какие у него attractors, как он эволюционирует.
 
 Репозиторий строится на формальном соответствии между двумя 
@@ -34,9 +34,9 @@ CA-правил, через классы Вольфрама, через аттр
 ---
 
 **Похожие документы:**
-- [55-passports-meta-md](55-passports-meta-md.md) (сходство 0.16)
-- [46-essence](46-essence.md) (сходство 0.14)
-- [36-essence](36-essence.md) (сходство 0.12)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md) (сходство 0.16)
+- [46-essence](docs/02-anthropic-vacancies/46-essence.md) (сходство 0.14)
+- [36-essence](docs/02-anthropic-vacancies/36-essence.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -44,48 +44,8 @@ CA-правил, через классы Вольфрама, через аттр
 ---
 
 **Смотрите также:**
-- [55-passports-meta-md](55-passports-meta-md.md)
-- [46-essence](46-essence.md)
-- [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
-- [35-passports-info1-md](35-passports-info1-md.md)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+- [46-essence](docs/02-anthropic-vacancies/46-essence.md)
+- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
+- [35-passports-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [15. Glossary of Examples](27-15-glossary-of-examples.md)
-- [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md)
-- [Angle / Perspective](39-angle-perspective.md)
-- [Angle / Perspective](59-angle-perspective.md)
-- [Bridges](40-bridges.md)
-- [Content Overview](58-content-overview.md)
-- [Essence](36-essence.md)
-- [Essence](46-essence.md)
-- [passports/info1.md](35-passports-info1-md.md)
-- [passports/meta.md](55-passports-meta-md.md)
-- [passports/pro2.md](45-passports-pro2-md.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Essence](46-essence.md) _48%_
-- [passports/pro2.md](45-passports-pro2-md.md) _42%_
-- [passports/meta.md](55-passports-meta-md.md) _42%_
-- [Angle / Perspective](59-angle-perspective.md) _37%_
-- [passports/info1.md](35-passports-info1-md.md) _33%_
-- [Essence](36-essence.md) _33%_
-- [15. Glossary of Examples](27-15-glossary-of-examples.md) _29%_
-- [Angle / Perspective](39-angle-perspective.md) _29%_
-## Связанные документы
-
-- [passports/pro2.md](45-passports-pro2-md.md) _42%_
-- [passports/meta.md](55-passports-meta-md.md) _42%_
-- [passports/info1.md](35-passports-info1-md.md) _37%_
-- [Essence](46-essence.md) _37%_
-- [15. Glossary of Examples](27-15-glossary-of-examples.md) _33%_
-- [Angle / Perspective](59-angle-perspective.md) _29%_
-- [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md) _29%_
-- [Angle / Perspective](39-angle-perspective.md) _25%_

@@ -13,10 +13,16 @@
   - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
   - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
   - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Risks and Mitigations(8-risks-and-mitigations) - 8.1.
+> 🏷️ **Ключевые слова:** `agent`, `principal`, `risks`, `scenario`, `mitigation`, `anthropic`, `vacancies`, `mitigations`
+>
 
 
 <!-- toc-auto -->
@@ -151,9 +157,9 @@ lose the social and negotiation skills they currently have.
 ---
 
 **Похожие документы:**
-- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md) (сходство 0.14)
-- [179-10-open-questions](179-10-open-questions.md) (сходство 0.14)
-- [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.14)
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.14)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.14)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -161,39 +167,8 @@ lose the social and negotiation skills they currently have.
 ---
 
 **Смотрите также:**
-- [179-10-open-questions](179-10-open-questions.md)
-- [175-6-ethical-framework](175-6-ethical-framework.md)
-- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
-- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. Open Questions](179-10-open-questions.md)
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
-- [5. Architectural Specification](174-5-architectural-specification.md)
-- [6. Ethical Framework](175-6-ethical-framework.md)
-- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md)
-- [7. Governance and Oversight](176-7-governance-and-oversight.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _33%_
-- [10. Open Questions](179-10-open-questions.md) _17%_
-- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _17%_
-- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _17%_
-## Связанные документы
-
-- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _42%_
-- [10. Open Questions](179-10-open-questions.md) _25%_
-- [7. Open Questions](144-7-open-questions.md) _21%_
-- [6. Risks Specific to this Category](217-6-risks-specific-to-this-category.md) _21%_
-- [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _21%_
-- [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _17%_
-- [6. Ethical Framework](175-6-ethical-framework.md) _17%_
-- [References](183-references.md) _17%_

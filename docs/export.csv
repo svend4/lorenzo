@@ -1022,6 +1022,6 @@ docs/obsidian/templates/project-component.md,obsidian,project-component.md,[На
 docs/obsidian/templates/research-note.md,obsidian,research-note.md,[Тема исследования],9,722,исследование,,<!-- summary: Краткий итог исследования -->,нет,нет
 docs/templates/contact-outreach.md,templates,contact-outreach.md,Контакт: [Имя / Проект],21,992,"контакты, команда",Svyazi,,нет,нет
 docs/templates/decision-record.md,templates,decision-record.md,ADR: [Название решения],2,667,"архитектура, решение",,,да,да
-docs/templates/ensemble.md,templates,ensemble.md,Ансамбль: [Название],15,964,"ансамбль, архитектура",,,да,да
-docs/templates/project-component.md,templates,project-component.md,[Название компонента],2,945,"архитектура, проект",Svyazi,,нет,нет
-docs/templates/research-note.md,templates,research-note.md,[Тема исследования],5,666,исследование,,,нет,нет
+docs/templates/ensemble.md,templates,ensemble.md,Ансамбль: [Название],15,897,"ансамбль, архитектура",,,да,да
+docs/templates/project-component.md,templates,project-component.md,[Название компонента],2,931,"архитектура, проект",Svyazi,,нет,нет
+docs/templates/research-note.md,templates,research-note.md,[Тема исследования],5,699,исследование,,,нет,нет

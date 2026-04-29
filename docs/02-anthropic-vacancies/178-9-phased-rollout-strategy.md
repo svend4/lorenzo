@@ -11,10 +11,17 @@
   - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
   - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
   - [9.6. Pace Considerations](#96-pace-considerations)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Phased Rollout Strategy(9-phased-rollout-strategy) - 9.1.
+> ✅ **Результат:** Faster deployment is technically possible but risks: - Premature promises that erode trust when broken - Ethical missteps that trigger restrictive regulation - Platform dynamics th
+> 🏷️ **Ключевые слова:** `phase`, `domain`, `deployment`, `rollout`, `phased`, `pilot`, `anthropic`, `vacancies`
+>
 
 
 <!-- toc-auto -->
@@ -141,9 +148,9 @@ durable, beneficial infrastructure than rapid scaling.
 ---
 
 **Похожие документы:**
-- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.17)
-- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
-- [180-11-call-for-collaboration](180-11-call-for-collaboration.md) (сходство 0.14)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.17)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
+- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -151,36 +158,8 @@ durable, beneficial infrastructure than rapid scaling.
 ---
 
 **Смотрите также:**
-- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
-- [180-11-call-for-collaboration](180-11-call-for-collaboration.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [223-12-closing](223-12-closing.md)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [11. Call for Collaboration](180-11-call-for-collaboration.md)
-- [5. Economic Model](159-5-economic-model.md)
-- [7. Governance and Oversight](176-7-governance-and-oversight.md)
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _29%_
-- [5. Economic Model](159-5-economic-model.md) _21%_
-- [11. Call for Collaboration](180-11-call-for-collaboration.md) _17%_
-- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _17%_
-- [12. Call for Collaboration](265-12-call-for-collaboration.md) _17%_
-## Связанные документы
-
-- [7. Phased Rollout Plan](161-7-phased-rollout-plan.md) _29%_
-- [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
-- [5. Economic Model](159-5-economic-model.md) _17%_
-- [11. Call for Collaboration](180-11-call-for-collaboration.md) _17%_
-- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
-- [Глоссарий понятий](../CONCEPTS.md) _17%_

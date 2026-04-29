@@ -1,5 +1,14 @@
 # 1. The Cowork Discovery and Why It Changes Everything
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Position InGit as the structure layer that Cowork needs.
+> ✅ **Результат:** Leverage Cowork's agentic intelligence; provide structured workspace substrate that Cowork's general- purpose Project storage doesn't.
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `document`, `anthropic`, `layer`, `provides`, `vacancies`, `changes`
+>
+
+
 <!-- summary -->
 > When Document 2.3 was written earlier in this session, the
 
@@ -26,7 +35,7 @@
 
 When Document 2.3 was written earlier in this session, the 
 author and collaborator framed the Layer B gap as essentially 
-unfilled. We surveyed Anthropic Projects, GitHub Discussions, 
+unfilled. We surveyed Anthropic Projects, [GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions, 
 Notion, Obsidian, and various combinations — and concluded 
 that no existing tool adequately served sustained AI-
 collaborative intellectual work.
@@ -119,9 +128,9 @@ The remainder of this document develops Option C.
 ---
 
 **Похожие документы:**
-- [307-abstract](307-abstract.md) (сходство 0.19)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.18)
-- [311-3-what-ingit-provides-that-cowork-lacks](311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.17)
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.19)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.18)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -129,52 +138,8 @@ The remainder of this document develops Option C.
 ---
 
 **Смотрите также:**
-- [307-abstract](307-abstract.md)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [279-existing-approximations](279-existing-approximations.md)
-- [311-3-what-ingit-provides-that-cowork-lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. Strategic Positioning](318-10-strategic-positioning.md)
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
-- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
-- [4. Симбиотическая Архитектура](330-4-симбиотическая-архитектура.md)
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
-- [5. Четыре пути интеграции в порядке доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md)
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
-- [Abstract](307-abstract.md)
-- [Existing Approximations](279-existing-approximations.md)
-- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md)
-- [Table of Contents](308-table-of-contents.md)
-- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md)
-- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Table of Contents](308-table-of-contents.md) _37%_
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _33%_
-- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _33%_
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _29%_
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _29%_
-- [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _25%_
-- [Abstract](307-abstract.md) _25%_
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _25%_
-## Связанные документы
-
-- [Table of Contents](308-table-of-contents.md) _42%_
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _37%_
-- [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _37%_
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _33%_
-- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _33%_
-- [What This Document Doesn't Solve](283-what-this-document-doesn-t-solve.md) _29%_
-- [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _29%_
-- [Abstract](307-abstract.md) _29%_

@@ -1,5 +1,15 @@
 # Acknowledgments
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's question about how to integrate InGit specifically
+> 🔧 **Подход:** Review Methodology v1.0 2.3 Infrastructure for AI-Collaborative Intellectual Work 2.4 InGit as Cowork-Native Workspace Substrate (this paper) 3.
+> ✅ **Результат:** The InGit project (URL provides the specific candidate substrate.
+> 🏷️ **Ключевые слова:** `anthropic`, `cowork`, `document`, `layer`, `vacancies`, `acknowledgments`, `ingit`, `author`
+>
+
+
 <!-- summary -->
 > This document emerged from author's question about how to
 

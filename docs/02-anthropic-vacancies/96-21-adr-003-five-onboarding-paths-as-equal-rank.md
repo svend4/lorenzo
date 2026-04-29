@@ -41,7 +41,7 @@
 ---
 
 **Похожие документы:**
-- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md) (сходство 0.11)
+- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -49,35 +49,8 @@
 ---
 
 **Смотрите также:**
-- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
-- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
-- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
+- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. Introduction](06-1-introduction.md)
-- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md)
-- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md)
-- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
-- [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md) _60%_
-- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _60%_
-- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md) _42%_
-## Связанные документы
-
-- [19. ADR-001: Federation over Merging](94-19-adr-001-federation-over-merging.md) _60%_
-- [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _42%_
-- [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md) _33%_
-- [8. Q6 Space (Normative)](83-8-q6-space-normative.md) _21%_
-- [1. Introduction](06-1-introduction.md) _17%_
-- [Appendix C: References](104-appendix-c-references.md) _17%_

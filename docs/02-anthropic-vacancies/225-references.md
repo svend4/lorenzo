@@ -1,5 +1,14 @@
 # References
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Primary Empirical Source(primary-empirical-source) - Companion Papers(companion-papers) - Foundation Sources (continued from Represen
+> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
+> 🏷️ **Ключевые слова:** `references`, `anthropic`, `vacancies`, `professional`, `practice`, `architecture`, `foundation`, `representative`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -73,9 +82,9 @@
 ---
 
 **Похожие документы:**
-- [245-ссылки](245-ссылки.md) (сходство 0.22)
-- [183-references](183-references.md) (сходство 0.22)
-- [268-references](268-references.md) (сходство 0.18)
+- [245-ссылки](docs/02-anthropic-vacancies/245-ссылки.md) (сходство 0.22)
+- [183-references](docs/02-anthropic-vacancies/183-references.md) (сходство 0.22)
+- [268-references](docs/02-anthropic-vacancies/268-references.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -83,41 +92,8 @@
 ---
 
 **Смотрите также:**
-- [245-ссылки](245-ссылки.md)
-- [183-references](183-references.md)
-- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
-- [268-references](268-references.md)
+- [245-ссылки](docs/02-anthropic-vacancies/245-ссылки.md)
+- [183-references](docs/02-anthropic-vacancies/183-references.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [268-references](docs/02-anthropic-vacancies/268-references.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md)
-- [References](147-references.md)
-- [References](183-references.md)
-- [References](268-references.md)
-- [References](320-references.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Ссылки](245-ссылки.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [References](147-references.md) _21%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _21%_
-- [References](183-references.md) _17%_
-- [References](268-references.md) _17%_
-- [References](320-references.md) _17%_
-- [Вакансии Anthropic — Анализ по кластерам](README.md) _17%_
-## Связанные документы
-
-- [References](268-references.md) _29%_
-- [References](183-references.md) _25%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
-- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _21%_
-- [References](147-references.md) _21%_
-- [REPRESENTATIVE AGENT LAYER.md](166-representative-agent-layer-md.md) _21%_
-- [Abstract](168-abstract.md) _21%_
-- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_

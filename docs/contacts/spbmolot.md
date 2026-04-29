@@ -1,8 +1,13 @@
 # Контакт: spbmolot / NGT Memory
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, Graph RAG, Yodoca, NGT Memory, SENTINEL, Auto AI Router
+**Проекты:** Svyazi, NGT Memory
 
 ---
 
@@ -61,44 +66,23 @@ NGT Memory закрывает слой «memory» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- backlinks-auto -->
-## Упоминается в
+<!-- similar-docs -->
 
-- [contacts](README.md)
-- [Приоритет контактов](../CONTACT_PRIORITY.md)
-## Упоминается в
+---
 
-- [Приоритет контактов](../CONTACT_PRIORITY.md)
+**Похожие документы:**
+- [vladspace](docs/contacts/vladspace.md) (сходство 0.73)
+- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.72)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.71)
 
-<!-- related-auto -->
-## Связанные документы
-
-- [Контакт: kksudo / AgentFS](kksudo.md) _90%_
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
-- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _73%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _73%_
-- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _66%_
-## Связанные документы
-
-- [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _81%_
-- [Контакт: VitalyOborin / Yodoca](vitalyoborin.md) _81%_
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _73%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _73%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _73%_
-- [Контакт: VladSpace / Graph RAG](vladspace.md) _73%_
-- [Контакт: zodigancode / Rufler](zodigancode.md) _73%_
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _66%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [kksudo](../autofilled/components/kksudo.md)
-- [vladspace](vladspace.md)
-- [cutcode](cutcode.md)
-- [dmitriila](dmitriila.md)
+- [antipozitive](docs/contacts/antipozitive.md)
+- [nlaik](docs/contacts/nlaik.md)
+- [sonia-black](docs/contacts/sonia-black.md)
+- [vitalyoborin](docs/contacts/vitalyoborin.md)
 

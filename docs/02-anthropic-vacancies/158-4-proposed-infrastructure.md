@@ -1,5 +1,15 @@
 # 4. Proposed Infrastructure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.
+> 🔧 **Подход:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.
+> ✅ **Результат:** Legal and Compliance Layer What it provides: - Single contractual interface for contributors (across jurisdictions) - Tax compliance infrastructure - GDPR-compliant data handling -
+> 🏷️ **Ключевые слова:** `guild`, `layer`, `level`, `nautilus`, `triangle`, `foundation`, `contributors`, `pattern`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -14,7 +24,7 @@
 ## Содержание
 
 - [4. Proposed Infrastructure](#4-proposed-infrastructure)
-  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-nautilus-portal-protocol)
+  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol)
   - [4.2. Coordination Pattern: Double-Triangle Architecture](#42-coordination-pattern-double-triangle-architecture)
   - [4.3. Knowledge Layer: Pattern Library with Private Instances](#43-knowledge-layer-pattern-library-with-private-instances)
   - [4.4. Community Layer: Guild Structure](#44-community-layer-guild-structure)
@@ -232,9 +242,9 @@ Community governance operates:
 ---
 
 **Похожие документы:**
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
-- [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.18)
-- [144-7-open-questions](144-7-open-questions.md) (сходство 0.16)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.18)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -242,47 +252,8 @@ Community governance operates:
 ---
 
 **Смотрите также:**
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
-- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
-- [144-7-open-questions](144-7-open-questions.md)
-- [145-8-call-to-action](145-8-call-to-action.md)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [10. Appendices](164-10-appendices.md)
-- [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md)
-- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
-- [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md)
-- [5. Architectural Specification](174-5-architectural-specification.md)
-- [5. Economic Model](159-5-economic-model.md)
-- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
-- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
-- [6. Governance and Ethics](160-6-governance-and-ethics.md)
-- [7. Open Questions](144-7-open-questions.md)
-- [8. Call to Action](145-8-call-to-action.md)
-- [8. Risk Analysis](162-8-risk-analysis.md)
-- [Appendix C: Version History](150-appendix-c-version-history.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [🇬🇧 About](68-about.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _25%_
-- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _21%_
-- [Appendix C: Version History](150-appendix-c-version-history.md) _21%_
-- [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _21%_
-- [8. Call to Action](145-8-call-to-action.md) _17%_
-- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _17%_
-- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md) _17%_
-## Связанные документы
-
-- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _25%_
-- [8. Call to Action](145-8-call-to-action.md) _21%_
-- [Appendix C: Version History](150-appendix-c-version-history.md) _17%_
-- [Executive Summary](153-executive-summary.md) _17%_
-- [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _17%_

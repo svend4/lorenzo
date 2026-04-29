@@ -1,5 +1,26 @@
 # 15. Security Considerations
-<!-- tags: ingestion, architecture, anthropic -->
+<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Security Considerations(15-security-considerations) - 15.1.
+> 🔧 **Подход:** Supply Chain(155-supply-chain) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Для приватных Repos RECOMMENDED: - Отдельный private-nautilus.json с explicit opt-in - Отдельный portal instance, не доступный публично - Authentication на REST API (JWT / API keys
+> 🏷️ **Ключевые слова:** `security`, `considerations`, `adapters`, `portal`, `anthropic`, `vacancies`, `private`, `untrusted`
+>
+
+
+<!-- toc-auto -->
+## Contents
+
+- [15. Security Considerations](#15-security-considerations)
+  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
+  - [15.2. Private Repositories](#152-private-repositories)
+  - [15.3. MCP Exposure](#153-mcp-exposure)
+  - [15.4. Rate Limiting](#154-rate-limiting)
+  - [15.5. Supply Chain](#155-supply-chain)
 
 
 <!-- toc-auto -->
@@ -45,7 +66,7 @@ SHOULD НЕ включаться в публичную registry.
 
 Для приватных Repos RECOMMENDED:
 
-- Отдельный `private-nautilus.json` с explicit opt-in
+- Отдельный `private-[nautilus](../docs/05-habr-projects/memory/memnet.md).json` с explicit opt-in
 - Отдельный portal instance, не доступный публично
 - Authentication на REST API (JWT / API keys)
 - Нет MCP exposure без whitelist

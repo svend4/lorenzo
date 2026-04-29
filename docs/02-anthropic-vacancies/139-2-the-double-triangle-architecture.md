@@ -1,5 +1,15 @@
 # 2. The Double-Triangle Architecture
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🔧 **Подход:** The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** N conducts the triangle: tasks flow downward from N to assistants, results flow upward from assistants to N for integration.
+> 🏷️ **Ключевые слова:** `triangle`, `architecture`, `human`, `assistants`, `context`, `level`, `anthropic`, `vacancies`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -149,9 +159,9 @@ large organizations (Star(n)) without protocol changes.
 ---
 
 **Похожие документы:**
-- [148-appendix-a-glossary](148-appendix-a-glossary.md) (сходство 0.19)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.17)
-- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md) (сходство 0.17)
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.19)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.17)
+- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -159,42 +169,8 @@ large organizations (Star(n)) without protocol changes.
 ---
 
 **Смотрите также:**
-- [148-appendix-a-glossary](148-appendix-a-glossary.md)
-- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
-- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
+- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
+- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md)
-- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md)
-- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md)
-- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md)
-- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
-- [7. Open Questions](144-7-open-questions.md)
-- [Abstract](136-abstract.md)
-- [Appendix A: Glossary](148-appendix-a-glossary.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _29%_
-- [Appendix A: Glossary](148-appendix-a-glossary.md) _25%_
-- [Abstract](136-abstract.md) _21%_
-- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _21%_
-- [7. Open Questions](144-7-open-questions.md) _21%_
-## Связанные документы
-
-- [3. Three Inter-Layer Protocols](140-3-three-inter-layer-protocols.md) _37%_
-- [Abstract](136-abstract.md) _33%_
-- [Appendix A: Glossary](148-appendix-a-glossary.md) _33%_
-- [6. Four Deployment Domains](143-6-four-deployment-domains.md) _25%_
-- [7. Open Questions](144-7-open-questions.md) _25%_
-- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _21%_
-- [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _21%_
-- [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_

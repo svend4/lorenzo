@@ -127,9 +127,9 @@ by mission-driven foundations.
 ---
 
 **Похожие документы:**
-- [175-6-ethical-framework](175-6-ethical-framework.md) (сходство 0.15)
-- [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.13)
-- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md) (сходство 0.11)
+- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.15)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.13)
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -137,33 +137,8 @@ by mission-driven foundations.
 ---
 
 **Смотрите также:**
-- [175-6-ethical-framework](175-6-ethical-framework.md)
-- [174-5-architectural-specification](174-5-architectural-specification.md)
-- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md)
-- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
+- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [6. Ethical Framework](175-6-ethical-framework.md)
-- [6. Governance and Ethics](160-6-governance-and-ethics.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [5. Architectural Specification](174-5-architectural-specification.md) _21%_
-- [6. Ethical Framework](175-6-ethical-framework.md) _21%_
-## Связанные документы
-
-- [6. Ethical Framework](175-6-ethical-framework.md) _21%_
-- [7. Open Questions](144-7-open-questions.md) _17%_
-- [6. Governance and Ethics](160-6-governance-and-ethics.md) _17%_
-- [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _17%_
-- [5. Architectural Specification](174-5-architectural-specification.md) _17%_
-- [10. Open Questions](179-10-open-questions.md) _17%_
-- [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _17%_
-- [1. The Five-Type Typology of Principal-Side Agents](212-1-the-five-type-typology-of-principal-side-agents.md) _17%_

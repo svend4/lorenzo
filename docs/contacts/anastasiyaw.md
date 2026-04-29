@@ -7,7 +7,7 @@
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, LiteParse, NGT Memory, SENTINEL, Auto AI Router
+**Проекты:** Svyazi, knowledge-space, mclaude
 
 ---
 
@@ -22,7 +22,7 @@
 - [Открытые вопросы](#открытые-вопросы)
 
 
-<!-- summary: Шаблон для связи с автором knowledge-space, mclaude -->
+<!-- summary: Шаблон для связи с автором [knowledge-space](../docs/01-svyazi/03-component-catalog.md), mclaude -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -66,46 +66,23 @@ knowledge-space, mclaude закрывает слой «knowledge/orchestration»
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- backlinks-auto -->
-## Упоминается в
+<!-- similar-docs -->
 
-- [contacts](README.md)
-- [Контакт: Sonia_Black / knowledge-space](sonia-black.md)
-- [Контакт: nlaik / LiteParse / research-docs](nlaik.md)
-- [Приоритет контактов](../CONTACT_PRIORITY.md)
-## Упоминается в
+---
 
-- [Приоритет контактов](../CONTACT_PRIORITY.md)
+**Похожие документы:**
+- [sonia-black](docs/contacts/sonia-black.md) (сходство 0.74)
+- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.67)
+- [cutcode](docs/contacts/cutcode.md) (сходство 0.67)
 
-<!-- related-auto -->
-## Связанные документы
-
-- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _60%_
-- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _53%_
-- [Контакт: Antipozitive / MemNet](antipozitive.md) _48%_
-- [Контакт: kksudo / AgentFS](kksudo.md) _37%_
-- [Контакт: spbmolot / NGT Memory](spbmolot.md) _37%_
-- [Контакт: tagir_analyzes / Legal RAG](tagir-analyzes.md) _37%_
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _33%_
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _33%_
-## Связанные документы
-
-- [Контакт: Sonia_Black / knowledge-space](sonia-black.md) _73%_
-- [Контакт: andrey_chuyan / Svyazi](andrey-chuyan.md) _60%_
-- [Контакт: Cutcode / AIF Handoff](cutcode.md) _60%_
-- [Контакт: Dmitriila / SENTINEL](dmitriila.md) _60%_
-- [Контакт: kksudo / AgentFS](../autofilled/components/kksudo.md) _60%_
-- [Контакт: MiXaiLL76 / Auto AI Router](mixaill76.md) _60%_
-- [Контакт: nlaik / LiteParse / research-docs](nlaik.md) _60%_
-- [Контакт: spbmolot / NGT Memory](../autofilled/components/spbmolot.md) _60%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [nlaik](nlaik.md)
-- [sonia-black](sonia-black.md)
-- [kksudo](../autofilled/components/kksudo.md)
-- [tagir-analyzes](tagir-analyzes.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [zodigancode](docs/contacts/zodigancode.md)
+- [sonia-black](docs/contacts/sonia-black.md)
+- [dmitriila](docs/contacts/dmitriila.md)
 

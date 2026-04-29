@@ -1,17 +1,16 @@
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** citeturn35search0 - Контекст реального мира доступен агенту как tool, а не как догадка: Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации.
+> 🔧 **Подход:** citeturn34view3 - Контроль над retrieval‑слоем без «фреймворкового тумана»: Hybrid RAG‑подход на pdfplumber/FAISS/TF‑IDF проще дебажить и дешевле держать в локальном контуре, че
+> ✅ **Результат:** citeturn20view19 - Review без центрального bottleneck: Sequential‑протокол в экспериментах автора даёт качество выше coordinator‑режима на сильных моделях.
+> 🏷️ **Ключевые слова:** `search`, `svyazi`, `first`, `knowledge`, `проект`, `agentfs`, `space`, `rufler`
+>
 
-
-<!-- toc -->
-## Содержание
-
-- [Приоритетные ансамбли](#приоритетные-ансамбли)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
 
 <!-- summary -->
 > Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**.
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
@@ -24,7 +23,7 @@
 
 **Ансамбль A — Collaboration OS**
 
-Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, knowledge-space — за agent‑readable reference layer, NGT[^ngt] Memory — за быстрые ассоциативные связи, Yodoca[^yodoca] — за ночную консолидацию и забывание шумов. Такой стек превращает “случайные находки коллабораций” в воспроизводимую машинерию. citeturn41search0turn27view0turn33view2turn22view4turn21view0
+Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, [knowledge-space](../docs/01-svyazi/03-component-catalog.md) — за agent‑readable reference layer, NGT[^ngt] Memory — за быстрые ассоциативные связи, Yodoca[^yodoca] — за ночную консолидацию и забывание шумов. Такой стек превращает “случайные находки коллабораций” в воспроизводимую машинерию. citeturn41search0turn27view0turn33view2turn22view4turn21view0
 
 ```mermaid
 flowchart LR
@@ -44,7 +43,7 @@ flowchart LR
 - **Serendipity не как баг, а как режим работы**: быстрый поиск больше не ограничен совпадением явных skills; ассоциативная память подтягивает слабые ко‑активации тем и интересов. citeturn41search0turn22view4
 - **Единый source of truth для разных агентов и сессий**: rules, memory, security и task state больше не дублируются по `CLAUDE.md`, `.cursor/rules/` и другим runtime‑форматам. citeturn33view4turn27view0
 - **Контролируемое забывание вместо бесконечного накопления мусора**: Yodoca явно вводит Ebbinghaus‑decay, prune и приватный write‑path‑консолидатор. citeturn21view0turn21view1
-- **Agent‑first knowledge retrieval**: knowledge-space снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами. citeturn33view3turn37search1
+- **Agent‑first knowledge retrieval**: [knowledge-space](../docs/01-svyazi/03-component-catalog.md) снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами. citeturn33view3turn37search1
 
 **Ансамбль B — Forensic RAG[^rag] для доказуемого matching и review**
 
@@ -72,7 +71,7 @@ flowchart LR
 
 **Ансамбль C — Spec‑driven multi‑agent factory**
 
-Для развития самого продукта нужен не просто один агент, а управляемая фабрика: mclaude закрывает locks/handoffs/mailbox, AI Factory/AIF Handoff — spec‑driven pipeline и self‑learning patches, Rufler — декларативное поднятие роя, Skills/CodeWiki — reusable skills и автоматическую кодовую документацию, Sequential — более сильный reviewer‑режим, а AutoResearch — ночную петлю самоулучшения. citeturn20view2turn20view3turn20view4turn12search2turn20view11turn20view19
+Для развития самого продукта нужен не просто один агент, а управляемая фабрика: mclaude закрывает locks/handoffs/mailbox, AI Factory/AIF Handoff — spec‑driven pipeline и self‑learning patches, Rufler — декларативное поднятие роя, Skills/CodeWiki — reusable skills и автоматическую кодовую документацию, Sequential — более сильный reviewer‑режим, а [AutoResearch](../docs/01-svyazi/01-executive-summary.md) — ночную петлю самоулучшения. citeturn20view2turn20view3turn20view4turn12search2turn20view11turn20view19
 
 ```mermaid
 flowchart LR
@@ -91,7 +90,7 @@ flowchart LR
 - **Параллелизм без хаоса**: locks, mailbox и handoffs снижают шанс, что два агента одновременно поломают один участок системы или понесут устаревший контекст. citeturn20view2turn37search0
 - **Patch‑driven learning**: AI Factory накапливает патчи и умеет эволюционно обновлять skills по повторяющимся классам ошибок. citeturn21view6turn29search0
 - **Повторяемая оркестрация**: Rufler выносит структуру роя в YAML и даже показывает разрез токенов по задачам, что критично для cost discipline. citeturn20view4turn21view8
-- **Улучшение не по интуиции, а по циклу “изменил → измерил → откатил/сохранил”**: AutoResearch ровно эту петлю и формализует. citeturn20view19
+- **Улучшение не по интуиции, а по циклу “изменил → измерил → откатил/сохранил”**: [AutoResearch](../docs/01-svyazi/01-executive-summary.md) ровно эту петлю и формализует. citeturn20view19
 - **Review без центрального bottleneck**: Sequential‑протокол в экспериментах автора даёт качество выше coordinator‑режима на сильных моделях. citeturn20view11
 
 **Ансамбль D — Voice‑first local knowledge mesh**
@@ -145,9 +144,9 @@ flowchart LR
 ---
 
 **Похожие документы:**
-- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.92)
-- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.16)
-- [03-component-catalog](03-component-catalog.md) (сходство 0.16)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.92)
+- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.16)
+- [03-component-catalog](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -155,10 +154,10 @@ flowchart LR
 ---
 
 **Смотрите также:**
-- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [03-component-catalog](03-component-catalog.md)
-- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [03-component-catalog](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md)
+- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
 
 
 
@@ -187,43 +186,3 @@ flowchart LR
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [03 Component Catalog](03-component-catalog.md)
-- [06 Security Privacy](06-security-privacy.md)
-- [08 Conclusions](08-conclusions.md)
-- [10 Second Order Ensembles](10-second-order-ensembles.md)
-- [14 Limitations](14-limitations.md)
-- [Executive summary](../04-ai-collaborations/01-executive-summary.md)
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
-- [Выводы](../04-ai-collaborations/07-выводы.md)
-- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
-## Упоминается в
-
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _53%_
-- [10 Second Order Ensembles](10-second-order-ensembles.md) _48%_
-- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _37%_
-- [08 Conclusions](08-conclusions.md) _33%_
-- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _33%_
-- [03 Component Catalog](03-component-catalog.md) _29%_
-- [07 Mvp Planning](07-mvp-planning.md) _29%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _29%_
-## Связанные документы
-
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _60%_
-- [10 Second Order Ensembles](10-second-order-ensembles.md) _48%_
-- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _42%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _37%_
-- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _37%_
-- [07 Mvp Planning](07-mvp-planning.md) _33%_
-- [08 Conclusions](08-conclusions.md) _33%_
-- [13 Contacts](13-contacts.md) _33%_

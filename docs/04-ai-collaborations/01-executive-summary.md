@@ -1,22 +1,11 @@
 # Executive summary
 
-<!-- toc -->
-## Содержание
-
-- [Статус](#статус)
-- [Executive summary](#executive-summary)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
-
-
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Executive summary Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 !IMPORTANT Главный документ 
 > ✅ **Результат:** citeturn33view2turn27view0turn21view1turn22view3turn21view4turn20view16turn39view3turn20view2turn20view3turn20view4turn20view11turn20view5turn34view2turn34view3turn
-> 🏷️ **Ключевые слова:** `svyazi`, `проект`, `summary`, `planning`, `executive`, `cardindex`, `agentfs`, `collaborations`
+> 🏷️ **Ключевые слова:** `svyazi`, `проект`, `summary`, `cardindex`, `agentfs`, `executive`, `rufler`, `memory`
 >
 
 
@@ -41,7 +30,7 @@ _Обновлено: 2026-04-29_
 
 <!-- summary -->
 > Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: ingestion и нормализация профи
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, Rufler[^rufler], LiteParse, Legal RAG[^rag]
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, Rufler[^rufler], [LiteParse](../docs/01-svyazi/01-executive-summary.md), Legal RAG[^rag]
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, collaboration -->
@@ -53,7 +42,7 @@ _Обновлено: 2026-04-29_
 
 Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: ingestion и нормализация профилей из свободного текста, agent‑first knowledge base, файлосистемная память для агентов, ассоциативная и консолидируемая долговременная память, визуально проверяемый RAG, многоагентная оркестрация, безопасный MCP[^mcp]‑слой, локальный voice→vault вход и бюджетно‑осознанный роутинг моделей. Самостоятельно каждый блок выглядит либо как аккуратный pet‑project, либо как «узкая» инженерная находка. Но вместе они уже дают не “ещё один AI‑ассистент”, а операционную систему для обнаружения коллабораций, накопления доказуемого знания и полуавтономной работы агентов в локальном контуре. citeturn41search0turn33view3turn33view4turn21view0turn22view4turn20view5turn20view6turn20view11
 
-Самая сильная линия синергии выглядит так. Основа — Svyazi‑подобный гибридный пайплайн: LLM[^llm] извлекает смысл, детерминированный код нормализует, а **CardIndex** фиксирует состояние карточки и версионирование. Поверх этого нужен agent‑readable слой знаний и единый source of truth для разных рантаймов — здесь хорошо ложатся knowledge‑space и AgentFS. Дальше память должна не просто хранить факты, а уметь усиливать слабые сигналы, консолидировать эпизоды и забывать шум — это зона Yodoca[^yodoca], NGT[^ngt] Memory, MemNet и более инженерных систем вроде agent-memory-mcp/Memory OS. Для многоагентной работы уже есть mclaude, AI Factory, AIF Handoff, Rufler и протокол Sequential; для forensic‑режима — research-docs/LiteParse, Legal RAG, Hybrid RAG и Graph RAG; для безопасного и дешёвого исполнения — Tool Search, LiteLLM, Auto AI Router, RLM-Toolkit и SENTINEL[^sentinel]. citeturn33view2turn27view0turn21view1turn22view3turn21view4turn20view16turn39view3turn20view2turn20view3turn20view4turn20view11turn20view5turn34view2turn34view3turn39view1turn39view0turn20view18turn20view10
+Самая сильная линия синергии выглядит так. Основа — Svyazi‑подобный гибридный пайплайн: LLM[^llm] извлекает смысл, детерминированный код нормализует, а **[CardIndex](../docs/01-svyazi/01-executive-summary.md)** фиксирует состояние карточки и версионирование. Поверх этого нужен agent‑readable слой знаний и единый source of truth для разных рантаймов — здесь хорошо ложатся knowledge‑space и AgentFS. Дальше память должна не просто хранить факты, а уметь усиливать слабые сигналы, консолидировать эпизоды и забывать шум — это зона Yodoca[^yodoca], NGT[^ngt] Memory, MemNet и более инженерных систем вроде agent-memory-mcp/Memory OS. Для многоагентной работы уже есть mclaude, AI Factory, AIF Handoff, Rufler и протокол Sequential; для forensic‑режима — research-docs/LiteParse, Legal RAG, Hybrid RAG и Graph RAG; для безопасного и дешёвого исполнения — Tool Search, LiteLLM, Auto AI Router, RLM-Toolkit и SENTINEL[^sentinel]. citeturn33view2turn27view0turn21view1turn22view3turn21view4turn20view16turn39view3turn20view2turn20view3turn20view4turn20view11turn20view5turn34view2turn34view3turn39view1turn39view0turn20view18turn20view10
 
 Главный аналитический вывод: **на Хабре пока не видно одного готового проекта, который уже собрал все слои в единое целое, но видно много авторов, каждый из которых почти идеально закрывает один слой будущей системы.** Поэтому реальная ценность исследования — не в списке ссылок, а в правильной сборке ансамблей. Наиболее прагматичный путь — не строить большой новый монолит, а начать с минимального прототипа из пяти компонентов: Svyazi‑подобный import/normalize/CardIndex, AgentFS‑подобное файловое ядро, NGT կամ Yodoca‑подобная память, research-docs/LiteParse‑подобный evidence‑слой и LiteLLM/Auto AI Router+SENTINEL как исполнительный периметр. citeturn41search0turn27view0turn22view4turn21view0turn20view5turn11search2turn39view0turn20view10
 
@@ -62,9 +51,9 @@ _Обновлено: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [01-executive-summary](01-executive-summary.md) (сходство 0.68)
-- [05-план-прототипа-и-возможные-контакты](05-план-прототипа-и-возможные-контакты.md) (сходство 0.15)
-- [07-mvp-planning](../01-svyazi/07-mvp-planning.md) (сходство 0.15)
+- [01-executive-summary](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md) (сходство 0.68)
+- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.15)
+- [07-mvp-planning](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -72,9 +61,9 @@ _Обновлено: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [03-component-catalog](../01-svyazi/03-component-catalog.md)
-- [04-ensembles-overview](../01-svyazi/04-ensembles-overview.md)
-- [07-mvp-planning](../01-svyazi/07-mvp-planning.md)
+- [03-component-catalog](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/03-component-catalog.md)
+- [04-ensembles-overview](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md)
+- [07-mvp-planning](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/07-mvp-planning.md)
 
 
 
@@ -101,48 +90,3 @@ _Обновлено: 2026-04-29_
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [04 Ensembles Overview](../01-svyazi/04-ensembles-overview.md)
-- [08 Conclusions](../01-svyazi/08-conclusions.md)
-- [Executive summary](01-executive-summary.md)
-- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](../01-svyazi/01-executive-summary.md)
-- [Все таблицы репозитория](../TABLES.md)
-- [Выводы](07-выводы.md)
-- [Глоссарий понятий](../CONCEPTS.md)
-- [Карта найденных проектов и паттернов](03-карта-найденных-проектов-и-паттернов.md)
-- [Карта репозитория Lorenzo](../SITEMAP.md)
-- [Методика и рамка отбора](02-методика-и-рамка-отбора.md)
-- [Методика и рамка отбора проектов](../01-svyazi/02-methodology.md)
-- [Нарратив проекта Lorenzo](../NARRATIVE.md)
-- [План прототипа и возможные контакты](05-план-прототипа-и-возможные-контакты.md)
-- [Поиск AI-коллабораций](README.md)
-- [Рекомендуемый порядок чтения](../READING_ORDER.md)
-- [Что это продолжение добавляет](08-что-это-продолжение-добавляет.md)
-## Упоминается в
-
-- [Поиск AI-коллабораций](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [08 Conclusions](../01-svyazi/08-conclusions.md) _42%_
-- [Выводы](07-выводы.md) _42%_
-- [Карта найденных проектов и паттернов](03-карта-найденных-проектов-и-паттернов.md) _33%_
-- [Приоритетные ансамбли](04-приоритетные-ансамбли.md) _33%_
-- [План прототипа и возможные контакты](05-план-прототипа-и-возможные-контакты.md) _33%_
-- [04 Ensembles Overview](../01-svyazi/04-ensembles-overview.md) _29%_
-- [06 Security Privacy](../01-svyazi/06-security-privacy.md) _29%_
-- [07 Mvp Planning](../01-svyazi/07-mvp-planning.md) _29%_
-## Связанные документы
-
-- [08 Conclusions](../01-svyazi/08-conclusions.md) _53%_
-- [Выводы](07-выводы.md) _53%_
-- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) _42%_
-- [Новые ансамбли следующего шага](10-новые-ансамбли-следующего-шага.md) _37%_
-- [07 Mvp Planning](../01-svyazi/07-mvp-planning.md) _33%_
-- [09 Architectural Gaps](../01-svyazi/09-architectural-gaps.md) _33%_
-- [10 Second Order Ensembles](../01-svyazi/10-second-order-ensembles.md) _33%_
-- [Приоритетные ансамбли](04-приоритетные-ансамбли.md) _33%_

@@ -1,5 +1,15 @@
 # 1. Why the Binary View Is Incomplete
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Problem with the Existing Taxonomy Professional Colleague Agents (PCA) v1.0 introduced five types of principal-side agents.
+> 🔧 **Подход:** Of these, Type 1 (Professional Colleague Agent) and Type 4 (Representative Agent) anchor the extremes of specialization: Type 1: One agent design serves all practitioners of a prof
+> ✅ **Результат:** The profession provides the genus; specialization provides the species; combination provides the individual instance.
+> 🏷️ **Ключевые слова:** `agent`, `profession`, `skills`, `pattern`, `anthropic`, `vacancies`, `agents`, `mastery`
+>
+
+
 <!-- summary -->
 > Professional Colleague Agents (PCA) v1.0 introduced five types
 

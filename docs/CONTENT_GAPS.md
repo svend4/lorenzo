@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-04-29_
 
-Найдено пробелов: **339** (мин. упоминаний: 3)
+Найдено пробелов: **374** (мин. упоминаний: 3)
 
 > Концепции, упоминаемые во многих файлах, но не имеющие собственного документа.
 
@@ -73,7 +73,7 @@ _Обновлено: 2026-04-29_
 - `docs/01-svyazi/07-mvp-planning.md`
 - ... и ещё 100 файлах
 
-Создать: `docs/obsidian/liteparse.md`
+Создать: `docs/nautilus/mhtml.md`
 
 ### `BSL` (75 файлов)
 
@@ -97,7 +97,7 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/136-abstract.md`
 - ... и ещё 59 файлах
 
-Создать: `docs/obsidian/npp.md`
+Создать: `docs/nautilus/npp.md`
 
 ### `AIF` (63 файлов)
 
@@ -109,7 +109,7 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
 - ... и ещё 58 файлах
 
-Создать: `docs/obsidian/aif.md`
+Создать: `docs/nautilus/gdpr.md`
 
 ### `MUST` (55 файлов)
 
@@ -121,19 +121,19 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/19-7-portalentry-structure.md`
 - ... и ещё 50 файлах
 
-Создать: `docs/obsidian/must.md`
+Создать: `docs/nautilus/must.md`
 
-### `AutoResearch` (51 файлов)
+### `BSL` (41 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/01-executive-summary.md`
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
-- `docs/01-svyazi/06-security-privacy.md`
 - `docs/01-svyazi/07-mvp-planning.md`
-- ... и ещё 46 файлах
+- `docs/01-svyazi/08-conclusions.md`
+- ... и ещё 36 файлах
 
-Создать: `docs/obsidian/autoresearch.md`
+Создать: `docs/04-ai-collaborations/bsl.md`
 
 ### `GDPR` (48 файлов)
 
@@ -157,45 +157,9 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/19-7-portalentry-structure.md`
 - ... и ещё 36 файлах
 
-Создать: `docs/obsidian/should.md`
+Создать: `docs/nautilus/should.md`
 
-### `CRDT` (38 файлов)
-
-Упоминается в:
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/01-svyazi/04-ensembles-overview.md`
-- `docs/01-svyazi/12-roadmap.md`
-- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- `docs/03-technology-combinations/03-local-first.md`
-- ... и ещё 33 файлах
-
-Создать: `docs/obsidian/crdt.md`
-
-### `PII` (36 файлов)
-
-Упоминается в:
-- `docs/01-svyazi/06-security-privacy.md`
-- `docs/01-svyazi/07-mvp-planning.md`
-- `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`
-- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
-- ... и ещё 31 файлах
-
-Создать: `docs/obsidian/pii.md`
-
-### `CLI` (34 файлов)
-
-Упоминается в:
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
-- `docs/02-anthropic-vacancies/22-10-queryresult-structure.md`
-- `docs/02-anthropic-vacancies/34-appendix-b-change-log.md`
-- ... и ещё 29 файлах
-
-Создать: `docs/obsidian/cli.md`
-
-### `XII` (29 файлов)
+### `XII` (34 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/00-intro.md`
@@ -203,9 +167,9 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md`
 - `docs/02-anthropic-vacancies/218-7-application-domains.md`
 - `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md`
-- ... и ещё 24 файлах
+- ... и ещё 29 файлах
 
-Создать: `docs/obsidian/xii.md`
+Создать: `docs/nautilus/xii.md`
 
 ### `YiJing` (28 файлов)
 
@@ -287,9 +251,69 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md`
 - `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md`
 - `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md`
+- ... и ещё 25 файлах
+
+Создать: `docs/technology-combinations/pdf.md`
+
+### `BSG` (30 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/00-intro.md`
+- `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md`
+- `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md`
+- `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
+- `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md`
+- ... и ещё 25 файлах
+
+Создать: `docs/02-anthropic-vacancies/bsg.md`
+
+### `PII` (29 файлов)
+
+Упоминается в:
+- `docs/01-svyazi/06-security-privacy.md`
+- `docs/01-svyazi/07-mvp-planning.md`
+- `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`
+- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
+- `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
+- ... и ещё 24 файлах
+
+Создать: `docs/nautilus/pii.md`
+
+### `LinkedIn` (28 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+- `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
+- `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md`
+- `docs/02-anthropic-vacancies/162-8-risk-analysis.md`
+- `docs/02-anthropic-vacancies/165-closing.md`
+- ... и ещё 23 файлах
+
+Создать: `docs/nautilus/linkedin.md`
+
+### `KSV` (27 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/133-обратная-связь.md`
+- `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md`
+- `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md`
+- `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md`
+- `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md`
+- ... и ещё 22 файлах
+
+Создать: `docs/nautilus/ksv.md`
+
+### `AIF` (26 файлов)
+
+Упоминается в:
+- `docs/01-svyazi/01-executive-summary.md`
+- `docs/01-svyazi/03-component-catalog.md`
+- `docs/01-svyazi/04-ensembles-overview.md`
+- `docs/01-svyazi/07-mvp-planning.md`
+- `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
 - ... и ещё 21 файлах
 
-Создать: `docs/obsidian/pdf.md`
+Создать: `docs/svyazi-2-0/aif.md`
 
 ### `LinkedIn` (25 файлов)
 

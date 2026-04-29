@@ -25,7 +25,7 @@
    - v60–v61: NautilusYiJin — return to separate experts with Q6-routing
    - Планы: NautilusMoME v2 с production-ready pipeline
 
-3. **Подпапка `nautilus/`** — historical embedded-версия Portal 
+3. **Подпапка `[nautilus](../docs/05-habr-projects/memory/memnet.md)/`** — historical embedded-версия Portal 
    (до миграции в отдельный репо `github.com/svend4/nautilus`)
 
 **Научные артефакты:** [? перечислить, если есть Jupyter notebooks, 
@@ -38,9 +38,9 @@ training logs, benchmarks]
 ---
 
 **Похожие документы:**
-- [53-history](53-history.md) (сходство 0.18)
-- [52-author-contact](52-author-contact.md) (сходство 0.14)
-- [45-passports-pro2-md](45-passports-pro2-md.md) (сходство 0.10)
+- [53-history](docs/02-anthropic-vacancies/53-history.md) (сходство 0.18)
+- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md) (сходство 0.14)
+- [45-passports-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -48,44 +48,8 @@ training logs, benchmarks]
 ---
 
 **Смотрите также:**
-- [53-history](53-history.md)
-- [52-author-contact](52-author-contact.md)
-- [42-author-contact](42-author-contact.md)
-- [62-author-contact](62-author-contact.md)
+- [53-history](docs/02-anthropic-vacancies/53-history.md)
+- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [0. Status of This Document](05-0-status-of-this-document.md)
-- [0. Status of This Document](75-0-status-of-this-document.md)
-- [Content Overview](12-content-overview.md)
-- [Essence](36-essence.md)
-- [History](43-history.md)
-- [History](53-history.md)
-- [Native Format](47-native-format.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [13. Reference Implementation](25-13-reference-implementation.md) _37%_
-- [History](53-history.md) _37%_
-- [0. Status of This Document](05-0-status-of-this-document.md) _33%_
-- [Author & Contact](42-author-contact.md) _33%_
-- [0. Status of This Document](75-0-status-of-this-document.md) _33%_
-- [18. Reference Implementation](93-18-reference-implementation.md) _33%_
-- [Author & Contact](62-author-contact.md) _29%_
-- [History](43-history.md) _25%_
-## Связанные документы
-
-- [History](53-history.md) _37%_
-- [0. Status of This Document](05-0-status-of-this-document.md) _29%_
-- [13. Reference Implementation](25-13-reference-implementation.md) _29%_
-- [passports/info1.md](35-passports-info1-md.md) _29%_
-- [Author & Contact](42-author-contact.md) _29%_
-- [History](43-history.md) _29%_
-- [0. Status of This Document](75-0-status-of-this-document.md) _29%_
-- [18. Reference Implementation](93-18-reference-implementation.md) _29%_

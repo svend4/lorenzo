@@ -2834,6 +2834,36 @@
     },
     {
       "source": "anthropic",
+      "target": "репозитория",
+      "weight": 301
+    },
+    {
+      "source": "docs",
+      "target": "репозитория",
+      "weight": 359
+    },
+    {
+      "source": "nautilus",
+      "target": "репозитория",
+      "weight": 146
+    },
+    {
+      "source": "vacancies",
+      "target": "репозитория",
+      "weight": 112
+    },
+    {
+      "source": "claude",
+      "target": "first",
+      "weight": 57
+    },
+    {
+      "source": "document",
+      "target": "first",
+      "weight": 16
+    },
+    {
+      "source": "memory",
       "target": "what",
       "weight": 38
     },
@@ -3953,8 +3983,223 @@
       "weight": 5
     },
     {
-      "source": "collaboration",
-      "target": "svyazi",
+      "source": "summary",
+      "target": "репозитория",
+      "weight": 126
+    },
+    {
+      "source": "agent",
+      "target": "вакансии",
+      "weight": 105
+    },
+    {
+      "source": "agent",
+      "target": "диалога",
+      "weight": 100
+    },
+    {
+      "source": "agent",
+      "target": "источник",
+      "weight": 151
+    },
+    {
+      "source": "agent",
+      "target": "кластерам",
+      "weight": 101
+    },
+    {
+      "source": "agent",
+      "target": "корень",
+      "weight": 125
+    },
+    {
+      "source": "agent",
+      "target": "снимок",
+      "weight": 137
+    },
+    {
+      "source": "anthropic",
+      "target": "диалога",
+      "weight": 268
+    },
+    {
+      "source": "anthropic",
+      "target": "кластерам",
+      "weight": 295
+    },
+    {
+      "source": "anthropic",
+      "target": "корень",
+      "weight": 297
+    },
+    {
+      "source": "anthropic",
+      "target": "снимок",
+      "weight": 307
+    },
+    {
+      "source": "appendix",
+      "target": "вакансии",
+      "weight": 35
+    },
+    {
+      "source": "appendix",
+      "target": "диалога",
+      "weight": 34
+    },
+    {
+      "source": "appendix",
+      "target": "кластерам",
+      "weight": 35
+    },
+    {
+      "source": "appendix",
+      "target": "корень",
+      "weight": 35
+    },
+    {
+      "source": "appendix",
+      "target": "снимок",
+      "weight": 35
+    },
+    {
+      "source": "claude",
+      "target": "диалога",
+      "weight": 269
+    },
+    {
+      "source": "claude",
+      "target": "источник",
+      "weight": 389
+    },
+    {
+      "source": "claude",
+      "target": "кластерам",
+      "weight": 294
+    },
+    {
+      "source": "claude",
+      "target": "корень",
+      "weight": 359
+    },
+    {
+      "source": "claude",
+      "target": "репозитория",
+      "weight": 360
+    },
+    {
+      "source": "claude",
+      "target": "снимок",
+      "weight": 381
+    },
+    {
+      "source": "habr",
+      "target": "диалога",
+      "weight": 38
+    },
+    {
+      "source": "habr",
+      "target": "источник",
+      "weight": 98
+    },
+    {
+      "source": "habr",
+      "target": "кластерам",
+      "weight": 40
+    },
+    {
+      "source": "habr",
+      "target": "корень",
+      "weight": 95
+    },
+    {
+      "source": "habr",
+      "target": "снимок",
+      "weight": 96
+    },
+    {
+      "source": "knowledge",
+      "target": "mhtml",
+      "weight": 72
+    },
+    {
+      "source": "knowledge",
+      "target": "диалога",
+      "weight": 35
+    },
+    {
+      "source": "knowledge",
+      "target": "источник",
+      "weight": 94
+    },
+    {
+      "source": "knowledge",
+      "target": "кластерам",
+      "weight": 38
+    },
+    {
+      "source": "knowledge",
+      "target": "корень",
+      "weight": 64
+    },
+    {
+      "source": "knowledge",
+      "target": "раздел",
+      "weight": 43
+    },
+    {
+      "source": "knowledge",
+      "target": "снимок",
+      "weight": 71
+    },
+    {
+      "source": "legal",
+      "target": "mhtml",
+      "weight": 68
+    },
+    {
+      "source": "legal",
+      "target": "вакансии",
+      "weight": 20
+    },
+    {
+      "source": "legal",
+      "target": "диалога",
+      "weight": 18
+    },
+    {
+      "source": "legal",
+      "target": "источник",
+      "weight": 77
+    },
+    {
+      "source": "legal",
+      "target": "кластерам",
+      "weight": 20
+    },
+    {
+      "source": "legal",
+      "target": "корень",
+      "weight": 55
+    },
+    {
+      "source": "legal",
+      "target": "раздел",
+      "weight": 22
+    },
+    {
+      "source": "legal",
+      "target": "снимок",
+      "weight": 67
+    },
+    {
+      "source": "memory",
+      "target": "mhtml",
+      "weight": 49
+    },
+    {
+      "source": "memory",
+      "target": "диалога",
       "weight": 17
     },
     {
@@ -3993,9 +4238,9 @@
       "weight": 13
     },
     {
-      "source": "protocol",
-      "target": "svyazi",
-      "weight": 8
+      "source": "диалога",
+      "target": "раздел",
+      "weight": 268
     },
     {
       "source": "references",

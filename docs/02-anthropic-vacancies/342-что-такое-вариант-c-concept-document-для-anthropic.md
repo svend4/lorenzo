@@ -1,5 +1,15 @@
 # Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Question Set 2: Your priorities 2a) Что важнее: Lorenzo как long-term project, или SGB Advocate Tool как immediate need?
+> 🔧 **Подход:** Заметил, что другой автор работает над related thing, и думаю, что combination ваших подходов могла бы создать что-то interesting.
+> ✅ **Результат:** Результаты последнего поиска — что нашлось и что не нашлось Что НЕ нашлось Точного аналога Catalyst Agent / Lorenzo нет.
+> 🏷️ **Ключевые слова:** `lorenzo`, `agent`, `document`, `anthropic`, `catalyst`, `concept`, `dhlab`, `synthesis`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -7,7 +17,7 @@
 
 <!-- summary -->
 > Anthropic Beneficial Deployments — это команда внутри Anthropic, которая фокусируется на helping AI deployments в high-impact areas. Включает (насколько я знаю):
-**Проекты:** CardIndex, NGT Memory, Wikontic
+**Проекты:** [CardIndex](../docs/01-svyazi/01-executive-summary.md), NGT Memory, Wikontic
 
 ---
 
@@ -49,13 +59,13 @@
   - [Результаты последнего поиска — что нашлось и что не нашлось](#результаты-последнего-поиска-что-нашлось-и-что-не-нашлось)
   - [Naming: «Лоренцо ИИ Агент» под «DHLab / Dream Hub»](#naming-лоренцо-ии-агент-под-dhlab-dream-hub)
   - [Implications для документации](#implications-для-документации)
-  - [Lorenzo specifically: что нужно specifиcate](#lorenzo-specifically-что-нужно-specifиcate)
+  - [Lorenzo specifically: что нужно specifиcate](#[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-specifically-что-нужно-specifиcate)
   - [Что я думаю practical wise](#что-я-думаю-practical-wise)
   - [Что Anthropic specifically может найти interesting](#что-anthropic-specifically-может-найти-interesting)
   - [Вопрос к вам](#вопрос-к-вам)
   - [Какие следующие шаги предлагаю](#какие-следующие-шаги-предлагаю)
   - [Какиевариантыдля следующего шага](#какиевариантыдля-следующего-шага)
-  - [Fundamental questions для Lorenzo](#fundamental-questions-для-lorenzo)
+  - [Fundamental questions для Lorenzo](#fundamental-questions-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md))
   - [Где сейчас сложности](#где-сейчас-сложности)
   - [Reframe based on these difficulties](#reframe-based-on-these-difficulties)
   - [Предлагаемая структура Document 10](#предлагаемая-структура-document-10)
@@ -160,7 +170,7 @@ You :
 - Community connections с Russian-speaking AI development community
 Why credible :
 - Real legal cases в process — not theoretical
-- Existing GitHub portfolio (svend4) demonstrating technical capacity
+- Existing [GitHub](../docs/01-svyazi/03-component-catalog.md) portfolio (svend4) demonstrating technical capacity
 - Series of architectural documents (the nine documents мы produced) showing systematic thinking
 - Identified working potential collaborators (HMP, Свяжи, etc.)
 #### Section 7: Success metrics
@@ -277,20 +287,20 @@ Total: 4-6 weeks part-time, depending on cadence.
 Это очень specific configuration . Дайте мне разобрать на что больше всего похоже.
 ### На что это структурно похоже
 #### 1. НаTalent Scout AIв indie game development
-Существует pattern в indie gaming community: AI-powered scouts, которые мониторят itch.io, GitHub, Reddit и identify promising indie developers, чьи styles complement друг друга. Затем reaches out с proposals для collaboration.
+Существует pattern в indie gaming community: AI-powered scouts, которые мониторят itch.io, [GitHub](../docs/01-svyazi/03-component-catalog.md), Reddit и identify promising indie developers, чьи styles complement друг друга. Затем reaches out с proposals для collaboration.
 Это closest analogue к тому что вы описываете, но ваш scenario более sophisticated в синтезе работы.
 #### 2. НаAcademic match-making
 Есть platforms (например, ResearchGate AI features), которые suggest collaborations между researchers based on complementary work. Но они не делают синтез — только suggest, не build.
 Ваш scenario идёт дальше : actually building integrated programs, не просто matching.
 #### 3. НаOpen Source Maintainer-Bot
-Есть GitHub bots, которые identify potential contributors из commit history adjacent projects, suggest reviewers, etc. Например, All-Contributors Bot , CodeTriage .
+Есть [GitHub](../docs/01-svyazi/03-component-catalog.md) bots, которые identify potential contributors из commit history adjacent projects, suggest reviewers, etc. Например, All-Contributors Bot , CodeTriage .
 Но они работают в narrow scope (single repository), не cross-project синтез.
 #### 4. НаRecommender system как «matchmaker»
 Кадровые AI-tools like Сбербанк HR анализируют resume + project requirements + match. Но они не строят что-то новое из соединения — только matching.
 #### 5. НаGenerative agents в Stanford research
 Помните 2023 Stanford «Generative Agents: Interactive Simulacra of Human Behavior» — 25 агентов в The Sims-style sandbox? Они формировали relationships, координировали. Но это simulation , не real-world action.
 #### 6. НаAI Research Mate / Co-Scientist
-Самый близкий analogue. Google's «AI co-scientist», DeepMind's similar projects — AI системы, которые suggest research directions, find relevant work, propose collaborations between humans с complementary expertise.
+Самый близкий analogue. Google's «AI co-scientist», [DeepMind](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)'s similar projects — AI системы, которые suggest research directions, find relevant work, propose collaborations between humans с complementary expertise.
 Но они в основном в academic context , не для open-source community building.
 ### Самое близкое сходство — гибрид нескольких pattern
 Honestly, точного analogue не существует . Что вы описываете — это гибрид нескольких распознаваемых patterns :
@@ -321,7 +331,7 @@ AI-scout как anthology editor для open-source projects.
 ### Самый точный existing concept
 Если выбирать один близкий pattern из existing technology landscape:
 «AI-powered DevRel Scout»
-DevRel (Developer Relations) — это профессия в tech companies где люди identify талантливых developers в community, связывают их с company resources, facilitate их contributions. Companies like GitHub, Vercel, Stripe имеют entire DevRel teams.
+DevRel (Developer Relations) — это профессия в tech companies где люди identify талантливых developers в community, связывают их с company resources, facilitate их contributions. Companies like [GitHub](../docs/01-svyazi/03-component-catalog.md), Vercel, Stripe имеют entire DevRel teams.
 То что вы описываете — это AI-augmented DevRel scout for cause-driven open-source development . Specifically:
 - Scout identifies aligned developers (Чуян, kagvi13, Анастасия и т.д.)
 - Recognizes complementary architectures
@@ -400,7 +410,7 @@ Erdős не создавал mathematics alone — он catalyzed mathematics ч
 ```
 Это specific workflow , который требует:
 - Agent с persistent identity
-- Web access (search, GitHub, repositories)
+- Web access (search, [GitHub](../docs/01-svyazi/03-component-catalog.md), repositories)
 - Code generation capability
 - Multi-turn conversation memory
 - Email/messaging capability
@@ -471,8 +481,8 @@ Variant C (concept document для Anthropic): Catalyst Agent concept actually f
 ### А practical implications
 Если этот scenario serves как organizing concept :
 Phase 1 (months 1-3) : Build minimal Catalyst Agent prototype
-- Persistent identity (specific GitHub account, blog, etc.)
-- Monitoring layer (RSS, GitHub watching, search)
+- Persistent identity (specific [GitHub](../docs/01-svyazi/03-component-catalog.md) account, blog, etc.)
+- Monitoring layer (RSS, [GitHub](../docs/01-svyazi/03-component-catalog.md) watching, search)
 - Knowledge base (CardIndex-style по Свяжи pattern)
 - Initial focus: SGB advocacy domain
 Phase 2 (months 4-9) : Synthesis engine
@@ -651,7 +661,7 @@ DHLab (Dream Hub Laboratory)
 - Каждый компонент has distinctive sub-name
 - Lorenzo emerges as flagship public-facing identity (other components more technical)
 #### Какие naming patterns наиболее successful precedents
-Bell Labs — research lab, name из company brand, became iconic Xerox PARC — research center, became iconic несмотря на parent brand decline OpenAI — research org становящаяся product company, name signals values DeepMind — research lab acquired by Google, retained distinct identity Anthropic — explicit values-driven naming (anthropic = «relating to humanity») MIT Media Lab — institutional research lab, multiple flagship projects
+Bell Labs — research lab, name из company brand, became iconic Xerox PARC — research center, became iconic несмотря на parent brand decline OpenAI — research org становящаяся product company, name signals values [DeepMind](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) — research lab acquired by Google, retained distinct identity Anthropic — explicit values-driven naming (anthropic = «relating to humanity») MIT Media Lab — institutional research lab, multiple flagship projects
 DHLab fits в this tradition — research lab brand с multiple project identities under it.
 Lorenzo functions like Sophia (robot) , Hermes (Nous Research agent) , Claude (Anthropic) , Devin (Cognition AI) — named AI personas с distinctive identity.
 #### Что unique в naming combination
@@ -680,7 +690,7 @@ New Document 10 (Lorenzo) → « DHLab Flagship : Lorenzo Catalyst Agent — Spe
 - Linguistic operation : Reads content в DE/EN/RU
 - Output formats : Documents, code, outreach messages, reports
 #### Capabilities
-- Monitoring : Continuously reads Habr, GitHub, ArXiv, conference proceedings
+- Monitoring : Continuously reads Habr, [GitHub](../docs/01-svyazi/03-component-catalog.md), ArXiv, conference proceedings
 - Pattern recognition : Identifies complementary architectures, philosophical alignments
 - Synthesis : Architects integrated solutions из existing components
 - Code generation : Builds initial implementations
@@ -840,13 +850,13 @@ Phase 0 (now): Conceptual development
 - Create initial visual identity
 - Reserve domain (dhlab.ai if available)
 Phase 1 (1-3 months): Persistent identity setup
-- GitHub: lorenzo-dhlab account
+- GitHub: [lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-dhlab account
 - Site: dhlab.ai/lorenzo с initial content
-- Email: lorenzo@dhlab.ai
+- Email: [lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)@dhlab.ai
 - Blog initial posts (introducing concept)
 Phase 2 (4-6 months): Minimum viable Lorenzo
-- Monitoring engine (RSS + GitHub watching)
-- Initial knowledge base (your existing CardIndex from Свяжи pattern)
+- Monitoring engine (RSS + [GitHub](../docs/01-svyazi/03-component-catalog.md) watching)
+- Initial knowledge base (your existing [CardIndex](../docs/01-svyazi/01-executive-summary.md) from Свяжи pattern)
 - Manual outreach (Max writes как Lorenzo, transparent dual-identity)
 - First synthesis project (SGB advocate tool)
 Phase 3 (7-12 months): Automation expansion
@@ -911,7 +921,7 @@ Step 2 : I refine Variant C concept document для Anthropic с Lorenzo central
 - Specific Anthropic engagement request
 Step 3 : Decide на actual implementation steps
 - Reserve dhlab.ai domain
-- Setup lorenzo-dhlab GitHub
+- Setup [lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-dhlab GitHub
 - Draft initial blog post (ru/en)
 - Begin first synthesis project
 Step 4 : Outreach к kagvi13 (HMP) под Lorenzo identity
@@ -923,7 +933,7 @@ Step 4 : Outreach к kagvi13 (HMP) под Lorenzo identity
 Вариант 1 : Я draft Document 10 (Lorenzo Specification) сразу — это самое substantive next step
 Вариант 2 : Я draft Variant C concept document с Lorenzo central — это outreach-ready document для Anthropic
 Вариант 3 : Pause to decide на Direction A vs D vs other — strategic choice сначала, документация after
-Вариант 4 : Quick first action — register dhlab.ai, lorenzo-dhlab GitHub, начать persistent identity сейчас
+Вариант 4 : Quick first action — register dhlab.ai, [lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-dhlab GitHub, начать persistent identity сейчас
 Вариант 5 : Save все 9 existing documents в repo, потом decide
 Вариант 6 : Поискать ещё — maybe есть существующий «Lorenzo» в AI space что conflicts с naming
 Вариант 7 : Discuss naming variations — может Lorenzo не optimal, alternatives worth exploring
@@ -1003,8 +1013,8 @@ Lorenzo ultimately serves vulnerable populations, directly works с independent 
 Daily :
 - Reads ~50 new Habr articles (filtered by relevance)
 - Reads ~20 new ArXiv papers (AI/social impact areas)
-- Watches ~10 GitHub repositories для new commits
-- Updates internal CardIndex с новыми profiles/projects
+- Watches ~10 [GitHub](../docs/01-svyazi/03-component-catalog.md) repositories для new commits
+- Updates internal [CardIndex](../docs/01-svyazi/01-executive-summary.md) с новыми profiles/projects
 - Drafts 1-2 outreach messages (для Max review)
 Weekly :
 - Generates synthesis proposal (which projects might combine)
@@ -1039,7 +1049,7 @@ Key elements :
 Critical question для ethical design.
 Things Lorenzo CAN do без Max approval :
 - Read public content
-- Update internal CardIndex
+- Update internal [CardIndex](../docs/01-svyazi/01-executive-summary.md)
 - Generate draft outreach messages (для review)
 - Generate synthesis proposals (для review)
 - Generate code drafts (для review)
@@ -1155,7 +1165,7 @@ Option D: English primary, others secondary
 My recommendation : Option C with Russian primary in Phase 1 :
 - Russian community где вы have natural reach (Habr, Telegram)
 - German for SGB application domain (vulnerable populations served)
-- English for broader AI community (papers, GitHub)
+- English for broader AI community (papers, [GitHub](../docs/01-svyazi/03-component-catalog.md))
 - Lorenzo speaks all three, but Habr is initial home base
 Это leverages your unique multilingual position.
 #### Question 10: Funding model?
@@ -1213,7 +1223,7 @@ Lorenzo требует:
 - Persistent server (24/7 monitoring)
 - Database (CardIndex)
 - Email integration
-- GitHub integration
+- [GitHub](../docs/01-svyazi/03-component-catalog.md) integration
 - Continuous Claude API access
 - Possibly local LLM backup
 Setup cost : ~€500-1500 initial Operating cost : ~€100-500/month

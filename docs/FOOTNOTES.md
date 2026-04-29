@@ -16,7 +16,7 @@
 | **MCP** | Model Context Protocol — протокол для AI-инструментов | 0 |
 | **NGT** | OSS-проект: ассоциативный граф памяти (BSL 1.1) | 0 |
 | **PII** | Personally Identifiable Information — персональные данные | 0 |
-| **RAG** | Retrieval-Augmented Generation — генерация с поиском | 2 |
+| **RAG** | Retrieval-Augmented Generation — генерация с поиском | 0 |
 | **Rufler** | OSS-проект: оркестратор AI-агентов | 0 |
 | **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 0 |
 | **Svyazi** | Главный проект: экосистема AI-компонентов | 4 |

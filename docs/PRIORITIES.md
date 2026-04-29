@@ -7,7 +7,7 @@
 
 Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).
 
-**Всего файлов:** 995
+**Всего файлов:** 1058
 
 ## Топ-50 самых важных файлов
 
@@ -67,6 +67,16 @@
 ## Топ-5 по каждому разделу
 
 
+### 01-initial-analysis
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md` | 0.88 |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md` | 0.76 |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md` | 0.74 |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md` | 0.58 |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md` | 0.57 |
+
 ### 01-svyazi
 
 | Файл | Score |
@@ -121,7 +131,44 @@
 | Файл | Score |
 |------|-------|
 | `docs/autofilled/research-summary.md` | 0.0 |
-| `docs/obsidian/autofilled/research-summary.md` | 0.0 |
+
+### beneficial-deployments-concept
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md` | 2.13 |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md` | 1.96 |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md` | 1.16 |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md` | 0.78 |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md` | 0.6 |
+
+### candidates
+
+| Файл | Score |
+|------|-------|
+| `docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md` | 3.76 |
+| `docs/ai-collaborations/candidates/02-related-projects-context.md` | 2.08 |
+| `docs/ai-collaborations/candidates/01-three-key-candidates.md` | 1.72 |
+
+### clusters
+
+| Файл | Score |
+|------|-------|
+| `docs/anthropic-vacancies/clusters/04-security.md` | 1.09 |
+| `docs/anthropic-vacancies/clusters/06-engineering-design-product.md` | 0.85 |
+| `docs/anthropic-vacancies/clusters/01-ai-research-engineering.md` | 0.41 |
+| `docs/anthropic-vacancies/clusters/12-technical-program-management.md` | 0.22 |
+| `docs/anthropic-vacancies/clusters/14-public-policy.md` | 0.22 |
+
+### combinations
+
+| Файл | Score |
+|------|-------|
+| `docs/technology-combinations/combinations/19-multi-agent-observability-platform.md` | 11.96 |
+| `docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md` | 7.87 |
+| `docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md` | 7.71 |
+| `docs/technology-combinations/combinations/14-local-first-agent-development-environment.md` | 7.43 |
+| `docs/technology-combinations/combinations/24-mega-integration-full-stack.md` | 6.73 |
 
 ### components
 
@@ -170,7 +217,7 @@
 | `docs/05-habr-projects/memory/yodoca.md` | 9.34 |
 | `docs/05-habr-projects/memory/ngt-memory.md` | 6.64 |
 
-### obsidian
+### mmorpg-for-programmers
 
 | Файл | Score |
 |------|-------|

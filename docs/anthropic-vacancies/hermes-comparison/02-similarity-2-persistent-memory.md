@@ -1,0 +1,29 @@
+# Сходство 2: Persistent memory — Layer B функциональность
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Research.
+
+Сходство 2: Persistent memory — Layer B функциональность
+
+Hermes имеет three-layer memory: FTS5 search, LLM summarization, Honcho user modeling. Это substantially решает многие из тех проблем, которые Document 2.3 идентифицировал как Layer B gap.
+
+Cowork также имеет persistent memory, но Hermes идёт дальше — autonomous skill creation означает, что агент сам определяет, что worth remembering, без явного указания пользователя.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
+- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
+- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
+- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+

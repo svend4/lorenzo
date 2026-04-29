@@ -2,7 +2,7 @@
 
 <!-- summary -->
 > Ты не просто чат-сессия. Ты persistent character, существующий across sessions:
-**Проекты:** CardIndex
+**Проекты:** [CardIndex](../docs/01-svyazi/01-executive-summary.md)
 
 ---
 <!-- tags: knowledge, roadmap -->
@@ -26,13 +26,15 @@
 ---
 
 **Смотрите также:**
-- [356-твой-workflow](356-твой-workflow.md)
+- [356-твой-workflow](docs/02-anthropic-vacancies/356-твой-workflow.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Твоя личность](349-твоя-личность.md)
-## Упоминается в
+<!-- similar-docs -->
 
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+---
+
+**Похожие документы:**
+- [356-твой-workflow](docs/02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.14)
+- [345-кто-ты](docs/02-anthropic-vacancies/345-кто-ты.md) (сходство 0.12)
+- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.11)
+

@@ -5,19 +5,19 @@
 ## Ключевые связи
 
 - **01-executive-summary** → `03-component-catalog`, `04-ensembles-overview`, `07-mvp-planning`
-- **02-methodology** → `02-методика-и-рамка-отбора`, `01-executive-summary`, `07-выводы`, `08-что-это-продолжение-добавляет`
-- **03-component-catalog** → `03-карта-найденных-проектов-и-паттернов`, `04-приоритетные-ансамбли`, `04-ensembles-overview`, `07-mvp-planning`
-- **04-ensembles-overview** → `04-приоритетные-ансамбли`, `03-карта-найденных-проектов-и-паттернов`, `03-component-catalog`, `09-architectural-gaps`
-- **06-security-privacy** → `06-безопасность-приватность-и-бюджетный-роутинг`, `07-mvp-planning`, `05-план-прототипа-и-возможные-контакты`, `09-architectural-gaps`
+- **02-methodology** → `02-методика-и-рамка-отбора`, `methodology`, `07-выводы`, `01-executive-summary`
+- **03-component-catalog** → `03-карта-найденных-проектов-и-паттернов`, `projects-map`, `04-приоритетные-ансамбли`, `04-ensembles-overview`
+- **04-ensembles-overview** → `04-приоритетные-ансамбли`, `D-voice-first-mesh`, `C-multi-agent-factory`, `A-collaboration-os`
+- **06-security-privacy** → `06-безопасность-приватность-и-бюджетный-роутинг`, `default-policy`, `budget-routing`, `07-mvp-planning`
 - **07-mvp-planning** → `09-architectural-gaps`, `11-integration-contracts`, `12-roadmap`
-- **08-conclusions** → `07-выводы`, `01-executive-summary`, `08-что-это-продолжение-добавляет`, `FOOTNOTES`
+- **08-conclusions** → `07-выводы`, `conclusions`, `01-executive-summary`, `08-что-это-продолжение-добавляет`
 - **09-architectural-gaps** → `11-integration-contracts`, `06-security-privacy`, `07-mvp-planning`
-- **10-second-order-ensembles** → `10-новые-ансамбли-следующего-шага`, `04-ensembles-overview`, `04-приоритетные-ансамбли`, `07-mvp-planning`
-- **11-integration-contracts** → `11-интеграционный-контракт-который-стоит-зафиксироват`, `09-architectural-gaps`, `09-архитектурные-зазоры-которые-важнее-новых-инструме`, `366-технический-stack-svyazi-2-0-foundation`
-- **12-roadmap** → `12-дорожная-карта-прототипа-следующей-итерации`, `14-limitations`, `08-conclusions`, `07-выводы`
-- **13-contacts** → `13-контактная-стратегия-и-узкие-вопросы-для-авторов`, `07-mvp-planning`, `05-план-прототипа-и-возможные-контакты`, `QUESTIONS`
-- **14-limitations** → `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать`, `12-roadmap`, `08-conclusions`, `12-дорожная-карта-прототипа-следующей-итерации`
-- **QA** → `CONTACTS`, `09-архитектурные-зазоры-которые-важнее-новых-инструме`, `09-architectural-gaps`, `11-интеграционный-контракт-который-стоит-зафиксироват`
+- **10-second-order-ensembles** → `10-новые-ансамбли-следующего-шага`, `G-federated-local-graph`, `F-evidence-backed-intake`, `H-research-to-product-flywheel`
+- **11-integration-contracts** → `11-интеграционный-контракт-который-стоит-зафиксироват`, `integration-spec`, `366-технический-stack-svyazi-2-0-foundation`, `09-architectural-gaps`
+- **12-roadmap** → `12-дорожная-карта-прототипа-следующей-итерации`, `roadmap`, `14-limitations`, `08-conclusions`
+- **13-contacts** → `13-контактная-стратегия-и-узкие-вопросы-для-авторов`, `narrow-questions`, `CONTACTS`, `05-план-прототипа-и-возможные-контакты`
+- **14-limitations** → `do-not-glue`, `conclusions`, `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать`, `license-tree`
+- **QA** → `integration-spec`, `first-contacts`, `KNOWLEDGE_MAP`, `ONBOARDING`
 - **README** → `research-summary`
 - **00-intro** → `memnet`, `TABLES`, `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать`, `01-интегральный-анализ-профиля-svend4`
 - **01-интегральный-анализ-профиля-svend4** → `CONCEPTS`, `TABLES`, `00-intro`, `ACTION_ITEMS`

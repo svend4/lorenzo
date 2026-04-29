@@ -1,5 +1,13 @@
 # What Industry Will Likely Build
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Likely Build Independent of what the author does, the industry wi
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `layer`, `build`, `industry`, `likely`, `infrastructure`, `notion`
+>
+
+
 <!-- summary -->
 > Independent of what the author does, the industry will move
 
@@ -23,8 +31,8 @@ Anthropic is positioned to do this well because they
 control the AI integration tightly. Expect incremental 
 additions to Projects functionality through 2026-2027.
 
-**GitHub for ideas.** GitHub may build something parallel 
-to GitHub for code — an intellectual workspace product. 
+**[GitHub](../docs/01-svyazi/03-component-catalog.md) for ideas.** GitHub may build something parallel 
+to [GitHub](../docs/01-svyazi/03-component-catalog.md) for code — an intellectual workspace product. 
 They have the infrastructure, the user base, and the 
 brand. Risk: code culture would persist.
 

@@ -43,8 +43,8 @@
 | `github.com/github.com/github` | 4 |
 | `github.com/github.com/kagvi13/HMP` | 2 |
 | `github.com/github.com/kagvi13/HMP.` | 2 |
-| `github.com/github.com/kksudo` | 8 |
-| `github.com/github.com/kksudo/agentfs` | 6 |
+| `github.com/github.com/kksudo` | 4 |
+| `github.com/github.com/kksudo/agentfs` | 4 |
 | `github.com/github.com/lib4u/rufler` | 2 |
 | `github.com/github.com/mcp` | 14 |
 | `github.com/github.com/nlaik` | 7 |

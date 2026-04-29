@@ -170,7 +170,7 @@ _Обновлено: 2026-04-29_
 - _...ещё 78_
 
 
-## ⚙️ Tech (29)
+## ⚙️ Tech (31)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
@@ -245,8 +245,8 @@ _Обновлено: 2026-04-29_
 ### `json` (59 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
+- `docs/02-anthropic-vacancies/03-portal-protocol-md.md`
 - `docs/02-anthropic-vacancies/07-2-terminology.md`
 - `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md`
 - _...ещё 54_
@@ -285,35 +285,35 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md`
 - _...ещё 93_
 
-### `mail` (33 файлов)
+### `mail` (69 файлов)
 
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/06-security-privacy.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/09-architectural-gaps.md`
-- _...ещё 28_
+- _...ещё 64_
 
-### `openai` (21 файлов)
+### `openai` (45 файлов)
 
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
 - `docs/02-anthropic-vacancies/155-1-problem-statement.md`
-- _...ещё 16_
+- _...ещё 40_
 
-### `google` (14 файлов)
+### `google` (34 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md`
 - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
 - `docs/02-anthropic-vacancies/155-1-problem-statement.md`
-- _...ещё 9_
+- _...ещё 29_
 
 
-## 📅 Dates (30)
+## 📅 Dates (32)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
@@ -328,7 +328,11 @@ _Обновлено: 2026-04-29_
 | `март 2026` | 5 | dates |
 | `декабрь 2025` | 5 | dates |
 | `декабря 2025` | 4 | dates |
-| `апреле 2026` | 4 | dates |
+| `2025-12-15` | 4 | dates |
+| `2024-01-01` | 4 | dates |
+| `май 2025` | 4 | dates |
+| `феврале 2025` | 4 | dates |
+| `Сентябрь 2025` | 4 | dates |
 | `январе 2026` | 4 | dates |
 | `марта 2026` | 3 | dates |
 | `декабрь 2024` | 3 | dates |

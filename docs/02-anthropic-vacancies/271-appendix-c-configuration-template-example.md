@@ -1,5 +1,14 @@
 # Appendix C: Configuration Template Example
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Some will remove sub-agents they don't need.
+> ✅ **Результат:** Appendix C: Configuration Template Example For the SGB Advocate Colleague pilot, a starting configuration --- Appendix C: Configuration Template Example For the SGB Advocate Collea
+> 🏷️ **Ключевые слова:** `appendix`, `configuration`, `anthropic`, `vacancies`, `their`, `template`, `agent`, `registry`
+>
+
+
 <!-- summary -->
 > For the SGB Advocate Colleague pilot, a starting configuration
 
@@ -72,9 +81,9 @@ configuration.
 ---
 
 **Похожие документы:**
-- [270-appendix-b-sub-agent-registry-schema-sketch](270-appendix-b-sub-agent-registry-schema-sketch.md) (сходство 0.11)
-- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.10)
-- [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.10)
+- [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md) (сходство 0.11)
+- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.10)
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -82,39 +91,8 @@ configuration.
 ---
 
 **Смотрите также:**
-- [270-appendix-b-sub-agent-registry-schema-sketch](270-appendix-b-sub-agent-registry-schema-sketch.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [211-table-of-contents](211-table-of-contents.md)
-- [253-table-of-contents](253-table-of-contents.md)
+- [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)
+- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [Appendix B: Sub-Agent Registry Schema (Sketch)](270-appendix-b-sub-agent-registry-schema-sketch.md)
-- [Table of Contents](253-table-of-contents.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Что ты НЕ МОЖЕШЬ делать без Max approval](352-что-ты-не-можешь-делать-без-max-approval.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Appendix B: Sub-Agent Registry Schema (Sketch)](270-appendix-b-sub-agent-registry-schema-sketch.md) _53%_
-- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _42%_
-- [Appendix B: Comparison Matrix](322-appendix-b-comparison-matrix.md) _25%_
-- [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md) _21%_
-- [Table of Contents](253-table-of-contents.md) _17%_
-- [Содержание](326-содержание.md) _17%_
-## Связанные документы
-
-- [Appendix B: Sub-Agent Registry Schema (Sketch)](270-appendix-b-sub-agent-registry-schema-sketch.md) _37%_
-- [Table of Contents](253-table-of-contents.md) _29%_
-- [Appendix A: Decision Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _29%_
-- [Table of Contents](211-table-of-contents.md) _25%_
-- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
-- [Содержание](326-содержание.md) _25%_
-- [Глоссарий понятий](../CONCEPTS.md) _25%_
-- [Table of Contents](137-table-of-contents.md) _21%_

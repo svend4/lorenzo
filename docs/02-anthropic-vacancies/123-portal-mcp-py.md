@@ -1,5 +1,14 @@
 # portal-mcp.py
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🔧 **Подход:** portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `readme`, `appendix`, `minimal`, `working`, `example`, `portal`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 

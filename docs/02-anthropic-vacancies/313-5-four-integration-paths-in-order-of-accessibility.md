@@ -1,5 +1,15 @@
 # 5. Four Integration Paths in Order of Accessibility
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** --- --- Похожие документы: - 311-3-what-ingit-provides-that-cowork-lacks(docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16) - 310-2-what-co
+> 🔧 **Подход:** Path 2 without Path 1 risks designing wrong tools.
+> ✅ **Результат:** Requires Anthropic to enable substantial third-party extension.
+> 🏷️ **Ключевые слова:** `cowork`, `ingit`, `project`, `anthropic`, `integration`, `provides`, `paths`, `server`
+>
+
+
 <!-- summary -->
 > We identify four paths from most-immediate to most-mature.
 
@@ -9,9 +19,9 @@
 ## Содержание
 
 - [5. Four Integration Paths in Order of Accessibility](#5-four-integration-paths-in-order-of-accessibility)
-  - [5.1. Path 1 — InGit Project in Cowork (Immediate)](#51-path-1-ingit-project-in-cowork-immediate)
-  - [5.2. Path 2 — InGit MCP Server (Short-Term)](#52-path-2-ingit-mcp-server-short-term)
-  - [5.3. Path 3 — InGit Cowork Project Template (Medium-Term)](#53-path-3-ingit-cowork-project-template-medium-term)
+  - [5.1. Path 1 — InGit Project in Cowork (Immediate)](#51-path-1-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-project-in-cowork-immediate)
+  - [5.2. Path 2 — InGit MCP Server (Short-Term)](#52-path-2-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-short-term)
+  - [5.3. Path 3 — InGit Cowork Project Template (Medium-Term)](#53-path-3-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-cowork-project-template-medium-term)
   - [5.4. Path 4 — Deep Cowork Integration (Long-Term)](#54-path-4-deep-cowork-integration-long-term)
   - [5.5. Sequencing Logic](#55-sequencing-logic)
 
@@ -61,7 +71,7 @@ about what works and what's missing.
 
 **Development required. 2-4 weeks for basic version.**
 
-Build `ingit-mcp-server` exposing InGit operations:
+Build `[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server` exposing InGit operations:
 
 ```
 Knowledge Base operations:
@@ -178,9 +188,9 @@ defers complex decisions until evidence is available.
 ---
 
 **Похожие документы:**
-- [311-3-what-ingit-provides-that-cowork-lacks](311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.15)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -188,48 +198,8 @@ defers complex decisions until evidence is available.
 ---
 
 **Смотрите также:**
-- [314-6-refined-ingit-scope-with-cowork-in-mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [311-3-what-ingit-provides-that-cowork-lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [315-7-practical-first-steps-this-month](315-7-practical-first-steps-this-month.md)
+- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [315-7-practical-first-steps-this-month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md)
-- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md)
-- [4. Симбиотическая Архитектура](330-4-симбиотическая-архитектура.md)
-- [5. Четыре пути интеграции в порядке доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md)
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md)
-- [9. Risks and Open Questions](317-9-risks-and-open-questions.md)
-- [Appendix C: Sample InGit MCP Server Tool Specifications](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md)
-## Упоминается в
-
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _29%_
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _25%_
-- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _25%_
-- [9. Risks and Open Questions](317-9-risks-and-open-questions.md) _21%_
-- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md) _17%_
-- [Table of Contents](308-table-of-contents.md) _17%_
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _17%_
-## Связанные документы
-
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _37%_
-- [2. What Cowork Provides That InGit Doesn't Need to Build](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _33%_
-- [3. What InGit Provides That Cowork Lacks](311-3-what-ingit-provides-that-cowork-lacks.md) _33%_
-- [6. Refined InGit Scope with Cowork in Mind](314-6-refined-ingit-scope-with-cowork-in-mind.md) _33%_
-- [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _29%_
-- [7. Practical First Steps This Month](315-7-practical-first-steps-this-month.md) _29%_
-- [Приложение: Визуализация позиции в серии](303-приложение-визуализация-позиции-в-серии.md) _25%_
-- [Table of Contents](308-table-of-contents.md) _25%_

@@ -1,5 +1,14 @@
 # 3. Why Existing Solutions Fail
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Why Existing Solutions Fail Seven existing infrastructure categories partially address the problem but collectively fail to solve it.
+> 🔧 **Подход:** Freelance Platforms (Upwork, Fiverr, Toptal) Approach: Marketplace matching contractors to short-term projects.
+> 🏷️ **Ключевые слова:** `target`, `populations`, `infrastructure`, `summary`, `anthropic`, `existing`, `executive`, `programs`
+>
+
+
 <!-- summary -->
 > Seven existing infrastructure categories partially address the
 

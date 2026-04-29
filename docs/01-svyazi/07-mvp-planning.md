@@ -1,17 +1,16 @@
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** citeturn33view3turn20view2turn37search0 Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude.
+> 🔧 **Подход:** Если нет — всё равно спасибо за публикацию, она уже повлияла на архитектуру прототипа.
+> ✅ **Результат:** citeturn22view5turn18search1turn15search3 Многоагентный хаос раньше пользы Рой даёт выгоду только после появления handoff/lock и чётких спецификаций Начинать с mclaude + AI Fa
+> 🏷️ **Ключевые слова:** `search`, `svyazi`, `memory`, `проект`, `knowledge`, `cardindex`, `agentfs`, `yodoca`
+>
 
-
-<!-- toc -->
-## Содержание
-
-- [План прототипа и возможные контакты](#план-прототипа-и-возможные-контакты)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
 
 <!-- summary -->
 > Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым 
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](../docs/01-svyazi/03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
@@ -76,9 +75,9 @@
 ---
 
 **Похожие документы:**
-- [05-план-прототипа-и-возможные-контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 1.00)
-- [09-архитектурные-зазоры-которые-важнее-новых-инструме](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.15)
-- [09-architectural-gaps](09-architectural-gaps.md) (сходство 0.15)
+- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 1.00)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.15)
+- [09-architectural-gaps](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -86,9 +85,9 @@
 ---
 
 **Смотрите также:**
-- [09-architectural-gaps](09-architectural-gaps.md)
-- [11-integration-contracts](11-integration-contracts.md)
-- [12-roadmap](12-roadmap.md)
+- [09-architectural-gaps](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/09-architectural-gaps.md)
+- [11-integration-contracts](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/11-integration-contracts.md)
+- [12-roadmap](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/12-roadmap.md)
 
 
 
@@ -121,59 +120,3 @@
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
 
 [^bsl]: Business Source License — коммерческая лицензия с открытым кодом
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [03 Component Catalog](03-component-catalog.md)
-- [04 Ensembles Overview](04-ensembles-overview.md)
-- [06 Security Privacy](06-security-privacy.md)
-- [08 Conclusions](08-conclusions.md)
-- [09 Architectural Gaps](09-architectural-gaps.md)
-- [10 Second Order Ensembles](10-second-order-ensembles.md)
-- [11 Integration Contracts](11-integration-contracts.md)
-- [12 Roadmap](12-roadmap.md)
-- [13 Contacts](13-contacts.md)
-- [Executive Report: Репозиторий Lorenzo](../REPORT.md)
-- [Executive summary](../04-ai-collaborations/01-executive-summary.md)
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](README.md)
-- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-executive-summary.md)
-- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
-- [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
-- [Выводы](../04-ai-collaborations/07-выводы.md)
-- [Дорожная карта прототипа следующей итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-- [Интеграционный контракт, который стоит зафиксировать сразу](../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
-- [Карта найденных проектов и паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
-- [Матрица компонентов Svyazi 2.0](../COMPONENT_MATRIX.md)
-- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [Прогресс MVP](../PROGRESS.md)
-## Упоминается в
-
-- [Executive Report: Репозиторий Lorenzo](../REPORT.md)
-- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
-- [Прогресс MVP](../PROGRESS.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _60%_
-- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _53%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _37%_
-- [13 Contacts](13-contacts.md) _37%_
-- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _37%_
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
-- [Безопасность, приватность и бюджетный роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) _33%_
-- [04 Ensembles Overview](04-ensembles-overview.md) _29%_
-## Связанные документы
-
-- [План прототипа и возможные контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _90%_
-- [Контактная стратегия и узкие вопросы для авторов](../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _48%_
-- [09 Architectural Gaps](09-architectural-gaps.md) _42%_
-- [10 Second Order Ensembles](10-second-order-ensembles.md) _42%_
-- [13 Contacts](13-contacts.md) _42%_
-- [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _42%_
-- [Архитектурные зазоры, которые важнее новых инструментов](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _42%_
-- [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _42%_

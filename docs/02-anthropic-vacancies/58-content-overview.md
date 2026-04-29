@@ -40,22 +40,15 @@
 ---
 
 **Смотрите также:**
-- [56-essence](56-essence.md)
+- [56-essence](docs/02-anthropic-vacancies/56-essence.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [Content Overview](38-content-overview.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-## Упоминается в
+<!-- similar-docs -->
 
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+---
 
-<!-- related-auto -->
-## Связанные документы
+**Похожие документы:**
+- [56-essence](docs/02-anthropic-vacancies/56-essence.md) (сходство 0.13)
+- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md) (сходство 0.12)
+- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.12)
 
-- [Content Overview](38-content-overview.md) _21%_
-- [Angle / Perspective](59-angle-perspective.md) _17%_
-## Связанные документы
-
-- [Content Overview](38-content-overview.md) _17%_

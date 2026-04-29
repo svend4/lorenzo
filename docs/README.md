@@ -1,6 +1,6 @@
 # docs
 
-**Файлов:** 86
+**Файлов:** 97
 
 ## Содержание
 
@@ -14,16 +14,16 @@
 - [CHANGELOG.md](CHANGELOG.md) — Всего коммитов: **52**
 - [CHANGELOG_AUTO.md](CHANGELOG_AUTO.md) — <!-- summary -->
 - [CITATION_INDEX.md](CITATION_INDEX.md) — _Обновлено: 2026-04-29_
-- [CLUSTERS.md](CLUSTERS.md) — <!-- summary -->
-- [CODE_BLOCKS.md](CODE_BLOCKS.md) — > [!TIP]
-- [COMPARE.md](COMPARE.md) — **Файлов было:** 384  **стало:** 1053
-- [COMPLEXITY.md](COMPLEXITY.md) — > [!WARNING]
-- [COMPONENT_MATRIX.md](COMPONENT_MATRIX.md) — > [!TIP]
-- [CONCEPTS.md](CONCEPTS.md) — > [!TIP]
-- [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) — _Обновлено: 2026-04-29_
+- [CLUSTERS.md](CLUSTERS.md) — Метод: TF-IDF + косинусное сходство (порог 0.15)
+- [CODE_BLOCKS.md](CODE_BLOCKS.md) — **Всего блоков:** 224
+- [COMPARE.md](COMPARE.md) — <!-- summary -->
+- [COMPLEXITY.md](COMPLEXITY.md) — **Файлов проанализировано:** 495
+- [COMPONENT_MATRIX.md](COMPONENT_MATRIX.md) — <!-- summary -->
+- [CONCEPTS.md](CONCEPTS.md) — _Определения извлечены автоматически из документов._
+- [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) — <!-- summary -->
 - [CONSISTENCY.md](CONSISTENCY.md) — Анализ различных написаний одних и тех же терминов.
-- [CONTACTS.md](CONTACTS.md) — | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
-- [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) — _Обновлено: 2026-04-29_
+- [CONTACTS.md](CONTACTS.md) — <!-- summary -->
+- [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) — <!-- summary -->
 - [CONTENT_GAPS.md](CONTENT_GAPS.md) — _Обновлено: 2026-04-29_
 - [CONTRADICTIONS.md](CONTRADICTIONS.md) — _Обновлено: 2026-04-29_
 - [COST.md](COST.md) — _Ориентировочные цифры на основе документации проекта._
@@ -59,15 +59,17 @@
 - [ONBOARDING.md](ONBOARDING.md) — > [!TIP]
 - [ORPHANS.md](ORPHANS.md) — **Найдено:** 1 файлов без входящих ссылок из 931 проверено.
 - [OUTLINE.md](OUTLINE.md) — _Обновлено: 2026-04-29_
-- [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — _Обновлено: 2026-04-29_
-- [PRIORITIES.md](PRIORITIES.md) — > [!TIP]
+- [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — <!-- summary -->
+- [PASSIVE_VOICE.md](PASSIVE_VOICE.md) — <!-- summary -->
+- [PRIORITIES.md](PRIORITIES.md) — Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).
 - [PROGRESS.md](PROGRESS.md) — _Обновлено: 2026-04-29 (improve_progress_sync.py)_
-- [QA.md](QA.md) — Вопросы и ответы по всем разделам монорепозитория.
-- [QUESTIONS.md](QUESTIONS.md) — > [!WARNING]
+- [QA.md](QA.md) — <!-- summary -->
+- [QUESTIONS.md](QUESTIONS.md) — _Извлечено автоматически из всех документов: **521** вопросов_
 - [READABILITY.md](READABILITY.md) — _Обновлено: 2026-04-29_
-- [READING_ORDER.md](READING_ORDER.md) — От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
+- [READING_LIST.md](READING_LIST.md) — <!-- summary -->
+- [READING_ORDER.md](READING_ORDER.md) — <!-- summary -->
 - [READING_TIME.md](READING_TIME.md) — _Обновлено: 2026-04-29_
-- [REPORT.md](REPORT.md) — _Дата генерации: 2026-04-29_
+- [REPORT.md](REPORT.md) — _Сгенерировано автоматически: 2026-04-29_
 - [RISK_REGISTER.md](RISK_REGISTER.md) — > [!TIP]
 - [SCHEDULE.md](SCHEDULE.md) — _Дорожная карта с вехами и задачами по кварталам._
 - [SCORING.md](SCORING.md) — _Дата: 2026-04-29_
@@ -87,7 +89,7 @@
 - [TOPIC_MODEL.md](TOPIC_MODEL.md) — > [!WARNING]
 - [VALIDATION.md](VALIDATION.md) — **Ошибок:** 0  **Предупреждений:** 30  **Пройдено:** 27
 - [VERSION_DIFF.md](VERSION_DIFF.md) — _Обновлено: 2026-04-29_
-- [VOCABULARY.md](VOCABULARY.md) — _Обновлено: 2026-04-29_
+- [VOCABULARY.md](VOCABULARY.md) — <!-- summary -->
 - [WORD_CLOUD.md](WORD_CLOUD.md) — <!-- summary -->
 - [WORD_FREQ.md](WORD_FREQ.md) — > [!TIP]
 
@@ -98,10 +100,16 @@
 - [03-technology-combinations/](03-technology-combinations/) — Комбинирование технологий для новых свойств
 - [04-ai-collaborations/](04-ai-collaborations/) — Поиск AI-коллабораций
 - [05-habr-projects/](05-habr-projects/) — Уникальные проекты с Хабра
+- [ai-collaborations/](ai-collaborations/) — ai-collaborations
+- [anthropic-vacancies/](anthropic-vacancies/) — anthropic-vacancies
 - [autofilled/](autofilled/) — autofilled
 - [badges/](badges/) — badges
 - [chunks/](chunks/) — chunks
-- [confluence/](confluence/) — confluence
 - [contacts/](contacts/) — contacts
-- [obsidian/](obsidian/) — obsidian
+- [glossary/](glossary/) — glossary
+- [habr-unique-projects/](habr-unique-projects/) — habr-unique-projects
+- [lorenzo-agent/](lorenzo-agent/) — lorenzo-agent
+- [nautilus/](nautilus/) — nautilus
+- [svyazi-2-0/](svyazi-2-0/) — svyazi-2-0
+- [technology-combinations/](technology-combinations/) — technology-combinations
 - [templates/](templates/) — templates

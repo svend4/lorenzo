@@ -5,7 +5,7 @@
 >
 > 🎯 **Проблема:** У Романова уже решена задача «как мерить качество извлечённой структуры», над которой Чуян ещё думает.
 > ✅ **Результат:** Автор — лингвист (ВМК МГУ + аспирантура), фокус: «лингвистика даёт типизацию отношений, но не масштабируется на сотни страниц; LLM понимает семантику, но без формальной структуры в
-> 🏷️ **Ключевые слова:** `projects`, `memory`, `памяти`, `collaboration`, `wikontic`, `yodoca`, `связи`, `проекты`
+> 🏷️ **Ключевые слова:** `projects`, `memory`, `collaboration`, `связи`, `памяти`, `svyazi`, `wikontic`, `ассоциативные`
 >
 
 
@@ -17,7 +17,7 @@
 | Теги | — |
 | Упоминаний в репо | 260 |
 | Слой | memory |
-| Контакт | [@spbmolot](../../autofilled/components/spbmolot.md) |
+| Контакт | [@spbmolot](docs/contacts/spbmolot.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-04-29_
@@ -49,7 +49,7 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 ---
 
 **Похожие документы:**
-- [wikontic](../knowledge/wikontic.md) (сходство 0.10)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -57,10 +57,10 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 ---
 
 **Смотрите также:**
-- [wikontic](../knowledge/wikontic.md)
-- [02-collaboration-partners](../02-collaboration-partners.md)
-- [NARRATIVE](../../NARRATIVE.md)
-- [yodoca](yodoca.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
+- [NARRATIVE](docs/NARRATIVE.md)
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
 
 
 
@@ -73,34 +73,3 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 [^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Wikontic: семантический граф](../knowledge/wikontic.md)
-- [Авторы и контакты](../02-collaboration-partners.md)
-- [Системы памяти](README.md)
-## Упоминается в
-
-- [Системы памяти](../../README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Синтез: как проекты собираются вместе](../01-synthesis.md) _33%_
-- [Авторы и контакты](../02-collaboration-partners.md) _29%_
-- [Wikontic: семантический граф](../knowledge/wikontic.md) _29%_
-- [Yodoca[^yodoca]: консолидация и забывание](yodoca.md) _29%_
-- [Граф связей проектов](../../GRAPH.md) _21%_
-- [Уникальные проекты с Хабра](../README.md) _17%_
-- [Контакт: VitalyOborin / Yodoca](../../contacts/vitalyoborin.md) _17%_
-- [Системы памяти](README.md) _16%_
-## Связанные документы
-
-- [Синтез: как проекты собираются вместе](../01-synthesis.md) _25%_
-- [Системы памяти](../../README.md) _25%_
-- [Авторы и контакты](../02-collaboration-partners.md) _21%_
-- [Уникальные проекты с Хабра](../../README.md) _21%_
-- [Wikontic: семантический граф](../knowledge/wikontic.md) _21%_
-- [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _21%_
-- [Diff базы знаний между версиями](../../VERSION_DIFF.md) _21%_
