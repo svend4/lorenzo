@@ -1,5 +1,15 @@
 # Mega‑Stack 2.0 — Ultimate Legal‑AI System
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑STACK 2.0: Ultimate Legal‑AI System».
+**Проекты:** Svyazi, CardIndex, NGT Memory, Auto AI Router, Yjs
+
+---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑STACK 2.0: Ultimate Legal‑AI System».
 
 Объединяет все 19 комбинаций в одну архитектуру.
@@ -53,3 +63,14 @@
 ## First implementation priority
 
 [Комбинация 18](../combinations/18-llm-powered-legal-corpus-builder.md) (Crawl4AI + Svyazi corpus builder) — requires only open‑source components, immediate ROI on precedent search.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
+

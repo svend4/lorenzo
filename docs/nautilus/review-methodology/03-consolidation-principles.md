@@ -1,5 +1,14 @@
 # 3. Принципы консолидации (Фаза C)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, rag, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## 3. Принципы консолидации (Фаза C)
@@ -89,3 +98,14 @@ target interface и native-форматами как adaptees»
 вопрос:
 
 ```markdown
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
+- [71-критерии-выбора-для-фазы-3](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
+- [04-fallback-ratio-question](docs/nautilus/review-methodology/04-fallback-ratio-question.md)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+

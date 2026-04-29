@@ -1,5 +1,14 @@
 # Комбинация 26: AST-Based Code Analysis for Legal Automation
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -58,3 +67,14 @@ Pydantic validates proposed fixes
 ROI: Prevents errors from inconsistent legal implementations
 
 Уникальность: First application of ASTChunk to legal domain. Treats legal automation code as documentation source. Enables LLM-based code understanding with structural awareness.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+- [27-hybrid-rag-with-ast-chunked-code](docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md)
+- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
+- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
+

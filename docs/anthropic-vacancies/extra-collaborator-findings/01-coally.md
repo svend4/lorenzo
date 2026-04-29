@@ -1,5 +1,19 @@
 # CoAlly — distributed shared memory для AI-агентов
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
+
+---
+<!-- tags: rag, security, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
 
 Итоги расширенного поиска — три новых критически важных проекта
@@ -31,3 +45,14 @@ Personalized PageRank по графу знаний (HippoRAG, Stanford/OSU)
 Процедурное знание (stand: в этом проекте всегда пишем тесты ≥80%)
 
 Почему важно для нас: CoAlly directly implements концепцию shared memory layer для multi-agent collaboration. Это точно тот компонент, которого не хватало в нашей стек поверх HMP. Если HMP — federation protocol, то CoAlly — practical shared memory implementation.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [13-appendix-b-examples](docs/nautilus/review-methodology/13-appendix-b-examples.md)
+- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+- [02-vitaly-graph-cognitive-memory](docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+

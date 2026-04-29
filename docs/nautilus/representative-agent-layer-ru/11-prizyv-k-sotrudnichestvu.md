@@ -1,5 +1,19 @@
 # 11. Призыв к сотрудничеству
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
 ## 11. Призыв к сотрудничеству
@@ -35,3 +49,14 @@
 Наконец, мы приглашаем скептиков и критиков. Риски в Разделе 8 реальны. Вопросы в Разделе 10 трудны. Строгая критика улучшит работу. Мы предпочитаем честных критиков безоговорочным энтузиастам.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [201-11-призыв-к-сотрудничеству](docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
+- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
+- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
+- [199-9-стратегия-поэтапного-развёртывания](docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
+

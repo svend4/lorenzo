@@ -1,5 +1,26 @@
 # 4. The Symbiotic Architecture
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
+  - [4.1. Layer Decomposition](#41-layer-decomposition)
+  - [4.2. How They Interact](#42-how-they-interact)
+  - [4.3. Where Each Operates](#43-where-each-operates)
+  - [4.4. Shared State](#44-shared-state)
+
+---
+
+<!-- tags: memory, rag, ingestion, local-first, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 4. The Symbiotic Architecture
@@ -122,3 +143,14 @@ This is why Git-native is important: Git provides authoritative
 state. Cowork memory is convenience, not authority.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)
+- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
+- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+

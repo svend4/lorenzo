@@ -1,5 +1,14 @@
 # Минусы Hermes (где наша архитектура добавляет ценность)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear
+
+---
+<!-- tags: architecture, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Research.
 
 Минусы Hermes (где наша архитектура добавляет ценность)
@@ -33,3 +42,14 @@ Document 2.4 предполагал, что InGit complements Cowork. С Hermes 
 Cowork был самым серьёзным конкурентом для нашего Layer B vision. Hermes — второй серьёзный игрок, и в некоторых respects (provider-agnostic, multi-platform, self-improving) более powerful, чем Cowork.
 
 Что остаётся релевантным:
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
+- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
+- [11-pluses-of-hermes](docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md)
+- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+

@@ -1,5 +1,15 @@
 # Комбинация 24: MEGA-INTEGRATION: Full Stack
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Svyazi, CardIndex, NGT Memory, Auto AI Router, Yjs
+
+---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Combining ALL 24 combinations + Russian OSS:
@@ -119,3 +129,14 @@ Charted specialized domains for discovering innovative projects
 Синтезировал найденные проекты для создания уникальных комбинаций
 
 Отлично! Синтезирую финальные комбинации на основе всех найденных проектов — теперь включая DSL, AST, и Pydantic.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
+- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+

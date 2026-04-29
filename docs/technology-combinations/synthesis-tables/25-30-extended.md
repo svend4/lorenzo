@@ -1,5 +1,14 @@
 # Сводная таблица 25–30 (Complete 1–30)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑30)».
+
+---
+<!-- tags: rag, orchestration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑30)».
 
 | # | Components | Result | Impact |
@@ -28,3 +37,14 @@ class Bescheid(BaseModel):
 ```
 
 Альтернатива: **Комбинация 25** (Legal DSL transpiler) — если хочешь declarative legal automation.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+

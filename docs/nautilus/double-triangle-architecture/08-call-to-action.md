@@ -1,5 +1,32 @@
 # 8. Call to Action
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [8. Call to Action](#8-call-to-action)
+  - [8.1. For Researchers](#81-for-researchers)
+  - [8.2. For Practitioners](#82-for-practitioners)
+  - [8.3. For Founders and Organizations](#83-for-founders-and-organizations)
+  - [8.4. For Policymakers](#84-for-policymakers)
+  - [8.5. For the First Author](#85-for-the-first-author)
+
+---
+
+<!-- tags: architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ## 8. Call to Action
@@ -121,3 +148,14 @@ Contact: via GitHub issues at
 [github.com/svend4/nautilus](https://github.com/svend4/nautilus).
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
+- [07-open-questions](docs/nautilus/double-triangle-architecture/07-open-questions.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+

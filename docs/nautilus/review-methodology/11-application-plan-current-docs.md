@@ -1,5 +1,14 @@
 # 10. Конкретный план применения к текущим документам
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## 10. Конкретный план применения к текущим документам
@@ -42,3 +51,14 @@ MCP-обёртки
 docs) методология **не применяется**.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+- [08-implementation-nautilus](docs/nautilus/review-methodology/08-implementation-nautilus.md)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+

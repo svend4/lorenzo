@@ -1,5 +1,14 @@
 # Сводная таблица 31–35 (Complete 1–35)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑35)».
+
+---
+<!-- tags: rag, local-first, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑35)».
 
 | # | Components | Result | Impact |
@@ -44,3 +53,14 @@ def get_state_at(case_id, target_date):
 ```
 
 Альтернатива: **Комбинация 32** (Raft multi‑agent) — если нужна multi‑machine координация.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+

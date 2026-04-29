@@ -1,5 +1,15 @@
 # Коммерциализация: три направления
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, mclaude, AI Factory, LiteParse, Legal RAG
+
+---
+<!-- tags: rag, orchestration, ingestion, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 8. Коммерциализация: три реалистичных направления
@@ -33,3 +43,14 @@ C. AgentOps Knowledge Kernel
 “Ваши агенты перестают забывать, повторяться и работать в чёрном ящике.”
 
 Здесь Svyazi‑2.0 становится не внешним community product, а ядром агентной памяти и трассировки: CoAlly‑style shared memory, mclaude‑style handoffs/locks/mailbox, AI Factory‑style skills/patches/evolution, Langfuse‑style traces.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
+- [01-shared-memory-between-agents](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md)
+- [06-metrics-tree](docs/ai-collaborations/continuation/06-metrics-tree.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+

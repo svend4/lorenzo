@@ -1,5 +1,38 @@
 # 4. Ten Domains of Application
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [4. Ten Domains of Application](#4-ten-domains-of-application)
+  - [4.1. Domain 1 — Knowledge Workers in Distributed Markets](#41-domain-1-knowledge-workers-in-distributed-markets)
+  - [4.2. Domain 2 — Retired Professionals and Volunteers](#42-domain-2-retired-professionals-and-volunteers)
+  - [4.3. Domain 3 — Social Workers Managing Client Caseloads](#43-domain-3-social-workers-managing-client-caseloads)
+  - [4.4. Domain 4 — Vulnerable Citizens Navigating Bureaucracy](#44-domain-4-vulnerable-citizens-navigating-bureaucracy)
+  - [4.5. Domain 5 — Caregivers Managing Dependents](#45-domain-5-caregivers-managing-dependents)
+  - [4.6. Domain 6 — Small Business Owners and Solo Entrepreneurs](#46-domain-6-small-business-owners-and-solo-entrepreneurs)
+  - [4.7. Domain 7 — Patients Managing Chronic Conditions](#47-domain-7-patients-managing-chronic-conditions)
+  - [4.8. Domain 8 — Students Navigating Educational Systems](#48-domain-8-students-navigating-educational-systems)
+  - [4.9. Domain 9 — Communities Negotiating with Institutions](#49-domain-9-communities-negotiating-with-institutions)
+  - [4.10. Domain 10 — Future Generations and Non-Human Stakeholders](#410-domain-10-future-generations-and-non-human-stakeholders)
+  - [4.11. Cross-Cutting Observations](#411-cross-cutting-observations)
+
+---
+
+<!-- tags: rag, ingestion, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 4. Ten Domains of Application
@@ -314,3 +347,14 @@ adversarial, less regulated** domains (1, 2, 6, 8) before
 tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
+- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+

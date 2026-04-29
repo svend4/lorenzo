@@ -1,5 +1,14 @@
 # Логика прогрессии: conservative escalation
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
+
+---
+<!-- tags: roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
 
 Логика прогрессии
@@ -29,3 +38,14 @@ Decision points:
 Сейчас: продолжать экспериментировать в Уровне 0 + начать Уровень 1
 
 Вы предложили правильный approach: продолжать экспериментировать вручную в рамках текущих сессий. Давайте структурируем это.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-overview](docs/lorenzo-agent/phased-deployment/00-overview.md)
+- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
+- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
+- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
+

@@ -1,5 +1,14 @@
 # Архитектурное решение: две-уровневая публикация
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
+
+---
+<!-- tags: rag, security, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
 
 Архитектурное решение: две-уровневая публикация
@@ -112,3 +121,14 @@ procedural_stage: "klage"
 Это делает анонимизированный документ машинно-обрабатываемым паттерном, не просто PDF-ом с вычеркнутыми словами.
 
 Шаг 5 — публикация в nautilus-legal. Анонимизированный документ коммитится в публичный репо с метаданными о том, что он прошёл pipeline анонимизации.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
+- [01-structural-comparison-code-vs-docs](docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
+- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
+- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md)
+

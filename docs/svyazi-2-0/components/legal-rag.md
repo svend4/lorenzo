@@ -1,5 +1,15 @@
 # Legal RAG
 
+<!-- summary -->
+> - **Источник:** Хабр citeturn20view6
+**Проекты:** Svyazi, Legal RAG
+
+---
+<!-- tags: rag, ingestion, roadmap, self-improvement, collaboration -->
+
+
+
+
 - **Автор:** tagir_analyzes
 - **Источник:** Хабр citeturn20view6
 - **Лицензия:** неуточнено. citeturn20view6
@@ -16,3 +26,14 @@
 - Context distillation
 - Систематический eval loop
 - Error analysis
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [hybrid-rag](docs/svyazi-2-0/components/hybrid-rag.md)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md)
+- [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
+- [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md)
+

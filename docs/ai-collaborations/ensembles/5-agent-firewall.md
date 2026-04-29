@@ -1,5 +1,20 @@
 # Ансамбль 5 — Agent Firewall
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, SENTINEL, Tool Search
+
+---
+<!-- tags: rag, security, ingestion, architecture, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 5. Agent Firewall: «иммунная система для автономных агентов»
@@ -35,3 +50,14 @@ Legal Agent Sandbox — агент может читать документы и
 MCP Firewall — единая прослойка между агентом и всеми MCP-серверами: браузер, GitHub, Postgres, почта, календарь, Obsidian, shell.
 
 Главное новое свойство: агентная система становится допускаемой к реальным задачам. Без этого она остаётся игрушкой или риском.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
+- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
+- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+- [default-policy](docs/svyazi-2-0/security/default-policy.md)
+

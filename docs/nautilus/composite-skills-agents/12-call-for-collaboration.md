@@ -1,5 +1,14 @@
 # 12. Call for Collaboration
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+<!-- tags: rag, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 12. Call for Collaboration
@@ -68,3 +77,14 @@ Engagement during regulatory development helps ensure frameworks
 match actual technology architecture.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
+- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md)
+- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
+- [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
+

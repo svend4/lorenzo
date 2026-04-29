@@ -1,5 +1,14 @@
 # Почему именно для программистов это работает естественно
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo
+
+---
+<!-- tags: orchestration, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed work.
 
 Почему именно для программистов это работает естественно
@@ -55,3 +64,14 @@ daten1 ⭐1 («блокнот, игры») — ранняя попытка gamif
 #5 B2B Metaworld — «Meta + LinkedIn + Alibaba + MMORPG» — вы прямо упомянули MMORPG как один из четырёх источников. Это та же идея с B2B-уклоном.
 
 То есть вы в data70 уже проектируете эту систему, просто из разных углов. Концепция MMORPG-for-programmers с AI-слоем — это integration point для минимум 4 ваших top-10 проектов. Если собрать их вместе, получается одна большая thesis.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [01-response](docs/nautilus/innovation-transitions/01-response.md)
+- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+

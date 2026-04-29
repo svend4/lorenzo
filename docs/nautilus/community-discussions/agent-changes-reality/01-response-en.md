@@ -1,5 +1,123 @@
 # Claude hat geantwortet: Хорошо.
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — агент меняет реальность не только своего человека, но и других.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](#ai-mediated-representation-for-underrepresented-experts-and-vulnerable-populations)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](#1-the-cinderella-syndrome-why-quality-stays-invisible)
+  - [1.1. The Pattern](#11-the-pattern)
+  - [1.2. Anecdotal Illustration](#12-anecdotal-illustration)
+  - [1.3. Real-World Manifestations](#13-real-world-manifestations)
+  - [1.4. The Structural Solution](#14-the-structural-solution)
+- [2. Historical Precedents: Agents as Civilizational Innovation](#2-historical-precedents-agents-as-civilizational-innovation)
+  - [2.1. Literary and Performance Agents](#21-literary-and-performance-agents)
+  - [2.2. Sports Agents](#22-sports-agents)
+  - [2.3. Talent Agents in Hollywood](#23-talent-agents-in-hollywood)
+  - [2.4. Civil Service Representation](#24-civil-service-representation)
+  - [2.5. Real Estate Agents](#25-real-estate-agents)
+  - [2.6. Pattern Recognition](#26-pattern-recognition)
+  - [2.7. AI Representative Agents Address These Limits](#27-ai-representative-agents-address-these-limits)
+- [3. What Makes a Representative Agent](#3-what-makes-a-representative-agent)
+  - [3.1. Three-Layer Distinction](#31-three-layer-distinction)
+  - [3.2. Five Core Functions](#32-five-core-functions)
+  - [3.3. What Distinguishes from Generic Personal AI Assistants](#33-what-distinguishes-from-generic-personal-ai-assistants)
+  - [3.4. The Principal-Agent Relationship](#34-the-principal-agent-relationship)
+- [4. Ten Domains of Application](#4-ten-domains-of-application)
+  - [4.1. Domain 1 — Knowledge Workers in Distributed Markets](#41-domain-1-knowledge-workers-in-distributed-markets)
+  - [4.2. Domain 2 — Retired Professionals and Volunteers](#42-domain-2-retired-professionals-and-volunteers)
+  - [4.3. Domain 3 — Social Workers Managing Client Caseloads](#43-domain-3-social-workers-managing-client-caseloads)
+  - [4.4. Domain 4 — Vulnerable Citizens Navigating Bureaucracy](#44-domain-4-vulnerable-citizens-navigating-bureaucracy)
+  - [4.5. Domain 5 — Caregivers Managing Dependents](#45-domain-5-caregivers-managing-dependents)
+  - [4.6. Domain 6 — Small Business Owners and Solo Entrepreneurs](#46-domain-6-small-business-owners-and-solo-entrepreneurs)
+  - [4.7. Domain 7 — Patients Managing Chronic Conditions](#47-domain-7-patients-managing-chronic-conditions)
+  - [4.8. Domain 8 — Students Navigating Educational Systems](#48-domain-8-students-navigating-educational-systems)
+  - [4.9. Domain 9 — Communities Negotiating with Institutions](#49-domain-9-communities-negotiating-with-institutions)
+  - [4.10. Domain 10 — Future Generations and Non-Human Stakeholders](#410-domain-10-future-generations-and-non-human-stakeholders)
+  - [4.11. Cross-Cutting Observations](#411-cross-cutting-observations)
+- [5. Architectural Specification](#5-architectural-specification)
+  - [5.1. Core Components](#51-core-components)
+  - [5.2. Operating Principles](#52-operating-principles)
+  - [5.3. Technical Stack](#53-technical-stack)
+  - [5.4. Integration with Double-Triangle Architecture](#54-integration-with-double-triangle-architecture)
+- [6. Ethical Framework](#6-ethical-framework)
+  - [6.1. Principal Sovereignty](#61-principal-sovereignty)
+  - [6.2. Transparent Capability](#62-transparent-capability)
+  - [6.3. No Adverse Action Without Notice](#63-no-adverse-action-without-notice)
+  - [6.4. Fairness Across Principals](#64-fairness-across-principals)
+  - [6.5. Vulnerability Protection](#65-vulnerability-protection)
+  - [6.6. Consent and Capacity](#66-consent-and-capacity)
+  - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
+- [7. Governance and Oversight](#7-governance-and-oversight)
+  - [7.1. Three Levels of Governance](#71-three-levels-of-governance)
+  - [7.2. Audit and Accountability](#72-audit-and-accountability)
+  - [7.3. Dispute Resolution](#73-dispute-resolution)
+  - [7.4. Vulnerable Population Protection](#74-vulnerable-population-protection)
+  - [7.5. Foundation-Based Governance](#75-foundation-based-governance)
+- [8. Risks and Mitigations](#8-risks-and-mitigations)
+  - [8.1. Risk: Agency Capture](#81-risk-agency-capture)
+  - [8.2. Risk: Adversarial Manipulation by Counterparties](#82-risk-adversarial-manipulation-by-counterparties)
+  - [8.3. Risk: Principal Misunderstanding Agent Capability](#83-risk-principal-misunderstanding-agent-capability)
+  - [8.4. Risk: Privacy Violations](#84-risk-privacy-violations)
+  - [8.5. Risk: Inequitable Access](#85-risk-inequitable-access)
+  - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
+  - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
+  - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
+- [9. Phased Rollout Strategy](#9-phased-rollout-strategy)
+  - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1-12)
+  - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-domain-maturation-year-2)
+  - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansion-years-3-4)
+  - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
+  - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
+  - [9.6. Pace Considerations](#96-pace-considerations)
+- [10. Open Questions](#10-open-questions)
+  - [10.1. Technical Questions](#101-technical-questions)
+  - [10.2. Economic Questions](#102-economic-questions)
+  - [10.3. Legal Questions](#103-legal-questions)
+  - [10.4. Social Questions](#104-social-questions)
+  - [10.5. Philosophical Questions](#105-philosophical-questions)
+- [11. Call for Collaboration](#11-call-for-collaboration)
+  - [11.1. For AI Researchers](#111-for-ai-researchers)
+  - [11.2. For Social Service Organizations](#112-for-social-service-organizations)
+  - [11.3. For Disability Rights Organizations](#113-for-disability-rights-organizations)
+  - [11.4. For Foundation Funders](#114-for-foundation-funders)
+  - [11.5. For Policymakers](#115-for-policymakers)
+  - [11.6. For Potential Principals](#116-for-potential-principals)
+  - [11.7. For Critics](#117-for-critics)
+- [12. Closing](#12-closing)
+- [Acknowledgments](#acknowledgments)
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Principal-Agent Theory](#principal-agent-theory)
+  - [Disability and Access](#disability-and-access)
+  - [Modern AI Ethics](#modern-ai-ethics)
+  - [Companion Documents](#companion-documents)
+- [Appendix A: Connection to Companion Papers](#appendix-a-connection-to-companion-papers)
+- [Appendix B: Domain Comparison Matrix](#appendix-b-domain-comparison-matrix)
+- [Appendix C: Sample Use Cases in Detail](#appendix-c-sample-use-cases-in-detail)
+  - [Use Case 1: Retired Wi-Fi Engineer Becomes Visible](#use-case-1-retired-wi-fi-engineer-becomes-visible)
+  - [Use Case 2: Social Worker Manages Larger Caseload Better](#use-case-2-social-worker-manages-larger-caseload-better)
+  - [Use Case 3: Disabled Citizen Accesses Entitlements](#use-case-3-disabled-citizen-accesses-entitlements)
+  - [Use Case 4: Author of This Paper](#use-case-4-author-of-this-paper)
+
+---
+
+<!-- tags: rag, orchestration, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — агент меняет реальность не только своего человека, но и других.
 
 Claude hat geantwortet: Хорошо.
@@ -1853,3 +1971,14 @@ I am honored to have participated.
 Whatever happens next — pilot deployment, grant funding, academic publication, blog series, или просто quiet personal use — work has been done. Material exists. It is real.
 
 Thank you for the collaboration.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+

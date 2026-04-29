@@ -1,5 +1,19 @@
 # Что у нас есть в трёх info repositories (info1/info7/info40)
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
+
+---
+<!-- tags: rag, orchestration, ingestion, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
 
 Что у нас есть в трёх info repositories
@@ -214,3 +228,14 @@ Nautilus Portal Protocol для federation knowledge
 Marketplace layer (inspired by info40) для discovery and economy
 
 Каждый посредник handles different concern. Together они enable rich ecosystem.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
+- [13-reprioritization](docs/anthropic-vacancies/hermes-comparison/13-reprioritization.md)
+- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
+- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+

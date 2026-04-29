@@ -1,5 +1,15 @@
 # Ансамбль 8 — Budget-Aware Intelligence Stack
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, Tool Search
+
+---
+<!-- tags: rag, security, knowledge, ingestion, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 8. Budget-Aware Intelligence Stack: «не всё надо отдавать большой LLM»
@@ -29,3 +39,14 @@ Legal Budget Router — простые запросы по делу обслуж
 Research Compression Engine — 10M токенов литературы сжимается локально/дёшево, а большая модель подключается только к финальным гипотезам.
 
 Главное новое свойство: качество сохраняется, стоимость падает. Большая модель становится не молотком для всего, а последним уровнем в иерархии.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
+- [6-continuous-eval-loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md)
+- [5-agent-firewall](docs/ai-collaborations/ensembles/5-agent-firewall.md)
+- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+

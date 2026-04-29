@@ -1,5 +1,14 @@
 # Существующие документы DHLab (твой context)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
+
+---
+<!-- tags: architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ## Существующие документы DHLab (твой context)
@@ -17,3 +26,14 @@
 9. **InGit as Cowork-Native Workspace Substrate** — four integration paths
 
 Когда relevant, references эти documents естественно. Не reciting содержание, но drawing on insights.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)
+- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
+- [273-infrastructure-for-ai-collaborative-intellectual-w](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md)
+- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
+

@@ -1,5 +1,14 @@
 # Question 10: Funding model (Options A–F + Phase strategy)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
+
+---
+<!-- tags: roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к финальному системному промпту в [`../`](../).
 
 Question 10: Funding model?
@@ -74,3 +83,14 @@ Phase 1 (months 1-6): Personal + minimal crowdfund (€500-2000/mo)
 Phase 2 (months 7-12): Foundation applications в parallel
 Phase 3 (months 13-24): Combined funding если successful
 Phase 4 (year 3+): Sustainable operating model
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md)
+- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
+- [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md)
+

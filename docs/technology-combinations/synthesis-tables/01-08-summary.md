@@ -1,5 +1,15 @@
 # Сводная таблица 1–8
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция 📊 «Сводная таблица синергии».
+**Проекты:** Svyazi, CardIndex, Yodoca
+
+---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция 📊 «Сводная таблица синергии».
 
 | Комбинация | Кубики | Уникальный результат | Экономия/ROI |
@@ -33,3 +43,14 @@
 ## Рекомендация
 
 Для legal + AI/ML research стека прямо ложатся комбинации 1, 3, 4, 6, 7. Лучший первый проект — **Комбинация 4** (LLM‑парсинг + Graph‑RAG + Агенты) — закрывает сразу три боли: парсинг Bescheid, построение прецедентного графа, автоматическая актуализация корпуса. Все компоненты уже есть на Хабре с working code.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [08-conductor-adversarial-review-auto-ai-router](docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md)
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
+- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+

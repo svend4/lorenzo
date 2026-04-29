@@ -1,5 +1,37 @@
 # 22. Glossary of Reference Examples
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [22. Glossary of Reference Examples](#22-glossary-of-reference-examples)
+- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal `nautilus.json`](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+- [Описание](#описание)
+- [Объём](#объём)
+- [Q6-отображение](#q6-отображение)
+- [Доступ к данным](#доступ-к-данным)
+- [Appendix B: Change Log](#appendix-b-change-log)
+  - [v1.1.0-draft (2026-04-19)](#v110-draft-2026-04-19)
+  - [v1.0.0-draft (2026-04 earlier)](#v100-draft-2026-04-earlier)
+- [Appendix C: References](#appendix-c-references)
+  - [Normative](#normative)
+  - [Informative](#informative)
+- [TL;DR](#tldr)
+
+---
+
+<!-- tags: memory, rag, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 22. Glossary of Reference Examples
@@ -288,3 +320,14 @@ markdown
 другой") теряет часть insights безвозвратно.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [16-glossary](docs/nautilus/review-methodology/16-glossary.md)
+- [18-comment-on-document](docs/nautilus/npp-v1-0/18-comment-on-document.md)
+

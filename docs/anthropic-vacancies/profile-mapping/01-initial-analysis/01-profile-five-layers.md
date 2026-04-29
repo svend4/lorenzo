@@ -1,5 +1,14 @@
 # Сводка профиля: пять слоёв
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+---
+<!-- tags: architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 Ваш корпус работ — это не «разработчик» и не «исследователь» в чистом виде. Это гибрид из пяти слоёв, которые редко встречаются вместе в одном человеке:
@@ -15,3 +24,14 @@
 Пятый — мультилингв EMEA: RU/DE/EN на рабочем уровне, базирование в Германии, понимание европейского регуляторного контекста (что прямо читается через работу с SGB).
 
 Daten70, судя по названию-паттерну (Daten = нем. «данные», 70 — номер), — это, вероятно, либо лабораторный журнал из ~70 идей/прототипов, либо контейнер датасетов, который вы используете как личный «research backlog». Структура «много идей в одном репо» — это паттерн research engineer с тенденцией к расхождению: много начато, меньше доведено до shipping. Это важно для вывода ниже.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
+- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
+- [01-three-archetypes](docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md)
+- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+

@@ -1,5 +1,20 @@
 # LAYER 7: Coordination engine
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).
+**Проекты:** CardIndex
+
+---
+<!-- tags: rag, knowledge, ingestion, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).
 
 LAYER 7: Coordination engine
@@ -376,3 +391,14 @@ Specific proposal involving HMP integration
 Вариант 7: Discuss naming variations — может Lorenzo не optimal, alternatives worth exploring
 
 Что вам useful right now?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-naming-rationale-lorenzo-medici](docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md)
+- [11-difficulties-and-recommendations](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
+

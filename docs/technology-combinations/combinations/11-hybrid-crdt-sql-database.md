@@ -1,5 +1,15 @@
 # Комбинация 11: Hybrid CRDT-SQL Database
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Yjs, Automerge
+
+---
+<!-- tags: local-first, roadmap, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -35,3 +45,14 @@ Multiple legal assistants edit case simultaneously, zero conflicts
 ROI: Real-time collaboration without conflict UI
 
 Уникальность: PostgreSQL 18 async I/O (2025) + CRDT = production-grade local-first database. TimescaleDB adds time-travel queries.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+- [17-distributed-agent-memory-with-graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+

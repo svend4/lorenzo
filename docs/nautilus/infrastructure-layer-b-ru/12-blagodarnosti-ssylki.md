@@ -1,5 +1,28 @@
 # Благодарности
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Благодарности](#благодарности)
+- [Ссылки](#ссылки)
+  - [Тред и Аннотация](#тред-и-аннотация)
+  - [Управление Знаниями](#управление-знаниями)
+  - [Инфраструктура AI-Сотрудничества](#инфраструктура-ai-сотрудничества)
+  - [Более ранние сопроводительные документы в этой серии](#более-ранние-сопроводительные-документы-в-этой-серии)
+- [Приложение: Визуализация позиции в серии](#приложение-визуализация-позиции-в-серии)
+
+---
+
+<!-- tags: architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ## Благодарности
@@ -152,3 +175,14 @@ Knowledge Work*
 «Annotation» — «аннотация» (близко к английскому термину, понятно)
 
 «Cross-references» — «перекрёстные ссылки» (стандарт)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md)
+- [301-благодарности](docs/02-anthropic-vacancies/301-благодарности.md)
+- [00-intro](docs/nautilus/infrastructure-layer-b-ru/00-intro.md)
+- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+

@@ -1,5 +1,19 @@
 # Глоссарий
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## Глоссарий
@@ -106,3 +120,14 @@ README.md v1.1 (256 строк) — публичное лицо проекта
 STATUS.md (279 строк) — честный отчёт о состоянии
 
 INTEGRATION.md (637 строк) — пять путей подключения
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
+- [22-glossary](docs/nautilus/npp-v1-1/22-glossary.md)
+

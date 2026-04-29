@@ -1,5 +1,14 @@
 # Более сильные пути вне Anthropic
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+---
+<!-- tags: rag, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 Research fellowship с independent affiliation. Alan Turing Institute (UK), DFKI Saarbrücken или Berlin (DE), Fraunhofer IAO (Stuttgart), Max Planck Institute for Software Systems (Saarbrücken/Kaiserslautern), Mozilla Foundation AI fellowship, Open Society Foundations Disability Rights Fellowship, Robert Bosch Stiftung grants. Эти структуры созданы для людей, которым нужна research-свобода + institutional backing + remote-friendly. Несколько из них имеют явные disability/accommodation policies.
@@ -17,3 +26,14 @@ Patent filing на 6 патентабельных изобретений. DPMA (
 Внутри Anthropic ближайшие совпадения, по убыванию: Transformative AI Research Economist → Research Engineer Societal Impacts → Applied AI Engineer Beneficial Deployments (EMEA) → Anthropic Fellows Program → младшие Analyst/Economist роли. Частичное покрытие каждой — 20-40%, что означает, что любая из них, взятая изолированно, будет недоиспользовать вас.
 
 Стратегически более сильный путь — построить гибридную структуру: один anchor (fellowship или небольшой research affiliate в DFKI/Turing/Bosch) + один launched open-source tool (universal-file-storage-mcp как distribution-ticket) + один focused startup-attempt (legal-sgb-toolkit через SAXEED или EF или Aktion Mensch grant) + 1-2 patent filings параллельно. Это модель, в которой 70 ваших репо перестают быть хаосом и становятся publicly visible trace вашей research programmы.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-non-anthropic-paths](docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md)
+- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
+- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
+- [03-partial-fit-honesty](docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md)
+

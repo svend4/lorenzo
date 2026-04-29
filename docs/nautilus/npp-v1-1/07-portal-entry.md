@@ -1,5 +1,19 @@
 # 7. PortalEntry Structure
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 7. PortalEntry Structure
@@ -59,3 +73,14 @@ is_fallback=False
 ```
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
+

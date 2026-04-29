@@ -1,8 +1,8 @@
-# Voiceless контрибьюторы
+# voiceless-contributors
 
-Могут ли быть voiceless контрибьюторы — те, кто не может публично говорить.
+**Файлов:** 2
 
-## Файлы
+## Содержание
 
-- [`00-question-voiceless.md`](00-question-voiceless.md)
-- [`01-response.md`](01-response.md)
+- [00-question-voiceless.md](00-question-voiceless.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — voiceless к…
+- [01-response.md](01-response.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — voiceless к…

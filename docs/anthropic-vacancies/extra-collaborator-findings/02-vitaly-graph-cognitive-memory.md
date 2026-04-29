@@ -1,5 +1,20 @@
 # Графовая когнитивная память на SQLite (Виталий, март 2026)
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
+**Проекты:** NGT Memory
+
+---
+<!-- tags: memory, ingestion, local-first, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
 
 2. Графовая когнитивная память на SQLite (Виталий, март 2026)
@@ -41,3 +56,14 @@ Background consolidation — sleep-like процесс переработки з
 Local-first, single-file SQLite — portable, offline-capable, simple
 
 Для personal SGB advocate workspace это точно подходящий компонент. Все case data, decisions, patterns в одном SQLite файле, доступном через любой MCP-совместимый агент.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+- [01-coally](docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+- [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+

@@ -1,5 +1,14 @@
 # BrainBox — self-hosted multi-AI hub
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
+
+---
+<!-- tags: rag, local-first, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 Что делает: Self-hosted сервис для управления 15+ open-source AI-системами через единый веб-интерфейс. Генерация изображений, распознавание объектов, озвучка, и т.д.
@@ -45,3 +54,14 @@ Community knowledge: Zettelkasten + Лумановская иерархия + RA
 Состояние: Множественные active projects, работающие plugins.
 
 Проект 5: Мультиагентная разработка (несколько авторов)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
+- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
+- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+

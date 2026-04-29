@@ -1,5 +1,14 @@
 # 00 Intro
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
+
+---
+<!-- tags: architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 Не predicts which player will fill gap
@@ -100,3 +109,14 @@ markdown
 скорее изучающая, чем специфицирующая
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
+- [289-инфраструктура-для-ai-совместной-интеллектуальной-](docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
+- [324-ingit-как-cowork-интегрированная-подложка-рабочего](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
+- [12-blagodarnosti-ssylki](docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md)
+

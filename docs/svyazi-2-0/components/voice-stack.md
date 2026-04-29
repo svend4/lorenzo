@@ -1,5 +1,15 @@
 # Voice / local-first stack
 
+<!-- summary -->
+> - **Авторы:** atatchin / askid / обзоры Handy / OpenWhispr
+**Проекты:** Svyazi, Whisper, Yttri
+
+---
+<!-- tags: memory, ingestion, local-first, collaboration -->
+
+
+
+
 - **Авторы:** atatchin / askid / обзоры Handy / OpenWhispr
 - **Источник:** Хабр citeturn21view10turn21view11turn21view12turn35search0
 - **Лицензия:** смешанная картина; для Yttri лицензия в просмотренных источниках не уточнена. citeturn35search0turn21view11
@@ -19,3 +29,14 @@
 - Diarization
 - Semantic links
 - SQLite
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [memnet](docs/svyazi-2-0/components/memnet.md)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md)
+- [rufler](docs/svyazi-2-0/components/rufler.md)
+

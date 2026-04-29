@@ -1,5 +1,14 @@
 # 1. Why Single-Triangle Models Are Incomplete
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ## 1. Why Single-Triangle Models Are Incomplete
@@ -67,3 +76,14 @@ to negotiate through well-defined interfaces. This paper proposes
 such a protocol.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
+- [03-three-inter-layer-protocols](docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
+- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
+

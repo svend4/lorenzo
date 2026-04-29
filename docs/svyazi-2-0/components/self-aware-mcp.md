@@ -1,5 +1,15 @@
 # Self‑Aware MCP + Skills + CodeWiki
 
+<!-- summary -->
+> - **Авторы:** akazant / akzhankalimatov / AnastasiyaW
+**Проекты:** Svyazi
+
+---
+<!-- tags: knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 - **Авторы:** akazant / akzhankalimatov / AnastasiyaW
 - **Источник:** Хабр + repo/marketplace + Хабр/репо citeturn20view12turn30search1turn20view15turn12search2turn37search7
 - **Лицензия:** Self‑Aware MCP — **MIT** по карточке MCP Marketplace; config‑kit — **MIT**; CodeWiki — неуточнено. citeturn30search1turn37search7turn12search2
@@ -17,3 +27,14 @@
 - Hooks
 - Subagents
 - Code wiki generation
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [rufler](docs/svyazi-2-0/components/rufler.md)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
+- [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
+- [agent-memory-mcp](docs/svyazi-2-0/components/agent-memory-mcp.md)
+

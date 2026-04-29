@@ -1,5 +1,26 @@
 # 8. Импликации для Nautilus и OKWF
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [8. Импликации для Nautilus и OKWF](#8-импликации-для-nautilus-и-okwf)
+  - [8.1. Nautilus как Подложка Федерированных Знаний](#81-nautilus-как-подложка-федерированных-знаний)
+  - [8.2. Импликации для OKWF Пилота](#82-импликации-для-okwf-пилота)
+  - [8.3. Композитный Агент Навыков в этой Архитектуре](#83-композитный-агент-навыков-в-этой-архитектуре)
+  - [8.4. Рекурсивное Прозрение Документа 2.3 Реализовано](#84-рекурсивное-прозрение-документа-23-реализовано)
+
+---
+
+<!-- tags: orchestration, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
 
 ## 8. Импликации для Nautilus и OKWF
@@ -125,3 +146,14 @@ InGit/Cowork:
 Оно реализуемо начиная со следующей недели.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [334-8-импликации-для-nautilus-и-okwf](docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md)
+- [10-strategicheskoe-pozitsionirovanie](docs/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md)
+- [336-10-стратегическое-позиционирование](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
+- [09-riski-voprosy](docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md)
+

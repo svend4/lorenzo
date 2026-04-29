@@ -1,5 +1,27 @@
 # 2. Target Populations
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [2. Target Populations](#2-target-populations)
+  - [2.1. Retired Experts with Remaining Intellectual Capacity](#21-retired-experts-with-remaining-intellectual-capacity)
+  - [2.2. Disabled Specialists with Modified Work Requirements](#22-disabled-specialists-with-modified-work-requirements)
+  - [2.3. Career-Switchers with Non-Traditional Backgrounds](#23-career-switchers-with-non-traditional-backgrounds)
+  - [2.4. Geographically Dispersed Skilled Workers](#24-geographically-dispersed-skilled-workers)
+  - [2.5. Cross-Cutting Observations](#25-cross-cutting-observations)
+
+---
+
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ## 2. Target Populations
@@ -115,3 +137,14 @@ Estimated total addressable contributor pool: 10M+ globally.
 Active participant target in first three years: 5,000-10,000.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+- [01-problem-statement](docs/nautilus/okwf-concept/01-problem-statement.md)
+- [03-why-existing-fail](docs/nautilus/okwf-concept/03-why-existing-fail.md)
+- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+

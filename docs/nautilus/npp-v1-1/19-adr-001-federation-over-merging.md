@@ -1,5 +1,14 @@
 # 19. ADR-001: Federation over Merging
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 19. ADR-001: Federation over Merging
@@ -36,3 +45,14 @@ formal mapping
 - Schema-less dump: теряется семантика angles
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [14-adr-001-federation-over-merging](docs/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
+- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
+

@@ -1,5 +1,20 @@
 # Что взять: agent controller architecture
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).
+**Проекты:** CardIndex
+
+---
+<!-- tags: rag, knowledge, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).
 
 Что взять: agent controller architecture
@@ -282,3 +297,14 @@ LAYER 6: Outreach engine
 - Multilingual support
 - Tone calibration
 - Response tracking
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [11-difficulties-and-recommendations](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md)
+

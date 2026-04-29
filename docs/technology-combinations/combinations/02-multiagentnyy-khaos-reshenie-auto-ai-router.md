@@ -1,5 +1,15 @@
 # Комбинация 2: Мультиагентный хаос-решение × Auto AI Router
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Auto AI Router
+
+---
+<!-- tags: architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -27,3 +37,14 @@ Auto AI Router на Go (habr.com/ru/articles/1027878/) — лёгкий прок
 2.2 Fault-tolerant агентский граф
 
 Router даёт fallback из коробки. Если Opus недоступен → Sonnet → GPT-5.4 → локальная модель. Мультиагентная система перестаёт ломаться при отказе одного провайдера.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-local-first](docs/03-technology-combinations/03-local-first.md)
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md)
+

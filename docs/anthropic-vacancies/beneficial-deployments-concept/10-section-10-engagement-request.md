@@ -1,5 +1,14 @@
 # Section 10: Engagement request
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
+
+---
+<!-- tags: roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 страниц).
 
 Section 10: Engagement request
@@ -41,3 +50,14 @@ Visual diagrams (architecture, timeline) helpful but not required
 Appendices для technical details, references
 
 Potential outcomes
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md)
+- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
+- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
+- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
+

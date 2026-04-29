@@ -1,5 +1,30 @@
 # 8. Pilot Proposal: SGB Advocate Colleague
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [8. Pilot Proposal: SGB Advocate Colleague](#8-pilot-proposal-sgb-advocate-colleague)
+  - [8.1. Context](#81-context)
+  - [8.2. Target Practitioners](#82-target-practitioners)
+  - [8.3. Burden Addressed](#83-burden-addressed)
+  - [8.4. Knowledge Base Requirements](#84-knowledge-base-requirements)
+  - [8.5. Pilot Cohort](#85-pilot-cohort)
+  - [8.6. Resource Requirements](#86-resource-requirements)
+  - [8.7. Expected Outcomes](#87-expected-outcomes)
+  - [8.8. Why This Domain First](#88-why-this-domain-first)
+
+---
+
+<!-- tags: rag, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 8. Pilot Proposal: SGB Advocate Colleague
@@ -194,3 +219,14 @@ deployment. From here, expansion to adjacent domains becomes
 incremental rather than novel.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
+- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
+- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+

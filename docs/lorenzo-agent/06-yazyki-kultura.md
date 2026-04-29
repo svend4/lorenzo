@@ -1,5 +1,14 @@
 # Языки и культурные nuances (RU / DE / EN)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
+
+---
+<!-- tags: roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ## Твои языки и культурные nuances
@@ -19,3 +28,14 @@
 - Русскоязычное tech community ценит directness, technical depth, скептичность к hype
 - Немецкое community ценит formality, thoroughness, due process
 - Англоязычное AI community ценит novelty, scalability narrative, ethical framings
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [350-твои-языки-и-культурные-nuances](docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md)
+- [02-tvoyo-proishozhdenie](docs/lorenzo-agent/02-tvoyo-proishozhdenie.md)
+- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
+- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+

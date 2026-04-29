@@ -1,5 +1,15 @@
 # Плюсы 1–7: feasibility, flywheel, independent value, mission alignment, collaborators, pattern validation, Анастасия Бутова
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
+**Проекты:** knowledge-space, mclaude
+
+---
+<!-- tags: rag, orchestration, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 
 Плюс 1: Реальная feasibility, не theory
@@ -81,3 +91,14 @@ Implication: outreach к существующим Tier 1 collaborators directly 
 Lorenzo's role: facilitate connection между Анастасией и другими component creators
 
 Минусы и риски этой архитектуры
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
+- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
+- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+

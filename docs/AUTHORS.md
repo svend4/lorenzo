@@ -4,31 +4,31 @@
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 36 |
-| **Antipozitive** | 21 |
-| **BerriAI** | 7 |
-| **Cutcode** | 37 |
-| **Dmitriila** | 32 |
-| **MiXaiLL76** | 21 |
-| **Sonia_Black** | 14 |
-| **VitaliySemenov** | 4 |
-| **VitalyOborin** | 28 |
-| **VladSpace** | 37 |
-| **akazant** | 6 |
-| **akzhankalimatov** | 4 |
+| **AnastasiyaW** | 44 |
+| **Antipozitive** | 24 |
+| **BerriAI** | 12 |
+| **Cutcode** | 39 |
+| **Dmitriila** | 37 |
+| **MiXaiLL76** | 23 |
+| **Sonia_Black** | 19 |
+| **VitaliySemenov** | 8 |
+| **VitalyOborin** | 33 |
+| **VladSpace** | 39 |
+| **akazant** | 10 |
+| **akzhankalimatov** | 8 |
 | **andrey_chuyan** | 13 |
-| **iximy** | 5 |
-| **kksudo** | 44 |
-| **lee-to** | 8 |
-| **lib4u** | 7 |
-| **moshael** | 6 |
-| **nlaik** | 20 |
-| **spbmolot** | 45 |
-| **tagir_analyzes** | 11 |
-| **vpakspace** | 4 |
-| **zodigancode** | 22 |
-| **Андрей Чуян** | 20 |
-| **Виталий Оборин** | 7 |
+| **iximy** | 9 |
+| **kksudo** | 49 |
+| **lee-to** | 12 |
+| **lib4u** | 12 |
+| **moshael** | 10 |
+| **nlaik** | 22 |
+| **spbmolot** | 50 |
+| **tagir_analyzes** | 14 |
+| **vpakspace** | 8 |
+| **zodigancode** | 25 |
+| **Андрей Чуян** | 33 |
+| **Виталий Оборин** | 8 |
 
 <!-- see-also -->
 
@@ -36,7 +36,7 @@
 
 **Смотрите также:**
 - [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+- [authors-by-name](docs/glossary/authors-by-name.md)
 - [CONTACTS](docs/CONTACTS.md)
-- [CITATION_INDEX](docs/CITATION_INDEX.md)
-- [VERSION_DIFF](docs/VERSION_DIFF.md)
+- [LINKS](docs/LINKS.md)
 

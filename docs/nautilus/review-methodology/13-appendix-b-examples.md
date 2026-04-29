@@ -1,5 +1,19 @@
 # Appendix B: Примеры расхождений и их разрешения
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## Appendix B: Примеры расхождений и их разрешения
@@ -64,3 +78,14 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 **Финальная запись**:
 
 ```markdown
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+

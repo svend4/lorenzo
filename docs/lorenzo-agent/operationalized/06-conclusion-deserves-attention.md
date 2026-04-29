@@ -1,5 +1,15 @@
 # Вывод: документ deserves serious attention
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
+**Проекты:** Svyazi, mclaude, Rufler, Hybrid RAG, Graph RAG, SENTINEL
+
+---
+<!-- tags: rag, orchestration, security, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 
 Hybrid RAG (1005776) — узел 5
@@ -101,3 +111,14 @@ Continue conversation или pause для обдумывания?
 ## Executive summary
 
 Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: ingestion и нормализация профилей из свободного текста, age
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
+

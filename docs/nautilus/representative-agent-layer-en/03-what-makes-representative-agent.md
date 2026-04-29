@@ -1,5 +1,26 @@
 # 3. What Makes a Representative Agent
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [3. What Makes a Representative Agent](#3-what-makes-a-representative-agent)
+  - [3.1. Three-Layer Distinction](#31-three-layer-distinction)
+  - [3.2. Five Core Functions](#32-five-core-functions)
+  - [3.3. What Distinguishes from Generic Personal AI Assistants](#33-what-distinguishes-from-generic-personal-ai-assistants)
+  - [3.4. The Principal-Agent Relationship](#34-the-principal-agent-relationship)
+
+---
+
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 3. What Makes a Representative Agent
@@ -110,3 +131,14 @@ a key research and design challenge addressed in Sections 6
 and 7.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
+- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md)
+

@@ -1,5 +1,14 @@
 # Уровень 0 — Ручной режим (текущий)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
+
+---
+<!-- tags: roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
 
 УРОВЕНЬ 0 — Ручной режим (текущий)
@@ -31,3 +40,14 @@
 Нет идентичности Lorenzo — это Макс через Claude
 
 Ценность: Это где мы сейчас. Уже substantial — 9 документов созданы.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
+- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
+- [02-level-1-minimal-zero](docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md)
+- [07-progression-logic](docs/lorenzo-agent/phased-deployment/07-progression-logic.md)
+

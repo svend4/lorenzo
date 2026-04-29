@@ -1,5 +1,14 @@
 # 1. Контекст и мотивация
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## 1. Контекст и мотивация
@@ -56,3 +65,14 @@ third agent с явным контекстом обоих) создаёт фин
 с **включением всех insights из A и B**
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+- [00-tldr](docs/nautilus/review-methodology/00-tldr.md)
+- [09-limitations-open-questions](docs/nautilus/review-methodology/09-limitations-open-questions.md)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+

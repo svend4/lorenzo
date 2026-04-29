@@ -1,5 +1,26 @@
 # 2. What Makes a Professional Colleague Agent
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [2. What Makes a Professional Colleague Agent](#2-what-makes-a-professional-colleague-agent)
+  - [2.1. Defining Properties](#21-defining-properties)
+  - [2.2. What a Professional Colleague Agent Does](#22-what-a-professional-colleague-agent-does)
+  - [2.3. What a Professional Colleague Agent Does NOT Do](#23-what-a-professional-colleague-agent-does-not-do)
+  - [2.4. The "Colleague" Metaphor](#24-the-colleague-metaphor)
+
+---
+
+<!-- tags: ingestion, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 2. What Makes a Professional Colleague Agent
@@ -128,3 +149,14 @@ resist "AI replacing their tools" may welcome "AI colleague
 to discuss work with."
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md)
+- [09-relationship-other-agents](docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
+- [03-empirical-case-obuchay](docs/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md)
+

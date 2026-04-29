@@ -1,5 +1,19 @@
 # 9. Risks and Open Questions
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+<!-- tags: rag, orchestration, local-first, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 9. Risks and Open Questions
@@ -95,3 +109,14 @@ These uncertainties shape but do not block progress. Path 1
 works regardless of any of them.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [317-9-risks-and-open-questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md)
+- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
+- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
+

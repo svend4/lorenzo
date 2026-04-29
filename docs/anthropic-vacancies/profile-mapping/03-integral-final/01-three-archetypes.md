@@ -1,5 +1,14 @@
 # Интегральный портрет — три архетипа
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+---
+<!-- tags: architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 Что мы теперь знаем точно
@@ -15,3 +24,14 @@
 Интегральный портрет
 
 Это не «разработчик» и не «исследователь». По совокупности признаков — темп, разброс, теоретическая глубина, отсутствие deployment, доменная экспертиза из личного опыта, история потерь — профиль ближе всего к трём архетипам, которые нужно рассматривать вместе, не порознь:
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-profile-five-layers](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md)
+- [07-unique-niche-eu-legal-infra](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
+- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+

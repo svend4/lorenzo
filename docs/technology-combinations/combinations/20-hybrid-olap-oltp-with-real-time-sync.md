@@ -1,5 +1,15 @@
 # Комбинация 20: Hybrid OLAP-OLTP with Real-Time Sync
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Yjs, Automerge
+
+---
+<!-- tags: rag, local-first, architecture -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -52,3 +62,14 @@ ClickHouse: "Show precedent citation trends 2020-2026 across all courts"
 ROI: Real-time collaboration + analytical insights, best of both worlds
 
 Уникальность: First system combining CRDT (local-first), PostgreSQL 18 async (OLTP), ClickHouse (OLAP) in single architecture. Each layer handles what it does best.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [17-distributed-agent-memory-with-graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+

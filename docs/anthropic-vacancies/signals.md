@@ -1,5 +1,14 @@
 # Сигналы: что говорит структура вакансий
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория).
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория).
 
 Что реально говорит эта структура.
@@ -23,3 +32,14 @@
 ## География
 
 Sales и Applied AI: SF, NY, London, Dublin, Munich, Paris, Tokyo, Seoul, Bangalore, Sydney, Zurich. Public Policy — DC, Canberra. Compute — US/UK/Australia. Support — US + Dublin + Tokyo.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-sales](docs/anthropic-vacancies/clusters/02-sales.md)
+- [overview](docs/anthropic-vacancies/overview.md)
+- [01-ai-research-engineering](docs/anthropic-vacancies/clusters/01-ai-research-engineering.md)
+- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md)
+

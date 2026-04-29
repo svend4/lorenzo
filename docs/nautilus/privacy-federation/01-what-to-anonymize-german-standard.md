@@ -1,5 +1,14 @@
 # Что именно анонимизировать: немецкий стандарт
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
 
 Что именно анонимизировать: немецкий стандарт
@@ -45,3 +54,14 @@
 Методологические ходы (как был преодолён отказ, какие аргументы сработали)
 
 То есть анонимизация убирает «кто» и «когда» конкретно, оставляя «что произошло» и «почему так решили». Это именно то, что нужно для obучения на прецедентах.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md)
+- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+- [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
+- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
+

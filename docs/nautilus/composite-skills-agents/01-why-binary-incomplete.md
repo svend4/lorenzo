@@ -1,5 +1,26 @@
 # 1. Why the Binary View Is Incomplete
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [1. Why the Binary View Is Incomplete](#1-why-the-binary-view-is-incomplete)
+  - [1.1. The Problem with the Existing Taxonomy](#11-the-problem-with-the-existing-taxonomy)
+  - [1.2. How Mastery Actually Develops](#12-how-mastery-actually-develops)
+  - [1.3. The Architecture That Should Match](#13-the-architecture-that-should-match)
+  - [1.4. Why This Was Not Recognized Earlier](#14-why-this-was-not-recognized-earlier)
+
+---
+
+<!-- tags: ingestion, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 1. Why the Binary View Is Incomplete
@@ -94,3 +115,14 @@ extension. It changes the practical strategy for deploying AI
 support to skilled professions.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- [13-closing](docs/nautilus/composite-skills-agents/13-closing.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+

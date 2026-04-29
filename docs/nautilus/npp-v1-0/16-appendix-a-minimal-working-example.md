@@ -1,5 +1,14 @@
 # Appendix A: Minimal Working Example
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
+
+---
+<!-- tags: ingestion, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 from pathlib import Path
@@ -61,3 +70,14 @@ example_user, example@email.com
 ```
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
+

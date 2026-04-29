@@ -1,5 +1,26 @@
 # 5. Architectural Specification
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [5. Architectural Specification](#5-architectural-specification)
+  - [5.1. Core Components](#51-core-components)
+  - [5.2. Operating Principles](#52-operating-principles)
+  - [5.3. Technical Stack](#53-technical-stack)
+  - [5.4. Integration with Double-Triangle Architecture](#54-integration-with-double-triangle-architecture)
+
+---
+
+<!-- tags: rag, orchestration, ingestion, local-first, architecture, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 5. Architectural Specification
@@ -117,3 +138,14 @@ the **outer boundary** of the Lower Triangle — the layer
 that touches the world beyond the personal context.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
+- [03-what-makes-representative-agent](docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md)
+- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
+

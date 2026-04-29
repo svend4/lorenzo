@@ -1,5 +1,14 @@
 # 7. Практические первые шаги в этом месяце
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
 
 ## 7. Практические первые шаги в этом месяце
@@ -87,3 +96,14 @@ MCP сервера. Не реализовывать пока; сначала
 так.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [333-7-практические-первые-шаги-в-этом-месяце](docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md)
+- [DUPLICATES](docs/DUPLICATES.md)
+- [05-chetyre-puti-integratsii](docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
+- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+

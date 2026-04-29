@@ -1,5 +1,14 @@
 # Комбинация 9: Agent Orchestration Stack
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: orchestration, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -33,3 +42,14 @@ Sequential ensures chain completion across machines
 ROI: Full stack development на $700/мес вместо $20k/мес team
 
 Уникальность: Conductor — macOS only, Agent-Bridge — browser-based + multi-machine. Вместе = remote development paradise. Sequential устраняет bottleneck координатора.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
+- [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
+

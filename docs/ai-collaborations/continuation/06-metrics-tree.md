@@ -1,5 +1,15 @@
 # Дерево метрик Svyazi 2.0
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi
+
+---
+<!-- tags: rag, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 6. Метрики, без которых Svyazi‑2.0 нельзя масштабировать
@@ -20,3 +30,14 @@
 | UX | time_to_explain_match | За сколько секунд пользователь понимает “почему эта связь”
 
 Особенно важны false_association_rate и evidence_coverage. Без них система легко станет “магическим рекомендателем”, которому нельзя доверять.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
+- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
+- [08-commercialization-three-paths](docs/ai-collaborations/continuation/08-commercialization-three-paths.md)
+

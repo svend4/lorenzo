@@ -1,5 +1,14 @@
 # Federated platform
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
+
+---
+<!-- tags: ingestion, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 Что получается: Federated platform где:
@@ -21,3 +30,14 @@ Federation between practitioner deployments (Nautilus)
 Синтез E: «Open Knowledge Workflow Engine»
 
 Совмещение: WorkTeam (NL → workflow translation) + n8n (automation) + Свяжи (structured extraction) + Obsidian + AI (knowledge base).
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+

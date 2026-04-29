@@ -1,5 +1,20 @@
 # Первые контакты
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты».
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Yodoca, NGT Memory
+
+---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
+
+
+
+
 > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты».
 
 | Кому писать | Почему именно он или она | Публичный вектор из просмотренных источников | Контакт в источниках |
@@ -9,3 +24,14 @@
 | **kksudo** | Наиболее важный кандидат для слоя `.agentos/` и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и GitHub issues в AgentFS. citeturn33view7turn27view0 | Публичный прямой контакт **не найден**. |
 | **VitalyOborin** | Сильнейший кандидат на consolidator/forgetting‑слой. citeturn21view0turn21view1turn18search1 | Комментарии к статье Yodoca и GitHub issues/discussions в repo. citeturn38view7turn18search1 | Публичный прямой контакт **не найден**. |
 | **spbmolot** | Нужен для ассоциативной памяти и очень дешёвого memory retrieval с graph‑подтягиванием слабых связей. citeturn22view4turn22view5 | Комментарии к статье NGT Memory и GitHub repository. citeturn22view5turn32search2 | Публичный прямой контакт **не найден**. |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [message-template](docs/svyazi-2-0/outreach/message-template.md)
+- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
+- [CONTACTS](docs/CONTACTS.md)
+

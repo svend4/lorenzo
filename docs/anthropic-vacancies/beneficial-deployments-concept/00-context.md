@@ -1,5 +1,14 @@
 # Контекст: что такое Anthropic Beneficial Deployments
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 страниц).
 
 Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments
@@ -35,3 +44,14 @@ Why now? What changed that makes this possible.
 What's the role of Anthropic? Specifically.
 
 What's the role of you (the proposer)? Specifically.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-section-5-role-of-anthropic](docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md)
+- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md)
+- [01-section-1-problem](docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
+- [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md)
+

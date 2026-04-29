@@ -1,5 +1,30 @@
 # 3. Empirical Case Study: «Обучай»
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [3. Empirical Case Study: «Обучай»](#3-empirical-case-study-обучай)
+  - [3.1. Background](#31-background)
+  - [3.2. Functional Description](#32-functional-description)
+  - [3.3. Deployment Trajectory](#33-deployment-trajectory)
+  - [3.4. Adoption Pattern](#34-adoption-pattern)
+  - [3.5. Key Design Decisions Documented](#35-key-design-decisions-documented)
+  - [3.6. Stated Philosophy](#36-stated-philosophy)
+  - [3.7. Evidence of Type 1 Properties](#37-evidence-of-type-1-properties)
+  - [3.8. Caveats](#38-caveats)
+
+---
+
+<!-- tags: rag, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 3. Empirical Case Study: «Обучай»
@@ -141,3 +166,14 @@ bureaucratic process while leaving education quality
 unchanged remains to be measured.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
+- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
+- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [09-relationship-other-agents](docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
+

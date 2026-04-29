@@ -1,5 +1,15 @@
 # Комбинация 3: CRDT local-first × Svyazi CardIndex
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Svyazi, CardIndex, Yjs
+
+---
+<!-- tags: knowledge, ingestion, local-first, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -35,3 +45,14 @@ Discovery-файл Svyazi (накопление неизвестного) син
 При подключении автоматически получает обновления
 
 Модерация тоже распределённая
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-local-first](docs/03-technology-combinations/03-local-first.md)
+- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+

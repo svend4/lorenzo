@@ -1,5 +1,15 @@
 # Сводный список авторов и потенциальных соавторов
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+**Проекты:** Svyazi, Yodoca, NGT Memory, AutoResearch, Wikontic
+
+---
+<!-- tags: memory, knowledge, ingestion, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 Это как раз AutoResearch Карпаты, перенесённый на твой собственный research-loop. И — что поразительно — у тебя уже есть все компоненты: pro2 + понимание Q6 + skills + Obsidian-структура. Не хватает только склейки.
@@ -15,3 +25,14 @@ Erweitert
 Claude ist eine KI und kann Fehler machen. Bitte überprüfe die zitierten Quellen.
 
 Teilen
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
+- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
+

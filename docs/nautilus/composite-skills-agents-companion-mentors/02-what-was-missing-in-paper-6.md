@@ -1,5 +1,19 @@
 # Это не Тип 1 — потому что профиль не общий для всей профессии. И это не Тип 4 — …
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — 21 учитель индийского йога — спектр между Professional Colleague и Representative Agent.
+
+---
+<!-- tags: orchestration, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — 21 учитель индийского йога — спектр между Professional Colleague и Representative Agent.
 
 Это не Тип 1 — потому что профиль не общий для всей профессии. И это не Тип 4 — потому что под-агенты не уникальные для принципала, они общие.
@@ -111,3 +125,14 @@
 Процесс Конфигурирования Принципала. Помогает принципалу выбрать релевантные под-агенты из реестра. Может быть автоматическим (анализ профиля принципала, рекомендации), полуавтоматическим (диалог с принципалом), или ручным (принципал выбирает сам).
 
 Координационный Слой. Когда принципал ставит задачу, координатор решает:
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [03-the-spectrum](docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md)
+- [01-yogi-metaphor](docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md)
+- [00-question-multiple-mentors](docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
+

@@ -1,5 +1,15 @@
 # Комбинация 7: Crawl4AI × Docling × Yodoca consolidator
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Yodoca
+
+---
+<!-- tags: memory, rag, knowledge, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -35,3 +45,14 @@ Crawl4AI + Docling + Yodoca + LLM Wiki (Obsidian плагин):
 Graph view показывает связи между прецедентами
 
 Поиск через гибридный RAG (векторный + BM25 + graph traversal)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- [15-self-consolidating-legal-corpus](docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md)
+- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+

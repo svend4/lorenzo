@@ -1,5 +1,15 @@
 # Смежные проекты
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+**Проекты:** Svyazi, CardIndex, NGT Memory, Wikontic
+
+---
+<!-- tags: memory, knowledge, ingestion, architecture, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 «Программа поиска единомышленников ВКонтакте» (https://habr.com/ru/articles/495554/) — олдскульный аналог через анализ подписок, без LLM, но с той же концепцией matching по интересам. Полезна как контр-пример: показывает, чего не хватает без семантического слоя.
@@ -21,3 +31,14 @@
 — от K2-18 Романова: формальная метрика качества структуры (Чуян пишет: «лучшее, что я пока придумал — показатель качества карточки» — у Романова это уже формализовано через образовательные метрики, оттуда можно адаптировать концепцию);
 — от NGT Memory: хеббовское усиление связей. Не просто «эти двое оба знают Go», а «эти двое в течение месяца независимо упомянули Wi-Fi и open-source-радиопланирование» — связь между ними укрепляется автоматически, и система предлагает их свести именно по этой ко-активации;
 — от Knowledge Graph Kit: MCP-обёртка, чтобы Claude / любая локальная LLM могла работать с базой как с инструментом, не зная про внутреннее устройство.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
+- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
+- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
+- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
+

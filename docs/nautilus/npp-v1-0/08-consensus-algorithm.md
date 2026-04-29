@@ -1,5 +1,14 @@
 # 8. Consensus Algorithm (v1.0: string normalization)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
+
+---
+<!-- tags: rag, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ## 8. Consensus Algorithm
@@ -53,3 +62,14 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 параметр в query, сохраняя v1.0 как default.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
+- [09-consensus-algorithm](docs/nautilus/npp-v1-1/09-consensus-algorithm.md)
+- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
+- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
+

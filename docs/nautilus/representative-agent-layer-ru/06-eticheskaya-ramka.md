@@ -1,5 +1,14 @@
 # 6. Этическая рамка
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+
+---
+<!-- tags: local-first, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
 ## 6. Этическая рамка
@@ -67,3 +76,14 @@
 Представительский Агент, доступный только технически продвинутым принципалам, не выполняет свою основную миссию.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [196-6-этическая-рамка](docs/02-anthropic-vacancies/196-6-этическая-рамка.md)
+- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
+- [05-arkhitekturnaya-spetsifikatsiya](docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md)
+- [07-upravlenie-nadzor](docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md)
+

@@ -1,5 +1,27 @@
 # 5. The Economics of Profession-Wide Replication
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [5. The Economics of Profession-Wide Replication](#5-the-economics-of-profession-wide-replication)
+  - [5.1. Cost Structure](#51-cost-structure)
+  - [5.2. Revenue Models](#52-revenue-models)
+  - [5.3. Network Effects and Knowledge Compounding](#53-network-effects-and-knowledge-compounding)
+  - [5.4. Competitive Dynamics](#54-competitive-dynamics)
+  - [5.5. Sustainability Considerations](#55-sustainability-considerations)
+
+---
+
+<!-- tags: rag, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 5. The Economics of Profession-Wide Replication
@@ -123,3 +145,14 @@ Foundation-funded Professional Colleague Agents are
 economically viable for moderately sized professions.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
+- [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+

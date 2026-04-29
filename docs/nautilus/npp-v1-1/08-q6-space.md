@@ -1,5 +1,19 @@
 # 8. Q6 Space (Normative)
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 8. Q6 Space (Normative)
@@ -80,3 +94,14 @@ return list(visited.keys())
 - **Class IV** (сложные, edge of chaos) — синтез, emergent properties
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [83-8-q6-space-normative](docs/02-anthropic-vacancies/83-8-q6-space-normative.md)
+- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
+- [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
+- [13-rest-api](docs/nautilus/npp-v1-1/13-rest-api.md)
+

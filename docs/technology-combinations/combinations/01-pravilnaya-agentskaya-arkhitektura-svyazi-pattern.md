@@ -1,5 +1,15 @@
 # Комбинация 1: Правильная агентская архитектура × Svyazi-паттерн
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: knowledge, ingestion, architecture, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -35,3 +45,14 @@ Svyazi уже умеет извлекать структуру из текста
 Cross-domain запросы через event bus
 
 Для Max'а: один домен = юридические дела, второй = AI/ML research, третий = Nautilus-коллаборации. Всё в одной системе, но изолированно.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
+- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+

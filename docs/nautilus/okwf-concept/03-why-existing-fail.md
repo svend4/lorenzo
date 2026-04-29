@@ -1,5 +1,30 @@
 # 3. Why Existing Solutions Fail
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [3. Why Existing Solutions Fail](#3-why-existing-solutions-fail)
+  - [3.1. Classical Employment (Full-Time)](#31-classical-employment-full-time)
+  - [3.2. Freelance Platforms (Upwork, Fiverr, Toptal)](#32-freelance-platforms-upwork-fiverr-toptal)
+  - [3.3. Executive Contracting (Deel, Remote, Oyster, Velocity Global)](#33-executive-contracting-deel-remote-oyster-velocity-global)
+  - [3.4. AI Talent Platforms (Mercor, Braintrust, A.Team)](#34-ai-talent-platforms-mercor-braintrust-ateam)
+  - [3.5. Open-Source Foundations (Apache, Linux, Python, Mozilla)](#35-open-source-foundations-apache-linux-python-mozilla)
+  - [3.6. Government-Funded Training Programs](#36-government-funded-training-programs)
+  - [3.7. Corporate Social Responsibility Programs](#37-corporate-social-responsibility-programs)
+  - [3.8. Summary](#38-summary)
+
+---
+
+<!-- tags: rag, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ## 3. Why Existing Solutions Fail
@@ -138,3 +163,14 @@ into coherent infrastructure**. OKWF's proposed contribution
 is this integration.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [02-target-populations](docs/nautilus/okwf-concept/02-target-populations.md)
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+

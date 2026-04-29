@@ -1,5 +1,19 @@
 # Вопрос: fallback‑ratio как критический или осмысленный?
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, rag, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## Вопрос: fallback-ratio как критический или осмысленный?
@@ -45,3 +59,14 @@ and B (branch Y) on YYYY-MM-DD»
 встрече, но не в приоритете.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+

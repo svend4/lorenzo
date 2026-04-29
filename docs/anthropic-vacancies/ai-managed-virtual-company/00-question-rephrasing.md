@@ -1,5 +1,19 @@
 # Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
+
+---
+<!-- tags: orchestration, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.
 
 Du hast gesagt: Есть несколько разных вопросов и поэтому можно их частично параллельно обсуждать частично последовательно например есть объективная задача спрос рождает предло…
@@ -33,3 +47,14 @@ Claude hat geantwortet: Я понял вашу мысль.
 Ответ по существу
 
 Идея нетривиальная и частично уже реализуется — но не так и не в том масштабе, в котором она могла бы работать. Разверну по трём осям: что уже есть, что не работает в текущих попытках, и что могло бы сработать именно в вашей формулировке.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
+- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
+

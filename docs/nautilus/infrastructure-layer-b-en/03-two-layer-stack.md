@@ -1,5 +1,19 @@
 # The Two-Layer Stack As It Exists
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ## The Two-Layer Stack As It Exists
@@ -45,3 +59,14 @@ further work on specific parts — all of this requires
 infrastructure that does not exist as a unified product.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
+- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
+

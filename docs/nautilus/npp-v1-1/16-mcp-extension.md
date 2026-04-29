@@ -1,5 +1,14 @@
 # 16. MCP Extension (Informative)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 16. MCP Extension (Informative)
@@ -19,3 +28,14 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 Формальная MCP-спецификация будет частью NPP v1.2 или v2.0.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+

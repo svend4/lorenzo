@@ -1,5 +1,15 @@
 # AI-ассистент с Mem0 / Letta / Graphiti integration
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
+**Проекты:** NGT Memory, Wikontic
+
+---
+<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
 
 4. AI ассистент с Mem0/Letta/Graphiti integration
@@ -65,3 +75,14 @@ Extraction/structuring
 Свяжи (Чуян) — hybrid LLM + deterministic
 
 Артём's legal knowledge graph с Louvain community detection
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+- [10-collaborators-landscape](docs/lorenzo-agent/10-collaborators-landscape.md)
+- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+

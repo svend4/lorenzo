@@ -1,5 +1,27 @@
 # 10. Appendices
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [10. Appendices](#10-appendices)
+  - [Appendix A: Comparison Matrix Against Existing Solutions](#appendix-a-comparison-matrix-against-existing-solutions)
+  - [Appendix B: Reference Implementation Status](#appendix-b-reference-implementation-status)
+  - [Appendix C: Founder Biography](#appendix-c-founder-biography)
+  - [Appendix D: Specific Anchor Partnership Proposal to Anthropic](#appendix-d-specific-anchor-partnership-proposal-to-anthropic)
+  - [Appendix E: Key Open Questions for Potential Partners](#appendix-e-key-open-questions-for-potential-partners)
+
+---
+
+<!-- tags: roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ## 10. Appendices
@@ -105,3 +127,14 @@ approach to Beneficial Deployments team lead)
 ### Appendix E: Key Open Questions for Potential Partners
 
 These questions await substantive input from partners:
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+- [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+

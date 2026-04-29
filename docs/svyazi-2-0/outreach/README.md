@@ -1,9 +1,9 @@
-# outreach/ — контактная стратегия
+# outreach
 
-Подтемы:
+**Файлов:** 3
 
-- [`first-contacts.md`](first-contacts.md) — первые контакты, которые имеют наибольший шанс сдвинуть прототип.
-- [`message-template.md`](message-template.md) — шаблон первого сообщения.
-- [`narrow-questions.md`](narrow-questions.md) — узкие вопросы для каждого автора.
+## Содержание
 
-> Источники: `deep-research-report (1).md` (раздел «План прототипа и возможные контакты») и `deep-research-report (3).md` (раздел «Контактная стратегия и узкие вопросы для авторов»).
+- [first-contacts.md](first-contacts.md) — > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты».
+- [message-template.md](message-template.md) — > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты».
+- [narrow-questions.md](narrow-questions.md) — > Источник: `deep-research-report (3).md`, раздел «Контактная стратегия и узкие вопросы для авторов».

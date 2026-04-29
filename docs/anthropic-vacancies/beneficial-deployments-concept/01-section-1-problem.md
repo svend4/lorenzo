@@ -1,5 +1,14 @@
 # Section 1: Problem statement (Cinderella Syndrome at scale, SGB IX/XII)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
+
+---
+<!-- tags: rag, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 страниц).
 
 Section 1: Problem statement
@@ -19,3 +28,14 @@ Average cost: € per case
 Success rate: A% Widerspruch acceptance
 
 (Все numbers нужно research для accuracy)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-section-2-beneficial-dimension](docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md)
+- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
+- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
+- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
+

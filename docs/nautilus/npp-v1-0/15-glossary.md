@@ -1,5 +1,14 @@
 # 15. Glossary of Examples
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
+
+---
+<!-- tags: ingestion, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ## 15. Glossary of Examples
@@ -97,3 +106,14 @@ example_user, example@email.com
 ```
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
+

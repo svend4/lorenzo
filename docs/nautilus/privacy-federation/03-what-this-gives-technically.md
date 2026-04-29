@@ -1,5 +1,19 @@
 # Что это даёт технически
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
+
+---
+<!-- tags: rag, security, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
 
 Что это даёт технически
@@ -167,3 +181,14 @@ Riskи и trade-offs, которые стоит осознавать
 Четвёртое — private layer (2 недели). Создайте приватный cases-private репо. Перенесите туда ваши активные кейсы (S 6 SO 58/26 ER, S 7 SO 99/25). Настройте auth layer. Настройте bridges к nautilus-legal patterns.
 
 Пятое — daily use (ongoing). Начните реально использовать для работы. Через 2-3 месяца практики станет ясно, какие paттерны и инструменты действительно нужны, что можно упростить, что надо расширить. Это единственный способ узнать, работает ли система.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
+- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
+- [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
+- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
+

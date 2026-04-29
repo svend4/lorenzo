@@ -1,5 +1,14 @@
 # Конкретный пример: SGB Advocate Colleague на этой архитектуре
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
 
 Конкретный example: SGB Advocate Colleague на этой архитектуре
@@ -55,3 +64,14 @@ Nautilus federation
 MCP interoperability
 
 Каждый component legitimate, working architecture, не speculation.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
+- [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
+

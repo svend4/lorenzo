@@ -1,5 +1,15 @@
 # Что стоит зафиксировать как default policy
 
+<!-- summary -->
+> > Источник: `deep-research-report (1).md`, раздел «Безопасность, приватность и бюджетный роутинг».
+**Проекты:** Svyazi, AI Factory, agent-memory-mcp, SENTINEL
+
+---
+<!-- tags: memory, orchestration, security, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 > Источник: `deep-research-report (1).md`, раздел «Безопасность, приватность и бюджетный роутинг».
 
 Для Svyazi‑2.0 безопасная архитектура — не «добавить сканер в конце», а **с самого начала считать skills, MCP servers, импорты документов и memory writes потенциально недоверенными**. Это не паранойя, а прямой вывод из материалов про Prompt Worms, катастрофы автономных агентов и практик защиты AI Factory/SENTINEL. Дополнительный важный сигнал: сами reference MCP servers указываются как образовательные примеры, а не production‑готовые решения — значит, прод‑политики доступа и аудит нужно строить отдельно. citeturn34view4turn34view5turn29search6turn20view10turn15search10
@@ -12,3 +22,14 @@
 | PII separation | Любые контакты, email, Telegram, ссылки — в отдельном raw‑слое; в карточки уходит только очищенный профиль | Так делает Svyazi; это правильный privacy‑baseline для людей и сообществ. citeturn41search0 |
 | Truth vs Proposal | `inferred` и weak signals не писать сразу в «истину», а ставить в pending review | И Svyazi, и более тяжёлые memory‑системы сходятся на нужде в review‑контуре. citeturn41search0turn36search0 |
 | Runtime firewall | Между агентом и mutating tools держать специализированный защитный слой | Именно для этого и нужен SENTINEL‑подобный слой, а не только «умный промпт». citeturn20view10 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
+- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [risks](docs/svyazi-2-0/prototype/risks.md)
+- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+

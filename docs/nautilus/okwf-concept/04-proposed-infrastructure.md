@@ -1,5 +1,34 @@
 # 4. Proposed Infrastructure
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [4. Proposed Infrastructure](#4-proposed-infrastructure)
+  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-nautilus-portal-protocol)
+  - [4.2. Coordination Pattern: Double-Triangle Architecture](#42-coordination-pattern-double-triangle-architecture)
+  - [4.3. Knowledge Layer: Pattern Library with Private Instances](#43-knowledge-layer-pattern-library-with-private-instances)
+  - [4.4. Community Layer: Guild Structure](#44-community-layer-guild-structure)
+  - [4.5. Economic Layer: Subsidiarity-Based Compensation](#45-economic-layer-subsidiarity-based-compensation)
+  - [4.6. Legal and Compliance Layer](#46-legal-and-compliance-layer)
+  - [4.7. Integration](#47-integration)
+
+---
+
+<!-- tags: rag, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ## 4. Proposed Infrastructure
@@ -199,3 +228,14 @@ Community governance operates:
 - Strategic input to foundation leadership
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [04-nautilus-portal-substrate](docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md)
+- [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md)
+- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
+

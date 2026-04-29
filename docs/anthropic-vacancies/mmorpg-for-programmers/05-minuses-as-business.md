@@ -1,5 +1,19 @@
 # Минусы и риски как бизнеса
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo
+
+---
+<!-- tags: rag, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed work.
 
 Минусы:
@@ -39,3 +53,14 @@ High failure rate — Metaverse-hype 2021-2022 научил инвесторов
 Оптимальный немедленный шаг — написать vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про AI-orchestrated teams в единую аргументацию «MMORPG as Work Infrastructure». Один документ, который делает три вещи: фиксирует приоритет идеи за вами, даёт platform для будущих grant proposals и founder pitches, показывает, что 70 разрозненных репо — это на самом деле один большой product design, который вы 4 месяца строили из разных углов.
 
 Если хотите — следующим шагом помогу структурировать такой paper: оглавление, ключевые разделы, аргументацию, иллюстрации, список ваших собственных repo как evidence. Документ в котором ваш портфель перестаёт быть хаосом и становится coherent design document для большой идеи.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-three-entry-points](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
+- [04-what-to-do](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md)
+- [03-why-natural-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
+- [01-why-stronger-than-it-looks](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md)
+

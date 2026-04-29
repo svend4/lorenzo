@@ -1,5 +1,36 @@
 # 7. Application Domains
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [7. Application Domains](#7-application-domains)
+  - [7.1. K-12 Education](#71-k-12-education)
+  - [7.2. Legal Practice (Sub-Specialties)](#72-legal-practice-sub-specialties)
+  - [7.3. Medical Practice (Specific Specialties)](#73-medical-practice-specific-specialties)
+  - [7.4. Social Work and Case Management](#74-social-work-and-case-management)
+  - [7.5. Mental Health Care](#75-mental-health-care)
+  - [7.6. Architecture and Engineering](#76-architecture-and-engineering)
+  - [7.7. Accounting and Tax Practice](#77-accounting-and-tax-practice)
+  - [7.8. Government Service Delivery](#78-government-service-delivery)
+  - [7.9. Academic Research Support](#79-academic-research-support)
+
+---
+
+<!-- tags: ingestion, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 7. Application Domains
@@ -163,3 +194,14 @@ application drafting.
 **Maturity**: Active deployment. Researcher attitudes mixed.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
+- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md)
+- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
+- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
+

@@ -1,5 +1,14 @@
 # Research Report: Sozialrecht (35 комбинаций)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «A Research Report Building on 35 Previously Identified Combinations — Focus on the German *Sozialrecht* Domain»
+
+---
+<!-- tags: rag, architecture -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «A Research Report Building on 35 Previously Identified Combinations — Focus on the German *Sozialrecht* Domain».
 
 Этот отчёт расширяет базовый каталог 35 комбинаций фокусом на немецкое социальное право (SGB), с применением к Bürgergeld, Eingliederungshilfe, Persönliches Budget.
@@ -19,3 +28,14 @@
 ## Артефакт документа
 
 В диалоге создан полный документ `Software synergies 2025 2026 ru` (Markdown). Сам артефакт доступен через интерфейс claude.ai в исходном MHTML‑снимке.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)
+- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+

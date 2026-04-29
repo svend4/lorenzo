@@ -1,5 +1,19 @@
 # Переприоритизация: что Hermes покрывает / не покрывает / synergy
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear
+
+---
+<!-- tags: ingestion, architecture, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Research.
 
 Domain-specific specialization (наша central contribution): Hermes provides general agent; кто-то нужен для строить SGB-specific, medical-specific, education-specific skills и configurations. Documents 5, 6, 7 specify how.
@@ -133,3 +147,14 @@ Practical next step рекомендация: попробовать Hermes на
 Du hast gesagt: https://github.
 
 https://github.com/camel-ai/camel сравнить этого Агента нужно с Агентом Гермес надо сравнить
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-what-info-repos-contain](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)
+- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+- [12-minuses-of-hermes](docs/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md)
+- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
+

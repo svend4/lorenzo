@@ -1,5 +1,14 @@
 # Плюсы как бизнеса
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo
+
+---
+<!-- tags: roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed work.
 
 Плюсы и минусы как бизнес
@@ -17,3 +26,14 @@ Viral механика — игроки зовут друзей в игру ле
 Perfect match для remote-first и disability-inclusive work
 
 Venture-attractive — «Roblox for professional work» — понятная инвесторам метафора
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+

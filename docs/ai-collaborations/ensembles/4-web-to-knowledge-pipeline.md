@@ -1,5 +1,15 @@
 # Ансамбль 4 — Web-to-Knowledge Pipeline
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, knowledge-space, Firecrawl
+
+---
+<!-- tags: knowledge, ingestion, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 4. Web-to-Knowledge Pipeline: «браузер не как экран, а как датчик данных»
@@ -29,3 +39,14 @@ Market Intelligence Bot — регулярный конкурентный ана
 Court/Regulation Watcher — отслеживание судебных сайтов, ведомственных страниц, изменений регламентов; всё не просто в RSS, а в карточки с нормализованными сущностями.
 
 Главное новое свойство: браузер становится сенсорным слоем для базы знаний. Агент не «гуляет по интернету», а извлекает структурированные сигналы и обновляет память.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
+- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
+

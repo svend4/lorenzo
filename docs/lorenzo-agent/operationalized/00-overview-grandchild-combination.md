@@ -1,5 +1,15 @@
 # Что такое «внуковая» комбинация — operationalized Lorenzo
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Hybrid RAG, Graph RAG
+
+---
+<!-- tags: rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 
 Claude hat geantwortet: Очень важная находка.
@@ -59,3 +69,14 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 Это означает: Lorenzo как concept имеет almost ready-to-assemble building blocks. Не нужно строить с нуля — нужно integrate existing components.
 
 Плюсы этой архитектуры
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
+- [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+

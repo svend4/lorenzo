@@ -1,5 +1,15 @@
 # Существующий landscape collaborators (working knowledge)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
+**Проекты:** CardIndex, knowledge-space, NGT Memory, Wikontic
+
+---
+<!-- tags: memory, knowledge, ingestion, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ## Существующий landscape collaborators (твоя working knowledge)
@@ -27,3 +37,14 @@
 - **CAMEL** (camel-ai/camel, Apache 2.0): Multi-agent framework
 - **Cowork** (Anthropic): Managed agentic workspace
 - **MCP** (Model Context Protocol): Tool interoperability standard
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+

@@ -1,5 +1,31 @@
 # 3. Three Inter-Layer Protocols
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [3. Three Inter-Layer Protocols](#3-three-inter-layer-protocols)
+  - [3.1. Protocol 1 — Human Conducts Assistants](#31-protocol-1-human-conducts-assistants)
+  - [3.2. Protocol 2 — Meta-Agent Coordinates Nodes](#32-protocol-2-meta-agent-coordinates-nodes)
+  - [3.3. Protocol 3 — Assistant-to-Meta Negotiation](#33-protocol-3-assistant-to-meta-negotiation)
+  - [3.4. Protocol Interactions](#34-protocol-interactions)
+
+---
+
+<!-- tags: rag, orchestration, architecture, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ## 3. Three Inter-Layer Protocols
@@ -129,3 +155,14 @@ These patterns are analogous to message-passing concurrency models
 in distributed systems, adapted for human-AI hybrid execution.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
+- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
+- [01-why-single-triangle-incomplete](docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md)
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
+

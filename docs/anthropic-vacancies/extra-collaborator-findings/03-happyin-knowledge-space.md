@@ -1,5 +1,15 @@
 # Happyin Knowledge Space (Анастасия) — детали
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
+**Проекты:** knowledge-space
+
+---
+<!-- tags: knowledge, ingestion, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
 
 3. Happyin Knowledge Space (Анастасия)
@@ -35,3 +45,14 @@ MIT license — open для использования и адаптации
 Для SGB Advocate Colleague это критически важно. SGB knowledge базы (статуты, прецеденты, шаблоны) могут быть форматированы для AI-агентов первично. Practitioner-readable as side-effect.
 
 Также: Repository under MIT license, можно изучать архитектуру и адаптировать.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+- [01-coally](docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+- [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md)
+

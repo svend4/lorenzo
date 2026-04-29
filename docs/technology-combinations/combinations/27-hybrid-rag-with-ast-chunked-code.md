@@ -1,5 +1,15 @@
 # Комбинация 27: Hybrid RAG with AST-Chunked Code
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Hybrid RAG
+
+---
+<!-- tags: rag, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -44,3 +54,14 @@ Graph shows: Legal rule → Code → Test cases → Decisions
 ROI: Developer understands legal context, lawyer sees implementation
 
 Уникальность: First hybrid knowledge graph combining legal texts + code. ASTChunk makes code semantically searchable. Bridges gap between legal theory and practice.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+- [26-ast-based-code-analysis-for-legal-automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
+- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+

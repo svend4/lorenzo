@@ -1,5 +1,14 @@
 # Что отсутствует — Слой B
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ## Что отсутствует — Слой B
@@ -75,3 +84,14 @@
 единый продукт.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [292-что-отсутствует-слой-b](docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md)
+- [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
+- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+- [10-rekomendatsii](docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md)
+

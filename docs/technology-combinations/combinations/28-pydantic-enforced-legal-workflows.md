@@ -1,5 +1,14 @@
 # Комбинация 28: Pydantic-Enforced Legal Workflows
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag, orchestration, ingestion, architecture -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -56,3 +65,14 @@ If validation fails: ModelRetry with specific error context
 ROI: Type-safe legal automation, catches errors before human review
 
 Уникальность: First legal workflow with Pydantic enforcement at every stage. LLM outputs are validated against legal schemas. Errors detected in seconds, not days.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
+- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
+- [23-security-first-code-review-pipeline](docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md)
+

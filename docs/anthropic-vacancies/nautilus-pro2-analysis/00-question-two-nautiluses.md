@@ -1,5 +1,14 @@
 # Вопрос: два Наутилуса в репозиториях svend4 (pro2 vs nautilus)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ двух собственных проектов «Наутилус» в репозиториях svend4: pro2 (YiJing-Transformer
+
+---
+<!-- tags: orchestration, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ двух собственных проектов «Наутилус» в репозиториях svend4: pro2 (YiJing-Transformer, матрёшечная MoE) и nautilus (мета-оркестратор репозиториев). Прямой источник идеи Nautilus Portal Protocol.
 
 Du hast gesagt: Вопрос такой Есть ещё такие вопросы репозитории про два про два вечно наутилусы Наутилус было такая Такой проект такой код Там было два ноль один Наутилус как …
@@ -23,3 +32,14 @@ Claude hat geantwortet: Правильно разграничиваете — э
 Не могу fetch'нуть pro2 напрямую — GitHub блокирует fetch, если URL не появлялся в прошлых поисковых выдачах или не был прямо вставлен в чат пользователем. Чтобы достать README с кодом, пришлите ссылку одним сообщением в формате https://github.com/svend4/pro2 (без дополнительного текста) — тогда я смогу прочитать содержимое.
 
 Пока этого нет, разберу оба Наутилуса по имеющемуся контексту: то, что вы рассказывали в предыдущих разговорах (userMemories), плюс описания трёх связанных репо из вашего профиля (pro2, meta, nautilus). Этого достаточно для глубокой концептуальной раскладки.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-shell-metaphor-two-projections](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
+- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
+- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-can-it-apply-to-docs](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+

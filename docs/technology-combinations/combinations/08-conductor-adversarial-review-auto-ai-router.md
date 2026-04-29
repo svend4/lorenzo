@@ -1,5 +1,15 @@
 # Комбинация 8: Conductor × adversarial-review × Auto AI Router
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Svyazi, Yodoca, Auto AI Router
+
+---
+<!-- tags: memory, rag, orchestration, ingestion, local-first, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -111,3 +121,14 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 Синтезировал новые технологические комбинации из собранных материалов
 
 Отлично! Теперь синтезирую найденные проекты в новые комбинации. На основе исследования вижу паттерны, которые предыдущая сессия не покрыла.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
+- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
+- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
+

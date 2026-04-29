@@ -1,5 +1,20 @@
 # Roadmap на 6–12 месяцев
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** CardIndex, mclaude, AI Factory
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, architecture, roadmap, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 5. Roadmap на 6–12 месяцев
@@ -16,3 +31,14 @@
 | 6. Self‑Improvement Loop | 6–12 месяцев | Ошибки превращаются в benchmark/prompt/skill patches | Есть regression set, nightly eval, rollback policy | Улучшение precision/recall без роста false positives
 
 Ключевой порядок такой: контракты → evidence → memory governance → AgentOps → multi‑agent → federation → self‑improvement. Не наоборот. Если сначала строить “рой”, он ускорит хаос. Если сначала закрепить card/evidence/memory/trace contracts, рой будет ускорять проверяемый процесс.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [roadmap](docs/svyazi-2-0/prototype/roadmap.md)
+- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
+- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+

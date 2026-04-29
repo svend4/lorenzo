@@ -1,5 +1,14 @@
 # 4. Условия применимости
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## 4. Условия применимости
@@ -39,3 +48,14 @@ PR
 где transitional states недопустимы
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [111-4-условия-применимости](docs/02-anthropic-vacancies/111-4-условия-применимости.md)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
+

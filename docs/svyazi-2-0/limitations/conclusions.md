@@ -1,5 +1,15 @@
 # Итоговые выводы и порядок сборки
 
+<!-- summary -->
+> > Источники: `deep-research-report (1).md` (раздел «Выводы») и итог из `deep-research-report (3).md`.
+**Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, Rufler, LiteParse, Yodoca
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
+
+
+
+
 > Источники: `deep-research-report (1).md` (раздел «Выводы») и итог из `deep-research-report (3).md`.
 
 ## Главный вывод первой части
@@ -17,3 +27,14 @@
 ## Главный вывод второй части
 
 Лучший следующий шаг — **не искать ещё двадцать новых проектов**, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record. На этом основании уже можно по‑настоящему проверить, превращается ли набор «скромных» pet‑проектов с Хабра в новую систему свойств — discovery, explainability, local ownership, controlled memory и cheap/safe execution. Если этот слой заработает, тогда уже есть смысл возвращаться к расширению ансамблей в сторону federation, richer voice UX и self-improving research loop. citeturn41search0turn27view0turn20view5turn21view0turn39view1turn20view10
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [08-conclusions](docs/01-svyazi/08-conclusions.md)
+- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
+- [14-limitations](docs/01-svyazi/14-limitations.md)
+- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
+

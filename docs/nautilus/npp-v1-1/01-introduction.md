@@ -1,5 +1,14 @@
 # 1. Introduction (Motivation, Design Goals, Non-Goals, Terminology, Changes from v1.0)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: rag, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 1. Introduction
@@ -73,3 +82,14 @@ NPP **не** пытается:
 - **SDK контракт** добавлен как часть протокола (раздел 14)
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
+- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md)
+- [00-abstract-status](docs/nautilus/npp-v1-1/00-abstract-status.md)
+- [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
+

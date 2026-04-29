@@ -1,5 +1,26 @@
 # 12. Closing
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [12. Closing](#12-closing)
+- [Acknowledgments](#acknowledgments)
+- [References](#references)
+  - [Primary Empirical Source](#primary-empirical-source)
+  - [Companion Papers](#companion-papers)
+
+---
+
+<!-- tags: architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 12. Closing

@@ -1,5 +1,30 @@
 # 2. The Double-Triangle Architecture
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [2. The Double-Triangle Architecture](#2-the-double-triangle-architecture)
+  - [2.1. Topology](#21-topology)
+  - [2.2. Fractal Self-Similarity](#22-fractal-self-similarity)
+  - [2.3. Six Architectural Invariants](#23-six-architectural-invariants)
+
+---
+
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ## 2. The Double-Triangle Architecture
@@ -114,3 +139,14 @@ ensures the architecture scales from small teams (Star(1)) to
 large organizations (Star(n)) without protocol changes.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
+- [03-three-inter-layer-protocols](docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md)
+- [04-nautilus-portal-substrate](docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md)
+- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
+

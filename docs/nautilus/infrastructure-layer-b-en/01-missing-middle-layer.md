@@ -1,5 +1,14 @@
 # Why This Document Exists
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
+
+---
+<!-- tags: orchestration, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ## Why This Document Exists
@@ -37,3 +46,14 @@ about a missing layer in the technology stack.
 This document explores that observation.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
+- [10-what-not-solved](docs/nautilus/infrastructure-layer-b-en/10-what-not-solved.md)
+

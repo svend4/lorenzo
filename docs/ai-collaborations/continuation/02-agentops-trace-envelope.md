@@ -1,5 +1,15 @@
 # AgentOps и Trace Envelope (ансамбль G)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, CardIndex, LiteParse, Legal RAG, LiteLLM, Auto AI Router, Tool Search
+
+---
+<!-- tags: rag, security, knowledge, ingestion, architecture, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 2. Второй новый слой: AgentOps и трассировка всех решений
@@ -40,3 +50,14 @@ anomaly_flags:
 Это особенно важно, если включать Tool Search и Auto AI Router. Tool Search на Хабре показан как способ резко уменьшить MCP‑overhead: пример даёт падение MCP‑контекста с 82k до 5.7k токенов и +76k свободного контекста в Claude Code. Auto AI Router, в свою очередь, даёт быстрый Go‑sidecar для OpenAI‑совместимого endpoint, multi‑provider routing, fail2ban по credentials, session‑sticky routing, двухуровневый rate limiting и интеграцию с LiteLLM DB. Habr+1
 
 Вывод: execution plane Svyazi‑2.0 должен быть не просто “дешёвым”, а измеряемым. Каждая карточка, match, recommendation и review должны иметь след: модель, маршрут, стоимость, tools, evidence, reviewer, состояние.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
+- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
+- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
+

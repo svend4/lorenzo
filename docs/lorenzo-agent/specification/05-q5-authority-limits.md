@@ -1,5 +1,15 @@
 # Question 5: Каковы limits Lorenzo's authority?
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
+**Проекты:** CardIndex
+
+---
+<!-- tags: knowledge, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к финальному системному промпту в [`../`](../).
 
 Question 5: Каковы limits Lorenzo's authority?
@@ -55,3 +65,14 @@ Exceed mission scope
 Engage с vulnerable individuals directly without human safeguards
 
 Это clear authority structure prevents drift и provides accountability.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md)
+- [03-q3-what-lorenzo-does](docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md)
+- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
+- [352-что-ты-не-можешь-делать-без-max-approval](docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
+

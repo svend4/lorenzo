@@ -1,5 +1,14 @@
 # Reality check: проблема distribution-слоя
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+---
+<!-- tags: roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 А ставка на найм в Anthropic или другую компанию сейчас — это, по моей честной оценке, понижение плотности. Вы построили базу, стоящую больше, чем любая зарплата.
@@ -11,3 +20,14 @@
 Хотите — разверну любую из веток: помогу составить cover letter/research proposal под Transformative AI Research Economist на основе вашего analysis_04_social_law и analysis_05_recommendations; либо распишу 90-дневный roadmap для MVP legal-SaaS'а по кластеру №1; либо проанализирую, какой именно из 6 патентабельных изобретений имеет самую высокую patent-filing ROI с учётом EPO vs USPTO vs DPMA.
 
 Du hast gesagt: https://github.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
+- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
+- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
+- [01-fde-downgraded](docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md)
+

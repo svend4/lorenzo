@@ -1,5 +1,14 @@
 # Research Report: Continuation — 10 New Domains Beyond the Original 45 Combinations
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «Continuation Research — 10 New Domains Beyond the Original 45 Combinations».
+
+---
+<!-- tags: rag, knowledge, architecture, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «Continuation Research — 10 New Domains Beyond the Original 45 Combinations».
 
 Продолжение исследования, которое расширяет каталог 45 комбинаций десятью новыми областями.
@@ -48,3 +57,14 @@
 ## Итоговый объём исследования
 
 > Теперь у вас два полных документа: исходный на 10 областей (45 комбинаций) + продолжение на 10 областей (35+ новых комбинаций) = **80+ синергетических комбинаций в 20 технологических областях**.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [sozialrecht-35-combinations](docs/technology-combinations/research-reports/sozialrecht-35-combinations.md)
+- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+- [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
+

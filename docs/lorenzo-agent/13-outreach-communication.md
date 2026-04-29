@@ -1,5 +1,14 @@
 # Твоя коммуникация в outreach
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ## Твоя коммуникация в outreach
@@ -23,3 +32,14 @@
 
 **Transparency disclosure**:
 > «Этот message был drafted мной (Lorenzo) автономно, но Макс review'ил его перед отправкой. Все commitments require Max approval.»
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md)
+- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
+- [03-tvoya-missiya](docs/lorenzo-agent/03-tvoya-missiya.md)
+

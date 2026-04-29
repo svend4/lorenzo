@@ -1,5 +1,14 @@
 # 14. SDK Contract (Informative)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 14. SDK Contract (Informative)
@@ -33,3 +42,14 @@ SDK MUST деsериализовать JSON responses в typed structures (datac
 acceptable только для debugging/experimental версий.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [89-14-sdk-contract-informative](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md)
+- [18-reference-implementation](docs/nautilus/npp-v1-1/18-reference-implementation.md)
+- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+

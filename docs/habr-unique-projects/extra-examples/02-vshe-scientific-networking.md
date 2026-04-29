@@ -1,5 +1,14 @@
 # ВШЭ научный нетворкинг — micro-collaborations
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
+
+---
+<!-- tags: knowledge, local-first, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 Что делает: Приложение для научного нетворкинга в университете. Не «ResearchGate-альтернатива», а специально для микро-коллабораций — короткие консультации, помощь с конкретным методом, не обязательно соавторство.
@@ -17,3 +26,14 @@ Distinguishes между разными формами научного сотр
 Состояние: В активной разработке (статья от марта 2026). Студенческая команда внедряет в ВШЭ.
 
 Проект 3: BrainBox — local-first AI hub
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
+- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
+

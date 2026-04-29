@@ -1,5 +1,20 @@
 # Claude hat geantwortet: Прочитал внимательно.
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на Habr-статью.
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на Habr-статью.
 
 Claude hat geantwortet: Прочитал внимательно.
@@ -254,3 +269,14 @@ Provides empirical validation что архитектура работает в 
 Это более optimistic положение, чем казалось из абстрактного analysis. Demand for такой infrastructure — не гипотетический. Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolation.
 
 Спасибо за ссылку. Это полезный context, который улучшает мою картину рынка и подсвечивает value proposition OKWF более ярко.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
+- [01-response](docs/nautilus/innovation-transitions/01-response.md)
+

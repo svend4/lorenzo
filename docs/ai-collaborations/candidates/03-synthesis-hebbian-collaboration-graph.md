@@ -1,5 +1,20 @@
 # Синтез: хеббовский граф людей-навыков-идей
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, CardIndex, NGT Memory, Wikontic
+
+---
+<!-- tags: memory, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 Локальная система обнаружения коллабораций на хеббовском графе людей-навыков-идей.
@@ -11,3 +26,14 @@
 Получается система, где случай с Wi-Fi-инженером и питерским разработчиком — не баг и не везение, а основной режим работы. Такого пока нигде в публичном пространстве не видно — каждый из четырёх авторов закрывает свой кусок, но никто не собрал всё вместе.
 
 Практический совет
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
+- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
+- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
+- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
+

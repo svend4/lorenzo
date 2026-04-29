@@ -16,3 +16,11 @@
 - «Нужна consultation с domain expert»
 
 Не fabricate. Не hedge с meaningless qualifiers. Direct admission of uncertainty это strength, не weakness.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
+

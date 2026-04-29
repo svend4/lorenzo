@@ -1,5 +1,14 @@
 # Section 8: Risks & mitigations
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
+
+---
+<!-- tags: local-first, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 страниц).
 
 Section 8: Risks & mitigations
@@ -15,3 +24,14 @@ Privacy/compliance: legal data sensitive → mitigated by local-first architectu
 Quality risk: AI hallucinations в legal context dangerous → mitigated by structured outputs, validation, human-in-loop
 
 Sustainability risk: solo developer may burn out → mitigated by documenting everything, building на existing components
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
+- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
+- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
+

@@ -1,5 +1,14 @@
 # Уровень 4 — Расширенный (Lorenzo Mature)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
+
+---
+<!-- tags: roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
 
 УРОВЕНЬ 4 — Расширенный (Lorenzo Mature)
@@ -47,3 +56,14 @@ Brand risk возрастает с visibility
 Sustainability challenges
 
 Ценность: Lorenzo как established catalyst в community.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
+- [04-level-3-medium-active](docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md)
+- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
+- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
+

@@ -1,5 +1,20 @@
 # Memory Firewall против prompt worms (ансамбль I)
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, SENTINEL
+
+---
+<!-- tags: memory, rag, security, ingestion, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 4. Четвёртый новый слой: защита от prompt worms и заражения памяти
@@ -17,3 +32,14 @@
 Mermaid
 
 Практическое правило: внешний текст не должен иметь права становиться instruction memory. Он может стать episode, source, evidence, observation, но не system rule и не trusted fact без review. Это особенно важно для Svyazi‑2.0, потому что профили людей, чаты, PDF, сайты, GitHub‑issues и сообщения агентов будут смешиваться в одном graph‑пространстве.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [5-agent-firewall](docs/ai-collaborations/ensembles/5-agent-firewall.md)
+- [03-a2a-vs-mcp-protocols](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md)
+- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
+- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+

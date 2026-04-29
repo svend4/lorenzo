@@ -1,5 +1,26 @@
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](#1-the-cinderella-syndrome-why-quality-stays-invisible)
+  - [1.1. The Pattern](#11-the-pattern)
+  - [1.2. Anecdotal Illustration](#12-anecdotal-illustration)
+  - [1.3. Real-World Manifestations](#13-real-world-manifestations)
+  - [1.4. The Structural Solution](#14-the-structural-solution)
+
+---
+
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 1. The Cinderella Syndrome: Why Quality Stays Invisible
@@ -116,3 +137,14 @@ previously impossible**. This is the Representative Agent
 Layer.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [02-historical-precedents](docs/nautilus/representative-agent-layer-en/02-historical-precedents.md)
+- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
+- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
+

@@ -1,5 +1,14 @@
 # Комбинация 13: Legal Document Transpiler
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -33,3 +42,14 @@ Enables bulk analysis of historical precedents
 ROI: 50k historical documents searchable in structured DB
 
 Уникальность: COBOL transpiler pattern applied to legal domain. 1-day implementation vs months of manual template coding.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
+- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
+

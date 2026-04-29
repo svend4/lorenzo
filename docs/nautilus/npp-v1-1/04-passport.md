@@ -1,5 +1,14 @@
 # 4. Passport (`passport.md`)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 4. Passport (`passport.md`)
@@ -57,3 +66,14 @@ Portal SHOULD предоставлять команду валидации:
 один на format
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md)
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
+- [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
+

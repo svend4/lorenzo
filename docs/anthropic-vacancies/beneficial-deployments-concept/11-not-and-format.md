@@ -1,5 +1,14 @@
 # Что concept document NOT (это не grant / не paper / не business plan), длина и формат
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
+
+---
+<!-- tags: roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 страниц).
 
 Что concept document NOT
@@ -65,3 +74,14 @@ Session 9-10: Review, refine, polish
 Each session maybe 2-3 hours. Total time investment: 20-30 hours of yours, similar mine.
 
 Что mне нужно знать перед drafting
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md)
+- [05-section-5-role-of-anthropic](docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md)
+- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
+- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
+

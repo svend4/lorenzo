@@ -1,5 +1,43 @@
 # Компоненты — алфавитный список с обратными ссылками
 
+<!-- summary -->
+> Для каждого проекта / технологии / паттерна — все доки в монорепозитории, где он упоминается. Если компонент имеет собственную карточку, она указана первой.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [A](#a)
+- [B](#b)
+- [C](#c)
+- [D](#d)
+- [E](#e)
+- [F](#f)
+- [G](#g)
+- [H](#h)
+- [K](#k)
+- [L](#l)
+- [M](#m)
+- [N](#n)
+- [O](#o)
+- [P](#p)
+- [R](#r)
+- [S](#s)
+- [T](#t)
+- [V](#v)
+- [W](#w)
+- [Y](#y)
+- [Z](#z)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, anthropic, self-improvement, collaboration -->
+
+
+
+
 Для каждого проекта / технологии / паттерна — все доки в монорепозитории, где он упоминается. Если компонент имеет собственную карточку, она указана первой.
 
 ## A
@@ -138,3 +176,14 @@
 ## Z
 
 - **ZINC inference engine (Zig/Vulkan)** — [Комбинация 6](../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md) · [Hardware pair 3](../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [source-projects](docs/ai-collaborations/source-projects.md)
+

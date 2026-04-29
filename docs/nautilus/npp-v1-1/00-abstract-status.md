@@ -1,5 +1,14 @@
 # Abstract + Status of This Document
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 # Nautilus Portal Protocol
@@ -58,3 +67,14 @@ stable требуют bump до v2.0 с migration guide.
 [github.com/svend4/nautilus](https://github.com/svend4/nautilus).
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
+- [01-introduction](docs/nautilus/npp-v1-1/01-introduction.md)
+

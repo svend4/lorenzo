@@ -1,5 +1,15 @@
 # Комбинация 17: Distributed Agent Memory with Graph
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** NGT Memory, Yjs, Automerge
+
+---
+<!-- tags: memory, rag, local-first, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -41,3 +51,14 @@ Ebbinghaus: unused precedents decay, frequently-cited survive
 ROI: Distributed research without central server, knowledge compounds
 
 Уникальность: Biological memory (Hebbian, Ebbinghaus) + distributed sync (CRDT) + graph structure (NGT, Graph-RAG). Первая децентрализованная система с когнитивной памятью.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+- [15-self-consolidating-legal-corpus](docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md)
+- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+

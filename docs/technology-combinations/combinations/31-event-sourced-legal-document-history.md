@@ -1,5 +1,14 @@
 # Комбинация 31: Event-Sourced Legal Document History
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -48,3 +57,14 @@ Legal strategy: "what if we filed Widerspruch earlier?"
 ROI: Complete audit trail for court, instant historical queries
 
 Уникальность: First event-sourced legal system. Every action (Antrag, Bescheid, Widerspruch) is immutable event. Time-travel queries show exact state at any deadline. CQRS separates writing (lawyer actions) from reading (reports, analytics).
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+

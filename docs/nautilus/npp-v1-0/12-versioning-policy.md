@@ -1,5 +1,14 @@
 # 12. Versioning Policy
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ## 12. Versioning Policy
@@ -28,3 +37,14 @@ implementation MUST поддерживать **минимум текущую maj
 периода (минимум 6 месяцев)
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
+- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+

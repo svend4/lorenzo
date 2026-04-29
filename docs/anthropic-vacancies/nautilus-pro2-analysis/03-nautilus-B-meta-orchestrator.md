@@ -1,5 +1,14 @@
 # Наутилус B: nautilus — мета-оркестратор репозиториев (внешняя архитектура)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ двух собственных проектов «Наутилус» в репозиториях svend4: pro2 (YiJing-Transformer
+
+---
+<!-- tags: rag, orchestration, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ двух собственных проектов «Наутилус» в репозиториях svend4: pro2 (YiJing-Transformer, матрёшечная MoE) и nautilus (мета-оркестратор репозиториев). Прямой источник идеи Nautilus Portal Protocol.
 
 Наутилус B: nautilus — мета-оркестратор репозиториев
@@ -109,3 +118,14 @@ Internet Function OS (daten) — Function Registry + Composer + Blueprints + Tru
 Если README ещё не написан или существует только в черновиках — тоже скажите, тогда следующим шагом помогу его составить на основе того каркаса, который я только что разложил.
 
 Du hast gesagt: https://github.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DECISIONS](docs/DECISIONS.md)
+- [02-nautilus-A-pro2-meta](docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md)
+- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+

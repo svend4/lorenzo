@@ -1,17 +1,12 @@
-# synthesis-tables/ — сводные таблицы синергии
+# synthesis-tables
 
-Каждая таблица — отдельный файл, по диапазонам комбинаций.
+**Файлов:** 6
 
-| Файл | Диапазон | Заголовок в источнике |
-|---|---|---|
-| [`01-08-summary.md`](01-08-summary.md) | 1–8 | 📊 Сводная таблица синергии |
-| [`09-14-extended.md`](09-14-extended.md) | 9–14 | SYNTHESIS TABLE (Extended) |
-| [`15-19-extended.md`](15-19-extended.md) | 15–19 | EXTENDED SYNTHESIS TABLE |
-| [`20-24-final.md`](20-24-final.md) | 20–24 | FINAL SYNTHESIS TABLE (Complete 1‑24) |
-| [`25-30-extended.md`](25-30-extended.md) | 25–30 | EXTENDED SYNTHESIS TABLE (Complete 1‑30) |
-| [`31-35-final.md`](31-35-final.md) | 31–35 | EXTENDED SYNTHESIS TABLE (Complete 1‑35) |
+## Содержание
 
-См. также:
-
-- [`../combinations/`](../combinations/) — отдельная карточка на каждую из 35 комбинаций.
-- [`../mega-stacks/`](../mega-stacks/) — четыре мегастека, последовательно объединяющие комбинации в одну архитектуру.
+- [01-08-summary.md](01-08-summary.md) — > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция 📊 «Сводная таблица синергии».
+- [09-14-extended.md](09-14-extended.md) — > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «SYNTHESIS TABLE (Extended)».
+- [15-19-extended.md](15-19-extended.md) — > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE».
+- [20-24-final.md](20-24-final.md) — > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «FINAL SYNTHESIS TABLE (Complete…
+- [25-30-extended.md](25-30-extended.md) — > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Compl…
+- [31-35-final.md](31-35-final.md) — > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Compl…

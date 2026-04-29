@@ -1,5 +1,15 @@
 # Комбинация 16: Adversarial Multi-Agent Code Review
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Auto AI Router
+
+---
+<!-- tags: rag, orchestration, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -49,3 +59,14 @@ Router: cheap models for style, expensive for legal reasoning
 ROI: Automated review → manual approval only for edge cases
 
 Уникальность: Combines adversarial (Opus vs reviewers) with sequential (chain of specialists) and routing (cost optimization). Никто не делает это одновременно.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [23-security-first-code-review-pipeline](docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md)
+- [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+

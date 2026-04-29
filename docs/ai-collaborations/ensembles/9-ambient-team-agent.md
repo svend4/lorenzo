@@ -1,5 +1,15 @@
 # Ансамбль 9 — Ambient Team Agent
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** AgentFS, knowledge-space
+
+---
+<!-- tags: rag, orchestration, knowledge, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 9. Ambient Team Agent: «ассистент живёт в рабочем чате»
@@ -31,3 +41,14 @@ Operations Concierge — в чате принимает команды, созд
 Самые сильные связки для реального первого проекта
 
 Если выбирать не абстрактно, а как «что можно собрать первым и получить необычное свойство», я бы ранжировал так.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
+- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+- [4-web-to-knowledge-pipeline](docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md)
+

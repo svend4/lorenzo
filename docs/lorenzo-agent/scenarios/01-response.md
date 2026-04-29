@@ -1,5 +1,15 @@
 # Claude hat geantwortet: Очень интересный вопрос.
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — под какой сценарий больше всего подходит — творчество людей объединяется.
+**Проекты:** CardIndex, Wikontic
+
+---
+<!-- tags: rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — под какой сценарий больше всего подходит — творчество людей объединяется.
 
 Claude hat geantwortet: Очень интересный вопрос.

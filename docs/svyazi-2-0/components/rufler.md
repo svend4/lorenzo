@@ -1,5 +1,15 @@
 # Rufler
 
+<!-- summary -->
+> - **Автор:** zodigancode / lib4u
+**Проекты:** Svyazi, Rufler
+
+---
+<!-- tags: orchestration, ingestion, architecture, collaboration -->
+
+
+
+
 - **Автор:** zodigancode / lib4u
 - **Источник:** Хабр + repo/DEV citeturn20view4turn21view8turn32search0
 - **Лицензия:** **MIT**. citeturn32search0
@@ -17,3 +27,14 @@
 - Pause / resume
 - Token accounting
 - MCP server management
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [mclaude](docs/svyazi-2-0/components/mclaude.md)
+- [memnet](docs/svyazi-2-0/components/memnet.md)
+- [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
+

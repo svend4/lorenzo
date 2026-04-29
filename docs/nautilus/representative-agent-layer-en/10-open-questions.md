@@ -1,5 +1,14 @@
 # 10. Open Questions
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+<!-- tags: orchestration, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 10. Open Questions
@@ -84,3 +93,14 @@ underlying technology will be developed regardless
 of whether ethical frameworks keep pace.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+- [08-risks-mitigations](docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md)
+- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
+- [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
+

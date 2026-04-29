@@ -1,5 +1,28 @@
 # Acknowledgments
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Acknowledgments](#acknowledgments)
+- [References](#references)
+  - [Threading and Annotation](#threading-and-annotation)
+  - [Knowledge Management](#knowledge-management)
+  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
+  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
+- [Appendix: Position in Series Visualization](#appendix-position-in-series-visualization)
+
+---
+
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ## Acknowledgments
@@ -114,3 +137,14 @@ placed where infrastructure considerations naturally fit.
 *Document 2.3 in the Nautilus / Open Knowledge Work series*
 
 *An inquiry document, not an architectural specification*
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [287-references](docs/02-anthropic-vacancies/287-references.md)
+- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
+- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
+

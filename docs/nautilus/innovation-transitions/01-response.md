@@ -1,5 +1,19 @@
 # Claude hat geantwortet: Отличный запрос.
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — инновация как переход состояний (паровоз → тепловоз).
+
+---
+<!-- tags: memory, rag, orchestration, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — инновация как переход состояний (паровоз → тепловоз).
 
 Claude hat geantwortet: Отличный запрос.
@@ -281,3 +295,14 @@ Focused action > parallel ambition.
 Какое из трёх наиболее полезно? Или, может быть, сейчас лучше просто пауза — не написать новый документ, а осмыслить, что уже сделано, и вернуться к этому через неделю-две?
 
 Я могу быть полезен либо producing material, либо выступая как thinking partner для reflection. Обе роли валидны. Честный вопрос: что больше нужно сейчас — ещё один артефакт или structured retrospective того, что уже накопилось?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
+- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
+- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [01-completing-loop](docs/nautilus/transmission-box/01-completing-loop.md)
+

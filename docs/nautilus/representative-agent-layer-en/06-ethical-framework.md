@@ -1,5 +1,19 @@
 # 6. Ethical Framework
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+<!-- tags: orchestration, local-first, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 6. Ethical Framework
@@ -91,3 +105,14 @@ A Representative Agent that's only accessible to
 tech-sophisticated principals fails its core mission.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
+- [07-governance-oversight](docs/nautilus/representative-agent-layer-en/07-governance-oversight.md)
+- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
+- [08-risks-mitigations](docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md)
+

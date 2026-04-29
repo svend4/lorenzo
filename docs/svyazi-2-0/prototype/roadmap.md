@@ -1,5 +1,32 @@
 # Дорожная карта прототипа
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: `deep-research-report (3).md`, раздел «Дорожная карта прототипа следующей итерации».
+**Проекты:** Svyazi, mclaude, AI Factory, Yodoca, NGT Memory
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Итерация 1 — Evidence-first card graph](#итерация-1-evidence-first-card-graph)
+- [Итерация 2 — Memory governance](#итерация-2-memory-governance)
+- [Итерация 3 — Orchestration + federation](#итерация-3-orchestration-federation)
+- [Сводная таблица](#сводная-таблица)
+- [Главный инженерный вывод](#главный-инженерный-вывод)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement -->
+
+
+
+
 > Источник: `deep-research-report (3).md`, раздел «Дорожная карта прототипа следующей итерации».
 
 Если идти дальше после базового MVP, то лучшая стратегия — не «добавить всё», а пройти **три короткие итерации**, каждая из которых поднимает один новый класс свойств. Первая итерация должна закрепить контракт и доказуемость. Вторая — добавить controlled memory и human review. Третья — подключить orchestration и local‑first ingestion. Такой порядок лучше соответствует зрелости уже найденных компонентов и снижает риск, что вы сначала построите красивую агентную фабрику, а потом обнаружите, что утверждения в ней невозможно надёжно проверить. citeturn20view5turn20view6turn21view0turn22view4turn20view2turn20view3
@@ -29,3 +56,14 @@
 ## Главный инженерный вывод
 
 Самая большая инженерная работа здесь — **не реализация низкоуровневых библиотек, а проектирование статусов, границ и ручных переходов**. Это хорошая новость: такую архитектуру можно собрать без огромной команды, если с самого начала дисциплинировать стыки. citeturn41search0turn27view0turn21view0turn20view5turn20view2turn39view1
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
+

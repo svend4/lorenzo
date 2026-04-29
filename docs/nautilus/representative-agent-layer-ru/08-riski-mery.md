@@ -1,5 +1,19 @@
 # 8. Риски и меры противодействия
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+
+---
+<!-- tags: security, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
 ## 8. Риски и меры противодействия
@@ -88,3 +102,14 @@
 - Признание, что некоторая атрофия — приемлемый компромисс для включения тех, у кого никогда не было навыков
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [198-8-риски-и-меры-противодействия](docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md)
+- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
+- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
+- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
+

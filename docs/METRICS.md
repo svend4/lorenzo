@@ -1,6 +1,6 @@
 # Метрики качества документации
 
-**Файлов:** 520  **Средний балл:** 70.4/100
+**Файлов:** 1149  **Средний балл:** 62.9/100
 
 ## Качество по разделам
 
@@ -11,7 +11,7 @@
 | **03-technology-combinations** | 65 | 31.2 | 0.0 | 100% | 86% |
 | **04-ai-collaborations** | 75 | 17.3 | 0.0 | 94% | 94% |
 | **05-habr-projects** | 63 | 43.4 | 0.0 | 78% | 78% |
-| **root** | 63 | 17.4 | 1.2 | 70% | 68% |
+| **root** | 64 | 18.7 | 1.2 | 73% | 70% |
 
 ## Топ-15 лучших документов
 
@@ -33,17 +33,14 @@
 | `69-section` | 100 | 9462 |
 | `72-расписание-фазы-3` | 100 | 788 |
 
-## Документы, требующие улучшения (19)
+## Документы, требующие улучшения (17)
 
 | Документ | Балл | Что отсутствует |
 |----------|------|----------------|
 | `185-appendix-b-domain-comparison-ma` | 30 | summary, tags, TOC, callout |
 | `206-приложение-b-матрица-сравнения-` | 30 | summary, tags, TOC, callout |
 | `ABBREVIATIONS` | 30 | summary, tags, TOC, callout |
-| `ACTION_ITEMS` | 30 | summary, tags, TOC, callout |
 | `AUTHORS` | 30 | summary, tags, TOC, callout |
-| `BACKLINKS` | 30 | summary, tags, TOC, callout |
-| `BROKEN_LINKS` | 30 | summary, tags, TOC, callout |
 | `COMPLEXITY` | 30 | summary, tags, TOC, callout |
 | `CROSSREFS` | 30 | summary, tags, TOC, callout |
 | `DENSITY` | 30 | summary, tags, TOC, callout |
@@ -56,14 +53,15 @@
 | `SENTIMENT` | 30 | summary, tags, TOC, callout |
 | `TAGS` | 30 | summary, tags, TOC, callout |
 | `WORD_FREQ` | 30 | summary, tags, TOC, callout |
+| `README` | 30 | summary, tags, TOC, callout |
 
 ## Общие показатели
 
-- Файлов с `<!-- summary -->`: **93.8%**
-- Файлов с тегами: **90.8%**
-- Файлов с оглавлением: **26.9%**
-- Файлов с callout: **23.1%**
-- Средний балл качества: **70.4/100**
+- Файлов с `<!-- summary -->`: **90.5%**
+- Файлов с тегами: **88.8%**
+- Файлов с оглавлением: **25.9%**
+- Файлов с callout: **10.5%**
+- Средний балл качества: **62.9/100**
 
 <!-- see-also -->
 
@@ -72,6 +70,6 @@
 **Смотрите также:**
 - [STATS](docs/STATS.md)
 - [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [HEALTH](docs/HEALTH.md)
 - [CONTENT_GAPS](docs/CONTENT_GAPS.md)
+- [SENTIMENT](docs/SENTIMENT.md)
 

@@ -1,5 +1,33 @@
 # 9. Integration with OKWF Infrastructure
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [9. Integration with OKWF Infrastructure](#9-integration-with-okwf-infrastructure)
+  - [9.1. Connection to Pattern Library](#91-connection-to-pattern-library)
+  - [9.2. Connection to Guild Structure](#92-connection-to-guild-structure)
+  - [9.3. Connection to Double-Triangle Architecture](#93-connection-to-double-triangle-architecture)
+  - [9.4. Connection to Representative Agents](#94-connection-to-representative-agents)
+  - [9.5. Refined OKWF Rollout Plan](#95-refined-okwf-rollout-plan)
+  - [9.6. Practical Implication for Pilot Design](#96-practical-implication-for-pilot-design)
+
+---
+
+<!-- tags: rag, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 9. Integration with OKWF Infrastructure
@@ -119,3 +147,14 @@ of how skilled practice works and produces infrastructure with
 broader applicability.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [13-closing](docs/nautilus/composite-skills-agents/13-closing.md)
+- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
+- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
+

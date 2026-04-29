@@ -1,5 +1,26 @@
 # 6. Four Deployment Domains
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [6. Four Deployment Domains](#6-four-deployment-domains)
+  - [6.1. Humanities Domain (Legal, Medical, Social)](#61-humanities-domain-legal-medical-social)
+  - [6.2. Project Management Domain](#62-project-management-domain)
+  - [6.3. Open-Source Development Domain](#63-open-source-development-domain)
+  - [6.4. Generic Knowledge Work Domain](#64-generic-knowledge-work-domain)
+
+---
+
+<!-- tags: rag, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ## 6. Four Deployment Domains
@@ -119,3 +140,14 @@ could potentially benefit from this structure once mature tools
 exist.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+

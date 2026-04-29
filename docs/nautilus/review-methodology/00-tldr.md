@@ -1,5 +1,14 @@
 # TL;DR — Трёхфазная методология Review
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 # Трёхфазная методология Review в Nautilus
@@ -28,3 +37,14 @@
 другой") теряет часть insights безвозвратно.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md)
+- [70-зачем-две-версии-параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+

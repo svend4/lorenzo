@@ -1,5 +1,19 @@
 # Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag, orchestration, local-first, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Complete architecture combining ALL 35 combinations:
@@ -106,3 +120,14 @@ return replay_events(
 Alternative: Комбинация 32 (Raft multi-agent) — если нужна multi-machine координация.
 
 Продолжить поиск новых направлений или углубиться в практическую реализацию найденных комбинаций?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
+

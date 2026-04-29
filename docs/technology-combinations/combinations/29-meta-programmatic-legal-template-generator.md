@@ -1,5 +1,14 @@
 # Комбинация 29: Meta-Programmatic Legal Template Generator
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag, architecture -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -51,3 +60,14 @@ Python AST generates format-specific renderers
 ROI: Write once, deploy everywhere
 
 Уникальность: Legal templates as compiled DSL. Changes to legal requirements → recompile DSL → all templates updated. First application of metaprogramming to German Sozialrecht.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+

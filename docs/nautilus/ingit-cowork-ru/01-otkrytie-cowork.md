@@ -1,5 +1,25 @@
 # 1. Открытие Cowork и почему это меняет всё
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [1. Открытие Cowork и почему это меняет всё](#1-открытие-cowork-и-почему-это-меняет-всё)
+  - [1.1. Позиция Документа 2.3 была неполной](#11-позиция-документа-23-была-неполной)
+  - [1.2. Что Документ 2.3 определил правильно](#12-что-документ-23-определил-правильно)
+  - [1.3. Стратегическая Импликация](#13-стратегическая-импликация)
+
+---
+
+<!-- tags: local-first, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
 
 ## 1. Открытие Cowork и почему это меняет всё
@@ -122,3 +142,14 @@ Cowork не имеет.
 Остаток этого документа развивает Вариант C.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [327-1-открытие-cowork-и-почему-это-меняет-всё](docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md)
+- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md)
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
+- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+

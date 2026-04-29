@@ -1,5 +1,14 @@
 # 7. Practical First Steps This Month
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 7. Practical First Steps This Month
@@ -72,3 +81,14 @@ This is "dogfooding" — using your own product on your own
 work. Most successful infrastructure projects start this way.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [315-7-practical-first-steps-this-month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md)
+- [05-four-integration-paths](docs/nautilus/ingit-cowork-en/05-four-integration-paths.md)
+- [06-refined-ingit-scope](docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md)
+- [11-practical-recommendations](docs/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md)
+

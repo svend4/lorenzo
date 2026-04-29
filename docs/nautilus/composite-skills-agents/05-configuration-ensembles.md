@@ -1,5 +1,27 @@
 # 5. Configuration: How Principals Build Their Ensembles
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [5. Configuration: How Principals Build Their Ensembles](#5-configuration-how-principals-build-their-ensembles)
+  - [5.1. The Configuration Problem](#51-the-configuration-problem)
+  - [5.2. Three Configuration Approaches](#52-three-configuration-approaches)
+  - [5.3. Hybrid Configuration](#53-hybrid-configuration)
+  - [5.4. Configuration Evolution](#54-configuration-evolution)
+  - [5.5. Templates and Starting Points](#55-templates-and-starting-points)
+
+---
+
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 5. Configuration: How Principals Build Their Ensembles
@@ -117,3 +139,14 @@ Templates are starting points, not endpoints. Every practitioner
 modifies their configuration over time.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
+- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
+- [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
+- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
+

@@ -1,5 +1,29 @@
 # 1. The Five-Type Typology of Principal-Side Agents
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [1. The Five-Type Typology of Principal-Side Agents](#1-the-five-type-typology-of-principal-side-agents)
+  - [1.1. Type 0 — Personal AI Assistants](#11-type-0-personal-ai-assistants)
+  - [1.2. Type 1 — Professional Colleague Agents](#12-type-1-professional-colleague-agents)
+  - [1.3. Type 2 — Institutional Agents](#13-type-2-institutional-agents)
+  - [1.4. Type 3 — Employee Agents](#14-type-3-employee-agents)
+  - [1.5. Type 4 — Representative Agents](#15-type-4-representative-agents)
+  - [1.6. Layered Architecture on the Principal Side](#16-layered-architecture-on-the-principal-side)
+  - [1.7. Why This Distinction Matters](#17-why-this-distinction-matters)
+
+---
+
+<!-- tags: ingestion, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 1. The Five-Type Typology of Principal-Side Agents
@@ -173,3 +197,14 @@ confused analysis. Each requires its own architectural,
 ethical, and economic framework.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- [226-appendix-a-comparative-table-five-agent-types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md)
+- [09-relationship-other-agents](docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
+- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
+

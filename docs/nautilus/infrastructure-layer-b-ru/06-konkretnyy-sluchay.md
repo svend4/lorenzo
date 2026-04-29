@@ -1,5 +1,30 @@
 # Конкретный случай перед нами
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Конкретный случай перед нами](#конкретный-случай-перед-нами)
+  - [Что у нас есть](#что-у-нас-есть)
+  - [Что нам нужно, но отсутствует](#что-нам-нужно-но-отсутствует)
+  - [Что мы можем делать прагматично](#что-мы-можем-делать-прагматично)
+
+---
+
+<!-- tags: architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ## Конкретный случай перед нами
@@ -114,3 +139,14 @@ API для AI-сотрудничества через кастомный
 инфраструктуру репозитория.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
+- [10-rekomendatsii](docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md)
+- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
+- [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
+

@@ -1,5 +1,14 @@
 # 12. Onboarding Paths (Normative)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 12. Onboarding Paths (Normative)
@@ -90,3 +99,14 @@ python scan_repo.py owner/repo-name
 Для federation новых Repos в будущем — C.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [87-12-onboarding-paths-normative](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md)
+- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
+- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
+- [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
+

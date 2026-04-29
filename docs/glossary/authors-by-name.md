@@ -1,5 +1,15 @@
 # Авторы — алфавитный список
 
+<!-- summary -->
+> Авторы (Хабр / GitHub / Medium), упомянутые в монорепозитории, и их ключевые проекты с обратными ссылками на доки.
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement, collaboration -->
+
+
+
+
 Авторы (Хабр / GitHub / Medium), упомянутые в монорепозитории, и их ключевые проекты с обратными ссылками на доки.
 
 | Автор | Проекты | Где упоминается |
@@ -36,3 +46,14 @@
 | **Алла Чепурова** (AIRI) | Wikontic | [Three direct analogues](../habr-unique-projects/analogues/01-three-direct-analogues.md) · [Three key candidates](../ai-collaborations/candidates/01-three-key-candidates.md) |
 | **Андрей Чуян** | Svyazi | [Svyazi карточка](../svyazi-2-0/components/svyazi.md) · [Outreach](../svyazi-2-0/outreach/first-contacts.md) |
 | **Сэм Галлахер** | Knowledge Graph Kit (Medium) | [Related projects](../habr-unique-projects/analogues/02-related-projects.md) |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+- [CONTACTS](docs/CONTACTS.md)
+- [source-projects](docs/ai-collaborations/source-projects.md)
+

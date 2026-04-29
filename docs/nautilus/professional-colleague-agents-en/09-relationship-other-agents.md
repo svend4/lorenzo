@@ -1,5 +1,27 @@
 # 9. Relationship to Other Agent Types
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [9. Relationship to Other Agent Types](#9-relationship-to-other-agent-types)
+  - [9.1. With Personal AI Assistants (Type 0)](#91-with-personal-ai-assistants-type-0)
+  - [9.2. With Institutional Agents (Type 2)](#92-with-institutional-agents-type-2)
+  - [9.3. With Employee Agents (Type 3)](#93-with-employee-agents-type-3)
+  - [9.4. With Representative Agents (Type 4)](#94-with-representative-agents-type-4)
+  - [9.5. Stack-Level View](#95-stack-level-view)
+
+---
+
+<!-- tags: orchestration, architecture, roadmap, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 9. Relationship to Other Agent Types
@@ -106,3 +128,14 @@ Each requires different governance. Conflating them produces
 confusion. Distinguishing them enables clear architecture.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
+- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md)
+- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+

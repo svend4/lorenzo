@@ -1,5 +1,14 @@
 # 9. Consensus Algorithm
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: rag, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 9. Consensus Algorithm
@@ -98,3 +107,14 @@ v2.0 MAY использовать:
 `algorithm` параметр в query, сохраняя v1.1 как default.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
+- [08-consensus-algorithm](docs/nautilus/npp-v1-0/08-consensus-algorithm.md)
+- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
+- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+

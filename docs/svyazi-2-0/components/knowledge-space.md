@@ -1,5 +1,15 @@
 # knowledge-space
 
+<!-- summary -->
+> - **Автор:** Sonia_Black / AnastasiyaW
+**Проекты:** Svyazi, knowledge-space
+
+---
+<!-- tags: knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 - **Автор:** Sonia_Black / AnastasiyaW
 - **Источник:** Хабр + GitHub citeturn33view0turn33view2turn37search1
 - **Лицензия:** **MIT**. citeturn33view0turn37search1
@@ -17,3 +27,14 @@ Agent‑first референсная база: 785+ карточек по 26 д�
 - Wiki‑links
 - `research/inbox/`
 - «для агентов, не людей»
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [mclaude](docs/svyazi-2-0/components/mclaude.md)
+- [rufler](docs/svyazi-2-0/components/rufler.md)
+- [memnet](docs/svyazi-2-0/components/memnet.md)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md)
+

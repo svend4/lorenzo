@@ -1,5 +1,20 @@
 # Что мы можем делать прямо сейчас (Уровень 0 + параллельная подготовка к Уровню 1)
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
+**Проекты:** CardIndex
+
+---
+<!-- tags: knowledge, local-first, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
 
 Что мы можем делать прямо сейчас в этой сессии (Уровень 0)
@@ -149,3 +164,14 @@ Disclosure об autonomy boundaries ✓
 Both produce artifacts which are immediately useful
 
 Что предпочитаете?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
+- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
+

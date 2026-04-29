@@ -1,5 +1,15 @@
 # Сломанные внутренние ссылки
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, knowledge-space, Yodoca
+
+---
+<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 

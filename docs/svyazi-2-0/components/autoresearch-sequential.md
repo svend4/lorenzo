@@ -1,5 +1,15 @@
 # AutoResearch + Sequential
 
+<!-- summary -->
+> - **Авторы:** Андрей Карпаты / Виктория Дочкина
+**Проекты:** Svyazi, AutoResearch
+
+---
+<!-- tags: orchestration, ingestion, self-improvement, collaboration -->
+
+
+
+
 - **Авторы:** Андрей Карпаты / Виктория Дочкина
 - **Источник:** Хабр + GitHub/обзор citeturn20view19turn20view11
 - **Лицензия:** для AutoResearch — по статье на GitHub; лицензия в Habr‑обзоре не уточнялась. Для Sequential — исследовательская статья без OSS‑лицензии. citeturn20view19turn20view11
@@ -16,3 +26,14 @@
 - Bounded experiments
 - Sequential protocol
 - Strong‑model self‑organization
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [memnet](docs/svyazi-2-0/components/memnet.md)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md)
+- [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
+- [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
+

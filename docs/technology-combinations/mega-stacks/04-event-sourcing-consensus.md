@@ -1,5 +1,19 @@
 # Mega‑Stack 4.0 — with Event Sourcing & Consensus
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «КОМБИНАЦИЯ 35: MEGA‑STACK 4.0».
+
+---
+<!-- tags: rag, orchestration, local-first, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «КОМБИНАЦИЯ 35: MEGA‑STACK 4.0».
 
 Полная архитектура, объединяющая все 35 комбинаций.
@@ -52,3 +66,14 @@
 - Analytics: <500 ms on 50M events (ClickHouse)
 - Consensus: <100 ms leader election (Raft)
 - Replication: <1 sec cross‑datacenter (Paxos)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
+- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+

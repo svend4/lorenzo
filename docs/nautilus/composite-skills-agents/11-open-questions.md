@@ -1,5 +1,19 @@
 # 11. Open Questions
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+<!-- tags: rag, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 11. Open Questions
@@ -85,3 +99,14 @@ The pattern from human mastery suggests configurations evolve
 indefinitely; "graduation" may not be the right metaphor.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md)
+- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
+- [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
+

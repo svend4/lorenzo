@@ -1,5 +1,14 @@
 # Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот протокол это система…
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
 
 Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот протокол это система применять не только к репозиториям с кодом но и крепозиториям с документацией например есть со…
@@ -25,3 +34,14 @@ Claude hat geantwortet: Отличный вопрос.
 Q6 и консенсус-модель работают как есть, но смысл их меняется: Q6 становится координатой категорий юридических концептов, консенсус — подтверждением факта между источниками.
 
 Это не просто расширение — это второй контур применения, возможно более коммерчески значимый, чем первый.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
+- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md)
+- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+

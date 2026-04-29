@@ -1,5 +1,20 @@
 # Что пока лучше не склеивать
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: `deep-research-report (3).md`, раздел «Ограничения, лицензии и что пока лучше не склеивать».
+**Проекты:** mclaude, AI Factory, Rufler, AutoResearch, Whisper, Yttri
+
+---
+<!-- tags: memory, rag, orchestration, local-first, self-improvement -->
+
+
+
+
 > Источник: `deep-research-report (3).md`, раздел «Ограничения, лицензии и что пока лучше не склеивать».
 
 ## Оркестрация — выбрать один spine
@@ -13,3 +28,14 @@
 ## Self‑improvement — только после метрики
 
 AutoResearch и Sequential выглядят очень мощно, но только после того, как появилась **метрика качества**, benchmark set и отчётливое понимание, что считать регрессией. До этого автоматическая оптимизация будет скорее производить вариации, чем устойчивые улучшения. Поэтому self-improvement контур разумно активировать только тогда, когда вы уже можете померить quality of match, quality of evidence и false positive rate по review‑очереди. Это не консерватизм, а инженерная трезвость, полностью согласующаяся с духом AutoResearch — «изменяй только то, что умеешь измерить и откатывать». citeturn20view19turn20view11turn20view6
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [14-limitations](docs/01-svyazi/14-limitations.md)
+- [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
+

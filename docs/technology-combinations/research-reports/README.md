@@ -1,10 +1,8 @@
-# research-reports/ — большие отчёты, созданные в диалоге
+# research-reports
 
-В рамках диалога Claude сгенерировал два отдельных Markdown‑документа‑артефакта.
+**Файлов:** 2
 
-| Файл | Артефакт | Сводка |
-|---|---|---|
-| [`sozialrecht-35-combinations.md`](sozialrecht-35-combinations.md) | `Software synergies 2025 2026 ru` | Расширение каталога 35 комбинаций фокусом на SGB |
-| [`continuation-10-domains.md`](continuation-10-domains.md) | `Software synergies continuation 2025 2026 ru` | 10 новых технологических областей и 35+ новых комбинаций |
+## Содержание
 
-Сами Markdown‑артефакты остались внутри MHTML‑снимка `Комбинирование технологий для новых свойств - Claude` в корне репозитория. Эти файлы — только сводки/индексы, чтобы быстро понять состав каждого отчёта.
+- [continuation-10-domains.md](continuation-10-domains.md) — > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «Continuation Research — 10 New …
+- [sozialrecht-35-combinations.md](sozialrecht-35-combinations.md) — > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «A Research Report Building on 3…

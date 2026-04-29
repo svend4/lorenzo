@@ -1,5 +1,15 @@
 # Ключевые понятия и паттерны
 
+<!-- summary -->
+> Не проекты, а концепции, которые повторяются в нескольких разделах.
+**Проекты:** Svyazi, CardIndex, Legal RAG, Yodoca, NGT Memory, MemNet, Tool Search, AutoResearch
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 Не проекты, а концепции, которые повторяются в нескольких разделах.
 
 | Понятие | Краткое определение | Где раскрыто |
@@ -30,3 +40,14 @@
 | **LCI (Lyapunov Coherence Index)** | Метрика энергетической когерентности системы | [Hardware pair 2](../habr-unique-projects/hardware-pairs/2-tsu-mome.md) · [Svyazi 2.0 block map](../habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md) |
 | **Forward Deployed Engineer (FDE)** | Инженер, приходящий к клиенту с проблемой, строящий прототип на Claude в production | [FDE primary match](../anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md) · [FDE downgraded](../anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md) |
 | **Beneficial Deployments** | Anthropic‑программа: применение Claude к общественно‑полезным задачам | [Secondary match](../anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) · [Sales](../anthropic-vacancies/clusters/02-sales.md) |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [QA](docs/QA.md)
+

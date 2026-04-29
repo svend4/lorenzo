@@ -1,5 +1,14 @@
 # Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
 
 Du hast gesagt: Сначала общие вопросы такие вопросы например проект репозитории Наутилуса он не управляет он больше собирает информацию координируют репозитории но не активно …
@@ -11,3 +20,14 @@ Du hast gesagt: Сначала общие вопросы такие вопрос
 Claude hat geantwortet: Очень хороший вопрос — и он попадает в важное различие.
 
 Очень хороший вопрос — и он попадает в важное различие. Дайте мне подумать о нём внимательно.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
+- [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
+- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
+- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+

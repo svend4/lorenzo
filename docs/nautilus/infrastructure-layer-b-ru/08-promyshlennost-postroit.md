@@ -1,5 +1,19 @@
 # Что промышленность вероятно построит
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
+
+---
+<!-- tags: architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ## Что промышленность вероятно построит
@@ -53,3 +67,14 @@ Hypothes.is для аннотаций существует; мог бы
 появления лучшей инфраструктуры.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [297-что-промышленность-вероятно-построит](docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)
+- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
+- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+

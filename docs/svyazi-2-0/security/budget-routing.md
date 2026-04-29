@@ -1,5 +1,15 @@
 # Практичный бюджетный роутинг моделей
 
+<!-- summary -->
+> > Источник: `deep-research-report (1).md`, раздел «Безопасность, приватность и бюджетный роутинг».
+**Проекты:** LiteLLM, Auto AI Router, Tool Search, AutoResearch
+
+---
+<!-- tags: rag, security, ingestion, architecture, self-improvement -->
+
+
+
+
 > Источник: `deep-research-report (1).md`, раздел «Безопасность, приватность и бюджетный роутинг».
 
 | Этап | Дефолт | Когда эскалировать |
@@ -22,3 +32,14 @@
 - **Самый качественный** — локально retrieval и memory; премиум‑модель только на объяснение, конфликт‑resolution и сложные relation‑queries.
 
 При таком подходе дорогая модель перестаёт быть «двигателем всего» и становится «дорогим, но редким specialist step». citeturn20view18turn39view0turn11search2
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
+- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [privacy](docs/svyazi-2-0/security/privacy.md)
+- [E-execution-plane](docs/svyazi-2-0/ensembles/E-execution-plane.md)
+

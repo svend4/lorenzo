@@ -1,5 +1,19 @@
 # 2. Формальный workflow
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## 2. Формальный workflow
@@ -73,3 +87,14 @@ academic reviewer — применяйте трёхфазный метод.
 merge-conflict error. С заголовком — понимает осмысленную методологию.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+- [08-implementation-nautilus](docs/nautilus/review-methodology/08-implementation-nautilus.md)
+- [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+

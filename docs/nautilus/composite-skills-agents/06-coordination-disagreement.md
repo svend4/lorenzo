@@ -1,5 +1,27 @@
 # 6. Coordination and Disagreement Resolution
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [6. Coordination and Disagreement Resolution](#6-coordination-and-disagreement-resolution)
+  - [6.1. Why Sub-Agents Disagree](#61-why-sub-agents-disagree)
+  - [6.2. Surfacing Versus Resolving](#62-surfacing-versus-resolving)
+  - [6.3. Presentation of Disagreement](#63-presentation-of-disagreement)
+  - [6.4. When the Principal Cannot Decide](#64-when-the-principal-cannot-decide)
+  - [6.5. Learning from Resolution](#65-learning-from-resolution)
+
+---
+
+<!-- tags: rag, ingestion, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 6. Coordination and Disagreement Resolution
@@ -124,3 +146,14 @@ the point is to give the principal insight into their own
 practice.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
+- [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [05-configuration-ensembles](docs/nautilus/composite-skills-agents/05-configuration-ensembles.md)
+

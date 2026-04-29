@@ -1,5 +1,14 @@
 # 9. Call for Partnership
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+
+---
+<!-- tags: rag, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ## 9. Call for Partnership
@@ -89,3 +98,14 @@ pipeline
 - Opportunity to shape infrastructure design
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
+- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md)
+- [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md)
+- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+

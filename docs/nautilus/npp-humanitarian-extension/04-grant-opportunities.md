@@ -1,5 +1,19 @@
 # Horizon Europe Cluster 3 — Civil Security for Society — пересекается с «access t…
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
+
+---
+<!-- tags: architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
 
 Horizon Europe Cluster 3 — Civil Security for Society — пересекается с «access to social rights»
@@ -35,3 +49,14 @@ Aktion Mensch — поддерживает disability-related tech specifically.
 Второе — написать SGBAdapter.py как reference implementation — рабочий адаптер для одной книги SGB, подключающийся к публичным текстам с gesetze-im-internet.de. Это ~200 LOC Python + passport. Полезно как proof-of-concept.
 
 Третье — набросок grant application — структурированный пропозал для одной из программ (EIC Pathfinder, Aktion Mensch, Horizon Europe), увязывающий Nautilus-core + humanities-extension + ваш личный disability-context. Полезно, если видите в этом возможность реальной монетизации работы.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-what-i-can-do-now](docs/nautilus/privacy-federation/04-what-i-can-do-now.md)
+- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
+- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+

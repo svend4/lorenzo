@@ -1,5 +1,14 @@
 # Что уже существует (InnoCentive, Kaggle, Toptal, Anthropic Fellows, DAOs)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
+
+---
+<!-- tags: orchestration, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.
 
 Что уже существует в этом пространстве
@@ -19,3 +28,14 @@ Gitcoin quests, DAOs типа MolochDAO — децентрализованная
 AI-агенты для рекрутинга конкретно — сейчас активно растёт, но в текущем виде почти все делают плохо: Mercor (AI-interviewer), Eightfold (matching), Paradox (chatbot для HR). Ни один из них пока не собирает команды, они все оптимизируют под «один кандидат — одна вакансия».
 
 То есть: пространство существует, инструменты частично есть, но такой сборщик команд под open technical missions — пока не построен. Ваша формулировка — это в явном виде непокрытая ниша.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
+- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
+- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
+- [10-three-entry-points](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
+

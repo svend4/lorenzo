@@ -1,5 +1,15 @@
 # Mega‑Stack 1.0 — Полный Legal‑AI Stack
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑COMBINATION: Полный Legal‑AI Stack для Max».
+**Проекты:** Svyazi, CardIndex, Yjs
+
+---
+<!-- tags: rag, knowledge, ingestion, local-first, roadmap -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑COMBINATION: Полный Legal‑AI Stack для Max».
 
 Объединяет комбинации [3](../combinations/03-crdt-local-first-svyazi-cardindex.md), [4](../combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md), [10](../combinations/10-legal-document-intelligence-pipeline.md), [13](../combinations/13-legal-document-transpiler.md), [14](../combinations/14-local-first-agent-development-environment.md).
@@ -33,3 +43,14 @@
 ## Первый проект для внедрения
 
 [Комбинация 10](../combinations/10-legal-document-intelligence-pipeline.md) (Legal corpus auto‑builder) — закрывает критическую потребность в структурированном поиске прецедентов, требует только Docling + Pydantic + Svyazi (все open‑source).
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+

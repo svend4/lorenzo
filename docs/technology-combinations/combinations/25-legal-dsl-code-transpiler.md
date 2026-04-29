@@ -1,5 +1,14 @@
 # Комбинация 25: Legal DSL → Code Transpiler
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -78,3 +87,14 @@ extract_paragraphs(sections=["SGB IX", "SGB XII"])
 ROI: 50k docs structured in 1 day vs weeks of manual work
 
 Уникальность: First legal-domain DSL with Python AST code generation. Combines declarative legal operations with imperative code execution. Makes legal document processing accessible to non-programmers.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md)
+- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+- [26-ast-based-code-analysis-for-legal-automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
+

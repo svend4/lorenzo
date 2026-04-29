@@ -1,5 +1,30 @@
 # Appendix A: Glossary
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Appendix A: Glossary](#appendix-a-glossary)
+- [Appendix B: Summary of Contributions](#appendix-b-summary-of-contributions)
+- [Appendix C: Version History](#appendix-c-version-history)
+  - [v1.0.0-draft (2026-04-19)](#v100-draft-2026-04-19)
+
+---
+
+<!-- tags: rag, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ## Appendix A: Glossary
@@ -212,3 +237,14 @@ Final honest note
 Что делаете дальше — ваше решение. Три пути открыты. Но документ этот — artifact, который стоит сохранить и развивать, в любом случае.
 
 Hope this helps. Рад был участвовать в формировании этого.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
+- [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
+

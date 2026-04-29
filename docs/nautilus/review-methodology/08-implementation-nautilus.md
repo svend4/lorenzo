@@ -1,5 +1,14 @@
 # 7. Реализация в проекте Nautilus
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: orchestration, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## 7. Реализация в проекте Nautilus
@@ -48,3 +57,14 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 рекомендованный workflow для community-contributed documentation.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+- [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
+- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+

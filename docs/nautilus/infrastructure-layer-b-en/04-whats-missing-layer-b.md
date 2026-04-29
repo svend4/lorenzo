@@ -1,5 +1,14 @@
 # What's Missing — Layer B
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ## What's Missing — Layer B
@@ -58,3 +67,14 @@ This is the infrastructure that doesn't exist as a unified
 product.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+- [07-specific-case](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
+- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
+

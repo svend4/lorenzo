@@ -1,5 +1,19 @@
 # Profession-specific workflows
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
+
+---
+<!-- tags: roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 Что получается: Tool для конкретных profession-specific workflows:
@@ -45,3 +59,14 @@ Time to MVP: 12+ месяцев с small team.
 Связи (Свяжи) demonstrated, что matching работает empirically (Wi-Fi инженер example). Apply pattern к SGB advocates community.
 
 Time to MVP: 3-6 месяцев focused work.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
+

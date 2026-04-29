@@ -1,5 +1,19 @@
 # Конкретный next step
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
+
+---
+<!-- tags: anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 Что я бы рекомендовал как concrete next step
@@ -35,3 +49,14 @@ Honest reflection
 Вариант E: Pause discussion и думать. Не каждое interaction должно lead к immediate next step.
 
 Что вам useful right now?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [11-concrete-potential-collaborator](docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md)
+- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
+

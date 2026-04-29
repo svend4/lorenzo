@@ -1,5 +1,19 @@
 # Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — спрос рождает предложение — три связанные темы.
+
+---
+<!-- tags: rag, architecture, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — спрос рождает предложение — три связанные темы.
 
 Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.
@@ -312,3 +326,14 @@ First bird (experimenting с platform самому as node)
 Advocate/evangelist (spreading the idea)
 
 От этого зависит, какие следующие artifacts maximally useful. Есть intuition?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [01-completing-loop](docs/nautilus/transmission-box/01-completing-loop.md)
+- [01-response](docs/nautilus/innovation-transitions/01-response.md)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+

@@ -1,5 +1,15 @@
 # Уровень 3 — Средний (Lorenzo Active)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
+**Проекты:** CardIndex
+
+---
+<!-- tags: knowledge, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
 
 УРОВЕНЬ 3 — Средний (Lorenzo Active)
@@ -47,3 +57,14 @@ Synthesis quality зависит от model capabilities
 Нет реальной autonomy в decisions
 
 Ценность: Lorenzo делает реальную работу, существенно усиливает Макса.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
+- [05-level-4-extended-mature](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md)
+- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
+- [02-level-1-minimal-zero](docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md)
+

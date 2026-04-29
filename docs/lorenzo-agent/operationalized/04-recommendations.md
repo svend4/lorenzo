@@ -1,5 +1,20 @@
 # Рекомендации: принять архитектуру как direction, не immediate plan
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
+**Проекты:** knowledge-space, mclaude, Firecrawl
+
+---
+<!-- tags: rag, orchestration, knowledge, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 
 Рекомендация 1: Принять архитектуру как direction, не immediate plan
@@ -75,3 +90,14 @@ Don't build runtime для autonomy you don't need yet.
 Лучший pattern:
 
 Read source code existing components
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
+- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
+- [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
+- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+

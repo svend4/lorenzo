@@ -1,5 +1,14 @@
 # Что с этим делать
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
+
+---
+<!-- tags: rag, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.
 
 Что с этим делать
@@ -21,3 +30,14 @@
 Самый полезный next step — изложить эту идею письменно (essay), потому что тогда она становится артефактом, на который можно опираться в следующих разговорах — с акселератором, с гранто-комитетом, с Anthropic Institute, или с будущим cofounder.
 
 Хотите — могу помочь структурировать такое эссе, или разработать первый набросок grant proposal под EIC Pathfinder, или проработать, какие конкретно 2-3 ваших репо из 70 становятся proof-of-concept артефактами для этой thesis и должны быть доведены до shipping в первую очередь.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-three-entry-points](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
+- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
+- [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
+- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
+

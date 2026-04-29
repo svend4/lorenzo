@@ -1,5 +1,14 @@
 # Обзор: 436 открытых ролей Anthropic, разбитых на 16 кластеров
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Затравка — статья 3dnews.ru/1140248 («≈429 вакансий, вилка $320–405 тыс.»).
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Затравка — статья 3dnews.ru/1140248 («≈429 вакансий, вилка $320–405 тыс.»).
 
 ## Поправка к статье
@@ -28,3 +37,14 @@
 | People | 3 | [`clusters/16-people.md`](clusters/16-people.md) |
 
 См. также: [`signals.md`](signals.md) — что говорит эта структура о приоритетах Anthropic.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md)
+- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
+- [08-safeguards-trust-safety](docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md)
+- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
+

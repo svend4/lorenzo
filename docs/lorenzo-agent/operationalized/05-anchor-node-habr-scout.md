@@ -1,5 +1,20 @@
 # Anchor-узел: Habr Scout как первый шаг
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
+**Проекты:** AgentFS, knowledge-space, mclaude, LiteParse, Firecrawl
+
+---
+<!-- tags: rag, orchestration, knowledge, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 
 Узел: Habr Scout (узел 1)
@@ -125,3 +140,14 @@ Memory OS (1021948) — узел 3
 agent-pool (1014502) — узел 4
 
 LiteParse research-docs (1021098) — узел 5
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [02-minuses-1-10](docs/lorenzo-agent/operationalized/02-minuses-1-10.md)
+- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
+

@@ -1,5 +1,14 @@
 # 15. Security Considerations
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 15. Security Considerations
@@ -55,3 +64,14 @@ implementations. Каждая external dependency — потенциальный
 supply-chain риск.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
+- [11-security-considerations](docs/nautilus/npp-v1-0/11-security-considerations.md)
+- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
+- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+

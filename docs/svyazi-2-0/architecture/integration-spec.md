@@ -1,5 +1,20 @@
 # Интеграционная спецификация (минимум для MVP)
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: `deep-research-report (3).md`.
+**Проекты:** Svyazi, AgentFS, mclaude, AI Factory, LiteParse, Legal RAG, Graph RAG, Yodoca
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap -->
+
+
+
+
 > Источник: `deep-research-report (3).md`.
 
 Чтобы все ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели появятся три несовместимые сущности с названием «карточка», два разных формата evidence и четыре несовместимых местоположения памяти.
@@ -19,3 +34,14 @@
 - [`memory-write-policy.md`](memory-write-policy.md)
 - [`skill-tool-policy.md`](skill-tool-policy.md)
 - [`review-record.md`](review-record.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
+- [review-record](docs/svyazi-2-0/architecture/review-record.md)
+- [QA](docs/QA.md)
+

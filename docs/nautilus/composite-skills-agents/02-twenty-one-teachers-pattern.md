@@ -1,5 +1,31 @@
 # 2. The Twenty-One Teachers Pattern
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [2. The Twenty-One Teachers Pattern](#2-the-twenty-one-teachers-pattern)
+  - [2.1. The Story](#21-the-story)
+  - [2.2. What This Pattern Reveals](#22-what-this-pattern-reveals)
+  - [2.3. Why This Pattern Generalizes](#23-why-this-pattern-generalizes)
+  - [2.4. AI Architecture Should Mirror This](#24-ai-architecture-should-mirror-this)
+
+---
+
+<!-- tags: local-first, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 2. The Twenty-One Teachers Pattern
@@ -114,3 +140,14 @@ a registry of narrow-specialist AI sub-agents that any
 practitioner can configure into their own combination.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
+- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md)
+- [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
+- [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md)
+

@@ -1,5 +1,27 @@
 # 4. Architecture of Professional Colleague Agents
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [4. Architecture of Professional Colleague Agents](#4-architecture-of-professional-colleague-agents)
+  - [4.1. Three-Layer Internal Architecture](#41-three-layer-internal-architecture)
+  - [4.2. Knowledge Curation Strategies](#42-knowledge-curation-strategies)
+  - [4.3. Update and Versioning](#43-update-and-versioning)
+  - [4.4. Quality Assurance Architecture](#44-quality-assurance-architecture)
+  - [4.5. Integration Standards](#45-integration-standards)
+
+---
+
+<!-- tags: rag, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 4. Architecture of Professional Colleague Agents
@@ -146,3 +168,14 @@ agent that no practitioner can fit into their existing
 workflow.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
+- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
+- [06-risks](docs/nautilus/professional-colleague-agents-en/06-risks.md)
+- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
+

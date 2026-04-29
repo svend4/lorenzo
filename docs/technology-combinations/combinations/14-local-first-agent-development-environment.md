@@ -1,4 +1,14 @@
-# Комбинация 14: Local-First Agent Development Environment
+# Комбинация 14: local-first Agent Development Environment
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Svyazi, CardIndex, Yjs, Automerge
+
+---
+<!-- tags: rag, orchestration, knowledge, ingestion, local-first, roadmap -->
+
+
+
 
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
@@ -101,3 +111,14 @@ Charted eight research directions for discovering additional project synergies
 Синтезировал проектные комбинации на основе найденных технологий
 
 Отлично! Теперь синтезирую финальный набор комбинаций на основе всех найденных проектов.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
+- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+

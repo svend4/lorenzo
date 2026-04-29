@@ -1,5 +1,20 @@
 # Шаблон первого сообщения
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты».
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, collaboration -->
+
+
+
+
 > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты».
 
 > Здравствуйте. Я собираю software-first прототип **Svyazi‑2.0** — локальную систему, которая объединяет:
@@ -18,3 +33,14 @@
 ## Замечание
 
 Если писать в комментарии на Хабре, лучше сократить до 5–6 строк и добавить один конкретный вопрос, а не «давайте сотрудничать». Лучший формат — **одна архитектурная гипотеза + один вопрос на стык систем**.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
+- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+- [mvp-plan](docs/svyazi-2-0/prototype/mvp-plan.md)
+

@@ -1,5 +1,12 @@
 # Комбинация 33: Event Sourcing + CQRS + ClickHouse Analytics
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -47,3 +54,14 @@ Projection 4: Graph database (precedent links)
 ROI: Write once (event), read many ways (projections)
 
 Уникальность: CQRS with ClickHouse as analytics read model. Event Sourcing provides audit trail, Kafka streams events, ClickHouse analyzes at scale. First legal system with real-time analytics on event stream.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+

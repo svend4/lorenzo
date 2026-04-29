@@ -1,5 +1,14 @@
 # Платформа для профессиональных сообществ
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
+
+---
+<!-- tags: architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 Что получается: Платформа для профессиональных сообществ (юристы, врачи, учителя, advocates), где:
@@ -19,3 +28,14 @@ AI matcher находит unexpected combinations (Wi-Fi инженер + SPb р
 Синтез B: «Personal Knowledge Workspace для специализированных доменов»
 
 Совмещение: Obsidian + AI экосистема + Свяжи (структурирование) + ваш InGit + Cowork integration (Document 2.4).
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+- [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
+

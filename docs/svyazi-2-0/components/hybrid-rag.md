@@ -1,5 +1,15 @@
 # Hybrid RAG knowledge base
 
+<!-- summary -->
+> - **Источник:** Хабр citeturn34view2
+**Проекты:** Svyazi, Hybrid RAG
+
+---
+<!-- tags: rag, ingestion, architecture, self-improvement, collaboration -->
+
+
+
+
 - **Автор:** iximy
 - **Источник:** Хабр citeturn34view2
 - **Лицензия:** неуточнено. citeturn34view2
@@ -18,3 +28,14 @@
 - FAISS
 - Metadata filtering
 - Прозрачный retrieval‑layer
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md)
+- [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
+- [legal-rag](docs/svyazi-2-0/components/legal-rag.md)
+- [rufler](docs/svyazi-2-0/components/rufler.md)
+

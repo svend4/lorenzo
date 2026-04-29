@@ -1,5 +1,34 @@
 # 6. Risks Specific to this Category
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [6. Risks Specific to this Category](#6-risks-specific-to-this-category)
+  - [6.1. Risk: Mediation Collapse](#61-risk-mediation-collapse)
+  - [6.2. Risk: Skill Atrophy in New Practitioners](#62-risk-skill-atrophy-in-new-practitioners)
+  - [6.3. Risk: Standardization Lock-In](#63-risk-standardization-lock-in)
+  - [6.4. Risk: Liability Ambiguity](#64-risk-liability-ambiguity)
+  - [6.5. Risk: Privacy Cascade](#65-risk-privacy-cascade)
+  - [6.6. Risk: Subtle Bias in Knowledge Base](#66-risk-subtle-bias-in-knowledge-base)
+  - [6.7. Risk: Profession Capture by Service Providers](#67-risk-profession-capture-by-service-providers)
+
+---
+
+<!-- tags: local-first, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ## 6. Risks Specific to this Category
@@ -209,3 +238,14 @@ teachers in 7 months illustrates speed at which capture can
 emerge.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
+- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
+- [10-risks](docs/nautilus/composite-skills-agents/10-risks.md)
+- [04-architecture](docs/nautilus/professional-colleague-agents-en/04-architecture.md)
+

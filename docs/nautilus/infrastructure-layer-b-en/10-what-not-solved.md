@@ -1,5 +1,14 @@
 # What This Document Doesn't Solve
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
+
+---
+<!-- tags: architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ## What This Document Doesn't Solve
@@ -26,3 +35,14 @@ If the author or readers want to develop solutions, this
 document provides framing. It does not provide answers.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
+- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
+- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
+- [08-recursive-insight](docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md)
+

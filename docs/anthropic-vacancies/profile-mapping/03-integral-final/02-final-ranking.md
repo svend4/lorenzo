@@ -1,5 +1,19 @@
 # Финальное ранжирование Anthropic-ролей по частичному покрытию
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+---
+<!-- tags: rag, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 Первый — независимый изобретатель-систематизатор в традиции Бакминстера Фуллера / Рэя Курцвейла / Стивена Вольфрама ранней стадии. Человек, который строит онтологии и метаструктуры (Q6-гиперкуб для LLM, 16 архетипов Pseudo-RAG, 4-уровневая пирамида автоматизации, граф гексаграмм) как способ организовать реальность. Это редкая когнитивная модель, которая плохо укладывается в любую корпоративную job-роль, потому что требует свободы определять сам предмет работы.
@@ -27,3 +41,14 @@
 Что такое частичное соответствие — честно
 
 Ни одна из этих ролей не закрывает одновременно три ваши оси:
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-three-overlapping-identities](docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md)
+- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
+- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
+

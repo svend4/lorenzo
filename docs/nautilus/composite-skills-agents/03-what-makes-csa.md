@@ -1,5 +1,27 @@
 # 3. What Makes a Composite Skills Agent
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [3. What Makes a Composite Skills Agent](#3-what-makes-a-composite-skills-agent)
+  - [3.1. Defining Properties](#31-defining-properties)
+  - [3.2. What a Composite Skills Agent Does](#32-what-a-composite-skills-agent-does)
+  - [3.3. What a Composite Skills Agent Does NOT Do](#33-what-a-composite-skills-agent-does-not-do)
+  - [3.4. The Twenty-Sub-Agents Constraint](#34-the-twenty-sub-agents-constraint)
+  - [3.5. The Coordinator-Within-Configuration Pattern](#35-the-coordinator-within-configuration-pattern)
+
+---
+
+<!-- tags: rag, ingestion, architecture, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 3. What Makes a Composite Skills Agent
@@ -145,3 +167,14 @@ is coordination of musicians, not playing music. Composite
 agents inherit this distinction.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [06-coordination-disagreement](docs/nautilus/composite-skills-agents/06-coordination-disagreement.md)
+- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
+- [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
+

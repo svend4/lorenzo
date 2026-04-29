@@ -1,5 +1,14 @@
 # Question 1: Что Lorenzo фундаментально такое? (Framings A–D)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к финальному системному промпту в [`../`](../).
 
 Question 1: Что Lorenzo фундаментально такое?
@@ -68,3 +77,14 @@ Transparency: «AI agent under human direction»
 Avoids autonomy controversies while preserving brand benefits
 
 Если согласны с Framing A, продолжаем. Если другое framing prefer, design changes.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
+- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
+- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md)
+- [06-q6-accountability](docs/lorenzo-agent/specification/06-q6-accountability.md)
+

@@ -1,5 +1,30 @@
 # Архитектурные зазоры
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: `deep-research-report (3).md`, раздел «Архитектурные зазоры, которые важнее новых инструментов».
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Пять зазоров, важнее поиска ещё десяти инструментов](#пять-зазоров-важнее-поиска-ещё-десяти-инструментов)
+- [Сводная таблица зазоров](#сводная-таблица-зазоров)
+- [Главный практический принцип](#главный-практический-принцип)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement -->
+
+
+
+
 > Источник: `deep-research-report (3).md`, раздел «Архитектурные зазоры, которые важнее новых инструментов».
 
 После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт `.agentos` и compile‑to‑runtime политику; knowledge-space формирует agent‑readable reference cards; NGT Memory и Yodoca решают разные режимы памяти; research-docs/LiteParse и Legal RAG решают доказуемость; LiteLLM, Auto AI Router и Tool Search — execution plane; SENTINEL и path‑guard практики — безопасность. Но именно на переходах «card ↔ memory», «memory ↔ evidence», «evidence ↔ review», «review ↔ agent execution» сегодня остаётся больше всего архитектурного риска. citeturn41search0turn27view0turn33view2turn22view4turn21view0turn20view5turn20view6turn39view0turn39view1turn20view10
@@ -26,4 +51,15 @@
 
 ## Главный практический принцип
 
-**Svyazi‑2.0 нужно начинать не с «самой умной модели», а с самой строгой структуры переходов между слоями.** Сильная модель без карточного статуса, evidence envelope и review protocol быстро превращает систему в красивый, но плохо аудитируемый генератор гипотез. Наоборот, даже средний model tier даёт много пользы, если extract/normalize/review/evidence и memory status already pinned. Это согласуется и с Svyazi‑подходом к CardIndex и privacy by design, и с Memory OS‑критикой «thoughtful but schema-breaking reasoning», и с Legal RAG‑подходом к page‑level доказуемости. citeturn41search0turn39view3turn20view6turn20view18
+**Svyazi‑2.0 нужно начинать не с «самой умной модели», а с самой строгой структуры переходов между слоями.** Сильная модель без карточного статуса, Evidence Envelope и review protocol быстро превращает систему в красивый, но плохо аудитируемый генератор гипотез. Наоборот, даже средний model tier даёт много пользы, если extract/normalize/review/evidence и memory status already pinned. Это согласуется и с Svyazi‑подходом к CardIndex и privacy by design, и с Memory OS‑критикой «thoughtful but schema-breaking reasoning», и с Legal RAG‑подходом к page‑level доказуемости. citeturn41search0turn39view3turn20view6turn20view18
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+- [QA](docs/QA.md)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
+

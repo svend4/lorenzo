@@ -1,5 +1,31 @@
 # 5. Economic Model
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [5. Economic Model](#5-economic-model)
+  - [5.1. Budget Philosophy](#51-budget-philosophy)
+  - [5.2. Three-Year Pilot Budget (Estimated)](#52-three-year-pilot-budget-estimated)
+  - [5.3. Funding Strategy](#53-funding-strategy)
+  - [5.4. Contributor Economics](#54-contributor-economics)
+
+---
+
+<!-- tags: roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ## 5. Economic Model
@@ -91,3 +117,14 @@ engagement level, impact, skill, and region. Foundation commits
 to minimum dignity threshold; upward is merit-based.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md)
+- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+

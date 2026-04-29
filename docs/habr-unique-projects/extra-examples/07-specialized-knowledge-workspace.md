@@ -1,5 +1,14 @@
 # Specialized knowledge workspace
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
+
+---
+<!-- tags: local-first, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 Что получается: Specialized knowledge workspace для professionals:
@@ -23,3 +32,14 @@ Optional sync с Cowork для agentic capabilities
 Синтез C: «Multi-agent hub для domain experts»
 
 Совмещение: BrainBox (local AI hub) + мультиагентная разработка patterns + WorkTeam (decomposition) + CAMEL (как мы обсуждали).
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
+- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
+- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
+

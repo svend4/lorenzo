@@ -1,5 +1,25 @@
 # 1. Problem Statement
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [1. Problem Statement](#1-problem-statement)
+  - [1.1. The Paradox of Abundant Demand and Underutilized Supply](#11-the-paradox-of-abundant-demand-and-underutilized-supply)
+  - [1.2. Why This Matters Beyond Economics](#12-why-this-matters-beyond-economics)
+  - [1.3. Why Now](#13-why-now)
+
+---
+
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ## 1. Problem Statement
@@ -93,3 +113,14 @@ It is a present problem with actionable solutions that require
 coordinated action now.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [02-target-populations](docs/nautilus/okwf-concept/02-target-populations.md)
+- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+

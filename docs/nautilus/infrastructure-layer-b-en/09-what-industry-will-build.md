@@ -1,5 +1,14 @@
 # What Industry Will Likely Build
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ## What Industry Will Likely Build
@@ -39,3 +48,14 @@ We should not wait for any specific outcome. We should use
 what exists and adapt as better infrastructure emerges.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- [08-recursive-insight](docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md)
+- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+

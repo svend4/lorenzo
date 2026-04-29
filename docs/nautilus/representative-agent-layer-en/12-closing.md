@@ -1,5 +1,42 @@
 # 12. Closing
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [12. Closing](#12-closing)
+- [Acknowledgments](#acknowledgments)
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Principal-Agent Theory](#principal-agent-theory)
+  - [Disability and Access](#disability-and-access)
+  - [Modern AI Ethics](#modern-ai-ethics)
+  - [Companion Documents](#companion-documents)
+- [Appendix A: Connection to Companion Papers](#appendix-a-connection-to-companion-papers)
+- [Appendix B: Domain Comparison Matrix](#appendix-b-domain-comparison-matrix)
+- [Appendix C: Sample Use Cases in Detail](#appendix-c-sample-use-cases-in-detail)
+  - [Use Case 1: Retired Wi-Fi Engineer Becomes Visible](#use-case-1-retired-wi-fi-engineer-becomes-visible)
+  - [Use Case 2: Social Worker Manages Larger Caseload Better](#use-case-2-social-worker-manages-larger-caseload-better)
+  - [Use Case 3: Disabled Citizen Accesses Entitlements](#use-case-3-disabled-citizen-accesses-entitlements)
+  - [Use Case 4: Author of This Paper](#use-case-4-author-of-this-paper)
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](#ai-mediated-representation-for-underrepresented-experts-and-vulnerable-populations)
+
+---
+
+<!-- tags: rag, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 12. Closing
@@ -444,3 +481,14 @@ Du hast gesagt: Сделайте перевод на руский
 **Dat
 
 pasted
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
+- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+

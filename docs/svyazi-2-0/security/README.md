@@ -1,9 +1,9 @@
-# security/ — безопасность, приватность, бюджетный роутинг
+# security
 
-Подтемы:
+**Файлов:** 3
 
-- [`default-policy.md`](default-policy.md) — что стоит зафиксировать как default policy.
-- [`privacy.md`](privacy.md) — приватность и local-first by default.
-- [`budget-routing.md`](budget-routing.md) — практичный бюджетный роутинг моделей.
+## Содержание
 
-> Источник: `deep-research-report (1).md`, раздел «Безопасность, приватность и бюджетный роутинг».
+- [budget-routing.md](budget-routing.md) — > Источник: `deep-research-report (1).md`, раздел «Безопасность, приватность и бюджетный роутинг».
+- [default-policy.md](default-policy.md) — > Источник: `deep-research-report (1).md`, раздел «Безопасность, приватность и бюджетный роутинг».
+- [privacy.md](privacy.md) — > Источник: `deep-research-report (1).md`, раздел «Безопасность, приватность и бюджетный роутинг».

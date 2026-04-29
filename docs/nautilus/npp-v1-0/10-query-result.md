@@ -1,5 +1,14 @@
 # 10. QueryResult Structure
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ## 10. QueryResult Structure
@@ -27,3 +36,14 @@ QueryResult MUST поддерживать сериализацию в JSON, Mark
 category (сначала full, затем partial, затем singular).
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)
+

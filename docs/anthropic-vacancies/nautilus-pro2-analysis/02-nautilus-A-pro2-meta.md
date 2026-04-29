@@ -1,5 +1,14 @@
 # Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME (внутренняя архитектура нейросети)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ двух собственных проектов «Наутилус» в репозиториях svend4: pro2 (YiJing-Transformer
+
+---
+<!-- tags: orchestration, ingestion, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ двух собственных проектов «Наутилус» в репозиториях svend4: pro2 (YiJing-Transformer, матрёшечная MoE) и nautilus (мета-оркестратор репозиториев). Прямой источник идеи Nautilus Portal Protocol.
 
 Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME
@@ -87,3 +96,14 @@ Cascade означает: первая модель делает простую 
 Разница принципиальная. Parallel MoE активирует K экспертов одновременно и усредняет. Sequential/cascade активирует их последовательно, где каждый следующий обогащает предыдущий. Первый подход быстрее (можно параллелить), второй даёт более глубокие представления (каждый следующий видит результат предыдущего).
 
 Если вы реализовали именно cascade — это более редкая архитектура, с бо́льшим потенциалом научной оригинальности.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-nautilus-B-meta-orchestrator](docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md)
+- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [01-shell-metaphor-two-projections](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
+

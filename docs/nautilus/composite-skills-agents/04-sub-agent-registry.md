@@ -1,5 +1,32 @@
 # 4. The Sub-Agent Registry
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [4. The Sub-Agent Registry](#4-the-sub-agent-registry)
+  - [4.1. What a Sub-Agent Is](#41-what-a-sub-agent-is)
+  - [4.2. Registry Structure](#42-registry-structure)
+  - [4.3. How Sub-Agents Get Built](#43-how-sub-agents-get-built)
+  - [4.4. The Registry as Public Good](#44-the-registry-as-public-good)
+  - [4.5. Curation and Trust](#45-curation-and-trust)
+
+---
+
+<!-- tags: ingestion, roadmap, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 4. The Sub-Agent Registry
@@ -129,3 +156,14 @@ publishers with different standards, and reputation accumulates
 across both journals and individual researchers.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
+- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
+- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+

@@ -1,5 +1,14 @@
 # Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — voiceless контрибьюторы — могут ли быть.
+
+---
+<!-- tags: local-first, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — voiceless контрибьюторы — могут ли быть.
 
 Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы
@@ -12,3 +21,14 @@ Deep-profile matching с proactive suggestions может быть именно 
 Mehr anzeigen
 
 26 апр.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
+- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+

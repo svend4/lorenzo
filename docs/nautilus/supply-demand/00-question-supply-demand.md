@@ -1,5 +1,14 @@
 # Du hast gesagt: Спрос рождает предложение - это простая экономическая истина нач…
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — спрос рождает предложение — три связанные темы.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — спрос рождает предложение — три связанные темы.
 
 Du hast gesagt: Спрос рождает предложение - это простая экономическая истина начнём если с самого начала обсуждение этого вопроса то что есть примерно 400 или 500 вакансии сер…
@@ -9,3 +18,14 @@ Du hast gesagt: Спрос рождает предложение - это про
 Mehr anzeigen
 
 19 апр.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-mountain-to-person](docs/nautilus/transmission-box/00-question-mountain-to-person.md)
+- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
+- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+

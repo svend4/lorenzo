@@ -1,5 +1,14 @@
 # Ансамбль 7 — Domain Agent App Factory
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+
+---
+<!-- tags: rag, local-first, architecture, anthropic, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 7. Domain Agent App Factory: «из одного фитнес-тренера — фабрика вертикальных ассистентов»
@@ -31,3 +40,14 @@ Community Mentor — AI-наставник сообщества: знает уч
 BIM/Engineering Coach — тот же паттерн для инженерных стандартов, чертежей, спецификаций, документации, технической поддержки.
 
 Главное новое свойство: вертикальный AI-продукт собирается не с нуля, а из повторяемого шаблона: KG + tools + RAG + tenant isolation + interface + eval.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
+- [6-continuous-eval-loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md)
+- [3-forensic-rag](docs/ai-collaborations/ensembles/3-forensic-rag.md)
+

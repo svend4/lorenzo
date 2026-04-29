@@ -1,5 +1,14 @@
 # Комбинация 21: Legal Corpus Analytics at Scale
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag, ingestion, architecture -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -63,3 +72,14 @@ Performance: 100M rows analyzed in <500ms
 ROI: Data-driven legal strategy, precedent patterns visible
 
 Уникальность: First ClickHouse-powered legal analytics. Combines web scraping (Crawl4AI) + structured extraction (Pydantic) + columnar analytics (ClickHouse). Queries that would take minutes in PostgreSQL run in milliseconds.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [22-russian-international-oss-stack](docs/technology-combinations/combinations/22-russian-international-oss-stack.md)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+

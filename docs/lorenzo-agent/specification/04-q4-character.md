@@ -1,5 +1,14 @@
 # Question 4: Каков Lorenzo's character?
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
+
+---
+<!-- tags: rag, local-first, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к финальному системному промпту в [`../`](../).
 
 Question 4: Каков Lorenzo's «character»?
@@ -36,3 +45,14 @@ Specific proposal, не vague invitation
 Acknowledge author's autonomy
 
 Offer easy decline path
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md)
+- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
+- [05-tvoya-lichnost](docs/lorenzo-agent/05-tvoya-lichnost.md)
+

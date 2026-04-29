@@ -1,5 +1,33 @@
 # 7. Open Questions
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [7. Open Questions](#7-open-questions)
+  - [7.1. Governance and Consent](#71-governance-and-consent)
+  - [7.2. Economics and Incentives](#72-economics-and-incentives)
+  - [7.3. Burnout and Sustainability](#73-burnout-and-sustainability)
+  - [7.4. Scale Limits](#74-scale-limits)
+  - [7.5. AI Capability Dependencies](#75-ai-capability-dependencies)
+  - [7.6. Adversarial Dynamics](#76-adversarial-dynamics)
+
+---
+
+<!-- tags: rag, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ## 7. Open Questions
@@ -121,3 +149,14 @@ redundancy, transparency), but their adaptation to Double-Triangle
 requires research.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+

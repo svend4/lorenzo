@@ -1,5 +1,26 @@
 # 13. Closing
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [13. Closing](#13-closing)
+- [Acknowledgments](#acknowledgments)
+- [References](#references)
+  - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
+  - [Pattern of Composite Mastery](#pattern-of-composite-mastery)
+
+---
+
+<!-- tags: rag, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ## 13. Closing
@@ -110,3 +131,14 @@ expertise develops through specialization combined with
 synthesis.)
 
 ### Pattern of Composite Mastery
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
+- [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
+- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
+

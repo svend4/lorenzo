@@ -1,5 +1,15 @@
 # research-docs + LiteParse
 
+<!-- summary -->
+> - **Автор:** nlaik / Jerry Liu / LlamaIndex
+**Проекты:** Svyazi, LiteParse
+
+---
+<!-- tags: rag, ingestion, collaboration -->
+
+
+
+
 - **Автор:** nlaik / Jerry Liu / LlamaIndex
 - **Источник:** Хабр + GitHub citeturn20view5turn15search1turn15search5turn40search0
 - **Лицензия:** **Apache 2.0** для LiteParse; для samples — неуточнено. citeturn40search0turn40search1
@@ -17,3 +27,14 @@ Forensic document QA с HTML‑отчётом и bounding boxes на стран�
 - Visual citations
 - Multi‑format docs
 - HTML evidence report
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [yodoca](docs/svyazi-2-0/components/yodoca.md)
+- [mclaude](docs/svyazi-2-0/components/mclaude.md)
+- [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
+- [memnet](docs/svyazi-2-0/components/memnet.md)
+

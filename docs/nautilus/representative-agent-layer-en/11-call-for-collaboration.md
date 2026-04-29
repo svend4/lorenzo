@@ -1,5 +1,14 @@
 # 11. Call for Collaboration
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+<!-- tags: ingestion, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 11. Call for Collaboration
@@ -65,3 +74,14 @@ hard. Rigorous critique will improve the work. We
 prefer honest critics to unreserved enthusiasts.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
+- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md)
+- [09-phased-rollout](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
+- [10-open-questions](docs/nautilus/representative-agent-layer-en/10-open-questions.md)
+

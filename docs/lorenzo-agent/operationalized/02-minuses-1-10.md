@@ -1,5 +1,20 @@
 # Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
+**Проекты:** knowledge-space, mclaude, Rufler, Legal RAG
+
+---
+<!-- tags: rag, orchestration, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 
 Минус 1: Integration is hard
@@ -171,3 +186,14 @@ Realistic: выбрать один as Phase 1, остальные as future phas
 Tool-building имеет seductive quality — endless improvements possible. Mission delivery имеет delivery deadlines.
 
 If Lorenzo becomes pure tool-building exercise, original mission slips.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
+- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
+- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
+

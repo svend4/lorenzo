@@ -1,5 +1,14 @@
 # Сводная таблица 20–24 (Final 1–24)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «FINAL SYNTHESIS TABLE (Complete 1‑24)».
+
+---
+<!-- tags: rag, orchestration, local-first -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «FINAL SYNTHESIS TABLE (Complete 1‑24)».
 
 | # | Components | Unique Result | Impact |
@@ -20,3 +29,14 @@
 4. Result: Data‑driven legal strategy, subsecond queries on millions of rows
 
 Альтернатива: **Комбинация 20** (Hybrid OLAP/OLTP) — если нужна real‑time collaboration с аналитикой.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+

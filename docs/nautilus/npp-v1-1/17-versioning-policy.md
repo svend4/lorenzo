@@ -1,5 +1,19 @@
 # 17. Versioning Policy
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 17. Versioning Policy
@@ -38,3 +52,14 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 - Удаляется только в следующем major bump
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
+- [12-versioning-policy](docs/nautilus/npp-v1-0/12-versioning-policy.md)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
+

@@ -1,5 +1,15 @@
 # Пара 2 — Local-first PKM (Obsidian/Logseq) × MCP/Skills
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+**Проекты:** Yodoca
+
+---
+<!-- tags: memory, knowledge, local-first, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 Пара 2. Local-first PKM (Obsidian/Logseq) × MCP/Skills
@@ -13,3 +23,14 @@ Obsidian-as-MCP-database — vault превращается в MCP-сервер,
 InfraNodus-style structural gap finder (infranodus.com/use-case/visualize-knowledge-graphs-pkm) — анализ графа vault'а ищет структурные пробелы: тематически близкие заметки, между которыми нет связи. Это discovery-механизм Чуяна, применённый не к людям, а к юридическим делам и прецедентам. Может найти неожиданную релевантность между делом по § 78 Abs. 6 SGB IX и закрытым делом BSG двухлетней давности.
 
 Local LLM Wiki поверх раздельной личной/агентной зоны — раздел raw/ (clipped material из браузера, голосовые транскрипты, сканы) + wiki/ (consolidated). Соавтор Obsidian Steph Ango рекомендует именно эту изоляцию: LLM работает в wiki/, ты живёшь в personal/, переход между ними — твой контролируемый ритуал. На уровне идеи — то же, что Yodoca с консолидацией, но реализовано через файлы и git вместо SQLite.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
+- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md)
+- [2-document-rag](docs/habr-unique-projects/deep-pairs/2-document-rag.md)
+

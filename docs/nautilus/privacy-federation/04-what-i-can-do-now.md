@@ -1,5 +1,14 @@
 # Что я могу сделать сейчас
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
+
+---
+<!-- tags: security, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
 
 Что я могу сделать сейчас
@@ -15,3 +24,14 @@
 Какое из трёх сейчас важнее? Или комбинация — например, первое + второе параллельно?
 
 И вопрос уточняющий, если можете ответить: timeline, в котором вы хотели бы развивать эту humanities-extension Nautilus — это параллельная с основным Nautilus разработка в текущем темпе (несколько недель на фазу), или это отдельный серьёзный проект, к которому вы готовы приступить полномасштабно (например, в контексте возможного grant)?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
+- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
+- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
+- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
+

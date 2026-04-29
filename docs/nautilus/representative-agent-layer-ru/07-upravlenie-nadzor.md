@@ -1,5 +1,14 @@
 # 7. Управление и надзор
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
 ## 7. Управление и надзор
@@ -60,3 +69,14 @@
 Коммерческие поставщики Представительских Агентов могут быть необходимыми и полезными, но должны работать в рамках стандартов, установленных миссионально-ориентированными фондами.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [197-7-управление-и-надзор](docs/02-anthropic-vacancies/197-7-управление-и-надзор.md)
+- [DUPLICATES](docs/DUPLICATES.md)
+- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
+- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
+

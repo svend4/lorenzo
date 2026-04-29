@@ -1,5 +1,14 @@
 # PDA-бот — «LLM как периферия»
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+
+---
+<!-- tags: orchestration, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 AI-бот для самопознания
@@ -13,3 +22,14 @@ https://habr.com/ru/articles/1017200/
 Эксперимент: 8–16 LLM-агентов решают задачи по четырём протоколам коммуникации. Sequential-протокол (распределённая сеть, агенты видят только реальные завершённые результаты предшественников) выигрывает у Coordinator (центральный хаб) на 44% (Cohen's d = 1.86). Дочкина пишет диссертацию по автономным AI-системам, активно публикует. Это твой человек по теме «распределённое лучше центрального» — тот же тезис, что у тебя в Q6/MoME.
 
 Источник данных и инфраструктурные кусочки
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
+- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
+- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
+

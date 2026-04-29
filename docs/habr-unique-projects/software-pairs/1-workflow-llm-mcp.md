@@ -1,5 +1,14 @@
 # Пара 1 — Workflow-автоматизация × LLM-агенты с MCP
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+
+---
+<!-- tags: rag, orchestration, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 Пара 1. Workflow-автоматизация × LLM-агенты с MCP
@@ -13,3 +22,14 @@ Visual orchestrator над Claude subagents — Activepieces как drag-and-dro
 Headless ночной DevOps-юрист — Windmill (Python/TS) + Claude Code в headless mode (флаг -p, https://habr.com/ru/companies/surfstudio/articles/943108/) на одной немецкой VPS: cron каждое утро обходит сайты Sozialgericht/BSG/KSV, генерирует Stellungnahme-черновики, обновляет статусы Aktenzeichen. UI не нужен — всё через slack-/telegram-уведомления.
 
 Event-driven legal watcher — Huginn собирает RSS/обновления сайтов + кастомный MCP-сервер (паттерн self-aware-mcp-server, habr.com/ru/articles/1007122/) + LLM-классификатор. «Заседание перенесли — пришёл alert; новый Urteil BSG, релевантный нашему делу — пришёл alert». Делает то, что обычно делает чиновник руками.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
+- [5-browser-agents-headless](docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md)
+- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
+- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
+

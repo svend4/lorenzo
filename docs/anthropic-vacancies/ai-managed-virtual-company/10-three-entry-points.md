@@ -1,5 +1,14 @@
 # Три точки входа разной амбиции
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
+
+---
+<!-- tags: orchestration, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.
 
 Если ваша идея заинтересовала вас достаточно, чтобы двигаться к реализации, есть три точки входа разной амбиции.
@@ -13,3 +22,14 @@
 Во всех трёх сценариях первое конкретное действие — то же: написать technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого артефакта ни один из трёх путей не открывается. С ним — открываются все три одновременно, и вы можете выбирать.
 
 Хотите, чтобы в следующем сообщении я помог структурировать этот thesis paper — оглавление, ключевые аргументы, разделы? Это документ, из которого разворачиваются и grant proposal, и pitch deck, и founder essay. Один артефакт — три пути сразу.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-what-to-do](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md)
+- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
+- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
+

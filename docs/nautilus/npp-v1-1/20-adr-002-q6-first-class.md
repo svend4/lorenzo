@@ -1,5 +1,14 @@
 # 20. ADR-002: Q6 as First-Class Protocol Concept
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 20. ADR-002: Q6 as First-Class Protocol Concept
@@ -30,3 +39,14 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 - v2.0 может понадобиться Q8 или Q12 для больших экосистем
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
+- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+- [14-sdk](docs/nautilus/npp-v1-1/14-sdk.md)
+

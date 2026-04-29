@@ -1,5 +1,15 @@
 # Пара 3 — ZINC inference engine × гибрид Attention+SSM+MoE
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+**Проекты:** Yodoca, AutoResearch
+
+---
+<!-- tags: memory, orchestration, architecture, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 Пара 3. Кастомный inference engine на Zig/Vulkan (ZINC) × гибрид Attention+SSM+MoE
@@ -13,3 +23,14 @@ ZINC-Q6 — порт MoME-роутера по Q6-гиперкубу как Vulka
 Hierarchical KV-cache как родной слой движка — иерархическая память (xMemory) перестаёт быть software-слоем поверх LLM и становится трёхуровневым paged KV-cache внутри inference engine: рабочий контекст в SRAM, эпизодический в VRAM, семантический в RAM. Управляется тем же MoME-роутером — какой уровень достать.
 
 Autonomous Research Box — связка из ZINC + AutoResearch-loop Карпатого (habr.com/ru/articles/1026922/) + Sequential-протокол Дочкиной (habr.com/ru/articles/1017200/) + Yodoca-consolidator на одной R9700 за $500. Полный «ночной исследовательский отдел», который Карпатый описывает гипотетически, у тебя получается железно — за бюджет средней игровой видеокарты.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
+- [06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-](docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
+- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
+- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
+

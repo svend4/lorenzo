@@ -1,5 +1,14 @@
 # 8. Risks and Mitigations
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+<!-- tags: rag, orchestration, ingestion, local-first, architecture, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 8. Risks and Mitigations
@@ -105,3 +114,14 @@ appropriate
 for inclusion of those who never had the skills
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+- [10-open-questions](docs/nautilus/representative-agent-layer-en/10-open-questions.md)
+- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
+- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
+

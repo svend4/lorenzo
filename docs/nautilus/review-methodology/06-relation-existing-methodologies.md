@@ -1,5 +1,14 @@
 # 5. Связь с существующими методологиями
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, rag, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## 5. Связь с существующими методологиями
@@ -64,3 +73,14 @@ consolidation.
 Это делает методологию **потенциально публикационной**.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [112-5-связь-с-существующими-методологиями](docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [09-limitations-open-questions](docs/nautilus/review-methodology/09-limitations-open-questions.md)
+

@@ -1,5 +1,14 @@
 # 10. Открытые вопросы
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
 ## 10. Открытые вопросы
@@ -57,3 +66,14 @@
 Эти вопросы заслуживают специальных исследовательских программ. Мы не претендуем отвечать на них здесь. Мы утверждаем только, что вопросы стоит исследовать, потому что подлежащая технология будет разработана независимо от того, идут ли этические рамки в ногу.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [200-10-открытые-вопросы](docs/02-anthropic-vacancies/200-10-открытые-вопросы.md)
+- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
+- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
+- [08-riski-mery](docs/nautilus/representative-agent-layer-ru/08-riski-mery.md)
+

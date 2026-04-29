@@ -1,5 +1,14 @@
 # Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы …
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
+
+---
+<!-- tags: roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
 
 Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы типа:
@@ -19,3 +28,14 @@
 8. Коммерческая перспектива
 
 Позволю себе отметить нечто важное. Legal-tech в Германии — большой и не до конца насыщенный рынок. Существующие решения (LexisNexis Advance, Beck-Online, JurionRS) — массивные корпоративные системы. AI-инструменты (Noxtua, PRIME LEGAL AI, Libra) — закрытые проприетарные.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
+- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
+- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
+- [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
+

@@ -1,5 +1,14 @@
 # 5. Compatibility Levels
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 5. Compatibility Levels
@@ -59,3 +68,14 @@ Portal возвращает static entries.
 - `PortalEntry.is_fallback` явно помечается
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md)
+- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md)
+- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
+- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+

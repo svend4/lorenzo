@@ -1,13 +1,13 @@
-# architecture/ — архитектурные зазоры и контракты
+# architecture
 
-Подтемы:
+**Файлов:** 7
 
-- [`gaps.md`](gaps.md) — пять архитектурных зазоров, которые важнее новых инструментов.
-- [`integration-spec.md`](integration-spec.md) — сводная интеграционная спецификация контрактов.
-- [`card-envelope.md`](card-envelope.md) — Card Envelope.
-- [`evidence-envelope.md`](evidence-envelope.md) — Evidence Envelope.
-- [`memory-write-policy.md`](memory-write-policy.md) — Memory Write Policy.
-- [`skill-tool-policy.md`](skill-tool-policy.md) — Skill and Tool Policy.
-- [`review-record.md`](review-record.md) — Review Record.
+## Содержание
 
-> Источник: `deep-research-report (3).md`, разделы «Архитектурные зазоры…» и «Интеграционный контракт…».
+- [card-envelope.md](card-envelope.md) — > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
+- [evidence-envelope.md](evidence-envelope.md) — > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
+- [gaps.md](gaps.md) — > Источник: `deep-research-report (3).md`, раздел «Архитектурные зазоры, которые важнее новых инструментов».
+- [integration-spec.md](integration-spec.md) — > Источник: `deep-research-report (3).md`.
+- [memory-write-policy.md](memory-write-policy.md) — > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
+- [review-record.md](review-record.md) — > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
+- [skill-tool-policy.md](skill-tool-policy.md) — > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».

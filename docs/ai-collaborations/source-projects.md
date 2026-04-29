@@ -1,5 +1,33 @@
 # Source projects — все Хабр-источники в диалоге
 
+<!-- summary -->
+> Полный список Хабр-статей и репозиториев, упомянутых в диалоге `Поиск коллабораций AI проектов`. Сгруппировано тематически. Ссылки даны как есть; перейти можно вручную (заметка: Claude в этом диалоге 
+**Проекты:** Svyazi, Hybrid RAG, Yodoca, NGT Memory, MemNet, LiteLLM, Auto AI Router, AutoResearch
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Прямые аналоги Svyazi](#прямые-аналоги-svyazi)
+- [Память для агентов](#память-для-агентов)
+- [Hardware-near (нейроморфы, термодинамика, in-memory)](#hardware-near-нейроморфы-термодинамика-in-memory)
+- [Workflow / агентные оркестраторы](#workflow-агентные-оркестраторы)
+- [Document parsing / RAG](#document-parsing-rag)
+- [Adversarial / multi-IDE / code review](#adversarial-multi-ide-code-review)
+- [Voice / транскрипция](#voice-транскрипция)
+- [Browser agents / scraping](#browser-agents-scraping)
+- [Tmux village / multi-agent teams](#tmux-village-multi-agent-teams)
+- [Self-improvement / nightly research](#self-improvement-nightly-research)
+- [Прочее (data sources, tools, philosophy)](#прочее-data-sources-tools-philosophy)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, ingestion, local-first, self-improvement, collaboration -->
+
+
+
+
 Полный список Хабр-статей и репозиториев, упомянутых в диалоге `Поиск коллабораций AI проектов`. Сгруппировано тематически. Ссылки даны как есть; перейти можно вручную (заметка: Claude в этом диалоге также давал ссылки в репликах, у некоторых может быть устаревший формат).
 
 ## Прямые аналоги Svyazi
@@ -102,3 +130,14 @@
 | skills.sh — каталог скиллов | https://vc.ru/id744101/2789872 |
 | Docling от IBM Research | https://olegtalks.ru/base/tpost/xn7kev4fa1-docling-gotovim-dannie-dlya-rag-i-llm |
 | Исходная статья Чуяна про Svyazi | https://habr.com/ru/articles/1027724/ |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
+- [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
+

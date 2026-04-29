@@ -1,5 +1,31 @@
 # 8. Implications for Nautilus and OKWF
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [8. Implications for Nautilus and OKWF](#8-implications-for-nautilus-and-okwf)
+  - [8.1. Nautilus as Federated Knowledge Substrate](#81-nautilus-as-federated-knowledge-substrate)
+  - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
+  - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
+  - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
+
+---
+
+<!-- tags: rag, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 8. Implications for Nautilus and OKWF
@@ -103,3 +129,14 @@ The recursive insight is no longer aspirational. It is
 implementable starting next week.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
+- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+

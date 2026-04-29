@@ -1,5 +1,14 @@
 # Результаты последнего поиска — что нашлось и что не нашлось
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).
+
+---
+<!-- tags: anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).
 
 Результаты последнего поиска — что нашлось и что не нашлось
@@ -65,3 +74,14 @@ Multi-session management
 Limitation: developer task automation, не community synthesis
 
 Что взять: agent controller architecture
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
+- [00-question-lorenzo-codename](docs/lorenzo-agent/naming/00-question-lorenzo-codename.md)
+- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+

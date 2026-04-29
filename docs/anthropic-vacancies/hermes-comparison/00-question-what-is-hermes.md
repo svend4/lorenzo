@@ -1,5 +1,14 @@
 # Что такое Hermes Agent (Nous Research, MIT, 95K+ stars)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear
+
+---
+<!-- tags: memory, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Research.
 
 Du hast gesagt: Есть такое агент искусственного интеллекта выпущен недавно Гермес чем он похож или не похож на связку которая была описана выше какие плюсы и минусы по сравнен…
@@ -45,3 +54,14 @@ Termux support (что особенно релевантно для вас, уч
 Запланированные задачи (cron)
 
 Изолированные subagents с собственными контекстами
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
+- [11-pluses-of-hermes](docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md)
+- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
+- [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
+

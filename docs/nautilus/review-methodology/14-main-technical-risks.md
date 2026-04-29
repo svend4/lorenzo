@@ -1,5 +1,14 @@
 # Главные технические риски
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## Главные технические риски
@@ -17,3 +26,14 @@ readiness.
 ```
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [120-главные-технические-риски](docs/02-anthropic-vacancies/120-главные-технические-риски.md)
+- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+

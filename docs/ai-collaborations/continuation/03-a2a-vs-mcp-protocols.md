@@ -1,5 +1,15 @@
 # A2A vs MCP, ансамбль H — MCP/A2A Review Fabric
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, mclaude, AI Factory
+
+---
+<!-- tags: memory, rag, orchestration, ingestion, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 3. Третий новый слой: A2A как протокол для агентов, MCP как протокол для инструментов
@@ -38,3 +48,14 @@ external_send: "human_required"
 card_publish: "human_required"
 memory_episode: "auto_allowed"
 memory_fact: "review_required"
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [07-vs-notion-mem-affine-langgraph](docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
+- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
+

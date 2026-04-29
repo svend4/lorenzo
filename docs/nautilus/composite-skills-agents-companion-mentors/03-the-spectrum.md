@@ -1,5 +1,19 @@
 # Какой под-агент (или какие) должны её обработать
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — 21 учитель индийского йога — спектр между Professional Colleague и Representative Agent.
+
+---
+<!-- tags: orchestration, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — 21 учитель индийского йога — спектр между Professional Colleague и Representative Agent.
 
 Какой под-агент (или какие) должны её обработать
@@ -117,3 +131,14 @@ Pattern Library (общие методологии и подходы)
 Honestly, я склоняюсь рекомендовать третий вариант. Шесть документов — это уже substantial intellectual product. Композитный Агент как концепция важен и заслуживает фиксации, но добавлять седьмой полный документ может быть перегрузкой. Эта заметка может служить архитектурным дополнением к шестому, которое вы можете в любой момент развить, если будет нужно.
 
 Но решение ваше.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [02-what-was-missing-in-paper-6](docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md)
+- [01-yogi-metaphor](docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md)
+- [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
+

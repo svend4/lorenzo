@@ -1,5 +1,15 @@
 # Svyazi
 
+<!-- summary -->
+> - **Источник:** Хабр citeturn41search0
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: knowledge, ingestion, architecture, roadmap, collaboration -->
+
+
+
+
 - **Автор:** Андрей Чуян
 - **Источник:** Хабр citeturn41search0
 - **Лицензия:** код закрыт. citeturn41search0
@@ -19,3 +29,14 @@
 - LLM + детерминированный код
 - CardIndex
 - Privacy by design
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [rufler](docs/svyazi-2-0/components/rufler.md)
+- [memnet](docs/svyazi-2-0/components/memnet.md)
+- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
+- [yodoca](docs/svyazi-2-0/components/yodoca.md)
+

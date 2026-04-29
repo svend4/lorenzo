@@ -1,5 +1,15 @@
 # Вопрос: ещё примеры с Хабра по варианту D
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 Du hast gesagt: https://habr.
@@ -49,3 +59,14 @@ Web durchsucht
 Я нашёл несколько проектов, которые соответствуют паттерну Свяжи (Svyazi) — авторские проекты от individual developers с unique angle, не корпоративные продукты. Каждый имеет нечто, что мог бы интересно совместиться с другими.
 
 Проект 1: Свяжи (Svyazi) — Андрей Чуян
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
+- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
+- [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
+- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+

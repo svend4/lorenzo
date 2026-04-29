@@ -1,5 +1,15 @@
 # Svyazi (Андрей Чуян) — детальный обзор
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: knowledge, ingestion, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 Что делает: Гибридная LLM + детерминированная система структурирования участников сообщества. AI извлекает смысл из свободных текстов («занимаюсь бэкендом 7 лет, Go и Python, в k8s два года...»), детерминированный код нормализует. Двухэтапный поиск: фильтр по индексу → LLM-скоринг короткого списка.
@@ -21,3 +31,14 @@ Privacy by design
 Состояние: Закрытый код, но архитектура опубликована детально.
 
 Проект 2: Научный нетворкинг ВШЭ (студенческая команда)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-vshe-scientific-networking](docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md)
+- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
+- [svyazi](docs/svyazi-2-0/components/svyazi.md)
+- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
+

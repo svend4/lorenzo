@@ -1,5 +1,14 @@
 # The Recursive Insight
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ## The Recursive Insight
@@ -54,3 +63,14 @@ to be undertaken by this specific author, given the existing
 work.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
+- [09-what-industry-will-build](docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md)
+- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
+

@@ -1,5 +1,14 @@
 # Practical Recommendations for the Current Project
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ## Practical Recommendations for the Current Project
@@ -48,3 +57,14 @@ using current tools**. It will work. It will have friction.
 The friction will be lower than no infrastructure at all.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+- [07-specific-case](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
+- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+

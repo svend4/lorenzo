@@ -1,5 +1,19 @@
 # 13. REST API Contract (Normative for Portals)
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: rag, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 13. REST API Contract (Normative for Portals)
@@ -122,3 +136,14 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 - `503 adapter_timeout` — все adapters timed out
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
+- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
+- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
+- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+

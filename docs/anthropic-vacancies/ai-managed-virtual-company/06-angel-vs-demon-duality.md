@@ -1,5 +1,14 @@
 # Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
+
+---
+<!-- tags: architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.
 
 Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
@@ -21,3 +30,14 @@
 Слой памяти и координации между суб-агентами. Если у каждого из пяти фрилансеров свой AI-куратор, эти пять кураторов должны между собой общаться. Иначе они дублируют работу, дают противоречивые советы, пропускают integration-bugs. Нужна архитектура shared context — общая память проекта, к которой все пять агентов имеют доступ, плюс протокол коммуникации между ними. Это близко к MCP (Model Context Protocol от Anthropic) + что-то вроде inter-agent message bus. Anthropic Claude Cowork движется ровно в этом направлении, но медленно.
 
 Слой conflict resolution. Что происходит, когда два фрилансера с разными суб-агентами делают несовместимые решения? В классической корпоративной структуре конфликты поднимаются по иерархии — junior → tech lead → manager. В вашей модели мета-агент должен иметь authority разрешать конфликты, но на основании чего? Если мета-агент просто LLM, он склонен к дипломатическому размытию (выбирает compromise, который никому не оптимален). Нужен отдельный механизм — либо human-in-the-loop escalation (живой senior разбирает сложные кейсы), либо objective tests (выбирается то решение, которое прошло больше integration tests), либо weighted voting между несколькими сильными LLM. Это — не решённая проблема в multi-agent systems сегодня.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
+- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
+

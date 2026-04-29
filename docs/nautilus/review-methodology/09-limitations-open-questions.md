@@ -1,5 +1,19 @@
 # 8. Ограничения и открытые вопросы
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: memory, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## 8. Ограничения и открытые вопросы
@@ -52,3 +66,14 @@ transitional state», не удалять header warning, принять
 Revert** для публичных-facing docs.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [115-8-ограничения-и-открытые-вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
+- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+

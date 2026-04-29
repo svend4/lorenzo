@@ -1,5 +1,30 @@
 # 2. What Cowork Provides That InGit Doesn't Need to Build
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [2. What Cowork Provides That InGit Doesn't Need to Build](#2-what-cowork-provides-that-ingit-doesnt-need-to-build)
+  - [2.1. Agentic Task Execution](#21-agentic-task-execution)
+  - [2.2. Persistent Memory Across Sessions](#22-persistent-memory-across-sessions)
+  - [2.3. UI for Knowledge Work](#23-ui-for-knowledge-work)
+  - [2.4. Connector Ecosystem](#24-connector-ecosystem)
+  - [2.5. Computer Use Capability](#25-computer-use-capability)
+  - [2.6. Scheduled Recurring Tasks](#26-scheduled-recurring-tasks)
+  - [2.7. Cross-Platform Availability](#27-cross-platform-availability)
+  - [2.8. What This Removes from InGit Roadmap](#28-what-this-removes-from-ingit-roadmap)
+
+---
+
+<!-- tags: architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 2. What Cowork Provides That InGit Doesn't Need to Build
@@ -105,3 +130,14 @@ substrate**. Substrate is a much more achievable scope for an
 individual developer or small team.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
+- [06-refined-ingit-scope](docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md)
+- [01-cowork-discovery](docs/nautilus/ingit-cowork-en/01-cowork-discovery.md)
+

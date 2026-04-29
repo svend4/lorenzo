@@ -1,5 +1,15 @@
 # Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: rag, knowledge, ingestion, local-first, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 7. Чем Svyazi‑2.0 отличается от Notion AI, Mem, AFFiNE и LangGraph‑стеков
@@ -20,10 +30,21 @@ Mem позиционируется как “AI Thought Partner”: Voice Mode, 
 
 AFFiNE силён как privacy‑first, local‑first, open-source workspace, объединяющий docs, whiteboards и databases; в свежем материале AFFiNE подчёркивает open source, отсутствие vendor lock‑in, local-first владение данными и связку документов/whiteboard/database в одной среде. AFFiNE
 
-AFFiNE может быть отличным UI/vault substrate для Svyazi‑2.0, но сам по себе не даёт Svyazi‑логики: verified/claimed/inferred, CardIndex, collaboration cards, evidence envelope, memory governance, moderation protocol. Иначе говоря, AFFiNE — кандидат на “тело” интерфейса; Svyazi‑2.0 — кандидат на “нервную систему” discovery.
+AFFiNE может быть отличным UI/vault substrate для Svyazi‑2.0, но сам по себе не даёт Svyazi‑логики: verified/claimed/inferred, CardIndex, collaboration cards, Evidence Envelope, memory governance, moderation protocol. Иначе говоря, AFFiNE — кандидат на “тело” интерфейса; Svyazi‑2.0 — кандидат на “нервную систему” discovery.
 
 Против LangGraph‑based RAG систем
 
 LangGraph официально позиционируется как низкоуровневый orchestration framework/runtime для long‑running stateful agents с durable execution, streaming, HITL и persistence. Его persistence layer сохраняет graph state как checkpoints, поддерживает threads, memory, time travel и fault tolerance. Документация LangChain+1
 
 Но LangGraph — это runtime, а не доменная система. Он помогает построить workflow, но не решает сам по себе: какую карточку считать истиной, как отделить proposal от fact, как объяснять коллаборацию, как модерировать inferred‑значения, как нормализовать навыки и проекты. Svyazi‑2.0 может использовать LangGraph‑паттерны для HITL и stateful workflows, но её ценность выше уровня orchestration.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [03-a2a-vs-mcp-protocols](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md)
+- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
+

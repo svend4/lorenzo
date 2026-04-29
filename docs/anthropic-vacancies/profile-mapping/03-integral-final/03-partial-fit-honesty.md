@@ -1,5 +1,14 @@
 # Что такое частичное соответствие — честно
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+---
+<!-- tags: anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 Patent-grade изобретательство (TetraDrone, FlamberRotor, WILOS, Рой роботов-зверей) — на это в Anthropic просто нет места.
@@ -13,3 +22,14 @@ Remote-friendly EMEA + accommodation под health status — Anthropic дела
 Более сильные пути вне Anthropic
 
 Если смотреть beyond one-company-employment, пересечение ваших трёх архетипов намного лучше обслуживается другими конструкциями.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [07-unique-niche-eu-legal-infra](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+

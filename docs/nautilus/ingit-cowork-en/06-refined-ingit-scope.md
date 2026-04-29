@@ -1,5 +1,14 @@
 # 6. Refined InGit Scope with Cowork in Mind
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+<!-- tags: architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 6. Refined InGit Scope with Cowork in Mind
@@ -73,3 +82,14 @@ This is the value of strategic positioning: less work for
 better outcomes.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
+- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+

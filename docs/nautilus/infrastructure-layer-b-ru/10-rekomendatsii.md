@@ -1,5 +1,14 @@
 # Практические рекомендации для текущего проекта
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ## Практические рекомендации для текущего проекта
@@ -61,3 +70,14 @@ AI-вспомогательной разработки новых аспекто
 вообще.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [299-практические-рекомендации-для-текущего-проекта](docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md)
+- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+- [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
+

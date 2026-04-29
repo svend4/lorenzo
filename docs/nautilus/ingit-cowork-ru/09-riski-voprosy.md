@@ -1,5 +1,19 @@
 # 9. Риски и Открытые Вопросы
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
+
+---
+<!-- tags: local-first, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
 
 ## 9. Риски и Открытые Вопросы
@@ -123,3 +137,14 @@ Cowork в настоящее время дорог в использовании
 от любого из них.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [335-9-риски-и-открытые-вопросы](docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md)
+- [04-simbioticheskaya-arkhitektura](docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md)
+- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+- [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
+

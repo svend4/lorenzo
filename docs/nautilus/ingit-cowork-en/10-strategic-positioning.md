@@ -1,5 +1,29 @@
 # 10. Strategic Positioning
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [10. Strategic Positioning](#10-strategic-positioning)
+  - [10.1. InGit as Niche Player](#101-ingit-as-niche-player)
+  - [10.2. Cowork as Distribution Channel](#102-cowork-as-distribution-channel)
+  - [10.3. Open Source as Sustainability](#103-open-source-as-sustainability)
+  - [10.4. The Bigger Pattern](#104-the-bigger-pattern)
+  - [10.5. Author's Position in This](#105-authors-position-in-this)
+  - [10.6. Closing](#106-closing)
+- [Acknowledgments](#acknowledgments)
+
+---
+
+<!-- tags: local-first, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 10. Strategic Positioning
@@ -131,3 +155,14 @@ Either way, the material exists.
 
 This document emerged from author's question about how to 
 integrate InGit specifically with the Cowork tab in Claude
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+- [01-cowork-discovery](docs/nautilus/ingit-cowork-en/01-cowork-discovery.md)
+

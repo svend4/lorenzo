@@ -1,5 +1,15 @@
 # Ансамбль 1 — Agentic Knowledge OS
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** Svyazi, AgentFS, knowledge-space
+
+---
+<!-- tags: memory, rag, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 1. Agentic Knowledge OS: «память для агентов, не для людей»
@@ -31,3 +41,14 @@ Community Brain — Svyazi для сообщества, где карточки 
 Legal/Research Case OS — каждое дело, научная гипотеза или технический проект живёт как набор проверяемых карточек, а агент работает не с «памятью чата», а с устойчивой операционной системой знаний.
 
 Главное новое свойство: агент больше не начинает каждый раз с нуля. Он входит в уже структурированную среду, где есть память, источники, связи, границы и история изменений.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
+- [4-web-to-knowledge-pipeline](docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md)
+- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
+

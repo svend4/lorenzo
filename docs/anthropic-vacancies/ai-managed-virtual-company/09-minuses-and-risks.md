@@ -1,5 +1,19 @@
 # Минусы и риски
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
+
+---
+<!-- tags: orchestration, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека за высокую зарплату.
 
 Минусы и риски, которые я вижу
@@ -37,3 +51,14 @@ Fantastical: коллективный интеллект с AI-mediated consensu
 Средневеково-инженерный. Модель монастыря. AI-агент — настоятель, команда — братья-монахи с чёткими обязанностями (копиист, переводчик, иллюстратор, библиотекарь — в ИТ-переводе: backend, frontend, ML, QA, docs). Задача — коллективный «манускрипт» (продукт). Мотивация — не деньги, а принадлежность к long-term enterprise. Эту модель неожиданно близко воспроизводит некоторые OSS-комьюнити типа Debian.
 
 Конкретный практический вывод
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
+- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [02-four-structural-blockers](docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)
+

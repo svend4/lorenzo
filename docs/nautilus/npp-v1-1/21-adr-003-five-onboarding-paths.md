@@ -1,5 +1,14 @@
 # 21. ADR-003: Five Onboarding Paths as Equal-Rank
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 21. ADR-003: Five Onboarding Paths as Equal-Rank
@@ -28,3 +37,14 @@
 12.6 guidance)
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
+- [19-adr-001-federation-over-merging](docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md)
+- [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
+- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+

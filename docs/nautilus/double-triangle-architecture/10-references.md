@@ -1,5 +1,14 @@
 # References
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
+
+---
+<!-- tags: roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ## References
@@ -46,3 +55,14 @@
 [github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md](https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md) 
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [147-references](docs/02-anthropic-vacancies/147-references.md)
+- [11-dhlab-documents](docs/lorenzo-agent/11-dhlab-documents.md)
+- [09-acknowledgments](docs/nautilus/double-triangle-architecture/09-acknowledgments.md)
+- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+

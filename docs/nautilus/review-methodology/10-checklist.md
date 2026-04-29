@@ -1,5 +1,19 @@
 # 9. Checklist применения методологии
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ## 9. Checklist применения методологии
@@ -38,3 +52,14 @@ prompts (не «продолжи вариант A»)?
 - [ ] Исходные ветки могут быть удалены или archived
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [GITHUB_ISSUES](docs/GITHUB_ISSUES.md)
+- [13-appendix-b-examples](docs/nautilus/review-methodology/13-appendix-b-examples.md)
+- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+

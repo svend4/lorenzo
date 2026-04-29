@@ -1,5 +1,19 @@
 # 3. Registry (`nautilus.json`)
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 3. Registry (`nautilus.json`)
@@ -93,3 +107,14 @@ target-репо вместо локального модуля-адаптера.
 Onboarding Path C (self-declaring repo).
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
+- [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
+

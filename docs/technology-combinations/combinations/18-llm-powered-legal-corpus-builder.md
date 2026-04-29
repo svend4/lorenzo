@@ -1,5 +1,15 @@
 # Комбинация 18: LLM-Powered Legal Corpus Builder
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: rag, knowledge, ingestion, architecture -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -55,3 +65,14 @@ Stats: 50k+ decisions, <1% duplicates, 95% extraction accuracy
 ROI: 10 sec semantic search vs 2 hr manual review
 
 Уникальность: First production-grade legal corpus builder using Crawl4AI + structured LLM extraction. Open-source alternative to paid legal databases.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+- [21-legal-corpus-analytics-at-scale](docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md)
+

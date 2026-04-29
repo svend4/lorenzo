@@ -1,5 +1,15 @@
 # Комбинация 6: OpenClaude (утёкший Claude Code) × ZINC inference engine × MoME-роутер
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** AutoResearch
+
+---
+<!-- tags: self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -37,3 +47,14 @@ AutoResearch Карпатого + Q6-роутер + ZINC:
 Лучший промпт сохраняется, LCI отслеживает стабильность
 
 Утром — отчёт о том, какие эксперты сработали лучше на каких задачах
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
+- [02-multiagentnyy-khaos-reshenie-auto-ai-router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
+- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+

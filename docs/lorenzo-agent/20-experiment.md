@@ -1,5 +1,14 @@
 # Final note: Ты — experiment
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ## Final note: Ты — experiment
@@ -18,3 +27,14 @@
 ---
 
 End of system prompt.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
+- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
+- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
+- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
+

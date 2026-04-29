@@ -1,5 +1,25 @@
 # 1. The Cowork Discovery and Why It Changes Everything
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [1. The Cowork Discovery and Why It Changes Everything](#1-the-cowork-discovery-and-why-it-changes-everything)
+  - [1.1. Document 2.3's Position Was Incomplete](#11-document-23s-position-was-incomplete)
+  - [1.2. What Document 2.3 Got Right](#12-what-document-23-got-right)
+  - [1.3. The Strategic Implication](#13-the-strategic-implication)
+
+---
+
+<!-- tags: rag, local-first, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 1. The Cowork Discovery and Why It Changes Everything
@@ -95,3 +115,14 @@ useful, not after years of development.
 The remainder of this document develops Option C.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
+- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+

@@ -1,5 +1,14 @@
 # Что брать из info repositories — concrete recommendations
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
+
+---
+<!-- tags: architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
 
 Что брать из info repositories — concrete recommendations
@@ -119,3 +128,14 @@ Nautilus Portal Protocol для federation between deployments
 Marketplace layer (longer term) для economy dimension
 
 Это не one-thing-mediator. Эта layered mediation где каждый mediator handles different concern.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-what-info-repos-contain](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)
+- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
+- [05-what-to-do-right-now](docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md)
+- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+

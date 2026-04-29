@@ -1,5 +1,27 @@
 # 5. Four Integration Paths in Order of Accessibility
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [5. Four Integration Paths in Order of Accessibility](#5-four-integration-paths-in-order-of-accessibility)
+  - [5.1. Path 1 — InGit Project in Cowork (Immediate)](#51-path-1-ingit-project-in-cowork-immediate)
+  - [5.2. Path 2 — InGit MCP Server (Short-Term)](#52-path-2-ingit-mcp-server-short-term)
+  - [5.3. Path 3 — InGit Cowork Project Template (Medium-Term)](#53-path-3-ingit-cowork-project-template-medium-term)
+  - [5.4. Path 4 — Deep Cowork Integration (Long-Term)](#54-path-4-deep-cowork-integration-long-term)
+  - [5.5. Sequencing Logic](#55-sequencing-logic)
+
+---
+
+<!-- tags: rag, orchestration, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 5. Four Integration Paths in Order of Accessibility
@@ -152,3 +174,14 @@ Sequential progression maximizes value at each stage and
 defers complex decisions until evidence is available.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
+- [07-practical-first-steps](docs/nautilus/ingit-cowork-en/07-practical-first-steps.md)
+- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
+- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
+

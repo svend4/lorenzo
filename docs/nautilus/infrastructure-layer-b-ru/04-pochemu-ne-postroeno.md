@@ -1,5 +1,14 @@
 # Почему это не было построено
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
+
+---
+<!-- tags: architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ## Почему это не было построено
@@ -58,3 +67,14 @@ AI-сотрудничество. Каждый инструмент решал
 не существует.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [293-почему-это-не-было-построено](docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md)
+- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
+- [07-rekursivnoe-prozrenie](docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md)
+

@@ -1,5 +1,19 @@
 # Комбинация 32: Consensus-Based Multi-Agent Coordination
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: orchestration, local-first, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -46,3 +60,14 @@ Agent 1 crashes mid-generation → Agent 2 becomes leader → resumes work
 ROI: Resilient multi-agent workflows, no single point of failure
 
 Уникальность: First Raft-coordinated AI agents. Agents elect leader, replicate logs, achieve consensus on task completion. Solves "multiple agents editing same file" problem with distributed consensus.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [34-distributed-event-store-with-paxos](docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+

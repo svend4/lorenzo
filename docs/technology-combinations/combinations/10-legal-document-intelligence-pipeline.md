@@ -1,5 +1,15 @@
 # Комбинация 10: Legal Document Intelligence Pipeline
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+**Проекты:** Svyazi, CardIndex
+
+---
+<!-- tags: rag, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 Родители:
@@ -33,3 +43,14 @@ Graph-RAG links precedents through citations
 ROI: 10 sec queries vs 2 hour manual search
 
 Уникальность: Docling maintains structure, Pydantic validates legal schema, Svyazi deduplicates. Ни один SaaS не делает это для немецкого социального права.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md)
+- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
+- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md)
+- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+

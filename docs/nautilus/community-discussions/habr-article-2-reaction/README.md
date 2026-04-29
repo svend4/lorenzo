@@ -1,8 +1,8 @@
-# Реакция на Habr-статью (2)
+# habr-article-2-reaction
 
-Обсуждение второй конкретной статьи на Habr.
+**Файлов:** 2
 
-## Файлы
+## Содержание
 
-- [`00-question-habr-2.md`](00-question-habr-2.md)
-- [`01-response.md`](01-response.md)
+- [00-question-habr-2.md](00-question-habr-2.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на …
+- [01-response.md](01-response.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на …

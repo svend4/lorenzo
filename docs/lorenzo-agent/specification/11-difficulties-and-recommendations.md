@@ -1,5 +1,20 @@
 # Сложности и рекомендации перед detailed specification
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
+**Проекты:** CardIndex
+
+---
+<!-- tags: rag, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к финальному системному промпту в [`../`](../).
 
 Где сейчас сложности
@@ -332,3 +347,14 @@ My honest recommendation: Choice 2 or Choice 4.
 Choice 2 если хотите thorough thinking before commitment. Choice 4 если хотите concrete small actionable.
 
 Что подходит?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
+

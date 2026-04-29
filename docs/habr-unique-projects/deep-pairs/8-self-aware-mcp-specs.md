@@ -1,5 +1,14 @@
 # Пара 8 — Self-aware MCP × Specs-first архитектура
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+
+---
+<!-- tags: knowledge, architecture, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 Пара 8. Self-aware MCP × Specs-first архитектура
@@ -17,3 +26,14 @@ Self-aware legal MCP — агент знает «сейчас 26 апреля 20
 Ансамбль 1: «Один человек = одна компания»
 
 Возьми пары 1 + 4 + 5 + 6, поставь поверх vault'а из пары 2:
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-pda-llm-as-periphery](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md)
+- [5-browser-agents-headless](docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md)
+- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
+- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md)
+

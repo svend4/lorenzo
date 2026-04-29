@@ -1,5 +1,14 @@
 # Что уже существует в этой нише (Habitica, Codingame, Hackerrank, Pieces)
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo
+
+---
+<!-- tags: orchestration, architecture, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed work.
 
 Что уже существует в этой нише
@@ -17,3 +26,14 @@ Corporate gamification failures. Salesforce TaskForce, IBM Connections, деся
 Metaverse попытки: Horizon Workrooms от Meta, VR Chat, Mozilla Hubs. Эти про виртуальное присутствие. Не про геймификацию работы.
 
 Ключевой инсайт: никто не соединил все три компонента — MMORPG-пространство + AI-слой оркестрации + реальную работу программистов. Вы описываете пересечение, которое пока пустое. Это большое пространство.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-why-stronger-than-it-looks](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md)
+- [04-pluses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
+- [00-question-mmorpg-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md)
+- [03-why-natural-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
+

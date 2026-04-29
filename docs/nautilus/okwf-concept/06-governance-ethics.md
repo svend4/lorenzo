@@ -1,5 +1,14 @@
 # 6. Governance and Ethics
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ## 6. Governance and Ethics
@@ -100,3 +109,14 @@ Foundation will not:
 dignified issues
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [160-6-governance-and-ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+

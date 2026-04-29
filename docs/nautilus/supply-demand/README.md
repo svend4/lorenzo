@@ -1,8 +1,8 @@
-# Спрос рождает предложение
+# supply-demand
 
-Три связанные темы вокруг экономической истины «спрос рождает предложение» применительно к 400-500 вакансиям и роли AI-сборщика команд.
+**Файлов:** 2
 
-| Файл | О чём |
-|---|---|
-| [`00-question-supply-demand.md`](00-question-supply-demand.md) | Вопрос |
-| [`01-three-related-themes.md`](01-three-related-themes.md) | Три связанные темы |
+## Содержание
+
+- [00-question-supply-demand.md](00-question-supply-demand.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — спрос рожда…
+- [01-three-related-themes.md](01-three-related-themes.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — спрос рожда…

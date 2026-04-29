@@ -1,5 +1,25 @@
 # The Specific Case in Front of Us
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [The Specific Case in Front of Us](#the-specific-case-in-front-of-us)
+  - [What we have](#what-we-have)
+  - [What we need but lack](#what-we-need-but-lack)
+  - [What we can do pragmatically](#what-we-can-do-pragmatically)
+
+---
+
+<!-- tags: rag, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ## The Specific Case in Front of Us
@@ -86,3 +106,14 @@ author has technical capability and an existing repository
 infrastructure.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
+- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+

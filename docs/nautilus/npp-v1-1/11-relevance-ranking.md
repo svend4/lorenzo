@@ -1,5 +1,14 @@
 # 11. Relevance Ranking
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 11. Relevance Ranking
@@ -47,3 +56,14 @@ embeddings) могут использоваться, но MUST быть опци
 раздела 11.1 для воспроизводимости между порталами.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
+- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [09-consensus-algorithm](docs/nautilus/npp-v1-1/09-consensus-algorithm.md)
+- [14-sdk](docs/nautilus/npp-v1-1/14-sdk.md)
+

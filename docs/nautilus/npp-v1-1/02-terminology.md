@@ -1,5 +1,14 @@
 # 2. Terminology
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
+
+---
+<!-- tags: rag, architecture, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ## 2. Terminology
@@ -64,3 +73,14 @@ Repos. Описан в `nautilus.json` в поле `bridges` и в passport
 Repo к экосистеме (A–E, см. раздел 12).
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
+- [05-compatibility-levels](docs/nautilus/npp-v1-1/05-compatibility-levels.md)
+

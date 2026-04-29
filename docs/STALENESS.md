@@ -2,9 +2,9 @@
 
 _Порог: 30 дней. Обновлено: 2026-04-29_
 
-Найдено проблем: **145** файлов
+Найдено проблем: **256** файлов
 
-## Без метаданных (нет summary или тегов) — 82 файлов
+## Без метаданных (нет summary или тегов) — 165 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
@@ -12,24 +12,24 @@ _Порог: 30 дней. Обновлено: 2026-04-29_
 | `docs/01-svyazi/QA.md` | 255 | нет summary, нет тегов |
 | `docs/01-svyazi/README.md` | 77 | нет тегов, короткий (77 слов) |
 | `docs/02-anthropic-vacancies/102-доступ-к-данным.md` | 20 | нет summary, нет тегов, короткий (20 слов) |
-| `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | 142 | нет тегов |
-| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | 129 | нет тегов |
+| `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | 148 | нет тегов |
+| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | 135 | нет тегов |
 | `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 41 | нет тегов, короткий (41 слов) |
 | `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` | 91 | нет summary, нет тегов, короткий (91 слов) |
 | `docs/02-anthropic-vacancies/202-12-заключение.md` | 179 | нет тегов |
 | `docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md` | 93 | нет summary, нет тегов, короткий (93 слов) |
 | `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 14 | нет summary, нет тегов, короткий (14 слов) |
 | `docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md` | 140 | нет тегов |
-| `docs/02-anthropic-vacancies/347-твоя-миссия.md` | 104 | нет тегов |
-| `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` | 169 | нет тегов |
-| `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | 71 | нет тегов, короткий (71 слов) |
-| `docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md` | 69 | нет тегов, короткий (69 слов) |
+| `docs/02-anthropic-vacancies/347-твоя-миссия.md` | 110 | нет тегов |
+| `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` | 178 | нет тегов |
+| `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | 77 | нет тегов, короткий (77 слов) |
+| `docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md` | 75 | нет тегов, короткий (75 слов) |
 | `docs/02-anthropic-vacancies/38-content-overview.md` | 97 | нет тегов, короткий (97 слов) |
 | `docs/02-anthropic-vacancies/QA.md` | 360 | нет summary, нет тегов |
 | `docs/03-technology-combinations/QA.md` | 146 | нет summary, нет тегов |
 | `docs/03-technology-combinations/README.md` | 38 | нет тегов, короткий (38 слов) |
 
-## Короткие (< 100 слов, заготовки) — 63 файлов
+## Короткие (< 100 слов, заготовки) — 91 файлов
 
 | Файл | Слов |
 |------|------|
@@ -37,7 +37,7 @@ _Порог: 30 дней. Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` | 92 |
 | `docs/02-anthropic-vacancies/105-review-methodology-md.md` | 64 |
 | `docs/02-anthropic-vacancies/12-content-overview.md` | 29 |
-| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | 62 |
+| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | 68 |
 | `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` | 88 |
 | `docs/02-anthropic-vacancies/126-установка.md` | 86 |
 | `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` | 83 |

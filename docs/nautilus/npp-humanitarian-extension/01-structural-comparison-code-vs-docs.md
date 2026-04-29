@@ -1,5 +1,14 @@
 # Структурное сравнение: код vs гуманитарные документы
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
+
+---
+<!-- tags: rag, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
 
 Структурное сравнение: код vs гуманитарные документы
@@ -250,3 +259,14 @@ legal-nautilus/ ← отдельный приватный репо
 │ ├── jwt_config.json ← API keys
 │ └── access_control.yml
 └── README-LEGAL.md ← инструкция для вашего use case
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
+- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
+- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
+- [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
+

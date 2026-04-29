@@ -1,5 +1,31 @@
 # 3. What InGit Provides That Cowork Lacks
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [3. What InGit Provides That Cowork Lacks](#3-what-ingit-provides-that-cowork-lacks)
+  - [3.1. Structured File Organization](#31-structured-file-organization)
+  - [3.2. Metadata as Code](#32-metadata-as-code)
+  - [3.3. Git-Native Versioning](#33-git-native-versioning)
+  - [3.4. Validation and Quality Control](#34-validation-and-quality-control)
+  - [3.5. Encryption for Sensitive Content](#35-encryption-for-sensitive-content)
+  - [3.6. Offline-First Operation](#36-offline-first-operation)
+  - [3.7. Portability Between AI Platforms](#37-portability-between-ai-platforms)
+  - [3.8. Migration and Interoperability](#38-migration-and-interoperability)
+  - [3.9. What This Means](#39-what-this-means)
+
+---
+
+<!-- tags: ingestion, local-first, architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ## 3. What InGit Provides That Cowork Lacks
@@ -145,3 +171,14 @@ These are exactly the "substrate" qualities. InGit is the
 ground on which Cowork operates effectively.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
+- [04-symbiotic-architecture](docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+

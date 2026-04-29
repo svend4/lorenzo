@@ -1,5 +1,19 @@
 # Claude hat geantwortet: Это исключительно богатый вопрос, и я хочу ответить на н…
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — если гора не идёт к человеку — посредник как коробка передач.
+
+---
+<!-- tags: rag, architecture, roadmap, anthropic, self-improvement -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — если гора не идёт к человеку — посредник как коробка передач.
 
 Claude hat geantwortet: Это исключительно богатый вопрос, и я хочу ответить на него внимательно, потому что в нём — завершающий контур всего, что мы обсуждали всю сессию.
@@ -477,3 +491,14 @@ Personal manifesto — dignified contribution infrastructure for qualified indiv
 Или, если чувствуете, что сначала нужна pause для осмысления — тоже очень reasonable. Мы сгенерировали много material за одну сессию. Allow it to settle perhaps.
 
 Какое направление резонирует сейчас?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [01-three-related-themes](docs/nautilus/supply-demand/01-three-related-themes.md)
+- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
+- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+

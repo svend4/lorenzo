@@ -1,5 +1,15 @@
 # Ансамбль 3 — Forensic RAG
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** LiteParse, Legal RAG, Hybrid RAG, Graph RAG
+
+---
+<!-- tags: rag, knowledge, architecture, self-improvement, collaboration -->
+
+
+
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 3. Forensic RAG: «RAG, которому можно верить глазами»
@@ -35,3 +45,14 @@ Scientific Contradiction Finder — загрузить 40–100 статей и 
 Technical Docs Investigator — для больших кодовых/инженерных корпусов: «где в документации реально написано, что этот API deprecated?» — и сразу подсветка места.
 
 Главное новое свойство: ответ можно проверить за секунду. Не «модель сказала», а «модель сказала, вот страница, вот прямоугольник, вот scoring, вот тип доказательства».
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [B-forensic-rag](docs/svyazi-2-0/ensembles/B-forensic-rag.md)
+- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
+- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+

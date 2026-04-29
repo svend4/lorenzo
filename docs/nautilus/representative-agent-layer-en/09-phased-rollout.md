@@ -1,5 +1,14 @@
 # 9. Phased Rollout Strategy
 
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
+<!-- tags: architecture, roadmap, anthropic -->
+
+
+
+
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ## 9. Phased Rollout Strategy
@@ -99,3 +108,14 @@ Slow, careful deployment is more likely to result in
 durable, beneficial infrastructure than rapid scaling.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
+- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md)
+- [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
+- [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+

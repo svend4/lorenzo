@@ -1,8 +1,8 @@
-# Инновация как переход состояний
+# innovation-transitions
 
-Метафора: инновация — это переход из одного состояния в другое (паровоз → тепловоз). Применение к разработке Nautilus и DHLab.
+**Файлов:** 2
 
-| Файл | О чём |
-|---|---|
-| [`00-question-innovations-transitions.md`](00-question-innovations-transitions.md) | Вопрос про инновации как переходы |
-| [`01-response.md`](01-response.md) | Ответ |
+## Содержание
+
+- [00-question-innovations-transitions.md](00-question-innovations-transitions.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — инновация к…
+- [01-response.md](01-response.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — инновация к…

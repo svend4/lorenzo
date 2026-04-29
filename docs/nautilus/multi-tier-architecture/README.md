@@ -1,8 +1,8 @@
-# Многоуровневая архитектура NPP
+# multi-tier-architecture
 
-Стратегически значимый вопрос: общая база (Nautilus) к которой подключаются конкретные приватные / частные / личные проекты дел.
+**Файлов:** 2
 
-| Файл | О чём |
-|---|---|
-| [`00-question-multi-tier.md`](00-question-multi-tier.md) | Вопрос про многоуровневую архитектуру |
-| [`01-strategic-significance.md`](01-strategic-significance.md) | Стратегическая значимость и ответ |
+## Содержание
+
+- [00-question-multi-tier.md](00-question-multi-tier.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — многоуровне…
+- [01-strategic-significance.md](01-strategic-significance.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — многоуровне…
