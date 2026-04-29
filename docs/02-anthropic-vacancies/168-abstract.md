@@ -1,5 +1,12 @@
 # Abstract
 
+<!-- summary -->
+> We introduce the **Representative Agent Layer** — an architectural
+
+---
+
+
+
 ## Abstract
 
 We introduce the **Representative Agent Layer** — an architectural 

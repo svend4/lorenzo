@@ -1,5 +1,12 @@
 # with Anthropic's Cowork Platform
 
+<!-- summary -->
+> **Document type:** Practical implementation paper, building
+
+---
+
+
+
 ## with Anthropic's Cowork Platform
 
 **Document type:** Practical implementation paper, building 

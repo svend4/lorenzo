@@ -1,5 +1,12 @@
 # 6. Refined InGit Scope with Cowork in Mind
 
+<!-- summary -->
+> The original InGit roadmap (10-16 months to v1.0) reflected
+
+---
+
+
+
 ## 6. Refined InGit Scope with Cowork in Mind
 
 The original InGit roadmap (10-16 months to v1.0) reflected 

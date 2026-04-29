@@ -1,5 +1,12 @@
 # 12. Versioning Policy
 
+<!-- summary -->
+> - **Major** (v1 → v2): breaking changes в interfaces или schemas
+
+---
+
+
+
 ## 12. Versioning Policy
 
 ### 12.1. Semver

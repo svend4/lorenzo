@@ -1,5 +1,12 @@
 # 11. Relevance Ranking
 
+<!-- summary -->
+> v1.1 нормализует алгоритм ранжирования из reference implementation.
+
+---
+
+
+
 ## 11. Relevance Ranking
 
 v1.1 нормализует алгоритм ранжирования из reference implementation.

@@ -1,5 +1,12 @@
 # 4. The Symbiotic Architecture
 
+<!-- summary -->
+> The combination of InGit and Cowork creates an architecture
+
+---
+
+
+
 ## 4. The Symbiotic Architecture
 
 The combination of InGit and Cowork creates an architecture 

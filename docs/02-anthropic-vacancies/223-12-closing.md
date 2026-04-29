@@ -1,5 +1,12 @@
 # 12. Closing
 
+<!-- summary -->
+> The Representative Agent Layer paper, when first written,
+
+---
+
+
+
 ## 12. Closing
 
 The Representative Agent Layer paper, when first written,

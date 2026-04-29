@@ -1,5 +1,12 @@
 # PORTAL-PROTOCOL.md
 
+<!-- summary -->
+> **Status:** Draft (Working Document)
+
+---
+
+
+
 ## PORTAL-PROTOCOL.md
 markdown
 ```markdown

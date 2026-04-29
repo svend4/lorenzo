@@ -1,5 +1,12 @@
 # 8. Risk Analysis
 
+<!-- summary -->
+> **Impact**: High (foundational failure)
+
+---
+
+
+
 ## 8. Risk Analysis
 
 ### 8.1. Risk: Insufficient Demand from Target Contributor Population

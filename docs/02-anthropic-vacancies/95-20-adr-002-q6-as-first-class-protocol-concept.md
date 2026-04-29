@@ -1,5 +1,12 @@
 # 20. ADR-002: Q6 as First-Class Protocol Concept
 
+<!-- summary -->
+> **Status**: Accepted (new in v1.1)
+
+---
+
+
+
 ## 20. ADR-002: Q6 as First-Class Protocol Concept
 
 **Status**: Accepted (new in v1.1)

@@ -1,5 +1,12 @@
 # Abstract
 
+<!-- summary -->
+> Document 2.3 identified Layer B — the missing infrastructure
+
+---
+
+
+
 ## Abstract
 
 Document 2.3 identified Layer B — the missing infrastructure 

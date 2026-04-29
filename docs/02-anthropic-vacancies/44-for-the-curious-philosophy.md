@@ -1,5 +1,12 @@
 # For the Curious: Philosophy
 
+<!-- summary -->
+> `info1` реализует идею, что **methodology — это отдельное измерение
+
+---
+
+
+
 ## For the Curious: Philosophy
 
 `info1` реализует идею, что **methodology — это отдельное измерение 

@@ -1,5 +1,12 @@
 # 2. Historical Precedents: Agents as Civilizational Innovation
 
+<!-- summary -->
+> The pattern of representative agents is ancient and recurring.
+
+---
+
+
+
 ## 2. Historical Precedents: Agents as Civilizational Innovation
 
 The pattern of representative agents is ancient and recurring. 

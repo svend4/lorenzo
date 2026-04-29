@@ -1,5 +1,12 @@
 # Appendix D: Connection Diagram
 
+<!-- summary -->
+> The relationship between the seven documents in this series:
+
+---
+
+
+
 ## Appendix D: Connection Diagram
 
 The relationship between the seven documents in this series:

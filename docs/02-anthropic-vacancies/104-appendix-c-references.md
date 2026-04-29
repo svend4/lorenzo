@@ -1,5 +1,12 @@
 # Appendix C: References
 
+<!-- summary -->
+> - RFC 2119 — Key words for use in RFCs to Indicate Requirement Levels
+
+---
+
+
+
 ## Appendix C: References
 
 ### Normative

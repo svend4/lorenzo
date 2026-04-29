@@ -1,5 +1,12 @@
 # passports/meta.md
 
+<!-- summary -->
+> > **Символьный угол экосистемы svend4**
+
+---
+
+
+
 ## passports/meta.md
 markdown
 ```markdown

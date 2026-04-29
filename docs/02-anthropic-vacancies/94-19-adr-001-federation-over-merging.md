@@ -1,5 +1,12 @@
 # 19. ADR-001: Federation over Merging
 
+<!-- summary -->
+> **Status**: Accepted (since v1.0, reaffirmed in v1.1)
+
+---
+
+
+
 ## 19. ADR-001: Federation over Merging
 
 **Status**: Accepted (since v1.0, reaffirmed in v1.1)

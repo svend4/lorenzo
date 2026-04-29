@@ -1,5 +1,12 @@
 # passports/pro2.md
 
+<!-- summary -->
+> > **Семантический угол экосистемы svend4**
+
+---
+
+
+
 ## passports/pro2.md
 markdown
 ```markdown

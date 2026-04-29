@@ -1,5 +1,12 @@
 # Table of Contents
 
+<!-- summary -->
+> 3. **Why Existing Solutions Fail**
+
+---
+
+
+
 ## Table of Contents
 
 1. **Problem Statement**

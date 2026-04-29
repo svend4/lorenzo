@@ -1,5 +1,12 @@
 # The Specific Case in Front of Us
 
+<!-- summary -->
+> The seven documents produced in this session have specific
+
+---
+
+
+
 ## The Specific Case in Front of Us
 
 The seven documents produced in this session have specific 

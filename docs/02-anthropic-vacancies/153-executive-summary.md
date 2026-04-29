@@ -1,5 +1,12 @@
 # Executive Summary
 
+<!-- summary -->
+> The Open Knowledge Work Foundation (OKWF) proposes to build
+
+---
+
+
+
 ## Executive Summary
 
 The Open Knowledge Work Foundation (OKWF) proposes to build 

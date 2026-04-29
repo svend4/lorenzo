@@ -1,5 +1,12 @@
 # Author & Contact
 
+<!-- summary -->
+> **Контакт:** Issues в `github.com/svend4/meta`
+
+---
+
+
+
 ## Author & Contact
 
 **Maintainer:** svend4

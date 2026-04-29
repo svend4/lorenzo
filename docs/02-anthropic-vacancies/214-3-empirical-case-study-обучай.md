@@ -1,5 +1,12 @@
 # 3. Empirical Case Study: «Обучай»
 
+<!-- summary -->
+> We document a successfully deployed Professional Colleague
+
+---
+
+
+
 ## 3. Empirical Case Study: «Обучай»
 
 We document a successfully deployed Professional Colleague

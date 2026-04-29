@@ -1,5 +1,12 @@
 # 5. Economic Model
 
+<!-- summary -->
+> OKWF is not and will not become a for-profit entity. Operational
+
+---
+
+
+
 ## 5. Economic Model
 
 ### 5.1. Budget Philosophy

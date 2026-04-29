@@ -1,5 +1,12 @@
 # 6. Coordination and Disagreement Resolution
 
+<!-- summary -->
+> The composite agent's most subtle function is coordinating
+
+---
+
+
+
 ## 6. Coordination and Disagreement Resolution
 
 The composite agent's most subtle function is coordinating 

@@ -1,5 +1,12 @@
 # References
 
+<!-- summary -->
+> - Anderson, J. R. (1983). *The Architecture of Cognition*.
+
+---
+
+
+
 ## References
 
 ### Foundational Sources for Composite Architecture

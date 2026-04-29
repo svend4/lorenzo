@@ -1,5 +1,12 @@
 # Table of Contents
 
+<!-- summary -->
+> 1. **Why Single-Triangle Models Are Incomplete**
+
+---
+
+
+
 ## Table of Contents
 
 1. **Why Single-Triangle Models Are Incomplete**

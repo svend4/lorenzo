@@ -1,5 +1,12 @@
 # References
 
+<!-- summary -->
+> - Anthropic. (2026, January 12). *Claude Cowork* [Product
+
+---
+
+
+
 ## References
 
 ### Primary External References

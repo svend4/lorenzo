@@ -1,5 +1,12 @@
 # 1. The Cowork Discovery and Why It Changes Everything
 
+<!-- summary -->
+> When Document 2.3 was written earlier in this session, the
+
+---
+
+
+
 ## 1. The Cowork Discovery and Why It Changes Everything
 
 ### 1.1. Document 2.3's Position Was Incomplete

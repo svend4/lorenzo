@@ -1,5 +1,12 @@
 # Bridges
 
+<!-- summary -->
+> **Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `pro2/passport.md`).
+
+---
+
+
+
 ## Bridges
 
 ### `meta ↔ pro2`

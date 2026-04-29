@@ -1,5 +1,12 @@
 # Table of Contents
 
+<!-- summary -->
+> 1. **The Cowork Discovery and Why It Changes Everything**
+
+---
+
+
+
 ## Table of Contents
 
 1. **The Cowork Discovery and Why It Changes Everything**

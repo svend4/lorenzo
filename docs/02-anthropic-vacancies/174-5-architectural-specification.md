@@ -1,5 +1,12 @@
 # 5. Architectural Specification
 
+<!-- summary -->
+> A Representative Agent system consists of seven components:
+
+---
+
+
+
 ## 5. Architectural Specification
 
 ### 5.1. Core Components

@@ -1,5 +1,12 @@
 # 7. Open Questions
 
+<!-- summary -->
+> The Double-Triangle Architecture is proposed as a framework, not
+
+---
+
+
+
 ## 7. Open Questions
 
 The Double-Triangle Architecture is proposed as a framework, not 

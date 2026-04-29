@@ -1,5 +1,12 @@
 # 8. Call to Action
 
+<!-- summary -->
+> The Double-Triangle Architecture is a framework awaiting
+
+---
+
+
+
 ## 8. Call to Action
 
 The Double-Triangle Architecture is a framework awaiting 

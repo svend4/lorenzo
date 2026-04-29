@@ -1,5 +1,12 @@
 # Native Format
 
+<!-- summary -->
+> **Структура файла:** [? уточнить — Markdown с YAML frontmatter, чистый JSON,
+
+---
+
+
+
 ## Native Format
 
 **Расширение:** `.info1`

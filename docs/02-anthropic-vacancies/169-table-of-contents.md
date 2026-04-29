@@ -1,5 +1,12 @@
 # Table of Contents
 
+<!-- summary -->
+> 1. **The Cinderella Syndrome: Why Quality Stays Invisible**
+
+---
+
+
+
 ## Table of Contents
 
 1. **The Cinderella Syndrome: Why Quality Stays Invisible**

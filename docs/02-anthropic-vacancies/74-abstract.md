@@ -1,5 +1,12 @@
 # Abstract
 
+<!-- summary -->
+> Nautilus Portal Protocol (далее — **NPP**) определяет способ федерации
+
+---
+
+
+
 ## Abstract
 
 Nautilus Portal Protocol (далее — **NPP**) определяет способ федерации 

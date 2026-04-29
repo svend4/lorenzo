@@ -1,5 +1,13 @@
 # Введение
 
+<!-- summary -->
+> **[Запрос]** https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakansiy-s-zarplatoy-do-405000 подробнее про вакансии которые есть краткое описание по
+**Проекты:** Graph RAG, SENTINEL
+
+---
+
+
+
 **[Запрос]** https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakansiy-s-zarplatoy-do-405000 подробнее про вакансии которые есть краткое описание по кластерам
 
 Выявил недостаток информации, планировал поиск официальных данных Anthropic

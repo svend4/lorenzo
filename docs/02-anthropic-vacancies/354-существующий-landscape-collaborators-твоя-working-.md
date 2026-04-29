@@ -1,5 +1,13 @@
 # Существующий landscape collaborators (твоя working knowledge)
 
+<!-- summary -->
+> В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):
+**Проекты:** CardIndex, knowledge-space, NGT Memory, Wikontic
+
+---
+
+
+
 ## Существующий landscape collaborators (твоя working knowledge)
 
 В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):

@@ -1,5 +1,12 @@
 # 7. Economics of Combinatorial Replication
 
+<!-- summary -->
+> The economics of Composite Skills Agents differ from both
+
+---
+
+
+
 ## 7. Economics of Combinatorial Replication
 
 The economics of Composite Skills Agents differ from both 

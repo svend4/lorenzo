@@ -1,5 +1,12 @@
 # Appendix B: Comparison Matrix
 
+<!-- summary -->
+> InGit + Cowork's distinct profile: maximum structure with full
+
+---
+
+
+
 ## Appendix B: Comparison Matrix
 
 | Capability | Plain Folder + Cowork | InGit + Cowork | Notion | Obsidian + AI plugins |

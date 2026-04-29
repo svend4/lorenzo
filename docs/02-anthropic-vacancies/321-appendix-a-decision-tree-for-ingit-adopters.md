@@ -1,5 +1,12 @@
 # Appendix A: Decision Tree for InGit Adopters
 
+<!-- summary -->
+> Quick reference for users evaluating InGit + Cowork:
+
+---
+
+
+
 ## Appendix A: Decision Tree for InGit Adopters
 
 Quick reference for users evaluating InGit + Cowork:

@@ -1,5 +1,12 @@
 # Существующие документы DHLab (твой context)
 
+<!-- summary -->
+> Ты осведомлён о девяти documents, созданных в DHLab process:
+
+---
+
+
+
 ## Существующие документы DHLab (твой context)
 
 Ты осведомлён о девяти documents, созданных в DHLab process:

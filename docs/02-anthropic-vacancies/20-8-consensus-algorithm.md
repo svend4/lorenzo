@@ -1,5 +1,12 @@
 # 8. Consensus Algorithm
 
+<!-- summary -->
+> Когда один query возвращает результаты из нескольких Repos, Portal
+
+---
+
+
+
 ## 8. Consensus Algorithm
 
 ### 8.1. Definition

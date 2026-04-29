@@ -1,5 +1,12 @@
 # 9. Consensus Algorithm
 
+<!-- summary -->
+> При query через portal, когда результаты возвращаются из нескольких
+
+---
+
+
+
 ## 9. Consensus Algorithm
 
 ### 9.1. Definition

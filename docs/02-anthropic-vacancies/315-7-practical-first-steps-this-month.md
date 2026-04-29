@@ -1,5 +1,12 @@
 # 7. Practical First Steps This Month
 
+<!-- summary -->
+> Concrete actions for the immediate term.
+
+---
+
+
+
 ## 7. Practical First Steps This Month
 
 Concrete actions for the immediate term.

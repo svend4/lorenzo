@@ -1,5 +1,12 @@
 # 5. The Economics of Profession-Wide Replication
 
+<!-- summary -->
+> A defining feature of Professional Colleague Agents is that
+
+---
+
+
+
 ## 5. The Economics of Profession-Wide Replication
 
 A defining feature of Professional Colleague Agents is that

@@ -1,5 +1,12 @@
 # 4. Passport (`passport.md`)
 
+<!-- summary -->
+> Passport — human-readable описание Repo, расположенное в
+
+---
+
+
+
 ## 4. Passport (`passport.md`)
 
 ### 4.1. Purpose

@@ -1,5 +1,12 @@
 # README.md
 
+<!-- summary -->
+> **Единая точка входа для федеративных git-экосистем знаний.**
+
+---
+
+
+
 ## README.md
 markdown
 ```markdown

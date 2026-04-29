@@ -1,5 +1,12 @@
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
 
+<!-- summary -->
+> **Editorial collaboration:** Claude (intellectual development, 2026-04)
+
+---
+
+
+
 ## AI-Coordinated Infrastructure for Distributed Expert Contribution
 
 **Concept Document**  

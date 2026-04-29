@@ -1,5 +1,12 @@
 # Compatibility Level
 
+<!-- summary -->
+> **Текущий уровень: 3 (Interactive / Bridged)**
+
+---
+
+
+
 ## Compatibility Level
 
 **Текущий уровень: 3 (Interactive / Bridged)**

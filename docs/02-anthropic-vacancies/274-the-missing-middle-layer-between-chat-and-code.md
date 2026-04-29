@@ -1,5 +1,12 @@
 # The Missing Middle Layer Between Chat and Code
 
+<!-- summary -->
+> **Document type:** Inquiry paper, not architectural specification
+
+---
+
+
+
 ## The Missing Middle Layer Between Chat and Code
 
 **Document type:** Inquiry paper, not architectural specification

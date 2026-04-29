@@ -1,5 +1,12 @@
 # 1. Introduction
 
+<!-- summary -->
+> Современные системы управления знаниями (Notion, Obsidian, Roam, Logseq,
+
+---
+
+
+
 ## 1. Introduction
 
 ### 1.1. Motivation

@@ -1,5 +1,12 @@
 # Конфигурация для Claude Desktop
 
+<!-- summary -->
+> После сохранения portal-mcp.py в корне репо, чтобы подключить к Claude Desktop, нужно отредактировать файл конфигурации MCP. Путь зависит от ОС:
+
+---
+
+
+
 ## Конфигурация для Claude Desktop
 После сохранения portal-mcp.py в корне репо, чтобы подключить к Claude Desktop, нужно отредактировать файл конфигурации MCP. Путь зависит от ОС:
 - macOS : ~/Library/Application Support/Claude/claude_desktop_config.json

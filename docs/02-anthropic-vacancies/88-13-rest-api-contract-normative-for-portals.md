@@ -1,5 +1,12 @@
 # 13. REST API Contract (Normative for Portals)
 
+<!-- summary -->
+> v1.1 делает REST API mandatory частью протокола. Это обеспечивает
+
+---
+
+
+
 ## 13. REST API Contract (Normative for Portals)
 
 v1.1 делает REST API mandatory частью протокола. Это обеспечивает 

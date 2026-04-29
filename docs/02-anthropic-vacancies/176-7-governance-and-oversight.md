@@ -1,5 +1,12 @@
 # 7. Governance and Oversight
 
+<!-- summary -->
+> Effective Representative Agent systems require governance
+
+---
+
+
+
 ## 7. Governance and Oversight
 
 ### 7.1. Three Levels of Governance

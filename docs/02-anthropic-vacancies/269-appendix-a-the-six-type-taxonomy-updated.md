@@ -1,5 +1,12 @@
 # Appendix A: The Six-Type Taxonomy (Updated)
 
+<!-- summary -->
+> This paper updates the Professional Colleague Agents v1.0
+
+---
+
+
+
 ## Appendix A: The Six-Type Taxonomy (Updated)
 
 This paper updates the Professional Colleague Agents v1.0 

@@ -1,5 +1,12 @@
 # Angle / Perspective
 
+<!-- summary -->
+> **Methodological** — `info1` смотрит на концепты **с позиции применения**.
+
+---
+
+
+
 ## Angle / Perspective
 
 **Methodological** — `info1` смотрит на концепты **с позиции применения**. 

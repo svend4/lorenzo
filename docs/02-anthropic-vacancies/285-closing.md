@@ -1,5 +1,12 @@
 # Closing
 
+<!-- summary -->
+> The seven documents in this series describe substantial
+
+---
+
+
+
 ## Closing
 
 The seven documents in this series describe substantial 

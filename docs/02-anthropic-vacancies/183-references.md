@@ -1,5 +1,12 @@
 # References
 
+<!-- summary -->
+> - Akerlof, G. (1970). "The Market for Lemons: Quality
+
+---
+
+
+
 ## References
 
 ### Foundational Sources

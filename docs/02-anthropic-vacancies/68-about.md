@@ -1,5 +1,12 @@
 # 🇬🇧 About
 
+<!-- summary -->
+> Nautilus is a **federation protocol** and reference implementation
+
+---
+
+
+
 ## 🇬🇧 About
 
 Nautilus is a **federation protocol** and reference implementation 

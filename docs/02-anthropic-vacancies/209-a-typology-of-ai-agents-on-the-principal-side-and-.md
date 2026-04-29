@@ -1,5 +1,12 @@
 # A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers
 
+<!-- summary -->
+> - Representative Agent Layer v1.0
+
+---
+
+
+
 ## A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers
 
 **Companion paper to:**

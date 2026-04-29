@@ -1,5 +1,12 @@
 # Planned (v0.2.0)
 
+<!-- summary -->
+> - HTTP-mode для debugging и remote access
+
+---
+
+
+
 ## Planned (v0.2.0)
 
 - HTTP-mode для debugging и remote access

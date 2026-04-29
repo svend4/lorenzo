@@ -1,5 +1,12 @@
 # Practical Recommendations for the Current Project
 
+<!-- summary -->
+> For the seven-document Nautilus / OKWF project specifically,
+
+---
+
+
+
 ## Practical Recommendations for the Current Project
 
 For the seven-document Nautilus / OKWF project specifically, 

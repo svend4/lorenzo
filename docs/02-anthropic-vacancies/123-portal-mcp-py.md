@@ -1,5 +1,12 @@
 # portal-mcp.py
 
+<!-- summary -->
+> Exposes Nautilus Portal as Model Context Protocol tools for LLM clients
+
+---
+
+
+
 ## portal-mcp.py
 python
 ```python

@@ -1,5 +1,12 @@
 # 10. QueryResult Structure
 
+<!-- summary -->
+> results_by_repo: dict[str, list[PortalEntry]]
+
+---
+
+
+
 ## 10. QueryResult Structure
 
 ```python

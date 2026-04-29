@@ -1,5 +1,13 @@
 # Local-first и P2P стек
 
+<!-- summary -->
+> - Сложные архитектурные → Claude Opus
+**Проекты:** Svyazi, CardIndex, Yjs
+
+---
+
+
+
 локальная Qwen3:8B
 - Средние → облачная DeepSeek
 - Сложные архитектурные → Claude Opus

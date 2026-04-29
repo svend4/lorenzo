@@ -1,5 +1,12 @@
 # 2. The Double-Triangle Architecture
 
+<!-- summary -->
+> We formalize the architecture using two triangles sharing a common
+
+---
+
+
+
 ## 2. The Double-Triangle Architecture
 
 ### 2.1. Topology

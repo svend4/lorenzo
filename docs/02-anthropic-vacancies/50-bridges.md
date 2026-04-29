@@ -1,5 +1,12 @@
 # Bridges
 
+<!-- summary -->
+> **Q6-concept-depth ↔ α-level**. Глубина концепта в Q6-графе (число
+
+---
+
+
+
 ## Bridges
 
 ### `pro2 ↔ info1`

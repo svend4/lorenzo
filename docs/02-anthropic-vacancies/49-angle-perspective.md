@@ -1,5 +1,12 @@
 # Angle / Perspective
 
+<!-- summary -->
+> **Semantic** — `pro2` смотрит на мир через **структуру значений**.
+
+---
+
+
+
 ## Angle / Perspective
 
 **Semantic** — `pro2` смотрит на мир через **структуру значений**. 

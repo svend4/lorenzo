@@ -1,5 +1,12 @@
 # Appendix A: Connection to Companion Papers
 
+<!-- summary -->
+> This paper builds on three previous documents:
+
+---
+
+
+
 ## Appendix A: Connection to Companion Papers
 
 This paper builds on three previous documents:

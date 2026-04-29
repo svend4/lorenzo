@@ -1,5 +1,12 @@
 # 1. The Five-Type Typology of Principal-Side Agents
 
+<!-- summary -->
+> The Representative Agent Layer paper introduced one type of AI
+
+---
+
+
+
 ## 1. The Five-Type Typology of Principal-Side Agents
 
 The Representative Agent Layer paper introduced one type of AI

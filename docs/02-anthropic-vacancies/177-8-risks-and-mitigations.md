@@ -1,5 +1,12 @@
 # 8. Risks and Mitigations
 
+<!-- summary -->
+> We address eight categories of risk with specific mitigations.
+
+---
+
+
+
 ## 8. Risks and Mitigations
 
 We address eight categories of risk with specific mitigations.

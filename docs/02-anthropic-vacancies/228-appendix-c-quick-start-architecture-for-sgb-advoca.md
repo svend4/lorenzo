@@ -1,5 +1,12 @@
 # Appendix C: Quick-Start Architecture for SGB Advocate Colleague
 
+<!-- summary -->
+> For readers interested in concrete architecture for the
+
+---
+
+
+
 ## Appendix C: Quick-Start Architecture for SGB Advocate Colleague
 
 For readers interested in concrete architecture for the

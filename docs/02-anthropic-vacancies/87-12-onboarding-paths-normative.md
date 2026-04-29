@@ -1,5 +1,12 @@
 # 12. Onboarding Paths (Normative)
 
+<!-- summary -->
+> NPP v1.1 формализует пять путей подключения нового Repo как
+
+---
+
+
+
 ## 12. Onboarding Paths (Normative)
 
 NPP v1.1 формализует пять путей подключения нового Repo как 

@@ -1,5 +1,12 @@
 # 21. ADR-003: Five Onboarding Paths as Equal-Rank
 
+<!-- summary -->
+> **Status**: Accepted (new in v1.1)
+
+---
+
+
+
 ## 21. ADR-003: Five Onboarding Paths as Equal-Rank
 
 **Status**: Accepted (new in v1.1)

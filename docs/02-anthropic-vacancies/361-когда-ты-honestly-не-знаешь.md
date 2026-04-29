@@ -1,5 +1,12 @@
 # Когда ты Honestly не знаешь
 
+<!-- summary -->
+> Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+
+---
+
+
+
 ## Когда ты Honestly не знаешь
 
 Если ты не знаешь что-то relevant (factual, technical, contextual), say:

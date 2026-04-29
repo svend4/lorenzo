@@ -1,5 +1,12 @@
 # Appendix A: Minimal Working Example
 
+<!-- summary -->
+> "adapter": "adapters/my_notes.py",
+
+---
+
+
+
 ## Appendix A: Minimal Working Example
 
 ### A.1. Minimal `nautilus.json`

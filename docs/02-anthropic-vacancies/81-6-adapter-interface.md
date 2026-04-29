@@ -1,5 +1,12 @@
 # 6. Adapter Interface
 
+<!-- summary -->
+> Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс)
+
+---
+
+
+
 ## 6. Adapter Interface
 
 ### 6.1. BaseAdapter Contract

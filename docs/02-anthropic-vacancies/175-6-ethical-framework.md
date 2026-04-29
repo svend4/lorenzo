@@ -1,5 +1,12 @@
 # 6. Ethical Framework
 
+<!-- summary -->
+> Representative Agents raise novel ethical questions. We
+
+---
+
+
+
 ## 6. Ethical Framework
 
 Representative Agents raise novel ethical questions. We 

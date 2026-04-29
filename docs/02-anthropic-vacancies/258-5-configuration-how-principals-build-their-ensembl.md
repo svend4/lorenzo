@@ -1,5 +1,12 @@
 # 5. Configuration: How Principals Build Their Ensembles
 
+<!-- summary -->
+> A central question for Composite Skills Agents: how does a
+
+---
+
+
+
 ## 5. Configuration: How Principals Build Their Ensembles
 
 A central question for Composite Skills Agents: how does a 

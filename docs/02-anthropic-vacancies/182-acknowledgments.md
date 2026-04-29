@@ -1,5 +1,12 @@
 # Acknowledgments
 
+<!-- summary -->
+> This concept emerged through dialogue across multiple
+
+---
+
+
+
 ## Acknowledgments
 
 This concept emerged through dialogue across multiple 

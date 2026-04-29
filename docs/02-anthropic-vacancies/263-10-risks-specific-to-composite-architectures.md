@@ -1,5 +1,12 @@
 # 10. Risks Specific to Composite Architectures
 
+<!-- summary -->
+> Composite Skills Agents inherit some risks from Professional
+
+---
+
+
+
 ## 10. Risks Specific to Composite Architectures
 
 Composite Skills Agents inherit some risks from Professional 

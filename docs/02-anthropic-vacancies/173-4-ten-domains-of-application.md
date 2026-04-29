@@ -1,5 +1,12 @@
 # 4. Ten Domains of Application
 
+<!-- summary -->
+> The Representative Agent pattern applies broadly. We identify
+
+---
+
+
+
 ## 4. Ten Domains of Application
 
 The Representative Agent pattern applies broadly. We identify 

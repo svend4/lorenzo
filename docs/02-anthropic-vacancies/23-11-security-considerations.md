@@ -1,5 +1,12 @@
 # 11. Security Considerations
 
+<!-- summary -->
+> Adapters выполняются внутри Portal-процесса. Portal MUST обрабатывать
+
+---
+
+
+
 ## 11. Security Considerations
 
 ### 11.1. Untrusted Adapters

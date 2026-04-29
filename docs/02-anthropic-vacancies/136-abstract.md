@@ -1,5 +1,12 @@
 # Abstract
 
+<!-- summary -->
+> We introduce the **Double-Triangle Architecture** for human-AI
+
+---
+
+
+
 ## Abstract
 
 We introduce the **Double-Triangle Architecture** for human-AI 

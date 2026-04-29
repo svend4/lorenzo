@@ -1,5 +1,12 @@
 # 14. SDK Contract (Informative)
 
+<!-- summary -->
+> Reference implementation предоставляет Python SDK (`nautilus_sdk.py`).
+
+---
+
+
+
 ## 14. SDK Contract (Informative)
 
 Reference implementation предоставляет Python SDK (`nautilus_sdk.py`). 

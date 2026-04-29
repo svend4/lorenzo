@@ -1,5 +1,12 @@
 # 8. Pilot Proposal: SGB Advocate Colleague
 
+<!-- summary -->
+> We now apply the Professional Colleague Agent framework to a
+
+---
+
+
+
 ## 8. Pilot Proposal: SGB Advocate Colleague
 
 We now apply the Professional Colleague Agent framework to a

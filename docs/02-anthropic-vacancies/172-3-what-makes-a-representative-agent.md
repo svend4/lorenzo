@@ -1,5 +1,12 @@
 # 3. What Makes a Representative Agent
 
+<!-- summary -->
+> A Representative Agent is distinct from existing AI categories.
+
+---
+
+
+
 ## 3. What Makes a Representative Agent
 
 A Representative Agent is distinct from existing AI categories. 

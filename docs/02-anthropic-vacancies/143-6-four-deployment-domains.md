@@ -1,5 +1,12 @@
 # 6. Four Deployment Domains
 
+<!-- summary -->
+> The Double-Triangle Architecture is domain-agnostic but benefits
+
+---
+
+
+
 ## 6. Four Deployment Domains
 
 The Double-Triangle Architecture is domain-agnostic but benefits 

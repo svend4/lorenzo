@@ -1,5 +1,12 @@
 # Подключение к Claude Desktop
 
+<!-- summary -->
+> ~/Library/Application Support/Claude/claude_desktop_config.json
+
+---
+
+
+
 ## Подключение к Claude Desktop
 
 ### macOS

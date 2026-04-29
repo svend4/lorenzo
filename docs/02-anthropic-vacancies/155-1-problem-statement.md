@@ -1,5 +1,12 @@
 # 1. Problem Statement
 
+<!-- summary -->
+> The AI industry in 2026 exhibits an apparent paradox. Frontier
+
+---
+
+
+
 ## 1. Problem Statement
 
 ### 1.1. The Paradox of Abundant Demand and Underutilized Supply

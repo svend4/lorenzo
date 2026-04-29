@@ -1,5 +1,12 @@
 # 9. Risks and Open Questions
 
+<!-- summary -->
+> Several uncertainties merit explicit attention.
+
+---
+
+
+
 ## 9. Risks and Open Questions
 
 Several uncertainties merit explicit attention.

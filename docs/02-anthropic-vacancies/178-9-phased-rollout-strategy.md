@@ -1,5 +1,12 @@
 # 9. Phased Rollout Strategy
 
+<!-- summary -->
+> A responsible deployment of Representative Agent technology
+
+---
+
+
+
 ## 9. Phased Rollout Strategy
 
 A responsible deployment of Representative Agent technology 

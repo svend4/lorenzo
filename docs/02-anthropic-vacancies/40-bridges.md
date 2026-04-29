@@ -1,5 +1,12 @@
 # Bridges
 
+<!-- summary -->
+> **α-level ↔ Q6-concept-depth**. Уровень α в `info1` коррелирует с
+
+---
+
+
+
 ## Bridges
 
 ### `info1 ↔ pro2`

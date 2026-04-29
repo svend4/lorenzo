@@ -1,5 +1,12 @@
 # 10. Strategic Positioning
 
+<!-- summary -->
+> Closing thoughts on broader strategic implications.
+
+---
+
+
+
 ## 10. Strategic Positioning
 
 Closing thoughts on broader strategic implications.

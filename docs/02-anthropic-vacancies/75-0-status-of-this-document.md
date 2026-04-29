@@ -1,5 +1,12 @@
 # 0. Status of This Document
 
+<!-- summary -->
+> Этот документ — рабочий черновик Nautilus Portal Protocol v1.1. До
+
+---
+
+
+
 ## 0. Status of This Document
 
 Этот документ — рабочий черновик Nautilus Portal Protocol v1.1. До 

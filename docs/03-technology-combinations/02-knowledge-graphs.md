@@ -1,5 +1,13 @@
 # Графы знаний и Legal AI
 
+<!-- summary -->
+> граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller)
+**Проекты:** Yodoca, Auto AI Router, AutoResearch
+
+---
+
+
+
 граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller)
 - Durable state: граф персистентен между запусками, растёт автоматически
 - Query: вопросы типа "найди дела где § 78 + retroactive budget + BSG" идут через Graph-RAG, не через векторный поиск

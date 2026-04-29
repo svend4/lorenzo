@@ -1,5 +1,12 @@
 # 3. Three Inter-Layer Protocols
 
+<!-- summary -->
+> The architecture requires three formalized protocols between layers.
+
+---
+
+
+
 ## 3. Three Inter-Layer Protocols
 
 The architecture requires three formalized protocols between layers. 

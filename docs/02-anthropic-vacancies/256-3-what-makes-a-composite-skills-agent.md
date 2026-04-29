@@ -1,5 +1,12 @@
 # 3. What Makes a Composite Skills Agent
 
+<!-- summary -->
+> We define the type with precision.
+
+---
+
+
+
 ## 3. What Makes a Composite Skills Agent
 
 We define the type with precision.

@@ -1,5 +1,12 @@
 # References
 
+<!-- summary -->
+> - Conway, M. E. (1968). "How do committees invent?" *Datamation*.
+
+---
+
+
+
 ## References
 
 ### Foundational Sources

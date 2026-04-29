@@ -1,5 +1,12 @@
 # 3. What InGit Provides That Cowork Lacks
 
+<!-- summary -->
+> Equally important: where does InGit add value that Cowork
+
+---
+
+
+
 ## 3. What InGit Provides That Cowork Lacks
 
 Equally important: where does InGit add value that Cowork 

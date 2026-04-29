@@ -1,5 +1,12 @@
 # PORTAL-PROTOCOL.md v1.1
 
+<!-- summary -->
+> **Status:** Draft — пересмотрен под текущую реализацию v1.1
+
+---
+
+
+
 ## PORTAL-PROTOCOL.md v1.1
 markdown
 ```markdown

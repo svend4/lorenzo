@@ -1,5 +1,13 @@
 # Closing
 
+<!-- summary -->
+> The Open Knowledge Work Foundation is proposed as response
+**Проекты:** Svyazi, CardIndex
+
+---
+
+
+
 ## Closing
 
 The Open Knowledge Work Foundation is proposed as response 

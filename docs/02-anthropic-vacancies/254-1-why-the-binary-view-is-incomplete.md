@@ -1,5 +1,12 @@
 # 1. Why the Binary View Is Incomplete
 
+<!-- summary -->
+> Professional Colleague Agents (PCA) v1.0 introduced five types
+
+---
+
+
+
 ## 1. Why the Binary View Is Incomplete
 
 ### 1.1. The Problem with the Existing Taxonomy

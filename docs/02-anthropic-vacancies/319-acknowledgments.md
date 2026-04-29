@@ -1,5 +1,12 @@
 # Acknowledgments
 
+<!-- summary -->
+> This document emerged from author's question about how to
+
+---
+
+
+
 ## Acknowledgments
 
 This document emerged from author's question about how to 

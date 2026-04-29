@@ -1,5 +1,12 @@
 # The Two-Layer Stack As It Exists
 
+<!-- summary -->
+> Currently, AI-collaborative work tends to occur in one of two
+
+---
+
+
+
 ## The Two-Layer Stack As It Exists
 
 Currently, AI-collaborative work tends to occur in one of two 

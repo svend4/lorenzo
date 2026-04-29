@@ -1,5 +1,12 @@
 # 12. Call for Collaboration
 
+<!-- summary -->
+> This paper opens questions that require multi-stakeholder
+
+---
+
+
+
 ## 12. Call for Collaboration
 
 This paper opens questions that require multi-stakeholder 

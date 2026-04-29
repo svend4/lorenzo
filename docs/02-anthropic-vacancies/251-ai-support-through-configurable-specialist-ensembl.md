@@ -1,5 +1,12 @@
 # AI Support Through Configurable Specialist Ensembles
 
+<!-- summary -->
+> - Professional Colleague Agents v1.0
+
+---
+
+
+
 ## AI Support Through Configurable Specialist Ensembles
 
 **Companion paper to:**

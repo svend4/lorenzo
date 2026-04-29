@@ -1,5 +1,12 @@
 # 16. MCP Extension (Informative)
 
+<!-- summary -->
+> NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED
+
+---
+
+
+
 ## 16. MCP Extension (Informative)
 
 NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED 

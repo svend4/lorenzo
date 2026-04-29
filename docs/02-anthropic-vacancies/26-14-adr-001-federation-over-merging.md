@@ -1,5 +1,12 @@
 # 14. ADR-001: Federation over Merging
 
+<!-- summary -->
+> **Context:** При построении системы knowledge management встаёт
+
+---
+
+
+
 ## 14. ADR-001: Federation over Merging
 
 **Status:** Accepted

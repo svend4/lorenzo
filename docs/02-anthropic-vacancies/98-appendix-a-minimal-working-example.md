@@ -1,5 +1,12 @@
 # Appendix A: Minimal Working Example
 
+<!-- summary -->
+> "passport": "passports/my_notes.md",
+
+---
+
+
+
 ## Appendix A: Minimal Working Example
 
 ### A.1. Minimal `nautilus.json`

@@ -1,5 +1,12 @@
 # Appendix C: Version History
 
+<!-- summary -->
+> Initial consolidating draft. Synthesizes work across PORTAL-PROTOCOL
+
+---
+
+
+
 ## Appendix C: Version History
 
 ### v1.0.0-draft (2026-04-19)

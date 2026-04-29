@@ -1,5 +1,12 @@
 # Acknowledgments
 
+<!-- summary -->
+> This paper emerged through dialogue with Claude (Anthropic)
+
+---
+
+
+
 ## Acknowledgments
 
 This paper emerged through dialogue with Claude (Anthropic)

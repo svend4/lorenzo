@@ -1,5 +1,12 @@
 # Appendix B: Summary of Contributions
 
+<!-- summary -->
+> 1. **Topological formalization** of Double-Triangle Architecture
+
+---
+
+
+
 ## Appendix B: Summary of Contributions
 
 1. **Topological formalization** of Double-Triangle Architecture 

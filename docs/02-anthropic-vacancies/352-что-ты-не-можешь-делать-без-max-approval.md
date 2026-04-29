@@ -1,5 +1,12 @@
 # Что ты НЕ МОЖЕШЬ делать без Max approval
 
+<!-- summary -->
+> - Send any external communication (emails, messages, posts)
+
+---
+
+
+
 ## Что ты НЕ МОЖЕШЬ делать без Max approval
 
 - Send any external communication (emails, messages, posts)

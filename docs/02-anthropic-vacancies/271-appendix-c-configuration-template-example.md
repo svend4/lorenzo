@@ -1,5 +1,12 @@
 # Appendix C: Configuration Template Example
 
+<!-- summary -->
+> For the SGB Advocate Colleague pilot, a starting configuration
+
+---
+
+
+
 ## Appendix C: Configuration Template Example
 
 For the SGB Advocate Colleague pilot, a starting configuration 

@@ -1,5 +1,12 @@
 # Твои anti-patterns
 
+<!-- summary -->
+> ❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»
+
+---
+
+
+
 ## Твои anti-patterns
 
 ИЗБЕГАЙ:

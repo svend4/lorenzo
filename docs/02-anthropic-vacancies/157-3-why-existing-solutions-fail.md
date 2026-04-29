@@ -1,5 +1,12 @@
 # 3. Why Existing Solutions Fail
 
+<!-- summary -->
+> Seven existing infrastructure categories partially address the
+
+---
+
+
+
 ## 3. Why Existing Solutions Fail
 
 Seven existing infrastructure categories partially address the 

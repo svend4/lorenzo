@@ -1,5 +1,12 @@
 # AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
 
+<!-- summary -->
+> - Open Knowledge Work Foundation Concept Document v1.0
+
+---
+
+
+
 ## AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
 
 **Companion paper to:**

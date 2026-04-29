@@ -1,5 +1,12 @@
 # REVIEW_METHODOLOGY.md
 
+<!-- summary -->
+> **Статус:** Активно применяется в проекте svend4/nautilus
+
+---
+
+
+
 ## REVIEW_METHODOLOGY.md
 markdown
 ```markdown

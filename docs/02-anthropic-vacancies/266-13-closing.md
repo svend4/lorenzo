@@ -1,5 +1,12 @@
 # 13. Closing
 
+<!-- summary -->
+> Mastery in skilled work has always been composite. The yoga
+
+---
+
+
+
 ## 13. Closing
 
 Mastery in skilled work has always been composite. The yoga 

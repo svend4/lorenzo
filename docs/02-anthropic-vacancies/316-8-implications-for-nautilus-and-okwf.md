@@ -1,5 +1,12 @@
 # 8. Implications for Nautilus and OKWF
 
+<!-- summary -->
+> Beyond InGit specifically, this positioning has implications
+
+---
+
+
+
 ## 8. Implications for Nautilus and OKWF
 
 Beyond InGit specifically, this positioning has implications 

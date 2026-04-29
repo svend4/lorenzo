@@ -1,5 +1,12 @@
 # 4. Nautilus Portal as Reference Substrate
 
+<!-- summary -->
+> The Double-Triangle Architecture requires a substrate capable of:
+
+---
+
+
+
 ## 4. Nautilus Portal as Reference Substrate
 
 The Double-Triangle Architecture requires a substrate capable of:

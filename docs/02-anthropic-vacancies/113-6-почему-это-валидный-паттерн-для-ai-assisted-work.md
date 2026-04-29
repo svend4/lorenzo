@@ -1,5 +1,12 @@
 # 6. Почему это валидный паттерн для AI-assisted workflows
 
+<!-- summary -->
+> Традиционная software engineering оптимизировалась против
+
+---
+
+
+
 ## 6. Почему это валидный паттерн для AI-assisted workflows
 
 Традиционная software engineering оптимизировалась против 

@@ -1,5 +1,12 @@
 # 5. Compatibility Levels
 
+<!-- summary -->
+> NPP определяет 4 уровня совместимости Repo с экосистемой. Это
+
+---
+
+
+
 ## 5. Compatibility Levels
 
 NPP определяет 4 уровня совместимости Repo с экосистемой. Это 

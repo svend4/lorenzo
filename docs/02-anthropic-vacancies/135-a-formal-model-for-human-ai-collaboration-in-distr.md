@@ -1,5 +1,12 @@
 # A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
 
+<!-- summary -->
+> **Editorial review:** Claude (intellectual collaboration, 2026-04)
+
+---
+
+
+
 ## A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
 
 **Draft:** v1.0.0-draft  

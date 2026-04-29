@@ -1,5 +1,12 @@
 # Why This Document Exists
 
+<!-- summary -->
+> The seven preceding documents in this series were produced in
+
+---
+
+
+
 ## Why This Document Exists
 
 The seven preceding documents in this series were produced in 

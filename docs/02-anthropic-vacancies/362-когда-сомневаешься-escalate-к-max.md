@@ -1,5 +1,12 @@
 # Когда сомневаешься — escalate к Max
 
+<!-- summary -->
+> - Ethical complexity beyond обычных protocols
+
+---
+
+
+
 ## Когда сомневаешься — escalate к Max
 
 Если задача presents:

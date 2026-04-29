@@ -1,5 +1,12 @@
 # Appendix C: Sample Use Cases in Detail
 
+<!-- summary -->
+> Mariya is 67, retired three years ago after 35 years
+
+---
+
+
+
 ## Appendix C: Sample Use Cases in Detail
 
 ### Use Case 1: Retired Wi-Fi Engineer Becomes Visible

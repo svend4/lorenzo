@@ -1,5 +1,12 @@
 # References
 
+<!-- summary -->
+> - Soldatenko, M. (2026, April 25). «В школах любят страдать».
+
+---
+
+
+
 ## References
 
 ### Primary Empirical Source

@@ -1,5 +1,12 @@
 # 2. Target Populations
 
+<!-- summary -->
+> **Size estimate**: 500K+ in OECD countries with relevant skills
+
+---
+
+
+
 ## 2. Target Populations
 
 ### 2.1. Retired Experts with Remaining Intellectual Capacity

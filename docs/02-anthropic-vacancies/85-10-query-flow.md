@@ -1,5 +1,12 @@
 # 10. Query Flow
 
+<!-- summary -->
+> 1. Client вызывает `portal.query(q, target_repos=None)`
+
+---
+
+
+
 ## 10. Query Flow
 
 ### 10.1. Lifecycle

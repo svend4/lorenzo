@@ -1,5 +1,12 @@
 # Table of Contents
 
+<!-- summary -->
+> 1. **The Five-Type Typology of Principal-Side Agents**
+
+---
+
+
+
 ## Table of Contents
 
 1. **The Five-Type Typology of Principal-Side Agents**

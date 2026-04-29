@@ -1,5 +1,12 @@
 # 9. Relationship to Other Agent Types
 
+<!-- summary -->
+> Professional Colleague Agents do not stand alone. They
+
+---
+
+
+
 ## 9. Relationship to Other Agent Types
 
 Professional Colleague Agents do not stand alone. They

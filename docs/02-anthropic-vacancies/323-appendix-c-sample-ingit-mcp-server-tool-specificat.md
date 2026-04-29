@@ -1,5 +1,12 @@
 # Appendix C: Sample InGit MCP Server Tool Specifications
 
+<!-- summary -->
+> For reference, here are detailed specifications for first
+
+---
+
+
+
 ## Appendix C: Sample InGit MCP Server Tool Specifications
 
 For reference, here are detailed specifications for first 

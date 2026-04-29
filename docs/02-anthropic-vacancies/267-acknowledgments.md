@@ -1,5 +1,12 @@
 # Acknowledgments
 
+<!-- summary -->
+> The Composite Skills Agent concept emerged from dialogue with
+
+---
+
+
+
 ## Acknowledgments
 
 The Composite Skills Agent concept emerged from dialogue with 

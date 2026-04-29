@@ -1,5 +1,12 @@
 # 7. Phased Rollout Plan
 
+<!-- summary -->
+> - Establish legal entity (non-profit foundation in Germany or
+
+---
+
+
+
 ## 7. Phased Rollout Plan
 
 ### 7.1. Phase 0: Foundation and Funding (Months 1-6)

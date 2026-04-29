@@ -1,5 +1,12 @@
 # Acknowledgments
 
+<!-- summary -->
+> This document emerged from the author's observation, near
+
+---
+
+
+
 ## Acknowledgments
 
 This document emerged from the author's observation, near 

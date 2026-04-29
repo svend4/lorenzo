@@ -1,5 +1,12 @@
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible
 
+<!-- summary -->
+> There is a recurring asymmetry in modern markets — markets for
+
+---
+
+
+
 ## 1. The Cinderella Syndrome: Why Quality Stays Invisible
 
 ### 1.1. The Pattern

@@ -1,5 +1,12 @@
 # What Industry Will Likely Build
 
+<!-- summary -->
+> Independent of what the author does, the industry will move
+
+---
+
+
+
 ## What Industry Will Likely Build
 
 Independent of what the author does, the industry will move 

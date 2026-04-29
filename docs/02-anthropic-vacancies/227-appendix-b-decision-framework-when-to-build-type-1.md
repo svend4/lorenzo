@@ -1,5 +1,12 @@
 # Appendix B: Decision Framework — When to Build Type 1 First
 
+<!-- summary -->
+> For an organization deciding whether to build a Professional
+
+---
+
+
+
 ## Appendix B: Decision Framework — When to Build Type 1 First
 
 For an organization deciding whether to build a Professional

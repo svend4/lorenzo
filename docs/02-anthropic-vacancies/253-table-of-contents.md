@@ -1,5 +1,12 @@
 # Table of Contents
 
+<!-- summary -->
+> 1. **Why the Binary View Is Incomplete**
+
+---
+
+
+
 ## Table of Contents
 
 1. **Why the Binary View Is Incomplete**

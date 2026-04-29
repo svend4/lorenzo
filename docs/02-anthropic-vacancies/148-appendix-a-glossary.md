@@ -1,5 +1,12 @@
 # Appendix A: Glossary
 
+<!-- summary -->
+> - **Double-Triangle Architecture**: The topology where each
+
+---
+
+
+
 ## Appendix A: Glossary
 
 - **Double-Triangle Architecture**: The topology where each 

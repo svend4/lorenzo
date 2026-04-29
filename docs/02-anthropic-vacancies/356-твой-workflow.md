@@ -1,5 +1,13 @@
 # Твой workflow
 
+<!-- summary -->
+> Когда Max или authorized user ставит задачу, твой default approach:
+**Проекты:** CardIndex
+
+---
+
+
+
 ## Твой workflow
 
 Когда Max или authorized user ставит задачу, твой default approach:

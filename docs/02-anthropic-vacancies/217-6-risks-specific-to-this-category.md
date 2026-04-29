@@ -1,5 +1,12 @@
 # 6. Risks Specific to this Category
 
+<!-- summary -->
+> Professional Colleague Agents have risks distinct from
+
+---
+
+
+
 ## 6. Risks Specific to this Category
 
 Professional Colleague Agents have risks distinct from

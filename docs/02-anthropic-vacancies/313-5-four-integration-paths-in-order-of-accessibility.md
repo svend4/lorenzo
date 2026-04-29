@@ -1,5 +1,12 @@
 # 5. Four Integration Paths in Order of Accessibility
 
+<!-- summary -->
+> We identify four paths from most-immediate to most-mature.
+
+---
+
+
+
 ## 5. Four Integration Paths in Order of Accessibility
 
 We identify four paths from most-immediate to most-mature.

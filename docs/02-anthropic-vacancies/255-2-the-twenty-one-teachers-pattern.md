@@ -1,5 +1,12 @@
 # 2. The Twenty-One Teachers Pattern
 
+<!-- summary -->
+> The metaphor that crystallizes this pattern comes from a story
+
+---
+
+
+
 ## 2. The Twenty-One Teachers Pattern
 
 The metaphor that crystallizes this pattern comes from a story 

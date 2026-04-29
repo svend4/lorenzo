@@ -1,5 +1,12 @@
 # passports/info1.md
 
+<!-- summary -->
+> > **Методологический угол экосистемы svend4**
+
+---
+
+
+
 ## passports/info1.md
 markdown
 ```markdown

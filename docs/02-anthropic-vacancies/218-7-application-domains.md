@@ -1,5 +1,12 @@
 # 7. Application Domains
 
+<!-- summary -->
+> We identify nine professions or sub-professions where
+
+---
+
+
+
 ## 7. Application Domains
 
 We identify nine professions or sub-professions where

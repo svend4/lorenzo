@@ -1,5 +1,12 @@
 # Appendix B: Sub-Agent Registry Schema (Sketch)
 
+<!-- summary -->
+> For implementation, sub-agent registry entries might follow
+
+---
+
+
+
 ## Appendix B: Sub-Agent Registry Schema (Sketch)
 
 For implementation, sub-agent registry entries might follow 

@@ -1,5 +1,12 @@
 # 4. Proposed Infrastructure
 
+<!-- summary -->
+> OKWF infrastructure consists of six interlocking layers. Each
+
+---
+
+
+
 ## 4. Proposed Infrastructure
 
 OKWF infrastructure consists of six interlocking layers. Each 

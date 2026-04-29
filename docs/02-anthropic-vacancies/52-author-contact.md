@@ -1,5 +1,12 @@
 # Author & Contact
 
+<!-- summary -->
+> **Contributors:** svend4 + claude (Claude Code агент, ранние
+
+---
+
+
+
 ## Author & Contact
 
 **Maintainer:** svend4

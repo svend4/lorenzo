@@ -1,5 +1,12 @@
 # 8. Seven Domains of Application
 
+<!-- summary -->
+> Composite Skills Agents apply naturally to professions where
+
+---
+
+
+
 ## 8. Seven Domains of Application
 
 Composite Skills Agents apply naturally to professions where 

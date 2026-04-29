@@ -1,5 +1,12 @@
 # What's Missing — Layer B
 
+<!-- summary -->
+> Between chat and repository, there should exist Layer B: an
+
+---
+
+
+
 ## What's Missing — Layer B
 
 Between chat and repository, there should exist Layer B: an 

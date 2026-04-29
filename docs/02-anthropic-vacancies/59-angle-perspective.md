@@ -1,5 +1,12 @@
 # Angle / Perspective
 
+<!-- summary -->
+> **Symbolic** — `meta` смотрит на мир как на **систему дискретных
+
+---
+
+
+
 ## Angle / Perspective
 
 **Symbolic** — `meta` смотрит на мир как на **систему дискретных 

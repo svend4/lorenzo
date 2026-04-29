@@ -1,5 +1,12 @@
 # 4. Architecture of Professional Colleague Agents
 
+<!-- summary -->
+> A Professional Colleague Agent has three distinct internal
+
+---
+
+
+
 ## 4. Architecture of Professional Colleague Agents
 
 ### 4.1. Three-Layer Internal Architecture

@@ -1,5 +1,12 @@
 # 22. Glossary of Reference Examples
 
+<!-- summary -->
+> В качестве иллюстраций используется экосистема `svend4` с 7 Repos:
+
+---
+
+
+
 ## 22. Glossary of Reference Examples
 
 В качестве иллюстраций используется экосистема `svend4` с 7 Repos:

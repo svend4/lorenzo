@@ -1,5 +1,12 @@
 # 1. Why Single-Triangle Models Are Incomplete
 
+<!-- summary -->
+> The AI-assisted knowledge work field currently divides into two
+
+---
+
+
+
 ## 1. Why Single-Triangle Models Are Incomplete
 
 ### 1.1. The Current Landscape

@@ -1,5 +1,12 @@
 # 8. Q6 Space (Normative)
 
+<!-- summary -->
+> Q6 — 6-мерное бинарное пространство {0,1}⁶. Содержит 64 вершины.
+
+---
+
+
+
 ## 8. Q6 Space (Normative)
 
 ### 8.1. Definition

@@ -1,5 +1,12 @@
 # 9. Call for Partnership
 
+<!-- summary -->
+> OKWF is not a solo initiative. Successful launch requires
+
+---
+
+
+
 ## 9. Call for Partnership
 
 OKWF is not a solo initiative. Successful launch requires 

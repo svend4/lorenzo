@@ -1,5 +1,12 @@
 # Appendix B: Change Log
 
+<!-- summary -->
+> - **2026-04: v1.0.0-draft** — Initial draft published.
+
+---
+
+
+
 ## Appendix B: Change Log
 
 - **2026-04: v1.0.0-draft** — Initial draft published.

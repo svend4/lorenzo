@@ -1,5 +1,12 @@
 # 3. Registry (`nautilus.json`)
 
+<!-- summary -->
+> Registry — central source of truth о том, какие Repos входят в
+
+---
+
+
+
 ## 3. Registry (`nautilus.json`)
 
 ### 3.1. Purpose

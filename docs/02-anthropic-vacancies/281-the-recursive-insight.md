@@ -1,5 +1,12 @@
 # The Recursive Insight
 
+<!-- summary -->
+> There is something subtle in all this that warrants explicit
+
+---
+
+
+
 ## The Recursive Insight
 
 There is something subtle in all this that warrants explicit 

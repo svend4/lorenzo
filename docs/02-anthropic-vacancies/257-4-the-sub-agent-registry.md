@@ -1,5 +1,12 @@
 # 4. The Sub-Agent Registry
 
+<!-- summary -->
+> The infrastructure underlying Composite Skills Agents requires
+
+---
+
+
+
 ## 4. The Sub-Agent Registry
 
 The infrastructure underlying Composite Skills Agents requires 

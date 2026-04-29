@@ -1,5 +1,12 @@
 # For the Curious: Philosophy
 
+<!-- summary -->
+> Q6-гиперкуб выбран не случайно. Он одновременно:
+
+---
+
+
+
 ## For the Curious: Philosophy
 
 Q6-гиперкуб выбран не случайно. Он одновременно:

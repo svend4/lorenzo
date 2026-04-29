@@ -1,5 +1,12 @@
 # 12. Closing
 
+<!-- summary -->
+> The Cinderella Syndrome — quality without visibility —
+
+---
+
+
+
 ## 12. Closing
 
 The Cinderella Syndrome — quality without visibility — 

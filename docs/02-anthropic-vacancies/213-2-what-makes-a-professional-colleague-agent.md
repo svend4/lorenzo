@@ -1,5 +1,12 @@
 # 2. What Makes a Professional Colleague Agent
 
+<!-- summary -->
+> We now develop Type 1 in detail.
+
+---
+
+
+
 ## 2. What Makes a Professional Colleague Agent
 
 We now develop Type 1 in detail.

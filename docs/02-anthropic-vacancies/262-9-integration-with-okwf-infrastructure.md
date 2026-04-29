@@ -1,5 +1,12 @@
 # 9. Integration with OKWF Infrastructure
 
+<!-- summary -->
+> Composite Skills Agents fit naturally into the OKWF infrastructure
+
+---
+
+
+
 ## 9. Integration with OKWF Infrastructure
 
 Composite Skills Agents fit naturally into the OKWF infrastructure 

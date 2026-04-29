@@ -1,5 +1,12 @@
 # Abstract
 
+<!-- summary -->
+> The five-type taxonomy introduced in Professional Colleague
+
+---
+
+
+
 ## Abstract
 
 The five-type taxonomy introduced in Professional Colleague 

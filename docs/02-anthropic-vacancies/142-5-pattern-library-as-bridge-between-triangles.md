@@ -1,5 +1,12 @@
 # 5. Pattern Library as Bridge Between Triangles
 
+<!-- summary -->
+> Double-Triangle systems face a fundamental question: how do
+
+---
+
+
+
 ## 5. Pattern Library as Bridge Between Triangles
 
 ### 5.1. The Problem of Shared Knowledge

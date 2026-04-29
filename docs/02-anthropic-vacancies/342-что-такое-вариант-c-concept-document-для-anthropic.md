@@ -1,5 +1,13 @@
 # Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments
 
+<!-- summary -->
+> Anthropic Beneficial Deployments — это команда внутри Anthropic, которая фокусируется на helping AI deployments в high-impact areas. Включает (насколько я знаю):
+**Проекты:** CardIndex, NGT Memory, Wikontic
+
+---
+
+
+
 ## Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments
 ### Контекст
 Anthropic Beneficial Deployments — это команда внутри Anthropic, которая фокусируется на helping AI deployments в high-impact areas. Включает (насколько я знаю):

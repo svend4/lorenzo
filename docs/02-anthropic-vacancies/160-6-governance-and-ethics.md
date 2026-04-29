@@ -1,5 +1,12 @@
 # 6. Governance and Ethics
 
+<!-- summary -->
+> **Board of Directors** (7 members):
+
+---
+
+
+
 ## 6. Governance and Ethics
 
 ### 6.1. Governance Structure
