@@ -189,6 +189,17 @@ GROUPS = {
         "improve_chunk_semantic.py",     # семантические чанки для RAG
         "improve_text_segmenter.py",     # разбивка больших файлов на части
     ],
+    "nlpplus": [
+        # Расширенный NLP-анализ и поиск
+        "improve_textrank.py",           # TextRank резюме без LLM → SUMMARIES.md
+        "improve_heading_audit.py",      # аудит иерархии заголовков
+        "improve_language_split.py",     # RU/EN состав файлов → LANGUAGE_STATS.md
+        "improve_question_extractor.py", # вопросы/гипотезы/TODO → QUESTIONS.md
+        "improve_passive_voice.py",      # пассивный залог и канцеляризмы
+        "improve_empty_sections.py",     # пустые секции-заглушки
+        "improve_faceted_search.py",     # фасетный поиск (запускать с --query)
+        "improve_similar_passages.py",   # похожие абзацы TF-IDF cosine
+    ],
 }
 
 # Скрипты, которые можно пропустить при --fast (медленные)
@@ -215,6 +226,8 @@ SLOW_SCRIPTS = {
     "improve_keyword_index.py",    # строит большой JSON-индекс
     "improve_text_segmenter.py",   # создаёт подпапки с частями
     "improve_passage_retrieval.py",# строит passages.json
+    "improve_similar_passages.py", # попарное TF-IDF сравнение абзацев
+    "improve_textrank.py",         # TextRank на всех файлах
 }
 
 # Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
@@ -227,7 +240,7 @@ LLM_SCRIPTS = {
 
 GROUP_ORDER = ["structure", "index", "analysis", "extract",
                "quality", "graph", "generate", "reports", "export",
-               "cicd", "analytics", "textwork", "deeptext"]
+               "cicd", "analytics", "textwork", "deeptext", "nlpplus"]
 
 # ---------------------------------------------------------------------------
 # Stage 2: условное выполнение по результату предыдущих скриптов
