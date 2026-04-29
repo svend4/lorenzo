@@ -102,3 +102,14 @@ by mission-driven foundations.
 - [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.13)
 - [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+

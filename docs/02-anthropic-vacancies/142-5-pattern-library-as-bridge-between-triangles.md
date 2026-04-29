@@ -150,3 +150,14 @@ efficiently between levels.
 - [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.15)
 - [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.14)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+

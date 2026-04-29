@@ -48,3 +48,14 @@ in walking it.
 - [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.12)
 - [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+

@@ -65,3 +65,14 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 - [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.14)
 - [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.10)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+

@@ -175,3 +175,14 @@ agents inherit this distinction.
 - [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
 - [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
+

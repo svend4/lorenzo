@@ -81,3 +81,14 @@
 - [PRIORITIES](docs/PRIORITIES.md) (сходство 0.17)
 - [SEARCH](docs/SEARCH.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TAGS](docs/TAGS.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [COMPARE](docs/COMPARE.md)
+- [SITEMAP](docs/SITEMAP.md)
+

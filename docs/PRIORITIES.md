@@ -153,3 +153,14 @@
 - [SEARCH](docs/SEARCH.md) (сходство 0.24)
 - [TAGS](docs/TAGS.md) (сходство 0.24)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SITEMAP](docs/SITEMAP.md)
+- [TAGS](docs/TAGS.md)
+- [SEARCH](docs/SEARCH.md)
+- [MISSING](docs/MISSING.md)
+

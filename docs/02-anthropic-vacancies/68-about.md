@@ -228,3 +228,14 @@ consensus-based validation across repos.
 - [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+

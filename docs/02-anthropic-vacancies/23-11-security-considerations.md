@@ -51,3 +51,14 @@ Implementation MUST различать public и private registries и не
 **Похожие документы:**
 - [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.55)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+

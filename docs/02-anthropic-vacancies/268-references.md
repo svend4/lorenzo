@@ -68,3 +68,14 @@
 - [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.18)
 - [225-references](docs/02-anthropic-vacancies/225-references.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
+

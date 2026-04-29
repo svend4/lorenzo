@@ -81,3 +81,14 @@ PortalEntry(
 - [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.12)
 - [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+

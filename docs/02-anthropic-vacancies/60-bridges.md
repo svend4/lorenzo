@@ -31,3 +31,14 @@ bridge.]
 - [40-bridges](docs/02-anthropic-vacancies/40-bridges.md) (сходство 0.22)
 - [50-bridges](docs/02-anthropic-vacancies/50-bridges.md) (сходство 0.21)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
+- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md)
+

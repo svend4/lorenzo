@@ -171,3 +171,14 @@ is this integration.
 - [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.15)
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+

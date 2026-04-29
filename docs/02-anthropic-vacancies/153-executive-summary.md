@@ -64,3 +64,14 @@ stakeholders as basis for dialogue and refinement.
 - [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.17)
 - [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
+- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+

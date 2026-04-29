@@ -124,3 +124,14 @@ Double-Triangle deployments.
 - [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.17)
 - [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
+- [68-about](docs/02-anthropic-vacancies/68-about.md)
+

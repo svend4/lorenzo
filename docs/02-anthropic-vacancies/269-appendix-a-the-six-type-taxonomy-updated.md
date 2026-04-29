@@ -38,3 +38,14 @@ how skilled practice actually structures itself.
 - [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.14)
 - [227-appendix-b-decision-framework-when-to-build-type-1](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [226-appendix-a-comparative-table-five-agent-types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md)
+- [227-appendix-b-decision-framework-when-to-build-type-1](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+

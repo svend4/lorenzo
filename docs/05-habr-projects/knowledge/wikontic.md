@@ -21,3 +21,14 @@ Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive A
 - [README](docs/05-habr-projects/knowledge/README.md) (сходство 0.19)
 - [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md) (сходство 0.10)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md)
+- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
+

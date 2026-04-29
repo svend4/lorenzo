@@ -134,3 +134,14 @@
 - [ENTITIES](docs/ENTITIES.md) (сходство 0.12)
 - [68-about](docs/02-anthropic-vacancies/68-about.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
+- [ENTITIES](docs/ENTITIES.md)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [68-about](docs/02-anthropic-vacancies/68-about.md)
+

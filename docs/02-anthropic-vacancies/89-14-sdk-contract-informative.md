@@ -46,3 +46,14 @@ acceptable только для debugging/experimental версий.
 **Похожие документы:**
 - [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+

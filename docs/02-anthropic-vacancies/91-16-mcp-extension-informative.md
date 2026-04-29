@@ -36,3 +36,14 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 - [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md) (сходство 0.14)
 - [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
+- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+

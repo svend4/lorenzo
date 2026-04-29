@@ -49,3 +49,14 @@ NPP-compatible, если они:
 - [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.13)
 - [89-14-sdk-contract-informative](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+

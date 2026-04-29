@@ -30,3 +30,14 @@
 - [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md) (сходство 0.37)
 - [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md)
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+

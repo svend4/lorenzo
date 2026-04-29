@@ -28,3 +28,14 @@
 - [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.22)
 - [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md) (сходство 0.20)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+

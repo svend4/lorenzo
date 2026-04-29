@@ -40,3 +40,14 @@
 - [63-history](docs/02-anthropic-vacancies/63-history.md) (сходство 0.18)
 - [48-content-overview](docs/02-anthropic-vacancies/48-content-overview.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [48-content-overview](docs/02-anthropic-vacancies/48-content-overview.md)
+- [63-history](docs/02-anthropic-vacancies/63-history.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+- [43-history](docs/02-anthropic-vacancies/43-history.md)
+

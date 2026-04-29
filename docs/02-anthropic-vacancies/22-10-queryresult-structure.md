@@ -42,3 +42,14 @@ category (сначала full, затем partial, затем singular).
 - [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) (сходство 0.11)
 - [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
+

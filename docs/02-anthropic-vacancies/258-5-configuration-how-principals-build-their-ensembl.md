@@ -145,3 +145,14 @@ modifies their configuration over time.
 - [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.15)
 - [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+

@@ -227,3 +227,14 @@ incremental rather than novel.
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
 - [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+

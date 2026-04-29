@@ -76,3 +76,14 @@ configuration.
 - [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.10)
 - [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.10)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
+

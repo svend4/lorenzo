@@ -49,3 +49,14 @@
 - [CONSISTENCY](docs/CONSISTENCY.md) (сходство 0.16)
 - [README](docs/04-ai-collaborations/README.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PRIORITIES](docs/PRIORITIES.md)
+- [CONSISTENCY](docs/CONSISTENCY.md)
+- [GLOSSARY](docs/GLOSSARY.md)
+- [SITEMAP](docs/SITEMAP.md)
+

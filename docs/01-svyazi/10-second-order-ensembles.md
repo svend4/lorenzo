@@ -68,3 +68,14 @@ flowchart LR
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.13)
 - [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
+- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+

@@ -50,3 +50,14 @@ need to be solved before other work proceeds.
 - [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.15)
 - [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
+- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
+- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
+- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+

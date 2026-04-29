@@ -53,3 +53,14 @@ when AI augments human practice.
 - [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.25)
 - [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.24)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+

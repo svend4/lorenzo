@@ -63,3 +63,14 @@
 - [225-references](docs/02-anthropic-vacancies/225-references.md) (сходство 0.22)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [204-ссылки](docs/02-anthropic-vacancies/204-ссылки.md)
+- [225-references](docs/02-anthropic-vacancies/225-references.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+

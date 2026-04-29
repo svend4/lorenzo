@@ -103,3 +103,14 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 - [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.14)
 - [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
+- [03-local-first](docs/03-technology-combinations/03-local-first.md)
+- [WORD_FREQ](docs/WORD_FREQ.md)
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
+

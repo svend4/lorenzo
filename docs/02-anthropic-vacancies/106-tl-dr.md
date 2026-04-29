@@ -36,3 +36,14 @@
 - [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.14)
 - [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [70-зачем-две-версии-параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
+- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+

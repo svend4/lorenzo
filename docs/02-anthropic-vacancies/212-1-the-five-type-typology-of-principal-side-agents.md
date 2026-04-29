@@ -205,3 +205,14 @@ ethical, and economic framework.
 - [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.18)
 - [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [226-appendix-a-comparative-table-five-agent-types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md)
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
+- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+

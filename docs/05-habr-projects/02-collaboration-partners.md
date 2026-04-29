@@ -23,3 +23,14 @@
 **Похожие документы:**
 - [README](docs/05-habr-projects/README.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+

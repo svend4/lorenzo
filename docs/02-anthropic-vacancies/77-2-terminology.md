@@ -81,3 +81,14 @@ Repo к экосистеме (A–E, см. раздел 12).
 - [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.16)
 - [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+

@@ -29,3 +29,14 @@ markdown
 - [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.21)
 - [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
+- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+

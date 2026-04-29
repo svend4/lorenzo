@@ -71,3 +71,14 @@ work.
 - [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.14)
 - [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
+- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+

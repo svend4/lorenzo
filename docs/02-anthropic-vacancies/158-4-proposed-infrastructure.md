@@ -236,3 +236,14 @@ Community governance operates:
 - [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.18)
 - [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+

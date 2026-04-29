@@ -558,3 +558,14 @@ Wiederholen
 - [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.19)
 - [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
+- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+

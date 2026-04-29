@@ -782,3 +782,14 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 - [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (сходство 0.16)
 - [TABLES](docs/TABLES.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [memnet](docs/05-habr-projects/memory/memnet.md)
+- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [TABLES](docs/TABLES.md)
+- [CONCEPTS](docs/CONCEPTS.md)
+

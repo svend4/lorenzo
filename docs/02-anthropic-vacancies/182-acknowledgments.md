@@ -45,3 +45,14 @@ will be more than enough.
 - [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) (сходство 0.14)
 - [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
+- [224-acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
+

@@ -37,3 +37,14 @@
 - [53-history](docs/02-anthropic-vacancies/53-history.md) (сходство 0.18)
 - [43-history](docs/02-anthropic-vacancies/43-history.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [43-history](docs/02-anthropic-vacancies/43-history.md)
+- [53-history](docs/02-anthropic-vacancies/53-history.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
+

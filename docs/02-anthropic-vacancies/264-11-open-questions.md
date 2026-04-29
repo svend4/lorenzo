@@ -107,3 +107,14 @@ indefinitely; "graduation" may not be the right metaphor.
 - [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.18)
 - [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md)
+

@@ -163,3 +163,14 @@ in distributed systems, adapted for human-AI hybrid execution.
 - [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.17)
 - [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
+- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+

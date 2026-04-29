@@ -60,3 +60,14 @@
 - [124-конфигурация-для-claude-desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md) (сходство 0.23)
 - [130-отладка](docs/02-anthropic-vacancies/130-отладка.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [124-конфигурация-для-claude-desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md)
+- [130-отладка](docs/02-anthropic-vacancies/130-отладка.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+

@@ -139,3 +139,14 @@ flowchart LR
 - [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.16)
 - [03-component-catalog](docs/01-svyazi/03-component-catalog.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [03-component-catalog](docs/01-svyazi/03-component-catalog.md)
+- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
+

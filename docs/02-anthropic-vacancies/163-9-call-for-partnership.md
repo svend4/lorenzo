@@ -106,3 +106,14 @@ section explicitly invites partnership.
 - [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.16)
 - [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+

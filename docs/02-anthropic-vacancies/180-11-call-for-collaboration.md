@@ -82,3 +82,14 @@ prefer honest critics to unreserved enthusiasts.
 - [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.14)
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
+- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+

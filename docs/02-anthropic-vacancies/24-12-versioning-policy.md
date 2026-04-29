@@ -45,3 +45,14 @@ implementation MUST поддерживать **минимум текущую maj
 - [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.14)
 - [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+

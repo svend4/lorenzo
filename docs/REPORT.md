@@ -71,3 +71,14 @@ python scripts/improve_report.py      # этот отчёт
 ---
 
 _Отчёт сгенерирован автоматически · 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEALTH](docs/HEALTH.md)
+- [SITEMAP](docs/SITEMAP.md)
+- [HEATMAP](docs/HEATMAP.md)
+- [STATS](docs/STATS.md)
+

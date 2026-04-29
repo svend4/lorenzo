@@ -33,3 +33,12 @@
 
 ---
 _Дата: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ensemble](docs/templates/ensemble.md)
+- [project-component](docs/templates/project-component.md)
+

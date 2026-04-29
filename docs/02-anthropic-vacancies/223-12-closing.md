@@ -69,3 +69,14 @@ walking it.
 - [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.21)
 - [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+

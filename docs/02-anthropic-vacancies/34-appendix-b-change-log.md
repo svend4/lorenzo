@@ -55,3 +55,14 @@ Appendix A с minimal working example — это критично. Внешни�
 - [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) (сходство 0.12)
 - [64-for-the-curious-philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [64-for-the-curious-philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md)
+

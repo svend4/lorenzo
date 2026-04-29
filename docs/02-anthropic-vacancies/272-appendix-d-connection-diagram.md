@@ -318,3 +318,14 @@ Pero никто не построил yet what you described. Это opportunity
 - [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.15)
 - [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+

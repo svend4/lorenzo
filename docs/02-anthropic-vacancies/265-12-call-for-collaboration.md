@@ -85,3 +85,14 @@ match actual technology architecture.
 - [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+

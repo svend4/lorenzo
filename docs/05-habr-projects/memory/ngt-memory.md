@@ -28,3 +28,14 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 **Похожие документы:**
 - [wikontic](docs/05-habr-projects/knowledge/wikontic.md) (сходство 0.10)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
+- [NARRATIVE](docs/NARRATIVE.md)
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+

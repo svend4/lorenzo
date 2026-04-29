@@ -317,3 +317,14 @@
 - `docs/02-anthropic-vacancies/56-essence.md` — _56-essence_
 
 _...и ещё 90 малых кластеров (по 1-2 файла)_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SEARCH](docs/SEARCH.md)
+- [READING_ORDER](docs/READING_ORDER.md)
+- [TAGS](docs/TAGS.md)
+- [COMPARE](docs/COMPARE.md)
+

@@ -29,3 +29,14 @@
 - [PRIORITIES](docs/PRIORITIES.md) (сходство 0.14)
 - [MISSING](docs/MISSING.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DENSITY](docs/DENSITY.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [HEATMAP](docs/HEATMAP.md)
+- [MISSING](docs/MISSING.md)
+

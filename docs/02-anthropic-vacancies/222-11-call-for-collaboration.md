@@ -78,3 +78,14 @@ practitioners during framework development valuable.
 - [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.15)
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
+

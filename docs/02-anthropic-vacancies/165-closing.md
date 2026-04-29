@@ -542,3 +542,14 @@ Story тверже становится. «Infrastructure для distributed wor
 - [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.18)
 - [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPTS](docs/CONCEPTS.md)
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+

@@ -30,3 +30,14 @@
 - [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md) (сходство 0.14)
 - [46-essence](docs/02-anthropic-vacancies/46-essence.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [36-essence](docs/02-anthropic-vacancies/36-essence.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
+- [46-essence](docs/02-anthropic-vacancies/46-essence.md)
+

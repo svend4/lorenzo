@@ -443,3 +443,14 @@ README — на двух языках минимум. Русский как prim
 - [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.12)
 - [TABLES](docs/TABLES.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TIMELINE](docs/TIMELINE.md)
+- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
+- [DECISIONS](docs/DECISIONS.md)
+

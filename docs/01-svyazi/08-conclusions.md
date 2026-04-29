@@ -23,3 +23,14 @@
 - [01-executive-summary](docs/01-svyazi/01-executive-summary.md) (сходство 0.21)
 - [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md) (сходство 0.14)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
+- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
+- [MISSING](docs/MISSING.md)
+

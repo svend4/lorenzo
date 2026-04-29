@@ -108,3 +108,14 @@ flowchart LR
 - [GRAPH](docs/GRAPH.md) (сходство 0.18)
 - [ENTITIES](docs/ENTITIES.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [GLOSSARY](docs/GLOSSARY.md)
+- [GRAPH](docs/GRAPH.md)
+- [NETWORK](docs/NETWORK.md)
+- [ENTITIES](docs/ENTITIES.md)
+

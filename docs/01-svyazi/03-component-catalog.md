@@ -33,3 +33,14 @@
 - [TABLES](docs/TABLES.md) (сходство 0.20)
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [TABLES](docs/TABLES.md)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
+

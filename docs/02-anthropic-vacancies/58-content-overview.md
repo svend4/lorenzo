@@ -32,3 +32,11 @@
    системами
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [56-essence](docs/02-anthropic-vacancies/56-essence.md)
+

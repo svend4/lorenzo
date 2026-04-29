@@ -30,3 +30,14 @@ evolution».
 - [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md) (сходство 0.14)
 - [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [36-essence](docs/02-anthropic-vacancies/36-essence.md)
+- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
+

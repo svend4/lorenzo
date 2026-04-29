@@ -28,3 +28,14 @@
 - [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.24)
 - [227-appendix-b-decision-framework-when-to-build-type-1](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [269-appendix-a-the-six-type-taxonomy-updated](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- [227-appendix-b-decision-framework-when-to-build-type-1](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+

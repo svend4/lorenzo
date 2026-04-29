@@ -39,3 +39,14 @@ errors are author's responsibility.
 - [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md) (сходство 0.17)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+

@@ -71,3 +71,14 @@ NPP **не** пытается:
 - [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.53)
 - [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+

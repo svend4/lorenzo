@@ -34,3 +34,14 @@ Mixture-of-Experts routing (v53–v61).
 - [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.17)
 - [56-essence](docs/02-anthropic-vacancies/56-essence.md) (сходство 0.14)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+- [36-essence](docs/02-anthropic-vacancies/36-essence.md)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [56-essence](docs/02-anthropic-vacancies/56-essence.md)
+

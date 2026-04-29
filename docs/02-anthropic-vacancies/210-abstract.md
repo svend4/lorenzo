@@ -56,3 +56,14 @@ their daily work.
 - [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.18)
 - [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+

@@ -88,3 +88,14 @@ they shape technical decisions.
 - [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.12)
 - [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+

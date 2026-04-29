@@ -70,3 +70,13 @@
 - [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.15)
 - [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
+- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+

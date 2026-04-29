@@ -90,3 +90,14 @@ NPP **не** пытается:
 - [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.14)
 - [74-abstract](docs/02-anthropic-vacancies/74-abstract.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md)
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+

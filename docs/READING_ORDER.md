@@ -437,3 +437,14 @@
 - [README](docs/02-anthropic-vacancies/README.md) (сходство 0.30)
 - [TAGS](docs/TAGS.md) (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SEARCH](docs/SEARCH.md)
+- [CLUSTERS](docs/CLUSTERS.md)
+- [SITEMAP](docs/SITEMAP.md)
+- [COMPARE](docs/COMPARE.md)
+

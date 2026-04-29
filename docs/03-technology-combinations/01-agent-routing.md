@@ -36,3 +36,14 @@
 **Похожие документы:**
 - [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-local-first](docs/03-technology-combinations/03-local-first.md)
+- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
+- [WORD_FREQ](docs/WORD_FREQ.md)
+- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md)
+

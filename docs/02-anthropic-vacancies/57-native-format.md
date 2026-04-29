@@ -52,3 +52,14 @@
 - [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.12)
 - [47-native-format](docs/02-anthropic-vacancies/47-native-format.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md)
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+

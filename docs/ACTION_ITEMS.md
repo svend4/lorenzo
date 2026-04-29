@@ -962,3 +962,14 @@ _(3 дублей скрыто)_
 - [TABLES](docs/TABLES.md) (сходство 0.19)
 - [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPTS](docs/CONCEPTS.md)
+- [TABLES](docs/TABLES.md)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+

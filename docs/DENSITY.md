@@ -83,3 +83,14 @@ _Все темы достаточно раскрыты_
 - [MISSING](docs/MISSING.md) (сходство 0.12)
 - [GRAPH](docs/GRAPH.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEATMAP](docs/HEATMAP.md)
+- [DUPLICATES](docs/DUPLICATES.md)
+- [GLOSSARY](docs/GLOSSARY.md)
+- [MINDMAP](docs/MINDMAP.md)
+

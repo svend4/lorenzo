@@ -143,3 +143,14 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 - [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md) (сходство 0.12)
 - [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
+- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+

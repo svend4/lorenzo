@@ -39,3 +39,14 @@ Last updated: 2026-04*
 **Похожие документы:**
 - [44-for-the-curious-philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [44-for-the-curious-philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+

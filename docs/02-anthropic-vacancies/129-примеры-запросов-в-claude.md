@@ -30,3 +30,14 @@
 - [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md) (сходство 0.14)
 - [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
+- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+

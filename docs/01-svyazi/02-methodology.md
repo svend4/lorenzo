@@ -62,3 +62,14 @@
 - [02-методика-и-рамка-отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.74)
 - [README](docs/04-ai-collaborations/README.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-методика-и-рамка-отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
+- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [DUPLICATES](docs/DUPLICATES.md)
+

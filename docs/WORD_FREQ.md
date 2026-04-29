@@ -189,3 +189,14 @@ _(Слова, характерные только для этого раздел
 **04-ai-collaborations:** turn, view, search, cite, memory, svyazi, rag, llm, evidence, habr, проекты, память
 **05-habr-projects:** пара, llm, каждый, self, yodoca, obsidian, skills, проектов, дети, проекты, чуяна, автор
 **root:** anthropic, vacancies, search, cite, строк, файл, svyazi, svend, appendix, анализ, приложение, phase
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [STATS](docs/STATS.md)
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
+- [METRICS](docs/METRICS.md)
+

@@ -72,3 +72,13 @@
 - [GLOSSARY](docs/GLOSSARY.md) (сходство 0.16)
 - [MINDMAP](docs/MINDMAP.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [AUTHORS](docs/AUTHORS.md)
+- [NETWORK](docs/NETWORK.md)
+- [PROGRESS](docs/PROGRESS.md)
+

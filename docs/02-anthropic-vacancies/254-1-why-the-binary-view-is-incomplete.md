@@ -123,3 +123,14 @@ support to skilled professions.
 - [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
 - [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+

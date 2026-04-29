@@ -136,3 +136,14 @@ confusion. Distinguishing them enables clear architecture.
 - [210-abstract](docs/02-anthropic-vacancies/210-abstract.md) (сходство 0.17)
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+

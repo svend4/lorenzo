@@ -157,3 +157,14 @@ to discuss work with."
 - [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.16)
 - [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
+- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+

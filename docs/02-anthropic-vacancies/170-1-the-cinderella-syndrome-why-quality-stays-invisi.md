@@ -145,3 +145,14 @@ Layer.
 - [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.13)
 - [168-abstract](docs/02-anthropic-vacancies/168-abstract.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+

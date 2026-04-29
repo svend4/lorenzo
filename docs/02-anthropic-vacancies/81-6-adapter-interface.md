@@ -92,3 +92,14 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 - [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.12)
 - [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+

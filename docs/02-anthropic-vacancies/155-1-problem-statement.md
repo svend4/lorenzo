@@ -121,3 +121,14 @@ coordinated action now.
 - [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.16)
 - [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
+- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+

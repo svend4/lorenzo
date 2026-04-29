@@ -54,3 +54,14 @@ This document explores that observation.
 - [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) (сходство 0.16)
 - [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
+

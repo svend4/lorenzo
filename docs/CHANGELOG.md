@@ -30,3 +30,11 @@
   > - improve_summaries.py: added auto-annotations to 376 files
 - verify coverage, merge short files, add READMEs and glossary _91dd9685_
   > - verify_coverage.py: checks 97.6%→100.5% text coverage, all 26 terms found
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST](docs/DIGEST.md)
+

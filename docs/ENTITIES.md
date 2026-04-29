@@ -136,3 +136,14 @@
 - [CONTACTS](docs/CONTACTS.md) (сходство 0.18)
 - [MINDMAP](docs/MINDMAP.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [NETWORK](docs/NETWORK.md)
+- [GLOSSARY](docs/GLOSSARY.md)
+- [CONTACTS](docs/CONTACTS.md)
+- [MINDMAP](docs/MINDMAP.md)
+

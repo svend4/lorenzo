@@ -65,3 +65,14 @@ The friction will be lower than no infrastructure at all.
 - [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.15)
 - [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
+

@@ -56,3 +56,14 @@ service organizations, civil society, and policymakers.
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.15)
 - [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.14)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
+

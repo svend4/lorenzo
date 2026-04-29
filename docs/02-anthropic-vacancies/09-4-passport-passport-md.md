@@ -49,3 +49,14 @@ Passport SHOULD содержать следующие разделы:
 - [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.24)
 - [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.10)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+

@@ -75,3 +75,14 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 - [MISSING](docs/MISSING.md) (сходство 0.16)
 - [TAGS](docs/TAGS.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PRIORITIES](docs/PRIORITIES.md)
+- [MISSING](docs/MISSING.md)
+- [DENSITY](docs/DENSITY.md)
+- [GLOSSARY](docs/GLOSSARY.md)
+

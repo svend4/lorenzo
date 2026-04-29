@@ -33,3 +33,14 @@ markdown
 - [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.29)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md) (сходство 0.29)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
+

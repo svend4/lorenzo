@@ -113,3 +113,14 @@ tech-sophisticated principals fails its core mission.
 - [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.14)
 - [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+

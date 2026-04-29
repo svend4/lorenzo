@@ -26,3 +26,11 @@
 - Русскоязычное tech community ценит directness, technical depth, скептичность к hype
 - Немецкое community ценит formality, thoroughness, due process
 - Англоязычное AI community ценит novelty, scalability narrative, ethical framings
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [346-твоё-происхождение](docs/02-anthropic-vacancies/346-твоё-происхождение.md)
+

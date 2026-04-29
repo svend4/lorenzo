@@ -33,3 +33,14 @@
 - [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md) (сходство 0.21)
 - [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
+

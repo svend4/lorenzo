@@ -42,3 +42,13 @@ _Обновлено: 2026-04-29_
 
 - 🔗 Проверить 26 сломанных ссылок (`BROKEN_LINKS.md`)
 - 📝 Дополнить 4 незакрытых тем (`MISSING.md`)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [VALIDATION](docs/VALIDATION.md)
+- [METRICS](docs/METRICS.md)
+- [REPORT](docs/REPORT.md)
+

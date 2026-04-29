@@ -202,3 +202,14 @@ application drafting.
 - [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.14)
 - [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md) (сходство 0.14)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md)
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+

@@ -31,3 +31,14 @@
 - [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md) (сходство 0.15)
 - [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
+

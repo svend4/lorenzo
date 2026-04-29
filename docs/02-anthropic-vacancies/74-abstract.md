@@ -48,3 +48,14 @@ fallback-статуса.
 - [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.13)
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
+

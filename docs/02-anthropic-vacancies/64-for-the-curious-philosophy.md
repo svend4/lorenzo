@@ -64,3 +64,14 @@ Bridges описаны максимально конкретно. Особенн
 **Похожие документы:**
 - [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+

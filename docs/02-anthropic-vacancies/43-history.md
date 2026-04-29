@@ -32,3 +32,14 @@
 **Похожие документы:**
 - [63-history](docs/02-anthropic-vacancies/63-history.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [63-history](docs/02-anthropic-vacancies/63-history.md)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [53-history](docs/02-anthropic-vacancies/53-history.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+

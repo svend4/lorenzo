@@ -41,3 +41,14 @@ contributed structure and reference work.
 - [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.16)
 - [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
+- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
+

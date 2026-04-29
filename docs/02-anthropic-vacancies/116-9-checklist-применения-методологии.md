@@ -50,3 +50,14 @@
 - [ ] Исходные ветки могут быть удалены или archived
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROGRESS](docs/PROGRESS.md)
+- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+

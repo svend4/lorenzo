@@ -64,3 +64,14 @@ unsolved issues.
 - [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.18)
 - [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
+

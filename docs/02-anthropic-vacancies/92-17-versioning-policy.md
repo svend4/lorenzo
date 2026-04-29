@@ -60,3 +60,14 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 - [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) (сходство 0.15)
 - [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+

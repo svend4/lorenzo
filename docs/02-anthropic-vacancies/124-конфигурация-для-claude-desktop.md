@@ -41,3 +41,14 @@ json
 - [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md) (сходство 0.23)
 - [130-отладка](docs/02-anthropic-vacancies/130-отладка.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
+- [130-отладка](docs/02-anthropic-vacancies/130-отладка.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+

@@ -197,3 +197,14 @@ _`docs/05-habr-projects/` — 6 файлов_
 | 4 | [MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md) | 7028 |
 | 5 | [NGT Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 217 |
 | 6 | [Yodoca: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 115 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_ORDER](docs/READING_ORDER.md)
+- [SEARCH](docs/SEARCH.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [VALIDATION](docs/VALIDATION.md)
+

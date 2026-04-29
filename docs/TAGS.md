@@ -305,3 +305,14 @@
 - [PRIORITIES](docs/PRIORITIES.md) (сходство 0.24)
 - [READING_ORDER](docs/READING_ORDER.md) (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CLUSTERS](docs/CLUSTERS.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [SEARCH](docs/SEARCH.md)
+- [SITEMAP](docs/SITEMAP.md)
+

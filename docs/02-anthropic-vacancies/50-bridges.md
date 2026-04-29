@@ -37,3 +37,14 @@ hamming-переходов от «root» вершин) коррелирует с
 - [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.21)
 - [40-bridges](docs/02-anthropic-vacancies/40-bridges.md) (сходство 0.20)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md)
+- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+

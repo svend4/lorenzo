@@ -778,3 +778,14 @@ markdown
 - [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.11)
 - [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
+

@@ -55,3 +55,14 @@
 **Похожие документы:**
 - [351-что-ты-можешь-делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [351-что-ты-можешь-делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md)
+- [360-что-ты-всегда-делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
+- [352-что-ты-не-можешь-делать-без-max-approval](docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
+- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+

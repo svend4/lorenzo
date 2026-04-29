@@ -263,3 +263,14 @@ This recursive nature — каждый ваш observation refines understanding,
 - [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.17)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
+- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [303-приложение-визуализация-позиции-в-серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)
+

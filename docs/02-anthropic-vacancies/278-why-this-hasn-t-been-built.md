@@ -63,3 +63,14 @@ integration does not.
 - [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.14)
 - [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+

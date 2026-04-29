@@ -36,3 +36,14 @@ Last updated: 2026-04*
 **Похожие документы:**
 - [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
+

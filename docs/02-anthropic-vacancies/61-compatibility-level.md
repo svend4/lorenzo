@@ -28,3 +28,14 @@
 - [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md) (сходство 0.44)
 - [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md)
+- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
+

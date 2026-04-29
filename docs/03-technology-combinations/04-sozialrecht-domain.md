@@ -21,3 +21,14 @@ Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PD
 **Похожие документы:**
 - [README](docs/03-technology-combinations/README.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [GLOSSARY](docs/GLOSSARY.md)
+- [MINDMAP](docs/MINDMAP.md)
+- [360-что-ты-всегда-делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+

@@ -122,3 +122,14 @@ lose the social and negotiation skills they currently have.
 - [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.14)
 - [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.14)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
+

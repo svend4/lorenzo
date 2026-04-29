@@ -88,3 +88,14 @@
 - [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.14)
 - [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
+- [03-local-first](docs/03-technology-combinations/03-local-first.md)
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
+- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
+

@@ -40,3 +40,14 @@
 **Похожие документы:**
 - [57-native-format](docs/02-anthropic-vacancies/57-native-format.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+

@@ -30,3 +30,14 @@ markdown
 - [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.17)
 - [229-профессиональные-коллеги-агенты](docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [188-ai-опосредованное-представительство-для-недопредст](docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md)
+

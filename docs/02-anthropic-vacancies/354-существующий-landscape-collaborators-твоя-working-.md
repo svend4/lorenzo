@@ -35,3 +35,14 @@
 - **CAMEL** (camel-ai/camel, Apache 2.0): Multi-agent framework
 - **Cowork** (Anthropic): Managed agentic workspace
 - **MCP** (Model Context Protocol): Tool interoperability standard
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [WORD_FREQ](docs/WORD_FREQ.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
+- [ENTITIES](docs/ENTITIES.md)
+

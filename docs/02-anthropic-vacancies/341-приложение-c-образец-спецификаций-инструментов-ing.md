@@ -1986,3 +1986,14 @@ Web durchsucht
 - [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.18)
 - [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+

@@ -77,3 +77,14 @@ _Всё в порядке_
 ## Итог
 
 ⚠️ **16 предупреждений** — рекомендуется исправить.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SITEMAP](docs/SITEMAP.md)
+- [TAGS](docs/TAGS.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [COMPARE](docs/COMPARE.md)
+

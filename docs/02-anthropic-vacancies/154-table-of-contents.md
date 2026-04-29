@@ -31,3 +31,14 @@
 **Похожие документы:**
 - [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
+- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
+

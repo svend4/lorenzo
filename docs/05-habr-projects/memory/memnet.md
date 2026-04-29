@@ -316,3 +316,14 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.13)
 - [TABLES](docs/TABLES.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-intro](docs/04-ai-collaborations/00-intro.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [TABLES](docs/TABLES.md)
+- [CONCEPTS](docs/CONCEPTS.md)
+

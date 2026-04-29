@@ -38,3 +38,14 @@ CA-правил, через классы Вольфрама, через аттр
 - [46-essence](docs/02-anthropic-vacancies/46-essence.md) (сходство 0.14)
 - [36-essence](docs/02-anthropic-vacancies/36-essence.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+- [46-essence](docs/02-anthropic-vacancies/46-essence.md)
+- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+

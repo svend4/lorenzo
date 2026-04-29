@@ -32,3 +32,14 @@
 - [56-essence](docs/02-anthropic-vacancies/56-essence.md) (сходство 0.12)
 - [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [46-essence](docs/02-anthropic-vacancies/46-essence.md)
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+

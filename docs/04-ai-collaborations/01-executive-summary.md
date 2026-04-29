@@ -32,3 +32,13 @@
 - [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.15)
 - [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-component-catalog](docs/01-svyazi/03-component-catalog.md)
+- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
+- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
+

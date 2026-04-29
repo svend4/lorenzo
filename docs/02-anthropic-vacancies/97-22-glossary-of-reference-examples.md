@@ -43,3 +43,14 @@
 - [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) (сходство 0.33)
 - [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+

@@ -53,3 +53,14 @@
 - [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.11)
 - [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
+- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
+- [WORD_FREQ](docs/WORD_FREQ.md)
+

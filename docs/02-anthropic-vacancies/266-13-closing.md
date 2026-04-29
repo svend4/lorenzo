@@ -77,3 +77,14 @@ walking it.
 - [252-abstract](docs/02-anthropic-vacancies/252-abstract.md) (сходство 0.20)
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.20)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+

@@ -35,3 +35,14 @@
 **Похожие документы:**
 - [345-кто-ты](docs/02-anthropic-vacancies/345-кто-ты.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [345-кто-ты](docs/02-anthropic-vacancies/345-кто-ты.md)
+- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+

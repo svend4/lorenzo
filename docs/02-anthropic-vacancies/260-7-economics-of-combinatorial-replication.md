@@ -164,3 +164,14 @@ funding or modest practitioner contribution.
 - [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) (сходство 0.20)
 - [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.19)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
+- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
+

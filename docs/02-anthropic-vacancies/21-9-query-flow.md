@@ -46,3 +46,14 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 - [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.11)
 - [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
+

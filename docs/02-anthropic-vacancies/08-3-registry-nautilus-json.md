@@ -97,3 +97,14 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 - [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.16)
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+

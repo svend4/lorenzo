@@ -34,3 +34,14 @@
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.62)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md) (сходство 0.40)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
+

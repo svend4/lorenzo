@@ -63,3 +63,14 @@
 - [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.12)
 - [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md)
+- [320-references](docs/02-anthropic-vacancies/320-references.md)
+- [268-references](docs/02-anthropic-vacancies/268-references.md)
+- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
+

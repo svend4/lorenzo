@@ -74,3 +74,14 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 **Финальная запись**:
 
 ```markdown
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ensemble](docs/templates/ensemble.md)
+- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [298-что-этот-документ-не-решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
+- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+

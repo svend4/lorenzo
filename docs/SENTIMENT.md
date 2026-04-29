@@ -57,3 +57,14 @@
 | 🟢 оптимистичный | 35 |
 | 🟠 срочный | 33 |
 | 🟡 неопределённый | 13 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ensemble](docs/templates/ensemble.md)
+- [COMPLEXITY](docs/COMPLEXITY.md)
+- [COMPARE](docs/COMPARE.md)
+- [METRICS](docs/METRICS.md)
+

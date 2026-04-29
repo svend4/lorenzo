@@ -1246,3 +1246,14 @@ _`docs/02-anthropic-vacancies/79-4-passport-passport-md.md` | 9 строк_
 - [SEARCH](docs/SEARCH.md) (сходство 0.12)
 - [READING_ORDER](docs/READING_ORDER.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TAGS](docs/TAGS.md)
+- [COMPARE](docs/COMPARE.md)
+- [SITEMAP](docs/SITEMAP.md)
+- [CLUSTERS](docs/CLUSTERS.md)
+

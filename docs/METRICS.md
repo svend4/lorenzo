@@ -51,3 +51,14 @@
 - Файлов с оглавлением: **23.6%**
 - Файлов с callout: **28.6%**
 - Средний балл качества: **65.7/100**
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [STATS](docs/STATS.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [WORD_FREQ](docs/WORD_FREQ.md)
+- [TAGS](docs/TAGS.md)
+

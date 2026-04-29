@@ -40,3 +40,13 @@
 
 ---
 _Создано: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [project-component](docs/templates/project-component.md)
+- [research-note](docs/templates/research-note.md)
+- [PROGRESS](docs/PROGRESS.md)
+

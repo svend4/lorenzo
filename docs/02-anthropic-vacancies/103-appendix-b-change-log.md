@@ -39,3 +39,14 @@
 - [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.11)
 - [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.10)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
+

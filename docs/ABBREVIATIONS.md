@@ -112,3 +112,12 @@
 | **OS** | 116 — _неуточнено_ |
 | **MVP** | 112 — _Minimum Viable Product — минимально жизнеспособный продукт_ |
 | **QA** | 105 — _демон-критик (adversarial, rigorous)_ |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
+- [SEARCH](docs/SEARCH.md)
+

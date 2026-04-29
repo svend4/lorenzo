@@ -73,3 +73,14 @@
 - [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.17)
 - [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
+- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
+- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
+

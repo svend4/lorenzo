@@ -65,3 +65,14 @@
 - [183-references](docs/02-anthropic-vacancies/183-references.md) (сходство 0.22)
 - [268-references](docs/02-anthropic-vacancies/268-references.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [245-ссылки](docs/02-anthropic-vacancies/245-ссылки.md)
+- [183-references](docs/02-anthropic-vacancies/183-references.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [268-references](docs/02-anthropic-vacancies/268-references.md)
+

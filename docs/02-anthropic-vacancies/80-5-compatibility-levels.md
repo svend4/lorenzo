@@ -74,3 +74,14 @@ Portal возвращает static entries.
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.12)
 - [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+

@@ -30,3 +30,14 @@ reasoning.
 - [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md) (сходство 0.12)
 - [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md) (сходство 0.10)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
+- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+

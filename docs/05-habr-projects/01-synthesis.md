@@ -21,3 +21,14 @@
 **Похожие документы:**
 - [README](docs/05-habr-projects/README.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+

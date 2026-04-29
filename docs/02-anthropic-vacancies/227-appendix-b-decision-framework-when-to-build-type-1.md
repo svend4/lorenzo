@@ -54,3 +54,14 @@ populations, Type 1 is the right starting point.
 - [269-appendix-a-the-six-type-taxonomy-updated](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.13)
 - [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [226-appendix-a-comparative-table-five-agent-types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md)
+- [269-appendix-a-the-six-type-taxonomy-updated](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md)
+- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+

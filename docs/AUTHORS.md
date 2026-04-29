@@ -44,3 +44,14 @@
 **Похожие документы:**
 - [CONTACTS](docs/CONTACTS.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONTACTS](docs/CONTACTS.md)
+- [GLOSSARY](docs/GLOSSARY.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [ENTITIES](docs/ENTITIES.md)
+

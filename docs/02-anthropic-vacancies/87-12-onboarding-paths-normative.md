@@ -97,3 +97,13 @@ python scan_repo.py owner/repo-name
 Для federation новых Repos в будущем — C.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+

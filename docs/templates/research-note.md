@@ -30,3 +30,12 @@
 
 ---
 _Создано: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [contact-outreach](docs/templates/contact-outreach.md)
+- [project-component](docs/templates/project-component.md)
+

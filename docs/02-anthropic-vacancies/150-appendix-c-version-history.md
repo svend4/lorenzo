@@ -549,3 +549,14 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 - [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.17)
 - [CONCEPTS](docs/CONCEPTS.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [CONCEPTS](docs/CONCEPTS.md)
+- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+

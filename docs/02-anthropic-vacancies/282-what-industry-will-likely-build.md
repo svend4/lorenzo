@@ -56,3 +56,14 @@ what exists and adapt as better infrastructure emerges.
 - [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.13)
 - [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.13)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
+

@@ -145,3 +145,14 @@ Active participant target in first three years: 5,000-10,000.
 - [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.16)
 - [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+

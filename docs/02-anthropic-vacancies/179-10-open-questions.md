@@ -101,3 +101,14 @@ of whether ethical frameworks keep pace.
 - [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.13)
 - [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
+- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+

@@ -43,3 +43,14 @@ document provides framing. It does not provide answers.
 - [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.12)
 - [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
+

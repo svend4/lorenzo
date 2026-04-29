@@ -54,3 +54,14 @@
 - [GRAPH](docs/GRAPH.md) (сходство 0.23)
 - [ENTITIES](docs/ENTITIES.md) (сходство 0.20)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [MINDMAP](docs/MINDMAP.md)
+- [GRAPH](docs/GRAPH.md)
+- [NETWORK](docs/NETWORK.md)
+- [ENTITIES](docs/ENTITIES.md)
+

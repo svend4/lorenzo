@@ -32,3 +32,14 @@ Reference НЕ является нормативной. Альтернативн
 - [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md) (сходство 0.21)
 - [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.19)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+

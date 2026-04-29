@@ -41,3 +41,14 @@ or something custom?]
 **Похожие документы:**
 - [57-native-format](docs/02-anthropic-vacancies/57-native-format.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+

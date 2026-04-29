@@ -67,3 +67,14 @@ infrastructure that does not exist as a unified product.
 - [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.18)
 - [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.18)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+

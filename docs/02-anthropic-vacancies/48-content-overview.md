@@ -42,3 +42,14 @@ training logs, benchmarks]
 - [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md) (сходство 0.14)
 - [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.10)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [53-history](docs/02-anthropic-vacancies/53-history.md)
+- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+

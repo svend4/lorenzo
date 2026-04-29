@@ -55,3 +55,14 @@ in skilled work.
 - [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.24)
 - [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+

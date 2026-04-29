@@ -96,3 +96,14 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 - [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.13)
 - [69-section](docs/02-anthropic-vacancies/69-section.md) (сходство 0.11)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [69-section](docs/02-anthropic-vacancies/69-section.md)
+- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+

@@ -35,3 +35,13 @@
 - [QA](docs/QA.md) (сходство 0.17)
 - [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.16)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
+- [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
+- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
+

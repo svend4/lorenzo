@@ -48,3 +48,14 @@
 - Всего ссылок: **3494**
 - Выделений жирным: **5640**
 - TODO/FIXME меток: **22**
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [METRICS](docs/METRICS.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [COMPLEXITY](docs/COMPLEXITY.md)
+- [WORD_FREQ](docs/WORD_FREQ.md)
+

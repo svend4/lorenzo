@@ -243,3 +243,14 @@
 - [SEARCH](docs/SEARCH.md) (сходство 0.17)
 - [READING_ORDER](docs/READING_ORDER.md) (сходство 0.17)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TABLES](docs/TABLES.md)
+- [SEARCH](docs/SEARCH.md)
+- [KPI](docs/KPI.md)
+- [READING_ORDER](docs/READING_ORDER.md)
+

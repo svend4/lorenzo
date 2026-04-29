@@ -90,3 +90,14 @@ string description концепта entry в терминах target_repo, ил�
 - [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md) (сходство 0.11)
 - [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.10)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
+

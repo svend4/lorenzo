@@ -1416,3 +1416,14 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 - [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.21)
 - [03-component-catalog](docs/01-svyazi/03-component-catalog.md) (сходство 0.20)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TIMELINE](docs/TIMELINE.md)
+- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [03-component-catalog](docs/01-svyazi/03-component-catalog.md)
+- [CONCEPTS](docs/CONCEPTS.md)
+

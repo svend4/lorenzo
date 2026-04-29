@@ -641,3 +641,14 @@ digraph lorenzo {
 - [MINDMAP](docs/MINDMAP.md) (сходство 0.18)
 - [ENTITIES](docs/ENTITIES.md) (сходство 0.12)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [GLOSSARY](docs/GLOSSARY.md)
+- [MINDMAP](docs/MINDMAP.md)
+- [ENTITIES](docs/ENTITIES.md)
+- [NETWORK](docs/NETWORK.md)
+
