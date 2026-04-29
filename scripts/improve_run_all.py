@@ -85,6 +85,16 @@ GROUPS = {
         "improve_compare.py",
         "improve_sitemap.py",
         "improve_report.py",
+        # Дополнительные отчёты
+        "improve_scoring.py",
+        "improve_progress.py",
+        "improve_faq.py",
+        "improve_badges.py",
+        "improve_schedule.py",
+        "improve_cost.py",
+        "improve_footnotes.py",
+        "improve_see_also.py",
+        "improve_digest.py",
     ],
     "export": [
         # Экспорт
