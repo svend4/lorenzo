@@ -1,0 +1,168 @@
+# Инвертированный индекс ключевых слов
+
+<!-- summary -->
+> Уникальных слов: **23264** | Биграмм: **13489** | Файлов: **487**
+**Проекты:** Svyazi, NGT Memory
+
+---
+<!-- tags: memory, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
+_Обновлено: 2026-04-29_
+
+Уникальных слов: **23264** | Биграмм: **13489** | Файлов: **487**
+
+> `python scripts/improve_keyword_index.py --query "ваш запрос"` — поиск по индексу
+
+## Топ слов по охвату файлов
+
+| Слово | Файлов | Всего упоминаний |
+|-------|--------|-----------------|
+| `docs` | 439 | 5892 |
+| `также` | 401 | 437 |
+| `смотрите` | 400 | 401 |
+| `документы` | 385 | 485 |
+| `anthropic` | 382 | 4906 |
+| `похожие` | 377 | 378 |
+| `сходство` | 377 | 993 |
+| `vacancies` | 377 | 4413 |
+| `knowledge` | 186 | 735 |
+| `agent` | 170 | 1437 |
+| `nautilus` | 169 | 895 |
+| `документ` | 168 | 425 |
+| `protocol` | 151 | 609 |
+| `portal` | 144 | 629 |
+| `work` | 141 | 555 |
+| `mcp` | 131 | 801 |
+| `open` | 130 | 413 |
+| `agents` | 125 | 710 |
+| `содержание` | 120 | 180 |
+| `review` | 119 | 399 |
+| `github` | 117 | 513 |
+| `claude` | 116 | 546 |
+| `через` | 115 | 466 |
+| `слой` | 114 | 379 |
+| `если` | 113 | 610 |
+| `first` | 113 | 375 |
+| `infrastructure` | 113 | 503 |
+| `project` | 112 | 398 |
+| `document` | 112 | 607 |
+| `layer` | 111 | 521 |
+| `svyazi` | 109 | 1162 |
+| `reference` | 108 | 278 |
+| `appendix` | 104 | 810 |
+| `между` | 102 | 331 |
+| `svend` | 101 | 510 |
+| `агентов` | 99 | 420 |
+| `foundation` | 99 | 310 |
+| `specific` | 99 | 371 |
+| `model` | 98 | 251 |
+| `только` | 97 | 325 |
+| `без` | 97 | 381 |
+| `architecture` | 96 | 397 |
+| `быть` | 95 | 309 |
+| `проекты` | 92 | 202 |
+| `каждый` | 92 | 298 |
+| `legal` | 91 | 408 |
+| `research` | 91 | 348 |
+| `level` | 90 | 324 |
+| `implementation` | 90 | 230 |
+| `один` | 89 | 389 |
+| `может` | 89 | 397 |
+| `pattern` | 89 | 341 |
+| `context` | 88 | 205 |
+| `human` | 88 | 242 |
+| `structure` | 88 | 228 |
+| `source` | 86 | 214 |
+| `integration` | 86 | 295 |
+| `projects` | 85 | 262 |
+| `которые` | 84 | 325 |
+| `code` | 84 | 298 |
+| `author` | 84 | 243 |
+| `memory` | 83 | 596 |
+| `проект` | 83 | 346 |
+| `working` | 83 | 209 |
+| `professional` | 83 | 359 |
+| `what` | 83 | 521 |
+| `through` | 83 | 178 |
+| `когда` | 82 | 239 |
+| `existing` | 82 | 267 |
+| `search` | 81 | 609 |
+| `все` | 80 | 232 |
+| `вопросы` | 80 | 245 |
+| `collaboration` | 80 | 243 |
+| `где` | 80 | 284 |
+| `skills` | 78 | 271 |
+| `агент` | 77 | 409 |
+| `cowork` | 77 | 918 |
+| `sgb` | 76 | 454 |
+| `ingit` | 76 | 776 |
+| `знаний` | 75 | 180 |
+| `который` | 75 | 371 |
+| `документов` | 75 | 146 |
+| `вопрос` | 75 | 247 |
+| `уже` | 74 | 385 |
+| `api` | 73 | 216 |
+| `содержит` | 73 | 81 |
+| `okwf` | 73 | 304 |
+| `статус` | 71 | 121 |
+| `architectural` | 71 | 193 |
+| `tool` | 70 | 215 |
+| `mvp` | 70 | 261 |
+| `collaborations` | 70 | 338 |
+| `архитектура` | 70 | 208 |
+| `репо` | 70 | 328 |
+| `all` | 70 | 144 |
+| `case` | 70 | 227 |
+| `space` | 69 | 251 |
+| `tip` | 68 | 68 |
+| `работает` | 68 | 207 |
+| `habr` | 68 | 285 |
+
+## Топ биграмм (устойчивые словосочетания)
+
+| Биграмм | Файлов | Всего |
+|---------|--------|-------|
+| `anthropic vacancies` | 346 | 4378 |
+| `docs anthropic` | 342 | 4353 |
+| `portal protocol` | 64 | 350 |
+| `vacancies appendix` | 47 | 315 |
+| `docs collaborations` | 43 | 295 |
+| `docs svyazi` | 40 | 540 |
+| `professional colleague` | 40 | 189 |
+| `NGT Memory` | 38 | 147 |
+| `nautilus portal` | 38 | 174 |
+| `executive summary` | 35 | 164 |
+| `appendix minimal` | 34 | 90 |
+| `minimal working` | 34 | 90 |
+| `working example` | 34 | 90 |
+| `knowledge-space` | 32 | 191 |
+| `table contents` | 32 | 162 |
+| `turn view` | 31 | 917 |
+| `double triangle` | 31 | 171 |
+| `triangle architecture` | 31 | 117 |
+| `representative agent` | 31 | 139 |
+| `composite skills` | 31 | 111 |
+| `ingit cowork` | 30 | 100 |
+| `oss проект` | 29 | 143 |
+| `vacancies abstract` | 29 | 75 |
+| `pattern library` | 29 | 112 |
+| `principal side` | 29 | 110 |
+| `view turn` | 28 | 657 |
+| `abstract docs` | 28 | 67 |
+| `cite turn` | 27 | 487 |
+| `skills agent` | 27 | 88 |
+| `colleague agents` | 27 | 86 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [WORD_FREQ](docs/WORD_FREQ.md)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+

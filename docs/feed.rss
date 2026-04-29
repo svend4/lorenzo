@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
+    <link>https://github.com/svend4/lorenzo</link>
+    <description>Автоматический фид изменений документации Svyazi 2.0</description>
+    <language>ru</language>
+    <lastBuildDate>Wed, 29 Apr 2026 08:50:08 GMT</lastBuildDate>
+    <item>
+      <title>docs: auto-update via improve_run_all [skip ci]</title>
+      <link>https://github.com/svend4/lorenzo/commit/8e689b3de4723e9d4b98f835fa56498be696624b</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/8e689b3de4723e9d4b98f835fa56498be696624b</guid>
+      <pubDate>Wed, 29 Apr 2026 08:48:24 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: auto-update via improve_run_all [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/01-executive-summary.md">docs/01-svyazi/01-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/03-component-catalog.md">docs/01-svyazi/03-component-catalog.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/04-ensembles-overview.md">docs/01-svyazi/04-ensembles-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/07-mvp-planning.md">docs/01-svyazi/07-mvp-planning.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/09-architectural-gaps.md">docs/01-svyazi/09-architectural-gaps.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/10-second-order-ensembles.md">docs/01-svyazi/10-second-order-ensembles.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/13-contacts.md">docs/01-svyazi/13-contacts.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/04-abstract.md">docs/02-anthropic-vacancies/04-abstract.md</a></li></ul><p>Коммит: <code>8e689b3d</code></p>]]></description>
+    </item>
+    <item>
+      <title>Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA</title>
+      <link>https://github.com/svend4/lorenzo/commit/b326b33a4f083c9c57e7a96242a757de5988093d</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/b326b33a4f083c9c57e7a96242a757de5988093d</guid>
+      <pubDate>Wed, 29 Apr 2026 08:46:27 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA</strong></p><p>Коммит: <code>b326b33a</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: add component matrix, KPI history tracker, fix run_all coverage</title>
+      <link>https://github.com/svend4/lorenzo/commit/69562b02887bf14a525363d20efc86c967b6dc0a</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/69562b02887bf14a525363d20efc86c967b6dc0a</guid>
+      <pubDate>Wed, 29 Apr 2026 08:38:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: add component matrix, KPI history tracker, fix run_all coverage</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPONENT_MATRIX.md">docs/COMPONENT_MATRIX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KPI_HISTORY.md">docs/KPI_HISTORY.md</a></li></ul><p>Коммит: <code>69562b02</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: add risk register, auto-changelog, master index; fix run_all missing scripts</title>
+      <link>https://github.com/svend4/lorenzo/commit/59617c5d3571e91549ad408b968d0fd7a9c94c4f</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/59617c5d3571e91549ad408b968d0fd7a9c94c4f</guid>
+      <pubDate>Wed, 29 Apr 2026 08:23:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: add risk register, auto-changelog, master index; fix run_all missing scripts</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG_AUTO.md">docs/CHANGELOG_AUTO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/INDEX.md">docs/INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/RISK_REGISTER.md">docs/RISK_REGISTER.md</a></li></ul><p>Коммит: <code>59617c5d</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: sync CONTRADICTIONS.md (background task output)</title>
+      <link>https://github.com/svend4/lorenzo/commit/89d3e8fbb5d3c79838fbe94b846a696d670ef637</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/89d3e8fbb5d3c79838fbe94b846a696d670ef637</guid>
+      <pubDate>Wed, 29 Apr 2026 08:20:09 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: sync CONTRADICTIONS.md (background task output)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li></ul><p>Коммит: <code>89d3e8fb</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: add tech radar, onboarding guide, dependency map, meta group in run_all</title>
+      <link>https://github.com/svend4/lorenzo/commit/4ddee95e220872630176b9cdadf3ed85997b2757</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/4ddee95e220872630176b9cdadf3ed85997b2757</guid>
+      <pubDate>Wed, 29 Apr 2026 08:19:41 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: add tech radar, onboarding guide, dependency map, meta group in run_all</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEPENDENCY_MAP.md">docs/DEPENDENCY_MAP.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ONBOARDING.md">docs/ONBOARDING.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TECH_RADAR.md">docs/TECH_RADAR.md</a></li></ul><p>Коммит: <code>4ddee95e</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: sync CONTRADICTIONS.md after contradiction_check fix</title>
+      <link>https://github.com/svend4/lorenzo/commit/6b81ffed2cd0dea4368990689cb8db54942243aa</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/6b81ffed2cd0dea4368990689cb8db54942243aa</guid>
+      <pubDate>Wed, 29 Apr 2026 08:18:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: sync CONTRADICTIONS.md after contradiction_check fix</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li></ul><p>Коммит: <code>6b81ffed</code></p>]]></description>
+    </item>
+    <item>
+      <title>fix: исправить ошибки в deeptext скриптах, добавить выходные файлы</title>
+      <link>https://github.com/svend4/lorenzo/commit/4755dd948f668f0fb75c2ac610739dab5d6323b0</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/4755dd948f668f0fb75c2ac610739dab5d6323b0</guid>
+      <pubDate>Wed, 29 Apr 2026 08:17:24 GMT</pubDate>
+      <description><![CDATA[<p><strong>fix: исправить ошибки в deeptext скриптах, добавить выходные файлы</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KEYWORD_INDEX.md">docs/KEYWORD_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/NAMED_ENTITIES.md">docs/NAMED_ENTITIES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PARAGRAPH_QUALITY.md">docs/PARAGRAPH_QUALITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TIMELINE.md">docs/TIMELINE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VOCABULARY.md">docs/VOCABULARY.md</a></li></ul><p>Коммит: <code>4755dd94</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: add autonomous watcher (Ступень 6), CI workflow, LLM section summaries</title>
+      <link>https://github.com/svend4/lorenzo/commit/1f3fe74a07c456ee5a3b7c82e07ea9c7695571ee</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/1f3fe74a07c456ee5a3b7c82e07ea9c7695571ee</guid>
+      <pubDate>Wed, 29 Apr 2026 08:15:56 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: add autonomous watcher (Ступень 6), CI workflow, LLM section summaries</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/LLM_SUMMARIES.md">docs/LLM_SUMMARIES.md</a></li></ul><p>Коммит: <code>1f3fe74a</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: add CLAUDE.md, weekly digest script, enrich group in run_all</title>
+      <link>https://github.com/svend4/lorenzo/commit/469dbceda4f37b6bd114ada022fe0e1efc7ee32f</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/469dbceda4f37b6bd114ada022fe0e1efc7ee32f</guid>
+      <pubDate>Wed, 29 Apr 2026 08:13:42 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: add CLAUDE.md, weekly digest script, enrich group in run_all</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DIGEST_WEEKLY.md">docs/DIGEST_WEEKLY.md</a></li></ul><p>Коммит: <code>469dbced</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: add LLM integration (Ступень 3), skills (Ступень 4), MCP server (Ступень 5)</title>
+      <link>https://github.com/svend4/lorenzo/commit/00a25f78706fc1b6de04cfbadf61f5f2054e91d1</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/00a25f78706fc1b6de04cfbadf61f5f2054e91d1</guid>
+      <pubDate>Wed, 29 Apr 2026 08:11:11 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: add LLM integration (Ступень 3), skills (Ступень 4), MCP server (Ступень 5)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/AUTOFILLED.md">docs/AUTOFILLED.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/autofilled/components/.md">docs/autofilled/components/.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/autofilled/components/cowork.md">docs/autofilled/components/cowork.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/autofilled/components/ingit.md">docs/autofilled/components/ingit.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/autofilled/components/kksudo.md">docs/autofilled/components/kksudo.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/autofilled/components/lorenzo.md">docs/autofilled/components/lorenzo.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/autofilled/components/nautilus.md">docs/autofilled/components/nautilus.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/autofilled/components/sgb.md">docs/autofilled/components/sgb.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/autofilled/components/spbmolot.md">docs/autofilled/components/spbmolot.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/autofilled/components/svend4.md">docs/autofilled/components/svend4.md</a></li></ul><p>Коммит: <code>00a25f78</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: sync PROGRESS.md after deeptext scripts commit</title>
+      <link>https://github.com/svend4/lorenzo/commit/1d552d4eeae92fe3031821056b8c496fd9de02a8</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/1d552d4eeae92fe3031821056b8c496fd9de02a8</guid>
+      <pubDate>Wed, 29 Apr 2026 08:00:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: sync PROGRESS.md after deeptext scripts commit</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>1d552d4e</code></p>]]></description>
+    </item>
+    <item>
+      <title>docs: sync PROGRESS.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/4e217f2b0add2ade8781ff1e2011a92194494763</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/4e217f2b0add2ade8781ff1e2011a92194494763</guid>
+      <pubDate>Wed, 29 Apr 2026 07:38:27 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: sync PROGRESS.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>4e217f2b</code></p>]]></description>
+    </item>
+    <item>
+      <title>docs: sync PROGRESS.md after adding 16 new scripts</title>
+      <link>https://github.com/svend4/lorenzo/commit/4d23795150c2a3151959018a35b6f48e6ac5a007</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/4d23795150c2a3151959018a35b6f48e6ac5a007</guid>
+      <pubDate>Wed, 29 Apr 2026 07:09:29 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: sync PROGRESS.md after adding 16 new scripts</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>4d237951</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: sync PROGRESS.md after session</title>
+      <link>https://github.com/svend4/lorenzo/commit/53bfdbd83fb46fe675c31c7e7c07150e3078c22a</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/53bfdbd83fb46fe675c31c7e7c07150e3078c22a</guid>
+      <pubDate>Wed, 29 Apr 2026 06:42:08 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: sync PROGRESS.md after session</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>53bfdbd8</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: 13 улучшений — search fix, parallel/report/only, watch, priority, bulk, coverage, staleness, autofix, qa history, llm contact, benchmark</title>
+      <link>https://github.com/svend4/lorenzo/commit/3d29c06c74c1a9b1111e3011689dede2e077a7de</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/3d29c06c74c1a9b1111e3011689dede2e077a7de</guid>
+      <pubDate>Wed, 29 Apr 2026 06:41:33 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: 13 улучшений — search fix, parallel/report/only, watch, priority, bulk, coverage, staleness, autofix, qa history, llm contact, benchmark</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BROKEN_LINKS.md">docs/BROKEN_LINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACT_PRIORITY.md">docs/CONTACT_PRIORITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COVERAGE.md">docs/COVERAGE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SEARCH.md">docs/SEARCH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STALENESS.md">docs/STALENESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/spbmolot.md">docs/contacts/spbmolot.md</a></li></ul><p>Коммит: <code>3d29c06c</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: 4 улучшения — кэш QA, --save, dedup с текстом дублей, --only, MCP contact status</title>
+      <link>https://github.com/svend4/lorenzo/commit/77613be22b963c68e51ecace02843076d7af2f58</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/77613be22b963c68e51ecace02843076d7af2f58</guid>
+      <pubDate>Wed, 29 Apr 2026 06:29:50 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: 4 улучшения — кэш QA, --save, dedup с текстом дублей, --only, MCP contact status</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DUPLICATES.md">docs/DUPLICATES.md</a></li></ul><p>Коммит: <code>77613be2</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: sync generated docs (CONTACTS, HEALTH, METRICS)</title>
+      <link>https://github.com/svend4/lorenzo/commit/5571b3698df017bb7377ff760a641376a142f62b</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/5571b3698df017bb7377ff760a641376a142f62b</guid>
+      <pubDate>Wed, 29 Apr 2026 06:22:23 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: sync generated docs (CONTACTS, HEALTH, METRICS)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACTS.md">docs/CONTACTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/METRICS.md">docs/METRICS.md</a></li></ul><p>Коммит: <code>5571b369</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: 4 улучшения — contact_status CLI, --changed флаг, нормализация поискового индекса, post-commit хук</title>
+      <link>https://github.com/svend4/lorenzo/commit/58003258ec9bc399e71625a49172ce44b796f7cb</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/58003258ec9bc399e71625a49172ce44b796f7cb</guid>
+      <pubDate>Wed, 29 Apr 2026 06:21:55 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: 4 улучшения — contact_status CLI, --changed флаг, нормализация поискового индекса, post-commit хук</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/kksudo.md">docs/contacts/kksudo.md</a></li></ul><p>Коммит: <code>58003258</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: implement 3 improvements + fix question truncation</title>
+      <link>https://github.com/svend4/lorenzo/commit/a32f556be254a208eca54defe6b9a0d3ca3eba32</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/a32f556be254a208eca54defe6b9a0d3ca3eba32</guid>
+      <pubDate>Wed, 29 Apr 2026 06:05:20 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: implement 3 improvements + fix question truncation</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/anastasiyaw.md">docs/contacts/anastasiyaw.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/andrey-chuyan.md">docs/contacts/andrey-chuyan.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/kksudo.md">docs/contacts/kksudo.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/spbmolot.md">docs/contacts/spbmolot.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/vitalyoborin.md">docs/contacts/vitalyoborin.md</a></li></ul><p>Коммит: <code>a32f556b</code></p>]]></description>
+    </item>
+  </channel>
+</rss>

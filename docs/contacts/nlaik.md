@@ -1,0 +1,62 @@
+# Контакт: nlaik / LiteParse / research-docs
+
+<!-- summary -->
+> <!-- summary: Шаблон для связи с автором LiteParse / research-docs -->
+**Проекты:** Svyazi, LiteParse
+
+---
+
+
+
+<!-- summary: Шаблон для связи с автором LiteParse / research-docs -->
+<!-- tags: контакты, команда -->
+
+## Профиль
+
+| Параметр | Значение |
+|----------|---------|
+| Ник | **nlaik** |
+| GitHub | [@nlaik](https://github.com/nlaik) |
+| Проекты | LiteParse / research-docs |
+| Слой в Svyazi | rag |
+| Упомянут в документах | 3 файлах |
+| Платформа | Habr / GitHub |
+
+## Статус связи
+
+- [ ] Изучили профиль
+- [ ] Написали первое сообщение
+- [ ] Получили ответ
+- [ ] Договорились о сотрудничестве
+
+## Первое сообщение
+
+```
+Здравствуйте, nlaik!
+
+Я изучаю LiteParse / research-docs — он отлично вписывается в Svyazi 2.0,
+которую я собираю как локальную community intelligence platform.
+
+LiteParse / research-docs закрывает слой «rag» в архитектуре.
+
+Было бы интересно пообщаться — как лучше связаться?
+```
+
+## Открытые вопросы
+
+1. [Вопрос 1]
+2. [Вопрос 2]
+
+---
+_Создано автоматически: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [dmitriila](docs/contacts/dmitriila.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+

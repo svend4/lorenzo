@@ -1,0 +1,12 @@
+# Lorenzo — зависимости
+# Базовые скрипты (improve_*.py, utils_chunker.py) работают без зависимостей —
+# только стандартная библиотека Python 3.10+.
+
+# Stage 3: LLM-скрипты (improve_llm_*.py)
+anthropic>=0.40.0          # Claude API: improve_llm_enrich, improve_llm_summary, improve_llm_qa
+
+# Stage 5: MCP-сервер (mcp_server.py)
+mcp>=1.0.0                 # Model Context Protocol SDK
+
+# Опционально: для word cloud (improve_word_cloud.py)
+# pillow>=10.0.0

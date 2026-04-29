@@ -1,0 +1,67 @@
+# Контакт: Antipozitive / MemNet
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> <!-- summary: Шаблон для связи с автором MemNet -->
+**Проекты:** Svyazi, MemNet
+
+---
+
+
+
+<!-- summary: Шаблон для связи с автором MemNet -->
+<!-- tags: контакты, команда -->
+
+## Профиль
+
+| Параметр | Значение |
+|----------|---------|
+| Ник | **Antipozitive** |
+| GitHub | [@Antipozitive](https://github.com/Antipozitive) |
+| Проекты | MemNet |
+| Слой в Svyazi | memory |
+| Упомянут в документах | 3 файлах |
+| Платформа | Habr / GitHub |
+
+## Статус связи
+
+- [ ] Изучили профиль
+- [ ] Написали первое сообщение
+- [ ] Получили ответ
+- [ ] Договорились о сотрудничестве
+
+## Первое сообщение
+
+```
+Здравствуйте, Antipozitive!
+
+Я изучаю MemNet — он отлично вписывается в Svyazi 2.0,
+которую я собираю как локальную community intelligence platform.
+
+MemNet закрывает слой «memory» в архитектуре.
+
+Было бы интересно пообщаться — как лучше связаться?
+```
+
+## Открытые вопросы
+
+1. [Вопрос 1]
+2. [Вопрос 2]
+
+---
+_Создано автоматически: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [dmitriila](docs/contacts/dmitriila.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+

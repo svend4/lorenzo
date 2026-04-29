@@ -1,0 +1,64 @@
+# Контакт: VitalyOborin / Yodoca
+
+<!-- summary -->
+> <!-- summary: Шаблон для связи с автором Yodoca -->
+**Проекты:** Svyazi, Yodoca
+
+---
+
+
+
+<!-- summary: Шаблон для связи с автором Yodoca -->
+<!-- tags: контакты, команда -->
+
+## Профиль
+
+| Параметр | Значение |
+|----------|---------|
+| Ник | **VitalyOborin** |
+| GitHub | [@VitalyOborin](https://github.com/VitalyOborin) |
+| Проекты | Yodoca |
+| Слой в Svyazi | memory |
+| Упомянут в документах | 7 файлах |
+| Платформа | Habr / GitHub |
+
+## Статус связи
+
+- [ ] Изучили профиль
+- [ ] Написали первое сообщение
+- [ ] Получили ответ
+- [ ] Договорились о сотрудничестве
+
+## Первое сообщение
+
+```
+Здравствуйте, VitalyOborin!
+
+Я изучаю Yodoca — он отлично вписывается в Svyazi 2.0,
+которую я собираю как локальную community intelligence platform.
+
+Yodoca закрывает слой «memory» в архитектуре.
+
+Один конкретный вопрос: Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей?
+
+Было бы интересно пообщаться — как лучше связаться?
+```
+
+## Открытые вопросы
+
+1. Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей?
+2. [Вопрос 2]
+
+---
+_Создано автоматически: 2026-04-29_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [dmitriila](docs/contacts/dmitriila.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+
