@@ -66,11 +66,12 @@ def build_index() -> list[dict]:
         meta["path"] = str(f.relative_to(ROOT))
         meta["section"] = f.parts[f.parts.index("docs") + 1] if "docs" in f.parts else ""
 
-        # Первые 500 символов чистого текста для превью
-        preview = re.sub(r'<!--.*?-->', '', text, flags=re.DOTALL)
-        preview = re.sub(r'[#*`>\[\]|]', ' ', preview)
-        preview = re.sub(r'\s+', ' ', preview).strip()[:500]
-        meta["preview"] = preview
+        # Полный чистый текст для поиска (поле "content")
+        content = re.sub(r'<!--.*?-->', '', text, flags=re.DOTALL)
+        content = re.sub(r'[#*`>\[\]|]', ' ', content)
+        content = re.sub(r'\s+', ' ', content).strip()
+        meta["content"] = content[:3000]   # лимит 3000 символов для баланса размера/качества
+        meta["preview"] = content[:500]    # обратная совместимость со старым форматом
 
         index.append(meta)
 

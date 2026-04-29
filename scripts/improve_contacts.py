@@ -102,7 +102,7 @@ def main():
 
     for author, info in sorted(KNOWN_AUTHORS.items()):
         count = len(author_files.get(author, []))
-        question = FIRST_QUESTIONS.get(author, "—")[:80]
+        question = FIRST_QUESTIONS.get(author, "—")
         lines.append(
             f"| **{author}** | {info['проект']} | {info['слой']} "
             f"| {count} | {question} |"
