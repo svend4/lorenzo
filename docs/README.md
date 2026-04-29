@@ -12,12 +12,12 @@
 - [BACKLINKS.md](BACKLINKS.md) — <!-- summary -->
 - [BADGES.md](BADGES.md) — _Обновлено: 2026-04-29_
 - [BROKEN_LINKS.md](BROKEN_LINKS.md) — > [!TIP]
-- [CHANGELOG.md](CHANGELOG.md) — Всего коммитов: **88**
+- [CHANGELOG.md](CHANGELOG.md) — Всего коммитов: **92**
 - [CHANGELOG_AUTO.md](CHANGELOG_AUTO.md) — <!-- summary -->
 - [CITATION_INDEX.md](CITATION_INDEX.md) — _Обновлено: 2026-04-29_
 - [CLUSTERS.md](CLUSTERS.md) — > [!TIP]
 - [CODE_BLOCKS.md](CODE_BLOCKS.md) — > [!TIP]
-- [COMPARE.md](COMPARE.md) — **Файлов было:** 1048  **стало:** 1193
+- [COMPARE.md](COMPARE.md) — **Файлов было:** 1049  **стало:** 1194
 - [COMPLEXITY.md](COMPLEXITY.md) — > [!WARNING]
 - [COMPONENT_MATRIX.md](COMPONENT_MATRIX.md) — <!-- summary -->
 - [CONCEPTS.md](CONCEPTS.md) — > [!TIP]
@@ -31,16 +31,16 @@
 - [COVERAGE.md](COVERAGE.md) — _Обновлено: 2026-04-29_
 - [CROSSREFS.md](CROSSREFS.md) — > [!TIP]
 - [CROSS_SECTION.md](CROSS_SECTION.md) — <!-- summary -->
-- [DECISIONS.md](DECISIONS.md) — Автоматически извлечено из всех документов: **394 записей**
+- [DECISIONS.md](DECISIONS.md) — Автоматически извлечено из всех документов: **395 записей**
 - [DENSITY.md](DENSITY.md) — > [!TIP]
 - [DEPENDABOT.md](DEPENDABOT.md) — _Обновлено: 2026-04-29_
 - [DEPENDENCY_MAP.md](DEPENDENCY_MAP.md) — <!-- summary -->
 - [DIGEST.md](DIGEST.md) — <!-- summary -->
 - [DIGEST_AUTO.md](DIGEST_AUTO.md) — _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 - [DIGEST_WEEKLY.md](DIGEST_WEEKLY.md) — _Период: последние 7 дней (с 2026-04-22)_
-- [DUPLICATES.md](DUPLICATES.md) — > [!TIP]
+- [DUPLICATES.md](DUPLICATES.md) — > [!WARNING]
 - [EMPTY_SECTIONS.md](EMPTY_SECTIONS.md) — _Обновлено: 2026-04-29_
-- [ENTITIES.md](ENTITIES.md) — **Файлов просмотрено:** 1190
+- [ENTITIES.md](ENTITIES.md) — **Файлов просмотрено:** 1191
 - [FAQ.md](FAQ.md) — _Извлечено: 125 вопросов и ответов_
 - [FOOTNOTES.md](FOOTNOTES.md) — **Обновлено файлов:** 4  **Вставлено сносок:** 14
 - [GITHUB_ISSUES.md](GITHUB_ISSUES.md) — _Обновлено: 2026-04-29_
@@ -55,17 +55,17 @@
 - [KPI.md](KPI.md) — > [!TIP]
 - [KPI_HISTORY.md](KPI_HISTORY.md) — <!-- summary -->
 - [LANGUAGE_STATS.md](LANGUAGE_STATS.md) — _Обновлено: 2026-04-29_
-- [LINKS.md](LINKS.md) — Всего уникальных URL: 225
+- [LINKS.md](LINKS.md) — Всего уникальных URL: 227
 - [LLM_SUMMARIES.md](LLM_SUMMARIES.md) — <!-- summary -->
 - [MCP_DASHBOARD.md](MCP_DASHBOARD.md) — _Обновлено: 2026-04-29_
-- [METRICS.md](METRICS.md) — **Файлов:** 1173  **Средний балл:** 71.3/100
+- [METRICS.md](METRICS.md) — **Файлов:** 1174  **Средний балл:** 71.2/100
 - [MINDMAP.md](MINDMAP.md) — ```mermaid
 - [MISSING.md](MISSING.md) — Анализ покрытия ключевых тем и проектов в docs/.
 - [NAMED_ENTITIES.md](NAMED_ENTITIES.md) — _Обновлено: 2026-04-29_
 - [NARRATIVE.md](NARRATIVE.md) — _Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._
 - [NETWORK.md](NETWORK.md) — **Узлов:** 20  **Связей:** 189
 - [ONBOARDING.md](ONBOARDING.md) — > [!TIP]
-- [ORPHANS.md](ORPHANS.md) — **Найдено:** 1 файлов без входящих ссылок из 1049 проверено.
+- [ORPHANS.md](ORPHANS.md) — **Найдено:** 1 файлов без входящих ссылок из 1050 проверено.
 - [OUTLINE.md](OUTLINE.md) — _Обновлено: 2026-04-29_
 - [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — _Обновлено: 2026-04-29_
 - [PASSIVE_VOICE.md](PASSIVE_VOICE.md) — _Обновлено: 2026-04-29_
@@ -77,16 +77,16 @@
 - [READING_LIST.md](READING_LIST.md) — <!-- summary -->
 - [READING_ORDER.md](READING_ORDER.md) — От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 - [READING_TIME.md](READING_TIME.md) — _Обновлено: 2026-04-29_
-- [REGISTRY.md](REGISTRY.md) — _Обновлено: 2026-04-29_
+- [REGISTRY.md](REGISTRY.md) — <!-- toc -->
 - [REPORT.md](REPORT.md) — _Сгенерировано автоматически: 2026-04-29_
 - [RISK_REGISTER.md](RISK_REGISTER.md) — > [!TIP]
 - [SCHEDULE.md](SCHEDULE.md) — _Дорожная карта с вехами и задачами по кварталам._
 - [SCORING.md](SCORING.md) — _Дата: 2026-04-29_
-- [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) — _Обновлено: 2026-04-29_
+- [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) — <!-- toc -->
 - [SEARCH.md](SEARCH.md) — > [!TIP]
 - [SEARCH_RESULTS.md](SEARCH_RESULTS.md) — <!-- summary -->
 - [SEE_ALSO.md](SEE_ALSO.md) — **Файлов с блоком See Also:** 1066
-- [SENTIMENT.md](SENTIMENT.md) — **Файлов проанализировано:** 1034
+- [SENTIMENT.md](SENTIMENT.md) — **Файлов проанализировано:** 1032
 - [SIMILAR.md](SIMILAR.md) — > [!TIP]
 - [SIMILAR_PASSAGES.md](SIMILAR_PASSAGES.md) — > [!TIP]
 - [SITEMAP.md](SITEMAP.md) — _Обновлено: 2026-04-29_
@@ -94,18 +94,18 @@
 - [SOURCE_MAP.md](SOURCE_MAP.md) — _Обновлено: 2026-04-29_
 - [SPELLCHECK.md](SPELLCHECK.md) — _Обновлено: 2026-04-29_
 - [STALENESS.md](STALENESS.md) — _Порог: 30 дней. Обновлено: 2026-04-29_
-- [STATS.md](STATS.md) — **Разделов:** 18  **Файлов:** 1190  **Слов:** 949,732  **Символов:** 8,499,289
+- [STATS.md](STATS.md) — **Разделов:** 18  **Файлов:** 1191  **Слов:** 944,878  **Символов:** 8,453,050
 - [SUMMARIES.md](SUMMARIES.md) — > [!TIP]
 - [TABLES.md](TABLES.md) — > [!TIP]
 - [TAGS.md](TAGS.md) — Каждый файл помечен тегами по темам автоматически.
-- [TASKS_INDEX.md](TASKS_INDEX.md) — _Обновлено: 2026-04-29_
+- [TASKS_INDEX.md](TASKS_INDEX.md) — <!-- toc -->
 - [TECH_RADAR.md](TECH_RADAR.md) — > [!WARNING]
 - [TIMELINE.md](TIMELINE.md) — _Обновлено: 2026-04-29_
-- [VALIDATION.md](VALIDATION.md) — _Обновлено: 2026-04-29_
+- [VALIDATION.md](VALIDATION.md) — **Ошибок:** 0  **Предупреждений:** 42  **Пройдено:** 27
 - [VERSION_DIFF.md](VERSION_DIFF.md) — _Обновлено: 2026-04-29_
 - [VOCABULARY.md](VOCABULARY.md) — _Обновлено: 2026-04-29_
 - [WORD_CLOUD.md](WORD_CLOUD.md) — <!-- summary -->
-- [WORD_FREQ.md](WORD_FREQ.md) — **Всего слов (очищенных):** 662,963
+- [WORD_FREQ.md](WORD_FREQ.md) — **Всего слов (очищенных):** 663,479
 - [reading-paths.md](reading-paths.md) — > [!TIP]
 
 ## Подразделы

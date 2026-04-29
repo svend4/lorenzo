@@ -1,7 +1,7 @@
 # Сравнение с предыдущим коммитом
 
 **Файлов было:** 1049  **стало:** 1194  
-**Слов было:** 784,610  **стало:** 946,250  **Δ:** +161,640
+**Слов было:** 783,180  **стало:** 945,988  **Δ:** +162,808
 
 
 ## Новые файлы (145)
@@ -51,37 +51,37 @@ _...и ещё 105_
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (69) — топ по Δ слов
+## Изменившиеся файлы (70) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `QUESTIONS.md` | 21411 | 1838 | -19573 |
-| `OUTLINE.md` | 28316 | 35022 | +6706 |
-| `PARAGRAPH_QUALITY.md` | 10584 | 15363 | +4779 |
-| `HEADING_AUDIT.md` | 5633 | 9018 | +3385 |
-| `TABLES.md` | 120085 | 117532 | -2553 |
-| `TIMELINE.md` | 2206 | 4347 | +2141 |
-| `EMPTY_SECTIONS.md` | 9997 | 12089 | +2092 |
-| `SCRIPTS_CATALOG.md` | 7026 | 7749 | +723 |
-| `CONTRADICTIONS.md` | 1482 | 1857 | +375 |
-| `VALIDATION.md` | 254 | 581 | +327 |
+| `QUESTIONS.md` | 21357 | 1838 | -19519 |
+| `OUTLINE.md` | 28343 | 35052 | +6709 |
+| `PARAGRAPH_QUALITY.md` | 10592 | 15375 | +4783 |
+| `HEADING_AUDIT.md` | 5639 | 9028 | +3389 |
+| `TIMELINE.md` | 2136 | 4347 | +2211 |
+| `EMPTY_SECTIONS.md` | 10025 | 12122 | +2097 |
+| `CONTRADICTIONS.md` | 1460 | 1832 | +372 |
+| `CONCEPTS.md` | 13421 | 13172 | -249 |
 | `GITHUB_ISSUES.md` | 1545 | 1754 | +209 |
 | `NAMED_ENTITIES.md` | 1479 | 1669 | +190 |
-| `SITEMAP.md` | 7071 | 7192 | +121 |
+| `SITEMAP.md` | 7078 | 7199 | +121 |
 | `READING_TIME.md` | 12409 | 12498 | +89 |
 | `COST.md` | 547 | 629 | +82 |
 | `SOURCE_MAP.md` | 6086 | 6167 | +81 |
-| `CITATION_INDEX.md` | 861 | 934 | +73 |
-| `KNOWLEDGE_MAP.md` | 580 | 653 | +73 |
-| `LANGUAGE_STATS.md` | 6695 | 6760 | +65 |
+| `CITATION_INDEX.md` | 861 | 935 | +74 |
+| `KNOWLEDGE_MAP.md` | 581 | 655 | +74 |
+| `LANGUAGE_STATS.md` | 6702 | 6767 | +65 |
 | `COVERAGE.md` | 595 | 659 | +64 |
 | `REPORT.md` | 911 | 975 | +64 |
 | `SCHEDULE.md` | 271 | 332 | +61 |
 | `VOCABULARY.md` | 882 | 943 | +61 |
-| `VERSION_DIFF.md` | 1489 | 1546 | +57 |
-| `TASKS_INDEX.md` | 956 | 1012 | +56 |
+| `VERSION_DIFF.md` | 1281 | 1339 | +58 |
 | `PROGRESS.md` | 261 | 316 | +55 |
 | `COMPARE.md` | 477 | 528 | +51 |
 | `STALENESS.md` | 388 | 439 | +51 |
 | `CONTACT_PRIORITY.md` | 364 | 413 | +49 |
 | `SCORING.md` | 338 | 387 | +49 |
+| `DEPENDABOT.md` | 136 | 173 | +37 |
+| `CONCEPT_GRAPH.md` | 646 | 682 | +36 |
+| `PASSIVE_VOICE.md` | 373 | 408 | +35 |

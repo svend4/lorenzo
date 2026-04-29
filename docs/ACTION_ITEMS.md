@@ -442,7 +442,7 @@ _(51 дублей скрыто)_
   _→ SUMMARIES_
 - через Правило 2 §3.1 : Финальная запись : Правило: итоговое число — точное, верифицированное , не среднее между A и B. Из IMPLEMENTATION STAGE PART 1.  
   _→ SUMMARIES_
-- boundary](#8-decision-boundary)  
+- boundary](#4-decision-boundary)  
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `docs/04-ai-collaborations/00-intro.md` |  
   _→ TABLES_
@@ -454,9 +454,11 @@ _(51 дублей скрыто)_
   _→ TABLES_
 - создать документы](#28-рекомендуется-создать-документы)  
   _→ TABLES_
-- упростить | Самые сложные тексты (1146) — рекомендуется упростить |  
-  _→ TABLES_
 - упростить | Самые сложные тексты (1142) — рекомендуется упростить |  
+  _→ TABLES_
+- исправить.  
+  _→ VALIDATION_
+- упростить | Самые сложные тексты (1161) — рекомендуется упростить |  
   _→ VERSION_DIFF_
 - позиционировать как research database, не как legal service. «Вот как типичный case структурируется» — OK. «Вот что вам лично делать» — не OK без юрид  
   _→ 03-what-this-gives-technically_
@@ -479,7 +481,7 @@ _(51 дублей скрыто)_
 - 1] — см. [ADR-NNNN](../decisions/ADR-NNNN.md)  
   _→ weekly-digest_
 
-_(143 дублей скрыто)_
+_(142 дублей скрыто)_
 
 ## ⚠️ Риски (596)
 
@@ -935,11 +937,11 @@ _(143 дублей скрыто)_
   _→ DECISIONS_
 - склеивать](docs/svyazi-2-0/limitations/do-not-glue.md) > > !WARNING - Оркестрация — выбрать один spine - Voice/local‑fir  
   _→ DECISIONS_
-- | `root` | 80% |  
+- | `root` | 79% |  
   _→ DENSITY_
-- Коллапс Опосредования](#61-риск-коллапс-опосредования) - [6.2. Риск: Атрофия Навыков у Новых Пра…  
-  _→ DUPLICATES_
 - mitigations**: - If anchor commitment fails: pivot to foundation-only funding with delayed, smaller pilot - If core team assembly slow: partner wit  
+  _→ DUPLICATES_
+- Analysis](#8-risk-analysis) - [8.1. Risk: Insufficient Demand from Target Contributor Population](#81-risk-insufficient-demand-from-target-contribut  
   _→ DUPLICATES_
 - Analysis (0 сл., строка 41)  
   _→ EMPTY_SECTIONS_
@@ -1027,8 +1029,6 @@ _(143 дублей скрыто)_
   _→ SITEMAP_
 - того, что через две недели Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, LiteParse, Legal RAG ^rag , Hybrid  
   _→ SUMMARIES_
-- [Название]](docs/templates/risk-entry.md) | 233 |  
-  _→ TABLES_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
@@ -1038,6 +1038,8 @@ _(143 дублей скрыто)_
 - Score | [P × I, 1-25] |  
   _→ TABLES_
 - идентифицирован | [Имя] |  
+  _→ TABLES_
+- | `root` | 80% |  
   _→ TABLES_
 - и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
   _→ TABLES_
@@ -1247,8 +1249,6 @@ _(68 дублей скрыто)_
   _→ 87-12-onboarding-paths-normative_
 - ⭐ To Do — задача к выполнению 14 [1. Словарь аббревиатур и сокращений]  
   _→ QUESTIONS_
-- из docs/. [export (7)]  
-  _→ QUESTIONS_
 - из docs/. [extract (9)]  
   _→ QUESTIONS_
 - ⭐ To Do — задача к выполнению 14 [Словарь аббревиатур и сокращений]  
@@ -1270,7 +1270,7 @@ _(68 дублей скрыто)_
 - SGB Y — [пояснение]  
   _→ legal-case_
 
-_(4 дублей скрыто)_
+_(5 дублей скрыто)_
 
 ## 📬 Контактные действия (148)
 
@@ -1416,7 +1416,7 @@ _(4 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется [116. Шаблоны]  
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [119. Шаблоны]  
   _→ QUESTIONS_
 - авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
   _→ QUESTIONS_

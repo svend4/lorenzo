@@ -1,6 +1,6 @@
 # Индекс ссылок
 
-Всего уникальных URL: 227
+Всего уникальных URL: 229
 
 | URL | Найден в файлах |
 |-----|-----------------|
@@ -25,7 +25,7 @@
 | https://github.com/AnastasiyaW | 4 |
 | https://github.com/AnastasiyaW/knowledge-space | 7 |
 | https://github.com/AnastasiyaW/knowledge-space` | 3 |
-| https://github.com/AnastasiyaW/knowledge-space`, | 2 |
+| https://github.com/AnastasiyaW/knowledge-space`, | 3 |
 | https://github.com/Antipozitive | 4 |
 | https://github.com/Cutcode | 4 |
 | https://github.com/Dmitriila | 4 |
@@ -40,7 +40,7 @@
 | https://github.com/kksudo | 4 |
 | https://github.com/kksudo/agentfs | 4 |
 | https://github.com/mcp | 7 |
-| https://github.com/mcp` | 3 |
+| https://github.com/mcp` | 4 |
 | https://github.com/mcp`, | 2 |
 | https://github.com/nlaik | 4 |
 | https://github.com/settings/tokens | 5 |
@@ -105,6 +105,7 @@
 | https://habr.com/ru/articles/1007122/ | 6 |
 | https://habr.com/ru/articles/1007122/, | 5 |
 | https://habr.com/ru/articles/1007122/` | 3 |
+| https://habr.com/ru/articles/1007122/`, | 1 |
 | https://habr.com/ru/articles/1009538/ | 6 |
 | https://habr.com/ru/articles/1009538/` | 3 |
 | https://habr.com/ru/articles/1009608/ | 6 |
@@ -122,7 +123,7 @@
 | https://habr.com/ru/articles/1016096/ | 6 |
 | https://habr.com/ru/articles/1016096/` | 3 |
 | https://habr.com/ru/articles/1017200/ | 7 |
-| https://habr.com/ru/articles/1017200/` | 4 |
+| https://habr.com/ru/articles/1017200/` | 3 |
 | https://habr.com/ru/articles/1019588/ | 4 |
 | https://habr.com/ru/articles/1019588/, | 4 |
 | https://habr.com/ru/articles/1019588/` | 3 |
@@ -176,7 +177,7 @@
 | https://habr.com/ru/articles/996144/ | 6 |
 | https://habr.com/ru/articles/996144/` | 3 |
 | https://habr.com/ru/companies/airi/articles/1000720/ | 7 |
-| https://habr.com/ru/companies/airi/articles/1000720/` | 4 |
+| https://habr.com/ru/companies/airi/articles/1000720/` | 3 |
 | https://habr.com/ru/companies/airi/articles/855128/ | 7 |
 | https://habr.com/ru/companies/airi/articles/855128/` | 3 |
 | https://habr.com/ru/companies/neuronet/articles/592625/ | 3 |
@@ -190,20 +191,19 @@
 | https://habr.com/ru/companies/yadro/articles/645843/ | 3 |
 | https://habr.com/ru/companies/yadro/articles/648119/ | 3 |
 | https://habr.com/ru/companies/yandex/articles/1019928/ | 7 |
-| https://habr.com/ru/companies/yandex/articles/1019928/` | 3 |
+| https://habr.com/ru/companies/yandex/articles/1019928/` | 4 |
 | https://habr.com/ru/companies/yoomoney/articles/1012870/ | 7 |
 | https://habr.com/ru/companies/yoomoney/articles/1012870/` | 3 |
 | https://habr.com/ru/news/789164/ | 3 |
 | https://happyin.space/ | 4 |
 | https://img.shields.io/badge/health-77/100-green | 4 |
 | https://img.shields.io/badge/manifests-13-blue | 4 |
-| https://img.shields.io/badge/mcp--servers-10-blue | 4 |
+| https://img.shields.io/badge/mcp--servers-10-blue | 3 |
+| https://img.shields.io/badge/mcp--servers-12-blue | 1 |
 | https://img.shields.io/badge/scripts-152-blue | 2 |
-| https://img.shields.io/badge/scripts-153-blue | 3 |
-| https://img.shields.io/badge/scripts-155-blue | 1 |
+| https://img.shields.io/badge/scripts-153-blue | 2 |
+| https://img.shields.io/badge/scripts-155-blue | 4 |
 | https://img.shields.io/badge/skills-28-blue | 4 |
-| https://img.shields.io/badge/templates-23-blue | 4 |
-| https://img.shields.io/badge/tests-108--passing-brightgreen | 3 |
 
 <!-- see-also -->
 

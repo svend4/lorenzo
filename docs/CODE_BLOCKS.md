@@ -148,29 +148,29 @@ _`docs/CONCEPT_GRAPH.md` | 101 строк_
 ```mermaid
 graph TD
     docs["docs\n(995)"]
-    anthropic["anthropic\n(791)"]
+    anthropic["anthropic\n(792)"]
     claude["claude\n(502)"]
     summary["summary\n(497)"]
     vacancies["vacancies\n(474)"]
     источник["источник\n(467)"]
-    mhtml["mhtml\n(412)"]
+    mhtml["mhtml\n(411)"]
     снимок["снимок\n(400)"]
     репозитория("репозитория\n(387)")
     корень["корень\n(377)"]
     agent{{"agent\n(358)"}}
     tags["tags\n(353)"]
-    nautilus["nautilus\n(322)"]
+    nautilus["nautilus\n(321)"]
     раздел["раздел\n(310)"]
     вакансии["вакансии\n(305)"]
     кластерам["кластерам\n(295)"]
     диалога["диалога\n(269)"]
-    svyazi("svyazi\n(251)")
+    svyazi("svyazi\n(250)")
     knowledge["knowledge\n(244)"]
     architecture["architecture\n(236)"]
     сходство["сходство\n(235)"]
-    memory[("memory\n(192)")]
+    memory[("memory\n(193)")]
     collaboration["collaboration\n(189)"]
-    habr["habr\n(166)"]
+    habr["habr\n(167)"]
     layer[/"layer\n(159)"/]
     work["work\n(158)"]
 # ... (обрезано)
@@ -1539,10 +1539,10 @@ _`docs/ALERTS.md` | 11 строк_
 _`docs/BADGES.md` | 8 строк_
 
 ```markdown
-![tests](https://img.shields.io/badge/tests-139--passing-brightgreen)
+![tests](https://img.shields.io/badge/tests-155--passing-brightgreen)
 ![templates](https://img.shields.io/badge/templates-23-blue)
 ![skills](https://img.shields.io/badge/skills-28-blue)
-![mcp_servers](https://img.shields.io/badge/mcp--servers-10-blue)
+![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
 ![manifests](https://img.shields.io/badge/manifests-13-blue)
 ![scripts](https://img.shields.io/badge/scripts-155-blue)
 ![health](https://img.shields.io/badge/health-77/100-green)

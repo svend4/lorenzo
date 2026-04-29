@@ -18,7 +18,7 @@ graph TD
     снимок["снимок\n(400)"]
     репозитория("репозитория\n(387)")
     корень["корень\n(377)"]
-    agent{{"agent\n(358)"}}
+    agent{{"agent\n(357)"}}
     tags["tags\n(353)"]
     nautilus["nautilus\n(321)"]
     раздел["раздел\n(310)"]
@@ -31,14 +31,14 @@ graph TD
     сходство["сходство\n(235)"]
     memory[("memory\n(193)")]
     collaboration["collaboration\n(189)"]
-    habr["habr\n(167)"]
+    habr["habr\n(168)"]
     layer[/"layer\n(159)"/]
     work["work\n(158)"]
     projects["projects\n(154)"]
     agents{{"agents\n(152)"}}
     portal["portal\n(147)"]
     protocol[/"protocol\n(146)"/]
-    legal["legal\n(144)"]
+    legal["legal\n(145)"]
     infrastructure["infrastructure\n(144)"]
     first["first\n(138)"]
     auto["auto\n(137)"]
@@ -106,7 +106,7 @@ graph TD
     claude -- 275 |толстый|--> раздел
     раздел -- 273 |толстый|--> репозитория
     anthropic -- 272 |толстый|--> summary
-    agent -- 272 |толстый|--> anthropic
+    agent -- 271 |толстый|--> anthropic
     вакансии -- 271 |толстый|--> раздел
 ```
 
@@ -114,8 +114,8 @@ graph TD
 
 | Концепт | Файлов | Связей | Категория |
 |---------|--------|--------|-----------|
-| `docs` | 995 | 9315 | other |
-| `anthropic` | 792 | 7931 | other |
+| `docs` | 995 | 9317 | other |
+| `anthropic` | 792 | 7932 | other |
 | `claude` | 502 | 6143 | other |
 | `источник` | 467 | 5969 | other |
 | `mhtml` | 411 | 5526 | other |
@@ -126,21 +126,21 @@ graph TD
 | `раздел` | 310 | 4405 | other |
 | `кластерам` | 295 | 4396 | other |
 | `vacancies` | 474 | 4285 | other |
-| `summary` | 497 | 4250 | other |
+| `summary` | 497 | 4248 | other |
 | `диалога` | 269 | 4044 | other |
-| `nautilus` | 321 | 3782 | other |
-| `agent` | 358 | 3615 | agent |
+| `nautilus` | 321 | 3784 | other |
+| `agent` | 357 | 3610 | agent |
 | `tags` | 353 | 3488 | other |
-| `architecture` | 236 | 2517 | other |
-| `knowledge` | 244 | 2305 | other |
+| `architecture` | 236 | 2519 | other |
+| `knowledge` | 244 | 2311 | other |
 | `collaboration` | 189 | 1997 | other |
-| `svyazi` | 250 | 1955 | project |
+| `svyazi` | 250 | 1953 | project |
 | `сходство` | 235 | 1849 | other |
-| `habr` | 167 | 1826 | other |
+| `habr` | 168 | 1828 | other |
+| `layer` | 159 | 1744 | architecture |
 | `memory` | 193 | 1742 | memory |
-| `layer` | 159 | 1742 | architecture |
 | `protocol` | 146 | 1736 | architecture |
-| `work` | 158 | 1721 | other |
+| `work` | 158 | 1723 | other |
 | `portal` | 147 | 1690 | other |
-| `projects` | 154 | 1558 | other |
-| `infrastructure` | 144 | 1535 | other |
+| `projects` | 154 | 1556 | other |
+| `infrastructure` | 144 | 1537 | other |

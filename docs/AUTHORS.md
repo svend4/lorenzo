@@ -5,14 +5,14 @@
 | Автор | Упоминается в файлах |
 |-------|---------------------|
 | **AnastasiyaW** | 52 |
-| **Antipozitive** | 34 |
+| **Antipozitive** | 33 |
 | **BerriAI** | 12 |
-| **Cutcode** | 37 |
-| **Dmitriila** | 35 |
-| **MiXaiLL76** | 31 |
+| **Cutcode** | 36 |
+| **Dmitriila** | 34 |
+| **MiXaiLL76** | 30 |
 | **Sonia_Black** | 19 |
 | **VitaliySemenov** | 8 |
-| **VitalyOborin** | 41 |
+| **VitalyOborin** | 40 |
 | **VladSpace** | 43 |
 | **akazant** | 10 |
 | **akzhankalimatov** | 8 |
@@ -22,11 +22,11 @@
 | **lee-to** | 11 |
 | **lib4u** | 14 |
 | **moshael** | 10 |
-| **nlaik** | 32 |
-| **spbmolot** | 60 |
+| **nlaik** | 31 |
+| **spbmolot** | 59 |
 | **tagir_analyzes** | 14 |
 | **vpakspace** | 8 |
-| **zodigancode** | 37 |
+| **zodigancode** | 36 |
 | **Андрей Чуян** | 37 |
 | **Виталий Оборин** | 9 |
 

@@ -6,8 +6,8 @@
 |--------|---------------------|
 | **AI Factory** | 74 |
 | **AIF Handoff** | 30 |
-| **AgentFS** | 102 |
-| **Auto AI Router** | 66 |
+| **AgentFS** | 101 |
+| **Auto AI Router** | 65 |
 | **AutoResearch** | 66 |
 | **Automerge** | 38 |
 | **CardIndex** | 139 |
@@ -17,7 +17,7 @@
 | **Legal RAG** | 51 |
 | **LiteLLM** | 49 |
 | **LiteParse** | 80 |
-| **MemNet** | 140 |
+| **MemNet** | 141 |
 | **Memory OS** | 38 |
 | **NGT Memory** | 95 |
 | **OpenWhispr** | 21 |
@@ -26,7 +26,7 @@
 | **SENTINEL** | 69 |
 | **Self-Aware MCP** | 21 |
 | **Sequential** | 119 |
-| **Svyazi** | 315 |
+| **Svyazi** | 316 |
 | **Tool Search** | 50 |
 | **Whisper** | 24 |
 | **Wikontic** | 51 |

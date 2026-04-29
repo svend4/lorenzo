@@ -58,7 +58,7 @@
 
 ## Общие показатели
 
-- Файлов с `<!-- summary -->`: **95.6%**
+- Файлов с `<!-- summary -->`: **95.5%**
 - Файлов с тегами: **90.1%**
 - Файлов с оглавлением: **27.0%**
 - Файлов с callout: **27.9%**
@@ -71,6 +71,6 @@
 **Смотрите также:**
 - [STATS](docs/STATS.md)
 - [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
 - [HEALTH](docs/HEALTH.md)
+- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
 

@@ -13,29 +13,29 @@
 
 | # | Файл | Score | Слов | Ключевые термины |
 |---|------|-------|------|-----------------|
-| 1 | `docs/TABLES.md` | **591.28** | 122430 | agent, Svyazi, memory, rag, MIT |
-| 2 | `docs/OUTLINE.md` | **274.97** | 34992 | agent, Svyazi, memory, security, rag |
-| 3 | `docs/PARAGRAPH_QUALITY.md` | **168.29** | 15333 | agent, Svyazi, memory, security, MIT |
-| 4 | `docs/QUESTIONS.md` | **99.52** | 23119 | agent, rag, Svyazi, memory, MIT |
-| 5 | `docs/HEADING_AUDIT.md` | **92.38** | 8988 | agent, Svyazi, security, MIT, rag |
+| 1 | `docs/TABLES.md` | **580.38** | 119868 | agent, Svyazi, memory, rag, MIT |
+| 2 | `docs/OUTLINE.md` | **274.95** | 35022 | agent, Svyazi, memory, security, rag |
+| 3 | `docs/PARAGRAPH_QUALITY.md` | **168.28** | 15345 | agent, Svyazi, memory, security, MIT |
+| 4 | `docs/QUESTIONS.md` | **97.55** | 23062 | agent, rag, Svyazi, memory, MIT |
+| 5 | `docs/HEADING_AUDIT.md` | **92.37** | 8998 | agent, Svyazi, security, MIT, rag |
 | 6 | `docs/SUMMARIES.md` | **83.66** | 3910 | Svyazi, agent, rag, memory, AgentFS |
-| 7 | `docs/SITEMAP.md` | **81.56** | 7162 | agent, Svyazi, memory, rag, security |
+| 7 | `docs/SITEMAP.md` | **81.55** | 7169 | agent, Svyazi, memory, rag, security |
 | 8 | `docs/04-ai-collaborations/00-intro.md` | **70.87** | 11389 | Svyazi, rag, memory, agent, локальн |
 | 9 | `docs/glossary/components-by-name.md` | **68.4** | 1114 | Svyazi, agent, memory, rag, Yodoca |
-| 10 | `docs/CONCEPTS.md` | **66.09** | 13599 | agent, Svyazi, MIT, memory, rag |
+| 10 | `docs/CONCEPTS.md` | **66.2** | 13578 | agent, Svyazi, MIT, memory, rag |
 | 11 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **64.79** | 20426 | agent, memory, MIT, rag, NGT Memory |
 | 12 | `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **63.25** | 3274 | Svyazi, memory, evidence, agent, rag |
-| 13 | `docs/READABILITY.md` | **60.53** | 17983 | agent, Svyazi, memory, security, rag |
+| 13 | `docs/READABILITY.md` | **60.52** | 17997 | agent, Svyazi, memory, security, rag |
 | 14 | `docs/READING_TIME.md` | **56.3** | 12468 | agent, Svyazi, memory, security, rag |
 | 15 | `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **54.71** | 3873 | agent, Svyazi, memory, MIT, evidence |
 | 16 | `docs/BROKEN_LINKS.md` | **45.85** | 790 | Svyazi, MVP, security, roadmap, knowledge-space |
 | 17 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **43.6** | 4419 | agent, MIT, rag, Svyazi, mclaude |
-| 18 | `docs/ACTION_ITEMS.md` | **43.05** | 8204 | MIT, agent, Svyazi, memory, AgentFS |
+| 18 | `docs/ACTION_ITEMS.md` | **42.94** | 8207 | agent, MIT, Svyazi, memory, AgentFS |
 | 19 | `docs/SIMILAR_PASSAGES.md` | **42.29** | 1931 | Svyazi, MVP, архитектурный зазор, agent, AgentFS |
 | 20 | `docs/DECISIONS.md` | **41.32** | 2479 | Svyazi, agent, MIT, AgentFS, memory |
 | 21 | `docs/NAMED_ENTITIES.md` | **39.85** | 1639 | Svyazi, MVP, CardIndex, Yodoca, rag |
 | 22 | `docs/glossary/authors-by-name.md` | **39.6** | 497 | Svyazi, memory, agent, rag, security |
-| 23 | `docs/EMPTY_SECTIONS.md` | **39.16** | 12059 | agent, rag, security, MIT, knowledge-space |
+| 23 | `docs/EMPTY_SECTIONS.md` | **39.15** | 12092 | agent, rag, security, MIT, knowledge-space |
 | 24 | `docs/MINDMAP.md` | **37.77** | 272 | rag, memory, CardIndex, knowledge-space, agent |
 | 25 | `docs/01-svyazi/09-architectural-gaps.md` | **36.63** | 758 | Svyazi, agent, memory, AgentFS, evidence |
 | 26 | `docs/05-habr-projects/memory/memnet.md` | **35.44** | 7246 | локальн, Svyazi, rag, memory, Yodoca |
@@ -45,9 +45,9 @@
 | 30 | `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` | **33.22** | 846 | Svyazi, memory, rag, agent, AgentFS |
 | 31 | `docs/01-svyazi/07-mvp-planning.md` | **32.85** | 1063 | Svyazi, agent, memory, CardIndex, AgentFS |
 | 32 | `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` | **32.77** | 9468 | agent, MIT, rag, memory, evidence |
-| 33 | `docs/01-svyazi/04-ensembles-overview.md` | **32.11** | 1288 | Svyazi, rag, agent, AgentFS, Rufler |
-| 34 | `docs/SOURCE_MAP.md` | **31.41** | 6137 | agent, Svyazi, security, memory, MIT |
-| 35 | `docs/NETWORK.md` | **31.33** | 457 | Svyazi, CardIndex, AgentFS, agent, knowledge-space |
+| 33 | `docs/NETWORK.md` | **32.31** | 457 | Svyazi, CardIndex, AgentFS, Yodoca, agent |
+| 34 | `docs/01-svyazi/04-ensembles-overview.md` | **32.11** | 1288 | Svyazi, rag, agent, AgentFS, Rufler |
+| 35 | `docs/SOURCE_MAP.md` | **31.41** | 6137 | agent, Svyazi, security, memory, MIT |
 | 36 | `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` | **31.23** | 1478 | memory, Svyazi, MIT, agent, rag |
 | 37 | `docs/01-svyazi/11-integration-contracts.md` | **31.19** | 737 | Svyazi, memory, rag, agent, AgentFS |
 | 38 | `docs/01-svyazi/01-executive-summary.md` | **30.04** | 726 | Svyazi, agent, rag, AgentFS, CardIndex |
@@ -299,11 +299,11 @@
 
 | Файл | Score |
 |------|-------|
-| `docs/TABLES.md` | 591.28 |
-| `docs/OUTLINE.md` | 274.97 |
-| `docs/PARAGRAPH_QUALITY.md` | 168.29 |
-| `docs/QUESTIONS.md` | 99.52 |
-| `docs/HEADING_AUDIT.md` | 92.38 |
+| `docs/TABLES.md` | 580.38 |
+| `docs/OUTLINE.md` | 274.95 |
+| `docs/PARAGRAPH_QUALITY.md` | 168.28 |
+| `docs/QUESTIONS.md` | 97.55 |
+| `docs/HEADING_AUDIT.md` | 92.37 |
 
 ### double-triangle-architecture
 
@@ -755,10 +755,10 @@
 | Файл | Score |
 |------|-------|
 | `docs/templates/prototype-mvp.md` | 5.24 |
+| `docs/templates/project-component.md` | 2.47 |
 | `docs/templates/mega-stack.md` | 2.4 |
 | `docs/templates/legal-case.md` | 1.42 |
-| `docs/templates/project-component.md` | 1.29 |
-| `docs/templates/agent-spec.md` | 1.02 |
+| `docs/templates/ensemble.md` | 1.22 |
 
 ### transmission-box
 

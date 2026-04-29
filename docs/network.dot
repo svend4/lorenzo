@@ -26,7 +26,7 @@ digraph network {
   "Svyazi" -- "CardIndex" [weight=117, penwidth=5];
   "Svyazi" -- "NGT" [weight=116, penwidth=5];
   "Yodoca" -- "NGT" [weight=101, penwidth=5];
-  "Svyazi" -- "AgentFS" [weight=90, penwidth=5];
+  "Svyazi" -- "AgentFS" [weight=89, penwidth=5];
   "Svyazi" -- "MemNet" [weight=89, penwidth=5];
   "Svyazi" -- "knowledge-space" [weight=84, penwidth=5];
   "CardIndex" -- "NGT" [weight=83, penwidth=5];
@@ -34,15 +34,15 @@ digraph network {
   "CardIndex" -- "Yodoca" [weight=80, penwidth=5];
   "AgentFS" -- "NGT" [weight=79, penwidth=5];
   "Svyazi" -- "Rufler" [weight=78, penwidth=5];
-  "CardIndex" -- "AgentFS" [weight=77, penwidth=5];
   "AgentFS" -- "Yodoca" [weight=77, penwidth=5];
+  "CardIndex" -- "AgentFS" [weight=76, penwidth=5];
   "Svyazi" -- "LiteParse" [weight=74, penwidth=5];
-  "AgentFS" -- "knowledge-space" [weight=73, penwidth=5];
+  "AgentFS" -- "knowledge-space" [weight=72, penwidth=5];
   "Svyazi" -- "AI Factory" [weight=69, penwidth=5];
   "Yodoca" -- "mclaude" [weight=69, penwidth=5];
   "Yodoca" -- "knowledge-space" [weight=68, penwidth=5];
+  "Yodoca" -- "MemNet" [weight=68, penwidth=5];
   "NGT" -- "knowledge-space" [weight=68, penwidth=5];
-  "Yodoca" -- "MemNet" [weight=67, penwidth=5];
   "Yodoca" -- "Rufler" [weight=65, penwidth=5];
   "CardIndex" -- "knowledge-space" [weight=64, penwidth=5];
   "NGT" -- "mclaude" [weight=64, penwidth=5];

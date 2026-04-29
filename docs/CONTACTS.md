@@ -5,27 +5,27 @@
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
 |-------|--------|------|-------------------|---------------|
 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 51 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 34 | — |
-| **Cutcode** | AIF Handoff | orchestration | 37 | — |
-| **Dmitriila** | SENTINEL | security | 35 | — |
-| **MiXaiLL76** | Auto AI Router | security | 31 | — |
+| **Antipozitive** | MemNet | memory | 33 | — |
+| **Cutcode** | AIF Handoff | orchestration | 36 | — |
+| **Dmitriila** | SENTINEL | security | 34 | — |
+| **MiXaiLL76** | Auto AI Router | security | 30 | — |
 | **Sonia_Black** | knowledge-space | knowledge | 19 | — |
-| **VitalyOborin** | Yodoca | memory | 40 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VitalyOborin** | Yodoca | memory | 39 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
 | **VladSpace** | Graph RAG | rag | 43 | — |
 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 15 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
 | **kksudo** | AgentFS | knowledge/filesystem | 57 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
 | **lee-to** | AI Factory | orchestration | 11 | — |
-| **nlaik** | LiteParse / research-docs | rag | 32 | — |
-| **spbmolot** | NGT Memory | memory | 59 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
+| **nlaik** | LiteParse / research-docs | rag | 31 | — |
+| **spbmolot** | NGT Memory | memory | 58 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
 | **tagir_analyzes** | Legal RAG | rag | 14 | — |
-| **zodigancode** | Rufler | orchestration | 37 | — |
+| **zodigancode** | Rufler | orchestration | 36 | — |
 
 ## GitHub репозитории
 
 | Репозиторий | Упоминается в файлах |
 |-------------|---------------------|
 | `github.com/github.com/AnastasiyaW` | 4 |
-| `github.com/github.com/AnastasiyaW/knowledge-space` | 10 |
+| `github.com/github.com/AnastasiyaW/knowledge-space` | 11 |
 | `github.com/github.com/Antipozitive` | 4 |
 | `github.com/github.com/Cutcode` | 4 |
 | `github.com/github.com/Dmitriila` | 4 |
@@ -45,7 +45,7 @@
 | `github.com/github.com/kksudo` | 4 |
 | `github.com/github.com/kksudo/agentfs` | 4 |
 | `github.com/github.com/lib4u/rufler` | 2 |
-| `github.com/github.com/mcp` | 8 |
+| `github.com/github.com/mcp` | 9 |
 | `github.com/github.com/nlaik` | 4 |
 | `github.com/github.com/ruvnet/ruflo` | 2 |
 | `github.com/github.com/settings/tokens` | 6 |

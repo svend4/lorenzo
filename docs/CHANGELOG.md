@@ -1,7 +1,7 @@
 # CHANGELOG
 
-Всего коммитов: **92**  
-Статистика: 🔧 chore: 38 | ✨ feat: 27 | ⚡ improve: 14 | 📝 docs: 10 | 🐛 fix: 3
+Всего коммитов: **95**  
+Статистика: 🔧 chore: 39 | ✨ feat: 28 | ⚡ improve: 14 | 📝 docs: 11 | 🐛 fix: 3
 
 
 ## semantic (1 коммитов)
@@ -10,10 +10,11 @@
 
 - hybrid _  E4. cm_
 
-## 2026-04-29 (89 коммитов)
+## 2026-04-29 (92 коммитов)
 
 ### 🔧 Обслуживание
 
+- regenerate auto-exports after Sprint 18-20 _f053125f_
 - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737f2_
 - regenerate badges + auto-exports after Sprint 12-14 _25de4e63_
 - regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML) _b471bbad_
@@ -79,6 +80,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _6f3be4a7_
 - auto-update via improve_run_all [skip ci] _0c696915_
 - auto-update via improve_run_all [skip ci] _519d41b5_
 - auto-update via improve_run_all [skip ci] _fdd84b5b_
@@ -93,6 +95,8 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest _89f9dc93_
+  > Sprint 18 — MCP-изация
 - Sprint 15-17 — workflow v2, observability, embeddings, i18n _2265a4db_
   > Sprint 15 — workflow & observability
 - Sprint 12-14 — bot-aware exclusions, distribution, web dashboard _1bf14810_

@@ -227,7 +227,7 @@ _Обновлено: 2026-04-29_
 | `166-representative-agent-layer-md.md` | 24% | 76% |
 | `323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | 24% | 76% |
 | `343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` | 76% | 24% |
-| `README.md` | 25% | 75% |
+| `README.md` | 24% | 76% |
 | `337-благодарности.md` | 75% | 25% |
 | `00-question-two-nautiluses.md` | 75% | 25% |
 | `7-metaphor.md` | 75% | 25% |
@@ -279,9 +279,9 @@ _Обновлено: 2026-04-29_
 | `289-инфраструктура-для-ai-совместной-интеллектуальной-.md` | 73% | 27% |
 | `60-bridges.md` | 27% | 73% |
 | `57-native-format.md` | 28% | 72% |
+| `DUPLICATES.md` | 28% | 72% |
 | `00-question-agent-changes-reality.md` | 72% | 28% |
 | `00-question-can-it-apply-to-docs.md` | 72% | 28% |
-| `VERSION_DIFF.md` | 28% | 72% |
 | `17-appendix-b-change-log.md` | 28% | 72% |
 | `QUESTIONS.md` | 72% | 28% |
 | `362-когда-сомневаешься-escalate-к-max.md` | 28% | 72% |
@@ -291,7 +291,6 @@ _Обновлено: 2026-04-29_
 | `NARRATIVE.md` | 72% | 28% |
 | `08-implikatsii-nautilus-okwf.md` | 72% | 28% |
 | `21-9-query-flow.md` | 28% | 72% |
-| `DUPLICATES.md` | 28% | 72% |
 | `14-public-policy.md` | 28% | 72% |
 | `agent-memory-mcp.md` | 28% | 72% |
 | `245-ссылки.md` | 72% | 28% |
@@ -316,12 +315,13 @@ _Обновлено: 2026-04-29_
 | `11-dhlab-documents.md` | 29% | 71% |
 | `48-content-overview.md` | 29% | 71% |
 | `NETWORK.md` | 29% | 71% |
-| `ngt-memory.md` | 71% | 29% |
 | `TABLES.md` | 29% | 71% |
+| `ngt-memory.md` | 71% | 29% |
 | `01-ai-research-engineering.md` | 29% | 71% |
 | `12-technical-program-management.md` | 29% | 71% |
 | `13-communications.md` | 29% | 71% |
 | `COVERAGE.md` | 29% | 71% |
+| `VERSION_DIFF.md` | 29% | 71% |
 | `11-zaklyuchenie.md` | 71% | 29% |
 | `review-record.md` | 29% | 71% |
 | `01-search-results-not-found.md` | 30% | 70% |
@@ -344,8 +344,8 @@ _Обновлено: 2026-04-29_
 | `125-readme-mcp-md-инструкция-по-установке.md` | 30% | 70% |
 | `05-marketing-brand.md` | 30% | 70% |
 | `02-related-projects.md` | 70% | 30% |
-| `SEE_ALSO.md` | 30% | 70% |
 | `00-intro.md` | 70% | 30% |
+| `SEE_ALSO.md` | 30% | 70% |
 | `01-shared-memory-between-agents.md` | 70% | 30% |
 | `75-0-status-of-this-document.md` | 30% | 70% |
 | `15-public-benefit.md` | 30% | 70% |
@@ -431,13 +431,13 @@ _Обновлено: 2026-04-29_
 | `01-what-to-anonymize-german-standard.md` | 65% | 35% |
 | `DECISIONS.md` | 65% | 35% |
 | `knowledge-space.md` | 35% | 65% |
+| `CONCEPTS.md` | 35% | 65% |
 | `11-legal.md` | 35% | 65% |
 | `04-mem0-letta-graphiti.md` | 35% | 65% |
 | `14-other-ai-relationships.md` | 35% | 65% |
 | `narrow-questions.md` | 65% | 35% |
 | `356-твой-workflow.md` | 35% | 65% |
 | `84-9-consensus-algorithm.md` | 35% | 65% |
-| `CONCEPTS.md` | 35% | 65% |
 | `STALENESS.md` | 35% | 65% |
 | `04-similarity-4-multi-platform.md` | 35% | 65% |
 | `04-dochkina-sequential.md` | 65% | 35% |
@@ -597,7 +597,6 @@ _Обновлено: 2026-04-29_
 | `VALIDATION.md` | 41% | 59% |
 | `anastasiyaw.md` | 41% | 59% |
 | `01-svyazi-andrey-chuyan.md` | 59% | 41% |
-| `KPI.md` | 59% | 41% |
 | `05-which-combination-more-valuable.md` | 59% | 41% |
 | `README.md` | 59% | 41% |
 | `agent-spec.md` | 59% | 41% |
@@ -615,6 +614,8 @@ _Обновлено: 2026-04-29_
 | `risk-entry.md` | 58% | 42% |
 | `19-7-portalentry-structure.md` | 42% | 58% |
 | `06-безопасность-приватность-и-бюджетный-роутинг.md` | 58% | 42% |
+| `KPI.md` | 58% | 42% |
+| `REGISTRY.md` | 42% | 58% |
 | `mixaill76.md` | 42% | 58% |
 | `1-one-person-one-company.md` | 58% | 42% |
 | `tech-pair.md` | 58% | 42% |
@@ -640,7 +641,6 @@ _Обновлено: 2026-04-29_
 | `README.md` | 58% | 42% |
 | `08-что-это-продолжение-добавляет.md` | 58% | 42% |
 | `wikontic.md` | 58% | 42% |
-| `REGISTRY.md` | 42% | 58% |
 | `4-web-to-knowledge-pipeline.md` | 58% | 42% |
 | `vladspace.md` | 42% | 58% |
 | `03-registry.md` | 58% | 42% |
@@ -791,13 +791,13 @@ _Обновлено: 2026-04-29_
 | `01-similarity-1-composite-skills.md` | 47% | 53% |
 | `14-main-technical-risks.md` | 53% | 47% |
 | `114-7-реализация-в-проекте-nautilus.md` | 52% | 48% |
-| `ACTION_ITEMS.md` | 52% | 47% |
 | `GITHUB_ISSUES.md` | 48% | 52% |
 | `HEALTH.md` | 52% | 48% |
 | `HEATMAP.md` | 52% | 48% |
 | `02-agentops-trace-envelope.md` | 48% | 52% |
 | `01-three-related-themes.md` | 47% | 52% |
 | `privacy.md` | 52% | 48% |
+| `ACTION_ITEMS.md` | 52% | 48% |
 | `01-strategic-significance.md` | 52% | 48% |
 | `04-pluses-as-business.md` | 52% | 48% |
 | `glossary-entry.md` | 52% | 48% |
@@ -816,8 +816,8 @@ _Обновлено: 2026-04-29_
 | `README.md` | 48% | 52% |
 | `3-zinc-hybrid-arch.md` | 52% | 48% |
 | `04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md` | 48% | 52% |
-| `02-two-tier-publication.md` | 52% | 48% |
 | `EMPTY_SECTIONS.md` | 48% | 52% |
+| `02-two-tier-publication.md` | 52% | 48% |
 | `02-mcp-claude-desktop-use-cases.md` | 48% | 52% |
 | `D-voice-first-mesh.md` | 48% | 52% |
 | `58-content-overview.md` | 49% | 51% |

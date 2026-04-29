@@ -8,9 +8,9 @@ _Обновлено: 2026-04-29_
 
 | Тип | Кол-во |
 |-----|--------|
-| ❓ Вопрос | 1559 |
-| 💭 Гипотеза | 380 |
-| 📌 TODO/Идея | 136 |
+| ❓ Вопрос | 1558 |
+| 💭 Гипотеза | 379 |
+| 📌 TODO/Идея | 138 |
 | 🔓 Открытый вопрос | 16 |
 
 ## 🔓 Открытый вопрос (16)
@@ -80,25 +80,25 @@ _Обновлено: 2026-04-29_
 - Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL 1.1 и прямо говорит о бесплатн [Лицензионные развилки]
 
 
-## ❓ Вопрос (1559)
+## ❓ Вопрос (1558)
 
 ### `OUTLINE.md` (129)
 
-- - - - - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md)]
+- - - - - - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md)]
 - - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A](docs/QA.md)]
 - - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A](docs/QA.md)]
 - - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A](docs/QA.md)]
 - - Какие инструменты обеспечивают безопасность агентов? [[Глобальный Q&A](docs/QA.md)]
 - _...ещё 124_
 
-### `TABLES.md` (121)
+### `TABLES.md` (119)
 
 - Контур   Что входит   Зачем   Оценка усилий [5. План прототипа и возможные контакты]
 - Риск   Почему это важно   Снижение риска [6. План прототипа и возможные контакты]
 - Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [7. План прототипа и возможные контакты]
 - Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [9. Интеграционный контракт, который стоит зафиксировать сраз]
 - Кому   Лучший первый вопрос   Почему именно он [11. Контактная стратегия и узкие вопросы для авторов]
-- _...ещё 116_
+- _...ещё 114_
 
 ### `QA.md` (101)
 
@@ -336,8 +336,8 @@ _Обновлено: 2026-04-29_
 
 ### `KNOWLEDGE_MAP.md` (11)
 
-- - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
-- - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
 - - - Как реализован forensic RAG с доказуемостью? [Топ сущностей]
 - - - Что такое Evidence Envelope и зачем он нужен? [Открытые вопросы]
 - - - Какие RAG-подходы сравниваются в документах? [Открытые вопросы]
@@ -526,7 +526,7 @@ _Обновлено: 2026-04-29_
 ### `REPORT.md` (6)
 
 - AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   51   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые проекты]
-- VitalyOborin     Yodoca   memory   40   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
+- VitalyOborin     Yodoca   memory   39   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
 - -   Интерфейс   — есть ли понятный публичный API/контракт для интеграции? [Открытые вопросы]
 - -   Доказуемость   — можно ли проверить, что слой работает правильно? [Открытые вопросы]
 - - Как двойственная архитектура избегает этого? [Открытые вопросы]
@@ -636,10 +636,18 @@ _Обновлено: 2026-04-29_
 ### `CONTACTS.md` (5)
 
 - AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   51   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые авторы проектов]
-- VitalyOborin     Yodoca   memory   40   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые авторы проектов]
+- VitalyOborin     Yodoca   memory   39   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые авторы проектов]
 - andrey chuyan     Svyazi   ingestion/CardIndex   15   Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы [Ключевые авторы проектов]
 - kksudo     AgentFS   knowledge/filesystem   57   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
-- spbmolot     NGT Memory   memory   59   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discover [Ключевые авторы проектов]
+- spbmolot     NGT Memory   memory   58   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discover [Ключевые авторы проектов]
+
+### `DUPLICATES.md` (5)
+
+- Почему работает  : Голливуд — индустрия, интенсивная отношениями. [88% — `docs/02-anthropic-vacancies/192-2-исторические-прецед]
+- How are contributions to pattern library rewarded? [73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` ]
+- ### 71% —  docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md  vs  docs/nautilus/representative-agent-layer-ru/01-s [71% — `docs/02-anthropic-vacancies/233-2-что-делает-агента-п]
+- ### 69% —  docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md  vs  docs/nautilus/composite-skills-agents/01-why-binary-incomplete. [71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-поч]
+- Why the Binary View Is Incomplete (#1-why-the-binary-view-is-incomplete)   -  1.1. [69% — `docs/02-anthropic-vacancies/254-1-why-the-binary-view]
 
 ### `00-question-rephrasing.md` (5)
 
@@ -754,13 +762,6 @@ _Обновлено: 2026-04-29_
 - За сколько секунд пользователь понимает “почему эта связь” [Ограничения, лицензии и что пока лучше не склеивать]
 - : кто может с кем работать, почему, на основании каких источников, с каким риском, кто подтвердил, какие гипотезы устарели. [Ограничения, лицензии и что пока лучше не склеивать]
 - почему обычные CRM, Notion‑базы и RAG‑чаты не решают discovery коллабораций. [Ограничения, лицензии и что пока лучше не склеивать]
-
-### `DUPLICATES.md` (4)
-
-- Why pattern library is critical  : - Compounds knowledge across contributors - Enables specialized work without reinvention - Preserves contributor in [77% — `docs/02-anthropic-vacancies/158-4-proposed-infrastruc]
-- But what if Node disagrees with an assignment? [73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` ]
-- ### 71% —  docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md  vs  docs/nautilus/representative-agent-layer-ru/01-s [71% — `docs/02-anthropic-vacancies/233-2-что-делает-агента-п]
-- ### 69% —  docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md  vs  docs/nautilus/composite-skills-agents/01-why-binary-incomplete. [71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-поч]
 
 ### `02-four-structural-blockers.md` (4)
 
@@ -1117,8 +1118,8 @@ _Обновлено: 2026-04-29_
 
 ### `KPI.md` (2)
 
-- 2     адаптер для нового репо без задавания вопросов автору? [Этап (62)]
-- 3     озвращает non-empty результат с consensus-информацией? [Этап (62)]
+- 2     адаптер для нового репо без задавания вопросов автору? [Этап (64)]
+- 3     озвращает non-empty результат с consensus-информацией? [Этап (64)]
 
 ### `PASSIVE_VOICE.md` (2)
 
@@ -1712,16 +1713,16 @@ _Обновлено: 2026-04-29_
 - Эмерджентное свойство — почему пара важнее суммы. [Чт]
 
 
-## 📌 TODO/Идея (136)
+## 📌 TODO/Идея (138)
 
-### `TABLES.md` (11)
+### `TABLES.md` (12)
 
-- TODO   ⭐   To Do — задача к выполнению   14 [1. Словарь аббревиатур и сокращений]
+- TODO   ⭐   To Do — задача к выполнению   16 [1. Словарь аббревиатур и сокращений]
 - 2025-Q1     ⬜ Написать авторам AgentFS, Yodoca, NGT   ⬜ Планируется [119. Шаблоны]
 - 2025-Q2     ⬜ Получить согласие на сотрудничество   ⬜ Планируется [119. Шаблоны]
 - 2025-Q2     ⬜ Создать рабочее окружение Knowledge OS   ⬜ Планируется [119. Шаблоны]
 - 2025-Q3     ⬜ Прототип ансамбля (Svyazi + CardIndex)   ⬜ Планируется [119. Шаблоны]
-- _...ещё 6_
+- _...ещё 7_
 
 ### `SCHEDULE.md` (7)
 
@@ -1799,7 +1800,7 @@ _Обновлено: 2026-04-29_
 
 ### `ACTION_ITEMS.md` (3)
 
-- - авторам AgentFS, Yodoca, NGT ⬜ Планируется  116. [📬 Контактные действия (148)]
+- - авторам AgentFS, Yodoca, NGT ⬜ Планируется  119. [📬 Контактные действия (148)]
 - - авторам AgentFS, Yodoca, NGT ⬜ Планируется  Ключевые вехи [📬 Контактные действия (148)]
 - - авторам AgentFS, Yodoca, NGT   ⬜ Планируется [📬 Контактные действия (148)]
 
@@ -1958,11 +1959,15 @@ _Обновлено: 2026-04-29_
 
 ### `ABBREVIATIONS.md` (1)
 
-- TODO   ⭐   To Do — задача к выполнению   14 [Словарь аббревиатур и сокращений]
+- TODO   ⭐   To Do — задача к выполнению   16 [Словарь аббревиатур и сокращений]
 
 ### `DECISIONS.md` (1)
 
 - - склеивать  ###  memnet.md  (1) - Это синхронизируемая многоуровневая память Yodoca/xMemory, которая «следует» за тобой между устройствами. [Память (12)]
+
+### `DUPLICATES.md` (1)
+
+- The practitioner does not need to… [69% — `docs/02-anthropic-vacancies/213-2-what-makes-a-profes]
 
 ### `SUMMARIES.md` (1)
 
@@ -1970,7 +1975,7 @@ _Обновлено: 2026-04-29_
 
 ### `VERSION_DIFF.md` (1)
 
-- docs/ACTION ITEMS.md    +99   ⚠️ Риски (596), ✅ Решения и рекомендации (276), 📋 Задачи (TODO) (24) +1   ⚠️ Риски (585), ✅ Решения и рекомендации (265) [📝 Изменённые файлы (90)]
+- docs/ACTION ITEMS.md    +106   ⚠️ Риски (596), ✅ Решения и рекомендации (277), 📋 Задачи (TODO) (24) +1   ⚠️ Риски (585), ✅ Решения и рекомендации (265 [📝 Изменённые файлы (92)]
 
 ### `01-three-key-candidates.md` (1)
 
@@ -2061,7 +2066,7 @@ _Обновлено: 2026-04-29_
 - Из этих линий следует, что «записать что‑то в память» никогда не должно быть одной неразличимой операцией. [Memory Write Policy]
 
 
-## 💭 Гипотеза (380)
+## 💭 Гипотеза (379)
 
 ### `01-интегральный-анализ-профиля-svend4.md` (21)
 
@@ -2104,7 +2109,7 @@ _Обновлено: 2026-04-29_
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
 - 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [27. Топ авторов по приоритету]
-- 4-6     ner (может быть Anthropic или Mistral). [75. Количество (244)]
+- 4-6     ner (может быть Anthropic или Mistral). [75. Количество (245)]
 - docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   308   43   7.2 [113. Все документы]
 - _...ещё 4_
 
@@ -2397,11 +2402,6 @@ _Обновлено: 2026-04-29_
 - Запрос    Предложение поиска сбора конструктора совмещение lego и  пазлов логическими информационными это могут быть и другие темы технические имеются [Что из этого всего слипается в более проработанную схему]
 - Запрос    Хорошо теперь на базе этого образца можно ещё вернуться к самому началу больше к программному обеспечению чем железо поиск новых проектов ко [Метафора, которую ты заложил]
 
-### `DUPLICATES.md` (2)
-
-- Sub-agent specializations might include  : Programming languages,  architecture patterns, deployment platforms, security  disciplines, performance eng [82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-ap]
-- Phase 0   (Months 1-12): Foundation establishment, initial  sub-agent set for one profession (perhaps SGB social law). [71% — `docs/02-anthropic-vacancies/262-9-integration-with-ok]
-
 ### `00-question-rephrasing.md` (2)
 
 - Есть несколько разных вопросов и поэтому можно их частично параллельно обсуждать частично последовательно например есть объективная задача спрос рожда [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
@@ -2681,6 +2681,10 @@ _Обновлено: 2026-04-29_
 ### `COST.md` (1)
 
 - 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [Временные оценки из документов]
+
+### `DUPLICATES.md` (1)
+
+- Sub-agent specializations might include  : Specific organ  systems, types of conditions (acute, chronic, infectious,  autoimmune), patient populations [82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-ap]
 
 ### `KPI.md` (1)
 

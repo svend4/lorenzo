@@ -5,7 +5,7 @@
 
 <!-- alert-added -->
 
-**Всего таблиц:** 432
+**Всего таблиц:** 433
 
 
 ## 01-svyazi (11 таблиц)
@@ -1872,7 +1872,7 @@ _Файл: `docs/nautilus/review-methodology/09-limitations-open-questions.md` |
 | Масштабируется на team-work | Не решает проблему >2 вариантов |
 
 
-## root (222 таблиц)
+## root (223 таблиц)
 
 
 ### 1. Словарь аббревиатур и сокращений
@@ -1882,9 +1882,9 @@ _Файл: `docs/ABBREVIATIONS.md` | 3 колонок, 102 строк_
 |-------------|-------------|------------|
 | **ABC** | англ. ... | 10 |
 | **ACD** | Automated Capability Discovery — ещё один сильный кубик: модель в роли «учёного» систематически генерирует задачи для мо | 10 |
-| **ADR** | "ADR-004: Temporal Metadata as First-Class Concept" | 123 |
+| **ADR** | "ADR-004: Temporal Metadata as First-Class Concept" | 122 |
 | **AGENTS** | типология + готовая к развёртыванию категория Type 1 | 16 |
-| **AI** | это инфраструктурный слой для AI-managed virtual companies | 4115 |
+| **AI** | это инфраструктурный слой для AI-managed virtual companies | 4112 |
 | **AIRI** | серьёзная research лаборатория (Артём Шелманов и команда) | 27 |
 | **ANP** | Agent Network Protocol | 6 |
 | **API** ⭐ | Application Programming Interface — интерфейс программирования приложений | 416 |
@@ -1894,17 +1894,17 @@ _Файл: `docs/ABBREVIATIONS.md` | 3 колонок, 102 строк_
 | **CLI** ⭐ | Command Line Interface — интерфейс командной строки | 79 |
 | **CQRS** | Multiple read models from single event stream | 18 |
 | **CRDT** ⭐ | Conflict-free Replicated Data Type — структура данных без конфликтов слияния | 155 |
-| **DAG** | шаг может объявить depends_on: [step_id, | 1 |
+| **DAG** | шаг может объявить depends_on: [step_id, | 2 |
 | **DAO** | результат смешанный | 5 |
-| **DR** | Трёхфазная методология Review](docs/nautilus/review-methodology/00-tldr | 24 |
+| **DR** | Трёхфазная методология Review](docs/nautilus/review-methodology/00-tldr | 23 |
 | **DSL** | Non-programmers write legal automation | 72 |
 | **EMEA** | RU/DE/EN на рабочем уровне, базирование в Германии, понимание европейского регуляторного контекста (что прямо читается ч | 60 |
 | **EN** | «was created», «is used», «has been» -  | 441 | | 450 |
 | **ERROR** | MCP SDK not installed | 3 |
-| **FAQ** ⭐ | Frequently Asked Questions — часто задаваемые вопросы | 71 |
+| **FAQ** ⭐ | Frequently Asked Questions — часто задаваемые вопросы | 67 |
 | **FDE** | это исполнительская роль на чужую продуктовую повестку | 37 |
 | **FRE** | 70-100 лёгкий, 50-70 средний, 30-50 сложный, <30 очень сложный | 16 |
-| **GDPR** ⭐ | General Data Protection Regulation — европейский регламент защиты данных | 110 |
+| **GDPR** ⭐ | General Data Protection Regulation — европейский регламент защиты данных | 114 |
 | **GG** | они публичные) | 3 |
 | **GUI** | -3 months effort | 24 |
 | **HEAD** | 7 commits) | 7 |
@@ -1917,46 +1917,46 @@ _Файл: `docs/ABBREVIATIONS.md` | 3 колонок, 102 строк_
 | **IV** | Nautilus Portal as Reference Implementation — как existing work serves как substrate | 25 |
 | **IX** | 102 , sgg:86b:2 ), на прецеденты | 78 |
 | **JWT** ⭐ | JSON Web Token — токен аутентификации | 6 |
-| **KPI** | сколько полезных коллабораций, проектов, выступлений, mentorship‑пар или hiring‑контактов возникло из рекомендаций систе | 83 |
+| **KPI** | сколько полезных коллабораций, проектов, выступлений, mentorship‑пар или hiring‑контактов возникло из рекомендаций систе | 79 |
 | **KSV** | потому что у них нет точных русских эквивалентов в контексте немецкой социально-правовой системы | 54 |
 | **LAYER** | функциональная категория Type 4 | 77 |
 | **LCI** | Lyapunov Coherence Index, target π | 39 |
-| **LLM** ⭐ | Large Language Model — большая языковая модель | 624 |
+| **LLM** ⭐ | Large Language Model — большая языковая модель | 623 |
 | **LOC** | продублирована с разными строками в разных частях | 69 |
 | **MAY** | по [RFC 2119](https://datatracker | 46 |
-| **MCP** ⭐ | Model Context Protocol — протокол контекста для AI-инструментов | 1256 |
-| **MIT** ⭐ | Massachusetts Institute of Technology License — разрешительная лицензия | 342 |
+| **MCP** ⭐ | Model Context Protocol — протокол контекста для AI-инструментов | 1259 |
+| **MIT** ⭐ | Massachusetts Institute of Technology License — разрешительная лицензия | 343 |
 | **ML** | несколько моделей → voting/averaging | 112 |
 | **MMORPG** | это общее пространство , в котором вы видите аватары коллег, можете подойти к ним, стоять рядом, работать вместе в одной | 94 |
 | **MRR** | это уже leverage для любого следующего шага, включая разговор с Anthropic Institute о grant/partnership | 5 |
 | **MUST** | - Возвращать пустой список, если ничего не найдено (не None, не exception) - Ограничить результат разумным числом (SHOUL | 150 |
-| **MVP** ⭐ | Minimum Viable Product — минимально жизнеспособный продукт | 350 |
+| **MVP** ⭐ | Minimum Viable Product — минимально жизнеспособный продукт | 346 |
 | **NDA** | intermediate view (placeholder'ы, но с consistent identifiers для longitudinal анализа) | 3 |
-| **NGT** | граф памяти | 400 |
+| **NGT** | граф памяти | 399 |
 | **NLP** ⭐ | Natural Language Processing — обработка естественного языка | 2 |
-| **NNNN** | [Название]](docs/templates/rfc | 37 |
-| **NPP** | **федеративная модель**, где каждый | 187 |
+| **NNNN** | [Название]](docs/templates/rfc | 38 |
+| **NPP** | **федеративная модель**, где каждый | 186 |
 | **OASIS** | до 1M agents simulation) | 4 |
 | **ODT** | не только текст | 3 |
-| **OKWF** | конкретная архитектура](#применение-к-okwf-конкретная-архитектура) | 520 |
+| **OKWF** | конкретная архитектура](#применение-к-okwf-конкретная-архитектура) | 522 |
 | **OLAP** | analytics, 100M rows/sec) │ | 25 |
 | **OLTP** | transactions) │ | 21 |
 | **OPTIONAL** | ключевые слова | 15 |
 | **OS** | неуточнено | 236 |
-| **OSS** ⭐ | Open Source Software — программное обеспечение с открытым кодом | 297 |
+| **OSS** ⭐ | Open Source Software — программное обеспечение с открытым кодом | 295 |
 | **OUTPUT** | - Draft Widerspruch (DOCX format) | 2 |
 | **P2P** ⭐ | Peer-to-Peer — децентрализованная сеть | 47 |
 | **PARC** | research center, became iconic несмотря на parent brand decline OpenAI — research org становящаяся product company, name | 5 |
 | **PDA** | LLM как периферия]( | 31 |
 | **PII** ⭐ | Personally Identifiable Information — персональные данные | 69 |
-| **PROTOCOL** | иначе future разработчики будут gадать | 271 |
+| **PROTOCOL** | иначе future разработчики будут gадать | 272 |
 | **PURE** | LLM-based User Profile Management for Recommender System» | 9 |
-| **QA** | демон-критик (adversarial, rigorous) | 340 |
-| **RAG** ⭐ | Retrieval-Augmented Generation — генерация с поиском по базе знаний | 786 |
-| **README** | 550+ строк production-качества: установка, конфигурация для всех 6 платформ (включая детализацию /etc/fstab для CIFS, AD | 1910 |
-| **REGISTRY** | реестр артефактов Lorenzo](docs/REGISTRY | 35 |
+| **QA** | демон-критик (adversarial, rigorous) | 337 |
+| **RAG** ⭐ | Retrieval-Augmented Generation — генерация с поиском по базе знаний | 784 |
+| **README** | 550+ строк production-качества: установка, конфигурация для всех 6 платформ (включая детализацию /etc/fstab для CIFS, AD | 1866 |
+| **REGISTRY** | реестр артефактов Lorenzo](docs/REGISTRY | 40 |
 | **REQUIRED** | откуда пришло | 35 |
-| **RFC** | более ранняя версия, 18 разделов + комментарий о дизайн-решениях | | 158 |
+| **RFC** | более ранняя версия, 18 разделов + комментарий о дизайн-решениях | | 157 |
 | **ROI** | 10 sec queries vs 2 hour manual search | 55 |
 | **RU** | «был создан», «является», «используется», «осуществляется» - Пассивный залог EN: «was created», «is used», «has been» -  | 441 |
 | **SDK** ⭐ | Software Development Kit — набор инструментов разработчика | 84 |
@@ -1969,18 +1969,18 @@ _Файл: `docs/ABBREVIATIONS.md` | 3 колонок, 102 строк_
 | **SLO** | "Code review agent must complete 95% tasks <5 min" | 9 |
 | **SWE** | в Sales/Finance/Marketing/Legal зарплаты ниже и сильно варьируются по локации | 11 |
 | **TF-IDF** ⭐ | Term Frequency–Inverse Document Frequency — метрика важности термина | 48 |
-| **TODO** ⭐ | To Do — задача к выполнению | 14 |
+| **TODO** ⭐ | To Do — задача к выполнению | 16 |
 | **TSU** | физика, MoME — математика; ZINC — software, гибридная архитектура — алгоритм; RISC-V — кремний, privacy — право; TinyML  | 25 |
 | **TVCP** | Terminal Video Communication Platform, терминал видео коммуникация платформа, игры») — это необычное : Go + template + M | 2 |
 | **UI** | -2 months effort | 109 |
-| **URL** | я разберусь с любым вариантом именования | 135 |
+| **URL** | я разберусь с любым вариантом именования | 133 |
 | **VERIFY** | 6782 vs 6600] как метку | 2 |
 | **VI** | Deployment Paths — humanities, project management, OSS, general | 5 |
 | **VII** | Open Questions — governance, consent, economics, scale | 5 |
 | **VIII** | Call to Action — что делать researchers, practitioners, founders | 4 |
 | **VPS** | cron каждое утро обходит сайты Sozialgericht/BSG/KSV, генерирует Stellungnahme-черновики, обновляет статусы Aktenzeichen | 14 |
 | **XII** | legally binding reference с нормативной силой | 76 |
-| **YAML** ⭐ | YAML Ain't Markup Language — формат конфигурационных файлов | 176 |
+| **YAML** ⭐ | YAML Ain't Markup Language — формат конфигурационных файлов | 175 |
 | **ZINC** | - Ночью агент крутит эксперименты с промптами - Роутер геометрически выбирает, какой экс | 75 |
 
 
@@ -1989,21 +1989,21 @@ _Файл: `docs/ABBREVIATIONS.md` | 2 колонок, 15 строк_
 
 | Аббревиатура | Упоминаний |
 |-------------|------------|
-| **AI** | 4115 — _это инфраструктурный слой для AI-managed virtual companies_ |
-| **README** | 1910 — _550+ строк production-качества: установка, конфигурация для _ |
-| **MCP** | 1256 — _Model Context Protocol — протокол контекста для AI-инструмен_ |
-| **RAG** | 786 — _Retrieval-Augmented Generation — генерация с поиском по базе_ |
-| **LLM** | 624 — _Large Language Model — большая языковая модель_ |
+| **AI** | 4112 — _это инфраструктурный слой для AI-managed virtual companies_ |
+| **README** | 1866 — _550+ строк production-качества: установка, конфигурация для _ |
+| **MCP** | 1259 — _Model Context Protocol — протокол контекста для AI-инструмен_ |
+| **RAG** | 784 — _Retrieval-Augmented Generation — генерация с поиском по базе_ |
+| **LLM** | 623 — _Large Language Model — большая языковая модель_ |
 | **SGB** | 557 — _Sozialgesetzbuch — Социальный кодекс Германии_ |
-| **OKWF** | 520 — _конкретная архитектура](#применение-к-okwf-конкретная-архите_ |
+| **OKWF** | 522 — _конкретная архитектура](#применение-к-okwf-конкретная-архите_ |
 | **EN** | 450 — _«was created», «is used», «has been» -  | 441 |_ |
 | **RU** | 441 — _«был создан», «является», «используется», «осуществляется» -_ |
 | **API** | 416 — _Application Programming Interface — интерфейс программирован_ |
-| **NGT** | 400 — _граф памяти_ |
-| **MVP** | 350 — _Minimum Viable Product — минимально жизнеспособный продукт_ |
-| **MIT** | 342 — _Massachusetts Institute of Technology License — разрешительн_ |
-| **QA** | 340 — _демон-критик (adversarial, rigorous)_ |
-| **OSS** | 297 — _Open Source Software — программное обеспечение с открытым ко_ |
+| **NGT** | 399 — _граф памяти_ |
+| **MVP** | 346 — _Minimum Viable Product — минимально жизнеспособный продукт_ |
+| **MIT** | 343 — _Massachusetts Institute of Technology License — разрешительн_ |
+| **QA** | 337 — _демон-критик (adversarial, rigorous)_ |
+| **OSS** | 295 — _Open Source Software — программное обеспечение с открытым ко_ |
 
 
 ### 3. Callout-блоки
@@ -2012,8 +2012,8 @@ _Файл: `docs/ALERTS.md` | 3 колонок, 4 строк_
 | Тип | Количество | Назначение |
 |-----|------------|------------|
 | `[!NOTE]` | 0 | Нейтральная заметка |
-| `[!TIP]` | 38 | Практический совет |
-| `[!WARNING]` | 5 | Предупреждение о риске |
+| `[!TIP]` | 37 | Практический совет |
+| `[!WARNING]` | 6 | Предупреждение о риске |
 | `[!IMPORTANT]` | 0 | Ключевой документ |
 
 
@@ -2023,14 +2023,14 @@ _Файл: `docs/AUTHORS.md` | 2 колонок, 25 строк_
 | Автор | Упоминается в файлах |
 |-------|---------------------|
 | **AnastasiyaW** | 52 |
-| **Antipozitive** | 34 |
+| **Antipozitive** | 33 |
 | **BerriAI** | 12 |
-| **Cutcode** | 37 |
-| **Dmitriila** | 35 |
-| **MiXaiLL76** | 31 |
+| **Cutcode** | 36 |
+| **Dmitriila** | 34 |
+| **MiXaiLL76** | 30 |
 | **Sonia_Black** | 19 |
 | **VitaliySemenov** | 8 |
-| **VitalyOborin** | 41 |
+| **VitalyOborin** | 40 |
 | **VladSpace** | 43 |
 | **akazant** | 10 |
 | **akzhankalimatov** | 8 |
@@ -2040,11 +2040,11 @@ _Файл: `docs/AUTHORS.md` | 2 колонок, 25 строк_
 | **lee-to** | 11 |
 | **lib4u** | 14 |
 | **moshael** | 10 |
-| **nlaik** | 32 |
-| **spbmolot** | 60 |
+| **nlaik** | 31 |
+| **spbmolot** | 59 |
 | **tagir_analyzes** | 14 |
 | **vpakspace** | 8 |
-| **zodigancode** | 37 |
+| **zodigancode** | 36 |
 | **Андрей Чуян** | 37 |
 | **Виталий Оборин** | 9 |
 
@@ -2176,24 +2176,24 @@ _Файл: `docs/CITATION_INDEX.md` | 3 колонок, 20 строк_
 |-------|-----|----------------|
 | `github.com` | 55 | ⭐⭐⭐⭐⭐ |
 | `habr.com` | 53 | ⭐⭐⭐⭐ |
-| `img.shields.io` | 10 | ⭐ |
+| `img.shields.io` | 11 | ⭐ |
 | `3dnews.ru` | 2 | ⭐ |
 | `claude.ai` | 2 | ⭐ |
 | `api.github.com` | 2 | ⭐⭐⭐⭐⭐ |
 | `fontanka.ru` | 1 | ⭐ |
-| `eb.hypothes.is` | 1 | ⭐ |
 | `discourse.org` | 1 | ⭐ |
+| `eb.hypothes.is` | 1 | ⭐ |
 | `claude.com` | 1 | ⭐ |
-| `fossil-scm.org` | 1 | ⭐ |
 | `support.claude.com` | 1 | ⭐ |
+| `fossil-scm.org` | 1 | ⭐ |
 | `install.sh` | 1 | ⭐ |
 | `happyin.space` | 1 | ⭐ |
 | `creativecommons.org` | 1 | ⭐ |
-| `solidproject.org` | 1 | ⭐ |
 | `activitypub.rocks` | 1 | ⭐ |
 | `3.org` | 1 | ⭐ |
+| `solidproject.org` | 1 | ⭐ |
 | `raw.githubusercontent.com` | 1 | ⭐ |
-| `vc.ru` | 1 | ⭐ |
+| `habr` | 1 | ⭐ |
 
 
 ### 10. Наиболее цитируемые URL
@@ -2209,48 +2209,48 @@ _Файл: `docs/CITATION_INDEX.md` | 4 колонок, 50 строк_
 | `https://github.com/mcp` | 6 | ⭐⭐⭐⭐⭐ | `github.com` |
 | `https://github.com/AnastasiyaW/knowledge-space` | 6 | ⭐⭐⭐⭐⭐ | `github.com` |
 | `https://github.com/svend4/info1` | 6 | ⭐⭐⭐⭐⭐ | `github.com` |
-| `https://habr.com/ru/articles/495554/` | 7 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1007122/` | 7 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/companies/airi/articles/1000720/` | 7 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/495554/` | 7 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1017200/` | 7 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1027210/` | 7 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/companies/yandex/articles/1019928/` | 7 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1007122/` | 7 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1017200/` | 7 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1010478/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/companies/surfstudio/articles/943108/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1005776/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/938626/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1009958/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1024634/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/companies/airi/articles/855128/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/companies/yoomoney/articles/1012870/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1020598/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1027878/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1027658/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1014366/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1009538/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/955798/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1014366/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/983684/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/938626/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1005776/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/companies/airi/articles/855128/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1024634/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1020598/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1010478/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/companies/surfstudio/articles/943108/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/companies/yoomoney/articles/1012870/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1027878/` | 6 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://github.com/svend4/data70` | 4 | ⭐⭐⭐⭐⭐ | `github.com` |
 | `https://github.com/svend4/meta` | 4 | ⭐⭐⭐⭐⭐ | `github.com` |
-| `https://habr.com/ru/articles/1020860/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1009608/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1027382/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1006602/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1027724/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1002138/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1016096/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/companies/teamly/articles/1024062/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1023446/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1010198/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/996144/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/943498/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1024884/comments/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1020860/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/975414/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1006602/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1002138/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1023446/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/companies/teamly/articles/1024062/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1019588/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1024884/comments/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1027382/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/943498/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/893356/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1009608/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1027724/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/996144/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1010198/` | 5 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://github.com/settings/tokens` | 3 | ⭐⭐⭐⭐⭐ | `github.com` |
-| `https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 3 | ⭐⭐⭐⭐⭐ | `github.com` |
 | `https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 3 | ⭐⭐⭐⭐⭐ | `github.com` |
+| `https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 3 | ⭐⭐⭐⭐⭐ | `github.com` |
 
 
 ### 11. Содержание
@@ -2259,7 +2259,7 @@ _Файл: `docs/CODE_BLOCKS.md` | 2 колонок, 8 строк_
 | Язык | Блоков |
 |------|--------|
 | 📝 Без языка | 174 |
-| 💻 Bash / Shell | 42 |
+| 💻 Bash / Shell | 37 |
 | 🐍 Python | 35 |
 | 📦 JSON | 23 |
 | 📊 Диаграммы Mermaid | 22 |
@@ -2304,41 +2304,41 @@ _Файл: `docs/CODE_BLOCKS.md` | 2 колонок, 5 строк_
 | Уровень совместимости | 1 — читаемый |
 
 
-### 15. Изменившиеся файлы (74) — топ по Δ слов
+### 15. Изменившиеся файлы (69) — топ по Δ слов
 _Файл: `docs/COMPARE.md` | 4 колонок, 30 строк_
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `QUESTIONS.md` | 21478 | 1838 | -19640 |
-| `OUTLINE.md` | 28352 | 35058 | +6706 |
-| `PARAGRAPH_QUALITY.md` | 10586 | 15365 | +4779 |
-| `TABLES.md` | 115626 | 120085 | +4459 |
+| `QUESTIONS.md` | 21411 | 1838 | -19573 |
+| `OUTLINE.md` | 28316 | 35022 | +6706 |
+| `PARAGRAPH_QUALITY.md` | 10584 | 15363 | +4779 |
 | `HEADING_AUDIT.md` | 5633 | 9018 | +3385 |
-| `TIMELINE.md` | 2229 | 4346 | +2117 |
-| `EMPTY_SECTIONS.md` | 9928 | 12015 | +2087 |
-| `README.md` | 467 | 82 | -385 |
+| `TABLES.md` | 120085 | 117532 | -2553 |
+| `TIMELINE.md` | 2206 | 4347 | +2141 |
+| `EMPTY_SECTIONS.md` | 9997 | 12089 | +2092 |
+| `SCRIPTS_CATALOG.md` | 7026 | 7749 | +723 |
 | `CONTRADICTIONS.md` | 1482 | 1857 | +375 |
+| `VALIDATION.md` | 254 | 581 | +327 |
 | `GITHUB_ISSUES.md` | 1545 | 1754 | +209 |
-| `NAMED_ENTITIES.md` | 1478 | 1668 | +190 |
+| `NAMED_ENTITIES.md` | 1479 | 1669 | +190 |
 | `SITEMAP.md` | 7071 | 7192 | +121 |
-| `READING_TIME.md` | 12453 | 12542 | +89 |
+| `READING_TIME.md` | 12409 | 12498 | +89 |
 | `COST.md` | 547 | 629 | +82 |
 | `SOURCE_MAP.md` | 6086 | 6167 | +81 |
-| `CITATION_INDEX.md` | 861 | 935 | +74 |
-| `KNOWLEDGE_MAP.md` | 579 | 651 | +72 |
-| `LANGUAGE_STATS.md` | 6730 | 6795 | +65 |
+| `CITATION_INDEX.md` | 861 | 934 | +73 |
+| `KNOWLEDGE_MAP.md` | 580 | 653 | +73 |
+| `LANGUAGE_STATS.md` | 6695 | 6760 | +65 |
 | `COVERAGE.md` | 595 | 659 | +64 |
-| `REPORT.md` | 911 | 974 | +63 |
+| `REPORT.md` | 911 | 975 | +64 |
 | `SCHEDULE.md` | 271 | 332 | +61 |
 | `VOCABULARY.md` | 882 | 943 | +61 |
-| `VERSION_DIFF.md` | 4200 | 4259 | +59 |
+| `VERSION_DIFF.md` | 1489 | 1546 | +57 |
+| `TASKS_INDEX.md` | 956 | 1012 | +56 |
 | `PROGRESS.md` | 261 | 316 | +55 |
-| `COMPARE.md` | 477 | 529 | +52 |
+| `COMPARE.md` | 477 | 528 | +51 |
 | `STALENESS.md` | 388 | 439 | +51 |
 | `CONTACT_PRIORITY.md` | 364 | 413 | +49 |
 | `SCORING.md` | 338 | 387 | +49 |
-| `project-component.md` | 142 | 102 | -40 |
-| `contact-outreach.md` | 158 | 119 | -39 |
 
 
 ### 16. Распределение сложности
@@ -2372,15 +2372,15 @@ _Файл: `docs/COMPLEXITY.md` | 6 колонок, 25 строк_
 | `00-intro` | 11344 | 18.4 | 1.32% | H2 | 🔴 Сложный |
 | `14-ограничения-лицензии-и-что-пока-` | 3279 | 17.5 | 1.04% | H2 | 🔴 Сложный |
 | `memnet` | 7164 | 16.5 | 1.02% | H3 | 🔴 Сложный |
-| `ABBREVIATIONS` | 1088 | 136.0 | 1.56% | H2 | 🔴 Сложный |
+| `ABBREVIATIONS` | 1012 | 126.5 | 1.48% | H2 | 🔴 Сложный |
 | `COMPONENT_MATRIX` | 517 | 65.2 | 4.45% | H2 | 🔴 Сложный |
-| `CONCEPTS` | 13473 | 421.5 | 0.3% | H2 | 🔴 Сложный |
+| `CONCEPTS` | 13452 | 420.8 | 0.3% | H2 | 🔴 Сложный |
 | `CONTACT_PRIORITY` | 232 | 46.4 | 4.31% | H3 | 🔴 Сложный |
 | `ENTITIES` | 394 | 25.6 | 9.9% | H2 | 🔴 Сложный |
 | `FOOTNOTES` | 200 | 50.5 | 6.5% | H2 | 🔴 Сложный |
 | `GLOSSARY` | 91 | 45.5 | 10.99% | H1 | 🔴 Сложный |
 | `GRAPH` | 138 | 46.0 | 23.91% | H2 | 🔴 Сложный |
-| `NETWORK` | 292 | 292.0 | 15.41% | H2 | 🔴 Сложный |
+| `NETWORK` | 292 | 292.0 | 16.44% | H2 | 🔴 Сложный |
 
 
 ### 18. Самые простые документы
@@ -2481,36 +2481,36 @@ _Файл: `docs/CONCEPT_GRAPH.md` | 4 колонок, 30 строк_
 
 | Концепт | Файлов | Связей | Категория |
 |---------|--------|--------|-----------|
-| `docs` | 995 | 9317 | other |
-| `anthropic` | 791 | 7928 | other |
+| `docs` | 995 | 9315 | other |
+| `anthropic` | 792 | 7931 | other |
 | `claude` | 502 | 6143 | other |
 | `источник` | 467 | 5969 | other |
-| `mhtml` | 412 | 5528 | other |
+| `mhtml` | 411 | 5526 | other |
 | `снимок` | 400 | 5464 | other |
 | `репозитория` | 387 | 5294 | project |
 | `корень` | 377 | 5244 | other |
 | `вакансии` | 305 | 4478 | other |
 | `раздел` | 310 | 4405 | other |
 | `кластерам` | 295 | 4396 | other |
-| `vacancies` | 474 | 4281 | other |
-| `summary` | 497 | 4251 | other |
+| `vacancies` | 474 | 4285 | other |
+| `summary` | 497 | 4250 | other |
 | `диалога` | 269 | 4044 | other |
-| `nautilus` | 322 | 3792 | other |
-| `agent` | 358 | 3618 | agent |
+| `nautilus` | 321 | 3782 | other |
+| `agent` | 358 | 3615 | agent |
 | `tags` | 353 | 3488 | other |
-| `architecture` | 236 | 2520 | other |
-| `knowledge` | 244 | 2310 | other |
-| `collaboration` | 189 | 1998 | other |
-| `svyazi` | 251 | 1956 | project |
+| `architecture` | 236 | 2517 | other |
+| `knowledge` | 244 | 2305 | other |
+| `collaboration` | 189 | 1997 | other |
+| `svyazi` | 250 | 1955 | project |
 | `сходство` | 235 | 1849 | other |
-| `habr` | 166 | 1818 | other |
-| `layer` | 159 | 1744 | architecture |
+| `habr` | 167 | 1826 | other |
+| `memory` | 193 | 1742 | memory |
+| `layer` | 159 | 1742 | architecture |
 | `protocol` | 146 | 1736 | architecture |
-| `memory` | 192 | 1735 | memory |
-| `work` | 158 | 1722 | other |
-| `portal` | 147 | 1691 | other |
-| `projects` | 154 | 1557 | other |
-| `infrastructure` | 145 | 1553 | other |
+| `work` | 158 | 1721 | other |
+| `portal` | 147 | 1690 | other |
+| `projects` | 154 | 1558 | other |
+| `infrastructure` | 144 | 1535 | other |
 
 
 ### 24. Согласованность терминов
@@ -2518,14 +2518,14 @@ _Файл: `docs/CONSISTENCY.md` | 4 колонок, 11 строк_
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 4 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 3 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 16 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 2 |
 | **AI Factory** | `AI Factory` | `AI-Factory` | 21 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 40 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 38 |
 | **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 18 |
-| **local-first** | `local-first` | `localfirst` | 4 |
-| **self-improvement** | `self-improvement` | `self-improve` | 155 |
+| **local-first** | `local-first` | `localfirst` | 3 |
+| **self-improvement** | `self-improvement` | `self-improve` | 154 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 17 |
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 14 |
@@ -2559,7 +2559,7 @@ _Файл: `docs/CONTACTS.md` | 2 колонок, 45 строк_
 | Репозиторий | Упоминается в файлах |
 |-------------|---------------------|
 | `github.com/github.com/AnastasiyaW` | 4 |
-| `github.com/github.com/AnastasiyaW/knowledge-space` | 11 |
+| `github.com/github.com/AnastasiyaW/knowledge-space` | 10 |
 | `github.com/github.com/Antipozitive` | 4 |
 | `github.com/github.com/Cutcode` | 4 |
 | `github.com/github.com/Dmitriila` | 4 |
@@ -2579,7 +2579,7 @@ _Файл: `docs/CONTACTS.md` | 2 колонок, 45 строк_
 | `github.com/github.com/kksudo` | 4 |
 | `github.com/github.com/kksudo/agentfs` | 4 |
 | `github.com/github.com/lib4u/rufler` | 2 |
-| `github.com/github.com/mcp` | 9 |
+| `github.com/github.com/mcp` | 8 |
 | `github.com/github.com/nlaik` | 4 |
 | `github.com/github.com/ruvnet/ruflo` | 2 |
 | `github.com/github.com/settings/tokens` | 6 |
@@ -2587,7 +2587,7 @@ _Файл: `docs/CONTACTS.md` | 2 колонок, 45 строк_
 | `github.com/github.com/spbmolot/ngt-memory` | 4 |
 | `github.com/github.com/svend4` | 4 |
 | `github.com/github.com/svend4/data70` | 6 |
-| `github.com/github.com/svend4/info1` | 13 |
+| `github.com/github.com/svend4/info1` | 12 |
 | `github.com/github.com/svend4/info40` | 4 |
 | `github.com/github.com/svend4/info7` | 4 |
 | `github.com/github.com/svend4/ingit` | 14 |
@@ -2638,38 +2638,37 @@ _Файл: `docs/CONTENT_GAPS.md` | 3 колонок, 50 строк_
 | `MUST` | 57 | `docs/nautilus/` |
 | `SHOULD` | 42 | `docs/nautilus/` |
 | `BSL` | 41 | `docs/04-ai-collaborations/` |
-| `PII` | 32 | `docs/nautilus/` |
 | `XII` | 32 | `docs/nautilus/` |
 | `PDF` | 31 | `docs/technology-combinations/` |
-| `BSG` | 30 | `docs/02-anthropic-vacancies/` |
-| `LinkedIn` | 30 | `docs/nautilus/` |
-| `URL` | 29 | `docs/02-anthropic-vacancies/` |
+| `PII` | 31 | `docs/nautilus/` |
+| `BSG` | 30 | `docs/nautilus/` |
 | `MAY` | 29 | `docs/nautilus/` |
+| `URL` | 28 | `docs/02-anthropic-vacancies/` |
+| `LinkedIn` | 28 | `docs/nautilus/` |
 | `AIF` | 27 | `docs/svyazi-2-0/` |
 | `KSV` | 27 | `docs/nautilus/` |
-| `HMP` | 25 | `docs/lorenzo-agent/` |
 | `YiJing` | 24 | `docs/02-anthropic-vacancies/` |
+| `HMP` | 24 | `docs/lorenzo-agent/` |
+| `HIPAA` | 23 | `docs/02-anthropic-vacancies/` |
 | `EMEA` | 23 | `docs/anthropic-vacancies/` |
 | `RLM` | 22 | `docs/svyazi-2-0/` |
-| `IDF` | 22 | `docs/svyazi-2-0/` |
-| `HIPAA` | 22 | `docs/nautilus/` |
+| `IDF` | 22 | `docs/04-ai-collaborations/` |
 | `AutoGen` | 22 | `docs/nautilus/` |
-| `EIC` | 22 | `docs/nautilus/` |
+| `EIC` | 21 | `docs/nautilus/` |
 | `RSS` | 21 | `docs/lorenzo-agent/` |
-| `OpenWhispr` | 18 | `docs/svyazi-2-0/` |
+| `OpenWhispr` | 18 | `docs/04-ai-collaborations/` |
 | `LCI` | 18 | `docs/habr-unique-projects/` |
 | `CodeWiki` | 17 | `docs/svyazi-2-0/` |
 | `BaseAdapter` | 17 | `docs/02-anthropic-vacancies/` |
 | `ChatDev` | 16 | `docs/nautilus/` |
 | `DeepSeek` | 16 | `docs/habr-unique-projects/` |
-| `NNNN` | 16 | `docs/templates/` |
-| `LangChain` | 15 | `docs/02-anthropic-vacancies/` |
-| `author:` | 15 | `docs/contacts/` |
-| `author_handle:` | 15 | `docs/contacts/` |
 | `III` | 14 | `docs/02-anthropic-vacancies/` |
-| `AIRI` | 14 | `docs/ai-collaborations/` |
+| `LangChain` | 14 | `docs/02-anthropic-vacancies/` |
+| `AIRI` | 14 | `docs/05-habr-projects/` |
+| `NNNN` | 14 | `docs/templates/` |
 | `projects: [` | 14 | `docs/contacts/` |
-| `HTTP` | 13 | `docs/02-anthropic-vacancies/` |
+| `author:` | 14 | `docs/contacts/` |
+| `author_handle:` | 14 | `docs/contacts/` |
 | `IBM` | 13 | `docs/technology-combinations/` |
 | `DOCX` | 13 | `docs/nautilus/` |
 | `Composite Skills Agents` | 13 | `docs/nautilus/` |
@@ -2677,9 +2676,10 @@ _Файл: `docs/CONTENT_GAPS.md` | 3 колонок, 50 строк_
 | `Профессиональные Коллеги-Агенты (RU)` | 13 | `docs/nautilus/` |
 | `Representative Agent Layer (EN)` | 13 | `docs/nautilus/` |
 | `Representative Agent Layer (RU)` | 13 | `docs/nautilus/` |
-| `FAISS` | 12 | `docs/svyazi-2-0/` |
+| `FAISS` | 12 | `docs/04-ai-collaborations/` |
 | `STDP` | 12 | `docs/habr-unique-projects/` |
-| `CRM` | 12 | `docs/04-ai-collaborations/` |
+| `CRM` | 12 | `docs/nautilus/` |
+| `HTTP` | 12 | `docs/02-anthropic-vacancies/` |
 | `TypeScript` | 12 | `docs/02-anthropic-vacancies/` |
 | `DeepMind` | 12 | `docs/02-anthropic-vacancies/` |
 
@@ -2889,26 +2889,26 @@ _Файл: `docs/DENSITY.md` | 8 колонок, 20 строк_
 
 | Тема | 01-svyazi | 02-vacancies | 03-tech | 04-collab | 05-habr | root | Итого |
 |------|-----------|--------------|---------|-----------|---------|------|-------|
-| **Svyazi** | 196 | 230 | 31 | 395 | 65 | 4541 | **5458** |
-| **CardIndex** | 63 | 57 | 16 | 103 | 12 | 661 | **912** |
-| **AgentFS** | 62 | 94 | 4 | 105 | 28 | 659 | **952** |
-| **Yodoca** | 94 | 36 | 22 | 134 | 70 | 1148 | **1504** |
-| **NGT-memory** | 176 | 426 | 3 | 275 | 84 | 2084 | **3048** |
-| **SENTINEL** | 46 | 8 | 0 | 59 | 0 | 245 | **358** |
-| **Rufler** | 38 | 20 | 0 | 46 | 0 | 289 | **393** |
-| **AI Factory** | 65 | 46 | 0 | 84 | 0 | 514 | **709** |
+| **Svyazi** | 196 | 230 | 31 | 395 | 65 | 4524 | **5441** |
+| **CardIndex** | 63 | 57 | 16 | 103 | 12 | 658 | **909** |
+| **AgentFS** | 62 | 94 | 4 | 105 | 28 | 657 | **950** |
+| **Yodoca** | 94 | 36 | 22 | 134 | 70 | 1150 | **1506** |
+| **NGT-memory** | 176 | 426 | 3 | 275 | 84 | 2080 | **3044** |
+| **SENTINEL** | 46 | 8 | 0 | 59 | 0 | 244 | **357** |
+| **Rufler** | 38 | 20 | 0 | 46 | 0 | 291 | **395** |
+| **AI Factory** | 65 | 46 | 0 | 84 | 0 | 516 | **711** |
 | **Knowledge OS** | 0 | 19 | 0 | 4 | 0 | 106 | **129** |
-| **Forensic RAG** | 35 | 20 | 1 | 52 | 2 | 359 | **469** |
-| **MCP** | 63 | 687 | 4 | 149 | 56 | 1380 | **2339** |
-| **MVP** | 65 | 96 | 0 | 95 | 7 | 898 | **1161** |
-| **Архитектура** | 70 | 603 | 16 | 146 | 36 | 1742 | **2613** |
-| **Безопасность** | 53 | 132 | 1 | 68 | 1 | 1022 | **1277** |
-| **Лицензия** | 104 | 644 | 0 | 125 | 13 | 1597 | **2483** |
-| **Roadmap** | 29 | 145 | 0 | 28 | 3 | 532 | **737** |
-| **Вакансии** | 2 | 3268 | 6 | 15 | 11 | 15054 | **18356** |
-| **Комбинации** | 11 | 148 | 57 | 16 | 9 | 2949 | **3190** |
-| **Habr** | 37 | 252 | 20 | 200 | 97 | 2958 | **3564** |
-| **Контакты** | 18 | 131 | 0 | 21 | 6 | 523 | **699** |
+| **Forensic RAG** | 35 | 20 | 1 | 52 | 2 | 357 | **467** |
+| **MCP** | 63 | 687 | 4 | 149 | 56 | 1400 | **2359** |
+| **MVP** | 65 | 96 | 0 | 95 | 7 | 891 | **1154** |
+| **Архитектура** | 70 | 603 | 16 | 146 | 36 | 1738 | **2609** |
+| **Безопасность** | 53 | 132 | 1 | 68 | 1 | 1018 | **1273** |
+| **Лицензия** | 104 | 644 | 0 | 125 | 13 | 1596 | **2482** |
+| **Roadmap** | 29 | 145 | 0 | 28 | 3 | 530 | **735** |
+| **Вакансии** | 2 | 3268 | 6 | 15 | 11 | 14871 | **18173** |
+| **Комбинации** | 11 | 148 | 57 | 16 | 9 | 2936 | **3177** |
+| **Habr** | 37 | 252 | 20 | 200 | 97 | 2951 | **3557** |
+| **Контакты** | 18 | 131 | 0 | 21 | 6 | 522 | **698** |
 
 
 ### 40. Наиболее раскрытые темы
@@ -2916,16 +2916,16 @@ _Файл: `docs/DENSITY.md` | 3 колонок, 10 строк_
 
 | Тема | Упоминаний | Визуализация |
 |------|------------|-------------|
-| **Вакансии** | 18356 | `███████████████` |
-| **Svyazi** | 5458 | `████░░░░░░░░░░░` |
-| **Habr** | 3564 | `██░░░░░░░░░░░░░` |
-| **Комбинации** | 3190 | `██░░░░░░░░░░░░░` |
-| **NGT-memory** | 3048 | `██░░░░░░░░░░░░░` |
-| **Архитектура** | 2613 | `██░░░░░░░░░░░░░` |
-| **Лицензия** | 2483 | `██░░░░░░░░░░░░░` |
-| **MCP** | 2339 | `█░░░░░░░░░░░░░░` |
-| **Yodoca** | 1504 | `█░░░░░░░░░░░░░░` |
-| **Безопасность** | 1277 | `█░░░░░░░░░░░░░░` |
+| **Вакансии** | 18173 | `███████████████` |
+| **Svyazi** | 5441 | `████░░░░░░░░░░░` |
+| **Habr** | 3557 | `██░░░░░░░░░░░░░` |
+| **Комбинации** | 3177 | `██░░░░░░░░░░░░░` |
+| **NGT-memory** | 3044 | `██░░░░░░░░░░░░░` |
+| **Архитектура** | 2609 | `██░░░░░░░░░░░░░` |
+| **Лицензия** | 2482 | `██░░░░░░░░░░░░░` |
+| **MCP** | 2359 | `█░░░░░░░░░░░░░░` |
+| **Yodoca** | 1506 | `█░░░░░░░░░░░░░░` |
+| **Безопасность** | 1273 | `█░░░░░░░░░░░░░░` |
 
 
 ### 41. Где сосредоточена каждая тема
@@ -2943,13 +2943,13 @@ _Файл: `docs/DENSITY.md` | 3 колонок, 20 строк_
 | AI Factory | `root` | 72% |
 | Knowledge OS | `root` | 82% |
 | Forensic RAG | `root` | 76% |
-| MCP | `root` | 58% |
+| MCP | `root` | 59% |
 | MVP | `root` | 77% |
 | Архитектура | `root` | 66% |
-| Безопасность | `root` | 80% |
+| Безопасность | `root` | 79% |
 | Лицензия | `root` | 64% |
 | Roadmap | `root` | 72% |
-| Вакансии | `root` | 82% |
+| Вакансии | `root` | 81% |
 | Комбинации | `root` | 92% |
 | Habr | `root` | 82% |
 | Контакты | `root` | 74% |
@@ -3070,7 +3070,7 @@ _Файл: `docs/DIGEST_AUTO.md` | 2 колонок, 5 строк_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **97** |
+| Коммитов | **100** |
 | Новых файлов | **20** |
 | Изменённых файлов | **0** |
 | Слов добавлено | **+0** |
@@ -3084,9 +3084,9 @@ _Файл: `docs/DIGEST_AUTO.md` | 2 колонок, 8 строк_
 |--------|-----------|
 | `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
 | `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 234 |
-| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 182 |
+| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 184 |
 | `anthropic-vacancies` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 111 |
-| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 86 |
+| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 99 |
 | `lorenzo-agent` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 62 |
 | `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 59 |
 | `habr-unique-projects` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 56 |
@@ -3097,15 +3097,15 @@ _Файл: `docs/DIGEST_WEEKLY.md` | 2 колонок, 5 строк_
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за неделю | **86** |
+| Коммитов за неделю | **89** |
 | Новых файлов | **0** |
 | Изменённых файлов | **0** |
-| Всего MD файлов | **1193** |
-| Всего слов | **946,768** |
+| Всего MD файлов | **1194** |
+| Всего слов | **944,387** |
 
 
 ### 50. Файлы с ≥50% пустых секций (приоритет)
-_Файл: `docs/EMPTY_SECTIONS.md` | 4 колонок, 149 строк_
+_Файл: `docs/EMPTY_SECTIONS.md` | 4 колонок, 150 строк_
 
 | Файл | Пустых | Всего | % |
 |------|--------|-------|---|
@@ -3197,6 +3197,7 @@ _Файл: `docs/EMPTY_SECTIONS.md` | 4 колонок, 149 строк_
 | `06-adapter-interface.md` | 3 | 5 | 60% |
 | `project-component.md` | 3 | 5 | 60% |
 | `tech-radar-entry.md` | 6 | 10 | 60% |
+| `CHANGELOG.md` | 7 | 12 | 58% |
 | `09-4-passport-passport-md.md` | 4 | 7 | 57% |
 | `retrospective.md` | 4 | 7 | 57% |
 | `22-glossary.md` | 7 | 13 | 54% |
@@ -3214,7 +3215,6 @@ _Файл: `docs/EMPTY_SECTIONS.md` | 4 колонок, 149 строк_
 | `86-11-relevance-ranking.md` | 2 | 4 | 50% |
 | `README.md` | 1 | 2 | 50% |
 | `BADGES.md` | 1 | 2 | 50% |
-| `CHANGELOG.md` | 5 | 10 | 50% |
 | `CONCEPT_GRAPH.md` | 1 | 2 | 50% |
 | `CONTACTS.md` | 2 | 4 | 50% |
 | `CONTACT_PRIORITY.md` | 2 | 4 | 50% |
@@ -3224,6 +3224,7 @@ _Файл: `docs/EMPTY_SECTIONS.md` | 4 колонок, 149 строк_
 | `INDEX.md` | 6 | 12 | 50% |
 | `MISSING.md` | 1 | 2 | 50% |
 | `ORPHANS.md` | 2 | 4 | 50% |
+| `VERSION_DIFF.md` | 1 | 2 | 50% |
 | `README.md` | 1 | 2 | 50% |
 | `README.md` | 1 | 2 | 50% |
 | `07-portal-entry.md` | 1 | 2 | 50% |
@@ -3265,9 +3266,9 @@ _Файл: `docs/ENTITIES.md` | 3 колонок, 7 строк_
 
 | Имя | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Lorenzo** | 2740 | 142 |
-| **svend4** | 1338 | 238 |
-| **spbmolot** | 178 | 57 |
+| **Lorenzo** | 2738 | 144 |
+| **svend4** | 1337 | 238 |
+| **spbmolot** | 177 | 56 |
 | **kksudo** | 174 | 55 |
 | **Андрей** | 127 | 40 |
 | **Виталий** | 52 | 29 |
@@ -3279,27 +3280,27 @@ _Файл: `docs/ENTITIES.md` | 3 колонок, 22 строк_
 
 | Проект | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Nautilus** | 7917 | 508 |
-| **Svyazi** | 4791 | 313 |
-| **Lorenzo** | 2740 | 142 |
-| **Cowork** | 2688 | 170 |
-| **ingit** | 2457 | 144 |
-| **SGB** | 1135 | 199 |
-| **CardIndex** | 733 | 137 |
-| **Yodoca** | 728 | 139 |
-| **AgentFS** | 678 | 100 |
-| **NGT** | 668 | 152 |
-| **knowledge-space** | 569 | 101 |
-| **MemNet** | 538 | 138 |
-| **mclaude** | 408 | 87 |
-| **Rufler** | 385 | 83 |
-| **LiteParse** | 343 | 79 |
-| **AI Factory** | 282 | 72 |
+| **Nautilus** | 7878 | 508 |
+| **Svyazi** | 4780 | 314 |
+| **Lorenzo** | 2738 | 144 |
+| **Cowork** | 2678 | 170 |
+| **ingit** | 2448 | 144 |
+| **SGB** | 1133 | 199 |
+| **CardIndex** | 732 | 137 |
+| **Yodoca** | 729 | 139 |
+| **AgentFS** | 677 | 99 |
+| **NGT** | 666 | 152 |
+| **knowledge-space** | 567 | 101 |
+| **MemNet** | 537 | 139 |
+| **mclaude** | 409 | 87 |
+| **Rufler** | 387 | 83 |
+| **LiteParse** | 342 | 79 |
+| **AI Factory** | 283 | 72 |
 | **SENTINEL** | 268 | 67 |
 | **Wikontic** | 192 | 48 |
 | **Firecrawl** | 114 | 20 |
 | **agent-memory-mcp** | 104 | 37 |
-| **Shield** | 60 | 13 |
+| **Shield** | 59 | 13 |
 | **MCP Tool Search** | 14 | 7 |
 
 
@@ -3308,14 +3309,14 @@ _Файл: `docs/ENTITIES.md` | 3 колонок, 9 строк_
 
 | Организация | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Anthropic** | 17027 | 838 |
-| **Claude** | 3543 | 702 |
-| **Habr** | 2925 | 291 |
+| **Anthropic** | 16847 | 839 |
+| **Claude** | 3544 | 702 |
+| **Habr** | 2918 | 292 |
 | **GitHub** | 1619 | 276 |
 | **Хабр** | 625 | 143 |
 | **Obsidian** | 240 | 86 |
 | **Google** | 85 | 40 |
-| **OpenAI** | 83 | 50 |
+| **OpenAI** | 81 | 49 |
 | **ChatGPT** | 71 | 46 |
 
 
@@ -3324,23 +3325,23 @@ _Файл: `docs/ENTITIES.md` | 3 колонок, 24 строк_
 
 | Технология | Упоминаний | Файлов |
 |---------|------------|--------|
-| **RAG** | 2300 | 361 |
-| **MCP** | 2257 | 321 |
-| **MIT** | 1748 | 341 |
-| **LLM** | 1169 | 241 |
-| **JSON** | 576 | 126 |
-| **Python** | 422 | 139 |
-| **REST** | 386 | 149 |
+| **RAG** | 2301 | 362 |
+| **MCP** | 2278 | 323 |
+| **MIT** | 1746 | 342 |
+| **LLM** | 1168 | 241 |
+| **JSON** | 574 | 126 |
+| **Python** | 423 | 139 |
+| **REST** | 384 | 148 |
 | **CRDT** | 272 | 63 |
-| **YAML** | 263 | 105 |
-| **Rust** | 163 | 83 |
-| **Apache** | 107 | 53 |
+| **YAML** | 262 | 104 |
+| **Rust** | 164 | 83 |
+| **Apache** | 108 | 53 |
 | **BSL** | 104 | 45 |
-| **SQLite** | 83 | 34 |
-| **Mermaid** | 78 | 34 |
+| **SQLite** | 84 | 34 |
+| **Mermaid** | 77 | 33 |
 | **PostgreSQL** | 50 | 28 |
 | **TF-IDF** | 48 | 17 |
-| **TypeScript** | 32 | 18 |
+| **TypeScript** | 33 | 18 |
 | **LangChain** | 31 | 21 |
 | **FAISS** | 23 | 14 |
 | **WebSocket** | 15 | 11 |
@@ -3359,7 +3360,7 @@ _Файл: `docs/ENTITIES.md` | 2 колонок, 15 строк_
 | [https://github.com/svend4/ingit](https://github.com/svend4/ingit) | 13 |
 | [https://github.com/svend4/pro2](https://github.com/svend4/pro2) | 10 |
 | [https://github.com/svend4/info1](https://github.com/svend4/info1) | 8 |
-| [https://github.com/AnastasiyaW/knowledge-space](https://github.com/AnastasiyaW/knowledge-space) | 7 |
+| [https://github.com/AnastasiyaW/knowledge-space](https://github.com/AnastasiyaW/knowledge-space) | 8 |
 | [https://github.com/svend4/meta](https://github.com/svend4/meta) | 6 |
 | [https://github.com/svend4/data70](https://github.com/svend4/data70) | 5 |
 | [https://github.com/settings/tokens](https://github.com/settings/tokens) | 5 |
@@ -3367,9 +3368,9 @@ _Файл: `docs/ENTITIES.md` | 2 колонок, 15 строк_
 | [https://github.com/anthropics/mcp](https://github.com/anthropics/mcp) | 4 |
 | [https://github.com/svend4/info7](https://github.com/svend4/info7) | 3 |
 | [https://github.com/svend4/info40](https://github.com/svend4/info40) | 3 |
+| [https://github.com/spbmolot/ngt-memory](https://github.com/spbmolot/ngt-memory) | 3 |
 | [https://github.com/kksudo/agentfs](https://github.com/kksudo/agentfs) | 3 |
 | [https://github.com/VitalyOborin/yodoca](https://github.com/VitalyOborin/yodoca) | 3 |
-| [https://github.com/spbmolot/ngt-memory](https://github.com/spbmolot/ngt-memory) | 3 |
 
 
 ### 56. Ко-встречаемость проектов (топ пары)
@@ -3385,18 +3386,18 @@ _Файл: `docs/ENTITIES.md` | 2 колонок, 20 строк_
 | Svyazi ↔ NGT | 117 |
 | Nautilus ↔ ingit | 108 |
 | Yodoca ↔ NGT | 102 |
-| Svyazi ↔ AgentFS | 91 |
+| Svyazi ↔ AgentFS | 90 |
 | Svyazi ↔ MemNet | 90 |
 | Svyazi ↔ knowledge-space | 85 |
+| Nautilus ↔ MemNet | 84 |
 | CardIndex ↔ NGT | 84 |
-| Nautilus ↔ MemNet | 83 |
 | Svyazi ↔ mclaude | 82 |
+| Nautilus ↔ Svyazi | 81 |
 | CardIndex ↔ Yodoca | 81 |
-| Nautilus ↔ Svyazi | 80 |
 | AgentFS ↔ NGT | 80 |
 | Svyazi ↔ Rufler | 79 |
-| CardIndex ↔ AgentFS | 78 |
 | Yodoca ↔ AgentFS | 78 |
+| CardIndex ↔ AgentFS | 77 |
 
 
 ### 57. Словарь сносок
@@ -3430,21 +3431,21 @@ _Файл: `docs/GRAPH.md` | 3 колонок, 25 строк_
 |----------|----------|---------------|
 | **Svyazi** | **Yodoca** | 125 |
 | **Svyazi** | **CardIndex** | 120 |
-| **Svyazi** | **MemNet** | 93 |
-| **Svyazi** | **AgentFS** | 92 |
+| **Svyazi** | **AgentFS** | 93 |
+| **Svyazi** | **MemNet** | 92 |
 | **Svyazi** | **knowledge-space** | 87 |
 | **Svyazi** | **mclaude** | 84 |
 | **CardIndex** | **Yodoca** | 83 |
 | **Svyazi** | **NGT Memory** | 82 |
 | **Svyazi** | **Rufler** | 81 |
+| **CardIndex** | **AgentFS** | 80 |
 | **AgentFS** | **Yodoca** | 80 |
-| **CardIndex** | **AgentFS** | 79 |
 | **Svyazi** | **LiteParse** | 77 |
-| **AgentFS** | **knowledge-space** | 75 |
+| **AgentFS** | **knowledge-space** | 76 |
 | **Svyazi** | **AI Factory** | 72 |
 | **mclaude** | **Yodoca** | 72 |
 | **knowledge-space** | **Yodoca** | 71 |
-| **Yodoca** | **MemNet** | 71 |
+| **Yodoca** | **MemNet** | 70 |
 | **Yodoca** | **NGT Memory** | 69 |
 | **Rufler** | **Yodoca** | 68 |
 | **CardIndex** | **knowledge-space** | 67 |
@@ -3461,8 +3462,8 @@ _Файл: `docs/HEADING_AUDIT.md` | 2 колонок, 7 строк_
 | Тип | Кол-во |
 |-----|--------|
 | ⚠️  Нет родительского H2 | 7 |
-| 🕳️  Пустая секция | 1317 |
-| ♊ Дублирующийся заголовок | 649 |
+| 🕳️  Пустая секция | 1323 |
+| ♊ Дублирующийся заголовок | 650 |
 | 📏 Длинный заголовок | 4 |
 | 🪜 Пропущен уровень | 7 |
 | ❌ Нет H1 | 11 |
@@ -3500,7 +3501,7 @@ _Файл: `docs/HEALTH.md` | 2 колонок, 18 строк_
 | habr-unique-projects | 56 |
 | lorenzo-agent | 62 |
 | nautilus | 255 |
-| root | 103 |
+| root | 104 |
 | svyazi-2-0 | 59 |
 | technology-combinations | 53 |
 | templates | 24 |
@@ -3768,8 +3769,8 @@ _Файл: `docs/KNOWLEDGE_MAP.md` | 2 колонок, 4 строк_
 
 | Параметр | Значение |
 |----------|----------|
-| Документов | **1184** |
-| Слов | **911,267** |
+| Документов | **1185** |
+| Слов | **908,865** |
 | Секций | **17** |
 | RAG-чанков | **2021** (по 7 секциям) |
 
@@ -3780,11 +3781,11 @@ _Файл: `docs/KNOWLEDGE_MAP.md` | 2 колонок, 6 строк_
 | Метрика | Значение |
 |---------|----------|
 | Здоровье репо | 77/100 |
-| Средний балл документов | 71.3/100 |
-| Словарное богатство (STTR) | 0.676 |
+| Средний балл документов | 71.2/100 |
+| Словарное богатство (STTR) | 0.675 |
 | Пассивный залог | 1.7% |
-| Пустых секций | 1669 |
-| Противоречий | 6585 |
+| Пустых секций | 1672 |
+| Противоречий | 6528 |
 
 
 ### 72. По секциям
@@ -3817,12 +3818,12 @@ _Файл: `docs/KNOWLEDGE_MAP.md` | 3 колонок, 8 строк_
 | Концепт | Файлов | Категория |
 |---------|--------|-----------|
 | `docs` | 995 | other |
-| `anthropic` | 791 | other |
+| `anthropic` | 792 | other |
 | `claude` | 502 | other |
 | `summary` | 497 | other |
 | `vacancies` | 474 | other |
 | `источник` | 467 | other |
-| `mhtml` | 412 | other |
+| `mhtml` | 411 | other |
 | `снимок` | 400 | other |
 
 
@@ -3833,19 +3834,19 @@ _Файл: `docs/KNOWLEDGE_MAP.md` | 3 колонок, 12 строк_
 |----------|-----|--------|
 | `anthropic` | 👤 people | 743 |
 | `nautilus` | 📦 projects | 467 |
-| `claude` | 👤 people | 401 |
-| `mcp` | ⚙️ tech | 299 |
+| `claude` | 👤 people | 400 |
+| `mcp` | ⚙️ tech | 300 |
 | `svyazi` | 📦 projects | 297 |
 | `вк` | 🏢 orgs | 267 |
 | `github` | 📦 projects | 237 |
 | `meta` | 🏢 orgs | 198 |
-| `svend4` | 👤 people | 195 |
-| `llm` | ⚙️ tech | 194 |
-| `api` | ⚙️ tech | 166 |
-| `rag` | ⚙️ tech | 150 |
+| `svend4` | 👤 people | 196 |
+| `llm` | ⚙️ tech | 192 |
+| `api` | ⚙️ tech | 167 |
+| `rag` | ⚙️ tech | 149 |
 
 
-### 75. Количество (244)
+### 75. Количество (245)
 _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 
 | Значение | Контекст | Источник |
@@ -3870,10 +3871,10 @@ _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 | **4** | md` — _220-9-relationship-to-other-agent-types_ - _...и ещё 4 файлов_ ## Кластер | `CLUSTERS` |
 | **3** | ожение-c-образец-спецификаций-инструментов-ing_ - _...и ещё 3 файлов_ ## Кластер | `CLUSTERS` |
 | **2** | n_ - `docs/contacts/vladspace.md` — _vladspace_ - _...и ещё 2 файлов_ ## Кластер | `CLUSTERS` |
-| _...ещё 224_ | | |
+| _...ещё 225_ | | |
 
 
-### 76. Количество (244)
+### 76. Количество (245)
 _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 
 | Значение | Контекст | Источник |
@@ -3898,10 +3899,10 @@ _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 | **7** | negotiation, paperwork. **Mechanics**: Commission-based (5-7% typical), split be | `171-2-historical-preceden` |
 | **50** | s. ### 8.7. Expected Outcomes **For practitioners**: - 30-50% time reduction on  | `219-8-pilot-proposal-sgb-` |
 | **95** | - Cost vs. external lawyer: 80-90% saving - Quality target: 95% citation accurac | `341-приложение-c-образец-` |
-| _...ещё 179_ | | |
+| _...ещё 178_ | | |
 
 
-### 77. Количество (244)
+### 77. Количество (245)
 _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 
 | Значение | Контекст | Источник |
@@ -3929,7 +3930,7 @@ _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 | _...ещё 258_ | | |
 
 
-### 78. Количество (244)
+### 78. Количество (245)
 _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 
 | Значение | Контекст | Источник |
@@ -3957,7 +3958,7 @@ _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 | _...ещё 443_ | | |
 
 
-### 79. Количество (244)
+### 79. Количество (245)
 _Файл: `docs/KPI.md` | 3 колонок, 8 строк_
 
 | Значение | Контекст | Источник |
@@ -3972,7 +3973,7 @@ _Файл: `docs/KPI.md` | 3 колонок, 8 строк_
 | **16** | push-to-talk с Pause-key, Whisper large-v3-turbo на NVIDIA 16GB или Apple Silico | `00-intro` |
 
 
-### 80. Количество (244)
+### 80. Количество (245)
 _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 
 | Значение | Контекст | Источник |
@@ -3994,13 +3995,13 @@ _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 | **0.1** | st per card, trace completeness. MVP boundary: что входит в v0.1, что запрещено  | `14-ограничения-лицензии-и` |
 | **0.2** | leteness. MVP boundary: что входит в v0.1, что запрещено до v0.2. Pilot scenario | `14-ограничения-лицензии-и` |
 | **0.11.0** | лицензия. К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё | `TABLES` |
-| **5.0.6** | ` \\\\\\| азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Док | `TABLES` |
+| **5.0.6** | \\\\\\\| азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Док  | `TABLES` |
 | **0.10.0** | нтегрируется с любым MCP сервером 118 встроенных навыков в v0.10.0 Open standard | `TABLES` |
 | **0.9** | Нет vendor lock-in. 6. Скорость разработки. 1556 commits с v0.9 до v0.11. Это fu | `TABLES` |
 | _...ещё 369_ | | |
 
 
-### 81. Количество (244)
+### 81. Количество (245)
 _Файл: `docs/KPI.md` | 3 колонок, 9 строк_
 
 | Значение | Контекст | Источник |
@@ -4010,14 +4011,14 @@ _Файл: `docs/KPI.md` | 3 колонок, 9 строк_
 | **30** | , MemNet --- **Файлов с входящими ссылками:** 504 ## Топ-30 самых цитируемых док | `BACKLINKS` |
 | **20** | ь документы](#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](#де | `CONTENT_GAPS` |
 | **40** | (#матрица-сходства-секций) - [Граф связей](#граф-связей) - [Топ-40 кросс-секцион | `CROSS_SECTION` |
-| **15** | бзор (0 сл., строка 35) ### `WORD_FREQ.md` (1 из 21) - ## Топ-15 слов по раздела | `EMPTY_SECTIONS` |
+| **15** | (3) (12 сл., строка 10) ### `WORD_FREQ.md` (1 из 21) - ## Топ-15 слов по раздела | `EMPTY_SECTIONS` |
 | **50** | ### [Приоритеты файлов](docs/PRIORITIES.md) > > !TIP - Топ-50 самых важных файло | `OUTLINE` |
 | **3** | - Детальные метрики - Лучшие изменения - Регрессии - Топ-3 фокуса на следующий п | `OUTLINE` |
 | **8** | », «достигн», «получен», «вывод») - Ключевые слова (TF-IDF топ-8) **Флаги:** `-- | `SCRIPTS_CATALOG` |
 
 
-### 82. Количество (244)
-_Файл: `docs/KPI.md` | 3 колонок, 9 строк_
+### 82. Количество (245)
+_Файл: `docs/KPI.md` | 3 колонок, 10 строк_
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -4027,7 +4028,8 @@ _Файл: `docs/KPI.md` | 3 колонок, 9 строк_
 | **4** | кристалла», получить osmыслený ответ с указанием репо. #### Фаза 4 — Web interfa | `02-общий-план-развития-na` |
 | **5** | y через браузер, получить отформатированный результат. #### Фаза 5 — Публикация  | `02-общий-план-развития-na` |
 | **0** | ёртывания](#9-стратегия-поэтапного-развёртывания) - [9.1. Фаза 0 — Основание (Ме | `199-9-стратегия-поэтапног` |
-| **12** | ## 🔧 Обслуживание - regenerate badges + auto-exports after Sprint 12-14 _25de4e6 | `CHANGELOG` |
+| **15** | вание - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737f | `CHANGELOG` |
+| **12** | t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e | `CHANGELOG` |
 | **9** | web dashboard _1bf14810_ > Sprint 12 — bot-aware system - Sprint 9-11 — skills M | `CHANGELOG` |
 | **6** | ins, CI/CD _22c4cf8d_ > Sprint 9 — agentic skills layer - Sprint 6-8 — миграции, | `CHANGELOG` |
 
@@ -4053,7 +4055,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 2 колонок, 4 строк_
 |------|--------|
 | 🇷🇺 RU (≥80% кириллица) | 103 |
 | 🇬🇧 EN (≥80% латиница) | 369 |
-| 🔀 MIX | 690 |
+| 🔀 MIX | 691 |
 | ❓ OTHER | 0 |
 
 
@@ -4212,7 +4214,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 5 колонок, 147 строк_
 
 
 ### 86. Смешанные файлы (MIX)
-_Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
+_Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 691 строк_
 
 | Файл | RU% | EN% |
 |------|-----|-----|
@@ -4272,9 +4274,9 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `02-nautilus-A-pro2-meta.md` | 76% | 24% |
 | `328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md` | 76% | 24% |
 | `166-representative-agent-layer-md.md` | 24% | 76% |
-| `README.md` | 24% | 76% |
 | `323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | 24% | 76% |
 | `343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` | 76% | 24% |
+| `README.md` | 25% | 75% |
 | `337-благодарности.md` | 75% | 25% |
 | `00-question-two-nautiluses.md` | 75% | 25% |
 | `7-metaphor.md` | 75% | 25% |
@@ -4321,7 +4323,6 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `231-содержание.md` | 73% | 26% |
 | `65-readme-md.md` | 27% | 73% |
 | `README.md` | 27% | 73% |
-| `DUPLICATES.md` | 27% | 73% |
 | `6-metaphor.md` | 73% | 27% |
 | `09-ne-reshaet.md` | 73% | 27% |
 | `289-инфраструктура-для-ai-совместной-интеллектуальной-.md` | 73% | 27% |
@@ -4329,6 +4330,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `57-native-format.md` | 28% | 72% |
 | `00-question-agent-changes-reality.md` | 72% | 28% |
 | `00-question-can-it-apply-to-docs.md` | 72% | 28% |
+| `VERSION_DIFF.md` | 28% | 72% |
 | `17-appendix-b-change-log.md` | 28% | 72% |
 | `QUESTIONS.md` | 72% | 28% |
 | `362-когда-сомневаешься-escalate-к-max.md` | 28% | 72% |
@@ -4338,11 +4340,11 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `NARRATIVE.md` | 72% | 28% |
 | `08-implikatsii-nautilus-okwf.md` | 72% | 28% |
 | `21-9-query-flow.md` | 28% | 72% |
+| `DUPLICATES.md` | 28% | 72% |
 | `14-public-policy.md` | 28% | 72% |
 | `agent-memory-mcp.md` | 28% | 72% |
 | `245-ссылки.md` | 72% | 28% |
 | `rufler.md` | 28% | 72% |
-| `TABLES.md` | 28% | 72% |
 | `08-safeguards-trust-safety.md` | 28% | 72% |
 | `05-existing-infrastructure-stack.md` | 28% | 72% |
 | `01-executive-summary.md` | 71% | 29% |
@@ -4359,12 +4361,12 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `READING_ORDER.md` | 29% | 71% |
 | `10-architecture-rfc.md` | 29% | 71% |
 | `90-15-security-considerations.md` | 29% | 71% |
-| `VERSION_DIFF.md` | 29% | 71% |
 | `03-why-natural-for-programmers.md` | 71% | 29% |
 | `11-dhlab-documents.md` | 29% | 71% |
 | `48-content-overview.md` | 29% | 71% |
 | `NETWORK.md` | 29% | 71% |
 | `ngt-memory.md` | 71% | 29% |
+| `TABLES.md` | 29% | 71% |
 | `01-ai-research-engineering.md` | 29% | 71% |
 | `12-technical-program-management.md` | 29% | 71% |
 | `13-communications.md` | 29% | 71% |
@@ -4381,7 +4383,6 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `351-что-ты-можешь-делать.md` | 30% | 70% |
 | `64-for-the-curious-philosophy.md` | 70% | 30% |
 | `94-19-adr-001-federation-over-merging.md` | 30% | 70% |
-| `DIGEST_WEEKLY.md` | 70% | 30% |
 | `06-final-tier-ranking.md` | 30% | 70% |
 | `RISK_REGISTER.md` | 70% | 30% |
 | `27-15-glossary-of-examples.md` | 30% | 70% |
@@ -4392,8 +4393,8 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `125-readme-mcp-md-инструкция-по-установке.md` | 30% | 70% |
 | `05-marketing-brand.md` | 30% | 70% |
 | `02-related-projects.md` | 70% | 30% |
-| `00-intro.md` | 70% | 30% |
 | `SEE_ALSO.md` | 30% | 70% |
+| `00-intro.md` | 70% | 30% |
 | `01-shared-memory-between-agents.md` | 70% | 30% |
 | `75-0-status-of-this-document.md` | 30% | 70% |
 | `15-public-benefit.md` | 30% | 70% |
@@ -4419,6 +4420,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `128-доступные-инструменты.md` | 32% | 68% |
 | `14-sdk.md` | 31% | 68% |
 | `302-ссылки.md` | 68% | 32% |
+| `MCP_DASHBOARD.md` | 32% | 68% |
 | `01-claude-response.md` | 68% | 32% |
 | `03-synthesis-hebbian-collaboration-graph.md` | 68% | 32% |
 | `02-sales.md` | 32% | 68% |
@@ -4443,6 +4445,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `message-template.md` | 67% | 33% |
 | `106-tl-dr.md` | 67% | 33% |
 | `82-7-portalentry-structure.md` | 33% | 67% |
+| `DIGEST_WEEKLY.md` | 67% | 33% |
 | `09-difference-4-institutional-vision.md` | 33% | 67% |
 | `00-context-fundamental-questions.md` | 33% | 67% |
 | `02-общий-план-развития-nautilus-portal-protocol.md` | 66% | 33% |
@@ -4509,6 +4512,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `COMPLEXITY.md` | 64% | 36% |
 | `12-дорожная-карта-прототипа-следующей-итерации.md` | 64% | 36% |
 | `288-appendix-position-in-series-visualization.md` | 36% | 64% |
+| `TIMELINE.md` | 36% | 64% |
 | `projects-map.md` | 36% | 64% |
 | `BROKEN_LINKS.md` | 36% | 64% |
 | `CODE_BLOCKS.md` | 36% | 64% |
@@ -4516,6 +4520,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `02-final-ranking.md` | 63% | 37% |
 | `21-adr-003-five-onboarding-paths.md` | 37% | 63% |
 | `80-5-compatibility-levels.md` | 37% | 63% |
+| `METRICS.md` | 37% | 63% |
 | `02-similarity-2-persistent-memory.md` | 37% | 63% |
 | `06-level-5-full-network.md` | 37% | 63% |
 | `continuation-intro.md` | 63% | 37% |
@@ -4524,7 +4529,6 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `127-подключение-к-claude-desktop.md` | 37% | 63% |
 | `204-ссылки.md` | 63% | 37% |
 | `78-3-registry-nautilus-json.md` | 37% | 63% |
-| `TIMELINE.md` | 37% | 63% |
 | `05-level-4-extended-mature.md` | 37% | 63% |
 | `00-question-habr-link.md` | 37% | 63% |
 | `117-10-конкретный-план-применения-к-текущим-документам.md` | 63% | 37% |
@@ -4541,7 +4545,6 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `01-existing-landscape.md` | 63% | 37% |
 | `14-limitations.md` | 62% | 38% |
 | `38-content-overview.md` | 62% | 38% |
-| `WORD_FREQ.md` | 38% | 62% |
 | `16-history.md` | 62% | 38% |
 | `6-tmux-village-openclaw.md` | 62% | 38% |
 | `00-question-habr-2.md` | 62% | 38% |
@@ -4551,9 +4554,9 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `360-что-ты-всегда-делаешь.md` | 38% | 62% |
 | `40-bridges.md` | 38% | 62% |
 | `81-6-adapter-interface.md` | 38% | 62% |
-| `METRICS.md` | 38% | 62% |
 | `01-passive-vs-active-roles.md` | 38% | 62% |
 | `03-honest-opinion.md` | 37% | 62% |
+| `WORD_FREQ.md` | 38% | 62% |
 | `15-glossary.md` | 38% | 62% |
 | `README.md` | 38% | 62% |
 | `05-conditions-of-applicability.md` | 62% | 38% |
@@ -4636,7 +4639,6 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `2-autoresearch-legal.md` | 59% | 41% |
 | `01-coally.md` | 59% | 41% |
 | `03-what-this-gives-technically.md` | 59% | 40% |
-| `KPI.md` | 59% | 41% |
 | `01-profile-five-layers.md` | 59% | 41% |
 | `69-section.md` | 59% | 41% |
 | `12-concrete-next-step.md` | 41% | 59% |
@@ -4644,6 +4646,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `VALIDATION.md` | 41% | 59% |
 | `anastasiyaw.md` | 41% | 59% |
 | `01-svyazi-andrey-chuyan.md` | 59% | 41% |
+| `KPI.md` | 59% | 41% |
 | `05-which-combination-more-valuable.md` | 59% | 41% |
 | `README.md` | 59% | 41% |
 | `agent-spec.md` | 59% | 41% |
@@ -4652,7 +4655,6 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `09-consensus-algorithm.md` | 41% | 59% |
 | `legal-case.md` | 41% | 59% |
 | `mega-stack.md` | 41% | 59% |
-| `REGISTRY.md` | 42% | 58% |
 | `2-distributed-agent-workshop.md` | 58% | 42% |
 | `07-current-implementations.md` | 58% | 42% |
 | `272-appendix-d-connection-diagram.md` | 58% | 41% |
@@ -4687,6 +4689,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `README.md` | 58% | 42% |
 | `08-что-это-продолжение-добавляет.md` | 58% | 42% |
 | `wikontic.md` | 58% | 42% |
+| `REGISTRY.md` | 42% | 58% |
 | `4-web-to-knowledge-pipeline.md` | 58% | 42% |
 | `vladspace.md` | 42% | 58% |
 | `03-registry.md` | 58% | 42% |
@@ -4709,10 +4712,9 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `03-revised-anthropic-mapping.md` | 43% | 57% |
 | `07-выводы.md` | 57% | 43% |
 | `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | 57% | 43% |
-| `CONTRADICTIONS.md` | 43% | 57% |
-| `OUTLINE.md` | 43% | 57% |
 | `SKILL_DASHBOARD.md` | 57% | 43% |
 | `07-2-terminology.md` | 43% | 57% |
+| `OUTLINE.md` | 43% | 57% |
 | `READING_LIST.md` | 43% | 57% |
 | `5-browser-agents-headless.md` | 57% | 43% |
 | `07-portal-entry.md` | 57% | 43% |
@@ -4743,6 +4745,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `366-технический-stack-svyazi-2-0-foundation.md` | 44% | 56% |
 | `76-1-introduction.md` | 56% | 44% |
 | `QA.md` | 56% | 44% |
+| `CONTRADICTIONS.md` | 44% | 56% |
 | `08-current-session-poc.md` | 56% | 44% |
 | `faq-entry.md` | 56% | 44% |
 | `07-mvp-planning.md` | 56% | 44% |
@@ -4794,7 +4797,6 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `00-question-what-is-hermes.md` | 54% | 46% |
 | `303-приложение-визуализация-позиции-в-серии.md` | 46% | 54% |
 | `09-architectural-gaps.md` | 46% | 54% |
-| `KNOWLEDGE_MAP.md` | 54% | 46% |
 | `ABBREVIATIONS.md` | 46% | 54% |
 | `09-voobshche-nelzya.md` | 46% | 54% |
 | `08-q6-space.md` | 54% | 46% |
@@ -4825,6 +4827,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `02-three-overlapping-identities.md` | 53% | 47% |
 | `13-outreach-communication.md` | 53% | 47% |
 | `memory-write-policy.md` | 47% | 53% |
+| `KNOWLEDGE_MAP.md` | 53% | 47% |
 | `05-roadmap-6-12-months.md` | 47% | 53% |
 | `4-speech-to-text-llm.md` | 53% | 47% |
 | `C-multi-agent-factory.md` | 47% | 53% |
@@ -4837,6 +4840,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `01-similarity-1-composite-skills.md` | 47% | 53% |
 | `14-main-technical-risks.md` | 53% | 47% |
 | `114-7-реализация-в-проекте-nautilus.md` | 52% | 48% |
+| `ACTION_ITEMS.md` | 52% | 47% |
 | `GITHUB_ISSUES.md` | 48% | 52% |
 | `HEALTH.md` | 52% | 48% |
 | `HEATMAP.md` | 52% | 48% |
@@ -4844,7 +4848,6 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `01-three-related-themes.md` | 47% | 52% |
 | `privacy.md` | 52% | 48% |
 | `01-strategic-significance.md` | 52% | 48% |
-| `ACTION_ITEMS.md` | 52% | 48% |
 | `04-pluses-as-business.md` | 52% | 48% |
 | `glossary-entry.md` | 52% | 48% |
 | `357-твоя-коммуникация-в-outreach.md` | 52% | 48% |
@@ -4862,8 +4865,8 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `README.md` | 48% | 52% |
 | `3-zinc-hybrid-arch.md` | 52% | 48% |
 | `04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md` | 48% | 52% |
-| `EMPTY_SECTIONS.md` | 48% | 52% |
 | `02-two-tier-publication.md` | 52% | 48% |
+| `EMPTY_SECTIONS.md` | 48% | 52% |
 | `02-mcp-claude-desktop-use-cases.md` | 48% | 52% |
 | `D-voice-first-mesh.md` | 48% | 52% |
 | `58-content-overview.md` | 49% | 51% |
@@ -4883,6 +4886,8 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `STATS.md` | 49% | 51% |
 | `3-crdt-self-hosted.md` | 49% | 51% |
 | `PASSIVE_VOICE.md` | 51% | 49% |
+| `SCRIPTS_CATALOG.md` | 49% | 51% |
+| `TASKS_INDEX.md` | 51% | 49% |
 | `first-contacts.md` | 49% | 51% |
 | `README.md` | 51% | 49% |
 | `37-native-format.md` | 51% | 49% |
@@ -4892,11 +4897,9 @@ _Файл: `docs/LANGUAGE_STATS.md` | 3 колонок, 690 строк_
 | `3-adversarial-multi-ide.md` | 49% | 51% |
 | `43-history.md` | 50% | 50% |
 | `47-native-format.md` | 50% | 50% |
-| `SCRIPTS_CATALOG.md` | 50% | 50% |
 | `7-domain-agent-app-factory.md` | 50% | 50% |
 | `2-pkm-mcp-skills.md` | 50% | 50% |
 | `template-of-templates.md` | 50% | 50% |
-| `TASKS_INDEX.md` | 50% | 50% |
 | `03-a2a-vs-mcp-protocols.md` | 50% | 50% |
 | `03-happyin-knowledge-space.md` | 50% | 50% |
 | `104-appendix-c-references.md` | 50% | 50% |
@@ -4927,7 +4930,7 @@ _Файл: `docs/LANGUAGE_STATS.md` | 4 колонок, 18 строк_
 | `habr-unique-projects` | 2 | 6 | 47 |
 | `lorenzo-agent` | 0 | 12 | 49 |
 | `nautilus` | 38 | 109 | 104 |
-| `root` | 2 | 22 | 73 |
+| `root` | 2 | 22 | 74 |
 | `svyazi-2-0` | 0 | 8 | 51 |
 | `technology-combinations` | 0 | 31 | 20 |
 | `templates` | 5 | 0 | 19 |
@@ -4959,7 +4962,7 @@ _Файл: `docs/LINKS.md` | 2 колонок, 200 строк_
 | https://github.com/AnastasiyaW | 4 |
 | https://github.com/AnastasiyaW/knowledge-space | 7 |
 | https://github.com/AnastasiyaW/knowledge-space` | 3 |
-| https://github.com/AnastasiyaW/knowledge-space`, | 2 |
+| https://github.com/AnastasiyaW/knowledge-space`, | 3 |
 | https://github.com/Antipozitive | 4 |
 | https://github.com/Cutcode | 4 |
 | https://github.com/Dmitriila | 4 |
@@ -4974,7 +4977,7 @@ _Файл: `docs/LINKS.md` | 2 колонок, 200 строк_
 | https://github.com/kksudo | 4 |
 | https://github.com/kksudo/agentfs | 4 |
 | https://github.com/mcp | 7 |
-| https://github.com/mcp` | 3 |
+| https://github.com/mcp` | 4 |
 | https://github.com/mcp`, | 2 |
 | https://github.com/nlaik | 4 |
 | https://github.com/settings/tokens | 5 |
@@ -5039,6 +5042,7 @@ _Файл: `docs/LINKS.md` | 2 колонок, 200 строк_
 | https://habr.com/ru/articles/1007122/ | 6 |
 | https://habr.com/ru/articles/1007122/, | 5 |
 | https://habr.com/ru/articles/1007122/` | 3 |
+| https://habr.com/ru/articles/1007122/`, | 1 |
 | https://habr.com/ru/articles/1009538/ | 6 |
 | https://habr.com/ru/articles/1009538/` | 3 |
 | https://habr.com/ru/articles/1009608/ | 6 |
@@ -5056,7 +5060,7 @@ _Файл: `docs/LINKS.md` | 2 колонок, 200 строк_
 | https://habr.com/ru/articles/1016096/ | 6 |
 | https://habr.com/ru/articles/1016096/` | 3 |
 | https://habr.com/ru/articles/1017200/ | 7 |
-| https://habr.com/ru/articles/1017200/` | 4 |
+| https://habr.com/ru/articles/1017200/` | 3 |
 | https://habr.com/ru/articles/1019588/ | 4 |
 | https://habr.com/ru/articles/1019588/, | 4 |
 | https://habr.com/ru/articles/1019588/` | 3 |
@@ -5110,7 +5114,7 @@ _Файл: `docs/LINKS.md` | 2 колонок, 200 строк_
 | https://habr.com/ru/articles/996144/ | 6 |
 | https://habr.com/ru/articles/996144/` | 3 |
 | https://habr.com/ru/companies/airi/articles/1000720/ | 7 |
-| https://habr.com/ru/companies/airi/articles/1000720/` | 4 |
+| https://habr.com/ru/companies/airi/articles/1000720/` | 3 |
 | https://habr.com/ru/companies/airi/articles/855128/ | 7 |
 | https://habr.com/ru/companies/airi/articles/855128/` | 3 |
 | https://habr.com/ru/companies/neuronet/articles/592625/ | 3 |
@@ -5124,20 +5128,19 @@ _Файл: `docs/LINKS.md` | 2 колонок, 200 строк_
 | https://habr.com/ru/companies/yadro/articles/645843/ | 3 |
 | https://habr.com/ru/companies/yadro/articles/648119/ | 3 |
 | https://habr.com/ru/companies/yandex/articles/1019928/ | 7 |
-| https://habr.com/ru/companies/yandex/articles/1019928/` | 3 |
+| https://habr.com/ru/companies/yandex/articles/1019928/` | 4 |
 | https://habr.com/ru/companies/yoomoney/articles/1012870/ | 7 |
 | https://habr.com/ru/companies/yoomoney/articles/1012870/` | 3 |
 | https://habr.com/ru/news/789164/ | 3 |
 | https://happyin.space/ | 4 |
 | https://img.shields.io/badge/health-77/100-green | 4 |
 | https://img.shields.io/badge/manifests-13-blue | 4 |
-| https://img.shields.io/badge/mcp--servers-10-blue | 4 |
+| https://img.shields.io/badge/mcp--servers-10-blue | 3 |
+| https://img.shields.io/badge/mcp--servers-12-blue | 1 |
 | https://img.shields.io/badge/scripts-152-blue | 2 |
-| https://img.shields.io/badge/scripts-153-blue | 3 |
-| https://img.shields.io/badge/scripts-155-blue | 1 |
+| https://img.shields.io/badge/scripts-153-blue | 2 |
+| https://img.shields.io/badge/scripts-155-blue | 4 |
 | https://img.shields.io/badge/skills-28-blue | 4 |
-| https://img.shields.io/badge/templates-23-blue | 4 |
-| https://img.shields.io/badge/tests-108--passing-brightgreen | 3 |
 
 
 ### 89. По серверам
@@ -5190,7 +5193,7 @@ _Файл: `docs/METRICS.md` | 6 колонок, 6 строк_
 | **03-technology-combinations** | 65 | 33.8 | 0.0 | 100% | 86% |
 | **04-ai-collaborations** | 77 | 19.3 | 0.0 | 94% | 94% |
 | **05-habr-projects** | 63 | 42.7 | 0.0 | 78% | 78% |
-| **root** | 66 | 23.8 | 1.2 | 73% | 75% |
+| **root** | 65 | 23.5 | 1.2 | 70% | 74% |
 
 
 ### 93. Топ-15 лучших документов
@@ -5215,8 +5218,8 @@ _Файл: `docs/METRICS.md` | 3 колонок, 15 строк_
 | `69-section` | 100 | 9531 |
 
 
-### 94. Документы, требующие улучшения (17)
-_Файл: `docs/METRICS.md` | 3 колонок, 17 строк_
+### 94. Документы, требующие улучшения (18)
+_Файл: `docs/METRICS.md` | 3 колонок, 18 строк_
 
 | Документ | Балл | Что отсутствует |
 |----------|------|----------------|
@@ -5230,6 +5233,7 @@ _Файл: `docs/METRICS.md` | 3 колонок, 17 строк_
 | `GLOSSARY` | 30 | summary, tags, TOC, callout |
 | `KPI` | 30 | summary, tags, TOC, callout |
 | `LINKS` | 30 | summary, tags, TOC, callout |
+| `MCP_DASHBOARD` | 30 | summary, tags, TOC, callout |
 | `MISSING` | 30 | summary, tags, TOC, callout |
 | `PRIORITIES` | 30 | summary, tags, TOC, callout |
 | `QUESTIONS` | 30 | summary, tags, TOC, callout |
@@ -5258,23 +5262,23 @@ _Файл: `docs/MISSING.md` | 6 колонок, 25 строк_
 
 | Статус | Тема / Проект | Файлов | Слов | Минимум | Примеры файлов |
 |--------|---------------|--------|------|---------|----------------|
-| ✅ | **Svyazi** | 315 | 302374 | ≥5ф/2000сл | `CROSSREFS.md`, `README.md` |
-| ✅ | **local-first** | 175 | 156224 | ≥2ф/300сл | `CONTACTS.md`, `PARAGRAPH_QUALITY.md` |
-| ✅ | **self-improvement** | 154 | 11715 | ≥1ф/100сл | `READING_LIST.md`, `CONTACTS.md` |
-| ✅ | **Yodoca** | 141 | 179108 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **CardIndex** | 139 | 182728 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **knowledge-space** | 103 | 160111 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **AgentFS** | 101 | 150686 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **NGT Memory** | 94 | 61696 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **mclaude** | 89 | 132353 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **Rufler** | 85 | 136265 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **LiteParse** | 81 | 130162 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **AI Factory** | 74 | 54015 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **SENTINEL** | 69 | 53225 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
-| ✅ | **AutoResearch** | 66 | 124016 | ≥1ф/100сл | `CROSSREFS.md`, `PARAGRAPH_QUALITY.md` |
-| ✅ | **CRDT** | 64 | 119833 | ≥1ф/100сл | `PARAGRAPH_QUALITY.md`, `LANGUAGE_STATS.md` |
-| ✅ | **Evidence Envelope** | 45 | 21032 | ≥2ф/200сл | `QA.md`, `EMPTY_SECTIONS.md` |
-| ✅ | **Sozialrecht** | 43 | 135593 | ≥1ф/200сл | `PARAGRAPH_QUALITY.md`, `LLM_SUMMARIES.md` |
+| ✅ | **Svyazi** | 315 | 297010 | ≥5ф/2000сл | `CROSSREFS.md`, `README.md` |
+| ✅ | **local-first** | 175 | 147996 | ≥2ф/300сл | `CONTACTS.md`, `PARAGRAPH_QUALITY.md` |
+| ✅ | **self-improvement** | 153 | 11700 | ≥1ф/100сл | `READING_LIST.md`, `CONTACTS.md` |
+| ✅ | **Yodoca** | 141 | 178994 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **CardIndex** | 139 | 177230 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **knowledge-space** | 103 | 154663 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **AgentFS** | 102 | 153303 | ≥3ф/500сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **NGT Memory** | 94 | 61698 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **mclaude** | 89 | 132249 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **Rufler** | 85 | 136142 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **LiteParse** | 81 | 130020 | ≥2ф/300сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **AI Factory** | 74 | 54007 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **SENTINEL** | 69 | 53239 | ≥2ф/200сл | `CROSSREFS.md`, `CONTACTS.md` |
+| ✅ | **AutoResearch** | 66 | 123901 | ≥1ф/100сл | `CROSSREFS.md`, `PARAGRAPH_QUALITY.md` |
+| ✅ | **CRDT** | 64 | 119699 | ≥1ф/100сл | `PARAGRAPH_QUALITY.md`, `LANGUAGE_STATS.md` |
+| ✅ | **Evidence Envelope** | 46 | 23760 | ≥2ф/200сл | `QA.md`, `EMPTY_SECTIONS.md` |
+| ✅ | **Sozialrecht** | 42 | 127377 | ≥1ф/200сл | `PARAGRAPH_QUALITY.md`, `LLM_SUMMARIES.md` |
 | ✅ | **Card Envelope** | 31 | 18399 | ≥2ф/200сл | `QA.md`, `TABLES.md` |
 | ✅ | **Memory Write Policy** | 22 | 16592 | ≥2ф/200сл | `TABLES.md`, `SITEMAP.md` |
 | ✅ | **privacy by design** | 22 | 15240 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
@@ -5291,24 +5295,24 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 20 строк_
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
 | `anthropic` | 743 | people |
-| `claude` | 401 | people |
-| `svend4` | 195 | people |
+| `claude` | 400 | people |
+| `svend4` | 196 | people |
 | `spbmolot` | 44 | people |
 | `kksudo` | 43 | people |
 | `anastasiyaw` | 35 | people |
 | `vitalyoborin` | 29 | people |
 | `andrey_chuyan` | 12 | people |
 | `vuguzum` | 6 | people |
-| `artur-gavronchuk` | 5 | people |
 | `dementev-dev` | 5 | people |
+| `artur-gavronchuk` | 5 | people |
 | `settings` | 3 | people |
 | `anthropics` | 3 | people |
 | `yjs` | 3 | people |
 | `nicholasspisak` | 3 | people |
 | `camel-ai` | 3 | people |
 | `kagvi13` | 2 | people |
-| `ruvnet` | 2 | people |
 | `lib4u` | 2 | people |
+| `ruvnet` | 2 | people |
 | `users` | 2 | people |
 
 
@@ -5321,12 +5325,12 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 40 строк_
 | `svyazi` | 297 | projects |
 | `GitHub` | 237 | projects |
 | `yodoca` | 129 | projects |
-| `CardIndex` | 126 | projects |
-| `lorenzo` | 123 | projects |
+| `CardIndex` | 125 | projects |
+| `lorenzo` | 125 | projects |
 | `ngt` | 121 | projects |
 | `memnet` | 110 | projects |
-| `agentfs` | 92 | projects |
-| `knowledge-space` | 88 | projects |
+| `agentfs` | 91 | projects |
+| `knowledge-space` | 87 | projects |
 | `obsidian` | 82 | projects |
 | `LiteParse` | 67 | projects |
 | `notion` | 61 | projects |
@@ -5335,14 +5339,14 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 40 строк_
 | `gpt` | 42 | projects |
 | `wikontic` | 38 | projects |
 | `AutoGen` | 22 | projects |
-| `OpenClaw` | 22 | projects |
 | `gemini` | 21 | projects |
+| `OpenClaw` | 21 | projects |
 | `OpenWhispr` | 18 | projects |
 | `ClickHouse` | 18 | projects |
 | `CodeWiki` | 17 | projects |
 | `BaseAdapter` | 17 | projects |
-| `ChatDev` | 16 | projects |
 | `DeepSeek` | 16 | projects |
+| `ChatDev` | 16 | projects |
 | `langchain` | 16 | projects |
 | `VladSpace` | 15 | projects |
 | `LangGraph` | 15 | projects |
@@ -5351,7 +5355,7 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 40 строк_
 | `OpenClaude` | 14 | projects |
 | `TypeScript` | 13 | projects |
 | `faiss` | 12 | projects |
-| `LlamaIndex` | 12 | projects |
+| `llamaindex` | 12 | projects |
 | `DeepMind` | 12 | projects |
 | `chromadb` | 12 | projects |
 | `BrainBox` | 12 | projects |
@@ -5364,19 +5368,19 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 31 строк_
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
-| `mcp` | 299 | tech |
-| `llm` | 194 | tech |
-| `api` | 166 | tech |
-| `rag` | 150 | tech |
-| `markdown` | 93 | tech |
-| `python` | 91 | tech |
-| `yaml` | 90 | tech |
+| `mcp` | 300 | tech |
+| `llm` | 192 | tech |
+| `api` | 167 | tech |
+| `rag` | 149 | tech |
+| `markdown` | 92 | tech |
+| `python` | 90 | tech |
+| `yaml` | 89 | tech |
 | `json` | 80 | tech |
 | `git` | 75 | tech |
 | `go` | 61 | tech |
-| `rest` | 51 | tech |
+| `rest` | 52 | tech |
+| `sqlite` | 32 | tech |
 | `html` | 32 | tech |
-| `sqlite` | 31 | tech |
 | `transformer` | 24 | tech |
 | `ci` | 23 | tech |
 | `postgresql` | 21 | tech |
@@ -5389,10 +5393,10 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 31 строк_
 | `rust` | 10 | tech |
 | `jaccard` | 7 | tech |
 | `cosine` | 6 | tech |
-| `terraform` | 5 | tech |
 | `webhook` | 5 | tech |
 | `kubernetes` | 5 | tech |
 | `css` | 4 | tech |
+| `terraform` | 4 | tech |
 | `graphql` | 3 | tech |
 | `fastapi` | 3 | tech |
 
@@ -5417,7 +5421,7 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 36 строк_
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
-| `2026-04` | 122 | dates |
+| `2026-04` | 123 | dates |
 | `2026-04-29` | 50 | dates |
 | `2026-04-19` | 19 | dates |
 | `апрель 2026` | 16 | dates |
@@ -5432,11 +5436,11 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 36 строк_
 | `апреле 2026` | 6 | dates |
 | `2026-05-03` | 5 | dates |
 | `декабря 2025` | 4 | dates |
-| `2025-12-15` | 4 | dates |
 | `2024-01-01` | 4 | dates |
-| `2026-04-15` | 4 | dates |
+| `2025-12-15` | 4 | dates |
 | `май 2025` | 4 | dates |
 | `феврале 2025` | 4 | dates |
+| `2026-04-15` | 4 | dates |
 | `Сентябрь 2025` | 4 | dates |
 | `январе 2026` | 4 | dates |
 | `января 2026` | 4 | dates |
@@ -5449,9 +5453,9 @@ _Файл: `docs/NAMED_ENTITIES.md` | 3 колонок, 36 строк_
 | `февраля 2026` | 3 | dates |
 | `2024-03-15` | 2 | dates |
 | `март 2024` | 2 | dates |
-| `ноябре 2025` | 2 | dates |
 | `2026 Q2` | 2 | dates |
 | `2026-02-01` | 2 | dates |
+| `ноябре 2025` | 2 | dates |
 | `2026-10-15` | 2 | dates |
 
 
@@ -5460,26 +5464,26 @@ _Файл: `docs/NETWORK.md` | 2 колонок, 20 строк_
 
 | Пара | Общих файлов |
 |------|-------------|
-| **Cowork** ↔ **ingit** | 136 |
+| **Cowork** ↔ **ingit** | 135 |
 | **Svyazi** ↔ **Yodoca** | 122 |
 | **Svyazi** ↔ **CardIndex** | 117 |
-| **Svyazi** ↔ **NGT** | 117 |
-| **Yodoca** ↔ **NGT** | 102 |
-| **Svyazi** ↔ **MemNet** | 90 |
-| **Svyazi** ↔ **AgentFS** | 89 |
+| **Svyazi** ↔ **NGT** | 116 |
+| **Yodoca** ↔ **NGT** | 101 |
+| **Svyazi** ↔ **AgentFS** | 90 |
+| **Svyazi** ↔ **MemNet** | 89 |
 | **Svyazi** ↔ **knowledge-space** | 84 |
-| **CardIndex** ↔ **NGT** | 84 |
+| **CardIndex** ↔ **NGT** | 83 |
 | **Svyazi** ↔ **mclaude** | 81 |
 | **CardIndex** ↔ **Yodoca** | 80 |
 | **AgentFS** ↔ **NGT** | 79 |
 | **Svyazi** ↔ **Rufler** | 78 |
+| **CardIndex** ↔ **AgentFS** | 77 |
 | **AgentFS** ↔ **Yodoca** | 77 |
-| **CardIndex** ↔ **AgentFS** | 76 |
 | **Svyazi** ↔ **LiteParse** | 74 |
-| **AgentFS** ↔ **knowledge-space** | 72 |
-| **NGT** ↔ **knowledge-space** | 70 |
+| **AgentFS** ↔ **knowledge-space** | 73 |
 | **Svyazi** ↔ **AI Factory** | 69 |
 | **Yodoca** ↔ **mclaude** | 69 |
+| **Yodoca** ↔ **knowledge-space** | 68 |
 
 
 ### 103. Центральность узлов (влиятельность)
@@ -5487,25 +5491,25 @@ _Файл: `docs/NETWORK.md` | 3 колонок, 20 строк_
 
 | Узел | Балл центральности | Тип |
 |------|--------------------|-----|
-| **Svyazi** | 1357 | 📦 Проект |
-| **NGT** | 1065 | 📦 Проект |
-| **Yodoca** | 1036 | 📦 Проект |
-| **CardIndex** | 989 | 📦 Проект |
-| **AgentFS** | 927 | 📦 Проект |
-| **knowledge-space** | 887 | 📦 Проект |
+| **Svyazi** | 1351 | 📦 Проект |
+| **NGT** | 1048 | 📦 Проект |
+| **Yodoca** | 1034 | 📦 Проект |
+| **CardIndex** | 984 | 📦 Проект |
+| **AgentFS** | 932 | 📦 Проект |
+| **knowledge-space** | 880 | 📦 Проект |
 | **Rufler** | 801 | 📦 Проект |
 | **mclaude** | 800 | 📦 Проект |
-| **MemNet** | 788 | 📦 Проект |
 | **LiteParse** | 774 | 📦 Проект |
+| **MemNet** | 771 | 📦 Проект |
 | **AI Factory** | 677 | 📦 Проект |
 | **SENTINEL** | 630 | 📦 Проект |
-| **Lorenzo (svend4)** | 603 | 👤 Автор |
-| **Cowork** | 562 | 📦 Проект |
-| **Lorenzo** | 557 | 📦 Проект |
-| **Андрей (kksudo)** | 553 | 👤 Автор |
-| **ingit** | 528 | 📦 Проект |
-| **Виталий (spbmolot)** | 507 | 👤 Автор |
-| **Wikontic** | 405 | 📦 Проект |
+| **Lorenzo (svend4)** | 589 | 👤 Автор |
+| **Cowork** | 550 | 📦 Проект |
+| **Андрей (kksudo)** | 548 | 👤 Автор |
+| **Lorenzo** | 546 | 📦 Проект |
+| **ingit** | 516 | 📦 Проект |
+| **Виталий (spbmolot)** | 502 | 👤 Автор |
+| **Wikontic** | 403 | 📦 Проект |
 | **Firecrawl** | 182 | 📦 Проект |
 
 
@@ -5563,11 +5567,11 @@ _Файл: `docs/PARAGRAPH_QUALITY.md` | 2 колонок, 5 строк_
 
 | Тип | Кол-во |
 |-----|--------|
-| ⚪ Короткий абзац | 11194 |
-| ✂️  Оборванный | 4885 |
+| ⚪ Короткий абзац | 11184 |
+| ✂️  Оборванный | 4886 |
 | 📏 Длинное предложение | 256 |
-| 🔁 Повтор начала | 3205 |
-| ♊ Дубль | 626 |
+| 🔁 Повтор начала | 3204 |
+| ♊ Дубль | 624 |
 
 
 ### 109. Корпусная статистика
@@ -5577,7 +5581,7 @@ _Файл: `docs/PASSIVE_VOICE.md` | 2 колонок, 4 строк_
 |---------|----------|
 | Средний % пассива | 1.7% |
 | Всего канцеляризмов | 101 |
-| Всего номинализаций | 8478 |
+| Всего номинализаций | 8434 |
 | Оценка | 🟢 Активный стиль |
 
 
@@ -5615,7 +5619,7 @@ _Файл: `docs/PROGRESS.md` | 3 колонок, 5 строк_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 14 файлов, не отправлено | 14 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 153 скриптов | 5 LLM-скриптов, MCP=✅ |
+| Скрипты обработки | ✅ 155 скриптов | 5 LLM-скриптов, MCP=✅ |
 | DIGEST.md | ✅ 6 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | weekly-review, audit-corpus, review-docs, propose-collaboration, track-decisions, summarize, dispatch, evaluate-skill, find-cinderella, synthesize, design-ensemble, analyze-project, search, evaluate-tech, new-research, generate-rfc, status, plan-mvp, write-contact, improve, review-architecture, skill-router, propose-mega-stack, outreach-day, compare, find-contradictions, find-gaps, daily-routine |
 
@@ -5626,12 +5630,12 @@ _Файл: `docs/PROGRESS.md` | 3 колонок, 3 строк_
 | Метрика | Балл | Статус |
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 77.0/100 | 🟡 |
-| Качество доков (METRICS) | 71.3/100 | 🟡 |
+| Качество доков (METRICS) | 71.2/100 | 🟡 |
 | Go/No-Go (SCORING) | 93.0/100 | 🟡 |
 
 
 ### 113. Все документы
-_Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
+_Файл: `docs/READABILITY.md` | 6 колонок, 1190 строк_
 
 | Файл | FRE | Уровень | Слов | Пред. | Слов/пред. |
 |------|-----|---------|------|-------|-----------|
@@ -5992,19 +5996,19 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/05-habr-projects/memory/memnet.md` | 0 | 🔴 Очень сложный | 6744 | 453 | 14.9 |
 | `docs/05-habr-projects/memory/ngt-memory.md` | 0 | 🔴 Очень сложный | 292 | 18 | 16.2 |
 | `docs/05-habr-projects/memory/yodoca.md` | 0 | 🔴 Очень сложный | 169 | 14 | 12.1 |
-| `docs/ABBREVIATIONS.md` | 0 | 🔴 Очень сложный | 895 | 6 | 149.2 |
-| `docs/ACTION_ITEMS.md` | 0 | 🔴 Очень сложный | 6000 | 311 | 19.3 |
+| `docs/ABBREVIATIONS.md` | 0 | 🔴 Очень сложный | 903 | 6 | 150.5 |
+| `docs/ACTION_ITEMS.md` | 0 | 🔴 Очень сложный | 6008 | 313 | 19.2 |
 | `docs/ALERTS.md` | 0 | 🔴 Очень сложный | 23 | 2 | 11.5 |
 | `docs/AUTHORS.md` | 0 | 🔴 Очень сложный | 40 | 2 | 20.0 |
 | `docs/AUTOFILLED.md` | 0 | 🔴 Очень сложный | 128 | 26 | 4.9 |
 | `docs/BACKLINKS.md` | 0 | 🔴 Очень сложный | 58 | 6 | 9.7 |
 | `docs/BROKEN_LINKS.md` | 0 | 🔴 Очень сложный | 437 | 27 | 16.2 |
 | `docs/CHANGELOG_AUTO.md` | 0 | 🔴 Очень сложный | 251 | 13 | 19.3 |
-| `docs/CITATION_INDEX.md` | 0 | 🔴 Очень сложный | 101 | 10 | 10.1 |
+| `docs/CITATION_INDEX.md` | 0 | 🔴 Очень сложный | 100 | 10 | 10.0 |
 | `docs/CLUSTERS.md` | 0 | 🔴 Очень сложный | 1028 | 18 | 57.1 |
 | `docs/COMPLEXITY.md` | 0 | 🔴 Очень сложный | 96 | 31 | 3.1 |
 | `docs/COMPONENT_MATRIX.md` | 0 | 🔴 Очень сложный | 251 | 11 | 22.8 |
-| `docs/CONCEPTS.md` | 0 | 🔴 Очень сложный | 13296 | 694 | 19.2 |
+| `docs/CONCEPTS.md` | 0 | 🔴 Очень сложный | 13285 | 693 | 19.2 |
 | `docs/CONTACTS.md` | 0 | 🔴 Очень сложный | 201 | 12 | 16.8 |
 | `docs/CONTACT_PRIORITY.md` | 0 | 🔴 Очень сложный | 157 | 7 | 22.4 |
 | `docs/CONTENT_GAPS.md` | 0 | 🔴 Очень сложный | 244 | 30 | 8.1 |
@@ -6018,19 +6022,19 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/DEPENDENCY_MAP.md` | 0 | 🔴 Очень сложный | 78 | 7 | 11.1 |
 | `docs/DIGEST.md` | 0 | 🔴 Очень сложный | 282 | 12 | 23.5 |
 | `docs/DIGEST_WEEKLY.md` | 0 | 🔴 Очень сложный | 25 | 1 | 25.0 |
-| `docs/DUPLICATES.md` | 0 | 🔴 Очень сложный | 2232 | 159 | 14.0 |
+| `docs/DUPLICATES.md` | 0 | 🔴 Очень сложный | 2233 | 165 | 13.5 |
 | `docs/ENTITIES.md` | 0 | 🔴 Очень сложный | 143 | 1 | 143.0 |
 | `docs/FAQ.md` | 0 | 🔴 Очень сложный | 1302 | 144 | 9.0 |
 | `docs/FOOTNOTES.md` | 0 | 🔴 Очень сложный | 187 | 7 | 26.7 |
 | `docs/GITHUB_ISSUES.md` | 0 | 🔴 Очень сложный | 716 | 26 | 27.5 |
 | `docs/GLOSSARY.md` | 0 | 🔴 Очень сложный | 59 | 2 | 29.5 |
-| `docs/GRAPH.md` | 0 | 🔴 Очень сложный | 111 | 6 | 18.5 |
+| `docs/GRAPH.md` | 0 | 🔴 Очень сложный | 112 | 6 | 18.7 |
 | `docs/HEADING_AUDIT.md` | 0 | 🔴 Очень сложный | 7623 | 4 | 1905.8 |
 | `docs/HEALTH.md` | 0 | 🔴 Очень сложный | 79 | 2 | 39.5 |
 | `docs/HEATMAP.md` | 0 | 🔴 Очень сложный | 106 | 33 | 3.2 |
 | `docs/INDEX.md` | 0 | 🔴 Очень сложный | 489 | 63 | 7.8 |
-| `docs/KNOWLEDGE_MAP.md` | 0 | 🔴 Очень сложный | 192 | 20 | 9.6 |
-| `docs/KPI.md` | 0 | 🔴 Очень сложный | 1090 | 124 | 8.8 |
+| `docs/KNOWLEDGE_MAP.md` | 0 | 🔴 Очень сложный | 194 | 20 | 9.7 |
+| `docs/KPI.md` | 0 | 🔴 Очень сложный | 1097 | 124 | 8.8 |
 | `docs/KPI_HISTORY.md` | 0 | 🔴 Очень сложный | 41 | 3 | 13.7 |
 | `docs/LLM_SUMMARIES.md` | 0 | 🔴 Очень сложный | 177 | 35 | 5.1 |
 | `docs/MINDMAP.md` | 0 | 🔴 Очень сложный | 85 | 4 | 21.2 |
@@ -6039,22 +6043,22 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/NETWORK.md` | 0 | 🔴 Очень сложный | 183 | 4 | 45.8 |
 | `docs/ONBOARDING.md` | 0 | 🔴 Очень сложный | 291 | 29 | 10.0 |
 | `docs/ORPHANS.md` | 0 | 🔴 Очень сложный | 63 | 9 | 7.0 |
-| `docs/OUTLINE.md` | 0 | 🔴 Очень сложный | 50119 | 4134 | 12.1 |
-| `docs/PARAGRAPH_QUALITY.md` | 0 | 🔴 Очень сложный | 12325 | 4 | 3081.2 |
+| `docs/OUTLINE.md` | 0 | 🔴 Очень сложный | 50160 | 4139 | 12.1 |
+| `docs/PARAGRAPH_QUALITY.md` | 0 | 🔴 Очень сложный | 12324 | 4 | 3081.0 |
 | `docs/PASSIVE_VOICE.md` | 0 | 🔴 Очень сложный | 82 | 5 | 16.4 |
 | `docs/PROGRESS.md` | 0 | 🔴 Очень сложный | 214 | 17 | 12.6 |
 | `docs/QA.md` | 0 | 🔴 Очень сложный | 2458 | 229 | 10.7 |
 | `docs/QUESTIONS.md` | 0 | 🔴 Очень сложный | 1652 | 128 | 12.9 |
 | `docs/READING_LIST.md` | 0 | 🔴 Очень сложный | 187 | 27 | 6.9 |
 | `docs/READING_ORDER.md` | 0 | 🔴 Очень сложный | 4657 | 586 | 7.9 |
-| `docs/READING_TIME.md` | 0 | 🔴 Очень сложный | 2362 | 4 | 590.5 |
-| `docs/REGISTRY.md` | 0 | 🔴 Очень сложный | 930 | 90 | 10.3 |
+| `docs/READING_TIME.md` | 0 | 🔴 Очень сложный | 2354 | 4 | 588.5 |
+| `docs/REGISTRY.md` | 0 | 🔴 Очень сложный | 879 | 82 | 10.7 |
 | `docs/REPORT.md` | 0 | 🔴 Очень сложный | 342 | 27 | 12.7 |
 | `docs/RISK_REGISTER.md` | 0 | 🔴 Очень сложный | 595 | 39 | 15.3 |
 | `docs/SCHEDULE.md` | 0 | 🔴 Очень сложный | 116 | 7 | 16.6 |
 | `docs/SCORING.md` | 0 | 🔴 Очень сложный | 140 | 6 | 23.3 |
-| `docs/SCRIPTS_CATALOG.md` | 0 | 🔴 Очень сложный | 6173 | 641 | 9.6 |
-| `docs/SEE_ALSO.md` | 0 | 🔴 Очень сложный | 89 | 4 | 22.2 |
+| `docs/SCRIPTS_CATALOG.md` | 0 | 🔴 Очень сложный | 6256 | 650 | 9.6 |
+| `docs/SEE_ALSO.md` | 0 | 🔴 Очень сложный | 90 | 4 | 22.5 |
 | `docs/SENTIMENT.md` | 0 | 🔴 Очень сложный | 98 | 37 | 2.6 |
 | `docs/SIMILAR.md` | 0 | 🔴 Очень сложный | 45 | 29 | 1.6 |
 | `docs/SIMILAR_PASSAGES.md` | 0 | 🔴 Очень сложный | 1227 | 189 | 6.5 |
@@ -6063,12 +6067,12 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/SPELLCHECK.md` | 0 | 🔴 Очень сложный | 13 | 1 | 13.0 |
 | `docs/STATS.md` | 0 | 🔴 Очень сложный | 102 | 1 | 102.0 |
 | `docs/SUMMARIES.md` | 0 | 🔴 Очень сложный | 4137 | 298 | 13.9 |
-| `docs/TABLES.md` | 0 | 🔴 Очень сложный | 51965 | 6063 | 8.6 |
-| `docs/TASKS_INDEX.md` | 0 | 🔴 Очень сложный | 815 | 15 | 54.3 |
+| `docs/TABLES.md` | 0 | 🔴 Очень сложный | 46860 | 5806 | 8.1 |
+| `docs/TASKS_INDEX.md` | 0 | 🔴 Очень сложный | 776 | 7 | 110.9 |
 | `docs/TECH_RADAR.md` | 0 | 🔴 Очень сложный | 330 | 22 | 15.0 |
-| `docs/TIMELINE.md` | 0 | 🔴 Очень сложный | 1015 | 117 | 8.7 |
+| `docs/TIMELINE.md` | 0 | 🔴 Очень сложный | 1643 | 209 | 7.9 |
 | `docs/VALIDATION.md` | 0 | 🔴 Очень сложный | 248 | 1 | 248.0 |
-| `docs/VERSION_DIFF.md` | 0 | 🔴 Очень сложный | 509 | 40 | 12.7 |
+| `docs/VERSION_DIFF.md` | 0 | 🔴 Очень сложный | 354 | 37 | 9.6 |
 | `docs/WORD_FREQ.md` | 0 | 🔴 Очень сложный | 634 | 1 | 634.0 |
 | `docs/ai-collaborations/README.md` | 0 | 🔴 Очень сложный | 33 | 3 | 11.0 |
 | `docs/ai-collaborations/candidates/01-three-key-candidates.md` | 0 | 🔴 Очень сложный | 300 | 20 | 15.0 |
@@ -6637,20 +6641,19 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/technology-combinations/synthesis-tables/15-19-extended.md` | 0 | 🔴 Очень сложный | 153 | 16 | 9.6 |
 | `docs/technology-combinations/synthesis-tables/20-24-final.md` | 0 | 🔴 Очень сложный | 189 | 21 | 9.0 |
 | `docs/technology-combinations/synthesis-tables/31-35-final.md` | 0 | 🔴 Очень сложный | 200 | 17 | 11.8 |
-| `docs/templates/README.md` | 0 | 🔴 Очень сложный | 349 | 63 | 5.5 |
 | `docs/templates/agent-spec.md` | 0 | 🔴 Очень сложный | 182 | 8 | 22.8 |
-| `docs/templates/contact-outreach.md` | 0 | 🔴 Очень сложный | 86 | 6 | 14.3 |
+| `docs/templates/contact-outreach.md` | 0 | 🔴 Очень сложный | 37 | 2 | 18.5 |
 | `docs/templates/contradiction-record.md` | 0 | 🔴 Очень сложный | 107 | 13 | 8.2 |
-| `docs/templates/decision-record.md` | 0 | 🔴 Очень сложный | 68 | 5 | 13.6 |
-| `docs/templates/ensemble.md` | 0 | 🔴 Очень сложный | 78 | 7 | 11.1 |
+| `docs/templates/decision-record.md` | 0 | 🔴 Очень сложный | 31 | 3 | 10.3 |
+| `docs/templates/ensemble.md` | 0 | 🔴 Очень сложный | 36 | 4 | 9.0 |
 | `docs/templates/experiment-log.md` | 0 | 🔴 Очень сложный | 113 | 9 | 12.6 |
 | `docs/templates/faq-entry.md` | 0 | 🔴 Очень сложный | 90 | 9 | 10.0 |
 | `docs/templates/glossary-entry.md` | 0 | 🔴 Очень сложный | 71 | 9 | 7.9 |
 | `docs/templates/legal-case.md` | 0 | 🔴 Очень сложный | 146 | 13 | 11.2 |
-| `docs/templates/project-component.md` | 0 | 🔴 Очень сложный | 113 | 12 | 9.4 |
+| `docs/templates/project-component.md` | 0 | 🔴 Очень сложный | 53 | 6 | 8.8 |
 | `docs/templates/protocol-spec.md` | 0 | 🔴 Очень сложный | 166 | 28 | 5.9 |
 | `docs/templates/prototype-mvp.md` | 0 | 🔴 Очень сложный | 194 | 6 | 32.3 |
-| `docs/templates/research-note.md` | 0 | 🔴 Очень сложный | 71 | 11 | 6.5 |
+| `docs/templates/research-note.md` | 0 | 🔴 Очень сложный | 28 | 7 | 4.0 |
 | `docs/templates/rfc.md` | 0 | 🔴 Очень сложный | 123 | 22 | 5.6 |
 | `docs/templates/risk-entry.md` | 0 | 🔴 Очень сложный | 135 | 13 | 10.4 |
 | `docs/templates/tech-pair.md` | 0 | 🔴 Очень сложный | 144 | 13 | 11.1 |
@@ -6664,6 +6667,7 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md` | 0.8 | 🔴 Очень сложный | 434 | 29 | 15.0 |
 | `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` | 1.1 | 🔴 Очень сложный | 687 | 60 | 11.4 |
 | `docs/02-anthropic-vacancies/224-acknowledgments.md` | 1.1 | 🔴 Очень сложный | 202 | 18 | 11.2 |
+| `docs/MCP_DASHBOARD.md` | 1.3 | 🔴 Очень сложный | 25 | 2 | 12.5 |
 | `docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md` | 1.3 | 🔴 Очень сложный | 304 | 22 | 13.8 |
 | `docs/svyazi-2-0/components/agent-memory-mcp.md` | 1.4 | 🔴 Очень сложный | 129 | 9 | 14.3 |
 | `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | 1.5 | 🔴 Очень сложный | 74 | 10 | 7.4 |
@@ -6726,9 +6730,9 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/lorenzo-agent/naming/README.md` | 8.8 | 🔴 Очень сложный | 39 | 8 | 4.9 |
 | `docs/nautilus/transmission-box/README.md` | 9.0 | 🔴 Очень сложный | 22 | 4 | 5.5 |
 | `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` | 9.1 | 🔴 Очень сложный | 609 | 46 | 13.2 |
+| `docs/CHANGELOG.md` | 9.1 | 🔴 Очень сложный | 1194 | 69 | 17.3 |
 | `docs/02-anthropic-vacancies/55-passports-meta-md.md` | 9.3 | 🔴 Очень сложный | 105 | 13 | 8.1 |
 | `docs/nautilus/ingit-cowork-en/02-cowork-provides.md` | 9.3 | 🔴 Очень сложный | 593 | 50 | 11.9 |
-| `docs/CHANGELOG.md` | 9.4 | 🔴 Очень сложный | 1167 | 69 | 16.9 |
 | `docs/LANGUAGE_STATS.md` | 9.6 | 🔴 Очень сложный | 356 | 4 | 89.0 |
 | `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` | 9.7 | 🔴 Очень сложный | 372 | 44 | 8.5 |
 | `docs/anthropic-vacancies/clusters/README.md` | 9.9 | 🔴 Очень сложный | 100 | 32 | 3.1 |
@@ -6744,6 +6748,7 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/nautilus/community-discussions/habr-article-1-reaction/README.md` | 11.4 | 🔴 Очень сложный | 20 | 4 | 5.0 |
 | `docs/02-anthropic-vacancies/154-table-of-contents.md` | 11.7 | 🔴 Очень сложный | 91 | 17 | 5.4 |
 | `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | 12.0 | 🔴 Очень сложный | 74 | 4 | 18.5 |
+| `docs/DIGEST_AUTO.md` | 12.2 | 🔴 Очень сложный | 208 | 17 | 12.2 |
 | `docs/nautilus/community-discussions/habr-article-2-reaction/README.md` | 12.4 | 🔴 Очень сложный | 16 | 4 | 4.0 |
 | `docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md` | 12.5 | 🔴 Очень сложный | 321 | 37 | 8.7 |
 | `docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md` | 12.6 | 🔴 Очень сложный | 167 | 11 | 15.2 |
@@ -6766,36 +6771,35 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/nautilus/npp-v1-0/README.md` | 16.5 | 🔴 Очень сложный | 123 | 38 | 3.2 |
 | `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` | 17.1 | 🔴 Очень сложный | 398 | 33 | 12.1 |
 | `docs/nautilus/professional-colleague-agents-en/README.md` | 17.2 | 🔴 Очень сложный | 90 | 26 | 3.5 |
-| `docs/METRICS.md` | 17.6 | 🔴 Очень сложный | 120 | 12 | 10.0 |
 | `docs/contacts/README.md` | 18.2 | 🔴 Очень сложный | 65 | 26 | 2.5 |
+| `docs/METRICS.md` | 18.3 | 🔴 Очень сложный | 124 | 12 | 10.3 |
 | `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` | 18.4 | 🔴 Очень сложный | 503 | 43 | 11.7 |
 | `docs/nautilus/double-triangle-architecture/README.md` | 18.4 | 🔴 Очень сложный | 94 | 24 | 3.9 |
 | `docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` | 18.5 | 🔴 Очень сложный | 197 | 25 | 7.9 |
 | `docs/nautilus/infrastructure-layer-b-en/07-specific-case.md` | 18.7 | 🔴 Очень сложный | 620 | 61 | 10.2 |
 | `docs/technology-combinations/mega-stacks/03-dsl-ast.md` | 19.0 | 🔴 Очень сложный | 113 | 14 | 8.1 |
 | `docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md` | 19.3 | 🔴 Очень сложный | 485 | 52 | 9.3 |
-| `docs/DIGEST_AUTO.md` | 19.5 | 🔴 Очень сложный | 205 | 18 | 11.4 |
+| `docs/README.md` | 19.9 | 🔴 Очень сложный | 801 | 200 | 4.0 |
 | `docs/nautilus/composite-skills-agents/README.md` | 19.9 | 🔴 Очень сложный | 97 | 26 | 3.7 |
 | `docs/03-technology-combinations/README.md` | 20.1 | 🔴 Очень сложный | 44 | 11 | 4.0 |
 | `docs/STALENESS.md` | 20.1 | 🔴 Очень сложный | 127 | 6 | 21.2 |
-| `docs/README.md` | 20.4 | 🔴 Очень сложный | 794 | 198 | 4.0 |
 | `docs/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md` | 20.6 | 🔴 Очень сложный | 207 | 29 | 7.1 |
 | `docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` | 21.5 | 🔴 Очень сложный | 736 | 76 | 9.7 |
 | `docs/BADGES.md` | 21.7 | 🔴 Очень сложный | 26 | 9 | 2.9 |
 | `docs/02-anthropic-vacancies/211-table-of-contents.md` | 21.8 | 🔴 Очень сложный | 165 | 22 | 7.5 |
+| `docs/PRIORITIES.md` | 22.5 | 🔴 Очень сложный | 609 | 132 | 4.6 |
 | `docs/ai-collaborations/ensembles/README.md` | 22.5 | 🔴 Очень сложный | 79 | 18 | 4.4 |
 | `docs/svyazi-2-0/outreach/README.md` | 22.7 | 🔴 Очень сложный | 23 | 6 | 3.8 |
 | `docs/NAMED_ENTITIES.md` | 22.8 | 🔴 Очень сложный | 335 | 30 | 11.2 |
-| `docs/PRIORITIES.md` | 22.8 | 🔴 Очень сложный | 608 | 132 | 4.6 |
 | `docs/anthropic-vacancies/extra-collaborator-findings/README.md` | 23.3 | 🔴 Очень сложный | 59 | 14 | 4.2 |
 | `docs/nautilus/supply-demand/README.md` | 24.2 | 🔴 Очень сложный | 21 | 4 | 5.2 |
 | `docs/habr-unique-projects/deep-pairs/README.md` | 24.3 | 🔴 Очень сложный | 64 | 16 | 4.0 |
 | `docs/svyazi-2-0/ensembles/README.md` | 24.4 | 🔴 Очень сложный | 65 | 16 | 4.1 |
-| `docs/EMPTY_SECTIONS.md` | 24.9 | 🔴 Очень сложный | 5459 | 988 | 5.5 |
+| `docs/EMPTY_SECTIONS.md` | 25.0 | 🔴 Очень сложный | 5487 | 994 | 5.5 |
 | `docs/svyazi-2-0/security/README.md` | 26.2 | 🔴 Очень сложный | 22 | 6 | 3.7 |
 | `docs/nautilus/professional-colleague-agents-ru/README.md` | 26.3 | 🔴 Очень сложный | 84 | 26 | 3.2 |
 | `docs/svyazi-2-0/limitations/README.md` | 26.4 | 🔴 Очень сложный | 23 | 6 | 3.8 |
-| `docs/VOCABULARY.md` | 27.8 | 🔴 Очень сложный | 188 | 48 | 3.9 |
+| `docs/VOCABULARY.md` | 27.7 | 🔴 Очень сложный | 188 | 47 | 4.0 |
 | `docs/nautilus/okwf-concept/README.md` | 28.5 | 🔴 Очень сложный | 73 | 22 | 3.3 |
 | `docs/02-anthropic-vacancies/308-table-of-contents.md` | 28.8 | 🔴 Очень сложный | 147 | 21 | 7.0 |
 | `docs/nautilus/privacy-federation/README.md` | 29.1 | 🔴 Очень сложный | 51 | 10 | 5.1 |
@@ -6820,6 +6824,7 @@ _Файл: `docs/READABILITY.md` | 6 колонок, 1189 строк_
 | `docs/nautilus/infrastructure-layer-b-en/README.md` | 45.5 | 🟠 Сложный | 102 | 28 | 3.6 |
 | `docs/svyazi-2-0/components/README.md` | 47.7 | 🟠 Сложный | 113 | 34 | 3.3 |
 | `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` | 48.1 | 🟠 Сложный | 60 | 12 | 5.0 |
+| `docs/templates/README.md` | 53.4 | 🟡 Средний | 143 | 46 | 3.1 |
 | `docs/autofilled/components/README.md` | 63.3 | 🟡 Средний | 41 | 13 | 3.2 |
 | `docs/habr-unique-projects/hardware-pairs/README.md` | 67.9 | 🟡 Средний | 50 | 14 | 3.6 |
 | `docs/svyazi-2-0/prototype/README.md` | 71.6 | 🟢 Лёгкий | 20 | 5 | 4.0 |
@@ -7245,11 +7250,11 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 
 | Файл | Время | Слов | Категория |
 |------|-------|------|-----------|
-| `docs/OUTLINE.md` | ~3ч 40мин | 50867 | 📕 Очень долго |
-| `docs/TABLES.md` | ~3ч 40мин | 52063 | 📕 Очень долго |
+| `docs/OUTLINE.md` | ~3ч 40мин | 50908 | 📕 Очень долго |
+| `docs/TABLES.md` | ~3ч 17мин | 46949 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` | ~1ч 32мин | 17509 | 📕 Очень долго |
-| `docs/CONCEPTS.md` | ~57 мин | 13381 | 📕 Очень долго |
-| `docs/PARAGRAPH_QUALITY.md` | ~56 мин | 12460 | 📕 Очень долго |
+| `docs/CONCEPTS.md` | ~57 мин | 13369 | 📕 Очень долго |
+| `docs/PARAGRAPH_QUALITY.md` | ~56 мин | 12459 | 📕 Очень долго |
 | `docs/CODE_BLOCKS.md` | ~54 мин | 514 | 📕 Очень долго |
 | `docs/04-ai-collaborations/00-intro.md` | ~50 мин | 10779 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` | ~42 мин | 9417 | 📕 Очень долго |
@@ -7257,11 +7262,11 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` | ~35 мин | 8875 | 📕 Очень долго |
 | `docs/HEADING_AUDIT.md` | ~35 мин | 7759 | 📕 Очень долго |
 | `docs/05-habr-projects/memory/memnet.md` | ~31 мин | 6770 | 📕 Очень долго |
-| `docs/SITEMAP.md` | ~30 мин | 7285 | 📕 Очень долго |
-| `docs/SCRIPTS_CATALOG.md` | ~28 мин | 6183 | 📕 Очень долго |
+| `docs/SITEMAP.md` | ~30 мин | 7292 | 📕 Очень долго |
+| `docs/SCRIPTS_CATALOG.md` | ~29 мин | 6267 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/165-closing.md` | ~28 мин | 6136 | 📕 Очень долго |
-| `docs/ACTION_ITEMS.md` | ~27 мин | 6046 | 📕 Очень долго |
-| `docs/EMPTY_SECTIONS.md` | ~26 мин | 5560 | 📕 Очень долго |
+| `docs/ACTION_ITEMS.md` | ~27 мин | 6054 | 📕 Очень долго |
+| `docs/EMPTY_SECTIONS.md` | ~26 мин | 5590 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/133-обратная-связь.md` | ~24 мин | 3647 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` | ~23 мин | 4814 | 📕 Очень долго |
 | `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` | ~20 мин | 4436 | 📕 Очень долго |
@@ -7279,7 +7284,7 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/nautilus/innovation-transitions/00-question-innovations-transitions.md` | ~12 мин | 2671 | 📙 Долго |
 | `docs/nautilus/transmission-box/01-completing-loop.md` | ~12 мин | 2869 | 📙 Долго |
 | `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` | ~12 мин | 2322 | 📙 Долго |
-| `docs/READABILITY.md` | ~12 мин | 2445 | 📙 Долго |
+| `docs/READABILITY.md` | ~12 мин | 2446 | 📙 Долго |
 | `docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md` | ~12 мин | 2481 | 📙 Долго |
 | `docs/nautilus/supply-demand/01-three-related-themes.md` | ~11 мин | 2662 | 📙 Долго |
 | `docs/nautilus/multi-tier-architecture/01-strategic-significance.md` | ~11 мин | 2470 | 📙 Долго |
@@ -7287,13 +7292,14 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/nautilus/community-discussions/voiceless-contributors/01-response.md` | ~10 мин | 2332 | 📙 Долго |
 | `docs/nautilus/innovation-transitions/01-response.md` | ~10 мин | 2238 | 📙 Долго |
 | `docs/nautilus/representative-agent-layer-en/12-closing.md` | ~10 мин | 2440 | 📙 Долго |
-| `docs/DUPLICATES.md` | ~9 мин | 2269 | 📙 Долго |
+| `docs/DUPLICATES.md` | ~9 мин | 2273 | 📙 Долго |
 | `docs/lorenzo-agent/scenarios/01-response.md` | ~9 мин | 2223 | 📙 Долго |
 | `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` | ~8 мин | 1777 | 📙 Долго |
 | `docs/glossary/components-by-name.md` | ~8 мин | 1984 | 📙 Долго |
 | `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` | ~8 мин | 1905 | 📙 Долго |
 | `docs/QUESTIONS.md` | ~7 мин | 1690 | 📘 Средне |
 | `docs/nautilus/community-discussions/practical-observations/01-response.md` | ~7 мин | 1684 | 📘 Средне |
+| `docs/TIMELINE.md` | ~7 мин | 1663 | 📘 Средне |
 | `docs/01-svyazi/04-ensembles-overview.md` | ~7 мин | 1153 | 📘 Средне |
 | `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` | ~7 мин | 1515 | 📘 Средне |
 | `docs/DECISIONS.md` | ~7 мин | 1618 | 📘 Средне |
@@ -7322,19 +7328,18 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/CONTRADICTIONS.md` | ~5 мин | 1161 | 📘 Средне |
 | `docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md` | ~5 мин | 1274 | 📘 Средне |
 | `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | ~5 мин | 1112 | 📘 Средне |
-| `docs/KPI.md` | ~5 мин | 1137 | 📘 Средне |
-| `docs/TIMELINE.md` | ~5 мин | 1037 | 📘 Средне |
+| `docs/KPI.md` | ~5 мин | 1144 | 📘 Средне |
 | `docs/nautilus/professional-colleague-agents-ru/06-riski.md` | ~5 мин | 1049 | 📘 Средне |
+| `docs/CHANGELOG.md` | ~4 мин | 1215 | 📘 Средне |
 | `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | ~4 мин | 1071 | 📘 Средне |
-| `docs/CHANGELOG.md` | ~4 мин | 1186 | 📘 Средне |
 | `docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md` | ~4 мин | 1014 | 📘 Средне |
 | `docs/01-svyazi/07-mvp-planning.md` | ~4 мин | 1030 | 📘 Средне |
 | `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` | ~4 мин | 1169 | 📘 Средне |
-| `docs/REGISTRY.md` | ~4 мин | 930 | 📘 Средне |
 | `docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md` | ~4 мин | 1006 | 📘 Средне |
 | `docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md` | ~4 мин | 960 | 📘 Средне |
 | `docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` | ~4 мин | 1079 | 📘 Средне |
 | `docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md` | ~4 мин | 1104 | 📘 Средне |
+| `docs/REGISTRY.md` | ~4 мин | 879 | 📘 Средне |
 | `docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md` | ~4 мин | 960 | 📘 Средне |
 | `docs/CLUSTERS.md` | ~4 мин | 1028 | 📘 Средне |
 | `docs/nautilus/professional-colleague-agents-en/06-risks.md` | ~4 мин | 1102 | 📘 Средне |
@@ -7352,7 +7357,7 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` | ~4 мин | 814 | 📘 Средне |
 | `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` | ~4 мин | 1018 | 📘 Средне |
 | `docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` | ~4 мин | 861 | 📘 Средне |
-| `docs/ABBREVIATIONS.md` | ~4 мин | 919 | 📘 Средне |
+| `docs/ABBREVIATIONS.md` | ~4 мин | 927 | 📘 Средне |
 | `docs/FAQ.md` | ~4 мин | 936 | 📘 Средне |
 | `docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md` | ~4 мин | 728 | 📘 Средне |
 | `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md` | ~4 мин | 815 | 📘 Средне |
@@ -7377,7 +7382,6 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md` | ~3 мин | 787 | 📘 Средне |
 | `docs/01-svyazi/06-security-privacy.md` | ~3 мин | 801 | 📘 Средне |
 | `docs/02-anthropic-vacancies/104-appendix-c-references.md` | ~3 мин | 828 | 📘 Средне |
-| `docs/TASKS_INDEX.md` | ~3 мин | 819 | 📘 Средне |
 | `docs/nautilus/composite-skills-agents/08-seven-domains.md` | ~3 мин | 921 | 📘 Средне |
 | `docs/nautilus/review-methodology/13-appendix-b-examples.md` | ~3 мин | 156 | 📘 Средне |
 | `docs/01-svyazi/09-architectural-gaps.md` | ~3 мин | 814 | 📘 Средне |
@@ -7385,6 +7389,7 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` | ~3 мин | 723 | 📘 Средне |
 | `docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md` | ~3 мин | 734 | 📘 Средне |
 | `docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md` | ~3 мин | 898 | 📘 Средне |
+| `docs/TASKS_INDEX.md` | ~3 мин | 779 | 📘 Средне |
 | `docs/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md` | ~3 мин | 750 | 📘 Средне |
 | `docs/nautilus/okwf-concept/04-proposed-infrastructure.md` | ~3 мин | 894 | 📘 Средне |
 | `docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md` | ~3 мин | 780 | 📘 Средне |
@@ -7398,7 +7403,7 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/02-anthropic-vacancies/238-7-области-применения.md` | ~3 мин | 687 | 📘 Средне |
 | `docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md` | ~3 мин | 687 | 📘 Средне |
 | `docs/03-technology-combinations/05-benchmarks.md` | ~3 мин | 752 | 📘 Средне |
-| `docs/README.md` | ~3 мин | 795 | 📘 Средне |
+| `docs/README.md` | ~3 мин | 802 | 📘 Средне |
 | `docs/RISK_REGISTER.md` | ~3 мин | 621 | 📘 Средне |
 | `docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md` | ~3 мин | 605 | 📘 Средне |
 | `docs/nautilus/npp-v1-1/13-rest-api.md` | ~3 мин | 216 | 📘 Средне |
@@ -7486,6 +7491,7 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` | ~2 мин | 593 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | ~2 мин | 572 | 📗 Быстро |
 | `docs/INDEX.md` | ~2 мин | 492 | 📗 Быстро |
+| `docs/PRIORITIES.md` | ~2 мин | 633 | 📗 Быстро |
 | `docs/nautilus/composite-skills-agents/05-configuration-ensembles.md` | ~2 мин | 660 | 📗 Быстро |
 | `docs/nautilus/composite-skills-agents/09-okwf-integration.md` | ~2 мин | 674 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md` | ~2 мин | 455 | 📗 Быстро |
@@ -7500,7 +7506,6 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` | ~2 мин | 636 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/279-existing-approximations.md` | ~2 мин | 652 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/294-существующие-приближения.md` | ~2 мин | 551 | 📗 Быстро |
-| `docs/PRIORITIES.md` | ~2 мин | 632 | 📗 Быстро |
 | `docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md` | ~2 мин | 614 | 📗 Быстро |
 | `docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md` | ~2 мин | 528 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md` | ~2 мин | 546 | 📗 Быстро |
@@ -7533,7 +7538,6 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/02-anthropic-vacancies/175-6-ethical-framework.md` | ~2 мин | 590 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md` | ~2 мин | 508 | 📗 Быстро |
 | `docs/ONBOARDING.md` | ~2 мин | 291 | 📗 Быстро |
-| `docs/VERSION_DIFF.md` | ~2 мин | 531 | 📗 Быстро |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md` | ~2 мин | 503 | 📗 Быстро |
 | `docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md` | ~2 мин | 491 | 📗 Быстро |
 | `docs/nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md` | ~2 мин | 460 | 📗 Быстро |
@@ -7619,6 +7623,7 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md` | ~1 мин | 368 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/79-4-passport-passport-md.md` | ~1 мин | 288 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` | ~1 мин | 182 | 📗 Быстро |
+| `docs/VERSION_DIFF.md` | ~1 мин | 372 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md` | ~1 мин | 388 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md` | ~1 мин | 385 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/3-forensic-rag.md` | ~1 мин | 383 | 📗 Быстро |
@@ -7700,7 +7705,7 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md` | ~1 мин | 312 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/325-аннотация.md` | ~1 мин | 326 | 📗 Быстро |
 | `docs/02-anthropic-vacancies/90-15-security-considerations.md` | ~1 мин | 343 | 📗 Быстро |
-| `docs/KNOWLEDGE_MAP.md` | ~1 мин | 217 | 📗 Быстро |
+| `docs/KNOWLEDGE_MAP.md` | ~1 мин | 219 | 📗 Быстро |
 | `docs/ai-collaborations/ensembles/6-continuous-eval-loop.md` | ~1 мин | 327 | 📗 Быстро |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md` | ~1 мин | 319 | 📗 Быстро |
 | `docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md` | ~1 мин | 376 | 📗 Быстро |
@@ -8059,13 +8064,13 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/CROSSREFS.md` | ~1 мин | 243 | 📗 Быстро |
 | `docs/DENSITY.md` | ~1 мин | 125 | 📗 Быстро |
 | `docs/DEPENDENCY_MAP.md` | ~1 мин | 78 | 📗 Быстро |
-| `docs/DIGEST_AUTO.md` | ~1 мин | 227 | 📗 Быстро |
+| `docs/DIGEST_AUTO.md` | ~1 мин | 230 | 📗 Быстро |
 | `docs/ENTITIES.md` | ~1 мин | 162 | 📗 Быстро |
 | `docs/GLOSSARY.md` | ~1 мин | 79 | 📗 Быстро |
 | `docs/HEALTH.md` | ~1 мин | 74 | 📗 Быстро |
 | `docs/KEYWORD_INDEX.md` | ~1 мин | 150 | 📗 Быстро |
 | `docs/LLM_SUMMARIES.md` | ~1 мин | 177 | 📗 Быстро |
-| `docs/METRICS.md` | ~1 мин | 142 | 📗 Быстро |
+| `docs/METRICS.md` | ~1 мин | 146 | 📗 Быстро |
 | `docs/MISSING.md` | ~1 мин | 116 | 📗 Быстро |
 | `docs/NETWORK.md` | ~1 мин | 161 | 📗 Быстро |
 | `docs/ORPHANS.md` | ~1 мин | 69 | 📗 Быстро |
@@ -8078,8 +8083,8 @@ _Файл: `docs/READING_TIME.md` | 4 колонок, 1113 строк_
 | `docs/SOURCE_MAP.md` | ~1 мин | 98 | 📗 Быстро |
 | `docs/STALENESS.md` | ~1 мин | 110 | 📗 Быстро |
 | `docs/STATS.md` | ~1 мин | 76 | 📗 Быстро |
-| `docs/TAGS.md` | ~1 мин | 67 | 📗 Быстро |
-| `docs/VOCABULARY.md` | ~1 мин | 216 | 📗 Быстро |
+| `docs/TAGS.md` | ~1 мин | 69 | 📗 Быстро |
+| `docs/VOCABULARY.md` | ~1 мин | 218 | 📗 Быстро |
 | `docs/WORD_CLOUD.md` | ~1 мин | 130 | 📗 Быстро |
 | `docs/ai-collaborations/candidates/02-related-projects-context.md` | ~1 мин | 204 | 📗 Быстро |
 | `docs/ai-collaborations/continuation/06-metrics-tree.md` | ~1 мин | 199 | 📗 Быстро |
@@ -8368,7 +8373,7 @@ _Файл: `docs/REGISTRY.md` | 2 колонок, 6 строк_
 | Скрипты `improve_*.py` | 154 |
 | Шаблоны `docs/templates/*.md` | 22 |
 | Скилы `.claude/skills/*.md` | 28 |
-| MCP-серверы | 10 |
+| MCP-серверы | 12 |
 | Манифесты задач | 13 |
 | Контакты | 14 |
 
@@ -8461,15 +8466,17 @@ _Файл: `docs/REGISTRY.md` | 2 колонок, 28 строк_
 
 
 ### 121. MCP-серверы
-_Файл: `docs/REGISTRY.md` | 2 колонок, 10 строк_
+_Файл: `docs/REGISTRY.md` | 2 колонок, 12 строк_
 
 | Сервер | Описание |
 |--------|----------|
 | `lorenzo-contacts` | Контакты: get_contact, list_contacts, update_contact_status, propose_outreach |
 | `lorenzo-docs` | [Legacy] Монолитный сервер для обратной совместимости |
+| `lorenzo-embed` | Семантический поиск: keyword/semantic/hybrid_search, encode, list_providers |
 | `lorenzo-export` | Экспорт: Obsidian, Confluence, EPUB, RSS, CSV, HTML, Report |
 | `lorenzo-graph` | Аналитика: get_health, get_decisions, get_concept_graph, kpi_history, get_project_status |
 | `lorenzo-llm` | LLM с кэшем: llm_summary, llm_qa, llm_enrich, llm_contact |
+| `lorenzo-ops` | Операции: doctor, audit_query, audit_top_tools, workflow_history, workflow_stats |
 | `lorenzo-runner` | Запуск improve_*.py: list_scripts, describe_script, run_improve, run_group |
 | `lorenzo-search` | Read-only поиск: search_docs, bm25_passages, find_similar, faceted_search |
 | `lorenzo-skills` | Скилы: list_skills, get_skill, match_skill (router), compose_skills, evaluate_skill |
@@ -8524,7 +8531,7 @@ _Файл: `docs/REPORT.md` | 2 колонок, 6 строк_
 | Метрика | Значение |
 |---------|----------|
 | Документов | **1194** |
-| Слов | **945,935** |
+| Слов | **946,081** |
 | Секций | **20** |
 | Здоровье репо | **77/100/100** |
 | Средний балл | **71.3/100/100** |
@@ -8536,7 +8543,7 @@ _Файл: `docs/REPORT.md` | 3 колонок, 18 строк_
 
 | Секция | Файлов | Слов |
 |--------|--------|------|
-| **obsidian** | 1189 | 939,370 |
+| **obsidian** | 1189 | 939,391 |
 | **Anthropic Vacancies** | 357 | 278,999 |
 | **nautilus** | 255 | 148,523 |
 | **anthropic-vacancies** | 111 | 30,960 |
@@ -8548,7 +8555,7 @@ _Файл: `docs/REPORT.md` | 3 колонок, 18 строк_
 | **Svyazi 2.0** | 16 | 11,052 |
 | **Habr Projects** | 10 | 8,622 |
 | **ai-collaborations** | 30 | 8,207 |
-| **Templates** | 24 | 4,858 |
+| **Templates** | 24 | 4,973 |
 | **Contacts** | 15 | 3,492 |
 | **Tech Combinations** | 7 | 2,799 |
 | **glossary** | 4 | 2,282 |
@@ -9000,10 +9007,10 @@ _Файл: `docs/SENTIMENT.md` | 6 колонок, 16 строк_
 | **habr-unique-projects** | 10.1‰ | 0.9‰ | 1.1‰ | 1.0‰ | 🟢 оптимистичный |
 | **lorenzo-agent** | 1.8‰ | 3.4‰ | 1.2‰ | 1.9‰ | 🔴 скептичный |
 | **nautilus** | 1.9‰ | 5.7‰ | 1.8‰ | 1.5‰ | 🔴 скептичный |
-| **root** | 0.6‰ | 21.8‰ | 1.0‰ | 1.1‰ | 🔴 скептичный |
+| **root** | 0.6‰ | 22.0‰ | 1.0‰ | 1.1‰ | 🔴 скептичный |
 | **svyazi-2-0** | 1.9‰ | 7.3‰ | 1.6‰ | 0.7‰ | 🔴 скептичный |
 | **technology-combinations** | 5.1‰ | 1.3‰ | 0.5‰ | 0.2‰ | 🟢 оптимистичный |
-| **templates** | 0.0‰ | 9.0‰ | 0.9‰ | 0.2‰ | 🔴 скептичный |
+| **templates** | 0.0‰ | 9.7‰ | 0.9‰ | 0.2‰ | 🔴 скептичный |
 
 
 ### 155. Самые оптимистичные документы
@@ -9045,8 +9052,8 @@ _Файл: `docs/SENTIMENT.md` | 2 колонок, 5 строк_
 
 | Тон | Файлов |
 |-----|--------|
-| 🔴 скептичный | 506 |
-| ⚪ нейтральный | 278 |
+| 🔴 скептичный | 508 |
+| ⚪ нейтральный | 279 |
 | 🟢 оптимистичный | 136 |
 | 🟠 срочный | 79 |
 | 🟡 неопределённый | 33 |
@@ -9080,29 +9087,29 @@ _Файл: `docs/SIMILAR.md` | 3 колонок, 20 строк_
 
 
 ### 159. Мета-документы
-_Файл: `docs/SITEMAP.md` | 3 колонок, 201 строк_
+_Файл: `docs/SITEMAP.md` | 3 колонок, 202 строк_
 
 | Документ | Описание | Слов |
 |----------|----------|------|
-| [ABBREVIATIONS.md](docs/ABBREVIATIONS.md) | — | 1617 |
-| [ACTION_ITEMS.md](docs/ACTION_ITEMS.md) | Задачи и риски (490) | 8134 |
+| [ABBREVIATIONS.md](docs/ABBREVIATIONS.md) | — | 1628 |
+| [ACTION_ITEMS.md](docs/ACTION_ITEMS.md) | Задачи и риски (490) | 8137 |
 | [ALERTS.md](docs/ALERTS.md) | — | 79 |
 | [AUTHORS.md](docs/AUTHORS.md) | Авторы и контакты | 158 |
 | [AUTOFILLED.md](docs/AUTOFILLED.md) | — | 102 |
 | [BACKLINKS.md](docs/BACKLINKS.md) | — | 397 |
 | [BADGES.md](docs/BADGES.md) | — | 46 |
 | [BROKEN_LINKS.md](docs/BROKEN_LINKS.md) | Сломанные ссылки (26) | 790 |
-| [CHANGELOG.md](docs/CHANGELOG.md) | История изменений | 1377 |
+| [CHANGELOG.md](docs/CHANGELOG.md) | История изменений | 1423 |
 | [CHANGELOG_AUTO.md](docs/CHANGELOG_AUTO.md) | — | 353 |
-| [CITATION_INDEX.md](docs/CITATION_INDEX.md) | — | 935 |
+| [CITATION_INDEX.md](docs/CITATION_INDEX.md) | — | 934 |
 | [CLUSTERS.md](docs/CLUSTERS.md) | Кластеры (384 → 120 групп) | 1380 |
 | [CODE_BLOCKS.md](docs/CODE_BLOCKS.md) | — | 4713 |
 | [COMPARE.md](docs/COMPARE.md) | Сравнение с предыдущим коммитом | 477 |
 | [COMPLEXITY.md](docs/COMPLEXITY.md) | Оценка читаемости | 605 |
 | [COMPONENT_MATRIX.md](docs/COMPONENT_MATRIX.md) | — | 887 |
-| [CONCEPTS.md](docs/CONCEPTS.md) | Глоссарий понятий (888) | 13442 |
+| [CONCEPTS.md](docs/CONCEPTS.md) | Глоссарий понятий (888) | 13421 |
 | [CONCEPT_GRAPH.md](docs/CONCEPT_GRAPH.md) | — | 682 |
-| [CONSISTENCY.md](docs/CONSISTENCY.md) | — | 379 |
+| [CONSISTENCY.md](docs/CONSISTENCY.md) | — | 375 |
 | [CONTACTS.md](docs/CONTACTS.md) | Контакты (15 авторов) | 547 |
 | [CONTACT_PRIORITY.md](docs/CONTACT_PRIORITY.md) | — | 413 |
 | [CONTENT_GAPS.md](docs/CONTENT_GAPS.md) | — | 900 |
@@ -9116,10 +9123,10 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 201 строк_
 | [DEPENDABOT.md](docs/DEPENDABOT.md) | — | 173 |
 | [DEPENDENCY_MAP.md](docs/DEPENDENCY_MAP.md) | — | 558 |
 | [DIGEST.md](docs/DIGEST.md) | — | 487 |
-| [DIGEST_AUTO.md](docs/DIGEST_AUTO.md) | — | 311 |
-| [DIGEST_WEEKLY.md](docs/DIGEST_WEEKLY.md) | — | 201 |
-| [DUPLICATES.md](docs/DUPLICATES.md) | — | 2691 |
-| [EMPTY_SECTIONS.md](docs/EMPTY_SECTIONS.md) | — | 12015 |
+| [DIGEST_AUTO.md](docs/DIGEST_AUTO.md) | — | 319 |
+| [DIGEST_WEEKLY.md](docs/DIGEST_WEEKLY.md) | — | 203 |
+| [DUPLICATES.md](docs/DUPLICATES.md) | — | 2714 |
+| [EMPTY_SECTIONS.md](docs/EMPTY_SECTIONS.md) | — | 12089 |
 | [ENTITIES.md](docs/ENTITIES.md) | Именованные сущности | 742 |
 | [FAQ.md](docs/FAQ.md) | — | 892 |
 | [FOOTNOTES.md](docs/FOOTNOTES.md) | — | 275 |
@@ -9131,22 +9138,23 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 201 строк_
 | [HEATMAP.md](docs/HEATMAP.md) | — | 537 |
 | [INDEX.md](docs/INDEX.md) | — | 616 |
 | [KEYWORD_INDEX.md](docs/KEYWORD_INDEX.md) | — | 1138 |
-| [KNOWLEDGE_MAP.md](docs/KNOWLEDGE_MAP.md) | — | 651 |
-| [KPI.md](docs/KPI.md) | Числовые KPI (737 показателей) | 2451 |
+| [KNOWLEDGE_MAP.md](docs/KNOWLEDGE_MAP.md) | — | 653 |
+| [KPI.md](docs/KPI.md) | Числовые KPI (737 показателей) | 2474 |
 | [KPI_HISTORY.md](docs/KPI_HISTORY.md) | — | 106 |
-| [LANGUAGE_STATS.md](docs/LANGUAGE_STATS.md) | — | 6795 |
+| [LANGUAGE_STATS.md](docs/LANGUAGE_STATS.md) | — | 6760 |
 | [LINKS.md](docs/LINKS.md) | Внешние ссылки | 1029 |
 | [LLM_SUMMARIES.md](docs/LLM_SUMMARIES.md) | — | 177 |
-| [METRICS.md](docs/METRICS.md) | — | 455 |
+| [MCP_DASHBOARD.md](docs/MCP_DASHBOARD.md) | — | 327 |
+| [METRICS.md](docs/METRICS.md) | — | 465 |
 | [MINDMAP.md](docs/MINDMAP.md) | Майндмап в Mermaid | 242 |
 | [MISSING.md](docs/MISSING.md) | Пробелы знаний | 434 |
-| [NAMED_ENTITIES.md](docs/NAMED_ENTITIES.md) | — | 1668 |
+| [NAMED_ENTITIES.md](docs/NAMED_ENTITIES.md) | — | 1669 |
 | [NARRATIVE.md](docs/NARRATIVE.md) | — | 1043 |
 | [NETWORK.md](docs/NETWORK.md) | — | 413 |
 | [ONBOARDING.md](docs/ONBOARDING.md) | — | 552 |
 | [ORPHANS.md](docs/ORPHANS.md) | — | 105 |
-| [OUTLINE.md](docs/OUTLINE.md) | — | 35058 |
-| [PARAGRAPH_QUALITY.md](docs/PARAGRAPH_QUALITY.md) | — | 15365 |
+| [OUTLINE.md](docs/OUTLINE.md) | — | 35022 |
+| [PARAGRAPH_QUALITY.md](docs/PARAGRAPH_QUALITY.md) | — | 15363 |
 | [PASSIVE_VOICE.md](docs/PASSIVE_VOICE.md) | — | 408 |
 | [PRIORITIES.md](docs/PRIORITIES.md) | Приоритеты (TF-IDF) | 3028 |
 | [PROGRESS.md](docs/PROGRESS.md) | — | 316 |
@@ -9159,10 +9167,10 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 201 строк_
 | [QA.md](docs/anthropic-vacancies/QA.md) | Вопросы и ответы | 115 |
 | [QA.md](docs/lorenzo-agent/QA.md) | Вопросы и ответы | 206 |
 | [QUESTIONS.md](docs/QUESTIONS.md) | Открытые вопросы (484) | 1838 |
-| [READABILITY.md](docs/READABILITY.md) | — | 17950 |
+| [READABILITY.md](docs/READABILITY.md) | — | 17964 |
 | [READING_LIST.md](docs/READING_LIST.md) | — | 232 |
 | [READING_ORDER.md](docs/READING_ORDER.md) | Рекомендуемый порядок чтения | 5947 |
-| [READING_TIME.md](docs/READING_TIME.md) | — | 12542 |
+| [READING_TIME.md](docs/READING_TIME.md) | — | 12498 |
 | [README.md](docs/01-svyazi/README.md) | Главная страница и навигация | 110 |
 | [README.md](docs/02-anthropic-vacancies/README.md) | Главная страница и навигация | 2204 |
 | [README.md](docs/03-technology-combinations/README.md) | Главная страница и навигация | 49 |
@@ -9170,7 +9178,7 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 201 строк_
 | [README.md](docs/05-habr-projects/README.md) | Главная страница и навигация | 42 |
 | [README.md](docs/05-habr-projects/knowledge/README.md) | Главная страница и навигация | 13 |
 | [README.md](docs/05-habr-projects/memory/README.md) | Главная страница и навигация | 24 |
-| [README.md](docs/README.md) | Главная страница и навигация | 769 |
+| [README.md](docs/README.md) | Главная страница и навигация | 774 |
 | [README.md](docs/ai-collaborations/README.md) | Главная страница и навигация | 39 |
 | [README.md](docs/ai-collaborations/candidates/README.md) | Главная страница и навигация | 23 |
 | [README.md](docs/ai-collaborations/channels/README.md) | Главная страница и навигация | 25 |
@@ -9256,12 +9264,12 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 201 строк_
 | [README.md](docs/technology-combinations/research-reports/README.md) | Главная страница и навигация | 18 |
 | [README.md](docs/technology-combinations/synthesis-tables/README.md) | Главная страница и навигация | 42 |
 | [README.md](docs/templates/README.md) | Главная страница и навигация | 82 |
-| [REGISTRY.md](docs/REGISTRY.md) | — | 1371 |
-| [REPORT.md](docs/REPORT.md) | — | 974 |
+| [REGISTRY.md](docs/REGISTRY.md) | — | 1328 |
+| [REPORT.md](docs/REPORT.md) | — | 975 |
 | [RISK_REGISTER.md](docs/RISK_REGISTER.md) | — | 944 |
 | [SCHEDULE.md](docs/SCHEDULE.md) | — | 332 |
 | [SCORING.md](docs/SCORING.md) | — | 387 |
-| [SCRIPTS_CATALOG.md](docs/SCRIPTS_CATALOG.md) | — | 7659 |
+| [SCRIPTS_CATALOG.md](docs/SCRIPTS_CATALOG.md) | — | 7749 |
 | [SEARCH.md](docs/SEARCH.md) | Поисковый индекс | 4660 |
 | [SEARCH_RESULTS.md](docs/SEARCH_RESULTS.md) | — | 91 |
 | [SEE_ALSO.md](docs/SEE_ALSO.md) | — | 220 |
@@ -9274,13 +9282,13 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 201 строк_
 | [STALENESS.md](docs/STALENESS.md) | — | 439 |
 | [STATS.md](docs/STATS.md) | Детальная статистика | 630 |
 | [SUMMARIES.md](docs/SUMMARIES.md) | — | 3910 |
-| [TABLES.md](docs/TABLES.md) | — | 120085 |
+| [TABLES.md](docs/TABLES.md) | — | 117532 |
 | [TAGS.md](docs/TAGS.md) | Теги (316 файлов, 12 тем) | 600 |
-| [TASKS_INDEX.md](docs/TASKS_INDEX.md) | — | 1055 |
+| [TASKS_INDEX.md](docs/TASKS_INDEX.md) | — | 1012 |
 | [TECH_RADAR.md](docs/TECH_RADAR.md) | — | 612 |
-| [TIMELINE.md](docs/TIMELINE.md) | Временная шкала (800 маркеров) | 4346 |
+| [TIMELINE.md](docs/TIMELINE.md) | Временная шкала (800 маркеров) | 4347 |
 | [VALIDATION.md](docs/VALIDATION.md) | — | 581 |
-| [VERSION_DIFF.md](docs/VERSION_DIFF.md) | — | 4259 |
+| [VERSION_DIFF.md](docs/VERSION_DIFF.md) | — | 1546 |
 | [VOCABULARY.md](docs/VOCABULARY.md) | — | 943 |
 | [WORD_CLOUD.md](docs/WORD_CLOUD.md) | — | 212 |
 | [WORD_FREQ.md](docs/WORD_FREQ.md) | Частотный анализ слов | 2786 |
@@ -9866,7 +9874,7 @@ _Файл: `docs/SOURCE_MAP.md` | 2 колонок, 3 строк_
 | Категория | Файлов |
 |-----------|--------|
 | 🤖 Авто-импорт | 846 |
-| ✍️ Ручной | 331 |
+| ✍️ Ручной | 332 |
 | 🤖 Bot-коммит | 10 |
 
 
@@ -9875,7 +9883,7 @@ _Файл: `docs/SOURCE_MAP.md` | 2 колонок, 2 строк_
 
 | Автор | Файлов |
 |-------|--------|
-| Claude | 1177 |
+| Claude | 1178 |
 | github-actions[bot] | 10 |
 
 
@@ -10732,7 +10740,7 @@ _Файл: `docs/SOURCE_MAP.md` | 3 колонок, 846 строк_
 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | 20426 | 2026-04-29 |
 
 
-### 179. Без метаданных (нет summary или тегов) — 166 файлов
+### 179. Без метаданных (нет summary или тегов) — 169 файлов
 _Файл: `docs/STALENESS.md` | 3 колонок, 20 строк_
 
 | Файл | Слов | Проблемы |
@@ -10805,11 +10813,11 @@ _Файл: `docs/STATS.md` | 8 колонок, 19 строк_
 | **habr-unique-projects** | 56 | 13,161 | 10 | 5 | 0 | 291 | 81 |
 | **lorenzo-agent** | 62 | 19,979 | 45 | 0 | 0 | 285 | 182 |
 | **nautilus** | 255 | 148,523 | 384 | 83 | 58 | 1790 | 2800 |
-| **root** | 100 | 364,806 | 714 | 10340 | 137 | 10702 | 5845 |
+| **root** | 101 | 359,952 | 718 | 10058 | 137 | 10659 | 5844 |
 | **svyazi-2-0** | 59 | 12,455 | 93 | 48 | 8 | 277 | 377 |
 | **technology-combinations** | 53 | 12,903 | 34 | 25 | 7 | 286 | 116 |
 | **templates** | 24 | 4,858 | 192 | 94 | 21 | 79 | 99 |
-| **ИТОГО** | **1190** | **949,732** | **2363** | **11012** | **439** | **20467** | **15254** |
+| **ИТОГО** | **1191** | **944,878** | **2367** | **10730** | **439** | **20424** | **15253** |
 
 
 ### 182. Топ-20 файлов по объёму
@@ -10817,16 +10825,16 @@ _Файл: `docs/STATS.md` | 5 колонок, 20 строк_
 
 | Файл | Слов | H2 | Таблиц | Код |
 |------|------|----|--------|-----|
-| `TABLES` | 120085 | 16 | 5284 | 1 |
-| `OUTLINE` | 35058 | 21 | 0 | 0 |
+| `TABLES` | 117532 | 16 | 5136 | 1 |
+| `OUTLINE` | 35022 | 21 | 0 | 0 |
 | `341-приложение-c-образец-спецификаций-ин` | 20426 | 2 | 0 | 11 |
 | `01-интегральный-анализ-профиля-svend4` | 19144 | 2 | 0 | 19 |
-| `READABILITY` | 17950 | 2 | 595 | 0 |
+| `READABILITY` | 17964 | 2 | 596 | 0 |
 | `133-обратная-связь` | 17018 | 2 | 6 | 17 |
-| `PARAGRAPH_QUALITY` | 15365 | 3 | 3 | 0 |
-| `CONCEPTS` | 13442 | 55 | 0 | 0 |
-| `READING_TIME` | 12542 | 4 | 559 | 0 |
-| `EMPTY_SECTIONS` | 12015 | 3 | 74 | 0 |
+| `PARAGRAPH_QUALITY` | 15363 | 3 | 3 | 0 |
+| `CONCEPTS` | 13421 | 55 | 0 | 0 |
+| `READING_TIME` | 12498 | 4 | 557 | 0 |
+| `EMPTY_SECTIONS` | 12089 | 3 | 75 | 0 |
 | `00-intro` | 11389 | 1 | 3 | 0 |
 | `342-что-такое-вариант-c-concept-document` | 11281 | 2 | 0 | 6 |
 | `69-section` | 9531 | 2 | 2 | 18 |
@@ -10835,8 +10843,8 @@ _Файл: `docs/STATS.md` | 5 колонок, 20 строк_
 | `HEADING_AUDIT` | 9018 | 3 | 4 | 0 |
 | `00-intro` | 8934 | 1 | 4 | 2 |
 | `150-appendix-c-version-history` | 8408 | 2 | 0 | 2 |
-| `ACTION_ITEMS` | 8134 | 6 | 0 | 0 |
-| `SCRIPTS_CATALOG` | 7659 | 3 | 92 | 0 |
+| `ACTION_ITEMS` | 8137 | 6 | 0 | 0 |
+| `SCRIPTS_CATALOG` | 7749 | 3 | 93 | 0 |
 
 
 ### 183. lorenzo-contacts (1)
@@ -10930,7 +10938,7 @@ _Файл: `docs/TECH_RADAR.md` | 3 колонок, 4 строк_
 | **Hard-coded prompts** | Практики | Промпты без версионирования и тестов |
 
 
-### 191. Точная дата (2041)
+### 191. Точная дата (2049)
 _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 
 | Маркер | Контекст | Файл |
@@ -10965,10 +10973,10 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 | `2026-04-26` | 026 **Version:** 1.0.0-draft **Date:** 2026-04-26 **Author:** svend4 **Editorial collaboration:** Claude **Li | `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` |
 | `2026-04-26` | а **Версия:** 1.0.0-черновик **Дата:** 2026-04-26 **Автор:** svend4 **Редакторская работа:** Claude **Лицензи | `docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` |
 | `2026-04-19` | review:** Claude (ассистирующий анализ, 2026-04-19) **Previous version:** [PORTAL-PROTOCOL.md v1.0](https:// | `docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` |
-| ... | _ещё 2011 записей_ | |
+| ... | _ещё 2019 записей_ | |
 
 
-### 192. Точная дата (2041)
+### 192. Точная дата (2049)
 _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 
 | Маркер | Контекст | Файл |
@@ -10998,7 +11006,7 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 | `2026 год` | кла через диалог в нескольких сессиях в 2026 году. Формулировка «Синдром Золушки» и расширение к со… - Бл | `docs/OUTLINE.md` |
 | `2026 год` | оторые не т [Статус] - Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных р | `docs/QUESTIONS.md` |
 | `2026 год` | стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для Svyazi‑2.0 : ing | `docs/SUMMARIES.md` |
-| `2026 год` | es / / `2026/04/25` / 10 / dates / / `в 2026 году` / 8 / dates / / `март 2026` / 7 / dates / / `2026-04-22` | `docs/TABLES.md` |
+| `2026 год` | es / / `2026/04/25` / 10 / dates / / `в 2026 году` / 8 / dates / / `2026-04-22` / 8 / dates / / `март 2026` | `docs/TABLES.md` |
 | `2025 год` | ic-vacancies/203-благодарности.md` / / `2025 год` / Кириллом Дьологом сервис «Обучай» летом 2025 года. К апр | `docs/TABLES.md` |
 | `2027 год` | ic-vacancies/244-благодарности.md` / / `2027 год` / к функциональности Projects через 2026-2027 годы. **[Git | `docs/TABLES.md` |
 | `2024 год` | anthropic-vacancies/69-section.md` / / `2024 год` / «это решение 2019 года, после изменений 2024 года примен | `docs/TABLES.md` |
@@ -11006,17 +11014,17 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 | ... | _ещё 104 записей_ | |
 
 
-### 193. Точная дата (2041)
+### 193. Точная дата (2049)
 _Файл: `docs/TIMELINE.md` | 3 колонок, 3 строк_
 
 | Маркер | Контекст | Файл |
 |--------|----------|------|
 | `Q2 2024` | / dates / / `2024-01` / 3 / dates / / `Q2 2024` / 3 / dates / / `2025-11-12` / 3 / dates / / `февраля 2026 | `docs/NAMED_ENTITIES.md` |
 | `Q2 2024` | Конкретные даты: 2024-03-15, март 2024, Q2 2024 - Относительные: «через 3 месяца», «в следующем квартале» - | `docs/SCRIPTS_CATALOG.md` |
-| `Q2 2024` | tes / / `февраль 2026` / 3 / dates / / `Q2 2024` / 3 / dates / / `февраля 2026` / 3 / dates / / `2024-06-15 | `docs/TABLES.md` |
+| `Q2 2024` | / dates / / `2024-01` / 3 / dates / / `Q2 2024` / 3 / dates / / `2025-11-12` / 3 / dates / / `февраля 2026 | `docs/TABLES.md` |
 
 
-### 194. Точная дата (2041)
+### 194. Точная дата (2049)
 _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 
 | Маркер | Контекст | Файл |
@@ -11054,7 +11062,7 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 | ... | _ещё 185 записей_ | |
 
 
-### 195. Точная дата (2041)
+### 195. Точная дата (2049)
 _Файл: `docs/TIMELINE.md` | 3 колонок, 6 строк_
 
 | Маркер | Контекст | Файл |
@@ -11067,7 +11075,7 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 6 строк_
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `docs/svyazi-2-0/overview/executive-summary.md` |
 
 
-### 196. Точная дата (2041)
+### 196. Точная дата (2049)
 _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 
 | Маркер | Контекст | Файл |
@@ -11105,7 +11113,7 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 | ... | _ещё 471 записей_ | |
 
 
-### 197. Точная дата (2041)
+### 197. Точная дата (2049)
 _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 
 | Маркер | Контекст | Файл |
@@ -11143,7 +11151,7 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 | ... | _ещё 293 записей_ | |
 
 
-### 198. Точная дата (2041)
+### 198. Точная дата (2049)
 _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 
 | Маркер | Контекст | Файл |
@@ -11181,126 +11189,134 @@ _Файл: `docs/TIMELINE.md` | 3 колонок, 31 строк_
 | ... | _ещё 970 записей_ | |
 
 
-### 199. 📝 Изменённые файлы (95)
-_Файл: `docs/VERSION_DIFF.md` | 4 колонок, 95 строк_
+### 199. Сводка
+_Файл: `docs/VALIDATION.md` | 3 колонок, 6 строк_
+
+| Проверка | Статус | Проблем |
+|----------|--------|---------|
+| Разделы и README | ✅ | 0 |
+| Мета-файлы | ✅ | 0 |
+| Пустые/короткие файлы | ⚠️ | 31 |
+| Именование файлов | ✅ | 10 |
+| Заголовки H1 | ⚠️ | 11 |
+| Внутренние ссылки | ✅ | 15 |
+
+
+### 200. 📝 Изменённые файлы (90)
+_Файл: `docs/VERSION_DIFF.md` | 4 колонок, 90 строк_
 
 | Файл | Δ слов | Добавленные темы | Удалённые темы |
 |------|--------|------------------|----------------|
-| `docs/TABLES.md` | +12529 | 1. Скилы агента, 10. Детальные метрики, 100. Центральность узлов (влиятельность) +240 | 100. Структура документации, 101. Ключевые документы, 102. Архитектура компонентов +164 |
-| `docs/VERSION_DIFF.md` | +3214 | ✅ Новые файлы (34), 📝 Изменённые файлы (382) | — |
-| `docs/VALIDATION.md` | -593 | Валидация шаблонов, Шаблоны | Валидация структуры репозитория, Внутренние ссылки, Заголовки H1 +6 |
-| `docs/OUTLINE.md` | +581 | [FAQ: [Вопрос]](docs/templates/faq-entry.md), [KPI Snapshot: [дата]](docs/templates/kpi-snapshot.md), [MVP: [Название]](docs/templates/prototype-mvp.md) +27 | [Svyazi 2.0 — Архитектура и исследование](docs/01-svyazi/README.md), Агенты (153 документов), Анализ (16 документов) +4 |
-| `docs/EMPTY_SECTIONS.md` | +534 | `BADGES.md` (1 из 2), `CHANGELOG.md` (5 из 10), `CODE_BLOCKS.md` (112 из 113) +27 | `CHANGELOG.md` (3 из 8), `CODE_BLOCKS.md` (101 из 102), `GITHUB_ISSUES.md` (6 из 26) +5 |
-| `docs/templates/README.md` | +349 | Валидация документов, Все документы, Доменные (T3) — 6 +13 | Доступные шаблоны, Затем откройте и заполните поля в [квадратных скобках], Скопируйте нужный шаблон в нужную папку |
-| `docs/ACTION_ITEMS.md` | +301 | ⚠️ Риски (595), ✅ Решения и рекомендации (273), ➡️ Следующие шаги (150) +3 | ⚠️ Риски (544), ✅ Решения и рекомендации (257), ➡️ Следующие шаги (141) +3 |
-| `docs/CONCEPTS.md` | +297 | — | — |
-| `docs/GITHUB_ISSUES.md` | +285 | `docs/SCRIPTS_CATALOG.md` (1 задач), `docs/TABLES.md` (1 задач), `docs/templates/agent-spec.md` (3 задач) +9 | `docs/HEADING_AUDIT.md` (5 задач) |
-| `docs/QUESTIONS.md` | +237 | `ACTION_ITEMS.md` (18), `ACTION_ITEMS.md` (3), `DUPLICATES.md` (7) +18 | `ACTION_ITEMS.md` (9), `DUPLICATES.md` (8), `EMPTY_SECTIONS.md` (50) +10 |
-| `docs/PARAGRAPH_QUALITY.md` | +169 | `docs/01-svyazi/QA.md` (32 проблем), `docs/01-svyazi/README.md` (2 проблем), `docs/03-technology-combinations/README.md` (1 проблем) +61 | `docs/01-svyazi/QA.md` (26 проблем), `docs/01-svyazi/README.md` (1 проблем), `docs/03-technology-combinations/README.md` (2 проблем) +38 |
-| `docs/SITEMAP.md` | +166 | — | — |
-| `docs/READING_TIME.md` | +159 | — | — |
-| `docs/READABILITY.md` | +154 | Самые сложные тексты (1163) — рекомендуется упростить | Самые сложные тексты (1142) — рекомендуется упростить |
-| `docs/HEADING_AUDIT.md` | +142 | `docs/01-svyazi/QA.md` (15 проблем), `docs/ACTION_ITEMS.md` (1 проблем), `docs/BADGES.md` (1 проблем) +28 | `docs/01-svyazi/QA.md` (12 проблем), `docs/CHANGELOG.md` (4 проблем), `docs/CODE_BLOCKS.md` (117 проблем) +7 |
-| `docs/TAGS.md` | +133 | #anthropic (55 файлов), #architecture (59 файлов), #collaboration (66 файлов) +9 | #anthropic (34 файлов), #architecture (25 файлов), #collaboration (32 файлов) +9 |
-| `docs/TIMELINE.md` | +105 | 2020 (7 упоминаний), 2022 (12 упоминаний), 2024 (46 упоминаний) +1 | 2020 (4 упоминаний), 2022 (10 упоминаний), 2024 (45 упоминаний) +1 |
-| `docs/CHANGELOG.md` | +97 | 2026-04-29 (83 коммитов), 22 скила  (1 коммитов) | 2026-04-29 (75 коммитов) |
-| `docs/CODE_BLOCKS.md` | +80 | 1. Frontmatter (YAML), 3. Registry / Discovery, 6. Adapter Interface +14 | markdown (17), 💻 Bash / Shell (36), 📊 Диаграммы Mermaid (19) +2 |
-| `docs/QA.md` | +70 | — | — |
-| `docs/LANGUAGE_STATS.md` | +65 | — | — |
-| `docs/README.md` | +62 | — | — |
-| `docs/DIGEST_AUTO.md` | -61 | — | — |
-| `docs/PROGRESS.md` | +42 | — | — |
-| `docs/01-svyazi/QA.md` | +41 | Как CardIndex хранит и версионирует карточки?, Как работает AgentFS и что такое .agentos?, Что такое knowledge-space и для кого он предназначен? | — |
-| `docs/templates/project-component.md` | +39 | — | — |
-| `docs/ABBREVIATIONS.md` | +31 | — | — |
-| `docs/anthropic-vacancies/QA.md` | +29 | Как реализован forensic RAG с доказуемостью?, Какие RAG-подходы сравниваются в документах?, Что такое Evidence Envelope и зачем он нужен? | — |
-| `docs/WORD_FREQ.md` | -28 | 01-svyazi (9,321 слов), 02-anthropic-vacancies (165,798 слов), 03-technology-combinations (2,140 слов) +6 | 01-svyazi (9,507 слов), 02-anthropic-vacancies (166,018 слов), 03-technology-combinations (2,223 слов) +6 |
-| `docs/contacts/sonia-black.md` | +28 | — | — |
-| `docs/contacts/tagir-analyzes.md` | +28 | — | — |
-| `docs/contacts/anastasiyaw.md` | +27 | — | — |
-| `docs/contacts/andrey-chuyan.md` | +27 | — | — |
-| `docs/contacts/mixaill76.md` | +27 | — | — |
-| `docs/contacts/vladspace.md` | +26 | — | — |
-| `docs/templates/ensemble.md` | +26 | — | — |
-| `docs/contacts/antipozitive.md` | +25 | — | — |
-| `docs/contacts/dmitriila.md` | +25 | — | — |
-| `docs/contacts/nlaik.md` | +25 | — | — |
-| `docs/contacts/spbmolot.md` | +25 | — | — |
-| `docs/contacts/vitalyoborin.md` | +25 | — | — |
-| `docs/contacts/zodigancode.md` | +25 | — | — |
-| `docs/templates/contact-outreach.md` | +25 | — | — |
-| `docs/contacts/cutcode.md` | +24 | — | — |
-| `docs/contacts/kksudo.md` | +24 | — | — |
-| `docs/templates/decision-record.md` | +23 | — | — |
-| `docs/CONTRADICTIONS.md` | -19 | 10. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8), 11. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8), 25. 🔢 Числовое — 4.0 vs 11.0 (уверенность: 0.8) +9 | 10. 🔢 Числовое — 8.0 vs 41.0 (уверенность: 0.8), 11. 🔢 Числовое — 8.0 vs 41.0 (уверенность: 0.8), 25. 🔢 Числовое — 6.0 vs 10.0 (уверенность: 0.8) +9 |
-| `docs/DECISIONS.md` | +18 | Архитектура (37), Лицензия (14), Общее (281) +2 | Архитектура (34), Лицензия (12), Общее (265) +2 |
-| `docs/KPI.md` | +17 | Версия (390), Время (278), Количество (208) +4 | Версия (386), Время (265), Количество (216) +4 |
-| `docs/SPELLCHECK.md` | +17 | `docs/ACTION_ITEMS.md`, `docs/SCRIPTS_CATALOG.md`, `docs/TABLES.md` | — |
-| `docs/02-anthropic-vacancies/README.md` | -16 | — | — |
+| `docs/VERSION_DIFF.md` | -7766 | ✅ Новые файлы (23), 📝 Изменённые файлы (95) | ✅ Новые файлы (1045) |
+| `docs/TABLES.md` | +5276 | 1. Универсальные (T1) — 8, 10. Рассмотренные варианты, 11. Компоненты +140 | 1. Скилы агента, 10. Детальные метрики, 11. Идентификация +126 |
+| `docs/SCRIPTS_CATALOG.md` | +271 | `improve_audit_db.py` _(группа: без группы)_, `improve_skill_dashboard.py` _(группа: без группы)_, `improve_status_badges.py` _(группа: без группы)_ +3 | без группы (30) |
+| `docs/ACTION_ITEMS.md` | +99 | ⚠️ Риски (596), ✅ Решения и рекомендации (276), 📋 Задачи (TODO) (24) +1 | ⚠️ Риски (585), ✅ Решения и рекомендации (265), 📋 Задачи (TODO) (21) +1 |
+| `docs/CHANGELOG.md` | +97 | 2026-04-29 (86 коммитов) | 2026-04-29 (77 коммитов) |
+| `docs/CONTRADICTIONS.md` | +64 | 11. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8), 12. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8), 25. 🔢 Числовое — 4.0 vs 11.0 (уверенность: 0.8) +7 | 11. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8), 12. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8), 25. 🔢 Числовое — 5.0 vs 10.0 (уверенность: 0.8) +7 |
+| `docs/QUESTIONS.md` | +64 | `DUPLICATES.md` (1), `DUPLICATES.md` (3), `EMPTY_SECTIONS.md` (66) +5 | `DUPLICATES.md` (2), `EMPTY_SECTIONS.md` (64), `TABLES.md` (119) +3 |
+| `docs/EMPTY_SECTIONS.md` | +51 | `BADGES.md` (1 из 2), `DIGEST_WEEKLY.md` (1 из 2), `OUTLINE.md` (511 из 1209) +9 | `OUTLINE.md` (508 из 1206), `SCRIPTS_CATALOG.md` (23 из 165), `TABLES.md` (16 из 436) +6 |
+| `docs/LINKS.md` | -50 | — | — |
+| `docs/OUTLINE.md` | +46 | [REGISTRY — реестр артефактов Lorenzo](docs/REGISTRY.md), [Skill Dashboard](docs/SKILL_DASHBOARD.md), [Status Badges](docs/BADGES.md) +5 | Агенты (154 документов), Анализ (20 документов), Архитектура (567 документов) +2 |
+| `docs/templates/research-note.md` | -32 | — | — |
+| `docs/templates/project-component.md` | -28 | — | — |
+| `docs/templates/contact-outreach.md` | -26 | — | — |
+| `docs/KPI.md` | +25 | Время (278), Количество (230), Проценты (198) +4 | Время (277), Количество (203), Проценты (196) +4 |
+| `docs/templates/ensemble.md` | -25 | — | — |
+| `docs/README.md` | +23 | — | — |
+| `docs/TIMELINE.md` | +22 | 2020 (5 упоминаний), 2023 (13 упоминаний), 2026 (455 упоминаний) | 2020 (6 упоминаний), 2023 (11 упоминаний), 2026 (434 упоминаний) |
+| `docs/templates/prototype-mvp.md` | -22 | — | — |
+| `docs/ABBREVIATIONS.md` | +17 | — | — |
+| `docs/PARAGRAPH_QUALITY.md` | +17 | `docs/ACTION_ITEMS.md` (13 проблем), `docs/BADGES.md` (1 проблем), `docs/CODE_BLOCKS.md` (220 проблем) +40 | `docs/ACTION_ITEMS.md` (12 проблем), `docs/CODE_BLOCKS.md` (219 проблем), `docs/CONCEPTS.md` (1734 проблем) +37 |
+| `docs/SITEMAP.md` | +17 | — | — |
+| `docs/READABILITY.md` | +16 | Самые сложные тексты (1164) — рекомендуется упростить | Самые сложные тексты (1161) — рекомендуется упростить |
+| `docs/templates/decision-record.md` | -16 | — | — |
+| `docs/CODE_BLOCKS.md` | -15 | Markdown сниппеты для README, markdown (21), 💻 Bash / Shell (42) | markdown (20), 💻 Bash / Shell (36) |
+| `docs/READING_TIME.md` | -15 | — | — |
 | `docs/REPORT.md` | +15 | — | — |
-| `docs/templates/research-note.md` | +15 | — | — |
-| `docs/LINKS.md` | -14 | — | — |
+| `docs/REGISTRY.md` | +14 | — | — |
 | `docs/contacts/README.md` | -14 | — | — |
-| `docs/COMPLEXITY.md` | +12 | — | — |
-| `docs/DUPLICATES.md` | -12 | — | — |
-| `docs/CONTENT_GAPS.md` | -11 | `AIF` (27 файлов), `GDPR` (60 файлов), `HIPAA` (23 файлов) +11 | `AIF` (26 файлов), `GDPR` (59 файлов), `HIPAA` (22 файлов) +11 |
-| `docs/COMPARE.md` | -9 | Изменившиеся файлы (75) — топ по Δ слов, Новые файлы (145) | Изменившиеся файлы (307) — топ по Δ слов, Новые файлы (156) |
-| `docs/CROSSREFS.md` | -8 | — | — |
-| `docs/SENTIMENT.md` | -8 | — | — |
-| `docs/CONSISTENCY.md` | -7 | — | — |
-| `docs/CITATION_INDEX.md` | +6 | `https://habr.com/ru/companies/airi/articles/1000720/` | `https://habr.com/ru/articles/1017200/` |
-| `docs/NAMED_ENTITIES.md` | +6 | `2026-04-29` (51 файлов), `2026-04` (121 файлов), `CardIndex` (125 файлов) +19 | `2026-04-29` (22 файлов), `2026-04` (99 файлов), `CardIndex` (126 файлов) +19 |
-| `docs/PRIORITIES.md` | -6 | — | — |
-| `docs/01-svyazi/README.md` | +4 | — | — |
-| `docs/03-technology-combinations/README.md` | +4 | — | — |
-| `docs/05-habr-projects/README.md` | +4 | — | — |
-| `docs/GRAPH.md` | -3 | — | — |
-| `docs/GLOSSARY.md` | +2 | — | — |
-| `docs/KNOWLEDGE_MAP.md` | -2 | — | — |
-| `docs/PASSIVE_VOICE.md` | -2 | — | — |
-| `docs/STALENESS.md` | +2 | Без метаданных (нет summary или тегов) — 165 файлов, Короткие (< 100 слов, заготовки) — 88 файлов | Без метаданных (нет summary или тегов) — 163 файлов, Короткие (< 100 слов, заготовки) — 87 файлов |
-| `docs/04-ai-collaborations/README.md` | +1 | — | — |
-| `docs/MISSING.md` | +1 | — | — |
-| `docs/STATS.md` | +1 | — | — |
-| `docs/04-ai-collaborations/QA.md` | 0 | — | — |
+| `docs/TASKS_INDEX.md` | -13 | — | — |
+| `docs/SEE_ALSO.md` | +12 | — | — |
+| `docs/templates/README.md` | -11 | — | — |
+| `docs/templates/weekly-digest.md` | -10 | — | — |
+| `docs/templates/retrospective.md` | -9 | — | — |
+| `docs/CONSISTENCY.md` | +8 | — | — |
+| `docs/PRIORITIES.md` | -8 | — | — |
+| `docs/templates/legal-case.md` | -8 | — | — |
+| `docs/templates/mega-stack.md` | -8 | — | — |
+| `docs/DUPLICATES.md` | +7 | — | — |
+| `docs/templates/glossary-entry.md` | -7 | — | — |
+| `docs/templates/kpi-snapshot.md` | -7 | — | — |
+| `docs/templates/meeting-notes.md` | -7 | — | — |
+| `docs/templates/rfc.md` | -7 | — | — |
+| `docs/templates/risk-entry.md` | -7 | — | — |
+| `docs/templates/tech-pair.md` | -7 | — | — |
+| `docs/CONTENT_GAPS.md` | -6 | `GDPR` (59 файлов), `LinkedIn` (30 файлов), `NPP` (76 файлов) +3 | `GDPR` (60 файлов), `LinkedIn` (28 файлов), `NPP` (74 файлов) +3 |
+| `docs/DIGEST_AUTO.md` | +6 | — | — |
+| `docs/LANGUAGE_STATS.md` | -6 | — | — |
+| `docs/templates/faq-entry.md` | -6 | — | — |
+| `docs/HEADING_AUDIT.md` | +5 | `docs/BADGES.md` (2 проблем), `docs/CODE_BLOCKS.md` (126 проблем), `docs/EMPTY_SECTIONS.md` (161 проблем) +4 | `docs/CODE_BLOCKS.md` (127 проблем), `docs/EMPTY_SECTIONS.md` (159 проблем), `docs/TABLES.md` (24 проблем) +3 |
+| `docs/PROGRESS.md` | +5 | — | — |
+| `docs/TAGS.md` | +5 | #anthropic (54 файлов), #architecture (56 файлов), #collaboration (62 файлов) +8 | #anthropic (52 файлов), #architecture (53 файлов), #collaboration (64 файлов) +8 |
+| `docs/templates/agent-spec.md` | -5 | — | — |
+| `docs/templates/contradiction-record.md` | -5 | — | — |
+| `docs/templates/protocol-spec.md` | -5 | — | — |
+| `docs/templates/tech-radar-entry.md` | -5 | — | — |
+| `docs/templates/template-of-templates.md` | -5 | — | — |
+| `docs/WORD_FREQ.md` | +4 | 01-svyazi (9,321 слов), anthropic-vacancies (25,092 слов), contacts (1,755 слов) +2 | 01-svyazi (9,290 слов), anthropic-vacancies (25,071 слов), contacts (1,427 слов) +2 |
+| `docs/templates/experiment-log.md` | -4 | — | — |
+| `docs/CONCEPTS.md` | +3 | — | — |
+| `docs/NAMED_ENTITIES.md` | -3 | `2026-04-29` (50 файлов), `2026-04` (122 файлов), `CardIndex` (126 файлов) +14 | `2026-04-29` (36 файлов), `2026-04` (119 файлов), `CardIndex` (125 файлов) +14 |
+| `docs/COMPARE.md` | +2 | Изменившиеся файлы (74) — топ по Δ слов, Новые файлы (145) | Изменившиеся файлы (84) — топ по Δ слов, Новые файлы (165) |
+| `docs/KNOWLEDGE_MAP.md` | -1 | — | — |
+| `docs/VOCABULARY.md` | +1 | — | — |
 | `docs/ALERTS.md` | 0 | — | — |
 | `docs/AUTHORS.md` | 0 | — | — |
+| `docs/CITATION_INDEX.md` | 0 | `https://github.com/AnastasiyaW/knowledge-space`, `https://github.com/mcp` | `https://habr.com/ru/articles/1007122/`, `https://habr.com/ru/companies/yandex/articles/1019928/` |
+| `docs/COMPLEXITY.md` | 0 | — | — |
 | `docs/CONCEPT_GRAPH.md` | 0 | — | — |
 | `docs/CONTACTS.md` | 0 | — | — |
 | `docs/CONTACT_PRIORITY.md` | 0 | — | — |
+| `docs/CROSSREFS.md` | 0 | — | — |
+| `docs/DECISIONS.md` | 0 | Лицензия (14), Общее (282) | Лицензия (13), Общее (278) |
 | `docs/DENSITY.md` | 0 | — | — |
 | `docs/DIGEST_WEEKLY.md` | 0 | — | — |
 | `docs/ENTITIES.md` | 0 | — | — |
 | `docs/FOOTNOTES.md` | 0 | — | — |
+| `docs/GLOSSARY.md` | 0 | — | — |
+| `docs/GRAPH.md` | 0 | — | — |
 | `docs/HEALTH.md` | 0 | — | — |
 | `docs/HEATMAP.md` | 0 | — | — |
 | `docs/METRICS.md` | 0 | — | — |
-| `docs/MINDMAP.md` | 0 | — | — |
+| `docs/MISSING.md` | 0 | — | — |
 | `docs/NETWORK.md` | 0 | — | — |
 | `docs/ORPHANS.md` | 0 | — | — |
-| `docs/SEE_ALSO.md` | 0 | — | — |
+| `docs/PASSIVE_VOICE.md` | 0 | — | — |
+| `docs/SENTIMENT.md` | 0 | — | — |
 | `docs/SOURCE_MAP.md` | 0 | 🔗 Файлы с внешними ссылками (98) | 🔗 Файлы с внешними ссылками (97) |
-| `docs/VOCABULARY.md` | 0 | — | — |
+| `docs/STALENESS.md` | 0 | Без метаданных (нет summary или тегов) — 166 файлов, Короткие (< 100 слов, заготовки) — 89 файлов | Без метаданных (нет summary или тегов) — 165 файлов, Короткие (< 100 слов, заготовки) — 87 файлов |
+| `docs/STATS.md` | 0 | — | — |
+| `docs/VALIDATION.md` | 0 | — | — |
 
 
-### 200. Корпусная статистика
+### 201. Корпусная статистика
 _Файл: `docs/VOCABULARY.md` | 2 колонок, 5 строк_
 
 | Метрика | Значение |
 |---------|----------|
 | Средний TTR | 0.525 |
-| Средний STTR (100-токенное окно) | 0.676 |
+| Средний STTR (100-токенное окно) | 0.675 |
 | Lexical density | 0.848 |
 | Средняя длина слова | 6.55 |
 | Общая оценка | 🟡 Средний |
 
 
-### 201. Топ файлов по богатству словаря (STTR)
+### 202. Топ файлов по богатству словаря (STTR)
 _Файл: `docs/VOCABULARY.md` | 6 колонок, 30 строк_
 
 | Файл | STTR | TTR | Hapax% | Lex.Density | Токенов |
 |------|------|-----|--------|-------------|---------|
-| `ABBREVIATIONS.md` | 0.954 | 0.733 | 78% | 0.864 | 919 |
+| `ABBREVIATIONS.md` | 0.954 | 0.734 | 78% | 0.863 | 927 |
 | `project-component.md` | 0.887 | 0.887 | 94% | 0.906 | 53 |
 | `48-content-overview.md` | 0.880 | 0.609 | 80% | 0.888 | 161 |
 | `ENTITIES.md` | 0.880 | 0.605 | 74% | 0.957 | 162 |
@@ -11332,7 +11348,7 @@ _Файл: `docs/VOCABULARY.md` | 6 колонок, 30 строк_
 | `01-интегральный-анализ-профиля-svend4.md` | 0.848 | 0.326 | 60% | 0.831 | 17513 |
 
 
-### 202. Файлы с бедным словарём (требуют доработки)
+### 203. Файлы с бедным словарём (требуют доработки)
 _Файл: `docs/VOCABULARY.md` | 4 колонок, 30 строк_
 
 | Файл | STTR | Оценка | Токенов |
@@ -11356,20 +11372,20 @@ _Файл: `docs/VOCABULARY.md` | 4 колонок, 30 строк_
 | `208-professional-colleague-agents-md.md` | 0.324 | 🔴 Очень бедный | 71 |
 | `README.md` | 0.330 | 🔴 Очень бедный | 113 |
 | `README.md` | 0.333 | 🔴 Очень бедный | 60 |
-| `HEADING_AUDIT.md` | 0.339 | 🔴 Очень бедный | 19039 |
+| `HEADING_AUDIT.md` | 0.338 | 🔴 Очень бедный | 19039 |
 | `README.md` | 0.340 | 🔴 Очень бедный | 141 |
 | `README.md` | 0.340 | 🔴 Очень бедный | 102 |
 | `README.md` | 0.340 | 🔴 Очень бедный | 124 |
 | `README.md` | 0.343 | 🔴 Очень бедный | 73 |
 | `CLUSTERS.md` | 0.344 | 🔴 Очень бедный | 2658 |
-| `READABILITY.md` | 0.344 | 🔴 Очень бедный | 11081 |
+| `READABILITY.md` | 0.344 | 🔴 Очень бедный | 11086 |
+| `CITATION_INDEX.md` | 0.345 | 🔴 Очень бедный | 486 |
 | `READING_ORDER.md` | 0.346 | 🔴 Очень бедный | 4674 |
-| `CITATION_INDEX.md` | 0.347 | 🔴 Очень бедный | 484 |
 | `README.md` | 0.348 | 🔴 Очень бедный | 69 |
 | `305-a-practical-path-to-layer-b-through-symbiotic-inte.md` | 0.350 | 🔴 Очень бедный | 114 |
 
 
-### 203. Топ-20 слов
+### 204. Топ-20 слов
 _Файл: `docs/WORD_CLOUD.md` | 3 колонок, 20 строк_
 
 | # | Слово | Частота |
@@ -11396,64 +11412,64 @@ _Файл: `docs/WORD_CLOUD.md` | 3 колонок, 20 строк_
 | 20 | **claude** | 556 |
 
 
-### 204. Глобальный топ-50 слов
+### 205. Глобальный топ-50 слов
 _Файл: `docs/WORD_FREQ.md` | 4 колонок, 50 строк_
 
 | # | Слово | Частота | Визуализация |
 |---|-------|---------|-------------|
-| 1 | **anthropic** | 15,200 | `████████████████████` |
-| 2 | **vacancies** | 12,779 | `████████████████░░░░` |
-| 3 | **nautilus** | 6,348 | `████████░░░░░░░░░░░░` |
-| 4 | **проблем** | 6,067 | `███████░░░░░░░░░░░░░` |
-| 5 | **agent** | 5,782 | `███████░░░░░░░░░░░░░` |
-| 6 | **svyazi** | 4,098 | `█████░░░░░░░░░░░░░░░` |
+| 1 | **anthropic** | 15,016 | `████████████████████` |
+| 2 | **vacancies** | 12,596 | `████████████████░░░░` |
+| 3 | **nautilus** | 6,308 | `████████░░░░░░░░░░░░` |
+| 4 | **проблем** | 6,080 | `████████░░░░░░░░░░░░` |
+| 5 | **agent** | 5,752 | `███████░░░░░░░░░░░░░` |
+| 6 | **svyazi** | 4,086 | `█████░░░░░░░░░░░░░░░` |
 | 7 | **claude** | 2,876 | `███░░░░░░░░░░░░░░░░░` |
-| 8 | **cowork** | 2,637 | `███░░░░░░░░░░░░░░░░░` |
-| 9 | **agents** | 2,583 | `███░░░░░░░░░░░░░░░░░` |
-| 10 | **lorenzo** | 2,545 | `███░░░░░░░░░░░░░░░░░` |
-| 11 | **сложный** | 2,442 | `███░░░░░░░░░░░░░░░░░` |
-| 12 | **layer** | 2,396 | `███░░░░░░░░░░░░░░░░░` |
-| 13 | **мин** | 2,298 | `███░░░░░░░░░░░░░░░░░` |
-| 14 | **habr** | 2,123 | `██░░░░░░░░░░░░░░░░░░` |
-| 15 | **turn** | 2,122 | `██░░░░░░░░░░░░░░░░░░` |
-| 16 | **ingit** | 2,100 | `██░░░░░░░░░░░░░░░░░░` |
-| 17 | **appendix** | 2,029 | `██░░░░░░░░░░░░░░░░░░` |
-| 18 | **projects** | 1,971 | `██░░░░░░░░░░░░░░░░░░` |
-| 19 | **combinations** | 1,966 | `██░░░░░░░░░░░░░░░░░░` |
-| 20 | **mcp** | 1,940 | `██░░░░░░░░░░░░░░░░░░` |
-| 21 | **readme** | 1,918 | `██░░░░░░░░░░░░░░░░░░` |
-| 22 | **knowledge** | 1,896 | `██░░░░░░░░░░░░░░░░░░` |
-| 23 | **быстро** | 1,856 | `██░░░░░░░░░░░░░░░░░░` |
-| 24 | **view** | 1,760 | `██░░░░░░░░░░░░░░░░░░` |
-| 25 | **what** | 1,718 | `██░░░░░░░░░░░░░░░░░░` |
-| 26 | **legal** | 1,654 | `██░░░░░░░░░░░░░░░░░░` |
-| 27 | **infrastructure** | 1,651 | `██░░░░░░░░░░░░░░░░░░` |
-| 28 | **memory** | 1,644 | `██░░░░░░░░░░░░░░░░░░` |
-| 29 | **слов** | 1,644 | `██░░░░░░░░░░░░░░░░░░` |
-| 30 | **architecture** | 1,613 | `██░░░░░░░░░░░░░░░░░░` |
+| 8 | **cowork** | 2,627 | `███░░░░░░░░░░░░░░░░░` |
+| 9 | **agents** | 2,569 | `███░░░░░░░░░░░░░░░░░` |
+| 10 | **lorenzo** | 2,543 | `███░░░░░░░░░░░░░░░░░` |
+| 11 | **сложный** | 2,443 | `███░░░░░░░░░░░░░░░░░` |
+| 12 | **layer** | 2,380 | `███░░░░░░░░░░░░░░░░░` |
+| 13 | **мин** | 2,294 | `███░░░░░░░░░░░░░░░░░` |
+| 14 | **turn** | 2,117 | `██░░░░░░░░░░░░░░░░░░` |
+| 15 | **habr** | 2,117 | `██░░░░░░░░░░░░░░░░░░` |
+| 16 | **ingit** | 2,091 | `██░░░░░░░░░░░░░░░░░░` |
+| 17 | **appendix** | 2,008 | `██░░░░░░░░░░░░░░░░░░` |
+| 18 | **projects** | 1,964 | `██░░░░░░░░░░░░░░░░░░` |
+| 19 | **mcp** | 1,957 | `██░░░░░░░░░░░░░░░░░░` |
+| 20 | **combinations** | 1,954 | `██░░░░░░░░░░░░░░░░░░` |
+| 21 | **knowledge** | 1,899 | `██░░░░░░░░░░░░░░░░░░` |
+| 22 | **readme** | 1,874 | `██░░░░░░░░░░░░░░░░░░` |
+| 23 | **быстро** | 1,853 | `██░░░░░░░░░░░░░░░░░░` |
+| 24 | **view** | 1,757 | `██░░░░░░░░░░░░░░░░░░` |
+| 25 | **what** | 1,706 | `██░░░░░░░░░░░░░░░░░░` |
+| 26 | **слов** | 1,655 | `██░░░░░░░░░░░░░░░░░░` |
+| 27 | **legal** | 1,653 | `██░░░░░░░░░░░░░░░░░░` |
+| 28 | **infrastructure** | 1,646 | `██░░░░░░░░░░░░░░░░░░` |
+| 29 | **memory** | 1,642 | `██░░░░░░░░░░░░░░░░░░` |
+| 30 | **architecture** | 1,610 | `██░░░░░░░░░░░░░░░░░░` |
 | 31 | **источник** | 1,586 | `██░░░░░░░░░░░░░░░░░░` |
-| 32 | **репозитория** | 1,518 | `█░░░░░░░░░░░░░░░░░░░` |
-| 33 | **document** | 1,415 | `█░░░░░░░░░░░░░░░░░░░` |
-| 34 | **mhtml** | 1,403 | `█░░░░░░░░░░░░░░░░░░░` |
+| 32 | **репозитория** | 1,518 | `██░░░░░░░░░░░░░░░░░░` |
+| 33 | **document** | 1,414 | `█░░░░░░░░░░░░░░░░░░░` |
+| 34 | **mhtml** | 1,401 | `█░░░░░░░░░░░░░░░░░░░` |
 | 35 | **снимок** | 1,384 | `█░░░░░░░░░░░░░░░░░░░` |
 | 36 | **корень** | 1,345 | `█░░░░░░░░░░░░░░░░░░░` |
-| 37 | **portal** | 1,320 | `█░░░░░░░░░░░░░░░░░░░` |
+| 37 | **portal** | 1,319 | `█░░░░░░░░░░░░░░░░░░░` |
 | 38 | **collaborations** | 1,308 | `█░░░░░░░░░░░░░░░░░░░` |
-| 39 | **review** | 1,307 | `█░░░░░░░░░░░░░░░░░░░` |
-| 40 | **professional** | 1,290 | `█░░░░░░░░░░░░░░░░░░░` |
-| 41 | **work** | 1,284 | `█░░░░░░░░░░░░░░░░░░░` |
+| 39 | **review** | 1,302 | `█░░░░░░░░░░░░░░░░░░░` |
+| 40 | **professional** | 1,289 | `█░░░░░░░░░░░░░░░░░░░` |
+| 41 | **work** | 1,281 | `█░░░░░░░░░░░░░░░░░░░` |
 | 42 | **сходство** | 1,278 | `█░░░░░░░░░░░░░░░░░░░` |
-| 43 | **technology** | 1,276 | `█░░░░░░░░░░░░░░░░░░░` |
-| 44 | **protocol** | 1,255 | `█░░░░░░░░░░░░░░░░░░░` |
-| 45 | **раздел** | 1,238 | `█░░░░░░░░░░░░░░░░░░░` |
-| 46 | **colleague** | 1,235 | `█░░░░░░░░░░░░░░░░░░░` |
-| 47 | **search** | 1,219 | `█░░░░░░░░░░░░░░░░░░░` |
-| 48 | **open** | 1,219 | `█░░░░░░░░░░░░░░░░░░░` |
-| 49 | **skills** | 1,206 | `█░░░░░░░░░░░░░░░░░░░` |
-| 50 | **unique** | 1,171 | `█░░░░░░░░░░░░░░░░░░░` |
+| 43 | **technology** | 1,265 | `█░░░░░░░░░░░░░░░░░░░` |
+| 44 | **protocol** | 1,254 | `█░░░░░░░░░░░░░░░░░░░` |
+| 45 | **раздел** | 1,239 | `█░░░░░░░░░░░░░░░░░░░` |
+| 46 | **colleague** | 1,232 | `█░░░░░░░░░░░░░░░░░░░` |
+| 47 | **search** | 1,223 | `█░░░░░░░░░░░░░░░░░░░` |
+| 48 | **open** | 1,213 | `█░░░░░░░░░░░░░░░░░░░` |
+| 49 | **skills** | 1,208 | `█░░░░░░░░░░░░░░░░░░░` |
+| 50 | **unique** | 1,168 | `█░░░░░░░░░░░░░░░░░░░` |
 
 
-### 205. 01-svyazi (9,321 слов)
+### 206. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11475,7 +11491,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **knowledge** | 47 | `█░░░░░░░░░░░░░░` |
 
 
-### 206. 01-svyazi (9,321 слов)
+### 207. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11497,7 +11513,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **document** | 467 | `██░░░░░░░░░░░░░` |
 
 
-### 207. 01-svyazi (9,321 слов)
+### 208. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11519,7 +11535,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **graph** | 15 | `███████░░░░░░░░` |
 
 
-### 208. 01-svyazi (9,321 слов)
+### 209. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11541,7 +11557,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **agentfs** | 78 | `██░░░░░░░░░░░░░` |
 
 
-### 209. 01-svyazi (9,321 слов)
+### 210. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11563,7 +11579,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **skills** | 23 | `█████░░░░░░░░░░` |
 
 
-### 210. 01-svyazi (9,321 слов)
+### 211. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11585,7 +11601,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **корень** | 45 | `████████░░░░░░░` |
 
 
-### 211. 01-svyazi (9,321 слов)
+### 212. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11607,7 +11623,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **research** | 135 | `██░░░░░░░░░░░░░` |
 
 
-### 212. 01-svyazi (9,321 слов)
+### 213. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11629,7 +11645,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **ingit** | 3 | `█░░░░░░░░░░░░░░` |
 
 
-### 213. 01-svyazi (9,321 слов)
+### 214. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11651,7 +11667,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **текущие** | 1 | `█░░░░░░░░░░░░░░` |
 
 
-### 214. 01-svyazi (9,321 слов)
+### 215. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11673,7 +11689,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **проекты** | 28 | `████░░░░░░░░░░░` |
 
 
-### 215. 01-svyazi (9,321 слов)
+### 216. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11695,7 +11711,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **agent** | 33 | `███░░░░░░░░░░░░` |
 
 
-### 216. 01-svyazi (9,321 слов)
+### 217. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11717,7 +11733,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **pairs** | 84 | `██████░░░░░░░░░` |
 
 
-### 217. 01-svyazi (9,321 слов)
+### 218. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11739,7 +11755,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **dhlab** | 92 | `██░░░░░░░░░░░░░` |
 
 
-### 218. 01-svyazi (9,321 слов)
+### 219. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11761,29 +11777,29 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **снимок** | 455 | `██████░░░░░░░░░` |
 
 
-### 219. 01-svyazi (9,321 слов)
+### 220. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
 |-------|---------|---|
-| **anthropic** | 10356 | `███████████████` |
-| **vacancies** | 9573 | `█████████████░░` |
-| **проблем** | 6050 | `████████░░░░░░░` |
-| **nautilus** | 4253 | `██████░░░░░░░░░` |
-| **agent** | 2677 | `███░░░░░░░░░░░░` |
-| **svyazi** | 2586 | `███░░░░░░░░░░░░` |
-| **сложный** | 2438 | `███░░░░░░░░░░░░` |
-| **мин** | 2297 | `███░░░░░░░░░░░░` |
-| **быстро** | 1828 | `██░░░░░░░░░░░░░` |
-| **readme** | 1737 | `██░░░░░░░░░░░░░` |
-| **слов** | 1616 | `██░░░░░░░░░░░░░` |
-| **combinations** | 1449 | `██░░░░░░░░░░░░░` |
-| **lorenzo** | 1383 | `██░░░░░░░░░░░░░` |
-| **layer** | 1336 | `█░░░░░░░░░░░░░░` |
-| **appendix** | 1329 | `█░░░░░░░░░░░░░░` |
+| **anthropic** | 10172 | `███████████████` |
+| **vacancies** | 9390 | `█████████████░░` |
+| **проблем** | 6063 | `████████░░░░░░░` |
+| **nautilus** | 4213 | `██████░░░░░░░░░` |
+| **agent** | 2647 | `███░░░░░░░░░░░░` |
+| **svyazi** | 2574 | `███░░░░░░░░░░░░` |
+| **сложный** | 2439 | `███░░░░░░░░░░░░` |
+| **мин** | 2293 | `███░░░░░░░░░░░░` |
+| **быстро** | 1825 | `██░░░░░░░░░░░░░` |
+| **readme** | 1693 | `██░░░░░░░░░░░░░` |
+| **слов** | 1627 | `██░░░░░░░░░░░░░` |
+| **combinations** | 1437 | `██░░░░░░░░░░░░░` |
+| **lorenzo** | 1381 | `██░░░░░░░░░░░░░` |
+| **layer** | 1319 | `█░░░░░░░░░░░░░░` |
+| **appendix** | 1308 | `█░░░░░░░░░░░░░░` |
 
 
-### 220. 01-svyazi (9,321 слов)
+### 221. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11805,7 +11821,7 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **knowledge** | 53 | `█░░░░░░░░░░░░░░` |
 
 
-### 221. 01-svyazi (9,321 слов)
+### 222. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
@@ -11827,22 +11843,22 @@ _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 | **снимок** | 95 | `████░░░░░░░░░░░` |
 
 
-### 222. 01-svyazi (9,321 слов)
+### 223. 01-svyazi (9,321 слов)
 _Файл: `docs/WORD_FREQ.md` | 3 колонок, 15 строк_
 
 | Слово | Частота | |
 |-------|---------|---|
 | **templates** | 43 | `███████████████` |
-| **template** | 27 | `█████████░░░░░░` |
-| **имя** | 26 | `█████████░░░░░░` |
-| **название** | 23 | `████████░░░░░░░` |
+| **template** | 32 | `███████████░░░░` |
+| **имя** | 27 | `█████████░░░░░░` |
+| **название** | 26 | `█████████░░░░░░` |
+| **version** | 25 | `████████░░░░░░░` |
+| **tags** | 23 | `████████░░░░░░░` |
 | **дата** | 23 | `████████░░░░░░░` |
-| **record** | 21 | `███████░░░░░░░░` |
-| **nnnn** | 21 | `███████░░░░░░░░` |
-| **decision** | 19 | `██████░░░░░░░░░` |
-| **version** | 19 | `██████░░░░░░░░░` |
+| **record** | 22 | `███████░░░░░░░░` |
+| **nnnn** | 22 | `███████░░░░░░░░` |
+| **decision** | 20 | `██████░░░░░░░░░` |
 | **компонент** | 19 | `██████░░░░░░░░░` |
-| **tags** | 18 | `██████░░░░░░░░░` |
 | **создано** | 18 | `██████░░░░░░░░░` |
 | **смотрите** | 18 | `██████░░░░░░░░░` |
 | **действие** | 17 | `█████░░░░░░░░░░` |

@@ -17,7 +17,7 @@
 - **12-roadmap** → `12-дорожная-карта-прототипа-следующей-итерации`, `roadmap`, `14-limitations`, `08-conclusions`
 - **13-contacts** → `13-контактная-стратегия-и-узкие-вопросы-для-авторов`, `narrow-questions`, `CONTACTS`, `05-план-прототипа-и-возможные-контакты`
 - **14-limitations** → `do-not-glue`, `conclusions`, `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать`, `license-tree`
-- **QA** → `CONTACTS`, `integration-spec`, `first-contacts`, `KNOWLEDGE_MAP`
+- **QA** → `CONTACTS`, `integration-spec`, `first-contacts`, `SCHEDULE`
 - **00-intro** → `288-appendix-position-in-series-visualization`, `289-инфраструктура-для-ai-совместной-интеллектуальной-`, `324-ingit-как-cowork-интегрированная-подложка-рабочего`, `229-профессиональные-коллеги-агенты`
 - **01-интегральный-анализ-профиля-svend4** → `00-question-innovations-transitions`, `CONCEPTS`, `TABLES`, `ACTION_ITEMS`
 - **02-общий-план-развития-nautilus-portal-protocol** → `TIMELINE`, `34-appendix-b-change-log`, `133-обратная-связь`, `67-о-проекте`
