@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/improve_*.py*)",
+      "Bash(python scripts/improve_*.py --dry-run*)",
+      "Bash(python scripts/improve_run_all.py*)",
+      "Bash(python scripts/improve_autofill.py*)",
+      "Bash(python scripts/utils_chunker.py*)",
+      "Bash(python -m py_compile scripts/*.py)",
+      "Bash(python -c *)",
+      "Bash(git status)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git add scripts/* docs/* .claude/* *.md *.txt)",
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(find docs/ -name *.md*)",
+      "Bash(find scripts/ -name *.py*)",
+      "Bash(ls*)",
+      "Bash(wc -l*)",
+      "Bash(grep*)",
+      "Bash(head*)",
+      "Bash(tail*)"
+    ]
+  }
+}
