@@ -6,15 +6,15 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> MemNet — «Memory Is All You Need» https://habr.com/ru/articles/983684/ Здесь автор делает то же самое, что NGT Memory из прошлого ответа, но на уровне обучаемой архитектуры, а не приложения. Память — 
-**Проекты:** Svyazi, CardIndex, Hybrid RAG, Yodoca, NGT Memory, MemNet, LiteLLM, Auto AI Router
+> MemNet — «Memory Is All You Need» https://habr.com/ru/articles/983684/ Здесь автор делает то же самое, что NGT[^ngt] Memory из прошлого ответа, но на уровне обучаемой архитектуры, а не приложения. Память — 
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], Hybrid RAG[^rag], Yodoca[^yodoca], NGT Memory, MemNet, LiteLLM, Auto AI Router
 
 ---
 
 <!-- toc -->
 ## Содержание
 
-  - [Философский родственник: «LLM как периферия»](#философский-родственник-llm-как-периферия)
+  - [Философский родственник: «LLM[^llm] как периферия»](#философский-родственник-llm-как-периферия)
   - [Параллель к MoME-роутингу](#параллель-к-mome-роутингу)
   - [Источник данных и инфраструктурные кусочки](#источник-данных-и-инфраструктурные-кусочки)
   - [Что из этого всего слипается в более проработанную схему](#что-из-этого-всего-слипается-в-более-проработанную-схему)
@@ -22,12 +22,12 @@
   - [Пара 2. Термодинамические TSU (Extropic, Normal Computing) × MoE/MoME-роутинг](#пара-2-термодинамические-tsu-extropic-normal-computing-moemome-роутинг)
   - [Пара 3. Кастомный inference engine на Zig/Vulkan (ZINC) × гибрид Attention+SSM+MoE](#пара-3-кастомный-inference-engine-на-zigvulkan-zinc-гибрид-attentionssmmoe)
   - [Пара 4. RISC-V с аппаратной поддержкой LLM (Alibaba XuanTie C950) × privacy-by-design община](#пара-4-risc-v-с-аппаратной-поддержкой-llm-alibaba-xuantie-c950-privacy-by-design-община)
-  - [Пара 5. TinyML/Edge AI × MCP-протокол + skills-система](#пара-5-tinymledge-ai-mcp-протокол-skills-система)
+  - [Пара 5. TinyML/Edge AI × MCP[^mcp]-протокол + skills-система](#пара-5-tinymledge-ai-mcp-протокол-skills-система)
   - [Бонус-родитель, который по-разному сочетается со всеми пятью](#бонус-родитель-который-по-разному-сочетается-со-всеми-пятью)
   - [Метафора, которую ты заложил](#метафора-которую-ты-заложил)
   - [Пара 1. Workflow-автоматизация × LLM-агенты с MCP](#пара-1-workflow-автоматизация-llm-агенты-с-mcp)
   - [Пара 2. Local-first PKM (Obsidian/Logseq) × MCP/Skills](#пара-2-local-first-pkm-obsidianlogseq-mcpskills)
-  - [Пара 3. CRDT-синхронизация (Yjs/Automerge) × Self-hosted persistence](#пара-3-crdt-синхронизация-yjsautomerge-self-hosted-persistence)
+  - [Пара 3. CRDT[^crdt]-синхронизация (Yjs/Automerge) × Self-hosted persistence](#пара-3-crdt-синхронизация-yjsautomerge-self-hosted-persistence)
   - [Пара 4. Speech-to-text локально × LLM с памятью](#пара-4-speech-to-text-локально-llm-с-памятью)
   - [Пара 5. Browser agents × headless web extraction](#пара-5-browser-agents-headless-web-extraction)
   - [Главная рационализация: пять кубиков заменяют стек подписок](#главная-рационализация-пять-кубиков-заменяют-стек-подписок)
@@ -184,7 +184,7 @@ In-memory computing на мемристорах (RRAM/CBRAM) (habr.com/ru/compan
 2. Court hearing analyser с диаризацией — Whisper + voice-эмбеддинги через wespeaker-voxceleb-resnet34-LM ( https://habr.com/ru/companies/yoomoney/articles/1012870/ ) + кастомный MCP-сервер. Запись с заседания Sozialgericht автоматически делится на спикеров (судья / KSV-вертретер / клиент / ты), каждый блок передаётся в соответствующий skill. Полная запись + структурированный протокол + extracted facts — за один проход, без отправки наружу.
 3. Discovery-loop через voice journal — каждый вечер пять минут устного рассказа о дне. Whisper транскрибирует → LLM извлекает события и сущности → Yodoca-консолидатор ночью кристаллизует факты → утром в Obsidian вышли wikilinks к новым связям. Это life-log + research-log в одном пайплайне, без необходимости печатать.
 ### Пара 5. Browser agents × headless web extraction
-Родители: Claude in Chrome / Claude Cowork (агент с глазами и руками в браузере, https://habr.com/ru/articles/1009958/ ) и программные веб-движки — Firecrawl ( https://habr.com/ru/articles/1020598/ , чистый markdown из любой страницы через MCP), Browser Use , Playwright . Поодиночке: интерактивная автоматизация vs программная. Вместе — гибридный пайплайн.
+Родители: Claude in Chrome / Claude Cowork (агент с глазами и руками в браузере, https://habr.com/ru/articles/1009958/ ) и программные веб-движки — Firecrawl[^firecrawl] ( https://habr.com/ru/articles/1020598/ , чистый markdown из любой страницы через MCP), Browser Use , Playwright . Поодиночке: интерактивная автоматизация vs программная. Вместе — гибридный пайплайн.
 Дети:
 1. Hybrid web pipeline — Firecrawl MCP для массового регулярного сбора (sites.de, justiz.de, KSV-портал по schedule) + Cowork включается только тогда, когда сайт требует 2FA или интерактивного клика. Дешевле всего: Firecrawl ест 99% трафика, Cowork решает редкие сложные случаи.
 2. AI-driven inbox-zero для legal — Cowork забирает входящие документы из e-mail/портала, Firecrawl чистит до markdown, твой german-legal-template-generator skill классифицирует, всё попадает в Obsidian через MCP. Полный конвейер от пришедшего письма до структурированной заметки в vault'е без ручного копи-пасты.
@@ -327,3 +327,26 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 - [TABLES](docs/TABLES.md)
 - [CONCEPTS](docs/CONCEPTS.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^llm]: Large Language Model — большая языковая модель
+
+[^crdt]: Conflict-free Replicated Data Type — бесконфликтные данные
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^firecrawl]: Инструмент: веб-краулер для AI (MIT)

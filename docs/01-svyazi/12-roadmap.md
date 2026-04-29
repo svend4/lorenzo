@@ -1,7 +1,7 @@
 
 <!-- summary -->
 > Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая из которых поднимает один новый класс свойств. Первая итерация должна закрепить
-**Проекты:** Svyazi, mclaude, AI Factory, Yodoca, NGT Memory
+**Проекты:** Svyazi[^svyazi], mclaude, AI Factory, Yodoca[^yodoca], NGT[^ngt] Memory
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement -->
@@ -14,9 +14,9 @@
 
 В первой итерации разумно сосредоточиться на **evidence-first card graph**: привести Card Envelope к одному формату, внедрить Evidence Envelope и сделать два типа карточек — `person` и `project`, плюс `episode` как сырой контейнер. В этой фазе память можно держать даже в упрощённом режиме, но без явного evidence‑слоя дальше лучше не идти. Эта фаза даёт уже очень ценный эффект: объяснимые suggestions вместо “магического мэтчинга”. citeturn41search0turn20view5turn34view2turn20view6
 
-Во второй итерации имеет смысл включить **двухуровневую память и review queue**. На практике это означает: episode store, proposal queue, approved facts, plus decay/archival path. Тут нужно решить прежде всего не “какая память умнее”, а “какая licence/policy лучше подходит”. Если нужен максимально permissive и понятный старт, Yodoca‑style паттерн и typed memory выглядят безопаснее; если важнее предельно быстрый ассоциативный matching, NGT Memory выглядит сильнее, но его BSL‑режим уже требует аккуратной проверки коммерческих планов. Это не недостаток одного проекта, а просто лицензионная развилка, которую лучше признать заранее. citeturn21view0turn22view5turn20view16
+Во второй итерации имеет смысл включить **двухуровневую память и review queue**. На практике это означает: episode store, proposal queue, approved facts, plus decay/archival path. Тут нужно решить прежде всего не “какая память умнее”, а “какая licence/policy лучше подходит”. Если нужен максимально permissive и понятный старт, Yodoca‑style паттерн и typed memory выглядят безопаснее; если важнее предельно быстрый ассоциативный matching, NGT Memory выглядит сильнее, но его BSL[^bsl]‑режим уже требует аккуратной проверки коммерческих планов. Это не недостаток одного проекта, а просто лицензионная развилка, которую лучше признать заранее. citeturn21view0turn22view5turn20view16
 
-В третьей итерации стоит включать **orchestration and federation**: mclaude или AI Factory на moderation/build side, plus local‑first voice intake и CRDT sync для мультидевайсности. Именно здесь Svyazi‑2.0 перестаёт быть одиночным инструментом исследователя и становится системой для маленькой команды или сообщества. Но делать это раньше, чем специфицированы card/evidence/memory policies, невыгодно: рой агентов лишь ускорит накопление неструктурированного долга. citeturn20view2turn20view3turn21view10turn11search11
+В третьей итерации стоит включать **orchestration and federation**: mclaude или AI Factory на moderation/build side, plus local‑first voice intake и CRDT[^crdt] sync для мультидевайсности. Именно здесь Svyazi‑2.0 перестаёт быть одиночным инструментом исследователя и становится системой для маленькой команды или сообщества. Но делать это раньше, чем специфицированы card/evidence/memory policies, невыгодно: рой агентов лишь ускорит накопление неструктурированного долга. citeturn20view2turn20view3turn21view10turn11search11
 
 Ниже — практичная дорожная карта на короткий цикл, если продолжать от уже описанного MVP.
 
@@ -50,3 +50,18 @@
 - [07-выводы](docs/04-ai-collaborations/07-выводы.md)
 - [08-conclusions](docs/01-svyazi/08-conclusions.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^crdt]: Conflict-free Replicated Data Type — бесконфликтные данные
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^bsl]: Business Source License — коммерческая лицензия с открытым кодом

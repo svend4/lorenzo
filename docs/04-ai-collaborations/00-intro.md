@@ -7,7 +7,7 @@
 
 <!-- summary -->
 > https://habr.com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект по разработке программного обеспечени
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, Rufler, LiteParse, Legal RAG
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge_space], AI Factory, Rufler[^rufler], LiteParse, Legal RAG[^rag]
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
@@ -24,7 +24,7 @@ Claude hat geantwortet: Понял суть статьи.
 
 Проанализировал задачу поиска гибридных AI-проектов на Хабре для объединения
 Проанализировал задачу поиска гибридных AI-проектов на Хабре для объединения
-Понял суть статьи. Андрей Чуян построил систему Svyazi — гибрид LLM + детерминированного кода для извлечения структурированных профилей из свободного текста, а самое интересное — система случайно нашла двух людей (Wi-Fi-инженер + питерский разработчик), которые благодаря «карточкам коллабораций» начали совместный open-source проект по радиопланированию Wi-Fi.
+Понял суть статьи. Андрей Чуян построил систему Svyazi — гибрид LLM[^llm] + детерминированного кода для извлечения структурированных профилей из свободного текста, а самое интересное — система случайно нашла двух людей (Wi-Fi-инженер + питерский разработчик), которые благодаря «карточкам коллабораций» начали совместный open-source проект по радиопланированию Wi-Fi.
 
 Поищу похожих авторов на Хабре и проекты, которые потенциально можно совместить.
 
@@ -58,12 +58,12 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 
 2. Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пайплайн построения графов знаний из текста с использованием онтологии Wikidata, дедупликацией и типизацией сущностей. Решает буквально тот же класс проблем, что у Чуяна на слое 3 (нормализация — kubernetes/k8s/кубер → одна сущность), но не через ручной skills_synonyms.yml, а через автоматическую сверку с онтологией. У Чуяна — справочник на сотню строк, который он дополняет вручную; Алла построила то, что делает это автоматически.
 
-3. NGT Memory — open-source персистентная память для LLM https://habr.com/ru/articles/1014366/ Тут самое интересное. Автор использует хеббовский ассоциативный граф: когда пользователь упоминает «вегетарианец», а потом — «рестораны», между концептами укрепляется связь, и в следующий раз при запросе про рестораны граф «подтягивает» вегетарианство, даже если в самом запросе нет этого слова. Это ровно тот механизм, благодаря которому у Чуяна Wi-Fi-инженер и питерский разработчик нашли друг друга — только формализованный. У Чуяна это пока случайно получилось из эксперимента с поисковым индексом, а здесь — продуманная архитектура.
+3. NGT[^ngt] Memory — open-source персистентная память для LLM https://habr.com/ru/articles/1014366/ Тут самое интересное. Автор использует хеббовский ассоциативный граф: когда пользователь упоминает «вегетарианец», а потом — «рестораны», между концептами укрепляется связь, и в следующий раз при запросе про рестораны граф «подтягивает» вегетарианство, даже если в самом запросе нет этого слова. Это ровно тот механизм, благодаря которому у Чуяна Wi-Fi-инженер и питерский разработчик нашли друг друга — только формализованный. У Чуяна это пока случайно получилось из эксперимента с поисковым индексом, а здесь — продуманная архитектура.
 
 Смежные проекты, которые тоже стоит изучить
 «Программа поиска единомышленников ВКонтакте» (https://habr.com/ru/articles/495554/) — олдскульный аналог через анализ подписок, без LLM, но с той же концепцией matching по интересам. Полезна как контр-пример: показывает, чего не хватает без семантического слоя.
 
-«Knowledge Graph Kit» Сэма Галлахера (Medium, не Хабр, но прямо в тему) — MCP-сервер с четырьмя типами узлов (Task/Note/Person/Project) и связями part_of/mentions/related_to, поверх SQLite + ChromaDB. По сути, минималистичный second brain, который любая LLM-агент может использовать через MCP. Это интерфейсный слой, которого Svyazi ещё не имеет.
+«Knowledge Graph Kit» Сэма Галлахера (Medium, не Хабр, но прямо в тему) — MCP[^mcp]-сервер с четырьмя типами узлов (Task/Note/Person/Project) и связями part_of/mentions/related_to, поверх SQLite + ChromaDB. По сути, минималистичный second brain, который любая LLM-агент может использовать через MCP. Это интерфейсный слой, которого Svyazi ещё не имеет.
 
 «Анатомия ИИ-агента для подбора персонала» (https://habr.com/ru/companies/teamly/articles/1024062/) — про скоринг резюме, у которого есть обратная связь («кандидат прошёл/не прошёл»). Это закрывает дыру, на которую сам Чуян жалуется: «как сделать механизм обратной связи для самоулучшения промпта».
 
@@ -122,7 +122,7 @@ Web durchsucht
 Откопал ещё несколько крупных находок — теперь складывается уже не три, а почти десять параллельных проектов, и среди них есть один поразительно точный нейроархитектурный аналог хеббовского механизма Чуяна.
 
 Главная находка этой итерации
-Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не просто аналог, это архитектурное продолжение Svyazi на уровне agentic memory. Что у него есть, чего у Чуяна пока нет:
+Yodoca[^yodoca] — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не просто аналог, это архитектурное продолжение Svyazi на уровне agentic memory. Что у него есть, чего у Чуяна пока нет:
 
 — разделение на hot path (запись эпизодов в SQLite + FTS5 за <50 мс, без LLM) и slow path (асинхронные эмбеддинги); — отдельный приватный LLM-агент-«Консолидатор» (gpt-5-mini или локальная модель), который ночью читает эпизоды сессии и извлекает durable knowledge — семантические факты, процедурные паттерны, мнения. Идемпотентный (is_session_consolidated(session_id)), консервативный (только явно сказанное), с детекцией конфликтов; — ночной cron с затуханием по Эббингаузу (редко используемые факты постепенно забываются — это в точности «Ebbinghaus decay»), prune, переэмбеддинг, causal inference; — инструмент explain_fact — на вопрос «откуда ты это знаешь?» агент проходит по derived_from-рёбрам до исходных диалогов.
 
@@ -253,7 +253,7 @@ Claude hat geantwortet: Понял — переключаюсь на софт.
 
 Синтезировал инструменты для локального ИИ и синхронизации данных
 Синтезировал инструменты для локального ИИ и синхронизации данных
-Поищу local-first и CRDT/sync engines — это слой, без которого сольная работа над персональными системами рассыпается на разных устройствах.
+Поищу local-first и CRDT[^crdt]/sync engines — это слой, без которого сольная работа над персональными системами рассыпается на разных устройствах.
 
 
 Выявляя инновационные проекты локального обработки речи
@@ -303,7 +303,7 @@ Voice-first second brain — Handy (push-to-talk, Pause-key) + Whisper.cpp + NGT
 Court hearing analyser с диаризацией — Whisper + voice-эмбеддинги через wespeaker-voxceleb-resnet34-LM (https://habr.com/ru/companies/yoomoney/articles/1012870/) + кастомный MCP-сервер. Запись с заседания Sozialgericht автоматически делится на спикеров (судья / KSV-вертретер / клиент / ты), каждый блок передаётся в соответствующий skill. Полная запись + структурированный протокол + extracted facts — за один проход, без отправки наружу.
 Discovery-loop через voice journal — каждый вечер пять минут устного рассказа о дне. Whisper транскрибирует → LLM извлекает события и сущности → Yodoca-консолидатор ночью кристаллизует факты → утром в Obsidian вышли wikilinks к новым связям. Это life-log + research-log в одном пайплайне, без необходимости печатать.
 Пара 5. Browser agents × headless web extraction
-Родители: Claude in Chrome / Claude Cowork (агент с глазами и руками в браузере, https://habr.com/ru/articles/1009958/) и программные веб-движки — Firecrawl (https://habr.com/ru/articles/1020598/, чистый markdown из любой страницы через MCP), Browser Use, Playwright. Поодиночке: интерактивная автоматизация vs программная. Вместе — гибридный пайплайн.
+Родители: Claude in Chrome / Claude Cowork (агент с глазами и руками в браузере, https://habr.com/ru/articles/1009958/) и программные веб-движки — Firecrawl[^firecrawl] (https://habr.com/ru/articles/1020598/, чистый markdown из любой страницы через MCP), Browser Use, Playwright. Поодиночке: интерактивная автоматизация vs программная. Вместе — гибридный пайплайн.
 
 Дети:
 
@@ -606,9 +606,9 @@ Court/Regulation Watcher
 . Агент не «гуляет по интернету», а извлекает структурированные сигналы и обновляет память.
 5. Agent Firewall: «иммунная система для автономных агентов»
 Родители:
-SENTINEL + Shield/Guards + Prompt Worms + OpenClaw risk cases + Claude permissions/Tool Search.
+SENTINEL[^sentinel] + Shield/Guards + Prompt Worms + OpenClaw risk cases + Claude permissions/Tool Search.
 Здесь очень важный слой, потому что все предыдущие связки опасны без предохранителей.
-SENTINEL описан как open-source платформа безопасности для LLM и AI-агентов: 116 тысяч строк кода, Apache 2.0, режимы Defense/Offense/Framework, ядро из 49 Rust Super-Engines через PyO3, включая движки для injection, jailbreak, PII, exfiltration, memory integrity, tool shadowing, RAG, agentic и других классов атак.
+SENTINEL описан как open-source платформа безопасности для LLM и AI-агентов: 116 тысяч строк кода, Apache 2.0, режимы Defense/Offense/Framework, ядро из 49 Rust Super-Engines через PyO3, включая движки для injection, jailbreak, PII[^pii], exfiltration, memory integrity, tool shadowing, RAG, agentic и других классов атак.
 Habr
 Shield-подход делит безопасность не на один классификатор, а на специализированные guards: LLM Guard, RAG Guard, Agent Guard, Tool Guard, MCP Guard и API Guard; RAG Guard проверяет poisoning/provenance/context integrity, Agent Guard — бесконечные циклы, privilege escalation и misuse инструментов, MCP Guard — схемы и capability.
 Habr
@@ -704,7 +704,7 @@ BIM/Engineering Coach
 , а из повторяемого шаблона: KG + tools + RAG + tenant isolation + interface + eval.
 8. Budget-Aware Intelligence Stack: «не всё надо отдавать большой LLM»
 Родители:
-SVM/TF-IDF + local models + RLM-Toolkit + MCP Tool Search + model routing.
+SVM/TF-IDF[^tf_idf] + local models + RLM-Toolkit + MCP Tool Search + model routing.
 Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных рекомендаций научных статей старый SVM/TF-IDF может быть быстрее, дешевле и интерпретируемее; гибрид SVM + LLM оценивается как production-вариант для высоких требований.
 Habr
 RLM-Toolkit показывает другой масштаб: конфигурации для обработки 10M+ токенов, варианты Budget-First, Quality-First, Privacy-First и Speed-First, включая локальные модели, иерархическую память, трассировку, sandbox и контроль стоимости.
@@ -793,3 +793,38 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 - [TABLES](docs/TABLES.md)
 - [CONCEPTS](docs/CONCEPTS.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^llm]: Large Language Model — большая языковая модель
+
+[^crdt]: Conflict-free Replicated Data Type — бесконфликтные данные
+
+[^pii]: Personally Identifiable Information — персональные данные
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^rufler]: OSS-проект: оркестратор AI-агентов
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+[^firecrawl]: Инструмент: веб-краулер для AI (MIT)
+
+[^tf_idf]: Term Frequency–Inverse Document Frequency — метрика важности термина

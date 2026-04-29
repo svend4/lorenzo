@@ -7,7 +7,7 @@
 
 _Автоматически сгенерировано по 14 файлам раздела._
 
-## Как реализован forensic RAG с доказуемостью?
+## Как реализован forensic RAG[^rag] с доказуемостью?
 
 Упоминаются: **liteparse**, **bounding box**, **page-level**, **evidence**
 
@@ -64,3 +64,10 @@ _Автоматически сгенерировано по 14 файлам ра
 - [QA](docs/02-anthropic-vacancies/QA.md) (сходство 0.52)
 - [QA](docs/QA.md) (сходство 0.51)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском

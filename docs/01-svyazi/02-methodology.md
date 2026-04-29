@@ -7,7 +7,7 @@
 
 <!-- summary -->
 > Поиск вёлся с приоритетом на **Хабр как первичный слой описания идеи** и на **репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса**.
-**Проекты:** Svyazi, LiteParse, Legal RAG, Graph RAG
+**Проекты:** Svyazi[^svyazi], LiteParse, Legal RAG[^rag], Graph RAG
 
 ---
 <!-- tags: rag, security, ingestion, architecture, roadmap, collaboration -->
@@ -73,3 +73,12 @@
 - [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
 - [DUPLICATES](docs/DUPLICATES.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

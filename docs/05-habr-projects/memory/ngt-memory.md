@@ -1,8 +1,8 @@
-# NGT Memory: ассоциативный граф
+# NGT[^ngt] Memory: ассоциативный граф
 
 <!-- summary -->
-> ассоциативные связи в персистентной памяти LLM
-**Проекты:** Svyazi, NGT Memory
+> ассоциативные связи в персистентной памяти LLM[^llm]
+**Проекты:** Svyazi[^svyazi], NGT Memory
 
 ---
 <!-- tags: memory, ingestion, collaboration -->
@@ -39,3 +39,14 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 - [NARRATIVE](docs/NARRATIVE.md)
 - [yodoca](docs/05-habr-projects/memory/yodoca.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^llm]: Large Language Model — большая языковая модель
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

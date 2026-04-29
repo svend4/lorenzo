@@ -1,7 +1,7 @@
 
 <!-- summary -->
 > Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым 
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
@@ -10,17 +10,17 @@
 
 ## План прототипа и возможные контакты
 
-Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым эпизодам, не теряя доказуемость и локальность*. Для этого достаточно минимального набора из пяти слоёв: Svyazi‑style ingestion, AgentFS‑style kernel, NGT Memory *или* Yodoca для памяти, research-docs/LiteParse для evidence и LiteLLM/Auto AI Router + SENTINEL для runtime‑периметра. Всё остальное лучше подключать как phase‑2, а не в день первый. citeturn41search0turn27view0turn22view4turn21view0turn20view5turn11search2turn39view0turn20view10
+Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым эпизодам, не теряя доказуемость и локальность*. Для этого достаточно минимального набора из пяти слоёв: Svyazi‑style ingestion, AgentFS‑style kernel, NGT[^ngt] Memory *или* Yodoca[^yodoca] для памяти, research-docs/LiteParse для evidence и LiteLLM/Auto AI Router + SENTINEL[^sentinel] для runtime‑периметра. Всё остальное лучше подключать как phase‑2, а не в день первый. citeturn41search0turn27view0turn22view4turn21view0turn20view5turn11search2turn39view0turn20view10
 
 **Минимальная сборка прототипа**
 
 | Контур | Что входит | Зачем | Оценка усилий |
 |---|---|---|---|
 | Ядро данных | CardIndex‑схема, профили, raw/inferred разделение, файловый vault в стиле AgentFS | Сделать единый source of truth и трассируемый lifecycle карточки | 2–3 дня |
-| Ingest и память | LLM extraction + нормализация + NGT Memory **или** Yodoca‑lite | Доказать, что из свободного текста получаются устойчивые профили и связи | 4–6 дней |
+| Ingest и память | LLM[^llm] extraction + нормализация + NGT Memory **или** Yodoca‑lite | Доказать, что из свободного текста получаются устойчивые профили и связи | 4–6 дней |
 | Evidence | LiteParse/research-docs + page‑level viewer | Не просто показать match, а показать основание | 3–4 дня |
-| Исполнение | LiteLLM/Auto AI Router + Tool Search + базовые правила безопасности | Удержать стоимость и не утонуть в MCP/context overhead | 2–3 дня |
-| Guardrails | PII‑фильтры, allowlists, manual review для inferred | Снизить риск ложных связей и утечек | 1–2 дня |
+| Исполнение | LiteLLM/Auto AI Router + Tool Search + базовые правила безопасности | Удержать стоимость и не утонуть в MCP[^mcp]/context overhead | 2–3 дня |
+| Guardrails | PII[^pii]‑фильтры, allowlists, manual review для inferred | Снизить риск ложных связей и утечек | 1–2 дня |
 
 **Итого**: реалистичный MVP — **12–18 инженерных дней** для одного сильного разработчика или пары “backend + agent/operator”. Это оценка‑инференс на основе сложности и зрелости выбранных компонентов.
 
@@ -31,7 +31,7 @@
 | Schema drift и самовольная “оптимизация” структуры моделью | На extraction‑этапе сильная модель может начать “улучшать” схему вместо исполнения | Держать extraction на constrained schema + низком reasoning, а смысл переносить в post‑processing; это совпадает и с логикой Svyazi, и с выводами Memory OS. citeturn41search0turn39view3 |
 | Ложные ассоциации в памяти | Ассоциативная память полезна, но легко порождает шум | Вводить review queue для `inferred`, разделять raw vs normalized, не писать Proposal сразу в Truth‑граф. citeturn41search0turn36search0 |
 | Утечка PII в карточки и prompts | Discovery‑система почти неизбежно работает с чувствительными профилями | Повторить Svyazi‑паттерн privacy‑by‑design, хранить контакты отдельно, использовать allowlist/path guard, локальные embeddings там, где можно. citeturn41search0turn20view16turn35search0 |
-| Лицензионный тупик на memory‑слое | Не все “open” memory‑решения одинаково permissive | Если нужен строго permissive/commercial‑friendly стек, NGT Memory надо проверять отдельно, потому что в статье указана BSL 1.1 и free‑for‑personal grant; на таком пути проще начать с Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |
+| Лицензионный тупик на memory‑слое | Не все “open” memory‑решения одинаково permissive | Если нужен строго permissive/commercial‑friendly стек, NGT Memory надо проверять отдельно, потому что в статье указана BSL[^bsl] 1.1 и free‑for‑personal grant; на таком пути проще начать с Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |
 | Многоагентный хаос раньше пользы | Рой даёт выгоду только после появления handoff/lock и чётких спецификаций | Начинать с mclaude + AI Factory/AIF Handoff, а Rufler/Sequential/AutoResearch добавлять после того, как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |
 
 **Первые контакты, которые имеют наибольший шанс сдвинуть прототип**
@@ -50,7 +50,7 @@
 > — гибридный ingest из свободного текста в карточки,  
 > — agent-readable knowledge layer,  
 > — долговременную память с review/forgetting,  
-> — evidence-first RAG с page-level grounding,  
+> — evidence-first RAG[^rag] с page-level grounding,  
 > — безопасный self-hosted execution plane.  
 >   
 > В вашем проекте мне особенно важен слой **[указать слой: CardIndex / .agentos / consolidator / associative memory / visual citations / multi-session handoff]**.  
@@ -80,3 +80,34 @@
 - [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
 - [12-roadmap](docs/01-svyazi/12-roadmap.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^llm]: Large Language Model — большая языковая модель
+
+[^pii]: Personally Identifiable Information — персональные данные
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^rufler]: OSS-проект: оркестратор AI-агентов
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+[^bsl]: Business Source License — коммерческая лицензия с открытым кодом

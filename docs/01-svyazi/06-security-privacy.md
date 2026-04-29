@@ -1,7 +1,7 @@
 
 <!-- summary -->
-> Для Svyazi‑2.0 безопасная архитектура — не “добавить сканер в конце”, а **с самого начала считать skills, MCP servers, импорты документов и memory writes потенциально недоверенными**. Это не паранойя,
-**Проекты:** Svyazi, AgentFS, AI Factory, agent-memory-mcp, SENTINEL, LiteLLM, Auto AI Router, Tool Search
+> Для Svyazi[^svyazi]‑2.0 безопасная архитектура — не “добавить сканер в конце”, а **с самого начала считать skills, MCP[^mcp] servers, импорты документов и memory writes потенциально недоверенными**. Это не паранойя,
+**Проекты:** Svyazi, AgentFS[^agentfs], AI Factory, agent-memory-mcp, SENTINEL[^sentinel], LiteLLM, Auto AI Router, Tool Search
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
@@ -19,7 +19,7 @@
 | Разделение tool‑классов | По умолчанию разрешать read‑only tools; любые send/write/delete/execute — только через явный approval | Автономный агент отличается от чатбота именно доступом к реальным действиям; это и создаёт катастрофы. citeturn34view5 |
 | Quarantine для external skills/MCP | Любой внешний skill/MCP сначала в sandbox, потом статический/репутационный скан, потом allowlist | AI Factory прямо предупреждает о prompt injection в SKILL.md и запускает двухуровневый security scan. citeturn29search6 |
 | Path allowlist | Жёстко ограничить, что агент вообще может читать и писать на диске | `agent-memory-mcp` демонстрирует хороший паттерн Path Guard/allowlist против traversal и выхода за пределы проекта. citeturn20view16 |
-| PII separation | Любые контакты, email, Telegram, ссылки — в отдельном raw‑слое; в карточки уходит только очищенный профиль | Так делает Svyazi; это правильный privacy‑baseline для людей и сообществ. citeturn41search0 |
+| PII[^pii] separation | Любые контакты, email, Telegram, ссылки — в отдельном raw‑слое; в карточки уходит только очищенный профиль | Так делает Svyazi; это правильный privacy‑baseline для людей и сообществ. citeturn41search0 |
 | Truth vs Proposal | `inferred` и weak signals не писать сразу в «истину», а ставить в pending review | И Svyazi, и более тяжёлые memory‑системы сходятся на нужде в review‑контуре. citeturn41search0turn36search0 |
 | Runtime firewall | Между агентом и mutating tools держать специализированный защитный слой | Именно для этого и нужен SENTINEL‑подобный слой, а не только “умный промпт”. citeturn20view10 |
 
@@ -31,7 +31,7 @@
 |---|---|---|
 | Extraction из свободного текста | Локальная или дешёвая модель + строгая schema guidance | Только если extraction‑quality стабильно проваливает ваши acceptance tests |
 | Нормализация | Детерминированный код | Практически никогда не переводить это на дорогую модель |
-| Retrieval / rerank | Non‑LLM hybrid retrieval или локальный reranker | При multi-hop вопросах и слабой explainability |
+| Retrieval / rerank | Non‑LLM[^llm] hybrid retrieval или локальный reranker | При multi-hop вопросах и слабой explainability |
 | Объяснение матча / summary | Средний облачный tier | Если нужен высокий stylistic quality, а не только фактология |
 | Финальный внешний отчёт | Сильная модель | Только для user-facing/public/legal‑style текста |
 | Ночной ресёрч / оптимизация | AutoResearch‑подход с жёстким бюджетом и rollback | Когда уже есть benchmark и понятная функция качества |
@@ -60,3 +60,20 @@
 - [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^llm]: Large Language Model — большая языковая модель
+
+[^pii]: Personally Identifiable Information — персональные данные
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

@@ -1,7 +1,7 @@
 
 <!-- summary -->
 > Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
@@ -14,7 +14,7 @@
 
 **Ансамбль A — Collaboration OS**
 
-Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, knowledge-space — за agent‑readable reference layer, NGT Memory — за быстрые ассоциативные связи, Yodoca — за ночную консолидацию и забывание шумов. Такой стек превращает “случайные находки коллабораций” в воспроизводимую машинерию. citeturn41search0turn27view0turn33view2turn22view4turn21view0
+Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, knowledge-space — за agent‑readable reference layer, NGT[^ngt] Memory — за быстрые ассоциативные связи, Yodoca[^yodoca] — за ночную консолидацию и забывание шумов. Такой стек превращает “случайные находки коллабораций” в воспроизводимую машинерию. citeturn41search0turn27view0turn33view2turn22view4turn21view0
 
 ```mermaid
 flowchart LR
@@ -36,7 +36,7 @@ flowchart LR
 - **Контролируемое забывание вместо бесконечного накопления мусора**: Yodoca явно вводит Ebbinghaus‑decay, prune и приватный write‑path‑консолидатор. citeturn21view0turn21view1
 - **Agent‑first knowledge retrieval**: knowledge-space снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами. citeturn33view3turn37search1
 
-**Ансамбль B — Forensic RAG для доказуемого matching и review**
+**Ансамбль B — Forensic RAG[^rag] для доказуемого matching и review**
 
 Если Svyazi‑2.0 должен не только находить людей и идеи, но и объяснять, *почему* возникла рекомендация, нужен evidence‑first слой. Здесь research-docs/LiteParse даёт spatial grounding и HTML‑отчёты, Legal RAG — page‑level модель доказуемости, Hybrid RAG — лёгкий контролируемый backend, а Graph RAG — multi‑hop reasoning по связям между сущностями и пассажами. citeturn20view5turn20view6turn34view2turn34view3
 
@@ -86,7 +86,7 @@ flowchart LR
 
 **Ансамбль D — Voice‑first local knowledge mesh**
 
-Для реальных пользователей и операторов Svyazi‑2.0 важно не только “искать по базе”, но и пополнять её без боли. Здесь локальный Whisper/Ollama‑стек даёт ввод, Handy/OpenWhispr/GigaAM — удобный UX, Yttri — более широкий local‑first workspace вокруг заметок/встреч/документов, AgentFS — файловую агентную оболочку, а Yjs/Automerge — мультидевайсный sync‑слой. Self‑Aware MCP добавляет правильный time/location context поверх этого. citeturn21view10turn21view11turn21view12turn35search0turn27view0turn11search0turn11search11turn20view12
+Для реальных пользователей и операторов Svyazi‑2.0 важно не только “искать по базе”, но и пополнять её без боли. Здесь локальный Whisper/Ollama‑стек даёт ввод, Handy/OpenWhispr/GigaAM — удобный UX, Yttri — более широкий local‑first workspace вокруг заметок/встреч/документов, AgentFS — файловую агентную оболочку, а Yjs/Automerge — мультидевайсный sync‑слой. Self‑Aware MCP[^mcp] добавляет правильный time/location context поверх этого. citeturn21view10turn21view11turn21view12turn35search0turn27view0turn11search0turn11search11turn20view12
 
 ```mermaid
 flowchart LR
@@ -102,13 +102,13 @@ flowchart LR
 Ожидаемые новые свойства:
 
 - **Нулевой friction для входа данных**: мысль после звонка или встречи сразу превращается в текст и может быть автоматически структурирована. citeturn21view10turn35search0
-- **Локальная обработка вместо облачной утечки контекста**: и локальный speech‑to‑text, и local‑first workspace, и CRDT‑sync работают в модели “данные принадлежат устройству пользователя”. citeturn21view10turn35search0turn11search11
+- **Локальная обработка вместо облачной утечки контекста**: и локальный speech‑to‑text, и local‑first workspace, и CRDT[^crdt]‑sync работают в модели “данные принадлежат устройству пользователя”. citeturn21view10turn35search0turn11search11
 - **Meeting‑to‑graph pipeline**: Yttri уже мыслит встречу как workspace с транскрипцией, summary и связями; Svyazi‑2.0 может забирать оттуда эпизоды в память и профили. citeturn35search0
 - **Контекст реального мира доступен агенту как tool, а не как догадка**: Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации. citeturn20view12turn30search1
 
 **Ансамбль E — Safe and cheap execution plane**
 
-Даже идеальный memory/discovery‑стек провалится, если исполнение дорого или уязвимо. Поэтому нужен периметр: LiteLLM как центральный unified API, Auto AI Router как лёгкий Go‑sidecar для rate limits и failover, Tool Search как lazy loading MCP‑инструментов, RLM‑Toolkit как формализованный budget/privacy routing, а SENTINEL как runtime‑защита агентной поверхности. citeturn11search2turn39view0turn39view1turn20view18turn20view10
+Даже идеальный memory/discovery‑стек провалится, если исполнение дорого или уязвимо. Поэтому нужен периметр: LiteLLM как центральный unified API, Auto AI Router как лёгкий Go‑sidecar для rate limits и failover, Tool Search как lazy loading MCP‑инструментов, RLM‑Toolkit как формализованный budget/privacy routing, а SENTINEL[^sentinel] как runtime‑защита агентной поверхности. citeturn11search2turn39view0turn39view1turn20view18turn20view10
 
 ```mermaid
 flowchart LR
@@ -150,3 +150,30 @@ flowchart LR
 - [03-component-catalog](docs/01-svyazi/03-component-catalog.md)
 - [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^crdt]: Conflict-free Replicated Data Type — бесконфликтные данные
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^rufler]: OSS-проект: оркестратор AI-агентов
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)

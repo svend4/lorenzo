@@ -7,7 +7,7 @@
 
 _Автоматически сгенерировано по 15 файлам раздела._
 
-## Как реализован forensic RAG с доказуемостью?
+## Как реализован forensic RAG[^rag] с доказуемостью?
 
 Упоминаются: **liteparse**, **bounding box**, **page-level**, **evidence**
 
@@ -55,15 +55,15 @@ _Автоматически сгенерировано по 15 файлам ра
 
 Упоминаются: **routing**, **budget**, **litellm**, **local model**
 
-## Как работает AgentFS и что такое .agentos?
+## Как работает AgentFS[^agentfs] и что такое .agentos?
 
 Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
 
-## Что такое knowledge-space и для кого он предназначен?
+## Что такое knowledge-space[^knowledge_space] и для кого он предназначен?
 
 Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
 
-## Как CardIndex хранит и версионирует карточки?
+## Как CardIndex[^cardindex] хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
@@ -76,3 +76,16 @@ _Автоматически сгенерировано по 15 файлам ра
 - [QA](docs/02-anthropic-vacancies/QA.md) (сходство 0.63)
 - [QA](docs/QA.md) (сходство 0.62)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)

@@ -1,7 +1,7 @@
 
 <!-- summary -->
 > Чтобы все эти ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели 
-**Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, LiteParse, Legal RAG, Hybrid RAG
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, LiteParse, Legal RAG[^rag], Hybrid RAG
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement -->
@@ -16,9 +16,9 @@
 
 Второй контракт — **Evidence Envelope**. Любой retrieval‑ответ, match suggestion, profile enrichment или auto‑summary должен возвращать не только текст, но и `source_id`, `page`, `span`, `box`, `retrieval_method`, `confidence`, `supporting_nodes`. Для документов это page+box; для чатов и заметок — message/thread/time span; для голосовых эпизодов — timestamp window; для ассоциативных выводов — список triggered nodes и path explanation. Это прямой синтез из LiteParse/research-docs, Legal RAG, Hybrid RAG и Graph RAG. Без такого формата нельзя построить ни нормальную ручную модерацию, ни “объяснение рекомендации”. citeturn20view5turn20view6turn34view2turn34view3
 
-Третий контракт — **Memory Write Policy**. Система должна различать хотя бы четыре режима записи: `episode` для сырых наблюдений, `fact` для подтверждённого знания, `proposal` для гипотез и `decay_event` для понижения значимости. Yodoca уже мыслит память через consolidation + forgetting, NGT Memory — через ассоциативные связи и иерархическую консолидацию, agent-memory-mcp — через typed memory primitives, а Memory OS — через bi‑temporal и provenance‑heavy представление знаний. Из этих линий следует, что “записать что-то в память” никогда не должно быть одной неразличимой операцией. citeturn21view0turn22view4turn20view16turn39view3
+Третий контракт — **Memory Write Policy**. Система должна различать хотя бы четыре режима записи: `episode` для сырых наблюдений, `fact` для подтверждённого знания, `proposal` для гипотез и `decay_event` для понижения значимости. Yodoca[^yodoca] уже мыслит память через consolidation + forgetting, NGT[^ngt] Memory — через ассоциативные связи и иерархическую консолидацию, agent-memory-mcp — через typed memory primitives, а Memory OS — через bi‑temporal и provenance‑heavy представление знаний. Из этих линий следует, что “записать что-то в память” никогда не должно быть одной неразличимой операцией. citeturn21view0turn22view4turn20view16turn39view3
 
-Четвёртый контракт — **Skill and Tool Policy**. Каждый skill или MCP‑инструмент должен иметь класс доступа, класс среды, условия вызова и postcondition. Простейшее разбиение: `read`, `annotate`, `plan`, `mutate`, `publish`, `external_send`. Это дополняет Tool Search, который экономит контекст, но сам по себе не задаёт governance; LiteLLM и Auto AI Router, которые управляют провайдерами, но не правами; и SENTINEL, который контролирует угрозы, но выигрывает от того, что политика уже структурирована, а не размазана по промптам. citeturn39view1turn11search2turn39view0turn20view10
+Четвёртый контракт — **Skill and Tool Policy**. Каждый skill или MCP[^mcp]‑инструмент должен иметь класс доступа, класс среды, условия вызова и postcondition. Простейшее разбиение: `read`, `annotate`, `plan`, `mutate`, `publish`, `external_send`. Это дополняет Tool Search, который экономит контекст, но сам по себе не задаёт governance; LiteLLM и Auto AI Router, которые управляют провайдерами, но не правами; и SENTINEL[^sentinel], который контролирует угрозы, но выигрывает от того, что политика уже структурирована, а не размазана по промптам. citeturn39view1turn11search2turn39view0turn20view10
 
 Ниже — упрощённая интеграционная спецификация, которую реально можно внедрить в MVP без чрезмерной формализации.
 
@@ -50,3 +50,24 @@
 - [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md)
 - [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

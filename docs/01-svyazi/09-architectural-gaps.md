@@ -1,7 +1,7 @@
 
 <!-- summary -->
-> После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт `.agentos` и compile‑to‑runtime политику
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+> После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi[^svyazi] хорошо закрывает ingest и нормализацию; AgentFS[^agentfs] даёт `.agentos` и compile‑to‑runtime политику
+**Проекты:** Svyazi, CardIndex[^cardindex], AgentFS, knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement -->
@@ -10,7 +10,7 @@
 
 ## Архитектурные зазоры, которые важнее новых инструментов
 
-После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт `.agentos` и compile‑to‑runtime политику; knowledge-space формирует agent‑readable reference cards; NGT Memory и Yodoca решают разные режимы памяти; research-docs/LiteParse и Legal RAG решают доказуемость; LiteLLM, Auto AI Router и Tool Search — execution plane; SENTINEL и path‑guard практики — безопасность. Но именно на переходах “card ↔ memory”, “memory ↔ evidence”, “evidence ↔ review”, “review ↔ agent execution” сегодня остаётся больше всего архитектурного риска. citeturn41search0turn27view0turn33view2turn22view4turn21view0turn20view5turn20view6turn39view0turn39view1turn20view10
+После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт `.agentos` и compile‑to‑runtime политику; knowledge-space формирует agent‑readable reference cards; NGT[^ngt] Memory и Yodoca[^yodoca] решают разные режимы памяти; research-docs/LiteParse и Legal RAG[^rag] решают доказуемость; LiteLLM, Auto AI Router и Tool Search — execution plane; SENTINEL[^sentinel] и path‑guard практики — безопасность. Но именно на переходах “card ↔ memory”, “memory ↔ evidence”, “evidence ↔ review”, “review ↔ agent execution” сегодня остаётся больше всего архитектурного риска. citeturn41search0turn27view0turn33view2turn22view4turn21view0turn20view5turn20view6turn39view0turn39view1turn20view10
 
 В практическом смысле есть пять зазоров, которые стоит считать приоритетнее поиска ещё десяти новых инструментов. Во‑первых, нужен **единый тип карточки**, который умеет хранить и “человека”, и “проект”, и “эпизод”, и “документ”, и “слабую гипотезу”. Во‑вторых, нужен **Evidence Envelope**: стандарт, по которому любой вывод системы можно обратно привязать к странице, координате, фрагменту текста или истории изменения. В‑третьих, нужен **memory governance layer**, который не даёт ассоциативной памяти записывать предлагаемое как истинное. В‑четвёртых, нужен **agent contract layer**, где навыки, маршрутизация и права оформлены как исполнимые правила, а не как размазанные инструкции по разным файлам. В‑пятых, нужен **review protocol**, который отделяет “обнаружено системой” от “принято в индекс сообщества” или “использовано во внешнем отчёте”. Каждый из этих зазоров уже частично покрыт найденными решениями, но не целиком одной системой. citeturn41search0turn20view5turn20view6turn22view4turn21view0turn20view16turn27view0turn20view3turn20view11
 
@@ -45,3 +45,26 @@
 - [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
 - [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^rufler]: OSS-проект: оркестратор AI-агентов
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
