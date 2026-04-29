@@ -108,6 +108,7 @@ scripts/
   improve_faceted_search.py    — фасетный поиск (--query, --entity, --type, --section)
   improve_similar_passages.py  — похожие абзацы между файлами TF-IDF cosine → SIMILAR_PASSAGES.md
   improve_knowledge_map.py     — единый дашборд: корпус + метрики + концепты → KNOWLEDGE_MAP.md
+  improve_reading_list.py      — BM25-список чтения по теме → READING_LIST.md (--query, --top, --format)
 
   # Применение изменений к контенту (группа content)
   improve_auto_linker.py       — авто-ссылки на проекты/технологии в текстах (--apply)
@@ -315,6 +316,12 @@ python scripts/improve_similar_passages.py --min-sim 0.7          # только
 
 # Дашборд
 python scripts/improve_knowledge_map.py                           # KNOWLEDGE_MAP.md
+
+# Список чтения
+python scripts/improve_reading_list.py --query "агент с памятью"  # топ-15 по запросу
+python scripts/improve_reading_list.py --query "RAG retrieval" --top 20
+python scripts/improve_reading_list.py --query "Yodoca" --section 05-habr-projects
+python scripts/improve_reading_list.py --format json              # machine-readable
 ```
 
 ### Применение изменений к контенту (group content)

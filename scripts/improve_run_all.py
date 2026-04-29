@@ -200,6 +200,7 @@ GROUPS = {
         "improve_faceted_search.py",     # фасетный поиск (запускать с --query)
         "improve_similar_passages.py",   # похожие абзацы TF-IDF cosine
         "improve_knowledge_map.py",      # единый дашборд → KNOWLEDGE_MAP.md
+        "improve_reading_list.py",       # список чтения по теме → READING_LIST.md
     ],
     "content": [
         # Применение изменений к контенту (запускать осторожно — меняют файлы)
@@ -238,6 +239,7 @@ SLOW_SCRIPTS = {
     "improve_textrank.py",         # TextRank на всех файлах
     "improve_gap_filler.py",       # BM25-поиск + вставка в файлы
     "improve_auto_linker.py",      # вставка ссылок в тексты
+    "improve_reading_list.py",     # BM25-поиск по корпусу
 }
 
 # Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
