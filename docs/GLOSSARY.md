@@ -4,51 +4,35 @@
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 97 |
-| **AIF Handoff** | 66 |
-| **AgentFS** | 152 |
-| **Auto AI Router** | 109 |
-| **AutoResearch** | 60 |
+| **AI Factory** | 96 |
+| **AIF Handoff** | 69 |
+| **AgentFS** | 161 |
+| **Auto AI Router** | 113 |
+| **AutoResearch** | 59 |
 | **Automerge** | 32 |
-| **CardIndex** | 142 |
-| **Firecrawl** | 28 |
-| **Graph RAG** | 83 |
-| **Hybrid RAG** | 53 |
-| **Legal RAG** | 81 |
-| **LiteLLM** | 64 |
-| **LiteParse** | 107 |
-| **MemNet** | 74 |
+| **CardIndex** | 146 |
+| **Firecrawl** | 29 |
+| **Graph RAG** | 86 |
+| **Hybrid RAG** | 52 |
+| **Legal RAG** | 85 |
+| **LiteLLM** | 65 |
+| **LiteParse** | 113 |
+| **MemNet** | 85 |
 | **Memory OS** | 38 |
-| **NGT Memory** | 117 |
+| **NGT Memory** | 120 |
 | **OpenWhispr** | 23 |
 | **RLM-Toolkit** | 12 |
-| **Rufler** | 118 |
-| **SENTINEL** | 123 |
+| **Rufler** | 122 |
+| **SENTINEL** | 126 |
 | **Self-Aware MCP** | 18 |
 | **Sequential** | 90 |
-| **Svyazi** | 275 |
+| **Svyazi** | 284 |
 | **Tool Search** | 66 |
-| **Whisper** | 26 |
+| **Whisper** | 27 |
 | **Wikontic** | 65 |
 | **Yjs** | 39 |
-| **Yodoca** | 165 |
+| **Yodoca** | 171 |
 | **Yttri** | 26 |
 | **agent-memory-mcp** | 40 |
-| **knowledge-space** | 117 |
-| **mclaude** | 97 |
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Local-first и P2P стек](03-technology-combinations/03-local-first.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Домен: немецкое социальное право](03-technology-combinations/04-sozialrecht-domain.md)
-- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Граф связей проектов](GRAPH.md) _21%_
-- [Нарратив проекта Lorenzo](NARRATIVE.md) _17%_
+| **knowledge-space** | 129 |
+| **mclaude** | 105 |

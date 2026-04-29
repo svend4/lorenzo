@@ -1,6 +1,6 @@
 # Индекс «Смотрите также»
 
-**Файлов с блоком See Also:** 518
+**Файлов с блоком See Also:** 514
 
 ## Ключевые связи
 
@@ -34,23 +34,3 @@
 - **104-appendix-c-references** → `122-глоссарий`, `34-appendix-b-change-log`, `69-section`, `64-for-the-curious-philosophy`
 - **105-review-methodology-md** → `28-appendix-a-minimal-working-example`, `125-readme-mcp-md-инструкция-по-установке`, `65-readme-md`, `123-portal-mcp-py`
 - **106-tl-dr** → `70-зачем-две-версии-параллельно`, `71-критерии-выбора-для-фазы-3`, `28-appendix-a-minimal-working-example`, `57-native-format`
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-- [Установка](02-anthropic-vacancies/126-установка.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Abstract](02-anthropic-vacancies/04-abstract.md) _29%_
-- [Индекс обратных ссылок](BACKLINKS.md) _29%_
-- [REVIEW_METHODOLOGY.md](02-anthropic-vacancies/105-review-methodology-md.md) _25%_
-- [Appendix A: Minimal Working Example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
-- [portal-mcp.py](02-anthropic-vacancies/123-portal-mcp-py.md) _21%_
-- [For the Curious: Philosophy](02-anthropic-vacancies/44-for-the-curious-philosophy.md) _21%_
-- [For the Curious: Philosophy](02-anthropic-vacancies/64-for-the-curious-philosophy.md) _21%_
-- [README.md](02-anthropic-vacancies/65-readme-md.md) _21%_

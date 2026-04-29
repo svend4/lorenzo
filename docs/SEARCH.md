@@ -1,5 +1,12 @@
 # Поисковый индекс
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 **Файлов:** 1052  
 **Слов:** 1,039,819
 
@@ -1057,3 +1064,14 @@
 | `docs/templates/ensemble.md` | ансамбль, архитектура |  | 138 |
 | `docs/templates/project-component.md` | архитектура, проект |  | 119 |
 | `docs/templates/research-note.md` | исследование |  | 97 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](docs/READABILITY.md)
+- [READING_TIME](docs/obsidian/READING_TIME.md)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md)
+- [READING_ORDER](docs/obsidian/READING_ORDER.md)
+

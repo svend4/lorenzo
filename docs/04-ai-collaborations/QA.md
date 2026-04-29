@@ -62,16 +62,10 @@ _Автоматически сгенерировано по 15 файлам ра
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
-<!-- backlinks-auto -->
-## Упоминается в
+## Какие кластеры найма выделены у Anthropic?
 
-- [Поиск AI-коллабораций](README.md)
+Упоминаются: **research**, **inference**, **product**
 
-<!-- related-auto -->
-## Связанные документы
+## Какие роли наиболее релевантны для профиля svend4?
 
-- [Q&A: 01-svyazi](../01-svyazi/QA.md) _90%_
-- [Глобальный Q&A](../QA.md) _73%_
-- [Q&A: 02-anthropic-vacancies](../02-anthropic-vacancies/QA.md) _37%_
-- [Q&A: 03-technology-combinations](../03-technology-combinations/QA.md) _17%_
-- [Q&A: 05-habr-projects](../05-habr-projects/QA.md) _17%_
+_Не найдено в этом файле._

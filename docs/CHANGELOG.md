@@ -1,13 +1,15 @@
 # CHANGELOG
 
-Всего коммитов: **52**  
-Статистика: ✨ feat: 18 | ⚡ improve: 14 | 🔧 chore: 13 | 🐛 fix: 4 | 📝 docs: 3
+Всего коммитов: **54**  
+Статистика: ✨ feat: 18 | 🔧 chore: 14 | ⚡ improve: 14 | 🐛 fix: 5 | 📝 docs: 3
 
 
-## 2026-04-29 (51 коммитов)
+## 2026-04-29 (53 коммитов)
 
 ### 🔧 Обслуживание
 
+- refresh executive report _12dea45c_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 - sync CONTRADICTIONS.md (background task output) _89d3e8fb_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync CONTRADICTIONS.md after contradiction_check fix _6b81ffed_
@@ -77,6 +79,8 @@
   > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
 ### 🐛 Исправления
 
+- fix crosslink root cause (relative paths), map all 125 scripts in dependency map _ed3fa81f_
+  > - Fixed improve_crosslink_all.py: links now use os.path.relpath() instead of
 - fix 8607 broken internal links, improve health score formula _52179ba5_
   > - Fixed 8607 broken links (absolute → relative paths via improve_broken_links --fix)
 - fix update-docs CI job failures _42f561dd_
@@ -121,18 +125,3 @@
 ### 🔧 Обслуживание
 
 - preview _- _doc_t_
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Changelog (авто)](CHANGELOG_AUTO.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Changelog (авто)](CHANGELOG_AUTO.md) _33%_
-- [Карта зависимостей скриптов](DEPENDENCY_MAP.md) _25%_
-- [Дайджест изменений](DIGEST.md) _21%_

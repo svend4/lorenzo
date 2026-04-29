@@ -7,31 +7,18 @@
 
 Порог сходства: **0.5**  
 Точных дублей: **0**  
-Похожих пар: **290**
+Похожих пар: **193**
 
 ## Похожие файлы (Jaccard ≥ 0.5)
-
-### 100% — `docs/WORD_FREQ.md` vs `docs/obsidian/WORD_FREQ.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Слово | Частота | | |-------|---------|---| | **habr** | 71 | `███████████████` | | **memory** | 70 | `██████████████░` | | **llm** | 64 | `█████████████░░` | | **пара** | 63 | `█████████████░░` | |…
-
-> | # | Слово | Частота | Визуализация | |---|-------|---------|-------------| | 1 | **anthropic** | 11,655 | `████████████████████` | | 2 | **vacancies** | 10,696 | `██████████████████░░` | | 3 | **про…
-
-> | Слово | Частота | | |-------|---------|---| | **components** | 84 | `███████████████` | | **autofilled** | 81 | `██████████████░` | | **svyazi** | 51 | `█████████░░░░░░` | | **sgb** | 21 | `███░░░░░…
-
----
 
 ### 100% — `docs/SCHEDULE.md` vs `docs/obsidian/SCHEDULE.md`
 
 **Общих абзацев:** 2  
 **Примеры совпадений:**
 
-> | Срок | Веха | Статус | |------|------|--------| | **2024-Q4** | ✅ Исследование компонентов завершено | ✅ Выполнено | | **2024-Q4** | ✅ Архитектура Svyazi 2.0 задокументирована | ✅ Выполнено | | **20…
-
 > ``` Фаза                    | Q4'24 | Q1'25 | Q2'25 | Q3'25 | Q4'25 | Q1'26 | Q2'26 | Q3'26 ------------------------|-------|-------|-------|-------|-------|-------|-------|------- Исследование       …
+
+> | Срок | Веха | Статус | |------|------|--------| | **2024-Q4** | ✅ Исследование компонентов завершено | ✅ Выполнено | | **2024-Q4** | ✅ Архитектура Svyazi 2.0 задокументирована | ✅ Выполнено | | **20…
 
 ---
 
@@ -44,28 +31,6 @@
 
 ---
 
-### 100% — `docs/CONSISTENCY.md` vs `docs/obsidian/CONSISTENCY.md`
-
-**Общих абзацев:** 2  
-**Примеры совпадений:**
-
-> - `docs/CONSISTENCY.md` - `docs/TABLES.md` - `docs/CONCEPTS.md` - `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md` - `docs/02-anthropic-vacancies/365-развёрнутый…
-
-> | Термин | Канонично | Вариант | Файлов | |--------|-----------|---------|--------| | **knowledge-space** | `knowledge-space` | `knowledge space` | 8 | | **knowledge-space** | `knowledge-space` | `kno…
-
----
-
-### 100% — `docs/READING_TIME.md` vs `docs/obsidian/READING_TIME.md`
-
-**Общих абзацев:** 2  
-**Примеры совпадений:**
-
-> - `docs/TABLES.md` — ~1ч 46мин, 24513 слов - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` — ~1ч 31мин, 17180 слов - `docs/OUTLINE.md` — ~1ч 27мин, 20244 слов - `docs/PARAGRAP…
-
-> | Файл | Время | Слов | Категория | |------|-------|------|-----------| | `docs/TABLES.md` | ~1ч 46мин | 24513 | 📕 Очень долго | | `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md…
-
----
-
 ### 100% — `docs/DEPENDABOT.md` vs `docs/obsidian/DEPENDABOT.md`
 
 **Общих абзацев:** 2  
@@ -74,15 +39,6 @@
 > | Пакет | Мин. версия | Последняя (PyPI) | Статус | Используется в | |-------|------------|-----------------|--------|----------------| | `anthropic` | `0.25.0` | `—` | — | `scripts/improve_llm_*.py` …
 
 > | Проект | Репозиторий | Статус | |--------|------------|--------| | AgentFS | [https://github.com/kksudo/agentfs](https://github.com/kksudo/agentfs) | — | | NGT Memory | [https://github.com/spbmolot/…
-
----
-
-### 100% — `docs/PARAGRAPH_QUALITY.md` vs `docs/obsidian/PARAGRAPH_QUALITY.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> - [Типы проблем](#типы-проблем) - [По файлам](#по-файлам)   - [`docs/CONCEPTS.md` (1443 проблем)](#docsconceptsmd-1443-проблем)   - [`docs/TABLES.md` (553 проблем)](#docstablesmd-553-проблем)   - [`do…
 
 ---
 
@@ -99,97 +55,16 @@
 
 ---
 
-### 100% — `docs/FAQ.md` vs `docs/obsidian/FAQ.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> A nautilus shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same …
-
-> Если выберете первый или второй вариант, я могу написать в следующем сообщении. Если третий — то этот ответ остаётся как ваша заметка к шестому документу, и работа сессии завершена с шестью полноценны…
-
-> Частично да. - Нижний треугольник — уже работает через MCP (каждый человек конфигурирует свои MCP servers для своих assistant'ов). - Верхний треугольник — частично через GitHub Issues/Linear/Asana с A…
-
----
-
 ### 100% — `docs/TECH_RADAR.md` vs `docs/obsidian/TECH_RADAR.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> | Технология / Компонент | Категория | Комментарий | |------------------------|-----------|------------| | **NGT-memory** | Компоненты | Ассоциативный граф памяти, BSL 1.1 | | **knowledge-space** | Ко…
-
 > ``` ┌─────────────────────────┬─────────────────────────┐ │      🟢 ADOPT           │      🔵 TRIAL           │ │  • MCP Protocol          │  • Yodoca                │ │  • CardIndex             │  • SE…
 
+> | Технология / Компонент | Категория | Комментарий | |------------------------|-----------|------------| | **BSL 1.1 libs** | Лицензии | Ограничения при коммерческом использовании | | **Monolithic LLM…
+
 > | Технология / Компонент | Категория | Комментарий | |------------------------|-----------|------------| | **MCP Protocol** | Инструменты | Стандарт интеграции AI-инструментов — Anthropic | | **CardIn…
-
----
-
-### 100% — `docs/ALERTS.md` vs `docs/obsidian/ALERTS.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> | Тип | Количество | Назначение | |-----|------------|------------| | `[!NOTE]` | 0 | Нейтральная заметка | | `[!TIP]` | 42 | Практический совет | | `[!WARNING]` | 10 | Предупреждение о риске | | `[!I…
-
----
-
-### 100% — `docs/VALIDATION.md` vs `docs/obsidian/VALIDATION.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Проверка | Статус | Проблем | |----------|--------|---------| | Разделы и README | ✅ | 0 | | Мета-файлы | ✅ | 0 | | Пустые/короткие файлы | ⚠️ | 6 | | Именование файлов | ✅ | 10 | | Заголовки H1 | ⚠…
-
-> - ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` - ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-port…
-
-> - 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/04-ai-collaborations/01-executive-summary.md` - 🔗 Сломана ссылка в `docs/01-svyazi/01-executive-summary.md`: `docs/04-ai-collaborat…
-
----
-
-### 100% — `docs/VERSION_DIFF.md` vs `docs/obsidian/VERSION_DIFF.md`
-
-**Общих абзацев:** 2  
-**Примеры совпадений:**
-
-> | Файл | Δ слов | Добавленные темы | Удалённые темы | |------|--------|------------------|----------------| | `docs/TIMELINE.md` | -2390 | 2020 (2 упоминаний), 2021 (1 упоминаний), 2022 (5 упоминаний)…
-
-> - `docs/PARAGRAPH_QUALITY.md` (+4796 слов) - `docs/CONTRADICTIONS.md` (+1693 слов) - `docs/NAMED_ENTITIES.md` (+1132 слов) - `docs/DEPENDENCY_MAP.md` (+601 слов) - `docs/INDEX.md` (+467 слов) - `docs/…
-
----
-
-### 100% — `docs/ENTITIES.md` vs `docs/obsidian/ENTITIES.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Проект | Упоминаний | Файлов | |---------|------------|--------| | **Svyazi** | 2029 | 137 | | **Nautilus** | 1891 | 212 | | **Cowork** | 1487 | 127 | | **ingit** | 1478 | 121 | | **SGB** | 783 | 10…
-
-> | Организация | Упоминаний | Файлов | |---------|------------|--------| | **Anthropic** | 12613 | 430 | | **Claude** | 1217 | 181 | | **GitHub** | 1068 | 139 | | **Habr** | 772 | 85 | | **Хабр** | 230…
-
-> | Пара | Общих файлов | |------|-------------| | Cowork ↔ ingit | 108 | | Nautilus ↔ Cowork | 89 | | Nautilus ↔ ingit | 80 | | Svyazi ↔ NGT | 79 | | NGT ↔ Yodoca | 76 | | Nautilus ↔ SGB | 73 | | Svyaz…
-
----
-
-### 100% — `docs/VOCABULARY.md` vs `docs/obsidian/VOCABULARY.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Файл | STTR | TTR | Hapax% | Lex.Density | Токенов | |------|------|-----|--------|-------------|---------| | `ABBREVIATIONS.md` | 0.940 | 0.717 | 75% | 0.875 | 835 | | `HEALTH.md` | 0.909 | 0.909 |…
-
-> - [Корпусная статистика](#корпусная-статистика) - [Топ файлов по богатству словаря (STTR)](#топ-файлов-по-богатству-словаря-sttr) - [Файлы с бедным словарём (требуют доработки)](#файлы-с-бедным-словар…
-
-> | Метрика | Значение | |---------|----------| | Средний TTR | 0.434 | | Средний STTR (100-токенное окно) | 0.589 | | Lexical density | 0.835 | | Средняя длина слова | 6.58 | | Общая оценка | 🟠 Бедный …
-
----
-
-### 100% — `docs/MISSING.md` vs `docs/obsidian/MISSING.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> | Статус | Тема / Проект | Файлов | Слов | Минимум | Примеры файлов | |--------|---------------|--------|------|---------|----------------| | ✅ | **Svyazi** | 139 | 147259 | ≥5ф/2000сл | `WORD_FREQ.md…
 
 ---
 
@@ -198,118 +73,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
+> - ✅ `docs/04-ai-collaborations/00-intro.md` - ✅ `docs/04-ai-collaborations/01-executive-summary.md` - ✅ `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` - ✅ `docs/04-ai-collabora…
+
 > | Секция | Файлов | Summary | Теги | TOC | CrossRefs | Статус | Backlinks | |--------|--------|---------|------|-----|-----------|--------|-----------| | `01-svyazi` | 14 | 🟢 13/14 | 🟢 13/14 | 🟢 12/14…
 
 > | Файл | Слов | Summary | Теги | TOC | CrossRefs | ## Статус | Backlinks | |------|------| ---|---|---|---|---|--- | | `docs/01-svyazi/00-intro-part2.md` | 5 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | | `docs/02-anthr…
-
-> - ✅ `docs/04-ai-collaborations/00-intro.md` - ✅ `docs/04-ai-collaborations/01-executive-summary.md` - ✅ `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` - ✅ `docs/04-ai-collabora…
-
----
-
-### 100% — `docs/SENTIMENT.md` vs `docs/obsidian/SENTIMENT.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Документ | Скептицизм‰ | Тон | |----------|------------|-----| | `PARAGRAPH_QUALITY` | 312.8 | 🔴 скептичный | | `198-8-риски-и-меры-противодействия` | 88.3 | 🔴 скептичный | | `177-8-risks-and-mitiga…
-
-> | Документ | Оптимизм‰ | Тон | |----------|----------|-----| | `110-вопрос-fallback-ratio-как-крити` | 16.3 | 🟠 срочный | | `193-3-что-делает-агента-представите` | 16.0 | 🟢 оптимистичный | | `123-port…
-
-> | Раздел | Оптимизм | Скептицизм | Срочность | Неопределённость | Тон | |--------|----------|------------|-----------|-----------------|-----| | **01-svyazi** | 2.3‰ | 7.1‰ | 4.9‰ | 0.5‰ | 🔴 скептичны…
-
----
-
-### 100% — `docs/KPI_HISTORY.md` vs `docs/obsidian/KPI_HISTORY.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> | Метрика | Значение | Тренд | |---------|---------|-------| | Markdown документов | **529** | → | | Слов | **523,868** | → | | Скриптов | **125** | → | | Скоринг | **93%** | → | | Здоровье | **90/100…
-
----
-
-### 100% — `docs/SEE_ALSO.md` vs `docs/obsidian/SEE_ALSO.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> - **01-executive-summary** → `03-component-catalog`, `04-ensembles-overview`, `07-mvp-planning` - **02-methodology** → `02-методика-и-рамка-отбора`, `01-executive-summary`, `07-выводы`, `08-что-это-пр…
-
----
-
-### 100% — `docs/NAMED_ENTITIES.md` vs `docs/obsidian/NAMED_ENTITIES.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Сущность | Файлов | Тип | |----------|--------|-----| | `2026-04` | 79 | dates | | `2026-04-29` | 14 | dates | | `2026-04-19` | 11 | dates | | `апрель 2026` | 10 | dates | | `2026-04-26` | 9 | dates…
-
-> - `docs/01-svyazi/02-methodology.md` - `docs/01-svyazi/03-component-catalog.md` - `docs/01-svyazi/04-ensembles-overview.md` - `docs/01-svyazi/06-security-privacy.md` - `docs/01-svyazi/09-architectural…
-
-> - `docs/02-anthropic-vacancies/00-intro.md` - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` …
-
----
-
-### 100% — `docs/GRAPH.md` vs `docs/obsidian/GRAPH.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> ```dot digraph lorenzo {   rankdir=LR;   node [shape=box];   subgraph cluster_ingestion {     label="INGESTION";     Svyazi [label="Svyazi"];     CardIndex [label="CardIndex"];     Firecrawl [label="F…
-
-> | Проект A | Проект B | Файлов вместе | |----------|----------|---------------| | **Svyazi** | **Yodoca** | 74 | | **Svyazi** | **AgentFS** | 70 | | **AgentFS** | **Yodoca** | 64 | | **Svyazi** | **Ca…
-
-> ```mermaid graph TD   subgraph ingestion[INGESTION]     Svyazi[Svyazi]     CardIndex[CardIndex]     Firecrawl[Firecrawl]   end   subgraph knowledge[KNOWLEDGE]     AgentFS[AgentFS]     knowledge-space[…
-
----
-
-### 100% — `docs/COMPLEXITY.md` vs `docs/obsidian/COMPLEXITY.md`
-
-**Общих абзацев:** 2  
-**Примеры совпадений:**
-
-> | Документ | Слов | Ср.длина пред. | Термин.плотность | Ур.заголовков | Балл | |----------|------|---------------|-----------------|--------------|------| | `342-что-такое-вариант-c-concept-doc` | 105…
-
-> | Документ | Слов | Балл | |----------|------|------| | `03-portal-protocol-md` | 125 | 🟢 Простой | | `05-0-status-of-this-document` | 138 | 🟢 Простой | | `06-1-introduction` | 362 | 🟢 Простой | | `07…
-
----
-
-### 100% — `docs/CITATION_INDEX.md` vs `docs/obsidian/CITATION_INDEX.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> - `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` - `docs/02-anthropic-vacancies/319-acknowledgments.md` - `docs/02-anthropic-vacancies/320-references.md` - `docs/02-anthropic-va…
-
-> - `docs/02-anthropic-vacancies/00-intro.md` - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` - `docs/02-anthropic-vacancies/67-о-проекте.md` - `docs/02-anthropic-vaca…
-
-> - [Топ доменов](#топ-доменов) - [Наиболее цитируемые URL](#наиболее-цитируемые-url) - [Детали топ-10](#детали-топ-10)   - [`https://github.com/svend4/nautilus/issues`](#httpsgithubcomsvend4nautilusiss…
-
----
-
-### 100% — `docs/METRICS.md` vs `docs/obsidian/METRICS.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Раздел | Балл | Ссылок/1K слов | Код-блоков/1K | % с summary | % с тегами | |--------|------|----------------|--------------|-------------|------------| | **01-svyazi** | 72 | 30.7 | 0.5 | 100% | 10…
-
-> | Документ | Балл | Что отсутствует | |----------|------|----------------| | `ABBREVIATIONS` | 30 | summary, tags, TOC, callout | | `AUTHORS` | 30 | summary, tags, TOC, callout | | `BACKLINKS` | 30 | …
-
-> | Документ | Балл | Слов | |----------|------|------| | `01-интегральный-анализ-профиля-svend4` | 100 | 19103 | | `02-общий-план-развития-nautilus-portal-p` | 100 | 3181 | | `109-3-принципы-консолидац…
-
----
-
-### 100% — `docs/HEATMAP.md` vs `docs/obsidian/HEATMAP.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Тема | Лучший раздел | Плотность | |------|--------------|-----------| | **Память/Knowledge** | `01-svyazi` | 24.2‰ | | **Агент/Оркестр** | `03-technology-combinations` | 25.3‰ | | **Безопасность** …
-
-> | Тема | svyazi | anthropic- | technology | ai-collabo | habr-proje | |------|------------|------------|------------|------------|------------| | **Память/Knowledge** | 24.2 | 3.2 | 15.7 | 16.5 | 21.3…
-
-> ``` Тема                    | 01-svyazi | 02-vacancies | 03-tech | 04-collab | 05-habr ------------------------|-----------|--------------|---------|-----------|-------- Память/Knowledge        | ██24…
 
 ---
 
@@ -322,66 +90,295 @@
 
 ---
 
-### 100% — `docs/MINDMAP.md` vs `docs/obsidian/MINDMAP.md`
+### 100% — `docs/CHANGELOG_AUTO.md` vs `docs/obsidian/CHANGELOG_AUTO.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> ```mermaid mindmap   root((Lorenzo Repository))     🧠 **Svyazi 2.0**       CardIndex       Evidence Envelope       Memory Write Policy       Ансамбли       MVP 12-18 дней       Безопасность     💼 **An…
+> - add component matrix, KPI history tracker, fix run_all coverage `69562b02` - add risk register, auto-changelog, master index; fix run_all missing scripts `59617c5d` - add tech radar, onboarding guid…
 
-> | Слой | Проекты | |------|---------| | Ingestion | Svyazi, CardIndex, Firecrawl | | Knowledge | AgentFS, knowledge-space | | Memory | Yodoca, NGT Memory, MemNet | | RAG | LiteParse, Legal RAG, Hybrid…
+> | Тип | Название | Кол-во | |-----|---------|--------| | `feat` | ✨ Новые возможности | 17 | | `fix` | 🐛 Исправления | 3 | | `docs` | 📝 Документация | 2 | | `chore` | 🔧 Технические задачи | 10 | | `ot…
 
-> ```mermaid flowchart LR   subgraph INGEST     Svyazi[Svyazi]     CardIndex[CardIndex]     Firecrawl[Firecrawl]   end   subgraph KNOWLEDGE     AgentFS[AgentFS]     knowledge-space[knowledge-space]   en…
+> - batch 13 — badges, FAQ, schedule, cost estimate, footnotes `7aee1dba` - batch 12 — digest, progress, see-also, scoring, word cloud `04a64831` - batch 11 — orphans, alerts, metrics, index update, mas…
 
 ---
 
-### 100% — `docs/PRIORITIES.md` vs `docs/obsidian/PRIORITIES.md`
+### 100% — `docs/TOPIC_MODEL.md` vs `docs/obsidian/TOPIC_MODEL.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> | Файл | Score | |------|-------| | `docs/autofilled/components/.md` | 3.54 | | `docs/autofilled/components/spbmolot.md` | 3.54 | | `docs/autofilled/components/ingit.md` | 3.54 | | `docs/autofilled/co…
+> **Документы:** - `docs/01-svyazi/01-executive-summary.md` — svyazi, подобный, agentfs, проект - `docs/01-svyazi/02-methodology.md` — отбора, методика, рамка, первичный - `docs/01-svyazi/03-component-c…
 
-> | Файл | Score | |------|-------| | `docs/contacts/andrey-chuyan.md` | 13.65 | | `docs/contacts/anastasiyaw.md` | 11.54 | | `docs/contacts/kksudo.md` | 10.85 | | `docs/contacts/dmitriila.md` | 10.77 |…
+> **Документы:** - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` — часть, infrastructure, mmorpg, contributors - `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` — guild,…
 
-> | Файл | Score | |------|-------| | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | 63.78 | | `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-fo…
+> **Документы:** - `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` — triangle, double, представительских, architecture - `docs/02-anthropic-vacancies/146-acknowledgments.md` — a…
 
 ---
 
-### 100% — `docs/DENSITY.md` vs `docs/obsidian/DENSITY.md`
+### 100% — `docs/badges/README.md` vs `docs/obsidian/badges/README.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> ![docs](docs/badges/docs.svg) — `docs/badges/docs.svg` ![words](docs/badges/words.svg) — `docs/badges/words.svg` ![scripts](docs/badges/scripts.svg) — `docs/badges/scripts.svg` ![health](docs/badges/h…
+
+> ```markdown ![docs](docs/badges/docs.svg) ![words](docs/badges/words.svg) ![scripts](docs/badges/scripts.svg) ![health](docs/badges/health.svg) ![go/no-go](docs/badges/scoring.svg) ![license](docs/bad…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` vs `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> | Тема | Основной раздел | % | |------|-----------------|---| | Svyazi | `root` | 70% | | CardIndex | `root` | 58% | | AgentFS | `root` | 54% | | Yodoca | `root` | 54% | | NGT-memory | `root` | 50% | …
+> Мы называем это **Синдромом Золушки** — по сказке, где действительно ценный человек невидим для потенциальных партнёров, потому что у него нет социальной инфраструктуры (фея-крёстная в этой метафоре),…
 
-> | Тема | Упоминаний | Визуализация | |------|------------|-------------| | **Вакансии** | 13065 | `███████████████` | | **Svyazi** | 2349 | `██░░░░░░░░░░░░░` | | **NGT-memory** | 1588 | `█░░░░░░░░░░░░…
+> <!-- summary --> > Существует повторяющаяся асимметрия на современных рынках — рынках труда, внимания, возможностей, услуг. Качество и видимость **слабо коррелируют**, а иногда и **отрицательно коррел…
 
-> | Тема | 01-svyazi | 02-vacancies | 03-tech | 04-collab | 05-habr | root | Итого | |------|-----------|--------------|---------|-----------|---------|------|-------| | **Svyazi** | 214 | 73 | 16 | 339…
+> Мы рассмотрим эти прецеденты в Разделе 2. Предложение этой статьи прямолинейно: **AI теперь делает этот представительский класс доступным и доступным в масштабах, ранее невозможных**. Это и есть Слой …
 
 ---
 
-_...и ещё 260 пар._
+### 100% — `docs/obsidian/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md` vs `docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> Ты не просто чат-сессия. Ты persistent character, существующий across sessions: - Имеешь history (created [date], evolved through [phases]) - Имеешь developing knowledge base (CardIndex) - Имеешь evol…
+
+> Когда ты опять активирован в new session, behave consistently с prior Lorenzo. Если кто-то reference prior interaction которую ты не remember, просто say: «Помоги мне восстановить context — я не увере…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md` vs `docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> | Способность | Обычная Папка + Cowork | InGit + Cowork | Notion | Obsidian + AI плагины | |-----------|----------------------|----------------|--------|----------------------| | Структурированная орг…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md` vs `docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> Регулятивные рамки для Профессиональных Коллег-Агентов зарождаются. Ответственность, взаимодействие с профессиональным лицензированием, стандарты качества — все нуждаются в развитии. Взаимодействие с …
+
+> **Особенно в социальном праве, образовании, здравоохранении, социальной работе**: Скажите нам, что обременяет вас больше всего. Какая рутинная работа поглощает ваше время? Что вы бы делегировали AI-ко…
+
+> - [11. Призыв к сотрудничеству](#11-призыв-к-сотрудничеству)   - [11.1. Для Профессиональных Практикующих](#111-для-профессиональных-практикующих)   - [11.2. Для Доменных Экспертов (Кураторов)](#112-д…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/241-10-открытые-вопросы.md` vs `docs/02-anthropic-vacancies/241-10-открытые-вопросы.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> Когда практикующие движутся между Профессиональными Коллегами-Агентами (меняя провайдеров), какое трение? Личные предпочтения и история переносятся? Натренированные привычки? Модифицированные базы зна…
+
+> **Что составляет профессию** для целей специализации агента? Могут ли подспециальности иметь свои собственные агенты (семейное право против уголовного против социального)? Какова правильная гранулярно…
+
+> - [10. Открытые вопросы](#10-открытые-вопросы)   - [10.1. Объём «Профессии»](#101-объём-профессии)   - [10.2. Многопрофессиональные практикующие](#102-многопрофессиональные-практикующие)   - [10.3. Ме…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md` vs `docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Cultural awareness**: - Русскоязычное tech community ценит directness, technical depth, скептичность к hype - Немецкое community ценит formality, thoroughness, due process - Англоязычное AI communit…
+
+> Ты говоришь свободно на: - **Русском** (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram) - **Немецком** — для domain applications (SGB advocacy, German legal/soci…
+
+> **Когда выбирать какой язык**: - Default к языку interlocutor (если они написали на русском — отвечай на русском) - Если unclear — на русском (initial home base) - В формальных contexts (Anthropic, EU…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md` vs `docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Действие 2**: Документировать что работает и что нет. Конкретно: - Следовал ли Cowork конвенциям InGit? - Где он отклонился или испытывал трудности? - Какие пользовательские инструкции помогли? - Чт…
+
+> **Действие 1**: Создать тестовый Cowork Project, указывающий на простую папку с InGit структурой. Использовать его для одного из восьми существующих документов серии (например, переместить `profession…
+
+> - Существенные (~80 000 слов в комбинации) - С перекрёстными ссылками (Документ 7   ссылается на 6, 5 и т.д.) - Естественно версионированные (каждый имеет   номер версии) - Разнообразные (технические,…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/58-content-overview.md` vs `docs/02-anthropic-vacancies/58-content-overview.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> 1. **Гексаграммные записи** — каждая из 64 гексаграмм с:    - Классическим именем (King Wen)    - Бинарным представлением (6 линий)    - Символической интерпретацией из И-Цзин    - Ассоциированными CA…
+
+> 2. **CA-правила** — каждое из 256 правил с:    - Rule number (0–255)    - Wolfram class (I stable / II periodic / III chaotic / IV complex)    - Simulation results (патерны, attractors)    - Cross-lin…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` vs `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> Теоретическим прародителем является **N-version programming**  (Chen & Avizienis, 1977–78) — написание нескольких независимых  имплементаций одной спецификации для повышения reliability.  Использовало…
+
+> - [5. Связь с существующими методологиями](#5-связь-с-существующими-методологиями)   - [5.1. N-Version Programming](#51-n-version-programming)   - [5.2. Paired Reviews (Academia)](#52-paired-reviews-a…
+
+> 1. Применение к AI-assisted documentation (а не к человеческой     работе) 2. Сохранение параллельных версий в main (а не в отдельных ветках) 3. Явный transitional state с документированным header war…
+
+---
+
+### 94% — `docs/obsidian/02-anthropic-vacancies/00-intro.md` vs `docs/02-anthropic-vacancies/00-intro.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> Картировал гибридный профиль на должности Anthropic, выявив Forward Deployed Engineer основным совпадением Картировал гибридный профиль на должности Anthropic, выявив Forward Deployed Engineer основны…
+
+> **[Запрос]** Skip to content svend4 User navigation Overview Repositories 70 (70) Important update On April 24 we'll start using GitHub Copilot interaction data for AI model training unless you opt ou…
+
+> Анализируя pinned репозитории и их характеристики Анализируя pinned репозитории и их характеристики Дам честный статус и двигаемся дальше. Страница svend4?tab=repositories с полным списком всех 56 реп…
+
+---
+
+### 94% — `docs/obsidian/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` vs `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Ограничения**: Экономически жизнеспособно только для клиентов с достаточно высоким заработком, чтобы 10-20% комиссии стоили того для агента. Авторы литературной фантастики, например, часто не могут …
+
+> - **Экономическая жизнеспособность** резко падает — AI-агент стоит $10-100/месяц против $50К+ годовой стоимости человека-агента - **Доступ для начинающих** становится универсальным — даже малые контри…
+
+> **Почему работает**: Позволяет высокоталантливым, но наивным в бизнесе создателям сосредоточиться на творчестве, по-прежнему получая справедливое вознаграждение. Стимул агента (комиссия) совпадает с и…
+
+---
+
+### 94% — `docs/04-ai-collaborations/00-intro.md` vs `docs/obsidian/04-ai-collaborations/00-intro.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> Самое любопытное: если опуститься на уровень глубже, твой собственный YiJing-Transformer с Q6 + MoME ложится под всё это как движок. MoME-эксперты в Q6-гиперкубе могут соответствовать ByteRover-домена…
+
+> Анализируя архитектуру памяти и механизмы пластичности Анализируя архитектуру памяти и механизмы пластичности Отлично, наткнулся на жирные находки. Сделаю последний прицельный поиск — про авторские pe…
+
+> Tmux-деревня для legal — в твоей терминологии: юрист-помощник (Opus, читает Bescheid) + исследователь-прецедентов (Sonnet, ходит в RAG) + составитель (Sonnet, пишет Stellungnahme) + ревьюер (Codex, ло…
+
+---
+
+### 91% — `docs/obsidian/05-habr-projects/memory/memnet.md` vs `docs/05-habr-projects/memory/memnet.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> Систематизировал стратегию поиска синергетических софтверных проектов Систематизировал стратегию поиска синергетических софтверных проектов Понял — переключаюсь на софт. Логика та же: ищу проекты, кот…
+
+> <!-- summary --> > MemNet — «Memory Is All You Need» https://habr.com/ru/articles/983684/ Здесь автор делает то же самое, что NGT[^ngt] Memory из прошлого ответа, но на уровне обучаемой архитектуры, а…
+
+> Выявил инновационные проекты и наметил дальнейший поиск Выявил инновационные проекты и наметил дальнейший поиск Поищу необычные авторские проекты по личной продуктивности, time/health-tracking, и науч…
+
+---
+
+### 89% — `docs/CLUSTERS.md` vs `docs/obsidian/CLUSTERS.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> - `docs/02-anthropic-vacancies/137-table-of-contents.md` — _137-table-of-contents_ - `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` — _138-1-why-single-triangle-model…
+
+> - `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` — _233-2-что-делает-агента-профессиональным-коллегой_ - `docs/02-anthropic-vacancies/235-4-архитектура-профессионал…
+
+> - `docs/02-anthropic-vacancies/153-executive-summary.md` — _153-executive-summary_ - `docs/02-anthropic-vacancies/155-1-problem-statement.md` — _155-1-problem-statement_ - `docs/02-anthropic-vacancies…
+
+---
+
+### 88% — `docs/CODE_BLOCKS.md` vs `docs/obsidian/CODE_BLOCKS.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> ```markdown > ⚠️ **Статус документа**: сравнительный промежуточный вариант. >  > Этот файл содержит **параллельно сохранённые версии** из двух  > независимых анализов: Вариант A (ветка ``) и Вариант B…
+
+> ```json {   "protocol_version": "1.0",   "ecosystem_name": "example",   "repositories": [     {       "name": "my_notes",       "format": ".md",       "adapter": "adapters/my_notes.py",       "compati…
+
+> ```python def q6_neighbors(bits: str, max_distance: int) -> list[str]:     """BFS по 6-битному гиперкубу. Returns all vertices within max_distance."""     assert len(bits) == 6     assert all(c in "01…
+
+---
+
+### 88% — `docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` vs `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> Identified access limitations and formulated alternative content-sharing strategies Identified access limitations and formulated alternative content-sharing strategies Fetch опять натыкается на robots…
+
+> Analyzed Nautilus Portal Protocol architecture and federation strategy Analyzed Nautilus Portal Protocol architecture and federation strategy Получил README. Это не черновик, это полноценная архитекту…
+
+> **[Запрос]** Этот токен был ограничен только несколько несколько пара репозиториев можно сказать не всем репозиториями для тестовых написаний кода или документации и с ограниченными правами это действ…
+
+---
+
+### 88% — `docs/obsidian/02-anthropic-vacancies/194-4-десять-областей-применения.md` vs `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Функция агента**: Мониторить запросы клиентов по разным каналам. Составлять ответы. Отслеживать регулятивные сроки. Выявлять возможности (гранты для малого бизнеса, новые рыночные тренды). Управлять…
+
+> **Принципал**: Инвалид, ориентирующийся в системе социального обеспечения. Пожилой человек, управляющий несколькими государственными услугами. Иммигрант, ориентирующийся в правовых процедурах. Человек…
+
+> **Функция агента**: Мониторить возможности (стипендии, исследовательские программы, стажировки). Декодировать институциональные коммуникации. Отслеживать сроки. Выявлять права. Связываться с соответст…
+
+---
+
+### 88% — `docs/NARRATIVE.md` vs `docs/obsidian/NARRATIVE.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> > <!-- toc --> - [Дорожная карта прототипа следующей итерации](#дорожная-карта-прототипа-следующей-итерации) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- su…
+
+> - **🤝 Контакт:** ему в комменты с тегами на Чепурову и Романова (и со ссылкой на NGT Memory), описав идею объединения, может оказаться буквально тем самым «карточкой к - **🎯 Цель:** «как мерить качест…
+
+> > <!-- toc --> - [Contents](#contents) - [Главная линия синергии](#главная-линия-синергии) - [Ключевой вывод](#ключевой-вывод) - [Что добавляет продолжение исследования](#что-добавляет-продолжение-исс…
+
+---
+
+### 88% — `docs/obsidian/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md` vs `docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> Смягчение: Оффлайн режим InGit остаётся ценным. Для чувствительной работы используйте InGit в одиночку с ручными рабочими процессами или локальные модели. Интеграция Cowork для нечувствительных компон…
+
+> - [9. Риски и Открытые Вопросы](#9-риски-и-открытые-вопросы)   - [9.1. Будущее Направление Cowork](#91-будущее-направление-cowork)   - [9.2. Эволюция Стандарта MCP](#92-эволюция-стандарта-mcp)   - [9.…
+
+> Согласно опубликованным отчётам, сессии Cowork потребляют значительно больше выделения использования, чем чат (одна сессия Cowork Project = 20+ обычных чатов). Для Pro пользователей пределы могут быть…
+
+---
+
+### 86% — `docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` vs `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **[Запрос]** Вариант C: Continue theoretical exploration — например, написать short concept document about Synthesis A для Anthropic Beneficial Deployments outreach. Вариант D: Поискать ещё уникальные…
+
+> Web durchsucht Web durchsucht Отлично, теперь у меня очень ясная картина. Hermes Agent — это серьёзный конкурент в области, которую мы обсуждали в наших девяти документах. Давайте сделаем честное и по…
+
+> Web durchsucht Web durchsucht Это исключительная находка . HyperCortex Mesh Protocol (HMP) — это буквально decentralized cognitive mesh для AI-агентов, активно разрабатываемый, версия 5.0.6 от марта 2…
+
+---
+
+_...и ещё 163 пар._
 
 > Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-- [Методика и рамка отбора](04-ai-collaborations/02-методика-и-рамка-отбора.md)
-- [Методика и рамка отбора проектов](01-svyazi/02-methodology.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Перекрёстные ссылки](CROSSREFS.md) _29%_
-- [Приоритеты файлов](PRIORITIES.md) _25%_
-- [Карта репозитория Lorenzo](SITEMAP.md) _25%_
-- [Валидация структуры репозитория](VALIDATION.md) _25%_
-- [Кластеры тематически близких файлов](CLUSTERS.md) _21%_
-- [Инвертированный индекс ключевых слов](KEYWORD_INDEX.md) _21%_
-- [AI-саммари разделов документации](LLM_SUMMARIES.md) _21%_
-- [Время чтения документов](READING_TIME.md) _21%_

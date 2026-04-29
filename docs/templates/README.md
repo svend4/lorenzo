@@ -27,10 +27,5 @@ cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.
 ---
 
 **Смотрите также:**
-- [research-summary](../autofilled/research-summary.md)
+- [research-summary](docs/obsidian/autofilled/research-summary.md)
 
-<!-- related-auto -->
-## Связанные документы
-
-- [Ансамбль: [Название]](ensemble.md) _17%_
-- [[Тема исследования]](research-note.md) _17%_

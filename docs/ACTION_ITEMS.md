@@ -7,10 +7,10 @@
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 1528
+**Всего элементов:** 1630
 
 
-## ➡️ Следующие шаги (193)
+## ➡️ Следующие шаги (197)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -154,7 +154,7 @@
   _→ 01-executive-summary_
 - как понятны роли агентов, типы задач и review states.  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
-- _→ [342-что-такое-вариант-c-concept-document-для-anthropic](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_  
+- _→ [342-что-такое-вариант-c-concept-document-для-anthropic](obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)  
   _→ CONCEPTS_
 - за вами: либо я могу составить конкретный чек-лист для ш  
   _→ DECISIONS_
@@ -171,9 +171,9 @@
 - _→ [[342-что-такое-вариант-c-concept-document-для-anthropic]]_  
   _→ CONCEPTS_
 
-_(114 дублей скрыто)_
+_(118 дублей скрыто)_
 
-## ✅ Решения и рекомендации (318)
+## ✅ Решения и рекомендации (351)
 
 - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идёт  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -271,6 +271,8 @@ _(114 дублей скрыто)_
   _→ 165-closing_
 - проблемы «cold start» для контрибьюторов. Один из вызовов любой platform с workers и tasks — что делать с новыми участниками, у которых ещё нет track  
   _→ 165-closing_
+- Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _21%_  
+  _→ 172-3-what-makes-a-representative-agent_
 - to principal rather than acting  
   _→ 174-5-architectural-specification_
 - - Principal can audit all agent actions  
@@ -293,8 +295,6 @@ _(114 дублей скрыто)_
   _→ 207-приложение-c-образцы-случаев-использования-в-детал_
 - — построить специализированный агент, который уже знает контекст учителя: ФГОСы, классы, уровни сложности, методические рекомендации. Учителю не нужно  
   _→ 207-приложение-c-образцы-случаев-использования-в-детал_
-- Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_  
-  _→ 212-1-the-five-type-typology-of-principal-side-agents_
 - Framework — When to Build Type 1 First  
   _→ 227-appendix-b-decision-framework-when-to-build-type-1_
 - ограничивать активную конфигурацию (10-15 максимум), периодически пересматривать.  
@@ -303,7 +303,7 @@ _(114 дублей скрыто)_
   _→ 257-4-the-sub-agent-registry_
 - ** Выбрана federation.  
   _→ 26-14-adr-001-federation-over-merging_
-- Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md) _48%_  
+- Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)  
   _→ 270-appendix-b-sub-agent-registry-schema-sketch_
 - скрывает суждения от principal  
   _→ 272-appendix-d-connection-diagram_
@@ -359,6 +359,8 @@ _(114 дублей скрыто)_
   _→ 00-intro_
 - 2019 года, после изменений 2024 года применяется иначе»);  
   _→ 00-intro_
+- Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)  
+  _→ CLUSTERS_
 - tree для разрешения расхождений в §3  
   _→ CONCEPTS_
 - + обоснование]  
@@ -369,17 +371,17 @@ _(114 дублей скрыто)_
   _→ CONTENT_GAPS_
 - прочитать в первую очередь. <!--…  
   _→ NARRATIVE_
-- Framework — When to Build Type 1 First](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-framew  
+- Framework — When to Build Type 1 First](obsidian/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decisi  
   _→ OUTLINE_
-- Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters02-an  
+- Tree for InGit Adopters](obsidian/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adop  
   _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
-- Framework — When to Buil](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 332 | — |  
+- Framework — When to Buil](obsidian/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 332 | — |  
   _→ READING_ORDER_
-- Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) | 241 | — |  
-  _→ READING_ORDER_
-- Framework — When to Buil](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 328 | — |  
+- Framework — When to Buil]] | 332 | — |  
+  _→ TABLES_
+- Tree for InGit Adopters]] | 241 | — |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `docs/04-ai-collaborations/00-intro.md` |  
   _→ TABLES_
@@ -387,7 +389,7 @@ _(114 дублей скрыто)_
   _→ TABLES_
 - 2019 года, после изменений 2024 года примен | `docs/TABLES.md` |  
   _→ TABLES_
-- создать документы](#26-рекомендуется-создать-документы)  
+- создать документы](#27-рекомендуется-создать-документы)  
   _→ TABLES_
 - исправить.  
   _→ VALIDATION_
@@ -417,24 +419,24 @@ _(114 дублей скрыто)_
   _→ OUTLINE_
 - Tree for InGit Adopters]]  
   _→ OUTLINE_
-- Framework — When to Buil]] | 332 | — |  
-  _→ READING_ORDER_
-- Tree for InGit Adopters]] | 241 | — |  
-  _→ READING_ORDER_
 - Framework — When to Buil]] | 328 | — |  
+  _→ TABLES_
+- создать документы](#26-рекомендуется-создать-документы)  
   _→ TABLES_
 - - templates  
   _→ decision-record_
 - **Выбрано:** [Вариант X]  
   _→ decision-record_
 
-_(192 дублей скрыто)_
+_(225 дублей скрыто)_
 
-## ⚠️ Риски (638)
+## ⚠️ Риски (680)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
 - и бюджетный execution plane для агентных систем. | SENTINEL[^sentinel] micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy  
+  _→ 03-component-catalog_
+- склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)  
   _→ 03-component-catalog_
 - ложных связей и утечек | 1–2 дня |  
   _→ 07-mvp-planning_
@@ -498,6 +500,8 @@ _(192 дублей скрыто)_
   _→ 150-appendix-c-version-history_
 - Analysis**  
   _→ 154-table-of-contents_
+- Analysis](162-8-risk-analysis.md)  
+  _→ 158-4-proposed-infrastructure_
 - Analysis](162-8-risk-analysis.md) _17%_  
   _→ 159-5-economic-model_
 - mitigations**:  
@@ -860,7 +864,7 @@ _(192 дублей скрыто)_
   _→ 00-intro_
 - не на один классификатор, а на специализированные guards: LLM Guard, RAG Guard, Agent Guard, Tool Guard, MCP Guard и API Guard; RAG Guard проверяет po  
   _→ 00-intro_
-- склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) _21%_  
+- склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)  
   _→ 00-intro_
 - собирать в один релиз. Это продолжение поэтому сосредоточено на трёх вещах: архитектурных зазорах, новых ансамблях следу  
   _→ 08-что-это-продолжение-добавляет_
@@ -880,27 +884,23 @@ _(192 дублей скрыто)_
   _→ COST_
 - mitigation для каждой. Полезно для grant  
   _→ DECISIONS_
-- | `root` | 79% |  
+- | `root` | 76% |  
   _→ DENSITY_
 - register, auto-changelog, master index; fix run_all mis |  
   _→ DIGEST_
-- и allowlist для MCP | 0 |  
+- и allowlist для MCP | 2 |  
   _→ FOOTNOTES_
-- | ██ 7.6 | 0.4 | 0.4 | ▒▒ 4.1 | 0.1 |  
+- | ██ 8.1 | 0.5 | 0.4 | ▒▒ 4.3 | 0.1 |  
   _→ HEATMAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
 - того, что через две недели **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, LiteParse, Legal RAG[^rag], Hy  
   _→ NARRATIVE_
-- Analysis](02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysis02-anthropic-vacancies162-8-risk-analysismd)  
-  _→ OUTLINE_
-- Analysis](02-anthropic-vacancies/162-8-risk-analysis.md)  
+- Analysis](obsidian/02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysisobsidian02-anthropic-vacancies162-8-risk-analysismd)  
   _→ OUTLINE_
 - склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)](#ограничения-лицензии-и-что-п  
   _→ OUTLINE_
-- Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md) | 653 | — |  
-  _→ READING_ORDER_
-- скл](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3362 | — |  
+- скл](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3362 | — |  
   _→ READING_ORDER_
 - | Категория | Вероятн. | Влияние | Score | Уровень |  
   _→ RISK_REGISTER_
@@ -914,11 +914,11 @@ _(192 дублей скрыто)_
   _→ RISK_REGISTER_
 - и PII описаны | ✅ | 8 |  
   _→ SCORING_
-- склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3362 |  
+- склеиват](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3362 |  
   _→ SITEMAP_
 - 5: Burnout. Проект … | 60 |  
   _→ TABLES_
-- Analysis](02-anthropic-vacancies/162-8-risk-analysis.md) | 653 | — |  
+- Analysis]] | 653 | — |  
   _→ TABLES_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
   _→ TABLES_
@@ -926,11 +926,13 @@ _(192 дублей скрыто)_
   _→ TABLES_
 - | `root` | 58% |  
   _→ TABLES_
-- и allowlist для MCP | 16 |  
+- и allowlist для MCP | 0 |  
   _→ TABLES_
-- скл](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3339 | — |  
+- | `root` | 79% |  
   _→ TABLES_
-- склеиват](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3339 |  
+- скл]] | 3362 | — |  
+  _→ TABLES_
+- склеиват]] | 3362 |  
   _→ TABLES_
 - Analysis]] _17%_  
   _→ 159-5-economic-model_
@@ -948,20 +950,16 @@ _(192 дублей скрыто)_
   _→ OUTLINE_
 - склеивать]]  
   _→ OUTLINE_
-- Analysis]] | 653 | — |  
-  _→ READING_ORDER_
-- скл]] | 3362 | — |  
-  _→ READING_ORDER_
-- склеиват]] | 3362 |  
-  _→ SITEMAP_
+- и allowlist для MCP | 16 |  
+  _→ TABLES_
 - скл]] | 3339 | — |  
   _→ TABLES_
 - склеиват]] | 3339 |  
   _→ TABLES_
 
-_(375 дублей скрыто)_
+_(418 дублей скрыто)_
 
-## 🚫 Ограничения (183)
+## 🚫 Ограничения (205)
 
 - не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi[^svyazi] как базовый пат  
   _→ 14-limitations_
@@ -983,7 +981,7 @@ _(375 дублей скрыто)_
   _→ 01-интегральный-анализ-профиля-svend4_
 - and formulated alternative content-sharing strategies  
   _→ 01-интегральный-анализ-профиля-svend4_
-- и открытые вопросы](115-8-ограничения-и-открытые-вопросы.md) _25%_  
+- и открытые вопросы](115-8-ограничения-и-открытые-вопросы.md)  
   _→ 107-1-контекст-и-мотивация_
 - и открытые вопросы  
   _→ 115-8-ограничения-и-открытые-вопросы_
@@ -991,7 +989,7 @@ _(375 дублей скрыто)_
   _→ 115-8-ограничения-и-открытые-вопросы_
 - и альтернативы  
   _→ 122-глоссарий_
-- текущей версии (0.1.0-draft)](131-ограничения-текущей-версии-0-1-0-draft.md) _29%_  
+- текущей версии (0.1.0-draft)](131-ограничения-текущей-версии-0-1-0-draft.md)  
   _→ 128-доступные-инструменты_
 - текущей версии (0.1.0-draft)  
   _→ 131-ограничения-текущей-версии-0-1-0-draft_
@@ -1077,20 +1075,26 @@ _(375 дублей скрыто)_
   _→ CONCEPTS_
 - исчезают**  
   _→ CONCEPTS_
-- и открытые вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросы02-anthropic-vacancies115-8-огра  
+- при коммерческом использовании | | **Monolithic LLM…  
+  _→ DUPLICATES_
+- and formulated alternative content-sharing strategies Identified access limitations and formulated alternative content-sharing strategies Fetch опять  
+  _→ DUPLICATES_
+- и открытые вопросы](obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросыobsidian02-anthropic-va  
   _→ OUTLINE_
-- текущей версии (0.1.0-draft)](02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draft02-anthropic  
+- текущей версии (0.1.0-draft)](obsidian/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draftobs  
   _→ OUTLINE_
 - и открытые вопросы(#8-ограничения-и-открытые-вопросы)  
   _→ OUTLINE_
 - - MVP-шаги  
   _→ OUTLINE_
-- и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 412 | — |  
-  _→ READING_ORDER_
-- текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md) | 133 | — |  
-  _→ READING_ORDER_
-- и открытые вопросы](docs/obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 429 |  
-  _→ SITEMAP_
+- и открытые вопросы]] | 412 | — |  
+  _→ TABLES_
+- текущей версии (0.1.0-draft)]] | 133 | — |  
+  _→ TABLES_
+- и открытые вопросы]] | 412 |  
+  _→ TABLES_
+- текущей версии (0.1.0-draft)]] | 133 |  
+  _→ TABLES_
 - при коммерческом использовании |  
   _→ TABLES_
 - - `docs/01-svyazi/QA.md` — упоминаются, envelope, evidence, какие  
@@ -1113,14 +1117,6 @@ _(375 дублей скрыто)_
   _→ OUTLINE_
 - текущей версии (0.1.0-draft)]]  
   _→ OUTLINE_
-- и открытые вопросы]] | 412 | — |  
-  _→ READING_ORDER_
-- текущей версии (0.1.0-draft)]] | 133 | — |  
-  _→ READING_ORDER_
-- и открытые вопросы]] | 412 |  
-  _→ SITEMAP_
-- текущей версии (0.1.0-draft)]] | 133 |  
-  _→ SITEMAP_
 - текущей версии (0.1.0-draft)]] | 129 | — |  
   _→ TABLES_
 - текущей версии (0.1.0-draft)]] | 129 |  
@@ -1128,7 +1124,7 @@ _(375 дублей скрыто)_
 - - [Риск 1]  
   _→ ensemble_
 
-_(101 дублей скрыто)_
+_(124 дублей скрыто)_
 
 ## 📋 Задачи (TODO) (18)
 
@@ -1148,14 +1144,14 @@ _(101 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- меток: **46**  
+- меток: **49**  
   _→ STATS_
 - меток: **23**  
   _→ STATS_
 
 _(8 дублей скрыто)_
 
-## 📬 Контактные действия (178)
+## 📬 Контактные действия (179)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1304,34 +1300,4 @@ _(8 дублей скрыто)_
 - авторами компонентов → [[CONTACTS|CONTACTS.md]]  
   _→ REPORT_
 
-_(105 дублей скрыто)_
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Appendix D: Connection Diagram](02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
-- [Closing](02-anthropic-vacancies/165-closing.md)
-- [Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)](02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Глоссарий понятий](CONCEPTS.md)
-- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
-- [Интегральный анализ профиля svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-- [Обратная связь](02-anthropic-vacancies/133-обратная-связь.md)
-- [Ограничения, лицензии и что пока лучше не склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги](02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
-- [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
-- [Приложение C: Образцы Случаев Использования в Деталях](02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
-- [Развёрнутый анализ «внуковой» комбинации](02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
-- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Глоссарий понятий](CONCEPTS.md) _33%_
-- [Открытые вопросы](QUESTIONS.md) _25%_
-- [Детальная статистика репозитория](STATS.md) _21%_
-- [Code-блоки репозитория](CODE_BLOCKS.md) _17%_
-- [Ключевые решения и выводы](DECISIONS.md) _17%_
-- [Часто задаваемые вопросы (FAQ)](FAQ.md) _17%_
+_(106 дублей скрыто)_

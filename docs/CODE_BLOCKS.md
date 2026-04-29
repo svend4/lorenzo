@@ -146,33 +146,33 @@ _`docs/CONCEPT_GRAPH.md` | 101 строк_
 
 ```mermaid
 graph TD
-    docs["docs\n(482)"]
-    anthropic["anthropic\n(398)"]
-    vacancies["vacancies\n(375)"]
-    auto["auto\n(292)"]
-    документы["документы\n(251)"]
-    summary["summary\n(230)"]
-    tags["tags\n(181)"]
-    сходство["сходство\n(176)"]
-    appendix["appendix\n(136)"]
-    agent{{"agent\n(126)"}}
-    nautilus["nautilus\n(123)"]
-    knowledge["knowledge\n(122)"]
-    svyazi("svyazi\n(119)")
-    architecture["architecture\n(112)"]
-    contents["contents\n(108)"]
-    ingit["ingit\n(101)"]
-    portal["portal\n(93)"]
+    auto["auto\n(299)"]
+    документы["документы\n(261)"]
+    summary["summary\n(245)"]
+    tags["tags\n(200)"]
+    anthropic["anthropic\n(190)"]
+    сходство["сходство\n(184)"]
+    appendix["appendix\n(144)"]
+    agent{{"agent\n(131)"}}
+    nautilus["nautilus\n(128)"]
+    knowledge["knowledge\n(125)"]
+    architecture["architecture\n(119)"]
+    svyazi("svyazi\n(116)")
+    contents["contents\n(116)"]
+    ingit["ingit\n(103)"]
+    portal["portal\n(99)"]
     cowork["cowork\n(93)"]
-    agents{{"agents\n(85)"}}
-    collaboration["collaboration\n(84)"]
-    memory[("memory\n(78)")]
-    work["work\n(75)"]
-    protocol[/"protocol\n(73)"/]
-    layer[/"layer\n(72)"/]
-    what["what\n(69)"]
-    readme["readme\n(68)"]
-    claude["claud
+    collaboration["collaboration\n(90)"]
+    docs["docs\n(88)"]
+    agents{{"agents\n(88)"}}
+    protocol[/"protocol\n(79)"/]
+    work["work\n(79)"]
+    readme["readme\n(76)"]
+    memory[("memory\n(74)")]
+    layer[/"layer\n(73)"/]
+    what["what\n(71)"]
+    claude["claude\n(65)"]
+    документ["документ\n(
 # ... (обрезано)
 ```
 
@@ -1729,22 +1729,3 @@ _`docs/obsidian/FOOTNOTES.md` | 3 строк_
 ```
 
 _...и ещё 1 блоков этого языка_
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Глоссарий понятий](CONCEPTS.md) _25%_
-- [Индекс именованных сущностей](NAMED_ENTITIES.md) _25%_
-- [Перекрёстные ссылки](CROSSREFS.md) _21%_
-- [Карта происхождения текстов](SOURCE_MAP.md) _21%_
-- [Все таблицы репозитория](TABLES.md) _21%_
-- [Action Items, риски и решения](ACTION_ITEMS.md) _17%_
-- [Ключевые решения и выводы](DECISIONS.md) _17%_
-- [Рекомендуемый порядок чтения](READING_ORDER.md) _17%_

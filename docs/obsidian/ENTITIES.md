@@ -7,6 +7,14 @@ date: 2026-04-29
 
 # Именованные сущности
 
+<!-- summary -->
+> - [Люди и авторы (7)](#люди-и-авторы-7)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
+
 <!-- toc -->
 ## Содержание
 

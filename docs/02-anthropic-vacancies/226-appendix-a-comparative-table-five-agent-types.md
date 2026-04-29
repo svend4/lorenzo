@@ -4,6 +4,18 @@
 > - [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.31)
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Appendix A: Comparative Table — Five Agent Types](#appendix-a-comparative-table-five-agent-types)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: anthropic -->
 
 

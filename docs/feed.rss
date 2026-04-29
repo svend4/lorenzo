@@ -5,7 +5,21 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 09:44:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 16:00:28 GMT</lastBuildDate>
+    <item>
+      <title>chore: refresh executive report</title>
+      <link>https://github.com/svend4/lorenzo/commit/12dea45cf3f6f91acdd19a27fc45ebaf156c23d7</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/12dea45cf3f6f91acdd19a27fc45ebaf156c23d7</guid>
+      <pubDate>Wed, 29 Apr 2026 09:52:33 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: refresh executive report</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>12dea45c</code></p>]]></description>
+    </item>
+    <item>
+      <title>fix: fix crosslink root cause (relative paths), map all 125 scripts in dependency map</title>
+      <link>https://github.com/svend4/lorenzo/commit/ed3fa81fd865a445a10a9f799668a38713eab9fa</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/ed3fa81fd865a445a10a9f799668a38713eab9fa</guid>
+      <pubDate>Wed, 29 Apr 2026 09:46:47 GMT</pubDate>
+      <description><![CDATA[<p><strong>fix: fix crosslink root cause (relative paths), map all 125 scripts in dependency map</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/01-executive-summary.md">docs/01-svyazi/01-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/02-methodology.md">docs/01-svyazi/02-methodology.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/03-component-catalog.md">docs/01-svyazi/03-component-catalog.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/04-ensembles-overview.md">docs/01-svyazi/04-ensembles-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/06-security-privacy.md">docs/01-svyazi/06-security-privacy.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/07-mvp-planning.md">docs/01-svyazi/07-mvp-planning.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/08-conclusions.md">docs/01-svyazi/08-conclusions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/09-architectural-gaps.md">docs/01-svyazi/09-architectural-gaps.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/10-second-order-ensembles.md">docs/01-svyazi/10-second-order-ensembles.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/11-integration-contracts.md">docs/01-svyazi/11-integration-contracts.md</a></li></ul><p>Коммит: <code>ed3fa81f</code></p>]]></description>
+    </item>
     <item>
       <title>fix: fix 8607 broken internal links, improve health score formula</title>
       <link>https://github.com/svend4/lorenzo/commit/52179ba5498f6915f820e560140cef80761bcdbf</link>
@@ -131,20 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/53bfdbd83fb46fe675c31c7e7c07150e3078c22a</guid>
       <pubDate>Wed, 29 Apr 2026 06:42:08 GMT</pubDate>
       <description><![CDATA[<p><strong>chore: sync PROGRESS.md after session</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>53bfdbd8</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: 13 улучшений — search fix, parallel/report/only, watch, priority, bulk, coverage, staleness, autofix, qa history, llm contact, benchmark</title>
-      <link>https://github.com/svend4/lorenzo/commit/3d29c06c74c1a9b1111e3011689dede2e077a7de</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/3d29c06c74c1a9b1111e3011689dede2e077a7de</guid>
-      <pubDate>Wed, 29 Apr 2026 06:41:33 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: 13 улучшений — search fix, parallel/report/only, watch, priority, bulk, coverage, staleness, autofix, qa history, llm contact, benchmark</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BROKEN_LINKS.md">docs/BROKEN_LINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACT_PRIORITY.md">docs/CONTACT_PRIORITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COVERAGE.md">docs/COVERAGE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SEARCH.md">docs/SEARCH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STALENESS.md">docs/STALENESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/spbmolot.md">docs/contacts/spbmolot.md</a></li></ul><p>Коммит: <code>3d29c06c</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: 4 улучшения — кэш QA, --save, dedup с текстом дублей, --only, MCP contact status</title>
-      <link>https://github.com/svend4/lorenzo/commit/77613be22b963c68e51ecace02843076d7af2f58</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/77613be22b963c68e51ecace02843076d7af2f58</guid>
-      <pubDate>Wed, 29 Apr 2026 06:29:50 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: 4 улучшения — кэш QA, --save, dedup с текстом дублей, --only, MCP contact status</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DUPLICATES.md">docs/DUPLICATES.md</a></li></ul><p>Коммит: <code>77613be2</code></p>]]></description>
     </item>
   </channel>
 </rss>

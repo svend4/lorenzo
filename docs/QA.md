@@ -67,6 +67,14 @@
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
+## Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: **research**, **product**
+
+## Какие роли наиболее релевантны для профиля svend4?
+
+_Не найдено в этом файле._
+
 
 ---
 ## Раздел: 02-anthropic-vacancies
@@ -201,6 +209,14 @@ _Не найдено в этом файле._
 
 _Не найдено в этом файле._
 
+## Кто ключевые авторы проектов для контакта?
+
+_Не найдено в этом файле._
+
+## Какие вопросы лучше задавать авторам при первом контакте?
+
+_Не найдено в этом файле._
+
 
 ---
 ## Раздел: 04-ai-collaborations
@@ -265,6 +281,14 @@ _Не найдено в этом файле._
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
+## Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: **research**, **inference**, **product**
+
+## Какие роли наиболее релевантны для профиля svend4?
+
+_Не найдено в этом файле._
 
 
 ---
@@ -403,21 +427,3 @@ _Не найдено в этом файле._
 ## Как работает spec-driven подход в AI Factory?
 
 Упоминаются: **spec**, **patch**, **skill**, **self-learning**
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [09 Architectural Gaps](01-svyazi/09-architectural-gaps.md)
-- [docs](README.md)
-- [Архитектурные зазоры, которые важнее новых инструментов](04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Q&A: 01-svyazi](01-svyazi/QA.md) _73%_
-- [Q&A: 04-ai-collaborations](04-ai-collaborations/QA.md) _73%_
-- [Q&A: 02-anthropic-vacancies](02-anthropic-vacancies/QA.md) _37%_
-- [Q&A: 03-technology-combinations](03-technology-combinations/QA.md) _29%_
-- [Q&A: 05-habr-projects](05-habr-projects/QA.md) _29%_

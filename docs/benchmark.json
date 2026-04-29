@@ -181,116 +181,233 @@
         "improve_concept_graph.py": 0.49
       },
       "total": 151.0
+    },
+    {
+      "date": "2026-04-29",
+      "timestamp": "2026-04-29T16:01:31.585850",
+      "scripts": {
+        "improve_merge_short.py": 0.96,
+        "improve_readmes.py": 0.46,
+        "improve_summaries.py": 0.56,
+        "improve_tags.py": 0.12,
+        "improve_toc.py": 0.17,
+        "improve_autocorrect.py": 3.9,
+        "improve_glossary.py": 3.58,
+        "improve_crossrefs.py": 3.62,
+        "improve_index_update.py": 0.78,
+        "improve_timeline.py": 1.98,
+        "improve_dedup.py": 1.62,
+        "improve_word_freq.py": 0.96,
+        "improve_priorities.py": 0.92,
+        "improve_complexity.py": 1.09,
+        "improve_sentiment.py": 0.86,
+        "improve_density.py": 7.23,
+        "improve_heatmap.py": 0.87,
+        "improve_action_items.py": 2.92,
+        "improve_decisions.py": 2.06,
+        "improve_questions.py": 3.29,
+        "improve_kpi.py": 1.98,
+        "improve_entities.py": 11.8,
+        "improve_concepts.py": 10.82,
+        "improve_abbreviations.py": 23.61,
+        "improve_extract_tables.py": 0.16,
+        "improve_extract_code.py": 0.18,
+        "improve_consistency.py": 5.45,
+        "improve_missing.py": 3.5,
+        "improve_orphans.py": 0.68,
+        "improve_validate.py": 0.6,
+        "improve_metrics.py": 0.58,
+        "improve_alerts.py": 0.28,
+        "improve_spellcheck.py": 0.44,
+        "improve_readability_v2.py": 1.32,
+        "improve_content_gaps.py": 0.7,
+        "improve_graph.py": 0.25,
+        "improve_mindmap.py": 0.02,
+        "improve_network.py": 1.43,
+        "improve_narrative.py": 0.08,
+        "improve_templates.py": 0.03,
+        "improve_autofill.py": 0.03,
+        "improve_footnotes.py": 0.09,
+        "improve_see_also.py": 5.76,
+        "improve_faq.py": 0.62,
+        "improve_badges.py": 0.17,
+        "improve_qa.py": 1.33,
+        "improve_contacts.py": 1.17,
+        "improve_changelog.py": 0.04,
+        "improve_reading_order.py": 0.09,
+        "improve_stats.py": 0.84,
+        "improve_health.py": 0.16,
+        "improve_compare.py": 2.31,
+        "improve_sitemap.py": 0.13,
+        "improve_scoring.py": 0.39,
+        "improve_cost.py": 0.8,
+        "improve_schedule.py": 0.03,
+        "improve_progress.py": 0.12,
+        "improve_progress_sync.py": 0.03,
+        "improve_contact_priority.py": 0.03,
+        "improve_staleness.py": 2.9,
+        "improve_coverage.py": 0.16,
+        "improve_report.py": 0.17,
+        "improve_export_csv.py": 0.51,
+        "improve_rss.py": 0.21,
+        "improve_github_issues.py": 0.72,
+        "improve_ci_config.py": 0.03,
+        "improve_pre_commit.py": 0.03,
+        "improve_dependabot.py": 0.78,
+        "improve_citation_index.py": 0.15,
+        "improve_reading_time.py": 0.59,
+        "improve_version_diff.py": 4.02,
+        "improve_outline.py": 0.43,
+        "improve_subtopic_fill.py": 8.07,
+        "improve_crosslink_all.py": 0.79,
+        "improve_source_map.py": 34.58,
+        "improve_auto_toc.py": 0.41,
+        "improve_abstract.py": 1.98,
+        "improve_paragraph_quality.py": 1.19,
+        "improve_vocabulary_richness.py": 0.5,
+        "improve_named_entity_index.py": 4.54,
+        "improve_timeline_events.py": 1.87,
+        "improve_contradiction_check.py": 1.93,
+        "improve_concept_graph.py": 0.48
+      },
+      "total": 183.0
     }
   ],
   "scripts": {
     "improve_merge_short.py": [
       0.05,
-      0.08
+      0.08,
+      0.96
     ],
     "improve_readmes.py": [
       0.07,
-      0.12
+      0.12,
+      0.46
     ],
     "improve_summaries.py": [
       0.27,
-      0.53
+      0.53,
+      0.56
     ],
     "improve_tags.py": [
       0.11,
-      0.16
+      0.16,
+      0.12
     ],
     "improve_toc.py": [
       0.11,
-      0.16
+      0.16,
+      0.17
     ],
     "improve_autocorrect.py": [
       1.64,
-      3.34
+      3.34,
+      3.9
     ],
     "improve_glossary.py": [
       1.58,
-      3.28
+      3.28,
+      3.58
     ],
     "improve_crossrefs.py": [
       1.65,
-      3.32
+      3.32,
+      3.62
     ],
     "improve_index_update.py": [
       0.3,
-      0.74
+      0.74,
+      0.78
     ],
     "improve_timeline.py": [
       0.85,
-      1.67
+      1.67,
+      1.98
     ],
     "improve_dedup.py": [
       0.59,
-      1.48
+      1.48,
+      1.62
     ],
     "improve_word_freq.py": [
       0.37,
-      0.79
+      0.79,
+      0.96
     ],
     "improve_priorities.py": [
       0.41,
-      0.77
+      0.77,
+      0.92
     ],
     "improve_complexity.py": [
       0.43,
-      0.89
+      0.89,
+      1.09
     ],
     "improve_sentiment.py": [
       0.38,
-      0.73
+      0.73,
+      0.86
     ],
     "improve_density.py": [
       1.75,
-      5.83
+      5.83,
+      7.23
     ],
     "improve_heatmap.py": [
       0.82,
-      0.72
+      0.72,
+      0.87
     ],
     "improve_action_items.py": [
       1.32,
-      2.66
+      2.66,
+      2.92
     ],
     "improve_decisions.py": [
       0.92,
-      1.8
+      1.8,
+      2.06
     ],
     "improve_questions.py": [
       1.68,
-      2.74
+      2.74,
+      3.29
     ],
     "improve_kpi.py": [
       0.85,
-      1.62
+      1.62,
+      1.98
     ],
     "improve_entities.py": [
       5.21,
-      10.61
+      10.61,
+      11.8
     ],
     "improve_concepts.py": [
       5.55,
-      9.94
+      9.94,
+      10.82
     ],
     "improve_abbreviations.py": [
       8.18,
-      19.72
+      19.72,
+      23.61
     ],
     "improve_extract_tables.py": [
       0.09,
-      0.14
+      0.14,
+      0.16
     ],
     "improve_extract_code.py": [
       0.1,
-      0.17
+      0.17,
+      0.18
     ],
     "improve_consistency.py": [
       2.61,
-      5.18
+      5.18,
+      5.45
     ],
     "improve_broken_links.py": [
       0.28,
@@ -298,227 +415,283 @@
     ],
     "improve_missing.py": [
       1.59,
-      3.31
+      3.31,
+      3.5
     ],
     "improve_orphans.py": [
       0.4,
-      0.46
+      0.46,
+      0.68
     ],
     "improve_validate.py": [
       0.15,
-      0.44
+      0.44,
+      0.6
     ],
     "improve_metrics.py": [
       0.26,
-      0.47
+      0.47,
+      0.58
     ],
     "improve_alerts.py": [
       0.17,
-      0.26
+      0.26,
+      0.28
     ],
     "improve_spellcheck.py": [
       0.21,
-      0.39
+      0.39,
+      0.44
     ],
     "improve_readability_v2.py": [
       0.63,
-      1.26
+      1.26,
+      1.32
     ],
     "improve_content_gaps.py": [
       0.3,
-      0.68
+      0.68,
+      0.7
     ],
     "improve_graph.py": [
       0.13,
-      0.22
+      0.22,
+      0.25
     ],
     "improve_mindmap.py": [
+      0.02,
       0.02,
       0.02
     ],
     "improve_network.py": [
       0.71,
-      1.36
+      1.36,
+      1.43
     ],
     "improve_narrative.py": [
       0.08,
-      0.07
+      0.07,
+      0.08
     ],
     "improve_templates.py": [
       0.03,
-      0.02
+      0.02,
+      0.03
     ],
     "improve_autofill.py": [
       0.04,
+      0.03,
       0.03
     ],
     "improve_footnotes.py": [
       0.04,
-      0.04
+      0.04,
+      0.09
     ],
     "improve_see_also.py": [
       5.39,
-      5.59
+      5.59,
+      5.76
     ],
     "improve_faq.py": [
       0.3,
-      0.55
+      0.55,
+      0.62
     ],
     "improve_badges.py": [
       0.09,
-      0.16
+      0.16,
+      0.17
     ],
     "improve_qa.py": [
       0.5,
-      1.22
+      1.22,
+      1.33
     ],
     "improve_contacts.py": [
       0.57,
-      1.06
+      1.06,
+      1.17
     ],
     "improve_changelog.py": [
       0.03,
-      0.03
+      0.03,
+      0.04
     ],
     "improve_reading_order.py": [
       0.08,
-      0.07
+      0.07,
+      0.09
     ],
     "improve_stats.py": [
       0.41,
-      0.74
+      0.74,
+      0.84
     ],
     "improve_health.py": [
       0.09,
-      0.15
+      0.15,
+      0.16
     ],
     "improve_compare.py": [
       0.9,
-      1.12
+      1.12,
+      2.31
     ],
     "improve_sitemap.py": [
       0.08,
-      0.12
+      0.12,
+      0.13
     ],
     "improve_scoring.py": [
       0.19,
-      0.36
+      0.36,
+      0.39
     ],
     "improve_cost.py": [
       0.38,
-      0.71
+      0.71,
+      0.8
     ],
     "improve_schedule.py": [
       0.03,
-      0.02
+      0.02,
+      0.03
     ],
     "improve_progress.py": [
       0.07,
-      0.1
+      0.1,
+      0.12
     ],
     "improve_progress_sync.py": [
+      0.03,
       0.03,
       0.03
     ],
     "improve_contact_priority.py": [
       0.03,
-      0.02
+      0.02,
+      0.03
     ],
     "improve_staleness.py": [
       2.0,
-      4.07
+      4.07,
+      2.9
     ],
     "improve_coverage.py": [
       0.15,
-      0.14
+      0.14,
+      0.16
     ],
     "improve_report.py": [
       0.09,
-      0.15
+      0.15,
+      0.17
     ],
     "improve_export_csv.py": [
       0.26,
-      0.46
+      0.46,
+      0.51
     ],
     "improve_rss.py": [
       0.15,
-      0.14
+      0.14,
+      0.21
     ],
     "improve_github_issues.py": [
       0.37,
-      0.69
+      0.69,
+      0.72
     ],
     "improve_ci_config.py": [
       0.03,
-      0.02
+      0.02,
+      0.03
     ],
     "improve_pre_commit.py": [
+      0.03,
       0.03,
       0.03
     ],
     "improve_dependabot.py": [
       0.43,
-      0.68
+      0.68,
+      0.78
     ],
     "improve_citation_index.py": [
       0.09,
+      0.15,
       0.15
     ],
     "improve_reading_time.py": [
       0.29,
-      0.54
+      0.54,
+      0.59
     ],
     "improve_version_diff.py": [
       0.33,
-      2.06
+      2.06,
+      4.02
     ],
     "improve_outline.py": [
       0.36,
-      0.4
+      0.4,
+      0.43
     ],
     "improve_subtopic_fill.py": [
       17.44,
-      19.14
+      19.14,
+      8.07
     ],
     "improve_crosslink_all.py": [
       0.48,
-      0.55
+      0.55,
+      0.79
     ],
     "improve_source_map.py": [
       6.43,
-      9.9
+      9.9,
+      34.58
     ],
     "improve_auto_toc.py": [
       0.22,
-      0.4
+      0.4,
+      0.41
     ],
     "improve_abstract.py": [
       1.53,
-      1.59
+      1.59,
+      1.98
     ],
     "improve_paragraph_quality.py": [
       0.99,
-      0.96
+      0.96,
+      1.19
     ],
     "improve_vocabulary_richness.py": [
       0.4,
-      0.45
+      0.45,
+      0.5
     ],
     "improve_named_entity_index.py": [
       3.75,
-      3.75
+      3.75,
+      4.54
     ],
     "improve_timeline_events.py": [
       1.39,
-      1.61
+      1.61,
+      1.87
     ],
     "improve_contradiction_check.py": [
       2.04,
-      1.96
+      1.96,
+      1.93
     ],
     "improve_concept_graph.py": [
       0.47,
-      0.49
+      0.49,
+      0.48
     ]
   }
 }

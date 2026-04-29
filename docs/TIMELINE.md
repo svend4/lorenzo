@@ -2,17 +2,13 @@
 
 _Обновлено: 2026-04-29_
 
-Период: **2020–2030** | Событий: **364**
+Период: **2020–2030** | Событий: **360**
 
 
-## 2020 (4 упоминаний)
+## 2020 (3 упоминаний)
 
 - 🔔 **2020** · _220. 📝_  
   📝 Изменённые файлы (16) Файл: docs/obsidian/VERSIONDIFF.md 4 колонок, 16 строк Файл Δ слов Добавленные темы Удалённые те  
-  `TABLES.md`
-
-- 🔔 **2020** · _141. 📝_  
-  📝 Изменённые файлы (16) Файл: docs/VERSIONDIFF.md 4 колонок, 16 строк Файл Δ слов Добавленные темы Удалённые темы ------  
   `TABLES.md`
 
 - 📌 **2020** · _Multi-Agent Systems_  
@@ -77,17 +73,17 @@ _Обновлено: 2026-04-29_
   `342-что-такое-вариант-c-concept-document-для-anthropic.md`
 
 - 📌 **2023** · _Callout-блоки_  
-  Тип Количество Назначение ----------------------------- !NOTE 0 Нейтральная заметка !TIP 63 Практический совет !WARNING   
+  Тип Количество Назначение ----------------------------- !NOTE 0 Нейтральная заметка !TIP 51 Практический совет !WARNING   
   `ALERTS.md`
 
 
-## 2024 (33 упоминаний)
+## 2024 (34 упоминаний)
 
 - 🔔 **2024-01-01** · _Конфигурация: см. R_  
   README-MCP.md python FORMATTYPESHUMANITIES = Законодательные "lawsection", статья закона (§ 90 SGB XII) "lawparagraph",   
   `133-обратная-связь.md`
 
-- 🔔 **2024-01-01** · _132. Точная дата (2492)_  
+- 🔔 **2024-01-01** · _135. Точная дата (2918)_  
   Содержит: issuer, addressee, дата, срок Widerspruc docs/02-anthropic-vacancies/133-обратная-связь.md 2024-01-01 Темпорал  
   `TABLES.md`
 
@@ -100,16 +96,12 @@ _Обновлено: 2026-04-29_
   `218-7-application-domains.md`
 
 - 🔔 **2024** · _Глоссарий понятий_  
-  Определения извлечены автоматически из документов. Извлечено понятий: 899 (из 2045 совпадений) A a coherent composite ag  
+  Определения извлечены автоматически из документов. Извлечено понятий: 901 (из 2057 совпадений) A a coherent composite ag  
   `CONCEPTS.md`
 
-- 🔔 **2024** · _Стоимость (539)_  
-  Economic layer: - Base stipend для active contributors (€500-1500/month part 150-appendix-c-version-hi ...ещё 519 Размер  
+- 🔔 **2024** · _Стоимость (541)_  
+  Economic layer: - Base stipend для active contributors (€500-1500/month part 150-appendix-c-version-hi ...ещё 521 Размер  
   `KPI.md`
-
-- 🔔 **2024** · _Рекомендуемый порядок чтения_  
-  Closing(obsidian/02-anthropic-vacancies/181-12-closing.md) 281 — 215 🟢 Начало Acknowledgments(obsidian/02-anthropic-vaca  
-  `READING_ORDER.md`
 
 - 🔔 **2024**  
   Расписание проекта Дорожная карта с вехами и задачами по кварталам. Ключевые вехи Срок Веха Статус --------------------   
@@ -127,15 +119,15 @@ _Обновлено: 2026-04-29_
   Ключевые вехи Файл: docs/obsidian/SCHEDULE.md 3 колонок, 10 строк Срок Веха Статус -------------------- 2024-Q4 ✅ Исслед  
   `TABLES.md`
 
-- 🔔 **2024** · _66. К_  
-  Количество (306) Файл: docs/KPI.md 3 колонок, 8 строк Значение Контекст Источник ----------------------------- 80 y‑слое  
+- 🔔 **2024** · _69. К_  
+  Количество (321) Файл: docs/KPI.md 3 колонок, 8 строк Значение Контекст Источник ----------------------------- 80 y‑слое  
   `TABLES.md`
 
-- 🔔 **2024** · _92. Содержание_  
+- 🔔 **2024** · _95. Содержание_  
   Closing(obsidian/02-anthropic-vacancies/181-12-closing.md) 281 — 215 🟢 Начало Acknowledgments(obsidian/02-anthropic-vaca  
   `TABLES.md`
 
-- 🔔 **2024** · _100. К_  
+- 🔔 **2024** · _103. К_  
   Ключевые вехи Файл: docs/SCHEDULE.md 3 колонок, 10 строк Срок Веха Статус -------------------- 2024-Q4 ✅ Исследование ко  
   `TABLES.md`
 
@@ -163,12 +155,16 @@ _Обновлено: 2026-04-29_
   Why Now Three trends converge to make this infrastructure newly feasible: First, AI capabilities (particularly LLM-based  
   `155-1-problem-statement.md`
 
-_...ещё 13 упоминаний в 2024_
+- 📌 **2024** · _1.3. Why Now_  
+  Third, regulatory frameworks are catching up: EU Platform Work Directive (2024), EU AI Act (2024), various national init  
+  `155-1-problem-statement.md`
+
+_...ещё 14 упоминаний в 2024_
 
 
 ## 2025 (27 упоминаний)
 
-- 🔔 **2025-02** · _134. Точная дата (2492)_  
+- 🔔 **2025-02** · _137. Точная дата (2918)_  
   Теперь по существ docs/02-anthropic-vacancies/150-appendix-c-version-history.md май 2025 am building (статья Mandelbro в  
   `TABLES.md`
 
@@ -224,11 +220,11 @@ _...ещё 13 упоминаний в 2024_
   Предыстория «Обучай» — российский AI-сервис для школьных учителей, запущенный осенью 2025 года Константином Чукавиным (т  
   `234-3-эмпирический-кейс-обучай.md`
 
-- 📌 **2025** · _133. Точная дата (2492)_  
+- 📌 **2025** · _136. Точная дата (2918)_  
   Формулировка «Синдром Золушки» и расширение к социальным docs/02-anthropic-vacancies/203-благодарности.md 2025 год Кирил  
   `TABLES.md`
 
-- 📌 **2025-11-12** · _132. Точная дата (2492)_  
+- 📌 **2025-11-12** · _135. Точная дата (2918)_  
   2026 docs/02-anthropic-vacancies/133-обратная-связь.md 2025-11-12 икальный ID: sozialamtdresden:bescheid:2025-11-12:SO-1  
   `TABLES.md`
 
@@ -251,17 +247,17 @@ _...ещё 13 упоминаний в 2024_
 _...ещё 7 упоминаний в 2025_
 
 
-## 2026 (284 упоминаний)
+## 2026 (280 упоминаний)
 
 - 🔔 **2026-01** · _History_  
   дата первого коммита Ключевые этапы: - Формирование Q6-концептуальной базы - Embedded-версия Nautilus Portal в подпапке   
   `53-history.md`
 
-- 🔔 **2026-01** · _134. Точная дата (2492)_  
+- 🔔 **2026-01** · _137. Точная дата (2918)_  
   Автор интегрировал, расширил и сохранил редакторские docs/02-anthropic-vacancies/203-благодарности.md Сентябрь 2025 --/   
   `TABLES.md`
 
-- 🔔 **2026-01** · _134. Точная дата (2492)_  
+- 🔔 **2026-01** · _137. Точная дата (2918)_  
   Проект 3: Brain docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md март 2026 азработк  
   `TABLES.md`
 
@@ -269,11 +265,11 @@ _...ещё 7 упоминаний в 2025_
   History > Создан: февраль 2026 (судя по repo creation date) --- History Создан: февраль 2026 (судя по repo creation date  
   `63-history.md`
 
-- 🔔 **2026-02-01** · _132. Точная дата (2492)_  
+- 🔔 **2026-02-01** · _135. Точная дата (2918)_  
   Дата документации — 2026-02-01, то есть проект активно развивался около двух-трёх месяцев docs/02-anthropic-vacancies/30  
   `TABLES.md`
 
-- 🔔 **2026-02** · _134. Точная дата (2492)_  
+- 🔔 **2026-02** · _137. Точная дата (2918)_  
   Cowork конкр docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md февраля 2026 I-агент от Nous R  
   `TABLES.md`
 
@@ -285,29 +281,17 @@ _...ещё 7 упоминаний в 2025_
   OpenClaw foundation (after Steinberger transition) — independent foundation governance Самое важное наблюдение из этого   
   `341-приложение-c-образец-спецификаций-инструментов-ing.md`
 
-- 🔔 **2026-03** · _Версия (426)_  
-  К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё TABLES 5.0.6 2026 \\ азработка : версии HMP-0001   
-  `KPI.md`
-
 - 🔔 **2026-03** · _155. Количество (134)_  
   К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё TABLES 5.0.6 2026 \ азработка : версии HMP-0001 →  
   `TABLES.md`
 
-- 🔔 **2026-03** · _67. Количество (306)_  
-  К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё TABLES 5.0.6 2026 \\ азработка : версии HMP-0001   
-  `TABLES.md`
-
-- 🔔 **2026-03** · _134. Точная дата (2492)_  
+- 🔔 **2026-03** · _137. Точная дата (2918)_  
   К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звёзд на docs/02-anthropic-vacancies/341-приложение-c  
   `TABLES.md`
 
 - 🔔 **2026-04-01**  
   PORTAL-PROTOCOL.md > Status: Draft (Working Document) --- PORTAL-PROTOCOL.md markdown markdown Nautilus Portal Protocol   
   `03-portal-protocol-md.md`
-
-- 🔔 **2026-04-01**  
-  A Formal Model for Human-AI Collaboration in Distributed Knowledge Work > Editorial review: Claude (intellectual collabo  
-  `135-a-formal-model-for-human-ai-collaboration-in-distr.md`
 
 - 🔔 **2026-04-01** · _4.3. Empirical Evidence from Nautilus Reference Implementation_  
   As of 2026-04: - 6,782 lines of Python, 13 adapters, 60 tests passing, 0 mypy errors - 7 knowledge repositories federate  
@@ -333,7 +317,19 @@ _...ещё 7 упоминаний в 2025_
   --- Passport version: 1.0 · Protocol: NPP v1.0(../PORTAL-PROTOCOL.md) · Last updated: 2026-04 --- Паспорт 2 из 3 --- Пох  
   `44-for-the-curious-philosophy.md`
 
-_...ещё 264 упоминаний в 2026_
+- 🔔 **2026-04-01** · _For the Curious: Philosophy_  
+  --- Passport version: 1.0 · Protocol: NPP v1.0(../PORTAL-PROTOCOL.md) · Last updated: 2026-04 --- Паспорт 3 из 3 --- Пох  
+  `54-for-the-curious-philosophy.md`
+
+- 🔔 **2026-04-01** · _For the Curious: Philosophy_  
+  --- Passport version: 1.0 · Protocol: NPP v1.0(../PORTAL-PROTOCOL.md) · Last updated: 2026-04 --- Комментарий к трём пас  
+  `64-for-the-curious-philosophy.md`
+
+- 🔔 **2026-04-01** · _Содержание_  
+  > 🏷️ Ключевые слова: svyazi, search, memory, только, privacy, security, прототипа, контакты > Статус Параметр Значение -  
+  `06-безопасность-приватность-и-бюджетный-роутинг.md`
+
+_...ещё 260 упоминаний в 2026_
 
 
 ## 2027 (2 упоминаний)
@@ -342,7 +338,7 @@ _...ещё 264 упоминаний в 2026_
   Y Combinator Winter 2027 batch — если решите упаковать кластер 1 как LegalTech-стартап.  
   `00-intro.md`
 
-- 📌 **2027** · _133. Точная дата (2492)_  
+- 📌 **2027** · _136. Точная дата (2918)_  
   К апр docs/TABLES.md 2027 год ic-vacancies/244-благодарности.md / / 2027 год / к функциональности Projects через 2026-20  
   `TABLES.md`
 
@@ -360,23 +356,3 @@ _...ещё 264 упоминаний в 2026_
   Проекты (22) Файл: docs/obsidian/ENTITIES.md 3 колонок, 22 строк Проект Упоминаний Файлов -----------------------------   
   `TABLES.md`
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [12. Versioning Policy](02-anthropic-vacancies/24-12-versioning-policy.md)
-- [Appendix B: Change Log](02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [For the Curious: Philosophy](02-anthropic-vacancies/64-for-the-curious-philosophy.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-- [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Все таблицы репозитория](TABLES.md) _25%_
-- [Валидация структуры репозитория](VALIDATION.md) _21%_
-- [Code-блоки репозитория](CODE_BLOCKS.md) _17%_
-- [Отчёт о дублировании](DUPLICATES.md) _17%_
-- [Индекс именованных сущностей](NAMED_ENTITIES.md) _17%_
-- [Карта происхождения текстов](SOURCE_MAP.md) _17%_

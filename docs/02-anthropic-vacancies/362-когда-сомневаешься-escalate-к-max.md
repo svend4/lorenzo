@@ -1,5 +1,10 @@
 # Когда сомневаешься — escalate к Max
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - Ethical complexity beyond обычных protocols
 

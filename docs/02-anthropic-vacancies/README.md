@@ -33,7 +33,7 @@
 - [118-appendix-a-шаблон-для-header-warning.md](118-appendix-a-шаблон-для-header-warning.md) — <!-- summary -->
 - [119-appendix-b-примеры-расхождений-и-их-разрешения.md](119-appendix-b-примеры-расхождений-и-их-разрешения.md) — <!-- tags: architecture, anthropic -->
 - [12-content-overview.md](12-content-overview.md) — <!-- summary -->
-- [120-главные-технические-риски.md](120-главные-технические-риски.md) — <!-- summary -->
+- [120-главные-технические-риски.md](120-главные-технические-риски.md) — > [!WARNING]
 - [121-appendix-c-история-изменений-методологии.md](121-appendix-c-история-изменений-методологии.md) — <!-- summary -->
 - [122-глоссарий.md](122-глоссарий.md) — > [!WARNING]
 - [123-portal-mcp-py.md](123-portal-mcp-py.md) — > [!IMPORTANT]
@@ -242,7 +242,7 @@
 - [311-3-what-ingit-provides-that-cowork-lacks.md](311-3-what-ingit-provides-that-cowork-lacks.md) — <!-- summary -->
 - [312-4-the-symbiotic-architecture.md](312-4-the-symbiotic-architecture.md) — <!-- toc -->
 - [313-5-four-integration-paths-in-order-of-accessibility.md](313-5-four-integration-paths-in-order-of-accessibility.md) — <!-- summary -->
-- [314-6-refined-ingit-scope-with-cowork-in-mind.md](314-6-refined-ingit-scope-with-cowork-in-mind.md) — > [!TIP]
+- [314-6-refined-ingit-scope-with-cowork-in-mind.md](314-6-refined-ingit-scope-with-cowork-in-mind.md) — <!-- toc -->
 - [315-7-practical-first-steps-this-month.md](315-7-practical-first-steps-this-month.md) — <!-- tags: architecture, anthropic -->
 - [316-8-implications-for-nautilus-and-okwf.md](316-8-implications-for-nautilus-and-okwf.md) — <!-- toc -->
 - [317-9-risks-and-open-questions.md](317-9-risks-and-open-questions.md) — <!-- toc -->
@@ -260,7 +260,7 @@
 - [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md](329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) — > [!IMPORTANT]
 - [330-4-симбиотическая-архитектура.md](330-4-симбиотическая-архитектура.md) — <!-- toc -->
 - [331-5-четыре-пути-интеграции-в-порядке-доступности.md](331-5-четыре-пути-интеграции-в-порядке-доступности.md) — > [!TIP]
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork.md](332-6-уточнённый-объём-ingit-с-учётом-cowork.md) — > [!TIP]
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork.md](332-6-уточнённый-объём-ingit-с-учётом-cowork.md) — <!-- toc -->
 - [333-7-практические-первые-шаги-в-этом-месяце.md](333-7-практические-первые-шаги-в-этом-месяце.md) — <!-- toc-auto -->
 - [334-8-импликации-для-nautilus-и-okwf.md](334-8-импликации-для-nautilus-и-okwf.md) — <!-- toc -->
 - [335-9-риски-и-открытые-вопросы.md](335-9-риски-и-открытые-вопросы.md) — <!-- toc -->
@@ -364,15 +364,3 @@
 ## Подразделы
 
 - [clusters/](clusters/) — Кластеры вакансий
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Карта происхождения текстов](../SOURCE_MAP.md) _48%_
-- [Рекомендуемый порядок чтения](../READING_ORDER.md) _42%_
-- [Abstract](307-abstract.md) _29%_
-- [Кластеры тематически близких файлов](../CLUSTERS.md) _29%_
-- [Table of Contents](253-table-of-contents.md) _25%_
-- [Время чтения документов](../READING_TIME.md) _25%_
-- [1. The Cowork Discovery and Why It Changes Everything](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _21%_
-- [10. Strategic Positioning](318-10-strategic-positioning.md) _21%_

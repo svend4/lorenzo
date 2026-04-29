@@ -1,5 +1,10 @@
 # Контакт: tagir_analyzes / Legal RAG
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
 **Проекты:** Svyazi, AgentFS, Rufler, LiteParse, Legal RAG, Graph RAG, SENTINEL, Auto AI Router

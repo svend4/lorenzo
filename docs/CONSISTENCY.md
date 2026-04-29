@@ -4,14 +4,14 @@
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledge space` | 16 |
+| **knowledge-space** | `knowledge-space` | `knowledge space` | 15 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 3 |
 | **knowledge-space** | `knowledge-space` | `knowledgespace` | 3 |
 | **CardIndex** | `CardIndex` | `card-index` | 3 |
 | **AI Factory** | `AI Factory` | `AI-Factory` | 6 |
 | **NGT Memory** | `NGT Memory` | `NGT-Memory` | 54 |
 | **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 5 |
-| **self-improvement** | `self-improvement` | `self-improve` | 144 |
+| **self-improvement** | `self-improvement` | `self-improve` | 145 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 4 |
 
@@ -26,9 +26,9 @@
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
 - `docs/CONCEPTS.md`
-- `docs/DUPLICATES.md`
 - `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 11_
+- `docs/obsidian/CONCEPTS.md`
+- _...и ещё 10_
 
 ### `knowledge_space` → должно быть `knowledge-space`
 
@@ -81,7 +81,7 @@
 - `docs/READING_TIME.md`
 - `docs/CONTENT_GAPS.md`
 - `docs/TABLES.md`
-- _...и ещё 139_
+- _...и ещё 140_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
@@ -105,20 +105,3 @@
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Приоритеты файлов](PRIORITIES.md) _25%_
-- [Перекрёстные ссылки](CROSSREFS.md) _21%_
-- [Граф связей проектов](GRAPH.md) _21%_
-- [Нарратив проекта Lorenzo](NARRATIVE.md) _21%_
-- [Приоритетные ансамбли](04-ai-collaborations/04-приоритетные-ансамбли.md) _17%_
-- [Матрица компонентов Svyazi 2.0](COMPONENT_MATRIX.md) _17%_

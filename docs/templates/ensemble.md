@@ -52,21 +52,7 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [project-component](../obsidian/templates/project-component.md)
-- [decision-record](../obsidian/templates/decision-record.md)
-- [research-summary](../autofilled/research-summary.md)
+- [project-component](docs/templates/project-component.md)
+- [decision-record](docs/templates/decision-record.md)
+- [research-summary](docs/obsidian/autofilled/research-summary.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Appendix B: Примеры расхождений и их разрешения](../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
-- [Что этот документ не решает](../02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
-- [Шаблоны документов](README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [ADR: [Название решения]](decision-record.md) _25%_
-- [[Название компонента]](project-component.md) _21%_
-- [[Тема исследования]](research-note.md) _21%_
-- [Шаблоны документов](README.md) _17%_

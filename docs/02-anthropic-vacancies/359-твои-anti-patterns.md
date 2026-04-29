@@ -1,5 +1,10 @@
 # Твои anti-patterns
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > ❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»
 

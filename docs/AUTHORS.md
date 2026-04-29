@@ -4,41 +4,28 @@
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 72 |
-| **Antipozitive** | 42 |
+| **AnastasiyaW** | 80 |
+| **Antipozitive** | 50 |
 | **BerriAI** | 14 |
-| **Cutcode** | 73 |
-| **Dmitriila** | 66 |
-| **MiXaiLL76** | 64 |
-| **Sonia_Black** | 31 |
+| **Cutcode** | 75 |
+| **Dmitriila** | 69 |
+| **MiXaiLL76** | 67 |
+| **Sonia_Black** | 38 |
 | **VitaliySemenov** | 8 |
-| **VitalyOborin** | 65 |
-| **VladSpace** | 68 |
+| **VitalyOborin** | 72 |
+| **VladSpace** | 69 |
 | **akazant** | 12 |
 | **akzhankalimatov** | 8 |
-| **andrey_chuyan** | 33 |
+| **andrey_chuyan** | 44 |
 | **iximy** | 10 |
-| **kksudo** | 129 |
+| **kksudo** | 134 |
 | **lee-to** | 16 |
 | **lib4u** | 15 |
 | **moshael** | 12 |
-| **nlaik** | 43 |
-| **spbmolot** | 125 |
-| **tagir_analyzes** | 38 |
+| **nlaik** | 49 |
+| **spbmolot** | 128 |
+| **tagir_analyzes** | 41 |
 | **vpakspace** | 8 |
-| **zodigancode** | 54 |
+| **zodigancode** | 59 |
 | **Андрей Чуян** | 40 |
 | **Виталий Оборин** | 14 |
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [contacts](contacts/README.md) _29%_
-- [Контакты и авторы](CONTACTS.md) _21%_

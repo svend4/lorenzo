@@ -1,5 +1,24 @@
 # 12. Onboarding Paths (Normative)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
+  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
+  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
+  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
+  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
+  - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
+  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 

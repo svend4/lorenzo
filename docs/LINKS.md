@@ -1,6 +1,11 @@
 # Индекс ссылок
 
-Всего уникальных URL: 195
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+Всего уникальных URL: 211
 
 | URL | Найден в файлах |
 |-----|-----------------|
@@ -21,33 +26,43 @@
 | https://github.com/AnastasiyaW | 7 |
 | https://github.com/AnastasiyaW/knowledge-space | 11 |
 | https://github.com/AnastasiyaW/knowledge-space` | 7 |
-| https://github.com/AnastasiyaW` | 3 |
+| https://github.com/AnastasiyaW` | 5 |
 | https://github.com/Antipozitive | 7 |
+| https://github.com/Antipozitive` | 2 |
 | https://github.com/Cutcode | 7 |
+| https://github.com/Cutcode` | 2 |
 | https://github.com/Dmitriila | 7 |
+| https://github.com/Dmitriila` | 2 |
 | https://github.com/MiXaiLL76 | 7 |
+| https://github.com/MiXaiLL76` | 2 |
 | https://github.com/Sonia_Black | 7 |
+| https://github.com/Sonia_Black` | 2 |
 | https://github.com/VitalyOborin | 7 |
-| https://github.com/VitalyOborin/yodoca | 3 |
-| https://github.com/VladSpace | 7 |
-| https://github.com/andrey_chuyan | 7 |
-| https://github.com/anthropics/mcp | 9 |
-| https://github.com/anthropics/mcp` | 7 |
-| https://github.com/camel-ai/camel | 9 |
-| https://github.com/camel-ai/camel` | 2 |
+| https://github.com/VitalyOborin/yodoca | 6 |
+| https://github.com/VitalyOborin` | 1 |
+| https://github.com/VladSpace | 6 |
+| https://github.com/VladSpace` | 1 |
+| https://github.com/andrey_chuyan | 6 |
+| https://github.com/andrey_chuyan` | 1 |
+| https://github.com/anthropics/mcp | 8 |
+| https://github.com/anthropics/mcp` | 6 |
+| https://github.com/camel-ai/camel | 8 |
+| https://github.com/camel-ai/camel` | 4 |
 | https://github.com/kksudo | 6 |
-| https://github.com/kksudo/agentfs | 2 |
-| https://github.com/kksudo` | 2 |
+| https://github.com/kksudo/agentfs | 6 |
+| https://github.com/kksudo` | 4 |
 | https://github.com/mcp | 12 |
 | https://github.com/mcp` | 6 |
 | https://github.com/nlaik | 6 |
+| https://github.com/nlaik` | 1 |
 | https://github.com/settings/tokens | 8 |
 | https://github.com/settings/tokens` | 6 |
 | https://github.com/spbmolot | 6 |
-| https://github.com/spbmolot/ngt-memory | 2 |
-| https://github.com/spbmolot` | 2 |
+| https://github.com/spbmolot/ngt-memory | 5 |
+| https://github.com/spbmolot/… | 2 |
+| https://github.com/spbmolot` | 4 |
 | https://github.com/svend4/ | 6 |
-| https://github.com/svend4/` | 4 |
+| https://github.com/svend4/` | 5 |
 | https://github.com/svend4/data70 | 10 |
 | https://github.com/svend4/data70` | 6 |
 | https://github.com/svend4/info1 | 16 |
@@ -62,10 +77,12 @@
 | https://github.com/svend4/meta` | 6 |
 | https://github.com/svend4/nautilus | 28 |
 | https://github.com/svend4/nautilus.git | 6 |
+| https://github.com/svend4/nautilus.git` | 1 |
 | https://github.com/svend4/nautilus/blob/claude/review-nautilus-changes-tdywx/README.md | 6 |
 | https://github.com/svend4/nautilus/blob/main/INTEGRATION.md | 6 |
 | https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL | 6 |
 | https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md | 5 |
+| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL` | 1 |
 | https://github.com/svend4/nautilus/blob/main/README.md | 6 |
 | https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md | 5 |
 | https://github.com/svend4/nautilus/blob/main/STATUS.md | 6 |
@@ -75,107 +92,111 @@
 | https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_4.md | 6 |
 | https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md | 5 |
 | https://github.com/svend4/nautilus/branches | 6 |
+| https://github.com/svend4/nautilus/branches` | 1 |
 | https://github.com/svend4/nautilus/commits/main | 6 |
+| https://github.com/svend4/nautilus/commits/main` | 1 |
 | https://github.com/svend4/nautilus/issues | 36 |
-| https://github.com/svend4/nautilus/issues` | 6 |
+| https://github.com/svend4/nautilus/issues` | 7 |
 | https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f12eb443ca50/docs | 6 |
 | https://github.com/svend4/nautilus/tree/main/adapters | 6 |
 | https://github.com/svend4/nautilus/tree/main/passports | 6 |
 | https://github.com/svend4/nautilus` | 6 |
 | https://github.com/svend4/pro2 | 16 |
 | https://github.com/svend4/pro2/blob/main/nautilus/README.md | 6 |
+| https://github.com/svend4/pro2/blob/main/nautilus/README.md` | 1 |
+| https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41b...` | 1 |
 | https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41badc6dc/nautilus | 6 |
 | https://github.com/svend4/pro2/tree/main/nautilus | 6 |
-| https://github.com/svend4/pro2/tree/main/nautilus` | 4 |
+| https://github.com/svend4/pro2/tree/main/nautilus` | 5 |
 | https://github.com/svend4/pro2` | 6 |
 | https://github.com/svend4?tab=repositories | 6 |
-| https://github.com/svend4?tab=repositories` | 4 |
+| https://github.com/svend4?tab=repositories` | 5 |
 | https://github.com/tagir_analyzes | 6 |
 | https://github.com/zodigancode | 6 |
 | https://habr. | 6 |
 | https://habr.com/ru/articles/1002138/ | 8 |
-| https://habr.com/ru/articles/1002138/` | 6 |
+| https://habr.com/ru/articles/1002138/` | 5 |
 | https://habr.com/ru/articles/1005776/ | 8 |
 | https://habr.com/ru/articles/1005776/` | 6 |
 | https://habr.com/ru/articles/1006602/ | 6 |
 | https://habr.com/ru/articles/1006602/, | 6 |
-| https://habr.com/ru/articles/1006602/` | 6 |
+| https://habr.com/ru/articles/1006602/` | 5 |
 | https://habr.com/ru/articles/1006622/ | 10 |
 | https://habr.com/ru/articles/1006622/` | 6 |
 | https://habr.com/ru/articles/1007122/ | 8 |
 | https://habr.com/ru/articles/1007122/, | 6 |
-| https://habr.com/ru/articles/1007122/` | 6 |
+| https://habr.com/ru/articles/1007122/` | 5 |
 | https://habr.com/ru/articles/1009538/ | 8 |
 | https://habr.com/ru/articles/1009538/` | 6 |
 | https://habr.com/ru/articles/1009608/ | 8 |
-| https://habr.com/ru/articles/1009608/` | 6 |
+| https://habr.com/ru/articles/1009608/` | 5 |
 | https://habr.com/ru/articles/1009958/ | 8 |
 | https://habr.com/ru/articles/1009958/` | 6 |
 | https://habr.com/ru/articles/1010198/ | 8 |
-| https://habr.com/ru/articles/1010198/` | 6 |
+| https://habr.com/ru/articles/1010198/` | 5 |
 | https://habr.com/ru/articles/1010478/ | 8 |
 | https://habr.com/ru/articles/1010478/` | 6 |
 | https://habr.com/ru/articles/1012894/ | 6 |
 | https://habr.com/ru/articles/1014366/ | 6 |
 | https://habr.com/ru/articles/1016096/ | 8 |
-| https://habr.com/ru/articles/1016096/` | 6 |
+| https://habr.com/ru/articles/1016096/` | 5 |
 | https://habr.com/ru/articles/1017200/ | 8 |
 | https://habr.com/ru/articles/1017200/` | 6 |
 | https://habr.com/ru/articles/1019588/ | 6 |
 | https://habr.com/ru/articles/1019588/, | 6 |
-| https://habr.com/ru/articles/1019588/` | 6 |
+| https://habr.com/ru/articles/1019588/` | 5 |
 | https://habr.com/ru/articles/1020598/ | 6 |
 | https://habr.com/ru/articles/1020598/, | 6 |
 | https://habr.com/ru/articles/1020598/` | 6 |
 | https://habr.com/ru/articles/1020860/ | 8 |
-| https://habr.com/ru/articles/1020860/` | 6 |
+| https://habr.com/ru/articles/1020860/` | 5 |
 | https://habr.com/ru/articles/1021622/ | 6 |
 | https://habr.com/ru/articles/1023446/ | 8 |
 | https://habr.com/ru/articles/1023446/` | 6 |
 | https://habr.com/ru/articles/1024634/ | 8 |
-| https://habr.com/ru/articles/1024634/` | 6 |
+| https://habr.com/ru/articles/1024634/` | 5 |
 | https://habr.com/ru/articles/1024884/comments/ | 8 |
 | https://habr.com/ru/articles/1024884/comments/` | 6 |
 | https://habr.com/ru/articles/1026666/ | 6 |
 | https://habr.com/ru/articles/1027210/ | 8 |
-| https://habr.com/ru/articles/1027210/` | 6 |
+| https://habr.com/ru/articles/1027210/` | 5 |
 | https://habr.com/ru/articles/1027382/ | 8 |
 | https://habr.com/ru/articles/1027382/` | 6 |
 | https://habr.com/ru/articles/1027658/ | 8 |
-| https://habr.com/ru/articles/1027658/` | 6 |
+| https://habr.com/ru/articles/1027658/` | 5 |
 | https://habr.com/ru/articles/1027724/ | 10 |
 | https://habr.com/ru/articles/1027724/` | 4 |
 | https://habr.com/ru/articles/1027878/ | 6 |
 | https://habr.com/ru/articles/1027878/, | 6 |
-| https://habr.com/ru/articles/1027878/` | 6 |
+| https://habr.com/ru/articles/1027878/` | 5 |
 | https://habr.com/ru/articles/495554/ | 6 |
 | https://habr.com/ru/articles/893356/ | 8 |
 | https://habr.com/ru/articles/893356/` | 6 |
 | https://habr.com/ru/articles/938626/ | 6 |
 | https://habr.com/ru/articles/938626/, | 6 |
-| https://habr.com/ru/articles/938626/` | 6 |
+| https://habr.com/ru/articles/938626/` | 5 |
 | https://habr.com/ru/articles/943498/ | 6 |
 | https://habr.com/ru/articles/943498/, | 6 |
 | https://habr.com/ru/articles/943498/` | 6 |
 | https://habr.com/ru/articles/955798/ | 8 |
-| https://habr.com/ru/articles/955798/` | 6 |
+| https://habr.com/ru/articles/955798/` | 5 |
 | https://habr.com/ru/articles/975414/ | 8 |
 | https://habr.com/ru/articles/975414/` | 6 |
 | https://habr.com/ru/articles/983684/ | 8 |
-| https://habr.com/ru/articles/983684/` | 6 |
+| https://habr.com/ru/articles/983684/` | 5 |
 | https://habr.com/ru/articles/996144/ | 8 |
 | https://habr.com/ru/articles/996144/` | 6 |
 | https://habr.com/ru/companies/airi/articles/1000720/ | 8 |
-| https://habr.com/ru/companies/airi/articles/1000720/` | 6 |
+| https://habr.com/ru/companies/airi/articles/1000720/` | 5 |
 | https://habr.com/ru/companies/airi/articles/855128/ | 8 |
 | https://habr.com/ru/companies/airi/articles/855128/` | 6 |
 | https://habr.com/ru/companies/surfstudio/articles/943108/ | 8 |
-| https://habr.com/ru/companies/surfstudio/articles/943108/` | 6 |
+| https://habr.com/ru/companies/surfstudio/articles/943108/` | 5 |
 | https://habr.com/ru/companies/teamly/articles/1024062/ | 6 |
 | https://habr.com/ru/companies/yandex/articles/1019928/ | 8 |
 | https://habr.com/ru/companies/yandex/articles/1019928/` | 6 |
 | https://habr.com/ru/companies/yoomoney/articles/1012870/ | 8 |
-| https://habr.com/ru/companies/yoomoney/articles/1012870/` | 6 |
+| https://habr.com/ru/companies/yoomoney/articles/1012870/` | 5 |
 | https://happyin.space/ | 6 |
 | https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7 | 6 |
 | https://olegtalks.ru/base/tpost/xn7kev4fa1-docling-gotovim-dannie-dlya-rag-i-llm | 8 |
@@ -188,23 +209,3 @@
 | https://raw.githubusercontent.com/svend4/pro2/main/README.md | 8 |
 | https://raw.githubusercontent.com/svend4/pro2/main/nautilus/README.md | 8 |
 | https://raw.githubusercontent.com/svend4/pro2/main/nautilus/adapters/base.py | 8 |
-| https://raw.githubusercontent.com/svend4/pro2/main/nautilus/adapters/info1.py | 8 |
-| https://raw.githubusercontent.com/svend4/pro2/main/nautilus/nautilus.json | 8 |
-| https://solidproject.org/ | 6 |
-| https://support.claude.com/en/collections/13345190-cowork | 8 |
-| https://vc.ru/id744101/2789872 | 8 |
-| https://web.hypothes.is/ | 8 |
-| https://www.camel-ai.org | 6 |
-| https://www.discourse.org/ | 8 |
-| https://www.fontanka.ru/2026/04/25/76378978/ | 14 |
-| https://www.fossil-scm.org/ | 8 |
-| https://www.w3.org/standards/semanticweb/data | 6 |
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Content Overview](02-anthropic-vacancies/12-content-overview.md)
-- [Content Overview](02-anthropic-vacancies/31-content-overview.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
