@@ -22,6 +22,7 @@ digraph network {
   "Cowork" [fillcolor=lightblue];
   "ingit" [fillcolor=lightblue];
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Cowork" -- "ingit" [weight=270, penwidth=5];
   "Svyazi" -- "NGT" [weight=198, penwidth=5];
   "Svyazi" -- "Yodoca" [weight=197, penwidth=5];
@@ -53,6 +54,8 @@ digraph network {
   "Svyazi" -- "Виталий (spbmolot)" [weight=112, penwidth=5];
   "Yodoca" -- "mclaude" [weight=112, penwidth=5];
 =======
+=======
+>>>>>>> origin/main
   "Cowork" -- "ingit" [weight=218, penwidth=5];
   "Svyazi" -- "NGT" [weight=162, penwidth=5];
   "Yodoca" -- "NGT" [weight=153, penwidth=5];
@@ -83,5 +86,8 @@ digraph network {
   "NGT" -- "SENTINEL" [weight=102, penwidth=5];
   "CardIndex" -- "Yodoca" [weight=99, penwidth=5];
   "SENTINEL" -- "Rufler" [weight=99, penwidth=5];
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
 }

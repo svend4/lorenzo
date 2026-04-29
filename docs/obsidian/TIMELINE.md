@@ -240,6 +240,10 @@ _...ещё 29 упоминаний в 2024_
   `210-abstract.md`
 
 - 🔔 **2025** · _Abstract_  
+  > 🔧 Подход: We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew fro  
+  `210-abstract.md`
+
+- 🔔 **2025** · _Abstract_  
   We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to 93  
   `210-abstract.md`
 

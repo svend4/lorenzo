@@ -124,6 +124,7 @@ date: 2026-04-29
 - `docs/CONTACT_PRIORITY.md`
 - `docs/COST.md`
 - `docs/DENSITY.md`
+- `docs/EMPTY_SECTIONS.md`
 - `docs/ENTITIES.md`
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
@@ -223,10 +224,12 @@ date: 2026-04-29
 - `docs/CONTACTS.md`
 - `docs/CONTACT_PRIORITY.md`
 - `docs/DENSITY.md`
+- `docs/EMPTY_SECTIONS.md`
 - `docs/ENTITIES.md`
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
 - `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
 - `docs/HEATMAP.md`
 - _...и ещё 17_
 

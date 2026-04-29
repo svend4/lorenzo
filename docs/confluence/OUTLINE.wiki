@@ -2204,6 +2204,14 @@ h3. [4. Десять областей применения|docs/02-anthropic-vac
 {quote}> Абстракт (авто){quote}
 
   * Содержание
+  * 3. Что делает агента Представительским
+
+_Слов: 666_
+
+h3. [4. Десять областей применения|docs/02-anthropic-vacancies/194-4-десять-областей-применения.md]
+{quote}> Абстракт (авто){quote}
+
+  * Содержание
   * 4. Десять областей применения
 
 _Слов: 1634_
@@ -6471,7 +6479,7 @@ h3. [Сводный список авторов и потенциальных с
 {quote}> > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).{quote}
 
 
-_Слов: 252_
+_Слов: 229_
 
 h3. [final-ensembles|docs/habr-unique-projects/final-ensembles/README.md]
 {quote}Файлов: 4{quote}
@@ -7925,7 +7933,7 @@ h3. [4. Passport (passport.md)|docs/nautilus/npp-v1-0/04-passport.md]
   * Author & Contact
   * History
 
-_Слов: 255_
+_Слов: 252_
 
 h3. [5. Compatibility Levels|docs/nautilus/npp-v1-0/05-compatibility-levels.md]
 {quote}> > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…{quote}

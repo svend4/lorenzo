@@ -57,7 +57,7 @@
 
 ### 100% — `docs/MINDMAP.md` vs `docs/obsidian/MINDMAP.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 2  
 **Примеры совпадений:**
 
 > ```mermaid flowchart LR   subgraph INGEST     Svyazi[Svyazi]     CardIndex[CardIndex]     Firecrawl[Firecrawl]   end   subgraph KNOWLEDGE     AgentFS[AgentFS]     knowledge-space[knowledge-space]   en…
@@ -163,7 +163,7 @@
 
 ### 86% — `docs/obsidian/02-anthropic-vacancies/261-8-seven-domains-of-application.md` vs `docs/nautilus/composite-skills-agents/08-seven-domains.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 1  
 **Примеры совпадений:**
 
 > **Typical configurations**: A computational biologist working  on epidemiology with humanities co-authors faces unique  configuration needs combining biology, computer science,  epidemiological method…

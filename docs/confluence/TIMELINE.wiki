@@ -238,6 +238,10 @@ h2. 2025 (45 упоминаний)
   {{210-abstract.md}}
 
 * 🔔 _2025_ · _Abstract_  
+  > 🔧 Подход: We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew fro  
+  {{210-abstract.md}}
+
+* 🔔 _2025_ · _Abstract_  
   We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to 93  
   {{210-abstract.md}}
 

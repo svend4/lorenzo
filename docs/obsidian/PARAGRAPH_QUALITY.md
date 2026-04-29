@@ -1850,7 +1850,7 @@ _Оборванный: 4, Дубль: 1, абзац: 11_
 
 ### `docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md` (16 проблем)
 
-_Оборванный: 6, Дубль: 1, абзац: 9_
+_Оборванный: 5, начала: 6, абзац: 5_
 
 
 ### `docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md` (16 проблем)
@@ -2875,7 +2875,7 @@ _Оборванный: 4, абзац: 3, начала: 3_
 
 ### `docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` (10 проблем)
 
-_абзац: 5, Оборванный: 5_
+_Оборванный: 4, абзац: 3, начала: 3_
 
 
 ### `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` (10 проблем)
@@ -3450,12 +3450,12 @@ _Оборванный: 2, абзац: 6_
 
 ### `docs/02-anthropic-vacancies/154-table-of-contents.md` (8 проблем)
 
-_абзац: 4, Оборванный: 4_
+_Оборванный: 1, абзац: 7_
 
 
 ### `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` (8 проблем)
 
-_абзац: 4, Оборванный: 4_
+_Оборванный: 2, абзац: 6_
 
 
 ### `docs/02-anthropic-vacancies/221-10-open-questions.md` (8 проблем)
@@ -4505,12 +4505,12 @@ _Дубль: 1, абзац: 4, Оборванный: 1_
 
 ### `docs/svyazi-2-0/components/hybrid-rag.md` (6 проблем)
 
-_абзац: 5, Оборванный: 1_
+_Дубль: 1, абзац: 5_
 
 
 ### `docs/svyazi-2-0/components/knowledge-space.md` (6 проблем)
 
-_абзац: 5, Оборванный: 1_
+_Оборванный: 3, абзац: 3_
 
 
 ### `docs/svyazi-2-0/components/legal-rag.md` (6 проблем)
@@ -4945,7 +4945,7 @@ _Дубль: 1, Оборванный: 2, абзац: 2_
 
 ### `docs/svyazi-2-0/components/agent-memory-mcp.md` (5 проблем)
 
-_абзац: 3, Оборванный: 2_
+_абзац: 4, Оборванный: 1_
 
 
 ### `docs/svyazi-2-0/components/svyazi.md` (5 проблем)

@@ -1905,6 +1905,18 @@ _Слов: 795_
 
 _Слов: 739_
 
+### [2. Target Populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+> > Size estimate: 500K+ in OECD countries with relevant skills
+
+  - Содержание
+  - 2. Target Populations
+  - Упоминается в
+  - Упоминается в
+  - Связанные документы
+  - Связанные документы
+
+_Слов: 739_
+
 ### [3. Why Existing Solutions Fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
 > > Seven existing infrastructure categories partially address the
 

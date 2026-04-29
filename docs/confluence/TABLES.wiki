@@ -7838,13 +7838,11 @@ _Файл: {{docs/BROKEN_LINKS.md}} | 4 колонок, 50 строк_
 
 
 h3. 8. Статистика коммитов
-_Файл: {{docs/CHANGELOG_AUTO.md}} | 3 колонок, 5 строк_
+_Файл: {{docs/CHANGELOG_AUTO.md}} | 3 колонок, 3 строк_
 
 || Тип || Название || Кол-во ||
-|| `feat` || ✨ Новые возможности || 17 ||
-|| `fix` || 🐛 Исправления || 3 ||
-|| `docs` || 📝 Документация || 2 ||
-|| `chore` || 🔧 Технические задачи || 10 ||
+|| `feat` || ✨ Новые возможности || 5 ||
+|| `chore` || 🔧 Технические задачи || 4 ||
 || `other` || 📌 Прочее || 16 ||
 
 
@@ -7868,7 +7866,6 @@ _Файл: {{docs/CITATION_INDEX.md}} | 3 колонок, 20 строк_
 || `install.sh` || 1 || ⭐ ||
 || `creativecommons.org` || 1 || ⭐ ||
 || `activitypub.rocks` || 1 || ⭐ ||
-|| `solidproject.org` || 1 || ⭐ ||
 || `3.org` || 1 || ⭐ ||
 || `habr` || 1 || ⭐ ||
 || `olegtalks.ru` || 1 || ⭐ ||
@@ -9224,50 +9221,50 @@ h3. 65. Аналитика и отчёты
 _Файл: {{docs/INDEX.md}} | 2 колонок, 26 строк_
 
 || Документ || Описание ||
-|| [`STATS.md`](STATS.md) || Статистика ||
-|| [`METRICS.md`](METRICS.md) || Качество (65.7/100) ||
-|| [`VALIDATION.md`](VALIDATION.md) || Валидация ||
-|| [`SENTIMENT.md`](SENTIMENT.md) || Тональность ||
-|| [`CLUSTERS.md`](CLUSTERS.md) || Кластеры тем ||
-|| [`SIMILAR.md`](SIMILAR.md) || Похожие документы ||
-|| [`HEATMAP.md`](HEATMAP.md) || Тепловая карта тем ||
-|| [`QUESTIONS.md`](QUESTIONS.md) || Открытые вопросы (484) ||
-|| [`KPI.md`](KPI.md) || KPI (737 показателей) ||
-|| [`ACTION_ITEMS.md`](ACTION_ITEMS.md) || Задачи ||
-|| [`DECISIONS.md`](DECISIONS.md) || Архитектурные решения ||
-|| [`PRIORITIES.md`](PRIORITIES.md) || Приоритеты ||
-|| [`PROGRESS.md`](PROGRESS.md) || Прогресс MVP ||
-|| [`DIGEST_WEEKLY.md`](DIGEST_WEEKLY.md) || Дайджест недели ||
-|| [`SITEMAP.md`](SITEMAP.md) || Карта сайта ||
-|| [`WORD_CLOUD.md`](WORD_CLOUD.md) || Облако слов ||
-|| [`BACKLINKS.md`](BACKLINKS.md) || Обратные ссылки ||
-|| [`NARRATIVE.md`](NARRATIVE.md) || Нарратив проекта ||
-|| [`ORPHANS.md`](ORPHANS.md) || Несвязанные файлы ||
-|| [`ALERTS.md`](ALERTS.md) || Callout-блоки ||
-|| [`FOOTNOTES.md`](FOOTNOTES.md) || Сноски терминов ||
-|| [`ABBREVIATIONS.md`](ABBREVIATIONS.md) || Аббревиатуры ||
-|| [`GLOSSARY.md`](GLOSSARY.md) || Глоссарий ||
-|| [`CONCEPTS.md`](CONCEPTS.md) || Концепции ||
-|| [`ENTITIES.md`](ENTITIES.md) || Сущности ||
-|| [`TAGS.md`](TAGS.md) || Теги ||
+|| [`STATS.md`](docs/STATS.md) || Статистика ||
+|| [`METRICS.md`](docs/METRICS.md) || Качество (65.7/100) ||
+|| [`VALIDATION.md`](docs/VALIDATION.md) || Валидация ||
+|| [`SENTIMENT.md`](docs/SENTIMENT.md) || Тональность ||
+|| [`CLUSTERS.md`](docs/CLUSTERS.md) || Кластеры тем ||
+|| [`SIMILAR.md`](docs/SIMILAR.md) || Похожие документы ||
+|| [`HEATMAP.md`](docs/HEATMAP.md) || Тепловая карта тем ||
+|| [`QUESTIONS.md`](docs/QUESTIONS.md) || Открытые вопросы (484) ||
+|| [`KPI.md`](docs/KPI.md) || KPI (737 показателей) ||
+|| [`ACTION_ITEMS.md`](docs/ACTION_ITEMS.md) || Задачи ||
+|| [`DECISIONS.md`](docs/DECISIONS.md) || Архитектурные решения ||
+|| [`PRIORITIES.md`](docs/PRIORITIES.md) || Приоритеты ||
+|| [`PROGRESS.md`](docs/PROGRESS.md) || Прогресс MVP ||
+|| [`DIGEST_WEEKLY.md`](docs/DIGEST_WEEKLY.md) || Дайджест недели ||
+|| [`SITEMAP.md`](docs/SITEMAP.md) || Карта сайта ||
+|| [`WORD_CLOUD.md`](docs/WORD_CLOUD.md) || Облако слов ||
+|| [`BACKLINKS.md`](docs/BACKLINKS.md) || Обратные ссылки ||
+|| [`NARRATIVE.md`](docs/NARRATIVE.md) || Нарратив проекта ||
+|| [`ORPHANS.md`](docs/ORPHANS.md) || Несвязанные файлы ||
+|| [`ALERTS.md`](docs/ALERTS.md) || Callout-блоки ||
+|| [`FOOTNOTES.md`](docs/FOOTNOTES.md) || Сноски терминов ||
+|| [`ABBREVIATIONS.md`](docs/ABBREVIATIONS.md) || Аббревиатуры ||
+|| [`GLOSSARY.md`](docs/GLOSSARY.md) || Глоссарий ||
+|| [`CONCEPTS.md`](docs/CONCEPTS.md) || Концепции ||
+|| [`ENTITIES.md`](docs/ENTITIES.md) || Сущности ||
+|| [`TAGS.md`](docs/TAGS.md) || Теги ||
 
 
 h3. 66. Ключевые документы
 _Файл: {{docs/INDEX.md}} | 3 колонок, 12 строк_
 
 || Документ || Тема || Описание ||
-|| [`SCORING.md`](SCORING.md) || 🎯 Go/No-Go скоринг || Статус готовности: 96% ||
-|| [`HEALTH.md`](HEALTH.md) || ❤️  Здоровье репо || Метрики качества документации ||
-|| [`TECH_RADAR.md`](TECH_RADAR.md) || 📡 Tech Radar || ADOPT/TRIAL/ASSESS/HOLD ||
-|| [`RISK_REGISTER.md`](RISK_REGISTER.md) || ⚠️  Реестр рисков || 10 рисков, матрица вероятность×влияние ||
-|| [`ONBOARDING.md`](ONBOARDING.md) || 👋 Онбординг || Первые шаги, структура, контакты ||
-|| [`FAQ.md`](FAQ.md) || ❓ FAQ || 54 вопроса и ответа ||
-|| [`CONTACTS.md`](CONTACTS.md) || 📧 Контакты || Авторы компонентов, шаблоны писем ||
-|| [`SCHEDULE.md`](SCHEDULE.md) || 📅 Расписание || Gantt, вехи, текущий статус ||
-|| [`COST.md`](COST.md) || 💰 Стоимость MVP || $86,400 · 25 чел-недель ||
-|| [`NETWORK.md`](NETWORK.md) || 🕸️  Граф связей || 20 узлов, 185 рёбер ||
-|| [`CHANGELOG_AUTO.md`](CHANGELOG_AUTO.md) || 📋 Changelog || Авто из git-истории ||
-|| [`DEPENDENCY_MAP.md`](DEPENDENCY_MAP.md) || 🗺️  Карта зависимостей || 49 скриптов → входы/выходы ||
+|| [`SCORING.md`](docs/SCORING.md) || 🎯 Go/No-Go скоринг || Статус готовности: 96% ||
+|| [`HEALTH.md`](docs/HEALTH.md) || ❤️  Здоровье репо || Метрики качества документации ||
+|| [`TECH_RADAR.md`](docs/TECH_RADAR.md) || 📡 Tech Radar || ADOPT/TRIAL/ASSESS/HOLD ||
+|| [`RISK_REGISTER.md`](docs/RISK_REGISTER.md) || ⚠️  Реестр рисков || 10 рисков, матрица вероятность×влияние ||
+|| [`ONBOARDING.md`](docs/ONBOARDING.md) || 👋 Онбординг || Первые шаги, структура, контакты ||
+|| [`FAQ.md`](docs/FAQ.md) || ❓ FAQ || 54 вопроса и ответа ||
+|| [`CONTACTS.md`](docs/CONTACTS.md) || 📧 Контакты || Авторы компонентов, шаблоны писем ||
+|| [`SCHEDULE.md`](docs/SCHEDULE.md) || 📅 Расписание || Gantt, вехи, текущий статус ||
+|| [`COST.md`](docs/COST.md) || 💰 Стоимость MVP || $86,400 · 25 чел-недель ||
+|| [`NETWORK.md`](docs/NETWORK.md) || 🕸️  Граф связей || 20 узлов, 185 рёбер ||
+|| [`CHANGELOG_AUTO.md`](docs/CHANGELOG_AUTO.md) || 📋 Changelog || Авто из git-истории ||
+|| [`DEPENDENCY_MAP.md`](docs/DEPENDENCY_MAP.md) || 🗺️  Карта зависимостей || 49 скриптов → входы/выходы ||
 
 
 h3. 67. LLM-обогащение (Ступень 3)
@@ -9277,7 +9274,7 @@ _Файл: {{docs/INDEX.md}} | 2 колонок, 4 строк_
 || `LLM_ENRICHED.md` _(нет)_ || Обогащённые stub-файлы ||
 || `LLM_QA.md` _(нет)_ || Ответы на открытые вопросы ||
 || `LLM_GAPS.md` _(нет)_ || Семантические пробелы ||
-|| [`LLM_SUMMARIES.md`](LLM_SUMMARIES.md) || AI-саммари разделов ||
+|| [`LLM_SUMMARIES.md`](docs/LLM_SUMMARIES.md) || AI-саммари разделов ||
 
 
 h3. 68. Топ слов по охвату файлов
@@ -9638,6 +9635,7 @@ _Файл: {{docs/KPI.md}} | 3 колонок, 21 строк_
 || **3.1.0** || RFCs to Indicate Requirement Levels - OpenAPI Specification v3.1.0 (for REST API || `104-appendix-c-references` ||
 || **1.2** || прямое следствие этого. #### Что я сознательно оставил для v1.2 или v2.0 Formal || `104-appendix-c-references` ||
 || **3.0** || Удалить transitional header 7. Добавить changelog-запись: «v3.0 consolidated fro || `110-вопрос-fallback-ratio` ||
+|| **0.2.0** || # Planned (v0.2.0) > - HTTP-mode для debugging и remote access --- ## || `132-planned-v0-2-0` ||
 || **0.6.0** || laude (Анастасия Бутова, AnastasiyaW) — реально существует, версия 0.6.0, MIT, 1 || `365-развёрнутый-анализ-вн` ||
 || **3.2** || viewer 1 (GPT-5.4): проверяет логику - Reviewer 2 (DeepSeek-V3.2): проверяет --- || `02-knowledge-graphs` ||
 || **0.1** || st per card, trace completeness. MVP boundary: что входит в v0.1, что запрещено || `14-ограничения-лицензии-и` ||
@@ -9673,6 +9671,13 @@ _Файл: {{docs/KPI.md}} | 3 колонок, 6 строк_
 || **4** || кристалла», получить osmыслený ответ с указанием репо. #### Фаза 4 — Web interfa || `02-общий-план-развития-na` ||
 || **5** || y через браузер, получить отформатированный результат. #### Фаза 5 — Публикация || `02-общий-план-развития-na` ||
 || **0** || ёртывания](#9-стратегия-поэтапного-развёртывания) - [9.1. Фаза 0 — Основание (Ме || `199-9-стратегия-поэтапног` ||
+|| **24** || митов) ### 🔧 Обслуживание - regenerate auto-exports after Sprint 24-26 _6421a1fc || `CHANGELOG` ||
+|| **21** || ter Sprint 24-26 _6421a1fc_ - regenerate auto-exports after Sprint 21-23 _6ac597 || `CHANGELOG` ||
+|| **18** || ter Sprint 21-23 _6ac59707_ - regenerate auto-exports after Sprint 18-20 _f05312 || `CHANGELOG` ||
+|| **15** || 3125f_ - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737 || `CHANGELOG` ||
+|| **12** || t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e || `CHANGELOG` ||
+|| **9** || web dashboard _1bf14810_ > Sprint 12 — bot-aware system - Sprint 9-11 — skills M || `CHANGELOG` ||
+|| **6** || ins, CI/CD _22c4cf8d_ > Sprint 9 — agentic skills layer - Sprint 6-8 — миграции, || `CHANGELOG` ||
 
 
 h3. 83. Текущие метрики
@@ -14476,7 +14481,8 @@ _Файл: {{docs/RISK_REGISTER.md}} | 2 колонок, 11 строк_
 || `04-ensembles-overview` || ри минимальном интеграционном риске**. **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… ||
 || `04-ensembles-overview` || а**: Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации. citeturn20view12turn30… ||
 || `06-security-privacy` || t, collaboration --> ## Безопасность, приватность и бюджетный роутинг Для Svyazi‑2.0 безопасная архи… ||
-|| `06-security-privacy` || Похожие документы:** - [06-безопасность-приватность-и-бюджетный-роутинг](04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) (сходство 1.00) - [05-пл… ||
+|| `06-security-privacy` || Похожие документы:** - [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/0… ||
+|| `06-security-privacy` || cs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) (сходство 1.00) - [05-пл… ||
 || `06-security-privacy` || **Смотрите также:** - [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06… ||
 || `07-mvp-planning` || l Search + базовые правила безопасности || Удержать стоимость и не утонуть в MCP[^mcp]/context overhe… ||
 || `07-mvp-planning` || review для inferred || Снизить риск ложных связей и утечек || 1–2 дня || **Итого**: реалистичный MVP — … ||

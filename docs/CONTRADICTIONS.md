@@ -358,10 +358,10 @@ _Обновлено: 2026-04-29_
 
 ### 27. 🔢 Числовое — 785.0 vs 16.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `context`, `mcp`, `model`, `protocol`
+**Общие ключевые слова:** `conclusions`, `документы`, `связанные`
 
-**A:** `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-> md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo
+**A:** `docs/01-svyazi/01-executive-summary.md`
+> md) Связанные документы - 08 Conclusions(08-conclusions
 
 **B:** `docs/04-ai-collaborations/README.md`
 > 16) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов

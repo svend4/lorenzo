@@ -39,15 +39,21 @@ h2. Как работает AgentFS и что такое .agentos?
 
 → _См. также:_ [QA|docs/03-technology-combinations/QA.md]
 
+→ _См. также:_ [QA|docs/03-technology-combinations/QA.md]
+
 Упоминаются: _vault_
 
 h2. Что такое knowledge-space и для кого он предназначен?
 
 → _См. также:_ [QA|docs/03-technology-combinations/QA.md]
 
+→ _См. также:_ [QA|docs/03-technology-combinations/QA.md]
+
 _Не найдено в этом файле._
 
 h2. Как CardIndex хранит и версионирует карточки?
+
+→ _См. также:_ [QA|docs/03-technology-combinations/QA.md]
 
 → _См. также:_ [QA|docs/03-technology-combinations/QA.md]
 

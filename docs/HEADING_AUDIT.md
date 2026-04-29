@@ -248,6 +248,11 @@ _секция: 6_
 _секция: 6_
 
 
+### `docs/GITHUB_ISSUES.md` (6 проблем)
+
+_секция: 6_
+
+
 ### `docs/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md` (6 проблем)
 
 _секция: 5, H1: 1_

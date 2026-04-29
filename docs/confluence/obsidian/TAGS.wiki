@@ -129,6 +129,7 @@ h2. #knowledge (34 файлов)
 * {{docs/CONTACT_PRIORITY.md}}
 * {{docs/COST.md}}
 * {{docs/DENSITY.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/ENTITIES.md}}
 * {{docs/FAQ.md}}
 * {{docs/FOOTNOTES.md}}
@@ -228,10 +229,12 @@ h2. #rag (37 файлов)
 * {{docs/CONTACTS.md}}
 * {{docs/CONTACT_PRIORITY.md}}
 * {{docs/DENSITY.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/ENTITIES.md}}
 * {{docs/FAQ.md}}
 * {{docs/FOOTNOTES.md}}
 * {{docs/GRAPH.md}}
+* {{docs/HEADING_AUDIT.md}}
 * {{docs/HEATMAP.md}}
 * _...и ещё 17_
 

@@ -8230,14 +8230,12 @@ _Файл: `docs/BROKEN_LINKS.md` | 4 колонок, 50 строк_
 
 
 ### 8. Статистика коммитов
-_Файл: `docs/CHANGELOG_AUTO.md` | 3 колонок, 5 строк_
+_Файл: `docs/CHANGELOG_AUTO.md` | 3 колонок, 3 строк_
 
 | Тип | Название | Кол-во |
 |-----|---------|--------|
-| `feat` | ✨ Новые возможности | 17 |
-| `fix` | 🐛 Исправления | 3 |
-| `docs` | 📝 Документация | 2 |
-| `chore` | 🔧 Технические задачи | 10 |
+| `feat` | ✨ Новые возможности | 5 |
+| `chore` | 🔧 Технические задачи | 4 |
 | `other` | 📌 Прочее | 16 |
 
 
@@ -8262,7 +8260,6 @@ _Файл: `docs/CITATION_INDEX.md` | 3 колонок, 20 строк_
 | `install.sh` | 1 | ⭐ |
 | `creativecommons.org` | 1 | ⭐ |
 | `activitypub.rocks` | 1 | ⭐ |
-| `solidproject.org` | 1 | ⭐ |
 | `3.org` | 1 | ⭐ |
 | `habr` | 1 | ⭐ |
 | `olegtalks.ru` | 1 | ⭐ |
@@ -10103,6 +10100,7 @@ _Файл: `docs/KPI.md` | 3 колонок, 21 строк_
 | **3.1.0** | RFCs to Indicate Requirement Levels - OpenAPI Specification v3.1.0 (for REST API | `104-appendix-c-references` |
 | **1.2** | прямое следствие этого. #### Что я сознательно оставил для v1.2 или v2.0 Formal  | `104-appendix-c-references` |
 | **3.0** | Удалить transitional header 7. Добавить changelog-запись: «v3.0 consolidated fro | `110-вопрос-fallback-ratio` |
+| **0.2.0** | # Planned (v0.2.0) > - HTTP-mode для debugging и remote access --- ## | `132-planned-v0-2-0` |
 | **0.6.0** | laude (Анастасия Бутова, AnastasiyaW) — реально существует, версия 0.6.0, MIT, 1 | `365-развёрнутый-анализ-вн` |
 | **3.2** | viewer 1 (GPT-5.4): проверяет логику - Reviewer 2 (DeepSeek-V3.2): проверяет --- | `02-knowledge-graphs` |
 | **0.1** | st per card, trace completeness. MVP boundary: что входит в v0.1, что запрещено  | `14-ограничения-лицензии-и` |
@@ -10140,6 +10138,13 @@ _Файл: `docs/KPI.md` | 3 колонок, 6 строк_
 | **4** | кристалла», получить osmыслený ответ с указанием репо. #### Фаза 4 — Web interfa | `02-общий-план-развития-na` |
 | **5** | y через браузер, получить отформатированный результат. #### Фаза 5 — Публикация  | `02-общий-план-развития-na` |
 | **0** | ёртывания](#9-стратегия-поэтапного-развёртывания) - [[README|9.1. Фаза 0 — Основание (Ме | `199-9-стратегия-поэтапног` |
+| **24** | митов) ### 🔧 Обслуживание - regenerate auto-exports after Sprint 24-26 _6421a1fc | `CHANGELOG` |
+| **21** | ter Sprint 24-26 _6421a1fc_ - regenerate auto-exports after Sprint 21-23 _6ac597 | `CHANGELOG` |
+| **18** | ter Sprint 21-23 _6ac59707_ - regenerate auto-exports after Sprint 18-20 _f05312 | `CHANGELOG` |
+| **15** | 3125f_ - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737 | `CHANGELOG` |
+| **12** | t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e | `CHANGELOG` |
+| **9** | web dashboard _1bf14810_ > Sprint 12 — bot-aware system - Sprint 9-11 — skills M | `CHANGELOG` |
+| **6** | ins, CI/CD _22c4cf8d_ > Sprint 9 — agentic skills layer - Sprint 6-8 — миграции, | `CHANGELOG` |
 
 
 ### 83. Текущие метрики

@@ -4,6 +4,7 @@
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <updated>2026-04-29T16:24:14+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
   <entry>
@@ -65,11 +66,19 @@
   <updated>2026-04-29T17:24:24+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
   <entry>
+=======
+  <updated>2026-04-29T17:24:24+00:00</updated>
+  <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+>>>>>>> origin/main
     <id>https://github.com/svend4/lorenzo/commit/e1a1f48a681d2b1b7f5defd7fd547431461a5a7f</id>
     <title>Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA</title>
     <link href="https://github.com/svend4/lorenzo/commit/e1a1f48a681d2b1b7f5defd7fd547431461a5a7f"/>
     <updated>2026-04-29T17:22:46+00:00</updated>
     <content type="html"><![CDATA[<p><strong>Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/README.md">docs/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/03-technology-combinations/QA.md">docs/03-technology-combinations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/QA.md">docs/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li></ul><p>Коммит: <code>e1a1f48a</code></p>]]></content>
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
   </entry>
   <entry>
@@ -78,6 +87,7 @@
     <link href="https://github.com/svend4/lorenzo/commit/d4da24260244eafa2b23af5d732bddff6e174889"/>
     <updated>2026-04-29T17:11:35+00:00</updated>
     <content type="html"><![CDATA[<p><strong>docs: auto-update metrics [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STATS.md">docs/STATS.md</a></li></ul><p>Коммит: <code>d4da2426</code></p>]]></content>
+<<<<<<< HEAD
   </entry>
   <entry>
 <<<<<<< HEAD
@@ -94,11 +104,18 @@
     <updated>2026-04-29T10:18:20+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: sync PROGRESS.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>2a9e9403</code></p>]]></content>
 =======
+=======
+  </entry>
+  <entry>
+>>>>>>> origin/main
     <id>https://github.com/svend4/lorenzo/commit/c4b470af4a5c5f0fecec417f8dd6d1f443d33bc1</id>
     <title>docs: add 10-part processing guide with combined master document</title>
     <link href="https://github.com/svend4/lorenzo/commit/c4b470af4a5c5f0fecec417f8dd6d1f443d33bc1"/>
     <updated>2026-04-29T17:11:06+00:00</updated>
     <content type="html"><![CDATA[<p><strong>docs: add 10-part processing guide with combined master document</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/01-overview.md">docs/processing-guide/01-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/02-extraction.md">docs/processing-guide/02-extraction.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/03-chunking.md">docs/processing-guide/03-chunking.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/04-structuring.md">docs/processing-guide/04-structuring.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/05-analysis.md">docs/processing-guide/05-analysis.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/06-search.md">docs/processing-guide/06-search.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/07-llm.md">docs/processing-guide/07-llm.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/08-export.md">docs/processing-guide/08-export.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/09-automation.md">docs/processing-guide/09-automation.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/10-future.md">docs/processing-guide/10-future.md</a></li></ul><p>Коммит: <code>c4b470af</code></p>]]></content>
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
   </entry>
   <entry>
@@ -163,6 +180,7 @@
     <link href="https://github.com/svend4/lorenzo/commit/6efb6b90e71e8c5830c8c510396d0669b35341ce"/>
     <updated>2026-04-29T15:49:36+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 36-38</strong></p><p>Коммит: <code>6efb6b90</code></p>]]></content>
+<<<<<<< HEAD
   </entry>
 <<<<<<< HEAD
 =======
@@ -216,6 +234,59 @@
     <content type="html"><![CDATA[<p><strong>chore: regenerate READABILITY.md after merge</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/READABILITY.md">docs/READABILITY.md</a></li></ul><p>Коммит: <code>4bdf6b83</code></p>]]></content>
   </entry>
   <entry>
+=======
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/65941440969581f7316e6875cc64bc90ed45e722</id>
+    <title>chore: regenerate auto-feeds after Sprint 33-35</title>
+    <link href="https://github.com/svend4/lorenzo/commit/65941440969581f7316e6875cc64bc90ed45e722"/>
+    <updated>2026-04-29T15:42:21+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 33-35</strong></p><p>Коммит: <code>65941440</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/2b1e57d2771599ee5581b32aa9f728e51792472c</id>
+    <title>chore: regenerate confluence/obsidian REPORT exports</title>
+    <link href="https://github.com/svend4/lorenzo/commit/2b1e57d2771599ee5581b32aa9f728e51792472c"/>
+    <updated>2026-04-29T15:32:38+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate confluence/obsidian REPORT exports</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>2b1e57d2</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/e0233b2695664e649f6d6992f28737c422e4379e</id>
+    <title>chore: regenerate auto-exports after Sprint 30-32</title>
+    <link href="https://github.com/svend4/lorenzo/commit/e0233b2695664e649f6d6992f28737c422e4379e"/>
+    <updated>2026-04-29T15:32:16+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 30-32</strong></p><p>Коммит: <code>e0233b26</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/40f1222e1393d6cf11a9ae5246b4444b708f409e</id>
+    <title>chore: regenerate auto-exports after Sprint 27-29</title>
+    <link href="https://github.com/svend4/lorenzo/commit/40f1222e1393d6cf11a9ae5246b4444b708f409e"/>
+    <updated>2026-04-29T15:22:50+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 27-29</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>40f1222e</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/bf2aa84555582cab37cd0c33360d359e6df9ad32</id>
+    <title>docs: auto-update metrics [skip ci]</title>
+    <link href="https://github.com/svend4/lorenzo/commit/bf2aa84555582cab37cd0c33360d359e6df9ad32"/>
+    <updated>2026-04-29T15:16:12+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>docs: auto-update metrics [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STATS.md">docs/STATS.md</a></li></ul><p>Коммит: <code>bf2aa845</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/471565f1aafe20259dc347b4343d00eea8ef2904</id>
+    <title>chore: regenerate SPELLCHECK.md</title>
+    <link href="https://github.com/svend4/lorenzo/commit/471565f1aafe20259dc347b4343d00eea8ef2904"/>
+    <updated>2026-04-29T15:12:38+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate SPELLCHECK.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SPELLCHECK.md">docs/SPELLCHECK.md</a></li></ul><p>Коммит: <code>471565f1</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/4bdf6b832d951da21f6105d81404e8686caf6a68</id>
+    <title>chore: regenerate READABILITY.md after merge</title>
+    <link href="https://github.com/svend4/lorenzo/commit/4bdf6b832d951da21f6105d81404e8686caf6a68"/>
+    <updated>2026-04-29T15:12:29+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate READABILITY.md after merge</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/READABILITY.md">docs/READABILITY.md</a></li></ul><p>Коммит: <code>4bdf6b83</code></p>]]></content>
+  </entry>
+  <entry>
+>>>>>>> origin/main
     <id>https://github.com/svend4/lorenzo/commit/8ac2cdaafa9c71d3b9a8c3b83ade54738271eb16</id>
     <title>fix: regenerate catalogs (Catalog up-to-date check)</title>
     <link href="https://github.com/svend4/lorenzo/commit/8ac2cdaafa9c71d3b9a8c3b83ade54738271eb16"/>
