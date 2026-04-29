@@ -26,7 +26,7 @@ _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
 | Скрипты обработки | ✅ 140 скриптов | 5 LLM-скриптов, MCP=✅ |
 | DIGEST.md | ✅ 6 секций | python scripts/improve_llm_summary.py |
-| Claude Skills | ✅ 5 скиллов | review-docs, analyze-project, status, write-contact, improve |
+| Claude Skills | ✅ 5 скиллов | review-docs, status, write-contact, improve, analyze-project |
 
 ## Метрики качества
 
