@@ -148,6 +148,7 @@ GROUPS = {
         "improve_obsidian.py",
         "improve_rss.py",
         "improve_confluence.py",
+        "improve_export_report.py",  # единый сводный отчёт → REPORT.md
     ],
     "cicd": [
         # CI/CD и автоматизация разработки
@@ -162,6 +163,8 @@ GROUPS = {
         "improve_reading_time.py",
         "improve_version_diff.py",
         "improve_topic_model.py",
+        "improve_cross_section.py",  # концептуальные мосты между секциями
+        "improve_digest_auto.py",    # автодайджест изменений за N дней
     ],
     "textwork": [
         # Работа с текстом: рубрикация, слияние, сравнение
@@ -240,6 +243,7 @@ SLOW_SCRIPTS = {
     "improve_gap_filler.py",       # BM25-поиск + вставка в файлы
     "improve_auto_linker.py",      # вставка ссылок в тексты
     "improve_reading_list.py",     # BM25-поиск по корпусу
+    "improve_cross_section.py",    # TF-IDF по всем секциям
 }
 
 # Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
