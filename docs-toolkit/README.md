@@ -291,9 +291,10 @@ pip install docs-toolkit
 
 ## Связанные документы
 
+- [`API.md`](API.md) — **quick reference по public API всех 25 модулей**
 - [`CHANGELOG.md`](CHANGELOG.md) — изменения по версиям
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — как контрибьютить
-- [`SECURITY.md`](SECURITY.md) — security policy
+- [`SECURITY.md`](SECURITY.md) — security policy + best practices per module
 - [`RELEASE.md`](RELEASE.md) — процесс релиза
-- [`../docs/ROADMAP/`](../docs/ROADMAP/) — план развития
+- [`../docs/ROADMAP/`](../docs/ROADMAP/) — план развития (35 идей × 4 уровня)
 - [`../CLAUDE.md`](../CLAUDE.md) — контекст для Claude Code

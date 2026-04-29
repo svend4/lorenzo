@@ -89,8 +89,10 @@ lorenzo/
 
 ### Если интересен `docs-toolkit` (Python framework)
 - **Обзор пакета** → [docs-toolkit/README.md](docs-toolkit/README.md)
+- **API reference** (25 модулей) → [docs-toolkit/API.md](docs-toolkit/API.md)
 - **Возможности по слоям** → [docs/ROADMAP/00-CURRENT-STATE.md](docs/ROADMAP/00-CURRENT-STATE.md)
 - **Что делать дальше** → [docs/ROADMAP/05-PRIORITIES.md](docs/ROADMAP/05-PRIORITIES.md)
+- **Security policy** → [docs-toolkit/SECURITY.md](docs-toolkit/SECURITY.md)
 - **Контекст для Claude Code** → [CLAUDE.md](CLAUDE.md)
 
 ### Если планируете развивать систему

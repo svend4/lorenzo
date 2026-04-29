@@ -7,21 +7,101 @@
 
 ## [Unreleased]
 
-### Added
-- Persistent SQLite кэш embeddings (`docstoolkit/embeddings/cache.py`)
-  с TF-IDF IDF и vectors, content-hash cache invalidation
-- CLI команды: `docstoolkit index build/update/clear/stats`
-- Skill testing framework (`docstoolkit/skills/testing.py`)
-  с golden tests формата `*.test.yaml`
-- CLI команды: `docstoolkit skills list/test`
-- Skills registry: discovery от `.claude/skills/` + entry_points плагинов
+Накоплено **17 спринтов** (Sprint 36-53) за период after 0.1.0. Готовится релиз 0.2.0.
 
-### Changed
-- TFIDFProvider принимает опциональный `cache=` для persistent IDF
+### Added — RAG / Retrieval
+
+- **Adaptive multi-hop retrieval** (`docstoolkit/rag/adaptive.py`, Sprint 53):
+  confidence-driven query reformulation, dedup across hops, pluggable reformulator/confidence_fn
+- **Streaming RAG** (`docstoolkit/rag/streaming.py`, Sprint 42):
+  generator yields `passages_retrieved → token* → done | error` events;
+  echo emulates chunked output, anthropic + openai do real SDK streaming
+- SSE endpoint `POST /api/stream/rag` в `serve.py`
+
+### Added — Agent / Reasoning
+
+- **Plan-and-execute mode** (`docstoolkit/agent/planner.py`, Sprint 50):
+  heuristic_planner (numbered/«потом»/«и» splits), execute_plan
+  с dependency-aware prefix injection, optional replanner на failure
+
+### Added — Workflow / Orchestration
+
+- **Workflow DAG runner** (`docstoolkit/workflow/`, Sprint 47):
+  topological sort + level-параллелизм через ThreadPool, on_error fail/skip/retry,
+  cycle detection, `$.var` / `$.STEP.output` reference синтаксис
+- **Model router** (`docstoolkit/router/`, Sprint 46):
+  ModelChain с failover hops, retry+backoff, optional budget_check;
+  built-in chains: cheap / fast / balanced / high-quality / echo-only
+
+### Added — Eval / A/B / Feedback
+
+- **A/B experiments framework** (`docstoolkit/experiments/`, Sprint 44):
+  Experiment / VariantResult / ExperimentResult, markdown отчёт с Verdict
+- **Eval / golden datasets** (`docstoolkit/eval/`, Sprint 48):
+  GoldenItem (expected_answer_contains + expected_doc_ids + forbidden_phrases),
+  P/R/F1 для citations + keyword score для answers, weighted overall
+- **Feedback loop** (`docstoolkit/feedback/`, Sprint 43):
+  SQLite store, Wilson confidence interval lower bound для quality scoring
+
+### Added — Memory / Sessions
+
+- **Conversation memory** (`docstoolkit/conversation/`, Sprint 49):
+  SQLite sessions+messages, history_for_llm с tail-fit к token budget,
+  squash_old с pluggable summarizer
+
+### Added — Governance
+
+- **Budget tracker** (`docstoolkit/budget/`, Sprint 45):
+  per-scope LLM budget guards (day/week/month/total),
+  warning/blocked states, top spenders + per-model breakdown analytics
+- **Auth / RBAC** (`docstoolkit/auth/`, Sprint 39):
+  scopes с wildcards, User/Scope dataclasses, check_scope
+- **Versioned prompts с A/B variants** (`docstoolkit/prompts/`, Sprint 51):
+  auto-extracted placeholders, fingerprint hash, weighted random pick
+  (deterministic с rng_seed), JSON save/load
+
+### Added — Observability
+
+- **OpenTelemetry traces + Prometheus metrics** (`docstoolkit/telemetry/`, Sprint 41):
+  StubTracer fallback if OTel SDK absent, prometheus_format() exposition
+- `/metrics` endpoint в serve.py
+
+### Added — Integration
+
+- **Federation (NPP)** (`docstoolkit/federation/`, Sprint 36):
+  Nautilus Portal Protocol, multi-node distributed queries, RRF merging
+- **Event bus** (`docstoolkit/events/`, Sprint 37):
+  pub-sub с pattern subscription, async dispatch
+- **Multi-modal ingest** (`docstoolkit/ingest/multimodal.py`, Sprint 38):
+  image / audio / video metadata extraction
+- **Webhook dispatcher** (`docstoolkit/webhooks/`, Sprint 52):
+  SQLite registry, HMAC-SHA256 signing, lifecycle pending→sent/failed→dead,
+  retry_failed loop, pluggable http_send
+- **VectorDB plugins** (`docstoolkit/vectordb/`, Sprint 40):
+  abstract VectorDB interface, in-memory + sqlite-vec implementations
+- **Time-travel queries** (`docstoolkit/timetravel/`, Sprint 41):
+  git-based historical queries, query_at_commit, bisect_corpus
+
+### Added — Tests
+
+- 17 новых test файлов (test_streaming, test_feedback, test_experiments,
+  test_budget, test_router, test_workflow, test_eval, test_conversation,
+  test_planner, test_prompts, test_webhooks, test_adaptive,
+  test_federation, test_events, test_multimodal, test_auth, test_vectordb,
+  test_telemetry, test_timetravel)
+- **Total: 546 тестов passed** (vs 96 в 0.1.0)
 
 ### Performance
-- TF-IDF.fit() с кэшем: 25x speedup на повторных вызовах
-- Index build для 1194 документов: 1.4s (853 doc/sec)
+
+- Workflow async: 3×30ms steps в 51ms (parallel) vs 90ms (sync)
+- Webhook delivery: <100ms p99 (mock HTTP)
+- Adaptive search: ≤max_hops × retriever_latency
+
+### Documentation
+
+- ROADMAP series: `docs/ROADMAP/` с 35 идей развития (4 уровня сложности)
+- README.md перегенерирован, отражает 30+ модулей
+- CONTRIBUTING.md обновлён со структурой проекта
 
 ## [0.1.0] - 2026-04-29
 
