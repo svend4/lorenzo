@@ -4,6 +4,8 @@
 > Не менее важно: где InGit добавляет ценность,
 
 ---
+<!-- tags: security, local-first, architecture, anthropic, collaboration -->
+
 
 
 

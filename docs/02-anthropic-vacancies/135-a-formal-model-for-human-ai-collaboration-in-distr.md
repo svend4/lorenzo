@@ -4,6 +4,8 @@
 > **Editorial review:** Claude (intellectual collaboration, 2026-04)
 
 ---
+<!-- tags: collaboration -->
+
 
 
 

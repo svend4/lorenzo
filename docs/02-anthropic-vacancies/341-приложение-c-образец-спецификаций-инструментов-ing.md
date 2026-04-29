@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, CardIndex, knowledge-space, Graph RAG, NGT Memory, Wikontic
 
 ---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

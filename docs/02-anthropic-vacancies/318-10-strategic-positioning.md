@@ -4,6 +4,8 @@
 > Closing thoughts on broader strategic implications.
 
 ---
+<!-- tags: local-first, architecture, roadmap, anthropic, collaboration -->
+
 
 
 

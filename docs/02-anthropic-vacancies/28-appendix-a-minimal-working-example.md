@@ -4,6 +4,8 @@
 > "adapter": "adapters/my_notes.py",
 
 ---
+<!-- tags: ingestion -->
+
 
 
 

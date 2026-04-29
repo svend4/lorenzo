@@ -4,6 +4,8 @@
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Yodoca, NGT Memory
 
 ---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, self-improve, collaboration -->
+
 
 
 ## Контактная стратегия и узкие вопросы для авторов

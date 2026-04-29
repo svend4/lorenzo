@@ -4,6 +4,8 @@
 > We formalize the architecture using two triangles sharing a common
 
 ---
+<!-- tags: architecture -->
+
 
 
 

@@ -4,6 +4,8 @@
 > NPP v1.1 формализует пять путей подключения нового Repo как
 
 ---
+<!-- tags: architecture, collaboration -->
+
 
 
 

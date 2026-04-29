@@ -4,6 +4,8 @@
 > **Тип документа:** Практическая статья по
 
 ---
+<!-- tags: local-first, architecture, anthropic, collaboration -->
+
 
 
 

@@ -4,6 +4,8 @@
 > The combination of InGit and Cowork creates an architecture
 
 ---
+<!-- tags: memory, rag, ingestion, local-first, architecture, roadmap -->
+
 
 
 

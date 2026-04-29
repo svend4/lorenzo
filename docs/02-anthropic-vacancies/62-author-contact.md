@@ -4,6 +4,8 @@
 > **Контакт:** Issues в `github.com/svend4/meta`
 
 ---
+<!-- tags: collaboration -->
+
 
 
 

@@ -4,6 +4,8 @@
 > For the SGB Advocate Colleague pilot, a starting configuration
 
 ---
+<!-- tags: rag -->
+
 
 
 

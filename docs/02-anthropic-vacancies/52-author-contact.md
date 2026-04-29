@@ -4,6 +4,8 @@
 > **Contributors:** svend4 + claude (Claude Code агент, ранние
 
 ---
+<!-- tags: collaboration -->
+
 
 
 

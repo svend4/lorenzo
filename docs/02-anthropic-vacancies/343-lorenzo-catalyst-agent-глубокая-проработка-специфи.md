@@ -5,6 +5,8 @@
 **Проекты:** CardIndex
 
 ---
+<!-- tags: security, knowledge, local-first, architecture, roadmap, anthropic, collaboration -->
+
 
 
 

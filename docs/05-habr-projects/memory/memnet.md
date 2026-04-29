@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, CardIndex, Hybrid RAG, Yodoca, NGT Memory, MemNet, LiteLLM, Auto AI Router
 
 ---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

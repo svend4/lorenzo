@@ -4,6 +4,8 @@
 > **Status**: Accepted (since v1.0, reaffirmed in v1.1)
 
 ---
+<!-- tags: architecture, collaboration -->
+
 
 
 

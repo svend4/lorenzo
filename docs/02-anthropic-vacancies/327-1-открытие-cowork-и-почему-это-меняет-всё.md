@@ -4,6 +4,8 @@
 > Когда Документ 2.3 был написан ранее в этой
 
 ---
+<!-- tags: local-first, architecture, roadmap, anthropic, collaboration -->
+
 
 
 

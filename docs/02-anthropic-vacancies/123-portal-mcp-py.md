@@ -4,6 +4,8 @@
 > Exposes Nautilus Portal as Model Context Protocol tools for LLM clients
 
 ---
+<!-- tags: rag, ingestion, architecture, collaboration -->
+
 
 
 

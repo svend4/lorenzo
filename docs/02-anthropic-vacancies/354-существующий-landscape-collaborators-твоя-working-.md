@@ -5,6 +5,8 @@
 **Проекты:** CardIndex, knowledge-space, NGT Memory, Wikontic
 
 ---
+<!-- tags: memory, knowledge, ingestion, roadmap, anthropic, collaboration -->
+
 
 
 

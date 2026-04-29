@@ -4,6 +4,8 @@
 > The AI-assisted knowledge work field currently divides into two
 
 ---
+<!-- tags: architecture, anthropic -->
+
 
 
 

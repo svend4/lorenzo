@@ -4,6 +4,8 @@
 > - **2026-04: v1.0.0-draft** — Initial draft published.
 
 ---
+<!-- tags: security, architecture, collaboration -->
+
 
 
 

@@ -4,6 +4,8 @@
 > Для читателей, заинтересованных в конкретной
 
 ---
+<!-- tags: orchestration, architecture, anthropic, collaboration -->
+
 
 
 

@@ -4,6 +4,8 @@
 > Этот документ — рабочий черновик Nautilus Portal Protocol v1.1. До
 
 ---
+<!-- tags: collaboration -->
+
 
 
 

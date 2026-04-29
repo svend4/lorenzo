@@ -4,6 +4,8 @@
 > В качестве иллюстраций используется экосистема `svend4` с 7 Repos:
 
 ---
+<!-- tags: knowledge, architecture, collaboration -->
+
 
 
 

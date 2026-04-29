@@ -4,6 +4,8 @@
 > We introduce the **Representative Agent Layer** — an architectural
 
 ---
+<!-- tags: architecture -->
+
 
 
 

@@ -4,6 +4,8 @@
 > **Status:** Draft — пересмотрен под текущую реализацию v1.1
 
 ---
+<!-- tags: collaboration -->
+
 
 
 

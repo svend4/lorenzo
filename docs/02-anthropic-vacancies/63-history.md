@@ -4,6 +4,8 @@
 > **Создан:** февраль 2026 (судя по repo creation date)
 
 ---
+<!-- tags: architecture -->
+
 
 
 

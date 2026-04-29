@@ -4,6 +4,8 @@
 > A Representative Agent is distinct from existing AI categories.
 
 ---
+<!-- tags: architecture -->
+
 
 
 

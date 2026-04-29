@@ -4,6 +4,8 @@
 > This document emerged from author's question about how to
 
 ---
+<!-- tags: rag, architecture, collaboration -->
+
 
 
 

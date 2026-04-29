@@ -4,6 +4,8 @@
 > Теперь применяем рамку Профессионального
 
 ---
+<!-- tags: rag, architecture, roadmap, collaboration -->
+
 
 
 

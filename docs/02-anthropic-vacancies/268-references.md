@@ -4,6 +4,8 @@
 > - Anderson, J. R. (1983). *The Architecture of Cognition*.
 
 ---
+<!-- tags: rag, architecture, collaboration -->
+
 
 
 

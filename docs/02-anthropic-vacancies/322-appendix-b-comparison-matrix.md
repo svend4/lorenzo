@@ -4,6 +4,8 @@
 > InGit + Cowork's distinct profile: maximum structure with full
 
 ---
+<!-- tags: local-first -->
+
 
 
 

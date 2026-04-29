@@ -4,6 +4,8 @@
 > Equally important: where does InGit add value that Cowork
 
 ---
+<!-- tags: ingestion, local-first, architecture, roadmap, anthropic -->
+
 
 
 

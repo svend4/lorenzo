@@ -4,6 +4,8 @@
 > - **New**: Q6 as normative concept (section 8, ADR-002)
 
 ---
+<!-- tags: rag, architecture -->
+
 
 
 

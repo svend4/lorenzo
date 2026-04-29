@@ -4,6 +4,8 @@
 > The Representative Agent Layer paper introduced one type of AI
 
 ---
+<!-- tags: ingestion, architecture, anthropic -->
+
 
 
 

@@ -4,6 +4,8 @@
 > Beyond InGit specifically, this positioning has implications
 
 ---
+<!-- tags: rag, architecture -->
+
 
 
 

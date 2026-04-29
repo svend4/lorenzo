@@ -4,6 +4,8 @@
 > Прежде чем проектировать — фиксирую, что у нас уже есть объективно.
 
 ---
+<!-- tags: rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
 
 
 

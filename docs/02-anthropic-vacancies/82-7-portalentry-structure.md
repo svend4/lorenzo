@@ -4,6 +4,8 @@
 > Унифицированная структура данных, возвращаемая адаптерами.
 
 ---
+<!-- tags: ingestion, architecture, collaboration -->
+
 
 
 

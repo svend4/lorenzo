@@ -4,6 +4,8 @@
 > A Representative Agent system consists of seven components:
 
 ---
+<!-- tags: rag, orchestration, ingestion, local-first, architecture, self-improve -->
+
 
 
 

@@ -4,6 +4,8 @@
 > Mariya is 67, retired three years ago after 35 years
 
 ---
+<!-- tags: rag, ingestion, architecture, roadmap, anthropic, collaboration -->
+
 
 
 

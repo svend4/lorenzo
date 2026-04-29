@@ -4,6 +4,8 @@
 > The metaphor that crystallizes this pattern comes from a story
 
 ---
+<!-- tags: local-first -->
+
 
 
 

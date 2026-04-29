@@ -4,6 +4,8 @@
 > Independent of what the author does, the industry will move
 
 ---
+<!-- tags: architecture, anthropic -->
+
 
 
 

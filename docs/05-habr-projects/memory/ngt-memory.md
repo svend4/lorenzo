@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, NGT Memory
 
 ---
+<!-- tags: memory, ingestion, collaboration -->
+
 
 
 

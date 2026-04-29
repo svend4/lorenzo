@@ -4,6 +4,8 @@
 > Document 2.3 identified Layer B — the missing infrastructure
 
 ---
+<!-- tags: local-first, architecture, roadmap, anthropic -->
+
 
 
 

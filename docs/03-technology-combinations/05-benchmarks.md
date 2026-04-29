@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, Yodoca
 
 ---
+<!-- tags: memory, rag, orchestration, ingestion, local-first, architecture, collaboration -->
+
 
 
 

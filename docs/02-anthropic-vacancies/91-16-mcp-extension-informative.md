@@ -4,6 +4,8 @@
 > NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED
 
 ---
+<!-- tags: architecture -->
+
 
 
 

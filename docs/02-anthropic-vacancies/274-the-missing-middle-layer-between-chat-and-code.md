@@ -4,6 +4,8 @@
 > **Document type:** Inquiry paper, not architectural specification
 
 ---
+<!-- tags: architecture, collaboration -->
+
 
 
 

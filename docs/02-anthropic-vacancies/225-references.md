@@ -4,6 +4,8 @@
 > - Soldatenko, M. (2026, April 25). «В школах любят страдать».
 
 ---
+<!-- tags: architecture, collaboration -->
+
 
 
 

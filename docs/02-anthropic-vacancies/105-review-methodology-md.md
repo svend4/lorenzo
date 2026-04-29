@@ -4,6 +4,8 @@
 > **Статус:** Активно применяется в проекте svend4/nautilus
 
 ---
+<!-- tags: collaboration -->
+
 
 
 

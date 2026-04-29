@@ -4,6 +4,8 @@
 > **Editorial collaboration:** Claude (intellectual development, 2026-04)
 
 ---
+<!-- tags: collaboration -->
+
 
 
 

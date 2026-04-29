@@ -4,6 +4,8 @@
 > There is something subtle in all this that warrants explicit
 
 ---
+<!-- tags: architecture -->
+
 
 
 

@@ -4,6 +4,8 @@
 > The pattern of representative agents is ancient and recurring.
 
 ---
+<!-- tags: rag, architecture -->
+
 
 
 

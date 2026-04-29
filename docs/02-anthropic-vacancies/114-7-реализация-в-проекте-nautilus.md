@@ -4,6 +4,8 @@
 > **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md**
 
 ---
+<!-- tags: orchestration, architecture, roadmap -->
+
 
 
 

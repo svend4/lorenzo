@@ -4,6 +4,8 @@
 > Building on the Representative Agent Layer paper, we observe
 
 ---
+<!-- tags: rag, architecture, roadmap -->
+
 
 
 

@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, CardIndex, Yjs
 
 ---
+<!-- tags: rag, knowledge, ingestion, local-first, architecture, collaboration -->
+
 
 
 

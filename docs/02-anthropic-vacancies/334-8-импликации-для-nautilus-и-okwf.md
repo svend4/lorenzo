@@ -4,6 +4,8 @@
 > За пределами InGit конкретно, это
 
 ---
+<!-- tags: orchestration, architecture -->
+
 
 
 

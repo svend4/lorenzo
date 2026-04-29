@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, Yodoca
 
 ---
+<!-- tags: memory, ingestion, architecture, collaboration -->
+
 
 
 

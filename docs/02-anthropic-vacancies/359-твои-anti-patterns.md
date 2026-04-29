@@ -4,6 +4,8 @@
 > ❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»
 
 ---
+<!-- tags: rag -->
+
 
 
 

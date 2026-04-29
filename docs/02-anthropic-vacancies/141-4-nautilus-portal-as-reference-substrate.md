@@ -4,6 +4,8 @@
 > The Double-Triangle Architecture requires a substrate capable of:
 
 ---
+<!-- tags: rag, knowledge, architecture, collaboration -->
+
 
 
 

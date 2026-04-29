@@ -4,6 +4,8 @@
 > 1. **Topological formalization** of Double-Triangle Architecture
 
 ---
+<!-- tags: architecture -->
+
 
 
 

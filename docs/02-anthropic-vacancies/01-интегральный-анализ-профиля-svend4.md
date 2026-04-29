@@ -4,6 +4,8 @@
 > Теперь, когда я видел всё — 70 репозиториев за 4 месяца, структурный архив data70 с 1105 разговорами и топ-10 проектами, pinned-репо daten и universal-file-storage-mcp изнутри, плюс контекст из userMe
 
 ---
+<!-- tags: rag, orchestration, security, ingestion, local-first, architecture, roadmap, anthropic, collaboration -->
+
 
 
 

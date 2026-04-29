@@ -4,6 +4,8 @@
 > The architecture requires three formalized protocols between layers.
 
 ---
+<!-- tags: rag, orchestration, architecture, anthropic, self-improve -->
+
 
 
 

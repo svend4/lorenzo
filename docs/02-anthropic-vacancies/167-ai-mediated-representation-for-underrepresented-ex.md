@@ -4,6 +4,8 @@
 > - Open Knowledge Work Foundation Concept Document v1.0
 
 ---
+<!-- tags: collaboration -->
+
 
 
 

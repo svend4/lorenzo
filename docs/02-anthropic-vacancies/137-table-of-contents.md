@@ -4,6 +4,8 @@
 > 1. **Why Single-Triangle Models Are Incomplete**
 
 ---
+<!-- tags: architecture -->
+
 
 
 

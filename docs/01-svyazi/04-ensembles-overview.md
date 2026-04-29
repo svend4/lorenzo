@@ -4,6 +4,8 @@
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improve, collaboration -->
+
 
 
 ## Приоритетные ансамбли

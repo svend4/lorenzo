@@ -4,6 +4,8 @@
 > Современные системы управления знаниями (Notion, Obsidian, Roam Research,
 
 ---
+<!-- tags: rag, architecture, collaboration -->
+
 
 
 

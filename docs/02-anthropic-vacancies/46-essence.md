@@ -4,6 +4,8 @@
 > `pro2` — **семантическое ядро** экосистемы svend4. Здесь живут
 
 ---
+<!-- tags: architecture, collaboration -->
+
 
 
 

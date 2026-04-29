@@ -4,6 +4,8 @@
 > - HTTP-mode для debugging и remote access
 
 ---
+<!-- tags: architecture -->
+
 
 
 

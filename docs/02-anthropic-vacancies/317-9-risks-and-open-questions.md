@@ -4,6 +4,8 @@
 > Several uncertainties merit explicit attention.
 
 ---
+<!-- tags: rag, orchestration, local-first, architecture, roadmap, anthropic -->
+
 
 
 

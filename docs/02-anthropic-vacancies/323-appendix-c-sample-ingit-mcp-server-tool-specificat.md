@@ -4,6 +4,8 @@
 > For reference, here are detailed specifications for first
 
 ---
+<!-- tags: rag, orchestration, ingestion, local-first, architecture, anthropic, collaboration -->
+
 
 
 

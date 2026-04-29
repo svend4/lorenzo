@@ -4,6 +4,8 @@
 > - Akerlof, G. (1970). "The Market for Lemons: Quality
 
 ---
+<!-- tags: collaboration -->
+
 
 
 

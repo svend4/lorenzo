@@ -4,6 +4,8 @@
 > Several existing tools approximate parts of what Layer B
 
 ---
+<!-- tags: rag, architecture, anthropic -->
+
 
 
 

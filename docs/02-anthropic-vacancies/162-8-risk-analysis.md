@@ -4,6 +4,8 @@
 > **Impact**: High (foundational failure)
 
 ---
+<!-- tags: rag, roadmap, anthropic -->
+
 
 
 

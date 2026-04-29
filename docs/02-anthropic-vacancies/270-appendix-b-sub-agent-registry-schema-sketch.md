@@ -4,6 +4,8 @@
 > For implementation, sub-agent registry entries might follow
 
 ---
+<!-- tags: rag, architecture, self-improve -->
+
 
 
 

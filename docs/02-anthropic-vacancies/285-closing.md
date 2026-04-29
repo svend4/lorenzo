@@ -4,6 +4,8 @@
 > The seven documents in this series describe substantial
 
 ---
+<!-- tags: rag, ingestion, architecture -->
+
 
 
 

@@ -4,6 +4,8 @@
 > The Open Knowledge Work Foundation (OKWF) proposes to build
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

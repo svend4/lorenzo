@@ -5,6 +5,8 @@
 **Проекты:** CardIndex, NGT Memory, Wikontic
 
 ---
+<!-- tags: memory, rag, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

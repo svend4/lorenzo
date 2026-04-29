@@ -4,6 +4,8 @@
 > **Context:** При построении системы knowledge management встаёт
 
 ---
+<!-- tags: architecture, collaboration -->
+
 
 
 

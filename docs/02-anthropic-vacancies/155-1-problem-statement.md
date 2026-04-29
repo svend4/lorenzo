@@ -4,6 +4,8 @@
 > The AI industry in 2026 exhibits an apparent paradox. Frontier
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

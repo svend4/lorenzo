@@ -4,6 +4,8 @@
 > Professional Colleague Agents have risks distinct from
 
 ---
+<!-- tags: local-first, architecture -->
+
 
 
 

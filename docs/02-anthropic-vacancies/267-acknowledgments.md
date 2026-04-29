@@ -4,6 +4,8 @@
 > The Composite Skills Agent concept emerged from dialogue with
 
 ---
+<!-- tags: architecture, anthropic -->
+
 
 
 

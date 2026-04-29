@@ -4,6 +4,8 @@
 > We introduce the **Double-Triangle Architecture** for human-AI
 
 ---
+<!-- tags: rag, architecture -->
+
 
 
 

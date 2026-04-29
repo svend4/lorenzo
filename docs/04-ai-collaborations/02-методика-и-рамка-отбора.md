@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, LiteParse, Legal RAG, Graph RAG
 
 ---
+<!-- tags: rag, security, ingestion, architecture, roadmap, collaboration -->
+
 
 
 

@@ -4,6 +4,8 @@
 > We define the type with precision.
 
 ---
+<!-- tags: rag, ingestion, architecture, self-improve -->
+
 
 
 

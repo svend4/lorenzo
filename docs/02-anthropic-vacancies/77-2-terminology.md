@@ -4,6 +4,8 @@
 > **Ecosystem** — набор репозиториев, участвующих в одной федерации.
 
 ---
+<!-- tags: rag, architecture, collaboration -->
+
 
 
 

@@ -1,4 +1,6 @@
 # REPRESENTATIVE AGENT LAYER.md
+<!-- tags: architecture -->
+
 
 ## REPRESENTATIVE AGENT LAYER.md
 markdown

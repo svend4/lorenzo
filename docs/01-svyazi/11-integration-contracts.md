@@ -4,6 +4,8 @@
 **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, LiteParse, Legal RAG, Hybrid RAG
 
 ---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improve -->
+
 
 
 ## Интеграционный контракт, который стоит зафиксировать сразу

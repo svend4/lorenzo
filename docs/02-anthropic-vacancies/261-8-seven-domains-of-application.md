@@ -4,6 +4,8 @@
 > Composite Skills Agents apply naturally to professions where
 
 ---
+<!-- tags: local-first -->
+
 
 
 

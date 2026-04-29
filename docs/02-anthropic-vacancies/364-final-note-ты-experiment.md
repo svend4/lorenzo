@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, CardIndex, mclaude, Rufler
 
 ---
+<!-- tags: rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, collaboration -->
+
 
 
 

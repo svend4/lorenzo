@@ -4,6 +4,8 @@
 > Initial consolidating draft. Synthesizes work across PORTAL-PROTOCOL
 
 ---
+<!-- tags: rag, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

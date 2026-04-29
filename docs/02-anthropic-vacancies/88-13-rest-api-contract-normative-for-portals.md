@@ -4,6 +4,8 @@
 > v1.1 делает REST API mandatory частью протокола. Это обеспечивает
 
 ---
+<!-- tags: rag, architecture, collaboration -->
+
 
 
 

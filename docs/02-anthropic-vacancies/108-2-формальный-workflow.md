@@ -4,6 +4,8 @@
 > Фаза A                 Фаза B                 Фаза C
 
 ---
+<!-- tags: memory, architecture, roadmap -->
+
 
 
 

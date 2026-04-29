@@ -4,6 +4,8 @@
 > When Document 2.3 was written earlier in this session, the
 
 ---
+<!-- tags: rag, local-first, architecture, anthropic -->
+
 
 
 

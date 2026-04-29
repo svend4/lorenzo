@@ -4,6 +4,8 @@
 > A defining feature of Professional Colleague Agents is that
 
 ---
+<!-- tags: rag, architecture -->
+
 
 
 

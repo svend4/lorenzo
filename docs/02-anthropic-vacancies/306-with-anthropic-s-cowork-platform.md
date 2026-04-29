@@ -4,6 +4,8 @@
 > **Document type:** Practical implementation paper, building
 
 ---
+<!-- tags: local-first, architecture, anthropic, collaboration -->
+
 
 
 

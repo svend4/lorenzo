@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, CardIndex
 
 ---
+<!-- tags: rag, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

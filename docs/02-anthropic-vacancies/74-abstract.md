@@ -4,6 +4,8 @@
 > Nautilus Portal Protocol (далее — **NPP**) определяет способ федерации
 
 ---
+<!-- tags: architecture -->
+
 
 
 

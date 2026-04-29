@@ -4,6 +4,8 @@
 > - **Major** (v1 → v2): breaking changes в interfaces или schemas
 
 ---
+<!-- tags: architecture -->
+
 
 
 

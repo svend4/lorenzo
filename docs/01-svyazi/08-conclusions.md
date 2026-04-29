@@ -4,6 +4,8 @@
 **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, Rufler, LiteParse, Yodoca
 
 ---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improve, collaboration -->
+
 
 
 ## Выводы

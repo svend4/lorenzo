@@ -4,6 +4,8 @@
 > - **Русском** (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram)
 
 ---
+<!-- tags: roadmap, anthropic, collaboration -->
+
 
 
 

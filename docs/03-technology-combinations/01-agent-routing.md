@@ -5,6 +5,8 @@
 **Проекты:** CardIndex, Auto AI Router
 
 ---
+<!-- tags: knowledge, architecture, self-improve, collaboration -->
+
 
 
 

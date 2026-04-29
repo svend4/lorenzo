@@ -4,6 +4,8 @@
 > Registry — central source of truth о том, какие Repos входят в
 
 ---
+<!-- tags: architecture -->
+
 
 
 

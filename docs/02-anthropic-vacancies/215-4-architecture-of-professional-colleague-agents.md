@@ -4,6 +4,8 @@
 > A Professional Colleague Agent has three distinct internal
 
 ---
+<!-- tags: rag, architecture -->
+
 
 
 

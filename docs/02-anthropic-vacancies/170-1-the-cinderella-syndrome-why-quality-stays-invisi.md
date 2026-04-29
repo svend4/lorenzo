@@ -4,6 +4,8 @@
 > There is a recurring asymmetry in modern markets — markets for
 
 ---
+<!-- tags: architecture -->
+
 
 
 
