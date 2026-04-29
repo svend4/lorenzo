@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-04-29T15:56:36+00:00</updated>
+  <updated>2026-04-29T16:09:39+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/d445ffb3bbaf56a846c1bd6209411954ca72b0e2</id>
+    <title>chore: regenerate auto-feeds after Sprint 39-41</title>
+    <link href="https://github.com/svend4/lorenzo/commit/d445ffb3bbaf56a846c1bd6209411954ca72b0e2"/>
+    <updated>2026-04-29T15:57:18+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 39-41</strong></p><p>Коммит: <code>d445ffb3</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/6efb6b90e71e8c5830c8c510396d0669b35341ce</id>
     <title>chore: regenerate auto-feeds after Sprint 36-38</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/11d7bad1dd67d5beab4d5abe779cfc78ea0caf23"/>
     <updated>2026-04-29T14:45:17+00:00</updated>
     <content type="html"><![CDATA[<p><strong>feat: Sprint 21-23 — embeddings cache, skill testing, release engineering</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li></ul><p>Коммит: <code>11d7bad1</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/88a8480c88c5b60a11f072f3815f3b5ca326b055</id>
-    <title>docs: auto-update via improve_run_all [skip ci]</title>
-    <link href="https://github.com/svend4/lorenzo/commit/88a8480c88c5b60a11f072f3815f3b5ca326b055"/>
-    <updated>2026-04-29T14:40:59+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>docs: auto-update via improve_run_all [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/AUTHORS.md">docs/AUTHORS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPLEXITY.md">docs/COMPLEXITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPTS.md">docs/CONCEPTS.md</a></li></ul><p>Коммит: <code>88a8480c</code></p>]]></content>
   </entry>
 </feed>
