@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-04-29T15:21:33+00:00</updated>
+  <updated>2026-04-29T15:31:27+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/40f1222e1393d6cf11a9ae5246b4444b708f409e</id>
+    <title>chore: regenerate auto-exports after Sprint 27-29</title>
+    <link href="https://github.com/svend4/lorenzo/commit/40f1222e1393d6cf11a9ae5246b4444b708f409e"/>
+    <updated>2026-04-29T15:22:50+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 27-29</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>40f1222e</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/471565f1aafe20259dc347b4343d00eea8ef2904</id>
     <title>chore: regenerate SPELLCHECK.md</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/3ca737f2eaadda3b207a530967681a9640d61af2"/>
     <updated>2026-04-29T14:22:46+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: extend gitignore + regenerate badges/exports after Sprint 15-17</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>3ca737f2</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/2265a4db03e1204169eae0ff2834885c0dd1e01c</id>
-    <title>feat: Sprint 15-17 — workflow v2, observability, embeddings, i18n</title>
-    <link href="https://github.com/svend4/lorenzo/commit/2265a4db03e1204169eae0ff2834885c0dd1e01c"/>
-    <updated>2026-04-29T14:21:52+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: Sprint 15-17 — workflow v2, observability, embeddings, i18n</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/MCP_DASHBOARD.md">docs/MCP_DASHBOARD.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li></ul><p>Коммит: <code>2265a4db</code></p>]]></content>
   </entry>
 </feed>

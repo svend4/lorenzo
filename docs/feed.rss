@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 15:21:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 15:31:27 GMT</lastBuildDate>
+    <item>
+      <title>chore: regenerate auto-exports after Sprint 27-29</title>
+      <link>https://github.com/svend4/lorenzo/commit/40f1222e1393d6cf11a9ae5246b4444b708f409e</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/40f1222e1393d6cf11a9ae5246b4444b708f409e</guid>
+      <pubDate>Wed, 29 Apr 2026 15:22:50 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 27-29</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>40f1222e</code></p>]]></description>
+    </item>
     <item>
       <title>chore: regenerate SPELLCHECK.md</title>
       <link>https://github.com/svend4/lorenzo/commit/471565f1aafe20259dc347b4343d00eea8ef2904</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/3ca737f2eaadda3b207a530967681a9640d61af2</guid>
       <pubDate>Wed, 29 Apr 2026 14:22:46 GMT</pubDate>
       <description><![CDATA[<p><strong>chore: extend gitignore + regenerate badges/exports after Sprint 15-17</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>3ca737f2</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: Sprint 15-17 — workflow v2, observability, embeddings, i18n</title>
-      <link>https://github.com/svend4/lorenzo/commit/2265a4db03e1204169eae0ff2834885c0dd1e01c</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/2265a4db03e1204169eae0ff2834885c0dd1e01c</guid>
-      <pubDate>Wed, 29 Apr 2026 14:21:52 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Sprint 15-17 — workflow v2, observability, embeddings, i18n</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/MCP_DASHBOARD.md">docs/MCP_DASHBOARD.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li></ul><p>Коммит: <code>2265a4db</code></p>]]></description>
     </item>
   </channel>
 </rss>

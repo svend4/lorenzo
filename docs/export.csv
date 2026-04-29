@@ -472,7 +472,7 @@ docs/READING_LIST.md,READING_LIST.md,READING_LIST.md,Список чтения,2
 docs/READING_ORDER.md,READING_ORDER.md,READING_ORDER.md,Рекомендуемый порядок чтения,22,49939,,Svyazi; Yodoca; MemNet; Wikontic,,да,да
 docs/READING_TIME.md,READING_TIME.md,READING_TIME.md,Время чтения документов,3,100453,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,,да,да
 docs/REGISTRY.md,REGISTRY.md,REGISTRY.md,REGISTRY — реестр артефактов Lorenzo,14,10701,,Svyazi,,да,да
-docs/REPORT.md,REPORT.md,REPORT.md,Svyazi 2.0 — Knowledge Base Report,45,6326,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
+docs/REPORT.md,REPORT.md,REPORT.md,Svyazi 2.0 — Knowledge Base Report,45,6330,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
 docs/RISK_REGISTER.md,RISK_REGISTER.md,RISK_REGISTER.md,Реестр рисков — Svyazi 2.0,17,8806,,Svyazi; CardIndex; AgentFS; Rufler; SENTINEL,- [Матрица рисков (Вероятность × Влияние)](#матрица-рисков-вероятность-влияние),да,да
 docs/SCHEDULE.md,SCHEDULE.md,SCHEDULE.md,Расписание проекта,21,2786,,Svyazi; CardIndex; AgentFS; Yodoca; SENTINEL; Tool Search,,нет,да
 docs/SCORING.md,SCORING.md,SCORING.md,Оценка готовности проекта (Go/No-Go),3,2705,,,,да,да
@@ -1450,7 +1450,7 @@ docs/obsidian/READING_LIST.md,obsidian,READING_LIST.md,Список чтения
 docs/obsidian/READING_ORDER.md,obsidian,READING_ORDER.md,Рекомендуемый порядок чтения,26,38123,,Svyazi; Yodoca; MemNet; Wikontic,,да,да
 docs/obsidian/READING_TIME.md,obsidian,READING_TIME.md,Время чтения документов,7,100530,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,,да,да
 docs/obsidian/REGISTRY.md,obsidian,REGISTRY.md,REGISTRY — реестр артефактов Lorenzo,18,9967,,Svyazi,,да,да
-docs/obsidian/REPORT.md,obsidian,REPORT.md,Svyazi 2.0 — Knowledge Base Report,49,6206,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
+docs/obsidian/REPORT.md,obsidian,REPORT.md,Svyazi 2.0 — Knowledge Base Report,49,6210,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
 docs/obsidian/RISK_REGISTER.md,obsidian,RISK_REGISTER.md,Реестр рисков — Svyazi 2.0,21,8745,,Svyazi; CardIndex; AgentFS; Rufler; SENTINEL,- [Матрица рисков (Вероятность × Влияние)](#матрица-рисков-вероятность-влияние),да,да
 docs/obsidian/SCHEDULE.md,obsidian,SCHEDULE.md,Расписание проекта,25,2858,,Svyazi; CardIndex; AgentFS; Yodoca; SENTINEL; Tool Search,,нет,да
 docs/obsidian/SCORING.md,obsidian,SCORING.md,Оценка готовности проекта (Go/No-Go),7,2795,,,,да,да
