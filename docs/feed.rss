@@ -5,7 +5,7 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 14:25:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 14:35:02 GMT</lastBuildDate>
     <item>
       <title>chore: extend gitignore + regenerate badges/exports after Sprint 15-17</title>
       <link>https://github.com/svend4/lorenzo/commit/3ca737f2eaadda3b207a530967681a9640d61af2</link>
