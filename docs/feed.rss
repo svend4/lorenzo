@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 16:09:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 16:16:54 GMT</lastBuildDate>
+    <item>
+      <title>chore: regenerate auto-feeds after Sprint 42-44</title>
+      <link>https://github.com/svend4/lorenzo/commit/7d1a69d254cfa2f694ca7d1d3a5c2dc6b43ce8d0</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/7d1a69d254cfa2f694ca7d1d3a5c2dc6b43ce8d0</guid>
+      <pubDate>Wed, 29 Apr 2026 16:10:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 42-44</strong></p><p>Коммит: <code>7d1a69d2</code></p>]]></description>
+    </item>
     <item>
       <title>chore: regenerate auto-feeds after Sprint 39-41</title>
       <link>https://github.com/svend4/lorenzo/commit/d445ffb3bbaf56a846c1bd6209411954ca72b0e2</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/6ac5970710e433af1ee99a9429c6f101598a2630</guid>
       <pubDate>Wed, 29 Apr 2026 14:45:47 GMT</pubDate>
       <description><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 21-23</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>6ac59707</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: Sprint 21-23 — embeddings cache, skill testing, release engineering</title>
-      <link>https://github.com/svend4/lorenzo/commit/11d7bad1dd67d5beab4d5abe779cfc78ea0caf23</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/11d7bad1dd67d5beab4d5abe779cfc78ea0caf23</guid>
-      <pubDate>Wed, 29 Apr 2026 14:45:17 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Sprint 21-23 — embeddings cache, skill testing, release engineering</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BADGES.md">docs/BADGES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li></ul><p>Коммит: <code>11d7bad1</code></p>]]></description>
     </item>
   </channel>
 </rss>
