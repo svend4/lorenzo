@@ -15,6 +15,8 @@
 | [`signals.md`](signals.md) | Что говорит структура вакансий о приоритетах Anthropic |
 | [`clusters/`](clusters/) | По одному файлу на каждый из 16 официальных кластеров найма |
 | [`profile-mapping/`](profile-mapping/) | Маппинг профиля svend4 на роли Anthropic — три итерации (FDE → Public Benefit → «платформа, а не должность») |
+| [`extra-collaborator-findings/`](extra-collaborator-findings/) | Variant D: четыре новых collaborator-проекта (CoAlly, Виталий, Анастасия, Mem0) + финальный tier ranking 12 collaborators |
+| [`beneficial-deployments-concept/`](beneficial-deployments-concept/) | Variant C: outline 8–15-страничного concept document для Anthropic Beneficial Deployments outreach (10 sections) |
 
 ## Главный вывод
 

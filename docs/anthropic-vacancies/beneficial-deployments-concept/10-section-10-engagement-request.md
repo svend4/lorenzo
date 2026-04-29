@@ -1,0 +1,43 @@
+# Section 10: Engagement request
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 страниц).
+
+Section 10: Engagement request
+
+Specific ask:
+
+Initial conversation (30 min) с someone в Beneficial Deployments
+
+Review of proposal по their criteria
+
+If interest exists: follow-up meeting с specific scope discussion
+
+Either explicit support OR explicit decline (so I can plan accordingly)
+
+Что concept document NOT
+
+Not grant application: less formal, no specific dollar amount asked
+
+Not academic paper: no extensive literature review
+
+Not business plan: no detailed financial projections
+
+Not theoretical document: focus on actionable deployment, не concepts
+
+Not advocacy document: presents possibility, не demanding action
+
+Length и format
+
+8-15 pages, depending on detail level
+
+English (Anthropic English-speaking)
+
+Professional but personal: written из вашего first-person perspective
+
+Concrete examples throughout (your own SGB cases as illustrations)
+
+Visual diagrams (architecture, timeline) helpful but not required
+
+Appendices для technical details, references
+
+Potential outcomes
