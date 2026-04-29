@@ -55,6 +55,18 @@
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
 
+## Как работает AgentFS и что такое .agentos?
+
+Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
+
+## Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
+
+## Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
 
 ---
 ## Раздел: 02-anthropic-vacancies
@@ -246,18 +258,6 @@ _Не найдено в этом файле._
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
 
-## Как работает AgentFS и что такое .agentos?
-
-Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
-
-## Что такое knowledge-space и для кого он предназначен?
-
-Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
-
-## Как CardIndex хранит и версионирует карточки?
-
-Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
-
 ## Какие инструменты обеспечивают безопасность агентов?
 
 Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
@@ -269,6 +269,18 @@ _Не найдено в этом файле._
 ## Как организован бюджетный роутинг между моделями?
 
 Упоминаются: **routing**, **budget**, **litellm**, **local model**
+
+## Как работает AgentFS и что такое .agentos?
+
+Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
+
+## Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
+
+## Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
 
 ---
@@ -331,6 +343,18 @@ _Не найдено в этом файле._
 ## Какие роли наиболее релевантны для профиля svend4?
 
 Упоминаются: **forward deployed**, **research engineer**, **developer community**
+
+## Как реализован forensic RAG с доказуемостью?
+
+Упоминаются: **evidence**
+
+## Что такое Evidence Envelope и зачем он нужен?
+
+Упоминаются: **page**
+
+## Какие RAG-подходы сравниваются в документах?
+
+_Не найдено в этом файле._
 
 ## Какие 5 архитектурных зазоров выделены в исследовании?
 

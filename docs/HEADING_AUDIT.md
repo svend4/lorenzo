@@ -2,15 +2,15 @@
 
 _Обновлено: 2026-04-29_
 
-Файлов с проблемами: **807** из 1163
+Файлов с проблемами: **827** из 1183
 
 ## Типы проблем
 
 | Тип | Кол-во |
 |-----|--------|
 | ⚠️  Нет родительского H2 | 7 |
-| 🕳️  Пустая секция | 1055 |
-| ♊ Дублирующийся заголовок | 647 |
+| 🕳️  Пустая секция | 1310 |
+| ♊ Дублирующийся заголовок | 651 |
 | 📏 Длинный заголовок | 4 |
 | 🪜 Пропущен уровень | 7 |
 | ❌ Нет H1 | 11 |
@@ -18,24 +18,29 @@ _Обновлено: 2026-04-29_
 
 ## По файлам
 
-### `docs/QA.md` (121 проблем)
+### `docs/EMPTY_SECTIONS.md` (159 проблем)
 
-_секция: 101, заголовок: 20_
-
-
-### `docs/CODE_BLOCKS.md` (117 проблем)
-
-_секция: 96, заголовок: 21_
+_секция: 155, заголовок: 4_
 
 
-### `docs/EMPTY_SECTIONS.md` (68 проблем)
+### `docs/CODE_BLOCKS.md` (127 проблем)
 
-_секция: 67, заголовок: 1_
+_секция: 106, заголовок: 21_
 
 
-### `docs/SPELLCHECK.md` (27 проблем)
+### `docs/QA.md` (127 проблем)
 
-_секция: 27_
+_секция: 107, заголовок: 20_
+
+
+### `docs/SPELLCHECK.md` (29 проблем)
+
+_секция: 29_
+
+
+### `docs/TABLES.md` (24 проблем)
+
+_секция: 16, заголовок: 8_
 
 
 ### `docs/02-anthropic-vacancies/QA.md` (23 проблем)
@@ -43,19 +48,34 @@ _секция: 27_
 _секция: 23_
 
 
-### `docs/TABLES.md` (23 проблем)
-
-_секция: 16, заголовок: 7_
-
-
 ### `docs/lorenzo-agent/QA.md` (18 проблем)
 
 _секция: 18_
 
 
+### `docs/templates/protocol-spec.md` (18 проблем)
+
+_секция: 18_
+
+
+### `docs/templates/rfc.md` (16 проблем)
+
+_секция: 16_
+
+
+### `docs/01-svyazi/QA.md` (15 проблем)
+
+_секция: 15_
+
+
 ### `docs/04-ai-collaborations/QA.md` (15 проблем)
 
 _секция: 15_
+
+
+### `docs/templates/mega-stack.md` (14 проблем)
+
+_секция: 14_
 
 
 ### `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` (13 проблем)
@@ -68,11 +88,6 @@ _секция: 8, заголовок: 4, H1: 1_
 _секция: 13_
 
 
-### `docs/01-svyazi/QA.md` (12 проблем)
-
-_секция: 12_
-
-
 ### `docs/02-anthropic-vacancies/69-section.md` (12 проблем)
 
 _секция: 10, H1: 1, заголовок: 1_
@@ -83,9 +98,19 @@ _секция: 10, H1: 1, заголовок: 1_
 _секция: 12_
 
 
+### `docs/templates/template-of-templates.md` (12 проблем)
+
+_секция: 12_
+
+
 ### `docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md` (11 проблем)
 
 _секция: 10, H1: 1_
+
+
+### `docs/templates/tech-pair.md` (11 проблем)
+
+_секция: 11_
 
 
 ### `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` (10 проблем)
@@ -98,9 +123,19 @@ _секция: 8, заголовок: 2_
 _секция: 10_
 
 
+### `docs/anthropic-vacancies/QA.md` (10 проблем)
+
+_секция: 10_
+
+
 ### `docs/nautilus/npp-v1-1/22-glossary.md` (9 проблем)
 
 _секция: 7, H1: 1, заголовок: 1_
+
+
+### `docs/templates/experiment-log.md` (9 проблем)
+
+_секция: 9_
 
 
 ### `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` (8 проблем)
@@ -138,11 +173,6 @@ _секция: 4, H1: 1, уровень: 1, заголовок: 1_
 _секция: 7_
 
 
-### `docs/anthropic-vacancies/QA.md` (7 проблем)
-
-_секция: 7_
-
-
 ### `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` (6 проблем)
 
 _секция: 3, заголовок: 2, H1: 1_
@@ -153,9 +183,34 @@ _секция: 3, заголовок: 2, H1: 1_
 _секция: 5, заголовок: 1_
 
 
+### `docs/CHANGELOG.md` (6 проблем)
+
+_секция: 5, заголовок: 1_
+
+
+### `docs/GITHUB_ISSUES.md` (6 проблем)
+
+_секция: 6_
+
+
 ### `docs/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md` (6 проблем)
 
 _секция: 5, H1: 1_
+
+
+### `docs/templates/legal-case.md` (6 проблем)
+
+_секция: 6_
+
+
+### `docs/templates/meeting-notes.md` (6 проблем)
+
+_секция: 6_
+
+
+### `docs/templates/weekly-digest.md` (6 проблем)
+
+_секция: 6_
 
 
 ### `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (5 проблем)
@@ -196,6 +251,31 @@ _секция: 3, H1: 1, заголовок: 1_
 ### `docs/nautilus/representative-agent-layer-en/12-closing.md` (5 проблем)
 
 _секция: 3, H1: 1, заголовок: 1_
+
+
+### `docs/templates/faq-entry.md` (5 проблем)
+
+_секция: 5_
+
+
+### `docs/templates/glossary-entry.md` (5 проблем)
+
+_секция: 5_
+
+
+### `docs/templates/prototype-mvp.md` (5 проблем)
+
+_секция: 5_
+
+
+### `docs/templates/risk-entry.md` (5 проблем)
+
+_секция: 5_
+
+
+### `docs/templates/tech-radar-entry.md` (5 проблем)
+
+_секция: 5_
 
 
 ### `docs/02-anthropic-vacancies/126-установка.md` (4 проблем)
@@ -273,16 +353,6 @@ _секция: 3, заголовок: 1_
 _секция: 2, заголовок: 2_
 
 
-### `docs/CHANGELOG.md` (4 проблем)
-
-_секция: 3, заголовок: 1_
-
-
-### `docs/GITHUB_ISSUES.md` (4 проблем)
-
-_секция: 4_
-
-
 ### `docs/HEALTH.md` (4 проблем)
 
 _секция: 4_
@@ -298,7 +368,17 @@ _секция: 3, заголовок: 1_
 _секция: 3, заголовок: 1_
 
 
+### `docs/templates/contradiction-record.md` (4 проблем)
+
+_секция: 4_
+
+
 ### `docs/templates/ensemble.md` (4 проблем)
+
+_секция: 4_
+
+
+### `docs/templates/retrospective.md` (4 проблем)
 
 _секция: 4_
 
@@ -579,6 +659,11 @@ _секция: 3_
 
 
 ### `docs/SCORING.md` (3 проблем)
+
+_секция: 3_
+
+
+### `docs/SCRIPTS_CATALOG.md` (3 проблем)
 
 _секция: 3_
 
@@ -1114,6 +1199,16 @@ _секция: 2_
 
 
 ### `docs/STALENESS.md` (2 проблем)
+
+_секция: 2_
+
+
+### `docs/TASKS_INDEX.md` (2 проблем)
+
+_секция: 2_
+
+
+### `docs/WORD_FREQ.md` (2 проблем)
 
 _секция: 2_
 
@@ -2708,6 +2803,11 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/ACTION_ITEMS.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/ALERTS.md` (1 проблем)
 
 _секция: 1_
@@ -2859,11 +2959,6 @@ _секция: 1_
 
 
 ### `docs/TIMELINE.md` (1 проблем)
-
-_секция: 1_
-
-
-### `docs/WORD_FREQ.md` (1 проблем)
 
 _секция: 1_
 
@@ -4044,6 +4139,11 @@ _секция: 1_
 
 
 ### `docs/templates/README.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/templates/agent-spec.md` (1 проблем)
 
 _секция: 1_
 

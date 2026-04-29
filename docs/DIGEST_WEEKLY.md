@@ -6,15 +6,17 @@ _Период: последние 7 дней (с 2026-04-22)_
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за неделю | **75** |
+| Коммитов за неделю | **77** |
 | Новых файлов | **0** |
 | Изменённых файлов | **0** |
-| Всего MD файлов | **1170** |
-| Всего слов | **905,038** |
+| Всего MD файлов | **1190** |
+| Всего слов | **939,378** |
 
 ## Коммиты
 
 ```
+8164448 feat: 5-sprint roadmap — templates, skills, plugins + manifest engine
+ba78ff2 docs: auto-update via improve_run_all [skip ci]
 2a9e940 chore: sync PROGRESS.md
 fc65bef chore: sync PROGRESS.md
 039a4a2 docs: auto-update via improve_run_all [skip ci]
@@ -28,10 +30,8 @@ ef99f46 feat: применить auto-linker + gap-filler ко всей базе
 1939848 feat: improve_reading_list.py — BM25-список чтения по теме
 7822b13 Extract Hermes Agent comparison and re-prioritization
 afe64e1 chore: sync PROGRESS.md after content scripts commit
-e965e1c Extract AI-managed virtual company and MMORPG-for-programmers analyses
-a845592 feat: ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний
 ```
 
 ---
 
-_Сгенерировано: 2026-04-29 10:26_
+_Сгенерировано: 2026-04-29 13:26_

@@ -1,10 +1,10 @@
 # CHANGELOG
 
-Всего коммитов: **76**  
-Статистика: 🔧 chore: 31 | ✨ feat: 22 | ⚡ improve: 14 | 📝 docs: 6 | 🐛 fix: 3
+Всего коммитов: **79**  
+Статистика: 🔧 chore: 32 | ✨ feat: 23 | ⚡ improve: 14 | 📝 docs: 7 | 🐛 fix: 3
 
 
-## 2026-04-29 (75 коммитов)
+## 2026-04-29 (77 коммитов)
 
 ### 🔧 Обслуживание
 
@@ -68,6 +68,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _ba78ff20_
 - auto-update via improve_run_all [skip ci] _039a4a2a_
 - auto-update via improve_run_all [skip ci] _dfc530a0_
 - auto-update via improve_run_all [skip ci] _f73c58f7_
@@ -78,6 +79,8 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- 5-sprint roadmap — templates, skills, plugins + manifest engine _81644487_
+  > Sprint 1 (T1+S1+P1): универсальный слой
 - 3 новых скрипта — cross_section, digest_auto, export_report _cd90a751_
   > improve_cross_section.py (группа analytics):
 - применить auto-linker + gap-filler ко всей базе знаний _ef99f46a_
@@ -160,6 +163,13 @@
   > - improve_summaries.py: added auto-annotations to 376 files
 - verify coverage, merge short files, add READMEs and glossary _91dd9685_
   > - verify_coverage.py: checks 97.6%→100.5% text coverage, all 26 terms found
+
+##  22 скила  (1 коммитов)
+
+### 🔧 Обслуживание
+
+- 9 MCP-серверов (+8) _Итого: 2_
+  > 5 манифестов
 
 ##  (1 коммитов)
 

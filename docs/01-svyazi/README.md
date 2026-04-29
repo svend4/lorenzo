@@ -1,4 +1,4 @@
-# Svyazi 2.0 — Архитектура и исследование
+# Svyazi[^svyazi] 2.0 — Архитектура и исследование
 
 **Файлов:** 15
 
@@ -18,4 +18,11 @@
 - [12-roadmap.md](12-roadmap.md) — <!-- abstract-auto -->
 - [13-contacts.md](13-contacts.md) — <!-- abstract-auto -->
 - [14-limitations.md](14-limitations.md) — <!-- abstract-auto -->
-- [QA.md](QA.md) — <!-- summary -->
+- [QA.md](QA.md) — _Автоматически сгенерировано по 14 файлам раздела._
+
+
+<!-- footnotes-added -->
+
+---
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

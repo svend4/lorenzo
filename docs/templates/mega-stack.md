@@ -12,6 +12,13 @@ tags: [mega-stack, архитектура]
 
 # Mega-stack: [Название]
 
+<!-- summary -->
+> domain: "[legal-AI | knowledge-OS | agent-platform]"
+
+---
+
+
+
 <!-- summary: Полный стек для класса задач X -->
 <!-- tags: mega-stack, архитектура -->
 

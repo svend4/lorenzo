@@ -2,37 +2,13 @@
 
 _Обновлено: 2026-04-29_
 
-Утверждений: **51294** | Противоречий: **5408**
+Утверждений: **53677** | Противоречий: **7192**
 
 > Автоматический поиск без LLM — возможны ложные срабатывания.
 
 ## Найденные противоречия
 
-### 1. 🔢 Числовое — 6.0 vs 58.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `автор`, `вовлечён`, `контекст`, `непосредственно`
-
-**A:** `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md`
-> Контекст Автор этой статьи непосредственно вовлечён в немецкое социальное право через текущие разбирательства в Sozialgericht (дела S 6 SO 58/26 ER и 
-
-**B:** `docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md`
-> Контекст Автор этой статьи непосредственно вовлечён в немецкое социальное право через текущие разбирательства в Sozialgericht (дела S 6 SO 58/26 ER и 
-
----
-
-### 2. 🔢 Числовое — 1027724.0 vs 26.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `articles`, `com`, `было`, `конце`
-
-**A:** `docs/04-ai-collaborations/00-intro.md`
-> com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект 
-
-**B:** `docs/habr-unique-projects/extra-examples/00-question-habr-examples.md`
-> com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект 
-
----
-
-### 3. 🔢 Числовое — 4.0 vs 9.0 (уверенность: 0.8)
+### 1. 🔢 Числовое — 4.0 vs 9.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `first`, `software`, `можно`, `собирать`
 
@@ -44,15 +20,39 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 4. 🔢 Числовое — 70.0 vs 4.0 (уверенность: 0.8)
+### 2. 🔢 Числовое — 6.0 vs 58.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `второе`, `месячная`, `одна`, `отрезвляющее`
+**Общие ключевые слова:** `автор`, `вовлечён`, `контекст`, `непосредственно`
 
-**A:** `docs/02-anthropic-vacancies/00-intro.md`
-> Второе — отрезвляющее: эти 70 репо — это одна 4-месячная брейн-волна , а не плоды многолетней разработки
+**A:** `docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md`
+> Контекст Автор этой статьи непосредственно вовлечён в немецкое социальное право через текущие разбирательства в Sozialgericht (дела S 6 SO 58/26 ER и 
 
-**B:** `docs/CONCEPTS.md`
-> md) Второе — отрезвляющее: эти 70 репо : одна 4-месячная брейн-волна , а не плоды многолетней разработки → 00-intro(docs/02-anthropic-vacancies/00-int
+**B:** `docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md`
+> Контекст Автор этой статьи непосредственно вовлечён в немецкое социальное право через текущие разбирательства в Sozialgericht (дела S 6 SO 58/26 ER и 
+
+---
+
+### 3. 🔢 Числовое — 1027724.0 vs 26.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `articles`, `com`, `было`, `конце`
+
+**A:** `docs/04-ai-collaborations/00-intro.md`
+> com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект 
+
+**B:** `docs/habr-unique-projects/extra-examples/00-question-habr-examples.md`
+> com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект 
+
+---
+
+### 4. 🔢 Числовое — 50.0 vs 27.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `docs`, `liteparse`, `research`
+
+**A:** `docs/EMPTY_SECTIONS.md`
+> md 1 2 50% research-docs-liteparse
+
+**B:** `docs/LANGUAGE_STATS.md`
+> md 27% 73% research-docs-liteparse
 
 ---
 
@@ -68,7 +68,19 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 6. 🔢 Числовое — 68.0 vs 8.0 (уверенность: 0.8)
+### 6. 🔢 Числовое — 70.0 vs 4.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `второе`, `месячная`, `одна`, `отрезвляющее`
+
+**A:** `docs/02-anthropic-vacancies/00-intro.md`
+> Второе — отрезвляющее: эти 70 репо — это одна 4-месячная брейн-волна , а не плоды многолетней разработки
+
+**B:** `docs/CONCEPTS.md`
+> md) Второе — отрезвляющее: эти 70 репо : одна 4-месячная брейн-волна , а не плоды многолетней разработки → 00-intro(docs/02-anthropic-vacancies/00-int
+
+---
+
+### 7. 🔢 Числовое — 68.0 vs 8.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `collaborations`, `docs`, `добавляет`, `продолжение`
 
@@ -80,7 +92,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 7. 🔢 Числовое — 68.0 vs 4.0 (уверенность: 0.8)
+### 8. 🔢 Числовое — 68.0 vs 4.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `collaborations`, `docs`, `добавляет`, `продолжение`
 
@@ -92,7 +104,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 8. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
+### 9. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `collaborations`, `docs`, `добавляет`, `продолжение`
 
@@ -104,7 +116,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 9. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
+### 10. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `collaborations`, `docs`, `добавляет`, `продолжение`
 
@@ -116,31 +128,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 10. 🔢 Числовое — 8.0 vs 41.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `добавляет`, `продолжение`
-
-**A:** `docs/04-ai-collaborations/README.md`
-> md) — - 08-что-это-продолжение-добавляет
-
-**B:** `docs/LANGUAGE_STATS.md`
-> md 41% 59% 08-что-это-продолжение-добавляет
-
----
-
-### 11. 🔢 Числовое — 8.0 vs 41.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `добавляет`, `продолжение`
-
-**A:** `docs/04-ai-collaborations/README.md`
-> md(08-что-это-продолжение-добавляет
-
-**B:** `docs/LANGUAGE_STATS.md`
-> md 41% 59% 08-что-это-продолжение-добавляет
-
----
-
-### 12. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8)
+### 11. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `habr`, `moltbot`, `openclaw`, `автономного`
 
@@ -149,6 +137,18 @@ _Обновлено: 2026-04-29_
 
 **B:** `docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md`
 > Habr Moltbot/OpenClaw добавляет автономного агента 24/7 с инструментами, браузером, почтой, API, фоном и 700+ skills; автор подчёркивает отличие от Ch
+
+---
+
+### 12. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `добавляет`, `продолжение`
+
+**A:** `docs/04-ai-collaborations/README.md`
+> md(08-что-это-продолжение-добавляет
+
+**B:** `docs/LANGUAGE_STATS.md`
+> md 58% 42% 08-что-это-продолжение-добавляет
 
 ---
 
@@ -296,19 +296,31 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 25. 🔢 Числовое — 6.0 vs 10.0 (уверенность: 0.8)
+### 25. 🔢 Числовое — 5.0 vs 10.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `anastasiyaw`, `com`, `github`, `knowledge`
 
 **A:** `docs/CITATION_INDEX.md`
-> com/AnastasiyaW/knowledge-space 6 ⭐⭐⭐⭐⭐ github
+> com/AnastasiyaW/knowledge-space 5 ⭐⭐⭐⭐⭐ github
 
 **B:** `docs/CONTACTS.md`
 > com/AnastasiyaW/knowledge-space 10 github
 
 ---
 
-### 26. 🔢 Числовое — 2026.0 vs 4.0 (уверенность: 0.8)
+### 26. 🔢 Числовое — 7.0 vs 3.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `anastasiyaw`, `com`, `knowledge`, `space`
+
+**A:** `docs/ENTITIES.md`
+> com/AnastasiyaW/knowledge-space) 7 [URL]
+
+**B:** `docs/LINKS.md`
+> com/AnastasiyaW/knowledge-space 3 [URL]
+
+---
+
+### 27. 🔢 Числовое — 2026.0 vs 4.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `vladspace`, `автоматически`, `вопрос`, `документы`
 
@@ -320,7 +332,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 27. 🔢 Числовое — 4.0 vs 11.0 (уверенность: 0.8)
+### 28. 🔢 Числовое — 4.0 vs 11.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `engine`, `hebbian`, `memory`, `ngt`
 
@@ -332,39 +344,27 @@ _Обновлено: 2026-04-29_
 
 ---
 
-### 28. 🔢 Числовое — 5.0 vs 3.0 (уверенность: 0.8)
+### 29. 🔢 Числовое — 68.0 vs 3.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `consolidation`, `outline`, `прочитаны`, `фаза`
+**Общие ключевые слова:** `collaboration`, `graph`, `hebbian`, `synthesis`
 
-**A:** `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md`
-> Фаза C — Consolidation - Прочитаны A и B целиком - Outline финальной версии создан - Применены правила 1-5 ко всем расхождениям - Числа верифицированы
+**A:** `docs/LANGUAGE_STATS.md`
+> md 68% 32% 03-synthesis-hebbian-collaboration-graph
 
-**B:** `docs/nautilus/review-methodology/10-checklist.md`
-> Фаза C — Consolidation - Прочитаны A и B целиком - Outline финальной версии создан - Применены правила 1-5 ко всем расхождениям - Числа верифицированы
-
----
-
-### 29. 🔢 Числовое — 3.0 vs 74.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `consolidation`, `operations`, `phase`, `self`
-
-**A:** `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md`
-> Phase 3: Consolidation and Self-Sustaining Operations(74-phase-3-consolidation-and-self-sustaining-operations) - 7
-
-**B:** `docs/nautilus/okwf-concept/07-phased-rollout.md`
-> Phase 3: Consolidation and Self-Sustaining Operations(74-phase-3-consolidation-and-self-sustaining-operations) - 7
+**B:** `docs/ai-collaborations/candidates/README.md`
+> md) — - 03-synthesis-hebbian-collaboration-graph
 
 ---
 
-### 30. 🔢 Числовое — 3.0 vs 5.0 (уверенность: 0.8)
+### 30. 🔢 Числовое — 68.0 vs 3.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `consolidation`, `operations`, `phase`, `self`
+**Общие ключевые слова:** `collaboration`, `graph`, `hebbian`, `synthesis`
 
-**A:** `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md`
-> Phase 3: Consolidation and Self-Sustaining Operations (Years 3-5) Key activities: - Expand to 5000+ contributors - Develop endowment and reduce fundin
+**A:** `docs/LANGUAGE_STATS.md`
+> md 68% 32% 03-synthesis-hebbian-collaboration-graph
 
-**B:** `docs/nautilus/okwf-concept/07-phased-rollout.md`
-> Phase 3: Consolidation and Self-Sustaining Operations (Years 3-5) Key activities: - Expand to 5000+ contributors - Develop endowment and reduce fundin
+**B:** `docs/ai-collaborations/candidates/README.md`
+> md(03-synthesis-hebbian-collaboration-graph
 
 ---
 

@@ -1,10 +1,10 @@
 # Сравнение с предыдущим коммитом
 
-**Файлов было:** 1014  **стало:** 1170  
-**Слов было:** 677,569  **стало:** 904,191  **Δ:** +226,622
+**Файлов было:** 1025  **стало:** 1190  
+**Слов было:** 743,673  **стало:** 933,393  **Δ:** +189,720
 
 
-## Новые файлы (156)
+## Новые файлы (165)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19144 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3207 слов)
@@ -46,42 +46,42 @@
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (610 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (459 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (658 слов)
-_...и ещё 116_
+_...и ещё 125_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (307) — топ по Δ слов
+## Изменившиеся файлы (84) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `OUTLINE.md` | 27895 | 34491 | +6596 |
-| `SITEMAP.md` | 6806 | 1663 | -5143 |
-| `PARAGRAPH_QUALITY.md` | 10192 | 14229 | +4037 |
-| `TIMELINE.md` | 2061 | 4272 | +2211 |
-| `TABLES.md` | 98785 | 99622 | +837 |
-| `REPORT.md` | 304 | 932 | +628 |
-| `CONTRADICTIONS.md` | 1386 | 1949 | +563 |
-| `SEARCH.md` | 4112 | 4660 | +548 |
-| `ACTION_ITEMS.md` | 7277 | 7697 | +420 |
-| `NAMED_ENTITIES.md` | 1449 | 1783 | +334 |
-| `SCORING.md` | 338 | 626 | +288 |
-| `STALENESS.md` | 384 | 600 | +216 |
-| `COVERAGE.md` | 646 | 860 | +214 |
-| `VOCABULARY.md` | 882 | 1089 | +207 |
-| `87-12-onboarding-paths-normative.md` | 407 | 595 | +188 |
-| `163-9-call-for-partnership.md` | 443 | 628 | +185 |
-| `COST.md` | 549 | 731 | +182 |
-| `178-9-phased-rollout-strategy.md` | 452 | 632 | +180 |
-| `SCHEDULE.md` | 271 | 444 | +173 |
-| `175-6-ethical-framework.md` | 446 | 612 | +166 |
-| `DECISIONS.md` | 2287 | 2452 | +165 |
-| `READABILITY.md` | 17442 | 17606 | +164 |
-| `CONTACT_PRIORITY.md` | 364 | 524 | +160 |
-| `GITHUB_ISSUES.md` | 1095 | 1255 | +160 |
-| `279-existing-approximations.md` | 449 | 604 | +155 |
-| `316-8-implications-for-nautilus-and-okwf.md` | 579 | 731 | +152 |
-| `177-8-risks-and-mitigations.md` | 471 | 620 | +149 |
-| `CONCEPTS.md` | 13020 | 13165 | +145 |
-| `317-9-risks-and-open-questions.md` | 484 | 627 | +143 |
-| `160-6-governance-and-ethics.md` | 466 | 605 | +139 |
+| `QUESTIONS.md` | 21214 | 1838 | -19376 |
+| `TABLES.md` | 99622 | 112953 | +13331 |
+| `OUTLINE.md` | 27592 | 34216 | +6624 |
+| `PARAGRAPH_QUALITY.md` | 10418 | 15105 | +4687 |
+| `HEADING_AUDIT.md` | 5507 | 8808 | +3301 |
+| `TIMELINE.md` | 2073 | 4280 | +2207 |
+| `EMPTY_SECTIONS.md` | 8827 | 10804 | +1977 |
+| `CONTRADICTIONS.md` | 1526 | 1897 | +371 |
+| `ACTION_ITEMS.md` | 7697 | 8003 | +306 |
+| `READABILITY.md` | 17606 | 17905 | +299 |
+| `CONCEPTS.md` | 13165 | 13438 | +273 |
+| `CODE_BLOCKS.md` | 4618 | 4808 | +190 |
+| `NAMED_ENTITIES.md` | 1448 | 1638 | +190 |
+| `GITHUB_ISSUES.md` | 1148 | 1312 | +164 |
+| `SITEMAP.md` | 6883 | 7004 | +121 |
+| `READING_TIME.md` | 12198 | 12287 | +89 |
+| `REPORT.md` | 911 | 995 | +84 |
+| `COST.md` | 547 | 629 | +82 |
+| `SOURCE_MAP.md` | 6086 | 6167 | +81 |
+| `CITATION_INDEX.md` | 861 | 934 | +73 |
+| `QA.md` | 1290 | 1363 | +73 |
+| `KNOWLEDGE_MAP.md` | 577 | 647 | +70 |
+| `LANGUAGE_STATS.md` | 6573 | 6638 | +65 |
+| `COVERAGE.md` | 595 | 659 | +64 |
+| `SCHEDULE.md` | 271 | 332 | +61 |
+| `VOCABULARY.md` | 882 | 943 | +61 |
+| `TAGS.md` | 544 | 600 | +56 |
+| `ABBREVIATIONS.md` | 1532 | 1587 | +55 |
+| `DUPLICATES.md` | 2750 | 2695 | -55 |
+| `PROGRESS.md` | 238 | 292 | +54 |

@@ -1,6 +1,6 @@
 # Индекс «Смотрите также»
 
-**Файлов с блоком See Also:** 1101
+**Файлов с блоком See Also:** 1100
 
 ## Ключевые связи
 
@@ -17,7 +17,7 @@
 - **12-roadmap** → `12-дорожная-карта-прототипа-следующей-итерации`, `roadmap`, `14-limitations`, `08-conclusions`
 - **13-contacts** → `13-контактная-стратегия-и-узкие-вопросы-для-авторов`, `narrow-questions`, `CONTACTS`, `05-план-прототипа-и-возможные-контакты`
 - **14-limitations** → `do-not-glue`, `conclusions`, `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать`, `license-tree`
-- **QA** → `integration-spec`, `first-contacts`, `KNOWLEDGE_MAP`, `ONBOARDING`
+- **QA** → `CONTACTS`, `integration-spec`, `first-contacts`, `KNOWLEDGE_MAP`
 - **README** → `research-summary`
 - **00-intro** → `288-appendix-position-in-series-visualization`, `289-инфраструктура-для-ai-совместной-интеллектуальной-`, `324-ingit-как-cowork-интегрированная-подложка-рабочего`, `229-профессиональные-коллеги-агенты`
 - **01-интегральный-анализ-профиля-svend4** → `00-question-innovations-transitions`, `CONCEPTS`, `TABLES`, `ACTION_ITEMS`

@@ -483,6 +483,7 @@
   <url><loc>docs/RISK_REGISTER.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SCHEDULE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SCORING.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SCRIPTS_CATALOG.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SEARCH.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SEARCH_RESULTS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SEE_ALSO.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -496,6 +497,7 @@
   <url><loc>docs/SUMMARIES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TABLES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TAGS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/TASKS_INDEX.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TECH_RADAR.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TIMELINE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/VALIDATION.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -1164,9 +1166,27 @@
   <url><loc>docs/technology-combinations/synthesis-tables/31-35-final.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/technology-combinations/synthesis-tables/README.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/templates/README.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/agent-spec.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/templates/contact-outreach.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/contradiction-record.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/templates/decision-record.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/templates/ensemble.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/experiment-log.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/faq-entry.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/glossary-entry.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/kpi-snapshot.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/legal-case.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/meeting-notes.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/mega-stack.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/templates/project-component.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/protocol-spec.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/prototype-mvp.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/templates/research-note.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/retrospective.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/rfc.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/risk-entry.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/tech-pair.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/tech-radar-entry.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/template-of-templates.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/templates/weekly-digest.md</loc><lastmod>2026-04-29</lastmod></url>
 </urlset>

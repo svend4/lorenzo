@@ -3,277 +3,301 @@
 Каждый файл помечен тегами по темам автоматически.
 
 
-## #anthropic (34 файлов)
+## #anthropic (52 файлов)
 
-- `docs/02-anthropic-vacancies/38-content-overview.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/05-habr-projects/QA.md`
 - `docs/ABBREVIATIONS.md`
-- `docs/BACKLINKS.md`
+- `docs/CHANGELOG.md`
 - `docs/CITATION_INDEX.md`
-- `docs/CLUSTERS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPARE.md`
+- `docs/CONCEPTS.md`
+- `docs/CONCEPT_GRAPH.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COVERAGE.md`
+- `docs/DENSITY.md`
+- `docs/DEPENDABOT.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/ENTITIES.md`
+- _...и ещё 32_
+
+## #architecture (53 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/ABBREVIATIONS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPARE.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONCEPTS.md`
+- `docs/CONCEPT_GRAPH.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/COVERAGE.md`
+- `docs/DENSITY.md`
+- `docs/EMPTY_SECTIONS.md`
+- _...и ещё 33_
+
+## #collaboration (64 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/ABBREVIATIONS.md`
+- `docs/CHANGELOG.md`
+- `docs/CITATION_INDEX.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPARE.md`
+- `docs/CONCEPTS.md`
+- `docs/CONCEPT_GRAPH.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/COVERAGE.md`
+- `docs/DENSITY.md`
+- _...и ещё 44_
+
+## #ingestion (54 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/ALERTS.md`
+- `docs/CHANGELOG.md`
 - `docs/CODE_BLOCKS.md`
 - `docs/CONCEPTS.md`
+- `docs/CONCEPT_GRAPH.md`
 - `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
 - `docs/CONTENT_GAPS.md`
-- `docs/CROSS_SECTION.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COVERAGE.md`
 - `docs/DENSITY.md`
 - `docs/DEPENDABOT.md`
 - `docs/DIGEST_AUTO.md`
 - `docs/DIGEST_WEEKLY.md`
-- `docs/ENTITIES.md`
-- `docs/GITHUB_ISSUES.md`
-- `docs/HEATMAP.md`
-- `docs/KPI.md`
-- `docs/OUTLINE.md`
-- `docs/PASSIVE_VOICE.md`
-- _...и ещё 14_
+- `docs/EMPTY_SECTIONS.md`
+- _...и ещё 34_
 
-## #architecture (25 файлов)
+## #knowledge (42 файлов)
 
-- `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md`
-- `docs/ABBREVIATIONS.md`
-- `docs/CLUSTERS.md`
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/CITATION_INDEX.md`
 - `docs/CODE_BLOCKS.md`
 - `docs/CONCEPTS.md`
 - `docs/CONSISTENCY.md`
-- `docs/CONTENT_GAPS.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
 - `docs/DENSITY.md`
-- `docs/HEATMAP.md`
+- `docs/DEPENDABOT.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/ENTITIES.md`
+- `docs/FAQ.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- _...и ещё 22_
+
+## #local-first (26 файлов)
+
+- `docs/ABBREVIATIONS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONCEPTS.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/ENTITIES.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
 - `docs/KPI.md`
-- `docs/OUTLINE.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/MINDMAP.md`
+- `docs/MISSING.md`
+- `docs/NAMED_ENTITIES.md`
+- `docs/PARAGRAPH_QUALITY.md`
 - `docs/PRIORITIES.md`
-- `docs/PROGRESS.md`
 - `docs/QUESTIONS.md`
 - `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- `docs/REPORT.md`
-- `docs/SEARCH.md`
-- `docs/SENTIMENT.md`
-- `docs/SIMILAR.md`
-- _...и ещё 5_
+- _...и ещё 6_
 
-## #collaboration (32 файлов)
+## #memory (44 файлов)
 
-- `docs/ABBREVIATIONS.md`
-- `docs/BACKLINKS.md`
+- `docs/02-anthropic-vacancies/QA.md`
 - `docs/CITATION_INDEX.md`
-- `docs/CLUSTERS.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPARE.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONCEPTS.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/DENSITY.md`
+- `docs/DEPENDABOT.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/ENTITIES.md`
+- `docs/FAQ.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
+- _...и ещё 24_
+
+## #orchestration (32 файлов)
+
+- `docs/02-anthropic-vacancies/QA.md`
 - `docs/CODE_BLOCKS.md`
 - `docs/CONCEPTS.md`
 - `docs/CONSISTENCY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/CROSS_SECTION.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
 - `docs/DENSITY.md`
-- `docs/DEPENDABOT.md`
-- `docs/DIGEST_AUTO.md`
-- `docs/DIGEST_WEEKLY.md`
+- `docs/EMPTY_SECTIONS.md`
 - `docs/ENTITIES.md`
-- `docs/GITHUB_ISSUES.md`
+- `docs/FAQ.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
 - `docs/HEATMAP.md`
-- `docs/KPI.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/PROGRESS.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/MINDMAP.md`
+- `docs/MISSING.md`
+- `docs/NARRATIVE.md`
 - _...и ещё 12_
 
-## #ingestion (25 файлов)
+## #rag (45 файлов)
 
-- `docs/BACKLINKS.md`
-- `docs/CLUSTERS.md`
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/ABBREVIATIONS.md`
+- `docs/CHANGELOG.md`
 - `docs/CODE_BLOCKS.md`
+- `docs/COMPARE.md`
 - `docs/CONCEPTS.md`
 - `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/DENSITY.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/ENTITIES.md`
+- `docs/FAQ.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
+- _...и ещё 25_
+
+## #roadmap (41 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/ABBREVIATIONS.md`
+- `docs/CHANGELOG.md`
+- `docs/CODE_BLOCKS.md`
+- `docs/COMPARE.md`
+- `docs/CONCEPTS.md`
+- `docs/CONTACTS.md`
 - `docs/CONTENT_GAPS.md`
-- `docs/CROSS_SECTION.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
 - `docs/DENSITY.md`
-- `docs/DEPENDABOT.md`
-- `docs/DIGEST_AUTO.md`
-- `docs/DIGEST_WEEKLY.md`
-- `docs/ENTITIES.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/FAQ.md`
+- `docs/HEADING_AUDIT.md`
 - `docs/HEATMAP.md`
 - `docs/KPI.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/PROGRESS.md`
-- `docs/QUESTIONS.md`
-- `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- _...и ещё 5_
+- `docs/LANGUAGE_STATS.md`
+- _...и ещё 21_
 
-## #knowledge (22 файлов)
+## #security (36 файлов)
 
-- `docs/CITATION_INDEX.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONSISTENCY.md`
-- `docs/CROSS_SECTION.md`
-- `docs/DENSITY.md`
-- `docs/DEPENDABOT.md`
-- `docs/ENTITIES.md`
-- `docs/KPI.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/PROGRESS.md`
-- `docs/QUESTIONS.md`
-- `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- `docs/REPORT.md`
-- `docs/SEARCH.md`
-- `docs/SOURCE_MAP.md`
-- `docs/SPELLCHECK.md`
-- _...и ещё 2_
-
-## #local-first (13 файлов)
-
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/04-ai-collaborations/QA.md`
 - `docs/ABBREVIATIONS.md`
 - `docs/CODE_BLOCKS.md`
-- `docs/COMPLEXITY.md`
 - `docs/CONCEPTS.md`
-- `docs/DIGEST_AUTO.md`
-- `docs/ENTITIES.md`
-- `docs/KPI.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- `docs/SEARCH.md`
-- `docs/SOURCE_MAP.md`
-
-## #memory (25 файлов)
-
-- `docs/BACKLINKS.md`
-- `docs/CITATION_INDEX.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/COMPLEXITY.md`
-- `docs/CONCEPTS.md`
-- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
 - `docs/CONTENT_GAPS.md`
-- `docs/CROSS_SECTION.md`
+- `docs/COST.md`
 - `docs/DENSITY.md`
-- `docs/DEPENDABOT.md`
+- `docs/EMPTY_SECTIONS.md`
 - `docs/ENTITIES.md`
-- `docs/KPI.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/PROGRESS.md`
-- `docs/QUESTIONS.md`
-- `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- `docs/REPORT.md`
-- `docs/SEARCH.md`
-- _...и ещё 5_
-
-## #orchestration (15 файлов)
-
-- `docs/BACKLINKS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONSISTENCY.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
+- `docs/FAQ.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
 - `docs/HEATMAP.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- `docs/REPORT.md`
-- `docs/SEARCH.md`
-- `docs/SOURCE_MAP.md`
-- `docs/SPELLCHECK.md`
+- `docs/KNOWLEDGE_MAP.md`
+- `docs/LANGUAGE_STATS.md`
+- _...и ещё 16_
 
-## #rag (21 файлов)
+## #self-improvement (32 файлов)
 
 - `docs/ABBREVIATIONS.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONSISTENCY.md`
-- `docs/DENSITY.md`
-- `docs/DIGEST_WEEKLY.md`
-- `docs/ENTITIES.md`
-- `docs/HEATMAP.md`
-- `docs/KPI.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/QUESTIONS.md`
-- `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- `docs/REPORT.md`
-- `docs/SEARCH.md`
-- `docs/SENTIMENT.md`
-- `docs/SOURCE_MAP.md`
-- `docs/WORD_FREQ.md`
-- _...и ещё 1_
-
-## #roadmap (21 файлов)
-
-- `docs/ABBREVIATIONS.md`
-- `docs/BACKLINKS.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/DENSITY.md`
-- `docs/DIGEST_WEEKLY.md`
-- `docs/HEATMAP.md`
-- `docs/KPI.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/PROGRESS.md`
-- `docs/QUESTIONS.md`
-- `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- `docs/REPORT.md`
-- `docs/SEARCH.md`
-- `docs/SIMILAR.md`
-- `docs/SOURCE_MAP.md`
-- _...и ещё 1_
-
-## #security (17 файлов)
-
-- `docs/ABBREVIATIONS.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
-- `docs/HEATMAP.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- `docs/REPORT.md`
-- `docs/SEARCH.md`
-- `docs/SIMILAR.md`
-- `docs/SOURCE_MAP.md`
-- `docs/SPELLCHECK.md`
-
-## #self-improvement (15 файлов)
-
-- `docs/ABBREVIATIONS.md`
+- `docs/CHANGELOG.md`
 - `docs/CODE_BLOCKS.md`
 - `docs/COMPLEXITY.md`
 - `docs/CONCEPTS.md`
 - `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/FOOTNOTES.md`
+- `docs/GRAPH.md`
+- `docs/HEADING_AUDIT.md`
+- `docs/KNOWLEDGE_MAP.md`
 - `docs/KPI.md`
-- `docs/OUTLINE.md`
-- `docs/PRIORITIES.md`
-- `docs/QUESTIONS.md`
-- `docs/READABILITY.md`
-- `docs/READING_TIME.md`
-- `docs/REPORT.md`
-- `docs/SEARCH.md`
-- `docs/SOURCE_MAP.md`
-- `docs/SPELLCHECK.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/MINDMAP.md`
+- `docs/MISSING.md`
+- `docs/NAMED_ENTITIES.md`
+- `docs/NARRATIVE.md`
+- `docs/PARAGRAPH_QUALITY.md`
+- _...и ещё 12_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [DEPENDENCY_MAP](docs/DEPENDENCY_MAP.md)
 - [CONSISTENCY](docs/CONSISTENCY.md)
+- [DEPENDENCY_MAP](docs/DEPENDENCY_MAP.md)
+- [STATS](docs/STATS.md)
 - [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
 

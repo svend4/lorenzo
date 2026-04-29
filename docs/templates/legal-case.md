@@ -12,6 +12,14 @@ tags: [legal, case]
 
 # Юридический кейс: [Aktenzeichen]
 
+<!-- summary -->
+> <!-- summary: О чём кейс в 1-2 предложениях -->
+**Проекты:** Svyazi
+
+---
+
+
+
 <!-- summary: О чём кейс в 1-2 предложениях -->
 <!-- tags: legal, case -->
 

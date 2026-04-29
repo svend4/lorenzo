@@ -8,7 +8,7 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **86** |
+| Коммитов | **88** |
 | Новых файлов | **20** |
 | Изменённых файлов | **0** |
 | Слов добавлено | **+0** |
@@ -20,15 +20,17 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 |--------|-----------|
 | `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
 | `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 234 |
-| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 158 |
+| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 174 |
 | `anthropic-vacancies` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 111 |
 | `lorenzo-agent` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 62 |
 | `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 59 |
 | `habr-unique-projects` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 56 |
-| `technology-combinations` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 53 |
+| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 53 |
 
 ## Последние коммиты
 
+- `2026-04-29` [81644487] feat: 5-sprint roadmap — templates, skills, plugins + manifest engine
+- `2026-04-29` [ba78ff20] docs: auto-update via improve_run_all [skip ci]
 - `2026-04-29` [9e9cf7f9] Merge pull request #6 from svend4/claude/current-dev-stage-iVIov
 - `2026-04-29` [2a9e9403] chore: sync PROGRESS.md
 - `2026-04-29` [5067c58c] merge: разрешить конфликты слияния с main (волна 2)
@@ -37,26 +39,24 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 - `2026-04-29` [039a4a2a] docs: auto-update via improve_run_all [skip ci]
 - `2026-04-29` [e50208ea] Merge pull request #7 from svend4/claude/organize-monorepo-docs-XI9Aa
 - `2026-04-29` [dfc530a0] docs: auto-update via improve_run_all [skip ci]
-- `2026-04-29` [65ab75e8] Merge branch 'main' into claude/organize-monorepo-docs-XI9Aa
-- `2026-04-29` [fedc045a] Audit-driven extraction of major missing substantive content
 
 ## Новые файлы
 
-- [`QA.md`](docs/anthropic-vacancies/QA.md) — `anthropic-vacancies`
-- [`QA.md`](docs/lorenzo-agent/QA.md) — `lorenzo-agent`
-- [`00-question-two-nautiluses.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md) — `anthropic-vacancies`
-- [`01-shell-metaphor-two-projections.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) — `anthropic-vacancies`
-- [`02-nautilus-A-pro2-meta.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md) — `anthropic-vacancies`
-- [`03-nautilus-B-meta-orchestrator.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md) — `anthropic-vacancies`
-- [`README.md`](docs/anthropic-vacancies/nautilus-pro2-analysis/README.md) — `anthropic-vacancies`
-- [`00-question-lorenzo-codename.md`](docs/lorenzo-agent/naming/00-question-lorenzo-codename.md) — `lorenzo-agent`
-- [`01-search-results-not-found.md`](docs/lorenzo-agent/naming/01-search-results-not-found.md) — `lorenzo-agent`
-- [`02-naming-rationale-lorenzo-medici.md`](docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md) — `lorenzo-agent`
-- [`03-dhlab-umbrella.md`](docs/lorenzo-agent/naming/03-dhlab-umbrella.md) — `lorenzo-agent`
-- [`README.md`](docs/lorenzo-agent/naming/README.md) — `lorenzo-agent`
-- [`00-question-scenario.md`](docs/lorenzo-agent/scenarios/00-question-scenario.md) — `lorenzo-agent`
-- [`01-response.md`](docs/lorenzo-agent/scenarios/01-response.md) — `lorenzo-agent`
-- [`README.md`](docs/lorenzo-agent/scenarios/README.md) — `lorenzo-agent`
+- [`audit-corpus.md`](.claude/skills/audit-corpus.md) — `root`
+- [`compare.md`](.claude/skills/compare.md) — `root`
+- [`daily-routine.md`](.claude/skills/daily-routine.md) — `root`
+- [`design-ensemble.md`](.claude/skills/design-ensemble.md) — `root`
+- [`evaluate-tech.md`](.claude/skills/evaluate-tech.md) — `root`
+- [`find-cinderella.md`](.claude/skills/find-cinderella.md) — `root`
+- [`find-contradictions.md`](.claude/skills/find-contradictions.md) — `root`
+- [`find-gaps.md`](.claude/skills/find-gaps.md) — `root`
+- [`generate-rfc.md`](.claude/skills/generate-rfc.md) — `root`
+- [`new-research.md`](.claude/skills/new-research.md) — `root`
+- [`outreach-day.md`](.claude/skills/outreach-day.md) — `root`
+- [`plan-mvp.md`](.claude/skills/plan-mvp.md) — `root`
+- [`propose-collaboration.md`](.claude/skills/propose-collaboration.md) — `root`
+- [`propose-mega-stack.md`](.claude/skills/propose-mega-stack.md) — `root`
+- [`review-architecture.md`](.claude/skills/review-architecture.md) — `root`
 
 ---
 _Дайджест сгенерирован автоматически: 2026-04-29_

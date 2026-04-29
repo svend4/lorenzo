@@ -4,38 +4,38 @@
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 76 |
-| **AIF Handoff** | 29 |
-| **AgentFS** | 98 |
-| **Auto AI Router** | 66 |
-| **AutoResearch** | 58 |
-| **Automerge** | 33 |
+| **AI Factory** | 75 |
+| **AIF Handoff** | 30 |
+| **AgentFS** | 100 |
+| **Auto AI Router** | 65 |
+| **AutoResearch** | 66 |
+| **Automerge** | 38 |
 | **CardIndex** | 137 |
 | **Firecrawl** | 22 |
-| **Graph RAG** | 46 |
-| **Hybrid RAG** | 49 |
-| **Legal RAG** | 50 |
-| **LiteLLM** | 51 |
-| **LiteParse** | 76 |
-| **MemNet** | 141 |
-| **Memory OS** | 36 |
+| **Graph RAG** | 48 |
+| **Hybrid RAG** | 53 |
+| **Legal RAG** | 52 |
+| **LiteLLM** | 49 |
+| **LiteParse** | 79 |
+| **MemNet** | 142 |
+| **Memory OS** | 38 |
 | **NGT Memory** | 95 |
 | **OpenWhispr** | 21 |
-| **RLM-Toolkit** | 10 |
-| **Rufler** | 82 |
-| **SENTINEL** | 68 |
-| **Self-Aware MCP** | 20 |
-| **Sequential** | 114 |
-| **Svyazi** | 315 |
-| **Tool Search** | 52 |
-| **Whisper** | 23 |
-| **Wikontic** | 49 |
-| **Yjs** | 42 |
-| **Yodoca** | 140 |
-| **Yttri** | 18 |
-| **agent-memory-mcp** | 37 |
-| **knowledge-space** | 99 |
-| **mclaude** | 87 |
+| **RLM-Toolkit** | 11 |
+| **Rufler** | 86 |
+| **SENTINEL** | 69 |
+| **Self-Aware MCP** | 21 |
+| **Sequential** | 119 |
+| **Svyazi** | 313 |
+| **Tool Search** | 50 |
+| **Whisper** | 24 |
+| **Wikontic** | 50 |
+| **Yjs** | 47 |
+| **Yodoca** | 142 |
+| **Yttri** | 19 |
+| **agent-memory-mcp** | 39 |
+| **knowledge-space** | 102 |
+| **mclaude** | 90 |
 
 <!-- see-also -->
 
@@ -45,5 +45,5 @@
 - [MINDMAP](docs/MINDMAP.md)
 - [GRAPH](docs/GRAPH.md)
 - [NETWORK](docs/NETWORK.md)
-- [ENTITIES](docs/ENTITIES.md)
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 

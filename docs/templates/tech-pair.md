@@ -13,6 +13,13 @@ tags: [pair, синергия, habr]
 
 # Tech Pair: [A] × [B]
 
+<!-- summary -->
+> pair_type: "[hardware|software|deep|hybrid]"
+
+---
+
+
+
 <!-- summary: Какая синергия от объединения A и B -->
 <!-- tags: pair, синергия, habr -->
 

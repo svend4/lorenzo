@@ -8,8 +8,8 @@ _Обновлено: 2026-04-29_
 
 | Параметр | Значение |
 |----------|----------|
-| Документов | **1161** |
-| Слов | **870,981** |
+| Документов | **1181** |
+| Слов | **904,057** |
 | Секций | **17** |
 | RAG-чанков | **2021** (по 7 секциям) |
 
@@ -20,29 +20,29 @@ _Обновлено: 2026-04-29_
 | Здоровье репо | 77/100 |
 | Средний балл документов | 71.3/100 |
 | Словарное богатство (STTR) | 0.674 |
-| Пассивный залог | 1.6% |
-| Пустых секций | 1445 |
-| Противоречий | 5408 |
+| Пассивный залог | 1.7% |
+| Пустых секций | 1658 |
+| Противоречий | 7192 |
 
 ## По секциям
 
 | Секция | Файлов | Слов | Ср. слов/файл |
 |--------|--------|------|---------------|
-| `02-anthropic-vacancies` | 357 | 279,017 | 781 |
+| `02-anthropic-vacancies` | 357 | 278,999 | 781 |
 | `nautilus` | 255 | 148,523 | 582 |
-| `anthropic-vacancies` | 111 | 30,929 | 278 |
+| `anthropic-vacancies` | 111 | 30,960 | 278 |
 | `04-ai-collaborations` | 17 | 26,057 | 1532 |
 | `lorenzo-agent` | 62 | 19,979 | 322 |
 | `habr-unique-projects` | 56 | 13,161 | 235 |
 | `technology-combinations` | 53 | 12,903 | 243 |
 | `svyazi-2-0` | 59 | 12,455 | 211 |
-| `01-svyazi` | 16 | 10,998 | 687 |
-| `05-habr-projects` | 10 | 8,619 | 861 |
+| `01-svyazi` | 16 | 11,052 | 690 |
+| `05-habr-projects` | 10 | 8,622 | 862 |
 | `ai-collaborations` | 30 | 8,207 | 273 |
-| `contacts` | 15 | 3,151 | 210 |
-| `03-technology-combinations` | 7 | 2,796 | 399 |
+| `templates` | 24 | 5,145 | 214 |
+| `contacts` | 15 | 3,145 | 209 |
+| `03-technology-combinations` | 7 | 2,799 | 399 |
 | `glossary` | 4 | 2,282 | 570 |
-| `templates` | 6 | 635 | 105 |
 | `autofilled` | 13 | 533 | 41 |
 | `badges` | 1 | 44 | 44 |
 
@@ -50,12 +50,12 @@ _Обновлено: 2026-04-29_
 
 | Концепт | Файлов | Категория |
 |---------|--------|-----------|
-| `docs` | 980 | other |
-| `anthropic` | 793 | other |
+| `docs` | 999 | other |
+| `anthropic` | 792 | other |
+| `summary` | 503 | other |
 | `claude` | 501 | other |
-| `summary` | 485 | other |
-| `vacancies` | 476 | other |
-| `источник` | 465 | other |
+| `vacancies` | 475 | other |
+| `источник` | 467 | other |
 | `mhtml` | 411 | other |
 | `снимок` | 400 | other |
 
@@ -63,22 +63,22 @@ _Обновлено: 2026-04-29_
 
 | Сущность | Тип | Файлов |
 |----------|-----|--------|
-| `anthropic` | 👤 people | 746 |
-| `nautilus` | 📦 projects | 463 |
-| `claude` | 👤 people | 399 |
-| `svyazi` | 📦 projects | 295 |
-| `mcp` | ⚙️ tech | 291 |
-| `вк` | 🏢 orgs | 261 |
-| `github` | 📦 projects | 234 |
+| `anthropic` | 👤 people | 744 |
+| `nautilus` | 📦 projects | 467 |
+| `claude` | 👤 people | 398 |
+| `svyazi` | 📦 projects | 296 |
+| `mcp` | ⚙️ tech | 295 |
+| `вк` | 🏢 orgs | 266 |
+| `github` | 📦 projects | 238 |
 | `meta` | 🏢 orgs | 200 |
-| `svend4` | 👤 people | 196 |
-| `llm` | ⚙️ tech | 188 |
-| `api` | ⚙️ tech | 165 |
-| `rag` | ⚙️ tech | 148 |
+| `svend4` | 👤 people | 197 |
+| `llm` | ⚙️ tech | 193 |
+| `api` | ⚙️ tech | 166 |
+| `rag` | ⚙️ tech | 150 |
 
 ## Открытые вопросы
 
-- - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md
+- - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.
 - - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A](docs/QA.md)]
 - - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A](docs/QA.md)]
 - - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A](docs/QA.md)]
