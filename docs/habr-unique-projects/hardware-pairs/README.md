@@ -4,10 +4,10 @@
 
 ## Содержание
 
-- [1-neuromorphic-ssm.md](1-neuromorphic-ssm.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [2-tsu-mome.md](2-tsu-mome.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [3-zinc-hybrid-arch.md](3-zinc-hybrid-arch.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [4-riscv-privacy.md](4-riscv-privacy.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [5-tinyml-mcp-skills.md](5-tinyml-mcp-skills.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [6-bonus-rram-memristor.md](6-bonus-rram-memristor.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
-- [7-metaphor.md](7-metaphor.md) — > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+- [1-neuromorphic-ssm.md](1-neuromorphic-ssm.md) — <!-- summary -->
+- [2-tsu-mome.md](2-tsu-mome.md) — <!-- summary -->
+- [3-zinc-hybrid-arch.md](3-zinc-hybrid-arch.md) — <!-- summary -->
+- [4-riscv-privacy.md](4-riscv-privacy.md) — <!-- summary -->
+- [5-tinyml-mcp-skills.md](5-tinyml-mcp-skills.md) — <!-- summary -->
+- [6-bonus-rram-memristor.md](6-bonus-rram-memristor.md) — <!-- summary -->
+- [7-metaphor.md](7-metaphor.md) — <!-- summary -->

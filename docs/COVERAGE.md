@@ -68,7 +68,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md` | 140 | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/38-content-overview.md` | 97 | ✅ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | 148 | ✅ | ⬜ | ⬜ | ✅ | ⬜ | ⬜ |
-| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | 135 | ✅ | ⬜ | ⬜ | ✅ | ⬜ | ⬜ |
+| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | 148 | ✅ | ⬜ | ⬜ | ✅ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/12-content-overview.md` | 29 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | 35 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | 38 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |

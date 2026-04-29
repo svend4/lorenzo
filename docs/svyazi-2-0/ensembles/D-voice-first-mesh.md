@@ -1,5 +1,10 @@
 # Ансамбль D — Voice‑first local knowledge mesh
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** Svyazi, AgentFS, Yjs, Automerge, Whisper, Yttri

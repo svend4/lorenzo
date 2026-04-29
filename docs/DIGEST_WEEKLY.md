@@ -6,15 +6,16 @@ _Период: последние 7 дней (с 2026-04-22)_
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за неделю | **63** |
+| Коммитов за неделю | **64** |
 | Новых файлов | **0** |
 | Изменённых файлов | **0** |
 | Всего MD файлов | **1159** |
-| Всего слов | **813,748** |
+| Всего слов | **830,262** |
 
 ## Коммиты
 
 ```
+dfc530a docs: auto-update via improve_run_all [skip ci]
 fedc045 Audit-driven extraction of major missing substantive content
 c659252 Extract Nautilus Portal Protocol v1.0.0-draft (earlier version)
 ee71737 Extract Nautilus-vs-CAMEL analysis and Habr extra-examples
@@ -29,9 +30,8 @@ f73c58f docs: auto-update via improve_run_all [skip ci]
 5a34f46 Extract Lorenzo agent prompt and 4 more DHLab papers
 42f561d fix: fix update-docs CI job failures
 cbe83e6 Extract Nautilus Portal Protocol RFC and companion papers
-59617c5 feat: add risk register, auto-changelog, master index; fix run_all missing scripts
 ```
 
 ---
 
-_Сгенерировано: 2026-04-29 10:09_
+_Сгенерировано: 2026-04-29 10:14_

@@ -1,12 +1,13 @@
 # anthropic-vacancies
 
-**Файлов:** 3
+**Файлов:** 4
 
 ## Содержание
 
-- [methodology.md](methodology.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория).
-- [overview.md](overview.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Затравка — статья 3dnews.ru/…
-- [signals.md](signals.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория).
+- [QA.md](QA.md) — _Автоматически сгенерировано по 97 файлам раздела._
+- [methodology.md](methodology.md) — <!-- summary -->
+- [overview.md](overview.md) — <!-- summary -->
+- [signals.md](signals.md) — <!-- summary -->
 
 ## Подразделы
 

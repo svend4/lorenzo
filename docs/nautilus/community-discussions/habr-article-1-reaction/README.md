@@ -4,5 +4,5 @@
 
 ## Содержание
 
-- [00-question-habr-link.md](00-question-habr-link.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на …
-- [01-claude-response.md](01-claude-response.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на …
+- [00-question-habr-link.md](00-question-habr-link.md) — <!-- summary -->
+- [01-claude-response.md](01-claude-response.md) — > [!WARNING]

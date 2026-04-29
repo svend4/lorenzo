@@ -4,5 +4,5 @@
 
 ## Содержание
 
-- [00-question-multi-tier.md](00-question-multi-tier.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — многоуровне…
-- [01-strategic-significance.md](01-strategic-significance.md) — > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — многоуровне…
+- [00-question-multi-tier.md](00-question-multi-tier.md) — <!-- summary -->
+- [01-strategic-significance.md](01-strategic-significance.md) — > [!WARNING]
