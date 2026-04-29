@@ -25,7 +25,7 @@
 | Репозиторий | Упоминается в файлах |
 |-------------|---------------------|
 | `github.com/github.com/AnastasiyaW` | 4 |
-| `github.com/github.com/AnastasiyaW/knowledge-space` | 11 |
+| `github.com/github.com/AnastasiyaW/knowledge-space` | 10 |
 | `github.com/github.com/Antipozitive` | 4 |
 | `github.com/github.com/Cutcode` | 4 |
 | `github.com/github.com/Dmitriila` | 4 |
@@ -45,7 +45,7 @@
 | `github.com/github.com/kksudo` | 4 |
 | `github.com/github.com/kksudo/agentfs` | 4 |
 | `github.com/github.com/lib4u/rufler` | 2 |
-| `github.com/github.com/mcp` | 9 |
+| `github.com/github.com/mcp` | 8 |
 | `github.com/github.com/nlaik` | 4 |
 | `github.com/github.com/ruvnet/ruflo` | 2 |
 | `github.com/github.com/settings/tokens` | 6 |
@@ -53,7 +53,7 @@
 | `github.com/github.com/spbmolot/ngt-memory` | 4 |
 | `github.com/github.com/svend4` | 4 |
 | `github.com/github.com/svend4/data70` | 6 |
-| `github.com/github.com/svend4/info1` | 13 |
+| `github.com/github.com/svend4/info1` | 12 |
 | `github.com/github.com/svend4/info40` | 4 |
 | `github.com/github.com/svend4/info7` | 4 |
 | `github.com/github.com/svend4/ingit` | 14 |

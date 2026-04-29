@@ -1,6 +1,6 @@
 # Индекс ссылок
 
-Всего уникальных URL: 225
+Всего уникальных URL: 227
 
 | URL | Найден в файлах |
 |-----|-----------------|
@@ -25,7 +25,7 @@
 | https://github.com/AnastasiyaW | 4 |
 | https://github.com/AnastasiyaW/knowledge-space | 7 |
 | https://github.com/AnastasiyaW/knowledge-space` | 3 |
-| https://github.com/AnastasiyaW/knowledge-space`, | 1 |
+| https://github.com/AnastasiyaW/knowledge-space`, | 2 |
 | https://github.com/Antipozitive | 4 |
 | https://github.com/Cutcode | 4 |
 | https://github.com/Dmitriila | 4 |
@@ -41,7 +41,7 @@
 | https://github.com/kksudo/agentfs | 4 |
 | https://github.com/mcp | 7 |
 | https://github.com/mcp` | 3 |
-| https://github.com/mcp`, | 1 |
+| https://github.com/mcp`, | 2 |
 | https://github.com/nlaik | 4 |
 | https://github.com/settings/tokens | 5 |
 | https://github.com/settings/tokens` | 3 |
@@ -52,7 +52,7 @@
 | https://github.com/svend4/data70` | 3 |
 | https://github.com/svend4/info1 | 8 |
 | https://github.com/svend4/info1` | 3 |
-| https://github.com/svend4/info1`, | 1 |
+| https://github.com/svend4/info1`, | 2 |
 | https://github.com/svend4/info40 | 4 |
 | https://github.com/svend4/info7 | 4 |
 | https://github.com/svend4/ingit | 13 |
@@ -66,7 +66,7 @@
 | https://github.com/svend4/nautilus/blob/main/INTEGRATION.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL | 3 |
 | https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md | 4 |
-| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 2 |
+| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 3 |
 | https://github.com/svend4/nautilus/blob/main/README.md | 3 |
 | https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md | 4 |
 | https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 3 |
@@ -116,13 +116,13 @@
 | https://habr.com/ru/articles/1010478/ | 6 |
 | https://habr.com/ru/articles/1010478/` | 3 |
 | https://habr.com/ru/articles/1012894/ | 4 |
-| https://habr.com/ru/articles/1012894/` | 3 |
+| https://habr.com/ru/articles/1012894/` | 2 |
 | https://habr.com/ru/articles/1014366/ | 6 |
 | https://habr.com/ru/articles/1014366/` | 3 |
 | https://habr.com/ru/articles/1016096/ | 6 |
 | https://habr.com/ru/articles/1016096/` | 3 |
 | https://habr.com/ru/articles/1017200/ | 7 |
-| https://habr.com/ru/articles/1017200/` | 3 |
+| https://habr.com/ru/articles/1017200/` | 4 |
 | https://habr.com/ru/articles/1019588/ | 4 |
 | https://habr.com/ru/articles/1019588/, | 4 |
 | https://habr.com/ru/articles/1019588/` | 3 |
@@ -154,7 +154,7 @@
 | https://habr.com/ru/articles/1027878/` | 3 |
 | https://habr.com/ru/articles/495554/ | 7 |
 | https://habr.com/ru/articles/495554/` | 3 |
-| https://habr.com/ru/articles/495554/`, | 1 |
+| https://habr.com/ru/articles/495554/`, | 2 |
 | https://habr.com/ru/articles/786278/ | 3 |
 | https://habr.com/ru/articles/800033/ | 3 |
 | https://habr.com/ru/articles/893356/ | 6 |
@@ -178,7 +178,7 @@
 | https://habr.com/ru/companies/airi/articles/1000720/ | 7 |
 | https://habr.com/ru/companies/airi/articles/1000720/` | 4 |
 | https://habr.com/ru/companies/airi/articles/855128/ | 7 |
-| https://habr.com/ru/companies/airi/articles/855128/` | 4 |
+| https://habr.com/ru/companies/airi/articles/855128/` | 3 |
 | https://habr.com/ru/companies/neuronet/articles/592625/ | 3 |
 | https://habr.com/ru/companies/ruvds/articles/980152/ | 3 |
 | https://habr.com/ru/companies/sberdevices/articles/855080/ | 3 |
@@ -198,12 +198,12 @@
 | https://img.shields.io/badge/health-77/100-green | 4 |
 | https://img.shields.io/badge/manifests-13-blue | 4 |
 | https://img.shields.io/badge/mcp--servers-10-blue | 4 |
-| https://img.shields.io/badge/scripts-152-blue | 3 |
-| https://img.shields.io/badge/scripts-153-blue | 1 |
+| https://img.shields.io/badge/scripts-152-blue | 2 |
+| https://img.shields.io/badge/scripts-153-blue | 3 |
+| https://img.shields.io/badge/scripts-155-blue | 1 |
 | https://img.shields.io/badge/skills-28-blue | 4 |
 | https://img.shields.io/badge/templates-23-blue | 4 |
-| https://img.shields.io/badge/tests-108--passing-brightgreen | 1 |
-| https://img.shields.io/badge/tests-99--passing-brightgreen | 4 |
+| https://img.shields.io/badge/tests-108--passing-brightgreen | 3 |
 
 <!-- see-also -->
 

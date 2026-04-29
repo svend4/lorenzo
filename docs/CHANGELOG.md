@@ -1,13 +1,20 @@
 # CHANGELOG
 
-Всего коммитов: **88**  
-Статистика: 🔧 chore: 36 | ✨ feat: 26 | ⚡ improve: 14 | 📝 docs: 9 | 🐛 fix: 3
+Всего коммитов: **92**  
+Статистика: 🔧 chore: 38 | ✨ feat: 27 | ⚡ improve: 14 | 📝 docs: 10 | 🐛 fix: 3
 
 
-## 2026-04-29 (86 коммитов)
+## semantic (1 коммитов)
 
 ### 🔧 Обслуживание
 
+- hybrid _  E4. cm_
+
+## 2026-04-29 (89 коммитов)
+
+### 🔧 Обслуживание
+
+- extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737f2_
 - regenerate badges + auto-exports after Sprint 12-14 _25de4e63_
 - regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML) _b471bbad_
 - ignore auto-generated exports and runtime caches _41a9c8aa_
@@ -72,6 +79,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _0c696915_
 - auto-update via improve_run_all [skip ci] _519d41b5_
 - auto-update via improve_run_all [skip ci] _fdd84b5b_
 - auto-update via improve_run_all [skip ci] _ba78ff20_
@@ -85,6 +93,8 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- Sprint 15-17 — workflow v2, observability, embeddings, i18n _2265a4db_
+  > Sprint 15 — workflow & observability
 - Sprint 12-14 — bot-aware exclusions, distribution, web dashboard _1bf14810_
   > Sprint 12 — bot-aware system
 - Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD _22c4cf8d_

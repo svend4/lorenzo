@@ -1,18 +1,18 @@
 # docs
 
-**Файлов:** 102
+**Файлов:** 103
 
 ## Содержание
 
 - [ABBREVIATIONS.md](ABBREVIATIONS.md) — > [!TIP]
 - [ACTION_ITEMS.md](ACTION_ITEMS.md) — Автоматически извлечено из всех документов.
-- [ALERTS.md](ALERTS.md) — Добавлено **48** callout-блоков в документы.
+- [ALERTS.md](ALERTS.md) — Добавлено **43** callout-блоков в документы.
 - [AUTHORS.md](AUTHORS.md) — Авторы проектов, упоминаемые в исследованиях.
 - [AUTOFILLED.md](AUTOFILLED.md) — <!-- summary -->
 - [BACKLINKS.md](BACKLINKS.md) — <!-- summary -->
 - [BADGES.md](BADGES.md) — _Обновлено: 2026-04-29_
 - [BROKEN_LINKS.md](BROKEN_LINKS.md) — > [!TIP]
-- [CHANGELOG.md](CHANGELOG.md) — Всего коммитов: **85**
+- [CHANGELOG.md](CHANGELOG.md) — Всего коммитов: **88**
 - [CHANGELOG_AUTO.md](CHANGELOG_AUTO.md) — <!-- summary -->
 - [CITATION_INDEX.md](CITATION_INDEX.md) — _Обновлено: 2026-04-29_
 - [CLUSTERS.md](CLUSTERS.md) — > [!TIP]
@@ -31,7 +31,7 @@
 - [COVERAGE.md](COVERAGE.md) — _Обновлено: 2026-04-29_
 - [CROSSREFS.md](CROSSREFS.md) — > [!TIP]
 - [CROSS_SECTION.md](CROSS_SECTION.md) — <!-- summary -->
-- [DECISIONS.md](DECISIONS.md) — Автоматически извлечено из всех документов: **393 записей**
+- [DECISIONS.md](DECISIONS.md) — Автоматически извлечено из всех документов: **394 записей**
 - [DENSITY.md](DENSITY.md) — > [!TIP]
 - [DEPENDABOT.md](DEPENDABOT.md) — _Обновлено: 2026-04-29_
 - [DEPENDENCY_MAP.md](DEPENDENCY_MAP.md) — <!-- summary -->
@@ -55,8 +55,9 @@
 - [KPI.md](KPI.md) — > [!TIP]
 - [KPI_HISTORY.md](KPI_HISTORY.md) — <!-- summary -->
 - [LANGUAGE_STATS.md](LANGUAGE_STATS.md) — _Обновлено: 2026-04-29_
-- [LINKS.md](LINKS.md) — Всего уникальных URL: 219
+- [LINKS.md](LINKS.md) — Всего уникальных URL: 225
 - [LLM_SUMMARIES.md](LLM_SUMMARIES.md) — <!-- summary -->
+- [MCP_DASHBOARD.md](MCP_DASHBOARD.md) — _Обновлено: 2026-04-29_
 - [METRICS.md](METRICS.md) — **Файлов:** 1173  **Средний балл:** 71.3/100
 - [MINDMAP.md](MINDMAP.md) — ```mermaid
 - [MISSING.md](MISSING.md) — Анализ покрытия ключевых тем и проектов в docs/.
@@ -76,15 +77,15 @@
 - [READING_LIST.md](READING_LIST.md) — <!-- summary -->
 - [READING_ORDER.md](READING_ORDER.md) — От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 - [READING_TIME.md](READING_TIME.md) — _Обновлено: 2026-04-29_
-- [REGISTRY.md](REGISTRY.md) — > [!TIP]
+- [REGISTRY.md](REGISTRY.md) — _Обновлено: 2026-04-29_
 - [REPORT.md](REPORT.md) — _Сгенерировано автоматически: 2026-04-29_
 - [RISK_REGISTER.md](RISK_REGISTER.md) — > [!TIP]
 - [SCHEDULE.md](SCHEDULE.md) — _Дорожная карта с вехами и задачами по кварталам._
 - [SCORING.md](SCORING.md) — _Дата: 2026-04-29_
-- [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) — > [!TIP]
+- [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) — _Обновлено: 2026-04-29_
 - [SEARCH.md](SEARCH.md) — > [!TIP]
 - [SEARCH_RESULTS.md](SEARCH_RESULTS.md) — <!-- summary -->
-- [SEE_ALSO.md](SEE_ALSO.md) — **Файлов с блоком See Also:** 1108
+- [SEE_ALSO.md](SEE_ALSO.md) — **Файлов с блоком See Also:** 1066
 - [SENTIMENT.md](SENTIMENT.md) — **Файлов проанализировано:** 1034
 - [SIMILAR.md](SIMILAR.md) — > [!TIP]
 - [SIMILAR_PASSAGES.md](SIMILAR_PASSAGES.md) — > [!TIP]
@@ -93,18 +94,18 @@
 - [SOURCE_MAP.md](SOURCE_MAP.md) — _Обновлено: 2026-04-29_
 - [SPELLCHECK.md](SPELLCHECK.md) — _Обновлено: 2026-04-29_
 - [STALENESS.md](STALENESS.md) — _Порог: 30 дней. Обновлено: 2026-04-29_
-- [STATS.md](STATS.md) — **Разделов:** 18  **Файлов:** 1190  **Слов:** 945,183  **Символов:** 8,505,543
+- [STATS.md](STATS.md) — **Разделов:** 18  **Файлов:** 1190  **Слов:** 949,732  **Символов:** 8,499,289
 - [SUMMARIES.md](SUMMARIES.md) — > [!TIP]
 - [TABLES.md](TABLES.md) — > [!TIP]
 - [TAGS.md](TAGS.md) — Каждый файл помечен тегами по темам автоматически.
-- [TASKS_INDEX.md](TASKS_INDEX.md) — > [!TIP]
+- [TASKS_INDEX.md](TASKS_INDEX.md) — _Обновлено: 2026-04-29_
 - [TECH_RADAR.md](TECH_RADAR.md) — > [!WARNING]
 - [TIMELINE.md](TIMELINE.md) — _Обновлено: 2026-04-29_
 - [VALIDATION.md](VALIDATION.md) — _Обновлено: 2026-04-29_
 - [VERSION_DIFF.md](VERSION_DIFF.md) — _Обновлено: 2026-04-29_
 - [VOCABULARY.md](VOCABULARY.md) — _Обновлено: 2026-04-29_
 - [WORD_CLOUD.md](WORD_CLOUD.md) — <!-- summary -->
-- [WORD_FREQ.md](WORD_FREQ.md) — **Всего слов (очищенных):** 664,696
+- [WORD_FREQ.md](WORD_FREQ.md) — **Всего слов (очищенных):** 662,963
 - [reading-paths.md](reading-paths.md) — > [!TIP]
 
 ## Подразделы

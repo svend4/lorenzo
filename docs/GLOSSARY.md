@@ -6,7 +6,7 @@
 |--------|---------------------|
 | **AI Factory** | 74 |
 | **AIF Handoff** | 30 |
-| **AgentFS** | 101 |
+| **AgentFS** | 102 |
 | **Auto AI Router** | 66 |
 | **AutoResearch** | 66 |
 | **Automerge** | 38 |
@@ -17,7 +17,7 @@
 | **Legal RAG** | 51 |
 | **LiteLLM** | 49 |
 | **LiteParse** | 80 |
-| **MemNet** | 142 |
+| **MemNet** | 140 |
 | **Memory OS** | 38 |
 | **NGT Memory** | 95 |
 | **OpenWhispr** | 21 |

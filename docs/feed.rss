@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 14:22:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 14:25:05 GMT</lastBuildDate>
+    <item>
+      <title>chore: extend gitignore + regenerate badges/exports after Sprint 15-17</title>
+      <link>https://github.com/svend4/lorenzo/commit/3ca737f2eaadda3b207a530967681a9640d61af2</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/3ca737f2eaadda3b207a530967681a9640d61af2</guid>
+      <pubDate>Wed, 29 Apr 2026 14:22:46 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: extend gitignore + regenerate badges/exports after Sprint 15-17</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>3ca737f2</code></p>]]></description>
+    </item>
     <item>
       <title>feat: Sprint 15-17 — workflow v2, observability, embeddings, i18n</title>
       <link>https://github.com/svend4/lorenzo/commit/2265a4db03e1204169eae0ff2834885c0dd1e01c</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/65ab75e8a9d7b0cda4e11018395cfdb5617460b5</guid>
       <pubDate>Wed, 29 Apr 2026 10:05:50 GMT</pubDate>
       <description><![CDATA[<p><strong>Merge branch 'main' into claude/organize-monorepo-docs-XI9Aa</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/README.md">docs/README.md</a></li></ul><p>Коммит: <code>65ab75e8</code></p>]]></description>
-    </item>
-    <item>
-      <title>Audit-driven extraction of major missing substantive content</title>
-      <link>https://github.com/svend4/lorenzo/commit/fedc045a277ebd0a7cde2a4a4eefd338f7025f77</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/fedc045a277ebd0a7cde2a4a4eefd338f7025f77</guid>
-      <pubDate>Wed, 29 Apr 2026 10:04:32 GMT</pubDate>
-      <description><![CDATA[<p><strong>Audit-driven extraction of major missing substantive content</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/README.md">docs/anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md">docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md">docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md">docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md">docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/anthropic-vacancies/nautilus-pro2-analysis/README.md">docs/anthropic-vacancies/nautilus-pro2-analysis/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/lorenzo-agent/README.md">docs/lorenzo-agent/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/lorenzo-agent/naming/00-question-lorenzo-codename.md">docs/lorenzo-agent/naming/00-question-lorenzo-codename.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/lorenzo-agent/naming/01-search-results-not-found.md">docs/lorenzo-agent/naming/01-search-results-not-found.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md">docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md</a></li></ul><p>Коммит: <code>fedc045a</code></p>]]></description>
     </item>
   </channel>
 </rss>

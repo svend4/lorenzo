@@ -4,19 +4,19 @@
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 4 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 3 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 16 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 2 |
 | **AI Factory** | `AI Factory` | `AI-Factory` | 21 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 40 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 38 |
 | **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 18 |
-| **local-first** | `local-first` | `localfirst` | 4 |
-| **self-improvement** | `self-improvement` | `self-improve` | 155 |
+| **local-first** | `local-first` | `localfirst` | 3 |
+| **self-improvement** | `self-improvement` | `self-improve` | 154 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 17 |
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 14 |
 
-**Всего несогласованных написаний: 295**
+**Всего несогласованных написаний: 290**
 
 
 ## Детали по файлам
@@ -26,7 +26,6 @@
 
 - `docs/EMPTY_SECTIONS.md`
 - `docs/TABLES.md`
-- `docs/VERSION_DIFF.md`
 - `docs/CONSISTENCY.md`
 
 ### `knowledge space` → должно быть `knowledge-space`
@@ -59,7 +58,7 @@
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/DEPENDABOT.md`
 - `docs/EMPTY_SECTIONS.md`
-- _...и ещё 35_
+- _...и ещё 33_
 
 ### `Auto-AI-Router` → должно быть `Auto AI Router`
 
@@ -73,7 +72,6 @@
 ### `localfirst` → должно быть `local-first`
 
 - `docs/TABLES.md`
-- `docs/VERSION_DIFF.md`
 - `docs/CONSISTENCY.md`
 - `docs/OUTLINE.md`
 
@@ -84,7 +82,7 @@
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/LLM_SUMMARIES.md`
 - `docs/SPELLCHECK.md`
-- _...и ещё 150_
+- _...и ещё 149_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 

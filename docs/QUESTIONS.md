@@ -2,14 +2,14 @@
 
 _Обновлено: 2026-04-29_
 
-Всего: **2096** | Файлов: **1186**
+Всего: **2091** | Файлов: **1187**
 
 ## Сводка
 
 | Тип | Кол-во |
 |-----|--------|
-| ❓ Вопрос | 1563 |
-| 💭 Гипотеза | 381 |
+| ❓ Вопрос | 1559 |
+| 💭 Гипотеза | 380 |
 | 📌 TODO/Идея | 136 |
 | 🔓 Открытый вопрос | 16 |
 
@@ -80,25 +80,25 @@ _Обновлено: 2026-04-29_
 - Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL 1.1 и прямо говорит о бесплатн [Лицензионные развилки]
 
 
-## ❓ Вопрос (1563)
+## ❓ Вопрос (1559)
 
 ### `OUTLINE.md` (129)
 
-- - - - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md)]
+- - - - - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md)]
 - - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A](docs/QA.md)]
 - - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A](docs/QA.md)]
 - - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A](docs/QA.md)]
 - - Какие инструменты обеспечивают безопасность агентов? [[Глобальный Q&A](docs/QA.md)]
 - _...ещё 124_
 
-### `TABLES.md` (122)
+### `TABLES.md` (121)
 
 - Контур   Что входит   Зачем   Оценка усилий [5. План прототипа и возможные контакты]
 - Риск   Почему это важно   Снижение риска [6. План прототипа и возможные контакты]
 - Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [7. План прототипа и возможные контакты]
 - Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [9. Интеграционный контракт, который стоит зафиксировать сраз]
 - Кому   Лучший первый вопрос   Почему именно он [11. Контактная стратегия и узкие вопросы для авторов]
-- _...ещё 117_
+- _...ещё 116_
 
 ### `QA.md` (101)
 
@@ -211,9 +211,9 @@ _Обновлено: 2026-04-29_
 ### `ACTION_ITEMS.md` (18)
 
 - - Хотите, чтобы я написал consolidating document «The Double-Triangle Architecture» в следующем сообщении? [➡️ Следующие шаги (150)]
-- - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идё [✅ Решения и рекомендации (276)]
-- Are you actually committing к multi-year Variant D vision, or treating это как aspirational document? [✅ Решения и рекомендации (276)]
-- - Adopt these documents как Lorenzo technical foundation? [✅ Решения и рекомендации (276)]
+- - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идё [✅ Решения и рекомендации (277)]
+- Are you actually committing к multi-year Variant D vision, or treating это как aspirational document? [✅ Решения и рекомендации (277)]
+- - Adopt these documents как Lorenzo technical foundation? [✅ Решения и рекомендации (277)]
 - -   Почему это важно   Снижение риска [⚠️ Риски (596)]
 - _...ещё 13_
 
@@ -336,8 +336,8 @@ _Обновлено: 2026-04-29_
 
 ### `KNOWLEDGE_MAP.md` (11)
 
-- - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
-- - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - - - - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
 - - - Как реализован forensic RAG с доказуемостью? [Топ сущностей]
 - - - Что такое Evidence Envelope и зачем он нужен? [Открытые вопросы]
 - - - Какие RAG-подходы сравниваются в документах? [Открытые вопросы]
@@ -457,7 +457,7 @@ _Обновлено: 2026-04-29_
 - - 📌   2022   ·  Почему это не было построено [2022 (12 упоминаний)]
 - - 📌   2022   ·  Why This Hasn't Been Built [2022 (12 упоминаний)]
 - - 📌   2022   ·  Почему это не было построено [2022 (12 упоминаний)]
-- Почему это именно сейчас стало возможным В 2023 — невозможно. [2023 (13 упоминаний)]
+- Почему это именно сейчас стало возможным В 2023 — невозможно. [2023 (11 упоминаний)]
 - _...ещё 2_
 
 ### `07-open-questions.md` (7)
@@ -641,14 +641,6 @@ _Обновлено: 2026-04-29_
 - kksudo     AgentFS   knowledge/filesystem   57   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
 - spbmolot     NGT Memory   memory   59   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discover [Ключевые авторы проектов]
 
-### `DUPLICATES.md` (5)
-
-- How are contributions to pattern library rewarded? [73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` ]
-- ### 71% —  docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md  vs  docs/nautilus/representative-agent-layer-ru/01-s [71% — `docs/02-anthropic-vacancies/233-2-что-делает-агента-п]
-- Синдром Золушки: Почему качество остаётся невидимым (#1-синдром-золушки-почему-качество-остаётся-невидимым)   -  1.1. [71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-поч]
-- The composite agent should help the principal monitor  configuration health: - Which sub-agents are most used? [69% — `docs/02-anthropic-vacancies/258-5-configuration-how-p]
-- ### 69% —  docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md  vs  docs/nautilus/composite-skills-agents/01-why-binary-incomplete. [71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-поч]
-
 ### `00-question-rephrasing.md` (5)
 
 - Особенно для высокого высококвалифицированный пенсионеров разработчиков что если например переменная эти полмиллиона долларов на одну одного разработч [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
@@ -762,6 +754,13 @@ _Обновлено: 2026-04-29_
 - За сколько секунд пользователь понимает “почему эта связь” [Ограничения, лицензии и что пока лучше не склеивать]
 - : кто может с кем работать, почему, на основании каких источников, с каким риском, кто подтвердил, какие гипотезы устарели. [Ограничения, лицензии и что пока лучше не склеивать]
 - почему обычные CRM, Notion‑базы и RAG‑чаты не решают discovery коллабораций. [Ограничения, лицензии и что пока лучше не склеивать]
+
+### `DUPLICATES.md` (4)
+
+- Why pattern library is critical  : - Compounds knowledge across contributors - Enables specialized work without reinvention - Preserves contributor in [77% — `docs/02-anthropic-vacancies/158-4-proposed-infrastruc]
+- But what if Node disagrees with an assignment? [73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` ]
+- ### 71% —  docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md  vs  docs/nautilus/representative-agent-layer-ru/01-s [71% — `docs/02-anthropic-vacancies/233-2-что-делает-агента-п]
+- ### 69% —  docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md  vs  docs/nautilus/composite-skills-agents/01-why-binary-incomplete. [71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-поч]
 
 ### `02-four-structural-blockers.md` (4)
 
@@ -1118,18 +1117,13 @@ _Обновлено: 2026-04-29_
 
 ### `KPI.md` (2)
 
-- 2     адаптер для нового репо без задавания вопросов автору? [Этап (58)]
-- 3     озвращает non-empty результат с consensus-информацией? [Этап (58)]
+- 2     адаптер для нового репо без задавания вопросов автору? [Этап (62)]
+- 3     озвращает non-empty результат с consensus-информацией? [Этап (62)]
 
 ### `PASSIVE_VOICE.md` (2)
 
 - 327-1-открытие-cowork-и-почему-это-меняет-всё.md    21%   🟠 Много пассива   8   0   2 [Топ файлов по доле пассива]
 - 70-зачем-две-версии-параллельно.md    20%   🟠 Много пассива   1   0   0 [Топ файлов по доле пассива]
-
-### `VERSION_DIFF.md` (2)
-
-- docs/01-svyazi/QA.md    +41   Как CardIndex хранит и версионирует карточки?, Как работает AgentFS и что такое .agentos?, Что такое knowledge-space и д [📝 Изменённые файлы (95)]
-- docs/anthropic-vacancies/QA.md    +29   Как реализован forensic RAG с доказуемостью?, Какие RAG-подходы сравниваются в документах?, Что такое Evidence [📝 Изменённые файлы (95)]
 
 ### `02-section-2-beneficial-dimension.md` (2)
 
@@ -1723,10 +1717,10 @@ _Обновлено: 2026-04-29_
 ### `TABLES.md` (11)
 
 - TODO   ⭐   To Do — задача к выполнению   14 [1. Словарь аббревиатур и сокращений]
-- 2025-Q1     ⬜ Написать авторам AgentFS, Yodoca, NGT   ⬜ Планируется [116. Шаблоны]
-- 2025-Q2     ⬜ Получить согласие на сотрудничество   ⬜ Планируется [116. Шаблоны]
-- 2025-Q2     ⬜ Создать рабочее окружение Knowledge OS   ⬜ Планируется [116. Шаблоны]
-- 2025-Q3     ⬜ Прототип ансамбля (Svyazi + CardIndex)   ⬜ Планируется [116. Шаблоны]
+- 2025-Q1     ⬜ Написать авторам AgentFS, Yodoca, NGT   ⬜ Планируется [119. Шаблоны]
+- 2025-Q2     ⬜ Получить согласие на сотрудничество   ⬜ Планируется [119. Шаблоны]
+- 2025-Q2     ⬜ Создать рабочее окружение Knowledge OS   ⬜ Планируется [119. Шаблоны]
+- 2025-Q3     ⬜ Прототип ансамбля (Svyazi + CardIndex)   ⬜ Планируется [119. Шаблоны]
 - _...ещё 6_
 
 ### `SCHEDULE.md` (7)
@@ -1766,7 +1760,7 @@ _Обновлено: 2026-04-29_
 ### `SCRIPTS_CATALOG.md` (5)
 
 - improve github issues.py    создаёт GitHub Issues из ACTION ITEMS.md и TODO-блоков. [cicd (4)]
-- improve action items.py    извлекает задачи, риски, решения и TODO из docs/. [export (7)]
+- improve action items.py    извлекает задачи, риски, решения и TODO из docs/. [extract (9)]
 - improve question extractor.py    извлечение вопросов, гипотез и TODO. [nlpplus (10)]
 - извлекает задачи, риски, решения и TODO из docs/. [extract (9)]
 - создаёт GitHub Issues из ACTION ITEMS.md и TODO-блоков. [cicd (4)]
@@ -1970,13 +1964,13 @@ _Обновлено: 2026-04-29_
 
 - - склеивать  ###  memnet.md  (1) - Это синхронизируемая многоуровневая память Yodoca/xMemory, которая «следует» за тобой между устройствами. [Память (12)]
 
-### `DUPLICATES.md` (1)
-
-- The teacher does not need to manually consult educational standards every ti… [69% — `docs/02-anthropic-vacancies/213-2-what-makes-a-profes]
-
 ### `SUMMARIES.md` (1)
 
 - Финальная консолидированная — после Фазы C Удалять исходные ветки не следует до завершения Фазы C — они могут содержать контекст, нужный для разрешени [`docs/02-anthropic-vacancies/114-7-реализация-в-проекте-naut]
+
+### `VERSION_DIFF.md` (1)
+
+- docs/ACTION ITEMS.md    +99   ⚠️ Риски (596), ✅ Решения и рекомендации (276), 📋 Задачи (TODO) (24) +1   ⚠️ Риски (585), ✅ Решения и рекомендации (265) [📝 Изменённые файлы (90)]
 
 ### `01-three-key-candidates.md` (1)
 
@@ -2067,7 +2061,7 @@ _Обновлено: 2026-04-29_
 - Из этих линий следует, что «записать что‑то в память» никогда не должно быть одной неразличимой операцией. [Memory Write Policy]
 
 
-## 💭 Гипотеза (381)
+## 💭 Гипотеза (380)
 
 ### `01-интегральный-анализ-профиля-svend4.md` (21)
 
@@ -2110,8 +2104,8 @@ _Обновлено: 2026-04-29_
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
 - 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [27. Топ авторов по приоритету]
-- 4-6     ner (может быть Anthropic или Mistral). [75. Количество (230)]
-- docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   308   43   7.2 [110. Все документы]
+- 4-6     ner (может быть Anthropic или Mistral). [75. Количество (244)]
+- docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   308   43   7.2 [113. Все документы]
 - _...ещё 4_
 
 ### `248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (8)
@@ -2283,12 +2277,6 @@ _Обновлено: 2026-04-29_
 - Реалистичная оценка : возможно когда Anthropic enables custom Project templates publicly. [Краткие заметки к переводу]
 - - Path 4 (Project Template) когда возможно [Связь с Документом 2.3 — почти прямое попадание]
 
-### `DUPLICATES.md` (3)
-
-- Sub-agent specializations might include  : Drawing fundamentals,  painting techniques, digital illustration, animation, sculpture,  photography, color [82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-ap]
-- Phase 0   (Months 1-12): Foundation establishment, initial  sub-agent set for one profession (perhaps SGB social law). [71% — `docs/02-anthropic-vacancies/262-9-integration-with-ok]
-- This domain is perhaps the broadest application  of Double-Triangle architecture. [69% — `docs/02-anthropic-vacancies/143-6-four-deployment-dom]
-
 ### `02-nautilus-A-pro2-meta.md` (3)
 
 - Если вы ставили trit proj как shared slot между экспертами, то скорее всего именно этот bottleneck убивал градиент. [Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME ]
@@ -2408,6 +2396,11 @@ _Обновлено: 2026-04-29_
 
 - Запрос    Предложение поиска сбора конструктора совмещение lego и  пазлов логическими информационными это могут быть и другие темы технические имеются [Что из этого всего слипается в более проработанную схему]
 - Запрос    Хорошо теперь на базе этого образца можно ещё вернуться к самому началу больше к программному обеспечению чем железо поиск новых проектов ко [Метафора, которую ты заложил]
+
+### `DUPLICATES.md` (2)
+
+- Sub-agent specializations might include  : Programming languages,  architecture patterns, deployment platforms, security  disciplines, performance eng [82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-ap]
+- Phase 0   (Months 1-12): Foundation establishment, initial  sub-agent set for one profession (perhaps SGB social law). [71% — `docs/02-anthropic-vacancies/262-9-integration-with-ok]
 
 ### `00-question-rephrasing.md` (2)
 

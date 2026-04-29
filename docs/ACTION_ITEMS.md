@@ -2,7 +2,7 @@
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 1338
+**Всего элементов:** 1339
 
 
 ## ➡️ Следующие шаги (150)
@@ -208,7 +208,7 @@
 
 _(51 дублей скрыто)_
 
-## ✅ Решения и рекомендации (276)
+## ✅ Решения и рекомендации (277)
 
 - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идёт  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -442,7 +442,7 @@ _(51 дублей скрыто)_
   _→ SUMMARIES_
 - через Правило 2 §3.1 : Финальная запись : Правило: итоговое число — точное, верифицированное , не среднее между A и B. Из IMPLEMENTATION STAGE PART 1.  
   _→ SUMMARIES_
-- boundary](#4-decision-boundary)  
+- boundary](#8-decision-boundary)  
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `docs/04-ai-collaborations/00-intro.md` |  
   _→ TABLES_
@@ -455,6 +455,8 @@ _(51 дублей скрыто)_
 - создать документы](#28-рекомендуется-создать-документы)  
   _→ TABLES_
 - упростить | Самые сложные тексты (1146) — рекомендуется упростить |  
+  _→ TABLES_
+- упростить | Самые сложные тексты (1142) — рекомендуется упростить |  
   _→ VERSION_DIFF_
 - позиционировать как research database, не как legal service. «Вот как типичный case структурируется» — OK. «Вот что вам лично делать» — не OK без юрид  
   _→ 03-what-this-gives-technically_
@@ -935,7 +937,7 @@ _(143 дублей скрыто)_
   _→ DECISIONS_
 - | `root` | 80% |  
   _→ DENSITY_
-- mitigations**: - If contributor recruitment slow: increase outreach investment; partner with existing networks (LinkedIn groups, disability advo  
+- Коллапс Опосредования](#61-риск-коллапс-опосредования) - [6.2. Риск: Атрофия Навыков у Новых Пра…  
   _→ DUPLICATES_
 - mitigations**: - If anchor commitment fails: pivot to foundation-only funding with delayed, smaller pilot - If core team assembly slow: partner wit  
   _→ DUPLICATES_
@@ -1017,7 +1019,7 @@ _(143 дублей скрыто)_
   _→ SCORING_
 - собирать все сраз  
   _→ SIMILAR_PASSAGES_
-- [Название]](docs/templates/risk-entry.md) | 233 |  
+- [Название]](docs/templates/risk-entry.md) | 221 |  
   _→ SITEMAP_
 - склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3274 |  
   _→ SITEMAP_
@@ -1025,6 +1027,8 @@ _(143 дублей скрыто)_
   _→ SITEMAP_
 - того, что через две недели Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, LiteParse, Legal RAG ^rag , Hybrid  
   _→ SUMMARIES_
+- [Название]](docs/templates/risk-entry.md) | 233 |  
+  _→ TABLES_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
@@ -1034,8 +1038,6 @@ _(143 дублей скрыто)_
 - Score | [P × I, 1-25] |  
   _→ TABLES_
 - идентифицирован | [Имя] |  
-  _→ TABLES_
-- и allowlist для MCP | 2 |  
   _→ TABLES_
 - и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
   _→ TABLES_
@@ -1198,7 +1200,7 @@ _(304 дублей скрыто)_
   _→ OUTLINE_
 - Git [Итог]  
   _→ QUESTIONS_
-- текущей версии (0.]  
+- текущей версии (0.1.0-draft)](docs/02-anthropic]  
   _→ QUESTIONS_
 - текущей версии (0.1.0-draft)]  
   _→ QUESTIONS_

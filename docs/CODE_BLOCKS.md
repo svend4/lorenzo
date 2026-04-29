@@ -5,12 +5,12 @@
 
 <!-- alert-added -->
 
-**Всего блоков:** 332
+**Всего блоков:** 327
 
 | Язык | Блоков |
 |------|--------|
 | 📝 Без языка | 174 |
-| 💻 Bash / Shell | 42 |
+| 💻 Bash / Shell | 37 |
 | 🐍 Python | 35 |
 | 📦 JSON | 23 |
 | 📊 Диаграммы Mermaid | 22 |
@@ -147,32 +147,32 @@ _`docs/CONCEPT_GRAPH.md` | 101 строк_
 
 ```mermaid
 graph TD
-    docs["docs\n(1002)"]
-    anthropic["anthropic\n(792)"]
-    summary["summary\n(504)"]
-    claude["claude\n(503)"]
-    vacancies["vacancies\n(475)"]
+    docs["docs\n(995)"]
+    anthropic["anthropic\n(791)"]
+    claude["claude\n(502)"]
+    summary["summary\n(497)"]
+    vacancies["vacancies\n(474)"]
     источник["источник\n(467)"]
     mhtml["mhtml\n(412)"]
     снимок["снимок\n(400)"]
     репозитория("репозитория\n(387)")
     корень["корень\n(377)"]
-    agent{{"agent\n(359)"}}
+    agent{{"agent\n(358)"}}
     tags["tags\n(353)"]
     nautilus["nautilus\n(322)"]
     раздел["раздел\n(310)"]
     вакансии["вакансии\n(305)"]
     кластерам["кластерам\n(295)"]
     диалога["диалога\n(269)"]
-    svyazi("svyazi\n(252)")
+    svyazi("svyazi\n(251)")
     knowledge["knowledge\n(244)"]
-    architecture["architecture\n(237)"]
+    architecture["architecture\n(236)"]
     сходство["сходство\n(235)"]
-    memory[("memory\n(193)")]
-    collaboration["collaboration\n(192)"]
-    habr["habr\n(168)"]
-    layer[/"layer\n(160)"/]
-    work["work\n(158)"
+    memory[("memory\n(192)")]
+    collaboration["collaboration\n(189)"]
+    habr["habr\n(166)"]
+    layer[/"layer\n(159)"/]
+    work["work\n(158)"]
 # ... (обрезано)
 ```
 
@@ -865,7 +865,7 @@ _`docs/templates/template-of-templates.md` | 1 строк_
 some_id: "PREFIX-NNNN"  # схема: pattern: "^PREFIX-\\d{4}$"
 ```
 
-## 💻 Bash / Shell (42)
+## 💻 Bash / Shell (37)
 
 
 ### Чтобы я мог сделать конкретный code-level анализ
@@ -1017,7 +1017,7 @@ python portal.py --serve
 # см. MCP-EXTENSION.md
 ```
 
-_...и ещё 27 блоков этого языка_
+_...и ещё 22 блоков этого языка_
 
 ## 📦 JSON (23)
 
@@ -1539,12 +1539,12 @@ _`docs/ALERTS.md` | 11 строк_
 _`docs/BADGES.md` | 8 строк_
 
 ```markdown
-![tests](https://img.shields.io/badge/tests-108--passing-brightgreen)
+![tests](https://img.shields.io/badge/tests-139--passing-brightgreen)
 ![templates](https://img.shields.io/badge/templates-23-blue)
 ![skills](https://img.shields.io/badge/skills-28-blue)
 ![mcp_servers](https://img.shields.io/badge/mcp--servers-10-blue)
 ![manifests](https://img.shields.io/badge/manifests-13-blue)
-![scripts](https://img.shields.io/badge/scripts-153-blue)
+![scripts](https://img.shields.io/badge/scripts-155-blue)
 ![health](https://img.shields.io/badge/health-77/100-green)
 ![validation](https://img.shields.io/badge/validation-14--valid-brightgreen)
 ```
