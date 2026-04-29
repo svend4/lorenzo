@@ -1,4 +1,7 @@
 # Lorenzo — Монорепозиторий исследований
+<!-- badges -->
+![docs](docs/badges/docs.svg) ![words](docs/badges/words.svg) ![scripts](docs/badges/scripts.svg) ![health](docs/badges/health.svg) ![go/no-go](docs/badges/scoring.svg) ![license](docs/badges/license.svg) ![branch](docs/badges/branch.svg) 
+
 
 Организованные документы по темам. Исходные файлы сохранены в корне репозитория.
 
