@@ -1,0 +1,36 @@
+# Пара 4 — RISC-V × privacy-by-design община
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+**Проекты:** Svyazi, CardIndex, Yodoca
+
+---
+<!-- tags: memory, orchestration, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+
+Пара 4. RISC-V с аппаратной поддержкой LLM (Alibaba XuanTie C950) × privacy-by-design община
+
+Родители: серверный RISC-V XuanTie C950 со встроенным движком Alibaba Vector & Matrix Acceleration (256-битные регистры, FP16/BF16/FP32/FP64/INT8…64, аппаратная поддержка инференса Qwen и DeepSeek — habr.com/ru/companies/selectel/articles/1023796/) и принцип privacy-by-design Чуяна (персданные не пускаем в карточки, обработка локально). Биология: правовая необходимость GDPR + немецкие Sozialdaten = всё должно жить локально и подконтрольно. Физика: RISC-V полностью открыт, не привязан к американским санкциям и cloud-юрисдикциям.
+
+Дети:
+
+Sovereign legal AI node — собственный сервер на C950 (или его европейском аналоге), на котором живёт legal-domain-manager с твоими 87+ скиллами + Svyazi-подобный CardIndex по клиентам и делам. Юридически — не cloud, не processor по GDPR, residency under control. Для немецких социальных дел Max'а это не теоретическое преимущество, а условие работы с чувствительными BSG-материалами.
+
+Community node-in-a-box — RISC-V мини-сервер размером с роутер, который сообщество ставит у одного из участников и которым пользуются все. Внутри — Svyazi + Yodoca + хеббовский граф. Никакого облака, никаких подписок, аппаратная цена ~$300–500.
+
+Mesh из таких узлов — несколько community-nodes в разных городах, синхронизирующиеся peer-to-peer. Каждый узел — свой регион/тематика. Sequential-протокол Дочкиной поверх такой сетки даёт распределённое принятие решений (модерация inferred-фактов, например) без центрального координатора. Близко к твоему svend4/Nautilus как «децентрализованной мульти-репозиторной AI-архитектуре» — только теперь с физическим субстратом.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
+- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
+- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+- [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
+

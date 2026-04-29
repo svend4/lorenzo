@@ -105,7 +105,7 @@ flowchart LR
 
 **Смотрите также:**
 - [GLOSSARY](docs/GLOSSARY.md)
+- [GRAPH](docs/GRAPH.md)
 - [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 - [NETWORK](docs/NETWORK.md)
-- [GRAPH](docs/GRAPH.md)
 

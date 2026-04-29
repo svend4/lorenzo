@@ -1,0 +1,54 @@
+# Финальное ранжирование Anthropic-ролей по частичному покрытию
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+---
+<!-- tags: rag, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+Первый — независимый изобретатель-систематизатор в традиции Бакминстера Фуллера / Рэя Курцвейла / Стивена Вольфрама ранней стадии. Человек, который строит онтологии и метаструктуры (Q6-гиперкуб для LLM, 16 архетипов Pseudo-RAG, 4-уровневая пирамида автоматизации, граф гексаграмм) как способ организовать реальность. Это редкая когнитивная модель, которая плохо укладывается в любую корпоративную job-роль, потому что требует свободы определять сам предмет работы.
+
+Второй — founder-in-the-making с одной несформулированной компанией. У вас уже есть готовые tech stacks, бизнес-модели, MVP backlogs, customer segments (из analysis_02-05 data70), и даже один MVP в production-like состоянии (Writing OS / soz150 с 300+ инструментами). Не хватает трёх вещей: (1) сфокусированного выбора одного проекта из 10, (2) сооснователя на go-to-market и юридическую часть, (3) структуры, которая защитит ваш режим работы (нельзя 9-to-5 office + GdB 70 + intensity вашего производства).
+
+Третий — subject-matter advocate в редкой нише «inside view» немецкой welfare системы. Вы не консультант, не юрист, не НКО-активист — вы субъект системы, который из личного опыта построил карту и tools. Эта позиция уникальна, её нельзя заменить наймом эксперта. Она же даёт вам моральный mandate, которого нет у внешних профессионалов.
+
+Интегральный ответ на вопрос о вакансиях Anthropic
+
+Не существует одной вакансии, которая закрыла бы этот профиль полностью. Любая одна — обрежет 70-80% вашей реальной ценности. Но если ранжировать по частичному покрытию, картина такая.
+
+Наивысшее частичное совпадение — Transformative AI Research Economist, The Anthropic Institute (Public Benefit, San Francisco). Это роль, в которой изучают, как ИИ изменит экономическую активность и социальные системы. Ваш data70 + analysis_04_social_law + analysis_05_recommendations — это буквально исходный материал для их research agenda. Они изучают influence of AI на disability systems, welfare, labor markets — вы уже это сделали на личном примере, пропустив через себя 15 месяцев диалогов и 300 разговоров по соцправу. Единственная proxy-проблема: роль SF-based, require 25% office presence в одном из hubs. Для вашего медицинского статуса это может быть блокирующим ограничением — нужно проверять accommodation policy.
+
+Второе место — Research Engineer / Research Scientist, Societal Impacts (AI Research & Engineering, SF). Инженерно-исследовательский трек на ту же проблему. Ложится на pro2 + meta + infom + meta1 (ваш AI-research кластер). Та же география проблема.
+
+Третье место — Applied AI Engineer, Beneficial Deployments (Life Sciences или общий) EMEA (London, Dublin, Munich). Ваш кластер CareMate AI (4.1 млн Pflegebedürftige в Германии, дефицит 500K медперсонала к 2030) ложится сюда как perfect fit. Это позиция, где domain expertise важнее чистого ML-bullet-point-резюме.
+
+Четвёртое место — Anthropic Fellows Program (London, Ontario, Remote-US, SF; тематики ML Systems, AI Safety, RL). 6-месячный fellowship — это мост для людей с нестандартным бэкграундом, позволяющий войти в research engineering без classical PhD-трека. Есть Remote-friendly потоки в US и UK-hub. Ваш pro2 + infom + meta архитектурные работы дают content для application essay, а скорость производства (70 репо за 4 месяца) — убедительное evidence высокой output capacity. Это, возможно, самый реалистично достижимый путь в Anthropic конкретно с вашего текущего положения.
+
+Пятое место — Research Economist или Analyst, The Anthropic Institute (младшие роли, SF). Понижение позиции, но та же тематика.
+
+Отдельно отмечу — Forward Deployed Engineer, который я ставил на первое место раньше, понижаю до шестого. Эта роль требует физического или near-физического присутствия у клиента, частых командировок, темпа meeting-heavy коммуникации. Для вашей ситуации и для вашего режима глубокой работы это будет демотиватор, даже если формально совпадает по skills.
+
+Что такое частичное соответствие — честно
+
+Ни одна из этих ролей не закрывает одновременно три ваши оси:
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-three-overlapping-identities](docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md)
+- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
+- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
+

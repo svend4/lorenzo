@@ -2,10 +2,10 @@
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 705
+**Всего элементов:** 1104
 
 
-## ➡️ Следующие шаги (97)
+## ➡️ Следующие шаги (139)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -163,10 +163,38 @@
   _→ RISK_REGISTER_
 - как InGit | `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |  
   _→ TABLES_
+- строит личную или индивидуально‑командную knowledge memory. Svyazi‑2.0 должна строить социально‑проектный граф: кто може  
+  _→ 07-vs-notion-mem-affine-langgraph_
+- как понятны роли агентов, типы задач и review states. A2A Protocol+1  
+  _→ 09-do-not-glue_
+- рекомендация: попробовать Hermes на ваш Termux setup. Compare с Cowork. Decide which serves your actual workflow better. Adjust documents accordingly.  
+  _→ 13-reprioritization_
+- <!-- summary -->  
+  _→ 12-concrete-next-step_
+- Приоритет 1: Reach out к Андрею Чуяну. Comment on Habr article или direct message. Проверить interest в discussion.  
+  _→ 12-concrete-next-step_
+- Вариант 2: Я draft Variant C concept document с Lorenzo central — это outreach-ready document для Anthropic  
+  _→ 03-dhlab-umbrella_
+- Immediate (this session):  
+  _→ 06-conclusion-deserves-attention_
+- гильдийных Профессиональных Коллег, и только потом, когда контрибьюторы привыкнут к AI-партнёрам в работе, добавлять Пре  
+  _→ 01-response_
+- набора узкоспециализированных под-агентов, которые потом могут быть скомпонованы в разные конфигурации.  
+  _→ 03-the-spectrum_
+- ваш repo имеет defensible meta-layer: для любого внешнего человека видно, что вы работаете в осмысленной парадигме, а не в хаотичном AI-assisted режим  
+  _→ 16-glossary_
+- как появилась **метрика качества**, benchmark set и отчётливое понимание, что считать регрессией. До этого автоматическая оптимизация будет скорее про  
+  _→ do-not-glue_
+- как появилась стабильная spec и критерии качества. citeturn20view2turn20view3turn20view4turn20view11turn20view19 |  
+  _→ risks_
+- Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
+  _→ risks_
+- validation Bescheid parsing:  
+  _→ 30-mega-stack-3-0-with-dsl-ast_
 
-_(19 дублей скрыто)_
+_(47 дублей скрыто)_
 
-## ✅ Решения и рекомендации (142)
+## ✅ Решения и рекомендации (215)
 
 - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идёт  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -352,6 +380,8 @@ _(19 дублей скрыто)_
   _→ CONTENT_GAPS_
 - создать документы  
   _→ CONTENT_GAPS_
+- формат с параллельными разделами, а не отдельны…  
+  _→ DUPLICATES_
 - прочитать в первую очередь. <!-- alert-added --> <!-- autofill-status --> | Параметр | Значение | |----------|---------| | Теги | — | | Упоминаний в р  
   _→ NARRATIVE_
 - Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-f  
@@ -368,14 +398,22 @@ _(19 дублей скрыто)_
   _→ TABLES_
 - 2019 года, после изменений 2024 года примен | `docs/TABLES.md` |  
   _→ TABLES_
+- создать документы](#26-рекомендуется-создать-документы)  
+  _→ TABLES_
 - исправить.  
   _→ VALIDATION_
+- позиционировать как research database, не как legal service. «Вот как типичный case структурируется» — OK. «Вот что вам лично делать» — не OK без юрид  
+  _→ 03-what-this-gives-technically_
+- Но reality: knowledge work ветвится постоянно. Во время обсуждения проекта X возникает идея для проекта Y. Во время review кода возникает architectura  
+  _→ 01-three-related-themes_
+- (extractor / reviewer / publisher)  
+  _→ review-record_
 - **Выбрано:** [Вариант X]  
   _→ decision-record_
 
-_(40 дублей скрыто)_
+_(108 дублей скрыто)_
 
-## ⚠️ Риски (286)
+## ⚠️ Риски (483)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -787,13 +825,11 @@ _(40 дублей скрыто)_
   _→ COST_
 - mitigation для каждой. Полезно для grant  
   _→ DECISIONS_
-- | `root` | 63% |  
+- | `root` | 73% |  
   _→ DENSITY_
-- | |---|---|---|---|---| | Evidence-first core | Из любого suggestions можно перейти к основанию | Unified …  
-  _→ DUPLICATES_
-- и allowlist для MCP | 0 |  
+- и allowlist для MCP | 2 |  
   _→ FOOTNOTES_
-- | ██ 7.8 | 0.4 | 0.4 | ▒▒ 4.3 | 0.1 |  
+- | ██ 7.7 | 0.4 | 0.4 | ▒▒ 4.3 | 0.1 |  
   _→ HEATMAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
@@ -831,14 +867,48 @@ _(40 дублей скрыто)_
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
   _→ TABLES_
-- | `root` | 54% |  
+- | `root` | 63% |  
   _→ TABLES_
-- и allowlist для MCP | 16 |  
+- и allowlist для MCP | 0 |  
   _→ TABLES_
+- проблемы. Habr  
+  _→ 04-memory-firewall-vs-prompt-worms_
+- Каждый компонент maintained by one person:  
+  _→ 02-minuses-1-10_
+- «машина технологической селекции» becomes the project, instead of being a tool for the actual project (SGB advocacy, helping vulnerable populations).  
+  _→ 02-minuses-1-10_
+- Agency Capture](#81-risk-agency-capture)  
+  _→ 01-response-en_
+- Adversarial Manipulation by Counterparties](#82-risk-adversarial-manipulation-by-counterparties)  
+  _→ 01-response-en_
+- Principal Misunderstanding Agent Capability](#83-risk-principal-misunderstanding-agent-capability)  
+  _→ 01-response-en_
+- Privacy Violations](#84-risk-privacy-violations)  
+  _→ 01-response-en_
+- Inequitable Access](#85-risk-inequitable-access)  
+  _→ 01-response-en_
+- Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)  
+  _→ 01-response-en_
+- Regulatory Backlash](#87-risk-regulatory-backlash)  
+  _→ 01-response-en_
+- Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)  
+  _→ 01-response-en_
+- 5 — Дефицит practical learning через rejection. Часть development of judgment in business comes от experience — from being rejected, learning why, adj  
+  _→ 01-response_
+- становится отдельной способностью, ортогональной к умению создавать качество.  
+  _→ 01-response_
+- и бюджетный execution plane для агентных систем.  
+  _→ security-routing-plane_
+- склеивать».  
+  _→ do-not-glue_
+- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
+  _→ projects-map_
+- (critical for Anwaltsgeheimnis)  
+  _→ 14-local-first-agent-development-environment_
 
-_(57 дублей скрыто)_
+_(238 дублей скрыто)_
 
-## 🚫 Ограничения (82)
+## 🚫 Ограничения (125)
 
 - не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi[^svyazi] как базовый пат  
   _→ 14-limitations_
@@ -956,12 +1026,24 @@ _(57 дублей скрыто)_
   _→ OUTLINE_
 - при коммерческом использовании |  
   _→ TABLES_
+- Habr Scout: Habr articles often hype или incomplete; need quality filter  
+  _→ 02-minuses-1-10_
+- Память не сохраняется между сессиями  
+  _→ 01-level-0-manual_
+- Всё ещё triggered Максом (не автономный)  
+  _→ 02-level-1-minimal-zero_
+- Outreach всё ещё manual (Макс как Lorenzo)  
+  _→ 03-level-2-basic-lite_
+- Всё ещё под Макса approval для всех external actions  
+  _→ 04-level-3-medium-active_
+- Significant operational complexity  
+  _→ 05-level-4-extended-mature_
 - - [Риск 1]  
   _→ ensemble_
 
-_(23 дублей скрыто)_
+_(60 дублей скрыто)_
 
-## 📋 Задачи (TODO) (9)
+## 📋 Задачи (TODO) (13)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -979,10 +1061,16 @@ _(23 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- меток: **22**  
+- меток: **23**  
   _→ STATS_
+- Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
+  _→ 02-minuses-1-10_
+- после решения  
+  _→ review-record_
 
-## 📬 Контактные действия (89)
+_(2 дублей скрыто)_
+
+## 📬 Контактные действия (129)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1128,8 +1216,24 @@ _(23 дублей скрыто)_
   _→ SCHEDULE_
 - PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
   _→ TABLES_
+- technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого арте  
+  _→ 10-three-entry-points_
+- vision paper на 10-15 страниц. «MMORPG as Professional Work Infrastructure: A Th  
+  _→ 05-minuses-as-business_
+- vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про  
+  _→ 05-minuses-as-business_
+- CRUD», а те, что на переднем крае самой модели (pre‑training, RL, alignment, int  
+  _→ signals_
+- companion paper про Профессиональных Коллег. Это будет более готовая для развёрт  
+  _→ 01-response_
+- один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRAR  
+  _→ 01-strategic-significance_
+- PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1  
+  _→ 04-what-i-can-do-now_
+- anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
+  _→ 04-what-i-can-do-now_
 
-_(17 дублей скрыто)_
+_(49 дублей скрыто)_
 
 <!-- see-also -->
 
@@ -1137,7 +1241,7 @@ _(17 дублей скрыто)_
 
 **Смотрите также:**
 - [CONCEPTS](docs/CONCEPTS.md)
+- [READABILITY](docs/READABILITY.md)
 - [TABLES](docs/TABLES.md)
 - [SEARCH](docs/SEARCH.md)
-- [READING_TIME](docs/READING_TIME.md)
 

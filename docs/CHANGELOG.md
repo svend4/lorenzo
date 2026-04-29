@@ -1,13 +1,35 @@
 # CHANGELOG
 
-Всего коммитов: **50**  
-Статистика: ✨ feat: 17 | ⚡ improve: 14 | 🔧 chore: 13 | 📝 docs: 3 | 🐛 fix: 3
+Всего коммитов: **64**  
+Статистика: 🔧 chore: 26 | ✨ feat: 17 | ⚡ improve: 14 | 📝 docs: 4 | 🐛 fix: 3
 
 
-## 2026-04-29 (49 коммитов)
+## 2026-04-29 (63 коммитов)
 
 ### 🔧 Обслуживание
 
+- Audit-driven extraction of major missing substantive content _fedc045a_
+  > After audit of source dialogs against extracted content, 12 major
+- Extract Nautilus Portal Protocol v1.0.0-draft (earlier version) _c6592525_
+  > docs/nautilus/npp-v1-0/ (NEW, 20 files):
+- Extract Nautilus-vs-CAMEL analysis and Habr extra-examples _ee71737e_
+  > docs/anthropic-vacancies/nautilus-vs-camel/ (NEW, 7 files):
+- Extract Hermes Agent comparison and re-prioritization _7822b130_
+  > docs/anthropic-vacancies/hermes-comparison/ (NEW, 15 files):
+- Extract AI-managed virtual company and MMORPG-for-programmers analyses _e965e1cd_
+  > docs/anthropic-vacancies/ai-managed-virtual-company/ (NEW, 12 files):
+- Extract Anthropic outreach concept, collaborator findings, reading paths _088f3f16_
+  > docs/anthropic-vacancies/beneficial-deployments-concept/ (NEW, 13 files):
+- Extract Lorenzo specification questions and phased deployment _9d9d2fee_
+  > The same anthropic-vacancies dialog contained more substantive
+- Extract Three-Phase Review Methodology and operationalized Lorenzo _047d6c06_
+  > docs/nautilus/review-methodology/ (NEW):
+- Extract Lorenzo agent prompt and 4 more DHLab papers _5a34f469_
+  > The same MHTML dialog (anthropic-vacancies) contained even more
+- Extract Nautilus Portal Protocol RFC and companion papers _cbe83e6e_
+  > The anthropic-vacancies dialog drifted into substantial Nautilus
+- Add profile-mapping, glossary, source-projects index _b552bcfc_
+  > docs/anthropic-vacancies/profile-mapping/:
 - sync CONTRADICTIONS.md (background task output) _89d3e8fb_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync CONTRADICTIONS.md after contradiction_check fix _6b81ffed_
@@ -16,6 +38,8 @@
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 - sync PROGRESS.md after deeptext scripts commit _1d552d4e_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- Extract MHTML content into topic docs _4b567b23_
+  > Continuation of the monorepo split: parsed each MHTML snapshot and
 - sync PROGRESS.md after session _53bfdbd8_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync generated docs (CONTACTS, HEALTH, METRICS) _5571b369_
@@ -28,10 +52,13 @@
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 - add extract_mhtml.py and ignore pycache _ff8a8161_
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- Organize repo as monorepo with topic-split docs _d5ddac56_
+  > - Make repo a monorepo (package.json workspaces, pnpm-workspace.yaml,
 - Add files via upload _183c4e9f_
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _f73c58f7_
 - auto-update via improve_run_all [skip ci] _8e689b3d_
 - sync PROGRESS.md _4e217f2b_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW

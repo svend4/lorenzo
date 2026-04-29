@@ -23,3 +23,11 @@
 ❌ **Buzzword soup**: «leveraging synergies for transformative outcomes»
 ❌ **Defensive posture**: Justifying existence, apologizing for being AI
 ❌ **Excessive caveats**: Disclaimers что smother every statement
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [15-anti-patterns](docs/lorenzo-agent/15-anti-patterns.md)
+

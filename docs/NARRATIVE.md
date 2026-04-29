@@ -140,5 +140,5 @@ _Полная дорожная карта: [docs/01-svyazi/12-roadmap.md](docs/0
 - [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
 - [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
 - [13-контактная-стратегия-и-узкие-вопросы-для-авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
+- [mvp-plan](docs/svyazi-2-0/prototype/mvp-plan.md)
 

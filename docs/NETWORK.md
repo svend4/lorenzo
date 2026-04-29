@@ -6,59 +6,59 @@
 
 | Пара | Общих файлов |
 |------|-------------|
-| **Cowork** ↔ **ingit** | 79 |
-| **Svyazi** ↔ **NGT** | 69 |
-| **Svyazi** ↔ **Yodoca** | 65 |
-| **Yodoca** ↔ **NGT** | 65 |
-| **Svyazi** ↔ **CardIndex** | 57 |
-| **Svyazi** ↔ **AgentFS** | 57 |
-| **AgentFS** ↔ **NGT** | 57 |
-| **CardIndex** ↔ **NGT** | 55 |
-| **AgentFS** ↔ **Yodoca** | 54 |
-| **CardIndex** ↔ **AgentFS** | 53 |
-| **CardIndex** ↔ **Yodoca** | 50 |
-| **Svyazi** ↔ **knowledge-space** | 48 |
-| **Cowork** ↔ **Lorenzo (svend4)** | 48 |
-| **NGT** ↔ **knowledge-space** | 47 |
-| **AgentFS** ↔ **knowledge-space** | 46 |
-| **Svyazi** ↔ **LiteParse** | 45 |
-| **Svyazi** ↔ **AI Factory** | 44 |
-| **Svyazi** ↔ **Rufler** | 43 |
-| **Svyazi** ↔ **mclaude** | 43 |
-| **AgentFS** ↔ **SENTINEL** | 43 |
+| **Cowork** ↔ **ingit** | 122 |
+| **Svyazi** ↔ **NGT** | 100 |
+| **Svyazi** ↔ **CardIndex** | 97 |
+| **Svyazi** ↔ **Yodoca** | 96 |
+| **Yodoca** ↔ **NGT** | 90 |
+| **Svyazi** ↔ **AgentFS** | 79 |
+| **CardIndex** ↔ **NGT** | 74 |
+| **AgentFS** ↔ **NGT** | 72 |
+| **AgentFS** ↔ **Yodoca** | 69 |
+| **CardIndex** ↔ **Yodoca** | 68 |
+| **Svyazi** ↔ **knowledge-space** | 66 |
+| **CardIndex** ↔ **AgentFS** | 66 |
+| **Svyazi** ↔ **mclaude** | 64 |
+| **AgentFS** ↔ **knowledge-space** | 64 |
+| **Svyazi** ↔ **LiteParse** | 63 |
+| **Svyazi** ↔ **AI Factory** | 61 |
+| **NGT** ↔ **knowledge-space** | 59 |
+| **Svyazi** ↔ **SENTINEL** | 57 |
+| **Svyazi** ↔ **Rufler** | 57 |
+| **AgentFS** ↔ **LiteParse** | 56 |
 
 ## Центральность узлов (влиятельность)
 
 | Узел | Балл центральности | Тип |
 |------|--------------------|-----|
-| **Svyazi** | 783 | 📦 Проект |
-| **NGT** | 724 | 📦 Проект |
-| **Yodoca** | 683 | 📦 Проект |
-| **AgentFS** | 641 | 📦 Проект |
-| **CardIndex** | 619 | 📦 Проект |
-| **knowledge-space** | 553 | 📦 Проект |
-| **LiteParse** | 513 | 📦 Проект |
-| **Rufler** | 505 | 📦 Проект |
-| **SENTINEL** | 499 | 📦 Проект |
-| **mclaude** | 488 | 📦 Проект |
-| **AI Factory** | 478 | 📦 Проект |
-| **Андрей (kksudo)** | 418 | 👤 Автор |
-| **Lorenzo (svend4)** | 395 | 👤 Автор |
-| **Виталий (spbmolot)** | 390 | 👤 Автор |
-| **Cowork** | 373 | 📦 Проект |
-| **ingit** | 365 | 📦 Проект |
-| **Lorenzo** | 358 | 📦 Проект |
-| **MemNet** | 351 | 📦 Проект |
-| **Wikontic** | 279 | 📦 Проект |
-| **Firecrawl** | 137 | 📦 Проект |
+| **Svyazi** | 1059 | 📦 Проект |
+| **NGT** | 927 | 📦 Проект |
+| **Yodoca** | 869 | 📦 Проект |
+| **AgentFS** | 812 | 📦 Проект |
+| **CardIndex** | 806 | 📦 Проект |
+| **knowledge-space** | 718 | 📦 Проект |
+| **mclaude** | 662 | 📦 Проект |
+| **LiteParse** | 659 | 📦 Проект |
+| **Rufler** | 624 | 📦 Проект |
+| **AI Factory** | 594 | 📦 Проект |
+| **SENTINEL** | 592 | 📦 Проект |
+| **Андрей (kksudo)** | 471 | 👤 Автор |
+| **Cowork** | 454 | 📦 Проект |
+| **MemNet** | 453 | 📦 Проект |
+| **Виталий (spbmolot)** | 450 | 👤 Автор |
+| **ingit** | 438 | 📦 Проект |
+| **Lorenzo** | 423 | 📦 Проект |
+| **Lorenzo (svend4)** | 420 | 👤 Автор |
+| **Wikontic** | 345 | 📦 Проект |
+| **Firecrawl** | 170 | 📦 Проект |
 
 ## Авторы ↔ Проекты
 
-**Андрей (kksudo)** → **Svyazi** (35), **NGT** (31), **AgentFS** (30), **Yodoca** (30), **knowledge-space** (28), **CardIndex** (23), **SENTINEL** (22), **LiteParse** (21)
+**Андрей (kksudo)** → **Svyazi** (40), **AgentFS** (38), **Yodoca** (35), **NGT** (35), **knowledge-space** (35), **CardIndex** (28), **LiteParse** (25), **mclaude** (25)
 
-**Виталий (spbmolot)** → **Svyazi** (34), **NGT** (31), **Yodoca** (29), **AgentFS** (28), **knowledge-space** (27), **CardIndex** (22), **SENTINEL** (19), **LiteParse** (19)
+**Виталий (spbmolot)** → **Svyazi** (40), **NGT** (37), **AgentFS** (35), **Yodoca** (35), **knowledge-space** (34), **CardIndex** (27), **LiteParse** (23), **mclaude** (23)
 
-**Lorenzo (svend4)** → **Cowork** (48), **ingit** (43), **Svyazi** (37), **NGT** (28), **Lorenzo** (25), **Yodoca** (23), **MemNet** (20), **CardIndex** (19)
+**Lorenzo (svend4)** → **Cowork** (54), **ingit** (47), **Svyazi** (39), **NGT** (30), **Lorenzo** (28), **Yodoca** (24), **CardIndex** (22), **knowledge-space** (20)
 
 
 <!-- see-also -->
