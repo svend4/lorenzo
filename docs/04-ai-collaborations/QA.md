@@ -38,18 +38,6 @@ _Автоматически сгенерировано по 15 файлам ра
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
 
-## Какие инструменты обеспечивают безопасность агентов?
-
-Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
-
-## Какова политика доступа по умолчанию (tool classes)?
-
-Упоминаются: **read-only**, **allowlist**, **path guard**, **quarantine**
-
-## Как организован бюджетный роутинг между моделями?
-
-Упоминаются: **routing**, **budget**, **litellm**, **local model**
-
 ## Как работает AgentFS и что такое .agentos?
 
 Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
@@ -62,16 +50,14 @@ _Автоматически сгенерировано по 15 файлам ра
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
-<!-- backlinks-auto -->
-## Упоминается в
+## Какие инструменты обеспечивают безопасность агентов?
 
-- [Поиск AI-коллабораций](README.md)
+Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
 
-<!-- related-auto -->
-## Связанные документы
+## Какова политика доступа по умолчанию (tool classes)?
 
-- [Q&A: 01-svyazi](../01-svyazi/QA.md) _90%_
-- [Глобальный Q&A](../QA.md) _73%_
-- [Q&A: 02-anthropic-vacancies](../02-anthropic-vacancies/QA.md) _37%_
-- [Q&A: 03-technology-combinations](../03-technology-combinations/QA.md) _17%_
-- [Q&A: 05-habr-projects](../05-habr-projects/QA.md) _17%_
+Упоминаются: **read-only**, **allowlist**, **path guard**, **quarantine**
+
+## Как организован бюджетный роутинг между моделями?
+
+Упоминаются: **routing**, **budget**, **litellm**, **local model**

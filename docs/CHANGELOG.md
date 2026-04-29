@@ -1,10 +1,10 @@
 # CHANGELOG
 
-Всего коммитов: **76**  
-Статистика: 🔧 chore: 31 | ✨ feat: 22 | ⚡ improve: 14 | 📝 docs: 6 | 🐛 fix: 3
+Всего коммитов: **81**  
+Статистика: 🔧 chore: 32 | ✨ feat: 23 | ⚡ improve: 14 | 📝 docs: 7 | 🐛 fix: 5
 
 
-## 2026-04-29 (75 коммитов)
+## 2026-04-29 (80 коммитов)
 
 ### 🔧 Обслуживание
 
@@ -14,6 +14,8 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - Audit-driven extraction of major missing substantive content _fedc045a_
   > After audit of source dialogs against extracted content, 12 major
+- refresh executive report _12dea45c_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 - синхронизировать сгенерированные отчёты и docs _64358a84_
   > Обновление всех авто-генерируемых файлов после запуска
 - Extract Nautilus Portal Protocol v1.0.0-draft (earlier version) _c6592525_
@@ -68,6 +70,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _ba78ff20_
 - auto-update via improve_run_all [skip ci] _039a4a2a_
 - auto-update via improve_run_all [skip ci] _dfc530a0_
 - auto-update via improve_run_all [skip ci] _f73c58f7_
@@ -86,6 +89,8 @@
   > Новый скрипт для создания персонализированных списков чтения:
 - ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний _a8455926_
   > Новые скрипты (группа content + nlpplus):
+- run all script groups, apply TOC/abstracts/crosslinks, rebuild search index _898c42a0_
+  > - All 7 script groups pass clean (quality, analytics, deeptext, meta, textwork, reports, generate)
 - add component matrix, KPI history tracker, fix run_all coverage _69562b02_
   > - improve_component_matrix.py: 14×10 compatibility matrix (memory/search/
 - добавить 8 скриптов группы nlpplus — расширенный NLP-анализ _4bcc9739_
@@ -124,6 +129,10 @@
   > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
 ### 🐛 Исправления
 
+- fix crosslink root cause (relative paths), map all 125 scripts in dependency map _ed3fa81f_
+  > - Fixed improve_crosslink_all.py: links now use os.path.relpath() instead of
+- fix 8607 broken internal links, improve health score formula _52179ba5_
+  > - Fixed 8607 broken links (absolute → relative paths via improve_broken_links --fix)
 - fix update-docs CI job failures _42f561dd_
   > Three issues fixed:
 - исправить ошибки в deeptext скриптах, добавить выходные файлы _4755dd94_
