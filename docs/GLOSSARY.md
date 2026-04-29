@@ -1,67 +1,41 @@
 # Глоссарий проектов
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Глоссарий проектов Все проекты, упоминаемые в документах, с количеством файлов.
-> 🏷️ **Ключевые слова:** `graph`, `mindmap`, `entities`, `проекты`, `memory`, `сходство`, `упоминаемые`, `документах`
->
-
-
-<!-- summary -->
-> Все проекты, упоминаемые в документах, с количеством файлов.
-**Проекты:** Svyazi, CardIndex, AgentFS, [knowledge-space](../docs/01-svyazi/03-component-catalog.md), mclaude, AI Factory, Rufler, LiteParse
-
----
-
-
-
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 27 |
-| **AIF Handoff** | 11 |
-| **AgentFS** | 24 |
-| **Auto AI Router** | 21 |
-| **AutoResearch** | 19 |
-| **Automerge** | 10 |
-| **CardIndex** | 36 |
-| **Firecrawl** | 3 |
-| **Graph RAG** | 14 |
-| **Hybrid RAG** | 15 |
-| **Legal RAG** | 15 |
-| **LiteLLM** | 19 |
-| **LiteParse** | 22 |
-| **MemNet** | 7 |
-| **Memory OS** | 15 |
-| **NGT Memory** | 29 |
-| **OpenWhispr** | 7 |
-| **RLM-Toolkit** | 4 |
-| **Rufler** | 20 |
-| **SENTINEL** | 19 |
-| **Self-Aware MCP** | 6 |
-| **Sequential** | 35 |
-| **Svyazi** | 45 |
-| **Tool Search** | 17 |
-| **Whisper** | 8 |
-| **Wikontic** | 7 |
-| **Yjs** | 11 |
-| **Yodoca** | 29 |
-| **Yttri** | 7 |
-| **agent-memory-mcp** | 12 |
-| **knowledge-space** | 18 |
-| **mclaude** | 25 |
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [MINDMAP](docs/MINDMAP.md) (сходство 0.42)
-- [GRAPH](docs/GRAPH.md) (сходство 0.23)
-- [ENTITIES](docs/ENTITIES.md) (сходство 0.20)
-
+| **AI Factory** | 74 |
+| **AIF Handoff** | 30 |
+| **AgentFS** | 101 |
+| **Auto AI Router** | 65 |
+| **AutoResearch** | 66 |
+| **Automerge** | 38 |
+| **CardIndex** | 139 |
+| **Firecrawl** | 22 |
+| **Graph RAG** | 47 |
+| **Hybrid RAG** | 51 |
+| **Legal RAG** | 51 |
+| **LiteLLM** | 49 |
+| **LiteParse** | 80 |
+| **MemNet** | 141 |
+| **Memory OS** | 38 |
+| **NGT Memory** | 95 |
+| **OpenWhispr** | 21 |
+| **RLM-Toolkit** | 11 |
+| **Rufler** | 86 |
+| **SENTINEL** | 69 |
+| **Self-Aware MCP** | 21 |
+| **Sequential** | 119 |
+| **Svyazi** | 315 |
+| **Tool Search** | 50 |
+| **Whisper** | 24 |
+| **Wikontic** | 51 |
+| **Yjs** | 47 |
+| **Yodoca** | 142 |
+| **Yttri** | 19 |
+| **agent-memory-mcp** | 39 |
+| **knowledge-space** | 103 |
+| **mclaude** | 90 |
 
 <!-- see-also -->
 
@@ -71,5 +45,5 @@
 - [MINDMAP](docs/MINDMAP.md)
 - [GRAPH](docs/GRAPH.md)
 - [NETWORK](docs/NETWORK.md)
-- [ENTITIES](docs/ENTITIES.md)
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 

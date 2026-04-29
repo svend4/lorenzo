@@ -6,11 +6,16 @@
 h1. Appendix A: Шаблон для header warning
 
 
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
 {quote}Готовый копи-паст шаблон для вставки в начало документов в{quote}
 
 ----
-
-
 
 
 
@@ -44,17 +49,9 @@ transitional state:
 ----
 
 
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
 
 ----
 
 _Смотрите также:_
-* [102-доступ-к-данным|102-доступ-к-данным.md]
-* [121-appendix-c-история-изменений-методологии|121-appendix-c-история-изменений-методологии.md]
-* [339-приложение-a-дерево-решений-для-принимающих-ingit|339-приложение-a-дерево-решений-для-принимающих-ingit.md]
-* [185-appendix-b-domain-comparison-matrix|185-appendix-b-domain-comparison-matrix.md]
+* [12-appendix-a-header-warning|docs/nautilus/review-methodology/12-appendix-a-header-warning.md]
 

@@ -9,6 +9,16 @@ date: 2026-04-29
 
 # 4. Architecture of Professional Colleague Agents
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Your in-progress submission may need review." The practitioner decides whether to update their work.
+> 🔧 **Подход:** Encoded knowledge of the profession: standards, regulations, methodologies, templates, vocabularies, common patterns.
+> ✅ **Результат:** Different LLM providers can power the same Layer A.
+> 🏷️ **Ключевые слова:** `professional`, `colleague`, `agent`, `knowledge`, `practitioner`, `architecture`, `layer`, `update`
+>
+
+
 <!-- summary -->
 > A Professional Colleague Agent has three distinct internal
 
@@ -199,9 +209,31 @@ workflow.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]]
+- [[221-10-open-questions|10. Open Questions]]
+- [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]]
+- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]]
+- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]]
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]] _42%_
+- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]] _29%_
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _29%_
+- [[221-10-open-questions|10. Open Questions]] _25%_
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _21%_
+- [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]] _21%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _21%_
+- [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _21%_
 ## Связанные документы
 
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _37%_

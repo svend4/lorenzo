@@ -58,9 +58,41 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]]
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]]
+- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]]
+- [[146-acknowledgments|Acknowledgments]]
+- [[182-acknowledgments|Acknowledgments]]
+- [[224-acknowledgments|Acknowledgments]]
+- [[267-acknowledgments|Acknowledgments]]
+- [[286-acknowledgments|Acknowledgments]]
+- [[319-acknowledgments|Acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]]
+- [[183-references|References]]
+- [[268-references|References]]
+- [[287-references|References]]
+- [[137-table-of-contents|Table of Contents]]
+- [[211-table-of-contents|Table of Contents]]
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]]
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _66%_
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _60%_
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] _60%_
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _48%_
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _48%_
+- [[267-acknowledgments|Acknowledgments]] _37%_
+- [[268-references|References]] _37%_
+- [[146-acknowledgments|Acknowledgments]] _33%_
 ## Связанные документы
 
 - [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _81%_

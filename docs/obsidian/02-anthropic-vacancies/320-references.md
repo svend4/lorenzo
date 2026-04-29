@@ -80,9 +80,26 @@ acknowledgments above.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[147-references|References]]
+- [[287-references|References]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[338-ссылки|Ссылки]]
+- [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[287-references|References]] _29%_
+- [[338-ссылки|Ссылки]] _25%_
+- [[146-acknowledgments|Acknowledgments]] _17%_
+- [[183-references|References]] _17%_
+- [[225-references|References]] _17%_
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _17%_
+- [[285-closing|Closing]] _17%_
+- [[286-acknowledgments|Acknowledgments]] _17%_
 ## Связанные документы
 
 - [[287-references|References]] _25%_

@@ -1,13 +1,15 @@
 ---
 title: "14. SDK Contract (Informative)"
 tags:
+  - memory
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
 
 # 14. SDK Contract (Informative)
-<!-- tags: anthropic -->
+<!-- tags: memory, anthropic, collaboration -->
 
 
 <!-- toc-auto -->
@@ -55,7 +57,7 @@ class NautilusClient:
 ### 14.3. Return Types
 
 SDK MUST деsериализовать JSON responses в typed structures (dataclasses 
-для Python, interfaces для TypeScript и т.д.). Raw dict return 
+для Python, interfaces для [[memnet|TypeScript]] и т.д.). Raw dict return 
 acceptable только для debugging/experimental версий.
 
 ---
@@ -78,19 +80,3 @@ acceptable только для debugging/experimental версий.
 - [[25-13-reference-implementation]]
 - [[28-appendix-a-minimal-working-example]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[22-10-queryresult-structure|10. QueryResult Structure]] _33%_
-- [[103-appendix-b-change-log|Appendix B: Change Log]] _25%_
-- [[104-appendix-c-references|Appendix C: References]] _25%_
-- [[93-18-reference-implementation|18. Reference Implementation]] _25%_
-- [[04-abstract|Abstract]] _21%_
-- [[08-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _21%_
-- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _21%_
-- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _21%_

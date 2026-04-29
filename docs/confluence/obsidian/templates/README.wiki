@@ -32,11 +32,3 @@ h2. Использование
 cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.md
 # Затем откройте и заполните поля в [квадратных скобках]
 {code}
-
-
-
-----
-
-_Смотрите также:_
-* [[research-summary]]
-

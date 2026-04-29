@@ -1,7 +1,9 @@
 ---
 title: "History"
 tags:
+  - memory
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,7 +14,7 @@ date: 2026-04-29
 > **Создан:** [? уточнить — декабрь 2025, если совпадает с волной
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: memory, anthropic, collaboration -->
 
 
 
@@ -25,7 +27,7 @@ date: 2026-04-29
 **Ключевые этапы:**
 - [? v1 — первичная коллекция методов]
 - [? добавление α-уровневой системы]
-- [? подключение к nautilus как Level 3 participant]
+- [[memnet|? подключение к [nautilus]] как Level 3 participant]
 
 **Направление развития:**
 - Достижение 100+ документов в α₀ и α₁ уровнях
@@ -49,23 +51,7 @@ date: 2026-04-29
 
 **Смотрите также:**
 - [[63-history]]
-- [[35-passports-info1-md]]
+- [[01-интегральный-анализ-профиля-svend4|35-passports-[info1]]-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
 - [[53-history]]
 - [[42-author-contact]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[35-passports-info1-md|passports/info1.md]] _29%_
-- [[48-content-overview|Content Overview]] _29%_
-- [[53-history|History]] _29%_
-- [[44-for-the-curious-philosophy|For the Curious: Philosophy]] _21%_
-- [[45-passports-pro2-md|passports/pro2.md]] _21%_
-- [[46-essence|Essence]] _21%_
-- [[47-native-format|Native Format]] _21%_
-- [[55-passports-meta-md|passports/meta.md]] _21%_

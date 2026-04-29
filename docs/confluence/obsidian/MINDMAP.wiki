@@ -116,7 +116,7 @@ h2. Легенда
 
 _Смотрите также:_
 * [[GLOSSARY]]
-* [[GRAPH]]
 * [[CONTACT_PRIORITY]]
+* [[GRAPH]]
 * [[NETWORK]]
 

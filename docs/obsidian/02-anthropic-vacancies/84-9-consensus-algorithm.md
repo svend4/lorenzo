@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 9. Consensus Algorithm
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Consensus Algorithm(9-consensus-algorithm) - 9.1.
+> ✅ **Результат:** Future Extensions (v2.0+)(95-future-extensions-v20) При query через portal, когда результаты возвращаются из нескольких --- 9.
+> 🏷️ **Ключевые слова:** `consensus`, `algorithm`, `fallback`, `query`, `anthropic`, `vacancies`, `через`, `portal`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -144,19 +153,3 @@ v2.0 MAY использовать:
 - [[85-10-query-flow]]
 - [[129-примеры-запросов-в-claude]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[20-8-consensus-algorithm|8. Consensus Algorithm]] _53%_
-- [[86-11-relevance-ranking|11. Relevance Ranking]] _29%_
-- [[21-9-query-flow|9. Query Flow]] _21%_
-- [[17-5-compatibility-levels|5. Compatibility Levels]] _17%_
-- [[77-2-terminology|2. Terminology]] _17%_
-- [[80-5-compatibility-levels|5. Compatibility Levels]] _17%_
-- [[81-6-adapter-interface|6. Adapter Interface]] _17%_
-- [[85-10-query-flow|10. Query Flow]] _17%_

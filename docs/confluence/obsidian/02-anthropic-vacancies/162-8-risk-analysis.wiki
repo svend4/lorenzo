@@ -15,6 +15,15 @@ date: 2026-04-29
 
 h1. 8. Risk Analysis
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Comprehensive Risk Assessment On balance, OKWF faces typical challenges of a new foundation with novel scope.{quote}
+{quote}🔧 _Подход:_ Risk: Regulatory Challenges Probability: Low-Medium Impact: Medium Risk sources: - Employment law reclassifying contributors as employees - GDPR enforcement challenges with anonymi{quote}
+{quote}🏷️ _Ключевые слова:_ {{insufficient}}, {{quality}}, {{anthropic}}, {{demand}}, {{medium}}, {{impact}}, {{mitigations}}, {{vacancies}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -199,6 +208,12 @@ _Смотрите также:_
 * [[158-4-proposed-infrastructure]]
 
 
+h2. Упоминается в
+
+* [[164-10-appendices|10. Appendices]]
+* [[159-5-economic-model|5. Economic Model]]
+* [[161-7-phased-rollout-plan|7. Phased Rollout Plan]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
 h2. Упоминается в
 
 * [[README|Вакансии Anthropic — Анализ по кластерам]]

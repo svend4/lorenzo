@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "project-component",
+  "description": "Карточка компонента: что это, особенности, статус, интеграция с экосистемой",
+  "type": "object",
+  "required": ["template", "version", "component"],
+  "properties": {
+    "template": {"const": "project-component"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "component": {"type": "string", "minLength": 1},
+    "project_version": {"type": "string"},
+    "license": {"enum": ["MIT", "Apache-2.0", "BSL", "BSD-3-Clause", "GPL-3.0", "LGPL-3.0", "MPL-2.0", "Proprietary", "Unknown"]},
+    "language": {"type": "string"},
+    "repo": {"type": "string"},
+    "layer": {"enum": ["memory", "knowledge", "ingestion", "orchestration", "ui", "infra", "agent", "other"]},
+    "maturity": {"enum": ["experimental", "alpha", "beta", "stable", "mature"]},
+    "created": {"type": "string", "format": "date"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Что это", "Ключевые особенности", "Статус"]
+}

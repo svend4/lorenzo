@@ -10,6 +10,16 @@ date: 2026-04-29
 
 # 1. Why the Binary View Is Incomplete
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Problem with the Existing Taxonomy Professional Colleague Agents (PCA) v1.0 introduced five types of principal-side agents.
+> 🔧 **Подход:** Of these, Type 1 (Professional Colleague Agent) and Type 4 (Representative Agent) anchor the extremes of specialization: Type 1: One agent design serves all practitioners of a prof
+> ✅ **Результат:** The profession provides the genus; specialization provides the species; combination provides the individual instance.
+> 🏷️ **Ключевые слова:** `agent`, `profession`, `skills`, `pattern`, `anthropic`, `vacancies`, `agents`, `mastery`
+>
+
+
 <!-- summary -->
 > Professional Colleague Agents (PCA) v1.0 introduced five types
 
@@ -147,9 +157,32 @@ support to skilled professions.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[221-10-open-questions|10. Open Questions]]
+- [[266-13-closing|13. Closing]]
+- [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]]
+- [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]]
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]]
+- [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]]
+- [[261-8-seven-domains-of-application|8. Seven Domains of Application]]
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]]
+- [[252-abstract|Abstract]]
+- [[253-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[252-abstract|Abstract]] _48%_
+- [[253-table-of-contents|Table of Contents]] _33%_
+- [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _33%_
+- [[266-13-closing|13. Closing]] _25%_
+- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _21%_
+- [[210-abstract|Abstract]] _21%_
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _21%_
+- [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]] _21%_
 ## Связанные документы
 
 - [[252-abstract|Abstract]] _42%_

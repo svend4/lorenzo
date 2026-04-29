@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "protocol-spec",
+  "description": "Спецификация протокола в стиле IETF / Nautilus NPP",
+  "type": "object",
+  "required": ["template", "version", "protocol_name", "protocol_version", "status"],
+  "properties": {
+    "template": {"const": "protocol-spec"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "protocol_name": {"type": "string", "minLength": 1},
+    "protocol_version": {"type": "string"},
+    "status": {"enum": ["draft", "proposed", "implemented", "superseded"]},
+    "authors": {"type": "array", "items": {"type": "string"}},
+    "created": {"type": "string", "format": "date"},
+    "inspired_by": {"type": "array", "items": {"type": "string"}},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Status of this Document", "Introduction", "Terminology", "Privacy Considerations", "Security Considerations"]
+}

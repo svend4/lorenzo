@@ -6,6 +6,16 @@
 h1. 1. Problem Statement
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ It is a present problem with actionable solutions that require coordinated action now.{quote}
+{quote}🔧 _Подход:_ It is a present problem with actionable solutions that require coordinated action now.{quote}
+{quote}✅ _Результат:_ The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for AI-assisted workflows.{quote}
+{quote}🏷️ _Ключевые слова:_ {{anthropic}}, {{demand}}, {{vacancies}}, {{problem}}, {{positions}}, {{populations}}, {{summary}}, {{paradox}}{quote}
+>
+
+
+
 {quote}The AI industry in 2026 exhibits an apparent paradox. Frontier{quote}
 
 ----
@@ -37,7 +47,7 @@ April 2026:
 * _Anthropic_: 440 open positions, primarily senior roles at 
   $320K–$405K compensation
 * _OpenAI_: estimated 600+ open positions
-* _Google DeepMind_: estimated 400+ open positions
+* _Google [DeepMind|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_: estimated 400+ open positions
 * _Mistral, Cohere, Inflection, xAI_: collectively 1000+ open 
   positions
 
@@ -140,9 +150,23 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [2. Target Populations|156-2-target-populations.md]
+* [3. Why Existing Solutions Fail|157-3-why-existing-solutions-fail.md]
+* [Executive Summary|153-executive-summary.md]
+* [Table of Contents|154-table-of-contents.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Executive Summary|153-executive-summary.md] _42%_
+* [2. Target Populations|156-2-target-populations.md] _29%_
+* [3. Why Existing Solutions Fail|157-3-why-existing-solutions-fail.md] _25%_
+* [Table of Contents|154-table-of-contents.md] _17%_
+* [4. The Sub-Agent Registry|257-4-the-sub-agent-registry.md] _17%_
 h2. Связанные документы
 
 * [Executive Summary|153-executive-summary.md] _42%_

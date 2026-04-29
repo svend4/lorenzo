@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # Appendix C: Quick-Start Architecture for SGB Advocate Colleague
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Contact via github.com/svend4/nautilus/issues(URL --- Комментарий к шестому документу Это завершающий документ концептуальной работы сессии.
+> 🔧 **Подход:** Appendix C: Quick-Start Architecture for SGB Advocate Colleague !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** Эта строгость полезна , потому что: - Помогает differentiation от других типов - Делает category боеспособной для продакшена - Прорезывает hype вокруг "AI for X" Если кто-то продаё
+> 🏷️ **Ключевые слова:** `appendix`, `colleague`, `документ`, `pilot`, `representative`, `architecture`, `anthropic`, `knowledge`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -43,7 +53,7 @@ proposed pilot:
   privacy-sensitive operations
 - Storage: PostgreSQL (structured) + ChromaDB (vector)
 - Knowledge base format: Markdown files in Git repository
-- Frontend: TypeScript + React
+- Frontend: [[memnet|TypeScript]] + React
 - Mobile: React Native or PWA
 
 **Knowledge base structure** (initial):
@@ -243,9 +253,37 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]]
+- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]]
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]]
+- [[271-appendix-c-configuration-template-example|Appendix C: Configuration Template Example]]
+- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]]
+- [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]]
+- [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]]
+- [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]]
+- [[364-final-note-ты-experiment|Final note: Ты — experiment]]
+- [[225-references|References]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[KEYWORD_INDEX|Инвертированный индекс ключевых слов]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing|Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера]]
+- [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]]
+- [[298-что-этот-документ-не-решает|Что этот документ не решает]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]] _29%_
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _29%_
+- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]] _25%_
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]] _25%_
+- [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]] _25%_
+- [[223-12-closing|12. Closing]] _25%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _25%_
+- [[344-системный-промпт-для-lorenzo-project|СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT]] _25%_
 ## Связанные документы
 
 - [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]] _37%_

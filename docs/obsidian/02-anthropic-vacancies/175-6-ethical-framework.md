@@ -19,10 +19,18 @@ date: 2026-04-29
   - [6.5. Vulnerability Protection](#65-vulnerability-protection)
   - [6.6. Consent and Capacity](#66-consent-and-capacity)
   - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Ethical Framework(6-ethical-framework) - 6.1.
+> 🔧 **Подход:** Accessibility as First-Class Concern(67-accessibility-as-first-class-concern) !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** This means: - Principal owns all data about themselves used by agent - Principal can modify or terminate agent at any time - Principal can override any agent decision - Principal c
+> 🏷️ **Ключевые слова:** `agent`, `principal`, `anthropic`, `vacancies`, `ethical`, `principals`, `framework`, `capability`
+>
 
 
 <!-- toc-auto -->
@@ -162,19 +170,3 @@ tech-sophisticated principals fails its core mission.
 - [[177-8-risks-and-mitigations]]
 - [[179-10-open-questions]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[176-7-governance-and-oversight|7. Governance and Oversight]] _21%_
-- [[179-10-open-questions|10. Open Questions]] _21%_
-- [[223-12-closing|12. Closing]] _21%_
-- [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]] _21%_
-- [[144-7-open-questions|7. Open Questions]] _17%_
-- [[146-acknowledgments|Acknowledgments]] _17%_
-- [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]] _17%_
-- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _17%_

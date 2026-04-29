@@ -21,16 +21,3 @@ _Создано: 2026-04-29_
 cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.md
 # Затем откройте и заполните поля в [квадратных скобках]
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [research-summary](../autofilled/research-summary.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Ансамбль: [Название]](ensemble.md) _17%_
-- [[Тема исследования]](research-note.md) _17%_

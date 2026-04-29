@@ -6,6 +6,15 @@
 h1. 4. Passport ({{passport.md}})
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Passport (passport.md)(4-passport-passportmd) - 4.1.{quote}
+{quote}✅ _Результат:_ Recommended Sections Passport SHOULD содержать разделы: - Описание — 2-3 предложения о содержании Repo - Объём — количество единиц, связей - Q6-отображение — правило проекции на 6-{quote}
+{quote}🏷️ _Ключевые слова:_ {{passport}}, {{registry}}, {{nautilus}}, {{anthropic}}, {{vacancies}}, {{structure}}, {{schema}}, {{passports}}{quote}
+>
+
+
+
 h2. Contents
 
 * [4. Passport (passport.md)|#4-passport-passportmd]
@@ -76,7 +85,7 @@ h3. 4.5. Naming Convention
 * Passport-файлы именуются {{passports/<format>.md}}, не 
   {{passports/<repo-name>.md}}
 * Причина: один format может обслуживаться несколькими репо 
-  (например, domain-sub-adapters в рамках pro2), но passport — 
+  (например, domain-sub-adapters в рамках [pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]), но passport — 
   один на format
 
 ----
@@ -86,9 +95,9 @@ h3. 4.5. Naming Convention
 ----
 
 _Похожие документы:_
-* [09-4-passport-passport-md|09-4-passport-passport-md.md] (сходство 0.24)
-* [78-3-registry-nautilus-json|78-3-registry-nautilus-json.md] (сходство 0.13)
-* [08-3-registry-nautilus-json|08-3-registry-nautilus-json.md] (сходство 0.13)
+* [09-4-passport-passport-md|docs/02-anthropic-vacancies/09-4-passport-passport-md.md] (сходство 0.24)
+* [78-3-registry-[nautilus|../docs/05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
+* [08-3-registry-[nautilus|../docs/05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
 
 
 
@@ -96,24 +105,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [09-4-passport-passport-md|09-4-passport-passport-md.md]
-* [08-3-registry-nautilus-json|08-3-registry-nautilus-json.md]
-* [78-3-registry-nautilus-json|78-3-registry-nautilus-json.md]
-* [82-7-portalentry-structure|82-7-portalentry-structure.md]
+* [09-4-passport-passport-md|docs/02-anthropic-vacancies/09-4-passport-passport-md.md]
+* [08-3-registry-[nautilus|../docs/05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+* [78-3-registry-[nautilus|../docs/05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+* [82-7-portalentry-structure|docs/02-anthropic-vacancies/82-7-portalentry-structure.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [3. Registry ({{nautilus.json}})|08-3-registry-nautilus-json.md] _37%_
-* [3. Registry ({{nautilus.json}})|78-3-registry-nautilus-json.md] _37%_
-* [2. Terminology|07-2-terminology.md] _29%_
-* [4. Passport ({{passport.md}})|09-4-passport-passport-md.md] _29%_
-* [2. Terminology|77-2-terminology.md] _29%_
-* [7. PortalEntry Structure|82-7-portalentry-structure.md] _25%_
-* [Appendix A: Minimal Working Example|98-appendix-a-minimal-working-example.md] _25%_
-* [7. PortalEntry Structure|19-7-portalentry-structure.md] _21%_

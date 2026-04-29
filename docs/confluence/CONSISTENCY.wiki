@@ -8,88 +8,110 @@ h1. Согласованность терминов
 Анализ различных написаний одних и тех же терминов.
 
 || Термин || Канонично || Вариант || Файлов ||
-|| **knowledge-space** || `knowledge-space` || `knowledge space` || 8 ||
+|| **knowledge-space** || `knowledge-space` || `knowledgespace` || 3 ||
+|| **knowledge-space** || `knowledge-space` || `knowledge space` || 16 ||
 || **knowledge-space** || `knowledge-space` || `knowledge_space` || 2 ||
-|| **knowledge-space** || `knowledge-space` || `knowledgespace` || 2 ||
-|| **CardIndex** || `CardIndex` || `card-index` || 2 ||
-|| **AI Factory** || `AI Factory` || `AI-Factory` || 4 ||
-|| **NGT Memory** || `NGT Memory` || `NGT-Memory` || 25 ||
-|| **Auto AI Router** || `Auto AI Router` || `Auto-AI-Router` || 1 ||
-|| **self-improvement** || `self-improvement` || `self-improve` || 70 ||
+|| **AI Factory** || `AI Factory` || `AI-Factory` || 21 ||
+|| **NGT Memory** || `NGT Memory` || `NGT-Memory` || 38 ||
+|| **Auto AI Router** || `Auto AI Router` || `Auto-AI-Router` || 18 ||
+|| **local-first** || `local-first` || `localfirst` || 3 ||
+|| **self-improvement** || `self-improvement` || `self-improve` || 155 ||
 || **Svyazi 2.0** || `Svyazi 2.0` || `Svyazi-2.0` || 4 ||
-|| **evidence envelope** || `Evidence Envelope` || `Evidence-Envelope` || 3 ||
+|| **evidence envelope** || `Evidence Envelope` || `Evidence-Envelope` || 17 ||
+|| **Card Envelope** || `Card Envelope` || `Card-Envelope` || 14 ||
 
-_Всего несогласованных написаний: 121_
+_Всего несогласованных написаний: 291_
 
 
 h2. Детали по файлам
 
 
+h3. {{knowledgespace}} → должно быть {{knowledge-space}}
+
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/TABLES.md}}
+* {{docs/CONSISTENCY.md}}
+
 h3. {{knowledge space}} → должно быть {{knowledge-space}}
 
-* {{docs/CONSISTENCY.md}}
 * {{docs/TABLES.md}}
+* {{docs/SITEMAP.md}}
 * {{docs/CONCEPTS.md}}
-* {{docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md}}
-* {{docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md}}
-* _...и ещё 3_
+* {{docs/CONSISTENCY.md}}
+* {{docs/OUTLINE.md}}
+* _...и ещё 11_
 
 h3. {{knowledge_space}} → должно быть {{knowledge-space}}
 
-* {{docs/CONSISTENCY.md}}
 * {{docs/TABLES.md}}
-
-h3. {{knowledgespace}} → должно быть {{knowledge-space}}
-
 * {{docs/CONSISTENCY.md}}
-* {{docs/OUTLINE.md}}
-
-h3. {{card-index}} → должно быть {{CardIndex}}
-
-* {{docs/CONSISTENCY.md}}
-* {{docs/TABLES.md}}
 
 h3. {{AI-Factory}} → должно быть {{AI Factory}}
 
-* {{docs/CONSISTENCY.md}}
-* {{docs/TABLES.md}}
+* {{docs/PARAGRAPH_QUALITY.md}}
 * {{docs/QA.md}}
-* {{docs/04-ai-collaborations/00-intro.md}}
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/LANGUAGE_STATS.md}}
+* {{docs/TABLES.md}}
+* _...и ещё 16_
 
 h3. {{NGT-Memory}} → должно быть {{NGT Memory}}
 
-* {{docs/CONSISTENCY.md}}
-* {{docs/READING_TIME.md}}
-* {{docs/TABLES.md}}
-* {{docs/PARAGRAPH_QUALITY.md}}
+* {{docs/CONTACTS.md}}
 * {{docs/FAQ.md}}
-* _...и ещё 20_
+* {{docs/PARAGRAPH_QUALITY.md}}
+* {{docs/DEPENDABOT.md}}
+* {{docs/EMPTY_SECTIONS.md}}
+* _...и ещё 33_
 
 h3. {{Auto-AI-Router}} → должно быть {{Auto AI Router}}
 
+* {{docs/PARAGRAPH_QUALITY.md}}
+* {{docs/SPELLCHECK.md}}
+* {{docs/LANGUAGE_STATS.md}}
+* {{docs/TABLES.md}}
+* {{docs/SITEMAP.md}}
+* _...и ещё 13_
+
+h3. {{localfirst}} → должно быть {{local-first}}
+
+* {{docs/TABLES.md}}
+* {{docs/CONSISTENCY.md}}
 * {{docs/OUTLINE.md}}
 
 h3. {{self-improve}} → должно быть {{self-improvement}}
 
-* {{docs/FOOTNOTES.md}}
-* {{docs/CONSISTENCY.md}}
-* {{docs/READING_TIME.md}}
-* {{docs/CONTENT_GAPS.md}}
-* {{docs/TABLES.md}}
-* _...и ещё 65_
+* {{docs/READING_LIST.md}}
+* {{docs/CONTACTS.md}}
+* {{docs/PARAGRAPH_QUALITY.md}}
+* {{docs/LLM_SUMMARIES.md}}
+* {{docs/SPELLCHECK.md}}
+* _...и ещё 150_
 
 h3. {{Svyazi-2.0}} → должно быть {{Svyazi 2.0}}
 
-* {{docs/CONSISTENCY.md}}
 * {{docs/TABLES.md}}
+* {{docs/CONSISTENCY.md}}
 * {{docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md}}
 * {{docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md}}
 
 h3. {{Evidence-Envelope}} → должно быть {{Evidence Envelope}}
 
-* {{docs/CONSISTENCY.md}}
-* {{docs/TABLES.md}}
+* {{docs/READING_LIST.md}}
+* {{docs/PARAGRAPH_QUALITY.md}}
 * {{docs/QA.md}}
+* {{docs/LANGUAGE_STATS.md}}
+* {{docs/TABLES.md}}
+* _...и ещё 12_
+
+h3. {{Card-Envelope}} → должно быть {{Card Envelope}}
+
+* {{docs/PARAGRAPH_QUALITY.md}}
+* {{docs/LANGUAGE_STATS.md}}
+* {{docs/TABLES.md}}
+* {{docs/SITEMAP.md}}
+* {{docs/READING_TIME.md}}
+* _...и ещё 9_
 
 h2. Как исправить
 
@@ -103,8 +125,8 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ----
 
 _Смотрите также:_
-* [MISSING|MISSING.md]
-* [PRIORITIES|PRIORITIES.md]
-* [STATS|STATS.md]
-* [SPELLCHECK|SPELLCHECK.md]
+* [MISSING|docs/MISSING.md]
+* [TAGS|docs/TAGS.md]
+* [STATS|docs/STATS.md]
+* [VERSION_DIFF|docs/VERSION_DIFF.md]
 

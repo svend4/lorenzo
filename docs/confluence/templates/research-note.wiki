@@ -3,6 +3,16 @@
 Дата: 2026-04-29
 {info}
 
+----
+template: research-note
+version: "1.0"
+title: "[Тема исследования]"
+created: 2026-04-29
+status: draft
+tags: [исследование]
+related: []
+----
+
 h1. [Тема исследования]
 
 
@@ -35,14 +45,3 @@ h2. Следующие шаги
 
 ----
 _Создано: 2026-04-29_
-
-
-
-----
-
-_Смотрите также:_
-* [research-summary|../autofilled/research-summary.md]
-* [contact-outreach|contact-outreach.md]
-* [vladspace|../contacts/vladspace.md]
-* [cutcode|../contacts/cutcode.md]
-

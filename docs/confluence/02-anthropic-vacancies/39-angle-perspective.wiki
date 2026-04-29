@@ -16,14 +16,14 @@ h1. Angle / Perspective
 
 h2. Angle / Perspective
 
-_Methodological_ — {{info1}} смотрит на концепты _с позиции применения_. 
-На вопрос «что такое кристалл» {{info1}} отвечает не определением 
-(это делает {{pro2}}) и не символической интерпретацией (это делает 
+_Methodological_ — {{[info1|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}} смотрит на концепты _с позиции применения_. 
+На вопрос «что такое кристалл» {{[info1|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}} отвечает не определением 
+(это делает {{[pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}}) и не символической интерпретацией (это делает 
 {{meta}}), а описанием методов работы с кристаллами, алгоритмов их 
 идентификации, формул их свойств.
 
-Это дополнительный, не заменяющий взгляд. Консенсус между {{info1}}, 
-{{pro2}}, {{meta}} по одному концепту даёт триангулированное понимание: 
+Это дополнительный, не заменяющий взгляд. Консенсус между {{[info1|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}}, 
+{{[pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}}, {{meta}} по одному концепту даёт триангулированное понимание: 
 _как применять × что значит × как символически устроено_.
 
 ----
@@ -51,9 +51,28 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [Angle / Perspective|13-angle-perspective.md]
+* [Angle / Perspective|49-angle-perspective.md]
+* [Angle / Perspective|59-angle-perspective.md]
+* [Essence|36-essence.md]
+* [Essence|46-essence.md]
+* [Essence|56-essence.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Angle / Perspective|59-angle-perspective.md] _48%_
+* [passports/pro2.md|45-passports-pro2-md.md] _37%_
+* [passports/meta.md|55-passports-meta-md.md] _37%_
+* [Essence|36-essence.md] _33%_
+* [Angle / Perspective|49-angle-perspective.md] _33%_
+* [passports/info1.md|35-passports-info1-md.md] _29%_
+* [Essence|46-essence.md] _29%_
+* [Essence|56-essence.md] _29%_
 h2. Связанные документы
 
 * [Angle / Perspective|49-angle-perspective.md] _42%_

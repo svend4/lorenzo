@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 7. Phased Rollout Plan
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Phased Rollout Plan - Establish legal entity (non-profit foundation in Germany or --- Содержание - 7.
+> 🔧 **Подход:** Secondary institutions emerge following OKWF methodology with domain-specific focus (OKWF Medical, OKWF Education, OKWF Legal, etc.).
+> 🏷️ **Ключевые слова:** `phase`, `funding`, `months`, `phased`, `rollout`, `foundation`, `infrastructure`, `contributors`
+>
+
+
 <!-- summary -->
 > - Establish legal entity (non-profit foundation in Germany or
 
@@ -166,9 +175,23 @@ qualified individuals regardless of traditional constraints.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[180-11-call-for-collaboration|11. Call for Collaboration]]
+- [[159-5-economic-model|5. Economic Model]]
+- [[160-6-governance-and-ethics|6. Governance and Ethics]]
+- [[162-8-risk-analysis|8. Risk Analysis]]
+- [[163-9-call-for-partnership|9. Call for Partnership]]
+- [[178-9-phased-rollout-strategy|9. Phased Rollout Strategy]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[159-5-economic-model|5. Economic Model]] _29%_
+- [[178-9-phased-rollout-strategy|9. Phased Rollout Strategy]] _29%_
+- [[163-9-call-for-partnership|9. Call for Partnership]] _21%_
 ## Связанные документы
 
 - [[178-9-phased-rollout-strategy|9. Phased Rollout Strategy]] _29%_

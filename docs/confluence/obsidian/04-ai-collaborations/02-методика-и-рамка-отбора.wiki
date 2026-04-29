@@ -23,8 +23,7 @@ h1. Методика и рамка отбора
 >
 {quote}🎯 _Проблема:_ Методика и рамка отбора Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 !TIP Этот документ опи{quote}
 {quote}🔧 _Подход:_ Методика и рамка отбора Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 !TIP Этот документ опи{quote}
-{quote}✅ _Результат:_ citeturn20view5turn20view6turn34view2turn34view3turn39view1turn39view0turn20view10turn20view18 --- Похожие документы: - 02-methodology(docs/01-svyazi/02-methodology.md) ({quote}
-{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{summary}}, {{collaborations}}, {{executive}}, {{methodology}}, {{поиск}}, {{первичный}}, {{conclusions}}{quote}
+{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{summary}}, {{первичный}}, {{methodology}}, {{executive}}, {{репозитории}}, {{лицензии}}, {{зрелости}}{quote}
 >
 
 
@@ -48,7 +47,7 @@ _Обновлено: 2026-04-29_
 
 
 {quote}Поиск вёлся с приоритетом на _Хабр как первичный слой описания идеи_ и на _репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса_. В выборку включались только {quote}
-_Проекты:_ Svyazi[^svyazi], LiteParse, Legal RAG[^rag], Graph RAG
+_Проекты:_ Svyazi[^svyazi], [[01-executive-summary|LiteParse]], Legal RAG[^rag], Graph RAG
 
 ----
 
@@ -69,7 +68,7 @@ h2. Методика и рамка отбора
 ----
 
 _Похожие документы:_
-* [[02-methodology]] (сходство 0.74)
+* [[00-intro-part2|02-methodology]]/02-methodology.md) (сходство 0.74)
 * [[01-executive-summary]] (сходство 0.11)
 
 
@@ -78,10 +77,10 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [[02-methodology]]
+* [[00-intro-part2|02-methodology]]/02-methodology.md)
 * [[01-executive-summary]]
 * [[DUPLICATES]]
-* [[08-conclusions]]
+* [[00-intro-part2|08-conclusions]]/08-conclusions.md)
 
 
 
@@ -92,19 +91,3 @@ _Смотрите также:_
 [^rag]: Retrieval-Augmented Generation — генерация с поиском
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-
-h2. Упоминается в
-
-* [[README|Поиск AI-коллабораций]]
-
-
-h2. Связанные документы
-
-* [[02-methodology|Методика и рамка отбора проектов]] _37%_
-* [[08-что-это-продолжение-добавляет|Что это продолжение добавляет]] _25%_
-* [[08-conclusions|08 Conclusions]] _21%_
-* [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md) _21%_
-* [[01-executive-summary|Executive summary]] _21%_
-* [[07-выводы|Выводы]] _21%_
-* [[README|Поиск AI-коллабораций]] _17%_

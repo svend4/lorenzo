@@ -1,7 +1,6 @@
 ---
 title: "Твоя коммуникация в outreach"
 tags:
-  - anthropic
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,8 +11,6 @@ date: 2026-04-29
 > Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 
 ---
-<!-- tags: anthropic -->
-
 
 
 
@@ -39,18 +36,11 @@ date: 2026-04-29
 **Transparency disclosure**:
 > «Этот message был drafted мной (Lorenzo) автономно, но Макс review'ил его перед отправкой. Все commitments require Max approval.»
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[347-твоя-миссия]]
-- [[360-что-ты-всегда-делаешь]]
-- [[346-твоё-происхождение]]
-- [[356-твой-workflow]]
+- [[13-outreach-communication]]
+- [[04-q4-character]]
 

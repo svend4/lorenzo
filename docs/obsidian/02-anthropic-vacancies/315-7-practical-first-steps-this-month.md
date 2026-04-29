@@ -1,29 +1,23 @@
 ---
 title: "7. Practical First Steps This Month"
 tags:
-  - architecture
   - anthropic
   - anthropic-vacancies
 date: 2026-04-29
 ---
 
 # 7. Practical First Steps This Month
+<!-- tags: anthropic -->
 
-<!-- toc -->
-## Содержание
 
-- [Contents](#contents)
-- [7. Practical First Steps This Month](#7-practical-first-steps-this-month)
-  - [7.1. This Week](#71-this-week)
-  - [7.2. This Month](#72-this-month)
-  - [7.3. Next Quarter](#73-next-quarter)
-  - [7.4. Specific Test Case: This Document Series](#74-specific-test-case-this-document-series)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
-
-<!-- tags: architecture, anthropic -->
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** If problems emerge, they reveal what InGit needs to address.
+> 🔧 **Подход:** Action 3: Sketch initial MCP server design.
+> ✅ **Результат:** Specific Test Case: This Document Series The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7) provide an ideal first test case.
+> 🏷️ **Ключевые слова:** `ingit`, `cowork`, `action`, `month`, `anthropic`, `vacancies`, `practical`, `first`
+>
 
 
 <!-- toc-auto -->
@@ -122,7 +116,7 @@ work. Most successful infrastructure projects start this way.
 
 **Похожие документы:**
 - [[313-5-four-integration-paths-in-order-of-accessibility]] (сходство 0.14)
-- [[314-6-refined-ingit-scope-with-cowork-in-mind]] (сходство 0.12)
+- [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
 - [[280-the-specific-case-in-front-of-us]] (сходство 0.12)
 
 
@@ -131,24 +125,8 @@ work. Most successful infrastructure projects start this way.
 ---
 
 **Смотрите также:**
-- [[314-6-refined-ingit-scope-with-cowork-in-mind]]
+- [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [[313-5-four-integration-paths-in-order-of-accessibility]]
 - [[308-table-of-contents]]
 - [[284-practical-recommendations-for-the-current-project]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _33%_
-- [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _29%_
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|2. What Cowork Provides That InGit Doesn't Need to Build]] _29%_
-- [[313-5-four-integration-paths-in-order-of-accessibility|5. Four Integration Paths in Order of Accessibility]] _29%_
-- [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] _29%_
-- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] _25%_
-- [[307-abstract|Abstract]] _25%_
-- [[311-3-what-ingit-provides-that-cowork-lacks|3. What InGit Provides That Cowork Lacks]] _25%_

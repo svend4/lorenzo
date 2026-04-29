@@ -8,6 +8,16 @@ date: 2026-04-29
 
 # 2. What Makes a Professional Colleague Agent
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The practitioner does not need to re-explain professional context with each interaction.
+> 🔧 **Подход:** The agent has deep, persistent knowledge of professional norms, methodologies, regulations, vocabulary, and templates.
+> ✅ **Результат:** Provide rapid access to professional knowledge bases — case law, clinical literature, methodological references, regulatory updates.
+> 🏷️ **Ключевые слова:** `professional`, `agent`, `colleague`, `practitioner`, `agents`, `anthropic`, `vacancies`, `property`
+>
+
+
 <!-- summary -->
 > We now develop Type 1 in detail.
 
@@ -179,9 +189,35 @@ to discuss work with."
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]]
+- [[221-10-open-questions|10. Open Questions]]
+- [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]]
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]]
+- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]]
+- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]]
+- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]]
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]]
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]]
+- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]]
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]]
+- [[211-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[345-кто-ты|Кто ты]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[211-table-of-contents|Table of Contents]] _60%_
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _53%_
+- [[210-abstract|Abstract]] _42%_
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _42%_
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _37%_
+- [[223-12-closing|12. Closing]] _33%_
+- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _29%_
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _29%_
 ## Связанные документы
 
 - [[211-table-of-contents|Table of Contents]] _42%_

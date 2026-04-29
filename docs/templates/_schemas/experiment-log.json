@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "experiment-log",
+  "description": "Журнал эксперимента: гипотеза, метод, журнал, результат, выводы",
+  "type": "object",
+  "required": ["template", "version", "experiment_id", "title", "hypothesis", "status"],
+  "properties": {
+    "template": {"const": "experiment-log"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "experiment_id": {"type": "string", "pattern": "^EXP-\\d{4}$"},
+    "title": {"type": "string", "minLength": 3},
+    "hypothesis": {"type": "string", "minLength": 10},
+    "status": {"enum": ["planned", "running", "paused", "finished", "abandoned"]},
+    "started": {"type": ["string", "null"], "format": "date"},
+    "ended": {"type": ["string", "null"], "format": "date"},
+    "result": {"enum": ["pending", "confirmed", "rejected", "inconclusive"]},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Гипотеза", "Зачем", "Метод", "Журнал", "Результат", "Выводы"]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "contact-outreach",
+  "description": "Контактный файл автора OSS-проекта: профиль, статус связи, первое сообщение",
+  "type": "object",
+  "required": ["template", "version", "author", "status"],
+  "properties": {
+    "template": {"const": "contact-outreach"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "author": {"type": "string", "minLength": 1},
+    "author_handle": {"type": ["string", "null"]},
+    "projects": {"type": "array", "items": {"type": "string"}},
+    "platform": {"enum": ["Habr", "GitHub", "Telegram", "Email", "Discord"]},
+    "status": {"enum": ["not_started", "studied", "messaged", "replied", "agreed", "declined"]},
+    "priority": {"type": "integer", "minimum": 1, "maximum": 5},
+    "created": {"type": "string", "format": "date"},
+    "last_contact": {"type": ["string", "null"], "format": "date"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Профиль", "Статус связи", "Первое сообщение"]
+}

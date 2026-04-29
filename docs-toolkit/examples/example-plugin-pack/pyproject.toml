@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docstoolkit-example"
+version = "0.1.0"
+description = "Example plugin pack для docs-toolkit"
+requires-python = ">=3.10"
+dependencies = ["docs-toolkit>=0.1.0"]
+
+[project.entry-points."docstoolkit.ingest"]
+csv = "docstoolkit_example.ingest_csv:ingest"
+
+[project.entry-points."docstoolkit.embeddings"]
+random = "docstoolkit_example.embeddings_random:RandomProvider"
+
+# skills и templates как пути к директориям пакета
+[project.entry-points."docstoolkit.skills"]
+example = "docstoolkit_example.skills:get_path"
+
+[project.entry-points."docstoolkit.templates"]
+example = "docstoolkit_example.templates:get_paths"
+
+[tool.setuptools.packages.find]
+include = ["docstoolkit_example*"]

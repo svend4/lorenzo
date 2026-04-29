@@ -50,9 +50,24 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [13. REST API Contract (Normative for Portals)|88-13-rest-api-contract-normative-for-portals.md]
+* [16. MCP Extension (Informative)|91-16-mcp-extension-informative.md]
+* [Appendix B: Change Log|103-appendix-b-change-log.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [Ограничения текущей версии (0.1.0-draft)|131-ограничения-текущей-версии-0-1-0-draft.md]
+* [Примеры запросов (в Claude)|129-примеры-запросов-в-claude.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [16. MCP Extension (Informative)|91-16-mcp-extension-informative.md] _37%_
+* [Примеры запросов (в Claude)|129-примеры-запросов-в-claude.md] _33%_
+* [Appendix B: Change Log|103-appendix-b-change-log.md] _21%_
+* [Ограничения текущей версии (0.1.0-draft)|131-ограничения-текущей-версии-0-1-0-draft.md] _21%_
+* [13. REST API Contract (Normative for Portals)|88-13-rest-api-contract-normative-for-portals.md] _17%_
 h2. Связанные документы
 
 * [Примеры запросов (в Claude)|129-примеры-запросов-в-claude.md] _48%_

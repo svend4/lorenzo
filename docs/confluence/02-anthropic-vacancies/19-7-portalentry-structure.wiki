@@ -7,6 +7,15 @@ h1. 7. PortalEntry Structure
 
 
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+{quote}🔧 _Подход:_ PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+{quote}🏷️ _Ключевые слова:_ {{portalentry}}, {{structure}}, {{anthropic}}, {{vacancies}}, {{данных}}, {{registry}}, {{summary}}, {{унифицированная}}{quote}
+>
+
+
 {quote}[!IMPORTANT]{quote}
 {quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.{quote}
 
@@ -56,7 +65,7 @@ h3. 7.1. Field Semantics
 ----
 
 _Похожие документы:_
-* [82-7-portalentry-structure|82-7-portalentry-structure.md] (сходство 0.25)
+* [82-7-portalentry-structure|docs/02-anthropic-vacancies/82-7-portalentry-structure.md] (сходство 0.25)
 
 
 
@@ -64,24 +73,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [82-7-portalentry-structure|82-7-portalentry-structure.md]
-* [123-portal-mcp-py|123-portal-mcp-py.md]
-* [08-3-registry-nautilus-json|08-3-registry-nautilus-json.md]
-* [81-6-adapter-interface|81-6-adapter-interface.md]
+* [82-7-portalentry-structure|docs/02-anthropic-vacancies/82-7-portalentry-structure.md]
+* [123-portal-mcp-py|docs/02-anthropic-vacancies/123-portal-mcp-py.md]
+* [08-3-registry-[nautilus|../docs/05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+* [81-6-adapter-interface|docs/02-anthropic-vacancies/81-6-adapter-interface.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [7. PortalEntry Structure|82-7-portalentry-structure.md] _42%_
-* [3. Registry ({{nautilus.json}})|08-3-registry-nautilus-json.md] _29%_
-* [2. Terminology|77-2-terminology.md] _29%_
-* [3. Registry ({{nautilus.json}})|78-3-registry-nautilus-json.md] _29%_
-* [2. Terminology|07-2-terminology.md] _21%_
-* [6. Adapter Interface|18-6-adapter-interface.md] _21%_
-* [⬡|69-section.md] _21%_
-* [Abstract|74-abstract.md] _21%_

@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 4. Passport (`passport.md`)
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Passport (passport.md)(4-passport-passportmd) - 4.1.
+> ✅ **Результат:** Recommended Sections Passport SHOULD содержать разделы: - Описание — 2-3 предложения о содержании Repo - Объём — количество единиц, связей - Q6-отображение — правило проекции на 6-
+> 🏷️ **Ключевые слова:** `passport`, `registry`, `nautilus`, `anthropic`, `vacancies`, `structure`, `schema`, `passports`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -79,7 +88,7 @@ Portal SHOULD предоставлять команду валидации:
 - Passport-файлы именуются `passports/<format>.md`, не 
   `passports/<repo-name>.md`
 - Причина: один format может обслуживаться несколькими репо 
-  (например, domain-sub-adapters в рамках pro2), но passport — 
+  (например, domain-sub-adapters в рамках [[01-интегральный-анализ-профиля-svend4|pro2]]), но passport — 
   один на format
 
 ---
@@ -90,8 +99,8 @@ Portal SHOULD предоставлять команду валидации:
 
 **Похожие документы:**
 - [[09-4-passport-passport-md]] (сходство 0.24)
-- [[78-3-registry-nautilus-json]] (сходство 0.13)
-- [[08-3-registry-nautilus-json]] (сходство 0.13)
+- [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
+- [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -100,23 +109,7 @@ Portal SHOULD предоставлять команду валидации:
 
 **Смотрите также:**
 - [[09-4-passport-passport-md]]
-- [[08-3-registry-nautilus-json]]
-- [[78-3-registry-nautilus-json]]
+- [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [[82-7-portalentry-structure]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[08-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _37%_
-- [[78-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _37%_
-- [[07-2-terminology|2. Terminology]] _29%_
-- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _29%_
-- [[77-2-terminology|2. Terminology]] _29%_
-- [[82-7-portalentry-structure|7. PortalEntry Structure]] _25%_
-- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _25%_
-- [[19-7-portalentry-structure|7. PortalEntry Structure]] _21%_

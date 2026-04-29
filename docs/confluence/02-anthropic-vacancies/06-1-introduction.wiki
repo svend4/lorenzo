@@ -6,6 +6,15 @@
 h1. 1. Introduction
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла {quote}
+{quote}🔧 _Подход:_ Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре, что уменьшает выразительность.{quote}
+{quote}🏷️ _Ключевые слова:_ {{introduction}}, {{goals}}, {{anthropic}}, {{vacancies}}, {{проекте}}, {{federation}}, {{merging}}, {{motivation}}{quote}
+>
+
+
+
 h2. Contents
 
 * [1. Introduction|#1-introduction]
@@ -83,8 +92,8 @@ _MUST_, _MUST NOT_, _SHOULD_, _MAY_, _REQUIRED_, _RECOMMENDED_
 ----
 
 _Похожие документы:_
-* [76-1-introduction|76-1-introduction.md] (сходство 0.53)
-* [67-о-проекте|67-о-проекте.md] (сходство 0.12)
+* [76-1-introduction|docs/02-anthropic-vacancies/76-1-introduction.md] (сходство 0.53)
+* [67-о-проекте|docs/02-anthropic-vacancies/67-о-проекте.md] (сходство 0.12)
 
 
 
@@ -92,23 +101,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [76-1-introduction|76-1-introduction.md]
-* [67-о-проекте|67-о-проекте.md]
-* [26-14-adr-001-federation-over-merging|26-14-adr-001-federation-over-merging.md]
-* [94-19-adr-001-federation-over-merging|94-19-adr-001-federation-over-merging.md]
+* [76-1-introduction|docs/02-anthropic-vacancies/76-1-introduction.md]
+* [67-о-проекте|docs/02-anthropic-vacancies/67-о-проекте.md]
+* [26-14-adr-001-federation-over-merging|docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md]
+* [94-19-adr-001-federation-over-merging|docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [1. Introduction|76-1-introduction.md] _53%_
-* [14. ADR-001: Federation over Merging|26-14-adr-001-federation-over-merging.md] _21%_
-* [🇷🇺 О проекте|67-о-проекте.md] _17%_
-* [2. Terminology|77-2-terminology.md] _17%_
-* [19. ADR-001: Federation over Merging|94-19-adr-001-federation-over-merging.md] _17%_
-* [20. ADR-002: Q6 as First-Class Protocol Concept|95-20-adr-002-q6-as-first-class-protocol-concept.md] _17%_
-* [21. ADR-003: Five Onboarding Paths as Equal-Rank|96-21-adr-003-five-onboarding-paths-as-equal-rank.md] _17%_

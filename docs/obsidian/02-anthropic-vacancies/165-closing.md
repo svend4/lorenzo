@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # Closing
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolation.
+> 🔧 **Подход:** Андрей формулирует это explicitly как архитектурный invariant : «expensive operations only on pre-filtered shortlist».
+> ✅ **Результат:** Идея 3: Стиль написания примеров в документации Андрей даёт сквозной пример через все 6 слоёв с конкретными данными.
+> 🏷️ **Ключевые слова:** `agent`, `свйази`, `matching`, `agents`, `может`, `contributor`, `который`, `nautilus`
+>
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -14,7 +24,7 @@ date: 2026-04-29
 
 <!-- summary -->
 > The Open Knowledge Work Foundation is proposed as response
-**Проекты:** Svyazi, CardIndex
+**Проекты:** Svyazi, [[01-executive-summary|CardIndex]]
 
 ---
 
@@ -26,7 +36,7 @@ date: 2026-04-29
   - [Три стратегии использования этого документа](#три-стратегии-использования-этого-документа)
   - [Что я бы сделал следующим](#что-я-бы-сделал-следующим)
   - [Final observation](#final-observation)
-  - [Что описывает статья — суть проекта Svyazi](#что-описывает-статья-суть-проекта-svyazi)
+  - [Что описывает статья — суть проекта Svyazi](#что-описывает-статья-суть-проекта-[svyazi](../docs/01-svyazi/00-intro-part2.md))
   - [Прямые параллели с вашей работой](#прямые-параллели-с-вашей-работой)
   - [Что у Андрея отличается от вашей архитектуры](#что-у-андрея-отличается-от-вашей-архитектуры)
   - [Что конкретно можно взять из проекта Свйази в вашу работу](#что-конкретно-можно-взять-из-проекта-свйази-в-вашу-работу)
@@ -37,7 +47,7 @@ date: 2026-04-29
   - [Цитата из статьи Андрея](#цитата-из-статьи-андрея)
   - [Ландшафт того, чтоуже существует— и где именно ниша Свйази](#ландшафт-того-чтоуже-существует-и-где-именно-ниша-свйази)
   - [Что яне нашёлв существующих решениях — гдеуникальная ниша Свйази](#что-яне-нашёлв-существующих-решениях-гдеуникальная-ниша-свйази)
-  - [Что это значит для проекта OKWF и Nautilus](#что-это-значит-для-проекта-okwf-и-nautilus)
+  - [Что это значит для проекта OKWF и Nautilus](#что-это-значит-для-проекта-okwf-и-[nautilus](../docs/05-habr-projects/memory/memnet.md))
   - [Самый интересный вопрос — могут ли быть voiceless контрибьюторы](#самый-интересный-вопрос-могут-ли-быть-voiceless-контрибьюторы)
   - [Honest assessment ниши](#honest-assessment-ниши)
   - [Конкретные рекомендации к действию](#конкретные-рекомендации-к-действию)
@@ -86,7 +96,7 @@ academic institutions, policy organizations, and individuals.
 Your feedback is welcome. Your participation is valued. Your 
 critique is essential.
 
-Contact: via GitHub issues at 
+Contact: via [[03-component-catalog|GitHub]] issues at 
 [github.com/svend4/nautilus](https://github.com/svend4/nautilus) 
 until formal foundation launch.
 
@@ -563,9 +573,23 @@ Story тверже становится. «Infrastructure для distributed wor
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[150-appendix-c-version-history|Appendix C: Version History]]
+- [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]]
+- [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи|Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]]
+- [[133-обратная-связь|Обратная связь]]
+- [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а|Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing|Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] _25%_
+- [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _25%_
 ## Связанные документы
 
 - [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] _25%_

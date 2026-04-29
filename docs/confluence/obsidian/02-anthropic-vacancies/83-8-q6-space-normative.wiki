@@ -6,15 +6,26 @@
 ----
 title: "8. Q6 Space (Normative)"
 tags:
+  * memory
   * ingestion
   * architecture
   * anthropic
+  * collaboration
   * anthropic-vacancies
 date: 2026-04-29
 ----
 
 h1. 8. Q6 Space (Normative)
 
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Это не обязательно, но RECOMMENDED для экосистем, интегрирующих symbolic и dynamical angles: - Class I (стационарные) — стабильные концепты (базовые алгоритмы, определения) - Class{quote}
+{quote}🔧 _Подход:_ CA-Class Mapping (Informative)(85-ca-class-mapping-informative) !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+{quote}🏷️ _Ключевые слова:_ {{class}}, {{mapping}}, {{level}}, {{portalentry}}, {{anthropic}}, {{vacancies}}, {{space}}, {{normative}}{quote}
+>
 
 
 
@@ -51,7 +62,7 @@ Q6 — 6-мерное бинарное пространство {0,1}⁶. Сод
 h3. 8.2. Mandatory for Level 2+
 
 Адаптеры Level 2 и выше MUST обеспечивать Q6-координату в каждом 
-PortalEntry через {{metadata["q6"]}}.
+[[01-интегральный-анализ-профиля-svend4|PortalEntry]] через {{metadata["q6"]}}.
 
 h3. 8.3. Q6 Mapping Rules
 
@@ -133,22 +144,6 @@ _Похожие документы:_
 _Смотрите также:_
 * [[95-20-adr-002-q6-as-first-class-protocol-concept]]
 * [[82-7-portalentry-structure]]
-* [[08-3-registry-nautilus-json]]
+* [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 * [[19-7-portalentry-structure]]
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[95-20-adr-002-q6-as-first-class-protocol-concept|20. ADR-002: Q6 as First-Class Protocol Concept]] _37%_
-* [[103-appendix-b-change-log|Appendix B: Change Log]] _21%_
-* [[26-14-adr-001-federation-over-merging|14. ADR-001: Federation over Merging]] _21%_
-* [[40-bridges|Bridges]] _21%_
-* [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-Rank]] _21%_
-* [[08-3-registry-nautilus-json|3. Registry ({{nautilus.json}})]] _17%_
-* [[18-6-adapter-interface|6. Adapter Interface]] _17%_
-* [[60-bridges|Bridges]] _17%_

@@ -14,6 +14,15 @@ date: 2026-04-29
 h1. 11. Call for Collaboration
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Pilot partnerships allow the technology to develop in service of actual need rather than imagined need.{quote}
+{quote}🔧 _Подход:_ Your needs should drive design decisions.{quote}
+{quote}🏷️ _Ключевые слова:_ {{collaboration}}, {{organizations}}, {{invite}}, {{anthropic}}, {{vacancies}}, {{social}}, {{critics}}, {{researchers}}{quote}
+>
+
+
+
 h2. Contents
 
 * [11. Call for Collaboration|#11-call-for-collaboration]
@@ -119,15 +128,3 @@ _Смотрите также:_
 * [[223-12-closing]]
 * [[168-abstract]]
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[222-11-call-for-collaboration|11. Call for Collaboration]] _21%_
-* [[161-7-phased-rollout-plan|7. Phased Rollout Plan]] _17%_
-* [[178-9-phased-rollout-strategy|9. Phased Rollout Strategy]] _17%_
-* [[265-12-call-for-collaboration|12. Call for Collaboration]] _17%_

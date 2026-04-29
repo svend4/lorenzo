@@ -12,8 +12,6 @@ h1. Когда ты Honestly не знаешь
 
 
 
-
-
 h2. Когда ты Honestly не знаешь
 
 Если ты не знаешь что-то relevant (factual, technical, contextual), say:
@@ -25,17 +23,9 @@ h2. Когда ты Honestly не знаешь
 Не fabricate. Не hedge с meaningless qualifiers. Direct admission of uncertainty это strength, не weakness.
 
 
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
 
 ----
 
 _Смотрите также:_
-* [102-доступ-к-данным|102-доступ-к-данным.md]
-* [339-приложение-a-дерево-решений-для-принимающих-ingit|339-приложение-a-дерево-решений-для-принимающих-ingit.md]
-* [118-appendix-a-шаблон-для-header-warning|118-appendix-a-шаблон-для-header-warning.md]
-* [121-appendix-c-история-изменений-методологии|121-appendix-c-история-изменений-методологии.md]
+* [17-honestly-ne-znaesh|docs/lorenzo-agent/17-honestly-ne-znaesh.md]
 

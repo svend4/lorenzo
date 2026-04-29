@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "risk-entry",
+  "description": "Запись риска: вероятность, влияние, митигация",
+  "type": "object",
+  "required": ["template", "version", "risk_id", "title", "probability", "impact", "status"],
+  "properties": {
+    "template": {"const": "risk-entry"},
+    "version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "risk_id": {"type": "string", "pattern": "^RISK-\\d{4}$"},
+    "title": {"type": "string", "minLength": 3},
+    "probability": {"enum": ["low", "medium", "high", "certain"]},
+    "impact": {"enum": ["low", "medium", "high", "critical"]},
+    "risk_score": {"type": "integer", "minimum": 0, "maximum": 25},
+    "status": {"enum": ["identified", "mitigating", "accepted", "transferred", "closed"]},
+    "owner": {"type": "string"},
+    "created": {"type": "string", "format": "date"},
+    "review_due": {"type": ["string", "null"], "format": "date"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "required_sections": ["Описание", "Сценарий реализации", "Оценка", "Митигация"]
+}

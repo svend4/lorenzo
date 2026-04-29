@@ -6,59 +6,59 @@
 
 | Пара | Общих файлов |
 |------|-------------|
-| **Cowork** ↔ **ingit** | 138 |
-| **Svyazi** ↔ **Yodoca** | 123 |
-| **Svyazi** ↔ **CardIndex** | 119 |
-| **Svyazi** ↔ **NGT** | 117 |
-| **Yodoca** ↔ **NGT** | 102 |
-| **Svyazi** ↔ **AgentFS** | 90 |
-| **Svyazi** ↔ **MemNet** | 88 |
-| **Svyazi** ↔ **knowledge-space** | 85 |
-| **CardIndex** ↔ **NGT** | 82 |
-| **Svyazi** ↔ **mclaude** | 80 |
-| **CardIndex** ↔ **Yodoca** | 78 |
-| **AgentFS** ↔ **NGT** | 78 |
-| **Svyazi** ↔ **Rufler** | 76 |
-| **AgentFS** ↔ **Yodoca** | 75 |
-| **CardIndex** ↔ **AgentFS** | 74 |
-| **Svyazi** ↔ **AI Factory** | 72 |
-| **Svyazi** ↔ **LiteParse** | 72 |
-| **AgentFS** ↔ **knowledge-space** | 70 |
-| **NGT** ↔ **knowledge-space** | 67 |
-| **Yodoca** ↔ **knowledge-space** | 66 |
+| **Cowork** ↔ **ingit** | 135 |
+| **Svyazi** ↔ **Yodoca** | 122 |
+| **Svyazi** ↔ **CardIndex** | 116 |
+| **Svyazi** ↔ **NGT** | 116 |
+| **Yodoca** ↔ **NGT** | 101 |
+| **Svyazi** ↔ **AgentFS** | 89 |
+| **Svyazi** ↔ **MemNet** | 89 |
+| **Svyazi** ↔ **knowledge-space** | 83 |
+| **CardIndex** ↔ **NGT** | 83 |
+| **Svyazi** ↔ **mclaude** | 81 |
+| **CardIndex** ↔ **Yodoca** | 80 |
+| **AgentFS** ↔ **NGT** | 79 |
+| **Svyazi** ↔ **Rufler** | 78 |
+| **AgentFS** ↔ **Yodoca** | 77 |
+| **CardIndex** ↔ **AgentFS** | 76 |
+| **Svyazi** ↔ **LiteParse** | 74 |
+| **AgentFS** ↔ **knowledge-space** | 72 |
+| **Svyazi** ↔ **AI Factory** | 69 |
+| **Yodoca** ↔ **mclaude** | 69 |
+| **Yodoca** ↔ **knowledge-space** | 68 |
 
 ## Центральность узлов (влиятельность)
 
 | Узел | Балл центральности | Тип |
 |------|--------------------|-----|
-| **Svyazi** | 1347 | 📦 Проект |
-| **NGT** | 1041 | 📦 Проект |
-| **Yodoca** | 1014 | 📦 Проект |
-| **CardIndex** | 949 | 📦 Проект |
-| **AgentFS** | 894 | 📦 Проект |
-| **knowledge-space** | 848 | 📦 Проект |
-| **mclaude** | 756 | 📦 Проект |
-| **Rufler** | 749 | 📦 Проект |
-| **MemNet** | 721 | 📦 Проект |
-| **LiteParse** | 717 | 📦 Проект |
-| **AI Factory** | 689 | 📦 Проект |
-| **SENTINEL** | 607 | 📦 Проект |
-| **Lorenzo (svend4)** | 573 | 👤 Автор |
-| **Cowork** | 558 | 📦 Проект |
-| **ingit** | 522 | 📦 Проект |
-| **Андрей (kksudo)** | 506 | 👤 Автор |
-| **Lorenzo** | 495 | 📦 Проект |
-| **Виталий (spbmolot)** | 467 | 👤 Автор |
-| **Wikontic** | 395 | 📦 Проект |
+| **Svyazi** | 1348 | 📦 Проект |
+| **NGT** | 1050 | 📦 Проект |
+| **Yodoca** | 1036 | 📦 Проект |
+| **CardIndex** | 980 | 📦 Проект |
+| **AgentFS** | 928 | 📦 Проект |
+| **knowledge-space** | 878 | 📦 Проект |
+| **Rufler** | 801 | 📦 Проект |
+| **mclaude** | 800 | 📦 Проект |
+| **MemNet** | 779 | 📦 Проект |
+| **LiteParse** | 776 | 📦 Проект |
+| **AI Factory** | 677 | 📦 Проект |
+| **SENTINEL** | 630 | 📦 Проект |
+| **Lorenzo (svend4)** | 591 | 👤 Автор |
+| **Cowork** | 551 | 📦 Проект |
+| **Андрей (kksudo)** | 549 | 👤 Автор |
+| **Lorenzo** | 547 | 📦 Проект |
+| **ingit** | 530 | 📦 Проект |
+| **Виталий (spbmolot)** | 498 | 👤 Автор |
+| **Wikontic** | 405 | 📦 Проект |
 | **Firecrawl** | 182 | 📦 Проект |
 
 ## Авторы ↔ Проекты
 
-**Андрей (kksudo)** → **Svyazi** (45), **AgentFS** (38), **knowledge-space** (37), **Yodoca** (35), **NGT** (35), **CardIndex** (32), **mclaude** (26), **LiteParse** (25)
+**Андрей (kksudo)** → **Svyazi** (48), **AgentFS** (41), **knowledge-space** (40), **Yodoca** (37), **NGT** (36), **CardIndex** (35), **LiteParse** (29), **MemNet** (29)
 
-**Виталий (spbmolot)** → **Svyazi** (44), **NGT** (36), **Yodoca** (34), **AgentFS** (33), **knowledge-space** (33), **CardIndex** (29), **LiteParse** (22), **mclaude** (22)
+**Виталий (spbmolot)** → **Svyazi** (48), **knowledge-space** (36), **AgentFS** (35), **Yodoca** (35), **NGT** (35), **CardIndex** (32), **LiteParse** (25), **MemNet** (25)
 
-**Lorenzo (svend4)** → **Svyazi** (65), **MemNet** (61), **Cowork** (61), **ingit** (51), **NGT** (37), **Lorenzo** (35), **CardIndex** (33), **Yodoca** (29)
+**Lorenzo (svend4)** → **Svyazi** (63), **MemNet** (61), **Cowork** (60), **ingit** (52), **Lorenzo** (37), **CardIndex** (35), **NGT** (35), **knowledge-space** (30)
 
 
 <!-- see-also -->
@@ -66,8 +66,8 @@
 ---
 
 **Смотрите также:**
-- [ENTITIES](docs/ENTITIES.md)
 - [GRAPH](docs/GRAPH.md)
+- [ENTITIES](docs/ENTITIES.md)
 - [GLOSSARY](docs/GLOSSARY.md)
 - [MINDMAP](docs/MINDMAP.md)
 

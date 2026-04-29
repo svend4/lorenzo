@@ -16,7 +16,7 @@ h1. Контакт: AnastasiyaW / knowledge-space, mclaude
 
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, AgentFS, knowledge-space, mclaude, LiteParse, NGT Memory, SENTINEL, Auto AI Router
+_Проекты:_ Svyazi, knowledge-space, mclaude
 
 ----
 
@@ -75,29 +75,22 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Упоминается в
 
-* [[CONTACT_PRIORITY|Приоритет контактов]]
+----
 
+_Похожие документы:_
+* [[sonia-black]] (сходство 0.74)
+* [[zodigancode]] (сходство 0.67)
+* [[cutcode]] (сходство 0.67)
 
-h2. Связанные документы
-
-* [[sonia-black|Контакт: Sonia_Black / knowledge-space]] _73%_
-* [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] _60%_
-* [[cutcode|Контакт: Cutcode / AIF Handoff]] _60%_
-* [[dmitriila|Контакт: Dmitriila / SENTINEL]] _60%_
-* [[kksudo|Контакт: kksudo / AgentFS]] _60%_
-* [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _60%_
-* [[nlaik|Контакт: nlaik / LiteParse / research-docs]] _60%_
-* [[spbmolot|Контакт: spbmolot / NGT Memory]] _60%_
 
 
 
 ----
 
 _Смотрите также:_
-* [[nlaik]]
+* [[cutcode]]
+* [[zodigancode]]
 * [[sonia-black]]
-* [[kksudo]]
-* [[tagir-analyzes]]
+* [[dmitriila]]
 

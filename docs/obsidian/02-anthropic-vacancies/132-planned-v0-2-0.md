@@ -46,9 +46,28 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]]
+- [[04-abstract|Abstract]]
+- [[41-compatibility-level|Compatibility Level]]
+- [[44-for-the-curious-philosophy|For the Curious: Philosophy]]
+- [[37-native-format|Native Format]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[131-ограничения-текущей-версии-0-1-0-draft|Ограничения текущей версии (0.1.0-draft)]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[41-compatibility-level|Compatibility Level]] _33%_
+- [[44-for-the-curious-philosophy|For the Curious: Philosophy]] _29%_
+- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _25%_
+- [[326-содержание|Содержание]] _25%_
+- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _21%_
+- [[37-native-format|Native Format]] _21%_
+- [[63-history|History]] _21%_
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _21%_
 ## Связанные документы
 
 - [[04-abstract|Abstract]] _29%_

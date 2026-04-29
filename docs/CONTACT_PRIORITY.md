@@ -1,51 +1,34 @@
 # Приоритет контактов
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Приоритет контактов Contents - Топ авторов по приоритету(топ-авторов-по-приоритету) - Рекомендуемые следующие шаги(рекомендуемые-следующие-шаги) - Написать первым (ещё не контактир
-> 🏷️ **Ключевые слова:** `начато`, `knowledge`, `memory`, `написать`, `первым`, `упоминаний`, `orchestration`, `авторов`
->
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Топ авторов по приоритету](#топ-авторов-по-приоритету)
-- [Рекомендуемые следующие шаги](#рекомендуемые-следующие-шаги)
-  - [Написать первым (ещё не контактировали)](#написать-первым-ещё-не-контактировали)
-- [Формула расчёта балла](#формула-расчёта-балла)
-
-
 _Обновлено: 2026-04-29_
 
 ## Топ авторов по приоритету
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **kksudo** | AgentFS | knowledge/filesystem | 21 | 👁 Изучили | 74 |
-| 2 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 20 | ⬜ Не начато | 66 |
-| 3 | **spbmolot** | NGT Memory | memory | 20 | ⬜ Не начато | 66 |
-| 4 | **VitalyOborin** | Yodoca | memory | 12 | ⬜ Не начато | 42 |
-| 5 | **Sonia_Black** | knowledge-space | knowledge | 9 | ⬜ Не начато | 33 |
-| 6 | **Cutcode** | AIF Handoff | orchestration | 8 | ⬜ Не начато | 28 |
-| 7 | **Antipozitive** | MemNet | memory | 7 | ⬜ Не начато | 27 |
-| 8 | **lee-to** | AI Factory | orchestration | 7 | ⬜ Не начато | 25 |
-| 9 | **tagir_analyzes** | Legal RAG | rag | 7 | ⬜ Не начато | 25 |
-| 10 | **MiXaiLL76** | Auto AI Router | security | 7 | ⬜ Не начато | 23 |
-| 11 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 7 | ⬜ Не начато | 23 |
-| 12 | **VladSpace** | Graph RAG | rag | 6 | ⬜ Не начато | 22 |
-| 13 | **nlaik** | LiteParse / research-docs | rag | 6 | ⬜ Не начато | 22 |
-| 14 | **zodigancode** | Rufler | orchestration | 6 | ⬜ Не начато | 22 |
-| 15 | **Dmitriila** | SENTINEL | security | 6 | ⬜ Не начато | 20 |
+| 1 | **spbmolot** | NGT Memory | memory | 58 | 👁 Изучили | 185 |
+| 2 | **kksudo** | AgentFS | knowledge/filesystem | 57 | 👁 Изучили | 182 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 50 | ⬜ Не начато | 156 |
+| 4 | **VladSpace** | Graph RAG | rag | 43 | ⬜ Не начато | 133 |
+| 5 | **VitalyOborin** | Yodoca | memory | 39 | ⬜ Не начато | 123 |
+| 6 | **Cutcode** | AIF Handoff | orchestration | 36 | ⬜ Не начато | 112 |
+| 7 | **zodigancode** | Rufler | orchestration | 36 | ⬜ Не начато | 112 |
+| 8 | **Antipozitive** | MemNet | memory | 33 | ⬜ Не начато | 105 |
+| 9 | **Dmitriila** | SENTINEL | security | 34 | ⬜ Не начато | 104 |
+| 10 | **nlaik** | LiteParse / research-docs | rag | 31 | ⬜ Не начато | 97 |
+| 11 | **MiXaiLL76** | Auto AI Router | security | 30 | ⬜ Не начато | 92 |
+| 12 | **Sonia_Black** | knowledge-space | knowledge | 19 | ⬜ Не начато | 63 |
+| 13 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 15 | ⬜ Не начато | 47 |
+| 14 | **tagir_analyzes** | Legal RAG | rag | 14 | ⬜ Не начато | 46 |
+| 15 | **lee-to** | AI Factory | orchestration | 11 | ⬜ Не начато | 37 |
 
 ## Рекомендуемые следующие шаги
 
 ### Написать первым (ещё не контактировали)
 
-1. **kksudo** (AgentFS, 21 упоминаний) → [открыть контакт](contacts/kksudo.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 20 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
-1. **spbmolot** (NGT Memory, 20 упоминаний) → [открыть контакт](contacts/spbmolot.md)
+1. **spbmolot** (NGT Memory, 58 упоминаний) → [открыть контакт](contacts/spbmolot.md)
+1. **kksudo** (AgentFS, 57 упоминаний) → [открыть контакт](contacts/kksudo.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 50 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 

@@ -45,6 +45,16 @@ h2. Как работает
 
 h2. Связанные документы
 
+* [components|autofilled/components/README.md] _45%_
+* [Антропик|autofilled/components/.md] _25%_
+* [Cowork|autofilled/components/cowork.md] _25%_
+* [ingit|autofilled/components/ingit.md] _25%_
+* [kksudo|autofilled/components/kksudo.md] _25%_
+* [Lorenzo|autofilled/components/lorenzo.md] _25%_
+* [Nautilus|autofilled/components/nautilus.md] _25%_
+* [SGB|autofilled/components/sgb.md] _25%_
+h2. Связанные документы
+
 * [Diff базы знаний между версиями|VERSION_DIFF.md] _25%_
 
 
@@ -57,3 +67,9 @@ _Смотрите также:_
 * [ingit|autofilled/components/ingit.md]
 * [lorenzo|autofilled/components/lorenzo.md]
 
+
+h2. Упоминается в
+
+* [docs|README.md]
+* [Все таблицы репозитория|TABLES.md]
+* [Карта репозитория Lorenzo|SITEMAP.md]

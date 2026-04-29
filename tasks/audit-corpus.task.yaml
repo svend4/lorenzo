@@ -1,0 +1,29 @@
+id: audit-corpus
+version: 1.0
+description: Сводный аудит состояния всего монорепо
+
+trigger_phrases:
+  - "оцени состояние репо"
+  - "что сейчас с базой знаний"
+  - "покажи health check"
+  - "регулярный аудит"
+
+inputs: {}
+
+mcp_server: lorenzo-graph
+mcp_tool: audit_corpus
+
+pipeline:
+  - read: "docs/HEALTH.md"
+  - read: "docs/SCORING.md"
+  - read: "docs/METRICS.md"
+  - read: "docs/BROKEN_LINKS.md"
+  - read: "docs/CONTRADICTIONS.md"
+  - read: "docs/CONTENT_GAPS.md"
+  - generate: "Сводный отчёт со списком 🔴 / 🟡 / 🟢 и топ-5 действий"
+
+post_checks: []
+
+related:
+  skills: [audit-corpus, find-contradictions, find-gaps, weekly-review]
+  templates: [kpi-snapshot]

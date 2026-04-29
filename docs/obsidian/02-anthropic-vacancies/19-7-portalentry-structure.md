@@ -1,15 +1,26 @@
 ---
 title: "7. PortalEntry Structure"
 tags:
+  - memory
   - ingestion
   - architecture
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
 
 # 7. PortalEntry Structure
-<!-- tags: ingestion, architecture, anthropic -->
+<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🔧 **Подход:** PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `portalentry`, `structure`, `anthropic`, `vacancies`, `данных`, `registry`, `summary`, `унифицированная`
+>
 
 
 > [!IMPORTANT]
@@ -71,22 +82,6 @@ class PortalEntry:
 **Смотрите также:**
 - [[82-7-portalentry-structure]]
 - [[123-portal-mcp-py]]
-- [[08-3-registry-nautilus-json]]
+- [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [[81-6-adapter-interface]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[82-7-portalentry-structure|7. PortalEntry Structure]] _42%_
-- [[08-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _29%_
-- [[77-2-terminology|2. Terminology]] _29%_
-- [[78-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _29%_
-- [[07-2-terminology|2. Terminology]] _21%_
-- [[18-6-adapter-interface|6. Adapter Interface]] _21%_
-- [[69-section|⬡]] _21%_
-- [[74-abstract|Abstract]] _21%_

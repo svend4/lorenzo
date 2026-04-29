@@ -12,7 +12,7 @@ date: 2026-04-29
 ## Contents
 
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [[memnet|A.1. Minimal [nautilus]].json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 
@@ -111,19 +111,3 @@ class MyNotesAdapter(BaseAdapter):
 - [[03-portal-protocol-md]]
 - [[105-review-methodology-md]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _60%_
-- [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _37%_
-- [[04-abstract|Abstract]] _33%_
-- [[123-portal-mcp-py|portal-mcp.py]] _33%_
-- [[190-содержание|Содержание]] _33%_
-- [[22-10-queryresult-structure|10. QueryResult Structure]] _33%_
-- [[122-глоссарий|Глоссарий]] _29%_
-- [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] _29%_

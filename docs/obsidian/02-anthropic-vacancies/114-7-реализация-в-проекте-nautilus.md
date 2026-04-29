@@ -10,13 +10,22 @@ date: 2026-04-29
 
 # 7. Реализация в проекте Nautilus
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Реализация в проекте Nautilus Contents - 7.
+> 🔧 **Подход:** В будущем методология может быть формализована в NPP v2.0 как рекомендованный workflow для community-contributed documentation.
+> 🏷️ **Ключевые слова:** `nautilus`, `применения`, `anthropic`, `vacancies`, `status`, `workflow`, `реализация`, `проекте`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
-- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
+- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md))
   - [7.1. Хронология применения](#71-хронология-применения)
   - [7.2. Артефакты](#72-артефакты)
-  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
+  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol)
 
 
 <!-- summary -->
@@ -35,7 +44,7 @@ date: 2026-04-29
 **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md** 
 (апрель 2026):
 
-- Вариант A: ветка `claude/review-nautilus-changes-tdywx`
+- Вариант A: ветка `claude/review-[[memnet|nautilus]]-changes-tdywx`
 - Вариант B: ветка `claude/project-implementation-stage-CzylE`
 - Текущий статус: Merged-to-main with parallel blocks, Фаза C не 
   пройдена
@@ -95,19 +104,3 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 - [[05-0-status-of-this-document]]
 - [[24-12-versioning-policy]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[108-2-формальный-workflow|2. Формальный workflow]] _48%_
-- [[117-10-конкретный-план-применения-к-текущим-документам|10. Конкретный план применения к текущим документам]] _48%_
-- [[42-author-contact|Author & Contact]] _25%_
-- [[05-0-status-of-this-document|0. Status of This Document]] _21%_
-- [[122-глоссарий|Глоссарий]] _21%_
-- [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]] _21%_
-- [[62-author-contact|Author & Contact]] _21%_
-- [[75-0-status-of-this-document|0. Status of This Document]] _21%_

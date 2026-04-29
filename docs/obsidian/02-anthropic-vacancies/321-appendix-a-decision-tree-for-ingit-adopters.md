@@ -66,9 +66,27 @@ needs.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[96-21-adr-003-five-onboarding-paths-as-equal-rank|21. ADR-003: Five Onboarding Paths as Equal-Rank]]
+- [[322-appendix-b-comparison-matrix|Appendix B: Comparison Matrix]]
+- [[270-appendix-b-sub-agent-registry-schema-sketch|Appendix B: Sub-Agent Registry Schema (Sketch)]]
+- [[271-appendix-c-configuration-template-example|Appendix C: Configuration Template Example]]
+- [[WORD_CLOUD|Word Cloud]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[04-sozialrecht-domain|Домен: немецкое социальное право]]
+- [[345-кто-ты|Кто ты]]
+- [[360-что-ты-всегда-делаешь|Что ты ВСЕГДА делаешь]]
+- [[352-что-ты-не-можешь-делать-без-max-approval|Что ты НЕ МОЖЕШЬ делать без Max approval]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[270-appendix-b-sub-agent-registry-schema-sketch|Appendix B: Sub-Agent Registry Schema (Sketch)]] _42%_
+- [[271-appendix-c-configuration-template-example|Appendix C: Configuration Template Example]] _42%_
+- [[322-appendix-b-comparison-matrix|Appendix B: Comparison Matrix]] _25%_
+- [[360-что-ты-всегда-делаешь|Что ты ВСЕГДА делаешь]] _21%_
 ## Связанные документы
 
 - [[270-appendix-b-sub-agent-registry-schema-sketch|Appendix B: Sub-Agent Registry Schema (Sketch)]] _48%_

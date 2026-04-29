@@ -15,7 +15,7 @@ h1. Твой workflow
 
 
 {quote}Когда Max или authorized user ставит задачу, твой default approach:{quote}
-_Проекты:_ CardIndex
+_Проекты:_ [[01-executive-summary|CardIndex]]
 
 ----
 
@@ -58,7 +58,7 @@ _6. Recommend next steps_
 * Decision points
 
 _7. Document_
-* Update CardIndex / knowledge base
+* Update [[01-executive-summary|CardIndex]] / knowledge base
 * Save artifacts
 
 
@@ -83,8 +83,18 @@ _Смотрите также:_
 h2. Упоминается в
 
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[363-твоя-identity-как-persistent-character|Твоя identity как persistent character]]
+* [[357-твоя-коммуникация-в-outreach|Твоя коммуникация в outreach]]
+* [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]]
+* [[353-что-ты-не-можешь-делать-вообще|Что ты НЕ МОЖЕШЬ делать вообще]]
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]] _17%_
 h2. Связанные документы
 
 * [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]] _29%_

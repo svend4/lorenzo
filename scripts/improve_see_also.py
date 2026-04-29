@@ -85,11 +85,20 @@ def build_see_also_block(related: list[tuple[str, Path]]) -> str:
 def main():
     print("Добавление 'See Also' блоков...")
 
+    import sys
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from utils_docignore import is_ignored
+    except ImportError:
+        is_ignored = lambda p: False
+
     # Загружаем токены
     all_files: dict[str, Path] = {}
     tokens:    dict[str, set]  = {}
     for f in sorted(DOCS.rglob("*.md")):
         if f.name in SKIP:
+            continue
+        if is_ignored(f):
             continue
         text = f.read_text(encoding="utf-8")
         if len(text.split()) < 50:

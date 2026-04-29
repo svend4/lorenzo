@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 8. Consensus Algorithm
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Consensus Algorithm(8-consensus-algorithm) - 8.1.
+> ✅ **Результат:** Future Extensions (v2.0+)(85-future-extensions-v20) Когда один query возвращает результаты из нескольких Repos, Portal --- 8.
+> 🏷️ **Ключевые слова:** `consensus`, `algorithm`, `query`, `repos`, `anthropic`, `vacancies`, `normalization`, `string`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -98,13 +107,3 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 - [[22-10-queryresult-structure]]
 - [[21-9-query-flow]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[84-9-consensus-algorithm|9. Consensus Algorithm]] _53%_
-- [[86-11-relevance-ranking|11. Relevance Ranking]] _25%_

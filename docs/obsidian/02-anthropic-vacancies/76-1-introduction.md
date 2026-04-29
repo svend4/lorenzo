@@ -10,6 +10,15 @@ date: 2026-04-29
 
 # 1. Introduction
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Changes from v1.0(15-changes-from-v10) Современные системы управления знаниями (Notion, Obsidian, Roam Research, --- 1.
+> 🔧 **Подход:** Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре 3.
+> 🏷️ **Ключевые слова:** `introduction`, `anthropic`, `vacancies`, `goals`, `раздел`, `terminology`, `implementation`, `проекте`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -53,10 +62,10 @@ NPP предлагает альтернативу: **федеративную м
 Протокол спроектирован так, чтобы одновременно достичь:
 
 - **Low barrier to entry**: подключение существующего репо к федерации 
-  занимает не более 5 минут (один файл `nautilus.json` в корне + 
+  занимает не более 5 минут (один файл `[[memnet|nautilus]].json` в корне + 
   опциональный passport)
 - **Five onboarding paths**: от ручного адаптера до полностью 
-  автоматической регистрации через GitHub Actions webhook
+  автоматической регистрации через [[03-component-catalog|GitHub]] Actions webhook
 - **Local autonomy**: каждый репо остаётся функциональным без портала
 - **Progressive enhancement**: репо может подключиться на Level 0 и 
   дорастать до Level 3 без переделки
@@ -94,7 +103,7 @@ NPP **не** пытается:
   стратегии (раздел 12)
 - **REST API контракт** сделан mandatory для совместимых порталов 
   (раздел 13)
-- **`is_fallback`** поле добавлено в PortalEntry как нормативное
+- **`is_fallback`** поле добавлено в [[01-интегральный-анализ-профиля-svend4|PortalEntry]] как нормативное
 - **Консенсус-модель** расширена: различаются `coverage` (только real) 
   и `coverage_with_fallback` (раздел 9)
 - **Passport schema** формализована в `passport_schema.json` (раздел 4)
@@ -122,14 +131,3 @@ NPP **не** пытается:
 - [[67-о-проекте]]
 - [[77-2-terminology]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[06-1-introduction|1. Introduction]] _53%_
-- [[67-о-проекте|🇷🇺 О проекте]] _21%_
-- [[74-abstract|Abstract]] _17%_

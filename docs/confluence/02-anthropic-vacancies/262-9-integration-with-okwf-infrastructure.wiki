@@ -5,6 +5,16 @@
 
 h1. 9. Integration with OKWF Infrastructure
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ This plan is more realistic than the earlier proposal because it matches how skilled practitioners actually develop and what they actually need.{quote}
+{quote}🔧 _Подход:_ Practical Implication for Pilot Design(96-practical-implication-for-pilot-design) --- 9.{quote}
+{quote}✅ _Результат:_ Connection to Guild Structure OKWF's guild structure (groups of practitioners by professional area) provides natural organization for sub-agent development.{quote}
+{quote}🏷️ _Ключевые слова:_ {{agent}}, {{agents}}, {{connection}}, {{infrastructure}}, {{triangle}}, {{composite}}, {{registry}}, {{pattern}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -156,9 +166,9 @@ broader applicability.
 ----
 
 _Похожие документы:_
-* [260-7-economics-of-combinatorial-replication|260-7-economics-of-combinatorial-replication.md] (сходство 0.21)
-* [266-13-closing|266-13-closing.md] (сходство 0.20)
-* [257-4-the-sub-agent-registry|257-4-the-sub-agent-registry.md] (сходство 0.18)
+* [260-7-economics-of-combinatorial-replication|docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md] (сходство 0.21)
+* [266-13-closing|docs/02-anthropic-vacancies/266-13-closing.md] (сходство 0.20)
+* [257-4-the-sub-agent-registry|docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md] (сходство 0.18)
 
 
 
@@ -166,24 +176,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [260-7-economics-of-combinatorial-replication|260-7-economics-of-combinatorial-replication.md]
-* [266-13-closing|266-13-closing.md]
-* [257-4-the-sub-agent-registry|257-4-the-sub-agent-registry.md]
-* [316-8-implications-for-nautilus-and-okwf|316-8-implications-for-nautilus-and-okwf.md]
+* [260-7-economics-of-combinatorial-replication|docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md]
+* [266-13-closing|docs/02-anthropic-vacancies/266-13-closing.md]
+* [257-4-the-sub-agent-registry|docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md]
+* [316-8-implications-for-[nautilus|../docs/05-habr-projects/memory/memnet.md]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [PROFESSIONAL COLLEAGUE AGENTS.md|208-professional-colleague-agents-md.md] _33%_
-* [1. Why the Binary View Is Incomplete|254-1-why-the-binary-view-is-incomplete.md] _33%_
-* [4. The Sub-Agent Registry|257-4-the-sub-agent-registry.md] _33%_
-* [THE DOUBLE-TRIANGLE ARCHITECTURE.md|134-the-double-triangle-architecture-md.md] _30%_
-* [5. Architectural Specification|174-5-architectural-specification.md] _29%_
-* [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md|304-ingit-as-cowork-native-workspace-substrate-md.md] _29%_
-* [8. Implications for Nautilus and OKWF|316-8-implications-for-nautilus-and-okwf.md] _29%_
-* [Appendix A: Glossary|148-appendix-a-glossary.md] _25%_

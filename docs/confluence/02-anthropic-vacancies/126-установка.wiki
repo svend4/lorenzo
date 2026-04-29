@@ -58,18 +58,15 @@ adapters loaded` — обёртка работает.
 ----
 
 _Смотрите также:_
-* [28-appendix-a-minimal-working-example|28-appendix-a-minimal-working-example.md]
+* [28-appendix-a-minimal-working-example|docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md]
 
 
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
-h2. Связанные документы
+----
 
-* [Appendix A: Minimal Working Example|28-appendix-a-minimal-working-example.md] _21%_
-* [Table of Contents|154-table-of-contents.md] _17%_
-* [Содержание|326-содержание.md] _17%_
-* [History|63-history.md] _17%_
-* [Индекс «Смотрите также»|../SEE_ALSO.md] _17%_
+_Похожие документы:_
+* [28-appendix-a-minimal-working-example|docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md] (сходство 0.24)
+* [98-appendix-a-minimal-working-example|docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md] (сходство 0.18)
+* [123-portal-mcp-py|docs/02-anthropic-vacancies/123-portal-mcp-py.md] (сходство 0.18)
+

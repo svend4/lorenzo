@@ -15,59 +15,59 @@ h2. Проекты → файлы
 Для каждого проекта — в каких файлах он упоминается.
 
 || Проект || Файлов || Где упоминается ||
-|| **AI Factory** || 48 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +45 ||
-|| **AIF Handoff** || 32 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +29 ||
-|| **AgentFS** || 73 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +70 ||
-|| **Auto AI Router** || 54 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +51 ||
-|| **AutoResearch** || 28 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +25 ||
-|| **Automerge** || 14 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/10-second-order-ensembles.md` +11 ||
-|| **CardIndex** || 70 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +67 ||
-|| **Firecrawl** || 12 || `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`, `docs/04-ai-collaborations/00-intro.md`, `docs/05-habr-projects/memory/memnet.md` +9 ||
-|| **Graph RAG** || 41 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md`, `docs/01-svyazi/03-component-catalog.md` +38 ||
-|| **Hybrid RAG** || 24 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +21 ||
-|| **Legal RAG** || 39 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md`, `docs/01-svyazi/03-component-catalog.md` +36 ||
-|| **LiteLLM** || 31 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +28 ||
-|| **LiteParse** || 51 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md`, `docs/01-svyazi/03-component-catalog.md` +48 ||
-|| **MemNet** || 37 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/03-technology-combinations/02-knowledge-graphs.md` +34 ||
-|| **Memory OS** || 17 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/06-security-privacy.md` +14 ||
-|| **NGT Memory** || 56 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/07-mvp-planning.md` +53 ||
-|| **RLM-Toolkit** || 4 || `docs/01-svyazi/01-executive-summary.md`, `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`, `docs/04-ai-collaborations/00-intro.md` +1 ||
-|| **Rufler** || 58 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +55 ||
-|| **SENTINEL** || 62 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +59 ||
-|| **Sequential** || 43 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +40 ||
-|| **Svyazi** || 132 || `docs/01-svyazi/00-intro-part2.md`, `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md` +129 ||
-|| **Tool Search** || 32 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +29 ||
-|| **Whisper** || 11 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/14-limitations.md` +8 ||
-|| **Wikontic** || 28 || `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`, `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md`, `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md` +25 ||
-|| **Yjs** || 18 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/10-second-order-ensembles.md` +15 ||
-|| **Yodoca** || 78 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +75 ||
-|| **Yttri** || 11 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/14-limitations.md` +8 ||
-|| **agent-memory-mcp** || 17 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/06-security-privacy.md` +14 ||
-|| **knowledge-space** || 58 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/07-mvp-planning.md` +55 ||
-|| **mclaude** || 48 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +45 ||
+|| **AI Factory** || 71 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +68 ||
+|| **AIF Handoff** || 28 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +25 ||
+|| **AgentFS** || 97 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +94 ||
+|| **Auto AI Router** || 63 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +60 ||
+|| **AutoResearch** || 61 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +58 ||
+|| **Automerge** || 35 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/10-second-order-ensembles.md` +32 ||
+|| **CardIndex** || 136 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +133 ||
+|| **Firecrawl** || 19 || `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`, `docs/04-ai-collaborations/00-intro.md`, `docs/05-habr-projects/memory/memnet.md` +16 ||
+|| **Graph RAG** || 44 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md`, `docs/01-svyazi/03-component-catalog.md` +41 ||
+|| **Hybrid RAG** || 48 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +45 ||
+|| **Legal RAG** || 48 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md`, `docs/01-svyazi/03-component-catalog.md` +45 ||
+|| **LiteLLM** || 47 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +44 ||
+|| **LiteParse** || 76 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md`, `docs/01-svyazi/03-component-catalog.md` +73 ||
+|| **MemNet** || 135 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/02-anthropic-vacancies/00-intro.md` +132 ||
+|| **Memory OS** || 35 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/06-security-privacy.md` +32 ||
+|| **NGT Memory** || 92 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/07-mvp-planning.md` +89 ||
+|| **RLM-Toolkit** || 9 || `docs/01-svyazi/01-executive-summary.md`, `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`, `docs/04-ai-collaborations/00-intro.md` +6 ||
+|| **Rufler** || 82 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +79 ||
+|| **SENTINEL** || 66 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +63 ||
+|| **Sequential** || 114 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +111 ||
+|| **Svyazi** || 299 || `docs/01-svyazi/00-intro-part2.md`, `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md` +296 ||
+|| **Tool Search** || 47 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +44 ||
+|| **Whisper** || 22 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/14-limitations.md` +19 ||
+|| **Wikontic** || 47 || `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`, `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md`, `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md` +44 ||
+|| **Yjs** || 44 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/10-second-order-ensembles.md` +41 ||
+|| **Yodoca** || 135 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +132 ||
+|| **Yttri** || 17 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/14-limitations.md` +14 ||
+|| **agent-memory-mcp** || 36 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/06-security-privacy.md` +33 ||
+|| **knowledge-space** || 98 || `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/07-mvp-planning.md` +95 ||
+|| **mclaude** || 87 || `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +84 ||
 
 h2. Файлы → проекты
 
 Топ-20 файлов с наибольшим числом упоминаемых проектов.
 
 || Файл || Проектов || Список ||
-|| `docs/TABLES.md` || 28 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +22 ||
+|| `docs/TABLES.md` || 30 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +24 ||
 || `docs/01-svyazi/03-component-catalog.md` || 27 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 ||
 || `docs/04-ai-collaborations/00-intro.md` || 27 || Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, AIF Handoff +21 ||
 || `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` || 27 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 ||
+|| `docs/svyazi-2-0/overview/projects-map.md` || 27 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +21 ||
+|| `docs/glossary/authors-by-name.md` || 26 || Svyazi, AgentFS, knowledge-space, mclaude, AI Factory, AIF Handoff +20 ||
+|| `docs/glossary/components-by-name.md` || 26 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +20 ||
+|| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` || 25 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +19 ||
 || `docs/01-svyazi/04-ensembles-overview.md` || 24 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 ||
-|| `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` || 24 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 ||
 || `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` || 24 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 ||
+|| `docs/OUTLINE.md` || 24 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 ||
+|| `docs/SITEMAP.md` || 24 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 ||
+|| `docs/SUMMARIES.md` || 24 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 ||
+|| `docs/CONCEPTS.md` || 23 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 ||
 || `docs/GRAPH.md` || 23 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 ||
 || `docs/MINDMAP.md` || 23 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +17 ||
 || `docs/01-svyazi/01-executive-summary.md` || 22 || Svyazi, CardIndex, AgentFS, mclaude, AI Factory, AIF Handoff +16 ||
-|| `docs/CONCEPTS.md` || 22 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +16 ||
+|| `docs/svyazi-2-0/overview/executive-summary.md` || 22 || Svyazi, CardIndex, AgentFS, mclaude, AI Factory, AIF Handoff +16 ||
 || `docs/04-ai-collaborations/01-executive-summary.md` || 21 || Svyazi, CardIndex, AgentFS, mclaude, AI Factory, AIF Handoff +15 ||
 || `docs/CODE_BLOCKS.md` || 21 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +15 ||
-|| `docs/01-svyazi/07-mvp-planning.md` || 19 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +13 ||
-|| `docs/01-svyazi/09-architectural-gaps.md` || 19 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +13 ||
-|| `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` || 19 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +13 ||
-|| `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` || 19 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +13 ||
-|| `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md` || 19 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +13 ||
-|| `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` || 19 || Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +13 ||
-|| `docs/01-svyazi/11-integration-contracts.md` || 18 || Svyazi, CardIndex, AgentFS, mclaude, AI Factory, LiteParse +12 ||

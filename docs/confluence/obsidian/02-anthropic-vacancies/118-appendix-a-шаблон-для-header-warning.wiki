@@ -6,7 +6,7 @@
 ----
 title: "Appendix A: Шаблон для header warning"
 tags:
-  * anthropic
+  * architecture
   * anthropic-vacancies
 date: 2026-04-29
 ----
@@ -14,11 +14,16 @@ date: 2026-04-29
 h1. Appendix A: Шаблон для header warning
 
 
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
 {quote}Готовый копи-паст шаблон для вставки в начало документов в{quote}
 
 ----
-
-
 
 
 
@@ -52,17 +57,9 @@ transitional state:
 ----
 
 
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
 
 ----
 
 _Смотрите также:_
-* [[102-доступ-к-данным]]
-* [[121-appendix-c-история-изменений-методологии]]
-* [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
-* [[185-appendix-b-domain-comparison-matrix]]
+* [[12-appendix-a-header-warning]]
 

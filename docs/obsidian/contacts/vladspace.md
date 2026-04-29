@@ -11,7 +11,7 @@ date: 2026-04-29
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+**Проекты:** Svyazi, Graph RAG
 
 ---
 
@@ -68,25 +68,23 @@ Graph RAG закрывает слой «rag» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _81%_
-- [[dmitriila|Контакт: Dmitriila / SENTINEL]] _81%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _81%_
-- [[zodigancode|Контакт: zodigancode / Rufler]] _81%_
-- [[kksudo|Контакт: kksudo / AgentFS]] _73%_
-- [[spbmolot|Контакт: spbmolot / NGT Memory]] _73%_
-- [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] _73%_
-- [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _73%_
+---
+
+**Похожие документы:**
+- [[zodigancode]] (сходство 0.88)
+- [[tagir-analyzes]] (сходство 0.88)
+- [[mixaill76]] (сходство 0.88)
+
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
+- [[tagir-analyzes]]
 - [[cutcode]]
-- [[dmitriila]]
-- [[mixaill76]]
 - [[zodigancode]]
+- [[dmitriila]]
 

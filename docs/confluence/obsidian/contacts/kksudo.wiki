@@ -16,7 +16,7 @@ h1. Контакт: kksudo / AgentFS
 
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, AgentFS, Rufler, Graph RAG, Yodoca, NGT Memory, SENTINEL, Auto AI Router
+_Проекты:_ Svyazi, AgentFS
 
 ----
 
@@ -75,29 +75,22 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Упоминается в
 
-* [[CONTACT_PRIORITY|Приоритет контактов]]
+----
 
+_Похожие документы:_
+* [[vladspace]] (сходство 0.71)
+* [[zodigancode]] (сходство 0.70)
+* [[tagir-analyzes]] (сходство 0.70)
 
-h2. Связанные документы
-
-* [[spbmolot|Контакт: spbmolot / NGT Memory]] _81%_
-* [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _81%_
-* [[cutcode|Контакт: Cutcode / AIF Handoff]] _73%_
-* [[dmitriila|Контакт: Dmitriila / SENTINEL]] _73%_
-* [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _73%_
-* [[vladspace|Контакт: VladSpace / Graph RAG]] _73%_
-* [[zodigancode|Контакт: zodigancode / Rufler]] _73%_
-* [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] _66%_
 
 
 
 ----
 
 _Смотрите также:_
-* [[spbmolot]]
+* [[tagir-analyzes]]
 * [[vladspace]]
 * [[cutcode]]
-* [[dmitriila]]
+* [[zodigancode]]
 

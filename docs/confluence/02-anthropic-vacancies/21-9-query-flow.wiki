@@ -35,7 +35,7 @@ h3. 9.1. Lifecycle
 4. Portal параллельно вызывает {{adapter.fetch(q)}} для всех выбранных
 5. Portal собирает {{results_by_repo: dict[str, list[PortalEntry]]}}
 6. Portal вычисляет consensus через алгоритм раздела 8
-7. Portal возвращает {{QueryResult}}
+7. Portal возвращает {{[QueryResult|../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md]}}
 
 h3. 9.2. Parallelism
 
@@ -47,7 +47,7 @@ h3. 9.3. Error Handling
 
 Если один adapter падает (exception, timeout), Portal MUST:
 
-* Включить этот репо в {{errors}} список QueryResult
+* Включить этот репо в {{errors}} список [QueryResult|../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md]
 * Продолжить обработку остальных
 * Не падать целиком
 
@@ -78,9 +78,28 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [10. Query Flow|85-10-query-flow.md]
+* [10. QueryResult Structure|22-10-queryresult-structure.md]
+* [15. Security Considerations|90-15-security-considerations.md]
+* [6. Adapter Interface|18-6-adapter-interface.md]
+* [6. Adapter Interface|81-6-adapter-interface.md]
+* [8. Consensus Algorithm|20-8-consensus-algorithm.md]
+* [9. Consensus Algorithm|84-9-consensus-algorithm.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [10. Query Flow|85-10-query-flow.md] _66%_
+* [6. Adapter Interface|18-6-adapter-interface.md] _33%_
+* [6. Adapter Interface|81-6-adapter-interface.md] _29%_
+* [10. QueryResult Structure|22-10-queryresult-structure.md] _25%_
+* [9. Consensus Algorithm|84-9-consensus-algorithm.md] _21%_
+* [7. PortalEntry Structure|82-7-portalentry-structure.md] _17%_
+* [11. Relevance Ranking|86-11-relevance-ranking.md] _17%_
 h2. Связанные документы
 
 * [10. Query Flow|85-10-query-flow.md] _66%_

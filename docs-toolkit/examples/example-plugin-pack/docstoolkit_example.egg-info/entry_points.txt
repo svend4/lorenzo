@@ -1,0 +1,11 @@
+[docstoolkit.embeddings]
+random = docstoolkit_example.embeddings_random:RandomProvider
+
+[docstoolkit.ingest]
+csv = docstoolkit_example.ingest_csv:ingest
+
+[docstoolkit.skills]
+example = docstoolkit_example.skills:get_path
+
+[docstoolkit.templates]
+example = docstoolkit_example.templates:get_paths

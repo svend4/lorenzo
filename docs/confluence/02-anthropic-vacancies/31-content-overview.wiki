@@ -27,9 +27,27 @@ _Похожие документы:_
 
 h2. Упоминается в
 
+* [4. Условия применимости|111-4-условия-применимости.md]
+* [6. Почему это валидный паттерн для AI-assisted workflows|113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md]
+* [Angle / Perspective|13-angle-perspective.md]
+* [Content Overview|12-content-overview.md]
+* [Content Overview|38-content-overview.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Content Overview|12-content-overview.md] _37%_
+* [Angle / Perspective|13-angle-perspective.md] _33%_
+* [PROFESSIONAL COLLEAGUE AGENTS.md|208-professional-colleague-agents-md.md] _21%_
+* [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md|304-ingit-as-cowork-native-workspace-substrate-md.md] _21%_
+* [Appendix C: Version History|150-appendix-c-version-history.md] _17%_
+* [Essence|36-essence.md] _17%_
+* [Content Overview|38-content-overview.md] _17%_
+* [History|43-history.md] _17%_
 h2. Связанные документы
 
 * [Content Overview|12-content-overview.md] _47%_

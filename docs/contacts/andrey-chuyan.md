@@ -1,3 +1,16 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "andrey_chuyan"
+author_handle: "@andrey_chuyan"
+projects: ["Svyazi", "CardIndex"]
+platform: GitHub
+status: not_started
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+---
 # Контакт: andrey_chuyan / Svyazi
 
 > [!TIP]

@@ -10,6 +10,16 @@ date: 2026-04-29
 <!-- tags: anthropic -->
 
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Error Handling(103-error-handling) - 10.4.
+> 🔧 **Подход:** Portal вычисляет consensus по алгоритму раздела 9 7.
+> ✅ **Результат:** Portal собирает resultsbyrepo: dictstr, listPortalEntry 6.
+> 🏷️ **Ключевые слова:** `portal`, `query`, `adapter`, `timeout`, `anthropic`, `vacancies`, `interface`, `error`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -40,7 +50,7 @@ date: 2026-04-29
 5. Portal собирает `results_by_repo: dict[str, list[PortalEntry]]`
 6. Portal вычисляет consensus по алгоритму раздела 9
 7. Portal вычисляет relevance ranking (раздел 11)
-8. Portal возвращает `QueryResult`
+8. Portal возвращает `[[02-общий-план-развития-nautilus-portal-protocol|QueryResult]]`
 
 ### 10.2. Parallelism
 
@@ -52,7 +62,7 @@ Repos.
 
 Если adapter падает (exception, timeout), Portal MUST:
 
-- Включить repo в `errors` список QueryResult
+- Включить repo в `errors` список [[02-общий-план-развития-nautilus-portal-protocol|QueryResult]]
 - Продолжить обработку остальных
 - Не падать целиком
 
@@ -89,19 +99,3 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 - [[81-6-adapter-interface]]
 - [[86-11-relevance-ranking]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[21-9-query-flow|9. Query Flow]] _66%_
-- [[18-6-adapter-interface|6. Adapter Interface]] _29%_
-- [[22-10-queryresult-structure|10. QueryResult Structure]] _25%_
-- [[17-5-compatibility-levels|5. Compatibility Levels]] _21%_
-- [[68-about|🇬🇧 About]] _17%_
-- [[77-2-terminology|2. Terminology]] _17%_
-- [[78-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _17%_
-- [[81-6-adapter-interface|6. Adapter Interface]] _17%_

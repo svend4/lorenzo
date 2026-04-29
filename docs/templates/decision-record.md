@@ -1,3 +1,16 @@
+---
+template: decision-record
+version: "1.0"
+adr_id: "ADR-NNNN"
+title: "[Название решения]"
+status: proposed
+date: 2026-04-29
+deciders: []
+tags: [архитектура, решение]
+supersedes: null
+superseded_by: null
+---
+
 # ADR: [Название решения]
 
 <!-- summary: Решение о X -->
@@ -33,23 +46,3 @@
 
 ---
 _Дата: 2026-04-29_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [ensemble](../obsidian/templates/ensemble.md)
-- [project-component](../obsidian/templates/project-component.md)
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Шаблоны документов](README.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [Ансамбль: [Название]](ensemble.md) _25%_
-- [[Название компонента]](project-component.md) _25%_
-- [[Тема исследования]](research-note.md) _21%_

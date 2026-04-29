@@ -60,9 +60,33 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[05-0-status-of-this-document|0. Status of This Document]]
+* [[24-12-versioning-policy|12. Versioning Policy]]
+* [[25-13-reference-implementation|13. Reference Implementation]]
+* [[92-17-versioning-policy|17. Versioning Policy]]
+* [[93-18-reference-implementation|18. Reference Implementation]]
+* [[114-7-реализация-в-проекте-nautilus|7. Реализация в проекте Nautilus]]
+* [[42-author-contact|Author & Contact]]
+* [[62-author-contact|Author & Contact]]
+* [[48-content-overview|Content Overview]]
+* [[53-history|History]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[05-0-status-of-this-document|0. Status of This Document]] _81%_
+* [[42-author-contact|Author & Contact]] _53%_
+* [[25-13-reference-implementation|13. Reference Implementation]] _48%_
+* [[62-author-contact|Author & Contact]] _48%_
+* [[93-18-reference-implementation|18. Reference Implementation]] _48%_
+* [[24-12-versioning-policy|12. Versioning Policy]] _33%_
+* [[48-content-overview|Content Overview]] _33%_
+* [[53-history|History]] _29%_
 h2. Связанные документы
 
 * [[05-0-status-of-this-document|0. Status of This Document]] _90%_

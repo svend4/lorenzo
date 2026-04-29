@@ -7,6 +7,16 @@ date: 2026-04-29
 ---
 
 # Appendix B: Decision Framework — When to Build Type 1 First
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** another type: Choose Type 1 (Professional Colleague Agent) when: - Profession has well-defined standardized practices - Practitioners face significant routine burden - Professional
+> 🏷️ **Ключевые слова:** `agent`, `appendix`, `types`, `anthropic`, `vacancies`, `professional`, `choose`, `build`
+>
+
 
 <!-- summary -->
 > For an organization deciding whether to build a Professional
@@ -78,9 +88,29 @@ populations, Type 1 is the right starting point.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]]
+- [[223-12-closing|12. Closing]]
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]]
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]]
+- [[226-appendix-a-comparative-table-five-agent-types|Appendix A: Comparative Table — Five Agent Types]]
+- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[345-кто-ты|Кто ты]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[226-appendix-a-comparative-table-five-agent-types|Appendix A: Comparative Table — Five Agent Types]] _53%_
+- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] _53%_
+- [[211-table-of-contents|Table of Contents]] _48%_
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _42%_
+- [[223-12-closing|12. Closing]] _42%_
+- [[210-abstract|Abstract]] _37%_
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _37%_
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _37%_
 ## Связанные документы
 
 - [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] _66%_

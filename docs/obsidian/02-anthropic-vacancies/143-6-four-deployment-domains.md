@@ -10,6 +10,21 @@ date: 2026-04-29
 
 # 6. Four Deployment Domains
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Meta-agent coordinating multiple advocates on related cases, sharing anonymized patterns, escalating cross-jurisdictional issues.
+> 🔧 **Подход:** Agile methodologies, CI/CD patterns, deployment playbooks, incident postmortems (anonymized), architecture decision records.
+> ✅ **Результат:** Jira AI, Linear AI, GitHub Projects automation — all provide fragments of this architecture but lack Protocol 3.
+> 🏷️ **Ключевые слова:** `triangle`, `domain`, `deployment`, `contents`, `coordination`, `anthropic`, `vacancies`, `double`
+>
+
+
 <!-- summary -->
 > The Double-Triangle Architecture is domain-agnostic but benefits
 
@@ -72,7 +87,7 @@ with Double-Triangle if anonymization pipeline operates correctly.
 ### 6.2. Project Management Domain
 
 **Participants.** Software engineers, product managers, designers, 
-DevOps engineers, QA engineers.
+[[memnet|DevOps]] engineers, QA engineers.
 
 **Lower triangle contents.** Assistants specialized for:
 - Code generation and review (Copilot, Cursor, Claude Code)
@@ -88,7 +103,7 @@ retrospective synthesis.
 patterns, deployment playbooks, incident postmortems (anonymized), 
 architecture decision records.
 
-**Existing partial implementations.** Jira AI, Linear AI, GitHub 
+**Existing partial implementations.** Jira AI, Linear AI, [[03-component-catalog|GitHub]] 
 Projects automation — all provide fragments of this architecture 
 but lack Protocol 3.
 
@@ -172,9 +187,29 @@ exist.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[164-10-appendices|10. Appendices]]
+- [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]]
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]]
+- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]]
+- [[218-7-application-domains|7. Application Domains]]
+- [[144-7-open-questions|7. Open Questions]]
+- [[145-8-call-to-action|8. Call to Action]]
+- [[261-8-seven-domains-of-application|8. Seven Domains of Application]]
+- [[148-appendix-a-glossary|Appendix A: Glossary]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[145-8-call-to-action|8. Call to Action]] _37%_
+- [[148-appendix-a-glossary|Appendix A: Glossary]] _21%_
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]] _21%_
+- [[136-abstract|Abstract]] _17%_
+- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _17%_
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _17%_
 ## Связанные документы
 
 - [[148-appendix-a-glossary|Appendix A: Glossary]] _37%_

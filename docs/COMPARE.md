@@ -1,17 +1,17 @@
 # Сравнение с предыдущим коммитом
 
-**Файлов было:** 1025  **стало:** 1695  
-**Слов было:** 743,673  **стало:** 1,468,394  **Δ:** +724,721
+**Файлов было:** 1049  **стало:** 1194  
+**Слов было:** 782,541  **стало:** 945,548  **Δ:** +163,007
 
 
-## Новые файлы (670)
+## Новые файлы (145)
 
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19217 слов)
-- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3300 слов)
-- `docs/02-anthropic-vacancies/102-доступ-к-данным.md` (214 слов)
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19144 слов)
+- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3207 слов)
+- `docs/02-anthropic-vacancies/102-доступ-к-данным.md` (23 слов)
 - `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md` (455 слов)
 - `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` (463 слов)
-- `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` (677 слов)
+- `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` (560 слов)
 - `docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` (338 слов)
 - `docs/02-anthropic-vacancies/111-4-условия-применимости.md` (272 слов)
 - `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` (389 слов)
@@ -23,65 +23,65 @@
 - `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` (175 слов)
 - `docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md` (372 слов)
 - `docs/02-anthropic-vacancies/120-главные-технические-риски.md` (82 слов)
-- `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` (210 слов)
-- `docs/02-anthropic-vacancies/122-глоссарий.md` (1510 слов)
-- `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` (241 слов)
-- `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` (261 слов)
+- `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` (47 слов)
+- `docs/02-anthropic-vacancies/122-глоссарий.md` (1334 слов)
+- `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` (177 слов)
+- `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` (98 слов)
 - `docs/02-anthropic-vacancies/126-установка.md` (145 слов)
-- `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` (247 слов)
-- `docs/02-anthropic-vacancies/128-доступные-инструменты.md` (278 слов)
-- `docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md` (273 слов)
-- `docs/02-anthropic-vacancies/130-отладка.md` (243 слов)
-- `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` (177 слов)
-- `docs/02-anthropic-vacancies/133-обратная-связь.md` (17075 слов)
-- `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` (218 слов)
+- `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` (125 слов)
+- `docs/02-anthropic-vacancies/128-доступные-инструменты.md` (136 слов)
+- `docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md` (110 слов)
+- `docs/02-anthropic-vacancies/130-отладка.md` (174 слов)
+- `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` (100 слов)
+- `docs/02-anthropic-vacancies/133-обратная-связь.md` (17018 слов)
+- `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` (45 слов)
 - `docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md` (106 слов)
 - `docs/02-anthropic-vacancies/189-аннотация.md` (356 слов)
-- `docs/02-anthropic-vacancies/190-содержание.md` (249 слов)
+- `docs/02-anthropic-vacancies/190-содержание.md` (98 слов)
 - `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (821 слов)
-- `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (986 слов)
-- `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md` (783 слов)
+- `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (950 слов)
+- `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md` (666 слов)
 - `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` (1634 слов)
 - `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md` (665 слов)
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (610 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (459 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (658 слов)
-_...и ещё 630_
+_...и ещё 105_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (190) — топ по Δ слов
+## Изменившиеся файлы (63) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `DEPENDENCY_MAP.md` | 558 | 1085 | +527 |
-| `CHANGELOG_AUTO.md` | 353 | 665 | +312 |
-| `151-open-knowledge-work-foundation-md.md` | 48 | 343 | +295 |
-| `211-table-of-contents.md` | 116 | 410 | +294 |
-| `308-table-of-contents.md` | 125 | 402 | +277 |
-| `228-appendix-c-quick-start-architecture-for-sgb-advoca.md` | 1717 | 1978 | +261 |
-| `208-professional-colleague-agents-md.md` | 45 | 303 | +258 |
-| `223-12-closing.md` | 423 | 678 | +255 |
-| `167-ai-mediated-representation-for-underrepresented-ex.md` | 108 | 358 | +250 |
-| `212-1-the-five-type-typology-of-principal-side-agents.md` | 923 | 1170 | +247 |
-| `146-acknowledgments.md` | 190 | 434 | +244 |
-| `03-portal-protocol-md.md` | 75 | 318 | +243 |
-| `213-2-what-makes-a-professional-colleague-agent.md` | 834 | 1075 | +241 |
-| `251-ai-support-through-configurable-specialist-ensembl.md` | 110 | 350 | +240 |
-| `134-the-double-triangle-architecture-md.md` | 46 | 281 | +235 |
-| `307-abstract.md` | 319 | 552 | +233 |
-| `220-9-relationship-to-other-agent-types.md` | 657 | 889 | +232 |
-| `184-appendix-a-connection-to-companion-papers.md` | 157 | 382 | +225 |
-| `274-the-missing-middle-layer-between-chat-and-code.md` | 179 | 403 | +224 |
-| `209-a-typology-of-ai-agents-on-the-principal-side-and-.md` | 123 | 345 | +222 |
-| `249-composite-skills-agent-md.md` | 47 | 264 | +217 |
-| `284-practical-recommendations-for-the-current-project.md` | 363 | 580 | +217 |
-| `306-with-anthropic-s-cowork-platform.md` | 272 | 488 | +216 |
-| `256-3-what-makes-a-composite-skills-agent.md` | 941 | 1155 | +214 |
-| `QA.md` | 1290 | 1504 | +214 |
-| `123-portal-mcp-py.md` | 2282 | 2495 | +213 |
-| `219-8-pilot-proposal-sgb-advocate-colleague.md` | 961 | 1172 | +211 |
-| `42-author-contact.md` | 81 | 292 | +211 |
-| `210-abstract.md` | 361 | 571 | +210 |
-| `172-3-what-makes-a-representative-agent.md` | 671 | 879 | +208 |
+| `QUESTIONS.md` | 21353 | 1838 | -19515 |
+| `OUTLINE.md` | 28346 | 35055 | +6709 |
+| `PARAGRAPH_QUALITY.md` | 10592 | 15375 | +4783 |
+| `HEADING_AUDIT.md` | 5639 | 9028 | +3389 |
+| `TIMELINE.md` | 2124 | 4348 | +2224 |
+| `EMPTY_SECTIONS.md` | 10001 | 12093 | +2092 |
+| `CONTRADICTIONS.md` | 1460 | 1832 | +372 |
+| `GITHUB_ISSUES.md` | 1545 | 1754 | +209 |
+| `NAMED_ENTITIES.md` | 1479 | 1669 | +190 |
+| `SITEMAP.md` | 7078 | 7199 | +121 |
+| `TABLES.md` | 117426 | 117329 | -97 |
+| `ACTION_ITEMS.md` | 8153 | 8064 | -89 |
+| `READING_TIME.md` | 12409 | 12498 | +89 |
+| `COST.md` | 547 | 629 | +82 |
+| `SOURCE_MAP.md` | 6086 | 6167 | +81 |
+| `KNOWLEDGE_MAP.md` | 584 | 661 | +77 |
+| `CITATION_INDEX.md` | 861 | 935 | +74 |
+| `LANGUAGE_STATS.md` | 6702 | 6767 | +65 |
+| `COVERAGE.md` | 595 | 659 | +64 |
+| `SCHEDULE.md` | 271 | 332 | +61 |
+| `VOCABULARY.md` | 882 | 943 | +61 |
+| `CONCEPTS.md` | 13146 | 13202 | +56 |
+| `PROGRESS.md` | 261 | 316 | +55 |
+| `VERSION_DIFF.md` | 1005 | 1059 | +54 |
+| `REPORT.md` | 911 | 963 | +52 |
+| `COMPARE.md` | 477 | 528 | +51 |
+| `STALENESS.md` | 388 | 439 | +51 |
+| `CONTACT_PRIORITY.md` | 364 | 413 | +49 |
+| `SCORING.md` | 338 | 387 | +49 |
+| `DEPENDABOT.md` | 136 | 173 | +37 |

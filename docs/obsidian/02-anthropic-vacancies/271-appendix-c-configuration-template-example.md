@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # Appendix C: Configuration Template Example
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Some will remove sub-agents they don't need.
+> ✅ **Результат:** Appendix C: Configuration Template Example For the SGB Advocate Colleague pilot, a starting configuration --- Appendix C: Configuration Template Example For the SGB Advocate Collea
+> 🏷️ **Ключевые слова:** `appendix`, `configuration`, `anthropic`, `vacancies`, `their`, `template`, `agent`, `registry`
+>
+
+
 <!-- summary -->
 > For the SGB Advocate Colleague pilot, a starting configuration
 
@@ -91,23 +100,7 @@ configuration.
 
 **Смотрите также:**
 - [[270-appendix-b-sub-agent-registry-schema-sketch]]
-- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [[211-table-of-contents]]
 - [[253-table-of-contents]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[270-appendix-b-sub-agent-registry-schema-sketch|Appendix B: Sub-Agent Registry Schema (Sketch)]] _37%_
-- [[253-table-of-contents|Table of Contents]] _29%_
-- [[321-appendix-a-decision-tree-for-ingit-adopters|Appendix A: Decision Tree for InGit Adopters]] _29%_
-- [[211-table-of-contents|Table of Contents]] _25%_
-- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _25%_
-- [[326-содержание|Содержание]] _25%_
-- [[CONCEPTS|Глоссарий понятий]] _25%_
-- [[137-table-of-contents|Table of Contents]] _21%_

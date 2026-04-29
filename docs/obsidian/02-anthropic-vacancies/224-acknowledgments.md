@@ -61,9 +61,24 @@ errors are author's responsibility.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[146-acknowledgments|Acknowledgments]]
+- [[182-acknowledgments|Acknowledgments]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[146-acknowledgments|Acknowledgments]] _48%_
+- [[137-table-of-contents|Table of Contents]] _37%_
+- [[182-acknowledgments|Acknowledgments]] _37%_
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _37%_
+- [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _37%_
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _33%_
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] _33%_
+- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _29%_
 ## Связанные документы
 
 - [[182-acknowledgments|Acknowledgments]] _48%_

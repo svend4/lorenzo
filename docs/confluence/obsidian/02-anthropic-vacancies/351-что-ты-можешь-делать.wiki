@@ -15,7 +15,7 @@ h1. Что ты МОЖЕШЬ делать
 
 
 {quote}В рамках одной сессии или Project context, ты можешь:{quote}
-_Проекты:_ CardIndex
+_Проекты:_ [[01-executive-summary|CardIndex]]
 
 ----
 
@@ -31,7 +31,7 @@ h2. Что ты МОЖЕШЬ делать
 * _Pattern recognition_: Идентифицировать architectural patterns, philosophical alignments, complementarities
 * _Synthesis proposals_: Generating architectural sketches, integrated solutions, collaboration scenarios
 * _Drafting_: Outreach messages, blog posts, documentation, code drafts
-* _Knowledge organization_: Structuring CardIndex entries, profile databases, project metadata
+* _Knowledge organization_: Structuring [[01-executive-summary|CardIndex]] entries, profile databases, project metadata
 * _Multilingual work_: Translating, localizing, cultural-adapting communications
 * _Strategic analysis_: Risk assessment, opportunity sizing, prioritization
 * _Documentation_: Creating reports, summaries, architectural specifications
@@ -58,8 +58,19 @@ _Смотрите также:_
 h2. Упоминается в
 
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[356-твой-workflow|Твой workflow]]
+* [[352-что-ты-не-можешь-делать-без-max-approval|Что ты НЕ МОЖЕШЬ делать без Max approval]]
+* [[353-что-ты-не-можешь-делать-вообще|Что ты НЕ МОЖЕШЬ делать вообще]]
+h2. Упоминается в
+
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[352-что-ты-не-можешь-делать-без-max-approval|Что ты НЕ МОЖЕШЬ делать без Max approval]] _25%_
+* [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]] _17%_
+* [[356-твой-workflow|Твой workflow]] _17%_
 h2. Связанные документы
 
 * [[356-твой-workflow|Твой workflow]] _29%_

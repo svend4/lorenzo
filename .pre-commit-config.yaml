@@ -1,22 +1,63 @@
-# Автоматически создан improve_pre_commit.py
-# Запуск: pre-commit run --all-files
-# Установка: pip install pre-commit && pre-commit install
+# Pre-commit hooks для Lorenzo
+# Установка:
+#   pip install pre-commit
+#   pre-commit install
+#
+# Прогон вручную:
+#   pre-commit run --all-files
+
 repos:
-  # Стандартные хуки
+  # Базовые проверки
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
-        types: [markdown]
+        exclude: '\.md$'
       - id: end-of-file-fixer
-        types: [markdown]
+        exclude: '^docs/(obsidian|confluence)/|^tasks/_generated/'
       - id: check-yaml
+        files: '^(\.github/|tasks/.+\.task\.yaml$|\.pre-commit-config\.yaml$)'
       - id: check-json
+        files: '\.json$'
+        exclude: '^docs/scripts_catalog\.json$'
       - id: check-merge-conflict
+      - id: check-added-large-files
+        args: ['--maxkb=2000']
+        exclude: '\.(mhtml|pdf|epub)$|^Поиск|^Комбинирование|^Вакансии'
       - id: mixed-line-ending
         args: [--fix=lf]
 
-  # Локальные проверки
+  # docs-toolkit структурная валидация
+  - repo: local
+    hooks:
+      - id: validate-templates
+        name: Валидация шаблонов
+        entry: python scripts/improve_validate_templates.py --strict
+        language: system
+        files: '^docs/.+\.md$'
+        pass_filenames: false
+
+      - id: validate-task-manifests
+        name: Валидация манифестов задач
+        entry: python scripts/improve_task_codegen.py --validate
+        language: system
+        files: '^tasks/.+\.task\.yaml$'
+        pass_filenames: false
+
+      - id: python-compile
+        name: Python syntax check
+        entry: python -m py_compile
+        language: system
+        files: '^(scripts|docs-toolkit)/.+\.py$'
+
+      - id: regenerate-catalogs
+        name: Регенерация каталогов
+        entry: bash -c 'python scripts/improve_scripts_catalog.py && python scripts/improve_task_codegen.py'
+        language: system
+        files: '^(scripts/improve_.+\.py|tasks/.+\.task\.yaml)$'
+        pass_filenames: false
+
+  # Legacy качество контента (из main)
   - repo: local
     hooks:
       - id: spellcheck

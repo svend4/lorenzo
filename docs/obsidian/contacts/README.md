@@ -1,20 +1,27 @@
+---
+title: "contacts"
+tags:
+  - contacts
+date: 2026-04-29
+---
+
 # contacts
 
 **Файлов:** 14
 
 ## Содержание
 
-- [anastasiyaw.md](anastasiyaw.md) — ---
-- [andrey-chuyan.md](andrey-chuyan.md) — ---
-- [antipozitive.md](antipozitive.md) — ---
-- [cutcode.md](cutcode.md) — ---
-- [dmitriila.md](dmitriila.md) — ---
-- [kksudo.md](kksudo.md) — ---
-- [mixaill76.md](mixaill76.md) — ---
-- [nlaik.md](nlaik.md) — ---
-- [sonia-black.md](sonia-black.md) — ---
-- [spbmolot.md](spbmolot.md) — ---
-- [tagir-analyzes.md](tagir-analyzes.md) — ---
-- [vitalyoborin.md](vitalyoborin.md) — ---
-- [vladspace.md](vladspace.md) — ---
-- [zodigancode.md](zodigancode.md) — ---
+- [[anastasiyaw|anastasiyaw.md]] — ---
+- [[andrey-chuyan|andrey-chuyan.md]] — ---
+- [[antipozitive|antipozitive.md]] — ---
+- [[cutcode|cutcode.md]] — ---
+- [[dmitriila|dmitriila.md]] — ---
+- [[kksudo|kksudo.md]] — ---
+- [[mixaill76|mixaill76.md]] — ---
+- [[nlaik|nlaik.md]] — ---
+- [[sonia-black|sonia-black.md]] — ---
+- [[spbmolot|spbmolot.md]] — ---
+- [[tagir-analyzes|tagir-analyzes.md]] — ---
+- [[vitalyoborin|vitalyoborin.md]] — ---
+- [[vladspace|vladspace.md]] — ---
+- [[zodigancode|zodigancode.md]] — ---

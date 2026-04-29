@@ -50,22 +50,6 @@ _Похожие документы:_
 _Смотрите также:_
 * [[353-что-ты-не-можешь-делать-вообще]]
 * [[28-appendix-a-minimal-working-example]]
-* [[321-appendix-a-decision-tree-for-ingit-adopters]]
+* [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 * [[352-что-ты-не-можешь-делать-без-max-approval]]
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[352-что-ты-не-можешь-делать-без-max-approval|Что ты НЕ МОЖЕШЬ делать без Max approval]] _29%_
-* [[22-10-queryresult-structure|10. QueryResult Structure]] _25%_
-* [[321-appendix-a-decision-tree-for-ingit-adopters|Appendix A: Decision Tree for InGit Adopters]] _25%_
-* [[353-что-ты-не-можешь-делать-вообще|Что ты НЕ МОЖЕШЬ делать вообще]] _25%_
-* [[04-abstract|Abstract]] _21%_
-* [[09-4-passport-passport-md|4. Passport ({{passport.md}})]] _21%_
-* [[123-portal-mcp-py|portal-mcp.py]] _21%_
-* [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] _21%_

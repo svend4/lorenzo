@@ -22,8 +22,8 @@ date: 2026-04-29
 В качестве иллюстраций используется экосистема `svend4` с тремя 
 Repos:
 
-- **info1**: 74 документа с α-уровнями, методологический угол
-- **pro2**: Q6-концепты, граф знаний, семантический угол
+- **[[01-интегральный-анализ-профиля-svend4|info1]]**: 74 документа с α-уровнями, методологический угол
+- **[[01-интегральный-анализ-профиля-svend4|pro2]]**: Q6-концепты, граф знаний, семантический угол
 - **meta**: 256 CA-правил, гексаграммы, символьный угол
 
 Эти Repos служат reference examples для тестирования NPP-совместимых 
@@ -38,7 +38,7 @@ implementations.
 **Похожие документы:**
 - [[97-22-glossary-of-reference-examples]] (сходство 0.33)
 - [[55-passports-meta-md]] (сходство 0.18)
-- [[35-passports-info1-md]] (сходство 0.16)
+- [[01-интегральный-анализ-профиля-svend4|35-passports-[info1]]-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -48,22 +48,6 @@ implementations.
 **Смотрите также:**
 - [[97-22-glossary-of-reference-examples]]
 - [[55-passports-meta-md]]
-- [[35-passports-info1-md]]
-- [[45-passports-pro2-md]]
+- [[01-интегральный-анализ-профиля-svend4|35-passports-[info1]]-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [[01-интегральный-анализ-профиля-svend4|45-passports-[pro2]]-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[97-22-glossary-of-reference-examples|22. Glossary of Reference Examples]] _66%_
-- [[35-passports-info1-md|passports/info1.md]] _48%_
-- [[45-passports-pro2-md|passports/pro2.md]] _48%_
-- [[55-passports-meta-md|passports/meta.md]] _48%_
-- [[56-essence|Essence]] _33%_
-- [[46-essence|Essence]] _29%_
-- [[25-13-reference-implementation|13. Reference Implementation]] _25%_
-- [[36-essence|Essence]] _25%_

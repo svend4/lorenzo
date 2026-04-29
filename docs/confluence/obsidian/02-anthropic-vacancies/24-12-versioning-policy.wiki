@@ -81,9 +81,30 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[05-0-status-of-this-document|0. Status of This Document]]
+* [[75-0-status-of-this-document|0. Status of This Document]]
+* [[92-17-versioning-policy|17. Versioning Policy]]
+* [[114-7-реализация-в-проекте-nautilus|7. Реализация в проекте Nautilus]]
+* [[42-author-contact|Author & Contact]]
+* [[62-author-contact|Author & Contact]]
+* [[03-portal-protocol-md|PORTAL-PROTOCOL.md]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[92-17-versioning-policy|17. Versioning Policy]] _81%_
+* [[62-author-contact|Author & Contact]] _37%_
+* [[42-author-contact|Author & Contact]] _33%_
+* [[75-0-status-of-this-document|0. Status of This Document]] _33%_
+* [[05-0-status-of-this-document|0. Status of This Document]] _29%_
+* [[25-13-reference-implementation|13. Reference Implementation]] _29%_
+* [[93-18-reference-implementation|18. Reference Implementation]] _29%_
+* [[03-portal-protocol-md|PORTAL-PROTOCOL.md]] _21%_
 h2. Связанные документы
 
 * [[92-17-versioning-policy|17. Versioning Policy]] _81%_

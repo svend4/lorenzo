@@ -16,7 +16,7 @@ h1. Контакт: tagir_analyzes / Legal RAG
 
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, AgentFS, Rufler, LiteParse, Legal RAG, Graph RAG, SENTINEL, Auto AI Router
+_Проекты:_ Svyazi, Legal RAG
 
 ----
 
@@ -73,16 +73,14 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Связанные документы
 
-* [[cutcode|Контакт: Cutcode / AIF Handoff]] _73%_
-* [[dmitriila|Контакт: Dmitriila / SENTINEL]] _73%_
-* [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _73%_
-* [[vladspace|Контакт: VladSpace / Graph RAG]] _73%_
-* [[zodigancode|Контакт: zodigancode / Rufler]] _73%_
-* [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] _66%_
-* [[kksudo|Контакт: kksudo / AgentFS]] _66%_
-* [[nlaik|Контакт: nlaik / LiteParse / research-docs]] _66%_
+----
+
+_Похожие документы:_
+* [[vladspace]] (сходство 0.88)
+* [[zodigancode]] (сходство 0.86)
+* [[mixaill76]] (сходство 0.86)
+
 
 
 
@@ -90,7 +88,7 @@ h2. Связанные документы
 
 _Смотрите также:_
 * [[vladspace]]
-* [[nlaik]]
-* [[sonia-black]]
 * [[cutcode]]
+* [[zodigancode]]
+* [[dmitriila]]
 

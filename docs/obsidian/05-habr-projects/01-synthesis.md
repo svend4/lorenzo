@@ -58,9 +58,24 @@ _Обновлено: 2026-04-29_
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [NGT[^ngt] Memory: ассоциативный граф](memory/ngt-memory.md)
+- [[wikontic|Wikontic: семантический граф]]
+- [Yodoca[^yodoca]: консолидация и забывание](memory/yodoca.md)
+- [[02-collaboration-partners|Авторы и контакты]]
+- [[README|Уникальные проекты с Хабра]]
+## Упоминается в
+
 - [[README|Уникальные проекты с Хабра]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [NGT[^ngt] Memory: ассоциативный граф](memory/ngt-memory.md) _33%_
+- [[wikontic|Wikontic: семантический граф]] _29%_
+- [[README|Уникальные проекты с Хабра]] _25%_
+- [Yodoca[^yodoca]: консолидация и забывание](memory/yodoca.md) _25%_
+- [[02-collaboration-partners|Авторы и контакты]] _21%_
+- [[README|Системы памяти]] _20%_
 ## Связанные документы
 
 - [[README|Уникальные проекты с Хабра]] _29%_

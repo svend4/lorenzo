@@ -5,6 +5,15 @@
 
 h1. 2. The Twenty-One Teachers Pattern
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ AI Architecture Should Mirror This If composite mastery is how skilled practitioners actually develop, AI infrastructure supporting them should make this pattern accessible — not j{quote}
+{quote}🔧 _Подход:_ A teacher whose effectiveness comes from combining subject expertise (mathematics), pedagogical approach (constructivist), specialty (working with neurodivergent students), and cul{quote}
+{quote}🏷️ _Ключевые слова:_ {{twenty}}, {{pattern}}, {{teachers}}, {{combination}}, {{another}}, {{anthropic}}, {{vacancies}}, {{story}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -167,9 +176,25 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [1. Why the Binary View Is Incomplete|254-1-why-the-binary-view-is-incomplete.md]
+* [13. Closing|266-13-closing.md]
+* [2. What Cowork Provides That InGit Doesn't Need to Build|310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md]
+* [6. Coordination and Disagreement Resolution|259-6-coordination-and-disagreement-resolution.md]
+* [8. Seven Domains of Application|261-8-seven-domains-of-application.md]
+* [Table of Contents|253-table-of-contents.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [1. Why the Binary View Is Incomplete|254-1-why-the-binary-view-is-incomplete.md] _33%_
+* [Table of Contents|253-table-of-contents.md] _29%_
+* [Abstract|252-abstract.md] _25%_
+* [13. Closing|266-13-closing.md] _25%_
+* [6. Coordination and Disagreement Resolution|259-6-coordination-and-disagreement-resolution.md] _21%_
 h2. Связанные документы
 
 * [6. Coordination and Disagreement Resolution|259-6-coordination-and-disagreement-resolution.md] _33%_

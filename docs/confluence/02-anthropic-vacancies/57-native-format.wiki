@@ -73,9 +73,30 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [Angle / Perspective|49-angle-perspective.md]
+* [Bridges|40-bridges.md]
+* [Bridges|50-bridges.md]
+* [Bridges|60-bridges.md]
+* [Compatibility Level|51-compatibility-level.md]
+* [Compatibility Level|61-compatibility-level.md]
+* [Native Format|37-native-format.md]
+* [Native Format|47-native-format.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Compatibility Level|51-compatibility-level.md] _42%_
+* [Angle / Perspective|49-angle-perspective.md] _37%_
+* [Bridges|60-bridges.md] _37%_
+* [Native Format|47-native-format.md] _33%_
+* [Bridges|50-bridges.md] _33%_
+* [Compatibility Level|61-compatibility-level.md] _33%_
+* [Angle / Perspective|39-angle-perspective.md] _29%_
+* [Bridges|40-bridges.md] _29%_
 h2. Связанные документы
 
 * [Native Format|37-native-format.md] _33%_

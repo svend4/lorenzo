@@ -11,7 +11,7 @@ date: 2026-04-29
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, Graph RAG, Yodoca, NGT Memory, SENTINEL, Auto AI Router
+**Проекты:** Svyazi, AgentFS
 
 ---
 
@@ -70,30 +70,23 @@ AgentFS закрывает слой «knowledge/filesystem» в архитект
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- backlinks-auto -->
-## Упоминается в
+<!-- similar-docs -->
 
-- [[CONTACT_PRIORITY|Приоритет контактов]]
+---
 
-<!-- related-auto -->
-## Связанные документы
+**Похожие документы:**
+- [[vladspace]] (сходство 0.71)
+- [[zodigancode]] (сходство 0.70)
+- [[tagir-analyzes]] (сходство 0.70)
 
-- [[spbmolot|Контакт: spbmolot / NGT Memory]] _81%_
-- [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _81%_
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _73%_
-- [[dmitriila|Контакт: Dmitriila / SENTINEL]] _73%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _73%_
-- [[vladspace|Контакт: VladSpace / Graph RAG]] _73%_
-- [[zodigancode|Контакт: zodigancode / Rufler]] _73%_
-- [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] _66%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[spbmolot]]
+- [[tagir-analyzes]]
 - [[vladspace]]
 - [[cutcode]]
-- [[dmitriila]]
+- [[zodigancode]]
 

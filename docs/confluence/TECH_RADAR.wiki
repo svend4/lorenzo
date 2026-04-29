@@ -138,3 +138,11 @@ _Смотрите также:_
 * [WORD_FREQ|WORD_FREQ.md]
 * [RISK_REGISTER|RISK_REGISTER.md]
 
+
+h2. Упоминается в
+
+* [docs|README.md]
+* [Все таблицы репозитория|TABLES.md]
+* [Глоссарий понятий|CONCEPTS.md]
+* [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md]
+* [Карта репозитория Lorenzo|SITEMAP.md]

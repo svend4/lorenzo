@@ -1,3 +1,17 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "[Имя]"
+author_handle: "[@handle]"
+projects: []
+platform: "[Habr|GitHub|Telegram]"
+status: not_started
+priority: 3
+created: 2026-04-29
+last_contact: null
+tags: [контакты, команда]
+---
+
 # Контакт: [Имя / Проект]
 
 <!-- summary: Шаблон для связи с автором X -->
@@ -40,14 +54,3 @@
 
 ---
 _Создано: 2026-04-29_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [dmitriila](docs/contacts/dmitriila.md)
-- [mixaill76](docs/contacts/mixaill76.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-- [vladspace](docs/contacts/vladspace.md)
-

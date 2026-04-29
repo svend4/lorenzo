@@ -52,9 +52,38 @@ markdown
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[25-13-reference-implementation|13. Reference Implementation]]
+- [[27-15-glossary-of-examples|15. Glossary of Examples]]
+- [[93-18-reference-implementation|18. Reference Implementation]]
+- [[97-22-glossary-of-reference-examples|22. Glossary of Reference Examples]]
+- [[59-angle-perspective|Angle / Perspective]]
+- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+- [[42-author-contact|Author & Contact]]
+- [[62-author-contact|Author & Contact]]
+- [[50-bridges|Bridges]]
+- [[48-content-overview|Content Overview]]
+- [[36-essence|Essence]]
+- [[46-essence|Essence]]
+- [[56-essence|Essence]]
+- [[43-history|History]]
+- [[55-passports-meta-md|passports/meta.md]]
+- [[45-passports-pro2-md|passports/pro2.md]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[45-passports-pro2-md|passports/pro2.md]] _66%_
+- [[55-passports-meta-md|passports/meta.md]] _66%_
+- [[27-15-glossary-of-examples|15. Glossary of Examples]] _53%_
+- [[46-essence|Essence]] _48%_
+- [[59-angle-perspective|Angle / Perspective]] _37%_
+- [[25-13-reference-implementation|13. Reference Implementation]] _33%_
+- [[36-essence|Essence]] _33%_
+- [[56-essence|Essence]] _33%_
 ## Связанные документы
 
 - [[45-passports-pro2-md|passports/pro2.md]] _66%_
