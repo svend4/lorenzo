@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 29 Apr 2026 15:48:53 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 15:56:36 GMT</lastBuildDate>
+    <item>
+      <title>chore: regenerate auto-feeds after Sprint 36-38</title>
+      <link>https://github.com/svend4/lorenzo/commit/6efb6b90e71e8c5830c8c510396d0669b35341ce</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/6efb6b90e71e8c5830c8c510396d0669b35341ce</guid>
+      <pubDate>Wed, 29 Apr 2026 15:49:36 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 36-38</strong></p><p>Коммит: <code>6efb6b90</code></p>]]></description>
+    </item>
     <item>
       <title>chore: regenerate auto-feeds after Sprint 33-35</title>
       <link>https://github.com/svend4/lorenzo/commit/65941440969581f7316e6875cc64bc90ed45e722</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/88a8480c88c5b60a11f072f3815f3b5ca326b055</guid>
       <pubDate>Wed, 29 Apr 2026 14:40:59 GMT</pubDate>
       <description><![CDATA[<p><strong>docs: auto-update via improve_run_all [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/AUTHORS.md">docs/AUTHORS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPLEXITY.md">docs/COMPLEXITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPTS.md">docs/CONCEPTS.md</a></li></ul><p>Коммит: <code>88a8480c</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: regenerate auto-exports after Sprint 18-20</title>
-      <link>https://github.com/svend4/lorenzo/commit/f053125f9e634d831aa7d2ed9318e1269b4cebc0</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/f053125f9e634d831aa7d2ed9318e1269b4cebc0</guid>
-      <pubDate>Wed, 29 Apr 2026 14:36:16 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: regenerate auto-exports after Sprint 18-20</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>f053125f</code></p>]]></description>
     </item>
   </channel>
 </rss>
