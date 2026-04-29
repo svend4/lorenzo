@@ -337,8 +337,58 @@ def main():
                              help="Exit 1 если есть failed")
     p_skl_test.set_defaults(func=cmd_skills_test)
 
+    p_rag = sub.add_parser("rag", help="RAG Q&A: retrieve → assemble → answer")
+    p_rag_sub = p_rag.add_subparsers(dest="rag_cmd", required=True)
+
+    p_rag_ask = p_rag_sub.add_parser("ask", help="Задать вопрос корпусу")
+    p_rag_ask.add_argument("question")
+    p_rag_ask.add_argument("-k", "--top", type=int, default=5)
+    p_rag_ask.add_argument("--method", choices=["keyword", "semantic", "hybrid"],
+                           default="hybrid")
+    p_rag_ask.add_argument("--answerer", choices=["echo", "anthropic"],
+                           default="echo")
+    p_rag_ask.add_argument("--model", default="claude-haiku-4-5-20251001")
+    p_rag_ask.add_argument("--json", action="store_true")
+    p_rag_ask.add_argument("--md", action="store_true")
+    p_rag_ask.set_defaults(func=cmd_rag_ask)
+
     args = parser.parse_args()
     return args.func(args)
+
+
+def cmd_rag_ask(args):
+    """RAG Q&A."""
+    from docstoolkit.rag import ask
+    result = ask(
+        args.question,
+        top_k=args.top,
+        method=args.method,
+        answerer=args.answerer,
+        model=args.model,
+    )
+
+    if args.json:
+        from dataclasses import asdict
+        d = asdict(result)
+        d["retrieved_passages"] = [
+            {"text": p.text[:300], "doc_id": p.doc_id, "title": p.title,
+             "score": p.score}
+            for p in result.retrieved_passages
+        ]
+        print(json.dumps(d, ensure_ascii=False, indent=2))
+    elif args.md:
+        print(result.to_markdown())
+    else:
+        print(f"# {result.query}\n")
+        print(result.answer)
+        print()
+        if result.citations:
+            print(f"## Источники ({len(result.citations)})")
+            for c in result.citations:
+                print(f"  [{c['n']}] {c['title']} — `{c['doc_id']}` (score {c['score']:.3f})")
+        print(f"\n_Время: {result.duration_ms}ms · Tokens: {result.tokens_used}"
+              f" · Cost: ${result.cost_estimate:.6f} · Method: {result.method}_")
+    return 0
 
 
 def cmd_skills_list(args):
