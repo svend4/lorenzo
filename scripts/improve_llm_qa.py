@@ -300,9 +300,54 @@ def single_question(question: str, index: list[dict], client=None,
     return answer
 
 
+QA_PROMPT_WITH_HISTORY = """\
+Ты помогаешь работать с базой знаний проекта Svyazi 2.0 / Lorenzo.
+
+История диалога:
+{history}
+
+Новый вопрос: {question}
+
+Контекст из базы знаний:
+{context}
+
+---
+
+Ответь на вопрос. Можешь опираться на историю диалога если это уместно.
+Если контекст не содержит ответа — скажи об этом явно.
+
+Формат:
+**Ответ:** [1-3 предложения]
+
+**Детали:** [если нужны дополнительные факты]
+
+**Источники:** [файлы из которых взята информация]"""
+
+
+def ask_llm_with_history(question: str, context: str, history: list[dict], client) -> str:
+    if not history:
+        return ask_llm(question, context, client)
+
+    history_text = "\n".join(
+        f"Q: {h['q']}\nA: {h['a'][:300]}..." if len(h['a']) > 300 else f"Q: {h['q']}\nA: {h['a']}"
+        for h in history[-4:]  # последние 4 обмена
+    )
+    resp = client.messages.create(
+        model=MODEL,
+        max_tokens=700,
+        messages=[{"role": "user", "content":
+            QA_PROMPT_WITH_HISTORY.format(
+                history=history_text, question=question, context=context
+            )}],
+    )
+    return resp.content[0].text.strip()
+
+
 def interactive_mode(index: list[dict], client, cache: dict) -> None:
     save_hint = " (ответы сохраняются в QA_ANSWERS.md)" if SAVE else " (--save для сохранения)"
-    print(f"\nИнтерактивный режим{save_hint}. Введите вопрос (или 'exit'):\n")
+    print(f"\nИнтерактивный режим{save_hint}.")
+    print("Модель помнит последние 4 вопроса сессии. Введите вопрос (или 'exit'):\n")
+    history: list[dict] = []  # [{q, a}, ...]
     while True:
         try:
             q = input("❓ ").strip()
@@ -311,7 +356,30 @@ def interactive_mode(index: list[dict], client, cache: dict) -> None:
             break
         if not q or q.lower() in ("exit", "quit", "выход"):
             break
-        single_question(q, index, client, cache)
+
+        docs = find_relevant(q, index)
+        print(f"\n  Найдено источников: {len(docs)}")
+        for d in docs:
+            print(f"    - {d.get('title', d.get('path', '?'))}")
+
+        cached = get_cached(q, cache)
+        if cached and not history:
+            answer = cached
+            print("  (из кэша)")
+        else:
+            context = build_context(docs)
+            answer = ask_llm_with_history(q, context, history, client)
+            if not history:  # кэшируем только если нет контекста диалога
+                put_cached(q, answer, cache)
+                save_cache(cache)
+
+        print(f"\n{answer}\n")
+        history.append({"q": q, "a": answer})
+
+        if SAVE:
+            append_to_qa_answers(q, answer, docs)
+            print("  📝 Сохранено в QA_ANSWERS.md")
+
         time.sleep(0.3)
 
 

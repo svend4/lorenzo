@@ -9,6 +9,8 @@ improve_run_all.py — мастер-скрипт для запуска всех 
   --group X       Запускает только одну группу
   --changed       Запускает только скрипты, связанные с git-изменёнными файлами
   --only a,b,c    Запускает конкретные скрипты (без группировки)
+  --parallel N    Запускает группы параллельно в N потоках (по умолчанию 1)
+  --report        После прогона показывает git diff --stat изменённых файлов
 
 Группы (в порядке выполнения):
   structure → index → analysis → extract → quality →
@@ -19,11 +21,13 @@ improve_run_all.py — мастер-скрипт для запуска всех 
         python scripts/improve_run_all.py --group generate
         python scripts/improve_run_all.py --changed
         python scripts/improve_run_all.py --only improve_metrics.py,improve_health.py
+        python scripts/improve_run_all.py --parallel 4 --report
 """
 import re
 import subprocess
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -127,6 +131,9 @@ GROUPS = {
         "improve_digest.py",
         "improve_progress.py",
         "improve_progress_sync.py",
+        "improve_contact_priority.py",
+        "improve_staleness.py",
+        "improve_coverage.py",
         "improve_report.py",
     ],
     "export": [
@@ -293,8 +300,18 @@ def main():
     dry_run  = "--dry-run" in args
     smart    = "--smart"   in args
     changed  = "--changed" in args
+    report   = "--report"  in args
+    parallel = 1
     group_filter = None
     only_scripts: list[str] = []
+
+    if "--parallel" in args:
+        idx = args.index("--parallel")
+        if idx + 1 < len(args):
+            try:
+                parallel = max(1, int(args[idx + 1]))
+            except ValueError:
+                parallel = 4
 
     if "--group" in args:
         idx = args.index("--group")
@@ -313,11 +330,13 @@ def main():
 
     print("=" * 60)
     print("Lorenzo — запуск всех скриптов обработки")
-    if fast:    print("  Режим: FAST (медленные скрипты пропускаются)")
-    if dry_run: print("  Режим: DRY-RUN (реальный запуск отключён)")
-    if smart:   print("  Режим: SMART (условный запуск по метрикам)")
-    if changed: print("  Режим: CHANGED (только скрипты для изменённых файлов)")
+    if fast:         print("  Режим: FAST (медленные скрипты пропускаются)")
+    if dry_run:      print("  Режим: DRY-RUN (реальный запуск отключён)")
+    if smart:        print("  Режим: SMART (условный запуск по метрикам)")
+    if changed:      print("  Режим: CHANGED (только скрипты для изменённых файлов)")
     if only_scripts: print(f"  Режим: ONLY — {', '.join(only_scripts)}")
+    if parallel > 1: print(f"  Режим: PARALLEL — {parallel} потоков")
+    if report:       print("  Режим: REPORT (git diff после прогона)")
     if group_filter: print(f"  Группа: {group_filter}")
     print("=" * 60)
 
@@ -361,44 +380,66 @@ def main():
         print(f"  Группы для запуска: {', '.join(groups_to_run)}")
     else:
         groups_to_run = GROUP_ORDER
-    for group in groups_to_run:
+
+    def _run_group(group: str) -> tuple[int, int, int, float]:
+        """Запускает одну группу. Возвращает (ok, err, skip, time)."""
         scripts = GROUPS.get(group, [])
         if not scripts:
             print(f"\n⚠️  Группа '{group}' не найдена")
-            continue
+            return 0, 0, 0, 0.0
 
         print(f"\n{'─'*40}")
         print(f"Группа: {group.upper()} ({len(scripts)} скриптов)")
         print(f"{'─'*40}")
 
+        g_ok = g_err = g_skip = 0
+        g_time = 0.0
         for script in scripts:
             if script in LLM_SCRIPTS:
                 print(f"  🤖 {script} — пропущен (требует ANTHROPIC_API_KEY, запускать отдельно)")
-                total_skip += 1
+                g_skip += 1
                 continue
-
             if fast and script in SLOW_SCRIPTS:
                 print(f"  ⏩ {script} — пропущен (slow)")
-                total_skip += 1
+                g_skip += 1
                 continue
-
             skip, reason = should_skip_smart(script, smart)
             if skip:
                 print(f"  ✔️  {script} — пропущен ({reason})")
-                total_skip += 1
+                g_skip += 1
                 continue
-
             ok, elapsed = run_script(script, dry_run)
             if ok:
-                total_ok  += 1
+                g_ok += 1
             else:
-                total_err += 1
-            total_time += elapsed
+                g_err += 1
+            g_time += elapsed
+        return g_ok, g_err, g_skip, g_time
+
+    if parallel > 1 and not dry_run:
+        with ThreadPoolExecutor(max_workers=parallel) as ex:
+            futures = {ex.submit(_run_group, g): g for g in groups_to_run}
+            for fut in as_completed(futures):
+                ok, err, skip, t = fut.result()
+                total_ok += ok; total_err += err
+                total_skip += skip; total_time += t
+    else:
+        for group in groups_to_run:
+            ok, err, skip, t = _run_group(group)
+            total_ok += ok; total_err += err
+            total_skip += skip; total_time += t
 
     print("\n" + "=" * 60)
     print(f"Итог: ✅ {total_ok} успешно  ❌ {total_err} ошибок  "
           f"⏩ {total_skip} пропущено  ⏱ {total_time:.0f}с")
     print("=" * 60)
+
+    if report and not dry_run:
+        print("\n📋 Изменения (git diff --stat):")
+        diff = subprocess.run(["git", "diff", "--stat", "HEAD"],
+                              cwd=ROOT, capture_output=True, text=True)
+        out = diff.stdout.strip()
+        print(out if out else "  нет изменений")
 
     if total_err > 0:
         sys.exit(1)

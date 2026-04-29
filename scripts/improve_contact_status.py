@@ -130,6 +130,30 @@ def list_all_contacts() -> None:
     print()
 
 
+def _apply_status_to_file(path: Path, args: list[str]) -> bool:
+    """Применяет флаги статуса и заметки к файлу. Возвращает True если что-то изменилось."""
+    text = path.read_text(encoding="utf-8")
+    changed = False
+
+    for key, label in CHECKBOXES.items():
+        if f"--{key}" in args:
+            text = set_checkbox(text, label, True)
+            print(f"  ✅ [{path.stem}] Отмечено: {label}")
+            changed = True
+
+    if "--note" in args:
+        note_idx = args.index("--note")
+        if note_idx + 1 < len(args):
+            note = args[note_idx + 1]
+            text = add_note(text, note)
+            print(f"  📝 [{path.stem}] Заметка: {note}")
+            changed = True
+
+    if changed:
+        path.write_text(text, encoding="utf-8")
+    return changed
+
+
 def main() -> None:
     args = sys.argv[1:]
 
@@ -138,8 +162,37 @@ def main() -> None:
         if "--list" in args:
             return
         print("Использование: python scripts/improve_contact_status.py --author <имя> --<статус>")
+        print("               python scripts/improve_contact_status.py --bulk 'kk,spb' --studied")
         print("Флаги статуса: --studied | --messaged | --replied | --agreed")
         print("Заметка: --note 'текст'")
+        return
+
+    # --bulk: обновить несколько авторов сразу
+    if "--bulk" in args:
+        idx = args.index("--bulk")
+        if idx + 1 >= len(args):
+            print("❌ После --bulk укажите имена через запятую")
+            sys.exit(1)
+        names = [n.strip() for n in args[idx + 1].split(",")]
+        bulk_args = [a for a in args if a != "--bulk" and a != args[idx + 1]]
+        total_changed = 0
+        for name in names:
+            path = find_contact_file(name)
+            if path is None:
+                slug = re.sub(r'[^a-z0-9]', '-', name.lower())
+                direct = CONTACTS_DIR / f"{slug}.md"
+                path = direct if direct.exists() else None
+            if path is None:
+                print(f"  ⚠️  '{name}' не найден — пропускаем")
+                continue
+            if _apply_status_to_file(path, bulk_args):
+                total_changed += 1
+        if total_changed > 0:
+            import subprocess
+            sync_script = ROOT / "scripts" / "improve_progress_sync.py"
+            if sync_script.exists():
+                subprocess.run([sys.executable, str(sync_script)], cwd=ROOT, capture_output=True)
+            print(f"\n✅ Обновлено {total_changed} файлов, PROGRESS.md синхронизирован")
         return
 
     if "--author" not in args:
@@ -165,40 +218,16 @@ def main() -> None:
             print("   Список: python scripts/improve_contact_status.py --list")
             sys.exit(1)
 
-    text = path.read_text(encoding="utf-8")
-
-    changed = False
-
-    # Обновляем статусы
-    for key, label in CHECKBOXES.items():
-        if f"--{key}" in args:
-            old_status = get_current_status(text)
-            text = set_checkbox(text, label, True)
-            print(f"  ✅ Отмечено: {label}")
-            changed = True
-
-    # Добавляем заметку
-    if "--note" in args:
-        note_idx = args.index("--note")
-        if note_idx + 1 < len(args):
-            note = args[note_idx + 1]
-            text = add_note(text, note)
-            print(f"  📝 Заметка добавлена: {note}")
-            changed = True
+    changed = _apply_status_to_file(path, args)
 
     if changed:
-        path.write_text(text, encoding="utf-8")
         print(f"\n✅ {path.relative_to(ROOT)} обновлён")
-
-        # Синхронизируем прогресс автоматически
         import subprocess
         sync_script = ROOT / "scripts" / "improve_progress_sync.py"
         if sync_script.exists():
-            subprocess.run([sys.executable, str(sync_script)], cwd=ROOT,
-                           capture_output=True)
+            subprocess.run([sys.executable, str(sync_script)], cwd=ROOT, capture_output=True)
             print("   PROGRESS.md синхронизирован")
     else:
-        # Если флагов статуса нет — показываем текущий статус
         show_status(path)
 
 

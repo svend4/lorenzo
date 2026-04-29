@@ -24,7 +24,7 @@ _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 14 файлов, не отправлено | 14 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 71 скриптов | 3 LLM-скриптов, MCP=✅ |
+| Скрипты обработки | ✅ 73 скриптов | 3 LLM-скриптов, MCP=✅ |
 | DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 4 скиллов | review-docs, write-contact, improve, analyze-project |
 
