@@ -1,8 +1,36 @@
 # Карта зависимостей скриптов
 
+<!-- summary -->
+> - [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Зависимости](#зависимости)
+- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
+- [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
+
+---
+
+<!-- tags: rag, ingestion, roadmap, anthropic, self-improvement -->
+
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Зависимости](#зависимости)
+- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
+- [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
+
+
 _Что каждый `improve_*.py` производит и от чего зависит._
 
-**Скриптов в карте:** 49 · **Всего в репо:** 75
+**Скриптов в карте:** 49 · **Всего в репо:** 125
 
 ## Зависимости
 
@@ -62,31 +90,81 @@ _Что каждый `improve_*.py` производит и от чего зав
 
 _Существуют в репо, но не добавлены в карту:_
 
+- `improve_abstract.py`
 - `improve_alerts.py`
+- `improve_auto_toc.py`
 - `improve_autocorrect.py`
+- `improve_benchmark.py`
 - `improve_broken_links.py`
 - `improve_changelog.py`
+- `improve_changelog_auto.py`
+- `improve_chunk_semantic.py`
+- `improve_ci_config.py`
+- `improve_citation_index.py`
 - `improve_compare.py`
+- `improve_compare_docs.py`
 - `improve_complexity.py`
+- `improve_component_matrix.py`
+- `improve_concept_graph.py`
+- `improve_confluence.py`
 - `improve_consistency.py`
+- `improve_contact_priority.py`
+- `improve_contact_status.py`
 - `improve_contacts.py`
+- `improve_content_gaps.py`
+- `improve_contradiction_check.py`
+- `improve_coverage.py`
+- `improve_crosslink_all.py`
 - `improve_crossrefs.py`
 - `improve_dedup.py`
 - `improve_density.py`
+- `improve_dependabot.py`
+- `improve_duplicate_across.py`
+- `improve_epub.py`
+- `improve_external_compare.py`
 - `improve_extract_code.py`
 - `improve_extract_tables.py`
+- `improve_github_issues.py`
 - `improve_graph.py`
+- `improve_index_master.py`
+- `improve_keyword_index.py`
+- `improve_kpi_snapshot.py`
+- `improve_link_preview.py`
+- `improve_llm_contact.py`
+- `improve_merge_by_topic.py`
 - `improve_merge_short.py`
 - `improve_mindmap.py`
 - `improve_missing.py`
+- `improve_named_entity_index.py`
 - `improve_narrative.py`
+- `improve_obsidian.py`
+- `improve_outline.py`
+- `improve_paragraph_quality.py`
+- `improve_passage_retrieval.py`
+- `improve_pre_commit.py`
 - `improve_priorities.py`
+- `improve_progress_sync.py`
 - `improve_qa.py`
+- `improve_readability_v2.py`
 - `improve_reading_order.py`
+- `improve_reading_time.py`
+- `improve_reclassify.py`
+- `improve_risk_register.py`
+- `improve_rss.py`
 - `improve_run_all.py`
 - `improve_see_also.py`
+- `improve_source_map.py`
+- `improve_spellcheck.py`
+- `improve_staleness.py`
+- `improve_subtopic_fill.py`
 - `improve_templates.py`
+- `improve_text_segmenter.py`
 - `improve_timeline.py`
+- `improve_timeline_events.py`
+- `improve_topic_model.py`
+- `improve_version_diff.py`
+- `improve_vocabulary_richness.py`
+- `improve_watch.py`
 - `improve_watcher.py`
 
 ## Порядок запуска (рекомендуемый)
@@ -104,4 +182,15 @@ _Существуют в репо, но не добавлены в карту:_
 ```
 
 _Используй `python scripts/improve_run_all.py` для автоматического порядка._
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
+- [CHANGELOG](docs/CHANGELOG.md)
+- [SITEMAP](docs/SITEMAP.md)
+- [TAGS](docs/TAGS.md)
 

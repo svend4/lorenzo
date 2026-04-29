@@ -1,5 +1,15 @@
 # 6. Adapter Interface
 
+<!-- toc-auto -->
+## Contents
+
+- [6. Adapter Interface](#6-adapter-interface)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -103,3 +113,19 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 - [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
 - [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _53%_
+- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _29%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _29%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _25%_
+- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _25%_
+- [Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) _21%_
+- [11. Relevance Ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) _21%_
+- [14. SDK Contract (Informative)](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md) _21%_

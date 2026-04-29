@@ -247,3 +247,16 @@ Community governance operates:
 - [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
 - [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _25%_
+- [8. Call to Action](docs/02-anthropic-vacancies/145-8-call-to-action.md) _21%_
+- [Appendix C: Version History](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) _17%_
+- [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md) _17%_
+- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _17%_

@@ -1,5 +1,15 @@
 # Word Cloud
 
+<!-- summary -->
+> Визуализация 80 самых частых слов репозитория.
+**Проекты:** Svyazi
+
+---
+<!-- tags: rag, ingestion, anthropic -->
+
+
+
+
 Визуализация 80 самых частых слов репозитория.
 
 ![Word Cloud](WORD_CLOUD.svg)
@@ -28,3 +38,26 @@
 | 18 | **memory** | 591 |
 | 19 | **lorenzo** | 557 |
 | 20 | **claude** | 556 |
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Время чтения документов](docs/READING_TIME.md) _29%_
+- [Кластеры тематически близких файлов](docs/CLUSTERS.md) _25%_
+- [Инвертированный индекс ключевых слов](docs/KEYWORD_INDEX.md) _25%_
+- [Рекомендуемый порядок чтения](docs/READING_ORDER.md) _25%_
+- [Карта происхождения текстов](docs/SOURCE_MAP.md) _25%_
+- [Частотный анализ слов](docs/WORD_FREQ.md) _25%_
+- [Качество абзацев](docs/PARAGRAPH_QUALITY.md) _21%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) _17%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
+- [KEYWORD_INDEX](docs/KEYWORD_INDEX.md)
+- [270-appendix-b-sub-agent-registry-schema-sketch](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+

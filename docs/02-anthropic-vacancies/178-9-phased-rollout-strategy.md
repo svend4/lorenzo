@@ -1,5 +1,34 @@
 # 9. Phased Rollout Strategy
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [9. Phased Rollout Strategy](#9-phased-rollout-strategy)
+  - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1-12)
+  - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-domain-maturation-year-2)
+  - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansion-years-3-4)
+  - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
+  - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
+  - [9.6. Pace Considerations](#96-pace-considerations)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [9. Phased Rollout Strategy](#9-phased-rollout-strategy)
+  - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1-12)
+  - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-domain-maturation-year-2)
+  - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansion-years-3-4)
+  - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
+  - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
+  - [9.6. Pace Considerations](#96-pace-considerations)
+
+
 <!-- summary -->
 > A responsible deployment of Representative Agent technology
 
@@ -127,3 +156,17 @@ durable, beneficial infrastructure than rapid scaling.
 - [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) _29%_
+- [8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
+- [5. Economic Model](docs/02-anthropic-vacancies/159-5-economic-model.md) _17%_
+- [11. Call for Collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) _17%_
+- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _17%_
+- [Глоссарий понятий](docs/CONCEPTS.md) _17%_

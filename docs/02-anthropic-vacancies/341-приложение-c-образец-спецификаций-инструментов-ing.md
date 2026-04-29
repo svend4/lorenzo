@@ -1997,3 +1997,17 @@ Web durchsucht
 - [ACTION_ITEMS](docs/ACTION_ITEMS.md)
 - [165-closing](docs/02-anthropic-vacancies/165-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Существующий landscape collaborators (твоя working knowledge)](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) _25%_
+- [Инвертированный индекс ключевых слов](docs/KEYWORD_INDEX.md) _25%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _17%_
+- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _17%_
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md) _17%_
+- [Кластеры тематически близких файлов](docs/CLUSTERS.md) _17%_

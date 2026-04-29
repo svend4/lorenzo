@@ -47,3 +47,19 @@ Last updated: 2026-04*
 - [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
 - [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _33%_
+- [Содержание](docs/02-anthropic-vacancies/190-содержание.md) _33%_
+- [For the Curious: Philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md) _33%_
+- [Planned (v0.2.0)](docs/02-anthropic-vacancies/132-planned-v0-2-0.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _29%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _29%_
+- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _29%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _25%_

@@ -64,3 +64,19 @@ when AI augments human practice.
 - [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
 - [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _48%_
+- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _42%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
+- [AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) _33%_
+- [Abstract](docs/02-anthropic-vacancies/252-abstract.md) _33%_
+- [References](docs/02-anthropic-vacancies/287-references.md) _33%_
+- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _29%_
+- [Acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md) _29%_

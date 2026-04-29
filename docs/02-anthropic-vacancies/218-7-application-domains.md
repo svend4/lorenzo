@@ -213,3 +213,17 @@ application drafting.
 - [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [6. Four Deployment Domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) _17%_
+- [8. Seven Domains of Application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md) _17%_
+- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _17%_
+- [What's Missing — Layer B](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) _17%_
+- [The Specific Case in Front of Us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) _17%_
+- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _17%_

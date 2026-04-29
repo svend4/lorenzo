@@ -239,3 +239,19 @@ consensus-based validation across repos.
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 - [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md) _33%_
+- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _29%_
+- [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _29%_
+- [13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) _29%_
+- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _29%_
+- [18. Reference Implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _25%_

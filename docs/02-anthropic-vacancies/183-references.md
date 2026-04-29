@@ -1,5 +1,16 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Principal-Agent Theory](#principal-agent-theory)
+  - [Disability and Access](#disability-and-access)
+  - [Modern AI Ethics](#modern-ai-ethics)
+  - [Companion Documents](#companion-documents)
+
+
 <!-- summary -->
 > - Akerlof, G. (1970). "The Market for Lemons: Quality
 
@@ -74,3 +85,19 @@
 - [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _25%_
+- [References](docs/02-anthropic-vacancies/225-references.md) _25%_
+- [References](docs/02-anthropic-vacancies/268-references.md) _25%_
+- [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) _21%_
+- [References](docs/02-anthropic-vacancies/147-references.md) _21%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) _21%_
+- [Acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md) _21%_

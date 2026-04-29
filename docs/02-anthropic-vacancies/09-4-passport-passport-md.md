@@ -1,4 +1,14 @@
 # 4. Passport (`passport.md`)
+<!-- tags: anthropic -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Recommended Structure](#42-recommended-structure)
+
 
 <!-- summary -->
 > Passport — human-readable описание Repo, расположенное в корне
@@ -60,3 +70,19 @@ Passport SHOULD содержать следующие разделы:
 - [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
 - [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _33%_
+- [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md) _29%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) _29%_
+- [Planned (v0.2.0)](docs/02-anthropic-vacancies/132-planned-v0-2-0.md) _25%_
+- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _25%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
+- [History](docs/02-anthropic-vacancies/63-history.md) _25%_
+- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _21%_

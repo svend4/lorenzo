@@ -1,5 +1,32 @@
 # Existing Approximations
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+
+
 <!-- summary -->
 > Several existing tools approximate parts of what Layer B
 
@@ -111,3 +138,19 @@ problem.
 - [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [What Industry Will Likely Build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md) _33%_
+- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _29%_
+- [The Specific Case in Front of Us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) _29%_
+- [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) _25%_
+- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _25%_
+- [Существующие приближения](docs/02-anthropic-vacancies/294-существующие-приближения.md) _25%_
+- [What's Missing — Layer B](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) _17%_
+- [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) _17%_

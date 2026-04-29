@@ -1,19 +1,14 @@
 # Q&A: 01-svyazi
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 _Автоматически сгенерировано по 14 файлам раздела._
 
-## Как реализован forensic RAG[^rag] с доказуемостью?
+## Как реализован forensic RAG с доказуемостью?
 
 Упоминаются: **liteparse**, **bounding box**, **page-level**, **evidence**
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
+Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -37,7 +32,7 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -55,19 +50,14 @@ _Автоматически сгенерировано по 14 файлам ра
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
 
-<!-- similar-docs -->
+## Как работает AgentFS и что такое .agentos?
 
----
+Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
 
-**Похожие документы:**
-- [QA](docs/04-ai-collaborations/QA.md) (сходство 0.82)
-- [QA](docs/02-anthropic-vacancies/QA.md) (сходство 0.52)
-- [QA](docs/QA.md) (сходство 0.51)
+## Что такое knowledge-space и для кого он предназначен?
 
+Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
 
+## Как CardIndex хранит и версионирует карточки?
 
-<!-- footnotes-added -->
-
----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском
+Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**

@@ -1,5 +1,34 @@
 # 6. Governance and Ethics
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Governance and Ethics](#6-governance-and-ethics)
+  - [6.1. Governance Structure](#61-governance-structure)
+  - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
+  - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
+  - [6.4. Regulatory Compliance](#64-regulatory-compliance)
+  - [6.5. Ethical Red Lines](#65-ethical-red-lines)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+<!-- tags: roadmap, anthropic -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [6. Governance and Ethics](#6-governance-and-ethics)
+  - [6.1. Governance Structure](#61-governance-structure)
+  - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
+  - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
+  - [6.4. Regulatory Compliance](#64-regulatory-compliance)
+  - [6.5. Ethical Red Lines](#65-ethical-red-lines)
+
+
 <!-- summary -->
 > **Board of Directors** (7 members):
 
@@ -126,3 +155,17 @@ Foundation will not:
 - [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
 - [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [9. Call for Partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) _21%_
+- [5. Economic Model](docs/02-anthropic-vacancies/159-5-economic-model.md) _17%_
+- [7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) _17%_
+- [10. Appendices](docs/02-anthropic-vacancies/164-10-appendices.md) _17%_
+- [7. Governance and Oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md) _17%_
+- [12. Call for Collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) _17%_

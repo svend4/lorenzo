@@ -1,5 +1,34 @@
 # 9. Risks and Open Questions
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [9. Risks and Open Questions](#9-risks-and-open-questions)
+  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
+  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
+  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
+  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
+  - [9.5. Author Capacity](#95-author-capacity)
+  - [9.6. Open Questions](#96-open-questions)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [9. Risks and Open Questions](#9-risks-and-open-questions)
+  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
+  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
+  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
+  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
+  - [9.5. Author Capacity](#95-author-capacity)
+  - [9.6. Open Questions](#96-open-questions)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -128,3 +157,19 @@ works regardless of any of them.
 - [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
 - [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [10. Strategic Positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) _33%_
+- [3. What InGit Provides That Cowork Lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) _25%_
+- [5. Four Integration Paths in Order of Accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) _21%_
+- [6. Refined InGit Scope with Cowork in Mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) _21%_
+- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _21%_
+- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _21%_
+- [Appendix C: Sample InGit MCP Server Tool Specifications](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _21%_
+- [8. Call to Action](docs/02-anthropic-vacancies/145-8-call-to-action.md) _17%_

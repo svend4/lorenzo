@@ -1,7 +1,17 @@
 
+
+<!-- toc -->
+## Содержание
+
+- [Приоритетные ансамбли](#приоритетные-ансамбли)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- summary -->
 > Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**.
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
@@ -176,4 +186,21 @@ flowchart LR
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _60%_
+- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _48%_
+- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _42%_
+- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _37%_
+- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _37%_
+- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _33%_
+- [08 Conclusions](docs/01-svyazi/08-conclusions.md) _33%_
+- [13 Contacts](docs/01-svyazi/13-contacts.md) _33%_

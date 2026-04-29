@@ -238,3 +238,19 @@ example_user, example@email.com
 - [330-4-симбиотическая-архитектура](docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md)
 - [331-5-четыре-пути-интеграции-в-порядке-доступности](docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [2. Что Cowork обеспечивает, что InGit не нужно строить](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) _29%_
+- [4. Симбиотическая Архитектура](docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md) _25%_
+- [1. Открытие Cowork и почему это меняет всё](docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) _21%_
+- [6. Уточнённый объём InGit с учётом Cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) _21%_
+- [Приложение: Визуализация позиции в серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md) _17%_
+- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _17%_
+- [5. Четыре пути интеграции в порядке доступности](docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md) _17%_
+- [8. Импликации для Nautilus и OKWF](docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md) _17%_

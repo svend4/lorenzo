@@ -1,5 +1,25 @@
 # AI-саммари разделов документации
 
+<!-- summary -->
+> - [Архитектура Svyazi 2.0](#архитектура-svyazi-20)
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, local-first, architecture, anthropic, self-improvement, collaboration -->
+
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Архитектура Svyazi 2.0](#архитектура-svyazi-20)
+- [Вакансии Anthropic](#вакансии-anthropic)
+- [Комбинации технологий](#комбинации-технологий)
+- [AI-коллаборации](#ai-коллаборации)
+- [Хабр-проекты](#хабр-проекты)
+
+
 _Модель: claude-haiku-4-5 · Разделов: 5_
 
 ## Архитектура Svyazi 2.0
@@ -37,4 +57,22 @@ _`docs/05-habr-projects/` · 10 файлов · 8,296 слов_
 _Запустите с `ANTHROPIC_API_KEY` для AI-генерации резюме._
 
 _Без ключа — автоматическое резюме на основе метаданных._
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Индекс документации — Lorenzo / Svyazi 2.0](docs/INDEX.md) _33%_
+- [Индекс тегов](docs/TAGS.md) _21%_
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md) _17%_
+- [Перекрёстные ссылки](docs/CROSSREFS.md) _17%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
+- [VALIDATION](docs/VALIDATION.md)
+- [ONBOARDING](docs/ONBOARDING.md)
+- [WORD_CLOUD](docs/WORD_CLOUD.md)
 

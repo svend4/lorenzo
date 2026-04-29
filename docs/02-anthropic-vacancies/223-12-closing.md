@@ -80,3 +80,19 @@ walking it.
 - [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
 - [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Abstract](docs/02-anthropic-vacancies/210-abstract.md) _48%_
+- [9. Relationship to Other Agent Types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) _33%_
+- [Abstract](docs/02-anthropic-vacancies/252-abstract.md) _33%_
+- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _29%_
+- [Appendix B: Decision Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_
+- [Appendix A: The Six-Type Taxonomy (Updated)](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _25%_
+- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _25%_

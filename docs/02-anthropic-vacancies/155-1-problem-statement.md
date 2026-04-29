@@ -132,3 +132,19 @@ coordinated action now.
 - [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
 - [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md) _42%_
+- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _29%_
+- [3. Why Existing Solutions Fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) _25%_
+- [2. Target Populations](docs/02-anthropic-vacancies/156-2-target-populations.md) _21%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _17%_
+- [8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) _17%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md) _17%_
+- [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) _17%_

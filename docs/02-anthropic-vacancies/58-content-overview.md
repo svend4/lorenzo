@@ -4,6 +4,8 @@
 > - 64 гексаграммы с расширенными описаниями
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -40,3 +42,12 @@
 **Смотрите также:**
 - [56-essence](docs/02-anthropic-vacancies/56-essence.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Content Overview](docs/02-anthropic-vacancies/38-content-overview.md) _17%_

@@ -1,5 +1,10 @@
 # Графы знаний и Legal AI
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller)
 **Проекты:** Yodoca, Auto AI Router, AutoResearch
@@ -99,3 +104,17 @@
 - [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Комбинирование технологий для новых свойств](docs/03-technology-combinations/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Local-first и P2P стек](docs/03-technology-combinations/03-local-first.md) _29%_
+- [Бенчмарки и производительность](docs/03-technology-combinations/05-benchmarks.md) _21%_
+- [Введение](docs/04-ai-collaborations/00-intro.md) _21%_
+- [MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md) _21%_
+- [Тепловая карта тем](docs/HEATMAP.md) _17%_
+- [Приоритеты файлов](docs/PRIORITIES.md) _17%_

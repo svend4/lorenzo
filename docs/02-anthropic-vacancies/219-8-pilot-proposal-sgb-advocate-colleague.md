@@ -238,3 +238,19 @@ incremental rather than novel.
 - [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
 - [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) _29%_
+- [7. Economics of Combinatorial Replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _25%_
+- [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) _25%_
+- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _25%_
+- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _25%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md) _25%_

@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# pre-commit cache
+.pre-commit-cache/

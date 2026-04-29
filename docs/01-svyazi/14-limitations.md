@@ -1,4 +1,14 @@
 
+
+<!-- toc -->
+## Содержание
+
+- [Ограничения, лицензии и что пока лучше не склеивать](#ограничения-лицензии-и-что-пока-лучше-не-склеивать)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- summary -->
 > Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi[^svyazi] как базовый паттерн остаётся авторским закрытым п
 **Проекты:** Svyazi, mclaude, AI Factory, Rufler[^rufler], NGT[^ngt] Memory, AutoResearch, Whisper, Yttri
@@ -53,3 +63,20 @@
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^bsl]: Business Source License — коммерческая лицензия с открытым кодом
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [06 Security Privacy](docs/01-svyazi/06-security-privacy.md) _29%_
+- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _29%_
+- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _29%_
+- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _29%_
+- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _29%_
+- [Дорожная карта прототипа следующей итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) _29%_
+- [03 Component Catalog](docs/01-svyazi/03-component-catalog.md) _25%_
+- [04 Ensembles Overview](docs/01-svyazi/04-ensembles-overview.md) _25%_

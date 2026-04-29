@@ -1,4 +1,16 @@
 # 5. Compatibility Levels
+<!-- tags: anthropic -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [5. Compatibility Levels](#5-compatibility-levels)
+  - [Level 0 — Discoverable](#level-0-discoverable)
+  - [Level 1 — Readable](#level-1-readable)
+  - [Level 2 — Linked](#level-2-linked)
+  - [Level 3 — Interactive](#level-3-interactive)
+
 
 <!-- summary -->
 > NPP определяет 4 уровня совместимости Repo с экосистемой. Это
@@ -85,3 +97,19 @@ Portal возвращает static entries.
 - [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) _48%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) _21%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _21%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _21%_
+- [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md) _21%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _21%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _17%_
+- [Compatibility Level](docs/02-anthropic-vacancies/51-compatibility-level.md) _17%_

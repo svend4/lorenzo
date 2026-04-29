@@ -65,3 +65,19 @@ This document explores that observation.
 - [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
 - [285-closing](docs/02-anthropic-vacancies/285-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _42%_
+- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _29%_
+- [What's Missing — Layer B](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) _29%_
+- [The Specific Case in Front of Us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) _29%_
+- [What This Document Doesn't Solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) _29%_
+- [References](docs/02-anthropic-vacancies/287-references.md) _29%_
+- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _29%_
+- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _25%_

@@ -51,3 +51,19 @@
 - [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
 - [43-history](docs/02-anthropic-vacancies/43-history.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Content Overview](docs/02-anthropic-vacancies/48-content-overview.md) _37%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _29%_
+- [13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) _29%_
+- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _29%_
+- [History](docs/02-anthropic-vacancies/43-history.md) _29%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) _29%_
+- [18. Reference Implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) _29%_
+- [Author & Contact](docs/02-anthropic-vacancies/62-author-contact.md) _25%_

@@ -51,7 +51,7 @@ flowchart LR
   end
   subgraph KNOWLEDGE
     AgentFS[AgentFS]
-    knowledge-space[knowledge-space]
+    knowledge_space[knowledge space]
   end
   subgraph MEMORY
     Yodoca[Yodoca]
@@ -75,14 +75,14 @@ flowchart LR
   end
   Svyazi -->|ingest→index| CardIndex
   CardIndex -->|storage| AgentFS
-  AgentFS -->|reference| knowledge-space
+  AgentFS -->|reference| knowledge_space
   Yodoca -->|consolidation| NGT_Memory
   NGT_Memory -->|recall→discovery| Svyazi
   LiteParse -->|evidence| Legal_RAG
   Legal_RAG -->|proof→card| CardIndex
   mclaude -->|coordination| AI_Factory
   AI_Factory -->|orchestration| Rufler
-  Rufler -->|self-improvement| AutoResearch
+  Rufler -->|self-improve| AutoResearch
   LiteLLM -->|gateway→guard| SENTINEL
   Tool_Search -->|lazy-load| LiteLLM
 ```
@@ -99,16 +99,6 @@ flowchart LR
 | Security | LiteLLM, SENTINEL, Tool Search, Auto AI Router |
 | Sync | Yjs, Automerge |
 
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [GLOSSARY](docs/GLOSSARY.md) (сходство 0.42)
-- [GRAPH](docs/GRAPH.md) (сходство 0.18)
-- [ENTITIES](docs/ENTITIES.md) (сходство 0.17)
-
-
 <!-- see-also -->
 
 ---
@@ -116,6 +106,6 @@ flowchart LR
 **Смотрите также:**
 - [GLOSSARY](docs/GLOSSARY.md)
 - [GRAPH](docs/GRAPH.md)
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 - [NETWORK](docs/NETWORK.md)
-- [ENTITIES](docs/ENTITIES.md)
 

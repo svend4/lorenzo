@@ -1,5 +1,17 @@
 # 12. Onboarding Paths (Normative)
 
+<!-- toc-auto -->
+## Contents
+
+- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
+  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
+  - [12.2. Path B — generatepassport.py Wizard](#122-path-b-generatepassportpy-wizard)
+  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
+  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
+  - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
+  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
+
+
 <!-- summary -->
 > NPP v1.1 формализует пять путей подключения нового Repo как
 
@@ -107,3 +119,13 @@ python scan_repo.py owner/repo-name
 - [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _21%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _17%_

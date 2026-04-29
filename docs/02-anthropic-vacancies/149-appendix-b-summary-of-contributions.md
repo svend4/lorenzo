@@ -60,3 +60,19 @@
 - [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)
 - [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _33%_
+- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _21%_
+- [Table of Contents](docs/02-anthropic-vacancies/169-table-of-contents.md) _21%_
+- [Содержание](docs/02-anthropic-vacancies/190-содержание.md) _21%_
+- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _21%_
+- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _21%_

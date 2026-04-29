@@ -1,5 +1,16 @@
 # 7. Governance and Oversight
 
+<!-- toc-auto -->
+## Contents
+
+- [7. Governance and Oversight](#7-governance-and-oversight)
+  - [7.1. Three Levels of Governance](#71-three-levels-of-governance)
+  - [7.2. Audit and Accountability](#72-audit-and-accountability)
+  - [7.3. Dispute Resolution](#73-dispute-resolution)
+  - [7.4. Vulnerable Population Protection](#74-vulnerable-population-protection)
+  - [7.5. Foundation-Based Governance](#75-foundation-based-governance)
+
+
 <!-- summary -->
 > Effective Representative Agent systems require governance
 
@@ -113,3 +124,19 @@ by mission-driven foundations.
 - [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
 - [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [6. Ethical Framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) _21%_
+- [7. Open Questions](docs/02-anthropic-vacancies/144-7-open-questions.md) _17%_
+- [6. Governance and Ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md) _17%_
+- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _17%_
+- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _17%_
+- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _17%_
+- [Appendix C: Sample Use Cases in Detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) _17%_
+- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _17%_

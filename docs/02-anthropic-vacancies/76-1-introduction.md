@@ -1,5 +1,16 @@
 # 1. Introduction
 
+<!-- toc-auto -->
+## Contents
+
+- [1. Introduction](#1-introduction)
+  - [1.1. Motivation](#11-motivation)
+  - [1.2. Design Goals](#12-design-goals)
+  - [1.3. Non-Goals](#13-non-goals)
+  - [1.4. Terminology](#14-terminology)
+  - [1.5. Changes from v1.0](#15-changes-from-v10)
+
+
 <!-- summary -->
 > Современные системы управления знаниями (Notion, Obsidian, Roam Research,
 
@@ -101,3 +112,14 @@ NPP **не** пытается:
 - [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [1. Introduction](docs/02-anthropic-vacancies/06-1-introduction.md) _53%_
+- [🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md) _21%_
+- [Abstract](docs/02-anthropic-vacancies/74-abstract.md) _17%_

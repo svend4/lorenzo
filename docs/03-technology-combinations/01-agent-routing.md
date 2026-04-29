@@ -47,3 +47,14 @@
 - [WORD_FREQ](docs/WORD_FREQ.md)
 - [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Комбинирование технологий для новых свойств](docs/03-technology-combinations/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Комбинирование технологий для новых свойств](docs/03-technology-combinations/README.md) _29%_
+- [Local-first и P2P стек](docs/03-technology-combinations/03-local-first.md) _21%_
+- [Бенчмарки и производительность](docs/03-technology-combinations/05-benchmarks.md) _21%_

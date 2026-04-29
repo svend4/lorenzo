@@ -1,4 +1,16 @@
 # 10. Query Flow
+<!-- tags: anthropic -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [10. Query Flow](#10-query-flow)
+  - [10.1. Lifecycle](#101-lifecycle)
+  - [10.2. Parallelism](#102-parallelism)
+  - [10.3. Error Handling](#103-error-handling)
+  - [10.4. Timeout Behavior](#104-timeout-behavior)
+
 
 <!-- summary -->
 > 1. Client вызывает `portal.query(q, target_repos=None)`
@@ -67,3 +79,19 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 - [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
 - [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _66%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _29%_
+- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _25%_
+- [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) _21%_
+- [🇬🇧 About](docs/02-anthropic-vacancies/68-about.md) _17%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _17%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _17%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _17%_

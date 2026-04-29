@@ -755,3 +755,12 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 - [CONCEPTS](docs/CONCEPTS.md)
 - [165-closing](docs/02-anthropic-vacancies/165-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) _25%_

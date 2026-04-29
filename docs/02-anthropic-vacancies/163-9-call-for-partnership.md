@@ -1,5 +1,32 @@
 # 9. Call for Partnership
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [9. Call for Partnership](#9-call-for-partnership)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
+  - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
+  - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
+  - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
+  - [9.5. For Potential Contributors](#95-for-potential-contributors)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [9. Call for Partnership](#9-call-for-partnership)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
+  - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
+  - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
+  - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
+  - [9.5. For Potential Contributors](#95-for-potential-contributors)
+
+
 <!-- summary -->
 > OKWF is not a solo initiative. Successful launch requires
 
@@ -117,3 +144,17 @@ section explicitly invites partnership.
 - [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md)
 - [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [6. Governance and Ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md) _21%_
+- [7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) _21%_
+- [10. Appendices](docs/02-anthropic-vacancies/164-10-appendices.md) _21%_
+- [4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) _21%_
+- [8. Call to Action](docs/02-anthropic-vacancies/145-8-call-to-action.md) _17%_
+- [5. Economic Model](docs/02-anthropic-vacancies/159-5-economic-model.md) _17%_

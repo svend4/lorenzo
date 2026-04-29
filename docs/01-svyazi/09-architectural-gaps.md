@@ -1,7 +1,17 @@
 
+
+<!-- toc -->
+## Содержание
+
+- [Архитектурные зазоры, которые важнее новых инструментов](#архитектурные-зазоры-которые-важнее-новых-инструментов)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- summary -->
 > После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi[^svyazi] хорошо закрывает ingest и нормализацию; AgentFS[^agentfs] даёт `.agentos` и compile‑to‑runtime политику
-**Проекты:** Svyazi, CardIndex[^cardindex], AgentFS, knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi, CardIndex[^cardindex], AgentFS, knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement -->
@@ -67,4 +77,21 @@
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _90%_
+- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _48%_
+- [11 Integration Contracts](docs/01-svyazi/11-integration-contracts.md) _48%_
+- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _48%_
+- [Интеграционный контракт, который стоит зафиксировать сразу](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) _48%_
+- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _42%_
+- [13 Contacts](docs/01-svyazi/13-contacts.md) _42%_
+- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _42%_

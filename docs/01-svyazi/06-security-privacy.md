@@ -1,4 +1,14 @@
 
+
+<!-- toc -->
+## Содержание
+
+- [Безопасность, приватность и бюджетный роутинг](#безопасность-приватность-и-бюджетный-роутинг)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- summary -->
 > Для Svyazi[^svyazi]‑2.0 безопасная архитектура — не “добавить сканер в конце”, а **с самого начала считать skills, MCP[^mcp] servers, импорты документов и memory writes потенциально недоверенными**. Это не паранойя,
 **Проекты:** Svyazi, AgentFS[^agentfs], AI Factory, agent-memory-mcp, SENTINEL[^sentinel], LiteLLM, Auto AI Router, Tool Search
@@ -77,3 +87,20 @@
 [^sentinel]: OSS-проект: безопасность и allowlist для MCP
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Безопасность, приватность и бюджетный роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) _60%_
+- [04 Ensembles Overview](docs/01-svyazi/04-ensembles-overview.md) _29%_
+- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _29%_
+- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _29%_
+- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _29%_
+- [14 Limitations](docs/01-svyazi/14-limitations.md) _29%_
+- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _29%_
+- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _29%_

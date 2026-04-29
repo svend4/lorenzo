@@ -1,4 +1,17 @@
 # 8. Q6 Space (Normative)
+<!-- tags: ingestion, architecture, anthropic -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [8. Q6 Space (Normative)](#8-q6-space-normative)
+  - [8.1. Definition](#81-definition)
+  - [8.2. Mandatory for Level 2+](#82-mandatory-for-level-2)
+  - [8.3. Q6 Mapping Rules](#83-q6-mapping-rules)
+  - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
+  - [8.5. CA-Class Mapping (Informative)](#85-ca-class-mapping-informative)
+
 
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
@@ -109,3 +122,19 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 - [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [20. ADR-002: Q6 as First-Class Protocol Concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) _37%_
+- [Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) _21%_
+- [14. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) _21%_
+- [Bridges](docs/02-anthropic-vacancies/40-bridges.md) _21%_
+- [21. ADR-003: Five Onboarding Paths as Equal-Rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) _21%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _17%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _17%_
+- [Bridges](docs/02-anthropic-vacancies/60-bridges.md) _17%_

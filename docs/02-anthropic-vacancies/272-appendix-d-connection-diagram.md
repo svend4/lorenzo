@@ -329,3 +329,19 @@ Pero никто не построил yet what you described. Это opportunity
 - [165-closing](docs/02-anthropic-vacancies/165-closing.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) _21%_
+- [Closing](docs/02-anthropic-vacancies/165-closing.md) _21%_
+- [Appendix: Position in Series Visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) _21%_
+- [Введение](docs/02-anthropic-vacancies/00-intro.md) _17%_
+- [Appendix C: Version History](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) _17%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _17%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md) _17%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _17%_

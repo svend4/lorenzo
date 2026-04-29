@@ -64,3 +64,19 @@
 - [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
 - [WORD_FREQ](docs/WORD_FREQ.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Комбинирование технологий для новых свойств](docs/03-technology-combinations/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Бенчмарки и производительность](docs/03-technology-combinations/05-benchmarks.md) _33%_
+- [Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md) _29%_
+- [Комбинирование технологий для новых свойств](docs/03-technology-combinations/README.md) _25%_
+- [Приоритеты файлов](docs/PRIORITIES.md) _25%_
+- [Агентные системы и роутинг](docs/03-technology-combinations/01-agent-routing.md) _21%_
+- [Глоссарий проектов](docs/GLOSSARY.md) _17%_
+- [Тепловая карта тем](docs/HEATMAP.md) _17%_
+- [Карта репозитория Lorenzo](docs/SITEMAP.md) _17%_

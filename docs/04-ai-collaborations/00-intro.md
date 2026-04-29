@@ -1,5 +1,25 @@
 # Введение
 
+<!-- toc -->
+## Содержание
+
+- [Статус](#статус)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Они становятся процессами в распределённой системе — с блокировками, задачами, памятью, статусами и передачей контекста.
+> 🔧 **Подход:** AI-бот для самопознания PDA-архитектуры из прошлых ответов (URL — event sourcing, LLM как периферия, Stability Engine.
+> ✅ **Результат:** Operations Concierge — в чате принимает команды, создаёт задачи, запускает агентов, сообщает статусы, эскалирует человеку.
+> 🏷️ **Ключевые слова:** `articles`, `https`, `legal`, `claude`, `memory`, `через`, `svyazi`, `каждый`
+>
+
+
 <!-- autofill-status -->
 ## Статус
 
@@ -21,7 +41,7 @@ _Обновлено: 2026-04-29_
 
 <!-- summary -->
 > https://habr.com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект по разработке программного обеспечени
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge_space], AI Factory, Rufler[^rufler], LiteParse, Legal RAG[^rag]
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], AI Factory, Rufler[^rufler], LiteParse, Legal RAG[^rag]
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
@@ -837,8 +857,21 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
 
 [^firecrawl]: Инструмент: веб-краулер для AI (MIT)
 
 [^tf_idf]: Term Frequency–Inverse Document Frequency — метрика важности термина
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Поиск AI-коллабораций](docs/04-ai-collaborations/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md) _42%_
+- [Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md) _21%_
+- [Ограничения, лицензии и что пока лучше не склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) _21%_
+- [03 Component Catalog](docs/01-svyazi/03-component-catalog.md) _17%_

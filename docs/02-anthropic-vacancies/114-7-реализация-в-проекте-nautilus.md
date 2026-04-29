@@ -1,5 +1,14 @@
 # 7. Реализация в проекте Nautilus
 
+<!-- toc-auto -->
+## Contents
+
+- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
+  - [7.1. Хронология применения](#71-хронология-применения)
+  - [7.2. Артефакты](#72-артефакты)
+  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
+
+
 <!-- summary -->
 > **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md**
 
@@ -76,3 +85,19 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 - [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
 - [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [2. Формальный workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) _48%_
+- [10. Конкретный план применения к текущим документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) _48%_
+- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _25%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _21%_
+- [Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) _21%_
+- [Примеры запросов (в Claude)](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md) _21%_
+- [Author & Contact](docs/02-anthropic-vacancies/62-author-contact.md) _21%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) _21%_

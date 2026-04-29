@@ -53,3 +53,20 @@
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Выводы](docs/04-ai-collaborations/07-выводы.md) _81%_
+- [Executive summary](docs/04-ai-collaborations/01-executive-summary.md) _53%_
+- [Что это продолжение добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) _37%_
+- [04 Ensembles Overview](docs/01-svyazi/04-ensembles-overview.md) _33%_
+- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
+- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _33%_
+- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) _29%_
+- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _29%_

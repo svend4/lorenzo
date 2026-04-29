@@ -211,3 +211,19 @@ never had it**.
 - [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _21%_
+- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _21%_
+- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _21%_
+- [1. Why the Binary View Is Incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) _21%_
+- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _21%_
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _17%_
+- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _17%_
+- [6. Ethical Framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) _17%_

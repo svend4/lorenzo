@@ -4,6 +4,8 @@
 > results_by_repo: dict[str, list[PortalEntry]]
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -53,3 +55,19 @@ category (сначала full, затем partial, затем singular).
 - [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
 - [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _37%_
+- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _33%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _33%_
+- [14. SDK Contract (Informative)](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md) _33%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _29%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _29%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) _25%_
+- [Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md) _25%_

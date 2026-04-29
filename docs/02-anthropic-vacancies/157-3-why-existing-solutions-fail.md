@@ -182,3 +182,15 @@ is this integration.
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 - [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _29%_
+- [1. Problem Statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) _25%_
+- [2. Target Populations](docs/02-anthropic-vacancies/156-2-target-populations.md) _17%_

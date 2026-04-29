@@ -54,3 +54,19 @@
 - [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
 - [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [15. Glossary of Examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) _66%_
+- [passports/pro2.md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) _37%_
+- [passports/info1.md](docs/02-anthropic-vacancies/35-passports-info1-md.md) _33%_
+- [passports/meta.md](docs/02-anthropic-vacancies/55-passports-meta-md.md) _33%_
+- [Essence](docs/02-anthropic-vacancies/56-essence.md) _29%_
+- [🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md) _21%_
+- [🇬🇧 About](docs/02-anthropic-vacancies/68-about.md) _21%_
+- [Bridges](docs/02-anthropic-vacancies/40-bridges.md) _17%_

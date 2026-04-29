@@ -1,5 +1,15 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Primary External References](#primary-external-references)
+  - [MCP Standard](#mcp-standard)
+  - [Companion Documents in This Series](#companion-documents-in-this-series)
+  - [Related Work](#related-work)
+
+
 <!-- summary -->
 > - Anthropic. (2026, January 12). *Claude Cowork* [Product
 
@@ -58,3 +68,19 @@ acknowledgments above.
 - [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
 - [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [References](docs/02-anthropic-vacancies/287-references.md) _25%_
+- [Ссылки](docs/02-anthropic-vacancies/338-ссылки.md) _25%_
+- [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) _21%_
+- [References](docs/02-anthropic-vacancies/183-references.md) _21%_
+- [References](docs/02-anthropic-vacancies/225-references.md) _21%_
+- [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) _21%_
+- [Closing](docs/02-anthropic-vacancies/285-closing.md) _21%_
+- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _21%_

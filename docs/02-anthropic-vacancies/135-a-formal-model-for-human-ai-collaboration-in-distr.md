@@ -40,3 +40,19 @@
 - [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md) _60%_
+- [PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) _48%_
+- [PORTAL-PROTOCOL.md v1.1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) _37%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) _33%_
+- [Author & Contact](docs/02-anthropic-vacancies/52-author-contact.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _21%_
+- [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md) _21%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _21%_

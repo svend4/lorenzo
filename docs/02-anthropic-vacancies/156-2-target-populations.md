@@ -156,3 +156,16 @@ Active participant target in first three years: 5,000-10,000.
 - [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
 - [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md) _21%_
+- [1. Problem Statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) _21%_
+- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _17%_
+- [3. Why Existing Solutions Fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) _17%_
+- [1. The Cinderella Syndrome: Why Quality Stays Invisible](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _17%_

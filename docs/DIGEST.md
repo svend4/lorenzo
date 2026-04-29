@@ -1,69 +1,86 @@
 # Дайджест изменений
 
+<!-- summary -->
+> > Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA
+
+---
+<!-- tags: rag, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 ## Последний коммит
 
-**2026-04-29** — `a48150bf`
-> improve: batch 11 — orphans, alerts, metrics, index update, master runner
+**2026-04-29** — `b326b33a`
+> Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA
 
-Изменено файлов: **138** (+2412 / -417 строк)
+Изменено файлов: **129** (+149977 / -3482 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **159**
-- Добавлено строк: **+13447**
-- Удалено строк: **-417**
-- Новых md-файлов: **17**
+- Изменено файлов: **135**
+- Добавлено строк: **+150382**
+- Удалено строк: **-3488**
+- Новых md-файлов: **27**
 
 ## Новые документы
 
-**root:**
-- `ABBREVIATIONS.md`
-- `ALERTS.md`
-- `BACKLINKS.md`
-- `HEATMAP.md`
-- `METRICS.md`
-- `NARRATIVE.md`
-- `NETWORK.md`
-- `ORPHANS.md`
-- `REPORT.md`
-- `SENTIMENT.md`
+**contacts:**
+- `anastasiyaw.md`
+- `andrey-chuyan.md`
+- `antipozitive.md`
+- `cutcode.md`
+- `dmitriila.md`
+- `kksudo.md`
+- `mixaill76.md`
+- `nlaik.md`
+- `sonia-black.md`
+- `spbmolot.md`
 
-**templates:**
-- `README.md`
-- `contact-outreach.md`
-- `decision-record.md`
-- `ensemble.md`
-- `project-component.md`
-- `research-note.md`
+**root:**
+- `COMPONENT_MATRIX.md`
+- `CONCEPT_GRAPH.md`
+- `CONTACT_PRIORITY.md`
+- `CONTRADICTIONS.md`
+- `COVERAGE.md`
+- `KEYWORD_INDEX.md`
+- `KPI_HISTORY.md`
+- `NAMED_ENTITIES.md`
+- `PARAGRAPH_QUALITY.md`
+- `STALENESS.md`
+
+**skills:**
+- `improve.md`
+- `status.md`
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
-| 2026-04-29 | `a48150bf` | improve: batch 11 — orphans, alerts, metrics, index update, master run |
-| 2026-04-29 | `a25efe45` | improve: batch 10 — backlinks, heatmap, templates, validation, executi |
-| 2026-04-29 | `873b8c58` | improve: batch 9 — abbreviations, sentiment, narrative, JSON export, n |
-| 2026-04-29 | `ff8fe0fa` | improve: batch 8 — stats, similar docs, questions, KPI, sitemap |
-| 2026-04-29 | `1c9ceeaa` | improve: batch 7 — compare, density, complexity, entities, concepts |
-| 2026-04-29 | `0952c336` | improve: batch 6 — autocorrect, TOC, tables/code extraction, word freq |
-| 2026-04-29 | `14f735a7` | improve: consistency check, broken links, changelog, CSV export |
-| 2026-04-29 | `4e7137c4` | improve: action items, gap analysis, clustering, mindmap, HTML export |
-| 2026-04-29 | `e787c21f` | improve: add Q&A sheets, priority ranking, and contacts extraction |
-| 2026-04-29 | `b3d7d0bf` | improve: add tags, search index, and project relationship graph |
-| 2026-04-29 | `75f1b3e4` | improve: add summaries, cross-refs, dedup report, timeline |
-| 2026-04-29 | `91dd9685` | improve: verify coverage, merge short files, add READMEs and glossary |
-| 2026-04-29 | `7658df5b` | chore: add .gitignore for Python cache files |
-| 2026-04-29 | `ff8a8161` | chore: add extract_mhtml.py and ignore pycache |
-| 2026-04-29 | `d49a1f0f` | feat: organize docs into monorepo structure with topic-based subfolder |
+| 2026-04-29 | `b326b33a` | Merge remote-tracking branch 'origin/main' into claude/organize-monore |
+| 2026-04-29 | `69562b02` | feat: add component matrix, KPI history tracker, fix run_all coverage |
+| 2026-04-29 | `42f561dd` | fix: fix update-docs CI job failures |
+| 2026-04-29 | `854cff7c` | Merge pull request #5 from svend4/claude/current-dev-stage-iVIov |
+| 2026-04-29 | `59617c5d` | feat: add risk register, auto-changelog, master index; fix run_all mis |
+| 2026-04-29 | `89d3e8fb` | chore: sync CONTRADICTIONS.md (background task output) |
+| 2026-04-29 | `4ddee95e` | feat: add tech radar, onboarding guide, dependency map, meta group in  |
+| 2026-04-29 | `6b81ffed` | chore: sync CONTRADICTIONS.md after contradiction_check fix |
+| 2026-04-29 | `4755dd94` | fix: исправить ошибки в deeptext скриптах, добавить выходные файлы |
+| 2026-04-29 | `1f3fe74a` | feat: add autonomous watcher (Ступень 6), CI workflow, LLM section sum |
+| 2026-04-29 | `469dbced` | feat: add CLAUDE.md, weekly digest script, enrich group in run_all |
+| 2026-04-29 | `4e52a185` | chore: update mcp.json description wording |
+| 2026-04-29 | `00a25f78` | feat: add LLM integration (Ступень 3), skills (Ступень 4), MCP server  |
+| 2026-04-29 | `d9e66da8` | Merge pull request #3 from svend4/claude/current-dev-stage-iVIov |
+| 2026-04-29 | `1d552d4e` | chore: sync PROGRESS.md after deeptext scripts commit |
 
 ## Текущее состояние репозитория
 
 | Параметр | Значение |
 |----------|---------|
-| Документов `.md` | **460** |
-| Скриптов обработки | **56** |
+| Документов `.md` | **524** |
+| Скриптов обработки | **125** |
 | Последнее обновление | **2026-04-29** |
 
 <!-- see-also -->
@@ -71,8 +88,8 @@ _Обновлено: 2026-04-29_
 ---
 
 **Смотрите также:**
+- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
+- [VERSION_DIFF](docs/VERSION_DIFF.md)
 - [CHANGELOG](docs/CHANGELOG.md)
-- [SITEMAP](docs/SITEMAP.md)
-- [REPORT](docs/REPORT.md)
-- [README](docs/templates/README.md)
+- [DEPENDENCY_MAP](docs/DEPENDENCY_MAP.md)
 

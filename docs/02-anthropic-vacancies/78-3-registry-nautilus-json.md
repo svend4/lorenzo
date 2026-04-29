@@ -1,5 +1,34 @@
 # 3. Registry (`nautilus.json`)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [3. Registry (`nautilus.json`)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+  - [3.6. AutoAdapter Special Case](#36-autoadapter-special-case)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+  - [3.6. AutoAdapter Special Case](#36-autoadapter-special-case)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -126,3 +155,19 @@ Onboarding Path C (self-declaring repo).
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
 - [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _66%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) _37%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _25%_
+- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _25%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _21%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _21%_

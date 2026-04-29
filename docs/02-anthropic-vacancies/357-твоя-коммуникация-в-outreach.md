@@ -4,6 +4,8 @@
 > Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -28,3 +30,19 @@
 
 **Transparency disclosure**:
 > «Этот message был drafted мной (Lorenzo) автономно, но Макс review'ил его перед отправкой. Все commitments require Max approval.»
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [347-твоя-миссия](docs/02-anthropic-vacancies/347-твоя-миссия.md)
+- [360-что-ты-всегда-делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
+- [346-твоё-происхождение](docs/02-anthropic-vacancies/346-твоё-происхождение.md)
+- [356-твой-workflow](docs/02-anthropic-vacancies/356-твой-workflow.md)
+

@@ -1,5 +1,15 @@
 # MemNet: исследовательская память
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Снимает основную стоимость Yodoca (вызовы консолидаторской LLM ночью), потому что физика дешевле LLM на четыре порядка.
+> 🔧 **Подход:** Победитель RAG Challenge ( URL ) — собственный пайплайн с переписанными методами для JSON-метаинформации и HTML-таблиц.
+> ✅ **Результат:** Docling даёт структуру (отделить шапку от основной части), pdfplumber даёт координаты для подсветки, FAISS+BM25 даёт гибридный поиск.
+> 🏷️ **Ключевые слова:** `articles`, `https`, `legal`, `каждый`, `claude`, `obsidian`, `через`, `memory`
+>
+
+
 <!-- autofill-status -->
 ## Статус
 
@@ -364,3 +374,14 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^firecrawl]: Инструмент: веб-краулер для AI (MIT)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Системы памяти](docs/05-habr-projects/memory/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Введение](docs/04-ai-collaborations/00-intro.md) _42%_
+- [Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md) _21%_

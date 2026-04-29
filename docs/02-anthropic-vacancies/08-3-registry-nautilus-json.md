@@ -1,5 +1,16 @@
 # 3. Registry (`nautilus.json`)
 
+<!-- toc-auto -->
+## Contents
+
+- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -108,3 +119,19 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 - [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
 - [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _66%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) _37%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _33%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _25%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _25%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _25%_

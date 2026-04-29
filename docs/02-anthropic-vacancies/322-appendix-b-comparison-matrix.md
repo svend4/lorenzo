@@ -48,3 +48,19 @@ local control, free substrate plus Cowork subscription.
 - [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _29%_
+- [6. Refined InGit Scope with Cowork in Mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) _25%_
+- [Appendix A: Decision Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) _25%_
+- [Abstract](docs/02-anthropic-vacancies/307-abstract.md) _21%_
+- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _21%_
+- [Рекомендуемый порядок чтения](docs/READING_ORDER.md) _21%_
+- [Карта происхождения текстов](docs/SOURCE_MAP.md) _21%_
+- [Appendix B: Summary of Contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) _17%_

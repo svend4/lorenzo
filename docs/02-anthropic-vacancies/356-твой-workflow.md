@@ -66,3 +66,14 @@
 - [352-что-ты-не-можешь-делать-без-max-approval](docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
 - [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Что ты МОЖЕШЬ делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md) _29%_
+- [Что ты НЕ МОЖЕШЬ делать без Max approval](docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md) _17%_
+- [Что ты НЕ МОЖЕШЬ делать вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) _17%_

@@ -82,3 +82,19 @@ work.
 - [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
 - [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) _29%_
+- [What Industry Will Likely Build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md) _29%_
+- [13. Closing](docs/02-anthropic-vacancies/266-13-closing.md) _25%_
+- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _25%_
+- [Closing](docs/02-anthropic-vacancies/285-closing.md) _25%_
+- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _25%_
+- [1. Why Single-Triangle Models Are Incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) _21%_
+- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _21%_

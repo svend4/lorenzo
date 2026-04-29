@@ -4,6 +4,17 @@
 > `meta` реализует редкую идею: **две символические системы, разделённые
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [For the Curious: Philosophy](#for-the-curious-philosophy)
+  - [Комментарий к трём паспортам](#комментарий-к-трём-паспортам)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture, collaboration -->
 
 
@@ -75,3 +86,19 @@ Bridges описаны максимально конкретно. Особенн
 - [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
 - [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix B: Change Log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) _37%_
+- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _29%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _29%_
+- [Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) _25%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
+- [For the Curious: Philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md) _25%_
+- [🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md) _25%_
+- [Хронологическая лента событий](docs/TIMELINE.md) _25%_

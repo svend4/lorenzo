@@ -1,5 +1,16 @@
 # 9. Consensus Algorithm
 
+<!-- toc-auto -->
+## Contents
+
+- [9. Consensus Algorithm](#9-consensus-algorithm)
+  - [9.1. Definition](#91-definition)
+  - [9.2. Consensus Structure](#92-consensus-structure)
+  - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
+  - [9.4. Algorithm](#94-algorithm)
+  - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
+
+
 <!-- summary -->
 > При query через portal, когда результаты возвращаются из нескольких
 
@@ -125,3 +136,19 @@ v2.0 MAY использовать:
 - [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
 - [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [8. Consensus Algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) _53%_
+- [11. Relevance Ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) _29%_
+- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _21%_
+- [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) _17%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _17%_
+- [5. Compatibility Levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md) _17%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _17%_
+- [10. Query Flow](docs/02-anthropic-vacancies/85-10-query-flow.md) _17%_

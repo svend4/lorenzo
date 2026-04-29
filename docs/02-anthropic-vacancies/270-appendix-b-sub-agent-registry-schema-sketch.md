@@ -101,3 +101,19 @@ substantial refinement based on actual implementation experience.
 - [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
 - [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Decision Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) _48%_
+- [Appendix C: Configuration Template Example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md) _37%_
+- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _21%_
+- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _21%_
+- [Что ты ВСЕГДА делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md) _21%_
+- [Кластеры тематически близких файлов](docs/CLUSTERS.md) _21%_
+- [Качество абзацев](docs/PARAGRAPH_QUALITY.md) _21%_
+- [Рекомендуемый порядок чтения](docs/READING_ORDER.md) _21%_

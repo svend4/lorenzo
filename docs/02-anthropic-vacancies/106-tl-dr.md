@@ -47,3 +47,15 @@
 - [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
 - [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Зачем две версии параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md) _42%_
+- [REVIEW_METHODOLOGY.md](docs/02-anthropic-vacancies/105-review-methodology-md.md) _17%_
+- [2. Формальный workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) _17%_
+- [Критерии выбора для фазы 3](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md) _17%_

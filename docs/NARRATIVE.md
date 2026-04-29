@@ -1,10 +1,5 @@
 # Нарратив проекта Lorenzo
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 _Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._
 
 ---
@@ -12,7 +7,9 @@ _Связный рассказ о том, как складывается про
 
 ## Глава 1: Исходная точка — Svyazi 2.0
 
-> <!-- summary --> > Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: ingestion и нормализация профи **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, Rufler, LiteParse, Legal RAG --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement,…
+> <!-- toc --> - [Contents](#contents) - [Главная линия синергии](#главная-линия-синергии) - [Ключевой вывод](#ключевой-вывод) - [Что добавляет продолжение исследования](#что-добавляет-продолжение-исследования) - [Приоритет ансамблей для старта](#приоритет-ансамблей-для-старта) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- toc-auto --> - [Главная линия синергии](#главная-линия-синергии) - [Ключевой вывод](#ключевой-вывод) - [Что добавляет продолжение исследования](#что-добавляет-продолжение-исследования) - [Приоритет ансамблей для старта](#приоритет-ансамблей-для-старта) > [!IMPORTANT] > Главный документ проекта. Начните чтение отсюда. <!-- alert-added…
+
+- **🛠️ MVP:** Planning](docs/01-svyazi/07-mvp-planning
 
 _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_
 
@@ -21,7 +18,9 @@ _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_
 
 ## Глава 2: Экосистема проектов
 
-> <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration --> | Проект или связка | Автор | Ссылка на статью и репо | Краткое описание | Ключевые компоненты и паттерны | Лицензия | Maturity / статус | Релевантность к Svyazi‑2.0 | |---|---|---|---|---|---|---|---| | **Svyazi** | Андрей Чуян | Хабр citeturn41search0 | Гибридная система извлечения структурированных профилей…
+> <!-- toc --> - [Карта найденных проектов и паттернов](#карта-найденных-проектов-и-паттернов) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- summary --> > <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration --> **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration --> |…
+
+- **🛠️ MVP:** Planning](docs/01-svyazi/07-mvp-planning
 
 _[→ Читать полностью](docs/01-svyazi/03-component-catalog.md)_
 
@@ -30,7 +29,9 @@ _[→ Читать полностью](docs/01-svyazi/03-component-catalog.md)_
 
 ## Глава 3: Ансамбли — синергия компонентов
 
-> <!-- summary --> > Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**. **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration --> Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств…
+> <!-- toc --> - [Приоритетные ансамбли](#приоритетные-ансамбли) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- summary --> > Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**. **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration --> Ниже…
+
+- **🛠️ MVP:** Planning](docs/01-svyazi/07-mvp-planning
 
 _[→ Читать полностью](docs/01-svyazi/04-ensembles-overview.md)_
 
@@ -39,7 +40,7 @@ _[→ Читать полностью](docs/01-svyazi/04-ensembles-overview.md)_
 
 ## Глава 4: MVP — что строим первым
 
-> <!-- summary --> > Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration --> Наиболее рациональный прототип — **не собирать всё…
+> <!-- toc --> - [План прототипа и возможные контакты](#план-прототипа-и-возможные-контакты) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- summary --> > Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse --- <!-- tags: memory, rag,…
 
 - **🛠️ MVP:** — **12–18 инженерных дней** для одного сильного разработчика или пары “backend + agent/operator”
 - **🛠️ MVP:** и проверить один сценарий: **обнаружение и объяснение полезных коллабораций**
@@ -51,7 +52,9 @@ _[→ Читать полностью](docs/01-svyazi/07-mvp-planning.md)_
 
 ## Глава 5: Архитектурные пробелы
 
-> <!-- summary --> > После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт `.agentos` и compile‑to‑runtime политику **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement --> После первичного обзора видно, что…
+> <!-- toc --> - [Архитектурные зазоры, которые важнее новых инструментов](#архитектурные-зазоры-которые-важнее-новых-инструментов) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- summary --> > После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi[^svyazi] хорошо закрывает ingest и нормализацию; AgentFS[^agentfs] даёт `.agentos` и compile‑to‑runtime политику **Проекты:** Svyazi, CardIndex[^cardindex], AgentFS, knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse ---…
+
+- **🛠️ MVP:** Planning](docs/01-svyazi/07-mvp-planning
 
 _[→ Читать полностью](docs/01-svyazi/09-architectural-gaps.md)_
 
@@ -60,10 +63,11 @@ _[→ Читать полностью](docs/01-svyazi/09-architectural-gaps.md)_
 
 ## Глава 6: Контракты интеграции
 
-> <!-- summary --> > Чтобы все эти ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, LiteParse, Legal RAG, Hybrid RAG --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement --> Чтобы все эти…
+> <!-- toc --> - [Интеграционный контракт, который стоит зафиксировать сразу](#интеграционный-контракт-который-стоит-зафиксировать-сразу) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- summary --> > Чтобы все эти ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, LiteParse, Legal RAG[^rag], Hybrid RAG…
 
 - **🛠️ MVP:** без чрезмерной формализации
 - **🛠️ MVP:** | На какие идеи опирается |
+- **🛠️ MVP:** Planning](docs/01-svyazi/07-mvp-planning
 
 _[→ Читать полностью](docs/01-svyazi/11-integration-contracts.md)_
 
@@ -72,9 +76,10 @@ _[→ Читать полностью](docs/01-svyazi/11-integration-contracts.m
 
 ## Глава 7: Дорожная карта
 
-> <!-- summary --> > Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая из которых поднимает один новый класс свойств. Первая итерация должна закрепить **Проекты:** Svyazi, mclaude, AI Factory, Yodoca, NGT Memory --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement --> Если идти дальше после…
+> <!-- toc --> - [Дорожная карта прототипа следующей итерации](#дорожная-карта-прототипа-следующей-итерации) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- summary --> > Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая из которых поднимает один новый класс свойств. Первая итерация должна закрепить **Проекты:** Svyazi[^svyazi], mclaude, AI Factory, Yodoca[^yodoca], NGT[^ngt] Memory --- <!--…
 
 - **🚀 Старт:** должна закрепить контракт и доказуемость
+- **🛠️ MVP:** Planning](docs/01-svyazi/07-mvp-planning
 - **🎯 Цель:** | Минимум, который должен заработать | Оценка усилий | Главный риск |
 
 _[→ Читать полностью](docs/01-svyazi/12-roadmap.md)_
@@ -84,7 +89,9 @@ _[→ Читать полностью](docs/01-svyazi/12-roadmap.md)_
 
 ## Глава 8: Команда и контакты
 
-> <!-- summary --> > С практической точки зрения следующие письма или комментарии лучше строить не вокруг общей фразы “давайте сделаем Svyazi‑2.0”, а вокруг **одного конкретного шва**, который автор уже хорошо понимает. У **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Yodoca, NGT Memory --- <!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, self-improvement, collaboration --> С практической точки зрения следующие…
+> <!-- toc --> - [Контактная стратегия и узкие вопросы для авторов](#контактная-стратегия-и-узкие-вопросы-для-авторов) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- summary --> > С практической точки зрения следующие письма или комментарии лучше строить не вокруг общей фразы “давайте сделаем Svyazi[^svyazi]‑2.0”, а вокруг **одного конкретного шва**, который автор уже хорошо понимает. У **Проекты:** Svyazi, CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Yodoca[^yodoca], NGT[^ngt]…
+
+- **🛠️ MVP:** Planning](docs/01-svyazi/07-mvp-planning
 
 _[→ Читать полностью](docs/01-svyazi/13-contacts.md)_
 
@@ -93,7 +100,7 @@ _[→ Читать полностью](docs/01-svyazi/13-contacts.md)_
 
 ## Глава 9: AI-коллаборации
 
-> <!-- summary --> > https://habr.com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект по разработке программного обеспечени **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, Rufler, LiteParse, Legal RAG --- <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration --> **[Запрос]** " Du hast…
+> <!-- toc --> - [Статус](#статус) - [Упоминается в](#упоминается-в) - [Связанные документы](#связанные-документы) --- <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Они становятся процессами в распределённой системе — с блокировками, задачами, памятью, статусами и передачей контекста. > 🔧 **Подход:** AI-бот для самопознания PDA-архитектуры из прошлых ответов (URL — event sourcing, LLM как периферия, Stability Engine. > ✅ **Результат:** Operations…
 
 - **🤝 Контакт:** ему в комменты с тегами на Чепурову и Романова (и со ссылкой на NGT Memory), описав идею объединения, может оказаться буквально тем самым «карточкой к
 - **🎯 Цель:** «как мерить качество извлечённой структуры», над которой Чуян ещё думает
@@ -106,7 +113,7 @@ _[→ Читать полностью](docs/04-ai-collaborations/00-intro.md)_
 
 ## Глава 10: Yodoca — память
 
-> <!-- summary --> > Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не просто аналог, это архитектурное продолжение Svyazi на уровне agentic memory. Что у н **Проекты:** Svyazi, Yodoca --- <!-- tags: memory, ingestion, architecture, collaboration --> Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не просто аналог, это архитектурное…
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Yodoca^yodoca: консолидация и забывание !IMPORTANT Ключевой документ для понимания архитектуры. > 🔧 **Подход:** Yodoca^yodoca: консолидация и забывание !IMPORTANT Ключевой документ для понимания архитектуры. > 🏷️ **Ключевые слова:** `memory`, `projects`, `yodoca`, `svyazi`, `collaboration`, `wikontic`, `sqlite`, `readme` > > [!IMPORTANT] > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. <!--…
 
 _[→ Читать полностью](docs/05-habr-projects/memory/yodoca.md)_
 
@@ -115,8 +122,9 @@ _[→ Читать полностью](docs/05-habr-projects/memory/yodoca.md)_
 
 ## Глава 11: NGT — граф памяти
 
-> <!-- summary --> > ассоциативные связи в персистентной памяти LLM **Проекты:** Svyazi, NGT Memory --- <!-- tags: memory, ingestion, collaboration --> ассоциативные связи в персистентной памяти LLM Выявляя ассоциативные связи в персистентной памяти LLM Соберу ещё один пласт — авторские проекты с ярко выраженной идеей "обнаружения связей" между людьми/идеями через LLM. Excavated analogous projects and synthesized unified collaboration-discovery system Excavated…
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** У Романова уже решена задача «как мерить качество извлечённой структуры», над которой Чуян ещё думает. > ✅ **Результат:** Автор — лингвист (ВМК МГУ + аспирантура), фокус: «лингвистика даёт типизацию отношений, но не масштабируется на сотни страниц; LLM понимает семантику, но без формальной структуры в > 🏷️ **Ключевые слова:** `projects`, `memory`,…
 
+- **🎯 Цель:** «как мерить качество извлечённой структуры», над которой Чуян ещё думает
 - **🎯 Цель:** «как мерить качество извлечённой структуры», над которой Чуян ещё думает
 
 _[→ Читать полностью](docs/05-habr-projects/memory/ngt-memory.md)_
@@ -143,7 +151,7 @@ _Полная дорожная карта: [docs/01-svyazi/12-roadmap.md](docs/0
 
 **Смотрите также:**
 - [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
 - [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
 - [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
 

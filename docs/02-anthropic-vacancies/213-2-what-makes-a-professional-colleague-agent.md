@@ -168,3 +168,19 @@ to discuss work with."
 - [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
 - [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _42%_
+- [9. Relationship to Other Agent Types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) _42%_
+- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _37%_
+- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _33%_
+- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _29%_
+- [Appendix B: Decision Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_
+- [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _25%_

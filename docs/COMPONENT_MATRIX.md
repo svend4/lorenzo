@@ -1,5 +1,42 @@
 # Матрица компонентов Svyazi 2.0
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> - [Матрица возможностей](#матрица-возможностей)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, Rufler, LiteParse, Yodoca
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Матрица возможностей](#матрица-возможностей)
+- [Покрытие возможностей](#покрытие-возможностей)
+- [Каталог компонентов](#каталог-компонентов)
+- [Рекомендуемые ансамбли](#рекомендуемые-ансамбли)
+- [Связанные документы](#связанные-документы)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, collaboration -->
+
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Матрица возможностей](#матрица-возможностей)
+- [Покрытие возможностей](#покрытие-возможностей)
+- [Каталог компонентов](#каталог-компонентов)
+- [Рекомендуемые ансамбли](#рекомендуемые-ансамбли)
+
+
 _Совместимость и возможности 14 компонентов экосистемы._
 
 **Легенда:** ✅ Поддерживается · 🟡 Частично · ❌ Не поддерживается
@@ -42,7 +79,7 @@ _Совместимость и возможности 14 компонентов 
 
 | Компонент | Лицензия | Статус | Репозиторий |
 |-----------|----------|--------|-------------|
-| **CardIndex** | 🟢 MIT | 🟢 stable | `kksudo/card-index` |
+| **CardIndex** | 🟢 MIT | 🟢 stable | `kksudo/CardIndex` |
 | **AgentFS** | 🟢 MIT | 🟢 stable | `kksudo/agentfs` |
 | **Yodoca** | 🟢 Apache 2.0 | 🔵 active | `spbmolot/yodoca` |
 | **NGT-memory** | 🟠 BSL 1.1 | 🔵 active | — |
@@ -66,4 +103,23 @@ _Совместимость и возможности 14 компонентов 
 | Security Runtime | SENTINEL + AgentFS | PII-защита + MCP allowlist |
 | Web Intelligence | Firecrawl + CardIndex + Yodoca | Краулинг → память |
 | Agent Orchestra | Rufler + agent-pool + AI Factory | Оркестрация агентов |
+
+<!-- related-auto -->
+## Связанные документы
+
+- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _17%_
+- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _17%_
+- [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _17%_
+- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _17%_
+- [Сеть проектов и авторов](docs/NETWORK.md) _17%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](docs/ONBOARDING.md)
+- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
+- [PRIORITIES](docs/PRIORITIES.md)
+- [CONTACTS](docs/CONTACTS.md)
 

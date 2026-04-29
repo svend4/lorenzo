@@ -1,20 +1,103 @@
-# Документация Lorenzo
+# docs
 
-Все документы организованы по тематическим разделам.
-Каждый раздел содержит маленькие файлы по подтемам.
+**Файлов:** 84
 
-## Навигация
+## Содержание
 
-- [01-svyazi/](01-svyazi/) — Svyazi 2.0
-- [02-anthropic-vacancies/](02-anthropic-vacancies/) — Вакансии Anthropic
-- [03-technology-combinations/](03-technology-combinations/) — Комбинации технологий
-- [04-ai-collaborations/](04-ai-collaborations/) — AI коллаборации
-- [05-habr-projects/](05-habr-projects/) — Проекты с Хабра
+- [ABBREVIATIONS.md](ABBREVIATIONS.md) — > [!TIP]
+- [ACTION_ITEMS.md](ACTION_ITEMS.md) — > [!TIP]
+- [ALERTS.md](ALERTS.md) — Добавлено **27** callout-блоков в документы.
+- [AUTHORS.md](AUTHORS.md) — <!-- summary -->
+- [AUTOFILLED.md](AUTOFILLED.md) — _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
+- [BACKLINKS.md](BACKLINKS.md) — **Файлов с входящими ссылками:** 405
+- [BROKEN_LINKS.md](BROKEN_LINKS.md) — > [!TIP]
+- [CHANGELOG.md](CHANGELOG.md) — Всего коммитов: **49**
+- [CHANGELOG_AUTO.md](CHANGELOG_AUTO.md) — <!-- toc-auto -->
+- [CITATION_INDEX.md](CITATION_INDEX.md) — _Обновлено: 2026-04-29_
+- [CLUSTERS.md](CLUSTERS.md) — <!-- toc-auto -->
+- [CODE_BLOCKS.md](CODE_BLOCKS.md) — <!-- toc-auto -->
+- [COMPARE.md](COMPARE.md) — **Файлов было:** 347  **стало:** 524
+- [COMPLEXITY.md](COMPLEXITY.md) — <!-- toc-auto -->
+- [COMPONENT_MATRIX.md](COMPONENT_MATRIX.md) — <!-- toc-auto -->
+- [CONCEPTS.md](CONCEPTS.md) — <!-- toc-auto -->
+- [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) — _Обновлено: 2026-04-29_
+- [CONSISTENCY.md](CONSISTENCY.md) — <!-- toc-auto -->
+- [CONTACTS.md](CONTACTS.md) — | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
+- [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) — _Обновлено: 2026-04-29_
+- [CONTENT_GAPS.md](CONTENT_GAPS.md) — _Обновлено: 2026-04-29_
+- [CONTRADICTIONS.md](CONTRADICTIONS.md) — <!-- toc-auto -->
+- [COST.md](COST.md) — _Ориентировочные цифры на основе документации проекта._
+- [COVERAGE.md](COVERAGE.md) — _Обновлено: 2026-04-29_
+- [CROSSREFS.md](CROSSREFS.md) — > [!TIP]
+- [DECISIONS.md](DECISIONS.md) — <!-- toc-auto -->
+- [DENSITY.md](DENSITY.md) — <!-- toc-auto -->
+- [DEPENDENCY_MAP.md](DEPENDENCY_MAP.md) — <!-- toc-auto -->
+- [DIGEST.md](DIGEST.md) — _Обновлено: 2026-04-29_
+- [DIGEST_WEEKLY.md](DIGEST_WEEKLY.md) — _Период: последние 7 дней (с 2026-04-22)_
+- [DUPLICATES.md](DUPLICATES.md) — <!-- toc-auto -->
+- [ENTITIES.md](ENTITIES.md) — <!-- toc-auto -->
+- [FAQ.md](FAQ.md) — <!-- toc-auto -->
+- [FOOTNOTES.md](FOOTNOTES.md) — **Обновлено файлов:** 37  **Вставлено сносок:** 255
+- [GLOSSARY.md](GLOSSARY.md) — <!-- summary -->
+- [GRAPH.md](GRAPH.md) — Рёбра = совместные упоминания в одном файле (≥ 2 раз).
+- [HEALTH.md](HEALTH.md) — _Обновлено: 2026-04-29_
+- [HEATMAP.md](HEATMAP.md) — <!-- toc-auto -->
+- [INDEX.md](INDEX.md) — <!-- toc-auto -->
+- [KEYWORD_INDEX.md](KEYWORD_INDEX.md) — _Обновлено: 2026-04-29_
+- [KPI.md](KPI.md) — <!-- toc-auto -->
+- [KPI_HISTORY.md](KPI_HISTORY.md) — _Последнее обновление: 2026-04-29 · Снапшотов в истории: 1_
+- [LINKS.md](LINKS.md) — Всего уникальных URL: 120
+- [LLM_SUMMARIES.md](LLM_SUMMARIES.md) — <!-- toc-auto -->
+- [METRICS.md](METRICS.md) — <!-- toc-auto -->
+- [MINDMAP.md](MINDMAP.md) — <!-- toc-auto -->
+- [MISSING.md](MISSING.md) — Анализ покрытия ключевых тем и проектов в docs/.
+- [NAMED_ENTITIES.md](NAMED_ENTITIES.md) — <!-- toc-auto -->
+- [NARRATIVE.md](NARRATIVE.md) — <!-- toc-auto -->
+- [NETWORK.md](NETWORK.md) — <!-- toc-auto -->
+- [ONBOARDING.md](ONBOARDING.md) — <!-- toc-auto -->
+- [ORPHANS.md](ORPHANS.md) — <!-- toc-auto -->
+- [OUTLINE.md](OUTLINE.md) — _Обновлено: 2026-04-29_
+- [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — <!-- toc-auto -->
+- [PRIORITIES.md](PRIORITIES.md) — > [!TIP]
+- [PROGRESS.md](PROGRESS.md) — _Обновлено: 2026-04-29 (improve_progress_sync.py)_
+- [QA.md](QA.md) — Вопросы и ответы по всем разделам монорепозитория.
+- [QUESTIONS.md](QUESTIONS.md) — <!-- toc-auto -->
+- [READABILITY.md](READABILITY.md) — _Обновлено: 2026-04-29_
+- [READING_ORDER.md](READING_ORDER.md) — От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
+- [READING_TIME.md](READING_TIME.md) — _Обновлено: 2026-04-29_
+- [REPORT.md](REPORT.md) — <!-- toc-auto -->
+- [RISK_REGISTER.md](RISK_REGISTER.md) — <!-- toc-auto -->
+- [SCHEDULE.md](SCHEDULE.md) — _Дорожная карта с вехами и задачами по кварталам._
+- [SCORING.md](SCORING.md) — _Дата: 2026-04-29_
+- [SEARCH.md](SEARCH.md) — **Файлов:** 523
+- [SEE_ALSO.md](SEE_ALSO.md) — > [!TIP]
+- [SENTIMENT.md](SENTIMENT.md) — <!-- toc-auto -->
+- [SIMILAR.md](SIMILAR.md) — <!-- toc-auto -->
+- [SITEMAP.md](SITEMAP.md) — _Обновлено: 2026-04-29_
+- [SOURCE_MAP.md](SOURCE_MAP.md) — _Обновлено: 2026-04-29_
+- [SPELLCHECK.md](SPELLCHECK.md) — _Обновлено: 2026-04-29_
+- [STALENESS.md](STALENESS.md) — _Порог: 30 дней. Обновлено: 2026-04-29_
+- [STATS.md](STATS.md) — **Разделов:** 10  **Файлов:** 521  **Слов:** 471,879  **Символов:** 4,242,300
+- [TABLES.md](TABLES.md) — <!-- toc-auto -->
+- [TAGS.md](TAGS.md) — <!-- toc-auto -->
+- [TECH_RADAR.md](TECH_RADAR.md) — <!-- toc-auto -->
+- [TIMELINE.md](TIMELINE.md) — <!-- toc-auto -->
+- [TOPIC_MODEL.md](TOPIC_MODEL.md) — _Обновлено: 2026-04-29_
+- [VALIDATION.md](VALIDATION.md) — <!-- toc-auto -->
+- [VERSION_DIFF.md](VERSION_DIFF.md) — _Обновлено: 2026-04-29_
+- [VOCABULARY.md](VOCABULARY.md) — <!-- toc-auto -->
+- [WORD_CLOUD.md](WORD_CLOUD.md) — Визуализация 80 самых частых слов репозитория.
+- [WORD_FREQ.md](WORD_FREQ.md) — <!-- toc-auto -->
 
-<!-- similar-docs -->
+## Подразделы
 
----
-
-**Похожие документы:**
-- [DENSITY](docs/DENSITY.md) (сходство 0.11)
-
+- [01-svyazi/](01-svyazi/) — Svyazi 2.0 — Архитектура и исследование
+- [02-anthropic-vacancies/](02-anthropic-vacancies/) — Вакансии Anthropic — Анализ по кластерам
+- [03-technology-combinations/](03-technology-combinations/) — Комбинирование технологий для новых свойств
+- [04-ai-collaborations/](04-ai-collaborations/) — Поиск AI-коллабораций
+- [05-habr-projects/](05-habr-projects/) — Уникальные проекты с Хабра
+- [autofilled/](autofilled/) — autofilled
+- [badges/](badges/) — badges
+- [chunks/](chunks/) — chunks
+- [contacts/](contacts/) — contacts
+- [templates/](templates/) — templates

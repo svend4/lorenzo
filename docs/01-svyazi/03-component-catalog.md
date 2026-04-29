@@ -1,3 +1,21 @@
+
+
+<!-- toc -->
+## Содержание
+
+- [Карта найденных проектов и паттернов](#карта-найденных-проектов-и-паттернов)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+<!-- summary -->
+> <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
 
 ## Карта найденных проектов и паттернов
@@ -63,3 +81,20 @@
 [^sentinel]: OSS-проект: безопасность и allowlist для MCP
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Карта найденных проектов и паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) _90%_
+- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_
+- [04 Ensembles Overview](docs/01-svyazi/04-ensembles-overview.md) _29%_
+- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _29%_
+- [Все таблицы репозитория](docs/TABLES.md) _29%_
+- [06 Security Privacy](docs/01-svyazi/06-security-privacy.md) _25%_
+- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _25%_
+- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _25%_

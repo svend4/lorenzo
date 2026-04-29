@@ -88,3 +88,19 @@ walking it.
 - [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Abstract](docs/02-anthropic-vacancies/252-abstract.md) _29%_
+- [4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) _29%_
+- [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) _29%_
+- [Closing](docs/02-anthropic-vacancies/285-closing.md) _29%_
+- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _25%_
+- [2. The Twenty-One Teachers Pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) _25%_
+- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _25%_
+- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _25%_

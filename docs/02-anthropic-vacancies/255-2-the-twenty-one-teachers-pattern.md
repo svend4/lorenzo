@@ -159,3 +159,19 @@ practitioner can configure into their own combination.
 - [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
 - [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [6. Coordination and Disagreement Resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) _33%_
+- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _25%_
+- [1. Why the Binary View Is Incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) _25%_
+- [13. Closing](docs/02-anthropic-vacancies/266-13-closing.md) _25%_
+- [3. Empirical Case Study: «Обучай»](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) _21%_
+- [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) _21%_
+- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _21%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _21%_

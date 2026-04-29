@@ -1,5 +1,22 @@
 # [Тема исследования]
 
+<!-- summary -->
+> - [Ключевые находки](#ключевые-находки)
+
+---
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Контекст](#контекст)
+- [Ключевые находки](#ключевые-находки)
+- [Источники](#источники)
+- [Открытые вопросы](#открытые-вопросы)
+- [Следующие шаги](#следующие-шаги)
+
+
 <!-- summary: Краткий итог исследования -->
 <!-- tags: исследование -->
 
@@ -39,3 +56,9 @@ _Создано: 2026-04-29_
 - [contact-outreach](docs/templates/contact-outreach.md)
 - [project-component](docs/templates/project-component.md)
 
+<!-- related-auto -->
+## Связанные документы
+
+- [[Тема исследования]](docs/templates/research-note.md) _100%_
+- [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md) _17%_
+- [[Название компонента]](docs/templates/project-component.md) _17%_

@@ -1,4 +1,16 @@
 # Подключение к Claude Desktop
+<!-- tags: anthropic -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Подключение к Claude Desktop](#подключение-к-claude-desktop)
+  - [macOS](#macos)
+  - [Windows](#windows)
+  - [Linux](#linux)
+  - [Содержимое](#содержимое)
+
 
 <!-- summary -->
 > ~/Library/Application Support/Claude/claude_desktop_config.json
@@ -71,3 +83,19 @@
 - [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
 - [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [portal-mcp.py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) _33%_
+- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _25%_
+- [Конфигурация для Claude Desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md) _25%_
+- [Отладка](docs/02-anthropic-vacancies/130-отладка.md) _25%_
+- [Содержание](docs/02-anthropic-vacancies/190-содержание.md) _25%_
+- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _25%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _25%_
+- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _25%_

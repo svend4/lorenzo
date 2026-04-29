@@ -56,3 +56,19 @@ needs.
 - [271-appendix-c-configuration-template-example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md)
 - [322-appendix-b-comparison-matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix B: Sub-Agent Registry Schema (Sketch)](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md) _48%_
+- [Appendix C: Configuration Template Example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _25%_
+- [Appendix B: Comparison Matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) _25%_
+- [Что ты ВСЕГДА делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md) _25%_
+- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _21%_
+- [Кластеры тематически близких файлов](docs/CLUSTERS.md) _21%_
+- [Качество абзацев](docs/PARAGRAPH_QUALITY.md) _21%_

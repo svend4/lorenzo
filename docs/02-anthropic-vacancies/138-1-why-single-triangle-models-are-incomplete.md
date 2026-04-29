@@ -1,5 +1,28 @@
 # 1. Why Single-Triangle Models Are Incomplete
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
+  - [1.1. The Current Landscape](#11-the-current-landscape)
+  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
+  - [1.3. The Rising Urgency](#13-the-rising-urgency)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
+  - [1.1. The Current Landscape](#11-the-current-landscape)
+  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
+  - [1.3. The Rising Urgency](#13-the-rising-urgency)
+
+
 <!-- summary -->
 > The AI-assisted knowledge work field currently divides into two
 
@@ -95,3 +118,19 @@ such a protocol.
 - [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
 - [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Abstract](docs/02-anthropic-vacancies/136-abstract.md) _33%_
+- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _29%_
+- [3. Three Inter-Layer Protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) _29%_
+- [2. The Double-Triangle Architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) _21%_
+- [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _21%_
+- [5. Pattern Library as Bridge Between Triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) _21%_
+- [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md) _21%_
+- [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) _21%_

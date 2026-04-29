@@ -1,5 +1,50 @@
 # Кластеры тематически близких файлов
 
+<!-- summary -->
+> - [Кластер 1 — cowork, ingit, yes, project (22 файлов)](#кластер-1-cowork-ingit-yes-project-22-файлов)
+**Проекты:** Svyazi
+
+---
+<!-- tags: memory, rag, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Кластер 1 — cowork, ingit, yes, project (22 файлов)](#кластер-1-cowork-ingit-yes-project-22-файлов)
+- [Кластер 2 — professional, agent, colleague, type (17 файлов)](#кластер-2-professional-agent-colleague-type-17-файлов)
+- [Кластер 3 — turn, view, cite, search (16 файлов)](#кластер-3-turn-view-cite-search-16-файлов)
+- [Кластер 4 — repo, passport, npp, json (15 файлов)](#кластер-4-repo-passport-npp-json-15-файлов)
+- [Кластер 5 — str, query, portal, consensus (15 файлов)](#кластер-5-str-query-portal-consensus-15-файлов)
+- [Кластер 6 — документ, document, com, github (14 файлов)](#кластер-6-документ-document-com-github-14-файлов)
+- [Кластер 7 — turn, view, label, svyazi (13 файлов)](#кластер-7-turn-view-label-svyazi-13-файлов)
+- [Кластер 8 — contents, table, why, call (11 файлов)](#кластер-8-contents-table-why-call-11-файлов)
+- [Кластер 9 — document, documents, chat, cowork (11 файлов)](#кластер-9-document-documents-chat-cowork-11-файлов)
+- [Кластер 10 — principal, agent, agents, type (10 файлов)](#кластер-10-principal-agent-agents-type-10-файлов)
+- [Кластер 11 — editorial, collaboration, draft, date (8 файлов)](#кластер-11-editorial-collaboration-draft-date-8-файлов)
+- [Кластер 12 — agent, representative, agents, from (8 файлов)](#кластер-12-agent-representative-agents-from-8-файлов)
+- [Кластер 13 — репо, nautilus, info, pro (7 файлов)](#кластер-13-репо-nautilus-info-pro-7-файлов)
+- [Кластер 14 — lorenzo, dhlab, catalyst, твоя (7 файлов)](#кластер-14-lorenzo-dhlab-catalyst-твоя-7-файлов)
+- [Кластер 15 — infrastructure, populations, okwf, target (6 файлов)](#кластер-15-infrastructure-populations-okwf-target-6-файлов)
+- [Кластер 16 — принципала, агента, агент, принципал (6 файлов)](#кластер-16-принципала-агента-агент-принципал-6-файлов)
+- [Кластер 17 — угол, экосистемы, glossary, passports (6 файлов)](#кластер-17-угол-экосистемы-glossary-passports-6-файлов)
+- [Кластер 18 — level, bridged, interactive, mapping (6 файлов)](#кластер-18-level-bridged-interactive-mapping-6-файлов)
+- [Кластер 19 — вариант, ветка, создаётся, параллельно (5 файлов)](#кластер-19-вариант-ветка-создаётся-параллельно-5-файлов)
+- [Кластер 20 — xargs, значение, взять, раздел (5 файлов)](#кластер-20-xargs-значение-взять-раздел-5-файлов)
+- [Кластер 21 — claude, desktop, config, json (5 файлов)](#кластер-21-claude-desktop-config-json-5-файлов)
+- [Кластер 22 — triangle, node, meta-agent, assistants (5 файлов)](#кластер-22-triangle-node-meta-agent-assistants-5-файлов)
+- [Кластер 23 — com, svend, https, github (5 файлов)](#кластер-23-com-svend-https-github-5-файлов)
+- [Кластер 24 — противодействия, меры, содержание, невидимым (5 файлов)](#кластер-24-противодействия-меры-содержание-невидимым-5-файлов)
+- [Кластер 25 — contributor, month, foundation, contributors (4 файлов)](#кластер-25-contributor-month-foundation-contributors-4-файлов)
+- [Кластер 26 — medium, high, low, risk (4 файлов)](#кластер-26-medium-high-low-risk-4-файлов)
+- [Кластер 27 — emerged, author, acknowledgments, document (4 файлов)](#кластер-27-emerged-author-acknowledgments-document-4-файлов)
+- [Кластер 28 — тип, выбирайте, агент, профессиональный (4 файлов)](#кластер-28-тип-выбирайте-агент-профессиональный-4-файлов)
+- [Кластер 29 — документ, автора, этот, возник (4 файлов)](#кластер-29-документ-автора-этот-возник-4-файлов)
+- [Кластер 30 — essence, info, pro, концепты (4 файлов)](#кластер-30-essence-info-pro-концепты-4-файлов)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -328,3 +373,14 @@ _...и ещё 90 малых кластеров (по 1-2 файла)_
 - [TAGS](docs/TAGS.md)
 - [COMPARE](docs/COMPARE.md)
 
+<!-- related-auto -->
+## Связанные документы
+
+- [Карта происхождения текстов](docs/SOURCE_MAP.md) _42%_
+- [Рекомендуемый порядок чтения](docs/READING_ORDER.md) _37%_
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md) _33%_
+- [Инвертированный индекс ключевых слов](docs/KEYWORD_INDEX.md) _33%_
+- [Время чтения документов](docs/READING_TIME.md) _33%_
+- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _29%_
+- [Качество абзацев](docs/PARAGRAPH_QUALITY.md) _29%_

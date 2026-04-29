@@ -1,4 +1,16 @@
 # 7. Practical First Steps This Month
+<!-- tags: architecture, anthropic -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [7. Practical First Steps This Month](#7-practical-first-steps-this-month)
+  - [7.1. This Week](#71-this-week)
+  - [7.2. This Month](#72-this-month)
+  - [7.3. Next Quarter](#73-next-quarter)
+  - [7.4. Specific Test Case: This Document Series](#74-specific-test-case-this-document-series)
+
 
 <!-- summary -->
 > Concrete actions for the immediate term.
@@ -98,3 +110,19 @@ work. Most successful infrastructure projects start this way.
 - [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
 - [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _33%_
+- [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _29%_
+- [5. Four Integration Paths in Order of Accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) _29%_
+- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _29%_
+- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _25%_
+- [Abstract](docs/02-anthropic-vacancies/307-abstract.md) _25%_
+- [3. What InGit Provides That Cowork Lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) _25%_

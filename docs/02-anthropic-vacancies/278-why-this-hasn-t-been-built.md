@@ -74,3 +74,19 @@ integration does not.
 - [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
 - [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Closing](docs/02-anthropic-vacancies/285-closing.md) _33%_
+- [13. Closing](docs/02-anthropic-vacancies/266-13-closing.md) _29%_
+- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _29%_
+- [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) _29%_
+- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _25%_
+- [Existing Approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) _25%_
+- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _25%_
+- [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) _21%_

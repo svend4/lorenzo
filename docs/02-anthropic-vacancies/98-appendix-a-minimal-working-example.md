@@ -1,5 +1,14 @@
 # Appendix A: Minimal Working Example
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+
+
 <!-- summary -->
 > "passport": "passports/my_notes.md",
 
@@ -114,3 +123,19 @@ class MyNotesAdapter(BaseAdapter):
 - [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
 - [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _60%_
+- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _37%_
+- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _33%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) _33%_
+- [REVIEW_METHODOLOGY.md](docs/02-anthropic-vacancies/105-review-methodology-md.md) _33%_
+- [portal-mcp.py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) _33%_
+- [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md) _33%_
+- [Native Format](docs/02-anthropic-vacancies/37-native-format.md) _29%_

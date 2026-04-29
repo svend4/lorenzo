@@ -178,3 +178,19 @@ shared, cited, refined by anyone with attribution.
 - [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Глоссарий понятий](docs/CONCEPTS.md) _25%_
+- [PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) _21%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _21%_
+- [9. Call for Partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) _21%_
+- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _21%_
+- [Appendix: Position in Series Visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) _21%_
+- [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) _21%_
+- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _21%_

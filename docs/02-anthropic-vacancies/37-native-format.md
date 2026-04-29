@@ -4,6 +4,8 @@
 > **Структура файла:** [? уточнить — Markdown с YAML frontmatter, чистый JSON,
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -52,3 +54,19 @@ or something custom?]
 - [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
 - [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Native Format](docs/02-anthropic-vacancies/57-native-format.md) _33%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _29%_
+- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _25%_
+- [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md) _25%_
+- [For the Curious: Philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md) _25%_
+- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _21%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) _21%_
+- [Planned (v0.2.0)](docs/02-anthropic-vacancies/132-planned-v0-2-0.md) _21%_

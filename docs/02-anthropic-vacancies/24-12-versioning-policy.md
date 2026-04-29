@@ -1,5 +1,14 @@
 # 12. Versioning Policy
 
+<!-- toc-auto -->
+## Contents
+
+- [12. Versioning Policy](#12-versioning-policy)
+  - [12.1. Semver](#121-semver)
+  - [12.2. Version in Registry](#122-version-in-registry)
+  - [12.3. Breaking Changes Process](#123-breaking-changes-process)
+
+
 <!-- summary -->
 > - **Major** (v1 → v2): breaking changes в interfaces или schemas
 
@@ -56,3 +65,19 @@ implementation MUST поддерживать **минимум текущую maj
 - [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
 - [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [17. Versioning Policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md) _81%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _29%_
+- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _29%_
+- [Author & Contact](docs/02-anthropic-vacancies/62-author-contact.md) _29%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) _29%_
+- [PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) _25%_
+- [Хронологическая лента событий](docs/TIMELINE.md) _25%_
+- [Примеры запросов (в Claude)](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md) _21%_

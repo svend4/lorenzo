@@ -1,5 +1,15 @@
 # 17. Versioning Policy
 
+<!-- toc-auto -->
+## Contents
+
+- [17. Versioning Policy](#17-versioning-policy)
+  - [17.1. Semver](#171-semver)
+  - [17.2. Version in Registry](#172-version-in-registry)
+  - [17.3. Breaking Changes Process](#173-breaking-changes-process)
+  - [17.4. Deprecation Policy](#174-deprecation-policy)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -71,3 +81,19 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 - [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
 - [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [12. Versioning Policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md) _81%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _25%_
+- [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md) _25%_
+- [Author & Contact](docs/02-anthropic-vacancies/62-author-contact.md) _25%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) _25%_
+- [PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) _21%_
+- [Примеры запросов (в Claude)](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md) _21%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _21%_

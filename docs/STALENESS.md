@@ -2,57 +2,57 @@
 
 _Порог: 30 дней. Обновлено: 2026-04-29_
 
-Найдено проблем: **189** файлов
+Найдено проблем: **90** файлов
 
-## Без метаданных (нет summary или тегов) — 150 файлов
+## Без метаданных (нет summary или тегов) — 68 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
 | `docs/01-svyazi/00-intro-part2.md` | 5 | нет summary, нет тегов, короткий (5 слов) |
-| `docs/01-svyazi/03-component-catalog.md` | 1149 | нет summary |
-| `docs/01-svyazi/QA.md` | 245 | нет summary, нет тегов |
-| `docs/01-svyazi/README.md` | 339 | нет summary, нет тегов |
-| `docs/02-anthropic-vacancies/04-abstract.md` | 116 | нет тегов |
-| `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` | 109 | нет тегов |
-| `docs/02-anthropic-vacancies/102-доступ-к-данным.md` | 20 | нет summary, нет тегов, короткий (20 слов) |
-| `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | 142 | нет тегов |
-| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | 129 | нет тегов |
-| `docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md` | 221 | нет тегов |
-| `docs/02-anthropic-vacancies/12-content-overview.md` | 20 | нет summary, нет тегов, короткий (20 слов) |
-| `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 41 | нет тегов, короткий (41 слов) |
-| `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` | 165 | нет тегов |
-| `docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` | 83 | нет тегов, короткий (83 слов) |
-| `docs/02-anthropic-vacancies/13-angle-perspective.md` | 34 | нет summary, нет тегов, короткий (34 слов) |
-| `docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md` | 87 | нет тегов, короткий (87 слов) |
-| `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | 29 | нет summary, нет тегов, короткий (29 слов) |
-| `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | 32 | нет summary, нет тегов, короткий (32 слов) |
-| `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md` | 461 | нет тегов |
-| `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | 30 | нет summary, короткий (30 слов) |
+| `docs/01-svyazi/QA.md` | 255 | нет summary, нет тегов |
+| `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 14 | нет summary, нет тегов, короткий (14 слов) |
+| `docs/02-anthropic-vacancies/QA.md` | 360 | нет summary, нет тегов |
+| `docs/03-technology-combinations/QA.md` | 100 | нет summary, нет тегов |
+| `docs/03-technology-combinations/README.md` | 38 | нет тегов, короткий (38 слов) |
+| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
+| `docs/04-ai-collaborations/README.md` | 82 | нет summary, нет тегов, короткий (82 слов) |
+| `docs/05-habr-projects/QA.md` | 111 | нет summary, нет тегов |
+| `docs/05-habr-projects/README.md` | 38 | нет summary, нет тегов, короткий (38 слов) |
+| `docs/05-habr-projects/knowledge/README.md` | 9 | нет summary, нет тегов, короткий (9 слов) |
+| `docs/05-habr-projects/memory/README.md` | 17 | нет summary, нет тегов, короткий (17 слов) |
+| `docs/ABBREVIATIONS.md` | 1030 | нет summary, нет тегов |
+| `docs/ACTION_ITEMS.md` | 4906 | нет summary |
+| `docs/ALERTS.md` | 50 | нет summary, нет тегов, короткий (50 слов) |
+| `docs/AUTHORS.md` | 81 | нет summary, нет тегов, короткий (81 слов) |
+| `docs/BACKLINKS.md` | 194 | нет summary, нет тегов |
+| `docs/BROKEN_LINKS.md` | 468 | нет summary, нет тегов |
+| `docs/CHANGELOG.md` | 829 | нет summary, нет тегов |
+| `docs/CODE_BLOCKS.md` | 3446 | нет summary, нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 39 файлов
+## Короткие (< 100 слов, заготовки) — 22 файлов
 
 | Файл | Слов |
 |------|------|
-| `docs/02-anthropic-vacancies/03-portal-protocol-md.md` | 65 |
-| `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` | 92 |
-| `docs/02-anthropic-vacancies/105-review-methodology-md.md` | 64 |
-| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | 62 |
-| `docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md` | 88 |
-| `docs/02-anthropic-vacancies/126-установка.md` | 86 |
-| `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` | 62 |
-| `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | 82 |
-| `docs/02-anthropic-vacancies/137-table-of-contents.md` | 85 |
-| `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` | 77 |
-| `docs/02-anthropic-vacancies/154-table-of-contents.md` | 70 |
-| `docs/02-anthropic-vacancies/16-history.md` | 65 |
-| `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | 99 |
-| `docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md` | 96 |
-| `docs/02-anthropic-vacancies/190-содержание.md` | 88 |
-| `docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md` | 98 |
-| `docs/02-anthropic-vacancies/25-13-reference-implementation.md` | 85 |
-| `docs/02-anthropic-vacancies/27-15-glossary-of-examples.md` | 94 |
-| `docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md` | 84 |
-| `docs/02-anthropic-vacancies/35-passports-info1-md.md` | 64 |
+| `docs/01-svyazi/README.md` | 86 |
+| `docs/02-anthropic-vacancies/102-доступ-к-данным.md` | 52 |
+| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | 87 |
+| `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 66 |
+| `docs/02-anthropic-vacancies/16-history.md` | 90 |
+| `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | 96 |
+| `docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md` | 94 |
+| `docs/autofilled/components/.md` | 77 |
+| `docs/autofilled/components/cowork.md` | 77 |
+| `docs/autofilled/components/ingit.md` | 77 |
+| `docs/autofilled/components/kksudo.md` | 62 |
+| `docs/autofilled/components/lorenzo.md` | 77 |
+| `docs/autofilled/components/nautilus.md` | 77 |
+| `docs/autofilled/components/sgb.md` | 77 |
+| `docs/autofilled/components/spbmolot.md` | 62 |
+| `docs/autofilled/components/svend4.md` | 77 |
+| `docs/autofilled/components/svyazi.md` | 77 |
+| `docs/templates/contact-outreach.md` | 96 |
+| `docs/templates/decision-record.md` | 62 |
+| `docs/templates/ensemble.md` | 93 |
 
 ## Рекомендуемые действия
 

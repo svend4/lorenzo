@@ -4,6 +4,8 @@
 > 1. **Why the Binary View Is Incomplete**
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -44,3 +46,19 @@
 - [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
 - [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _33%_
+- [1. Why the Binary View Is Incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) _33%_
+- [Abstract](docs/02-anthropic-vacancies/252-abstract.md) _29%_
+- [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) _29%_
+- [Appendix C: Configuration Template Example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/169-table-of-contents.md) _25%_
+- [2. The Twenty-One Teachers Pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) _25%_

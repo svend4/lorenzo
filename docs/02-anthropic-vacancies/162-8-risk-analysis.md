@@ -183,3 +183,13 @@ within acceptable range for mission-driven foundation launch.
 - [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [5. Economic Model](docs/02-anthropic-vacancies/159-5-economic-model.md) _17%_
+- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _17%_

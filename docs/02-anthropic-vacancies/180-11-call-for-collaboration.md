@@ -1,5 +1,18 @@
 # 11. Call for Collaboration
 
+<!-- toc-auto -->
+## Contents
+
+- [11. Call for Collaboration](#11-call-for-collaboration)
+  - [11.1. For AI Researchers](#111-for-ai-researchers)
+  - [11.2. For Social Service Organizations](#112-for-social-service-organizations)
+  - [11.3. For Disability Rights Organizations](#113-for-disability-rights-organizations)
+  - [11.4. For Foundation Funders](#114-for-foundation-funders)
+  - [11.5. For Policymakers](#115-for-policymakers)
+  - [11.6. For Potential Principals](#116-for-potential-principals)
+  - [11.7. For Critics](#117-for-critics)
+
+
 <!-- summary -->
 > This paper is offered as starting point, not finished
 
@@ -93,3 +106,15 @@ prefer honest critics to unreserved enthusiasts.
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
 - [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [11. Call for Collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md) _21%_
+- [7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) _17%_
+- [9. Phased Rollout Strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) _17%_
+- [12. Call for Collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) _17%_

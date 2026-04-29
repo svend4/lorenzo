@@ -1,5 +1,38 @@
 # 8. Risks and Mitigations
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [8. Risks and Mitigations](#8-risks-and-mitigations)
+  - [8.1. Risk: Agency Capture](#81-risk-agency-capture)
+  - [8.2. Risk: Adversarial Manipulation by Counterparties](#82-risk-adversarial-manipulation-by-counterparties)
+  - [8.3. Risk: Principal Misunderstanding Agent Capability](#83-risk-principal-misunderstanding-agent-capability)
+  - [8.4. Risk: Privacy Violations](#84-risk-privacy-violations)
+  - [8.5. Risk: Inequitable Access](#85-risk-inequitable-access)
+  - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
+  - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
+  - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [8. Risks and Mitigations](#8-risks-and-mitigations)
+  - [8.1. Risk: Agency Capture](#81-risk-agency-capture)
+  - [8.2. Risk: Adversarial Manipulation by Counterparties](#82-risk-adversarial-manipulation-by-counterparties)
+  - [8.3. Risk: Principal Misunderstanding Agent Capability](#83-risk-principal-misunderstanding-agent-capability)
+  - [8.4. Risk: Privacy Violations](#84-risk-privacy-violations)
+  - [8.5. Risk: Inequitable Access](#85-risk-inequitable-access)
+  - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
+  - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
+  - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
+
+
 <!-- summary -->
 > We address eight categories of risk with specific mitigations.
 
@@ -133,3 +166,19 @@ lose the social and negotiation skills they currently have.
 - [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
 - [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _42%_
+- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _25%_
+- [7. Open Questions](docs/02-anthropic-vacancies/144-7-open-questions.md) _21%_
+- [6. Risks Specific to this Category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) _21%_
+- [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) _21%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _17%_
+- [6. Ethical Framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) _17%_
+- [References](docs/02-anthropic-vacancies/183-references.md) _17%_

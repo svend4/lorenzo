@@ -1,5 +1,16 @@
 # 4. Passport (`passport.md`)
 
+<!-- toc-auto -->
+## Contents
+
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Required Structure](#42-required-structure)
+  - [4.3. Recommended Sections](#43-recommended-sections)
+  - [4.4. Schema Validation](#44-schema-validation)
+  - [4.5. Naming Convention](#45-naming-convention)
+
+
 <!-- summary -->
 > Passport — human-readable описание Repo, расположенное в
 
@@ -85,3 +96,19 @@ Portal SHOULD предоставлять команду валидации:
 - [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _37%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _37%_
+- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _29%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _29%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _25%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) _25%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _21%_

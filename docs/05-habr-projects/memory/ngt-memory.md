@@ -1,5 +1,14 @@
 # NGT[^ngt] Memory: ассоциативный граф
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** У Романова уже решена задача «как мерить качество извлечённой структуры», над которой Чуян ещё думает.
+> ✅ **Результат:** Автор — лингвист (ВМК МГУ + аспирантура), фокус: «лингвистика даёт типизацию отношений, но не масштабируется на сотни страниц; LLM понимает семантику, но без формальной структуры в
+> 🏷️ **Ключевые слова:** `projects`, `memory`, `памяти`, `collaboration`, `wikontic`, `yodoca`, `связи`, `проекты`
+>
+
+
 <!-- autofill-status -->
 ## Статус
 
@@ -64,3 +73,19 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 [^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Системы памяти](docs/05-habr-projects/memory/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Синтез: как проекты собираются вместе](docs/05-habr-projects/01-synthesis.md) _25%_
+- [Системы памяти](docs/05-habr-projects/memory/README.md) _25%_
+- [Авторы и контакты](docs/05-habr-projects/02-collaboration-partners.md) _21%_
+- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md) _21%_
+- [Wikontic: семантический граф](docs/05-habr-projects/knowledge/wikontic.md) _21%_
+- [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _21%_
+- [Diff базы знаний между версиями](docs/VERSION_DIFF.md) _21%_

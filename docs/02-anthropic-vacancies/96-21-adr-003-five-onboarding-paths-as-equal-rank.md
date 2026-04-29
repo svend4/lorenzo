@@ -4,6 +4,8 @@
 > **Status**: Accepted (new in v1.1)
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -52,3 +54,17 @@
 - [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
 - [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [19. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) _60%_
+- [20. ADR-002: Q6 as First-Class Protocol Concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) _42%_
+- [14. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) _33%_
+- [8. Q6 Space (Normative)](docs/02-anthropic-vacancies/83-8-q6-space-normative.md) _21%_
+- [1. Introduction](docs/02-anthropic-vacancies/06-1-introduction.md) _17%_
+- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _17%_

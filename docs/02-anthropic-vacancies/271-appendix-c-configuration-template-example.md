@@ -87,3 +87,19 @@ configuration.
 - [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
 - [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix B: Sub-Agent Registry Schema (Sketch)](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md) _37%_
+- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _29%_
+- [Appendix A: Decision Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _25%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _25%_
+- [Глоссарий понятий](docs/CONCEPTS.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _21%_

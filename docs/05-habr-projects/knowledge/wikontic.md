@@ -1,5 +1,18 @@
 # Wikontic: семантический граф
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Решает буквально тот же класс проблем, что у Чуяна на слое 3 (нормализация — kubernetes / k8s / кубер → одна сущность), но не через ручной skillssynonyms.yml , а через автоматическ
+> 🏷️ **Ключевые слова:** `projects`, `memory`, `readme`, `yodoca`, `wikontic`, `https`, `companies`, `articles`
+>
+
+
 <!-- autofill-status -->
 ## Статус
 
@@ -46,3 +59,17 @@ Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive A
 - [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
 - [01-synthesis](docs/05-habr-projects/01-synthesis.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Системы знаний](docs/05-habr-projects/knowledge/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Системы знаний](docs/05-habr-projects/knowledge/README.md) _42%_
+- [Синтез: как проекты собираются вместе](docs/05-habr-projects/01-synthesis.md) _21%_
+- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md) _21%_
+- [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) _21%_
+- [Системы памяти](docs/05-habr-projects/memory/README.md) _17%_
+- [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _17%_

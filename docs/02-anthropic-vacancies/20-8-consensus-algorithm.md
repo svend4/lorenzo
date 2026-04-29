@@ -1,5 +1,16 @@
 # 8. Consensus Algorithm
 
+<!-- toc-auto -->
+## Contents
+
+- [8. Consensus Algorithm](#8-consensus-algorithm)
+  - [8.1. Definition](#81-definition)
+  - [8.2. v1.0 Consensus Strategy: String Normalization](#82-v10-consensus-strategy-string-normalization)
+  - [8.3. Consensus Categories](#83-consensus-categories)
+  - [8.4. Coverage Ratio](#84-coverage-ratio)
+  - [8.5. Future Extensions (v2.0+)](#85-future-extensions-v20)
+
+
 <!-- summary -->
 > Когда один query возвращает результаты из нескольких Repos, Portal
 
@@ -79,3 +90,13 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 - [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
 - [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [9. Consensus Algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) _53%_
+- [11. Relevance Ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) _25%_

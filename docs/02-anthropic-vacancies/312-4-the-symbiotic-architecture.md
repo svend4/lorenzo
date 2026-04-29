@@ -1,5 +1,30 @@
 # 4. The Symbiotic Architecture
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
+  - [4.1. Layer Decomposition](#41-layer-decomposition)
+  - [4.2. How They Interact](#42-how-they-interact)
+  - [4.3. Where Each Operates](#43-where-each-operates)
+  - [4.4. Shared State](#44-shared-state)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
+  - [4.1. Layer Decomposition](#41-layer-decomposition)
+  - [4.2. How They Interact](#42-how-they-interact)
+  - [4.3. Where Each Operates](#43-where-each-operates)
+  - [4.4. Shared State](#44-shared-state)
+
+
 <!-- summary -->
 > The combination of InGit and Cowork creates an architecture
 
@@ -150,3 +175,19 @@ state. Cowork memory is convenience, not authority.
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [2. What Cowork Provides That InGit Doesn't Need to Build](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _37%_
+- [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _33%_
+- [3. What InGit Provides That Cowork Lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) _29%_
+- [5. Four Integration Paths in Order of Accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) _29%_
+- [Abstract](docs/02-anthropic-vacancies/307-abstract.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _25%_
+- [6. Refined InGit Scope with Cowork in Mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) _25%_
+- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _21%_

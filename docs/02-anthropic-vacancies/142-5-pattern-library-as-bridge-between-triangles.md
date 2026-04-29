@@ -161,3 +161,19 @@ efficiently between levels.
 - [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
 - [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) _37%_
+- [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) _29%_
+- [6. Four Deployment Domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) _25%_
+- [Abstract](docs/02-anthropic-vacancies/136-abstract.md) _21%_
+- [1. Why Single-Triangle Models Are Incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) _21%_
+- [2. The Double-Triangle Architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) _21%_
+- [3. Three Inter-Layer Protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) _21%_
+- [7. Open Questions](docs/02-anthropic-vacancies/144-7-open-questions.md) _21%_

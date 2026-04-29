@@ -4,6 +4,8 @@
 > 1. **The Cowork Discovery and Why It Changes Everything**
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -42,3 +44,19 @@
 - [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
 - [322-appendix-b-comparison-matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _42%_
+- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _33%_
+- [2. What Cowork Provides That InGit Doesn't Need to Build](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) _29%_
+- [3. What InGit Provides That Cowork Lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) _29%_
+- [6. Refined InGit Scope with Cowork in Mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) _29%_
+- [Appendix B: Comparison Matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) _29%_
+- [Кластеры тематически близких файлов](docs/CLUSTERS.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _25%_

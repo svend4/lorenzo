@@ -366,3 +366,7 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 - [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
 - [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)

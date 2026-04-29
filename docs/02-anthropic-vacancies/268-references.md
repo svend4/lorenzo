@@ -1,5 +1,16 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
+  - [Pattern of Composite Mastery](#pattern-of-composite-mastery)
+  - [Multi-Agent Coordination](#multi-agent-coordination)
+  - [Practical Examples](#practical-examples)
+  - [Companion Documents in This Series](#companion-documents-in-this-series)
+
+
 <!-- summary -->
 > - Anderson, J. R. (1983). *The Architecture of Cognition*.
 
@@ -79,3 +90,19 @@
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 - [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _37%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _37%_
+- [with Anthropic's Cowork Platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) _37%_
+- [Существующие документы DHLab (твой context)](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) _37%_
+- [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) _33%_
+- [The Missing Middle Layer Between Chat and Code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) _33%_
+- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _29%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) _29%_

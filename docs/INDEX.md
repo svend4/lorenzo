@@ -1,15 +1,66 @@
 # Индекс документации — Lorenzo / Svyazi 2.0
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> - [Метрики репозитория](#метрики-репозитория)
+**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Метрики репозитория](#метрики-репозитория)
+- [Разделы документации](#разделы-документации)
+  - [[🏗️  Архитектура Svyazi 2.0](docs/01-svyazi/README.md)](#архитектура-svyazi-20docs01-svyazireadmemd)
+  - [[💼 Вакансии Anthropic](docs/02-anthropic-vacancies/README.md)](#вакансии-anthropicdocs02-anthropic-vacanciesreadmemd)
+  - [[⚗️  Комбинации технологий](docs/03-technology-combinations/README.md)](#комбинации-технологийdocs03-technology-combinationsreadmemd)
+  - [[🤝 AI-коллаборации](docs/04-ai-collaborations/README.md)](#ai-коллаборацииdocs04-ai-collaborationsreadmemd)
+  - [[📦 Хабр-проекты](docs/05-habr-projects/README.md)](#хабр-проектыdocs05-habr-projectsreadmemd)
+- [Аналитика и отчёты](#аналитика-и-отчёты)
+- [Ключевые документы](#ключевые-документы)
+- [LLM-обогащение (Ступень 3)](#llm-обогащение-ступень-3)
+- [Быстрый старт](#быстрый-старт)
+- [Связанные документы](#связанные-документы)
+
+---
+
+<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Метрики репозитория](#метрики-репозитория)
+- [Разделы документации](#разделы-документации)
+  - [[🏗️  Архитектура Svyazi 2.0](docs/01-svyazi/README.md)](#архитектура-svyazi-20docs01-svyazireadmemd)
+  - [[💼 Вакансии Anthropic](docs/02-anthropic-vacancies/README.md)](#вакансии-anthropicdocs02-anthropic-vacanciesreadmemd)
+  - [[⚗️  Комбинации технологий](docs/03-technology-combinations/README.md)](#комбинации-технологийdocs03-technology-combinationsreadmemd)
+  - [[🤝 AI-коллаборации](docs/04-ai-collaborations/README.md)](#ai-коллаборацииdocs04-ai-collaborationsreadmemd)
+  - [[📦 Хабр-проекты](docs/05-habr-projects/README.md)](#хабр-проектыdocs05-habr-projectsreadmemd)
+- [Аналитика и отчёты](#аналитика-и-отчёты)
+- [Ключевые документы](#ключевые-документы)
+- [LLM-обогащение (Ступень 3)](#llm-обогащение-ступень-3)
+- [Быстрый старт](#быстрый-старт)
+
+
 _Главный навигационный хаб. Все разделы и документы._
 
 ## Метрики репозитория
 
 | Параметр | Значение |
 |----------|---------|
-| Markdown документов | **489** |
-| Слов | **391,514** |
-| Скриптов автоматизации | **78** |
-| Go/No-Go скоринг | **96 🟢** |
+| Markdown документов | **522** |
+| Слов | **423,179** |
+| Скриптов автоматизации | **125** |
+| Go/No-Go скоринг | **93 🟢** |
 | Здоровье репо | **75/100** |
 
 ## Разделы документации
@@ -24,7 +75,7 @@ _16 файлов · 10,166 слов_
 
 436 вакансий по 12 кластерам, стратегический анализ
 
-_357 файлов · 260,851 слов_
+_357 файлов · 260,905 слов_
 
 ### [⚗️  Комбинации технологий](docs/03-technology-combinations/README.md)
 
@@ -36,13 +87,13 @@ _7 файлов · 2,433 слов_
 
 5 ансамблей OSS-проектов: Knowledge OS, Agent Teams, Security Runtime
 
-_17 файлов · 24,521 слов_
+_17 файлов · 25,169 слов_
 
 ### [📦 Хабр-проекты](docs/05-habr-projects/README.md)
 
 Yodoca, NGT, AgentFS, knowledge-space — проекты с Хабра
 
-_10 файлов · 8,296 слов_
+_10 файлов · 8,564 слов_
 
 
 ## Аналитика и отчёты
@@ -120,5 +171,22 @@ python scripts/improve_run_all.py --group analysis
 
 ---
 
-_Индекс сгенерирован автоматически · 489 документов · 78 скриптов_
+_Индекс сгенерирован автоматически · 522 документов · 125 скриптов_
+
+<!-- related-auto -->
+## Связанные документы
+
+- [AI-саммари разделов документации](docs/LLM_SUMMARIES.md) _33%_
+- [Онбординг — Svyazi 2.0 / Lorenzo](docs/ONBOARDING.md) _25%_
+- [Карта репозитория Lorenzo](docs/SITEMAP.md) _17%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](docs/ONBOARDING.md)
+- [SITEMAP](docs/SITEMAP.md)
+- [REPORT](docs/REPORT.md)
+- [VERSION_DIFF](docs/VERSION_DIFF.md)
 

@@ -45,3 +45,19 @@
 - [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
 - [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md) _25%_
+- [12. Closing](docs/02-anthropic-vacancies/181-12-closing.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md) _25%_
+- [Содержание](docs/02-anthropic-vacancies/326-содержание.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md) _21%_
+- [Appendix B: Summary of Contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) _21%_

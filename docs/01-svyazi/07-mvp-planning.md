@@ -1,7 +1,17 @@
 
+
+<!-- toc -->
+## Содержание
+
+- [План прототипа и возможные контакты](#план-прототипа-и-возможные-контакты)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- summary -->
 > Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым 
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
@@ -108,6 +118,25 @@
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
 
 [^bsl]: Business Source License — коммерческая лицензия с открытым кодом
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Executive Report: Репозиторий Lorenzo](docs/REPORT.md)
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
+- [Прогресс MVP](docs/PROGRESS.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _90%_
+- [Контактная стратегия и узкие вопросы для авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _48%_
+- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _42%_
+- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _42%_
+- [13 Contacts](docs/01-svyazi/13-contacts.md) _42%_
+- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _42%_
+- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _42%_
+- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _42%_

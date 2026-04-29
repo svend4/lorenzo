@@ -1,5 +1,14 @@
 # Appendix B: Domain Comparison Matrix
 
+<!-- summary -->
+> - [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+---
+<!-- tags: anthropic -->
+
+
+
+
 ## Appendix B: Domain Comparison Matrix
 
 | Domain | Privacy Sensitivity | Adversarial Risk | Regulatory Complexity | Deployment Readiness |
@@ -16,3 +25,19 @@
 | 10. Future Generations | N/A | Highest | Highest | Low |
 
 ---
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
+- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
+- [361-когда-ты-honestly-не-знаешь](docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md)
+

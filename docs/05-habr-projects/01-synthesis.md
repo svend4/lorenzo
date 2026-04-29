@@ -46,3 +46,17 @@ _Обновлено: 2026-04-29_
 - [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
 - [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Уникальные проекты с Хабра](docs/05-habr-projects/README.md) _29%_
+- [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) _25%_
+- [Wikontic: семантический граф](docs/05-habr-projects/knowledge/wikontic.md) _21%_
+- [Системы памяти](docs/05-habr-projects/memory/README.md) _21%_
+- [Системы знаний](docs/05-habr-projects/knowledge/README.md) _17%_
+- [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _17%_

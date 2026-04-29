@@ -1,5 +1,38 @@
 # 11. Open Questions
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [11. Open Questions](#11-open-questions)
+  - [11.1. Granularity Questions](#111-granularity-questions)
+  - [11.2. Configuration Stability](#112-configuration-stability)
+  - [11.3. Cross-Professional Configurations](#113-cross-professional-configurations)
+  - [11.4. Configuration Evolution at Scale](#114-configuration-evolution-at-scale)
+  - [11.5. Sub-Agent Quality Across Cultures](#115-sub-agent-quality-across-cultures)
+  - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
+  - [11.7. The "Emergence" Question](#117-the-emergence-question)
+  - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [11. Open Questions](#11-open-questions)
+  - [11.1. Granularity Questions](#111-granularity-questions)
+  - [11.2. Configuration Stability](#112-configuration-stability)
+  - [11.3. Cross-Professional Configurations](#113-cross-professional-configurations)
+  - [11.4. Configuration Evolution at Scale](#114-configuration-evolution-at-scale)
+  - [11.5. Sub-Agent Quality Across Cultures](#115-sub-agent-quality-across-cultures)
+  - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
+  - [11.7. The "Emergence" Question](#117-the-emergence-question)
+  - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -118,3 +151,19 @@ indefinitely; "graduation" may not be the right metaphor.
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 - [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _37%_
+- [12. Call for Collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) _33%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _29%_
+- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _29%_
+- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _29%_
+- [COMPOSITE SKILLS AGENT.md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md) _29%_
+- [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) _29%_
+- [5. Configuration: How Principals Build Their Ensembles](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) _29%_

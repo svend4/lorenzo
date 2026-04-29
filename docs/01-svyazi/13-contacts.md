@@ -1,7 +1,17 @@
 
+
+<!-- toc -->
+## Содержание
+
+- [Контактная стратегия и узкие вопросы для авторов](#контактная-стратегия-и-узкие-вопросы-для-авторов)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- summary -->
 > С практической точки зрения следующие письма или комментарии лучше строить не вокруг общей фразы “давайте сделаем Svyazi[^svyazi]‑2.0”, а вокруг **одного конкретного шва**, который автор уже хорошо понимает. У
-**Проекты:** Svyazi, CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, AI Factory, Yodoca[^yodoca], NGT[^ngt] Memory
+**Проекты:** Svyazi, CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Yodoca[^yodoca], NGT[^ngt] Memory
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, self-improvement, collaboration -->
@@ -68,4 +78,21 @@
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Контактная стратегия и узкие вопросы для авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _66%_
+- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _42%_
+- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _42%_
+- [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _42%_
+- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) _42%_
+- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _37%_
+- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _37%_
+- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _37%_

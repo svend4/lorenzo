@@ -454,3 +454,17 @@ README — на двух языках минимум. Русский как prim
 - [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
 - [DECISIONS](docs/DECISIONS.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix B: Change Log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) _25%_
+- [For the Curious: Philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md) _21%_
+- [Ключевые решения и выводы](docs/DECISIONS.md) _21%_
+- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _17%_
+- [README-MCP.md— инструкция по установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) _17%_
+- [🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md) _17%_

@@ -1,5 +1,15 @@
 # Автозаполненные шаблоны
 
+<!-- summary -->
+> _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, collaboration -->
+
+
+
+
 _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 
 **Создано файлов:** 13
@@ -26,3 +36,19 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 4. Сохраняет результаты в `docs/autofilled/`
 
 Повторный запуск перезаписывает файлы актуальными данными.
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Diff базы знаний между версиями](docs/VERSION_DIFF.md) _25%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [.md](docs/autofilled/components/.md)
+- [cowork](docs/autofilled/components/cowork.md)
+- [ingit](docs/autofilled/components/ingit.md)
+- [lorenzo](docs/autofilled/components/lorenzo.md)
+

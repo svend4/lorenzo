@@ -34,3 +34,7 @@
 **Смотрите также:**
 - [346-твоё-происхождение](docs/02-anthropic-vacancies/346-твоё-происхождение.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)

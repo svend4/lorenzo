@@ -842,3 +842,15 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 - [ACTION_ITEMS](docs/ACTION_ITEMS.md)
 - [TABLES](docs/TABLES.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Closing](docs/02-anthropic-vacancies/165-closing.md) _25%_
+- [Введение](docs/02-anthropic-vacancies/00-intro.md) _21%_
+- [Appendix D: Connection Diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md) _21%_
+- [For the Curious: Philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md) _17%_

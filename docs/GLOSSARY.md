@@ -1,59 +1,41 @@
 # Глоссарий проектов
 
-<!-- summary -->
-> Все проекты, упоминаемые в документах, с количеством файлов.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
-
-
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 27 |
-| **AIF Handoff** | 11 |
-| **AgentFS** | 24 |
-| **Auto AI Router** | 21 |
-| **AutoResearch** | 19 |
-| **Automerge** | 10 |
-| **CardIndex** | 36 |
-| **Firecrawl** | 3 |
-| **Graph RAG** | 14 |
-| **Hybrid RAG** | 15 |
-| **Legal RAG** | 15 |
-| **LiteLLM** | 19 |
-| **LiteParse** | 22 |
-| **MemNet** | 7 |
-| **Memory OS** | 15 |
-| **NGT Memory** | 29 |
-| **OpenWhispr** | 7 |
-| **RLM-Toolkit** | 4 |
-| **Rufler** | 20 |
-| **SENTINEL** | 19 |
-| **Self-Aware MCP** | 6 |
-| **Sequential** | 35 |
-| **Svyazi** | 45 |
-| **Tool Search** | 17 |
-| **Whisper** | 8 |
-| **Wikontic** | 7 |
-| **Yjs** | 11 |
-| **Yodoca** | 29 |
-| **Yttri** | 7 |
-| **agent-memory-mcp** | 12 |
-| **knowledge-space** | 18 |
-| **mclaude** | 25 |
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [MINDMAP](docs/MINDMAP.md) (сходство 0.42)
-- [GRAPH](docs/GRAPH.md) (сходство 0.23)
-- [ENTITIES](docs/ENTITIES.md) (сходство 0.20)
-
+| **AI Factory** | 50 |
+| **AIF Handoff** | 34 |
+| **AgentFS** | 75 |
+| **Auto AI Router** | 56 |
+| **AutoResearch** | 30 |
+| **Automerge** | 16 |
+| **CardIndex** | 72 |
+| **Firecrawl** | 14 |
+| **Graph RAG** | 43 |
+| **Hybrid RAG** | 26 |
+| **Legal RAG** | 41 |
+| **LiteLLM** | 33 |
+| **LiteParse** | 53 |
+| **MemNet** | 40 |
+| **Memory OS** | 19 |
+| **NGT Memory** | 58 |
+| **OpenWhispr** | 12 |
+| **RLM-Toolkit** | 6 |
+| **Rufler** | 60 |
+| **SENTINEL** | 64 |
+| **Self-Aware MCP** | 9 |
+| **Sequential** | 45 |
+| **Svyazi** | 138 |
+| **Tool Search** | 34 |
+| **Whisper** | 13 |
+| **Wikontic** | 31 |
+| **Yjs** | 20 |
+| **Yodoca** | 81 |
+| **Yttri** | 13 |
+| **agent-memory-mcp** | 19 |
+| **knowledge-space** | 60 |
+| **mclaude** | 50 |
 
 <!-- see-also -->
 
@@ -63,5 +45,5 @@
 - [MINDMAP](docs/MINDMAP.md)
 - [GRAPH](docs/GRAPH.md)
 - [NETWORK](docs/NETWORK.md)
-- [ENTITIES](docs/ENTITIES.md)
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 

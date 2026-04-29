@@ -155,3 +155,19 @@ qualified individuals regardless of traditional constraints.
 - [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
 - [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [9. Phased Rollout Strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) _29%_
+- [5. Economic Model](docs/02-anthropic-vacancies/159-5-economic-model.md) _25%_
+- [9. Call for Partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) _21%_
+- [8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
+- [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md) _17%_
+- [6. Governance and Ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md) _17%_
+- [11. Call for Collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) _17%_
+- [4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) _17%_

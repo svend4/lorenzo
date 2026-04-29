@@ -61,3 +61,19 @@ need to be solved before other work proceeds.
 - [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
 - [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) _33%_
+- [13. Closing](docs/02-anthropic-vacancies/266-13-closing.md) _29%_
+- [Appendix: Position in Series Visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) _29%_
+- [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) _25%_
+- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _25%_
+- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _25%_
+- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _21%_
+- [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) _21%_

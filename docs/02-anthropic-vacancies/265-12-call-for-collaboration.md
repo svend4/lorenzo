@@ -1,5 +1,17 @@
 # 12. Call for Collaboration
 
+<!-- toc-auto -->
+## Contents
+
+- [12. Call for Collaboration](#12-call-for-collaboration)
+  - [12.1. For Practitioners](#121-for-practitioners)
+  - [12.2. For Curators and Domain Experts](#122-for-curators-and-domain-experts)
+  - [12.3. For Software Engineers and Architects](#123-for-software-engineers-and-architects)
+  - [12.4. For Researchers](#124-for-researchers)
+  - [12.5. For Foundation Funders](#125-for-foundation-funders)
+  - [12.6. For Policymakers](#126-for-policymakers)
+
+
 <!-- summary -->
 > This paper opens questions that require multi-stakeholder
 
@@ -96,3 +108,19 @@ match actual technology architecture.
 - [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
 - [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [11. Call for Collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md) _33%_
+- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _33%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _29%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md) _29%_
+- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _25%_
+- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _25%_
+- [PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md) _21%_
+- [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) _21%_

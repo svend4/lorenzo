@@ -159,3 +159,19 @@ exist.
 - [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix A: Glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) _37%_
+- [8. Call to Action](docs/02-anthropic-vacancies/145-8-call-to-action.md) _29%_
+- [2. The Double-Triangle Architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) _25%_
+- [5. Pattern Library as Bridge Between Triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) _25%_
+- [7. Open Questions](docs/02-anthropic-vacancies/144-7-open-questions.md) _21%_
+- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _21%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md) _18%_
+- [Abstract](docs/02-anthropic-vacancies/136-abstract.md) _17%_

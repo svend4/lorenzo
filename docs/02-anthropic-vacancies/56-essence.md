@@ -49,3 +49,19 @@ CA-правил, через классы Вольфрама, через аттр
 - [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
 - [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [passports/pro2.md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) _42%_
+- [passports/meta.md](docs/02-anthropic-vacancies/55-passports-meta-md.md) _42%_
+- [passports/info1.md](docs/02-anthropic-vacancies/35-passports-info1-md.md) _37%_
+- [Essence](docs/02-anthropic-vacancies/46-essence.md) _37%_
+- [15. Glossary of Examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) _33%_
+- [Angle / Perspective](docs/02-anthropic-vacancies/59-angle-perspective.md) _29%_
+- [22. Glossary of Reference Examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) _29%_
+- [Angle / Perspective](docs/02-anthropic-vacancies/39-angle-perspective.md) _25%_

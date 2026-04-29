@@ -92,3 +92,19 @@ Repo к экосистеме (A–E, см. раздел 12).
 - [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _53%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _29%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _29%_
+- [🇬🇧 About](docs/02-anthropic-vacancies/68-about.md) _29%_
+- [Abstract](docs/02-anthropic-vacancies/74-abstract.md) _29%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) _29%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) _29%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _29%_

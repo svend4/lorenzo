@@ -4,6 +4,8 @@
 > Быстрая ссылка для пользователей, оценивающих
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -42,3 +44,19 @@ InGit + Cowork:
 зависят от конкретных потребностей.
 
 ---
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
+- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
+- [348-кому-ты-служишь-слоистая-модель](docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md)
+

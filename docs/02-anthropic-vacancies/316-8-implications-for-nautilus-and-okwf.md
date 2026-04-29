@@ -1,5 +1,30 @@
 # 8. Implications for Nautilus and OKWF
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [8. Implications for Nautilus and OKWF](#8-implications-for-nautilus-and-okwf)
+  - [8.1. Nautilus as Federated Knowledge Substrate](#81-nautilus-as-federated-knowledge-substrate)
+  - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
+  - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
+  - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [8. Implications for Nautilus and OKWF](#8-implications-for-nautilus-and-okwf)
+  - [8.1. Nautilus as Federated Knowledge Substrate](#81-nautilus-as-federated-knowledge-substrate)
+  - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
+  - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
+  - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -136,3 +161,19 @@ implementable starting next week.
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [317-9-risks-and-open-questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [10. Strategic Positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) _33%_
+- [4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) _29%_
+- [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) _29%_
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) _29%_
+- [Abstract](docs/02-anthropic-vacancies/307-abstract.md) _29%_
+- [7. Practical First Steps This Month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) _29%_
+- [Appendix C: Sample InGit MCP Server Tool Specifications](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) _29%_
+- [Карта происхождения текстов](docs/SOURCE_MAP.md) _29%_

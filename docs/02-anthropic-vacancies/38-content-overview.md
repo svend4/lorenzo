@@ -4,6 +4,8 @@
 > **Объём:** 74 документа (по состоянию на апрель 2026)
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -26,3 +28,25 @@
 через tags или explicit links.
 
 ---
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Content Overview](docs/02-anthropic-vacancies/58-content-overview.md) _17%_
+- [Content Overview](docs/02-anthropic-vacancies/12-content-overview.md) _16%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
+- [31-content-overview](docs/02-anthropic-vacancies/31-content-overview.md)
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
+- [58-content-overview](docs/02-anthropic-vacancies/58-content-overview.md)
+

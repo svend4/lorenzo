@@ -1,5 +1,17 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Primary Empirical Source](#primary-empirical-source)
+  - [Companion Papers](#companion-papers)
+  - [Foundation Sources (continued from Representative Agent Layer)](#foundation-sources-continued-from-representative-agent-layer)
+  - [Professional Practice Theory](#professional-practice-theory)
+  - [AI in Professional Practice](#ai-in-professional-practice)
+  - [Related Architecture](#related-architecture)
+
+
 <!-- summary -->
 > - Soldatenko, M. (2026, April 25). «В школах любят страдать».
 
@@ -76,3 +88,19 @@
 - [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
 - [268-references](docs/02-anthropic-vacancies/268-references.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [References](docs/02-anthropic-vacancies/268-references.md) _29%_
+- [References](docs/02-anthropic-vacancies/183-references.md) _25%_
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md) _21%_
+- [References](docs/02-anthropic-vacancies/147-references.md) _21%_
+- [REPRESENTATIVE AGENT LAYER.md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md) _21%_
+- [Abstract](docs/02-anthropic-vacancies/168-abstract.md) _21%_
+- [Appendix C: Sample Use Cases in Detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) _21%_

@@ -4,6 +4,8 @@
 > A central question for Composite Skills Agents: how does a
 
 ---
+<!-- tags: anthropic -->
+
 
 <!-- toc -->
 ## Содержание
@@ -156,3 +158,19 @@ modifies their configuration over time.
 - [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
 - [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) _37%_
+- [6. Coordination and Disagreement Resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) _29%_
+- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _29%_
+- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _29%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md) _25%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md) _25%_
+- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _21%_

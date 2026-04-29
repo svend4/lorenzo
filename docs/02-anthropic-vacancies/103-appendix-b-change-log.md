@@ -1,5 +1,13 @@
 # Appendix B: Change Log
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Change Log](#appendix-b-change-log)
+  - [v1.1.0-draft (2026-04-19)](#v110-draft-2026-04-19)
+  - [v1.0.0-draft (2026-04 earlier)](#v100-draft-2026-04-earlier)
+
+
 <!-- summary -->
 > - **New**: Q6 as normative concept (section 8, ADR-002)
 
@@ -50,3 +58,19 @@
 - [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
 - [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _25%_
+- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _25%_
+- [14. SDK Contract (Informative)](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md) _25%_
+- [16. MCP Extension (Informative)](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md) _25%_
+- [Доступные инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md) _21%_
+- [Appendix B: Change Log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) _21%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _21%_
+- [8. Q6 Space (Normative)](docs/02-anthropic-vacancies/83-8-q6-space-normative.md) _21%_

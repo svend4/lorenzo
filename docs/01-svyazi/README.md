@@ -1,42 +1,32 @@
 # Svyazi[^svyazi] 2.0 — Архитектура и исследование
 
-**Файлов:** 14
+**Файлов:** 15
 
 ## Содержание
 
 - [00-intro-part2.md](00-intro-part2.md) — 
-- [01-executive-summary.md](01-executive-summary.md) — Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже слож…
-- [02-methodology.md](02-methodology.md) — Поиск вёлся с приоритетом на **Хабр как первичный слой описания идеи** и на **репозитории как первичный слой верификации…
-- [03-component-catalog.md](03-component-catalog.md) — | Проект или связка | Автор | Ссылка на статью и репо | Краткое описание | Ключевые компоненты и паттерны | Лицензия | M…
-- [04-ensembles-overview.md](04-ensembles-overview.md) — Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном инт…
-- [06-security-privacy.md](06-security-privacy.md) — Для Svyazi‑2.0 безопасная архитектура — не “добавить сканер в конце”, а **с самого начала считать skills, MCP[^mcp] servers, и…
-- [07-mvp-planning.md](07-mvp-planning.md) — Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и …
-- [08-conclusions.md](08-conclusions.md) — По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая пол…
-- [09-architectural-gaps.md](09-architectural-gaps.md) — После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрыв…
-- [10-second-order-ensembles.md](10-second-order-ensembles.md) — Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка **тр…
-- [11-integration-contracts.md](11-integration-contracts.md) — Чтобы все эти ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не …
-- [12-roadmap.md](12-roadmap.md) — Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая…
-- [13-contacts.md](13-contacts.md) — С практической точки зрения следующие письма или комментарии лучше строить не вокруг общей фразы “давайте сделаем Svyazi…
-- [14-limitations.md](14-limitations.md) — Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зре…
+- [01-executive-summary.md](01-executive-summary.md) — <!-- toc-auto -->
+- [02-methodology.md](02-methodology.md) — <!-- toc-auto -->
+- [03-component-catalog.md](03-component-catalog.md) — <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvem…
+- [04-ensembles-overview.md](04-ensembles-overview.md) — <!-- summary -->
+- [06-security-privacy.md](06-security-privacy.md) — <!-- summary -->
+- [07-mvp-planning.md](07-mvp-planning.md) — <!-- summary -->
+- [08-conclusions.md](08-conclusions.md) — <!-- summary -->
+- [09-architectural-gaps.md](09-architectural-gaps.md) — <!-- summary -->
+- [10-second-order-ensembles.md](10-second-order-ensembles.md) — <!-- summary -->
+- [11-integration-contracts.md](11-integration-contracts.md) — <!-- summary -->
+- [12-roadmap.md](12-roadmap.md) — <!-- summary -->
+- [13-contacts.md](13-contacts.md) — <!-- summary -->
+- [14-limitations.md](14-limitations.md) — <!-- summary -->
+- [QA.md](QA.md) — _Автоматически сгенерировано по 14 файлам раздела._
 
 ## Подразделы
 
 - [ensembles/](ensembles/) — Ансамбли проектов
 
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [README](docs/04-ai-collaborations/README.md) (сходство 0.67)
-- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.11)
-
-
 
 <!-- footnotes-added -->
 
 ---
-
-[^mcp]: Model Context Protocol — протокол для AI-инструментов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов

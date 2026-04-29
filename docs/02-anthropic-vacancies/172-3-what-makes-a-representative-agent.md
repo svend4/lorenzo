@@ -150,3 +150,19 @@ and 7.
 - [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
 - [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) _33%_
+- [9. Relationship to Other Agent Types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) _33%_
+- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _29%_
+- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _29%_
+- [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) _29%_
+- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _25%_
+- [6. Coordination and Disagreement Resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) _25%_
+- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _25%_

@@ -59,3 +59,19 @@ fallback-статуса.
 - [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
 - [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _42%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _25%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _21%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _21%_
+- [REVIEW_METHODOLOGY.md](docs/02-anthropic-vacancies/105-review-methodology-md.md) _21%_
+- [README-MCP.md— инструкция по установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) _21%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _21%_

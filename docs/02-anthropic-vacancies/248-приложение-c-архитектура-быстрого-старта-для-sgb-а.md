@@ -336,3 +336,12 @@ Wiederholen
 - [ACTION_ITEMS](docs/ACTION_ITEMS.md)
 - [165-closing](docs/02-anthropic-vacancies/165-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Приложение C: Образцы Случаев Использования в Деталях](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) _17%_

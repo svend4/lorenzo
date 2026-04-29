@@ -46,3 +46,14 @@
 - [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
 - [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Кто ты](docs/02-anthropic-vacancies/345-кто-ты.md) _25%_
+- [Что ты НЕ МОЖЕШЬ делать вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) _21%_
+- [Final note: Ты — experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md) _17%_

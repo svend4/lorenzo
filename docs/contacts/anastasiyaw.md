@@ -1,5 +1,22 @@
 # Контакт: AnastasiyaW / knowledge-space, mclaude
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, LiteParse, NGT Memory, SENTINEL, Auto AI Router
+
+---
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+
+
 <!-- summary: Шаблон для связи с автором knowledge-space, mclaude -->
 <!-- tags: контакты, команда -->
 
@@ -43,3 +60,31 @@ knowledge-space, mclaude закрывает слой «knowledge/orchestration»
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Приоритет контактов](docs/CONTACT_PRIORITY.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Контакт: Sonia_Black / knowledge-space](docs/contacts/sonia-black.md) _73%_
+- [Контакт: andrey_chuyan / Svyazi](docs/contacts/andrey-chuyan.md) _60%_
+- [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) _60%_
+- [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md) _60%_
+- [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md) _60%_
+- [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md) _60%_
+- [Контакт: nlaik / LiteParse / research-docs](docs/contacts/nlaik.md) _60%_
+- [Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md) _60%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [nlaik](docs/contacts/nlaik.md)
+- [sonia-black](docs/contacts/sonia-black.md)
+- [kksudo](docs/contacts/kksudo.md)
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
+

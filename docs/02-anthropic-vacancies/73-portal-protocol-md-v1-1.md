@@ -44,3 +44,19 @@ markdown
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) _53%_
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md) _53%_
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md) _37%_
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) _37%_
+- [Author & Contact](docs/02-anthropic-vacancies/52-author-contact.md) _37%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _21%_
+- [REVIEW_METHODOLOGY.md](docs/02-anthropic-vacancies/105-review-methodology-md.md) _21%_
+- [README-MCP.md— инструкция по установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) _21%_

@@ -32,3 +32,7 @@ Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PD
 - [360-что-ты-всегда-делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
 - [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Комбинирование технологий для новых свойств](docs/03-technology-combinations/README.md)

@@ -2,357 +2,369 @@
 
 _Обновлено: 2026-04-29_
 
-Всего сущностей: **174** (мин. 2 упоминаний)
+Всего сущностей: **177** (мин. 2 упоминаний)
 
 
 ## 👤 People (17)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
-| `anthropic` | 374 | people |
-| `claude` | 143 | people |
-| `svend4` | 84 | people |
-| `kksudo` | 20 | people |
-| `spbmolot` | 18 | people |
-| `anastasiyaw` | 14 | people |
-| `vitalyoborin` | 11 | people |
-| `andrey_chuyan` | 7 | people |
-| `settings` | 4 | people |
-| `anthropics` | 4 | people |
+| `anthropic` | 401 | people |
+| `claude` | 163 | people |
+| `svend4` | 91 | people |
+| `kksudo` | 52 | people |
+| `spbmolot` | 47 | people |
+| `vitalyoborin` | 23 | people |
+| `anastasiyaw` | 23 | people |
+| `andrey_chuyan` | 12 | people |
 | `camel-ai` | 3 | people |
-| `users` | 3 | people |
-| `dementev-dev` | 2 | people |
-| `nicholasspisak` | 2 | people |
+| `settings` | 2 | people |
+| `anthropics` | 2 | people |
 | `yjs` | 2 | people |
+| `dementev-dev` | 2 | people |
 | `artur-gavronchuk` | 2 | people |
+| `nicholasspisak` | 2 | people |
 | `vuguzum` | 2 | people |
+| `users` | 2 | people |
 
 **Топ-5 по упоминаниям:**
 
-### `anthropic` (374 файлов)
+### `anthropic` (401 файлов)
 
 - `docs/01-svyazi/11-integration-contracts.md`
-- `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
-- _...ещё 369_
+- `docs/02-anthropic-vacancies/03-portal-protocol-md.md`
+- _...ещё 396_
 
-### `claude` (143 файлов)
+### `claude` (163 файлов)
 
 - `docs/01-svyazi/01-executive-summary.md`
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/08-conclusions.md`
-- _...ещё 138_
+- _...ещё 158_
 
-### `svend4` (84 файлов)
+### `svend4` (91 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
 - `docs/02-anthropic-vacancies/03-portal-protocol-md.md`
 - `docs/02-anthropic-vacancies/05-0-status-of-this-document.md`
-- _...ещё 79_
+- _...ещё 86_
 
-### `kksudo` (20 файлов)
+### `kksudo` (52 файлов)
 
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/13-contacts.md`
 - `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- _...ещё 15_
+- _...ещё 47_
 
-### `spbmolot` (18 файлов)
+### `spbmolot` (47 файлов)
 
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/13-contacts.md`
 - `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/QA.md`
-- _...ещё 13_
+- _...ещё 42_
 
 
 ## 📦 Projects (93)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
-| `nautilus` | 147 | projects |
-| `GitHub` | 118 | projects |
-| `svyazi` | 100 | projects |
-| `CardIndex` | 60 | projects |
-| `yodoca` | 57 | projects |
-| `ngt` | 57 | projects |
-| `agentfs` | 50 | projects |
-| `knowledge-space` | 41 | projects |
-| `LiteParse` | 38 | projects |
-| `obsidian` | 37 | projects |
-| `notion` | 33 | projects |
-| `lorenzo` | 28 | projects |
-| `AutoResearch` | 24 | projects |
-| `PortalEntry` | 21 | projects |
-| `MemNet` | 17 | projects |
-| `gpt` | 16 | projects |
-| `wikontic` | 16 | projects |
+| `nautilus` | 179 | projects |
+| `svyazi` | 121 | projects |
+| `github` | 121 | projects |
+| `ngt` | 79 | projects |
+| `yodoca` | 71 | projects |
+| `agentfs` | 71 | projects |
+| `CardIndex` | 68 | projects |
+| `lorenzo` | 63 | projects |
+| `knowledge-space` | 53 | projects |
+| `LiteParse` | 47 | projects |
+| `obsidian` | 36 | projects |
+| `notion` | 32 | projects |
+| `PortalEntry` | 30 | projects |
+| `AutoResearch` | 25 | projects |
+| `MemNet` | 22 | projects |
+| `QueryResult` | 21 | projects |
+| `wikontic` | 21 | projects |
+| `VladSpace` | 20 | projects |
+| `gpt` | 19 | projects |
+| `gemini` | 10 | projects |
 | `ingit` | 10 | projects |
 | `OpenWhispr` | 9 | projects |
+| `TypeScript` | 9 | projects |
 | `BaseAdapter` | 9 | projects |
-| `gemini` | 9 | projects |
+| `AutoGen` | 9 | projects |
 | `CodeWiki` | 8 | projects |
-| `TypeScript` | 8 | projects |
-| `AutoGen` | 8 | projects |
+| `mistral` | 8 | projects |
+| `LangChain` | 8 | projects |
 | `faiss` | 7 | projects |
-| `VladSpace` | 7 | projects |
-| `QueryResult` | 7 | projects |
-| `langchain` | 7 | projects |
+| `DeepSeek` | 7 | projects |
+| `DeepMind` | 7 | projects |
+| `chromadb` | 7 | projects |
 | `WebSocket` | 6 | projects |
-| `mistral` | 6 | projects |
-| `chromadb` | 6 | projects |
-| `llamaindex` | 5 | projects |
-| `pro2` | 5 | projects |
-| `DeepSeek` | 5 | projects |
-| `DeepMind` | 5 | projects |
-| `ChatDev` | 5 | projects |
+| `ChatDev` | 6 | projects |
+| `AutoAdapter` | 6 | projects |
+| `DevOps` | 6 | projects |
+| `OpenClaw` | 6 | projects |
+| `LlamaIndex` | 5 | projects |
 | `info1` | 5 | projects |
-| `AutoAdapter` | 5 | projects |
-| `DevOps` | 5 | projects |
-| `OpenClaw` | 5 | projects |
+| `pro2` | 5 | projects |
 
 **Топ-5 по упоминаниям:**
 
-### `nautilus` (147 файлов)
+### `nautilus` (179 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
 - `docs/02-anthropic-vacancies/03-portal-protocol-md.md`
 - `docs/02-anthropic-vacancies/04-abstract.md`
-- _...ещё 142_
+- _...ещё 174_
 
-### `GitHub` (118 файлов)
-
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/01-svyazi/07-mvp-planning.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
-- _...ещё 113_
-
-### `svyazi` (100 файлов)
+### `svyazi` (121 файлов)
 
 - `docs/01-svyazi/00-intro-part2.md`
 - `docs/01-svyazi/01-executive-summary.md`
 - `docs/01-svyazi/02-methodology.md`
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
-- _...ещё 95_
+- _...ещё 116_
 
-### `CardIndex` (60 файлов)
+### `github` (121 файлов)
+
+- `docs/01-svyazi/03-component-catalog.md`
+- `docs/01-svyazi/07-mvp-planning.md`
+- `docs/02-anthropic-vacancies/00-intro.md`
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
+- _...ещё 116_
+
+### `ngt` (79 файлов)
 
 - `docs/01-svyazi/01-executive-summary.md`
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/08-conclusions.md`
-- _...ещё 55_
+- _...ещё 74_
 
-### `yodoca` (57 файлов)
+### `yodoca` (71 файлов)
 
 - `docs/01-svyazi/01-executive-summary.md`
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/08-conclusions.md`
-- _...ещё 52_
+- _...ещё 66_
 
 
-## ⚙️ Tech (28)
+## ⚙️ Tech (29)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
-| `mcp` | 126 | tech |
-| `api` | 72 | tech |
-| `llm` | 64 | tech |
-| `rag` | 58 | tech |
-| `markdown` | 52 | tech |
-| `json` | 47 | tech |
-| `git` | 44 | tech |
-| `yaml` | 42 | tech |
-| `python` | 38 | tech |
-| `rest` | 24 | tech |
-| `go` | 22 | tech |
+| `mcp` | 146 | tech |
+| `api` | 80 | tech |
+| `rag` | 72 | tech |
+| `llm` | 71 | tech |
+| `json` | 59 | tech |
+| `markdown` | 54 | tech |
+| `git` | 48 | tech |
+| `yaml` | 44 | tech |
+| `python` | 43 | tech |
+| `go` | 37 | tech |
+| `rest` | 27 | tech |
 | `html` | 15 | tech |
-| `sqlite` | 14 | tech |
-| `transformer` | 12 | tech |
-| `cd` | 10 | tech |
-| `vector` | 9 | tech |
-| `ci` | 8 | tech |
-| `react` | 8 | tech |
+| `ci` | 14 | tech |
+| `transformer` | 14 | tech |
+| `sqlite` | 12 | tech |
+| `cd` | 11 | tech |
+| `vector` | 10 | tech |
+| `react` | 9 | tech |
 | `docker` | 7 | tech |
-| `rust` | 6 | tech |
-| `postgresql` | 5 | tech |
-| `bm25` | 4 | tech |
-| `jaccard` | 4 | tech |
+| `rust` | 7 | tech |
+| `postgresql` | 6 | tech |
+| `bm25` | 5 | tech |
+| `jaccard` | 5 | tech |
 | `cosine` | 3 | tech |
-| `css` | 2 | tech |
-| `fastapi` | 2 | tech |
-| `webhook` | 2 | tech |
-| `kubernetes` | 2 | tech |
+| `css` | 3 | tech |
+| `fastapi` | 3 | tech |
+| `webhook` | 3 | tech |
+| `kubernetes` | 3 | tech |
+| `graphql` | 2 | tech |
 
 **Топ-5 по упоминаниям:**
 
-### `mcp` (126 файлов)
+### `mcp` (146 файлов)
 
 - `docs/01-svyazi/01-executive-summary.md`
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/06-security-privacy.md`
 - `docs/01-svyazi/07-mvp-planning.md`
-- _...ещё 121_
+- _...ещё 141_
 
-### `api` (72 файлов)
+### `api` (80 файлов)
 
 - `docs/01-svyazi/02-methodology.md`
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/06-security-privacy.md`
 - `docs/01-svyazi/09-architectural-gaps.md`
-- _...ещё 67_
+- _...ещё 75_
 
-### `llm` (64 файлов)
-
-- `docs/01-svyazi/01-executive-summary.md`
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/01-svyazi/06-security-privacy.md`
-- `docs/01-svyazi/07-mvp-planning.md`
-- `docs/02-anthropic-vacancies/00-intro.md`
-- _...ещё 59_
-
-### `rag` (58 файлов)
+### `rag` (72 файлов)
 
 - `docs/01-svyazi/01-executive-summary.md`
 - `docs/01-svyazi/02-methodology.md`
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/07-mvp-planning.md`
-- _...ещё 53_
+- _...ещё 67_
 
-### `markdown` (52 файлов)
+### `llm` (71 файлов)
+
+- `docs/01-svyazi/01-executive-summary.md`
+- `docs/01-svyazi/03-component-catalog.md`
+- `docs/01-svyazi/06-security-privacy.md`
+- `docs/01-svyazi/07-mvp-planning.md`
+- `docs/02-anthropic-vacancies/00-intro.md`
+- _...ещё 66_
+
+### `json` (59 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md`
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
-- `docs/02-anthropic-vacancies/03-portal-protocol-md.md`
 - `docs/02-anthropic-vacancies/07-2-terminology.md`
-- `docs/02-anthropic-vacancies/09-4-passport-passport-md.md`
-- _...ещё 47_
+- `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md`
+- _...ещё 54_
 
 
 ## 🏢 Orgs (8)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
-| `вк` | 115 | orgs |
-| `meta` | 83 | orgs |
-| `mail` | 31 | orgs |
-| `openai` | 19 | orgs |
-| `google` | 12 | orgs |
-| `microsoft` | 9 | orgs |
+| `вк` | 126 | orgs |
+| `meta` | 95 | orgs |
+| `mail` | 32 | orgs |
+| `openai` | 21 | orgs |
+| `google` | 14 | orgs |
+| `microsoft` | 11 | orgs |
 | `yandex` | 6 | orgs |
-| `сбер` | 3 | orgs |
+| `сбер` | 4 | orgs |
 
 **Топ-5 по упоминаниям:**
 
-### `вк` (115 файлов)
+### `вк` (126 файлов)
 
 - `docs/01-svyazi/02-methodology.md`
 - `docs/01-svyazi/06-security-privacy.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/12-roadmap.md`
 - `docs/01-svyazi/13-contacts.md`
-- _...ещё 110_
+- _...ещё 121_
 
-### `meta` (83 файлов)
+### `meta` (95 файлов)
 
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
 - `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md`
-- _...ещё 78_
+- _...ещё 90_
 
-### `mail` (31 файлов)
+### `mail` (32 файлов)
 
 - `docs/01-svyazi/03-component-catalog.md`
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/06-security-privacy.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/09-architectural-gaps.md`
-- _...ещё 26_
+- _...ещё 27_
 
-### `openai` (19 файлов)
+### `openai` (21 файлов)
 
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
 - `docs/02-anthropic-vacancies/155-1-problem-statement.md`
-- _...ещё 14_
+- _...ещё 16_
 
-### `google` (12 файлов)
+### `google` (14 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md`
 - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
 - `docs/02-anthropic-vacancies/155-1-problem-statement.md`
-- _...ещё 7_
+- _...ещё 9_
 
 
-## 📅 Dates (28)
+## 📅 Dates (30)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
-| `2026-04` | 66 | dates |
+| `2026-04` | 79 | dates |
+| `2026-04-29` | 14 | dates |
 | `2026-04-19` | 11 | dates |
-| `апрель 2026` | 9 | dates |
+| `апрель 2026` | 10 | dates |
 | `2026-04-26` | 9 | dates |
+| `апреля 2026` | 7 | dates |
 | `2026/04/25` | 7 | dates |
-| `март 2026` | 6 | dates |
 | `в 2026 году` | 6 | dates |
-| `апреля 2026` | 6 | dates |
-| `декабрь 2025` | 4 | dates |
+| `март 2026` | 5 | dates |
+| `декабрь 2025` | 5 | dates |
+| `декабря 2025` | 4 | dates |
 | `апреле 2026` | 4 | dates |
 | `январе 2026` | 4 | dates |
-| `декабря 2025` | 3 | dates |
-| `декабрь 2024` | 3 | dates |
 | `марта 2026` | 3 | dates |
+| `декабрь 2024` | 3 | dates |
 | `2026-05-03` | 3 | dates |
-| `2025-12-15` | 3 | dates |
 | `2024-01-01` | 3 | dates |
-| `2026-04-15` | 3 | dates |
+| `2025-12-15` | 3 | dates |
 | `май 2025` | 3 | dates |
 | `феврале 2025` | 3 | dates |
+| `2026-04-15` | 3 | dates |
 | `Сентябрь 2025` | 3 | dates |
 | `января 2026` | 3 | dates |
-| `2026-04-29` | 3 | dates |
-| `2026-10-15` | 2 | dates |
+| `февраль 2026` | 3 | dates |
+| `2026-04-22` | 3 | dates |
+| `ноябре 2025` | 2 | dates |
 | `2026-02-01` | 2 | dates |
 | `2025-11-12` | 2 | dates |
-| `ноябре 2025` | 2 | dates |
 | `февраля 2026` | 2 | dates |
+| `2026-10-15` | 2 | dates |
 
 **Топ-5 по упоминаниям:**
 
-### `2026-04` (66 файлов)
+### `2026-04` (79 файлов)
 
 - `docs/02-anthropic-vacancies/03-portal-protocol-md.md`
 - `docs/02-anthropic-vacancies/103-appendix-b-change-log.md`
 - `docs/02-anthropic-vacancies/105-review-methodology-md.md`
 - `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md`
 - `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md`
-- _...ещё 61_
+- _...ещё 74_
+
+### `2026-04-29` (14 файлов)
+
+- `docs/04-ai-collaborations/01-executive-summary.md`
+- `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md`
+- `docs/04-ai-collaborations/07-выводы.md`
+- `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
+- `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md`
+- _...ещё 9_
 
 ### `2026-04-19` (11 файлов)
 
@@ -363,14 +375,14 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md`
 - _...ещё 6_
 
-### `апрель 2026` (9 файлов)
+### `апрель 2026` (10 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`
 - `docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md`
 - `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
-- _...ещё 4_
+- _...ещё 5_
 
 ### `2026-04-26` (9 файлов)
 
@@ -380,13 +392,4 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md`
 - `docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md`
 - _...ещё 4_
-
-### `2026/04/25` (7 файлов)
-
-- `docs/02-anthropic-vacancies/225-references.md`
-- `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
-- `docs/02-anthropic-vacancies/245-ссылки.md`
-- `docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md`
-- `docs/LINKS.md`
-- _...ещё 2_
 

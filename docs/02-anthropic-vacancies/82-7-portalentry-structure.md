@@ -1,5 +1,13 @@
 # 7. PortalEntry Structure
 
+<!-- toc-auto -->
+## Contents
+
+- [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -92,3 +100,19 @@ PortalEntry(
 - [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _42%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _33%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md) _29%_
+- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _29%_
+- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _25%_
+- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _25%_
+- [4. Passport (`passport.md`)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) _25%_

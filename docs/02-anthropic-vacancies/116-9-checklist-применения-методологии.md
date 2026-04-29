@@ -1,5 +1,15 @@
 # 9. Checklist применения методологии
 
+<!-- toc-auto -->
+## Contents
+
+- [9. Checklist применения методологии](#9-checklist-применения-методологии)
+  - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
+  - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
+  - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
+  - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -61,3 +71,12 @@
 - [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
 - [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [2. Формальный workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) _17%_

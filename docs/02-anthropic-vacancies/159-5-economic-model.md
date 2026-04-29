@@ -1,5 +1,30 @@
 # 5. Economic Model
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [5. Economic Model](#5-economic-model)
+  - [5.1. Budget Philosophy](#51-budget-philosophy)
+  - [5.2. Three-Year Pilot Budget (Estimated)](#52-three-year-pilot-budget-estimated)
+  - [5.3. Funding Strategy](#53-funding-strategy)
+  - [5.4. Contributor Economics](#54-contributor-economics)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [5. Economic Model](#5-economic-model)
+  - [5.1. Budget Philosophy](#51-budget-philosophy)
+  - [5.2. Three-Year Pilot Budget (Estimated)](#52-three-year-pilot-budget-estimated)
+  - [5.3. Funding Strategy](#53-funding-strategy)
+  - [5.4. Contributor Economics](#54-contributor-economics)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -124,3 +149,17 @@ to minimum dignity threshold; upward is merit-based.
 - [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
 - [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) _25%_
+- [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) _21%_
+- [6. Governance and Ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md) _17%_
+- [8. Risk Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md) _17%_
+- [9. Call for Partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) _17%_
+- [9. Phased Rollout Strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) _17%_

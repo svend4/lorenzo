@@ -181,3 +181,19 @@ practice.
 - [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
 - [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [8. Risks and Mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) _42%_
+- [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) _37%_
+- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _37%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _29%_
+- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _29%_
+- [Abstract](docs/02-anthropic-vacancies/252-abstract.md) _29%_
+- [5. Configuration: How Principals Build Their Ensembles](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) _29%_
+- [6. Coordination and Disagreement Resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) _29%_

@@ -1,5 +1,15 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Threading and Annotation](#threading-and-annotation)
+  - [Knowledge Management](#knowledge-management)
+  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
+  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
+
+
 <!-- summary -->
 > The references for this document are sparser than for the
 
@@ -65,3 +75,19 @@ header of this document.
 - [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
 - [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _42%_
+- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _37%_
+- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _33%_
+- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _33%_
+- [with Anthropic's Cowork Platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) _33%_
+- [Существующие документы DHLab (твой context)](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) _33%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _29%_
+- [AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) _29%_

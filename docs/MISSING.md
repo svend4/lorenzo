@@ -4,59 +4,49 @@
 
 | Статус | Тема / Проект | Файлов | Слов | Минимум | Примеры файлов |
 |--------|---------------|--------|------|---------|----------------|
-| ⚠️ | **бюджетный роутинг** | 6 | 68 | ≥2ф/300сл | `QA.md`, `06-безопасность-приватность-и-бюджетный-роутинг.md` |
-| ❌ | **лицензия BSL** | 0 | 0 | ≥1ф/50сл |  |
-| ❌ | **voice ingestion** | 0 | 0 | ≥1ф/100сл |  |
-| ✅ | **local-first** | 61 | 21753 | ≥2ф/300сл | `TAGS.md`, `SEARCH.md` |
-| ✅ | **Svyazi** | 57 | 56070 | ≥5ф/2000сл | `TIMELINE.md`, `GLOSSARY.md` |
-| ✅ | **CardIndex** | 48 | 47361 | ≥3ф/500сл | `GLOSSARY.md`, `ACTION_ITEMS.md` |
-| ✅ | **Yodoca** | 38 | 32559 | ≥2ф/300сл | `GLOSSARY.md`, `ACTION_ITEMS.md` |
-| ✅ | **NGT Memory** | 38 | 36916 | ≥2ф/300сл | `GLOSSARY.md`, `ACTION_ITEMS.md` |
-| ✅ | **AgentFS** | 36 | 28843 | ≥3ф/500сл | `GLOSSARY.md`, `ACTION_ITEMS.md` |
-| ✅ | **AI Factory** | 36 | 27516 | ≥2ф/200сл | `GLOSSARY.md`, `ACTION_ITEMS.md` |
-| ✅ | **mclaude** | 34 | 26502 | ≥2ф/200сл | `GLOSSARY.md`, `ACTION_ITEMS.md` |
-| ✅ | **LiteParse** | 32 | 22839 | ≥2ф/300сл | `TIMELINE.md`, `GLOSSARY.md` |
-| ✅ | **knowledge-space** | 31 | 28051 | ≥3ф/500сл | `GLOSSARY.md`, `ACTION_ITEMS.md` |
-| ✅ | **SENTINEL** | 30 | 25678 | ≥2ф/200сл | `GLOSSARY.md`, `ACTION_ITEMS.md` |
-| ✅ | **Rufler** | 28 | 19734 | ≥2ф/200сл | `GLOSSARY.md`, `ACTION_ITEMS.md` |
-| ✅ | **AutoResearch** | 23 | 19280 | ≥1ф/100сл | `GLOSSARY.md`, `GRAPH.md` |
-| ✅ | **Evidence Envelope** | 17 | 7437 | ≥2ф/200сл | `ACTION_ITEMS.md`, `QA.md` |
-| ✅ | **Card Envelope** | 12 | 6635 | ≥2ф/200сл | `ACTION_ITEMS.md`, `QA.md` |
-| ✅ | **CRDT** | 12 | 9270 | ≥1ф/100сл | `03-карта-найденных-проектов-и-паттернов.md`, `04-приоритетные-ансамбли.md` |
-| ✅ | **Sozialrecht** | 11 | 13812 | ≥1ф/200сл | `SEARCH.md`, `PRIORITIES.md` |
-| ✅ | **Skill Policy** | 9 | 2809 | ≥1ф/100сл | `QA.md`, `11-интеграционный-контракт-который-стоит-зафиксироват.md` |
-| ✅ | **Review Record** | 9 | 5311 | ≥1ф/100сл | `QA.md`, `11-интеграционный-контракт-который-стоит-зафиксироват.md` |
-| ✅ | **privacy by design** | 9 | 9069 | ≥1ф/100сл | `03-карта-найденных-проектов-и-паттернов.md`, `09-архитектурные-зазоры-которые-важнее-новых-инструме.md` |
-| ✅ | **Memory Write Policy** | 7 | 5531 | ≥2ф/200сл | `11-интеграционный-контракт-который-стоит-зафиксироват.md`, `13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` |
-| ✅ | **self-improvement** | 6 | 7604 | ≥1ф/100сл | `12-дорожная-карта-прототипа-следующей-итерации.md`, `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` |
+| ✅ | **Svyazi** | 139 | 147259 | ≥5ф/2000сл | `WORD_FREQ.md`, `SCHEDULE.md` |
+| ✅ | **local-first** | 86 | 76720 | ≥2ф/300сл | `FOOTNOTES.md`, `READING_TIME.md` |
+| ✅ | **Yodoca** | 82 | 94054 | ≥2ф/300сл | `WORD_FREQ.md`, `SCHEDULE.md` |
+| ✅ | **AgentFS** | 75 | 51824 | ≥3ф/500сл | `WORD_FREQ.md`, `SCHEDULE.md` |
+| ✅ | **CardIndex** | 72 | 64659 | ≥3ф/500сл | `SCHEDULE.md`, `QUESTIONS.md` |
+| ✅ | **self-improvement** | 68 | 10445 | ≥1ф/100сл | `FOOTNOTES.md`, `CONSISTENCY.md` |
+| ✅ | **SENTINEL** | 63 | 42718 | ≥2ф/200сл | `SCHEDULE.md`, `FOOTNOTES.md` |
+| ✅ | **knowledge-space** | 60 | 45031 | ≥3ф/500сл | `FOOTNOTES.md`, `BROKEN_LINKS.md` |
+| ✅ | **Rufler** | 60 | 36210 | ≥2ф/200сл | `FOOTNOTES.md`, `GLOSSARY.md` |
+| ✅ | **NGT Memory** | 58 | 46599 | ≥2ф/300сл | `GLOSSARY.md`, `CONSISTENCY.md` |
+| ✅ | **LiteParse** | 56 | 40011 | ≥2ф/300сл | `TIMELINE.md`, `GLOSSARY.md` |
+| ✅ | **mclaude** | 50 | 38201 | ≥2ф/200сл | `GLOSSARY.md`, `TABLES.md` |
+| ✅ | **AI Factory** | 50 | 38849 | ≥2ф/200сл | `GLOSSARY.md`, `CONSISTENCY.md` |
+| ✅ | **AutoResearch** | 31 | 25807 | ≥1ф/100сл | `GLOSSARY.md`, `CONTENT_GAPS.md` |
+| ✅ | **Evidence Envelope** | 25 | 9677 | ≥2ф/200сл | `CONSISTENCY.md`, `TABLES.md` |
+| ✅ | **Sozialrecht** | 24 | 65857 | ≥1ф/200сл | `READING_TIME.md`, `TABLES.md` |
+| ✅ | **CRDT** | 22 | 17414 | ≥1ф/100сл | `FOOTNOTES.md`, `CONTENT_GAPS.md` |
+| ✅ | **Card Envelope** | 15 | 7654 | ≥2ф/200сл | `TABLES.md`, `ACTION_ITEMS.md` |
+| ✅ | **бюджетный роутинг** | 14 | 16685 | ≥2ф/300сл | `RISK_REGISTER.md`, `TABLES.md` |
+| ✅ | **Memory Write Policy** | 11 | 6583 | ≥2ф/200сл | `QUESTIONS.md`, `TABLES.md` |
+| ✅ | **Skill Policy** | 11 | 3730 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
+| ✅ | **Review Record** | 11 | 6235 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
+| ✅ | **privacy by design** | 11 | 11190 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
+| ✅ | **лицензия BSL** | 3 | 1439 | ≥1ф/50сл | `RISK_REGISTER.md`, `TABLES.md` |
+| ✅ | **voice ingestion** | 2 | 760 | ≥1ф/100сл | `TABLES.md`, `MISSING.md` |
 
 ## Итог
 
-- ✅ Хорошо раскрыто: **22**
-- ⚠️ Слабо раскрыто: **1**
-- ❌ Отсутствует: **2**
+- ✅ Хорошо раскрыто: **25**
+- ⚠️ Слабо раскрыто: **0**
+- ❌ Отсутствует: **0**
 
 ## Рекомендации
 
 Темы со статусом ❌ или ⚠️ нужно дополнить отдельными документами.
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.24)
-- [CONSISTENCY](docs/CONSISTENCY.md) (сходство 0.16)
-- [README](docs/04-ai-collaborations/README.md) (сходство 0.16)
-
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [PRIORITIES](docs/PRIORITIES.md)
 - [CONSISTENCY](docs/CONSISTENCY.md)
+- [GRAPH](docs/GRAPH.md)
 - [GLOSSARY](docs/GLOSSARY.md)
-- [SITEMAP](docs/SITEMAP.md)
+- [PRIORITIES](docs/PRIORITIES.md)
 

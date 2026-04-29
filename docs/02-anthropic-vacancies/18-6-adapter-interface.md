@@ -1,4 +1,16 @@
 # 6. Adapter Interface
+<!-- tags: ingestion, architecture, anthropic -->
+
+
+<!-- toc-auto -->
+## Contents
+
+- [6. Adapter Interface](#6-adapter-interface)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
+  - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
+  - [6.4. translateto(entry, targetrepo) — Required for Level 3](#64-translatetoentry-targetrepo-required-for-level-3)
+
 
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
@@ -101,3 +113,19 @@ string description концепта entry в терминах target_repo, ил�
 - [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
 - [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) _53%_
+- [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md) _33%_
+- [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) _29%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) _29%_
+- [10. Query Flow](docs/02-anthropic-vacancies/85-10-query-flow.md) _29%_
+- [3. Registry (`nautilus.json`)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) _25%_
+- [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) _21%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _21%_

@@ -1,5 +1,25 @@
 # Executive summary
 
+<!-- toc -->
+## Содержание
+
+- [Статус](#статус)
+- [Executive summary](#executive-summary)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Executive summary Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 !IMPORTANT Главный документ 
+> ✅ **Результат:** citeturn33view2turn27view0turn21view1turn22view3turn21view4turn20view16turn39view3turn20view2turn20view3turn20view4turn20view11turn20view5turn34view2turn34view3turn
+> 🏷️ **Ключевые слова:** `svyazi`, `проект`, `summary`, `planning`, `executive`, `cardindex`, `agentfs`, `collaborations`
+>
+
+
 <!-- autofill-status -->
 ## Статус
 
@@ -81,3 +101,20 @@ _Обновлено: 2026-04-29_
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Поиск AI-коллабораций](docs/04-ai-collaborations/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [08 Conclusions](docs/01-svyazi/08-conclusions.md) _53%_
+- [Выводы](docs/04-ai-collaborations/07-выводы.md) _53%_
+- [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) _42%_
+- [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _37%_
+- [07 Mvp Planning](docs/01-svyazi/07-mvp-planning.md) _33%_
+- [09 Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md) _33%_
+- [10 Second Order Ensembles](docs/01-svyazi/10-second-order-ensembles.md) _33%_
+- [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) _33%_

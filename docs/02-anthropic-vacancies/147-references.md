@@ -1,5 +1,18 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Multi-Agent Systems](#multi-agent-systems)
+  - [Protocols and Federation](#protocols-and-federation)
+  - [Human-AI Collaboration](#human-ai-collaboration)
+  - [Related Architectures](#related-architectures)
+  - [Pattern Libraries](#pattern-libraries)
+  - [Primary Reference](#primary-reference)
+
+
 <!-- summary -->
 > - Conway, M. E. (1968). "How do committees invent?" *Datamation*.
 
@@ -74,3 +87,19 @@
 - [268-references](docs/02-anthropic-vacancies/268-references.md)
 - [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Author & Contact](docs/02-anthropic-vacancies/52-author-contact.md) _25%_
+- [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md) _21%_
+- [3. Three Inter-Layer Protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) _21%_
+- [Appendix A: Glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) _21%_
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md) _21%_
+- [References](docs/02-anthropic-vacancies/183-references.md) _21%_
+- [References](docs/02-anthropic-vacancies/225-references.md) _21%_
+- [13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) _21%_

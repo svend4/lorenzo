@@ -1,5 +1,18 @@
 # 11. Call for Collaboration
 
+<!-- toc-auto -->
+## Contents
+
+- [11. Call for Collaboration](#11-call-for-collaboration)
+  - [11.1. For Professional Practitioners](#111-for-professional-practitioners)
+  - [11.2. For Domain Experts (Curators)](#112-for-domain-experts-curators)
+  - [11.3. For Software Engineers](#113-for-software-engineers)
+  - [11.4. For Foundation Funders](#114-for-foundation-funders)
+  - [11.5. For Existing Professional Tool Vendors](#115-for-existing-professional-tool-vendors)
+  - [11.6. For Researchers](#116-for-researchers)
+  - [11.7. For Policy Stakeholders](#117-for-policy-stakeholders)
+
+
 <!-- summary -->
 > We invite specific kinds of collaboration:
 
@@ -89,3 +102,19 @@ practitioners during framework development valuable.
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
 - [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [12. Call for Collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) _33%_
+- [11. Call for Collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) _21%_
+- [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) _21%_
+- [8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) _21%_
+- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _21%_
+- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _21%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _17%_
+- [Abstract](docs/02-anthropic-vacancies/210-abstract.md) _17%_

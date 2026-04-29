@@ -54,3 +54,19 @@ document provides framing. It does not provide answers.
 - [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
 - [285-closing](docs/02-anthropic-vacancies/285-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) _29%_
+- [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) _29%_
+- [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md) _29%_
+- [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) _29%_
+- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _25%_
+- [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) _25%_
+- [What's Missing — Layer B](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) _21%_
+- [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) _21%_

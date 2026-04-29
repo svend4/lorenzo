@@ -1,5 +1,36 @@
 # 6. Ethical Framework
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Ethical Framework](#6-ethical-framework)
+  - [6.1. Principal Sovereignty](#61-principal-sovereignty)
+  - [6.2. Transparent Capability](#62-transparent-capability)
+  - [6.3. No Adverse Action Without Notice](#63-no-adverse-action-without-notice)
+  - [6.4. Fairness Across Principals](#64-fairness-across-principals)
+  - [6.5. Vulnerability Protection](#65-vulnerability-protection)
+  - [6.6. Consent and Capacity](#66-consent-and-capacity)
+  - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [6. Ethical Framework](#6-ethical-framework)
+  - [6.1. Principal Sovereignty](#61-principal-sovereignty)
+  - [6.2. Transparent Capability](#62-transparent-capability)
+  - [6.3. No Adverse Action Without Notice](#63-no-adverse-action-without-notice)
+  - [6.4. Fairness Across Principals](#64-fairness-across-principals)
+  - [6.5. Vulnerability Protection](#65-vulnerability-protection)
+  - [6.6. Consent and Capacity](#66-consent-and-capacity)
+  - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -124,3 +155,19 @@ tech-sophisticated principals fails its core mission.
 - [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
 - [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [7. Governance and Oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md) _21%_
+- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _21%_
+- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _21%_
+- [5. Configuration: How Principals Build Their Ensembles](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) _21%_
+- [7. Open Questions](docs/02-anthropic-vacancies/144-7-open-questions.md) _17%_
+- [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md) _17%_
+- [2. Historical Precedents: Agents as Civilizational Innovation](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
+- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _17%_

@@ -156,3 +156,16 @@ Layer.
 - [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
 - [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [12. Closing](docs/02-anthropic-vacancies/181-12-closing.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/169-table-of-contents.md) _21%_
+- [2. Target Populations](docs/02-anthropic-vacancies/156-2-target-populations.md) _17%_
+- [2. Historical Precedents: Agents as Civilizational Innovation](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
+- [10. Strategic Positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) _17%_

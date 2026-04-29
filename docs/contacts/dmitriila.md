@@ -1,5 +1,22 @@
 # Контакт: Dmitriila / SENTINEL
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+
+---
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+
+
 <!-- summary: Шаблон для связи с автором SENTINEL -->
 <!-- tags: контакты, команда -->
 
@@ -41,3 +58,26 @@ SENTINEL закрывает слой «security» в архитектуре.
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) _81%_
+- [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md) _81%_
+- [Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md) _81%_
+- [Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md) _81%_
+- [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md) _73%_
+- [Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md) _73%_
+- [Контакт: tagir_analyzes / Legal RAG](docs/contacts/tagir-analyzes.md) _73%_
+- [Контакт: VitalyOborin / Yodoca](docs/contacts/vitalyoborin.md) _73%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [mixaill76](docs/contacts/mixaill76.md)
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [zodigancode](docs/contacts/zodigancode.md)
+

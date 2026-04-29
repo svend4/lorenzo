@@ -1,5 +1,27 @@
 # Похожие документы
 
+<!-- summary -->
+> - [Топ-20 самых похожих пар](#топ-20-самых-похожих-пар)
+**Проекты:** MemNet
+
+---
+<!-- tags: memory, security, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Топ-20 самых похожих пар](#топ-20-самых-похожих-пар)
+- [По разделам](#по-разделам)
+  - [02-anthropic-vacancies](#02-anthropic-vacancies)
+  - [03-technology-combinations](#03-technology-combinations)
+  - [04-ai-collaborations](#04-ai-collaborations)
+  - [05-habr-projects](#05-habr-projects)
+  - [root](#root)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -71,3 +93,18 @@
 - `QA.md` ↔ `QA.md` (0.623)
 - `QA.md` ↔ `QA.md` (0.515)
 - `LINKS.md` ↔ `BROKEN_LINKS.md` (0.457)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Executive Report: Репозиторий Lorenzo](docs/REPORT.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Документация Lorenzo](docs/README.md) _25%_
+- [Частотный анализ слов](docs/WORD_FREQ.md) _25%_
+- [Приоритеты файлов](docs/PRIORITIES.md) _21%_
+- [Карта репозитория Lorenzo](docs/SITEMAP.md) _21%_
+- [20. ADR-002: Q6 as First-Class Protocol Concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) _17%_
+- [Тепловая карта тем](docs/HEATMAP.md) _17%_

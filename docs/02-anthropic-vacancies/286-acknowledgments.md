@@ -4,6 +4,8 @@
 > This document emerged from the author's observation, near
 
 ---
+<!-- tags: architecture, anthropic -->
+
 
 
 
@@ -52,3 +54,19 @@ contributed structure and reference work.
 - [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
 - [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md) _53%_
+- [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md) _48%_
+- [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) _42%_
+- [References](docs/02-anthropic-vacancies/287-references.md) _42%_
+- [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) _33%_
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
+- [AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) _33%_
+- [with Anthropic's Cowork Platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) _33%_

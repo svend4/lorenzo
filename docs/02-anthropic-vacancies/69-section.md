@@ -789,3 +789,19 @@ markdown
 - [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
 - [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) _25%_
+- [README-MCP.md— инструкция по установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) _25%_
+- [Abstract](docs/02-anthropic-vacancies/04-abstract.md) _21%_
+- [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) _21%_
+- [REVIEW_METHODOLOGY.md](docs/02-anthropic-vacancies/105-review-methodology-md.md) _21%_
+- [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) _21%_
+- [13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md) _21%_
+- [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) _21%_

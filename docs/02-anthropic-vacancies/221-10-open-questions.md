@@ -1,5 +1,19 @@
 # 10. Open Questions
 
+<!-- toc-auto -->
+## Contents
+
+- [10. Open Questions](#10-open-questions)
+  - [10.1. Scope of "Profession"](#101-scope-of-profession)
+  - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
+  - [10.3. International Variation](#103-international-variation)
+  - [10.4. Update Cadence](#104-update-cadence)
+  - [10.5. Quality Assessment](#105-quality-assessment)
+  - [10.6. Transition Costs](#106-transition-costs)
+  - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
+  - [10.8. Appropriate Resistance](#108-appropriate-resistance)
+
+
 <!-- summary -->
 > Several questions remain unresolved.
 
@@ -99,3 +113,19 @@ they shape technical decisions.
 - [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) _33%_
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) _29%_
+- [2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) _29%_
+- [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) _29%_
+- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _29%_
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md) _29%_
+- [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md) _25%_
+- [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md) _25%_

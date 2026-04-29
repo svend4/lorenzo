@@ -1,5 +1,16 @@
 # 10. Open Questions
 
+<!-- toc-auto -->
+## Contents
+
+- [10. Open Questions](#10-open-questions)
+  - [10.1. Technical Questions](#101-technical-questions)
+  - [10.2. Economic Questions](#102-economic-questions)
+  - [10.3. Legal Questions](#103-legal-questions)
+  - [10.4. Social Questions](#104-social-questions)
+  - [10.5. Philosophical Questions](#105-philosophical-questions)
+
+
 <!-- summary -->
 > Many questions remain unresolved. We list them explicitly
 
@@ -112,3 +123,19 @@ of whether ethical frameworks keep pace.
 - [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) _29%_
+- [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md) _29%_
+- [Часто задаваемые вопросы (FAQ)](docs/FAQ.md) _29%_
+- [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) _25%_
+- [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) _25%_
+- [8. Risks and Mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) _25%_
+- [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md) _25%_
+- [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md) _25%_

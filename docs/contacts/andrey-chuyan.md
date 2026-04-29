@@ -1,5 +1,22 @@
 # Контакт: andrey_chuyan / Svyazi
 
+<!-- summary -->
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, CardIndex, AgentFS, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+
+---
+
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+
+
 <!-- summary: Шаблон для связи с автором Svyazi -->
 <!-- tags: контакты, команда -->
 
@@ -43,3 +60,26 @@ Svyazi закрывает слой «ingestion/CardIndex» в архитекту
 
 ---
 _Создано автоматически: 2026-04-29_
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md) _66%_
+- [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md) _66%_
+- [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md) _66%_
+- [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md) _66%_
+- [Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md) _66%_
+- [Контакт: tagir_analyzes / Legal RAG](docs/contacts/tagir-analyzes.md) _66%_
+- [Контакт: VitalyOborin / Yodoca](docs/contacts/vitalyoborin.md) _66%_
+- [Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md) _66%_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vladspace](docs/contacts/vladspace.md)
+- [cutcode](docs/contacts/cutcode.md)
+- [dmitriila](docs/contacts/dmitriila.md)
+- [mixaill76](docs/contacts/mixaill76.md)
+

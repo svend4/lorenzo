@@ -4,6 +4,8 @@
 > **Текущий уровень: 3 (Interactive / Bridged)**
 
 ---
+<!-- tags: anthropic -->
+
 
 
 
@@ -40,3 +42,19 @@
 - [60-bridges](docs/02-anthropic-vacancies/60-bridges.md)
 - [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)
+
+<!-- related-auto -->
+## Связанные документы
+
+- [Compatibility Level](docs/02-anthropic-vacancies/61-compatibility-level.md) _73%_
+- [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md) _48%_
+- [Bridges](docs/02-anthropic-vacancies/40-bridges.md) _33%_
+- [Native Format](docs/02-anthropic-vacancies/57-native-format.md) _33%_
+- [Bridges](docs/02-anthropic-vacancies/60-bridges.md) _29%_
+- [Angle / Perspective](docs/02-anthropic-vacancies/49-angle-perspective.md) _25%_
+- [Bridges](docs/02-anthropic-vacancies/50-bridges.md) _25%_
+- [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md) _21%_
