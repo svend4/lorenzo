@@ -4,37 +4,37 @@
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 50 |
-| **AIF Handoff** | 19 |
-| **AgentFS** | 63 |
-| **Auto AI Router** | 40 |
-| **AutoResearch** | 29 |
+| **AI Factory** | 49 |
+| **AIF Handoff** | 20 |
+| **AgentFS** | 65 |
+| **Auto AI Router** | 41 |
+| **AutoResearch** | 30 |
 | **Automerge** | 16 |
-| **CardIndex** | 71 |
+| **CardIndex** | 72 |
 | **Firecrawl** | 14 |
-| **Graph RAG** | 29 |
-| **Hybrid RAG** | 26 |
-| **Legal RAG** | 31 |
+| **Graph RAG** | 30 |
+| **Hybrid RAG** | 27 |
+| **Legal RAG** | 32 |
 | **LiteLLM** | 32 |
-| **LiteParse** | 46 |
-| **MemNet** | 32 |
+| **LiteParse** | 49 |
+| **MemNet** | 36 |
 | **Memory OS** | 19 |
-| **NGT Memory** | 49 |
-| **OpenWhispr** | 11 |
+| **NGT Memory** | 50 |
+| **OpenWhispr** | 12 |
 | **RLM-Toolkit** | 6 |
 | **Rufler** | 48 |
-| **SENTINEL** | 49 |
+| **SENTINEL** | 50 |
 | **Self-Aware MCP** | 9 |
-| **Sequential** | 45 |
-| **Svyazi** | 134 |
+| **Sequential** | 46 |
+| **Svyazi** | 137 |
 | **Tool Search** | 33 |
 | **Whisper** | 13 |
-| **Wikontic** | 26 |
+| **Wikontic** | 31 |
 | **Yjs** | 20 |
-| **Yodoca** | 69 |
+| **Yodoca** | 74 |
 | **Yttri** | 13 |
 | **agent-memory-mcp** | 19 |
-| **knowledge-space** | 54 |
+| **knowledge-space** | 58 |
 | **mclaude** | 47 |
 
 <!-- see-also -->

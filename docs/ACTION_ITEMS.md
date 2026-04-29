@@ -1,16 +1,11 @@
 # Action Items, риски и решения
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 655
+**Всего элементов:** 705
 
 
-## ➡️ Следующие шаги (96)
+## ➡️ Следующие шаги (97)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -160,6 +155,8 @@
   _→ DECISIONS_
 - минимального прототипа из пяти компонентов: 1. Svyazi‑подобный import/normalize/CardIndex 2. AgentFS‑подобное файловое я  
   _→ DECISIONS_
+- - Приоритет 1: kksudo (AgentFS, 13 упоминаний)  
+  _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
@@ -169,7 +166,7 @@
 
 _(19 дублей скрыто)_
 
-## ✅ Решения и рекомендации (130)
+## ✅ Решения и рекомендации (142)
 
 - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идёт  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -351,24 +348,34 @@ _(19 дублей скрыто)_
   _→ CONCEPTS_
 - + обоснование]  
   _→ CONCEPTS_
-- Framework — When to Buil](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 221 | — |  
-  _→ READING_ORDER_
-- Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) | 149 | — |  
+- создать документы](#рекомендуется-создать-документы)  
+  _→ CONTENT_GAPS_
+- создать документы  
+  _→ CONTENT_GAPS_
+- прочитать в первую очередь. <!-- alert-added --> <!-- autofill-status --> | Параметр | Значение | |----------|---------| | Теги | — | | Упоминаний в р  
+  _→ NARRATIVE_
+- Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-f  
+  _→ OUTLINE_
+- Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters  
+  _→ OUTLINE_
+- - Последствия  
+  _→ OUTLINE_
+- Framework — When to Buil](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 257 | — |  
   _→ READING_ORDER_
 - 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `docs/04-ai-collaborations/00-intro.md` |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `docs/05-habr-projects/memory/memnet.md` |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года примен | `docs/TABLES.md` |  
-  _→ TIMELINE_
+  _→ TABLES_
 - исправить.  
   _→ VALIDATION_
 - **Выбрано:** [Вариант X]  
   _→ decision-record_
 
-_(33 дублей скрыто)_
+_(40 дублей скрыто)_
 
-## ⚠️ Риски (262)
+## ⚠️ Риски (286)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -768,6 +775,8 @@ _(33 дублей скрыто)_
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 - склеивать в один релиз  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
+- register, auto-changelog, master index; fix run_all missing scripts _59617c5d_  
+  _→ CHANGELOG_
 - (4 файлов)  
   _→ CLUSTERS_
 - mitigations**  
@@ -778,23 +787,31 @@ _(33 дублей скрыто)_
   _→ COST_
 - mitigation для каждой. Полезно для grant  
   _→ DECISIONS_
-- (1)](#безопасность-1)  
-  _→ DECISIONS_
-- | `root` | 54% |  
+- | `root` | 63% |  
   _→ DENSITY_
 - | |---|---|---|---|---| | Evidence-first core | Из любого suggestions можно перейти к основанию | Unified …  
   _→ DUPLICATES_
-- и allowlist для MCP | 16 |  
+- и allowlist для MCP | 0 |  
   _→ FOOTNOTES_
-- | ██ 7.9 | 0.4 | 0.4 | ▒▒ 4.2 | 0.1 |  
+- | ██ 7.8 | 0.4 | 0.4 | ▒▒ 4.3 | 0.1 |  
   _→ HEATMAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
-- того, что через две недели **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, LiteParse, Legal RAG, Hybrid RAG --- <!-- tags: memory, rag,  
+- того, что через две недели **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, LiteParse, Legal RAG[^rag], Hy  
   _→ NARRATIVE_
-- Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md) | 576 | — |  
-  _→ READING_ORDER_
-- скл](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3004 | — |  
+- Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysisdocs02-anthropic-vacancies162-8-risk-analysismd)  
+  _→ OUTLINE_
+- Regulatory Complexity Deployment Readiness  
+  _→ OUTLINE_
+- Регулятивная Сложность Готовность к Развёртыванию  
+  _→ OUTLINE_
+- склеивать](docs/01-svyazi/14-limitations.md)](#ограничения-лицензии-и-что-пока-лучше-не-склеиватьdocs01-svyazi14-limitat  
+  _→ OUTLINE_
+- склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)](#ограничения-лицензии-и-  
+  _→ OUTLINE_
+- склеивать](docs/01-svyazi/14-limitations.md)  
+  _→ OUTLINE_
+- скл](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3190 | — |  
   _→ READING_ORDER_
 - | Категория | Вероятн. | Влияние | Score | Уровень |  
   _→ RISK_REGISTER_
@@ -808,18 +825,20 @@ _(33 дублей скрыто)_
   _→ RISK_REGISTER_
 - и PII описаны | ✅ | 8 |  
   _→ SCORING_
-- склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3022 |  
+- склеиват](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3190 |  
   _→ SITEMAP_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
   _→ TABLES_
-- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
+- | `root` | 54% |  
+  _→ TABLES_
+- и allowlist для MCP | 16 |  
   _→ TABLES_
 
-_(39 дублей скрыто)_
+_(57 дублей скрыто)_
 
-## 🚫 Ограничения (70)
+## 🚫 Ограничения (82)
 
 - не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi[^svyazi] как базовый пат  
   _→ 14-limitations_
@@ -929,16 +948,18 @@ _(39 дублей скрыто)_
   _→ CONCEPTS_
 - исчезают**  
   _→ CONCEPTS_
-- и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 310 | — |  
-  _→ READING_ORDER_
-- текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md) | 70 | — |  
-  _→ READING_ORDER_
+- и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросыdocs02-anthropic-vacancies1  
+  _→ OUTLINE_
+- текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draftdocs02-  
+  _→ OUTLINE_
+- - MVP-шаги  
+  _→ OUTLINE_
 - при коммерческом использовании |  
-  _→ TECH_RADAR_
+  _→ TABLES_
 - - [Риск 1]  
   _→ ensemble_
 
-_(12 дублей скрыто)_
+_(23 дублей скрыто)_
 
 ## 📋 Задачи (TODO) (9)
 
@@ -961,7 +982,7 @@ _(12 дублей скрыто)_
 - меток: **22**  
   _→ STATS_
 
-## 📬 Контактные действия (88)
+## 📬 Контактные действия (89)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1108,7 +1129,7 @@ _(12 дублей скрыто)_
 - PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
   _→ TABLES_
 
-_(16 дублей скрыто)_
+_(17 дублей скрыто)_
 
 <!-- see-also -->
 
@@ -1118,5 +1139,5 @@ _(16 дублей скрыто)_
 - [CONCEPTS](docs/CONCEPTS.md)
 - [TABLES](docs/TABLES.md)
 - [SEARCH](docs/SEARCH.md)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [READING_TIME](docs/READING_TIME.md)
 

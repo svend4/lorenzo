@@ -38,18 +38,6 @@ _Автоматически сгенерировано по 15 файлам ра
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
 
-## Как работает AgentFS и что такое .agentos?
-
-Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
-
-## Что такое knowledge-space и для кого он предназначен?
-
-Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
-
-## Как CardIndex хранит и версионирует карточки?
-
-Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
-
 ## Какие инструменты обеспечивают безопасность агентов?
 
 Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
@@ -61,3 +49,15 @@ _Автоматически сгенерировано по 15 файлам ра
 ## Как организован бюджетный роутинг между моделями?
 
 Упоминаются: **routing**, **budget**, **litellm**, **local model**
+
+## Как работает AgentFS и что такое .agentos?
+
+Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
+
+## Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
+
+## Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**

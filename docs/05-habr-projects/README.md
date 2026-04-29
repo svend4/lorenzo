@@ -6,7 +6,7 @@
 
 - [01-synthesis.md](01-synthesis.md) — <!-- autofill-status -->
 - [02-collaboration-partners.md](02-collaboration-partners.md) — <!-- autofill-status -->
-- [QA.md](QA.md) — > [!TIP]
+- [QA.md](QA.md) — _Автоматически сгенерировано по 6 файлам раздела._
 
 ## Подразделы
 

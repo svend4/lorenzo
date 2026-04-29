@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-04-29T08:47:36+00:00</updated>
+  <updated>2026-04-29T08:50:08+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/8e689b3de4723e9d4b98f835fa56498be696624b</id>
+    <title>docs: auto-update via improve_run_all [skip ci]</title>
+    <link href="https://github.com/svend4/lorenzo/commit/8e689b3de4723e9d4b98f835fa56498be696624b"/>
+    <updated>2026-04-29T08:48:24+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>docs: auto-update via improve_run_all [skip ci]</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/01-executive-summary.md">docs/01-svyazi/01-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/03-component-catalog.md">docs/01-svyazi/03-component-catalog.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/04-ensembles-overview.md">docs/01-svyazi/04-ensembles-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/07-mvp-planning.md">docs/01-svyazi/07-mvp-planning.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/09-architectural-gaps.md">docs/01-svyazi/09-architectural-gaps.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/10-second-order-ensembles.md">docs/01-svyazi/10-second-order-ensembles.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/13-contacts.md">docs/01-svyazi/13-contacts.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/README.md">docs/01-svyazi/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/04-abstract.md">docs/02-anthropic-vacancies/04-abstract.md</a></li></ul><p>Коммит: <code>8e689b3d</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/b326b33a4f083c9c57e7a96242a757de5988093d</id>
     <title>Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/a32f556be254a208eca54defe6b9a0d3ca3eba32"/>
     <updated>2026-04-29T06:05:20+00:00</updated>
     <content type="html"><![CDATA[<p><strong>feat: implement 3 improvements + fix question truncation</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/anastasiyaw.md">docs/contacts/anastasiyaw.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/andrey-chuyan.md">docs/contacts/andrey-chuyan.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/kksudo.md">docs/contacts/kksudo.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/spbmolot.md">docs/contacts/spbmolot.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/vitalyoborin.md">docs/contacts/vitalyoborin.md</a></li></ul><p>Коммит: <code>a32f556b</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/d946c3b3cf0554033b5908b2abe1f30aa0a5669f</id>
-    <title>feat: add improve_autofill.py — fills templates from existing script outputs</title>
-    <link href="https://github.com/svend4/lorenzo/commit/d946c3b3cf0554033b5908b2abe1f30aa0a5669f"/>
-    <updated>2026-04-29T05:37:39+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: add improve_autofill.py — fills templates from existing script outputs</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/00-intro.md">docs/04-ai-collaborations/00-intro.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/01-executive-summary.md">docs/04-ai-collaborations/01-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/01-synthesis.md">docs/05-habr-projects/01-synthesis.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/02-collaboration-partners.md">docs/05-habr-projects/02-collaboration-partners.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/knowledge/wikontic.md">docs/05-habr-projects/knowledge/wikontic.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/memory/memnet.md">docs/05-habr-projects/memory/memnet.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/memory/ngt-memory.md">docs/05-habr-projects/memory/ngt-memory.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/memory/yodoca.md">docs/05-habr-projects/memory/yodoca.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/anastasiyaw.md">docs/contacts/anastasiyaw.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/andrey-chuyan.md">docs/contacts/andrey-chuyan.md</a></li></ul><p>Коммит: <code>d946c3b3</code></p>]]></content>
   </entry>
 </feed>

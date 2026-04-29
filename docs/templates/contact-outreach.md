@@ -46,8 +46,8 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
+- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
 - [vladspace](docs/contacts/vladspace.md)
 - [cutcode](docs/contacts/cutcode.md)
 - [dmitriila](docs/contacts/dmitriila.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
 

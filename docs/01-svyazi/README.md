@@ -1,4 +1,4 @@
-# Svyazi[^svyazi] 2.0 — Архитектура и исследование
+# Svyazi 2.0 — Архитектура и исследование
 
 **Файлов:** 15
 
@@ -7,7 +7,7 @@
 - [00-intro-part2.md](00-intro-part2.md) — 
 - [01-executive-summary.md](01-executive-summary.md) — > [!IMPORTANT]
 - [02-methodology.md](02-methodology.md) — > [!TIP]
-- [03-component-catalog.md](03-component-catalog.md) — <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvem…
+- [03-component-catalog.md](03-component-catalog.md) — <!-- summary -->
 - [04-ensembles-overview.md](04-ensembles-overview.md) — <!-- summary -->
 - [06-security-privacy.md](06-security-privacy.md) — <!-- summary -->
 - [07-mvp-planning.md](07-mvp-planning.md) — <!-- summary -->
@@ -18,11 +18,4 @@
 - [12-roadmap.md](12-roadmap.md) — <!-- summary -->
 - [13-contacts.md](13-contacts.md) — <!-- summary -->
 - [14-limitations.md](14-limitations.md) — <!-- summary -->
-- [QA.md](QA.md) — > [!TIP]
-
-
-<!-- footnotes-added -->
-
----
-
-[^svyazi]: Главный проект: экосистема AI-компонентов
+- [QA.md](QA.md) — _Автоматически сгенерировано по 14 файлам раздела._

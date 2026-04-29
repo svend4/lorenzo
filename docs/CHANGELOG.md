@@ -1,10 +1,10 @@
 # CHANGELOG
 
-Всего коммитов: **49**  
-Статистика: ✨ feat: 17 | ⚡ improve: 14 | 🔧 chore: 13 | 🐛 fix: 3 | 📝 docs: 2
+Всего коммитов: **50**  
+Статистика: ✨ feat: 17 | ⚡ improve: 14 | 🔧 chore: 13 | 📝 docs: 3 | 🐛 fix: 3
 
 
-## 2026-04-29 (48 коммитов)
+## 2026-04-29 (49 коммитов)
 
 ### 🔧 Обслуживание
 
@@ -32,6 +32,7 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update via improve_run_all [skip ci] _8e689b3d_
 - sync PROGRESS.md _4e217f2b_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync PROGRESS.md after adding 16 new scripts _4d237951_

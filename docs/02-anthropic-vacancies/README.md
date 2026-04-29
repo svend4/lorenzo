@@ -24,15 +24,15 @@
 - [109-3-принципы-консолидации-фаза-c.md](109-3-принципы-консолидации-фаза-c.md) — > [!TIP]
 - [110-вопрос-fallback-ratio-как-критический-или-осмыслен.md](110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) — > [!IMPORTANT]
 - [111-4-условия-применимости.md](111-4-условия-применимости.md) — <!-- summary -->
-- [112-5-связь-с-существующими-методологиями.md](112-5-связь-с-существующими-методологиями.md) — <!-- summary -->
+- [112-5-связь-с-существующими-методологиями.md](112-5-связь-с-существующими-методологиями.md) — > [!WARNING]
 - [113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md](113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) — <!-- summary -->
 - [114-7-реализация-в-проекте-nautilus.md](114-7-реализация-в-проекте-nautilus.md) — <!-- summary -->
 - [115-8-ограничения-и-открытые-вопросы.md](115-8-ограничения-и-открытые-вопросы.md) — > [!WARNING]
 - [116-9-checklist-применения-методологии.md](116-9-checklist-применения-методологии.md) — > [!WARNING]
 - [117-10-конкретный-план-применения-к-текущим-документам.md](117-10-конкретный-план-применения-к-текущим-документам.md) — <!-- summary -->
 - [118-appendix-a-шаблон-для-header-warning.md](118-appendix-a-шаблон-для-header-warning.md) — <!-- summary -->
-- [119-appendix-b-примеры-расхождений-и-их-разрешения.md](119-appendix-b-примеры-расхождений-и-их-разрешения.md) — > [!WARNING]
-- [12-content-overview.md](12-content-overview.md) — Что внутри: типы данных, приблизительный объём, основные темы.
+- [119-appendix-b-примеры-расхождений-и-их-разрешения.md](119-appendix-b-примеры-расхождений-и-их-разрешения.md) — <!-- tags: architecture, anthropic -->
+- [12-content-overview.md](12-content-overview.md) — <!-- summary -->
 - [120-главные-технические-риски.md](120-главные-технические-риски.md) — <!-- summary -->
 - [121-appendix-c-история-изменений-методологии.md](121-appendix-c-история-изменений-методологии.md) — <!-- summary -->
 - [122-глоссарий.md](122-глоссарий.md) — > [!WARNING]
@@ -43,12 +43,12 @@
 - [127-подключение-к-claude-desktop.md](127-подключение-к-claude-desktop.md) — <!-- summary -->
 - [128-доступные-инструменты.md](128-доступные-инструменты.md) — <!-- summary -->
 - [129-примеры-запросов-в-claude.md](129-примеры-запросов-в-claude.md) — <!-- summary -->
-- [13-angle-perspective.md](13-angle-perspective.md) — С какого угла Repo смотрит на общие концепты
+- [13-angle-perspective.md](13-angle-perspective.md) — <!-- summary -->
 - [130-отладка.md](130-отладка.md) — <!-- summary -->
 - [131-ограничения-текущей-версии-0-1-0-draft.md](131-ограничения-текущей-версии-0-1-0-draft.md) — <!-- summary -->
 - [132-planned-v0-2-0.md](132-planned-v0-2-0.md) — <!-- summary -->
 - [133-обратная-связь.md](133-обратная-связь.md) — > [!TIP]
-- [134-the-double-triangle-architecture-md.md](134-the-double-triangle-architecture-md.md) — markdown
+- [134-the-double-triangle-architecture-md.md](134-the-double-triangle-architecture-md.md) — <!-- summary -->
 - [135-a-formal-model-for-human-ai-collaboration-in-distr.md](135-a-formal-model-for-human-ai-collaboration-in-distr.md) — <!-- summary -->
 - [136-abstract.md](136-abstract.md) — <!-- summary -->
 - [137-table-of-contents.md](137-table-of-contents.md) — <!-- summary -->
@@ -65,7 +65,7 @@
 - [148-appendix-a-glossary.md](148-appendix-a-glossary.md) — > [!TIP]
 - [149-appendix-b-summary-of-contributions.md](149-appendix-b-summary-of-contributions.md) — <!-- summary -->
 - [150-appendix-c-version-history.md](150-appendix-c-version-history.md) — > [!WARNING]
-- [151-open-knowledge-work-foundation-md.md](151-open-knowledge-work-foundation-md.md) — markdown
+- [151-open-knowledge-work-foundation-md.md](151-open-knowledge-work-foundation-md.md) — <!-- summary -->
 - [152-ai-coordinated-infrastructure-for-distributed-expe.md](152-ai-coordinated-infrastructure-for-distributed-expe.md) — <!-- summary -->
 - [153-executive-summary.md](153-executive-summary.md) — <!-- summary -->
 - [154-table-of-contents.md](154-table-of-contents.md) — <!-- summary -->
@@ -81,7 +81,7 @@
 - [163-9-call-for-partnership.md](163-9-call-for-partnership.md) — <!-- summary -->
 - [164-10-appendices.md](164-10-appendices.md) — <!-- summary -->
 - [165-closing.md](165-closing.md) — > [!WARNING]
-- [166-representative-agent-layer-md.md](166-representative-agent-layer-md.md) — <!-- tags: architecture -->
+- [166-representative-agent-layer-md.md](166-representative-agent-layer-md.md) — <!-- summary -->
 - [167-ai-mediated-representation-for-underrepresented-ex.md](167-ai-mediated-representation-for-underrepresented-ex.md) — <!-- summary -->
 - [168-abstract.md](168-abstract.md) — <!-- summary -->
 - [169-table-of-contents.md](169-table-of-contents.md) — <!-- summary -->
@@ -96,7 +96,7 @@
 - [177-8-risks-and-mitigations.md](177-8-risks-and-mitigations.md) — <!-- summary -->
 - [178-9-phased-rollout-strategy.md](178-9-phased-rollout-strategy.md) — <!-- summary -->
 - [179-10-open-questions.md](179-10-open-questions.md) — <!-- summary -->
-- [18-6-adapter-interface.md](18-6-adapter-interface.md) — > [!IMPORTANT]
+- [18-6-adapter-interface.md](18-6-adapter-interface.md) — <!-- tags: ingestion, architecture, anthropic -->
 - [180-11-call-for-collaboration.md](180-11-call-for-collaboration.md) — <!-- summary -->
 - [181-12-closing.md](181-12-closing.md) — <!-- summary -->
 - [182-acknowledgments.md](182-acknowledgments.md) — > [!TIP]
@@ -104,10 +104,10 @@
 - [184-appendix-a-connection-to-companion-papers.md](184-appendix-a-connection-to-companion-papers.md) — <!-- summary -->
 - [185-appendix-b-domain-comparison-matrix.md](185-appendix-b-domain-comparison-matrix.md) — | Domain | Privacy Sensitivity | Adversarial Risk | Regulatory Complexity | Deployment Readiness |
 - [186-appendix-c-sample-use-cases-in-detail.md](186-appendix-c-sample-use-cases-in-detail.md) — > [!TIP]
-- [187-слой-представительских-агентов-md.md](187-слой-представительских-агентов-md.md) — <!-- tags: architecture -->
+- [187-слой-представительских-агентов-md.md](187-слой-представительских-агентов-md.md) — <!-- summary -->
 - [188-ai-опосредованное-представительство-для-недопредст.md](188-ai-опосредованное-представительство-для-недопредст.md) — <!-- summary -->
 - [189-аннотация.md](189-аннотация.md) — <!-- summary -->
-- [19-7-portalentry-structure.md](19-7-portalentry-structure.md) — > [!IMPORTANT]
+- [19-7-portalentry-structure.md](19-7-portalentry-structure.md) — <!-- tags: ingestion, architecture, anthropic -->
 - [190-содержание.md](190-содержание.md) — <!-- summary -->
 - [191-1-синдром-золушки-почему-качество-остаётся-невидим.md](191-1-синдром-золушки-почему-качество-остаётся-невидим.md) — <!-- summary -->
 - [192-2-исторические-прецеденты-агенты-как-цивилизационн.md](192-2-исторические-прецеденты-агенты-как-цивилизационн.md) — > [!WARNING]
@@ -120,14 +120,14 @@
 - [199-9-стратегия-поэтапного-развёртывания.md](199-9-стратегия-поэтапного-развёртывания.md) — > [!WARNING]
 - [20-8-consensus-algorithm.md](20-8-consensus-algorithm.md) — <!-- summary -->
 - [200-10-открытые-вопросы.md](200-10-открытые-вопросы.md) — <!-- summary -->
-- [201-11-призыв-к-сотрудничеству.md](201-11-призыв-к-сотрудничеству.md) — > [!WARNING]
+- [201-11-призыв-к-сотрудничеству.md](201-11-призыв-к-сотрудничеству.md) — <!-- tags: architecture, anthropic -->
 - [202-12-заключение.md](202-12-заключение.md) — <!-- summary -->
 - [203-благодарности.md](203-благодарности.md) — <!-- summary -->
 - [204-ссылки.md](204-ссылки.md) — <!-- summary -->
 - [205-приложение-a-связь-с-сопроводительными-статьями.md](205-приложение-a-связь-с-сопроводительными-статьями.md) — <!-- summary -->
 - [206-приложение-b-матрица-сравнения-областей.md](206-приложение-b-матрица-сравнения-областей.md) — | Область | Чувствительность Конфиденциальности | Состязательный Риск | Регулятивная Сложность | Готовность к Развёртыва…
 - [207-приложение-c-образцы-случаев-использования-в-детал.md](207-приложение-c-образцы-случаев-использования-в-детал.md) — > [!TIP]
-- [208-professional-colleague-agents-md.md](208-professional-colleague-agents-md.md) — markdown
+- [208-professional-colleague-agents-md.md](208-professional-colleague-agents-md.md) — <!-- summary -->
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-.md](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) — <!-- summary -->
 - [21-9-query-flow.md](21-9-query-flow.md) — <!-- summary -->
 - [210-abstract.md](210-abstract.md) — <!-- summary -->
@@ -147,17 +147,17 @@
 - [223-12-closing.md](223-12-closing.md) — <!-- summary -->
 - [224-acknowledgments.md](224-acknowledgments.md) — <!-- summary -->
 - [225-references.md](225-references.md) — <!-- summary -->
-- [226-appendix-a-comparative-table-five-agent-types.md](226-appendix-a-comparative-table-five-agent-types.md) — | Property | Type 0: Personal AI Assistant | Type 1: Professional Colleague | Type 2: Institutional | Type 3: Employee |…
+- [226-appendix-a-comparative-table-five-agent-types.md](226-appendix-a-comparative-table-five-agent-types.md) — <!-- summary -->
 - [227-appendix-b-decision-framework-when-to-build-type-1.md](227-appendix-b-decision-framework-when-to-build-type-1.md) — <!-- summary -->
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca.md](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) — > [!IMPORTANT]
 - [229-профессиональные-коллеги-агенты.md](229-профессиональные-коллеги-агенты.md) — <!-- summary -->
-- [23-11-security-considerations.md](23-11-security-considerations.md) — > [!IMPORTANT]
+- [23-11-security-considerations.md](23-11-security-considerations.md) — <!-- tags: ingestion, architecture, anthropic -->
 - [230-аннотация.md](230-аннотация.md) — <!-- summary -->
 - [231-содержание.md](231-содержание.md) — <!-- summary -->
 - [232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md](232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md) — > [!IMPORTANT]
 - [233-2-что-делает-агента-профессиональным-коллегой.md](233-2-что-делает-агента-профессиональным-коллегой.md) — <!-- summary -->
-- [234-3-эмпирический-кейс-обучай.md](234-3-эмпирический-кейс-обучай.md) — <!-- summary -->
-- [235-4-архитектура-профессиональных-коллег-агентов.md](235-4-архитектура-профессиональных-коллег-агентов.md) — <!-- summary -->
+- [234-3-эмпирический-кейс-обучай.md](234-3-эмпирический-кейс-обучай.md) — > [!WARNING]
+- [235-4-архитектура-профессиональных-коллег-агентов.md](235-4-архитектура-профессиональных-коллег-агентов.md) — > [!WARNING]
 - [236-5-экономика-тиражирования-по-профессии.md](236-5-экономика-тиражирования-по-профессии.md) — <!-- summary -->
 - [237-6-риски-специфичные-для-этой-категории.md](237-6-риски-специфичные-для-этой-категории.md) — > [!WARNING]
 - [238-7-области-применения.md](238-7-области-применения.md) — > [!WARNING]
@@ -169,10 +169,10 @@
 - [243-12-заключение.md](243-12-заключение.md) — <!-- summary -->
 - [244-благодарности.md](244-благодарности.md) — <!-- summary -->
 - [245-ссылки.md](245-ссылки.md) — <!-- summary -->
-- [246-приложение-a-сравнительная-таблица-пять-типов-аген.md](246-приложение-a-сравнительная-таблица-пять-типов-аген.md) — | Свойство | Тип 0: Персональный AI | Тип 1: Профессиональный Коллега | Тип 2: Институциональный | Тип 3: Сотрудник | Ти…
+- [246-приложение-a-сравнительная-таблица-пять-типов-аген.md](246-приложение-a-сравнительная-таблица-пять-типов-аген.md) — <!-- summary -->
 - [247-приложение-b-рамка-принятия-решений-когда-строить-.md](247-приложение-b-рамка-принятия-решений-когда-строить-.md) — <!-- summary -->
 - [248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md](248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) — > [!WARNING]
-- [249-composite-skills-agent-md.md](249-composite-skills-agent-md.md) — markdown
+- [249-composite-skills-agent-md.md](249-composite-skills-agent-md.md) — <!-- summary -->
 - [25-13-reference-implementation.md](25-13-reference-implementation.md) — <!-- summary -->
 - [250-bridging-the-gap-between-profession-wide-and-indiv.md](250-bridging-the-gap-between-profession-wide-and-indiv.md) — 
 - [251-ai-support-through-configurable-specialist-ensembl.md](251-ai-support-through-configurable-specialist-ensembl.md) — <!-- summary -->
@@ -199,7 +199,7 @@
 - [270-appendix-b-sub-agent-registry-schema-sketch.md](270-appendix-b-sub-agent-registry-schema-sketch.md) — <!-- summary -->
 - [271-appendix-c-configuration-template-example.md](271-appendix-c-configuration-template-example.md) — <!-- summary -->
 - [272-appendix-d-connection-diagram.md](272-appendix-d-connection-diagram.md) — > [!WARNING]
-- [273-infrastructure-for-ai-collaborative-intellectual-w.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) — markdown
+- [273-infrastructure-for-ai-collaborative-intellectual-w.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) — <!-- summary -->
 - [274-the-missing-middle-layer-between-chat-and-code.md](274-the-missing-middle-layer-between-chat-and-code.md) — <!-- summary -->
 - [275-why-this-document-exists.md](275-why-this-document-exists.md) — <!-- summary -->
 - [276-the-two-layer-stack-as-it-exists.md](276-the-two-layer-stack-as-it-exists.md) — > [!TIP]
@@ -231,13 +231,13 @@
 - [301-благодарности.md](301-благодарности.md) — <!-- summary -->
 - [302-ссылки.md](302-ссылки.md) — <!-- summary -->
 - [303-приложение-визуализация-позиции-в-серии.md](303-приложение-визуализация-позиции-в-серии.md) — > [!TIP]
-- [304-ingit-as-cowork-native-workspace-substrate-md.md](304-ingit-as-cowork-native-workspace-substrate-md.md) — markdown
-- [305-a-practical-path-to-layer-b-through-symbiotic-inte.md](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) — <!-- tags: architecture -->
+- [304-ingit-as-cowork-native-workspace-substrate-md.md](304-ingit-as-cowork-native-workspace-substrate-md.md) — <!-- summary -->
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte.md](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) — <!-- summary -->
 - [306-with-anthropic-s-cowork-platform.md](306-with-anthropic-s-cowork-platform.md) — <!-- summary -->
 - [307-abstract.md](307-abstract.md) — <!-- summary -->
 - [308-table-of-contents.md](308-table-of-contents.md) — <!-- summary -->
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi.md](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) — <!-- summary -->
-- [31-content-overview.md](31-content-overview.md) — ~200 заметок, темы: software engineering, philosophy, music.
+- [31-content-overview.md](31-content-overview.md) — <!-- summary -->
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md](310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) — <!-- summary -->
 - [311-3-what-ingit-provides-that-cowork-lacks.md](311-3-what-ingit-provides-that-cowork-lacks.md) — <!-- summary -->
 - [312-4-the-symbiotic-architecture.md](312-4-the-symbiotic-architecture.md) — <!-- summary -->
@@ -273,7 +273,7 @@
 - [341-приложение-c-образец-спецификаций-инструментов-ing.md](341-приложение-c-образец-спецификаций-инструментов-ing.md) — > [!TIP]
 - [342-что-такое-вариант-c-concept-document-для-anthropic.md](342-что-такое-вариант-c-concept-document-для-anthropic.md) — > [!TIP]
 - [343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) — > [!WARNING]
-- [344-системный-промпт-для-lorenzo-project.md](344-системный-промпт-для-lorenzo-project.md) — markdown
+- [344-системный-промпт-для-lorenzo-project.md](344-системный-промпт-для-lorenzo-project.md) — <!-- summary -->
 - [345-кто-ты.md](345-кто-ты.md) — <!-- summary -->
 - [346-твоё-происхождение.md](346-твоё-происхождение.md) — <!-- summary -->
 - [347-твоя-миссия.md](347-твоя-миссия.md) — <!-- summary -->
@@ -343,14 +343,14 @@
 - [80-5-compatibility-levels.md](80-5-compatibility-levels.md) — <!-- summary -->
 - [81-6-adapter-interface.md](81-6-adapter-interface.md) — > [!IMPORTANT]
 - [82-7-portalentry-structure.md](82-7-portalentry-structure.md) — > [!IMPORTANT]
-- [83-8-q6-space-normative.md](83-8-q6-space-normative.md) — > [!IMPORTANT]
+- [83-8-q6-space-normative.md](83-8-q6-space-normative.md) — <!-- tags: ingestion, architecture, anthropic -->
 - [84-9-consensus-algorithm.md](84-9-consensus-algorithm.md) — <!-- summary -->
 - [85-10-query-flow.md](85-10-query-flow.md) — <!-- summary -->
 - [86-11-relevance-ranking.md](86-11-relevance-ranking.md) — <!-- summary -->
 - [87-12-onboarding-paths-normative.md](87-12-onboarding-paths-normative.md) — <!-- summary -->
 - [88-13-rest-api-contract-normative-for-portals.md](88-13-rest-api-contract-normative-for-portals.md) — > [!IMPORTANT]
 - [89-14-sdk-contract-informative.md](89-14-sdk-contract-informative.md) — <!-- summary -->
-- [90-15-security-considerations.md](90-15-security-considerations.md) — > [!IMPORTANT]
+- [90-15-security-considerations.md](90-15-security-considerations.md) — <!-- tags: ingestion, architecture, anthropic -->
 - [91-16-mcp-extension-informative.md](91-16-mcp-extension-informative.md) — <!-- summary -->
 - [92-17-versioning-policy.md](92-17-versioning-policy.md) — > [!IMPORTANT]
 - [93-18-reference-implementation.md](93-18-reference-implementation.md) — <!-- summary -->
@@ -359,4 +359,4 @@
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank.md](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) — <!-- summary -->
 - [97-22-glossary-of-reference-examples.md](97-22-glossary-of-reference-examples.md) — <!-- summary -->
 - [98-appendix-a-minimal-working-example.md](98-appendix-a-minimal-working-example.md) — <!-- summary -->
-- [QA.md](QA.md) — > [!TIP]
+- [QA.md](QA.md) — _Автоматически сгенерировано по 355 файлам раздела._

@@ -7,12 +7,13 @@
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 8 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 2 |
 | **AI Factory** | `AI Factory` | `AI-Factory` | 4 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 18 |
-| **self-improvement** | `self-improvement` | `self-improve` | 63 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 25 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 1 |
+| **self-improvement** | `self-improvement` | `self-improve` | 68 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 4 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 1 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 3 |
 
-**Всего несогласованных написаний: 100**
+**Всего несогласованных написаний: 115**
 
 
 ## Детали по файлам
@@ -43,19 +44,23 @@
 
 - `docs/FAQ.md`
 - `docs/PARAGRAPH_QUALITY.md`
+- `docs/DEPENDABOT.md`
 - `docs/TABLES.md`
 - `docs/SITEMAP.md`
-- `docs/COMPONENT_MATRIX.md`
-- _...и ещё 13_
+- _...и ещё 20_
+
+### `Auto-AI-Router` → должно быть `Auto AI Router`
+
+- `docs/OUTLINE.md`
 
 ### `self-improve` → должно быть `self-improvement`
 
 - `docs/CONTACTS.md`
 - `docs/PARAGRAPH_QUALITY.md`
 - `docs/LLM_SUMMARIES.md`
+- `docs/SPELLCHECK.md`
 - `docs/NAMED_ENTITIES.md`
-- `docs/TABLES.md`
-- _...и ещё 58_
+- _...и ещё 63_
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
@@ -67,6 +72,8 @@
 ### `Evidence-Envelope` → должно быть `Evidence Envelope`
 
 - `docs/QA.md`
+- `docs/TABLES.md`
+- `docs/CONSISTENCY.md`
 
 ## Как исправить
 
@@ -80,8 +87,8 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ---
 
 **Смотрите также:**
+- [TAGS](docs/TAGS.md)
+- [SPELLCHECK](docs/SPELLCHECK.md)
 - [MISSING](docs/MISSING.md)
 - [PRIORITIES](docs/PRIORITIES.md)
-- [SPELLCHECK](docs/SPELLCHECK.md)
-- [STATS](docs/STATS.md)
 

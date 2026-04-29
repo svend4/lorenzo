@@ -4,12 +4,13 @@ _Порог: 30 дней. Обновлено: 2026-04-29_
 
 Найдено проблем: **145** файлов
 
-## Без метаданных (нет summary или тегов) — 81 файлов
+## Без метаданных (нет summary или тегов) — 82 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
 | `docs/01-svyazi/00-intro-part2.md` | 5 | нет summary, нет тегов, короткий (5 слов) |
-| `docs/01-svyazi/QA.md` | 206 | нет summary, нет тегов |
+| `docs/01-svyazi/QA.md` | 255 | нет summary, нет тегов |
+| `docs/01-svyazi/README.md` | 77 | нет тегов, короткий (77 слов) |
 | `docs/02-anthropic-vacancies/102-доступ-к-данным.md` | 20 | нет summary, нет тегов, короткий (20 слов) |
 | `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | 142 | нет тегов |
 | `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | 129 | нет тегов |
@@ -27,13 +28,11 @@ _Порог: 30 дней. Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/QA.md` | 360 | нет summary, нет тегов |
 | `docs/03-technology-combinations/QA.md` | 146 | нет summary, нет тегов |
 | `docs/03-technology-combinations/README.md` | 38 | нет тегов, короткий (38 слов) |
-| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 64 файлов
+## Короткие (< 100 слов, заготовки) — 63 файлов
 
 | Файл | Слов |
 |------|------|
-| `docs/01-svyazi/README.md` | 76 |
 | `docs/02-anthropic-vacancies/03-portal-protocol-md.md` | 65 |
 | `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` | 92 |
 | `docs/02-anthropic-vacancies/105-review-methodology-md.md` | 64 |
@@ -53,6 +52,7 @@ _Порог: 30 дней. Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/154-table-of-contents.md` | 70 |
 | `docs/02-anthropic-vacancies/16-history.md` | 71 |
 | `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | 36 |
+| `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | 99 |
 
 ## Рекомендуемые действия
 

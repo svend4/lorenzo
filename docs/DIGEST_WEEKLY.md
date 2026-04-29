@@ -6,15 +6,16 @@ _Период: последние 7 дней (с 2026-04-22)_
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за неделю | **48** |
+| Коммитов за неделю | **49** |
 | Новых файлов | **0** |
 | Изменённых файлов | **0** |
 | Всего MD файлов | **528** |
-| Всего слов | **470,163** |
+| Всего слов | **488,821** |
 
 ## Коммиты
 
 ```
+8e689b3 docs: auto-update via improve_run_all [skip ci]
 69562b0 feat: add component matrix, KPI history tracker, fix run_all coverage
 42f561d fix: fix update-docs CI job failures
 59617c5 feat: add risk register, auto-changelog, master index; fix run_all missing scripts
@@ -29,9 +30,8 @@ _Период: последние 7 дней (с 2026-04-22)_
 1d552d4 chore: sync PROGRESS.md after deeptext scripts commit
 6cbd49c feat: добавить 12 скриптов глубокой обработки текста (группа deeptext)
 4e217f2 docs: sync PROGRESS.md
-bfe2bdd feat: add 9 text-processing scripts (textwork group) for large-scale knowledge management
 ```
 
 ---
 
-_Сгенерировано: 2026-04-29 08:48_
+_Сгенерировано: 2026-04-29 08:50_

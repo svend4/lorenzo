@@ -4,7 +4,7 @@
 
 ## Содержание
 
-- [research-summary.md](research-summary.md) — <!-- summary: Краткий итог исследования -->
+- [research-summary.md](research-summary.md) — <!-- summary -->
 
 ## Подразделы
 

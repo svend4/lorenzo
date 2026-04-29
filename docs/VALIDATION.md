@@ -27,8 +27,8 @@ _Всё в порядке_
 - ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/102-доступ-к-данным.md` (23 слов)
 - ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (16 слов)
 - ⚠️ Слишком короткий файл: `docs/05-habr-projects/knowledge/README.md` (13 слов)
-- ⚠️ Слишком короткий файл: `docs/05-habr-projects/memory/README.md` (25 слов)
-- ⚠️ Слишком короткий файл: `docs/autofilled/README.md` (21 слов)
+- ⚠️ Слишком короткий файл: `docs/05-habr-projects/memory/README.md` (24 слов)
+- ⚠️ Слишком короткий файл: `docs/autofilled/README.md` (18 слов)
 
 ## Именование файлов
 
@@ -84,8 +84,8 @@ _Всё в порядке_
 ---
 
 **Смотрите также:**
-- [SITEMAP](docs/SITEMAP.md)
 - [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
 - [COMPARE](docs/COMPARE.md)
+- [SITEMAP](docs/SITEMAP.md)
+- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
 

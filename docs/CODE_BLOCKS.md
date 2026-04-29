@@ -5,12 +5,12 @@
 
 <!-- alert-added -->
 
-**Всего блоков:** 230
+**Всего блоков:** 233
 
 | Язык | Блоков |
 |------|--------|
 | 📝 Без языка | 151 |
-| 💻 Bash / Shell | 26 |
+| 💻 Bash / Shell | 29 |
 | 🐍 Python | 17 |
 | 📦 JSON | 13 |
 | 📊 Диаграммы Mermaid | 10 |
@@ -146,34 +146,33 @@ _`docs/CONCEPT_GRAPH.md` | 101 строк_
 
 ```mermaid
 graph TD
-    docs["docs\n(412)"]
-    anthropic["anthropic\n(347)"]
-    vacancies["vacancies\n(333)"]
-    summary["summary\n(241)"]
-    сходство["сходство\n(225)"]
-    tags["tags\n(164)"]
-    agent{{"agent\n(118)"}}
-    architecture["architecture\n(113)"]
-    knowledge["knowledge\n(105)"]
-    nautilus["nautilus\n(104)"]
-    svyazi("svyazi\n(92)")
+    docs["docs\n(437)"]
+    anthropic["anthropic\n(364)"]
+    vacancies["vacancies\n(340)"]
+    summary["summary\n(283)"]
+    tags["tags\n(231)"]
+    сходство["сходство\n(203)"]
+    architecture["architecture\n(127)"]
+    agent{{"agent\n(123)"}}
+    svyazi("svyazi\n(119)")
+    knowledge["knowledge\n(111)"]
+    nautilus["nautilus\n(108)"]
+    appendix["appendix\n(93)"]
     portal["portal\n(88)"]
-    appendix["appendix\n(88)"]
-    collaboration["collaboration\n(83)"]
-    agents{{"agents\n(76)"}}
-    work["work\n(75)"]
-    protocol[/"protocol\n(72)"/]
-    слой[/"слой\n(70)"/]
-    memory[("memory\n(65)")]
-    документы["документы\n(65)"]
-    если["если\n(63)"]
-    layer[/"layer\n(63)"/]
-    cowork["cowork\n(63)"]
-    документ["документ\n(62)"]
-    what["what\n(61)"]
-    ingit["ingit\n(61)"]
-    first["first\n(59)"]
-
+    collaboration["collaboration\n(88)"]
+    agents{{"agents\n(75)"}}
+    memory[("memory\n(73)")]
+    cowork["cowork\n(72)"]
+    work["work\n(72)"]
+    protocol[/"protocol\n(71)"/]
+    ingit["ingit\n(71)"]
+    слой[/"слой\n(67)"/]
+    layer[/"layer\n(66)"/]
+    документ["документ\n(65)"]
+    first["first\n(62)"]
+    what["what\n(62)"]
+    документы["документы\n(61)"]
+    если["если\n(59)"]
 # ... (обрезано)
 ```
 
@@ -689,7 +688,7 @@ output:
   format: [формат]
 ```
 
-## 💻 Bash / Shell (26)
+## 💻 Bash / Shell (29)
 
 
 ### Чтобы я мог сделать конкретный code-level анализ
@@ -841,7 +840,7 @@ python portal.py --serve
 # см. MCP-EXTENSION.md
 ```
 
-_...и ещё 11 блоков этого языка_
+_...и ещё 14 блоков этого языка_
 
 ## 📦 JSON (13)
 
@@ -1338,8 +1337,8 @@ _`docs/badges/README.md` | 7 строк_
 ---
 
 **Смотрите также:**
-- [COMPARE](docs/COMPARE.md)
+- [SOURCE_MAP](docs/SOURCE_MAP.md)
 - [CLUSTERS](docs/CLUSTERS.md)
+- [COMPARE](docs/COMPARE.md)
 - [SEARCH](docs/SEARCH.md)
-- [SITEMAP](docs/SITEMAP.md)
 

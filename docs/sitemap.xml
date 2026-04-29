@@ -416,6 +416,7 @@
   <url><loc>docs/BROKEN_LINKS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CHANGELOG.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CHANGELOG_AUTO.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/CITATION_INDEX.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CLUSTERS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/CODE_BLOCKS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/COMPARE.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -433,6 +434,7 @@
   <url><loc>docs/CROSSREFS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DECISIONS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DENSITY.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/DEPENDABOT.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DEPENDENCY_MAP.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DIGEST.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/DIGEST_WEEKLY.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -440,6 +442,7 @@
   <url><loc>docs/ENTITIES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/FAQ.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/FOOTNOTES.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/GITHUB_ISSUES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/GLOSSARY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/GRAPH.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/HEALTH.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -458,6 +461,7 @@
   <url><loc>docs/NETWORK.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/ONBOARDING.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/ORPHANS.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/OUTLINE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/PARAGRAPH_QUALITY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/PRIORITIES.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/PROGRESS.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -465,6 +469,7 @@
   <url><loc>docs/QUESTIONS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/READABILITY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/READING_ORDER.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/READING_TIME.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/README.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/REPORT.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/RISK_REGISTER.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -474,6 +479,7 @@
   <url><loc>docs/SEE_ALSO.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SENTIMENT.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SIMILAR.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/SOURCE_MAP.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/SPELLCHECK.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/STALENESS.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/STATS.md</loc><lastmod>2026-04-29</lastmod></url>
@@ -482,6 +488,7 @@
   <url><loc>docs/TECH_RADAR.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/TIMELINE.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/VALIDATION.md</loc><lastmod>2026-04-29</lastmod></url>
+  <url><loc>docs/VERSION_DIFF.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/VOCABULARY.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/WORD_CLOUD.md</loc><lastmod>2026-04-29</lastmod></url>
   <url><loc>docs/WORD_FREQ.md</loc><lastmod>2026-04-29</lastmod></url>
