@@ -1,0 +1,63 @@
+# .docignore — пути, которые улучшающие скрипты НЕ трогают
+#
+# Аналог .gitignore, но для improve_*.py скриптов которые модифицируют файлы:
+#   - improve_summaries.py    — добавление <!-- summary --> блоков
+#   - improve_autofill.py     — заполнение полей
+#   - improve_alerts.py       — > [!TIP] / > [!WARNING] callouts
+#   - improve_auto_toc.py     — оглавление
+#   - improve_abstract.py     — абстракты
+#   - improve_auto_linker.py  — внутренние ссылки
+#   - improve_gap_filler.py   — заполнение пустых секций
+#   - improve_crosslink_all.py — обратные ссылки
+#   - improve_see_also.py     — секции «Смотрите также»
+#   - improve_footnotes.py    — сноски
+#
+# Формат: glob-паттерны, по одному на строку. # — комментарий.
+# Использовать через is_ignored() из scripts/utils_docignore.py.
+
+# Шаблоны — мета-документы, не данные
+docs/templates/*.md
+docs/templates/_schemas/
+
+# Реестры и каталоги — генерируются другими скриптами
+docs/SCRIPTS_CATALOG.md
+docs/scripts_catalog.json
+docs/REGISTRY.md
+docs/TASKS_INDEX.md
+docs/VALIDATION.md
+docs/SKILL_DASHBOARD.md
+docs/MCP_DASHBOARD.md
+docs/BADGES.md
+docs/badges/
+
+# Авто-выводы экспортов
+docs/obsidian/
+docs/confluence/
+docs/feed.atom
+docs/feed.rss
+docs/feed.xml
+docs/index.html
+docs/export.csv
+docs/REPORT.md
+
+# Машиночитаемые индексы
+docs/search_index.json
+docs/named_entities.json
+docs/concept_graph.json
+docs/keyword_index.json
+docs/passages.json
+docs/sitemap.xml
+docs/network.dot
+
+# Внутренние артефакты
+docs/chunks/
+docs/_generated/
+tasks/_generated/
+.claude/mcp_calls.jsonl
+.claude/skill_metrics.jsonl
+.claude/llm_cache.jsonl
+
+# README автогенерируется improve_readmes.py — остальные скрипты не должны трогать
+README.md
+docs/README.md
+**/README.md

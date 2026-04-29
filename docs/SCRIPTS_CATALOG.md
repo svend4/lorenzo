@@ -193,7 +193,7 @@
 
 _Обновлено: 2026-04-29_
 
-**Всего скриптов:** 151
+**Всего скриптов:** 152
 
 
 ## По группам
@@ -393,7 +393,7 @@ _Обновлено: 2026-04-29_
 | `improve_source_map.py` | строит карту происхождения текстов. | `--authors`, `--format`, `--section`, `--show-imported` |
 | `improve_subtopic_fill.py` | дополняет файлы-заглушки контентом из базы знаний. | `--apply`, `--dry-run`, `--min-words`, `--section` |
 
-### без группы (32)
+### без группы (33)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
@@ -424,6 +424,7 @@ _Обновлено: 2026-04-29_
 | `improve_task_codegen.py` | генератор слоёв (скилл / MCP-tool / index) из манифестов tasks/*.task.yaml. | `--dry-run`, `--list`, `--task`, `--validate` |
 | `improve_tech_radar.py` | tech radar для технологий проекта Svyazi 2.0. |  |
 | `improve_template_init.py` | инициализация нового документа из шаблона. | `--list`, `--show`, `--slug`, `--type`, `--vars` |
+| `improve_template_integrity.py` | проверка целостности шаблонов. | `--fix`, `--strict` |
 | `improve_template_migrate.py` | миграции frontmatter при изменении схемы шаблона. | `--all`, `--apply`, `--dry-run`, `--template` |
 | `improve_validate_templates.py` | валидация документов по схемам шаблонов. | `--file`, `--report`, `--section`, `--strict` |
 | `improve_watch.py` | следит за изменениями в docs/ и перезапускает нужные скрипты. | `--changed`, `--fast`, `--group`, `--interval` |
@@ -1489,6 +1490,15 @@ README содержит: список файлов, первые строки к
 Создаёт файл по слаг-пути, подставляет переменные frontmatter и плейсхолдеры в теле, делает базовую валидацию через improve_validate_templates. Использование:
 
 **Флаги:** `--list`, `--show`, `--slug`, `--type`, `--vars`
+
+
+### `improve_template_integrity.py` _(группа: без группы)_
+
+**проверка целостности шаблонов.**
+
+Проверяет, что бот / автоматические скрипты не «загрязнили» шаблоны: - <!-- summary --> блоков без контента - дублирующих <!-- summary: ... --> комментариев - > [!TIP] / > [!WARNING] callout'ов - <!-- alert-added --> маркеров
+
+**Флаги:** `--fix`, `--strict`
 
 
 ### `improve_template_migrate.py` _(группа: без группы)_

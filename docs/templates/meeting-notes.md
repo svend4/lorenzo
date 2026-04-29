@@ -11,12 +11,6 @@ tags: [встреча]
 
 # Встреча: [Тема]
 
-<!-- summary -->
-> location: "[Zoom|Telegram|Discord|in-person]"
-
----
-
-
 
 <!-- summary: Краткий итог встречи в 1-2 предложениях -->
 <!-- tags: встреча -->

@@ -39,6 +39,14 @@ def make_readme(folder: Path):
     if not files:
         return
 
+    # Пропустить если README помечен <!-- handcrafted --> в первых 5 строках
+    existing = folder / "README.md"
+    if existing.exists():
+        head = existing.read_text(encoding="utf-8").splitlines()[:5]
+        if any("<!-- handcrafted -->" in line for line in head):
+            print(f"  README: {existing.relative_to(ROOT)} — handcrafted, пропускаем")
+            return
+
     title = FOLDER_TITLES.get(folder.name, folder.name)
     lines = [f"# {title}\n"]
 

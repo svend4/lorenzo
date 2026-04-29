@@ -8,12 +8,6 @@ tags: [шаблоны, мета]
 
 # [имя нового шаблона]
 
-<!-- summary -->
-> template: template-of-templates
-
----
-
-
 
 Это мета-шаблон для создания новых шаблонов в `docs/templates/`.
 

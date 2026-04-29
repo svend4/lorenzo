@@ -72,10 +72,20 @@ def add_summary(path: Path) -> bool:
 
 
 def main():
+    import sys
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from utils_docignore import is_ignored
+    except ImportError:
+        is_ignored = lambda p: False
+
     updated = 0
     skipped = 0
     for f in sorted(DOCS.rglob("*.md")):
         if f.name == "README.md":
+            continue
+        if is_ignored(f):
+            skipped += 1
             continue
         if add_summary(f):
             updated += 1

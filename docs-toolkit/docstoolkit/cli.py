@@ -266,8 +266,20 @@ def main():
     p_ing.add_argument("--list-plugins", action="store_true", help="Список доступных плагинов")
     p_ing.set_defaults(func=cmd_ingest)
 
+    p_serve = sub.add_parser("serve", help="Запустить веб-дашборд (HTTP)")
+    p_serve.add_argument("--port", type=int, default=8000)
+    p_serve.add_argument("--bind", default="127.0.0.1")
+    p_serve.set_defaults(func=cmd_serve)
+
     args = parser.parse_args()
     return args.func(args)
+
+
+def cmd_serve(args):
+    """Запустить встроенный HTTP-сервер."""
+    from docstoolkit.serve import serve
+    serve(port=args.port, bind=args.bind)
+    return 0
 
 
 if __name__ == "__main__":
