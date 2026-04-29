@@ -1,36 +1,24 @@
-# clusters/ — кластеры вакансий
+# clusters/ — 16 кластеров вакансий Anthropic
 
-Один файл — один кластер. Заполняется по мере прочтения исходного MHTML‑снимка.
+Каждый файл — отдельный кластер из 16 официальных групп найма Anthropic.
 
-## Шаблон файла
+| # | Кластер | Файл | Ролей |
+|---|---|---|---|
+| 1 | AI Research & Engineering | [`01-ai-research-engineering.md`](01-ai-research-engineering.md) | 68 |
+| 2 | Sales | [`02-sales.md`](02-sales.md) | 150 |
+| 3 | Finance | [`03-finance.md`](03-finance.md) | 36 |
+| 4 | Security | [`04-security.md`](04-security.md) | 24 |
+| 5 | Marketing & Brand | [`05-marketing-brand.md`](05-marketing-brand.md) | 23 |
+| 6 | Engineering & Design - Product | [`06-engineering-design-product.md`](06-engineering-design-product.md) | 22 |
+| 7 | Software Engineering - Infrastructure | [`07-software-engineering-infrastructure.md`](07-software-engineering-infrastructure.md) | 22 |
+| 8 | Safeguards (Trust & Safety) | [`08-safeguards-trust-safety.md`](08-safeguards-trust-safety.md) | 21 |
+| 9 | Product Management, Support, & Operations | [`09-product-management-support-ops.md`](09-product-management-support-ops.md) | 17 |
+| 10 | Compute | [`10-compute.md`](10-compute.md) | 13 |
+| 11 | Legal | [`11-legal.md`](11-legal.md) | 13 |
+| 12 | Technical Program Management | [`12-technical-program-management.md`](12-technical-program-management.md) | 10 |
+| 13 | Communications | [`13-communications.md`](13-communications.md) | 5 |
+| 14 | Public Policy | [`14-public-policy.md`](14-public-policy.md) | 5 |
+| 15 | Public Benefit | [`15-public-benefit.md`](15-public-benefit.md) | 4 |
+| 16 | People | [`16-people.md`](16-people.md) | 3 |
 
-Используйте такой шаблон при создании нового документа кластера:
-
-```markdown
-# <Название кластера>
-
-## Описание
-
-<…что это за кластер, какие позиции в него входят, чем объединены>
-
-## Ключевые роли
-
-- <позиция 1>
-- <позиция 2>
-
-## Ключевые требования
-
-<…общие для кластера требования>
-
-## Гео и формат
-
-<…локации, remote/onsite, relocation>
-
-## Сигнал о приоритетах Anthropic
-
-<…что наличие именно этого кластера говорит о направлении компании>
-
-## Ссылки на источник
-
-- `Вакансии в Anthropic по кластерам - Claude` (корень репозитория)
-```
+См. также: [`../overview.md`](../overview.md), [`../signals.md`](../signals.md), [`../methodology.md`](../methodology.md).

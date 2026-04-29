@@ -1,0 +1,42 @@
+# AgentOps и Trace Envelope (ансамбль G)
+
+> Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+
+2. Второй новый слой: AgentOps и трассировка всех решений
+
+Следующий зазор — observability. Если система сама извлекает карточки, строит связи, пишет в память и запускает агентов, то без трассировки она быстро превращается в чёрный ящик. На Хабре здесь хорошо ложатся две линии: большой обзор LLM Observability и конкретный проект с Langfuse + Cursor Hooks + AI‑анализатором трейсов. Langfuse в этих материалах описывается как open-source APM для LLM‑приложений: traces, generations, spans, events, токены, стоимость, latency, tool executions. Отдельный проект TraceDebugger поверх Langfuse автоматически анализирует трейсы и ищет anomaly types вроде high cost, logical loop, performance bottleneck и errors. Habr+1
+
+Для Svyazi‑2.0 это закрывает очень важный вопрос: почему система предложила именно эту связь? Не только через evidence pack, но и через execution trace: какая модель вызвана, какой prompt version, какие tools, какой retrieval, какой memory path, сколько стоило, где был review, какие альтернативы отброшены.
+
+Ансамбль G — Traceable Collaboration Engine
+
+Родители: Svyazi + Langfuse/TraceDebugger + LiteParse/Legal RAG + Tool Search + Auto AI Router.
+
+Что рождается: система, где каждый match и каждое обновление карточки можно отследить как транзакцию.
+
+Mermaid
+
+Новый артефакт здесь — Trace Envelope. В дополнение к Card Envelope и Evidence Envelope стоит ввести:
+
+YAML
+
+trace_envelope:
+trace_id: "lf-trace-..."
+prompt_version: "extractor-v12"
+model_route: "local-qwen -> cloud-review"
+tools_used:
+- "liteparse"
+- "memory.search"
+- "cardindex.update"
+token_cost:
+input: 12400
+output: 1800
+usd: 0.037
+latency_ms: 18500
+anomaly_flags:
+- "high_context"
+- "weak_evidence"
+
+Это особенно важно, если включать Tool Search и Auto AI Router. Tool Search на Хабре показан как способ резко уменьшить MCP‑overhead: пример даёт падение MCP‑контекста с 82k до 5.7k токенов и +76k свободного контекста в Claude Code. Auto AI Router, в свою очередь, даёт быстрый Go‑sidecar для OpenAI‑совместимого endpoint, multi‑provider routing, fail2ban по credentials, session‑sticky routing, двухуровневый rate limiting и интеграцию с LiteLLM DB. Habr+1
+
+Вывод: execution plane Svyazi‑2.0 должен быть не просто “дешёвым”, а измеряемым. Каждая карточка, match, recommendation и review должны иметь след: модель, маршрут, стоимость, tools, evidence, reviewer, состояние.
