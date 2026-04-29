@@ -20,6 +20,7 @@
 | [`ai-managed-virtual-company/`](ai-managed-virtual-company/) | Идея разделить $500K зарплату на команду 5–10 фрилансеров; AI-managed distributed virtual company (Variants A/B/C) |
 | [`mmorpg-for-programmers/`](mmorpg-for-programmers/) | Гипотеза MMORPG-RPG для программистов / технарей как способ организовать distributed work |
 | [`hermes-comparison/`](hermes-comparison/) | Сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent (Nous Research, 95K+ stars) — где сходства, где различия, переоценка приоритетов |
+| [`nautilus-vs-camel/`](nautilus-vs-camel/) | Можно ли скрестить пассивный Nautilus с активным CAMEL framework; разбор content из info repositories |
 
 ## Главный вывод
 

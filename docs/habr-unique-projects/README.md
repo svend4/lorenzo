@@ -17,6 +17,7 @@
 | [`software-pairs/`](software-pairs/) | Пять софтверных родительских пар |
 | [`deep-pairs/`](deep-pairs/) | Восемь углублённых софтверных пар (третья итерация) |
 | [`final-ensembles/`](final-ensembles/) | Три финальных ансамбля + сводный список авторов |
+| [`extra-examples/`](extra-examples/) | Расширенные примеры с Хабра по варианту D — 13 файлов: Svyazi (детально), ВШЭ нетворкинг, BrainBox, Claude subagents, HW-NL2Workflow, профессиональные платформы, knowledge workspace, multi-agent hub, federated platform, profession-specific workflows, конкретные next steps |
 | [`search-strategy/`](search-strategy/) | Каркас стратегии поиска (заполняется по необходимости) |
 | [`evaluation/`](evaluation/) | Каркас оценки уникальности и зрелости |
 
