@@ -1,3 +1,12 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# Auto-generated exports (regenerated on each build)
+docs/obsidian/
+docs/confluence/
+
+# LLM cache and runtime logs
+.claude/llm_cache.jsonl
+.claude/mcp_calls.jsonl
+.claude/skill_metrics.jsonl
