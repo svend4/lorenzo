@@ -27,10 +27,12 @@ lorenzo/
 │   │   ├── security/                      # безопасность, приватность, бюджет
 │   │   ├── outreach/                      # контактная стратегия
 │   │   └── limitations/                   # лицензии и ограничения
-│   ├── anthropic-vacancies/               # вакансии Anthropic по кластерам
+│   ├── anthropic-vacancies/               # вакансии Anthropic по кластерам + маппинг профиля
+│   ├── nautilus/                          # NPP v1.1 RFC + companion papers (PCA, CSA, InGit+Cowork)
 │   ├── technology-combinations/           # комбинирование технологий
 │   ├── ai-collaborations/                 # поиск коллабораций AI проектов
-│   └── habr-unique-projects/              # уникальные проекты на Хабре
+│   ├── habr-unique-projects/              # уникальные проекты на Хабре
+│   └── glossary/                          # кросс-ссылочный словарь компонентов/авторов/понятий
 ├── packages/                              # workspace-пакеты (зарезервировано)
 └── sources/                               # индексы исходных документов
 ```
@@ -45,5 +47,8 @@ lorenzo/
 ## Точка входа
 
 - Если вы изучаете **Svyazi 2.0** — начните с [docs/svyazi-2-0/README.md](docs/svyazi-2-0/README.md).
+- Если ищете **компонент по имени** — [docs/glossary/components-by-name.md](docs/glossary/components-by-name.md).
+- Если интересуют **архитектурные специфики Nautilus** — [docs/nautilus/README.md](docs/nautilus/README.md).
+- Если нужно **разобрать карьерные опции** — [docs/anthropic-vacancies/profile-mapping/README.md](docs/anthropic-vacancies/profile-mapping/README.md).
 - Если интересуют **другие темы** — см. соответствующую подпапку в `docs/`.
 - Если нужны **исходные документы** — см. [sources/README.md](sources/README.md) или сами файлы в корне.

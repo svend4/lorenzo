@@ -12,6 +12,7 @@
 | [`ai-collaborations/`](ai-collaborations/) | Поиск коллабораций AI-проектов. Источник: MHTML-снимок диалога с claude.ai. |
 | [`habr-unique-projects/`](habr-unique-projects/) | Поиск уникальных проектов на Хабре для совместной разработки. Источник: MHTML-снимок диалога с claude.ai. |
 | [`glossary/`](glossary/) | Кросс-ссылочный словарь компонентов, авторов и понятий — единая точка входа для поиска всех упоминаний одного проекта. |
+| [`nautilus/`](nautilus/) | Nautilus Portal Protocol v1.1 (RFC из 23 разделов) и три companion papers: Professional Colleague Agents (EN/RU), Composite Skills Agents, InGit + Cowork (EN/RU). Источник: тот же MHTML, что и `anthropic-vacancies/`. |
 
 ## Принципы организации
 
