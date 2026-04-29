@@ -1,5 +1,19 @@
 # Wikontic: семантический граф
 
+<!-- autofill-status -->
+## Статус
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | 90 |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+_Обновлено: 2026-04-29_
+
+
 <!-- summary -->
 > Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пай
 **Проекты:** Wikontic
