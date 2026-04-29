@@ -1,12 +1,5 @@
 # [Тема исследования]
 
-<!-- summary -->
-> <!-- summary: Краткий итог исследования -->
-
----
-
-
-
 <!-- summary: Краткий итог исследования -->
 <!-- tags: исследование -->
 
@@ -43,18 +36,7 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [research-summary](docs/autofilled/research-summary.md)
+- [research-summary](docs/obsidian/autofilled/research-summary.md)
 - [contact-outreach](docs/templates/contact-outreach.md)
 - [project-component](docs/templates/project-component.md)
-- [dmitriila](docs/contacts/dmitriila.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [research-note](docs/obsidian/templates/research-note.md) (сходство 0.76)
-- [research-summary](docs/obsidian/autofilled/research-summary.md) (сходство 0.72)
-- [research-summary](docs/autofilled/research-summary.md) (сходство 0.64)
 

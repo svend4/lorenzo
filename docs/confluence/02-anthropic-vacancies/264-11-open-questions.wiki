@@ -18,10 +18,16 @@ h2. Содержание
   * [11.6. Liability for Composite Outputs|#116-liability-for-composite-outputs]
   * [11.7. The "Emergence" Question|#117-the-emergence-question]
   * [11.8. Transition from Composite to Representative|#118-transition-from-composite-to-representative]
-* [Упоминается в|#упоминается-в]
-* [Связанные документы|#связанные-документы]
 
 ----
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ What signals suggest configuration revision is needed?{quote}
+{quote}🏷️ _Ключевые слова:_ {{composite}}, {{questions}}, {{agent}}, {{agents}}, {{configuration}}, {{configurations}}, {{anthropic}}, {{vacancies}}{quote}
+>
 
 
 
@@ -141,9 +147,9 @@ indefinitely; "graduation" may not be the right metaphor.
 ----
 
 _Похожие документы:_
-* [265-12-call-for-collaboration|265-12-call-for-collaboration.md] (сходство 0.18)
-* [221-10-open-questions|221-10-open-questions.md] (сходство 0.18)
-* [256-3-what-makes-a-composite-skills-agent|256-3-what-makes-a-composite-skills-agent.md] (сходство 0.18)
+* [265-12-call-for-collaboration|docs/02-anthropic-vacancies/265-12-call-for-collaboration.md] (сходство 0.18)
+* [221-10-open-questions|docs/02-anthropic-vacancies/221-10-open-questions.md] (сходство 0.18)
+* [256-3-what-makes-a-composite-skills-agent|docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md] (сходство 0.18)
 
 
 
@@ -151,24 +157,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [265-12-call-for-collaboration|265-12-call-for-collaboration.md]
-* [256-3-what-makes-a-composite-skills-agent|256-3-what-makes-a-composite-skills-agent.md]
-* [262-9-integration-with-okwf-infrastructure|262-9-integration-with-okwf-infrastructure.md]
-* [221-10-open-questions|221-10-open-questions.md]
+* [265-12-call-for-collaboration|docs/02-anthropic-vacancies/265-12-call-for-collaboration.md]
+* [256-3-what-makes-a-composite-skills-agent|docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md]
+* [262-9-integration-with-okwf-infrastructure|docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md]
+* [221-10-open-questions|docs/02-anthropic-vacancies/221-10-open-questions.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md] _37%_
-* [12. Call for Collaboration|265-12-call-for-collaboration.md] _33%_
-* [OPEN KNOWLEDGE WORK FOUNDATION.md|151-open-knowledge-work-foundation-md.md] _29%_
-* [10. Open Questions|179-10-open-questions.md] _29%_
-* [10. Open Questions|221-10-open-questions.md] _29%_
-* [COMPOSITE SKILLS AGENT.md|249-composite-skills-agent-md.md] _29%_
-* [3. What Makes a Composite Skills Agent|256-3-what-makes-a-composite-skills-agent.md] _29%_
-* [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md] _29%_

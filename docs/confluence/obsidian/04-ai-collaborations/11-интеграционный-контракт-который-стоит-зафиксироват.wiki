@@ -13,23 +13,12 @@ date: 2026-04-29
 h1. Интеграционный контракт, который стоит зафиксировать сразу
 
 
-h2. Содержание
-
-* [Статус|#статус]
-* [Интеграционный контракт, который стоит зафиксировать сразу|#интеграционный-контракт-который-стоит-зафиксировать-сразу]
-* [Упоминается в|#упоминается-в]
-* [Связанные документы|#связанные-документы]
-
-----
-
-
-
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Каждый skill или MCP^mcp‑инструмент должен иметь класс доступа, класс среды, условия вызова и postcondition.{quote}
 {quote}🔧 _Подход:_ Любой retrieval‑ответ, match suggestion, profile enrichment или auto‑summary должен возвращать не только текст, но и sourceid , page , span , box , retrievalmethod , confidence , s{quote}
 {quote}✅ _Результат:_ Это не “идеальная онтология”, а минимальный договор, который позволяет системам вообще разговаривать между собой.{quote}
-{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{memory}}, {{контракт}}, {{которые}}, {{через}}, {{search}}, {{integration}}, {{contracts}}{quote}
+{quote}🏷️ _Ключевые слова:_ {{svyazi}}, {{memory}}, {{контракт}}, {{через}}, {{search}}, {{проект}}, {{который}}, {{agentfs}}{quote}
 >
 
 
@@ -53,7 +42,7 @@ _Обновлено: 2026-04-29_
 
 
 {quote}Чтобы все эти ансамбли не рассыпались, полезно зафиксировать _минимальный интерфейсный контракт_ между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели {quote}
-_Проекты:_ Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, LiteParse, Legal RAG[^rag], Hybrid RAG
+_Проекты:_ Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, [[01-executive-summary|LiteParse]], Legal RAG[^rag], Hybrid RAG
 
 ----
 
@@ -71,7 +60,7 @@ card_id
 card_type
 , статус
 raw | normalized | inferred | approved | rejected | decayed
-, список source links, список relation edges, временные метки и хэш полезной нагрузки. Эта структура логически следует из CardIndex‑мышления Svyazi, immutable/event‑style практик AgentFS и Memory OS, а также из необходимости разводить truth и proposal в memory‑системах. Это не “идеальная онтология”, а минимальный договор, который позволяет системам вообще разговаривать между собой. citeturn41search0turn27view0turn39view3turn20view16
+, список source links, список relation edges, временные метки и хэш полезной нагрузки. Эта структура логически следует из [[01-executive-summary|CardIndex]]‑мышления Svyazi, immutable/event‑style практик AgentFS и Memory OS, а также из необходимости разводить truth и proposal в memory‑системах. Это не “идеальная онтология”, а минимальный договор, который позволяет системам вообще разговаривать между собой. citeturn41search0turn27view0turn39view3turn20view16
 
 Второй контракт — _Evidence Envelope_. Любой retrieval‑ответ, match suggestion, profile enrichment или auto‑summary должен возвращать не только текст, но и
 source_id
@@ -87,7 +76,7 @@ retrieval_method
 confidence
 ,
 supporting_nodes
-. Для документов это page+box; для чатов и заметок — message/thread/time span; для голосовых эпизодов — timestamp window; для ассоциативных выводов — список triggered nodes и path explanation. Это прямой синтез из LiteParse/research-docs, Legal RAG, Hybrid RAG и Graph RAG. Без такого формата нельзя построить ни нормальную ручную модерацию, ни “объяснение рекомендации”. citeturn20view5turn20view6turn34view2turn34view3
+. Для документов это page+box; для чатов и заметок — message/thread/time span; для голосовых эпизодов — timestamp window; для ассоциативных выводов — список triggered nodes и path explanation. Это прямой синтез из [[01-executive-summary|LiteParse]]/research-docs, Legal RAG, Hybrid RAG и Graph RAG. Без такого формата нельзя построить ни нормальную ручную модерацию, ни “объяснение рекомендации”. citeturn20view5turn20view6turn34view2turn34view3
 
 Третий контракт — _Memory Write Policy_. Система должна различать хотя бы четыре режима записи:
 episode
@@ -181,8 +170,8 @@ follow_up
 ----
 
 _Похожие документы:_
-* [[11-integration-contracts]] (сходство 1.00)
-* [[366-технический-stack-svyazi-2-0-foundation]] (сходство 0.19)
+* [[00-intro-part2|11-integration-contracts]]/11-integration-contracts.md) (сходство 1.00)
+* [[00-intro-part2|366-технический-stack-[svyazi]]-2-0-foundation](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md) (сходство 0.19)
 * [[09-архитектурные-зазоры-которые-важнее-новых-инструме]] (сходство 0.16)
 
 
@@ -191,9 +180,9 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [[11-integration-contracts]]
-* [[366-технический-stack-svyazi-2-0-foundation]]
-* [[09-architectural-gaps]]
+* [[00-intro-part2|11-integration-contracts]]/11-integration-contracts.md)
+* [[00-intro-part2|366-технический-stack-[svyazi]]-2-0-foundation](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)
+* [[00-intro-part2|09-architectural-gaps]]/09-architectural-gaps.md)
 * [[09-архитектурные-зазоры-которые-важнее-новых-инструме]]
 
 
@@ -217,20 +206,3 @@ _Смотрите также:_
 [^sentinel]: OSS-проект: безопасность и allowlist для MCP
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
-
-
-h2. Упоминается в
-
-* [[README|Поиск AI-коллабораций]]
-
-
-h2. Связанные документы
-
-* [[11-integration-contracts|11 Integration Contracts]] _81%_
-* [[09-architectural-gaps|09 Architectural Gaps]] _48%_
-* [[09-архитектурные-зазоры-которые-важнее-новых-инструме|Архитектурные зазоры, которые важнее новых инструментов]] _42%_
-* [[07-mvp-planning|07 Mvp Planning]] _33%_
-* [[10-second-order-ensembles|10 Second Order Ensembles]] _33%_
-* [[05-план-прототипа-и-возможные-контакты|План прототипа и возможные контакты]] _33%_
-* [[10-новые-ансамбли-следующего-шага|Новые ансамбли следующего шага]] _33%_
-* [[13-contacts|13 Contacts]] _29%_

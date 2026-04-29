@@ -11,8 +11,6 @@ date: 2026-04-29
 > _Последнее обновление: 2026-04-29 · Снапшотов в истории: 1_
 
 ---
-<!-- tags: anthropic -->
-
 
 
 
@@ -22,13 +20,13 @@ _Последнее обновление: 2026-04-29 · Снапшотов в и
 
 | Метрика | Значение | Тренд |
 |---------|---------|-------|
-| Markdown документов | **529** | → |
-| Слов | **523,868** | → |
+| Markdown документов | **1053** | → |
+| Слов | **1,171,325** | → |
 | Скриптов | **125** | → |
 | Скоринг | **93%** | → |
-| Здоровье | **90/100** | → |
+| Здоровье | **84/100** | → |
 | KPI показателей | **737** | → |
-| Открытых вопросов | **39** | → |
+| Открытых вопросов | **94** | → |
 
 ---
 
@@ -37,23 +35,10 @@ _История хранится в `docs/kpi_history.json`._
 _Запускать регулярно для получения трендов._
 
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [DIGEST_WEEKLY](../DIGEST_WEEKLY.md)
-- [ALERTS](../ALERTS.md)
-- [HEALTH](../HEALTH.md)
-- [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-
-
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [KPI_HISTORY](docs/KPI_HISTORY.md) (сходство 0.64)
-- [DIGEST_WEEKLY](docs/obsidian/DIGEST_WEEKLY.md) (сходство 0.22)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.20)
+- [[KPI_HISTORY]] (сходство 0.64)
 

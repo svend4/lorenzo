@@ -4,6 +4,8 @@
 > Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

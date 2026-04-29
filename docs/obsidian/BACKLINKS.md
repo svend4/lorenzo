@@ -1,6 +1,12 @@
 ---
 title: "Индекс обратных ссылок"
 tags:
+  - memory
+  - orchestration
+  - ingestion
+  - roadmap
+  - anthropic
+  - collaboration
   - general
 date: 2026-04-29
 ---
@@ -8,65 +14,64 @@ date: 2026-04-29
 # Индекс обратных ссылок
 
 <!-- summary -->
-> title: "Индекс обратных ссылок"
-**Проекты:** Svyazi
+> **Файлов с входящими ссылками:** 504
+**Проекты:** Svyazi, MemNet
 
 ---
-<!-- tags: ingestion, roadmap, anthropic, collaboration -->
+<!-- tags: memory, orchestration, ingestion, roadmap, anthropic, collaboration -->
 
 
 
 
-**Файлов с входящими ссылками:** 532
+**Файлов с входящими ссылками:** 504
 
 ## Топ-30 самых цитируемых документов
 
 | Документ | Входящих ссылок | Ссылающиеся файлы |
 |----------|----------------|-------------------|
-| `README` | 10 | `.md`, `cowork.md`, `ingit.md`, `kksudo.md` +6 |
-| `07-mvp-planning` | 3 | `README.md`, `PROGRESS.md`, `REPORT.md` |
-| `CONTACTS` | 3 | `PROGRESS.md`, `README.md`, `REPORT.md` |
+| `00-intro-part2` | 17 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CODE_BLOCKS.md` +13 |
+| `03-component-catalog` | 14 | `README.md`, `ACTION_ITEMS.md`, `ALERTS.md`, `BROKEN_LINKS.md` +10 |
+| `memnet` | 12 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CODE_BLOCKS.md` +8 |
+| `249-composite-skills-agent-md` | 8 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CONCEPTS.md` +4 |
+| `01-интегральный-анализ-профиля-sven` | 7 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CODE_BLOCKS.md` +3 |
+| `01-executive-summary` | 6 | `README.md`, `CONCEPTS.md`, `DECISIONS.md`, `QA.md` +2 |
+| `306-with-anthropic-s-cowork-platfor` | 6 | `README.md`, `ACTION_ITEMS.md`, `CLUSTERS.md`, `CODE_BLOCKS.md` +2 |
 | `HEALTH` | 3 | `PROGRESS.md`, `README.md`, `REPORT.md` |
-| `kksudo` | 2 | `CONTACT_PRIORITY.md`, `README.md` |
-| `anastasiyaw` | 2 | `CONTACT_PRIORITY.md`, `README.md` |
+| `CONTACTS` | 3 | `PROGRESS.md`, `README.md`, `REPORT.md` |
+| `07-mvp-planning` | 2 | `README.md`, `PROGRESS.md` |
+| `02-общий-план-развития-nautilus-por` | 2 | `README.md`, `CODE_BLOCKS.md` |
+| `141-4-nautilus-portal-as-reference-` | 2 | `README.md`, `CONCEPTS.md` |
 | `spbmolot` | 2 | `CONTACT_PRIORITY.md`, `README.md` |
+| `anastasiyaw` | 2 | `CONTACT_PRIORITY.md`, `README.md` |
+| `kksudo` | 2 | `CONTACT_PRIORITY.md`, `README.md` |
 | `SCORING` | 2 | `PROGRESS.md`, `README.md` |
-| `NARRATIVE` | 2 | `README.md`, `REPORT.md` |
-| `DECISIONS` | 2 | `README.md`, `REPORT.md` |
 | `SIMILAR` | 2 | `README.md`, `REPORT.md` |
-| `SITEMAP` | 2 | `README.md`, `REPORT.md` |
-| `QUESTIONS` | 2 | `README.md`, `REPORT.md` |
-| `KPI` | 2 | `README.md`, `REPORT.md` |
 | `READING_ORDER` | 2 | `README.md`, `REPORT.md` |
 | `VALIDATION` | 2 | `README.md`, `REPORT.md` |
 | `BROKEN_LINKS` | 2 | `README.md`, `REPORT.md` |
-| `12-roadmap` | 1 | `README.md` |
-| `06-security-privacy` | 1 | `README.md` |
-| `08-conclusions` | 1 | `README.md` |
-| `02-methodology` | 1 | `README.md` |
-| `00-intro-part2` | 1 | `README.md` |
-| `01-executive-summary` | 1 | `README.md` |
-| `10-second-order-ensembles` | 1 | `README.md` |
-| `13-contacts` | 1 | `README.md` |
-| `14-limitations` | 1 | `README.md` |
+| `SITEMAP` | 2 | `README.md`, `REPORT.md` |
+| `KPI` | 2 | `README.md`, `REPORT.md` |
+| `NARRATIVE` | 2 | `README.md`, `REPORT.md` |
+| `DECISIONS` | 2 | `README.md`, `REPORT.md` |
+| `QUESTIONS` | 2 | `README.md`, `REPORT.md` |
+| `09-architectural-gaps` | 1 | `README.md` |
+| `11-integration-contracts` | 1 | `README.md` |
 | `QA` | 1 | `README.md` |
-| `04-ensembles-overview` | 1 | `README.md` |
-| `03-component-catalog` | 1 | `README.md` |
-| `ensembles` | 1 | `README.md` |
+| `10-second-order-ensembles` | 1 | `README.md` |
+| `12-roadmap` | 1 | `README.md` |
 
 ## Ссылки по разделам
 
 | Раздел | Входящих | Исходящих |
 |--------|----------|-----------|
-| **01-svyazi** | 18 | 16 |
-| **02-anthropic-vacancies** | 357 | 357 |
+| **01-svyazi** | 50 | 15 |
+| **02-anthropic-vacancies** | 376 | 356 |
 | **03-technology-combinations** | 6 | 6 |
-| **04-ai-collaborations** | 17 | 17 |
-| **05-habr-projects** | 9 | 9 |
-| **autofilled** | 22 | 22 |
+| **04-ai-collaborations** | 16 | 16 |
+| **05-habr-projects** | 20 | 9 |
 | **badges** | 0 | 0 |
 | **contacts** | 17 | 14 |
-| **root** | 109 | 114 |
+| **root** | 97 | 166 |
 | **templates** | 5 | 5 |
 
 <!-- similar-docs -->
@@ -74,7 +79,7 @@ date: 2026-04-29
 ---
 
 **Похожие документы:**
-- [BACKLINKS](docs/BACKLINKS.md) (сходство 0.59)
-- [README](docs/obsidian/01-svyazi/README.md) (сходство 0.24)
-- [REPORT](docs/obsidian/REPORT.md) (сходство 0.23)
+- [[PRIORITIES]] (сходство 0.24)
+- [[README]] (сходство 0.22)
+- [[README]] (сходство 0.19)
 

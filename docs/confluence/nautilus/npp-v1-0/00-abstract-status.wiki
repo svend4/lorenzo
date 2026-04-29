@@ -1,0 +1,63 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/npp-v1-0/00-abstract-status.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Abstract + Status of This Document
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+h1. Nautilus Portal Protocol
+
+_Version:_ 1.0.0-draft 
+_Status:_ Draft (Working Document) 
+_Author:_ svend4 
+_License:_ CC BY 4.0 (documentation) / MIT (reference implementation) 
+_Date:_ 2026-04 
+
+----
+
+h2. Abstract
+
+The Nautilus Portal Protocol (далее — NPP) определяет способ федерации 
+независимых Git-репозиториев, содержащих знания в разных native-форматах, 
+без их принудительного слияния в единую схему. Протокол специфицирует: 
+(1) минимальный манифест, который репозиторий размещает для объявления 
+своего участия в федерации; (2) интерфейс адаптера, который переводит 
+native-формат репозитория в унифицированное представление; (3) алгоритм 
+вычисления консенсуса между репозиториями; (4) уровни совместимости для 
+постепенного подключения.
+
+Ключевой принцип: _федерация, а не слияние_. Native-форматы сохраняются 
+как есть. Унификация происходит только в момент обращения, через адаптер.
+
+----
+
+h2. 0. Status of This Document
+
+Этот документ — рабочий черновик Nautilus Portal Protocol v1.0. Он может 
+изменяться до объявления stable v1.0.0. Breaking changes после stable 
+потребуют bump до v2.0 с migration guide.
+
+Комментарии и предложения — через Issues в репозитории github.com/svend4/nautilus.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [04-abstract|docs/obsidian/02-anthropic-vacancies/04-abstract.md] (сходство 0.53)
+* [04-abstract|docs/02-anthropic-vacancies/04-abstract.md] (сходство 0.48)
+* [00-abstract-status|docs/nautilus/npp-v1-1/00-abstract-status.md] (сходство 0.46)
+

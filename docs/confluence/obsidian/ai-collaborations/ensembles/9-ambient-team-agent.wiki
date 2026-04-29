@@ -1,0 +1,80 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/ai-collaborations/ensembles/9-ambient-team-agent.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Ансамбль 9 — Ambient Team Agent"
+tags:
+  * rag
+  * orchestration
+  * knowledge
+  * collaboration
+  * ai-collaborations
+date: 2026-04-29
+----
+
+h1. Ансамбль 9 — Ambient Team Agent
+
+
+{quote}> Источник: MHTML‑снимок {{Поиск коллабораций AI проектов}} (корень репозитория).{quote}
+_Проекты:_ AgentFS, knowledge-space
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Поиск коллабораций AI проектов}} (корень репозитория).{quote}
+
+9. Ambient Team Agent: «ассистент живёт в рабочем чате»
+
+Родители: рабочий Telegram-ассистент + Skate + Coreness + OpenClaw/Moltbot + AgentFS.
+
+В статье про ИИ-ассистента в рабочем Telegram-чате бот видит контекст веток обсуждений, имеет доступ к кодовой базе и может создавать GitHub issues с правильными labels по контексту разговора. Habr
+
+Склеиваем это со Skate, где агент работает с Mattermost Boards, меняет статусы и закрывает задачи, с Coreness для мульти-тенантного self-hosted деплоя и с AgentFS/knowledge-space для долгой памяти. Habr+2Habr+2
+
+Что рождается при склейке:
+
+Получается агент, который живёт не в отдельном чате, а внутри команды.
+
+Схема:
+
+Telegram/Mattermost chat → thread context → code/RAG/AgentFS → issue/task board → agent execution → handoff/report
+
+Дети этой связки:
+
+Team Memory Bot — помнит, что обсуждали, какие решения приняли, какие задачи появились, кто ответственный.
+
+Collaboration Matcher Bot — внутри сообщества видит обсуждения, навыки, проекты и предлагает «вам двоим стоит поговорить».
+
+Operations Concierge — в чате принимает команды, создаёт задачи, запускает агентов, сообщает статусы, эскалирует человеку.
+
+Главное новое свойство: AI перестаёт быть инструментом, который надо открывать. Он становится участником рабочего пространства.
+
+Самые сильные связки для реального первого проекта
+
+Если выбирать не абстрактно, а как «что можно собрать первым и получить необычное свойство», я бы ранжировал так.
+
+
+
+----
+
+_Смотрите также:_
+* [[7-domain-agent-app-factory]]
+* [[2-distributed-agent-workshop]]
+* [[1-agentic-knowledge-os]]
+* [[4-web-to-knowledge-pipeline]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[1-agentic-knowledge-os]] (сходство 0.18)
+* [[2-distributed-agent-workshop]] (сходство 0.18)
+* [[7-domain-agent-app-factory]] (сходство 0.18)
+

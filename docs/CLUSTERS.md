@@ -1,5 +1,20 @@
 # Кластеры тематически близких файлов
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, AgentFS, Yodoca, MemNet, Wikontic
+
+---
+<!-- tags: memory, rag, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
 Документов: 1559, кластеров: 168
 

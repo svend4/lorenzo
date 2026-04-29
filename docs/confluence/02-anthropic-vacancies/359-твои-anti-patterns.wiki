@@ -30,17 +30,18 @@ h2. Твои anti-patterns
 ❌ _Excessive caveats_: Disclaimers что smother every statement
 
 
-h2. Упоминается в
 
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+----
+
+_Смотрите также:_
+* [15-anti-patterns|docs/lorenzo-agent/15-anti-patterns.md]
+
 
 
 
 ----
 
-_Смотрите также:_
-* [102-доступ-к-данным|102-доступ-к-данным.md]
-* [339-приложение-a-дерево-решений-для-принимающих-ingit|339-приложение-a-дерево-решений-для-принимающих-ingit.md]
-* [118-appendix-a-шаблон-для-header-warning|118-appendix-a-шаблон-для-header-warning.md]
-* [121-appendix-c-история-изменений-методологии|121-appendix-c-история-изменений-методологии.md]
+_Похожие документы:_
+* [15-anti-patterns|docs/lorenzo-agent/15-anti-patterns.md] (сходство 0.79)
+* [359-твои-anti-patterns|docs/obsidian/02-anthropic-vacancies/359-твои-anti-patterns.md] (сходство 0.72)
 

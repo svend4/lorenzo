@@ -6,6 +6,15 @@
 h1. 2. Historical Precedents: Agents as Civilizational Innovation
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Specialization by domain — different markets need different agent expertise What limits all these systems: 1.{quote}
+{quote}✅ _Результат:_ They: - Develop client portfolio over years - Maintain relationships with potential buyers (publishers, studios, networks) - Match clients to opportunities - Negotiate contracts an{quote}
+{quote}🏷️ _Ключевые слова:_ {{agents}}, {{agent}}, {{representation}}, {{client}}, {{commission}}, {{representative}}, {{works}}, {{cannot}}{quote}
+>
+
+
+
 {quote}The pattern of representative agents is ancient and recurring.{quote}
 
 ----
@@ -219,9 +228,18 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [1. The Cinderella Syndrome: Why Quality Stays Invisible|170-1-the-cinderella-syndrome-why-quality-stays-invisi.md]
+* [4. Ten Domains of Application|173-4-ten-domains-of-application.md]
+* [6. Ethical Framework|175-6-ethical-framework.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [1. The Cinderella Syndrome: Why Quality Stays Invisible|170-1-the-cinderella-syndrome-why-quality-stays-invisi.md] _17%_
 h2. Связанные документы
 
 * [3. What Makes a Representative Agent|172-3-what-makes-a-representative-agent.md] _21%_

@@ -1,0 +1,44 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/clusters/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Кластеры вакансий"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. Кластеры вакансий
+
+_Файлов:_ 16
+
+h2. Содержание
+
+* [[01-ai-research-engineering|01-ai-research-engineering.md]] — 
+* [[02-sales|02-sales.md]] — 
+* [[03-finance|03-finance.md]] — 
+* [[04-security|04-security.md]] — 
+* [[05-marketing-brand|05-marketing-brand.md]] — 
+* [[06-engineering-design-product|06-engineering-design-product.md]] — 
+* [[07-software-engineering-infrastructure|07-software-engineering-infrastructure.md]] — 
+* [[08-safeguards-trust-safety|08-safeguards-trust-safety.md]] — 
+* [[09-product-management-support-ops|09-product-management-support-ops.md]] — 
+* [[10-compute|10-compute.md]] — 
+* [[11-legal|11-legal.md]] — 
+* [[12-technical-program-management|12-technical-program-management.md]] — 
+* [[13-communications|13-communications.md]] — 
+* [[14-public-policy|14-public-policy.md]] — 
+* [[15-public-benefit|15-public-benefit.md]] — 
+* [[16-people|16-people.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[overview]] (сходство 0.33)
+* [[12-technical-program-management]] (сходство 0.23)
+* [[13-communications]] (сходство 0.20)
+

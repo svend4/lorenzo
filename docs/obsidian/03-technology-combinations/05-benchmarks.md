@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # Бенчмарки и производительность
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** --- 📊Сводная таблица синергии Комбинация Кубики Уникальный результат Экономия/ROI --- --- --- --- 1 Агентская архитектура + Svyazi Самообучающиеся промпты, multi-domain профилирова
+> 🔧 **Подход:** --- 📊Сводная таблица синергии Комбинация Кубики Уникальный результат Экономия/ROI --- --- --- --- 1 Агентская архитектура + Svyazi Самообучающиеся промпты, multi-domain профилирова
+> ✅ **Результат:** Visual Multi-Agent IDE с persistent workspace Agent-Bridge предоставляет infinite canvas для визуализации Conductor управляет параллельным выполнением (workspace per task) Sequenti
+> 🏷️ **Ключевые слова:** `agent`, `legal`, `комбинация`, `first`, `local`, `conductor`, `svyazi`, `router`
+>
+
+
 <!-- summary -->
 > Все ревьюеры работают параллельно, не последовательно → экономия времени. Результаты мержатся в финальный отчёт.
 **Проекты:** Svyazi, Yodoca
@@ -124,9 +134,19 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[03-local-first|Local-first и P2P стек]]
+- [[01-agent-routing|Агентные системы и роутинг]]
+- [[02-knowledge-graphs|Графы знаний и Legal AI]]
+- [[README|Комбинирование технологий для новых свойств]]
+## Упоминается в
+
 - [[README|Комбинирование технологий для новых свойств]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[03-local-first|Local-first и P2P стек]] _29%_
+- [[02-knowledge-graphs|Графы знаний и Legal AI]] _21%_
 ## Связанные документы
 
 - [[03-local-first|Local-first и P2P стек]] _33%_

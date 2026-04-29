@@ -1,0 +1,16 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/habr-unique-projects/search-strategy/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. search-strategy/ — как искать проекты на Хабре
+
+Один файл — один аспект стратегии поиска (запросы, авторы, комментарии, hub-walk). Заполняется по мере чтения исходных MHTML‑снимков.
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/ai-collaborations/strategy/README.md] (сходство 0.26)
+

@@ -1,6 +1,6 @@
 # Индекс ссылок
 
-Всего уникальных URL: 217
+Всего уникальных URL: 218
 
 | URL | Найден в файлах |
 |-----|-----------------|
@@ -13,7 +13,7 @@
 | https://api.github.com/users/svend4/repos?per_page=100&sort=updated | 9 |
 | https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner | 9 |
 | https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv | 7 |
-| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 4 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 6 |
 | https://claude.com/product/cowork | 17 |
 | https://creativecommons.org/licenses/by/4.0/ | 9 |
 | https://forum.[obsidian | 5 |
@@ -23,7 +23,7 @@
 | https://github.com/AnastasiyaW | 7 |
 | https://github.com/AnastasiyaW/knowledge-space | 12 |
 | https://github.com/AnastasiyaW/knowledge-space` | 6 |
-| https://github.com/AnastasiyaW` | 1 |
+| https://github.com/AnastasiyaW` | 3 |
 | https://github.com/Antipozitive | 7 |
 | https://github.com/Cutcode | 7 |
 | https://github.com/Dmitriila | 7 |
@@ -34,12 +34,12 @@
 | https://github.com/VladSpace | 7 |
 | https://github.com/andrey_chuyan | 7 |
 | https://github.com/anthropics/mcp | 9 |
-| https://github.com/anthropics/mcp` | 3 |
+| https://github.com/anthropics/mcp` | 5 |
 | https://github.com/camel-ai/camel | 10 |
-| https://github.com/camel-ai/camel` | 1 |
+| https://github.com/camel-ai/camel` | 3 |
 | https://github.com/kksudo | 7 |
-| https://github.com/kksudo/agentfs | 5 |
-| https://github.com/kksudo` | 1 |
+| https://github.com/kksudo/agentfs | 6 |
+| https://github.com/kksudo` | 3 |
 | https://github.com/mcp | 13 |
 | https://github.com/mcp` | 6 |
 | https://github.com/nlaik | 7 |
@@ -47,9 +47,10 @@
 | https://github.com/settings/tokens` | 6 |
 | https://github.com/spbmolot | 7 |
 | https://github.com/spbmolot/ngt-memory | 5 |
-| https://github.com/spbmolot` | 1 |
+| https://github.com/spbmolot/… | 1 |
+| https://github.com/spbmolot` | 3 |
 | https://github.com/svend4/ | 6 |
-| https://github.com/svend4/` | 2 |
+| https://github.com/svend4/` | 4 |
 | https://github.com/svend4/data70 | 10 |
 | https://github.com/svend4/data70` | 5 |
 | https://github.com/svend4/info1 | 16 |
@@ -58,7 +59,7 @@
 | https://github.com/svend4/info7 | 8 |
 | https://github.com/svend4/ingit | 26 |
 | https://github.com/svend4/ingit/issues | 8 |
-| https://github.com/svend4/ingit/issues` | 3 |
+| https://github.com/svend4/ingit/issues` | 5 |
 | https://github.com/svend4/ingit` | 6 |
 | https://github.com/svend4/meta | 12 |
 | https://github.com/svend4/meta` | 6 |
@@ -90,10 +91,10 @@
 | https://github.com/svend4/pro2/blob/main/nautilus/README.md | 6 |
 | https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41badc6dc/nautilus | 6 |
 | https://github.com/svend4/pro2/tree/main/nautilus | 6 |
-| https://github.com/svend4/pro2/tree/main/nautilus` | 2 |
+| https://github.com/svend4/pro2/tree/main/nautilus` | 4 |
 | https://github.com/svend4/pro2` | 6 |
 | https://github.com/svend4?tab=repositories | 6 |
-| https://github.com/svend4?tab=repositories` | 2 |
+| https://github.com/svend4?tab=repositories` | 4 |
 | https://github.com/tagir_analyzes | 6 |
 | https://github.com/zodigancode | 6 |
 | https://habr. | 10 |
@@ -120,7 +121,7 @@
 | https://habr.com/ru/articles/1010478/ | 10 |
 | https://habr.com/ru/articles/1010478/` | 6 |
 | https://habr.com/ru/articles/1012894/ | 7 |
-| https://habr.com/ru/articles/1012894/` | 1 |
+| https://habr.com/ru/articles/1012894/` | 3 |
 | https://habr.com/ru/articles/1014366/ | 9 |
 | https://habr.com/ru/articles/1014366/` | 3 |
 | https://habr.com/ru/articles/1016096/ | 10 |
@@ -137,7 +138,7 @@
 | https://habr.com/ru/articles/1020860/ | 10 |
 | https://habr.com/ru/articles/1020860/` | 6 |
 | https://habr.com/ru/articles/1021622/ | 7 |
-| https://habr.com/ru/articles/1021622/` | 1 |
+| https://habr.com/ru/articles/1021622/` | 3 |
 | https://habr.com/ru/articles/1023446/ | 10 |
 | https://habr.com/ru/articles/1023446/` | 6 |
 | https://habr.com/ru/articles/1024634/ | 10 |
@@ -203,14 +204,3 @@
 | https://raw.githubusercontent.com/svend4/nautilus/main/adapters/base.py | 8 |
 | https://raw.githubusercontent.com/svend4/nautilus/main/glyph_adapter.py | 8 |
 | https://raw.githubusercontent.com/svend4/nautilus/main/nautilus.json | 8 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md | 8 |
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [LINKS](docs/obsidian/LINKS.md) (сходство 0.81)
-- [BROKEN_LINKS](docs/BROKEN_LINKS.md) (сходство 0.30)
-- [CITATION_INDEX](docs/CITATION_INDEX.md) (сходство 0.21)
-

@@ -1,0 +1,135 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/npp-v1-1/03-registry.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 3. Registry ({{nautilus.json}})
+
+{quote}[!IMPORTANT]{quote}
+{quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+h2. 3. Registry ({{nautilus.json}})
+
+h3. 3.1. Purpose
+
+Registry — central source of truth о том, какие Repos входят в 
+экосистему и как их интерпретировать. Располагается в корне 
+Portal-репо.
+
+h3. 3.2. Schema
+
+Registry MUST быть валидным JSON со следующей структурой:
+
+{code:language=json}
+{
+"protocol_version": "1.1",
+"ecosystem_name": "string",
+"registry": [
+{
+"name": "string",
+"repo": "string (owner/repo-name)",
+"url": "string (git URL, optional)",
+"format": "string (e.g. 'info1', 'pro2')",
+"native_unit": "string (human description)",
+"adapter": "string (module name, e.g. 'info1' or 'auto')",
+"passport": "string (path, e.g. 'passports/info1.md')",
+"angle": "string (e.g. 'methodological', 'semantic', 'symbolic')",
+"compatibility": 0 | 1 | 2 | 3,
+"q6_key": "string (rule for mapping to Q6)",
+"bridges": {
+"other_repo_name": "string (bridge description)"
+}
+}
+]
+}
+{code}
+
+h3. 3.3. Required Fields
+
+* {{protocol_version}} — строка в формате semver ({{"1.0"}}, {{"1.1"}}). 
+Портал MUST отклонять registry с {{protocol_version}}, не 
+поддерживаемым этим порталом
+* {{ecosystem_name}} — короткое уникальное имя (latin, без пробелов)
+* {{registry}} — массив. MUST содержать минимум один элемент
+
+Каждый элемент {{registry}} MUST содержать:
+
+* {{name}} — уникальное в пределах экосистемы
+* {{format}} — идентификатор native-формата (используется для 
+именования адаптера и passport)
+* {{adapter}} — имя адаптера: либо имя Python-модуля в {{adapters/}}, 
+либо {{"auto"}} для использования AutoAdapter (см. раздел 12.3)
+* {{compatibility}} — целое 0..3
+
+h3. 3.4. Optional Fields
+
+* {{repo}}, {{url}} — если опущены, Repo существует только локально
+* {{native_unit}} — human-readable описание единицы данных
+* {{passport}} — путь к файлу в формате {{passports/<format>.md}}. Если 
+опущен, адаптер MUST всё равно быть functional
+* {{angle}} — semantic/methodological/symbolic/other — указывает 
+"угол зрения" Repo на общие концепты
+* {{q6_key}} — правило проекции native-сущностей в Q6 (например, 
+{{"hex_id - 1 → bin(6)"}} для meta)
+* {{bridges}} — объект: ключи — имена других Repos, значения — 
+текстовые описания семантических мостов
+
+h3. 3.5. Validation Rules
+
+Portal MUST отклонять registry, если:
+
+* JSON невалиден
+* Missing required fields в любом элементе {{registry}}
+* {{compatibility}} вне диапазона 0..3
+* Дубликаты {{name}} в пределах одной экосистемы
+* {{protocol_version}} не поддерживается порталом
+
+Portal SHOULD выдавать warning (но не отклонять), если:
+
+* {{repo}} или {{url}} указаны, но недоступны
+* {{adapter}} указан, но модуль не найден
+* {{bridges}} ссылаются на {{name}}, которых нет в registry
+* {{passport}} указан, но файл не найден
+
+h3. 3.6. AutoAdapter Special Case
+
+Если {{adapter: "auto"}}, portal MUST использовать AutoAdapter (см. 
+раздел 12.3), который загружает {{nautilus.json}} из корня 
+target-репо вместо локального модуля-адаптера. Это enables 
+Onboarding Path C (self-declaring repo).
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [78-3-registry-nautilus-json|docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md]
+* [08-3-registry-nautilus-json|docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md]
+* [07-portal-entry|docs/nautilus/npp-v1-1/07-portal-entry.md]
+* [02-terminology|docs/nautilus/npp-v1-1/02-terminology.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [78-3-registry-nautilus-json|docs/obsidian/02-anthropic-vacancies/78-3-registry-nautilus-json.md] (сходство 0.84)
+* [78-3-registry-nautilus-json|docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md] (сходство 0.82)
+* [03-registry|docs/nautilus/npp-v1-0/03-registry.md] (сходство 0.54)
+

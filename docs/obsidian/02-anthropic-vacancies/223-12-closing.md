@@ -9,6 +9,28 @@ date: 2026-04-29
 
 # 12. Closing
 
+<!-- toc -->
+## Содержание
+
+- [12. Closing](#12-closing)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Specifically, an SGB Advocate Colleague pilot can demonstrate the model and serve real need simultaneously.
+> 🔧 **Подход:** «Обучай»'s growth from zero to 93,000 teachers in seven months suggests these systems, when well-designed and addressing real burdens, achieve adoption rapidly.
+> ✅ **Результат:** «Обучай»'s growth from zero to 93,000 teachers in seven months suggests these systems, when well-designed and addressing real burdens, achieve adoption rapidly.
+> 🏷️ **Ключевые слова:** `agents`, `types`, `anthropic`, `vacancies`, `closing`, `agent`, `professional`, `abstract`
+>
+
+
 <!-- summary -->
 > The Representative Agent Layer paper, when first written,
 
@@ -92,9 +114,41 @@ walking it.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]]
+- [[179-10-open-questions|10. Open Questions]]
+- [[221-10-open-questions|10. Open Questions]]
+- [[180-11-call-for-collaboration|11. Call for Collaboration]]
+- [[222-11-call-for-collaboration|11. Call for Collaboration]]
+- [[181-12-closing|12. Closing]]
+- [[266-13-closing|13. Closing]]
+- [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]]
+- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]]
+- [[175-6-ethical-framework|6. Ethical Framework]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]]
+- [[178-9-phased-rollout-strategy|9. Phased Rollout Strategy]]
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]]
+- [[168-abstract|Abstract]]
+- [[210-abstract|Abstract]]
+- [[252-abstract|Abstract]]
+- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]]
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]]
+- [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[210-abstract|Abstract]] _48%_
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _42%_
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _42%_
+- [[211-table-of-contents|Table of Contents]] _33%_
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _33%_
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _33%_
+- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] _29%_
+- [[226-appendix-a-comparative-table-five-agent-types|Appendix A: Comparative Table — Five Agent Types]] _25%_
 ## Связанные документы
 
 - [[210-abstract|Abstract]] _48%_

@@ -1,0 +1,23 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/transmission-box/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. transmission-box
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [00-question-mountain-to-person.md|00-question-mountain-to-person.md] — > [!TIP]
+* [01-completing-loop.md|01-completing-loop.md] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/community-discussions/practical-observations/README.md] (сходство 0.25)
+* [README|docs/lorenzo-agent/scenarios/README.md] (сходство 0.25)
+* [README|docs/nautilus/innovation-transitions/README.md] (сходство 0.23)
+

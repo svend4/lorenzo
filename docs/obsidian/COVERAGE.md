@@ -7,16 +7,6 @@ date: 2026-04-29
 
 # Матрица покрытия документов
 
-<!-- summary -->
-> title: "Матрица покрытия документов"
-**Проекты:** Svyazi
-
----
-<!-- tags: security, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
-
-
 _Обновлено: 2026-04-29_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
@@ -25,32 +15,21 @@ _Обновлено: 2026-04-29_
 
 | Секция | Файлов | Summary | Теги | TOC | CrossRefs | Статус | Backlinks |
 |--------|--------|---------|------|-----|-----------|--------|-----------|
-| `01-svyazi` | 14 | 🟢 13/14 | 🟢 13/14 | 🟢 12/14 | 🟢 13/14 | 🔴 0/14 | 🟢 13/14 |
-| `02-anthropic-vacancies` | 355 | 🟢 354/355 | 🟢 354/355 | 🟡 189/355 | 🟢 354/355 | 🔴 0/355 | 🟢 354/355 |
-| `03-technology-combinations` | 5 | 🟢 5/5 | 🟢 5/5 | 🔴 1/5 | 🟢 5/5 | 🔴 0/5 | 🟢 5/5 |
-| `04-ai-collaborations` | 15 | 🟢 15/15 | 🟢 15/15 | 🟢 13/15 | 🟢 15/15 | 🟢 15/15 | 🟢 15/15 |
-| `05-habr-projects` | 6 | 🟢 6/6 | 🟢 6/6 | 🔴 1/6 | 🟢 6/6 | 🟢 6/6 | 🟢 6/6 |
+| `01-svyazi` | 14 | 🟢 14/14 | 🟢 14/14 | 🔴 3/14 | 🟢 12/14 | 🔴 0/14 | 🔴 1/14 |
+| `02-anthropic-vacancies` | 355 | 🟢 355/355 | 🟢 355/355 | 🟡 206/355 | 🟢 354/355 | 🔴 0/355 | 🟡 210/355 |
+| `03-technology-combinations` | 5 | 🟢 5/5 | 🟢 5/5 | 🔴 2/5 | 🟢 5/5 | 🔴 0/5 | 🟡 3/5 |
+| `04-ai-collaborations` | 15 | 🟢 15/15 | 🟢 15/15 | 🔴 0/15 | 🟢 15/15 | 🟢 15/15 | 🔴 0/15 |
+| `05-habr-projects` | 6 | 🟢 6/6 | 🟢 6/6 | 🔴 1/6 | 🟢 6/6 | 🟢 6/6 | 🟡 3/6 |
 
 ## Файлы с низким покрытием (< 3 признаков) — 2 файлов
 
 | Файл | Слов | Summary | Теги | TOC | CrossRefs | ## Статус | Backlinks |
 |------|------| ---|---|---|---|---|--- |
-| `docs/01-svyazi/00-intro-part2.md` | 5 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
-| `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 14 | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| `docs/01-svyazi/00-intro-part2.md` | 21 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
+| `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 28 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 
-## Полное покрытие — 14 файлов
+## Полное покрытие — 0 файлов
 
-- ✅ `docs/04-ai-collaborations/00-intro.md`
-- ✅ `docs/04-ai-collaborations/01-executive-summary.md`
-- ✅ `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-- ✅ `docs/04-ai-collaborations/04-приоритетные-ансамбли.md`
-- ✅ `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md`
-- ✅ `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md`
-- ✅ `docs/04-ai-collaborations/07-выводы.md`
-- ✅ `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md`
-- ✅ `docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md`
-- ✅ `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md`
-- _...и ещё 4_
 
 ## Рекомендуемые действия
 
@@ -66,24 +45,3 @@ python scripts/improve_backlinks.py
 # Заполнить блок ## Статус в проектных файлах
 python scripts/improve_autofill.py
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[PRIORITIES]]
-- [[STALENESS]]
-- [[LLM_SUMMARIES]]
-- [[VALIDATION]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [README](docs/obsidian/04-ai-collaborations/README.md) (сходство 0.30)
-- [COVERAGE](docs/COVERAGE.md) (сходство 0.24)
-- [PRIORITIES](docs/obsidian/PRIORITIES.md) (сходство 0.24)
-

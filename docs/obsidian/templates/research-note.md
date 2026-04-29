@@ -8,13 +8,6 @@ date: 2026-04-29
 
 # [Тема исследования]
 
-<!-- summary -->
-> <!-- summary: Краткий итог исследования -->
-
----
-
-
-
 <!-- summary: Краткий итог исследования -->
 <!-- tags: исследование -->
 
@@ -53,16 +46,5 @@ _Создано: 2026-04-29_
 **Смотрите также:**
 - [[research-summary]]
 - [[contact-outreach]]
-- [[vladspace]]
-- [[cutcode]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [research-note](docs/templates/research-note.md) (сходство 0.76)
-- [research-summary](docs/obsidian/autofilled/research-summary.md) (сходство 0.68)
-- [research-summary](docs/autofilled/research-summary.md) (сходство 0.55)
+- [[project-component]]
 

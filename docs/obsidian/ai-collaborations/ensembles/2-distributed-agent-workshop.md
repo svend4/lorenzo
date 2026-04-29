@@ -1,0 +1,79 @@
+---
+title: "Ансамбль 2 — Distributed Agent Workshop"
+tags:
+  - orchestration
+  - architecture
+  - roadmap
+  - collaboration
+  - ai-collaborations
+date: 2026-04-29
+---
+
+# Ансамбль 2 — Distributed Agent Workshop
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+**Проекты:** AI Factory, Rufler
+
+---
+<!-- tags: orchestration, architecture, roadmap, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+
+2. Distributed Agent Workshop: «агенты как настоящая команда»
+
+Родители: locks/handoffs/mailbox + AIF Handoff / AI Factory + Rufler + agent-pool + Skate.
+
+Здесь нашёлся другой большой пласт: проекты не про «одного умного агента», а про координацию многих агентных сессий.
+
+В статье про несколько Claude-сессий над одним проектом описаны lock-файлы, handoffs, heartbeat-таймауты, append-only журнал и даже email-подобный mailbox для межагентной коммуникации. В реальном использовании: три человека, один C++ проект, шесть параллельных Claude Code-сессий, 27 handoffs за 4 дня и ноль повторённых тупиков. Habr
+
+AIF Handoff / AI Factory добавляет другой слой: задача проходит через планирование, реализацию, ревью, security review и уведомление в Telegram; AI Factory сканирует проект, определяет стек, ставит skills, настраивает MCP-серверы, создаёт .ai-factory/patches и умеет эволюционировать скиллы по накопленным ошибкам. Habr+1
+
+Rufler даёт YAML-роя: он строит дерево зависимостей, генерирует инструкции агентам, умеет pause/resume, ведёт task registry, показывает токены и стоимость по задачам, а MCP-серверы описываются прямо в YAML. Habr
+
+Agent-pool добавляет фрактальную оркестрацию: это MCP-сервер, где воркер может делегировать задачи дальше, создавать подгруппы и запускать своих воркеров; pipeline заранее задаёт шаги, а detached daemon сам стартует исполнителей и прокидывает зависимости. Habr
+
+Skate соединяет AI-агентов с Mattermost Boards: агент может выбирать задачи по приоритету, менять статус, запускать таймер, комментировать и закрывать задачу через CLI/MCP, без ручного alt-tab в браузер. Habr
+
+Что рождается при склейке:
+
+Получается операционная система агентной команды.
+
+Схема:
+
+Kanban board → Rufler YAML plan → agent-pool workers → locks/mailbox/handoffs → AI Factory skills/evolution → Telegram/PR output
+
+Дети этой связки:
+
+AI Dev Team Kernel — агентная команда, где есть роли, очередь, locks, handoffs, ревью, status board, расходы токенов и память между сессиями.
+
+Legal Document Factory — один агент читает входящий документ, второй ищет нормы/прецеденты, третий пишет Stellungnahme, четвёртый делает adversarial review, пятый форматирует и проверяет Frist/Aktenzeichen.
+
+Community Project Builder — участники сообщества предлагают идеи, система сама превращает их в backlog, назначает агентам подготовку ТЗ, исследование, прототип, README, поиск соавторов.
+
+Главное новое свойство: агенты перестают быть чатами. Они становятся процессами в распределённой системе — с блокировками, задачами, памятью, статусами и передачей контекста.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[01-shared-memory-between-agents]]
+- [[9-ambient-team-agent]]
+- [[1-agentic-knowledge-os]]
+- [[7-domain-agent-app-factory]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[1-agentic-knowledge-os]] (сходство 0.18)
+- [[9-ambient-team-agent]] (сходство 0.18)
+- [[01-shared-memory-between-agents]] (сходство 0.16)
+

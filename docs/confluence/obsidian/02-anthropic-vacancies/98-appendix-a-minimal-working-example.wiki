@@ -14,10 +14,19 @@ date: 2026-04-29
 h1. Appendix A: Minimal Working Example
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Appendix A: Minimal Working Example Contents - Appendix A: Minimal Working Example(appendix-a-minimal-working-example) - A.1.{quote}
+{quote}🔧 _Подход:_ --- Похожие документы: - 28-appendix-a-minimal-working-example(docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.44) - 03-portal-protocol-md(docs/02{quote}
+{quote}🏷️ _Ключевые слова:_ {{minimal}}, {{appendix}}, {{working}}, {{example}}, {{anthropic}}, {{vacancies}}, {{portal}}, {{notes}}{quote}
+>
+
+
+
 h2. Contents
 
 * [Appendix A: Minimal Working Example|#appendix-a-minimal-working-example]
-  * [A.1. Minimal nautilus.json|#a1-minimal-nautilusjson]
+  * [[memnet|A.1. Minimal [nautilus]].json](#a1-minimal-nautilusjson)
   * [A.2. Minimal Adapter (Level 1)|#a2-minimal-adapter-level-1]
   * [A.3. Minimal Passport|#a3-minimal-passport]
 
@@ -136,19 +145,3 @@ h3. A.3. Minimal Passport
 - [[03-portal-protocol-md]]
 - [[105-review-methodology-md]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _60%_
-- [[22-10-queryresult-structure|10. QueryResult Structure]] _37%_
-- [[04-abstract|Abstract]] _33%_
-- [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _33%_
-- [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _33%_
-- [[123-portal-mcp-py|portal-mcp.py]] _33%_
-- [[41-compatibility-level|Compatibility Level]] _33%_
-- [[37-native-format|Native Format]] _29%_

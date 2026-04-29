@@ -19,12 +19,19 @@ date: 2026-04-29
   - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
   - [6.4. Regulatory Compliance](#64-regulatory-compliance)
   - [6.5. Ethical Red Lines](#65-ethical-red-lines)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
 
 <!-- tags: roadmap, anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Ethical Red Lines Foundation will not: - Support projects intended for military use - Accept funding contingent on compromising commitment 1-7 - Use contributor data for AI trainin
+> 🔧 **Подход:** Disability rights (all jurisdictions): Infrastructure explicitly designed for accessibility.
+> 🏷️ **Ключевые слова:** `contributor`, `foundation`, `governance`, `commitment`, `anthropic`, `vacancies`, `ethical`, `compliance`
+>
 
 
 <!-- toc-auto -->
@@ -166,17 +173,3 @@ Foundation will not:
 - [[163-9-call-for-partnership]]
 - [[161-7-phased-rollout-plan]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[163-9-call-for-partnership|9. Call for Partnership]] _21%_
-- [[159-5-economic-model|5. Economic Model]] _17%_
-- [[161-7-phased-rollout-plan|7. Phased Rollout Plan]] _17%_
-- [[164-10-appendices|10. Appendices]] _17%_
-- [[176-7-governance-and-oversight|7. Governance and Oversight]] _17%_
-- [[265-12-call-for-collaboration|12. Call for Collaboration]] _17%_

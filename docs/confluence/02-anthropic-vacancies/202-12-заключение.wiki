@@ -31,6 +31,9 @@ h2. 12. Заключение
 
 h2. Упоминается в
 
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
@@ -42,4 +45,14 @@ _Смотрите также:_
 * [102-доступ-к-данным|102-доступ-к-данным.md]
 * [305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md]
 * [190-содержание|190-содержание.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [202-12-заключение|docs/obsidian/02-anthropic-vacancies/202-12-заключение.md] (сходство 0.98)
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md] (сходство 0.13)
+* [187-слой-представительских-агентов-md|docs/obsidian/02-anthropic-vacancies/187-слой-представительских-агентов-md.md] (сходство 0.13)
 

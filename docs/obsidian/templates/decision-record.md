@@ -9,13 +9,6 @@ date: 2026-04-29
 
 # ADR: [Название решения]
 
-<!-- summary -->
-> title: "ADR: [Название решения]"
-
----
-
-
-
 <!-- summary: Решение о X -->
 <!-- tags: архитектура, решение -->
 
@@ -57,14 +50,4 @@ _Дата: 2026-04-29_
 **Смотрите также:**
 - [[ensemble]]
 - [[project-component]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [decision-record](docs/templates/decision-record.md) (сходство 0.68)
-- [ensemble](docs/obsidian/templates/ensemble.md) (сходство 0.18)
-- [ensemble](docs/templates/ensemble.md) (сходство 0.15)
 

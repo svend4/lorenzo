@@ -1,58 +1,71 @@
 # Список чтения
 
-<!-- summary -->
-> **по запросу «RAG retrieval»** | Документов: **5** | Время: **~20 мин** (0ч 20м)
-**Проекты:** Svyazi
-
----
-<!-- tags: rag, ingestion, architecture, self-improvement -->
-
-
-
-
 _Обновлено: 2026-04-29_
 
-**по запросу «RAG retrieval»** | Документов: **5** | Время: **~20 мин** (0ч 20м)
+**топ по насыщенности** | Документов: **15** | Время: **~1703 мин** (28ч 23м)
 
 | # | Документ | Секция | Время | Слов | Score |
 |---|----------|--------|-------|------|-------|
-| 1 | [11 integration contracts](docs/01-svyazi/11-integration-contracts.md) | `01-svyazi` | 3 мин | 737 | 9.6 |
-| 2 | [Интеграционный контракт, который стоит зафиксирова](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) | `04-ai-collaborations` | 4 мин | 846 | 9.4 |
-| 3 | [09 architectural gaps](docs/01-svyazi/09-architectural-gaps.md) | `01-svyazi` | 3 мин | 758 | 9.3 |
-| 4 | [Архитектурные зазоры, которые важнее новых инструм](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) | `04-ai-collaborations` | 4 мин | 805 | 9.2 |
-| 5 | [03 component catalog](docs/01-svyazi/03-component-catalog.md) | `01-svyazi` | 6 мин | 1352 | 9.1 |
+| 1 | [Все таблицы репозитория](docs/TABLES.md) | `TABLES.md` | 726 мин | 169164 | — |
+| 2 | [Outline базы знаний](docs/OUTLINE.md) | `OUTLINE.md` | 133 мин | 30208 | — |
+| 3 | [Читаемость документов (Flesch-Kincaid)](docs/READABILITY.md) | `READABILITY.md` | 109 мин | 25522 | — |
+| 4 | [Время чтения документов](docs/READING_TIME.md) | `READING_TIME.md` | 106 мин | 25007 | — |
+| 5 | [Приложение C: Образец Спецификаций Инструментов In](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) | `02-anthropic-vacancies` | 89 мин | 20553 | — |
+| 6 | [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | `02-anthropic-vacancies` | 90 мин | 19217 | — |
+| 7 | [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md) | `02-anthropic-vacancies` | 75 мин | 17075 | — |
+| 8 | [Глоссарий понятий](docs/CONCEPTS.md) | `CONCEPTS.md` | 57 мин | 13247 | — |
+| 9 | [Карта происхождения текстов](docs/SOURCE_MAP.md) | `SOURCE_MAP.md` | 49 мин | 12013 | — |
+| 10 | [Что такое Вариант C — Concept Document для Anthrop](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) | `02-anthropic-vacancies` | 47 мин | 11399 | — |
+| 11 | [Введение](docs/04-ai-collaborations/00-intro.md) | `04-ai-collaborations` | 53 мин | 11389 | — |
+| 12 | [Diff базы знаний между версиями](docs/VERSION_DIFF.md) | `VERSION_DIFF.md` | 46 мин | 11170 | — |
+| 13 | [⬡](docs/02-anthropic-vacancies/69-section.md) | `02-anthropic-vacancies` | 43 мин | 9531 | — |
+| 14 | [Claude hat geantwortet: Хорошо.](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) | `nautilus` | 38 мин | 9486 | — |
+| 15 | [Closing](docs/02-anthropic-vacancies/165-closing.md) | `02-anthropic-vacancies` | 42 мин | 9400 | — |
 
 ## По секциям
 
-### `01-svyazi` (3 докум., ~12 мин)
+### `02-anthropic-vacancies` (6 докум., ~386 мин)
 
-- [11 integration contracts](docs/01-svyazi/11-integration-contracts.md) — 3 мин
-- [09 architectural gaps](docs/01-svyazi/09-architectural-gaps.md) — 3 мин
-- [03 component catalog](docs/01-svyazi/03-component-catalog.md) — 6 мин
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) — 89 мин
+- [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) — 90 мин
+- [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md) — 75 мин
+- [Что такое Вариант C — Concept Document для Anthropic Benefic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) — 47 мин
+- [⬡](docs/02-anthropic-vacancies/69-section.md) — 43 мин
+- [Closing](docs/02-anthropic-vacancies/165-closing.md) — 42 мин
 
-### `04-ai-collaborations` (2 докум., ~8 мин)
+### `04-ai-collaborations` (1 докум., ~53 мин)
 
-- [Интеграционный контракт, который стоит зафиксировать сразу](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) — 4 мин
-- [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) — 4 мин
+- [Введение](docs/04-ai-collaborations/00-intro.md) — 53 мин
 
+### `CONCEPTS.md` (1 докум., ~57 мин)
 
-<!-- similar-docs -->
+- [Глоссарий понятий](docs/CONCEPTS.md) — 57 мин
 
----
+### `OUTLINE.md` (1 докум., ~133 мин)
 
-**Похожие документы:**
-- [MISSING](docs/MISSING.md) (сходство 0.15)
-- [README](docs/04-ai-collaborations/README.md) (сходство 0.13)
-- [ALERTS](docs/ALERTS.md) (сходство 0.13)
+- [Outline базы знаний](docs/OUTLINE.md) — 133 мин
 
+### `READABILITY.md` (1 докум., ~109 мин)
 
-<!-- see-also -->
+- [Читаемость документов (Flesch-Kincaid)](docs/READABILITY.md) — 109 мин
 
----
+### `READING_TIME.md` (1 докум., ~106 мин)
 
-**Смотрите также:**
-- [evidence-envelope](docs/svyazi-2-0/architecture/evidence-envelope.md)
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
-- [REPORT](docs/REPORT.md)
+- [Время чтения документов](docs/READING_TIME.md) — 106 мин
+
+### `SOURCE_MAP.md` (1 докум., ~49 мин)
+
+- [Карта происхождения текстов](docs/SOURCE_MAP.md) — 49 мин
+
+### `TABLES.md` (1 докум., ~726 мин)
+
+- [Все таблицы репозитория](docs/TABLES.md) — 726 мин
+
+### `VERSION_DIFF.md` (1 докум., ~46 мин)
+
+- [Diff базы знаний между версиями](docs/VERSION_DIFF.md) — 46 мин
+
+### `nautilus` (1 докум., ~38 мин)
+
+- [Claude hat geantwortet: Хорошо.](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) — 38 мин
 

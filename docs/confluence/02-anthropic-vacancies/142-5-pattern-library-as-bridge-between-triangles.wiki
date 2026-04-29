@@ -5,6 +5,16 @@
 
 h1. 5. Pattern Library as Bridge Between Triangles
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Fully distributed knowledge (every assistant learns independently) has opposite problems: it doesn't compound, and it diverges.{quote}
+{quote}🔧 _Подход:_ Pattern Library Architecture We propose a pattern library architecture operating in two tiers: Tier 1 — Public Patterns.{quote}
+{quote}✅ _Результат:_ Publication to public tier This pipeline enables Tier 2 instances to generate Tier 1 patterns while preserving privacy.{quote}
+{quote}🏷️ _Ключевые слова:_ {{pattern}}, {{library}}, {{knowledge}}, {{architecture}}, {{triangle}}, {{instance}}, {{bridge}}, {{double}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -169,9 +179,28 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [1. Why Single-Triangle Models Are Incomplete|138-1-why-single-triangle-models-are-incomplete.md]
+* [2. The Double-Triangle Architecture|139-2-the-double-triangle-architecture.md]
+* [3. Three Inter-Layer Protocols|140-3-three-inter-layer-protocols.md]
+* [4. Nautilus Portal as Reference Substrate|141-4-nautilus-portal-as-reference-substrate.md]
+* [6. Four Deployment Domains|143-6-four-deployment-domains.md]
+* [7. Open Questions|144-7-open-questions.md]
+* [8. Call to Action|145-8-call-to-action.md]
+* [Abstract|136-abstract.md]
+* [Appendix A: Glossary|148-appendix-a-glossary.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Appendix A: Glossary|148-appendix-a-glossary.md] _29%_
+* [Abstract|136-abstract.md] _21%_
+* [7. Open Questions|144-7-open-questions.md] _21%_
+* [8. Call to Action|145-8-call-to-action.md] _21%_
+* [6. Four Deployment Domains|143-6-four-deployment-domains.md] _17%_
 h2. Связанные документы
 
 * [Appendix A: Glossary|148-appendix-a-glossary.md] _37%_

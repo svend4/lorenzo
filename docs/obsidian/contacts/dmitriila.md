@@ -11,7 +11,7 @@ date: 2026-04-29
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+**Проекты:** Svyazi, SENTINEL
 
 ---
 
@@ -68,17 +68,15 @@ SENTINEL закрывает слой «security» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _81%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _81%_
-- [[vladspace|Контакт: VladSpace / Graph RAG]] _81%_
-- [[zodigancode|Контакт: zodigancode / Rufler]] _81%_
-- [[kksudo|Контакт: kksudo / AgentFS]] _73%_
-- [[spbmolot|Контакт: spbmolot / NGT Memory]] _73%_
-- [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] _73%_
-- [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _73%_
+---
+
+**Похожие документы:**
+- [[mixaill76]] (сходство 0.90)
+- [[vladspace]] (сходство 0.88)
+- [[zodigancode]] (сходство 0.86)
+
 
 <!-- see-also -->
 
@@ -86,17 +84,7 @@ _Создано автоматически: 2026-04-29_
 
 **Смотрите также:**
 - [[mixaill76]]
+- [[tagir-analyzes]]
 - [[vladspace]]
 - [[cutcode]]
-- [[zodigancode]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [mixaill76](docs/obsidian/contacts/mixaill76.md) (сходство 1.00)
-- [vladspace](docs/obsidian/contacts/vladspace.md) (сходство 0.98)
-- [zodigancode](docs/obsidian/contacts/zodigancode.md) (сходство 0.97)
 

@@ -1,31 +1,49 @@
-# Svyazi 2.0 — Архитектура и исследование
+---
+title: "Svyazi[^svyazi] 2.0 — Архитектура и исследование"
+tags:
+  - svyazi
+date: 2026-04-29
+---
 
-**Файлов:** 15
+# Svyazi[^svyazi] 2.0 — Архитектура и исследование
+
+**Файлов:** 14
 
 ## Содержание
 
-- [00-intro-part2.md](00-intro-part2.md) — ---
-- [01-executive-summary.md](01-executive-summary.md) — ---
-- [02-methodology.md](02-methodology.md) — ---
-- [03-component-catalog.md](03-component-catalog.md) — ---
-- [04-ensembles-overview.md](04-ensembles-overview.md) — ---
-- [06-security-privacy.md](06-security-privacy.md) — ---
-- [07-mvp-planning.md](07-mvp-planning.md) — ---
-- [08-conclusions.md](08-conclusions.md) — ---
-- [09-architectural-gaps.md](09-architectural-gaps.md) — ---
-- [10-second-order-ensembles.md](10-second-order-ensembles.md) — ---
-- [11-integration-contracts.md](11-integration-contracts.md) — ---
-- [12-roadmap.md](12-roadmap.md) — ---
-- [13-contacts.md](13-contacts.md) — ---
-- [14-limitations.md](14-limitations.md) — ---
-- [QA.md](QA.md) — ---
+- [[00-intro-part2|00-intro-part2.md]] — 
+- [[01-executive-summary|01-executive-summary.md]] — Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже слож…
+- [[02-methodology|02-methodology.md]] — Поиск вёлся с приоритетом на **Хабр как первичный слой описания идеи** и на **репозитории как первичный слой верификации…
+- [[03-component-catalog|03-component-catalog.md]] — | Проект или связка | Автор | Ссылка на статью и репо | Краткое описание | Ключевые компоненты и паттерны | Лицензия | M…
+- [[04-ensembles-overview|04-ensembles-overview.md]] — Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном инт…
+- [[06-security-privacy|06-security-privacy.md]] — Для Svyazi‑2.0 безопасная архитектура — не “добавить сканер в конце”, а **с самого начала считать skills, MCP[^mcp] servers, и…
+- [[07-mvp-planning|07-mvp-planning.md]] — Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и …
+- [[08-conclusions|08-conclusions.md]] — По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая пол…
+- [[09-architectural-gaps|09-architectural-gaps.md]] — После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрыв…
+- [[10-second-order-ensembles|10-second-order-ensembles.md]] — Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка **тр…
+- [[11-integration-contracts|11-integration-contracts.md]] — Чтобы все эти ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не …
+- [[12-roadmap|12-roadmap.md]] — Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая…
+- [[13-contacts|13-contacts.md]] — С практической точки зрения следующие письма или комментарии лучше строить не вокруг общей фразы “давайте сделаем Svyazi…
+- [[14-limitations|14-limitations.md]] — Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зре…
+
+## Подразделы
+
+- [ensembles/](ensembles/) — Ансамбли проектов
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [BACKLINKS](docs/obsidian/BACKLINKS.md) (сходство 0.24)
-- [README](docs/svyazi-2-0/overview/README.md) (сходство 0.24)
-- [VALIDATION](docs/obsidian/VALIDATION.md) (сходство 0.18)
+- [[README]] (сходство 0.67)
+- [[PRIORITIES]] (сходство 0.11)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

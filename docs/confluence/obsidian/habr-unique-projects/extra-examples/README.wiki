@@ -1,0 +1,41 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/extra-examples/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "extra-examples"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. extra-examples
+
+_Файлов:_ 13
+
+h2. Содержание
+
+* [[00-question-habr-examples|00-question-habr-examples.md]] — 
+* [[01-svyazi-andrey-chuyan|01-svyazi-andrey-chuyan.md]] — 
+* [[02-vshe-scientific-networking|02-vshe-scientific-networking.md]] — 
+* [[03-brainbox-multi-ai-hub|03-brainbox-multi-ai-hub.md]] — 
+* [[04-claude-subagents-patterns|04-claude-subagents-patterns.md]] — 
+* [[05-hw-nl2workflow|05-hw-nl2workflow.md]] — 
+* [[06-platform-for-professional-communities|06-platform-for-professional-communities.md]] — 
+* [[07-specialized-knowledge-workspace|07-specialized-knowledge-workspace.md]] — 
+* [[08-personal-multi-agent-hub|08-personal-multi-agent-hub.md]] — 
+* [[09-federated-platform|09-federated-platform.md]] — 
+* [[10-profession-specific-workflows|10-profession-specific-workflows.md]] — > [!TIP]
+* [[11-concrete-potential-collaborator|11-concrete-potential-collaborator.md]] — 
+* [[12-concrete-next-step|12-concrete-next-step.md]] — > [!IMPORTANT]
+
+
+
+----
+
+_Похожие документы:_
+* [[04-claude-subagents-patterns]] (сходство 0.16)
+* [[07-specialized-knowledge-workspace]] (сходство 0.16)
+* [[09-federated-platform]] (сходство 0.15)
+

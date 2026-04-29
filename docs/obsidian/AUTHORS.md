@@ -7,60 +7,32 @@ date: 2026-04-29
 
 # Авторы и коллаборации
 
-<!-- summary -->
-> Авторы проектов, упоминаемые в исследованиях.
-
----
-
-
-
 Авторы проектов, упоминаемые в исследованиях.
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 35 |
-| **Antipozitive** | 19 |
-| **BerriAI** | 7 |
-| **Cutcode** | 33 |
-| **Dmitriila** | 31 |
-| **MiXaiLL76** | 32 |
-| **Sonia_Black** | 16 |
-| **VitaliySemenov** | 4 |
-| **VitalyOborin** | 33 |
-| **VladSpace** | 30 |
-| **akazant** | 6 |
-| **akzhankalimatov** | 4 |
-| **andrey_chuyan** | 16 |
-| **iximy** | 5 |
-| **kksudo** | 61 |
-| **lee-to** | 8 |
-| **lib4u** | 7 |
-| **moshael** | 6 |
-| **nlaik** | 23 |
-| **spbmolot** | 59 |
-| **tagir_analyzes** | 19 |
-| **vpakspace** | 4 |
-| **zodigancode** | 26 |
-| **Андрей Чуян** | 21 |
-| **Виталий Оборин** | 7 |
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[CONTACT_PRIORITY]]
-- [[tagir-analyzes]]
-- [[nlaik]]
-- [[sonia-black]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [AUTHORS](docs/AUTHORS.md) (сходство 0.80)
-- [README](docs/contacts/README.md) (сходство 0.38)
-- [README](docs/obsidian/contacts/README.md) (сходство 0.35)
-
+| **AnastasiyaW** | 85 |
+| **Antipozitive** | 53 |
+| **BerriAI** | 19 |
+| **Cutcode** | 74 |
+| **Dmitriila** | 69 |
+| **MiXaiLL76** | 64 |
+| **Sonia_Black** | 33 |
+| **VitaliySemenov** | 12 |
+| **VitalyOborin** | 70 |
+| **VladSpace** | 77 |
+| **akazant** | 16 |
+| **akzhankalimatov** | 12 |
+| **andrey_chuyan** | 32 |
+| **iximy** | 13 |
+| **kksudo** | 130 |
+| **lee-to** | 19 |
+| **lib4u** | 21 |
+| **moshael** | 16 |
+| **nlaik** | 50 |
+| **spbmolot** | 132 |
+| **tagir_analyzes** | 33 |
+| **vpakspace** | 12 |
+| **zodigancode** | 64 |
+| **Андрей Чуян** | 56 |
+| **Виталий Оборин** | 15 |

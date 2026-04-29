@@ -1,0 +1,60 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/signals.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Сигналы: что говорит структура вакансий
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория).{quote}
+
+Что реально говорит эта структура.
+
+h2. Тезис Амодеи vs реальный найм
+
+Тезис Амодеи «кодинг исчезнет первым» и открытый найм 68 Research Engineer'ов — _не противоречие, а сигнал_ о том, какие именно инженерные роли остаются: не «написать CRUD», а те, что на переднем крае самой модели (pre‑training, RL, alignment, interpretability, inference performance на GPU/TPU).
+
+h2. Самый быстрорастущий блок
+
+Самый быстрорастущий блок — _вовсе не разработка_, а Sales + Applied AI (≈200 ролей вместе с Forward Deployed Engineer). Это и есть та самая «новая специальность» из статьи, только масштабированная: компания строит вертикаль внедрения в отрасли (финансы, здравоохранение, госсектор, life sciences, manufacturing) и в гео (EMEA, APAC, India).
+
+h2. Зарплатная вилка
+
+Вилка $320–405K из статьи применима _реально только к верхней части AI Research & Engineering и Staff+ SWE_. В Sales / Finance / Marketing / Legal зарплаты ниже и сильно варьируются по локации.
+
+h2. Forward Deployed Engineer
+
+Эта роль упоминается отдельно: Амодеи называет её «новой специальностью». Сидит в кластере [{{Sales}}|clusters/02-sales.md], но по сути — Solutions Architect Applied AI по вертикалям (Industries, Life Sciences, Financial Services, Government, National Security, Digital Native, Startups).
+
+h2. География
+
+Sales и Applied AI: SF, NY, London, Dublin, Munich, Paris, Tokyo, Seoul, Bangalore, Sydney, Zurich. Public Policy — DC, Canberra. Compute — US/UK/Australia. Support — US + Dublin + Tokyo.
+
+
+
+----
+
+_Смотрите также:_
+* [02-sales|docs/anthropic-vacancies/clusters/02-sales.md]
+* [overview|docs/anthropic-vacancies/overview.md]
+* [01-ai-research-engineering|docs/anthropic-vacancies/clusters/01-ai-research-engineering.md]
+* [14-public-policy|docs/anthropic-vacancies/clusters/14-public-policy.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [02-sales|docs/anthropic-vacancies/clusters/02-sales.md] (сходство 0.33)
+* [01-ai-research-engineering|docs/anthropic-vacancies/clusters/01-ai-research-engineering.md] (сходство 0.18)
+* [overview|docs/anthropic-vacancies/overview.md] (сходство 0.18)
+

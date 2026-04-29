@@ -12,6 +12,16 @@ date: 2026-04-29
 
 h1. 8. Seven Domains of Application
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Typical configurations: A jazz pianist who teaches has different needs from a classical violinist, who has different needs from an electronic music producer.{quote}
+{quote}🔧 _Подход:_ Typical configurations: A computational biologist working on epidemiology with humanities co-authors faces unique configuration needs combining biology, computer science, epidemiol{quote}
+{quote}✅ _Результат:_ Pattern Across Domains What unites these domains: - Practice is deeply specialized, but specialization combines rather than replaces general profession competency - Practitioners t{quote}
+{quote}🏷️ _Ключевые слова:_ {{domain}}, {{specific}}, {{domains}}, {{practice}}, {{pattern}}, {{agents}}, {{configurations}}, {{application}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -224,9 +234,19 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]]
+* [[218-7-application-domains|7. Application Domains]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]] _17%_
+* [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _17%_
+* [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _17%_
 h2. Связанные документы
 
 * [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _25%_

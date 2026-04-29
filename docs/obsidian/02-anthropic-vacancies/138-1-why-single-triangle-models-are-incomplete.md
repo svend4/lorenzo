@@ -17,10 +17,17 @@ date: 2026-04-29
   - [1.1. The Current Landscape](#11-the-current-landscape)
   - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
   - [1.3. The Rising Urgency](#13-the-rising-urgency)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The gap needs to be closed not through yet another centralized platform, but through a protocol — a way for the two triangles to negotiate through well-defined interfaces.
+> 🔧 **Подход:** What Both Paradigms Miss Both single-triangle approaches share a structural blind spot: they assume humans exist in one role at a time.
+> 🏷️ **Ключевые слова:** `triangle`, `anthropic`, `vacancies`, `architecture`, `copilot`, `single`, `assistants`, `layer`
+>
 
 
 <!-- toc-auto -->
@@ -57,7 +64,7 @@ matured over 2023–2026 and is now mainstream. It answers: **how
 does one person amplify their capacity with AI?**
 
 **Upper-triangle-only systems.** Multi-agent frameworks (CrewAI, 
-AutoGen, LangGraph, MetaGPT, ChatDev) orchestrate multiple AI 
+[[01-интегральный-анализ-профиля-svend4|AutoGen]], LangGraph, MetaGPT, ChatDev) orchestrate multiple AI 
 agents to complete complex tasks. Humans either serve as external 
 observers or are absent from the execution loop. This paradigm 
 answers: **how do we automate entire workflows with AI?**
@@ -127,19 +134,3 @@ such a protocol.
 - [[139-2-the-double-triangle-architecture]]
 - [[142-5-pattern-library-as-bridge-between-triangles]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[136-abstract|Abstract]] _33%_
-- [[137-table-of-contents|Table of Contents]] _29%_
-- [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _29%_
-- [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] _21%_
-- [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _21%_
-- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _21%_
-- [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _21%_
-- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]] _21%_

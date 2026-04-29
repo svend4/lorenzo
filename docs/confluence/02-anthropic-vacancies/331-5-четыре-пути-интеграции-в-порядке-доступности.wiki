@@ -5,6 +5,16 @@
 
 h1. 5. Четыре пути интеграции в порядке доступности
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Путь 3 — InGit Cowork Project Шаблон (Среднесрочно) Требует, чтобы Anthropic выставил API шаблонов Project публично.{quote}
+{quote}🔧 _Подход:_ --- --- Похожие документы: - 332-6-уточнённый-объём-ingit-с-учётом-cowork(docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.11) --- Смотрите {quote}
+{quote}✅ _Результат:_ --- --- Похожие документы: - 332-6-уточнённый-объём-ingit-с-учётом-cowork(docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.11) --- Смотрите {quote}
+{quote}🏷️ _Ключевые слова:_ {{cowork}}, {{ingit}}, {{project}}, {{anthropic}}, {{четыре}}, {{когда}}, {{интеграции}}, {{сервер}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -19,9 +29,9 @@ h1. 5. Четыре пути интеграции в порядке доступ
 h2. Содержание
 
 * [5. Четыре пути интеграции в порядке доступности|#5-четыре-пути-интеграции-в-порядке-доступности]
-  * [5.1. Путь 1 — InGit Project в Cowork (Немедленно)|#51-путь-1-ingit-project-в-cowork-немедленно]
-  * [5.2. Путь 2 — InGit MCP Сервер (Краткосрочно)|#52-путь-2-ingit-mcp-сервер-краткосрочно]
-  * [5.3. Путь 3 — InGit Cowork Project Шаблон (Среднесрочно)|#53-путь-3-ingit-cowork-project-шаблон-среднесрочно]
+  * [5.1. Путь 1 — InGit Project в Cowork (Немедленно)|#51-путь-1-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-project-в-cowork-немедленно)
+  * [5.2. Путь 2 — InGit MCP Сервер (Краткосрочно)|#52-путь-2-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-mcp-сервер-краткосрочно)
+  * [5.3. Путь 3 — InGit Cowork Project Шаблон (Среднесрочно)|#53-путь-3-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-cowork-project-шаблон-среднесрочно)
   * [5.4. Путь 4 — Глубокая Интеграция Cowork (Долгосрочно)|#54-путь-4-глубокая-интеграция-cowork-долгосрочно]
   * [5.5. Логика Последовательности|#55-логика-последовательности]
 
@@ -81,7 +91,7 @@ h3. 5.2. Путь 2 — InGit MCP Сервер (Краткосрочно)
 **Требуется разработка. 2-4 недели для базовой
 версии.**
 
-Построить {{ingit-mcp-server}}, выставляющий
+Построить {{[ingit|../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-mcp-server}}, выставляющий
 операции InGit:
 
 {code}
@@ -217,7 +227,7 @@ h3. 5.5. Логика Последовательности
 ----
 
 _Похожие документы:_
-* [332-6-уточнённый-объём-ingit-с-учётом-cowork|332-6-уточнённый-объём-ingit-с-учётом-cowork.md] (сходство 0.11)
+* [332-6-уточнённый-объём-[ingit|../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.11)
 
 
 
@@ -225,24 +235,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [332-6-уточнённый-объём-ingit-с-учётом-cowork|332-6-уточнённый-объём-ingit-с-учётом-cowork.md]
-* [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает|329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md]
-* [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи|328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md]
-* [330-4-симбиотическая-архитектура|330-4-симбиотическая-архитектура.md]
+* [332-6-уточнённый-объём-[ingit|../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
+* [329-3-что-[ingit|../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+* [328-2-что-cowork-обеспечивает-что-[ingit|../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
+* [330-4-симбиотическая-архитектура|docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [4. Симбиотическая Архитектура|330-4-симбиотическая-архитектура.md] _21%_
-* [6. Уточнённый объём InGit с учётом Cowork|332-6-уточнённый-объём-ingit-с-учётом-cowork.md] _21%_
-* [1. The Cowork Discovery and Why It Changes Everything|309-1-the-cowork-discovery-and-why-it-changes-everythi.md] _17%_
-* [2. What Cowork Provides That InGit Doesn't Need to Build|310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md] _17%_
-* [3. What InGit Provides That Cowork Lacks|311-3-what-ingit-provides-that-cowork-lacks.md] _17%_
-* [4. The Symbiotic Architecture|312-4-the-symbiotic-architecture.md] _17%_
-* [5. Four Integration Paths in Order of Accessibility|313-5-four-integration-paths-in-order-of-accessibility.md] _17%_
-* [7. Practical First Steps This Month|315-7-practical-first-steps-this-month.md] _17%_

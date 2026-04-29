@@ -4,6 +4,8 @@
 > Традиционная software engineering оптимизировалась против
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

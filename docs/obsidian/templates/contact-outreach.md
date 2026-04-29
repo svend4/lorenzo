@@ -9,14 +9,6 @@ date: 2026-04-29
 
 # Контакт: [Имя / Проект]
 
-<!-- summary -->
-> title: "Контакт: [Имя / Проект]"
-**Проекты:** Svyazi
-
----
-
-
-
 <!-- summary: Шаблон для связи с автором X -->
 <!-- tags: контакты, команда -->
 
@@ -67,14 +59,4 @@ _Создано: 2026-04-29_
 - [[cutcode]]
 - [[dmitriila]]
 - [[mixaill76]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [contact-outreach](docs/templates/contact-outreach.md) (сходство 0.83)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.56)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.56)
 

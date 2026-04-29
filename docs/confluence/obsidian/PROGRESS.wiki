@@ -35,15 +35,15 @@ h2. Состояние компонентов
 || Компонент || Статус || Детали ||
 || Контакты авторов || ⚠️ 14 файлов, не отправлено || 14 файлов в docs/contacts/ ||
 || LLM-обогащение || ⬜ не запущено || pip install anthropic && python scripts/improve_llm_enrich.py ||
-|| Скрипты обработки || ✅ 125 скриптов || 5 LLM-скриптов, MCP=✅ ||
-|| DIGEST.md || ✅ 5 секций || python scripts/improve_llm_summary.py ||
-|| Claude Skills || ✅ 5 скиллов || review-docs, analyze-project, status, write-contact, improve ||
+|| Скрипты обработки || ✅ 140 скриптов || 5 LLM-скриптов, MCP=✅ ||
+|| DIGEST.md || ✅ 4 секций || python scripts/improve_llm_summary.py ||
+|| Claude Skills || ✅ 5 скиллов || review-docs, status, write-contact, improve, analyze-project ||
 
 h2. Метрики качества
 
 || Метрика || Балл || Статус ||
 || Здоровье репо (HEALTH) || 77.0/100 || 🟡 ||
-|| Качество доков (METRICS) || 73.4/100 || 🟡 ||
+|| Качество доков (METRICS) || 73.0/100 || 🟡 ||
 || Go/No-Go (SCORING) || 93.0/100 || 🟡 ||
 
 h2. Следующий шаг
@@ -71,14 +71,3 @@ h2. Связанные документы
 * [[SCORING|Go/No-Go Scoring]]
 * [[HEALTH|Health Dashboard]]
 * [[07-mvp-planning|MVP Planning]]
-
-
-
-----
-
-_Смотрите также:_
-* [[ONBOARDING]]
-* [[INDEX]]
-* [[HEALTH]]
-* [[SCHEDULE]]
-

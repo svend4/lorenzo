@@ -1,0 +1,73 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/ensembles/D-voice-first-mesh.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Ансамбль D — Voice‑first local knowledge mesh"
+tags:
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. Ансамбль D — Voice‑first local knowledge mesh
+
+{quote}[!IMPORTANT]{quote}
+{quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.{quote}
+
+
+
+
+{quote}> Источник: {{deep-research-report (1).md}}.{quote}
+_Проекты:_ Svyazi, AgentFS, Yjs, Automerge, Whisper, Yttri
+
+----
+
+
+
+
+
+{quote}Источник: {{deep-research-report (1).md}}.{quote}
+
+Для реальных пользователей и операторов Svyazi‑2.0 важно не только «искать по базе», но и пополнять её без боли. Здесь локальный Whisper/Ollama‑стек даёт ввод, Handy/OpenWhispr/GigaAM — удобный UX, Yttri — более широкий local‑first workspace вокруг заметок/встреч/документов, AgentFS — файловую агентную оболочку, а Yjs/Automerge — мультидевайсный sync‑слой. Self‑Aware MCP добавляет правильный time/location context поверх этого. citeturn21view10turn21view11turn21view12turn35search0turn27view0turn11search0turn11search11turn20view12
+
+h2. Схема
+
+{code:language=mermaid}
+flowchart LR
+    A[Микрофон / встреча / голосовая заметка] --> B[Whisper / Handy / OpenWhispr / GigaAM]
+    B --> C[Локальная LLM post-processing]
+    C --> D[Vault / Yttri / AgentFS]
+    D --> E[Yjs / Automerge sync]
+    D --> F[Self-Aware MCP]
+    E --> G[Другие устройства / агенты]
+    F --> G
+{code}
+
+h2. Ожидаемые новые свойства
+
+* _Нулевой friction для входа данных_: мысль после звонка или встречи сразу превращается в текст и может быть автоматически структурирована. citeturn21view10turn35search0
+* _Локальная обработка вместо облачной утечки контекста_: и локальный speech‑to‑text, и local‑first workspace, и CRDT‑sync работают в модели «данные принадлежат устройству пользователя». citeturn21view10turn35search0turn11search11
+* _Meeting‑to‑graph pipeline_: Yttri уже мыслит встречу как workspace с транскрипцией, summary и связями; Svyazi‑2.0 может забирать оттуда эпизоды в память и профили. citeturn35search0
+* _Контекст реального мира доступен агенту как tool, а не как догадка_: Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации. citeturn20view12turn30search1
+
+
+
+----
+
+_Смотрите также:_
+* [[04-ensembles-overview]]
+* [[04-приоритетные-ансамбли]]
+* [[voice-stack]]
+* [[F-evidence-backed-intake]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[04-ensembles-overview]] (сходство 0.23)
+* [[04-ensembles-overview]] (сходство 0.23)
+* [[04-приоритетные-ансамбли]] (сходство 0.21)
+

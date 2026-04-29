@@ -1,0 +1,35 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/architecture/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "architecture"
+tags:
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. architecture
+
+_Файлов:_ 7
+
+h2. Содержание
+
+* [[card-envelope|card-envelope.md]] — 
+* [[evidence-envelope|evidence-envelope.md]] — 
+* [[gaps|gaps.md]] — > [!TIP]
+* [[integration-spec|integration-spec.md]] — > [!TIP]
+* [[memory-write-policy|memory-write-policy.md]] — 
+* [[review-record|review-record.md]] — 
+* [[skill-tool-policy|skill-tool-policy.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.17)
+* [[review-record]] (сходство 0.17)
+* [[README]] (сходство 0.15)
+

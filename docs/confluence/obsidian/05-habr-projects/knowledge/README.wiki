@@ -16,4 +16,14 @@ _Файлов:_ 1
 
 h2. Содержание
 
-* [[wikontic|wikontic.md]] — 
+* [[wikontic|wikontic.md]] — Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И…
+
+
+
+----
+
+_Похожие документы:_
+* [[wikontic]] (сходство 0.19)
+* [[README]] (сходство 0.17)
+* [[README]] (сходство 0.10)
+

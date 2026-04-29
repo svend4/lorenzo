@@ -8,6 +8,28 @@ date: 2026-04-29
 
 # Executive Summary
 
+<!-- toc -->
+## Содержание
+
+- [Executive Summary](#executive-summary)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** --- --- Похожие документы: - 155-1-problem-statement(docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.17) - 156-2-target-populations(docs/02-anthropic-vacancies/
+> 🔧 **Подход:** OKWF proposes a foundation-funded infrastructure combining: 1.
+> ✅ **Результат:** Executive Summary The Open Knowledge Work Foundation (OKWF) proposes to build --- Executive Summary The Open Knowledge Work Foundation (OKWF) proposes to build infrastructure that 
+> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `populations`, `knowledge`, `target`, `foundation`, `existing`, `problem`
+>
+
+
 <!-- summary -->
 > The Open Knowledge Work Foundation (OKWF) proposes to build
 
@@ -86,9 +108,34 @@ stakeholders as basis for dialogue and refinement.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[155-1-problem-statement|1. Problem Statement]]
+- [[181-12-closing|12. Closing]]
+- [[156-2-target-populations|2. Target Populations]]
+- [[157-3-why-existing-solutions-fail|3. Why Existing Solutions Fail]]
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]]
+- [[161-7-phased-rollout-plan|7. Phased Rollout Plan]]
+- [[163-9-call-for-partnership|9. Call for Partnership]]
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]]
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]]
+- [[154-table-of-contents|Table of Contents]]
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[155-1-problem-statement|1. Problem Statement]] _42%_
+- [[156-2-target-populations|2. Target Populations]] _29%_
+- [[157-3-why-existing-solutions-fail|3. Why Existing Solutions Fail]] _25%_
+- [[181-12-closing|12. Closing]] _21%_
+- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]] _21%_
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _17%_
+- [[154-table-of-contents|Table of Contents]] _17%_
+- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _17%_
 ## Связанные документы
 
 - [[155-1-problem-statement|1. Problem Statement]] _42%_

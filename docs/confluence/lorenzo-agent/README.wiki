@@ -1,0 +1,51 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/lorenzo-agent/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. lorenzo-agent
+
+_Файлов:_ 22
+
+h2. Содержание
+
+* [00-intro.md|00-intro.md] — 
+* [01-kto-ty.md|01-kto-ty.md] — 
+* [02-tvoyo-proishozhdenie.md|02-tvoyo-proishozhdenie.md] — 
+* [03-tvoya-missiya.md|03-tvoya-missiya.md] — 
+* [04-komu-ty-sluzhish.md|04-komu-ty-sluzhish.md] — 
+* [05-tvoya-lichnost.md|05-tvoya-lichnost.md] — 
+* [06-yazyki-kultura.md|06-yazyki-kultura.md] — 
+* [07-chto-mozhesh.md|07-chto-mozhesh.md] — 
+* [08-bez-max-approval.md|08-bez-max-approval.md] — 
+* [09-voobshche-nelzya.md|09-voobshche-nelzya.md] — 
+* [10-collaborators-landscape.md|10-collaborators-landscape.md] — 
+* [11-dhlab-documents.md|11-dhlab-documents.md] — 
+* [12-workflow.md|12-workflow.md] — 
+* [13-outreach-communication.md|13-outreach-communication.md] — 
+* [14-other-ai-relationships.md|14-other-ai-relationships.md] — 
+* [15-anti-patterns.md|15-anti-patterns.md] — 
+* [16-vsegda-delaesh.md|16-vsegda-delaesh.md] — 
+* [17-honestly-ne-znaesh.md|17-honestly-ne-znaesh.md] — 
+* [18-escalate-to-max.md|18-escalate-to-max.md] — 
+* [19-persistent-character.md|19-persistent-character.md] — 
+* [20-experiment.md|20-experiment.md] — 
+* [QA.md|QA.md] — _Автоматически сгенерировано по 55 файлам раздела._
+
+h2. Подразделы
+
+* [naming/|naming/] — naming
+* [operationalized/|operationalized/] — operationalized
+* [phased-deployment/|phased-deployment/] — phased-deployment
+* [scenarios/|scenarios/] — scenarios
+* [specification/|specification/] — specification
+
+
+
+----
+
+_Похожие документы:_
+* [08-bez-max-approval|docs/lorenzo-agent/08-bez-max-approval.md] (сходство 0.12)
+* [README|docs/lorenzo-agent/specification/README.md] (сходство 0.11)
+* [20-experiment|docs/lorenzo-agent/20-experiment.md] (сходство 0.11)
+

@@ -1,0 +1,50 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/lorenzo-agent/naming/00-question-lorenzo-codename.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Du hast gesagt: Думаю про опцию д поискать в том числе на про что-то подобное на…
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).{quote}
+
+Du hast gesagt: Думаю про опцию д поискать в том числе на про что-то подобное на хабре, Так что то что вы описали можно даже условно обозначить проектом или дать имя такому пр…
+
+Думаю про опцию д поискать в том числе на про что-то подобное на хабре, Так что то что вы описали можно даже условно обозначить проектом или дать имя такому проекту как Лоренцо ИИ Агент, как часть какогото большого проекта по типу названия dhlab дхлаб dream hub лаборатории
+
+26 апр.
+
+Claude hat geantwortet: Отличная идея — Лоренцо как код-имя для Catalyst Agent очень подходит.
+
+Отличная идея — Лоренцо как код-имя для Catalyst Agent очень подходит. Лоренцо Медичи был именно тем patron-фасилитатором, которого мы обсуждали — не художник, но enabler талантов. И DHLab / Dream Hub как umbrella — это elegant framing.
+
+Сейчас поищу подобные проекты на Хабре и в широком интернете.
+
+
+
+----
+
+_Смотрите также:_
+* [00-question-habr-link|docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md]
+* [00-question-scenario|docs/lorenzo-agent/scenarios/00-question-scenario.md]
+* [01-kto-ty|docs/lorenzo-agent/01-kto-ty.md]
+* [09-voobshche-nelzya|docs/lorenzo-agent/09-voobshche-nelzya.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [17-appendix-b-change-log|docs/nautilus/npp-v1-0/17-appendix-b-change-log.md] (сходство 0.23)
+* [00-question-camel-vs-nautilus|docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md] (сходство 0.23)
+* [00-question-practical|docs/nautilus/community-discussions/practical-observations/00-question-practical.md] (сходство 0.23)
+

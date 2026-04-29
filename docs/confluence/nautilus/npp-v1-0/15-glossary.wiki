@@ -1,0 +1,134 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/npp-v1-0/15-glossary.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 15. Glossary of Examples
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+h2. 15. Glossary of Examples
+
+В качестве иллюстраций используется экосистема {{svend4}} с тремя 
+Repos:
+
+* _info1_: 74 документа с α-уровнями, методологический угол
+* _pro2_: Q6-концепты, граф знаний, семантический угол
+* _meta_: 256 CA-правил, гексаграммы, символьный угол
+
+Эти Repos служат reference examples для тестирования NPP-совместимых 
+implementations.
+
+----
+
+h2. Appendix A: Minimal Working Example
+
+h3. A.1. Minimal {{nautilus.json}}
+
+{code:language=json}
+{
+"protocol_version": "1.0",
+"ecosystem_name": "example",
+"repositories": [
+{
+"name": "my_notes",
+"format": ".md",
+"adapter": "adapters/my_notes.py",
+"compatibility_level": 2
+}
+]
+}
+{code}
+
+h3. A.2. Minimal Adapter
+
+{code:language=python}
+from pathlib import Path
+from base import BaseAdapter, PortalEntry
+
+class MyNotesAdapter(BaseAdapter):
+name = "my_notes"
+
+def __init__(self, repo_path):
+self.repo_path = Path(repo_path)
+
+def describe(self):
+md_files = list(self.repo_path.glob("**/*.md"))
+return {
+"name": self.name,
+"format": ".md",
+"total_entries": len(md_files),
+"topics": []
+}
+
+def fetch(self, query):
+results = []
+for path in self.repo_path.glob("**/*.md"):
+text = path.read_text()
+if query.lower() in text.lower():
+results.append(PortalEntry(
+repo_name=self.name,
+native_id=str(path.relative_to(self.repo_path)),
+title=path.stem,
+summary=text[:280],
+content=text,
+tags=[],
+confidence=1.0,
+native_metadata={"path": str(path)},
+url=None
+))
+return results
+{code}
+
+h3. A.3. Minimal Passport
+
+{code:language=markdown}
+# my_notes
+
+## Essence
+Персональная коллекция Markdown-заметок.
+
+## Native Format
+`.md` файлы в произвольной иерархии.
+
+## Content Overview
+~200 заметок, темы: software engineering, philosophy, music.
+
+## Angle / Perspective
+Methodological: how-to и reflection.
+
+## Author
+example_user, example@email.com
+{code}
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [27-15-glossary-of-examples|docs/02-anthropic-vacancies/27-15-glossary-of-examples.md]
+* [17-appendix-b-change-log|docs/nautilus/npp-v1-0/17-appendix-b-change-log.md]
+* [13-reference-implementation|docs/nautilus/npp-v1-0/13-reference-implementation.md]
+* [10-query-result|docs/nautilus/npp-v1-0/10-query-result.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [27-15-glossary-of-examples|docs/02-anthropic-vacancies/27-15-glossary-of-examples.md] (сходство 0.49)
+* [27-15-glossary-of-examples|docs/obsidian/02-anthropic-vacancies/27-15-glossary-of-examples.md] (сходство 0.48)
+* [13-reference-implementation|docs/nautilus/npp-v1-0/13-reference-implementation.md] (сходство 0.44)
+

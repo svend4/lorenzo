@@ -1,0 +1,31 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/prototype/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "prototype"
+tags:
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. prototype
+
+_Файлов:_ 3
+
+h2. Содержание
+
+* [[mvp-plan|mvp-plan.md]] — > [!TIP]
+* [[risks|risks.md]] — > [!TIP]
+* [[roadmap|roadmap.md]] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.22)
+* [[README]] (сходство 0.18)
+* [[README]] (сходство 0.18)
+

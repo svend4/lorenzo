@@ -13,17 +13,6 @@ date: 2026-04-29
 h1. Карта найденных проектов и паттернов
 
 
-h2. Содержание
-
-* [Статус|#статус]
-* [Карта найденных проектов и паттернов|#карта-найденных-проектов-и-паттернов]
-* [Упоминается в|#упоминается-в]
-* [Связанные документы|#связанные-документы]
-
-----
-
-
-
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.{quote}
@@ -53,7 +42,7 @@ _Обновлено: 2026-04-29_
 
 
 {quote}, «для агентов, не людей». | _MIT_. citeturn33view0turn37search1 | Активный OSS, база растёт почти ежедневно. citeturn33view1turn37search1 | _Высокая_: это внешний knowledge layer для аген{quote}
-_Проекты:_ Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+_Проекты:_ Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [[03-component-catalog|knowledge-space]][^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ----
 
@@ -103,7 +92,7 @@ agent-memory-mcp
 ----
 
 _Похожие документы:_
-* [[03-component-catalog]] (сходство 0.99)
+* [[00-intro-part2|03-component-catalog]]/03-component-catalog.md) (сходство 0.99)
 * [[TABLES]] (сходство 0.21)
 * [[04-приоритетные-ансамбли]] (сходство 0.17)
 
@@ -113,10 +102,10 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [[03-component-catalog]]
+* [[00-intro-part2|03-component-catalog]]/03-component-catalog.md)
 * [[TABLES]]
 * [[04-приоритетные-ансамбли]]
-* [[04-ensembles-overview]]
+* [[00-intro-part2|04-ensembles-overview]]/04-ensembles-overview.md)
 
 
 
@@ -143,20 +132,3 @@ _Смотрите также:_
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
-
-
-h2. Упоминается в
-
-* [[README|Поиск AI-коллабораций]]
-
-
-h2. Связанные документы
-
-* [[03-component-catalog|03 Component Catalog]] _90%_
-* [[04-приоритетные-ансамбли|Приоритетные ансамбли]] _37%_
-* [[04-ensembles-overview|04 Ensembles Overview]] _33%_
-* [[10-новые-ансамбли-следующего-шага|Новые ансамбли следующего шага]] _33%_
-* [[07-mvp-planning|07 Mvp Planning]] _29%_
-* [[09-architectural-gaps|09 Architectural Gaps]] _29%_
-* [[10-second-order-ensembles|10 Second Order Ensembles]] _29%_
-* [[01-executive-summary|Executive summary]] _29%_

@@ -7,20 +7,6 @@ date: 2026-04-29
 
 # Оценка готовности проекта (Go/No-Go)
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> title: "Оценка готовности проекта (Go/No-Go)"
-
----
-<!-- tags: rag, security, architecture, roadmap, collaboration -->
-
-
-
-
 _Дата: 2026-04-29_
 
 ## Итог: **154/164** (93%) — 🟢 GO
@@ -81,24 +67,4 @@ _Дата: 2026-04-29_
 2. **[вес 5]** Есть точные дубли документов
 
 ## ✅ Проект готов к запуску MVP!
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[COVERAGE]]
-- [[ONBOARDING]]
-- [[INDEX]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [SCORING](docs/SCORING.md) (сходство 0.73)
-- [HEATMAP](docs/obsidian/HEATMAP.md) (сходство 0.21)
-- [DENSITY](docs/obsidian/DENSITY.md) (сходство 0.21)
 

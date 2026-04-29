@@ -7,21 +7,6 @@ date: 2026-04-29
 
 # Расписание проекта
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Дорожная карта с вехами и задачами по кварталам._
-**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
-
----
-<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
-
-
 _Дорожная карта с вехами и задачами по кварталам._
 
 ## Ключевые вехи
@@ -74,24 +59,3 @@ _█ = активная работа, ░ = ожидание_
 - Вех выполнено: **3/10** (30%)
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[PROGRESS]]
-- [[MINDMAP]]
-- [[project-component]]
-- [[ONBOARDING]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [SCHEDULE](docs/SCHEDULE.md) (сходство 0.70)
-- [DENSITY](docs/obsidian/DENSITY.md) (сходство 0.28)
-- [PROGRESS](docs/obsidian/PROGRESS.md) (сходство 0.26)
-

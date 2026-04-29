@@ -1,0 +1,59 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/architecture/review-record.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Review Record"
+tags:
+  * rag
+  * orchestration
+  * architecture
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. Review Record
+
+
+{quote}> Источник: {{deep-research-report (3).md}}, раздел «Интеграционный контракт».{quote}
+_Проекты:_ mclaude, AI Factory
+
+----
+
+
+
+
+
+{quote}Источник: {{deep-research-report (3).md}}, раздел «Интеграционный контракт».{quote}
+
+Не путать machine suggestion с accepted truth. Опирается на mclaude, AI Factory и Sequential‑протокол. citeturn20view2turn20view3turn20view11
+
+h2. Минимальные поля
+
+* {{reviewer_role}} — какая роль выносила решение (extractor / reviewer / publisher)
+* {{decision}} — {{approved}} | {{rejected}} | {{deferred}}
+* {{reason}} — текстовое обоснование
+* {{evidence_refs}} — ссылки на Evidence Envelope
+* {{follow_up}} — действие, которое нужно сделать после решения
+
+
+
+----
+
+_Смотрите также:_
+* [[integration-spec]]
+* [[card-envelope]]
+* [[evidence-envelope]]
+* [[memory-write-policy]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[integration-spec]] (сходство 0.25)
+* [[card-envelope]] (сходство 0.22)
+* [[memory-write-policy]] (сходство 0.22)
+

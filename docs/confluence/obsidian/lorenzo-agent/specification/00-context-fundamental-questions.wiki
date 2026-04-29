@@ -1,0 +1,66 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/lorenzo-agent/specification/00-context-fundamental-questions.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Direction E: Refine Lorenzo — фундаментальные вопросы перед architecture"
+tags:
+  * anthropic
+  * lorenzo-agent
+date: 2026-04-29
+----
+
+h1. Direction E: Refine Lorenzo — фундаментальные вопросы перед architecture
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к финальному системному промпту в [{{../}}|../].{quote}
+
+Du hast gesagt: Direction E: Refine Lorenzo before strategic decisions
+
+Direction E: Refine Lorenzo before strategic decisions
+Spend more time на Lorenzo specification
+Then decide positioning
+
+Более тщательно для этого вопроса проработка для начала
+
+26 апр.
+
+Claude hat geantwortet: Хорошо, Direction E — more thorough Lorenzo specification before strategic decisions.
+
+Хорошо, Direction E — more thorough Lorenzo specification before strategic decisions. Это правильно — concept должен be solid, потом positioning.
+
+Давайте разработаем Lorenzo specification thoroughly. Начну с fundamental questions которые нужно ответить до architecture — потому что architecture follows from these answers.
+
+Fundamental questions для Lorenzo
+
+Прежде чем specify capabilities или architecture, нужно ответить на core identity questions. Это determines everything downstream.
+
+
+
+----
+
+_Смотрите также:_
+* [[08-q8-other-ai-relationships]]
+* [[00-question-habr-link]]
+* [[07-q7-success-metrics]]
+* [[09-q9-geographic-linguistic-scope]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[08-q8-other-ai-relationships]] (сходство 0.28)
+* [[09-q9-geographic-linguistic-scope]] (сходство 0.24)
+* [[02-q2-whom-lorenzo-serves]] (сходство 0.24)
+

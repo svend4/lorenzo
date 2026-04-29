@@ -6,6 +6,16 @@
 h1. 10. Strategic Positioning
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.{quote}
+{quote}🔧 _Подход:_ InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.{quote}
+{quote}✅ _Результат:_ The combination provides perspective neither pure technologist nor pure practitioner could achieve.{quote}
+{quote}🏷️ _Ключевые слова:_ {{ingit}}, {{cowork}}, {{anthropic}}, {{author}}, {{agent}}, {{nautilus}}, {{vacancies}}, {{strategic}}{quote}
+>
+
+
+
 {quote}Closing thoughts on broader strategic implications.{quote}
 
 ----
@@ -14,7 +24,7 @@ h1. 10. Strategic Positioning
 h2. Содержание
 
 * [10. Strategic Positioning|#10-strategic-positioning]
-  * [10.1. InGit as Niche Player|#101-ingit-as-niche-player]
+  * [10.1. InGit as Niche Player|#101-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-as-niche-player)
   * [10.2. Cowork as Distribution Channel|#102-cowork-as-distribution-channel]
   * [10.3. Open Source as Sustainability|#103-open-source-as-sustainability]
   * [10.4. The Bigger Pattern|#104-the-bigger-pattern]
@@ -34,7 +44,7 @@ Closing thoughts on broader strategic implications.
 
 h3. 10.1. InGit as Niche Player
 
-InGit will not become the next GitHub or Notion. Its market 
+InGit will not become the next [GitHub|../docs/01-svyazi/03-component-catalog.md] or Notion. Its market 
 is narrower:
 
 * Technical users comfortable with Git and YAML
@@ -158,9 +168,9 @@ Either way, the material exists.
 ----
 
 _Похожие документы:_
-* [323-appendix-c-sample-ingit-mcp-server-tool-specificat|323-appendix-c-sample-ingit-mcp-server-tool-specificat.md] (сходство 0.21)
-* [316-8-implications-for-nautilus-and-okwf|316-8-implications-for-nautilus-and-okwf.md] (сходство 0.16)
-* [307-abstract|307-abstract.md] (сходство 0.16)
+* [323-appendix-c-sample-[ingit|../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
+* [316-8-implications-for-[nautilus|../docs/05-habr-projects/memory/memnet.md]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
+* [307-abstract|docs/02-anthropic-vacancies/307-abstract.md] (сходство 0.16)
 
 
 
@@ -168,24 +178,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [323-appendix-c-sample-ingit-mcp-server-tool-specificat|323-appendix-c-sample-ingit-mcp-server-tool-specificat.md]
-* [316-8-implications-for-nautilus-and-okwf|316-8-implications-for-nautilus-and-okwf.md]
-* [307-abstract|307-abstract.md]
-* [309-1-the-cowork-discovery-and-why-it-changes-everythi|309-1-the-cowork-discovery-and-why-it-changes-everythi.md]
+* [323-appendix-c-sample-[ingit|../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+* [316-8-implications-for-[nautilus|../docs/05-habr-projects/memory/memnet.md]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+* [307-abstract|docs/02-anthropic-vacancies/307-abstract.md]
+* [309-1-the-cowork-discovery-and-why-it-changes-everythi|docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [8. Implications for Nautilus and OKWF|316-8-implications-for-nautilus-and-okwf.md] _33%_
-* [9. Risks and Open Questions|317-9-risks-and-open-questions.md] _33%_
-* [Карта происхождения текстов|../SOURCE_MAP.md] _29%_
-* [Acknowledgments|319-acknowledgments.md] _25%_
-* [Рекомендуемый порядок чтения|../READING_ORDER.md] _25%_
-* [Appendix C: Sample Use Cases in Detail|186-appendix-c-sample-use-cases-in-detail.md] _21%_
-* [The Recursive Insight|281-the-recursive-insight.md] _21%_
-* [1. The Cowork Discovery and Why It Changes Everything|309-1-the-cowork-discovery-and-why-it-changes-everythi.md] _21%_

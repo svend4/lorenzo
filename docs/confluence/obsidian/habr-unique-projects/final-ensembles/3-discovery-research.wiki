@@ -1,0 +1,58 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/final-ensembles/3-discovery-research.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Ансамбль 3 — «Discovery-engine для научной работы»"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. Ансамбль 3 — «Discovery-engine для научной работы»
+
+
+{quote}> Источник: MHTML‑снимок {{Поиск уникальных проектов на Хабре для совместной разработки - Claude}} (корень репозитория).{quote}
+_Проекты:_ AutoResearch
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Поиск уникальных проектов на Хабре для совместной разработки - Claude}} (корень репозитория).{quote}
+
+Ансамбль 3: «Discovery-engine для научной работы Max'а»
+
+Пары 5 + 6 + 7:
+
+voice-journal каждый вечер захватывает твои мысли о Nautilus / YiJing / Q6;
+
+transcription → entity extraction → vault wikilinks;
+
+ночной AutoResearch-цикл над репозиторием pro2 пробует малые архитектурные модификации, мерит LCI, сохраняет/откатывает;
+
+утром tmux-деревня готовит саммари: «вчера ночью провёл 47 экспериментов, эти 3 улучшили LCI на 0.05, эти 2 деградировали — посмотри почему».
+
+
+
+----
+
+_Смотрите также:_
+* [[1-one-person-one-company]]
+* [[2-autoresearch-legal]]
+* [[5-voice-local-memory]]
+* [[4-speech-to-text-llm]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[2-autoresearch-legal]] (сходство 0.27)
+* [[1-one-person-one-company]] (сходство 0.27)
+* [[4-speech-to-text-llm]] (сходство 0.20)
+

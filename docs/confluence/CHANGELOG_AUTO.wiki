@@ -129,3 +129,26 @@ _Смотрите также:_
 * [DIGEST|DIGEST.md]
 * [SITEMAP|SITEMAP.md]
 
+
+h2. Упоминается в
+
+* [docs|README.md]
+* [Все таблицы репозитория|TABLES.md]
+* [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md]
+* [Карта репозитория Lorenzo|SITEMAP.md]
+
+
+h2. Связанные документы
+
+* [CHANGELOG|CHANGELOG.md] _33%_
+* [Карта зависимостей скриптов|DEPENDENCY_MAP.md] _17%_
+
+
+
+----
+
+_Похожие документы:_
+* [CHANGELOG_AUTO|docs/obsidian/CHANGELOG_AUTO.md] (сходство 0.95)
+* [CHANGELOG|docs/obsidian/CHANGELOG.md] (сходство 0.65)
+* [CHANGELOG|docs/CHANGELOG.md] (сходство 0.49)
+

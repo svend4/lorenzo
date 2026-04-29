@@ -93,9 +93,29 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [History|63-history.md]
+* [Planned (v0.2.0)|132-planned-v0-2-0.md]
+* [README.md|65-readme-md.md]
+* [portal-mcp.py|123-portal-mcp-py.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [Конфигурация для Claude Desktop|124-конфигурация-для-claude-desktop.md]
+* [Отладка|130-отладка.md]
+* [Что ты ВСЕГДА делаешь|360-что-ты-всегда-делаешь.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [portal-mcp.py|123-portal-mcp-py.md] _33%_
+* [Compatibility Level|41-compatibility-level.md] _29%_
+* [Table of Contents|154-table-of-contents.md] _25%_
+* [Appendix A: Minimal Working Example|28-appendix-a-minimal-working-example.md] _25%_
+* [Abstract|04-abstract.md] _21%_
+* [4. Passport ({{passport.md}})|09-4-passport-passport-md.md] _21%_
+* [Конфигурация для Claude Desktop|124-конфигурация-для-claude-desktop.md] _21%_
+* [Отладка|130-отладка.md] _21%_
 h2. Связанные документы
 
 * [portal-mcp.py|123-portal-mcp-py.md] _33%_

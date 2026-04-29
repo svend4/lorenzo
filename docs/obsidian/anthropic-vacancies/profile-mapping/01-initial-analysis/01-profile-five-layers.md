@@ -1,0 +1,58 @@
+---
+title: "Сводка профиля: пять слоёв"
+tags:
+  - architecture
+  - roadmap
+  - anthropic
+  - collaboration
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# Сводка профиля: пять слоёв
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+---
+<!-- tags: architecture, roadmap, anthropic, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+Ваш корпус работ — это не «разработчик» и не «исследователь» в чистом виде. Это гибрид из пяти слоёв, которые редко встречаются вместе в одном человеке:
+
+Первый — архитектор когнитивных систем: NautilusMoME с 64 гексаграммами как вершинами Q6-гиперкуба, Aymara троичная логика, MoME-роутинг, анализ DGM-H, применение теории движения Крюкова к алгоритмам. Это работа с теоретическими архетипами и топологиями представлений — ближе к computational neuroscience / cognitive architectures, чем к ML-инженерии в узком смысле.
+
+Второй — системный инженер с прикладным уклоном: Python/Termux прокси, ngrok-туннели, HTTP REST API для Android-моста, Make.com workflows, CORS-обходы для Managed Agents API. Уровень — уверенный senior-прикладник, не инфраструктурный staff.
+
+Третий — доменный эксперт в немецком социальном праве: SGB IX/XII, Persönliches Budget, Sozialgericht Dresden, живые дела (S 6 SO 58/26 ER, S 7 SO 99/25), Writing OS как 300+ инструментов под узкую вертикаль. Это реальная глубина, подтверждённая конкретными Aktenzeichen — не поверхностный интерес.
+
+Четвёртый — meta-developer для Claude-платформы: 87 skills, chat-migration v1→v4.5 quantum-hybrid, Multi-Chat Orchestrator, xMemory-архитектура, skills-catalog-manager. Это «developer-for-developers» слой, который у Anthropic только формируется как отдельная профессия.
+
+Пятый — мультилингв EMEA: RU/DE/EN на рабочем уровне, базирование в Германии, понимание европейского регуляторного контекста (что прямо читается через работу с SGB).
+
+Daten70, судя по названию-паттерну (Daten = нем. «данные», 70 — номер), — это, вероятно, либо лабораторный журнал из ~70 идей/прототипов, либо контейнер датасетов, который вы используете как личный «research backlog». Структура «много идей в одном репо» — это паттерн research engineer с тенденцией к расхождению: много начато, меньше доведено до shipping. Это важно для вывода ниже.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[05-quaternary-developer-education]]
+- [[08-practical-ranking]]
+- [[01-three-archetypes]]
+- [[02-primary-fde]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[05-quaternary-developer-education]] (сходство 0.18)
+- [[08-practical-ranking]] (сходство 0.15)
+- [[03-secondary-beneficial-deployments]] (сходство 0.15)
+

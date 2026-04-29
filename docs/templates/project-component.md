@@ -1,13 +1,5 @@
 # [Название компонента]
 
-<!-- summary -->
-> <!-- summary: Краткое описание в 1-2 предложениях -->
-**Проекты:** Svyazi
-
----
-
-
-
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
 
@@ -49,16 +41,6 @@ _Создано: 2026-04-29_
 **Смотрите также:**
 - [contact-outreach](docs/templates/contact-outreach.md)
 - [ensemble](docs/templates/ensemble.md)
-- [dmitriila](docs/contacts/dmitriila.md)
-- [mixaill76](docs/contacts/mixaill76.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [project-component](docs/obsidian/templates/project-component.md) (сходство 0.87)
-- [contact-outreach](docs/templates/contact-outreach.md) (сходство 0.25)
-- [contact-outreach](docs/obsidian/templates/contact-outreach.md) (сходство 0.23)
+- [vladspace](docs/obsidian/contacts/vladspace.md)
+- [cutcode](docs/obsidian/contacts/cutcode.md)
 

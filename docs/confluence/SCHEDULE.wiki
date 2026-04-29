@@ -56,14 +56,3 @@ h2. Текущий статус
 * Вех выполнено: _3/10_ (30%)
 * Текущая фаза: _Контакты с авторами_
 * Следующая веха: _⬜ Написать авторам AgentFS, Yodoca, NGT_
-
-
-
-----
-
-_Смотрите также:_
-* [PROGRESS|docs/PROGRESS.md]
-* [MINDMAP|docs/MINDMAP.md]
-* [project-component|docs/templates/project-component.md]
-* [ONBOARDING|docs/ONBOARDING.md]
-

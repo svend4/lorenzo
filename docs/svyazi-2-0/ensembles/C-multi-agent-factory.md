@@ -1,5 +1,10 @@
 # Ансамбль C — Spec‑driven multi‑agent factory
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** mclaude, AI Factory, Rufler, AutoResearch

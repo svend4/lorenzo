@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # 10. Risks Specific to Composite Architectures
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Practitioners working on similar problems develop incompatible approaches because they used different sub-agent configurations.
+> 🔧 **Подход:** Practitioners working on similar problems develop incompatible approaches because they used different sub-agent configurations.
+> ✅ **Результат:** Mitigations: - Open standards make sub-agents portable and replaceable - Multiple sub-agents covering same specialization (compete on quality, not lock-in) - Notification when sub-
+> 🏷️ **Ключевые слова:** `agents`, `configuration`, `agent`, `composite`, `configurations`, `coordinator`, `specific`, `quality`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -191,9 +201,34 @@ practice.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[179-10-open-questions|10. Open Questions]]
+- [[264-11-open-questions|11. Open Questions]]
+- [[265-12-call-for-collaboration|12. Call for Collaboration]]
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]]
+- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]]
+- [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]]
+- [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]]
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]]
+- [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]]
+- [[162-8-risk-analysis|8. Risk Analysis]]
+- [[177-8-risks-and-mitigations|8. Risks and Mitigations]]
+- [[261-8-seven-domains-of-application|8. Seven Domains of Application]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _42%_
+- [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]] _37%_
+- [[177-8-risks-and-mitigations|8. Risks and Mitigations]] _33%_
+- [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]] _33%_
+- [[264-11-open-questions|11. Open Questions]] _29%_
+- [[179-10-open-questions|10. Open Questions]] _21%_
+- [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]] _21%_
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _17%_
 ## Связанные документы
 
 - [[177-8-risks-and-mitigations|8. Risks and Mitigations]] _42%_

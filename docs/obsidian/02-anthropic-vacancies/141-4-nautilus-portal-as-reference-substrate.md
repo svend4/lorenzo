@@ -11,6 +11,16 @@ date: 2026-04-29
 
 # 4. Nautilus Portal as Reference Substrate
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Required Extensions to NPP for Double-Triangle While NPP v1.1 provides the substrate, three extensions are needed for full Double-Triangle support: Extension 1: Agent Registry.
+> 🔧 **Подход:** We propose NPP as the reference substrate for Double-Triangle implementations.
+> ✅ **Результат:** Required Extensions to NPP for Double-Triangle While NPP v1.1 provides the substrate, three extensions are needed for full Double-Triangle support: Extension 1: Agent Registry.
+> 🏷️ **Ключевые слова:** `triangle`, `double`, `nautilus`, `reference`, `substrate`, `architecture`, `anthropic`, `vacancies`
+>
+
+
 <!-- summary -->
 > The Double-Triangle Architecture requires a substrate capable of:
 
@@ -19,10 +29,10 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [4. Nautilus Portal as Reference Substrate](#4-nautilus-portal-as-reference-substrate)
+- [4. Nautilus Portal as Reference Substrate](#4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate)
   - [4.1. NPP Components Mapped to Double-Triangle Requirements](#41-npp-components-mapped-to-double-triangle-requirements)
   - [4.2. Required Extensions to NPP for Double-Triangle](#42-required-extensions-to-npp-for-double-triangle)
-  - [4.3. Empirical Evidence from Nautilus Reference Implementation](#43-empirical-evidence-from-nautilus-reference-implementation)
+  - [4.3. Empirical Evidence from Nautilus Reference Implementation](#43-empirical-evidence-from-[nautilus](../docs/05-habr-projects/memory/memnet.md)-reference-implementation)
 
 ---
 
@@ -51,7 +61,7 @@ space. In Double-Triangle, each assistant can read and write
 through the same adapter mechanism used by any participant, 
 providing uniform cross-triangle access.
 
-**PortalEntry structure** (NPP) = unified unit of knowledge. In 
+**[[01-интегральный-анализ-профиля-svend4|PortalEntry]] structure** (NPP) = unified unit of knowledge. In 
 Double-Triangle, this represents tasks, deliverables, context 
 updates, and notifications uniformly, enabling a single mechanism 
 for all inter-layer communication.
@@ -111,10 +121,10 @@ As of 2026-04:
 
 - 6,782 lines of Python, 13 adapters, 60 tests passing, 0 mypy 
   errors
-- 7 knowledge repositories federated (info1, pro2, meta, data2, 
+- 7 knowledge repositories federated (info1, [[01-интегральный-анализ-профиля-svend4|pro2]], meta, data2, 
   data7, infosystems, ai_agents)
 - 5 extended adapters enabling federation of external sources 
-  (Obsidian vaults, arXiv papers, GitHub-topic repos, JSONL files, 
+  (Obsidian vaults, arXiv papers, [[03-component-catalog|GitHub]]-topic repos, JSONL files, 
   self-declaring repos via AutoAdapter)
 - Zero external dependencies (Python stdlib only)
 - Full REST API, MCP wrapper, OpenAPI specification, Docker 
@@ -149,9 +159,37 @@ Double-Triangle deployments.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]]
+- [[86-11-relevance-ranking|11. Relevance Ranking]]
+- [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]]
+- [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]]
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]]
+- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]]
+- [[144-7-open-questions|7. Open Questions]]
+- [[136-abstract|Abstract]]
+- [[148-appendix-a-glossary|Appendix A: Glossary]]
+- [[104-appendix-c-references|Appendix C: References]]
+- [[150-appendix-c-version-history|Appendix C: Version History]]
+- [[42-author-contact|Author & Contact]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[KEYWORD_INDEX|Инвертированный индекс ключевых слов]]
+- [[68-about|🇬🇧 About]]
+- [[67-о-проекте|🇷🇺 О проекте]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _25%_
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]] _25%_
+- [[42-author-contact|Author & Contact]] _21%_
+- [[68-about|🇬🇧 About]] _21%_
+- [[05-0-status-of-this-document|0. Status of This Document]] _17%_
+- [[148-appendix-a-glossary|Appendix A: Glossary]] _17%_
+- [[150-appendix-c-version-history|Appendix C: Version History]] _17%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _17%_
 ## Связанные документы
 
 - [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _29%_

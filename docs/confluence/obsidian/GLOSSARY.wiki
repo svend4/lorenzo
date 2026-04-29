@@ -15,45 +15,35 @@ h1. Глоссарий проектов
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 || Проект || Упоминается в файлах ||
-|| **AI Factory** || 50 ||
-|| **AIF Handoff** || 34 ||
-|| **AgentFS** || 75 ||
-|| **Auto AI Router** || 56 ||
-|| **AutoResearch** || 30 ||
-|| **Automerge** || 16 ||
-|| **CardIndex** || 72 ||
-|| **Firecrawl** || 14 ||
-|| **Graph RAG** || 43 ||
-|| **Hybrid RAG** || 26 ||
-|| **Legal RAG** || 41 ||
-|| **LiteLLM** || 33 ||
-|| **LiteParse** || 53 ||
-|| **MemNet** || 40 ||
-|| **Memory OS** || 19 ||
-|| **NGT Memory** || 58 ||
-|| **OpenWhispr** || 12 ||
-|| **RLM-Toolkit** || 6 ||
-|| **Rufler** || 60 ||
-|| **SENTINEL** || 64 ||
-|| **Self-Aware MCP** || 9 ||
-|| **Sequential** || 45 ||
-|| **Svyazi** || 138 ||
-|| **Tool Search** || 34 ||
-|| **Whisper** || 13 ||
-|| **Wikontic** || 31 ||
-|| **Yjs** || 20 ||
-|| **Yodoca** || 81 ||
-|| **Yttri** || 13 ||
-|| **agent-memory-mcp** || 19 ||
-|| **knowledge-space** || 60 ||
-|| **mclaude** || 50 ||
-
-
-
-----
-
-_Смотрите также:_
-* [[MINDMAP]]
-* [[NETWORK]]
-* [[CONTACT_PRIORITY]]
-
+|| **AI Factory** || 122 ||
+|| **AIF Handoff** || 65 ||
+|| **AgentFS** || 180 ||
+|| **Auto AI Router** || 122 ||
+|| **AutoResearch** || 95 ||
+|| **Automerge** || 54 ||
+|| **CardIndex** || 208 ||
+|| **Firecrawl** || 38 ||
+|| **Graph RAG** || 90 ||
+|| **Hybrid RAG** || 76 ||
+|| **Legal RAG** || 92 ||
+|| **LiteLLM** || 82 ||
+|| **LiteParse** || 132 ||
+|| **MemNet** || 178 ||
+|| **Memory OS** || 56 ||
+|| **NGT Memory** || 155 ||
+|| **OpenWhispr** || 32 ||
+|| **RLM-Toolkit** || 17 ||
+|| **Rufler** || 146 ||
+|| **SENTINEL** || 133 ||
+|| **Self-Aware MCP** || 30 ||
+|| **Sequential** || 165 ||
+|| **Svyazi** || 474 ||
+|| **Tool Search** || 85 ||
+|| **Whisper** || 38 ||
+|| **Wikontic** || 83 ||
+|| **Yjs** || 65 ||
+|| **Yodoca** || 227 ||
+|| **Yttri** || 33 ||
+|| **agent-memory-mcp** || 61 ||
+|| **knowledge-space** || 163 ||
+|| **mclaude** || 140 ||

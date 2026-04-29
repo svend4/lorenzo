@@ -9,9 +9,14 @@ date: 2026-04-29
 
 # Контакт: VitalyOborin / Yodoca
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, Graph RAG, Yodoca, NGT Memory, SENTINEL, Auto AI Router
+**Проекты:** Svyazi, Yodoca
 
 ---
 
@@ -70,35 +75,23 @@ Yodoca закрывает слой «memory» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [[kksudo|Контакт: kksudo / AgentFS]] _81%_
-- [[spbmolot|Контакт: spbmolot / NGT Memory]] _81%_
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _73%_
-- [[dmitriila|Контакт: Dmitriila / SENTINEL]] _73%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _73%_
-- [[vladspace|Контакт: VladSpace / Graph RAG]] _73%_
-- [[zodigancode|Контакт: zodigancode / Rufler]] _73%_
-- [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] _66%_
+---
+
+**Похожие документы:**
+- [[vladspace]] (сходство 0.71)
+- [[antipozitive]] (сходство 0.70)
+- [[zodigancode]] (сходство 0.70)
+
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[vladspace]]
-- [[cutcode]]
-- [[dmitriila]]
-- [[mixaill76]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [vladspace](docs/obsidian/contacts/vladspace.md) (сходство 0.80)
-- [zodigancode](docs/obsidian/contacts/zodigancode.md) (сходство 0.79)
-- [mixaill76](docs/obsidian/contacts/mixaill76.md) (сходство 0.79)
+- [[antipozitive]]
+- [[nlaik]]
+- [[sonia-black]]
+- [[spbmolot]]
 

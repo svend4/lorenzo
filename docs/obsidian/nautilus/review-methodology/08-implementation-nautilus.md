@@ -1,0 +1,91 @@
+---
+title: "7. Реализация в проекте Nautilus"
+tags:
+  - orchestration
+  - architecture
+  - roadmap
+  - anthropic
+  - nautilus
+date: 2026-04-29
+---
+
+# 7. Реализация в проекте Nautilus
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: orchestration, architecture, roadmap, anthropic -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+## 7. Реализация в проекте Nautilus
+
+### 7.1. Хронология применения
+
+**Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md** 
+(апрель 2026):
+
+- Вариант A: ветка `claude/review-nautilus-changes-tdywx`
+- Вариант B: ветка `claude/project-implementation-stage-CzylE`
+- Текущий статус: Merged-to-main with parallel blocks, Фаза C не 
+пройдена
+
+**Повторное применение — STATUS.md** (апрель 2026):
+
+- Пройдена Фаза A единожды (single-pass)
+- Статус: канонично, трёхфазная методология не применялась
+- Осмысленность: документ достаточно простой для single-pass
+
+Пример, что **методология применяется селективно**, только там, 
+где польза оправдывает overhead.
+
+### 7.2. Артефакты
+
+Для каждого документа, прошедшего через методологию, в репо 
+сохраняются:
+
+1. **Исходные draft ветки** (`claude/*`) — как audit trail
+2. **Merged-to-main с header warning** — текущее состояние
+3. **Финальная консолидированная** — после Фазы C
+
+Удалять исходные ветки **не следует** до завершения Фазы C — они 
+могут содержать контекст, нужный для разрешения неочевидных 
+расхождений.
+
+### 7.3. Интеграция с Nautilus Portal Protocol
+
+NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процесс 
+для major version bump. Трёхфазная методология — **неофициальный 
+аналог** RFC для документов, не затрагивающих протокол formally, 
+но имеющих высокую ценность (STATUS, IMPLEMENTATION_STAGE, 
+итд).
+
+В будущем методология может быть формализована в NPP v2.0 как 
+рекомендованный workflow для community-contributed documentation.
+
+---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[114-7-реализация-в-проекте-nautilus]]
+- [[02-formal-workflow]]
+- [[11-application-plan-current-docs]]
+- [[108-2-формальный-workflow]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[114-7-реализация-в-проекте-nautilus]] (сходство 0.75)
+- [[114-7-реализация-в-проекте-nautilus]] (сходство 0.74)
+- [[02-formal-workflow]] (сходство 0.27)
+

@@ -136,13 +136,26 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 - [[DIGEST]]
 - [[SITEMAP]]
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|docs]]
+- [[TABLES|Все таблицы репозитория]]
+- [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]]
+- [[SITEMAP|Карта репозитория Lorenzo]]
+
+<!-- related-auto -->
+## Связанные документы
+
+- [[CHANGELOG]] _33%_
+- [[DEPENDENCY_MAP|Карта зависимостей скриптов]] _17%_
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md) (сходство 0.95)
-- [CHANGELOG](docs/obsidian/CHANGELOG.md) (сходство 0.68)
-- [CHANGELOG](docs/CHANGELOG.md) (сходство 0.49)
+- [[CHANGELOG_AUTO]] (сходство 0.95)
+- [[CHANGELOG]] (сходство 0.65)
+- [[CHANGELOG]] (сходство 0.49)
 

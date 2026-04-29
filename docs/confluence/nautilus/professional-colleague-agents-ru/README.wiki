@@ -1,0 +1,34 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/professional-colleague-agents-ru/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. professional-colleague-agents-ru
+
+_Файлов:_ 13
+
+h2. Содержание
+
+* [00-abstract.md|00-abstract.md] — 
+* [01-pyat-tipov.md|01-pyat-tipov.md] — > [!IMPORTANT]
+* [02-chto-delaet-pka.md|02-chto-delaet-pka.md] — > [!TIP]
+* [03-keys-obuchay.md|03-keys-obuchay.md] — 
+* [04-arkhitektura.md|04-arkhitektura.md] — 
+* [05-ekonomika.md|05-ekonomika.md] — 
+* [06-riski.md|06-riski.md] — > [!WARNING]
+* [07-oblasti-primeneniya.md|07-oblasti-primeneniya.md] — > [!WARNING]
+* [08-pilot-sgb-kolega.md|08-pilot-sgb-kolega.md] — > [!WARNING]
+* [09-svyaz-s-drugimi.md|09-svyaz-s-drugimi.md] — > [!WARNING]
+* [10-otkrytye-voprosy.md|10-otkrytye-voprosy.md] — 
+* [11-prizyv-k-sotrudnichestvu.md|11-prizyv-k-sotrudnichestvu.md] — 
+* [12-zaklyuchenie.md|12-zaklyuchenie.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/representative-agent-layer-ru/README.md] (сходство 0.27)
+* [README|docs/nautilus/ingit-cowork-ru/README.md] (сходство 0.20)
+* [README|docs/nautilus/professional-colleague-agents-en/README.md] (сходство 0.18)
+

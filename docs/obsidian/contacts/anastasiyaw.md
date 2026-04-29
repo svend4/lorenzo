@@ -11,7 +11,7 @@ date: 2026-04-29
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, LiteParse, NGT Memory, SENTINEL, Auto AI Router
+**Проекты:** Svyazi, knowledge-space, mclaude
 
 ---
 
@@ -26,7 +26,7 @@ date: 2026-04-29
 - [Открытые вопросы](#открытые-вопросы)
 
 
-<!-- summary: Шаблон для связи с автором knowledge-space, mclaude -->
+<!-- summary: Шаблон для связи с автором [[03-component-catalog|knowledge-space]], mclaude -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -70,40 +70,23 @@ knowledge-space, mclaude закрывает слой «knowledge/orchestration»
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- backlinks-auto -->
-## Упоминается в
+<!-- similar-docs -->
 
-- [[CONTACT_PRIORITY|Приоритет контактов]]
+---
 
-<!-- related-auto -->
-## Связанные документы
+**Похожие документы:**
+- [[sonia-black]] (сходство 0.74)
+- [[zodigancode]] (сходство 0.67)
+- [[cutcode]] (сходство 0.67)
 
-- [[sonia-black|Контакт: Sonia_Black / knowledge-space]] _73%_
-- [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] _60%_
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _60%_
-- [[dmitriila|Контакт: Dmitriila / SENTINEL]] _60%_
-- [[kksudo|Контакт: kksudo / AgentFS]] _60%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _60%_
-- [[nlaik|Контакт: nlaik / LiteParse / research-docs]] _60%_
-- [[spbmolot|Контакт: spbmolot / NGT Memory]] _60%_
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[nlaik]]
+- [[cutcode]]
+- [[zodigancode]]
 - [[sonia-black]]
-- [[kksudo]]
-- [[tagir-analyzes]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [tagir-analyzes](docs/obsidian/contacts/tagir-analyzes.md) (сходство 0.69)
-- [sonia-black](docs/obsidian/contacts/sonia-black.md) (сходство 0.68)
-- [nlaik](docs/obsidian/contacts/nlaik.md) (сходство 0.68)
+- [[dmitriila]]
 

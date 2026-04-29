@@ -5,9 +5,14 @@
 
 h1. Контакт: Antipozitive / MemNet
 
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, knowledge-space, Rufler, LiteParse, Legal RAG, Graph RAG, MemNet, SENTINEL
+_Проекты:_ Svyazi, MemNet
 
 ----
 
@@ -20,11 +25,6 @@ h2. Contents
 * [Статус связи|#статус-связи]
 * [Первое сообщение|#первое-сообщение]
 * [Открытые вопросы|#открытые-вопросы]
-
-
-{quote}[!TIP]{quote}
-{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
-
 
 
 
@@ -69,24 +69,22 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Связанные документы
 
-* [Контакт: Cutcode / AIF Handoff|cutcode.md] _42%_
-* [Контакт: Dmitriila / SENTINEL|dmitriila.md] _42%_
-* [Контакт: MiXaiLL76 / Auto AI Router|mixaill76.md] _42%_
-* [Контакт: nlaik / LiteParse / research-docs|nlaik.md] _42%_
-* [Контакт: Sonia_Black / knowledge-space|sonia-black.md] _42%_
-* [Контакт: tagir_analyzes / Legal RAG|tagir-analyzes.md] _42%_
-* [Контакт: VladSpace / Graph RAG|vladspace.md] _42%_
-* [Контакт: zodigancode / Rufler|zodigancode.md] _42%_
+----
+
+_Похожие документы:_
+* [nlaik|docs/contacts/nlaik.md] (сходство 0.87)
+* [vladspace|docs/contacts/vladspace.md] (сходство 0.84)
+* [zodigancode|docs/contacts/zodigancode.md] (сходство 0.82)
+
 
 
 
 ----
 
 _Смотрите также:_
-* [nlaik|nlaik.md]
-* [sonia-black|sonia-black.md]
-* [tagir-analyzes|tagir-analyzes.md]
-* [vladspace|vladspace.md]
+* [nlaik|docs/contacts/nlaik.md]
+* [sonia-black|docs/contacts/sonia-black.md]
+* [spbmolot|docs/contacts/spbmolot.md]
+* [vitalyoborin|docs/contacts/vitalyoborin.md]
 

@@ -1,13 +1,5 @@
 # Контакт: [Имя / Проект]
 
-<!-- summary -->
-> <!-- summary: Шаблон для связи с автором X -->
-**Проекты:** Svyazi
-
----
-
-
-
 <!-- summary: Шаблон для связи с автором X -->
 <!-- tags: контакты, команда -->
 
@@ -54,18 +46,8 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [dmitriila](docs/contacts/dmitriila.md)
-- [mixaill76](docs/contacts/mixaill76.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-- [vladspace](docs/contacts/vladspace.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [contact-outreach](docs/obsidian/templates/contact-outreach.md) (сходство 0.83)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.64)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.64)
+- [vladspace](docs/obsidian/contacts/vladspace.md)
+- [cutcode](docs/obsidian/contacts/cutcode.md)
+- [dmitriila](docs/obsidian/contacts/dmitriila.md)
+- [mixaill76](docs/obsidian/contacts/mixaill76.md)
 

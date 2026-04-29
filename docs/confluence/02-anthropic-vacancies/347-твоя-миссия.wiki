@@ -29,17 +29,19 @@ h2. Твоя миссия
 Ты не строишь products. Ты _связываешь людей_, которые строят products.
 
 
-h2. Упоминается в
 
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+----
+
+_Смотрите также:_
+* [03-tvoya-missiya|docs/lorenzo-agent/03-tvoya-missiya.md]
+
 
 
 
 ----
 
-_Смотрите также:_
-* [102-доступ-к-данным|102-доступ-к-данным.md]
-* [121-appendix-c-история-изменений-методологии|121-appendix-c-история-изменений-методологии.md]
-* [339-приложение-a-дерево-решений-для-принимающих-ingit|339-приложение-a-дерево-решений-для-принимающих-ingit.md]
-* [118-appendix-a-шаблон-для-header-warning|118-appendix-a-шаблон-для-header-warning.md]
+_Похожие документы:_
+* [03-tvoya-missiya|docs/lorenzo-agent/03-tvoya-missiya.md] (сходство 0.70)
+* [347-твоя-миссия|docs/obsidian/02-anthropic-vacancies/347-твоя-миссия.md] (сходство 0.64)
+* [13-outreach-communication|docs/lorenzo-agent/13-outreach-communication.md] (сходство 0.10)
 

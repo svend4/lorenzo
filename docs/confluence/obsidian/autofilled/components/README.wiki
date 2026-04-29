@@ -16,13 +16,23 @@ _Файлов:_ 10
 
 h2. Содержание
 
-* [.md|.md] — _Тип:_ 1
-* [[cowork|cowork.md]] — _Тип:_ 783
-* [[ingit|ingit.md]] — _Тип:_ 831
-* [[kksudo|kksudo.md]] — _Тип:_ 32
-* [[lorenzo|lorenzo.md]] — _Тип:_ 566
-* [[nautilus|nautilus.md]] — _Тип:_ 1365
-* [[sgb|sgb.md]] — _Тип:_ 418
-* [[spbmolot|spbmolot.md]] — _Тип:_ 27
-* [[svend4|svend4.md]] — _Тип:_ 668
-* [[svyazi|svyazi.md]] — _Тип:_ 867
+* [.md|.md] — 
+* [[cowork|cowork.md]] — 
+* [[ingit|ingit.md]] — 
+* [[kksudo|kksudo.md]] — 
+* [[lorenzo|lorenzo.md]] — 
+* [[nautilus|nautilus.md]] — 
+* [[sgb|sgb.md]] — 
+* [[spbmolot|spbmolot.md]] — 
+* [[svend4|svend4.md]] — 
+* [[svyazi|svyazi.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.92)
+* [[README]] (сходство 0.27)
+* [[README]] (сходство 0.27)
+

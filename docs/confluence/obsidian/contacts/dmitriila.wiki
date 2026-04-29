@@ -16,7 +16,7 @@ h1. Контакт: Dmitriila / SENTINEL
 
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+_Проекты:_ Svyazi, SENTINEL
 
 ----
 
@@ -73,16 +73,14 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Связанные документы
 
-* [[cutcode|Контакт: Cutcode / AIF Handoff]] _81%_
-* [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _81%_
-* [[vladspace|Контакт: VladSpace / Graph RAG]] _81%_
-* [[zodigancode|Контакт: zodigancode / Rufler]] _81%_
-* [[kksudo|Контакт: kksudo / AgentFS]] _73%_
-* [[spbmolot|Контакт: spbmolot / NGT Memory]] _73%_
-* [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] _73%_
-* [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _73%_
+----
+
+_Похожие документы:_
+* [[mixaill76]] (сходство 0.90)
+* [[vladspace]] (сходство 0.88)
+* [[zodigancode]] (сходство 0.86)
+
 
 
 
@@ -90,7 +88,7 @@ h2. Связанные документы
 
 _Смотрите также:_
 * [[mixaill76]]
+* [[tagir-analyzes]]
 * [[vladspace]]
 * [[cutcode]]
-* [[zodigancode]]
 

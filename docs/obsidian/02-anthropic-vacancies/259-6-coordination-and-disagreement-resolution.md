@@ -9,6 +9,16 @@ date: 2026-04-29
 
 # 6. Coordination and Disagreement Resolution
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** They differ on specific issue: A says X; B says Y." Helps principal see what is settled and what is contested.
+> 🔧 **Подход:** Coordination and Disagreement Resolution The composite agent's most subtle function is coordinating --- Содержание - 6.
+> ✅ **Результат:** "A's recommendation may produce result X.
+> 🏷️ **Ключевые слова:** `agent`, `principal`, `composite`, `disagreement`, `resolution`, `agents`, `recommendation`, `their`
+>
+
+
 <!-- summary -->
 > The composite agent's most subtle function is coordinating
 
@@ -177,9 +187,29 @@ practice.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]]
+- [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]]
+- [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]]
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]]
+- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]]
+- [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]]
+- [[261-8-seven-domains-of-application|8. Seven Domains of Application]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _37%_
+- [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _37%_
+- [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]] _33%_
+- [[253-table-of-contents|Table of Contents]] _21%_
+- [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _21%_
+- [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _21%_
+- [[264-11-open-questions|11. Open Questions]] _21%_
+- [[179-10-open-questions|10. Open Questions]] _17%_
 ## Связанные документы
 
 - [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _33%_

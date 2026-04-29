@@ -1,0 +1,164 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/okwf-concept/10-appendices.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "10. Appendices"
+tags:
+  * roadmap
+  * anthropic
+  * collaboration
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 10. Appendices
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».{quote}
+
+----
+
+
+h2. Содержание
+
+* [10. Appendices|#10-appendices]
+  * [Appendix A: Comparison Matrix Against Existing Solutions|#appendix-a-comparison-matrix-against-existing-solutions]
+  * [Appendix B: Reference Implementation Status|#appendix-b-reference-implementation-status]
+  * [Appendix C: Founder Biography|#appendix-c-founder-biography]
+  * [Appendix D: Specific Anchor Partnership Proposal to Anthropic|#appendix-d-specific-anchor-partnership-proposal-to-anthropic]
+  * [Appendix E: Key Open Questions for Potential Partners|#appendix-e-key-open-questions-for-potential-partners]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».{quote}
+
+h2. 10. Appendices
+
+h3. Appendix A: Comparison Matrix Against Existing Solutions
+
+|| Feature || OKWF || Deel || Upwork || Toptal || Mercor || OSS Foundations || Employment ||
+|| Cross-border compliance || ✓ || ✓ || Partial || ✓ || ✓ || — || — ||
+|| Part-time capacity support || ✓ || Partial || ✓ || Partial || Partial || ✓ || ✗ ||
+|| Dignity preservation || ✓ || ✗ || ✗ || ✗ || ✗ || ✓ || ✓ ||
+|| Community continuity || ✓ || ✗ || ✗ || Partial || ✗ || ✓ || ✓ ||
+|| AI-assisted coordination || ✓ || ✗ || Partial || ✗ || ✓ || ✗ || ✗ ||
+|| Pattern library || ✓ || ✗ || ✗ || ✗ || ✗ || Partial || ✗ ||
+|| Guild structure || ✓ || ✗ || ✗ || ✗ || ✗ || Partial || Partial ||
+|| Reputation portability || ✓ || ✗ || ✓ || ✓ || ✓ || ✓ || Partial ||
+|| Mission alignment || ✓ || ✗ || ✗ || ✗ || ✗ || ✓ || Varies ||
+|| Graduated progression || ✓ || ✗ || ✗ || ✗ || ✗ || ✓ || ✓ ||
+|| Funded baseline stipend || ✓ || ✗ || ✗ || ✗ || ✗ || ✗ || ✓ ||
+
+h3. Appendix B: Reference Implementation Status
+
+_Nautilus Portal Protocol v1.1_:
+* 6,782 LOC Python, 60 tests passing, 0 mypy errors
+* 13 adapters, 7 repositories federated
+* REST API, SDK, MCP integration, OpenAPI specification
+* Docker deployment, CI/CD via GitHub Actions
+* Documentation: README, STATUS, INTEGRATION, PORTAL-PROTOCOL 
+(15+ pages formal spec), REVIEW_METHODOLOGY, 
+DOUBLE-TRIANGLE-ARCHITECTURE (20 pages)
+* License: CC BY 4.0 (docs), MIT (code)
+* Location: {{github.com/svend4/nautilus}}
+
+_Humanities Extension_ (in development):
+* Draft specification and adapter designs
+* Pilot contributions planned for legal writing guild
+* Anonymization pipeline under design
+
+_Development capacity for production infrastructure_:
+* Technical substrate: 6-9 months with 2-3 dedicated engineers
+* Compliance infrastructure: 4-6 months with specialized counsel
+* Community infrastructure: 6-12 months with community designers
+
+h3. Appendix C: Founder Biography
+
+_Author_ (svend4) is a software architect and legal advocate 
+based in Dresden, Germany, working on Sozialgericht proceedings 
+(cases S 6 SO 58/26 ER and S 7 SO 99/25) involving 
+Eingliederungshilfe, Persönliches Budget, and disability rights. 
+Holds disability status (GdB 70, Pflegegrad 2-3). Multilingual 
+(Russian, German, English).
+
+Demonstrated capacity through 4-month development of Nautilus 
+Portal Protocol and associated infrastructure (70+ repositories, 
+production-grade reference implementation). Personal circumstance 
+(disability, geographic constraints, active legal proceedings) 
+makes author ideal type-specimen target contributor for OKWF, 
+providing authentic credibility and mission alignment.
+
+Author proposes serving as _founder_ but not necessarily 
+_Executive Director_. Foundation leadership should be 
+professionally selected with relevant experience; author will 
+contribute as architectural visionary and early participant.
+
+h3. Appendix D: Specific Anchor Partnership Proposal to Anthropic
+
+_Target_: Anthropic Beneficial Deployments team
+
+_Why Anthropic specifically_:
+* Public Benefit Corporation structure aligns with foundation 
+mission
+* Existing programs for beneficial deployments suggest appetite 
+for infrastructure investment
+* 440+ open positions demonstrates scale of unmet demand
+* Claude and Claude Code are natural infrastructure substrate
+* Anthropic's values on safety, inclusion, beneficial AI map 
+directly to OKWF mission
+
+_Proposed engagement structure_:
+* 3-year commitment at €1-1.5M per year
+* Governance board seat (1 of 7)
+* Technical integration (Claude access for contributors at 
+sustainable rate)
+* Staff mentorship for contributor community
+* Co-authored case studies on outcomes
+
+_Return on investment for Anthropic_:
+* Talent pipeline that current hiring pipeline cannot reach
+* Demonstrable alignment between stated values and operational 
+commitments
+* Research insights on distributed AI-assisted work patterns
+* Goodwill with disability, elder, and geographic diversity 
+populations
+* Potential to influence policy on AI-assisted work models
+
+_Timeline to formal proposal_:
+* Initial outreach: next 30 days (author can draft warm 
+approach to Beneficial Deployments team lead)
+* First exploratory conversation: within 60 days
+* Formal proposal submission: within 120 days
+* Decision target: 180-240 days
+
+h3. Appendix E: Key Open Questions for Potential Partners
+
+These questions await substantive input from partners:
+
+
+
+----
+
+_Смотрите также:_
+* [[164-10-appendices]]
+* [[04-proposed-infrastructure]]
+* [[09-call-for-partnership]]
+* [[08-pilot-sgb-advocate]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[164-10-appendices]] (сходство 0.75)
+* [[164-10-appendices]] (сходство 0.73)
+* [[00-abstract]] (сходство 0.22)
+

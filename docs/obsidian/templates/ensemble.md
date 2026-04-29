@@ -9,18 +9,6 @@ date: 2026-04-29
 
 # Ансамбль: [Название]
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> <!-- summary: Ансамбль из X компонентов для Y задачи -->
-
----
-
-
-
 <!-- summary: Ансамбль из X компонентов для Y задачи -->
 <!-- tags: ансамбль, архитектура -->
 
@@ -75,15 +63,4 @@ _Создано: 2026-04-29_
 **Смотрите также:**
 - [[project-component]]
 - [[decision-record]]
-- [[research-summary]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [ensemble](docs/templates/ensemble.md) (сходство 0.51)
-- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.23)
-- [118-appendix-a-шаблон-для-header-warning](docs/obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.21)
 

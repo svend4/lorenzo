@@ -29,20 +29,12 @@ date: 2026-04-29
 
 Просто say: «Это decision уровня Max. Я могу draft analysis, но финальный call за ним.»
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[102-доступ-к-данным]]
-- [[361-когда-ты-honestly-не-знаешь]]
-- [[185-appendix-b-domain-comparison-matrix]]
-- [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
+- [[18-escalate-to-max]]
 
 
 <!-- similar-docs -->
@@ -50,7 +42,7 @@ date: 2026-04-29
 ---
 
 **Похожие документы:**
-- [362-когда-сомневаешься-escalate-к-max](docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) (сходство 0.59)
-- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md) (сходство 0.53)
-- [121-appendix-c-история-изменений-методологии](docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md) (сходство 0.31)
+- [[18-escalate-to-max]] (сходство 0.64)
+- [[362-когда-сомневаешься-escalate-к-max]] (сходство 0.59)
+- [[361-когда-ты-honestly-не-знаешь]] (сходство 0.11)
 

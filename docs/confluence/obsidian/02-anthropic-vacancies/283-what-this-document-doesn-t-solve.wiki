@@ -71,9 +71,27 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]]
+* [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]]
+* [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]]
+* [[277-what-s-missing-layer-b|What's Missing — Layer B]]
+* [[275-why-this-document-exists|Why This Document Exists]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[275-why-this-document-exists|Why This Document Exists]] _37%_
+* [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] _25%_
+* [[286-acknowledgments|Acknowledgments]] _25%_
+* [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] _21%_
+* [[277-what-s-missing-layer-b|What's Missing — Layer B]] _21%_
+* [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _21%_
+* [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _21%_
+* [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _17%_
 h2. Связанные документы
 
 * [[275-why-this-document-exists|Why This Document Exists]] _29%_

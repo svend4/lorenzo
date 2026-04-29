@@ -61,13 +61,3 @@ h2. Приоритетные действия (2 незакрытых)
 
 h2. ✅ Проект готов к запуску MVP!
 
-
-
-
-----
-
-_Смотрите также:_
-* [COVERAGE|docs/COVERAGE.md]
-* [ONBOARDING|docs/ONBOARDING.md]
-* [INDEX|docs/INDEX.md]
-

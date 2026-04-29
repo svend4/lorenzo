@@ -15,6 +15,14 @@ date: 2026-04-29
 h1. 11. Call for Collaboration
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Liability, professional licensure interaction, quality standards — all need development.{quote}
+{quote}🏷️ _Ключевые слова:_ {{collaboration}}, {{professional}}, {{anthropic}}, {{vacancies}}, {{practitioners}}, {{colleague}}, {{experts}}, {{curators}}{quote}
+>
+
+
+
 h2. Contents
 
 * [11. Call for Collaboration|#11-call-for-collaboration]
@@ -116,19 +124,3 @@ _Смотрите также:_
 * [[223-12-closing]]
 * [[180-11-call-for-collaboration]]
 
-
-h2. Упоминается в
-
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-
-h2. Связанные документы
-
-* [[265-12-call-for-collaboration|12. Call for Collaboration]] _33%_
-* [[180-11-call-for-collaboration|11. Call for Collaboration]] _21%_
-* [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]] _21%_
-* [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]] _21%_
-* [[221-10-open-questions|10. Open Questions]] _21%_
-* [[223-12-closing|12. Closing]] _21%_
-* [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _17%_
-* [[210-abstract|Abstract]] _17%_

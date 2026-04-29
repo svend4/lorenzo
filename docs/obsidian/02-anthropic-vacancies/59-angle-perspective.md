@@ -2,6 +2,7 @@
 title: "Angle / Perspective"
 tags:
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,7 +13,7 @@ date: 2026-04-29
 > **Symbolic** — `meta` смотрит на мир как на **систему дискретных
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
@@ -27,8 +28,8 @@ evolution».
 
 Это самый **формальный** угол в экосистеме. Здесь всё — числа, 
 правила, инварианты. Практически это означает, что `meta` может 
-давать **формальные ответы на формальные вопросы**, где `pro2` и 
-`info1` дают прозу.
+давать **формальные ответы на формальные вопросы**, где `[[01-интегральный-анализ-профиля-svend4|pro2]]` и 
+`[[01-интегральный-анализ-профиля-svend4|info1]]` дают прозу.
 
 ---
 
@@ -54,9 +55,28 @@ evolution».
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[13-angle-perspective|Angle / Perspective]]
+- [[39-angle-perspective|Angle / Perspective]]
+- [[49-angle-perspective|Angle / Perspective]]
+- [[56-essence|Essence]]
+- [[55-passports-meta-md|passports/meta.md]]
+- [[45-passports-pro2-md|passports/pro2.md]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[39-angle-perspective|Angle / Perspective]] _48%_
+- [[45-passports-pro2-md|passports/pro2.md]] _48%_
+- [[55-passports-meta-md|passports/meta.md]] _48%_
+- [[36-essence|Essence]] _42%_
+- [[35-passports-info1-md|passports/info1.md]] _37%_
+- [[46-essence|Essence]] _37%_
+- [[49-angle-perspective|Angle / Perspective]] _37%_
+- [[56-essence|Essence]] _37%_
 ## Связанные документы
 
 - [[39-angle-perspective|Angle / Perspective]] _37%_

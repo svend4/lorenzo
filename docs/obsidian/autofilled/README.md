@@ -1,10 +1,17 @@
+---
+title: "autofilled"
+tags:
+  - autofilled
+date: 2026-04-29
+---
+
 # autofilled
 
 **Файлов:** 1
 
 ## Содержание
 
-- [research-summary.md](research-summary.md) — ---
+- [[research-summary|research-summary.md]] — <!-- summary -->
 
 ## Подразделы
 
@@ -15,7 +22,7 @@
 ---
 
 **Похожие документы:**
-- [README](docs/autofilled/README.md) (сходство 1.00)
-- [README](docs/glossary/README.md) (сходство 0.36)
-- [README](docs/technology-combinations/research-reports/README.md) (сходство 0.33)
+- [[README]] (сходство 1.00)
+- [[README]] (сходство 0.36)
+- [[README]] (сходство 0.33)
 

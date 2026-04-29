@@ -1,7 +1,6 @@
 ---
 title: "Дайджест изменений"
 tags:
-  - rag
   - collaboration
   - general
 date: 2026-04-29
@@ -10,10 +9,10 @@ date: 2026-04-29
 # Дайджест изменений
 
 <!-- summary -->
-> > Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA
+> > chore: синхронизировать docs после обновления корпуса
 
 ---
-<!-- tags: rag, collaboration -->
+<!-- tags: collaboration -->
 
 
 
@@ -22,93 +21,42 @@ _Обновлено: 2026-04-29_
 
 ## Последний коммит
 
-**2026-04-29** — `b326b33a`
-> Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA
+**2026-04-29** — `7c83cefc`
+> chore: синхронизировать docs после обновления корпуса
 
-Изменено файлов: **129** (+149977 / -3482 строк)
+Изменено файлов: **963** (+18263 / -6519 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **135**
-- Добавлено строк: **+150382**
-- Удалено строк: **-3488**
-- Новых md-файлов: **27**
-
-## Новые документы
-
-**contacts:**
-- `anastasiyaw.md`
-- `andrey-chuyan.md`
-- `antipozitive.md`
-- `cutcode.md`
-- `dmitriila.md`
-- `kksudo.md`
-- `mixaill76.md`
-- `nlaik.md`
-- `sonia-black.md`
-- `spbmolot.md`
-
-**root:**
-- `COMPONENT_MATRIX.md`
-- `CONCEPT_GRAPH.md`
-- `CONTACT_PRIORITY.md`
-- `CONTRADICTIONS.md`
-- `COVERAGE.md`
-- `KEYWORD_INDEX.md`
-- `KPI_HISTORY.md`
-- `NAMED_ENTITIES.md`
-- `PARAGRAPH_QUALITY.md`
-- `STALENESS.md`
-
-**skills:**
-- `improve.md`
-- `status.md`
+- Изменено файлов: **963**
+- Добавлено строк: **+18278**
+- Удалено строк: **-6533**
+- Новых md-файлов: **0**
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
-| 2026-04-29 | `b326b33a` | Merge remote-tracking branch 'origin/main' into claude/organize-monore |
-| 2026-04-29 | `69562b02` | feat: add component matrix, KPI history tracker, fix run_all coverage |
-| 2026-04-29 | `42f561dd` | fix: fix update-docs CI job failures |
-| 2026-04-29 | `854cff7c` | Merge pull request #5 from svend4/claude/current-dev-stage-iVIov |
-| 2026-04-29 | `59617c5d` | feat: add risk register, auto-changelog, master index; fix run_all mis |
-| 2026-04-29 | `89d3e8fb` | chore: sync CONTRADICTIONS.md (background task output) |
-| 2026-04-29 | `4ddee95e` | feat: add tech radar, onboarding guide, dependency map, meta group in  |
-| 2026-04-29 | `6b81ffed` | chore: sync CONTRADICTIONS.md after contradiction_check fix |
-| 2026-04-29 | `4755dd94` | fix: исправить ошибки в deeptext скриптах, добавить выходные файлы |
-| 2026-04-29 | `1f3fe74a` | feat: add autonomous watcher (Ступень 6), CI workflow, LLM section sum |
-| 2026-04-29 | `469dbced` | feat: add CLAUDE.md, weekly digest script, enrich group in run_all |
-| 2026-04-29 | `4e52a185` | chore: update mcp.json description wording |
-| 2026-04-29 | `00a25f78` | feat: add LLM integration (Ступень 3), skills (Ступень 4), MCP server  |
-| 2026-04-29 | `d9e66da8` | Merge pull request #3 from svend4/claude/current-dev-stage-iVIov |
-| 2026-04-29 | `1d552d4e` | chore: sync PROGRESS.md after deeptext scripts commit |
+| 2026-04-29 | `7c83cefc` | chore: синхронизировать docs после обновления корпуса |
+| 2026-04-29 | `e335cb8f` | chore: обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов) |
+| 2026-04-29 | `78e6481d` | chore: sync PROGRESS.md |
+| 2026-04-29 | `643d52de` | fix: восстановить 24 файла повреждённых GitHub Actions ботом |
+| 2026-04-29 | `ee0b767e` | fix: остановить деструктивные авто-обновления от GitHub Actions бота |
+| 2026-04-29 | `d4d34b4a` | chore: sync PROGRESS.md |
+| 2026-04-29 | `e7133855` | merge: разрешить конфликты с remote (авто-обновление main) |
+| 2026-04-29 | `94be1ad1` | docs: auto-update metrics [skip ci] |
+| 2026-04-29 | `351e5804` | Merge pull request #8 from svend4/claude/organize-monorepo-docs-VmctA |
+| 2026-04-29 | `717e08b0` | Merge origin/main into VmctA — resolve 287 conflicts in favour of main |
+| 2026-04-29 | `ba78ff20` | docs: auto-update via improve_run_all [skip ci] |
+| 2026-04-29 | `f63f1a9f` | docs: auto-update via improve_run_all [skip ci] |
+| 2026-04-29 | `9e9cf7f9` | Merge pull request #6 from svend4/claude/current-dev-stage-iVIov |
+| 2026-04-29 | `2a9e9403` | chore: sync PROGRESS.md |
+| 2026-04-29 | `5067c58c` | merge: разрешить конфликты слияния с main (волна 2) |
 
 ## Текущее состояние репозитория
 
 | Параметр | Значение |
 |----------|---------|
-| Документов `.md` | **524** |
-| Скриптов обработки | **125** |
+| Документов `.md` | **1695** |
+| Скриптов обработки | **140** |
 | Последнее обновление | **2026-04-29** |
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[CHANGELOG_AUTO]]
-- [[VERSION_DIFF]]
-- [[CHANGELOG]]
-- [[DEPENDENCY_MAP]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CHANGELOG_AUTO](docs/obsidian/CHANGELOG_AUTO.md) (сходство 0.28)
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md) (сходство 0.27)
-- [VERSION_DIFF](docs/obsidian/VERSION_DIFF.md) (сходство 0.26)
-

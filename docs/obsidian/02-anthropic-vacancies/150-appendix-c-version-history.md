@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # Appendix C: Version History
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Вы точно заметили паттерн: корм для животного в приюте не решает проблему приюта, потому что животное снова становится голодным.
+> 🔧 **Подход:** Это demonstrates, что подход работает, и создаёт reference case , на который можно ссылаться во всех future discussions.
+> ✅ **Результат:** Это demonstrates, что подход работает, и создаёт reference case , на который можно ссылаться во всех future discussions.
+> 🏷️ **Ключевые слова:** `infrastructure`, `часть`, `anthropic`, `foundation`, `nautilus`, `contributors`, `architecture`, `legal`
+>
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -212,7 +222,7 @@ python
 @dataclass
 class Annotation:
     id: str                     # "annot:uuid"
-    target: str                 # id of PortalEntry being annotated
+    target: str                 # id of [[01-интегральный-анализ-профиля-svend4|PortalEntry]] being annotated
     author: str                 # Node name или assistant id
     content: str                # annotation text
     visibility: str             # "private" | "team" | "public"
@@ -570,9 +580,28 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]]
+- [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]]
+- [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]]
+- [[165-closing|Closing]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[133-обратная-связь|Обратная связь]]
+- [[342-что-такое-вариант-c-concept-document-для-anthropic|Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]] _21%_
+- [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]] _21%_
+- [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _21%_
+- [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _17%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _17%_
+- [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]] _17%_
+- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _17%_
+- [[31-content-overview|Content Overview]] _17%_
 ## Связанные документы
 
 - [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]] _21%_

@@ -1,0 +1,30 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/transmission-box/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "transmission-box"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. transmission-box
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [[00-question-mountain-to-person|00-question-mountain-to-person.md]] — > [!TIP]
+* [[01-completing-loop|01-completing-loop.md]] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.25)
+* [[README]] (сходство 0.25)
+* [[README]] (сходство 0.23)
+

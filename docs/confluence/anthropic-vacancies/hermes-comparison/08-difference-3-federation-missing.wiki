@@ -1,0 +1,51 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Различие 3: Federated knowledge architecture отсутствует
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Research.{quote}
+
+Различие 3: Federated knowledge architecture отсутствует
+
+Hermes — single-agent system per installation. Каждый пользователь имеет свой Hermes instance. Между instances нет federation.
+
+Nautilus Portal Protocol specifically addresses federated queries across multiple repositories. Это совершенно другой architectural concern.
+
+То есть для personal use Hermes сам по себе достаточен. Для federated knowledge work (multiple practitioners sharing patterns, OKWF guild structure), нужен Nautilus-like layer поверх Hermes.
+
+
+
+----
+
+_Смотрите также:_
+* [06-difference-1-structured-substrate-missing|docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md]
+* [09-difference-4-institutional-vision|docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md]
+* [03-similarity-3-mcp-support|docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md]
+* [02-similarity-2-persistent-memory|docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [09-difference-4-institutional-vision|docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md] (сходство 0.33)
+* [02-similarity-2-persistent-memory|docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md] (сходство 0.32)
+* [03-similarity-3-mcp-support|docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md] (сходство 0.32)
+

@@ -7,7 +7,7 @@ h1. Контакт: VladSpace / Graph RAG
 
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+_Проекты:_ Svyazi, Graph RAG
 
 ----
 
@@ -64,24 +64,22 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Связанные документы
 
-* [Контакт: Cutcode / AIF Handoff|cutcode.md] _81%_
-* [Контакт: Dmitriila / SENTINEL|dmitriila.md] _81%_
-* [Контакт: MiXaiLL76 / Auto AI Router|mixaill76.md] _81%_
-* [Контакт: zodigancode / Rufler|zodigancode.md] _81%_
-* [Контакт: kksudo / AgentFS|../autofilled/components/kksudo.md] _73%_
-* [Контакт: spbmolot / NGT Memory|../autofilled/components/spbmolot.md] _73%_
-* [Контакт: tagir_analyzes / Legal RAG|tagir-analyzes.md] _73%_
-* [Контакт: VitalyOborin / Yodoca|vitalyoborin.md] _73%_
+----
+
+_Похожие документы:_
+* [zodigancode|docs/contacts/zodigancode.md] (сходство 0.88)
+* [tagir-analyzes|docs/contacts/tagir-analyzes.md] (сходство 0.88)
+* [mixaill76|docs/contacts/mixaill76.md] (сходство 0.88)
+
 
 
 
 ----
 
 _Смотрите также:_
-* [cutcode|cutcode.md]
-* [dmitriila|dmitriila.md]
-* [mixaill76|mixaill76.md]
-* [zodigancode|zodigancode.md]
+* [tagir-analyzes|docs/contacts/tagir-analyzes.md]
+* [cutcode|docs/contacts/cutcode.md]
+* [zodigancode|docs/contacts/zodigancode.md]
+* [dmitriila|docs/contacts/dmitriila.md]
 

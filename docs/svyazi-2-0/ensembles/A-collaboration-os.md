@@ -1,5 +1,10 @@
 # Ансамбль A — Collaboration OS
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory

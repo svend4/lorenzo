@@ -1,0 +1,120 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Existing Approximations
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».{quote}
+
+h2. Existing Approximations
+
+Several existing tools approximate parts of what Layer B 
+should be. None covers the full need.
+
+h3. Anthropic Projects
+
+Provides persistent context across multiple chats grouped 
+around a topic. The closest to Layer B from the chat side. 
+Limitations:
+* Each chat within a project is still linear
+* No threading or branching from specific messages
+* No annotation on documents
+* Documents are stored as files in Project Knowledge but not 
+versioned in a way useful for intellectual work
+* Cross-references between content items not first-class
+
+Projects is _necessary but not sufficient_. It solves part 
+of the problem (persistent context) but not the threading 
+and structural needs.
+
+h3. GitHub Discussions
+
+Provides threaded forum within GitHub repositories. Threading 
+works well. Limitations:
+* Culturally code-oriented; intellectual discussions feel 
+out of place
+* No AI collaboration as native operation
+* Discussions are separate from documents in the repository; 
+links between them are external references, not first-class
+* No annotation on document text
+
+GitHub Discussions is _structurally close_ but **culturally 
+distant** for intellectual work.
+
+h3. Notion / Obsidian / Roam
+
+Personal knowledge management with linked notes. Cross-references 
+work well. Limitations:
+* Designed for individual use; collaboration is added as 
+feature, not core
+* AI integration is added as feature, not core
+* No native threading model — linking is bidirectional but 
+not threaded
+* Document versioning works but is not the central organizing 
+principle
+
+These tools are _good for personal knowledge_ but **not 
+designed for sustained AI collaboration on shared work**.
+
+h3. Discourse / phpBB-style forums
+
+Mature threaded discussion tools. Threading is the central 
+organizing principle. Limitations:
+* No AI collaboration
+* Not designed for documents as first-class artifacts
+* Not designed for project-style work tracking
+
+These tools are _good for community discussion_ but **not 
+designed for intellectual project development**.
+
+h3. Combination workflows
+
+Most serious intellectual workers combine tools:
+* Anthropic Projects for AI-assisted writing
+* GitHub for storage and versioning
+* Notion or Obsidian for personal knowledge
+* Email or messaging for real-time
+* Discord or Slack for community
+
+This works. But the fragmentation has costs:
+* Context is split across systems
+* Cross-references are mostly mental, not technical
+* Each system has different access controls
+* Migration between systems requires effort
+* Each system has its own UI to learn
+
+The fragmentation is what the author was identifying as the 
+problem.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [279-existing-approximations|docs/02-anthropic-vacancies/279-existing-approximations.md]
+* [03-two-layer-stack|docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md]
+* [04-whats-missing-layer-b|docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md]
+* [07-specific-case|docs/nautilus/infrastructure-layer-b-en/07-specific-case.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [279-existing-approximations|docs/02-anthropic-vacancies/279-existing-approximations.md] (сходство 0.78)
+* [279-existing-approximations|docs/obsidian/02-anthropic-vacancies/279-existing-approximations.md] (сходство 0.77)
+* [03-two-layer-stack|docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md] (сходство 0.25)
+

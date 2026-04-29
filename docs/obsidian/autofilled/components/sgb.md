@@ -33,6 +33,16 @@ _Компонент экосистемы Svyazi 2.0_
 <!-- related-auto -->
 ## Связанные документы
 
+- [[cowork]] _100%_
+- [[ingit]] _100%_
+- [[kksudo]] _100%_
+- [[lorenzo]] _100%_
+- [[nautilus]] _100%_
+- [[spbmolot]] _100%_
+- [[svyazi]] _100%_
+- [Антропик](.md) _90%_
+## Связанные документы
+
 - [[svyazi]] _100%_
 - [Антропик](.md) _90%_
 - [[cowork]] _90%_
@@ -52,13 +62,29 @@ _Компонент экосистемы Svyazi 2.0_
 - [[ingit]]
 - [[lorenzo]]
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[cowork]]
+- [[lorenzo]]
+- [[nautilus]]
+- [[svyazi]]
+- [[README|components]]
+- [[ingit]]
+- [[kksudo]]
+- [[spbmolot]]
+- [[svend4]]
+- [[AUTOFILLED|Автозаполненные шаблоны]]
+- [Антропик](.md)
+- [[TABLES|Все таблицы репозитория]]
+- [[SITEMAP|Карта репозитория Lorenzo]]
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [svyazi](docs/obsidian/autofilled/components/svyazi.md) (сходство 1.00)
-- [nautilus](docs/obsidian/autofilled/components/nautilus.md) (сходство 1.00)
-- [lorenzo](docs/obsidian/autofilled/components/lorenzo.md) (сходство 1.00)
+- [[svyazi]] (сходство 1.00)
+- [[svend4]] (сходство 1.00)
+- [[nautilus]] (сходство 1.00)
 

@@ -32,20 +32,12 @@ date: 2026-04-29
 ❌ **Defensive posture**: Justifying existence, apologizing for being AI
 ❌ **Excessive caveats**: Disclaimers что smother every statement
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[102-доступ-к-данным]]
-- [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
-- [[118-appendix-a-шаблон-для-header-warning]]
-- [[121-appendix-c-история-изменений-методологии]]
+- [[15-anti-patterns]]
 
 
 <!-- similar-docs -->
@@ -53,7 +45,6 @@ date: 2026-04-29
 ---
 
 **Похожие документы:**
-- [359-твои-anti-patterns](docs/02-anthropic-vacancies/359-твои-anti-patterns.md) (сходство 0.72)
-- [15-anti-patterns](docs/lorenzo-agent/15-anti-patterns.md) (сходство 0.66)
-- [102-доступ-к-данным](docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md) (сходство 0.27)
+- [[15-anti-patterns]] (сходство 0.79)
+- [[359-твои-anti-patterns]] (сходство 0.72)
 

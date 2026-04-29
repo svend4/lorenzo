@@ -22,10 +22,16 @@ date: 2026-04-29
   - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
   - [11.7. The "Emergence" Question](#117-the-emergence-question)
   - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
 
 ---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** What signals suggest configuration revision is needed?
+> 🏷️ **Ключевые слова:** `composite`, `questions`, `agent`, `agents`, `configuration`, `configurations`, `anthropic`, `vacancies`
+>
 
 
 <!-- toc-auto -->
@@ -160,19 +166,3 @@ indefinitely; "graduation" may not be the right metaphor.
 - [[262-9-integration-with-okwf-infrastructure]]
 - [[221-10-open-questions]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _37%_
-- [[265-12-call-for-collaboration|12. Call for Collaboration]] _33%_
-- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _29%_
-- [[179-10-open-questions|10. Open Questions]] _29%_
-- [[221-10-open-questions|10. Open Questions]] _29%_
-- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _29%_
-- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _29%_
-- [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]] _29%_

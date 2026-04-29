@@ -1,0 +1,63 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/technology-combinations/combinations/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "combinations"
+tags:
+  * technology-combinations
+date: 2026-04-29
+----
+
+h1. combinations
+
+_Файлов:_ 35
+
+h2. Содержание
+
+* [[01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern|01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md]] — 
+* [[02-multiagentnyy-khaos-reshenie-auto-ai-router|02-multiagentnyy-khaos-reshenie-auto-ai-router.md]] — 
+* [[03-crdt-local-first-svyazi-cardindex|03-crdt-local-first-svyazi-cardindex.md]] — 
+* [[04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura|04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md]] — 
+* [[05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy|05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md]] — 
+* [[06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-|06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md]] — 
+* [[07-crawl4ai-docling-yodoca-consolidator|07-crawl4ai-docling-yodoca-consolidator.md]] — 
+* [[08-conductor-adversarial-review-auto-ai-router|08-conductor-adversarial-review-auto-ai-router.md]] — 
+* [[09-agent-orchestration-stack|09-agent-orchestration-stack.md]] — 
+* [[10-legal-document-intelligence-pipeline|10-legal-document-intelligence-pipeline.md]] — 
+* [[11-hybrid-crdt-sql-database|11-hybrid-crdt-sql-database.md]] — 
+* [[12-multi-agent-observability-stack|12-multi-agent-observability-stack.md]] — 
+* [[13-legal-document-transpiler|13-legal-document-transpiler.md]] — 
+* [[14-local-first-agent-development-environment|14-local-first-agent-development-environment.md]] — 
+* [[15-self-consolidating-legal-corpus|15-self-consolidating-legal-corpus.md]] — 
+* [[16-adversarial-multi-agent-code-review|16-adversarial-multi-agent-code-review.md]] — 
+* [[17-distributed-agent-memory-with-graph|17-distributed-agent-memory-with-graph.md]] — 
+* [[18-llm-powered-legal-corpus-builder|18-llm-powered-legal-corpus-builder.md]] — 
+* [[19-multi-agent-observability-platform|19-multi-agent-observability-platform.md]] — 
+* [[20-hybrid-olap-oltp-with-real-time-sync|20-hybrid-olap-oltp-with-real-time-sync.md]] — 
+* [[21-legal-corpus-analytics-at-scale|21-legal-corpus-analytics-at-scale.md]] — 
+* [[22-russian-international-oss-stack|22-russian-international-oss-stack.md]] — 
+* [[23-security-first-code-review-pipeline|23-security-first-code-review-pipeline.md]] — 
+* [[24-mega-integration-full-stack|24-mega-integration-full-stack.md]] — 
+* [[25-legal-dsl-code-transpiler|25-legal-dsl-code-transpiler.md]] — 
+* [[26-ast-based-code-analysis-for-legal-automation|26-ast-based-code-analysis-for-legal-automation.md]] — 
+* [[27-hybrid-rag-with-ast-chunked-code|27-hybrid-rag-with-ast-chunked-code.md]] — 
+* [[28-pydantic-enforced-legal-workflows|28-pydantic-enforced-legal-workflows.md]] — 
+* [[29-meta-programmatic-legal-template-generator|29-meta-programmatic-legal-template-generator.md]] — 
+* [[30-mega-stack-3-0-with-dsl-ast|30-mega-stack-3-0-with-dsl-ast.md]] — 
+* [[31-event-sourced-legal-document-history|31-event-sourced-legal-document-history.md]] — 
+* [[32-consensus-based-multi-agent-coordination|32-consensus-based-multi-agent-coordination.md]] — > [!TIP]
+* [[33-event-sourcing-cqrs-clickhouse-analytics|33-event-sourcing-cqrs-clickhouse-analytics.md]] — 
+* [[34-distributed-event-store-with-paxos|34-distributed-event-store-with-paxos.md]] — 
+* [[35-mega-stack-4-0-with-event-sourcing-consensus|35-mega-stack-4-0-with-event-sourcing-consensus.md]] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [[components-by-name]] (сходство 0.27)
+* [[15-19-extended]] (сходство 0.24)
+* [[09-14-extended]] (сходство 0.22)
+

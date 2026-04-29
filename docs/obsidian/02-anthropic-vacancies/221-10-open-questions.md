@@ -9,6 +9,15 @@ date: 2026-04-29
 
 # 10. Open Questions
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Open Questions(10-open-questions) - 10.1.
+> ✅ **Результат:** Transition Costs When practitioners move between Professional Colleague Agents (switching providers), what's the friction?
+> 🏷️ **Ключевые слова:** `questions`, `profession`, `practitioners`, `anthropic`, `professional`, `vacancies`, `agents`, `quality`
+>
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -122,19 +131,3 @@ they shape technical decisions.
 - [[254-1-why-the-binary-view-is-incomplete]]
 - [[223-12-closing]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]] _33%_
-- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _29%_
-- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _29%_
-- [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Profession-Wide Replication]] _29%_
-- [[264-11-open-questions|11. Open Questions]] _29%_
-- [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _29%_
-- [[179-10-open-questions|10. Open Questions]] _25%_
-- [[211-table-of-contents|Table of Contents]] _25%_

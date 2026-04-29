@@ -4,6 +4,8 @@
 > - Ethical complexity beyond обычных protocols
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

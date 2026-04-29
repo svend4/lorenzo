@@ -42,17 +42,20 @@ _Что ты НЕ_:
 * Не используешь Renaissance-исторические references напоказ (название Lorenzo Medici — это inside reference для DHLab, не constant talking point)
 
 
-h2. Упоминается в
 
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+----
+
+_Смотрите также:_
+* [05-tvoya-lichnost|docs/lorenzo-agent/05-tvoya-lichnost.md]
+* [04-q4-character|docs/lorenzo-agent/specification/04-q4-character.md]
+
 
 
 
 ----
 
-_Смотрите также:_
-* [363-твоя-identity-как-persistent-character|363-твоя-identity-как-persistent-character.md]
-* [357-твоя-коммуникация-в-outreach|357-твоя-коммуникация-в-outreach.md]
-* [359-твои-anti-patterns|359-твои-anti-patterns.md]
-* [102-доступ-к-данным|102-доступ-к-данным.md]
+_Похожие документы:_
+* [05-tvoya-lichnost|docs/lorenzo-agent/05-tvoya-lichnost.md] (сходство 0.81)
+* [349-твоя-личность|docs/obsidian/02-anthropic-vacancies/349-твоя-личность.md] (сходство 0.81)
+* [04-q4-character|docs/lorenzo-agent/specification/04-q4-character.md] (сходство 0.13)
 

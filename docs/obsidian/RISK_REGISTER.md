@@ -190,13 +190,21 @@ _Курированных рисков: 10 · Из документов: 15_
 - [[05-план-прототипа-и-возможные-контакты]]
 - [[07-выводы]]
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[TECH_RADAR|Tech Radar — Svyazi 2.0]]
+- [[README|docs]]
+- [[TABLES|Все таблицы репозитория]]
+- [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]]
+- [[SITEMAP|Карта репозитория Lorenzo]]
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [RISK_REGISTER](docs/RISK_REGISTER.md) (сходство 0.94)
-- [mvp-plan](docs/svyazi-2-0/prototype/mvp-plan.md) (сходство 0.17)
-- [COMPONENT_MATRIX](docs/obsidian/COMPONENT_MATRIX.md) (сходство 0.17)
+- [[RISK_REGISTER]] (сходство 0.94)
+- [[COMPONENT_MATRIX]] (сходство 0.20)
+- [[ONBOARDING]] (сходство 0.18)
 

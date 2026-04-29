@@ -9,6 +9,15 @@ date: 2026-04-29
 
 # 3. Why Existing Solutions Fail
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Why Existing Solutions Fail Seven existing infrastructure categories partially address the problem but collectively fail to solve it.
+> 🔧 **Подход:** Freelance Platforms (Upwork, Fiverr, Toptal) Approach: Marketplace matching contractors to short-term projects.
+> 🏷️ **Ключевые слова:** `target`, `populations`, `infrastructure`, `summary`, `anthropic`, `existing`, `executive`, `programs`
+>
+
+
 <!-- summary -->
 > Seven existing infrastructure categories partially address the
 
@@ -194,9 +203,22 @@ is this integration.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[155-1-problem-statement|1. Problem Statement]]
+- [[156-2-target-populations|2. Target Populations]]
+- [[153-executive-summary|Executive Summary]]
+- [[154-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[153-executive-summary|Executive Summary]] _25%_
+- [[155-1-problem-statement|1. Problem Statement]] _25%_
+- [[156-2-target-populations|2. Target Populations]] _25%_
+- [[154-table-of-contents|Table of Contents]] _17%_
 ## Связанные документы
 
 - [[153-executive-summary|Executive Summary]] _29%_

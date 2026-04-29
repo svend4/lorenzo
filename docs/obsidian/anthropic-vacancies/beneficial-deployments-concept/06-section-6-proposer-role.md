@@ -1,0 +1,66 @@
+---
+title: "Section 6: Proposer's role и qualifications"
+tags:
+  - anthropic
+  - collaboration
+  - anthropic-vacancies
+date: 2026-04-29
+---
+
+# Section 6: Proposer's role и qualifications
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
+
+---
+<!-- tags: anthropic, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 страниц).
+
+Section 6: Proposer's role и qualifications
+
+You:
+
+Active SGB cases (S 6 SO 58/26 ER, S 7 SO 99/25) — direct domain expertise
+
+Multilingual (Russian, German, English)
+
+Technical background — develops React/TypeScript apps, Make.com automations
+
+Architect of Nautilus federation protocol concepts
+
+Community connections с Russian-speaking AI development community
+
+Why credible:
+
+Real legal cases в process — not theoretical
+
+Existing GitHub portfolio (svend4) demonstrating technical capacity
+
+Series of architectural documents (the nine documents мы produced) showing systematic thinking
+
+Identified working potential collaborators (HMP, Свяжи, etc.)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[03-section-3-solution-architecture]]
+- [[09-section-9-timeliness]]
+- [[07-section-7-success-metrics]]
+- [[08-section-8-risks-mitigations]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[03-section-3-solution-architecture]] (сходство 0.34)
+- [[09-section-9-timeliness]] (сходство 0.32)
+- [[08-section-8-risks-mitigations]] (сходство 0.29)
+

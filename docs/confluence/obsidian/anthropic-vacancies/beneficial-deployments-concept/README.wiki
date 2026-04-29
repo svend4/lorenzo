@@ -1,0 +1,40 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/beneficial-deployments-concept/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "beneficial-deployments-concept"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. beneficial-deployments-concept
+
+_Файлов:_ 12
+
+h2. Содержание
+
+* [[00-context|00-context.md]] — 
+* [[01-section-1-problem|01-section-1-problem.md]] — 
+* [[02-section-2-beneficial-dimension|02-section-2-beneficial-dimension.md]] — 
+* [[03-section-3-solution-architecture|03-section-3-solution-architecture.md]] — 
+* [[04-section-4-sgb-pilot|04-section-4-sgb-pilot.md]] — 
+* [[05-section-5-role-of-anthropic|05-section-5-role-of-anthropic.md]] — > [!TIP]
+* [[06-section-6-proposer-role|06-section-6-proposer-role.md]] — 
+* [[07-section-7-success-metrics|07-section-7-success-metrics.md]] — 
+* [[08-section-8-risks-mitigations|08-section-8-risks-mitigations.md]] — 
+* [[09-section-9-timeliness|09-section-9-timeliness.md]] — 
+* [[10-section-10-engagement-request|10-section-10-engagement-request.md]] — 
+* [[11-not-and-format|11-not-and-format.md]] — 
+
+
+
+----
+
+_Похожие документы:_
+* [[08-section-8-risks-mitigations]] (сходство 0.18)
+* [[09-section-9-timeliness]] (сходство 0.17)
+* [[07-section-7-success-metrics]] (сходство 0.16)
+

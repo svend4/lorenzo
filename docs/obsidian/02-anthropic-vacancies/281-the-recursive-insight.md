@@ -8,6 +8,27 @@ date: 2026-04-29
 
 # The Recursive Insight
 
+<!-- toc -->
+## Содержание
+
+- [The Recursive Insight](#the-recursive-insight)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Recursive Insight There is something subtle in all this that warrants explicit --- The Recursive Insight There is something subtle in all this that warrants explicit attention.
+> ✅ **Результат:** Specifically: Portal Protocol already provides federated query across diverse sources.
+> 🏷️ **Ключевые слова:** `would`, `anthropic`, `vacancies`, `layer`, `nautilus`, `missing`, `there`, `infrastructure`
+>
+
+
 <!-- summary -->
 > There is something subtle in all this that warrants explicit
 
@@ -93,9 +114,26 @@ work.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[155-1-problem-statement|1. Problem Statement]]
+- [[318-10-strategic-positioning|10. Strategic Positioning]]
+- [[150-appendix-c-version-history|Appendix C: Version History]]
+- [[285-closing|Closing]]
+- [[279-existing-approximations|Existing Approximations]]
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]]
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]]
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]] _29%_
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _21%_
+- [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _17%_
+- [[285-closing|Closing]] _17%_
 ## Связанные документы
 
 - [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _29%_

@@ -1,0 +1,99 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/professional-colleague-agents-en/00-abstract.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Professional Colleague Agents
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.{quote}
+
+h1. Professional Colleague Agents
+h2. A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers
+
+_Companion paper to:_
+* Representative Agent Layer v1.0
+* Open Knowledge Work Foundation Concept Document v1.0
+* Double-Triangle Architecture v1.0
+* Nautilus Portal Protocol v1.1
+
+_Version:_ 1.0.0-draft
+_Date:_ 2026-04-26
+_Author:_ svend4
+_Editorial collaboration:_ Claude
+_License:_ CC BY 4.0
+_Status:_ Working paper, seeking reviewers
+
+----
+
+h2. Abstract
+
+Building on the Representative Agent Layer paper, we observe
+that "AI agents on the principal side" is not a single category
+but a structured family of at least five distinct types: Personal
+AI Assistants, Professional Colleague Agents, Institutional
+Agents, Employee Agents, and Representative Agents. Each type
+serves a different need, has different economics, requires
+different governance, and proceeds at a different pace of
+deployment.
+
+This paper develops the Professional Colleague Agent category
+in detail. We argue that Professional Colleague Agents are the
+_lowest-friction, highest-leverage_ entry point for AI
+deployment in skilled professions because they (a) operate
+within already-standardized professional contexts, (b) augment
+rather than replace the human professional, (c) externalize
+no decisions to third parties, (d) replicate across all
+practitioners of a profession with one investment, and (e)
+relieve burdens that practitioners themselves recognize as
+problems.
+
+We document an empirical case study from Russian education
+(the "Obuchay" / "Обучай" service, which grew from zero to
+93,000 teacher-users in seven months in 2025-2026), develop
+formal architecture and design principles, identify specific
+risks unique to this category, and propose a deployment
+strategy specifically applied to the German social-law domain
+relevant to the author's work and to OKWF pilot opportunities.
+
+We argue that Professional Colleague Agents should be the
+_first production deployment_ of foundation-funded AI
+infrastructure, with Representative Agents as a second-phase
+extension once professionals have integrated AI partners into
+their daily work.
+
+----
+
+h2. Table of Contents
+
+1. _The Five-Type Typology of Principal-Side Agents_
+2. _What Makes a Professional Colleague Agent_
+3. _Empirical Case Study: «Обучай»_
+4. _Architecture of Professional Colleague Agents_
+5. _The Economics of Profession-Wide Replication_
+6. _Risks Specific to this Category_
+7. _Application Domains_
+8. _Pilot Proposal: SGB Advocate Colleague_
+9. _Relationship to Other Agent Types_
+10. _Open Questions_
+11. _Call for Collaboration_
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [210-abstract|docs/obsidian/02-anthropic-vacancies/210-abstract.md] (сходство 0.72)
+* [210-abstract|docs/02-anthropic-vacancies/210-abstract.md] (сходство 0.68)
+* [12-closing|docs/nautilus/professional-colleague-agents-en/12-closing.md] (сходство 0.31)
+

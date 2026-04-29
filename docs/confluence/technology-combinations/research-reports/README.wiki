@@ -1,0 +1,23 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/technology-combinations/research-reports/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. research-reports
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [continuation-10-domains.md|continuation-10-domains.md] — 
+* [sozialrecht-35-combinations.md|sozialrecht-35-combinations.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/obsidian/autofilled/README.md] (сходство 0.33)
+* [README|docs/autofilled/README.md] (сходство 0.33)
+* [README|docs/svyazi-2-0/overview/README.md] (сходство 0.29)
+

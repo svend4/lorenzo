@@ -1,6 +1,7 @@
 ---
 title: "Bridging the Gap Between Profession-Wide and Individual-Unique"
 tags:
+  - anthropic
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -8,7 +9,7 @@ date: 2026-04-29
 # Bridging the Gap Between Profession-Wide and Individual-Unique 
 
 <!-- summary -->
-> title: "Bridging the Gap Between Profession-Wide and Individual-Unique"
+> - [[250-bridging-the-gap-between-profession-wide-and-indiv]] (сходство 0.50)
 
 ---
 <!-- tags: anthropic -->
@@ -23,7 +24,5 @@ date: 2026-04-29
 ---
 
 **Похожие документы:**
-- [250-bridging-the-gap-between-profession-wide-and-indiv](docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md) (сходство 0.50)
-- [00-intro-part2](docs/obsidian/01-svyazi/00-intro-part2.md) (сходство 0.24)
-- [ALERTS](docs/obsidian/ALERTS.md) (сходство 0.13)
+- [[250-bridging-the-gap-between-profession-wide-and-indiv]] (сходство 0.50)
 

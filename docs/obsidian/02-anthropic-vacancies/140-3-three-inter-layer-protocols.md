@@ -7,6 +7,16 @@ date: 2026-04-29
 
 # 3. Three Inter-Layer Protocols
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Instead, it issues a structured query that travels: A → N → M → N' → A' → response back through the chain.
+> 🔧 **Подход:** Three Inter-Layer Protocols !IMPORTANT Ключевой документ для понимания архитектуры.
+> ✅ **Результат:** The Node issues tasks to assistants, reviews outputs, integrates results.
+> 🏷️ **Ключевые слова:** `protocol`, `assistant`, `triangle`, `nodes`, `assistants`, `agent`, `anthropic`, `context`
+>
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -72,7 +82,7 @@ integrates team-level outputs. M does not see internal Node
 processes, only public deliverables.
 
 **Existing implementations:** Partial, fragmented. Jira with AI 
-triage, Linear with AI suggestions, GitHub Projects with 
+triage, Linear with AI suggestions, [[03-component-catalog|GitHub]] Projects with 
 automation. None implement the full protocol, all require 
 significant human management intervention.
 
@@ -105,7 +115,7 @@ Instead, it issues a structured query that travels: A → N → M →
 N' → A' → response back through the chain.
 
 **Existing implementations:** None in production systems. Closest 
-analog: GitHub Copilot Workspace can see other team members' 
+analog: [[03-component-catalog|GitHub]] Copilot Workspace can see other team members' 
 public code but cannot negotiate with their assistants. 
 Anthropic's Managed Agents API moves toward this but does not 
 implement full cross-triangle negotiation.
@@ -184,9 +194,28 @@ in distributed systems, adapted for human-AI hybrid execution.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]]
+- [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]]
+- [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]]
+- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]]
+- [[144-7-open-questions|7. Open Questions]]
+- [[136-abstract|Abstract]]
+- [[148-appendix-a-glossary|Appendix A: Glossary]]
+- [[147-references|References]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] _29%_
+- [[148-appendix-a-glossary|Appendix A: Glossary]] _29%_
+- [[136-abstract|Abstract]] _25%_
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _25%_
+- [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _25%_
+- [[144-7-open-questions|7. Open Questions]] _25%_
 ## Связанные документы
 
 - [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] _37%_

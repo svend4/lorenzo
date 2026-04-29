@@ -9,6 +9,16 @@ date: 2026-04-29
 
 # 7. Application Domains
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Application Domains !TIP Документ содержит практические рекомендации и лучшие практики.
+> 🔧 **Подход:** Burden addressed: Literature review, draft writing, methodology selection support, citation management, grant application drafting.
+> ✅ **Результат:** Significant healthcare provider adoption.
+> 🏷️ **Ключевые слова:** `domains`, `application`, `deployment`, `practice`, `practitioners`, `burden`, `addressed`, `existing`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -223,6 +233,11 @@ application drafting.
 - [[219-8-pilot-proposal-sgb-advocate-colleague]]
 
 <!-- backlinks-auto -->
+## Упоминается в
+
+- [[173-4-ten-domains-of-application|4. Ten Domains of Application]]
+- [[261-8-seven-domains-of-application|8. Seven Domains of Application]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
 ## Упоминается в
 
 - [[README|Вакансии Anthropic — Анализ по кластерам]]

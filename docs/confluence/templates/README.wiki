@@ -31,5 +31,5 @@ cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.
 ----
 
 _Смотрите также:_
-* [research-summary|../autofilled/research-summary.md]
+* [research-summary|docs/obsidian/autofilled/research-summary.md]
 

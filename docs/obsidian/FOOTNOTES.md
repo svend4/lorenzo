@@ -7,26 +7,16 @@ date: 2026-04-29
 
 # Сноски и определения терминов
 
-<!-- summary -->
-> title: "Сноски и определения терминов"
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement -->
-
-
-
-
 **Обновлено файлов:** 3  **Вставлено сносок:** 11
 
 ## Словарь сносок
 
 | Термин | Определение | Файлов |
 |--------|-------------|--------|
-| **AgentFS** | OSS-проект: файловая система для AI-агентов (MIT) | 3 |
+| **AgentFS** | OSS-проект: файловая система для AI-агентов (MIT) | 2 |
 | **BSL** | Business Source License — коммерческая лицензия с открытым кодом | 0 |
 | **CRDT** | Conflict-free Replicated Data Type — бесконфликтные данные | 0 |
-| **CardIndex** | OSS-проект: индекс знаний на карточках (MIT) | 3 |
+| **CardIndex** | OSS-проект: индекс знаний на карточках (MIT) | 2 |
 | **Firecrawl** | Инструмент: веб-краулер для AI (MIT) | 0 |
 | **Jaccard** | Коэффициент схожести множеств (0–1) | 0 |
 | **LLM** | Large Language Model — большая языковая модель | 0 |
@@ -35,8 +25,8 @@ date: 2026-04-29
 | **PII** | Personally Identifiable Information — персональные данные | 0 |
 | **RAG** | Retrieval-Augmented Generation — генерация с поиском | 2 |
 | **Rufler** | OSS-проект: оркестратор AI-агентов | 0 |
-| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 0 |
-| **Svyazi** | Главный проект: экосистема AI-компонентов | 0 |
+| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 2 |
+| **Svyazi** | Главный проект: экосистема AI-компонентов | 1 |
 | **TF-IDF** | Term Frequency–Inverse Document Frequency — метрика важности термина | 0 |
 | **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 0 |
 | **knowledge-space** | OSS-проект: база знаний 785+ карточек (MIT) | 0 |
@@ -50,24 +40,3 @@ date: 2026-04-29
 
 [^mcp]: Model Context Protocol — протокол для AI-инструментов
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[08-conclusions]]
-- [[01-executive-summary]]
-- [[CONTRADICTIONS]]
-- [[07-выводы]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [FOOTNOTES](docs/FOOTNOTES.md) (сходство 0.94)
-- [GRAPH](docs/obsidian/GRAPH.md) (сходство 0.20)
-- [08-conclusions](docs/obsidian/01-svyazi/08-conclusions.md) (сходство 0.20)
-

@@ -1,0 +1,234 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/professional-colleague-agents-en/01-five-type-typology.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "1. The Five-Type Typology of Principal-Side Agents"
+tags:
+  * ingestion
+  * architecture
+  * anthropic
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 1. The Five-Type Typology of Principal-Side Agents
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.{quote}
+
+----
+
+
+h2. Содержание
+
+* [1. The Five-Type Typology of Principal-Side Agents|#1-the-five-type-typology-of-principal-side-agents]
+  * [1.1. Type 0 — Personal AI Assistants|#11-type-0-personal-ai-assistants]
+  * [1.2. Type 1 — Professional Colleague Agents|#12-type-1-professional-colleague-agents]
+  * [1.3. Type 2 — Institutional Agents|#13-type-2-institutional-agents]
+  * [1.4. Type 3 — Employee Agents|#14-type-3-employee-agents]
+  * [1.5. Type 4 — Representative Agents|#15-type-4-representative-agents]
+  * [1.6. Layered Architecture on the Principal Side|#16-layered-architecture-on-the-principal-side]
+  * [1.7. Why This Distinction Matters|#17-why-this-distinction-matters]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.{quote}
+
+h2. 1. The Five-Type Typology of Principal-Side Agents
+
+The Representative Agent Layer paper introduced one type of AI
+agent on the principal side. In doing so, it implicitly suggested
+that "AI agent serving a human" is a single category. This
+formulation, on reflection, obscures important distinctions.
+We now identify five distinct types.
+
+h3. 1.1. Type 0 — Personal AI Assistants
+
+_Examples_: ChatGPT, Claude, Cursor, GitHub Copilot, Claude
+Code.
+
+_Function_: General-purpose helper with whatever task the
+user explicitly brings.
+
+_Direction_: Reactive. User initiates, AI responds.
+
+_Specialization_: None. Universal across domains.
+
+_Persistence_: Session-based. Memory limited.
+
+_Replication_: One product serves all users.
+
+_State of art_: Mature. Mass-deployed. Hundreds of millions
+of users.
+
+h3. 1.2. Type 1 — Professional Colleague Agents
+
+_Examples_: «Обучай» (teachers), specialized medical AI
+assistants, parajural AI tools, teacher-specific tutoring AI.
+
+_Function_: Helper specialized for a specific profession.
+Embeds professional knowledge (norms, methodologies, regulations,
+templates) so that practitioners do not have to re-explain
+their context.
+
+_Direction_: Reactive within professional context.
+Practitioner sets task; agent applies professional knowledge.
+
+_Specialization_: Deep, single profession.
+
+_Persistence_: Professional context persists across sessions.
+User's specific work-in-progress may persist.
+
+_Replication_: One product serves all practitioners of the
+profession (millions of teachers, hundreds of thousands of
+medical professionals, etc.).
+
+_State of art_: Emerging. First successful examples like
+«Обучай» exist. Mass deployment beginning.
+
+h3. 1.3. Type 2 — Institutional Agents
+
+_Examples_: AI integrated with school grading systems, court
+filing systems, hospital electronic records, government benefit
+processing.
+
+_Function_: Embedded in institutional infrastructure. Serves
+both the institution and the human practitioner. Bridges
+between individual work and institutional records.
+
+_Direction_: Bidirectional. Institutional rules constrain;
+human work flows into institutional records.
+
+_Specialization_: Both professional and institutional.
+
+_Persistence_: Institutional. Records and decisions persist
+in institutional memory.
+
+_Replication_: One per institution-type, often customized
+per institution.
+
+_State of art_: Early. Some healthcare systems experimenting.
+Major regulatory questions unresolved.
+
+h3. 1.4. Type 3 — Employee Agents
+
+_Examples_: AI handling routine email correspondence
+autonomously. AI conducting initial student examinations. AI
+processing standard insurance claims. AI making first-pass
+hiring screening decisions.
+
+_Function_: Operates within delegated scope of authority,
+making decisions and taking actions independently. Reports
+results to human supervisor.
+
+_Direction_: Autonomous within delegation. Human sets scope;
+AI executes within it.
+
+_Specialization_: Specific task within a profession.
+
+_Persistence_: Operational. Continuous activity within
+scope.
+
+_Replication_: Per-task replication.
+
+_State of art_: Beginning. Significant ethical and regulatory
+challenges. Examples exist but controversial.
+
+h3. 1.5. Type 4 — Representative Agents
+
+_Examples_: None in production. Proposed in Representative
+Agent Layer paper.
+
+_Function_: Represents principal externally — discovers
+opportunities, manages presentation, conducts negotiations,
+protects from harm.
+
+_Direction_: Outward-facing. AI engages with world on
+behalf of principal.
+
+_Specialization_: Deep individual specialization. Each
+principal has unique agent.
+
+_Persistence_: Long-term. Models principal's life arc.
+
+_Replication_: One per principal.
+
+_State of art_: Conceptual. Architecture proposed, no
+production deployment.
+
+h3. 1.6. Layered Architecture on the Principal Side
+
+These five types form a coherent _stack_ on the principal
+side. A single human professional could simultaneously have:
+
+{code}
+[EXTERNAL WORLD]
+↑
+[Representative Agent] (Type 4)
+↑
+[PRINCIPAL]
+↓
+[Professional Colleagues] (Type 1)
+↓
+[Institutional Agents] (Type 2)
+↓
+[Employee Agents] (Type 3)
+↓
+[PROFESSIONAL WORK]
+{code}
+
+Personal AI Assistants (Type 0) do not occupy a fixed layer —
+they function across all layers as utility, used as needed.
+
+This typology is _not_ a hierarchy of capability. Each type
+serves a different function. Type 1 is not "less advanced
+than" Type 4; it is "different from." A mature deployment of
+AI infrastructure for professionals likely involves multiple
+types operating together.
+
+h3. 1.7. Why This Distinction Matters
+
+Each type has fundamentally different characteristics:
+
+|| Property || Type 0 || Type 1 || Type 2 || Type 3 || Type 4 ||
+|| Specialization || None || Profession || Institution+profession || Task || Individual ||
+|| External communication || None || None || Some || Some || Extensive ||
+|| Replicability || Universal || Per profession || Per institution || Per task || Per individual ||
+|| Economics || Subscription || Profession-wide || Institutional || Variable || Individual ||
+|| Ethical concerns || Low || Medium || Medium || High || Highest ||
+|| Regulatory complexity || Low || Medium || High || Highest || Highest ||
+|| Deployment readiness || Mature || Emerging || Early || Beginning || Conceptual ||
+
+Conflating these types in a single discussion produces
+confused analysis. Each requires its own architectural,
+ethical, and economic framework.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[212-1-the-five-type-typology-of-principal-side-agents]]
+* [[226-appendix-a-comparative-table-five-agent-types]]
+* [[09-relationship-other-agents]]
+* [[02-what-makes-pca]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[212-1-the-five-type-typology-of-principal-side-agents]] (сходство 0.91)
+* [[212-1-the-five-type-typology-of-principal-side-agents]] (сходство 0.84)
+* [[226-appendix-a-comparative-table-five-agent-types]] (сходство 0.27)
+

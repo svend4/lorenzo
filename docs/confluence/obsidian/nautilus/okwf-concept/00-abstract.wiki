@@ -1,0 +1,111 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/okwf-concept/00-abstract.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "AI-Coordinated Infrastructure for Distributed Expert Contribution"
+tags:
+  * roadmap
+  * anthropic
+  * collaboration
+  * nautilus
+date: 2026-04-29
+----
+
+h1. AI-Coordinated Infrastructure for Distributed Expert Contribution
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».{quote}
+
+h1. Open Knowledge Work Foundation
+h2. AI-Coordinated Infrastructure for Distributed Expert Contribution
+
+_Concept Document_ 
+_Version:_ 1.0.0-draft 
+_Date:_ 2026-04-19 
+_Author:_ svend4 
+_Editorial collaboration:_ Claude (intellectual development, 2026-04) 
+_Status:_ Working proposal, seeking foundational partners 
+_License:_ CC BY 4.0
+
+----
+
+h2. Executive Summary
+
+The Open Knowledge Work Foundation (OKWF) proposes to build 
+infrastructure that enables qualified individuals outside 
+traditional employment markets to make meaningful, compensated 
+contributions to knowledge-intensive projects through 
+AI-coordinated specialization.
+
+We identify a systemic market failure: frontier AI companies 
+have hundreds of unfilled senior positions (Anthropic alone had 
+440 open roles as of April 2026), while simultaneously, 
+substantial talent pools remain underutilized due to geographic, 
+regulatory, health, or life-stage constraints. This includes 
+retired experts, disabled specialists, career-switchers, and 
+domain experts in non-CS backgrounds. Existing staffing platforms 
+(Deel, Toptal, Upwork, Mercor) treat these populations as 
+transactional labor, not as dignified contributors with persistent 
+professional identity.
+
+OKWF proposes a foundation-funded infrastructure combining:
+
+1. _Nautilus Portal Protocol_ — open technical substrate for 
+federated knowledge work
+2. _Double-Triangle Architecture_ — human-AI collaboration 
+pattern preserving individual autonomy
+3. _Pattern library with private instances_ — compounding 
+shared knowledge without privacy loss
+4. _Guild-based community structure_ — persistent professional 
+identity across engagements
+5. _Graduated participation model_ — entry at any capacity, 
+progression at individual pace
+6. _Subsidiarity-based economic model_ — dignified stipend 
+plus contribution bonuses, not charity and not employment
+
+We propose three-year pilot, initial funding €3-8M, launching 
+in German legal/social domain (which is unusually well-suited 
+due to existing technical infrastructure and author's direct 
+engagement with target populations), expanding to additional 
+domains and geographies based on empirical outcomes.
+
+This document is offered to potential foundation partners, 
+academic collaborators, corporate sponsors, and policy 
+stakeholders as basis for dialogue and refinement.
+
+----
+
+h2. Table of Contents
+
+1. _Problem Statement_
+2. _Target Populations_
+3. _Why Existing Solutions Fail_
+4. _Proposed Infrastructure_
+5. _Economic Model_
+6. _Governance and Ethics_
+7. _Phased Rollout Plan_
+8. _Risk Analysis_
+9. _Call for Partnership_
+10. _Appendices_
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[153-executive-summary]] (сходство 0.78)
+* [[153-executive-summary]] (сходство 0.73)
+* [[10-appendices]] (сходство 0.22)
+

@@ -1,5 +1,10 @@
 # 16. MCP Extension (Informative)
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED
 

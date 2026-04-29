@@ -6,6 +6,16 @@
 h1. 12. Closing
 
 
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ What is new is that we finally have technology capable of providing representation at scale — affordably, persistently, across the full range of human work and need.{quote}
+{quote}🏷️ _Ключевые слова:_ {{closing}}, {{anthropic}}, {{vacancies}}, {{questions}}, {{quality}}, {{human}}, {{сходство}}, {{cinderella}}{quote}
+>
+
+
+
 {quote}The Cinderella Syndrome — quality without visibility —{quote}
 
 ----
@@ -69,9 +79,21 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [1. The Cinderella Syndrome: Why Quality Stays Invisible|170-1-the-cinderella-syndrome-why-quality-stays-invisi.md]
+* [10. Open Questions|179-10-open-questions.md]
+* [Table of Contents|169-table-of-contents.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [Что ты НЕ МОЖЕШЬ делать вообще|353-что-ты-не-можешь-делать-вообще.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Table of Contents|169-table-of-contents.md] _25%_
+* [Executive Summary|153-executive-summary.md] _21%_
+* [Вакансии Anthropic — Анализ по кластерам|README.md] _17%_
 h2. Связанные документы
 
 * [Table of Contents|169-table-of-contents.md] _25%_

@@ -1,0 +1,23 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/community-discussions/habr-article-1-reaction/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. habr-article-1-reaction
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [00-question-habr-link.md|00-question-habr-link.md] — 
+* [01-claude-response.md|01-claude-response.md] — > [!WARNING]
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/community-discussions/habr-article-2-reaction/README.md] (сходство 0.73)
+* [README|docs/nautilus/community-discussions/voiceless-contributors/README.md] (сходство 0.46)
+* [README|docs/nautilus/community-discussions/practical-observations/README.md] (сходство 0.38)
+

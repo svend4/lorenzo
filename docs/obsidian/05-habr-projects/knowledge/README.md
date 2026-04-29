@@ -1,17 +1,24 @@
+---
+title: "Системы знаний"
+tags:
+  - habr-projects
+date: 2026-04-29
+---
+
 # Системы знаний
 
 **Файлов:** 1
 
 ## Содержание
 
-- [wikontic.md](wikontic.md) — ---
+- [[wikontic|wikontic.md]] — Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И…
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/obsidian/05-habr-projects/memory/README.md) (сходство 0.33)
-- [README](docs/obsidian/05-habr-projects/README.md) (сходство 0.27)
-- [README](docs/svyazi-2-0/prototype/README.md) (сходство 0.22)
+- [[wikontic]] (сходство 0.19)
+- [[README]] (сходство 0.17)
+- [[README]] (сходство 0.10)
 

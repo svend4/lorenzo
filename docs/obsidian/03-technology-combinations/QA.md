@@ -7,16 +7,6 @@ date: 2026-04-29
 
 # Q&A: 03-technology-combinations
 
-<!-- summary -->
-> title: "Q&A: 03-technology-combinations"
-**Проекты:** CardIndex, AgentFS, knowledge-space
-
----
-<!-- tags: rag, knowledge, ingestion, architecture -->
-
-
-
-
 _Автоматически сгенерировано по 5 файлам раздела._
 
 ## Как реализован forensic RAG с доказуемостью?
@@ -51,12 +41,18 @@ _Не найдено в этом файле._
 
 _Не найдено в этом файле._
 
-<!-- similar-docs -->
+## Какие кластеры найма выделены у Anthropic?
 
----
+Упоминаются: **research**, **inference**
 
-**Похожие документы:**
-- [QA](docs/03-technology-combinations/QA.md) (сходство 0.72)
-- [QA](docs/lorenzo-agent/QA.md) (сходство 0.41)
-- [QA](docs/obsidian/05-habr-projects/QA.md) (сходство 0.38)
+## Какие роли наиболее релевантны для профиля svend4?
 
+_Не найдено в этом файле._
+
+## Кто ключевые авторы проектов для контакта?
+
+_Не найдено в этом файле._
+
+## Какие вопросы лучше задавать авторам при первом контакте?
+
+_Не найдено в этом файле._

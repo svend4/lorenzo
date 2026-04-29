@@ -1,0 +1,30 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/multi-tier-architecture/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "multi-tier-architecture"
+tags:
+  * nautilus
+date: 2026-04-29
+----
+
+h1. multi-tier-architecture
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [[00-question-multi-tier|00-question-multi-tier.md]] — 
+* [[01-strategic-significance|01-strategic-significance.md]] — > [!WARNING]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.38)
+* [[README]] (сходство 0.33)
+* [[README]] (сходство 0.31)
+

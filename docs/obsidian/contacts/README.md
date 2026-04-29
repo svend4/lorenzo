@@ -1,30 +1,37 @@
+---
+title: "contacts"
+tags:
+  - contacts
+date: 2026-04-29
+---
+
 # contacts
 
 **Файлов:** 14
 
 ## Содержание
 
-- [anastasiyaw.md](anastasiyaw.md) — ---
-- [andrey-chuyan.md](andrey-chuyan.md) — ---
-- [antipozitive.md](antipozitive.md) — ---
-- [cutcode.md](cutcode.md) — ---
-- [dmitriila.md](dmitriila.md) — ---
-- [kksudo.md](kksudo.md) — ---
-- [mixaill76.md](mixaill76.md) — ---
-- [nlaik.md](nlaik.md) — ---
-- [sonia-black.md](sonia-black.md) — ---
-- [spbmolot.md](spbmolot.md) — ---
-- [tagir-analyzes.md](tagir-analyzes.md) — ---
-- [vitalyoborin.md](vitalyoborin.md) — ---
-- [vladspace.md](vladspace.md) — ---
-- [zodigancode.md](zodigancode.md) — ---
+- [[anastasiyaw|anastasiyaw.md]] — <!-- summary -->
+- [[andrey-chuyan|andrey-chuyan.md]] — > [!TIP]
+- [[antipozitive|antipozitive.md]] — > [!TIP]
+- [[cutcode|cutcode.md]] — <!-- summary -->
+- [[dmitriila|dmitriila.md]] — <!-- summary -->
+- [[kksudo|kksudo.md]] — <!-- summary -->
+- [[mixaill76|mixaill76.md]] — <!-- summary -->
+- [[nlaik|nlaik.md]] — > [!TIP]
+- [[sonia-black|sonia-black.md]] — > [!TIP]
+- [[spbmolot|spbmolot.md]] — > [!TIP]
+- [[tagir-analyzes|tagir-analyzes.md]] — <!-- summary -->
+- [[vitalyoborin|vitalyoborin.md]] — > [!TIP]
+- [[vladspace|vladspace.md]] — <!-- summary -->
+- [[zodigancode|zodigancode.md]] — <!-- summary -->
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/contacts/README.md) (сходство 0.95)
-- [AUTHORS](docs/AUTHORS.md) (сходство 0.44)
-- [AUTHORS](docs/obsidian/AUTHORS.md) (сходство 0.35)
+- [[README]] (сходство 0.95)
+- [[AUTHORS]] (сходство 0.42)
+- [[AUTHORS]] (сходство 0.38)
 

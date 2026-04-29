@@ -5,9 +5,14 @@
 
 h1. Контакт: andrey_chuyan / Svyazi
 
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+_Проекты:_ Svyazi, CardIndex
 
 ----
 
@@ -59,31 +64,29 @@ Svyazi закрывает слой «ingestion/CardIndex» в архитекту
 
 h2. Открытые вопросы
 
-1. Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы?
+1. Стоит ли расширять [CardIndex|../docs/01-svyazi/01-executive-summary.md] до person/project/episode/evidence или лучше держать разные индексы?
 2. [Вопрос 2]
 
 ----
 _Создано автоматически: 2026-04-29_
 
 
-h2. Связанные документы
 
-* [Контакт: Cutcode / AIF Handoff|cutcode.md] _66%_
-* [Контакт: Dmitriila / SENTINEL|dmitriila.md] _66%_
-* [Контакт: kksudo / AgentFS|../autofilled/components/kksudo.md] _66%_
-* [Контакт: MiXaiLL76 / Auto AI Router|mixaill76.md] _66%_
-* [Контакт: spbmolot / NGT Memory|../autofilled/components/spbmolot.md] _66%_
-* [Контакт: tagir_analyzes / Legal RAG|tagir-analyzes.md] _66%_
-* [Контакт: VitalyOborin / Yodoca|vitalyoborin.md] _66%_
-* [Контакт: VladSpace / Graph RAG|vladspace.md] _66%_
+----
+
+_Похожие документы:_
+* [nlaik|docs/contacts/nlaik.md] (сходство 0.70)
+* [antipozitive|docs/contacts/antipozitive.md] (сходство 0.70)
+* [vladspace|docs/contacts/vladspace.md] (сходство 0.67)
+
 
 
 
 ----
 
 _Смотрите также:_
-* [vladspace|vladspace.md]
-* [cutcode|cutcode.md]
-* [dmitriila|dmitriila.md]
-* [mixaill76|mixaill76.md]
+* [antipozitive|docs/contacts/antipozitive.md]
+* [nlaik|docs/contacts/nlaik.md]
+* [sonia-black|docs/contacts/sonia-black.md]
+* [spbmolot|docs/contacts/spbmolot.md]
 

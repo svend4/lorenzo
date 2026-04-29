@@ -1,0 +1,93 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/double-triangle-architecture/10-references.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "References"
+tags:
+  * roadmap
+  * anthropic
+  * collaboration
+  * nautilus
+date: 2026-04-29
+----
+
+h1. References
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».{quote}
+
+h2. References
+
+h3. Foundational Sources
+
+* Conway, M. E. (1968). "How do committees invent?" _Datamation_. 
+* Brooks, F. P. (1975). _The Mythical Man-Month_. 
+* Raymond, E. S. (1999). _The Cathedral and the Bazaar_. 
+* Weinberg, G. M. (1971). _The Psychology of Computer Programming_. 
+
+h3. Multi-Agent Systems
+
+* Wooldridge, M. (2009). _An Introduction to MultiAgent Systems_. 
+* Russell, S., & Norvig, P. (2020). _Artificial Intelligence: A Modern Approach_, 4th ed. 
+* Hong, S., et al. (2023). "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework". _arXiv:2308.00352_. 
+
+h3. Protocols and Federation
+
+* Fielding, R. T. (2000). "Architectural Styles and the Design of Network-based Software Architectures". UC Irvine dissertation. 
+* W3C (2018). _ActivityPub_. W3C Recommendation. 
+* Anthropic (2024). _Model Context Protocol Specification_. 
+
+h3. Human-AI Collaboration
+
+* Shneiderman, B. (2022). _Human-Centered AI_. 
+* Amershi, S., et al. (2019). "Guidelines for Human-AI Interaction". _CHI '19_. 
+
+h3. Related Architectures
+
+* Chen, L., & Avizienis, A. (1978). "N-Version Programming: A Fault-Tolerance Approach". _FTCS-8_. 
+* Berners-Lee, T. (2019). _Solid: Re-decentralizing the Web_. 
+
+h3. Pattern Libraries
+
+* Alexander, C. (1977). _A Pattern Language_. 
+* Gamma, E., et al. (1994). _Design Patterns: Elements of Reusable Object-Oriented Software_. 
+
+h3. Primary Reference
+
+* svend4 (2026). _Nautilus Portal Protocol v1.1 Specification_. 
+[[PORTAL-PROTOCOL|github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md]] 
+* svend4 (2026). _Review Methodology: Three-Phase Consolidation_. 
+[[REVIEW_METHODOLOGY|github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md]] 
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[147-references]]
+* [[11-dhlab-documents]]
+* [[09-acknowledgments]]
+* [[13-reference-implementation]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[147-references]] (сходство 0.74)
+* [[147-references]] (сходство 0.70)
+* [[11-dhlab-documents]] (сходство 0.19)
+

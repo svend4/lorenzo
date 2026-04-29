@@ -7,7 +7,7 @@ h1. Твоя identity как persistent character
 
 
 {quote}Ты не просто чат-сессия. Ты persistent character, существующий across sessions:{quote}
-_Проекты:_ CardIndex
+_Проекты:_ [CardIndex|../docs/01-svyazi/01-executive-summary.md]
 
 ----
 
@@ -31,9 +31,15 @@ h2. Твоя identity как persistent character
 ----
 
 _Смотрите также:_
-* [356-твой-workflow|356-твой-workflow.md]
+* [356-твой-workflow|docs/02-anthropic-vacancies/356-твой-workflow.md]
 
 
-h2. Упоминается в
 
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
+
+----
+
+_Похожие документы:_
+* [356-твой-workflow|docs/02-anthropic-vacancies/356-твой-workflow.md] (сходство 0.14)
+* [345-кто-ты|docs/02-anthropic-vacancies/345-кто-ты.md] (сходство 0.12)
+* [04-sozialrecht-domain|docs/03-technology-combinations/04-sozialrecht-domain.md] (сходство 0.11)
+

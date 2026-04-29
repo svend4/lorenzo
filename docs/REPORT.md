@@ -1,33 +1,5 @@
 # Svyazi 2.0 — Knowledge Base Report
 
-<!-- summary -->
-> _Сгенерировано автоматически: 2026-04-29_
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, LiteParse, Graph RAG, Yodoca
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Содержание](#содержание)
-- [Executive Summary](#executive-summary)
-- [Корпус документов](#корпус-документов)
-  - [Общая статистика](#общая-статистика)
-  - [По секциям](#по-секциям)
-- [Ключевые проекты](#ключевые-проекты)
-- [Ключевые сущности](#ключевые-сущности)
-- [Архитектурные решения](#архитектурные-решения)
-- [Открытые вопросы](#открытые-вопросы)
-- [Рекомендуемое чтение](#рекомендуемое-чтение)
-- [Быстрый старт](#быстрый-старт)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 _Сгенерировано автоматически: 2026-04-29_
 
 ---
@@ -46,7 +18,7 @@ _Сгенерировано автоматически: 2026-04-29_
 
 **Svyazi 2.0 — Knowledge Base Report** — аналитический обзор базы знаний, сгенерированный автоматически 2026-04-29.
 
-База содержит **1171 документов** объёмом **956,297 слов** в **20 секциях**. Здоровье репозитория: **77/100/100**, средний балл документов: **71.3/100/100**, словарное богатство (STTR): **0.674**.
+База содержит **1171 документов** объёмом **1,073,843 слов** в **20 секциях**. Здоровье репозитория: **77/100/100**, средний балл документов: **73.0/100/100**, словарное богатство (STTR): **0.637**.
 
 Цель базы знаний — поддержка разработки **Svyazi 2.0**, community intelligence platform, объединяющей лучшие OSS-проекты с Хабра в единую архитектуру Knowledge OS.
 
@@ -57,34 +29,34 @@ _Сгенерировано автоматически: 2026-04-29_
 | Метрика | Значение |
 |---------|----------|
 | Документов | **1171** |
-| Слов | **956,297** |
+| Слов | **1,073,843** |
 | Секций | **20** |
 | Здоровье репо | **77/100/100** |
-| Средний балл | **71.3/100/100** |
-| Словарное богатство (STTR) | **0.674** |
+| Средний балл | **73.0/100/100** |
+| Словарное богатство (STTR) | **0.637** |
 
 ### По секциям
 
 | Секция | Файлов | Слов |
 |--------|--------|------|
-| **obsidian** | 524 | 526,193 |
-| **Anthropic Vacancies** | 357 | 311,673 |
-| **nautilus** | 255 | 148,523 |
-| **anthropic-vacancies** | 111 | 30,884 |
-| **AI Collaborations** | 17 | 26,545 |
-| **lorenzo-agent** | 62 | 19,979 |
-| **habr-unique-projects** | 56 | 13,161 |
-| **technology-combinations** | 53 | 12,903 |
-| **svyazi-2-0** | 59 | 12,455 |
-| **Svyazi 2.0** | 16 | 11,675 |
-| **Habr Projects** | 10 | 9,361 |
-| **ai-collaborations** | 30 | 8,207 |
-| **Contacts** | 15 | 3,151 |
-| **Tech Combinations** | 7 | 3,111 |
-| **glossary** | 4 | 2,282 |
-| **autofilled** | 13 | 1,710 |
-| **Templates** | 6 | 724 |
-| **badges** | 1 | 59 |
+| **obsidian** | 1166 | 1,049,176 |
+| **Anthropic Vacancies** | 357 | 312,388 |
+| **nautilus** | 255 | 153,298 |
+| **anthropic-vacancies** | 111 | 32,927 |
+| **AI Collaborations** | 17 | 26,299 |
+| **lorenzo-agent** | 62 | 21,077 |
+| **habr-unique-projects** | 56 | 14,157 |
+| **technology-combinations** | 53 | 13,849 |
+| **svyazi-2-0** | 59 | 13,565 |
+| **Svyazi 2.0** | 16 | 11,501 |
+| **Habr Projects** | 10 | 9,164 |
+| **ai-collaborations** | 30 | 8,743 |
+| **Contacts** | 15 | 3,163 |
+| **Tech Combinations** | 7 | 3,093 |
+| **glossary** | 4 | 2,354 |
+| **autofilled** | 13 | 1,944 |
+| **Templates** | 6 | 633 |
+| **badges** | 1 | 44 |
 
 ## Ключевые проекты
 
@@ -92,27 +64,27 @@ _Авторы и проекты из CONTACTS.md:_
 
 | Автор | Проект | Слой | Приоритет |
 |-------|--------|------|-----------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 87 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 85 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
 | **Antipozitive** | MemNet | memory | 53 | — |
-| **Cutcode** | AIF Handoff | orchestration | 73 | — |
-| **Dmitriila** | SENTINEL | security | 69 | — |
+| **Cutcode** | AIF Handoff | orchestration | 74 | — |
+| **Dmitriila** | SENTINEL | security | 68 | — |
 | **MiXaiLL76** | Auto AI Router | security | 64 | — |
 | **Sonia_Black** | knowledge-space | knowledge | 33 | — |
-| **VitalyOborin** | Yodoca | memory | 72 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 78 | — |
+| **VitalyOborin** | Yodoca | memory | 70 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 77 | — |
 
 ## Ключевые сущности
 
-- 👤 **anthropic** (people) — упомянут в 746 файлах
-- 📦 **nautilus** (projects) — упомянут в 463 файлах
-- 👤 **claude** (people) — упомянут в 399 файлах
-- 📦 **svyazi** (projects) — упомянут в 295 файлах
-- ⚙️ **mcp** (tech) — упомянут в 291 файлах
-- 🏢 **вк** (orgs) — упомянут в 261 файлах
-- 📦 **github** (projects) — упомянут в 234 файлах
+- 👤 **anthropic** (people) — упомянут в 802 файлах
+- 📦 **nautilus** (projects) — упомянут в 532 файлах
+- 📦 **obsidian** (projects) — упомянут в 432 файлах
+- 👤 **claude** (people) — упомянут в 417 файлах
+- 📦 **svyazi** (projects) — упомянут в 318 файлах
+- ⚙️ **mcp** (tech) — упомянут в 314 файлах
+- 🏢 **вк** (orgs) — упомянут в 273 файлах
+- 📦 **github** (projects) — упомянут в 239 файлах
+- 👤 **svend4** (people) — упомянут в 206 файлах
 - 🏢 **meta** (orgs) — упомянут в 200 файлах
-- 👤 **svend4** (people) — упомянут в 196 файлах
-- ⚙️ **llm** (tech) — упомянут в 188 файлах
 
 ## Архитектурные решения
 
@@ -131,7 +103,7 @@ _Из DECISIONS.md:_
 
 _Из QUESTIONS.md — вопросы, требующие решения:_
 
-- - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md
+- - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.
 - - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A](docs/QA.md)]
 - - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A](docs/QA.md)]
 - - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A](docs/QA.md)]
@@ -169,14 +141,4 @@ python scripts/improve_llm_qa.py --question "Что такое NGT Memory?"
 ```
 
 _Отчёт сгенерирован автоматически скриптом `improve_export_report.py` (2026-04-29)_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [KNOWLEDGE_MAP](docs/KNOWLEDGE_MAP.md) (сходство 0.29)
-- [CONTACTS](docs/CONTACTS.md) (сходство 0.24)
-- [CONTACTS](docs/obsidian/CONTACTS.md) (сходство 0.23)
 

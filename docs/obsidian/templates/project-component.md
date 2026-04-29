@@ -9,14 +9,6 @@ date: 2026-04-29
 
 # [Название компонента]
 
-<!-- summary -->
-> <!-- summary: Краткое описание в 1-2 предложениях -->
-**Проекты:** Svyazi
-
----
-
-
-
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
 
@@ -60,14 +52,4 @@ _Создано: 2026-04-29_
 - [[ensemble]]
 - [[vladspace]]
 - [[cutcode]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [project-component](docs/templates/project-component.md) (сходство 0.87)
-- [contact-outreach](docs/obsidian/templates/contact-outreach.md) (сходство 0.27)
-- [contact-outreach](docs/templates/contact-outreach.md) (сходство 0.20)
 

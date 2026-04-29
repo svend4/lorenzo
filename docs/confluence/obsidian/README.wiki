@@ -12,94 +12,108 @@ date: 2026-04-29
 
 h1. docs
 
-_Файлов:_ 84
+_Файлов:_ 98
 
 h2. Содержание
 
 * [[ABBREVIATIONS|ABBREVIATIONS.md]] — > [!TIP]
 * [[ACTION_ITEMS|ACTION_ITEMS.md]] — > [!TIP]
-* [[ALERTS|ALERTS.md]] — Добавлено _27_ callout-блоков в документы.
+* [[ALERTS|ALERTS.md]] — Добавлено _79_ callout-блоков в документы.
 * [[AUTHORS|AUTHORS.md]] — 
-* [[AUTOFILLED|AUTOFILLED.md]] — _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
-* [[BACKLINKS|BACKLINKS.md]] — _Файлов с входящими ссылками:_ 405
+* [[AUTOFILLED|AUTOFILLED.md]] — 
+* [[BACKLINKS|BACKLINKS.md]] — 
 * [[BROKEN_LINKS|BROKEN_LINKS.md]] — > [!TIP]
-* [[CHANGELOG|CHANGELOG.md]] — Всего коммитов: _49_
+* [[CHANGELOG|CHANGELOG.md]] — Всего коммитов: _81_
 * [[CHANGELOG_AUTO|CHANGELOG_AUTO.md]] — 
 * [[CITATION_INDEX|CITATION_INDEX.md]] — _Обновлено: 2026-04-29_
-* [[CLUSTERS|CLUSTERS.md]] — 
-* [[CODE_BLOCKS|CODE_BLOCKS.md]] — 
-* [[COMPARE|COMPARE.md]] — _Файлов было:_ 347  _стало:_ 524
+* [[CLUSTERS|CLUSTERS.md]] — > [!TIP]
+* [[CODE_BLOCKS|CODE_BLOCKS.md]] — > [!WARNING]
+* [[COMPARE|COMPARE.md]] — _Файлов было:_ 1025  _стало:_ 1695
 * [[COMPLEXITY|COMPLEXITY.md]] — 
-* [[COMPONENT_MATRIX|COMPONENT_MATRIX.md]] — 
-* [[CONCEPTS|CONCEPTS.md]] — 
+* [[COMPONENT_MATRIX|COMPONENT_MATRIX.md]] — > [!TIP]
+* [[CONCEPTS|CONCEPTS.md]] — > [!TIP]
 * [[CONCEPT_GRAPH|CONCEPT_GRAPH.md]] — _Обновлено: 2026-04-29_
-* [[CONSISTENCY|CONSISTENCY.md]] — 
+* [[CONSISTENCY|CONSISTENCY.md]] — Анализ различных написаний одних и тех же терминов.
 * [[CONTACTS|CONTACTS.md]] — | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
-* [[CONTACT_PRIORITY|CONTACT_PRIORITY.md]] — _Обновлено: 2026-04-29_
+* [[CONTACT_PRIORITY|CONTACT_PRIORITY.md]] — 
 * [[CONTENT_GAPS|CONTENT_GAPS.md]] — _Обновлено: 2026-04-29_
-* [[CONTRADICTIONS|CONTRADICTIONS.md]] — 
-* [[COST|COST.md]] — _Ориентировочные цифры на основе документации проекта._
-* [[COVERAGE|COVERAGE.md]] — _Обновлено: 2026-04-29_
+* [[CONTRADICTIONS|CONTRADICTIONS.md]] — _Обновлено: 2026-04-29_
+* [[COST|COST.md]] — 
+* [[COVERAGE|COVERAGE.md]] — 
 * [[CROSSREFS|CROSSREFS.md]] — > [!TIP]
-* [[DECISIONS|DECISIONS.md]] — 
+* [[CROSS_SECTION|CROSS_SECTION.md]] — 
+* [[DECISIONS|DECISIONS.md]] — Автоматически извлечено из всех документов: _369 записей_
 * [[DENSITY|DENSITY.md]] — 
+* [[DEPENDABOT|DEPENDABOT.md]] — _Обновлено: 2026-04-29_
 * [[DEPENDENCY_MAP|DEPENDENCY_MAP.md]] — 
-* [[DIGEST|DIGEST.md]] — _Обновлено: 2026-04-29_
+* [[DIGEST|DIGEST.md]] — 
+* [[DIGEST_AUTO|DIGEST_AUTO.md]] — _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 * [[DIGEST_WEEKLY|DIGEST_WEEKLY.md]] — _Период: последние 7 дней (с 2026-04-22)_
-* [[DUPLICATES|DUPLICATES.md]] — 
-* [[ENTITIES|ENTITIES.md]] — 
-* [[FAQ|FAQ.md]] — 
-* [[FOOTNOTES|FOOTNOTES.md]] — _Обновлено файлов:_ 37  _Вставлено сносок:_ 255
+* [[DUPLICATES|DUPLICATES.md]] — > [!WARNING]
+* [[EMPTY_SECTIONS|EMPTY_SECTIONS.md]] — _Обновлено: 2026-04-29_
+* [[ENTITIES|ENTITIES.md]] — _Файлов просмотрено:_ 1167
+* [[FAQ|FAQ.md]] — _Извлечено: 125 вопросов и ответов_
+* [[FOOTNOTES|FOOTNOTES.md]] — _Обновлено файлов:_ 0  _Вставлено сносок:_ 0
+* [[GITHUB_ISSUES|GITHUB_ISSUES.md]] — _Обновлено: 2026-04-29_
 * [[GLOSSARY|GLOSSARY.md]] — 
 * [[GRAPH|GRAPH.md]] — Рёбра = совместные упоминания в одном файле (≥ 2 раз).
+* [[HEADING_AUDIT|HEADING_AUDIT.md]] — _Обновлено: 2026-04-29_
 * [[HEALTH|HEALTH.md]] — _Обновлено: 2026-04-29_
-* [[HEATMAP|HEATMAP.md]] — 
-* [[INDEX|INDEX.md]] — 
-* [[KEYWORD_INDEX|KEYWORD_INDEX.md]] — _Обновлено: 2026-04-29_
-* [[KPI|KPI.md]] — 
+* [[HEATMAP|HEATMAP.md]] — > [!TIP]
+* [[INDEX|INDEX.md]] — > [!TIP]
+* [[KEYWORD_INDEX|KEYWORD_INDEX.md]] — 
+* [[KNOWLEDGE_MAP|KNOWLEDGE_MAP.md]] — _Обновлено: 2026-04-29_
+* [[KPI|KPI.md]] — > [!TIP]
 * [[KPI_HISTORY|KPI_HISTORY.md]] — _Последнее обновление: 2026-04-29 · Снапшотов в истории: 1_
-* [[LINKS|LINKS.md]] — Всего уникальных URL: 120
+* [[LANGUAGE_STATS|LANGUAGE_STATS.md]] — _Обновлено: 2026-04-29_
+* [[LINKS|LINKS.md]] — Всего уникальных URL: 205
 * [[LLM_SUMMARIES|LLM_SUMMARIES.md]] — 
-* [[METRICS|METRICS.md]] — 
-* [[MINDMAP|MINDMAP.md]] — 
-* [[MISSING|MISSING.md]] — Анализ покрытия ключевых тем и проектов в docs/.
-* [[NAMED_ENTITIES|NAMED_ENTITIES.md]] — 
-* [[NARRATIVE|NARRATIVE.md]] — 
-* [[NETWORK|NETWORK.md]] — 
-* [[ONBOARDING|ONBOARDING.md]] — 
-* [[ORPHANS|ORPHANS.md]] — 
+* [[METRICS|METRICS.md]] — _Файлов:_ 1150  _Средний балл:_ 71.3/100
+* [[MINDMAP|MINDMAP.md]] — ```mermaid
+* [[MISSING|MISSING.md]] — 
+* [[NAMED_ENTITIES|NAMED_ENTITIES.md]] — _Обновлено: 2026-04-29_
+* [[NARRATIVE|NARRATIVE.md]] — _Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._
+* [[NETWORK|NETWORK.md]] — _Узлов:_ 20  _Связей:_ 189
+* [[ONBOARDING|ONBOARDING.md]] — > [!TIP]
+* [[ORPHANS|ORPHANS.md]] — _Найдено:_ 1 файлов без входящих ссылок из 1026 проверено.
 * [[OUTLINE|OUTLINE.md]] — _Обновлено: 2026-04-29_
-* [[PARAGRAPH_QUALITY|PARAGRAPH_QUALITY.md]] — 
+* [[PARAGRAPH_QUALITY|PARAGRAPH_QUALITY.md]] — _Обновлено: 2026-04-29_
+* [[PASSIVE_VOICE|PASSIVE_VOICE.md]] — _Обновлено: 2026-04-29_
 * [[PRIORITIES|PRIORITIES.md]] — > [!TIP]
 * [[PROGRESS|PROGRESS.md]] — _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 * [[QA|QA.md]] — Вопросы и ответы по всем разделам монорепозитория.
-* [[QUESTIONS|QUESTIONS.md]] — 
+* [[QUESTIONS|QUESTIONS.md]] — _Обновлено: 2026-04-29_
 * [[READABILITY|READABILITY.md]] — _Обновлено: 2026-04-29_
+* [[READING_LIST|READING_LIST.md]] — 
 * [[READING_ORDER|READING_ORDER.md]] — От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 * [[READING_TIME|READING_TIME.md]] — _Обновлено: 2026-04-29_
-* [[REPORT|REPORT.md]] — 
-* [[RISK_REGISTER|RISK_REGISTER.md]] — 
-* [[SCHEDULE|SCHEDULE.md]] — _Дорожная карта с вехами и задачами по кварталам._
-* [[SCORING|SCORING.md]] — _Дата: 2026-04-29_
-* [[SEARCH|SEARCH.md]] — _Файлов:_ 523
-* [[SEE_ALSO|SEE_ALSO.md]] — > [!TIP]
-* [[SENTIMENT|SENTIMENT.md]] — 
-* [[SIMILAR|SIMILAR.md]] — 
+* [[REPORT|REPORT.md]] — _Сгенерировано автоматически: 2026-04-29_
+* [[RISK_REGISTER|RISK_REGISTER.md]] — > [!TIP]
+* [[SCHEDULE|SCHEDULE.md]] — 
+* [[SCORING|SCORING.md]] — 
+* [[SEARCH|SEARCH.md]] — _Файлов:_ 1694
+* [[SEARCH_RESULTS|SEARCH_RESULTS.md]] — 
+* [[SEE_ALSO|SEE_ALSO.md]] — 
+* [[SENTIMENT|SENTIMENT.md]] — _Файлов проанализировано:_ 1010
+* [[SIMILAR|SIMILAR.md]] — > [!TIP]
+* [[SIMILAR_PASSAGES|SIMILAR_PASSAGES.md]] — > [!TIP]
 * [[SITEMAP|SITEMAP.md]] — _Обновлено: 2026-04-29_
 * [[SOURCE_MAP|SOURCE_MAP.md]] — _Обновлено: 2026-04-29_
 * [[SPELLCHECK|SPELLCHECK.md]] — _Обновлено: 2026-04-29_
-* [[STALENESS|STALENESS.md]] — _Порог: 30 дней. Обновлено: 2026-04-29_
-* [[STATS|STATS.md]] — _Разделов:_ 10  _Файлов:_ 521  _Слов:_ 471,879  _Символов:_ 4,242,300
-* [[TABLES|TABLES.md]] — 
-* [[TAGS|TAGS.md]] — 
-* [[TECH_RADAR|TECH_RADAR.md]] — 
-* [[TIMELINE|TIMELINE.md]] — 
-* [[TOPIC_MODEL|TOPIC_MODEL.md]] — _Обновлено: 2026-04-29_
-* [[VALIDATION|VALIDATION.md]] — 
+* [[STALENESS|STALENESS.md]] — 
+* [[STATS|STATS.md]] — _Разделов:_ 19  _Файлов:_ 1689  _Слов:_ 1,465,707  _Символов:_ 12,453,947
+* [[SUMMARIES|SUMMARIES.md]] — > [!TIP]
+* [[TABLES|TABLES.md]] — > [!TIP]
+* [[TAGS|TAGS.md]] — Каждый файл помечен тегами по темам автоматически.
+* [[TECH_RADAR|TECH_RADAR.md]] — > [!WARNING]
+* [[TIMELINE|TIMELINE.md]] — _Обновлено: 2026-04-29_
+* [[TOPIC_MODEL|TOPIC_MODEL.md]] — > [!WARNING]
+* [[VALIDATION|VALIDATION.md]] — _Ошибок:_ 0  _Предупреждений:_ 42  _Пройдено:_ 27
 * [[VERSION_DIFF|VERSION_DIFF.md]] — _Обновлено: 2026-04-29_
-* [[VOCABULARY|VOCABULARY.md]] — 
-* [[WORD_CLOUD|WORD_CLOUD.md]] — Визуализация 80 самых частых слов репозитория.
-* [[WORD_FREQ|WORD_FREQ.md]] — 
+* [[VOCABULARY|VOCABULARY.md]] — _Обновлено: 2026-04-29_
+* [[WORD_CLOUD|WORD_CLOUD.md]] — 
+* [[WORD_FREQ|WORD_FREQ.md]] — > [!WARNING]
+* [[reading-paths|reading-paths.md]] — > [!TIP]
 
 h2. Подразделы
 
@@ -108,8 +122,28 @@ h2. Подразделы
 * [03-technology-combinations/|03-technology-combinations/] — Комбинирование технологий для новых свойств
 * [04-ai-collaborations/|04-ai-collaborations/] — Поиск AI-коллабораций
 * [05-habr-projects/|05-habr-projects/] — Уникальные проекты с Хабра
+* [ai-collaborations/|ai-collaborations/] — ai-collaborations
+* [anthropic-vacancies/|anthropic-vacancies/] — anthropic-vacancies
 * [autofilled/|autofilled/] — autofilled
 * [badges/|badges/] — badges
 * [chunks/|chunks/] — chunks
+* [confluence/|confluence/] — confluence
 * [contacts/|contacts/] — contacts
+* [glossary/|glossary/] — glossary
+* [habr-unique-projects/|habr-unique-projects/] — habr-unique-projects
+* [lorenzo-agent/|lorenzo-agent/] — lorenzo-agent
+* [nautilus/|nautilus/] — nautilus
+* [obsidian/|obsidian/] — obsidian
+* [svyazi-2-0/|svyazi-2-0/] — svyazi-2-0
+* [technology-combinations/|technology-combinations/] — technology-combinations
 * [templates/|templates/] — templates
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.51)
+* [[DEPENDENCY_MAP]] (сходство 0.34)
+* [[DEPENDENCY_MAP]] (сходство 0.33)
+

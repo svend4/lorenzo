@@ -5,14 +5,56 @@
 
 h1. CHANGELOG
 
-Всего коммитов: _49_  
-Статистика: ✨ feat: 17 | ⚡ improve: 14 | 🔧 chore: 13 | 🐛 fix: 3 | 📝 docs: 2
+Всего коммитов: _89_  
+Статистика: 🔧 chore: 36 | ✨ feat: 23 | ⚡ improve: 14 | 📝 docs: 9 | 🐛 fix: 7
 
 
-h2. 2026-04-29 (48 коммитов)
+h2. 2026-04-29 (88 коммитов)
 
 h3. 🔧 Обслуживание
 
+* синхронизировать docs после обновления корпуса _7c83cefc_
+  > Авто-сгенерированные изменения после расширения корпуса
+* обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов) _e335cb8f_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+* sync PROGRESS.md _78e6481d_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+* sync PROGRESS.md _d4d34b4a_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+* sync PROGRESS.md _2a9e9403_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+* sync PROGRESS.md _fc65bef5_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+* Audit-driven extraction of major missing substantive content _fedc045a_
+  > After audit of source dialogs against extracted content, 12 major
+* refresh executive report _12dea45c_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+* синхронизировать сгенерированные отчёты и docs _64358a84_
+  > Обновление всех авто-генерируемых файлов после запуска
+* Extract Nautilus Portal Protocol v1.0.0-draft (earlier version) _c6592525_
+  > docs/nautilus/npp-v1-0/ (NEW, 20 files):
+* Extract Nautilus-vs-CAMEL analysis and Habr extra-examples _ee71737e_
+  > docs/anthropic-vacancies/nautilus-vs-camel/ (NEW, 7 files):
+* Extract Hermes Agent comparison and re-prioritization _7822b130_
+  > docs/anthropic-vacancies/hermes-comparison/ (NEW, 15 files):
+* sync PROGRESS.md after content scripts commit _afe64e18_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+* Extract AI-managed virtual company and MMORPG-for-programmers analyses _e965e1cd_
+  > docs/anthropic-vacancies/ai-managed-virtual-company/ (NEW, 12 files):
+* Extract Anthropic outreach concept, collaborator findings, reading paths _088f3f16_
+  > docs/anthropic-vacancies/beneficial-deployments-concept/ (NEW, 13 files):
+* Extract Lorenzo specification questions and phased deployment _9d9d2fee_
+  > The same anthropic-vacancies dialog contained more substantive
+* Extract Three-Phase Review Methodology and operationalized Lorenzo _047d6c06_
+  > docs/nautilus/review-methodology/ (NEW):
+* Extract Lorenzo agent prompt and 4 more DHLab papers _5a34f469_
+  > The same MHTML dialog (anthropic-vacancies) contained even more
+* sync PROGRESS.md after nlpplus scripts commit _78f4f118_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+* Extract Nautilus Portal Protocol RFC and companion papers _cbe83e6e_
+  > The anthropic-vacancies dialog drifted into substantial Nautilus
+* Add profile-mapping, glossary, source-projects index _b552bcfc_
+  > docs/anthropic-vacancies/profile-mapping/:
 * sync CONTRADICTIONS.md (background task output) _89d3e8fb_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 * sync CONTRADICTIONS.md after contradiction_check fix _6b81ffed_
@@ -21,6 +63,8 @@ h3. 🔧 Обслуживание
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 * sync PROGRESS.md after deeptext scripts commit _1d552d4e_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+* Extract MHTML content into topic docs _4b567b23_
+  > Continuation of the monorepo split: parsed each MHTML snapshot and
 * sync PROGRESS.md after session _53bfdbd8_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 * sync generated docs (CONTACTS, HEALTH, METRICS) _5571b369_
@@ -33,18 +77,39 @@ h3. 🔧 Обслуживание
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 * add extract_mhtml.py and ignore pycache _ff8a8161_
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+* Organize repo as monorepo with topic-split docs _d5ddac56_
+  > - Make repo a monorepo (package.json workspaces, pnpm-workspace.yaml,
 * Add files via upload _183c4e9f_
 * Initial commit _6c49dba6_
 h3. 📝 Документация
 
+* auto-update metrics [skip ci] _94be1ad1_
+* auto-update via improve_run_all [skip ci] _ba78ff20_
+* auto-update via improve_run_all [skip ci] _f63f1a9f_
+* auto-update via improve_run_all [skip ci] _039a4a2a_
+* auto-update via improve_run_all [skip ci] _dfc530a0_
+* auto-update via improve_run_all [skip ci] _f73c58f7_
+* auto-update via improve_run_all [skip ci] _8e689b3d_
 * sync PROGRESS.md _4e217f2b_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 * sync PROGRESS.md after adding 16 new scripts _4d237951_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 h3. ✨ Новые функции
 
+* 3 новых скрипта — cross_section, digest_auto, export_report _cd90a751_
+  > improve_cross_section.py (группа analytics):
+* применить auto-linker + gap-filler ко всей базе знаний _ef99f46a_
+  > Практические улучшения контента:
+* improve_reading_list.py — BM25-список чтения по теме _19398486_
+  > Новый скрипт для создания персонализированных списков чтения:
+* ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний _a8455926_
+  > Новые скрипты (группа content + nlpplus):
+* run all script groups, apply TOC/abstracts/crosslinks, rebuild search index _898c42a0_
+  > - All 7 script groups pass clean (quality, analytics, deeptext, meta, textwork, reports, generate)
 * add component matrix, KPI history tracker, fix run_all coverage _69562b02_
   > - improve_component_matrix.py: 14×10 compatibility matrix (memory/search/
+* добавить 8 скриптов группы nlpplus — расширенный NLP-анализ _4bcc9739_
+  > Новые скрипты:
 * add risk register, auto-changelog, master index; fix run_all missing scripts _59617c5d_
   > - improve_risk_register.py: 10 curated risks + 15 extracted from docs,
 * add tech radar, onboarding guide, dependency map, meta group in run_all _4ddee95e_
@@ -79,6 +144,14 @@ h3. ✨ Новые функции
   > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
 h3. 🐛 Исправления
 
+* восстановить 24 файла повреждённых GitHub Actions ботом _643d52de_
+  > Бот (improve_run_all --fast --group reports) на чистом CI-сервере
+* остановить деструктивные авто-обновления от GitHub Actions бота _ee0b767e_
+  > Проблема: бот запускал improve_run_all.py --fast --group reports на чистом
+* fix crosslink root cause (relative paths), map all 125 scripts in dependency map _ed3fa81f_
+  > - Fixed improve_crosslink_all.py: links now use os.path.relpath() instead of
+* fix 8607 broken internal links, improve health score formula _52179ba5_
+  > - Fixed 8607 broken links (absolute → relative paths via improve_broken_links --fix)
 * fix update-docs CI job failures _42f561dd_
   > Three issues fixed:
 * исправить ошибки в deeptext скриптах, добавить выходные файлы _4755dd94_
@@ -121,14 +194,3 @@ h2.  (1 коммитов)
 h3. 🔧 Обслуживание
 
 * preview _- _doc_t_
-
-
-
-----
-
-_Смотрите также:_
-* [CHANGELOG_AUTO|docs/CHANGELOG_AUTO.md]
-* [DEPENDENCY_MAP|docs/DEPENDENCY_MAP.md]
-* [DIGEST|docs/DIGEST.md]
-* [SITEMAP|docs/SITEMAP.md]
-

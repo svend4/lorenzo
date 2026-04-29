@@ -13,6 +13,15 @@ date: 2026-04-29
 
 h1. Appendix A: Glossary
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие практики.{quote}
+{quote}🔧 _Подход:_ - Three-phase review: Methodology for parallel AI-agent review with subsequent consolidation.{quote}
+{quote}🏷️ _Ключевые слова:_ {{triangle}}, {{architecture}}, {{pattern}}, {{anthropic}}, {{vacancies}}, {{double}}, {{library}}, {{bridge}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -100,9 +109,34 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]]
+* [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]]
+* [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]]
+* [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]]
+* [[143-6-four-deployment-domains|6. Four Deployment Domains]]
+* [[144-7-open-questions|7. Open Questions]]
+* [[145-8-call-to-action|8. Call to Action]]
+* [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]]
+* [[136-abstract|Abstract]]
+* [[146-acknowledgments|Acknowledgments]]
+* [[147-references|References]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[133-обратная-связь|Обратная связь]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _29%_
+* [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _29%_
+* [[133-обратная-связь|Обратная связь]] _25%_
+* [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] _25%_
+* [[143-6-four-deployment-domains|6. Four Deployment Domains]] _21%_
+* [[144-7-open-questions|7. Open Questions]] _21%_
+* [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _17%_
+* [[145-8-call-to-action|8. Call to Action]] _17%_
 h2. Связанные документы
 
 * [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _37%_

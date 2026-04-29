@@ -7,49 +7,109 @@ h1. Противоречия в базе знаний
 
 _Обновлено: 2026-04-29_
 
-Утверждений: _32902_ | Противоречий: _4516_
+Утверждений: _66773_ | Противоречий: _9158_
 
 {quote}Автоматический поиск без LLM — возможны ложные срабатывания.{quote}
 
 h2. Найденные противоречия
 
-h3. 1. 🔢 Числовое — 42.0 vs 66.0 (уверенность: 0.8)
+h3. 1. 🔢 Числовое — 6.0 vs 58.0 (уверенность: 0.8)
 
-_Общие ключевые слова:_ {{docs}}, {{liteparse}}, {{nlaik}}, {{research}}
+_Общие ключевые слова:_ {{автор}}, {{вовлечён}}, {{контекст}}, {{непосредственно}}
 
-_A:_ {{docs/contacts/antipozitive.md}}
-{quote}md) 42% - Контакт: nlaik / LiteParse / research-docs(docs/contacts/nlaik{quote}
+_A:_ {{docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md}}
+{quote}Контекст Автор этой статьи непосредственно вовлечён в немецкое социальное право через текущие разбирательства в Sozialgericht (дела S 6 SO 58/26 ER и {quote}
 
-_B:_ {{docs/contacts/sonia-black.md}}
-{quote}md) 66% - Контакт: nlaik / LiteParse / research-docs(docs/contacts/nlaik{quote}
+_B:_ {{docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md}}
+{quote}Контекст Автор этой статьи непосредственно вовлечён в немецкое социальное право через текущие разбирательства в Sozialgericht (дела S 6 SO 58/26 ER и {quote}
 
 ----
 
-h3. 2. 🔢 Числовое — 1017200.0 vs 44.0 (уверенность: 0.8)
+h3. 2. 🔢 Числовое — 1027724.0 vs 26.0 (уверенность: 0.8)
 
-_Общие ключевые слова:_ {{articles}}, {{com}}, {{sequential}}, {{координатора}}
+_Общие ключевые слова:_ {{articles}}, {{com}}, {{было}}, {{конце}}
 
 _A:_ {{docs/04-ai-collaborations/00-intro.md}}
-{quote}com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%{quote}
+{quote}com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект {quote}
 
-_B:_ {{docs/05-habr-projects/memory/memnet.md}}
-{quote}com/ru/articles/1017200/ ) — Sequential протокол лучше координатора на 44%{quote}
-
-----
-
-h3. 3. 🔢 Числовое — 8.0 vs 44.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{sequential}}, {{вместо}}, {{если}}, {{одного}}
-
-_A:_ {{docs/04-ai-collaborations/00-intro.md}}
-{quote}Если поставить вместо одного человека Sequential-протокол из 8 малых агентов на дешёвых моделях, каждый видит результаты предшественников, — получаешь{quote}
-
-_B:_ {{docs/05-habr-projects/memory/memnet.md}}
-{quote}Если поставить вместо одного человека Sequential-протокол из 8 малых агентов на дешёвых моделях, каждый видит результаты предшественников, — получаешь{quote}
+_B:_ {{docs/habr-unique-projects/extra-examples/00-question-habr-examples.md}}
+{quote}com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект {quote}
 
 ----
 
-h3. 4. 🔢 Числовое — 70.0 vs 4.0 (уверенность: 0.8)
+h3. 3. 🔢 Числовое — 9.0 vs 4.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{first}}, {{software}}, {{можно}}, {{собирать}}
+
+_A:_ {{docs/01-svyazi/README.md}}
+{quote}0 уже можно собирать из существующих software‑first кирпичей, не придумывая пол… - 09-architectural-gaps{quote}
+
+_B:_ {{docs/SIMILAR_PASSAGES.md}}
+{quote}0 уже можно собирать из существующих software‑first кирпичей , не придумывая половину архитек ✅ Результат: Самый д B: docs/04-ai-collaborations/07-выв{quote}
+
+----
+
+h3. 4. 🔢 Числовое — 4.0 vs 9.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{first}}, {{software}}, {{можно}}, {{собирать}}
+
+_A:_ {{docs/SIMILAR_PASSAGES.md}}
+{quote}0 уже можно собирать из существующих software‑first кирпичей , не придумывая половину архитек ✅ Результат: Самый д B: docs/04-ai-collaborations/07-выв{quote}
+
+_B:_ {{docs/SUMMARIES.md}}
+{quote}0 уже можно собирать из существующих software‑first кирпичей , не придумывая пол… - 09-architectural-gaps{quote}
+
+----
+
+h3. 5. 🔢 Числовое — 50.0 vs 27.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{docs}}, {{liteparse}}, {{research}}
+
+_A:_ {{docs/EMPTY_SECTIONS.md}}
+{quote}md 1 2 50% research-docs-liteparse{quote}
+
+_B:_ {{docs/LANGUAGE_STATS.md}}
+{quote}md 27% 73% research-docs-liteparse{quote}
+
+----
+
+h3. 6. 🔢 Числовое — 76.0 vs 27.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{components}}, {{docs}}, {{liteparse}}, {{research}}
+
+_A:_ {{docs/PRIORITIES.md}}
+{quote}76 docs/svyazi-2-0/components/research-docs-liteparse{quote}
+
+_B:_ {{docs/VERSION_DIFF.md}}
+{quote}md +27 — — docs/svyazi-2-0/components/research-docs-liteparse{quote}
+
+----
+
+h3. 7. 🔢 Числовое — 76.0 vs 34.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{components}}, {{docs}}, {{liteparse}}, {{research}}
+
+_A:_ {{docs/PRIORITIES.md}}
+{quote}76 docs/svyazi-2-0/components/research-docs-liteparse{quote}
+
+_B:_ {{docs/svyazi-2-0/components/legal-rag.md}}
+{quote}34) - research-docs-liteparse(docs/svyazi-2-0/components/research-docs-liteparse{quote}
+
+----
+
+h3. 8. 🔢 Числовое — 76.0 vs 29.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{components}}, {{docs}}, {{liteparse}}, {{research}}
+
+_A:_ {{docs/PRIORITIES.md}}
+{quote}76 docs/svyazi-2-0/components/research-docs-liteparse{quote}
+
+_B:_ {{docs/svyazi-2-0/components/security-routing-plane.md}}
+{quote}29) - research-docs-liteparse(docs/svyazi-2-0/components/research-docs-liteparse{quote}
+
+----
+
+h3. 9. 🔢 Числовое — 70.0 vs 4.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{второе}}, {{месячная}}, {{одна}}, {{отрезвляющее}}
 
@@ -61,7 +121,19 @@ _B:_ {{docs/CONCEPTS.md}}
 
 ----
 
-h3. 5. 🔢 Числовое — 68.0 vs 8.0 (уверенность: 0.8)
+h3. 10. 🔢 Числовое — 3.0 vs 8.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{годы}}, {{деятельность}}, {{добавить}}, {{областей}}
+
+_A:_ {{docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md}}
+{quote}Фаза 2 — Расширение Областей (Годы 3-4) Деятельность: - Добавить области 2 (профессионалы на пенсии) и 8 (студенты) — обе относительно низкорисковые р{quote}
+
+_B:_ {{docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md}}
+{quote}Фаза 2 — Расширение Областей (Годы 3-4) Деятельность: - Добавить области 2 (профессионалы на пенсии) и 8 (студенты) — обе относительно низкорисковые р{quote}
+
+----
+
+h3. 11. 🔢 Числовое — 68.0 vs 8.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{collaborations}}, {{docs}}, {{добавляет}}, {{продолжение}}
 
@@ -73,31 +145,7 @@ _B:_ {{docs/01-svyazi/08-conclusions.md}}
 
 ----
 
-h3. 6. 🔢 Числовое — 68.0 vs 4.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{collaborations}}, {{docs}}, {{добавляет}}, {{продолжение}}
-
-_A:_ {{docs/01-svyazi/01-executive-summary.md}}
-{quote}68) - 08-что-это-продолжение-добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-_B:_ {{docs/01-svyazi/08-conclusions.md}}
-{quote}md) 53% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-----
-
-h3. 7. 🔢 Числовое — 68.0 vs 37.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{collaborations}}, {{docs}}, {{добавляет}}, {{продолжение}}
-
-_A:_ {{docs/01-svyazi/01-executive-summary.md}}
-{quote}68) - 08-что-это-продолжение-добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-_B:_ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-{quote}md) 37% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-----
-
-h3. 8. 🔢 Числовое — 68.0 vs 4.0 (уверенность: 0.8)
+h3. 12. 🔢 Числовое — 68.0 vs 4.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{collaborations}}, {{docs}}, {{добавляет}}, {{продолжение}}
 
@@ -109,19 +157,7 @@ _B:_ {{docs/VALIDATION.md}}
 
 ----
 
-h3. 9. 🔢 Числовое — 8.0 vs 37.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{collaborations}}, {{docs}}, {{добавляет}}, {{продолжение}}
-
-_A:_ {{docs/01-svyazi/08-conclusions.md}}
-{quote}md) - 08-что-это-продолжение-добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-_B:_ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-{quote}md) 37% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-----
-
-h3. 10. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
+h3. 13. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{collaborations}}, {{docs}}, {{добавляет}}, {{продолжение}}
 
@@ -133,79 +169,55 @@ _B:_ {{docs/04-ai-collaborations/07-выводы.md}}
 
 ----
 
-h3. 11. 🔢 Числовое — 8.0 vs 53.0 (уверенность: 0.8)
+h3. 14. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{collaborations}}, {{docs}}, {{добавляет}}, {{продолжение}}
 
 _A:_ {{docs/01-svyazi/08-conclusions.md}}
 {quote}md) - 08-что-это-продолжение-добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
 
-_B:_ {{docs/04-ai-collaborations/07-выводы.md}}
-{quote}md) 53% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
+_B:_ {{docs/VALIDATION.md}}
+{quote}md: docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
 
 ----
 
-h3. 12. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8)
+h3. 15. 🔢 Числовое — 24.0 vs 7.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{habr}}, {{moltbot}}, {{openclaw}}, {{автономного}}
+
+_A:_ {{docs/04-ai-collaborations/00-intro.md}}
+{quote}Habr Moltbot/OpenClaw добавляет автономного агента 24/7 с инструментами, браузером, почтой, API, фоном и 700+ skills; автор подчёркивает отличие от Ch{quote}
+
+_B:_ {{docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md}}
+{quote}Habr Moltbot/OpenClaw добавляет автономного агента 24/7 с инструментами, браузером, почтой, API, фоном и 700+ skills; автор подчёркивает отличие от Ch{quote}
+
+----
+
+h3. 16. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{добавляет}}, {{продолжение}}
+
+_A:_ {{docs/04-ai-collaborations/README.md}}
+{quote}md(08-что-это-продолжение-добавляет{quote}
+
+_B:_ {{docs/LANGUAGE_STATS.md}}
+{quote}md 58% 42% 08-что-это-продолжение-добавляет{quote}
+
+----
+
+h3. 17. 🔢 Числовое — 22.0 vs 11.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{context}}, {{mcp}}, {{model}}, {{protocol}}
 
-_A:_ {{docs/01-svyazi/08-conclusions.md}}
-{quote}md) - 08-что-это-продолжение-добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
+_A:_ {{docs/01-svyazi/01-executive-summary.md}}
+{quote}22) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo{quote}
 
-_B:_ {{docs/VALIDATION.md}}
-{quote}md: docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-----
-
-h3. 13. 🔢 Числовое — 53.0 vs 37.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{edge}}, {{mcp}}, {{skills}}, {{tinyml}}
-
-_A:_ {{docs/01-svyazi/08-conclusions.md}}
-{quote}md) 53% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-_B:_ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-{quote}md) 37% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
+_B:_ {{docs/01-svyazi/README.md}}
+{quote}11) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов{quote}
 
 ----
 
-h3. 14. 🔢 Числовое — 53.0 vs 4.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{context}}, {{dhlab}}, {{docs}}, {{документы}}
-
-_A:_ {{docs/01-svyazi/08-conclusions.md}}
-{quote}md) 53% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-_B:_ {{docs/04-ai-collaborations/07-выводы.md}}
-{quote}md) 53% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-----
-
-h3. 15. 🔢 Числовое — 53.0 vs 4.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{coder}}, {{context}}, {{embed}}, {{nomic}}
-
-_A:_ {{docs/01-svyazi/08-conclusions.md}}
-{quote}md) 53% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-_B:_ {{docs/VALIDATION.md}}
-{quote}md: docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-----
-
-h3. 16. 🔢 Числовое — 37.0 vs 4.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{docs}}, {{ing}}, {{инструментов}}, {{образец}}
-
-_A:_ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-{quote}md) 37% - Что это продолжение добавляет(docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-_B:_ {{docs/VALIDATION.md}}
-{quote}md: docs/04-ai-collaborations/08-что-это-продолжение-добавляет{quote}
-
-----
-
-h3. 17. 🔢 Числовое — 22.0 vs 785.0 (уверенность: 0.8)
+h3. 18. 🔢 Числовое — 22.0 vs 785.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{context}}, {{mcp}}, {{model}}, {{protocol}}
 
@@ -217,19 +229,43 @@ _B:_ {{docs/04-ai-collaborations/03-карта-найденных-проекто
 
 ----
 
-h3. 18. 🔢 Числовое — 22.0 vs 4.0 (уверенность: 0.8)
+h3. 19. 🔢 Числовое — 22.0 vs 11.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{context}}, {{mcp}}, {{model}}, {{protocol}}
 
 _A:_ {{docs/01-svyazi/01-executive-summary.md}}
 {quote}22) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo{quote}
 
-_B:_ {{docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md}}
-{quote}md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^llm: Large Language Model — большая языковая модель ^pii: Personally Identifiable{quote}
+_B:_ {{docs/SUMMARIES.md}}
+{quote}11 --- ^mcp : Model Context Protocol — протокол для AI-инструментов ^svyazi : Главный проект: экосистема AI-компонентов docs/02-anthropic-vacancies/00{quote}
 
 ----
 
-h3. 19. 🔢 Числовое — 5.0 vs 30.0 (уверенность: 0.8)
+h3. 20. 🔢 Числовое — 11.0 vs 785.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{context}}, {{mcp}}, {{model}}, {{protocol}}
+
+_A:_ {{docs/01-svyazi/README.md}}
+{quote}11) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов{quote}
+
+_B:_ {{docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md}}
+{quote}md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo{quote}
+
+----
+
+h3. 21. 🔢 Числовое — 11.0 vs 16.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{context}}, {{mcp}}, {{model}}, {{protocol}}
+
+_A:_ {{docs/01-svyazi/README.md}}
+{quote}11) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов{quote}
+
+_B:_ {{docs/04-ai-collaborations/README.md}}
+{quote}16) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов{quote}
+
+----
+
+h3. 22. 🔢 Числовое — 5.0 vs 30.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{edge}}, {{mcp}}, {{skills}}, {{tinyml}}
 
@@ -241,146 +277,99 @@ _B:_ {{docs/05-habr-projects/memory/memnet.md}}
 
 ----
 
-h3. 20. 🔢 Числовое — 785.0 vs 4.0 (уверенность: 0.8)
+h3. 23. 🔢 Числовое — 1017200.0 vs 44.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{articles}}, {{com}}, {{sequential}}, {{координатора}}
+
+_A:_ {{docs/04-ai-collaborations/00-intro.md}}
+{quote}com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%{quote}
+
+_B:_ {{docs/05-habr-projects/memory/memnet.md}}
+{quote}com/ru/articles/1017200/ ) — Sequential протокол лучше координатора на 44%{quote}
+
+----
+
+h3. 24. 🔢 Числовое — 1017200.0 vs 44.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{articles}}, {{com}}, {{sequential}}, {{координатора}}
+
+_A:_ {{docs/04-ai-collaborations/00-intro.md}}
+{quote}com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%{quote}
+
+_B:_ {{docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md}}
+{quote}com/ru/articles/1017200/) — Sequential протокол лучше координатора на 44%{quote}
+
+----
+
+h3. 25. 🔢 Числовое — 785.0 vs 16.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{context}}, {{mcp}}, {{model}}, {{protocol}}
 
 _A:_ {{docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md}}
 {quote}md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo{quote}
 
-_B:_ {{docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md}}
-{quote}md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^llm: Large Language Model — большая языковая модель ^pii: Personally Identifiable{quote}
+_B:_ {{docs/04-ai-collaborations/README.md}}
+{quote}16) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов{quote}
 
 ----
 
-h3. 21. 🔢 Числовое — 33.0 vs 8.0 (уверенность: 0.8)
+h3. 26. 🔢 Числовое — 785.0 vs 11.0 (уверенность: 0.8)
 
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
+_Общие ключевые слова:_ {{context}}, {{mcp}}, {{model}}, {{protocol}}
 
-_A:_ {{docs/01-svyazi/01-executive-summary.md}}
-{quote}md) 33% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
+_A:_ {{docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md}}
+{quote}md) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Mo{quote}
 
-_B:_ {{docs/01-svyazi/04-ensembles-overview.md}}
-{quote}md) 33% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
-
-----
-
-h3. 22. 🔢 Числовое — 33.0 vs 8.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
-
-_A:_ {{docs/01-svyazi/01-executive-summary.md}}
-{quote}md) 33% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
-
-_B:_ {{docs/01-svyazi/12-roadmap.md}}
-{quote}md) - 08-conclusions(docs/01-svyazi/08-conclusions{quote}
+_B:_ {{docs/SUMMARIES.md}}
+{quote}11 --- ^mcp : Model Context Protocol — протокол для AI-инструментов ^svyazi : Главный проект: экосистема AI-компонентов docs/02-anthropic-vacancies/00{quote}
 
 ----
 
-h3. 23. 🔢 Числовое — 33.0 vs 8.0 (уверенность: 0.8)
+h3. 27. 🔢 Числовое — 16.0 vs 11.0 (уверенность: 0.8)
 
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
+_Общие ключевые слова:_ {{context}}, {{mcp}}, {{model}}, {{protocol}}
 
-_A:_ {{docs/01-svyazi/01-executive-summary.md}}
-{quote}md) 33% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
+_A:_ {{docs/04-ai-collaborations/README.md}}
+{quote}16) --- ^mcp: Model Context Protocol — протокол для AI-инструментов ^svyazi: Главный проект: экосистема AI-компонентов{quote}
 
-_B:_ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-{quote}md) 25% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
-
-----
-
-h3. 24. 🔢 Числовое — 33.0 vs 8.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
-
-_A:_ {{docs/01-svyazi/01-executive-summary.md}}
-{quote}md) 33% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
-
-_B:_ {{docs/BROKEN_LINKS.md}}
-{quote}md 08 Conclusions docs/01-svyazi/08-conclusions{quote}
+_B:_ {{docs/SUMMARIES.md}}
+{quote}11 --- ^mcp : Model Context Protocol — протокол для AI-инструментов ^svyazi : Главный проект: экосистема AI-компонентов docs/02-anthropic-vacancies/00{quote}
 
 ----
 
-h3. 25. 🔢 Числовое — 33.0 vs 8.0 (уверенность: 0.8)
+h3. 28. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
 
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
+_Общие ключевые слова:_ {{match}}, {{pendingreview}}, {{proposalid}}, {{reviewstate}}
 
-_A:_ {{docs/01-svyazi/01-executive-summary.md}}
-{quote}md) 33% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
+_A:_ {{docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md}}
+{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
 
-_B:_ {{docs/CONTENT_GAPS.md}}
-{quote}md - docs/01-svyazi/08-conclusions{quote}
-
-----
-
-h3. 26. 🔢 Числовое — 33.0 vs 8.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
-
-_A:_ {{docs/01-svyazi/01-executive-summary.md}}
-{quote}md) 33% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
-
-_B:_ {{docs/VALIDATION.md}}
-{quote}md: docs/01-svyazi/08-conclusions{quote}
+_B:_ {{docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md}}
+{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
 
 ----
 
-h3. 27. 🔢 Числовое — 8.0 vs 25.0 (уверенность: 0.8)
+h3. 29. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
 
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
+_Общие ключевые слова:_ {{различение}}, {{слоёв}}, {{трёх}}
 
-_A:_ {{docs/01-svyazi/12-roadmap.md}}
-{quote}md) - 08-conclusions(docs/01-svyazi/08-conclusions{quote}
+_A:_ {{docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md}}
+{quote}Различение трёх слоёв(31-различение-трёх-слоёв) - 3{quote}
 
-_B:_ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-{quote}md) 25% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
-
-----
-
-h3. 28. 🔢 Числовое — 25.0 vs 8.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
-
-_A:_ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-{quote}md) 25% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
-
-_B:_ {{docs/BROKEN_LINKS.md}}
-{quote}md 08 Conclusions docs/01-svyazi/08-conclusions{quote}
+_B:_ {{docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md}}
+{quote}Различение трёх слоёв(31-различение-трёх-слоёв) - 3{quote}
 
 ----
 
-h3. 29. 🔢 Числовое — 25.0 vs 8.0 (уверенность: 0.8)
+h3. 30. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
 
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
+_Общие ключевые слова:_ {{attention}}, {{full}}, {{moe}}, {{ssm}}
 
-_A:_ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-{quote}md) 25% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
+_A:_ {{docs/04-ai-collaborations/00-intro.md}}
+{quote}5: 4 слоя full attention + 36 слоёв SSM + MoE-роутер с 8+1 экспертами на слой{quote}
 
-_B:_ {{docs/CONTENT_GAPS.md}}
-{quote}md - docs/01-svyazi/08-conclusions{quote}
-
-----
-
-h3. 30. 🔢 Числовое — 25.0 vs 8.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{conclusions}}, {{docs}}, {{svyazi}}
-
-_A:_ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-{quote}md) 25% - 08 Conclusions(docs/01-svyazi/08-conclusions{quote}
-
-_B:_ {{docs/VALIDATION.md}}
-{quote}md: docs/01-svyazi/08-conclusions{quote}
+_B:_ {{docs/05-habr-projects/memory/memnet.md}}
+{quote}5: 4 слоя full attention + 36 слоёв SSM + MoE-роутер с 8+1 экспертами на слой{quote}
 
 ----
-
-
-
-
-----
-
-_Смотрите также:_
-* [PRIORITIES|docs/PRIORITIES.md]
-* [07-выводы|docs/04-ai-collaborations/07-выводы.md]
-* [08-что-это-продолжение-добавляет|docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md]
-* [01-executive-summary|docs/04-ai-collaborations/01-executive-summary.md]
 

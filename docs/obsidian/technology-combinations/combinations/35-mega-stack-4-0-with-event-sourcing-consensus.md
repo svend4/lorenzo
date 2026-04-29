@@ -1,0 +1,150 @@
+---
+title: "Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus"
+tags:
+  - technology-combinations
+date: 2026-04-29
+---
+
+# Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag, orchestration, local-first, architecture, anthropic -->
+
+
+
+
+> Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+Complete architecture combining ALL 35 combinations:
+
+┌─ DISTRIBUTED COORDINATION ──────────────────────────┐
+│ Raft: multi-agent cluster coordination │
+│ Paxos: geo-replicated event store │
+│ Leader election, log replication, consensus │
+└──────────────────────────────────────────────────────┘
+↓
+┌─ EVENT SOURCING LAYER ──────────────────────────────┐
+│ Immutable event log (all legal actions) │
+│ Time-travel queries (replay to any date) │
+│ Audit trail (complete history) │
+└──────────────────────────────────────────────────────┘
+↓
+┌─ CQRS (Command/Query Separation) ───────────────────┐
+│ Write Model: Commands → Events → Kafka │
+│ Read Models (multiple projections): │
+│ - PostgreSQL 18 async (current state, OLTP) │
+│ - ClickHouse (analytics, OLAP, 100M rows/sec) │
+│ - Elasticsearch (full-text search) │
+│ - Graph DB (precedent links) │
+└──────────────────────────────────────────────────────┘
+↓
+┌─ STORAGE & ANALYTICS (from v3.0) ───────────────────┐
+│ Event Store: Kafka + ClickHouse │
+│ CRDT: P2P sync, offline-capable │
+│ TimescaleDB: time-series queries │
+└──────────────────────────────────────────────────────┘
+↓
+┌─ AGENT ORCHESTRATION (from v2.0) ───────────────────┐
+│ Raft cluster: distributed agents │
+│ Sequential + Adversarial + Router │
+│ OpenTelemetry: distributed tracing │
+└──────────────────────────────────────────────────────┘
+
+New capabilities:
+
+Event Sourcing: Complete audit trail, time-travel queries
+
+CQRS: Multiple read models from single event stream
+
+Consensus: Raft (multi-agent) + Paxos (geo-replication)
+
+Fault tolerance: No single point of failure
+
+Performance:
+
+Event ingestion: 500k events/sec (Kafka)
+
+Analytics: <500ms on 50M events (ClickHouse)
+
+Consensus: <100ms leader election (Raft)
+
+Replication: <1sec cross-datacenter (Paxos)
+
+EXTENDED SYNTHESIS TABLE (Complete 1-35)
+
+| # | Components | Result | Impact
+| 31 | Event Sourcing + CQRS + ClickHouse | Audit-complete legal case mgmt | Time-travel queries
+| 32 | Raft + Multi-agent + CRDT | Consensus-based agent cluster | Fault-tolerant coordination
+| 33 | Event Sourcing + Kafka + ClickHouse | Real-time legal analytics | Write once, read many ways
+| 34 | Paxos + Event Store + Multi-DC | Geo-replicated document store | Byzantine fault tolerance
+| 35 | ALL ABOVE | Complete distributed legal-AI | Production-grade resilience
+
+First implementation for Max:
+Комбинация 31 (Event-Sourced Legal History) — immediate benefits:
+
+Every action logged immutably
+
+Time-travel: "show case status on 2024-06-15"
+
+Audit trail for court compliance
+
+ClickHouse analytics on event stream
+
+Implementation:
+
+python
+
+# Events
+class AntragSubmitted(BaseModel):
+case_id: str
+date: date
+content: str
+
+class BescheidReceived(BaseModel):
+case_id: str
+decision: str
+deadline: date
+
+# Event Store
+events = [] # append-only
+events.append(AntragSubmitted(...))
+events.append(BescheidReceived(...))
+
+# Time-travel query
+def get_state_at(case_id, target_date):
+return replay_events(
+[e for e in events if e.date <= target_date]
+)
+
+Alternative: Комбинация 32 (Raft multi-agent) — если нужна multi-machine координация.
+
+Продолжить поиск новых направлений или углубиться в практическую реализацию найденных комбинаций?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[31-35-final]]
+- [[04-event-sourcing-consensus]]
+- [[33-event-sourcing-cqrs-clickhouse-analytics]]
+- [[31-event-sourced-legal-document-history]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[31-35-final]] (сходство 0.49)
+- [[04-event-sourcing-consensus]] (сходство 0.41)
+- [[33-event-sourcing-cqrs-clickhouse-analytics]] (сходство 0.36)
+

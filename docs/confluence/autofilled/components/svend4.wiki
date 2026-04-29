@@ -29,6 +29,16 @@ h2. Ссылки
 
 h2. Связанные документы
 
+* [Cowork|cowork.md] _90%_
+* [ingit|ingit.md] _90%_
+* [kksudo|kksudo.md] _90%_
+* [Lorenzo|lorenzo.md] _90%_
+* [Nautilus|nautilus.md] _90%_
+* [SGB|sgb.md] _90%_
+* [spbmolot|spbmolot.md] _90%_
+* [Svyazi|svyazi.md] _90%_
+h2. Связанные документы
+
 * [SGB|sgb.md] _90%_
 * [Svyazi|svyazi.md] _90%_
 * [Антропик|.md] _83%_
@@ -47,4 +57,21 @@ _Смотрите также:_
 * [cowork|cowork.md]
 * [ingit|ingit.md]
 * [lorenzo|lorenzo.md]
+
+
+h2. Упоминается в
+
+* [components|README.md]
+* [Автозаполненные шаблоны|../../AUTOFILLED.md]
+* [Все таблицы репозитория|../../TABLES.md]
+* [Карта репозитория Lorenzo|../../SITEMAP.md]
+
+
+
+----
+
+_Похожие документы:_
+* [svyazi|docs/autofilled/components/svyazi.md] (сходство 1.00)
+* [sgb|docs/autofilled/components/sgb.md] (сходство 1.00)
+* [nautilus|docs/autofilled/components/nautilus.md] (сходство 1.00)
 

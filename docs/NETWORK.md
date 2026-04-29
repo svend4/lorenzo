@@ -1,93 +1,62 @@
 # Сеть проектов и авторов
 
-<!-- summary -->
-> **Андрей (kksudo)** → **Svyazi** (45), **AgentFS** (38), **knowledge-space** (37), **Yodoca** (35), **NGT** (35), **CardIndex** (32), **mclaude** (26), **LiteParse** (25)
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, collaboration -->
-
-
-
-
-**Узлов:** 20  **Связей:** 189
+**Узлов:** 20  **Связей:** 190
 
 ## Топ-20 ко-упоминаемых пар
 
 | Пара | Общих файлов |
 |------|-------------|
-| **Cowork** ↔ **ingit** | 138 |
-| **Svyazi** ↔ **Yodoca** | 123 |
-| **Svyazi** ↔ **CardIndex** | 119 |
-| **Svyazi** ↔ **NGT** | 117 |
-| **Yodoca** ↔ **NGT** | 102 |
-| **Svyazi** ↔ **AgentFS** | 90 |
-| **Svyazi** ↔ **MemNet** | 88 |
-| **Svyazi** ↔ **knowledge-space** | 85 |
-| **CardIndex** ↔ **NGT** | 82 |
-| **Svyazi** ↔ **mclaude** | 80 |
-| **CardIndex** ↔ **Yodoca** | 78 |
-| **AgentFS** ↔ **NGT** | 78 |
-| **Svyazi** ↔ **Rufler** | 76 |
-| **AgentFS** ↔ **Yodoca** | 75 |
-| **CardIndex** ↔ **AgentFS** | 74 |
-| **Svyazi** ↔ **AI Factory** | 72 |
-| **Svyazi** ↔ **LiteParse** | 72 |
-| **AgentFS** ↔ **knowledge-space** | 70 |
-| **NGT** ↔ **knowledge-space** | 67 |
-| **Yodoca** ↔ **knowledge-space** | 66 |
+| **Cowork** ↔ **ingit** | 270 |
+| **Svyazi** ↔ **NGT** | 198 |
+| **Svyazi** ↔ **Yodoca** | 197 |
+| **Yodoca** ↔ **NGT** | 182 |
+| **Svyazi** ↔ **CardIndex** | 172 |
+| **Svyazi** ↔ **AgentFS** | 161 |
+| **AgentFS** ↔ **NGT** | 147 |
+| **AgentFS** ↔ **Yodoca** | 141 |
+| **CardIndex** ↔ **NGT** | 140 |
+| **Svyazi** ↔ **knowledge-space** | 136 |
+| **Svyazi** ↔ **Rufler** | 133 |
+| **Svyazi** ↔ **Lorenzo** | 129 |
+| **CardIndex** ↔ **AgentFS** | 129 |
+| **CardIndex** ↔ **Yodoca** | 129 |
+| **Svyazi** ↔ **mclaude** | 127 |
+| **Cowork** ↔ **Lorenzo (svend4)** | 124 |
+| **Svyazi** ↔ **LiteParse** | 121 |
+| **Svyazi** ↔ **MemNet** | 120 |
+| **AgentFS** ↔ **knowledge-space** | 119 |
+| **NGT** ↔ **knowledge-space** | 118 |
 
 ## Центральность узлов (влиятельность)
 
 | Узел | Балл центральности | Тип |
 |------|--------------------|-----|
-| **Svyazi** | 1347 | 📦 Проект |
-| **NGT** | 1041 | 📦 Проект |
-| **Yodoca** | 1014 | 📦 Проект |
-| **CardIndex** | 949 | 📦 Проект |
-| **AgentFS** | 894 | 📦 Проект |
-| **knowledge-space** | 848 | 📦 Проект |
-| **mclaude** | 756 | 📦 Проект |
-| **Rufler** | 749 | 📦 Проект |
-| **MemNet** | 721 | 📦 Проект |
-| **LiteParse** | 717 | 📦 Проект |
-| **AI Factory** | 689 | 📦 Проект |
-| **SENTINEL** | 607 | 📦 Проект |
-| **Lorenzo (svend4)** | 573 | 👤 Автор |
-| **Cowork** | 558 | 📦 Проект |
-| **ingit** | 522 | 📦 Проект |
-| **Андрей (kksudo)** | 506 | 👤 Автор |
-| **Lorenzo** | 495 | 📦 Проект |
-| **Виталий (spbmolot)** | 467 | 👤 Автор |
-| **Wikontic** | 395 | 📦 Проект |
-| **Firecrawl** | 182 | 📦 Проект |
+| **Svyazi** | 2363 | 📦 Проект |
+| **NGT** | 1900 | 📦 Проект |
+| **Yodoca** | 1814 | 📦 Проект |
+| **AgentFS** | 1675 | 📦 Проект |
+| **CardIndex** | 1603 | 📦 Проект |
+| **knowledge-space** | 1483 | 📦 Проект |
+| **Rufler** | 1416 | 📦 Проект |
+| **mclaude** | 1322 | 📦 Проект |
+| **LiteParse** | 1310 | 📦 Проект |
+| **SENTINEL** | 1219 | 📦 Проект |
+| **Lorenzo** | 1182 | 📦 Проект |
+| **Андрей (kksudo)** | 1173 | 👤 Автор |
+| **AI Factory** | 1162 | 📦 Проект |
+| **MemNet** | 1151 | 📦 Проект |
+| **Cowork** | 1134 | 📦 Проект |
+| **ingit** | 1127 | 📦 Проект |
+| **Виталий (spbmolot)** | 1090 | 👤 Автор |
+| **Lorenzo (svend4)** | 1061 | 👤 Автор |
+| **Wikontic** | 710 | 📦 Проект |
+| **Firecrawl** | 357 | 📦 Проект |
 
 ## Авторы ↔ Проекты
 
-**Андрей (kksudo)** → **Svyazi** (45), **AgentFS** (38), **knowledge-space** (37), **Yodoca** (35), **NGT** (35), **CardIndex** (32), **mclaude** (26), **LiteParse** (25)
+**Андрей (kksudo)** → **Svyazi** (112), **AgentFS** (83), **Yodoca** (79), **NGT** (79), **knowledge-space** (71), **Lorenzo** (68), **ingit** (60), **CardIndex** (59)
 
-**Виталий (spbmolot)** → **Svyazi** (44), **NGT** (36), **Yodoca** (34), **AgentFS** (33), **knowledge-space** (33), **CardIndex** (29), **LiteParse** (22), **mclaude** (22)
+**Виталий (spbmolot)** → **Svyazi** (112), **NGT** (77), **Yodoca** (76), **AgentFS** (75), **knowledge-space** (65), **Lorenzo** (61), **Cowork** (55), **ingit** (55)
 
-**Lorenzo (svend4)** → **Svyazi** (65), **MemNet** (61), **Cowork** (61), **ingit** (51), **NGT** (37), **Lorenzo** (35), **CardIndex** (33), **Yodoca** (29)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [ENTITIES](docs/ENTITIES.md)
-- [GRAPH](docs/GRAPH.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [MINDMAP](docs/MINDMAP.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [NETWORK](docs/obsidian/NETWORK.md) (сходство 0.93)
-- [GRAPH](docs/GRAPH.md) (сходство 0.40)
-- [ENTITIES](docs/ENTITIES.md) (сходство 0.36)
+**Lorenzo (svend4)** → **Cowork** (124), **ingit** (114), **Svyazi** (108), **MemNet** (79), **Lorenzo** (79), **NGT** (65), **Yodoca** (52), **CardIndex** (50)
 

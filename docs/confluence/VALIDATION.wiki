@@ -5,16 +5,16 @@
 
 h1. Валидация структуры репозитория
 
-_Ошибок:_ 0  _Предупреждений:_ 17  _Пройдено:_ 27
+_Ошибок:_ 0  _Предупреждений:_ 22  _Пройдено:_ 27
 
 h2. Сводка
 
 || Проверка || Статус || Проблем ||
 || Разделы и README || ✅ || 0 ||
 || Мета-файлы || ✅ || 0 ||
-|| Пустые/короткие файлы || ⚠️ || 6 ||
+|| Пустые/короткие файлы || ⚠️ || 2 ||
 || Именование файлов || ✅ || 10 ||
-|| Заголовки H1 || ⚠️ || 11 ||
+|| Заголовки H1 || ⚠️ || 20 ||
 || Внутренние ссылки || ✅ || 15 ||
 
 h2. ✅ Разделы и README
@@ -27,11 +27,8 @@ _Всё в порядке_
 
 h2. Пустые/короткие файлы
 
-* ⚠️ Слишком короткий файл: {{docs/01-svyazi/00-intro-part2.md}} (6 слов)
-* ⚠️ Слишком короткий файл: {{docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md}} (16 слов)
-* ⚠️ Слишком короткий файл: {{docs/05-habr-projects/knowledge/README.md}} (13 слов)
-* ⚠️ Слишком короткий файл: {{docs/05-habr-projects/memory/README.md}} (25 слов)
-* ⚠️ Слишком короткий файл: {{docs/autofilled/README.md}} (18 слов)
+* ⚠️ Слишком короткий файл: {{docs/ai-collaborations/channels/README.md}} (25 слов)
+* ⚠️ Слишком короткий файл: {{docs/obsidian/05-habr-projects/knowledge/README.md}} (29 слов)
 
 h2. Именование файлов
 
@@ -59,36 +56,34 @@ h2. Заголовки H1
 * ⚠️ Нет заголовка H1: {{docs/01-svyazi/12-roadmap.md}}
 * ⚠️ Нет заголовка H1: {{docs/01-svyazi/13-contacts.md}}
 * ⚠️ Нет заголовка H1: {{docs/01-svyazi/14-limitations.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/03-component-catalog.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/04-ensembles-overview.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/06-security-privacy.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/07-mvp-planning.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/08-conclusions.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/09-architectural-gaps.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/10-second-order-ensembles.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/11-integration-contracts.md}}
+* ⚠️ Нет заголовка H1: {{docs/obsidian/01-svyazi/12-roadmap.md}}
 
 h2. Внутренние ссылки
 
+* 🔗 Сломана ссылка в {{docs/01-svyazi/00-intro-part2.md}}: {{docs/obsidian/01-svyazi/00-intro-part2.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/00-intro-part2.md}}: {{docs/obsidian/01-svyazi/00-intro-part2.md}}
 * 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/04-ai-collaborations/01-executive-summary.md}}
 * 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md}}
 * 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/04-ai-collaborations/07-выводы.md}}
-* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/04-ai-collaborations/01-executive-summary.md}}
-* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/04-ai-collaborations/07-выводы.md}}
-* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/01-svyazi/08-conclusions.md}}
-* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/01-svyazi/10-second-order-ensembles.md}}
-* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md}}
-* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/GRAPH.md}}
-* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/01-svyazi/07-mvp-planning.md}}
-* 🔗 Сломана ссылка в {{docs/01-svyazi/01-executive-summary.md}}: {{docs/01-svyazi/09-architectural-gaps.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{../docs/01-svyazi/01-executive-summary.md}}
 * 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
 * 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/README.md}}
 * 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
 * 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/01-executive-summary.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/02-methodology.md}}: {{docs/DUPLICATES.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/03-component-catalog.md}}: {{docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/03-component-catalog.md}}: {{docs/TABLES.md}}
+* 🔗 Сломана ссылка в {{docs/01-svyazi/03-component-catalog.md}}: {{docs/04-ai-collaborations/04-приоритетные-ансамбли.md}}
 
 h2. Итог
 
-⚠️ _17 предупреждений_ — рекомендуется исправить.
-
-
-
-----
-
-_Смотрите также:_
-* [COMPARE|COMPARE.md]
-* [LLM_SUMMARIES|LLM_SUMMARIES.md]
-* [SITEMAP|SITEMAP.md]
-* [CONTENT_GAPS|CONTENT_GAPS.md]
-
+⚠️ _22 предупреждений_ — рекомендуется исправить.

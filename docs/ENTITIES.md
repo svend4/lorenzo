@@ -7,83 +7,83 @@
 
 | Имя | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Lorenzo** | 3773 | 276 |
-| **svend4** | 2335 | 367 |
-| **kksudo** | 400 | 125 |
-| **spbmolot** | 381 | 127 |
-| **Андрей** | 195 | 62 |
-| **Виталий** | 84 | 43 |
-| **Антропик** | 56 | 33 |
+| **Lorenzo** | 3900 | 274 |
+| **svend4** | 2471 | 369 |
+| **kksudo** | 446 | 126 |
+| **spbmolot** | 431 | 127 |
+| **Андрей** | 210 | 63 |
+| **Виталий** | 92 | 43 |
+| **Антропик** | 59 | 33 |
 
 ## Проекты (22)
 
 | Проект | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Nautilus** | 10635 | 805 |
-| **Svyazi** | 7149 | 476 |
-| **Cowork** | 4520 | 333 |
-| **ingit** | 4296 | 307 |
-| **Lorenzo** | 3773 | 276 |
-| **SGB** | 2092 | 331 |
-| **CardIndex** | 1308 | 203 |
-| **AgentFS** | 1281 | 176 |
-| **Yodoca** | 1269 | 223 |
-| **NGT** | 1220 | 254 |
-| **knowledge-space** | 978 | 159 |
-| **MemNet** | 747 | 174 |
-| **mclaude** | 695 | 136 |
-| **Rufler** | 686 | 142 |
-| **LiteParse** | 574 | 128 |
-| **SENTINEL** | 523 | 129 |
-| **AI Factory** | 513 | 118 |
-| **Wikontic** | 371 | 78 |
-| **Firecrawl** | 213 | 34 |
-| **agent-memory-mcp** | 148 | 57 |
-| **MCP Tool Search** | 25 | 12 |
-| **Shield** | 25 | 14 |
+| **Nautilus** | 10824 | 806 |
+| **Svyazi** | 7572 | 470 |
+| **Cowork** | 4631 | 333 |
+| **ingit** | 4420 | 310 |
+| **Lorenzo** | 3900 | 274 |
+| **SGB** | 2168 | 331 |
+| **Yodoca** | 1349 | 223 |
+| **CardIndex** | 1346 | 204 |
+| **AgentFS** | 1333 | 176 |
+| **NGT** | 1295 | 254 |
+| **knowledge-space** | 1032 | 159 |
+| **MemNet** | 771 | 174 |
+| **Rufler** | 736 | 142 |
+| **mclaude** | 722 | 136 |
+| **LiteParse** | 605 | 129 |
+| **SENTINEL** | 574 | 128 |
+| **AI Factory** | 536 | 118 |
+| **Wikontic** | 392 | 79 |
+| **Firecrawl** | 224 | 34 |
+| **agent-memory-mcp** | 166 | 57 |
+| **MCP Tool Search** | 29 | 12 |
+| **Shield** | 27 | 14 |
 
 ## Организации (9)
 
 | Организация | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Anthropic** | 23590 | 1303 |
-| **Claude** | 4794 | 894 |
-| **Habr** | 3970 | 401 |
-| **GitHub** | 2829 | 415 |
-| **Obsidian** | 1877 | 662 |
-| **Хабр** | 866 | 188 |
-| **Google** | 138 | 58 |
-| **OpenAI** | 133 | 74 |
-| **ChatGPT** | 116 | 73 |
+| **Anthropic** | 24809 | 1299 |
+| **Claude** | 4908 | 893 |
+| **Habr** | 4283 | 396 |
+| **GitHub** | 3159 | 418 |
+| **Obsidian** | 2890 | 639 |
+| **Хабр** | 912 | 188 |
+| **Google** | 141 | 58 |
+| **OpenAI** | 137 | 74 |
+| **ChatGPT** | 121 | 72 |
 
 ## Технологии и стандарты (24)
 
 | Технология | Упоминаний | Файлов |
 |---------|------------|--------|
-| **RAG** | 3791 | 543 |
-| **MCP** | 3742 | 493 |
-| **MIT** | 2835 | 541 |
-| **LLM** | 1776 | 350 |
-| **JSON** | 963 | 207 |
-| **Python** | 690 | 209 |
-| **REST** | 614 | 222 |
-| **YAML** | 378 | 155 |
-| **CRDT** | 365 | 84 |
-| **Rust** | 241 | 123 |
-| **BSL** | 198 | 86 |
-| **Apache** | 189 | 94 |
-| **SQLite** | 129 | 49 |
-| **Mermaid** | 115 | 44 |
-| **PostgreSQL** | 64 | 37 |
-| **LangChain** | 51 | 33 |
-| **TF-IDF** | 47 | 27 |
-| **TypeScript** | 46 | 28 |
-| **FAISS** | 37 | 22 |
-| **WebSocket** | 25 | 18 |
-| **FastAPI** | 19 | 11 |
-| **JWT** | 13 | 10 |
-| **GraphQL** | 10 | 9 |
-| **OAuth** | 8 | 6 |
+| **MCP** | 3904 | 493 |
+| **RAG** | 3867 | 544 |
+| **MIT** | 2937 | 537 |
+| **LLM** | 1854 | 347 |
+| **JSON** | 997 | 206 |
+| **Python** | 708 | 209 |
+| **REST** | 630 | 223 |
+| **YAML** | 399 | 155 |
+| **CRDT** | 385 | 84 |
+| **Rust** | 248 | 124 |
+| **BSL** | 216 | 85 |
+| **Apache** | 202 | 93 |
+| **SQLite** | 137 | 50 |
+| **Mermaid** | 119 | 44 |
+| **PostgreSQL** | 66 | 37 |
+| **LangChain** | 53 | 33 |
+| **TF-IDF** | 52 | 27 |
+| **TypeScript** | 49 | 28 |
+| **FAISS** | 40 | 22 |
+| **WebSocket** | 30 | 19 |
+| **FastAPI** | 21 | 11 |
+| **JWT** | 15 | 10 |
+| **GraphQL** | 12 | 9 |
+| **OAuth** | 9 | 6 |
 
 ## GitHub репозитории (15)
 
@@ -109,23 +109,23 @@
 
 | Пара | Общих файлов |
 |------|-------------|
-| Cowork ↔ ingit | 271 |
+| Cowork ↔ ingit | 272 |
 | Nautilus ↔ Cowork | 240 |
 | Nautilus ↔ SGB | 219 |
-| Nautilus ↔ ingit | 212 |
-| Svyazi ↔ NGT | 201 |
-| Svyazi ↔ Yodoca | 200 |
+| Nautilus ↔ ingit | 216 |
+| Svyazi ↔ NGT | 200 |
+| Svyazi ↔ Yodoca | 199 |
 | Yodoca ↔ NGT | 184 |
-| Svyazi ↔ CardIndex | 177 |
-| Svyazi ↔ AgentFS | 167 |
+| Svyazi ↔ CardIndex | 174 |
+| Svyazi ↔ AgentFS | 163 |
 | Nautilus ↔ Svyazi | 150 |
 | AgentFS ↔ NGT | 149 |
-| Cowork ↔ SGB | 143 |
-| AgentFS ↔ Yodoca | 143 |
-| Svyazi ↔ knowledge-space | 142 |
-| CardIndex ↔ NGT | 141 |
-| Svyazi ↔ Rufler | 136 |
-| ingit ↔ SGB | 135 |
-| Svyazi ↔ Lorenzo | 134 |
+| Yodoca ↔ AgentFS | 143 |
+| Cowork ↔ SGB | 142 |
+| CardIndex ↔ NGT | 142 |
+| Svyazi ↔ knowledge-space | 138 |
+| ingit ↔ SGB | 136 |
+| Svyazi ↔ Rufler | 135 |
+| Svyazi ↔ Lorenzo | 133 |
+| Yodoca ↔ CardIndex | 131 |
 | CardIndex ↔ AgentFS | 131 |
-| CardIndex ↔ Yodoca | 131 |

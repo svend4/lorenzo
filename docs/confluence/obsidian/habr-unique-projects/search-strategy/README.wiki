@@ -1,0 +1,23 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/habr-unique-projects/search-strategy/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "search-strategy/ — как искать проекты на Хабре"
+tags:
+  * habr-unique-projects
+date: 2026-04-29
+----
+
+h1. search-strategy/ — как искать проекты на Хабре
+
+Один файл — один аспект стратегии поиска (запросы, авторы, комментарии, hub-walk). Заполняется по мере чтения исходных MHTML‑снимков.
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.26)
+

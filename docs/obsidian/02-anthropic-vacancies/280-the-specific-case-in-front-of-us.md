@@ -9,6 +9,16 @@ date: 2026-04-29
 
 # The Specific Case in Front of Us
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Future Claude sessions about specific aspects of this work need specific context — not the whole 50,000 words.
+> 🔧 **Подход:** The author may want to try two different approaches to Composite Skills Agent rollout, develop both, compare them, and choose.
+> ✅ **Результат:** When the author shows the documents to potential collaborators, those collaborators will want to comment on specific sections.
+> 🏷️ **Ключевые слова:** `specific`, `documents`, `anthropic`, `github`, `layer`, `context`, `vacancies`, `option`
+>
+
+
 <!-- summary -->
 > The seven documents produced in this session have specific
 
@@ -67,7 +77,7 @@ develop both, compare them, and choose. Currently this would
 require manual maintenance of two versions.
 
 **Promotion to repository.** The seven documents should be 
-committed to GitHub. This is straightforward — copy, commit, 
+committed to [[03-component-catalog|GitHub]]. This is straightforward — copy, commit, 
 push. But the discussion that produced them, the alternatives 
 considered, the reasoning chains — all of that lives only in 
 chat. The repository will have artifacts without provenance.
@@ -82,28 +92,28 @@ conversation_search (limited).
 
 Given the gap, what can we realistically do now?
 
-**Option 1 — Commit and walk away.** Save documents to GitHub. 
+**Option 1 — Commit and walk away.** Save documents to [[03-component-catalog|GitHub]]. 
 Treat them as static reference artifacts. Future development 
 happens in fresh sessions with documents as context. 
 Limitations: cross-references break, no annotation, no 
 threading, but no maintenance overhead.
 
-**Option 2 — Commit plus GitHub Discussions.** Save documents 
-to GitHub. Open GitHub Discussions for the repository. Use 
+**Option 2 — Commit plus [[03-component-catalog|GitHub]] Discussions.** Save documents 
+to [[03-component-catalog|GitHub]]. Open GitHub Discussions for the repository. Use 
 Discussions for threaded conversations about specific aspects. 
 Limitations: cultural mismatch, AI collaboration is external 
 to Discussions, but threading works.
 
-**Option 3 — Hybrid with Projects.** Save documents to GitHub. 
+**Option 3 — Hybrid with Projects.** Save documents to [[03-component-catalog|GitHub]]. 
 Create Anthropic Project for Nautilus / OKWF work. Use 
 Project for AI-assisted development of new aspects. Use 
-GitHub for stable artifacts. Use Discussions for community 
+[[03-component-catalog|GitHub]] for stable artifacts. Use Discussions for community 
 input. Limitations: fragmentation, but each tool used for 
 its strengths.
 
 **Option 4 — Custom lightweight setup.** For technical users 
 willing to self-host, deploy Discourse or similar threaded 
-forum. Connect to GitHub via integrations. Use Anthropic API 
+forum. Connect to [[03-component-catalog|GitHub]] via integrations. Use Anthropic API 
 for AI collaboration via custom interface. Limitations: 
 maintenance burden, but more aligned to actual workflow.
 
@@ -137,9 +147,30 @@ infrastructure.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[218-7-application-domains|7. Application Domains]]
+- [[315-7-practical-first-steps-this-month|7. Practical First Steps This Month]]
+- [[279-existing-approximations|Existing Approximations]]
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]]
+- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]]
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]]
+- [[277-what-s-missing-layer-b|What's Missing — Layer B]]
+- [[275-why-this-document-exists|Why This Document Exists]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[277-what-s-missing-layer-b|What's Missing — Layer B]] _53%_
+- [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _42%_
+- [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] _37%_
+- [[275-why-this-document-exists|Why This Document Exists]] _33%_
+- [[279-existing-approximations|Existing Approximations]] _33%_
+- [[282-what-industry-will-likely-build|What Industry Will Likely Build]] _25%_
+- [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]] _25%_
+- [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _25%_
 ## Связанные документы
 
 - [[276-the-two-layer-stack-as-it-exists|The Two-Layer Stack As It Exists]] _42%_

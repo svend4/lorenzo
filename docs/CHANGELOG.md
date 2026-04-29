@@ -1,23 +1,21 @@
 # CHANGELOG
 
-<!-- summary -->
-> Статистика: 🔧 chore: 32 | ✨ feat: 23 | ⚡ improve: 14 | 📝 docs: 7 | 🐛 fix: 5
-**Проекты:** Svyazi
-
----
-<!-- tags: rag, ingestion, roadmap, anthropic, self-improve, collaboration -->
+Всего коммитов: **89**  
+Статистика: 🔧 chore: 36 | ✨ feat: 23 | ⚡ improve: 14 | 📝 docs: 9 | 🐛 fix: 7
 
 
-
-
-Всего коммитов: **81**  
-Статистика: 🔧 chore: 32 | ✨ feat: 23 | ⚡ improve: 14 | 📝 docs: 7 | 🐛 fix: 5
-
-
-## 2026-04-29 (80 коммитов)
+## 2026-04-29 (88 коммитов)
 
 ### 🔧 Обслуживание
 
+- синхронизировать docs после обновления корпуса _7c83cefc_
+  > Авто-сгенерированные изменения после расширения корпуса
+- обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов) _e335cb8f_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- sync PROGRESS.md _78e6481d_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- sync PROGRESS.md _d4d34b4a_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync PROGRESS.md _2a9e9403_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync PROGRESS.md _fc65bef5_
@@ -80,7 +78,9 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update metrics [skip ci] _94be1ad1_
 - auto-update via improve_run_all [skip ci] _ba78ff20_
+- auto-update via improve_run_all [skip ci] _f63f1a9f_
 - auto-update via improve_run_all [skip ci] _039a4a2a_
 - auto-update via improve_run_all [skip ci] _dfc530a0_
 - auto-update via improve_run_all [skip ci] _f73c58f7_
@@ -139,6 +139,10 @@
   > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
 ### 🐛 Исправления
 
+- восстановить 24 файла повреждённых GitHub Actions ботом _643d52de_
+  > Бот (improve_run_all --fast --group reports) на чистом CI-сервере
+- остановить деструктивные авто-обновления от GitHub Actions бота _ee0b767e_
+  > Проблема: бот запускал improve_run_all.py --fast --group reports на чистом
 - fix crosslink root cause (relative paths), map all 125 scripts in dependency map _ed3fa81f_
   > - Fixed improve_crosslink_all.py: links now use os.path.relpath() instead of
 - fix 8607 broken internal links, improve health score formula _52179ba5_
@@ -185,13 +189,3 @@
 ### 🔧 Обслуживание
 
 - preview _- _doc_t_
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CHANGELOG](docs/obsidian/CHANGELOG.md) (сходство 0.71)
-- [CHANGELOG_AUTO](docs/obsidian/CHANGELOG_AUTO.md) (сходство 0.49)
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md) (сходство 0.49)
-

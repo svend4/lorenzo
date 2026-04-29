@@ -1,5 +1,10 @@
 # Ансамбль B — Forensic RAG для доказуемого matching и review
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** Svyazi, LiteParse, Legal RAG, Hybrid RAG, Graph RAG

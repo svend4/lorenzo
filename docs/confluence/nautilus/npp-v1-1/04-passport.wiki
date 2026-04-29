@@ -1,0 +1,94 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/npp-v1-1/04-passport.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 4. Passport ({{passport.md}})
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.{quote}
+
+h2. 4. Passport ({{passport.md}})
+
+h3. 4.1. Purpose
+
+Passport — human-readable описание Repo, расположенное в 
+{{passports/<format>.md}} _в Portal-репо_ (в отличие от v1.0, где 
+Passport жил в самом Repo).
+
+Passport предназначен для людей, читающих Repo впервые, для 
+адаптеров, которые могут его парсить для discovery, и для 
+автоматических систем валидации (через JSON-Schema).
+
+h3. 4.2. Required Structure
+
+Passport MUST содержать в начале metadata-таблицу с обязательными полями:
+
+{code:language=markdown}
+# Паспорт: /
+
+| Поле | Значение |
+|------|----------|
+| Репозиторий | / |
+| Формат | `.` — краткое описание |
+| Единица | что является одной записью |
+| Адаптер | `adapters/.py` |
+| Уровень совместимости | <0-3> — |
+{code}
+
+h3. 4.3. Recommended Sections
+
+Passport SHOULD содержать разделы:
+
+* _Описание_ — 2-3 предложения о содержании Repo
+* _Объём_ — количество единиц, связей
+* _Q6-отображение_ — правило проекции на 6-битный гиперкуб
+* _Мосты_ — таблица bridges к другим Repos
+* _Примеры запросов_ — 3-5 query-string, дающих хорошие результаты
+* _Доступ к данным_ — {{static | github_api | http_api | local_files}} + 
+требования к токенам
+
+h3. 4.4. Schema Validation
+
+Passports MUST проходить валидацию по {{passport_schema.json}}. 
+Portal SHOULD предоставлять команду валидации: 
+{{python generate_passport.py --validate passports/<format>.md}}.
+
+h3. 4.5. Naming Convention
+
+* Passport-файлы именуются {{passports/<format>.md}}, не 
+{{passports/<repo-name>.md}}
+* Причина: один format может обслуживаться несколькими репо 
+(например, domain-sub-adapters в рамках pro2), но passport — 
+один на format
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [79-4-passport-passport-md|docs/02-anthropic-vacancies/79-4-passport-passport-md.md]
+* [09-4-passport-passport-md|docs/02-anthropic-vacancies/09-4-passport-passport-md.md]
+* [03-registry|docs/nautilus/npp-v1-1/03-registry.md]
+* [16-mcp-extension|docs/nautilus/npp-v1-1/16-mcp-extension.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [79-4-passport-passport-md|docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md] (сходство 0.76)
+* [79-4-passport-passport-md|docs/02-anthropic-vacancies/79-4-passport-passport-md.md] (сходство 0.74)
+* [04-passport|docs/nautilus/npp-v1-0/04-passport.md] (сходство 0.26)
+

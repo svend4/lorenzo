@@ -1,0 +1,25 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/habr-unique-projects/final-ensembles/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. final-ensembles
+
+_Файлов:_ 4
+
+h2. Содержание
+
+* [1-one-person-one-company.md|1-one-person-one-company.md] — 
+* [2-autoresearch-legal.md|2-autoresearch-legal.md] — 
+* [3-discovery-research.md|3-discovery-research.md] — 
+* [4-summary-authors.md|4-summary-authors.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/technology-combinations/synthesis-tables/README.md] (сходство 0.27)
+* [README|docs/obsidian/autofilled/README.md] (сходство 0.27)
+* [README|docs/autofilled/README.md] (сходство 0.27)
+

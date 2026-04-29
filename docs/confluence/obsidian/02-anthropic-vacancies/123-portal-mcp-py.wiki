@@ -16,6 +16,15 @@ date: 2026-04-29
 
 h1. portal-mcp.py
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+{quote}🔧 _Подход:_ portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+{quote}🏷️ _Ключевые слова:_ {{anthropic}}, {{vacancies}}, {{readme}}, {{appendix}}, {{minimal}}, {{working}}, {{example}}, {{portal}}{quote}
+>
+
+
 {quote}[!IMPORTANT]{quote}
 {quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.{quote}
 
@@ -771,9 +780,42 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[23-11-security-considerations|11. Security Considerations]]
+* [[92-17-versioning-policy|17. Versioning Policy]]
+* [[19-7-portalentry-structure|7. PortalEntry Structure]]
+* [[82-7-portalentry-structure|7. PortalEntry Structure]]
+* [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]]
+* [[04-abstract|Abstract]]
+* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+* [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+* [[54-for-the-curious-philosophy|For the Curious: Philosophy]]
+* [[63-history|History]]
+* [[132-planned-v0-2-0|Planned (v0.2.0)]]
+* [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]]
+* [[65-readme-md|README.md]]
+* [[105-review-methodology-md|REVIEW_METHODOLOGY.md]]
+* [Yodoca[^yodoca]: консолидация и забывание](../05-habr-projects/memory/yodoca.md)
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[110-вопрос-fallback-ratio-как-критический-или-осмыслен|Вопрос: fallback-ratio как критический или осмысленный?]]
+* [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]]
+* [[01-synthesis|Синтез: как проекты собираются вместе]]
+* [[190-содержание|Содержание]]
+* [[360-что-ты-всегда-делаешь|Что ты ВСЕГДА делаешь]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[04-abstract|Abstract]] _37%_
+* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _37%_
+* [[54-for-the-curious-philosophy|For the Curious: Philosophy]] _37%_
+* [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] _33%_
+* [[44-for-the-curious-philosophy|For the Curious: Philosophy]] _33%_
+* [[65-readme-md|README.md]] _33%_
+* [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _29%_
+* [[190-содержание|Содержание]] _29%_
 h2. Связанные документы
 
 * [[65-readme-md|README.md]] _37%_

@@ -6,11 +6,51 @@
 ----
 title: "Индекс документации — Lorenzo / Svyazi 2.0"
 tags:
+  * memory
+  * knowledge
+  * ingestion
+  * architecture
+  * roadmap
+  * anthropic
+  * collaboration
   * general
 date: 2026-04-29
 ----
 
 h1. Индекс документации — Lorenzo / Svyazi 2.0
+
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
+
+{quote}_Главный навигационный хаб. Все разделы и документы._{quote}
+_Проекты:_ Svyazi, AgentFS, knowledge-space, Yodoca
+
+----
+
+
+h2. Содержание
+
+* [Метрики репозитория|#метрики-репозитория]
+* [Разделы документации|#разделы-документации]
+  * [[README|[🏗️  Архитектура Svyazi 2.0]]](#архитектура-svyazi-20docs01-svyazireadmemd)
+  * [[README|[💼 Вакансии Anthropic]]](#вакансии-anthropicdocs02-anthropic-vacanciesreadmemd)
+  * [[README|[⚗️  Комбинации технологий]]](#комбинации-технологийdocs03-technology-combinationsreadmemd)
+  * [[README|[🤝 AI-коллаборации]]](#ai-коллаборацииdocs04-ai-collaborationsreadmemd)
+  * [[README|[📦 Хабр-проекты]]](#хабр-проектыdocs05-habr-projectsreadmemd)
+* [Аналитика и отчёты|#аналитика-и-отчёты]
+* [Ключевые документы|#ключевые-документы]
+* [LLM-обогащение (Ступень 3)|#llm-обогащение-ступень-3]
+* [Быстрый старт|#быстрый-старт]
+
+----
+
+
+
+
+
 
 _Главный навигационный хаб. Все разделы и документы._
 
@@ -140,4 +180,30 @@ _Смотрите также:_
 * [[SITEMAP]]
 * [[REPORT]]
 * [[DEPENDENCY_MAP]]
+
+
+h2. Упоминается в
+
+* [[LLM_SUMMARIES|AI-саммари разделов документации]]
+* [[README|docs]]
+* [[TABLES|Все таблицы репозитория]]
+* [[SITEMAP|Карта репозитория Lorenzo]]
+* [[ONBOARDING|Онбординг — Svyazi 2.0 / Lorenzo]]
+
+
+h2. Связанные документы
+
+* [[LLM_SUMMARIES|AI-саммари разделов документации]] _25%_
+* [[METRICS|Метрики качества документации]] _21%_
+* [[ONBOARDING|Онбординг — Svyazi 2.0 / Lorenzo]] _21%_
+* [[DUPLICATES|Отчёт о дублировании]] _17%_
+
+
+
+----
+
+_Похожие документы:_
+* [[INDEX]] (сходство 0.90)
+* [[ONBOARDING]] (сходство 0.24)
+* [[ONBOARDING]] (сходство 0.23)
 

@@ -1,0 +1,23 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/habr-unique-projects/analogues/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. analogues
+
+_Файлов:_ 2
+
+h2. Содержание
+
+* [01-three-direct-analogues.md|01-three-direct-analogues.md] — 
+* [02-related-projects.md|02-related-projects.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/ai-collaborations/candidates/README.md] (сходство 0.43)
+* [README|docs/nautilus/supply-demand/README.md] (сходство 0.38)
+* [README|docs/svyazi-2-0/overview/README.md] (сходство 0.31)
+

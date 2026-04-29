@@ -1,0 +1,75 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/svyazi-2-0/ensembles/B-forensic-rag.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "Ансамбль B — Forensic RAG для доказуемого matching и review"
+tags:
+  * svyazi-2-0
+date: 2026-04-29
+----
+
+h1. Ансамбль B — Forensic RAG для доказуемого matching и review
+
+{quote}[!IMPORTANT]{quote}
+{quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.{quote}
+
+
+
+
+{quote}> Источник: {{deep-research-report (1).md}}.{quote}
+_Проекты:_ Svyazi, LiteParse, Legal RAG, Hybrid RAG, Graph RAG
+
+----
+
+
+
+
+
+{quote}Источник: {{deep-research-report (1).md}}.{quote}
+
+Если Svyazi‑2.0 должен не только находить людей и идеи, но и объяснять, _почему_ возникла рекомендация, нужен evidence‑first слой. Здесь research-docs/LiteParse даёт spatial grounding и HTML‑отчёты, Legal RAG — page‑level модель доказуемости, Hybrid RAG — лёгкий контролируемый backend, а Graph RAG — multi‑hop reasoning по связям между сущностями и пассажами. citeturn20view5turn20view6turn34view2turn34view3
+
+h2. Схема
+
+{code:language=mermaid}
+flowchart LR
+    A[PDF / DOCX / заметки / переписки] --> B[LiteParse / pdfplumber]
+    B --> C[Текст + координаты + страницы]
+    C --> D[Hybrid retrieval]
+    C --> E[Page-level grounding]
+    C --> F[Graph traversal / relation search]
+    D --> G[Evidence pack]
+    E --> G
+    F --> G
+    G --> H[Ответ / матч / объяснение]
+{code}
+
+h2. Ожидаемые новые свойства
+
+* _Верифицируемые ответы_: у пользователя появляется не просто текстовый вывод, а визуально подсвеченный фрагмент страницы, к которому можно вернуться. citeturn20view5turn34view2
+* _Правильная единица доказательства — страница, а не чанк_: Legal RAG прямо показывает, почему page‑level grounding удобнее для обратного перехода к источнику. citeturn20view6
+* _Multi‑hop объяснения_: Graph RAG добавляет ответы на вопросы о связях и косвенных маршрутах между объектами, где обычный chunk‑RAG ломается. citeturn34view3
+* _Контроль над retrieval‑слоем без «фреймворкового тумана»_: Hybrid RAG‑подход на pdfplumber/FAISS/TF‑IDF проще дебажить и дешевле держать в локальном контуре, чем тяжёлые универсальные RAG‑фреймворки. citeturn34view2
+
+
+
+----
+
+_Смотрите также:_
+* [[04-ensembles-overview]]
+* [[04-приоритетные-ансамбли]]
+* [[F-evidence-backed-intake]]
+* [[evidence-envelope]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[04-ensembles-overview]] (сходство 0.21)
+* [[04-ensembles-overview]] (сходство 0.21)
+* [[04-приоритетные-ансамбли]] (сходство 0.19)
+

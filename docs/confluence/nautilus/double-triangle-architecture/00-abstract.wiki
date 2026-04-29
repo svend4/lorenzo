@@ -1,0 +1,98 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/double-triangle-architecture/00-abstract.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Abstract — The Double-Triangle Architecture
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».{quote}
+
+h1. The Double-Triangle Architecture 
+h2. A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
+
+_Draft:_ v1.0.0-draft 
+_Date:_ 2026-04-19 
+_Author:_ svend4 
+_Editorial review:_ Claude (intellectual collaboration, 2026-04) 
+_License:_ CC BY 4.0 
+_Status:_ Working paper, seeking reviewers
+
+----
+
+h2. Abstract
+
+We introduce the _Double-Triangle Architecture_ for human-AI 
+collaboration in distributed knowledge work. The central thesis: 
+each human participant in modern AI-assisted workflows 
+simultaneously occupies two roles — as _conductor_ of personal 
+AI assistants (lower triangle, directed downward from human to 
+assistants), and as _performer_ coordinated by higher-level 
+meta-agents (upper triangle, directed upward from human toward 
+team-level coordination). These two triangles superimpose to form 
+a six-pointed star topology, which we argue is the correct 
+architectural primitive for the next generation of AI-managed 
+knowledge work.
+
+Existing systems implement only one triangle: personal assistants 
+(Cursor, Copilot, ChatGPT) operate in the lower triangle only; 
+multi-agent frameworks (CrewAI, MetaGPT, AutoGen) operate in the 
+upper triangle only and typically replace humans rather than 
+augment them. Neither paradigm captures the full structure of how 
+humans will actually work alongside AI over the next decade.
+
+We present three contributions:
+
+1. _Formal specification_ of the Double-Triangle Architecture, 
+including three inter-layer protocols and six architectural 
+invariants
+2. _Reference implementation_ via _Nautilus Portal Protocol_ 
+(NPP v1.1), which provides the federated knowledge substrate 
+required to support the architecture
+3. _Deployment paths_ for four concrete domains: humanities 
+(legal/medical/social), project management, open-source 
+development, and generic knowledge work
+
+We also present empirical evidence from a 4-month single-person 
+AI-assisted deployment producing 6,782 lines of production code 
+across 13 adapters, a formal protocol specification, REST API, 
+SDK, Docker containerization, and 60 passing tests — suggesting 
+that _single-person operations can achieve team-level output_ 
+when the Double-Triangle substrate is properly instantiated.
+
+We conclude with open questions on governance, consent, economics, 
+and burnout dynamics, and invite research collaboration on these 
+unsolved issues.
+
+----
+
+h2. Table of Contents
+
+1. _Why Single-Triangle Models Are Incomplete_
+2. _The Double-Triangle Architecture_
+3. _Three Inter-Layer Protocols_
+4. _Nautilus Portal as Reference Substrate_
+5. _Pattern Library as Bridge Between Triangles_
+6. _Four Deployment Domains_
+7. _Open Questions_
+8. _Call to Action_
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [136-abstract|docs/obsidian/02-anthropic-vacancies/136-abstract.md] (сходство 0.82)
+* [136-abstract|docs/02-anthropic-vacancies/136-abstract.md] (сходство 0.77)
+* [01-why-single-triangle-incomplete|docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md] (сходство 0.25)
+

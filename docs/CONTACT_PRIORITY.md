@@ -1,23 +1,4 @@
 # Приоритет контактов
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Приоритет контактов Contents - Топ авторов по приоритету(топ-авторов-по-приоритету) - Рекомендуемые следующие шаги(рекомендуемые-следующие-шаги) - Написать первым (ещё не контактир
-> 🏷️ **Ключевые слова:** `начато`, `knowledge`, `memory`, `написать`, `первым`, `упоминаний`, `orchestration`, `авторов`
->
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Топ авторов по приоритету](#топ-авторов-по-приоритету)
-- [Рекомендуемые следующие шаги](#рекомендуемые-следующие-шаги)
-  - [Написать первым (ещё не контактировали)](#написать-первым-ещё-не-контактировали)
-- [Формула расчёта балла](#формула-расчёта-балла)
-
 
 _Обновлено: 2026-04-29_
 
@@ -25,29 +6,29 @@ _Обновлено: 2026-04-29_
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **kksudo** | AgentFS | knowledge/filesystem | 21 | 👁 Изучили | 74 |
-| 2 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 20 | ⬜ Не начато | 66 |
-| 3 | **spbmolot** | NGT Memory | memory | 20 | ⬜ Не начато | 66 |
-| 4 | **VitalyOborin** | Yodoca | memory | 12 | ⬜ Не начато | 42 |
-| 5 | **Sonia_Black** | knowledge-space | knowledge | 9 | ⬜ Не начато | 33 |
-| 6 | **Cutcode** | AIF Handoff | orchestration | 8 | ⬜ Не начато | 28 |
-| 7 | **Antipozitive** | MemNet | memory | 7 | ⬜ Не начато | 27 |
-| 8 | **lee-to** | AI Factory | orchestration | 7 | ⬜ Не начато | 25 |
-| 9 | **tagir_analyzes** | Legal RAG | rag | 7 | ⬜ Не начато | 25 |
-| 10 | **MiXaiLL76** | Auto AI Router | security | 7 | ⬜ Не начато | 23 |
-| 11 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 7 | ⬜ Не начато | 23 |
-| 12 | **VladSpace** | Graph RAG | rag | 6 | ⬜ Не начато | 22 |
-| 13 | **nlaik** | LiteParse / research-docs | rag | 6 | ⬜ Не начато | 22 |
-| 14 | **zodigancode** | Rufler | orchestration | 6 | ⬜ Не начато | 22 |
-| 15 | **Dmitriila** | SENTINEL | security | 6 | ⬜ Не начато | 20 |
+| 1 | **spbmolot** | NGT Memory | memory | 131 | 👁 Изучили | 404 |
+| 2 | **kksudo** | AgentFS | knowledge/filesystem | 130 | 👁 Изучили | 401 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 85 | ⬜ Не начато | 261 |
+| 4 | **VladSpace** | Graph RAG | rag | 77 | ⬜ Не начато | 235 |
+| 5 | **Cutcode** | AIF Handoff | orchestration | 74 | ⬜ Не начато | 226 |
+| 6 | **VitalyOborin** | Yodoca | memory | 70 | ⬜ Не начато | 216 |
+| 7 | **Dmitriila** | SENTINEL | security | 68 | ⬜ Не начато | 206 |
+| 8 | **zodigancode** | Rufler | orchestration | 64 | ⬜ Не начато | 196 |
+| 9 | **MiXaiLL76** | Auto AI Router | security | 64 | ⬜ Не начато | 194 |
+| 10 | **Antipozitive** | MemNet | memory | 53 | ⬜ Не начато | 165 |
+| 11 | **nlaik** | LiteParse / research-docs | rag | 50 | ⬜ Не начато | 154 |
+| 12 | **Sonia_Black** | knowledge-space | knowledge | 33 | ⬜ Не начато | 105 |
+| 13 | **tagir_analyzes** | Legal RAG | rag | 33 | ⬜ Не начато | 103 |
+| 14 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 32 | ⬜ Не начато | 98 |
+| 15 | **lee-to** | AI Factory | orchestration | 19 | ⬜ Не начато | 61 |
 
 ## Рекомендуемые следующие шаги
 
 ### Написать первым (ещё не контактировали)
 
-1. **kksudo** (AgentFS, 21 упоминаний) → [открыть контакт](contacts/kksudo.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 20 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
-1. **spbmolot** (NGT Memory, 20 упоминаний) → [открыть контакт](contacts/spbmolot.md)
+1. **spbmolot** (NGT Memory, 131 упоминаний) → [открыть контакт](contacts/spbmolot.md)
+1. **kksudo** (AgentFS, 130 упоминаний) → [открыть контакт](contacts/kksudo.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 85 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 
@@ -58,13 +39,3 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 ```
 
 _Чем выше балл — тем важнее написать первым._
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CONTACT_PRIORITY](docs/obsidian/CONTACT_PRIORITY.md) (сходство 0.73)
-- [kksudo](docs/autofilled/components/kksudo.md) (сходство 0.31)
-- [sonia-black](docs/obsidian/contacts/sonia-black.md) (сходство 0.29)
-

@@ -2,20 +2,21 @@
 title: "Bridges"
 tags:
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
 
 # Bridges
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 <!-- toc-auto -->
 ## Contents
 
 - [Bridges](#bridges)
-  - [meta ↔ pro2](#meta-pro2)
-  - [meta ↔ info1](#meta-info1)
+  - [meta ↔ pro2](#meta-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
+  - [meta ↔ info1](#meta-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
 
 
 <!-- summary -->
@@ -30,7 +31,7 @@ date: 2026-04-29
 ## Bridges
 
 ### `meta ↔ pro2`
-**Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `pro2/passport.md`). 
+**Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `[[01-интегральный-анализ-профиля-svend4|pro2]]/passport.md`). 
 Это **единственный formal mapping** в экосистеме, реализованный через 
 прямую математическую функцию в адаптерах.
 
@@ -62,19 +63,3 @@ bridge.]
 - [[40-bridges]]
 - [[50-bridges]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[40-bridges|Bridges]] _37%_
-- [[61-compatibility-level|Compatibility Level]] _33%_
-- [[50-bridges|Bridges]] _29%_
-- [[51-compatibility-level|Compatibility Level]] _29%_
-- [[57-native-format|Native Format]] _29%_
-- [[41-compatibility-level|Compatibility Level]] _25%_
-- [[27-15-glossary-of-examples|15. Glossary of Examples]] _21%_
-- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _21%_

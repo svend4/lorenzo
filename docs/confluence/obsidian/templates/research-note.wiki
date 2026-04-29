@@ -51,6 +51,5 @@ _Создано: 2026-04-29_
 _Смотрите также:_
 * [[research-summary]]
 * [[contact-outreach]]
-* [[vladspace]]
-* [[cutcode]]
+* [[project-component]]
 

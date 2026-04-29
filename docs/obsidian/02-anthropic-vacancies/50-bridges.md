@@ -2,20 +2,21 @@
 title: "Bridges"
 tags:
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
 
 # Bridges
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 <!-- toc-auto -->
 ## Contents
 
 - [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-info1)
-  - [pro2 ↔ meta](#pro2-meta)
+  - [pro2 ↔ info1](#pro2-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
+  - [pro2 ↔ meta](#[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-meta)
 
 
 <!-- summary -->
@@ -32,7 +33,7 @@ date: 2026-04-29
 ### `pro2 ↔ info1`
 **Q6-concept-depth ↔ α-level**. Глубина концепта в Q6-графе (число 
 hamming-переходов от «root» вершин) коррелирует с α-уровнем в 
-`info1`. [? уточнить exact correspondence]
+`[[01-интегральный-анализ-профиля-svend4|info1]]`. [? уточнить exact correspondence]
 
 ### `pro2 ↔ meta`
 **Q6-vertex ↔ hexagram**. Это **прямой, формальный мост** (один из 
@@ -68,19 +69,3 @@ hamming-переходов от «root» вершин) коррелирует с
 - [[61-compatibility-level]]
 - [[57-native-format]]
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[40-bridges|Bridges]] _37%_
-- [[57-native-format|Native Format]] _33%_
-- [[60-bridges|Bridges]] _29%_
-- [[47-native-format|Native Format]] _25%_
-- [[51-compatibility-level|Compatibility Level]] _25%_
-- [[61-compatibility-level|Compatibility Level]] _21%_
-- [[27-15-glossary-of-examples|15. Glossary of Examples]] _17%_
-- [[35-passports-info1-md|passports/info1.md]] _17%_

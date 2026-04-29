@@ -71,9 +71,28 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[322-appendix-b-comparison-matrix|Appendix B: Comparison Matrix]]
+- [[137-table-of-contents|Table of Contents]]
+- [[169-table-of-contents|Table of Contents]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[326-содержание|Содержание]]
+- [[351-что-ты-можешь-делать|Что ты МОЖЕШЬ делать]]
+- [[352-что-ты-не-можешь-делать-без-max-approval|Что ты НЕ МОЖЕШЬ делать без Max approval]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[169-table-of-contents|Table of Contents]] _25%_
+- [[326-содержание|Содержание]] _25%_
+- [[136-abstract|Abstract]] _21%_
+- [[137-table-of-contents|Table of Contents]] _17%_
+- [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _17%_
+- [[154-table-of-contents|Table of Contents]] _17%_
+- [[190-содержание|Содержание]] _17%_
+- [[253-table-of-contents|Table of Contents]] _17%_
 ## Связанные документы
 
 - [[137-table-of-contents|Table of Contents]] _33%_

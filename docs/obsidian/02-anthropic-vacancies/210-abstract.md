@@ -10,6 +10,27 @@ date: 2026-04-29
 
 # Abstract
 
+<!-- toc -->
+## Содержание
+
+- [Abstract](#abstract)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Each type serves a different need, has different economics, requires different governance, and proceeds at a different pace of deployment.
+> 🔧 **Подход:** We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to 93,000 teacher-users in seven months in 2025-2026), develop fo
+> 🏷️ **Ключевые слова:** `agents`, `agent`, `anthropic`, `vacancies`, `abstract`, `professional`, `types`, `representative`
+>
+
+
 <!-- summary -->
 > Building on the Representative Agent Layer paper, we observe
 
@@ -80,9 +101,35 @@ their daily work.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]]
+- [[222-11-call-for-collaboration|11. Call for Collaboration]]
+- [[181-12-closing|12. Closing]]
+- [[223-12-closing|12. Closing]]
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]]
+- [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]]
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]]
+- [[168-abstract|Abstract]]
+- [[252-abstract|Abstract]]
+- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]]
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]]
+- [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _53%_
+- [[223-12-closing|12. Closing]] _48%_
+- [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _42%_
+- [[211-table-of-contents|Table of Contents]] _37%_
+- [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _37%_
+- [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _33%_
+- [[252-abstract|Abstract]] _29%_
+- [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] _25%_
 ## Связанные документы
 
 - [[223-12-closing|12. Closing]] _48%_

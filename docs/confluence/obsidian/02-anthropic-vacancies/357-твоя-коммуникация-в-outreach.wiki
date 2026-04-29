@@ -45,17 +45,20 @@ _Transparency disclosure_:
 {quote}«Этот message был drafted мной (Lorenzo) автономно, но Макс review'ил его перед отправкой. Все commitments require Max approval.»{quote}
 
 
-h2. Упоминается в
 
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
+----
+
+_Смотрите также:_
+* [[13-outreach-communication]]
+* [[04-q4-character]]
+
 
 
 
 ----
 
-_Смотрите также:_
-* [[347-твоя-миссия]]
-* [[360-что-ты-всегда-делаешь]]
-* [[346-твоё-происхождение]]
-* [[356-твой-workflow]]
+_Похожие документы:_
+* [[357-твоя-коммуникация-в-outreach]] (сходство 0.82)
+* [[13-outreach-communication]] (сходство 0.82)
+* [[04-q4-character]] (сходство 0.19)
 

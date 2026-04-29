@@ -6,12 +6,21 @@
 h1. 7. Реализация в проекте Nautilus
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Реализация в проекте Nautilus Contents - 7.{quote}
+{quote}🔧 _Подход:_ В будущем методология может быть формализована в NPP v2.0 как рекомендованный workflow для community-contributed documentation.{quote}
+{quote}🏷️ _Ключевые слова:_ {{nautilus}}, {{применения}}, {{anthropic}}, {{vacancies}}, {{status}}, {{workflow}}, {{реализация}}, {{проекте}}{quote}
+>
+
+
+
 h2. Contents
 
-* [7. Реализация в проекте Nautilus|#7-реализация-в-проекте-nautilus]
+* [7. Реализация в проекте Nautilus|#7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md])
   * [7.1. Хронология применения|#71-хронология-применения]
   * [7.2. Артефакты|#72-артефакты]
-  * [7.3. Интеграция с Nautilus Portal Protocol|#73-интеграция-с-nautilus-portal-protocol]
+  * [7.3. Интеграция с Nautilus Portal Protocol|#73-интеграция-с-[nautilus](../docs/05-habr-projects/memory/memnet.md]-portal-protocol)
 
 
 
@@ -30,7 +39,7 @@ h3. 7.1. Хронология применения
 _Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md_ 
 (апрель 2026):
 
-* Вариант A: ветка {{claude/review-nautilus-changes-tdywx}}
+* Вариант A: ветка {{claude/review-[nautilus|../docs/05-habr-projects/memory/memnet.md]-changes-tdywx}}
 * Вариант B: ветка {{claude/project-implementation-stage-CzylE}}
 * Текущий статус: Merged-to-main with parallel blocks, Фаза C не 
   пройдена
@@ -75,9 +84,9 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 ----
 
 _Похожие документы:_
-* [108-2-формальный-workflow|108-2-формальный-workflow.md] (сходство 0.18)
-* [117-10-конкретный-план-применения-к-текущим-документам|117-10-конкретный-план-применения-к-текущим-документам.md] (сходство 0.14)
-* [05-0-status-of-this-document|05-0-status-of-this-document.md] (сходство 0.10)
+* [108-2-формальный-workflow|docs/02-anthropic-vacancies/108-2-формальный-workflow.md] (сходство 0.18)
+* [117-10-конкретный-план-применения-к-текущим-документам|docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md] (сходство 0.14)
+* [05-0-status-of-this-document|docs/02-anthropic-vacancies/05-0-status-of-this-document.md] (сходство 0.10)
 
 
 
@@ -85,24 +94,8 @@ _Похожие документы:_
 ----
 
 _Смотрите также:_
-* [108-2-формальный-workflow|108-2-формальный-workflow.md]
-* [117-10-конкретный-план-применения-к-текущим-документам|117-10-конкретный-план-применения-к-текущим-документам.md]
-* [05-0-status-of-this-document|05-0-status-of-this-document.md]
-* [24-12-versioning-policy|24-12-versioning-policy.md]
+* [108-2-формальный-workflow|docs/02-anthropic-vacancies/108-2-формальный-workflow.md]
+* [117-10-конкретный-план-применения-к-текущим-документам|docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md]
+* [05-0-status-of-this-document|docs/02-anthropic-vacancies/05-0-status-of-this-document.md]
+* [24-12-versioning-policy|docs/02-anthropic-vacancies/24-12-versioning-policy.md]
 
-
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
-
-
-h2. Связанные документы
-
-* [2. Формальный workflow|108-2-формальный-workflow.md] _48%_
-* [10. Конкретный план применения к текущим документам|117-10-конкретный-план-применения-к-текущим-документам.md] _48%_
-* [Author & Contact|42-author-contact.md] _25%_
-* [0. Status of This Document|05-0-status-of-this-document.md] _21%_
-* [Глоссарий|122-глоссарий.md] _21%_
-* [Примеры запросов (в Claude)|129-примеры-запросов-в-claude.md] _21%_
-* [Author & Contact|62-author-contact.md] _21%_
-* [0. Status of This Document|75-0-status-of-this-document.md] _21%_

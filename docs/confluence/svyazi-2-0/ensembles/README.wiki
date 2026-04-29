@@ -1,0 +1,29 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/ensembles/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Ансамбли проектов
+
+_Файлов:_ 8
+
+h2. Содержание
+
+* [A-collaboration-os.md|A-collaboration-os.md] — 
+* [B-forensic-rag.md|B-forensic-rag.md] — 
+* [C-multi-agent-factory.md|C-multi-agent-factory.md] — 
+* [D-voice-first-mesh.md|D-voice-first-mesh.md] — > [!IMPORTANT]
+* [E-execution-plane.md|E-execution-plane.md] — 
+* [F-evidence-backed-intake.md|F-evidence-backed-intake.md] — 
+* [G-federated-local-graph.md|G-federated-local-graph.md] — 
+* [H-research-to-product-flywheel.md|H-research-to-product-flywheel.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/svyazi-2-0/components/README.md] (сходство 0.19)
+* [README|docs/ai-collaborations/ensembles/README.md] (сходство 0.19)
+* [README|docs/ai-collaborations/candidates/README.md] (сходство 0.16)
+

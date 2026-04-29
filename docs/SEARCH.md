@@ -1,5 +1,20 @@
 # Поисковый индекс
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 **Файлов:** 1694  
 **Слов:** 1,363,724
 
@@ -1708,4 +1723,15 @@
 - [READABILITY](docs/READABILITY.md) (сходство 0.97)
 - [READING_TIME](docs/READING_TIME.md) (сходство 0.96)
 - [SOURCE_MAP](docs/SOURCE_MAP.md) (сходство 0.84)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](docs/READABILITY.md)
+- [LANGUAGE_STATS](docs/LANGUAGE_STATS.md)
+- [READING_TIME](docs/obsidian/READING_TIME.md)
+- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md)
 

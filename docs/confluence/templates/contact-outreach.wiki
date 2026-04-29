@@ -50,8 +50,8 @@ _Создано: 2026-04-29_
 ----
 
 _Смотрите также:_
-* [vladspace|../contacts/vladspace.md]
-* [cutcode|../contacts/cutcode.md]
-* [dmitriila|../contacts/dmitriila.md]
-* [mixaill76|../contacts/mixaill76.md]
+* [vladspace|docs/obsidian/contacts/vladspace.md]
+* [cutcode|docs/obsidian/contacts/cutcode.md]
+* [dmitriila|docs/obsidian/contacts/dmitriila.md]
+* [mixaill76|docs/obsidian/contacts/mixaill76.md]
 

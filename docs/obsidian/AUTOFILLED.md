@@ -49,6 +49,16 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 <!-- related-auto -->
 ## Связанные документы
 
+- [[README|components]] _45%_
+- [[.md|Антропик]] _25%_
+- [[cowork]] _25%_
+- [[ingit]] _25%_
+- [[kksudo]] _25%_
+- [[lorenzo]] _25%_
+- [[nautilus]] _25%_
+- [[sgb]] _25%_
+## Связанные документы
+
 - [[VERSION_DIFF|Diff базы знаний между версиями]] _25%_
 
 <!-- see-also -->
@@ -61,13 +71,19 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 - [[ingit]]
 - [[lorenzo]]
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|docs]]
+- [[TABLES|Все таблицы репозитория]]
+- [[SITEMAP|Карта репозитория Lorenzo]]
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [AUTOFILLED](docs/AUTOFILLED.md) (сходство 0.83)
-- [svyazi](docs/obsidian/autofilled/components/svyazi.md) (сходство 0.31)
-- [svend4](docs/obsidian/autofilled/components/svend4.md) (сходство 0.31)
+- [[AUTOFILLED]] (сходство 0.83)
+- [[svyazi]] (сходство 0.45)
+- [[svend4]] (сходство 0.45)
 

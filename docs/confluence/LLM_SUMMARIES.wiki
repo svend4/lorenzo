@@ -66,6 +66,12 @@ _Без ключа — автоматическое резюме на основ
 
 h2. Связанные документы
 
+* [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md] _25%_
+* [Отчёт о дублировании|DUPLICATES.md] _21%_
+* [Карта репозитория Lorenzo|SITEMAP.md] _17%_
+* [Валидация структуры репозитория|VALIDATION.md] _17%_
+h2. Связанные документы
+
 * [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md] _33%_
 * [Индекс тегов|TAGS.md] _21%_
 * [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md) _17%_
@@ -80,4 +86,22 @@ _Смотрите также:_
 * [VALIDATION|VALIDATION.md]
 * [ONBOARDING|ONBOARDING.md]
 * [WORD_CLOUD|WORD_CLOUD.md]
+
+
+h2. Упоминается в
+
+* [docs|README.md]
+* [Все таблицы репозитория|TABLES.md]
+* [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md]
+* [Карта репозитория Lorenzo|SITEMAP.md]
+* [Онбординг — Svyazi 2.0 / Lorenzo|ONBOARDING.md]
+
+
+
+----
+
+_Похожие документы:_
+* [LLM_SUMMARIES|docs/obsidian/LLM_SUMMARIES.md] (сходство 0.87)
+* [VALIDATION|docs/VALIDATION.md] (сходство 0.26)
+* [VALIDATION|docs/obsidian/VALIDATION.md] (сходство 0.23)
 

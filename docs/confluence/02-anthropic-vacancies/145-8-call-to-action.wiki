@@ -5,6 +5,15 @@
 
 h1. 8. Call to Action
 
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Contact: via GitHub issues at github.com/svend4/nautilus(URL --- --- Похожие документы: - 136-abstract(docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.18) - 143-6-four-dep{quote}
+{quote}🔧 _Подход:_ Early experimentation informs future workplace design.{quote}
+{quote}🏷️ _Ключевые слова:_ {{triangle}}, {{double}}, {{domains}}, {{pattern}}, {{anthropic}}, {{vacancies}}, {{single}}, {{research}}{quote}
+>
+
+
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
@@ -79,7 +88,7 @@ publish them. Early contributors gain first-mover advantage in
 shaping conventions.
 
 _Protocol implementations._ Build Protocol 3 implementations 
-for specific platforms. GitHub Actions, Slack, Jira, Linear — 
+for specific platforms. [GitHub|../docs/01-svyazi/03-component-catalog.md] Actions, Slack, Jira, Linear — 
 each is a candidate for a Protocol 3 bridge.
 
 h3. 8.3. For Founders and Organizations
@@ -147,7 +156,7 @@ I am a single author with personal constraints (GdB 70, Pflegegrad
 team. Collaboration, critique, and contribution from others are 
 not only welcome but essential.
 
-Contact: via GitHub issues at 
+Contact: via [GitHub|../docs/01-svyazi/03-component-catalog.md] issues at 
 [github.com/svend4/nautilus|https://github.com/svend4/nautilus].
 
 ----
@@ -175,9 +184,32 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [11. Call for Collaboration|222-11-call-for-collaboration.md]
+* [4. Proposed Infrastructure|158-4-proposed-infrastructure.md]
+* [6. Four Deployment Domains|143-6-four-deployment-domains.md]
+* [7. Open Questions|144-7-open-questions.md]
+* [9. Call for Partnership|163-9-call-for-partnership.md]
+* [9. Risks and Open Questions|317-9-risks-and-open-questions.md]
+* [Abstract|136-abstract.md]
+* [Appendix C: Sample InGit MCP Server Tool Specifications|323-appendix-c-sample-ingit-mcp-server-tool-specificat.md]
+* [Appendix C: Version History|150-appendix-c-version-history.md]
+* [Executive Summary|153-executive-summary.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [6. Four Deployment Domains|143-6-four-deployment-domains.md] _37%_
+* [5. Pattern Library as Bridge Between Triangles|142-5-pattern-library-as-bridge-between-triangles.md] _21%_
+* [7. Open Questions|144-7-open-questions.md] _21%_
+* [Appendix A: Glossary|148-appendix-a-glossary.md] _17%_
+* [4. Proposed Infrastructure|158-4-proposed-infrastructure.md] _17%_
+* [Abstract|168-abstract.md] _17%_
+* [PROFESSIONAL COLLEAGUE AGENTS.md|208-professional-colleague-agents-md.md] _17%_
+* [9. Integration with OKWF Infrastructure|262-9-integration-with-okwf-infrastructure.md] _17%_
 h2. Связанные документы
 
 * [Abstract|136-abstract.md] _33%_

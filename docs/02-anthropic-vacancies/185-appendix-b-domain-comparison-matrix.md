@@ -1,5 +1,10 @@
 # Appendix B: Domain Comparison Matrix
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Вакансии Anthropic — Анализ по кластерам](../README.md)
 

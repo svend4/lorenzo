@@ -7,30 +7,15 @@ date: 2026-04-29
 
 # Q&A: 04-ai-collaborations
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> title: "Q&A: 04-ai-collaborations"
-**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL
-
----
-<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
-
-
-
-
 _Автоматически сгенерировано по 15 файлам раздела._
 
-## Как реализован forensic RAG[^rag] с доказуемостью?
+## Как реализован forensic RAG с доказуемостью?
 
 Упоминаются: **liteparse**, **bounding box**, **page-level**, **evidence**
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
+Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -42,7 +27,7 @@ _Автоматически сгенерировано по 15 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -59,18 +44,6 @@ _Автоматически сгенерировано по 15 файлам ра
 ## Какие вопросы лучше задавать авторам при первом контакте?
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
-
-## Как работает AgentFS[^agentfs] и что такое .agentos?
-
-Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
-
-## Что такое knowledge-space[^knowledge-space] и для кого он предназначен?
-
-Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
-
-## Как CardIndex[^cardindex] хранит и версионирует карточки?
-
-Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
 ## Какие инструменты обеспечивают безопасность агентов?
 
@@ -95,26 +68,3 @@ _Автоматически сгенерировано по 15 файлам ра
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
-
-
-<!-- footnotes-added -->
-
----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском
-
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](docs/obsidian/01-svyazi/QA.md) (сходство 0.98)
-- [QA](docs/04-ai-collaborations/QA.md) (сходство 0.86)
-- [QA](docs/01-svyazi/QA.md) (сходство 0.72)
-

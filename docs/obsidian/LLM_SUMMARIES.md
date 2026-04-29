@@ -68,6 +68,12 @@ _Без ключа — автоматическое резюме на основ
 <!-- related-auto -->
 ## Связанные документы
 
+- [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]] _25%_
+- [[DUPLICATES|Отчёт о дублировании]] _21%_
+- [[SITEMAP|Карта репозитория Lorenzo]] _17%_
+- [[VALIDATION|Валидация структуры репозитория]] _17%_
+## Связанные документы
+
 - [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]] _33%_
 - [[TAGS|Индекс тегов]] _21%_
 - [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md) _17%_
@@ -83,13 +89,21 @@ _Без ключа — автоматическое резюме на основ
 - [[ONBOARDING]]
 - [[WORD_CLOUD]]
 
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [[README|docs]]
+- [[TABLES|Все таблицы репозитория]]
+- [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]]
+- [[SITEMAP|Карта репозитория Lorenzo]]
+- [[ONBOARDING|Онбординг — Svyazi 2.0 / Lorenzo]]
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md) (сходство 0.87)
-- [VALIDATION](docs/obsidian/VALIDATION.md) (сходство 0.24)
-- [VALIDATION](docs/VALIDATION.md) (сходство 0.24)
+- [[LLM_SUMMARIES]] (сходство 0.87)
+- [[VALIDATION]] (сходство 0.26)
+- [[VALIDATION]] (сходство 0.23)
 

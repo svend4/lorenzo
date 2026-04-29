@@ -11,7 +11,7 @@ date: 2026-04-29
 
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS, Rufler, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+**Проекты:** Svyazi, Rufler
 
 ---
 
@@ -68,17 +68,15 @@ Rufler закрывает слой «orchestration» в архитектуре.
 ---
 _Создано автоматически: 2026-04-29_
 
-<!-- related-auto -->
-## Связанные документы
+<!-- similar-docs -->
 
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _81%_
-- [[dmitriila|Контакт: Dmitriila / SENTINEL]] _81%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _81%_
-- [[vladspace|Контакт: VladSpace / Graph RAG]] _81%_
-- [[kksudo|Контакт: kksudo / AgentFS]] _73%_
-- [[spbmolot|Контакт: spbmolot / NGT Memory]] _73%_
-- [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] _73%_
-- [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _73%_
+---
+
+**Похожие документы:**
+- [[cutcode]] (сходство 0.90)
+- [[vladspace]] (сходство 0.88)
+- [[tagir-analyzes]] (сходство 0.86)
+
 
 <!-- see-also -->
 
@@ -86,17 +84,7 @@ _Создано автоматически: 2026-04-29_
 
 **Смотрите также:**
 - [[cutcode]]
+- [[tagir-analyzes]]
 - [[vladspace]]
 - [[dmitriila]]
-- [[mixaill76]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [cutcode](docs/obsidian/contacts/cutcode.md) (сходство 1.00)
-- [vladspace](docs/obsidian/contacts/vladspace.md) (сходство 0.98)
-- [mixaill76](docs/obsidian/contacts/mixaill76.md) (сходство 0.97)
 

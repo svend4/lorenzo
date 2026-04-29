@@ -1,0 +1,75 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/npp-v1-0/05-compatibility-levels.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "5. Compatibility Levels"
+tags:
+  * anthropic
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 5. Compatibility Levels
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).{quote}
+
+h2. 5. Compatibility Levels
+
+NPP определяет 4 уровня совместимости Repo с экосистемой. Это 
+позволяет постепенное подключение: существующий Repo может начать 
+на уровне 0 и расти к уровню 3 без переделки.
+
+h3. Level 0 — Discoverable
+
+Repo объявлен в {{nautilus.json}} с полями {{name}}, {{url}}, {{format}}. 
+Адаптера ещё нет. Portal знает о существовании Repo, но не может 
+его запрашивать.
+
+_Use case_: анонс намерения подключить Repo до написания кода.
+
+h3. Level 1 — Readable
+
+Repo имеет {{passport.md}} в корне. Адаптер реализует только 
+{{describe()}} метод. Portal может показать метаданные, но не может 
+выполнять query.
+
+_Use case_: статические Repos (архивы, reference docs), которые 
+не нужно искать.
+
+h3. Level 2 — Queryable
+
+Адаптер реализует {{describe()}} + {{fetch(query)}}. Portal может 
+выполнять полноценный поиск в Repo.
+
+_Use case_: большинство активных Repos.
+
+h3. Level 3 — Interactive / Bridged
+
+Адаптер реализует {{describe()}} + {{fetch(query)}} + {{translate_to(entry, target_repo)}}. 
+Portal может переводить концепты между Repos через bridges.
+
+_Use case_: Repos, глубоко связанные с другими в экосистеме, где 
+важны cross-repo queries.
+
+----
+
+
+
+----
+
+_Похожие документы:_
+* [[17-5-compatibility-levels]] (сходство 0.72)
+* [[17-5-compatibility-levels]] (сходство 0.69)
+* [[05-compatibility-levels]] (сходство 0.36)
+

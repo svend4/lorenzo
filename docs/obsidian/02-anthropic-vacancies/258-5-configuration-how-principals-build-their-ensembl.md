@@ -7,6 +7,18 @@ date: 2026-04-29
 ---
 
 # 5. Configuration: How Principals Build Their Ensembles
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** The Configuration Problem A principal entering an ecosystem with hundreds of available sub-agents faces a configuration problem.
+> 🔧 **Подход:** Three Configuration Approaches We identify three approaches with different strengths and trade-offs.
+> ✅ **Результат:** A new social law lawyer might benefit from a starting template: - General SGB IX sub-agent - General SGB XII sub-agent - Procedural law sub-agent - BSG case law sub-agent - General
+> 🏷️ **Ключевые слова:** `configuration`, `principal`, `their`, `agent`, `composite`, `agents`, `starting`, `specializations`
+>
+
 
 <!-- summary -->
 > A central question for Composite Skills Agents: how does a
@@ -169,9 +181,30 @@ modifies their configuration over time.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]]
+- [[264-11-open-questions|11. Open Questions]]
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]]
+- [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]]
+- [[175-6-ethical-framework|6. Ethical Framework]]
+- [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]]
+- [[261-8-seven-domains-of-application|8. Seven Domains of Application]]
+- [[271-appendix-c-configuration-template-example|Appendix C: Configuration Template Example]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _42%_
+- [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]] _33%_
+- [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _33%_
+- [[264-11-open-questions|11. Open Questions]] _29%_
+- [[179-10-open-questions|10. Open Questions]] _21%_
+- [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _17%_
+- [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _17%_
+- [[175-6-ethical-framework|6. Ethical Framework]] _17%_
 ## Связанные документы
 
 - [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _37%_

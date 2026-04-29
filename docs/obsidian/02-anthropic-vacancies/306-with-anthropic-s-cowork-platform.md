@@ -7,6 +7,15 @@ date: 2026-04-29
 
 # with Anthropic's Cowork Platform
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork Platform Document type: Practical implementation paper, buildin
+> 🔧 **Подход:** with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork Platform Document type: Practical implementation paper, buildin
+> 🏷️ **Ключевые слова:** `document`, `anthropic`, `vacancies`, `layer`, `cowork`, `through`, `agents`, `implementation`
+>
+
+
 <!-- summary -->
 > **Document type:** Practical implementation paper, building
 
@@ -76,9 +85,36 @@ collaboration
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]]
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]]
+- [[307-abstract|Abstract]]
+- [[286-acknowledgments|Acknowledgments]]
+- [[319-acknowledgments|Acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]]
+- [[147-references|References]]
+- [[268-references|References]]
+- [[287-references|References]]
+- [[320-references|References]]
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+- [[KEYWORD_INDEX|Инвертированный индекс ключевых слов]]
+- [[338-ссылки|Ссылки]]
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[355-существующие-документы-dhlab-твой-context|Существующие документы DHLab (твой context)]] _73%_
+- [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _66%_
+- [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _53%_
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _48%_
+- [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _42%_
+- [[224-acknowledgments|Acknowledgments]] _37%_
+- [[267-acknowledgments|Acknowledgments]] _37%_
+- [[146-acknowledgments|Acknowledgments]] _33%_
 ## Связанные документы
 
 - [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _66%_

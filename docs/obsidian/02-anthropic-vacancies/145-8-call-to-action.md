@@ -10,6 +10,15 @@ date: 2026-04-29
 
 # 8. Call to Action
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Contact: via GitHub issues at github.com/svend4/nautilus(URL --- --- Похожие документы: - 136-abstract(docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.18) - 143-6-four-dep
+> 🔧 **Подход:** Early experimentation informs future workplace design.
+> 🏷️ **Ключевые слова:** `triangle`, `double`, `domains`, `pattern`, `anthropic`, `vacancies`, `single`, `research`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -84,7 +93,7 @@ publish them. Early contributors gain first-mover advantage in
 shaping conventions.
 
 **Protocol implementations.** Build Protocol 3 implementations 
-for specific platforms. GitHub Actions, Slack, Jira, Linear — 
+for specific platforms. [[03-component-catalog|GitHub]] Actions, Slack, Jira, Linear — 
 each is a candidate for a Protocol 3 bridge.
 
 ### 8.3. For Founders and Organizations
@@ -152,7 +161,7 @@ I am a single author with personal constraints (GdB 70, Pflegegrad
 team. Collaboration, critique, and contribution from others are 
 not only welcome but essential.
 
-Contact: via GitHub issues at 
+Contact: via [[03-component-catalog|GitHub]] issues at 
 [github.com/svend4/nautilus](https://github.com/svend4/nautilus).
 
 ---
@@ -180,9 +189,32 @@ Contact: via GitHub issues at
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[222-11-call-for-collaboration|11. Call for Collaboration]]
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]]
+- [[143-6-four-deployment-domains|6. Four Deployment Domains]]
+- [[144-7-open-questions|7. Open Questions]]
+- [[163-9-call-for-partnership|9. Call for Partnership]]
+- [[317-9-risks-and-open-questions|9. Risks and Open Questions]]
+- [[136-abstract|Abstract]]
+- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]]
+- [[150-appendix-c-version-history|Appendix C: Version History]]
+- [[153-executive-summary|Executive Summary]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[143-6-four-deployment-domains|6. Four Deployment Domains]] _37%_
+- [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _21%_
+- [[144-7-open-questions|7. Open Questions]] _21%_
+- [[148-appendix-a-glossary|Appendix A: Glossary]] _17%_
+- [[158-4-proposed-infrastructure|4. Proposed Infrastructure]] _17%_
+- [[168-abstract|Abstract]] _17%_
+- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _17%_
+- [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _17%_
 ## Связанные документы
 
 - [[136-abstract|Abstract]] _33%_

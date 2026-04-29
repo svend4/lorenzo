@@ -9,9 +9,14 @@ date: 2026-04-29
 
 # Контакт: andrey_chuyan / Svyazi
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, CardIndex, AgentFS, Legal RAG, Graph RAG, Yodoca, NGT Memory, SENTINEL
+**Проекты:** Svyazi, CardIndex
 
 ---
 
@@ -64,41 +69,29 @@ Svyazi закрывает слой «ingestion/CardIndex» в архитекту
 
 ## Открытые вопросы
 
-1. Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы?
+1. Стоит ли расширять [[01-executive-summary|CardIndex]] до person/project/episode/evidence или лучше держать разные индексы?
 2. [Вопрос 2]
 
 ---
 _Создано автоматически: 2026-04-29_
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[cutcode|Контакт: Cutcode / AIF Handoff]] _66%_
-- [[dmitriila|Контакт: Dmitriila / SENTINEL]] _66%_
-- [[kksudo|Контакт: kksudo / AgentFS]] _66%_
-- [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _66%_
-- [[spbmolot|Контакт: spbmolot / NGT Memory]] _66%_
-- [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] _66%_
-- [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] _66%_
-- [[vladspace|Контакт: VladSpace / Graph RAG]] _66%_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[vladspace]]
-- [[cutcode]]
-- [[dmitriila]]
-- [[mixaill76]]
-
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [vladspace](docs/obsidian/contacts/vladspace.md) (сходство 0.79)
-- [zodigancode](docs/obsidian/contacts/zodigancode.md) (сходство 0.78)
-- [mixaill76](docs/obsidian/contacts/mixaill76.md) (сходство 0.78)
+- [[nlaik]] (сходство 0.70)
+- [[antipozitive]] (сходство 0.70)
+- [[vladspace]] (сходство 0.67)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[antipozitive]]
+- [[nlaik]]
+- [[sonia-black]]
+- [[spbmolot]]
 

@@ -6,6 +6,16 @@
 h1. 3. What Makes a Composite Skills Agent
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Some need a specific sequence (one sub-agent's output feeds into another).{quote}
+{quote}🔧 _Подход:_ --- --- Похожие документы: - 259-6-coordination-and-disagreement-resolution(docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.18) - 264-11-{quote}
+{quote}✅ _Результат:_ What a Composite Skills Agent Does The composite agent provides four core functions: Function 1 — Routing.{quote}
+{quote}🏷️ _Ключевые слова:_ {{agent}}, {{composite}}, {{agents}}, {{principal}}, {{configuration}}, {{skills}}, {{disagreement}}, {{coordinator}}{quote}
+>
+
+
+
 {quote}We define the type with precision.{quote}
 
 ----
@@ -194,9 +204,34 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [1. Why the Binary View Is Incomplete|254-1-why-the-binary-view-is-incomplete.md]
+* [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md]
+* [11. Open Questions|264-11-open-questions.md]
+* [2. The Twenty-One Teachers Pattern|255-2-the-twenty-one-teachers-pattern.md]
+* [2. What Makes a Professional Colleague Agent|213-2-what-makes-a-professional-colleague-agent.md]
+* [4. The Sub-Agent Registry|257-4-the-sub-agent-registry.md]
+* [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md]
+* [6. Coordination and Disagreement Resolution|259-6-coordination-and-disagreement-resolution.md]
+* [7. Economics of Combinatorial Replication|260-7-economics-of-combinatorial-replication.md]
+* [8. Risks and Mitigations|177-8-risks-and-mitigations.md]
+* [8. Seven Domains of Application|261-8-seven-domains-of-application.md]
+* [Table of Contents|253-table-of-contents.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md] _42%_
+* [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md] _42%_
+* [6. Coordination and Disagreement Resolution|259-6-coordination-and-disagreement-resolution.md] _37%_
+* [11. Open Questions|264-11-open-questions.md] _33%_
+* [2. What Makes a Professional Colleague Agent|213-2-what-makes-a-professional-colleague-agent.md] _29%_
+* [3. What Makes a Representative Agent|172-3-what-makes-a-representative-agent.md] _21%_
+* [10. Open Questions|179-10-open-questions.md] _21%_
+* [Table of Contents|211-table-of-contents.md] _21%_
 h2. Связанные документы
 
 * [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md] _37%_

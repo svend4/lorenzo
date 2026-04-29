@@ -1,0 +1,57 @@
+---
+title: "Что я могу сделать сейчас"
+tags:
+  - security
+  - roadmap
+  - anthropic
+  - nautilus
+date: 2026-04-29
+---
+
+# Что я могу сделать сейчас
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
+
+---
+<!-- tags: security, roadmap, anthropic -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
+
+Что я могу сделать сейчас
+
+Три естественных продолжения, в порядке стратегической ценности:
+
+Первое — написать PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1.1, которая формализует всё описанное здесь: humanity-specific format_types, conventional metadata, anonymization pipeline spec, two-level public/private architecture, GDPR ADR, временная модель, Q6 для legal domain, bridges для juridical citations. Это 15-20 страниц formal W3C-style документа, который идёт вместе с PORTAL-PROTOCOL.md и закладывает фундамент для всей последующей работы. Время написания: одно сообщение. Практическая ценность: высокая, становится reference материалом.
+
+Второе — написать anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, реализующий 5 шагов pipeline: PII detection, placeholder replacement, verification report, structural metadata tagging, output format. Использует только stdlib + опционально spaCy для NER. ~300 LOC с тестами. Время написания: одно сообщение. Практическая ценность: вы можете сразу использовать для анонимизации одного вашего кейса и увидеть, как это работает на реальном материале.
+
+Третье — подготовить draft grant application для Aktion Mensch или EIC Pathfinder. Целенаправленный proposal для конкретной программы с acknowledgment вашей disability-informed perspective как competitive advantage. Target: open-source humanities-legal federation platform для access to justice. 8-10 страниц, готовый к доработке. Время написания: одно сообщение. Практическая ценность: открывает путь к внешнему финансированию, если решите масштабировать проект.
+
+Какое из трёх сейчас важнее? Или комбинация — например, первое + второе параллельно?
+
+И вопрос уточняющий, если можете ответить: timeline, в котором вы хотели бы развивать эту humanities-extension Nautilus — это параллельная с основным Nautilus разработка в текущем темпе (несколько недель на фазу), или это отдельный серьёзный проект, к которому вы готовы приступить полномасштабно (например, в контексте возможного grant)?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[04-grant-opportunities]]
+- [[05-which-combination-more-valuable]]
+- [[03-what-doesnt-exist-on-market]]
+- [[03-what-this-gives-technically]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[04-grant-opportunities]] (сходство 0.22)
+- [[05-which-combination-more-valuable]] (сходство 0.16)
+- [[03-what-doesnt-exist-on-market]] (сходство 0.13)
+

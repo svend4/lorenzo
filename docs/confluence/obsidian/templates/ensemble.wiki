@@ -67,5 +67,4 @@ _Создано: 2026-04-29_
 _Смотрите также:_
 * [[project-component]]
 * [[decision-record]]
-* [[research-summary]]
 

@@ -53,18 +53,18 @@ h2. Что этот документ не решает
 ----
 
 _Смотрите также:_
-* [ensemble|../templates/ensemble.md]
-* [297-что-промышленность-вероятно-построит|297-что-промышленность-вероятно-построит.md]
-* [SENTIMENT|../SENTIMENT.md]
-* [119-appendix-b-примеры-расхождений-и-их-разрешения|119-appendix-b-примеры-расхождений-и-их-разрешения.md]
+* [ensemble|docs/templates/ensemble.md]
+* [297-что-промышленность-вероятно-построит|docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md]
+* [SENTIMENT|docs/SENTIMENT.md]
+* [119-appendix-b-примеры-расхождений-и-их-разрешения|docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md]
 
 
-h2. Упоминается в
-
-* [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
-h2. Связанные документы
+----
 
-* [Что промышленность вероятно построит|297-что-промышленность-вероятно-построит.md] _25%_
-* [Appendix C: Quick-Start Architecture for SGB Advocate Colleague|228-appendix-c-quick-start-architecture-for-sgb-advoca.md] _17%_
+_Похожие документы:_
+* [ensemble|docs/templates/ensemble.md] (сходство 0.22)
+* [119-appendix-b-примеры-расхождений-и-их-разрешения|docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md] (сходство 0.19)
+* [297-что-промышленность-вероятно-построит|docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md] (сходство 0.17)
+

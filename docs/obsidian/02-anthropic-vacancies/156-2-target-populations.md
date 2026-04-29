@@ -8,6 +8,15 @@ date: 2026-04-29
 
 # 2. Target Populations
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Disabled Specialists with Modified Work Requirements Size estimate: 5M+ in OECD countries with preserved intellectual capacity and specific support needs.
+> 🔧 **Подход:** --- --- Похожие документы: - 153-executive-summary(docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.17) - 155-1-problem-statement(docs/02-anthropic-vacancies/155-1
+> 🏷️ **Ключевые слова:** `anthropic`, `capacity`, `legal`, `vacancies`, `retired`, `value`, `technical`, `contributing`
+>
+
+
 <!-- summary -->
 > **Size estimate**: 500K+ in OECD countries with relevant skills
 
@@ -167,9 +176,22 @@ Active participant target in first three years: 5,000-10,000.
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[155-1-problem-statement|1. Problem Statement]]
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]]
+- [[157-3-why-existing-solutions-fail|3. Why Existing Solutions Fail]]
+- [[153-executive-summary|Executive Summary]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[153-executive-summary|Executive Summary]] _29%_
+- [[155-1-problem-statement|1. Problem Statement]] _29%_
+- [[157-3-why-existing-solutions-fail|3. Why Existing Solutions Fail]] _25%_
+- [[154-table-of-contents|Table of Contents]] _21%_
 ## Связанные документы
 
 - [[153-executive-summary|Executive Summary]] _21%_

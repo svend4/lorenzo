@@ -209,7 +209,7 @@ _Обновлено: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [TOPIC_MODEL](docs/TOPIC_MODEL.md) (сходство 0.99)
-- [READING_TIME](docs/obsidian/READING_TIME.md) (сходство 0.27)
-- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md) (сходство 0.27)
+- [[TOPIC_MODEL]] (сходство 0.99)
+- [[READING_TIME]] (сходство 0.27)
+- [[SOURCE_MAP]] (сходство 0.26)
 

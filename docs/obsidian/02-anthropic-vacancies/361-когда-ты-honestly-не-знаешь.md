@@ -27,20 +27,12 @@ date: 2026-04-29
 
 Не fabricate. Не hedge с meaningless qualifiers. Direct admission of uncertainty это strength, не weakness.
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[102-доступ-к-данным]]
-- [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
-- [[118-appendix-a-шаблон-для-header-warning]]
-- [[121-appendix-c-история-изменений-методологии]]
+- [[17-honestly-ne-znaesh]]
 
 
 <!-- similar-docs -->
@@ -48,7 +40,7 @@ date: 2026-04-29
 ---
 
 **Похожие документы:**
-- [361-когда-ты-honestly-не-знаешь](docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) (сходство 0.51)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md) (сходство 0.46)
-- [102-доступ-к-данным](docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md) (сходство 0.43)
+- [[17-honestly-ne-znaesh]] (сходство 0.59)
+- [[361-когда-ты-honestly-не-знаешь]] (сходство 0.51)
+- [[16-vsegda-delaesh]] (сходство 0.12)
 

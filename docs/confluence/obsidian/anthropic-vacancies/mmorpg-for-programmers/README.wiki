@@ -1,0 +1,34 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/anthropic-vacancies/mmorpg-for-programmers/README.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "mmorpg-for-programmers"
+tags:
+  * anthropic-vacancies
+date: 2026-04-29
+----
+
+h1. mmorpg-for-programmers
+
+_Файлов:_ 6
+
+h2. Содержание
+
+* [[00-question-mmorpg-for-programmers|00-question-mmorpg-for-programmers.md]] — 
+* [[01-why-stronger-than-it-looks|01-why-stronger-than-it-looks.md]] — 
+* [[02-existing-niche|02-existing-niche.md]] — 
+* [[03-why-natural-for-programmers|03-why-natural-for-programmers.md]] — 
+* [[04-pluses-as-business|04-pluses-as-business.md]] — 
+* [[05-minuses-as-business|05-minuses-as-business.md]] — > [!TIP]
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.22)
+* [[README]] (сходство 0.22)
+* [[README]] (сходство 0.21)
+

@@ -10,6 +10,16 @@ date: 2026-04-29
 
 # 9. Integration with OKWF Infrastructure
 
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** This plan is more realistic than the earlier proposal because it matches how skilled practitioners actually develop and what they actually need.
+> 🔧 **Подход:** Practical Implication for Pilot Design(96-practical-implication-for-pilot-design) --- 9.
+> ✅ **Результат:** Connection to Guild Structure OKWF's guild structure (groups of practitioners by professional area) provides natural organization for sub-agent development.
+> 🏷️ **Ключевые слова:** `agent`, `agents`, `connection`, `infrastructure`, `triangle`, `composite`, `registry`, `pattern`
+>
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -174,21 +184,5 @@ broader applicability.
 - [[260-7-economics-of-combinatorial-replication]]
 - [[266-13-closing]]
 - [[257-4-the-sub-agent-registry]]
-- [[316-8-implications-for-nautilus-and-okwf]]
+- [[memnet|316-8-implications-for-[nautilus]]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _33%_
-- [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _33%_
-- [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]] _33%_
-- [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _30%_
-- [[174-5-architectural-specification|5. Architectural Specification]] _29%_
-- [[304-ingit-as-cowork-native-workspace-substrate-md|INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md]] _29%_
-- [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] _29%_
-- [[148-appendix-a-glossary|Appendix A: Glossary]] _25%_

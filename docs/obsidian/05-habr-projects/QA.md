@@ -7,32 +7,17 @@ date: 2026-04-29
 
 # Q&A: 05-habr-projects
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Автоматически сгенерировано по 6 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space
-
----
-<!-- tags: knowledge, architecture, roadmap, collaboration -->
-
-
-
-
 _Автоматически сгенерировано по 6 файлам раздела._
 
-## Как работает AgentFS[^agentfs] и что такое .agentos?
+## Как работает AgentFS и что такое .agentos?
 
 Упоминаются: **vault**
 
-## Что такое knowledge-space[^knowledge-space] и для кого он предназначен?
+## Что такое knowledge-space и для кого он предназначен?
 
 _Не найдено в этом файле._
 
-## Как CardIndex[^cardindex] хранит и версионирует карточки?
+## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **state**
 
@@ -60,23 +45,10 @@ _Не найдено в этом файле._
 
 Упоминаются: **архитектурный**, **шаблон**, **контакт**
 
+## Какие кластеры найма выделены у Anthropic?
 
-<!-- footnotes-added -->
+Упоминаются: **research**, **inference**
 
----
+## Какие роли наиболее релевантны для профиля svend4?
 
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](docs/05-habr-projects/QA.md) (сходство 0.72)
-- [QA](docs/obsidian/01-svyazi/QA.md) (сходство 0.49)
-- [QA](docs/obsidian/04-ai-collaborations/QA.md) (сходство 0.48)
-
+_Не найдено в этом файле._

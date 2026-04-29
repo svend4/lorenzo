@@ -1,5 +1,10 @@
 # AgentOps и Trace Envelope (ансамбль G)
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, LiteParse, Legal RAG, LiteLLM, Auto AI Router, Tool Search

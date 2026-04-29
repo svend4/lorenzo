@@ -6,6 +6,27 @@
 h1. Practical Recommendations for the Current Project
 
 
+h2. Содержание
+
+* [Practical Recommendations for the Current Project|#practical-recommendations-for-the-current-project]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Practical Recommendations for the Current Project For the seven-document Nautilus / OKWF project specifically, --- Practical Recommendations for the Current Project For the seven-d{quote}
+{quote}✅ _Результат:_ This provides threaded discussion infrastructure.{quote}
+{quote}🏷️ _Ключевые слова:_ {{anthropic}}, {{project}}, {{vacancies}}, {{document}}, {{nautilus}}, {{documents}}, {{create}}, {{layer}}{quote}
+>
+
+
+
 {quote}For the seven-document Nautilus / OKWF project specifically,{quote}
 
 ----
@@ -20,7 +41,7 @@ For the seven-document Nautilus / OKWF project specifically,
 practical next steps:
 
 _Step 1 — Commit documents to repository._ All seven 
-documents should be saved to {{nautilus/docs/}} as Markdown 
+documents should be saved to {{[nautilus|../docs/05-habr-projects/memory/memnet.md]/docs/}} as Markdown 
 files. This creates stable reference artifacts.
 
 _Step 2 — Create README that links them._ A top-level 
@@ -28,7 +49,7 @@ README explains the relationships between documents, in what
 order to read them, what each addresses. This serves as 
 poor-man's cross-reference index.
 
-_Step 3 — Open GitHub Discussions._ Enable Discussions on 
+_Step 3 — Open [GitHub|../docs/01-svyazi/03-component-catalog.md] Discussions._ Enable Discussions on 
 the Nautilus repository. Create initial categories: 
 Architecture, Implementation, Pilots, Theory, Community. 
 This provides threaded discussion infrastructure.
@@ -84,9 +105,35 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [1. The Cowork Discovery and Why It Changes Everything|309-1-the-cowork-discovery-and-why-it-changes-everythi.md]
+* [10. Appendices|164-10-appendices.md]
+* [7. Application Domains|218-7-application-domains.md]
+* [7. Practical First Steps This Month|315-7-practical-first-steps-this-month.md]
+* [Appendix: Position in Series Visualization|288-appendix-position-in-series-visualization.md]
+* [Closing|285-closing.md]
+* [Existing Approximations|279-existing-approximations.md]
+* [The Recursive Insight|281-the-recursive-insight.md]
+* [The Specific Case in Front of Us|280-the-specific-case-in-front-of-us.md]
+* [The Two-Layer Stack As It Exists|276-the-two-layer-stack-as-it-exists.md]
+* [What Industry Will Likely Build|282-what-industry-will-likely-build.md]
+* [What This Document Doesn't Solve|283-what-this-document-doesn-t-solve.md]
+* [What's Missing — Layer B|277-what-s-missing-layer-b.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [The Specific Case in Front of Us|280-the-specific-case-in-front-of-us.md] _42%_
+* [The Two-Layer Stack As It Exists|276-the-two-layer-stack-as-it-exists.md] _37%_
+* [What's Missing — Layer B|277-what-s-missing-layer-b.md] _37%_
+* [Existing Approximations|279-existing-approximations.md] _29%_
+* [Why This Document Exists|275-why-this-document-exists.md] _25%_
+* [What Industry Will Likely Build|282-what-industry-will-likely-build.md] _25%_
+* [7. Practical First Steps This Month|315-7-practical-first-steps-this-month.md] _25%_
+* [The Recursive Insight|281-the-recursive-insight.md] _21%_
 h2. Связанные документы
 
 * [The Two-Layer Stack As It Exists|276-the-two-layer-stack-as-it-exists.md] _42%_

@@ -1,0 +1,266 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/nautilus/professional-colleague-agents-en/06-risks.md}}
+Дата: 2026-04-29
+{info}
+
+h1. 6. Risks Specific to this Category
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.{quote}
+
+----
+
+
+h2. Содержание
+
+* [6. Risks Specific to this Category|#6-risks-specific-to-this-category]
+  * [6.1. Risk: Mediation Collapse|#61-risk-mediation-collapse]
+  * [6.2. Risk: Skill Atrophy in New Practitioners|#62-risk-skill-atrophy-in-new-practitioners]
+  * [6.3. Risk: Standardization Lock-In|#63-risk-standardization-lock-in]
+  * [6.4. Risk: Liability Ambiguity|#64-risk-liability-ambiguity]
+  * [6.5. Risk: Privacy Cascade|#65-risk-privacy-cascade]
+  * [6.6. Risk: Subtle Bias in Knowledge Base|#66-risk-subtle-bias-in-knowledge-base]
+  * [6.7. Risk: Profession Capture by Service Providers|#67-risk-profession-capture-by-service-providers]
+
+----
+
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.{quote}
+
+h2. 6. Risks Specific to this Category
+
+Professional Colleague Agents have risks distinct from
+Representative Agents and other types. We identify seven
+specific to this category.
+
+h3. 6.1. Risk: Mediation Collapse
+
+_Scenario_: When both parties to a professional interaction
+use AI agents, the human content of the interaction approaches
+zero.
+
+_Concrete example_: Teacher generates assignments with AI.
+Student completes assignments with AI. Teacher grades with AI.
+Student receives grade. Where in this chain has actual learning
+occurred?
+
+This is the most-cited public concern about Type 1 agents.
+Its resolution requires conscious design decisions:
+
+_Mitigation 1 — Asymmetric design._ Teacher's agent
+generates problems requiring active human reasoning, not
+pattern-matching. Problems for which AI assistance produces
+poor results. Design assignments AI-resistance into them.
+
+_Mitigation 2 — Live elements._ Some assessments require
+live human interaction (oral exams, project presentations,
+collaborative work) where AI assistance is structurally
+limited.
+
+_Mitigation 3 — Process visibility._ Both parties see what
+AI was used for. Norms develop about acceptable usage.
+
+_Mitigation 4 — Reframing of education._ If AI changes
+what students can do, education adapts. The era of
+homework-as-assessment may end. New forms of assessment
+emerge.
+
+This is not solved within agent design alone. It requires
+profession-wide adaptation.
+
+h3. 6.2. Risk: Skill Atrophy in New Practitioners
+
+_Scenario_: Junior practitioners using the agent from day
+one never develop foundational skills the agent automates.
+When agent fails (inevitably) or is unavailable, practitioner
+cannot perform basic professional functions.
+
+_Concrete example_: Junior lawyer uses parajural AI for
+all routine drafting. Never develops drafting skills personally.
+Cannot draft when AI is unavailable. Cannot critically review
+AI output because they don't know what good drafting looks
+like.
+
+_Mitigation 1 — Educational pathway._ Professional training
+includes period of doing work without AI assistance. Like
+learning to compute by hand before using calculators.
+
+_Mitigation 2 — Transparent operation._ Agent shows its work,
+not just outputs. Practitioner can learn from observing agent's
+process.
+
+_Mitigation 3 — Mandatory review burden._ Practitioner must
+genuinely review agent outputs, not approve mechanically. Spot
+checks built into workflow.
+
+_Mitigation 4 — Acceptable trade-offs._ Some skill atrophy
+is acceptable. We do not lament the loss of mental arithmetic
+skills due to calculators. The question is which skills are
+essential to retain.
+
+h3. 6.3. Risk: Standardization Lock-In
+
+_Scenario_: Wide deployment of one agent in a profession
+homogenizes professional practice. Innovations from outside
+the agent's training data become harder to introduce.
+Professional creativity declines.
+
+_Concrete example_: All teachers use «Обучай»-style assignments.
+All assignments converge to similar style. Pedagogical innovation
+slows because non-conventional approaches are harder to access.
+
+_Mitigation 1 — Open architecture._ Multiple Professional
+Colleague Agents compete in each profession. No single
+provider dominates.
+
+_Mitigation 2 — Customization affordances._ Agents support
+practitioner customization that goes beyond preferences into
+methodology choices.
+
+_Mitigation 3 — Innovation channels._ Profession maintains
+non-AI channels for sharing innovative approaches. Journals,
+conferences, peer mentorship persist alongside AI-assisted
+work.
+
+_Mitigation 4 — Active diversity._ Foundation-funded
+agents could deliberately offer multiple methodological
+approaches in their knowledge base, exposing practitioners
+to variety.
+
+h3. 6.4. Risk: Liability Ambiguity
+
+_Scenario_: Practitioner uses agent-generated output that
+turns out to contain professional errors. Who is liable?
+Practitioner who used? Agent provider? Knowledge base curator?
+LLM provider underlying generation?
+
+_Concrete example_: Lawyer files brief with citation generated
+by parajural AI. Citation turns out to be hallucination. Court
+sanctions lawyer. Was the lawyer negligent? Was the AI provider?
+
+_Current state_: Legal frameworks are immature. Courts are
+beginning to address this case by case.
+
+_Mitigation 1 — Explicit practitioner responsibility._
+Service terms make clear: practitioner is responsible for
+outputs they use. Agent is tool, not professional.
+
+_Mitigation 2 — Cited outputs only._ Agent outputs are
+verifiable through citations. Practitioner who fails to
+verify is negligent.
+
+_Mitigation 3 — Professional liability evolution._ Insurance
+products evolve to cover AI-assisted work. New regulatory
+clarifications.
+
+_Mitigation 4 — Transparent error rates._ Agent providers
+publish error rates and known failure modes. Practitioners
+factor these into use.
+
+h3. 6.5. Risk: Privacy Cascade
+
+_Scenario_: Practitioner uses agent on case involving
+sensitive client data. Sensitive data flows through agent
+infrastructure. Breach exposes client data.
+
+_Concrete example_: Therapist uses Professional Colleague
+Agent for note synthesis. Patient privacy is compromised
+when agent provider has security incident.
+
+_Mitigation 1 — Local-first deployment._ For high-sensitivity
+domains, agent runs entirely on practitioner's device or
+institutional infrastructure. No cloud dependencies.
+
+_Mitigation 2 — Anonymization at input._ Practitioner uses
+anonymized representations when working with agent. Real
+identity stays in practitioner's separate records.
+
+_Mitigation 3 — Compliance certification._ Agent providers
+obtain HIPAA, GDPR, equivalent compliance.
+
+_Mitigation 4 — Encrypted processing._ Modern cryptographic
+techniques (homomorphic encryption, secure enclaves) enable
+processing without exposure.
+
+h3. 6.6. Risk: Subtle Bias in Knowledge Base
+
+_Scenario_: Layer A knowledge base reflects biases of its
+curators. Practitioners using agent inherit these biases.
+Bias spreads systematically.
+
+_Concrete example_: Legal Professional Colleague Agent's
+knowledge base over-represents perspectives of one school of
+legal thought. Practitioners using agent draft submissions
+subtly aligned with that school. Legal pluralism declines.
+
+_Mitigation 1 — Diverse curation panels._ Layer A built
+by panels representing diverse views within the profession.
+
+_Mitigation 2 — Methodological transparency._ Agent makes
+explicit which methodological tradition informs its outputs.
+Practitioner can choose alternatives.
+
+_Mitigation 3 — External audit._ Independent reviewers
+periodically audit knowledge base for bias.
+
+_Mitigation 4 — User customization._ Practitioners can
+configure which methodological frameworks the agent applies.
+
+h3. 6.7. Risk: Profession Capture by Service Providers
+
+_Scenario_: One Professional Colleague Agent dominates
+profession. Provider acquires de facto power over professional
+practice. Profession loses autonomy.
+
+_Concrete example_: Single AI provider serves 90% of teachers.
+Provider's design choices effectively determine pedagogy
+nationally. Provider's pricing and terms determine teacher
+working conditions.
+
+_Mitigation 1 — Open standards._ Layer A knowledge bases
+are standardized formats, portable between providers.
+
+_Mitigation 2 — Foundation-owned alternatives._ Mission-driven
+nonprofits maintain alternatives to commercial providers.
+
+_Mitigation 3 — Cooperative ownership._ Practitioners
+collectively own platforms serving them.
+
+_Mitigation 4 — Regulatory frameworks._ Antitrust and
+profession-specific regulation prevents excessive concentration.
+
+This risk is real and serious. «Обучай» growing to 93,000
+teachers in 7 months illustrates speed at which capture can
+emerge.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [217-6-risks-specific-to-this-category|docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md]
+* [04-sub-agent-registry|docs/nautilus/composite-skills-agents/04-sub-agent-registry.md]
+* [10-risks|docs/nautilus/composite-skills-agents/10-risks.md]
+* [04-architecture|docs/nautilus/professional-colleague-agents-en/04-architecture.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [217-6-risks-specific-to-this-category|docs/obsidian/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md] (сходство 0.93)
+* [217-6-risks-specific-to-this-category|docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md] (сходство 0.90)
+* [04-sub-agent-registry|docs/nautilus/composite-skills-agents/04-sub-agent-registry.md] (сходство 0.18)
+

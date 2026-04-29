@@ -33,17 +33,19 @@ h2. Когда ты Honestly не знаешь
 Не fabricate. Не hedge с meaningless qualifiers. Direct admission of uncertainty это strength, не weakness.
 
 
-h2. Упоминается в
 
-* [[README|Вакансии Anthropic — Анализ по кластерам]]
+----
+
+_Смотрите также:_
+* [[17-honestly-ne-znaesh]]
+
 
 
 
 ----
 
-_Смотрите также:_
-* [[102-доступ-к-данным]]
-* [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
-* [[118-appendix-a-шаблон-для-header-warning]]
-* [[121-appendix-c-история-изменений-методологии]]
+_Похожие документы:_
+* [[17-honestly-ne-znaesh]] (сходство 0.59)
+* [[361-когда-ты-honestly-не-знаешь]] (сходство 0.51)
+* [[16-vsegda-delaesh]] (сходство 0.12)
 

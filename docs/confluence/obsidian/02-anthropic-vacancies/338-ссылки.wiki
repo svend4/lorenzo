@@ -88,9 +88,27 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[147-references|References]]
+* [[320-references|References]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[300-заключение|Заключение]]
+* [[204-ссылки|Ссылки]]
+* [[245-ссылки|Ссылки]]
+* [[302-ссылки|Ссылки]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[302-ссылки|Ссылки]] _25%_
+* [[320-references|References]] _25%_
+* [[123-portal-mcp-py|portal-mcp.py]] _17%_
+* [[25-13-reference-implementation|13. Reference Implementation]] _17%_
+* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _17%_
+* [[300-заключение|Заключение]] _17%_
+* [[93-18-reference-implementation|18. Reference Implementation]] _17%_
 h2. Связанные документы
 
 * [[302-ссылки|Ссылки]] _29%_

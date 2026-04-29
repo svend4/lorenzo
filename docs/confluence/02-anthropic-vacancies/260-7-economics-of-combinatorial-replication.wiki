@@ -6,6 +6,16 @@
 h1. 7. Economics of Combinatorial Replication
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Economics of Combinatorial Replication The economics of Composite Skills Agents differ from both --- Содержание - 7.{quote}
+{quote}🔧 _Подход:_ For OKWF specifically, the hybrid approach plus eventual cooperative ownership seems most aligned with mission.{quote}
+{quote}✅ _Результат:_ This requires substantial upfront investment but enables initial configurations.{quote}
+{quote}🏷️ _Ключевые слова:_ {{agents}}, {{agent}}, {{economics}}, {{profession}}, {{development}}, {{combinatorial}}, {{replication}}, {{anthropic}}{quote}
+>
+
+
+
 {quote}The economics of Composite Skills Agents differ from both{quote}
 
 ----
@@ -183,9 +193,23 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [4. The Sub-Agent Registry|257-4-the-sub-agent-registry.md]
+* [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md]
+* [5. The Economics of Profession-Wide Replication|216-5-the-economics-of-profession-wide-replication.md]
+* [8. Pilot Proposal: SGB Advocate Colleague|219-8-pilot-proposal-sgb-advocate-colleague.md]
+* [9. Integration with OKWF Infrastructure|262-9-integration-with-okwf-infrastructure.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [4. The Sub-Agent Registry|257-4-the-sub-agent-registry.md] _33%_
+* [8. Pilot Proposal: SGB Advocate Colleague|219-8-pilot-proposal-sgb-advocate-colleague.md] _25%_
+* [9. Integration with OKWF Infrastructure|262-9-integration-with-okwf-infrastructure.md] _21%_
+* [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md] _17%_
 h2. Связанные документы
 
 * [8. Pilot Proposal: SGB Advocate Colleague|219-8-pilot-proposal-sgb-advocate-colleague.md] _29%_

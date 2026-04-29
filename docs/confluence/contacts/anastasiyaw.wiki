@@ -7,7 +7,7 @@ h1. Контакт: AnastasiyaW / knowledge-space, mclaude
 
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, AgentFS, knowledge-space, mclaude, LiteParse, NGT Memory, SENTINEL, Auto AI Router
+_Проекты:_ Svyazi, knowledge-space, mclaude
 
 ----
 
@@ -66,29 +66,22 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Упоминается в
 
-* [Приоритет контактов|../CONTACT_PRIORITY.md]
+----
 
+_Похожие документы:_
+* [sonia-black|docs/contacts/sonia-black.md] (сходство 0.74)
+* [zodigancode|docs/contacts/zodigancode.md] (сходство 0.67)
+* [cutcode|docs/contacts/cutcode.md] (сходство 0.67)
 
-h2. Связанные документы
-
-* [Контакт: Sonia_Black / knowledge-space|sonia-black.md] _73%_
-* [Контакт: andrey_chuyan / Svyazi|andrey-chuyan.md] _60%_
-* [Контакт: Cutcode / AIF Handoff|cutcode.md] _60%_
-* [Контакт: Dmitriila / SENTINEL|dmitriila.md] _60%_
-* [Контакт: kksudo / AgentFS|../autofilled/components/kksudo.md] _60%_
-* [Контакт: MiXaiLL76 / Auto AI Router|mixaill76.md] _60%_
-* [Контакт: nlaik / LiteParse / research-docs|nlaik.md] _60%_
-* [Контакт: spbmolot / NGT Memory|../autofilled/components/spbmolot.md] _60%_
 
 
 
 ----
 
 _Смотрите также:_
-* [nlaik|nlaik.md]
-* [sonia-black|sonia-black.md]
-* [kksudo|../autofilled/components/kksudo.md]
-* [tagir-analyzes|tagir-analyzes.md]
+* [cutcode|docs/contacts/cutcode.md]
+* [zodigancode|docs/contacts/zodigancode.md]
+* [sonia-black|docs/contacts/sonia-black.md]
+* [dmitriila|docs/contacts/dmitriila.md]
 

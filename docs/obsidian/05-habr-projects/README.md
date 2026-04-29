@@ -1,12 +1,18 @@
+---
+title: "Уникальные проекты с Хабра"
+tags:
+  - habr-projects
+date: 2026-04-29
+---
+
 # Уникальные проекты с Хабра
 
-**Файлов:** 3
+**Файлов:** 2
 
 ## Содержание
 
-- [01-synthesis.md](01-synthesis.md) — ---
-- [02-collaboration-partners.md](02-collaboration-partners.md) — ---
-- [QA.md](QA.md) — ---
+- [[01-synthesis|01-synthesis.md]] — Синтезировал архитектурные находки для расширенной системы памяти
+- [[02-collaboration-partners|02-collaboration-partners.md]] — автора статьи выше подобных авторов подобных разработчиков или ещё может быть или может быть даже несколько проектов кот…
 
 ## Подразделы
 
@@ -18,7 +24,7 @@
 ---
 
 **Похожие документы:**
-- [README](docs/05-habr-projects/README.md) (сходство 0.39)
-- [README](docs/obsidian/05-habr-projects/memory/README.md) (сходство 0.31)
-- [README](docs/obsidian/05-habr-projects/knowledge/README.md) (сходство 0.27)
+- [[02-collaboration-partners]] (сходство 0.18)
+- [[01-synthesis]] (сходство 0.16)
+- [[README]] (сходство 0.10)
 

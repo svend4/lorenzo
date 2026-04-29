@@ -2,6 +2,7 @@
 title: "Native Format"
 tags:
   - anthropic
+  - collaboration
   - anthropic-vacancies
 date: 2026-04-29
 ---
@@ -12,14 +13,14 @@ date: 2026-04-29
 > **Структура концепта (предположительно):** [? уточнить точный формат]
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, collaboration -->
 
 
 
 
 ## Native Format
 
-**Расширение:** `.pro2`
+**Расширение:** `.[[01-интегральный-анализ-профиля-svend4|pro2]]`
 
 **Структура концепта (предположительно):** [? уточнить точный формат]
 ```
@@ -64,9 +65,27 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[49-angle-perspective|Angle / Perspective]]
+- [[50-bridges|Bridges]]
+- [[54-for-the-curious-philosophy|For the Curious: Philosophy]]
+- [[43-history|History]]
+- [[37-native-format|Native Format]]
+- [[57-native-format|Native Format]]
+- [[README|Вакансии Anthropic — Анализ по кластерам]]
+## Упоминается в
+
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[57-native-format|Native Format]] _33%_
+- [[43-history|History]] _25%_
+- [[50-bridges|Bridges]] _25%_
+- [[51-compatibility-level|Compatibility Level]] _25%_
+- [[49-angle-perspective|Angle / Perspective]] _21%_
+- [[60-bridges|Bridges]] _17%_
+- [[61-compatibility-level|Compatibility Level]] _17%_
 ## Связанные документы
 
 - [[57-native-format|Native Format]] _29%_

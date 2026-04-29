@@ -1,0 +1,28 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/svyazi-2-0/architecture/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. architecture
+
+_Файлов:_ 7
+
+h2. Содержание
+
+* [card-envelope.md|card-envelope.md] — 
+* [evidence-envelope.md|evidence-envelope.md] — 
+* [gaps.md|gaps.md] — > [!TIP]
+* [integration-spec.md|integration-spec.md] — > [!TIP]
+* [memory-write-policy.md|memory-write-policy.md] — 
+* [review-record.md|review-record.md] — 
+* [skill-tool-policy.md|skill-tool-policy.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [README|docs/nautilus/multi-tier-architecture/README.md] (сходство 0.17)
+* [review-record|docs/svyazi-2-0/architecture/review-record.md] (сходство 0.17)
+* [README|docs/ai-collaborations/continuation/README.md] (сходство 0.15)
+

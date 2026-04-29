@@ -1,0 +1,37 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/anthropic-vacancies/clusters/README.md}}
+Дата: 2026-04-29
+{info}
+
+h1. Кластеры вакансий
+
+_Файлов:_ 16
+
+h2. Содержание
+
+* [01-ai-research-engineering.md|01-ai-research-engineering.md] — 
+* [02-sales.md|02-sales.md] — 
+* [03-finance.md|03-finance.md] — 
+* [04-security.md|04-security.md] — 
+* [05-marketing-brand.md|05-marketing-brand.md] — 
+* [06-engineering-design-product.md|06-engineering-design-product.md] — 
+* [07-software-engineering-infrastructure.md|07-software-engineering-infrastructure.md] — 
+* [08-safeguards-trust-safety.md|08-safeguards-trust-safety.md] — 
+* [09-product-management-support-ops.md|09-product-management-support-ops.md] — 
+* [10-compute.md|10-compute.md] — 
+* [11-legal.md|11-legal.md] — 
+* [12-technical-program-management.md|12-technical-program-management.md] — 
+* [13-communications.md|13-communications.md] — 
+* [14-public-policy.md|14-public-policy.md] — 
+* [15-public-benefit.md|15-public-benefit.md] — 
+* [16-people.md|16-people.md] — 
+
+
+
+----
+
+_Похожие документы:_
+* [overview|docs/anthropic-vacancies/overview.md] (сходство 0.33)
+* [12-technical-program-management|docs/anthropic-vacancies/clusters/12-technical-program-management.md] (сходство 0.23)
+* [13-communications|docs/anthropic-vacancies/clusters/13-communications.md] (сходство 0.20)
+

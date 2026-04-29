@@ -14,6 +14,29 @@ date: 2026-04-29
 h1. Abstract
 
 
+h2. Содержание
+
+* [Abstract|#abstract]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Abstract The five-type taxonomy introduced in Professional Colleague --- Abstract The five-type taxonomy introduced in Professional Colleague Agents (Type 0 through Type 4) treats {quote}
+{quote}🔧 _Подход:_ Most skilled professionals occupy a middle zone: not generic practitioners of a profession, not unique individuals beyond categorization, but composite specialists — practitioners {quote}
+{quote}🏷️ _Ключевые слова:_ {{anthropic}}, {{vacancies}}, {{binary}}, {{incomplete}}, {{abstract}}, {{unique}}, {{composite}}, {{narrow}}{quote}
+>
+
+
+
 {quote}The five-type taxonomy introduced in Professional Colleague{quote}
 
 ----
@@ -84,9 +107,34 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]]
+* [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]]
+* [[223-12-closing|12. Closing]]
+* [[266-13-closing|13. Closing]]
+* [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]]
+* [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]]
+* [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]]
+* [[168-abstract|Abstract]]
+* [[210-abstract|Abstract]]
+* [[267-acknowledgments|Acknowledgments]]
+* [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]]
+* [[253-table-of-contents|Table of Contents]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+h2. Упоминается в
+
 * [[README|Вакансии Anthropic — Анализ по кластерам]]
 
 
+h2. Связанные документы
+
+* [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _48%_
+* [[210-abstract|Abstract]] _29%_
+* [[253-table-of-contents|Table of Contents]] _29%_
+* [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _25%_
+* [[220-9-relationship-to-other-agent-types|9. Relationship to Other Agent Types]] _25%_
+* [[223-12-closing|12. Closing]] _25%_
+* [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _25%_
+* [[266-13-closing|13. Closing]] _25%_
 h2. Связанные документы
 
 * [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _42%_

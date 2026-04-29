@@ -1,0 +1,89 @@
+{info:title=Источник}
+Сгенерировано из: {{docs/obsidian/nautilus/review-methodology/11-application-plan-current-docs.md}}
+Дата: 2026-04-29
+{info}
+
+----
+title: "10. Конкретный план применения к текущим документам"
+tags:
+  * architecture
+  * roadmap
+  * anthropic
+  * nautilus
+date: 2026-04-29
+----
+
+h1. 10. Конкретный план применения к текущим документам
+
+
+{quote}> Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».{quote}
+
+----
+
+
+
+
+
+{quote}Источник: MHTML‑снимок {{Вакансии в Anthropic по кластерам - Claude}} (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».{quote}
+
+h2. 10. Конкретный план применения к текущим документам
+
+h3. 10.1. IMPLEMENTATION_STAGE_PART_[1-4].md
+
+_Текущий статус_: Merged-to-main, Фаза C не пройдена, header 
+warning _отсутствует_.
+
+_Немедленные действия_:
+
+1. Добавить header warning (§2.4) в каждую из 4 частей
+2. Установить deadline Фазы C: 2026-05-03 (2 недели)
+3. Провести верификацию конкретных метрик:
+
+{code:language=bash}
+# В Termux
+cd ~/path/to/nautilus
+find . -name "*.py" ! -path "./.git/*" | xargs wc -l | tail -1
+find tests -name "*.py" | xargs wc -l | tail -1
+pytest --co -q 2>/dev/null | grep -c "::"
+ls adapters/*.py | grep -v "__\|base\|cache" | wc -l
+{code}
+
+Результат — вставить в финальный консолидированный документ вместо 
+обоих вариантов.
+
+h3. 10.2. Будущие применения
+
+Планируемые кандидаты на трёхфазную методологию:
+
+* _ARCHITECTURE.md_ (если создаётся) — формальное описание 
+архитектуры
+* _CONTRIBUTING.md_ (если создаётся) — guidelines для внешних 
+contributors
+* _MCP_EXTENSION.md_ (когда будет разрабатываться) — спецификация 
+MCP-обёртки
+
+Для routine документов (individual passports, adapter-specific 
+docs) методология _не применяется_.
+
+----
+
+
+
+----
+
+_Смотрите также:_
+* [[117-10-конкретный-план-применения-к-текущим-документам]]
+* [[15-appendix-c-history]]
+* [[08-implementation-nautilus]]
+* [[02-formal-workflow]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[117-10-конкретный-план-применения-к-текущим-документам]] (сходство 0.70)
+* [[117-10-конкретный-план-применения-к-текущим-документам]] (сходство 0.61)
+* [[15-appendix-c-history]] (сходство 0.27)
+

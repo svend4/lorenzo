@@ -39,20 +39,13 @@ date: 2026-04-29
 **Transparency disclosure**:
 > «Этот message был drafted мной (Lorenzo) автономно, но Макс review'ил его перед отправкой. Все commitments require Max approval.»
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[347-твоя-миссия]]
-- [[360-что-ты-всегда-делаешь]]
-- [[346-твоё-происхождение]]
-- [[356-твой-workflow]]
+- [[13-outreach-communication]]
+- [[04-q4-character]]
 
 
 <!-- similar-docs -->
@@ -60,7 +53,7 @@ date: 2026-04-29
 ---
 
 **Похожие документы:**
-- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.82)
-- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md) (сходство 0.76)
-- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md) (сходство 0.18)
+- [[357-твоя-коммуникация-в-outreach]] (сходство 0.82)
+- [[13-outreach-communication]] (сходство 0.82)
+- [[04-q4-character]] (сходство 0.19)
 

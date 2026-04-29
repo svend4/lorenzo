@@ -7,9 +7,30 @@ date: 2026-04-29
 
 # Local-first и P2P стек
 
+<!-- toc -->
+## Содержание
+
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B - Средние → облачная DeepSeek - Сложные архитектурные → Claude O
+> 🔧 **Подход:** Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B - Средние → облачная DeepSeek - Сложные архитектурные → Claude O
+> ✅ **Результат:** 2.2 Fault-tolerant агентский граф Router даёт fallback из коробки.
+> 🏷️ **Ключевые слова:** `knowledge`, `technology`, `combinations`, `svyazi`, `articles`, `first`, `cardindex`, `graph`
+>
+
+
 <!-- summary -->
 > - Сложные архитектурные → Claude Opus
-**Проекты:** Svyazi, CardIndex, Yjs
+**Проекты:** Svyazi, [[01-executive-summary|CardIndex]], Yjs
 
 ---
 <!-- tags: rag, knowledge, ingestion, local-first, architecture, collaboration -->
@@ -18,7 +39,7 @@ date: 2026-04-29
 
 
 локальная Qwen3:8B
-- Средние → облачная DeepSeek
+- Средние → облачная [[memnet|DeepSeek]]
 - Сложные архитектурные → Claude Opus
 - Роутер перед каждым агентом, не после
 Экономия: 80% запросов идут на дешёвые модели, Opus только для Planner-агента.
@@ -27,10 +48,10 @@ date: 2026-04-29
 #### Комбинация 3: CRDT local-first × Svyazi CardIndex
 Родители:
 - CRDT / RON / Yjs (habr.com/ru/articles/534510/, habr.com/ru/articles/946722/) — conflict-free replicated data types, p2p синхронизация
-- Svyazi CardIndex — YAML-структура профилей с хешами для дедупликации
+- Svyazi [[01-executive-summary|CardIndex]] — YAML-структура профилей с хешами для дедупликации
 Дети:
 3.1 P2P-граф сообщества без центрального сервера Сейчас Svyazi — single-user система. С CRDT:
-- Каждый участник ведёт локальный CardIndex
+- Каждый участник ведёт локальный [[01-executive-summary|CardIndex]]
 - Изменения синхронизируются p2p через Yjs
 - Конфликты (два человека обновили профиль одного участника) мержатся автоматически
 - Никакого центрального сервера — privacy by design
@@ -74,9 +95,20 @@ date: 2026-04-29
 <!-- backlinks-auto -->
 ## Упоминается в
 
+- [[01-agent-routing|Агентные системы и роутинг]]
+- [[05-benchmarks|Бенчмарки и производительность]]
+- [[02-knowledge-graphs|Графы знаний и Legal AI]]
+- [[README|Комбинирование технологий для новых свойств]]
+## Упоминается в
+
 - [[README|Комбинирование технологий для новых свойств]]
 
 <!-- related-auto -->
+## Связанные документы
+
+- [[02-knowledge-graphs|Графы знаний и Legal AI]] _33%_
+- [[05-benchmarks|Бенчмарки и производительность]] _29%_
+- [[README|Комбинирование технологий для новых свойств]] _21%_
 ## Связанные документы
 
 - [[05-benchmarks|Бенчмарки и производительность]] _33%_

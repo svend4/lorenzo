@@ -1,12 +1,14 @@
 ---
 title: "Appendix A: Шаблон для header warning"
 tags:
-  - anthropic
+  - architecture
   - anthropic-vacancies
 date: 2026-04-29
 ---
 
 # Appendix A: Шаблон для header warning
+<!-- tags: architecture -->
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -17,8 +19,6 @@ date: 2026-04-29
 > Готовый копи-паст шаблон для вставки в начало документов в
 
 ---
-<!-- tags: anthropic -->
-
 
 
 
@@ -51,20 +51,12 @@ transitional state:
 
 ---
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [[102-доступ-к-данным]]
-- [[121-appendix-c-история-изменений-методологии]]
-- [[339-приложение-a-дерево-решений-для-принимающих-ingit]]
-- [[185-appendix-b-domain-comparison-matrix]]
+- [[12-appendix-a-header-warning]]
 
 
 <!-- similar-docs -->
@@ -72,7 +64,7 @@ transitional state:
 ---
 
 **Похожие документы:**
-- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.55)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.47)
-- [121-appendix-c-история-изменений-методологии](docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md) (сходство 0.45)
+- [[12-appendix-a-header-warning]] (сходство 0.60)
+- [[118-appendix-a-шаблон-для-header-warning]] (сходство 0.55)
+- [[14-main-technical-risks]] (сходство 0.24)
 

@@ -14,9 +14,14 @@ date: 2026-04-29
 
 h1. Контакт: nlaik / LiteParse / research-docs
 
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 
 {quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, knowledge-space, mclaude, Rufler, LiteParse, Legal RAG, Graph RAG, SENTINEL
+_Проекты:_ Svyazi, LiteParse
 
 ----
 
@@ -73,24 +78,22 @@ h2. Открытые вопросы
 _Создано автоматически: 2026-04-29_
 
 
-h2. Связанные документы
 
-* [[cutcode|Контакт: Cutcode / AIF Handoff]] _66%_
-* [[dmitriila|Контакт: Dmitriila / SENTINEL]] _66%_
-* [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] _66%_
-* [[sonia-black|Контакт: Sonia_Black / knowledge-space]] _66%_
-* [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] _66%_
-* [[vladspace|Контакт: VladSpace / Graph RAG]] _66%_
-* [[zodigancode|Контакт: zodigancode / Rufler]] _66%_
-* [[anastasiyaw|Контакт: AnastasiyaW / knowledge-space, mclaude]] _60%_
+----
+
+_Похожие документы:_
+* [[antipozitive]] (сходство 0.87)
+* [[vladspace]] (сходство 0.84)
+* [[zodigancode]] (сходство 0.82)
+
 
 
 
 ----
 
 _Смотрите также:_
-* [[sonia-black]]
-* [[tagir-analyzes]]
 * [[antipozitive]]
-* [[vladspace]]
+* [[sonia-black]]
+* [[spbmolot]]
+* [[andrey-chuyan]]
 

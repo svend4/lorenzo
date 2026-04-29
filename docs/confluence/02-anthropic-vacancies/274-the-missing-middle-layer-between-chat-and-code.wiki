@@ -63,9 +63,36 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers|209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+* [AI Support Through Configurable Specialist Ensembles|251-ai-support-through-configurable-specialist-ensembl.md]
+* [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations|167-ai-mediated-representation-for-underrepresented-ex.md]
+* [Acknowledgments|146-acknowledgments.md]
+* [Acknowledgments|224-acknowledgments.md]
+* [Acknowledgments|267-acknowledgments.md]
+* [Acknowledgments|286-acknowledgments.md]
+* [Acknowledgments|319-acknowledgments.md]
+* [Appendix A: Connection to Companion Papers|184-appendix-a-connection-to-companion-papers.md]
+* [Appendix C: Sample InGit MCP Server Tool Specifications|323-appendix-c-sample-ingit-mcp-server-tool-specificat.md]
+* [References|268-references.md]
+* [References|287-references.md]
+* [with Anthropic's Cowork Platform|306-with-anthropic-s-cowork-platform.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [Существующие документы DHLab (твой context)|355-существующие-документы-dhlab-твой-context.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Appendix A: Connection to Companion Papers|184-appendix-a-connection-to-companion-papers.md] _60%_
+* [with Anthropic's Cowork Platform|306-with-anthropic-s-cowork-platform.md] _53%_
+* [Существующие документы DHLab (твой context)|355-существующие-документы-dhlab-твой-context.md] _53%_
+* [Acknowledgments|146-acknowledgments.md] _48%_
+* [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers|209-a-typology-of-ai-agents-on-the-principal-side-and-.md] _48%_
+* [AI Support Through Configurable Specialist Ensembles|251-ai-support-through-configurable-specialist-ensembl.md] _42%_
+* [Acknowledgments|224-acknowledgments.md] _37%_
+* [Table of Contents|137-table-of-contents.md] _29%_
 h2. Связанные документы
 
 * [with Anthropic's Cowork Platform|306-with-anthropic-s-cowork-platform.md] _53%_

@@ -1,15 +1,5 @@
 # Мониторинг зависимостей
 
-<!-- summary -->
-> python scripts/improve_dependabot.py --generate-config
-**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
-
----
-<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->
-
-
-
-
 _Обновлено: 2026-04-29_
 
 ## Python-зависимости
@@ -42,13 +32,3 @@ python scripts/improve_dependabot.py --check-pypi
 
 После `--generate-config` Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [DEPENDABOT](docs/obsidian/DEPENDABOT.md) (сходство 0.83)
-- [spbmolot](docs/autofilled/components/spbmolot.md) (сходство 0.17)
-- [ENTITIES](docs/ENTITIES.md) (сходство 0.16)
-

@@ -6,6 +6,14 @@
 h1. What Industry Will Likely Build
 
 
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Likely Build Independent of what the author does, the industry wi{quote}
+{quote}🏷️ _Ключевые слова:_ {{anthropic}}, {{vacancies}}, {{layer}}, {{build}}, {{industry}}, {{likely}}, {{infrastructure}}, {{notion}}{quote}
+>
+
+
+
 {quote}Independent of what the author does, the industry will move{quote}
 
 ----
@@ -28,8 +36,8 @@ Anthropic is positioned to do this well because they
 control the AI integration tightly. Expect incremental 
 additions to Projects functionality through 2026-2027.
 
-_GitHub for ideas._ GitHub may build something parallel 
-to GitHub for code — an intellectual workspace product. 
+_[GitHub|../docs/01-svyazi/03-component-catalog.md] for ideas._ GitHub may build something parallel 
+to [GitHub|../docs/01-svyazi/03-component-catalog.md] for code — an intellectual workspace product. 
 They have the infrastructure, the user base, and the 
 brand. Risk: code culture would persist.
 
@@ -75,9 +83,27 @@ _Смотрите также:_
 
 h2. Упоминается в
 
+* [Existing Approximations|279-existing-approximations.md]
+* [Practical Recommendations for the Current Project|284-practical-recommendations-for-the-current-project.md]
+* [The Recursive Insight|281-the-recursive-insight.md]
+* [The Specific Case in Front of Us|280-the-specific-case-in-front-of-us.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [Существующие приближения|294-существующие-приближения.md]
+* [Что промышленность вероятно построит|297-что-промышленность-вероятно-построит.md]
+h2. Упоминается в
+
 * [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
 
+h2. Связанные документы
+
+* [Existing Approximations|279-existing-approximations.md] _29%_
+* [The Recursive Insight|281-the-recursive-insight.md] _29%_
+* [The Two-Layer Stack As It Exists|276-the-two-layer-stack-as-it-exists.md] _25%_
+* [The Specific Case in Front of Us|280-the-specific-case-in-front-of-us.md] _25%_
+* [Practical Recommendations for the Current Project|284-practical-recommendations-for-the-current-project.md] _25%_
+* [Why This Hasn't Been Built|278-why-this-hasn-t-been-built.md] _21%_
+* [What This Document Doesn't Solve|283-what-this-document-doesn-t-solve.md] _17%_
 h2. Связанные документы
 
 * [Existing Approximations|279-existing-approximations.md] _33%_
