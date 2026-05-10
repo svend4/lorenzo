@@ -1,4 +1,6 @@
 # Уникальные проекты с Хабра
+<!-- summary: Каталог уникальных OSS-проектов с Хабра в слоях memory и knowledge -->
+<!-- tags: projects, habr, memory, knowledge, collaboration -->
 
 **Файлов:** 3
 

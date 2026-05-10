@@ -1,4 +1,6 @@
 # Системы знаний
+<!-- summary: Проекты слоя knowledge: AgentFS, knowledge-space, mclaude, Rufler, Wikontic, LiteParse -->
+<!-- tags: knowledge, agentfs, knowledge-space, mclaude, rufler, wikontic -->
 
 **Файлов:** 6
 

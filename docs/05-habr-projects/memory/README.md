@@ -1,4 +1,6 @@
 # Системы памяти
+<!-- summary: Проекты слоя memory: agent-memory-mcp, MemNet, NGT Memory, Yodoca -->
+<!-- tags: memory, agent-memory-mcp, memnet, ngt-memory, yodoca -->
 
 **Файлов:** 4
 
