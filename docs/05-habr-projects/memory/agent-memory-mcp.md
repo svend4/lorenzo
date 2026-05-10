@@ -71,7 +71,7 @@ tags: [memory, mcp, typed-memory, sqlite, agent, bi-temporal]
 
 ## Контакт
 
-- Контактный файл: [docs/contacts/vitalysemenov.md](../contacts/vitalysemenov.md)
+- Контактный файл: [docs/contacts/vitalysemenov.md](../../contacts/vitalysemenov.md)
 - Статус: not_started
 
 ## Смотрите также

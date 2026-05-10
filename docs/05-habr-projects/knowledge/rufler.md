@@ -71,7 +71,7 @@ Rufler — самый лёгкий путь к multi-agent pipeline: не нуж
 
 ## Контакт
 
-- Контактный файл: [docs/contacts/zodigancode.md](../contacts/zodigancode.md)
+- Контактный файл: [docs/contacts/zodigancode.md](../../contacts/zodigancode.md)
 
 ## Смотрите также
 

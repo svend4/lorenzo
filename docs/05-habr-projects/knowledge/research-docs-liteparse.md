@@ -66,7 +66,7 @@ LiteParse закрывает слой "structured ingestion with evidence" — �
 
 ## Контакт
 
-- Контактный файл: [docs/contacts/nlaik.md](../contacts/nlaik.md)
+- Контактный файл: [docs/contacts/nlaik.md](../../contacts/nlaik.md)
 
 ## Смотрите также
 

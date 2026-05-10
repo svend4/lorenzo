@@ -67,7 +67,7 @@ AgentFS превращает Obsidian-vault в операционную сист
 
 ## Контакт
 
-- Контактный файл: [docs/contacts/kksudo.md](../contacts/kksudo.md)
+- Контактный файл: [docs/contacts/kksudo.md](../../contacts/kksudo.md)
 - Упомянут в документах: 13 раз (наибольшее число упоминаний среди всех авторов)
 
 ## Смотрите также

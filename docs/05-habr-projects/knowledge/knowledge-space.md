@@ -57,7 +57,7 @@ knowledge-space закрывает слой "нормализованного з
 
 ## Контакт
 
-- Контактный файл: [docs/contacts/sonia-black.md](../contacts/sonia-black.md)
+- Контактный файл: [docs/contacts/sonia-black.md](../../contacts/sonia-black.md)
 - Упомянут в документах: 11 раз
 
 ## Смотрите также

@@ -7,6 +7,10 @@
   ],
   "edges": [
     {
+      "to": "docs/contacts/kksudo.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/05-habr-projects/knowledge/knowledge-space.md",
       "rel": "references"
     },
@@ -23,8 +27,8 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:48:33+00:00",
-  "updated_at": "2026-05-10T16:48:33+00:00",
+  "created_at": "2026-05-10T17:08:16+00:00",
+  "updated_at": "2026-05-10T17:08:16+00:00",
   "payload_hash": "sha256:5cac640b80cb3ba9",
   "payload": {
     "title": "AgentFS",

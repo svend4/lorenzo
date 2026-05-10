@@ -64,7 +64,7 @@ mclaude закрывает слой "multi-agent coordination" в Svyazi 2.0 —
 
 ## Контакт
 
-- Контактный файл: [docs/contacts/anastasiyaw.md](../contacts/anastasiyaw.md)
+- Контактный файл: [docs/contacts/anastasiyaw.md](../../contacts/anastasiyaw.md)
 - Также автор: [knowledge-space](knowledge-space.md) (785+ карточек, MIT)
 
 ## Смотрите также

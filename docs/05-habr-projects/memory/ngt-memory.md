@@ -17,7 +17,7 @@
 | Теги | — |
 | Упоминаний в репо | 260 |
 | Слой | memory |
-| Контакт | [@spbmolot](docs/contacts/spbmolot.md) |
+| Контакт | [@spbmolot](../../contacts/spbmolot.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-04-29_

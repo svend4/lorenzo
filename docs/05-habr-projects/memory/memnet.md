@@ -18,7 +18,7 @@
 | Теги | — |
 | Упоминаний в репо | 90 |
 | Слой | memory |
-| Контакт | [@Antipozitive](docs/contacts/antipozitive.md) |
+| Контакт | [@Antipozitive](../../contacts/antipozitive.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-04-29_
