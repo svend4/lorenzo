@@ -16,9 +16,9 @@ tags: [liteparse, pdf, forensic-qa, bounding-boxes, visual-grounding, spatial-pa
 | Параметр | Значение |
 |----------|---------|
 | Теги | — |
-| Упоминаний в репо | — |
-| Слой | — |
-| Контакт | — |
+| Упоминаний в репо | 594 |
+| Слой | ingestion/evidence |
+| Контакт | [@nlaik](../../contacts/nlaik.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-05-10_
