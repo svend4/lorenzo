@@ -1,12 +1,14 @@
 # Системы знаний
 
-**Файлов:** 4
+**Файлов:** 6
 
 ## Содержание
 
 - [agentfs.md](agentfs.md) — AgentFS — kksudo — Obsidian-vault как операционная система для AI-агентов (.agentos/ ядро, MIT, v0.1.5)
 - [knowledge-space.md](knowledge-space.md) — knowledge-space — AnastasiyaW / Sonia_Black — 785+ agent-first карточек по 26 доменам (MIT)
 - [mclaude.md](mclaude.md) — mclaude — AnastasiyaW — координация параллельных сессий Claude Code (locks, handoffs, mailbox, MIT)
+- [research-docs-liteparse.md](research-docs-liteparse.md) — research-docs + LiteParse — nlaik — Forensic PDF QA с bounding boxes и visual citations (Apache 2.0)
+- [rufler.md](rufler.md) — Rufler — zodigancode/lib4u — декларативный YAML-слой для роя Claude Code агентов (depends_on, token accounting, MIT)
 - [wikontic.md](wikontic.md) — Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И…
 
 <!-- similar-docs -->

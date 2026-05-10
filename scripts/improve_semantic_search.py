@@ -254,9 +254,36 @@ def search_fulltext(query: str, top: int = 10, section: str = "") -> list[dict]:
 # Объединение результатов (hybrid merge)
 # ─────────────────────────────────────────────────────────────────────
 
+_STUB_DIRS = ("docs/svyazi-2-0/", "svyazi-2-0/",
+              "docs/autofilled/", "autofilled/",
+              "docs/obsidian/", "obsidian/")
+
+
+def _canonical_path_key(path: str) -> str:
+    """Normalise a doc path to a canonical dedup key.
+
+    Strips stub/mirror directory prefixes so that
+    'docs/svyazi-2-0/components/agentfs.md' and
+    'docs/05-habr-projects/knowledge/agentfs.md'
+    both map to the same stem key 'agentfs'.
+    """
+    stem = Path(path).stem.lower()
+    stem = re.sub(r'[^а-яёa-z0-9]', '', stem)[:40]
+    return stem
+
+
+def _is_stub_path(path: str) -> bool:
+    return any(path.startswith(p) for p in _STUB_DIRS)
+
+
 def search_hybrid(query: str, top: int = 10,
                   card_type: str = "", section: str = "") -> list[dict]:
-    """Merges semantic + BM25 + full-text with reciprocal rank fusion."""
+    """Merges semantic + BM25 + full-text with reciprocal rank fusion.
+
+    Deduplication: when multiple paths share the same stem (e.g. a rich
+    05-habr-projects/ file and a stub svyazi-2-0/components/ file),
+    the canonical (non-stub) path wins.
+    """
     sem_res = search_semantic(query, top=top * 2, card_type=card_type, section=section)
     bm25_res = search_bm25(query, top=top * 2, section=section)
 
@@ -275,15 +302,23 @@ def search_hybrid(query: str, top: int = 10,
     meta: dict[str, dict] = {}
 
     for rank, r in enumerate(sem_res):
-        key = r.get("path") or r.get("card_id") or r["title"]
-        rrf[key]  = rrf.get(key, 0) + 1.0 / (k + rank + 1)
-        meta[key] = r
+        raw_key = r.get("path") or r.get("card_id") or r["title"]
+        dedup_key = _canonical_path_key(raw_key)
+        existing = meta.get(dedup_key)
+        # Keep the non-stub version; fall back to higher-score among stubs
+        if existing is None or (_is_stub_path(existing.get("path","")) and
+                                 not _is_stub_path(r.get("path",""))):
+            rrf[dedup_key]  = rrf.get(dedup_key, 0) + 1.0 / (k + rank + 1)
+            meta[dedup_key] = r
+        else:
+            rrf[dedup_key] = rrf.get(dedup_key, 0) + 1.0 / (k + rank + 1)
 
     for rank, r in enumerate(bm25_res):
-        key = r.get("file", "") or r.get("title", "")
-        rrf[key]  = rrf.get(key, 0) + 1.0 / (k + rank + 1)
-        if key not in meta:
-            meta[key] = r
+        raw_key  = r.get("file", "") or r.get("title", "")
+        dedup_key = _canonical_path_key(raw_key)
+        rrf[dedup_key]  = rrf.get(dedup_key, 0) + 1.0 / (k + rank + 1)
+        if dedup_key not in meta:
+            meta[dedup_key] = r
 
     merged = sorted(rrf.items(), key=lambda x: -x[1])[:top]
     results = []

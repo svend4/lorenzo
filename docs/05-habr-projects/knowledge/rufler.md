@@ -1,0 +1,77 @@
+---
+template: project-component
+version: "1.0"
+author: "zodigancode"
+author_handle: "@zodigancode"
+projects: ["Rufler"]
+layer: orchestration
+license: MIT
+maturity: active-oss
+priority: 2
+tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting]
+---
+# Rufler
+
+<!-- summary: Декларативный YAML-слой для запуска автономного роя Claude Code-агентов с depends_on, pause/resume и token accounting -->
+<!-- tags: rufler, yaml, declarative, orchestration, agent-swarm, claude-code, mcp, depends_on, pause, resume -->
+
+## Профиль проекта
+
+| Параметр | Значение |
+|----------|---------|
+| Автор | zodigancode / lib4u |
+| GitHub | @zodigancode |
+| Источник | Хабр + repo/DEV |
+| Лицензия | **MIT** |
+| Maturity | Активный OSS |
+| Слой в Svyazi | orchestration |
+
+## Описание
+
+Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAML-файле: зависимости между задачами (`depends_on`), автоматическую генерацию целей для агентов (`auto-objective prompts`), управление жизненным циклом (`pause/resume`), учёт токенов (`token accounting`) и управление MCP-серверами.
+
+Ключевое отличие от mclaude: Rufler работает как декларативный конфигурационный слой (описал → запустил), mclaude — как протокол координации уже запущенных агентов.
+
+## Ключевые компоненты
+
+- **`depends_on`** — граф зависимостей задач: агент B запускается только после завершения агента A
+- **Auto-objective prompts** — Rufler сам формирует цель задачи из YAML-описания, не нужно писать промпт вручную
+- **Pause / Resume** — приостановка и возобновление роя без потери состояния
+- **Token accounting** — учёт и ограничение потребления токенов на задачу и на весь рой
+- **MCP server management** — Rufler управляет запуском/остановкой MCP-серверов для агентов
+- **YAML DSL** — минималистичный язык описания агентных пайплайнов
+
+## Пример структуры задачи (Rufler DSL)
+
+```yaml
+tasks:
+  - id: extract_contacts
+    objective: "Извлечь контакты авторов из docs/contacts/"
+    depends_on: []
+    token_limit: 5000
+
+  - id: rank_by_priority
+    objective: "Ранжировать контакты по приоритету коллаборации"
+    depends_on: [extract_contacts]
+    token_limit: 3000
+```
+
+## Синергия со Svyazi 2.0
+
+- **depends_on** = порядок итераций PROTOTYPE_SPEC: retrieval → consolidation → collaboration
+- **Token accounting** → SkillPolicy(rate_limit): контроль стоимости выполнения пайплайна
+- **MCP server management** → управление `mcp_server.py` из Svyazi как отдельным агентным ресурсом
+- **Auto-objective prompts** + knowledge-space: Rufler читает карточку задачи, сам формирует промпт
+- **Pause/Resume** → MemoryWrite(type="episode"): сохранение прогресса роя между сессиями
+- **MIT** — прямая интеграция без ограничений
+
+## Позиция в архитектуре
+
+Rufler — самый лёгкий путь к multi-agent pipeline: не нужно писать Python-оркестрацию, достаточно YAML. Это делает его идеальным для быстрого прототипирования агентных пайплайнов Svyazi 2.0 перед написанием полноценного кода.
+
+## Контакт
+
+- Контактный файл: [docs/contacts/zodigancode.md](../contacts/zodigancode.md)
+
+---
+_Создано: 2026-05-10_

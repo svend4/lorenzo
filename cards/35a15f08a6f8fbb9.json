@@ -1,0 +1,37 @@
+{
+  "card_id": "sha256:35a15f08a6f8fbb9",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/05-habr-projects/knowledge/rufler.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:43:10+00:00",
+  "updated_at": "2026-05-10T16:43:10+00:00",
+  "payload_hash": "sha256:afb062d9d06d157a",
+  "payload": {
+    "title": "Rufler",
+    "summary": "Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAML-файле: зависимости между задачами (`depends_on`), автоматическую генерацию целей для агентов (`auto-objective prompts`), управление жизненным циклом",
+    "body": "rufler профиль проекта параметр значение автор zodigancode lib github zodigancode источник хабр repo dev лицензия mit maturity активный oss слой svyazi orchestration описание rufler декларативный yaml слой для запуска автономного роя claude code агентов вместо написания кода оркестрации разработчик описывает задачи yaml файле зависимости между задачами depends автоматическую генерацию целей для агентов auto objective prompts управление жизненным циклом pause resume учёт токенов token accounting управление mcp серверами ключевое отличие mclaude rufler работает как декларативный конфигурационный слой описал запустил mclaude как протокол координации уже запущенных агентов ключевые компоненты depends граф зависимостей задач агент запускается только после завершения агента auto objective prompts rufler сам формирует цель задачи yaml описания нужно писать промпт вручную pause resume приостановка возобновление роя без потери состояния token accounting учёт ограничение потребления токенов задачу весь рой mcp server management rufler управляет запуском остановкой mcp серверов для агентов yaml dsl минималистичный язык описания агентных пайплайнов пример структуры задачи rufler dsl tasks extract contacts objective извлечь контакты авторов docs contacts depends token limit rank priority objective ранжировать контакты приоритету коллаборации depends extract contacts token limit синергия svyazi depends порядок итераций prototype spec retrieval consolidation collaboration token accounting skillpolicy rate limit контроль стоимости выполнения пайплайна mcp server management управление mcp server svyazi как отдельным агентным ресурсом auto objective prompts knowledge space rufler читает карточку задачи сам формирует промпт pause resume memorywrite type episode сохранение прогресса роя между сессиями mit прямая интеграция без ограничений позиция архитектуре rufler самый лёгкий путь multi agent pipeline нужно писать python оркестрацию достаточно yaml это делает его идеальным для быстрого прототипирования агентных пайплайнов svyazi перед написанием полноценного кода контакт контактный файл docs contacts zodigancode contacts zodigancode создано",
+    "tags": [
+      "rufler",
+      "yaml",
+      "declarative",
+      "orchestration",
+      "agent-swarm",
+      "claude-code",
+      "mcp",
+      "depends_on",
+      "pause",
+      "resume"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "mclaude",
+      "Rufler"
+    ],
+    "wc": 394,
+    "path": "docs/05-habr-projects/knowledge/rufler.md"
+  }
+}
