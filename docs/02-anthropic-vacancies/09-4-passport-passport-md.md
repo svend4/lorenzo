@@ -5,6 +5,12 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Recommended Structure](#42-recommended-structure)
+## Contents
+
 - [4. Passport (passport.md)](#4-passport-passportmd)
   - [4.1. Purpose](#41-purpose)
   - [4.2. Recommended Structure](#42-recommended-structure)

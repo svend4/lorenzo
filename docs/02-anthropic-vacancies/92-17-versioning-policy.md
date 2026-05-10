@@ -12,6 +12,14 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [17. Versioning Policy](#17-versioning-policy)
+  - [17.1. Semver](#171-semver)
+  - [17.2. Version in Registry](#172-version-in-registry)
+  - [17.3. Breaking Changes Process](#173-breaking-changes-process)
+  - [17.4. Deprecation Policy](#174-deprecation-policy)
+## Contents
+
 - [17. Versioning Policy](#17-versioning-policy)
   - [17.1. Semver](#171-semver)
   - [17.2. Version in Registry](#172-version-in-registry)

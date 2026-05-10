@@ -1,4 +1,6 @@
 # Skill Dashboard
+<!-- tags: self-improve -->
+
 
 _Обновлено: 2026-05-10_
 

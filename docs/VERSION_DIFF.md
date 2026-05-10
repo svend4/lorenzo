@@ -1,5 +1,20 @@
 # Diff базы знаний между версиями
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> **HEAD~10** (`40e69e7`) → **HEAD** (`696550f`)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+
+
+
 _Обновлено: 2026-05-10_
 
 **HEAD~10** (`40e69e7`) → **HEAD** (`696550f`)

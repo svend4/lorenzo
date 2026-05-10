@@ -1,5 +1,14 @@
 # Appendix B: Domain Comparison Matrix
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Domain Comparison Matrix](#appendix-b-domain-comparison-matrix)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 

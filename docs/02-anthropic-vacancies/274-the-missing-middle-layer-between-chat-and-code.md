@@ -1,5 +1,15 @@
 # The Missing Middle Layer Between Chat and Code
 
+<!-- toc-auto -->
+## Contents
+
+- [The Missing Middle Layer Between Chat and Code](#the-missing-middle-layer-between-chat-and-code)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > **Document type:** Inquiry paper, not architectural specification
 

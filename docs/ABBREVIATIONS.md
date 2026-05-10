@@ -1,5 +1,15 @@
 # Словарь аббревиатур и сокращений
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** SENTINEL, LiteLLM, Auto AI Router
+
+---
+<!-- tags: rag, security, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 

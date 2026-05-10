@@ -1,5 +1,15 @@
 # 0. Status of This Document
 
+<!-- toc-auto -->
+## Contents
+
+- [0. Status of This Document](#0-status-of-this-document)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > Этот документ — рабочий черновик Nautilus Portal Protocol v1.1. До
 

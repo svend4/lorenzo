@@ -1,5 +1,15 @@
 # 5. Compatibility Levels
 
+<!-- toc-auto -->
+## Contents
+
+- [5. Compatibility Levels](#5-compatibility-levels)
+  - [Level 0 — Discoverable](#level-0-discoverable)
+  - [Level 1 — Readable](#level-1-readable)
+  - [Level 2 — Linked](#level-2-linked)
+  - [Level 3 — Interactive](#level-3-interactive)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 

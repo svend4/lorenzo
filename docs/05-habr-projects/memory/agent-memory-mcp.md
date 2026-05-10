@@ -25,6 +25,30 @@ _Обновлено: 2026-05-10_
 
 # agent-memory-mcp + Memory OS
 
+<!-- summary -->
+> projects: ["agent-memory-mcp", "Memory OS"]
+**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, NGT Memory, MemNet, agent-memory-mcp
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Статус](#статус)
+- [Профиль проекта](#профиль-проекта)
+- [Описание](#описание)
+- [Ключевые компоненты](#ключевые-компоненты)
+- [Синергия со Svyazi 2.0](#синергия-со-svyazi-20)
+- [Сравнение с другими memory-проектами](#сравнение-с-другими-memory-проектами)
+- [Открытые вопросы](#открытые-вопросы)
+- [Контакт](#контакт)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+
+
 <!-- summary: Типизированный MCP-сервер памяти агента с bi-temporal фактами и gardener-loop -->
 <!-- tags: memory, mcp, agent, typed-memory, sqlite, bi-temporal -->
 

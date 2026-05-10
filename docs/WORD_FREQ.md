@@ -1,5 +1,46 @@
 # Частотный анализ слов
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, Wikontic
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Глобальный топ-50 слов](#глобальный-топ-50-слов)
+- [Топ-15 слов по разделам](#топ-15-слов-по-разделам)
+  - [01-svyazi (9,780 слов)](#01-svyazi-9780-слов)
+  - [02-anthropic-vacancies (210,677 слов)](#02-anthropic-vacancies-210677-слов)
+  - [03-technology-combinations (2,418 слов)](#03-technology-combinations-2418-слов)
+  - [04-ai-collaborations (21,631 слов)](#04-ai-collaborations-21631-слов)
+  - [05-habr-projects (7,085 слов)](#05-habr-projects-7085-слов)
+  - [ai-collaborations (6,692 слов)](#ai-collaborations-6692-слов)
+  - [anthropic-vacancies (25,171 слов)](#anthropic-vacancies-25171-слов)
+  - [autofilled (1,453 слов)](#autofilled-1453-слов)
+  - [badges (56 слов)](#badges-56-слов)
+  - [contacts (1,963 слов)](#contacts-1963-слов)
+  - [glossary (2,910 слов)](#glossary-2910-слов)
+  - [habr-unique-projects (11,319 слов)](#habr-unique-projects-11319-слов)
+  - [lorenzo-agent (15,484 слов)](#lorenzo-agent-15484-слов)
+  - [meta-scripting (905 слов)](#meta-scripting-905-слов)
+  - [nautilus (109,490 слов)](#nautilus-109490-слов)
+  - [obsidian (427,158 слов)](#obsidian-427158-слов)
+  - [processing-guide (8,022 слов)](#processing-guide-8022-слов)
+  - [root (233,090 слов)](#root-233090-слов)
+  - [svyazi-2-0 (10,697 слов)](#svyazi-2-0-10697-слов)
+  - [technology-combinations (11,618 слов)](#technology-combinations-11618-слов)
+  - [templates (2,632 слов)](#templates-2632-слов)
+- [Уникальные слова разделов](#уникальные-слова-разделов)
+
+---
+
+<!-- tags: memory, rag, knowledge, ingestion, architecture, anthropic, self-improve, collaboration -->
+
+
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 

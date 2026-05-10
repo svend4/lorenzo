@@ -61,7 +61,7 @@ def _slug(heading: str) -> str:
     """GitHub-совместимый якорь из заголовка."""
     s = heading.lower().strip()
     s = re.sub(r'[^\w\s-]', '', s)
-    s = re.sub(r'[\s_]+', '-', s)
+    s = re.sub(r'\s+', '-', s)
     return s.strip('-')
 
 
@@ -94,7 +94,7 @@ def _extract_headings(text: str, max_level: int) -> list[tuple[int, str]]:
         m = re.match(r'^(#{2,%d})\s+(.+)$' % max_level, line)
         if m:
             level = len(m.group(1))
-            title = re.sub(r'[`*_]', '', m.group(2)).strip()
+            title = re.sub(r'[`*]', '', m.group(2)).strip()
             result.append((level, title))
     return result
 

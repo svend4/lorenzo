@@ -25,6 +25,30 @@ _Обновлено: 2026-05-10_
 
 # research-docs + LiteParse
 
+<!-- summary -->
+> projects: ["research-docs", "LiteParse"]
+**Проекты:** Svyazi, AgentFS, knowledge-space, LiteParse, Yodoca, agent-memory-mcp
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Статус](#статус)
+- [Профиль проекта](#профиль-проекта)
+- [Описание](#описание)
+- [Ключевые компоненты](#ключевые-компоненты)
+- [Синергия со Svyazi 2.0](#синергия-со-svyazi-20)
+- [Применение в архитектуре](#применение-в-архитектуре)
+- [Сравнение с подходами](#сравнение-с-подходами)
+- [Контакт](#контакт)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+
+
 <!-- summary: Forensic document QA с HTML-отчётом и bounding boxes на PDF-страницах — visual grounding для RAG-систем -->
 <!-- tags: liteparse, pdf, forensic, bounding-boxes, visual-citations, spatial-text, html-report, evidence, document-qa -->
 

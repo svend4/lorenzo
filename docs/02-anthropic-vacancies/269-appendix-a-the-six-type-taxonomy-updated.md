@@ -1,4 +1,14 @@
 # Appendix A: The Six-Type Taxonomy (Updated)
+
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: The Six-Type Taxonomy (Updated)](#appendix-a-the-six-type-taxonomy-updated)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
 <!-- tags: anthropic -->
 
 

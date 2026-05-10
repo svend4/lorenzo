@@ -1,5 +1,19 @@
 # Индекс «Смотрите также»
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> **Файлов с блоком See Also:** 1129
+
+---
+<!-- tags: rag, security, local-first, architecture, roadmap, collaboration -->
+
+
+
+
 **Файлов с блоком See Also:** 1129
 
 ## Ключевые связи

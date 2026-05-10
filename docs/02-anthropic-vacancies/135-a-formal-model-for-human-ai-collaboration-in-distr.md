@@ -1,5 +1,15 @@
 # A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
 
+<!-- toc-auto -->
+## Contents
+
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > **Editorial review:** Claude (intellectual collaboration, 2026-04)
 

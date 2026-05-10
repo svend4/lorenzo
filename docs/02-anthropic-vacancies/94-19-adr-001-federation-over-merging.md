@@ -1,5 +1,15 @@
 # 19. ADR-001: Federation over Merging
 
+<!-- toc-auto -->
+## Contents
+
+- [19. ADR-001: Federation over Merging](#19-adr-001-federation-over-merging)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > **Status**: Accepted (since v1.0, reaffirmed in v1.1)
 

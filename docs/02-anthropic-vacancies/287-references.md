@@ -12,6 +12,14 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [References](#references)
+  - [Threading and Annotation](#threading-and-annotation)
+  - [Knowledge Management](#knowledge-management)
+  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
+  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
+## Contents
+
 - [References](#references)
   - [Threading and Annotation](#threading-and-annotation)
   - [Knowledge Management](#knowledge-management)

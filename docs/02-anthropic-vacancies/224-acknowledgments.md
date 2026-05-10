@@ -1,5 +1,15 @@
 # Acknowledgments
 
+<!-- toc-auto -->
+## Contents
+
+- [Acknowledgments](#acknowledgments)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > This paper emerged through dialogue with Claude (Anthropic)
 

@@ -60,7 +60,7 @@
 - [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — ---
 - [PRIORITIES.md](PRIORITIES.md) — ---
 - [PROGRESS.md](PROGRESS.md) — ---
-- [QA.md](QA.md) — _Автоматически сгенерировано по 505 файлам раздела._
+- [QA.md](QA.md) — <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -…
 - [QUESTIONS.md](QUESTIONS.md) — ---
 - [READING_ORDER.md](READING_ORDER.md) — ---
 - [READING_TIME.md](READING_TIME.md) — ---

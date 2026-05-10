@@ -25,6 +25,27 @@ _Обновлено: 2026-05-10_
 
 # knowledge-space
 
+<!-- toc-auto -->
+## Contents
+
+- [Статус](#статус)
+- [Профиль проекта](#профиль-проекта)
+- [Описание](#описание)
+- [Ключевые компоненты](#ключевые-компоненты)
+- [Синергия со Svyazi 2.0](#синергия-со-svyazi-20)
+- [Применение в архитектуре Svyazi](#применение-в-архитектуре-svyazi)
+- [Контакт](#контакт)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- summary -->
+> tags: [knowledge-space, reference, cards, agent-first, wiki, domains, research]
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, LiteParse, Wikontic
+
+---
+
+
+
 <!-- summary: Agent-first референсная база знаний: 785+ карточек по 26 доменам, растущая из реальных research-сессий -->
 <!-- tags: knowledge-space, agent, reference, cards, wiki-links, domains, research, inbox -->
 

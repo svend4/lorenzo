@@ -1,5 +1,35 @@
 # Индекс цитирования URL
 
+<!-- summary -->
+> Уникальных URL: **151** | Отфильтровано (≥1): **151**
+**Проекты:** AgentFS, knowledge-space, Yodoca, Wikontic
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Топ доменов](#топ-доменов)
+- [Наиболее цитируемые URL](#наиболее-цитируемые-url)
+- [Детали топ-10](#детали-топ-10)
+  - [`https://github.com/svend4/nautilus/issues`](#httpsgithubcomsvend4nautilusissues)
+  - [`https://github.com/svend4/ingit`](#httpsgithubcomsvend4ingit)
+  - [`https://github.com/svend4/nautilus`](#httpsgithubcomsvend4nautilus)
+  - [`https://github.com/svend4/pro2`](#httpsgithubcomsvend4pro2)
+  - [`https://github.com/mcp`](#httpsgithubcommcp)
+  - [`https://habr.com/ru/articles/1006622/`](#httpshabrcomruarticles1006622)
+  - [`https://github.com/svend4/info1`](#httpsgithubcomsvend4info1)
+  - [`https://github.com/AnastasiyaW/knowledge-space`](#httpsgithubcomanastasiyawknowledge-space)
+  - [`https://github.com/svend4/meta`](#httpsgithubcomsvend4meta)
+  - [`https://habr.com/ru/companies/airi/articles/1000720/`](#httpshabrcomrucompaniesairiarticles1000720)
+
+---
+
+<!-- tags: memory, knowledge, anthropic, collaboration -->
+
+
+
+
 _Обновлено: 2026-05-10_
 
 Уникальных URL: **151** | Отфильтровано (≥1): **151**

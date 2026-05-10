@@ -1,5 +1,15 @@
 # Appendix A: Connection to Companion Papers
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Connection to Companion Papers](#appendix-a-connection-to-companion-papers)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > This paper builds on three previous documents:
 

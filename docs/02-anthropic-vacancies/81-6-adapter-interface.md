@@ -16,6 +16,15 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Содержание](#содержание)
+- [Contents](#contents)
+- [6. Adapter Interface](#6-adapter-interface)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+## Contents
+
 - [6. Adapter Interface](#6-adapter-interface)
   - [6.1. [BaseAdapter](01-интегральный-анализ-профиля-svend4.md) Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)

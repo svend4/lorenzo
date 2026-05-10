@@ -1,5 +1,15 @@
 # Appendix A: Minimal Working Example
 
+<!-- toc-auto -->
+## Contents
+
+- [Essence](#essence)
+- [Native Format](#native-format)
+- [Content Overview](#content-overview)
+- [Angle / Perspective](#angle-perspective)
+- [Author](#author)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 

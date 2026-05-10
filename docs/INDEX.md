@@ -1,5 +1,38 @@
 # Индекс документации — Lorenzo / Svyazi 2.0
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> _Главный навигационный хаб. Все разделы и документы._
+**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Метрики репозитория](#метрики-репозитория)
+- [Разделы документации](#разделы-документации)
+  - [[🏗️  Архитектура Svyazi 2.0](01-svyazi/README.md)](#архитектура-svyazi-2001-svyazireadmemd)
+  - [[💼 Вакансии Anthropic](02-anthropic-vacancies/README.md)](#вакансии-anthropic02-anthropic-vacanciesreadmemd)
+  - [[⚗️  Комбинации технологий](03-technology-combinations/README.md)](#комбинации-технологий03-technology-combinationsreadmemd)
+  - [[🤝 AI-коллаборации](04-ai-collaborations/README.md)](#ai-коллаборации04-ai-collaborationsreadmemd)
+  - [[📦 Хабр-проекты](05-habr-projects/README.md)](#хабр-проекты05-habr-projectsreadmemd)
+- [Аналитика и отчёты](#аналитика-и-отчёты)
+- [Ключевые документы](#ключевые-документы)
+- [LLM-обогащение (Ступень 3)](#llm-обогащение-ступень-3)
+- [Быстрый старт](#быстрый-старт)
+
+---
+
+<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 _Главный навигационный хаб. Все разделы и документы._
 
 ## Метрики репозитория

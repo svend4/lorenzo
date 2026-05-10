@@ -1,5 +1,15 @@
 # Граф связей проектов
 
+<!-- summary -->
+> Рёбра = совместные упоминания в одном файле (≥ 2 раз).
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, anthropic, self-improve -->
+
+
+
+
 Рёбра = совместные упоминания в одном файле (≥ 2 раз).
 
 ```mermaid

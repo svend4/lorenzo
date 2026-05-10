@@ -1,5 +1,14 @@
 # 11. Security Considerations
 
+<!-- toc-auto -->
+## Contents
+
+- [11. Security Considerations](#11-security-considerations)
+  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
+  - [11.2. Private Repositories](#112-private-repositories)
+  - [11.3. MCP Exposure](#113-mcp-exposure)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 

@@ -1,5 +1,15 @@
 # 10. Query Flow
 
+<!-- toc-auto -->
+## Contents
+
+- [10. Query Flow](#10-query-flow)
+  - [10.1. Lifecycle](#101-lifecycle)
+  - [10.2. Parallelism](#102-parallelism)
+  - [10.3. Error Handling](#103-error-handling)
+  - [10.4. Timeout Behavior](#104-timeout-behavior)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 

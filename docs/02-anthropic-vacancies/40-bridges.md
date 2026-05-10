@@ -5,6 +5,13 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [Bridges](#bridges)
+  - [info1 ↔ pro2](#info1-pro2)
+  - [info1 ↔ meta](#info1-meta)
+  - [Способ обращения через мост](#способ-обращения-через-мост)
+## Contents
+
 - [Bridges](#bridges)
   - [info1 ↔ pro2](#info1-pro2)
   - [info1 ↔ meta](#info1-meta)

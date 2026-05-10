@@ -1,5 +1,15 @@
 # AI Support Through Configurable Specialist Ensembles
 
+<!-- toc-auto -->
+## Contents
+
+- [AI Support Through Configurable Specialist Ensembles](#ai-support-through-configurable-specialist-ensembles)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > - Professional Colleague Agents v1.0
 

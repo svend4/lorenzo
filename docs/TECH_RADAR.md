@@ -1,5 +1,33 @@
 # Tech Radar — Svyazi 2.0
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Tool Search
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Обзор](#обзор)
+- [🟢 ADOPT](#adopt)
+- [🔵 TRIAL](#trial)
+- [🟡 ASSESS](#assess)
+- [🔴 HOLD](#hold)
+- [Методология](#методология)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, anthropic, collaboration -->
+
+
+
+
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
 
 **Всего позиций:** 22 · Adopt: 6 · Trial: 6 · Assess: 6 · Hold: 4

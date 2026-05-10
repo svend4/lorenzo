@@ -1,5 +1,20 @@
 # Читаемость документов (Flesch-Kincaid)
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> Средний индекс FRE: **2.0/100**
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+
+
+
 _Обновлено: 2026-05-10_
 
 Средний индекс FRE: **2.0/100**

@@ -17,6 +17,16 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Содержание](#содержание)
+- [Contents](#contents)
+- [References](#references)
+  - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
+  - [Pattern of Composite Mastery](#pattern-of-composite-mastery)
+  - [Multi-Agent Coordination](#multi-agent-coordination)
+  - [Practical Examples](#practical-examples)
+  - [Companion Documents in This Series](#companion-documents-in-this-series)
+## Contents
+
 - [References](#references)
   - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
   - [Pattern of Composite Mastery](#pattern-of-composite-mastery)

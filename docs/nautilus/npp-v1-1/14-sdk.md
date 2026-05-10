@@ -1,5 +1,14 @@
 # 14. SDK Contract (Informative)
 
+<!-- toc-auto -->
+## Contents
+
+- [14. SDK Contract (Informative)](#14-sdk-contract-informative)
+  - [14.1. Required SDK Methods](#141-required-sdk-methods)
+  - [14.2. Optional SDK Methods](#142-optional-sdk-methods)
+  - [14.3. Return Types](#143-return-types)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 

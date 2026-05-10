@@ -25,6 +25,28 @@ _Обновлено: 2026-05-10_
 
 # mclaude
 
+<!-- toc-auto -->
+## Contents
+
+- [Статус](#статус)
+- [Профиль проекта](#профиль-проекта)
+- [Описание](#описание)
+- [Ключевые компоненты](#ключевые-компоненты)
+- [Синергия со Svyazi 2.0](#синергия-со-svyazi-20)
+- [Позиция в экосистеме](#позиция-в-экосистеме)
+- [Сравнение с аналогами](#сравнение-с-аналогами)
+- [Контакт](#контакт)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- summary -->
+> tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbox, parallel]
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, Yodoca, agent-memory-mcp
+
+---
+
+
+
 <!-- summary: Координация нескольких параллельных сессий Claude Code над одним проектом через locks, handoffs и mailbox -->
 <!-- tags: mclaude, multi-agent, orchestration, claude-code, parallel, locks, handoff, mailbox, shared-memory -->
 

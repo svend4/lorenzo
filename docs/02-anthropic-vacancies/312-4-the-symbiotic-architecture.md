@@ -25,6 +25,16 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Содержание](#содержание)
+- [Contents](#contents)
+- [Содержание](#содержание-1)
+- [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
+  - [4.1. Layer Decomposition](#41-layer-decomposition)
+  - [4.2. How They Interact](#42-how-they-interact)
+  - [4.3. Where Each Operates](#43-where-each-operates)
+  - [4.4. Shared State](#44-shared-state)
+## Contents
+
 - [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
   - [4.1. Layer Decomposition](#41-layer-decomposition)
   - [4.2. How They Interact](#42-how-they-interact)

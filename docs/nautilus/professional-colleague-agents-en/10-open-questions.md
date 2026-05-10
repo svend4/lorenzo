@@ -1,5 +1,19 @@
 # 10. Open Questions
 
+<!-- toc-auto -->
+## Contents
+
+- [10. Open Questions](#10-open-questions)
+  - [10.1. Scope of "Profession"](#101-scope-of-profession)
+  - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
+  - [10.3. International Variation](#103-international-variation)
+  - [10.4. Update Cadence](#104-update-cadence)
+  - [10.5. Quality Assessment](#105-quality-assessment)
+  - [10.6. Transition Costs](#106-transition-costs)
+  - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
+  - [10.8. Appropriate Resistance](#108-appropriate-resistance)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 

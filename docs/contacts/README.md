@@ -1,6 +1,6 @@
 # contacts
 
-**Файлов:** 14
+**Файлов:** 15
 
 ## Содержание
 
@@ -16,5 +16,6 @@
 - [spbmolot.md](spbmolot.md) — ---
 - [tagir-analyzes.md](tagir-analyzes.md) — ---
 - [vitalyoborin.md](vitalyoborin.md) — ---
+- [vitalysemenov.md](vitalysemenov.md) — ---
 - [vladspace.md](vladspace.md) — ---
 - [zodigancode.md](zodigancode.md) — ---

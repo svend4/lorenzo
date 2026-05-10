@@ -1,5 +1,18 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Multi-Agent Systems](#multi-agent-systems)
+  - [Protocols and Federation](#protocols-and-federation)
+  - [Human-AI Collaboration](#human-ai-collaboration)
+  - [Related Architectures](#related-architectures)
+  - [Pattern Libraries](#pattern-libraries)
+  - [Primary Reference](#primary-reference)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 

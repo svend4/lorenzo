@@ -1,5 +1,15 @@
 # A Practical Path to Layer B Through Symbiotic Integration
 
+<!-- toc-auto -->
+## Contents
+
+- [A Practical Path to Layer B Through Symbiotic Integration](#a-practical-path-to-layer-b-through-symbiotic-integration)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.27)
 

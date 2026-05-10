@@ -1,5 +1,13 @@
 # Security + routing plane
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+- [Числовые наблюдения](#числовые-наблюдения)
+
+
 <!-- summary -->
 > - **Авторы:** Dmitriila / BerriAI / MiXaiLL76 / Maslennikovig
 **Проекты:** Svyazi, SENTINEL, LiteLLM, Auto AI Router, Tool Search

@@ -1,5 +1,15 @@
 # What This Document Doesn't Solve
 
+<!-- toc-auto -->
+## Contents
+
+- [What This Document Doesn't Solve](#what-this-document-doesnt-solve)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > This document identifies a problem. It does not propose a
 

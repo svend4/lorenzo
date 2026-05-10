@@ -1,5 +1,16 @@
 # Существующие приближения
 
+<!-- toc-auto -->
+## Contents
+
+- [Существующие приближения](#существующие-приближения)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-стиль форумы](#discourse-phpbb-стиль-форумы)
+  - [Комбинированные рабочие процессы](#комбинированные-рабочие-процессы)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 

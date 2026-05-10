@@ -52,7 +52,9 @@ def _safe_exists(path: Path) -> bool:
 
 
 def build_anchor_map() -> dict[str, set[str]]:
-    """Строит словарь file_path → set of valid anchors."""
+    """Строит словарь file_path → set of valid anchors.
+    Дублирующиеся заголовки получают суффиксы -1, -2, ... как в GitHub.
+    """
     anchor_map: dict[str, set[str]] = {}
     scan_root = (DOCS / SECTION) if SECTION else DOCS
     for f in scan_root.rglob("*.md"):
@@ -61,8 +63,14 @@ def build_anchor_map() -> dict[str, set[str]]:
         except OSError:
             continue
         anchors = set()
+        seen: dict[str, int] = {}
         for m in ANCHOR_RE.finditer(text):
-            anchors.add(anchor_from_heading(m.group(1)))
+            base = anchor_from_heading(m.group(1))
+            anchors.add(base)
+            count = seen.get(base, 0)
+            seen[base] = count + 1
+            if count > 0:
+                anchors.add(f"{base}-{count}")
         anchor_map[str(f)] = anchors
     return anchor_map
 

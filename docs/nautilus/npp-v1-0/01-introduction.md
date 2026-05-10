@@ -1,5 +1,15 @@
 # 1. Introduction (Motivation, Design Goals, Non-Goals, Terminology)
 
+<!-- toc-auto -->
+## Contents
+
+- [1. Introduction](#1-introduction)
+  - [1.1. Motivation](#11-motivation)
+  - [1.2. Design Goals](#12-design-goals)
+  - [1.3. Non-Goals](#13-non-goals)
+  - [1.4. Terminology](#14-terminology)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 

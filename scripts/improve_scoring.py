@@ -124,7 +124,7 @@ CRITERIA = {
                  if (DOCS / "BROKEN_LINKS.md").exists() else ""),
          5, "Слишком много сломанных ссылок"),
         ("Дублей нет",
-         lambda: file_contains("DUPLICATES.md", ["0 точных дублей", "Точных дублей: 0"]),
+         lambda: file_contains("DUPLICATES.md", ["0 точных дублей", "Точных дублей: 0", "Точных дублей: **0**"]),
          5, "Есть точные дубли документов"),
     ],
 

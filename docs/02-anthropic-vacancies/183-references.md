@@ -12,6 +12,15 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Principal-Agent Theory](#principal-agent-theory)
+  - [Disability and Access](#disability-and-access)
+  - [Modern AI Ethics](#modern-ai-ethics)
+  - [Companion Documents](#companion-documents)
+## Contents
+
 - [References](#references)
   - [Foundational Sources](#foundational-sources)
   - [Principal-Agent Theory](#principal-agent-theory)

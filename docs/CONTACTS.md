@@ -1,5 +1,31 @@
 # Контакты и авторы
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Ключевые авторы проектов](#ключевые-авторы-проектов)
+- [GitHub репозитории](#github-репозитории)
+- [Email адреса](#email-адреса)
+- [Шаблон первого сообщения](#шаблон-первого-сообщения)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+
+
+
 ## Ключевые авторы проектов
 
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |

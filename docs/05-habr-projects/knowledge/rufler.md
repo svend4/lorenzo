@@ -25,6 +25,28 @@ _Обновлено: 2026-05-10_
 
 # Rufler
 
+<!-- toc-auto -->
+## Contents
+
+- [Статус](#статус)
+- [Профиль проекта](#профиль-проекта)
+- [Описание](#описание)
+- [Ключевые компоненты](#ключевые-компоненты)
+- [Пример структуры задачи (Rufler DSL)](#пример-структуры-задачи-rufler-dsl)
+- [Синергия со Svyazi 2.0](#синергия-со-svyazi-20)
+- [Позиция в архитектуре](#позиция-в-архитектуре)
+- [Контакт](#контакт)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- summary -->
+> tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting]
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, agent-memory-mcp
+
+---
+
+
+
 <!-- summary: Декларативный YAML-слой для запуска автономного роя Claude Code-агентов с depends_on, pause/resume и token accounting -->
 <!-- tags: rufler, yaml, declarative, orchestration, agent-swarm, claude-code, mcp, depends_on, pause, resume -->
 

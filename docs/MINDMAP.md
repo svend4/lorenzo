@@ -1,5 +1,23 @@
 # Майндмап репозитория Lorenzo
 
+<!-- toc-auto -->
+## Contents
+
+- [Структура разделов](#структура-разделов)
+- [Поток данных между проектами](#поток-данных-между-проектами)
+- [Легенда](#легенда)
+
+
+<!-- summary -->
+> knowledge_space[knowledge space]
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+
+
+
 ## Структура разделов
 
 ```mermaid

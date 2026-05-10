@@ -3,6 +3,8 @@
 _Дата генерации: 2026-05-10_
 
 ---
+<!-- tags: ingestion, architecture, roadmap, anthropic, collaboration -->
+
 
 ## Общая картина
 

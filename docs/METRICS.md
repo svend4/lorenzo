@@ -1,17 +1,26 @@
 # Метрики качества документации
 
-**Файлов:** 1726  **Средний балл:** 71.2/100
+<!-- toc-auto -->
+## Contents
+
+- [Качество по разделам](#качество-по-разделам)
+- [Топ-15 лучших документов](#топ-15-лучших-документов)
+- [Документы, требующие улучшения (6)](#документы-требующие-улучшения-6)
+- [Общие показатели](#общие-показатели)
+
+
+**Файлов:** 1725  **Средний балл:** 73.0/100
 
 ## Качество по разделам
 
 | Раздел | Балл | Ссылок/1K слов | Код-блоков/1K | % с summary | % с тегами |
 |--------|------|----------------|--------------|-------------|------------|
-| **01-svyazi** | 63 | 18.4 | 0.5 | 87% | 87% |
-| **02-anthropic-vacancies** | 79 | 73.4 | 0.6 | 100% | 99% |
-| **03-technology-combinations** | 64 | 49.6 | 0.0 | 86% | 71% |
-| **04-ai-collaborations** | 77 | 17.2 | 0.0 | 88% | 88% |
-| **05-habr-projects** | 72 | 39.6 | 0.1 | 100% | 100% |
-| **root** | 52 | 21.5 | 1.5 | 28% | 23% |
+| **01-svyazi** | 65 | 18.4 | 0.5 | 93% | 93% |
+| **02-anthropic-vacancies** | 80 | 73.1 | 0.6 | 100% | 100% |
+| **03-technology-combinations** | 68 | 48.9 | 0.0 | 100% | 86% |
+| **04-ai-collaborations** | 79 | 16.2 | 0.0 | 94% | 94% |
+| **05-habr-projects** | 75 | 42.2 | 0.1 | 100% | 100% |
+| **root** | 78 | 27.3 | 1.4 | 92% | 89% |
 
 ## Топ-15 лучших документов
 
@@ -19,8 +28,8 @@
 |----------|------|------|
 | `01-интегральный-анализ-профиля-svend4` | 100 | 19237 |
 | `02-общий-план-развития-nautilus-portal-p` | 100 | 3326 |
-| `08-3-registry-nautilus-json` | 100 | 427 |
-| `108-2-формальный-workflow` | 100 | 483 |
+| `08-3-registry-nautilus-json` | 100 | 415 |
+| `108-2-формальный-workflow` | 100 | 471 |
 | `109-3-принципы-консолидации-фаза-c` | 100 | 697 |
 | `133-обратная-связь` | 100 | 17099 |
 | `139-2-the-double-triangle-architecture` | 100 | 779 |
@@ -33,35 +42,21 @@
 | `323-appendix-c-sample-ingit-mcp-server-t` | 100 | 1782 |
 | `330-4-симбиотическая-архитектура` | 100 | 703 |
 
-## Документы, требующие улучшения (39)
+## Документы, требующие улучшения (6)
 
 | Документ | Балл | Что отсутствует |
 |----------|------|----------------|
-| `QA` | 30 | summary, tags, TOC, callout |
-| `QA` | 30 | summary, tags, TOC, callout |
-| `QA` | 30 | summary, tags, TOC, callout |
-| `QA` | 30 | summary, tags, TOC, callout |
-| `BACKLINKS` | 30 | summary, tags, TOC, callout |
-| `BROKEN_LINKS` | 30 | summary, tags, TOC, callout |
-| `CHANGELOG` | 30 | summary, tags, TOC, callout |
-| `CITATION_INDEX` | 30 | summary, tags, TOC, callout |
-| `COMPARE` | 30 | summary, tags, TOC, callout |
-| `CONTRADICTIONS` | 30 | summary, tags, TOC, callout |
-| `COST` | 30 | summary, tags, TOC, callout |
-| `GITHUB_ISSUES` | 30 | summary, tags, TOC, callout |
-| `HEADING_AUDIT` | 30 | summary, tags, TOC, callout |
-| `KPI_HISTORY` | 30 | summary, tags, TOC, callout |
-| `LANGUAGE_STATS` | 30 | summary, tags, TOC, callout |
-| `NAMED_ENTITIES` | 30 | summary, tags, TOC, callout |
+| `README` | 30 | summary, tags, TOC, callout |
+| `AUTHORS` | 30 | summary, tags, TOC, callout |
+| `GLOSSARY` | 30 | summary, tags, TOC, callout |
+| `LINKS` | 30 | summary, tags, TOC, callout |
 | `ORPHANS` | 30 | summary, tags, TOC, callout |
-| `PARAGRAPH_QUALITY` | 30 | summary, tags, TOC, callout |
-| `PASSIVE_VOICE` | 30 | summary, tags, TOC, callout |
-| `QA` | 30 | summary, tags, TOC, callout |
+| `TAGS` | 30 | summary, tags, TOC, callout |
 
 ## Общие показатели
 
-- Файлов с `<!-- summary -->`: **90.0%**
-- Файлов с тегами: **89.0%**
-- Файлов с оглавлением: **32.7%**
-- Файлов с callout: **30.5%**
-- Средний балл качества: **71.2/100**
+- Файлов с `<!-- summary -->`: **94.4%**
+- Файлов с тегами: **93.7%**
+- Файлов с оглавлением: **35.4%**
+- Файлов с callout: **33.1%**
+- Средний балл качества: **73.0/100**

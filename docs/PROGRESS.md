@@ -1,5 +1,30 @@
 # Прогресс MVP
 
+<!-- toc-auto -->
+## Contents
+
+- [Ключевые этапы (Milestones)](#ключевые-этапы-milestones)
+- [Состояние компонентов](#состояние-компонентов)
+- [Метрики качества](#метрики-качества)
+- [Следующий шаг](#следующий-шаг)
+- [Связанные документы](#связанные-документы)
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> _Обновлено: 2026-05-10 (improve_progress_sync.py)_
+**Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
+
+---
+<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+
+
+
 _Обновлено: 2026-05-10 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)

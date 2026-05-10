@@ -1,5 +1,31 @@
 # Языковой состав документов
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
+
+---
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- toc -->
+## Содержание
+
+- [Распределение](#распределение)
+- [Файлы с неожиданным языком](#файлы-с-неожиданным-языком)
+- [Смешанные файлы (MIX)](#смешанные-файлы-mix)
+- [По секциям](#по-секциям)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+
 _Обновлено: 2026-05-10_
 
 Файлов: **1201**

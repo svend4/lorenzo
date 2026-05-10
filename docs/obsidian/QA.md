@@ -1,4 +1,6 @@
 # Q&A: obsidian
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
 
 _Автоматически сгенерировано по 505 файлам раздела._
 

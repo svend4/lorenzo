@@ -4,7 +4,7 @@
 
 ## Содержание
 
-- [QA.md](QA.md) — _Автоматически сгенерировано по 97 файлам раздела._
+- [QA.md](QA.md) — <!-- summary -->
 - [methodology.md](methodology.md) — <!-- summary -->
 - [overview.md](overview.md) — <!-- summary -->
 - [signals.md](signals.md) — <!-- summary -->

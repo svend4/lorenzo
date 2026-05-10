@@ -25,7 +25,7 @@
 - [18-escalate-to-max.md](18-escalate-to-max.md) — <!-- summary -->
 - [19-persistent-character.md](19-persistent-character.md) — <!-- summary -->
 - [20-experiment.md](20-experiment.md) — <!-- summary -->
-- [QA.md](QA.md) — _Автоматически сгенерировано по 55 файлам раздела._
+- [QA.md](QA.md) — > [!TIP]
 
 ## Подразделы
 

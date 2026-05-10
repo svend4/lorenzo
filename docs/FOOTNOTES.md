@@ -1,5 +1,20 @@
 # Сноски и определения терминов
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> **Обновлено файлов:** 3  **Вставлено сносок:** 11
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, roadmap, self-improve -->
+
+
+
+
 **Обновлено файлов:** 3  **Вставлено сносок:** 11
 
 ## Словарь сносок

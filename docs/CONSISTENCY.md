@@ -1,5 +1,40 @@
 # Согласованность терминов
 
+<!-- summary -->
+> Анализ различных написаний одних и тех же терминов.
+**Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, Auto AI Router
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Детали по файлам](#детали-по-файлам)
+  - [`knowledgespace` → должно быть `knowledge-space`](#knowledgespace-должно-быть-knowledge-space)
+  - [`knowledge space` → должно быть `knowledge-space`](#knowledge-space-должно-быть-knowledge-space)
+  - [`knowledge_space` → должно быть `knowledge-space`](#knowledge_space-должно-быть-knowledge-space)
+  - [`card-index` → должно быть `CardIndex`](#card-index-должно-быть-cardindex)
+  - [`Card Index` → должно быть `CardIndex`](#card-index-должно-быть-cardindex)
+  - [`card index` → должно быть `CardIndex`](#card-index-должно-быть-cardindex)
+  - [`AI-Factory` → должно быть `AI Factory`](#ai-factory-должно-быть-ai-factory)
+  - [`NGT-Memory` → должно быть `NGT Memory`](#ngt-memory-должно-быть-ngt-memory)
+  - [`LiteParser` → должно быть `LiteParse`](#liteparser-должно-быть-liteparse)
+  - [`Auto-AI-Router` → должно быть `Auto AI Router`](#auto-ai-router-должно-быть-auto-ai-router)
+  - [`localfirst` → должно быть `local-first`](#localfirst-должно-быть-local-first)
+  - [`self-improve` → должно быть `self-improvement`](#self-improve-должно-быть-self-improvement)
+  - [`Svyazi-2.0` → должно быть `Svyazi 2.0`](#svyazi-20-должно-быть-svyazi-20)
+  - [`Evidence-Envelope` → должно быть `Evidence Envelope`](#evidence-envelope-должно-быть-evidence-envelope)
+  - [`Card-Envelope` → должно быть `Card Envelope`](#card-envelope-должно-быть-card-envelope)
+  - [`CardEnvelope` → должно быть `Card Envelope`](#cardenvelope-должно-быть-card-envelope)
+- [Как исправить](#как-исправить)
+
+---
+
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improve -->
+
+
+
+
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |

@@ -1,5 +1,28 @@
 # Action Items, риски и решения
 
+<!-- summary -->
+> Автоматически извлечено из всех документов.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [➡️ Следующие шаги (273)](#следующие-шаги-273)
+- [✅ Решения и рекомендации (493)](#решения-и-рекомендации-493)
+- [⚠️ Риски (954)](#риски-954)
+- [🚫 Ограничения (262)](#ограничения-262)
+- [📋 Задачи (TODO) (34)](#задачи-todo-34)
+- [📬 Контактные действия (247)](#контактные-действия-247)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+
+
+
 Автоматически извлечено из всех документов.
 
 **Всего элементов:** 2263

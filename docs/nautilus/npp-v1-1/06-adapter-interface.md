@@ -1,5 +1,15 @@
 # 6. Adapter Interface
 
+<!-- toc-auto -->
+## Contents
+
+- [6. Adapter Interface](#6-adapter-interface)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 

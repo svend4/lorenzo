@@ -1,5 +1,14 @@
 # 12. Versioning Policy
 
+<!-- toc-auto -->
+## Contents
+
+- [12. Versioning Policy](#12-versioning-policy)
+  - [12.1. Semver](#121-semver)
+  - [12.2. Version in Registry](#122-version-in-registry)
+  - [12.3. Breaking Changes Process](#123-breaking-changes-process)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 

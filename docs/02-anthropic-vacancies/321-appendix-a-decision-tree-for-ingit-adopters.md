@@ -1,5 +1,15 @@
 # Appendix A: Decision Tree for InGit Adopters
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Decision Tree for InGit Adopters](#appendix-a-decision-tree-for-ingit-adopters)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > Quick reference for users evaluating InGit + Cowork:
 

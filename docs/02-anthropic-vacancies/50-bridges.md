@@ -5,6 +5,12 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [Bridges](#bridges)
+  - [pro2 ↔ info1](#pro2-info1)
+  - [pro2 ↔ meta](#pro2-meta)
+## Contents
+
 - [Bridges](#bridges)
   - [pro2 ↔ info1](#pro2-info1)
   - [pro2 ↔ meta](#pro2-meta)

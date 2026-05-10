@@ -5,6 +5,18 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [Подключение к Claude Desktop](#подключение-к-claude-desktop)
+  - [macOS](#macos)
+  - [Windows](#windows)
+  - [Linux](#linux)
+  - [Содержимое](#содержимое)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
 - [Подключение к Claude Desktop](#подключение-к-claude-desktop)
   - [macOS](#macos)
   - [Windows](#windows)

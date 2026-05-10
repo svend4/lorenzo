@@ -1,5 +1,15 @@
 # AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
 
+<!-- toc-auto -->
+## Contents
+
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](#ai-mediated-representation-for-underrepresented-experts-and-vulnerable-populations)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
 > - Open Knowledge Work Foundation Concept Document v1.0
 

@@ -1,5 +1,17 @@
 # 13. REST API Contract (Normative for Portals)
 
+<!-- toc-auto -->
+## Contents
+
+- [13. REST API Contract (Normative for Portals)](#13-rest-api-contract-normative-for-portals)
+  - [13.1. Required Endpoints](#131-required-endpoints)
+  - [13.2. Recommended Endpoints](#132-recommended-endpoints)
+  - [13.3. Response Schemas](#133-response-schemas)
+  - [13.4. CORS](#134-cors)
+  - [13.5. OpenAPI Specification](#135-openapi-specification)
+  - [13.6. Error Responses](#136-error-responses)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
