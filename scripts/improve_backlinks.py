@@ -22,14 +22,25 @@ def extract_links(text: str, base: Path) -> set[str]:
         href = m.group(2).strip()
         if href.startswith("http") or href.startswith("#"):
             continue
-        # Нормализуем путь
-        target = (base.parent / href).resolve()
-        if target.exists():
-            links.add(str(target.relative_to(ROOT)))
+        if len(href) > 300:  # пропускаем аномально длинные «ссылки» (embedded markdown)
+            continue
+        try:
+            target = (base.parent / href).resolve()
+            if target.exists():
+                links.add(str(target.relative_to(ROOT)))
+        except (OSError, ValueError):
+            pass  # слишком длинное имя файла или некорректный путь
     return links
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Строит индекс обратных ссылок и добавляет блоки в файлы")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Показать что изменится, не записывать файлы")
+    args = parser.parse_args()
+    dry_run = args.dry_run
+
     print("Строю индекс обратных ссылок...")
 
     # Шаг 1: для каждого файла — список файлов, на которые он ссылается
@@ -82,8 +93,11 @@ def main():
         lines.append(f"| **{sec}** | {d['in']} | {d['out']} |")
 
     out = DOCS / "BACKLINKS.md"
-    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"  wrote: {out.relative_to(ROOT)}")
+    if dry_run:
+        print(f"  [dry-run] {out.relative_to(ROOT)} → {len(backward)} обратных ссылок")
+    else:
+        out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        print(f"  wrote: {out.relative_to(ROOT)}")
 
     # Шаг 3: добавляем блок в файлы с 3+ входящих ссылок
     updated = 0
@@ -91,7 +105,7 @@ def main():
         if len(srcs) < 3:
             continue
         tgt_path = ROOT / tgt
-        if not tgt_path.exists() or tgt_path.name in SKIP:
+        if not tgt_path.exists() or tgt_path.is_dir() or tgt_path.name in SKIP:
             continue
         text = tgt_path.read_text(encoding="utf-8")
         if MARKER in text:
@@ -99,14 +113,25 @@ def main():
         block = [f"\n{MARKER}\n", "---\n",
                  f"**Кто ссылается на этот документ ({len(srcs)}):**"]
         for src in sorted(srcs)[:8]:
-            block.append(f"- [{Path(src).stem}]({Path(src).relative_to(ROOT)})")
+            src_path = Path(src) if Path(src).is_absolute() else ROOT / src
+            try:
+                rel = src_path.relative_to(ROOT)
+            except ValueError:
+                rel = Path(src)
+            block.append(f"- [{Path(src).stem}]({rel})")
         if len(srcs) > 8:
             block.append(f"- _...ещё {len(srcs)-8}_")
         block.append("")
-        tgt_path.write_text(text + "\n".join(block) + "\n", encoding="utf-8")
+        if dry_run:
+            print(f"  [dry-run] {tgt_path.relative_to(ROOT)} → +backlinks блок ({len(srcs)} ссылок)")
+        else:
+            tgt_path.write_text(text + "\n".join(block) + "\n", encoding="utf-8")
         updated += 1
 
-    print(f"  файлов с обратными ссылками: {len(backward)}, обновлено: {updated}")
+    if dry_run:
+        print(f"\n[dry-run] файлов к обновлению: {updated}. Уберите --dry-run чтобы применить.")
+    else:
+        print(f"  файлов с обратными ссылками: {len(backward)}, обновлено: {updated}")
 
 
 if __name__ == "__main__":
