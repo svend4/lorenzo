@@ -584,7 +584,7 @@ python scripts/improve_autofill.py            # применить
 |----------|---------|
 | Упоминаний в репо | 13 |
 | Слой | knowledge/filesystem |
-| Контакт | [@kksudo](../../contacts/kksudo.md) |
+| Контакт | [@kksudo](../contacts/kksudo.md) |
 ```
 
 ---
@@ -641,7 +641,7 @@ python scripts/improve_crosslink_all.py --apply --keywords
 ```markdown
 ## Упоминается в
 - [Executive summary](../04-ai-collaborations/01-executive-summary.md)
-- [MVP Planning](07-mvp-planning.md)
+- [MVP Planning](../01-svyazi/07-mvp-planning.md)
 
 ## Связанные документы
 - [NGT Memory](../05-habr-projects/memory/ngt-memory.md) 71%
