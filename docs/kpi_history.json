@@ -9,5 +9,16 @@
     "kpis": 737,
     "questions": 94,
     "actions": 0
+  },
+  {
+    "date": "2026-05-10",
+    "docs": 1742,
+    "words": 1823571,
+    "scripts": 159,
+    "scoring": 93,
+    "health": 80,
+    "kpis": 737,
+    "questions": 484,
+    "actions": 0
   }
 ]

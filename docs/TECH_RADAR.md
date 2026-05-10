@@ -1,45 +1,5 @@
 # Tech Radar — Svyazi 2.0
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, anthropic, collaboration -->
-
-
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
-
-
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
 
 **Всего позиций:** 22 · Adopt: 6 · Trial: 6 · Assess: 6 · Hold: 4
@@ -125,36 +85,4 @@ _Не рекомендуем для новых проектов. Использ�
 - **HOLD** — избегай для новых проектов
 
 _Radar обновляется вручную при существенных изменениях экосистемы._
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [ONBOARDING](ONBOARDING.md)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [WORD_FREQ](WORD_FREQ.md)
-- [RISK_REGISTER](RISK_REGISTER.md)
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Глоссарий понятий](CONCEPTS.md)
-- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
-- [INDEX](docs/INDEX.md)
-- [README](docs/README.md)
-- [RISK_REGISTER](docs/RISK_REGISTER.md)
-- [TABLES](docs/TABLES.md)
-- [tech-radar-entry](docs/templates/tech-radar-entry.md)
 

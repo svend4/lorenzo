@@ -1,42 +1,12 @@
 # Онбординг — Svyazi 2.0 / Lorenzo
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Руководство для новых участников проекта._
-**Проекты:** Svyazi, CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Firecrawl
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Что это такое?](#что-это-такое)
-- [Первые 30 минут](#первые-30-минут)
-- [Структура документации](#структура-документации)
-- [Ключевые документы](#ключевые-документы)
-- [Скрипты автоматизации](#скрипты-автоматизации)
-- [Архитектура компонентов](#архитектура-компонентов)
-- [Как внести вклад](#как-внести-вклад)
-- [Контакты](#контакты)
-
----
-
-<!-- tags: memory, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
-
-
 _Руководство для новых участников проекта._
 
 ## Что это такое?
 
 **Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных.
 
-Статус готовности: **96% 🟢 GO** (документация и архитектура).
+Статус готовности: **93% 🟢 GO** (документация и архитектура).
 
 ## Первые 30 минут
 
@@ -60,15 +30,15 @@ python scripts/improve_run_all.py --fast
 
 ## Структура документации
 
-_Всего: 407 файлов, 306,267 слов_
+_Всего: 407 файлов, 370,610 слов_
 
 | Раздел | Тема | Файлов | Слов |
 |--------|------|--------|------|
-| [`docs/01-svyazi/`](docs/01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 10,166 |
-| [`docs/02-anthropic-vacancies/`](docs/02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 260,851 |
-| [`docs/03-technology-combinations/`](docs/03-technology-combinations/README.md) | Комбинации технологий | 7 | 2,433 |
-| [`docs/04-ai-collaborations/`](docs/04-ai-collaborations/README.md) | AI-коллаборации | 17 | 24,521 |
-| [`docs/05-habr-projects/`](docs/05-habr-projects/README.md) | Хабр-проекты | 10 | 8,296 |
+| [`docs/01-svyazi/`](docs/01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 11,578 |
+| [`docs/02-anthropic-vacancies/`](docs/02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 319,964 |
+| [`docs/03-technology-combinations/`](docs/03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,159 |
+| [`docs/04-ai-collaborations/`](docs/04-ai-collaborations/README.md) | AI-коллаборации | 17 | 26,574 |
+| [`docs/05-habr-projects/`](docs/05-habr-projects/README.md) | Хабр-проекты | 10 | 9,335 |
 
 ## Ключевые документы
 
@@ -85,7 +55,7 @@ _Всего: 407 файлов, 306,267 слов_
 
 ## Скрипты автоматизации
 
-В репо 75 скриптов `improve_*.py` для автоматического обновления документации.
+В репо 159 скриптов `improve_*.py` для автоматического обновления документации.
 
 ```bash
 # Все скрипты быстро
@@ -132,29 +102,4 @@ python scripts/improve_watcher.py
 
 _Этот документ генерируется скриптом `improve_onboarding.py`._
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [INDEX](docs/INDEX.md)
-- [PRIORITIES](docs/PRIORITIES.md)
-- [PROGRESS](docs/PROGRESS.md)
-- [TECH_RADAR](docs/TECH_RADAR.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
-- [INDEX](docs/INDEX.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [README](docs/README.md)
-- [RISK_REGISTER](docs/RISK_REGISTER.md)
-- [TABLES](docs/TABLES.md)
-- [TECH_RADAR](docs/TECH_RADAR.md)
 
