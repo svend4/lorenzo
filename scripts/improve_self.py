@@ -5,6 +5,7 @@ improve_self.py — метаскрипт: читает все скрипты, с
   --audit             аудит всех скриптов: нет docstring, нет dry-run, риск
   --catalog           построить docs/scripts_catalog.json
   --enrich <файл>     обогатить конкретный скрипт (docstring, типизация, dry-run)
+  --enrich --batch    пакетное обогащение всех скриптов
   --generate          сгенерировать новый скрипт по шаблону
   --cross-read        найти расхождения между скриптами и docs/CLAUDE.md
   --dry-run           показать что изменится, не применять
@@ -364,6 +365,102 @@ def cmd_enrich(target: str, dry_run: bool) -> None:
 
 
 # ─────────────────────────────────────────────
+# Режим: --enrich --batch
+# ─────────────────────────────────────────────
+
+def cmd_enrich_batch(dry_run: bool) -> None:
+    """Пакетное обогащение всех скриптов: docstring + main-блок."""
+    scripts = sorted(SCRIPTS.glob("improve_*.py"))
+    infos   = [(p, analyze_script(p)) for p in scripts]
+
+    # Отбираем только те, которым нужны изменения
+    needs_work = []
+    for path, info in infos:
+        missing = []
+        if not info.doc:
+            missing.append("docstring")
+        if not info.has_main_block and "def main" in path.read_text(encoding="utf-8"):
+            missing.append("main-блок")
+        if info.writes and not info.has_dry_run:
+            missing.append("⚠ нет --dry-run")
+        if missing:
+            needs_work.append((path, info, missing))
+
+    print(f"\n{'='*60}")
+    print(f" ПАКЕТНОЕ ОБОГАЩЕНИЕ: {len(needs_work)} / {len(scripts)} скриптов")
+    print(f"{'='*60}\n")
+
+    if not needs_work:
+        print("✅ Все скрипты уже в хорошем состоянии.")
+        return
+
+    # Статистика
+    need_doc  = sum(1 for _, _, m in needs_work if "docstring" in m)
+    need_main = sum(1 for _, _, m in needs_work if "main-блок" in m)
+    need_dry  = sum(1 for _, _, m in needs_work if "⚠ нет --dry-run" in m)
+    print(f"  Нужен docstring:          {need_doc:>3}")
+    print(f"  Нужен main-блок:          {need_main:>3}")
+    print(f"  Нет --dry-run (инфо):     {need_dry:>3}")
+    print(f"  Всего к изменению:        {need_doc + need_main:>3}  (dry-run — только информация)\n")
+
+    applied   = 0
+    skipped   = 0
+
+    for path, info, missing in needs_work:
+        source   = path.read_text(encoding="utf-8")
+        changes  = []
+        new_src  = source
+
+        # 1. Добавить docstring
+        if "docstring" in missing:
+            description = path.stem.replace("improve_", "").replace("_", " ")
+            reads_str   = "docs/**/*.md"
+            writes_str  = f"docs/{path.stem.upper().replace('IMPROVE_','')}.md"
+            args_ex     = "--dry-run" if not info.has_dry_run else ""
+            doc_block   = SCRIPT_TEMPLATE_DOC.format(
+                name=path.name,
+                description=description,
+                reads=reads_str,
+                writes=writes_str,
+                args_example=args_ex,
+            )
+            new_src = doc_block + "\n" + new_src
+            changes.append("+ docstring")
+
+        # 2. Добавить main-блок
+        if "main-блок" in missing:
+            main_block = '\n\nif __name__ == "__main__":\n    main()\n'
+            new_src = new_src.rstrip() + main_block
+            changes.append('+ if __name__ == "__main__"')
+
+        # 3. Только инфо-предупреждение о dry-run (не меняем код)
+        if "⚠ нет --dry-run" in missing:
+            changes.append("⚠  нет --dry-run (добавить вручную)")
+
+        real_changes = [c for c in changes if c.startswith("+")]
+
+        label = path.name
+        changes_str = ", ".join(changes)
+
+        if dry_run:
+            print(f"  {'✏' if real_changes else 'ℹ'} {label}")
+            print(f"      {changes_str}")
+        else:
+            if real_changes:
+                path.write_text(new_src, encoding="utf-8")
+                print(f"  ✅ {label}: {', '.join(real_changes)}")
+                applied += 1
+            else:
+                skipped += 1
+
+    if dry_run:
+        print(f"\n[dry-run] {need_doc + need_main} изменений не применено.")
+        print("[dry-run] Добавьте --apply чтобы применить.")
+    else:
+        print(f"\nИтог: изменено {applied}, пропущено {skipped} (только ⚠-предупреждения).")
+
+
+# ─────────────────────────────────────────────
 # Режим: --generate
 # ─────────────────────────────────────────────
 
@@ -527,7 +624,8 @@ def main() -> None:
     )
     parser.add_argument("--audit",      action="store_true", help="Аудит всех скриптов")
     parser.add_argument("--catalog",    action="store_true", help="Построить scripts_catalog.json")
-    parser.add_argument("--enrich",     metavar="ФАЙЛ",      help="Обогатить конкретный скрипт")
+    parser.add_argument("--enrich",     metavar="ФАЙЛ",      help="Обогатить конкретный скрипт (или --batch)")
+    parser.add_argument("--batch",      action="store_true", help="Пакетное обогащение всех скриптов (с --enrich)")
     parser.add_argument("--cross-read", action="store_true", help="Сравнить скрипты и документацию")
     parser.add_argument("--generate",   action="store_true", help="Сгенерировать новый скрипт")
     parser.add_argument("--name",       metavar="ИМЯ",       help="Имя нового скрипта (для --generate)")
@@ -539,7 +637,7 @@ def main() -> None:
     args = parser.parse_args()
 
     # Если ничего не указано — показать аудит
-    if not any([args.audit, args.catalog, args.enrich,
+    if not any([args.audit, args.catalog, args.enrich, args.batch,
                 getattr(args, "cross_read", False), args.generate]):
         args.audit = True
 
@@ -551,7 +649,9 @@ def main() -> None:
     if args.catalog:
         cmd_catalog()
 
-    if args.enrich:
+    if args.batch:
+        cmd_enrich_batch(dry_run=dry_run)
+    elif args.enrich:
         cmd_enrich(args.enrich, dry_run=dry_run)
 
     if getattr(args, "cross_read", False):

@@ -211,3 +211,6 @@ def _color_hex(name: str) -> str:
 
 if __name__ == '__main__':
     sys.exit(main())
+
+if __name__ == "__main__":
+    main()
