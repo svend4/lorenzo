@@ -8,7 +8,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [Existing Approximations](#existing-approximations)
   - [Anthropic Projects](#anthropic-projects)
   - [GitHub Discussions](#github-discussions)

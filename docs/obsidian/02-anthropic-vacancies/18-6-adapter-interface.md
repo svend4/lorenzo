@@ -14,8 +14,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
-- [Contents](#contents)
 - [6. Adapter Interface](#6-adapter-interface)
   - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. `describe()` — Required for Level 1+](#62-describe-required-for-level-1)

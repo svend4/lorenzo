@@ -8,7 +8,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [10. Open Questions](#10-open-questions)
   - [10.1. Technical Questions](#101-technical-questions)
   - [10.2. Economic Questions](#102-economic-questions)

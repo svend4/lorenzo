@@ -3,8 +3,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
-- [Contents](#contents)
 - [15. Security Considerations](#15-security-considerations)
   - [15.1. Untrusted Adapters](#151-untrusted-adapters)
   - [15.2. Private Repositories](#152-private-repositories)

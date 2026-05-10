@@ -8,7 +8,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [7. Practical First Steps This Month](#7-practical-first-steps-this-month)
   - [7.1. This Week](#71-this-week)
   - [7.2. This Month](#72-this-month)

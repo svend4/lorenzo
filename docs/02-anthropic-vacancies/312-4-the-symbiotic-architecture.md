@@ -8,7 +8,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
   - [4.1. Layer Decomposition](#41-layer-decomposition)
   - [4.2. How They Interact](#42-how-they-interact)

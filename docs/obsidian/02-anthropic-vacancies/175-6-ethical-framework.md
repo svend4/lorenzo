@@ -10,7 +10,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [6. Ethical Framework](#6-ethical-framework)
   - [6.1. Principal Sovereignty](#61-principal-sovereignty)
   - [6.2. Transparent Capability](#62-transparent-capability)

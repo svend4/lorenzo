@@ -3,7 +3,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [8. Implications for Nautilus and OKWF](#8-implications-for-nautilus-and-okwf)
   - [8.1. Nautilus as Federated Knowledge Substrate](#81-nautilus-as-federated-knowledge-substrate)
   - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)

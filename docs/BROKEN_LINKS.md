@@ -1,21 +1,5 @@
 # Сломанные внутренние ссылки
 
-<!-- summary -->
-> Отчёт о сломанных внутренних ссылках в документации.
-<!-- tags: quality, validation, links, maintenance -->
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Внешние URL (254 уникальных)](#внешние-url-254-уникальных)
-
-
-> [!TIP]
-> Документ содержит практические рекомендации и лучшие практики.
-
-<!-- alert-added -->
-
 **Найдено:** 0 проблем, 0 пропущено (длинный путь)
 
 ✅ Все внутренние ссылки рабочие!
@@ -55,12 +39,3 @@ _Внешние ссылки не проверяются автоматичес�
 - https://github.com/Antipozitive
 - https://github.com/Antipozitive`
 - https://github.com/Cutcode
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [LINKS](LINKS.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-

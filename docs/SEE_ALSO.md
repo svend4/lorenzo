@@ -1,14 +1,14 @@
 # Индекс «Смотрите также»
 
-<!-- summary -->
-> Индекс «Смотрите также»: карта тематических связей между документами репозитория.
-<!-- tags: navigation, index, cross-references, knowledge-graph -->
-
-
 <!-- toc-auto -->
 ## Contents
 
 - [Ключевые связи](#ключевые-связи)
+
+
+<!-- summary -->
+> Индекс «Смотрите также»: карта тематических связей между документами репозитория.
+<!-- tags: navigation, index, cross-references, knowledge-graph -->
 
 
 > [!TIP]

@@ -10,7 +10,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [8. Risks and Mitigations](#8-risks-and-mitigations)
   - [8.1. Risk: Agency Capture](#81-risk-agency-capture)
   - [8.2. Risk: Adversarial Manipulation by Counterparties](#82-risk-adversarial-manipulation-by-counterparties)

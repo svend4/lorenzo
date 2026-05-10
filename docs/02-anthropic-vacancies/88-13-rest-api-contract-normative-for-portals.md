@@ -3,7 +3,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [13. REST API Contract (Normative for Portals)](#13-rest-api-contract-normative-for-portals)
   - [13.1. Required Endpoints](#131-required-endpoints)
   - [13.2. Recommended Endpoints](#132-recommended-endpoints)

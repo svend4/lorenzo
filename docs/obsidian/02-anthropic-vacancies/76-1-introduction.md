@@ -13,7 +13,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [1. Introduction](#1-introduction)
   - [1.1. Motivation](#11-motivation)
   - [1.2. Design Goals](#12-design-goals)

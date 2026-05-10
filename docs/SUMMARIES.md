@@ -14,7 +14,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [`docs/01-svyazi/01-executive-summary.md`](#docs01-svyazi01-executive-summarymd)
 - [`docs/01-svyazi/02-methodology.md`](#docs01-svyazi02-methodologymd)
 - [`docs/01-svyazi/03-component-catalog.md`](#docs01-svyazi03-component-catalogmd)

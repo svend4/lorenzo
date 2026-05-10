@@ -5,6 +5,7 @@
 
 - [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
 
+
 <!-- tags: architecture -->
 
 

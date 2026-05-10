@@ -21,7 +21,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [Обзор](#обзор)
 - [🟢 ADOPT](#adopt)
 - [🔵 TRIAL](#trial)

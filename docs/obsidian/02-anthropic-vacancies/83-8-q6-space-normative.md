@@ -15,7 +15,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [8. Q6 Space (Normative)](#8-q6-space-normative)
   - [8.1. Definition](#81-definition)
   - [8.2. Mandatory for Level 2+](#82-mandatory-for-level-2)

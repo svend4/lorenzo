@@ -8,7 +8,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [12. Call for Collaboration](#12-call-for-collaboration)
   - [12.1. For Practitioners](#121-for-practitioners)
   - [12.2. For Curators and Domain Experts](#122-for-curators-and-domain-experts)

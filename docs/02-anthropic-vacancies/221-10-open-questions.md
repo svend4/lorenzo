@@ -8,7 +8,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [10. Open Questions](#10-open-questions)
   - [10.1. Scope of "Profession"](#101-scope-of-profession)
   - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)

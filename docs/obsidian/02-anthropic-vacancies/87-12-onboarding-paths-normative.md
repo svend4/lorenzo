@@ -12,7 +12,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
   - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
   - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)

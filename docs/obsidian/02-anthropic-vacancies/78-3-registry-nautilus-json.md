@@ -11,7 +11,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [3. Registry (`nautilus.json`)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)

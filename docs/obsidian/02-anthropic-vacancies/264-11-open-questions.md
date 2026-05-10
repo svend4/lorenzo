@@ -12,7 +12,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [11. Open Questions](#11-open-questions)
   - [11.1. Granularity Questions](#111-granularity-questions)
   - [11.2. Configuration Stability](#112-configuration-stability)

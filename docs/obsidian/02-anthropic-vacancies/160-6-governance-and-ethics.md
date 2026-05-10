@@ -12,7 +12,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [6. Governance and Ethics](#6-governance-and-ethics)
   - [6.1. Governance Structure](#61-governance-structure)
   - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)

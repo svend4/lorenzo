@@ -1,14 +1,14 @@
 # Callout-блоки
 
-<!-- summary -->
-> Статистика callout-блоков (NOTE/TIP/WARNING/IMPORTANT) по документам.
-<!-- tags: quality, callouts, metadata, documentation -->
-
-
 <!-- toc-auto -->
 ## Contents
 
 - [Пример синтаксиса](#пример-синтаксиса)
+
+
+<!-- summary -->
+> Статистика callout-блоков (NOTE/TIP/WARNING/IMPORTANT) по документам.
+<!-- tags: quality, callouts, metadata, documentation -->
 
 
 Добавлено **680** callout-блоков в документы.

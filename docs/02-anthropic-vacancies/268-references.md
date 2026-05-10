@@ -8,7 +8,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [References](#references)
   - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
   - [Pattern of Composite Mastery](#pattern-of-composite-mastery)

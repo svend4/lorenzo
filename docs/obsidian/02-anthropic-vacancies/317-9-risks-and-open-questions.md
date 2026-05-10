@@ -10,7 +10,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [9. Risks and Open Questions](#9-risks-and-open-questions)
   - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
   - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)

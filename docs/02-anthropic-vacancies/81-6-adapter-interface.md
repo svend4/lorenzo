@@ -3,7 +3,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [6. Adapter Interface](#6-adapter-interface)
   - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. `fetch(query)` — Required](#62-fetchquery-required)

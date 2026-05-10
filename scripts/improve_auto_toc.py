@@ -48,10 +48,9 @@ if "--section" in sys.argv:
         SECTION_FILTER = DOCS / sys.argv[idx + 1]
 
 SKIP_FILES = {
-    "README.md", "SEARCH.md", "OUTLINE.md", "COMPARE.md",
-    "TOPIC_MODEL.md", "CITATION_INDEX.md", "READING_TIME.md",
-    "READABILITY.md", "SPELLCHECK.md", "CONTENT_GAPS.md",
-    "SOURCE_MAP.md", "DUPLICATE_ACROSS.md", "EXTERNAL_COMPARE.md",
+    "README.md", "OUTLINE.md", "COMPARE.md",
+    "TOPIC_MODEL.md", "SPELLCHECK.md", "CONTENT_GAPS.md",
+    "DUPLICATE_ACROSS.md", "EXTERNAL_COMPARE.md",
 }
 
 TOC_MARKER = "<!-- toc-auto -->"
