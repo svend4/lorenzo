@@ -30,6 +30,7 @@ improve_collab_finder.py — Collaboration Finder для Svyazi 2.0.
 import argparse
 import json
 import math
+import os
 import re
 import sys
 from collections import Counter
@@ -414,8 +415,17 @@ def _generate_message(card: CardEnvelope, contact: dict, query: str) -> str:
 # ─────────────────────────────────────────────────────────────────────
 
 def _format_report(query: str, source_file: str,
-                   candidates: list[dict], contacts: dict[str, Path]) -> str:
+                   candidates: list[dict], contacts: dict[str, Path],
+                   out_path: Path | None = None) -> str:
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    out_dir = out_path.parent if out_path else DOCS
+
+    def _rel(root_relative_path: str) -> str:
+        if not root_relative_path:
+            return root_relative_path
+        abs_path = ROOT / root_relative_path
+        return os.path.relpath(abs_path, out_dir)
+
     lines = [
         "# Рекомендации по коллаборации (Collaboration Finder)",
         "",
@@ -460,7 +470,7 @@ def _format_report(query: str, source_file: str,
         ]
 
         if path:
-            lines.append(f"**Документ:** [`{path}`]({path})")
+            lines.append(f"**Документ:** [`{path}`]({_rel(path)})")
             lines.append("")
 
         if tags:
@@ -477,7 +487,7 @@ def _format_report(query: str, source_file: str,
         if card.edges:
             lines.append(f"**Связан с:**")
             for e in card.edges[:4]:
-                lines.append(f"  - [{e.to}]({e.to}) _{e.rel}_")
+                lines.append(f"  - [{e.to}]({_rel(e.to)}) _{e.rel}_")
             lines.append("")
 
         # Контакт автора
@@ -496,7 +506,7 @@ def _format_report(query: str, source_file: str,
                 f"**Автор:** {author} {handle}  |  {platform}  |  {status_icon} `{status}`",
             ]
             if contact_doc:
-                lines.append(f"**Контакт:** [`{contact_doc}`]({contact_doc})")
+                lines.append(f"**Контакт:** [`{contact_doc}`]({_rel(contact_doc)})")
             lines.append("")
 
             # Шаблон сообщения
@@ -582,7 +592,7 @@ def cmd_find(query: str, source_file: str = "", top: int = 5,
         print("  [dry-run] Файл не записан. Уберите --dry-run для создания отчёта.")
         return
 
-    report = _format_report(query, source_file, candidates, contacts)
+    report = _format_report(query, source_file, candidates, contacts, out_path=out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(report, encoding="utf-8")
     print(f"  Записано → {out.relative_to(ROOT)}")
