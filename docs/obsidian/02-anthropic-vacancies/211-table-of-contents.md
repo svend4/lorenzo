@@ -3,16 +3,25 @@ title: "Table of Contents"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Table of Contents
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > 1. **The Five-Type Typology of Principal-Side Agents**
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -37,7 +46,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[253-table-of-contents]] (сходство 0.26)
 - [[169-table-of-contents]] (сходство 0.23)
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.18)
@@ -47,7 +56,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
+## Смотрите также
 - [[253-table-of-contents]]
 - [[169-table-of-contents]]
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
@@ -106,3 +121,19 @@ date: 2026-04-29
 - [[169-table-of-contents|Table of Contents]] _29%_
 - [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _29%_
 - [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (20)
+- [[149-appendix-b-summary-of-contributions]]
+- [[169-table-of-contents]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[182-acknowledgments]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[210-abstract]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- _...ещё 12_
+

@@ -5,19 +5,10 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # References
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Multi-Agent Systems(multi-agent-systems) - Protocols and Federation(protocols-and-federa
-> 🔧 **Подход:** "Architectural Styles and the Design of Network-based Software Architectures".
-> 🏷️ **Ключевые слова:** `anthropic`, `references`, `protocol`, `portal`, `vacancies`, `svend`, `human`, `nautilus`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -30,6 +21,23 @@ date: 2026-04-29
   - [Related Architectures](#related-architectures)
   - [Pattern Libraries](#pattern-libraries)
   - [Primary Reference](#primary-reference)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Multi-Agent Systems(multi-agent-systems) - Protocols and Federation(protocols-and-federa
+> 🔧 **Подход:** "Architectural Styles and the Design of Network-based Software Architectures".
+> 🏷️ **Ключевые слова:** `anthropic`, `references`, `protocol`, `portal`, `vacancies`, `svend`, `human`, `nautilus`
+>
 
 
 <!-- summary -->
@@ -90,19 +98,41 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[268-references]] (сходство 0.12)
 - [[73-portal-protocol-md-v1-1]] (сходство 0.12)
-- [[306-with-anthropic-s-cowork-platform]] (сходство 0.11)
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]] (сходство 0.11)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
+## Смотрите также
 - [[73-portal-protocol-md-v1-1]]
 - [[320-references]]
 - [[268-references]]
 - [[338-ссылки]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[104-appendix-c-references]]
+- [[140-3-three-inter-layer-protocols]]
+- [[148-appendix-a-glossary]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+- [[25-13-reference-implementation]]
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
+- [[320-references]]
+- [[338-ссылки]]
+- _...ещё 3_
 

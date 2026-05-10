@@ -1,31 +1,20 @@
 # Майндмап репозитория Lorenzo
 
 <!-- toc-auto -->
-## Contents
+## Содержание
 
-- [Структура разделов](#структура-разделов)
-- [Поток данных между проектами](#поток-данных-между-проектами)
-- [Легенда](#легенда)
-- [Смотрите также](#смотрите-также)
+- Основной раздел
 
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
 
 <!-- summary -->
+> Майндмап репозитория Lorenzo — документ базы знаний репозитория Lorenzo.
+
+<!-- tags: docs, reference, lorenzo -->
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
 
-> knowledge_space[knowledge space]
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
-
-
+<!-- alert-added -->
 
 
 ## Структура разделов
@@ -131,9 +120,12 @@ flowchart LR
 
 ---
 
-## Смотрите также
+**Смотрите также:**
 - [GLOSSARY](GLOSSARY.md)
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-- [GRAPH](GRAPH.md)
 - [NETWORK](NETWORK.md)
+- [GRAPH](GRAPH.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 
+
+
+Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации.

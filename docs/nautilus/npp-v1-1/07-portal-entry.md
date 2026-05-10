@@ -102,3 +102,19 @@ is_fallback=False
 - [06-adapter-interface](06-adapter-interface.md)
 - [17-versioning-policy](17-versioning-policy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [18-comment-on-document](../npp-v1-0/18-comment-on-document.md)
+- [03-registry](03-registry.md)
+- [05-compatibility-levels](05-compatibility-levels.md)
+- [06-adapter-interface](06-adapter-interface.md)
+- _...ещё 5_
+

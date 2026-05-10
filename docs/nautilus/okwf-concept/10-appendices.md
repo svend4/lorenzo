@@ -153,3 +153,19 @@ python scripts/improve_semantic_search.py --query "10 Appendices"
 - [09-call-for-partnership](09-call-for-partnership.md)
 - [08-pilot-sgb-advocate](../professional-colleague-agents-en/08-pilot-sgb-advocate.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [02-target-populations](02-target-populations.md)
+- [06-governance-ethics](06-governance-ethics.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- _...ещё 2_
+

@@ -89,3 +89,16 @@ python scripts/improve_semantic_search.py --query "10 Query Flow"
 - [11-relevance-ranking](11-relevance-ranking.md)
 
 _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [09-query-flow](../npp-v1-0/09-query-flow.md)
+- [README](README.md)
+

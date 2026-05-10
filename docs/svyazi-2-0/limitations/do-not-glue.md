@@ -54,3 +54,16 @@ python scripts/improve_semantic_search.py --query "Что пока лучше н
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
 - [conclusions](conclusions.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+

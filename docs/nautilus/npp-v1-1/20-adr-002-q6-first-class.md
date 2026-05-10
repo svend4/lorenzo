@@ -74,3 +74,18 @@ python scripts/improve_semantic_search.py --query "20 ADR 002 Q6 as First Class 
 - [14-sdk](14-sdk.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [14-adr-001-federation-over-merging](../npp-v1-0/14-adr-001-federation-over-merging.md)
+- [08-q6-space](08-q6-space.md)
+- [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
+- [README](README.md)
+

@@ -3,12 +3,34 @@ title: "13. Reference Implementation"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 13. Reference Implementation
 
+<!-- toc-auto -->
+## Contents
+
+- [13. Reference Implementation](#13-reference-implementation)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (20)](#кто-ссылается-на-этот-документ-20)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Reference implementation: `github.com/svend4/nautilus`.
 
 ---
@@ -35,7 +57,7 @@ Reference НЕ является нормативной. Альтернативн
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[93-18-reference-implementation]] (сходство 0.36)
 - [[42-author-contact]] (сходство 0.21)
 - [[03-portal-protocol-md]] (сходство 0.19)
@@ -45,7 +67,13 @@ Reference НЕ является нормативной. Альтернативн
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "13 Reference Implementation"
+```
+
+## Смотрите также
 - [[93-18-reference-implementation]]
 - [[42-author-contact]]
 - [[62-author-contact]]
@@ -56,7 +84,7 @@ Reference НЕ является нормативной. Альтернативн
 
 - [[05-0-status-of-this-document|0. Status of This Document]]
 - [[75-0-status-of-this-document|0. Status of This Document]]
-- [[22-10-queryresult-structure|10. QueryResult Structure]]
+- 10. [[22-10-queryresult-structure|QueryResult Structure]]
 - [[86-11-relevance-ranking|11. Relevance Ranking]]
 - [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]]
 - [[27-15-glossary-of-examples|15. Glossary of Examples]]
@@ -101,3 +129,19 @@ Reference НЕ является нормативной. Альтернативн
 - [[35-passports-info1-md|passports/info1.md]] _33%_
 - [[52-author-contact|Author & Contact]] _33%_
 - [[104-appendix-c-references|Appendix C: References]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (20)
+- [[03-portal-protocol-md]]
+- [[05-0-status-of-this-document]]
+- [[104-appendix-c-references]]
+- [[122-глоссарий]]
+- [[129-примеры-запросов-в-claude]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+- [[164-10-appendices]]
+- _...ещё 12_
+

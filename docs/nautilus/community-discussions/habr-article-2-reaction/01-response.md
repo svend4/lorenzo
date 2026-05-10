@@ -1,5 +1,15 @@
 # Claude hat geantwortet: Прочитаю статью, чтобы понимать конкретный кейс, на кото…
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -364,4 +374,18 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Про
 - [12-zaklyuchenie](../../representative-agent-layer-ru/12-zaklyuchenie.md)
 - [207-приложение-c-образцы-случаев-использования-в-детал](../../../02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
 - [02-what-was-missing-in-paper-6](../../composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
 

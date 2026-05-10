@@ -182,3 +182,19 @@ python scripts/improve_semantic_search.py --query "7 Economics of Combinatorial 
 - [05-economics-replication](../professional-colleague-agents-en/05-economics-replication.md)
 - [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [04-sub-agent-registry](04-sub-agent-registry.md)
+- [05-configuration-ensembles](05-configuration-ensembles.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- _...ещё 3_
+

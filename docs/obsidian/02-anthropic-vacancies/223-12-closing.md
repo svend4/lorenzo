@@ -4,22 +4,15 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 12. Closing
 
-<!-- toc -->
-## Содержание
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-- [12. Closing](#12-closing)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -32,9 +25,25 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The Representative Agent Layer paper, when first written,
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [12. Closing](#12-closing)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture, roadmap -->
 
 
@@ -95,7 +104,7 @@ walking it.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[210-abstract]] (сходство 0.30)
 - [[266-13-closing]] (сходство 0.21)
 - [[220-9-relationship-to-other-agent-types]] (сходство 0.17)
@@ -105,7 +114,13 @@ walking it.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+```
+
+## Смотрите также
 - [[210-abstract]]
 - [[266-13-closing]]
 - [[220-9-relationship-to-other-agent-types]]
@@ -159,3 +174,19 @@ walking it.
 - [[269-appendix-a-the-six-type-taxonomy-updated|Appendix A: The Six-Type Taxonomy (Updated)]] _29%_
 - [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _25%_
 - [[179-10-open-questions|10. Open Questions]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- [[151-open-knowledge-work-foundation-md]]
+- [[168-abstract]]
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[181-12-closing]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[210-abstract]]
+- [[211-table-of-contents]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- _...ещё 10_
+

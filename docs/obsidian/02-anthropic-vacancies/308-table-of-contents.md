@@ -3,16 +3,25 @@ title: "Table of Contents"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Table of Contents
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > 1. **The Cowork Discovery and Why It Changes Everything**
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -36,7 +45,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[253-table-of-contents]] (сходство 0.15)
 - [[137-table-of-contents]] (сходство 0.13)
 - [[211-table-of-contents]] (сходство 0.13)
@@ -46,7 +55,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
+## Смотрите также
 - [[253-table-of-contents]]
 - [[211-table-of-contents]]
 - [[137-table-of-contents]]
@@ -100,3 +115,19 @@ date: 2026-04-29
 - [[322-appendix-b-comparison-matrix|Appendix B: Comparison Matrix]] _29%_
 - [[CLUSTERS|Кластеры тематически близких файлов]] _29%_
 - [[137-table-of-contents|Table of Contents]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[137-table-of-contents]]
+- [[149-appendix-b-summary-of-contributions]]
+- [[169-table-of-contents]]
+- [[211-table-of-contents]]
+- [[253-table-of-contents]]
+- [[307-abstract]]
+- 321-appendix-a-decision-tree-for-[[321-appendix-a-decision-tree-for-ingit-adopters|ingit-adopters]]
+- [[326-содержание]]
+- _...ещё 2_
+

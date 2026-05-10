@@ -91,3 +91,15 @@ third agent с явным контекстом обоих) создаёт фин
 - [09-limitations-open-questions](09-limitations-open-questions.md)
 - [10-checklist](10-checklist.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

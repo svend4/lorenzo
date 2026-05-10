@@ -194,3 +194,16 @@ python scripts/improve_semantic_search.py --query "4 Architecture of Professiona
 - [06-risks](06-risks.md)
 - [02-what-makes-pca](02-what-makes-pca.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-risks](06-risks.md)
+- [README](README.md)
+

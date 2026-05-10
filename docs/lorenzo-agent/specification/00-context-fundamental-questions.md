@@ -64,3 +64,18 @@ python scripts/improve_semantic_search.py --query "Direction E Refine Lorenzo"
 - [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
+- [10-q10-funding-model](10-q10-funding-model.md)
+- [README](README.md)
+

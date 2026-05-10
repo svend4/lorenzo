@@ -77,3 +77,16 @@ python scripts/improve_semantic_search.py --query "Closing"
 - [285-closing](../../02-anthropic-vacancies/285-closing.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-intro](00-intro.md)
+- [README](README.md)
+

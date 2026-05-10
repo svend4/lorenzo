@@ -504,3 +504,18 @@ python scripts/improve_semantic_search.py --query "12 Closing" --mode bm25
 - [04-ten-domains](04-ten-domains.md)
 - [173-4-ten-domains-of-application](../../02-anthropic-vacancies/173-4-ten-domains-of-application.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [11-glossary](../double-triangle-architecture/11-glossary.md)
+- [04-ten-domains](04-ten-domains.md)
+- [README](README.md)
+

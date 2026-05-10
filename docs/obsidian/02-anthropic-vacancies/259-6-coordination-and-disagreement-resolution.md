@@ -4,10 +4,15 @@ tags:
   - rag
   - ingestion
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 6. Coordination and Disagreement Resolution
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -20,6 +25,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The composite agent's most subtle function is coordinating
 
 ---
@@ -168,7 +177,7 @@ practice.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[256-3-what-makes-a-composite-skills-agent]] (сходство 0.18)
 - [[258-5-configuration-how-principals-build-their-ensembl]] (сходство 0.14)
 - [[263-10-risks-specific-to-composite-architectures]] (сходство 0.13)
@@ -178,7 +187,13 @@ practice.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Coordination and Disagreement"
+```
+
+## Смотрите также
 - [[256-3-what-makes-a-composite-skills-agent]]
 - [[258-5-configuration-how-principals-build-their-ensembl]]
 - [[263-10-risks-specific-to-composite-architectures]]
@@ -220,3 +235,19 @@ practice.
 - [[174-5-architectural-specification|5. Architectural Specification]] _25%_
 - [[211-table-of-contents|Table of Contents]] _25%_
 - [[253-table-of-contents|Table of Contents]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[172-3-what-makes-a-representative-agent]]
+- [[174-5-architectural-specification]]
+- [[211-table-of-contents]]
+- [[253-table-of-contents]]
+- [[254-1-why-the-binary-view-is-incomplete]]
+- [[255-2-the-twenty-one-teachers-pattern]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- _...ещё 3_
+

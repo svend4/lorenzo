@@ -175,3 +175,19 @@ python scripts/improve_semantic_search.py --query "9 Связь с другим�
 - [02-chto-delaet-pka](02-chto-delaet-pka.md)
 - [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](../../02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-the-spectrum](../composite-skills-agents-companion-mentors/03-the-spectrum.md)
+- [01-pyat-tipov](01-pyat-tipov.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [05-ekonomika](05-ekonomika.md)
+- _...ещё 2_
+

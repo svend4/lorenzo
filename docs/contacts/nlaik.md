@@ -100,3 +100,19 @@ _Создано автоматически: 2026-04-29_
 - [andrey-chuyan](andrey-chuyan.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [research-docs-liteparse](../05-habr-projects/knowledge/research-docs-liteparse.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [andrey-chuyan](andrey-chuyan.md)
+- _...ещё 4_
+

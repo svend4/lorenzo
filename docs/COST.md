@@ -1,31 +1,20 @@
 # Оценка стоимости MVP
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Ориентировочные цифры на основе документации проекта._
-**Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
+<!-- toc-auto -->
 ## Содержание
 
-- [Итого](#итого)
-- [По компонентам](#по-компонентам)
-- [По ролям](#по-ролям)
-- [Сценарии](#сценарии)
-- [Временные оценки из документов](#временные-оценки-из-документов)
-- [Допущения](#допущения)
-
----
-
-<!-- tags: memory, orchestration, security, knowledge, architecture, roadmap, collaboration -->
+- Основной раздел
 
 
+<!-- summary -->
+> Оценка стоимости MVP — документ базы знаний репозитория Lorenzo.
+
+<!-- tags: docs, reference, lorenzo -->
+
+> [!NOTE]
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
+
+<!-- alert-added -->
 
 
 _Ориентировочные цифры на основе документации проекта._
@@ -83,6 +72,7 @@ _Минимальный сценарий: open source + личное время 
 | Источник | Контекст | Недель |
 |----------|----------|--------|
 | `365-развёрнутый-анал` | Макс) и part-time, реальный timeline 12-24 месяца для full a… | 96 |
+| `12-roadmap` | ] > Дорожная карта проекта — план на 12-18 месяцев.  <!-- al… | 72 |
 | `343-lorenzo-catalyst` | рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс… | 72 |
 | `365-развёрнутый-анал` | eam. С solo developer (Макс) и part-time, реальный timeline … | 72 |
 | `ACTION_ITEMS` | обратная-связь_ - 5: Burnout. Проект 12-18 месяцев для singl… | 72 |
@@ -99,20 +89,16 @@ _Минимальный сценарий: open source + личное время 
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
 
-<!-- see-also -->
-
----
-
 
 ## Использование
 
 ```bash
-python scripts/improve_cost.py
+python scripts/improve_run_all.py --group reports
 ```
 
-## Смотрите также
-- [DENSITY](DENSITY.md)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [SCHEDULE](SCHEDULE.md)
-- [SCORING](SCORING.md)
+```bash
+python scripts/improve_semantic_search.py --query "COST"
+```
 
+
+_Смотрите также: [README](README.md) · [Глоссарий](GLOSSARY.md) · [Контакты](CONTACTS.md)_

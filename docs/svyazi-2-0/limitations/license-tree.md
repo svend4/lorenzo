@@ -54,3 +54,19 @@ python scripts/improve_semantic_search.py --query "Лицензионные ра
 - [first-contacts](../outreach/first-contacts.md)
 - [risks](../prototype/risks.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [DECISIONS](../../DECISIONS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [TECH_RADAR](../../TECH_RADAR.md)
+- [README](../../habr-unique-projects/evaluation/README.md)
+- _...ещё 4_
+

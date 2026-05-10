@@ -201,3 +201,19 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Интерес
 - [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
 - [06-angel-vs-demon-duality](../../anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-polymath-project-tao-comparison](../../anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [06-angel-vs-demon-duality](../../anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)
+- [09-minuses-and-risks](../../anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
+- _...ещё 4_
+

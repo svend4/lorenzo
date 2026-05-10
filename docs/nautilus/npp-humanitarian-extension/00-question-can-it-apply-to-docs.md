@@ -66,3 +66,18 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Вопрос �
 - [00-question-habr-2](../community-discussions/habr-article-2-reaction/00-question-habr-2.md)
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-two-nautiluses](../../anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [README](README.md)
+- [00-question-anonymization](../privacy-federation/00-question-anonymization.md)
+

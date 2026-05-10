@@ -52,3 +52,16 @@ python scripts/improve_semantic_search.py --query "Три наложенные �
 - [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
 - [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [README](README.md)
+- [02-final-ranking](../03-integral-final/02-final-ranking.md)
+

@@ -4,7 +4,7 @@ tags:
   - ingestion
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 7. Application Domains
@@ -216,7 +216,7 @@ application drafting.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[143-6-four-deployment-domains]] (сходство 0.14)
 - [[173-4-ten-domains-of-application]] (сходство 0.14)
 - [[261-8-seven-domains-of-application]] (сходство 0.14)
@@ -226,7 +226,13 @@ application drafting.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Application Domains"
+```
+
+## Смотрите также
 - [[261-8-seven-domains-of-application]]
 - [[173-4-ten-domains-of-application]]
 - [[143-6-four-deployment-domains]]
@@ -251,3 +257,19 @@ application drafting.
 - [[277-what-s-missing-layer-b|What's Missing — Layer B]] _17%_
 - [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] _17%_
 - [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[143-6-four-deployment-domains]]
+- [[173-4-ten-domains-of-application]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[261-8-seven-domains-of-application]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[280-the-specific-case-in-front-of-us]]
+- [[284-practical-recommendations-for-the-current-project]]
+- _...ещё 1_
+

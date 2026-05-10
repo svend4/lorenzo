@@ -55,3 +55,19 @@ python scripts/improve_semantic_search.py --query "Пара 5 Голосовой
 - [2-document-rag](2-document-rag.md)
 - 07-crawl4ai-docling-[yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [source-projects](../../ai-collaborations/source-projects.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [2-document-rag](2-document-rag.md)
+- _...ещё 3_
+

@@ -60,3 +60,19 @@ python scripts/improve_semantic_search.py --query "Section 9 Why this is timely"
 - [07-section-7-success-metrics](07-section-7-success-metrics.md)
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-section-1-problem](01-section-1-problem.md)
+- [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md)
+- [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
+- _...ещё 4_
+

@@ -56,3 +56,16 @@ python scripts/improve_semantic_search.py --query "Узкие вопросы д�
 - [CONTACTS](../../CONTACTS.md)
 - [first-contacts](first-contacts.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+

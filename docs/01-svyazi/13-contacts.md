@@ -146,3 +146,19 @@ python scripts/improve_semantic_search.py --query "Контактная стра
 - [10 Second Order Ensembles](10-second-order-ensembles.md) _37%_
 - [Приоритетные ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) _37%_
 - [Новые ансамбли следующего шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _37%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (18):**
+- [07-mvp-planning](07-mvp-planning.md)
+- [09-architectural-gaps](09-architectural-gaps.md)
+- [10-second-order-ensembles](10-second-order-ensembles.md)
+- [11-integration-contracts](11-integration-contracts.md)
+- [README](README.md)
+- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [05-план-прототипа-и-возможные-контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+- _...ещё 10_
+

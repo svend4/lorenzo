@@ -58,3 +58,19 @@ python scripts/improve_semantic_search.py --query "Метафора двое р�
 - 06-[svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [concepts](../../glossary/concepts.md)
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
+- [README](README.md)
+- _...ещё 2_
+

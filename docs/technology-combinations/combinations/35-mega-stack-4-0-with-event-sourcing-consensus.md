@@ -1,5 +1,15 @@
 # Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -142,4 +152,20 @@ python scripts/improve_semantic_search.py --query "Комбинация 35 MEGA 
 - [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
 - [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [30-mega-stack-3-0-with-dsl-ast](30-mega-stack-3-0-with-dsl-ast.md)
+- [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md)
+- [32-consensus-based-multi-agent-coordination](32-consensus-based-multi-agent-coordination.md)
+- _...ещё 4_
 

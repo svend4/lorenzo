@@ -1,5 +1,15 @@
 # Claude hat geantwortet: Отличное наблюдение.
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -207,4 +217,17 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Отл
 - [165-closing](../../../02-anthropic-vacancies/165-closing.md)
 - [00-question-voiceless](../voiceless-contributors/00-question-voiceless.md)
 - [01-claude-response](../habr-article-1-reaction/01-claude-response.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
 

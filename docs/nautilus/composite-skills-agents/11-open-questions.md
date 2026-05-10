@@ -1,5 +1,24 @@
 # 11. Open Questions
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [11. Open Questions](#11-open-questions)
+  - [11.1. Granularity Questions](#111-granularity-questions)
+  - [11.2. Configuration Stability](#112-configuration-stability)
+  - [11.3. Cross-Professional Configurations](#113-cross-professional-configurations)
+  - [11.4. Configuration Evolution at Scale](#114-configuration-evolution-at-scale)
+  - [11.5. Sub-Agent Quality Across Cultures](#115-sub-agent-quality-across-cultures)
+  - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
+  - [11.7. The "Emergence" Question](#117-the-emergence-question)
+  - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -130,4 +149,20 @@ python scripts/improve_semantic_search.py --query "11 Open Questions"
 - [12-call-for-collaboration](12-call-for-collaboration.md)
 - [09-okwf-integration](09-okwf-integration.md)
 - [03-what-makes-csa](03-what-makes-csa.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+- [05-configuration-ensembles](05-configuration-ensembles.md)
+- [10-risks](10-risks.md)
+- _...ещё 3_
 

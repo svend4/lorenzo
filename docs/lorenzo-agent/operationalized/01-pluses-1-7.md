@@ -1,5 +1,15 @@
 # Плюсы 1–7: feasibility, flywheel, independent value, mission alignment, collaborators, pattern validation, Анастасия Бутова
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -122,4 +132,20 @@ python scripts/improve_semantic_search.py --query "Плюсы 1 7 feasibility fl
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
 - [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
 - [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
+- [02-minuses-1-10](02-minuses-1-10.md)
+- [04-recommendations](04-recommendations.md)
+- _...ещё 2_
 

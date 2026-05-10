@@ -54,3 +54,18 @@ python scripts/improve_semantic_search.py --query "Почему эта идея 
 - [04-pluses-as-business](04-pluses-as-business.md)
 - [05-minuses-as-business](05-minuses-as-business.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [02-existing-niche](02-existing-niche.md)
+- [05-minuses-as-business](05-minuses-as-business.md)
+- [README](README.md)
+

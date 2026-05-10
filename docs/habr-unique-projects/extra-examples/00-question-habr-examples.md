@@ -1,5 +1,15 @@
 # Вопрос: ещё примеры с Хабра по варианту D
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -90,4 +100,18 @@ python scripts/improve_semantic_search.py --query "Вопрос ещё прим�
 - [02-collaboration-partners](../../05-habr-projects/02-collaboration-partners.md)
 - [05-hw-nl2workflow](05-hw-nl2workflow.md)
 - [00-overview-grandchild-combination](../../lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 

@@ -115,3 +115,17 @@ python scripts/improve_semantic_search.py --query "6 Refined InGit Scope with Co
 - 03-[ingit-provides](03-ingit-provides.md)
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [07-practical-first-steps](07-practical-first-steps.md)
+- [README](README.md)
+

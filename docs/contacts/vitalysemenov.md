@@ -102,3 +102,16 @@ _Контакт ещё не установлен_
 - [tagir-analyzes](tagir-analyzes.md)
 - [cutcode](cutcode.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [agent-memory-mcp](../05-habr-projects/memory/agent-memory-mcp.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [README](README.md)
+

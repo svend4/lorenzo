@@ -102,3 +102,16 @@ python scripts/improve_semantic_search.py --query "15 Security Considerations"
 - [23-11-security-considerations](../../02-anthropic-vacancies/23-11-security-considerations.md)
 - [06-adapter-interface](06-adapter-interface.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [11-security-considerations](../npp-v1-0/11-security-considerations.md)
+- [README](README.md)
+

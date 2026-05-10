@@ -1,5 +1,15 @@
 # Du hast gesagt: Спрос рождает предложение - это простая экономическая истина нач…
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -49,4 +59,19 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Спрос р�
 - [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
 - [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
 - [00-question-habr-2](../community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-voiceless](../community-discussions/voiceless-contributors/00-question-voiceless.md)
+- [README](README.md)
+- [00-question-mountain-to-person](../transmission-box/00-question-mountain-to-person.md)
 

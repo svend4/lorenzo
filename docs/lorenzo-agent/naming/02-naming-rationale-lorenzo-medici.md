@@ -1,5 +1,15 @@
 # Что взять: agent controller architecture
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -319,4 +329,18 @@ python scripts/improve_semantic_search.py --query "Что взять agent contr
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [04-proposed-infrastructure](../../nautilus/okwf-concept/04-proposed-infrastructure.md)
 - [11-difficulties-and-recommendations](../specification/11-difficulties-and-recommendations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-dhlab-umbrella](03-dhlab-umbrella.md)
+- [README](README.md)
 

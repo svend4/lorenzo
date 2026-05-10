@@ -1,5 +1,15 @@
 # Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -285,4 +295,17 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это
 - [165-closing](../../../02-anthropic-vacancies/165-closing.md)
 - [01-response-en](../agent-changes-reality/01-response-en.md)
 - [01-three-related-themes](../../supply-demand/01-three-related-themes.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
 

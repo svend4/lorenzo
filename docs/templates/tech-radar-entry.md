@@ -102,3 +102,17 @@ python scripts/improve_template_init.py --template tech-radar-entry --output doc
 - [decision-record](decision-record.md)
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [mega-stack](mega-stack.md)
+

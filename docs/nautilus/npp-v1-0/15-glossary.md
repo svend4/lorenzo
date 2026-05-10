@@ -149,3 +149,19 @@ example_user, example@email.com
 - [13-reference-implementation](13-reference-implementation.md)
 - [10-query-result](10-query-result.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [CONCEPT_GRAPH](../../CONCEPT_GRAPH.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-shell-metaphor-two-projections](../../anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
+- [10-query-result](10-query-result.md)
+- _...ещё 3_
+

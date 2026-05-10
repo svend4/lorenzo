@@ -113,3 +113,19 @@ python scripts/improve_semantic_search.py --query "Рекомендации пр
 - [06-conclusion-deserves-attention](06-conclusion-deserves-attention.md)
 - [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [02-minuses-1-10](02-minuses-1-10.md)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+- _...ещё 3_
+

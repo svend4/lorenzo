@@ -88,3 +88,19 @@ python scripts/improve_semantic_search.py --query "BrainBox self hosted multi AI
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 
 _Материал доступен для поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- [02-vshe-scientific-networking](02-vshe-scientific-networking.md)
+- [05-hw-nl2workflow](05-hw-nl2workflow.md)
+- _...ещё 1_
+

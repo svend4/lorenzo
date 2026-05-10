@@ -74,3 +74,17 @@ python scripts/improve_semantic_search.py --query "Конкретный поте
 - 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
 - [08-section-8-risks-mitigations](../../anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [12-concrete-next-step](12-concrete-next-step.md)
+- [README](README.md)
+

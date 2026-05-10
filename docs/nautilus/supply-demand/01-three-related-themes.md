@@ -1,5 +1,15 @@
 # Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -354,4 +364,19 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Оче
 - [01-completing-loop](../transmission-box/01-completing-loop.md)
 - [01-response](../innovation-transitions/01-response.md)
 - [165-closing](../../02-anthropic-vacancies/165-closing.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-response](../community-discussions/voiceless-contributors/01-response.md)
+- [README](README.md)
+- [01-completing-loop](../transmission-box/01-completing-loop.md)
 

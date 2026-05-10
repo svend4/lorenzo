@@ -55,3 +55,19 @@ python scripts/improve_semantic_search.py --query "Пара 2 Local first PKM Ob
 - [4-speech-to-text-llm](4-speech-to-text-llm.md)
 - [2-document-rag](../deep-pairs/2-document-rag.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [2-document-rag](../deep-pairs/2-document-rag.md)
+- [5-browser-agents-headless](5-browser-agents-headless.md)
+- _...ещё 1_
+

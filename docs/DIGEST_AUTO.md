@@ -1,31 +1,20 @@
 # Автодайджест изменений
 
 <!-- toc-auto -->
-## Contents
+## Содержание
 
-- [Сводка](#сводка)
-- [Активность по секциям](#активность-по-секциям)
-- [Последние коммиты](#последние-коммиты)
-- [Новые файлы](#новые-файлы)
-- [Изменённые файлы](#изменённые-файлы)
-- [Ключевые слова изменений](#ключевые-слова-изменений)
-- [Новые концепты](#новые-концепты)
-- [Смотрите также](#смотрите-также)
+- Основной раздел
 
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
 
 <!-- summary -->
-> _Период: 2026-05-03 — 2026-05-10 (7 дней)_
-**Проекты:** Svyazi
+> Автодайджест изменений — документ базы знаний репозитория Lorenzo.
 
----
-<!-- tags: rag, ingestion, architecture, roadmap, anthropic, collaboration -->
+<!-- tags: docs, reference, lorenzo -->
 
+> [!NOTE]
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
 
+<!-- alert-added -->
 
 
 _Период: 2026-05-03 — 2026-05-10 (7 дней)_
@@ -36,118 +25,111 @@ _Период: 2026-05-03 — 2026-05-10 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **11** |
+| Коммитов | **57** |
 | Новых файлов | **20** |
 | Изменённых файлов | **20** |
-| Слов добавлено | **+111,195** |
-| Слов удалено | **−14,966** |
+| Слов добавлено | **+1,394,474** |
+| Слов удалено | **−818,747** |
 
 ## Активность по секциям
 
 | Секция | Изменений |
 |--------|-----------|
-| `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 220 |
-| `obsidian` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 94 |
-| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 30 |
-| `technology-combinations` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 29 |
-| `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 28 |
-| `habr-unique-projects` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 17 |
-| `autofilled` | ▓▓▓▓▓▓▓▓▓▓▓▓ 12 |
-| `processing-guide` | ▓▓▓▓▓▓▓▓▓▓▓▓ 12 |
+| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 1636 |
+| `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
+| `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 225 |
+| `obsidian` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 126 |
+| `anthropic-vacancies` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 111 |
+| `lorenzo-agent` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 62 |
+| `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 59 |
+| `habr-unique-projects` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 56 |
 
 ## Последние коммиты
 
-- `2026-05-10` [696550ff] chore: update generated docs — auto-enrichment, TOC, summaries, meta-s
-- `2026-05-10` [95929faf] feat: card envelope library, card index CLI, fix recipe dry-run + hist
-- `2026-05-10` [9b4e71ac] feat: implement E-K roadmap items — recipe system, BM25 MCP, prototype
-- `2026-05-10` [f069f299] feat: implement improve_self.py --batch and add REPL search script
-- `2026-05-10` [cdb6ccce] feat(scripts): complete run_all coverage + --dry-run for all red scrip
-- `2026-05-10` [3ac7b575] chore: update generated indexes and dashboards
-- `2026-05-10` [a5de89d7] feat: document all 156 scripts, fix risk algorithm, update methodology
-- `2026-05-10` [fe718881] feat(scripts): add --dry-run to all 4 content-modifying scripts
-- `2026-05-10` [1a1f0520] feat: метаскрипт improve_self.py + документация docs/meta-scripting/
-- `2026-05-10` [daf0d7f2] restore: восстановить контент обеднённый ботом — preview-строки, похож
+- `2026-05-10` [cf9ebcce] feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken link
+- `2026-05-10` [82d3705e] feat: improve doc quality score from 84.6 → 86.5/100
+- `2026-05-10` [a469b340] fix: remove 61 broken internal links (dangling #contents anchors + SEA
+- `2026-05-10` [88511476] feat: quality metrics 83.5→84.6/100, fix duplicate TOCs, add 680 callo
+- `2026-05-10` [043b81e0] feat: quality metrics 82.3→83.5/100, callout coverage 35%→95%
+- `2026-05-10` [bd8d60bd] feat: quality metrics 76.7→82.3/100, add callouts/TOCs/H1s/summaries
+- `2026-05-10` [858494ca] feat: improve quality metrics 73.2→76.7, fix has_toc detection
+- `2026-05-10` [7eb5fa87] fix: eliminate last 5 broken links, add 300+ TOCs and quality enrichme
+- `2026-05-10` [d4c3c287] fix: eliminate all broken links, health score 99→100/100
+- `2026-05-10` [09ae9873] feat: health 94→99/100, exclude mirror dirs from quality checks
 
 ## Новые файлы
 
-- [`README.md`](meta-scripting/README.md) — `meta-scripting`
-- `211559110a051804.[json`](../cards/211559110a051804.json) — `root`
-- `372bafbfb0972e2a.[json`](../cards/372bafbfb0972e2a.json) — `root`
-- `42ca0accd4efec67.[json`](../cards/42ca0accd4efec67.json) — `root`
-- `5fb9dd52c4374742.[json`](../cards/5fb9dd52c4374742.json) — `root`
-- `71f9eb7be6254cc6.[json`](../cards/71f9eb7be6254cc6.json) — `root`
-- `81e514237f50a17e.[json`](../cards/81e514237f50a17e.json) — `root`
-- `9f344e8d21059cee.[json`](../cards/9f344e8d21059cee.json) — `root`
-- [`improve_card_index.py`](../scripts/improve_card_index.py) — `Скрипты`
-- `recipe_history.[json`](../scripts/recipe_history.json) — `Скрипты`
-- [`utils_card_envelope.py`](../scripts/utils_card_envelope.py) — `Скрипты`
-- [`PROTOTYPE_SPEC.md`](PROTOTYPE_SPEC.md) — `PROTOTYPE_SPEC.md`
-- [`improve_recipe.py`](../scripts/improve_recipe.py) — `Скрипты`
-- [`improve_search_repl.py`](../scripts/improve_search_repl.py) — `Скрипты`
-- [`01-concept.md`](meta-scripting/01-concept.md) — `meta-scripting`
+- [`bad_links.json`](bad_links.json) — `bad_links.json`
+- `35a15f08a6f8fbb9.json` — `root`
+- `d3e7a0405f0e2d12.json` — `root`
+- [`research-docs-liteparse.md`](05-habr-projects/knowledge/research-docs-liteparse.md) — `Хабр-проекты`
+- [`rufler.md`](05-habr-projects/knowledge/rufler.md) — `Хабр-проекты`
+- `87fac45fc526db53.json` — `root`
+- [`mclaude.md`](05-habr-projects/knowledge/mclaude.md) — `Хабр-проекты`
+- `55bf4b0498b6556b.json` — `root`
+- `9307fc75b6d6965d.json` — `root`
+- `e51f5fbcb9de3cf7.json` — `root`
+- [`agentfs.md`](05-habr-projects/knowledge/agentfs.md) — `Хабр-проекты`
+- [`knowledge-space.md`](05-habr-projects/knowledge/knowledge-space.md) — `Хабр-проекты`
+- [`agent-memory-mcp.md`](05-habr-projects/memory/agent-memory-mcp.md) — `Хабр-проекты`
+- `a28ab8da5234e7b1.json` — `root`
+- [`vitalysemenov.md`](contacts/vitalysemenov.md) — `Контакты`
 
 ## Изменённые файлы
 
+- [`00-intro-part2.md`](01-svyazi/00-intro-part2.md)
+- [`01-executive-summary.md`](01-svyazi/01-executive-summary.md)
+- [`02-methodology.md`](01-svyazi/02-methodology.md)
 - [`03-component-catalog.md`](01-svyazi/03-component-catalog.md)
+- [`06-security-privacy.md`](01-svyazi/06-security-privacy.md)
 - [`07-mvp-planning.md`](01-svyazi/07-mvp-planning.md)
+- [`08-conclusions.md`](01-svyazi/08-conclusions.md)
 - [`09-architectural-gaps.md`](01-svyazi/09-architectural-gaps.md)
-- [`10-second-order-ensembles.md`](01-svyazi/10-second-order-ensembles.md)
 - [`11-integration-contracts.md`](01-svyazi/11-integration-contracts.md)
+- [`12-roadmap.md`](01-svyazi/12-roadmap.md)
+- [`13-contacts.md`](01-svyazi/13-contacts.md)
+- [`14-limitations.md`](01-svyazi/14-limitations.md)
 - [`QA.md`](01-svyazi/QA.md)
+- [`README.md`](01-svyazi/README.md)
 - [`00-intro.md`](02-anthropic-vacancies/00-intro.md)
-- [`03-portal-protocol-md.md`](02-anthropic-vacancies/03-portal-protocol-md.md)
-- [`04-abstract.md`](02-anthropic-vacancies/04-abstract.md)
-- [`05-0-status-of-this-document.md`](02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [`06-1-introduction.md`](02-anthropic-vacancies/06-1-introduction.md)
-- [`07-2-terminology.md`](02-anthropic-vacancies/07-2-terminology.md)
-- [`08-3-registry-nautilus-json.md`](02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [`09-4-passport-passport-md.md`](02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [`103-appendix-b-change-log.md`](02-anthropic-vacancies/103-appendix-b-change-log.md)
 
 ## Ключевые слова изменений
 
 | Слово | Добавлено | Удалено |
 |-------|-----------|---------|
-| `anthropic` | +6027 | −187 |
-| `vacancies` | +5757 | −149 |
-| `проблем` | +5591 | −4 |
-| `readme` | +1240 | −56 |
-| `nautilus` | +1174 | −67 |
-| `agent` | +997 | −95 |
-| `svyazi` | +962 | −241 |
-| `appendix` | +930 | −30 |
-| `документ` | +605 | −26 |
-| `этот` | +587 | −20 |
-| `layer` | +575 | −6 |
-| `agents` | +538 | −32 |
-| `backlinks` | +536 | −13 |
-| `ссылается` | +525 | −1 |
-| `knowledge` | +524 | −198 |
+| `anthropic` | +36889 | −26815 |
+| `vacancies` | +28488 | −20645 |
+| `nautilus` | +19033 | −6379 |
+| `agent` | +12398 | −5967 |
+| `text` | +11026 | −2615 |
+| `svyazi` | +10521 | −8757 |
+| `source` | +10052 | −1582 |
+| `heading` | +8851 | −466 |
+| `документ` | +8709 | −1798 |
+| `проблем` | +8365 | −1444 |
+| `claude` | +7825 | −5001 |
+| `obsidian` | +7387 | −7482 |
+| `связанные` | +6833 | −1962 |
+| `cowork` | +6561 | −4034 |
+| `lorenzo` | +6439 | −3504 |
 
 ## Новые концепты
 
 _Слова появившиеся в этом периоде (≥3 раза):_
 
-`отдельные`, `состыковать`, `хабре`, `месяцы`, `описания`, `паттерны`, `теоретически`, `пять`, `ансамблей`, `свойств`, `добавить`, `начала`, `прототип`, `доказать`, `центральную`
+`индексирован`, `актуальной`, `статистики`, `деталям`, `индексированы`, `поисковой`, `соблюдению`, `обзорный`, `погружением`, `коллективного`, `закрыв`, `предупреждения`, `индексировано`, `mcpmd`, `foundationmd`
 
 ---
 _Дайджест сгенерирован автоматически: 2026-05-10_
 
 
-<!-- see-also -->
-
----
-
 
 ## Использование
 
 ```bash
-python scripts/improve_digest_auto.py
+python scripts/improve_run_all.py --group reports
 ```
 
-## Смотрите также
-- [DIGEST](DIGEST.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
-- [WORD_FREQ](WORD_FREQ.md)
-- [KEYWORD_INDEX](KEYWORD_INDEX.md)
-
+```bash
+python scripts/improve_semantic_search.py --query "DIGEST_AUTO"
+```

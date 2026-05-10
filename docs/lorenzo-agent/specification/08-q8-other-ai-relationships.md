@@ -86,3 +86,19 @@ python scripts/improve_semantic_search.py --query "Question 8 Lorenzo s relation
 - [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [14-other-ai-relationships](../14-other-ai-relationships.md)
+- [00-context-fundamental-questions](00-context-fundamental-questions.md)
+- [01-q1-what-lorenzo-is](01-q1-what-lorenzo-is.md)
+- [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- _...ещё 4_
+

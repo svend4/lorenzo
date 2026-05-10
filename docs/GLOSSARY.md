@@ -1,89 +1,96 @@
 # Глоссарий проектов
 
 <!-- toc-auto -->
-## Contents
+## Содержание
 
-- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
-- [Смотрите также](#смотрите-также)
-
-
-<!-- tags: meta, glossary, index -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+- Основной раздел
 
 
 <!-- summary -->
-> Все проекты, упоминаемые в документах, с количеством файлов.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+> Глоссарий проектов — документ базы знаний репозитория Lorenzo.
 
----
+<!-- tags: docs, reference, lorenzo -->
 
+> [!NOTE]
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
+
+<!-- alert-added -->
 
 
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 125 |
-| **AIF Handoff** | 55 |
-| **AgentFS** | 181 |
-| **Auto AI Router** | 113 |
-| **AutoResearch** | 97 |
-| **Automerge** | 55 |
-| **CardIndex** | 219 |
-| **Firecrawl** | 37 |
-| **Graph RAG** | 82 |
-| **Hybrid RAG** | 79 |
-| **Legal RAG** | 85 |
-| **LiteLLM** | 82 |
-| **LiteParse** | 135 |
-| **MemNet** | 245 |
-| **Memory OS** | 59 |
-| **NGT Memory** | 157 |
-| **OpenWhispr** | 32 |
-| **RLM-Toolkit** | 18 |
-| **Rufler** | 138 |
-| **SENTINEL** | 128 |
-| **Self-Aware MCP** | 31 |
-| **Sequential** | 167 |
-| **Svyazi** | 465 |
-| **Tool Search** | 85 |
-| **Whisper** | 42 |
-| **Wikontic** | 84 |
-| **Yjs** | 67 |
-| **Yodoca** | 233 |
-| **Yttri** | 33 |
-| **agent-memory-mcp** | 62 |
-| **knowledge-space** | 166 |
-| **mclaude** | 142 |
+| **AI Factory** | 154 |
+| **AIF Handoff** | 62 |
+| **AgentFS** | 249 |
+| **Auto AI Router** | 131 |
+| **AutoResearch** | 132 |
+| **Automerge** | 78 |
+| **CardIndex** | 300 |
+| **Firecrawl** | 45 |
+| **Graph RAG** | 100 |
+| **Hybrid RAG** | 106 |
+| **Legal RAG** | 106 |
+| **LiteLLM** | 97 |
+| **LiteParse** | 173 |
+| **MemNet** | 270 |
+| **Memory OS** | 90 |
+| **NGT Memory** | 211 |
+| **OpenWhispr** | 41 |
+| **RLM-Toolkit** | 22 |
+| **Rufler** | 187 |
+| **SENTINEL** | 153 |
+| **Self-Aware MCP** | 42 |
+| **Sequential** | 241 |
+| **Svyazi** | 619 |
+| **Tool Search** | 103 |
+| **Whisper** | 55 |
+| **Wikontic** | 120 |
+| **Yjs** | 94 |
+| **Yodoca** | 324 |
+| **Yttri** | 39 |
+| **agent-memory-mcp** | 109 |
+| **knowledge-space** | 225 |
+| **mclaude** | 201 |
 
 <!-- backlinks -->
 
 ---
 
-## Кто ссылается на этот документ (4)
+**Кто ссылается на этот документ (13):**
 - [03-local-first](03-technology-combinations/03-local-first.md)
+- [04-sozialrecht-domain](03-technology-combinations/04-sozialrecht-domain.md)
+- [ENTITIES](ENTITIES.md)
+- [GRAPH](GRAPH.md)
 - [INDEX](INDEX.md)
-- [README](README.md)
-- [TABLES](TABLES.md)
+- [MINDMAP](MINDMAP.md)
+- [NETWORK](NETWORK.md)
+- [OUTLINE](OUTLINE.md)
+- _...ещё 5_
 
 
 <!-- see-also -->
 
 ---
 
+**Смотрите также:**
+- [MINDMAP](MINDMAP.md)
+- [NETWORK](NETWORK.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [GRAPH](GRAPH.md)
+
+
 
 ## Использование
 
 ```bash
-python scripts/improve_glossary.py
+python scripts/improve_run_all.py --group reports
 ```
 
-## Смотрите также
-- [MINDMAP](MINDMAP.md)
-- [GRAPH](GRAPH.md)
-- [NETWORK](NETWORK.md)
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+```bash
+python scripts/improve_semantic_search.py --query "GLOSSARY"
+```
 
-_Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._
+
+Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0.

@@ -192,3 +192,16 @@ python scripts/improve_semantic_search.py --query "3 Empirical Case Study Обу
 - [213-2-what-makes-a-professional-colleague-agent](../../02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
 - [09-relationship-other-agents](09-relationship-other-agents.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
+- [README](README.md)
+

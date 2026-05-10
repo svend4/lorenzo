@@ -61,3 +61,19 @@ python scripts/improve_semantic_search.py --query "Синтез блок кар�
 - [4-summary-authors](../final-ensembles/4-summary-authors.md)
 - [02-memnet](02-memnet.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [concepts](../../glossary/concepts.md)
+- [4-summary-authors](../final-ensembles/4-summary-authors.md)
+- [7-metaphor](../hardware-pairs/7-metaphor.md)
+- _...ещё 2_
+

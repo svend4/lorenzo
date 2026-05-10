@@ -64,3 +64,18 @@ flowchart LR
 - [ai-factory](../components/ai-factory.md)
 
 _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [H-research-to-product-flywheel](H-research-to-product-flywheel.md)
+- [README](README.md)
+

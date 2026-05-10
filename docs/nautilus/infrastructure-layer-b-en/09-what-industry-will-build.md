@@ -81,3 +81,17 @@ python scripts/improve_semantic_search.py --query "What Industry Will Likely Bui
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
 - [06-existing-approximations](06-existing-approximations.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-recursive-insight](08-recursive-insight.md)
+- [README](README.md)
+

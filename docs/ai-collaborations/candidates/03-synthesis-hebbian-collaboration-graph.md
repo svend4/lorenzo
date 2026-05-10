@@ -51,3 +51,19 @@ python scripts/improve_semantic_search.py --query "Синтез хеббовск
 - [01-three-key-candidates](01-three-key-candidates.md)
 
 _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-related-projects-context](02-related-projects-context.md)
+- [README](README.md)
+- [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
+- _...ещё 2_
+

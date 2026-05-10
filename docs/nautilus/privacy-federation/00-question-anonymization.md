@@ -58,3 +58,18 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Насчёт �
 - [01-what-to-anonymize-german-standard](01-what-to-anonymize-german-standard.md)
 - [00-question-two-nautiluses](../../anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-can-it-apply-to-docs](../npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+- [01-what-to-anonymize-german-standard](01-what-to-anonymize-german-standard.md)
+- [02-two-tier-publication](02-two-tier-publication.md)
+- [README](README.md)
+

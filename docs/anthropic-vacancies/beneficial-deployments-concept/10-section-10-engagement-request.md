@@ -84,3 +84,19 @@ python scripts/improve_semantic_search.py --query "Section 10 Engagement request
 - [00-context](00-context.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-context](00-context.md)
+- [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
+- [11-not-and-format](11-not-and-format.md)
+- _...ещё 1_
+

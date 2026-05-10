@@ -36,7 +36,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > projects: ["research-docs", "LiteParse"]
-**Проекты:** Svyazi, AgentFS, knowledge-space, LiteParse, Yodoca, agent-memory-mcp
+**Проекты:** Svyazi[^svyazi], AgentFS[^agentfs], knowledge-space[^knowledge_space], LiteParse, Yodoca[^yodoca], agent-memory-mcp
 
 ---
 
@@ -58,7 +58,7 @@ _Обновлено: 2026-05-10_
 
 
 
-<!-- summary: Forensic document QA с HTML-отчётом и bounding boxes на PDF-страницах — visual grounding для RAG-систем -->
+<!-- summary: Forensic document QA с HTML-отчётом и bounding boxes на PDF-страницах — visual grounding для RAG[^rag]-систем -->
 <!-- tags: liteparse, pdf, forensic, bounding-boxes, visual-citations, spatial-text, html-report, evidence, document-qa -->
 
 ## Профиль проекта
@@ -90,9 +90,9 @@ LiteParse — локальный парсер документов с `spatial t
 
 ## Синергия со Svyazi 2.0
 
-- **EvidenceEnvelope** из PROTOTYPE_SPEC — LiteParse как источник `evidence_chunks` с spatial_ref: `{page, bbox}`
+- **Evidence Envelope** из PROTOTYPE_SPEC — LiteParse как источник `evidence_chunks` с spatial_ref: `{page, bbox}`
 - **Visual grounding** решает проблему «откуда это взялось» в RAG-ответах — каждый факт имеет точную привязку
-- **Bounding boxes** → поле `source_span` в EvidenceEnvelope: `{file, page, bbox, score}`
+- **Bounding boxes** → поле `source_span` в Evidence Envelope: `{file, page, bbox, score}`
 - **HTML отчёт** — human-readable артефакт для ревью перед ApprovalMode("review") в SkillPolicy
 - **Apache 2.0** — прямая коммерческая интеграция
 - **Офлайн** — соответствует принципу local-first в Svyazi (GDPR-safe)
@@ -129,3 +129,31 @@ python scripts/improve_semantic_search.py --query "research docs LiteParse"
 
 ---
 _Создано: 2026-05-10_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [README](README.md)
+- [knowledge-space](knowledge-space.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+
+
+
+<!-- footnotes-added -->
+
+---
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)

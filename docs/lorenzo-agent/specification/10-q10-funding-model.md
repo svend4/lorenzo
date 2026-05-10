@@ -116,3 +116,16 @@ python scripts/improve_semantic_search.py --query "Question 10 Funding model Opt
 - 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 - [00-context-fundamental-questions](00-context-fundamental-questions.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
+- [README](README.md)
+

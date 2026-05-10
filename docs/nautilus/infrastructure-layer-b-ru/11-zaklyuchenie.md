@@ -86,3 +86,19 @@ python scripts/improve_semantic_search.py --query "Заключение"
 - [09-ne-reshaet](09-ne-reshaet.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-zachem-dokument](01-zachem-dokument.md)
+- [04-pochemu-ne-postroeno](04-pochemu-ne-postroeno.md)
+- [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
+- [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
+- _...ещё 4_
+

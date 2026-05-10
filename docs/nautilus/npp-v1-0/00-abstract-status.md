@@ -71,3 +71,15 @@ python scripts/improve_semantic_search.py --query "Abstract Status of This Docum
 ```
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

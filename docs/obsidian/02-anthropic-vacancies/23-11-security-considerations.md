@@ -7,10 +7,27 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 11. Security Considerations
+
+<!-- toc-auto -->
+## Contents
+
+- [11. Security Considerations](#11-security-considerations)
+  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
+  - [11.2. Private Repositories](#112-private-repositories)
+  - [11.3. MCP Exposure](#113-mcp-exposure)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
 
@@ -22,24 +39,6 @@ date: 2026-04-29
 > ✅ **Результат:** Implementation MUST различать public и private registries и не смешивать результаты без явного запроса.
 > 🏷️ **Ключевые слова:** `security`, `considerations`, `portal`, `adapters`, `private`, `untrusted`, `anthropic`, `vacancies`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [11. Security Considerations](#11-security-considerations)
-  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
-  - [11.2. Private Repositories](#112-private-repositories)
-  - [11.3. MCP Exposure](#113-mcp-exposure)
-
-
-<!-- toc-auto -->
-## Contents
-
-- [11. Security Considerations](#11-security-considerations)
-  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
-  - [11.2. Private Repositories](#112-private-repositories)
-  - [11.3. MCP Exposure](#113-mcp-exposure)
 
 
 > [!IMPORTANT]
@@ -90,7 +89,7 @@ Implementation MUST различать public и private registries и не
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[90-15-security-considerations]] (сходство 0.55)
 
 
@@ -98,10 +97,16 @@ Implementation MUST различать public и private registries и не
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Security Considerations"
+```
+
+## Смотрите также
 - [[90-15-security-considerations]]
-- [[123-portal-mcp-py]]
-- [[88-13-rest-api-contract-normative-for-portals]]
+- 123-portal-[[123-portal-mcp-py|mcp-py]]
+- 88-13-[[88-13-rest-api-contract-normative-for-portals|rest-api-contract-normative-for-portals]]
 - [[19-7-portalentry-structure]]
 
 <!-- backlinks-auto -->
@@ -127,3 +132,14 @@ Implementation MUST различать public и private registries и не
 - [[88-13-rest-api-contract-normative-for-portals|13. REST API Contract (Normative for Portals)]] _21%_
 - [[68-about|🇬🇧 About]] _17%_
 - [[81-6-adapter-interface|6. Adapter Interface]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- 123-portal-[[123-portal-mcp-py|mcp-py]]
+- [[18-6-adapter-interface]]
+- [[90-15-security-considerations]]
+- [[README]]
+

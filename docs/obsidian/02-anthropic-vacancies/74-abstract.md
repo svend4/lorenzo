@@ -3,12 +3,34 @@ title: "Abstract"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Abstract
 
+<!-- toc-auto -->
+## Contents
+
+- [Abstract](#abstract)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации --- Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации независимых Git-репозито
@@ -60,7 +82,7 @@ fallback-статуса.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[04-abstract]] (сходство 0.43)
 - [[76-1-introduction]] (сходство 0.13)
 - [[77-2-terminology]] (сходство 0.11)
@@ -70,7 +92,13 @@ fallback-статуса.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [[04-abstract]]
 - [[76-1-introduction]]
 - [[07-2-terminology]]
@@ -83,7 +111,7 @@ fallback-статуса.
 - [[07-2-terminology|2. Terminology]]
 - [[77-2-terminology|2. Terminology]]
 - [[109-3-принципы-консолидации-фаза-c|3. Принципы консолидации (Фаза C)]]
-- [[19-7-portalentry-structure|7. PortalEntry Structure]]
+- 7. [[19-7-portalentry-structure|PortalEntry Structure]]
 - [[04-abstract|Abstract]]
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
 ## Упоминается в
@@ -103,7 +131,20 @@ fallback-статуса.
 - [[77-2-terminology|2. Terminology]] _29%_
 - [[07-2-terminology|2. Terminology]] _25%_
 - [[05-0-status-of-this-document|0. Status of This Document]] _21%_
-- [[08-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] _21%_
+- 3. Registry (`[[08-3-registry-nautilus-json|nautilus.json`)]] _21%_
 - [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _21%_
 - [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] _21%_
-- [[19-7-portalentry-structure|7. PortalEntry Structure]] _21%_
+- 7. [[19-7-portalentry-structure|PortalEntry Structure]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[04-abstract]]
+- [[05-0-status-of-this-document]]
+- [[105-review-methodology-md]]
+- [[109-3-принципы-консолидации-фаза-c]]
+- 125-readme-[[125-readme-mcp-md-инструкция-по-установке|mcp-md-инструкция-по-установке]]
+- [[README]]
+

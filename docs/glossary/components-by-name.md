@@ -202,3 +202,19 @@ python scripts/improve_semantic_search.py --query "Компоненты алфа
 - [PRIORITIES](../PRIORITIES.md)
 - [source-projects](../ai-collaborations/source-projects.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (83):**
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [01-three-key-candidates](../ai-collaborations/candidates/01-three-key-candidates.md)
+- [02-agentops-trace-envelope](../ai-collaborations/continuation/02-agentops-trace-envelope.md)
+- _...ещё 75_
+

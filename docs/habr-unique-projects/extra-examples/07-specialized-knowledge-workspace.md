@@ -66,3 +66,19 @@ python scripts/improve_semantic_search.py --query "Specialized knowledge workspa
 - [09-federated-platform](09-federated-platform.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-vshe-scientific-networking](02-vshe-scientific-networking.md)
+- [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md)
+- _...ещё 6_
+

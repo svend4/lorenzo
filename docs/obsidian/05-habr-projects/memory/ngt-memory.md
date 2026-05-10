@@ -5,10 +5,25 @@ tags:
   - ingestion
   - collaboration
   - habr-projects
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # NGT[^ngt] Memory: ассоциативный граф
+
+<!-- toc-auto -->
+## Contents
+
+- [Статус](#статус)
+  - [Прямые аналоги Svyazi (паттерн «LLM + детерминированный код → структура»)](#прямые-аналоги-svyazi-паттерн-llm-детерминированный-код-структура)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -20,6 +35,10 @@ date: 2026-04-29
 
 
 <!-- autofill-status -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Статус
 
 | Параметр | Значение |
@@ -58,7 +77,7 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[wikontic]] (сходство 0.10)
 
 
@@ -66,11 +85,17 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 
 ---
 
-**Смотрите также:**
-- [[wikontic]]
-- [[02-collaboration-partners]]
-- [[NARRATIVE]]
-- [[yodoca]]
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "NGT ngt Memory ассоциативный граф"
+```
+
+## Смотрите также
+- [[yodoca|Yodoca: консолидация и забывание]]
+- agent-memory-[[agent-memory-mcp|mcp + Memory OS]]
+- [[memnet|MemNet: исследовательская память]]
+- [[wikontic|Wikontic: семантический граф]]
 
 
 
@@ -83,3 +108,14 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 [^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[wikontic]]
+- [[README]]
+- [[04-structuring]]
+- [[PROCESSING_GUIDE]]
+

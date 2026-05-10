@@ -70,3 +70,18 @@ python scripts/improve_semantic_search.py --query "Существующий land
 - [04-mem0-letta-graphiti](../anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
 - [03-section-3-solution-architecture](../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [04-mem0-letta-graphiti](../anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+- [06-final-tier-ranking](../anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+- [README](README.md)
+

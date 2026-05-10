@@ -3,16 +3,31 @@ title: "PORTAL-PROTOCOL.md"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # PORTAL-PROTOCOL.md
+
+<!-- toc-auto -->
+## Contents
+
+- [PORTAL-PROTOCOL.md](#portal-protocolmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > **Status:** Draft (Working Document)
 
 ---
 <!-- tags: collaboration -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 
 
 
@@ -34,7 +49,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[73-portal-protocol-md-v1-1]] (сходство 0.47)
 - [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.38)
 - [[152-ai-coordinated-infrastructure-for-distributed-expe]] (сходство 0.36)
@@ -44,7 +59,13 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
+```
+
+## Смотрите также
 - [[152-ai-coordinated-infrastructure-for-distributed-expe]]
 - [[73-portal-protocol-md-v1-1]]
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
@@ -101,3 +122,19 @@ markdown
 - [[24-12-versioning-policy|12. Versioning Policy]] _25%_
 - [[42-author-contact|Author & Contact]] _25%_
 - [[52-author-contact|Author & Contact]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (22)
+- [[05-0-status-of-this-document]]
+- [[105-review-methodology-md]]
+- [[123-portal-mcp-py]]
+- [[125-readme-mcp-md-инструкция-по-установке]]
+- [[129-примеры-запросов-в-claude]]
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+- [[164-10-appendices]]
+- _...ещё 14_
+

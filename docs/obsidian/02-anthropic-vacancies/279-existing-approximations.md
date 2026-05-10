@@ -5,7 +5,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Existing Approximations
@@ -36,17 +36,6 @@ date: 2026-04-29
 > ✅ **Результат:** Anthropic Projects Provides persistent context across multiple chats grouped around a topic.
 > 🏷️ **Ключевые слова:** `anthropic`, `layer`, `vacancies`, `existing`, `github`, `discussions`, `tools`, `projects`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Existing Approximations](#existing-approximations)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
-  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
-  - [Combination workflows](#combination-workflows)
 
 
 <!-- summary -->
@@ -144,7 +133,7 @@ problem.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[276-the-two-layer-stack-as-it-exists]] (сходство 0.19)
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.16)
 - [[280-the-specific-case-in-front-of-us]] (сходство 0.16)
@@ -154,9 +143,31 @@ problem.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Existing Approximations"
+```
+
+## Смотрите также
 - [[276-the-two-layer-stack-as-it-exists]]
 - [[277-what-s-missing-layer-b]]
 - [[280-the-specific-case-in-front-of-us]]
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[275-why-this-document-exists]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[278-why-this-hasn-t-been-built]]
+- [[280-the-specific-case-in-front-of-us]]
+- [[281-the-recursive-insight]]
+- [[282-what-industry-will-likely-build]]
+- [[284-practical-recommendations-for-the-current-project]]
+- _...ещё 1_
 

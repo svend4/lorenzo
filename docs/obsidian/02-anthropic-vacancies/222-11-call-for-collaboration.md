@@ -4,18 +4,10 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 11. Call for Collaboration
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Liability, professional licensure interaction, quality standards — all need development.
-> 🏷️ **Ключевые слова:** `collaboration`, `professional`, `anthropic`, `vacancies`, `practitioners`, `colleague`, `experts`, `curators`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -28,6 +20,22 @@ date: 2026-04-29
   - [11.5. For Existing Professional Tool Vendors](#115-for-existing-professional-tool-vendors)
   - [11.6. For Researchers](#116-for-researchers)
   - [11.7. For Policy Stakeholders](#117-for-policy-stakeholders)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Liability, professional licensure interaction, quality standards — all need development.
+> 🏷️ **Ключевые слова:** `collaboration`, `professional`, `anthropic`, `vacancies`, `practitioners`, `colleague`, `experts`, `curators`
+>
 
 
 <!-- summary -->
@@ -103,7 +111,7 @@ practitioners during framework development valuable.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[265-12-call-for-collaboration]] (сходство 0.26)
 - [[145-8-call-to-action]] (сходство 0.15)
 - [[223-12-closing]] (сходство 0.13)
@@ -113,9 +121,29 @@ practitioners during framework development valuable.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
+```
+
+## Смотрите также
 - [[265-12-call-for-collaboration]]
 - [[145-8-call-to-action]]
 - [[223-12-closing]]
 - [[180-11-call-for-collaboration]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[145-8-call-to-action]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[210-abstract]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[223-12-closing]]
+- [[README]]
 

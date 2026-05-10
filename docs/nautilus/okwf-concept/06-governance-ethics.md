@@ -1,5 +1,21 @@
 # 6. Governance and Ethics
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Governance and Ethics](#6-governance-and-ethics)
+  - [6.1. Governance Structure](#61-governance-structure)
+  - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
+  - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
+  - [6.4. Regulatory Compliance](#64-regulatory-compliance)
+  - [6.5. Ethical Red Lines](#65-ethical-red-lines)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -146,4 +162,16 @@ python scripts/improve_semantic_search.py --query "6 Governance and Ethics"
 - [04-proposed-infrastructure](04-proposed-infrastructure.md)
 - [09-call-for-partnership](09-call-for-partnership.md)
 - [10-appendices](10-appendices.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 

@@ -1,5 +1,15 @@
 # Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -52,4 +62,20 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Самый и�
 - [00-question-rephrasing](../../../anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
 - [00-question-supply-demand](../../supply-demand/00-question-supply-demand.md)
 - [165-closing](../../../02-anthropic-vacancies/165-closing.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-platform-not-position](../../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [01-response](../practical-observations/01-response.md)
+- [01-response](01-response.md)
+- _...ещё 2_
 

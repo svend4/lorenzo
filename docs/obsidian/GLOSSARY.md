@@ -1,56 +1,99 @@
 ---
 title: "Глоссарий проектов"
 tags:
+  - meta
+  - glossary
+  - index
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Глоссарий проектов
+
+<!-- toc-auto -->
+## Contents
+
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- tags: meta, glossary, index -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
+<!-- summary -->
+> Все проекты, упоминаемые в документах, с количеством файлов.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
 
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 74 |
-| **AIF Handoff** | 30 |
-| **AgentFS** | 101 |
-| **Auto AI Router** | 65 |
-| **AutoResearch** | 66 |
-| **Automerge** | 38 |
-| **CardIndex** | 139 |
-| **Firecrawl** | 22 |
-| **Graph RAG** | 47 |
-| **Hybrid RAG** | 51 |
-| **Legal RAG** | 51 |
-| **LiteLLM** | 49 |
-| **LiteParse** | 80 |
-| **MemNet** | 141 |
-| **Memory OS** | 38 |
-| **NGT Memory** | 95 |
-| **OpenWhispr** | 21 |
-| **RLM-Toolkit** | 11 |
-| **Rufler** | 86 |
-| **SENTINEL** | 69 |
-| **Self-Aware MCP** | 21 |
-| **Sequential** | 119 |
-| **Svyazi** | 315 |
-| **Tool Search** | 50 |
-| **Whisper** | 24 |
-| **Wikontic** | 51 |
-| **Yjs** | 47 |
-| **Yodoca** | 142 |
-| **Yttri** | 19 |
-| **agent-memory-mcp** | 39 |
-| **knowledge-space** | 103 |
-| **mclaude** | 90 |
+| **AI Factory** | 125 |
+| **AIF Handoff** | 55 |
+| **AgentFS** | 181 |
+| **Auto AI Router** | 113 |
+| **AutoResearch** | 97 |
+| **Automerge** | 55 |
+| **CardIndex** | 219 |
+| **Firecrawl** | 37 |
+| **Graph RAG** | 82 |
+| **Hybrid RAG** | 79 |
+| **Legal RAG** | 85 |
+| **LiteLLM** | 82 |
+| **LiteParse** | 135 |
+| **MemNet** | 245 |
+| **Memory OS** | 59 |
+| **NGT Memory** | 157 |
+| **OpenWhispr** | 32 |
+| **RLM-Toolkit** | 18 |
+| **Rufler** | 138 |
+| **SENTINEL** | 128 |
+| **Self-Aware MCP** | 31 |
+| **Sequential** | 167 |
+| **Svyazi** | 465 |
+| **Tool Search** | 85 |
+| **Whisper** | 42 |
+| **Wikontic** | 84 |
+| **Yjs** | 67 |
+| **Yodoca** | 233 |
+| **Yttri** | 33 |
+| **agent-memory-mcp** | 62 |
+| **knowledge-space** | 166 |
+| **mclaude** | 142 |
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[03-local-first]]
+- [[INDEX]]
+- [[README]]
+- [[TABLES]]
+
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
+
+## Использование
+
+```bash
+python scripts/improve_glossary.py
+```
+
+## Смотрите также
 - [[MINDMAP]]
 - [[GRAPH]]
 - [[NETWORK]]
 - [[CONTACT_PRIORITY]]
 
+_Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._

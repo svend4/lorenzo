@@ -136,3 +136,18 @@ python scan_repo.py owner/repo-name
 - [80-5-compatibility-levels](80-5-compatibility-levels.md) (сходство 0.16)
 - [77-2-terminology](77-2-terminology.md) (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [README](README.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [12-onboarding-paths](../nautilus/npp-v1-1/12-onboarding-paths.md)
+

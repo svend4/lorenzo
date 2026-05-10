@@ -1,5 +1,15 @@
 # Это не Тип 1 — потому что профиль не общий для всей профессии. И это не Тип 4 — …
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -147,4 +157,20 @@ python scripts/improve_semantic_search.py --query "Это не Тип 1 пото
 - [03-the-spectrum](03-the-spectrum.md)
 - [01-yogi-metaphor](01-yogi-metaphor.md)
 - [00-question-multiple-mentors](00-question-multiple-mentors.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-response](../community-discussions/habr-article-2-reaction/01-response.md)
+- [00-question-multiple-mentors](00-question-multiple-mentors.md)
+- [01-yogi-metaphor](01-yogi-metaphor.md)
+- _...ещё 2_
 

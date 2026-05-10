@@ -54,7 +54,7 @@ Agent‑first референсная база: 785+ карточек по 26 д�
 
 ```bash
 # Поиск по теме документа
-python scripts/improve_semantic_search.py --query "knowledge space"
+python scripts/improve_semantic_search.py --query "knowledge-space"
 ```
 
 ## Смотрите также

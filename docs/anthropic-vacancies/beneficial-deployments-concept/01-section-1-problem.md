@@ -62,3 +62,19 @@ python scripts/improve_semantic_search.py --query "Section 1 Problem statement C
 - [09-section-9-timeliness](09-section-9-timeliness.md)
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-context](00-context.md)
+- [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md)
+- [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
+- _...ещё 2_
+

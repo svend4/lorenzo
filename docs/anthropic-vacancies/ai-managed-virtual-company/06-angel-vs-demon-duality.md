@@ -1,5 +1,15 @@
 # Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -61,4 +71,18 @@ python scripts/improve_semantic_search.py --query "Почему двойстве
 - [07-current-implementations](07-current-implementations.md)
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
 - [08-pluses-of-model](08-pluses-of-model.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 

@@ -255,3 +255,16 @@ python scripts/improve_semantic_search.py --query "6 Risks Specific to this Cate
 - [10-risks](../composite-skills-agents/10-risks.md)
 - [04-architecture](04-architecture.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-architecture](04-architecture.md)
+- [README](README.md)
+

@@ -163,3 +163,17 @@ python scripts/improve_semantic_search.py --query "2 Target Populations"
 - [03-why-existing-fail](03-why-existing-fail.md)
 - [10-appendices](10-appendices.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-problem-statement](01-problem-statement.md)
+- [03-why-existing-fail](03-why-existing-fail.md)
+- [README](README.md)
+

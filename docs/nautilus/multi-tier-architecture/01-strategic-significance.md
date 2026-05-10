@@ -1,5 +1,15 @@
 # Claude hat geantwortet: Это стратегически значимый вопрос, и ответ на него — да,…
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -432,4 +442,20 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это
 - [01-response](../innovation-transitions/01-response.md)
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
 - 01-[claude-response](../community-discussions/habr-article-1-reaction/01-claude-response.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-claude-response](../community-discussions/habr-article-1-reaction/01-claude-response.md)
+- [01-response](../innovation-transitions/01-response.md)
+- [README](README.md)
+- _...ещё 2_
 

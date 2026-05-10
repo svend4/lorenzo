@@ -219,3 +219,18 @@ API доступно
 - [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
 - [07-prakticheskie-shagi](07-prakticheskie-shagi.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-utochnyonnyy-obyom-ingit](06-utochnyonnyy-obyom-ingit.md)
+- [07-prakticheskie-shagi](07-prakticheskie-shagi.md)
+- [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
+- [README](README.md)
+

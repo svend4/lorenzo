@@ -59,3 +59,19 @@ python scripts/improve_semantic_search.py --query "Шаблон первого �
 - [mvp-plan](../prototype/mvp-plan.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
+- [first-contacts](first-contacts.md)
+- _...ещё 1_
+

@@ -3,12 +3,10 @@ title: "9. Query Flow"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 9. Query Flow
-<!-- tags: anthropic -->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -17,6 +15,20 @@ date: 2026-04-29
   - [9.1. Lifecycle](#91-lifecycle)
   - [9.2. Parallelism](#92-parallelism)
   - [9.3. Error Handling](#93-error-handling)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+<!-- tags: anthropic -->
 
 
 <!-- summary -->
@@ -62,7 +74,7 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[85-10-query-flow]] (сходство 0.72)
 - [[81-6-adapter-interface]] (сходство 0.11)
 - [[22-10-queryresult-structure]] (сходство 0.11)
@@ -72,7 +84,13 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Query Flow"
+```
+
+## Смотрите также
 - [[85-10-query-flow]]
 - [[22-10-queryresult-structure]]
 - [[81-6-adapter-interface]]
@@ -82,7 +100,7 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 ## Упоминается в
 
 - [[85-10-query-flow|10. Query Flow]]
-- [[22-10-queryresult-structure|10. QueryResult Structure]]
+- 10. [[22-10-queryresult-structure|QueryResult Structure]]
 - [[90-15-security-considerations|15. Security Considerations]]
 - [[18-6-adapter-interface|6. Adapter Interface]]
 - [[81-6-adapter-interface|6. Adapter Interface]]
@@ -99,17 +117,28 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 - [[85-10-query-flow|10. Query Flow]] _66%_
 - [[18-6-adapter-interface|6. Adapter Interface]] _33%_
 - [[81-6-adapter-interface|6. Adapter Interface]] _29%_
-- [[22-10-queryresult-structure|10. QueryResult Structure]] _25%_
+- 10. [[22-10-queryresult-structure|QueryResult Structure]] _25%_
 - [[84-9-consensus-algorithm|9. Consensus Algorithm]] _21%_
-- [[82-7-portalentry-structure|7. PortalEntry Structure]] _17%_
+- 7. [[82-7-portalentry-structure|PortalEntry Structure]] _17%_
 - [[86-11-relevance-ranking|11. Relevance Ranking]] _17%_
 ## Связанные документы
 
 - [[85-10-query-flow|10. Query Flow]] _66%_
 - [[18-6-adapter-interface|6. Adapter Interface]] _33%_
-- [[22-10-queryresult-structure|10. QueryResult Structure]] _33%_
+- 10. [[22-10-queryresult-structure|QueryResult Structure]] _33%_
 - [[81-6-adapter-interface|6. Adapter Interface]] _25%_
-- [[82-7-portalentry-structure|7. PortalEntry Structure]] _21%_
+- 7. [[82-7-portalentry-structure|PortalEntry Structure]] _21%_
 - [[84-9-consensus-algorithm|9. Consensus Algorithm]] _21%_
 - [[17-5-compatibility-levels|5. Compatibility Levels]] _17%_
 - [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[18-6-adapter-interface]]
+- [[22-10-queryresult-structure]]
+- [[90-15-security-considerations]]
+- [[README]]
+

@@ -164,3 +164,18 @@ _Создано: 2026-04-29_
 ## Смотрите также
 - [rfc](rfc.md)
 - [`docs/nautilus/npp-v1-1/`](../nautilus/npp-v1-1/)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [agent-spec](agent-spec.md)
+- [rfc](rfc.md)
+

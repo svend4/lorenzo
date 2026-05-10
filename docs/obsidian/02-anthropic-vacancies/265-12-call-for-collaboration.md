@@ -4,21 +4,18 @@ tags:
   - rag
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 12. Call for Collaboration
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** For Curators and Domain Experts Sub-agent registry development needs curated knowledge across many narrow specializations.
-> 🏷️ **Ключевые слова:** `collaboration`, `questions`, `anthropic`, `agents`, `infrastructure`, `vacancies`, `composite`, `practitioners`
->
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
+<!-- alert-added -->
 
-<!-- toc-auto -->
-## Contents
+<!-- toc -->
+## Содержание
 
 - [12. Call for Collaboration](#12-call-for-collaboration)
   - [12.1. For Practitioners](#121-for-practitioners)
@@ -27,6 +24,8 @@ date: 2026-04-29
   - [12.4. For Researchers](#124-for-researchers)
   - [12.5. For Foundation Funders](#125-for-foundation-funders)
   - [12.6. For Policymakers](#126-for-policymakers)
+
+---
 
 
 <!-- summary -->
@@ -109,7 +108,7 @@ match actual technology architecture.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[222-11-call-for-collaboration]] (сходство 0.26)
 - [[264-11-open-questions]] (сходство 0.18)
 - [[262-9-integration-with-okwf-infrastructure]] (сходство 0.17)
@@ -119,9 +118,30 @@ match actual technology architecture.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Call for Collaboration"
+```
+
+## Смотрите также
 - [[222-11-call-for-collaboration]]
 - [[266-13-closing]]
 - [[264-11-open-questions]]
 - [[262-9-integration-with-okwf-infrastructure]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[151-open-knowledge-work-foundation-md]]
+- [[208-professional-colleague-agents-md]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[263-10-risks-specific-to-composite-architectures]]
+- [[266-13-closing]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+- [[README]]
 

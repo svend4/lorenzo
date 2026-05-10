@@ -5,10 +5,15 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Abstract
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- toc -->
 ## Содержание
@@ -23,6 +28,10 @@ date: 2026-04-29
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Each type serves a different need, has different economics, requires different governance, and proceeds at a different pace of deployment.
@@ -82,7 +91,7 @@ their daily work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[223-12-closing]] (сходство 0.30)
 - [[252-abstract]] (сходство 0.18)
 - [[220-9-relationship-to-other-agent-types]] (сходство 0.17)
@@ -92,7 +101,13 @@ their daily work.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [[223-12-closing]]
 - [[252-abstract]]
 - [[220-9-relationship-to-other-agent-types]]
@@ -140,3 +155,19 @@ their daily work.
 - [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _29%_
 - [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _25%_
 - [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- [[151-open-knowledge-work-foundation-md]]
+- [[168-abstract]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[181-12-closing]]
+- [[208-professional-colleague-agents-md]]
+- [[211-table-of-contents]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- _...ещё 10_
+

@@ -1,5 +1,15 @@
 # Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -69,4 +79,20 @@ python scripts/improve_semantic_search.py --query "Вопрос разделит
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
 - [09-minuses-and-risks](09-minuses-and-risks.md)
 - [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- [09-minuses-and-risks](09-minuses-and-risks.md)
+- _...ещё 4_
 

@@ -82,7 +82,12 @@ def extract_narrative_points(text: str) -> list[tuple[str, str]]:
 
 def get_summary(text: str, max_words: int = 60) -> str:
     text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
+    text = re.sub(r'<!--.*?-->', '', text, flags=re.DOTALL)
     text = re.sub(r'^#{1,6}\s+.*$', '', text, flags=re.MULTILINE)
+    # Strip markdown links (keep link text only)
+    text = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', text)
+    # Strip bullet list lines starting with - [ or - [text]
+    text = re.sub(r'^[-*]\s+\[.*', '', text, flags=re.MULTILINE)
     text = re.sub(r'\s+', ' ', text).strip()
     words = text.split()
     return " ".join(words[:max_words]) + ("…" if len(words) > max_words else "")
@@ -116,7 +121,8 @@ def main():
                 lines.append(f"- **{label}:** {point}")
             lines.append("")
 
-        lines.append(f"_[→ Читать полностью]({doc_rel})_\n")
+        rel_link = doc_rel[len("docs/"):] if doc_rel.startswith("docs/") else doc_rel
+        lines.append(f"_[→ Читать полностью]({rel_link})_\n")
         lines.append("---\n")
 
     # Итоговый вывод
@@ -128,7 +134,7 @@ def main():
         "3. **MVP** — минимально жизнеспособный прототип за 12-18 месяцев",
         "4. **Команда** — распределённые авторы на Хабре и GitHub",
         "5. **Следующий шаг** — контакт с авторами ключевых компонентов\n",
-        "_Полная дорожная карта: [docs/01-svyazi/12-roadmap.md](docs/01-svyazi/12-roadmap.md)_\n",
+        "_Полная дорожная карта: [01-svyazi/12-roadmap.md](01-svyazi/12-roadmap.md)_\n",
     ]
 
     out = DOCS / "NARRATIVE.md"

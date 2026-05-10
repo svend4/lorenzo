@@ -72,3 +72,19 @@ python scripts/improve_semantic_search.py --query "Ансамбль 7 Domain Age
 - [6-continuous-eval-loop](6-continuous-eval-loop.md)
 - [3-forensic-rag](3-forensic-rag.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+- [3-forensic-rag](3-forensic-rag.md)
+- _...ещё 6_
+

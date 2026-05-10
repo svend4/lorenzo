@@ -3,12 +3,34 @@ title: "Author & Contact"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Author & Contact
 
+<!-- toc-auto -->
+## Contents
+
+- [Author & Contact](#author-contact)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (16)](#кто-ссылается-на-этот-документ-16)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > **Контакт:** Issues в `github.com/svend4/meta`
 
 ---
@@ -33,7 +55,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[52-author-contact]] (сходство 0.37)
 - [[42-author-contact]] (сходство 0.37)
 - [[03-portal-protocol-md]] (сходство 0.15)
@@ -43,7 +65,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Author Contact"
+```
+
+## Смотрите также
 - [[42-author-contact]]
 - [[52-author-contact]]
 - [[25-13-reference-implementation]]
@@ -95,3 +123,19 @@ date: 2026-04-29
 - [[24-12-versioning-policy|12. Versioning Policy]] _29%_
 - [[35-passports-info1-md|passports/info1.md]] _29%_
 - [[52-author-contact|Author & Contact]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [[03-portal-protocol-md]]
+- [[05-0-status-of-this-document]]
+- [[16-history]]
+- [[24-12-versioning-policy]]
+- [[25-13-reference-implementation]]
+- [[338-ссылки]]
+- 35-passports-[[35-passports-info1-md|info1-md]]
+- [[353-что-ты-не-можешь-делать-вообще]]
+- _...ещё 8_
+

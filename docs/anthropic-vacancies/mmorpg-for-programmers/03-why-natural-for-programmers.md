@@ -1,5 +1,15 @@
 # Почему именно для программистов это работает естественно
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -95,4 +105,19 @@ python scripts/improve_semantic_search.py --query "Почему именно д�
 - [01-response](../../nautilus/innovation-transitions/01-response.md)
 - [05-polymath-project-tao-comparison](../ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
 - [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [02-existing-niche](02-existing-niche.md)
+- [05-minuses-as-business](05-minuses-as-business.md)
+- [README](README.md)
 

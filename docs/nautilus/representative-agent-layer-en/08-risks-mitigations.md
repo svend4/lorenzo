@@ -1,5 +1,24 @@
 # 8. Risks and Mitigations
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [8. Risks and Mitigations](#8-risks-and-mitigations)
+  - [8.1. Risk: Agency Capture](#81-risk-agency-capture)
+  - [8.2. Risk: Adversarial Manipulation by Counterparties](#82-risk-adversarial-manipulation-by-counterparties)
+  - [8.3. Risk: Principal Misunderstanding Agent Capability](#83-risk-principal-misunderstanding-agent-capability)
+  - [8.4. Risk: Privacy Violations](#84-risk-privacy-violations)
+  - [8.5. Risk: Inequitable Access](#85-risk-inequitable-access)
+  - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
+  - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
+  - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -154,4 +173,18 @@ python scripts/improve_semantic_search.py --query "8 Risks and Mitigations"
 - [10-open-questions](10-open-questions.md)
 - [05-architectural-specification](05-architectural-specification.md)
 - [06-ethical-framework](06-ethical-framework.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-ethical-framework](06-ethical-framework.md)
+- [10-open-questions](10-open-questions.md)
+- [README](README.md)
 

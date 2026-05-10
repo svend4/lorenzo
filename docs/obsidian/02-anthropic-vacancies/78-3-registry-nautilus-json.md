@@ -3,7 +3,7 @@ title: "3. Registry (`nautilus.json`)"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 3. Registry (`nautilus.json`)
@@ -11,13 +11,13 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [3. Registry (`nautilus.json`)](#3-registry-nautilusjson)
+- 3. Registry (`[nautilus.json`)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
   - [3.4. Optional Fields](#34-optional-fields)
   - [3.5. Validation Rules](#35-validation-rules)
-  - [3.6. AutoAdapter Special Case](#36-autoadapter-special-case)
+  - 3.6. [AutoAdapter Special Case](#36-autoadapter-special-case)
 
 ---
 
@@ -32,10 +32,34 @@ date: 2026-04-29
 >
 
 
-<!-- toc-auto -->
-## Contents
-
-- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+  - [3.6. AutoAdapter Special Case](#36-autoadapter-special-case)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+  - 3.6. [AutoAdapter Special Case](#36-autoadapter-special-case)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+  - 3.6. [AutoAdapter Special Case](#36-autoadapter-special-case)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+  - 3.6. [AutoAdapter Special Case](#36-autoadapter-special-case)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
@@ -54,8 +78,6 @@ date: 2026-04-29
 
 ---
 <!-- tags: architecture -->
-
-
 
 
 ## 3. Registry (`nautilus.json`)
@@ -154,7 +176,7 @@ Onboarding Path C (self-declaring repo).
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.52)
 - [[77-2-terminology]] (сходство 0.16)
 - [[07-2-terminology]] (сходство 0.15)
@@ -164,9 +186,19 @@ Onboarding Path C (self-declaring repo).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [[82-7-portalentry-structure]]
 - [[77-2-terminology]]
 - [[07-2-terminology]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[104-appendix-c-references]]
+- [[34-appendix-b-change-log]]
+- [[README]]
 

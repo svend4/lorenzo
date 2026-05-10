@@ -176,3 +176,19 @@ python scripts/improve_self.py --enrich --apply     # применяет
 - [119-appendix-b-примеры-расхождений-и-их-разрешения](../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
 - [132-planned-v0-2-0](../02-anthropic-vacancies/132-planned-v0-2-0.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [CONCEPTS](../CONCEPTS.md)
+- [METHODOLOGY](../METHODOLOGY.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [01-concept](01-concept.md)
+- _...ещё 4_
+

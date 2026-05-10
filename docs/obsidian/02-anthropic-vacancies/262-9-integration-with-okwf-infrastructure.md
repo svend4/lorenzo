@@ -5,7 +5,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 9. Integration with OKWF Infrastructure
@@ -170,7 +170,7 @@ broader applicability.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[260-7-economics-of-combinatorial-replication]] (сходство 0.21)
 - [[266-13-closing]] (сходство 0.20)
 - [[257-4-the-sub-agent-registry]] (сходство 0.18)
@@ -180,9 +180,31 @@ broader applicability.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Integration with OKWF Infrastructure"
+```
+
+## Смотрите также
 - [[260-7-economics-of-combinatorial-replication]]
 - [[266-13-closing]]
 - [[257-4-the-sub-agent-registry]]
 - [[memnet|316-8-implications-for-[nautilus]]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (17)
+- [[134-the-double-triangle-architecture-md]]
+- [[143-6-four-deployment-domains]]
+- [[145-8-call-to-action]]
+- [[148-appendix-a-glossary]]
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[174-5-architectural-specification]]
+- [[208-professional-colleague-agents-md]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- _...ещё 9_
 

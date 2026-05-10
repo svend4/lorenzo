@@ -1,5 +1,15 @@
 # 00 Intro
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -140,4 +150,17 @@ python scripts/improve_semantic_search.py --query "00 Intro"
 - [289-инфраструктура-для-ai-совместной-интеллектуальной-](../../02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
 - [324-ingit-как-cowork-интегрированная-подложка-рабочего](../../02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
 - [12-blagodarnosti-ssylki](12-blagodarnosti-ssylki.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [12-blagodarnosti-ssylki](12-blagodarnosti-ssylki.md)
+- [README](README.md)
 

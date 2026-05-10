@@ -76,3 +76,19 @@ python scripts/improve_semantic_search.py --query "HW NL2Workflow Supervisor Orc
 - [10-profession-specific-workflows](10-profession-specific-workflows.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-question-habr-examples](00-question-habr-examples.md)
+- [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
+- [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
+- _...ещё 1_
+

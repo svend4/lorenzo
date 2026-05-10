@@ -54,3 +54,19 @@ python scripts/improve_semantic_search.py --query "Три точки входа 
 - [05-minuses-as-business](../mmorpg-for-programmers/05-minuses-as-business.md)
 - [07-current-implementations](07-current-implementations.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-existing-landscape](01-existing-landscape.md)
+- [04-what-to-do](04-what-to-do.md)
+- [07-current-implementations](07-current-implementations.md)
+- _...ещё 2_
+

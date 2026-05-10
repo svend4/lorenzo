@@ -219,3 +219,16 @@ python scripts/improve_semantic_search.py --query "3 Эмпирический к
 - [233-2-что-делает-агента-профессиональным-коллегой](../../02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)
 - [06-riski](06-riski.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [README](README.md)
+

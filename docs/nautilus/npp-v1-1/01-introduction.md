@@ -1,5 +1,21 @@
 # 1. Introduction (Motivation, Design Goals, Non-Goals, Terminology, Changes from v1.0)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [1. Introduction](#1-introduction)
+  - [1.1. Motivation](#11-motivation)
+  - [1.2. Design Goals](#12-design-goals)
+  - [1.3. Non-Goals](#13-non-goals)
+  - [1.4. Terminology](#14-terminology)
+  - [1.5. Changes from v1.0](#15-changes-from-v10)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -119,4 +135,18 @@ python scripts/improve_semantic_search.py --query "1 Introduction Motivation Des
 - [06-1-introduction](../../02-anthropic-vacancies/06-1-introduction.md)
 - [00-abstract-status](00-abstract-status.md)
 - [02-terminology](02-terminology.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract-status](00-abstract-status.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
 

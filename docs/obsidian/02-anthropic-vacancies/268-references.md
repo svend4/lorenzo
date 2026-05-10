@@ -5,21 +5,18 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # References
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources for Composite Architecture(foundational-sources-for-composite-architecture) - Pattern of Composite Mastery(patte
-> 🏷️ **Ключевые слова:** `architecture`, `anthropic`, `vacancies`, `references`, `composite`, `svend`, `companion`, `press`
->
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
+<!-- alert-added -->
 
-<!-- toc-auto -->
-## Contents
+<!-- toc -->
+## Содержание
 
 - [References](#references)
   - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
@@ -27,6 +24,8 @@ date: 2026-04-29
   - [Multi-Agent Coordination](#multi-agent-coordination)
   - [Practical Examples](#practical-examples)
   - [Companion Documents in This Series](#companion-documents-in-this-series)
+
+---
 
 
 <!-- summary -->
@@ -92,7 +91,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.20)
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.18)
 - [[225-references]] (сходство 0.18)
@@ -102,9 +101,31 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
+## Смотрите также
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 - [[274-the-missing-middle-layer-between-chat-and-code]]
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 - [[184-appendix-a-connection-to-companion-papers]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[137-table-of-contents]]
+- [[146-acknowledgments]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- [[267-acknowledgments]]
+- [[274-the-missing-middle-layer-between-chat-and-code]]
+- _...ещё 3_
 

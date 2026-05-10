@@ -55,3 +55,19 @@ python scripts/improve_semantic_search.py --query "Пара 1 LLM gateway Self h
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
 - [1-one-person-one-company](../final-ensembles/1-one-person-one-company.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [2-document-rag](2-document-rag.md)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
+- _...ещё 2_
+

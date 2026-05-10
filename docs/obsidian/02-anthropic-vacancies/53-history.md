@@ -3,12 +3,34 @@ title: "History"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # History
 
+<!-- toc-auto -->
+## Contents
+
+- [History](#history)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Создан:** [? дата первого коммита]
 
 ---
@@ -44,7 +66,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[63-history]] (сходство 0.18)
 - [[48-content-overview]] (сходство 0.18)
 
@@ -53,7 +75,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "History"
+```
+
+## Смотрите также
 - [[48-content-overview]]
 - [[63-history]]
 - [[62-author-contact]]
@@ -92,3 +120,18 @@ date: 2026-04-29
 - [[75-0-status-of-this-document|0. Status of This Document]] _29%_
 - [[93-18-reference-implementation|18. Reference Implementation]] _29%_
 - [[62-author-contact|Author & Contact]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[05-0-status-of-this-document]]
+- [[25-13-reference-implementation]]
+- [[42-author-contact]]
+- [[62-author-contact]]
+- [[63-history]]
+- [[75-0-status-of-this-document]]
+- [[93-18-reference-implementation]]
+- [[README]]
+

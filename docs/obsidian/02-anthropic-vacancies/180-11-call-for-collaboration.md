@@ -3,18 +3,29 @@ title: "11. Call for Collaboration"
 tags:
   - ingestion
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 11. Call for Collaboration
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Pilot partnerships allow the technology to develop in service of actual need rather than imagined need.
-> 🔧 **Подход:** Your needs should drive design decisions.
-> 🏷️ **Ключевые слова:** `collaboration`, `organizations`, `invite`, `anthropic`, `vacancies`, `social`, `critics`, `researchers`
->
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [11. Call for Collaboration](#11-call-for-collaboration)
+  - [11.1. For AI Researchers](#111-for-ai-researchers)
+  - [11.2. For Social Service Organizations](#112-for-social-service-organizations)
+  - [11.3. For Disability Rights Organizations](#113-for-disability-rights-organizations)
+  - [11.4. For Foundation Funders](#114-for-foundation-funders)
+  - [11.5. For Policymakers](#115-for-policymakers)
+  - [11.6. For Potential Principals](#116-for-potential-principals)
+  - [11.7. For Critics](#117-for-critics)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+---
 
 
 <!-- toc-auto -->
@@ -28,6 +39,23 @@ date: 2026-04-29
   - [11.5. For Policymakers](#115-for-policymakers)
   - [11.6. For Potential Principals](#116-for-potential-principals)
   - [11.7. For Critics](#117-for-critics)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Pilot partnerships allow the technology to develop in service of actual need rather than imagined need.
+> 🔧 **Подход:** Your needs should drive design decisions.
+> 🏷️ **Ключевые слова:** `collaboration`, `organizations`, `invite`, `anthropic`, `vacancies`, `social`, `critics`, `researchers`
+>
 
 
 <!-- summary -->
@@ -107,7 +135,7 @@ prefer honest critics to unreserved enthusiasts.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[265-12-call-for-collaboration]] (сходство 0.16)
 - [[178-9-phased-rollout-strategy]] (сходство 0.14)
 - [[223-12-closing]] (сходство 0.13)
@@ -117,9 +145,26 @@ prefer honest critics to unreserved enthusiasts.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
+```
+
+## Смотрите также
 - [[265-12-call-for-collaboration]]
 - [[178-9-phased-rollout-strategy]]
 - [[223-12-closing]]
 - [[168-abstract]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[161-7-phased-rollout-plan]]
+- [[168-abstract]]
+- [[223-12-closing]]
+- [[README]]
 

@@ -74,3 +74,19 @@ python scripts/improve_semantic_search.py --query "Ансамбль 9 Ambient Te
 - [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
 - [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+- [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
+- _...ещё 2_
+

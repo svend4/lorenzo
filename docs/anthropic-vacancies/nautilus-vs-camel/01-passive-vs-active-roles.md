@@ -54,3 +54,19 @@ python scripts/improve_semantic_search.py --query "Пассивный vs акт�
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-camel-vs-nautilus](00-question-camel-vs-nautilus.md)
+- [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
+- [05-what-to-do-right-now](05-what-to-do-right-now.md)
+- _...ещё 1_
+

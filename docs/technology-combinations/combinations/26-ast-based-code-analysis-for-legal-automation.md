@@ -101,3 +101,19 @@ python scripts/improve_semantic_search.py --query "Комбинация 26 AST B
 - [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
+- [27-hybrid-rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
+- [README](README.md)
+- _...ещё 1_
+

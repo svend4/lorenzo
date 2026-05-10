@@ -63,3 +63,19 @@ transitional state:
 - [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [118-appendix-a-шаблон-для-header-warning](../../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [SENTIMENT](../../SENTIMENT.md)
+- [04-pluses-as-business](../../anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
+- [09-ne-reshaet](../infrastructure-layer-b-ru/09-ne-reshaet.md)
+- _...ещё 9_
+

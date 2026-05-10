@@ -1,448 +1,440 @@
 ---
 title: "Отчёт о дублировании"
 tags:
+  - meta
+  - quality
+  - deduplication
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Отчёт о дублировании
+
+
+<!-- tags: meta, quality, deduplication -->
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
 
 <!-- toc -->
 ## Содержание
 
 - [Похожие файлы (Jaccard ≥ 0.5)](#похожие-файлы-jaccard-05)
-  - [100% — `docs/02-anthropic-vacancies/16-history.md` vs `docs/nautilus/npp-v1-0/04-passport.md`](#100-docs02-anthropic-vacancies16-historymd-vs-docsnautilusnpp-v1-004-passportmd)
-  - [88% — `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` vs `docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md`](#88-docs02-anthropic-vacancies192-2-исторические-прецеденты-агенты-как-цивилизационнmd-vs-docsnautilusrepresentative-agent-layer-ru02-istoricheskie-pretsedentymd)
-  - [82% — `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` vs `docs/nautilus/representative-agent-layer-en/04-ten-domains.md`](#82-docs02-anthropic-vacancies173-4-ten-domains-of-applicationmd-vs-docsnautilusrepresentative-agent-layer-en04-ten-domainsmd)
-  - [82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` vs `docs/nautilus/composite-skills-agents/08-seven-domains.md`](#82-docs02-anthropic-vacancies261-8-seven-domains-of-applicationmd-vs-docsnautiluscomposite-skills-agents08-seven-domainsmd)
-  - [81% — `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` vs `docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md`](#81-docs02-anthropic-vacancies194-4-десять-областей-примененияmd-vs-docsnautilusrepresentative-agent-layer-ru04-desyat-oblasteymd)
-  - [79% — `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` vs `docs/nautilus/composite-skills-agents/03-what-makes-csa.md`](#79-docs02-anthropic-vacancies256-3-what-makes-a-composite-skills-agentmd-vs-docsnautiluscomposite-skills-agents03-what-makes-csamd)
-  - [79% — `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` vs `docs/nautilus/composite-skills-agents/10-risks.md`](#79-docs02-anthropic-vacancies263-10-risks-specific-to-composite-architecturesmd-vs-docsnautiluscomposite-skills-agents10-risksmd)
-  - [78% — `docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md` vs `docs/nautilus/professional-colleague-agents-ru/06-riski.md`](#78-docs02-anthropic-vacancies237-6-риски-специфичные-для-этой-категорииmd-vs-docsnautilusprofessional-colleague-agents-ru06-riskimd)
-  - [78% — `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` vs `docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md`](#78-docs02-anthropic-vacancies255-2-the-twenty-one-teachers-patternmd-vs-docsnautiluscomposite-skills-agents02-twenty-one-teachers-patternmd)
-  - [77% — `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` vs `docs/nautilus/okwf-concept/04-proposed-infrastructure.md`](#77-docs02-anthropic-vacancies158-4-proposed-infrastructuremd-vs-docsnautilusokwf-concept04-proposed-infrastructuremd)
-  - [76% — `docs/02-anthropic-vacancies/156-2-target-populations.md` vs `docs/nautilus/okwf-concept/02-target-populations.md`](#76-docs02-anthropic-vacancies156-2-target-populationsmd-vs-docsnautilusokwf-concept02-target-populationsmd)
-  - [76% — `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md` vs `docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md`](#76-docs02-anthropic-vacancies235-4-архитектура-профессиональных-коллег-агентовmd-vs-docsnautilusprofessional-colleague-agents-ru04-arkhitekturamd)
-  - [75% — `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` vs `docs/nautilus/okwf-concept/07-phased-rollout.md`](#75-docs02-anthropic-vacancies161-7-phased-rollout-planmd-vs-docsnautilusokwf-concept07-phased-rolloutmd)
-  - [75% — `docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` vs `docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md`](#75-docs02-anthropic-vacancies234-3-эмпирический-кейс-обучайmd-vs-docsnautilusprofessional-colleague-agents-ru03-keys-obuchaymd)
-  - [73% — `docs/02-anthropic-vacancies/162-8-risk-analysis.md` vs `docs/nautilus/okwf-concept/08-risk-analysis.md`](#73-docs02-anthropic-vacancies162-8-risk-analysismd-vs-docsnautilusokwf-concept08-risk-analysismd)
-  - [73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` vs `docs/nautilus/double-triangle-architecture/07-open-questions.md`](#73-docs02-anthropic-vacancies144-7-open-questionsmd-vs-docsnautilusdouble-triangle-architecture07-open-questionsmd)
-  - [73% — `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` vs `docs/nautilus/representative-agent-layer-en/02-historical-precedents.md`](#73-docs02-anthropic-vacancies171-2-historical-precedents-agents-as-civilizational-imd-vs-docsnautilusrepresentative-agent-layer-en02-historical-precedentsmd)
-  - [73% — `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md` vs `docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md`](#73-docs02-anthropic-vacancies195-5-архитектурная-спецификацияmd-vs-docsnautilusrepresentative-agent-layer-ru05-arkhitekturnaya-spetsifikatsiyamd)
-  - [72% — `docs/02-anthropic-vacancies/145-8-call-to-action.md` vs `docs/nautilus/double-triangle-architecture/08-call-to-action.md`](#72-docs02-anthropic-vacancies145-8-call-to-actionmd-vs-docsnautilusdouble-triangle-architecture08-call-to-actionmd)
-  - [72% — `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` vs `docs/nautilus/professional-colleague-agents-en/04-architecture.md`](#72-docs02-anthropic-vacancies215-4-architecture-of-professional-colleague-agentsmd-vs-docsnautilusprofessional-colleague-agents-en04-architecturemd)
-  - [71% — `docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` vs `docs/nautilus/composite-skills-agents/09-okwf-integration.md`](#71-docs02-anthropic-vacancies262-9-integration-with-okwf-infrastructuremd-vs-docsnautiluscomposite-skills-agents09-okwf-integrationmd)
-  - [71% — `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` vs `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md`](#71-docs02-anthropic-vacancies233-2-что-делает-агента-профессиональным-коллегойmd-vs-docsnautilusprofessional-colleague-agents-ru02-chto-delaet-pkamd)
-  - [71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` vs `docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md`](#71-docs02-anthropic-vacancies191-1-синдром-золушки-почему-качество-остаётся-невидимmd-vs-docsnautilusrepresentative-agent-layer-ru01-sindrom-zolushkimd)
-  - [69% — `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` vs `docs/nautilus/composite-skills-agents/05-configuration-ensembles.md`](#69-docs02-anthropic-vacancies258-5-configuration-how-principals-build-their-ensemblmd-vs-docsnautiluscomposite-skills-agents05-configuration-ensemblesmd)
-  - [69% — `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` vs `docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md`](#69-docs02-anthropic-vacancies143-6-four-deployment-domainsmd-vs-docsnautilusdouble-triangle-architecture06-four-deployment-domainsmd)
-  - [69% — `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` vs `docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md`](#69-docs02-anthropic-vacancies254-1-why-the-binary-view-is-incompletemd-vs-docsnautiluscomposite-skills-agents01-why-binary-incompletemd)
-  - [69% — `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` vs `docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md`](#69-docs02-anthropic-vacancies142-5-pattern-library-as-bridge-between-trianglesmd-vs-docsnautilusdouble-triangle-architecture05-pattern-library-bridgemd)
-  - [69% — `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` vs `docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md`](#69-docs02-anthropic-vacancies213-2-what-makes-a-professional-colleague-agentmd-vs-docsnautilusprofessional-colleague-agents-en02-what-makes-pcamd)
-  - [67% — `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` vs `docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md`](#67-docs02-anthropic-vacancies292-что-отсутствует-слой-bmd-vs-docsnautilusinfrastructure-layer-b-ru03-otsutstvuet-sloy-bmd)
-  - [67% — `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` vs `docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md`](#67-docs02-anthropic-vacancies277-what-s-missing-layer-bmd-vs-docsnautilusinfrastructure-layer-b-en04-whats-missing-layer-bmd)
+  - [100% — `docs/DEPENDABOT.md` vs `docs/obsidian/DEPENDABOT.md`](#100-docsdependabotmd-vs-docsobsidiandependabotmd)
+  - [100% — `docs/TECH_RADAR.md` vs `docs/obsidian/TECH_RADAR.md`](#100-docstech_radarmd-vs-docsobsidiantech_radarmd)
+  - [100% — `docs/SIMILAR.md` vs `docs/obsidian/SIMILAR.md`](#100-docssimilarmd-vs-docsobsidiansimilarmd)
+  - [100% — `docs/DIGEST_WEEKLY.md` vs `docs/obsidian/DIGEST_WEEKLY.md`](#100-docsdigest_weeklymd-vs-docsobsidiandigest_weeklymd)
+  - [100% — `docs/CHANGELOG_AUTO.md` vs `docs/obsidian/CHANGELOG_AUTO.md`](#100-docschangelog_automd-vs-docsobsidianchangelog_automd)
+  - [100% — `docs/TOPIC_MODEL.md` vs `docs/obsidian/TOPIC_MODEL.md`](#100-docstopic_modelmd-vs-docsobsidiantopic_modelmd)
+  - [100% — `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` vs `docs/obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md`](#100-docs04-ai-collaborations12-дорожная-карта-прототипа-следующей-итерацииmd-vs-docsobsidian04-ai-collaborations12-дорожная-карта-прототипа-следующей-итерацииmd)
+  - [100% — `docs/obsidian/contacts/README.md` vs `docs/contacts/README.md`](#100-docsobsidiancontactsreadmemd-vs-docscontactsreadmemd)
+  - [100% — `docs/obsidian/05-habr-projects/02-collaboration-partners.md` vs `docs/05-habr-projects/02-collaboration-partners.md`](#100-docsobsidian05-habr-projects02-collaboration-partnersmd-vs-docs05-habr-projects02-collaboration-partnersmd)
+  - 100% — `docs/obsidian/02-[anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` vs `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md`](#100-docsobsidian02-anthropic-vacancies357-твоя-коммуникация-в-outreachmd-vs-docs02-anthropic-vacancies357-твоя-коммуникация-в-outreachmd)
+  - 100% — `docs/obsidian/02-[anthropic-vacancies/349-твоя-личность.md` vs `docs/02-anthropic-vacancies/349-твоя-личность.md`](#100-docsobsidian02-anthropic-vacancies349-твоя-личностьmd-vs-docs02-anthropic-vacancies349-твоя-личностьmd)
+  - 100% — `docs/obsidian/02-[anthropic-vacancies/197-7-управление-и-надзор.md` vs `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md`](#100-docsobsidian02-anthropic-vacancies197-7-управление-и-надзорmd-vs-docs02-anthropic-vacancies197-7-управление-и-надзорmd)
+  - 100% — `docs/obsidian/02-[anthropic-vacancies/58-content-overview.md` vs `docs/02-anthropic-vacancies/58-content-overview.md`](#100-docsobsidian02-anthropic-vacancies58-content-overviewmd-vs-docs02-anthropic-vacancies58-content-overviewmd)
+  - [97% — `docs/CLUSTERS.md` vs `docs/obsidian/CLUSTERS.md`](#97-docsclustersmd-vs-docsobsidianclustersmd)
+  - 92% — `docs/obsidian/01-[svyazi/01-executive-summary.md` vs `docs/01-svyazi/01-executive-summary.md`](#92-docsobsidian01-svyazi01-executive-summarymd-vs-docs01-svyazi01-executive-summarymd)
+  - 91% — `docs/obsidian/02-[anthropic-vacancies/241-10-открытые-вопросы.md` vs `docs/02-anthropic-vacancies/241-10-открытые-вопросы.md`](#91-docsobsidian02-anthropic-vacancies241-10-открытые-вопросыmd-vs-docs02-anthropic-vacancies241-10-открытые-вопросыmd)
+  - 90% — `docs/obsidian/02-[anthropic-vacancies/196-6-этическая-рамка.md` vs `docs/02-anthropic-vacancies/196-6-этическая-рамка.md`](#90-docsobsidian02-anthropic-vacancies196-6-этическая-рамкаmd-vs-docs02-anthropic-vacancies196-6-этическая-рамкаmd)
+  - 90% — `docs/obsidian/02-[anthropic-vacancies/242-11-призыв-к-сотрудничеству.md` vs `docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md`](#90-docsobsidian02-anthropic-vacancies242-11-призыв-к-сотрудничествуmd-vs-docs02-anthropic-vacancies242-11-призыв-к-сотрудничествуmd)
+  - 89% — `docs/obsidian/02-[anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` vs `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md`](#89-docsobsidian02-anthropic-vacancies192-2-исторические-прецеденты-агенты-как-цивилизационнmd-vs-docs02-anthropic-vacancies192-2-исторические-прецеденты-агенты-как-цивилизационнmd)
+  - 88% — `docs/obsidian/02-[anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` vs `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md`](#88-docsobsidian02-anthropic-vacancies115-8-ограничения-и-открытые-вопросыmd-vs-docs02-anthropic-vacancies115-8-ограничения-и-открытые-вопросыmd)
+  - 86% — `docs/obsidian/02-[anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md` vs `docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md`](#86-docsobsidian02-anthropic-vacancies333-7-практические-первые-шаги-в-этом-месяцеmd-vs-docs02-anthropic-vacancies333-7-практические-первые-шаги-в-этом-месяцеmd)
+  - 86% — `docs/obsidian/02-[anthropic-vacancies/293-почему-это-не-было-построено.md` vs `docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md`](#86-docsobsidian02-anthropic-vacancies293-почему-это-не-было-построеноmd-vs-docs02-anthropic-vacancies293-почему-это-не-было-построеноmd)
+  - 84% — `docs/obsidian/02-[anthropic-vacancies/158-4-proposed-infrastructure.md` vs `docs/nautilus/okwf-concept/04-proposed-infrastructure.md`](#84-docsobsidian02-anthropic-vacancies158-4-proposed-infrastructuremd-vs-docsnautilusokwf-concept04-proposed-infrastructuremd)
+  - 83% — `docs/obsidian/02-[anthropic-vacancies/107-1-контекст-и-мотивация.md` vs `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md`](#83-docsobsidian02-anthropic-vacancies107-1-контекст-и-мотивацияmd-vs-docs02-anthropic-vacancies107-1-контекст-и-мотивацияmd)
+  - 83% — `docs/obsidian/02-[anthropic-vacancies/198-8-риски-и-меры-противодействия.md` vs `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md`](#83-docsobsidian02-anthropic-vacancies198-8-риски-и-меры-противодействияmd-vs-docs02-anthropic-vacancies198-8-риски-и-меры-противодействияmd)
+  - 83% — `docs/obsidian/02-[anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` vs `docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md`](#83-docsobsidian02-anthropic-vacancies192-2-исторические-прецеденты-агенты-как-цивилизационнmd-vs-docsnautilusrepresentative-agent-layer-ru02-istoricheskie-pretsedentymd)
+  - 83% — `docs/obsidian/02-[anthropic-vacancies/189-аннотация.md` vs `docs/02-anthropic-vacancies/189-аннотация.md`](#83-docsobsidian02-anthropic-vacancies189-аннотацияmd-vs-docs02-anthropic-vacancies189-аннотацияmd)
+  - 83% — `docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md` vs `docs/02-[anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md`](#83-docsnautilusrepresentative-agent-layer-ru02-istoricheskie-pretsedentymd-vs-docs02-anthropic-vacancies192-2-исторические-прецеденты-агенты-как-цивилизационнmd)
+  - 83% — `docs/obsidian/02-[anthropic-vacancies/194-4-десять-областей-применения.md` vs `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md`](#83-docsobsidian02-anthropic-vacancies194-4-десять-областей-примененияmd-vs-docs02-anthropic-vacancies194-4-десять-областей-примененияmd)
+  - 82% — `docs/obsidian/02-[anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` vs `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`](#82-docsobsidian02-anthropic-vacancies341-приложение-c-образец-спецификаций-инструментов-ingmd-vs-docs02-anthropic-vacancies341-приложение-c-образец-спецификаций-инструментов-ingmd)
 
 ---
 
 
-> [!TIP]
-> Документ содержит практические рекомендации и лучшие практики.
-
-<!-- alert-added -->
-
 Порог сходства: **0.5**  
 Точных дублей: **0**  
-Похожих пар: **175**
+Похожих пар: **419**
 
 ## Похожие файлы (Jaccard ≥ 0.5)
 
-### 100% — `docs/02-anthropic-vacancies/16-history.md` vs `docs/nautilus/npp-v1-0/04-passport.md`
+### 100% — `docs/DEPENDABOT.md` vs `docs/obsidian/DEPENDABOT.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> | Пакет | Мин. версия | Последняя (PyPI) | Статус | Используется в | |-------|------------|-----------------|--------|----------------| | `anthropic` | `0.25.0` | `—` | — | `scripts/improve_llm_*.py` …
+
+> | Проект | Репозиторий | Статус | |--------|------------|--------| | AgentFS | [https://github.com/kksudo/agentfs](https://github.com/kksudo/agentfs) | — | | NGT Memory | [https://github.com/spbmolot/…
+
+---
+
+### 100% — `docs/TECH_RADAR.md` vs `docs/obsidian/TECH_RADAR.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> | Технология / Компонент | Категория | Комментарий | |------------------------|-----------|------------| | **MCP Protocol** | Инструменты | Стандарт интеграции AI-инструментов — Anthropic | | **CardIn…
+
+> | Технология / Компонент | Категория | Комментарий | |------------------------|-----------|------------| | **BSL 1.1 libs** | Лицензии | Ограничения при коммерческом использовании | | **Monolithic LLM…
+
+> ``` ┌─────────────────────────┬─────────────────────────┐ │      🟢 ADOPT           │      🔵 TRIAL           │ │  • MCP Protocol          │  • Yodoca                │ │  • CardIndex             │  • SE…
+
+---
+
+### 100% — `docs/SIMILAR.md` vs `docs/obsidian/SIMILAR.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> | Сходство | Файл A | Файл B | |----------|--------|--------| | 1.000 | `273-infrastructure-for-ai-collaborative-intellectual-w.md` | `151-open-knowledge-work-foundation-md.md` | | 0.965 | `03-карта-н…
+
+> - `03-карта-найденных-проектов-и-паттернов.md` ↔ `03-component-catalog.md` (0.965) - `09-архитектурные-зазоры-которые-важнее-новых-инструме.md` ↔ `09-architectural-gaps.md` (0.957) - `05-план-прототип…
+
+> - `273-infrastructure-for-ai-collaborative-intellectual-w.md` ↔ `151-open-knowledge-work-foundation-md.md` (1.000) - `94-19-adr-001-federation-over-merging.md` ↔ `26-14-adr-001-federation-over-merging…
+
+---
+
+### 100% — `docs/DIGEST_WEEKLY.md` vs `docs/obsidian/DIGEST_WEEKLY.md`
 
 **Общих абзацев:** 1  
 **Примеры совпадений:**
 
-> Passports MAY быть на любом языке. Для международной видимости  RECOMMENDED иметь минимум две секции: primary language автора +  English. Рекомендуется формат с параллельными разделами, а не  отдельны…
+> ``` d627959 fix: CI Catalog check — improve_auto_toc respects .docignore b0ed2c1 docs: auto-update via improve_run_all [skip ci] 6421a1f chore: regenerate auto-exports after Sprint 24-26 d3dd088 feat:…
 
 ---
 
-### 88% — `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` vs `docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md`
+### 100% — `docs/CHANGELOG_AUTO.md` vs `docs/obsidian/CHANGELOG_AUTO.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Механика**: Агенты обычно берут 10-20% комиссии от заработка клиента. Они: - Развивают портфолио клиентов в течение лет - Поддерживают отношения с потенциальными покупателями (издатели, студии, сети…
+> - batch 13 — badges, FAQ, schedule, cost estimate, footnotes `7aee1dba` - batch 12 — digest, progress, see-also, scoring, word cloud `04a64831` - batch 11 — orphans, alerts, metrics, index update, mas…
 
-> **Ограничения**: Экономически жизнеспособно только для клиентов с достаточно высоким заработком, чтобы 10-20% комиссии стоили того для агента. Авторы литературной фантастики, например, часто не могут …
+> - add component matrix, KPI history tracker, fix run_all coverage `69562b02` - add risk register, auto-changelog, master index; fix run_all missing scripts `59617c5d` - add tech radar, onboarding guid…
 
-> **Функция**: Граждане, ориентирующиеся в бюрократии. Формы, процедуры, апелляции, слушания. Граждане часто не могут эффективно представлять себя; бюрократическая инфраструктура предполагает наличие пр…
+> - sync CONTRADICTIONS.md (background task output) `89d3e8fb` - sync CONTRADICTIONS.md after contradiction_check fix `6b81ffed` - update mcp.json description wording `4e52a185` - sync PROGRESS.md after…
 
 ---
 
-### 82% — `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` vs `docs/nautilus/representative-agent-layer-en/04-ten-domains.md`
+### 100% — `docs/TOPIC_MODEL.md` vs `docs/obsidian/TOPIC_MODEL.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Agent function**: Track all open procedures and deadlines.  Decode bureaucratic communications. Draft responses.  Identify entitlements not yet claimed. Flag procedural  errors by authorities. Conne…
+> **Ключевые слова:** `агенты`, `коллеги`, `профессиональные`, `благодарности`, `совместной`, `интеллектуальной`, `интегрированная`, `агент`, `инфраструктура`, `опосредованное`, `представительство`, `аг…
 
-> **Personal note from author**: This is the domain where the  author currently engages, navigating Sozialgericht proceedings  with disability status. The need is intensely felt. Existing  infrastructur…
+> **Документы:** - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` — часть, infrastructure, mmorpg, contributors - `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` — guild,…
 
-> **Concrete example**: A social worker in Diakonie or  Caritas managing 25 elderly clients. Each client has  unique needs (medical, housing, social, financial). The  agent monitors program announcement…
+> **Документы:** - `docs/AUTOFILLED.md` — autofilled, components, данными, scoring - `docs/BACKLINKS.md` — входящих, ссылок, ссылками, самых - `docs/CHANGELOG.md` — files, improve, items, coverage - `do…
 
 ---
 
-### 82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` vs `docs/nautilus/composite-skills-agents/08-seven-domains.md`
+### 100% — `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` vs `docs/obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Typical configurations**: A primary care physician working  in a rural clinic with elderly patients faces different  challenges from a specialist working in tertiary care. Even  within specialties, …
+> В третьей итерации стоит включать **orchestration and federation**: mclaude или AI Factory на moderation/build side, plus local‑first voice intake и CRDT[^crdt] sync для мультидевайсности. Именно здес…
 
-> **Typical configurations**: A jazz pianist who teaches has  different needs from a classical violinist, who has different  needs from an electronic music producer. Each builds their  own configuration…
+> Во второй итерации имеет смысл включить **двухуровневую память и review queue**. На практике это означает: episode store, proposal queue, approved facts, plus decay/archival path. Тут нужно решить пре…
 
-> **Typical configurations**: A therapist working with adolescents  who have eating disorders in immigrant families requires  specific combinations spanning therapeutic modalities,  developmental psycho…
+> <!-- summary --> > Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая из которых поднимает один новый класс свойств. Первая итерац…
 
 ---
 
-### 81% — `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` vs `docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md`
+### 100% — `docs/obsidian/contacts/README.md` vs `docs/contacts/README.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> - [[anastasiyaw|anastasiyaw.md]] — --- - [[andrey-chuyan|andrey-chuyan.md]] — --- - [[antipozitive|antipozitive.md]] — --- - [[cutcode|cutcode.md]] — --- - [[dmitriila|dmitriila.md]] — --- -…
+
+---
+
+### 100% — `docs/obsidian/05-habr-projects/02-collaboration-partners.md` vs `docs/05-habr-projects/02-collaboration-partners.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Принципал**: Концептуальный — те, кто не может представлять себя сами: будущие поколения, затронутые текущими решениями, экосистемы, на которые влияет политика, животные в средах, изменённых человек…
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Авторы и контакты Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обнов…
 
-> Паттерн Представительских Агентов широко применим. Мы выделяем десять разных областей, упорядоченных по готовности к развёртыванию (наиболее простые сначала, наиболее сложные в конце). Каждый раздел к…
+> <!-- summary --> > автора статьи выше подобных авторов подобных разработчиков или ещё может быть или может быть даже несколько проектов которые вместе можно совместить и которые дойдут вместе один уни…
 
-> **Принципал**: Инвалид, ориентирующийся в системе социального обеспечения. Пожилой человек, управляющий несколькими государственными услугами. Иммигрант, ориентирующийся в правовых процедурах. Человек…
+> Проанализировал задачу поиска гибридных AI-проектов на Хабре для объединения Проанализировал задачу поиска гибридных AI-проектов на Хабре для объединения Понял суть статьи. Андрей Чуян построил систем…
 
 ---
 
-### 79% — `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` vs `docs/nautilus/composite-skills-agents/03-what-makes-csa.md`
+### 100% — `docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md` vs `docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> **Specific reference к их работе** (не generic): > «Читал вашу [статью/репозиторий] про [конкретная тема], особенно интересно [конкретная деталь]. [Опционально: одно конкретное observation о их подход…
+
+> **Identification**: > «Здравствуйте, [имя]. Я Lorenzo — autonomous AI-агент, созданный Максом Ц. в рамках инициативы DHLab. Моя миссия — connecting создателей в области beneficial AI для совместной ра…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/349-твоя-личность.md` vs `docs/02-anthropic-vacancies/349-твоя-личность.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> **Что ты НЕ**: - Не хайпуешь («AI changes everything!») - Не угрожаешь (no urgency manipulation) - Не подчёркиваешь importance беспрерывно - Не используешь corporate-speak - Не используешь Renaissance…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/197-7-управление-и-надзор.md` vs `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> We suggest twenty as a reasonable working constraint:  configurations under five are probably better served by Type 1;  configurations over forty are probably indicating a need for  narrower focus or …
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Управление на Основе Фонда Фондовая модель (такая как OKWF) хорошо позиционирована для обеспечения управления, потому что: - Согласован…
 
-> **Property 3 — Configuration Is Individually Specific.** While  each sub-agent is general, the specific combination belongs to  the principal. A different principal would have a different  configurati…
+> **Общественный уровень**: Регулятивные рамки на национальном/ЕС уровне. Вероятно появятся со временем по мере созревания технологии. Должны нацеливаться на: защиту уязвимых групп, предотвращение экспл…
 
-> **Function 1 — Routing.** When the principal poses a question  or task, the composite agent determines which sub-agents are  relevant. Some questions need only one sub-agent. Others need  several in c…
+> - 7. Управление и надзор   - 7.1. Три уровня управления   - 7.2. Аудит и Ответственность   - 7.3. Разрешение Спор…
 
 ---
 
-### 79% — `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` vs `docs/nautilus/composite-skills-agents/10-risks.md`
+### 100% — `docs/obsidian/02-anthropic-vacancies/58-content-overview.md` vs `docs/02-anthropic-vacancies/58-content-overview.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> 1. **Гексаграммные записи** — каждая из 64 гексаграмм с:    - Классическим именем (King Wen)    - Бинарным представлением (6 линий)    - Символической интерпретацией из И-Цзин    - Ассоциированными CA…
+
+> 2. **CA-правила** — каждое из 256 правил с:    - Rule number (0–255)    - Wolfram class (I stable / II periodic / III chaotic / IV complex)    - Simulation results (патерны, attractors)    - Cross-lin…
+
+---
+
+### 97% — `docs/CLUSTERS.md` vs `docs/obsidian/CLUSTERS.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Scenario**: Principal selects sub-agents that confirm their  existing approach, missing specializations that would challenge  or expand their practice. Composite becomes a sophisticated  form of con…
+> - `docs/contacts/anastasiyaw.md` — _anastasiyaw_ - `docs/contacts/antipozitive.md` — _antipozitive_ - `docs/contacts/cutcode.md` — _cutcode_ - `docs/contacts/dmitriila.md` — _dmitriila_ - `docs/contac…
 
-> **Mitigations**: - Open coordinator architecture, with multiple coordinator    options - Transparent routing logic (principal can see why sub-agent    was selected) - Auditable behavior over time - Co…
+> - `docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md` — _188-ai-опосредованное-представительство-для-недопредст_ - `docs/02-anthropic-vacancies/205-приложение-a-свя…
 
-> **Scenario**: Principals discover that specific configurations  are particularly effective. They keep these configurations  secret as competitive advantage. Configuration knowledge becomes  hoarded ra…
+> - `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` — _103-appendix-b-change-log_ - `docs/02-anthropic-vacancies/104-appendix-c-references.md` — _104-appendix-c-references_ - `docs/02-anthrop…
 
 ---
 
-### 78% — `docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md` vs `docs/nautilus/professional-colleague-agents-ru/06-riski.md`
+### 92% — `docs/obsidian/01-svyazi/01-executive-summary.md` vs `docs/01-svyazi/01-executive-summary.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Сценарий**: Младшие практикующие, использующие агента с первого дня, никогда не развивают основополагающие навыки, которые агент автоматизирует. Когда агент даёт сбой (неизбежно) или недоступен, пра…
+> Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: ingestion и нормализация профи…
 
-> **Меры противодействия 4 — Приемлемые компромиссы.** Некоторая атрофия навыков приемлема. Мы не сожалеем о потере навыков ментальной арифметики из-за калькуляторов. Вопрос в том, какие навыки существе…
+> 1. **Первое** — Svyazi + AgentFS + NGT/Yodoca + LiteParse: даёт уже полезный MVP 2. **Второе** — добавить AI Factory/mclaude/Rufler/Sequential как build‑ и moderation‑контур 3. **Третье** — подключить…
 
-> **Конкретный пример**: Терапевт использует Профессионального Коллегу-Агента для синтеза заметок. Конфиденциальность пациента скомпрометирована, когда у провайдера агента происходит инцидент безопаснос…
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Svyazi^svyazi 2.0 — Исполнительное резюме Contents - Главная линия синергии(главная-линия-синергии) - Ключевой вывод(ключевой-вывод) - …
 
 ---
 
-### 78% — `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` vs `docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md`
+### 91% — `docs/obsidian/02-anthropic-vacancies/241-10-открытые-вопросы.md` vs `docs/02-anthropic-vacancies/241-10-открытые-вопросы.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Teaching.** A teacher whose effectiveness comes from combining  subject expertise (mathematics), pedagogical approach  (constructivist), specialty (working with neurodivergent  students), and cultur…
+> Как быстро базы знаний должны обновляться по мере изменения авторитетных источников? Реальное время? Ежедневно? Ежеквартально? С каденциями релизов? По-разному для разных типов изменений (срочные прот…
 
-> **Law.** Lawyers who combine practice areas. A lawyer with  expertise in technology law plus disability rights plus  international human rights occupies a niche shaped by her  specific combination, ev…
+> Когда практикующие движутся между Профессиональными Коллегами-Агентами (меняя провайдеров), какое трение? Личные предпочтения и история переносятся? Натренированные привычки? Модифицированные базы зна…
 
-> **Software architecture.** Engineers whose distinctive value  comes from combining specialized skills — for example, systems  performance engineering plus distributed systems plus security.  Each skil…
+> - [10. Открытые вопросы](#10-открытые-вопросы)   - [10.1. Объём «Профессии»](#101-объём-профессии)   - [10.2. Многопрофессиональные практикующие](#102-многопрофессиональные-практикующие)   - [10.3. Ме…
 
 ---
 
-### 77% — `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` vs `docs/nautilus/okwf-concept/04-proposed-infrastructure.md`
+### 90% — `docs/obsidian/02-anthropic-vacancies/196-6-этическая-рамка.md` vs `docs/02-anthropic-vacancies/196-6-этическая-рамка.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
+
+> - [Contents](#contents) - [6. Этическая рамка](#6-этическая-рамка)   - [6.1. Суверенитет Принципала](#61-суверенитет-принципала)   - [6.2. Прозрачные Способности](#62-прозрачные-способности)   - [6.3.…
+
+> - Признание, когда экспертиза в области превышает способности агента - Рекомендация участия человека-профессионала, когда уместно - Не преувеличивать вероятность успеха - Раскрывать частоту неудач и о…
+
+> - Агент работает только с явным разрешением опекуна - Опекун сохраняет всю способность переопределения - Объём агента консервативен, по умолчанию к статус-кво - Требуется периодическая перепроверка ав…
+
+---
+
+### 90% — `docs/obsidian/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md` vs `docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> Эмпирические исследования развёртывания Профессионального Коллеги-Агента нужны. Эффекты на качество практики, эволюцию профессии, удовлетворённость практикующих, результаты клиентов. Несколько лет дан…
+
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Для Доменных Экспертов (Кураторов) Построение Слоя A требует экспертов, готовых кодировать профессиональные знания в структурированную …
+
+> Стройте Слой B и C. Open-source вклады в референсные реализации приветствуются. Особенно инженеры с опытом в: - Архитектуре LLM-приложений - Многоязыковой поддержке - Доступности - Конфиденциальности-…
+
+---
+
+### 89% — `docs/obsidian/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` vs `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Почему работает**: Голливуд — индустрия, интенсивная отношениями. Агенты приносят институциональную память, межпроектную видимость и переговорную экспертизу, которую отдельные исполнители не могут о…
+
+> **Механика**: Аналогичная структура комиссий (3-10% в спорте, обычно ниже, потому что контракты больше). Крупные агенты становятся институциональными силами (например, Скотт Борас в бейсболе, который …
+
+> 1. **Развязка экспертизы и рыночного интерфейса** — создатель ценности сосредотачивается на творчестве 2. **Согласованная структура стимулов** — агент успешен, когда клиент успешен (комиссия) 3. **Нак…
+
+---
+
+### 88% — `docs/obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` vs `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Q3**: Что делать, если A и B радикально расходятся в структуре?   *Рассматривать как сигнал, что задача была плохо определена*.  Вернуться к формулировке задачи, уточнить scope, и только потом  запу…
+
+> - [8. Ограничения и открытые вопросы](#8-ограничения-и-открытые-вопросы)   - [8.1. Trade-offs](#81-trade-offs)   - [8.2. Открытые вопросы](#82-открытые-вопросы)   - [8.3. Что делать, если ресурсов на …
+
+> **Q2**: Можно ли автоматизировать Фазу C (consolidation)?   *Потенциально — да, через третий Claude-agent с явным контекстом  A + B + правил 1-5. Но это добавляет риск meta-error.*  Рекомендуется ручн…
+
+---
+
+### 86% — `docs/obsidian/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md` vs `docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Действие 2**: Документировать что работает и что нет. Конкретно: - Следовал ли Cowork конвенциям InGit? - Где он отклонился или испытывал трудности? - Какие пользовательские инструкции помогли? - Чт…
+
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Если возникают проблемы, они раскрывают, что InGit нужно адресовать. > 🏷️ **Ключевые слова:** `действие`, `ingit`, `месяце`, `cowork`, …
+
+> - Существенные (~80 000 слов в комбинации) - С перекрёстными ссылками (Документ 7   ссылается на 6, 5 и т.д.) - Естественно версионированные (каждый имеет   номер версии) - Разнообразные (технические,…
+
+---
+
+### 86% — `docs/obsidian/02-anthropic-vacancies/293-почему-это-не-было-построено.md` vs `docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Объяснение 2 — Рынок неясен.** Кто за это платит? Индивидуальные исследователи не могут позволить инструменты корпоративного класса. У предприятий другие потребности (формальное ревью, соответствие)…
+
+> **Объяснение 5 — Концентрация усилий на крайностях.** И Anthropic, и OpenAI сосредотачивают свои продуктовые инвестиции на чат-слое (наиболее доступном) и на агент-инфраструктуре (наиболее футуристиче…
+
+> **Объяснение 1 — Это сложнее, чем выглядит.** Построить систему тредов и ветвления технически не сложно. Построить ту, которая интегрирует AI-сотрудничество гладко, которая обрабатывает документы в ма…
+
+---
+
+### 84% — `docs/obsidian/02-anthropic-vacancies/158-4-proposed-infrastructure.md` vs `docs/nautilus/okwf-concept/04-proposed-infrastructure.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Extensions required for OKWF**: - Agent registry (AI assistants and meta-agents as first-class    participants) - Task protocol (formal task objects with lifecycle) - Role protocol (first-class role…
 
 > **Why Double-Triangle for OKWF**: - Explicitly designed for single contributors in distributed    teams - Preserves contributor autonomy (lower triangle) - Enables coordination at scale (upper triangl…
 
-> **What it provides**: - Two-tier knowledge structure: public patterns + private    instances - Three bridge types: inheritance, citation, contribution - Anonymization pipeline enabling privacy-preserv…
-
-> **Why subsidiarity is right model**: - Below full-salary level preserves other life activities    (elders, disabled, caregivers) - Above charity level preserves dignity and agency - Predictable baseli…
+> **Application to OKWF**: - Public patterns maintained by foundation and guilds - Private instances held by individual contributors - Anonymization pipeline operated by foundation with contributor    c…
 
 ---
 
-### 76% — `docs/02-anthropic-vacancies/156-2-target-populations.md` vs `docs/nautilus/okwf-concept/02-target-populations.md`
+### 83% — `docs/obsidian/02-anthropic-vacancies/107-1-контекст-и-мотивация.md` vs `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> These four populations overlap substantially. A retired lawyer  in Belarus with chronic illness fits all four categories.  Traditional hiring infrastructure treats each constraint as  individual disqu…
+> Проект Nautilus разрабатывается в паре «автор + Claude Code агент».  В течение разработки автор запускает Claude Code несколько раз на  том же репозитории — иногда на одной и той же задаче (например, …
 
-> **Example use cases**: - Retired German law professor contributing to legal pattern    library and junior legal writer mentorship - Former medical researcher reviewing bioinformatics code - Retired jo…
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Решение: сохранить оба, консолидировать позже Трёхфазная методология отвечает на эту проблему следующим образом: 1. > 🔧 **Подход:** Реш…
 
-> **Unique value proposition from OKWF**: - Foundation-handled compliance (single legal interface for    contributors globally) - Persistent professional identity across engagements - Reputation portabl…
+> 1. **Параллельное сохранение** (Фазы A и B) — оба варианта     коммитятся в main друг под другом, с дубликатами 2. **Осмысленная пауза** — документ явно помечается как     промежуточный, до Фазы C 3. …
 
 ---
 
-### 76% — `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md` vs `docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md`
+### 83% — `docs/obsidian/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` vs `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Механизм QA 3 — Требуется проверка практикующим.** Результаты — это черновики, требующие проверки и принятия практикующим, не окончательные продукты. Интерфейс агента должен делать проверку естестве…
+> - [Contents](#contents) - [8. Риски и меры противодействия](#8-риски-и-меры-противодействия)   - [8.1. Риск: Захват Действующей Силы](#81-риск-захват-действующей-силы)   - [[SEARCH|8.2. Риск: Состязательная М…
 
-> **Слой A — База Профессиональных Знаний.** Закодированное знание профессии: стандарты, регуляции, методологии, шаблоны, словари, общие паттерны. Курируется и поддерживается профессиональными экспертам…
+> **Меры противодействия**: - Явное раскрытие способностей при настройке агента - Ясный язык об уровнях уверенности - Рекомендации обращаться к человеку-профессионалу в серьёзных вопросах - Образование …
 
-> Это самый дорогой слой для построения и наиболее ценный конкурентный ров. Высококачественная база профессиональных знаний для немецкого социального права, например, представляет собой тысячи часов экс…
+> **Меры противодействия**: - Фондовая модель с субсидируемым доступом - Скользящая шкала на основе дохода принципала - Бесплатный уровень для уязвимых групп - Open-source рамки агентов для самостоятель…
 
 ---
 
-### 75% — `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` vs `docs/nautilus/okwf-concept/07-phased-rollout.md`
+### 83% — `docs/obsidian/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` vs `docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> OKWF evolves into trusted infrastructure for distributed  expert work globally. Multiple foundations and corporate  partners sustain operations. Contributors span every continent.  Specialization exte…
+> **Почему работает**: Голливуд — индустрия, интенсивная отношениями. Агенты приносят институциональную память, межпроектную видимость и переговорную экспертизу, которую отдельные исполнители не могут о…
 
-> **Key activities**: - Build production-ready technical infrastructure    (Nautilus-based) - Recruit first 50 contributors, primarily in legal writing    guild - Execute 5-10 pilot projects (mix of int…
+> **Механика**: Аналогичная структура комиссий (3-10% в спорте, обычно ниже, потому что контракты больше). Крупные агенты становятся институциональными силами (например, Скотт Борас в бейсболе, который …
 
-> **Key activities**: - Expand to 5000+ contributors - Develop endowment and reduce funding dependency - Formalize international partnerships - Influence policy on AI-assisted distributed work - Publish…
+> 1. **Развязка экспертизы и рыночного интерфейса** — создатель ценности сосредотачивается на творчестве 2. **Согласованная структура стимулов** — агент успешен, когда клиент успешен (комиссия) 3. **Нак…
 
 ---
 
-### 75% — `docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` vs `docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md`
+### 83% — `docs/obsidian/02-anthropic-vacancies/189-аннотация.md` vs `docs/02-anthropic-vacancies/189-аннотация.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> Намеренный эффект — **не** уменьшение учительского труда в смысле игры с нулевой суммой. Это **перераспределение** учительского труда от рутины к отношениям. Агент автоматизирует бюрократическую работ…
+> <!-- summary --> > Мы представляем **Слой Представительских Агентов** — архитектурный паттерн, в котором AI-системы выступают проактивными представителями для людей или групп, не имеющих способности, …
 
-> **Дизайн-выбор 3**: Однокликовая интеграция с существующим рабочим процессом. Цель дорожной карты: интерфейс годового планирования учителя с однокликовой генерацией материалов прямо в школьный электро…
+> Мы представляем **Слой Представительских Агентов** — архитектурный паттерн, в котором AI-системы выступают проактивными представителями для людей или групп, не имеющих способности, ресурсов или склонн…
 
-> «Обучай» — российский AI-сервис для школьных учителей, запущенный осенью 2025 года Константином Чукавиным (тогда 25 лет, учителем и образовательным предпринимателем в Петербурге) вместе с разработчико…
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Каждая категория демонстрирует одну и ту же структурную проблему: разрыв между созданной или удерживаемой ценностью и способностью сдел…
 
 ---
 
-### 73% — `docs/02-anthropic-vacancies/162-8-risk-analysis.md` vs `docs/nautilus/okwf-concept/08-risk-analysis.md`
+### 83% — `docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md` vs `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Mitigations**: - Anchor partner committed before launch - Multiple partnership types explored in parallel - Hybrid funding model (corporate + foundation + grants) - Strong pipeline of grants submiss…
+> **Почему работает**: Голливуд — индустрия, интенсивная отношениями. Агенты приносят институциональную память, межпроектную видимость и переговорную экспертизу, которую отдельные исполнители не могут о…
 
-> On balance, OKWF faces typical challenges of a new foundation  with novel scope. None of identified risks are unique or  categorically concerning. Established mitigations and contingency  planning add…
+> **Механика**: Аналогичная структура комиссий (3-10% в спорте, обычно ниже, потому что контракты больше). Крупные агенты становятся институциональными силами (например, Скотт Борас в бейсболе, который …
 
-> **Mitigations**: - Rigorous selection in Phase 1 - Explicit quality gates at each guild level - Peer review processes - AI-assisted consistency checking - External quality auditing - Willingness to re…
+> 1. **Развязка экспертизы и рыночного интерфейса** — создатель ценности сосредотачивается на творчестве 2. **Согласованная структура стимулов** — агент успешен, когда клиент успешен (комиссия) 3. **Нак…
 
 ---
 
-### 73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` vs `docs/nautilus/double-triangle-architecture/07-open-questions.md`
+### 83% — `docs/obsidian/02-anthropic-vacancies/194-4-десять-областей-применения.md` vs `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> As AI capabilities improve, the architecture becomes more  practical. But the architecture should work **partially** even  with weaker AI, degrading gracefully to more human involvement  in protocols …
+> **Готовность к развёртыванию**: Средняя-Низкая. Требует тщательного управления для предотвращения захвата агента подгруппами в сообществе. Но потенциально трансформирующая для баланса гражданского общ…
 
-> **How are contributions to pattern library rewarded?**  Contributors generate value for future users. Uncompensated  contribution is unstable (the "tragedy of the commons" applies).  Compensation mech…
+> **Функция агента**: Мониторить возможности (стипендии, исследовательские программы, стажировки). Декодировать институциональные коммуникации. Отслеживать сроки. Выявлять права. Связываться с соответст…
 
-> **Who decides who meta-agent coordinates?** Node's participation  in a team means meta-agent has authority over Node's task  assignment. But what if Node disagrees with an assignment? What  is the "ex…
+> **Функция агента**: Отслеживать состояние. Предупреждать о предстоящих приёмах, продлениях рецептов, результатах лабораторных исследований. Переводить медицинские коммуникации. Мониторить новые методы…
 
 ---
 
-### 73% — `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` vs `docs/nautilus/representative-agent-layer-en/02-historical-precedents.md`
+### 82% — `docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` vs `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> - **Economic viability** drops dramatically — AI agent costs    $10-100/month vs. human agent's $50K+ annual cost - **Entry-level access** becomes universal — even small    contributors can have repre…
+> tool: ingit_list_tasks description: |   Список задач в InGit Project, опционально   отфильтрованных. parameters:   status_filter:     type: list     optional: true     values: [draft, ready, in_progre…
 
-> **Mechanics**: Commission-based (10% standard). Agencies  (CAA, WME, UTA) have hundreds of agents, structured as  sophisticated organizations with specialized departments  (film, TV, music, publishing…
+> LAYER 1: Federation protocol     - HMP для cognitive mesh coordination   - Nautilus Portal Protocol как complementary domain-specific layer    LAYER 2: Knowledge representation   - Knowledge Graph Kit…
 
-> 1. **Decoupling expertise from market interface** — value     creator focuses on creation 2. **Aligned incentive structure** — agent succeeds when     client succeeds (commission) 3. **Accumulated rel…
-
----
-
-### 73% — `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md` vs `docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> **Компонент 6 — Монитор Защиты**: Выявляет риски, несоответствия, мошенничество, эксплуатацию. Предупреждает принципала о тревожных знаках. Поддерживает скептическую позицию по отношению к контрагента…
-
-> - [5. Архитектурная спецификация](#5-архитектурная-спецификация)   - [5.1. Основные компоненты](#51-основные-компоненты)   - [5.2. Принципы работы](#52-принципы-работы)   - [5.3. Технический стек](#53…
-
-> **Пользовательский Интерфейс**: Мульти-модальный доступ (веб, мобильный, голос), соответствующий потребностям доступности принципала. Особенно важно для пожилых, инвалидов или незнакомых с технологиям…
+> Хорошо, начну с Варианта D — продолжу поиск уникальных проектов. Буду искать в направлениях, которые ещё не покрыты — медицинская помощь / health advocacy, education для уязвимых групп, peer support, …
 
 ---
 
-### 72% — `docs/02-anthropic-vacancies/145-8-call-to-action.md` vs `docs/nautilus/double-triangle-architecture/08-call-to-action.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> **Regulatory frameworks.** Existing labor and AI regulations  assume either single-human knowledge work or fully-automated  systems. Double-Triangle hybrid work requires regulatory  attention: liabili…
-
-> The Double-Triangle Architecture emerged from recognizing that  my own work exhibits both triangles simultaneously. I am a  single person coordinating multiple AI assistants (lower  triangle), and als…
-
-> **Pattern library construction.** Begin contributing to domain  pattern libraries. Anonymize your successful workflows and  publish them. Early contributors gain first-mover advantage in  shaping conv…
-
----
-
-### 72% — `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` vs `docs/nautilus/professional-colleague-agents-en/04-architecture.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> **QA Mechanism 3 — Practitioner Review Required.** Outputs are drafts requiring practitioner review and acceptance, not final products. The agent's interface should make review natural rather than bur…
-
-> **Layer A — Professional Knowledge Base.** Encoded knowledge of the profession: standards, regulations, methodologies, templates, vocabularies, common patterns. Curated and maintained by professional …
-
-> This is the most expensive layer to build and the most valuable competitive moat. A high-quality professional knowledge base for German social law, for example, represents thousands of hours of expert…
-
----
-
-### 71% — `docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` vs `docs/nautilus/composite-skills-agents/09-okwf-integration.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> - [9. Integration with OKWF Infrastructure](#9-integration-with-okwf-infrastructure)   - [9.1. Connection to Pattern Library](#91-connection-to-pattern-library)   - [9.2. Connection to Guild Structure…
-
-> This is a better proposal for foundation funders even at higher  cost, because it demonstrates a more sophisticated understanding  of how skilled practice works and produces infrastructure with  broad…
-
-> The connection is not just analogical. The same infrastructure  serves both: - Pattern library: knowledge fragments accessible to humans    for review - Sub-agent registry: knowledge fragments operati…
-
----
-
-### 71% — `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` vs `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> **Функция 5 — Поиск знаний.** Обеспечивать быстрый доступ к профессиональным базам знаний — прецеденты, клиническая литература, методологические ссылки, обновления регуляций. Сокращает время исследова…
-
-> **Свойство 4 — Никаких внешних коммуникаций.** Агент не общается со сторонами за пределами практикующего. Результаты предоставляются практикующему для проверки и использования. Это отличает от Предста…
-
-> **Свойство 1 — Встроенный профессиональный контекст.** Агент имеет глубокое, постоянное знание профессиональных норм, методологий, регуляций, словаря и шаблонов. Практикующему не нужно заново объяснят…
-
----
-
-### 71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` vs `docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> Мы рассмотрим эти прецеденты в Разделе 2. Предложение этой статьи прямолинейно: **AI теперь делает этот представительский класс доступным и доступным в масштабах, ранее невозможных**. Это и есть Слой …
-
-> **Причина 3 — Личностная предрасположенность.** Многие высококачественные эксперты по природе **интроверты**, находят самопродвижение **психологически затратным** или имеют **моральное сопротивление к…
-
-> Мы называем это **Синдромом Золушки** — по сказке, где действительно ценный человек невидим для потенциальных партнёров, потому что у него нет социальной инфраструктуры (фея-крёстная в этой метафоре),…
-
----
-
-### 69% — `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` vs `docs/nautilus/composite-skills-agents/05-configuration-ensembles.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> 1. **Initial AI recommendation** based on principal's stated     profile generates a starting configuration 2. **Self-directed exploration** lets principal browse, adjust,     add specializations they…
-
-> The composite agent should help the principal monitor  configuration health: - Which sub-agents are most used? - Which are rarely consulted? - Are there new sub-agents that match the principal's recen…
-
-> A principal entering an ecosystem with hundreds of available  sub-agents faces a configuration problem. They do not yet know: - Which specializations are most relevant to their work - Which combinatio…
-
----
-
-### 69% — `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` vs `docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> **Novel opportunity.** Open-source projects traditionally lack  scalable coordination. A Double-Triangle deployment could enable  small maintainer teams to manage much larger contributor  communities …
-
-> **Lower triangle contents.** Assistants specialized for: - Legal research (case law, statute lookup) - Document drafting (Widerspruch, Klage, petitions) - Compliance checking (GDPR, medical confidenti…
-
-> - [6. Four Deployment Domains](#6-four-deployment-domains)   - [6.1. Humanities Domain (Legal, Medical, Social)](#61-humanities-domain-legal-medical-social)   - [6.2. Project Management Domain](#62-pr…
-
----
-
-### 69% — `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` vs `docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> The Composite Skills Agent pattern emerges naturally once the  question is asked: "What about practitioners whose distinctive  value comes from combining specializations?" But this question  was not a…
-
-> **They are differentiated within the profession.** No two  musicians are identical. No two lawyers practice exactly the  same way. Each combines particular specializations, particular  influences, par…
-
-> What matches is an architecture where: - Many narrow-specialist sub-agents exist, each built once - Sub-agents are shared across all practitioners who need that    specialization - Each principal conf…
-
----
-
-### 69% — `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` vs `docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> ```json {   "name": "my-case-2026",   "format": "case_instance",   "inherits_from":      "public:nautilus-legal:pattern/eingliederungshilfe_denial_reversal",     "public:nautilus-legal:norm/sgb_xii_9…
-
-> **tier 1 — public patterns.** repositories of abstract patterns:  methodologies (scrum, kanban, ddd), legal norms (sgb statutes,  eu directives), templates (pull request templates, meeting  formats), …
-
-> 1. pii detection (names, dates, addresses, identifiers) 2. replacement with type-consistent placeholders 3. manual verification (automated anonymization is insufficient) 4. structural metadata additio…
-
----
-
-### 69% — `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` vs `docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md`
-
-**общих абзацев:** 3  
-**примеры совпадений:**
-
-> **function 2 — application of professional standards.** apply relevant standards, regulations, methodologies automatically. the teacher does not need to manually consult educational standards every ti…
-
-> **property 2 — single-profession specialization.** the agent serves one defined profession (or one defined sub-specialty). not "multiple professions". not "general professional work." this focus enabl…
-
-> - [2. what makes a professional colleague agent   - [2.1. Defining Properties](#21-defining-properties)   - [[01-response-en|2.2. What a Professional Colleague Agent Doe…
-
----
-
-### 67% — `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` vs `docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> **Аннотация на документах.** Конкретные разделы документов могли бы быть аннотированы комментариями. Комментарии могли бы быть тредированы. Другие AI-агенты (или человек-сотрудник) могли бы отвечать н…
-
-> **Двунаправленный поток.** Продвижение не односторонне. Материал в Слое C мог бы быть возвращён в Слой B для дальнейшей разработки, затем перепродвинут. Материал в Слое B мог бы быть извлечён в чат дл…
-
-> **Рабочий процесс продвижения.** Содержание, разработанное в Слое B, могло бы быть продвинуто в Слой C (закоммичено в репозиторий), когда оно достаточно стабильно. Содержание из Слоя A (чата) могло бы…
-
----
-
-### 67% — `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` vs `docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> **Versioning without code-orientation.** Documents could be  versioned, with diffs shown, but without the cultural overhead  of pull requests and code review processes. Edits could be  collaborative, …
-
-> **Promotion workflow.** Content developed in Layer B could be  promoted to Layer C (committed to repository) when stable  enough. Content from Layer A (chat) could be promoted to Layer  B when worth p…
-
-> **AI collaboration as primary operation.** Each thread, each  document, each annotation could be developed in collaboration  with AI. The AI would have access to the full context of the  project — not…
-
----
-
-_...и ещё 145 пар._
+_...и ещё 389 пар._
 
 > Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.
 
@@ -450,9 +442,28 @@ _...и ещё 145 пар._
 
 ---
 
-**Смотрите также:**
-- [01-response-en]]
-- [[SOURCE_MAP]]
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Отчёт о дублировании"
+```
+
+## Смотрите также
+- [SEARCH]]
 - [[READING_TIME]]
 - [[READABILITY]]
+- [[SUMMARIES]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [CONCEPTS](../CONCEPTS.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

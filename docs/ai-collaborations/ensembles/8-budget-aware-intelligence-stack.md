@@ -71,3 +71,19 @@ python scripts/improve_semantic_search.py --query "Ансамбль 8 Budget Awa
 - [5-agent-firewall](5-agent-firewall.md)
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-agentops-trace-envelope](../continuation/02-agentops-trace-envelope.md)
+- [3-forensic-rag](3-forensic-rag.md)
+- [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
+- _...ещё 3_
+

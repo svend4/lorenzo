@@ -420,3 +420,18 @@ python scripts/improve_textrank.py --sentences 5  # 5 предложений в�
 - [ACTION_ITEMS](ACTION_ITEMS.md)
 - [HEADING_AUDIT](HEADING_AUDIT.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](CONCEPTS.md)
+- [DUPLICATES](DUPLICATES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

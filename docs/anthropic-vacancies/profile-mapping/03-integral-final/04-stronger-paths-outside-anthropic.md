@@ -1,5 +1,15 @@
 # Более сильные пути вне Anthropic
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -57,4 +67,20 @@ python scripts/improve_semantic_search.py --query "Более сильные п�
 - 03-revised-[anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
 - [05-reality-check-distribution-gap](../02-reanalysis/05-reality-check-distribution-gap.md)
 - [03-partial-fit-honesty](03-partial-fit-honesty.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [04-what-to-do](../../ai-managed-virtual-company/04-what-to-do.md)
+- [03-revised-anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
+- [04-non-anthropic-paths](../02-reanalysis/04-non-anthropic-paths.md)
+- [02-final-ranking](02-final-ranking.md)
+- _...ещё 2_
 

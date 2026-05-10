@@ -203,7 +203,7 @@ network_scope: offline | internal | internet
 - [x] BM25 (passages.json, 10 407 абзацев) — `improve_passage_retrieval.py`
 - [x] TF-IDF семантика (3 149 токенов, cosine similarity) — `improve_embedding_index.py`
 - [x] Гибридный поиск: 0.6×TF-IDF + 0.4×BM25 + граф-бонус — `improve_collab_finder.py`
-- [x] Evidence Envelope — `utils_card_envelope.py::EvidenceEnvelope`
+- [x] Evidence Envelope — `utils_card_envelope.py::Evidence Envelope`
 - [ ] Review Queue UI — _запланировано: Streamlit_
 - [ ] hnswlib ANN-граф — _запланировано (раскомментировать в requirements.txt)_
 
@@ -313,4 +313,20 @@ network_scope: offline | internal | internet
 - [11-integration-contracts](01-svyazi/11-integration-contracts.md)
 - [05-roadmap-6-12-months](ai-collaborations/continuation/05-roadmap-6-12-months.md)
 - [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [00-intro-part2](01-svyazi/00-intro-part2.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [GITHUB_ISSUES](GITHUB_ISSUES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md)
+- _...ещё 2_
 

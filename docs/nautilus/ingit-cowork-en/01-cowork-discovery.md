@@ -141,3 +141,17 @@ python scripts/improve_semantic_search.py --query "1 The Cowork Discovery and Wh
 - [06-existing-approximations](../infrastructure-layer-b-en/06-existing-approximations.md)
 - [04-whats-missing-layer-b](../infrastructure-layer-b-en/04-whats-missing-layer-b.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [10-strategic-positioning](10-strategic-positioning.md)
+- [README](README.md)
+

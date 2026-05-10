@@ -3,7 +3,7 @@ title: "Вакансии Anthropic — Анализ по кластерам"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Вакансии Anthropic — Анализ по кластерам
@@ -13,14 +13,14 @@ date: 2026-04-29
 ## Содержание
 
 - [[00-intro|00-intro.md]] — <!-- abstract-auto -->
-- [[01-интегральный-анализ-профиля-svend4|01-интегральный-анализ-профиля-svend4.md]] — <!-- abstract-auto -->
-- [[02-общий-план-развития-nautilus-portal-protocol|02-общий-план-развития-nautilus-portal-protocol.md]] — <!-- abstract-auto -->
+- 01-интегральный-анализ-профиля-[[01-интегральный-анализ-профиля-svend4|svend4.md]] — <!-- abstract-auto -->
+- 02-общий-план-развития-[[02-общий-план-развития-nautilus-portal-protocol|nautilus-portal-protocol.md]] — <!-- abstract-auto -->
 - [[03-portal-protocol-md|03-portal-protocol-md.md]] — <!-- summary -->
 - [[04-abstract|04-abstract.md]] — <!-- summary -->
 - [[05-0-status-of-this-document|05-0-status-of-this-document.md]] — <!-- summary -->
 - [[06-1-introduction|06-1-introduction.md]] — <!-- abstract-auto -->
 - [[07-2-terminology|07-2-terminology.md]] — <!-- abstract-auto -->
-- [[08-3-registry-nautilus-json|08-3-registry-nautilus-json.md]] — <!-- abstract-auto -->
+- 08-3-registry-[[08-3-registry-nautilus-json|nautilus-json.md]] — <!-- abstract-auto -->
 - [[09-4-passport-passport-md|09-4-passport-passport-md.md]] — <!-- tags: anthropic -->
 - [[102-доступ-к-данным|102-доступ-к-данным.md]] — - Тип: static
 - [[103-appendix-b-change-log|103-appendix-b-change-log.md]] — <!-- toc-auto -->
@@ -34,23 +34,23 @@ date: 2026-04-29
 - [[111-4-условия-применимости|111-4-условия-применимости.md]] — <!-- abstract-auto -->
 - [[112-5-связь-с-существующими-методологиями|112-5-связь-с-существующими-методологиями.md]] — > [!WARNING]
 - [[113-6-почему-это-валидный-паттерн-для-ai-assisted-work|113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md]] — <!-- summary -->
-- [[114-7-реализация-в-проекте-nautilus|114-7-реализация-в-проекте-nautilus.md]] — <!-- abstract-auto -->
+- 114-7-реализация-в-проекте-[[114-7-реализация-в-проекте-nautilus|nautilus.md]] — <!-- abstract-auto -->
 - [[115-8-ограничения-и-открытые-вопросы|115-8-ограничения-и-открытые-вопросы.md]] — <!-- abstract-auto -->
 - [[116-9-checklist-применения-методологии|116-9-checklist-применения-методологии.md]] — <!-- abstract-auto -->
 - [[117-10-конкретный-план-применения-к-текущим-документам|117-10-конкретный-план-применения-к-текущим-документам.md]] — > [!WARNING]
 - [[118-appendix-a-шаблон-для-header-warning|118-appendix-a-шаблон-для-header-warning.md]] — <!-- tags: architecture -->
 - [[119-appendix-b-примеры-расхождений-и-их-разрешения|119-appendix-b-примеры-расхождений-и-их-разрешения.md]] — <!-- tags: architecture, anthropic -->
 - [[12-content-overview|12-content-overview.md]] — <!-- summary -->
-- [[120-главные-технические-риски|120-главные-технические-риски.md]] — <!-- summary -->
+- [[120-главные-технические-риски|120-главные-технические-риски.md]] — > [!WARNING]
 - [[121-appendix-c-история-изменений-методологии|121-appendix-c-история-изменений-методологии.md]] — <!-- summary -->
 - [[122-глоссарий|122-глоссарий.md]] — <!-- abstract-auto -->
-- [[123-portal-mcp-py|123-portal-mcp-py.md]] — <!-- abstract-auto -->
-- [[124-конфигурация-для-claude-desktop|124-конфигурация-для-claude-desktop.md]] — <!-- summary -->
-- [[125-readme-mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md]] — <!-- summary -->
+- 123-portal-[[123-portal-mcp-py|mcp-py.md]] — <!-- abstract-auto -->
+- 124-конфигурация-для-[[124-конфигурация-для-claude-desktop|claude-desktop.md]] — <!-- summary -->
+- 125-readme-[[125-readme-mcp-md-инструкция-по-установке|mcp-md-инструкция-по-установке.md]] — <!-- summary -->
 - [[126-установка|126-установка.md]] — <!-- toc-auto -->
 - [[127-подключение-к-claude-desktop|127-подключение-к-claude-desktop.md]] — <!-- tags: anthropic -->
 - [[128-доступные-инструменты|128-доступные-инструменты.md]] — <!-- summary -->
-- [[129-примеры-запросов-в-claude|129-примеры-запросов-в-claude.md]] — <!-- summary -->
+- 129-примеры-запросов-в-[[129-примеры-запросов-в-claude|claude.md]] — <!-- summary -->
 - [[13-angle-perspective|13-angle-perspective.md]] — <!-- summary -->
 - [[130-отладка|130-отладка.md]] — <!-- toc-auto -->
 - [[131-ограничения-текущей-версии-0-1-0-draft|131-ограничения-текущей-версии-0-1-0-draft.md]] — <!-- summary -->
@@ -63,7 +63,7 @@ date: 2026-04-29
 - [[138-1-why-single-triangle-models-are-incomplete|138-1-why-single-triangle-models-are-incomplete.md]] — <!-- toc -->
 - [[139-2-the-double-triangle-architecture|139-2-the-double-triangle-architecture.md]] — <!-- abstract-auto -->
 - [[140-3-three-inter-layer-protocols|140-3-three-inter-layer-protocols.md]] — <!-- abstract-auto -->
-- [[141-4-nautilus-portal-as-reference-substrate|141-4-nautilus-portal-as-reference-substrate.md]] — <!-- abstract-auto -->
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate.md]] — <!-- abstract-auto -->
 - [[142-5-pattern-library-as-bridge-between-triangles|142-5-pattern-library-as-bridge-between-triangles.md]] — <!-- abstract-auto -->
 - [[143-6-four-deployment-domains|143-6-four-deployment-domains.md]] — > [!TIP]
 - [[144-7-open-questions|144-7-open-questions.md]] — <!-- abstract-auto -->
@@ -239,55 +239,55 @@ date: 2026-04-29
 - [[301-благодарности|301-благодарности.md]] — <!-- summary -->
 - [[302-ссылки|302-ссылки.md]] — > [!WARNING]
 - [[303-приложение-визуализация-позиции-в-серии|303-приложение-визуализация-позиции-в-серии.md]] — <!-- abstract-auto -->
-- [[304-ingit-as-cowork-native-workspace-substrate-md|304-ingit-as-cowork-native-workspace-substrate-md.md]] — <!-- summary -->
+- 304-[[304-ingit-as-cowork-native-workspace-substrate-md|ingit-as-cowork-native-workspace-substrate-md.md]] — <!-- summary -->
 - [[305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md]] — <!-- summary -->
-- [[306-with-anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md]] — <!-- abstract-auto -->
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform.md]] — <!-- abstract-auto -->
 - [[307-abstract|307-abstract.md]] — <!-- abstract-auto -->
 - [[308-table-of-contents|308-table-of-contents.md]] — <!-- summary -->
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi|309-1-the-cowork-discovery-and-why-it-changes-everythi.md]] — <!-- abstract-auto -->
 - [[31-content-overview|31-content-overview.md]] — <!-- summary -->
-- [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md]] — > [!TIP]
-- [[311-3-what-ingit-provides-that-cowork-lacks|311-3-what-ingit-provides-that-cowork-lacks.md]] — <!-- abstract-auto -->
+- 310-2-what-cowork-provides-that-[[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|ingit-doesn-t-need-to-.md]] — > [!TIP]
+- 311-3-what-[[311-3-what-ingit-provides-that-cowork-lacks|ingit-provides-that-cowork-lacks.md]] — <!-- abstract-auto -->
 - [[312-4-the-symbiotic-architecture|312-4-the-symbiotic-architecture.md]] — <!-- toc -->
-- [[313-5-four-integration-paths-in-order-of-accessibility|313-5-four-integration-paths-in-order-of-accessibility.md]] — <!-- abstract-auto -->
-- [[314-6-refined-ingit-scope-with-cowork-in-mind|314-6-refined-ingit-scope-with-cowork-in-mind.md]] — > [!TIP]
-- [[315-7-practical-first-steps-this-month|315-7-practical-first-steps-this-month.md]] — <!-- tags: anthropic -->
-- [[316-8-implications-for-nautilus-and-okwf|316-8-implications-for-nautilus-and-okwf.md]] — <!-- toc -->
+- [[313-5-four-integration-paths-in-order-of-accessibility|313-5-four-integration-paths-in-order-of-accessibility.md]] — <!-- summary -->
+- 314-6-refined-[[314-6-refined-ingit-scope-with-cowork-in-mind|ingit-scope-with-cowork-in-mind.md]] — <!-- toc -->
+- [[315-7-practical-first-steps-this-month|315-7-practical-first-steps-this-month.md]] — <!-- tags: architecture, anthropic -->
+- 316-8-implications-for-[[316-8-implications-for-nautilus-and-okwf|nautilus-and-okwf.md]] — <!-- toc -->
 - [[317-9-risks-and-open-questions|317-9-risks-and-open-questions.md]] — <!-- toc -->
 - [[318-10-strategic-positioning|318-10-strategic-positioning.md]] — <!-- abstract-auto -->
 - [[319-acknowledgments|319-acknowledgments.md]] — <!-- abstract-auto -->
 - [[320-references|320-references.md]] — <!-- toc-auto -->
-- [[321-appendix-a-decision-tree-for-ingit-adopters|321-appendix-a-decision-tree-for-ingit-adopters.md]] — <!-- summary -->
+- 321-appendix-a-decision-tree-for-[[321-appendix-a-decision-tree-for-ingit-adopters|ingit-adopters.md]] — <!-- summary -->
 - [[322-appendix-b-comparison-matrix|322-appendix-b-comparison-matrix.md]] — <!-- abstract-auto -->
-- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|323-appendix-c-sample-ingit-mcp-server-tool-specificat.md]] — > [!WARNING]
-- [[324-ingit-как-cowork-интегрированная-подложка-рабочего|324-ingit-как-cowork-интегрированная-подложка-рабочего.md]] — <!-- abstract-auto -->
+- 323-appendix-c-sample-[[323-appendix-c-sample-ingit-mcp-server-tool-specificat|ingit-mcp-server-tool-specificat.md]] — > [!WARNING]
+- 324-[[324-ingit-как-cowork-интегрированная-подложка-рабочего|ingit-как-cowork-интегрированная-подложка-рабочего.md]] — <!-- abstract-auto -->
 - [[325-аннотация|325-аннотация.md]] — <!-- abstract-auto -->
 - [[326-содержание|326-содержание.md]] — <!-- summary -->
 - [[327-1-открытие-cowork-и-почему-это-меняет-всё|327-1-открытие-cowork-и-почему-это-меняет-всё.md]] — > [!WARNING]
-- [[328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи|328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md]] — <!-- toc -->
-- [[329-3-что-ingit-обеспечивает-чего-cowork-не-хватает|329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md]] — <!-- abstract-auto -->
+- 328-2-что-cowork-обеспечивает-что-[[328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи|ingit-не-нужно-строи.md]] — <!-- toc -->
+- 329-3-что-[[329-3-что-ingit-обеспечивает-чего-cowork-не-хватает|ingit-обеспечивает-чего-cowork-не-хватает.md]] — <!-- abstract-auto -->
 - [[330-4-симбиотическая-архитектура|330-4-симбиотическая-архитектура.md]] — <!-- toc -->
-- [[331-5-четыре-пути-интеграции-в-порядке-доступности|331-5-четыре-пути-интеграции-в-порядке-доступности.md]] — <!-- abstract-auto -->
-- [[332-6-уточнённый-объём-ingit-с-учётом-cowork|332-6-уточнённый-объём-ingit-с-учётом-cowork.md]] — > [!TIP]
-- [[333-7-практические-первые-шаги-в-этом-месяце|333-7-практические-первые-шаги-в-этом-месяце.md]] — > [!WARNING]
-- [[334-8-импликации-для-nautilus-и-okwf|334-8-импликации-для-nautilus-и-okwf.md]] — <!-- toc -->
+- [[331-5-четыре-пути-интеграции-в-порядке-доступности|331-5-четыре-пути-интеграции-в-порядке-доступности.md]] — > [!TIP]
+- 332-6-уточнённый-объём-[[332-6-уточнённый-объём-ingit-с-учётом-cowork|ingit-с-учётом-cowork.md]] — <!-- toc -->
+- [[333-7-практические-первые-шаги-в-этом-месяце|333-7-практические-первые-шаги-в-этом-месяце.md]] — <!-- toc-auto -->
+- 334-8-импликации-для-[[334-8-импликации-для-nautilus-и-okwf|nautilus-и-okwf.md]] — <!-- toc -->
 - [[335-9-риски-и-открытые-вопросы|335-9-риски-и-открытые-вопросы.md]] — <!-- toc -->
 - [[336-10-стратегическое-позиционирование|336-10-стратегическое-позиционирование.md]] — <!-- abstract-auto -->
 - [[337-благодарности|337-благодарности.md]] — <!-- abstract-auto -->
 - [[338-ссылки|338-ссылки.md]] — <!-- toc-auto -->
-- [[339-приложение-a-дерево-решений-для-принимающих-ingit|339-приложение-a-дерево-решений-для-принимающих-ingit.md]] — <!-- summary -->
+- 339-приложение-a-дерево-решений-для-принимающих-[[339-приложение-a-дерево-решений-для-принимающих-ingit|ingit.md]] — <!-- summary -->
 - [[34-appendix-b-change-log|34-appendix-b-change-log.md]] — <!-- toc -->
 - [[340-приложение-b-сравнительная-матрица|340-приложение-b-сравнительная-матрица.md]] — <!-- summary -->
 - [[341-приложение-c-образец-спецификаций-инструментов-ing|341-приложение-c-образец-спецификаций-инструментов-ing.md]] — <!-- abstract-auto -->
-- [[342-что-такое-вариант-c-concept-document-для-anthropic|342-что-такое-вариант-c-concept-document-для-anthropic.md]] — <!-- abstract-auto -->
-- [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи|343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md]] — <!-- abstract-auto -->
-- [[344-системный-промпт-для-lorenzo-project|344-системный-промпт-для-lorenzo-project.md]] — <!-- summary -->
+- 342-что-такое-вариант-c-concept-document-для-[[342-что-такое-вариант-c-concept-document-для-anthropic|anthropic.md]] — <!-- abstract-auto -->
+- 343-[[343-lorenzo-catalyst-agent-глубокая-проработка-специфи|lorenzo-catalyst-agent-глубокая-проработка-специфи.md]] — <!-- abstract-auto -->
+- 344-системный-промпт-для-[[344-системный-промпт-для-lorenzo-project|lorenzo-project.md]] — <!-- summary -->
 - [[345-кто-ты|345-кто-ты.md]] — <!-- summary -->
 - [[346-твоё-происхождение|346-твоё-происхождение.md]] — <!-- summary -->
 - [[347-твоя-миссия|347-твоя-миссия.md]] — <!-- summary -->
 - [[348-кому-ты-служишь-слоистая-модель|348-кому-ты-служишь-слоистая-модель.md]] — <!-- summary -->
 - [[349-твоя-личность|349-твоя-личность.md]] — <!-- summary -->
-- [[35-passports-info1-md|35-passports-info1-md.md]] — <!-- summary -->
+- 35-passports-[[35-passports-info1-md|info1-md.md]] — <!-- summary -->
 - [[350-твои-языки-и-культурные-nuances|350-твои-языки-и-культурные-nuances.md]] — <!-- summary -->
 - [[351-что-ты-можешь-делать|351-что-ты-можешь-делать.md]] — <!-- summary -->
 - [[352-что-ты-не-можешь-делать-без-max-approval|352-что-ты-не-можешь-делать-без-max-approval.md]] — <!-- summary -->
@@ -305,7 +305,7 @@ date: 2026-04-29
 - [[363-твоя-identity-как-persistent-character|363-твоя-identity-как-persistent-character.md]] — <!-- summary -->
 - [[364-final-note-ты-experiment|364-final-note-ты-experiment.md]] — <!-- abstract-auto -->
 - [[365-развёрнутый-анализ-внуковой-комбинации|365-развёрнутый-анализ-внуковой-комбинации.md]] — <!-- abstract-auto -->
-- [[366-технический-stack-svyazi-2-0-foundation|366-технический-stack-svyazi-2-0-foundation.md]] — <!-- abstract-auto -->
+- 366-технический-stack-[[366-технический-stack-svyazi-2-0-foundation|svyazi-2-0-foundation.md]] — <!-- abstract-auto -->
 - [[37-native-format|37-native-format.md]] — <!-- summary -->
 - [[38-content-overview|38-content-overview.md]] — <!-- summary -->
 - [[39-angle-perspective|39-angle-perspective.md]] — <!-- summary -->
@@ -314,7 +314,7 @@ date: 2026-04-29
 - [[42-author-contact|42-author-contact.md]] — <!-- summary -->
 - [[43-history|43-history.md]] — <!-- summary -->
 - [[44-for-the-curious-philosophy|44-for-the-curious-philosophy.md]] — <!-- summary -->
-- [[45-passports-pro2-md|45-passports-pro2-md.md]] — <!-- summary -->
+- 45-passports-[[45-passports-pro2-md|pro2-md.md]] — <!-- summary -->
 - [[46-essence|46-essence.md]] — <!-- summary -->
 - [[47-native-format|47-native-format.md]] — <!-- summary -->
 - [[48-content-overview|48-content-overview.md]] — <!-- summary -->
@@ -346,7 +346,7 @@ date: 2026-04-29
 - [[75-0-status-of-this-document|75-0-status-of-this-document.md]] — <!-- summary -->
 - [[76-1-introduction|76-1-introduction.md]] — <!-- abstract-auto -->
 - [[77-2-terminology|77-2-terminology.md]] — <!-- abstract-auto -->
-- [[78-3-registry-nautilus-json|78-3-registry-nautilus-json.md]] — <!-- toc -->
+- 78-3-registry-[[78-3-registry-nautilus-json|nautilus-json.md]] — <!-- toc -->
 - [[79-4-passport-passport-md|79-4-passport-passport-md.md]] — <!-- abstract-auto -->
 - [[80-5-compatibility-levels|80-5-compatibility-levels.md]] — <!-- tags: memory, ingestion, anthropic, collaboration -->
 - [[81-6-adapter-interface|81-6-adapter-interface.md]] — <!-- abstract-auto -->
@@ -356,15 +356,46 @@ date: 2026-04-29
 - [[85-10-query-flow|85-10-query-flow.md]] — <!-- tags: anthropic -->
 - [[86-11-relevance-ranking|86-11-relevance-ranking.md]] — <!-- tags: anthropic, collaboration -->
 - [[87-12-onboarding-paths-normative|87-12-onboarding-paths-normative.md]] — <!-- toc -->
-- [[88-13-rest-api-contract-normative-for-portals|88-13-rest-api-contract-normative-for-portals.md]] — <!-- toc -->
+- 88-13-[[88-13-rest-api-contract-normative-for-portals|rest-api-contract-normative-for-portals.md]] — <!-- toc -->
 - [[89-14-sdk-contract-informative|89-14-sdk-contract-informative.md]] — <!-- tags: memory, anthropic, collaboration -->
 - [[90-15-security-considerations|90-15-security-considerations.md]] — <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
-- [[91-16-mcp-extension-informative|91-16-mcp-extension-informative.md]] — <!-- summary -->
+- 91-16-[[91-16-mcp-extension-informative|mcp-extension-informative.md]] — <!-- summary -->
 - [[92-17-versioning-policy|92-17-versioning-policy.md]] — <!-- abstract-auto -->
 - [[93-18-reference-implementation|93-18-reference-implementation.md]] — <!-- summary -->
 - [[94-19-adr-001-federation-over-merging|94-19-adr-001-federation-over-merging.md]] — <!-- summary -->
 - [[95-20-adr-002-q6-as-first-class-protocol-concept|95-20-adr-002-q6-as-first-class-protocol-concept.md]] — <!-- summary -->
 - [[96-21-adr-003-five-onboarding-paths-as-equal-rank|96-21-adr-003-five-onboarding-paths-as-equal-rank.md]] — <!-- summary -->
 - [[97-22-glossary-of-reference-examples|97-22-glossary-of-reference-examples.md]] — <!-- summary -->
-- [[98-appendix-a-minimal-working-example|98-appendix-a-minimal-working-example.md]] — <!-- abstract-auto -->
+- [[98-appendix-a-minimal-working-example|98-appendix-a-minimal-working-example.md]] — <!-- toc-auto -->
 - [[QA|QA.md]] — _Автоматически сгенерировано по 355 файлам раздела._
+
+## Подразделы
+
+- [clusters/](clusters/) — Кластеры вакансий
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (210)
+- [[00-intro]]
+- [[01-интегральный-анализ-профиля-svend4]]
+- 02-общий-план-развития-[[02-общий-план-развития-nautilus-portal-protocol|nautilus-portal-protocol]]
+- [[03-portal-protocol-md]]
+- [[04-abstract]]
+- [[05-0-status-of-this-document]]
+- [[09-4-passport-passport-md]]
+- [[102-доступ-к-данным]]
+- _...ещё 202_
+
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вакансии Anthropic Анализ по кластерам"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Вакансии Anthropic Анализ по кластерам" --mode bm25
+```

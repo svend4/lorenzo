@@ -1,5 +1,16 @@
 # Приоритетные ансамбли проектов
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Приоритетные ансамбли](#приоритетные-ансамбли)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -205,3 +216,19 @@ flowchart LR
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (21):**
+- [03-component-catalog](03-component-catalog.md)
+- [10-second-order-ensembles](10-second-order-ensembles.md)
+- [13-contacts](13-contacts.md)
+- [README](README.md)
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md)
+- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [10-новые-ансамбли-следующего-шага](../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- _...ещё 13_
+

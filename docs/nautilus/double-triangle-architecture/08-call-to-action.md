@@ -165,3 +165,19 @@ python scripts/improve_semantic_search.py --query "8 Call to Action"
 - [07-open-questions](07-open-questions.md)
 - [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-abstract](00-abstract.md)
+- [06-four-deployment-domains](06-four-deployment-domains.md)
+- [07-open-questions](07-open-questions.md)
+- _...ещё 2_
+

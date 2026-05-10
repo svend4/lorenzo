@@ -1,224 +1,267 @@
 ---
 title: "Индекс ссылок"
 tags:
+  - meta
+  - links
+  - index
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Индекс ссылок
 
-Всего уникальных URL: 230
+<!-- toc-auto -->
+## Contents
+
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- tags: meta, links, index -->
+
+<!-- summary -->
+> > Документ содержит практические рекомендации и лучшие практики.
+**Проекты:** AgentFS, knowledge-space, Yodoca
+
+---
+
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+Всего уникальных URL: 265
 
 | URL | Найден в файлах |
 |-----|-----------------|
-| http://localhost:8000 | 7 |
-| http://localhost:8080 | 6 |
-| https://...install.sh | 4 |
-| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakansiy-s-zarplatoy-do-405000 | 4 |
-| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakans… | 3 |
-| https://activitypub.rocks/ | 4 |
-| https://api.github.com/users/svend4/repos?per_page=100&sort=updated | 5 |
-| https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner | 5 |
-| https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv | 4 |
-| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 3 |
-| https://claude.com/product/cowork | 9 |
-| https://creativecommons.org/licenses/by/4.0/ | 5 |
-| https://datatracker | 3 |
-| https://datatracker.ietf.org/doc/html/rfc2119 | 3 |
-| https://forum.[[BROKEN_LINKS|obsidian | 5 |
-| https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a-queryable-knowledge-base-privately/113223 | 3 |
-| https://github | 4 |
-| https://github. | 5 |
-| https://github.com/AnastasiyaW | 4 |
-| https://github.com/AnastasiyaW/knowledge-space | 7 |
-| https://github.com/AnastasiyaW/knowledge-space` | 3 |
-| https://github.com/AnastasiyaW/knowledge-space`, | 2 |
-| https://github.com/Antipozitive | 4 |
-| https://github.com/Cutcode | 4 |
-| https://github.com/Dmitriila | 4 |
-| https://github.com/MiXaiLL76 | 4 |
-| https://github.com/Sonia_Black | 4 |
-| https://github.com/VitalyOborin | 4 |
-| https://github.com/VitalyOborin/yodoca | 4 |
-| https://github.com/VitalyOborin/yodoca` | 2 |
-| https://github.com/VladSpace | 4 |
-| https://github.com/andrey_chuyan | 4 |
-| https://github.com/anthropics/mcp | 5 |
-| https://github.com/anthropics/mcp` | 2 |
-| https://github.com/camel-ai/camel | 6 |
-| https://github.com/kksudo | 4 |
-| https://github.com/kksudo/agentfs | 4 |
-| https://github.com/mcp | 7 |
-| https://github.com/mcp` | 3 |
-| https://github.com/mcp`, | 2 |
-| https://github.com/nlaik | 4 |
-| https://github.com/settings/tokens | 5 |
-| https://github.com/settings/tokens` | 3 |
-| https://github.com/spbmolot | 4 |
-| https://github.com/spbmolot/ngt-memory | 4 |
-| https://github.com/svend4/ | 3 |
-| https://github.com/svend4/data70 | 5 |
-| https://github.com/svend4/data70` | 2 |
-| https://github.com/svend4/info1 | 8 |
-| https://github.com/svend4/info1` | 3 |
-| https://github.com/svend4/info1`, | 2 |
-| https://github.com/svend4/info40 | 4 |
-| https://github.com/svend4/info7 | 4 |
-| https://github.com/svend4/ingit | 13 |
-| https://github.com/svend4/ingit/issues | 4 |
-| https://github.com/svend4/ingit/issues` | 3 |
-| https://github.com/svend4/ingit` | 3 |
-| https://github.com/svend4/meta | 6 |
-| https://github.com/svend4/meta` | 3 |
-| https://github.com/svend4/nautilus | 17 |
-| https://github.com/svend4/nautilus.git | 3 |
-| https://github.com/svend4/nautilus/blob/claude/review-nautilus-changes-tdywx/README.md | 3 |
-| https://github.com/svend4/nautilus/blob/main/INTEGRATION.md | 3 |
-| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL | 3 |
-| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md | 4 |
-| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 2 |
-| https://github.com/svend4/nautilus/blob/main/README.md | 3 |
-| https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md | 4 |
-| https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 3 |
-| https://github.com/svend4/nautilus/blob/main/STATUS.md | 3 |
-| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_1.md | 3 |
-| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_2.md | 3 |
-| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_3.md | 3 |
-| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_4.md | 3 |
-| https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0...` | 3 |
-| https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md | 4 |
-| https://github.com/svend4/nautilus/branches | 3 |
-| https://github.com/svend4/nautilus/commits/main | 3 |
-| https://github.com/svend4/nautilus/issues | 25 |
-| https://github.com/svend4/nautilus/issues` | 3 |
-| https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f12eb443ca50/docs | 3 |
-| https://github.com/svend4/nautilus/tree/main/adapters | 3 |
-| https://github.com/svend4/nautilus/tree/main/passports | 3 |
-| https://github.com/svend4/nautilus` | 3 |
-| https://github.com/svend4/pro2 | 10 |
-| https://github.com/svend4/pro2/blob/main/nautilus/README.md | 3 |
-| https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41badc6dc/nautilus | 3 |
-| https://github.com/svend4/pro2/tree/main/nautilus | 3 |
-| https://github.com/svend4/pro2` | 3 |
-| https://github.com/svend4?tab=repositories | 3 |
-| https://github.com/tagir_analyzes | 3 |
-| https://github.com/zodigancode | 3 |
-| https://habr. | 7 |
-| https://habr.com/ru/articles/1002138/ | 6 |
-| https://habr.com/ru/articles/1002138/` | 3 |
-| https://habr.com/ru/articles/1005776/ | 6 |
-| https://habr.com/ru/articles/1005776/` | 3 |
-| https://habr.com/ru/articles/1006602/ | 4 |
-| https://habr.com/ru/articles/1006602/, | 4 |
-| https://habr.com/ru/articles/1006602/` | 3 |
-| https://habr.com/ru/articles/1006622/ | 8 |
-| https://habr.com/ru/articles/1006622/` | 3 |
-| https://habr.com/ru/articles/1007122/ | 6 |
-| https://habr.com/ru/articles/1007122/, | 5 |
-| https://habr.com/ru/articles/1007122/` | 3 |
+| http://localhost:8000 | 13 |
+| http://localhost:8080 | 10 |
+| https://...install.sh | 7 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakansiy-s-zarplatoy-do-405000 | 7 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakans… | 5 |
+| https://activitypub.rocks/ | 7 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated | 9 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner | 9 |
+| https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv | 7 |
+| https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz | 1 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 6 |
+| https://claude.com/product/cowork | 17 |
+| https://creativecommons.org/licenses/by/4.0/ | 9 |
+| https://datatracker | 5 |
+| https://datatracker.ietf.org/doc/html/rfc2119 | 4 |
+| https://forum.[[12-content-overview|[03-component-catalog|obsidian | 3 |
+| https://forum.[[BROKEN_LINKS|obsidian | 2 |
+| https://forum.[obsidian | 5 |
+| https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a-queryable-knowledge-base-privately/113223 | 5 |
+| https://github | 6 |
+| https://github. | 6 |
+| https://github.com/AnastasiyaW | 7 |
+| https://github.com/AnastasiyaW/knowledge-space | 12 |
+| https://github.com/AnastasiyaW/knowledge-space` | 6 |
+| https://github.com/AnastasiyaW/knowledge-space`, | 3 |
+| https://github.com/AnastasiyaW` | 3 |
+| https://github.com/Antipozitive | 7 |
+| https://github.com/Antipozitive` | 3 |
+| https://github.com/Cutcode | 7 |
+| https://github.com/Cutcode` | 2 |
+| https://github.com/Dmitriila | 7 |
+| https://github.com/Dmitriila` | 3 |
+| https://github.com/MiXaiLL76 | 7 |
+| https://github.com/MiXaiLL76` | 2 |
+| https://github.com/Sonia_Black | 7 |
+| https://github.com/Sonia_Black` | 3 |
+| https://github.com/VitalyOborin | 7 |
+| https://github.com/VitalyOborin/yodoca | 9 |
+| https://github.com/VitalyOborin/yodoca` | 3 |
+| https://github.com/VitalyOborin` | 2 |
+| https://github.com/VladSpace | 6 |
+| https://github.com/VladSpace` | 3 |
+| https://github.com/andrey_chuyan | 6 |
+| https://github.com/andrey_chuyan` | 2 |
+| https://github.com/anthropics/mcp | 8 |
+| https://github.com/anthropics/mcp` | 5 |
+| https://github.com/camel-ai/camel | 9 |
+| https://github.com/camel-ai/camel` | 3 |
+| https://github.com/kksudo | 6 |
+| https://github.com/kksudo/agentfs | 9 |
+| https://github.com/kksudo/agentfs` | 2 |
+| https://github.com/kksudo` | 3 |
+| https://github.com/mcp | 12 |
+| https://github.com/mcp` | 6 |
+| https://github.com/mcp`, | 3 |
+| https://github.com/nlaik | 6 |
+| https://github.com/nlaik` | 3 |
+| https://github.com/settings/tokens | 8 |
+| https://github.com/settings/tokens` | 6 |
+| https://github.com/spbmolot | 6 |
+| https://github.com/spbmolot/ngt-memory | 8 |
+| https://github.com/spbmolot/ngt-memory` | 2 |
+| https://github.com/spbmolot/… | 3 |
+| https://github.com/spbmolot` | 3 |
+| https://github.com/svend4/ | 6 |
+| https://github.com/svend4/` | 2 |
+| https://github.com/svend4/data70 | 10 |
+| https://github.com/svend4/data70` | 5 |
+| https://github.com/svend4/info1 | 16 |
+| https://github.com/svend4/info1` | 6 |
+| https://github.com/svend4/info1`, | 3 |
+| https://github.com/svend4/info40 | 8 |
+| https://github.com/svend4/info40` | 2 |
+| https://github.com/svend4/info7 | 8 |
+| https://github.com/svend4/info7` | 2 |
+| https://github.com/svend4/ingit | 26 |
+| https://github.com/svend4/ingit/issues | 8 |
+| https://github.com/svend4/ingit/issues` | 6 |
+| https://github.com/svend4/ingit` | 6 |
+| https://github.com/svend4/meta | 12 |
+| https://github.com/svend4/meta` | 6 |
+| https://github.com/svend4/nautilus | 31 |
+| https://github.com/svend4/nautilus.git | 6 |
+| https://github.com/svend4/nautilus.git` | 2 |
+| https://github.com/svend4/nautilus/blob/claude/review-nautilus-changes-tdywx/README.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/INTEGRATION.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL | 6 |
+| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 3 |
+| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL` | 3 |
+| https://github.com/svend4/nautilus/blob/main/README.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 4 |
+| https://github.com/svend4/nautilus/blob/main/STATUS.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_1.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_2.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_3.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_4.md | 6 |
+| https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0...` | 4 |
+| https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md | 6 |
+| https://github.com/svend4/nautilus/branches | 6 |
+| https://github.com/svend4/nautilus/branches` | 2 |
+| https://github.com/svend4/nautilus/commits/main | 6 |
+| https://github.com/svend4/nautilus/commits/main` | 3 |
+| https://github.com/svend4/nautilus/issues | 43 |
+| https://github.com/svend4/nautilus/issues` | 6 |
+| https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f12eb443ca50/docs | 6 |
+| https://github.com/svend4/nautilus/tree/main/adapters | 6 |
+| https://github.com/svend4/nautilus/tree/main/passports | 6 |
+| https://github.com/svend4/nautilus` | 6 |
+| https://github.com/svend4/pro2 | 18 |
+| https://github.com/svend4/pro2/blob/main/nautilus/README.md | 6 |
+| https://github.com/svend4/pro2/blob/main/nautilus/README.md` | 2 |
+| https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41b...` | 2 |
+| https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41badc6dc/nautilus | 6 |
+| https://github.com/svend4/pro2/tree/main/nautilus | 6 |
+| https://github.com/svend4/pro2/tree/main/nautilus` | 2 |
+| https://github.com/svend4/pro2` | 6 |
+| https://github.com/svend4?tab=repositories | 6 |
+| https://github.com/svend4?tab=repositories` | 2 |
+| https://github.com/tagir_analyzes | 6 |
+| https://github.com/tagir_analyzes` | 2 |
+| https://github.com/zodigancode | 6 |
+| https://github.com/zodigancode` | 2 |
+| https://habr. | 11 |
+| https://habr.com/ru/articles/1002138/ | 10 |
+| https://habr.com/ru/articles/1002138/` | 5 |
+| https://habr.com/ru/articles/1005776/ | 10 |
+| https://habr.com/ru/articles/1005776/` | 6 |
+| https://habr.com/ru/articles/1006602/ | 7 |
+| https://habr.com/ru/articles/1006602/, | 7 |
+| https://habr.com/ru/articles/1006602/` | 6 |
+| https://habr.com/ru/articles/1006622/ | 15 |
+| https://habr.com/ru/articles/1006622/` | 6 |
+| https://habr.com/ru/articles/1007122/ | 10 |
+| https://habr.com/ru/articles/1007122/, | 8 |
+| https://habr.com/ru/articles/1007122/` | 6 |
 | https://habr.com/ru/articles/1007122/`, | 3 |
-| https://habr.com/ru/articles/1009538/ | 6 |
-| https://habr.com/ru/articles/1009538/` | 3 |
-| https://habr.com/ru/articles/1009608/ | 6 |
-| https://habr.com/ru/articles/1009608/` | 3 |
-| https://habr.com/ru/articles/1009958/ | 6 |
-| https://habr.com/ru/articles/1009958/` | 3 |
-| https://habr.com/ru/articles/1010198/ | 6 |
-| https://habr.com/ru/articles/1010198/` | 3 |
-| https://habr.com/ru/articles/1010478/ | 6 |
-| https://habr.com/ru/articles/1010478/` | 3 |
-| https://habr.com/ru/articles/1012894/ | 4 |
-| https://habr.com/ru/articles/1012894/` | 2 |
-| https://habr.com/ru/articles/1014366/ | 6 |
-| https://habr.com/ru/articles/1014366/` | 3 |
-| https://habr.com/ru/articles/1016096/ | 6 |
-| https://habr.com/ru/articles/1016096/` | 3 |
-| https://habr.com/ru/articles/1017200/ | 7 |
-| https://habr.com/ru/articles/1017200/` | 4 |
-| https://habr.com/ru/articles/1019588/ | 4 |
-| https://habr.com/ru/articles/1019588/, | 4 |
-| https://habr.com/ru/articles/1019588/` | 3 |
-| https://habr.com/ru/articles/1020598/ | 4 |
-| https://habr.com/ru/articles/1020598/, | 4 |
-| https://habr.com/ru/articles/1020598/` | 3 |
-| https://habr.com/ru/articles/1020702/ | 3 |
-| https://habr.com/ru/articles/1020860/ | 6 |
-| https://habr.com/ru/articles/1020860/` | 3 |
-| https://habr.com/ru/articles/1021622/ | 4 |
-| https://habr.com/ru/articles/1021622/` | 2 |
-| https://habr.com/ru/articles/1023446/ | 6 |
-| https://habr.com/ru/articles/1023446/` | 3 |
-| https://habr.com/ru/articles/1024634/ | 6 |
-| https://habr.com/ru/articles/1024634/` | 3 |
-| https://habr.com/ru/articles/1024884/comments/ | 6 |
-| https://habr.com/ru/articles/1024884/comments/` | 3 |
-| https://habr.com/ru/articles/1026666/ | 4 |
-| https://habr.com/ru/articles/1027210/ | 7 |
-| https://habr.com/ru/articles/1027210/` | 3 |
-| https://habr.com/ru/articles/1027382/ | 6 |
-| https://habr.com/ru/articles/1027382/` | 3 |
-| https://habr.com/ru/articles/1027658/ | 6 |
-| https://habr.com/ru/articles/1027658/` | 3 |
-| https://habr.com/ru/articles/1027724/ | 8 |
-| https://habr.com/ru/articles/1027724/` | 3 |
-| https://habr.com/ru/articles/1027878/ | 4 |
-| https://habr.com/ru/articles/1027878/, | 4 |
-| https://habr.com/ru/articles/1027878/` | 3 |
-| https://habr.com/ru/articles/495554/ | 7 |
-| https://habr.com/ru/articles/495554/` | 3 |
+| https://habr.com/ru/articles/1009538/ | 10 |
+| https://habr.com/ru/articles/1009538/` | 6 |
+| https://habr.com/ru/articles/1009608/ | 10 |
+| https://habr.com/ru/articles/1009608/` | 6 |
+| https://habr.com/ru/articles/1009958/ | 10 |
+| https://habr.com/ru/articles/1009958/` | 6 |
+| https://habr.com/ru/articles/1010198/ | 10 |
+| https://habr.com/ru/articles/1010198/` | 6 |
+| https://habr.com/ru/articles/1010478/ | 10 |
+| https://habr.com/ru/articles/1010478/` | 6 |
+| https://habr.com/ru/articles/1012894/ | 7 |
+| https://habr.com/ru/articles/1012894/` | 3 |
+| https://habr.com/ru/articles/1014366/ | 9 |
+| https://habr.com/ru/articles/1014366/` | 4 |
+| https://habr.com/ru/articles/1016096/ | 10 |
+| https://habr.com/ru/articles/1016096/` | 5 |
+| https://habr.com/ru/articles/1017200/ | 11 |
+| https://habr.com/ru/articles/1017200/` | 5 |
+| https://habr.com/ru/articles/1019588/ | 7 |
+| https://habr.com/ru/articles/1019588/, | 7 |
+| https://habr.com/ru/articles/1019588/` | 5 |
+| https://habr.com/ru/articles/1020598/ | 7 |
+| https://habr.com/ru/articles/1020598/, | 7 |
+| https://habr.com/ru/articles/1020598/` | 6 |
+| https://habr.com/ru/articles/1020702/ | 5 |
+| https://habr.com/ru/articles/1020860/ | 10 |
+| https://habr.com/ru/articles/1020860/` | 5 |
+| https://habr.com/ru/articles/1021622/ | 7 |
+| https://habr.com/ru/articles/1021622/` | 3 |
+| https://habr.com/ru/articles/1023446/ | 10 |
+| https://habr.com/ru/articles/1023446/` | 6 |
+| https://habr.com/ru/articles/1024634/ | 10 |
+| https://habr.com/ru/articles/1024634/` | 5 |
+| https://habr.com/ru/articles/1024884/comments/ | 10 |
+| https://habr.com/ru/articles/1024884/comments/` | 5 |
+| https://habr.com/ru/articles/1026666/ | 7 |
+| https://habr.com/ru/articles/1027210/ | 11 |
+| https://habr.com/ru/articles/1027210/` | 6 |
+| https://habr.com/ru/articles/1027382/ | 10 |
+| https://habr.com/ru/articles/1027382/` | 5 |
+| https://habr.com/ru/articles/1027658/ | 10 |
+| https://habr.com/ru/articles/1027658/` | 6 |
+| https://habr.com/ru/articles/1027724/ | 13 |
+| https://habr.com/ru/articles/1027724/` | 5 |
+| https://habr.com/ru/articles/1027878/ | 7 |
+| https://habr.com/ru/articles/1027878/, | 7 |
+| https://habr.com/ru/articles/1027878/` | 6 |
+| https://habr.com/ru/articles/495554/ | 10 |
+| https://habr.com/ru/articles/495554/` | 4 |
 | https://habr.com/ru/articles/495554/`, | 3 |
-| https://habr.com/ru/articles/786278/ | 3 |
-| https://habr.com/ru/articles/800033/ | 3 |
-| https://habr.com/ru/articles/893356/ | 6 |
-| https://habr.com/ru/articles/893356/` | 3 |
-| https://habr.com/ru/articles/938626/ | 4 |
-| https://habr.com/ru/articles/938626/, | 4 |
-| https://habr.com/ru/articles/938626/` | 3 |
-| https://habr.com/ru/articles/943498/ | 4 |
-| https://habr.com/ru/articles/943498/, | 4 |
-| https://habr.com/ru/articles/943498/` | 3 |
-| https://habr.com/ru/articles/955798/ | 6 |
-| https://habr.com/ru/articles/955798/` | 3 |
-| https://habr.com/ru/articles/971620/ | 3 |
-| https://habr.com/ru/articles/975414/ | 6 |
-| https://habr.com/ru/articles/975414/` | 3 |
-| https://habr.com/ru/articles/983684/ | 6 |
-| https://habr.com/ru/articles/983684/` | 3 |
-| https://habr.com/ru/articles/987094/ | 3 |
-| https://habr.com/ru/articles/996144/ | 6 |
-| https://habr.com/ru/articles/996144/` | 3 |
-| https://habr.com/ru/companies/airi/articles/1000720/ | 7 |
-| https://habr.com/ru/companies/airi/articles/1000720/` | 4 |
-| https://habr.com/ru/companies/airi/articles/1000720/`, | 2 |
-| https://habr.com/ru/companies/airi/articles/855128/ | 7 |
-| https://habr.com/ru/companies/airi/articles/855128/` | 3 |
-| https://habr.com/ru/companies/neuronet/articles/592625/ | 3 |
-| https://habr.com/ru/companies/ruvds/articles/980152/ | 3 |
-| https://habr.com/ru/companies/sberdevices/articles/855080/ | 3 |
-| https://habr.com/ru/companies/selectel/articles/1023796/ | 3 |
-| https://habr.com/ru/companies/surfstudio/articles/943108/ | 6 |
-| https://habr.com/ru/companies/surfstudio/articles/943108/` | 3 |
-| https://habr.com/ru/companies/teamly/articles/1024062/ | 6 |
-| https://habr.com/ru/companies/teamly/articles/1024062/` | 3 |
-| https://habr.com/ru/companies/yadro/articles/645843/ | 3 |
-| https://habr.com/ru/companies/yadro/articles/648119/ | 3 |
-| https://habr.com/ru/companies/yandex/articles/1019928/ | 7 |
-| https://habr.com/ru/companies/yandex/articles/1019928/` | 3 |
-| https://habr.com/ru/companies/yoomoney/articles/1012870/ | 7 |
-| https://habr.com/ru/companies/yoomoney/articles/1012870/` | 3 |
-| https://habr.com/ru/news/789164/ | 3 |
-| https://happyin.space/ | 4 |
-| https://img.shields.io/badge/health-77/100-green | 4 |
-| https://img.shields.io/badge/manifests-13-blue | 4 |
-| https://img.shields.io/badge/mcp--servers-10-blue | 2 |
+| https://habr.com/ru/articles/786278/ | 5 |
+| https://habr.com/ru/articles/800033/ | 5 |
+| https://habr.com/ru/articles/893356/ | 10 |
+| https://habr.com/ru/articles/893356/` | 6 |
+| https://habr.com/ru/articles/938626/ | 7 |
+| https://habr.com/ru/articles/938626/, | 7 |
+| https://habr.com/ru/articles/938626/` | 5 |
+| https://habr.com/ru/articles/943498/ | 7 |
+| https://habr.com/ru/articles/943498/, | 7 |
+| https://habr.com/ru/articles/943498/` | 6 |
+| https://habr.com/ru/articles/955798/ | 10 |
+| https://habr.com/ru/articles/955798/` | 5 |
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [12-content-overview]]
+- [[31-content-overview]]
+- [[README]]
+- [[TABLES]]
+
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [BROKEN_LINKS]]
+
+## Использование
+
+```bash
+python scripts/improve_crosslink_all.py
+```
+
+## Смотрите также
+- [[BROKEN_LINKS]]
 - [[CITATION_INDEX]]
 - [[CONTACTS]]
-- [[ENTITIES]]
+- [[anastasiyaw]]
 

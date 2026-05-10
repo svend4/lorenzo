@@ -4,7 +4,7 @@ tags:
   - rag
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 7. Open Questions
@@ -170,7 +170,7 @@ requires research.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[158-4-proposed-infrastructure]] (сходство 0.16)
 - [[140-3-three-inter-layer-protocols]] (сходство 0.15)
 - [[145-8-call-to-action]] (сходство 0.15)
@@ -180,7 +180,13 @@ requires research.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Open Questions"
+```
+
+## Смотрите также
 - [[158-4-proposed-infrastructure]]
 - [[145-8-call-to-action]]
 - [[140-3-three-inter-layer-protocols]]
@@ -224,3 +230,19 @@ requires research.
 - [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _21%_
 - [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _21%_
 - [[143-6-four-deployment-domains|6. Four Deployment Domains]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[134-the-double-triangle-architecture-md]]
+- [[140-3-three-inter-layer-protocols]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[143-6-four-deployment-domains]]
+- [[145-8-call-to-action]]
+- [[148-appendix-a-glossary]]
+- [[174-5-architectural-specification]]
+- _...ещё 1_
+

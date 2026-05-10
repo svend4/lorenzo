@@ -57,3 +57,19 @@ python scripts/improve_semantic_search.py --query "Memory Firewall против 
 - [1-agentic-knowledge-os](../ensembles/1-agentic-knowledge-os.md)
 
 _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
+- [03-a2a-vs-mcp-protocols](03-a2a-vs-mcp-protocols.md)
+- [README](README.md)
+- _...ещё 3_
+

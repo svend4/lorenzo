@@ -175,3 +175,19 @@ python scripts/improve_semantic_search.py --query "2 What Makes a Professional C
 - [09-relationship-other-agents](09-relationship-other-agents.md)
 - [03-empirical-case-obuchay](03-empirical-case-obuchay.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-five-type-typology](01-five-type-typology.md)
+- [03-empirical-case-obuchay](03-empirical-case-obuchay.md)
+- [04-architecture](04-architecture.md)
+- [09-relationship-other-agents](09-relationship-other-agents.md)
+- _...ещё 1_
+

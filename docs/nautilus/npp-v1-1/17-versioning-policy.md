@@ -82,3 +82,18 @@ python scripts/improve_semantic_search.py --query "17 Versioning Policy"
 - [07-portal-entry](07-portal-entry.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [12-versioning-policy](../npp-v1-0/12-versioning-policy.md)
+- [07-portal-entry](07-portal-entry.md)
+- [13-rest-api](13-rest-api.md)
+- [README](README.md)
+

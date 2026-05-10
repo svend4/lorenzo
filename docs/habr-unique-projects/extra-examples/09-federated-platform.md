@@ -64,3 +64,19 @@ python scripts/improve_semantic_search.py --query "Federated platform"
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-sgb-advocate-colleague-example](../../anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
+- [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- _...ещё 6_
+

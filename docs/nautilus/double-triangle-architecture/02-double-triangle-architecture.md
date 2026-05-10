@@ -150,3 +150,19 @@ large organizations (Star(n)) without protocol changes.
 - 04-[nautilus-portal-substrate](04-nautilus-portal-substrate.md)
 - [140-3-three-inter-layer-protocols](../../02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
+- [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
+- [04-nautilus-portal-substrate](04-nautilus-portal-substrate.md)
+- _...ещё 2_
+

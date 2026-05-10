@@ -196,3 +196,15 @@ python scripts/improve_topic_model.py
 - [SEARCH](SEARCH.md)
 - [READABILITY](READABILITY.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

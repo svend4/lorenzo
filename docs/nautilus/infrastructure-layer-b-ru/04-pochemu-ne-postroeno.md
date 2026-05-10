@@ -100,3 +100,16 @@ python scripts/improve_semantic_search.py --query "Почему это не бы
 - [05-priblizheniya](05-priblizheniya.md)
 - [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [README](README.md)
+

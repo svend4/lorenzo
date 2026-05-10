@@ -1,5 +1,15 @@
 # Claude hat geantwortet: Отличный запрос.
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -323,4 +333,20 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Отл
 - [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
 - [00-question-innovations-transitions](00-question-innovations-transitions.md)
 - [01-completing-loop](../transmission-box/01-completing-loop.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-why-natural-for-programmers](../../anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
+- [01-claude-response](../community-discussions/habr-article-1-reaction/01-claude-response.md)
+- [README](README.md)
+- _...ещё 2_
 

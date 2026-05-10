@@ -3,16 +3,31 @@ title: "INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
+
+<!-- toc-auto -->
+## Contents
+
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](#infrastructure-for-ai-collaborative-intellectual-workmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > - [[151-open-knowledge-work-foundation-md]] (сходство 0.25)
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -26,7 +41,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[151-open-knowledge-work-foundation-md]] (сходство 0.25)
 - [[249-composite-skills-agent-md]] (сходство 0.12)
 - [[208-professional-colleague-agents-md]] (сходство 0.12)
@@ -77,9 +92,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "INFRASTRUCTURE FOR AI COLLABORATIVE"
+```
+
+## Смотрите также
 - [[151-open-knowledge-work-foundation-md]]
 - [[304-ingit-as-cowork-native-workspace-substrate-md]]
 - [[249-composite-skills-agent-md]]
 - [[208-professional-colleague-agents-md]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [[134-the-double-triangle-architecture-md]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[153-executive-summary]]
+- [[155-1-problem-statement]]
+- [[208-professional-colleague-agents-md]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[249-composite-skills-agent-md]]
+- [[257-4-the-sub-agent-registry]]
+- _...ещё 6_
 

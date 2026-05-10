@@ -55,3 +55,19 @@ python scripts/improve_semantic_search.py --query "Пара 4 Speech to text л�
 - [3-discovery-research](../final-ensembles/3-discovery-research.md)
 - [6-metaphor](6-metaphor.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md)
+- [3-discovery-research](../final-ensembles/3-discovery-research.md)
+- _...ещё 3_
+

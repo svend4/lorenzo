@@ -172,3 +172,18 @@ python scripts/improve_semantic_search.py --query "3 Three Inter Layer Protocols
 - [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
 - [139-2-the-double-triangle-architecture](../../02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
+- [README](README.md)
+

@@ -103,3 +103,17 @@ python scripts/improve_semantic_search.py --query "Практические ре
 - [11-zaklyuchenie](11-zaklyuchenie.md)
 - [295-конкретный-случай-перед-нами](../../02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [README](README.md)
+

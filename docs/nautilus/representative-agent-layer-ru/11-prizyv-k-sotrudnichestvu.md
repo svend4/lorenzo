@@ -80,3 +80,19 @@ python scripts/improve_semantic_search.py --query "11 Призыв к сотру
 - [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
 - [199-9-стратегия-поэтапного-развёртывания](../../02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
+- [08-riski-mery](08-riski-mery.md)
+- [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- _...ещё 1_
+

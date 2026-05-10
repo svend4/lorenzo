@@ -3,16 +3,31 @@ title: "passports/meta.md"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # passports/meta.md
+
+<!-- toc-auto -->
+## Contents
+
+- [passports/meta.md](#passportsmetamd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > > **Символьный угол экосистемы svend4**
 
 ---
 <!-- tags: collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,7 +48,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[45-passports-pro2-md]] (сходство 0.24)
 - [[35-passports-info1-md]] (сходство 0.22)
 - [[27-15-glossary-of-examples]] (сходство 0.18)
@@ -43,7 +58,14 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports meta md"
+```
+
+## Смотрите также
 - [[35-passports-info1-md]]
 - [[27-15-glossary-of-examples]]
 - [[45-passports-pro2-md]]
@@ -89,3 +111,17 @@ markdown
 - [[36-essence|Essence]] _33%_
 - [[97-22-glossary-of-reference-examples|22. Glossary of Reference Examples]] _33%_
 - [[59-angle-perspective|Angle / Perspective]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[35-passports-info1-md]]
+- [[39-angle-perspective]]
+- [[45-passports-pro2-md]]
+- [[49-angle-perspective]]
+- [[59-angle-perspective]]
+- [[README]]
+
+_Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

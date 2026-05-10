@@ -114,3 +114,19 @@ python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
 - [09-phased-rollout](09-phased-rollout.md)
 - [10-open-questions](10-open-questions.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [12-call-for-collaboration](../composite-skills-agents/12-call-for-collaboration.md)
+- [00-abstract](00-abstract.md)
+- [09-phased-rollout](09-phased-rollout.md)
+- [10-open-questions](10-open-questions.md)
+- _...ещё 1_
+

@@ -2,12 +2,34 @@
 title: "Appendix A: Decision Tree for InGit Adopters"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Appendix A: Decision Tree for InGit Adopters
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Decision Tree for InGit Adopters](#appendix-a-decision-tree-for-ingit-adopters)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > Quick reference for users evaluating InGit + Cowork:
 
 ---
@@ -48,7 +70,7 @@ needs.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[270-appendix-b-sub-agent-registry-schema-sketch]] (сходство 0.13)
 - [[322-appendix-b-comparison-matrix]] (сходство 0.10)
 
@@ -57,7 +79,7 @@ needs.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[270-appendix-b-sub-agent-registry-schema-sketch]]
 - [[28-appendix-a-minimal-working-example]]
 - [[271-appendix-c-configuration-template-example]]
@@ -97,3 +119,13 @@ needs.
 - [[326-содержание|Содержание]] _21%_
 - [[CLUSTERS|Кластеры тематически близких файлов]] _21%_
 - [[PARAGRAPH_QUALITY|Качество абзацев]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[308-table-of-contents]]
+- [[326-содержание]]
+- [[README]]
+

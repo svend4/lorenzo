@@ -171,3 +171,16 @@ python scripts/improve_semantic_search.py --query "5 The Economics of Profession
 - [260-7-economics-of-combinatorial-replication](../../02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
 - [08-pilot-sgb-advocate](08-pilot-sgb-advocate.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)
+- [README](README.md)
+

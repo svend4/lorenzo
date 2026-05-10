@@ -3,16 +3,25 @@ title: "Table of Contents"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Table of Contents
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > 1. **Why Single-Triangle Models Are Incomplete**
 
 ---
 <!-- tags: architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -34,7 +43,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[149-appendix-b-summary-of-contributions]] (сходство 0.24)
 - [[253-table-of-contents]] (сходство 0.15)
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.15)
@@ -44,7 +53,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
+## Смотрите также
 - [[149-appendix-b-summary-of-contributions]]
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 - [[251-ai-support-through-configurable-specialist-ensembl]]
@@ -91,3 +106,19 @@ date: 2026-04-29
 - [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _29%_
 - [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _29%_
 - [[268-references|References]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (15)
+- [[136-abstract]]
+- [[146-acknowledgments]]
+- [[149-appendix-b-summary-of-contributions]]
+- [[154-table-of-contents]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[169-table-of-contents]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- _...ещё 7_
+

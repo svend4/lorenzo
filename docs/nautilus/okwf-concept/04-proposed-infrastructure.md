@@ -245,3 +245,19 @@ python scripts/improve_semantic_search.py --query "4 Proposed Infrastructure"
 - [05-economic-model](05-economic-model.md)
 - [06-four-deployment-domains](../double-triangle-architecture/06-four-deployment-domains.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-naming-rationale-lorenzo-medici](../../lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md)
+- [04-nautilus-portal-substrate](../double-triangle-architecture/04-nautilus-portal-substrate.md)
+- [06-four-deployment-domains](../double-triangle-architecture/06-four-deployment-domains.md)
+- [07-open-questions](../double-triangle-architecture/07-open-questions.md)
+- _...ещё 9_
+

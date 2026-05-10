@@ -134,3 +134,18 @@ python scripts/improve_semantic_search.py --query "5 Economic Model"
 - [04-proposed-infrastructure](04-proposed-infrastructure.md)
 - [09-call-for-partnership](09-call-for-partnership.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+- [07-phased-rollout](07-phased-rollout.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [README](README.md)
+

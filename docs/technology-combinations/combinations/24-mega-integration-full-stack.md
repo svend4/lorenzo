@@ -1,5 +1,15 @@
 # Комбинация 24: MEGA-INTEGRATION: Full Stack
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -160,4 +170,20 @@ python scripts/improve_semantic_search.py --query "Комбинация 24 MEGA 
 - [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
 - [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
 - [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
+- [30-mega-stack-3-0-with-dsl-ast](30-mega-stack-3-0-with-dsl-ast.md)
+- _...ещё 2_
 

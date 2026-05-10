@@ -55,3 +55,18 @@ python scripts/improve_semantic_search.py --query "Пара 7 AutoResearch ци�
 - [3-discovery-research](../final-ensembles/3-discovery-research.md)
 - [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [2-autoresearch-legal](../final-ensembles/2-autoresearch-legal.md)
+

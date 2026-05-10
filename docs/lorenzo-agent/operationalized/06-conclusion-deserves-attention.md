@@ -1,5 +1,16 @@
 # Вывод: документ deserves serious attention
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Executive summary](#executive-summary)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -143,4 +154,20 @@ python scripts/improve_semantic_search.py --query "Вывод документ d
 - [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 - [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [FAQ](../../FAQ.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
+- _...ещё 2_
 

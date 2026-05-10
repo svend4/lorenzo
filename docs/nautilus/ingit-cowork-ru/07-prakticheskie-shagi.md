@@ -133,3 +133,16 @@ python scripts/improve_semantic_search.py --query "7 Практические п
 - [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
 - [07-difference-2-domain-specialization](../../anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
+- [README](README.md)
+

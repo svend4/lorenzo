@@ -1,5 +1,15 @@
 # Horizon Europe Cluster 3 — Civil Security for Society — пересекается с «access t…
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -71,4 +81,20 @@ python scripts/improve_semantic_search.py --query "Horizon Europe Cluster 3 Civi
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
 - [03-what-doesnt-exist-on-market](03-what-doesnt-exist-on-market.md)
 - [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [02-two-tier-publication](../privacy-federation/02-two-tier-publication.md)
+- [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
+- _...ещё 1_
 

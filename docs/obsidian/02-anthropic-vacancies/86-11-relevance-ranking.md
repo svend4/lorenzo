@@ -4,12 +4,10 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 11. Relevance Ranking
-<!-- tags: anthropic, collaboration -->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -17,6 +15,16 @@ date: 2026-04-29
 - [11. Relevance Ranking](#11-relevance-ranking)
   - [11.1. Scoring Formula](#111-scoring-formula)
   - [11.2. MAY Extensions](#112-may-extensions)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+<!-- tags: anthropic, collaboration -->
 
 
 <!-- summary -->
@@ -78,7 +86,7 @@ embeddings) могут использоваться, но MUST быть опци
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[84-9-consensus-algorithm]] (сходство 0.12)
 - [[20-8-consensus-algorithm]] (сходство 0.10)
 
@@ -87,9 +95,24 @@ embeddings) могут использоваться, но MUST быть опци
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[84-9-consensus-algorithm]]
 - [[22-10-queryresult-structure]]
 - [[25-13-reference-implementation]]
 - [[20-8-consensus-algorithm]]
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[103-appendix-b-change-log]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[21-9-query-flow]]
+- [[22-10-queryresult-structure]]
+- [[25-13-reference-implementation]]
+- [[71-критерии-выбора-для-фазы-3]]
+- [[README]]
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._

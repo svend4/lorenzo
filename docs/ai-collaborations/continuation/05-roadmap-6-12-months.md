@@ -54,3 +54,19 @@ python scripts/improve_semantic_search.py --query "Roadmap на 6 12 месяц�
 - [12-дорожная-карта-прототипа-следующей-итерации](../../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
 - [12-roadmap](../../01-svyazi/12-roadmap.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [PROTOTYPE_SPEC](../../PROTOTYPE_SPEC.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-metrics-tree](06-metrics-tree.md)
+- [07-vs-notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
+- _...ещё 4_
+

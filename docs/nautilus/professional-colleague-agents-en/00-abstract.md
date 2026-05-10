@@ -1,5 +1,11 @@
 # Professional Colleague Agents
 
+<!-- toc-auto -->
+## Содержание
+
+- Основной раздел
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -107,4 +113,16 @@ python scripts/improve_semantic_search.py --query "Professional Colleague Agents
 - [09-relationship-other-agents](09-relationship-other-agents.md)
 - [01-five-type-typology](01-five-type-typology.md)
 - [210-abstract](../../02-anthropic-vacancies/210-abstract.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 

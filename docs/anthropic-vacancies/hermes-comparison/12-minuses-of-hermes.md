@@ -74,3 +74,16 @@ python scripts/improve_semantic_search.py --query "Минусы Hermes где н
 - [11-pluses-of-hermes](11-pluses-of-hermes.md)
 - [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reprioritization](13-reprioritization.md)
+- [README](README.md)
+

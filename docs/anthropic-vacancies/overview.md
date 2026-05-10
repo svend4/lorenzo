@@ -71,3 +71,18 @@ python scripts/improve_semantic_search.py --query "Обзор 436 открыты
 - [08-safeguards-trust-safety](clusters/08-safeguards-trust-safety.md)
 - [09-product-management-support-ops](clusters/09-product-management-support-ops.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [README](README.md)
+- [02-sales](clusters/02-sales.md)
+- [signals](signals.md)
+- [reading-paths](../reading-paths.md)
+

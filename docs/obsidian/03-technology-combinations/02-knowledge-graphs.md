@@ -2,10 +2,15 @@
 title: "Графы знаний и Legal AI"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Графы знаний и Legal AI
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -18,10 +23,21 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller)
 **Проекты:** Yodoca, Auto AI Router, [[01-executive-summary|AutoResearch]]
 
 ---
+
+<!-- toc -->
+## Содержание
+
+
+---
+
 <!-- tags: memory, rag, orchestration, knowledge, self-improvement, collaboration -->
 
 
@@ -101,7 +117,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[05-benchmarks]] (сходство 0.14)
 - [[03-local-first]] (сходство 0.11)
 
@@ -110,9 +126,26 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Графы знаний и Legal AI"
+```
+
+## Смотрите также
 - [[05-benchmarks]]
 - [[03-local-first]]
 - [[01-agent-routing]]
 - [[04-приоритетные-ансамбли]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[01-agent-routing]]
+- [[03-local-first]]
+- [[05-benchmarks]]
+- [[README]]
 

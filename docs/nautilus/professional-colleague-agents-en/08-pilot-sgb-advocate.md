@@ -245,3 +245,18 @@ python scripts/improve_semantic_search.py --query "8 Pilot Proposal SGB Advocate
 - [09-okwf-integration](../composite-skills-agents/09-okwf-integration.md)
 - [10-appendices](../okwf-concept/10-appendices.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [10-appendices](../okwf-concept/10-appendices.md)
+- [05-economics-replication](05-economics-replication.md)
+- [README](README.md)
+- [09-phased-rollout](../representative-agent-layer-en/09-phased-rollout.md)
+

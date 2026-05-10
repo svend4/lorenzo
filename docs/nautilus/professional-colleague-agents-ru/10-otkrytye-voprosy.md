@@ -124,3 +124,16 @@ AI-усиление подрывает? Что мы могли бы потеря
 # Поиск по теме документа
 python scripts/improve_semantic_search.py --query "10 Открытые вопросы"
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [README](README.md)
+

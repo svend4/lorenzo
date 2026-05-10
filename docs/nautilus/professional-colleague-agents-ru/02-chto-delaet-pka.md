@@ -202,3 +202,19 @@ python scripts/improve_semantic_search.py --query "2 Что делает аге�
 - [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
 - [01-pyat-tipov](01-pyat-tipov.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-pyat-tipov](01-pyat-tipov.md)
+- [03-keys-obuchay](03-keys-obuchay.md)
+- [04-arkhitektura](04-arkhitektura.md)
+- [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
+- _...ещё 1_
+

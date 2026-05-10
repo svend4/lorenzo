@@ -109,7 +109,7 @@ def main():
             continue
         for q, a in extract_qa(text):
             cat = categorize(q, a)
-            by_cat[cat].append((q, a, str(f.relative_to(ROOT))))
+            by_cat[cat].append((q, a, str(f.relative_to(DOCS))))
             total += 1
 
     cat_order = ["Архитектура", "MVP/Запуск", "Компоненты", "Интеграция",

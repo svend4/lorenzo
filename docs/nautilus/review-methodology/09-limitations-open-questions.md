@@ -93,3 +93,17 @@ python scripts/improve_semantic_search.py --query "8 Ограничения и �
 - [02-formal-workflow](02-formal-workflow.md)
 - [107-1-контекст-и-мотивация](../../02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-context-motivation](01-context-motivation.md)
+- [06-relation-existing-methodologies](06-relation-existing-methodologies.md)
+- [README](README.md)
+

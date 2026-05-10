@@ -5,10 +5,15 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Why This Document Exists
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- toc -->
 ## Содержание
@@ -23,6 +28,10 @@ date: 2026-04-29
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** If the project continues — and it should — the next phase needs different infrastructure than chat alone.
@@ -80,7 +89,7 @@ This document explores that observation.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[276-the-two-layer-stack-as-it-exists]] (сходство 0.18)
 - [[286-acknowledgments]] (сходство 0.16)
 - [[279-existing-approximations]] (сходство 0.14)
@@ -90,7 +99,13 @@ This document explores that observation.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Document Exists"
+```
+
+## Смотрите также
 - [[286-acknowledgments]]
 - [[276-the-two-layer-stack-as-it-exists]]
 - [[283-what-this-document-doesn-t-solve]]
@@ -133,3 +148,19 @@ This document explores that observation.
 - [[287-references|References]] _29%_
 - [[319-acknowledgments|Acknowledgments]] _29%_
 - [[267-acknowledgments|Acknowledgments]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[267-acknowledgments]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[278-why-this-hasn-t-been-built]]
+- [[280-the-specific-case-in-front-of-us]]
+- [[283-what-this-document-doesn-t-solve]]
+- [[284-practical-recommendations-for-the-current-project]]
+- [[285-closing]]
+- _...ещё 4_
+

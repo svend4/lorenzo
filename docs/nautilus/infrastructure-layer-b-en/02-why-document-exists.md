@@ -79,3 +79,19 @@ python scripts/improve_semantic_search.py --query "Why This Document Exists"
 - [03-two-layer-stack](03-two-layer-stack.md)
 - [10-what-not-solved](10-what-not-solved.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+- [05-why-not-built](05-why-not-built.md)
+- _...ещё 2_
+

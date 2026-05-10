@@ -1,5 +1,15 @@
 # Что такое «внуковая» комбинация — operationalized Lorenzo
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -100,4 +110,20 @@ python scripts/improve_semantic_search.py --query "Что такое внуко�
 - [01-pluses-1-7](01-pluses-1-7.md)
 - [06-conclusion-deserves-attention](06-conclusion-deserves-attention.md)
 - [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](../../ai-collaborations/fast-tracks/README.md)
+- [00-question-habr-examples](../../habr-unique-projects/extra-examples/00-question-habr-examples.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- _...ещё 3_
 

@@ -76,3 +76,18 @@ python scripts/improve_semantic_search.py --query "Коммерциализац�
 - [06-metrics-tree](06-metrics-tree.md)
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-metrics-tree](06-metrics-tree.md)
+- [README](README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+

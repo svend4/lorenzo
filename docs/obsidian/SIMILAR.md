@@ -8,10 +8,43 @@ tags:
   - anthropic
   - collaboration
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Похожие документы
+
+<!-- toc-auto -->
+## Contents
+
+- [Топ-20 самых похожих пар](#топ-20-самых-похожих-пар)
+- [По разделам](#по-разделам)
+  - [02-anthropic-vacancies](#02-anthropic-vacancies)
+  - [04-ai-collaborations](#04-ai-collaborations)
+  - [05-habr-projects](#05-habr-projects)
+  - [contacts](#contacts)
+  - [root](#root)
+  - [templates](#templates)
+
+
+  - 02-[anthropic-vacancies](#02-anthropic-vacancies)
+  - [04-ai-collaborations](#04-ai-collaborations)
+  - [05-habr-projects](#05-habr-projects)
+  - [contacts](#contacts)
+  - [root](#root)
+  - [templates](#templates)
+  - 02-[anthropic-vacancies](#02-anthropic-vacancies)
+  - [04-ai-collaborations](#04-ai-collaborations)
+  - [05-habr-projects](#05-habr-projects)
+  - [contacts](#contacts)
+  - [root](#root)
+  - [templates](#templates)
+  - 02-[anthropic-vacancies](#02-anthropic-vacancies)
+  - [04-ai-collaborations](#04-ai-collaborations)
+  - [05-habr-projects](#05-habr-projects)
+  - [contacts](#contacts)
+  - [root](#root)
+  - [templates](#templates)
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
@@ -24,8 +57,6 @@ date: 2026-04-29
 
 ---
 <!-- tags: memory, security, architecture, roadmap, anthropic, collaboration -->
-
-
 
 
 **Файлов проанализировано:** 496
@@ -101,3 +132,9 @@ date: 2026-04-29
 - `contact-outreach.md` ↔ `nlaik.md` (0.600)
 - `contact-outreach.md` ↔ `sonia-black.md` (0.579)
 - `contact-outreach.md` ↔ `vladspace.md` (0.574)
+
+## Использование
+
+```bash
+python scripts/improve_similar.py
+```

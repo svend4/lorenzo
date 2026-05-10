@@ -131,3 +131,18 @@ python scripts/improve_semantic_search.py --query "10 Open Questions"
 - [11-open-questions](../composite-skills-agents/11-open-questions.md)
 - [11-call-for-collaboration](11-call-for-collaboration.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [FAQ](../../FAQ.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-risks-mitigations](08-risks-mitigations.md)
+- [11-call-for-collaboration](11-call-for-collaboration.md)
+- [README](README.md)
+

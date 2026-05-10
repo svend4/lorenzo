@@ -1,5 +1,15 @@
 # Anchor-узел: Habr Scout как первый шаг
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -162,4 +172,20 @@ python scripts/improve_semantic_search.py --query "Anchor узел Habr Scout к
 - [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 - [02-minuses-1-10](02-minuses-1-10.md)
 - [01-pluses-1-7](01-pluses-1-7.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [02-minuses-1-10](02-minuses-1-10.md)
+- [04-recommendations](04-recommendations.md)
+- _...ещё 2_
 

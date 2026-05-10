@@ -56,3 +56,19 @@
 ```bash
 python scripts/improve_semantic_search.py --query "Svyazi svyazi 2 0 Архитектура и исследов"
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [00-intro-part2](00-intro-part2.md)
+- [03-component-catalog](03-component-catalog.md)
+- [07-mvp-planning](07-mvp-planning.md)
+- [09-architectural-gaps](09-architectural-gaps.md)
+- [10-second-order-ensembles](10-second-order-ensembles.md)
+- [11-integration-contracts](11-integration-contracts.md)
+- [README](../04-ai-collaborations/README.md)
+- [INDEX](../INDEX.md)
+- _...ещё 5_
+

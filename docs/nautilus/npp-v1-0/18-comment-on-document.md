@@ -74,3 +74,16 @@ python scripts/improve_semantic_search.py --query "Комментарий диз
 - [07-portal-entry](../npp-v1-1/07-portal-entry.md)
 - [22-glossary](../npp-v1-1/22-glossary.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [22-glossary](../npp-v1-1/22-glossary.md)
+

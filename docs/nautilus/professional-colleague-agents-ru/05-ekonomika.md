@@ -202,3 +202,17 @@ python scripts/improve_semantic_search.py --query "5 Экономика тира
 - [04-arkhitektura](04-arkhitektura.md)
 - [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-arkhitektura](04-arkhitektura.md)
+- [08-pilot-sgb-kolega](08-pilot-sgb-kolega.md)
+- [README](README.md)
+

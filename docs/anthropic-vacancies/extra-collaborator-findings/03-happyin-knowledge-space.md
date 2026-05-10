@@ -77,3 +77,16 @@ python scripts/improve_semantic_search.py --query "Happyin Knowledge Space Ан�
 - [01-coally](01-coally.md)
 - [07-key-observation](07-key-observation.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+

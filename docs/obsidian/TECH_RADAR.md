@@ -2,7 +2,7 @@
 title: "Tech Radar — Svyazi 2.0"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Tech Radar — Svyazi 2.0
@@ -33,17 +33,6 @@ date: 2026-04-29
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, anthropic, collaboration -->
 
 
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
 
 
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
@@ -137,17 +126,19 @@ _Radar обновляется вручную при существенных и�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[ONBOARDING]]
 - [[COMPONENT_MATRIX]]
-- [[WORD_FREQ]]
-- [[RISK_REGISTER]]
+- [[FOOTNOTES]]
+- [[license-tree]]
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [[README|docs]]
-- [[TABLES|Все таблицы репозитория]]
-- [[CONCEPTS|Глоссарий понятий]]
-- [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]]
-- [[SITEMAP|Карта репозитория Lorenzo]]
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+

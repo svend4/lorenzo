@@ -56,3 +56,16 @@ python scripts/improve_semantic_search.py --query "Интегральный по
 - [04-tertiary-research-engineer-agents](../01-initial-analysis/04-tertiary-research-engineer-agents.md)
 - [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [01-profile-five-layers](../01-initial-analysis/01-profile-five-layers.md)
+- [README](README.md)
+

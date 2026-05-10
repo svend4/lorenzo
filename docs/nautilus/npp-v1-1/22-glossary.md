@@ -340,3 +340,18 @@ markdown
 - [16-glossary](../review-methodology/16-glossary.md)
 - [18-comment-on-document](../npp-v1-0/18-comment-on-document.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [18-comment-on-document](../npp-v1-0/18-comment-on-document.md)
+- [README](README.md)
+- [16-glossary](../review-methodology/16-glossary.md)
+

@@ -58,3 +58,17 @@ python scripts/improve_semantic_search.py --query "Что уже существ�
 - [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
 - [03-why-natural-for-programmers](03-why-natural-for-programmers.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [README](README.md)
+

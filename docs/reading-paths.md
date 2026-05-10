@@ -134,3 +134,19 @@ python scripts/improve_semantic_search.py --query "Reading paths рекомен�
 - [SITEMAP](SITEMAP.md)
 - [READING_ORDER](READING_ORDER.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [01-three-key-candidates](ai-collaborations/candidates/01-three-key-candidates.md)
+- [signals](anthropic-vacancies/signals.md)
+- _...ещё 9_
+

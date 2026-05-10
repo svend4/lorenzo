@@ -1,5 +1,15 @@
 # Что у нас есть в трёх info repositories (info1/info7/info40)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -250,4 +260,19 @@ python scripts/improve_semantic_search.py --query "Что у нас есть в 
 - [13-reprioritization](../hermes-comparison/13-reprioritization.md)
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
 - 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reprioritization](../hermes-comparison/13-reprioritization.md)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [README](README.md)
 

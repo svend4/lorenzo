@@ -2004,3 +2004,19 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хор
 - [04-ten-domains](../../representative-agent-layer-en/04-ten-domains.md)
 - [173-4-ten-domains-of-application](../../../02-anthropic-vacancies/173-4-ten-domains-of-application.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+- [01-response](../voiceless-contributors/01-response.md)
+- [01-cinderella-syndrome](../../representative-agent-layer-en/01-cinderella-syndrome.md)
+- _...ещё 4_
+

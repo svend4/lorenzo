@@ -69,3 +69,18 @@ python scripts/improve_semantic_search.py --query "CoAlly distributed shared mem
 - [02-vitaly-graph-cognitive-memory](02-vitaly-graph-cognitive-memory.md)
 - [02-formal-workflow](../../nautilus/review-methodology/02-formal-workflow.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-vitaly-graph-cognitive-memory](02-vitaly-graph-cognitive-memory.md)
+- [03-happyin-knowledge-space](03-happyin-knowledge-space.md)
+- [README](README.md)
+

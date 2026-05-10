@@ -54,3 +54,19 @@ python scripts/improve_semantic_search.py --query "Пара 6 Деревня а�
 - [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
 - 1-[llm-gateway](1-llm-gateway.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [1-llm-gateway](1-llm-gateway.md)
+- [3-adversarial-multi-ide](3-adversarial-multi-ide.md)
+- _...ещё 4_
+

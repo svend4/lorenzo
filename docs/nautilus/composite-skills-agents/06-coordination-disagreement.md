@@ -172,3 +172,17 @@ python scripts/improve_semantic_search.py --query "6 Coordination and Disagreeme
 - [256-3-what-makes-a-composite-skills-agent](../../02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
 - [05-configuration-ensembles](05-configuration-ensembles.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+- [README](README.md)
+

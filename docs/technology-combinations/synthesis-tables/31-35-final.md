@@ -81,3 +81,19 @@ def get_state_at(case_id, target_date):
 - [25-30-extended](25-30-extended.md)
 
 _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [31-event-sourced-legal-document-history](../combinations/31-event-sourced-legal-document-history.md)
+- [32-consensus-based-multi-agent-coordination](../combinations/32-consensus-based-multi-agent-coordination.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](../combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+- _...ещё 6_
+

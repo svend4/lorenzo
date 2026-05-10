@@ -65,3 +65,19 @@ class Bescheid(BaseModel):
 - [31-35-final](31-35-final.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [25-legal-dsl-code-transpiler](../combinations/25-legal-dsl-code-transpiler.md)
+- [27-hybrid-rag-with-ast-chunked-code](../combinations/27-hybrid-rag-with-ast-chunked-code.md)
+- [28-pydantic-enforced-legal-workflows](../combinations/28-pydantic-enforced-legal-workflows.md)
+- _...ещё 6_
+

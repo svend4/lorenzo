@@ -106,3 +106,18 @@ python scripts/improve_semantic_search.py --query "Что concept document NOT �
 - [00-context](00-context.md)
 - [06-section-6-proposer-role](06-section-6-proposer-role.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-context](00-context.md)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md)
+- [README](README.md)
+

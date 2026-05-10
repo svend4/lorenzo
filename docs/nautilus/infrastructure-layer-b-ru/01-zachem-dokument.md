@@ -88,3 +88,16 @@ python scripts/improve_semantic_search.py --query "Почему этот док�
 - [11-zaklyuchenie](11-zaklyuchenie.md)
 - [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [09-ne-reshaet](09-ne-reshaet.md)
+- [README](README.md)
+

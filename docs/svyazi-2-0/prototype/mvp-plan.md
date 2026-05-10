@@ -54,3 +54,19 @@ python scripts/improve_semantic_search.py --query "План MVP прототип
 - [executive-summary](../overview/executive-summary.md)
 - [first-contacts](../outreach/first-contacts.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [reading-paths](../../reading-paths.md)
+- [message-template](../outreach/message-template.md)
+- [executive-summary](../overview/executive-summary.md)
+- _...ещё 2_
+

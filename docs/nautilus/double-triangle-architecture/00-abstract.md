@@ -1,5 +1,11 @@
 # Abstract — The Double-Triangle Architecture
 
+<!-- toc-auto -->
+## Содержание
+
+- Основной раздел
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -106,4 +112,17 @@ python scripts/improve_semantic_search.py --query "Abstract The Double Triangle"
 - [04-nautilus-portal-substrate](04-nautilus-portal-substrate.md)
 - [08-call-to-action](08-call-to-action.md)
 - [136-abstract](../../02-anthropic-vacancies/136-abstract.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 

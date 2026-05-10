@@ -566,3 +566,17 @@ python scripts/improve_semantic_search.py --query "12 Заключение" --mo
 - [CONCEPTS](../../CONCEPTS.md)
 - [ACTION_ITEMS](../../ACTION_ITEMS.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-response](../community-discussions/habr-article-2-reaction/01-response.md)
+- [04-desyat-oblastey](04-desyat-oblastey.md)
+- [README](README.md)
+

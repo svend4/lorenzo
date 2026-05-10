@@ -1,5 +1,15 @@
 # Что брать из info repositories — concrete recommendations
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -159,4 +169,19 @@ python scripts/improve_semantic_search.py --query "Что брать из info r
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
 - [05-what-to-do-right-now](05-what-to-do-right-now.md)
 - 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-what-info-repos-contain](02-what-info-repos-contain.md)
+- [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
+- [05-what-to-do-right-now](05-what-to-do-right-now.md)
+- [README](README.md)
 

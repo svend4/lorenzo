@@ -116,3 +116,18 @@ python scripts/improve_semantic_search.py --query "12 Call for Collaboration"
 - [11-open-questions](11-open-questions.md)
 - [11-call-for-collaboration](../representative-agent-layer-en/11-call-for-collaboration.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [11-open-questions](11-open-questions.md)
+- [README](README.md)
+- [11-call-for-collaboration](../representative-agent-layer-en/11-call-for-collaboration.md)
+

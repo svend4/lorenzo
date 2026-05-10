@@ -49,3 +49,16 @@ python scripts/improve_semantic_search.py --query "Что добавляет п�
 - [08-conclusions](../../01-svyazi/08-conclusions.md)
 
 _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+

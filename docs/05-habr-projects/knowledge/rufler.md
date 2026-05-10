@@ -3,7 +3,7 @@ template: project-component
 version: "1.0"
 author: "zodigancode"
 author_handle: "@zodigancode"
-projects: ["Rufler"]
+projects: ["Rufler[^rufler]"]
 layer: orchestration
 license: MIT
 maturity: active-oss
@@ -29,6 +29,23 @@ _Обновлено: 2026-05-10_
 
 # Rufler
 
+<!-- toc -->
+## Содержание
+
+- [Статус](#статус)
+- [Contents](#contents)
+- [Профиль проекта](#профиль-проекта)
+- [Описание](#описание)
+- [Ключевые компоненты](#ключевые-компоненты)
+- [Пример структуры задачи (Rufler DSL)](#пример-структуры-задачи-rufler-dsl)
+- [Синергия со Svyazi[^svyazi] 2.0](#синергия-со-svyazi-20)
+- [Позиция в архитектуре](#позиция-в-архитектуре)
+- [Контакт](#контакт)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -50,7 +67,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting]
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, agent-memory-mcp
+**Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, Rufler, agent-memory-mcp
 
 ---
 
@@ -72,7 +89,7 @@ _Обновлено: 2026-05-10_
 
 ## Описание
 
-Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAML-файле: зависимости между задачами (`depends_on`), автоматическую генерацию целей для агентов (`auto-objective prompts`), управление жизненным циклом (`pause/resume`), учёт токенов (`token accounting`) и управление MCP-серверами.
+Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAML-файле: зависимости между задачами (`depends_on`), автоматическую генерацию целей для агентов (`auto-objective prompts`), управление жизненным циклом (`pause/resume`), учёт токенов (`token accounting`) и управление MCP[^mcp]-серверами.
 
 Ключевое отличие от mclaude: Rufler работает как декларативный конфигурационный слой (описал → запустил), mclaude — как протокол координации уже запущенных агентов.
 
@@ -126,3 +143,31 @@ Rufler — самый лёгкий путь к multi-agent pipeline: не нуж
 
 ---
 _Создано: 2026-05-10_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [README](README.md)
+- [mclaude](mclaude.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^rufler]: OSS-проект: оркестратор AI-агентов
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)

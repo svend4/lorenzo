@@ -87,3 +87,19 @@ python scripts/improve_semantic_search.py --query "Выводы"
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [12-roadmap](12-roadmap.md)
+- [README](README.md)
+- [02-методика-и-рамка-отбора](../04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [07-выводы](../04-ai-collaborations/07-выводы.md)
+- [08-что-это-продолжение-добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [CONTRADICTIONS](../CONTRADICTIONS.md)
+- [FOOTNOTES](../FOOTNOTES.md)
+- [OUTLINE](../OUTLINE.md)
+- _...ещё 7_
+

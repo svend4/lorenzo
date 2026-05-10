@@ -1,5 +1,15 @@
 # Сравнение с Terence Tao, Polymath Project
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -97,4 +107,20 @@ python scripts/improve_semantic_search.py --query "Сравнение с Terence
 - [00-question-rephrasing](00-question-rephrasing.md)
 - [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
 - [09-minuses-and-risks](09-minuses-and-risks.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-question-rephrasing](00-question-rephrasing.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+- [06-angel-vs-demon-duality](06-angel-vs-demon-duality.md)
+- _...ещё 4_
 

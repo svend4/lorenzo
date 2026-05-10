@@ -1,5 +1,21 @@
 # 3. Registry (`nautilus.json`)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [3. Registry (`nautilus.json`)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+  - [3.6. AutoAdapter Special Case](#36-autoadapter-special-case)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -151,4 +167,20 @@ Onboarding Path C (self-declaring repo).
 - [08-3-registry-nautilus-json](../../02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [07-portal-entry](07-portal-entry.md)
 - [02-terminology](02-terminology.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [18-comment-on-document](../npp-v1-0/18-comment-on-document.md)
+- [02-terminology](02-terminology.md)
+- [04-passport](04-passport.md)
+- [12-onboarding-paths](12-onboarding-paths.md)
+- _...ещё 2_
 

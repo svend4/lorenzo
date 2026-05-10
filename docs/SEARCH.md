@@ -1835,3 +1835,30 @@ python scripts/improve_reading_list.py --query "агент с памятью" --
 - [HEALTH](HEALTH.md) — общее здоровье репозитория
 - [METRICS](METRICS.md) — метрики качества документов
 - [BROKEN_LINKS](BROKEN_LINKS.md) — проверка ссылок
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [CLUSTERS](CLUSTERS.md)
+- [DUPLICATES](DUPLICATES.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [FAQ](FAQ.md)
+- [KPI](KPI.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [README](README.md)
+- _...ещё 7_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

@@ -94,3 +94,19 @@
 - [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.19)
 - [19-7-portalentry-structure](19-7-portalentry-structure.md) (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [README](README.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- _...ещё 1_
+

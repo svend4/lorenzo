@@ -193,3 +193,19 @@ python scripts/improve_semantic_search.py --query "3 What Makes a Composite Skil
 - [11-open-questions](11-open-questions.md)
 - [01-why-binary-incomplete](01-why-binary-incomplete.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-configuration-ensembles](05-configuration-ensembles.md)
+- [06-coordination-disagreement](06-coordination-disagreement.md)
+- [11-open-questions](11-open-questions.md)
+- _...ещё 1_
+

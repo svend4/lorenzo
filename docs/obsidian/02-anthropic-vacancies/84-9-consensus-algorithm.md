@@ -3,19 +3,10 @@ title: "9. Consensus Algorithm"
 tags:
   - rag
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 9. Consensus Algorithm
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Consensus Algorithm(9-consensus-algorithm) - 9.1.
-> ✅ **Результат:** Future Extensions (v2.0+)(95-future-extensions-v20) При query через portal, когда результаты возвращаются из нескольких --- 9.
-> 🏷️ **Ключевые слова:** `consensus`, `algorithm`, `fallback`, `query`, `anthropic`, `vacancies`, `через`, `portal`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -26,6 +17,23 @@ date: 2026-04-29
   - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
   - [9.4. Algorithm](#94-algorithm)
   - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Consensus Algorithm(9-consensus-algorithm) - 9.1.
+> ✅ **Результат:** Future Extensions (v2.0+)(95-future-extensions-v20) При query через portal, когда результаты возвращаются из нескольких --- 9.
+> 🏷️ **Ключевые слова:** `consensus`, `algorithm`, `fallback`, `query`, `anthropic`, `vacancies`, `через`, `portal`
+>
 
 
 <!-- summary -->
@@ -138,7 +146,7 @@ v2.0 MAY использовать:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[20-8-consensus-algorithm]] (сходство 0.34)
 - [[86-11-relevance-ranking]] (сходство 0.12)
 
@@ -147,9 +155,19 @@ v2.0 MAY использовать:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[20-8-consensus-algorithm]]
 - [[86-11-relevance-ranking]]
 - [[85-10-query-flow]]
 - [[129-примеры-запросов-в-claude]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[129-примеры-запросов-в-claude]]
+- [[21-9-query-flow]]
+- [[README]]
 

@@ -135,3 +135,17 @@ python scripts/improve_semantic_search.py --query "8 Риски и меры пр
 - [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)
 - [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- [README](README.md)
+

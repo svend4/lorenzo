@@ -1,27 +1,20 @@
 # REGISTRY — реестр артефактов Lorenzo
 
-<!-- summary -->
-> Реестр всех артефактов монорепозитория: скрипты, документы, шаблоны и их статусы.
-
-<!-- toc -->
+<!-- toc-auto -->
 ## Содержание
 
-- [Сводка](#сводка)
-- [Скрипты по группам](#скрипты-по-группам)
-- [Шаблоны](#шаблоны)
-- [Скилы](#скилы)
-- [MCP-серверы](#mcp-серверы)
-- [Манифесты задач](#манифесты-задач)
-- [Контакты](#контакты)
-- [Полезные команды](#полезные-команды)
+- Основной раздел
 
----
 
-<!-- tags: knowledge, ingestion, architecture, roadmap, self-improve, collaboration -->
+<!-- summary -->
+> REGISTRY — реестр артефактов Lorenzo — документ базы знаний репозитория Lorenzo.
+
+<!-- tags: docs, reference, lorenzo -->
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
 
+<!-- alert-added -->
 
 
 _Обновлено: 2026-05-10_
@@ -30,12 +23,12 @@ _Обновлено: 2026-05-10_
 
 | Слой | Кол-во |
 |------|--------|
-| Скрипты `improve_*.py` | 158 |
+| Скрипты `improve_*.py` | 161 |
 | Шаблоны `docs/templates/*.md` | 22 |
 | Скилы `.claude/skills/*.md` | 28 |
 | MCP-серверы | 12 |
 | Манифесты задач | 13 |
-| Контакты | 14 |
+| Контакты | 16 |
 
 ## Скрипты по группам
 
@@ -59,7 +52,7 @@ _Обновлено: 2026-05-10_
 | `reports` | 21 |
 | `structure` | 7 |
 | `textwork` | 9 |
-| `без группы` | 18 |
+| `без группы` | 21 |
 
 ## Шаблоны
 
@@ -160,6 +153,7 @@ _Обновлено: 2026-05-10_
 
 | Slug | Автор | Статус |
 |------|-------|--------|
+| `QA` | QA | unknown |
 | `anastasiyaw` | AnastasiyaW | not_started |
 | `andrey-chuyan` | andrey_chuyan | not_started |
 | `antipozitive` | Antipozitive | not_started |
@@ -172,6 +166,7 @@ _Обновлено: 2026-05-10_
 | `spbmolot` | spbmolot | studied |
 | `tagir-analyzes` | tagir_analyzes | not_started |
 | `vitalyoborin` | VitalyOborin | not_started |
+| `vitalysemenov` | VitaliySemenov | not_started |
 | `vladspace` | VladSpace | not_started |
 | `zodigancode` | zodigancode | not_started |
 

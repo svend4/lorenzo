@@ -162,3 +162,19 @@ python scripts/improve_semantic_search.py --query "7 Phased Rollout Plan"
 - [09-phased-rollout](../representative-agent-layer-en/09-phased-rollout.md)
 - [09-call-for-partnership](09-call-for-partnership.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-economic-model](05-economic-model.md)
+- [08-risk-analysis](08-risk-analysis.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [README](README.md)
+- _...ещё 1_
+

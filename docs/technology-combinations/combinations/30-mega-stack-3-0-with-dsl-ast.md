@@ -1,5 +1,15 @@
 # Комбинация 30: MEGA-STACK 3.0 with DSL & AST
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -125,4 +135,20 @@ python scripts/improve_semantic_search.py --query "Комбинация 30 MEGA 
 - [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
 - [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
 - [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+- [continuation-10-domains](../research-reports/continuation-10-domains.md)
+- _...ещё 1_
 

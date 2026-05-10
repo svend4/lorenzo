@@ -157,3 +157,16 @@ python scripts/improve_semantic_search.py --query "3 What Makes a Representative
 - [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md)
 - [01-five-type-typology](../professional-colleague-agents-en/01-five-type-typology.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [README](README.md)
+

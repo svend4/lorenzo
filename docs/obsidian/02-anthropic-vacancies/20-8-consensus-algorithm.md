@@ -3,19 +3,10 @@ title: "8. Consensus Algorithm"
 tags:
   - rag
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 8. Consensus Algorithm
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Consensus Algorithm(8-consensus-algorithm) - 8.1.
-> ✅ **Результат:** Future Extensions (v2.0+)(85-future-extensions-v20) Когда один query возвращает результаты из нескольких Repos, Portal --- 8.
-> 🏷️ **Ключевые слова:** `consensus`, `algorithm`, `query`, `repos`, `anthropic`, `vacancies`, `normalization`, `string`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -26,6 +17,23 @@ date: 2026-04-29
   - [8.3. Consensus Categories](#83-consensus-categories)
   - [8.4. Coverage Ratio](#84-coverage-ratio)
   - [8.5. Future Extensions (v2.0+)](#85-future-extensions-v20)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Consensus Algorithm(8-consensus-algorithm) - 8.1.
+> ✅ **Результат:** Future Extensions (v2.0+)(85-future-extensions-v20) Когда один query возвращает результаты из нескольких Repos, Portal --- 8.
+> 🏷️ **Ключевые слова:** `consensus`, `algorithm`, `query`, `repos`, `anthropic`, `vacancies`, `normalization`, `string`
+>
 
 
 <!-- summary -->
@@ -92,7 +100,7 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[84-9-consensus-algorithm]] (сходство 0.34)
 - [[86-11-relevance-ranking]] (сходство 0.10)
 
@@ -101,9 +109,19 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[84-9-consensus-algorithm]]
 - [[86-11-relevance-ranking]]
 - [[22-10-queryresult-structure]]
 - [[21-9-query-flow]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[21-9-query-flow]]
+- [[22-10-queryresult-structure]]
+- [[README]]
 

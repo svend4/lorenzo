@@ -1,25 +1,27 @@
 # autofilled
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
 **Файлов:** 1
 
 ## Содержание
 
-- [research-summary.md](research-summary.md) — <!-- summary -->
-<!-- tags: documentation, index, overview -->
+- [research-summary.md](research-summary.md) — <!-- toc-auto -->
 
 ## Подразделы
 
 - [components/](components/) — components
 
-Раздел `autofilled/` содержит документы, автоматически сформированные скриптом `improve_autofill.py` на основе данных других скриптов. Файлы заполняются из шаблонов с подстановкой актуальных значений: контактов, метрик, ссылок. При повторном запуске скрипта документы обновляются без потери структуры. Шаблоны хранятся в `docs/templates/`, данные для подстановки берутся из `docs/CONTACTS.md`, `docs/ENTITIES.md` и других источников.
+<!-- backlinks -->
 
-## Использование
+---
 
-```bash
-python scripts/improve_autofill.py --dry-run
-```
+**Кто ссылается на этот документ (15):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [.md](components/.md)
+- [cowork](components/cowork.md)
+- [ingit](components/ingit.md)
+- [kksudo](components/kksudo.md)
+- _...ещё 7_
+

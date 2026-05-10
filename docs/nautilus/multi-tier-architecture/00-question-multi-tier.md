@@ -50,3 +50,19 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Ещё ест�
 - [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-two-nautiluses](../../anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-agent-changes-reality](../community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
+- [README](README.md)
+- _...ещё 1_
+

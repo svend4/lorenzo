@@ -59,3 +59,19 @@ flowchart LR
 - [D-voice-first-mesh](D-voice-first-mesh.md)
 - [B-forensic-rag](B-forensic-rag.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [B-forensic-rag](B-forensic-rag.md)
+- [D-voice-first-mesh](D-voice-first-mesh.md)
+- _...ещё 1_
+

@@ -156,3 +156,19 @@ python scripts/improve_semantic_search.py --query "Конкретный случ
 - [05-priblizheniya](05-priblizheniya.md)
 - [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
+- _...ещё 4_
+

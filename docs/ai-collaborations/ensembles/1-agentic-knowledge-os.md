@@ -73,3 +73,19 @@ python scripts/improve_semantic_search.py --query "Ансамбль 1 Agentic Kn
 - [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
 - [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-shared-memory-between-agents](../continuation/01-shared-memory-between-agents.md)
+- [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+- _...ещё 7_
+

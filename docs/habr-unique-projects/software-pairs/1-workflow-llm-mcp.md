@@ -55,3 +55,19 @@ python scripts/improve_semantic_search.py --query "Пара 1 Workflow авто�
 - [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md)
 - 8-self-aware-[mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [3-adversarial-multi-ide](../deep-pairs/3-adversarial-multi-ide.md)
+- [4-skill-catalogs-subagents](../deep-pairs/4-skill-catalogs-subagents.md)
+- _...ещё 3_
+

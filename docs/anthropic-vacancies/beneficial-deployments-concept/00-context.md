@@ -77,3 +77,19 @@ python scripts/improve_semantic_search.py --query "Контекст что та�
 - [01-section-1-problem](01-section-1-problem.md)
 - [11-not-and-format](11-not-and-format.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md)
+- [11-not-and-format](11-not-and-format.md)
+- _...ещё 1_
+

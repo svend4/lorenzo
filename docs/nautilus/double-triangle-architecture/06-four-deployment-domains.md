@@ -166,3 +166,19 @@ python scripts/improve_semantic_search.py --query "6 Four Deployment Domains"
 - [08-call-to-action](08-call-to-action.md)
 - [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-call-to-action](08-call-to-action.md)
+- [README](README.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+- _...ещё 1_
+

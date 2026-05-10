@@ -122,3 +122,19 @@
 # Поиск по теме документа
 python scripts/improve_semantic_search.py --query "Svyazi svyazi 2 0 Исполнительное резюме"
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (44):**
+- [00-intro-part2](00-intro-part2.md)
+- [02-methodology](02-methodology.md)
+- [04-ensembles-overview](04-ensembles-overview.md)
+- [08-conclusions](08-conclusions.md)
+- [09-architectural-gaps](09-architectural-gaps.md)
+- [10-second-order-ensembles](10-second-order-ensembles.md)
+- [11-integration-contracts](11-integration-contracts.md)
+- [13-contacts](13-contacts.md)
+- _...ещё 36_
+

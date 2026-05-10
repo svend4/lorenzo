@@ -189,3 +189,16 @@ python scripts/improve_semantic_search.py --query "3 Why Existing Solutions Fail
 - [156-2-target-populations](../../02-anthropic-vacancies/156-2-target-populations.md)
 - [04-proposed-infrastructure](04-proposed-infrastructure.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-target-populations](02-target-populations.md)
+- [README](README.md)
+

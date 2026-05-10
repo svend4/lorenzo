@@ -3,10 +3,15 @@ title: "1. The Cinderella Syndrome: Why Quality Stays Invisible"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -18,6 +23,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > There is a recurring asymmetry in modern markets — markets for
 
 ---
@@ -157,7 +166,7 @@ Layer.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[171-2-historical-precedents-agents-as-civilizational-i]] (сходство 0.14)
 - [[173-4-ten-domains-of-application]] (сходство 0.13)
 - [[168-abstract]] (сходство 0.13)
@@ -167,7 +176,13 @@ Layer.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 The Cinderella Syndrome Why Quality"
+```
+
+## Смотрите также
 - [[171-2-historical-precedents-agents-as-civilizational-i]]
 - [[173-4-ten-domains-of-application]]
 - [[168-abstract]]
@@ -196,3 +211,17 @@ Layer.
 - [[156-2-target-populations|2. Target Populations]] _17%_
 - [[171-2-historical-precedents-agents-as-civilizational-i|2. Historical Precedents: Agents as Civilizational Innovation]] _17%_
 - [[318-10-strategic-positioning|10. Strategic Positioning]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[156-2-target-populations]]
+- [[168-abstract]]
+- [[169-table-of-contents]]
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[173-4-ten-domains-of-application]]
+- [[181-12-closing]]
+- [[README]]
+

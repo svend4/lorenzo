@@ -70,7 +70,7 @@ Discovery-файл Svyazi (накопление неизвестного) син
 
 ```bash
 # Поиск по теме документа
-python scripts/improve_semantic_search.py --query "Комбинация 3 CRDT local first Svyazi"
+python scripts/improve_semantic_search.py --query "Комбинация 3 CRDT local-first Svyazi"
 ```
 
 ## Смотрите также

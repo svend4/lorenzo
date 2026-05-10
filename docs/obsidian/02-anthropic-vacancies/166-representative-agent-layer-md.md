@@ -3,10 +3,21 @@ title: "REPRESENTATIVE AGENT LAYER.md"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # REPRESENTATIVE AGENT LAYER.md
+
+<!-- toc-auto -->
+## Contents
+
+- [REPRESENTATIVE AGENT LAYER.md](#representative-agent-layermd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > - [[187-слой-представительских-агентов-md]] (сходство 0.33)
@@ -15,6 +26,10 @@ date: 2026-04-29
 
 
 <!-- tags: architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 ## REPRESENTATIVE AGENT LAYER.md
@@ -26,7 +41,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[187-слой-представительских-агентов-md]] (сходство 0.33)
 - [[305-a-practical-path-to-layer-b-through-symbiotic-inte]] (сходство 0.27)
 - [[249-composite-skills-agent-md]] (сходство 0.25)
@@ -75,9 +90,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "REPRESENTATIVE AGENT LAYER md"
+```
+
+## Смотрите также
 - [[134-the-double-triangle-architecture-md]]
 - [[344-системный-промпт-для-lorenzo-project]]
 - [[187-слой-представительских-агентов-md]]
 - [[208-professional-colleague-agents-md]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [[12-content-overview]]
+- [[13-angle-perspective]]
+- [[134-the-double-triangle-architecture-md]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[168-abstract]]
+- [[187-слой-представительских-агентов-md]]
+- [[208-professional-colleague-agents-md]]
+- [[230-аннотация]]
+- _...ещё 5_
 

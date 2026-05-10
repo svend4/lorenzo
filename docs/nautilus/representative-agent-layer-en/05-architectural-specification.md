@@ -164,3 +164,19 @@ python scripts/improve_semantic_search.py --query "5 Architectural Specification
 - [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
 - [06-ethical-framework](06-ethical-framework.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-what-makes-representative-agent](03-what-makes-representative-agent.md)
+- [06-ethical-framework](06-ethical-framework.md)
+- [07-governance-oversight](07-governance-oversight.md)
+- [08-risks-mitigations](08-risks-mitigations.md)
+- _...ещё 1_
+

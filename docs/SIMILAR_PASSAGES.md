@@ -344,3 +344,18 @@ python scripts/improve_similar_passages.py
 - [09-архитектурные-зазоры-которые-важнее-новых-инструме](04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
 - [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [NARRATIVE](NARRATIVE.md)
+- [OUTLINE](OUTLINE.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

@@ -1,5 +1,15 @@
 # Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -208,4 +218,19 @@ python scripts/improve_semantic_search.py --query "Минусы 1 10 integration
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
 - [01-pluses-1-7](01-pluses-1-7.md)
 - [04-recommendations](04-recommendations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+- [README](README.md)
 

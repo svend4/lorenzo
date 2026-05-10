@@ -317,3 +317,17 @@ python scripts/improve_semantic_search.py --query "6 Риски специфич
 - [235-4-архитектура-профессиональных-коллег-агентов](../../02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
 - [04-arkhitektura](04-arkhitektura.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-keys-obuchay](03-keys-obuchay.md)
+- [04-arkhitektura](04-arkhitektura.md)
+- [README](README.md)
+

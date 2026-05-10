@@ -3,22 +3,18 @@ title: "10. Open Questions"
 tags:
   - orchestration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 10. Open Questions
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Open Questions(10-open-questions) - 10.1.
-> ✅ **Результат:** What are appropriate trust hierarchies between principal-owned and platform-provided agents?
-> 🏷️ **Ключевые слова:** `questions`, `agents`, `anthropic`, `vacancies`, `agent`, `closing`, `economic`, `legal`
->
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
+<!-- alert-added -->
 
-<!-- toc-auto -->
-## Contents
+<!-- toc -->
+## Содержание
 
 - [10. Open Questions](#10-open-questions)
   - [10.1. Technical Questions](#101-technical-questions)
@@ -26,6 +22,8 @@ date: 2026-04-29
   - [10.3. Legal Questions](#103-legal-questions)
   - [10.4. Social Questions](#104-social-questions)
   - [10.5. Philosophical Questions](#105-philosophical-questions)
+
+---
 
 
 <!-- summary -->
@@ -124,7 +122,7 @@ of whether ethical frameworks keep pace.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[177-8-risks-and-mitigations]] (сходство 0.14)
 - [[264-11-open-questions]] (сходство 0.13)
 - [[181-12-closing]] (сходство 0.12)
@@ -134,9 +132,31 @@ of whether ethical frameworks keep pace.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```
+
+## Смотрите также
 - [[177-8-risks-and-mitigations]]
 - [[181-12-closing]]
 - [[264-11-open-questions]]
 - [[223-12-closing]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[174-5-architectural-specification]]
+- [[181-12-closing]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[223-12-closing]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- _...ещё 3_
 

@@ -139,3 +139,18 @@ python scripts/improve_semantic_search.py --query "1 Problem Statement"
 - [09-call-for-partnership](09-call-for-partnership.md)
 - [153-executive-summary](../../02-anthropic-vacancies/153-executive-summary.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [02-target-populations](02-target-populations.md)
+- [README](README.md)
+

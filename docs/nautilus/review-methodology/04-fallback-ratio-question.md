@@ -77,3 +77,16 @@ and B (branch Y) on YYYY-MM-DD»
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
 
 _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-consolidation-principles](03-consolidation-principles.md)
+- [README](README.md)
+

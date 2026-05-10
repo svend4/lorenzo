@@ -6,10 +6,15 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 5. Four Integration Paths in Order of Accessibility
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -22,6 +27,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > We identify four paths from most-immediate to most-mature.
 
 ---
@@ -198,7 +207,7 @@ defers complex decisions until evidence is available.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16)
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.15)
@@ -208,9 +217,20 @@ defers complex decisions until evidence is available.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [[315-7-practical-first-steps-this-month]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[303-приложение-визуализация-позиции-в-серии]]
+- [[308-table-of-contents]]
+- 323-appendix-c-sample-[[323-appendix-c-sample-ingit-mcp-server-tool-specificat|ingit-mcp-server-tool-specificat]]
+- [[README]]
 

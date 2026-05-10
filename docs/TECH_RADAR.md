@@ -1,31 +1,20 @@
 # Tech Radar — Svyazi 2.0
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
+<!-- toc-auto -->
 ## Содержание
 
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, anthropic, collaboration -->
+- Основной раздел
 
 
+<!-- summary -->
+> Tech Radar — Svyazi 2.0 — документ базы знаний репозитория Lorenzo.
+
+<!-- tags: docs, reference, lorenzo -->
+
+> [!NOTE]
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
+
+<!-- alert-added -->
 
 
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
@@ -115,13 +104,5 @@ _Не рекомендуем для новых проектов. Использ�
 _Radar обновляется вручную при существенных изменениях экосистемы._
 
 
-<!-- see-also -->
 
----
-
-## Смотрите также
-- [ONBOARDING](ONBOARDING.md)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [FOOTNOTES](FOOTNOTES.md)
-- [license-tree](svyazi-2-0/limitations/license-tree.md)
-
+_Смотрите также: [README](README.md) · [Глоссарий](GLOSSARY.md) · [Контакты](CONTACTS.md)_

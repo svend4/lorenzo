@@ -2,10 +2,15 @@
 title: "3. What InGit Provides That Cowork Lacks"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 3. What InGit Provides That Cowork Lacks
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -17,6 +22,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Equally important: where does InGit add value that Cowork
 
 ---
@@ -190,7 +199,7 @@ ground on which Cowork operates effectively.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.20)
 - [[312-4-the-symbiotic-architecture]] (сходство 0.18)
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.17)
@@ -200,9 +209,25 @@ ground on which Cowork operates effectively.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What InGit Provides That Cowork Lacks"
+```
+
+## Смотрите также
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [[312-4-the-symbiotic-architecture]]
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
 - [[313-5-four-integration-paths-in-order-of-accessibility]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
 

@@ -99,3 +99,19 @@ python scripts/improve_semantic_search.py --query "Question 5 Каковы limit
 - [352-что-ты-не-можешь-делать-без-max-approval](../../02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [FAQ](../../FAQ.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-bez-max-approval](../08-bez-max-approval.md)
+- [01-q1-what-lorenzo-is](01-q1-what-lorenzo-is.md)
+- _...ещё 5_
+

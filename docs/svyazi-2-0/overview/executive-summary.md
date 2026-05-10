@@ -45,3 +45,19 @@ python scripts/improve_semantic_search.py --query "Executive summary"
 - [license-tree](../limitations/license-tree.md)
 - [first-contacts](../outreach/first-contacts.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](../../ai-collaborations/fast-tracks/README.md)
+- [reading-paths](../../reading-paths.md)
+- [conclusions](../limitations/conclusions.md)
+- _...ещё 5_
+

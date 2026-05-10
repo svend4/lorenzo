@@ -98,3 +98,15 @@ practitioners during framework development valuable.
 # Поиск по теме документа
 python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

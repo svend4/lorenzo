@@ -283,3 +283,17 @@ python scripts/improve_semantic_search.py --query "8 Пилотное предл
 - [05-ekonomika](05-ekonomika.md)
 - [238-7-области-применения](../../02-anthropic-vacancies/238-7-области-применения.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-ekonomika](05-ekonomika.md)
+- [07-oblasti-primeneniya](07-oblasti-primeneniya.md)
+- [README](README.md)
+

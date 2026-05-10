@@ -2282,3 +2282,19 @@ for qa in load_json("docs/qa_cache.json"):
 - [02-extraction](02-extraction.md)
 - [07-llm](07-llm.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md)
+- [ngt-memory](../05-habr-projects/memory/ngt-memory.md)
+- [yodoca](../05-habr-projects/memory/yodoca.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SCRIPT_EVAL_REPORT](../SCRIPT_EVAL_REPORT.md)
+- [SEARCH](../SEARCH.md)
+- _...ещё 12_
+

@@ -58,3 +58,19 @@ python scripts/improve_semantic_search.py --query "Итоговые выводы
 - [14-limitations](../../01-svyazi/14-limitations.md)
 - [executive-summary](../overview/executive-summary.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [H-research-to-product-flywheel](../ensembles/H-research-to-product-flywheel.md)
+- [README](README.md)
+- _...ещё 3_
+

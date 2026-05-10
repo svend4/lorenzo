@@ -50,3 +50,16 @@ python scripts/improve_semantic_search.py --query "Альтернативные 
 - [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
 - 03-revised-[anthropic-mapping](03-revised-anthropic-mapping.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [README](README.md)
+- [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)
+

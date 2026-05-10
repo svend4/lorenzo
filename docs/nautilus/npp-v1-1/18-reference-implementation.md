@@ -77,3 +77,17 @@ python scripts/improve_semantic_search.py --query "18 Reference Implementation"
 - [14-sdk](14-sdk.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
+- [14-sdk](14-sdk.md)
+- [README](README.md)
+

@@ -94,3 +94,19 @@ python scripts/improve_semantic_search.py --query "Комбинация 29 Meta 
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [13-legal-document-transpiler](13-legal-document-transpiler.md)
+- [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
+- [26-ast-based-code-analysis-for-legal-automation](26-ast-based-code-analysis-for-legal-automation.md)
+- _...ещё 3_
+

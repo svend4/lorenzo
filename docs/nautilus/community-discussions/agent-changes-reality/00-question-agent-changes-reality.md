@@ -50,3 +50,19 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Такой а�
 - [00-question-multi-tier](../../multi-tier-architecture/00-question-multi-tier.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+- [00-question-habr-2](../habr-article-2-reaction/00-question-habr-2.md)
+- [00-question-practical](../practical-observations/00-question-practical.md)
+- _...ещё 1_
+

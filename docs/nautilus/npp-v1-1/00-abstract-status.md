@@ -101,3 +101,17 @@ python scripts/improve_semantic_search.py --query "Abstract Status of This Docum
 - [75-0-status-of-this-document](../../02-anthropic-vacancies/75-0-status-of-this-document.md)
 - [01-introduction](01-introduction.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-introduction](01-introduction.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
+

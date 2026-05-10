@@ -173,3 +173,19 @@ python scripts/improve_semantic_search.py --query "4 The Sub Agent Registry"
 - [07-economics-combinatorial](07-economics-combinatorial.md)
 - [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- [10-risks](10-risks.md)
+- [README](README.md)
+- _...ещё 2_
+

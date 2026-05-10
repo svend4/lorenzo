@@ -179,3 +179,17 @@ python scripts/improve_semantic_search.py --query "10 Risks Specific to Composit
 - [11-open-questions](11-open-questions.md)
 - [04-sub-agent-registry](04-sub-agent-registry.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+- [06-risks](../professional-colleague-agents-en/06-risks.md)
+

@@ -125,3 +125,17 @@ _Создано: 2026-04-29_
 - [mega-stack](mega-stack.md)
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [project-component](project-component.md)
+

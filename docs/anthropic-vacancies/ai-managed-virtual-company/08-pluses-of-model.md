@@ -56,3 +56,19 @@ python scripts/improve_semantic_search.py --query "Плюсы модели ес�
 - [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
 
 _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-existing-landscape](01-existing-landscape.md)
+- [02-four-structural-blockers](02-four-structural-blockers.md)
+- [04-what-to-do](04-what-to-do.md)
+- _...ещё 3_
+

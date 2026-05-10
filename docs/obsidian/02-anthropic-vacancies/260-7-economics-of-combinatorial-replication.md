@@ -6,10 +6,15 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 7. Economics of Combinatorial Replication
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -22,6 +27,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The economics of Composite Skills Agents differ from both
 
 ---
@@ -180,7 +189,7 @@ funding or modest practitioner contribution.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[262-9-integration-with-okwf-infrastructure]] (сходство 0.21)
 - [[216-5-the-economics-of-profession-wide-replication]] (сходство 0.20)
 - [[257-4-the-sub-agent-registry]] (сходство 0.19)
@@ -190,7 +199,13 @@ funding or modest practitioner contribution.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Economics of Combinatorial Replication"
+```
+
+## Смотрите также
 - [[262-9-integration-with-okwf-infrastructure]]
 - [[216-5-the-economics-of-profession-wide-replication]]
 - [[257-4-the-sub-agent-registry]]
@@ -226,3 +241,18 @@ funding or modest practitioner contribution.
 - [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _21%_
 - [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _21%_
 - [[264-11-open-questions|11. Open Questions]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[254-1-why-the-binary-view-is-incomplete]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[257-4-the-sub-agent-registry]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- [[263-10-risks-specific-to-composite-architectures]]
+- [[README]]
+

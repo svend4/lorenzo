@@ -4,7 +4,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 5. Economic Model
@@ -28,16 +28,6 @@ date: 2026-04-29
 > 🔧 **Подход:** --- --- Похожие документы: - 161-7-phased-rollout-plan(docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.18) - 158-4-proposed-infrastructure(docs/02-anthropic-v
 > 🏷️ **Ключевые слова:** `contributor`, `anthropic`, `month`, `vacancies`, `budget`, `total`, `funding`, `infrastructure`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [5. Economic Model](#5-economic-model)
-  - [5.1. Budget Philosophy](#51-budget-philosophy)
-  - [5.2. Three-Year Pilot Budget (Estimated)](#52-three-year-pilot-budget-estimated)
-  - [5.3. Funding Strategy](#53-funding-strategy)
-  - [5.4. Contributor Economics](#54-contributor-economics)
 
 
 > [!TIP]
@@ -160,7 +150,7 @@ to minimum dignity threshold; upward is merit-based.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[161-7-phased-rollout-plan]] (сходство 0.18)
 - [[158-4-proposed-infrastructure]] (сходство 0.16)
 - [[163-9-call-for-partnership]] (сходство 0.15)
@@ -170,9 +160,26 @@ to minimum dignity threshold; upward is merit-based.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Economic Model"
+```
+
+## Смотрите также
 - [[161-7-phased-rollout-plan]]
 - [[158-4-proposed-infrastructure]]
 - [[163-9-call-for-partnership]]
 - [[162-8-risk-analysis]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[161-7-phased-rollout-plan]]
+- [[162-8-risk-analysis]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[README]]
 

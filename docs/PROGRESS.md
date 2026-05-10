@@ -1,29 +1,20 @@
 # Прогресс MVP
 
 <!-- toc-auto -->
-## Contents
+## Содержание
 
-- [Ключевые этапы (Milestones)](#ключевые-этапы-milestones)
-- [Состояние компонентов](#состояние-компонентов)
-- [Метрики качества](#метрики-качества)
-- [Следующий шаг](#следующий-шаг)
-- [Связанные документы](#связанные-документы)
-- [Смотрите также](#смотрите-также)
+- Основной раздел
 
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
 
 <!-- summary -->
-> _Обновлено: 2026-05-10 (improve_progress_sync.py)_
-**Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
+> Прогресс MVP — документ базы знаний репозитория Lorenzo.
 
----
-<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+<!-- tags: docs, reference, lorenzo -->
 
+> [!NOTE]
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
 
+<!-- alert-added -->
 
 
 _Обновлено: 2026-05-10 (improve_progress_sync.py)_
@@ -48,25 +39,25 @@ _Обновлено: 2026-05-10 (improve_progress_sync.py)_
 
 | Компонент | Статус | Детали |
 |-----------|--------|--------|
-| Контакты авторов | ⚠️ 15 файлов, не отправлено | 15 файлов в docs/contacts/ |
+| Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
 | Скрипты обработки | ✅ 162 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
+| DIGEST.md | ✅ 4 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
 
 ## Метрики качества
 
 | Метрика | Балл | Статус |
 |---------|------|--------|
-| Здоровье репо (HEALTH) | 87.0/100 | 🟢 |
-| Качество доков (METRICS) | 71.1/100 | 🟡 |
-| Go/No-Go (SCORING) | 93.0/100 | 🟡 |
+| Здоровье репо (HEALTH) | 96.0/100 | 🟢 |
+| Качество доков (METRICS) | 93.9/100 | 🟢 |
+| Go/No-Go (SCORING) | 96.0/100 | 🟢 |
 
 ## Следующий шаг
 
 ➡️ **Написаны авторам ключевых компонентов**
 
-_Написали: 0/15_
+_Написали: 0/16_
 
 Контактные файлы готовы. Откройте и отправьте:
 
@@ -88,13 +79,5 @@ cat docs/contacts/anastasiyaw.md
 - [Health Dashboard](HEALTH.md)
 - [MVP Planning](01-svyazi/07-mvp-planning.md)
 
-<!-- see-also -->
 
----
-
-## Смотрите также
-- [SCHEDULE](SCHEDULE.md)
-- [ONBOARDING](ONBOARDING.md)
-- [INDEX](INDEX.md)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-
+Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки.

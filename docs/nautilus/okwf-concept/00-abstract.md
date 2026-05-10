@@ -1,5 +1,11 @@
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
 
+<!-- toc-auto -->
+## Содержание
+
+- Основной раздел
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -109,4 +115,16 @@ python scripts/improve_semantic_search.py --query "AI Coordinated Infrastructure
 - [09-call-for-partnership](09-call-for-partnership.md)
 - [01-problem-statement](01-problem-statement.md)
 - [153-executive-summary](../../02-anthropic-vacancies/153-executive-summary.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 

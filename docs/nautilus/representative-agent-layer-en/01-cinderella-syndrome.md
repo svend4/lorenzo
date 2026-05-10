@@ -163,3 +163,17 @@ python scripts/improve_semantic_search.py --query "1 The Cinderella Syndrome Why
 - [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
 - [04-ten-domains](04-ten-domains.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [02-historical-precedents](02-historical-precedents.md)
+- [README](README.md)
+

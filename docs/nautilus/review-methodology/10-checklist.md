@@ -80,3 +80,19 @@ python scripts/improve_semantic_search.py --query "9 Checklist применен�
 - [13-appendix-b-examples](13-appendix-b-examples.md)
 - [02-formal-workflow](02-formal-workflow.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [GITHUB_ISSUES](../../GITHUB_ISSUES.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-context-motivation](01-context-motivation.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [03-consolidation-principles](03-consolidation-principles.md)
+- _...ещё 5_
+

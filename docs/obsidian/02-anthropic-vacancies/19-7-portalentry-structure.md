@@ -7,10 +7,24 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 7. PortalEntry Structure
+
+<!-- toc-auto -->
+## Contents
+
+- [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
 
@@ -71,7 +85,7 @@ class PortalEntry:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[82-7-portalentry-structure]] (сходство 0.25)
 
 
@@ -79,9 +93,22 @@ class PortalEntry:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[82-7-portalentry-structure]]
-- [[123-portal-mcp-py]]
+- 123-portal-[[123-portal-mcp-py|mcp-py]]
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [[81-6-adapter-interface]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[109-3-принципы-консолидации-фаза-c]]
+- 123-portal-[[123-portal-mcp-py|mcp-py]]
+- [[18-6-adapter-interface]]
+- [[23-11-security-considerations]]
+- [[74-abstract]]
+- [[README]]
 

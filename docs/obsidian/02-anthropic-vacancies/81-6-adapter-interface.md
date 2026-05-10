@@ -3,31 +3,39 @@ title: "6. Adapter Interface"
 tags:
   - ingestion
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 6. Adapter Interface
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Type Safety Reference implementation требует mypy-clean код.
-> 🔧 **Подход:** Type Safety(64-type-safety) !IMPORTANT Ключевой документ для понимания архитектуры.
-> ✅ **Результат:** Implementation MUST: - Возвращать пустой список или fallback-entries, если ничего не найдено (NOT None, NOT raise exception) - Ограничить результат разумным числом (SHOULD ≤ 100) -
-> 🏷️ **Ключевые слова:** `adapter`, `interface`, `structure`, `portalentry`, `anthropic`, `vacancies`, `query`, `required`
->
-
-
-<!-- toc-auto -->
-## Contents
+<!-- toc -->
+## Содержание
 
 - [6. Adapter Interface](#6-adapter-interface)
-  - [[01-интегральный-анализ-профиля-svend4|6.1. [BaseAdapter]] Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. `fetch(query)` — Required](#62-fetchquery-required)
+  - [6.3. `describe()` — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+
+---
+
+
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
-
-
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -38,8 +46,6 @@ date: 2026-04-29
 
 ---
 <!-- tags: ingestion -->
-
-
 
 
 ## 6. Adapter Interface
@@ -115,7 +121,7 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[18-6-adapter-interface]] (сходство 0.51)
 - [[85-10-query-flow]] (сходство 0.12)
 - [[82-7-portalentry-structure]] (сходство 0.12)
@@ -125,9 +131,23 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[18-6-adapter-interface]]
 - [[82-7-portalentry-structure]]
 - [[19-7-portalentry-structure]]
 - [[22-10-queryresult-structure]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[103-appendix-b-change-log]]
+- [[18-6-adapter-interface]]
+- [[21-9-query-flow]]
+- [[22-10-queryresult-structure]]
+- [[23-11-security-considerations]]
+- [[90-15-security-considerations]]
+- [[README]]
 

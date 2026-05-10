@@ -3,7 +3,7 @@ template: project-component
 version: "1.0"
 author: "kksudo"
 author_handle: "@kksudo"
-projects: ["AgentFS"]
+projects: ["AgentFS[^agentfs]"]
 layer: knowledge
 license: MIT
 maturity: working-prototype-v0.1.5
@@ -32,7 +32,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > maturity: working-prototype-v0.1.5
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, agent-memory-mcp, Wikontic
+**Проекты:** Svyazi[^svyazi], AgentFS, knowledge-space[^knowledge_space], mclaude, agent-memory-mcp, Wikontic
 
 ---
 
@@ -122,8 +122,37 @@ python scripts/improve_semantic_search.py --query "AgentFS"
 
 - [knowledge-space](knowledge-space.md) — 785+ agent-first карточек как knowledge layer поверх AgentFS
 - [mclaude](mclaude.md) — координация нескольких AgentFS-сессий через locks/handoffs
-- [agent-memory-mcp](../memory/agent-memory-mcp.md) — typed MCP память совместимая с AgentFS persistent state
+- [agent-memory-mcp](../memory/agent-memory-mcp.md) — typed MCP[^mcp] память совместимая с AgentFS persistent state
 - [Wikontic: семантический граф](wikontic.md) — семантический граф как knowledge layer
 
 ---
 _Создано: 2026-05-10_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [README](README.md)
+- [knowledge-space](knowledge-space.md)
+- [mclaude](mclaude.md)
+- [research-docs-liteparse](research-docs-liteparse.md)
+- [rufler](rufler.md)
+- [agent-memory-mcp](../memory/agent-memory-mcp.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- _...ещё 2_
+
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)

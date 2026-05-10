@@ -1,5 +1,15 @@
 # Минусы и риски
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -73,4 +83,20 @@ python scripts/improve_semantic_search.py --query "Минусы и риски"
 - [00-question-rephrasing](00-question-rephrasing.md)
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
 - [02-four-structural-blockers](02-four-structural-blockers.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-question-rephrasing](00-question-rephrasing.md)
+- [02-four-structural-blockers](02-four-structural-blockers.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- _...ещё 2_
 

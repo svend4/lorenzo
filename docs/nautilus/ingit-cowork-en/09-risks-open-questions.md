@@ -140,3 +140,15 @@ python scripts/improve_semantic_search.py --query "9 Risks and Open Questions"
 - [10-strategic-positioning](10-strategic-positioning.md)
 - 03-[ingit-provides](03-ingit-provides.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

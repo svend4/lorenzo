@@ -49,3 +49,19 @@ python scripts/improve_semantic_search.py --query "Первые контакты
 - [CONTACTS](../../CONTACTS.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [license-tree](../limitations/license-tree.md)
+- [README](README.md)
+- _...ещё 6_
+

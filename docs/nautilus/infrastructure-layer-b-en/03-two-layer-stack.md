@@ -83,3 +83,19 @@ python scripts/improve_semantic_search.py --query "The Two Layer Stack As It Exi
 - [01-missing-middle-layer](01-missing-middle-layer.md)
 - [02-why-document-exists](02-why-document-exists.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [02-why-document-exists](02-why-document-exists.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- _...ещё 3_
+

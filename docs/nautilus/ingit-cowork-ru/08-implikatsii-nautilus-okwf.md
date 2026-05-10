@@ -172,3 +172,16 @@ python scripts/improve_semantic_search.py --query "8 Импликации для
 - [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
 - [09-riski-voprosy](09-riski-voprosy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
+- [README](README.md)
+

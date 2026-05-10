@@ -114,3 +114,16 @@ python scripts/improve_semantic_search.py --query "3 Что делает аге�
 - [195-5-архитектурная-спецификация](../../02-anthropic-vacancies/195-5-архитектурная-спецификация.md)
 - [01-pyat-tipov](../professional-colleague-agents-ru/01-pyat-tipov.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-arkhitekturnaya-spetsifikatsiya](05-arkhitekturnaya-spetsifikatsiya.md)
+- [README](README.md)
+

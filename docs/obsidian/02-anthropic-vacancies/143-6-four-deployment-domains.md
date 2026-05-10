@@ -5,7 +5,7 @@ tags:
   - roadmap
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 6. Four Deployment Domains
@@ -168,7 +168,7 @@ exist.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[158-4-proposed-infrastructure]] (сходство 0.18)
 - [[145-8-call-to-action]] (сходство 0.17)
 - [[164-10-appendices]] (сходство 0.15)
@@ -178,7 +178,13 @@ exist.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Four Deployment Domains"
+```
+
+## Смотрите также
 - [[158-4-proposed-infrastructure]]
 - [[145-8-call-to-action]]
 - [[164-10-appendices]]
@@ -220,3 +226,19 @@ exist.
 - [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _21%_
 - [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _18%_
 - [[136-abstract|Abstract]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[134-the-double-triangle-architecture-md]]
+- [[136-abstract]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[144-7-open-questions]]
+- [[145-8-call-to-action]]
+- [[148-appendix-a-glossary]]
+- [[164-10-appendices]]
+- [[218-7-application-domains]]
+- _...ещё 3_
+

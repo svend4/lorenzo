@@ -117,3 +117,15 @@ return list(visited.keys())
 - [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
 - 13-[rest-api](13-rest-api.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

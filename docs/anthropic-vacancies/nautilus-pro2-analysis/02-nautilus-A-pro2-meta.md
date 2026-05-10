@@ -1,5 +1,15 @@
 # Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME (внутренняя архитектура нейросети)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -127,4 +137,18 @@ python scripts/improve_semantic_search.py --query "Наутилус A pro2 meta 
 - [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
 - [00-question-two-nautiluses](00-question-two-nautiluses.md)
 - [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
+- [README](README.md)
 

@@ -21,7 +21,7 @@ tags: memory, mcp, typed-memory, [sqlite, agent, bi-temporal]
 |----------|---------|
 | Теги | — |
 | Упоминаний в репо | 169 |
-| Слой | memory/MCP |
+| Слой | memory/MCP[^mcp] |
 | Контакт | [@VitaliySemenov](../../contacts/vitalysemenov.md) |
 | Статус связи | не писали |
 
@@ -36,7 +36,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > projects: ["agent-memory-mcp", "Memory OS"]
-**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, NGT Memory, MemNet, agent-memory-mcp
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], Yodoca[^yodoca], NGT[^ngt] Memory, MemNet, agent-memory-mcp
 
 ---
 
@@ -96,7 +96,7 @@ _Обновлено: 2026-05-10_
 - Typed memories дополняют CardEnvelope: episodic → fact цикл через MemoryWrite
 - SQLite + WAL — тот же стек, что и у CardStore (локальный, без сетевых зависимостей)
 - Gardener-loop реализует идею decay из PROTOTYPE_SPEC: автоматический переход `raw → decayed`
-- Bi-temporal факты решают проблему "когда это было известно" для доказательных цепочек EvidenceEnvelope
+- Bi-temporal факты решают проблему "когда это было известно" для доказательных цепочек Evidence Envelope
 - Path guard можно переиспользовать как SkillPolicy: какие инструменты могут читать/писать какие пути
 
 ## Сравнение с другими memory-проектами
@@ -135,3 +135,36 @@ python scripts/improve_semantic_search.py --query "agent memory mcp Memory OS"
 
 ---
 _Создано: 2026-05-10_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [agentfs](../knowledge/agentfs.md)
+- [mclaude](../knowledge/mclaude.md)
+- [research-docs-liteparse](../knowledge/research-docs-liteparse.md)
+- [rufler](../knowledge/rufler.md)
+- [README](README.md)
+- [memnet](memnet.md)
+- [ngt-memory](ngt-memory.md)
+- [COLLAB_SUGGESTIONS](../../COLLAB_SUGGESTIONS.md)
+- _...ещё 4_
+
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

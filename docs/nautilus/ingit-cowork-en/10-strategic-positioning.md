@@ -181,3 +181,19 @@ python scripts/improve_semantic_search.py --query "10 Strategic Positioning"
 - 08-implications-[nautilus-okwf](08-implications-nautilus-okwf.md)
 - [01-cowork-discovery](01-cowork-discovery.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reprioritization](../../anthropic-vacancies/hermes-comparison/13-reprioritization.md)
+- [11-difficulties-and-recommendations](../../lorenzo-agent/specification/11-difficulties-and-recommendations.md)
+- [08-implications-nautilus-okwf](08-implications-nautilus-okwf.md)
+- [09-risks-open-questions](09-risks-open-questions.md)
+- _...ещё 1_
+

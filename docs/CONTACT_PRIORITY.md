@@ -1,28 +1,20 @@
 # Приоритет контактов
 
 <!-- toc-auto -->
-## Contents
+## Содержание
 
-- [Топ авторов по приоритету](#топ-авторов-по-приоритету)
-- [Рекомендуемые следующие шаги](#рекомендуемые-следующие-шаги)
-  - [Написать первым (ещё не контактировали)](#написать-первым-ещё-не-контактировали)
-- [Формула расчёта балла](#формула-расчёта-балла)
-- [Смотрите также](#смотрите-также)
+- Основной раздел
 
-
-> [!IMPORTANT]
-> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
-
-<!-- alert-added -->
 
 <!-- summary -->
-> 1. **kksudo** (AgentFS, 138 упоминаний) → [открыть контакт](contacts/kksudo.md)
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+> Приоритет контактов — документ базы знаний репозитория Lorenzo.
 
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
+<!-- tags: docs, reference, lorenzo -->
 
+> [!NOTE]
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
 
+<!-- alert-added -->
 
 
 _Обновлено: 2026-05-10_
@@ -31,29 +23,29 @@ _Обновлено: 2026-05-10_
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **kksudo** | AgentFS | knowledge/filesystem | 138 | 👁 Изучили | 425 |
-| 2 | **spbmolot** | NGT Memory | memory | 131 | 👁 Изучили | 404 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 90 | ⬜ Не начато | 276 |
-| 4 | **VladSpace** | Graph RAG | rag | 81 | ⬜ Не начато | 247 |
-| 5 | **VitalyOborin** | Yodoca | memory | 73 | ⬜ Не начато | 225 |
-| 6 | **zodigancode** | Rufler | orchestration | 70 | ⬜ Не начато | 214 |
-| 7 | **Cutcode** | AIF Handoff | orchestration | 68 | ⬜ Не начато | 208 |
-| 8 | **Dmitriila** | SENTINEL | security | 64 | ⬜ Не начато | 194 |
-| 9 | **Antipozitive** | MemNet | memory | 61 | ⬜ Не начато | 189 |
-| 10 | **MiXaiLL76** | Auto AI Router | security | 56 | ⬜ Не начато | 170 |
-| 11 | **nlaik** | LiteParse / research-docs | rag | 52 | ⬜ Не начато | 160 |
-| 12 | **Sonia_Black** | knowledge-space | knowledge | 33 | ⬜ Не начато | 105 |
-| 13 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 29 | ⬜ Не начато | 89 |
-| 14 | **tagir_analyzes** | Legal RAG | rag | 27 | ⬜ Не начато | 85 |
-| 15 | **lee-to** | AI Factory | orchestration | 19 | ⬜ Не начато | 61 |
+| 1 | **kksudo** | AgentFS | knowledge/filesystem | 178 | 👁 Изучили | 545 |
+| 2 | **spbmolot** | NGT Memory | memory | 155 | 👁 Изучили | 476 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 110 | ⬜ Не начато | 336 |
+| 4 | **VitalyOborin** | Yodoca | memory | 87 | ⬜ Не начато | 267 |
+| 5 | **VladSpace** | Graph RAG | rag | 85 | ⬜ Не начато | 259 |
+| 6 | **zodigancode** | Rufler | orchestration | 82 | ⬜ Не начато | 250 |
+| 7 | **Cutcode** | AIF Handoff | orchestration | 78 | ⬜ Не начато | 238 |
+| 8 | **Dmitriila** | SENTINEL | security | 69 | ⬜ Не начато | 209 |
+| 9 | **Antipozitive** | MemNet | memory | 66 | ⬜ Не начато | 204 |
+| 10 | **nlaik** | LiteParse / research-docs | rag | 62 | ⬜ Не начато | 190 |
+| 11 | **MiXaiLL76** | Auto AI Router | security | 62 | ⬜ Не начато | 188 |
+| 12 | **Sonia_Black** | knowledge-space | knowledge | 40 | ⬜ Не начато | 126 |
+| 13 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 33 | ⬜ Не начато | 101 |
+| 14 | **tagir_analyzes** | Legal RAG | rag | 31 | ⬜ Не начато | 97 |
+| 15 | **lee-to** | AI Factory | orchestration | 23 | ⬜ Не начато | 73 |
 
 ## Рекомендуемые следующие шаги
 
 ### Написать первым (ещё не контактировали)
 
-1. **kksudo** (AgentFS, 138 упоминаний) → [открыть контакт](contacts/kksudo.md)
-1. **spbmolot** (NGT Memory, 131 упоминаний) → [открыть контакт](contacts/spbmolot.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 90 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
+1. **kksudo** (AgentFS, 178 упоминаний) → [открыть контакт](contacts/kksudo.md)
+1. **spbmolot** (NGT Memory, 155 упоминаний) → [открыть контакт](contacts/spbmolot.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 110 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 
@@ -64,14 +56,3 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 ```
 
 _Чем выше балл — тем важнее написать первым._
-
-<!-- see-also -->
-
----
-
-## Смотрите также
-- [CONTACTS](CONTACTS.md)
-- [NETWORK](NETWORK.md)
-- [MINDMAP](MINDMAP.md)
-- [authors-by-name](glossary/authors-by-name.md)
-

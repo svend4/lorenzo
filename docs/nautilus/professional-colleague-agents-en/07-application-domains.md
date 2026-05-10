@@ -211,3 +211,16 @@ python scripts/improve_semantic_search.py --query "7 Application Domains"
 - [04-ten-domains](../representative-agent-layer-en/04-ten-domains.md)
 - [06-four-deployment-domains](../double-triangle-architecture/06-four-deployment-domains.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-seven-domains](../composite-skills-agents/08-seven-domains.md)
+- [README](README.md)
+

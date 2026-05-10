@@ -112,3 +112,19 @@ Portal SHOULD предоставлять команду валидации:
 - [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [README](README.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- _...ещё 1_
+

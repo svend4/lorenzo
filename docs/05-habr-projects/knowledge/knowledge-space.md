@@ -27,7 +27,24 @@ tags: [knowledge-space, reference, cards, agent-first, wiki, domains, research]
 
 _Обновлено: 2026-05-10_
 
-# knowledge-space
+# knowledge-space[^knowledge_space]
+
+<!-- toc -->
+## Содержание
+
+- [Статус](#статус)
+- [Contents](#contents)
+- [Профиль проекта](#профиль-проекта)
+- [Описание](#описание)
+- [Ключевые компоненты](#ключевые-компоненты)
+- [Синергия со Svyazi[^svyazi] 2.0](#синергия-со-svyazi-20)
+- [Применение в архитектуре Svyazi](#применение-в-архитектуре-svyazi)
+- [Контакт](#контакт)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
 
 <!-- toc-auto -->
 ## Contents
@@ -49,7 +66,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > tags: [knowledge-space, reference, cards, agent-first, wiki, domains, research]
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, LiteParse, Wikontic
+**Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space, mclaude, LiteParse, Wikontic
 
 ---
 
@@ -83,13 +100,13 @@ knowledge-space — это agent-first референсная база знан�
 - **`research/inbox/`** — необработанные исследовательские заметки (episodic)
 - **26 доменов** — широкий охват: от ML до права и системного дизайна
 - **785+ карточек** — реально накопленная, не синтетическая база
-- **Agent-first дизайн** — структура оптимизирована для LLM-чтения, не для людей
+- **Agent-first дизайн** — структура оптимизирована для LLM[^llm]-чтения, не для людей
 
 ## Синергия со Svyazi 2.0
 
 - **Внешний knowledge layer**: knowledge-space как upstream источник карточек для CardStore
 - **research/inbox/** = episodic memory → CardEnvelope(state="raw") → normalizer → CardEnvelope(state="normalized")
-- **Dense cards** — идеальный формат для TF-IDF векторизации: высокая информационная плотность
+- **Dense cards** — идеальный формат для TF-IDF[^tf_idf] векторизации: высокая информационная плотность
 - **Gotchas как факты**: CardEnvelope(type="fact") для явных ограничений и предупреждений
 - **Wiki-links** могут стать CardEdge(rel="references") при ingestion
 - **MIT лицензия** — прямое использование без ограничений
@@ -106,7 +123,7 @@ knowledge-space закрывает слой "нормализованного з
 ## Использование
 ```bash
 # Поиск по теме документа
-python scripts/improve_semantic_search.py --query "knowledge space"
+python scripts/improve_semantic_search.py --query "knowledge-space"
 ```
 
 ## Смотрите также
@@ -118,3 +135,34 @@ python scripts/improve_semantic_search.py --query "knowledge space"
 
 ---
 _Создано: 2026-05-10_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [README](README.md)
+- [agentfs](agentfs.md)
+- [mclaude](mclaude.md)
+- [research-docs-liteparse](research-docs-liteparse.md)
+- [rufler](rufler.md)
+- [memnet](../memory/memnet.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- _...ещё 2_
+
+
+
+<!-- footnotes-added -->
+
+---
+
+[^llm]: Large Language Model — большая языковая модель
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+[^tf_idf]: Term Frequency–Inverse Document Frequency — метрика важности термина

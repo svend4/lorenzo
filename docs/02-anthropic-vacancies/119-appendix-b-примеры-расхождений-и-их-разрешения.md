@@ -117,3 +117,19 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 - [116-9-checklist-применения-методологии](116-9-checklist-применения-методологии.md) (сходство 0.25)
 - [SENTIMENT](../SENTIMENT.md) (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [116-9-checklist-применения-методологии](116-9-checklist-применения-методологии.md)
+- [189-аннотация](189-аннотация.md)
+- [298-что-этот-документ-не-решает](298-что-этот-документ-не-решает.md)
+- [README](README.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- _...ещё 4_
+

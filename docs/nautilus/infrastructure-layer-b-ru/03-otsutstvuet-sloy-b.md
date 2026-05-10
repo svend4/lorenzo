@@ -117,3 +117,17 @@ python scripts/improve_semantic_search.py --query "Что отсутствует
 - [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
 - [10-rekomendatsii](10-rekomendatsii.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-zachem-dokument](01-zachem-dokument.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
+- [README](README.md)
+

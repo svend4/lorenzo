@@ -1,5 +1,15 @@
 # Минусы и риски как бизнеса
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -75,4 +85,19 @@ python scripts/improve_semantic_search.py --query "Минусы и риски к
 - [04-what-to-do](../ai-managed-virtual-company/04-what-to-do.md)
 - [03-why-natural-for-programmers](03-why-natural-for-programmers.md)
 - [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-what-to-do](../ai-managed-virtual-company/04-what-to-do.md)
+- [10-three-entry-points](../ai-managed-virtual-company/10-three-entry-points.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [README](README.md)
 

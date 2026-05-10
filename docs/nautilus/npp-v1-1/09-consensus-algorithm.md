@@ -139,3 +139,17 @@ v2.0 MAY использовать:
 - [20-8-consensus-algorithm](../../02-anthropic-vacancies/20-8-consensus-algorithm.md)
 - [11-relevance-ranking](11-relevance-ranking.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-consensus-algorithm](../npp-v1-0/08-consensus-algorithm.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+- [README](README.md)
+

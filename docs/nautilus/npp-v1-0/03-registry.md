@@ -118,3 +118,15 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 - `bridges` ссылаются на `name`, которых нет в registry
 
 ---
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

@@ -87,3 +87,18 @@ python scripts/improve_semantic_search.py --query "Уровень 1 Минима
 - [06-level-5-full-network](06-level-5-full-network.md)
 
 _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-level-0-manual](01-level-0-manual.md)
+- [04-level-3-medium-active](04-level-3-medium-active.md)
+- [README](README.md)
+

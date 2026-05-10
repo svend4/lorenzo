@@ -98,3 +98,16 @@ Portal SHOULD предоставлять команду валидации:
 - [03-registry](03-registry.md)
 - 16-[mcp-extension](16-mcp-extension.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
+

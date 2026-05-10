@@ -1,5 +1,17 @@
 # Дорожная карта прототипа
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Дорожная карта прототипа следующей итерации](#дорожная-карта-прототипа-следующей-итерации)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -99,3 +111,19 @@ python scripts/improve_semantic_search.py --query "Дорожная карта �
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^bsl]: Business Source License — коммерческая лицензия с открытым кодом
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [07-mvp-planning](07-mvp-planning.md)
+- [10-second-order-ensembles](10-second-order-ensembles.md)
+- [14-limitations](14-limitations.md)
+- [README](README.md)
+- [12-дорожная-карта-прототипа-следующей-итерации](../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [NARRATIVE](../NARRATIVE.md)
+- [OUTLINE](../OUTLINE.md)
+- _...ещё 6_
+

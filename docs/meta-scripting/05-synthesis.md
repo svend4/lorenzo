@@ -160,3 +160,19 @@ scripts/
 - [METHODOLOGY](../METHODOLOGY.md)
 - [03-catalog](03-catalog.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [METHODOLOGY](../METHODOLOGY.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [01-concept](01-concept.md)
+- [02-architecture](02-architecture.md)
+- _...ещё 3_
+

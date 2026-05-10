@@ -123,3 +123,16 @@ python scripts/improve_template_init.py --template agent-spec --output docs/new-
 ## Смотрите также
 - [project-component](project-component.md)
 - [protocol-spec](protocol-spec.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+

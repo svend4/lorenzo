@@ -2,10 +2,24 @@
 title: "Appendix B: Comparison Matrix"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Appendix B: Comparison Matrix
+
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Comparison Matrix](#appendix-b-comparison-matrix)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -17,6 +31,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > InGit + Cowork's distinct profile: maximum structure with full
 
 ---
@@ -48,7 +66,7 @@ local control, free substrate plus Cowork subscription.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[307-abstract]] (сходство 0.12)
 - [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.10)
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.10)
@@ -58,9 +76,28 @@ local control, free substrate plus Cowork subscription.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Comparison Matrix"
+```
+
+## Смотрите также
 - [[308-table-of-contents]]
 - [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [[307-abstract]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[149-appendix-b-summary-of-contributions]]
+- [[307-abstract]]
+- [[308-table-of-contents]]
+- 321-appendix-a-decision-tree-for-[[321-appendix-a-decision-tree-for-ingit-adopters|ingit-adopters]]
+- [[326-содержание]]
+- [[README]]
 

@@ -160,3 +160,16 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 - [17-versioning-policy](17-versioning-policy.md)
 - [06-adapter-interface](06-adapter-interface.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-q6-space](08-q6-space.md)
+- [README](README.md)
+

@@ -3,12 +3,34 @@ title: "Content Overview"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Content Overview
 
+<!-- toc-auto -->
+## Contents
+
+- [Content Overview](#content-overview)
+- [Похожие документы](#похожие-документы)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 > ~200 заметок, темы: software engineering, philosophy, music.
 
 ---
@@ -24,7 +46,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[12-content-overview]] (сходство 0.21)
 
 <!-- backlinks-auto -->
@@ -66,9 +88,33 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Content Overview"
+```
+
+## Смотрите также
 - [[12-content-overview]]
 - [[151-open-knowledge-work-foundation-md]]
 - [[273-infrastructure-for-ai-collaborative-intellectual-w]]
-- [[304-ingit-as-cowork-native-workspace-substrate-md]]
+- 304-[[304-ingit-as-cowork-native-workspace-substrate-md|ingit-as-cowork-native-workspace-substrate-md]]
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[12-content-overview]]
+- [[13-angle-perspective]]
+- [[134-the-double-triangle-architecture-md]]
+- [[150-appendix-c-version-history]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[208-professional-colleague-agents-md]]
+- [[249-composite-skills-agent-md]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+- _...ещё 3_
+
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

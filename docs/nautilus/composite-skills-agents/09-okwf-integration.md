@@ -164,3 +164,19 @@ python scripts/improve_semantic_search.py --query "9 Integration with OKWF Infra
 - [07-economics-combinatorial](07-economics-combinatorial.md)
 - [04-sub-agent-registry](04-sub-agent-registry.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [04-sub-agent-registry](04-sub-agent-registry.md)
+- [07-economics-combinatorial](07-economics-combinatorial.md)
+- [10-risks](10-risks.md)
+- _...ещё 5_
+

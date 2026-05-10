@@ -89,3 +89,16 @@ _Создано: 2026-04-29_
 ```bash
 python scripts/improve_semantic_search.py --query "research summary svyazi"
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [AUTOFILLED](../AUTOFILLED.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [README](README.md)
+- [04-structuring](../processing-guide/04-structuring.md)
+

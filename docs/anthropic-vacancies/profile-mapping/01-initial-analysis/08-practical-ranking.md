@@ -48,3 +48,19 @@ python scripts/improve_semantic_search.py --query "Практическое ра
 - [05-reality-check-distribution-gap](../02-reanalysis/05-reality-check-distribution-gap.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [01-profile-five-layers](01-profile-five-layers.md)
+- [02-primary-fde](02-primary-fde.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
+- _...ещё 4_
+

@@ -96,3 +96,19 @@ python scripts/improve_semantic_search.py --query "Research Report Continuation 
 - [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
 - [30-mega-stack-3-0-with-dsl-ast](../combinations/30-mega-stack-3-0-with-dsl-ast.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- _...ещё 1_
+

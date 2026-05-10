@@ -53,3 +53,17 @@ python scripts/improve_semantic_search.py --query "Раковина наутил
 - [13-reference-implementation](../../nautilus/npp-v1-0/13-reference-implementation.md)
 - [17-appendix-b-change-log](../../nautilus/npp-v1-0/17-appendix-b-change-log.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-two-nautiluses](00-question-two-nautiluses.md)
+- [02-nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
+- [README](README.md)
+

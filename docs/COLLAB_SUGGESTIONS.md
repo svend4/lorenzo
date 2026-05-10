@@ -214,3 +214,14 @@ _Сгенерировано: 2026-05-10 17:37  |  Алгоритм: TF-IDF + BM2
 - [NETWORK](NETWORK.md)
 - [ngt-memory](svyazi-2-0/components/ngt-memory.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+

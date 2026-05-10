@@ -60,3 +60,19 @@ python scripts/improve_semantic_search.py --query "Что уже существ�
 - [08-pluses-of-model](08-pluses-of-model.md)
 - [10-three-entry-points](10-three-entry-points.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-four-structural-blockers](02-four-structural-blockers.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+- [07-current-implementations](07-current-implementations.md)
+- _...ещё 2_
+

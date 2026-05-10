@@ -153,3 +153,16 @@ efficiently between levels.
 - [148-appendix-a-glossary](../../02-anthropic-vacancies/148-appendix-a-glossary.md)
 - [07-open-questions](07-open-questions.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+

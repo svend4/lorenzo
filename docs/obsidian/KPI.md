@@ -2,26 +2,34 @@
 title: "Числовые KPI и метрики"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Числовые KPI и метрики
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, Auto AI Router, Whisper
+
+---
+
 <!-- toc -->
 ## Содержание
 
-- [Количество (242)](#количество-242)
-- [Проценты (199)](#проценты-199)
-- [Время (278)](#время-278)
-- [Стоимость (463)](#стоимость-463)
-- [Размер (32)](#размер-32)
-- [Версия (390)](#версия-390)
-- [Рейтинг (47)](#рейтинг-47)
-- [Этап (71)](#этап-71)
+- [Количество (432)](#количество-432)
+- [Проценты (305)](#проценты-305)
+- [Время (444)](#время-444)
+- [Стоимость (757)](#стоимость-757)
+- [Размер (65)](#размер-65)
+- [Версия (636)](#версия-636)
+- [Рейтинг (77)](#рейтинг-77)
+- [Этап (129)](#этап-129)
 
 ---
 
 <!-- tags: memory, rag, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 
 
 > [!TIP]
@@ -29,10 +37,10 @@ date: 2026-04-29
 
 <!-- alert-added -->
 
-_Извлечено: **1722** числовых показателей из документов_
+_Извлечено: **2845** числовых показателей из документов_
 
 
-## Количество (242)
+## Количество (432)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -56,9 +64,9 @@ _Извлечено: **1722** числовых показателей из до�
 | **4** | md` — _220-9-relationship-to-other-agent-types_ - _...и ещё 4 файлов_ ## Кластер | `CLUSTERS` |
 | **3** | ожение-c-образец-спецификаций-инструментов-ing_ - _...и ещё 3 файлов_ ## Кластер | `CLUSTERS` |
 | **2** | n_ - `docs/contacts/vladspace.md` — _vladspace_ - _...и ещё 2 файлов_ ## Кластер | `CLUSTERS` |
-| _...ещё 222_ | | |
+| _...ещё 412_ | | |
 
-## Проценты (199)
+## Проценты (305)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -82,9 +90,9 @@ _Извлечено: **1722** числовых показателей из до�
 | **7** | negotiation, paperwork. **Mechanics**: Commission-based (5-7% typical), split be | `171-2-historical-preceden` |
 | **50** | s. ### 8.7. Expected Outcomes **For practitioners**: - 30-50% time reduction on  | `219-8-pilot-proposal-sgb-` |
 | **95** | - Cost vs. external lawyer: 80-90% saving - Quality target: 95% citation accurac | `341-приложение-c-образец-` |
-| _...ещё 179_ | | |
+| _...ещё 285_ | | |
 
-## Время (278)
+## Время (444)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -108,9 +116,9 @@ _Извлечено: **1722** числовых показателей из до�
 | **2** | икуются в общий «доска квестов»: могут быть микро (fix bug, 2 часа, XP уровня 50 | `01-интегральный-анализ-пр` |
 | **1-2** | fix bug, 2 часа, XP уровня 50), средние (implement feature, 1-2 недели, XP и cur | `01-интегральный-анализ-пр` |
 | **3–5** | я бы делал в следующие две недели в порядке ROI. День 1–2 (3–5 часов): fix broke | `01-интегральный-анализ-пр` |
-| _...ещё 258_ | | |
+| _...ещё 424_ | | |
 
-## Стоимость (463)
+## Стоимость (757)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -134,9 +142,9 @@ _Извлечено: **1722** числовых показателей из до�
 | **$5** | Google DeepMind, Microsoft AI, Mistral, Anthropic), budget $5-20M/year, which: - | `150-appendix-c-version-hi` |
 | **$1** | - Provides minimum stipend (не full salary, но dignified — $1-3K/month part-time | `150-appendix-c-version-hi` |
 | **€500** | es. Economic layer: - Base stipend для active contributors (€500-1500/month part | `150-appendix-c-version-hi` |
-| _...ещё 443_ | | |
+| _...ещё 737_ | | |
 
-## Размер (32)
+## Размер (65)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -148,8 +156,13 @@ _Извлечено: **1722** числовых показателей из до�
 | **2.0** | ndeswehr/TechHUB SVI), ИИ/агенты (4.1 МБ), и робототехника (2.0 МБ, 15 роботов с | `00-intro` |
 | **2** | право 7.4 МБ, дроны 4.6 МБ, ИИ-агенты 4.1 МБ, робототехника 2 МБ. Центральные те | `01-интегральный-анализ-пр` |
 | **16** | push-to-talk с Pause-key, Whisper large-v3-turbo на NVIDIA 16GB или Apple Silico | `00-intro` |
+| **000** | огнитивной устойчивости и этике \| 211 \| \| **HTML** \| ~4 200 000 байт \| 114  | `ABBREVIATIONS` |
+| **10** | ки \| \| Vector store \| hnswlib (local) \| MIT, без сервера, < 10 MB \| \| BM25 | `PROTOTYPE_SPEC` |
+| **7.6** | - ## Качество извлечения После парсинга MHTML «Вакансии» (7.6 МБ): **Потери:** ~ | `02-extraction` |
+| **4.5** | .py **Строит:** `docs/search_index.json` — 1053 документа, 4.5 МБ Каждая запись: | `06-search` |
+| **200** | `paraphrase-multilingual-MiniLM-L12-v2` — бесплатно, CPU, ~200 МБ - Индексация 1 | `10-future` |
 
-## Версия (390)
+## Версия (636)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -161,35 +174,35 @@ _Извлечено: **1722** числовых показателей из до�
 | **1.0.0** | desyncronize). Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1. | `02-общий-план-развития-na` |
 | **1.0.1** | onize). Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHAN | `02-общий-план-развития-na` |
 | **1.1.0** | Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHANGELOG.md | `02-общий-план-развития-na` |
+| **0.2.0** | rmat.md) - [[47-native-format|Native Format]] - [Planned (v0.2.0)](132-planned | `04-abstract` |
 | **3.1.0** | RFCs to Indicate Requirement Levels - OpenAPI Specification v3.1.0 (for REST API | `104-appendix-c-references` |
 | **1.2** | прямое следствие этого. #### Что я сознательно оставил для v1.2 или v2.0 Formal  | `104-appendix-c-references` |
 | **3.0** | Удалить transitional header 7. Добавить changelog-запись: «v3.0 consolidated fro | `110-вопрос-fallback-ratio` |
-| **0.2.0** | # Planned (v0.2.0) > - HTTP-mode для debugging и remote access --- ## | `132-planned-v0-2-0` |
 | **0.6.0** | laude (Анастасия Бутова, AnastasiyaW) — реально существует, версия 0.6.0, MIT, 1 | `365-развёрнутый-анализ-вн` |
 | **3.2** | viewer 1 (GPT-5.4): проверяет логику - Reviewer 2 (DeepSeek-V3.2): проверяет --- | `02-knowledge-graphs` |
 | **0.1** | st per card, trace completeness. MVP boundary: что входит в v0.1, что запрещено  | `14-ограничения-лицензии-и` |
 | **0.2** | leteness. MVP boundary: что входит в v0.1, что запрещено до v0.2. Pilot scenario | `14-ограничения-лицензии-и` |
 | **0.11.0** | лицензия. К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё | `TABLES` |
-| **5.0.6** | \\\\\\\\| азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Док | `TABLES` |
-| **0.10.0** | нтегрируется с любым MCP сервером 118 встроенных навыков в v0.10.0 Open standard | `TABLES` |
-| **0.9** | Нет vendor lock-in. 6. Скорость разработки. 1556 commits с v0.9 до v0.11. Это fu | `TABLES` |
-| _...ещё 370_ | | |
+| **5.0.6** | 2026` \\| азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Док | `TABLES` |
+| **0.10.0** | нтегрируется с любым MCP сервером 118 встроенных навыков в v0.10.0 Open standard | `00-question-what-is-herme` |
+| **0.9** | Нет vendor lock-in. 6. Скорость разработки. 1556 commits с v0.9 до v0.11. Это fu | `11-pluses-of-hermes` |
+| _...ещё 616_ | | |
 
-## Рейтинг (47)
+## Рейтинг (77)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
 | **10** | nts (≈8 репо)](#кластер-4-archives-experiments-8-репо) - [Топ-10 репо, в которые | `00-intro` |
 | **5** | sh/git), либо помочь с English README-драфтом для одного из топ-5, либо проработ | `00-intro` |
-| **30** | , MemNet --- **Файлов с входящими ссылками:** 504 ## Топ-30 самых цитируемых док | `BACKLINKS` |
+| **30** | обратных ссылок **Файлов с входящими ссылками:** 1786 ## Топ-30 самых цитируемых | `BACKLINKS` |
 | **20** | ь документы](#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](#де | `CONTENT_GAPS` |
 | **40** | (#матрица-сходства-секций) - [Граф связей](#граф-связей) - [[PRIORITIES|Топ-40 кросс-секцион | `CROSS_SECTION` |
-| **15** | бзор (0 сл., строка 35) ### `WORD_FREQ.md` (1 из 21) - ## Топ-15 слов по раздела | `EMPTY_SECTIONS` |
+| **15** | айлы (3 сл., строка 21) ### `WORD_FREQ.md` (1 из 24) - ## Топ-15 слов по раздела | `EMPTY_SECTIONS` |
 | **50** | ### [Приоритеты файлов]] > > !TIP - Топ-50 самых важных файло | `OUTLINE` |
 | **3** | - Детальные метрики - Лучшие изменения - Регрессии - Топ-3 фокуса на следующий п | `OUTLINE` |
 | **8** | », «достигн», «получен», «вывод») - Ключевые слова (TF-IDF топ-8) **Флаги:** `-- | `SCRIPTS_CATALOG` |
 
-## Этап (71)
+## Этап (129)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -199,21 +212,52 @@ _Извлечено: **1722** числовых показателей из до�
 | **4** | кристалла», получить osmыслený ответ с указанием репо. #### Фаза 4 — Web interfa | `02-общий-план-развития-na` |
 | **5** | y через браузер, получить отформатированный результат. #### Фаза 5 — Публикация  | `02-общий-план-развития-na` |
 | **0** | ёртывания](#9-стратегия-поэтапного-развёртывания) - [[TIMELINE|9.1. Фаза 0 — Основание (Ме | `199-9-стратегия-поэтапног` |
-| **24** | митов) ### 🔧 Обслуживание - regenerate auto-exports after Sprint 24-26 _6421a1fc | `CHANGELOG` |
+| **51** | onorepo-docs-VmctA _741edf95_ - regenerate auto-feeds after Sprint 51-53 _ba2fca | `CHANGELOG` |
+| **48** | sion_01Dz4rhQWcqu2afRsJ5LqHpz - regenerate auto-feeds after Sprint 48-50 _dedfe1 | `CHANGELOG` |
+| **45** | sion_01Dz4rhQWcqu2afRsJ5LqHpz - regenerate auto-feeds after Sprint 45-47 _74b242 | `CHANGELOG` |
+| **42** | sion_01Dz4rhQWcqu2afRsJ5LqHpz - regenerate auto-feeds after Sprint 42-44 _7d1a69 | `CHANGELOG` |
+| **39** | ct files updated by benchmark - regenerate auto-feeds after Sprint 39-41 _d445ff | `CHANGELOG` |
+| **36** | after Sprint 39-41 _d445ffb3_ - regenerate auto-feeds after Sprint 36-38 _6efb6b | `CHANGELOG` |
+| **33** | after Sprint 36-38 _6efb6b90_ - regenerate auto-feeds after Sprint 33-35 _659414 | `CHANGELOG` |
+| **30** | n REPORT exports _2b1e57d2_ - regenerate auto-exports after Sprint 30-32 _e0233b | `CHANGELOG` |
+| **27** | ter Sprint 30-32 _e0233b26_ - regenerate auto-exports after Sprint 27-29 _40f122 | `CHANGELOG` |
+| **24** | merge with main _b9521c3d_ - regenerate auto-exports after Sprint 24-26 _6421a1f | `CHANGELOG` |
 | **21** | ter Sprint 24-26 _6421a1fc_ - regenerate auto-exports after Sprint 21-23 _6ac597 | `CHANGELOG` |
 | **18** | ter Sprint 21-23 _6ac59707_ - regenerate auto-exports after Sprint 18-20 _f05312 | `CHANGELOG` |
 | **15** | 3125f_ - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737 | `CHANGELOG` |
 | **12** | t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e | `CHANGELOG` |
-| **9** | web dashboard _1bf14810_ > Sprint 12 — bot-aware system - Sprint 9-11 — skills M | `CHANGELOG` |
-| **6** | ins, CI/CD _22c4cf8d_ > Sprint 9 — agentic skills layer - Sprint 6-8 — миграции, | `CHANGELOG` |
+| _...ещё 109_ | | |
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
+
+## Использование
+
+```bash
+python scripts/improve_kpi.py
+```
+
+```bash
+# Обновить KPI и сформировать Go/No-Go оценку
+python scripts/improve_kpi.py && python scripts/improve_scoring.py
+```
+
+## Смотрите также
 - [TIMELINE]]
 - [[TABLES]]
 - [[SEARCH]]
 - [[02-общий-план-развития-nautilus-portal-protocol]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

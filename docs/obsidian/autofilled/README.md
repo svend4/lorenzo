@@ -9,3 +9,13 @@
 ## Подразделы
 
 - [components/](components/) — components
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../../READABILITY.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+

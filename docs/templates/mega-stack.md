@@ -130,3 +130,19 @@ python scripts/improve_template_init.py --template mega-stack --output docs/new-
 - [ensemble](ensemble.md)
 - [project-component](project-component.md)
 - [tech-radar-entry](tech-radar-entry.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [ensemble](ensemble.md)
+- [prototype-mvp](prototype-mvp.md)
+- _...ещё 1_
+

@@ -92,3 +92,19 @@ python scripts/improve_semantic_search.py --query "Question 9 Geographic linguis
 - [10-q10-funding-model](10-q10-funding-model.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-yazyki-kultura](../06-yazyki-kultura.md)
+- [00-context-fundamental-questions](00-context-fundamental-questions.md)
+- [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
+- _...ещё 2_
+

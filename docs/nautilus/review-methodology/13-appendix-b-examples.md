@@ -98,3 +98,17 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
 - [10-checklist](10-checklist.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-coally](../../anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+- [10-checklist](10-checklist.md)
+- [README](README.md)
+

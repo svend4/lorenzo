@@ -4,10 +4,15 @@ tags:
   - rag
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # The Specific Case in Front of Us
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -20,6 +25,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > The seven documents produced in this session have specific
 
 ---
@@ -128,7 +137,7 @@ infrastructure.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[276-the-two-layer-stack-as-it-exists]] (сходство 0.18)
 - [[277-what-s-missing-layer-b]] (сходство 0.16)
 - [[279-existing-approximations]] (сходство 0.16)
@@ -138,7 +147,13 @@ infrastructure.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Specific Case in Front of Us"
+```
+
+## Смотрите также
 - [[277-what-s-missing-layer-b]]
 - [[276-the-two-layer-stack-as-it-exists]]
 - [[284-practical-recommendations-for-the-current-project]]
@@ -181,3 +196,19 @@ infrastructure.
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _25%_
 - [[282-what-industry-will-likely-build|What Industry Will Likely Build]] _21%_
 - [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[218-7-application-domains]]
+- [[275-why-this-document-exists]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[278-why-this-hasn-t-been-built]]
+- [[282-what-industry-will-likely-build]]
+- [[283-what-this-document-doesn-t-solve]]
+- [[284-practical-recommendations-for-the-current-project]]
+- _...ещё 1_
+

@@ -89,3 +89,15 @@ NPP **не** пытается:
 # Поиск по теме документа
 python scripts/improve_semantic_search.py --query "1 Introduction Motivation Design Goals"
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

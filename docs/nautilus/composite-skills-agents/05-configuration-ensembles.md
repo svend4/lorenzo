@@ -165,3 +165,17 @@ python scripts/improve_semantic_search.py --query "5 Configuration How Principal
 - [03-what-makes-csa](03-what-makes-csa.md)
 - [11-open-questions](11-open-questions.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-coordination-disagreement](06-coordination-disagreement.md)
+- [README](README.md)
+

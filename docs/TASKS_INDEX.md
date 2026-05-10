@@ -325,3 +325,18 @@ _Обновлено: 2026-04-29_
 ```bash
 python scripts/improve_semantic_search.py --query "Каталог задач TASKS_INDEX"
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [prototype-mvp](templates/prototype-mvp.md)
+- [rfc](templates/rfc.md)
+

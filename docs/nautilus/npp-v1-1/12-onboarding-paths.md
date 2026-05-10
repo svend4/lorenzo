@@ -1,5 +1,21 @@
 # 12. Onboarding Paths (Normative)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
+  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
+  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
+  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
+  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
+  - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
+  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -131,4 +147,18 @@ python scan_repo.py owner/repo-name
 - [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
 - [03-registry](03-registry.md)
 - [02-terminology](02-terminology.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
 

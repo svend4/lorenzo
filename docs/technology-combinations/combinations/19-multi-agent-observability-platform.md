@@ -1,5 +1,15 @@
 # Комбинация 19: Multi-Agent Observability Platform
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -184,4 +194,20 @@ python scripts/improve_semantic_search.py --query "Комбинация 19 Multi
 - [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 - [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
+- [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
+- [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
+- _...ещё 3_
 

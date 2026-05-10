@@ -207,3 +207,18 @@ python scripts/improve_semantic_search.py --query "8 Seven Domains of Applicatio
 - [255-2-the-twenty-one-teachers-pattern](../../02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
 - [07-application-domains](../professional-colleague-agents-en/07-application-domains.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-twenty-one-teachers-pattern](02-twenty-one-teachers-pattern.md)
+- [README](README.md)
+- [07-application-domains](../professional-colleague-agents-en/07-application-domains.md)
+

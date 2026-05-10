@@ -90,3 +90,16 @@ python scripts/improve_reading_list.py
 - [BROKEN_LINKS](BROKEN_LINKS.md)
 - [REPORT](REPORT.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

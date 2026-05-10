@@ -118,3 +118,16 @@ python scripts/improve_template_init.py --template legal-case --output docs/new-
 ## Смотрите также
 - `docs/svyazi-2-0/components/legal-[rag.md`](...)
 - [decision-record](decision-record.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+

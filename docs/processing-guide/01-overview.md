@@ -1,5 +1,18 @@
 # Обработка больших массивов информации — Часть 1: Обзор и таксономия
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Проблема](#проблема)
+- [Таксономия методов](#таксономия-методов)
+- [Что реализовано в Lorenzo](#что-реализовано-в-lorenzo)
+- [Навигация по разделам](#навигация-по-разделам)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -109,4 +122,20 @@
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [02-extraction](02-extraction.md)
 - [07-llm](07-llm.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [02-extraction](02-extraction.md)
+- [03-chunking](03-chunking.md)
+- _...ещё 8_
 

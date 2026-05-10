@@ -1,5 +1,16 @@
 # 3. Принципы консолидации (Фаза C)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [3. Принципы консолидации (Фаза C)](#3-принципы-консолидации-фаза-c)
+  - [3.1. Для каждого расхождения применяются правила](#31-для-каждого-расхождения-применяются-правила)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -124,4 +135,16 @@ target interface и native-форматами как adaptees»
 - [71-критерии-выбора-для-фазы-3](../../02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
 - [04-fallback-ratio-question](04-fallback-ratio-question.md)
 - [10-checklist](10-checklist.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 

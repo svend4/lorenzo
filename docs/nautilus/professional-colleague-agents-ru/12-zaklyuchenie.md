@@ -1,5 +1,20 @@
 # 12. Заключение
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [12. Заключение](#12-заключение)
+- [Благодарности](#благодарности)
+- [Ссылки](#ссылки)
+  - [Первичный Эмпирический Источник](#первичный-эмпирический-источник)
+  - [Сопроводительные Документы](#сопроводительные-документы)
+  - [Основополагающие Источники](#основополагающие-источники)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -164,3 +179,16 @@ python scripts/improve_semantic_search.py --query "12 Заключение" --mo
 # Поиск (full)
 python scripts/improve_semantic_search.py --query "12 Заключение" --mode full --top 15
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [README](README.md)
+

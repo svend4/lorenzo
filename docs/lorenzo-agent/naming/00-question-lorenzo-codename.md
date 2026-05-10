@@ -56,3 +56,17 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Думаю п�
 - [09-voobshche-nelzya](../09-voobshche-nelzya.md)
 
 _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-search-results-not-found](01-search-results-not-found.md)
+- [README](README.md)
+

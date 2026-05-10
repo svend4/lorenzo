@@ -168,3 +168,18 @@ python scripts/improve_semantic_search.py --query "9 Риски и Открыт�
 - [06-konkretnyy-sluchay](../infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
 - [08-promyshlennost-postroit](../infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
+- [08-implikatsii-nautilus-okwf](08-implikatsii-nautilus-okwf.md)
+- [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
+- [README](README.md)
+

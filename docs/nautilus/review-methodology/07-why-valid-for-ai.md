@@ -72,3 +72,16 @@ python scripts/improve_semantic_search.py --query "6 Почему это вал�
 - [14-main-technical-risks](14-main-technical-risks.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](../../02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

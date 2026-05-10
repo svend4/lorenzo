@@ -2,15 +2,21 @@
 title: "Code-блоки репозитория"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Code-блоки репозитория
 
+<!-- summary -->
+> > Документ содержит практические рекомендации и лучшие практики.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
 <!-- toc -->
 ## Содержание
 
-- [📊 Диаграммы Mermaid (22)](#диаграммы-mermaid-22)
+- [📊 Диаграммы Mermaid (32)](#диаграммы-mermaid-32)
   - [Приоритетные ансамбли](#приоритетные-ансамбли)
   - [Приоритетные ансамбли](#приоритетные-ансамбли)
   - [Приоритетные ансамбли](#приоритетные-ансамбли)
@@ -21,43 +27,44 @@ date: 2026-04-29
   - [Новые ансамбли следующего шага](#новые-ансамбли-следующего-шага)
   - [Диаграмма](#диаграмма)
   - [Граф связей](#граф-связей)
-  - [Схема](#схема)
-  - [Схема](#схема)
-  - [Схема](#схема)
-  - [Схема](#схема)
-  - [Схема](#схема)
-- [🐍 Python (35)](#python-35)
-  - [portal-mcp.py](#portal-mcppy)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+  - [Приоритетные ансамбли](#приоритетные-ансамбли)
+- [🐍 Python (114)](#python-114)
+  - portal-[mcp.py](#portal-mcppy)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. `describe()` — Required for Level 1+](#62-describe-required-for-level-1)
-  - [7. PortalEntry Structure](#7-portalentry-structure)
-  - [10. QueryResult Structure](#10-queryresult-structure)
+  - 7. [PortalEntry Structure](#7-portalentry-structure)
+  - 10. [QueryResult Structure](#10-queryresult-structure)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.3. `describe()` — Required](#63-describe-required)
-  - [7. PortalEntry Structure](#7-portalentry-structure)
+  - 7. [PortalEntry Structure](#7-portalentry-structure)
   - [7.2. Q6 Metadata](#72-q6-metadata)
   - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
   - [9.2. Consensus Structure](#92-consensus-structure)
   - [9.4. Algorithm](#94-algorithm)
   - [11.1. Scoring Formula](#111-scoring-formula)
   - [14.1. Required SDK Methods](#141-required-sdk-methods)
-- [📋 YAML (14)](#yaml-14)
+- [📋 YAML (23)](#yaml-23)
+  - [Appendix B: Sub-Agent Registry Schema (Sketch)](#appendix-b-sub-agent-registry-schema-sketch)
+  - [Appendix C: Configuration Template Example](#appendix-c-configuration-template-example)
+  - [Appendix C: Sample InGit MCP Server Tool Specifications](#appendix-c-sample-ingit-mcp-server-tool-specifications)
+  - [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](#приложение-c-образец-спецификаций-инструментов-ingit-mcp-се)
   - [Appendix B: Sub-Agent Registry Schema (Sketch)](#appendix-b-sub-agent-registry-schema-sketch)
   - [Appendix C: Configuration Template Example](#appendix-c-configuration-template-example)
   - [Appendix C: Sample InGit MCP Server Tool Specifications](#appendix-c-sample-ingit-mcp-server-tool-specifications)
   - [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](#приложение-c-образец-спецификаций-инструментов-ingit-mcp-се)
   - [Контракт взаимодействия](#контракт-взаимодействия)
+  - Ступень 3: [GitHub Actions CI/CD — .github/workflows/docs.yml](#ступень-3-github-actions-cicd-githubworkflowsdocsyml)
+  - [pre-commit install](#pre-commit-install)
+  - Ступень 3: [GitHub Actions CI/CD — .github/workflows/docs.yml](#ступень-3-github-actions-cicd-githubworkflowsdocsyml)
+  - [pre-commit install](#pre-commit-install)
+  - [Контракт взаимодействия](#контракт-взаимодействия)
   - [3. Registry / Discovery](#3-registry-discovery)
-  - [7. PortalEntry](#7-portalentry)
-  - [Контракт интеграции](#контракт-интеграции)
-  - [1. Frontmatter (YAML)](#1-frontmatter-yaml)
-  - [Поле статуса (enum)](#поле-статуса-enum)
-  - [Поле даты (формат)](#поле-даты-формат)
-  - [Поле списка тегов](#поле-списка-тегов)
-  - [Поле ссылки на другой шаблон](#поле-ссылки-на-другой-шаблон)
-  - [ID с регулярным выражением](#id-с-регулярным-выражением)
-- [💻 Bash / Shell (37)](#bash-shell-37)
+- [💻 Bash / Shell (187)](#bash-shell-187)
   - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
   - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
   - [Что сделать прямо сейчас](#что-сделать-прямо-сейчас)
@@ -73,12 +80,12 @@ date: 2026-04-29
   - [Сервер не подключается](#сервер-не-подключается)
   - [Tool-call падает с "adapter_failed"](#tool-call-падает-с-adapter_failed)
   - [Быстрый старт](#быстрый-старт)
-- [📦 JSON (23)](#json-23)
+- [📦 JSON (48)](#json-48)
   - [3.2. Schema](#32-schema)
   - [Конфигурация для Claude Desktop](#конфигурация-для-claude-desktop)
   - [Содержимое](#содержимое)
   - [5.2. Pattern Library Architecture](#52-pattern-library-architecture)
-  - [A.1. Minimal `nautilus.json`](#a1-minimal-nautilusjson)
+  - A.1. Minimal `[nautilus.json`](#a1-minimal-nautilusjson)
   - [Подключить свой репозиторий](#подключить-свой-репозиторий)
   - [Connect Your Repository](#connect-your-repository)
   - [3.2. Schema](#32-schema)
@@ -86,10 +93,10 @@ date: 2026-04-29
   - [13.3. Response Schemas](#133-response-schemas)
   - [13.3. Response Schemas](#133-response-schemas)
   - [13.6. Error Responses](#136-error-responses)
-  - [A.1. Minimal `nautilus.json`](#a1-minimal-nautilusjson)
-  - [5.2. Pattern Library Architecture](#52-pattern-library-architecture)
-  - [3.2. Schema](#32-schema)
-- [📝 Без языка (174)](#без-языка-174)
+  - A.1. Minimal `[nautilus.json`](#a1-minimal-nautilusjson)
+  - [3.1 Card Envelope](#31-card-envelope)
+  - [3.2 Evidence Envelope](#32-evidence-envelope)
+- [📝 Без языка (383)](#без-языка-383)
   - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список)
   - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список)
   - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
@@ -105,7 +112,7 @@ date: 2026-04-29
   - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
   - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
   - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
-- [markdown (21)](#markdown-21)
+- [markdown (45)](#markdown-45)
   - [2.4. Заголовок транзитного состояния](#24-заголовок-транзитного-состояния)
   - [Q6-покрытие](#q6-покрытие)
   - [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
@@ -145,25 +152,27 @@ date: 2026-04-29
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
 <!-- alert-added -->
 
-**Всего блоков:** 327
+**Всего блоков:** 833
 
 | Язык | Блоков |
 |------|--------|
-| 📝 Без языка | 174 |
-| 💻 Bash / Shell | 37 |
-| 🐍 Python | 35 |
-| 📦 JSON | 23 |
-| 📊 Диаграммы Mermaid | 22 |
-| markdown | 21 |
-| 📋 YAML | 14 |
+| 📝 Без языка | 383 |
+| 💻 Bash / Shell | 187 |
+| 🐍 Python | 114 |
+| 📦 JSON | 48 |
+| markdown | 45 |
+| 📊 Диаграммы Mermaid | 32 |
+| 📋 YAML | 23 |
 | typescript | 1 |
 
-## 📊 Диаграммы Mermaid (22)
+## 📊 Диаграммы Mermaid (32)
 
 
 ### Приоритетные ансамбли
@@ -292,32 +301,32 @@ _`docs/CONCEPT_GRAPH.md` | 101 строк_
 
 ```mermaid
 graph TD
-    docs["docs\n(995)"]
-    anthropic["anthropic\n(791)"]
-    claude["claude\n(502)"]
-    summary["summary\n(497)"]
-    vacancies["vacancies\n(474)"]
-    источник["источник\n(467)"]
-    mhtml["mhtml\n(411)"]
-    снимок["снимок\n(400)"]
-    репозитория("репозитория\n(387)")
-    корень["корень\n(377)"]
-    agent{{"agent\n(358)"}}
-    tags["tags\n(352)"]
-    nautilus["nautilus\n(321)"]
-    раздел["раздел\n(310)"]
-    вакансии["вакансии\n(305)"]
-    кластерам["кластерам\n(295)"]
-    диалога["диалога\n(269)"]
-    svyazi("svyazi\n(250)")
-    knowledge["knowledge\n(243)"]
-    architecture["architecture\n(236)"]
-    сходство["сходство\n(235)"]
-    memory[("memory\n(193)")]
-    collaboration["collaboration\n(189)"]
-    habr["habr\n(167)"]
-    layer[/"layer\n(159)"/]
-    work["work\n(158)"]
+    документы["документы\n(318)"]
+    anthropic["anthropic\n(273)"]
+    auto["auto\n(264)"]
+    упоминается["упоминается\n(247)"]
+    связанные["связанные\n(187)"]
+    readme["readme\n(184)"]
+    summary["summary\n(165)"]
+    анализ["анализ\n(162)"]
+    appendix["appendix\n(160)"]
+    сходство["сходство\n(156)"]
+    вакансии["вакансии\n(147)"]
+    nautilus["nautilus\n(131)"]
+    кластерам["кластерам\n(127)"]
+    agent{{"agent\n(122)"}}
+    svyazi("svyazi\n(118)")
+    knowledge["knowledge\n(118)"]
+    contents["contents\n(110)"]
+    ingit["ingit\n(106)"]
+    portal["portal\n(97)"]
+    tags["tags\n(95)"]
+    cowork["cowork\n(95)"]
+    agents{{"agents\n(84)"}}
+    architecture["architecture\n(84)"]
+    abstract["abstract\n(79)"]
+    memory[("memory\n(77)")]
+    protocol[/"protocol\n(
 # ... (обрезано)
 ```
 
@@ -347,8 +356,8 @@ graph LR
 # ... (обрезано)
 ```
 
-### Схема
-_`docs/svyazi-2-0/ensembles/A-collaboration-os.md` | 10 строк_
+### Приоритетные ансамбли
+_`docs/obsidian/01-svyazi/04-ensembles-overview.md` | 10 строк_
 
 ```mermaid
 flowchart LR
@@ -363,8 +372,8 @@ flowchart LR
     F --> H
 ```
 
-### Схема
-_`docs/svyazi-2-0/ensembles/B-forensic-rag.md` | 10 строк_
+### Приоритетные ансамбли
+_`docs/obsidian/01-svyazi/04-ensembles-overview.md` | 10 строк_
 
 ```mermaid
 flowchart LR
@@ -379,8 +388,8 @@ flowchart LR
     G --> H[Ответ / матч / объяснение]
 ```
 
-### Схема
-_`docs/svyazi-2-0/ensembles/C-multi-agent-factory.md` | 9 строк_
+### Приоритетные ансамбли
+_`docs/obsidian/01-svyazi/04-ensembles-overview.md` | 9 строк_
 
 ```mermaid
 flowchart LR
@@ -394,8 +403,8 @@ flowchart LR
     H --> B
 ```
 
-### Схема
-_`docs/svyazi-2-0/ensembles/D-voice-first-mesh.md` | 8 строк_
+### Приоритетные ансамбли
+_`docs/obsidian/01-svyazi/04-ensembles-overview.md` | 8 строк_
 
 ```mermaid
 flowchart LR
@@ -408,8 +417,8 @@ flowchart LR
     F --> G
 ```
 
-### Схема
-_`docs/svyazi-2-0/ensembles/E-execution-plane.md` | 10 строк_
+### Приоритетные ансамбли
+_`docs/obsidian/01-svyazi/04-ensembles-overview.md` | 10 строк_
 
 ```mermaid
 flowchart LR
@@ -424,9 +433,9 @@ flowchart LR
     H --> I[Исполнение tool calls / UI / отчёты]
 ```
 
-_...и ещё 7 блоков этого языка_
+_...и ещё 17 блоков этого языка_
 
-## 🐍 Python (35)
+## 🐍 Python (114)
 
 
 ### portal-mcp.py
@@ -755,9 +764,9 @@ class NautilusClient:
     def health(self) -> HealthReport: ...
 ```
 
-_...и ещё 20 блоков этого языка_
+_...и ещё 99 блоков этого языка_
 
-## 📋 YAML (14)
+## 📋 YAML (23)
 
 
 ### Appendix B: Sub-Agent Registry Schema (Sketch)
@@ -917,6 +926,281 @@ parameters:
 # ... (обрезано)
 ```
 
+### Appendix B: Sub-Agent Registry Schema (Sketch)
+_`docs/obsidian/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md` | 56 строк_
+
+```yaml
+sub_agent:
+  id: "sgb-ix-paragraph-78-24-7-assistance"
+  name: "SGB IX § 78 Abs. 6 — 24/7 Psychiatric Assistance"
+  domain: "german-social-law"
+  specialization_path: 
+    - "law"
+    - "german"
+    - "social-law"
+    - "sgb-ix"
+    - "section-78"
+    - "subsection-6"
+  scope:
+    covers:
+      - "Right to 24/7 psychiatric assistance"
+      - "Documentation requirements"
+      - "Procedural pathways"
+      - "Appeal mechanisms"
+    does_not_cover:
+      - "Other forms of psychiatric care"
+      - "Voluntary commitment procedures"
+      - "Tax implications"
+  knowledge_base:
+    primary_sources:
+      - "SGB IX § 78"
+      - "BSG B 8 SO 9/19 R"
+      - "Implementing regulations"
+    methodology:
+      - "Case-based reasoning"
+      - "Statutory interpretation"
+      - "Procedural guidance"
+
+# ... (обрезано)
+```
+
+### Appendix C: Configuration Template Example
+_`docs/obsidian/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md` | 37 строк_
+
+```yaml
+configuration:
+  name: "General Disability Rights Advocate (Saxony)"
+  description: |
+    Starting configuration for advocates working on disability 
+    rights cases in Saxony, Germany. Suitable for practitioners 
+    handling general SGB IX and SGB XII cases without specific 
+    sub-specialization.
+  base_profile:
+    profession: "legal-advocate"
+    sub_specialty: "disability-rights"
+    jurisdiction: "germany-saxony"
+    languages: ["de", "en"]
+  sub_agents:
+    foundational:
+      - "sgb-ix-general-overview"
+      - "sgb-xii-general-overview"
+      - "german-procedural-law-basics"
+      - "general-legal-drafting-german"
+    specialized:
+      - "sgb-ix-section-78-eingliederungshilfe"
+      - "sgb-ix-personal-budget-procedures"
+      - "bsg-precedent-disability-cases"
+      - "saxony-
+# ... (обрезано)
+```
+
+### Appendix C: Sample InGit MCP Server Tool Specifications
+_`docs/obsidian/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | 116 строк_
+
+```yaml
+tool: ingit_search_wiki
+description: |
+  Search the InGit Project wiki for relevant content.
+  Searches both content and metadata.
+parameters:
+  query: 
+    type: string
+    description: Search query
+  path_filter:
+    type: string
+    optional: true
+    description: Limit search to subfolder of 80_wiki/
+returns:
+  type: list
+  items:
+    path: string
+    title: string
+    excerpt: string
+    metadata: object
+    last_modified: datetime
+
+tool: ingit_create_document
+description: |
+  Create new document in InGit Project following 
+  conventions for the document type.
+parameters:
+  document_type:
+    type: enum
+    values: [note, report, specification, draft]
+  title:
+    type: string
+  content:
+    type: string
+  metadata:
+    type: object
+    description: Additional YAML metadata
+  location
+# ... (обрезано)
+```
+
+### Приложение C: Образец Спецификаций Инструментов InGit MCP Се
+_`docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | 122 строк_
+
+```yaml
+tool: ingit_search_wiki
+description: |
+  Поиск в InGit Project wiki соответствующего
+  содержания. Ищет и в содержании, и в
+  метаданных.
+parameters:
+  query: 
+    type: string
+    description: Поисковый запрос
+  path_filter:
+    type: string
+    optional: true
+    description: Ограничить поиск подпапкой
+                 80_wiki/
+returns:
+  type: list
+  items:
+    path: string
+    title: string
+    excerpt: string
+    metadata: object
+    last_modified: datetime
+
+tool: ingit_create_document
+description: |
+  Создать новый документ в InGit Project,
+  следуя конвенциям для типа документа.
+parameters:
+  document_type:
+    type: enum
+    values: [note, report, specification, draft]
+  title:
+    type: string
+  content:
+    type: string
+  metadata:
+    type: object
+    description: Дополнительные
+# ... (обрезано)
+```
+
+### Контракт взаимодействия
+_`docs/obsidian/templates/ensemble.md` | 6 строк_
+
+```yaml
+input:
+  type: [тип входа]
+  format: [формат]
+output:
+  type: [тип выхода]
+  format: [формат]
+```
+
+### Ступень 3: GitHub Actions CI/CD — .github/workflows/docs.yml
+_`docs/processing-guide/09-automation.md` | 31 строк_
+
+```yaml
+# .github/workflows/docs.yml (сгенерирован improve_ci_config.py)
+
+on: [push]
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -r requirements.txt -q
+      
+      # Быстрые скрипты на PR
+      - name: Run fast scripts
+        if: github.event_name == 'pull_request'
+        run: python scripts/improve_run_all.py --fast
+        continue-on-error: true
+      
+      # Все скрипты на push в main
+      - name: Run all scripts
+        if: github.event_name == 'push'
+        run: python scripts/improve_run_all.py --smart
+        continue-on-error: true
+      
+      # Закоммитить обновлённые docs/
+      - name: Commit updates
+        run: |
+          git
+# ... (обрезано)
+```
+
+### pre-commit install
+_`docs/processing-guide/09-automation.md` | 12 строк_
+
+```yaml
+# .pre-commit-config.yaml
+repos:
+  - repo: local
+    hooks:
+      - id: check-broken-links
+        name: Check broken links
+        entry: python scripts/improve_broken_links.py
+        language: python
+      - id: validate-docs
+        name: Validate docs structure
+        entry: python scripts/improve_validate.py
+        language: python
+```
+
+### Ступень 3: GitHub Actions CI/CD — .github/workflows/docs.yml
+_`docs/processing-guide/PROCESSING_GUIDE.md` | 31 строк_
+
+```yaml
+# .github/workflows/docs.yml (сгенерирован improve_ci_config.py)
+
+on: [push]
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -r requirements.txt -q
+      
+      # Быстрые скрипты на PR
+      - name: Run fast scripts
+        if: github.event_name == 'pull_request'
+        run: python scripts/improve_run_all.py --fast
+        continue-on-error: true
+      
+      # Все скрипты на push в main
+      - name: Run all scripts
+        if: github.event_name == 'push'
+        run: python scripts/improve_run_all.py --smart
+        continue-on-error: true
+      
+      # Закоммитить обновлённые docs/
+      - name: Commit updates
+        run: |
+          git
+# ... (обрезано)
+```
+
+### pre-commit install
+_`docs/processing-guide/PROCESSING_GUIDE.md` | 12 строк_
+
+```yaml
+# .pre-commit-config.yaml
+repos:
+  - repo: local
+    hooks:
+      - id: check-broken-links
+        name: Check broken links
+        entry: python scripts/improve_broken_links.py
+        language: python
+      - id: validate-docs
+        name: Validate docs structure
+        entry: python scripts/improve_validate.py
+        language: python
+```
+
 ### Контракт взаимодействия
 _`docs/templates/ensemble.md` | 6 строк_
 
@@ -938,79 +1222,9 @@ registry:
   version: 1.0
 ```
 
-### 7. PortalEntry
-_`docs/templates/protocol-spec.md` | 6 строк_
+_...и ещё 8 блоков этого языка_
 
-```yaml
-portal_entry:
-  id: uuid
-  type: card|document|fragment
-  source: ...
-  payload: ...
-  timestamp: ...
-```
-
-### Контракт интеграции
-_`docs/templates/tech-pair.md` | 6 строк_
-
-```yaml
-A_to_B:
-  format: ...
-  protocol: ...
-B_to_A:
-  format: ...
-  protocol: ...
-```
-
-### 1. Frontmatter (YAML)
-_`docs/templates/template-of-templates.md` | 7 строк_
-
-```yaml
----
-template: <имя>
-version: "1.0"
-[обязательные поля для этого типа документа]
-created: 2026-04-29
-tags: [тег1, тег2]
----
-```
-
-### Поле статуса (enum)
-_`docs/templates/template-of-templates.md` | 1 строк_
-
-```yaml
-status: draft  # draft | proposed | accepted | rejected | superseded
-```
-
-### Поле даты (формат)
-_`docs/templates/template-of-templates.md` | 1 строк_
-
-```yaml
-created: 2026-04-29  # YYYY-MM-DD
-```
-
-### Поле списка тегов
-_`docs/templates/template-of-templates.md` | 1 строк_
-
-```yaml
-tags: [тег1, тег2, тег3]
-```
-
-### Поле ссылки на другой шаблон
-_`docs/templates/template-of-templates.md` | 1 строк_
-
-```yaml
-related: ["docs/templates/other.md"]
-```
-
-### ID с регулярным выражением
-_`docs/templates/template-of-templates.md` | 1 строк_
-
-```yaml
-some_id: "PREFIX-NNNN"  # схема: pattern: "^PREFIX-\\d{4}$"
-```
-
-## 💻 Bash / Shell (37)
+## 💻 Bash / Shell (187)
 
 
 ### Чтобы я мог сделать конкретный code-level анализ
@@ -1162,9 +1376,9 @@ python portal.py --serve
 # см. MCP-EXTENSION.md
 ```
 
-_...и ещё 22 блоков этого языка_
+_...и ещё 172 блоков этого языка_
 
-## 📦 JSON (23)
+## 📦 JSON (48)
 
 
 ### 3.2. Schema
@@ -1415,55 +1629,40 @@ _`docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` | 15 с�
 }
 ```
 
-### 5.2. Pattern Library Architecture
-_`docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md` | 15 строк_
+### 3.1 Card Envelope
+_`docs/PROTOTYPE_SPEC.md` | 11 строк_
 
 ```json
 {
-"name": "my-case-2026",
-"format": "case_instance",
-"inherits_from": [
-"public:nautilus-legal:pattern/eingliederungshilfe_denial_reversal",
-"public:nautilus-legal:norm/sgb_xii_90",
-"public:nautilus-legal:template/widerspruch_generic"
-],
-"overrides": {
-"eingliederungshilfe_denial_reversal": {
-"specific_to": "Sachsen jurisdiction",
-"timeline_adjusted": true
-}
-}
+  "card_id":      "sha256:...",
+  "card_type":    "doc | note | fact | person | project",
+  "state":        "raw | normalized | inferred | approved | rejected | decayed",
+  "sources":      ["url", "file_path"],
+  "edges":        [{"to": "card_id", "rel": "references | contradicts | extends"}],
+  "created_at":   "ISO-8601",
+  "updated_at":   "ISO-8601",
+  "payload_hash": "sha256:...",
+  "payload":      { ... }
 }
 ```
 
-### 3.2. Schema
-_`docs/nautilus/npp-v1-0/03-registry.md` | 19 строк_
+### 3.2 Evidence Envelope
+_`docs/PROTOTYPE_SPEC.md` | 8 строк_
 
 ```json
 {
-"protocol_version": "1.0",
-"ecosystem_name": "string",
-"repositories": [
-{
-"name": "string",
-"url": "string (git URL)",
-"format": "string (e.g. '.info1')",
-"native_unit": "string (human description)",
-"adapter": "string (relative path to adapter file)",
-"passport": "string (relative path to passport file)",
-"angle": "methodological | semantic | symbolic | other",
-"compatibility_level": 0 | 1 | 2 | 3,
-"bridges": {
-"other_repo_name": "string (description of bridge)"
-}
-}
-]
+  "source_id":        "card_id или url",
+  "page_or_span":     "3 | §4.2 | 00:01:23-00:02:10",
+  "bbox_or_offset":   [x, y, w, h] ,
+  "retrieval_method": "bm25 | semantic | graph | hybrid",
+  "confidence":       0.87,
+  "supporting_nodes": ["card_id", ...]
 }
 ```
 
-_...и ещё 8 блоков этого языка_
+_...и ещё 33 блоков этого языка_
 
-## 📝 Без языка (174)
+## 📝 Без языка (383)
 
 
 ### Оставшиеся 53 репозитория — как получить список
@@ -1588,9 +1787,9 @@ _`docs/02-anthropic-vacancies/01-интегральный-анализ-проф�
 https://raw.githubusercontent.com/svend4/nautilus/main/glyph_adapter.py
 ```
 
-_...и ещё 159 блоков этого языка_
+_...и ещё 368 блоков этого языка_
 
-## markdown (21)
+## markdown (45)
 
 
 ### 2.4. Заголовок транзитного состояния
@@ -1681,17 +1880,16 @@ _`docs/ALERTS.md` | 11 строк_
 ```
 
 ### Markdown сниппеты для README
-_`docs/BADGES.md` | 8 строк_
+_`docs/BADGES.md` | 7 строк_
 
 ```markdown
-![tests](https://img.shields.io/badge/tests-209--passing-brightgreen)
+![tests](https://img.shields.io/badge/tests-0--passing-brightgreen)
 ![templates](https://img.shields.io/badge/templates-23-blue)
 ![skills](https://img.shields.io/badge/skills-28-blue)
 ![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
 ![manifests](https://img.shields.io/badge/manifests-13-blue)
-![scripts](https://img.shields.io/badge/scripts-155-blue)
-![health](https://img.shields.io/badge/health-77/100-green)
-![validation](https://img.shields.io/badge/validation-14--valid-brightgreen)
+![scripts](https://img.shields.io/badge/scripts-159-blue)
+![health](https://img.shields.io/badge/health-80/100-green)
 ```
 
 ### Как это работает
@@ -1707,13 +1905,13 @@ _`docs/FOOTNOTES.md` | 3 строк_
 _`docs/badges/README.md` | 7 строк_
 
 ```markdown
-![docs](docs/badges/docs.svg)
-![words](docs/badges/words.svg)
-![scripts](docs/badges/scripts.svg)
-![health](docs/badges/health.svg)
-![go/no-go](docs/badges/scoring.svg)
-![license](docs/badges/license.svg)
-![branch](docs/badges/branch.svg)
+![docs](badges/docs.svg)
+![words](badges/words.svg)
+![scripts](badges/scripts.svg)
+![health](badges/health.svg)
+![go/no-go](badges/scoring.svg)
+![license](badges/license.svg)
+![branch](badges/branch.svg)
 ```
 
 ### 4.2. Recommended Structure
@@ -1840,7 +2038,7 @@ _`docs/nautilus/review-methodology/03-consolidation-principles.md` | 2 стро�
 commit abc123; both Ag82 and Bf00 noted)_ |
 ```
 
-_...и ещё 6 блоков этого языка_
+_...и ещё 30 блоков этого языка_
 
 ## typescript (1)
 
@@ -1859,9 +2057,20 @@ interface Adapter {
 
 ---
 
-**Смотрите также:**
+## Смотрите также
+- [[SOURCE_MAP]]
+- [[CONTENT_GAPS]]
+- [[READING_TIME]]
 - [[READING_ORDER]]
-- [[SEARCH]]
-- [[CLUSTERS]]
-- [[EMPTY_SECTIONS]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

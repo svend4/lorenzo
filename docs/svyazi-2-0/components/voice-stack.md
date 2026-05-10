@@ -56,7 +56,7 @@
 
 ```bash
 # Поиск по теме документа
-python scripts/improve_semantic_search.py --query "Voice local first stack"
+python scripts/improve_semantic_search.py --query "Voice local-first stack"
 ```
 
 ## Смотрите также

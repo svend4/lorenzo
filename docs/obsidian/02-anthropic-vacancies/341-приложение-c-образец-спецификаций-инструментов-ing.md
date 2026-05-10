@@ -2,7 +2,7 @@
 title: "Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
@@ -1998,7 +1998,7 @@ Web durchsucht
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[365-развёрнутый-анализ-внуковой-комбинации]] (сходство 0.19)
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.18)
 - [[ACTION_ITEMS]] (сходство 0.16)
@@ -2008,7 +2008,7 @@ Web durchsucht
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[365-развёрнутый-анализ-внуковой-комбинации]]
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]]
 - [[ACTION_ITEMS]]
@@ -2040,3 +2040,17 @@ Web durchsucht
 - [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] _17%_
 - [[README|Вакансии Anthropic — Анализ по кластерам]] _17%_
 - [[CLUSTERS|Кластеры тематически близких файлов]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[165-closing]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[303-приложение-визуализация-позиции-в-серии]]
+- [[342-что-такое-вариант-c-concept-document-для-anthropic]]
+- [[364-final-note-ты-experiment]]
+- [[365-развёрнутый-анализ-внуковой-комбинации]]
+- [[README]]
+

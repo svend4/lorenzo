@@ -65,3 +65,19 @@ python scripts/improve_semantic_search.py --query "Svyazi Андрей Чуян 
 - [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-question-habr-examples](00-question-habr-examples.md)
+- [02-vshe-scientific-networking](02-vshe-scientific-networking.md)
+- [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
+- _...ещё 2_
+

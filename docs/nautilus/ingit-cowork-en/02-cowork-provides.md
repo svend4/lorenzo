@@ -156,3 +156,19 @@ python scripts/improve_semantic_search.py --query "2 What Cowork Provides That I
 - 06-refined-[ingit-scope](06-refined-ingit-scope.md)
 - [01-cowork-discovery](01-cowork-discovery.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-cowork-discovery](01-cowork-discovery.md)
+- [03-ingit-provides](03-ingit-provides.md)
+- [04-symbiotic-architecture](04-symbiotic-architecture.md)
+- [05-four-integration-paths](05-four-integration-paths.md)
+- _...ещё 2_
+

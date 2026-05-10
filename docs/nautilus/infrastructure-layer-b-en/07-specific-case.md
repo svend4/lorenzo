@@ -132,3 +132,19 @@ python scripts/improve_semantic_search.py --query "The Specific Case in Front of
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
 - [06-existing-approximations](06-existing-approximations.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [06-existing-approximations](06-existing-approximations.md)
+- [11-practical-recommendations](11-practical-recommendations.md)
+- _...ещё 1_
+

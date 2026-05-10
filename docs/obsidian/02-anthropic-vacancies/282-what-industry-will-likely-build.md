@@ -4,12 +4,51 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # What Industry Will Likely Build
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [What Industry Will Likely Build](#what-industry-will-likely-build)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [What Industry Will Likely Build](#what-industry-will-likely-build)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Likely Build Independent of what the author does, the industry wi
@@ -68,7 +107,7 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[281-the-recursive-insight]] (сходство 0.13)
 - [[277-what-s-missing-layer-b]] (сходство 0.13)
 - [[279-existing-approximations]] (сходство 0.13)
@@ -78,7 +117,13 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What Industry Will Likely Build"
+```
+
+## Смотрите также
 - [[281-the-recursive-insight]]
 - [[277-what-s-missing-layer-b]]
 - [[307-abstract]]
@@ -118,3 +163,19 @@ what exists and adapt as better infrastructure emerges.
 - [[280-the-specific-case-in-front-of-us|The Specific Case in Front of Us]] _21%_
 - [[153-executive-summary|Executive Summary]] _17%_
 - [[164-10-appendices|10. Appendices]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[153-executive-summary]]
+- [[164-10-appendices]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[278-why-this-hasn-t-been-built]]
+- [[280-the-specific-case-in-front-of-us]]
+- [[281-the-recursive-insight]]
+- [[284-practical-recommendations-for-the-current-project]]
+- _...ещё 2_
+

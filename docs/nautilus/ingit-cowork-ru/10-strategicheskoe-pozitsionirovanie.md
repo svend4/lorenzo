@@ -205,3 +205,16 @@ python scripts/improve_semantic_search.py --query "10 Стратегическо
 - [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
 - [09-riski-voprosy](09-riski-voprosy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-implikatsii-nautilus-okwf](08-implikatsii-nautilus-okwf.md)
+- [README](README.md)
+

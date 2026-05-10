@@ -2,7 +2,7 @@
 title: "6. Ethical Framework"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 6. Ethical Framework
@@ -30,19 +30,6 @@ date: 2026-04-29
 > ✅ **Результат:** This means: - Principal owns all data about themselves used by agent - Principal can modify or terminate agent at any time - Principal can override any agent decision - Principal c
 > 🏷️ **Ключевые слова:** `agent`, `principal`, `anthropic`, `vacancies`, `ethical`, `principals`, `framework`, `capability`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [6. Ethical Framework](#6-ethical-framework)
-  - [6.1. Principal Sovereignty](#61-principal-sovereignty)
-  - [6.2. Transparent Capability](#62-transparent-capability)
-  - [6.3. No Adverse Action Without Notice](#63-no-adverse-action-without-notice)
-  - [6.4. Fairness Across Principals](#64-fairness-across-principals)
-  - [6.5. Vulnerability Protection](#65-vulnerability-protection)
-  - [6.6. Consent and Capacity](#66-consent-and-capacity)
-  - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
 
 
 > [!IMPORTANT]
@@ -153,7 +140,7 @@ tech-sophisticated principals fails its core mission.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[176-7-governance-and-oversight]] (сходство 0.15)
 - [[174-5-architectural-specification]] (сходство 0.14)
 - [[177-8-risks-and-mitigations]] (сходство 0.13)
@@ -163,9 +150,30 @@ tech-sophisticated principals fails its core mission.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Ethical Framework"
+```
+
+## Смотрите также
 - [[176-7-governance-and-oversight]]
 - [[174-5-architectural-specification]]
 - [[177-8-risks-and-mitigations]]
 - [[179-10-open-questions]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[144-7-open-questions]]
+- [[146-acknowledgments]]
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[174-5-architectural-specification]]
+- [[223-12-closing]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- [[README]]
 

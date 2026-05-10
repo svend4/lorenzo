@@ -105,3 +105,16 @@ python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
 - [07-portal-entry](07-portal-entry.md)
 - [06-adapter-interface](06-adapter-interface.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-terminology](02-terminology.md)
+- [README](README.md)
+

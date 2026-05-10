@@ -70,3 +70,19 @@ python scripts/improve_semantic_search.py --query "What This Document Doesn t So
 - [08-recursive-insight](08-recursive-insight.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-intro](00-intro.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [02-why-document-exists](02-why-document-exists.md)
+- _...ещё 2_
+

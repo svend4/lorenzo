@@ -1,5 +1,15 @@
 # Архитектурное решение: две-уровневая публикация
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -152,4 +162,20 @@ python scripts/improve_semantic_search.py --query "Архитектурное р
 - [01-structural-comparison-code-vs-docs](../npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
 - [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
 - [00-question-anonymization](00-question-anonymization.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-structural-comparison-code-vs-docs](../npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
+- [01-what-to-anonymize-german-standard](01-what-to-anonymize-german-standard.md)
+- [03-what-this-gives-technically](03-what-this-gives-technically.md)
+- _...ещё 1_
 

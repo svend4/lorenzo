@@ -88,3 +88,17 @@ python scripts/improve_semantic_search.py --query "Why This Hasn t Been Built"
 - [01-missing-middle-layer](01-missing-middle-layer.md)
 - [02-why-document-exists](02-why-document-exists.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [12-closing](12-closing.md)
+- [README](README.md)
+

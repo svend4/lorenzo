@@ -1,5 +1,15 @@
 # Переприоритизация: что Hermes покрывает / не покрывает / synergy
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -169,4 +179,17 @@ python scripts/improve_semantic_search.py --query "Переприоритиза�
 - 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
 - [12-minuses-of-hermes](12-minuses-of-hermes.md)
 - [10-strategic-positioning](../../nautilus/ingit-cowork-en/10-strategic-positioning.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [02-what-info-repos-contain](../nautilus-vs-camel/02-what-info-repos-contain.md)
 

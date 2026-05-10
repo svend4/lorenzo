@@ -64,3 +64,19 @@ flowchart LR
 - [budget-routing](../security/budget-routing.md)
 
 _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [security-routing-plane](../components/security-routing-plane.md)
+- [README](README.md)
+- _...ещё 1_
+

@@ -8,7 +8,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Appendix C: Sample Use Cases in Detail
@@ -271,7 +271,7 @@ Thank you for the collaboration.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[173-4-ten-domains-of-application]] (сходство 0.16)
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.14)
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca]] (сходство 0.14)
@@ -281,7 +281,19 @@ Thank you for the collaboration.
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix C Sample Use Cases in Detail"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Appendix C Sample Use Cases in Detail" --mode bm25
+```
+
+## Смотрите также
 - [[173-4-ten-domains-of-application]]
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]]
@@ -324,3 +336,19 @@ Thank you for the collaboration.
 - [[179-10-open-questions|10. Open Questions]] _21%_
 - [[223-12-closing|12. Closing]] _21%_
 - [[225-references|References]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[05-0-status-of-this-document]]
+- [[150-appendix-c-version-history]]
+- [[173-4-ten-domains-of-application]]
+- [[223-12-closing]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[272-appendix-d-connection-diagram]]
+- [[288-appendix-position-in-series-visualization]]
+- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat]]
+- _...ещё 2_
+

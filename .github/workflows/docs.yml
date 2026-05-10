@@ -1,5 +1,5 @@
-# Автоматически создан improve_ci_config.py (расширено вручную)
-# Обновляет метрики, CardStore и поисковый индекс после push
+# Автоматически создан improve_ci_config.py
+# Обновляет метрики и индексы после push в main/master
 name: docs-update
 
 on:
@@ -8,15 +8,7 @@ on:
     paths:
       - 'docs/**'
       - 'scripts/**'
-  schedule:
-    # Ежедневно в 06:00 UTC — morning-run рецепт
-    - cron: '0 6 * * *'
   workflow_dispatch:
-    inputs:
-      recipe:
-        description: 'Recipe to run (e.g. dashboard, quality-check, full-index)'
-        required: false
-        default: 'dashboard'
 
 jobs:
   update-docs:
@@ -38,37 +30,17 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
 
       - name: Install dependencies
         run: |
-          pip install --quiet beautifulsoup4 lxml || true
           pip install --quiet anthropic || true
 
-      - name: Run dashboard recipe
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ inputs.recipe }}" ]; then
-            python scripts/improve_recipe.py --run "${{ inputs.recipe }}"
-          else
-            python scripts/improve_recipe.py --run dashboard
-          fi
+      - name: Run fast scripts
+        run: python scripts/improve_run_all.py --fast --group reports
 
       - name: Update search index
-        run: python scripts/improve_passage_retrieval.py --index
-
-      - name: Build CardStore (incremental)
-        run: python scripts/improve_card_index.py --build --incremental
-
-      - name: Build TF-IDF embedding index
-        run: python scripts/improve_embedding_index.py --index
-
-      - name: Run Collaboration Finder (daily)
-        if: github.event_name == 'schedule'
-        run: |
-          python scripts/improve_collab_finder.py \
-            --query "агент память консолидация граф знаний коллаборация" \
-            --top 5
-        continue-on-error: true
+        run: python scripts/improve_search_index.py
 
       - name: Generate RSS feed
         run: python scripts/improve_rss.py
@@ -77,6 +49,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/ cards/
+          git add docs/
           git diff --staged --quiet || git commit -m "docs: auto-update metrics [skip ci]"
           git push

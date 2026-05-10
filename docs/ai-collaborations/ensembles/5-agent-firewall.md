@@ -73,3 +73,18 @@ python scripts/improve_semantic_search.py --query "Ансамбль 5 Agent Fire
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 - [default-policy](../../svyazi-2-0/security/default-policy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+- [README](README.md)
+

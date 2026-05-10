@@ -5,12 +5,51 @@ tags:
   - ingestion
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Closing
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Closing](#closing)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Closing](#closing)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** That vision rests on infrastructure that partially exists and partially needs building.
@@ -64,7 +103,7 @@ need to be solved before other work proceeds.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[278-why-this-hasn-t-been-built]] (сходство 0.15)
 - [[281-the-recursive-insight]] (сходство 0.15)
 - [[284-practical-recommendations-for-the-current-project]] (сходство 0.13)
@@ -74,7 +113,13 @@ need to be solved before other work proceeds.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Closing"
+```
+
+## Смотрите также
 - [[281-the-recursive-insight]]
 - [[278-why-this-hasn-t-been-built]]
 - [[286-acknowledgments]]
@@ -117,3 +162,19 @@ need to be solved before other work proceeds.
 - [[286-acknowledgments|Acknowledgments]] _25%_
 - [[168-abstract|Abstract]] _21%_
 - [[275-why-this-document-exists|Why This Document Exists]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[168-abstract]]
+- [[266-13-closing]]
+- [[275-why-this-document-exists]]
+- [[278-why-this-hasn-t-been-built]]
+- [[281-the-recursive-insight]]
+- [[283-what-this-document-doesn-t-solve]]
+- [[284-practical-recommendations-for-the-current-project]]
+- [[286-acknowledgments]]
+- _...ещё 3_
+

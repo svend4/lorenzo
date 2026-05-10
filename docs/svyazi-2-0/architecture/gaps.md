@@ -69,3 +69,17 @@ python scripts/improve_semantic_search.py --query "Архитектурные з
 - [QA](../../QA.md)
 - [11-integration-contracts](../../01-svyazi/11-integration-contracts.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+

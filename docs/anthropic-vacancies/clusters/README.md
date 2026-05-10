@@ -1,37 +1,60 @@
 # Кластеры вакансий
 
+<!-- summary -->
+> Кластеры вакансий — документ базы знаний репозитория Lorenzo.
 
-<!-- tags: anthropic, vacancies, clusters -->
+<!-- tags: docs, reference, lorenzo -->
 
-> [!TIP]
-> Обзорный документ. Рекомендуется читать перед погружением в детали.
+> [!NOTE]
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
+
+<!-- alert-added -->
 
 
 **Файлов:** 16
 
 ## Содержание
 
-- [01-ai-research-engineering.md](01-ai-research-engineering.md) — <!-- summary -->
-- [02-sales.md](02-sales.md) — <!-- summary -->
-- [03-finance.md](03-finance.md) — <!-- summary -->
-- [04-security.md](04-security.md) — <!-- summary -->
-- [05-marketing-brand.md](05-marketing-brand.md) — <!-- summary -->
-- [06-engineering-design-product.md](06-engineering-design-product.md) — <!-- summary -->
-- [07-software-engineering-infrastructure.md](07-software-engineering-infrastructure.md) — <!-- summary -->
-- [08-safeguards-trust-safety.md](08-safeguards-trust-safety.md) — <!-- summary -->
-- [09-product-management-support-ops.md](09-product-management-support-ops.md) — <!-- summary -->
-- [10-compute.md](10-compute.md) — <!-- summary -->
-- [11-legal.md](11-legal.md) — <!-- summary -->
-- [12-technical-program-management.md](12-technical-program-management.md) — <!-- summary -->
-- [13-communications.md](13-communications.md) — <!-- summary -->
-- [14-public-policy.md](14-public-policy.md) — <!-- summary -->
-- [15-public-benefit.md](15-public-benefit.md) — <!-- summary -->
-- [16-people.md](16-people.md) — <!-- summary -->
+- [01-ai-research-engineering.md](01-ai-research-engineering.md) — <!-- toc-auto -->
+- [02-sales.md](02-sales.md) — <!-- toc-auto -->
+- [03-finance.md](03-finance.md) — <!-- toc-auto -->
+- [04-security.md](04-security.md) — <!-- toc-auto -->
+- [05-marketing-brand.md](05-marketing-brand.md) — <!-- toc-auto -->
+- [06-engineering-design-product.md](06-engineering-design-product.md) — <!-- toc-auto -->
+- [07-software-engineering-infrastructure.md](07-software-engineering-infrastructure.md) — <!-- toc-auto -->
+- [08-safeguards-trust-safety.md](08-safeguards-trust-safety.md) — <!-- toc-auto -->
+- [09-product-management-support-ops.md](09-product-management-support-ops.md) — <!-- toc-auto -->
+- [10-compute.md](10-compute.md) — <!-- toc-auto -->
+- [11-legal.md](11-legal.md) — <!-- toc-auto -->
+- [12-technical-program-management.md](12-technical-program-management.md) — <!-- toc-auto -->
+- [13-communications.md](13-communications.md) — <!-- toc-auto -->
+- [14-public-policy.md](14-public-policy.md) — <!-- toc-auto -->
+- [15-public-benefit.md](15-public-benefit.md) — <!-- toc-auto -->
+- [16-people.md](16-people.md) — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-sales](02-sales.md)
+
+
 
 ## Использование
 
 ```bash
-python scripts/improve_semantic_search.py --query "Кластеры вакансий" --section clusters
+python scripts/improve_run_all.py --group reports
 ```
 
-Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория.
+```bash
+python scripts/improve_semantic_search.py --query "README"
+```
+
+
+Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации.

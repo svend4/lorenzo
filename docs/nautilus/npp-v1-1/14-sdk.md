@@ -73,3 +73,18 @@ acceptable только для debugging/experimental версий.
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+- [18-reference-implementation](18-reference-implementation.md)
+- [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
+- [README](README.md)
+

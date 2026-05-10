@@ -1,5 +1,15 @@
 # Что с этим делать
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -61,4 +71,19 @@ python scripts/improve_semantic_search.py --query "Что с этим делат
 - [04-stronger-paths-outside-anthropic](../profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
 - [05-minuses-as-business](../mmorpg-for-programmers/05-minuses-as-business.md)
 - [08-pluses-of-model](08-pluses-of-model.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [10-three-entry-points](10-three-entry-points.md)
+- [README](README.md)
+- [05-minuses-as-business](../mmorpg-for-programmers/05-minuses-as-business.md)
 

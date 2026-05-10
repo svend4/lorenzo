@@ -2,7 +2,7 @@
 title: "Closing"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Closing
@@ -554,7 +554,7 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[CONCEPTS]] (сходство 0.18)
 - [[150-appendix-c-version-history]] (сходство 0.18)
 - [[ACTION_ITEMS]] (сходство 0.18)
@@ -564,7 +564,33 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Closing"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Closing" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Closing" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "Closing" --mode full --top 15
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Closing" --mode bm25 --top 5
+```
+
+## Смотрите также
 - [[CONCEPTS]]
 - [[150-appendix-c-version-history]]
 - [[ACTION_ITEMS]]
@@ -594,3 +620,19 @@ Story тверже становится. «Infrastructure для distributed wor
 
 - [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] _25%_
 - [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[133-обратная-связь]]
+- [[150-appendix-c-version-history]]
+- [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а]]
+- [[272-appendix-d-connection-diagram]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+- [[342-что-такое-вариант-c-concept-document-для-anthropic]]
+- [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи]]
+- _...ещё 1_
+

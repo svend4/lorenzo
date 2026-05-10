@@ -96,3 +96,19 @@ python scripts/improve_semantic_search.py --query "Question 6 Как Lorenzo acc
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-q1-what-lorenzo-is](01-q1-what-lorenzo-is.md)
+- [03-q3-what-lorenzo-does](03-q3-what-lorenzo-does.md)
+- [07-q7-success-metrics](07-q7-success-metrics.md)
+- _...ещё 1_
+

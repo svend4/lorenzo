@@ -180,3 +180,18 @@ python scripts/improve_semantic_search.py --query "2 Что Cowork обеспе�
 - [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
 - [01-otkrytie-cowork](01-otkrytie-cowork.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-otkrytie-cowork](01-otkrytie-cowork.md)
+- [03-chto-ingit-obespechivaet](03-chto-ingit-obespechivaet.md)
+- [06-utochnyonnyy-obyom-ingit](06-utochnyonnyy-obyom-ingit.md)
+- [README](README.md)
+

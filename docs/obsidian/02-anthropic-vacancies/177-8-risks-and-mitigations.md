@@ -2,10 +2,15 @@
 title: "8. Risks and Mitigations"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 8. Risks and Mitigations
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
 
 <!-- toc -->
 ## Содержание
@@ -24,25 +29,15 @@ date: 2026-04-29
 
 
 <!-- abstract-auto -->
+
+> [!WARNING]
+> Документ описывает ограничения, риски или требования безопасности. Читайте внимательно.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Risks and Mitigations(8-risks-and-mitigations) - 8.1.
 > 🏷️ **Ключевые слова:** `agent`, `principal`, `risks`, `scenario`, `mitigation`, `anthropic`, `vacancies`, `mitigations`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [8. Risks and Mitigations](#8-risks-and-mitigations)
-  - [8.1. Risk: Agency Capture](#81-risk-agency-capture)
-  - [8.2. Risk: Adversarial Manipulation by Counterparties](#82-risk-adversarial-manipulation-by-counterparties)
-  - [8.3. Risk: Principal Misunderstanding Agent Capability](#83-risk-principal-misunderstanding-agent-capability)
-  - [8.4. Risk: Privacy Violations](#84-risk-privacy-violations)
-  - [8.5. Risk: Inequitable Access](#85-risk-inequitable-access)
-  - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
-  - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
-  - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
 
 
 <!-- summary -->
@@ -162,7 +157,7 @@ lose the social and negotiation skills they currently have.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[217-6-risks-specific-to-this-category]] (сходство 0.14)
 - [[179-10-open-questions]] (сходство 0.14)
 - [[174-5-architectural-specification]] (сходство 0.14)
@@ -172,9 +167,29 @@ lose the social and negotiation skills they currently have.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Risks and Mitigations"
+```
+
+## Смотрите также
 - [[179-10-open-questions]]
 - [[175-6-ethical-framework]]
 - [[217-6-risks-specific-to-this-category]]
 - [[174-5-architectural-specification]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[144-7-open-questions]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[174-5-architectural-specification]]
+- [[217-6-risks-specific-to-this-category]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[263-10-risks-specific-to-composite-architectures]]
+- [[README]]
 

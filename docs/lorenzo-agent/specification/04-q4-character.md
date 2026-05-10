@@ -77,3 +77,19 @@ python scripts/improve_semantic_search.py --query "Question 4 Каков Lorenzo
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 - [05-tvoya-lichnost](../05-tvoya-lichnost.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [349-твоя-личность](../../02-anthropic-vacancies/349-твоя-личность.md)
+- [357-твоя-коммуникация-в-outreach](../../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [13-outreach-communication](../13-outreach-communication.md)
+- _...ещё 1_
+

@@ -48,3 +48,19 @@ python scripts/improve_semantic_search.py --query "Ключевые риски �
 - [first-contacts](../outreach/first-contacts.md)
 - [mvp-plan](mvp-plan.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [reading-paths](../../reading-paths.md)
+- [license-tree](../limitations/license-tree.md)
+- [README](README.md)
+- _...ещё 1_
+

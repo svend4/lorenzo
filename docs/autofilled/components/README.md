@@ -1,30 +1,32 @@
 # components
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
 **Файлов:** 10
 
 ## Содержание
 
-- [.md](.md) — <!-- summary -->
-<!-- tags: documentation, index, overview -->
-- [cowork.md](cowork.md) — <!-- summary -->
-- [ingit.md](ingit.md) — <!-- summary -->
-- [kksudo.md](kksudo.md) — <!-- summary -->
-- [lorenzo.md](lorenzo.md) — <!-- summary -->
-- [nautilus.md](nautilus.md) — <!-- summary -->
-- [sgb.md](sgb.md) — <!-- summary -->
-- [spbmolot.md](spbmolot.md) — <!-- summary -->
-- [svend4.md](svend4.md) — <!-- summary -->
-- [svyazi.md](svyazi.md) — <!-- summary -->
+- [.md](.md) — <!-- toc-auto -->
+- [cowork.md](cowork.md) — <!-- toc-auto -->
+- [ingit.md](ingit.md) — <!-- toc-auto -->
+- [kksudo.md](kksudo.md) — <!-- toc-auto -->
+- [lorenzo.md](lorenzo.md) — <!-- toc-auto -->
+- [nautilus.md](nautilus.md) — <!-- toc-auto -->
+- [sgb.md](sgb.md) — <!-- toc-auto -->
+- [spbmolot.md](spbmolot.md) — <!-- toc-auto -->
+- [svend4.md](svend4.md) — <!-- toc-auto -->
+- [svyazi.md](svyazi.md) — <!-- toc-auto -->
 
-Раздел содержит автозаполненные карточки компонентов экосистемы Svyazi 2.0. Каждый файл описывает один компонент: тип, статус, количество упоминаний в репозитории, связанные документы и обратные ссылки. Карточки обновляются автоматически при запуске `improve_autofill.py`.
+<!-- backlinks -->
 
-## Использование
+---
 
-```bash
-python scripts/improve_autofill.py
-```
+**Кто ссылается на этот документ (15):**
+- [AUTOFILLED](../../AUTOFILLED.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [.md](.md)
+- [cowork](cowork.md)
+- [ingit](ingit.md)
+- _...ещё 7_
+

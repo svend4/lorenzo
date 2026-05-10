@@ -54,3 +54,19 @@ python scripts/improve_semantic_search.py --query "Сводная таблица
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [09-agent-orchestration-stack](../combinations/09-agent-orchestration-stack.md)
+- [10-legal-document-intelligence-pipeline](../combinations/10-legal-document-intelligence-pipeline.md)
+- [11-hybrid-crdt-sql-database](../combinations/11-hybrid-crdt-sql-database.md)
+- _...ещё 6_
+

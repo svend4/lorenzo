@@ -1,5 +1,16 @@
 # Глоссарий
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Глоссарий](#глоссарий)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -143,4 +154,17 @@ python scripts/improve_semantic_search.py --query "Глоссарий"
 - [02-formal-workflow](02-formal-workflow.md)
 - [72-расписание-фазы-3](../../02-anthropic-vacancies/72-расписание-фазы-3.md)
 - [22-glossary](../npp-v1-1/22-glossary.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [22-glossary](../npp-v1-1/22-glossary.md)
+- [README](README.md)
 

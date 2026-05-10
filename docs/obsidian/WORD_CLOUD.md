@@ -4,10 +4,24 @@ tags:
   - ingestion
   - anthropic
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Word Cloud
+
+<!-- toc-auto -->
+## Contents
+
+- [Топ-20 слов](#топ-20-слов)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > Визуализация 80 самых частых слов репозитория.
@@ -15,6 +29,10 @@ date: 2026-04-29
 
 ---
 <!-- tags: ingestion, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -52,7 +70,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[CONCEPT_GRAPH]] (сходство 0.30)
 - [[28-appendix-a-minimal-working-example]] (сходство 0.20)
 - [[304-ingit-as-cowork-native-workspace-substrate-md]] (сходство 0.19)
@@ -62,9 +80,29 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Word Cloud"
+```
+
+## Смотрите также
 - [[CONCEPT_GRAPH]]
 - [[28-appendix-a-minimal-working-example]]
 - [[65-readme-md]]
 - [[305-a-practical-path-to-layer-b-through-symbiotic-inte]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[304-ingit-as-cowork-native-workspace-substrate-md]]
+- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[INDEX]]
+- [[LLM_SUMMARIES]]
+- [[README]]
+- [[TABLES]]
 

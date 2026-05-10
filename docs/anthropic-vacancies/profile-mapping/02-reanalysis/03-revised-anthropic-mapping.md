@@ -56,3 +56,19 @@ python scripts/improve_semantic_search.py --query "Пересмотренный 
 - [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)
 - [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [01-fde-downgraded](01-fde-downgraded.md)
+- [04-non-anthropic-paths](04-non-anthropic-paths.md)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
+- [README](README.md)
+- _...ещё 2_
+

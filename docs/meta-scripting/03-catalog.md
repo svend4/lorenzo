@@ -148,3 +148,19 @@ python scripts/improve_self.py --catalog --query "group:none"
 - [05-synthesis](05-synthesis.md)
 - [02-architecture](02-architecture.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CONCEPTS](../CONCEPTS.md)
+- [METHODOLOGY](../METHODOLOGY.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [01-concept](01-concept.md)
+- _...ещё 3_
+

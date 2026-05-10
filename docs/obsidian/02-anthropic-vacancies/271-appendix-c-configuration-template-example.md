@@ -3,10 +3,24 @@ title: "Appendix C: Configuration Template Example"
 tags:
   - rag
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Appendix C: Configuration Template Example
+
+<!-- toc-auto -->
+## Contents
+
+- [Appendix C: Configuration Template Example](#appendix-c-configuration-template-example)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -18,6 +32,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > For the SGB Advocate Colleague pilot, a starting configuration
 
 ---
@@ -88,7 +106,7 @@ configuration.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[270-appendix-b-sub-agent-registry-schema-sketch]] (сходство 0.11)
 - [[258-5-configuration-how-principals-build-their-ensembl]] (сходство 0.10)
 - [[265-12-call-for-collaboration]] (сходство 0.10)
@@ -98,9 +116,24 @@ configuration.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[270-appendix-b-sub-agent-registry-schema-sketch]]
 - [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [[211-table-of-contents]]
 - [[253-table-of-contents]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[137-table-of-contents]]
+- [[211-table-of-contents]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[253-table-of-contents]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- 321-appendix-a-decision-tree-for-[[321-appendix-a-decision-tree-for-ingit-adopters|ingit-adopters]]
+- [[326-содержание]]
+- [[README]]
 

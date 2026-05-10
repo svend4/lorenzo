@@ -91,3 +91,19 @@ python scripts/improve_semantic_search.py --query "Уровень 3 Средни
 - [02-level-1-minimal-zero](02-level-1-minimal-zero.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-level-1-minimal-zero](02-level-1-minimal-zero.md)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md)
+- [05-level-4-extended-mature](05-level-4-extended-mature.md)
+- _...ещё 1_
+

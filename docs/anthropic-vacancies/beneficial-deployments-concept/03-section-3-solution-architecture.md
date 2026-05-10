@@ -65,3 +65,19 @@ python scripts/improve_semantic_search.py --query "Section 3 Proposed solution"
 - [07-section-7-success-metrics](07-section-7-success-metrics.md)
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+- _...ещё 6_
+

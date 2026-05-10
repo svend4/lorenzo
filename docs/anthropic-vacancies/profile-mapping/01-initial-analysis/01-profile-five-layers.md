@@ -56,3 +56,18 @@ python scripts/improve_semantic_search.py --query "Сводка профиля �
 - [01-three-archetypes](../03-integral-final/01-three-archetypes.md)
 - [02-primary-fde](02-primary-fde.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+- [01-three-archetypes](../03-integral-final/01-three-archetypes.md)
+- [concepts](../../../glossary/concepts.md)
+

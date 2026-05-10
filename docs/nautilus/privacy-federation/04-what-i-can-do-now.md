@@ -56,3 +56,16 @@ python scripts/improve_semantic_search.py --query "Что я могу сдела
 - [03-what-doesnt-exist-on-market](../npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
 - [03-what-this-gives-technically](03-what-this-gives-technically.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+- [README](README.md)
+

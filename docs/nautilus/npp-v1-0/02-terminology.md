@@ -88,3 +88,16 @@ python scripts/improve_semantic_search.py --query "2 Terminology"
 - [05-compatibility-levels](05-compatibility-levels.md)
 - [07-2-terminology](../../02-anthropic-vacancies/07-2-terminology.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

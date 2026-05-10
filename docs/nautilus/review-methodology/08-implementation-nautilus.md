@@ -93,3 +93,17 @@ python scripts/improve_semantic_search.py --query "7 Реализация в п�
 - [11-application-plan-current-docs](11-application-plan-current-docs.md)
 - [108-2-формальный-workflow](../../02-anthropic-vacancies/108-2-формальный-workflow.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [11-application-plan-current-docs](11-application-plan-current-docs.md)
+- [README](README.md)
+

@@ -3,11 +3,51 @@ title: "Appendix A: The Six-Type Taxonomy (Updated)"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Appendix A: The Six-Type Taxonomy (Updated)
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Appendix A: The Six-Type Taxonomy (Updated)](#appendix-a-the-six-type-taxonomy-updated)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: The Six-Type Taxonomy (Updated)](#appendix-a-the-six-type-taxonomy-updated)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 <!-- abstract-auto -->
@@ -54,7 +94,7 @@ how skilled practice actually structures itself.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[226-appendix-a-comparative-table-five-agent-types]] (сходство 0.31)
 - [[252-abstract]] (сходство 0.14)
 - [[227-appendix-b-decision-framework-when-to-build-type-1]] (сходство 0.13)
@@ -64,7 +104,13 @@ how skilled practice actually structures itself.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A The Six Type Taxonomy Updated"
+```
+
+## Смотрите также
 - [[226-appendix-a-comparative-table-five-agent-types]]
 - [[227-appendix-b-decision-framework-when-to-build-type-1]]
 - [[211-table-of-contents]]
@@ -102,3 +148,19 @@ how skilled practice actually structures itself.
 - [[223-12-closing|12. Closing]] _29%_
 - [[210-abstract|Abstract]] _25%_
 - [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[210-abstract]]
+- [[211-table-of-contents]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[220-9-relationship-to-other-agent-types]]
+- [[223-12-closing]]
+- [[227-appendix-b-decision-framework-when-to-build-type-1]]
+- [[252-abstract]]
+- _...ещё 1_
+

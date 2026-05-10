@@ -107,3 +107,19 @@ python scripts/improve_semantic_search.py --query "AI ассистент с Mem0
 - [354-существующий-landscape-collaborators-твоя-working-](../../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
 - [03-section-3-solution-architecture](../beneficial-deployments-concept/03-section-3-solution-architecture.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-coally](01-coally.md)
+- [02-vitaly-graph-cognitive-memory](02-vitaly-graph-cognitive-memory.md)
+- [03-happyin-knowledge-space](03-happyin-knowledge-space.md)
+- _...ещё 4_
+

@@ -62,3 +62,18 @@ python scripts/improve_semantic_search.py --query "Плюсы Hermes vs наша
 - 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-what-is-hermes](00-question-what-is-hermes.md)
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
+- [12-minuses-of-hermes](12-minuses-of-hermes.md)
+- [README](README.md)
+

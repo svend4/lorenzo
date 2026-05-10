@@ -8,10 +8,24 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Существующий landscape collaborators (твоя working knowledge)
+
+<!-- toc-auto -->
+## Contents
+
+- [Существующий landscape collaborators (твоя working knowledge)](#существующий-landscape-collaborators-твоя-working-knowledge)
+- [Смотрите также](#смотрите-также)
+- [Похожие документы](#похожие-документы)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -22,6 +36,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):
 **Проекты:** CardIndex, [[03-component-catalog|knowledge-space]], NGT Memory, Wikontic
 
@@ -61,7 +79,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Существующий landscape collaborators"
+```
+
+## Смотрите также
 - [[WORD_FREQ]]
 - [[341-приложение-c-образец-спецификаций-инструментов-ing]]
 - [[136-abstract]]
@@ -72,8 +96,19 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[KEYWORD_INDEX]] (сходство 0.17)
 - [[CONSISTENCY]] (сходство 0.16)
 - [[NETWORK]] (сходство 0.14)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[136-abstract]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+- [[364-final-note-ты-experiment]]
+- [[README]]
 

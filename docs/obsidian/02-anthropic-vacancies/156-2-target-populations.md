@@ -3,10 +3,15 @@ title: "2. Target Populations"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 2. Target Populations
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -18,6 +23,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Size estimate**: 500K+ in OECD countries with relevant skills
 
 ---
@@ -157,7 +166,7 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[153-executive-summary]] (сходство 0.17)
 - [[155-1-problem-statement]] (сходство 0.16)
 - [[157-3-why-existing-solutions-fail]] (сходство 0.16)
@@ -167,7 +176,13 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Target Populations"
+```
+
+## Смотрите также
 - [[153-executive-summary]]
 - [[155-1-problem-statement]]
 - [[157-3-why-existing-solutions-fail]]
@@ -199,3 +214,17 @@ Active participant target in first three years: 5,000-10,000.
 - [[154-table-of-contents|Table of Contents]] _17%_
 - [[157-3-why-existing-solutions-fail|3. Why Existing Solutions Fail]] _17%_
 - [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[153-executive-summary]]
+- [[154-table-of-contents]]
+- [[155-1-problem-statement]]
+- [[157-3-why-existing-solutions-fail]]
+- [[164-10-appendices]]
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
+- [[README]]
+

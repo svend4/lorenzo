@@ -58,3 +58,19 @@ flowchart LR
 - [F-evidence-backed-intake](F-evidence-backed-intake.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [F-evidence-backed-intake](F-evidence-backed-intake.md)
+- [G-federated-local-graph](G-federated-local-graph.md)
+- _...ещё 1_
+

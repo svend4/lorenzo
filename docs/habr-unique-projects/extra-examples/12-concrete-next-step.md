@@ -72,3 +72,18 @@ python scripts/improve_semantic_search.py --query "Конкретный next ste
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 - [09-federated-platform](09-federated-platform.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md)
+- [README](README.md)
+

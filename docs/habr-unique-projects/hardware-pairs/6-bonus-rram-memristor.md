@@ -55,3 +55,19 @@ python scripts/improve_semantic_search.py --query "Бонус родитель I
 - [6-metaphor](../software-pairs/6-metaphor.md)
 - [2-tsu-mome](2-tsu-mome.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [1-neuromorphic-ssm](1-neuromorphic-ssm.md)
+- [2-tsu-mome](2-tsu-mome.md)
+- _...ещё 4_
+

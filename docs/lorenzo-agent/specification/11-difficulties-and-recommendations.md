@@ -1,5 +1,15 @@
 # Сложности и рекомендации перед detailed specification
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -369,4 +379,20 @@ python scripts/improve_semantic_search.py --query "Сложности и рек�
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](../../02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [10-strategic-positioning](../../nautilus/ingit-cowork-en/10-strategic-positioning.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [FAQ](../../FAQ.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-naming-rationale-lorenzo-medici](../naming/02-naming-rationale-lorenzo-medici.md)
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
+- _...ещё 1_
 

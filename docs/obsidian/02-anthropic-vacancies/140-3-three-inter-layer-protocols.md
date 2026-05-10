@@ -2,7 +2,7 @@
 title: "3. Three Inter-Layer Protocols"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 3. Three Inter-Layer Protocols
@@ -175,7 +175,7 @@ in distributed systems, adapted for human-AI hybrid execution.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[138-1-why-single-triangle-models-are-incomplete]] (сходство 0.18)
 - [[139-2-the-double-triangle-architecture]] (сходство 0.17)
 - [[144-7-open-questions]] (сходство 0.15)
@@ -185,7 +185,13 @@ in distributed systems, adapted for human-AI hybrid execution.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Three Inter Layer Protocols"
+```
+
+## Смотрите также
 - [[139-2-the-double-triangle-architecture]]
 - [[138-1-why-single-triangle-models-are-incomplete]]
 - [[136-abstract]]
@@ -226,3 +232,16 @@ in distributed systems, adapted for human-AI hybrid execution.
 - [[136-abstract|Abstract]] _21%_
 - [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _21%_
 - [[147-references|References]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[136-abstract]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[144-7-open-questions]]
+- [[148-appendix-a-glossary]]
+- [[README]]
+

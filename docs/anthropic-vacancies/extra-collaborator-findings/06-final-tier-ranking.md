@@ -81,3 +81,19 @@ python scripts/improve_semantic_search.py --query "Финальный списо
 - [05-existing-infrastructure-stack](05-existing-infrastructure-stack.md)
 
 _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-happyin-knowledge-space](03-happyin-knowledge-space.md)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
+- [05-existing-infrastructure-stack](05-existing-infrastructure-stack.md)
+- _...ещё 4_
+

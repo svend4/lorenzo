@@ -48,3 +48,19 @@ python scripts/improve_semantic_search.py --query "Tertiary match Research Engin
 - [01-ai-research-engineering](../../clusters/01-ai-research-engineering.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [08-practical-ranking](08-practical-ranking.md)
+- [README](README.md)
+- _...ещё 1_
+

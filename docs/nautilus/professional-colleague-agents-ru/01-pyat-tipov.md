@@ -237,3 +237,18 @@ Copilot, Claude Code.
 - [246-приложение-a-сравнительная-таблица-пять-типов-аген](../../02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md)
 - [02-chto-delaet-pka](02-chto-delaet-pka.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
+- [README](README.md)
+- [03-chto-delaet-predstavitelskim](../representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md)
+

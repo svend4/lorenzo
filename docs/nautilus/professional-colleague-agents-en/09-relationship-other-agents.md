@@ -154,3 +154,19 @@ python scripts/improve_semantic_search.py --query "9 Relationship to Other Agent
 - [02-what-makes-pca](02-what-makes-pca.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](../../02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [01-five-type-typology](01-five-type-typology.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
+- [03-empirical-case-obuchay](03-empirical-case-obuchay.md)
+- _...ещё 1_
+

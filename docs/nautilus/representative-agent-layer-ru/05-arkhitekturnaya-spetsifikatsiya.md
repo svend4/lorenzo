@@ -111,3 +111,17 @@ python scripts/improve_semantic_search.py --query "5 Архитектурная 
 - [193-3-что-делает-агента-представительским](../../02-anthropic-vacancies/193-3-что-делает-агента-представительским.md)
 - [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-chto-delaet-predstavitelskim](03-chto-delaet-predstavitelskim.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [README](README.md)
+

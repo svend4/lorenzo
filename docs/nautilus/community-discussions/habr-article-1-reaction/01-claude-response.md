@@ -1,5 +1,15 @@
 # Claude hat geantwortet: Прочитал внимательно.
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -297,4 +307,20 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Про
 - [01-strategic-significance](../../multi-tier-architecture/01-strategic-significance.md)
 - [133-обратная-связь](../../../02-anthropic-vacancies/133-обратная-связь.md)
 - [01-response](../../innovation-transitions/01-response.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+- [01-response](../practical-observations/01-response.md)
+- _...ещё 1_
 

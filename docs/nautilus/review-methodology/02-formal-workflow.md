@@ -109,3 +109,19 @@ merge-conflict error. С заголовком — понимает осмысл�
 - [11-application-plan-current-docs](11-application-plan-current-docs.md)
 - [10-checklist](10-checklist.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-coally](../../anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+- [05-conditions-of-applicability](05-conditions-of-applicability.md)
+- [08-implementation-nautilus](08-implementation-nautilus.md)
+- [09-limitations-open-questions](09-limitations-open-questions.md)
+- _...ещё 4_
+

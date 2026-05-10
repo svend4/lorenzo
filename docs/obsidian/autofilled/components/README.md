@@ -14,3 +14,13 @@
 - [spbmolot.md](spbmolot.md) — ---
 - [svend4.md](svend4.md) — ---
 - [svyazi.md](svyazi.md) — ---
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../../../READABILITY.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+

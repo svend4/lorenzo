@@ -3,10 +3,15 @@ title: "Executive Summary"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Executive Summary
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
 
 <!-- toc -->
 ## Содержание
@@ -21,6 +26,10 @@ date: 2026-04-29
 
 
 <!-- abstract-auto -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** --- --- Похожие документы: - 155-1-problem-statement(docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.17) - 156-2-target-populations(docs/02-anthropic-vacancies/
@@ -89,7 +98,7 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[155-1-problem-statement]] (сходство 0.17)
 - [[156-2-target-populations]] (сходство 0.17)
 - [[164-10-appendices]] (сходство 0.15)
@@ -99,7 +108,13 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Executive Summary"
+```
+
+## Смотрите также
 - [[155-1-problem-statement]]
 - [[156-2-target-populations]]
 - [[163-9-call-for-partnership]]
@@ -146,3 +161,19 @@ stakeholders as basis for dialogue and refinement.
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]] _21%_
 - [[156-2-target-populations|2. Target Populations]] _21%_
 - [[145-8-call-to-action|8. Call to Action]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[145-8-call-to-action]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[154-table-of-contents]]
+- [[155-1-problem-statement]]
+- [[156-2-target-populations]]
+- [[157-3-why-existing-solutions-fail]]
+- [[161-7-phased-rollout-plan]]
+- _...ещё 6_
+

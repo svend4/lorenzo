@@ -4,10 +4,15 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # For the Curious: Philosophy
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -20,6 +25,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > `meta` реализует редкую идею: **две символические системы, разделённые
 
 ---
@@ -57,7 +66,7 @@ date: 2026-04-29
 
 ---
 
-*Passport version: 1.0 · Protocol: [[PORTAL-PROTOCOL|NPP v1.0]] · 
+*Passport version: 1.0 · Protocol: [[03-portal-protocol-md|NPP v1.0]] · 
 Last updated: 2026-04*
 ```
 ---
@@ -91,7 +100,7 @@ Bridges описаны максимально конкретно. Особенн
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[34-appendix-b-change-log]] (сходство 0.11)
 
 
@@ -99,7 +108,13 @@ Bridges описаны максимально конкретно. Особенн
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "For the Curious Philosophy"
+```
+
+## Смотрите также
 - [[34-appendix-b-change-log]]
 - [[104-appendix-c-references]]
 - [[67-о-проекте]]
@@ -141,3 +156,19 @@ Bridges описаны максимально конкретно. Особенн
 - [[54-for-the-curious-philosophy|For the Curious: Philosophy]] _25%_
 - [[67-о-проекте|🇷🇺 О проекте]] _25%_
 - [[TIMELINE|Хронологическая лента событий]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[02-общий-план-развития-nautilus-portal-protocol]]
+- [[04-abstract]]
+- [[104-appendix-c-references]]
+- [[105-review-methodology-md]]
+- [[109-3-принципы-консолидации-фаза-c]]
+- [[122-глоссарий]]
+- [[34-appendix-b-change-log]]
+- _...ещё 3_
+

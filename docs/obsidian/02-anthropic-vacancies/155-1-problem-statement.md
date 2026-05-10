@@ -3,10 +3,15 @@ title: "1. Problem Statement"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 1. Problem Statement
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -19,6 +24,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The AI industry in 2026 exhibits an apparent paradox. Frontier
 
 ---
@@ -134,7 +143,7 @@ coordinated action now.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[153-executive-summary]] (сходство 0.17)
 - [[156-2-target-populations]] (сходство 0.16)
 - [[163-9-call-for-partnership]] (сходство 0.15)
@@ -144,7 +153,13 @@ coordinated action now.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Problem Statement"
+```
+
+## Смотрите также
 - [[153-executive-summary]]
 - [[156-2-target-populations]]
 - [[163-9-call-for-partnership]]
@@ -180,3 +195,19 @@ coordinated action now.
 - [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]] _17%_
 - [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _17%_
 - [[281-the-recursive-insight|The Recursive Insight]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[151-open-knowledge-work-foundation-md]]
+- [[153-executive-summary]]
+- [[154-table-of-contents]]
+- [[156-2-target-populations]]
+- [[157-3-why-existing-solutions-fail]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+- [[281-the-recursive-insight]]
+- _...ещё 1_
+

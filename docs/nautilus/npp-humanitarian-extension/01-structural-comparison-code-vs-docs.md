@@ -1,5 +1,15 @@
 # Структурное сравнение: код vs гуманитарные документы
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -289,5 +299,19 @@ python scripts/improve_semantic_search.py --query "Структурное сра
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
 - [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
+- [02-two-tier-publication](../privacy-federation/02-two-tier-publication.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 - [02-two-tier-publication](../privacy-federation/02-two-tier-publication.md)
 

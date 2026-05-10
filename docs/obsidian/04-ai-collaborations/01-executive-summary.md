@@ -2,10 +2,34 @@
 title: "Executive summary"
 tags:
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Executive summary
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Статус](#статус)
+- [Executive summary](#executive-summary)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Статус](#статус)
+- [Executive summary](#executive-summary)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -57,20 +81,26 @@ _Обновлено: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [[00-intro-part2|01-executive-summary]]/01-executive-summary.md) (сходство 0.68)
+## Похожие документы
+- [[01-executive-summary]] (сходство 0.68)
 - [[05-план-прототипа-и-возможные-контакты]] (сходство 0.15)
-- [[00-intro-part2|07-mvp-planning]]/07-mvp-planning.md) (сходство 0.15)
+- [[07-mvp-planning]] (сходство 0.15)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [[00-intro-part2|03-component-catalog]]/03-component-catalog.md)
-- [[00-intro-part2|04-ensembles-overview]]/04-ensembles-overview.md)
-- [[00-intro-part2|07-mvp-planning]]/07-mvp-planning.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Executive summary"
+```
+
+## Смотрите также
+- [[03-component-catalog]]
+- [[04-ensembles-overview]]
+- [[07-mvp-planning]]
 
 
 
@@ -97,3 +127,14 @@ _Обновлено: 2026-04-29_
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[README]]
+- [[TABLES]]
+- [[04-structuring]]
+- [[PROCESSING_GUIDE]]
+

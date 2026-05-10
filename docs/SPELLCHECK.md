@@ -1,41 +1,29 @@
 # Отчёт орфографии
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
 <!-- toc-auto -->
+## Содержание
+
+- Основной раздел
+
 
 <!-- summary -->
-> python scripts/improve_spellcheck.py --fix
-**Проекты:** knowledge-space, MemNet
+> Отчёт орфографии — документ базы знаний репозитория Lorenzo.
 
----
-<!-- tags: memory, orchestration, security, knowledge, architecture, anthropic, self-improve, collaboration -->
+<!-- tags: docs, reference, lorenzo -->
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
 
-
-
+<!-- alert-added -->
 
 
 _Обновлено: 2026-05-10_
 
-Файлов с проблемами: **43**
+Файлов с проблемами: **50**
 
 ## Найденные проблемы
 
 ### `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md`
 
 - ❌ `проверяет` → `проверяет`
 
@@ -44,10 +32,6 @@ _Обновлено: 2026-05-10_
 - ❌ `проверяет` → `проверяет`
 
 ### `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md`
 
 - ❌ `проверяет` → `проверяет`
 
@@ -71,15 +55,7 @@ _Обновлено: 2026-05-10_
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/ACTION_ITEMS.md`
-
-- ❌ `проверяет` → `проверяет`
-
 ### `docs/GITHUB_ISSUES.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/KPI.md`
 
 - ❌ `проверяет` → `проверяет`
 
@@ -139,23 +115,11 @@ _Обновлено: 2026-05-10_
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md`
-
-- ❌ `проверяет` → `проверяет`
-
 ### `docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`
 
 - ❌ `проверяет` → `проверяет`
 
 ### `docs/obsidian/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md`
 
 - ❌ `проверяет` → `проверяет`
 
@@ -191,6 +155,66 @@ _Обновлено: 2026-05-10_
 
 - ❌ `проверяет` → `проверяет`
 
+### `docs/obsidian/METHODOLOGY.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/SCRIPTS_CATALOG.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/TABLES.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/ai-collaborations/ensembles/2-distributed-agent-workshop.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/ai-collaborations/ensembles/5-agent-firewall.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/ai-collaborations/fast-tracks/README.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/lorenzo-agent/operationalized/00-overview-grandchild-combination.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/nautilus/community-discussions/habr-article-2-reaction/01-response.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/obsidian/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md`
+
+- ❌ `проверяет` → `проверяет`
+
 ### `docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md`
 
 - ❌ `проверяет` → `проверяет`
@@ -212,9 +236,9 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 
 ---
 
-## Смотрите также
-- [ORPHANS](ORPHANS.md)
-- [STALENESS](STALENESS.md)
+**Смотрите также:**
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
 - [STATS](STATS.md)
+- [PRIORITIES](PRIORITIES.md)
 

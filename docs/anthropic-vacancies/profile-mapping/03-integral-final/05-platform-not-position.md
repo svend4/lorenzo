@@ -1,5 +1,15 @@
 # Финальный вывод: платформа, а не должность
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -51,4 +61,20 @@ python scripts/improve_semantic_search.py --query "Финальный вывод
 - [00-question-mountain-to-person](../../../nautilus/transmission-box/00-question-mountain-to-person.md)
 - [00-question-voiceless](../../../nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
 - [00-question-supply-demand](../../../nautilus/supply-demand/00-question-supply-demand.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [00-question-rephrasing](../../ai-managed-virtual-company/00-question-rephrasing.md)
+- [README](README.md)
+- [00-question-voiceless](../../../nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
+- [00-question-multiple-mentors](../../../nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
+- _...ещё 2_
 

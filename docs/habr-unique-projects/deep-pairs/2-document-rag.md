@@ -55,3 +55,19 @@ python scripts/improve_semantic_search.py --query "Пара 2 Парсинг д�
 - 2-pkm-[mcp-skills](../software-pairs/2-pkm-mcp-skills.md)
 - 1-[llm-gateway](1-llm-gateway.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [5-voice-local-memory](5-voice-local-memory.md)
+- [README](README.md)
+- _...ещё 1_
+

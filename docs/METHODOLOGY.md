@@ -255,3 +255,17 @@ _Документ обновляется вручную при изменени�
 - [03-catalog](meta-scripting/03-catalog.md)
 - [09-automation](processing-guide/09-automation.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [05-synthesis](meta-scripting/05-synthesis.md)
+

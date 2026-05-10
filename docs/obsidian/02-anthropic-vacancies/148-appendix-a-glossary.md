@@ -3,7 +3,7 @@ title: "Appendix A: Glossary"
 tags:
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Appendix A: Glossary
@@ -97,7 +97,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[139-2-the-double-triangle-architecture]] (сходство 0.19)
 - [[136-abstract]] (сходство 0.17)
 - [[142-5-pattern-library-as-bridge-between-triangles]] (сходство 0.17)
@@ -107,7 +107,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A Glossary"
+```
+
+## Смотрите также
 - [[146-acknowledgments]]
 - [[139-2-the-double-triangle-architecture]]
 - [[142-5-pattern-library-as-bridge-between-triangles]]
@@ -154,3 +160,19 @@ date: 2026-04-29
 - [[144-7-open-questions|7. Open Questions]] _29%_
 - [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _25%_
 - [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[133-обратная-связь]]
+- [[134-the-double-triangle-architecture-md]]
+- [[136-abstract]]
+- [[140-3-three-inter-layer-protocols]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[143-6-four-deployment-domains]]
+- [[144-7-open-questions]]
+- _...ещё 3_
+

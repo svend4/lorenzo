@@ -64,3 +64,19 @@ python scripts/improve_semantic_search.py --query "Вопрос два Наут�
 - [00-question-camel-vs-nautilus](../nautilus-vs-camel/00-question-camel-vs-nautilus.md)
 - [00-question-can-it-apply-to-docs](../../nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)
+- [02-nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
+- [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
+- _...ещё 2_
+

@@ -1,5 +1,15 @@
 # Du hast gesagt: Важный момент про способности про скилы как один человек професс…
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -49,4 +59,20 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Важный �
 - [01-yogi-metaphor](01-yogi-metaphor.md)
 - [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
 - [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-yogi-metaphor](01-yogi-metaphor.md)
+- [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
+- [README](README.md)
+- _...ещё 1_
 

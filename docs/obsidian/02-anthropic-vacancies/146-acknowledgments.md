@@ -5,10 +5,40 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Acknowledgments
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Acknowledgments](#acknowledgments)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Acknowledgments](#acknowledgments)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -50,7 +80,7 @@ review.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[267-acknowledgments]] (сходство 0.17)
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.17)
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.17)
@@ -60,7 +90,13 @@ review.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
+## Смотрите также
 - [[167-ai-mediated-representation-for-underrepresented-ex]]
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 - [[251-ai-support-through-configurable-specialist-ensembl]]
@@ -110,3 +146,19 @@ review.
 - [[137-table-of-contents|Table of Contents]] _37%_
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _37%_
 - [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _37%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[137-table-of-contents]]
+- [[148-appendix-a-glossary]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[182-acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[224-acknowledgments]]
+- _...ещё 6_
+

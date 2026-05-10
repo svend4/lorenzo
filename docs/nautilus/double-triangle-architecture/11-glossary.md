@@ -254,3 +254,17 @@ python scripts/improve_semantic_search.py --query "Appendix A Glossary"
 - [12-closing](../representative-agent-layer-en/12-closing.md)
 - [08-call-to-action](08-call-to-action.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+

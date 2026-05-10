@@ -109,3 +109,17 @@ python scripts/improve_semantic_search.py --query "Рекурсивное про
 - [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
 - [09-ne-reshaet](09-ne-reshaet.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-pochemu-ne-postroeno](04-pochemu-ne-postroeno.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [README](README.md)
+

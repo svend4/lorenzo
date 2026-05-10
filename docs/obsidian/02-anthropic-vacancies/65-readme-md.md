@@ -3,16 +3,31 @@ title: "README.md"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # README.md
+
+<!-- toc-auto -->
+## Contents
+
+- [README.md](#readmemd)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > **Единая точка входа для федеративных git-экосистем знаний.**
 
 ---
 <!-- tags: anthropic -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 
 
 
@@ -38,7 +53,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[03-portal-protocol-md]] (сходство 0.14)
 - [[123-portal-mcp-py]] (сходство 0.12)
 - [[125-readme-mcp-md-инструкция-по-установке]] (сходство 0.12)
@@ -48,7 +63,14 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "README md"
+```
+
+## Смотрите также
 - [[28-appendix-a-minimal-working-example]]
 - [[125-readme-mcp-md-инструкция-по-установке]]
 - [[105-review-methodology-md]]
@@ -87,3 +109,20 @@ markdown
 - [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] _25%_
 - [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _25%_
 - [[34-appendix-b-change-log|Appendix B: Change Log]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[03-portal-protocol-md]]
+- [[04-abstract]]
+- [[105-review-methodology-md]]
+- [[123-portal-mcp-py]]
+- [[125-readme-mcp-md-инструкция-по-установке]]
+- [[127-подключение-к-claude-desktop]]
+- [[34-appendix-b-change-log]]
+- [[70-зачем-две-версии-параллельно]]
+- _...ещё 1_
+
+_Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._

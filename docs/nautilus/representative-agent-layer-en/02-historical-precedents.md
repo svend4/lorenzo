@@ -218,3 +218,16 @@ python scripts/improve_semantic_search.py --query "2 Historical Precedents Agent
 - [01-cinderella-syndrome](01-cinderella-syndrome.md)
 - [04-ten-domains](04-ten-domains.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-cinderella-syndrome](01-cinderella-syndrome.md)
+- [README](README.md)
+

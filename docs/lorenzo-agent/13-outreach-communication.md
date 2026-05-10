@@ -67,3 +67,18 @@ python scripts/improve_semantic_search.py --query "Твоя коммуникац
 - [03-tvoya-missiya](03-tvoya-missiya.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [357-твоя-коммуникация-в-outreach](../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [04-q4-character](specification/04-q4-character.md)
+

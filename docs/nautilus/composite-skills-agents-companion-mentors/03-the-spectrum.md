@@ -1,5 +1,15 @@
 # Какой под-агент (или какие) должны её обработать
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -153,4 +163,19 @@ python scripts/improve_semantic_search.py --query "Какой под агент 
 - [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
 - [01-yogi-metaphor](01-yogi-metaphor.md)
 - [09-svyaz-s-drugimi](../professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-yogi-metaphor](01-yogi-metaphor.md)
+- [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
+- [README](README.md)
 

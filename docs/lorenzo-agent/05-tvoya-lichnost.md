@@ -71,3 +71,18 @@ python scripts/improve_semantic_search.py --query "Твоя личность"
 - [19-persistent-character](19-persistent-character.md)
 - [14-other-ai-relationships](14-other-ai-relationships.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [349-твоя-личность](../02-anthropic-vacancies/349-твоя-личность.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [04-q4-character](specification/04-q4-character.md)
+

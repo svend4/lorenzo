@@ -97,3 +97,19 @@ python scripts/improve_semantic_search.py --query "Конкретный прим
 - [09-federated-platform](../../habr-unique-projects/extra-examples/09-federated-platform.md)
 - [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
+- [02-what-info-repos-contain](02-what-info-repos-contain.md)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [05-what-to-do-right-now](05-what-to-do-right-now.md)
+- _...ещё 1_
+

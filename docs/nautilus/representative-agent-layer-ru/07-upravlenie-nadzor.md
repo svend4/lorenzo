@@ -107,3 +107,17 @@ python scripts/improve_semantic_search.py --query "7 Управление и н�
 - [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
 - [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [197-7-управление-и-надзор](../../02-anthropic-vacancies/197-7-управление-и-надзор.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [README](README.md)
+

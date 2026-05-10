@@ -1,5 +1,17 @@
 # Безопасность и приватность
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Безопасность, приватность и бюджетный роутинг](#безопасность-приватность-и-бюджетный-роутинг)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -111,3 +123,19 @@ python scripts/improve_semantic_search.py --query "Безопасность и �
 [^sentinel]: OSS-проект: безопасность и allowlist для MCP
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [09-architectural-gaps](09-architectural-gaps.md)
+- [README](README.md)
+- [06-безопасность-приватность-и-бюджетный-роутинг](../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- _...ещё 3_
+

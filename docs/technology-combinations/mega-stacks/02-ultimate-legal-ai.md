@@ -91,3 +91,19 @@
 - [01-legal-ai-stack](01-legal-ai-stack.md)
 - [19-multi-agent-observability-platform](../combinations/19-multi-agent-observability-platform.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [reading-paths](../../reading-paths.md)
+- [18-llm-powered-legal-corpus-builder](../combinations/18-llm-powered-legal-corpus-builder.md)
+- [19-multi-agent-observability-platform](../combinations/19-multi-agent-observability-platform.md)
+- _...ещё 8_
+

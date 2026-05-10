@@ -1,5 +1,21 @@
 # Existing Approximations
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -129,4 +145,20 @@ python scripts/improve_semantic_search.py --query "Existing Approximations"
 - [03-two-layer-stack](03-two-layer-stack.md)
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
 - [07-specific-case](07-specific-case.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [05-why-not-built](05-why-not-built.md)
+- _...ещё 5_
 

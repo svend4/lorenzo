@@ -1,5 +1,11 @@
 # AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
 
+<!-- toc-auto -->
+## Содержание
+
+- Основной раздел
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -106,4 +112,16 @@ python scripts/improve_semantic_search.py --query "AI Mediated Representation fo
 - [01-cinderella-syndrome](01-cinderella-syndrome.md)
 - [09-phased-rollout](09-phased-rollout.md)
 - [168-abstract](../../02-anthropic-vacancies/168-abstract.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 

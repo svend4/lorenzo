@@ -78,3 +78,16 @@ python scripts/improve_semantic_search.py --query "14 ADR 001 Federation over Me
 - [20-adr-002-q6-first-class](../npp-v1-1/20-adr-002-q6-first-class.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [19-adr-001-federation-over-merging](../npp-v1-1/19-adr-001-federation-over-merging.md)
+

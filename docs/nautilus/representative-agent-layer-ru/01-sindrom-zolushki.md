@@ -97,3 +97,16 @@ python scripts/improve_semantic_search.py --query "1 Синдром Золушк
 - [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
 - [00-question-voiceless](../community-discussions/voiceless-contributors/00-question-voiceless.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

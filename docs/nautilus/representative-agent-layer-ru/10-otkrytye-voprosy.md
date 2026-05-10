@@ -104,3 +104,19 @@ python scripts/improve_semantic_search.py --query "10 Открытые вопр�
 - [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
 - [08-riski-mery](08-riski-mery.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [07-upravlenie-nadzor](07-upravlenie-nadzor.md)
+- [08-riski-mery](08-riski-mery.md)
+- [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
+- _...ещё 1_
+

@@ -107,3 +107,15 @@ python scripts/improve_semantic_search.py --query "5 Связь с сущест�
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
 - [09-limitations-open-questions](09-limitations-open-questions.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

@@ -157,3 +157,19 @@ python scripts/improve_semantic_search.py --query "13 Closing"
 - [01-why-binary-incomplete](01-why-binary-incomplete.md)
 - [09-okwf-integration](09-okwf-integration.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-why-binary-incomplete](01-why-binary-incomplete.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- _...ещё 1_
+

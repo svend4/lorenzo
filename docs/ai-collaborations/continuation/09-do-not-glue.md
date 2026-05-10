@@ -58,3 +58,17 @@ python scripts/improve_semantic_search.py --query "Что пока не стои
 - [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
 - 03-a2a-vs-[mcp-protocols](03-a2a-vs-mcp-protocols.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [10-architecture-rfc](10-architecture-rfc.md)
+- [README](README.md)
+

@@ -85,3 +85,19 @@ python scripts/improve_semantic_search.py --query "Комбинация 17 Distr
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [11-hybrid-crdt-sql-database](11-hybrid-crdt-sql-database.md)
+- [15-self-consolidating-legal-corpus](15-self-consolidating-legal-corpus.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
+- _...ещё 2_
+

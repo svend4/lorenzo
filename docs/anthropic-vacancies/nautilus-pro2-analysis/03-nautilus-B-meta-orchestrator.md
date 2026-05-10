@@ -1,5 +1,15 @@
 # Наутилус B: nautilus — мета-оркестратор репозиториев (внешняя архитектура)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -149,4 +159,18 @@ python scripts/improve_semantic_search.py --query "Наутилус B nautilus �
 - 02-[nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
 - [02-общий-план-развития-nautilus-portal-protocol](../../02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 - [00-question-two-nautiluses](00-question-two-nautiluses.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
+- [README](README.md)
 

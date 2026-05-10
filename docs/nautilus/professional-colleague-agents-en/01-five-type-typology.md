@@ -217,3 +217,19 @@ ethical, and economic framework.
 - [09-relationship-other-agents](09-relationship-other-agents.md)
 - [02-what-makes-pca](02-what-makes-pca.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
+- [09-relationship-other-agents](09-relationship-other-agents.md)
+- [README](README.md)
+- _...ещё 1_
+

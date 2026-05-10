@@ -65,3 +65,19 @@ python scripts/improve_semantic_search.py --query "Чем Svyazi 2 0 отлич�
 - [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-a2a-vs-mcp-protocols](03-a2a-vs-mcp-protocols.md)
+- [README](README.md)
+- _...ещё 1_
+

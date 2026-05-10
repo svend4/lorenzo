@@ -132,3 +132,16 @@ python scripts/improve_semantic_search.py --query "7 Governance and Oversight"
 - [05-architectural-specification](05-architectural-specification.md)
 - [09-phased-rollout](09-phased-rollout.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-ethical-framework](06-ethical-framework.md)
+- [README](README.md)
+

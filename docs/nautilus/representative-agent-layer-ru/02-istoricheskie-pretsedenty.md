@@ -147,3 +147,16 @@ python scripts/improve_semantic_search.py --query "2 Исторические п
 - [04-desyat-oblastey](04-desyat-oblastey.md)
 - [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-sindrom-zolushki](01-sindrom-zolushki.md)
+- [README](README.md)
+

@@ -73,3 +73,18 @@ python scripts/improve_semantic_search.py --query "Дорожная карта �
 - [05-roadmap-6-12-months](../../ai-collaborations/continuation/05-roadmap-6-12-months.md)
 - [conclusions](../limitations/conclusions.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-roadmap-6-12-months](../../ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
+

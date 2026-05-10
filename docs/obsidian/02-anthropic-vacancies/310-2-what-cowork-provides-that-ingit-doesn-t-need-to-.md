@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 2. What Cowork Provides That InGit Doesn't Need to Build
@@ -157,7 +157,7 @@ individual developer or small team.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.20)
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.18)
 - [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.17)
@@ -167,9 +167,27 @@ individual developer or small team.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 What Cowork Provides That InGit Doesn"
+```
+
+## Смотрите также
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 - [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
 - [[307-abstract]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [[255-2-the-twenty-one-teachers-pattern]]
+- [[303-приложение-визуализация-позиции-в-серии]]
+- [[307-abstract]]
+- [[308-table-of-contents]]
+- [[README]]
 

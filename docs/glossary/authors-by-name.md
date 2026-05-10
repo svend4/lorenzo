@@ -1,5 +1,15 @@
 # Авторы — алфавитный список
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -77,4 +87,20 @@ python scripts/improve_semantic_search.py --query "Авторы алфавитн
 - [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)
 - [CONTACTS](../CONTACTS.md)
 - [source-projects](../ai-collaborations/source-projects.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (40):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [01-three-key-candidates](../ai-collaborations/candidates/01-three-key-candidates.md)
+- [source-projects](../ai-collaborations/source-projects.md)
+- [README](README.md)
+- _...ещё 32_
 

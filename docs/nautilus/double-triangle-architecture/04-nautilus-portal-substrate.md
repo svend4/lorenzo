@@ -142,3 +142,19 @@ python scripts/improve_semantic_search.py --query "4 Nautilus Portal as Referenc
 - [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 - [02-double-triangle-architecture](02-double-triangle-architecture.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-abstract](00-abstract.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
+- [README](README.md)
+- _...ещё 1_
+

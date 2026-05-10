@@ -163,3 +163,16 @@ state. Cowork memory is convenience, not authority.
 - [02-cowork-provides](02-cowork-provides.md)
 - [311-3-what-ingit-provides-that-cowork-lacks](../../02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-ingit-provides](03-ingit-provides.md)
+- [README](README.md)
+

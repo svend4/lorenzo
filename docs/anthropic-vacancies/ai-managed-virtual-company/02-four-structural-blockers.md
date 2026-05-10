@@ -54,3 +54,18 @@ python scripts/improve_semantic_search.py --query "Четыре структур
 - [01-existing-landscape](01-existing-landscape.md)
 - [09-minuses-and-risks](09-minuses-and-risks.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-pluses-of-model](08-pluses-of-model.md)
+- [09-minuses-and-risks](09-minuses-and-risks.md)
+- [README](README.md)
+

@@ -168,3 +168,16 @@ python scripts/improve_semantic_search.py --query "1 Открытие Cowork и 
 - [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
 - [06-konkretnyy-sluchay](../infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
+- [README](README.md)
+

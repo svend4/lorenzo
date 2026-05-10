@@ -235,3 +235,17 @@ python scripts/improve_semantic_search.py --query "4 Архитектура Пр
 - [02-chto-delaet-pka](02-chto-delaet-pka.md)
 - [06-riski](06-riski.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-ekonomika](05-ekonomika.md)
+- [06-riski](06-riski.md)
+- [README](README.md)
+

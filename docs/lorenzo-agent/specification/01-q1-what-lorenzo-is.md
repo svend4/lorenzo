@@ -109,3 +109,17 @@ python scripts/improve_semantic_search.py --query "Question 1 Что Lorenzo ф�
 - [05-q5-authority-limits](05-q5-authority-limits.md)
 - [06-q6-accountability](06-q6-accountability.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- [README](README.md)
+

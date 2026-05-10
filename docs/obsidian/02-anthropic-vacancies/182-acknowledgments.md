@@ -3,10 +3,23 @@ title: "Acknowledgments"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Acknowledgments
+
+<!-- toc-auto -->
+## Contents
+
+- [Acknowledgments](#acknowledgments)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -48,7 +61,7 @@ will be more than enough.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[224-acknowledgments]] (сходство 0.17)
 - [[146-acknowledgments]] (сходство 0.14)
 - [[267-acknowledgments]] (сходство 0.13)
@@ -58,7 +71,13 @@ will be more than enough.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
+## Смотрите также
 - [[146-acknowledgments]]
 - [[224-acknowledgments]]
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
@@ -99,3 +118,19 @@ will be more than enough.
 - [[267-acknowledgments|Acknowledgments]] _29%_
 - [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _25%_
 - [[211-table-of-contents|Table of Contents]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[146-acknowledgments]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[211-table-of-contents]]
+- [[224-acknowledgments]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- _...ещё 2_
+

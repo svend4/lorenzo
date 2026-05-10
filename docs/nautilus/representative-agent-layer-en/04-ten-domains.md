@@ -364,3 +364,19 @@ python scripts/improve_semantic_search.py --query "4 Ten Domains of Application"
 - [12-closing](12-closing.md)
 - [186-appendix-c-sample-use-cases-in-detail](../../02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [07-application-domains](../professional-colleague-agents-en/07-application-domains.md)
+- [01-cinderella-syndrome](01-cinderella-syndrome.md)
+- [02-historical-precedents](02-historical-precedents.md)
+- _...ещё 2_
+

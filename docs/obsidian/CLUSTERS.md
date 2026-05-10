@@ -10,10 +10,139 @@ tags:
   - anthropic
   - collaboration
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Кластеры тематически близких файлов
+
+<!-- toc-auto -->
+## Contents
+
+- [Кластер 1 — turn, view, svyazi, cardindex (30 файлов)](#кластер-1-turn-view-svyazi-cardindex-30-файлов)
+- [Кластер 2 — anthropic-vacancies, docs, ai-mediated-representation-for-underrepresented-ex, author-contact (23 файлов)](#кластер-2-anthropic-vacancies-docs-ai-mediated-representation-for-underrepresented-ex-author-contact-23-файлов)
+- [Кластер 3 — cowork, ingit, anthropic-vacancies, docs (22 файлов)](#кластер-3-cowork-ingit-anthropic-vacancies-docs-22-файлов)
+- [Кластер 4 — repo, passport, docs, str (17 файлов)](#кластер-4-repo-passport-docs-str-17-файлов)
+- [Кластер 5 — principal, agent, professional, agents (14 файлов)](#кластер-5-principal-agent-professional-agents-14-файлов)
+- [Кластер 6 — github, documents, com, document (13 файлов)](#кластер-6-github-documents-com-document-13-файлов)
+- [Кластер 7 — профиль, связи, сообщение, первое (12 файлов)](#кластер-7-профиль-связи-сообщение-первое-12-файлов)
+- [Кластер 8 — composite-skills-agent-md, representative-agent-layer-md, markdown, сходство (11 файлов)](#кластер-8-composite-skills-agent-md-representative-agent-layer-md-markdown-сходство-11-файлов)
+- [Кластер 9 — triangle, assistants, node, double-triangle (10 файлов)](#кластер-9-triangle-assistants-node-double-triangle-10-файлов)
+- [Кластер 10 — turn, view, cite, search (9 файлов)](#кластер-10-turn-view-cite-search-9-файлов)
+- [Кластер 11 — table-of-contents, anthropic-vacancies, docs, table (9 файлов)](#кластер-11-table-of-contents-anthropic-vacancies-docs-table-9-файлов)
+- [Кластер 12 — инфраструктура-для-ai-совместной-интеллектуальной-, профессиональные-коллеги-агенты, anthropic-vacancies, docs (9 файлов)](#кластер-12-инфраструктура-для-ai-совместной-интеллектуальной--профессиональные-коллеги-агенты-anthropic-vacancies-docs-9-файлов)
+- [Кластер 13 — professional, agent, type, composite (9 файлов)](#кластер-13-professional-agent-type-composite-9-файлов)
+- [Кластер 14 — mcp-extension-informative, anthropic-vacancies, reference-implementation, docs (8 файлов)](#кластер-14-mcp-extension-informative-anthropic-vacancies-reference-implementation-docs-8-файлов)
+- [Кластер 15 — compatibility-level, bridges, level, anthropic-vacancies (8 файлов)](#кластер-15-compatibility-level-bridges-level-anthropic-vacancies-8-файлов)
+- [Кластер 16 — essence, anthropic-vacancies, passports-meta-md, docs (8 файлов)](#кластер-16-essence-anthropic-vacancies-passports-meta-md-docs-8-файлов)
+- [Кластер 17 — слов, docs, проблем, anthropic-vacancies (8 файлов)](#кластер-17-слов-docs-проблем-anthropic-vacancies-8-файлов)
+- [Кластер 18 — репо, nautilus, info, passports (7 файлов)](#кластер-18-репо-nautilus-info-passports-7-файлов)
+- [Кластер 19 — author-contact, anthropic-vacancies, docs, abstract (7 файлов)](#кластер-19-author-contact-anthropic-vacancies-docs-abstract-7-файлов)
+- [Кластер 20 — adr-, federation-over-merging, anthropic-vacancies, docs (7 файлов)](#кластер-20-adr--federation-over-merging-anthropic-vacancies-docs-7-файлов)
+- [Кластер 21 — вариант, docs, anthropic-vacancies, зачем-две-версии-параллельно (7 файлов)](#кластер-21-вариант-docs-anthropic-vacancies-зачем-две-версии-параллельно-7-файлов)
+- [Кластер 22 — references, ссылки, anthropic-vacancies, docs (7 файлов)](#кластер-22-references-ссылки-anthropic-vacancies-docs-7-файлов)
+- [Кластер 23 — принципала, агент, агента, тип (7 файлов)](#кластер-23-принципала-агент-агента-тип-7-файлов)
+- [Кластер 24 — lorenzo, dhlab, catalyst, твоя (7 файлов)](#кластер-24-lorenzo-dhlab-catalyst-твоя-7-файлов)
+- [Кластер 25 — query, portal, consensus, repos (6 файлов)](#кластер-25-query-portal-consensus-repos-6-файлов)
+- [Кластер 26 — acknowledgments, document, anthropic-vacancies, why-this-document-exists (6 файлов)](#кластер-26-acknowledgments-document-anthropic-vacancies-why-this-document-exists-6-файлов)
+- [Кластер 27 — содержание, противодействия, меры, риск (6 файлов)](#кластер-27-содержание-противодействия-меры-риск-6-файлов)
+- [Кластер 28 — angle-perspective, essence, смотрит, anthropic-vacancies (5 файлов)](#кластер-28-angle-perspective-essence-смотрит-anthropic-vacancies-5-файлов)
+- [Кластер 29 — target-populations, populations, problem-statement, target (5 файлов)](#кластер-29-target-populations-populations-problem-statement-target-5-файлов)
+- [Кластер 30 — contributor, phase, phase-, foundation (5 файлов)](#кластер-30-contributor-phase-phase--foundation-5-файлов)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
+
+
+- Кластер 1 — turn, view, [svyazi, cardindex (30 файлов)](#кластер-1-turn-view-svyazi-cardindex-30-файлов)
+- Кластер 2 — [anthropic-vacancies, docs, ai-mediated-representation-for-underrepresented-ex, author-contact (23 файлов)](#кластер-2-anthropic-vacancies-docs-ai-mediated-representation-for-underrepresented-ex-author-contact-23-файлов)
+- Кластер 3 — cowork, ingit, [anthropic-vacancies, docs (22 файлов)](#кластер-3-cowork-ingit-anthropic-vacancies-docs-22-файлов)
+- [Кластер 4 — repo, passport, docs, str (17 файлов)](#кластер-4-repo-passport-docs-str-17-файлов)
+- [Кластер 5 — principal, agent, professional, agents (14 файлов)](#кластер-5-principal-agent-professional-agents-14-файлов)
+- [Кластер 6 — github, documents, com, document (13 файлов)](#кластер-6-github-documents-com-document-13-файлов)
+- [Кластер 7 — профиль, связи, сообщение, первое (12 файлов)](#кластер-7-профиль-связи-сообщение-первое-12-файлов)
+- Кластер 8 — composite-skills-agent-md, representative-agent-layer-md, [markdown, сходство (11 файлов)](#кластер-8-composite-skills-agent-md-representative-agent-layer-md-markdown-сходство-11-файлов)
+- [Кластер 9 — triangle, assistants, node, double-triangle (10 файлов)](#кластер-9-triangle-assistants-node-double-triangle-10-файлов)
+- [Кластер 10 — turn, view, cite, search (9 файлов)](#кластер-10-turn-view-cite-search-9-файлов)
+- Кластер 11 — table-of-contents, [anthropic-vacancies, docs, table (9 файлов)](#кластер-11-table-of-contents-anthropic-vacancies-docs-table-9-файлов)
+- Кластер 12 — инфраструктура-для-ai-совместной-интеллектуальной-, профессиональные-коллеги-агенты, [anthropic-vacancies, docs (9 файлов)](#кластер-12-инфраструктура-для-ai-совместной-интеллектуальной--профессиональные-коллеги-агенты-anthropic-vacancies-docs-9-файлов)
+- [Кластер 13 — professional, agent, type, composite (9 файлов)](#кластер-13-professional-agent-type-composite-9-файлов)
+- Кластер 14 — mcp-extension-informative, [anthropic-vacancies, reference-implementation, docs (8 файлов)](#кластер-14-mcp-extension-informative-anthropic-vacancies-reference-implementation-docs-8-файлов)
+- Кластер 15 — compatibility-level, bridges, level, [anthropic-vacancies (8 файлов)](#кластер-15-compatibility-level-bridges-level-anthropic-vacancies-8-файлов)
+- Кластер 16 — essence, [anthropic-vacancies, passports-meta-md, docs (8 файлов)](#кластер-16-essence-anthropic-vacancies-passports-meta-md-docs-8-файлов)
+- Кластер 17 — слов, docs, проблем, [anthropic-vacancies (8 файлов)](#кластер-17-слов-docs-проблем-anthropic-vacancies-8-файлов)
+- Кластер 18 — репо, [nautilus, info, passports (7 файлов)](#кластер-18-репо-nautilus-info-passports-7-файлов)
+- Кластер 19 — author-contact, [anthropic-vacancies, docs, abstract (7 файлов)](#кластер-19-author-contact-anthropic-vacancies-docs-abstract-7-файлов)
+- Кластер 20 — adr-, federation-over-merging, [anthropic-vacancies, docs (7 файлов)](#кластер-20-adr--federation-over-merging-anthropic-vacancies-docs-7-файлов)
+- Кластер 21 — вариант, docs, [anthropic-vacancies, зачем-две-версии-параллельно (7 файлов)](#кластер-21-вариант-docs-anthropic-vacancies-зачем-две-версии-параллельно-7-файлов)
+- Кластер 22 — references, ссылки, [anthropic-vacancies, docs (7 файлов)](#кластер-22-references-ссылки-anthropic-vacancies-docs-7-файлов)
+- [Кластер 23 — принципала, агент, агента, тип (7 файлов)](#кластер-23-принципала-агент-агента-тип-7-файлов)
+- Кластер 24 — [lorenzo, dhlab, catalyst, твоя (7 файлов)](#кластер-24-lorenzo-dhlab-catalyst-твоя-7-файлов)
+- [Кластер 25 — query, portal, consensus, repos (6 файлов)](#кластер-25-query-portal-consensus-repos-6-файлов)
+- Кластер 26 — acknowledgments, document, [anthropic-vacancies, why-this-document-exists (6 файлов)](#кластер-26-acknowledgments-document-anthropic-vacancies-why-this-document-exists-6-файлов)
+- [Кластер 27 — содержание, противодействия, меры, риск (6 файлов)](#кластер-27-содержание-противодействия-меры-риск-6-файлов)
+- Кластер 28 — angle-perspective, essence, смотрит, [anthropic-vacancies (5 файлов)](#кластер-28-angle-perspective-essence-смотрит-anthropic-vacancies-5-файлов)
+- [Кластер 29 — target-populations, populations, problem-statement, target (5 файлов)](#кластер-29-target-populations-populations-problem-statement-target-5-файлов)
+- [Кластер 30 — contributor, phase, phase-, foundation (5 файлов)](#кластер-30-contributor-phase-phase--foundation-5-файлов)
+- Кластер 1 — turn, view, [svyazi, cardindex (30 файлов)](#кластер-1-turn-view-svyazi-cardindex-30-файлов)
+- Кластер 2 — [anthropic-vacancies, docs, ai-mediated-representation-for-underrepresented-ex, author-contact (23 файлов)](#кластер-2-anthropic-vacancies-docs-ai-mediated-representation-for-underrepresented-ex-author-contact-23-файлов)
+- Кластер 3 — cowork, ingit, [anthropic-vacancies, docs (22 файлов)](#кластер-3-cowork-ingit-anthropic-vacancies-docs-22-файлов)
+- [Кластер 4 — repo, passport, docs, str (17 файлов)](#кластер-4-repo-passport-docs-str-17-файлов)
+- [Кластер 5 — principal, agent, professional, agents (14 файлов)](#кластер-5-principal-agent-professional-agents-14-файлов)
+- [Кластер 6 — github, documents, com, document (13 файлов)](#кластер-6-github-documents-com-document-13-файлов)
+- [Кластер 7 — профиль, связи, сообщение, первое (12 файлов)](#кластер-7-профиль-связи-сообщение-первое-12-файлов)
+- Кластер 8 — composite-skills-agent-md, representative-agent-layer-md, [markdown, сходство (11 файлов)](#кластер-8-composite-skills-agent-md-representative-agent-layer-md-markdown-сходство-11-файлов)
+- [Кластер 9 — triangle, assistants, node, double-triangle (10 файлов)](#кластер-9-triangle-assistants-node-double-triangle-10-файлов)
+- [Кластер 10 — turn, view, cite, search (9 файлов)](#кластер-10-turn-view-cite-search-9-файлов)
+- Кластер 11 — table-of-contents, [anthropic-vacancies, docs, table (9 файлов)](#кластер-11-table-of-contents-anthropic-vacancies-docs-table-9-файлов)
+- Кластер 12 — инфраструктура-для-ai-совместной-интеллектуальной-, профессиональные-коллеги-агенты, [anthropic-vacancies, docs (9 файлов)](#кластер-12-инфраструктура-для-ai-совместной-интеллектуальной--профессиональные-коллеги-агенты-anthropic-vacancies-docs-9-файлов)
+- [Кластер 13 — professional, agent, type, composite (9 файлов)](#кластер-13-professional-agent-type-composite-9-файлов)
+- Кластер 14 — mcp-extension-informative, [anthropic-vacancies, reference-implementation, docs (8 файлов)](#кластер-14-mcp-extension-informative-anthropic-vacancies-reference-implementation-docs-8-файлов)
+- Кластер 15 — compatibility-level, bridges, level, [anthropic-vacancies (8 файлов)](#кластер-15-compatibility-level-bridges-level-anthropic-vacancies-8-файлов)
+- Кластер 16 — essence, [anthropic-vacancies, passports-meta-md, docs (8 файлов)](#кластер-16-essence-anthropic-vacancies-passports-meta-md-docs-8-файлов)
+- Кластер 17 — слов, docs, проблем, [anthropic-vacancies (8 файлов)](#кластер-17-слов-docs-проблем-anthropic-vacancies-8-файлов)
+- Кластер 18 — репо, [nautilus, info, passports (7 файлов)](#кластер-18-репо-nautilus-info-passports-7-файлов)
+- Кластер 19 — author-contact, [anthropic-vacancies, docs, abstract (7 файлов)](#кластер-19-author-contact-anthropic-vacancies-docs-abstract-7-файлов)
+- Кластер 20 — adr-, federation-over-merging, [anthropic-vacancies, docs (7 файлов)](#кластер-20-adr--federation-over-merging-anthropic-vacancies-docs-7-файлов)
+- Кластер 21 — вариант, docs, [anthropic-vacancies, зачем-две-версии-параллельно (7 файлов)](#кластер-21-вариант-docs-anthropic-vacancies-зачем-две-версии-параллельно-7-файлов)
+- Кластер 22 — references, ссылки, [anthropic-vacancies, docs (7 файлов)](#кластер-22-references-ссылки-anthropic-vacancies-docs-7-файлов)
+- [Кластер 23 — принципала, агент, агента, тип (7 файлов)](#кластер-23-принципала-агент-агента-тип-7-файлов)
+- Кластер 24 — [lorenzo, dhlab, catalyst, твоя (7 файлов)](#кластер-24-lorenzo-dhlab-catalyst-твоя-7-файлов)
+- [Кластер 25 — query, portal, consensus, repos (6 файлов)](#кластер-25-query-portal-consensus-repos-6-файлов)
+- Кластер 26 — acknowledgments, document, [anthropic-vacancies, why-this-document-exists (6 файлов)](#кластер-26-acknowledgments-document-anthropic-vacancies-why-this-document-exists-6-файлов)
+- [Кластер 27 — содержание, противодействия, меры, риск (6 файлов)](#кластер-27-содержание-противодействия-меры-риск-6-файлов)
+- Кластер 28 — angle-perspective, essence, смотрит, [anthropic-vacancies (5 файлов)](#кластер-28-angle-perspective-essence-смотрит-anthropic-vacancies-5-файлов)
+- [Кластер 29 — target-populations, populations, problem-statement, target (5 файлов)](#кластер-29-target-populations-populations-problem-statement-target-5-файлов)
+- [Кластер 30 — contributor, phase, phase-, foundation (5 файлов)](#кластер-30-contributor-phase-phase--foundation-5-файлов)
+- Кластер 1 — turn, view, [svyazi, cardindex (30 файлов)](#кластер-1-turn-view-svyazi-cardindex-30-файлов)
+- Кластер 2 — [anthropic-vacancies, docs, ai-mediated-representation-for-underrepresented-ex, author-contact (23 файлов)](#кластер-2-anthropic-vacancies-docs-ai-mediated-representation-for-underrepresented-ex-author-contact-23-файлов)
+- Кластер 3 — cowork, ingit, [anthropic-vacancies, docs (22 файлов)](#кластер-3-cowork-ingit-anthropic-vacancies-docs-22-файлов)
+- [Кластер 4 — repo, passport, docs, str (17 файлов)](#кластер-4-repo-passport-docs-str-17-файлов)
+- [Кластер 5 — principal, agent, professional, agents (14 файлов)](#кластер-5-principal-agent-professional-agents-14-файлов)
+- [Кластер 6 — github, documents, com, document (13 файлов)](#кластер-6-github-documents-com-document-13-файлов)
+- [Кластер 7 — профиль, связи, сообщение, первое (12 файлов)](#кластер-7-профиль-связи-сообщение-первое-12-файлов)
+- Кластер 8 — composite-skills-agent-md, representative-agent-layer-md, [markdown, сходство (11 файлов)](#кластер-8-composite-skills-agent-md-representative-agent-layer-md-markdown-сходство-11-файлов)
+- [Кластер 9 — triangle, assistants, node, double-triangle (10 файлов)](#кластер-9-triangle-assistants-node-double-triangle-10-файлов)
+- [Кластер 10 — turn, view, cite, search (9 файлов)](#кластер-10-turn-view-cite-search-9-файлов)
+- Кластер 11 — table-of-contents, [anthropic-vacancies, docs, table (9 файлов)](#кластер-11-table-of-contents-anthropic-vacancies-docs-table-9-файлов)
+- Кластер 12 — инфраструктура-для-ai-совместной-интеллектуальной-, профессиональные-коллеги-агенты, [anthropic-vacancies, docs (9 файлов)](#кластер-12-инфраструктура-для-ai-совместной-интеллектуальной--профессиональные-коллеги-агенты-anthropic-vacancies-docs-9-файлов)
+- [Кластер 13 — professional, agent, type, composite (9 файлов)](#кластер-13-professional-agent-type-composite-9-файлов)
+- Кластер 14 — mcp-extension-informative, [anthropic-vacancies, reference-implementation, docs (8 файлов)](#кластер-14-mcp-extension-informative-anthropic-vacancies-reference-implementation-docs-8-файлов)
+- Кластер 15 — compatibility-level, bridges, level, [anthropic-vacancies (8 файлов)](#кластер-15-compatibility-level-bridges-level-anthropic-vacancies-8-файлов)
+- Кластер 16 — essence, [anthropic-vacancies, passports-meta-md, docs (8 файлов)](#кластер-16-essence-anthropic-vacancies-passports-meta-md-docs-8-файлов)
+- Кластер 17 — слов, docs, проблем, [anthropic-vacancies (8 файлов)](#кластер-17-слов-docs-проблем-anthropic-vacancies-8-файлов)
+- Кластер 18 — репо, [nautilus, info, passports (7 файлов)](#кластер-18-репо-nautilus-info-passports-7-файлов)
+- Кластер 19 — author-contact, [anthropic-vacancies, docs, abstract (7 файлов)](#кластер-19-author-contact-anthropic-vacancies-docs-abstract-7-файлов)
+- Кластер 20 — adr-, federation-over-merging, [anthropic-vacancies, docs (7 файлов)](#кластер-20-adr--federation-over-merging-anthropic-vacancies-docs-7-файлов)
+- Кластер 21 — вариант, docs, [anthropic-vacancies, зачем-две-версии-параллельно (7 файлов)](#кластер-21-вариант-docs-anthropic-vacancies-зачем-две-версии-параллельно-7-файлов)
+- Кластер 22 — references, ссылки, [anthropic-vacancies, docs (7 файлов)](#кластер-22-references-ссылки-anthropic-vacancies-docs-7-файлов)
+- [Кластер 23 — принципала, агент, агента, тип (7 файлов)](#кластер-23-принципала-агент-агента-тип-7-файлов)
+- Кластер 24 — [lorenzo, dhlab, catalyst, твоя (7 файлов)](#кластер-24-lorenzo-dhlab-catalyst-твоя-7-файлов)
+- [Кластер 25 — query, portal, consensus, repos (6 файлов)](#кластер-25-query-portal-consensus-repos-6-файлов)
+- Кластер 26 — acknowledgments, document, [anthropic-vacancies, why-this-document-exists (6 файлов)](#кластер-26-acknowledgments-document-anthropic-vacancies-why-this-document-exists-6-файлов)
+- [Кластер 27 — содержание, противодействия, меры, риск (6 файлов)](#кластер-27-содержание-противодействия-меры-риск-6-файлов)
+- Кластер 28 — angle-perspective, essence, смотрит, [anthropic-vacancies (5 файлов)](#кластер-28-angle-perspective-essence-смотрит-anthropic-vacancies-5-файлов)
+- [Кластер 29 — target-populations, populations, problem-statement, target (5 файлов)](#кластер-29-target-populations-populations-problem-statement-target-5-файлов)
+- [Кластер 30 — contributor, phase, phase-, foundation (5 файлов)](#кластер-30-contributor-phase-phase--foundation-5-файлов)
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
@@ -26,8 +155,6 @@ date: 2026-04-29
 
 ---
 <!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
 
 
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
@@ -378,9 +505,37 @@ _...и ещё 101 малых кластеров (по 1-2 файла)_
 
 ---
 
-**Смотрите также:**
+
+## Использование
+
+```bash
+python scripts/improve_clusters.py
+```
+
+```bash
+# Обновить кластеры и сразу проверить здоровье репозитория
+python scripts/improve_clusters.py && python scripts/improve_health.py
+```
+
+## Смотрите также
 - [[LANGUAGE_STATS]]
 - [[SEARCH]]
 - [[READING_ORDER]]
 - [[SOURCE_MAP]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[211-table-of-contents]]
+- [[307-abstract]]
+- [[308-table-of-contents]]
+- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+- [[INDEX]]
+- [[README]]
+- [[TABLES]]
+- _...ещё 1_
 

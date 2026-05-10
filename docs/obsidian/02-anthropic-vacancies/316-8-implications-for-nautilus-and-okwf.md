@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 8. Implications for Nautilus and OKWF
@@ -29,16 +29,6 @@ date: 2026-04-29
 > ✅ **Результат:** Multiple InGit projects can be Nautilus nodes; Nautilus Portal Protocol enables querying across them.
 > 🏷️ **Ключевые слова:** `nautilus`, `cowork`, `ingit`, `document`, `implications`, `architecture`, `project`, `substrate`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [8. Implications for Nautilus and OKWF](#8-implications-for-nautilus-and-okwf)
-  - [8.1. Nautilus as Federated Knowledge Substrate](#81-nautilus-as-federated-knowledge-substrate)
-  - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
-  - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
-  - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
 
 
 > [!TIP]
@@ -173,7 +163,7 @@ implementable starting next week.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[318-10-strategic-positioning]] (сходство 0.16)
 - [[262-9-integration-with-okwf-infrastructure]] (сходство 0.16)
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
@@ -183,9 +173,31 @@ implementable starting next week.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Implications for Nautilus and OKWF"
+```
+
+## Смотрите также
 - [[262-9-integration-with-okwf-infrastructure]]
 - [[318-10-strategic-positioning]]
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [[317-9-risks-and-open-questions]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [[150-appendix-c-version-history]]
+- [[164-10-appendices]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[208-professional-colleague-agents-md]]
+- [[257-4-the-sub-agent-registry]]
+- [[288-appendix-position-in-series-visualization]]
+- [[303-приложение-визуализация-позиции-в-серии]]
+- 304-[[304-ingit-as-cowork-native-workspace-substrate-md|ingit-as-cowork-native-workspace-substrate-md]]
+- _...ещё 5_
 

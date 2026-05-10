@@ -54,3 +54,19 @@ python scripts/improve_semantic_search.py --query "Reality check проблем�
 - [01-fde-downgraded](01-fde-downgraded.md)
 
 _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md)
+- [01-fde-downgraded](01-fde-downgraded.md)
+- [02-three-overlapping-identities](02-three-overlapping-identities.md)
+- [03-revised-anthropic-mapping](03-revised-anthropic-mapping.md)
+- _...ещё 3_
+

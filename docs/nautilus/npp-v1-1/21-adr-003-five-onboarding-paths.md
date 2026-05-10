@@ -72,3 +72,18 @@ python scripts/improve_semantic_search.py --query "21 ADR 003 Five Onboarding Pa
 - [11-relevance-ranking](11-relevance-ranking.md)
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [12-onboarding-paths](12-onboarding-paths.md)
+- [19-adr-001-federation-over-merging](19-adr-001-federation-over-merging.md)
+- [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
+- [README](README.md)
+

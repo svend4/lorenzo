@@ -249,3 +249,17 @@ python scripts/improve_semantic_search.py --query "7 Области примен
 - [239-8-пилотное-предложение-sgb-колega-адвокат](../../02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
 - [09-strategiya-razvyortyvaniya](../representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-pilot-sgb-kolega](08-pilot-sgb-kolega.md)
+- [README](README.md)
+- [04-desyat-oblastey](../representative-agent-layer-ru/04-desyat-oblastey.md)
+

@@ -82,3 +82,15 @@ python scripts/improve_semantic_search.py --query "4 Условия примен
 - [11-application-plan-current-docs](11-application-plan-current-docs.md)
 
 _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+

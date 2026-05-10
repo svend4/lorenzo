@@ -79,3 +79,18 @@ python scripts/improve_semantic_search.py --query "Графовая когнит
 - [07-key-observation](07-key-observation.md)
 - [341-приложение-c-образец-спецификаций-инструментов-ing](../../02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-coally](01-coally.md)
+- [07-key-observation](07-key-observation.md)
+- [README](README.md)
+

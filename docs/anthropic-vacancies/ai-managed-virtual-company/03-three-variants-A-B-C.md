@@ -1,5 +1,15 @@
 # Три варианта: A (staffing agency) → B (research consortium) → C (AI-managed distributed virtual company)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -73,4 +83,20 @@ python scripts/improve_semantic_search.py --query "Три варианта A sta
 - [07-current-implementations](07-current-implementations.md)
 - [01-existing-landscape](01-existing-landscape.md)
 - [00-question-rephrasing](00-question-rephrasing.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-question-rephrasing](00-question-rephrasing.md)
+- [01-existing-landscape](01-existing-landscape.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- _...ещё 3_
 

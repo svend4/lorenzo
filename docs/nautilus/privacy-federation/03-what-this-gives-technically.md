@@ -1,5 +1,15 @@
 # Что это даёт технически
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -203,4 +213,20 @@ python scripts/improve_semantic_search.py --query "Что это даёт тех
 - [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
 - [02-two-tier-publication](02-two-tier-publication.md)
 - [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
+- [01-structural-comparison-code-vs-docs](../npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+- [02-two-tier-publication](02-two-tier-publication.md)
+- _...ещё 2_
 

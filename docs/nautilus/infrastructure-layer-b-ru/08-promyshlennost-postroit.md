@@ -92,3 +92,18 @@ python scripts/improve_semantic_search.py --query "Что промышленно
 - [11-zaklyuchenie](11-zaklyuchenie.md)
 - [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
+- [README](README.md)
+- [09-riski-voprosy](../ingit-cowork-ru/09-riski-voprosy.md)
+

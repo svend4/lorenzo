@@ -1,5 +1,15 @@
 # Claude hat geantwortet: Это очень тонкое и важное наблюдение.
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -89,4 +99,20 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это
 - [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
 - [00-question-multiple-mentors](00-question-multiple-mentors.md)
 - [03-the-spectrum](03-the-spectrum.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-question-multiple-mentors](00-question-multiple-mentors.md)
+- [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
+- [03-the-spectrum](03-the-spectrum.md)
+- _...ещё 1_
 

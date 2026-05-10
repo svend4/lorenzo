@@ -62,3 +62,19 @@ python scripts/improve_semantic_search.py --query "Практичный бюдж
 - [privacy](privacy.md)
 - [E-execution-plane](../ensembles/E-execution-plane.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [E-execution-plane](../ensembles/E-execution-plane.md)
+- [README](README.md)
+- _...ещё 1_
+

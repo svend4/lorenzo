@@ -3,10 +3,15 @@ title: "The Recursive Insight"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # The Recursive Insight
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- toc -->
 ## Содержание
@@ -21,6 +26,10 @@ date: 2026-04-29
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** The Recursive Insight There is something subtle in all this that warrants explicit --- The Recursive Insight There is something subtle in all this that warrants explicit attention.
@@ -95,7 +104,7 @@ work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[285-closing]] (сходство 0.15)
 - [[277-what-s-missing-layer-b]] (сходство 0.14)
 - [[282-what-industry-will-likely-build]] (сходство 0.13)
@@ -105,7 +114,13 @@ work.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Recursive Insight"
+```
+
+## Смотрите также
 - [[285-closing]]
 - [[282-what-industry-will-likely-build]]
 - [[277-what-s-missing-layer-b]]
@@ -144,3 +159,19 @@ work.
 - [[286-acknowledgments|Acknowledgments]] _25%_
 - [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _21%_
 - [[168-abstract|Abstract]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[150-appendix-c-version-history]]
+- [[155-1-problem-statement]]
+- [[168-abstract]]
+- [[266-13-closing]]
+- [[277-what-s-missing-layer-b]]
+- [[278-why-this-hasn-t-been-built]]
+- [[282-what-industry-will-likely-build]]
+- [[284-practical-recommendations-for-the-current-project]]
+- _...ещё 3_
+

@@ -5,10 +5,21 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 7. PortalEntry Structure
+
+<!-- toc-auto -->
+## Contents
+
+- [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -20,14 +31,17 @@ date: 2026-04-29
 >
 
 
-<!-- toc-auto -->
-## Contents
-
-- [[01-интегральный-анализ-профиля-svend4|7. [PortalEntry]] Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
-
-
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -38,8 +52,6 @@ date: 2026-04-29
 
 ---
 <!-- tags: ingestion, architecture, collaboration -->
-
-
 
 
 ## 7. PortalEntry Structure
@@ -104,7 +116,7 @@ PortalEntry(
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[19-7-portalentry-structure]] (сходство 0.25)
 - [[81-6-adapter-interface]] (сходство 0.12)
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.12)
@@ -114,9 +126,23 @@ PortalEntry(
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[19-7-portalentry-structure]]
 - [[81-6-adapter-interface]]
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [[123-portal-mcp-py]]
+- 123-portal-[[123-portal-mcp-py|mcp-py]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[103-appendix-b-change-log]]
+- [[109-3-принципы-консолидации-фаза-c]]
+- 123-portal-[[123-portal-mcp-py|mcp-py]]
+- [[18-6-adapter-interface]]
+- [[21-9-query-flow]]
+- [[22-10-queryresult-structure]]
+- [[README]]
 

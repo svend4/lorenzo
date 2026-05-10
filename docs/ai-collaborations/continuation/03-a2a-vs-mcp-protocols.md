@@ -76,3 +76,19 @@ python scripts/improve_semantic_search.py --query "A2A vs MCP ансамбль H
 - [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md)
 - [10-architecture-rfc](10-architecture-rfc.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-shared-memory-between-agents](01-shared-memory-between-agents.md)
+- [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md)
+- [07-vs-notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
+- _...ещё 3_
+

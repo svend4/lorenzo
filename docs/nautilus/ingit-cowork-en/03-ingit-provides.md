@@ -197,3 +197,19 @@ python scripts/improve_semantic_search.py --query "3 What InGit Provides That Co
 - [04-symbiotic-architecture](04-symbiotic-architecture.md)
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [04-symbiotic-architecture](04-symbiotic-architecture.md)
+- [05-four-integration-paths](05-four-integration-paths.md)
+- [06-refined-ingit-scope](06-refined-ingit-scope.md)
+- _...ещё 2_
+

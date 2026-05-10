@@ -60,3 +60,19 @@ python scripts/improve_semantic_search.py --query "Метафора в твое�
 - [3-crdt-self-hosted](3-crdt-self-hosted.md)
 - [3-discovery-research](../final-ensembles/3-discovery-research.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [concepts](../../glossary/concepts.md)
+- [6-bonus-rram-memristor](../hardware-pairs/6-bonus-rram-memristor.md)
+- [7-metaphor](../hardware-pairs/7-metaphor.md)
+- _...ещё 3_
+

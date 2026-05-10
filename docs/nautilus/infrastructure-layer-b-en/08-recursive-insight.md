@@ -96,3 +96,19 @@ python scripts/improve_semantic_search.py --query "The Recursive Insight"
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
 - [01-missing-middle-layer](01-missing-middle-layer.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [09-what-industry-will-build](09-what-industry-will-build.md)
+- [10-what-not-solved](10-what-not-solved.md)
+- [12-closing](12-closing.md)
+- _...ещё 1_
+

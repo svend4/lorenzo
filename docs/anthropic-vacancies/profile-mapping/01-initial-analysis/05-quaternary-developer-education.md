@@ -64,3 +64,19 @@ python scripts/improve_semantic_search.py --query "Quarternary match Developer E
 - [07-unique-niche-eu-legal-infra](07-unique-niche-eu-legal-infra.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [01-profile-five-layers](01-profile-five-layers.md)
+- [02-primary-fde](02-primary-fde.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
+- _...ещё 5_
+

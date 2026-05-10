@@ -64,3 +64,19 @@ python scripts/improve_semantic_search.py --query "Сводная таблица
 - [25-30-extended](25-30-extended.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](../combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+- [21-legal-corpus-analytics-at-scale](../combinations/21-legal-corpus-analytics-at-scale.md)
+- [22-russian-international-oss-stack](../combinations/22-russian-international-oss-stack.md)
+- _...ещё 6_
+

@@ -54,3 +54,19 @@ python scripts/improve_semantic_search.py --query "Вопрос Nautilus пас�
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-two-nautiluses](../nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
+- [README](README.md)
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
+- _...ещё 2_
+

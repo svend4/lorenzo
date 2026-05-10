@@ -1,11 +1,32 @@
 ---
 title: "Часто задаваемые вопросы (FAQ)"
 tags:
+  - memory
+  - rag
+  - orchestration
+  - security
+  - knowledge
+  - ingestion
+  - architecture
+  - roadmap
+  - anthropic
+  - collaboration
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Часто задаваемые вопросы (FAQ)
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> _Извлечено: 177 вопросов и ответов_
+**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, MemNet
+
+---
 
 <!-- toc -->
 ## Содержание
@@ -48,7 +69,9 @@ date: 2026-04-29
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
 
 
-_Извлечено: 125 вопросов и ответов_
+
+
+_Извлечено: 177 вопросов и ответов_
 
 
 ## Архитектура
@@ -211,4 +234,32 @@ _→ [[179-10-open-questions]]_
 Как работает ответственность, когда агент совершает существенные ошибки? Какие юрисдикционные правила применяются, когда агент представляет человека в стране A, общающегося со стороной в стране B? Как существующие регуляции (GDPR, HIPAA, AI Act) применяются конкретно к представительским агентам?
 
 _→ [[200-10-открытые-вопросы]]_
+
+
+<!-- see-also -->
+
+---
+
+
+## Использование
+
+```bash
+python scripts/improve_faq.py
+```
+
+## Смотрите также
+- [[179-10-open-questions]]
+- [[10-open-questions]]
+- [[CLUSTERS]]
+- [[SEARCH]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
 

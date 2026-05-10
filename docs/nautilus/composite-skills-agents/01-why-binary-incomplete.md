@@ -141,3 +141,19 @@ python scripts/improve_semantic_search.py --query "1 Why the Binary View Is Inco
 - [13-closing](13-closing.md)
 - [266-13-closing](../../02-anthropic-vacancies/266-13-closing.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-twenty-one-teachers-pattern](02-twenty-one-teachers-pattern.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+- _...ещё 2_
+

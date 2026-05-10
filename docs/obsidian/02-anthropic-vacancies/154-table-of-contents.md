@@ -3,16 +3,25 @@ title: "Table of Contents"
 tags:
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Table of Contents
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > 3. **Why Existing Solutions Fail**
 
 ---
 <!-- tags: roadmap -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -36,7 +45,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[169-table-of-contents]] (сходство 0.17)
 
 
@@ -44,7 +53,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
+## Смотрите также
 - [[169-table-of-contents]]
 - [[28-appendix-a-minimal-working-example]]
 - [[137-table-of-contents]]
@@ -80,7 +95,7 @@ date: 2026-04-29
 - [[169-table-of-contents|Table of Contents]] _29%_
 - [[41-compatibility-level|Compatibility Level]] _29%_
 - [[44-for-the-curious-philosophy|For the Curious: Philosophy]] _29%_
-- [[123-portal-mcp-py|portal-mcp.py]] _25%_
+- portal-[[123-portal-mcp-py|mcp.py]] _25%_
 - [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] _25%_
 - [[54-for-the-curious-philosophy|For the Curious: Philosophy]] _25%_
 ## Связанные документы
@@ -93,3 +108,19 @@ date: 2026-04-29
 - [[44-for-the-curious-philosophy|For the Curious: Philosophy]] _29%_
 - [[169-table-of-contents|Table of Contents]] _25%_
 - [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- 127-подключение-к-[[127-подключение-к-claude-desktop|claude-desktop]]
+- [[132-planned-v0-2-0]]
+- [[137-table-of-contents]]
+- [[149-appendix-b-summary-of-contributions]]
+- [[153-executive-summary]]
+- [[155-1-problem-statement]]
+- [[156-2-target-populations]]
+- [[157-3-why-existing-solutions-fail]]
+- _...ещё 10_
+

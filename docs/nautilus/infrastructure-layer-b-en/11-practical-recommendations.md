@@ -90,3 +90,16 @@ python scripts/improve_semantic_search.py --query "Practical Recommendations for
 - [07-specific-case](07-specific-case.md)
 - [06-existing-approximations](06-existing-approximations.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [07-practical-first-steps](../ingit-cowork-en/07-practical-first-steps.md)
+

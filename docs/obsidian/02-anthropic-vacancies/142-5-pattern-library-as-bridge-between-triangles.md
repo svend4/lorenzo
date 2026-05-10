@@ -4,7 +4,7 @@ tags:
   - security
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 5. Pattern Library as Bridge Between Triangles
@@ -164,7 +164,7 @@ efficiently between levels.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[148-appendix-a-glossary]] (сходство 0.17)
 - [[139-2-the-double-triangle-architecture]] (сходство 0.15)
 - [[144-7-open-questions]] (сходство 0.14)
@@ -174,7 +174,7 @@ efficiently between levels.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[148-appendix-a-glossary]]
 - [[139-2-the-double-triangle-architecture]]
 - [[144-7-open-questions]]
@@ -215,3 +215,18 @@ efficiently between levels.
 - [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] _21%_
 - [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _21%_
 - [[144-7-open-questions|7. Open Questions]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[136-abstract]]
+- [[140-3-three-inter-layer-protocols]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[143-6-four-deployment-domains]]
+- [[144-7-open-questions]]
+- [[145-8-call-to-action]]
+- [[148-appendix-a-glossary]]
+- [[README]]
+

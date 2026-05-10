@@ -83,3 +83,19 @@ python scripts/improve_semantic_search.py --query "Profession specific workflows
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-hw-nl2workflow](05-hw-nl2workflow.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- [09-federated-platform](09-federated-platform.md)
+- _...ещё 2_
+

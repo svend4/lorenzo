@@ -5,10 +5,16 @@ tags:
   - rag
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Вопрос: fallback-ratio как критический или осмысленный?
+
+<!-- toc-auto -->
+## Contents
+
+- [Вопрос: fallback-ratio как критический или осмысленный?](#вопрос-fallback-ratio-как-критический-или-осмысленный)
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -82,7 +88,7 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[123-portal-mcp-py]]
 - [[82-7-portalentry-structure]]
 - [[116-9-checklist-применения-методологии]]
@@ -93,8 +99,19 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[82-7-portalentry-structure]] (сходство 0.21)
 - [[123-portal-mcp-py]] (сходство 0.19)
 - [[19-7-portalentry-structure]] (сходство 0.19)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
 

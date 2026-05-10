@@ -227,3 +227,16 @@ python scripts/improve_semantic_search.py --query "3 Что InGit обеспеч
 - [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
 - [06-utochnyonnyy-obyom-ingit](06-utochnyonnyy-obyom-ingit.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
+- [README](README.md)
+

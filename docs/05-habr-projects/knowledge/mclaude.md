@@ -29,6 +29,24 @@ _Обновлено: 2026-05-10_
 
 # mclaude
 
+<!-- toc -->
+## Содержание
+
+- [Статус](#статус)
+- [Contents](#contents)
+- [Профиль проекта](#профиль-проекта)
+- [Описание](#описание)
+- [Ключевые компоненты](#ключевые-компоненты)
+- [Синергия со Svyazi[^svyazi] 2.0](#синергия-со-svyazi-20)
+- [Позиция в экосистеме](#позиция-в-экосистеме)
+- [Сравнение с аналогами](#сравнение-с-аналогами)
+- [Контакт](#контакт)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -50,7 +68,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbox, parallel]
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, Yodoca, agent-memory-mcp
+**Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], Yodoca[^yodoca], agent-memory-mcp
 
 ---
 
@@ -122,7 +140,39 @@ python scripts/improve_semantic_search.py --query "mclaude"
 - [Rufler](rufler.md) — YAML-декларативный запуск роя агентов (альтернативный подход к оркестрации)
 - [AgentFS](agentfs.md) — файловое ядро для одного агента, mclaude координирует несколько
 - [knowledge-space](knowledge-space.md) — база знаний, которую mclaude агенты читают параллельно
-- [agent-memory-mcp](../memory/agent-memory-mcp.md) — shared memory через MCP между сессиями
+- [agent-memory-mcp](../memory/agent-memory-mcp.md) — shared memory через MCP[^mcp] между сессиями
 
 ---
 _Создано: 2026-05-10_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [README](README.md)
+- [agentfs](agentfs.md)
+- [knowledge-space](knowledge-space.md)
+- [rufler](rufler.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^rufler]: OSS-проект: оркестратор AI-агентов
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)

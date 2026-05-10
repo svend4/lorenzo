@@ -4,12 +4,34 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 20. ADR-002: Q6 as First-Class Protocol Concept
 
+<!-- toc-auto -->
+## Contents
+
+- [20. ADR-002: Q6 as First-Class Protocol Concept](#20-adr-002-q6-as-first-class-protocol-concept)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > **Status**: Accepted (new in v1.1)
 
 ---
@@ -51,7 +73,7 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[83-8-q6-space-normative]] (сходство 0.11)
 - [[26-14-adr-001-federation-over-merging]] (сходство 0.10)
 
@@ -60,7 +82,13 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "20 ADR 002 Q6 as First Class Protocol"
+```
+
+## Смотрите также
 - [[26-14-adr-001-federation-over-merging]]
 - [[83-8-q6-space-normative]]
 - [[96-21-adr-003-five-onboarding-paths-as-equal-rank]]
@@ -97,3 +125,14 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 - [[104-appendix-c-references|Appendix C: References]] _17%_
 - [[40-bridges|Bridges]] _17%_
 - [[60-bridges|Bridges]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[104-appendix-c-references]]
+- [[26-14-adr-001-federation-over-merging]]
+- [[94-19-adr-001-federation-over-merging]]
+- [[README]]
+

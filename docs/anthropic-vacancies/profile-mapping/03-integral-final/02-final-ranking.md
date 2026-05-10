@@ -1,5 +1,15 @@
 # Финальное ранжирование Anthropic-ролей по частичному покрытию
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -63,4 +73,18 @@ python scripts/improve_semantic_search.py --query "Финальное ранжи
 - [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
 - 03-revised-[anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
 - [04-stronger-paths-outside-anthropic](04-stronger-paths-outside-anthropic.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [02-three-overlapping-identities](../02-reanalysis/02-three-overlapping-identities.md)
+- [README](README.md)
+- [reading-paths](../../../reading-paths.md)
 

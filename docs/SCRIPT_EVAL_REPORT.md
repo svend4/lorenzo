@@ -16,12 +16,12 @@
 - [1. Общая картина: что изменилось](#1-общая-картина-что-изменилось)
 - [2. Диалог-сценки: скрипты в действии](#2-диалог-сценки-скрипты-в-действии)
   - [Сценка А: Утренний пайплайн](#сценка-а-утренний-пайплайн)
-  - [Сценка Б: Работа с Card Index](#сценка-б-работа-с-card-index)
+  - [Сценка Б: Работа с CardIndex](#сценка-б-работа-с-cardindex)
   - [Сценка В: Создание нового скрипта через кодогенерацию](#сценка-в-создание-нового-скрипта-через-кодогенерацию)
   - [Сценка Г: Поиск по базе знаний](#сценка-г-поиск-по-базе-знаний)
 - [3. Живые результаты тестирования](#3-живые-результаты-тестирования)
   - [3.1 Рецептная система (improve_recipe.py)](#31-рецептная-система-improve_recipepy)
-  - [3.2 Card Index (improve_card_index.py)](#32-card-index-improve_card_indexpy)
+  - [3.2 CardIndex (improve_card_index.py)](#32-cardindex-improve_card_indexpy)
   - [3.3 Поиск: три уровня](#33-поиск-три-уровня)
   - [3.4 Оркестратор (improve_run_all.py)](#34-оркестратор-improve_run_allpy)
   - [3.5 Метаскрипт (improve_self.py)](#35-метаскрипт-improve_selfpy)
@@ -100,7 +100,7 @@ $ python scripts/improve_recipe.py --run dashboard
 
 ---
 
-### Сценка Б: Работа с Card Index
+### Сценка Б: Работа с CardIndex
 
 > **Контекст:** аналитик исследует проекты Habr и хочет построить граф знаний.
 
@@ -280,7 +280,7 @@ $ python scripts/improve_card_index.py --search "Yodoca память"
 
 ---
 
-### 3.2 Card Index (improve_card_index.py)
+### 3.2 CardIndex (improve_card_index.py)
 
 Протестирован на секции `05-habr-projects` (7 файлов):
 
@@ -616,4 +616,15 @@ BM25 — точный, но не понимает синонимы. «Агент
 - [DECISIONS](DECISIONS.md)
 - [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
 - [CHANGELOG](CHANGELOG.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
 

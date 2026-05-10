@@ -1,5 +1,15 @@
 # LAYER 7: Coordination engine
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -413,4 +423,20 @@ python scripts/improve_semantic_search.py --query "LAYER 7 Coordination engine"
 - [11-difficulties-and-recommendations](../specification/11-difficulties-and-recommendations.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-naming-rationale-lorenzo-medici](02-naming-rationale-lorenzo-medici.md)
+- [README](README.md)
+- [08-current-session-poc](../phased-deployment/08-current-session-poc.md)
+- _...ещё 2_
 

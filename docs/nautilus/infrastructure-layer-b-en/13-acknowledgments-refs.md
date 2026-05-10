@@ -157,3 +157,16 @@ placed where infrastructure considerations naturally fit.
 - [274-the-missing-middle-layer-between-chat-and-code](../../02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
 - [01-missing-middle-layer](01-missing-middle-layer.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-intro](00-intro.md)
+- [README](README.md)
+

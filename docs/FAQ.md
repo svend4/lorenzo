@@ -1,60 +1,23 @@
 # Часто задаваемые вопросы (FAQ)
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+<!-- toc-auto -->
+## Содержание
+
+- Основной раздел
+
+
+<!-- summary -->
+> Часто задаваемые вопросы (FAQ) — документ базы знаний репозитория Lorenzo.
+
+<!-- tags: docs, reference, lorenzo -->
+
+> [!NOTE]
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
 
 <!-- alert-added -->
 
-<!-- summary -->
-> _Извлечено: 177 вопросов и ответов_
-**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, MemNet
 
----
-
-<!-- toc -->
-## Содержание
-
-- [Архитектура](#архитектура)
-  - [Что такое MCP?](#что-такое-mcp)
-  - [Каков статус готовности MVP?](#каков-статус-готовности-mvp)
-  - [Какой вариант резонирует?](#какой-вариант-резонирует)
-  - [Что это такое?](#что-это-такое)
-  - [Принимаем эту architecture как Lorenzo vision (с моими caveats)?](#принимаем-эту-architecture-как-lorenzo-vision-с-моими-caveats)
-- [MVP/Запуск](#mvpзапуск)
-  - [С чего начать?](#с-чего-начать)
-  - [Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать?](#сейчас-для-этой-конкретной-сессии-с-семью-документами-что-вы-хотите-сделать)
-- [Компоненты](#компоненты)
-  - [Какова лицензия проекта?](#какова-лицензия-проекта)
-  - [Как связаться с авторами компонентов?](#как-связаться-с-авторами-компонентов)
-- [Интеграция](#интеграция)
-  - [Какой направление приоритетно?](#какой-направление-приоритетно)
-  - [Это реализуется существующими tools?](#это-реализуется-существующими-tools)
-  - [Является ли наш Nautilus Portal Protocol still valuable? Или HMP makes it redundant?](#является-ли-наш-nautilus-portal-protocol-still-valuable-или-hmp-makes-it-redundant)
-  - [Question Set 4: Your resources 4a) Budget для setup (€500-1500 одноразовый)?](#question-set-4-your-resources-4a-budget-для-setup-500-1500-одноразовый)
-  - [Набор вопросов 4: Ваши ресурсы 4a) Бюджет для setup (€500-1500 одноразово)?](#набор-вопросов-4-ваши-ресурсы-4a-бюджет-для-setup-500-1500-одноразово)
-  - [Why "Nautilus"?](#why-nautilus)
-  - [Did creator approve final attribution?](#did-creator-approve-final-attribution)
-- [Лицензия](#лицензия)
-  - [Какой подход resonates? Integration в OKWF document, или separate short paper?](#какой-подход-resonates-integration-в-okwf-document-или-separate-short-paper)
-  - [Question 5: Каковы limits Lorenzo's authority?](#question-5-каковы-limits-lorenzos-authority)
-- [Общее](#общее)
-  - [Что такое Svyazi 2.0?](#что-такое-svyazi-20)
-  - [9.1. Перед началом (Pre-Phase A) - [ ] Документ действительно критически важен (см. §4.1)?](#91-перед-началом-pre-phase-a---документ-действительно-критически-важен-см-41)
-  - [Что из этого feels aligned с вашими current capabilities и interest?](#что-из-этого-feels-aligned-с-вашими-current-capabilities-и-interest)
-  - [10.3. Legal Questions What's the legal status of agent communications?](#103-legal-questions-whats-the-legal-status-of-agent-communications)
-  - [10.4. Social Questions Will representative agents reduce or increase inequality?](#104-social-questions-will-representative-agents-reduce-or-increase-inequality)
-  - [How do we ensure access for those who cannot pay?](#how-do-we-ensure-access-for-those-who-cannot-pay)
-  - [What's the legal status of agent communications?](#whats-the-legal-status-of-agent-communications)
-  - [10.3. Правовые Вопросы Каков правовой статус коммуникаций агента? Они обязательны для принципала?](#103-правовые-вопросы-каков-правовой-статус-коммуникаций-агента-они-обязательны-для-принципала)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
-
-
-_Извлечено: 177 вопросов и ответов_
+_Извлечено: 238 вопросов и ответов_
 
 
 ## Архитектура
@@ -92,12 +55,6 @@ _→ [06-conclusion-deserves-attention](lorenzo-agent/operationalized/06-conclus
 
 Начните с Executive Summary (docs/01-svyazi/01-executive-summary.md), затем MVP Planning (07-mvp-planning.md) и Roadmap (12-roadmap.md).
 
-### Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать?
-
-Вариант 1. Закрыть сессию, commitнуть все семь документов в Nautilus repository, начать использовать GitHub Discussions для дальнейших observations и refinements. Pragmatic compromise.
-
-_→ [272-appendix-d-connection-diagram](02-anthropic-vacancies/272-appendix-d-connection-diagram.md)_
-
 
 ## Компоненты
 
@@ -109,14 +66,14 @@ _→ [272-appendix-d-connection-diagram](02-anthropic-vacancies/272-appendix-d-c
 
 Контакты в docs/CONTACTS.md. Авторы: kksudo (Андрей) — AgentFS, spbmolot (Виталий) — ряд Habr-проектов. Используйте шаблон docs/templates/contact-outreach.md.
 
+### Открытые вопросы 1. Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)?
+
+2. Планируется ли поддержка внешних источников (CardIndex / doc-ingestion)? 3. Как memory write API взаимодействует с внешними источниками? 4. Планируется ли поддержка batch-ingestion из документов?
+
+_→ [agent-memory-mcp](05-habr-projects/memory/agent-memory-mcp.md)_
+
 
 ## Интеграция
-
-### Какой направление приоритетно?
-
-Хорошо. Пишу portal-mcp.py — MCP wrapper над Nautilus Portal. Это обёртка, которая экспонирует движок портала как tools для LLM через Model Context Protocol.
-
-_→ [122-глоссарий](02-anthropic-vacancies/122-глоссарий.md)_
 
 ### Это реализуется существующими tools?
 
@@ -144,7 +101,7 @@ _→ [343-lorenzo-catalyst-agent-глубокая-проработка-спец�
 
 ### Why "Nautilus"?
 
-A [nautilus](05-habr-projects/memory/memnet.md) shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
+A [nautilus](svyazi-2-0/components/memnet.md) shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
 
 _→ [68-about](02-anthropic-vacancies/68-about.md)_
 
@@ -157,17 +114,17 @@ _→ [11-difficulties-and-recommendations](lorenzo-agent/specification/11-diffic
 
 ## Лицензия
 
-### Какой подход resonates? Integration в OKWF document, или separate short paper?
-
-И еще один thoughtful вопрос для consideration: в вашем личном случае , как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ва
-
-_→ [165-closing](02-anthropic-vacancies/165-closing.md)_
-
 ### Question 5: Каковы limits Lorenzo's authority?
 
 Critical question для ethical design.
 
 _→ [05-q5-authority-limits](lorenzo-agent/specification/05-q5-authority-limits.md)_
+
+### Какой подход resonates? Integration в OKWF document, или separate short paper?
+
+И еще один thoughtful вопрос для consideration: в вашем личном случае, как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ваш
+
+_→ [01-response](nautilus/community-discussions/voiceless-contributors/01-response.md)_
 
 
 ## Общее
@@ -181,12 +138,6 @@ Svyazi 2.0 — это экосистема из 20+ взаимосвязанны
 - [ ] Есть время на Фазу C в течение 2 недель? - [ ] Две ветки будут работать на **полностью независимых** prompts (не «продолжи вариант A»)?
 
 _→ [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)_
-
-### Что из этого feels aligned с вашими current capabilities и interest?
-
-И один дополнительный вопрос, который поможет calibrate: когда вы говорите о «гнезде для больших птиц», вы видите себя в роли:
-
-_→ [150-appendix-c-version-history](02-anthropic-vacancies/150-appendix-c-version-history.md)_
 
 ### 10.3. Legal Questions What's the legal status of agent communications?
 
@@ -218,21 +169,20 @@ _→ [179-10-open-questions](02-anthropic-vacancies/179-10-open-questions.md)_
 
 _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)_
 
+### 10.4. Социальные Вопросы Снизят ли представительские агенты или увеличат неравенство?
 
-<!-- see-also -->
+Что происходит с профессиями, в настоящее время предоставляющими представительские услуги (юристы, агенты, посредники), когда AI-агенты становятся распространёнными? Какие новые социальные динамики возникают, когда большинство взаимодействий включают опосредование агентами? Как мы сохраняем прямую человеческую связь в мире опосредованной коммуникации?
 
----
+_→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)_
+
 
 
 ## Использование
 
 ```bash
-python scripts/improve_faq.py
+python scripts/improve_run_all.py --group reports
 ```
 
-## Смотрите также
-- [179-10-open-questions](02-anthropic-vacancies/179-10-open-questions.md)
-- [10-open-questions](nautilus/representative-agent-layer-en/10-open-questions.md)
-- [CLUSTERS](CLUSTERS.md)
-- [SEARCH](SEARCH.md)
-
+```bash
+python scripts/improve_semantic_search.py --query "FAQ"
+```

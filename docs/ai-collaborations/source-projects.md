@@ -156,3 +156,19 @@ python scripts/improve_semantic_search.py --query "Source projects все Хаб
 - [5-voice-local-memory](../habr-unique-projects/deep-pairs/5-voice-local-memory.md)
 - [4-summary-authors](../habr-unique-projects/final-ensembles/4-summary-authors.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [authors-by-name](../glossary/authors-by-name.md)
+- [components-by-name](../glossary/components-by-name.md)
+- _...ещё 1_
+

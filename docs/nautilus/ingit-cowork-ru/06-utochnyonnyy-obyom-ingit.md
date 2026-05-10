@@ -134,3 +134,18 @@ python scripts/improve_semantic_search.py --query "6 Уточнённый объ
 - [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
 - [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
+- [03-chto-ingit-obespechivaet](03-chto-ingit-obespechivaet.md)
+- [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
+- [README](README.md)
+

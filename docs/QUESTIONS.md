@@ -1,663 +1,35 @@
 # Вопросы и открытые темы из базы знаний
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> Всего: **2520** | Файлов: **1211**
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, Legal RAG, Hybrid RAG
-
----
-
-<!-- toc -->
+<!-- toc-auto -->
 ## Содержание
 
-- [Сводка](#сводка)
-- [🔓 Открытый вопрос (16)](#открытый-вопрос-16)
-  - [`14-limitations.md` (1)](#14-limitationsmd-1)
-  - [`144-7-open-questions.md` (1)](#144-7-open-questionsmd-1)
-  - [`248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (1)](#248-приложение-c-архитектура-быстрого-старта-для-sgb-аmd-1)
-  - [`278-why-this-hasn-t-been-built.md` (1)](#278-why-this-hasn-t-been-builtmd-1)
-  - [`350-твои-языки-и-культурные-nuances.md` (1)](#350-твои-языки-и-культурные-nuancesmd-1)
-  - [`356-твой-workflow.md` (1)](#356-твой-workflowmd-1)
-  - [`14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` (1)](#14-ограничения-лицензии-и-что-пока-лучше-не-склеиватьmd-1)
-  - [`ACTION_ITEMS.md` (1)](#action_itemsmd-1)
-  - [`CONCEPTS.md` (1)](#conceptsmd-1)
-  - [`TECH_RADAR.md` (1)](#tech_radarmd-1)
-  - [`06-yazyki-kultura.md` (1)](#06-yazyki-kulturamd-1)
-  - [`12-workflow.md` (1)](#12-workflowmd-1)
-  - [`03-the-spectrum.md` (1)](#03-the-spectrummd-1)
-  - [`07-open-questions.md` (1)](#07-open-questionsmd-1)
-  - [`05-why-not-built.md` (1)](#05-why-not-builtmd-1)
-  - [`license-tree.md` (1)](#license-treemd-1)
-- [❓ Вопрос (1961)](#вопрос-1961)
-  - [`TABLES.md` (231)](#tablesmd-231)
-  - [`QA.md` (145)](#qamd-145)
-  - [`OUTLINE.md` (144)](#outlinemd-144)
-  - [`EMPTY_SECTIONS.md` (70)](#empty_sectionsmd-70)
-  - [`342-что-такое-вариант-c-concept-document-для-anthropic.md` (51)](#342-что-такое-вариант-c-concept-document-для-anthropicmd-51)
-  - [`343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (43)](#343-lorenzo-catalyst-agent-глубокая-проработка-специфиmd-43)
-  - [`01-интегральный-анализ-профиля-svend4.md` (41)](#01-интегральный-анализ-профиля-svend4md-41)
-  - [`FAQ.md` (35)](#faqmd-35)
-  - [`READABILITY.md` (34)](#readabilitymd-34)
-  - [`READING_TIME.md` (34)](#reading_timemd-34)
-  - [`11-difficulties-and-recommendations.md` (27)](#11-difficulties-and-recommendationsmd-27)
-  - [`QA.md` (22)](#qamd-22)
-  - [`01-response-en.md` (19)](#01-response-enmd-19)
-  - [`200-10-открытые-вопросы.md` (18)](#200-10-открытые-вопросыmd-18)
-  - [`ACTION_ITEMS.md` (18)](#action_itemsmd-18)
-  - [`SITEMAP.md` (18)](#sitemapmd-18)
-  - [`10-otkrytye-voprosy.md` (18)](#10-otkrytye-voprosymd-18)
-  - [`QA.md` (17)](#qamd-17)
-  - [`QA.md` (17)](#qamd-17)
-  - [`QA.md` (17)](#qamd-17)
-  - [`QA.md` (15)](#qamd-15)
-  - [`341-приложение-c-образец-спецификаций-инструментов-ing.md` (14)](#341-приложение-c-образец-спецификаций-инструментов-ingmd-14)
-  - [`READING_ORDER.md` (13)](#reading_ordermd-13)
-  - [`00-question-innovations-transitions.md` (12)](#00-question-innovations-transitionsmd-12)
-  - [`13-contacts.md` (11)](#13-contactsmd-11)
-  - [`13-контактная-стратегия-и-узкие-вопросы-для-авторов.md` (11)](#13-контактная-стратегия-и-узкие-вопросы-для-авторовmd-11)
-  - [`QA.md` (11)](#qamd-11)
-  - [`CONCEPTS.md` (11)](#conceptsmd-11)
-  - [`PROCESSING_GUIDE.md` (11)](#processing_guidemd-11)
-  - [`133-обратная-связь.md` (10)](#133-обратная-связьmd-10)
-  - [`165-closing.md` (10)](#165-closingmd-10)
-  - [`QA.md` (10)](#qamd-10)
-  - [`DUPLICATES.md` (10)](#duplicatesmd-10)
-  - [`150-appendix-c-version-history.md` (9)](#150-appendix-c-version-historymd-9)
-  - [`171-2-historical-precedents-agents-as-civilizational-i.md` (9)](#171-2-historical-precedents-agents-as-civilizational-imd-9)
-  - [`179-10-open-questions.md` (9)](#179-10-open-questionsmd-9)
-  - [`QA.md` (9)](#qamd-9)
-  - [`10-open-questions.md` (9)](#10-open-questionsmd-9)
-  - [`144-7-open-questions.md` (8)](#144-7-open-questionsmd-8)
-  - [`248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (8)](#248-приложение-c-архитектура-быстрого-старта-для-sgb-аmd-8)
-  - [`283-what-this-document-doesn-t-solve.md` (8)](#283-what-this-document-doesn-t-solvemd-8)
-  - [`SIMILAR_PASSAGES.md` (8)](#similar_passagesmd-8)
-  - [`01-three-related-themes.md` (8)](#01-three-related-themesmd-8)
-  - [`192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (7)](#192-2-исторические-прецеденты-агенты-как-цивилизационнmd-7)
-  - [`366-технический-stack-svyazi-2-0-foundation.md` (7)](#366-технический-stack-svyazi-2-0-foundationmd-7)
-  - [`SUMMARIES.md` (7)](#summariesmd-7)
-  - [`TIMELINE.md` (7)](#timelinemd-7)
-  - [`07-open-questions.md` (7)](#07-open-questionsmd-7)
-  - [`02-methodology.md` (6)](#02-methodologymd-6)
-  - [`00-intro.md` (6)](#00-intromd-6)
-  - [`254-1-why-the-binary-view-is-incomplete.md` (6)](#254-1-why-the-binary-view-is-incompletemd-6)
-  - [`264-11-open-questions.md` (6)](#264-11-open-questionsmd-6)
-  - [`276-the-two-layer-stack-as-it-exists.md` (6)](#276-the-two-layer-stack-as-it-existsmd-6)
-  - [`277-what-s-missing-layer-b.md` (6)](#277-what-s-missing-layer-bmd-6)
-  - [`280-the-specific-case-in-front-of-us.md` (6)](#280-the-specific-case-in-front-of-usmd-6)
-  - [`285-closing.md` (6)](#285-closingmd-6)
-  - [`365-развёрнутый-анализ-внуковой-комбинации.md` (6)](#365-развёрнутый-анализ-внуковой-комбинацииmd-6)
-  - [`REPORT.md` (6)](#reportmd-6)
-  - [`05-polymath-project-tao-comparison.md` (6)](#05-polymath-project-tao-comparisonmd-6)
-  - [`01-response.md` (6)](#01-responsemd-6)
-  - [`01-why-binary-incomplete.md` (6)](#01-why-binary-incompletemd-6)
-  - [`01-response.md` (6)](#01-responsemd-6)
-  - [`narrow-questions.md` (6)](#narrow-questionsmd-6)
-  - [`115-8-ограничения-и-открытые-вопросы.md` (5)](#115-8-ограничения-и-открытые-вопросыmd-5)
-  - [`122-глоссарий.md` (5)](#122-глоссарийmd-5)
-  - [`138-1-why-single-triangle-models-are-incomplete.md` (5)](#138-1-why-single-triangle-models-are-incompletemd-5)
-  - [`142-5-pattern-library-as-bridge-between-triangles.md` (5)](#142-5-pattern-library-as-bridge-between-trianglesmd-5)
-  - [`253-table-of-contents.md` (5)](#253-table-of-contentsmd-5)
-  - [`257-4-the-sub-agent-registry.md` (5)](#257-4-the-sub-agent-registrymd-5)
-  - [`266-13-closing.md` (5)](#266-13-closingmd-5)
-  - [`272-appendix-d-connection-diagram.md` (5)](#272-appendix-d-connection-diagrammd-5)
-  - [`278-why-this-hasn-t-been-built.md` (5)](#278-why-this-hasn-t-been-builtmd-5)
-  - [`281-the-recursive-insight.md` (5)](#281-the-recursive-insightmd-5)
-  - [`286-acknowledgments.md` (5)](#286-acknowledgmentsmd-5)
-  - [`308-table-of-contents.md` (5)](#308-table-of-contentsmd-5)
-  - [`329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (5)](#329-3-что-ingit-обеспечивает-чего-cowork-не-хватаетmd-5)
-  - [`00-intro.md` (5)](#00-intromd-5)
-  - [`CONTACTS.md` (5)](#contactsmd-5)
-  - [`GITHUB_ISSUES.md` (5)](#github_issuesmd-5)
-  - [`00-question-rephrasing.md` (5)](#00-question-rephrasingmd-5)
-  - [`06-angel-vs-demon-duality.md` (5)](#06-angel-vs-demon-dualitymd-5)
-  - [`13-reprioritization.md` (5)](#13-reprioritizationmd-5)
-  - [`06-conclusion-deserves-attention.md` (5)](#06-conclusion-deserves-attentionmd-5)
-  - [`QA.md` (5)](#qamd-5)
-  - [`04-sub-agent-registry.md` (5)](#04-sub-agent-registrymd-5)
-  - [`11-open-questions.md` (5)](#11-open-questionsmd-5)
-  - [`01-strategic-significance.md` (5)](#01-strategic-significancemd-5)
-  - [`02-historical-precedents.md` (5)](#02-historical-precedentsmd-5)
-  - [`02-istoricheskie-pretsedenty.md` (5)](#02-istoricheskie-pretsedentymd-5)
-  - [`03-chunking.md` (5)](#03-chunkingmd-5)
-  - [`02-общий-план-развития-nautilus-portal-protocol.md` (4)](#02-общий-план-развития-nautilus-portal-protocolmd-4)
-  - [`104-appendix-c-references.md` (4)](#104-appendix-c-referencesmd-4)
-  - [`156-2-target-populations.md` (4)](#156-2-target-populationsmd-4)
-  - [`168-abstract.md` (4)](#168-abstractmd-4)
-  - [`169-table-of-contents.md` (4)](#169-table-of-contentsmd-4)
-  - [`170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (4)](#170-1-the-cinderella-syndrome-why-quality-stays-invisimd-4)
-  - [`221-10-open-questions.md` (4)](#221-10-open-questionsmd-4)
-  - [`258-5-configuration-how-principals-build-their-ensembl.md` (4)](#258-5-configuration-how-principals-build-their-ensemblmd-4)
-  - [`293-почему-это-не-было-построено.md` (4)](#293-почему-это-не-было-построеноmd-4)
-  - [`309-1-the-cowork-discovery-and-why-it-changes-everythi.md` (4)](#309-1-the-cowork-discovery-and-why-it-changes-everythimd-4)
-  - [`319-acknowledgments.md` (4)](#319-acknowledgmentsmd-4)
-  - [`326-содержание.md` (4)](#326-содержаниеmd-4)
-  - [`14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` (4)](#14-ограничения-лицензии-и-что-пока-лучше-не-склеиватьmd-4)
-  - [`KNOWLEDGE_MAP.md` (4)](#knowledge_mapmd-4)
-  - [`VERSION_DIFF.md` (4)](#version_diffmd-4)
-  - [`02-four-structural-blockers.md` (4)](#02-four-structural-blockersmd-4)
-  - [`00-question-mmorpg-for-programmers.md` (4)](#00-question-mmorpg-for-programmersmd-4)
-  - [`01-response.md` (4)](#01-responsemd-4)
-  - [`03-the-spectrum.md` (4)](#03-the-spectrummd-4)
-  - [`01-cowork-discovery.md` (4)](#01-cowork-discoverymd-4)
-  - [`05-which-combination-more-valuable.md` (4)](#05-which-combination-more-valuablemd-4)
-  - [`10-open-questions.md` (4)](#10-open-questionsmd-4)
-  - [`09-limitations-open-questions.md` (4)](#09-limitations-open-questionsmd-4)
-  - [`07-mvp-planning.md` (3)](#07-mvp-planningmd-3)
-  - [`106-tl-dr.md` (3)](#106-tl-drmd-3)
-  - [`110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` (3)](#110-вопрос-fallback-ratio-как-критический-или-осмысленmd-3)
-  - [`136-abstract.md` (3)](#136-abstractmd-3)
-  - [`140-3-three-inter-layer-protocols.md` (3)](#140-3-three-inter-layer-protocolsmd-3)
-  - [`155-1-problem-statement.md` (3)](#155-1-problem-statementmd-3)
-  - [`190-содержание.md` (3)](#190-содержаниеmd-3)
-  - [`191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (3)](#191-1-синдром-золушки-почему-качество-остаётся-невидимmd-3)
-  - [`207-приложение-c-образцы-случаев-использования-в-детал.md` (3)](#207-приложение-c-образцы-случаев-использования-в-деталmd-3)
-  - [`252-abstract.md` (3)](#252-abstractmd-3)
-  - [`255-2-the-twenty-one-teachers-pattern.md` (3)](#255-2-the-twenty-one-teachers-patternmd-3)
-  - [`284-practical-recommendations-for-the-current-project.md` (3)](#284-practical-recommendations-for-the-current-projectmd-3)
-  - [`296-рекурсивное-прозрение.md` (3)](#296-рекурсивное-прозрениеmd-3)
-  - [`303-приложение-визуализация-позиции-в-серии.md` (3)](#303-приложение-визуализация-позиции-в-серииmd-3)
-  - [`307-abstract.md` (3)](#307-abstractmd-3)
-  - [`327-1-открытие-cowork-и-почему-это-меняет-всё.md` (3)](#327-1-открытие-cowork-и-почему-это-меняет-всёmd-3)
-  - [`05-план-прототипа-и-возможные-контакты.md` (3)](#05-план-прототипа-и-возможные-контактыmd-3)
-  - [`03-nautilus-B-meta-orchestrator.md` (3)](#03-nautilus-b-meta-orchestratormd-3)
-  - [`07-progression-logic.md` (3)](#07-progression-logicmd-3)
-  - [`08-current-session-poc.md` (3)](#08-current-session-pocmd-3)
-  - [`01-response.md` (3)](#01-responsemd-3)
-  - [`05-configuration-ensembles.md` (3)](#05-configuration-ensemblesmd-3)
-  - [`01-why-single-triangle-incomplete.md` (3)](#01-why-single-triangle-incompletemd-3)
-  - [`05-pattern-library-bridge.md` (3)](#05-pattern-library-bridgemd-3)
-  - [`01-otkrytie-cowork.md` (3)](#01-otkrytie-coworkmd-3)
-  - [`02-mcp-claude-desktop-use-cases.md` (3)](#02-mcp-claude-desktop-use-casesmd-3)
-  - [`22-glossary.md` (3)](#22-glossarymd-3)
-  - [`04-what-i-can-do-now.md` (3)](#04-what-i-can-do-nowmd-3)
-  - [`01-cinderella-syndrome.md` (3)](#01-cinderella-syndromemd-3)
-  - [`01-sindrom-zolushki.md` (3)](#01-sindrom-zolushkimd-3)
-  - [`12-zaklyuchenie.md` (3)](#12-zaklyucheniemd-3)
-  - [`16-glossary.md` (3)](#16-glossarymd-3)
-  - [`01-completing-loop.md` (3)](#01-completing-loopmd-3)
-  - [`10-future.md` (3)](#10-futuremd-3)
-  - [`04-ensembles-overview.md` (2)](#04-ensembles-overviewmd-2)
-  - [`113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` (2)](#113-6-почему-это-валидный-паттерн-для-ai-assisted-workmd-2)
-  - [`137-table-of-contents.md` (2)](#137-table-of-contentsmd-2)
-  - [`147-references.md` (2)](#147-referencesmd-2)
-  - [`153-executive-summary.md` (2)](#153-executive-summarymd-2)
-  - [`158-4-proposed-infrastructure.md` (2)](#158-4-proposed-infrastructuremd-2)
-  - [`172-3-what-makes-a-representative-agent.md` (2)](#172-3-what-makes-a-representative-agentmd-2)
-  - [`181-12-closing.md` (2)](#181-12-closingmd-2)
-  - [`215-4-architecture-of-professional-colleague-agents.md` (2)](#215-4-architecture-of-professional-colleague-agentsmd-2)
-  - [`228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (2)](#228-appendix-c-quick-start-architecture-for-sgb-advocamd-2)
-  - [`259-6-coordination-and-disagreement-resolution.md` (2)](#259-6-coordination-and-disagreement-resolutionmd-2)
-  - [`265-12-call-for-collaboration.md` (2)](#265-12-call-for-collaborationmd-2)
-  - [`275-why-this-document-exists.md` (2)](#275-why-this-document-existsmd-2)
-  - [`282-what-industry-will-likely-build.md` (2)](#282-what-industry-will-likely-buildmd-2)
-  - [`288-appendix-position-in-series-visualization.md` (2)](#288-appendix-position-in-series-visualizationmd-2)
-  - [`290-почему-этот-документ-существует.md` (2)](#290-почему-этот-документ-существуетmd-2)
-  - [`292-что-отсутствует-слой-b.md` (2)](#292-что-отсутствует-слой-bmd-2)
-  - [`301-благодарности.md` (2)](#301-благодарностиmd-2)
-  - [`315-7-practical-first-steps-this-month.md` (2)](#315-7-practical-first-steps-this-monthmd-2)
-  - [`317-9-risks-and-open-questions.md` (2)](#317-9-risks-and-open-questionsmd-2)
-  - [`324-ingit-как-cowork-интегрированная-подложка-рабочего.md` (2)](#324-ingit-как-cowork-интегрированная-подложка-рабочегоmd-2)
-  - [`333-7-практические-первые-шаги-в-этом-месяце.md` (2)](#333-7-практические-первые-шаги-в-этом-месяцеmd-2)
-  - [`34-appendix-b-change-log.md` (2)](#34-appendix-b-change-logmd-2)
-  - [`356-твой-workflow.md` (2)](#356-твой-workflowmd-2)
-  - [`36-essence.md` (2)](#36-essencemd-2)
-  - [`40-bridges.md` (2)](#40-bridgesmd-2)
-  - [`04-приоритетные-ансамбли.md` (2)](#04-приоритетные-ансамблиmd-2)
-  - [`memnet.md` (2)](#memnetmd-2)
-  - [`CLUSTERS.md` (2)](#clustersmd-2)
-  - [`KPI.md` (2)](#kpimd-2)
-  - [`PASSIVE_VOICE.md` (2)](#passive_voicemd-2)
-  - [`SEE_ALSO.md` (2)](#see_alsomd-2)
-  - [`02-section-2-beneficial-dimension.md` (2)](#02-section-2-beneficial-dimensionmd-2)
-  - [`09-section-9-timeliness.md` (2)](#09-section-9-timelinessmd-2)
-  - [`01-coally.md` (2)](#01-coallymd-2)
-  - [`01-why-stronger-than-it-looks.md` (2)](#01-why-stronger-than-it-looksmd-2)
-  - [`03-why-natural-for-programmers.md` (2)](#03-why-natural-for-programmersmd-2)
-  - [`02-what-info-repos-contain.md` (2)](#02-what-info-repos-containmd-2)
-  - [`03-sgb-advocate-colleague-example.md` (2)](#03-sgb-advocate-colleague-examplemd-2)
-  - [`04-what-to-take-from-info-repos.md` (2)](#04-what-to-take-from-info-reposmd-2)
-  - [`12-workflow.md` (2)](#12-workflowmd-2)
-  - [`01-q1-what-lorenzo-is.md` (2)](#01-q1-what-lorenzo-ismd-2)
-  - [`03-q3-what-lorenzo-does.md` (2)](#03-q3-what-lorenzo-doesmd-2)
-  - [`05-q5-authority-limits.md` (2)](#05-q5-authority-limitsmd-2)
-  - [`01-response.md` (2)](#01-responsemd-2)
-  - [`12-call-for-collaboration.md` (2)](#12-call-for-collaborationmd-2)
-  - [`05-why-not-built.md` (2)](#05-why-not-builtmd-2)
-  - [`04-pochemu-ne-postroeno.md` (2)](#04-pochemu-ne-postroenomd-2)
-  - [`07-practical-first-steps.md` (2)](#07-practical-first-stepsmd-2)
-  - [`09-risks-open-questions.md` (2)](#09-risks-open-questionsmd-2)
-  - [`07-prakticheskie-shagi.md` (2)](#07-prakticheskie-shagimd-2)
-  - [`04-proposed-infrastructure.md` (2)](#04-proposed-infrastructuremd-2)
-  - [`03-what-this-gives-technically.md` (2)](#03-what-this-gives-technicallymd-2)
-  - [`03-what-makes-representative-agent.md` (2)](#03-what-makes-representative-agentmd-2)
-  - [`04-fallback-ratio-question.md` (2)](#04-fallback-ratio-questionmd-2)
-  - [`07-why-valid-for-ai.md` (2)](#07-why-valid-for-aimd-2)
-  - [`05-analysis.md` (2)](#05-analysismd-2)
-  - [`06-search.md` (2)](#06-searchmd-2)
-  - [`B-forensic-rag.md` (2)](#b-forensic-ragmd-2)
-  - [`31-event-sourced-legal-document-history.md` (2)](#31-event-sourced-legal-document-historymd-2)
-  - [`11-integration-contracts.md` (1)](#11-integration-contractsmd-1)
-  - [`03-portal-protocol-md.md` (1)](#03-portal-protocol-mdmd-1)
-  - [`09-4-passport-passport-md.md` (1)](#09-4-passport-passport-mdmd-1)
-  - [`102-доступ-к-данным.md` (1)](#102-доступ-к-даннымmd-1)
-  - [`105-review-methodology-md.md` (1)](#105-review-methodology-mdmd-1)
-  - [`116-9-checklist-применения-методологии.md` (1)](#116-9-checklist-применения-методологииmd-1)
-  - [`121-appendix-c-история-изменений-методологии.md` (1)](#121-appendix-c-история-изменений-методологииmd-1)
-  - [`123-portal-mcp-py.md` (1)](#123-portal-mcp-pymd-1)
-  - [`125-readme-mcp-md-инструкция-по-установке.md` (1)](#125-readme-mcp-md-инструкция-по-установкеmd-1)
-  - [`129-примеры-запросов-в-claude.md` (1)](#129-примеры-запросов-в-claudemd-1)
-  - [`141-4-nautilus-portal-as-reference-substrate.md` (1)](#141-4-nautilus-portal-as-reference-substratemd-1)
-  - [`149-appendix-b-summary-of-contributions.md` (1)](#149-appendix-b-summary-of-contributionsmd-1)
-  - [`154-table-of-contents.md` (1)](#154-table-of-contentsmd-1)
-  - [`157-3-why-existing-solutions-fail.md` (1)](#157-3-why-existing-solutions-failmd-1)
-  - [`173-4-ten-domains-of-application.md` (1)](#173-4-ten-domains-of-applicationmd-1)
-  - [`187-слой-представительских-агентов-md.md` (1)](#187-слой-представительских-агентов-mdmd-1)
-  - [`193-3-что-делает-агента-представительским.md` (1)](#193-3-что-делает-агента-представительскимmd-1)
-  - [`208-professional-colleague-agents-md.md` (1)](#208-professional-colleague-agents-mdmd-1)
-  - [`212-1-the-five-type-typology-of-principal-side-agents.md` (1)](#212-1-the-five-type-typology-of-principal-side-agentsmd-1)
-  - [`213-2-what-makes-a-professional-colleague-agent.md` (1)](#213-2-what-makes-a-professional-colleague-agentmd-1)
-  - [`214-3-empirical-case-study-обучай.md` (1)](#214-3-empirical-case-study-обучайmd-1)
-  - [`216-5-the-economics-of-profession-wide-replication.md` (1)](#216-5-the-economics-of-profession-wide-replicationmd-1)
-  - [`217-6-risks-specific-to-this-category.md` (1)](#217-6-risks-specific-to-this-categorymd-1)
-  - [`222-11-call-for-collaboration.md` (1)](#222-11-call-for-collaborationmd-1)
-  - [`233-2-что-делает-агента-профессиональным-коллегой.md` (1)](#233-2-что-делает-агента-профессиональным-коллегойmd-1)
-  - [`237-6-риски-специфичные-для-этой-категории.md` (1)](#237-6-риски-специфичные-для-этой-категорииmd-1)
-  - [`256-3-what-makes-a-composite-skills-agent.md` (1)](#256-3-what-makes-a-composite-skills-agentmd-1)
-  - [`260-7-economics-of-combinatorial-replication.md` (1)](#260-7-economics-of-combinatorial-replicationmd-1)
-  - [`261-8-seven-domains-of-application.md` (1)](#261-8-seven-domains-of-applicationmd-1)
-  - [`263-10-risks-specific-to-composite-architectures.md` (1)](#263-10-risks-specific-to-composite-architecturesmd-1)
-  - [`267-acknowledgments.md` (1)](#267-acknowledgmentsmd-1)
-  - [`287-references.md` (1)](#287-referencesmd-1)
-  - [`31-content-overview.md` (1)](#31-content-overviewmd-1)
-  - [`311-3-what-ingit-provides-that-cowork-lacks.md` (1)](#311-3-what-ingit-provides-that-cowork-lacksmd-1)
-  - [`312-4-the-symbiotic-architecture.md` (1)](#312-4-the-symbiotic-architecturemd-1)
-  - [`320-references.md` (1)](#320-referencesmd-1)
-  - [`346-твоё-происхождение.md` (1)](#346-твоё-происхождениеmd-1)
-  - [`348-кому-ты-служишь-слоистая-модель.md` (1)](#348-кому-ты-служишь-слоистая-модельmd-1)
-  - [`357-твоя-коммуникация-в-outreach.md` (1)](#357-твоя-коммуникация-в-outreachmd-1)
-  - [`364-final-note-ты-experiment.md` (1)](#364-final-note-ты-experimentmd-1)
-  - [`38-content-overview.md` (1)](#38-content-overviewmd-1)
-  - [`42-author-contact.md` (1)](#42-author-contactmd-1)
-  - [`56-essence.md` (1)](#56-essencemd-1)
-  - [`62-author-contact.md` (1)](#62-author-contactmd-1)
-  - [`64-for-the-curious-philosophy.md` (1)](#64-for-the-curious-philosophymd-1)
-  - [`69-section.md` (1)](#69-sectionmd-1)
-  - [`71-критерии-выбора-для-фазы-3.md` (1)](#71-критерии-выбора-для-фазы-3md-1)
-  - [`72-расписание-фазы-3.md` (1)](#72-расписание-фазы-3md-1)
-  - [`88-13-rest-api-contract-normative-for-portals.md` (1)](#88-13-rest-api-contract-normative-for-portalsmd-1)
-  - [`05-benchmarks.md` (1)](#05-benchmarksmd-1)
-  - [`11-интеграционный-контракт-который-стоит-зафиксироват.md` (1)](#11-интеграционный-контракт-который-стоит-зафиксироватmd-1)
-  - [`BACKLINKS.md` (1)](#backlinksmd-1)
-  - [`DECISIONS.md` (1)](#decisionsmd-1)
-  - [`PROTOTYPE_SPEC.md` (1)](#prototype_specmd-1)
-  - [`RISK_REGISTER.md` (1)](#risk_registermd-1)
-  - [`SCRIPTS_CATALOG.md` (1)](#scripts_catalogmd-1)
-  - [`VALIDATION.md` (1)](#validationmd-1)
-  - [`02-agentops-trace-envelope.md` (1)](#02-agentops-trace-envelopemd-1)
-  - [`06-metrics-tree.md` (1)](#06-metrics-treemd-1)
-  - [`07-vs-notion-mem-affine-langgraph.md` (1)](#07-vs-notion-mem-affine-langgraphmd-1)
-  - [`10-architecture-rfc.md` (1)](#10-architecture-rfcmd-1)
-  - [`3-forensic-rag.md` (1)](#3-forensic-ragmd-1)
-  - [`5-agent-firewall.md` (1)](#5-agent-firewallmd-1)
-  - [`09-minuses-and-risks.md` (1)](#09-minuses-and-risksmd-1)
-  - [`10-three-entry-points.md` (1)](#10-three-entry-pointsmd-1)
-  - [`00-context.md` (1)](#00-contextmd-1)
-  - [`02-vitaly-graph-cognitive-memory.md` (1)](#02-vitaly-graph-cognitive-memorymd-1)
-  - [`03-happyin-knowledge-space.md` (1)](#03-happyin-knowledge-spacemd-1)
-  - [`02-nautilus-A-pro2-meta.md` (1)](#02-nautilus-a-pro2-metamd-1)
-  - [`02-primary-fde.md` (1)](#02-primary-fdemd-1)
-  - [`05-platform-not-position.md` (1)](#05-platform-not-positionmd-1)
-  - [`anastasiyaw.md` (1)](#anastasiyawmd-1)
-  - [`andrey-chuyan.md` (1)](#andrey-chuyanmd-1)
-  - [`kksudo.md` (1)](#kksudomd-1)
-  - [`spbmolot.md` (1)](#spbmolotmd-1)
-  - [`vitalyoborin.md` (1)](#vitalyoborinmd-1)
-  - [`1-llm-gateway.md` (1)](#1-llm-gatewaymd-1)
-  - [`10-profession-specific-workflows.md` (1)](#10-profession-specific-workflowsmd-1)
-  - [`3-discovery-research.md` (1)](#3-discovery-researchmd-1)
-  - [`01-yodoca.md` (1)](#01-yodocamd-1)
-  - [`02-tvoyo-proishozhdenie.md` (1)](#02-tvoyo-proishozhdeniemd-1)
-  - [`04-komu-ty-sluzhish.md` (1)](#04-komu-ty-sluzhishmd-1)
-  - [`13-outreach-communication.md` (1)](#13-outreach-communicationmd-1)
-  - [`02-q2-whom-lorenzo-serves.md` (1)](#02-q2-whom-lorenzo-servesmd-1)
-  - [`04-q4-character.md` (1)](#04-q4-charactermd-1)
-  - [`06-q6-accountability.md` (1)](#06-q6-accountabilitymd-1)
-  - [`07-q7-success-metrics.md` (1)](#07-q7-success-metricsmd-1)
-  - [`08-q8-other-ai-relationships.md` (1)](#08-q8-other-ai-relationshipsmd-1)
-  - [`09-q9-geographic-linguistic-scope.md` (1)](#09-q9-geographic-linguistic-scopemd-1)
-  - [`00-question-practical.md` (1)](#00-question-practicalmd-1)
-  - [`10-risks.md` (1)](#10-risksmd-1)
-  - [`10-references.md` (1)](#10-referencesmd-1)
-  - [`11-glossary.md` (1)](#11-glossarymd-1)
-  - [`04-whats-missing-layer-b.md` (1)](#04-whats-missing-layer-bmd-1)
-  - [`07-specific-case.md` (1)](#07-specific-casemd-1)
-  - [`08-recursive-insight.md` (1)](#08-recursive-insightmd-1)
-  - [`13-acknowledgments-refs.md` (1)](#13-acknowledgments-refsmd-1)
-  - [`03-otsutstvuet-sloy-b.md` (1)](#03-otsutstvuet-sloy-bmd-1)
-  - [`04-symbiotic-architecture.md` (1)](#04-symbiotic-architecturemd-1)
-  - [`10-strategic-positioning.md` (1)](#10-strategic-positioningmd-1)
-  - [`03-chto-ingit-obespechivaet.md` (1)](#03-chto-ingit-obespechivaetmd-1)
-  - [`04-grant-opportunities.md` (1)](#04-grant-opportunitiesmd-1)
-  - [`18-comment-on-document.md` (1)](#18-comment-on-documentmd-1)
-  - [`13-rest-api.md` (1)](#13-rest-apimd-1)
-  - [`01-problem-statement.md` (1)](#01-problem-statementmd-1)
-  - [`01-what-to-anonymize-german-standard.md` (1)](#01-what-to-anonymize-german-standardmd-1)
-  - [`02-two-tier-publication.md` (1)](#02-two-tier-publicationmd-1)
-  - [`02-what-makes-pca.md` (1)](#02-what-makes-pcamd-1)
-  - [`11-call-for-collaboration.md` (1)](#11-call-for-collaborationmd-1)
-  - [`02-chto-delaet-pka.md` (1)](#02-chto-delaet-pkamd-1)
-  - [`06-riski.md` (1)](#06-riskimd-1)
-  - [`00-abstract.md` (1)](#00-abstractmd-1)
-  - [`00-abstract.md` (1)](#00-abstractmd-1)
-  - [`03-chto-delaet-predstavitelskim.md` (1)](#03-chto-delaet-predstavitelskimmd-1)
-  - [`10-checklist.md` (1)](#10-checklistmd-1)
-  - [`00-question-supply-demand.md` (1)](#00-question-supply-demandmd-1)
-  - [`00-question-mountain-to-person.md` (1)](#00-question-mountain-to-personmd-1)
-  - [`integration-spec.md` (1)](#integration-specmd-1)
-  - [`skill-tool-policy.md` (1)](#skill-tool-policymd-1)
-  - [`first-contacts.md` (1)](#first-contactsmd-1)
-  - [`mvp-plan.md` (1)](#mvp-planmd-1)
-  - [`risks.md` (1)](#risksmd-1)
-  - [`08-conductor-adversarial-review-auto-ai-router.md` (1)](#08-conductor-adversarial-review-auto-ai-routermd-1)
-  - [`14-local-first-agent-development-environment.md` (1)](#14-local-first-agent-development-environmentmd-1)
-  - [`19-multi-agent-observability-platform.md` (1)](#19-multi-agent-observability-platformmd-1)
-  - [`24-mega-integration-full-stack.md` (1)](#24-mega-integration-full-stackmd-1)
-  - [`27-hybrid-rag-with-ast-chunked-code.md` (1)](#27-hybrid-rag-with-ast-chunked-codemd-1)
-  - [`30-mega-stack-3-0-with-dsl-ast.md` (1)](#30-mega-stack-3-0-with-dsl-astmd-1)
-  - [`32-consensus-based-multi-agent-coordination.md` (1)](#32-consensus-based-multi-agent-coordinationmd-1)
-  - [`35-mega-stack-4-0-with-event-sourcing-consensus.md` (1)](#35-mega-stack-4-0-with-event-sourcing-consensusmd-1)
-  - [`decision-record.md` (1)](#decision-recordmd-1)
-  - [`faq-entry.md` (1)](#faq-entrymd-1)
-  - [`rfc.md` (1)](#rfcmd-1)
-  - [`tech-pair.md` (1)](#tech-pairmd-1)
-- [📌 TODO/Идея (151)](#todoидея-151)
-  - [`TABLES.md` (19)](#tablesmd-19)
-  - [`SCHEDULE.md` (7)](#schedulemd-7)
-  - [`310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` (6)](#310-2-what-cowork-provides-that-ingit-doesn-t-need-to-md-6)
-  - [`213-2-what-makes-a-professional-colleague-agent.md` (5)](#213-2-what-makes-a-professional-colleague-agentmd-5)
-  - [`OUTLINE.md` (5)](#outlinemd-5)
-  - [`SCRIPTS_CATALOG.md` (5)](#scripts_catalogmd-5)
-  - [`308-table-of-contents.md` (4)](#308-table-of-contentsmd-4)
-  - [`02-cowork-provides.md` (4)](#02-cowork-providesmd-4)
-  - [`02-what-makes-pca.md` (4)](#02-what-makes-pcamd-4)
-  - [`00-intro.md` (3)](#00-intromd-3)
-  - [`122-глоссарий.md` (3)](#122-глоссарийmd-3)
-  - [`303-приложение-визуализация-позиции-в-серии.md` (3)](#303-приложение-визуализация-позиции-в-серииmd-3)
-  - [`343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (3)](#343-lorenzo-catalyst-agent-глубокая-проработка-специфиmd-3)
-  - [`ACTION_ITEMS.md` (3)](#action_itemsmd-3)
-  - [`11-difficulties-and-recommendations.md` (3)](#11-difficulties-and-recommendationsmd-3)
-  - [`11-integration-contracts.md` (2)](#11-integration-contractsmd-2)
-  - [`131-ограничения-текущей-версии-0-1-0-draft.md` (2)](#131-ограничения-текущей-версии-0-1-0-draftmd-2)
-  - [`150-appendix-c-version-history.md` (2)](#150-appendix-c-version-historymd-2)
-  - [`165-closing.md` (2)](#165-closingmd-2)
-  - [`255-2-the-twenty-one-teachers-pattern.md` (2)](#255-2-the-twenty-one-teachers-patternmd-2)
-  - [`270-appendix-b-sub-agent-registry-schema-sketch.md` (2)](#270-appendix-b-sub-agent-registry-schema-sketchmd-2)
-  - [`276-the-two-layer-stack-as-it-exists.md` (2)](#276-the-two-layer-stack-as-it-existsmd-2)
-  - [`311-3-what-ingit-provides-that-cowork-lacks.md` (2)](#311-3-what-ingit-provides-that-cowork-lacksmd-2)
-  - [`317-9-risks-and-open-questions.md` (2)](#317-9-risks-and-open-questionsmd-2)
-  - [`67-о-проекте.md` (2)](#67-о-проектеmd-2)
-  - [`00-intro.md` (2)](#00-intromd-2)
-  - [`11-интеграционный-контракт-который-стоит-зафиксироват.md` (2)](#11-интеграционный-контракт-который-стоит-зафиксироватmd-2)
-  - [`01-claude-response.md` (2)](#01-claude-responsemd-2)
-  - [`03-two-layer-stack.md` (2)](#03-two-layer-stackmd-2)
-  - [`01-three-related-themes.md` (2)](#01-three-related-themesmd-2)
-  - [`09-architectural-gaps.md` (1)](#09-architectural-gapsmd-1)
-  - [`01-интегральный-анализ-профиля-svend4.md` (1)](#01-интегральный-анализ-профиля-svend4md-1)
-  - [`02-общий-план-развития-nautilus-portal-protocol.md` (1)](#02-общий-план-развития-nautilus-portal-protocolmd-1)
-  - [`114-7-реализация-в-проекте-nautilus.md` (1)](#114-7-реализация-в-проекте-nautilusmd-1)
-  - [`157-3-why-existing-solutions-fail.md` (1)](#157-3-why-existing-solutions-failmd-1)
-  - [`210-abstract.md` (1)](#210-abstractmd-1)
-  - [`259-6-coordination-and-disagreement-resolution.md` (1)](#259-6-coordination-and-disagreement-resolutionmd-1)
-  - [`265-12-call-for-collaboration.md` (1)](#265-12-call-for-collaborationmd-1)
-  - [`280-the-specific-case-in-front-of-us.md` (1)](#280-the-specific-case-in-front-of-usmd-1)
-  - [`284-practical-recommendations-for-the-current-project.md` (1)](#284-practical-recommendations-for-the-current-projectmd-1)
-  - [`285-closing.md` (1)](#285-closingmd-1)
-  - [`307-abstract.md` (1)](#307-abstractmd-1)
-  - [`34-appendix-b-change-log.md` (1)](#34-appendix-b-change-logmd-1)
-  - [`365-развёрнутый-анализ-внуковой-комбинации.md` (1)](#365-развёрнутый-анализ-внуковой-комбинацииmd-1)
-  - [`87-12-onboarding-paths-normative.md` (1)](#87-12-onboarding-paths-normativemd-1)
-  - [`09-архитектурные-зазоры-которые-важнее-новых-инструме.md` (1)](#09-архитектурные-зазоры-которые-важнее-новых-инструмеmd-1)
-  - [`14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` (1)](#14-ограничения-лицензии-и-что-пока-лучше-не-склеиватьmd-1)
-  - [`memnet.md` (1)](#memnetmd-1)
-  - [`ABBREVIATIONS.md` (1)](#abbreviationsmd-1)
-  - [`DECISIONS.md` (1)](#decisionsmd-1)
-  - [`DUPLICATES.md` (1)](#duplicatesmd-1)
-  - [`SUMMARIES.md` (1)](#summariesmd-1)
-  - [`01-three-key-candidates.md` (1)](#01-three-key-candidatesmd-1)
-  - [`01-shared-memory-between-agents.md` (1)](#01-shared-memory-between-agentsmd-1)
-  - [`03-nautilus-B-meta-orchestrator.md` (1)](#03-nautilus-b-meta-orchestratormd-1)
-  - [`03-revised-anthropic-mapping.md` (1)](#03-revised-anthropic-mappingmd-1)
-  - [`01-three-direct-analogues.md` (1)](#01-three-direct-analoguesmd-1)
-  - [`3-crdt-self-hosted.md` (1)](#3-crdt-self-hostedmd-1)
-  - [`04-recommendations.md` (1)](#04-recommendationsmd-1)
-  - [`06-coordination-disagreement.md` (1)](#06-coordination-disagreementmd-1)
-  - [`12-call-for-collaboration.md` (1)](#12-call-for-collaborationmd-1)
-  - [`07-specific-case.md` (1)](#07-specific-casemd-1)
-  - [`11-practical-recommendations.md` (1)](#11-practical-recommendationsmd-1)
-  - [`12-closing.md` (1)](#12-closingmd-1)
-  - [`03-ingit-provides.md` (1)](#03-ingit-providesmd-1)
-  - [`09-risks-open-questions.md` (1)](#09-risks-open-questionsmd-1)
-  - [`18-comment-on-document.md` (1)](#18-comment-on-documentmd-1)
-  - [`12-onboarding-paths.md` (1)](#12-onboarding-pathsmd-1)
-  - [`03-why-existing-fail.md` (1)](#03-why-existing-failmd-1)
-  - [`00-abstract.md` (1)](#00-abstractmd-1)
-  - [`08-implementation-nautilus.md` (1)](#08-implementation-nautilusmd-1)
-  - [`16-glossary.md` (1)](#16-glossarymd-1)
-  - [`card-envelope.md` (1)](#card-envelopemd-1)
-  - [`memory-write-policy.md` (1)](#memory-write-policymd-1)
-- [💭 Гипотеза (392)](#гипотеза-392)
-  - [`01-интегральный-анализ-профиля-svend4.md` (21)](#01-интегральный-анализ-профиля-svend4md-21)
-  - [`TABLES.md` (16)](#tablesmd-16)
-  - [`165-closing.md` (12)](#165-closingmd-12)
-  - [`342-что-такое-вариант-c-concept-document-для-anthropic.md` (10)](#342-что-такое-вариант-c-concept-document-для-anthropicmd-10)
-  - [`343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (10)](#343-lorenzo-catalyst-agent-глубокая-проработка-специфиmd-10)
-  - [`248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (8)](#248-приложение-c-архитектура-быстрого-старта-для-sgb-аmd-8)
-  - [`272-appendix-d-connection-diagram.md` (8)](#272-appendix-d-connection-diagrammd-8)
-  - [`CONCEPTS.md` (8)](#conceptsmd-8)
-  - [`01-three-related-themes.md` (8)](#01-three-related-themesmd-8)
-  - [`00-intro.md` (7)](#00-intromd-7)
-  - [`261-8-seven-domains-of-application.md` (7)](#261-8-seven-domains-of-applicationmd-7)
-  - [`01-response.md` (7)](#01-responsemd-7)
-  - [`08-seven-domains.md` (7)](#08-seven-domainsmd-7)
-  - [`133-обратная-связь.md` (5)](#133-обратная-связьmd-5)
-  - [`ACTION_ITEMS.md` (5)](#action_itemsmd-5)
-  - [`258-5-configuration-how-principals-build-their-ensembl.md` (4)](#258-5-configuration-how-principals-build-their-ensemblmd-4)
-  - [`341-приложение-c-образец-спецификаций-инструментов-ing.md` (4)](#341-приложение-c-образец-спецификаций-инструментов-ingmd-4)
-  - [`365-развёрнутый-анализ-внуковой-комбинации.md` (4)](#365-развёрнутый-анализ-внуковой-комбинацииmd-4)
-  - [`00-intro.md` (4)](#00-intromd-4)
-  - [`OUTLINE.md` (4)](#outlinemd-4)
-  - [`13-reprioritization.md` (4)](#13-reprioritizationmd-4)
-  - [`01-response.md` (4)](#01-responsemd-4)
-  - [`03-the-spectrum.md` (4)](#03-the-spectrummd-4)
-  - [`03-what-this-gives-technically.md` (4)](#03-what-this-gives-technicallymd-4)
-  - [`256-3-what-makes-a-composite-skills-agent.md` (3)](#256-3-what-makes-a-composite-skills-agentmd-3)
-  - [`270-appendix-b-sub-agent-registry-schema-sketch.md` (3)](#270-appendix-b-sub-agent-registry-schema-sketchmd-3)
-  - [`303-приложение-визуализация-позиции-в-серии.md` (3)](#303-приложение-визуализация-позиции-в-серииmd-3)
-  - [`02-nautilus-A-pro2-meta.md` (3)](#02-nautilus-a-pro2-metamd-3)
-  - [`01-response.md` (3)](#01-responsemd-3)
-  - [`03-what-makes-csa.md` (3)](#03-what-makes-csamd-3)
-  - [`05-configuration-ensembles.md` (3)](#05-configuration-ensemblesmd-3)
-  - [`00-question-anonymization.md` (3)](#00-question-anonymizationmd-3)
-  - [`02-общий-план-развития-nautilus-portal-protocol.md` (2)](#02-общий-план-развития-nautilus-portal-protocolmd-2)
-  - [`07-2-terminology.md` (2)](#07-2-terminologymd-2)
-  - [`138-1-why-single-triangle-models-are-incomplete.md` (2)](#138-1-why-single-triangle-models-are-incompletemd-2)
-  - [`150-appendix-c-version-history.md` (2)](#150-appendix-c-version-historymd-2)
-  - [`191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (2)](#191-1-синдром-золушки-почему-качество-остаётся-невидимmd-2)
-  - [`197-7-управление-и-надзор.md` (2)](#197-7-управление-и-надзорmd-2)
-  - [`199-9-стратегия-поэтапного-развёртывания.md` (2)](#199-9-стратегия-поэтапного-развёртыванияmd-2)
-  - [`216-5-the-economics-of-profession-wide-replication.md` (2)](#216-5-the-economics-of-profession-wide-replicationmd-2)
-  - [`257-4-the-sub-agent-registry.md` (2)](#257-4-the-sub-agent-registrymd-2)
-  - [`260-7-economics-of-combinatorial-replication.md` (2)](#260-7-economics-of-combinatorial-replicationmd-2)
-  - [`262-9-integration-with-okwf-infrastructure.md` (2)](#262-9-integration-with-okwf-infrastructuremd-2)
-  - [`271-appendix-c-configuration-template-example.md` (2)](#271-appendix-c-configuration-template-examplemd-2)
-  - [`288-appendix-position-in-series-visualization.md` (2)](#288-appendix-position-in-series-visualizationmd-2)
-  - [`297-что-промышленность-вероятно-построит.md` (2)](#297-что-промышленность-вероятно-построитmd-2)
-  - [`77-2-terminology.md` (2)](#77-2-terminologymd-2)
-  - [`02-collaboration-partners.md` (2)](#02-collaboration-partnersmd-2)
-  - [`memnet.md` (2)](#memnetmd-2)
-  - [`READABILITY.md` (2)](#readabilitymd-2)
-  - [`READING_TIME.md` (2)](#reading_timemd-2)
-  - [`00-question-rephrasing.md` (2)](#00-question-rephrasingmd-2)
-  - [`10-three-entry-points.md` (2)](#10-three-entry-pointsmd-2)
-  - [`03-why-natural-for-programmers.md` (2)](#03-why-natural-for-programmersmd-2)
-  - [`02-final-ranking.md` (2)](#02-final-rankingmd-2)
-  - [`02-minuses-1-10.md` (2)](#02-minuses-1-10md-2)
-  - [`00-question-agent-changes-reality.md` (2)](#00-question-agent-changes-realitymd-2)
-  - [`01-response-en.md` (2)](#01-response-enmd-2)
-  - [`01-claude-response.md` (2)](#01-claude-responsemd-2)
-  - [`00-question-voiceless.md` (2)](#00-question-voicelessmd-2)
-  - [`04-sub-agent-registry.md` (2)](#04-sub-agent-registrymd-2)
-  - [`07-economics-combinatorial.md` (2)](#07-economics-combinatorialmd-2)
-  - [`09-okwf-integration.md` (2)](#09-okwf-integrationmd-2)
-  - [`00-question-multiple-mentors.md` (2)](#00-question-multiple-mentorsmd-2)
-  - [`02-what-was-missing-in-paper-6.md` (2)](#02-what-was-missing-in-paper-6md-2)
-  - [`00-question-innovations-transitions.md` (2)](#00-question-innovations-transitionsmd-2)
-  - [`01-response.md` (2)](#01-responsemd-2)
-  - [`00-question-multi-tier.md` (2)](#00-question-multi-tiermd-2)
-  - [`02-terminology.md` (2)](#02-terminologymd-2)
-  - [`02-terminology.md` (2)](#02-terminologymd-2)
-  - [`05-economics-replication.md` (2)](#05-economics-replicationmd-2)
-  - [`01-sindrom-zolushki.md` (2)](#01-sindrom-zolushkimd-2)
-  - [`07-upravlenie-nadzor.md` (2)](#07-upravlenie-nadzormd-2)
-  - [`09-strategiya-razvyortyvaniya.md` (2)](#09-strategiya-razvyortyvaniyamd-2)
-  - [`00-question-mountain-to-person.md` (2)](#00-question-mountain-to-personmd-2)
-  - [`04-ensembles-overview.md` (1)](#04-ensembles-overviewmd-1)
-  - [`09-architectural-gaps.md` (1)](#09-architectural-gapsmd-1)
-  - [`06-1-introduction.md` (1)](#06-1-introductionmd-1)
-  - [`104-appendix-c-references.md` (1)](#104-appendix-c-referencesmd-1)
-  - [`114-7-реализация-в-проекте-nautilus.md` (1)](#114-7-реализация-в-проекте-nautilusmd-1)
-  - [`122-глоссарий.md` (1)](#122-глоссарийmd-1)
-  - [`124-конфигурация-для-claude-desktop.md` (1)](#124-конфигурация-для-claude-desktopmd-1)
-  - [`143-6-four-deployment-domains.md` (1)](#143-6-four-deployment-domainsmd-1)
-  - [`145-8-call-to-action.md` (1)](#145-8-call-to-actionmd-1)
-  - [`155-1-problem-statement.md` (1)](#155-1-problem-statementmd-1)
-  - [`164-10-appendices.md` (1)](#164-10-appendicesmd-1)
-  - [`176-7-governance-and-oversight.md` (1)](#176-7-governance-and-oversightmd-1)
-  - [`186-appendix-c-sample-use-cases-in-detail.md` (1)](#186-appendix-c-sample-use-cases-in-detailmd-1)
-  - [`195-5-архитектурная-спецификация.md` (1)](#195-5-архитектурная-спецификацияmd-1)
-  - [`196-6-этическая-рамка.md` (1)](#196-6-этическая-рамкаmd-1)
-  - [`198-8-риски-и-меры-противодействия.md` (1)](#198-8-риски-и-меры-противодействияmd-1)
-  - [`201-11-призыв-к-сотрудничеству.md` (1)](#201-11-призыв-к-сотрудничествуmd-1)
-  - [`219-8-pilot-proposal-sgb-advocate-colleague.md` (1)](#219-8-pilot-proposal-sgb-advocate-colleaguemd-1)
-  - [`228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (1)](#228-appendix-c-quick-start-architecture-for-sgb-advocamd-1)
-  - [`236-5-экономика-тиражирования-по-профессии.md` (1)](#236-5-экономика-тиражирования-по-профессииmd-1)
-  - [`239-8-пилотное-предложение-sgb-колega-адвокат.md` (1)](#239-8-пилотное-предложение-sgb-колega-адвокатmd-1)
-  - [`241-10-открытые-вопросы.md` (1)](#241-10-открытые-вопросыmd-1)
-  - [`247-приложение-b-рамка-принятия-решений-когда-строить-.md` (1)](#247-приложение-b-рамка-принятия-решений-когда-строить-md-1)
-  - [`264-11-open-questions.md` (1)](#264-11-open-questionsmd-1)
-  - [`282-what-industry-will-likely-build.md` (1)](#282-what-industry-will-likely-buildmd-1)
-  - [`287-references.md` (1)](#287-referencesmd-1)
-  - [`291-двухслойный-стек-как-он-существует.md` (1)](#291-двухслойный-стек-как-он-существуетmd-1)
-  - [`292-что-отсутствует-слой-b.md` (1)](#292-что-отсутствует-слой-bmd-1)
-  - [`296-рекурсивное-прозрение.md` (1)](#296-рекурсивное-прозрениеmd-1)
-  - [`299-практические-рекомендации-для-текущего-проекта.md` (1)](#299-практические-рекомендации-для-текущего-проектаmd-1)
-  - [`300-заключение.md` (1)](#300-заключениеmd-1)
-  - [`310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` (1)](#310-2-what-cowork-provides-that-ingit-doesn-t-need-to-md-1)
-  - [`311-3-what-ingit-provides-that-cowork-lacks.md` (1)](#311-3-what-ingit-provides-that-cowork-lacksmd-1)
-  - [`313-5-four-integration-paths-in-order-of-accessibility.md` (1)](#313-5-four-integration-paths-in-order-of-accessibilitymd-1)
-  - [`328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md` (1)](#328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строиmd-1)
-  - [`331-5-четыре-пути-интеграции-в-порядке-доступности.md` (1)](#331-5-четыре-пути-интеграции-в-порядке-доступностиmd-1)
-  - [`332-6-уточнённый-объём-ingit-с-учётом-cowork.md` (1)](#332-6-уточнённый-объём-ingit-с-учётом-coworkmd-1)
-  - [`334-8-импликации-для-nautilus-и-okwf.md` (1)](#334-8-импликации-для-nautilus-и-okwfmd-1)
-  - [`356-твой-workflow.md` (1)](#356-твой-workflowmd-1)
-  - [`364-final-note-ты-experiment.md` (1)](#364-final-note-ты-experimentmd-1)
-  - [`366-технический-stack-svyazi-2-0-foundation.md` (1)](#366-технический-stack-svyazi-2-0-foundationmd-1)
-  - [`95-20-adr-002-q6-as-first-class-protocol-concept.md` (1)](#95-20-adr-002-q6-as-first-class-protocol-conceptmd-1)
-  - [`04-приоритетные-ансамбли.md` (1)](#04-приоритетные-ансамблиmd-1)
-  - [`09-архитектурные-зазоры-которые-важнее-новых-инструме.md` (1)](#09-архитектурные-зазоры-которые-важнее-новых-инструмеmd-1)
-  - [`COST.md` (1)](#costmd-1)
-  - [`DUPLICATES.md` (1)](#duplicatesmd-1)
-  - [`KPI.md` (1)](#kpimd-1)
-  - [`READING_ORDER.md` (1)](#reading_ordermd-1)
-  - [`SUMMARIES.md` (1)](#summariesmd-1)
-  - [`07-vs-notion-mem-affine-langgraph.md` (1)](#07-vs-notion-mem-affine-langgraphmd-1)
-  - [`10-architecture-rfc.md` (1)](#10-architecture-rfcmd-1)
-  - [`8-budget-aware-intelligence-stack.md` (1)](#8-budget-aware-intelligence-stackmd-1)
-  - [`source-projects.md` (1)](#source-projectsmd-1)
-  - [`05-section-5-role-of-anthropic.md` (1)](#05-section-5-role-of-anthropicmd-1)
-  - [`00-question-camel-vs-nautilus.md` (1)](#00-question-camel-vs-nautilusmd-1)
-  - [`02-what-info-repos-contain.md` (1)](#02-what-info-repos-containmd-1)
-  - [`04-what-to-take-from-info-repos.md` (1)](#04-what-to-take-from-info-reposmd-1)
-  - [`01-profile-five-layers.md` (1)](#01-profile-five-layersmd-1)
-  - [`05-platform-not-position.md` (1)](#05-platform-not-positionmd-1)
-  - [`00-question-habr-examples.md` (1)](#00-question-habr-examplesmd-1)
-  - [`12-concrete-next-step.md` (1)](#12-concrete-next-stepmd-1)
-  - [`7-metaphor.md` (1)](#7-metaphormd-1)
-  - [`06-svyazi-2-0-block-map.md` (1)](#06-svyazi-2-0-block-mapmd-1)
-  - [`12-workflow.md` (1)](#12-workflowmd-1)
-  - [`01-search-results-not-found.md` (1)](#01-search-results-not-foundmd-1)
-  - [`01-pluses-1-7.md` (1)](#01-pluses-1-7md-1)
-  - [`03-q3-what-lorenzo-does.md` (1)](#03-q3-what-lorenzo-doesmd-1)
-  - [`03-catalog.md` (1)](#03-catalogmd-1)
-  - [`00-question-practical.md` (1)](#00-question-practicalmd-1)
-  - [`11-open-questions.md` (1)](#11-open-questionsmd-1)
-  - [`01-yogi-metaphor.md` (1)](#01-yogi-metaphormd-1)
-  - [`01-why-single-triangle-incomplete.md` (1)](#01-why-single-triangle-incompletemd-1)
-  - [`06-four-deployment-domains.md` (1)](#06-four-deployment-domainsmd-1)
-  - [`08-call-to-action.md` (1)](#08-call-to-actionmd-1)
-  - [`11-glossary.md` (1)](#11-glossarymd-1)
-  - [`13-acknowledgments-refs.md` (1)](#13-acknowledgments-refsmd-1)
-  - [`07-rekursivnoe-prozrenie.md` (1)](#07-rekursivnoe-prozreniemd-1)
-  - [`08-promyshlennost-postroit.md` (1)](#08-promyshlennost-postroitmd-1)
-  - [`11-zaklyuchenie.md` (1)](#11-zaklyucheniemd-1)
-  - [`02-cowork-provides.md` (1)](#02-cowork-providesmd-1)
-  - [`03-ingit-provides.md` (1)](#03-ingit-providesmd-1)
-  - [`05-four-integration-paths.md` (1)](#05-four-integration-pathsmd-1)
-  - [`02-chto-cowork-obespechivaet.md` (1)](#02-chto-cowork-obespechivaetmd-1)
-  - [`05-chetyre-puti-integratsii.md` (1)](#05-chetyre-puti-integratsiimd-1)
-  - [`06-utochnyonnyy-obyom-ingit.md` (1)](#06-utochnyonnyy-obyom-ingitmd-1)
-  - [`00-question-can-it-apply-to-docs.md` (1)](#00-question-can-it-apply-to-docsmd-1)
-  - [`01-introduction.md` (1)](#01-introductionmd-1)
-  - [`20-adr-002-q6-first-class.md` (1)](#20-adr-002-q6-first-classmd-1)
-  - [`22-glossary.md` (1)](#22-glossarymd-1)
-  - [`01-problem-statement.md` (1)](#01-problem-statementmd-1)
-  - [`08-pilot-sgb-advocate.md` (1)](#08-pilot-sgb-advocatemd-1)
-  - [`05-ekonomika.md` (1)](#05-ekonomikamd-1)
-  - [`08-pilot-sgb-kolega.md` (1)](#08-pilot-sgb-kolegamd-1)
-  - [`10-otkrytye-voprosy.md` (1)](#10-otkrytye-voprosymd-1)
-  - [`07-governance-oversight.md` (1)](#07-governance-oversightmd-1)
-  - [`12-closing.md` (1)](#12-closingmd-1)
-  - [`05-arkhitekturnaya-spetsifikatsiya.md` (1)](#05-arkhitekturnaya-spetsifikatsiyamd-1)
-  - [`06-eticheskaya-ramka.md` (1)](#06-eticheskaya-ramkamd-1)
-  - [`08-riski-mery.md` (1)](#08-riski-merymd-1)
-  - [`11-prizyv-k-sotrudnichestvu.md` (1)](#11-prizyv-k-sotrudnichestvumd-1)
-  - [`12-zaklyuchenie.md` (1)](#12-zaklyucheniemd-1)
-  - [`08-implementation-nautilus.md` (1)](#08-implementation-nautilusmd-1)
-  - [`16-glossary.md` (1)](#16-glossarymd-1)
-  - [`card-envelope.md` (1)](#card-envelopemd-1)
-  - [`gaps.md` (1)](#gapsmd-1)
-  - [`D-voice-first-mesh.md` (1)](#d-voice-first-meshmd-1)
-  - [`experiment-log.md` (1)](#experiment-logmd-1)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+- Основной раздел
 
 
+<!-- summary -->
+> Вопросы и открытые темы из базы знаний — документ базы знаний репозитория Lorenzo.
+
+<!-- tags: docs, reference, quality, lorenzo -->
 
 
 _Обновлено: 2026-05-10_
 
-Всего: **2520** | Файлов: **1211**
+Всего: **2534** | Файлов: **1223**
 
 ## Сводка
 
 | Тип | Кол-во |
 |-----|--------|
-| ❓ Вопрос | 1961 |
-| 💭 Гипотеза | 392 |
-| 📌 TODO/Идея | 151 |
-| 🔓 Открытый вопрос | 16 |
+| ❓ Вопрос | 2020 |
+| 💭 Гипотеза | 357 |
+| 📌 TODO/Идея | 142 |
+| 🔓 Открытый вопрос | 15 |
 
-## 🔓 Открытый вопрос (16)
+## 🔓 Открытый вопрос (15)
 
 ### `14-limitations.md` (1)
 
-- Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL ^bsl  1.1 и прямо говорит о бе [Ограничения, лицензии и что пока лучше не]
+- Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL ^bsl  1.1 и прямо говорит о бе [Contents]
 
 ### `144-7-open-questions.md` (1)
 
@@ -683,10 +55,6 @@ _Обновлено: 2026-05-10_
 
 - Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT ^ngt  Memory использует BSL ^bsl  1.1 и прямо говори [Статус]
 
-### `ACTION_ITEMS.md` (1)
-
-- - №3: Health Score 82/100 — это хорошо, но неясно по какому алгоритму . [⚠️ Риски (954)]
-
 ### `CONCEPTS.md` (1)
 
 - : хорошо, но неясно по какому алгоритму [H]
@@ -705,7 +73,7 @@ _Обновлено: 2026-05-10_
 
 ### `03-the-spectrum.md` (1)
 
-- Недостаток: принципал должен знать, что ему нужно, а это часто непонятно заранее. [Какой под-агент (или какие) должны её обработать]
+- Недостаток: принципал должен знать, что ему нужно, а это часто непонятно заранее. [Contents]
 
 ### `07-open-questions.md` (1)
 
@@ -717,46 +85,46 @@ _Обновлено: 2026-05-10_
 
 ### `license-tree.md` (1)
 
-- Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL 1.1 и прямо говорит о бесплатн [Лицензионные развилки]
+- Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL 1.1 и прямо говорит о бесплатн [Contents]
 
 
-## ❓ Вопрос (1961)
+## ❓ Вопрос (2020)
 
-### `TABLES.md` (231)
+### `TABLES.md` (184)
 
 - Контур   Что входит   Зачем   Оценка усилий [5. План прототипа и возможные контакты]
 - Риск   Почему это важно   Снижение риска [6. План прототипа и возможные контакты]
 - Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [7. План прототипа и возможные контакты]
 - Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [9. Интеграционный контракт, который стоит зафиксировать сраз]
 - Кому   Лучший первый вопрос   Почему именно он [11. Контактная стратегия и узкие вопросы для авторов]
-- _...ещё 226_
+- _...ещё 179_
 
-### `QA.md` (145)
+### `QA.md` (176)
 
-- ## Как реализован forensic RAG с доказуемостью? [Раздел: 01-svyazi]
+- ## Какие 5 архитектурных зазоров выделены в исследовании? [Раздел: 01-svyazi]
+- ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
+- ## Как реализован forensic RAG с доказуемостью? [Что входит в интеграционный контракт между слоями?]
 - ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
 - ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
-- ## Какие инструменты обеспечивают безопасность агентов? [Какие RAG-подходы сравниваются в документах?]
-- ## Какова политика доступа по умолчанию (tool classes)? [Какие инструменты обеспечивают безопасность агентов?]
-- _...ещё 140_
+- _...ещё 171_
 
-### `OUTLINE.md` (144)
+### `OUTLINE.md` (166)
 
+- - Какие 5 архитектурных зазоров выделены в исследовании? [[Глобальный Q&A](QA.md)]
+- - Что входит в интеграционный контракт между слоями? [[Глобальный Q&A](QA.md)]
 - - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A](QA.md)]
 - - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A](QA.md)]
 - - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A](QA.md)]
-- - Какие инструменты обеспечивают безопасность агентов? [[Глобальный Q&A](QA.md)]
-- - Какова политика доступа по умолчанию (tool classes)? [[Глобальный Q&A](QA.md)]
-- _...ещё 139_
+- _...ещё 161_
 
-### `EMPTY_SECTIONS.md` (70)
+### `EMPTY_SECTIONS.md` (80)
 
 - -   170-1-the-cinderella-syndrome-why-quality-stays-invisi.md  (3 из 10) (#170-1-the-cinderella-syndrome-why-quality-stays-invisimd-3-из-10) [Содержание]
 - -   293-почему-это-не-было-построено.md  (3 из 5) (#293-почему-это-не-было-построеноmd-3-из-5) [Содержание]
 - -   157-3-why-existing-solutions-fail.md  (2 из 14) (#157-3-why-existing-solutions-failmd-2-из-14) [Содержание]
 - -   254-1-why-the-binary-view-is-incomplete.md  (2 из 10) (#254-1-why-the-binary-view-is-incompletemd-2-из-10) [Содержание]
 - -   138-1-why-single-triangle-models-are-incomplete.md  (1 из 6) (#138-1-why-single-triangle-models-are-incompletemd-1-из-6) [Содержание]
-- _...ещё 65_
+- _...ещё 75_
 
 ### `342-что-такое-вариант-c-concept-document-для-anthropic.md` (51)
 
@@ -776,6 +144,24 @@ _Обновлено: 2026-05-10_
 - #### Вопрос 4: Каков «характер» Lorenzo? [Фундаментальные вопросы для Lorenzo]
 - _...ещё 38_
 
+### `READABILITY.md` (42)
+
+- 113-6-почему-это-валидный-паттерн-для-ai-assi (02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)   0   🔴 Очень сложный [Все документы]
+- 157-3-why-existing-solutions-fail (02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)   0   🔴 Очень сложный   815   78   10.4 [Все документы]
+- 170-1-the-cinderella-syndrome-why-quality-sta (02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)   0   🔴 Очень сложный [Все документы]
+- 191-1-синдром-золушки-почему-качество-остаётс (02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)   0   🔴 Очень сложный [Все документы]
+- 290-почему-этот-документ-существует (02-anthropic-vacancies/290-почему-этот-документ-существует.md)   0   🔴 Очень сложный   356   40   8.9 [Все документы]
+- _...ещё 37_
+
+### `READING_TIME.md` (42)
+
+- 03-why-natural-for-programmers (anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)   ~5 мин   1034   📘 Средне [Все документы]
+- 03-why-natural-for-programmers (obsidian/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)   ~5 мин   979   📘 Средне [Все документы]
+- 254-1-why-the-binary-view-is-incomplete (02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)   ~4 мин   1029   📘 Средне [Все документы]
+- 170-1-the-cinderella-syndrome-why-quality-sta (02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)   ~4 мин   955   📘 Ср [Все документы]
+- 254-1-why-the-binary-view-is-incomplete (obsidian/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)   ~4 мин   943   📘 Средне [Все документы]
+- _...ещё 37_
+
 ### `01-интегральный-анализ-профиля-svend4.md` (41)
 
 - 🏷️   Ключевые слова:    nautilus ,  который ,  через ,  github ,  которые ,  anthropic ,  токен ,  почему [Интегральный анализ профиля svend4]
@@ -785,40 +171,22 @@ _Обновлено: 2026-05-10_
 - -  Почему моё отказное поведение — это НЕ корпоративная параноя (#почему-моё-отказное-поведение-это-не-корпоративная-параноя) [Содержание]
 - _...ещё 36_
 
-### `FAQ.md` (35)
+### `FAQ.md` (41)
 
 - ### Принимаем эту architecture как Lorenzo vision (с моими caveats)? [Что это такое?]
 - Если да — должен ли я update Lorenzo системный промпт с этой архитектурой? [Принимаем эту architecture как Lorenzo vision (с моими cavea]
-- ### Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать? [С чего начать?]
 - ### Как связаться с авторами компонентов? [Какова лицензия проекта?]
-- ### Является ли наш Nautilus Portal Protocol still valuable? [Это реализуется существующими tools?]
-- _...ещё 30_
-
-### `READABILITY.md` (34)
-
-- docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md    0   🔴 Очень сложный   179   14   12.8 [Все документы]
-- docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md    0   🔴 Очень сложный   810   73   11.1 [Все документы]
-- docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    0   🔴 Очень сложный   954   87   11.0 [Все документы]
-- docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    0   🔴 Очень сложный   715   62   11.5 [Все документы]
-- docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md    0   🔴 Очень сложный   342   34   10.1 [Все документы]
-- _...ещё 29_
-
-### `READING_TIME.md` (34)
-
-- docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md    ~4 мин   960   📘 Средне [Все документы]
-- docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md    ~4 мин   1030   📘 Средне [Все документы]
-- docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    ~3 мин   954   📘 Средне [Все документы]
-- docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    ~3 мин   723   📘 Средне [Все документы]
-- docs/obsidian/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    ~3 мин   856   📘 Средне [Все документы]
-- _...ещё 29_
+- Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)? [Открытые вопросы 1.]
+- Планируется ли поддержка внешних источников (CardIndex / doc-ingestion)? [Открытые вопросы 1. Есть ли публичная документация по Memory]
+- _...ещё 36_
 
 ### `11-difficulties-and-recommendations.md` (27)
 
-- With your active SGB cases (S 6 SO 58/26 ER, S 7 SO 99/25), health considerations, other commitments — can you realistically dedicate 10-20 hours/week [Сложности и рекомендации перед detailed specification]
-- Or does this fail funding gate? [Сложности и рекомендации перед detailed specification]
-- Did creator consent к being contacted? [Сложности и рекомендации перед detailed specification]
-- Did creator consent к their work being referenced? [Сложности и рекомендации перед detailed specification]
-- Did creator consent к being included в synthesis? [Сложности и рекомендации перед detailed specification]
+- With your active SGB cases (S 6 SO 58/26 ER, S 7 SO 99/25), health considerations, other commitments — can you realistically dedicate 10-20 hours/week [Contents]
+- Or does this fail funding gate? [Contents]
+- Did creator consent к being contacted? [Contents]
+- Did creator consent к their work being referenced? [Contents]
+- Did creator consent к being included в synthesis? [Contents]
 - _...ещё 22_
 
 ### `QA.md` (22)
@@ -829,6 +197,15 @@ _Обновлено: 2026-05-10_
 - ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
 - ## Кто ключевые авторы проектов для контакта? [Какие роли наиболее релевантны для профиля svend4?]
 - _...ещё 17_
+
+### `QA.md` (19)
+
+- ## Какие кластеры найма выделены у Anthropic? [Q&A: lorenzo-agent]
+- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
+- ## Каковы этапы MVP и их оценка по времени? [Какие роли наиболее релевантны для профиля svend4?]
+- ## Что входит в первую итерацию прототипа? [Каковы этапы MVP и их оценка по времени?]
+- ## Кто ключевые авторы проектов для контакта? [Что входит в первую итерацию прототипа?]
+- _...ещё 14_
 
 ### `01-response-en.md` (19)
 
@@ -842,28 +219,19 @@ _Обновлено: 2026-05-10_
 ### `200-10-открытые-вопросы.md` (18)
 
 - Как может быть обеспечена состязательная устойчивость против изощрённой манипуляции контрагента? [10. Открытые вопросы]
-- Каковы соответствующие иерархии доверия между агентами, принадлежащими принципалу, и предоставленными платформой? [10.1. Технические Вопросы]
+- Каковы соответствующие иерархии доверия между агентами, принадлежащими принципалу, и предоставленными платформой? [10.1. Те]
 - Как должны работать переговоры между агентами, когда обе стороны имеют агентов? [10.1. Технические Вопросы]
 - Как обрабатывать ситуации, где предпочтения принципала конфликтуют с общими этическими нормами? [10.1. Технические Вопросы]
 - Какова правильная модель ценообразования для представительских агентов? [10.1. Технические Вопросы]
 - _...ещё 13_
 
-### `ACTION_ITEMS.md` (18)
-
-- - Хотите, чтобы я написал consolidating document «The Double-Triangle Architecture» в следующем сообщении? [➡️ Следующие шаги (273)]
-- - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идё [✅ Решения и рекомендации (493)]
-- Are you actually committing к multi-year Variant D vision, or treating это как aspirational document? [✅ Решения и рекомендации (493)]
-- - Adopt these documents как Lorenzo technical foundation? [✅ Решения и рекомендации (493)]
-- -   Почему это важно   Снижение риска [⚠️ Риски (954)]
-- _...ещё 13_
-
 ### `SITEMAP.md` (18)
 
-- Почему это валидный паттерн для AI-assisted wor (docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)   172 [Вакансии Anthropic — 436 позиций]
-- Why Single-Triangle Models Are Incomplete (docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)   613 [Вакансии Anthropic — 436 позиций]
-- 3    Четыре структурные причины, почему это не работает (docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)   339 [anthropic-vacancies]
-- 7    Почему двойственность «ангел-хранитель + строгий д (docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)   511 [anthropic-vacancies]
-- 14    Section 2: Why this matters — beneficial dimension (docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md [anthropic-vacancies]
+- Почему это валидный паттерн для AI-assisted wor (02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)   302 [Вакансии Anthropic — 436 позиций]
+- Why Single-Triangle Models Are Incomplete (02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)   633 [Вакансии Anthropic — 436 позиций]
+- 3    Четыре структурные причины, почему это не работает (anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)   420 [anthropic-vacancies]
+- 7    Почему двойственность «ангел-хранитель + строгий д (anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)   602 [anthropic-vacancies]
+- 14    Section 2: Why this matters — beneficial dimension (anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md)   3 [anthropic-vacancies]
 - _...ещё 13_
 
 ### `10-otkrytye-voprosy.md` (18)
@@ -886,15 +254,6 @@ _Обновлено: 2026-05-10_
 
 ### `QA.md` (17)
 
-- ## Какие кластеры найма выделены у Anthropic? [Q&A: lorenzo-agent]
-- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
-- ## Каковы этапы MVP и их оценка по времени? [Какие роли наиболее релевантны для профиля svend4?]
-- ## Что входит в первую итерацию прототипа? [Каковы этапы MVP и их оценка по времени?]
-- ## Кто ключевые авторы проектов для контакта? [Что входит в первую итерацию прототипа?]
-- _...ещё 12_
-
-### `QA.md` (17)
-
 - ## Какие системы памяти описаны в этом разделе? [Q&A: processing-guide]
 - ## Как происходит консолидация и забывание в памяти агентов? [Какие системы памяти описаны в этом разделе?]
 - ## Какова разница между эпизодической и семантической памятью? [Как происходит консолидация и забывание в памяти агентов?]
@@ -904,11 +263,29 @@ _Обновлено: 2026-05-10_
 
 ### `QA.md` (15)
 
-- ## Как реализован forensic RAG с доказуемостью? [Q&A: 01-svyazi]
+- ## Какие 5 архитектурных зазоров выделены в исследовании? [Q&A: 01-svyazi]
+- ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
+- ## Как реализован forensic RAG с доказуемостью? [Что входит в интеграционный контракт между слоями?]
 - ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
 - ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
-- ## Какие инструменты обеспечивают безопасность агентов? [Какие RAG-подходы сравниваются в документах?]
-- ## Какова политика доступа по умолчанию (tool classes)? [Какие инструменты обеспечивают безопасность агентов?]
+- _...ещё 10_
+
+### `QA.md` (15)
+
+- ## Как работает AgentFS и что такое .agentos? [Q&A: 05-habr-projects]
+- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
+- ## Как CardIndex хранит и версионирует карточки? [Что такое knowledge-space и для кого он предназначен?]
+- ## Кто ключевые авторы проектов для контакта? [Как CardIndex хранит и версионирует карточки?]
+- ## Какие вопросы лучше задавать авторам при первом контакте? [Кто ключевые авторы проектов для контакта?]
+- _...ещё 10_
+
+### `VERSION_DIFF.md` (15)
+
+- docs/nautilus/review-methodology/07-why-valid-for-ai.md    +87   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
+- docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md    +64   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
+- docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md    +43   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
+- docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md    +40   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
+- docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md    +32   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
 - _...ещё 10_
 
 ### `341-приложение-c-образец-спецификаций-инструментов-ing.md` (14)
@@ -922,11 +299,11 @@ _Обновлено: 2026-05-10_
 
 ### `READING_ORDER.md` (13)
 
-- 113   🟢 Начало    Зачем две версии параллельно (docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)   247   — [Рекомендуемый порядок чтения]
-- Почему это валидный паттерн для AI-assiste (docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)   172   — [Рекомендуемый порядок чтения]
-- Why Single-Triangle Models Are Incomplete (docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)   613   — [Рекомендуемый порядок чтения]
-- Why Existing Solutions Fail (docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)   805   — [Рекомендуемый порядок чтения]
-- The Cinderella Syndrome: Why Quality Stays (docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)   955   — [Рекомендуемый порядок чтения]
+- 119   🟢 Начало    Зачем две версии параллельно (02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)   330   — [Рекомендуемый порядок чтения]
+- Почему это валидный паттерн для AI-assiste (02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)   302   — [Рекомендуемый порядок чтения]
+- Why Single-Triangle Models Are Incomplete (02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)   633   — [Рекомендуемый порядок чтения]
+- Why Existing Solutions Fail (02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)   851   — [Рекомендуемый порядок чтения]
+- The Cinderella Syndrome: Why Quality Stays (02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)   1005   — [Рекомендуемый порядок чтения]
 - _...ещё 8_
 
 ### `00-question-innovations-transitions.md` (12)
@@ -956,15 +333,6 @@ _Обновлено: 2026-05-10_
 - Формулировка вопроса может быть такой:  если knowledge-space становится не просто reference base, а живым review‑слоем для системных ошибок и спорных  [Контактная стратегия и узкие вопросы для авторов]
 - _...ещё 6_
 
-### `QA.md` (11)
-
-- ## Как работает AgentFS и что такое .agentos? [Q&A: 05-habr-projects]
-- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
-- ## Как CardIndex хранит и версионирует карточки? [Что такое knowledge-space и для кого он предназначен?]
-- ## Какие 5 архитектурных зазоров выделены в исследовании? [Как CardIndex хранит и версионирует карточки?]
-- ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
-- _...ещё 6_
-
 ### `CONCEPTS.md` (11)
 
 - : explain fact — на вопрос «откуда ты это знаешь?» агент проходит по derived from-рёбрам до исходных диалогов [P]
@@ -972,6 +340,24 @@ _Обновлено: 2026-05-10_
 - : minimum AI capability for this architecture? [W]
 - : можно ли проверить, что слой работает правильно? [Д]
 - : есть ли понятный публичный API/контракт для интеграции? [И]
+- _...ещё 6_
+
+### `KNOWLEDGE_MAP.md` (11)
+
+- - ## Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - ## Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - ## Что такое Evidence Envelope и зачем он нужен? [Топ сущностей]
+- Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
+- - ## Какие RAG-подходы сравниваются в документах? [Открытые вопросы]
+- _...ещё 6_
+
+### `QA.md` (11)
+
+- ## Какие кластеры найма выделены у Anthropic? [Q&A: anthropic-vacancies]
+- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
+- ## Как реализован forensic RAG с доказуемостью? [Какие роли наиболее релевантны для профиля svend4?]
+- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
+- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
 - _...ещё 6_
 
 ### `PROCESSING_GUIDE.md` (11)
@@ -992,15 +378,6 @@ _Обновлено: 2026-05-10_
 - Кто будет meta-agent в реальных deployments? [7. Application к вашим реальным кейсам]
 - _...ещё 5_
 
-### `165-closing.md` (10)
-
-- -  Почему ваше наблюдение точное и важное (#почему-ваше-наблюдение-точное-и-важное) [Содержание]
-- Запрос    Да это интересная ссылка спасибо всем участникам за творчество и за вклад, что интересно может быть то что это работает на практике когда го [Final observation]
-- Релевантный фрагмент находится в разделе «Почему глубокий профиль важнее каталога»: [Final observation]
-- Кто заплатит за proactive collaboration matching между unknowns ? [unknown_legal_concepts.yml]
-- ### Почему ваше наблюдение точное и важное [Финальное наблюдение]
-- _...ещё 5_
-
 ### `QA.md` (10)
 
 - ## Как реализован forensic RAG с доказуемостью? [Q&A: 03-technology-combinations]
@@ -1010,23 +387,23 @@ _Обновлено: 2026-05-10_
 - ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
 - _...ещё 5_
 
-### `DUPLICATES.md` (10)
+### `CLUSTERS.md` (10)
 
-- docs ,  automation   -       Есть время на Фазу C в течение 2 недель? [100% — `docs/GITHUB_ISSUES.md` vs `docs/obsidian/GITHUB_ISSU]
-- -  docs/02-anthropic-vacancies/182-acknowledgments.md  —  182-acknowledgments  -  docs/02-anthropic-vacancies/252-abstract.md  —  252-abstract  -  doc [100% — `docs/obsidian/contacts/README.md` vs `docs/contacts/]
-- Какая рутинная работа поглощает ваше время? [100% — `docs/obsidian/02-anthropic-vacancies/197-7-управлени]
-- Почему работает  : Позволяет высокоталантливым, но наивным в бизнесе создателям сосредоточиться на творчестве, по-прежнему получая справедливое вознаг [92% — `docs/obsidian/01-svyazi/01-executive-summary.md` vs `]
-- Q4  : Как долго может оставаться документ в transitional state? [90% — `docs/obsidian/02-anthropic-vacancies/242-11-призыв-к-]
+- -  Кластер 21 — вариант, docs, anthropic-vacancies, зачем-две-версии-параллельно (7 файлов) (#кластер-21-вариант-docs-anthropic-vacancies-зачем-две-ве [Contents]
+- -  Кластер 26 — acknowledgments, document, anthropic-vacancies, why-this-document-exists (6 файлов) (#кластер-26-acknowledgments-document-anthropic-va [Contents]
+- - Кластер 21 — вариант, docs,  anthropic-vacancies, зачем-две-версии-параллельно (7 файлов) (#кластер-21-вариант-docs-anthropic-vacancies-зачем-две-ве [Contents]
+- - Кластер 26 — acknowledgments, document,  anthropic-vacancies, why-this-document-exists (6 файлов) (#кластер-26-acknowledgments-document-anthropic-va [Contents]
+- - Кластер 21 — вариант, docs,  anthropic-vacancies, зачем-две-версии-параллельно (7 файлов) (#кластер-21-вариант-docs-anthropic-vacancies-зачем-две-ве [Contents]
 - _...ещё 5_
 
-### `150-appendix-c-version-history.md` (9)
+### `QA.md` (10)
 
-- -  Часть 1: Почему Anthropic имеет 400+ открытых вакансий в мировой компании №1? [Содержание]
-- -  Часть 8: Как это соотносится с вашей текущей работой (#часть-8-как-это-соотносится-с-вашей-текущей-работой) [Содержание]
-- purpose: str                # why this branch was created [Комментарий к документу]
-- Написать blog post на тему «Почему в компании №1 на рынке 440 вакансий не закрываются» — с тезисами из part 1 этого ответа. [С]
-- Что из этого feels aligned с вашими current capabilities и interest? [Следующие конкретные шаги]
-- _...ещё 4_
+- ## Как реализован forensic RAG с доказуемостью? [Q&A: ai-collaborations]
+- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
+- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
+- ## Как работает AgentFS и что такое .agentos? [Какие RAG-подходы сравниваются в документах?]
+- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
+- _...ещё 5_
 
 ### `171-2-historical-precedents-agents-as-civilizational-i.md` (9)
 
@@ -1044,15 +421,6 @@ _Обновлено: 2026-05-10_
 - How to handle situations where principal preferences [10.1. Technical Questions]
 - How do we ensure access for those who cannot pay? [10.2. Economic Questions]
 - What's the legal status of agent communications? [10.2. Economic Questions]
-- _...ещё 4_
-
-### `QA.md` (9)
-
-- ## Какие кластеры найма выделены у Anthropic? [Q&A: anthropic-vacancies]
-- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
-- ## Как реализован forensic RAG с доказуемостью? [Какие роли наиболее релевантны для профиля svend4?]
-- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
-- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
 - _...ещё 4_
 
 ### `10-open-questions.md` (9)
@@ -1084,10 +452,10 @@ _Обновлено: 2026-05-10_
 
 ### `283-what-this-document-doesn-t-solve.md` (8)
 
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [What This Document Doesn't Solve]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Поиск по теме документа]
 - -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
 - -  Why This Document Exists (275-why-this-document-exists.md)  37% [Упоминается в]
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  21% [What This Document Doesn't Solve]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  21% [Поиск по теме документа]
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  17% [Связанные документы]
 - _...ещё 3_
 
@@ -1102,11 +470,20 @@ _Обновлено: 2026-05-10_
 
 ### `01-three-related-themes.md` (8)
 
-- Часть 1: Почему Anthropic имеет 400+ открытых вакансий в мировой компании №1? [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
-- Теперь по существу — почему эти вакансии не закрыты. [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
-- Ваш главный вопрос: существуют ли эти люди, но инфраструктура не готова? [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
-- Какие инфраструктурные проблемы можно решить с помощью AI, чтобы bridge этот gap — превратить существующий талант в deployable contribution? [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
-- Почему это именно сейчас стало возможным [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
+- Часть 1: Почему Anthropic имеет 400+ открытых вакансий в мировой компании №1? [Contents]
+- Теперь по существу — почему эти вакансии не закрыты. [Contents]
+- Ваш главный вопрос: существуют ли эти люди, но инфраструктура не готова? [Contents]
+- Какие инфраструктурные проблемы можно решить с помощью AI, чтобы bridge этот gap — превратить существующий талант в deployable contribution? [Contents]
+- Почему это именно сейчас стало возможным [Contents]
+- _...ещё 3_
+
+### `QA.md` (8)
+
+- ## Как реализован forensic RAG с доказуемостью? [Q&A: svyazi-2-0]
+- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
+- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
+- ## Как работает AgentFS и что такое .agentos? [Какие RAG-подходы сравниваются в документах?]
+- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
 - _...ещё 3_
 
 ### `192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (7)
@@ -1138,10 +515,10 @@ _Обновлено: 2026-05-10_
 
 ### `TIMELINE.md` (7)
 
-- - 📌   2022   ·  Why This Hasn't Been Built [2022 (12 упоминаний)]
-- - 📌   2022   ·  Почему это не было построено [2022 (12 упоминаний)]
-- - 📌   2022   ·  Why This Hasn't Been Built [2022 (12 упоминаний)]
-- - 📌   2022   ·  Почему это не было построено [2022 (12 упоминаний)]
+- - 📌   2022   ·  Why This Hasn't Been Built [2022 (13 упоминаний)]
+- - 📌   2022   ·  Почему это не было построено [2022 (13 упоминаний)]
+- - 📌   2022   ·  Why This Hasn't Been Built [2022 (13 упоминаний)]
+- - 📌   2022   ·  Почему это не было построено [2022 (13 упоминаний)]
 - Почему это именно сейчас стало возможным В 2023 — невозможно. [2023 (11 упоминаний)]
 - _...ещё 2_
 
@@ -1156,9 +533,9 @@ _Обновлено: 2026-05-10_
 
 ### `02-methodology.md` (6)
 
-- ✅   Результат:   Лицензия — позволяет ли лицензия встроить в более широкую систему? [Методика и рамка отбора проектов]
+- ✅   Результат:   Лицензия — позволяет ли лицензия встроить в более широкую систему? [Contents]
 - Интерфейс   — есть ли понятный публичный API/контракт для интеграции? [Принцип отбора паттернов]
-- Лицензия   — позволяет ли лицензия встроить в более широкую систему? [Принципы интеграционной]
+- Лицензия   — позволяет ли лицензия встроить в более широкую систему? [Принципы инт]
 - Уникальность слоя   — закрывает ли проект то, чего нет в других? [Принципы интеграционной оценки]
 - Стыковка   — насколько легко соединить с соседними слоями? [Принципы интеграционной оценки]
 - _...ещё 1_
@@ -1168,7 +545,7 @@ _Обновлено: 2026-05-10_
 - Почему именно она вам подходит больше всего: [Сводка профиля, как я его вижу]
 - Страница svend4?tab=repositories с полным списком всех 56 репозиториев заблокирована для автоматического fetch через robots.txt — это ограничение  Git [Итог]
 - Остальные 53 репо без доступа к ?tab=repositories я вижу только по косвенным признакам из userMemories, поэтому для них — снизу — дам метод, как получ [Итог]
-- GitHub (../docs/01-svyazi/03-component-catalog.md) блокирует ?tab=repositories через robots.txt для моего fetcher'а. [People — 3 роли]
+- GitHub (../01-svyazi/03-component-catalog.md) блокирует ?tab=repositories через robots.txt для моего fetcher'а. [People — 3 роли]
 - information (Mar 11, «новости ньюз») — новостной агрегатор? [Кластер 3: AI / Agents / Novel architectures (≈13 репо)]
 - _...ещё 1_
 
@@ -1235,10 +612,19 @@ _Обновлено: 2026-05-10_
 - Continue conversation или pause для обдумывания? [Вопросы к вам]
 - _...ещё 1_
 
+### `GITHUB_ISSUES.md` (6)
+
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- _...ещё 1_
+
 ### `REPORT.md` (6)
 
-- AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   90   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые проекты]
-- VitalyOborin     Yodoca   memory   73   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
+- AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   110   Держать operational benchmark/gotcha cards в одной базе с reference cards и [Ключевые проекты]
+- VitalyOborin     Yodoca   memory   87   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
 - -   Интерфейс   — есть ли понятный публичный API/контракт для интеграции? [Открытые вопросы]
 - -   Доказуемость   — можно ли проверить, что слой работает правильно? [Открытые вопросы]
 - - Как двойственная архитектура избегает этого? [Открытые вопросы]
@@ -1246,20 +632,20 @@ _Обновлено: 2026-05-10_
 
 ### `05-polymath-project-tao-comparison.md` (6)
 
-- Вверху цитата того чтобы написали интересно вариант А что если в варианте C будет 1 м агент который координирует метаагент который координирует проект [Сравнение с Terence Tao, Polymath Project]
-- Ключевая метафора: если автозавод может автоматизировать очень сложный процесс сборки автомобиля на конвейере, почему нельзя построить такой же конвей [Сравнение с Terence Tao, Polymath Project]
-- Почему не сделать аналогичный pipeline из программных агентов для интеллектуального труда? [Сравнение с Terence Tao, Polymath Project]
-- Вопрос: как вы оцениваете эту многоуровневую агентную архитектуру, где каждый член команды получает персонального AI-куратора? [Сравнение с Terence Tao, Polymath Project]
-- Какие существуют аналоги и подходы — от классических до экзотических? [Сравнение с Terence Tao, Polymath Project]
+- Вверху цитата того чтобы написали интересно вариант А что если в варианте C будет 1 м агент который координирует метаагент который координирует проект [Contents]
+- Ключевая метафора: если автозавод может автоматизировать очень сложный процесс сборки автомобиля на конвейере, почему нельзя построить такой же конвей [Contents]
+- Почему не сделать аналогичный pipeline из программных агентов для интеллектуального труда? [Contents]
+- Вопрос: как вы оцениваете эту многоуровневую агентную архитектуру, где каждый член команды получает персонального AI-куратора? [Contents]
+- Какие существуют аналоги и подходы — от классических до экзотических? [Contents]
 - _...ещё 1_
 
 ### `01-response.md` (6)
 
-- Почему ваше наблюдение точное и важное [Claude hat geantwortet: Это сильное продолжение мысли, и оно]
-- Mitigation: transparency о какие decisions agent делает и почему. [Claude hat geantwortet: Это сильное продолжение мысли, и оно]
-- Часть development of judgment in business comes от experience — from being rejected, learning why, adjusting. [Claude hat geantwortet: Это сильное продолжение мысли, и оно]
-- Integration в OKWF document, или separate short paper? [Claude hat geantwortet: Это сильное продолжение мысли, и оно]
-- И еще один thoughtful вопрос для consideration: в вашем личном случае, как retired engineer / disabled expert / researcher with limited public presenc [Claude hat geantwortet: Это сильное продолжение мысли, и оно]
+- Почему ваше наблюдение точное и важное [Contents]
+- Mitigation: transparency о какие decisions agent делает и почему. [Contents]
+- Часть development of judgment in business comes от experience — from being rejected, learning why, adjusting. [Contents]
+- Integration в OKWF document, или separate short paper? [Contents]
+- И еще один thoughtful вопрос для consideration: в вашем личном случае, как retired engineer / disabled expert / researcher with limited public presenc [Contents]
 - _...ещё 1_
 
 ### `01-why-binary-incomplete.md` (6)
@@ -1273,17 +659,17 @@ _Обновлено: 2026-05-10_
 
 ### `01-response.md` (6)
 
-- В той дискуссии стоял вопрос: «как оркестровать команду живых фрилансеров через hierarchy AI-агентов?» И ответ был на уровне generalized discussion пр [Claude hat geantwortet: Отличный запрос.]
-- Какие минимальные дополнительные компоненты нужны для того, чтобы превратить Nautilus из knowledge federation в team coordination? [Claude hat geantwortet: Отличный запрос.]
-- Сколько вы реально можете sustain в текущем темпе? [Claude hat geantwortet: Отличный запрос.]
-- Что нужно закрыть прежде чем брать новые initiatives? [Claude hat geantwortet: Отличный запрос.]
-- Или, может быть, сейчас лучше просто пауза — не написать новый документ, а осмыслить, что уже сделано, и вернуться к этому через неделю-две? [Claude hat geantwortet: Отличный запрос.]
+- В той дискуссии стоял вопрос: «как оркестровать команду живых фрилансеров через hierarchy AI-агентов?» И ответ был на уровне generalized discussion пр [Contents]
+- Какие минимальные дополнительные компоненты нужны для того, чтобы превратить Nautilus из knowledge federation в team coordination? [Contents]
+- Сколько вы реально можете sustain в текущем темпе? [Contents]
+- Что нужно закрыть прежде чем брать новые initiatives? [Contents]
+- Или, может быть, сейчас лучше просто пауза — не написать новый документ, а осмыслить, что уже сделано, и вернуться к этому через неделю-две? [Contents]
 - _...ещё 1_
 
 ### `narrow-questions.md` (6)
 
-- Кому   Лучший первый вопрос   Почему именно он [Узкие вопросы для каждого автора]
-- entity "people","Андрей Чуян","habr author"    Стоит ли расширять CardIndex до  person/project/episode/evidence , или для discovery и moderation лучше [Узкие вопросы для каждого автора]
+- Кому   Лучший первый вопрос   Почему именно он [Contents]
+- entity "people","Андрей Чуян","habr author"    Стоит ли расширять CardIndex до  person/project/episode/evidence , или для discovery и moderation лучше [Contents]
 - kksudo     Что лучше класть в  .agentos , а что выносить в machine-only state вне vault conventions? [Адресные вопросы]
 - entity "people","Виталий Оборин","software engineer"    Что сильнее всего влияет на качество памяти: отдельный consolidator, decay или строгая типизац [Адресные вопросы]
 - spbmolot     Где проходит практическая граница между полезной ассоциацией и ложной ко‑активацией тем? [Адресные вопросы]
@@ -1297,37 +683,21 @@ _Обновлено: 2026-05-10_
 - Q3  : Что делать, если A и B радикально расходятся в структуре? [8.2. Открытые вопросы]
 - Q4  : Как долго может оставаться документ в transitional state? [8.2. Открытые вопросы]
 
-### `122-глоссарий.md` (5)
-
-- Когда в академической статье/документе вводится новая методология, первый вопрос рецензента: «а что из этого новое, что старое?». [Комментарий к документу]
-- Это единственное место в документе, где проговорена экономическая подоплёка : почему традиционная DRY-policy перестаёт работать, когда unit cost меняе [Комментарий к документу]
-- #### Почему этот документ важнее, чем кажется [Комментарий к документу]
-- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
-- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  29% [Упоминается в]
-
-### `138-1-why-single-triangle-models-are-incomplete.md` (5)
-
-- Why Single-Triangle Models Are Incomplete (#1-why-single-triangle-models-are-incomplete) [1.]
-- Why Single-Triangle Models Are Incomplete (#1-why-single-triangle-models-are-incomplete) [1.]
-- does one person amplify their capacity with AI? [1.1. The Current Landscape]
-- answers:   how do we automate entire workflows with AI? [1.1. The Current Landscape]
-- lead's decisions about   how   to coordinate the engineer depend [1.2. What Both Paradigms Miss]
-
 ### `142-5-pattern-library-as-bridge-between-triangles.md` (5)
 
 - Why This Architecture Is Critical for Double-Triangle (#55-why-this-architecture-is-critical-for-double-triangle) [Содержание]
 - each Node privately replicating this knowledge? [5.1. The Problem of Shared Knowledge]
 - Why This Architecture Is Critical for Double-Triangle [Содержание]
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [5.5. Why This Architecture Is Critical for Double-Triangle]
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  21% [5.5. Why This Architecture Is Critical for Double-Triangle]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Похожие документы]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  21% [Похожие документы]
 
 ### `253-table-of-contents.md` (5)
 
 - Why the Binary View Is Incomplete [Table of Contents]
 - Why the Binary View Is Incomplete [Table of Contents]
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Table of Contents]
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [Table of Contents]
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [Table of Contents]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Смотрите также]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [Смотрите также]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [Смотрите также]
 
 ### `257-4-the-sub-agent-registry.md` (5)
 
@@ -1339,24 +709,16 @@ _Обновлено: 2026-05-10_
 
 ### `266-13-closing.md` (5)
 
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [13. Closing]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Смотрите также]
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  25% [13. Closing]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  25% [Смотрите также]
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  17% [Упоминается в]
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  29% [Упоминается в]
-
-### `272-appendix-d-connection-diagram.md` (5)
-
-- -  Что существует сейчас и почему этого недостаточно (#что-существует-сейчас-и-почему-этого-недостаточно) [Содержание]
-- ### Что существует сейчас и почему этого недостаточно [Проблема, которую вы описали — это реальная проблема]
-- Существуют ли organizations, которые могли бы это построить? [Технически это построить — что нужно]
-- Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать? [Связь с тем, что вы построили]
-- Запрос    Что-то типа два второй пункт но не второй пункт а второй пункт.три  2.3 почему два точка три а не 2.5 потому что этот вопрос находится не со [Один honest мысль]
 
 ### `278-why-this-hasn-t-been-built.md` (5)
 
 - # Why This Hasn't Been Built
-- -  Why This Hasn't Been Built (#why-this-hasnt-been-built) [С]
+- -  Why This Hasn't Been Built (#why-this-hasnt-been-built) [Why This Hasn't Been Built]
 - ## Why This Hasn't Been Built [Содержание]
 - -  Why This Document Exists (275-why-this-document-exists.md)  17% [Связанные документы]
 - -  Why This Document Exists (275-why-this-document-exists.md)  21% [Связанные документы]
@@ -1377,6 +739,14 @@ _Обновлено: 2026-05-10_
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  25% [Упоминается в]
 - -  Why This Document Exists (275-why-this-document-exists.md)  42% [Упоминается в]
 
+### `293-почему-это-не-было-построено.md` (5)
+
+- # Почему это не было построено
+- -  Почему это не было построено (#почему-это-не-было-построено) [Почему это не было построено]
+- 🎯   Проблема:   Почему это не было построено Объяснение 1 — Это сложнее, чем выглядит. [Contents]
+- 🏷️   Ключевые слова:    anthropic ,  объяснение ,  vacancies ,  которая ,  заключение ,  сотрудничество ,  почему ,  построено [Contents]
+- ## Почему это не было построено [Contents]
+
 ### `308-table-of-contents.md` (5)
 
 - The Cowork Discovery and Why It Changes Everything [Table of Contents]
@@ -1389,9 +759,9 @@ _Обновлено: 2026-05-10_
 
 - ✅   Результат:   Что InGit обеспечивает, чего Cowork не хватает Не менее важно: где InGit добавляет ценность, которую Cowork в одиночку не обеспечивае [3. Что InGit обеспечивает, чего Cowork не хватает]
 - которую Cowork в одиночку не обеспечивает? [3. Что InGit обеспечивает, чего Cowork не хватает]
-- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md) [Author]
-- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  17% [Author]
-- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  21% [Author]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md) [Использ]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  17% [Использ]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  21% [Использ]
 
 ### `00-intro.md` (5)
 
@@ -1399,55 +769,55 @@ _Обновлено: 2026-05-10_
 - Слой qwen-classifier перед роутером — твой legal-domain-manager уже умеет классифицировать тип запроса (Bescheid? [Статус]
 - утром tmux-деревня готовит саммари: «вчера ночью провёл 47 экспериментов, эти 3 улучшили LCI на 0.05, эти 2 деградировали — посмотри почему». [Статус]
 - — для больших кодовых/инженерных корпусов: «где в документации реально написано, что этот API deprecated?» — и сразу подсветка места. [Статус]
-- Prompt Worms показывает, почему это не теория:  OpenClaw (../docs/05-habr-projects/memory/memnet.md) назван «идеальным носителем» из-за доступа к файл [Статус]
+- Prompt Worms показывает, почему это не теория:  OpenClaw (../05-habr-projects/memory/memnet.md) назван «идеальным носителем» из-за доступа к файловой  [Статус]
 
 ### `CONTACTS.md` (5)
 
-- AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   90   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые авторы проектов]
-- VitalyOborin     Yodoca   memory   73   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые авторы проектов]
-- andrey chuyan     Svyazi   ingestion/CardIndex   29   Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы [Ключевые авторы проектов]
-- kksudo     AgentFS   knowledge/filesystem   138   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
-- spbmolot     NGT Memory   memory   131   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discove [Ключевые авторы проектов]
-
-### `GITHUB_ISSUES.md` (5)
-
-- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-- -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+- AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   110   Держать operational benchmark/gotcha cards в одной базе с reference cards и [Ключевые авторы проектов]
+- VitalyOborin     Yodoca   memory   87   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые авторы проектов]
+- andrey chuyan     Svyazi   ingestion/CardIndex   33   Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы [Ключевые авторы проектов]
+- kksudo     AgentFS   knowledge/filesystem   178   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
+- spbmolot     NGT Memory   memory   155   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discove [Ключевые авторы проектов]
 
 ### `00-question-rephrasing.md` (5)
 
-- Особенно для высокого высококвалифицированный пенсионеров разработчиков что если например переменная эти полмиллиона долларов на одну одного разработч [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
-- Что, если вместо найма одного человека за, условно, $500K в год, этот бюджет разделить на команду из 5–10 фрилансеров, разбросанных по всему миру и не [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
-- А что если эту инфраструктуру частично заменит AI-агент, специализирующийся именно на сборке команд и сопровождении их на протяжении проекта? [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
-- Вопрос: имеет ли эта модель смысл? [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
-- Что уже существует в этом направлении? [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
+- Особенно для высокого высококвалифицированный пенсионеров разработчиков что если например переменная эти полмиллиона долларов на одну одного разработч [Contents]
+- Что, если вместо найма одного человека за, условно, $500K в год, этот бюджет разделить на команду из 5–10 фрилансеров, разбросанных по всему миру и не [Contents]
+- А что если эту инфраструктуру частично заменит AI-агент, специализирующийся именно на сборке команд и сопровождении их на протяжении проекта? [Contents]
+- Вопрос: имеет ли эта модель смысл? [Contents]
+- Что уже существует в этом направлении? [Contents]
 
 ### `06-angel-vs-demon-duality.md` (5)
 
 - # Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
 - Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
-- Они проверяют против правил, но не помогают понять почему правило есть и как решить задачу лучше. [Почему двойственность «ангел-хранитель + строгий демон» — ге]
-- Что происходит, когда два фрилансера с разными суб-агентами делают несовместимые решения? [Почему двойственность «ангел-хранитель + строгий демон» — ге]
-- В вашей модели мета-агент должен иметь authority разрешать конфликты, но на основании чего? [Почему двойственность «ангел-хранитель + строгий демон» — ге]
+- Они проверяют против правил, но не помогают понять почему правило есть и как решить задачу лучше. [Contents]
+- Что происходит, когда два фрилансера с разными суб-агентами делают несовместимые решения? [Contents]
+- В вашей модели мета-агент должен иметь authority разрешать конфликты, но на основании чего? [Contents]
 
 ### `13-reprioritization.md` (5)
 
-- Когда sub-agents disagree, what does Hermes do? [Переприоритизация: что Hermes покрывает / не покрывает / syn]
-- Does Hermes surface disagreements or auto-resolve? [Переприоритизация: что Hermes покрывает / не покрывает / syn]
-- Does the principal see attribution когда multiple skills contribute? [Переприоритизация: что Hermes покрывает / не покрывает / syn]
-- Does self-improvement preserve principal authority over their work? [Переприоритизация: что Hermes покрывает / не покрывает / syn]
-- Хотите ли сделать паузу, попробовать Hermes, потом возвращаться к documents с experience? [Переприоритизация: что Hermes покрывает / не покрывает / syn]
+- Когда sub-agents disagree, what does Hermes do? [Contents]
+- Does Hermes surface disagreements or auto-resolve? [Contents]
+- Does the principal see attribution когда multiple skills contribute? [Contents]
+- Does self-improvement preserve principal authority over their work? [Contents]
+- Хотите ли сделать паузу, попробовать Hermes, потом возвращаться к documents с experience? [Contents]
+
+### `QA.md` (5)
+
+- ## Какие системы памяти описаны в этом разделе? [Q&A: contacts]
+- ## Как происходит консолидация и забывание в памяти агентов? [Какие системы памяти описаны в этом разделе?]
+- ## Какова разница между эпизодической и семантической памятью? [Как происходит консолидация и забывание в памяти агентов?]
+- ## Кто ключевые авторы проектов для контакта? [Какова разница между эпизодической и семантической памятью?]
+- ## Какие вопросы лучше задавать авторам при первом контакте? [Кто ключевые авторы проектов для контакта?]
 
 ### `06-conclusion-deserves-attention.md` (5)
 
-- Decide: Принимаем эту architecture как Lorenzo vision? [Вывод: документ deserves serious attention]
-- Принимаем эту architecture как Lorenzo vision (с моими caveats)? [Вывод: документ deserves serious attention]
-- Если да — должен ли я update Lorenzo системный промпт с этой архитектурой? [Вывод: документ deserves serious attention]
-- Verify other sources — должен ли я fetch other Habr articles from cited document, чтобы validate? [Вывод: документ deserves serious attention]
-- Continue conversation или pause для обдумывания? [Вывод: документ deserves serious attention]
+- Decide: Принимаем эту architecture как Lorenzo vision? [Contents]
+- Принимаем эту architecture как Lorenzo vision (с моими caveats)? [Contents]
+- Если да — должен ли я update Lorenzo системный промпт с этой архитектурой? [Contents]
+- Verify other sources — должен ли я fetch other Habr articles from cited document, чтобы validate? [Contents]
+- Continue conversation или pause для обдумывания? [Contents]
 
 ### `QA.md` (5)
 
@@ -1473,13 +843,21 @@ _Обновлено: 2026-05-10_
 - configuration span sub-agents from multiple professions? [11.3. Cross-Professional Configurations]
 - Agent (Type 4) with truly individual specialization? [11.8. Transition from Composite to Representative]
 
+### `01-why-single-triangle-incomplete.md` (5)
+
+- Why Single-Triangle Models Are Incomplete (#1-why-single-triangle-models-are-incomplete) [1.]
+- Why Single-Triangle Models Are Incomplete (#1-why-single-triangle-models-are-incomplete) [1.]
+- does one person amplify their capacity with AI? [1.1. The Current Landscape]
+- answers:   how do we automate entire workflows with AI? [1.1. The Current Landscape]
+- lead's decisions about   how   to coordinate the engineer depend [1.2. What Both Paradigms Miss]
+
 ### `01-strategic-significance.md` (5)
 
-- Через MCP вы спрашиваете Claude: «Какую форму retrospective использовать для нашей команды после 3 месяцев без retrospective'ов?». [Claude hat geantwortet: Это стратегически значимый вопрос, и]
-- Developer спрашивает: «В каких версиях был bug X, как он фиксился, что было в changelog, какие issues связаны?» — и получает integrated ответ поверх в [Claude hat geantwortet: Это стратегически значимый вопрос, и]
-- Без отвлечения на философию, конкретно как это построить. [Claude hat geantwortet: Это стратегически значимый вопрос, и]
-- Интересно как intellectual exercise / understanding? [Claude hat geantwortet: Это стратегически значимый вопрос, и]
-- Интересно как concrete project, в который готовы вкладывать время? [Claude hat geantwortet: Это стратегически значимый вопрос, и]
+- Через MCP вы спрашиваете Claude: «Какую форму retrospective использовать для нашей команды после 3 месяцев без retrospective'ов?». [Contents]
+- Developer спрашивает: «В каких версиях был bug X, как он фиксился, что было в changelog, какие issues связаны?» — и получает integrated ответ поверх в [Contents]
+- Без отвлечения на философию, конкретно как это построить. [Contents]
+- Интересно как intellectual exercise / understanding? [Contents]
+- Интересно как concrete project, в который готовы вкладывать время? [Contents]
 
 ### `02-historical-precedents.md` (5)
 
@@ -1512,23 +890,30 @@ _Обновлено: 2026-05-10_
 - Почему consensus через string match, а не через embeddings? [Часть 4. Псевдокод ключевых компонентов]
 - Nautilus как протокол — для чего он нужен именно вам на этом этапе? [portal-mcp.py]
 
-### `104-appendix-c-references.md` (4)
+### `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` (4)
 
-- #### Почему это важный артефакт для вас [Комментарий к документу]
-- Любой reviewer, спрашивающий "почему federation, а не centralization?" — получает ссылку на ADR-001. [Комментарий к документу]
-- Пишу его с расчётом на две аудитории: вас самого (как напоминание правил на будущее) и внешнего читателя (researcher, collaborator, grant reviewer), к [Комментарий к документу]
-- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
+- # Вопрос: fallback-ratio как критический или осмысленный?
+- -  Вопрос: fallback-ratio как критический или осмысленный? [Вопрос: fallback-ratio как критический или осмысленный?]
+- ✅   Результат:   Два независимых анализа пришли к разным выводам: --- Вопрос: fallback-ratio как критический или осмысленный? [Contents]
+- ## Вопрос: fallback-ratio как критический или осмысленный? [Contents]
+
+### `138-1-why-single-triangle-models-are-incomplete.md` (4)
+
+- Why Single-Triangle Models Are Incomplete (#1-why-single-triangle-models-are-incomplete) [1.]
+- does one person amplify their capacity with AI? [1.1. The Current Landscape]
+- answers:   how do we automate entire workflows with AI? [1.1. The Current Landscape]
+- lead's decisions about   how   to coordinate the engineer depend [1.2. What Both Paradigms Miss]
 
 ### `156-2-target-populations.md` (4)
 
-- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [2.5. Cross-Cutting Observations]
-- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [Упоминается в]
-- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  17% [Упоминается в]
-- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)  17% [2.5. Cross-Cutting Observations]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [Смотрите также]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [Смотрите также]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  17% [Смотрите также]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)  17% [Смотрите также]
 
 ### `168-abstract.md` (4)
 
-- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [Abstract]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [Поиск по теме документа]
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  21% [Упоминается в]
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  25% [Упоминается в]
@@ -1552,21 +937,14 @@ _Обновлено: 2026-05-10_
 - who is also academic; engineer who is also entrepreneur)? [10.2. Multi-Profession Practitioners]
 - How do we measure quality of a Professional Colleague Agent? [10.4. Update Cadence]
 - Should some professions resist Professional Colleague Agents? [10.7. Profession-Wide Effects]
-- Are there professional values that AI augmentation undermines? [10.8. Appropr]
+- Are there professional values that AI augmentation undermines? [10.8. Appr]
 
 ### `258-5-configuration-how-principals-build-their-ensembl.md` (4)
 
 - A central question for Composite Skills Agents: how does a [5. Configuration: How Principals Build Their Ensembles]
 - A central question for Composite Skills Agents: how does a [5. Configuration: How Principals Build Their Ensembles]
-- principal arrive at their specific configuration? [5. Configuration: How P]
+- principal arrive at their specific configuration? [5. C]
 - - Which sub-agents are most used? [5.4. Configuration Evolution]
-
-### `293-почему-это-не-было-построено.md` (4)
-
-- # Почему это не было построено
-- 🎯   Проблема:   Почему это не было построено Объяснение 1 — Это сложнее, чем выглядит. [Почему это не было построено]
-- 🏷️   Ключевые слова:    anthropic ,  объяснение ,  vacancies ,  которая ,  заключение ,  сотрудничество ,  почему ,  построено [Почему это не было построено]
-- ## Почему это не было построено [Почему это не было построено]
 
 ### `309-1-the-cowork-discovery-and-why-it-changes-everythi.md` (4)
 
@@ -1580,7 +958,7 @@ _Обновлено: 2026-05-10_
 - 🎯   Проблема:   Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's ques [Содержание]
 - This document emerged from author's question about how to [Содержание]
 - This document emerged from author's question about how to [Содержание]
-- -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
+- -  Why This Document Exists (275-why-this-document-exists.md) [Смотрите также]
 
 ### `326-содержание.md` (4)
 
@@ -1596,47 +974,47 @@ _Обновлено: 2026-05-10_
 - : кто может с кем работать, почему, на основании каких источников, с каким риском, кто подтвердил, какие гипотезы устарели. [Ограничения, лицензии и что пока лучше не склеивать]
 - почему обычные CRM, Notion‑базы и RAG‑чаты не решают discovery коллабораций. [Ограничения, лицензии и что пока лучше не склеивать]
 
-### `KNOWLEDGE_MAP.md` (4)
+### `agent-memory-mcp.md` (4)
 
-- -   Интерфейс   — есть ли понятный публичный API/контракт для интеграции? [Открытые вопросы]
-- -   Доказуемость   — можно ли проверить, что слой работает правильно? [Открытые вопросы]
-- - Как двойственная архитектура избегает этого? [Открытые вопросы]
-- - Как бы выглядел Слой B идеально? [Открытые вопросы]
+- Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)? [Сравнение с другими memory-проектами]
+- Планируется ли поддержка внешних источников (CardIndex / doc-ingestion)? [Сравнение с другими memory-проектами]
+- Как memory write API взаимодействует с внешними источниками? [Сравнение с другими memory-проектами]
+- Планируется ли поддержка batch-ingestion из документов? [Открытые вопрос]
 
-### `VERSION_DIFF.md` (4)
+### `ACTION_ITEMS.md` (4)
 
-- docs/05-habr-projects/QA.md    -11   Что такое knowledge-space ^knowledge-space  и для кого он предназначен? [📝 Изменённые файлы (565)]
-- Что такое knowledge-space ^knowledge space  и для кого он предназначен? [📝 Изменённые файлы (565)]
-- docs/obsidian/05-habr-projects/QA.md    +5   Что такое knowledge-space ^knowledge-space  и для кого он предназначен? [📝 Изменённые файлы (565)]
-- Что такое knowledge-space ^knowledge space  и для кого он предназначен? [📝 Изменённые файлы (565)]
+- - Хотите, чтобы я написал consolidating document «The Double-Triangle Architecture» в следующем сообщении? [➡️ Следующие шаги (352)]
+- - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идё [✅ Решения и рекомендации (1076)]
+- Are you actually committing к multi-year Variant D vision, or treating это как aspirational document? [✅ Решения и рекомендации (1076)]
+- - Adopt these documents как Lorenzo technical foundation? [✅ Решения и рекомендации (1076)]
 
 ### `02-four-structural-blockers.md` (4)
 
 - # Четыре структурные причины, почему это не работает в текущих попытках
-- Почему это не работает в текущих попытках [Четыре структурные причины, почему это не работает в текущих]
-- Это главная причина, почему корпорации нанимают в штат, а не собирают команды фрилансеров: штатный сотрудник — одно юр.лицо, один контракт. [Четыре структурные причины, почему это не работает в текущих]
-- Если команда собрана ad hoc под миссию, кто владеет IP — AI-платформа, заказчик, сами фрилансеры? [Четыре структурные причины, почему это не работает в текущих]
+- Почему это не работает в текущих попытках [Contents]
+- Это главная причина, почему корпорации нанимают в штат, а не собирают команды фрилансеров: штатный сотрудник — одно юр.лицо, один контракт. [Contents]
+- Если команда собрана ad hoc под миссию, кто владеет IP — AI-платформа, заказчик, сами фрилансеры? [Contents]
 
 ### `00-question-mmorpg-for-programmers.md` (4)
 
-- Есть ещё один вариант который вы не просмотрели и просчитали он достаточно полуфантастический полусредневековую это ММО РПГ ну переделанная для переде [Вопрос: MMORPG-RPG переделанная для программистов / технарей]
-- Что уже существует в этой нише? [Вопрос: MMORPG-RPG переделанная для программистов / технарей]
-- Может ли это работать для программистов, или нужно переделывать под другие профессии? [Вопрос: MMORPG-RPG переделанная для программистов / технарей]
-- Поясню почему и где здесь реальные подводные камни. [Вопрос: MMORPG-RPG переделанная для программистов / технарей]
+- Есть ещё один вариант который вы не просмотрели и просчитали он достаточно полуфантастический полусредневековую это ММО РПГ ну переделанная для переде [Contents]
+- Что уже существует в этой нише? [Contents]
+- Может ли это работать для программистов, или нужно переделывать под другие профессии? [Contents]
+- Поясню почему и где здесь реальные подводные камни. [Contents]
 
 ### `01-response.md` (4)
 
-- Различие 5: Кто платит и почему [Claude hat geantwortet: Прочитаю статью, чтобы понимать конк]
-- Почему этот переход — не просто «улучшение», а архитектурный сдвиг [Claude hat geantwortet: Прочитаю статью, чтобы понимать конк]
-- Это объясняет, почему «Обучай» прошёл от 0 до 93 тысяч пользователей без сопротивления, в то время как Representative Agent Layer воспринимается как « [Claude hat geantwortet: Прочитаю статью, чтобы понимать конк]
-- Хотите, чтобы я написал этот sixth paper в следующем сообщении, или предпочтёте другое направление? [Claude hat geantwortet: Прочитаю статью, чтобы понимать конк]
+- Различие 5: Кто платит и почему [Contents]
+- Почему этот переход — не просто «улучшение», а архитектурный сдвиг [Contents]
+- Это объясняет, почему «Обучай» прошёл от 0 до 93 тысяч пользователей без сопротивления, в то время как Representative Agent Layer воспринимается как « [Contents]
+- Хотите, чтобы я написал этот sixth paper в следующем сообщении, или предпочтёте другое направление? [Contents]
 
 ### `03-the-spectrum.md` (4)
 
-- Возникает интересный вопрос: кто выбирает, какие под-агенты подключить? [Какой под-агент (или какие) должны её обработать]
-- Если у принципала десятки под-агентов, кто на самом деле представлен в его работе? [Какой под-агент (или какие) должны её обработать]
-- Если у принципала очень специфичный набор под-агентов, что произойдёт, если один из них перестанет поддерживаться? [Какой под-агент (или какие) должны её обработать]
-- Указать, как это меняет план развёртывания OKWF. [Какой под-агент (или какие) должны её обработать]
+- Возникает интересный вопрос: кто выбирает, какие под-агенты подключить? [Contents]
+- Если у принципала десятки под-агентов, кто на самом деле представлен в его работе? [Contents]
+- Если у принципала очень специфичный набор под-агентов, что произойдёт, если один из них перестанет поддерживаться? [Contents]
+- Указать, как это меняет план развёртывания OKWF. [Contents]
 
 ### `01-cowork-discovery.md` (4)
 
@@ -1649,15 +1027,15 @@ _Обновлено: 2026-05-10_
 
 - # Что из этого сейчас кажется более ценным?
 - Что из этого сейчас кажется более ценным?
-- И отдельный вопрос, если можете ответить: ваши soz  репозитории с документами по активным делам — насколько вам важна их приватность? [Что из этого сейчас кажется более ценным? Или какая-то своя ]
-- От этого зависит, можно ли делать legal-nautilus как публичный open-source проект (с публичными законами + demo кейсами) или он должен оставаться в ва [Что из этого сейчас кажется более ценным? Или какая-то своя ]
+- И отдельный вопрос, если можете ответить: ваши soz  репозитории с документами по активным делам — насколько вам важна их приватность? [Contents]
+- От этого зависит, можно ли делать legal-nautilus как публичный open-source проект (с публичными законами + demo кейсами) или он должен оставаться в ва [Contents]
 
 ### `10-open-questions.md` (4)
 
 - who is also academic; engineer who is also entrepreneur)? [10.2. Multi-Profession Practitioners]
 - How do we measure quality of a Professional Colleague Agent? [10.4. Update Cadence]
 - Should some professions resist Professional Colleague Agents? [10.7. Profession-Wide Effects]
-- Are there professional values that AI augmentation undermines? [10.8. Appropriate Resistance]
+- Are there professional values that AI augmentation undermines? [10.8.]
 
 ### `09-limitations-open-questions.md` (4)
 
@@ -1678,29 +1056,35 @@ _Обновлено: 2026-05-10_
 - -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  33% [Упоминается в]
 - -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  42% [Упоминается в]
 
-### `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` (3)
+### `113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` (3)
 
-- # Вопрос: fallback-ratio как критический или осмысленный?
-- ✅   Результат:   Два независимых анализа пришли к разным выводам: --- Вопрос: fallback-ratio как критический или осмысленный? [Вопрос: fallback-ratio как критический или осмысленный?]
-- ## Вопрос: fallback-ratio как критический или осмысленный? [Вопрос: fallback-ratio как критический или осмысленный?]
+- Почему это валидный паттерн для AI-assisted workflows [6.]
+- Почему это валидный паттерн для AI-assisted workflows (#6-почему-это-валидный-паттерн-для-ai-assisted-workflows) [6.]
+- Почему это валидный паттерн для AI-assisted workflows [6.]
 
 ### `136-abstract.md` (3)
 
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Abstract]
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  25% [Abstract]
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  33% [Abstract]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Смотрите также]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  25% [Смотрите также]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  33% [Смотрите также]
 
 ### `140-3-three-inter-layer-protocols.md` (3)
 
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [3.4. Protocol Interactions]
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  25% [3.4. Protocol Interactions]
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  29% [3.4. Protocol Interactions]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Смотрите также]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  25% [Смотрите также]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  29% [Смотрите также]
+
+### `150-appendix-c-version-history.md` (3)
+
+- -  Часть 1: Почему Anthropic имеет 400+ открытых вакансий в мировой компании №1? [Содержание]
+- -  Часть 8: Как это соотносится с вашей текущей работой (#часть-8-как-это-соотносится-с-вашей-текущей-работой) [Содержание]
+- purpose: str                # why this branch was created [Комментарий к документу]
 
 ### `155-1-problem-statement.md` (3)
 
 - Why This Matters Beyond Economics (#12-why-this-matters-beyond-economics) [Содержание]
-- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [1.3. Why Now]
-- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [1.3. Why Now]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [Смотрите также]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [Смотрите также]
 
 ### `190-содержание.md` (3)
 
@@ -1714,47 +1098,41 @@ _Обновлено: 2026-05-10_
 - Синдром Золушки: Почему качество остаётся невидимым (#1-синдром-золушки-почему-качество-остаётся-невидимым) [1.]
 - Синдром Золушки: Почему качество остаётся невидимым [1.]
 
-### `207-приложение-c-образцы-случаев-использования-в-детал.md` (3)
-
-- -  Почему этот переход — не просто «улучшение», а архитектурный сдвиг (#почему-этот-переход-не-просто-улучшение-а-архитектурный-сдвиг) [Содержание]
-- Это объясняет, почему «Обучай» прошёл от 0 до 93 тысяч пользователей без сопротивления, в то время как Representative Agent Layer воспринимается как « [Семь различий между Представительским Агентом и Профессионал]
-- Хотите, чтобы я написал этот sixth paper в следующем сообщении, или предпочтёте другое направление? [Почему этот переход — не просто «улучшение», а архитектурный]
-
 ### `252-abstract.md` (3)
 
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Abstract]
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  48% [Abstract]
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  42% [Abstract]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Смотр]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  48% [Смотр]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  42% [Смотр]
 
 ### `255-2-the-twenty-one-teachers-pattern.md` (3)
 
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [2.4. AI Architecture Should Mirror This]
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [2.4. AI Architecture Should Mirror This]
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  25% [2.4. AI Architecture Should Mirror This]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Смотрите также]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [Смотрите также]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  25% [Смотрите также]
 
 ### `284-practical-recommendations-for-the-current-project.md` (3)
 
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Practical Recommendations for the Current Project]
-- -  Why This Document Exists (275-why-this-document-exists.md)  25% [Связанные документы]
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  29% [Practical Recommendations for the Current Project]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Смотрите также]
+- -  Why This Document Exists (275-why-this-document-exists.md)  25% [Связанные документ]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  29% [Смотрите также]
+
+### `290-почему-этот-документ-существует.md` (3)
+
+- -  Почему этот документ существует (#почему-этот-документ-существует) [Почему этот документ существует]
+- 🎯   Проблема:   Почему этот документ существует Семь предыдущих документов в этой серии были --- Почему этот документ существует Семь предыдущих докум [Contents]
+- 🏷️   Ключевые слова:    документ ,  anthropic ,  vacancies ,  документов ,  почему ,  существует ,  предыдущих ,  серии [Contents]
 
 ### `296-рекурсивное-прозрение.md` (3)
 
-- -  Почему это не было построено (293-почему-это-не-было-построено.md) [Рекурсивное прозрение]
-- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Упоминается в]
-- -  Почему этот документ существует (290-почему-этот-документ-существует.md)  17% [Упоминается в]
-
-### `303-приложение-визуализация-позиции-в-серии.md` (3)
-
-- -  Стоит ли разделить InGit на части и интегрировать в чат? [Содержание]
-- Что если InGit станет template для Cowork Projects ? [Краткие заметки к переводу]
-- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  17% [Конкретный практический вопрос]
+- -  Почему это не было построено (293-почему-это-не-было-построено.md) [Смотрите также]
+- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Смотрите также]
+- -  Почему этот документ существует (290-почему-этот-документ-существует.md)  17% [Смотрите также]
 
 ### `307-abstract.md` (3)
 
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Abstract]
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  25% [Abstract]
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  29% [Abstract]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Смотрите также]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  25% [Смотрите также]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  29% [Смотрите также]
 
 ### `327-1-открытие-cowork-и-почему-это-меняет-всё.md` (3)
 
@@ -1768,47 +1146,65 @@ _Обновлено: 2026-05-10_
 - Риск   Почему это важно   Снижение риска [План прототипа и возможные контакты]
 - Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [План прототипа и возможные контакты]
 
+### `KPI.md` (3)
+
+- 440     я-связь  - blog post на тему «Почему в компании №1 на рынке 440 вакансий не закр    ACTION ITEMS [Количество (470)]
+- 2     адаптер для нового репо без задавания вопросов автору? [Этап (186)]
+- 3     озвращает non-empty результат с consensus-информацией? [Этап (186)]
+
 ### `03-nautilus-B-meta-orchestrator.md` (3)
 
-- Discovery mechanism — как meta-repo находит под-репо (GitHub API? [Наутилус B: nautilus — мета-оркестратор репозиториев (внешня]
-- Что такое Q6-гиперкуб и почему 64 гексаграммы [Наутилус B: nautilus — мета-оркестратор репозиториев (внешня]
-- Что такое LCI и почему target π [Наутилус B: nautilus — мета-оркестратор репозиториев (внешня]
+- Discovery mechanism — как meta-repo находит под-репо (GitHub API? [Contents]
+- Что такое Q6-гиперкуб и почему 64 гексаграммы [Contents]
+- Что такое LCI и почему target π [Contents]
+
+### `vitalysemenov.md` (3)
+
+- Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)? [Проект: agent-memory-mcp]
+- Планируется ли поддержка внешних источников (CardIndex / doc-ingestion)? [Вопросы для первого конт]
+- Открыты к интеграционным PR для Svyazi 2.0? [Вопросы для первого контакта]
 
 ### `07-progression-logic.md` (3)
 
-- После Уровня 0: Достаточно ли value от ручного режима? [Логика прогрессии: conservative escalation]
-- После Уровня 1: Persistified Lorenzo полезен? [Логика прогрессии: conservative escalation]
-- После Уровня 2: Public presence yields response? [Логика прогрессии: conservative escalation]
+- После Уровня 0: Достаточно ли value от ручного режима? [Contents]
+- После Уровня 1: Persistified Lorenzo полезен? [Contents]
+- После Уровня 2: Public presence yields response? [Contents]
 
 ### `08-current-session-poc.md` (3)
 
-- С какими existing collaborators (HMP, Свяжи, Анастасия и т.д.) комплементарно? [Что мы можем делать прямо сейчас (Уровень 0 + параллельная п]
-- Это создаёт серьёзный ethical question: Может ли AI realistically иметь миссию? [Что мы можем делать прямо сейчас (Уровень 0 + параллельная п]
-- Или это language-game, где «миссия» это просто описание behavior которое Макс instilled? [Что мы можем делать прямо сейчас (Уровень 0 + параллельная п]
+- С какими existing collaborators (HMP, Свяжи, Анастасия и т.д.) комплементарно? [Contents]
+- Это создаёт серьёзный ethical question: Может ли AI realistically иметь миссию? [Contents]
+- Или это language-game, где «миссия» это просто описание behavior которое Макс instilled? [Contents]
 
 ### `01-response.md` (3)
 
-- Помните 2023 Stanford «Generative Agents: Interactive Simulacra of Human Behavior» — 25 агентов в The Sims-style sandbox? [Claude hat geantwortet: Очень интересный вопрос.]
-- Authenticity questions (whose vision is это?) [Claude hat geantwortet: Очень интересный вопрос.]
-- А reflection — это вы делаете уже? [Claude hat geantwortet: Очень интересный вопрос.]
+- Помните 2023 Stanford «Generative Agents: Interactive Simulacra of Human Behavior» — 25 агентов в The Sims-style sandbox? [Contents]
+- Authenticity questions (whose vision is это?) [Contents]
+- А reflection — это вы делаете уже? [Contents]
 
 ### `05-configuration-ensembles.md` (3)
 
-- A central question for Composite Skills Agents: how does a [5. Conf]
-- principal arrive at their specific configuration? [5. Configuration: How Principals Build Their Ensembles]
+- A central question for Composite Skills Agents: how does a [Содержание]
+- principal arrive at their specific configuration? [5. Configuration: How Principals Build Their Ens]
 - - Which sub-agents are most used? [5.4. Configuration Evolution]
-
-### `01-why-single-triangle-incomplete.md` (3)
-
-- does one person amplify their capacity with AI? [1.1. The Current Landscape]
-- answers:   how do we automate entire workflows with AI? [1.1. The Current Landscape]
-- lead's decisions about   how   to coordinate the engineer depend [1.2. What Both Paradigms Miss]
 
 ### `05-pattern-library-bridge.md` (3)
 
 - Why This Architecture Is Critical for Double-Triangle (#55-why-this-architecture-is-critical-for-double-triangle) [Содержание]
 - each Node privately replicating this knowledge? [5.1. The Problem of Shared Knowledge]
 - Why This Architecture Is Critical for Double-Triangle [Содержание]
+
+### `05-why-not-built.md` (3)
+
+- # Why This Hasn't Been Built
+- -  Why This Hasn't Been Built (#why-this-hasnt-been-built) [Why This Hasn't Been Built]
+- ## Why This Hasn't Been Built [Contents]
+
+### `04-pochemu-ne-postroeno.md` (3)
+
+- # Почему это не было построено
+- -  Почему это не было построено (#почему-это-не-было-построено) [Почему это не было построено]
+- ## Почему это не было построено [Contents]
 
 ### `01-otkrytie-cowork.md` (3)
 
@@ -1818,9 +1214,9 @@ _Обновлено: 2026-05-10_
 
 ### `02-mcp-claude-desktop-use-cases.md` (3)
 
-- «Какие решения Sozialgericht Dresden за 2024–2026 касались Eingliederungshilfe для психиатрических пациентов?» → legal query с jurisdiction�/SN + topi [Что он даёт вам на практике. Через MCP Claude Desktop может ]
-- «Соответствует ли содержание Bescheid от Sozialamt Dresden 15.11.2025 требованиям SGB XII § 62?» → legal consensus check между двумя источниками [Что он даёт вам на практике. Через MCP Claude Desktop может ]
-- «Какой срок Widerspruch на Bescheid от Y-Datum?» → автоматический расчёт через deadline metadata [Что он даёт вам на практике. Через MCP Claude Desktop может ]
+- «Какие решения Sozialgericht Dresden за 2024–2026 касались Eingliederungshilfe для психиатрических пациентов?» → legal query с jurisdiction�/SN + topi [Contents]
+- «Соответствует ли содержание Bescheid от Sozialamt Dresden 15.11.2025 требованиям SGB XII § 62?» → legal consensus check между двумя источниками [Contents]
+- «Какой срок Widerspruch на Bescheid от Y-Datum?» → автоматический расчёт через deadline metadata [Contents]
 
 ### `22-glossary.md` (3)
 
@@ -1830,9 +1226,9 @@ _Обновлено: 2026-05-10_
 
 ### `04-what-i-can-do-now.md` (3)
 
-- Практическая ценность: вы можете сразу использовать для анонимизации одного вашего кейса и увидеть, как это работает на реальном материале. [Что я могу сделать сейчас]
-- Или комбинация — например, первое + второе параллельно? [Что я могу сделать сейчас]
-- И вопрос уточняющий, если можете ответить: timeline, в котором вы хотели бы развивать эту humanities-extension Nautilus — это параллельная с основным  [Что я могу сделать сейчас]
+- Практическая ценность: вы можете сразу использовать для анонимизации одного вашего кейса и увидеть, как это работает на реальном материале. [Contents]
+- Или комбинация — например, первое + второе параллельно? [Contents]
+- И вопрос уточняющий, если можете ответить: timeline, в котором вы хотели бы развивать эту humanities-extension Nautilus — это параллельная с основным  [Contents]
 
 ### `01-cinderella-syndrome.md` (3)
 
@@ -1852,6 +1248,18 @@ _Обновлено: 2026-05-10_
 - Почему этот переход — не просто «улучшение», а архитектурный сдвиг [Случай Использования 4: Автор Этой Статьи]
 - Это объясняет, почему «Обучай» прошёл от 0 до 93 тысяч пользователей без сопротивления, в то время как Representative Agent Layer воспринимается как « [Случай Использования 4: Автор Этой Статьи]
 
+### `04-fallback-ratio-question.md` (3)
+
+- # Вопрос: fallback‑ratio как критический или осмысленный?
+- -  Вопрос: fallback-ratio как критический или осмысленный? [Вопрос: fallback‑ratio как критический или осмысленный?]
+- ## Вопрос: fallback-ratio как критический или осмысленный? [Contents]
+
+### `07-why-valid-for-ai.md` (3)
+
+- Почему это валидный паттерн для AI‑assisted workflows [6.]
+- Почему это валидный паттерн для AI-assisted workflows (#6-почему-это-валидный-паттерн-для-ai-assisted-workflows) [6. Почему это валидный паттерн для AI‑assisted workflows]
+- Почему это валидный паттерн для AI-assisted workflows [6. Почему это валидный паттерн для AI‑assisted workflows]
+
 ### `16-glossary.md` (3)
 
 - Когда в академической статье/документе вводится новая методология, первый вопрос рецензента: «а что из этого новое, что старое?». [Глоссарий]
@@ -1860,9 +1268,9 @@ _Обновлено: 2026-05-10_
 
 ### `01-completing-loop.md` (3)
 
-- Давайте разберу, почему это радикально важная мысль. [Claude hat geantwortet: Это исключительно богатый вопрос, и ]
-- Почему charity не работает для квалифицированных людей [Claude hat geantwortet: Это исключительно богатый вопрос, и ]
-- Часть 8: Как это соотносится с вашей текущей работой [Claude hat geantwortet: Это исключительно богатый вопрос, и ]
+- Давайте разберу, почему это радикально важная мысль. [Contents]
+- Почему charity не работает для квалифицированных людей [Contents]
+- Часть 8: Как это соотносится с вашей текущей работой [Contents]
 
 ### `10-future.md` (3)
 
@@ -1875,10 +1283,10 @@ _Обновлено: 2026-05-10_
 - Если Svyazi‑2.0 должен не только находить людей и идеи, но и объяснять,  почему  возникла рекомендация, нужен evidence‑first слой. [Приоритетные ансамбли]
 - -   Правильная единица доказательства — страница, а не чанк  : Legal RAG прямо показывает, почему page‑level grounding удобнее для обратного перехода  [Приоритетные ансамбли]
 
-### `113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` (2)
+### `122-глоссарий.md` (2)
 
-- Почему это валидный паттерн для AI-assisted workflows [6.]
-- Почему это валидный паттерн для AI-assisted workflows [6.]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Комментарий к документу]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  29% [Комментарий к документу]
 
 ### `137-table-of-contents.md` (2)
 
@@ -1892,8 +1300,8 @@ _Обновлено: 2026-05-10_
 
 ### `153-executive-summary.md` (2)
 
-- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [Упоминается в]
-- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  29% [Упоминается в]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  25% [Смотрите также]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  29% [Смотрите также]
 
 ### `158-4-proposed-infrastructure.md` (2)
 
@@ -1907,12 +1315,12 @@ _Обновлено: 2026-05-10_
 
 ### `181-12-closing.md` (2)
 
-- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [12. Closing]
-- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)  25% [12. Closing]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [Поиск по теме документа]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)  25% [Поиск по теме документа]
 
 ### `215-4-architecture-of-professional-colleague-agents.md` (2)
 
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [4.5. Integration Standards]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Смотрите также]
 - Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [Связанные документы]
 
 ### `228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (2)
@@ -1922,17 +1330,17 @@ _Обновлено: 2026-05-10_
 
 ### `259-6-coordination-and-disagreement-resolution.md` (2)
 
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [6.5. Learning from Resolution]
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [6.5. Learning from Resolution]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Смотрите также]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [Смотрите также]
 
 ### `265-12-call-for-collaboration.md` (2)
 
-- configuration of sub-agents would actually serve your work? [12.1. For Pra]
+- configuration of sub-agents would actually serve your work? [12.1. For]
 - What would make composite agents valuable versus merely complex? [12.1. For Practitioners]
 
 ### `275-why-this-document-exists.md` (2)
 
-- -  Why This Document Exists (#why-this-document-exists) [С]
+- -  Why This Document Exists (#why-this-document-exists) [Why This Document Exists]
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md) [Упоминается в]
 
 ### `282-what-industry-will-likely-build.md` (2)
@@ -1945,20 +1353,20 @@ _Обновлено: 2026-05-10_
 - #### Почему этот документ другой по жанру [Appendix: Position in Series Visualization]
 - В Acknowledgments я объяснил, почему этот документ не Document 8, а Document 2.3: [Appendix: Position in Series Visualization]
 
-### `290-почему-этот-документ-существует.md` (2)
-
-- 🎯   Проблема:   Почему этот документ существует Семь предыдущих документов в этой серии были --- Почему этот документ существует Семь предыдущих докум [Почему этот документ существует]
-- 🏷️   Ключевые слова:    документ ,  anthropic ,  vacancies ,  документов ,  почему ,  существует ,  предыдущих ,  серии [Почему этот документ существует]
-
 ### `292-что-отсутствует-слой-b.md` (2)
 
 - Как бы выглядел Слой B идеально? [Что отсутствует — Слой B]
-- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Упоминается в]
+- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Смотрите также]
 
 ### `301-благодарности.md` (2)
 
 - -  Почему это не было построено (293-почему-это-не-было-построено.md) [Упоминается в]
 - -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Упоминается в]
+
+### `303-приложение-визуализация-позиции-в-серии.md` (2)
+
+- -  Стоит ли разделить InGit на части и интегрировать в чат? [Содержание]
+- Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md)  17% [Краткие заметки к переводу]
 
 ### `315-7-practical-first-steps-this-month.md` (2)
 
@@ -1973,17 +1381,12 @@ _Обновлено: 2026-05-10_
 ### `324-ingit-как-cowork-интегрированная-подложка-рабочего.md` (2)
 
 - Открытие Cowork и почему это меняет всё (327-1-открытие-cowork-и-почему-это-меняет-всё.md) [Практический путь к Слою B через симбиотическую интеграцию с]
-- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Упоминается в]
+- -  Почему этот документ существует (290-почему-этот-документ-существует.md) [Похожие документы]
 
 ### `333-7-практические-первые-шаги-в-этом-месяце.md` (2)
 
 - - Следовал ли Cowork конвенциям InGit? [7.1. На этой неделе]
 - - Где он отклонился или испытывал трудности? [7.1. На этой неделе]
-
-### `34-appendix-b-change-log.md` (2)
-
-- Оба раздела добавляют защиту от критики в будущих review и подачах — всегда спрашивают «почему именно так?» и «как насчёт безопасности?» [Комментарий к документу]
-- Поэтому делаю шаблоны с конкретным наполнением там, где данные точно есть , и помеченными плейсхолдерами  ? [Комментарий к документу]
 
 ### `356-твой-workflow.md` (2)
 
@@ -1992,7 +1395,7 @@ _Обновлено: 2026-05-10_
 
 ### `36-essence.md` (2)
 
-- измерение  : отвечает на вопрос «как это делать», в отличие от   pro2 (../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) [Essence]
+- измерение  : отвечает на вопрос «как это делать», в отличие от   pro2 (01-интегральный-анализ-профиля-svend4.md) [Essence]
 - (что это значит) и  meta  (как это символически устроено). [Essence]
 
 ### `40-bridges.md` (2)
@@ -2010,25 +1413,20 @@ _Обновлено: 2026-05-10_
 - Слой qwen-classifier перед роутером — твой legal-domain-manager уже умеет классифицировать тип запроса (Bescheid? [Пара 1. LLM-gateway × Self-hosted фронт + локальный inferenc]
 - - утром tmux-деревня готовит саммари: «вчера ночью провёл 47 экспериментов, эти 3 улучшили LCI на 0.05, эти 2 деградировали — посмотри почему». [Ансамбль 1: «Один человек = одна компания»]
 
-### `CLUSTERS.md` (2)
+### `BROKEN_LINKS.md` (2)
 
-- ## Кластер 21 — вариант, docs, anthropic-vacancies, зачем-две-версии-параллельно (7 файлов) [Кластер 20 — adr-, federation-over-merging, anthropic-vacanc]
-- ## Кластер 26 — acknowledgments, document, anthropic-vacancies, why-this-document-exists (6 файлов) [Кластер 25 — query, portal, consensus, repos (6 файлов)]
-
-### `KPI.md` (2)
-
-- 2     адаптер для нового репо без задавания вопросов автору? [Этап (129)]
-- 3     озвращает non-empty результат с consensus-информацией? [Этап (129)]
+- docs/CONCEPTS.md    191-1-синдром-золушки-почему-к    docs/02-anthropic-vacancies/191-1-синдро    файл не существует [Общие показатели]
+- docs/CONCEPTS.md    191-1-синдром-золушки-почему-к    docs/02-anthropic-vacancies/191-1-синдро    файл не существует [Общие показатели]
 
 ### `PASSIVE_VOICE.md` (2)
 
 - 327-1-открытие-cowork-и-почему-это-меняет-всё.md    21%   🟠 Много пассива   8   0   2 [Топ файлов по доле пассива]
-- 70-зачем-две-версии-параллельно.md    20%   🟠 Много пассива   1   0   0 [Топ файлов по доле пассива]
+- 70-зачем-две-версии-параллельно.md    17%   🟠 Много пассива   1   0   0 [Топ файлов по доле пассива]
 
 ### `SEE_ALSO.md` (2)
 
-- -   105-review-methodology-md   →  125-readme-mcp-md-инструкция-по-установке ,  70-зачем-две-версии-параллельно ,  229-профессиональные-коллеги-агенты [Ключевые связи]
-- -   106-tl-dr   →  00-tldr ,  70-зачем-две-версии-параллельно ,  71-критерии-выбора-для-фазы-3 ,  65-readme-md [Ключевые связи]
+- -  04-abstract (02-anthropic-vacancies/04-abstract.md) →  74-abstract (02-anthropic-vacancies/74-abstract.md),  00-abstract-status (nautilus/npp-v1-1/ [Ключевые связи]
+- -  106-tl-dr (02-anthropic-vacancies/106-tl-dr.md) →  00-tldr (nautilus/review-methodology/00-tldr.md),  70-зачем-две-версии-параллельно (02-anthropic [Ключевые связи]
 
 ### `02-section-2-beneficial-dimension.md` (2)
 
@@ -2042,8 +1440,8 @@ _Обновлено: 2026-05-10_
 
 ### `01-coally.md` (2)
 
-- Roy агентов: один проектирует, другой реализует, третий ревьюит, четвёртый тестирует, пятый деплоит — и каждому нужен доступ к общей persistent memory [CoAlly — distributed shared memory для AI-агентов]
-- Почему важно для нас: CoAlly directly implements концепцию shared memory layer для multi-agent collaboration. [CoAlly — distributed shared memory для AI-агентов]
+- Roy агентов: один проектирует, другой реализует, третий ревьюит, четвёртый тестирует, пятый деплоит — и каждому нужен доступ к общей persistent memory [Contents]
+- Почему важно для нас: CoAlly directly implements концепцию shared memory layer для multi-agent collaboration. [Contents]
 
 ### `01-why-stronger-than-it-looks.md` (2)
 
@@ -2057,18 +1455,18 @@ _Обновлено: 2026-05-10_
 
 ### `02-what-info-repos-contain.md` (2)
 
-- Возможно ли построить эти на CAMEL? [Что у нас есть в трёх info repositories (info1/info7/info40)]
-- Почему не Hermes для этой задачи [Что у нас есть в трёх info repositories (info1/info7/info40)]
+- Возможно ли построить эти на CAMEL? [Contents]
+- Почему не Hermes для этой задачи [Contents]
 
 ### `03-sgb-advocate-colleague-example.md` (2)
 
-- Как это могло бы work для concrete case: [Конкретный пример: SGB Advocate Colleague на этой архитектур]
-- Nautilus provides discovery: «who has handled cases like this?» [Конкретный пример: SGB Advocate Colleague на этой архитектур]
+- Как это могло бы work для concrete case: [Contents]
+- Nautilus provides discovery: «who has handled cases like this?» [Contents]
 
 ### `04-what-to-take-from-info-repos.md` (2)
 
-- Подходит ли CAMEL больше для этого? [Что брать из info repositories — concrete recommendations]
-- Возможно ли частично взять что-то из info repositories и адаптировать на CAMEL? [Что брать из info repositories — concrete recommendations]
+- Подходит ли CAMEL больше для этого? [Contents]
+- Возможно ли частично взять что-то из info repositories и адаптировать на CAMEL? [Contents]
 
 ### `12-workflow.md` (2)
 
@@ -2092,23 +1490,13 @@ _Обновлено: 2026-05-10_
 
 ### `01-response.md` (2)
 
-- Релевантный фрагмент находится в разделе «Почему глубокий профиль важнее каталога»: [Claude hat geantwortet: Отличное наблюдение.]
-- Кто заплатит за proactive collaboration matching между unknowns? [Claude hat geantwortet: Отличное наблюдение.]
+- Релевантный фрагмент находится в разделе «Почему глубокий профиль важнее каталога»: [Contents]
+- Кто заплатит за proactive collaboration matching между unknowns? [Contents]
 
 ### `12-call-for-collaboration.md` (2)
 
-- configuration of sub-agents would actually serve your work? [12.1. For Practitioners]
+- configuration of sub-agents would actually serve your work? [12.1.]
 - What would make composite agents valuable versus merely complex? [12.1. For Practitioners]
-
-### `05-why-not-built.md` (2)
-
-- # Why This Hasn't Been Built
-- ## Why This Hasn't Been Built [Why This Hasn't Been Built]
-
-### `04-pochemu-ne-postroeno.md` (2)
-
-- # Почему это не было построено
-- ## Почему это не было построено [Почему это не было построено]
 
 ### `07-practical-first-steps.md` (2)
 
@@ -2132,23 +1520,13 @@ _Обновлено: 2026-05-10_
 
 ### `03-what-this-gives-technically.md` (2)
 
-- Работая над новым кейсом, вы спрашиваете (через Claude Desktop + MCP): «Какие были предыдущие паттерны для Eingliederungshilfe-отказа?». [Что это даёт технически]
-- Как это связано с MCP и Claude Desktop [Что это даёт технически]
+- Работая над новым кейсом, вы спрашиваете (через Claude Desktop + MCP): «Какие были предыдущие паттерны для Eingliederungshilfe-отказа?». [Contents]
+- Как это связано с MCP и Claude Desktop [Contents]
 
 ### `03-what-makes-representative-agent.md` (2)
 
 - - How does principal monitor agent? [3.4. The Principal-Agent Relationship]
 - - What recourse if agent misbehaves? [3.4. The Principal-Agent Relationship]
-
-### `04-fallback-ratio-question.md` (2)
-
-- # Вопрос: fallback‑ratio как критический или осмысленный?
-- ## Вопрос: fallback-ratio как критический или осмысленный? [Вопрос: fallback‑ratio как критический или осмысленный?]
-
-### `07-why-valid-for-ai.md` (2)
-
-- Почему это валидный паттерн для AI‑assisted workflows [6.]
-- Почему это валидный паттерн для AI-assisted workflows [6. Почему это валидный паттерн для AI‑assisted workflows]
 
 ### `05-analysis.md` (2)
 
@@ -2162,13 +1540,13 @@ _Обновлено: 2026-05-10_
 
 ### `B-forensic-rag.md` (2)
 
-- Если Svyazi‑2.0 должен не только находить людей и идеи, но и объяснять,  почему  возникла рекомендация, нужен evidence‑first слой. [Ансамбль B — Forensic RAG для доказуемого matching и review]
+- Если Svyazi‑2.0 должен не только находить людей и идеи, но и объяснять,  почему  возникла рекомендация, нужен evidence‑first слой. [Contents]
 - -   Правильная единица доказательства — страница, а не чанк  : Legal RAG прямо показывает, почему page‑level grounding удобнее для обратного перехода  [Схема]
 
 ### `31-event-sourced-legal-document-history.md` (2)
 
-- "What was status on 2024-06-15?" → replay events until that date [Комбинация 31: Event-Sourced Legal Document History]
-- Legal strategy: "what if we filed Widerspruch earlier?" [Комбинация 31: Event-Sourced Legal Document History]
+- "What was status on 2024-06-15?" → replay events until that date [Contents]
+- Legal strategy: "what if we filed Widerspruch earlier?" [Contents]
 
 ### `11-integration-contracts.md` (1)
 
@@ -2178,13 +1556,9 @@ _Обновлено: 2026-05-10_
 
 - -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
 
-### `09-4-passport-passport-md.md` (1)
+### `104-appendix-c-references.md` (1)
 
-- Один абзац: что это, для кого, почему существует. [4.2. Recommended Structure]
-
-### `102-доступ-к-данным.md` (1)
-
-- Почему это валидный паттерн для AI-assisted workflows (113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) [Доступ к данным]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Комментарий к документу]
 
 ### `105-review-methodology-md.md` (1)
 
@@ -2204,7 +1578,7 @@ _Обновлено: 2026-05-10_
 
 ### `125-readme-mcp-md-инструкция-по-установке.md` (1)
 
-- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Смотрите также]
 
 ### `129-примеры-запросов-в-claude.md` (1)
 
@@ -2212,39 +1586,39 @@ _Обновлено: 2026-05-10_
 
 ### `141-4-nautilus-portal-as-reference-substrate.md` (1)
 
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [4.3. Empirical Evidence from Nautilus Reference Implementati]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Поиск по теме документа]
 
 ### `149-appendix-b-summary-of-contributions.md` (1)
 
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  17% [Связанные документы]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  17% [Упоминается в]
 
 ### `154-table-of-contents.md` (1)
 
-- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  29% [Упоминается в]
+- Why Existing Solutions Fail (157-3-why-existing-solutions-fail.md)  29% [Смотрите также]
 
 ### `157-3-why-existing-solutions-fail.md` (1)
 
 - 🎯   Проблема:   Why Existing Solutions Fail Seven existing infrastructure categories partially address the problem but collectively fail to solve it. [3. Why Existing Solutions Fail]
 
+### `165-closing.md` (1)
+
+- -  Почему ваше наблюдение точное и важное (#почему-ваше-наблюдение-точное-и-важное) [Содержание]
+
 ### `173-4-ten-domains-of-application.md` (1)
 
-- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [4.11. Cross-Cutting Observations]
-
-### `187-слой-представительских-агентов-md.md` (1)
-
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Слой Представительских Агентов]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [Смотрите также]
 
 ### `193-3-что-делает-агента-представительским.md` (1)
 
 - - Какое средство правовой защиты, если агент ведёт себя неправильно? [3.4. Отношения принципал-агент]
 
-### `208-professional-colleague-agents-md.md` (1)
+### `207-приложение-c-образцы-случаев-использования-в-детал.md` (1)
 
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Professional Colleague Agents]
+- -  Почему этот переход — не просто «улучшение», а архитектурный сдвиг (#почему-этот-переход-не-просто-улучшение-а-архитектурный-сдвиг) [Содержание]
 
 ### `212-1-the-five-type-typology-of-principal-side-agents.md` (1)
 
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [1.7. Why This Distinction Matters]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Похожие документы]
 
 ### `213-2-what-makes-a-professional-colleague-agent.md` (1)
 
@@ -2252,7 +1626,7 @@ _Обновлено: 2026-05-10_
 
 ### `214-3-empirical-case-study-обучай.md` (1)
 
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [Связанные документы]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  21% [Упоминае]
 
 ### `216-5-the-economics-of-profession-wide-replication.md` (1)
 
@@ -2276,7 +1650,7 @@ _Обновлено: 2026-05-10_
 
 ### `256-3-what-makes-a-composite-skills-agent.md` (1)
 
-- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [3.5. The Coordinator-Within-Configuration Pattern]
+- Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Смотрите также]
 
 ### `260-7-economics-of-combinatorial-replication.md` (1)
 
@@ -2294,13 +1668,17 @@ _Обновлено: 2026-05-10_
 
 - -  Why This Document Exists (275-why-this-document-exists.md) [Упоминается в]
 
+### `272-appendix-d-connection-diagram.md` (1)
+
+- -  Что существует сейчас и почему этого недостаточно (#что-существует-сейчас-и-почему-этого-недостаточно) [Содержание]
+
 ### `287-references.md` (1)
 
 - How to Take Smart Notes . [Threading and Annotation]
 
 ### `31-content-overview.md` (1)
 
-- Почему это валидный паттерн для AI-assisted workflows (113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) [Content Overview]
+- Почему это валидный паттерн для AI-assisted workflows (113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) [Похожие документы]
 
 ### `311-3-what-ingit-provides-that-cowork-lacks.md` (1)
 
@@ -2320,7 +1698,7 @@ _Обновлено: 2026-05-10_
 
 ### `348-кому-ты-служишь-слоистая-модель.md` (1)
 
-- Когда принимаешь решения, спрашивай:   «Service это ultimately помогает уязвимым группам?»   Если ответ unclear или негативный, action probably out of [Кому ты служишь (слоистая модель)]
+- Когда принимаешь решения, спрашивай:   «Service это ultimately помогает уязвимым группам?»   Если ответ unclear или негативный, action probably out of [Contents]
 
 ### `357-твоя-коммуникация-в-outreach.md` (1)
 
@@ -2346,17 +1724,17 @@ _Обновлено: 2026-05-10_
 
 - -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md) [Упоминается в]
 
-### `64-for-the-curious-philosophy.md` (1)
-
-- Философский раздел объясняет почему репо существует, а не только что в нём. [Комментарий к трём паспортам]
-
 ### `69-section.md` (1)
 
 - -  Как это разрешить за две минуты (#как-это-разрешить-за-две-минуты) [Содержание]
 
+### `70-зачем-две-версии-параллельно.md` (1)
+
+- -  Зачем две версии параллельно (#зачем-две-версии-параллельно) [Зачем две версии параллельно]
+
 ### `71-критерии-выбора-для-фазы-3.md` (1)
 
-- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  17% [С]
+- -  Зачем две версии параллельно (70-зачем-две-версии-параллельно.md)  17% [Упоминается в]
 
 ### `72-расписание-фазы-3.md` (1)
 
@@ -2364,7 +1742,7 @@ _Обновлено: 2026-05-10_
 
 ### `88-13-rest-api-contract-normative-for-portals.md` (1)
 
-- GET    /api/query?q=<text &ranked=<0\ 1     Поиск концептов [13.1. Required E]
+- GET    /api/query?q=<text &ranked=<0\ 1     Поиск концептов [13.1. Required Endpoints]
 
 ### `05-benchmarks.md` (1)
 
@@ -2376,19 +1754,15 @@ _Обновлено: 2026-05-10_
 
 ### `BACKLINKS.md` (1)
 
-- 168-abstract    19    134-the-double-triangle-architecture-md.md ,  145-8-call-to-action.md ,  166-representative-agent-layer-md.md ,  170-1-the-cinde [Топ-30 самых цитируемых документов]
+- 168-abstract    29    134-the-double-triangle-architecture-md.md ,  145-8-call-to-action.md ,  166-representative-agent-layer-md.md ,  170-1-the-cinde [Топ-30 самых цитируемых документов]
 
 ### `DECISIONS.md` (1)
 
-- - построить такой же конвейер для разработки программного обеспечения или решения серьёзных R&D-задач? [Контакты (35)]
+- - построить такой же конвейер для разработки программного обеспечения или решения серьёзных R&D-задач? [Лицензия (29)]
 
 ### `PROTOTYPE_SPEC.md` (1)
 
 - Почему именно эти три:   они покрывают жизненный цикл знания — поступление → хранение → навигация — и уже частично задокументированы авторами с Хабра. [2. Компоненты MVP (три слоя)]
-
-### `RISK_REGISTER.md` (1)
-
-- Ключевые риски и как их закрывать     Риск   Почему это важно   Снижение риска  … [Упоминания рисков в документах]
 
 ### `SCRIPTS_CATALOG.md` (1)
 
@@ -2396,63 +1770,63 @@ _Обновлено: 2026-05-10_
 
 ### `VALIDATION.md` (1)
 
-- - ℹ️ Длинное кириллическое имя:  docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md [Именование файлов]
+- - ℹ️ Длинное кириллическое имя:  docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md [✅ Разделы и README]
 
 ### `02-agentops-trace-envelope.md` (1)
 
-- Для Svyazi‑2.0 это закрывает очень важный вопрос: почему система предложила именно эту связь? [AgentOps и Trace Envelope (ансамбль G)]
+- Для Svyazi‑2.0 это закрывает очень важный вопрос: почему система предложила именно эту связь? [Contents]
 
 ### `06-metrics-tree.md` (1)
 
-- UX   time to explain match   За сколько секунд пользователь понимает “почему эта связь” [Дерево метрик Svyazi 2.0]
+- UX   time to explain match   За сколько секунд пользователь понимает “почему эта связь” [Contents]
 
 ### `07-vs-notion-mem-affine-langgraph.md` (1)
 
-- Svyazi‑2.0 должна строить социально‑проектный граф: кто может с кем работать, почему, на основании каких источников, с каким риском, кто подтвердил, к [Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / Lang]
+- Svyazi‑2.0 должна строить социально‑проектный граф: кто может с кем работать, почему, на основании каких источников, с каким риском, кто подтвердил, к [Contents]
 
 ### `10-architecture-rfc.md` (1)
 
-- Problem statement: почему обычные CRM, Notion‑базы и RAG‑чаты не решают discovery коллабораций. [Следующий артефакт: Svyazi 2.0 Architecture RFC]
+- Problem statement: почему обычные CRM, Notion‑базы и RAG‑чаты не решают discovery коллабораций. [Contents]
 
 ### `3-forensic-rag.md` (1)
 
-- Technical Docs Investigator — для больших кодовых/инженерных корпусов: «где в документации реально написано, что этот API deprecated?» — и сразу подсв [Ансамбль 3 — Forensic RAG]
+- Technical Docs Investigator — для больших кодовых/инженерных корпусов: «где в документации реально написано, что этот API deprecated?» — и сразу подсв [Contents]
 
 ### `5-agent-firewall.md` (1)
 
-- Prompt Worms показывает, почему это не теория: OpenClaw назван «идеальным носителем» из-за доступа к файловой системе, .env, SSH-ключам, email/Slack/D [Ансамбль 5 — Agent Firewall]
+- Prompt Worms показывает, почему это не теория: OpenClaw назван «идеальным носителем» из-за доступа к файловой системе, .env, SSH-ключам, email/Slack/D [Contents]
 
 ### `09-minuses-and-risks.md` (1)
 
-- Если AI-мета-агент принял решение, и оно оказалось провальным, кто ответственен? [Минусы и риски]
+- Если AI-мета-агент принял решение, и оно оказалось провальным, кто ответственен? [Contents]
 
 ### `10-three-entry-points.md` (1)
 
-- Хотите, чтобы в следующем сообщении я помог структурировать этот thesis paper — оглавление, ключевые аргументы, разделы? [Три точки входа разной амбиции]
+- Хотите, чтобы в следующем сообщении я помог структурировать этот thesis paper — оглавление, ключевые аргументы, разделы? [Contents]
 
 ### `00-context.md` (1)
 
-- What's the role of you (the proposer)? [Контекст: что такое Anthropic Beneficial Deployments]
+- What's the role of you (the proposer)? [Contents]
 
 ### `02-vitaly-graph-cognitive-memory.md` (1)
 
-- Почему важно для нас: Это single-author, working implementation именно того, что NGT Memory предлагает на theoretical level, но с дополнительными элем [Графовая когнитивная память на SQLite (Виталий, март 2026)]
+- Почему важно для нас: Это single-author, working implementation именно того, что NGT Memory предлагает на theoretical level, но с дополнительными элем [Contents]
 
 ### `03-happyin-knowledge-space.md` (1)
 
-- Почему важно для нас: Это first-of-its-kind knowledge base built for AI consumption. [Happyin Knowledge Space (Анастасия) — детали]
+- Почему важно для нас: Это first-of-its-kind knowledge base built for AI consumption. [Contents]
 
 ### `02-nautilus-A-pro2-meta.md` (1)
 
-- Почему это могло провалиться: troичная квантизация в bottleneck сильно ограничивает expressive capacity — вместо 32-bit float channels получаем только [Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME ]
+- Почему это могло провалиться: troичная квантизация в bottleneck сильно ограничивает expressive capacity — вместо 32-bit float channels получаем только [Contents]
 
 ### `02-primary-fde.md` (1)
 
-- Почему именно она вам подходит больше всего: [Primary match — Forward Deployed Engineer, Applied AI (EMEA)]
+- Почему именно она вам подходит больше всего: [Contents]
 
 ### `05-platform-not-position.md` (1)
 
-- Особенно для высокого высококвалифицированный пенсионеров разработчиков что если например переменная эти полмиллиона долларов на одну одного разработч [Финальный вывод: платформа, а не должность]
+- Особенно для высокого высококвалифицированный пенсионеров разработчиков что если например переменная эти полмиллиона долларов на одну одного разработч [Contents]
 
 ### `anastasiyaw.md` (1)
 
@@ -2460,7 +1834,7 @@ _Обновлено: 2026-05-10_
 
 ### `andrey-chuyan.md` (1)
 
-- Стоит ли расширять  CardIndex (../docs/01-svyazi/01-executive-summary.md) до person/project/episode/evidence или лучше держать разные индексы? [Статус связ]
+- Стоит ли расширять  CardIndex (../01-svyazi/01-executive-summary.md) до person/project/episode/evidence или лучше держать разные индексы? [Статус связ]
 
 ### `kksudo.md` (1)
 
@@ -2476,19 +1850,19 @@ _Обновлено: 2026-05-10_
 
 ### `1-llm-gateway.md` (1)
 
-- Слой qwen-classifier перед роутером — твой legal-domain-manager уже умеет классифицировать тип запроса (Bescheid? [Пара 1 — LLM-gateway × Self-hosted фронт + локальный inferen]
+- Слой qwen-classifier перед роутером — твой legal-domain-manager уже умеет классифицировать тип запроса (Bescheid? [Contents]
 
 ### `10-profession-specific-workflows.md` (1)
 
-- Из этих синтезов, какие наиболее реалистичны для implementation? [Profession-specific workflows]
+- Из этих синтезов, какие наиболее реалистичны для implementation? [Contents]
 
 ### `3-discovery-research.md` (1)
 
-- утром tmux-деревня готовит саммари: «вчера ночью провёл 47 экспериментов, эти 3 улучшили LCI на 0.05, эти 2 деградировали — посмотри почему». [Ансамбль 3 — «Discovery-engine для научной работы»]
+- утром tmux-деревня готовит саммари: «вчера ночью провёл 47 экспериментов, эти 3 улучшили LCI на 0.05, эти 2 деградировали — посмотри почему». [Contents]
 
 ### `01-yodoca.md` (1)
 
-- — инструмент explain fact — на вопрос «откуда ты это знаешь?» агент проходит по derived from-рёбрам до исходных диалогов. [Yodoca — главная находка итерации]
+- — инструмент explain fact — на вопрос «откуда ты это знаешь?» агент проходит по derived from-рёбрам до исходных диалогов. [Contents]
 
 ### `02-tvoyo-proishozhdenie.md` (1)
 
@@ -2520,7 +1894,7 @@ _Обновлено: 2026-05-10_
 
 ### `08-q8-other-ai-relationships.md` (1)
 
-- Question 8: Что Lorenzo's relationship с другими AI agents? [Question 8: Lorenzo's relationship с другими AI agents]
+- Question 8: Что Lorenzo's relationship с другими AI agents? [Contents]
 
 ### `09-q9-geographic-linguistic-scope.md` (1)
 
@@ -2536,11 +1910,19 @@ _Обновлено: 2026-05-10_
 
 ### `10-references.md` (1)
 
-- "How do committees invent?"  Datamation . [References]
+- "How do committees invent?"  Datamation . [Contents]
 
 ### `11-glossary.md` (1)
 
 - Первый blog post может быть адаптацией Part I + Part II (почему single-triangle модели incomplete + introducing double-triangle). [v1.0.0-draft (2026-04-19)]
+
+### `01-missing-middle-layer.md` (1)
+
+- -  Why This Document Exists (#why-this-document-exists) [Why This Document Exists]
+
+### `02-why-document-exists.md` (1)
+
+- -  Why This Document Exists (#why-this-document-exists) [Why This Document Exists]
 
 ### `04-whats-missing-layer-b.md` (1)
 
@@ -2557,6 +1939,10 @@ _Обновлено: 2026-05-10_
 ### `13-acknowledgments-refs.md` (1)
 
 - How to Take Smart Notes . [Threading and Annotation]
+
+### `01-zachem-dokument.md` (1)
+
+- -  Почему этот документ существует (#почему-этот-документ-существует) [Почему этот документ существует]
 
 ### `03-otsutstvuet-sloy-b.md` (1)
 
@@ -2576,15 +1962,15 @@ _Обновлено: 2026-05-10_
 
 ### `04-grant-opportunities.md` (1)
 
-- Если решите двигаться в эту сторону, вот как это может выглядеть поэтапно: [Horizon Europe Cluster 3 — Civil Security for Society — пере]
+- Если решите двигаться в эту сторону, вот как это может выглядеть поэтапно: [Contents]
 
 ### `18-comment-on-document.md` (1)
 
-- Оба раздела добавляют защиту от критики в будущих review и подачах — всегда спрашивают «почему именно так?» и «как насчёт безопасности?» [Комментарий: дизайн-решения NPP v1.0]
+- Оба раздела добавляют защиту от критики в будущих review и подачах — всегда спрашивают «почему именно так?» и «как насчёт безопасности?» [Contents]
 
 ### `13-rest-api.md` (1)
 
-- GET    /api/query?q=<text &ranked=<0\ 1     Поиск концептов [13.1. Required Endpoints]
+- GET    /api/query?q=<text &ranked=<0\ 1     Поиск концептов [13.1. Required E]
 
 ### `01-problem-statement.md` (1)
 
@@ -2592,7 +1978,7 @@ _Обновлено: 2026-05-10_
 
 ### `01-what-to-anonymize-german-standard.md` (1)
 
-- То есть анонимизация убирает «кто» и «когда» конкретно, оставляя «что произошло» и «почему так решили». [Что именно анонимизировать: немецкий стандарт]
+- То есть анонимизация убирает «кто» и «когда» конкретно, оставляя «что произошло» и «почему так решили». [Contents]
 
 ### `02-two-tier-publication.md` (1)
 
@@ -2628,7 +2014,7 @@ _Обновлено: 2026-05-10_
 
 ### `10-checklist.md` (1)
 
-- -     Есть время на Фазу C в течение 2 недель? [9.1. Перед началом (Pre-Ph]
+- -     Есть время на Фазу C в течение 2 недель? [9.1. Перед]
 
 ### `00-question-supply-demand.md` (1)
 
@@ -2640,7 +2026,7 @@ _Обновлено: 2026-05-10_
 
 ### `integration-spec.md` (1)
 
-- Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [Интеграционная спецификация (минимум для MVP)]
+- Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [Contents]
 
 ### `skill-tool-policy.md` (1)
 
@@ -2648,43 +2034,43 @@ _Обновлено: 2026-05-10_
 
 ### `first-contacts.md` (1)
 
-- Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [Первые контакты]
+- Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [Contents]
 
 ### `mvp-plan.md` (1)
 
-- Контур   Что входит   Зачем   Оценка усилий [План MVP-прототипа]
+- Контур   Что входит   Зачем   Оценка усилий [Contents]
 
 ### `risks.md` (1)
 
-- Риск   Почему это важно   Снижение риска [Ключевые риски и как их закрывать]
+- Риск   Почему это важно   Снижение риска [Contents]
 
 ### `08-conductor-adversarial-review-auto-ai-router.md` (1)
 
-- Продолжить поиск дальше, или разобрать какую-то конкретную комбинацию детальнее? [Комбинация 8: Conductor × adversarial-review × Auto AI Route]
+- Продолжить поиск дальше, или разобрать какую-то конкретную комбинацию детальнее? [Contents]
 
 ### `14-local-first-agent-development-environment.md` (1)
 
-- Продолжить поиск других комбинаций или углубиться в конкретную? [Комбинация 14: local-first Agent Development Environment]
+- Продолжить поиск других комбинаций или углубиться в конкретную? [Contents]
 
 ### `19-multi-agent-observability-platform.md` (1)
 
-- Продолжить с углублением в конкретные комбинации или искать ещё новые проекты? [Комбинация 19: Multi-Agent Observability Platform]
+- Продолжить с углублением в конкретные комбинации или искать ещё новые проекты? [Contents]
 
 ### `24-mega-integration-full-stack.md` (1)
 
-- Искать ещё проекты или углубиться в реализацию конкретных комбинаций? [Комбинация 24: MEGA-INTEGRATION: Full Stack]
+- Искать ещё проекты или углубиться в реализацию конкретных комбинаций? [Contents]
 
 ### `27-hybrid-rag-with-ast-chunked-code.md` (1)
 
-- Query: "How to calculate Widerspruchsfrist for KSV Bescheid?" [Комбинация 27: Hybrid RAG with AST-Chunked Code]
+- Query: "How to calculate Widerspruchsfrist for KSV Bescheid?" [Contents]
 
 ### `30-mega-stack-3-0-with-dsl-ast.md` (1)
 
-- Продолжить углубление в DSL/AST комбинации или искать совершенно другие направления (hardware, embedded, distributed systems)? [Комбинация 30: MEGA-STACK 3.0 with DSL & AST]
+- Продолжить углубление в DSL/AST комбинации или искать совершенно другие направления (hardware, embedded, distributed systems)? [Contents]
 
 ### `32-consensus-based-multi-agent-coordination.md` (1)
 
-- - Leader election: which agent handles Bescheid analysis? [Комбинация 32: Consensus-Based Multi-Agent Coordination]
+- - Leader election: which agent handles Bescheid analysis? [Contents]
 
 ### `35-mega-stack-4-0-with-event-sourcing-consensus.md` (1)
 
@@ -2700,23 +2086,23 @@ _Обновлено: 2026-05-10_
 
 ### `rfc.md` (1)
 
-- 1-2 параграфа: что предлагается и зачем. [Status of this Docu]
+- 1-2 параграфа: что предлагается и зачем. [Содержание]
 
 ### `tech-pair.md` (1)
 
-- Эмерджентное свойство — почему пара важнее суммы. [Чт]
+- Эмерджентное свойство — почему пара важнее суммы. [Что A делает лучше из-за B]
 
 
-## 📌 TODO/Идея (151)
+## 📌 TODO/Идея (142)
 
-### `TABLES.md` (19)
+### `TABLES.md` (23)
 
-- TODO   ⭐   To Do — задача к выполнению   14 [91. Словарь аббревиатур и сокращений]
-- 2025-Q1     ⬜ Написать авторам AgentFS, Yodoca, NGT   ⬜ Планируется [182. Все документы]
-- 2025-Q2     ⬜ Получить согласие на сотрудничество   ⬜ Планируется [182. Все документы]
-- 2025-Q2     ⬜ Создать рабочее окружение Knowledge OS   ⬜ Планируется [182. Все документы]
-- 2025-Q3     ⬜ Прототип ансамбля (Svyazi + CardIndex)   ⬜ Планируется [182. Все документы]
-- _...ещё 14_
+- TODO   ⭐   To Do — задача к выполнению   31 [107. Contents]
+- 2025-Q1     ⬜ Написать авторам AgentFS, Yodoca, NGT   ⬜ Планируется [226. Скрипты по группам]
+- 2025-Q2     ⬜ Получить согласие на сотрудничество   ⬜ Планируется [226. Скрипты по группам]
+- 2025-Q2     ⬜ Создать рабочее окружение Knowledge OS   ⬜ Планируется [226. Скрипты по группам]
+- 2025-Q3     ⬜ Прототип ансамбля (Svyazi + CardIndex)   ⬜ Планируется [226. Скрипты по группам]
+- _...ещё 18_
 
 ### `SCHEDULE.md` (7)
 
@@ -2732,7 +2118,7 @@ _Обновлено: 2026-05-10_
 - What Cowork Provides That InGit Doesn't Need to Build [2.]
 - 🎯   Проблема:   What Cowork Provides That InGit Doesn't Need to Build(2-what-cowork-provides-that-ingit-doesnt-need-to-build) - 2.1. [2. What Cowork Provides That InGit Doesn't Need to Build]
 - ✅   Результат:   What Cowork Provides That InGit Doesn't Need to Build(2-what-cowork-provides-that-ingit-doesnt-need-to-build) - 2.1. [2. What Cowork Provides That InGit Doesn't Need to Build]
-- What Cowork Provides That InGit Doesn't Need to Build (#2-what-cowork-provides-that- ingit (../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork [2.]
+- What Cowork Provides That InGit Doesn't Need to Build (#2-what-cowork-provides-that-ingit-doesnt-need-to-build) [2.]
 - What Cowork Provides That InGit Doesn't Need to Build [2.]
 - _...ещё 1_
 
@@ -2743,14 +2129,6 @@ _Обновлено: 2026-05-10_
 - The teacher does not need to manually consult educational [2.2. What a Professional Colleague Agent Does]
 - The lawyer does not need to look up [2.2. What a Professional Colleague Agent Does]
 - The doctor does not need to remember [2.2. What a Professional Colleague Agent Does]
-
-### `OUTLINE.md` (5)
-
-- - Работает только в stdio mode (HTTP-mode планируется) [[Ограничения текущей версии (0.1.0-draft)](docs/02-anthropic]
-- What Cowork Provides That InGit Doesn't Need to Build (docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [[2.]
-- What Cowork Provides That InGit Doesn't Need to Build [[2.]
-- What Cowork Provides That InGit Doesn't Need to Build (docs/nautilus/ingit-cowork-en/02-cowork-provides.md) [[2.]
-- What Cowork Provides That InGit Doesn't Need to Build [[2.]
 
 ### `SCRIPTS_CATALOG.md` (5)
 
@@ -2766,6 +2144,13 @@ _Обновлено: 2026-05-10_
 - What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [Table of Contents]
 - What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  37% [Table of Contents]
 - What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  29% [Table of Contents]
+
+### `OUTLINE.md` (4)
+
+- What Cowork Provides That InGit Doesn't Need to Build (02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [[2.]
+- What Cowork Provides That InGit Doesn't Need to Build [[2.]
+- What Cowork Provides That InGit Doesn't Need to Build (nautilus/ingit-cowork-en/02-cowork-provides.md) [[2.]
+- What Cowork Provides That InGit Doesn't Need to Build [[2.]
 
 ### `02-cowork-provides.md` (4)
 
@@ -2787,70 +2172,47 @@ _Обновлено: 2026-05-10_
 - Поэтому серьёзно стоит рассмотреть треки вне one-company-employment : [Что это значит для маппинга на Anthropic]
 - Что нужно добавить во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]
 
-### `122-глоссарий.md` (3)
-
-- 🎯   Проблема:   Это означает, что код — reference implementation , который нужно будет сверить с реальными именами методов и полей в вашем репо после  [Глоссарий]
-- Это не one-off hack, это repeatable practice . [Комментарий к документу]
-- Это означает, что код — reference implementation , который нужно будет сверить с реальными именами методов и полей в вашем репо после публикации. [Глоссарий]
-
-### `303-приложение-визуализация-позиции-в-серии.md` (3)
-
-- 🎯   Проблема:   Если они уже это позволяют (нужно проверить), то 1-2 недели для создания template. [Приложение: Визуализация позиции в серии]
-- Если они уже это позволяют (нужно проверить), то 1-2 недели для создания template. [Приложение: Визуализация позиции в серии]
-- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  21% [Конкретный практический вопрос]
-
 ### `343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (3)
 
 - 🎯   Проблема:   Начну с фундаментальных вопросов , на которые нужно ответить до архитектуры — потому что архитектура следует из этих ответов. [Lorenzo Catalyst Agent — глубокая проработка спецификации (р]
 - 🔧   Подход:   Начну с фундаментальных вопросов , на которые нужно ответить до архитектуры — потому что архитектура следует из этих ответов. [Lorenzo Catalyst Agent — глубокая проработка спецификации (р]
 - Начну с фундаментальных вопросов , на которые нужно ответить до архитектуры — потому что архитектура следует из этих ответов. [Lorenzo Catalyst Agent — глубокая проработка спецификации (р]
 
-### `ACTION_ITEMS.md` (3)
-
-- - авторам AgentFS, Yodoca, NGT   ⬜ Планируется [📬 Контактные действия (247)]
-- - авторам AgentFS, Yodoca, NGT ⬜ Планируется  119. [📬 Контактные действия (247)]
-- - авторам AgentFS, Yodoca, NGT ⬜ Планируется  Ключевые вехи [📬 Контактные действия (247)]
-
 ### `11-difficulties-and-recommendations.md` (3)
 
-- Lorenzo Phase 1 should be minimal [Сложности и рекомендации перед detailed specification]
-- Lorenzo Phase 1 «specification» should be realistic [Сложности и рекомендации перед detailed specification]
-- Lorenzo «Phase 2+» specification should be aspirational [Сложности и рекомендации перед detailed specification]
+- Lorenzo Phase 1 should be minimal [Contents]
+- Lorenzo Phase 1 «specification» should be realistic [Contents]
+- Lorenzo «Phase 2+» specification should be aspirational [Contents]
 
 ### `11-integration-contracts.md` (2)
 
-- Эта структура логически следует из  CardIndex (../docs/01-svyazi/01-executive-summary.md)‑мышления Svyazi, immutable/event‑style практик AgentFS и Mem [Интеграционный контракт, который стоит зафиксировать сразу]
+- Эта структура логически следует из  CardIndex (01-executive-summary.md)‑мышления Svyazi, immutable/event‑style практик AgentFS и Memory OS, а также из [Интеграционный контракт, который стоит зафиксировать сразу]
 - Из этих линий следует, что “записать что-то в память” никогда не должно быть одной неразличимой операцией. [Интеграционный контракт, который стоит зафиксировать сразу]
 
 ### `131-ограничения-текущей-версии-0-1-0-draft.md` (2)
 
-- - Работает только в   stdio mode   (HTTP-mode планируется) [Ограничения текущей версии (0.1.0-draft)]
-- - Работает только в   stdio mode   (HTTP-mode планируется) [Ограничения текущей версии (0.1.0-draft)]
-
-### `150-appendix-c-version-history.md` (2)
-
-- #### Фича 3 (которую вы не упомянули, но логично следует): blog-like reverse chronological views [Комментарий к документу]
-- Если есть branching conversations, логично следует blog-like view одной ветки: revenue chronologically, with annotations, with cross-links to other br [Комментарий к документу]
-
-### `165-closing.md` (2)
-
-- В Nautilus README или PORTAL-PROTOCOL стоит добавить аналогичный сквозной пример для humanities domain. [Комментарий к документу]
-- Стоит добавить это в protocol как formal recommendation для adapters. [Комментарий к документу]
+- - Работает только в   stdio mode   (HTTP-mode планируется) [Contents]
+- - Работает только в   stdio mode   (HTTP-mode планируется) [Contents]
 
 ### `255-2-the-twenty-one-teachers-pattern.md` (2)
 
-- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [2.4. AI Architecture Should Mirror This]
-- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  21% [2.4. AI Architecture Should Mirror This]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [Смотрите также]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  21% [Смотрите также]
 
 ### `270-appendix-b-sub-agent-registry-schema-sketch.md` (2)
 
-- This schema captures what coordinators need to route effectively, [Appendix B: Sub-Agent Registry Schema (Sk]
+- This schema captures what coordinators need to route effectively, [Append]
 - what principals need to evaluate fit, and what curators need to [Appendix B: Sub-Agent Registry Schema (Sketch)]
 
 ### `276-the-two-layer-stack-as-it-exists.md` (2)
 
 - - Cross-references between artifacts need to be maintained [The Two-Layer Stack As It Exists]
 - - Multiple parallel developments need to be tracked [The Two-Layer Stack As It Exists]
+
+### `303-приложение-визуализация-позиции-в-серии.md` (2)
+
+- 🎯   Проблема:   Если они уже это позволяют (нужно проверить), то 1-2 недели для создания template. [Приложение: Визуализация позиции в серии]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  21% [Краткие заметки к переводу]
 
 ### `311-3-what-ingit-provides-that-cowork-lacks.md` (2)
 
@@ -2874,7 +2236,7 @@ _Обновлено: 2026-05-10_
 
 ### `11-интеграционный-контракт-который-стоит-зафиксироват.md` (2)
 
-- Эта структура логически следует из  CardIndex (../docs/01-svyazi/01-executive-summary.md)‑мышления Svyazi, immutable/event‑style практик AgentFS и Mem [Интеграционный контракт, который стоит зафиксировать сразу]
+- Эта структура логически следует из  CardIndex (../01-svyazi/01-executive-summary.md)‑мышления Svyazi, immutable/event‑style практик AgentFS и Memory O [Интеграционный контракт, который стоит зафиксировать сразу]
 - Из этих линий следует, что “записать что-то в память” никогда не должно быть одной неразличимой операцией. [Интеграционный контракт, который стоит зафиксировать сразу]
 
 ### `01-claude-response.md` (2)
@@ -2889,8 +2251,8 @@ _Обновлено: 2026-05-10_
 
 ### `01-three-related-themes.md` (2)
 
-- Фича 3 (которую вы не упомянули, но логично следует): blog-like reverse chronological views [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
-- Если есть branching conversations, логично следует blog-like view одной ветки: revenue chronologically, with annotations, with cross-links to other br [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
+- Фича 3 (которую вы не упомянули, но логично следует): blog-like reverse chronological views [Contents]
+- Если есть branching conversations, логично следует blog-like view одной ветки: revenue chronologically, with annotations, with cross-links to other br [Contents]
 
 ### `09-architectural-gaps.md` (1)
 
@@ -2908,6 +2270,10 @@ _Обновлено: 2026-05-10_
 
 - Удалять исходные ветки   не следует   до завершения Фазы C — они [7.2. Артефакты]
 
+### `122-глоссарий.md` (1)
+
+- 🎯   Проблема:   Это означает, что код — reference implementation , который нужно будет сверить с реальными именами методов и полей в вашем репо после  [Глоссарий]
+
 ### `157-3-why-existing-solutions-fail.md` (1)
 
 - - Companies still need to source candidates independently [3.3. Executive Contracting (Deel, Remote, Oyster, Velocity G]
@@ -2922,7 +2288,7 @@ _Обновлено: 2026-05-10_
 
 ### `265-12-call-for-collaboration.md` (1)
 
-- need to address composite architectures specifically. [12.6. For Poli]
+- need to address composite architectures specifically. [12.6. For P]
 
 ### `280-the-specific-case-in-front-of-us.md` (1)
 
@@ -2930,7 +2296,7 @@ _Обновлено: 2026-05-10_
 
 ### `284-practical-recommendations-for-the-current-project.md` (1)
 
-- documents should be saved to   nautilus (../docs/05-habr-projects/memory/memnet.md)/docs/  as Markdown [Practical Recommendations for the Current Project]
+- documents should be saved to   nautilus (../05-habr-projects/memory/memnet.md)/docs/  as Markdown [Practical Recommendations for the Current Project]
 
 ### `285-closing.md` (1)
 
@@ -2938,11 +2304,7 @@ _Обновлено: 2026-05-10_
 
 ### `307-abstract.md` (1)
 
-- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [Упоминается в]
-
-### `34-appendix-b-change-log.md` (1)
-
-- Это следует принципу «worse is better» и предотвращает застревание на perfect algorithm вместо рабочей системы. [Комментарий к документу]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [Смотрите также]
 
 ### `365-развёрнутый-анализ-внуковой-комбинации.md` (1)
 
@@ -2966,47 +2328,43 @@ _Обновлено: 2026-05-10_
 
 ### `ABBREVIATIONS.md` (1)
 
-- TODO   ⭐   To Do — задача к выполнению   31 [Словарь аббревиатур и сокращений]
-
-### `DECISIONS.md` (1)
-
-- - склеивать  ###  memnet.md  (1) - Это синхронизируемая многоуровневая память Yodoca/xMemory, которая «следует» за тобой между устройствами. [Память (16)]
-
-### `DUPLICATES.md` (1)
-
-- Fetched: GitHub - svend4/info7: info, оркестратор и бот, плюс л аи, тест проекты с кит-оркестрацией, shop, todo, task manager Fetched: GitHub - svend4 [83% — `docs/obsidian/02-anth]
+- TODO   ⭐   To Do — задача к выполнению   50 [Словарь аббревиатур и сокращений]
 
 ### `SUMMARIES.md` (1)
 
 - Финальная консолидированная — после Фазы C Удалять исходные ветки не следует до завершения Фазы C — они могут содержать контекст, нужный для разрешени [`docs/02-anthropic-vacancies/114-7-реализация-в-проекте-naut]
 
+### `VALIDATION.md` (1)
+
+- - What Cowork Provides That InGit Doesn't Need to Build (docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md [Внутренние ссылки]
+
 ### `01-three-key-candidates.md` (1)
 
-- Смежные проекты, которые тоже стоит изучить [Три ключевых кандидата: K2-18, Wikontic, NGT Memory]
+- Смежные проекты, которые тоже стоит изучить [Contents]
 
 ### `01-shared-memory-between-agents.md` (1)
 
-- Но теперь в общую схему стоит добавить ещё один близкий проект — CoAlly из статьи “Контекстная амнезия: три агента, три IDE, ноль общей памяти”. [Общая память между агентами (CoAlly + ансамбль F)]
+- Но теперь в общую схему стоит добавить ещё один близкий проект — CoAlly из статьи “Контекстная амнезия: три агента, три IDE, ноль общей памяти”. [Contents]
 
 ### `03-nautilus-B-meta-orchestrator.md` (1)
 
-- Если сбросите ссылку   одной строкой в следующем сообщении (просто URL, без дополнительного текста) — я смогу прочитать README, код, и сделать конкрет [Наутилус B: nautilus — мета-оркестратор репозиториев (внешня]
+- Если сбросите ссылку   одной строкой в следующем сообщении (просто URL, без дополнительного текста) — я смогу прочитать README, код, и сделать конкрет [Contents]
 
 ### `03-revised-anthropic-mapping.md` (1)
 
-- Поэтому серьёзно стоит рассмотреть треки вне one-company-employment: [Пересмотренный маппинг на Anthropic]
+- Поэтому серьёзно стоит рассмотреть треки вне one-company-employment: [Contents]
 
 ### `01-three-direct-analogues.md` (1)
 
-- Смежные проекты, которые тоже стоит изучить [Три прямых аналога Svyazi: K2-18, Wikontic, NGT Memory]
+- Смежные проекты, которые тоже стоит изучить [Contents]
 
 ### `3-crdt-self-hosted.md` (1)
 
-- Это синхронизируемая многоуровневая память Yodoca/xMemory, которая «следует» за тобой между устройствами. [Пара 3 — CRDT-синхронизация × Self-hosted persistence]
+- Это синхронизируемая многоуровневая память Yodoca/xMemory, которая «следует» за тобой между устройствами. [Contents]
 
 ### `04-recommendations.md` (1)
 
-- Use it как roadmap reference, не как Phase 1 todo. [Рекомендации: принять архитектуру как direction, не immediat]
+- Use it как roadmap reference, не как Phase 1 todo. [Contents]
 
 ### `06-coordination-disagreement.md` (1)
 
@@ -3014,7 +2372,7 @@ _Обновлено: 2026-05-10_
 
 ### `12-call-for-collaboration.md` (1)
 
-- need to address composite architectures specifically. [12.6. For Policymakers]
+- need to address composite architectures specifically. [12.6.]
 
 ### `07-specific-case.md` (1)
 
@@ -3030,7 +2388,7 @@ _Обновлено: 2026-05-10_
 
 ### `03-ingit-provides.md` (1)
 
-- and later need to switch platforms (Gemini, GPT, local models), [3.7.]
+- and later need to switch platforms (Gemini, GPT, local models), [3.6. Offline-First Operation]
 
 ### `09-risks-open-questions.md` (1)
 
@@ -3038,7 +2396,7 @@ _Обновлено: 2026-05-10_
 
 ### `18-comment-on-document.md` (1)
 
-- Это следует принципу «worse is better» и предотвращает застревание на perfect algorithm вместо рабочей системы. [Комментарий: дизайн-решения NPP v1.0]
+- Это следует принципу «worse is better» и предотвращает застревание на perfect algorithm вместо рабочей системы. [Contents]
 
 ### `12-onboarding-paths.md` (1)
 
@@ -3062,14 +2420,14 @@ _Обновлено: 2026-05-10_
 
 ### `card-envelope.md` (1)
 
-- Эта структура логически следует из CardIndex‑мышления Svyazi, immutable/event‑style практик AgentFS и Memory OS, а также из необходимости разводить tr [Card Envelope]
+- Эта структура логически следует из CardIndex‑мышления Svyazi, immutable/event‑style практик AgentFS и Memory OS, а также из необходимости разводить tr [Contents]
 
 ### `memory-write-policy.md` (1)
 
-- Из этих линий следует, что «записать что‑то в память» никогда не должно быть одной неразличимой операцией. [Memory Write Policy]
+- Из этих линий следует, что «записать что‑то в память» никогда не должно быть одной неразличимой операцией. [Contents]
 
 
-## 💭 Гипотеза (392)
+## 💭 Гипотеза (357)
 
 ### `01-интегральный-анализ-профиля-svend4.md` (21)
 
@@ -3080,23 +2438,14 @@ _Обновлено: 2026-05-10_
 - Вы как Principal Investigator, 2-3 institutional partner (DFKI, Fraunhofer IAO, Turing Institute), и один industry partner (может быть Anthropic или M [Ответ по существу]
 - _...ещё 16_
 
-### `TABLES.md` (16)
+### `TABLES.md` (11)
 
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [8. Архитектурные зазоры, которые важнее новых инструментов]
-- 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [115. GitHub репозитории]
-- _...ещё 11_
-
-### `165-closing.md` (12)
-
-- "If the mountain will not come to the human, perhaps the [Closing]
-- Особенно важно для humanities domain, где LLM-based deep analysis может быть expensive. [Комментарий к документу]
-- Применительно к Nautilus — federation knowledge может attract users, но collaboration matching между ними может быть тем, что делает их вернуться . [Что у Андрея отличается от вашей архитектуры]
-- Deep-profile matching с proactive suggestions может быть именно тот mechanism, который делает их visible. [Что у Андрея отличается от вашей архитектуры]
-- Возможно — invitation contribute to OKWF когда оно будет actively recruiting. [unknown_legal_concepts.yml]
-- _...ещё 7_
+- 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [131. GitHub репозитории]
+- _...ещё 6_
 
 ### `342-что-такое-вариант-c-concept-document-для-anthropic.md` (10)
 
@@ -3125,15 +2474,6 @@ _Обновлено: 2026-05-10_
 - Он, скорее всего, имел собственного раннего наставника, который помог ему понять , какие специализации нужно изучать. [Связь с Pattern Library в OKWF]
 - _...ещё 3_
 
-### `272-appendix-d-connection-diagram.md` (8)
-
-- Запрос    Да это нормально хорошо сделано ну можно ещё поговорить пообсуждать про технические инфраструктурные вопросы например это большая сессия мно [Комментарий к седьмому документу]
-- Вы пишете и думаете в одиночку, потом возможно подключаете AI через external tools. [Проблема, которую вы описали — это реальная проблема]
-- Похоже на текущий чат, но с одним отличием: каждое substantial сообщение или артефакт может быть promoted в более стабильную структуру простым жестом  [Что существует сейчас и почему этого недостаточно]
-- Когда часть Project готова к реализации, она может быть promoted в workshop, который соединяется с Claude Code или GitHub. [Что существует сейчас и почему этого недостаточно]
-- Когда часть Project готова к выходу во внешний мир (blog post, paper, foundation proposal), она может быть promoted в publication ready format с expor [Что существует сейчас и почему этого недостаточно]
-- _...ещё 3_
-
 ### `CONCEPTS.md` (8)
 
 - : пути внутри pro2 с дублированным префиксом svend4/ , которых, скорее всего, не существует [P]
@@ -3145,11 +2485,11 @@ _Обновлено: 2026-05-10_
 
 ### `01-three-related-themes.md` (8)
 
-- Что может быть построено на базе AI — конкретные ниши [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
-- Но одна позиция может быть decomposed в несколько specialist fragments: architecture (part-time), implementation (full-time contractor), code review ( [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
-- Skill profile: data engineer, может быть в Восточной Европе или Латамерике. [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
-- Skill profile: senior engineer, может быть self-taught. [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
-- Skill profile: может быть academic researcher с statistics background. [Claude hat geantwortet: Очень богатый вопрос — три разных, н]
+- Что может быть построено на базе AI — конкретные ниши [Contents]
+- Но одна позиция может быть decomposed в несколько specialist fragments: architecture (part-time), implementation (full-time contractor), code review ( [Contents]
+- Skill profile: data engineer, может быть в Восточной Европе или Латамерике. [Contents]
+- Skill profile: senior engineer, может быть self-taught. [Contents]
+- Skill profile: может быть academic researcher с statistics background. [Contents]
 - _...ещё 3_
 
 ### `00-intro.md` (7)
@@ -3158,7 +2498,7 @@ _Обновлено: 2026-05-10_
 - Цифра 70 в названии репо — это, скорее всего, ваш GdB, а не абстрактный счётчик. [Что на самом деле в data70]
 - Запрос      сделайте список репозиториев с краткой характеристикой каждого насколько он может быть полезен или актуален ну особенно те которые одной з [Итог]
 - - info4 (⭐1, MIT) — «ИИ скиллы, база методов скилл, псевдо RAG» — вероятно связан с вашим 87-skill ecosystem для Claude [Кластер 2: Information OS / Rationalisation (≈20 репо)]
-- Без ⭐ — значит вы сами не маркировали — но снаружи может быть самым цитируемым, если с хорошим README и демо. [Кластер 3: AI / Agents / Novel architect]
+- Без ⭐ — значит вы сами не маркировали — но снаружи может быть самым цитируемым, если с хорошим README и демо. [Кластер 2: Information OS / Rationalisation (≈20 репо)]
 - _...ещё 2_
 
 ### `261-8-seven-domains-of-application.md` (7)
@@ -3172,11 +2512,11 @@ _Обновлено: 2026-05-10_
 
 ### `01-response.md` (7)
 
-- Возможно самая close historical параллель — это Paul Erdős. [Claude hat geantwortet: Очень интересный вопрос.]
-- Это может быть central proposal для Anthropic outreach. [Claude hat geantwortet: Очень интересный вопрос.]
-- В ethical terms, это может быть genuinely beneficial если правильно designed — потенциально transformative для overlooked-talent identification и cros [Claude hat geantwortet: Очень интересный вопрос.]
-- В strategic terms для вашего OKWF project — это может быть organizing concept который ties everything together: Variant D (federated knowledge marketp [Claude hat geantwortet: Очень интересный вопрос.]
-- Этот pattern в wrong hands может быть harmful. [Claude hat geantwortet: Очень интересный вопрос.]
+- Возможно самая close historical параллель — это Paul Erdős. [Contents]
+- Это может быть central proposal для Anthropic outreach. [Contents]
+- В ethical terms, это может быть genuinely beneficial если правильно designed — потенциально transformative для overlooked-talent identification и cros [Contents]
+- В strategic terms для вашего OKWF project — это может быть organizing concept который ties everything together: Variant D (federated knowledge marketp [Contents]
+- Этот pattern в wrong hands может быть harmful. [Contents]
 - _...ещё 2_
 
 ### `08-seven-domains.md` (7)
@@ -3195,14 +2535,6 @@ _Обновлено: 2026-05-10_
 - Но также не может быть fully transparent — иначе Nodes gaming the system (see original discussion). [3. РасширениеPortalEntryдля гуманитарных доменов]
 - Когда происходит conflict, он может быть разрешён на разных уровнях : [4. Q6-маппинг для гуманитарного домена]
 - Ключевое свойство: meta-agent сам может быть частью higher-level звезды . [4. Q6-маппинг для гуманитарного домена]
-
-### `ACTION_ITEMS.md` (5)
-
-- - is probably practical experimentation — start using Cowork+InGit for actual work, see what works, refine based on experience. [➡️ Следующие шаги (273)]
-- Может быть efficient но также может быть manipulated. [⚠️ Риски (954)]
-- - Возможно engaged в его own vision, не interested в applied domain [⚠️ Риски (954)]
-- - Working at Яндекс, может быть constraints на external collaboration [⚠️ Риски (954)]
-- - Если они see, что Lorenzo сам lists them as «collaborators» до того, как они agreed, может быть perception of presumption. [⚠️ Риски (954)]
 
 ### `258-5-configuration-how-principals-build-their-ensembl.md` (4)
 
@@ -3234,38 +2566,38 @@ _Обновлено: 2026-05-10_
 
 ### `OUTLINE.md` (4)
 
-- ###  Что промышленность вероятно построит (docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) [[Рекурсивное прозрение](docs/02-anthropic-vacancies/296-реку]
-- ###  Что промышленность вероятно построит (docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md) [[Рекурсивное прозрение](docs/02-anthropic-vacancies/296-реку]
-- ###  Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да… (docs/nautilus/privacy-federation/00-question-anonymization.md) [[10. Appendices](docs/nautilus/okwf-concept/10-appendices.md]
-- ###  Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к… (docs/nautilus/transmission-box/00-question-mountain-to-person. [[Du hast gesagt: Спрос рождает предложение - это простая эко]
+- ###  Что промышленность вероятно построит (02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) [[Рекурсивное прозрение](02-anthropic-vacancies/296-рекурсивн]
+- ###  Что промышленность вероятно построит (nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md) [[Рекурсивное прозрение](02-anthropic-vacancies/296-рекурсивн]
+- ###  Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да… (nautilus/privacy-federation/00-question-anonymization.md) [[10. Appendices](nautilus/okwf-concept/10-appendi]
+- ###  Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к… (nautilus/transmission-box/00-question-mountain-to-person.md) [[Claude hat geantwortet: Очень богатый вопрос — три разных, ]
 
 ### `13-reprioritization.md` (4)
 
-- InGit's positioning: возможно, less InGit-specific MCP server, больше general structured workspace conventions which work с Hermes, Cowork, и других a [Переприоритизация: что Hermes покрывает / не покрывает / syn]
-- Document 2.4 specifically about Cowork integration might need a parallel/replacement document about Hermes integration. [Переприоритизация: что Hermes покрывает / не покрывает / syn]
-- Probably Document 2.5 or отдельный paper. [Переприоритизация: что Hermes покрывает / не покрывает / syn]
-- Но возможно лучше сначала experiment с Hermes practically, прежде чем writing more theory о нём. [Переприоритизация: что Hermes покрывает / не покрывает / syn]
+- InGit's positioning: возможно, less InGit-specific MCP server, больше general structured workspace conventions which work с Hermes, Cowork, и других a [Contents]
+- Document 2.4 specifically about Cowork integration might need a parallel/replacement document about Hermes integration. [Contents]
+- Probably Document 2.5 or отдельный paper. [Contents]
+- Но возможно лучше сначала experiment с Hermes practically, прежде чем writing more theory о нём. [Contents]
 
 ### `01-response.md` (4)
 
-- Применительно к Nautilus — federation knowledge может attract users, но collaboration matching между ними может быть тем, что делает их вернуться. [Claude hat geantwortet: Отличное наблюдение.]
-- Deep-profile matching с proactive suggestions может быть именно тот mechanism, который делает их visible. [Claude hat geantwortet: Отличное наблюдение.]
-- Возможно — invitation contribute to OKWF когда оно будет actively recruiting. [Claude hat geantwortet: Отличное наблюдение.]
-- Может быть, придумывая это имя — это часть ценного contribution. [Claude hat geantwortet: Отличное наблюдение.]
+- Применительно к Nautilus — federation knowledge может attract users, но collaboration matching между ними может быть тем, что делает их вернуться. [Contents]
+- Deep-profile matching с proactive suggestions может быть именно тот mechanism, который делает их visible. [Contents]
+- Возможно — invitation contribute to OKWF когда оно будет actively recruiting. [Contents]
+- Может быть, придумывая это имя — это часть ценного contribution. [Contents]
 
 ### `03-the-spectrum.md` (4)
 
-- Он, скорее всего, имел собственного раннего наставника, который помог ему понять, какие специализации нужно изучать. [Какой под-агент (или какие) должны её обработать]
-- Возможно, прежде чем строить Профессионального Коллегу-Агента для всей области социального права, стоит начать с набора узкоспециализированных под-аге [Какой под-агент (или какие) должны её обработать]
-- Может быть, шестой плюс эта заметка-расширение — достаточно. [Какой под-агент (или какие) должны её обработать]
-- Композитный Агент как концепция важен и заслуживает фиксации, но добавлять седьмой полный документ может быть перегрузкой. [Какой под-агент (или какие) должны её обработать]
+- Он, скорее всего, имел собственного раннего наставника, который помог ему понять, какие специализации нужно изучать. [Contents]
+- Возможно, прежде чем строить Профессионального Коллегу-Агента для всей области социального права, стоит начать с набора узкоспециализированных под-аге [Contents]
+- Может быть, шестой плюс эта заметка-расширение — достаточно. [Contents]
+- Композитный Агент как концепция важен и заслуживает фиксации, но добавлять седьмой полный документ может быть перегрузкой. [Contents]
 
 ### `03-what-this-gives-technically.md` (4)
 
-- RBAC-расширение: один и тот же document может быть visible по-разному разным clients. [Что это даёт технически]
-- Практически: если ваш кейс — единственный в Dresden за 2026 год по очень редкой комбинации (Pflegegrad 2-3 + Persönliches Budget в Arbeitgebermodell + [Что это даёт технически]
-- Даже анонимизированная публикация содержания такой переписки может быть проблематична. [Что это даёт технически]
-- Если вы даёте специфические советы людям через открытый паттерн-library, это может быть интерпретировано как unauthorized legal advice. [Что это даёт технически]
+- RBAC-расширение: один и тот же document может быть visible по-разному разным clients. [Contents]
+- Практически: если ваш кейс — единственный в Dresden за 2026 год по очень редкой комбинации (Pflegegrad 2-3 + Persönliches Budget в Arbeitgebermodell + [Contents]
+- Даже анонимизированная публикация содержания такой переписки может быть проблематична. [Contents]
+- Если вы даёте специфические советы людям через открытый паттерн-library, это может быть интерпретировано как unauthorized legal advice. [Contents]
 
 ### `256-3-what-makes-a-composite-skills-agent.md` (3)
 
@@ -3275,27 +2607,27 @@ _Обновлено: 2026-05-10_
 
 ### `270-appendix-b-sub-agent-registry-schema-sketch.md` (3)
 
-- 🎯   Проблема:   Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent R [Appendix B: Sub-Agent Registry Schema (Sketch)]
-- For implementation, sub-agent registry entries might follow [Appendix B: Sub-Agent Registry Schema (Sketch)]
-- For implementation, sub-agent registry entries might follow [Appendix B: Sub-Agent Registry Schema (Sketch)]
+- 🎯   Проблема:   Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent R [Contents]
+- For implementation, sub-agent registry entries might follow [Contents]
+- For implementation, sub-agent registry entries might follow [Contents]
 
-### `303-приложение-визуализация-позиции-в-серии.md` (3)
+### `297-что-промышленность-вероятно-построит.md` (3)
 
-- Возможно, в следующем 6-12 месяцев это станет более доступным. [Краткие заметки к переводу]
-- Реалистичная оценка : возможно когда Anthropic enables custom Project templates publicly. [Краткие заметки к переводу]
-- - Path 4 (Project Template) когда возможно [Связь с Документом 2.3 — почти прямое попадание]
+- -  Что промышленность вероятно построит (#что-промышленность-вероятно-построит) [Что промышленность вероятно построит]
+- 🏷️   Ключевые слова:    anthropic ,  notion ,  промышленность ,  вероятно ,  документ ,  перед ,  projects ,  github [Contents]
+- Hypothes.is для аннотаций существует; мог бы [Что промышленность вероятно построит]
 
 ### `02-nautilus-A-pro2-meta.md` (3)
 
-- Если вы ставили trit proj как shared slot между экспертами, то скорее всего именно этот bottleneck убивал градиент. [Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME ]
-- Попробую реконструировать, что это может быть. [Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME ]
-- В контексте training LLM это может быть: [Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME ]
+- Если вы ставили trit proj как shared slot между экспертами, то скорее всего именно этот bottleneck убивал градиент. [Contents]
+- Попробую реконструировать, что это может быть. [Contents]
+- В контексте training LLM это может быть: [Contents]
 
 ### `01-response.md` (3)
 
-- Сейчас этот посредник может быть AI. [Claude hat geantwortet: Это сильное продолжение мысли, и оно]
-- Может быть efficient но также может быть manipulated. [Claude hat geantwortet: Это сильное продолжение мысли, и оно]
-- Если второе, OKWF может быть тестируемая первый use case, prototype, который validates whole approach. [Claude hat geantwortet: Это сильное продолжение мысли, и оно]
+- Сейчас этот посредник может быть AI. [Contents]
+- Может быть efficient но также может быть manipulated. [Contents]
+- Если второе, OKWF может быть тестируемая первый use case, prototype, который validates whole approach. [Contents]
 
 ### `03-what-makes-csa.md` (3)
 
@@ -3307,7 +2639,7 @@ _Обновлено: 2026-05-10_
 
 - the principal might not have considered. [5.2. Three Configuration Approaches]
 - Periodic configuration review (perhaps annually) keeps the [5.4. Configuration Evolution]
-- law lawyer might benefit from a starting template: [5.5. Templates and Starting Points]
+- law lawyer might benefit from a starting template: [5.5. Templates and Starting Point]
 
 ### `00-question-anonymization.md` (3)
 
@@ -3329,11 +2661,6 @@ _Обновлено: 2026-05-10_
 
 - 🔧   Подход:   What Both Paradigms Miss Both single-triangle approaches share a structural blind spot: they assume humans exist in one role at a time. [Содержание]
 - they assume humans exist in one role at a time. [Содержание]
-
-### `150-appendix-c-version-history.md` (2)
-
-- Это означает, что chat session может быть simultaneously : [Комментарий к документу]
-- Ваша изначальная гипотеза из начала сессии — «возможно построить AI-staffing infrastructure для таких компаний» — valid и стоит serious exploration . [Комментарий к документу]
 
 ### `191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (2)
 
@@ -3372,18 +2699,13 @@ _Обновлено: 2026-05-10_
 
 ### `271-appendix-c-configuration-template-example.md` (2)
 
-- template for "General Disability Rights Advocate" might include: [Appendix C: Configuration Template Example]
+- template for "General Disability Rights Advocate" might include: [Appendix C: Configur]
 - specializations the practitioner might add as their practice [Appendix C: Configuration Template Example]
 
 ### `288-appendix-position-in-series-visualization.md` (2)
 
 - В разделе "The Recursive Insight" я обозначил возможность, что Nautilus сам может быть extended into Layer B prototype. [Appendix: Position in Series Visualization]
 - - Industry, вероятно, fill the gap независимо [Заметки к восьмому (2.3) документу]
-
-### `297-что-промышленность-вероятно-построит.md` (2)
-
-- 🏷️   Ключевые слова:    anthropic ,  notion ,  промышленность ,  вероятно ,  документ ,  перед ,  projects ,  github [Что промышленность вероятно построит]
-- Hypothes.is для аннотаций существует; мог бы [Что промышленность вероятно построит]
 
 ### `77-2-terminology.md` (2)
 
@@ -3402,38 +2724,38 @@ _Обновлено: 2026-05-10_
 
 ### `READABILITY.md` (2)
 
-- docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   371   48   7.7 [Все документы]
-- docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    0   🔴 Очень сложный   270   33   8.2 [Все документы]
+- 297-что-промышленность-вероятно-построит (02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)   0   🔴 Очень сложный   365   48   7.6 [Все документы]
+- 297-что-промышленность-вероятно-построит (obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)   0   🔴 Очень сложный   322   3 [Все документы]
 
 ### `READING_TIME.md` (2)
 
-- docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    ~1 мин   373   📗 Быстро [Все документы]
-- docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    ~1 мин   272   📗 Быстро [Все документы]
+- 297-что-промышленность-вероятно-построит (02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)   ~2 мин   367   📗 Быстро [Все документы]
+- 297-что-промышленность-вероятно-построит (obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)   ~2 мин   324   📗 Быстро [Все документы]
 
 ### `00-question-rephrasing.md` (2)
 
-- Есть несколько разных вопросов и поэтому можно их частично параллельно обсуждать частично последовательно например есть объективная задача спрос рожда [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
-- Каждый закрывает свой узкий фрагмент роли, а вместе они покрывают вакансию полностью — и часто лучше одного человека, потому что один человек не может [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
+- Есть несколько разных вопросов и поэтому можно их частично параллельно обсуждать частично последовательно например есть объективная задача спрос рожда [Contents]
+- Каждый закрывает свой узкий фрагмент роли, а вместе они покрывают вакансию полностью — и часто лучше одного человека, потому что один человек не может [Contents]
 
 ### `10-three-entry-points.md` (2)
 
-- Вы как Principal Investigator, 2-3 institutional partner (DFKI, Fraunhofer IAO, Turing Institute), и один industry partner (может быть Anthropic или M [Три точки входа разной амбиции]
-- Первый цикл инвестиций — €250K pre-seed под pilot с одним заказчиком (возможно, сам Anthropic Institute или Mozilla AI challenge). [Три точки входа разной амбиции]
+- Вы как Principal Investigator, 2-3 institutional partner (DFKI, Fraunhofer IAO, Turing Institute), и один industry partner (может быть Anthropic или M [Contents]
+- Первый цикл инвестиций — €250K pre-seed под pilot с одним заказчиком (возможно, сам Anthropic Institute или Mozilla AI challenge). [Contents]
 
 ### `03-why-natural-for-programmers.md` (2)
 
-- Это означает, что игровая прогрессия может быть объективно верифицируемой, а не субъективной оценкой босса. [Почему именно для программистов это работает естественно]
-- Это нужно учесть — возможно, через multiple modes (hardcore gamified vs минимальный UI, выбор пользователя). [Почему именно для программистов это работает естественно]
+- Это означает, что игровая прогрессия может быть объективно верифицируемой, а не субъективной оценкой босса. [Contents]
+- Это нужно учесть — возможно, через multiple modes (hardcore gamified vs минимальный UI, выбор пользователя). [Contents]
 
 ### `02-final-ranking.md` (2)
 
-- Для вашего медицинского статуса это может быть блокирующим ограничением — нужно проверять accommodation policy. [Финальное ранжирование Anthropic-ролей по частичному покрыти]
-- Это, возможно, самый реалистично достижимый путь в Anthropic конкретно с вашего текущего положения. [Финальное ранжирование Anthropic-ролей по частичному покрыти]
+- Для вашего медицинского статуса это может быть блокирующим ограничением — нужно проверять accommodation policy. [Contents]
+- Это, возможно, самый реалистично достижимый путь в Anthropic конкретно с вашего текущего положения. [Contents]
 
 ### `02-minuses-1-10.md` (2)
 
-- Rufler — не указано (probably MIT) [Минусы 1–10: integration сложность, lifecycle risk, license,]
-- Свяжи extraction: Closed-source, может быть not reproducible exactly [Минусы 1–10: integration сложность, lifecycle risk, license,]
+- Rufler — не указано (probably MIT) [Contents]
+- Свяжи extraction: Closed-source, может быть not reproducible exactly [Contents]
 
 ### `00-question-agent-changes-reality.md` (2)
 
@@ -3447,13 +2769,13 @@ _Обновлено: 2026-05-10_
 
 ### `01-claude-response.md` (2)
 
-- Это применимо буквально без изменений к legal domain: статья закона может быть cited/applied/mentioned — три разных категории, нуждающихся в разной об [Claude hat geantwortet: Прочитал внимательно.]
+- Это применимо буквально без изменений к legal domain: статья закона может быть cited/applied/mentioned — три разных категории, нуждающихся в разной об [Contents]
 - Особенно важно для humanities domain, где LLM-based deep analysis может быть expensive. [unknown_legal_concepts.yml]
 
 ### `00-question-voiceless.md` (2)
 
-- Deep-profile matching с proactive suggestions может быть именно тот mechanism, который делает их visible. [Du hast gesagt: Самый интересный вопрос — могут ли быть voic]
-- Выше цитата то что вы написали В этом чате в этой сессии вопросы такое вопросы такие вопросы ещё такой дело в том что это достаточно логично и предска [Du hast gesagt: Самый интересный вопрос — могут ли быть voic]
+- Deep-profile matching с proactive suggestions может быть именно тот mechanism, который делает их visible. [Contents]
+- Выше цитата то что вы написали В этом чате в этой сессии вопросы такое вопросы такие вопросы ещё такой дело в том что это достаточно логично и предска [Contents]
 
 ### `04-sub-agent-registry.md` (2)
 
@@ -3462,7 +2784,7 @@ _Обновлено: 2026-05-10_
 
 ### `07-economics-combinatorial.md` (2)
 
-- A high-quality narrow-specialist sub-agent might cost €50,000- [7.1. Cost]
+- A high-quality narrow-specialist sub-agent might cost €50,000- [7. Economics of Combinatorial Replication]
 - (perhaps 20-50 covering core specializations of one profession). [7.3. Investment Strategy]
 
 ### `09-okwf-integration.md` (2)
@@ -3477,8 +2799,13 @@ _Обновлено: 2026-05-10_
 
 ### `02-what-was-missing-in-paper-6.md` (2)
 
-- Другой учитель музыки имел бы другую конфигурацию — может быть, без джаза, но с этномузыкологией. [Это не Тип 1 — потому что профиль не общий для всей професси]
-- Может быть автоматическим (анализ профиля принципала, рекомендации), полуавтоматическим (диалог с принципалом), или ручным (принципал выбирает сам). [Это не Тип 1 — потому что профиль не общий для всей професси]
+- Другой учитель музыки имел бы другую конфигурацию — может быть, без джаза, но с этномузыкологией. [Contents]
+- Может быть автоматическим (анализ профиля принципала, рекомендации), полуавтоматическим (диалог с принципалом), или ручным (принципал выбирает сам). [Contents]
+
+### `08-promyshlennost-postroit.md` (2)
+
+- -  Что промышленность вероятно построит (#что-промышленность-вероятно-построит) [Что промышленность вероятно построит]
+- Hypothes.is для аннотаций существует; мог бы [Что промышленность вероятно построит]
 
 ### `00-question-innovations-transitions.md` (2)
 
@@ -3487,8 +2814,8 @@ _Обновлено: 2026-05-10_
 
 ### `01-response.md` (2)
 
-- Гипотеза сдвигается: может быть, правильная единица оркестрации в AI-managed work — не «команда людей с AI-supervisors», а «один человек + managed AI  [Claude hat geantwortet: Отличный запрос.]
-- С учётом всего этого, три наиболее возможно ценных next actions, в порядке интегральной value: [Claude hat geantwortet: Отличный запрос.]
+- Гипотеза сдвигается: может быть, правильная единица оркестрации в AI-managed work — не «команда людей с AI-supervisors», а «один человек + managed AI  [Contents]
+- С учётом всего этого, три наиболее возможно ценных next actions, в порядке интегральной value: [Contents]
 
 ### `00-question-multi-tier.md` (2)
 
@@ -3542,17 +2869,9 @@ _Обновлено: 2026-05-10_
 
 - -   Progressive enhancement  : репо может быть подключён на уровне 0 [1.2. Design Goals]
 
-### `104-appendix-c-references.md` (1)
-
-- Write-extension — возможно в v2.0 как optional extension. [Комментарий к документу]
-
 ### `114-7-реализация-в-проекте-nautilus.md` (1)
 
 - В будущем методология может быть формализована в NPP v2.0 как [7.3. Интеграция с Nautilus Portal Protocol]
-
-### `122-глоссарий.md` (1)
-
-- Будущий blog post «Three-Phase Documentation Methodology for AI-Assisted Workflows» — 3-5 тысяч слов — может быть написан на его основе за вечер. [Комментарий к документу]
 
 ### `124-конфигурация-для-claude-desktop.md` (1)
 
@@ -3573,6 +2892,10 @@ _Обновлено: 2026-05-10_
 ### `164-10-appendices.md` (1)
 
 - What existing initiatives in your organization might [Appendix E: Key Open Questions for Potential Partners]
+
+### `165-closing.md` (1)
+
+- "If the mountain will not come to the human, perhaps the [Closing]
 
 ### `176-7-governance-and-oversight.md` (1)
 
@@ -3648,7 +2971,7 @@ _Обновлено: 2026-05-10_
 
 ### `299-практические-рекомендации-для-текущего-проекта.md` (1)
 
-- -  Что промышленность вероятно построит (297-что-промышленность-вероятно-построит.md)  21% [Связанные документы]
+- -  Что промышленность вероятно построит (297-что-промышленность-вероятно-построит.md)  21% [Упоминается в]
 
 ### `300-заключение.md` (1)
 
@@ -3686,10 +3009,6 @@ _Обновлено: 2026-05-10_
 
 - - Не assume — confirm understanding [Твой workflow]
 
-### `364-final-note-ты-experiment.md` (1)
-
-- Risk : Если они see, что Lorenzo сам lists them as «collaborators» до того, как они agreed, может быть perception of presumption. [Что нужно decide перед использованием]
-
 ### `366-технический-stack-svyazi-2-0-foundation.md` (1)
 
 - 🔧   Подход:   cardid (immutable) cardtype (person/project/episode/doc/hypothesis) state (raw/normalized/inferred/approved/rejected/decayed) sources ed [Технический stack (Svyazi 2.0 foundation)]
@@ -3706,21 +3025,21 @@ _Обновлено: 2026-05-10_
 
 - Карточка как единица правды   Svyazi, AgentFS   CardIndex, hash/dedup, versionable vault, persistent state   Универсальная типизация для person/projec [Архитектурные зазоры, которые важнее новых инструментов]
 
+### `ACTION_ITEMS.md` (1)
+
+- - is probably practical experimentation — start using Cowork+InGit for actual work, see what works, refine based on experience. [➡️ Следующие шаги (352)]
+
 ### `COST.md` (1)
 
 - 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [Временные оценки из документов]
 
-### `DUPLICATES.md` (1)
-
-- Меры противодействия  : - Шифрование в покое и при передаче - Гранулярный контроль доступа - Опции локального развёртывания (данные остаются на устрой [86% — `docs/obsidian/02-anthropic-vacancies/333-7-практическ]
-
 ### `KPI.md` (1)
 
-- 4-6     ner (может быть Anthropic или Mistral). [Время (444)]
+- 4-6     ner (может быть Anthropic или Mistral). [Время (558)]
 
 ### `READING_ORDER.md` (1)
 
-- 327   🟢 Начало    Что промышленность вероятно построит (docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)   333   — [Рекомендуемый порядок чтения]
+- 333   🟢 Начало    Что промышленность вероятно построит (02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)   375   — [Рекомендуемый порядок чтения]
 
 ### `SUMMARIES.md` (1)
 
@@ -3728,15 +3047,15 @@ _Обновлено: 2026-05-10_
 
 ### `07-vs-notion-mem-affine-langgraph.md` (1)
 
-- AFFiNE может быть отличным UI/vault substrate для Svyazi‑2.0, но сам по себе не даёт Svyazi‑логики: verified/claimed/inferred, CardIndex, collaboratio [Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / Lang]
+- AFFiNE может быть отличным UI/vault substrate для Svyazi‑2.0, но сам по себе не даёт Svyazi‑логики: verified/claimed/inferred, CardIndex, collaboratio [Contents]
 
 ### `10-architecture-rfc.md` (1)
 
-- Core entities: person, project, episode, document, hypothesis, match, review, trace. [Следующий артефакт: Svyazi 2.0 Architecture RFC]
+- Core entities: person, project, episode, document, hypothesis, match, review, trace. [Contents]
 
 ### `8-budget-aware-intelligence-stack.md` (1)
 
-- Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных рекомендаций научных статей старый SVM/TF-IDF может быть быстрее,  [Ансамбль 8 — Budget-Aware Intelligence Stack]
+- Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных рекомендаций научных статей старый SVM/TF-IDF может быть быстрее,  [Contents]
 
 ### `source-projects.md` (1)
 
@@ -3744,43 +3063,43 @@ _Обновлено: 2026-05-10_
 
 ### `05-section-5-role-of-anthropic.md` (1)
 
-- Claude API access at sustainable cost (perhaps subsidized для beneficial domain) [Section 5: Role of Anthropic Beneficial Deployments]
+- Claude API access at sustainable cost (perhaps subsidized для beneficial domain) [Contents]
 
 ### `00-question-camel-vs-nautilus.md` (1)
 
-- Сначала общие вопросы такие вопросы например проект репозитории Наутилуса он не управляет он больше собирает информацию координируют репозитории но не [Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрест]
+- Сначала общие вопросы такие вопросы например проект репозитории Наутилуса он не управляет он больше собирает информацию координируют репозитории но не [Contents]
 
 ### `02-what-info-repos-contain.md` (1)
 
-- Да, возможно, и я думаю это правильное направление. [Что у нас есть в трёх info repositories (info1/info7/info40)]
+- Да, возможно, и я думаю это правильное направление. [Contents]
 
 ### `04-what-to-take-from-info-repos.md` (1)
 
-- Realistic timeline для marketplace dimension: probably 12+ months после base system stable. [Что брать из info repositories — concrete recommendations]
+- Realistic timeline для marketplace dimension: probably 12+ months после base system stable. [Contents]
 
 ### `01-profile-five-layers.md` (1)
 
-- «данные», 70 — номер), — это, вероятно, либо лабораторный журнал из ~70 идей/прототипов, либо контейнер датасетов, который вы используете как личный « [Сводка профиля: пять слоёв]
+- «данные», 70 — номер), — это, вероятно, либо лабораторный журнал из ~70 идей/прототипов, либо контейнер датасетов, который вы используете как личный « [Contents]
 
 ### `05-platform-not-position.md` (1)
 
-- Есть несколько разных вопросов и поэтому можно их частично параллельно обсуждать частично последовательно например есть объективная задача спрос рожда [Финальный вывод: платформа, а не должность]
+- Есть несколько разных вопросов и поэтому можно их частично параллельно обсуждать частично последовательно например есть объективная задача спрос рожда [Contents]
 
 ### `00-question-habr-examples.md` (1)
 
-- в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект по разработке программног [Вопрос: ещё примеры с Хабра по варианту D]
+- в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект по разработке программног [Contents]
 
 ### `12-concrete-next-step.md` (1)
 
-- Вариант D: Поискать ещё уникальные projects — может быть есть other collaborators worth finding. [Конкретный next step]
+- Вариант D: Поискать ещё уникальные projects — может быть есть other collaborators worth finding. [Contents]
 
 ### `7-metaphor.md` (1)
 
-- Хорошо теперь на базе этого образца можно ещё вернуться к самому началу больше к программному обеспечению чем железо поиск новых проектов которые не т [Метафора «двое родителей — несколько детей»]
+- Хорошо теперь на базе этого образца можно ещё вернуться к самому началу больше к программному обеспечению чем железо поиск новых проектов которые не т [Contents]
 
 ### `06-svyazi-2-0-block-map.md` (1)
 
-- Предложение поиска сбора конструктора совмещение lego и пазлов логическими информационными это могут быть и другие темы технические имеются в виду свя [Синтез: блок-карта Svyazi 2.0 на хеббовском графе]
+- Предложение поиска сбора конструктора совмещение lego и пазлов логическими информационными это могут быть и другие темы технические имеются в виду свя [Contents]
 
 ### `12-workflow.md` (1)
 
@@ -3788,15 +3107,15 @@ _Обновлено: 2026-05-10_
 
 ### `01-search-results-not-found.md` (1)
 
-- Это confirms the hypothesis: Lorenzo Catalyst Agent — genuinely emerging category, не established product. [Результаты последнего поиска — что нашлось и что не нашлось]
+- Это confirms the hypothesis: Lorenzo Catalyst Agent — genuinely emerging category, не established product. [Contents]
 
 ### `01-pluses-1-7.md` (1)
 
-- Implication: Lorenzo Phase 2-3 (по нашей gradation) может быть reachable в 6-12 месяцев вместо 18-24. [Плюсы 1–7: feasibility, flywheel, independent value, mission]
+- Implication: Lorenzo Phase 2-3 (по нашей gradation) может быть reachable в 6-12 месяцев вместо 18-24. [Contents]
 
 ### `03-q3-what-lorenzo-does.md` (1)
 
-- Generates synthesis proposal (which projects might combine) [Question 3: Что Lorenzo фактически делает?]
+- Generates synthesis proposal (which projects might combine) [Contents]
 
 ### `03-catalog.md` (1)
 
@@ -3812,11 +3131,11 @@ _Обновлено: 2026-05-10_
 
 ### `01-yogi-metaphor.md` (1)
 
-- Возможно, лучшее название найдётся, но суть в этом. [Claude hat geantwortet: Это очень тонкое и важное наблюдение]
+- Возможно, лучшее название найдётся, но суть в этом. [Contents]
 
 ### `01-why-single-triangle-incomplete.md` (1)
 
-- they assume humans exist in one role at a time. [1.2. What Both Paradigms Miss]
+- they assume humans exist in one role at a time. [1.1. The Current Landscape]
 
 ### `06-four-deployment-domains.md` (1)
 
@@ -3838,10 +3157,6 @@ _Обновлено: 2026-05-10_
 
 - Это может быть или не быть проектом, который [Рекурсивное прозрение]
 
-### `08-promyshlennost-postroit.md` (1)
-
-- Hypothes.is для аннотаций существует; мог бы [Что промышленность вероятно построит]
-
 ### `11-zaklyuchenie.md` (1)
 
 - Этот пробел вероятно будет заполнен различными [Заключение]
@@ -3860,7 +3175,7 @@ _Обновлено: 2026-05-10_
 
 ### `02-chto-cowork-obespechivaet.md` (1)
 
-- карта InGit может быть существенно сокращена: [2.8. Что это удаляет из]
+- карта InGit может быть существенно сокращена: [2.8.]
 
 ### `05-chetyre-puti-integratsii.md` (1)
 
@@ -3872,7 +3187,7 @@ _Обновлено: 2026-05-10_
 
 ### `00-question-can-it-apply-to-docs.md` (1)
 
-- Это не просто расширение — это второй контур применения, возможно более коммерчески значимый, чем первый. [Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот ]
+- Это не просто расширение — это второй контур применения, возможно более коммерчески значимый, чем первый. [Contents]
 
 ### `01-introduction.md` (1)
 
@@ -3944,7 +3259,7 @@ _Обновлено: 2026-05-10_
 
 ### `card-envelope.md` (1)
 
-- -  card type  —  person     project     episode     document     hypothesis    … [Card Envelope]
+- -  card type  —  person     project     episode     document     hypothesis    … [Contents]
 
 ### `gaps.md` (1)
 
@@ -3952,20 +3267,72 @@ _Обновлено: 2026-05-10_
 
 ### `D-voice-first-mesh.md` (1)
 
-- -   Нулевой friction для входа данных  : мысль после звонка или встречи сразу превращается в текст и может быть автоматически структурирована. [Ансамбль D — Voice‑first local knowledge mesh]
+- -   Нулевой friction для входа данных  : мысль после звонка или встречи сразу превращается в текст и может быть автоматически структурирована. [Contents]
 
 ### `experiment-log.md` (1)
 
 - hypothesis: " Гипотеза одной строкой "
 
 
-<!-- see-also -->
 
----
+> [!NOTE]
+> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
 
-## Смотрите также
-- [OUTLINE](OUTLINE.md)
-- [TABLES](TABLES.md)
-- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
-- [CONCEPTS](CONCEPTS.md)
+<!-- alert-added -->
 
+
+## Инструменты обработки
+
+```bash
+python scripts/improve_run_all.py --fast
+```
+
+```bash
+python scripts/improve_run_all.py --group reports
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Lorenzo"
+```
+
+```bash
+python scripts/improve_collab_finder.py --query "проект"
+```
+
+```bash
+python scripts/improve_run_all.py --group analysis
+```
+
+```bash
+python scripts/improve_run_all.py --group quality
+```
+
+```bash
+python scripts/improve_broken_links.py
+```
+
+```bash
+python scripts/improve_metrics.py
+```
+
+```bash
+python scripts/improve_health.py
+```
+
+```bash
+python scripts/improve_run_all.py --group deeptext
+```
+
+```bash
+python scripts/improve_run_all.py --group nlpplus
+```
+
+```bash
+python scripts/improve_run_all.py --group export
+```
+
+
+
+## Связанные документы
+
+[README](README.md) · [GLOSSARY](GLOSSARY.md) · [CONTACTS](CONTACTS.md) · [TIMELINE](TIMELINE.md) · [TAGS](TAGS.md) · [SEARCH](SEARCH.md) · [HEALTH](HEALTH.md) · [METRICS](METRICS.md) · [INDEX](INDEX.md) · [FAQ](FAQ.md) · [DECISIONS](DECISIONS.md) · [ACTION_ITEMS](ACTION_ITEMS.md) · [QUESTIONS](QUESTIONS.md) · [KPI](KPI.md) · [PRIORITIES](PRIORITIES.md) · [CLUSTERS](CLUSTERS.md) · [READING_ORDER](READING_ORDER.md) · [CONCEPTS](CONCEPTS.md)

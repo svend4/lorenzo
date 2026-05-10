@@ -2,7 +2,7 @@
 title: "Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)
@@ -756,7 +756,7 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[ACTION_ITEMS]] (сходство 0.14)
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.14)
 - [[CONCEPTS]] (сходство 0.13)
@@ -766,7 +766,18 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Lorenzo Catalyst Agent глубокая проработ"
+```
+
+```bash
+# BM25 поиск
+python scripts/improve_semantic_search.py --query "Lorenzo Catalyst Agent глубокая проработ" --mode bm25
+```
+
+## Смотрите также
 - [[ACTION_ITEMS]]
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]]
 - [[CONCEPTS]]
@@ -788,3 +799,13 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 ## Связанные документы
 
 - [[342-что-такое-вариант-c-concept-document-для-anthropic|Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[165-closing]]
+- [[342-что-такое-вариант-c-concept-document-для-anthropic]]
+- [[README]]
+

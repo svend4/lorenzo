@@ -6,7 +6,7 @@ tags:
   - roadmap
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # 4. Proposed Infrastructure
@@ -252,7 +252,7 @@ Community governance operates:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
 - [[143-6-four-deployment-domains]] (сходство 0.18)
 - [[144-7-open-questions]] (сходство 0.16)
@@ -262,9 +262,31 @@ Community governance operates:
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Proposed Infrastructure"
+```
+
+## Смотрите также
 - [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [[143-6-four-deployment-domains]]
 - [[144-7-open-questions]]
 - [[145-8-call-to-action]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[143-6-four-deployment-domains]]
+- [[144-7-open-questions]]
+- [[145-8-call-to-action]]
+- [[150-appendix-c-version-history]]
+- [[153-executive-summary]]
+- [[157-3-why-existing-solutions-fail]]
+- _...ещё 5_
 

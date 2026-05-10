@@ -157,3 +157,17 @@ python scripts/improve_semantic_search.py --query "2 The Twenty One Teachers Pat
 - [01-why-binary-incomplete](01-why-binary-incomplete.md)
 - [261-8-seven-domains-of-application](../../02-anthropic-vacancies/261-8-seven-domains-of-application.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-seven-domains](08-seven-domains.md)
+- [README](README.md)
+

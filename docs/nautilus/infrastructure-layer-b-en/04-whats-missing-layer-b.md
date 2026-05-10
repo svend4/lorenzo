@@ -100,3 +100,19 @@ python scripts/improve_semantic_search.py --query "What s Missing Layer B"
 - [07-specific-case](07-specific-case.md)
 - [03-two-layer-stack](03-two-layer-stack.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-existing-approximations](06-existing-approximations.md)
+- [07-specific-case](07-specific-case.md)
+- [08-recursive-insight](08-recursive-insight.md)
+- _...ещё 4_
+

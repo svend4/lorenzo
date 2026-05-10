@@ -3,16 +3,25 @@ title: "Table of Contents"
 tags:
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Table of Contents
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > 1. **The Cinderella Syndrome: Why Quality Stays Invisible**
 
 ---
 <!-- tags: roadmap -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -37,7 +46,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[211-table-of-contents]] (сходство 0.23)
 - [[253-table-of-contents]] (сходство 0.21)
 - [[154-table-of-contents]] (сходство 0.17)
@@ -47,7 +56,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
+## Смотрите также
 - [[211-table-of-contents]]
 - [[253-table-of-contents]]
 - [[154-table-of-contents]]
@@ -89,3 +104,19 @@ date: 2026-04-29
 - [[326-содержание|Содержание]] _25%_
 - [[137-table-of-contents|Table of Contents]] _21%_
 - [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributions]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[137-table-of-contents]]
+- [[149-appendix-b-summary-of-contributions]]
+- [[154-table-of-contents]]
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
+- [[181-12-closing]]
+- [[211-table-of-contents]]
+- [[253-table-of-contents]]
+- [[308-table-of-contents]]
+- _...ещё 3_
+

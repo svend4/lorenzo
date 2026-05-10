@@ -63,3 +63,17 @@ python scripts/improve_semantic_search.py --query "Языки и культур�
 - [09-q9-geographic-linguistic-scope](specification/09-q9-geographic-linguistic-scope.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [09-q9-geographic-linguistic-scope](specification/09-q9-geographic-linguistic-scope.md)
+

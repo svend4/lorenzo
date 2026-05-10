@@ -224,3 +224,16 @@ python scripts/improve_semantic_search.py --query "4 Десять областе
 - [207-приложение-c-образцы-случаев-использования-в-детал](../../02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
 - [07-oblasti-primeneniya](../professional-colleague-agents-ru/07-oblasti-primeneniya.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
+- [README](README.md)
+

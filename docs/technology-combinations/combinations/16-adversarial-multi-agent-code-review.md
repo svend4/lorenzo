@@ -92,3 +92,19 @@ python scripts/improve_semantic_search.py --query "Комбинация 16 Adver
 - [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
+- [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
+- _...ещё 2_
+

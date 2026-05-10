@@ -106,3 +106,19 @@ python scripts/improve_semantic_search.py --query "2 Terminology"
 - [03-registry](03-registry.md)
 - [05-compatibility-levels](05-compatibility-levels.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-introduction](01-introduction.md)
+- [03-registry](03-registry.md)
+- [12-onboarding-paths](12-onboarding-paths.md)
+- [README](README.md)
+- _...ещё 1_
+

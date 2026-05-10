@@ -104,3 +104,18 @@ python scripts/improve_semantic_search.py --query "Двухслойный сте
 - [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
 - [05-priblizheniya](05-priblizheniya.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [README](README.md)
+

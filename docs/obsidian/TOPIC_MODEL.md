@@ -9,7 +9,7 @@ tags:
   - anthropic
   - collaboration
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Тематическое моделирование (TF-IDF)
@@ -29,7 +29,7 @@ date: 2026-04-29
 ## Содержание
 
 - [Тема 1: turn, view, cite (325 документов)](#тема-1-turn-view-cite-325-документов)
-- [Тема 4: cowork, ingit, composite (79 документов)](#тема-4-cowork-ingit-composite-79-документов)
+- Тема 4: cowork, [ingit, composite (79 документов)](#тема-4-cowork-ingit-composite-79-документов)
 - [Тема 2: middle, ensembl, layer (27 документов)](#тема-2-middle-ensembl-layer-27-документов)
 - [Тема 3: агент, совместной, коллеги (26 документов)](#тема-3-агент-совместной-коллеги-26-документов)
 - [Тема 5: compatibility, level, bridges (22 документов)](#тема-5-compatibility-level-bridges-22-документов)
@@ -197,9 +197,26 @@ _Обновлено: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+
+## Использование
+
+```bash
+python scripts/improve_topic_model.py
+```
+
+## Смотрите также
 - [[CLUSTERS]]
 - [[READING_TIME]]
 - [[SEARCH]]
 - [[READABILITY]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
 

@@ -4,12 +4,34 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers
 
+<!-- toc-auto -->
+## Contents
+
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](#a-typology-of-ai-agents-on-the-principal-side-and-the-case-for-profession-specific-co-workers)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (17)](#кто-ссылается-на-этот-документ-17)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - Representative Agent Layer v1.0
 
 ---
@@ -39,7 +61,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.70)
 - [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.62)
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.38)
@@ -49,11 +71,17 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "A Typology of AI Agents on the"
+```
+
+## Смотрите также
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 - [[167-ai-mediated-representation-for-underrepresented-ex]]
 - [[274-the-missing-middle-layer-between-chat-and-code]]
-- [[306-with-anthropic-s-cowork-platform]]
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
 
 <!-- backlinks-auto -->
 ## Упоминается в
@@ -103,3 +131,19 @@ date: 2026-04-29
 - [[146-acknowledgments|Acknowledgments]] _37%_
 - [[268-references|References]] _37%_
 - [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _37%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (17)
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[137-table-of-contents]]
+- [[146-acknowledgments]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[182-acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[211-table-of-contents]]
+- _...ещё 9_
+

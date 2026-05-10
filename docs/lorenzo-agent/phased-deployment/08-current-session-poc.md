@@ -1,5 +1,15 @@
 # Что мы можем делать прямо сейчас (Уровень 0 + параллельная подготовка к Уровню 1)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -186,4 +196,17 @@ python scripts/improve_semantic_search.py --query "Что мы можем дел
 - [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)
 - [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
 - [04-recommendations](../operationalized/04-recommendations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 

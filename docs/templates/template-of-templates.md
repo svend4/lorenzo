@@ -144,3 +144,14 @@ _Создано: 2026-04-29_
 - [decision-record](decision-record.md)
 - [`scripts/improve_validate_templates.py`](../../scripts/improve_validate_templates.py)
 - [`scripts/improve_template_init.py`](../../scripts/improve_template_init.py)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [README](README.md)
+

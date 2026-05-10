@@ -78,3 +78,16 @@ python scripts/improve_semantic_search.py --query "Что я бы посовет
 - [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
 - 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [README](README.md)
+

@@ -106,3 +106,16 @@ python scripts/improve_semantic_search.py --query "Результаты посл
 - [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
 - [03-section-3-solution-architecture](../../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+

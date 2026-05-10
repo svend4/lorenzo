@@ -1,11 +1,39 @@
 # templates
 
-**Файлов:** 5
+**Файлов:** 23
 
 ## Содержание
 
+- [agent-spec.md](agent-spec.md) — ---
 - [contact-outreach.md](contact-outreach.md) — ---
+- [contradiction-record.md](contradiction-record.md) — ---
 - [decision-record.md](decision-record.md) — ---
 - [ensemble.md](ensemble.md) — ---
+- [experiment-log.md](experiment-log.md) — ---
+- [faq-entry.md](faq-entry.md) — ---
+- [glossary-entry.md](glossary-entry.md) — ---
+- [kpi-snapshot.md](kpi-snapshot.md) — ---
+- [legal-case.md](legal-case.md) — ---
+- [meeting-notes.md](meeting-notes.md) — ---
+- [mega-stack.md](mega-stack.md) — ---
 - [project-component.md](project-component.md) — ---
+- [protocol-spec.md](protocol-spec.md) — ---
+- [prototype-mvp.md](prototype-mvp.md) — ---
 - [research-note.md](research-note.md) — ---
+- [retrospective.md](retrospective.md) — ---
+- [rfc.md](rfc.md) — ---
+- [risk-entry.md](risk-entry.md) — ---
+- [tech-pair.md](tech-pair.md) — ---
+- [tech-radar-entry.md](tech-radar-entry.md) — ---
+- [template-of-templates.md](template-of-templates.md) — ---
+- [weekly-digest.md](weekly-digest.md) — ---
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../../READABILITY.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+

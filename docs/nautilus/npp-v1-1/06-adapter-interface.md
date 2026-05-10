@@ -118,3 +118,19 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 - [07-portal-entry](07-portal-entry.md)
 - 16-[mcp-extension](16-mcp-extension.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-compatibility-levels](05-compatibility-levels.md)
+- [07-portal-entry](07-portal-entry.md)
+- [13-rest-api](13-rest-api.md)
+- [15-security](15-security.md)
+- _...ещё 2_
+

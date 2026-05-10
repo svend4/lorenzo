@@ -19,8 +19,8 @@
 
 Файлы в корне репозитория:
 
-- [`Поиск уникальных проектов на Хабре для совместной разработки - Claude`](../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20-%20Claude)
-- [`… - Claude (1)`](../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20-%20Claude%20(1)) — почти идентичная вторая копия
+- `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (MHTML)
+- `… - Claude (1)` — почти идентичная вторая копия (MHTML)
 
 ## Подпапки
 
@@ -49,3 +49,17 @@ python scripts/improve_semantic_search.py --query "habr unique projects поис
 ```
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [4-summary-authors](final-ensembles/4-summary-authors.md)
+- [README](search-strategy/README.md)
+

@@ -56,3 +56,19 @@ python scripts/improve_semantic_search.py --query "Пара 3 CRDT синхро�
 - [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
 - [6-metaphor](6-metaphor.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
+- [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md)
+- _...ещё 4_
+

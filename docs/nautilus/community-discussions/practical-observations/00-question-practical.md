@@ -50,3 +50,18 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Да это и
 - [17-appendix-b-change-log](../../npp-v1-0/17-appendix-b-change-log.md)
 
 _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [01-response](01-response.md)
+- [README](README.md)
+

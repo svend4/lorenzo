@@ -64,3 +64,19 @@ flowchart LR
 - [evidence-envelope](../architecture/evidence-envelope.md)
 
 _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [3-forensic-rag](../../ai-collaborations/ensembles/3-forensic-rag.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [F-evidence-backed-intake](F-evidence-backed-intake.md)
+- _...ещё 1_
+

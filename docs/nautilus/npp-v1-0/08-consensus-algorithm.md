@@ -100,3 +100,16 @@ python scripts/improve_semantic_search.py --query "8 Consensus Algorithm v1 0 st
 - [84-9-consensus-algorithm](../../02-anthropic-vacancies/84-9-consensus-algorithm.md)
 - [10-query-result](10-query-result.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [09-consensus-algorithm](../npp-v1-1/09-consensus-algorithm.md)
+

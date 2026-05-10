@@ -1,5 +1,15 @@
 # Пара 5 — Browser agents × headless web extraction
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -72,4 +82,19 @@ python scripts/improve_semantic_search.py --query "Пара 5 Browser agents hea
 - [1-workflow-llm-mcp](1-workflow-llm-mcp.md)
 - [3-crdt-self-hosted](3-crdt-self-hosted.md)
 - 2-pkm-[mcp-skills](2-pkm-mcp-skills.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [8-self-aware-mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
+- [1-workflow-llm-mcp](1-workflow-llm-mcp.md)
+- [README](README.md)
 

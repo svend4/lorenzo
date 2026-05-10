@@ -71,3 +71,18 @@ python scripts/improve_semantic_search.py --query "Ансамбль 4 Web to Kno
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 - [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [9-ambient-team-agent](9-ambient-team-agent.md)
+- [README](README.md)
+

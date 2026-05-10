@@ -3,16 +3,31 @@ title: "For the Curious: Philosophy"
 tags:
   - rag
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # For the Curious: Philosophy
+
+<!-- toc-auto -->
+## Contents
+
+- [For the Curious: Philosophy](#for-the-curious-philosophy)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > `info1` реализует идею, что **methodology — это отдельное измерение
 
 ---
 <!-- tags: rag -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -31,7 +46,7 @@ pragmatic), реализованной как knowledge ecosystem.
 
 ---
 
-*Passport version: 1.0 · Protocol: [[PORTAL-PROTOCOL|NPP v1.0]] · 
+*Passport version: 1.0 · Protocol: [[03-portal-protocol-md|NPP v1.0]] · 
 Last updated: 2026-04*
 ```
 ---
@@ -41,7 +56,7 @@ Last updated: 2026-04*
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[54-for-the-curious-philosophy]] (сходство 0.12)
 
 
@@ -49,7 +64,13 @@ Last updated: 2026-04*
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "For the Curious Philosophy"
+```
+
+## Смотрите также
 - [[54-for-the-curious-philosophy]]
 - [[62-author-contact]]
 - [[28-appendix-a-minimal-working-example]]
@@ -90,3 +111,19 @@ Last updated: 2026-04*
 - [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _29%_
 - [[326-содержание|Содержание]] _29%_
 - [[05-0-status-of-this-document|0. Status of This Document]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[04-abstract]]
+- [[05-0-status-of-this-document]]
+- [[123-portal-mcp-py]]
+- [[132-planned-v0-2-0]]
+- [[154-table-of-contents]]
+- [[190-содержание]]
+- [[326-содержание]]
+- [[54-for-the-curious-philosophy]]
+- _...ещё 4_
+

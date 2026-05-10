@@ -178,3 +178,17 @@ Cowork — удобство, не авторитет.
 - 03-chto-[ingit-obespechivaet](03-chto-ingit-obespechivaet.md)
 - [09-riski-voprosy](09-riski-voprosy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-chto-ingit-obespechivaet](03-chto-ingit-obespechivaet.md)
+- [09-riski-voprosy](09-riski-voprosy.md)
+- [README](README.md)
+

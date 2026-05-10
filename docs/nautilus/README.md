@@ -69,3 +69,19 @@
 ```bash
 python scripts/improve_semantic_search.py --query "nautilus Nautilus Portal Protocol и связ"
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [concepts](../glossary/concepts.md)
+- [2-tsu-mome](../habr-unique-projects/hardware-pairs/2-tsu-mome.md)
+- _...ещё 3_
+

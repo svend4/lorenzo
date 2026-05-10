@@ -2,11 +2,37 @@
 title: "Майндмап репозитория Lorenzo"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-10
 ---
 
 # Майндмап репозитория Lorenzo
+
+<!-- toc-auto -->
+## Contents
+
+- [Структура разделов](#структура-разделов)
+- [Поток данных между проектами](#поток-данных-между-проектами)
+- [Легенда](#легенда)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+> knowledge-space[knowledge-space]
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 
 
 ## Структура разделов
@@ -112,9 +138,20 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[GLOSSARY]]
 - [[CONTACT_PRIORITY]]
 - [[GRAPH]]
 - [[NETWORK]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

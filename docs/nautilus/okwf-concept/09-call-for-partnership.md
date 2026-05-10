@@ -1,5 +1,21 @@
 # 9. Call for Partnership
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [9. Call for Partnership](#9-call-for-partnership)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
+  - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
+  - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
+  - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
+  - [9.5. For Potential Contributors](#95-for-potential-contributors)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -135,4 +151,20 @@ python scripts/improve_semantic_search.py --query "9 Call for Partnership"
 - [07-phased-rollout](07-phased-rollout.md)
 - [05-economic-model](05-economic-model.md)
 - [10-appendices](10-appendices.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [01-problem-statement](01-problem-statement.md)
+- [05-economic-model](05-economic-model.md)
+- [06-governance-ethics](06-governance-ethics.md)
+- _...ещё 4_
 

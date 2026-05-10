@@ -146,3 +146,19 @@ python scripts/improve_semantic_search.py --query "8 Implications for Nautilus a
 - [10-strategic-positioning](10-strategic-positioning.md)
 - [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reprioritization](../../anthropic-vacancies/hermes-comparison/13-reprioritization.md)
+- [02-what-info-repos-contain](../../anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)
+- [04-what-to-take-from-info-repos](../../anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
+- [05-what-to-do-right-now](../../anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md)
+- _...ещё 3_
+

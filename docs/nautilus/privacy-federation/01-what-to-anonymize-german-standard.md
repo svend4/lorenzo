@@ -86,3 +86,16 @@ python scripts/improve_semantic_search.py --query "Что именно анон�
 - [02-two-tier-publication](02-two-tier-publication.md)
 - 03-similarity-3-[mcp-support](../../anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-anonymization](00-question-anonymization.md)
+- [README](README.md)
+

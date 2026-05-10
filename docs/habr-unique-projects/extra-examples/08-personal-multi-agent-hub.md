@@ -72,3 +72,19 @@ python scripts/improve_semantic_search.py --query "Personal multi agent hub"
 - 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-existing-infrastructure-stack](../../anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md)
+- [03-sgb-advocate-colleague-example](../../anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md)
+- _...ещё 7_
+

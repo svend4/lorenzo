@@ -1,5 +1,16 @@
 # Комбинация 14: local-first Agent Development Environment
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -135,7 +146,7 @@ Charted eight research directions for discovering additional project synergies
 ## Использование
 ```bash
 # Поиск по теме документа
-python scripts/improve_semantic_search.py --query "Комбинация 14 local first Agent"
+python scripts/improve_semantic_search.py --query "Комбинация 14 local-first Agent"
 ```
 
 ## Смотрите также

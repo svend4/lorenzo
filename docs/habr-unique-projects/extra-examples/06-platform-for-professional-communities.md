@@ -62,3 +62,19 @@ python scripts/improve_semantic_search.py --query "Платформа для п�
 - [05-hw-nl2workflow](05-hw-nl2workflow.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-hw-nl2workflow](05-hw-nl2workflow.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
+- _...ещё 3_
+

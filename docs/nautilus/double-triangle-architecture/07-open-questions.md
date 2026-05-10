@@ -166,3 +166,18 @@ python scripts/improve_semantic_search.py --query "7 Open Questions"
 - [08-call-to-action](08-call-to-action.md)
 - [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-pattern-library-bridge](05-pattern-library-bridge.md)
+- [08-call-to-action](08-call-to-action.md)
+- [README](README.md)
+
