@@ -1,17 +1,17 @@
 # Метрики качества документации
 
-**Файлов:** 1718  **Средний балл:** 72.1/100
+**Файлов:** 1726  **Средний балл:** 71.1/100
 
 ## Качество по разделам
 
 | Раздел | Балл | Ссылок/1K слов | Код-блоков/1K | % с summary | % с тегами |
 |--------|------|----------------|--------------|-------------|------------|
-| **01-svyazi** | 65 | 18.4 | 0.5 | 93% | 93% |
-| **02-anthropic-vacancies** | 79 | 73.5 | 0.6 | 100% | 100% |
-| **03-technology-combinations** | 68 | 49.6 | 0.0 | 100% | 86% |
-| **04-ai-collaborations** | 78 | 17.2 | 0.0 | 94% | 94% |
-| **05-habr-projects** | 59 | 64.8 | 0.0 | 70% | 70% |
-| **root** | 66 | 25.9 | 1.3 | 70% | 71% |
+| **01-svyazi** | 63 | 18.4 | 0.5 | 87% | 87% |
+| **02-anthropic-vacancies** | 79 | 73.4 | 0.6 | 100% | 99% |
+| **03-technology-combinations** | 64 | 49.6 | 0.0 | 86% | 71% |
+| **04-ai-collaborations** | 77 | 17.2 | 0.0 | 88% | 88% |
+| **05-habr-projects** | 65 | 41.9 | 0.1 | 75% | 75% |
+| **root** | 53 | 21.6 | 1.5 | 27% | 24% |
 
 ## Топ-15 лучших документов
 
@@ -33,45 +33,35 @@
 | `323-appendix-c-sample-ingit-mcp-server-t` | 100 | 1782 |
 | `330-4-симбиотическая-архитектура` | 100 | 703 |
 
-## Документы, требующие улучшения (19)
+## Документы, требующие улучшения (39)
 
 | Документ | Балл | Что отсутствует |
 |----------|------|----------------|
-| `ABBREVIATIONS` | 30 | summary, tags, TOC, callout |
-| `AUTHORS` | 30 | summary, tags, TOC, callout |
+| `QA` | 30 | summary, tags, TOC, callout |
+| `QA` | 30 | summary, tags, TOC, callout |
+| `QA` | 30 | summary, tags, TOC, callout |
+| `QA` | 30 | summary, tags, TOC, callout |
+| `QA` | 30 | summary, tags, TOC, callout |
 | `BACKLINKS` | 30 | summary, tags, TOC, callout |
-| `COMPLEXITY` | 30 | summary, tags, TOC, callout |
-| `CROSSREFS` | 30 | summary, tags, TOC, callout |
-| `DENSITY` | 30 | summary, tags, TOC, callout |
-| `MCP_DASHBOARD` | 30 | summary, tags, TOC, callout |
-| `MISSING` | 30 | summary, tags, TOC, callout |
-| `ORPHANS` | 30 | summary, tags, TOC, callout |
-| `PRIORITIES` | 30 | summary, tags, TOC, callout |
-| `QUESTIONS` | 30 | summary, tags, TOC, callout |
-| `SENTIMENT` | 30 | summary, tags, TOC, callout |
-| `WORD_FREQ` | 30 | summary, tags, TOC, callout |
-| `README` | 30 | summary, tags, TOC, callout |
-| `AUTHORS` | 30 | summary, tags, TOC, callout |
-| `GLOSSARY` | 30 | summary, tags, TOC, callout |
-| `LINKS` | 30 | summary, tags, TOC, callout |
-| `ORPHANS` | 30 | summary, tags, TOC, callout |
-| `TAGS` | 30 | summary, tags, TOC, callout |
+| `BROKEN_LINKS` | 30 | summary, tags, TOC, callout |
+| `CHANGELOG` | 30 | summary, tags, TOC, callout |
+| `CITATION_INDEX` | 30 | summary, tags, TOC, callout |
+| `COMPARE` | 30 | summary, tags, TOC, callout |
+| `CONTRADICTIONS` | 30 | summary, tags, TOC, callout |
+| `COST` | 30 | summary, tags, TOC, callout |
+| `GITHUB_ISSUES` | 30 | summary, tags, TOC, callout |
+| `HEADING_AUDIT` | 30 | summary, tags, TOC, callout |
+| `KPI_HISTORY` | 30 | summary, tags, TOC, callout |
+| `LANGUAGE_STATS` | 30 | summary, tags, TOC, callout |
+| `NAMED_ENTITIES` | 30 | summary, tags, TOC, callout |
+| `PARAGRAPH_QUALITY` | 30 | summary, tags, TOC, callout |
+| `PASSIVE_VOICE` | 30 | summary, tags, TOC, callout |
+| `QA` | 30 | summary, tags, TOC, callout |
 
 ## Общие показатели
 
-- Файлов с `<!-- summary -->`: **92.8%**
-- Файлов с тегами: **92.3%**
-- Файлов с оглавлением: **34.3%**
-- Файлов с callout: **29.8%**
-- Средний балл качества: **72.1/100**
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [STATS](docs/STATS.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [HEALTH](docs/HEALTH.md)
-- [ORPHANS](docs/ORPHANS.md)
-
+- Файлов с `<!-- summary -->`: **89.7%**
+- Файлов с тегами: **88.9%**
+- Файлов с оглавлением: **32.7%**
+- Файлов с callout: **30.5%**
+- Средний балл качества: **71.1/100**

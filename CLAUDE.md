@@ -24,8 +24,8 @@ docs/
   ENTITIES.md          — упоминания проектов (22 проекта)
   PROTOTYPE_SPEC.md    — спецификация прототипа Svyazi 2.0 (4 контракта + 4 итерации)
   DECISIONS.md         — ключевые архитектурные решения
-  HEALTH.md            — балл здоровья репо (75/100)
-  METRICS.md           — метрики качества документов (65.7/100)
+  HEALTH.md            — балл здоровья репо (90/100)
+  METRICS.md           — метрики качества документов (71.1/100)
   SCORING.md           — Go/No-Go (96% → GO)
   search_index.json    — поисковый индекс (483 документа, content+preview)
   CONTENT_GAPS.md      — темы без документа
@@ -311,7 +311,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 | Итерация | Статус | Ключевые артефакты |
 |----------|--------|--------------------|
 | 0 — Вертикальный срез | ✅ Готово | 1632 карточки, 2500+ рёбер, MCP 11 инструментов |
-| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16468 токенов) + гибрид 0.6/0.4 |
+| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16472 токенов) + гибрид 0.6/0.4 |
 | 2 — Consolidation | 🔄 В процессе | CI daily, incremental build, orphan rate < 15% |
 | 3 — Collaboration Finder | ✅ Готово | 9 богатых проектных файлов, 10/11 карточек с рёбрами, 9 контактов |
 
@@ -339,7 +339,7 @@ python scripts/improve_semantic_search.py --query "граф знаний" --json
 ### CardStore и TF-IDF индекс
 ```bash
 python scripts/improve_card_index.py --build --incremental   # инкрементальная сборка (< 3с)
-python scripts/improve_embedding_index.py --index            # TF-IDF индекс (16468 токенов, body-поле)
+python scripts/improve_embedding_index.py --index            # TF-IDF индекс (16472 токенов, body-поле)
 python scripts/improve_embedding_index.py --query "агент"   # семантический поиск
 python scripts/improve_embedding_index.py --similar <card_id>  # похожие карточки
 python scripts/improve_embedding_index.py --stats           # статистика индекса

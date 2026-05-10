@@ -2,7 +2,7 @@
 
 <!-- summary -->
 > Автоматический поиск партнёрских проектов для: «svyazi спецификация прототипа memory orchestration security knowledge ingestion »
-> **Дата:** 2026-05-10 16:49  **Кандидатов:** 9
+> **Дата:** 2026-05-10 17:00  **Кандидатов:** 9
 
 ---
 
@@ -490,4 +490,4 @@ Lorenzo / svend4
    python scripts/improve_collab_finder.py --query "svyazi спецификация прототипа memory orchestration"
    ```
 
-_Сгенерировано: 2026-05-10 16:49  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-10 17:00  |  Алгоритм: TF-IDF + BM25 + граф_
