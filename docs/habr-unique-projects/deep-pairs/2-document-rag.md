@@ -43,6 +43,12 @@ Local RAG за вечер (https://habr.com/ru/articles/955798/) — 5 open-sour
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 2 Парсинг документов локальный RAG"
+```
+
 ## Смотрите также
 - 07-crawl4ai-docling-[yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 - [5-voice-local-memory](5-voice-local-memory.md)

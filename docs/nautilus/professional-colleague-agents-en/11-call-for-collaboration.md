@@ -92,3 +92,9 @@ quality standards — all need development. Engagement with
 practitioners during framework development valuable.
 
 ---
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
+```

@@ -58,6 +58,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Существующий landscape collaborators"
+```
+
 ## Смотрите также
 - [354-существующий-landscape-collaborators-твоя-working-](../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
 - [06-final-tier-ranking](../anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)

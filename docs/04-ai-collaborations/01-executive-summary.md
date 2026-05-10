@@ -70,6 +70,12 @@ _Обновлено: 2026-04-29_
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Executive summary"
+```
+
 ## Смотрите также
 - [03-component-catalog](../01-svyazi/03-component-catalog.md)
 - [04-ensembles-overview](../01-svyazi/04-ensembles-overview.md)

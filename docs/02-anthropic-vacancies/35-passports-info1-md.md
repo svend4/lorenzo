@@ -49,6 +49,13 @@ markdown
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports info1 md"
+```
+
 ## Смотрите также
 - [55-passports-meta-md](55-passports-meta-md.md)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md)

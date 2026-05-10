@@ -79,6 +79,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "19 ADR 001 Federation over Merging"
+```
+
 ## Смотрите также
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)

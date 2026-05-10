@@ -56,6 +56,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Security routing plane"
+```
+
 ## Смотрите также
 - [E-execution-plane](../ensembles/E-execution-plane.md)
 - [research-docs-liteparse](research-docs-liteparse.md)
@@ -73,3 +80,4 @@
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._

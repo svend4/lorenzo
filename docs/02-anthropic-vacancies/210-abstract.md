@@ -91,6 +91,12 @@ their daily work.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
 ## Смотрите также
 - [223-12-closing](223-12-closing.md)
 - [252-abstract](252-abstract.md)

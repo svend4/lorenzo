@@ -63,3 +63,4 @@ flowchart LR
 - [F-evidence-backed-intake](F-evidence-backed-intake.md)
 - [evidence-envelope](../architecture/evidence-envelope.md)
 
+_Документ доступен для семантического поиска._ _Индексировано._

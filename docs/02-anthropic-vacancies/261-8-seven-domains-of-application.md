@@ -213,6 +213,12 @@ within 5-10 years.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Seven Domains of Application"
+```
+
 ## Смотрите также
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
 - [218-7-application-domains](218-7-application-domains.md)

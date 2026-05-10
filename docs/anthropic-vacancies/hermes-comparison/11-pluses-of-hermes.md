@@ -48,9 +48,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Плюсы Hermes vs наша гипотетическая"
+```
+
 ## Смотрите также
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 - [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)
 - 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

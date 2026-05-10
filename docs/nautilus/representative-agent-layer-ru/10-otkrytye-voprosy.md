@@ -92,6 +92,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Открытые вопросы"
+```
+
 ## Смотрите также
 - [200-10-открытые-вопросы](../../02-anthropic-vacancies/200-10-открытые-вопросы.md)
 - [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)

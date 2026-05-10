@@ -108,6 +108,13 @@ ROI: 50k docs structured in 1 day vs weeks of manual work
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 25 Legal DSL Code Transpiler"
+```
+
 ## Смотрите также
 - [13-legal-document-transpiler](13-legal-document-transpiler.md)
 - [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)

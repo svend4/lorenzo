@@ -59,6 +59,12 @@ native-формат репозитория в унифицированное п�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
 ## Смотрите также
 - [74-abstract](74-abstract.md)
 - [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)

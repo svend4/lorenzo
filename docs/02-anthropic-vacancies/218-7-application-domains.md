@@ -217,6 +217,12 @@ application drafting.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Application Domains"
+```
+
 ## Смотрите также
 - [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)

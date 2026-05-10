@@ -94,6 +94,12 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Terminology"
+```
+
 ## Смотрите также
 - [77-2-terminology](../../02-anthropic-vacancies/77-2-terminology.md)
 - [07-2-terminology](../../02-anthropic-vacancies/07-2-terminology.md)

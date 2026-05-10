@@ -132,6 +132,12 @@ INTEGRATION.md (637 строк) — пять путей подключения
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Глоссарий"
+```
+
 ## Смотрите также
 - [122-глоссарий](../../02-anthropic-vacancies/122-глоссарий.md)
 - [02-formal-workflow](02-formal-workflow.md)

@@ -271,6 +271,12 @@ OKWF:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Пилотное предложение SGB Колega"
+```
+
 ## Смотрите также
 - [239-8-пилотное-предложение-sgb-колega-адвокат](../../02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
 - [07-oblasti-primeneniya](07-oblasti-primeneniya.md)

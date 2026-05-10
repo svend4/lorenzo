@@ -50,6 +50,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что с этим делать"
+```
+
 ## Смотрите также
 - [10-three-entry-points](10-three-entry-points.md)
 - [04-stronger-paths-outside-anthropic](../profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)

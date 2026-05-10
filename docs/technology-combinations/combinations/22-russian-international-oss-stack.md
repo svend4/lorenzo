@@ -77,6 +77,13 @@ ROI: Performance + community support, no vendor lock-in
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 22 Russian International OSS"
+```
+
 ## Смотрите также
 - [21-legal-corpus-analytics-at-scale](21-legal-corpus-analytics-at-scale.md)
 - 27-hybrid-[rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
@@ -93,3 +100,4 @@ ROI: Performance + community support, no vendor lock-in
 - [README](README.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._

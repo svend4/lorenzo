@@ -42,6 +42,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Roadmap на 6 12 месяцев"
+```
+
 ## Смотрите также
 - [roadmap](../../svyazi-2-0/prototype/roadmap.md)
 - [10-architecture-rfc](10-architecture-rfc.md)

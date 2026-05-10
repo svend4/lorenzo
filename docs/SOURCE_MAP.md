@@ -1332,6 +1332,33 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_source_map.py
+```
+
+```bash
+# Только раздел с вакансиями Anthropic
+python scripts/improve_source_map.py --section 02-anthropic-vacancies
+```
+
+```bash
+# Показать файлы с импортированным контентом
+python scripts/improve_source_map.py --show-imported
+```
+
+```bash
+# Карта по авторам коммитов
+python scripts/improve_source_map.py --authors
+```
+
+```bash
+# Обновить карту и сразу открыть результат
+python scripts/improve_source_map.py --section 05-habr-projects --show-imported
+```
+
 ## Смотрите также
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)

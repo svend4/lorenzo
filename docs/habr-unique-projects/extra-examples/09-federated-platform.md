@@ -50,9 +50,17 @@ Federation between practitioner deployments (Nautilus)
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Federated platform"
+```
+
 ## Смотрите также
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [10-profession-specific-workflows](10-profession-specific-workflows.md)
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

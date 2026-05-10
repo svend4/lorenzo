@@ -119,6 +119,13 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_changelog_auto.py
+```
+
 ## Смотрите также
 - [CHANGELOG](CHANGELOG.md)
 - [DEPENDENCY_MAP](DEPENDENCY_MAP.md)

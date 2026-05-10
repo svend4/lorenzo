@@ -162,6 +162,12 @@ practitioner can configure into their own combination.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 The Twenty One Teachers Pattern"
+```
+
 ## Смотрите также
 - [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)

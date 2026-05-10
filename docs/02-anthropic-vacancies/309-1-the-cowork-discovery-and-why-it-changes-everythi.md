@@ -146,6 +146,12 @@ The remainder of this document develops Option C.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 The Cowork Discovery and Why It"
+```
+
 ## Смотрите также
 - [307-abstract](307-abstract.md)
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)

@@ -106,6 +106,12 @@ work.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Recursive Insight"
+```
+
 ## Смотрите также
 - [285-closing](285-closing.md)
 - [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)

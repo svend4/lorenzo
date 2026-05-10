@@ -61,6 +61,12 @@ Self-aware agent с пониманием контекста — self-aware MCP-�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 5 Browser agents headless web"
+```
+
 ## Смотрите также
 - 8-self-aware-[mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
 - [1-workflow-llm-mcp](1-workflow-llm-mcp.md)

@@ -63,6 +63,13 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 9 Agent Orchestration Stack"
+```
+
 ## Смотрите также
 - [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
 - [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
@@ -79,3 +86,4 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 - [README](README.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

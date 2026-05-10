@@ -106,6 +106,12 @@ work. Most successful infrastructure projects start this way.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Practical First Steps This Month"
+```
+
 ## Смотрите также
 - [315-7-practical-first-steps-this-month](../../02-anthropic-vacancies/315-7-practical-first-steps-this-month.md)
 - [05-four-integration-paths](05-four-integration-paths.md)

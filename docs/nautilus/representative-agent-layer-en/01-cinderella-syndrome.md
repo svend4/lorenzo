@@ -151,6 +151,12 @@ Layer.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 The Cinderella Syndrome Why Quality"
+```
+
 ## Смотрите также
 - [170-1-the-cinderella-syndrome-why-quality-stays-invisi](../../02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
 - [02-historical-precedents](02-historical-precedents.md)

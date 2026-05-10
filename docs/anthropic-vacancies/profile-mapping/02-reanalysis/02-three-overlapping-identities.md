@@ -40,6 +40,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Три наложенные идентичности"
+```
+
 ## Смотрите также
 - [15-public-benefit](../../clusters/15-public-benefit.md)
 - [02-final-ranking](../03-integral-final/02-final-ranking.md)

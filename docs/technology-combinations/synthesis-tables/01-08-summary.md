@@ -66,6 +66,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводная таблица 1 8"
+```
+
 ## Смотрите также
 - 08-conductor-[adversarial-review-auto-ai-router](../combinations/08-conductor-adversarial-review-auto-ai-router.md)
 - [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)

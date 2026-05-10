@@ -914,6 +914,18 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_priorities.py
+```
+
+```bash
+# Дополнительный поиск по теме
+python scripts/improve_semantic_search.py --query "Приоритеты файлов" --mode bm25
+```
+
 ## Смотрите также
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)
 - [READABILITY](READABILITY.md)

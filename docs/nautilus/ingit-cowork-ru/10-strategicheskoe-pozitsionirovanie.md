@@ -193,6 +193,12 @@ InGit папкой) немедленно
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Стратегическое Позиционирование"
+```
+
 ## Смотрите также
 - [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
 - 08-implikatsii-[nautilus-okwf](08-implikatsii-nautilus-okwf.md)

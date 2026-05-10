@@ -183,6 +183,13 @@ _Обновлено: 2026-04-29_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_topic_model.py
+```
+
 ## Смотрите также
 - [CLUSTERS](CLUSTERS.md)
 - [READING_TIME](READING_TIME.md)

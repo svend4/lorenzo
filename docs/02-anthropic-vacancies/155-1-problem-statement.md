@@ -145,6 +145,12 @@ coordinated action now.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Problem Statement"
+```
+
 ## Смотрите также
 - [153-executive-summary](153-executive-summary.md)
 - [156-2-target-populations](156-2-target-populations.md)

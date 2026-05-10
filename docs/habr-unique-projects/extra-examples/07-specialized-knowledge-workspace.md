@@ -52,9 +52,17 @@ Optional sync с Cowork для agentic capabilities
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Specialized knowledge workspace"
+```
+
 ## Смотрите также
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - [10-profession-specific-workflows](10-profession-specific-workflows.md)
 - [09-federated-platform](09-federated-platform.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._

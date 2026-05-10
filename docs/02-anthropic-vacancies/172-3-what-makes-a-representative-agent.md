@@ -162,6 +162,12 @@ and 7.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Representative Agent"
+```
+
 ## Смотрите также
 - [174-5-architectural-specification](174-5-architectural-specification.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)

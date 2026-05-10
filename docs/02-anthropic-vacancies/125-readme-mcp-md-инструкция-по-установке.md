@@ -49,6 +49,12 @@ svend4 как обычный tool.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "README MCP md инструкция по установке"
+```
+
 ## Смотрите также
 - [123-portal-mcp-py](123-portal-mcp-py.md)
 - [105-review-methodology-md](105-review-methodology-md.md)

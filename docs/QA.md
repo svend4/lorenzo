@@ -823,3 +823,14 @@ _Не найдено в этом файле._
 ## Какие роли наиболее релевантны для профиля svend4?
 
 _Не найдено в этом файле._
+
+## Использование
+
+```bash
+python scripts/improve_qa.py
+```
+
+```bash
+# Дополнительный поиск по теме
+python scripts/improve_semantic_search.py --query "Глобальный Q A" --mode bm25
+```

@@ -88,6 +88,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Методика и рамка отбора проектов"
+```
+
 ## Смотрите также
 - [02-методика-и-рамка-отбора](../04-ai-collaborations/02-методика-и-рамка-отбора.md)
 - [01-executive-summary](../04-ai-collaborations/01-executive-summary.md)

@@ -53,6 +53,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Примеры запросов в Claude"
+```
+
 ## Смотрите также
 - [128-доступные-инструменты](128-доступные-инструменты.md)
 - 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md)

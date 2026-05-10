@@ -96,6 +96,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
 ## Смотрите также
 - [204-ссылки](204-ссылки.md)
 - [225-references](225-references.md)

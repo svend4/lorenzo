@@ -78,6 +78,13 @@ ROI: Complete audit trail for court, instant historical queries
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 31 Event Sourced Legal"
+```
+
 ## Смотрите также
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
 - [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)

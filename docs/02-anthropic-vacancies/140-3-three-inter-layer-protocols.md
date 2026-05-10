@@ -178,6 +178,12 @@ in distributed systems, adapted for human-AI hybrid execution.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Three Inter Layer Protocols"
+```
+
 ## Смотрите также
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
 - [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md)

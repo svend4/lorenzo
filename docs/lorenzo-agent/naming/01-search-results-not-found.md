@@ -94,6 +94,12 @@ Limitation: developer task automation, не community synthesis
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Результаты последнего поиска что"
+```
+
 ## Смотрите также
 - [06-level-5-full-network](../phased-deployment/06-level-5-full-network.md)
 - 00-question-[lorenzo-codename](00-question-lorenzo-codename.md)

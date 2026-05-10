@@ -50,9 +50,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Research Report Sozialrecht 35"
+```
+
 ## Смотрите также
 - [continuation-10-domains](continuation-10-domains.md)
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 - [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
 - [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
 
+_Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

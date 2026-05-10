@@ -156,6 +156,12 @@ Cowork в настоящее время дорог в использовании
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Риски и Открытые Вопросы"
+```
+
 ## Смотрите также
 - [335-9-риски-и-открытые-вопросы](../../02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md)
 - [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)

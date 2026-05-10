@@ -138,3 +138,4 @@ class MyNotesAdapter(BaseAdapter):
 - [123-portal-mcp-py](123-portal-mcp-py.md)
 - _...ещё 23_
 
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

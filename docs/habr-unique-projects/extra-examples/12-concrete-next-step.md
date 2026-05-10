@@ -60,6 +60,12 @@ Honest reflection
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Конкретный next step"
+```
+
 ## Смотрите также
 - [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md)
 - [10-profession-specific-workflows](10-profession-specific-workflows.md)

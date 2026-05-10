@@ -127,6 +127,12 @@ coordinated action now.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Problem Statement"
+```
+
 ## Смотрите также
 - [155-1-problem-statement](../../02-anthropic-vacancies/155-1-problem-statement.md)
 - [02-target-populations](02-target-populations.md)

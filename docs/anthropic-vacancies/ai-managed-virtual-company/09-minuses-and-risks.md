@@ -62,6 +62,12 @@ Fantastical: коллективный интеллект с AI-mediated consensu
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Минусы и риски"
+```
+
 ## Смотрите также
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 - [00-question-rephrasing](00-question-rephrasing.md)

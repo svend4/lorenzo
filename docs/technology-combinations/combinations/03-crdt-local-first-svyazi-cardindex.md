@@ -66,6 +66,13 @@ Discovery-файл Svyazi (накопление неизвестного) син
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 3 CRDT local first Svyazi"
+```
+
 ## Смотрите также
 - [03-local-first](../../03-technology-combinations/03-local-first.md)
 - 01-pravilnaya-agentskaya-arkhitektura-[svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
@@ -83,3 +90,4 @@ Discovery-файл Svyazi (накопление неизвестного) син
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._

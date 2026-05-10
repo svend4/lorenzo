@@ -62,9 +62,17 @@ ROI: Detect agent bottlenecks 60 sec vs manual review
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 12 Multi Agent Observability"
+```
+
 ## Смотрите также
 - [09-agent-orchestration-stack](09-agent-orchestration-stack.md)
 - [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
 - [16-adversarial-multi-agent-code-review](16-adversarial-multi-agent-code-review.md)
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.

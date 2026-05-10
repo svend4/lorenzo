@@ -44,6 +44,12 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 2 Термодинамические TSU MoE MoME"
+```
+
 ## Смотрите также
 - [02-memnet](../key-findings/02-memnet.md)
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)

@@ -50,6 +50,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "REVIEW_METHODOLOGY md"
+```
+
 ## Смотрите также
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [03-portal-protocol-md](03-portal-protocol-md.md)

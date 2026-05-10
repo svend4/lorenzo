@@ -192,6 +192,12 @@ Riskи и trade-offs, которые стоит осознавать
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что это даёт технически"
+```
+
 ## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)

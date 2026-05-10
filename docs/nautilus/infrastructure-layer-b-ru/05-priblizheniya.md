@@ -136,6 +136,12 @@ AI-сотрудничества над общей работой**.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Существующие приближения"
+```
+
 ## Смотрите также
 - [294-существующие-приближения](../../02-anthropic-vacancies/294-существующие-приближения.md)
 - [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)

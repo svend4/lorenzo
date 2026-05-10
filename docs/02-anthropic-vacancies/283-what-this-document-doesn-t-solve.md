@@ -70,6 +70,12 @@ document provides framing. It does not provide answers.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What This Document Doesn t Solve"
+```
+
 ## Смотрите также
 - [275-why-this-document-exists](275-why-this-document-exists.md)
 - [286-acknowledgments](286-acknowledgments.md)

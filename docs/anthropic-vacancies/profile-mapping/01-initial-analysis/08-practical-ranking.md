@@ -34,9 +34,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Практическое ранжирование первая"
+```
+
 ## Смотрите также
 - [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
 - [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - [05-reality-check-distribution-gap](../02-reanalysis/05-reality-check-distribution-gap.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._

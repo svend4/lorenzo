@@ -145,6 +145,12 @@ practitioner can configure into their own combination.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 The Twenty One Teachers Pattern"
+```
+
 ## Смотрите также
 - [255-2-the-twenty-one-teachers-pattern](../../02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
 - [08-seven-domains](08-seven-domains.md)

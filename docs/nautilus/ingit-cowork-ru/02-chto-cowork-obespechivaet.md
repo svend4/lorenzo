@@ -168,6 +168,12 @@ Cowork работает на macOS и Windows (Linux,
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Что Cowork обеспечивает что InGit не"
+```
+
 ## Смотрите также
 - [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
 - [06-utochnyonnyy-obyom-ingit](06-utochnyonnyy-obyom-ingit.md)

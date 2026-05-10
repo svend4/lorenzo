@@ -280,6 +280,18 @@ Provides empirical validation что архитектура работает в 
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Прочитал внимател"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Прочитал внимател" --mode bm25
+```
+
 ## Смотрите также
 - [165-closing](../../../02-anthropic-vacancies/165-closing.md)
 - [01-strategic-significance](../../multi-tier-architecture/01-strategic-significance.md)

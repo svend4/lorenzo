@@ -43,6 +43,12 @@ Local LLM Wiki поверх раздельной личной/агентной �
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 2 Local first PKM Obsidian Logseq"
+```
+
 ## Смотрите также
 - 07-crawl4ai-docling-[yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 - [02-related-projects](../analogues/02-related-projects.md)

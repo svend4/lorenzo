@@ -76,3 +76,4 @@ and B (branch Y) on YYYY-MM-DD»
 - [07-portal-entry](../npp-v1-1/07-portal-entry.md)
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
 
+_Документ индексирован в поисковой базе репозитория._ _Доступен поиск._

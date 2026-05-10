@@ -36,9 +36,17 @@ Du hast gesagt: https://www.
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt https www"
+```
+
 ## Смотрите также
 - [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md)
 - [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
 - [17-appendix-b-change-log](../../npp-v1-0/17-appendix-b-change-log.md)
 - [00-question-agent-changes-reality](../agent-changes-reality/00-question-agent-changes-reality.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория.

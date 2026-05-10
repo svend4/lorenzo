@@ -145,6 +145,12 @@ synthesis.)
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "13 Closing"
+```
+
 ## Смотрите также
 - [266-13-closing](../../02-anthropic-vacancies/266-13-closing.md)
 - [267-acknowledgments](../../02-anthropic-vacancies/267-acknowledgments.md)

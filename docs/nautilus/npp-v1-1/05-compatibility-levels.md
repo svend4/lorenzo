@@ -93,6 +93,12 @@ Portal возвращает static entries.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
+```
+
 ## Смотрите также
 - [80-5-compatibility-levels](../../02-anthropic-vacancies/80-5-compatibility-levels.md)
 - [17-5-compatibility-levels](../../02-anthropic-vacancies/17-5-compatibility-levels.md)

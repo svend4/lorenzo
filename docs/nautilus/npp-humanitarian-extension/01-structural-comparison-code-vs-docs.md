@@ -279,6 +279,12 @@ legal-nautilus/ ← отдельный приватный репо
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Структурное сравнение код vs"
+```
+
 ## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)

@@ -50,6 +50,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Почему двойственность ангел хранитель"
+```
+
 ## Смотрите также
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 - [07-current-implementations](07-current-implementations.md)

@@ -95,6 +95,12 @@ Extraction/structuring
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI ассистент с Mem0 Letta Graphiti"
+```
+
 ## Смотрите также
 - [06-final-tier-ranking](06-final-tier-ranking.md)
 - [10-collaborators-landscape](../../lorenzo-agent/10-collaborators-landscape.md)

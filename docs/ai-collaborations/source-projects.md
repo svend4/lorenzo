@@ -144,6 +144,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Source projects все Хабр источники в"
+```
+
 ## Смотрите также
 - [authors-by-name](../glossary/authors-by-name.md)
 - [components-by-name](../glossary/components-by-name.md)

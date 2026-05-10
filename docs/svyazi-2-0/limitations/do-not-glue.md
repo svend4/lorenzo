@@ -42,6 +42,12 @@ AutoResearch и Sequential выглядят очень мощно, но толь
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что пока лучше не склеивать"
+```
+
 ## Смотрите также
 - [14-limitations](../../01-svyazi/14-limitations.md)
 - [license-tree](license-tree.md)

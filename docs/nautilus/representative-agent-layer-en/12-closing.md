@@ -486,6 +486,18 @@ pasted
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "12 Closing" --mode bm25
+```
+
 ## Смотрите также
 - [186-appendix-c-sample-use-cases-in-detail](../../02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
 - [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)

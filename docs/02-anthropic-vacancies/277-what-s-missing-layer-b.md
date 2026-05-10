@@ -110,6 +110,12 @@ product.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What s Missing Layer B"
+```
+
 ## Смотрите также
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)

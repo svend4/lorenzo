@@ -43,6 +43,13 @@ Incubator / accelerator для founder-track. Entrepreneur First (Paris, Berlin)
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пересмотренный маппинг на Anthropic"
+```
+
 ## Смотрите также
 - [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
 - [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)

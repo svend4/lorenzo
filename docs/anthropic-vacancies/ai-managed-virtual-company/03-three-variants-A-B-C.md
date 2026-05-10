@@ -62,6 +62,12 @@ Anthropic, кстати, частично уже внутри этой эвол�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Три варианта A staffing agency B"
+```
+
 ## Смотрите также
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
 - [07-current-implementations](07-current-implementations.md)

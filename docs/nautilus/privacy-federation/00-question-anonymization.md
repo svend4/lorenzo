@@ -46,6 +46,12 @@ Claude hat geantwortet: Отличный, осмысленный подход.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Насчёт приватности Я"
+```
+
 ## Смотрите также
 - [00-question-multi-tier](../multi-tier-architecture/00-question-multi-tier.md)
 - [00-question-can-it-apply-to-docs](../npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)

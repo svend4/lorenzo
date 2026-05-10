@@ -502,6 +502,18 @@ Personal manifesto — dignified contribution infrastructure for qualified indiv
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это исключительно"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это исключительно" --mode bm25
+```
+
 ## Смотрите также
 - [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
 - [01-three-related-themes](../supply-demand/01-three-related-themes.md)

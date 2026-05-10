@@ -88,6 +88,12 @@ in walking it.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+```
+
 ## Смотрите также
 - [223-12-closing](223-12-closing.md)
 - [179-10-open-questions](179-10-open-questions.md)

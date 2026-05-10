@@ -90,6 +90,12 @@ supply-chain риск.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "15 Security Considerations"
+```
+
 ## Смотрите также
 - [90-15-security-considerations](../../02-anthropic-vacancies/90-15-security-considerations.md)
 - [11-security-considerations](../npp-v1-0/11-security-considerations.md)

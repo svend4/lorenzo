@@ -564,6 +564,27 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Appendix C Version History"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Appendix C Version History" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Appendix C Version History" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "Appendix C Version History" --mode full --top 15
+```
+
 ## Смотрите также
 - [165-closing](165-closing.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)

@@ -156,6 +156,12 @@ Cowork не имеет.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Открытие Cowork и почему это меняет"
+```
+
 ## Смотрите также
 - [327-1-открытие-cowork-и-почему-это-меняет-всё](../../02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md)
 - [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)

@@ -63,9 +63,17 @@ need to be solved before other work proceeds.
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Closing"
+```
+
 ## Смотрите также
 - [10-what-not-solved](10-what-not-solved.md)
 - [05-why-not-built](05-why-not-built.md)
 - [08-recursive-insight](08-recursive-insight.md)
 - [285-closing](../../02-anthropic-vacancies/285-closing.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

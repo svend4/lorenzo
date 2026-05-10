@@ -52,6 +52,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Evidence Envelope"
+```
+
 ## Смотрите также
 - [11-integration-contracts](../../01-svyazi/11-integration-contracts.md)
 - [11-интеграционный-контракт-который-стоит-зафиксироват](../../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)

@@ -1777,3 +1777,61 @@
 
 - Всего документов: **1748**
 - Всего слов: **1,692,780**
+
+## Использование
+
+```bash
+python scripts/improve_search_repl.py --index
+```
+
+```bash
+# Разовый поиск
+python scripts/improve_search_repl.py --query "агент память"
+```
+
+```bash
+# Полнотекстовый поиск
+python scripts/improve_search_repl.py --query "RAG retrieval" --mode full
+```
+
+```bash
+# Семантический поиск
+python scripts/improve_semantic_search.py --query "агент память" --mode semantic
+```
+
+```bash
+# BM25 поиск
+python scripts/improve_semantic_search.py --query "агент память" --mode bm25
+```
+
+```bash
+# Гибридный поиск
+python scripts/improve_semantic_search.py --query "граф знаний" --mode hybrid
+```
+
+```bash
+# Поиск в конкретном разделе
+python scripts/improve_semantic_search.py --query "RAG" --section 05-habr-projects
+```
+
+```bash
+# Фасетный поиск по типу
+python scripts/improve_faceted_search.py --query "агент" --type projects
+```
+
+```bash
+# Поиск похожих документов
+python scripts/improve_similar_passages.py --min-sim 0.7
+```
+
+```bash
+# Список чтения по запросу
+python scripts/improve_reading_list.py --query "агент с памятью" --top 10
+```
+
+
+## Смотрите также
+
+- [HEALTH](HEALTH.md) — общее здоровье репозитория
+- [METRICS](METRICS.md) — метрики качества документов
+- [BROKEN_LINKS](BROKEN_LINKS.md) — проверка ссылок

@@ -77,6 +77,13 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Автозаполненные шаблоны"
+```
+
 ## Смотрите также
 - [.md](autofilled/components/.md)
 - [cowork](autofilled/components/cowork.md)
@@ -105,3 +112,4 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 - [sgb](autofilled/components/sgb.md)
 - _...ещё 4_
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._

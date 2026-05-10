@@ -64,6 +64,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "History"
+```
+
 ## Смотрите также
 - [43-history](43-history.md)
 - [53-history](53-history.md)

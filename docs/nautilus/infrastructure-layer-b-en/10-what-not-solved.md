@@ -56,9 +56,17 @@ document provides framing. It does not provide answers.
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What This Document Doesn t Solve"
+```
+
 ## Смотрите также
 - [283-what-this-document-doesn-t-solve](../../02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
 - [01-missing-middle-layer](01-missing-middle-layer.md)
 - [02-why-document-exists](02-why-document-exists.md)
 - [08-recursive-insight](08-recursive-insight.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._

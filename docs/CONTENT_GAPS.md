@@ -352,6 +352,13 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_content_gaps.py
+```
+
 ## Смотрите также
 - [CLUSTERS](CLUSTERS.md)
 - [ORPHANS](ORPHANS.md)

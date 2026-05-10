@@ -143,3 +143,24 @@ v1.1*.
 
 ### Основополагающие Источники
 (продолжение из «Слоя Представительских Агентов»)
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Заключение"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "12 Заключение" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "12 Заключение" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "12 Заключение" --mode full --top 15
+```

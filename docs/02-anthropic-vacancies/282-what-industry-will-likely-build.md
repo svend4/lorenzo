@@ -91,6 +91,12 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What Industry Will Likely Build"
+```
+
 ## Смотрите также
 - [281-the-recursive-insight](281-the-recursive-insight.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)

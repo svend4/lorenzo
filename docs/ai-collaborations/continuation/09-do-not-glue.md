@@ -45,6 +45,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что пока не стоит склеивать в один релиз"
+```
+
 ## Смотрите также
 - [10-architecture-rfc](10-architecture-rfc.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)

@@ -84,6 +84,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Research Report Continuation 10 New"
+```
+
 ## Смотрите также
 - [sozialrecht-35-combinations](sozialrecht-35-combinations.md)
 - [03-dsl-ast](../mega-stacks/03-dsl-ast.md)

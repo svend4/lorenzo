@@ -44,6 +44,12 @@ Edge multi-agent mesh — рой Pi/Jetson-агентов, каждый — уз
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 5 TinyML Edge AI MCP skills"
+```
+
 ## Смотрите также
 - [4-riscv-privacy](4-riscv-privacy.md)
 - [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md)

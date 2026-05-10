@@ -80,3 +80,4 @@ def get_state_at(case_id, target_date):
 - [20-24-final](20-24-final.md)
 - [25-30-extended](25-30-extended.md)
 
+_Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

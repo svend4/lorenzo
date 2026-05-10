@@ -123,6 +123,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Риски и меры противодействия"
+```
+
 ## Смотрите также
 - [198-8-риски-и-меры-противодействия](../../02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md)
 - [10-otkrytye-voprosy](10-otkrytye-voprosy.md)

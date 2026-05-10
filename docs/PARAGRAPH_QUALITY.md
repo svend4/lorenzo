@@ -7263,3 +7263,60 @@ _абзац: 1_
 - [READING_TIME](READING_TIME.md)
 - [SOURCE_MAP](SOURCE_MAP.md)
 
+## Использование
+
+```bash
+python scripts/improve_paragraph_quality.py
+```
+
+```bash
+# Только раздел 01-svyazi
+python scripts/improve_paragraph_quality.py --section 01-svyazi
+```
+
+```bash
+# Детальный вывод
+python scripts/improve_paragraph_quality.py --verbose
+```
+
+```bash
+# Раздел habr-projects
+python scripts/improve_paragraph_quality.py --section 05-habr-projects
+```
+
+```bash
+# Проверить технические комбинации
+python scripts/improve_paragraph_quality.py --section 03-technology-combinations
+```
+
+```bash
+# Минимальная длина абзаца 3 предложения
+python scripts/improve_paragraph_quality.py --min-sentences 3
+```
+
+```bash
+# Порог воды (fillers) 20%
+python scripts/improve_paragraph_quality.py --max-water 0.2
+```
+
+```bash
+# Только короткие абзацы < 50 слов
+python scripts/improve_paragraph_quality.py --max-words 50
+```
+
+```bash
+# Экспорт в JSON
+python scripts/improve_paragraph_quality.py --json
+```
+
+```bash
+# После проверки — отчёт о метриках
+python scripts/improve_paragraph_quality.py && python scripts/improve_metrics.py
+```
+
+
+## Смотрите также
+
+- [HEALTH](HEALTH.md) — общее здоровье репозитория
+- [METRICS](METRICS.md) — метрики качества документов
+- [BROKEN_LINKS](BROKEN_LINKS.md) — проверка ссылок

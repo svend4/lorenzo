@@ -100,6 +100,12 @@ such a protocol.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Why Single Triangle Models Are"
+```
+
 ## Смотрите также
 - [138-1-why-single-triangle-models-are-incomplete](../../02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
 - [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)

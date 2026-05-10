@@ -65,6 +65,12 @@ Offer easy decline path
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 4 Каков Lorenzo s character"
+```
+
 ## Смотрите также
 - [13-outreach-communication](../13-outreach-communication.md)
 - [357-твоя-коммуникация-в-outreach](../../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)

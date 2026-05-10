@@ -109,6 +109,12 @@ supply-chain риск.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "15 Security Considerations"
+```
+
 ## Смотрите также
 - [23-11-security-considerations](23-11-security-considerations.md)
 - 88-13-[rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)

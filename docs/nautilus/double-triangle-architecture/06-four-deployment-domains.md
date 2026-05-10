@@ -154,6 +154,12 @@ exist.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Four Deployment Domains"
+```
+
 ## Смотрите также
 - [143-6-four-deployment-domains](../../02-anthropic-vacancies/143-6-four-deployment-domains.md)
 - [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)

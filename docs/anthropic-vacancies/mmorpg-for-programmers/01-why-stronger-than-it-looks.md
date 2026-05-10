@@ -42,6 +42,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Почему эта идея сильнее чем выглядит"
+```
+
 ## Смотрите также
 - [02-existing-niche](02-existing-niche.md)
 - [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)

@@ -59,6 +59,12 @@ Court/Regulation Watcher — отслеживание судебных сайт�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 4 Web to Knowledge Pipeline"
+```
+
 ## Смотрите также
 - [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
 - [9-ambient-team-agent](9-ambient-team-agent.md)

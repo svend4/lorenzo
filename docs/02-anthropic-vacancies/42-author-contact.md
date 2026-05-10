@@ -59,6 +59,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Author Contact"
+```
+
 ## Смотрите также
 - [62-author-contact](62-author-contact.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)

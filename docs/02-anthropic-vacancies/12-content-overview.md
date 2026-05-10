@@ -79,6 +79,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Content Overview"
+```
+
 ## Смотрите также
 - [31-content-overview](31-content-overview.md)
 - [13-angle-perspective](13-angle-perspective.md)
@@ -101,3 +108,4 @@
 - [31-content-overview](31-content-overview.md)
 - _...ещё 2_
 
+_Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._

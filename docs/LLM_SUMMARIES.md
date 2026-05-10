@@ -90,6 +90,12 @@ _Без ключа — автоматическое резюме на основ
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI саммари разделов документации"
+```
+
 ## Смотрите также
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [VALIDATION](VALIDATION.md)

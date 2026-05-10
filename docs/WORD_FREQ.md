@@ -555,6 +555,18 @@ _(Слова, характерные только для этого раздел
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_word_freq.py
+```
+
+```bash
+# Дополнительный поиск по теме
+python scripts/improve_semantic_search.py --query "Частотный анализ слов" --mode bm25
+```
+
 ## Смотрите также
 - [KEYWORD_INDEX](KEYWORD_INDEX.md)
 - [SENTIMENT](SENTIMENT.md)

@@ -34,6 +34,12 @@ Mehr anzeigen
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Того если гора не идёт"
+```
+
 ## Смотрите также
 - [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
 - [00-question-supply-demand](../supply-demand/00-question-supply-demand.md)

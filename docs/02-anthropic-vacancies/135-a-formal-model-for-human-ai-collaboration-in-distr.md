@@ -56,6 +56,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "A Formal Model for Human AI"
+```
+
 ## Смотрите также
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)

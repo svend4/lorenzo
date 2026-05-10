@@ -170,6 +170,12 @@ that touches the world beyond the personal context.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Architectural Specification"
+```
+
 ## Смотрите также
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [175-6-ethical-framework](175-6-ethical-framework.md)

@@ -55,6 +55,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "0 Status of This Document"
+```
+
 ## Смотрите также
 - [75-0-status-of-this-document](75-0-status-of-this-document.md)
 - [42-author-contact](42-author-contact.md)

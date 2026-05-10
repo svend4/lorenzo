@@ -76,9 +76,17 @@ Outreach всё ещё manual (Макс как Lorenzo)
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Уровень 2 Базовый Lorenzo Lite"
+```
+
 ## Смотрите также
 - [01-level-0-manual](01-level-0-manual.md)
 - [04-level-3-medium-active](04-level-3-medium-active.md)
 - [06-level-5-full-network](06-level-5-full-network.md)
 - [05-level-4-extended-mature](05-level-4-extended-mature.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._

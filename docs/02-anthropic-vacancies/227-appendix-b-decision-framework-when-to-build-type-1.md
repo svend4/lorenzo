@@ -92,6 +92,12 @@ populations, Type 1 is the right starting point.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Decision Framework When to"
+```
+
 ## Смотрите также
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md)
 - [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md)

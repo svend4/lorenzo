@@ -164,6 +164,12 @@ implementable starting next week.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Implications for Nautilus and OKWF"
+```
+
 ## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [318-10-strategic-positioning](318-10-strategic-positioning.md)

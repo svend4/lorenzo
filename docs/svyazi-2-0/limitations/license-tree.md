@@ -42,6 +42,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Лицензионные развилки"
+```
+
 ## Смотрите также
 - [14-limitations](../../01-svyazi/14-limitations.md)
 - [executive-summary](../overview/executive-summary.md)

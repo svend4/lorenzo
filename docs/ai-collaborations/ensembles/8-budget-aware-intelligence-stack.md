@@ -59,6 +59,12 @@ Research Compression Engine — 10M токенов литературы сжим
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 8 Budget Aware Intelligence"
+```
+
 ## Смотрите также
 - [02-agentops-trace-envelope](../continuation/02-agentops-trace-envelope.md)
 - [6-continuous-eval-loop](6-continuous-eval-loop.md)

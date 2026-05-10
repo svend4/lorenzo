@@ -168,6 +168,12 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Target Populations"
+```
+
 ## Смотрите также
 - [153-executive-summary](153-executive-summary.md)
 - [155-1-problem-statement](155-1-problem-statement.md)

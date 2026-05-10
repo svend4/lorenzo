@@ -108,6 +108,12 @@ Methodological: how-to и reflection.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
 ## Смотрите также
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - [267-acknowledgments](267-acknowledgments.md)

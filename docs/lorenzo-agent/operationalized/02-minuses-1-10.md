@@ -197,6 +197,12 @@ If Lorenzo becomes pure tool-building exercise, original mission slips.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Минусы 1 10 integration сложность"
+```
+
 ## Смотрите также
 - [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)

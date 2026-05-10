@@ -61,6 +61,12 @@ Legal/Research Case OS — каждое дело, научная гипотез�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 1 Agentic Knowledge OS"
+```
+
 ## Смотрите также
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 - [9-ambient-team-agent](9-ambient-team-agent.md)

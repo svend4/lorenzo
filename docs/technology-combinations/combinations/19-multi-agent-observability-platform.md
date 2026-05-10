@@ -173,6 +173,12 @@ Claude hat geantwortet: Продолжаю охоту за уникальным�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 19 Multi Agent Observability"
+```
+
 ## Смотрите также
 - [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
 - [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)

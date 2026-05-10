@@ -63,6 +63,12 @@ _Обновлено: 2026-04-29_
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Синтез как проекты собираются вместе"
+```
+
 ## Смотрите также
 - [yodoca](memory/yodoca.md)
 - [02-collaboration-partners](02-collaboration-partners.md)

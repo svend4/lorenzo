@@ -131,6 +131,12 @@ Alternative: Комбинация 32 (Raft multi-agent) — если нужна 
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 35 MEGA STACK 4 0 with Event"
+```
+
 ## Смотрите также
 - [31-35-final](../synthesis-tables/31-35-final.md)
 - [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)

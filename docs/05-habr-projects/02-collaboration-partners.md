@@ -68,6 +68,12 @@ _Обновлено: 2026-04-29_
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Авторы и контакты"
+```
+
 ## Смотрите также
 - [01-synthesis](01-synthesis.md)
 - [yodoca](memory/yodoca.md)

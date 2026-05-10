@@ -149,6 +149,12 @@ Charted specialized domains for discovering innovative projects
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 24 MEGA INTEGRATION Full"
+```
+
 ## Смотрите также
 - [20-24-final](../synthesis-tables/20-24-final.md)
 - [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)

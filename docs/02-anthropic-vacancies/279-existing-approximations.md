@@ -133,6 +133,12 @@ problem.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Existing Approximations"
+```
+
 ## Смотрите также
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)

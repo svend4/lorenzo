@@ -188,6 +188,12 @@ funding or modest practitioner contribution.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Economics of Combinatorial Replication"
+```
+
 ## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)

@@ -130,6 +130,12 @@ Double-Triangle deployments.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Nautilus Portal as Reference Substrate"
+```
+
 ## Смотрите также
 - [141-4-nautilus-portal-as-reference-substrate](../../02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)

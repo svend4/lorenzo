@@ -67,6 +67,12 @@ This document explores that observation.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Document Exists"
+```
+
 ## Смотрите также
 - [02-why-document-exists](02-why-document-exists.md)
 - [275-why-this-document-exists](../../02-anthropic-vacancies/275-why-this-document-exists.md)

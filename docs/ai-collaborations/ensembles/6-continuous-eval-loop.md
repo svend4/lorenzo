@@ -63,6 +63,12 @@ Svyazi Self-Improver — карточки с низким качеством ext
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 6 Continuous Eval Loop"
+```
+
 ## Смотрите также
 - [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)

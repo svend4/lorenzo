@@ -352,6 +352,12 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Ten Domains of Application"
+```
+
 ## Смотрите также
 - [173-4-ten-domains-of-application](../../02-anthropic-vacancies/173-4-ten-domains-of-application.md)
 - [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)

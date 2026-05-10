@@ -43,6 +43,12 @@ In-memory computing на мемристорах (RRAM/CBRAM) (habr.com/ru/compan
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Бонус родитель In memory computing на"
+```
+
 ## Смотрите также
 - [7-metaphor](7-metaphor.md)
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)

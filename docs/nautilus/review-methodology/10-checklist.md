@@ -68,6 +68,12 @@ prompts (не «продолжи вариант A»)?
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Checklist применения методологии"
+```
+
 ## Смотрите также
 - [116-9-checklist-применения-методологии](../../02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
 - [GITHUB_ISSUES](../../GITHUB_ISSUES.md)

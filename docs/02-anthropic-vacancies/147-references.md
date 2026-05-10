@@ -98,6 +98,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
 ## Смотрите также
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
 - [320-references](320-references.md)

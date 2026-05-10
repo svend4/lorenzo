@@ -190,6 +190,12 @@ shared, cited, refined by anyone with attribution.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Appendices"
+```
+
 ## Смотрите также
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)

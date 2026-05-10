@@ -212,6 +212,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Десять областей применения"
+```
+
 ## Смотрите также
 - [194-4-десять-областей-применения](../../02-anthropic-vacancies/194-4-десять-областей-применения.md)
 - [12-zaklyuchenie](12-zaklyuchenie.md)

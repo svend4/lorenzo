@@ -47,6 +47,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Planned v0 2 0"
+```
+
 ## Смотрите также
 - [51-compatibility-level](51-compatibility-level.md)
 - [61-compatibility-level](61-compatibility-level.md)

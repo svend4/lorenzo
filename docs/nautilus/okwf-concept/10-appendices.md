@@ -141,6 +141,12 @@ These questions await substantive input from partners:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Appendices"
+```
+
 ## Смотрите также
 - [164-10-appendices](../../02-anthropic-vacancies/164-10-appendices.md)
 - [04-proposed-infrastructure](04-proposed-infrastructure.md)

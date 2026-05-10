@@ -118,6 +118,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Стратегия поэтапного развёртывания"
+```
+
 ## Смотрите также
 - [199-9-стратегия-поэтапного-развёртывания](../../02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
 - [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)

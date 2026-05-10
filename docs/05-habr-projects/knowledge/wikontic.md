@@ -66,6 +66,12 @@ Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive A
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Wikontic семантический граф"
+```
+
 ## Смотрите также
 - [yodoca](../memory/yodoca.md)
 - [ngt-memory](../memory/ngt-memory.md)

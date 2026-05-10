@@ -48,6 +48,12 @@ AI-агенты для рекрутинга конкретно — сейчас 
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что уже существует InnoCentive Kaggle"
+```
+
 ## Смотрите также
 - [07-current-implementations](07-current-implementations.md)
 - [03-three-variants-A-B-C](03-three-variants-A-B-C.md)

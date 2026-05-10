@@ -182,6 +182,12 @@ workflow.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Architecture of Professional"
+```
+
 ## Смотрите также
 - [215-4-architecture-of-professional-colleague-agents](../../02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
 - [04-sub-agent-registry](../composite-skills-agents/04-sub-agent-registry.md)

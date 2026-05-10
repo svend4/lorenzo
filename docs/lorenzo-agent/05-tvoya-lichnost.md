@@ -58,6 +58,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Твоя личность"
+```
+
 ## Смотрите также
 - [349-твоя-личность](../02-anthropic-vacancies/349-твоя-личность.md)
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)

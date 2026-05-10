@@ -46,6 +46,12 @@ Claude hat geantwortet: Понял — переключаюсь на софт.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Метафора двое родителей несколько детей"
+```
+
 ## Смотрите также
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
 - [6-metaphor](../software-pairs/6-metaphor.md)

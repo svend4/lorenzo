@@ -38,6 +38,12 @@ Mehr anzeigen
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Важный момент про"
+```
+
 ## Смотрите также
 - [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
 - [01-yogi-metaphor](01-yogi-metaphor.md)

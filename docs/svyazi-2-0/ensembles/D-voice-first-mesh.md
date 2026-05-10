@@ -57,3 +57,4 @@ flowchart LR
 - [voice-stack](../components/voice-stack.md)
 - [F-evidence-backed-intake](F-evidence-backed-intake.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

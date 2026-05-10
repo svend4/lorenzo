@@ -68,9 +68,17 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "17 Versioning Policy"
+```
+
 ## Смотрите также
 - [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md)
 - [12-versioning-policy](../npp-v1-0/12-versioning-policy.md)
 - [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md)
 - [07-portal-entry](07-portal-entry.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

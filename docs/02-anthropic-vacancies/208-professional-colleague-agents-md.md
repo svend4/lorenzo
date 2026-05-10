@@ -94,6 +94,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PROFESSIONAL COLLEAGUE AGENTS md"
+```
+
 ## Смотрите также
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)

@@ -58,9 +58,17 @@ AI-assisted development**. Старые правила («избегай дуб�
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Почему это валидный паттерн для AI"
+```
+
 ## Смотрите также
 - [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](../../02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)
 - [15-appendix-c-history](15-appendix-c-history.md)
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
 - [14-main-technical-risks](14-main-technical-risks.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._

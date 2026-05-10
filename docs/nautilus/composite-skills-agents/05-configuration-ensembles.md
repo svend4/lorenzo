@@ -153,6 +153,12 @@ modifies their configuration over time.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Configuration How Principals Build"
+```
+
 ## Смотрите также
 - [258-5-configuration-how-principals-build-their-ensembl](../../02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
 - [07-economics-combinatorial](07-economics-combinatorial.md)

@@ -329,6 +329,18 @@ _...ещё 430 записей в этой категории_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_decisions.py
+```
+
+```bash
+# Дополнительный поиск по теме
+python scripts/improve_semantic_search.py --query "Ключевые решения и выводы" --mode bm25
+```
+
 ## Смотрите также
 - [ACTION_ITEMS](ACTION_ITEMS.md)
 - [PROGRESS](PROGRESS.md)

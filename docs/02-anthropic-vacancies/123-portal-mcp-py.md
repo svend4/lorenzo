@@ -755,6 +755,13 @@ if __name__ == "__main__":
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "portal mcp py"
+```
+
 ## Смотрите также
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)

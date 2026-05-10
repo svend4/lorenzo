@@ -170,6 +170,12 @@ Contact: via [GitHub](../01-svyazi/03-component-catalog.md) issues at
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Call to Action"
+```
+
 ## Смотрите также
 - [136-abstract](136-abstract.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)

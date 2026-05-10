@@ -82,9 +82,17 @@ Worst case: public retirement of Lorenzo persona
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 6 Как Lorenzo accountable"
+```
+
 ## Смотрите также
 - [07-q7-success-metrics](07-q7-success-metrics.md)
 - [05-q5-authority-limits](05-q5-authority-limits.md)
 - 03-q3-what-[lorenzo-does](03-q3-what-lorenzo-does.md)
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._

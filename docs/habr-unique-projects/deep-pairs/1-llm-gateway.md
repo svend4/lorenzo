@@ -43,6 +43,12 @@ Auto AI Router как sidecar — крутится рядом с Open WebUI, б�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 1 LLM gateway Self hosted фронт"
+```
+
 ## Смотрите также
 - [02-multiagentnyy-khaos-reshenie-auto-ai-router](../../technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
 - [6-tmux-village-openclaw](6-tmux-village-openclaw.md)

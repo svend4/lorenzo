@@ -191,6 +191,12 @@ Fetched: Rufler: Делаем из Claude Code автономный рой че�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Final note Ты experiment"
+```
+
 ## Смотрите также
 - [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
 - [366-технический-stack-svyazi-2-0-foundation](366-технический-stack-svyazi-2-0-foundation.md)

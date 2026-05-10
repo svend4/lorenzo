@@ -100,6 +100,12 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Executive Summary"
+```
+
 ## Смотрите также
 - [155-1-problem-statement](155-1-problem-statement.md)
 - [156-2-target-populations](156-2-target-populations.md)

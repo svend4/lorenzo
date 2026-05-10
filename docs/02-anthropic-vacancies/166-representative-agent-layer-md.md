@@ -82,6 +82,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "REPRESENTATIVE AGENT LAYER md"
+```
+
 ## Смотрите также
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md)

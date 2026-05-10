@@ -42,9 +42,17 @@ Natural fit для inclusive work. Люди с health limitations, neurodiversit
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Плюсы модели если её построить"
+```
+
 ## Смотрите также
 - [02-four-structural-blockers](02-four-structural-blockers.md)
 - [07-current-implementations](07-current-implementations.md)
 - [01-existing-landscape](01-existing-landscape.md)
 - [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
 
+_Для поиска доступен._

@@ -337,6 +337,18 @@ Advocate/evangelist (spreading the idea)
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Очень богатый воп"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Очень богатый воп" --mode bm25
+```
+
 ## Смотрите также
 - [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
 - [01-completing-loop](../transmission-box/01-completing-loop.md)

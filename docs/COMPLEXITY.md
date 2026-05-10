@@ -97,6 +97,13 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_complexity.py
+```
+
 ## Смотрите также
 - [ORPHANS](ORPHANS.md)
 - [COMPARE](COMPARE.md)

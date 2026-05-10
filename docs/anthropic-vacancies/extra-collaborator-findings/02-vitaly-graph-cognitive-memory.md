@@ -67,6 +67,12 @@ Local-first, single-file SQLite — portable, offline-capable, simple
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Графовая когнитивная память на SQLite"
+```
+
 ## Смотрите также
 - [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
 - [01-coally](01-coally.md)

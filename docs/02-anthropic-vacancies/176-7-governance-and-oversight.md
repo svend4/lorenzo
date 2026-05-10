@@ -125,6 +125,12 @@ by mission-driven foundations.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Governance and Oversight"
+```
+
 ## Смотрите также
 - [175-6-ethical-framework](175-6-ethical-framework.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)

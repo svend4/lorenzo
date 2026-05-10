@@ -60,6 +60,12 @@ BIM/Engineering Coach — тот же паттерн для инженерных
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 7 Domain Agent App Factory"
+```
+
 ## Смотрите также
 - [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
 - [9-ambient-team-agent](9-ambient-team-agent.md)

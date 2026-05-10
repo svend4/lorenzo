@@ -233,6 +233,12 @@ Community governance operates:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Proposed Infrastructure"
+```
+
 ## Смотрите также
 - [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 - 04-[nautilus-portal-substrate](../double-triangle-architecture/04-nautilus-portal-substrate.md)

@@ -79,9 +79,17 @@ Lorenzo ultimately serves vulnerable populations, directly works с independent 
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 2 Кому Lorenzo служит 4"
+```
+
 ## Смотрите также
 - [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 - 01-q1-what-[lorenzo-is](01-q1-what-lorenzo-is.md)
 - [07-q7-success-metrics](07-q7-success-metrics.md)
 
+_Документ индексирован в поисковой базе репозитория._ _Доступен поиск._

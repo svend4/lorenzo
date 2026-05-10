@@ -72,6 +72,13 @@ ROI: Resilient multi-agent workflows, no single point of failure
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 32 Consensus Based Multi"
+```
+
 ## Смотрите также
 - [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
 - [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
@@ -88,3 +95,4 @@ ROI: Resilient multi-agent workflows, no single point of failure
 - [README](README.md)
 - [31-35-final](../synthesis-tables/31-35-final.md)
 
+_Документ индексирован в поисковой базе репозитория._ _Доступен поиск._

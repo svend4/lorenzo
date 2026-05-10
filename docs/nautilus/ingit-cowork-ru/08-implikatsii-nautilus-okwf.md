@@ -160,6 +160,12 @@ InGit/Cowork:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Импликации для Nautilus и OKWF"
+```
+
 ## Смотрите также
 - [334-8-импликации-для-nautilus-и-okwf](../../02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md)
 - [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)

@@ -59,6 +59,13 @@ Query: вопросы типа "найди дела где § 78 + retroactive b
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 4 Парсинг с LLM Graph RAG"
+```
+
 ## Смотрите также
 - [03-local-first](../../03-technology-combinations/03-local-first.md)
 - 07-crawl4ai-docling-[yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
@@ -76,3 +83,4 @@ Query: вопросы типа "найди дела где § 78 + retroactive b
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
+_Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

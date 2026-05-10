@@ -99,6 +99,12 @@ unsolved issues.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
 ## Смотрите также
 - [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md)
 - [145-8-call-to-action](145-8-call-to-action.md)

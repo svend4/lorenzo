@@ -83,3 +83,9 @@ _Создано: 2026-04-29_
 - [Автозаполненные шаблоны](../AUTOFILLED.md)
 - [Ансамбль: [Название]](../templates/ensemble.md)
 - [Шаблоны документов](../templates/README.md)
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "research summary svyazi"
+```

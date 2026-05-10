@@ -207,6 +207,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Эмпирический кейс Обучай"
+```
+
 ## Смотрите также
 - [234-3-эмпирический-кейс-обучай](../../02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md)
 - [02-chto-delaet-pka](02-chto-delaet-pka.md)

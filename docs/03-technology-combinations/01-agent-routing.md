@@ -71,6 +71,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Агентные системы и роутинг"
+```
+
 ## Смотрите также
 - [03-local-first](03-local-first.md)
 - [02-knowledge-graphs](02-knowledge-graphs.md)

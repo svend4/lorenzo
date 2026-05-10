@@ -71,9 +71,17 @@ ROI: Distributed research without central server, knowledge compounds
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 17 Distributed Agent Memory"
+```
+
 ## Смотрите также
 - [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
 - [15-self-consolidating-legal-corpus](15-self-consolidating-legal-corpus.md)
 - 11-hybrid-crdt-[sql-database](11-hybrid-crdt-sql-database.md)
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._

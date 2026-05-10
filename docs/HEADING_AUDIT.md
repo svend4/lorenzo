@@ -5195,6 +5195,32 @@ _секция: 1_
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_heading_audit.py
+```
+
+```bash
+# Детальный аудит конкретного раздела
+python scripts/improve_heading_audit.py --verbose --section 01-svyazi
+```
+
+```bash
+# Только ошибки структуры (пропуски уровней)
+python scripts/improve_heading_audit.py --errors-only
+```
+
+```bash
+# Аудит с экспортом в CSV
+python scripts/improve_heading_audit.py --format csv
+```
+
+```bash
+# Запустить вместе с валидацией
+python scripts/improve_heading_audit.py && python scripts/improve_validate.py
+```
+
 ## Смотрите также
 - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
 - [READABILITY](READABILITY.md)

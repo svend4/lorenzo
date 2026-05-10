@@ -42,9 +42,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Смежные проекты в контексте"
+```
+
 ## Смотрите также
 - [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
 - [01-three-key-candidates](01-three-key-candidates.md)
 - [03-synthesis-hebbian-collaboration-graph](03-synthesis-hebbian-collaboration-graph.md)
 - [01-yodoca](../../habr-unique-projects/key-findings/01-yodoca.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

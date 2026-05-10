@@ -124,6 +124,12 @@ of whether ethical frameworks keep pace.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```
+
 ## Смотрите также
 - [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
 - [181-12-closing](181-12-closing.md)

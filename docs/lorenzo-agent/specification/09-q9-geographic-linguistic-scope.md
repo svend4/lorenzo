@@ -78,9 +78,17 @@ Lorenzo speaks all three, but Habr is initial home base
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 9 Geographic linguistic scope"
+```
+
 ## Смотрите также
 - 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 - [06-yazyki-kultura](../06-yazyki-kultura.md)
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 - [10-q10-funding-model](10-q10-funding-model.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._

@@ -129,6 +129,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "00 Intro"
+```
+
 ## Смотрите также
 - [288-appendix-position-in-series-visualization](../../02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
 - [289-инфраструктура-для-ai-совместной-интеллектуальной-](../../02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)

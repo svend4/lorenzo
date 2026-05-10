@@ -44,6 +44,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что я могу сделать сейчас"
+```
+
 ## Смотрите также
 - [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
 - [05-which-combination-more-valuable](../npp-humanitarian-extension/05-which-combination-more-valuable.md)

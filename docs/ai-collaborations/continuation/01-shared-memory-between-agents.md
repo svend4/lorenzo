@@ -45,6 +45,12 @@ Mermaid
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Общая память между агентами CoAlly"
+```
+
 ## Смотрите также
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
 - [2-distributed-agent-workshop](../ensembles/2-distributed-agent-workshop.md)

@@ -151,6 +151,12 @@ LiteParse research-docs (1021098) — узел 5
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Anchor узел Habr Scout как первый шаг"
+```
+
 ## Смотрите также
 - [04-recommendations](04-recommendations.md)
 - [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)

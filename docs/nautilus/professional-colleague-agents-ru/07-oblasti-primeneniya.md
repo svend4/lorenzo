@@ -237,6 +237,12 @@ Scite). Активная разработка.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Области применения"
+```
+
 ## Смотрите также
 - [238-7-области-применения](../../02-anthropic-vacancies/238-7-области-применения.md)
 - [08-pilot-sgb-kolega](08-pilot-sgb-kolega.md)

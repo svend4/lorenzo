@@ -67,9 +67,17 @@ Tier 4 — institutional reference
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Финальный список потенциальных"
+```
+
 ## Смотрите также
 - [10-collaborators-landscape](../../lorenzo-agent/10-collaborators-landscape.md)
 - [354-существующий-landscape-collaborators-твоя-working-](../../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
 - [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
 - [05-existing-infrastructure-stack](05-existing-infrastructure-stack.md)
 
+_Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

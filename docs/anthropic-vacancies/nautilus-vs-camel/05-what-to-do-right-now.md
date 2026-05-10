@@ -66,6 +66,12 @@ Option C: Help write specific document или code prototype prepared для CAM
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что я бы посоветовал делать прямо сейчас"
+```
+
 ## Смотрите также
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)

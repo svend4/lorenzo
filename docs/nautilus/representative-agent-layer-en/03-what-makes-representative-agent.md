@@ -145,6 +145,12 @@ and 7.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Representative Agent"
+```
+
 ## Смотрите также
 - [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
 - [05-architectural-specification](05-architectural-specification.md)

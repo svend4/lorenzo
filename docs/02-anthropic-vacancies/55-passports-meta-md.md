@@ -50,6 +50,13 @@ markdown
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports meta md"
+```
+
 ## Смотрите также
 - [35-passports-info1-md](35-passports-info1-md.md)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
@@ -109,3 +116,4 @@ markdown
 - [59-angle-perspective](59-angle-perspective.md)
 - [README](README.md)
 
+_Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

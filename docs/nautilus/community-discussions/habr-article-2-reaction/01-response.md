@@ -347,6 +347,18 @@ Roadmap для гильдийных коллег в OKWF
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Прочитаю статью ч"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Прочитаю статью ч" --mode bm25
+```
+
 ## Смотрите также
 - [00-question-habr-2](00-question-habr-2.md)
 - [12-zaklyuchenie](../../representative-agent-layer-ru/12-zaklyuchenie.md)

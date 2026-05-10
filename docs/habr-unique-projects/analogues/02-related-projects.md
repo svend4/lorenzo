@@ -52,6 +52,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Смежные проекты"
+```
+
 ## Смотрите также
 - [02-related-projects-context](../../ai-collaborations/candidates/02-related-projects-context.md)
 - [03-synthesis-hebbian-collaboration-graph](../../ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)

@@ -135,6 +135,12 @@ dignified issues
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Governance and Ethics"
+```
+
 ## Смотрите также
 - [160-6-governance-and-ethics](../../02-anthropic-vacancies/160-6-governance-and-ethics.md)
 - [04-proposed-infrastructure](04-proposed-infrastructure.md)

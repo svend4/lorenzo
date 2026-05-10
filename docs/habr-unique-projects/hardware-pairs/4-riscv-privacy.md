@@ -44,6 +44,12 @@ Mesh из таких узлов — несколько community-nodes в раз
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 4 RISC V privacy by design община"
+```
+
 ## Смотрите также
 - [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
 - 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)

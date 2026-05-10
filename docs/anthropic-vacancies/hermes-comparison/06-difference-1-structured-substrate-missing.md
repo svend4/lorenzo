@@ -46,9 +46,17 @@ InGit specifically provides структуру (00_inbox через 90_exports, 
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Различие 1 Структурированная подложка"
+```
+
 ## Смотрите также
 - [08-difference-3-federation-missing](08-difference-3-federation-missing.md)
 - 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.

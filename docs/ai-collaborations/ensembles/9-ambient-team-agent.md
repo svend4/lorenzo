@@ -61,6 +61,13 @@ Operations Concierge — в чате принимает команды, созд
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 9 Ambient Team Agent"
+```
+
 ## Смотрите также
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 - [2-distributed-agent-workshop](2-distributed-agent-workshop.md)

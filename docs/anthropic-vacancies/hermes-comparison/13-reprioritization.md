@@ -158,6 +158,12 @@ https://github.com/camel-ai/camel сравнить этого Агента ну�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Переприоритизация что Hermes покрывает"
+```
+
 ## Смотрите также
 - [02-what-info-repos-contain](../nautilus-vs-camel/02-what-info-repos-contain.md)
 - 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)

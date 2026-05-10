@@ -120,6 +120,12 @@ _Обновлено: 2026-05-10_
 - Контактный файл: [docs/contacts/vitalysemenov.md](../../contacts/vitalysemenov.md)
 - Статус: not_started
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "agent memory mcp Memory OS"
+```
+
 ## Смотрите также
 
 - [Yodoca: консолидация и забывание](yodoca.md) — memory decay + hot/slow path

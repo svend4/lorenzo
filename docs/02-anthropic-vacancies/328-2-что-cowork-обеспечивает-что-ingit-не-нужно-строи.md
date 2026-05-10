@@ -202,6 +202,12 @@ Cowork работает на macOS и Windows (Linux,
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Что Cowork обеспечивает что InGit не"
+```
+
 ## Смотрите также
 - [332-6-уточнённый-объём-[ingit](306-with-anthropic-s-cowork-platform.md)-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
 - [327-1-открытие-cowork-и-почему-это-меняет-всё](327-1-открытие-cowork-и-почему-это-меняет-всё.md)

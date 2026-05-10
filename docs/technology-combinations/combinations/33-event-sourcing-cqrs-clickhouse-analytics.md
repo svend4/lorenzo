@@ -78,6 +78,13 @@ ROI: Write once (event), read many ways (projections)
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 33 Event Sourcing CQRS"
+```
+
 ## Смотрите также
 - [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md)
 - [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
@@ -94,3 +101,4 @@ ROI: Write once (event), read many ways (projections)
 - [README](README.md)
 - [31-35-final](../synthesis-tables/31-35-final.md)
 
+_Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._

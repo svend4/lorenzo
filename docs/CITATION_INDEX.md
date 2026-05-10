@@ -240,6 +240,13 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_citation_index.py
+```
+
 ## Смотрите также
 - [LINKS](LINKS.md)
 - [KEYWORD_INDEX](KEYWORD_INDEX.md)

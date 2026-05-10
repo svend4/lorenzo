@@ -90,6 +90,13 @@ _Дата: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_scoring.py
+```
+
 ## Смотрите также
 - [SCHEDULE](SCHEDULE.md)
 - [ONBOARDING](ONBOARDING.md)

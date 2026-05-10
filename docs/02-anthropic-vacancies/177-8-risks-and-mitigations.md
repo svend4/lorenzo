@@ -160,6 +160,12 @@ lose the social and negotiation skills they currently have.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Risks and Mitigations"
+```
+
 ## Смотрите также
 - [179-10-open-questions](179-10-open-questions.md)
 - [175-6-ethical-framework](175-6-ethical-framework.md)

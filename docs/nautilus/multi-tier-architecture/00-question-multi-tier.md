@@ -36,9 +36,17 @@ Du hast gesagt: Ещё есть такие вопросы то есть если
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Ещё есть такие вопросы"
+```
+
 ## Смотрите также
 - [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
 - [00-question-agent-changes-reality](../community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
 - [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._

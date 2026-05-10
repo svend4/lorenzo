@@ -95,6 +95,12 @@ unsolved issues.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract The Double Triangle"
+```
+
 ## Смотрите также
 - [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
 - [04-nautilus-portal-substrate](04-nautilus-portal-substrate.md)

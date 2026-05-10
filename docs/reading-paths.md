@@ -122,6 +122,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Reading paths рекомендуемые маршруты по"
+```
+
 ## Смотрите также
 - [PRIORITIES](PRIORITIES.md)
 - [SEARCH](SEARCH.md)

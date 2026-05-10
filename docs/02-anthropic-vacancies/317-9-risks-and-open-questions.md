@@ -146,6 +146,12 @@ works regardless of any of them.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Risks and Open Questions"
+```
+
 ## Смотрите также
 - [318-10-strategic-positioning](318-10-strategic-positioning.md)
 - [316-8-implications-for-[nautilus](../05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)

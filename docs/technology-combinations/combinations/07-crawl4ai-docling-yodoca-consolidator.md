@@ -66,6 +66,13 @@ Graph view показывает связи между прецедентами
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 7 Crawl4AI Docling Yodoca"
+```
+
 ## Смотрите также
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
 - 04-parsing-s-llm-graph-[rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
@@ -82,3 +89,4 @@ Graph view показывает связи между прецедентами
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._

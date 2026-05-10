@@ -141,6 +141,12 @@ procedural_stage: "klage"
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Архитектурное решение две уровневая"
+```
+
 ## Смотрите также
 - [03-what-this-gives-technically](03-what-this-gives-technically.md)
 - [01-structural-comparison-code-vs-docs](../npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)

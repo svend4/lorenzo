@@ -36,9 +36,17 @@ Du hast gesagt: Да это интересная ссылка спасибо в�
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Да это интересная ссылка"
+```
+
 ## Смотрите также
 - [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md)
 - [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
 - [00-question-agent-changes-reality](../agent-changes-reality/00-question-agent-changes-reality.md)
 - [17-appendix-b-change-log](../../npp-v1-0/17-appendix-b-change-log.md)
 
+_Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

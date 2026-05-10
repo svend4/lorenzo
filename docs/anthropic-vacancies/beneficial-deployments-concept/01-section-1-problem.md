@@ -48,9 +48,17 @@ Success rate: A% Widerspruch acceptance
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 1 Problem statement Cinderella"
+```
+
 ## Смотрите также
 - [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md)
 - [07-section-7-success-metrics](07-section-7-success-metrics.md)
 - [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
 - [09-section-9-timeliness](09-section-9-timeliness.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.

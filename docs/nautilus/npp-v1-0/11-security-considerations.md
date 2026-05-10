@@ -66,9 +66,17 @@ Implementation MUST различать public и private registries и не
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Security Considerations"
+```
+
 ## Смотрите также
 - [23-11-security-considerations](../../02-anthropic-vacancies/23-11-security-considerations.md)
 - [15-security](../npp-v1-1/15-security.md)
 - [90-15-security-considerations](../../02-anthropic-vacancies/90-15-security-considerations.md)
 - [10-query-result](10-query-result.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

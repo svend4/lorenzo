@@ -148,6 +148,12 @@ Marketplace layer (longer term) для economy dimension
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что брать из info repositories concrete"
+```
+
 ## Смотрите также
 - [02-what-info-repos-contain](02-what-info-repos-contain.md)
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)

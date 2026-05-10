@@ -168,6 +168,12 @@ exist.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Four Deployment Domains"
+```
+
 ## Смотрите также
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 - [145-8-call-to-action](145-8-call-to-action.md)

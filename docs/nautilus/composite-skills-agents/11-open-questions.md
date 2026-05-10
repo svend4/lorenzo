@@ -119,6 +119,12 @@ indefinitely; "graduation" may not be the right metaphor.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Open Questions"
+```
+
 ## Смотрите также
 - [264-11-open-questions](../../02-anthropic-vacancies/264-11-open-questions.md)
 - [12-call-for-collaboration](12-call-for-collaboration.md)

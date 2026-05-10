@@ -242,6 +242,12 @@ Hope this helps. Рад был участвовать в формировани�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A Glossary"
+```
+
 ## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](../../02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)

@@ -51,6 +51,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
+```
+
 ## Смотрите также
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)

@@ -37,6 +37,12 @@ Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Primary match Forward Deployed Engineer"
+```
+
 ## Смотрите также
 - [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)

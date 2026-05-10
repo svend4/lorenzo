@@ -43,6 +43,12 @@ Daily voice journal — каждый вечер 5 минут устного ра
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 5 Голосовой ввод Локальная память"
+```
+
 ## Смотрите также
 - [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md)
 - [3-discovery-research](../final-ensembles/3-discovery-research.md)

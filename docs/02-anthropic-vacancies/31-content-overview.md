@@ -80,6 +80,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Content Overview"
+```
+
 ## Смотрите также
 - [12-content-overview](12-content-overview.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
@@ -102,3 +109,4 @@
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
 - _...ещё 3_
 
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

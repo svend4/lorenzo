@@ -88,6 +88,12 @@ product.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What s Missing Layer B"
+```
+
 ## Смотрите также
 - [277-what-s-missing-layer-b](../../02-anthropic-vacancies/277-what-s-missing-layer-b.md)
 - [06-existing-approximations](06-existing-approximations.md)

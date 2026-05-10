@@ -84,6 +84,12 @@ fallback-статуса.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
 ## Смотрите также
 - [04-abstract](04-abstract.md)
 - [76-1-introduction](76-1-introduction.md)

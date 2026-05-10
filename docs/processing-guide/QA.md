@@ -139,6 +139,12 @@ _Не найдено в этом файле._
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Q A processing guide"
+```
+
 ## Смотрите также
 - [NETWORK](../NETWORK.md)
 - [GRAPH](../GRAPH.md)

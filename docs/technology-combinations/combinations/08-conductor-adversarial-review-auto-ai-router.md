@@ -142,6 +142,12 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 8 Conductor adversarial"
+```
+
 ## Смотрите также
 - [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)

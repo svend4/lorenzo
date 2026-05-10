@@ -58,9 +58,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "21 ADR 003 Five Onboarding Paths as"
+```
+
 ## Смотрите также
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank](../../02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
 - [19-adr-001-federation-over-merging](19-adr-001-federation-over-merging.md)
 - [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
 - [11-relevance-ranking](11-relevance-ranking.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документ индексирован в базе знаний репозитория.

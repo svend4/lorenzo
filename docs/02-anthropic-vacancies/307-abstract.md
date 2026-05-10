@@ -87,6 +87,12 @@ shareable AI-collaborative work.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
 ## Смотрите также
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)

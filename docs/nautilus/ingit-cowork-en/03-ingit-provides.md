@@ -185,6 +185,12 @@ ground on which Cowork operates effectively.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What InGit Provides That Cowork Lacks"
+```
+
 ## Смотрите также
 - [311-3-what-ingit-provides-that-cowork-lacks](../../02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 - [02-cowork-provides](02-cowork-provides.md)

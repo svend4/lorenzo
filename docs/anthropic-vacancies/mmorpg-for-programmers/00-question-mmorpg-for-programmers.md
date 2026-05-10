@@ -58,6 +58,12 @@ Claude hat geantwortet: Переписанная версия вашего во�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос MMORPG RPG переделанная для"
+```
+
 ## Смотрите также
 - [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
 - [00-question-rephrasing](../ai-managed-virtual-company/00-question-rephrasing.md)

@@ -61,6 +61,13 @@ Open discussion of how community-matching patterns scale до vulnerable populat
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Конкретный потенциальный collaborator"
+```
+
 ## Смотрите также
 - [12-concrete-next-step](12-concrete-next-step.md)
 - [09-federated-platform](09-federated-platform.md)

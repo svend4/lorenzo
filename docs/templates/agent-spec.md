@@ -17,6 +17,8 @@ tags: [агент, спецификация]
 
 <!-- alert-added -->
 
+<!-- toc-auto -->
+
 
 <!-- summary: Что делает агент и в каком контексте -->
 <!-- tags: агент, спецификация -->
@@ -110,6 +112,13 @@ _Создано: 2026-04-29_
 <!-- see-also -->
 
 ---
+
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template agent-spec --output docs/new-doc.md
+```
 
 ## Смотрите также
 - [project-component](project-component.md)

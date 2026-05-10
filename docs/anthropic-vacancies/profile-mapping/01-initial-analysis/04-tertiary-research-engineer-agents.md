@@ -34,9 +34,17 @@ Quarternary match: Developer Education Lead / Prompt Engineer, Claude Code
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Tertiary match Research Engineer Agents"
+```
+
 ## Смотрите также
 - [08-practical-ranking](08-practical-ranking.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
 - [01-ai-research-engineering](../../clusters/01-ai-research-engineering.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._

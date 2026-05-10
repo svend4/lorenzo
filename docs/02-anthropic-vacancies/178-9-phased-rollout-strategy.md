@@ -153,6 +153,12 @@ durable, beneficial infrastructure than rapid scaling.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Phased Rollout Strategy"
+```
+
 ## Смотрите также
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [180-11-call-for-collaboration](180-11-call-for-collaboration.md)

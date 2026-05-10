@@ -103,6 +103,13 @@ _Минимальный сценарий: open source + личное время 
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_cost.py
+```
+
 ## Смотрите также
 - [DENSITY](DENSITY.md)
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md)

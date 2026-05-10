@@ -95,6 +95,12 @@ service organizations, civil society, and policymakers.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Mediated Representation for"
+```
+
 ## Смотрите также
 - [11-call-for-collaboration](11-call-for-collaboration.md)
 - [01-cinderella-syndrome](01-cinderella-syndrome.md)

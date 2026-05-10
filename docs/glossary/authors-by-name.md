@@ -66,6 +66,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Авторы алфавитный список"
+```
+
 ## Смотрите также
 - [components-by-name](components-by-name.md)
 - [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)

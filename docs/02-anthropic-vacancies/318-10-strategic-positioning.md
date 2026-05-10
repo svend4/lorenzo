@@ -181,6 +181,12 @@ Either way, the material exists.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Strategic Positioning"
+```
+
 ## Смотрите также
 - [323-appendix-c-sample-[ingit](306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [316-8-implications-for-[nautilus](../05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)

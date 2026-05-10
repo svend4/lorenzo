@@ -66,6 +66,13 @@ Cross-domain запросы через event bus
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 1 Правильная агентская"
+```
+
 ## Смотрите также
 - [01-agent-routing](../../03-technology-combinations/01-agent-routing.md)
 - 04-parsing-s-llm-graph-[rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)

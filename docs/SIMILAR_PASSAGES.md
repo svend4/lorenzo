@@ -331,6 +331,13 @@ _Обновлено: 2026-04-29_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_similar_passages.py
+```
+
 ## Смотрите также
 - [07-выводы](04-ai-collaborations/07-выводы.md)
 - [08-conclusions](01-svyazi/08-conclusions.md)

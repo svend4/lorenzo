@@ -42,6 +42,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "План MVP прототипа"
+```
+
 ## Смотрите также
 - [05-план-прототипа-и-возможные-контакты](../../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
 - [07-mvp-planning](../../01-svyazi/07-mvp-planning.md)

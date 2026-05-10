@@ -68,6 +68,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A Comparative Table Five Agent"
+```
+
 ## Смотрите также
 - [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)

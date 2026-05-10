@@ -44,6 +44,12 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Виктория Дочкина Sequential протокол"
+```
+
 ## Смотрите также
 - [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
 - 5-tinyml-[mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)

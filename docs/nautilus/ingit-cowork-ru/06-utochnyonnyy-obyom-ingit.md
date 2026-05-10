@@ -122,6 +122,12 @@ GitHub)
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Уточнённый объём InGit с учётом Cowork"
+```
+
 ## Смотрите также
 - [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
 - [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)

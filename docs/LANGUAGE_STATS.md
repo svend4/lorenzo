@@ -952,6 +952,28 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_language_split.py
+```
+
+```bash
+# Только раздел с проектами Хабра
+python scripts/improve_language_split.py --section 05-habr-projects
+```
+
+```bash
+# Разделить смешанные файлы на .ru.md / .en.md
+python scripts/improve_language_split.py --split
+```
+
+```bash
+# Изменить порог для классификации MIX-файлов
+python scripts/improve_language_split.py --min-mix 0.3
+```
+
 ## Смотрите также
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)

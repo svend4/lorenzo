@@ -1717,3 +1717,28 @@ README содержит: список файлов, первые строки к
 
 **Флаги:** `--history`, `--output`, `--parallel`, `--resume`, `--task`
 
+## Использование
+
+```bash
+python scripts/improve_scripts_catalog.py
+```
+
+```bash
+# Обновить каталог и добавить в search index
+python scripts/improve_scripts_catalog.py && python scripts/improve_search_index.py
+```
+
+```bash
+# Показать только скрипты группы reports
+python scripts/improve_scripts_catalog.py --group reports
+```
+
+```bash
+# Экспорт в JSON
+python scripts/improve_scripts_catalog.py --format json
+```
+
+```bash
+# Полная пересборка с проверкой
+python scripts/improve_scripts_catalog.py --rebuild
+```

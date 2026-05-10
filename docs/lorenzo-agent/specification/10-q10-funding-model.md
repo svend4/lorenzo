@@ -103,6 +103,13 @@ Phase 4 (year 3+): Sustainable operating model
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 10 Funding model Options A F"
+```
+
 ## Смотрите также
 - [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
 - [05-q5-authority-limits](05-q5-authority-limits.md)

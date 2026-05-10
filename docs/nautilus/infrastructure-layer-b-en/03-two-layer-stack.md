@@ -71,6 +71,12 @@ infrastructure that does not exist as a unified product.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Two Layer Stack As It Exists"
+```
+
 ## Смотрите также
 - [276-the-two-layer-stack-as-it-exists](../../02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
 - [06-existing-approximations](06-existing-approximations.md)

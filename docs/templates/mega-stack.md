@@ -17,6 +17,8 @@ tags: [mega-stack, архитектура]
 
 <!-- alert-added -->
 
+<!-- toc-auto -->
+
 
 <!-- summary: Полный стек для класса задач X -->
 <!-- tags: mega-stack, архитектура -->
@@ -116,6 +118,13 @@ _Создано: 2026-04-29_
 <!-- see-also -->
 
 ---
+
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template mega-stack --output docs/new-doc.md
+```
 
 ## Смотрите также
 - [ensemble](ensemble.md)

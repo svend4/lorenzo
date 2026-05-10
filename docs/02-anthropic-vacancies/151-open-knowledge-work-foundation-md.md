@@ -103,6 +103,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "OPEN KNOWLEDGE WORK FOUNDATION md"
+```
+
 ## Смотрите также
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)

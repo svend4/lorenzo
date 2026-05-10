@@ -108,6 +108,12 @@ NPP **не** пытается:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Introduction Motivation Design Goals"
+```
+
 ## Смотрите также
 - [76-1-introduction](../../02-anthropic-vacancies/76-1-introduction.md)
 - [06-1-introduction](../../02-anthropic-vacancies/06-1-introduction.md)

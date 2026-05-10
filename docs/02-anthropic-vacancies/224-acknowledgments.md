@@ -66,6 +66,12 @@ errors are author's responsibility.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
 ## Смотрите также
 - [267-acknowledgments](267-acknowledgments.md)
 - [211-table-of-contents](211-table-of-contents.md)

@@ -168,6 +168,12 @@ Layer.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 The Cinderella Syndrome Why Quality"
+```
+
 ## Смотрите также
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)

@@ -118,6 +118,12 @@ such a protocol.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Why Single Triangle Models Are"
+```
+
 ## Смотрите также
 - [136-abstract](136-abstract.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)

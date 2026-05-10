@@ -86,6 +86,12 @@ need to be solved before other work proceeds.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Closing"
+```
+
 ## Смотрите также
 - [281-the-recursive-insight](281-the-recursive-insight.md)
 - [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)

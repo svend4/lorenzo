@@ -50,9 +50,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводная таблица 20 24 Final 1 24"
+```
+
 ## Смотрите также
 - [24-mega-integration-full-stack](../combinations/24-mega-integration-full-stack.md)
 - [31-35-final](31-35-final.md)
 - [15-19-extended](15-19-extended.md)
 - [25-30-extended](25-30-extended.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

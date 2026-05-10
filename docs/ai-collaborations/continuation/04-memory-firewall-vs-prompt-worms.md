@@ -43,9 +43,17 @@ Mermaid
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Memory Firewall против prompt worms"
+```
+
 ## Смотрите также
 - [5-agent-firewall](../ensembles/5-agent-firewall.md)
 - 03-a2a-vs-[mcp-protocols](03-a2a-vs-mcp-protocols.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
 - [1-agentic-knowledge-os](../ensembles/1-agentic-knowledge-os.md)
 
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

@@ -90,3 +90,9 @@
 | **svyazi-2-0** | 148 | 65 |
 | **technology-combinations** | 132 | 96 |
 | **templates** | 53 | 37 |
+
+## Использование
+
+```bash
+python scripts/improve_backlinks.py
+```

@@ -46,6 +46,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Итоговые выводы и порядок сборки"
+```
+
 ## Смотрите также
 - [08-conclusions](../../01-svyazi/08-conclusions.md)
 - [07-выводы](../../04-ai-collaborations/07-выводы.md)

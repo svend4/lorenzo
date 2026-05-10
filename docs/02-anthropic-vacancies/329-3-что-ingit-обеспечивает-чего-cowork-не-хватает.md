@@ -242,6 +242,12 @@ example_user, example@email.com
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Что InGit обеспечивает чего Cowork не"
+```
+
 ## Смотрите также
 - [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
 - [332-6-уточнённый-объём-ingit-с-учётом-cowork](332-6-уточнённый-объём-ingit-с-учётом-cowork.md)

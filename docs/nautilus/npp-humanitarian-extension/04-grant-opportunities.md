@@ -60,6 +60,12 @@ Aktion Mensch — поддерживает disability-related tech specifically.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Horizon Europe Cluster 3 Civil Security"
+```
+
 ## Смотрите также
 - [04-what-i-can-do-now](../privacy-federation/04-what-i-can-do-now.md)
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)

@@ -239,6 +239,12 @@ Marketplace layer (inspired by info40) для discovery and economy
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что у нас есть в трёх info repositories"
+```
+
 ## Смотрите также
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - [13-reprioritization](../hermes-comparison/13-reprioritization.md)

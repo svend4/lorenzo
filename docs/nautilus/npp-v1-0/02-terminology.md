@@ -76,6 +76,12 @@ human-readable описание: что хранит, какая философ�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Terminology"
+```
+
 ## Смотрите также
 - [13-reference-implementation](13-reference-implementation.md)
 - [10-query-result](10-query-result.md)

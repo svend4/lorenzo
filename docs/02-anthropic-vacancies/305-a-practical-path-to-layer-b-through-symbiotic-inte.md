@@ -84,6 +84,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "A Practical Path to Layer B Through"
+```
+
 ## Смотрите также
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)

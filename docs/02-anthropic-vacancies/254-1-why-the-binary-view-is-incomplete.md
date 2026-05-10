@@ -147,6 +147,12 @@ support to skilled professions.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Why the Binary View Is Incomplete"
+```
+
 ## Смотрите также
 - [252-abstract](252-abstract.md)
 - [266-13-closing](266-13-closing.md)

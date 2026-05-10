@@ -544,6 +544,22 @@ Roadmap для гильдийных коллег в OKWF
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "12 Заключение"
+```
+
+```bash
+# BM25 поиск
+python scripts/improve_semantic_search.py --query "12 Заключение" --mode bm25
+```
+
+```bash
+# Семантический поиск с расширенным результатом
+python scripts/improve_semantic_search.py --query "12 Заключение" --mode semantic --top 10
+```
+
 ## Смотрите также
 - [207-приложение-c-образцы-случаев-использования-в-детал](../../02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
 - [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)

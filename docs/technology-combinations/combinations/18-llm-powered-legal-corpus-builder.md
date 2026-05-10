@@ -86,6 +86,13 @@ ROI: 10 sec semantic search vs 2 hr manual review
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 18 LLM Powered Legal Corpus"
+```
+
 ## Смотрите также
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 - [21-legal-corpus-analytics-at-scale](21-legal-corpus-analytics-at-scale.md)
@@ -103,3 +110,4 @@ ROI: 10 sec semantic search vs 2 hr manual review
 - [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

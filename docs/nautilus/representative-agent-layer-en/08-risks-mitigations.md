@@ -143,6 +143,12 @@ for inclusion of those who never had the skills
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Risks and Mitigations"
+```
+
 ## Смотрите также
 - [177-8-risks-and-mitigations](../../02-anthropic-vacancies/177-8-risks-and-mitigations.md)
 - [10-open-questions](10-open-questions.md)

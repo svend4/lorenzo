@@ -152,6 +152,12 @@ broader applicability.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Integration with OKWF Infrastructure"
+```
+
 ## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 - [13-closing](13-closing.md)

@@ -61,6 +61,12 @@ MCP Firewall — единая прослойка между агентом и в
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 5 Agent Firewall"
+```
+
 ## Смотрите также
 - [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)
 - [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)

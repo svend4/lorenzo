@@ -112,6 +112,12 @@ AgentFS превращает Obsidian-vault в операционную сист
 - Контактный файл: [docs/contacts/kksudo.md](../../contacts/kksudo.md)
 - Упомянут в документах: 13 раз (наибольшее число упоминаний среди всех авторов)
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AgentFS"
+```
+
 ## Смотрите также
 
 - [knowledge-space](knowledge-space.md) — 785+ agent-first карточек как knowledge layer поверх AgentFS

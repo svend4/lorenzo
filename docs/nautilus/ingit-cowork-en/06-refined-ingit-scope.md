@@ -103,6 +103,12 @@ better outcomes.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Refined InGit Scope with Cowork in"
+```
+
 ## Смотрите также
 - [314-6-refined-ingit-scope-with-cowork-in-mind](../../02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [02-cowork-provides](02-cowork-provides.md)

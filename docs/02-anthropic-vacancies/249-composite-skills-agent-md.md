@@ -87,6 +87,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "COMPOSITE SKILLS AGENT md"
+```
+
 ## Смотрите также
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)

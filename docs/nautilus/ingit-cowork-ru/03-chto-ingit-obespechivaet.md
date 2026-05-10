@@ -215,6 +215,12 @@ YAML)
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Что InGit обеспечивает чего Cowork не"
+```
+
 ## Смотрите также
 - [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](../../02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
 - [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)

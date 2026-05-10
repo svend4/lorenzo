@@ -60,6 +60,12 @@ stable требуют bump до v2.0 с migration guide.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "0 Status of This Document"
+```
+
 ## Смотрите также
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [42-author-contact](42-author-contact.md)

@@ -154,6 +154,12 @@ requires research.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Open Questions"
+```
+
 ## Смотрите также
 - [144-7-open-questions](../../02-anthropic-vacancies/144-7-open-questions.md)
 - [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)

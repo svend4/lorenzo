@@ -170,6 +170,12 @@ broader applicability.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Integration with OKWF Infrastructure"
+```
+
 ## Смотрите также
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
 - [266-13-closing](266-13-closing.md)

@@ -43,6 +43,13 @@ Hierarchical CRDT memory layers — рабочий контекст (быстр�
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 3 CRDT синхронизация Self hosted"
+```
+
 ## Смотрите также
 - [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md)
 - 03-crdt-local-first-[svyazi-cardindex](../../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)

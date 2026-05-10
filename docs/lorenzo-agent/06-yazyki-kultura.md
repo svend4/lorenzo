@@ -49,9 +49,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Языки и культурные nuances RU DE EN"
+```
+
 ## Смотрите также
 - [350-твои-языки-и-культурные-nuances](../02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md)
 - [02-tvoyo-proishozhdenie](02-tvoyo-proishozhdenie.md)
 - [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
 - [09-q9-geographic-linguistic-scope](specification/09-q9-geographic-linguistic-scope.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._

@@ -96,6 +96,12 @@ their daily work.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Professional Colleague Agents"
+```
+
 ## Смотрите также
 - [12-closing](12-closing.md)
 - [09-relationship-other-agents](09-relationship-other-agents.md)

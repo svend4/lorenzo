@@ -40,9 +40,17 @@ Hermes не имеет этого domain layer. Чтобы превратить 
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Различие 2 Domain specific"
+```
+
 ## Смотрите также
 - [01-similarity-1-composite-skills](01-similarity-1-composite-skills.md)
 - [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
 - [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
 - [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.

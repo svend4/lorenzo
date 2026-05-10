@@ -59,6 +59,12 @@ evolution».
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Angle Perspective"
+```
+
 ## Смотрите также
 - [39-angle-perspective](39-angle-perspective.md)
 - [49-angle-perspective](49-angle-perspective.md)

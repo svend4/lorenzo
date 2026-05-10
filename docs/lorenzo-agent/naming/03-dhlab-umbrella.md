@@ -402,6 +402,12 @@ Specific proposal involving HMP integration
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "LAYER 7 Coordination engine"
+```
+
 ## Смотрите также
 - 02-naming-rationale-[lorenzo-medici](02-naming-rationale-lorenzo-medici.md)
 - [11-difficulties-and-recommendations](../specification/11-difficulties-and-recommendations.md)

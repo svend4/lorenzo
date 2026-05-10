@@ -103,3 +103,9 @@ What might we lose? These are not technical questions but
 they shape technical decisions.
 
 ---
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```

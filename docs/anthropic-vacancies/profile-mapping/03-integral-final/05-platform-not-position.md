@@ -40,6 +40,12 @@ Mehr anzeigen
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Финальный вывод платформа а не должность"
+```
+
 ## Смотрите также
 - [00-question-rephrasing](../../ai-managed-virtual-company/00-question-rephrasing.md)
 - [00-question-mountain-to-person](../../../nautilus/transmission-box/00-question-mountain-to-person.md)

@@ -36,9 +36,17 @@ Du hast gesagt: Такой агент конечно меняет уже соб�
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Такой агент конечно"
+```
+
 ## Смотрите также
 - [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md)
 - [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
 - [00-question-camel-vs-nautilus](../../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
 - [00-question-multi-tier](../../multi-tier-architecture/00-question-multi-tier.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

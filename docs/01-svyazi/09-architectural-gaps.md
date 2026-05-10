@@ -69,6 +69,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Архитектурные зазоры"
+```
+
 ## Смотрите также
 - [11-integration-contracts](11-integration-contracts.md)
 - [06-security-privacy](06-security-privacy.md)

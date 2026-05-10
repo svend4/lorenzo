@@ -102,3 +102,8 @@ _Компонент экосистемы Svyazi 2.0_
 - [lorenzo](lorenzo.md)
 - _...ещё 4_
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Nautilus"
+```

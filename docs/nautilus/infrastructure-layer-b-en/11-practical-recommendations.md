@@ -78,6 +78,12 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Practical Recommendations for the"
+```
+
 ## Смотрите также
 - [284-practical-recommendations-for-the-current-project](../../02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)

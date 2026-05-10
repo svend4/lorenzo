@@ -1708,6 +1708,32 @@ _(153 дублей скрыто)_
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_action_items.py
+```
+
+```bash
+# Только секция с коллаборациями
+python scripts/improve_action_items.py --section 04-ai-collaborations
+```
+
+```bash
+# Фильтр только задачи (TODO)
+python scripts/improve_action_items.py --type todo
+```
+
+```bash
+# Риски и решения
+python scripts/improve_action_items.py --type risks
+```
+
+```bash
+# Обновить список задач
+python scripts/improve_action_items.py && python scripts/improve_scoring.py
+```
+
 ## Смотрите также
 - [CONCEPTS](CONCEPTS.md)
 - [READABILITY](READABILITY.md)

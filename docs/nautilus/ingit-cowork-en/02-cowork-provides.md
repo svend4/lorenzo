@@ -144,6 +144,12 @@ individual developer or small team.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 What Cowork Provides That InGit Doesn"
+```
+
 ## Смотрите также
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - 03-[ingit-provides](03-ingit-provides.md)

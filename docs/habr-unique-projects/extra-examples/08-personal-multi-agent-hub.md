@@ -58,9 +58,17 @@ agents/04_strategic_advisor.md — для общей стратегии
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Personal multi agent hub"
+```
+
 ## Смотрите также
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - [09-federated-platform](09-federated-platform.md)
 - 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

@@ -432,6 +432,13 @@ _...и ещё 389 пар._
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Отчёт о дублировании"
+```
+
 ## Смотрите также
 - [SEARCH](SEARCH.md)
 - [READING_TIME](READING_TIME.md)

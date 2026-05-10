@@ -120,6 +120,12 @@ by mission-driven foundations.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Governance and Oversight"
+```
+
 ## Смотрите также
 - [176-7-governance-and-oversight](../../02-anthropic-vacancies/176-7-governance-and-oversight.md)
 - [06-ethical-framework](06-ethical-framework.md)

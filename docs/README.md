@@ -154,3 +154,8 @@
 - [102-доступ-к-данным](02-anthropic-vacancies/102-доступ-к-данным.md)
 - _...ещё 218_
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "docs"
+```

@@ -153,6 +153,12 @@ Contact: via GitHub issues at
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Call to Action"
+```
+
 ## Смотрите также
 - [145-8-call-to-action](../../02-anthropic-vacancies/145-8-call-to-action.md)
 - [06-four-deployment-domains](06-four-deployment-domains.md)

@@ -68,6 +68,13 @@ AutoResearch Карпатого + Q6-роутер + ZINC:
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 6 OpenClaude утёкший Claude"
+```
+
 ## Смотрите также
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
 - [02-multiagentnyy-khaos-reshenie-auto-ai-router](02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
@@ -84,3 +91,4 @@ AutoResearch Карпатого + Q6-роутер + ZINC:
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._

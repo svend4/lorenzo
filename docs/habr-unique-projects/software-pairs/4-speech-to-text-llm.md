@@ -43,6 +43,12 @@ Discovery-loop через voice journal — каждый вечер пять м�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 4 Speech to text локально LLM с"
+```
+
 ## Смотрите также
 - [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md)
 - 5-tinyml-[mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)

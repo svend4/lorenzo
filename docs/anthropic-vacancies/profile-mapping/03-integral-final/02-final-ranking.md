@@ -52,6 +52,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Финальное ранжирование Anthropic ролей"
+```
+
 ## Смотрите также
 - [02-three-overlapping-identities](../02-reanalysis/02-three-overlapping-identities.md)
 - [02-primary-fde](../01-initial-analysis/02-primary-fde.md)

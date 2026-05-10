@@ -102,6 +102,12 @@ prefer honest critics to unreserved enthusiasts.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
+```
+
 ## Смотрите также
 - [180-11-call-for-collaboration](../../02-anthropic-vacancies/180-11-call-for-collaboration.md)
 - [12-call-for-collaboration](../composite-skills-agents/12-call-for-collaboration.md)

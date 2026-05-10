@@ -79,6 +79,12 @@ Web durchsucht
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос ещё примеры с Хабра по варианту D"
+```
+
 ## Смотрите также
 - 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
 - [02-collaboration-partners](../../05-habr-projects/02-collaboration-partners.md)

@@ -547,6 +547,13 @@ python scripts/improve_github_issues.py --create --label docs,automation
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "GitHub Issues список задач"
+```
+
 ## Смотрите также
 - [10-checklist](nautilus/review-methodology/10-checklist.md)
 - [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)

@@ -89,6 +89,12 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что такое внуковая комбинация"
+```
+
 ## Смотрите также
 - [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)
 - [01-pluses-1-7](01-pluses-1-7.md)

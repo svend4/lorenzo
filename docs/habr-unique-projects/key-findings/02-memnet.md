@@ -44,6 +44,13 @@ AI-бот для самопознания
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "MemNet нейроархитектурный двойник магии"
+```
+
 ## Смотрите также
 - [2-tsu-mome](../hardware-pairs/2-tsu-mome.md)
 - [01-yodoca](01-yodoca.md)
@@ -61,3 +68,4 @@ AI-бот для самопознания
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+_Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

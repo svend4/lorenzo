@@ -46,6 +46,12 @@ Patent filing на 6 патентабельных изобретений. DPMA (
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Более сильные пути вне Anthropic"
+```
+
 ## Смотрите также
 - 04-non-[anthropic-paths](../02-reanalysis/04-non-anthropic-paths.md)
 - 03-revised-[anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)

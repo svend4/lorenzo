@@ -375,6 +375,18 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "CHANGELOG"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "CHANGELOG" --mode bm25
+```
+
 ## Смотрите также
 - [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
 - [DEPENDENCY_MAP](DEPENDENCY_MAP.md)

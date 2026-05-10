@@ -98,6 +98,12 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Coordinated Infrastructure for"
+```
+
 ## Смотрите также
 - [10-appendices](10-appendices.md)
 - [09-call-for-partnership](09-call-for-partnership.md)

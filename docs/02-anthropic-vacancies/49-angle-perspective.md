@@ -59,6 +59,12 @@ reasoning.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Angle Perspective"
+```
+
 ## Смотрите также
 - [39-angle-perspective](39-angle-perspective.md)
 - [59-angle-perspective](59-angle-perspective.md)

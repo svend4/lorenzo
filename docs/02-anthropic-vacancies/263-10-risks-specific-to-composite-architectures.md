@@ -185,6 +185,12 @@ practice.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Risks Specific to Composite"
+```
+
 ## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [264-11-open-questions](264-11-open-questions.md)

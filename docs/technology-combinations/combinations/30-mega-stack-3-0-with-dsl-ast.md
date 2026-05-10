@@ -114,6 +114,12 @@ Claude hat geantwortet: Продолжаю углубленный поиск п�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 30 MEGA STACK 3 0 with DSL"
+```
+
 ## Смотрите также
 - [25-30-extended](../synthesis-tables/25-30-extended.md)
 - [24-mega-integration-full-stack](24-mega-integration-full-stack.md)

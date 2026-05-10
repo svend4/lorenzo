@@ -63,6 +63,12 @@ will be more than enough.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
 ## Смотрите также
 - [146-acknowledgments](146-acknowledgments.md)
 - [224-acknowledgments](224-acknowledgments.md)

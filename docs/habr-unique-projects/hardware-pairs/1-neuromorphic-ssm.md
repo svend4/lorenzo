@@ -46,6 +46,12 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 1 Нейроморфные процессоры State"
+```
+
 ## Смотрите также
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
 - 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)

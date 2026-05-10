@@ -105,6 +105,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что отсутствует Слой B"
+```
+
 ## Смотрите также
 - [292-что-отсутствует-слой-b](../../02-anthropic-vacancies/292-что-отсутствует-слой-b.md)
 - [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)

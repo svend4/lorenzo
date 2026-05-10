@@ -63,6 +63,13 @@ ROI: 50k historical documents searchable in structured DB
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 13 Legal Document Transpiler"
+```
+
 ## Смотрите также
 - [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
@@ -79,3 +86,4 @@ ROI: 50k historical documents searchable in structured DB
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._

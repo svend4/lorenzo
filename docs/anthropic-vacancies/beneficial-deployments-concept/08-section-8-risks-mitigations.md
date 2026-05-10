@@ -44,9 +44,17 @@ Sustainability risk: solo developer may burn out → mitigated by documenting ev
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 8 Risks mitigations"
+```
+
 ## Смотрите также
 - [09-section-9-timeliness](09-section-9-timeliness.md)
 - [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
 - [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
 - [07-section-7-success-metrics](07-section-7-success-metrics.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория.

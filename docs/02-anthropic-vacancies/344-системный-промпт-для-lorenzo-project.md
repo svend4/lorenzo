@@ -85,6 +85,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT"
+```
+
 ## Смотрите также
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)

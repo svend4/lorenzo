@@ -88,6 +88,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Local first и P2P стек"
+```
+
 ## Смотрите также
 - [01-agent-routing](01-agent-routing.md)
 - [05-benchmarks](05-benchmarks.md)

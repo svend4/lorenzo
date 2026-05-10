@@ -98,6 +98,12 @@ integration does not.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Hasn t Been Built"
+```
+
 ## Смотрите также
 - [285-closing](285-closing.md)
 - [279-existing-approximations](279-existing-approximations.md)

@@ -38,6 +38,12 @@ Mehr anzeigen
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Спрос рождает"
+```
+
 ## Смотрите также
 - [00-question-mountain-to-person](../transmission-box/00-question-mountain-to-person.md)
 - [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)

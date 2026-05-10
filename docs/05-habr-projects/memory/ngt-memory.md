@@ -75,6 +75,12 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "NGT ngt Memory ассоциативный граф"
+```
+
 ## Смотрите также
 - [Yodoca: консолидация и забывание](yodoca.md)
 - agent-memory-[mcp + Memory OS](agent-memory-mcp.md)

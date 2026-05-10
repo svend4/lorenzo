@@ -490,6 +490,18 @@ _...и ещё 101 малых кластеров (по 1-2 файла)_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_clusters.py
+```
+
+```bash
+# Обновить кластеры и сразу проверить здоровье репозитория
+python scripts/improve_clusters.py && python scripts/improve_health.py
+```
+
 ## Смотрите также
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)
 - [SEARCH](SEARCH.md)

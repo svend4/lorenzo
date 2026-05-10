@@ -69,3 +69,12 @@ Portal может переводить концепты между Repos чер�
 важны cross-repo queries.
 
 ---
+
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
+```
+
+_Документ доступен для семантического поиска._ _Индексировано._

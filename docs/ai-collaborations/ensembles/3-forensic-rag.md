@@ -66,6 +66,12 @@ Technical Docs Investigator — для больших кодовых/инжен�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 3 Forensic RAG"
+```
+
 ## Смотрите также
 - [B-forensic-rag](../../svyazi-2-0/ensembles/B-forensic-rag.md)
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)

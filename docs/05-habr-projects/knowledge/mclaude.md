@@ -111,6 +111,12 @@ mclaude закрывает слой "multi-agent coordination" в Svyazi 2.0 —
 - Контактный файл: [docs/contacts/anastasiyaw.md](../../contacts/anastasiyaw.md)
 - Также автор: [knowledge-space](knowledge-space.md) (785+ карточек, MIT)
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "mclaude"
+```
+
 ## Смотрите также
 
 - [Rufler](rufler.md) — YAML-декларативный запуск роя агентов (альтернативный подход к оркестрации)

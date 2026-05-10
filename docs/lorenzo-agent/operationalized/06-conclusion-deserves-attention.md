@@ -132,6 +132,12 @@ Continue conversation или pause для обдумывания?
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вывод документ deserves serious"
+```
+
 ## Смотрите также
 - [04-recommendations](04-recommendations.md)
 - [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)

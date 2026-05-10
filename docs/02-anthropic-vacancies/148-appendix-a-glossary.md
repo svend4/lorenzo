@@ -99,6 +99,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A Glossary"
+```
+
 ## Смотрите также
 - [146-acknowledgments](146-acknowledgments.md)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)

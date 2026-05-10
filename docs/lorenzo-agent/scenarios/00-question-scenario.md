@@ -36,9 +36,17 @@ Du hast gesagt: А под какой сценарий больше всего п
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt А под какой сценарий"
+```
+
 ## Смотрите также
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [17-appendix-b-change-log](../../nautilus/npp-v1-0/17-appendix-b-change-log.md)
 - [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
 - [00-question-practical](../../nautilus/community-discussions/practical-observations/00-question-practical.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.

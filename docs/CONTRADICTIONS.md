@@ -426,6 +426,18 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_contradiction_check.py
+```
+
+```bash
+# Дополнительный поиск по теме
+python scripts/improve_semantic_search.py --query "Противоречия в базе знаний" --mode bm25
+```
+
 ## Смотрите также
 - [07-выводы](04-ai-collaborations/07-выводы.md)
 - [08-conclusions](01-svyazi/08-conclusions.md)

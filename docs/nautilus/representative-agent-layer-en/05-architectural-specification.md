@@ -152,6 +152,12 @@ that touches the world beyond the personal context.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Architectural Specification"
+```
+
 ## Смотрите также
 - [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md)
 - [03-what-makes-representative-agent](03-what-makes-representative-agent.md)

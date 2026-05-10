@@ -42,6 +42,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Три точки входа разной амбиции"
+```
+
 ## Смотрите также
 - [04-what-to-do](04-what-to-do.md)
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)

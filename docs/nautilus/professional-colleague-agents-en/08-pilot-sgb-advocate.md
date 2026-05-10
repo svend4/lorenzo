@@ -233,6 +233,12 @@ incremental rather than novel.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Pilot Proposal SGB Advocate Colleague"
+```
+
 ## Смотрите также
 - [219-8-pilot-proposal-sgb-advocate-colleague](../../02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
 - [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)

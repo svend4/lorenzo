@@ -62,9 +62,17 @@ Self-hosted второй мозг через Claude Code + Obsidian
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "HW NL2Workflow Supervisor Orchestrator"
+```
+
 ## Смотрите также
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
 - [10-profession-specific-workflows](10-profession-specific-workflows.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._

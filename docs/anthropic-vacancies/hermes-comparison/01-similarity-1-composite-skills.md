@@ -42,9 +42,17 @@ Hermes имеет buit-in skills system с 118 навыками в v0.10.0. Ка
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сходство 1 Composite Skills паттерн уже"
+```
+
 ## Смотрите также
 - [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
 - [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

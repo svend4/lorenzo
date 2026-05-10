@@ -223,6 +223,13 @@ _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-от
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_faq.py
+```
+
 ## Смотрите также
 - [179-10-open-questions](02-anthropic-vacancies/179-10-open-questions.md)
 - [10-open-questions](nautilus/representative-agent-layer-en/10-open-questions.md)

@@ -112,6 +112,12 @@ practitioners during framework development valuable.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
+```
+
 ## Смотрите также
 - [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
 - [145-8-call-to-action](145-8-call-to-action.md)

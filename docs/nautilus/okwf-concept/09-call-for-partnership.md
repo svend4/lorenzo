@@ -124,6 +124,12 @@ pipeline
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Call for Partnership"
+```
+
 ## Смотрите также
 - [163-9-call-for-partnership](../../02-anthropic-vacancies/163-9-call-for-partnership.md)
 - [07-phased-rollout](07-phased-rollout.md)

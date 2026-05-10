@@ -101,6 +101,12 @@ Read source code existing components
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Рекомендации принять архитектуру как"
+```
+
 ## Смотрите также
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
 - [01-pluses-1-7](01-pluses-1-7.md)

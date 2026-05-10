@@ -70,6 +70,12 @@ or something custom?]
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Native Format"
+```
+
 ## Смотрите также
 - [57-native-format](57-native-format.md)
 - [47-native-format](47-native-format.md)

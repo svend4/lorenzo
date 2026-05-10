@@ -73,6 +73,12 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "20 ADR 002 Q6 as First Class Protocol"
+```
+
 ## Смотрите также
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
 - [83-8-q6-space-normative](83-8-q6-space-normative.md)

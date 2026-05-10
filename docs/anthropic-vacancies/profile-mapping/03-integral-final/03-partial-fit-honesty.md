@@ -42,9 +42,17 @@ Remote-friendly EMEA + accommodation под health status — Anthropic дела
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что такое частичное соответствие честно"
+```
+
 ## Смотрите также
 - [07-unique-niche-eu-legal-infra](../01-initial-analysis/07-unique-niche-eu-legal-infra.md)
 - [00-question-habr-link](../../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [17-appendix-b-change-log](../../../nautilus/npp-v1-0/17-appendix-b-change-log.md)
 - [13-reference-implementation](../../../nautilus/npp-v1-0/13-reference-implementation.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.

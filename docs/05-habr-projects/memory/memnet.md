@@ -345,6 +345,32 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode full --top 15
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode bm25 --top 5
+```
+
 ## Смотрите также
 - [Yodoca: консолидация и забывание](yodoca.md)
 - [NGT Memory: ассоциативный граф](ngt-memory.md)

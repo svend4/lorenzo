@@ -77,6 +77,12 @@ NPP-compatible, если они:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "18 Reference Implementation"
+```
+
 ## Смотрите также
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - [42-author-contact](42-author-contact.md)

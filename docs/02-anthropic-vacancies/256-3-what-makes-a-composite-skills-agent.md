@@ -199,6 +199,12 @@ agents inherit this distinction.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Composite Skills Agent"
+```
+
 ## Смотрите также
 - [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
 - [264-11-open-questions](264-11-open-questions.md)

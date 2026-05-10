@@ -169,6 +169,12 @@ integrate InGit specifically with the Cowork tab in Claude
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Strategic Positioning"
+```
+
 ## Смотрите также
 - [318-10-strategic-positioning](../../02-anthropic-vacancies/318-10-strategic-positioning.md)
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](../../02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)

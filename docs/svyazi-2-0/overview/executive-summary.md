@@ -33,6 +33,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Executive summary"
+```
+
 ## Смотрите также
 - [01-executive-summary](../../04-ai-collaborations/01-executive-summary.md)
 - [mvp-plan](../prototype/mvp-plan.md)

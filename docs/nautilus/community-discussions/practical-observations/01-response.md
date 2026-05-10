@@ -196,6 +196,12 @@ Peer-to-peer collaboration matching через deep-profile analysis — это 
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Отличное"
+```
+
 ## Смотрите также
 - [00-question-practical](00-question-practical.md)
 - [165-closing](../../../02-anthropic-vacancies/165-closing.md)

@@ -87,6 +87,12 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "17 Versioning Policy"
+```
+
 ## Смотрите также
 - [24-12-versioning-policy](24-12-versioning-policy.md)
 - 123-portal-[mcp-py](123-portal-mcp-py.md)

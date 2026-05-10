@@ -95,6 +95,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Управление и надзор"
+```
+
 ## Смотрите также
 - [197-7-управление-и-надзор](../../02-anthropic-vacancies/197-7-управление-и-надзор.md)
 - [DUPLICATES](../../DUPLICATES.md)

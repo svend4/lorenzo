@@ -120,6 +120,12 @@ infrastructure.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Specific Case in Front of Us"
+```
+
 ## Смотрите также
 - [280-the-specific-case-in-front-of-us](../../02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
 - [03-two-layer-stack](03-two-layer-stack.md)

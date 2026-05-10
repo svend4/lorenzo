@@ -65,6 +65,12 @@ MIT license — open для использования и адаптации
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Happyin Knowledge Space Анастасия детали"
+```
+
 ## Смотрите также
 - [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
 - [06-final-tier-ranking](06-final-tier-ranking.md)

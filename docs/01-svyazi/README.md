@@ -50,3 +50,9 @@
 [^mcp]: Model Context Protocol — протокол для AI-инструментов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Svyazi svyazi 2 0 Архитектура и исследов"
+```

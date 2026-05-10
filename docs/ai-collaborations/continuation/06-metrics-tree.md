@@ -50,9 +50,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Дерево метрик Svyazi 2 0"
+```
+
 ## Смотрите также
 - [10-architecture-rfc](10-architecture-rfc.md)
 - [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
 - [08-commercialization-three-paths](08-commercialization-three-paths.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

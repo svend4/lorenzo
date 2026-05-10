@@ -242,6 +242,13 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_crosslink_all.py
+```
+
 ## Смотрите также
 - [BROKEN_LINKS](BROKEN_LINKS.md)
 - [CITATION_INDEX](CITATION_INDEX.md)

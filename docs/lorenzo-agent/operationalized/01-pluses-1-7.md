@@ -111,6 +111,12 @@ Lorenzo's role: facilitate connection между Анастасией и дру�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Плюсы 1 7 feasibility flywheel"
+```
+
 ## Смотрите также
 - [04-recommendations](04-recommendations.md)
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)

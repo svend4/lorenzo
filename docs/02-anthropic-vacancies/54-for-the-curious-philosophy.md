@@ -59,6 +59,12 @@ Last updated: 2026-04*
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "For the Curious Philosophy"
+```
+
 ## Смотрите также
 - [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)

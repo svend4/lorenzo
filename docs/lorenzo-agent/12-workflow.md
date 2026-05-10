@@ -70,9 +70,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Твой workflow"
+```
+
 ## Смотрите также
 - [356-твой-workflow](../02-anthropic-vacancies/356-твой-workflow.md)
 - [07-chto-mozhesh](07-chto-mozhesh.md)
 - [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
 - [18-escalate-to-max](18-escalate-to-max.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._

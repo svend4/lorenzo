@@ -175,6 +175,12 @@ Both produce artifacts which are immediately useful
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что мы можем делать прямо сейчас"
+```
+
 ## Смотрите также
 - [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](../../02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
 - [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)

@@ -37,9 +37,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Синтез хеббовский граф людей навыков"
+```
+
 ## Смотрите также
 - [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
 - [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
 - [02-related-projects-context](02-related-projects-context.md)
 - [01-three-key-candidates](01-three-key-candidates.md)
 
+_Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._

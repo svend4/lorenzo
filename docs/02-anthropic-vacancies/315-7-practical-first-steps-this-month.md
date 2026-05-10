@@ -117,6 +117,12 @@ work. Most successful infrastructure projects start this way.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Practical First Steps This Month"
+```
+
 ## Смотрите также
 - [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)

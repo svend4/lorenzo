@@ -92,6 +92,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "THE DOUBLE TRIANGLE ARCHITECTURE md"
+```
+
 ## Смотрите также
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
 - [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md)

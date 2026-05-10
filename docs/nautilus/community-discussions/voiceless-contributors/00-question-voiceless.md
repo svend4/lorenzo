@@ -41,6 +41,12 @@ Mehr anzeigen
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Самый интересный вопрос"
+```
+
 ## Смотрите также
 - [05-platform-not-position](../../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
 - [00-question-rephrasing](../../../anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)

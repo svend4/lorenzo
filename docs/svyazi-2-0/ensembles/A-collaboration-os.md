@@ -63,3 +63,4 @@ flowchart LR
 - [knowledge-space](../components/knowledge-space.md)
 - [license-tree](../limitations/license-tree.md)
 
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

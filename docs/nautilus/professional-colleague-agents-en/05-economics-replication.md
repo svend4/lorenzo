@@ -159,6 +159,12 @@ economically viable for moderately sized professions.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 The Economics of Profession Wide"
+```
+
 ## Смотрите также
 - [216-5-the-economics-of-profession-wide-replication](../../02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
 - [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)

@@ -67,6 +67,12 @@ Yodoca — «Научил ИИ-агента помнить важное и за�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Yodoca yodoca консолидация и забывание"
+```
+
 ## Смотрите также
 - [01-synthesis](../01-synthesis.md)
 - [wikontic](../knowledge/wikontic.md)

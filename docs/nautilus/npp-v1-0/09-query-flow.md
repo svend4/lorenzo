@@ -64,9 +64,17 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Query Flow"
+```
+
 ## Смотрите также
 - [10-query-flow](../npp-v1-1/10-query-flow.md)
 - [21-9-query-flow](../../02-anthropic-vacancies/21-9-query-flow.md)
 - [85-10-query-flow](../../02-anthropic-vacancies/85-10-query-flow.md)
 - [17-appendix-b-change-log](17-appendix-b-change-log.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._

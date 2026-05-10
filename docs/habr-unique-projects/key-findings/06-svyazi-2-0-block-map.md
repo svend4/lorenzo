@@ -49,6 +49,12 @@ Claude hat geantwortet: Понял задачу: ты хочешь не один
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Синтез блок карта Svyazi 2 0 на"
+```
+
 ## Смотрите также
 - [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
 - [7-metaphor](../hardware-pairs/7-metaphor.md)

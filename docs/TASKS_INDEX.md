@@ -320,3 +320,8 @@ _Обновлено: 2026-04-29_
 **Связанные скилы:** write-contact, propose-collaboration, status
 **Связанные шаблоны:** contact-outreach
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Каталог задач TASKS_INDEX"
+```

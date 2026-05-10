@@ -58,3 +58,4 @@ flowchart LR
 - [C-multi-agent-factory](C-multi-agent-factory.md)
 - [conclusions](../limitations/conclusions.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

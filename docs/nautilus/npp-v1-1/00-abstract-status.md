@@ -89,6 +89,12 @@ stable требуют bump до v2.0 с migration guide.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract Status of This Document"
+```
+
 ## Смотрите также
 - [74-abstract](../../02-anthropic-vacancies/74-abstract.md)
 - [04-abstract](../../02-anthropic-vacancies/04-abstract.md)

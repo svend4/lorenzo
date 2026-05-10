@@ -62,6 +62,12 @@ Cowork был самым серьёзным конкурентом для наш
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Минусы Hermes где наша архитектура"
+```
+
 ## Смотрите также
 - [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
 - [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)

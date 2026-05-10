@@ -96,6 +96,13 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_digest.py
+```
+
 ## Смотрите также
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
 - [CHANGELOG_AUTO](CHANGELOG_AUTO.md)

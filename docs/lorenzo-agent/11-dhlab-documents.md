@@ -47,9 +47,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Существующие документы DHLab твой"
+```
+
 ## Смотрите также
 - [355-существующие-документы-dhlab-твой-context](../02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)
 - [09-difference-4-institutional-vision](../anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](../02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md)
 - [14-other-ai-relationships](14-other-ai-relationships.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._

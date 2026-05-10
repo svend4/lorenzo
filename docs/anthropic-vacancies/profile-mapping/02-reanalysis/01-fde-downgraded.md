@@ -37,6 +37,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Коррекция FDE понижается"
+```
+
 ## Смотрите также
 - [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
 - 03-revised-[anthropic-mapping](03-revised-anthropic-mapping.md)
@@ -53,3 +60,4 @@
 - [components-by-name](../../../glossary/components-by-name.md)
 - [concepts](../../../glossary/concepts.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._

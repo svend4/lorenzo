@@ -5,6 +5,8 @@
 
 <!-- alert-added -->
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > python scripts/improve_spellcheck.py --fix
 **Проекты:** knowledge-space, MemNet

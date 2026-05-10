@@ -161,6 +161,12 @@ across both journals and individual researchers.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 The Sub Agent Registry"
+```
+
 ## Смотрите также
 - [257-4-the-sub-agent-registry](../../02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
 - [09-okwf-integration](09-okwf-integration.md)

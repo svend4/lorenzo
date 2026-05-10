@@ -64,6 +64,12 @@ memory_fact: "review_required"
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "A2A vs MCP ансамбль H MCP A2A Review"
+```
+
 ## Смотрите также
 - 07-vs-[notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)

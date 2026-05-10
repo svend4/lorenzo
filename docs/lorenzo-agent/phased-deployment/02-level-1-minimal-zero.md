@@ -73,9 +73,17 @@ Project knowledge: накопленная база (CardIndex авторов, п
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Уровень 1 Минимальный Lorenzo Zero"
+```
+
 ## Смотрите также
 - [01-level-0-manual](01-level-0-manual.md)
 - [03-level-2-basic-lite](03-level-2-basic-lite.md)
 - [04-level-3-medium-active](04-level-3-medium-active.md)
 - [06-level-5-full-network](06-level-5-full-network.md)
 
+_Документ доступен для семантического поиска._ _Индексировано._

@@ -116,6 +116,12 @@ Cascade означает: первая модель делает простую 
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Наутилус A pro2 meta YiJing Transformer"
+```
+
 ## Смотрите также
 - 03-[nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
 - [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)

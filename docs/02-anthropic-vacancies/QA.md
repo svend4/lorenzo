@@ -196,3 +196,9 @@ _Автоматически сгенерировано по 355 файлам р�
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Q A 02 anthropic vacancies"
+```

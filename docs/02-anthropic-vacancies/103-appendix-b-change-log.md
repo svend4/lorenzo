@@ -68,6 +68,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Change Log"
+```
+
 ## Смотрите также
 - 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)

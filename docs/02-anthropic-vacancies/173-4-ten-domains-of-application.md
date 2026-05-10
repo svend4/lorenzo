@@ -370,6 +370,12 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Ten Domains of Application"
+```
+
 ## Смотрите также
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)

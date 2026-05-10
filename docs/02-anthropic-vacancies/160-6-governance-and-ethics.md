@@ -155,6 +155,12 @@ Foundation will not:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Governance and Ethics"
+```
+
 ## Смотрите также
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 - [164-10-appendices](164-10-appendices.md)

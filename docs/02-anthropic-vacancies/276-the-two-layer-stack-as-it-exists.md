@@ -93,6 +93,12 @@ infrastructure that does not exist as a unified product.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Two Layer Stack As It Exists"
+```
+
 ## Смотрите также
 - [279-existing-approximations](279-existing-approximations.md)
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)

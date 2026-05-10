@@ -160,6 +160,12 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Relationship to Other Agent Types"
+```
+
 ## Смотрите также
 - [210-abstract](210-abstract.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)

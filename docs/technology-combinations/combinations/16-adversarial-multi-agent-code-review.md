@@ -79,6 +79,13 @@ ROI: Automated review → manual approval only for edge cases
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 16 Adversarial Multi Agent"
+```
+
 ## Смотрите также
 - [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
 - [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)

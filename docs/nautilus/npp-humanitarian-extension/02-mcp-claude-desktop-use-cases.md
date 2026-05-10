@@ -48,9 +48,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что он даёт вам на практике Через MCP"
+```
+
 ## Смотрите также
 - [03-what-doesnt-exist-on-market](03-what-doesnt-exist-on-market.md)
 - [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
 - [04-section-4-sgb-pilot](../../anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
 - 16-[mcp-extension](../npp-v1-1/16-mcp-extension.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

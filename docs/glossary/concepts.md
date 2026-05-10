@@ -61,6 +61,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ключевые понятия и паттерны"
+```
+
 ## Смотрите также
 - [components-by-name](components-by-name.md)
 - [11-integration-contracts](../01-svyazi/11-integration-contracts.md)

@@ -358,6 +358,12 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сложности и рекомендации перед detailed"
+```
+
 ## Смотрите также
 - [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)

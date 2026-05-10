@@ -48,6 +48,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Метафора в твоей терминологии"
+```
+
 ## Смотрите также
 - [7-metaphor](../hardware-pairs/7-metaphor.md)
 - [6-bonus-rram-memristor](../hardware-pairs/6-bonus-rram-memristor.md)

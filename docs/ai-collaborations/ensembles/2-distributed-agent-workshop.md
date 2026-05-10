@@ -65,6 +65,12 @@ Community Project Builder — участники сообщества предл
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 2 Distributed Agent Workshop"
+```
+
 ## Смотрите также
 - [01-shared-memory-between-agents](../continuation/01-shared-memory-between-agents.md)
 - [9-ambient-team-agent](9-ambient-team-agent.md)

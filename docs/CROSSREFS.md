@@ -85,3 +85,9 @@
 | `docs/obsidian/01-svyazi/04-ensembles-overview.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
 | `docs/obsidian/04-ai-collaborations/04-приоритетные-ансамбли.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
 | `docs/obsidian/OUTLINE.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
+
+## Использование
+
+```bash
+python scripts/improve_crossrefs.py
+```

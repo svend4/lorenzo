@@ -46,6 +46,13 @@ Teilen
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводный список авторов и потенциальных"
+```
+
 ## Смотрите также
 - [1-one-person-one-company](1-one-person-one-company.md)
 - [authors-by-name](../../glossary/authors-by-name.md)

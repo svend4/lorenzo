@@ -160,6 +160,12 @@ practice.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Coordination and Disagreement"
+```
+
 ## Смотрите также
 - [259-6-coordination-and-disagreement-resolution](../../02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
 - [03-what-makes-csa](03-what-makes-csa.md)

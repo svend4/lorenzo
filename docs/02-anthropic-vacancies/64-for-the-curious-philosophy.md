@@ -99,6 +99,12 @@ Bridges описаны максимально конкретно. Особенн
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "For the Curious Philosophy"
+```
+
 ## Смотрите также
 - [34-appendix-b-change-log](34-appendix-b-change-log.md)
 - [104-appendix-c-references](104-appendix-c-references.md)

@@ -50,6 +50,33 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need" --mode full --top 15
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need" --mode bm25 --top 5
+```
+
 ## Смотрите также
 - [ngt-memory](ngt-memory.md)
 - [yodoca](yodoca.md)
@@ -67,3 +94,4 @@
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

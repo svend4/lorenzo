@@ -57,6 +57,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Compatibility Level"
+```
+
 ## Смотрите также
 - [51-compatibility-level](51-compatibility-level.md)
 - [41-compatibility-level](41-compatibility-level.md)

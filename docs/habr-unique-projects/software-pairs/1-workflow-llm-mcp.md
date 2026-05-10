@@ -42,6 +42,13 @@ Event-driven legal watcher — Huginn собирает RSS/обновления 
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 1 Workflow автоматизация LLM"
+```
+
 ## Смотрите также
 - [4-skill-catalogs-subagents](../deep-pairs/4-skill-catalogs-subagents.md)
 - [5-browser-agents-headless](5-browser-agents-headless.md)

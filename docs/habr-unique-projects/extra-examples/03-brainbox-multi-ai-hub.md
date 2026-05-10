@@ -74,9 +74,17 @@ Community knowledge: Zettelkasten + Лумановская иерархия + RA
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "BrainBox self hosted multi AI hub"
+```
+
 ## Смотрите также
 - [05-hw-nl2workflow](05-hw-nl2workflow.md)
 - 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
 - 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 
+_Материал доступен для поиска._ _Индексировано._

@@ -47,6 +47,12 @@ Self-aware legal MCP — агент знает «сейчас 26 апреля 20
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 8 Self aware MCP Specs first"
+```
+
 ## Смотрите также
 - 03-pda-[llm-as-periphery](../key-findings/03-pda-llm-as-periphery.md)
 - [5-browser-agents-headless](../software-pairs/5-browser-agents-headless.md)

@@ -104,6 +104,12 @@ match actual technology architecture.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Call for Collaboration"
+```
+
 ## Смотрите также
 - [265-12-call-for-collaboration](../../02-anthropic-vacancies/265-12-call-for-collaboration.md)
 - [222-11-call-for-collaboration](../../02-anthropic-vacancies/222-11-call-for-collaboration.md)

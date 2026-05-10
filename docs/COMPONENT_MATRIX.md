@@ -117,6 +117,12 @@ _Совместимость и возможности 14 компонентов 
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Матрица компонентов Svyazi 2 0"
+```
+
 ## Смотрите также
 - [ONBOARDING](ONBOARDING.md)
 - [07-выводы](04-ai-collaborations/07-выводы.md)

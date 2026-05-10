@@ -57,6 +57,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Coordinated Infrastructure for"
+```
+
 ## Смотрите также
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
 - [03-portal-protocol-md](03-portal-protocol-md.md)

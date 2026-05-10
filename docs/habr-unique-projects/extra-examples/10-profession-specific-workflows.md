@@ -70,6 +70,13 @@ Time to MVP: 3-6 месяцев focused work.
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Profession specific workflows"
+```
+
 ## Смотрите также
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 - [09-federated-platform](09-federated-platform.md)

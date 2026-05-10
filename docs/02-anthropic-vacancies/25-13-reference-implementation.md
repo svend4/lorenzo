@@ -59,6 +59,12 @@ Reference НЕ является нормативной. Альтернативн
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "13 Reference Implementation"
+```
+
 ## Смотрите также
 - [93-18-reference-implementation](93-18-reference-implementation.md)
 - [42-author-contact](42-author-contact.md)

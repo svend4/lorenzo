@@ -1,5 +1,7 @@
 # Executive Report: Репозиторий Lorenzo
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > Executive Report: сводный отчёт о состоянии репозитория Lorenzo — метрики, прогресс, ключевые выводы.
 

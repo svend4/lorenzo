@@ -134,6 +134,12 @@ implementable starting next week.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Implications for Nautilus and OKWF"
+```
+
 ## Смотрите также
 - [316-8-implications-for-nautilus-and-okwf](../../02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 - [09-okwf-integration](../composite-skills-agents/09-okwf-integration.md)

@@ -138,6 +138,13 @@ _Дайджест сгенерирован автоматически: 2026-05-1
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_digest_auto.py
+```
+
 ## Смотрите также
 - [DIGEST](DIGEST.md)
 - [NAMED_ENTITIES](NAMED_ENTITIES.md)

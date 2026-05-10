@@ -93,6 +93,13 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_network.py
+```
+
 ## Смотрите также
 - [GRAPH](GRAPH.md)
 - [ENTITIES](ENTITIES.md)

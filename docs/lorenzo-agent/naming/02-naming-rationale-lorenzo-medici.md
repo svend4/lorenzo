@@ -308,6 +308,12 @@ LAYER 6: Outreach engine
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что взять agent controller architecture"
+```
+
 ## Смотрите также
 - [03-dhlab-umbrella](03-dhlab-umbrella.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)

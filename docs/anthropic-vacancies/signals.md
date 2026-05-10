@@ -58,6 +58,12 @@ Sales и Applied AI: SF, NY, London, Dublin, Munich, Paris, Tokyo, Seoul, Bangal
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сигналы что говорит структура вакансий"
+```
+
 ## Смотрите также
 - [02-sales](clusters/02-sales.md)
 - [overview](overview.md)

@@ -34,9 +34,17 @@ Tertiary match: Research Engineer, Agents / Virtual Collaborator (Cowork)
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Secondary match Applied AI Engineer"
+```
+
 ## Смотрите также
 - [08-practical-ranking](08-practical-ranking.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - [02-primary-fde](02-primary-fde.md)
 - [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.

@@ -44,6 +44,12 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 3 ZINC inference engine гибрид"
+```
+
 ## Смотрите также
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
 - 06-openclaude-utyokshiy-[claude-code-zinc-inference-engine-mome-](../../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)

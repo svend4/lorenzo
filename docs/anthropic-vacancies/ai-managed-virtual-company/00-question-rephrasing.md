@@ -58,6 +58,12 @@ Claude hat geantwortet: Я понял вашу мысль.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос разделить 500K зарплату на"
+```
+
 ## Смотрите также
 - [05-platform-not-position](../profile-mapping/03-integral-final/05-platform-not-position.md)
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)

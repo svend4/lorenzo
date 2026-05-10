@@ -138,6 +138,12 @@ Du hast gesagt: https://github.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Наутилус B nautilus мета оркестратор"
+```
+
 ## Смотрите также
 - [DECISIONS](../../DECISIONS.md)
 - 02-[nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)

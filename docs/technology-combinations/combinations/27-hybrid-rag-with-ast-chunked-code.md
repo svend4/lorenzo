@@ -75,6 +75,13 @@ ROI: Developer understands legal context, lawyer sees implementation
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 27 Hybrid RAG with AST"
+```
+
 ## Смотрите также
 - [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
 - [26-ast-based-code-analysis-for-legal-automation](26-ast-based-code-analysis-for-legal-automation.md)
@@ -91,3 +98,4 @@ ROI: Developer understands legal context, lawyer sees implementation
 - [README](README.md)
 - [25-30-extended](../synthesis-tables/25-30-extended.md)
 
+_Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

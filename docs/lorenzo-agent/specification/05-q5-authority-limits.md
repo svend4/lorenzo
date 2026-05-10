@@ -85,9 +85,17 @@ Engage с vulnerable individuals directly without human safeguards
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 5 Каковы limits Lorenzo s"
+```
+
 ## Смотрите также
 - [08-bez-max-approval](../08-bez-max-approval.md)
 - 03-q3-what-[lorenzo-does](03-q3-what-lorenzo-does.md)
 - [09-voobshche-nelzya](../09-voobshche-nelzya.md)
 - [352-что-ты-не-можешь-делать-без-max-approval](../../02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._

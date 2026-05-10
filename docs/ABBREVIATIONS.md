@@ -162,6 +162,13 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_abbreviations.py
+```
+
 ## Смотрите также
 - [SITEMAP](SITEMAP.md)
 - [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md)

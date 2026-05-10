@@ -46,9 +46,17 @@ EIC Pathfinder (€4M max) — deep-tech, можно защитить через
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что не существует на рынке"
+```
+
 ## Смотрите также
 - [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 - [09-difference-4-institutional-vision](../../anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
 - [09-federated-platform](../../habr-unique-projects/extra-examples/09-federated-platform.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.

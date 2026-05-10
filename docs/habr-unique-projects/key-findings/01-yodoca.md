@@ -49,6 +49,12 @@ https://habr.com/ru/articles/1006622/
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Yodoca главная находка итерации"
+```
+
 ## Смотрите также
 - [01-synthesis](../../05-habr-projects/01-synthesis.md)
 - [02-memnet](02-memnet.md)

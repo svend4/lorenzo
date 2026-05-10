@@ -71,6 +71,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Word Cloud"
+```
+
 ## Смотрите также
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)

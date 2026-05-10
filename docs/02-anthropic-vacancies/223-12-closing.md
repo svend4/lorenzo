@@ -105,6 +105,12 @@ walking it.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+```
+
 ## Смотрите также
 - [210-abstract](210-abstract.md)
 - [266-13-closing](266-13-closing.md)

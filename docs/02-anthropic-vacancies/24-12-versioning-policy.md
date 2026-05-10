@@ -75,6 +75,12 @@ implementation MUST поддерживать **минимум текущую maj
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Versioning Policy"
+```
+
 ## Смотрите также
 - [92-17-versioning-policy](92-17-versioning-policy.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)

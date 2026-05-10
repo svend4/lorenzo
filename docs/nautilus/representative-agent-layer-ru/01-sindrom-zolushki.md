@@ -85,6 +85,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Синдром Золушки Почему качество"
+```
+
 ## Смотрите также
 - [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)
 - [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)

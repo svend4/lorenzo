@@ -40,9 +40,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводная таблица 9 14 Extended"
+```
+
 ## Смотрите также
 - [15-19-extended](15-19-extended.md)
 - [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
 - [14-local-first-agent-development-environment](../combinations/14-local-first-agent-development-environment.md)
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._

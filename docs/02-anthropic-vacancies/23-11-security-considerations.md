@@ -85,6 +85,12 @@ Implementation MUST различать public и private registries и не
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Security Considerations"
+```
+
 ## Смотрите также
 - [90-15-security-considerations](90-15-security-considerations.md)
 - 123-portal-[mcp-py](123-portal-mcp-py.md)

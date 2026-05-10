@@ -43,6 +43,13 @@ https://habr.com/ru/articles/1017200/
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PDA бот LLM как периферия"
+```
+
 ## Смотрите также
 - 8-self-aware-[mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
 - [02-memnet](02-memnet.md)

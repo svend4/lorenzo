@@ -39,6 +39,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что стоит зафиксировать как default"
+```
+
 ## Смотрите также
 - [06-security-privacy](../../01-svyazi/06-security-privacy.md)
 - [06-безопасность-приватность-и-бюджетный-роутинг](../../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)

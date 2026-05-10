@@ -44,6 +44,12 @@ Daten70, судя по названию-паттерну (Daten = нем. «да
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводка профиля пять слоёв"
+```
+
 ## Смотрите также
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - [08-practical-ranking](08-practical-ranking.md)

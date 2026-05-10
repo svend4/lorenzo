@@ -83,6 +83,12 @@ ROI: Real-time collaboration + analytical insights, best of both worlds
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 20 Hybrid OLAP OLTP with"
+```
+
 ## Смотрите также
 - 11-hybrid-crdt-[sql-database](11-hybrid-crdt-sql-database.md)
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)

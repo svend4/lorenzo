@@ -68,6 +68,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Призыв к сотрудничеству"
+```
+
 ## Смотрите также
 - [201-11-призыв-к-сотрудничеству](../../02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
 - [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)

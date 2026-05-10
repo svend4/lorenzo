@@ -58,9 +58,17 @@ applied work demonstrated its absence
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Missing Middle Layer Between Chat"
+```
+
 ## Смотрите также
 - [13-acknowledgments-refs](13-acknowledgments-refs.md)
 - [10-what-not-solved](10-what-not-solved.md)
 - [12-closing](12-closing.md)
 - [274-the-missing-middle-layer-between-chat-and-code](../../02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

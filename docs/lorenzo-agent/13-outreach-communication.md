@@ -53,9 +53,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Твоя коммуникация в outreach"
+```
+
 ## Смотрите также
 - [357-твоя-коммуникация-в-outreach](../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
 - [04-q4-character](specification/04-q4-character.md)
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)
 - [03-tvoya-missiya](03-tvoya-missiya.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._

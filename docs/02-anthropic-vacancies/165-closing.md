@@ -557,6 +557,32 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Closing"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Closing" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Closing" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "Closing" --mode full --top 15
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Closing" --mode bm25 --top 5
+```
+
 ## Смотрите также
 - [CONCEPTS](../CONCEPTS.md)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)

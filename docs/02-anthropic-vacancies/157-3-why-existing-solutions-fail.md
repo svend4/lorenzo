@@ -194,6 +194,12 @@ is this integration.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Why Existing Solutions Fail"
+```
+
 ## Смотрите также
 - [156-2-target-populations](156-2-target-populations.md)
 - [153-executive-summary](153-executive-summary.md)

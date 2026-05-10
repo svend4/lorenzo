@@ -77,9 +77,17 @@ Synthesis quality зависит от model capabilities
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Уровень 3 Средний Lorenzo Active"
+```
+
 ## Смотрите также
 - [03-level-2-basic-lite](03-level-2-basic-lite.md)
 - [05-level-4-extended-mature](05-level-4-extended-mature.md)
 - [01-level-0-manual](01-level-0-manual.md)
 - [02-level-1-minimal-zero](02-level-1-minimal-zero.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

@@ -99,6 +99,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Архитектурная спецификация"
+```
+
 ## Смотрите также
 - [195-5-архитектурная-спецификация](../../02-anthropic-vacancies/195-5-архитектурная-спецификация.md)
 - [03-chto-delaet-predstavitelskim](03-chto-delaet-predstavitelskim.md)

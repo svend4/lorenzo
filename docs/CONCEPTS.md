@@ -4665,3 +4665,60 @@ _Определения извлечены автоматически из до�
 - [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 
+## Использование
+
+```bash
+python scripts/improve_concepts.py
+```
+
+```bash
+# Только раздел 05-habr-projects
+python scripts/improve_concepts.py --section 05-habr-projects
+```
+
+```bash
+# Только раздел 01-svyazi
+python scripts/improve_concepts.py --section 01-svyazi
+```
+
+```bash
+# Только раздел 04-ai-collaborations
+python scripts/improve_concepts.py --section 04-ai-collaborations
+```
+
+```bash
+# Найти понятия по шаблону
+python scripts/improve_concepts.py --pattern "агент"
+```
+
+```bash
+# Сохранить в формате JSON
+python scripts/improve_concepts.py --json
+```
+
+```bash
+# Показать топ-50 понятий
+python scripts/improve_concepts.py --top 50
+```
+
+```bash
+# Показать сводную статистику
+python scripts/improve_concepts.py --stats
+```
+
+```bash
+# Все разделы, детальный вывод
+python scripts/improve_concepts.py --verbose
+```
+
+```bash
+# Обновить и сразу проверить метрики
+python scripts/improve_concepts.py && python scripts/improve_metrics.py
+```
+
+
+## Смотрите также
+
+- [HEALTH](HEALTH.md) — общее здоровье репозитория
+- [METRICS](METRICS.md) — метрики качества документов
+- [BROKEN_LINKS](BROKEN_LINKS.md) — проверка ссылок

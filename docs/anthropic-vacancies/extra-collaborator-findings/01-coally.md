@@ -56,6 +56,13 @@ Personalized PageRank по графу знаний (HippoRAG, Stanford/OSU)
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "CoAlly distributed shared memory для AI"
+```
+
 ## Смотрите также
 - [13-appendix-b-examples](../../nautilus/review-methodology/13-appendix-b-examples.md)
 - [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)

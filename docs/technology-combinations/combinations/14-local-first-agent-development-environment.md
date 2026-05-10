@@ -132,6 +132,12 @@ Charted eight research directions for discovering additional project synergies
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 14 local first Agent"
+```
+
 ## Смотрите также
 - [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)

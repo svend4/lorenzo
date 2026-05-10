@@ -50,9 +50,17 @@ Fundamental questions для Lorenzo
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Direction E Refine Lorenzo"
+```
+
 ## Смотрите также
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [07-q7-success-metrics](07-q7-success-metrics.md)
 - [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

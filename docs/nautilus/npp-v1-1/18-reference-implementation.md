@@ -63,9 +63,17 @@ NPP-compatible, если они:
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "18 Reference Implementation"
+```
+
 ## Смотрите также
 - [93-18-reference-implementation](../../02-anthropic-vacancies/93-18-reference-implementation.md)
 - [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
 - [25-13-reference-implementation](../../02-anthropic-vacancies/25-13-reference-implementation.md)
 - [14-sdk](14-sdk.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._

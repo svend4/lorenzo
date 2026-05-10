@@ -333,6 +333,22 @@ Pero никто не построил yet what you described. Это opportunity
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Appendix D Connection Diagram"
+```
+
+```bash
+# BM25 поиск
+python scripts/improve_semantic_search.py --query "Appendix D Connection Diagram" --mode bm25
+```
+
+```bash
+# семантический поиск
+python scripts/improve_semantic_search.py --query "Appendix D Connection Diagram" --mode semantic
+```
+
 ## Смотрите также
 - [ACTION_ITEMS](../ACTION_ITEMS.md)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)

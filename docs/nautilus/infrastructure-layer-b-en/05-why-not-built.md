@@ -76,6 +76,12 @@ integration does not.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Hasn t Been Built"
+```
+
 ## Смотрите также
 - [278-why-this-hasn-t-been-built](../../02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
 - [06-existing-approximations](06-existing-approximations.md)

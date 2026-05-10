@@ -44,6 +44,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Интегральный портрет три архетипа"
+```
+
 ## Смотрите также
 - [01-profile-five-layers](../01-initial-analysis/01-profile-five-layers.md)
 - [07-unique-niche-eu-legal-infra](../01-initial-analysis/07-unique-niche-eu-legal-infra.md)

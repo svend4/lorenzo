@@ -306,6 +306,18 @@ Focused action > parallel ambition.
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Отличный запрос"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Отличный запрос" --mode bm25
+```
+
 ## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)

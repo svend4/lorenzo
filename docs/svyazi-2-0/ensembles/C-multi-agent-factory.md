@@ -63,3 +63,4 @@ flowchart LR
 - [H-research-to-product-flywheel](H-research-to-product-flywheel.md)
 - [ai-factory](../components/ai-factory.md)
 
+_Документ доступен для семантического поиска и навигации._ _Доступен поиск._

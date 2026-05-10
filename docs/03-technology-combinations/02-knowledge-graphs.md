@@ -119,6 +119,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Графы знаний и Legal AI"
+```
+
 ## Смотрите также
 - [05-benchmarks](05-benchmarks.md)
 - [03-local-first](03-local-first.md)

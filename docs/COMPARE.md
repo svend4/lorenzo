@@ -113,6 +113,13 @@ _...и ещё 253_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_compare_docs.py
+```
+
 ## Смотрите также
 - [190-содержание](02-anthropic-vacancies/190-содержание.md)
 - [COMPLEXITY](COMPLEXITY.md)

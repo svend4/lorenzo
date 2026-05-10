@@ -48,6 +48,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
 ## Смотрите также
 - [253-table-of-contents](253-table-of-contents.md)
 - [169-table-of-contents](169-table-of-contents.md)

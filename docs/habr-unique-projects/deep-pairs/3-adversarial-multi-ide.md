@@ -43,6 +43,12 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 3 Adversarial agents Multi IDE стек"
+```
+
 ## Смотрите также
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
 - 8-self-aware-[mcp-specs](8-self-aware-mcp-specs.md)

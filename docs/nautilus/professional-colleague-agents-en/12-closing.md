@@ -117,3 +117,9 @@ https://www.fontanka.ru/2026/04/25/76378978/
 
 - svend4 (2026). *The Representative Agent Layer v1.0*.
 - svend4 (2026). *Open Knowledge Work Foundation Concept Document v1.0*.
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+```

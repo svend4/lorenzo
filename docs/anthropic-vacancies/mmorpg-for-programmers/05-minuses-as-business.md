@@ -64,6 +64,12 @@ High failure rate — Metaverse-hype 2021-2022 научил инвесторов
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Минусы и риски как бизнеса"
+```
+
 ## Смотрите также
 - [10-three-entry-points](../ai-managed-virtual-company/10-three-entry-points.md)
 - [04-what-to-do](../ai-managed-virtual-company/04-what-to-do.md)

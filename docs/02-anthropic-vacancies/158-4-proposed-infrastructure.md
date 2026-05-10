@@ -251,6 +251,12 @@ Community governance operates:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Proposed Infrastructure"
+```
+
 ## Смотрите также
 - [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)

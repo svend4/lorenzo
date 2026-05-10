@@ -40,9 +40,17 @@ Claude hat geantwortet: Очень хороший вопрос — и он по�
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос Nautilus пассивный CAMEL"
+```
+
 ## Смотрите также
 - [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
 - [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
 - [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md)
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._

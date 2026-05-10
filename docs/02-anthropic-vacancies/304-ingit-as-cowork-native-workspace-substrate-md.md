@@ -84,6 +84,12 @@ markdown
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "INGIT AS COWORK NATIVE WORKSPACE"
+```
+
 ## Смотрите также
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)

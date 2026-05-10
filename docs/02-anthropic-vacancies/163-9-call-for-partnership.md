@@ -142,6 +142,12 @@ section explicitly invites partnership.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Call for Partnership"
+```
+
 ## Смотрите также
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [164-10-appendices](164-10-appendices.md)

@@ -97,6 +97,12 @@ Nautilus-как-платформе. Интеллектуальная работ�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Рекурсивное прозрение"
+```
+
 ## Смотрите также
 - [296-рекурсивное-прозрение](../../02-anthropic-vacancies/296-рекурсивное-прозрение.md)
 - [11-zaklyuchenie](11-zaklyuchenie.md)

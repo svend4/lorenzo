@@ -183,6 +183,18 @@ Mehr anzeigen
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Интересно как новая как и"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Du hast gesagt Интересно как новая как и" --mode bm25
+```
+
 ## Смотрите также
 - [05-polymath-project-tao-comparison](../../anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
 - [09-minuses-and-risks](../../anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)

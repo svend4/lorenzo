@@ -77,6 +77,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Checklist применения методологии"
+```
+
 ## Смотрите также
 - [PROGRESS](../PROGRESS.md)
 - [108-2-формальный-workflow](108-2-формальный-workflow.md)

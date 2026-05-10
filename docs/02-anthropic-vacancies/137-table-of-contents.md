@@ -45,6 +45,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
 ## Смотрите также
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)

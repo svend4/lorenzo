@@ -86,6 +86,12 @@ header of this document.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
 ## Смотрите также
 - [302-ссылки](302-ссылки.md)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)

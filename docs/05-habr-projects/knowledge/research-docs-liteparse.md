@@ -114,6 +114,12 @@ LiteParse закрывает слой "structured ingestion with evidence" — �
 
 - Контактный файл: [docs/contacts/nlaik.md](../../contacts/nlaik.md)
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "research docs LiteParse"
+```
+
 ## Смотрите также
 
 - [AgentFS](agentfs.md) — файловое ядро для хранения extracted documents

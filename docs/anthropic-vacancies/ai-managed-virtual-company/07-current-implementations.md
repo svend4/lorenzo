@@ -44,6 +44,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что существует сейчас в этом"
+```
+
 ## Смотрите также
 - [01-existing-landscape](01-existing-landscape.md)
 - [03-three-variants-A-B-C](03-three-variants-A-B-C.md)

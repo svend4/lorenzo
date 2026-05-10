@@ -820,6 +820,32 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение"
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение" --mode bm25
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение" --mode semantic --top 10
+```
+
+```bash
+python scripts/improve_collab_finder.py --file docs/04-ai-collaborations/00-intro.md
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение" --mode full
+```
+
+```bash
+python scripts/improve_reading_list.py --query "Введение" --top 10
+```
+
 ## Смотрите также
 - [memnet](../05-habr-projects/memory/memnet.md)
 - [01-интегральный-анализ-профиля-svend4](../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)

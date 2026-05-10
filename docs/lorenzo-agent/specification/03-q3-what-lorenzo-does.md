@@ -79,9 +79,17 @@ New domain exploration (medical advocacy? educational?)
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 3 Что Lorenzo фактически делает"
+```
+
 ## Смотрите также
 - [05-q5-authority-limits](05-q5-authority-limits.md)
 - [07-q7-success-metrics](07-q7-success-metrics.md)
 - [06-q6-accountability](06-q6-accountability.md)
 - 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 
+_Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

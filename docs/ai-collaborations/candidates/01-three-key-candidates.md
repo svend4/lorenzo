@@ -41,6 +41,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Три ключевых кандидата K2 18 Wikontic"
+```
+
 ## Смотрите также
 - [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
 - [wikontic](../../05-habr-projects/knowledge/wikontic.md)

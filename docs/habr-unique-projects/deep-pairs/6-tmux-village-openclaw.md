@@ -42,6 +42,12 @@ Telegram-orchestrated headless village — пишешь в Telegram «откро
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 6 Деревня агентов через tmux"
+```
+
 ## Смотрите также
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
 - [1-one-person-one-company](../final-ensembles/1-one-person-one-company.md)

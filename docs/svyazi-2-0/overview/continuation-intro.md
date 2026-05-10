@@ -35,9 +35,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что добавляет продолжение исследования"
+```
+
 ## Смотрите также
 - [08-что-это-продолжение-добавляет](../../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
 - [conclusions](../limitations/conclusions.md)
 - [executive-summary](executive-summary.md)
 - [08-conclusions](../../01-svyazi/08-conclusions.md)
 
+_Документ индексирован в поисковой базе репозитория._ _Доступен поиск._

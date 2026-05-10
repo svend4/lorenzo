@@ -71,6 +71,12 @@ anomaly_flags:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AgentOps и Trace Envelope ансамбль G"
+```
+
 ## Смотрите также
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
 - [8-budget-aware-intelligence-stack](../ensembles/8-budget-aware-intelligence-stack.md)

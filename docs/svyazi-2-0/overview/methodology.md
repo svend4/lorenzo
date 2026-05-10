@@ -33,9 +33,17 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Методика и рамка отбора"
+```
+
 ## Смотрите также
 - [02-методика-и-рамка-отбора](../../04-ai-collaborations/02-методика-и-рамка-отбора.md)
 - [02-methodology](../../01-svyazi/02-methodology.md)
 - [executive-summary](executive-summary.md)
 - [message-template](../outreach/message-template.md)
 
+_Документ доступен для семантического поиска и навигации._ _Доступен поиск._

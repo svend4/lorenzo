@@ -450,6 +450,18 @@ _...ещё 455 упоминаний в 2026_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_timeline_events.py
+```
+
+```bash
+# Дополнительный поиск по теме
+python scripts/improve_semantic_search.py --query "Хронологическая лента событий" --mode bm25
+```
+
 ## Смотрите также
 - [VERSION_DIFF](VERSION_DIFF.md)
 - [SOURCE_MAP](SOURCE_MAP.md)

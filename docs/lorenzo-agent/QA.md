@@ -154,3 +154,9 @@ _Не найдено в этом файле._
 ## Какова разница между эпизодической и семантической памятью?
 
 Упоминаются: **episod**, **fact**, **proposal**
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Q A lorenzo agent"
+```

@@ -43,6 +43,12 @@ Sequential протокол для модерации inferred-фактов — 
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 7 AutoResearch цикл Распределённый"
+```
+
 ## Смотрите также
 - 05-sourcecraft-cli-[claude-code-sequential-protokol-dochkinoy](../../technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
 - [05-supplementary-infrastructure](../key-findings/05-supplementary-infrastructure.md)

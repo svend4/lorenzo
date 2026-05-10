@@ -38,6 +38,12 @@ Patent filing. 6 патентабельных изобретений — это 
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Альтернативные пути вне Anthropic"
+```
+
 ## Смотрите также
 - [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)
 - [02-primary-fde](../01-initial-analysis/02-primary-fde.md)

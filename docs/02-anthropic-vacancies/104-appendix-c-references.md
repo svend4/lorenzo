@@ -120,6 +120,12 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix C References"
+```
+
 ## Смотрите также
 - [122-глоссарий](122-глоссарий.md)
 - [34-appendix-b-change-log](34-appendix-b-change-log.md)

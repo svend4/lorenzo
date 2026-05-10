@@ -66,6 +66,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "22 Glossary of Reference Examples"
+```
+
 ## Смотрите также
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
 - [55-passports-meta-md](55-passports-meta-md.md)
@@ -84,3 +91,4 @@
 - [67-о-проекте](67-о-проекте.md)
 - [README](README.md)
 
+_Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

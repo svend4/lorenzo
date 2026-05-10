@@ -177,6 +177,12 @@ is this integration.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Why Existing Solutions Fail"
+```
+
 ## Смотрите также
 - [157-3-why-existing-solutions-fail](../../02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
 - [02-target-populations](02-target-populations.md)

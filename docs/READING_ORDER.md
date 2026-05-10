@@ -453,6 +453,28 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_reading_order.py
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Рекомендуемый порядок чтения" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Рекомендуемый порядок чтения" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "Рекомендуемый порядок чтения" --mode full --top 15
+```
+
 ## Смотрите также
 - [SEARCH](SEARCH.md)
 - [SOURCE_MAP](SOURCE_MAP.md)

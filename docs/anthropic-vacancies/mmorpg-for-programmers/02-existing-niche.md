@@ -46,6 +46,12 @@ Metaverse попытки: Horizon Workrooms от Meta, VR Chat, Mozilla Hubs. Э
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что уже существует в этой нише Habitica"
+```
+
 ## Смотрите также
 - [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
 - [04-pluses-as-business](04-pluses-as-business.md)

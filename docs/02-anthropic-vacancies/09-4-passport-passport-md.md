@@ -71,6 +71,12 @@ Passport SHOULD содержать следующие разделы:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Passport passport md"
+```
+
 ## Смотрите также
 - [79-4-passport-passport-md](79-4-passport-passport-md.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)

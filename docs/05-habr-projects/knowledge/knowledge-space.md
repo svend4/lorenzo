@@ -103,6 +103,12 @@ knowledge-space закрывает слой "нормализованного з
 - Контактный файл: [docs/contacts/sonia-black.md](../../contacts/sonia-black.md)
 - Упомянут в документах: 11 раз
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "knowledge space"
+```
+
 ## Смотрите также
 
 - [AgentFS](agentfs.md) — файловое ядро, поверх которого knowledge-space размещается

@@ -142,6 +142,12 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Relationship to Other Agent Types"
+```
+
 ## Смотрите также
 - [220-9-relationship-to-other-agent-types](../../02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
 - [01-five-type-typology](01-five-type-typology.md)

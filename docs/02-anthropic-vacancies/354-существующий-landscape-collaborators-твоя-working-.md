@@ -66,6 +66,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Существующий landscape collaborators"
+```
+
 ## Смотрите также
 - [WORD_FREQ](../WORD_FREQ.md)
 - [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)

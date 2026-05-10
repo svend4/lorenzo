@@ -268,6 +268,18 @@ Thank you for the collaboration.
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix C Sample Use Cases in Detail"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Appendix C Sample Use Cases in Detail" --mode bm25
+```
+
 ## Смотрите также
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)

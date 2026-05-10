@@ -95,6 +95,12 @@ human-readable описание: что хранит, какая философ�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Terminology"
+```
+
 ## Смотрите также
 - [77-2-terminology](77-2-terminology.md)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)

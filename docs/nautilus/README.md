@@ -1,5 +1,7 @@
 # nautilus/ — Nautilus Portal Protocol и связанные working papers
 
+<!-- toc-auto -->
+
 
 <!-- summary -->
 > Nautilus Portal Protocol: спецификации NPP v1.0 и v1.1, адаптеры, паспорта и протоколы взаимодействия.
@@ -61,3 +63,9 @@
 - **Q6-гиперкуб / MoME** упоминается во многих местах: [`../glossary/concepts.md`](../glossary/concepts.md), [`../habr-unique-projects/hardware-pairs/2-tsu-mome.md`](../habr-unique-projects/hardware-pairs/2-tsu-mome.md), [`../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md`](../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md).
 - **Architecture Spec** и **Card Envelope** в Svyazi 2.0 связаны с PortalEntry/Card паттернами здесь: [`../svyazi-2-0/architecture/`](../svyazi-2-0/architecture/).
 - **Профиль svend4** (автор) — см. [`../anthropic-vacancies/profile-mapping/`](../anthropic-vacancies/profile-mapping/).
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "nautilus Nautilus Portal Protocol и связ"
+```

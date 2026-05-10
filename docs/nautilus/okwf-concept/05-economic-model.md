@@ -122,6 +122,12 @@ to minimum dignity threshold; upward is merit-based.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Economic Model"
+```
+
 ## Смотрите также
 - [159-5-economic-model](../../02-anthropic-vacancies/159-5-economic-model.md)
 - [07-phased-rollout](07-phased-rollout.md)

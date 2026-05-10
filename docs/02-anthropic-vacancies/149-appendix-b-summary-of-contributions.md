@@ -77,6 +77,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Summary of Contributions"
+```
+
 ## Смотрите также
 - [137-table-of-contents](137-table-of-contents.md)
 - [136-abstract](136-abstract.md)

@@ -181,6 +181,12 @@ to discuss work with."
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 What Makes a Professional Colleague"
+```
+
 ## Смотрите также
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)

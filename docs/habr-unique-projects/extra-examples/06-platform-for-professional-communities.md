@@ -48,9 +48,17 @@ AI matcher находит unexpected combinations (Wi-Fi инженер + SPb р
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Платформа для профессиональных сообществ"
+```
+
 ## Смотрите также
 - [09-federated-platform](09-federated-platform.md)
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 - [05-hw-nl2workflow](05-hw-nl2workflow.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

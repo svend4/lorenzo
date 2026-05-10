@@ -63,6 +63,13 @@ C. AgentOps Knowledge Kernel
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Коммерциализация три направления"
+```
+
 ## Смотрите также
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
 - [01-shared-memory-between-agents](01-shared-memory-between-agents.md)

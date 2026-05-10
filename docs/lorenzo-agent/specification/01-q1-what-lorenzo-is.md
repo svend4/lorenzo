@@ -97,6 +97,12 @@ Avoids autonomy controversies while preserving brand benefits
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 1 Что Lorenzo фундаментально"
+```
+
 ## Смотрите также
 - 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)

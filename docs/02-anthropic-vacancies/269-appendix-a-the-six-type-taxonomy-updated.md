@@ -79,6 +79,12 @@ how skilled practice actually structures itself.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A The Six Type Taxonomy Updated"
+```
+
 ## Смотрите также
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md)
 - [227-appendix-b-decision-framework-when-to-build-type-1](227-appendix-b-decision-framework-when-to-build-type-1.md)

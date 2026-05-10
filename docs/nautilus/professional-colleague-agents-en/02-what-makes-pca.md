@@ -163,6 +163,12 @@ to discuss work with."
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 What Makes a Professional Colleague"
+```
+
 ## Смотрите также
 - [213-2-what-makes-a-professional-colleague-agent](../../02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
 - [01-five-type-typology](01-five-type-typology.md)

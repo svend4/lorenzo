@@ -128,6 +128,12 @@ works regardless of any of them.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Risks and Open Questions"
+```
+
 ## Смотрите также
 - [317-9-risks-and-open-questions](../../02-anthropic-vacancies/317-9-risks-and-open-questions.md)
 - 08-implications-[nautilus-okwf](08-implications-nautilus-okwf.md)

@@ -461,3 +461,23 @@ soz150 / Writing OS + data4 (public) → новый legal-sgb-toolkit с:
 - [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
 - [README](README.md)
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Введение" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Введение" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "Введение" --mode full --top 15
+```

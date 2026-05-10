@@ -68,9 +68,17 @@ PR
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Условия применимости"
+```
+
 ## Смотрите также
 - [111-4-условия-применимости](../../02-anthropic-vacancies/111-4-условия-применимости.md)
 - [02-formal-workflow](02-formal-workflow.md)
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
 - [11-application-plan-current-docs](11-application-plan-current-docs.md)
 
+_Для поиска доступен._

@@ -97,6 +97,13 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_sentiment.py
+```
+
 ## Смотрите также
 - [STATS](STATS.md)
 - [HEALTH](HEALTH.md)

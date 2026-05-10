@@ -73,9 +73,17 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_glossary.py
+```
+
 ## Смотрите также
 - [MINDMAP](MINDMAP.md)
 - [GRAPH](GRAPH.md)
 - [NETWORK](NETWORK.md)
 - [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 
+_Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._

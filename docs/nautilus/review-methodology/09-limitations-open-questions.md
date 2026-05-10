@@ -81,6 +81,12 @@ Revert** для публичных-facing docs.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Ограничения и открытые вопросы"
+```
+
 ## Смотрите также
 - [115-8-ограничения-и-открытые-вопросы](../../02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
 - [10-checklist](10-checklist.md)

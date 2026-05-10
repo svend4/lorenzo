@@ -86,6 +86,13 @@ ROI: Type-safe legal automation, catches errors before human review
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 28 Pydantic Enforced Legal"
+```
+
 ## Смотрите также
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 - 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
@@ -102,3 +109,4 @@ ROI: Type-safe legal automation, catches errors before human review
 - [README](README.md)
 - [25-30-extended](../synthesis-tables/25-30-extended.md)
 
+_Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._

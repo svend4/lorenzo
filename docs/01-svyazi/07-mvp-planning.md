@@ -104,6 +104,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Планирование MVP"
+```
+
 ## Смотрите также
 - [09-architectural-gaps](09-architectural-gaps.md)
 - [11-integration-contracts](11-integration-contracts.md)

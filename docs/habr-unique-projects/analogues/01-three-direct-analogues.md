@@ -57,6 +57,12 @@ https://habr.com/ru/articles/1014366/
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Три прямых аналога Svyazi K2 18"
+```
+
 ## Смотрите также
 - [01-three-key-candidates](../../ai-collaborations/candidates/01-three-key-candidates.md)
 - [wikontic](../../05-habr-projects/knowledge/wikontic.md)

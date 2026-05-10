@@ -80,9 +80,17 @@ Anti-metrics (что НЕ optimize for):
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 7 Каковы success metrics"
+```
+
 ## Смотрите также
 - [05-q5-authority-limits](05-q5-authority-limits.md)
 - 03-q3-what-[lorenzo-does](03-q3-what-lorenzo-does.md)
 - [06-q6-accountability](06-q6-accountability.md)
 - 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

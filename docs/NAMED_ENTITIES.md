@@ -465,6 +465,13 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_named_entity_index.py
+```
+
 ## Смотрите также
 - [CONTENT_GAPS](CONTENT_GAPS.md)
 - [CLUSTERS](CLUSTERS.md)

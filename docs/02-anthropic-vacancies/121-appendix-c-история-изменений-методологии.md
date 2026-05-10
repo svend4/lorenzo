@@ -61,6 +61,13 @@ IMPLEMENTATION_STAGE_PART_*.md в апреле 2026.
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix C История изменений методологии"
+```
+
 ## Смотрите также
 - [102-доступ-к-данным](102-доступ-к-данным.md)
 - [118-appendix-a-шаблон-для-header-warning](118-appendix-a-шаблон-для-header-warning.md)

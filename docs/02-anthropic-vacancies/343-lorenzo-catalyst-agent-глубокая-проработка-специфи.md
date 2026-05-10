@@ -759,6 +759,17 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Lorenzo Catalyst Agent глубокая проработ"
+```
+
+```bash
+# BM25 поиск
+python scripts/improve_semantic_search.py --query "Lorenzo Catalyst Agent глубокая проработ" --mode bm25
+```
+
 ## Смотрите также
 - [ACTION_ITEMS](../ACTION_ITEMS.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)

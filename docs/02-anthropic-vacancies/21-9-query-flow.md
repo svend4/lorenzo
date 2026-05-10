@@ -76,6 +76,12 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Query Flow"
+```
+
 ## Смотрите также
 - [85-10-query-flow](85-10-query-flow.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)

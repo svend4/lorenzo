@@ -511,6 +511,18 @@ Option F: Pause exploration — это substantial concept, нужно time to d
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Очень интересный "
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Очень интересный " --mode bm25
+```
+
 ## Смотрите также
 - [00-question-scenario](00-question-scenario.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)

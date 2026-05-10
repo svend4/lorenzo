@@ -91,6 +91,12 @@ service organizations, civil society, and policymakers.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
 ## Смотрите также
 - [210-abstract](210-abstract.md)
 - [223-12-closing](223-12-closing.md)

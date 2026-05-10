@@ -80,9 +80,17 @@ ROI: Write once, deploy everywhere
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 29 Meta Programmatic Legal"
+```
+
 ## Смотрите также
 - [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
 - [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
 - [25-30-extended](../synthesis-tables/25-30-extended.md)
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

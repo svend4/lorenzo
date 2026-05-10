@@ -67,6 +67,13 @@ Skills сохраняются в корпоративный граф знани�
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 5 SourceCraft CLI Claude"
+```
+
 ## Смотрите также
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
 - [09-agent-orchestration-stack](09-agent-orchestration-stack.md)
@@ -83,3 +90,4 @@ Skills сохраняются в корпоративный граф знани�
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._

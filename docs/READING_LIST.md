@@ -77,6 +77,13 @@ _Обновлено: 2026-04-29_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_reading_list.py
+```
+
 ## Смотрите также
 - [evidence-envelope](svyazi-2-0/architecture/evidence-envelope.md)
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)

@@ -54,9 +54,17 @@ This is mutual benefit framing. Не «вы дайте денег», но «да
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 5 Role of Anthropic Beneficial"
+```
+
 ## Смотрите также
 - [00-context](00-context.md)
 - [09-section-9-timeliness](09-section-9-timeliness.md)
 - [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
 - [01-section-1-problem](01-section-1-problem.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._

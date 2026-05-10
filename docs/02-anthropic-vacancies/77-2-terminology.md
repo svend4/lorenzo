@@ -112,6 +112,12 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Terminology"
+```
+
 ## Смотрите также
 - [07-2-terminology](07-2-terminology.md)
 - [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)

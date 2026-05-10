@@ -190,6 +190,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Компоненты алфавитный список с"
+```
+
 ## Смотрите также
 - [authors-by-name](authors-by-name.md)
 - [concepts](concepts.md)

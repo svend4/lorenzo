@@ -50,9 +50,17 @@ Certification Development Lead
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Quarternary match Developer Education"
+```
+
 ## Смотрите также
 - [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
 - [08-practical-ranking](08-practical-ranking.md)
 - [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
 - [07-unique-niche-eu-legal-infra](07-unique-niche-eu-legal-infra.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

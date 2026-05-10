@@ -136,6 +136,12 @@ indefinitely; "graduation" may not be the right metaphor.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Open Questions"
+```
+
 ## Смотрите также
 - [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)

@@ -64,6 +64,13 @@ ROI: 10 sec queries vs 2 hour manual search
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 10 Legal Document"
+```
+
 ## Смотрите также
 - [04-sozialrecht-domain](../../03-technology-combinations/04-sozialrecht-domain.md)
 - 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
@@ -81,3 +88,4 @@ ROI: 10 sec queries vs 2 hour manual search
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._

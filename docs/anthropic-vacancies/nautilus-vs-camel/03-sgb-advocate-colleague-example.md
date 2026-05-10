@@ -84,6 +84,13 @@ MCP interoperability
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Конкретный пример SGB Advocate"
+```
+
 ## Смотрите также
 - [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)

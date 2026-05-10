@@ -114,6 +114,12 @@ they shape technical decisions.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```
+
 ## Смотрите также
 - [264-11-open-questions](264-11-open-questions.md)
 - [179-10-open-questions](179-10-open-questions.md)

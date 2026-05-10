@@ -81,6 +81,12 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Реализация в проекте Nautilus"
+```
+
 ## Смотрите также
 - [114-7-реализация-в-проекте-nautilus](../../02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
 - [02-formal-workflow](02-formal-workflow.md)

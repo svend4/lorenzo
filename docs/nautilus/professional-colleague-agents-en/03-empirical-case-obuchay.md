@@ -180,6 +180,12 @@ unchanged remains to be measured.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Empirical Case Study Обучай"
+```
+
 ## Смотрите также
 - [214-3-empirical-case-study-обучай](../../02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
 - [02-what-makes-pca](02-what-makes-pca.md)

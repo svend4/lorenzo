@@ -150,6 +150,12 @@ qualified individuals regardless of traditional constraints.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Phased Rollout Plan"
+```
+
 ## Смотрите также
 - [161-7-phased-rollout-plan](../../02-anthropic-vacancies/161-7-phased-rollout-plan.md)
 - [05-economic-model](05-economic-model.md)

@@ -52,6 +52,12 @@ Claude hat geantwortet: Правильно разграничиваете — э
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос два Наутилуса в репозиториях"
+```
+
 ## Смотрите также
 - [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)
 - [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md)

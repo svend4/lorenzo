@@ -119,3 +119,9 @@
 - `contact-outreach.md` ↔ `nlaik.md` (0.600)
 - `contact-outreach.md` ↔ `sonia-black.md` (0.579)
 - `contact-outreach.md` ↔ `vladspace.md` (0.574)
+
+## Использование
+
+```bash
+python scripts/improve_similar.py
+```

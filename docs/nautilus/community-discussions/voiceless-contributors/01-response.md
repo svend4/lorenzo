@@ -268,6 +268,18 @@ Risk Analysis: добавить risks identified выше
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это сильное продо"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это сильное продо" --mode bm25
+```
+
 ## Смотрите также
 - [00-question-voiceless](00-question-voiceless.md)
 - [165-closing](../../../02-anthropic-vacancies/165-closing.md)

@@ -179,6 +179,12 @@ across both journals and individual researchers.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 The Sub Agent Registry"
+```
+
 ## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)

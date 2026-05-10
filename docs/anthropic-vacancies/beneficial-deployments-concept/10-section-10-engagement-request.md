@@ -70,9 +70,17 @@ Potential outcomes
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 10 Engagement request"
+```
+
 ## Смотрите также
 - [11-not-and-format](11-not-and-format.md)
 - [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
 - [06-section-6-proposer-role](06-section-6-proposer-role.md)
 - [00-context](00-context.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._

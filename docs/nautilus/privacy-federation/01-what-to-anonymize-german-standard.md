@@ -74,6 +74,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что именно анонимизировать немецкий"
+```
+
 ## Смотрите также
 - [00-question-anonymization](00-question-anonymization.md)
 - [07-difference-2-domain-specialization](../../anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)

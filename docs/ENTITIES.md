@@ -166,6 +166,13 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_entities.py
+```
+
 ## Смотрите также
 - [NETWORK](NETWORK.md)
 - [GLOSSARY](GLOSSARY.md)

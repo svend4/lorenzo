@@ -59,6 +59,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Обзор 436 открытых ролей Anthropic"
+```
+
 ## Смотрите также
 - [12-technical-program-management](clusters/12-technical-program-management.md)
 - [13-communications](clusters/13-communications.md)

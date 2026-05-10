@@ -94,6 +94,12 @@ Each session maybe 2-3 hours. Total time investment: 20-30 hours of yours, simil
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что concept document NOT это не grant"
+```
+
 ## Смотрите также
 - [10-section-10-engagement-request](10-section-10-engagement-request.md)
 - [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)

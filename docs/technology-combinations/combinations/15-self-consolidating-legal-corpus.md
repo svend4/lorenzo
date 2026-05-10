@@ -75,6 +75,13 @@ ROI: Self-maintaining corpus, stale precedents auto-archive
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 15 Self Consolidating Legal"
+```
+
 ## Смотрите также
 - [17-distributed-agent-memory-with-graph](17-distributed-agent-memory-with-graph.md)
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
@@ -91,3 +98,4 @@ ROI: Self-maintaining corpus, stale precedents auto-archive
 - [README](README.md)
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 
+_Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

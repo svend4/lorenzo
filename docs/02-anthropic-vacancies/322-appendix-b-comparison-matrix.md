@@ -69,6 +69,12 @@ local control, free substrate plus Cowork subscription.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Comparison Matrix"
+```
+
 ## Смотрите также
 - [308-table-of-contents](308-table-of-contents.md)
 - [321-appendix-a-decision-tree-for-[ingit](306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)

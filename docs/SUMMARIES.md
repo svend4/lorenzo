@@ -401,6 +401,19 @@ _Executive Summary_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_textrank.py
+```
+
+```bash
+# Применить резюме прямо в файлы + только раздел habr-projects
+python scripts/improve_textrank.py --apply --section 05-habr-projects
+python scripts/improve_textrank.py --sentences 5  # 5 предложений вместо 3
+```
+
 ## Смотрите также
 - [DECISIONS](DECISIONS.md)
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)

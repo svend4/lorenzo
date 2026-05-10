@@ -59,6 +59,12 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "16 MCP Extension Informative"
+```
+
 ## Смотрите также
 - [128-доступные-инструменты](128-доступные-инструменты.md)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)

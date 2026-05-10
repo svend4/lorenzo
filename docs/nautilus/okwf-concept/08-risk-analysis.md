@@ -169,6 +169,12 @@ within acceptable range for mission-driven foundation launch.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Risk Analysis"
+```
+
 ## Смотрите также
 - [162-8-risk-analysis](../../02-anthropic-vacancies/162-8-risk-analysis.md)
 - [07-phased-rollout](07-phased-rollout.md)

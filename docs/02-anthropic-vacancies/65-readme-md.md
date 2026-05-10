@@ -55,6 +55,13 @@ markdown
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "README md"
+```
+
 ## Смотрите также
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
@@ -110,3 +117,4 @@ markdown
 - [70-зачем-две-версии-параллельно](70-зачем-две-версии-параллельно.md)
 - _...ещё 1_
 
+_Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._

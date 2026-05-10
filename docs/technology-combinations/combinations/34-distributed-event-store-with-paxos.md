@@ -75,6 +75,13 @@ ROI: Legal documents never lost, even with datacenter failure
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 34 Distributed Event Store"
+```
+
 ## Смотрите также
 - [32-consensus-based-multi-agent-coordination](32-consensus-based-multi-agent-coordination.md)
 - [31-35-final](../synthesis-tables/31-35-final.md)
@@ -91,3 +98,4 @@ ROI: Legal documents never lost, even with datacenter failure
 - [README](README.md)
 - [31-35-final](../synthesis-tables/31-35-final.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._

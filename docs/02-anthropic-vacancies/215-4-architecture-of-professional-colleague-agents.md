@@ -200,6 +200,12 @@ workflow.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Architecture of Professional"
+```
+
 ## Смотрите также
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)

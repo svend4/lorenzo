@@ -66,6 +66,13 @@ ROI: Real-time collaboration without conflict UI
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 11 Hybrid CRDT SQL Database"
+```
+
 ## Смотрите также
 - [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
@@ -82,3 +89,4 @@ ROI: Real-time collaboration without conflict UI
 - [README](README.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

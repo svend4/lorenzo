@@ -100,6 +100,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Этическая рамка"
+```
+
 ## Смотрите также
 - [196-6-этическая-рамка](../../02-anthropic-vacancies/196-6-этическая-рамка.md)
 - [10-otkrytye-voprosy](10-otkrytye-voprosy.md)

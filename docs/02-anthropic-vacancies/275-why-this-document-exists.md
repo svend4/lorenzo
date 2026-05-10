@@ -89,6 +89,12 @@ This document explores that observation.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Document Exists"
+```
+
 ## Смотрите также
 - [286-acknowledgments](286-acknowledgments.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)

@@ -56,9 +56,17 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_see_also.py
+```
+
 ## Смотрите также
 - [SEARCH](SEARCH.md)
 - [READING_ORDER](READING_ORDER.md)
 - [CLUSTERS](CLUSTERS.md)
 - [README](02-anthropic-vacancies/README.md)
 
+_Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._

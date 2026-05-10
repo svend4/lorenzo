@@ -3469,3 +3469,60 @@ _Обновлено: 2026-05-10_
 - [SEARCH](SEARCH.md)
 - [READABILITY](READABILITY.md)
 
+## Использование
+
+```bash
+python scripts/improve_empty_sections.py
+```
+
+```bash
+# Только раздел habr-projects
+python scripts/improve_empty_sections.py --section 05-habr-projects
+```
+
+```bash
+# Заполнить пустые секции плейсхолдерами
+python scripts/improve_empty_sections.py --fill
+```
+
+```bash
+# Заполнить только в разделе svyazi
+python scripts/improve_empty_sections.py --fill --section 01-svyazi
+```
+
+```bash
+# Показать только совсем пустые файлы
+python scripts/improve_empty_sections.py --empty-files
+```
+
+```bash
+# Минимальное количество слов в секции
+python scripts/improve_empty_sections.py --min-words 20
+```
+
+```bash
+# Детальный вывод
+python scripts/improve_empty_sections.py --verbose
+```
+
+```bash
+# Экспорт результатов в JSON
+python scripts/improve_empty_sections.py --json
+```
+
+```bash
+# После заполнения — обновить метрики
+python scripts/improve_empty_sections.py --fill && python scripts/improve_metrics.py
+```
+
+```bash
+# Проверить все секции во всех разделах
+python scripts/improve_empty_sections.py --all-sections
+```
+
+
+## Смотрите также
+
+- [HEALTH](HEALTH.md) — общее здоровье репозитория
+- [METRICS](METRICS.md) — метрики качества документов
+- [BROKEN_LINKS](BROKEN_LINKS.md) — проверка ссылок

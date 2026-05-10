@@ -1001,6 +1001,32 @@ _`docs/templates/` — 23 файлов_
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_sitemap.py
+```
+
+```bash
+# Только навигационная карта раздела
+python scripts/improve_sitemap.py --section 05-habr-projects
+```
+
+```bash
+# Формат с включением файлов-заготовок
+python scripts/improve_sitemap.py --include-stubs
+```
+
+```bash
+# Обновить и проверить сразу
+python scripts/improve_sitemap.py && python scripts/improve_broken_links.py
+```
+
+```bash
+# Подробный вывод путей
+python scripts/improve_sitemap.py --verbose
+```
+
 ## Смотрите также
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)

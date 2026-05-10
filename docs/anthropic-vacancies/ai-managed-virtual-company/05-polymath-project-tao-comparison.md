@@ -86,6 +86,12 @@ Claude hat geantwortet: Переписанная версия вашего во�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сравнение с Terence Tao Polymath Project"
+```
+
 ## Смотрите также
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 - [00-question-rephrasing](00-question-rephrasing.md)

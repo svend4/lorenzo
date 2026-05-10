@@ -42,3 +42,11 @@
 - [33-event-sourcing-cqrs-clickhouse-analytics.md](33-event-sourcing-cqrs-clickhouse-analytics.md) — <!-- summary -->
 - [34-distributed-event-store-with-paxos.md](34-distributed-event-store-with-paxos.md) — <!-- summary -->
 - [35-mega-stack-4-0-with-event-sourcing-consensus.md](35-mega-stack-4-0-with-event-sourcing-consensus.md) — > [!TIP]
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "combinations" --section combinations
+```
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.

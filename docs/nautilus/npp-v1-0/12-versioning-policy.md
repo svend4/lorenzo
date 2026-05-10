@@ -61,9 +61,17 @@ implementation MUST поддерживать **минимум текущую maj
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Versioning Policy"
+```
+
 ## Смотрите также
 - [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md)
 - [17-versioning-policy](../npp-v1-1/17-versioning-policy.md)
 - [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md)
 - [17-appendix-b-change-log](17-appendix-b-change-log.md)
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._

@@ -74,6 +74,12 @@ Termux support (что особенно релевантно для вас, уч
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что такое Hermes Agent Nous Research"
+```
+
 ## Смотрите также
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 - [11-pluses-of-hermes](11-pluses-of-hermes.md)

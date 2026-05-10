@@ -62,6 +62,12 @@ Du hast gesagt: Да
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комментарий дизайн решения NPP v1 0"
+```
+
 ## Смотрите также
 - [34-appendix-b-change-log](../../02-anthropic-vacancies/34-appendix-b-change-log.md)
 - [03-registry](../npp-v1-1/03-registry.md)

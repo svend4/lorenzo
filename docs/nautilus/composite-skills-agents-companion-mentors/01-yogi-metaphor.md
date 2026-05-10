@@ -78,6 +78,12 @@ Claude hat geantwortet: Это очень тонкое и важное набл�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это очень тонкое"
+```
+
 ## Смотрите также
 - [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
 - [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)

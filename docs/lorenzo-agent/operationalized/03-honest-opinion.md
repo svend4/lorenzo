@@ -56,9 +56,17 @@ Cannot substitute для domain expertise — Lorenzo нужны humans для a
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Моё честное мнение что реально и что НЕ"
+```
+
 ## Смотрите также
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [08-section-8-risks-mitigations](../../anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
 - [03-section-3-solution-architecture](../../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
 - [09-voobshche-nelzya](../09-voobshche-nelzya.md)
 
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документ индексирован в базе знаний репозитория.

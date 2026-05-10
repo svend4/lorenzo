@@ -57,6 +57,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Domain Comparison Matrix"
+```
+
 ## Смотрите также
 - [102-доступ-к-данным](102-доступ-к-данным.md)
 - [118-appendix-a-шаблон-для-header-warning](118-appendix-a-шаблон-для-header-warning.md)

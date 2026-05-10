@@ -113,6 +113,12 @@ Portal возвращает static entries.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
+```
+
 ## Смотрите также
 - [17-5-compatibility-levels](17-5-compatibility-levels.md)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)

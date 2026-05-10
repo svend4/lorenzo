@@ -380,3 +380,14 @@
 - [102-доступ-к-данным](102-доступ-к-данным.md)
 - _...ещё 202_
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вакансии Anthropic Анализ по кластерам"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Вакансии Anthropic Анализ по кластерам" --mode bm25
+```

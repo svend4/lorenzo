@@ -225,6 +225,18 @@ _Извлечено: **2845** числовых показателей из до�
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_kpi.py
+```
+
+```bash
+# Обновить KPI и сформировать Go/No-Go оценку
+python scripts/improve_kpi.py && python scripts/improve_scoring.py
+```
+
 ## Смотрите также
 - [TIMELINE](TIMELINE.md)
 - [TABLES](TABLES.md)

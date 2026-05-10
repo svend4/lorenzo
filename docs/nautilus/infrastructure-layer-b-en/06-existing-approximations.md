@@ -118,6 +118,12 @@ problem.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Existing Approximations"
+```
+
 ## Смотрите также
 - [279-existing-approximations](../../02-anthropic-vacancies/279-existing-approximations.md)
 - [03-two-layer-stack](03-two-layer-stack.md)

@@ -415,6 +415,18 @@ ADR обосновывающие ключевые архитектурные р�
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это стратегически"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это стратегически" --mode bm25
+```
+
 ## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [01-response](../innovation-transitions/01-response.md)

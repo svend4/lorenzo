@@ -92,6 +92,12 @@ Appendix A с minimal working example — это критично. Внешни�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Change Log"
+```
+
 ## Смотрите также
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)

@@ -40,6 +40,13 @@
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Раковина наутилуса как scale invariance"
+```
+
 ## Смотрите также
 - [00-question-two-nautiluses](00-question-two-nautiluses.md)
 - [15-glossary](../../nautilus/npp-v1-0/15-glossary.md)

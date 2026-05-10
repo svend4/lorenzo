@@ -70,6 +70,12 @@ contributed structure and reference work.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
 ## Смотрите также
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - [319-acknowledgments](319-acknowledgments.md)

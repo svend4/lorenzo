@@ -83,3 +83,9 @@ NPP **не** пытается:
 применяется трактовка из RFC 2119.
 
 ---
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Introduction Motivation Design Goals"
+```

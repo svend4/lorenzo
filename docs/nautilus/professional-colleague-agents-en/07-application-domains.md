@@ -199,6 +199,12 @@ application drafting.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Application Domains"
+```
+
 ## Смотрите также
 - [218-7-application-domains](../../02-anthropic-vacancies/218-7-application-domains.md)
 - [08-seven-domains](../composite-skills-agents/08-seven-domains.md)

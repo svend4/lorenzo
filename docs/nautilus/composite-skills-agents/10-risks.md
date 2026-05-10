@@ -167,6 +167,12 @@ with collective improvement
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Risks Specific to Composite"
+```
+
 ## Смотрите также
 - [263-10-risks-specific-to-composite-architectures](../../02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
 - [09-okwf-integration](09-okwf-integration.md)

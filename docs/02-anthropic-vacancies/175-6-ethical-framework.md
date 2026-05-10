@@ -143,6 +143,12 @@ tech-sophisticated principals fails its core mission.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Ethical Framework"
+```
+
 ## Смотрите также
 - [176-7-governance-and-oversight](176-7-governance-and-oversight.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)

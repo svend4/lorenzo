@@ -88,6 +88,12 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Consensus Algorithm v1 0 string"
+```
+
 ## Смотрите также
 - [20-8-consensus-algorithm](../../02-anthropic-vacancies/20-8-consensus-algorithm.md)
 - [09-consensus-algorithm](../npp-v1-1/09-consensus-algorithm.md)

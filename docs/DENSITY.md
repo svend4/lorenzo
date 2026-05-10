@@ -98,6 +98,13 @@ _Все темы достаточно раскрыты_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_density.py
+```
+
 ## Смотрите также
 - [HEATMAP](HEATMAP.md)
 - [SCHEDULE](SCHEDULE.md)

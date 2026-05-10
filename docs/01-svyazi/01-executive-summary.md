@@ -116,3 +116,9 @@
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Svyazi svyazi 2 0 Исполнительное резюме"
+```

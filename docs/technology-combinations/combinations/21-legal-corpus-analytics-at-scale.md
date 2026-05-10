@@ -93,6 +93,13 @@ ROI: Data-driven legal strategy, precedent patterns visible
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 21 Legal Corpus Analytics at"
+```
+
 ## Смотрите также
 - 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)

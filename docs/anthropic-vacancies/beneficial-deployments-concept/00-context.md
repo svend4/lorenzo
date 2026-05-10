@@ -64,6 +64,13 @@ What's the role of you (the proposer)? Specifically.
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Контекст что такое Anthropic Beneficial"
+```
+
 ## Смотрите также
 - [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
 - [10-section-10-engagement-request](10-section-10-engagement-request.md)

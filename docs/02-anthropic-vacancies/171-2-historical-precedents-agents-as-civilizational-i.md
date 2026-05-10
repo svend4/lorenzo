@@ -223,6 +223,12 @@ never had it**.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Historical Precedents Agents as"
+```
+
 ## Смотрите также
 - [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)

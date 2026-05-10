@@ -71,6 +71,13 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_missing.py
+```
+
 ## Смотрите также
 - [CONSISTENCY](CONSISTENCY.md)
 - [GLOSSARY](GLOSSARY.md)

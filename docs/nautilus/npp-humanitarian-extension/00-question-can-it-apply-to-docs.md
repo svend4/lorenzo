@@ -54,6 +54,12 @@ Q6 и консенсус-модель работают как есть, но с�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Вопрос такой вопрос и"
+```
+
 ## Смотрите также
 - [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
 - [00-question-anonymization](../privacy-federation/00-question-anonymization.md)

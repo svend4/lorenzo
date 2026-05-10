@@ -1976,6 +1976,28 @@ Thank you for the collaboration.
 
 ---
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хорошо"
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хорошо" --mode bm25
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хорошо" --mode semantic --top 10
+```
+
+```bash
+python scripts/improve_collab_finder.py --file docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хорошо" --mode full
+```
+
 ## Смотрите также
 - [12-closing](../../representative-agent-layer-en/12-closing.md)
 - [186-appendix-c-sample-use-cases-in-detail](../../../02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)

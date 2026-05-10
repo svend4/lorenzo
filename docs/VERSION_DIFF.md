@@ -614,6 +614,23 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_version_diff.py
+```
+
+```bash
+# Diff за последние 7 коммитов
+python scripts/improve_version_diff.py --last 7
+```
+
+```bash
+# Сравнить конкретные ревизии
+python scripts/improve_version_diff.py --from HEAD~5 --to HEAD
+```
+
 ## Смотрите также
 - [SEARCH](SEARCH.md)
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)

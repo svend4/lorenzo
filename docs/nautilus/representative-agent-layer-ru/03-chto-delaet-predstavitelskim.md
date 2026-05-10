@@ -102,6 +102,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Что делает агента Представительским"
+```
+
 ## Смотрите также
 - [193-3-что-делает-агента-представительским](../../02-anthropic-vacancies/193-3-что-делает-агента-представительским.md)
 - [05-arkhitekturnaya-spetsifikatsiya](05-arkhitekturnaya-spetsifikatsiya.md)

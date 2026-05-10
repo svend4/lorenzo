@@ -84,6 +84,12 @@ work.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Recursive Insight"
+```
+
 ## Смотрите также
 - [281-the-recursive-insight](../../02-anthropic-vacancies/281-the-recursive-insight.md)
 - [09-what-industry-will-build](09-what-industry-will-build.md)

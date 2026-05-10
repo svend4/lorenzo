@@ -126,6 +126,13 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_vocabulary_richness.py
+```
+
 ## Смотрите также
 - [WORD_CLOUD](WORD_CLOUD.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)

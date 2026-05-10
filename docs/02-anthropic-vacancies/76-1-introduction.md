@@ -113,6 +113,12 @@ NPP **не** пытается:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Introduction"
+```
+
 ## Смотрите также
 - [06-1-introduction](06-1-introduction.md)
 - [74-abstract](74-abstract.md)

@@ -97,6 +97,13 @@ _...ещё 381_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_orphans.py
+```
+
 ## Смотрите также
 - [SPELLCHECK](SPELLCHECK.md)
 - [COMPLEXITY](COMPLEXITY.md)

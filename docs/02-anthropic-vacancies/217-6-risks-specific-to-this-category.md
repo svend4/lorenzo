@@ -261,6 +261,12 @@ emerge.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Risks Specific to this Category"
+```
+
 ## Смотрите также
 - [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)

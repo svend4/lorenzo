@@ -97,6 +97,12 @@ Portal может переводить концепты между Repos чер�
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
+```
+
 ## Смотрите также
 - [80-5-compatibility-levels](80-5-compatibility-levels.md)
 - [41-compatibility-level](41-compatibility-level.md)

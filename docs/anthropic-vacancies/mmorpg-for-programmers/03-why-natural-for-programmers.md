@@ -84,6 +84,12 @@ daten1 ⭐1 («блокнот, игры») — ранняя попытка gamif
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Почему именно для программистов это"
+```
+
 ## Смотрите также
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 - [01-response](../../nautilus/innovation-transitions/01-response.md)

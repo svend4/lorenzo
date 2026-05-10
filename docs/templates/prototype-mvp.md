@@ -18,6 +18,8 @@ tags: [mvp, прототип]
 
 <!-- alert-added -->
 
+<!-- toc-auto -->
+
 
 <!-- summary: Что прототипируем и какая метрика успеха -->
 <!-- tags: mvp, прототип -->
@@ -123,6 +125,13 @@ _Создано: 2026-04-29_
 <!-- see-also -->
 
 ---
+
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template prototype-mvp --output docs/new-doc.md
+```
 
 ## Смотрите также
 - [ensemble](ensemble.md)

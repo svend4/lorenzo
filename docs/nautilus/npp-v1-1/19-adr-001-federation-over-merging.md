@@ -67,6 +67,13 @@ formal mapping
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "19 ADR 001 Federation over Merging"
+```
+
 ## Смотрите также
 - [14-adr-001-federation-over-merging](../npp-v1-0/14-adr-001-federation-over-merging.md)
 - [94-19-adr-001-federation-over-merging](../../02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)

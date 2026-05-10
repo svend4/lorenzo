@@ -83,6 +83,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
 ## Смотрите также
 - [147-references](../../02-anthropic-vacancies/147-references.md)
 - [11-dhlab-documents](../../lorenzo-agent/11-dhlab-documents.md)

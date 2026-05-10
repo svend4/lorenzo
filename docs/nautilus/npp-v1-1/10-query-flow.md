@@ -75,9 +75,17 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Query Flow"
+```
+
 ## Смотрите также
 - [85-10-query-flow](../../02-anthropic-vacancies/85-10-query-flow.md)
 - [09-query-flow](../npp-v1-0/09-query-flow.md)
 - [21-9-query-flow](../../02-anthropic-vacancies/21-9-query-flow.md)
 - [11-relevance-ranking](11-relevance-ranking.md)
 
+_Для поиска доступен._

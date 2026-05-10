@@ -148,6 +148,12 @@ Double-Triangle deployments.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Nautilus Portal as Reference Substrate"
+```
+
 ## Смотрите также
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)

@@ -47,6 +47,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Источник данных и инфраструктурные"
+```
+
 ## Смотрите также
 - 06-[svyazi-2-0-block-map](06-svyazi-2-0-block-map.md)
 - [04-dochkina-sequential](04-dochkina-sequential.md)

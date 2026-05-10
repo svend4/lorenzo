@@ -69,6 +69,13 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_passive_voice.py
+```
+
 ## Смотрите также
 - [15-appendix-c-history](nautilus/review-methodology/15-appendix-c-history.md)
 - [TAGS](TAGS.md)

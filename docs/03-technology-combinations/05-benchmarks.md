@@ -127,6 +127,12 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Бенчмарки и производительность"
+```
+
 ## Смотрите также
 - [02-knowledge-graphs](02-knowledge-graphs.md)
 - [03-local-first](03-local-first.md)

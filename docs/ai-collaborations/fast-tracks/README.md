@@ -1,5 +1,7 @@
 # Пять быстрых связок (fast-tracks)
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > Пять приоритетных комбинаций OSS-проектов: Collaboration Knowledge OS, Forensic Legal RAG, Agent Team Kernel, Secure Agent Runtime, Habr Scout — и их «внуковая» суперкомбинация.
 
@@ -49,6 +51,12 @@ ChatGPT сказал:
 <!-- see-also -->
 
 ---
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Пять быстрых связок fast tracks"
+```
 
 ## Смотрите также
 - [00-overview-grandchild-combination](../../lorenzo-agent/operationalized/00-overview-grandchild-combination.md)

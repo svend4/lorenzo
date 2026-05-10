@@ -243,6 +243,12 @@ emerge.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Risks Specific to this Category"
+```
+
 ## Смотрите также
 - [217-6-risks-specific-to-this-category](../../02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
 - [04-sub-agent-registry](../composite-skills-agents/04-sub-agent-registry.md)

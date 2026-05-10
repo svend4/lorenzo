@@ -93,6 +93,13 @@
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_stats.py
+```
+
 ## Смотрите также
 - [HEALTH](HEALTH.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)

@@ -198,6 +198,13 @@ _Обновлено: 2026-04-29_
 
 ---
 
+
+## Использование
+
+```bash
+python scripts/improve_keyword_index.py
+```
+
 ## Смотрите также
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [306-with-anthropic-s-cowork-platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)

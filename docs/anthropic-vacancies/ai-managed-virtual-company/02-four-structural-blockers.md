@@ -42,6 +42,12 @@
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Четыре структурные причины почему это"
+```
+
 ## Смотрите также
 - [08-pluses-of-model](08-pluses-of-model.md)
 - [07-current-implementations](07-current-implementations.md)
