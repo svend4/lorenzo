@@ -1,15 +1,11 @@
 # Q&A: 05-habr-projects
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Q&A: 05-habr-projects Contents - Как работает AgentFS^agentfs и что такое .agentos?(как-работает-agentfsagentfs-и-что-такое-agentos) - Что такое knowledge-space^knowledgespace и дл
-> 🔧 **Подход:** Упоминаются: архитектурный, шаблон, контакт Какие 5 архитектурных зазоров выделены в исследовании?
-> 🏷️ **Ключевые слова:** `такое`, `cardindex`, `какие`, `входит`, `упоминаются`, `agentfs`, `knowledge`, `space`
->
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
+<!-- alert-added -->
 
-<!-- toc-auto -->
+_Автоматически сгенерировано по 6 файлам раздела._
 ## Contents
 
 - [Как работает AgentFS[^agentfs] и что такое .agentos?](#как-работает-agentfsagentfs-и-что-такое-agentos)
