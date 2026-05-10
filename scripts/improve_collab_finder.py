@@ -192,9 +192,19 @@ def _graph_bonus(card: CardEnvelope, candidate_ids: set[str]) -> float:
     return min(bonus, 0.3)
 
 
+def _title_key(card: CardEnvelope) -> str:
+    """Нормализованный ключ заголовка для дедупликации."""
+    t = card.payload.get("title", "").lower()
+    return re.sub(r'[^а-яёa-z0-9]', '', t)[:60]
+
+
 def find_candidates(query_text: str, top: int = 5,
                     card_type: str = "project") -> list[dict]:
-    """Гибридный поиск: возвращает список dict с данными кандидатов."""
+    """Гибридный поиск: возвращает список dict с данными кандидатов.
+
+    Дедупликация: из нескольких карточек с одинаковым заголовком оставляем
+    только одну (приоритет — не obsidian/, не из дублирующих папок).
+    """
     if not CARDS.exists():
         return []
 
@@ -210,6 +220,35 @@ def find_candidates(query_text: str, top: int = 5,
     if not pool:
         return []
 
+    # Дедупликация по нормализованному заголовку
+    # Предпочитаем основной docs/ над obsidian/ и другими зеркалами
+    _MIRROR_PREFIXES = ("docs/obsidian/", "obsidian/")
+
+    def _is_mirror(card: CardEnvelope) -> bool:
+        p = card.payload.get("path", "")
+        return any(p.startswith(pfx) for pfx in _MIRROR_PREFIXES)
+
+    deduped: dict[str, CardEnvelope] = {}
+    for card in pool:
+        key = _title_key(card)
+        if not key:
+            key = card.card_id
+        existing = deduped.get(key)
+        if existing is None:
+            deduped[key] = card
+        else:
+            # Предпочитаем не-зеркало; среди равных — с большим числом рёбер
+            curr_mirror = _is_mirror(card)
+            ex_mirror   = _is_mirror(existing)
+            if ex_mirror and not curr_mirror:
+                deduped[key] = card
+            elif not ex_mirror and curr_mirror:
+                pass  # оставляем existing
+            elif len(card.edges) > len(existing.edges):
+                deduped[key] = card
+
+    pool = list(deduped.values())
+
     # Токены запроса
     q_tokens = [t for t in re.findall(r'[а-яёa-z]{3,}', query_text.lower())
                 if t not in _STOPWORDS]
@@ -224,7 +263,10 @@ def find_candidates(query_text: str, top: int = 5,
         q_vec = _tfidf_vec(q_tf, idx["idf"])
 
     # Avg doc length для BM25
-    avg_len = sum(len(re.findall(r'\S+', json.dumps(c.payload))) for c in pool) / max(len(pool), 1)
+    avg_len = max(
+        sum(len(re.findall(r'\S+', json.dumps(c.payload))) for c in pool) / len(pool),
+        1.0,
+    )
 
     # Оценка каждого кандидата
     scored = []
@@ -233,11 +275,8 @@ def find_candidates(query_text: str, top: int = 5,
         s_bm  = _bm25_score(q_tokens, card, avg_len=avg_len)
         scored.append((s_sem, s_bm, card))
 
-    if not scored:
-        return []
-
     # Нормализация BM25 к [0, 1]
-    max_bm = max(s for _, s, _ in scored) or 1.0
+    max_bm = max((s for _, s, _ in scored), default=1.0) or 1.0
     scored = [(s_sem, s_bm / max_bm, c) for s_sem, s_bm, c in scored]
 
     # Собираем топ-2N для граф-бонуса
@@ -492,6 +531,89 @@ def cmd_find(query: str, source_file: str = "", top: int = 5,
 
 
 # ─────────────────────────────────────────────────────────────────────
+# Извлечение запроса из файла
+# ─────────────────────────────────────────────────────────────────────
+
+def _extract_file_query(text: str, max_tokens: int = 120) -> str:
+    """Извлекает тематические токены из Markdown-файла для поиска.
+
+    Приоритет: H1-заголовок → теги → сводка/summary → первые параграфы.
+    Пропускает HTML-комментарии, блоки frontmatter, alert-блоки.
+    """
+    parts: list[str] = []
+
+    # Frontmatter YAML (между ---)
+    fm_match = re.match(r'^---\s*\n(.*?)\n---\s*\n', text, re.DOTALL)
+    fm_text = ""
+    if fm_match:
+        fm_text = fm_match.group(1)
+        # Извлекаем title/tags/summary из frontmatter
+        for field in ("title", "summary", "tags", "description"):
+            m = re.search(rf'^{field}:\s*(.+)$', fm_text, re.MULTILINE | re.IGNORECASE)
+            if m:
+                val = m.group(1).strip().strip('"').strip("'")
+                parts.append(val)
+
+    # H1 заголовок
+    h1 = re.search(r'^#\s+(.+)$', text, re.MULTILINE)
+    if h1:
+        parts.insert(0, h1.group(1).strip())
+
+    # Теги из <!-- tags: ... -->
+    tags_match = re.search(r'<!--\s*tags:\s*([^>]+)-->', text)
+    if tags_match:
+        parts.append(tags_match.group(1).strip())
+
+    # Строки summary-блоков (> ...)
+    summary_lines = re.findall(r'^>\s+(.+)$', text, re.MULTILINE)
+    for sl in summary_lines[:3]:
+        # Пропускаем meta-строки (Версия:, Дата:, [!TIP] и т.п.)
+        if re.search(r'Версия:|Дата:|Статус:|\[!', sl):
+            continue
+        parts.append(sl.strip())
+
+    # Обычные параграфы (не заголовки, не цитаты, не комментарии, не код)
+    body_lines = []
+    in_code = False
+    for line in text.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_code = not in_code
+            continue
+        if in_code:
+            continue
+        if not stripped:
+            continue
+        if stripped.startswith(("#", ">", "<!--", "|", "-", "*", "+")):
+            continue
+        if re.match(r'^\d+\.', stripped):
+            continue
+        body_lines.append(stripped)
+        if len(body_lines) >= 20:
+            break
+
+    if body_lines:
+        parts.append(" ".join(body_lines))
+
+    combined = " ".join(parts)
+    # Оставляем только значимые слова (токенизация)
+    tokens = re.findall(r'[а-яёa-z]{4,}', combined.lower())
+    # Убираем очевидный мусор (однобуквенные и технические термины)
+    tokens = [t for t in tokens if t not in _STOPWORDS]
+    # Ограничиваем длину и убираем дубли (сохраняя порядок)
+    seen: set[str] = set()
+    result: list[str] = []
+    for t in tokens:
+        if t not in seen:
+            seen.add(t)
+            result.append(t)
+        if len(result) >= max_tokens:
+            break
+
+    return " ".join(result) if result else combined[:500]
+
+
+# ─────────────────────────────────────────────────────────────────────
 # main
 # ─────────────────────────────────────────────────────────────────────
 
@@ -527,11 +649,10 @@ def main() -> None:
             print(f"  ❌ Файл не найден: {args.file}")
             sys.exit(1)
         text = fp.read_text(encoding="utf-8")
-        # Берём заголовок + первые 600 слов
-        lines = [l for l in text.splitlines() if l.strip() and not l.startswith("<!--")]
-        query = " ".join(lines[:30])[:800]
         source_file = str(fp.relative_to(ROOT)) if fp.is_relative_to(ROOT) else args.file
-        print(f"  Файл: {source_file} ({len(text.split())} слов → используем первые ~600)")
+        # Извлекаем заголовок и тематическое содержимое (без мета-разметки)
+        query = _extract_file_query(text)
+        print(f"  Файл: {source_file} ({len(text.split())} слов → запрос: {len(query.split())} токенов)")
     else:
         parser.print_help()
         sys.exit(0)

@@ -66,16 +66,17 @@ def tokenize(text: str) -> list[str]:
 
 
 def card_text(card: CardEnvelope) -> str:
-    """Объединяет все текстовые поля карточки в одну строку для индексации."""
+    """Объединяет текстовые поля карточки; title весит вдвое больше."""
     p = card.payload
+    title = p.get("title", "")
     parts = [
-        p.get("title", ""),
+        title,        # первый раз — обычный вес
+        title,        # второй раз — удвоение веса заголовка
         p.get("summary", ""),
         " ".join(p.get("tags", [])),
         " ".join(p.get("projects", [])),
         card.card_type,
     ]
-    # Добавляем имена рёбер
     for e in card.edges[:5]:
         parts.append(e.to.replace("/", " ").replace("-", " ").replace("_", " "))
     return " ".join(parts)
@@ -172,9 +173,15 @@ def cmd_index() -> None:
         all_tokens.append(tokens)
         card_ids.append(card.card_id)
 
-    # Словарь
-    vocab = set(t for tokens in all_tokens for t in tokens)
-    print(f"  Словарь: {len(vocab)} токенов")
+    # Словарь с фильтром по минимальной частоте документов (df >= 2)
+    # исключает уникальные шумовые токены (brightgreen, toc, uuid-хэши и т.п.)
+    df_counts: dict[str, int] = Counter()
+    for tokens in all_tokens:
+        for t in set(tokens):
+            df_counts[t] += 1
+    min_df = 2
+    vocab = {t for t, df in df_counts.items() if df >= min_df}
+    print(f"  Словарь: {len(vocab)} токенов (min_df={min_df}, отфильтровано {len(df_counts)-len(vocab)})")
 
     # IDF
     idf = compute_idf(all_tokens, vocab)

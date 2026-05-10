@@ -37,11 +37,13 @@ docs/
   benchmark.json       — история замеров скриптов
 
 scripts/
-  improve_*.py           — 157 скриптов обработки документов (21 группа)
+  improve_*.py           — 159 скриптов обработки документов (21 группа)
   utils_chunker.py       — утилиты чанкинга для больших текстов
   mcp_server.py          — MCP-сервер с 11 инструментами (+ bm25_search, run_recipe, list_recipes)
-  improve_recipe.py      — система рецептов: 20 именованных цепочек скриптов (--list/--find/--run)
+  improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
   improve_run_all.py     — оркестратор (--smart, --fast, --group, --changed, --parallel)
+  improve_embedding_index.py — TF-IDF семантический индекс над CardStore (pure Python, min_df=2)
+  improve_collab_finder.py   — Collaboration Finder: гибридный BM25+TF-IDF+граф поиск партнёрских проектов
   improve_autofill.py    — заполняет шаблоны из данных других скриптов
   improve_contact_status.py — CLI для обновления статуса контактов
   improve_llm_enrich.py  — Stage 3: LLM-обогащение проектных файлов
@@ -296,7 +298,32 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 
 1. **Написать авторам** — файлы готовы в `docs/contacts/`, нужно только отправить
 2. **LLM-обогащение** — `improve_llm_enrich.py` обогатит 21 файл за ~$0.011
-3. **Прототип** — начать с Yodoca + AgentFS + CardIndex (три слоя)
+3. **Прототип** — Итерации 0-1-3 ✅ ВЫПОЛНЕНО; Итерация 2 (Yodoca API) 🔄 в процессе
+
+## Статус прототипа (PROTOTYPE_SPEC.md)
+
+| Итерация | Статус | Ключевые артефакты |
+|----------|--------|--------------------|
+| 0 — Вертикальный срез | ✅ Готово | 1624 карточки, 2497 рёбер, MCP 11 инструментов |
+| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(2052 токена) + гибрид 0.6/0.4 |
+| 2 — Consolidation | 🔄 В процессе | CI daily, incremental build, orphan rate < 15% |
+| 3 — Collaboration Finder | ✅ Готово | improve_collab_finder.py, 3с < 10с, COLLAB_SUGGESTIONS.md |
+
+### Collaboration Finder (Итерация 3)
+```bash
+python scripts/improve_collab_finder.py --query "агент с памятью консолидация"
+python scripts/improve_collab_finder.py --file docs/PROTOTYPE_SPEC.md --top 7
+python scripts/improve_collab_finder.py --query "knowledge graph RAG" --dry-run
+```
+
+### CardStore и TF-IDF индекс
+```bash
+python scripts/improve_card_index.py --build --incremental   # инкрементальная сборка (< 3с)
+python scripts/improve_embedding_index.py --index            # TF-IDF индекс (2052 токена)
+python scripts/improve_embedding_index.py --query "агент"   # семантический поиск
+python scripts/improve_embedding_index.py --similar <card_id>  # похожие карточки
+python scripts/improve_embedding_index.py --stats           # статистика индекса
+```
 
 ## Архитектурный принцип Svyazi 2.0
 
