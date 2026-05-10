@@ -84,3 +84,18 @@
 - [0. Status of This Document](75-0-status-of-this-document.md) _29%_
 - [18. Reference Implementation](93-18-reference-implementation.md) _29%_
 - [Author & Contact](62-author-contact.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+- [63-history](docs/02-anthropic-vacancies/63-history.md)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
+- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

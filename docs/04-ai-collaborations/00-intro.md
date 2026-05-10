@@ -852,3 +852,14 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 [^firecrawl]: Инструмент: веб-краулер для AI (MIT)
 
 [^tf_idf]: Term Frequency–Inverse Document Frequency — метрика важности термина
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [README](docs/04-ai-collaborations/README.md)
+- [TABLES](docs/TABLES.md)
+

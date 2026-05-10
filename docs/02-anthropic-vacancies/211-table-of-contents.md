@@ -98,3 +98,19 @@
 - [Table of Contents](169-table-of-contents.md) _29%_
 - [3. What Makes a Representative Agent](172-3-what-makes-a-representative-agent.md) _29%_
 - [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- _...ещё 12_
+

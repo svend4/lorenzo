@@ -83,3 +83,13 @@ ROI: Data-driven legal strategy, precedent patterns visible
 - [22-russian-international-oss-stack](docs/technology-combinations/combinations/22-russian-international-oss-stack.md)
 - [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+

@@ -82,3 +82,19 @@ Last updated: 2026-04*
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
 - [Содержание](326-содержание.md) _29%_
 - [0. Status of This Document](05-0-status-of-this-document.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
+- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
+- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)
+- _...ещё 4_
+

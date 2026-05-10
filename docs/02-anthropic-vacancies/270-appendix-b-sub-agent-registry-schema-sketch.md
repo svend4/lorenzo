@@ -109,3 +109,14 @@ substantial refinement based on actual implementation experience.
 - [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
 - [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
+- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

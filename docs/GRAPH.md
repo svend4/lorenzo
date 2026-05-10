@@ -1,5 +1,15 @@
 # Граф связей проектов
 
+<!-- summary -->
+> Рёбра = совместные упоминания в одном файле (≥ 2 раз).
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, anthropic, self-improvement -->
+
+
+
+
 Рёбра = совместные упоминания в одном файле (≥ 2 раз).
 
 ```mermaid
@@ -11,7 +21,7 @@ graph TD
   end
   subgraph knowledge[KNOWLEDGE]
     AgentFS[AgentFS]
-    knowledge_space[knowledge-space]
+    knowledge-space[knowledge-space]
     Wikontic[Wikontic]
   end
   subgraph memory[MEMORY]
@@ -48,11 +58,11 @@ graph TD
   Svyazi -- 119 --> Rufler
   Svyazi -- 118 --> SENTINEL
   AgentFS -- 118 --> SENTINEL
-  Svyazi -- 116 --> knowledge_space
+  Svyazi -- 116 --> knowledge-space
   CardIndex -- 115 --> AgentFS
   AgentFS -- 114 --> Rufler
   Svyazi -- 114 --> NGT_Memory
-  AgentFS -- 112 --> knowledge_space
+  AgentFS -- 112 --> knowledge-space
   Svyazi -- 109 --> LiteParse
   Rufler -- 108 --> Yodoca
   CardIndex -- 105 --> Yodoca
@@ -62,31 +72,31 @@ graph TD
   Yodoca -- 103 --> NGT_Memory
   Yodoca -- 102 --> SENTINEL
   SENTINEL -- 102 --> Auto_AI_Router
-  knowledge_space -- 100 --> Yodoca
+  knowledge-space -- 100 --> Yodoca
   AgentFS -- 100 --> LiteParse
   AgentFS -- 99 --> NGT_Memory
   AgentFS -- 97 --> Auto_AI_Router
-  CardIndex -- 95 --> knowledge_space
+  CardIndex -- 95 --> knowledge-space
   Svyazi -- 94 --> AI_Factory
   AgentFS -- 94 --> mclaude
   mclaude -- 93 --> Yodoca
   CardIndex -- 91 --> Rufler
-  knowledge_space -- 91 --> LiteParse
+  knowledge-space -- 91 --> LiteParse
   Rufler -- 91 --> LiteParse
   LiteParse -- 90 --> Yodoca
-  knowledge_space -- 90 --> NGT_Memory
+  knowledge-space -- 90 --> NGT_Memory
   mclaude -- 90 --> Rufler
-  knowledge_space -- 89 --> Rufler
+  knowledge-space -- 89 --> Rufler
   mclaude -- 89 --> LiteParse
   AgentFS -- 88 --> AI_Factory
   AI_Factory -- 88 --> Yodoca
   LiteParse -- 88 --> SENTINEL
   CardIndex -- 87 --> SENTINEL
   Yodoca -- 87 --> Auto_AI_Router
-  knowledge_space -- 86 --> SENTINEL
+  knowledge-space -- 86 --> SENTINEL
   CardIndex -- 86 --> AI_Factory
   CardIndex -- 86 --> LiteParse
-  knowledge_space -- 85 --> mclaude
+  knowledge-space -- 85 --> mclaude
   Rufler -- 85 --> Auto_AI_Router
   CardIndex -- 84 --> mclaude
   mclaude -- 84 --> AI_Factory
@@ -105,7 +115,7 @@ graph TD
   Legal_RAG -- 78 --> SENTINEL
   Legal_RAG -- 78 --> Auto_AI_Router
   Graph_RAG -- 78 --> Auto_AI_Router
-  knowledge_space -- 77 --> Auto_AI_Router
+  knowledge-space -- 77 --> Auto_AI_Router
   Svyazi -- 76 --> MemNet
   AgentFS -- 76 --> Legal_RAG
   LiteParse -- 75 --> Legal_RAG
@@ -115,7 +125,7 @@ graph TD
   mclaude -- 73 --> Auto_AI_Router
   Legal_RAG -- 73 --> Graph_RAG
   CardIndex -- 72 --> Auto_AI_Router
-  knowledge_space -- 72 --> AI_Factory
+  knowledge-space -- 72 --> AI_Factory
   AI_Factory -- 71 --> SENTINEL
   Rufler -- 70 --> Legal_RAG
   Rufler -- 69 --> Graph_RAG
@@ -127,7 +137,7 @@ graph TD
   LiteParse -- 66 --> Graph_RAG
   Graph_RAG -- 66 --> Yodoca
   Legal_RAG -- 65 --> NGT_Memory
-  knowledge_space -- 64 --> Legal_RAG
+  knowledge-space -- 64 --> Legal_RAG
   Svyazi -- 63 --> Tool_Search
   mclaude -- 63 --> Legal_RAG
   AI_Factory -- 63 --> Auto_AI_Router
@@ -143,7 +153,7 @@ graph TD
   AgentFS -- 59 --> MemNet
   Yodoca -- 58 --> Tool_Search
   LiteParse -- 58 --> LiteLLM
-  knowledge_space -- 58 --> Graph_RAG
+  knowledge-space -- 58 --> Graph_RAG
   LiteParse -- 57 --> Tool_Search
   Svyazi -- 57 --> AutoResearch
   CardIndex -- 57 --> Legal_RAG
@@ -153,7 +163,7 @@ graph TD
   mclaude -- 55 --> Graph_RAG
   Yodoca -- 55 --> LiteLLM
   Svyazi -- 54 --> Wikontic
-  knowledge_space -- 54 --> MemNet
+  knowledge-space -- 54 --> MemNet
   MemNet -- 53 --> Auto_AI_Router
   Rufler -- 53 --> MemNet
   MemNet -- 53 --> SENTINEL
@@ -167,11 +177,11 @@ graph TD
   NGT_Memory -- 51 --> LiteLLM
   CardIndex -- 50 --> AutoResearch
   AgentFS -- 50 --> Hybrid_RAG
-  knowledge_space -- 50 --> Tool_Search
+  knowledge-space -- 50 --> Tool_Search
   mclaude -- 50 --> Tool_Search
   LiteParse -- 50 --> Hybrid_RAG
   Svyazi -- 49 --> Hybrid_RAG
-  knowledge_space -- 49 --> LiteLLM
+  knowledge-space -- 49 --> LiteLLM
   AI_Factory -- 49 --> Legal_RAG
   Rufler -- 49 --> LiteLLM
   LiteParse -- 49 --> AutoResearch
@@ -195,8 +205,8 @@ graph TD
   NGT_Memory -- 44 --> AutoResearch
   Graph_RAG -- 43 --> MemNet
   Auto_AI_Router -- 43 --> AutoResearch
-  knowledge_space -- 42 --> Hybrid_RAG
-  knowledge_space -- 42 --> AutoResearch
+  knowledge-space -- 42 --> Hybrid_RAG
+  knowledge-space -- 42 --> AutoResearch
   Rufler -- 42 --> Hybrid_RAG
   AI_Factory -- 41 --> Graph_RAG
   Hybrid_RAG -- 41 --> Tool_Search
@@ -209,13 +219,13 @@ graph TD
   CardIndex -- 39 --> Yjs
   AI_Factory -- 39 --> MemNet
   Hybrid_RAG -- 39 --> Graph_RAG
-  knowledge_space -- 38 --> Wikontic
+  knowledge-space -- 38 --> Wikontic
   Graph_RAG -- 38 --> Tool_Search
   Yodoca -- 37 --> Yjs
   AgentFS -- 36 --> Wikontic
   Tool_Search -- 36 --> AutoResearch
   AgentFS -- 35 --> Yjs
-  knowledge_space -- 35 --> Yjs
+  knowledge-space -- 35 --> Yjs
   LiteParse -- 35 --> Yjs
   NGT_Memory -- 35 --> Wikontic
   NGT_Memory -- 35 --> Yjs
@@ -233,7 +243,7 @@ graph TD
   Auto_AI_Router -- 31 --> Yjs
   MemNet -- 30 --> Tool_Search
   AgentFS -- 30 --> Automerge
-  knowledge_space -- 30 --> Automerge
+  knowledge-space -- 30 --> Automerge
   AI_Factory -- 30 --> Automerge
   Rufler -- 30 --> Wikontic
   Rufler -- 30 --> Automerge
@@ -262,7 +272,7 @@ graph TD
   mclaude -- 25 --> Wikontic
   Legal_RAG -- 25 --> Yjs
   Graph_RAG -- 25 --> Yjs
-  knowledge_space -- 24 --> Firecrawl
+  knowledge-space -- 24 --> Firecrawl
   AI_Factory -- 24 --> Wikontic
   Tool_Search -- 24 --> Yjs
   Tool_Search -- 24 --> Automerge
@@ -341,7 +351,7 @@ digraph lorenzo {
   subgraph cluster_knowledge {
     label="KNOWLEDGE";
     AgentFS [label="AgentFS"];
-    knowledge_space [label="knowledge-space"];
+    knowledge-space [label="knowledge-space"];
     Wikontic [label="Wikontic"];
   }
   subgraph cluster_memory {
@@ -393,25 +403,25 @@ digraph lorenzo {
   Yodoca -> SENTINEL [label="102"];
   Yodoca -> Tool_Search [label="58"];
   SENTINEL -> Tool_Search [label="66"];
-  Svyazi -> knowledge_space [label="116"];
+  Svyazi -> knowledge-space [label="116"];
   Svyazi -> Rufler [label="119"];
   Svyazi -> Firecrawl [label="28"];
-  CardIndex -> knowledge_space [label="95"];
+  CardIndex -> knowledge-space [label="95"];
   CardIndex -> Rufler [label="91"];
   CardIndex -> Firecrawl [label="28"];
-  AgentFS -> knowledge_space [label="112"];
+  AgentFS -> knowledge-space [label="112"];
   AgentFS -> Rufler [label="114"];
   AgentFS -> Firecrawl [label="26"];
-  knowledge_space -> Rufler [label="89"];
-  knowledge_space -> Yodoca [label="100"];
-  knowledge_space -> SENTINEL [label="86"];
-  knowledge_space -> Firecrawl [label="24"];
+  knowledge-space -> Rufler [label="89"];
+  knowledge-space -> Yodoca [label="100"];
+  knowledge-space -> SENTINEL [label="86"];
+  knowledge-space -> Firecrawl [label="24"];
   Rufler -> Yodoca [label="108"];
   Rufler -> SENTINEL [label="105"];
   Rufler -> Firecrawl [label="26"];
   Yodoca -> Firecrawl [label="28"];
   SENTINEL -> Firecrawl [label="26"];
-  knowledge_space -> LiteParse [label="91"];
+  knowledge-space -> LiteParse [label="91"];
   LiteParse -> Yodoca [label="90"];
   Svyazi -> LiteParse [label="109"];
   Svyazi -> MemNet [label="76"];
@@ -464,20 +474,20 @@ digraph lorenzo {
   AgentFS -> Wikontic [label="36"];
   AgentFS -> Yjs [label="35"];
   AgentFS -> Automerge [label="30"];
-  knowledge_space -> mclaude [label="85"];
-  knowledge_space -> AI_Factory [label="72"];
-  knowledge_space -> Legal_RAG [label="64"];
-  knowledge_space -> Hybrid_RAG [label="42"];
-  knowledge_space -> Graph_RAG [label="58"];
-  knowledge_space -> NGT_Memory [label="90"];
-  knowledge_space -> MemNet [label="54"];
-  knowledge_space -> LiteLLM [label="49"];
-  knowledge_space -> Auto_AI_Router [label="77"];
-  knowledge_space -> Tool_Search [label="50"];
-  knowledge_space -> AutoResearch [label="42"];
-  knowledge_space -> Wikontic [label="38"];
-  knowledge_space -> Yjs [label="35"];
-  knowledge_space -> Automerge [label="30"];
+  knowledge-space -> mclaude [label="85"];
+  knowledge-space -> AI_Factory [label="72"];
+  knowledge-space -> Legal_RAG [label="64"];
+  knowledge-space -> Hybrid_RAG [label="42"];
+  knowledge-space -> Graph_RAG [label="58"];
+  knowledge-space -> NGT_Memory [label="90"];
+  knowledge-space -> MemNet [label="54"];
+  knowledge-space -> LiteLLM [label="49"];
+  knowledge-space -> Auto_AI_Router [label="77"];
+  knowledge-space -> Tool_Search [label="50"];
+  knowledge-space -> AutoResearch [label="42"];
+  knowledge-space -> Wikontic [label="38"];
+  knowledge-space -> Yjs [label="35"];
+  knowledge-space -> Automerge [label="30"];
   mclaude -> AI_Factory [label="84"];
   mclaude -> Rufler [label="90"];
   mclaude -> LiteParse [label="89"];
@@ -631,3 +641,13 @@ digraph lorenzo {
   Yjs -> Automerge [label="32"];
 }
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

@@ -145,3 +145,16 @@ _Radar обновляется вручную при существенных и�
 - [Глоссарий понятий](CONCEPTS.md)
 - [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
 - [Карта репозитория Lorenzo](SITEMAP.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [RISK_REGISTER](docs/RISK_REGISTER.md)
+- [TABLES](docs/TABLES.md)
+- [tech-radar-entry](docs/templates/tech-radar-entry.md)
+

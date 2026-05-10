@@ -1,5 +1,15 @@
 # Индекс «Смотрите также»
 
+<!-- summary -->
+> **Файлов с блоком See Also:** 514
+**Проекты:** Svyazi, MemNet
+
+---
+<!-- tags: memory, rag, security, ingestion, local-first, architecture, roadmap, collaboration -->
+
+
+
+
 **Файлов с блоком See Also:** 514
 
 ## Ключевые связи
@@ -34,3 +44,14 @@
 - **104-appendix-c-references** → `122-глоссарий`, `34-appendix-b-change-log`, `69-section`, `64-for-the-curious-philosophy`
 - **105-review-methodology-md** → `28-appendix-a-minimal-working-example`, `125-readme-mcp-md-инструкция-по-установке`, `65-readme-md`, `123-portal-mcp-py`
 - **106-tl-dr** → `70-зачем-две-версии-параллельно`, `71-критерии-выбора-для-фазы-3`, `28-appendix-a-minimal-working-example`, `57-native-format`
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [70-зачем-две-версии-параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

@@ -141,3 +141,14 @@ supply-chain риск.
 - [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md) _29%_
 - [9. Query Flow](21-9-query-flow.md) _17%_
 - [10. Query Flow](85-10-query-flow.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

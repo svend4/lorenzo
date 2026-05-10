@@ -27,3 +27,13 @@
 - [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
 - [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+

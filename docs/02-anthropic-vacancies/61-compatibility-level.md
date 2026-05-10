@@ -79,3 +79,17 @@
 - [5. Compatibility Levels](17-5-compatibility-levels.md) _21%_
 - [Bridges](50-bridges.md) _21%_
 - [2. Terminology](07-2-terminology.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

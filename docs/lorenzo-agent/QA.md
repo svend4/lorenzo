@@ -1,5 +1,15 @@
 # Q&A: lorenzo-agent
 
+<!-- summary -->
+> _Автоматически сгенерировано по 55 файлам раздела._
+**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, NGT Memory
+
+---
+<!-- tags: memory, rag, knowledge, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 _Автоматически сгенерировано по 55 файлам раздела._
 
 ## Какие кластеры найма выделены у Anthropic?

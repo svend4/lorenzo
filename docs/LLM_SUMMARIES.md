@@ -90,3 +90,13 @@ _Без ключа — автоматическое резюме на основ
 - [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
 - [Карта репозитория Lorenzo](SITEMAP.md)
 - [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

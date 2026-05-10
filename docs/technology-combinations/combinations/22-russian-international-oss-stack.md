@@ -67,3 +67,13 @@ ROI: Performance + community support, no vendor lock-in
 - [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
 - [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+

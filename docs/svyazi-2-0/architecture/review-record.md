@@ -32,3 +32,13 @@
 - [evidence-envelope](docs/svyazi-2-0/architecture/evidence-envelope.md)
 - [memory-write-policy](docs/svyazi-2-0/architecture/memory-write-policy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [concepts](docs/glossary/concepts.md)
+- [README](docs/svyazi-2-0/architecture/README.md)
+- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
+

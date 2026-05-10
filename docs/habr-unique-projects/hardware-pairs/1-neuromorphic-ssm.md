@@ -36,3 +36,13 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 - [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
 - [01-yodoca](docs/habr-unique-projects/key-findings/01-yodoca.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+- [README](docs/habr-unique-projects/hardware-pairs/README.md)
+

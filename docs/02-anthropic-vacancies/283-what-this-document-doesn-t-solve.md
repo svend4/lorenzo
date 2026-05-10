@@ -88,3 +88,19 @@ document provides framing. It does not provide answers.
 - [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _25%_
 - [What's Missing — Layer B](277-what-s-missing-layer-b.md) _21%_
 - [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- _...ещё 4_
+

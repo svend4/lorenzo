@@ -185,3 +185,17 @@ _Обновлено: 2026-04-29_
 - [COVERAGE](docs/COVERAGE.md)
 - [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

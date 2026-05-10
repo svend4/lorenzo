@@ -1,4 +1,6 @@
 # Метрики качества документации
+<!-- tags: memory, rag, ingestion, local-first, architecture, roadmap, anthropic, collaboration -->
+
 
 **Файлов:** 1714  **Средний балл:** 69.6/100
 
@@ -65,3 +67,13 @@
 - Файлов с оглавлением: **28.2%**
 - Файлов с callout: **31.0%**
 - Средний балл качества: **69.6/100**
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

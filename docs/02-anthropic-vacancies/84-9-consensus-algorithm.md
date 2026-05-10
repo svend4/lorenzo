@@ -145,3 +145,13 @@ v2.0 MAY использовать:
 - [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
 - [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

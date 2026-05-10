@@ -54,3 +54,14 @@ ROI: 10 sec queries vs 2 hour manual search
 - [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md)
 - [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+

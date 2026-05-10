@@ -65,3 +65,14 @@ _Создано: 2026-04-29_
 - [dmitriila](docs/obsidian/contacts/dmitriila.md)
 - [mixaill76](docs/obsidian/contacts/mixaill76.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [REGISTRY](docs/REGISTRY.md)
+- [TASKS_INDEX](docs/TASKS_INDEX.md)
+- [research-summary](docs/autofilled/research-summary.md)
+- [README](docs/templates/README.md)
+

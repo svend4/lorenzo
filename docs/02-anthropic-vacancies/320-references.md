@@ -101,3 +101,19 @@ acknowledgments above.
 - [Why This Document Exists](275-why-this-document-exists.md) _21%_
 - [Closing](285-closing.md) _21%_
 - [Acknowledgments](286-acknowledgments.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
+- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
+- [351-что-ты-можешь-делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md)
+- _...ещё 2_
+

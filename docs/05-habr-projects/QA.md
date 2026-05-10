@@ -1,5 +1,15 @@
 # Q&A: 05-habr-projects
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space
+
+---
+<!-- tags: knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -32,7 +42,7 @@ _Автоматически сгенерировано по 6 файлам ра�
 
 Упоминаются: **vault**
 
-## Что такое knowledge-space[^knowledge_space] и для кого он предназначен?
+## Что такое knowledge-space[^knowledge-space] и для кого он предназначен?
 
 → _См. также:_ [QA](docs/03-technology-combinations/QA.md)
 

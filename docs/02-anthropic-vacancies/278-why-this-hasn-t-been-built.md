@@ -1,5 +1,17 @@
 # Why This Hasn't Been Built
 
+<!-- toc -->
+## Содержание
+
+- [Why This Hasn't Been Built](#why-this-hasnt-been-built)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -121,3 +133,19 @@ integration does not.
 - [Existing Approximations](279-existing-approximations.md) _25%_
 - [Acknowledgments](286-acknowledgments.md) _25%_
 - [Why This Document Exists](275-why-this-document-exists.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
+- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
+- _...ещё 3_
+

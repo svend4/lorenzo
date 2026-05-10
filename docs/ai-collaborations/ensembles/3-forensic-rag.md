@@ -56,3 +56,13 @@ Technical Docs Investigator — для больших кодовых/инжен�
 - [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
 - [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/ai-collaborations/ensembles/README.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+

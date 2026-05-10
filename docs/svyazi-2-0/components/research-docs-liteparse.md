@@ -38,3 +38,13 @@ Forensic document QA с HTML‑отчётом и bounding boxes на стран�
 - [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
 - [memnet](docs/svyazi-2-0/components/memnet.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/svyazi-2-0/components/README.md)
+

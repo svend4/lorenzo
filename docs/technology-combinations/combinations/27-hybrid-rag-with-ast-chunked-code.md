@@ -65,3 +65,13 @@ ROI: Developer understands legal context, lawyer sees implementation
 - [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
 - [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+

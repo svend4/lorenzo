@@ -78,3 +78,17 @@
 - [Essence](46-essence.md) _25%_
 - [passports/meta.md](55-passports-meta-md.md) _25%_
 - [Essence](56-essence.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
+- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

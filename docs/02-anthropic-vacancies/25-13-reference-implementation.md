@@ -93,3 +93,19 @@ Reference НЕ является нормативной. Альтернативн
 - [passports/info1.md](35-passports-info1-md.md) _33%_
 - [Author & Contact](52-author-contact.md) _33%_
 - [Appendix C: References](104-appendix-c-references.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- _...ещё 12_
+

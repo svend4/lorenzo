@@ -363,3 +363,15 @@ Wiederholen
 ## Связанные документы
 
 - [Приложение C: Образцы Случаев Использования в Деталях](207-приложение-c-образцы-случаев-использования-в-детал.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
+- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

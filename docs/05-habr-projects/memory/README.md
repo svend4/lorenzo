@@ -16,3 +16,13 @@
 - [yodoca](yodoca.md) (сходство 0.21)
 - [README](../knowledge/README.md) (сходство 0.17)
 - [README](../README.md) (сходство 0.10)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+

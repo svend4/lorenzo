@@ -90,3 +90,14 @@ _Обновлено: 2026-04-29_
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [README](docs/04-ai-collaborations/README.md)
+- [TABLES](docs/TABLES.md)
+- [04-structuring](docs/processing-guide/04-structuring.md)
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+

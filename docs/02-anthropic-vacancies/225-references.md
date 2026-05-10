@@ -97,3 +97,18 @@
 - [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
 - [268-references](docs/02-anthropic-vacancies/268-references.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
+- [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [320-references](docs/02-anthropic-vacancies/320-references.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

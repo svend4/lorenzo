@@ -107,3 +107,19 @@ need to be solved before other work proceeds.
 - [Acknowledgments](286-acknowledgments.md) _25%_
 - [Abstract](168-abstract.md) _21%_
 - [Why This Document Exists](275-why-this-document-exists.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
+- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
+- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
+- _...ещё 3_
+

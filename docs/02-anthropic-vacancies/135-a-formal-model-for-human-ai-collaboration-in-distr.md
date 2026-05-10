@@ -77,3 +77,19 @@
 - [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _21%_
 - [Executive Summary](153-executive-summary.md) _21%_
 - [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
+- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
+- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- _...ещё 5_
+

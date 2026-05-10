@@ -42,3 +42,13 @@ flowchart LR
 - [D-voice-first-mesh](docs/svyazi-2-0/ensembles/D-voice-first-mesh.md)
 - [privacy](docs/svyazi-2-0/security/privacy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+- [README](docs/svyazi-2-0/ensembles/README.md)
+

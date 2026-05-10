@@ -7,6 +7,33 @@ date: 2026-04-29
 
 # Карта репозитория Lorenzo
 
+<!-- toc -->
+## Содержание
+
+- [Навигация](#навигация)
+- [Мета-документы](#мета-документы)
+- [Svyazi 2.0 — Архитектура системы](#svyazi-20-архитектура-системы)
+- [Вакансии Anthropic — 436 позиций](#вакансии-anthropic-436-позиций)
+- [Комбинации технологий](#комбинации-технологий)
+- [AI Коллаборации — ансамбли проектов](#ai-коллаборации-ансамбли-проектов)
+- [Хабр-проекты — память и граф](#хабр-проекты-память-и-граф)
+- [ai-collaborations](#ai-collaborations)
+- [anthropic-vacancies](#anthropic-vacancies)
+- [autofilled](#autofilled)
+- [contacts](#contacts)
+- [glossary](#glossary)
+- [habr-unique-projects](#habr-unique-projects)
+- [lorenzo-agent](#lorenzo-agent)
+- [nautilus](#nautilus)
+- [svyazi-2-0](#svyazi-2-0)
+- [technology-combinations](#technology-combinations)
+- [templates](#templates)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 _Обновлено: 2026-04-29_
 
 **Всего файлов:** 1193

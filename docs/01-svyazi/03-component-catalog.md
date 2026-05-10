@@ -80,3 +80,16 @@
 [^sentinel]: OSS-проект: безопасность и allowlist для MCP
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [README](docs/01-svyazi/README.md)
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
+- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
+- [DECISIONS](docs/DECISIONS.md)
+- [TABLES](docs/TABLES.md)
+- [TIMELINE](docs/TIMELINE.md)
+

@@ -1,5 +1,15 @@
 # Diff базы знаний между версиями
 
+<!-- summary -->
+> **HEAD~10** (`1f3fe74`) → **HEAD** (`12dea45`)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory, MemNet, Auto AI Router
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 **HEAD~10** (`1f3fe74`) → **HEAD** (`12dea45`)
@@ -712,7 +722,7 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/90-15-security-considerations.md` | +100 | Contents, Связанные документы, Упоминается в | — |
 | `docs/autofilled/components/svend4.md` | +98 | Связанные документы, Упоминается в | — |
 | `docs/AUTOFILLED.md` | +97 | Связанные документы, Упоминается в | — |
-| `docs/CONSISTENCY.md` | +94 | `Auto-AI-Router` → должно быть `Auto AI Router`, `Evidence-Envelope` → должно быть `Evidence Envelope`, `card-index` → должно быть `CardIndex` +3 | — |
+| `docs/CONSISTENCY.md` | +94 | `Auto AI Router` → должно быть `Auto AI Router`, `Evidence Envelope` → должно быть `Evidence Envelope`, `CardIndex` → должно быть `CardIndex` +3 | — |
 | `docs/03-technology-combinations/03-local-first.md` | +92 | Связанные документы, Упоминается в | — |
 | `docs/02-anthropic-vacancies/218-7-application-domains.md` | +91 | Связанные документы, Упоминается в | — |
 | `docs/01-svyazi/02-methodology.md` | +87 | Contents, Связанные документы, Упоминается в | — |
@@ -758,7 +768,7 @@ _Обновлено: 2026-04-29_
 | `docs/ALERTS.md` | +23 | Упоминается в | — |
 | `docs/FOOTNOTES.md` | +23 | Упоминается в | — |
 | `docs/SCHEDULE.md` | +23 | Упоминается в | — |
-| `docs/05-habr-projects/QA.md` | -22 | Как CardIndex хранит и версионирует карточки?, Как работает AgentFS и что такое .agentos?, Связанные документы +2 | Как CardIndex[^cardindex] хранит и версионирует карточки?, Как работает AgentFS[^agentfs] и что такое .agentos?, Что такое knowledge-space[^knowledge_space] и для кого он предназначен? |
+| `docs/05-habr-projects/QA.md` | -22 | Как CardIndex хранит и версионирует карточки?, Как работает AgentFS и что такое .agentos?, Связанные документы +2 | Как CardIndex[^cardindex] хранит и версионирует карточки?, Как работает AgentFS[^agentfs] и что такое .agentos?, Что такое knowledge-space[^knowledge-space] и для кого он предназначен? |
 | `docs/03-technology-combinations/04-sozialrecht-domain.md` | +20 | Упоминается в | — |
 | `docs/REPORT.md` | -20 | — | — |
 | `docs/COMPLEXITY.md` | -18 | Упоминается в | — |
@@ -775,3 +785,14 @@ _Обновлено: 2026-04-29_
 | `docs/02-anthropic-vacancies/QA.md` | -2 | Связанные документы, Упоминается в | — |
 | `docs/GLOSSARY.md` | -2 | Связанные документы, Упоминается в | — |
 | `docs/05-habr-projects/README.md` | 0 | Связанные документы | — |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [AUTOFILLED](docs/AUTOFILLED.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

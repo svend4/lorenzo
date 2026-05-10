@@ -1,5 +1,40 @@
 # Svyazi 2.0 — Спецификация прототипа
 
+<!-- summary -->
+> > **Версия:** 1.0 · **Дата:** 2026-05-10 · **Статус:** Draft
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, LiteParse, Legal RAG
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [1. Цель прототипа](#1-цель-прототипа)
+- [2. Компоненты MVP (три слоя)](#2-компоненты-mvp-три-слоя)
+- [3. Интеграционные контракты](#3-интеграционные-контракты)
+  - [3.1 Card Envelope](#31-card-envelope)
+  - [3.2 Evidence Envelope](#32-evidence-envelope)
+  - [3.3 Memory Write Policy](#33-memory-write-policy)
+  - [3.4 Skill & Tool Policy](#34-skill-tool-policy)
+  - [3.5 Review Record](#35-review-record)
+- [4. Архитектура прототипа](#4-архитектура-прототипа)
+- [5. Итерации MVP](#5-итерации-mvp)
+  - [Итерация 0 — Вертикальный срез (2 недели)](#итерация-0-вертикальный-срез-2-недели)
+  - [Итерация 1 — Retrieval Loop (2 недели)](#итерация-1-retrieval-loop-2-недели)
+  - [Итерация 2 — Consolidation (2 недели)](#итерация-2-consolidation-2-недели)
+  - [Итерация 3 — Collaboration Finder (финальная)](#итерация-3-collaboration-finder-финальная)
+- [6. Технический стек](#6-технический-стек)
+- [7. Риски и митигация](#7-риски-и-митигация)
+- [8. Успешные метрики](#8-успешные-метрики)
+- [9. Следующие шаги](#9-следующие-шаги)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
+
+
+
+
 > **Версия:** 1.0 · **Дата:** 2026-05-10 · **Статус:** Draft
 
 ---

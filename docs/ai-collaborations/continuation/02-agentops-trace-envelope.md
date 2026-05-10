@@ -61,3 +61,13 @@ anomaly_flags:
 - [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
 - [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/ai-collaborations/continuation/README.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+

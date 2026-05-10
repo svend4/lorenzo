@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Словарь аббревиатур и сокращений
+<!-- tags: rag, security, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.

@@ -99,3 +99,13 @@ _Создано автоматически: 2026-04-29_
 - [sonia-black](docs/contacts/sonia-black.md)
 - [spbmolot](docs/contacts/spbmolot.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [kksudo](docs/autofilled/components/kksudo.md)
+- [spbmolot](docs/autofilled/components/spbmolot.md)
+- [README](docs/contacts/README.md)
+

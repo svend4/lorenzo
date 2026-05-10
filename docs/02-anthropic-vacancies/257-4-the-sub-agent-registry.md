@@ -224,3 +224,19 @@ across both journals and individual researchers.
 - [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _25%_
 - [10. Open Questions](221-10-open-questions.md) _25%_
 - [Abstract](252-abstract.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
+- _...ещё 8_
+

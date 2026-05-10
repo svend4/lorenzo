@@ -374,3 +374,14 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^firecrawl]: Инструмент: веб-краулер для AI (MIT)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [README](docs/05-habr-projects/memory/README.md)
+- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
+- [DECISIONS](docs/DECISIONS.md)
+- [FAQ](docs/FAQ.md)
+

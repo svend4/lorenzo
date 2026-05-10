@@ -876,3 +876,15 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 - [Введение](../04-ai-collaborations/00-intro.md) _21%_
 - [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _21%_
 - [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [00-intro](docs/02-anthropic-vacancies/00-intro.md)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [64-for-the-curious-philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

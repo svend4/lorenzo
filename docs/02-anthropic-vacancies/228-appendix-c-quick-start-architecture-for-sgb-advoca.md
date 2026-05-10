@@ -287,3 +287,19 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 - [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _25%_
 - [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _25%_
 - [Abstract](210-abstract.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
+- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- _...ещё 12_
+

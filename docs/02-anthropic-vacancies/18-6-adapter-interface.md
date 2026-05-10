@@ -171,3 +171,15 @@ string description концепта entry в терминах target_repo, ил�
 - [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _25%_
 - [5. Compatibility Levels](17-5-compatibility-levels.md) _21%_
 - [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

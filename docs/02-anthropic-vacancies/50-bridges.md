@@ -60,3 +60,16 @@ hamming-переходов от «root» вершин) коррелирует с
 - [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
 - [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

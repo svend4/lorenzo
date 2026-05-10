@@ -1,5 +1,26 @@
 # Контакты и авторы
 
+<!-- summary -->
+> Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Ключевые авторы проектов](#ключевые-авторы-проектов)
+- [GitHub репозитории](#github-репозитории)
+- [Email адреса](#email-адреса)
+- [Шаблон первого сообщения](#шаблон-первого-сообщения)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 ## Ключевые авторы проектов
 
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
@@ -87,3 +108,17 @@
 Если интересно — пришлю одностраничную схему интеграции.
 Если нет — спасибо за публикацию, она уже повлияла на архитектуру.
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [13-contacts](docs/01-svyazi/13-contacts.md)
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
+- [INDEX](docs/INDEX.md)
+- [PROGRESS](docs/PROGRESS.md)
+- [README](docs/README.md)
+- [REPORT](docs/REPORT.md)
+- [TABLES](docs/TABLES.md)
+

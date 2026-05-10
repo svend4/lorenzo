@@ -68,3 +68,19 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 - [docs](README.md)
 - [Все таблицы репозитория](TABLES.md)
 - [Карта репозитория Lorenzo](SITEMAP.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+- [cowork](docs/autofilled/components/cowork.md)
+- [ingit](docs/autofilled/components/ingit.md)
+- [kksudo](docs/autofilled/components/kksudo.md)
+- [lorenzo](docs/autofilled/components/lorenzo.md)
+- [nautilus](docs/autofilled/components/nautilus.md)
+- [sgb](docs/autofilled/components/sgb.md)
+- _...ещё 4_
+

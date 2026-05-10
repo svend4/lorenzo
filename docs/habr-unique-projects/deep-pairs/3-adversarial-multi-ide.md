@@ -33,3 +33,14 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 - [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
 - [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+- [README](docs/habr-unique-projects/deep-pairs/README.md)
+

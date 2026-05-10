@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Согласованность терминов
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improve -->
+
 
 Анализ различных написаний одних и тех же терминов.
 

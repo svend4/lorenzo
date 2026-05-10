@@ -36,3 +36,13 @@ Teilen
 - [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
 - [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/habr-unique-projects/README.md)
+- [README](docs/habr-unique-projects/final-ensembles/README.md)
+- [reading-paths](docs/reading-paths.md)
+

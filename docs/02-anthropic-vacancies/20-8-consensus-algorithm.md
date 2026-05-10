@@ -99,3 +99,13 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 - [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
 - [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

@@ -33,3 +33,13 @@ Self-aware MCP под legal (https://habr.com/ru/articles/1007122/) — расш
 - [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
 - [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/habr-unique-projects/deep-pairs/README.md)
+

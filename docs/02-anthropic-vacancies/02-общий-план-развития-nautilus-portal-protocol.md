@@ -489,3 +489,18 @@ README — на двух языках минимум. Русский как prim
 - [Appendix C: References](104-appendix-c-references.md) _17%_
 - [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _17%_
 - [🇷🇺 О проекте](67-о-проекте.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
+- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [64-for-the-curious-philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

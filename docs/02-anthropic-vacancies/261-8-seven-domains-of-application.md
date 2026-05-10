@@ -245,3 +245,19 @@ within 5-10 years.
 - [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _21%_
 - [11. Open Questions](264-11-open-questions.md) _21%_
 - [6. Four Deployment Domains](143-6-four-deployment-domains.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
+- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
+- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
+- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
+- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
+- _...ещё 1_
+

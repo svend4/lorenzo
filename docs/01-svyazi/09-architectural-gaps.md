@@ -77,3 +77,13 @@
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [13-contacts](docs/01-svyazi/13-contacts.md)
+- [README](docs/01-svyazi/README.md)
+- [366-технический-stack-svyazi-2-0-foundation](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)
+

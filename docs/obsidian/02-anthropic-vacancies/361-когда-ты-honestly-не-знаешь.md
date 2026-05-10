@@ -11,6 +11,8 @@ date: 2026-04-29
 > Если ты не знаешь что-то relevant (factual, technical, contextual), say:
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

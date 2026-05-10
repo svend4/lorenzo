@@ -58,3 +58,13 @@ _Создано: 2026-04-29_
 - [vladspace](docs/obsidian/contacts/vladspace.md)
 - [cutcode](docs/obsidian/contacts/cutcode.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [REGISTRY](docs/REGISTRY.md)
+- [research-summary](docs/autofilled/research-summary.md)
+- [README](docs/templates/README.md)
+

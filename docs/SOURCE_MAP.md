@@ -1,5 +1,26 @@
 # Карта происхождения текстов
 
+<!-- summary -->
+> Проанализировано: **1188** файлов
+**Проекты:** Svyazi
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Категории](#категории)
+- [Авторы](#авторы)
+- [🤖 Авто-импортированные файлы (846)](#авто-импортированные-файлы-846)
+- [🔗 Файлы с внешними ссылками (97)](#файлы-с-внешними-ссылками-97)
+
+---
+
+<!-- tags: memory, security, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Проанализировано: **1188** файлов
@@ -830,3 +851,13 @@ _Обновлено: 2026-04-29_
 - `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` — https://github.com/svend4/ingit
 - `docs/02-anthropic-vacancies/319-acknowledgments.md` — https://github.com/svend4/ingit
 - `docs/02-anthropic-vacancies/320-references.md` — https://github.com/svend4/ingit
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

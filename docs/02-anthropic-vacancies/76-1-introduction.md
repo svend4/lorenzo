@@ -130,3 +130,14 @@ NPP **не** пытается:
 - [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
+- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

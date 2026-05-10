@@ -59,3 +59,16 @@
 - [65-readme-md](docs/02-anthropic-vacancies/65-readme-md.md)
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte](docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [304-ingit-as-cowork-native-workspace-substrate-md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [INDEX](docs/INDEX.md)
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

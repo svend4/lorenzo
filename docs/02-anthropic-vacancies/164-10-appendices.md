@@ -226,3 +226,19 @@ shared, cited, refined by anyone with attribution.
 - [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _21%_
 - [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
 - [Author & Contact](42-author-contact.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- _...ещё 5_
+

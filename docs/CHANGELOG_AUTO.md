@@ -138,3 +138,13 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 
 - [CHANGELOG](CHANGELOG.md) _33%_
 - [Карта зависимостей скриптов](DEPENDENCY_MAP.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

@@ -87,3 +87,19 @@ svend4 как обычный tool.
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _29%_
 - [0. Status of This Document](05-0-status-of-this-document.md) _25%_
 - [⬡](69-section.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [124-конфигурация-для-claude-desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md)
+- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
+- _...ещё 12_
+

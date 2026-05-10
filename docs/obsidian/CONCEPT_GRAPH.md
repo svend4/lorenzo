@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Граф концептов базы знаний
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
 
 _Обновлено: 2026-04-29_
 

@@ -1,5 +1,17 @@
 # Abstract
 
+<!-- toc -->
+## Содержание
+
+- [Abstract](#abstract)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -112,3 +124,19 @@ shareable AI-collaborative work.
 - [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) _25%_
 - [Table of Contents](308-table-of-contents.md) _25%_
 - [4. The Symbiotic Architecture](312-4-the-symbiotic-architecture.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte](docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- [319-acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- _...ещё 1_
+

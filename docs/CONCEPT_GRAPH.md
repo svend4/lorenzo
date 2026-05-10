@@ -1,5 +1,15 @@
 # Граф концептов базы знаний
 
+<!-- summary -->
+> Концептов: **40** | Связей: **764** (мин. вес: 2)
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, architecture, anthropic -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Концептов: **40** | Связей: **764** (мин. вес: 2)
@@ -144,3 +154,13 @@ graph TD
 | `layer` | 71 | 768 | architecture |
 | `work` | 73 | 727 | other |
 | `references` | 59 | 704 | other |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

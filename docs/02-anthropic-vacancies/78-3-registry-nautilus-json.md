@@ -163,3 +163,13 @@ Onboarding Path C (self-declaring repo).
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
 - [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

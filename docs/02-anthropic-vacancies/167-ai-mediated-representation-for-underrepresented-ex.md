@@ -91,3 +91,19 @@
 - [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md) _37%_
 - [PORTAL-PROTOCOL.md v1.1](73-portal-protocol-md-v1-1.md) _37%_
 - [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _33%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)
+- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
+- _...ещё 8_
+

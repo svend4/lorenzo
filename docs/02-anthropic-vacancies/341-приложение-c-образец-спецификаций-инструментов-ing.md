@@ -2033,3 +2033,17 @@ Web durchsucht
 - [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _17%_
 - [Вакансии Anthropic — Анализ по кластерам](../README.md) _17%_
 - [Кластеры тематически близких файлов](../CLUSTERS.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [303-приложение-визуализация-позиции-в-серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

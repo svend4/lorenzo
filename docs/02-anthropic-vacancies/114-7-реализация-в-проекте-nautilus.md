@@ -90,3 +90,19 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 - [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
 - [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [53-history](docs/02-anthropic-vacancies/53-history.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
+- _...ещё 1_
+

@@ -198,3 +198,19 @@ confusion. Distinguishing them enables clear architecture.
 - [12. Closing](223-12-closing.md) _33%_
 - [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md) _29%_
 - [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [227-appendix-b-decision-framework-when-to-build-type-1](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)
+- _...ещё 4_
+

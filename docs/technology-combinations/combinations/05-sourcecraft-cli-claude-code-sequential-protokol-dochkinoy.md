@@ -57,3 +57,13 @@ Skills сохраняются в корпоративный граф знани�
 - [02-multiagentnyy-khaos-reshenie-auto-ai-router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
 - [16-adversarial-multi-agent-code-review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+

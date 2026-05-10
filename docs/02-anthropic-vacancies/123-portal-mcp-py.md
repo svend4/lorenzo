@@ -810,3 +810,19 @@ if __name__ == "__main__":
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _33%_
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _29%_
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (21):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
+- [130-отладка](docs/02-anthropic-vacancies/130-отладка.md)
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- _...ещё 13_
+

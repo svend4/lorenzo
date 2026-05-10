@@ -43,3 +43,19 @@
 - [35-passports-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
 - [45-passports-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
+- [31-content-overview](docs/02-anthropic-vacancies/31-content-overview.md)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
+- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+- _...ещё 2_
+

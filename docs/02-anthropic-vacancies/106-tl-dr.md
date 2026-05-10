@@ -71,3 +71,15 @@
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _17%_
 - [2. Формальный workflow](108-2-формальный-workflow.md) _17%_
 - [Критерии выбора для фазы 3](71-критерии-выбора-для-фазы-3.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [70-зачем-две-версии-параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
+- [71-критерии-выбора-для-фазы-3](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
+- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

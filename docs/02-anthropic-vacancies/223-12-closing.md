@@ -150,3 +150,19 @@ walking it.
 - [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md) _29%_
 - [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
 - [10. Open Questions](179-10-open-questions.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (18):**
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
+- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- _...ещё 10_
+

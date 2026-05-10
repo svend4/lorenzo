@@ -1,5 +1,15 @@
 # Отчёт орфографии
 
+<!-- summary -->
+> python scripts/improve_spellcheck.py --fix
+**Проекты:** knowledge-space, MemNet
+
+---
+<!-- tags: memory, orchestration, security, knowledge, architecture, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Файлов с проблемами: **30**

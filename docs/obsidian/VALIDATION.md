@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Валидация шаблонов
+<!-- tags: knowledge, architecture, roadmap, collaboration -->
+
 
 _Обновлено: 2026-04-29_
 

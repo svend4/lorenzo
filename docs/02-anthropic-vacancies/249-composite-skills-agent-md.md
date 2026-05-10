@@ -78,3 +78,19 @@ markdown
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (21):**
+- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
+- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [187-слой-представительских-агентов-md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)
+- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- _...ещё 13_
+

@@ -123,3 +123,13 @@ _Создано: 2026-04-29_
 - [ensemble](docs/templates/ensemble.md)
 - [experiment-log](docs/templates/experiment-log.md)
 - [mega-stack](docs/templates/mega-stack.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [REGISTRY](docs/REGISTRY.md)
+- [TASKS_INDEX](docs/TASKS_INDEX.md)
+- [README](docs/templates/README.md)
+

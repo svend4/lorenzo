@@ -45,3 +45,14 @@
 - [review-record](docs/svyazi-2-0/architecture/review-record.md)
 - [QA](docs/QA.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [concepts](docs/glossary/concepts.md)
+- [reading-paths](docs/reading-paths.md)
+- [README](docs/svyazi-2-0/architecture/README.md)
+- [README](docs/technology-combinations/README.md)
+

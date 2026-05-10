@@ -91,3 +91,19 @@ will be more than enough.
 - [Acknowledgments](267-acknowledgments.md) _29%_
 - [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _25%_
 - [Table of Contents](211-table-of-contents.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
+- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [224-acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- _...ещё 2_
+

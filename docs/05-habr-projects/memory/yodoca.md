@@ -99,3 +99,15 @@ Yodoca — «Научил ИИ-агента помнить важное и за�
 - [Авторы и контакты](../02-collaboration-partners.md) _17%_
 - [Wikontic: семантический граф](../knowledge/wikontic.md) _17%_
 - [Diff базы знаний между версиями](../../VERSION_DIFF.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [README](docs/05-habr-projects/memory/README.md)
+- [04-structuring](docs/processing-guide/04-structuring.md)
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+

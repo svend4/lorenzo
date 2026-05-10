@@ -3,6 +3,8 @@
 _Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._
 
 ---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
+
 
 
 ## Глава 1: Исходная точка — Svyazi 2.0
@@ -154,4 +156,15 @@ Lorenzo — это не один проект, а **экосистема вза�
 5. **Следующий шаг** — контакт с авторами ключевых компонентов
 
 _Полная дорожная карта: [docs/01-svyazi/12-roadmap.md](docs/01-svyazi/12-roadmap.md)_
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
 

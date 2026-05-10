@@ -40,3 +40,13 @@
 - [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
 - [review-record](docs/svyazi-2-0/architecture/review-record.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [concepts](docs/glossary/concepts.md)
+- [README](docs/svyazi-2-0/architecture/README.md)
+- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
+

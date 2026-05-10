@@ -1,5 +1,15 @@
 # Читаемость документов (Flesch-Kincaid)
 
+<!-- summary -->
+> Средний индекс FRE: **1.9/100**
+**Проекты:** Svyazi, Yodoca, MemNet, Wikontic
+
+---
+<!-- tags: memory, rag, orchestration, security, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 Средний индекс FRE: **1.9/100**
@@ -1083,4 +1093,14 @@ _Обновлено: 2026-04-29_
 - [READING_TIME](docs/obsidian/READING_TIME.md)
 - [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md)
 - [READING_ORDER](docs/obsidian/READING_ORDER.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+- [TOPIC_MODEL](docs/TOPIC_MODEL.md)
 

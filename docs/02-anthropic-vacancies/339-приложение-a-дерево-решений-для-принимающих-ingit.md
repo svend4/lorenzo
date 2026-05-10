@@ -89,3 +89,16 @@ InGit + Cowork:
 - [Appendix B: Domain Comparison Matrix](185-appendix-b-domain-comparison-matrix.md) _29%_
 - [Твоя миссия](347-твоя-миссия.md) _29%_
 - [Главные технические риски](120-главные-технические-риски.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
+- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
+- [16-history](docs/02-anthropic-vacancies/16-history.md)
+- [185-appendix-b-domain-comparison-matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md)
+- [206-приложение-b-матрица-сравнения-областей](docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

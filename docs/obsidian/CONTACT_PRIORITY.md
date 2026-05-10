@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Приоритет контактов
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
+
 
 _Обновлено: 2026-04-29_
 

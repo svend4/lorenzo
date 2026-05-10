@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Прогресс MVP
+<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
 
 _Обновлено: 2026-04-29 (improve_progress_sync.py)_
 

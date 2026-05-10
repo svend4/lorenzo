@@ -51,3 +51,13 @@
 - [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
 - [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [reading-paths](docs/reading-paths.md)
+- [README](docs/svyazi-2-0/overview/README.md)
+- [methodology](docs/svyazi-2-0/overview/methodology.md)
+

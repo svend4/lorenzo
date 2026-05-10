@@ -39,3 +39,14 @@ https://habr.com/ru/articles/1006622/
 - [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
 - [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+- [README](docs/habr-unique-projects/key-findings/README.md)
+

@@ -1,4 +1,16 @@
 # Abstract
+
+<!-- toc -->
+## Содержание
+
+- [Abstract](#abstract)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: anthropic -->
 
 
@@ -120,3 +132,19 @@ in skilled work.
 - [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _29%_
 - [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _29%_
 - [Table of Contents](253-table-of-contents.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (18):**
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)
+- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
+- _...ещё 10_
+

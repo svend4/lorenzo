@@ -50,3 +50,13 @@ _Создано: 2026-04-29_
 - [contact-outreach](docs/templates/contact-outreach.md)
 - [project-component](docs/templates/project-component.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [REGISTRY](docs/REGISTRY.md)
+- [TASKS_INDEX](docs/TASKS_INDEX.md)
+- [README](docs/templates/README.md)
+

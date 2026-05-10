@@ -1,4 +1,6 @@
 # Расписание проекта
+<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -74,3 +76,13 @@ _█ = активная работа, ░ = ожидание_
 - Вех выполнено: **3/10** (30%)
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

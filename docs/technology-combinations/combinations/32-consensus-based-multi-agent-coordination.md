@@ -71,3 +71,13 @@ ROI: Resilient multi-agent workflows, no single point of failure
 - [34-distributed-event-store-with-paxos](docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md)
 - [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+

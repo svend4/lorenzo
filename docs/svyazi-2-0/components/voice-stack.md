@@ -40,3 +40,13 @@
 - [yodoca](docs/svyazi-2-0/components/yodoca.md)
 - [rufler](docs/svyazi-2-0/components/rufler.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/svyazi-2-0/components/README.md)
+

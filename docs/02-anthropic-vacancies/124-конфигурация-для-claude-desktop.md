@@ -75,3 +75,16 @@ json
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _25%_
 - [Глоссарий](122-глоссарий.md) _17%_
 - [2. Terminology](77-2-terminology.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
+- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [130-отладка](docs/02-anthropic-vacancies/130-отладка.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

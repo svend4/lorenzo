@@ -1,5 +1,17 @@
 # Executive Summary
 
+<!-- toc -->
+## Содержание
+
+- [Executive Summary](#executive-summary)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -126,3 +138,19 @@ stakeholders as basis for dialogue and refinement.
 - [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _21%_
 - [2. Target Populations](156-2-target-populations.md) _21%_
 - [8. Call to Action](145-8-call-to-action.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- _...ещё 6_
+

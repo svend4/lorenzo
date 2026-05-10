@@ -1,5 +1,15 @@
 # Сеть проектов и авторов
 
+<!-- summary -->
+> **Андрей (kksudo)** → **Svyazi** (116), **AgentFS** (87), **NGT** (86), **Yodoca** (83), **Lorenzo** (73), **knowledge-space** (72), **SENTINEL** (69), **Rufler** (63)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, collaboration -->
+
+
+
+
 **Узлов:** 20  **Связей:** 189
 
 ## Топ-20 ко-упоминаемых пар
@@ -59,4 +69,15 @@
 **Виталий (spbmolot)** → **Svyazi** (108), **NGT** (82), **Yodoca** (79), **AgentFS** (78), **knowledge-space** (66), **Lorenzo** (66), **SENTINEL** (58), **ingit** (54)
 
 **Lorenzo (svend4)** → **Cowork** (115), **ingit** (107), **Svyazi** (82), **Lorenzo** (69), **NGT** (57), **Yodoca** (45), **MemNet** (38), **CardIndex** (37)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
 

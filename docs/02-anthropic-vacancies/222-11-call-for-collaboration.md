@@ -110,3 +110,17 @@ practitioners during framework development valuable.
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
 - [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

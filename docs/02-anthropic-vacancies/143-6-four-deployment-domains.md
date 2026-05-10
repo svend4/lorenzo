@@ -210,3 +210,19 @@ exist.
 - [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _21%_
 - [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _18%_
 - [Abstract](136-abstract.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
+- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
+- _...ещё 3_
+

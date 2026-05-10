@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Health Dashboard
+<!-- tags: ingestion, anthropic, collaboration -->
+
 
 _Обновлено: 2026-04-29_
 

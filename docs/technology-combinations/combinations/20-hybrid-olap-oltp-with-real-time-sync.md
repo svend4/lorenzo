@@ -73,3 +73,13 @@ ROI: Real-time collaboration + analytical insights, best of both worlds
 - [17-distributed-agent-memory-with-graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
 - [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+

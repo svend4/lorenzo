@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Оценка готовности проекта (Go/No-Go)
+<!-- tags: security, architecture, roadmap, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

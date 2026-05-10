@@ -94,3 +94,13 @@ _Создано автоматически: 2026-04-29_
 - [cutcode](docs/contacts/cutcode.md)
 - [zodigancode](docs/contacts/zodigancode.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+- [spbmolot](docs/autofilled/components/spbmolot.md)
+- [README](docs/contacts/README.md)
+

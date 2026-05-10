@@ -43,3 +43,14 @@ Sales и Applied AI: SF, NY, London, Dublin, Munich, Paris, Tokyo, Seoul, Bangal
 - [01-ai-research-engineering](docs/anthropic-vacancies/clusters/01-ai-research-engineering.md)
 - [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [README](docs/anthropic-vacancies/README.md)
+- [methodology](docs/anthropic-vacancies/methodology.md)
+- [overview](docs/anthropic-vacancies/overview.md)
+- [reading-paths](docs/reading-paths.md)
+

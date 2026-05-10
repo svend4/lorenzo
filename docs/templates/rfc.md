@@ -106,3 +106,13 @@ _Создано: 2026-04-29_
 **Смотрите также:**
 - [decision-record](docs/templates/decision-record.md)
 - [protocol-spec](docs/templates/protocol-spec.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [REGISTRY](docs/REGISTRY.md)
+- [TASKS_INDEX](docs/TASKS_INDEX.md)
+- [README](docs/templates/README.md)
+

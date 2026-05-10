@@ -112,3 +112,18 @@ Passport SHOULD содержать следующие разделы:
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
 - [History](63-history.md) _25%_
 - [Abstract](04-abstract.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [63-history](docs/02-anthropic-vacancies/63-history.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

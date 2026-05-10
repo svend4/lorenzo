@@ -1,5 +1,17 @@
 # Why This Document Exists
 
+<!-- toc -->
+## Содержание
+
+- [Why This Document Exists](#why-this-document-exists)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -111,3 +123,19 @@ This document explores that observation.
 - [References](287-references.md) _29%_
 - [Acknowledgments](319-acknowledgments.md) _29%_
 - [Acknowledgments](267-acknowledgments.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
+- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [285-closing](docs/02-anthropic-vacancies/285-closing.md)
+- _...ещё 4_
+

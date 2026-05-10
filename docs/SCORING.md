@@ -1,4 +1,6 @@
 # Оценка готовности проекта (Go/No-Go)
+<!-- tags: security, architecture, roadmap, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -80,4 +82,15 @@ _Дата: 2026-04-29_
 1. **[вес 5]** Есть точные дубли документов
 
 ## ✅ Проект готов к запуску MVP!
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [INDEX](docs/INDEX.md)
+- [PROGRESS](docs/PROGRESS.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
 

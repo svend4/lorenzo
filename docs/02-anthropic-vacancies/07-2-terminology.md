@@ -83,3 +83,16 @@ human-readable описание: что хранит, какая философ�
 - [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
 - [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
+- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

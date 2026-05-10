@@ -1,13 +1,8 @@
 # Глоссарий понятий
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 _Определения извлечены автоматически из документов._
 
-**Извлечено понятий:** 901  (из 2057 совпадений)
+**Извлечено понятий:** 1102  (из 3172 совпадений)
 
 
 ## A
@@ -16,9 +11,9 @@ _Определения извлечены автоматически из до�
 : **Composite Skills Agent** pattern  
   _→ [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)_
 
-**A nautilus shell**
-: **spiral of nested chambers**, each larger  
-  _→ [68-about](docs/02-anthropic-vacancies/68-about.md)_
+**A2A protocol**
+: [A2A vs MCP, ансамбль H](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 **About Nautilus**
 : **federation protocol** and reference implementation  
@@ -31,6 +26,10 @@ _Определения извлечены автоматически из до�
 **Action 1 : Draft Part I (Vision) сейчас**
 : long-term articulation, относительно independent от capacity questions  
   _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
+
+**Action 1: Draft Part I (Vision) сейчас**
+: long-term articulation, относительно independent от capacity questions  
+  _→ [11-difficulties-and-recommendations](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md)_
 
 **Action 2**
 : Document what works and what doesn't  
@@ -49,7 +48,7 @@ _Определения извлечены автоматически из до�
   _→ [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)_
 
 **Adapting them to AI principals**
-: key research and design challenge addressed in Sections 6  
+: key research and design challenge addressed in Sections 6 and 7  
   _→ [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)_
 
 **ADOPT**
@@ -64,17 +63,33 @@ _Определения извлечены автоматически из до�
 : Operates in environments where  
   _→ [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)_
 
+**Agent contract layer**
+: навыки, маршрутизация и права оформлены как исполнимые правила, а не как размазанные инструкции по разным файлам  
+  _→ [gaps](docs/svyazi-2-0/architecture/gaps.md)_
+
 **Agent function**
 : Monitor opportunities, prepare  
   _→ [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)_
+
+**Agent-pool**
+: [Distributed Agent Workshop](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
+**agent-spec**
+: Спецификация AI-агента: тип, принципал, скилы, tools, память, decision boundary  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
 
 **agentic intelligence layer**
 : persistent memory, multi-step task execution, MCP integration,  
   _→ [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)_
 
+**Agent‑Bridge**
+: [Agent Orchestration Stack (комбо 9)](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
 **Agent‑first knowledge retrieval**
-: knowledge-space снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами  
-  _→ [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)_
+: [[03-component-catalog|knowledge-space]] снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами  
+  _→ [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md)_
 
 **AI safety harms**
 : narrower perspective pool in AI  
@@ -86,7 +101,7 @@ _Определения извлечены автоматически из до�
 
 **Aligned incentive structure**
 : agent succeeds when client succeeds (commission) 3  
-  _→ [DUPLICATES](docs/DUPLICATES.md)_
+  _→ [DUPLICATES](docs/obsidian/DUPLICATES.md)_
 
 **Aligned values**
 : Serves vulnerable populations; mission-fit  
@@ -111,6 +126,10 @@ _Определения извлечены автоматически из до�
 **Anthropic Beneficial Deployments**
 : команда внутри Anthropic, которая фокусируется на helping AI deployments в high-impact areas  
   _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
+
+**Anthropic Skills**
+: [Self‑Aware MCP + Skills + CodeWiki](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 **Anthropomorphizing self**
 : «I feel excited», «I dream of» (вместо: «my mission orients toward», «my workflow includes»)  
@@ -140,6 +159,10 @@ _Определения извлечены автоматически из до�
 : arXiv API с 12h cache  
   _→ [97-22-glossary-of-reference-examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md)_
 
+**as a coherent composite agent This**
+: **Composite Skills Agent** pattern  
+  _→ [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)_
+
 **ASSESS**
 : изучи, но не внедряй в production  
   _→ [TECH_RADAR](docs/TECH_RADAR.md)_
@@ -148,9 +171,21 @@ _Определения извлечены автоматически из до�
 : An AI working under a specific Node's  
   _→ [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)_
 
+**AST (Abstract Syntax Tree)**
+: стандартный модуль Python  
+  _→ [02-architecture](docs/meta-scripting/02-architecture.md)_
+
+**AST analysis**
+: code becomes part of knowledge base  
+  _→ [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)_
+
 **astructure for invisible quality experts»**
 : о visibility и agency  
   _→ [165-closing](docs/02-anthropic-vacancies/165-closing.md)_
+
+**at geantwortet: Правильно разграничиваете**
+: две разные архитектурные концепции, которые объединяет только метафора «Наутилус» (раковина как вложенная спиральная структура)  
+  _→ [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)_
 
 **Audit Infrastructure**
 : Tamper-resistant logging of  
@@ -164,9 +199,13 @@ _Определения извлечены автоматически из до�
 : GdB 70 user applying tools to own case  
   _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
 
+**Auto AI Router**
+: [Security + routing plane](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
 **AutoAdapter**
 : любой repo с nautilus  
-  _→ [97-22-glossary-of-reference-examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md)_
+  _→ [22-glossary](docs/nautilus/npp-v1-1/22-glossary.md)_
 
 
 ## B
@@ -174,6 +213,14 @@ _Определения извлечены автоматически из до�
 **Beneficial Deployments в Anthropic**
 : именно про применение Claude к общественно-полезным задачам в здравоохранении, образовании, госсекторе и социальных сервисах  
   _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
+
+**Biome / Ruff / uv**
+: [Continuation 10 domains](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
+**BM25 (Best Match 25)**
+: стандарт информационного поиска  
+  _→ [06-search](docs/processing-guide/06-search.md)_
 
 **Boundary issue**
 : When does helping (Type 1) become acting  
@@ -191,6 +238,14 @@ _Определения извлечены автоматически из до�
 : Many engineering teams already  
   _→ [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md)_
 
+**bridges**
+: словарь repo_name → description  
+  _→ [01-structural-comparison-code-vs-docs](docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)_
+
+**Build systems**
+: Bazel, Buck2, Turborepo  
+  _→ [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)_
+
 **Burden addressed**
 : Lesson planning, assignment generation,  
   _→ [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)_
@@ -199,9 +254,17 @@ _Определения извлечены автоматически из до�
 : - KSV Sachsen practices and known patterns  
   _→ [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)_
 
+**Burnout**
+: то, что мы обсуждали в предыдущем сообщении  
+  _→ [11-glossary](docs/nautilus/double-triangle-architecture/11-glossary.md)_
+
 **Buzzword soup**
 : «leveraging synergies for transformative outcomes»  
   _→ [359-твои-anti-patterns](docs/02-anthropic-vacancies/359-твои-anti-patterns.md)_
+
+**ByteRover**
+: [Supplementary infrastructure](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 
 ## C
@@ -209,6 +272,14 @@ _Определения извлечены автоматически из до�
 **CA-правила**
 : каждое из 256 правил с:  
   _→ [58-content-overview](docs/02-anthropic-vacancies/58-content-overview.md)_
+
+**CAMEL**
+: active execution framework  
+  _→ [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)_
+
+**CardIndex**
+: единственный источник правды о состоянии каждой карточки» — у Андрея это центральный компонент с состояниями pending/processed/error/updated, версионированием, историей хешей  
+  _→ [01-claude-response](docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
 
 **Case law**
 : - BSG decisions (federal social court)  
@@ -231,7 +302,7 @@ _Определения извлечены автоматически из до�
   _→ [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)_
 
 **Changed**
-: `is_fallback` field added to PortalEntry (normative)  
+: `is_fallback` field added to [PortalEntry](  
   _→ [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)_
 
 **Characteristics**
@@ -246,6 +317,10 @@ _Определения извлечены автоматически из до�
 : существенное решение, нужно время  
   _→ [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)_
 
+**Choice 6: Pause exploration**
+: substantial decision, нужно time  
+  _→ [11-difficulties-and-recommendations](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md)_
+
 **Cinderella Syndrome**
 : after the fairy tale  
   _→ [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)_
@@ -254,9 +329,17 @@ _Определения извлечены автоматически из до�
 : Naming conventions (passport by format, not by repo)  
   _→ [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)_
 
+**claude/skills/`**
+: инструкции для Claude **когда** использовать какой инструмент:  
+  _→ [09-automation](docs/processing-guide/09-automation.md)_
+
 **Clear demand**
 : Author personally needs this  
   _→ [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)_
+
+**CoAlly**
+: [Cross‑Agent Memory Bus](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 **CoAlly team**
 : Distributed shared memory для multi-agent teams  
@@ -273,6 +356,14 @@ _Определения извлечены автоматически из до�
 **Code, Claude Cowork и Managed Agents API**
 : шаги к infrastructure, на которой можно построить именно такого агента-оркестратора  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**CodeWiki**
+: [Self‑Aware MCP + Skills + CodeWiki](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
+**com, Oyster**
+: текущие решения, но они expensive (10-15% markup) и bureaucratic  
+  _→ [01-three-related-themes](docs/nautilus/supply-demand/01-three-related-themes.md)_
 
 **com, Upwork, Toptal, Braintrust, Mercor**
 : биржи , оптимизированные для transactional работы  
@@ -334,9 +425,17 @@ _Определения извлечены автоматически из до�
 : Comprehensive record of all  
   _→ [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)_
 
+**component-catalog|GitHub]] archive flag**
+: одна кнопка, репо остаётся читаемым но помечается «не активен»  
+  _→ [00-intro](docs/obsidian/02-anthropic-vacancies/00-intro.md)_
+
 **Composite Skills Agent**
 : 21 yoga teachers metaphor, Type 1  
   _→ [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)_
+
+**Composite Skills Agents**
+: следующий шаг от одного агента к ансамблю агентов  
+  _→ [README](docs/nautilus/README.md)_
 
 **Concrete example**
 : A social worker in Diakonie or  
@@ -346,13 +445,25 @@ _Определения извлечены автоматически из до�
 : low per-principal cost  
   _→ [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)_
 
+**Confluence**
+: корпоративная wiki (`  
+  _→ [08-export](docs/processing-guide/08-export.md)_
+
 **Consensus**
 : результат сопоставления найденных концептов между  
   _→ [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)_
 
 **Contact for discussion**
-: [author's GitHub issues, email  
-  _→ [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)_
+: [[03-component-catalog|author's [GitHub]] issues, email  
+  _→ [164-10-appendices](docs/obsidian/02-anthropic-vacancies/164-10-appendices.md)_
+
+**contact-outreach**
+: Контактный файл автора OSS-проекта: профиль, статус связи, первое сообщение  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
+**contradiction-record**
+: Запись о противоречии между двумя источниками  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
 
 **Contribution bonuses**
 : measurable high-impact work  
@@ -402,6 +513,10 @@ _Определения извлечены автоматически из до�
 : уже частично то, что вы хотите](#cowork-это-уже-частично-то-что-вы-хотите)  
   _→ [303-приложение-визуализация-позиции-в-серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)_
 
+**CQRS**
+: multiple read models from single event stream  
+  _→ [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)_
+
 **Critical caveat**
 : Must be paired with human advocate  
   _→ [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)_
@@ -432,6 +547,18 @@ _Определения извлечены автоматически из до�
 **Daily briefing**
 : Agent provides Stefan with morning  
   _→ [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
+
+**Data processing**
+: Polars, Pathway, Temporal  
+  _→ [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)_
+
+**Database innovations**
+: pgvector, Turso, DuckDB  
+  _→ [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)_
+
+**decision-record**
+: Architecture Decision Record (ADR): контекст → варианты → решение → последствия  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
 
 **Defensive posture**
 : Justifying existence, apologizing for being AI  
@@ -501,6 +628,10 @@ _Определения извлечены автоматически из до�
 : When he needs to file Widerspruch,  
   _→ [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
 
+**DuckDB / Turso / pgvector**
+: [Continuation 10 domains](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
 
 ## E
 
@@ -548,6 +679,10 @@ _Определения извлечены автоматически из до�
 : Project welcomes Mariya as advisor  
   _→ [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
 
+**ensemble**
+: Описание ансамбля компонентов: задача, состав, контракт, риски, MVP  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
 **ensemble methods**
 : несколько моделей → voting  
   _→ [112-5-связь-с-существующими-методологиями](docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)_
@@ -556,9 +691,21 @@ _Определения извлечены автоматически из до�
 : Agent identifies benefits  
   _→ [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
 
+**EPUB**
+: книга для чтения офлайн  
+  _→ [08-export](docs/processing-guide/08-export.md)_
+
 **Escalation**
 : When complexity exceeds agent capability,  
   _→ [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
+
+**et|nautilus]] использует MCP как protocol**
+: современный и правильный выбор  
+  _→ [01-интегральный-анализ-профиля-svend4](docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**Event Sourcing**
+: complete audit trail, time‑travel queries  
+  _→ [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)_
 
 **Evidence Envelope**
 : стандарт, по которому любой вывод системы можно обратно привязать к странице, координате, фрагменту текста или истории изменения  
@@ -581,7 +728,7 @@ _Определения извлечены автоматически из до�
   _→ [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)_
 
 **Examples**
-: ChatGPT, Claude, Cursor, GitHub Copilot, Claude  
+: ChatGPT, Claude, Cursor, [GitHub](  
   _→ [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)_
 
 **Excessive caveats**
@@ -608,6 +755,10 @@ _Определения извлечены автоматически из до�
 : LinkedIn, Upwork, Toptal — but these  
   _→ [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)_
 
+**experiment-log**
+: Журнал эксперимента: гипотеза, метод, журнал, результат, выводы  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
 **Extensions required for OKWF**
 : - Agent registry (AI assistants and meta-agents as first-class  
   _→ [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)_
@@ -623,6 +774,10 @@ _Определения извлечены автоматически из до�
 **External representation**
 : role of Representative  
   _→ [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)_
+
+**Extropic / Normal Computing (TSU)**
+: [Hardware pair 2 — TSU × MoME](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 
 ## F
@@ -642,6 +797,14 @@ _Определения извлечены автоматически из до�
 **Family harms**
 : reduced contribution to household economics,  
   _→ [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)_
+
+**faq-entry**
+: FAQ-запись: вопрос, краткий и подробный ответ  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
+**Fault tolerance**
+: no single point of failure  
+  _→ [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)_
 
 **FDE**
 : исполнительская роль на чужую продуктовую повестку  
@@ -666,6 +829,10 @@ _Определения извлечены автоматически из до�
 **Five onboarding paths**
 : от ручного адаптера до полностью  
   _→ [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)_
+
+**flegegrad 2-3, Sozialgericht proceedings)**
+: defensible moat, не слабость  
+  _→ [11-glossary](docs/nautilus/double-triangle-architecture/11-glossary.md)_
 
 **For affected individuals (clients)**
 : - More cases successfully advocated  
@@ -738,17 +905,17 @@ _Определения извлечены автоматически из до�
 : via [Issues](https://github  
   _→ [68-about](docs/02-anthropic-vacancies/68-about.md)_
 
-**GitHub archive flag**
-: одна кнопка, репо остаётся читаемым но помечается «не активен»  
-  _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
-
-**GitHub-аккаунт svend4**
-: сейчас центральная точка организации ваших 70 проектов и вашей будущей founder-истории  
-  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+**GitHub fork**
+: именно «private instance of public pattern»  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
 
 **GitHubTopicAdapter**
-: discovery по GitHub топику  
+: discovery по [GitHub](  
   _→ [97-22-glossary-of-reference-examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md)_
+
+**glossary-entry**
+: Глоссарная статья: определение, происхождение, синонимы, примеры  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
 
 **Goal**
 : InGit becomes usable as Cowork substrate  
@@ -756,7 +923,7 @@ _Определения извлечены автоматически из до�
 
 **Google DeepMind**
 : estimated 400+ open positions  
-  _→ [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)_
+  _→ [01-problem-statement](docs/nautilus/okwf-concept/01-problem-statement.md)_
 
 **Google.org**
 : established corporate philanthropy  
@@ -803,7 +970,7 @@ _Определения извлечены автоматически из до�
 
 **Hermes Agent**
 : серьёзный конкурент в области, которую мы обсуждали в наших девяти документах  
-  _→ [DUPLICATES](docs/DUPLICATES.md)_
+  _→ [00-question-what-is-hermes](docs/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md)_
 
 **HOLD**
 : избегай для новых проектов  
@@ -821,13 +988,13 @@ _Определения извлечены автоматически из до�
 : humans в management roles  
   _→ [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)_
 
+**Hybrid RAG**
+: legal texts + code + statistics  
+  _→ [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)_
+
 **Hype language**
 : «AI revolutionizes everything», «paradigm shift», «game-changer»  
   _→ [359-твои-anti-patterns](docs/02-anthropic-vacancies/359-твои-anti-patterns.md)_
-
-**HyperCortex Mesh Protocol (HMP)**
-: буквально decentralized cognitive mesh для AI-агентов, активно разрабатываемый, версия 5  
-  _→ [DUPLICATES](docs/DUPLICATES.md)_
 
 
 ## I
@@ -848,10 +1015,6 @@ _Определения извлечены автоматически из до�
 : fallback, если остальное не сработает, не флагман  
   _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
 
-**ilus» как имя папки для внешнего читателя**
-: метафора без контекста, и она сбивает с толку на фоне отдельного nautilus репо  
-  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
-
 **Impact**
 : High (foundational failure)  
   _→ [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)_
@@ -868,6 +1031,10 @@ _Определения извлечены автоматически из до�
 : только русскоязычный layer  
   _→ [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)_
 
+**Implication: «Habr Scout»**
+: только русскоязычный layer  
+  _→ [02-minuses-1-10](docs/lorenzo-agent/operationalized/02-minuses-1-10.md)_
+
 **Individual harms**
 : loss of professional identity, social  
   _→ [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)_
@@ -878,11 +1045,15 @@ _Определения извлечены автоматически из до�
 
 **info1**
 : 74 документа с α-уровнями, методологический угол  
-  _→ [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)_
+  _→ [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)_
 
 **InGit**
 : ground on which Cowork operates effectively  
   _→ [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)_
+
+**InGit + Cowork**
+: практическая интеграция с продуктом Anthropic Cowork  
+  _→ [README](docs/nautilus/README.md)_
 
 **InGit's contribution здесь**
 : structured Git workflows (Git hooks, validation, encryption)  
@@ -923,12 +1094,20 @@ _Определения извлечены автоматически из до�
 : open item, который легко заметить  
   _→ [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)_
 
+**json)**
+: open item, который легко заметить  
+  _→ [22-glossary](docs/nautilus/npp-v1-1/22-glossary.md)_
+
 
 ## K
 
 **K/мес MRR**
 : уже leverage для любого следующего шага, включая разговор с Anthropic Institute о grant/partnership  
   _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
+
+**K2-18 (Романов)**
+: [Three direct analogues](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 **Keep and focus on**
 : - File structure conventions  
@@ -943,12 +1122,16 @@ _Определения извлечены автоматически из до�
   _→ [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)_
 
 **Knowledge organization**
-: Structuring CardIndex entries, profile databases, project metadata  
+: Structuring [CardIndex](  
   _→ [351-что-ты-можешь-делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md)_
 
 **Konstantin Chukavin (Обучай)**
 : Profession-wide AI deployment example  
   _→ [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)_
+
+**kpi-snapshot**
+: Снапшот KPI с деталями метрик и трендом  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
 
 
 ## L
@@ -956,6 +1139,14 @@ _Определения извлечены автоматически из до�
 **l pilot to mature ecosystem This**
 : architecture skilled work has needed  
   _→ [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)_
+
+**Langfuse / TraceDebugger**
+: [AgentOps + Trace Envelope](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
+**LangGraph**
+: [vs Notion/Mem/AFFiNE/LangGraph](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 **Large Language Models**
 : Foundation for natural language  
@@ -966,8 +1157,8 @@ _Определения извлечены автоматически из до�
   _→ [366-технический-stack-svyazi-2-0-foundation](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)_
 
 **Layer 2 — Knowledge**
-: knowledge-space (Анастасия, MIT)  
-  _→ [366-технический-stack-svyazi-2-0-foundation](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)_
+: [[03-component-catalog|knowledge-space]] (Анастасия, MIT)  
+  _→ [366-технический-stack-svyazi-2-0-foundation](docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)_
 
 **Layer 3 — Kernel**
 : AgentFS-style file architecture (kksudo pattern, MIT)  
@@ -1001,6 +1192,18 @@ _Определения извлечены автоматически из до�
 : Cooperation with regulatory inquiries  
   _→ [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)_
 
+**Legal DSL**
+: non‑programmers write legal automation  
+  _→ [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)_
+
+**legal-case**
+: Юридический кейс: Aktenzeichen, стороны, хронология, нормы, прецеденты  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
+**legal-sgb-toolkit**
+: и запускаете пилот: живую команду 3-5 фрилансеров, с двухуровневой AI-оркестрацией (мета-агент на Claude Opus, суб-агенты на Claude Sonnet, MCP для shared context, LangGraph или CrewAI как caркас)  
+  _→ [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)_
+
 **lems with rigorous architectural thinking**
 : серьёзный intellectual achievement  
   _→ [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
@@ -1012,6 +1215,10 @@ _Определения извлечены автоматически из до�
 **Limitations**
 : Only economically viable for clients with  
   _→ [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)_
+
+**LiteLLM**
+: [Security + routing plane](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 **LiteLLM — claimed MIT**
 : actually well-known, можно verify  
@@ -1076,6 +1283,10 @@ _Определения извлечены автоматически из до�
 : Guilt, FOMO, pressure tactics  
   _→ [359-твои-anti-patterns](docs/02-anthropic-vacancies/359-твои-anti-patterns.md)_
 
+**Markdown-база**
+: хорошо, но разные инструменты требуют разных форматов:  
+  _→ [08-export](docs/processing-guide/08-export.md)_
+
 **Mass replication**
 : Yes (same product for all 93,000+  
   _→ [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)_
@@ -1088,6 +1299,30 @@ _Определения извлечены автоматически из до�
 : Rapid deployment in 2024-2026  
   _→ [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)_
 
+**md)**
+: вложенная иерархическая координация : один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
+  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**md) archive flag**
+: одна кнопка, репо остаётся читаемым но помечается «не активен»  
+  _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
+
+**md) использует MCP как protocol**
+: современный и правильный выбор  
+  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**md) уже автоматически отозвал этот токен**
+: занимает обычно от нескольких минут до нескольких часов после обнаружения  
+  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**md)-аккаунт svend4**
+: сейчас центральная точка организации ваших 70 проектов и вашей будущей founder-истории  
+  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**md)» как имя папки для внешнего читателя**
+: метафора без контекста, и она сбивает с толку на фоне отдельного nautilus репо  
+  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
 **Mechanics**
 : Agents typically take 10-20% commission of  
   _→ [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)_
@@ -1096,9 +1331,25 @@ _Определения извлечены автоматически из до�
 : - OKWF foundation provides EoR-equivalent services  
   _→ [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)_
 
+**meeting-notes**
+: Протокол встречи: повестка, обсуждение, решения, action items  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
+**meeting-notes****
+: встречи: повестка, обсуждение, решения, action items  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
 **Meeting‑to‑graph pipeline**
 : Yttri уже мыслит встречу как workspace с транскрипцией, summary и связями; Svyazi‑2  
   _→ [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)_
+
+**mega-stack**
+: Полный технологический стек для класса задач со всеми слоями  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
+**memnet|nautilus]]**
+: папка внутри pro2 , а не отдельный самостоятельный проект  
+  _→ [01-интегральный-анализ-профиля-svend4](docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
 
 **meta**
 : 256 CA-правил, гексаграммы, символьный угол  
@@ -1171,9 +1422,9 @@ _Определения извлечены автоматически из до�
 : - **Anthropic Public Benefit team**: explicit mission alignment  
   _→ [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)_
 
-**nautilus**
-: папка внутри pro2 , а не отдельный самостоятельный проект  
-  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+**Nautilus**
+: опциональный федерационный слой сверху, не требование  
+  _→ [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)_
 
 **Nautilus Portal Protocol**
 : именно такой infrastructure layer , и он у вас уже наполовину реализован  
@@ -1182,6 +1433,10 @@ _Определения извлечены автоматически из до�
 **Nautilus Portal Protocol v1.1**
 : - 6,782 LOC Python, 60 tests passing, 0 mypy errors  
   _→ [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)_
+
+**Nautilus-like federation**
+: infrastructure for AI agents operating on organizational knowledge  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
 
 **Negative**
 : - Cross-repo queries дороже: требуется вызов всех адаптеров  
@@ -1230,6 +1485,10 @@ _Определения извлечены автоматически из до�
 
 ## O
 
+**Obsidian**
+: vault с wikilinks и YAML frontmatter  
+  _→ [08-export](docs/processing-guide/08-export.md)_
+
 **ObsidianAdapter**
 : локальный Obsidian vault ([[wikilinks]])  
   _→ [97-22-glossary-of-reference-examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md)_
@@ -1261,6 +1520,10 @@ _Определения извлечены автоматически из до�
 **Option F : Pause exploration**
 : substantial concept, нужно time to digest  
   _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
+
+**Option F: Pause exploration**
+: substantial concept, нужно time to digest  
+  _→ [01-response](docs/lorenzo-agent/scenarios/01-response.md)_
 
 **Option Freeze**
 : явно пометить документ как «frozen at  
@@ -1316,6 +1579,10 @@ _Определения извлечены автоматически из до�
 **Pattern recognition**
 : Идентифицировать architectural patterns, philosophical alignments, complementarities  
   _→ [351-что-ты-можешь-делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md)_
+
+**PDA-бот (Possibility-Driven Architecture)**
+: [Habr key‑findings — PDA](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 **Persistence**
 : Professional context persists across sessions  
@@ -1397,13 +1664,17 @@ _Определения извлечены автоматически из до�
 : System-wide policies for all agents  
   _→ [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)_
 
+**plications (humanities, PM, OSS, generic)**
+: то, что делает вашу работу defensible на нескольких уровнях одновременно  
+  _→ [11-glossary](docs/nautilus/double-triangle-architecture/11-glossary.md)_
+
 **Portal**
 : implementation NPP, которая загружает registry, инстанцирует  
   _→ [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)_
 
 **PortalEntry**
 : унифицированная структура данных, в которую  
-  _→ [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)_
+  _→ [02-terminology](docs/nautilus/npp-v1-0/02-terminology.md)_
 
 **Positive**
 : - Low barrier to entry: существующие Repos подключаются без  
@@ -1455,7 +1726,7 @@ _Определения извлечены автоматически из до�
 
 **pro2**
 : Q6-концепты, граф знаний, семантический угол  
-  _→ [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)_
+  _→ [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)_
 
 **pro2 , svend4/pro2/blob/main/svend4/meta**
 : пути внутри pro2 с дублированным префиксом svend4/ , которых, скорее всего, не существует  
@@ -1501,6 +1772,14 @@ _Определения извлечены автоматически из до�
 : €500-5000/project for specific deliverables  
   _→ [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)_
 
+**project-component**
+: Карточка компонента: что это, особенности, статус, интеграция с экосистемой  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
+**Projects**
+: collaborative engagements, не transactions  
+  _→ [01-three-related-themes](docs/nautilus/supply-demand/01-three-related-themes.md)_
+
 **Proposed engagement structure**
 : - 3-year commitment at €1-1  
   _→ [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)_
@@ -1533,6 +1812,14 @@ _Определения извлечены автоматически из до�
 : semver-версия NPP, объявляемая в  
   _→ [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)_
 
+**protocol-spec**
+: Спецификация протокола в стиле IETF / Nautilus NPP  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
+**prototype-mvp**
+: План MVP с фазами, метриками успеха, рисками  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
 **Provalled approach + lesson learned**
 : сам по себе publishable result, если правильно оформить  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
@@ -1548,6 +1835,14 @@ _Определения извлечены автоматически из до�
 **Public availability**
 : This document is CC BY 4  
   _→ [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)_
+
+**Public pattern library с antipatterns**
+: collective memory of the profession  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
+
+**Pydantic everywhere**
+: type‑safe legal workflows  
+  _→ [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)_
 
 **Python LOC**
 : базовая метрика масштаба проекта  
@@ -1578,6 +1873,10 @@ _Определения извлечены автоматически из до�
 
 
 ## R
+
+**RAG**
+: слишком широкий чанк = шум в ответе  
+  _→ [03-chunking](docs/processing-guide/03-chunking.md)_
 
 **re (Conway, Brooks, Raymond, Shneiderman)**
 : защита от обвинения «изобретение велосипеда»  
@@ -1610,6 +1909,10 @@ _Определения извлечены автоматически из до�
 **Refined plan**
 : Build a sub-agent registry covering  
   _→ [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)_
+
+**Registry**
+: файл `[[memnet|nautilus]]  
+  _→ [07-2-terminology](docs/obsidian/02-anthropic-vacancies/07-2-terminology.md)_
 
 **Relational capital scales**
 : AI can monitor thousands  
@@ -1655,9 +1958,17 @@ _Определения извлечены автоматически из до�
 : Claude Code skill, который берёт папку с PDF/DOCX/PPTX/XLSX/изображениями, парсит документы и создаёт HTML-отчёт с цитатами и bounding box’ами прямо на странице PDF  
   _→ [00-intro](docs/04-ai-collaborations/00-intro.md)_
 
+**research-note**
+: Свободная заметка-исследование: контекст, находки, источники, открытые вопросы  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
 **Resource matching**
 : When city announces new home-meal  
   _→ [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
+
+**retrospective**
+: Ретроспектива: что хорошо, что плохо, action items  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
 
 **Return on investment for Anthropic**
 : - Talent pipeline that current hiring pipeline cannot reach  
@@ -1671,6 +1982,10 @@ _Определения извлечены автоматически из до�
 : three-phase methodology  
   _→ [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)_
 
+**Review protocol**
+: отделяет «обнаружено системой» от «принято в индекс сообщества» или «использовано во внешнем отчёте»  
+  _→ [gaps](docs/svyazi-2-0/architecture/gaps.md)_
+
 **Review без центрального bottleneck**
 : Sequential‑протокол в экспериментах автора даёт качество выше coordinator‑режима на сильных моделях  
   _→ [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)_
@@ -1678,6 +1993,10 @@ _Определения извлечены автоматически из до�
 **Revised Year 1 budget**
 : Original Document 6 estimate was  
   _→ [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)_
+
+**rfc**
+: Request for Comments — формальная спецификация в стиле IETF/Nautilus NPP  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
 
 **Risk**
 : Confusion about when to use which  
@@ -1691,6 +2010,10 @@ _Определения извлечены автоматически из до�
 : - Employment law reclassifying contributors as employees  
   _→ [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)_
 
+**risk-entry**
+: Запись риска: вероятность, влияние, митигация  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
 **rk effects работают против первых игроков**
 : без критической массы бесполезна  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
@@ -1698,6 +2021,14 @@ _Определения извлечены автоматически из до�
 **rkdown-фрагмент, а живой PDF с подсветкой**
 : снимает 95% недоверия к AI-ответам  
   _→ [00-intro](docs/04-ai-collaborations/00-intro.md)_
+
+**rking paper без раздела «что мы не знаем»**
+: PR-document, не research  
+  _→ [11-glossary](docs/nautilus/double-triangle-architecture/11-glossary.md)_
+
+**RLM‑Toolkit**
+: budget / privacy presets  
+  _→ [security-routing-plane](docs/svyazi-2-0/components/security-routing-plane.md)_
 
 **ROI меняется в другую сторону**
 : избыточность больше не люкс, а  
@@ -1710,6 +2041,10 @@ _Определения извлечены автоматически из до�
 **routing через вложенные уровни гексаграмм**
 : и есть конвейер матрёшек из вашей формулировки  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**RSS/Atom**
+: фид изменений для подписчиков  
+  _→ [08-export](docs/processing-guide/08-export.md)_
 
 
 ## S
@@ -1726,13 +2061,25 @@ _Определения извлечены автоматически из до�
 : potential Lorenzo collaborator или another Catalyst Agent attempt  
   _→ [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)_
 
+**Scenario A: Author документа**
+: potential Lorenzo collaborator или another Catalyst Agent attempt  
+  _→ [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)_
+
 **Scenario B : Document**
 : intellectual exploration , без commitment к building  
   _→ [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)_
 
+**Scenario B: Document**
+: intellectual exploration, без commitment к building  
+  _→ [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)_
+
 **Scenario C : Document**
 : AI-generated синтез (could be Claude или GPT exploration)  
   _→ [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)_
+
+**Scenario C: Document**
+: AI-generated синтез (could be Claude или GPT exploration)  
+  _→ [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)_
 
 **Science Communication Guild**
 : arxiv paper translation  
@@ -1741,6 +2088,10 @@ _Определения извлечены автоматически из до�
 **Screeps особенно интересен**
 : MMO, где вы программируете юнитов на JavaScript, и ваши скрипты работают 24/7 на серверах игры, воюя с другими игроками  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**Search**
+: Meilisearch, Typesense  
+  _→ [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)_
 
 **Second level**
 : Independent ombudsman within platform  
@@ -1754,6 +2105,10 @@ _Определения извлечены автоматически из до�
 : `pro2` смотрит на мир через **структуру значений**  
   _→ [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)_
 
+**SENTINEL**
+: [Security + routing plane](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
 **Sequencing**
 : Professional Colleague Agents are higher-readiness  
   _→ [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)_
@@ -1761,6 +2116,10 @@ _Определения извлечены автоматически из до�
 **Setup**
 : Mariya completes 90-minute conversational  
   _→ [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
+
+**shell**
+: **spiral of nested chambers**, each larger  
+  _→ [68-about](docs/02-anthropic-vacancies/68-about.md)_
 
 **Simulator» и «MMO AI Bridge» в одном репо**
 : явная попытка именно этой идеи  
@@ -1773,6 +2132,10 @@ _Определения извлечены автоматически из до�
 **Size estimate**
 : 500K+ in OECD countries with relevant skills  
   _→ [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)_
+
+**Skate**
+: [Distributed Agent Workshop](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 **social_law + analysis_05_recommendations**
 : буквально исходный материал для их research agenda  
@@ -1806,6 +2169,10 @@ _Определения извлечены автоматически из до�
 : meta-документ о процессе  
   _→ [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)_
 
+**SpiceDB**
+: 5 мс p95, миллионы QPS  
+  _→ [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)_
+
 **Staff Software Engineer, Inference**
 : CUDA/TPU kernel-уровень, низкоуровневые оптимизации по latency и throughput в миллисекундах  
   _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
@@ -1825,6 +2192,10 @@ _Определения извлечены автоматически из до�
 **Steady state (Year 2+)**
 : - Curation maintenance (0  
   _→ [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)_
+
+**Storage**
+: SeaweedFS, Garage, Iroh  
+  _→ [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)_
 
 **Strategic analysis**
 : Risk assessment, opportunity sizing, prioritization  
@@ -1874,6 +2245,10 @@ _Определения извлечены автоматически из до�
 : экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных  
   _→ [FAQ](docs/FAQ.md)_
 
+**Svyazi 2.0 — Knowledge Base Report**
+: аналитический обзор базы знаний, сгенерированный автоматически 2026-04-29  
+  _→ [REPORT](docs/REPORT.md)_
+
 **Svyazi‑2.0**
 : ingestion и нормализация профи  
   _→ [01-executive-summary](docs/01-svyazi/01-executive-summary.md)_
@@ -1897,6 +2272,14 @@ _Определения извлечены автоматически из до�
 : Anthropic Beneficial Deployments team  
   _→ [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)_
 
+**tech-pair**
+: Пара технологий с описанием синергии  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
+**tech-radar-entry**
+: Запись Tech Radar: квадрант, кольцо, обоснование  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
+
 **Technical Writing Guild**
 : software documentation,  
   _→ [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)_
@@ -1909,6 +2292,10 @@ _Определения извлечены автоматически из до�
 : меньше handcraft, больше auto-generated property tests  
   _→ [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)_
 
+**tg-chat-analyser**
+: [Supplementary infrastructure](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
 **The combinatorial value**
 : central economic insight: a  
   _→ [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)_
@@ -1916,6 +2303,10 @@ _Определения извлечены автоматически из до�
 **The composite agent itself**
 : orchestrator of the lower  
   _→ [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)_
+
+**The Double-Triangle Architecture**
+: framework awaiting --- - 8  
+  _→ [SUMMARIES](docs/SUMMARIES.md)_
 
 **The pattern library**
 : **glue** that binds the upper and  
@@ -1957,10 +2348,6 @@ _Определения извлечены автоматически из до�
 : Methodology for parallel AI-agent  
   _→ [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)_
 
-**tHub уже автоматически отозвал этот токен**
-: занимает обычно от нескольких минут до нескольких часов после обнаружения  
-  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
-
 **ti-device vault (3) + Obsidian-as-MCP (2)**
 : уже не три проекта, а единая архитектура захвата-консолидации-доступа, где каждый слой делает то, что умеет лучше всего, и не лезет в чужую зону  
   _→ [00-intro](docs/04-ai-collaborations/00-intro.md)_
@@ -1989,6 +2376,14 @@ _Определения извлечены автоматически из до�
 : neither свидание, neither hiring, neither networking  
   _→ [165-closing](docs/02-anthropic-vacancies/165-closing.md)_
 
+**toml**
+: формализация «от чего мой проект зависит»  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
+
+**Tool Search**
+: [Security + routing plane](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
 **Topologически полезен**
 : локальная соседство (hamming distance  
   _→ [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)_
@@ -2009,8 +2404,12 @@ _Определения извлечены автоматически из до�
 : стоит попробовать в пилоте  
   _→ [TECH_RADAR](docs/TECH_RADAR.md)_
 
+**Turso edge DB + MVCC**
+: database‑per‑tenant в 100–1000× дешевле  
+  _→ [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)_
+
 **txt**
-: ограничение GitHub на crawling  
+: ограничение [GitHub](  
   _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
 
 **Type 1**
@@ -2028,6 +2427,10 @@ _Определения извлечены автоматически из до�
 
 ## U
 
+**ub]] уже автоматически отозвал этот токен**
+: занимает обычно от нескольких минут до нескольких часов после обнаружения  
+  _→ [01-интегральный-анализ-профиля-svend4](docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
 **Underserved market**
 : Limited commercial competition in  
   _→ [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)_
@@ -2039,6 +2442,10 @@ _Определения извлечены автоматически из до�
 **Upper triangle**
 : Meta-agent + multiple human participants  
   _→ [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)_
+
+**us]]» как имя папки для внешнего читателя**
+: метафора без контекста, и она сбивает с толку на фоне отдельного nautilus репо  
+  _→ [01-интегральный-анализ-профиля-svend4](docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
 
 **Use case**
 : анонс намерения подключить Repo до написания кода  
@@ -2063,12 +2470,20 @@ _Определения извлечены автоматически из до�
 : Fundamentally mismatched to target populations  
   _→ [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)_
 
+**Vision paper про hypothetical MMORPG**
+: прыжок через несколько этапов  
+  _→ [01-response](docs/nautilus/innovation-transitions/01-response.md)_
+
 
 ## W
 
 **Web interface, CLI format output**
 : implementation details reference portal, не нормативные  
   _→ [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)_
+
+**weekly-digest**
+: Еженедельный дайджест: TL;DR, что сделано, метрики, решения, план  
+  _→ [VALIDATION](docs/obsidian/VALIDATION.md)_
 
 **What**
 : minimum AI capability for this architecture?**  
@@ -2089,6 +2504,10 @@ _Определения извлечены автоматически из до�
 **What it provides**
 : - Federated knowledge storage across heterogeneous formats  
   _→ [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)_
+
+**What matches**
+: architecture where: - Many narrow-specialist sub-agents exist, each built once - Sub-agents are shared across all practitioners who need that specialization - Each principal conf…  
+  _→ [DUPLICATES](docs/obsidian/DUPLICATES.md)_
 
 **What we ask**
 : - Core partnership funding commitment (€1-3M over 3 years)  
@@ -2114,6 +2533,10 @@ _Определения извлечены автоматически из до�
 : - No automatic validation (Cowork might create invalid YAML)  
   _→ [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)_
 
+**which we argue**
+: correct architectural primitive for the next generation of AI-managed knowledge work  
+  _→ [SUMMARIES](docs/SUMMARIES.md)_
+
 **who**
 : partner, what role makes sense, what timeline, what compensation, what risks  
   _→ [165-closing](docs/02-anthropic-vacancies/165-closing.md)_
@@ -2138,6 +2561,10 @@ _Определения извлечены автоматически из до�
 : - Compounds knowledge across contributors  
   _→ [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)_
 
+**Why Quality Stays Invisible There**
+: recurring asymmetry in modern markets — markets for --- Содержание - 1  
+  _→ [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)_
+
 **Why subsidiarity is right model**
 : - Below full-salary level preserves other life activities  
   _→ [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)_
@@ -2145,6 +2572,10 @@ _Определения извлечены автоматически из до�
 **Wi-Fi-инженера с питерским разработчиком**
 : просто потенциация одного синапса до порога выявляемости  
   _→ [00-intro](docs/04-ai-collaborations/00-intro.md)_
+
+**Wikontic**
+: [Three direct analogues](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
 
 
 ## Y
@@ -2182,6 +2613,10 @@ _Определения извлечены автоматически из до�
 **а: Mamba с её селективным state evolution**
 : уже почти recurrent dynamics, которые просто просятся в spike-форму  
   _→ [00-intro](docs/04-ai-collaborations/00-intro.md)_
+
+**Автоматизировать**
+: чтобы работало без ручного труда  
+  _→ [01-overview](docs/processing-guide/01-overview.md)_
 
 **Адаптеры**
 : граница между мирами  
@@ -2227,9 +2662,17 @@ _Определения извлечены автоматически из до�
 : Quality metrics для extracted structures  
   _→ [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)_
 
+**Ассоциативный вывод**
+: список triggered nodes и path explanation (NGT Memory, Graph RAG)  
+  _→ [evidence-envelope](docs/svyazi-2-0/architecture/evidence-envelope.md)_
+
 **ать issues, pull requests от вашего имени**
 : атрибутируется к вашему аккаунту  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**Аудировать**
+: «вот что есть, вот чего нет»  
+  _→ [01-concept](docs/meta-scripting/01-concept.md)_
 
 **аша бывшая идея про AI-orchestrated teams**
 : именно эпические квесты с AI-gamemaster'ом  
@@ -2257,6 +2700,10 @@ _Определения извлечены автоматически из до�
 **Большие Языковые Модели**
 : Основа для понимания, генерации, коммуникации естественного языка  
   _→ [195-5-архитектурная-спецификация](docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md)_
+
+**большой разрозненный массив информации**
+: сохранённые сессии ChatGPT/Claude (MHTML), исследовательские отчёты, статьи с Хабра, технические документы — перед вами стоит задача:  
+  _→ [01-overview](docs/processing-guide/01-overview.md)_
 
 **Бюджетный и privacy‑aware роутинг**
 : RLM‑Toolkit уже описывает budget‑first, quality‑first и privacy‑first конфигурации как первый класс настроек  
@@ -2289,9 +2736,17 @@ _Определения извлечены автоматически из до�
 : digital curator для technical/scientific work  
   _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
 
+**Ваш code review**
+: instance review checklist  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
+
+**Ваш deployment process**
+: instance CI/CD best practice  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
+
 **ваш nautilus использует MCP как protocol**
 : современный и правильный выбор  
-  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+  _→ [SUMMARIES](docs/SUMMARIES.md)_
 
 **Ваш scenario**
 : next evolution того, что мы делаем сейчас  
@@ -2300,6 +2755,14 @@ _Определения извлечены автоматически из до�
 **Ваш scout**
 : embodiment of hybrid intelligence collective , где AI plays role которая не существует в pure human community  
   _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
+
+**Ваш Scrum**
+: instance общего Scrum pattern  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
+
+**Ваш sprint retrospective**
+: instance одного из 20 retrospective formats  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
 
 **Ваш Writing OS**
 : буквально FDE-проект в миниатюре: взяли узкую вертикаль (немецкое соцправо), построили полную систему инструментов, интегрировали с Claude API, работаете с реальными делами  
@@ -2317,6 +2780,10 @@ _Определения извлечены автоматически из до�
 : буквально sample данных для их research agenda  
   _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
 
+**Ваша humanities-extension**
+: fork of core Nautilus с additions  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
+
 **Ваша OKWF**
 : distributed work platform для qualified contributors  
   _→ [165-closing](docs/02-anthropic-vacancies/165-closing.md)_
@@ -2329,6 +2796,10 @@ _Определения извлечены автоматически из до�
 : реальное расхождение из Part 1)  
   _→ [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)_
 
+**Векторный поиск**
+: embeddings + cosine similarity:  
+  _→ [06-search](docs/processing-guide/06-search.md)_
+
 **Верификация качества работы**
 : главный technical challenge  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
@@ -2340,6 +2811,10 @@ _Определения извлечены автоматически из до�
 **версий за несколько месяцев**
 : активная экспериментальная работа  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**Версионирования**
+: любое изменение — diff всего файла  
+  _→ [03-chunking](docs/processing-guide/03-chunking.md)_
 
 **Внешнее взаимодействие**
 : Общается со сторонами за пределами принципала  
@@ -2368,6 +2843,10 @@ _Определения извлечены автоматически из до�
 **Время**
 : 30 минут настройки, далее полностью автоматически  
   _→ [87-12-onboarding-paths-normative](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md)_
+
+**Все 155 скриптов**
+: обучающий датасет паттернов  
+  _→ [02-architecture](docs/meta-scripting/02-architecture.md)_
 
 **Вторичные**
 : Защитники прав инвалидов в НКО  
@@ -2423,6 +2902,10 @@ _Определения извлечены автоматически из до�
 **Гипотетический пример**
 : **Разрешение**: оба риска реальны, приоритезация зависит от цели  
   _→ [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)_
+
+**Главный скрипт**
+: запускает все группы в правильном порядке  
+  _→ [09-automation](docs/processing-guide/09-automation.md)_
 
 **го knowledge-protocol к external audience**
 : быть также MCP-совместимым  
@@ -2535,6 +3018,10 @@ _Определения извлечены автоматически из до�
 : `static | github_api | http_api | local_files` +  
   _→ [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md)_
 
+**Дочкина (Sequential протокол)**
+: [AutoResearch + Sequential](  
+  _→ [components-by-name](docs/glossary/components-by-name.md)_
+
 **дублирования кода и документации**
 : разумно, когда каждая  
   _→ [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)_
@@ -2558,6 +3045,14 @@ _Определения извлечены автоматически из до�
 : точная характеристика того, что Свйази делает и чего нет в массовом рынке  
   _→ [165-closing](docs/02-anthropic-vacancies/165-closing.md)_
 
+**е: pattern library с contribution bridges**
+: более formalized version того же механизма  
+  _→ [01-claude-response](docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
+
+**Единый тип карточки**
+: должен хранить и «человека», и «проект», и «эпизод», и «документ», и «слабую гипотезу»  
+  _→ [gaps](docs/svyazi-2-0/architecture/gaps.md)_
+
 **Ежедневный брифинг**
 : Агент предоставляет Стефану утреннее резюме потребностей, требующих внимания, предстоящих сроков, новой информации, релевантной каждому клиенту  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)_
@@ -2569,6 +3064,10 @@ _Определения извлечены автоматически из до�
 **елам документов, делать ответвления мысли**
 : искусственно для GitHub  
   _→ [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)_
+
+**епо hex-проектов, граф Q6 (гексаграммы)»)**
+: backbone для [pro2](  
+  _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
 
 **есколько детей, превосходящих в обучении»**
 : здесь работает буквально потому, что технологии в парах не из одной семьи: Mamba — это математика, нейроморфы — физика; TSU — физика, MoME — математика; ZINC — software, гибридная архитектура — алгоритм; RISC-V — кремний, privacy — право; TinyML — embedded, MCP — протокол  
@@ -2582,6 +3081,10 @@ _Определения извлечены автоматически из до�
 : отдельный extension протокола (v2  
   _→ [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)_
 
+**Если вижу что-то с высоты bird's-eye view**
+: то, что материал реально оригинальный  
+  _→ [11-glossary](docs/nautilus/double-triangle-architecture/11-glossary.md)_
+
 **Если вы реализовали именно cascade**
 : более редкая архитектура , с бо́льшим потенциалом научной оригинальности  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
@@ -2589,6 +3092,10 @@ _Определения извлечены автоматически из до�
 **Если вы это делали сознательно**
 : сильный философский фундамент, который стоит явно упомянуть в публикациях  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**Если принять, что Nautilus**
+: prototype infrastructure для AI-managed distributed knowledge work, то следующие вопросы становятся:  
+  _→ [01-response](docs/nautilus/innovation-transitions/01-response.md)_
 
 **Если формулировки различаются**
 : взять ту, которая точнее;  
@@ -2613,6 +3120,10 @@ _Определения извлечены автоматически из до�
 : параллельная с основным Nautilus разработка в текущем темпе (несколько недель на фа  
   _→ [QUESTIONS](docs/QUESTIONS.md)_
 
+**Знает порядок**
+: какой скрипт от чего зависит  
+  _→ [09-automation](docs/processing-guide/09-automation.md)_
+
 **Зрелость**
 : Активное развёртывание  
   _→ [238-7-области-применения](docs/02-anthropic-vacancies/238-7-области-применения.md)_
@@ -2624,9 +3135,13 @@ _Определения извлечены автоматически из до�
 : возможность писать коммиты в те тестовые репо от вашего имени или создавать pull requests, которые будут attributed к svend4  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
 
-**И pro2, и nautilus**
+**И pro2, и [[memnet|nautilus]]**
 : вложенная иерархическая координация : один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
-  _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+  _→ [01-интегральный-анализ-профиля-svend4](docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**И pro2, и nautilus**
+: вложенная иерархическая координация: один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
+  _→ [03-nautilus-B-meta-orchestrator](docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md)_
 
 **И ваш пример с компьютерной игрой**
 : операционализация на детском уровне всего этого комплекса  
@@ -2636,13 +3151,29 @@ _Определения извлечены автоматически из до�
 : infrastructure, которую вы способны помочь построить  
   _→ [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)_
 
+**И паттерн что вас интересует**
+: collaboration matching через AI (Wi-Fi инженер + петербургский разработчик нашли друг друга через систему и начали open-source проект по радиопланированию)  
+  _→ [00-question-habr-examples](docs/habr-unique-projects/extra-examples/00-question-habr-examples.md)_
+
 **Идеализм**
 : Present, но pragmatic  
   _→ [349-твоя-личность](docs/02-anthropic-vacancies/349-твоя-личность.md)_
 
+**Идемпотентно**
+: повторный запуск не дублирует TOC  
+  _→ [04-structuring](docs/processing-guide/04-structuring.md)_
+
 **Идентичность: «Lorenzo**
 : рабочий процесс / инструмент, используемый Максом»  
   _→ [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)_
+
+**идических документов, для medical records**
+: доказательство, что архитектура действительно foundational, а не доменно-специфичная  
+  _→ [01-response](docs/nautilus/innovation-transitions/01-response.md)_
+
+**ие документы) будут иметь свой Q6-маппинг**
+: и есть гибкость протокола  
+  _→ [01-structural-comparison-code-vs-docs](docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)_
 
 **из свободного текста, а самое интересное**
 : случайно нашла двух людей (Wi-Fi-инженер + питерский разработчик), которые благодаря «карточкам коллабораций» начали совместный open-source проект по радиопланированию Wi-Fi  
@@ -2692,9 +3223,17 @@ _Определения извлечены автоматически из до�
 : self-confirming evidence  
   _→ [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
 
+**использовать токены**
+: значит, что вам нужно использовать их аккуратнее, чем обычному разработчику  
+  _→ [DECISIONS](docs/DECISIONS.md)_
+
 **используемые факты постепенно забываются**
 : в точности «Ebbinghaus decay»), prune, переэмбеддинг, causal inference; — инструмент explain_fact — на вопрос «откуда ты это знаешь?» агент проходит по derived_from-рёбрам до исходных диалогов  
   _→ [00-intro](docs/04-ai-collaborations/00-intro.md)_
+
+**Исходные файлы проекта Lorenzo**
+: **MHTML-архивы** (сохранённые страницы браузера из Claude  
+  _→ [02-extraction](docs/processing-guide/02-extraction.md)_
 
 **Итого**
 : реалистичный MVP — **12–18 инженерных дней** для одного сильного разработчика или пары “backend + agent/operator”  
@@ -2730,16 +3269,24 @@ _Определения извлечены автоматически из до�
 : существующий проект с кодом , не theoretical concept  
   _→ [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)_
 
+**Каждый навык**
+: специализированный инструмент  
+  _→ [01-similarity-1-composite-skills](docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md)_
+
 **Какой бы вариант ни был реализован**
 : публикабельный результат  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**Каталог**
+: JSON-файл (`docs/scripts_catalog  
+  _→ [03-catalog](docs/meta-scripting/03-catalog.md)_
 
 **катастрофа**
 : - Вариант A может содержать таблицу метрик, которой нет в B  
   _→ [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)_
 
 **Качество**
-: зависит от index в nautilus  
+: зависит от index в [nautilus](  
   _→ [87-12-onboarding-paths-normative](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md)_
 
 **кетинг, нетворкинг, построение нарратива)**
@@ -2849,6 +3396,10 @@ _Определения извлечены автоматически из до�
 : Автор имеет прямой опыт и  
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)_
 
+**Логика такая: приватный кейс**
+: instance публичного паттерна  
+  _→ [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)_
+
 **ложное соотношение (например, гексаграммы**
 : аттракторы или устойчивые паттерны динамики CA-правил)  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
@@ -2889,7 +3440,7 @@ _Определения извлечены автоматически из до�
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
 
 **методологическое измерение**
-: отвечает на вопрос «как это делать», в отличие от `pro2`  
+: отвечает на вопрос «как это делать», в отличие от `[pro2](  
   _→ [36-essence](docs/02-anthropic-vacancies/36-essence.md)_
 
 **Механика**
@@ -2898,15 +3449,23 @@ _Определения извлечены автоматически из до�
 
 **Минусы**
 : нужны GitHub токены с правами на оба репо, Q6 всё равно  
-  _→ [87-12-onboarding-paths-normative](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md)_
+  _→ [12-onboarding-paths](docs/nautilus/npp-v1-1/12-onboarding-paths.md)_
 
 **Многосторонне управление**
 : Советы включают представителей бенефициаров  
   _→ [197-7-управление-и-надзор](docs/02-anthropic-vacancies/197-7-управление-и-надзор.md)_
 
+**Можем сделать первое**
+: сейчас самый мощный rational move, так как он закладывает фундамент для всего остального  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
+
 **Может быть, придумывая это имя**
 : часть ценного contribution  
   _→ [165-closing](docs/02-anthropic-vacancies/165-closing.md)_
+
+**Мой кейс**
+: instance паттерна X»  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
 
 **монорепо hex-проектов на основе граф Q6»)**
 : третий слой той же концепции, возможно, aggregator уровнем выше  
@@ -2923,6 +3482,10 @@ _Определения извлечены автоматически из до�
 
 ## Н
 
+**Навигации**
+: человек не читает монолит  
+  _→ [03-chunking](docs/processing-guide/03-chunking.md)_
+
 **Накопленный реляционный капитал**
 : ценность агента приходит от сети, не только от транзакционного навыка  
   _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн](docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)_
@@ -2930,6 +3493,10 @@ _Определения извлечены автоматически из до�
 **Направление**
 : Реактивное в профессиональном  
   _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)_
+
+**Например, Legal M&A Due Diligence**
+: natural fit для Workforce of specialized agents  
+  _→ [02-what-info-repos-contain](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)_
 
 **Настройка**
 : Мария проходит 90-минутный разговорный онбординг, описывая свою экспертизу, интересы, способности (10-15 часов/неделю), предпочтения (асинхронно, без поездок, только интересные проекты)  
@@ -2947,9 +3514,21 @@ _Определения извлечены автоматически из до�
 : займёт огромное количество контекста  
   _→ [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)_
 
+**не знают про команду**
+: каждый работает изолированно со своим человеком  
+  _→ [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)_
+
 **ние Lorenzo Vision (Часть I) прямо сейчас**
 : содержательный контент, полезный независимо от решений Phase 1  
   _→ [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)_
+
+**никальная disability-informed perspective**
+: defensible moat для такого проекта, которого не будет у обычных legal-tech стартапов  
+  _→ [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)_
+
+**ните с [`okwf-concept/`](okwf-concept/)****
+: foundational concept document, фон для всех остальных  
+  _→ [README](docs/nautilus/README.md)_
 
 **нкой часов работы и ожидаемого результата**
 : позволит за вечер выбрать, куда вкладывать первое действие  
@@ -2958,6 +3537,18 @@ _Определения извлечены автоматически из до�
 **Но Domain 1**
 : Representative Agent applications  
   _→ [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)_
+
+**Но LangGraph**
+: runtime, а не доменная система  
+  _→ [07-vs-notion-mem-affine-langgraph](docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)_
+
+**Но Notion AI**
+: прежде всего workspace search + productivity AI  
+  _→ [07-vs-notion-mem-affine-langgraph](docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)_
+
+**Но есть нюанс: skills в Hermes**
+: generally functional capabilities (web search, code execution, file operations, etc  
+  _→ [01-similarity-1-composite-skills](docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md)_
 
 **Но код там никто не пишет**
 : про менеджмент, не про R&D  
@@ -3005,6 +3596,14 @@ _Определения извлечены автоматически из до�
 **Обнаружение**
 : Агент мониторит open-source проекты ячеистых сетей, гражданские технологические инициативы на её языке, исследовательские сотрудничества  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)_
+
+**Обогатить**
+: найти то, что не видно напрямую  
+  _→ [01-overview](docs/processing-guide/01-overview.md)_
+
+**Обогащать**
+: добавить docstring, типизацию, примеры  
+  _→ [01-concept](docs/meta-scripting/01-concept.md)_
 
 **обслуживающий человека»**
 : единственная категория  
@@ -3062,9 +3661,17 @@ _Определения извлечены автоматически из до�
 : документ явно помечается как  
   _→ [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)_
 
+**Остальные уровни (E-I)**
+: направления исследований, которые можно реализовать поверх существующей базы  
+  _→ [10-future](docs/processing-guide/10-future.md)_
+
 **Осторожность**
 : Психическое здоровье —  
   _→ [238-7-области-применения](docs/02-anthropic-vacancies/238-7-области-применения.md)_
+
+**от knowledge federation к team management**
+: распознание, что это одна и та же архитектурная проблема  
+  _→ [01-response](docs/nautilus/innovation-transitions/01-response.md)_
 
 **Отношение**
 : Профессиональный Коллега-Агент  
@@ -3109,6 +3716,10 @@ _Определения извлечены автоматически из до�
 : Svyazi + AgentFS + NGT/Yodoca + LiteParse: даёт уже полезный MVP  
   _→ [01-executive-summary](docs/01-svyazi/01-executive-summary.md)_
 
+**первое конкретное действие — то же**
+: написать **technical thesis paper на 15-20 страниц**, формализующий вашу идею  
+  _→ [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)_
+
 **Первые клиенты**
 : всегда прогрессивные startups и research organizations, не enterprise  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
@@ -3141,9 +3752,9 @@ _Определения извлечены автоматически из до�
 : Когда ему нужно подать Widerspruch, агент составляет формальный документ для его проверки и подписи  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)_
 
-**Подпапка `nautilus/`**
+**Подпапка `[[memnet|nautilus]]/`**
 : historical embedded-версия Portal  
-  _→ [48-content-overview](docs/02-anthropic-vacancies/48-content-overview.md)_
+  _→ [48-content-overview](docs/obsidian/02-anthropic-vacancies/48-content-overview.md)_
 
 **Позиция A**
 : 88% fallback критично, требует срочных живых  
@@ -3156,6 +3767,10 @@ _Определения извлечены автоматически из до�
 **Поиск знаний**
 : - Соответствующие SGB статуты (IX, XII в  
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)_
+
+**Поиска**
+: невозможно найти конкретный факт  
+  _→ [03-chunking](docs/processing-guide/03-chunking.md)_
 
 **Поищу local-first и CRDT/sync engines**
 : слой, без которого сольная работа над персональными системами рассыпается на разных устройствах  
@@ -3197,6 +3812,10 @@ _Определения извлечены автоматически из до�
 : Позволяет высокоталантливым, но наивным в бизнесе создателям сосредоточиться на творчестве, по-прежнему получая справедливое вознаграждение  
   _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн](docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)_
 
+**Почему это не было построено Объяснение 1**
+: сложнее, чем выглядит  
+  _→ [293-почему-это-не-было-построено](docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md)_
+
 **права: это не юрист, продающий консалтинг**
 : субъект системы, который из-за своей ситуации знает её изнутри, систематизировал её, и параллельно выстроил tools и шаблоны  
   _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
@@ -3234,7 +3853,7 @@ _Определения извлечены автоматически из до�
   _→ [234-3-эмпирический-кейс-обучай](docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md)_
 
 **Примеры**
-: ChatGPT, Claude, Cursor, GitHub  
+: ChatGPT, Claude, Cursor, [GitHub](  
   _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)_
 
 **Примеры запросов**
@@ -3268,6 +3887,14 @@ _Определения извлечены автоматически из до�
 **Происхождение**
 : Конец 19 века в Европе и Америке, формализован в 1880-х  
   _→ [192-2-исторические-прецеденты-агенты-как-цивилизационн](docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)_
+
+**Пропускает ненужное**
+: если метрика уже хорошая  
+  _→ [09-automation](docs/processing-guide/09-automation.md)_
+
+**противоположная**
+: AI-агенты помощники живым людям, а не замена  
+  _→ [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)_
 
 **Протокол Федерации**
 : Стандартные интерфейсы для взаимодействия агентов с внешними системами и другими агентами  
@@ -3308,6 +3935,10 @@ _Определения извлечены автоматически из до�
 : критически важное](#различение-которое-вы-предложили-это-критически-важное)  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)_
 
+**Реагирует на изменения**
+: сама запускается когда файл изменился  
+  _→ [09-automation](docs/processing-guide/09-automation.md)_
+
 **Регионы карты**
 : «локации проектов»: визуальное пространство, ассоциированное с конкретной миссией или компанией  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
@@ -3318,7 +3949,7 @@ _Определения извлечены автоматически из до�
 
 **Результаты**
 : черновики, требующие проверки и принятия практикующим, не окончательные продукты  
-  _→ [DUPLICATES](docs/DUPLICATES.md)_
+  _→ [DUPLICATES](docs/obsidian/DUPLICATES.md)_
 
 **Рекомендация**
 : **Сделайте это сейчас**  
@@ -3348,9 +3979,17 @@ _Определения извлечены автоматически из до�
 : ровно beneficial deployment в life sciences  
   _→ [00-intro](docs/02-anthropic-vacancies/00-intro.md)_
 
+**Российские проекты**
+: VictoriaMetrics/VictoriaLogs/VictoriaTraces, Tarantool DB 3  
+  _→ [sozialrecht-35-combinations](docs/technology-combinations/research-reports/sozialrecht-35-combinations.md)_
+
 **Рутинное составление**
 : - Widerspruch против отклонённых заявлений  
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)_
+
+**рхитектуре: трёхфазная methodology review**
+: именно механизм обратной связи  
+  _→ [01-claude-response](docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
 
 **рёх траекторий, первый публичный артефакт**
 : всё тот же universal-file-storage-mcp, потому что он является технологическим доказательством того, что вы способны довести идею до работающего инструмента  
@@ -3371,13 +4010,41 @@ _Определения извлечены автоматически из до�
 : - Если кто-то ещё builds similar Catalyst Agent, treat respectfully  
   _→ [358-твоя-relationship-с-другими-ai](docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md)_
 
+**Самый дешёвый**
+: extraction, indexing и basic memory на локальной модели; в облако только ambiguous ranking и финальное объяснение  
+  _→ [budget-routing](docs/svyazi-2-0/security/budget-routing.md)_
+
+**Самый интересный сценарий**
+: когда Nautilus используется для управления open-source проектами:  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
+
+**Самый качественный**
+: локально retrieval и memory; премиум‑модель только на объяснение, конфликт‑resolution и сложные relation‑queries  
+  _→ [budget-routing](docs/svyazi-2-0/security/budget-routing.md)_
+
+**Самый приватный**
+: локальные модели плюс gateway как внутренний abstraction layer  
+  _→ [budget-routing](docs/svyazi-2-0/security/budget-routing.md)_
+
 **Свйази**
 : networking platform для professional community  
   _→ [165-closing](docs/02-anthropic-vacancies/165-closing.md)_
 
+**Свяжи (Svyazi) от Андрея Чуяна**
+: которая помогает участникам сообщества находить друг друга через структурированные профили  
+  _→ [00-question-habr-examples](docs/habr-unique-projects/extra-examples/00-question-habr-examples.md)_
+
+**Свяжи's Wi-Fi-инженер example**
+: powerful demonstration что structured matching enabled by AI работает  
+  _→ [12-concrete-next-step](docs/habr-unique-projects/extra-examples/12-concrete-next-step.md)_
+
 **Связаться**
 : через [Issues](https://github  
   _→ [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)_
+
+**Сделать доступным**
+: поиск, экспорт, навигация  
+  _→ [01-overview](docs/processing-guide/01-overview.md)_
 
 **Семантически богат**
 : 64 гексаграммы И-Цзин имеют ≈3000-летнюю  
@@ -3386,6 +4053,14 @@ _Определения извлечены автоматически из до�
 **серьёзной intellectual collaboration с AI**
 : major unsolved problem в индустрии  
   _→ [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)_
+
+**Синергетические комбинации**
+: конкретные архитектуры для немецкого Sozialrecht (SGB)  
+  _→ [sozialrecht-35-combinations](docs/technology-combinations/research-reports/sozialrecht-35-combinations.md)_
+
+**Синтезировать**
+: создать новый скрипт по шаблону  
+  _→ [01-concept](docs/meta-scripting/01-concept.md)_
 
 **сификацией Вольфрама по классам сложности**
 : оригинальная работа , которая живёт на пересечении computational theory, symbolic systems и philosophy of complexity  
@@ -3439,6 +4114,10 @@ _Определения извлечены автоматически из до�
 : Обслуживает уязвимые  
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)_
 
+**Соединять**
+: найти скрипты которые должны вызывать друг друга  
+  _→ [01-concept](docs/meta-scripting/01-concept.md)_
+
 **Сопоставление ресурсов**
 : Когда город объявляет новую программу доставки еды, агент выявляет, кто из клиентов Стефана соответствует критериям, составляет начальное обращение для проверки Стефаном  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)_
@@ -3474,6 +4153,10 @@ _Определения извлечены автоматически из до�
 **Средне‑высокая**
 : быстрый orchestration‑слой без тяжёлого UI  
   _→ [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)_
+
+**Ссылка "§ 90 SGB XII" в тексте решения**
+: machine-parseable citation, не свободное описание  
+  _→ [01-structural-comparison-code-vs-docs](docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)_
 
 **Статус документа**
 : сравнительный промежуточный вариант  
@@ -3562,9 +4245,17 @@ _Определения извлечены автоматически из до�
 : Один продукт обслуживает всех  
   _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)_
 
+**То есть Hermes**
+: реализованная инфраструктура, наши documents — specifications для domain-specific applications на этой инфраструктуре  
+  _→ [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)_
+
 **То что вы описываете**
 : AI-augmented DevRel scout for cause-driven open-source development  
   _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
+
+**То, что вы описываете**
+: pattern library architecture with private instances  
+  _→ [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)_
 
 **То, что нужно**
 : positioning и partnership strategy :  
@@ -3579,7 +4270,7 @@ _Определения извлечены автоматически из до�
   _→ [349-твоя-личность](docs/02-anthropic-vacancies/349-твоя-личность.md)_
 
 **Требования**
-: - Только запись в `nautilus  
+: - Только запись в `[nautilus](  
   _→ [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md)_
 
 **Третичные**
@@ -3597,6 +4288,10 @@ _Определения извлечены автоматически из до�
 **ттерн, который стоит явно документировать**
 : уже сама по себе компактная история одной идеи за 2 месяца, готовая для блога или README  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
+
+**тысячи учителей за 7 месяцев приняли его**
+: эмпирическое доказательство, что модель работает  
+  _→ [01-response](docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md)_
 
 
 ## У
@@ -3660,6 +4355,10 @@ _Определения извлечены автоматически из до�
 : ручная консолидация draft-ов в финальный документ  
   _→ [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)_
 
+**Фасеты**
+: фильтры поверх полнотекстового поиска:  
+  _→ [06-search](docs/processing-guide/06-search.md)_
+
 **Финальная запись**
 : Правило: итоговое число — **точное, верифицированное**, не среднее  
   _→ [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)_
@@ -3712,6 +4411,10 @@ _Определения извлечены автоматически из до�
 **Что вы описываете**
 : гибрид нескольких распознаваемых patterns :  
   _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
+
+**Что вы предлагаете**
+: git-like branching для conversations, с возможностью:  
+  _→ [01-three-related-themes](docs/nautilus/supply-demand/01-three-related-themes.md)_
 
 **Что отличается**
 : Работник может сосредоточиться на ремесле  
@@ -3800,6 +4503,10 @@ _Определения извлечены автоматически из до�
 : человек, которому нужна платформа, а не должность  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
 
+**Это не гипотетика теперь**
+: конкретная архитектура рынка, которая открывается при адресации проблем выше  
+  _→ [01-three-related-themes](docs/nautilus/supply-demand/01-three-related-themes.md)_
+
 **Это не гипотетический риск**
 : прямо те данные, которые в userMemories упоминаются как относящиеся к реальным Aktenzeichen в Sozialgericht Dresden  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
@@ -3820,6 +4527,18 @@ _Определения извлечены автоматически из до�
 : уточнение пробела между Type 1 и Type 4  
   _→ [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)_
 
+**Это не просто похожий паттерн**
+: один и тот же inversion of control: AI делает экзегезу (понимание смысла), детерминированный код делает выкладку (структурирование результата)  
+  _→ [01-claude-response](docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
+
+**Это не просто расширение**
+: второй контур применения, возможно более коммерчески значимый, чем первый  
+  _→ [00-question-can-it-apply-to-docs](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)_
+
+**Это не расширение scope**
+: тест универсальности базовой архитектуры  
+  _→ [01-response](docs/nautilus/innovation-transitions/01-response.md)_
+
 **Это не случайно**
 : вы возвращаетесь к одной концепции с разных углов  
   _→ [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
@@ -3832,12 +4551,20 @@ _Определения извлечены автоматически из до�
 : **машина технологической селекции и сборки проектов**  
   _→ [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)_
 
+**Это устанавливает, что collaboration**
+: genuine invitation, а не rhetorical device  
+  _→ [11-glossary](docs/nautilus/double-triangle-architecture/11-glossary.md)_
+
 
 ## Ю
 
 **Юмор**
 : Лёгкий — occasional wit, но не jokey  
   _→ [349-твоя-личность](docs/02-anthropic-vacancies/349-твоя-личность.md)_
+
+**Юридический документ**
+: статья N версии закона M по состоянию на дату D  
+  _→ [01-structural-comparison-code-vs-docs](docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)_
 
 
 ## Я

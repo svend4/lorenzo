@@ -144,3 +144,17 @@ _Для AI-ассистента: читай `CLAUDE.md` для понимани�
 - [PROGRESS](docs/PROGRESS.md)
 - [TECH_RADAR](docs/TECH_RADAR.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
+- [INDEX](docs/INDEX.md)
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
+- [README](docs/README.md)
+- [RISK_REGISTER](docs/RISK_REGISTER.md)
+- [TABLES](docs/TABLES.md)
+- [TECH_RADAR](docs/TECH_RADAR.md)
+

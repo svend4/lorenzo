@@ -7,6 +7,44 @@ date: 2026-04-29
 
 # Отчёт о дублировании
 
+<!-- toc -->
+## Содержание
+
+- [Похожие файлы (Jaccard ≥ 0.5)](#похожие-файлы-jaccard-05)
+  - [100% — `docs/02-anthropic-vacancies/16-history.md` vs `docs/nautilus/npp-v1-0/04-passport.md`](#100-docs02-anthropic-vacancies16-historymd-vs-docsnautilusnpp-v1-004-passportmd)
+  - [88% — `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` vs `docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md`](#88-docs02-anthropic-vacancies192-2-исторические-прецеденты-агенты-как-цивилизационнmd-vs-docsnautilusrepresentative-agent-layer-ru02-istoricheskie-pretsedentymd)
+  - [82% — `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` vs `docs/nautilus/representative-agent-layer-en/04-ten-domains.md`](#82-docs02-anthropic-vacancies173-4-ten-domains-of-applicationmd-vs-docsnautilusrepresentative-agent-layer-en04-ten-domainsmd)
+  - [82% — `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` vs `docs/nautilus/composite-skills-agents/08-seven-domains.md`](#82-docs02-anthropic-vacancies261-8-seven-domains-of-applicationmd-vs-docsnautiluscomposite-skills-agents08-seven-domainsmd)
+  - [81% — `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` vs `docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md`](#81-docs02-anthropic-vacancies194-4-десять-областей-примененияmd-vs-docsnautilusrepresentative-agent-layer-ru04-desyat-oblasteymd)
+  - [79% — `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` vs `docs/nautilus/composite-skills-agents/03-what-makes-csa.md`](#79-docs02-anthropic-vacancies256-3-what-makes-a-composite-skills-agentmd-vs-docsnautiluscomposite-skills-agents03-what-makes-csamd)
+  - [79% — `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` vs `docs/nautilus/composite-skills-agents/10-risks.md`](#79-docs02-anthropic-vacancies263-10-risks-specific-to-composite-architecturesmd-vs-docsnautiluscomposite-skills-agents10-risksmd)
+  - [78% — `docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md` vs `docs/nautilus/professional-colleague-agents-ru/06-riski.md`](#78-docs02-anthropic-vacancies237-6-риски-специфичные-для-этой-категорииmd-vs-docsnautilusprofessional-colleague-agents-ru06-riskimd)
+  - [78% — `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` vs `docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md`](#78-docs02-anthropic-vacancies255-2-the-twenty-one-teachers-patternmd-vs-docsnautiluscomposite-skills-agents02-twenty-one-teachers-patternmd)
+  - [77% — `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` vs `docs/nautilus/okwf-concept/04-proposed-infrastructure.md`](#77-docs02-anthropic-vacancies158-4-proposed-infrastructuremd-vs-docsnautilusokwf-concept04-proposed-infrastructuremd)
+  - [76% — `docs/02-anthropic-vacancies/156-2-target-populations.md` vs `docs/nautilus/okwf-concept/02-target-populations.md`](#76-docs02-anthropic-vacancies156-2-target-populationsmd-vs-docsnautilusokwf-concept02-target-populationsmd)
+  - [76% — `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md` vs `docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md`](#76-docs02-anthropic-vacancies235-4-архитектура-профессиональных-коллег-агентовmd-vs-docsnautilusprofessional-colleague-agents-ru04-arkhitekturamd)
+  - [75% — `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` vs `docs/nautilus/okwf-concept/07-phased-rollout.md`](#75-docs02-anthropic-vacancies161-7-phased-rollout-planmd-vs-docsnautilusokwf-concept07-phased-rolloutmd)
+  - [75% — `docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` vs `docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md`](#75-docs02-anthropic-vacancies234-3-эмпирический-кейс-обучайmd-vs-docsnautilusprofessional-colleague-agents-ru03-keys-obuchaymd)
+  - [73% — `docs/02-anthropic-vacancies/162-8-risk-analysis.md` vs `docs/nautilus/okwf-concept/08-risk-analysis.md`](#73-docs02-anthropic-vacancies162-8-risk-analysismd-vs-docsnautilusokwf-concept08-risk-analysismd)
+  - [73% — `docs/02-anthropic-vacancies/144-7-open-questions.md` vs `docs/nautilus/double-triangle-architecture/07-open-questions.md`](#73-docs02-anthropic-vacancies144-7-open-questionsmd-vs-docsnautilusdouble-triangle-architecture07-open-questionsmd)
+  - [73% — `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` vs `docs/nautilus/representative-agent-layer-en/02-historical-precedents.md`](#73-docs02-anthropic-vacancies171-2-historical-precedents-agents-as-civilizational-imd-vs-docsnautilusrepresentative-agent-layer-en02-historical-precedentsmd)
+  - [73% — `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md` vs `docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md`](#73-docs02-anthropic-vacancies195-5-архитектурная-спецификацияmd-vs-docsnautilusrepresentative-agent-layer-ru05-arkhitekturnaya-spetsifikatsiyamd)
+  - [72% — `docs/02-anthropic-vacancies/145-8-call-to-action.md` vs `docs/nautilus/double-triangle-architecture/08-call-to-action.md`](#72-docs02-anthropic-vacancies145-8-call-to-actionmd-vs-docsnautilusdouble-triangle-architecture08-call-to-actionmd)
+  - [72% — `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` vs `docs/nautilus/professional-colleague-agents-en/04-architecture.md`](#72-docs02-anthropic-vacancies215-4-architecture-of-professional-colleague-agentsmd-vs-docsnautilusprofessional-colleague-agents-en04-architecturemd)
+  - [71% — `docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` vs `docs/nautilus/composite-skills-agents/09-okwf-integration.md`](#71-docs02-anthropic-vacancies262-9-integration-with-okwf-infrastructuremd-vs-docsnautiluscomposite-skills-agents09-okwf-integrationmd)
+  - [71% — `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` vs `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md`](#71-docs02-anthropic-vacancies233-2-что-делает-агента-профессиональным-коллегойmd-vs-docsnautilusprofessional-colleague-agents-ru02-chto-delaet-pkamd)
+  - [71% — `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` vs `docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md`](#71-docs02-anthropic-vacancies191-1-синдром-золушки-почему-качество-остаётся-невидимmd-vs-docsnautilusrepresentative-agent-layer-ru01-sindrom-zolushkimd)
+  - [69% — `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` vs `docs/nautilus/composite-skills-agents/05-configuration-ensembles.md`](#69-docs02-anthropic-vacancies258-5-configuration-how-principals-build-their-ensemblmd-vs-docsnautiluscomposite-skills-agents05-configuration-ensemblesmd)
+  - [69% — `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` vs `docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md`](#69-docs02-anthropic-vacancies143-6-four-deployment-domainsmd-vs-docsnautilusdouble-triangle-architecture06-four-deployment-domainsmd)
+  - [69% — `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` vs `docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md`](#69-docs02-anthropic-vacancies254-1-why-the-binary-view-is-incompletemd-vs-docsnautiluscomposite-skills-agents01-why-binary-incompletemd)
+  - [69% — `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` vs `docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md`](#69-docs02-anthropic-vacancies142-5-pattern-library-as-bridge-between-trianglesmd-vs-docsnautilusdouble-triangle-architecture05-pattern-library-bridgemd)
+  - [69% — `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` vs `docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md`](#69-docs02-anthropic-vacancies213-2-what-makes-a-professional-colleague-agentmd-vs-docsnautilusprofessional-colleague-agents-en02-what-makes-pcamd)
+  - [67% — `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` vs `docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md`](#67-docs02-anthropic-vacancies292-что-отсутствует-слой-bmd-vs-docsnautilusinfrastructure-layer-b-ru03-otsutstvuet-sloy-bmd)
+  - [67% — `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` vs `docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md`](#67-docs02-anthropic-vacancies277-what-s-missing-layer-bmd-vs-docsnautilusinfrastructure-layer-b-en04-whats-missing-layer-bmd)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

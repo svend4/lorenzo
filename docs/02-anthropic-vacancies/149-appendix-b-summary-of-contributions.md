@@ -95,3 +95,19 @@
 - [Содержание](190-содержание.md) _21%_
 - [Table of Contents](211-table-of-contents.md) _21%_
 - [Table of Contents](253-table-of-contents.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
+- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- _...ещё 4_
+

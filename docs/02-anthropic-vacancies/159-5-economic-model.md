@@ -168,3 +168,14 @@ to minimum dignity threshold; upward is merit-based.
 - [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
 - [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
+- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

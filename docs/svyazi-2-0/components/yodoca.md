@@ -39,3 +39,14 @@
 - [mclaude](docs/svyazi-2-0/components/mclaude.md)
 - [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+- [README](docs/svyazi-2-0/components/README.md)
+

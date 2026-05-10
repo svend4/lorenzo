@@ -1,5 +1,13 @@
 # Поисковый индекс
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -1074,4 +1082,14 @@
 - [READING_TIME](docs/obsidian/READING_TIME.md)
 - [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md)
 - [READING_ORDER](docs/obsidian/READING_ORDER.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+- [TOPIC_MODEL](docs/TOPIC_MODEL.md)
 

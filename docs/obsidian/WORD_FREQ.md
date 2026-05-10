@@ -7,6 +7,36 @@ date: 2026-04-29
 
 # Частотный анализ слов
 
+<!-- toc -->
+## Содержание
+
+- [Глобальный топ-50 слов](#глобальный-топ-50-слов)
+- [Топ-15 слов по разделам](#топ-15-слов-по-разделам)
+  - [01-svyazi (9,321 слов)](#01-svyazi-9321-слов)
+  - [02-anthropic-vacancies (165,798 слов)](#02-anthropic-vacancies-165798-слов)
+  - [03-technology-combinations (2,140 слов)](#03-technology-combinations-2140-слов)
+  - [04-ai-collaborations (21,187 слов)](#04-ai-collaborations-21187-слов)
+  - [05-habr-projects (6,473 слов)](#05-habr-projects-6473-слов)
+  - [ai-collaborations (6,638 слов)](#ai-collaborations-6638-слов)
+  - [anthropic-vacancies (25,092 слов)](#anthropic-vacancies-25092-слов)
+  - [autofilled (241 слов)](#autofilled-241-слов)
+  - [badges (56 слов)](#badges-56-слов)
+  - [contacts (1,755 слов)](#contacts-1755-слов)
+  - [glossary (2,891 слов)](#glossary-2891-слов)
+  - [habr-unique-projects (10,959 слов)](#habr-unique-projects-10959-слов)
+  - [lorenzo-agent (15,484 слов)](#lorenzo-agent-15484-слов)
+  - [nautilus (109,475 слов)](#nautilus-109475-слов)
+  - [root (260,805 слов)](#root-260805-слов)
+  - [svyazi-2-0 (10,167 слов)](#svyazi-2-0-10167-слов)
+  - [technology-combinations (10,994 слов)](#technology-combinations-10994-слов)
+  - [templates (2,375 слов)](#templates-2375-слов)
+- [Уникальные слова разделов](#уникальные-слова-разделов)
+
+---
+
+<!-- tags: memory, rag, knowledge, ingestion, architecture, anthropic, collaboration -->
+
+
 **Всего слов (очищенных):** 661,851
 
 ## Глобальный топ-50 слов

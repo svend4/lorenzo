@@ -74,3 +74,13 @@
 - [Комбинирование технологий для новых свойств](../README.md) _29%_
 - [Local-first и P2P стек](03-local-first.md) _21%_
 - [Бенчмарки и производительность](05-benchmarks.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [03-local-first](docs/03-technology-combinations/03-local-first.md)
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
+- [README](docs/03-technology-combinations/README.md)
+

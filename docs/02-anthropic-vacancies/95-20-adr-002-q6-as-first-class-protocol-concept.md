@@ -88,3 +88,14 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 - [Appendix C: References](104-appendix-c-references.md) _17%_
 - [Bridges](40-bridges.md) _17%_
 - [Bridges](60-bridges.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

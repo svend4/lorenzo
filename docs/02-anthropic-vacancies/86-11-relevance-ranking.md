@@ -84,3 +84,17 @@ embeddings) могут использоваться, но MUST быть опци
 - [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
 - [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
+- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
+- [71-критерии-выбора-для-фазы-3](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

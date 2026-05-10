@@ -1,4 +1,6 @@
 # Когда ты Honestly не знаешь
+<!-- tags: architecture -->
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -28,4 +30,16 @@
 
 **Смотрите также:**
 - [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
+- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
+- [185-appendix-b-domain-comparison-matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md)
+- [README](docs/02-anthropic-vacancies/README.md)
 

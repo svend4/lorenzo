@@ -64,3 +64,14 @@
 - [CONSISTENCY](docs/CONSISTENCY.md) (сходство 0.16)
 - [NETWORK](docs/NETWORK.md) (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

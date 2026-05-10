@@ -120,3 +120,15 @@
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
 
 [^bsl]: Business Source License — коммерческая лицензия с открытым кодом
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [13-contacts](docs/01-svyazi/13-contacts.md)
+- [README](docs/01-svyazi/README.md)
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
+- [PROGRESS](docs/PROGRESS.md)
+- [REPORT](docs/REPORT.md)
+

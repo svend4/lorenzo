@@ -36,3 +36,13 @@ Stability Engine блокирует ложные обобщения («конк�
 - [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
 - [7-autoresearch-distributed](docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/habr-unique-projects/final-ensembles/README.md)
+

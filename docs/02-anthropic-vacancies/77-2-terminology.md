@@ -113,3 +113,16 @@ Repo к экосистеме (A–E, см. раздел 12).
 - [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
+- [124-конфигурация-для-claude-desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md)
+- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
+- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

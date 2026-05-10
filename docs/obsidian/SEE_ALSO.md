@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Индекс «Смотрите также»
+<!-- tags: rag, security, ingestion, local-first, architecture, roadmap, collaboration -->
+
 
 **Файлов с блоком See Also:** 1066
 

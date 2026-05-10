@@ -11,6 +11,20 @@ date: 2026-04-29
 ---
 
 # 8. Q6 Space (Normative)
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [8. Q6 Space (Normative)](#8-q6-space-normative)
+  - [8.1. Definition](#81-definition)
+  - [8.2. Mandatory for Level 2+](#82-mandatory-for-level-2)
+  - [8.3. Q6 Mapping Rules](#83-q6-mapping-rules)
+  - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
+  - [8.5. CA-Class Mapping (Informative)](#85-ca-class-mapping-informative)
+
+---
+
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
 

@@ -1424,3 +1424,18 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 - [Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) _25%_
 - [Appendix C: Version History](150-appendix-c-version-history.md) _17%_
 - [Action Items, риски и решения](../ACTION_ITEMS.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

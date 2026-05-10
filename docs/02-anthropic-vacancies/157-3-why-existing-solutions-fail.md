@@ -216,3 +216,15 @@ is this integration.
 - [Table of Contents](154-table-of-contents.md) _29%_
 - [1. Problem Statement](155-1-problem-statement.md) _25%_
 - [2. Target Populations](156-2-target-populations.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

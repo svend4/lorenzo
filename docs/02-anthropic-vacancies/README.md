@@ -364,3 +364,19 @@
 ## Подразделы
 
 - [clusters/](clusters/) — Кластеры вакансий
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (210):**
+- [00-intro](docs/02-anthropic-vacancies/00-intro.md)
+- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
+- _...ещё 202_
+

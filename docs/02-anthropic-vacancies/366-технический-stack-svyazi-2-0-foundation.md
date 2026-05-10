@@ -597,3 +597,13 @@ Wiederholen
 ## Связанные документы
 
 - [Развёрнутый анализ «внуковой» комбинации](365-развёрнутый-анализ-внуковой-комбинации.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

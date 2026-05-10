@@ -93,3 +93,17 @@
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _21%_
 - [6. Adapter Interface](81-6-adapter-interface.md) _21%_
 - [8. Q6 Space (Normative)](83-8-q6-space-normative.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
+- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

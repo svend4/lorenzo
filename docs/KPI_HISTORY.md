@@ -27,3 +27,13 @@ _История хранится в `docs/kpi_history.json`._
 
 _Запускать регулярно для получения трендов._
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+- [kpi-snapshot](docs/templates/kpi-snapshot.md)
+

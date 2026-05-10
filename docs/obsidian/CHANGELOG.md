@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # CHANGELOG
+<!-- tags: rag, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 Всего коммитов: **103**  
 Статистика: 🔧 chore: 41 | ✨ feat: 30 | 📝 docs: 14 | ⚡ improve: 14 | 🐛 fix: 4

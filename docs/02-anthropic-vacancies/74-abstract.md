@@ -99,3 +99,16 @@ fallback-статуса.
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _21%_
 - [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _21%_
 - [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

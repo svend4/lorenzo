@@ -115,3 +115,14 @@ Implementation MUST различать public и private registries и не
 - [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md) _21%_
 - [🇬🇧 About](68-about.md) _17%_
 - [6. Adapter Interface](81-6-adapter-interface.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

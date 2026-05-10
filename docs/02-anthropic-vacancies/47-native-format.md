@@ -87,3 +87,18 @@
 - [Content Overview](48-content-overview.md) _21%_
 - [Compatibility Level](51-compatibility-level.md) _21%_
 - [Abstract](04-abstract.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

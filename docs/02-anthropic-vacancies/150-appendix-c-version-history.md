@@ -605,3 +605,19 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 - [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _17%_
 - [The Recursive Insight](281-the-recursive-insight.md) _17%_
 - [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
+- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
+- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
+- _...ещё 4_
+

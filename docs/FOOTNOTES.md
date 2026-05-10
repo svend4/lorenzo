@@ -1,5 +1,15 @@
 # Сноски и определения терминов
 
+<!-- summary -->
+> **Обновлено файлов:** 4  **Вставлено сносок:** 15
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement -->
+
+
+
+
 **Обновлено файлов:** 4  **Вставлено сносок:** 15
 
 ## Словарь сносок
@@ -33,3 +43,13 @@
 
 [^mcp]: Model Context Protocol — протокол для AI-инструментов
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

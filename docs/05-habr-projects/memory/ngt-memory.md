@@ -73,3 +73,14 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 [^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [README](docs/05-habr-projects/memory/README.md)
+- [04-structuring](docs/processing-guide/04-structuring.md)
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+

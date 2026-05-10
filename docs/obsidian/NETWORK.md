@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Сеть проектов и авторов
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, collaboration -->
+
 
 **Узлов:** 20  **Связей:** 189
 

@@ -107,3 +107,15 @@ Portal возвращает static entries.
 - [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
 - [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

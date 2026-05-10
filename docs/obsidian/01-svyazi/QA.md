@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Q&A: 01-svyazi
+<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->
+
 
 _Автоматически сгенерировано по 14 файлам раздела._
 
@@ -15,7 +17,7 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -39,7 +41,7 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 ## Каковы этапы MVP и их оценка по времени?
 

@@ -114,3 +114,19 @@ when AI augments human practice.
 - [References](287-references.md) _33%_
 - [Abstract](168-abstract.md) _29%_
 - [Acknowledgments](182-acknowledgments.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (18):**
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)
+- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [224-acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- _...ещё 10_
+

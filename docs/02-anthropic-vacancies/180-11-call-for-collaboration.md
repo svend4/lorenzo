@@ -115,3 +115,14 @@ prefer honest critics to unreserved enthusiasts.
 - [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
 - [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

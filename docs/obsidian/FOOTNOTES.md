@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Сноски и определения терминов
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement -->
+
 
 **Обновлено файлов:** 4  **Вставлено сносок:** 14
 

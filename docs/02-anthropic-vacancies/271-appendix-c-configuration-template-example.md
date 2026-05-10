@@ -96,3 +96,18 @@ configuration.
 - [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
 - [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
+- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

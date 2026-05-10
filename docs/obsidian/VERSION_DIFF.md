@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Diff базы знаний между версиями
+<!-- tags: rag, orchestration, local-first, roadmap -->
+
 
 _Обновлено: 2026-04-29_
 

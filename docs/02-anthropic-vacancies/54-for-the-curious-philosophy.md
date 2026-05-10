@@ -84,3 +84,19 @@ Last updated: 2026-04*
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _25%_
 - [Native Format](37-native-format.md) _25%_
 - [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
+- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
+- [44-for-the-curious-philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md)
+- _...ещё 3_
+

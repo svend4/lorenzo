@@ -37,3 +37,13 @@
 - [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
 - [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/habr-unique-projects/key-findings/README.md)
+

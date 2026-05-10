@@ -99,3 +99,19 @@ in walking it.
 - [Executive Summary](153-executive-summary.md) _17%_
 - [Abstract](168-abstract.md) _17%_
 - [Abstract](210-abstract.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- _...ещё 3_
+

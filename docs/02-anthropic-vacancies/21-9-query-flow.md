@@ -105,3 +105,14 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 - [9. Consensus Algorithm](84-9-consensus-algorithm.md) _21%_
 - [5. Compatibility Levels](17-5-compatibility-levels.md) _17%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

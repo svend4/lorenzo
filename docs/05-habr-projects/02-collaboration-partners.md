@@ -65,3 +65,14 @@ _Обновлено: 2026-04-29_
 [^llm]: Large Language Model — большая языковая модель
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
+- [README](docs/05-habr-projects/README.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+

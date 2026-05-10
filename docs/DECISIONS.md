@@ -1,9 +1,9 @@
 # Ключевые решения и выводы
 
-Автоматически извлечено из всех документов: **451 записей**
+Автоматически извлечено из всех документов: **625 записей**
 
 
-## Архитектура (44)
+## Архитектура (61)
 
 - **На Хабре пока не видно одного готового проекта, который уже собрал все слои в единое целое, но видно много авторов, каждый из которых почти идеально закрывает один слой будущей системы.** Поэтому реальная ценность исследования — не в списке ссылок,  
   _→ 01-executive-summary_
@@ -47,7 +47,7 @@
 - кандидат для слоя .agentos/ и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и [GitHub](../docs/01-svyazi/03-component-catalog.md) issues в AgentFS. citeturn33vie  
   _→ 05-план-прототипа-и-возможные-контакты_
 
-- Svyazi + AgentFS +… _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_ --- ## Глава 2: Экосистема проектов > <!-- summary --> > > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antip  
+- Svyazi + AgentFS +… - **🛠️ MVP:** Planning](07-mvp-planning - **🛠️ MVP:** Planning](07-mvp-planning _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_ --- ## Глава 2: Экосистема проек  
   _→ NARRATIVE_
 
 - Svyazi + AgentFS + NGT ^ngt /Yodoca + LitePa **B:** `docs/04-ai-collaborations/07-выводы.md` > Если ранжировать найденные направления по практической силе именно для старта, то порядок такой. Первое  
@@ -59,19 +59,16 @@
 - реализовать nautilus как web-portal на базе ваших 70 репо. Это и есть живая демонстрация концепции. Нужны: GitHub API integration, .nautilus.yaml parser для каждого репо, visualization слой (graph с n  
   _→ 03-nautilus-B-meta-orchestrator_
 
+- Svyazi + AgentFS +… _[[01-executive-summary|→ Читать полностью]]_ --- ## Глава 2: Экосистема проектов > <!-- summary --> > > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + Gi  
+  _→ NARRATIVE_
+
 - первой части По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG и не оркестрация по отдельности: все они уже пред  
   _→ conclusions_
 
-- второй части Лучший следующий шаг — **не искать ещё двадцать новых проектов**, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record. На этом основании уже можно  
-  _→ conclusions_
-
-_...ещё 17 записей в этой категории_
+_...ещё 41 записей в этой категории_
 
 
-## Mvp (11)
-
-- склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) - [План прототипа и возможные контакты](../04-ai-collabor  
-  _→ 09-architectural-gaps_
+## Mvp (10)
 
 - подготовить strategic roadmap document — структурированный план на 12-18 месяцев, который разбивает развитие Nautilus на phases, с deliverables, metrics, risk mitigation для каждой. Полезно для grant  
   _→ 133-обратная-связь_
@@ -79,18 +76,17 @@ _...ещё 17 записей в этой категории_
 - переориентировать стратегию OKWF : начать с гильдийных Профессиональных Коллег, как первый продукт фонда. Использовать SGB-domain как pilot domain (используя ваш expertise). Если будете писать compani  
   _→ 207-приложение-c-образцы-случаев-использования-в-детал_
 
-- склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) - [План прототипа и возможные контакты](05-план-прототипа-и-возможные-контакты.md  
-  _→ 09-архитектурные-зазоры-которые-важнее-новых-инструме_
-
 - кандидат для слоя ### 17. План прототипа и возможные контакты _Файл: `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 4 колонок, 0 строк_ | **VitalyOborin** | Сильнейший канд  
   _→ TABLES_
 
 - кандидат для слоя ### 63. План прототипа и возможные контакты _Файл: `docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 4 колонок, 0 строк_ | **VitalyOborin** | Сильне  
   _→ TABLES_
 
+- переориентировать стратегию OKWF: начать с гильдийных Профессиональных Коллег, как первый продукт фонда. Использовать SGB-domain как pilot domain (используя ваш expertise). Если будете писать compani  
+  _→ 01-response_
 
 
-## Память (12)
+## Память (16)
 
 - опубликовать спецификацию .[nautilus](../docs/05-habr-projects/memory/memnet.md).yaml и подать её как RFC. Если формат внятный, это потенциально open-source standard. Есть прямой целевой рынок: все, к  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -119,14 +115,14 @@ _...ещё 17 записей в этой категории_
 - просто “записать всё, что сказал агент”. Mermaid Практическое правило: внешний текст не должен иметь права становиться instruction memory . Он может с  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 
-- прочитать в первую очередь. <!--… _[→ Читать полностью](obsidian/05-habr-projects/memory/yodoca.md)_ --- ## Глава 11: NGT — граф памяти > <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проб  
-  _→ NARRATIVE_
+- склеивать] ### `memnet.md` (1) - Это синхронизируемая многоуровневая память Yodoca/xMemory, которая «следует» за тобой между устройствами. [Пара 3.  
+  _→ QUESTIONS_
 
-- прочитать в первую очередь. <!--… _[[yodoca|→ Читать полностью]]_ --- ## Глава 11: NGT — граф памяти > <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** У Романова уже решена задач  
-  _→ NARRATIVE_
+- склеивать». **Проекты:** mclaude, AI Factory, Rufler, AutoResearch, Whisper, Yttri --- <!-- tags: memory, rag, orchestration, local-first, self-impro  
+  _→ do-not-glue_
 
 
-## Оркестрация (23)
+## Оркестрация (26)
 
 - на файловое ядро Svyazi‑2.0. | | **mclaude** | AnastasiyaW | Хабр + GitHub citeturn20view2turn37search0 | Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом. | Lo  
   _→ 03-component-catalog_
@@ -137,7 +133,7 @@ _...ещё 17 записей в этой категории_
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
   _→ 14-limitations_
 
-- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](README.md) > Файлов: 14 - Содержание _Слов: 90_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude](obsidian/con  
+- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](docs/contacts/README.md) > Файлов: 14 - Содержание _Слов: 88_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude  
   _→ OUTLINE_
 
 - вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
@@ -147,13 +143,13 @@ _...ещё 17 записей в этой категории_
   _→ do-not-glue_
 
 
-## Безопасность (2)
+## Безопасность (3)
 
 - написать anonymization_pipeline.py как reference implementation . Рабочий Python-модуль, реализующий 5 шагов pipeline: PII detection, placeholder replacement, verification report, structural metadata  
   _→ 133-обратная-связь_
 
 
-## Лицензия (14)
+## Лицензия (17)
 
 - создать REVIEW_METHODOLOGY.md в корне репо (не в docs/ , потому что это применимо ко всему проекту, не к специфической области). Commit: docs: add REVIEW_METHODOLOGY for three-phase review process . В  
   _→ 122-глоссарий_
@@ -167,14 +163,26 @@ _...ещё 17 записей в этой категории_
 - положите все четыре файла в репо (PORTAL-PROTOCOL.md в корень, README.md заменяет текущий, три passport'а в папку passports/). Commit с сообщением вида docs: initial v1.0-draft documentation layer . Т  
   _→ 69-section_
 
-- создать документы](#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](#детали-по-топ-20-пробелам) - [`LiteParse` (100 файлов)](#liteparse-100-файлов) - [`BSL` (74 файлов)](#bsl-74-фай  
+- создать документы](#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](#детали-по-топ-20-пробелам) - [`LiteParse` (105 файлов)](#liteparse-105-файлов) - [`BSL` (75 файлов)](#bsl-75-фай  
   _→ CONTENT_GAPS_
 
-- создать документы | Концепция | Упоминаний | Рекомендуемая папка | |-----------|-----------|-------------------| | `LiteParse` | 100 | `docs/obsidian/` | | `BSL` | 74 | `docs/obsidian/` | | `NPP` | 6  
+- создать документы | Концепция | Упоминаний | Рекомендуемая папка | |-----------|-----------|-------------------| | `LiteParse` | 105 | `docs/obsidian/` | | `BSL` | 75 | `docs/obsidian/` | | `NPP` | 6  
   _→ CONTENT_GAPS_
 
+- конкретные next steps. Save in repo as docs/REPRESENTATIVE-AGENT-LAYER.md. Commit. Add link from main README. Done. Третье — гордиться этим. Five interconnected documents addressing real problems wit  
+  _→ 01-response-en_
 
-## Риски (3)
+- склеивать]]](#14-limitationsограничения-лицензии-и-что-пока-лучше-не-склеивать) - [[[QA|Q&A: 01-svyazi]]](#qaqa-01-svyazi) - [[Svyazi[^svyazi] 2.0  
+  _→ OUTLINE_
+
+- склеивать]]](#do-not-glueчто-пока-лучше-не-склеивать) - [[[license-tree|Лицензионные развилки]]](#license-treeлицензионные-развилки) - [[[README|o  
+  _→ OUTLINE_
+
+- склеивать]] | 343 | | 37 | [[license-tree|Лицензионные развилки]] | 324 | | 38 | [[first-contacts|Первые контакты]] | 259 | | 39 | [[message-template|  
+  _→ SITEMAP_
+
+
+## Риски (5)
 
 - доверять» - Неправильная атрибуция: «Lorenzo крадёт кредит» Один крупный инцидент может уничтожить все усилия. Вопрос : Толерантность к риску? #### Сл  
   _→ 343-lorenzo-catalyst-agent-глубокая-проработка-специфи_
@@ -186,7 +194,7 @@ _...ещё 17 записей в этой категории_
   _→ do-not-glue_
 
 
-## Контакты (23)
+## Контакты (35)
 
 - немедленный шаг — написать vision paper , где вы связываете data7, info40, infom, meta2, daten1 и тезис про AI-orchestrated teams в единую аргументацию «MMORPG as Work Infrastructure». Один документ,  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -221,10 +229,20 @@ _...ещё 17 записей в этой категории_
 - немедленный шаг — написать vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про AI-orchestrated teams в единую аргументацию «MMORPG as Work Infrastructure». Один документ, к  
   _→ 05-minuses-as-business_
 
-## Общее (321)
+- identifies potential collaborator/contributor. Андрей — fullstack-разработчик, основатель сообщества, активный в russian-language tech community. Если OKWF будет recruiting первых contributors, именно  
+  _→ 01-claude-response_
 
-- склеивать](../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) - [Приоритетные ансамбли](../04-ai-collaborations/04-прио  
-  _→ 03-component-catalog_
+- написать один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRARY.md. Это extension к NPP v1.1, который формализует: Three types of bridges (inheritance, citation, contributi  
+  _→ 01-strategic-significance_
+
+- написать PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1.1, которая формализует всё описанное здесь: humanity-specific format_types, conventional metadata, anonymizati  
+  _→ 04-what-i-can-do-now_
+
+- написать [[memnet|nautilus]]/README.md отдельно от корневого README pro2 . Минимум 1 страница, объясняющая, что эта подпапка делает и как она связана с основной моделью в pro2 . Сейчас, если исследова  
+  _→ 01-интегральный-анализ-профиля-svend4_
+
+
+## Общее (452)
 
 - идти. Эта фаза даёт уже очень ценный эффект: объяснимые suggestions вместо “магического мэтчинга”. citeturn41search0turn20view5turn34view2turn20v  
   _→ 12-roadmap_
@@ -274,5 +292,17 @@ _...ещё 17 записей в этой категории_
 - построить такой же конвейер для разработки программного обеспечения или решения серьёзных R&D-задач? Логистика автозавода — сложнейшая система, и она  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-_...ещё 301 записей в этой категории_
+- полагаться на это. Отзовите руками немедленно. ### Что я НЕ буду делать - Не использую этот токен для fetch чего-либо - Не сохраняю его никуда - Не уп  
+  _→ 01-интегральный-анализ-профиля-svend4_
+
+- — он прошёл через несколько слоёв инфраструктуры, которые ведут логи для safety, debugging, и compliance. Anthropic не злоумышленник, но логи существу  
+  _→ 01-интегральный-анализ-профиля-svend4_
+
+- использовать токены — это значит, что вам нужно использовать их аккуратнее, чем обычному разработчику. Если бы вы были анонимным пользователем и присл  
+  _→ 01-интегральный-анализ-профиля-svend4_
+
+- прочитать в первую очередь. <!-- alert-added --> <!-- summary --> > Прежде чем проектировать — фиксирую, что у нас уже есть объективно. --- <!-- toc --> ## Содержание - [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTI  
+  _→ 02-общий-план-развития-nautilus-portal-protocol_
+
+_...ещё 432 записей в этой категории_
 

@@ -133,3 +133,16 @@ merge-conflict error. С заголовком — понимает осмысл�
 - [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md)
 - [COMPLEXITY](docs/COMPLEXITY.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md)
+- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

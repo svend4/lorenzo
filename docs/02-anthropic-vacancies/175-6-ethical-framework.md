@@ -163,3 +163,18 @@ tech-sophisticated principals fails its core mission.
 - [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
 - [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
+- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
+- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

@@ -196,3 +196,15 @@ InGit/Cowork:
 - [324-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-как-cowork-интегрированная-подложка-рабочего](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
 - [289-инфраструктура-для-ai-совместной-интеллектуальной-](docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [229-профессиональные-коллеги-агенты](docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md)
+- [289-инфраструктура-для-ai-совместной-интеллектуальной-](docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
+- [324-ingit-как-cowork-интегрированная-подложка-рабочего](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

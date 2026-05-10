@@ -120,3 +120,13 @@ _Внешние ссылки не проверяются автоматичес�
 - [WORD_FREQ](docs/obsidian/WORD_FREQ.md)
 - [STALENESS](docs/obsidian/STALENESS.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/README.md)
+- [REPORT](docs/REPORT.md)
+- [TABLES](docs/TABLES.md)
+

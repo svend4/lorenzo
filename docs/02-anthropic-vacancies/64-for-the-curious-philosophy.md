@@ -132,3 +132,19 @@ Bridges описаны максимально конкретно. Особенн
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _25%_
 - [🇷🇺 О проекте](67-о-проекте.md) _25%_
 - [Хронологическая лента событий](../TIMELINE.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
+- _...ещё 3_
+

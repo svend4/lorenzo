@@ -90,3 +90,19 @@ native-формат репозитория в унифицированное п�
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _33%_
 - [Planned (v0.2.0)](132-planned-v0-2-0.md) _29%_
 - [0. Status of This Document](05-0-status-of-this-document.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (19):**
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- _...ещё 11_
+

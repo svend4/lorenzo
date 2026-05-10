@@ -97,3 +97,13 @@ _Создано автоматически: 2026-04-29_
 - [vladspace](docs/contacts/vladspace.md)
 - [dmitriila](docs/contacts/dmitriila.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [kksudo](docs/autofilled/components/kksudo.md)
+- [spbmolot](docs/autofilled/components/spbmolot.md)
+- [README](docs/contacts/README.md)
+

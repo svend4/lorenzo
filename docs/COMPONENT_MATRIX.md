@@ -141,3 +141,13 @@ _Совместимость и возможности 14 компонентов 
 - [Все таблицы репозитория](TABLES.md)
 - [Карта репозитория Lorenzo](SITEMAP.md)
 - [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+- [TECH_RADAR](docs/TECH_RADAR.md)
+

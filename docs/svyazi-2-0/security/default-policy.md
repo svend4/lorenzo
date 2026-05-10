@@ -38,3 +38,13 @@
 - [risks](docs/svyazi-2-0/prototype/risks.md)
 - [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [concepts](docs/glossary/concepts.md)
+- [README](docs/svyazi-2-0/security/README.md)
+

@@ -191,3 +191,17 @@ Active participant target in first three years: 5,000-10,000.
 - [Table of Contents](154-table-of-contents.md) _17%_
 - [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md) _17%_
 - [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

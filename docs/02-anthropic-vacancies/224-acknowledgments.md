@@ -81,3 +81,19 @@ errors are author's responsibility.
 - [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _25%_
 - [Table of Contents](211-table-of-contents.md) _25%_
 - [References](183-references.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
+- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)
+- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- _...ещё 4_
+

@@ -194,3 +194,15 @@ qualified individuals regardless of traditional constraints.
 - [6. Governance and Ethics](160-6-governance-and-ethics.md) _17%_
 - [11. Call for Collaboration](180-11-call-for-collaboration.md) _17%_
 - [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

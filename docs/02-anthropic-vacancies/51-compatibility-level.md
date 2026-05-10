@@ -82,3 +82,17 @@
 - [Angle / Perspective](49-angle-perspective.md) _25%_
 - [Bridges](50-bridges.md) _25%_
 - [2. Terminology](07-2-terminology.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

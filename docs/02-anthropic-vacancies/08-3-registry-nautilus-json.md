@@ -137,3 +137,15 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 - [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
 - [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
+- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

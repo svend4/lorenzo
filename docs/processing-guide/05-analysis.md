@@ -1,5 +1,45 @@
 # Обработка больших массивов — Часть 5: Анализ и NLP
 
+<!-- summary -->
+> > Что можно узнать о массиве документов без использования LLM.
+**Проекты:** Svyazi, CardIndex, AgentFS, SENTINEL
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Что такое «анализ без LLM»](#что-такое-анализ-без-llm)
+- [Группа 1: Извлечение сущностей](#группа-1-извлечение-сущностей)
+  - [improve_entities.py — индекс проектов и технологий](#improve_entitiespy-индекс-проектов-и-технологий)
+  - [improve_named_entity_index.py — NER без ML](#improve_named_entity_indexpy-ner-без-ml)
+  - [improve_abbreviations.py — словарь аббревиатур](#improve_abbreviationspy-словарь-аббревиатур)
+- [Группа 2: Граф знаний](#группа-2-граф-знаний)
+  - [improve_concept_graph.py — граф концептов](#improve_concept_graphpy-граф-концептов)
+  - [improve_network.py — граф документов](#improve_networkpy-граф-документов)
+  - [improve_cross_section.py — граф между секциями](#improve_cross_sectionpy-граф-между-секциями)
+- [Группа 3: Тематический анализ](#группа-3-тематический-анализ)
+  - [improve_topic_model.py — TF-IDF кластеризация](#improve_topic_modelpy-tf-idf-кластеризация)
+  - [improve_clusters.py — похожие документы](#improve_clusterspy-похожие-документы)
+- [Группа 4: Качество текста](#группа-4-качество-текста)
+  - [improve_textrank.py — автоматические резюме](#improve_textrankpy-автоматические-резюме)
+  - [improve_contradiction_check.py — противоречия](#improve_contradiction_checkpy-противоречия)
+  - [improve_paragraph_quality.py — качество абзацев](#improve_paragraph_qualitypy-качество-абзацев)
+  - [improve_passive_voice.py — стиль](#improve_passive_voicepy-стиль)
+  - [improve_vocabulary_richness.py — лексическое разнообразие](#improve_vocabulary_richnesspy-лексическое-разнообразие)
+- [Группа 5: Временной анализ](#группа-5-временной-анализ)
+  - [improve_timeline_events.py — хронология](#improve_timeline_eventspy-хронология)
+  - [improve_version_diff.py — семантический diff](#improve_version_diffpy-семантический-diff)
+- [Итог: что можно узнать без LLM](#итог-что-можно-узнать-без-llm)
+- [Следующий шаг](#следующий-шаг)
+
+---
+
+<!-- tags: rag, security, knowledge, ingestion, local-first, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > Что можно узнать о массиве документов без использования LLM.
 
 ---
@@ -239,3 +279,13 @@ python scripts/improve_version_diff.py --last 10
 ## Следующий шаг
 
 После анализа → **Часть 6: Поиск (BM25, фасеты, пассажи)**
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-overview](docs/processing-guide/01-overview.md)
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [README](docs/processing-guide/README.md)
+

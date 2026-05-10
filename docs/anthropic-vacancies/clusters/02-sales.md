@@ -23,3 +23,14 @@
 - [05-marketing-brand](docs/anthropic-vacancies/clusters/05-marketing-brand.md)
 - [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [README](docs/anthropic-vacancies/clusters/README.md)
+- [overview](docs/anthropic-vacancies/overview.md)
+- [signals](docs/anthropic-vacancies/signals.md)
+- [concepts](docs/glossary/concepts.md)
+

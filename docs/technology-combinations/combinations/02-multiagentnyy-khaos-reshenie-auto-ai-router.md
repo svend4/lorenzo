@@ -48,3 +48,13 @@ Router даёт fallback из коробки. Если Opus недоступен
 - [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
 - [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+

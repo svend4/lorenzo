@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Q&A: 05-habr-projects
+<!-- tags: knowledge, architecture, roadmap, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -43,7 +45,7 @@ _Автоматически сгенерировано по 6 файлам ра�
 
 Упоминаются: **vault**
 
-## Что такое knowledge-space[^knowledge_space] и для кого он предназначен?
+## Что такое knowledge-space[^knowledge-space] и для кого он предназначен?
 
 → _См. также:_ [[QA]]
 
@@ -108,4 +110,4 @@ _Не найдено в этом файле._
 
 [^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

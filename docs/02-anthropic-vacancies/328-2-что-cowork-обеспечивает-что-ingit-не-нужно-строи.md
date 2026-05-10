@@ -214,3 +214,13 @@ Cowork работает на macOS и Windows (Linux,
 - [329-3-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
 - [330-4-симбиотическая-архитектура](docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

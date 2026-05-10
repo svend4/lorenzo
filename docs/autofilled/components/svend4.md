@@ -60,3 +60,19 @@ _Компонент экосистемы Svyazi 2.0_
 - [Автозаполненные шаблоны](../../AUTOFILLED.md)
 - [Все таблицы репозитория](../../TABLES.md)
 - [Карта репозитория Lorenzo](../../SITEMAP.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [AUTOFILLED](docs/AUTOFILLED.md)
+- [TABLES](docs/TABLES.md)
+- [README](docs/autofilled/components/README.md)
+- [cowork](docs/autofilled/components/cowork.md)
+- [ingit](docs/autofilled/components/ingit.md)
+- [kksudo](docs/autofilled/components/kksudo.md)
+- [lorenzo](docs/autofilled/components/lorenzo.md)
+- [nautilus](docs/autofilled/components/nautilus.md)
+- _...ещё 2_
+

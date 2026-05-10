@@ -15,3 +15,13 @@
 - [README](docs/05-habr-projects/memory/README.md) (сходство 0.17)
 - [README](docs/05-habr-projects/README.md) (сходство 0.10)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/05-habr-projects/README.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [README](docs/05-habr-projects/memory/README.md)
+

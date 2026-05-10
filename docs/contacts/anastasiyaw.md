@@ -99,3 +99,14 @@ _Создано автоматически: 2026-04-29_
 - [sonia-black](docs/contacts/sonia-black.md)
 - [dmitriila](docs/contacts/dmitriila.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+- [kksudo](docs/autofilled/components/kksudo.md)
+- [spbmolot](docs/autofilled/components/spbmolot.md)
+- [README](docs/contacts/README.md)
+

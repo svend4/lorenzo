@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Карта пробелов знаний
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement -->
+
 
 Анализ покрытия ключевых тем и проектов в docs/.
 

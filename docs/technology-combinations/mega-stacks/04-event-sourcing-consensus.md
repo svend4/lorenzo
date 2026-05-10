@@ -77,3 +77,13 @@
 - [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
 - [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [reading-paths](docs/reading-paths.md)
+- [README](docs/technology-combinations/mega-stacks/README.md)
+

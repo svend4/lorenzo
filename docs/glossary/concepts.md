@@ -51,3 +51,14 @@
 - [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
 - [QA](docs/QA.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [README](docs/glossary/README.md)
+- [README](docs/nautilus/README.md)
+- [reading-paths](docs/reading-paths.md)
+- [glossary-entry](docs/templates/glossary-entry.md)
+

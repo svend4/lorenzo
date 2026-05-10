@@ -31,3 +31,14 @@
 - [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
 - [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [README](docs/ai-collaborations/candidates/README.md)
+- [authors-by-name](docs/glossary/authors-by-name.md)
+- [components-by-name](docs/glossary/components-by-name.md)
+- [reading-paths](docs/reading-paths.md)
+

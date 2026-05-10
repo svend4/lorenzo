@@ -182,3 +182,16 @@ _Индекс сгенерирован автоматически · 529 док�
 - [Метрики качества документации](METRICS.md) _21%_
 - [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md) _21%_
 - [Отчёт о дублировании](DUPLICATES.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
+- [README](docs/README.md)
+- [RISK_REGISTER](docs/RISK_REGISTER.md)
+- [TABLES](docs/TABLES.md)
+- [TECH_RADAR](docs/TECH_RADAR.md)
+

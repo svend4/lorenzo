@@ -113,3 +113,13 @@ _Обновлено: 2026-04-29_
 - [README](docs/README.md) (сходство 0.27)
 - [REPORT](docs/REPORT.md) (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

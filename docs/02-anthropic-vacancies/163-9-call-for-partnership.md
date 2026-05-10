@@ -151,3 +151,18 @@ section explicitly invites partnership.
 - [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md)
 - [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

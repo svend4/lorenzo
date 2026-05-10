@@ -104,3 +104,19 @@ NPP-compatible, если они:
 - [Appendix C: References](104-appendix-c-references.md) _33%_
 - [passports/info1.md](35-passports-info1-md.md) _33%_
 - [Author & Contact](52-author-contact.md) _33%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (19):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
+- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- _...ещё 11_
+

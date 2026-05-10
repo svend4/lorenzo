@@ -781,3 +781,13 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 ## Связанные документы
 
 - [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](342-что-такое-вариант-c-concept-document-для-anthropic.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

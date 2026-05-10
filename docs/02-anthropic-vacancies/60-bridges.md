@@ -54,3 +54,18 @@ bridge.]
 - [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
 - [50-bridges](docs/02-anthropic-vacancies/50-bridges.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

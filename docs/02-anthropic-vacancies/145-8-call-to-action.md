@@ -215,3 +215,19 @@ Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at
 - [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _21%_
 - [5. Architectural Specification](174-5-architectural-specification.md) _21%_
 - [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
+- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
+- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- _...ещё 4_
+

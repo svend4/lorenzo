@@ -369,3 +369,19 @@ _...и ещё 101 малых кластеров (по 1-2 файла)_
 - [READING_ORDER](docs/READING_ORDER.md)
 - [SOURCE_MAP](docs/SOURCE_MAP.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
+- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+- _...ещё 1_
+

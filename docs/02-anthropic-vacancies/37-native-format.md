@@ -87,3 +87,19 @@ or something custom?]
 - [Abstract](04-abstract.md) _21%_
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
 - [Planned (v0.2.0)](132-planned-v0-2-0.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- _...ещё 2_
+

@@ -79,3 +79,19 @@ reasoning.
 - [Compatibility Level](51-compatibility-level.md) _25%_
 - [Native Format](57-native-format.md) _25%_
 - [15. Glossary of Examples](27-15-glossary-of-examples.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
+- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- _...ещё 1_
+

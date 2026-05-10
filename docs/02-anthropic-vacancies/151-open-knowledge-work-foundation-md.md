@@ -94,3 +94,19 @@ markdown
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (27):**
+- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
+- [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)
+- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
+- _...ещё 19_
+

@@ -109,3 +109,19 @@ what exists and adapt as better infrastructure emerges.
 - [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _21%_
 - [Executive Summary](153-executive-summary.md) _17%_
 - [10. Appendices](164-10-appendices.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
+- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- _...ещё 2_
+

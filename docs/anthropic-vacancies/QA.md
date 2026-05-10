@@ -1,5 +1,14 @@
 # Q&A: anthropic-vacancies
 
+<!-- summary -->
+> _Автоматически сгенерировано по 97 файлам раздела._
+
+---
+<!-- tags: rag, architecture, anthropic, collaboration -->
+
+
+
+
 _Автоматически сгенерировано по 97 файлам раздела._
 
 ## Какие кластеры найма выделены у Anthropic?

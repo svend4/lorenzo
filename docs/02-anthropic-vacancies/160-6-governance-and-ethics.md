@@ -164,3 +164,13 @@ Foundation will not:
 - [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
 - [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

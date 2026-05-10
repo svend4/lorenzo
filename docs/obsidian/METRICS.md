@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Метрики качества документации
+<!-- tags: memory, ingestion, architecture, roadmap, anthropic, collaboration -->
+
 
 **Файлов:** 1174  **Средний балл:** 71.2/100
 

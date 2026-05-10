@@ -76,3 +76,14 @@ ROI: 10 sec semantic search vs 2 hr manual review
 - [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
 - [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+

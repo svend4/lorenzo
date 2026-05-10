@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Q&A: 03-technology-combinations
+<!-- tags: rag, knowledge, ingestion, architecture -->
+
 
 <!-- toc-auto -->
 ## Contents

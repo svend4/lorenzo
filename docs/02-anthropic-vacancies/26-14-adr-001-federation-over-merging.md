@@ -88,3 +88,13 @@
 - [1. Introduction](06-1-introduction.md) _21%_
 - [🇬🇧 About](68-about.md) _21%_
 - [8. Q6 Space (Normative)](83-8-q6-space-normative.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

@@ -191,3 +191,15 @@ _Курированных рисков: 10 · Из документов: 15_
 - [Все таблицы репозитория](TABLES.md)
 - [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
 - [Карта репозитория Lorenzo](SITEMAP.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+- [TECH_RADAR](docs/TECH_RADAR.md)
+- [risk-entry](docs/templates/risk-entry.md)
+

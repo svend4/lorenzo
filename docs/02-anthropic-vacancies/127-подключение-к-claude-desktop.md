@@ -121,3 +121,19 @@
 - [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
 - [Содержание](326-содержание.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [124-конфигурация-для-claude-desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [130-отладка](docs/02-anthropic-vacancies/130-отладка.md)
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- _...ещё 7_
+

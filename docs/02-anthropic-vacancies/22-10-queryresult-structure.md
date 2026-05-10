@@ -101,3 +101,19 @@ category (сначала full, затем partial, затем singular).
 - [6. Adapter Interface](81-6-adapter-interface.md) _29%_
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
 - [Appendix B: Change Log](103-appendix-b-change-log.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
+- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
+- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
+- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
+- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
+- [63-history](docs/02-anthropic-vacancies/63-history.md)
+- _...ещё 3_
+

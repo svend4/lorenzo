@@ -84,3 +84,19 @@
 - [0. Status of This Document](75-0-status-of-this-document.md) _25%_
 - [7. Реализация в проекте Nautilus](114-7-реализация-в-проекте-nautilus.md) _21%_
 - [12. Versioning Policy](24-12-versioning-policy.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [124-конфигурация-для-claude-desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md)
+- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
+- [131-ограничения-текущей-версии-0-1-0-draft](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
+- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
+- _...ещё 2_
+

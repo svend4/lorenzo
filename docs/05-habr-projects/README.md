@@ -21,3 +21,13 @@
 - [02-collaboration-partners](02-collaboration-partners.md) (сходство 0.18)
 - [01-synthesis](01-synthesis.md) (сходство 0.16)
 - [README](knowledge/README.md) (сходство 0.10)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [README](docs/05-habr-projects/memory/README.md)
+

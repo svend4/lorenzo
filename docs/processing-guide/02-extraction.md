@@ -1,5 +1,31 @@
 # Обработка больших массивов — Часть 2: Извлечение
 
+<!-- summary -->
+> > Как превратить сырые файлы (MHTML, PDF, HTML, TXT) в чистый Markdown.
+**Проекты:** Svyazi, Whisper
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Проблема формата](#проблема-формата)
+- [Уровень 1: extract_mhtml.py](#уровень-1-extract_mhtmlpy)
+- [Уровень 2: organize_docs.py + part*.py](#уровень-2-organize_docspy-partpy)
+- [Поддерживаемые форматы](#поддерживаемые-форматы)
+  - [Уже реализовано](#уже-реализовано)
+  - [Можно добавить (не реализовано)](#можно-добавить-не-реализовано)
+- [Качество извлечения](#качество-извлечения)
+- [Типичные проблемы и решения](#типичные-проблемы-и-решения)
+- [Следующий шаг после извлечения](#следующий-шаг-после-извлечения)
+
+---
+
+<!-- tags: ingestion, local-first, architecture, anthropic, collaboration -->
+
+
+
+
 > Как превратить сырые файлы (MHTML, PDF, HTML, TXT) в чистый Markdown.
 
 ---
@@ -113,3 +139,13 @@ python scripts/extract_mhtml.py "Вакансии в Anthropic - Claude" output.
 ## Следующий шаг после извлечения
 
 После получения Markdown → **Часть 3: Разбивка на смысловые единицы**
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-overview](docs/processing-guide/01-overview.md)
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [README](docs/processing-guide/README.md)
+

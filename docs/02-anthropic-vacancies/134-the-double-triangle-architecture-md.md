@@ -83,3 +83,19 @@ markdown
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
+- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
+- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
+- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- _...ещё 12_
+

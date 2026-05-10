@@ -1,5 +1,33 @@
 # Карта репозитория Lorenzo
 
+<!-- summary -->
+> - [Мета-документы](#мета-документы)
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Legal RAG, Graph RAG
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Навигация](#навигация)
+- [Мета-документы](#мета-документы)
+- [Svyazi 2.0 — Архитектура системы](#svyazi-20-архитектура-системы)
+- [Вакансии Anthropic — 436 позиций](#вакансии-anthropic-436-позиций)
+- [Комбинации технологий](#комбинации-технологий)
+- [AI Коллаборации — ансамбли проектов](#ai-коллаборации-ансамбли-проектов)
+- [Хабр-проекты — память и граф](#хабр-проекты-память-и-граф)
+- [autofilled](#autofilled)
+- [contacts](#contacts)
+- [glossary](#glossary)
+- [templates](#templates)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 **Всего файлов:** 1193

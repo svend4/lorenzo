@@ -1,5 +1,15 @@
 # Согласованность терминов
 
+<!-- summary -->
+> Анализ различных написаний одних и тех же терминов.
+**Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, NGT Memory, Auto AI Router
+
+---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improve -->
+
+
+
+
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |

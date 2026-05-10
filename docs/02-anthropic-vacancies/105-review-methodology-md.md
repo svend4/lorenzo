@@ -93,3 +93,19 @@ markdown
 - [Abstract](04-abstract.md) _25%_
 - [portal-mcp.py](123-portal-mcp-py.md) _25%_
 - [Содержание](190-содержание.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (21):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
+- [229-профессиональные-коллеги-агенты](docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md)
+- _...ещё 13_
+

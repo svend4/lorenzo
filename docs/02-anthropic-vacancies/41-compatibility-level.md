@@ -83,3 +83,19 @@
 - [Содержание](190-содержание.md) _29%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _29%_
 - [Содержание](326-содержание.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
+- _...ещё 6_
+

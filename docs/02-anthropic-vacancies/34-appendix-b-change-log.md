@@ -137,3 +137,19 @@ Appendix A с minimal working example — это критично. Внешни�
 - [Appendix C: References](104-appendix-c-references.md) _25%_
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _25%_
 - [Глоссарий](122-глоссарий.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
+- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
+- _...ещё 5_
+

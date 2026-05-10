@@ -1,5 +1,15 @@
 # Health Dashboard
 
+<!-- summary -->
+> - 🔗 Проверить 317 сломанных ссылок (`BROKEN_LINKS.md`)
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, anthropic, collaboration -->
+
+
+
+
 _Обновлено: 2026-05-10_
 
 ## Общий балл: **84/100** 🟡
@@ -57,3 +67,15 @@ _Обновлено: 2026-05-10_
 
 - 🔗 Проверить 317 сломанных ссылок (`BROKEN_LINKS.md`)
 - 📝 Дополнить 2 незакрытых тем (`MISSING.md`)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [INDEX](docs/INDEX.md)
+- [PROGRESS](docs/PROGRESS.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+- [kpi-snapshot](docs/templates/kpi-snapshot.md)
+

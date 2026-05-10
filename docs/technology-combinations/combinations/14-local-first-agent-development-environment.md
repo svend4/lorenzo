@@ -122,3 +122,14 @@ Charted eight research directions for discovering additional project synergies
 - [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
 - [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [README](docs/technology-combinations/combinations/README.md)
+- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+

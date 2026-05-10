@@ -56,3 +56,13 @@ formal mapping
 - [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
 - [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](docs/nautilus/README.md)
+- [README](docs/nautilus/npp-v1-1/README.md)
+- [reading-paths](docs/reading-paths.md)
+

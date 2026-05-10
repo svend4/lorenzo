@@ -146,3 +146,13 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 - [Агентные системы и роутинг](01-agent-routing.md) _21%_
 - [Графы знаний и Legal AI](02-knowledge-graphs.md) _21%_
 - [Приоритеты файлов](../PRIORITIES.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
+- [03-local-first](docs/03-technology-combinations/03-local-first.md)
+- [README](docs/03-technology-combinations/README.md)
+

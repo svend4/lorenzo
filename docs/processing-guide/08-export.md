@@ -1,5 +1,34 @@
 # Обработка больших массивов — Часть 8: Экспорт и интеграции
 
+<!-- summary -->
+> > Куда отправить обработанную базу знаний: форматы, платформы, пайплайны.
+**Проекты:** Svyazi, Yodoca
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Зачем экспортировать?](#зачем-экспортировать)
+- [Obsidian Vault — improve_obsidian.py](#obsidian-vault-improve_obsidianpy)
+- [Confluence — improve_confluence.py](#confluence-improve_confluencepy)
+- [EPUB — improve_epub.py](#epub-improve_epubpy)
+- [RSS/Atom — improve_rss.py](#rssatom-improve_rsspy)
+- [JSON/CSV — improve_export_json.py, improve_export_csv.py](#jsoncsv-improve_export_jsonpy-improve_export_csvpy)
+- [JSONL для RAG — improve_chunk_semantic.py](#jsonl-для-rag-improve_chunk_semanticpy)
+- [HTML — improve_export_html.py](#html-improve_export_htmlpy)
+- [Карта сайта — improve_sitemap.py](#карта-сайта-improve_sitemappy)
+- [MCP-сервер — mcp_server.py](#mcp-сервер-mcp_serverpy)
+- [Сводная таблица экспортных форматов](#сводная-таблица-экспортных-форматов)
+- [Следующий шаг](#следующий-шаг)
+
+---
+
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 > Куда отправить обработанную базу знаний: форматы, платформы, пайплайны.
 
 ---
@@ -194,3 +223,13 @@ python scripts/mcp_server.py  # stdio режим
 ## Следующий шаг
 
 После экспорта → **Часть 9: Автоматизация (оркестратор, watcher, CI/CD)**
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-overview](docs/processing-guide/01-overview.md)
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [README](docs/processing-guide/README.md)
+

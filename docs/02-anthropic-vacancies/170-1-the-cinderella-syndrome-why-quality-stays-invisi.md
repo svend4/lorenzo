@@ -188,3 +188,17 @@ Layer.
 - [2. Target Populations](156-2-target-populations.md) _17%_
 - [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
 - [10. Strategic Positioning](318-10-strategic-positioning.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
+- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
+- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

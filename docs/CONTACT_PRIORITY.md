@@ -1,5 +1,15 @@
 # Приоритет контактов
 
+<!-- summary -->
+> 1. **kksudo** (AgentFS, 133 упоминаний) → [открыть контакт](contacts/kksudo.md)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 _Обновлено: 2026-04-29_
 
 ## Топ авторов по приоритету

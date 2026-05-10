@@ -47,3 +47,14 @@
 - [231-содержание](docs/02-anthropic-vacancies/231-содержание.md)
 - [48-content-overview](docs/02-anthropic-vacancies/48-content-overview.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
+- [31-content-overview](docs/02-anthropic-vacancies/31-content-overview.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

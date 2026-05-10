@@ -81,3 +81,16 @@ markdown
 - [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md) _37%_
 - [Essence](36-essence.md) _33%_
 - [Angle / Perspective](59-angle-perspective.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

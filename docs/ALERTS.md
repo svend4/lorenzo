@@ -1,5 +1,14 @@
 # Callout-блоки
 
+<!-- summary -->
+> Добавлено **72** callout-блоков в документы.
+
+---
+<!-- tags: ingestion -->
+
+
+
+
 Добавлено **72** callout-блоков в документы.
 
 | Тип | Количество | Назначение |
@@ -26,3 +35,13 @@
 ```
 
 _Поддерживается в GitHub Markdown с 2023 года._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [INDEX](docs/INDEX.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

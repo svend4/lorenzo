@@ -7,6 +7,18 @@ date: 2026-04-29
 ---
 
 # Appendix B: Decision Framework — When to Build Type 1 First
+
+<!-- toc -->
+## Содержание
+
+- [Appendix B: Decision Framework — When to Build Type 1 First](#appendix-b-decision-framework-when-to-build-type-1-first)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: anthropic -->
 
 

@@ -132,3 +132,19 @@ class MyNotesAdapter(BaseAdapter):
 - [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
 - [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
+- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- _...ещё 9_
+

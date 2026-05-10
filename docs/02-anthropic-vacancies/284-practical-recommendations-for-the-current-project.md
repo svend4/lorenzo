@@ -139,3 +139,19 @@ The friction will be lower than no infrastructure at all.
 - [Existing Approximations](279-existing-approximations.md) _25%_
 - [The Recursive Insight](281-the-recursive-insight.md) _25%_
 - [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
+- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
+- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- _...ещё 4_
+

@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Расписание проекта
+<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)

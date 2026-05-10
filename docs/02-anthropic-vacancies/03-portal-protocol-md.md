@@ -93,3 +93,19 @@ markdown
 - [12. Versioning Policy](24-12-versioning-policy.md) _25%_
 - [Author & Contact](42-author-contact.md) _25%_
 - [Author & Contact](52-author-contact.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (22):**
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
+- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- _...ещё 14_
+

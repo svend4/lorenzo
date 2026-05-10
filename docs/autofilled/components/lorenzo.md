@@ -69,3 +69,19 @@ _Компонент экосистемы Svyazi 2.0_
 - [Антропик](.md)
 - [Все таблицы репозитория](../../TABLES.md)
 - [Карта репозитория Lorenzo](../../SITEMAP.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [AUTOFILLED](docs/AUTOFILLED.md)
+- [TABLES](docs/TABLES.md)
+- [.md](docs/autofilled/components/.md)
+- [README](docs/autofilled/components/README.md)
+- [cowork](docs/autofilled/components/cowork.md)
+- [ingit](docs/autofilled/components/ingit.md)
+- [kksudo](docs/autofilled/components/kksudo.md)
+- [nautilus](docs/autofilled/components/nautilus.md)
+- _...ещё 4_
+

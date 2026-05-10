@@ -68,3 +68,15 @@
 - [Кто ты](345-кто-ты.md) _25%_
 - [Что ты НЕ МОЖЕШЬ делать вообще](353-что-ты-не-можешь-делать-вообще.md) _21%_
 - [Final note: Ты — experiment](364-final-note-ты-experiment.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
+- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
+- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

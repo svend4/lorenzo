@@ -75,3 +75,14 @@ _Обновлено: 2026-04-29_
 - [Системы памяти](../README.md) _21%_
 - [Системы знаний](../README.md) _17%_
 - [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [README](docs/05-habr-projects/README.md)
+- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+

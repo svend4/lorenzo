@@ -53,3 +53,14 @@ English. Рекомендуется формат с параллельными �
 - [Appendix A: Шаблон для header warning](118-appendix-a-шаблон-для-header-warning.md) _17%_
 - [Appendix C: История изменений методологии](121-appendix-c-история-изменений-методологии.md) _17%_
 - [Твоя миссия](347-твоя-миссия.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
+- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
+- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

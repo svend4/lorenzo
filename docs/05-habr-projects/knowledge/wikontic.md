@@ -88,3 +88,13 @@ Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive A
 - [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) _21%_
 - [Системы памяти](../../README.md) _17%_
 - [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
+- [README](docs/05-habr-projects/knowledge/README.md)
+- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+

@@ -1,5 +1,15 @@
 # Q&A: 03-technology-combinations
 
+<!-- summary -->
+> _Автоматически сгенерировано по 5 файлам раздела._
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space
+
+---
+<!-- tags: rag, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 _Автоматически сгенерировано по 5 файлам раздела._
 
 ## Contents

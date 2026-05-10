@@ -1,4 +1,6 @@
 # Валидация шаблонов
+<!-- tags: memory, ingestion, roadmap, anthropic, collaboration -->
+
 
 **Ошибок:** 0  **Предупреждений:** 29  **Пройдено:** 27
 
@@ -83,3 +85,15 @@ _Всё в порядке_
 ## Итог
 
 ⚠️ **29 предупреждений** — рекомендуется исправить.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [INDEX](docs/INDEX.md)
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
+- [README](docs/README.md)
+- [REPORT](docs/REPORT.md)
+- [TABLES](docs/TABLES.md)
+

@@ -6,6 +6,8 @@ date: 2026-04-29
 ---
 
 # Отчёт об устаревших документах
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
 
 _Порог: 30 дней. Обновлено: 2026-04-29_
 

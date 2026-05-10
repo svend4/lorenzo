@@ -54,3 +54,13 @@
 - [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
 - [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [components-by-name](docs/glossary/components-by-name.md)
+- [reading-paths](docs/reading-paths.md)
+- [README](docs/technology-combinations/mega-stacks/README.md)
+

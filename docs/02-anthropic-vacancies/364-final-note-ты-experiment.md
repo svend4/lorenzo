@@ -222,3 +222,19 @@ Fetched: Rufler: Делаем из Claude Code автономный рой че�
 - [Существующий landscape collaborators (твоя working knowledge)](354-существующий-landscape-collaborators-твоя-working-.md) _17%_
 - [Твоя relationship с другими AI](358-твоя-relationship-с-другими-ai.md) _17%_
 - [Развёрнутый анализ «внуковой» комбинации](365-развёрнутый-анализ-внуковой-комбинации.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)
+- [303-приложение-визуализация-позиции-в-серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [344-системный-промпт-для-lorenzo-project](docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md)
+- [358-твоя-relationship-с-другими-ai](docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- _...ещё 2_
+

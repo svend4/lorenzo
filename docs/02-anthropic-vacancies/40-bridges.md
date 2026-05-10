@@ -59,3 +59,17 @@ mapping если есть, или отметить, что мост пока д�
 - [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
 - [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
+- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [63-history](docs/02-anthropic-vacancies/63-history.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

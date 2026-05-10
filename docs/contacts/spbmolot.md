@@ -99,3 +99,13 @@ _Создано автоматически: 2026-04-29_
 - [sonia-black](docs/contacts/sonia-black.md)
 - [vitalyoborin](docs/contacts/vitalyoborin.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+- [kksudo](docs/autofilled/components/kksudo.md)
+- [README](docs/contacts/README.md)
+

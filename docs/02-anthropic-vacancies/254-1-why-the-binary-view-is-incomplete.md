@@ -183,3 +183,19 @@ support to skilled professions.
 - [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _25%_
 - [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _25%_
 - [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
+- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
+- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
+- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- _...ещё 8_
+

@@ -87,3 +87,19 @@
 - [12. Versioning Policy](24-12-versioning-policy.md) _29%_
 - [passports/info1.md](35-passports-info1-md.md) _29%_
 - [Author & Contact](52-author-contact.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [16-history](docs/02-anthropic-vacancies/16-history.md)
+- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
+- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
+- _...ещё 8_
+

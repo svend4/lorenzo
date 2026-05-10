@@ -1,5 +1,18 @@
 # Языковой состав документов
 
+<!-- toc -->
+## Содержание
+
+- [Распределение](#распределение)
+- [Файлы с неожиданным языком](#файлы-с-неожиданным-языком)
+- [Смешанные файлы (MIX)](#смешанные-файлы-mix)
+- [По секциям](#по-секциям)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 _Обновлено: 2026-04-29_
 
 Файлов: **1163**

@@ -10,3 +10,13 @@
 - [04-sozialrecht-domain.md](04-sozialrecht-domain.md) — <!-- summary -->
 - [05-benchmarks.md](05-benchmarks.md) — <!-- summary -->
 - [QA.md](QA.md) — _Автоматически сгенерировано по 5 файлам раздела._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
+- [03-local-first](docs/03-technology-combinations/03-local-first.md)
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
+

@@ -98,3 +98,19 @@ work and beyond.
 - [Acknowledgments](146-acknowledgments.md) _42%_
 - [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _42%_
 - [References](268-references.md) _37%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
+- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
+- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [224-acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md)
+- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
+- _...ещё 6_
+

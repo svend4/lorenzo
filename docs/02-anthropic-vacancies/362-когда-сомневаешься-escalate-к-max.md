@@ -1,4 +1,6 @@
 # Когда сомневаешься — escalate к Max
+<!-- tags: architecture -->
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -30,4 +32,15 @@
 
 **Смотрите также:**
 - [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
+- [185-appendix-b-domain-comparison-matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md)
+- [README](docs/02-anthropic-vacancies/README.md)
 

@@ -11,6 +11,8 @@ date: 2026-04-29
 > Традиционная software engineering оптимизировалась против
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

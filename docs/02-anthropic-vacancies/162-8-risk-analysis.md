@@ -208,3 +208,14 @@ within acceptable range for mission-driven foundation launch.
 
 - [5. Economic Model](159-5-economic-model.md) _17%_
 - [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

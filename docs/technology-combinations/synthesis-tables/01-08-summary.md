@@ -54,3 +54,14 @@
 - [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
 - [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [concepts](docs/glossary/concepts.md)
+- [reading-paths](docs/reading-paths.md)
+- [README](docs/technology-combinations/README.md)
+- [README](docs/technology-combinations/synthesis-tables/README.md)
+

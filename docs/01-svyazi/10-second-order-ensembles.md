@@ -111,3 +111,13 @@ flowchart LR
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [13-contacts](docs/01-svyazi/13-contacts.md)
+- [README](docs/01-svyazi/README.md)
+- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
+

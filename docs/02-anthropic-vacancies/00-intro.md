@@ -451,3 +451,13 @@ soz150 / Writing OS + data4 (public) → новый legal-sgb-toolkit с:
 
 - [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _21%_
 - [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

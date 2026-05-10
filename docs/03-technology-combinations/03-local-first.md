@@ -1,5 +1,16 @@
 # Local-first и P2P стек
 
+<!-- toc -->
+## Содержание
+
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -101,3 +112,13 @@
 - [Глоссарий проектов](../GLOSSARY.md) _17%_
 - [Тепловая карта тем](../HEATMAP.md) _17%_
 - [Карта репозитория Lorenzo](../SITEMAP.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
+- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
+- [README](docs/03-technology-combinations/README.md)
+

@@ -1,8 +1,8 @@
 # Каталог скриптов
 
-_Обновлено: 2026-04-29_
+_Обновлено: 2026-05-10_
 
-**Всего скриптов:** 154
+**Всего скриптов:** 157
 
 
 ## По группам
@@ -22,13 +22,16 @@ _Обновлено: 2026-04-29_
 | `improve_similar.py` | для каждого документа находит топ-3 похожих. |  |
 | `improve_word_freq.py` | частотный анализ слов по разделам. |  |
 
-### analytics (6)
+### analytics (9)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
+| `improve_changelog_auto.py` | автоматический changelog из git-истории. |  |
 | `improve_citation_index.py` | индекс внешних URL по частоте цитирования. | `--domain`, `--min-citations` |
 | `improve_cross_section.py` | граф концептов между секциями. | `--format`, `--min-secs`, `--top` |
+| `improve_dependency_map.py` | карта зависимостей: скрипты → выходные файлы. |  |
 | `improve_digest_auto.py` | автодайджест изменений за N дней. | `--days`, `--format`, `--since` |
+| `improve_digest_weekly.py` | еженедельный дайджест изменений репозитория. |  |
 | `improve_reading_time.py` | оценивает время чтения каждого документа. | `--section`, `--wpm` |
 | `improve_topic_model.py` | тематическое моделирование без ML-зависимостей. | `--section`, `--top-words`, `--topics` |
 | `improve_version_diff.py` | показывает содержательные изменения docs/ между коммитами. | `--from`, `--last`, `--to` |
@@ -41,6 +44,12 @@ _Обновлено: 2026-04-29_
 | `improve_dependabot.py` | мониторинг версий OSS-компонентов Svyazi 2.0. | `--check-pypi`, `--generate-config` |
 | `improve_github_issues.py` | создаёт GitHub Issues из ACTION_ITEMS.md и TODO-блоков. | `--create`, `--dry-run`, `--label` |
 | `improve_pre_commit.py` | генерирует .pre-commit-config.yaml для проекта. | `--dry-run`, `--install` |
+
+### contacts-ext (1)
+
+| Скрипт | Описание | Флаги |
+|--------|----------|-------|
+| `improve_migrate_contacts.py` | миграция docs/contacts/*.md на frontmatter contact-outreach. | `--apply`, `--dry-run` |
 
 ### content (4)
 
@@ -66,11 +75,12 @@ _Обновлено: 2026-04-29_
 | `improve_timeline_events.py` | извлекает даты и события из базы знаний. | `--format`, `--from`, `--section`, `--to` |
 | `improve_vocabulary_richness.py` | метрики богатства словаря документов. | `--section`, `--top`, `--window` |
 
-### export (7)
+### export (8)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
 | `improve_confluence.py` | конвертирует docs/*.md в формат Confluence Wiki Markup. | `--dry-run`, `--section` |
+| `improve_epub.py` | собирает docs/ в EPUB через pandoc. | `--check`, `--output`, `--section`, `--title` |
 | `improve_export_csv.py` | экспортирует метаданные всех docs/ в CSV. |  |
 | `improve_export_html.py` | экспортирует все docs/ в единый HTML-сайт. |  |
 | `improve_export_json.py` | экспортирует всю структуру docs/ в structured JSON. |  |
@@ -124,6 +134,25 @@ _Обновлено: 2026-04-29_
 | `improve_search_index.py` | строит полнотекстовый JSON-индекс всех docs/. |  |
 | `improve_timeline.py` | извлекает даты и временные маркеры из всех docs/, |  |
 
+### mcp (2)
+
+| Скрипт | Описание | Флаги |
+|--------|----------|-------|
+| `improve_mcp_dashboard.py` | статистика вызовов MCP-серверов. |  |
+| `improve_mcp_test.py` | smoke-тесты для всех MCP-серверов. |  |
+
+### meta (7)
+
+| Скрипт | Описание | Флаги |
+|--------|----------|-------|
+| `improve_audit_db.py` | SQLite audit log для всех событий системы. | `--query`, `--rebuild`, `--recent`, `--slow-calls`, `--top-tools`, `--workflow-stats` |
+| `improve_component_matrix.py` | матрица совместимости и возможностей компонентов. |  |
+| `improve_index_master.py` | главный навигационный хаб docs/. |  |
+| `improve_kpi_snapshot.py` | исторические снапшоты ключевых метрик. |  |
+| `improve_onboarding.py` | руководство для новых участников проекта. |  |
+| `improve_risk_register.py` | реестр рисков проекта Svyazi 2.0. |  |
+| `improve_tech_radar.py` | tech radar для технологий проекта Svyazi 2.0. |  |
+
 ### nlpplus (10)
 
 | Скрипт | Описание | Флаги |
@@ -139,7 +168,7 @@ _Обновлено: 2026-04-29_
 | `improve_similar_passages.py` | поиск похожих абзацев между файлами (TF-IDF cosine). | `--min-sim`, `--min-words`, `--section`, `--top` |
 | `improve_textrank.py` | извлекательное резюме через TextRank (без LLM). | `--apply`, `--query`, `--section`, `--sentences` |
 
-### quality (10)
+### quality (13)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
@@ -147,14 +176,17 @@ _Обновлено: 2026-04-29_
 | `improve_broken_links.py` | проверяет внутренние ссылки в docs/. | `--dry-run`, `--fix` |
 | `improve_consistency.py` | находит разные написания одного термина, |  |
 | `improve_content_gaps.py` | находит темы, упомянутые в docs/, но без собственного документа. | `--min-mentions`, `--section` |
+| `improve_link_preview.py` | проверяет внешние ссылки в docs/ и кэширует их статус. | `--refresh`, `--section`, `--timeout` |
 | `improve_metrics.py` | метрики качества документации. |  |
 | `improve_missing.py` | находит темы/проекты упомянутые в документах |  |
 | `improve_orphans.py` | находит документы без входящих ссылок (orphan docs). |  |
 | `improve_readability_v2.py` | индекс читаемости текстов. | `--section` |
 | `improve_spellcheck.py` | проверка орфографии в docs/. | `--fix`, `--section` |
+| `improve_template_integrity.py` | проверка целостности шаблонов. | `--dry-run`, `--fix`, `--strict` |
 | `improve_validate.py` | валидация структуры репозитория. |  |
+| `improve_validate_templates.py` | валидация документов по схемам шаблонов. | `--file`, `--report`, `--section`, `--strict` |
 
-### reports (19)
+### reports (21)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
@@ -171,72 +203,58 @@ _Обновлено: 2026-04-29_
 | `improve_progress_sync.py` | синхронизирует PROGRESS.md с реальным состоянием файлов. | `--dry-run` |
 | `improve_qa.py` | генерирует Q&A листы для каждого раздела docs/. |  |
 | `improve_reading_order.py` | строит рекомендуемый порядок чтения документов |  |
+| `improve_registry.py` | единый реестр всех артефактов проекта в docs/REGISTRY.md. |  |
 | `improve_report.py` | итоговый executive report о состоянии репозитория. |  |
 | `improve_schedule.py` | строит расписание проекта из ACTION_ITEMS и временных маркеров. |  |
 | `improve_scoring.py` | система оценки готовности проекта к запуску (Go/No-Go). |  |
 | `improve_sitemap.py` | генерирует навигационную карту репозитория. |  |
+| `improve_skill_dashboard.py` | статистика использования и оценок скилов. |  |
 | `improve_staleness.py` | находит документы которые давно не обновлялись или неполные. | `--days`, `--no-git` |
 | `improve_stats.py` | детальная статистика по каждому разделу docs/. |  |
 
-### structure (6)
+### structure (7)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
 | `improve_autocorrect.py` | применяет исправления из CONSISTENCY.md: | `--dry-run` |
-| `improve_merge_short.py` | сливает слишком короткие файлы с предыдущим соседом. |  |
+| `improve_merge_short.py` | сливает слишком короткие файлы с предыдущим соседом. | `--dry-run` |
 | `improve_readmes.py` | создаёт README.md для каждой подпапки docs/. |  |
+| `improve_status_badges.py` | генератор SVG status badges для README. |  |
 | `improve_summaries.py` | добавляет краткую аннотацию в начало каждого файла. |  |
 | `improve_tags.py` | тегирует каждый файл по темам, создаёт docs/TAGS.md |  |
 | `improve_toc.py` | добавляет Table of Contents в начало файлов длиннее 500 слов. |  |
 
-### textwork (8)
+### textwork (9)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
 | `improve_compare_docs.py` | сравнивает два документа: общее, различия, пересечения. | `--a`, `--b`, `--batch`, `--out`, `--section`, `--top` |
 | `improve_crosslink_all.py` | прописывает обратные ссылки (backlinks) во все файлы. | `--apply`, `--dry-run`, `--keywords`, `--min-refs` |
 | `improve_duplicate_across.py` | поиск похожих текстов между репозиториями/папками. | `--internal`, `--other-dir`, `--other-repo`, `--section`, `--threshold` |
+| `improve_external_compare.py` | сравнивает документы базы с внешними источниками. | `--auto`, `--file`, `--limit`, `--query`, `--section`, `--url` |
 | `improve_merge_by_topic.py` | склеивает файлы-фрагменты одной темы в единый документ. | `--apply`, `--dry-run`, `--min-group`, `--section`, `--threshold` |
 | `improve_outline.py` | строит иерархический outline всей базы знаний. | `--depth`, `--format`, `--section` |
 | `improve_reclassify.py` | раскладывает файлы по подпапкам на основе TF-IDF тематики. | `--apply`, `--dry-run`, `--section`, `--topics` |
 | `improve_source_map.py` | строит карту происхождения текстов. | `--authors`, `--format`, `--section`, `--show-imported` |
 | `improve_subtopic_fill.py` | дополняет файлы-заглушки контентом из базы знаний. | `--apply`, `--dry-run`, `--min-words`, `--section` |
 
-### без группы (35)
+### без группы (17)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
-| `improve_audit_db.py` | SQLite audit log для всех событий системы. | `--query`, `--rebuild`, `--recent`, `--slow-calls`, `--top-tools`, `--workflow-stats` |
-| `improve_changelog_auto.py` | автоматический changelog из git-истории. |  |
-| `improve_component_matrix.py` | матрица совместимости и возможностей компонентов. |  |
 | `improve_contact_status.py` | обновляет статус контакта в docs/contacts/<slug>.md. | `--agreed`, `--author`, `--list`, `--messaged`, `--note`, `--replied`, … |
-| `improve_dependency_map.py` | карта зависимостей: скрипты → выходные файлы. |  |
-| `improve_digest_weekly.py` | еженедельный дайджест изменений репозитория. |  |
-| `improve_epub.py` | собирает docs/ в EPUB через pandoc. | `--check`, `--output`, `--section`, `--title` |
-| `improve_external_compare.py` | сравнивает документы базы с внешними источниками. | `--auto`, `--file`, `--limit`, `--query`, `--section`, `--url` |
-| `improve_index_master.py` | главный навигационный хаб docs/. |  |
-| `improve_kpi_snapshot.py` | исторические снапшоты ключевых метрик. |  |
-| `improve_link_preview.py` | проверяет внешние ссылки в docs/ и кэширует их статус. | `--refresh`, `--section`, `--timeout` |
 | `improve_llm_contact.py` | генерирует персонализированное первое сообщение автору через LLM. | `--all`, `--author`, `--dry-run` |
 | `improve_llm_enrich.py` | семантическое обогащение проектных файлов через Claude API. | `--dry-run`, `--file`, `--force`, `--model`, `--section` |
 | `improve_llm_gaps.py` | семантический поиск пробелов через Claude API. |  |
 | `improve_llm_qa.py` | ответы на вопросы по всей базе знаний Lorenzo через Claude API. | `--batch`, `--clear-cache`, `--dry-run`, `--no-cache`, `--question`, `--save` |
 | `improve_llm_summary.py` | каскадная суммаризация больших документов через Claude API. | `--dry-run`, `--file`, `--section` |
-| `improve_mcp_dashboard.py` | статистика вызовов MCP-серверов. |  |
-| `improve_mcp_test.py` | smoke-тесты для всех MCP-серверов. |  |
-| `improve_migrate_contacts.py` | миграция docs/contacts/*.md на frontmatter contact-outreach. | `--apply`, `--dry-run` |
-| `improve_onboarding.py` | руководство для новых участников проекта. |  |
-| `improve_registry.py` | единый реестр всех артефактов проекта в docs/REGISTRY.md. |  |
-| `improve_risk_register.py` | реестр рисков проекта Svyazi 2.0. |  |
+| `improve_recipe.py` | умная система рецептов: последовательности скриптов под конкретную цель. | `--add`, `--delete`, `--desc`, `--dry-run`, `--find`, `--info`, … |
 | `improve_run_all.py` | мастер-скрипт для запуска всех improve_*.py. | `--changed`, `--dry-run`, `--fast`, `--group`, `--only`, `--parallel`, … |
-| `improve_skill_dashboard.py` | статистика использования и оценок скилов. |  |
-| `improve_status_badges.py` | генератор SVG status badges для README. |  |
+| `improve_search_repl.py` | интерактивный поисковый терминал (REPL). | `--index`, `--query` |
+| `improve_self.py` | метаскрипт: читает все скрипты, строит каталог, обогащает, генерирует. | `--apply`, `--audit`, `--batch`, `--catalog`, `--cross-read`, `--dry-run`, … |
 | `improve_task_codegen.py` | генератор слоёв (скилл / MCP-tool / index) из манифестов tasks/*.task.yaml. | `--dry-run`, `--list`, `--task`, `--validate` |
-| `improve_tech_radar.py` | tech radar для технологий проекта Svyazi 2.0. |  |
 | `improve_template_init.py` | инициализация нового документа из шаблона. | `--list`, `--show`, `--slug`, `--type`, `--vars` |
-| `improve_template_integrity.py` | проверка целостности шаблонов. | `--fix`, `--strict` |
 | `improve_template_migrate.py` | миграции frontmatter при изменении схемы шаблона. | `--all`, `--apply`, `--dry-run`, `--template` |
-| `improve_validate_templates.py` | валидация документов по схемам шаблонов. | `--file`, `--report`, `--section`, `--strict` |
 | `improve_watch.py` | следит за изменениями в docs/ и перезапускает нужные скрипты. | `--changed`, `--fast`, `--group`, `--interval` |
 | `improve_watcher.py` | автономный агент-наблюдатель (Ступень 6). | `--once` |
 | `improve_workflow_run.py` | исполнитель пайплайнов из манифестов tasks/*.task.yaml. | `--dry-run`, `--inputs`, `--list`, `--task` |
@@ -275,7 +293,7 @@ _Обновлено: 2026-04-29_
 Форматы: > [!NOTE], > [!WARNING], > [!TIP], > [!IMPORTANT]. Анализирует содержимое и вставляет подходящий callout в начало файла.
 
 
-### `improve_audit_db.py` _(группа: без группы)_
+### `improve_audit_db.py` _(группа: meta)_
 
 **SQLite audit log для всех событий системы.**
 
@@ -359,7 +377,7 @@ _Обновлено: 2026-04-29_
 Группирует коммиты по типам (feat/fix/chore/improve) и датам. Создаёт docs/CHANGELOG.md и CHANGELOG.md в корне.
 
 
-### `improve_changelog_auto.py` _(группа: без группы)_
+### `improve_changelog_auto.py` _(группа: analytics)_
 
 **автоматический changelog из git-истории.**
 
@@ -423,7 +441,7 @@ _Обновлено: 2026-04-29_
 Метрики: длина предложений, плотность терминов, глубина вложенности заголовков. Создаёт docs/COMPLEXITY.md.
 
 
-### `improve_component_matrix.py` _(группа: без группы)_
+### `improve_component_matrix.py` _(группа: meta)_
 
 **матрица совместимости и возможностей компонентов.**
 
@@ -576,7 +594,7 @@ _Обновлено: 2026-04-29_
 **Флаги:** `--check-pypi`, `--generate-config`
 
 
-### `improve_dependency_map.py` _(группа: без группы)_
+### `improve_dependency_map.py` _(группа: analytics)_
 
 **карта зависимостей: скрипты → выходные файлы.**
 
@@ -599,7 +617,7 @@ _Обновлено: 2026-04-29_
 **Флаги:** `--days`, `--format`, `--since`
 
 
-### `improve_digest_weekly.py` _(группа: без группы)_
+### `improve_digest_weekly.py` _(группа: analytics)_
 
 **еженедельный дайджест изменений репозитория.**
 
@@ -631,7 +649,7 @@ _Обновлено: 2026-04-29_
 Категории: люди, проекты, организации, технологии, URL/репозитории. Создаёт docs/ENTITIES.md.
 
 
-### `improve_epub.py` _(группа: без группы)_
+### `improve_epub.py` _(группа: export)_
 
 **собирает docs/ в EPUB через pandoc.**
 
@@ -670,7 +688,7 @@ _Обновлено: 2026-04-29_
 **Флаги:** `--no-projects`, `--sections`, `--title`
 
 
-### `improve_external_compare.py` _(группа: без группы)_
+### `improve_external_compare.py` _(группа: textwork)_
 
 **сравнивает документы базы с внешними источниками.**
 
@@ -771,7 +789,7 @@ _Обновлено: 2026-04-29_
 ASCII-визуализация: строки = темы, столбцы = разделы. Создаёт docs/HEATMAP.md.
 
 
-### `improve_index_master.py` _(группа: без группы)_
+### `improve_index_master.py` _(группа: meta)_
 
 **главный навигационный хаб docs/.**
 
@@ -808,7 +826,7 @@ ASCII-визуализация: строки = темы, столбцы = раз
 Ищет: числа с единицами, проценты, временные оценки, бюджеты, размеры команд. Создаёт docs/KPI.md.
 
 
-### `improve_kpi_snapshot.py` _(группа: без группы)_
+### `improve_kpi_snapshot.py` _(группа: meta)_
 
 **исторические снапшоты ключевых метрик.**
 
@@ -824,7 +842,7 @@ ASCII-визуализация: строки = темы, столбцы = раз
 **Флаги:** `--min-mix`, `--report`, `--section`, `--split`
 
 
-### `improve_link_preview.py` _(группа: без группы)_
+### `improve_link_preview.py` _(группа: quality)_
 
 **проверяет внешние ссылки в docs/ и кэширует их статус.**
 
@@ -876,14 +894,14 @@ Stage 3b: map-reduce для документов любого размера. А
 **Флаги:** `--dry-run`, `--file`, `--section`
 
 
-### `improve_mcp_dashboard.py` _(группа: без группы)_
+### `improve_mcp_dashboard.py` _(группа: mcp)_
 
 **статистика вызовов MCP-серверов.**
 
 Читает .claude/mcp_calls.jsonl и формирует docs/MCP_DASHBOARD.md: - сколько вызовов на каждый сервер - топ-инструменты по частоте - средняя длительность - ошибки
 
 
-### `improve_mcp_test.py` _(группа: без группы)_
+### `improve_mcp_test.py` _(группа: mcp)_
 
 **smoke-тесты для всех MCP-серверов.**
 
@@ -903,6 +921,10 @@ Stage 3b: map-reduce для документов любого размера. А
 
 **сливает слишком короткие файлы с предыдущим соседом.**
 
+Файлы короче MIN_CHARS символов присоединяются к предыдущему файлу той же папки и удаляются. Операция необратима — используйте --dry-run перед применением.
+
+**Флаги:** `--dry-run`
+
 
 ### `improve_metrics.py` _(группа: quality)_
 
@@ -911,7 +933,7 @@ Stage 3b: map-reduce для документов любого размера. А
 Считает: индекс покрытия, плотность ссылок, насыщенность примерами, баланс разделов, индекс связности. Создаёт docs/METRICS.md.
 
 
-### `improve_migrate_contacts.py` _(группа: без группы)_
+### `improve_migrate_contacts.py` _(группа: contacts-ext)_
 
 **миграция docs/contacts/*.md на frontmatter contact-outreach.**
 
@@ -966,7 +988,7 @@ Stage 3b: map-reduce для документов любого размера. А
 **Флаги:** `--dry-run`, `--in-place`, `--section`
 
 
-### `improve_onboarding.py` _(группа: без группы)_
+### `improve_onboarding.py` _(группа: meta)_
 
 **руководство для новых участников проекта.**
 
@@ -1112,6 +1134,15 @@ Stage 2: оркестратор, читает файловую систему, �
 README содержит: список файлов, первые строки каждого файла как описание.
 
 
+### `improve_recipe.py` _(группа: без группы)_
+
+**умная система рецептов: последовательности скриптов под конкретную цель.**
+
+Рецепт = именованная цепочка скриптов для решения типовой задачи. Встроенные рецепты охватывают 21 группу; пользователь может добавлять свои. Команды:
+
+**Флаги:** `--add`, `--delete`, `--desc`, `--dry-run`, `--find`, `--info`, `--list`, `--run`, `--scripts`
+
+
 ### `improve_reclassify.py` _(группа: textwork)_
 
 **раскладывает файлы по подпапкам на основе TF-IDF тематики.**
@@ -1121,7 +1152,7 @@ README содержит: список файлов, первые строки к
 **Флаги:** `--apply`, `--dry-run`, `--section`, `--topics`
 
 
-### `improve_registry.py` _(группа: без группы)_
+### `improve_registry.py` _(группа: reports)_
 
 **единый реестр всех артефактов проекта в docs/REGISTRY.md.**
 
@@ -1135,7 +1166,7 @@ README содержит: список файлов, первые строки к
 Агрегирует данные из HEALTH, STATS, KPI, DECISIONS, VALIDATION, NETWORK. Создаёт docs/REPORT.md — главный отчёт для быстрого обзора.
 
 
-### `improve_risk_register.py` _(группа: без группы)_
+### `improve_risk_register.py` _(группа: meta)_
 
 **реестр рисков проекта Svyazi 2.0.**
 
@@ -1179,11 +1210,29 @@ README содержит: список файлов, первые строки к
 Создаёт docs/search_index.json для быстрого поиска по проекту.
 
 
+### `improve_search_repl.py` _(группа: без группы)_
+
+**интерактивный поисковый терминал (REPL).**
+
+Объединяет несколько поисковых движков в одном интерфейсе: • BM25-поиск по абзацам (из passages.json или live-индекс) • Полнотекстовый поиск по всем docs/ • Навигация по результатам (:related, :open, :list) Команды в REPL:
+
+**Флаги:** `--index`, `--query`
+
+
 ### `improve_see_also.py` _(группа: generate)_
 
 **добавляет блок "See Also / Смотрите также"**
 
 в ключевые документы на основе тематического сходства. Создаёт docs/SEE_ALSO.md (индекс) и вставляет блоки в файлы.
+
+
+### `improve_self.py` _(группа: без группы)_
+
+**метаскрипт: читает все скрипты, строит каталог, обогащает, генерирует.**
+
+Режимы:
+
+**Флаги:** `--apply`, `--audit`, `--batch`, `--catalog`, `--cross-read`, `--dry-run`, `--enrich`, `--generate`
 
 
 ### `improve_sentiment.py` _(группа: analysis)_
@@ -1216,7 +1265,7 @@ README содержит: список файлов, первые строки к
 Создаёт: docs/SITEMAP.md (текстовый) + docs/sitemap.xml (XML для поиска).
 
 
-### `improve_skill_dashboard.py` _(группа: без группы)_
+### `improve_skill_dashboard.py` _(группа: reports)_
 
 **статистика использования и оценок скилов.**
 
@@ -1257,7 +1306,7 @@ README содержит: список файлов, первые строки к
 Считает: файлы, слова, заголовки H1-H4, таблицы, code-блоки, ссылки, изображения. Создаёт docs/STATS.md.
 
 
-### `improve_status_badges.py` _(группа: без группы)_
+### `improve_status_badges.py` _(группа: structure)_
 
 **генератор SVG status badges для README.**
 
@@ -1296,7 +1345,7 @@ README содержит: список файлов, первые строки к
 **Флаги:** `--dry-run`, `--list`, `--task`, `--validate`
 
 
-### `improve_tech_radar.py` _(группа: без группы)_
+### `improve_tech_radar.py` _(группа: meta)_
 
 **tech radar для технологий проекта Svyazi 2.0.**
 
@@ -1312,13 +1361,13 @@ README содержит: список файлов, первые строки к
 **Флаги:** `--list`, `--show`, `--slug`, `--type`, `--vars`
 
 
-### `improve_template_integrity.py` _(группа: без группы)_
+### `improve_template_integrity.py` _(группа: quality)_
 
 **проверка целостности шаблонов.**
 
 Проверяет, что бот / автоматические скрипты не «загрязнили» шаблоны: - <!-- summary --> блоков без контента - дублирующих <!-- summary: ... --> комментариев - > [!TIP] / > [!WARNING] callout'ов - <!-- alert-added --> маркеров
 
-**Флаги:** `--fix`, `--strict`
+**Флаги:** `--dry-run`, `--fix`, `--strict`
 
 
 ### `improve_template_migrate.py` _(группа: без группы)_
@@ -1394,7 +1443,7 @@ README содержит: список файлов, первые строки к
 Проверяет: наличие README в разделах, правильность именования, непустые файлы, корректность ссылок, обязательные мета-поля. Создаёт docs/VALIDATION.md.
 
 
-### `improve_validate_templates.py` _(группа: без группы)_
+### `improve_validate_templates.py` _(группа: quality)_
 
 **валидация документов по схемам шаблонов.**
 

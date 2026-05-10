@@ -78,3 +78,17 @@ evolution».
 - [Angle / Perspective](13-angle-perspective.md) _25%_
 - [15. Glossary of Examples](27-15-glossary-of-examples.md) _25%_
 - [passports/info1.md](35-passports-info1-md.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
+- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
+- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
+- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
+- [README](docs/02-anthropic-vacancies/README.md)
+

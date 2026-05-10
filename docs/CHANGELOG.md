@@ -1,5 +1,15 @@
 # CHANGELOG
 
+<!-- summary -->
+> Статистика: ✨ feat: 18 | 🔧 chore: 14 | ⚡ improve: 14 | 🐛 fix: 5 | 📝 docs: 3
+**Проекты:** Svyazi
+
+---
+<!-- tags: rag, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+
+
+
+
 Всего коммитов: **54**  
 Статистика: ✨ feat: 18 | 🔧 chore: 14 | ⚡ improve: 14 | 🐛 fix: 5 | 📝 docs: 3
 
@@ -171,3 +181,13 @@
 ### 🔧 Обслуживание
 
 - preview _- _doc_t_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
+- [README](docs/README.md)
+- [TABLES](docs/TABLES.md)
+

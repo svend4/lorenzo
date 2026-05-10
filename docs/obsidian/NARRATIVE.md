@@ -10,6 +10,8 @@ date: 2026-04-29
 _Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._
 
 ---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, roadmap, self-improvement, collaboration -->
+
 
 
 ## Глава 1: Исходная точка — Svyazi 2.0
