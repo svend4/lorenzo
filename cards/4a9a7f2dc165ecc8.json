@@ -6,8 +6,8 @@
     "docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T14:57:28+00:00",
-  "updated_at": "2026-05-10T14:57:28+00:00",
+  "created_at": "2026-05-10T15:20:08+00:00",
+  "updated_at": "2026-05-10T15:20:08+00:00",
   "payload_hash": "sha256:6e7303524dc73e88",
   "payload": {
     "title": "5. Pattern Library as Bridge Between Triangles",

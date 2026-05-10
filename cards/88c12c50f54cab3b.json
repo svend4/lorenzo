@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:88c12c50f54cab3b",
-  "card_type": "project",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/TECH_RADAR.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T14:57:27+00:00",
-  "updated_at": "2026-05-10T14:57:27+00:00",
+  "created_at": "2026-05-10T15:20:07+00:00",
+  "updated_at": "2026-05-10T15:20:07+00:00",
   "payload_hash": "sha256:c21304e0cc0be8de",
   "payload": {
     "title": "Tech Radar — Svyazi 2.0",

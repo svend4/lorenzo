@@ -65,6 +65,29 @@ def _detect_card_type(path: Path, text: str = "") -> CardType:
     """
     name = path.stem.lower()
 
+    # 0. Имена файлов авто-генерируемых/мета-документов — всегда doc
+    _META_NAMES = {
+        "qa", "readme", "summary", "scoring", "health", "metrics", "toc",
+        "knowledge_map", "knowledge-map", "index", "backlinks", "crossrefs",
+        "orphans", "digest", "digest_auto", "changelog", "report", "similar",
+        "similar_passages", "tags", "glossary", "faq", "timeline", "decisions",
+        "content_gaps", "reading_time", "topic_model", "citation_index",
+        "version_diff", "github_issues", "questions", "entities", "sitemap",
+        "mindmap", "abbreviations", "progress", "narrative", "heatmap",
+        "sentiment", "registry", "collab_suggestions", "broken_links",
+        # Spec / planning / dashboard docs
+        "prototype_spec", "script_eval_report", "collab_suggestions",
+        "knowledge_map", "cross_section", "concept_graph", "dedup",
+        "consistency", "coverage", "priorities", "action_items", "cost",
+        "word_freq", "language_stats", "passive_voice", "heading_audit",
+        "empty_sections", "reading_list", "reading_order", "network",
+        "component_matrix", "projects-map", "projects_map",
+        "tech_radar", "onboarding", "risk_register", "dependency_map",
+        "kpi_history", "digest_weekly", "executive-summary",
+    }
+    if name in _META_NAMES:
+        return "doc"
+
     # 1. YAML frontmatter — самый точный источник
     fm_match = re.search(r'^---\s*\n(.*?)\n---', text, re.DOTALL | re.MULTILINE)
     if fm_match:
@@ -111,6 +134,12 @@ def _detect_card_type(path: Path, text: str = "") -> CardType:
         for line in text.splitlines()[:5]:
             if line.startswith("# "):
                 h1 = line[2:].lower()
+                # Пропускаем мета-документы с известными H1-префиксами
+                if any(h1.startswith(p) for p in (
+                        "q&a:", "резюме", "summary:", "тема:", "chapter",
+                        "схема", "индекс", "отчёт", "аудит", "метрики",
+                )):
+                    return "doc"
                 if any(k in h1 for k in ("автор", "author", "contact", "контакт")):
                     return "person"
                 # Проекты с фиксированными именами в H1

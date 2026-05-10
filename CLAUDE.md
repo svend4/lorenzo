@@ -44,6 +44,7 @@ scripts/
   improve_run_all.py     — оркестратор (--smart, --fast, --group, --changed, --parallel)
   improve_embedding_index.py — TF-IDF семантический индекс над CardStore (pure Python, min_df=2)
   improve_collab_finder.py   — Collaboration Finder: гибридный BM25+TF-IDF+граф поиск партнёрских проектов
+  improve_semantic_search.py — Unified search: TF-IDF + BM25 + full-text в одном CLI (--mode hybrid/semantic/bm25/full)
   improve_autofill.py    — заполняет шаблоны из данных других скриптов
   improve_contact_status.py — CLI для обновления статуса контактов
   improve_llm_enrich.py  — Stage 3: LLM-обогащение проектных файлов
@@ -314,6 +315,15 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 python scripts/improve_collab_finder.py --query "агент с памятью консолидация"
 python scripts/improve_collab_finder.py --file docs/PROTOTYPE_SPEC.md --top 7
 python scripts/improve_collab_finder.py --query "knowledge graph RAG" --dry-run
+```
+
+### Unified Semantic Search (новый)
+```bash
+python scripts/improve_semantic_search.py --query "агент память консолидация"           # гибрид
+python scripts/improve_semantic_search.py --query "RAG retrieval" --mode semantic --type project
+python scripts/improve_semantic_search.py --query "Yodoca" --mode bm25 --top 5
+python scripts/improve_semantic_search.py --query "CardIndex" --mode full --section 01-svyazi
+python scripts/improve_semantic_search.py --query "граф знаний" --json               # JSON
 ```
 
 ### CardStore и TF-IDF индекс

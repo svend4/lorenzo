@@ -6,8 +6,8 @@
     "docs/meta-scripting/03-catalog.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T14:57:28+00:00",
-  "updated_at": "2026-05-10T14:57:28+00:00",
+  "created_at": "2026-05-10T15:20:08+00:00",
+  "updated_at": "2026-05-10T15:20:08+00:00",
   "payload_hash": "sha256:1051dc9f479a5737",
   "payload": {
     "title": "Метаскриптинг — Часть 3: Автокаталог скриптов",

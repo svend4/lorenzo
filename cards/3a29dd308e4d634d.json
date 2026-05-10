@@ -6,8 +6,8 @@
     "docs/nautilus/npp-v1-1/01-introduction.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T14:57:28+00:00",
-  "updated_at": "2026-05-10T14:57:28+00:00",
+  "created_at": "2026-05-10T15:20:08+00:00",
+  "updated_at": "2026-05-10T15:20:08+00:00",
   "payload_hash": "sha256:f21573d7a1f5e2cf",
   "payload": {
     "title": "1. Introduction (Motivation, Design Goals, Non-Goals, Terminology, Changes from v1.0)",

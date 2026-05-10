@@ -1,125 +1,129 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот документ описывает MVP-под»
-> **Дата:** 2026-05-10 15:04  **Кандидатов:** 7
+> Автоматический поиск партнёрских проектов для: «агент память консолидация граф знаний коллаборация»
+> **Дата:** 2026-05-10 15:22  **Кандидатов:** 5
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/PROTOTYPE_SPEC.md`
-
-**Запрос:** # Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа. > > **Версия:** 1.0 · **Дата:** 2026-05-10 · **Статус:** Draft **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, LiteParse, Legal RAG --- ## Содержание - [1. Цель прототипа](#1-цель-прототипа) - [2. Компоненты MVP (три слоя)](#2-компоненты-mvp-три-слоя) - [3. Интеграционные контракты](#3-интеграционные-контракты)   - [3.1 Card Envelope](#31-card-envelope)   - [3.2 Evidence Envelope](#32-evidence-envelope)   - [3.3 Memory Write Policy](#33-memory-write-policy)   - [3.4 Skill & Tool Policy](#34-skill-tool-policy)   - [3.5 Review Record](#35-review-record) - [4. Архитектура прототипа](#4-архитектура-прототипа) - [5. Итерации MVP](#5-итерации-
+**Запрос:** агент память консолидация граф знаний коллаборация
 
 ---
 
-## 1. Svyazi 2.0 — Спецификация прототипа
+## 1. Yodoca[^yodoca]: консолидация и забывание
 
-**Релевантность:** `0.618`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
+**Релевантность:** `0.550`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/PROTOTYPE_SPEC.md`](docs/PROTOTYPE_SPEC.md)
+**Документ:** [`docs/05-habr-projects/memory/yodoca.md`](docs/05-habr-projects/memory/yodoca.md)
 
-**Теги:** memory, rag, orchestration, security, knowledge
-**Упомянутые проекты:** Svyazi, CardIndex, AgentFS, knowledge-space
+**Теги:** memory, ingestion, architecture, collaboration
+**Упомянутые проекты:** Svyazi, Yodoca, Wikontic
 
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-**Автор:** nlaik @nlaik  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/nlaik.md`](docs/contacts/nlaik.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → nlaik</summary>
-
-```
-**Кому:** nlaik (@nlaik)
-**Тема:** Коллаборация по теме «# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот докуме»
-
-Привет, nlaik!
-
-Изучила ваш проект **Svyazi, LiteParse** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа._
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, LiteParse решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 2. Карта найденных проектов и паттернов
-
-**Релевантность:** `0.489`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
-
-**Документ:** [`docs/svyazi-2-0/overview/projects-map.md`](docs/svyazi-2-0/overview/projects-map.md)
-
-**Теги:** memory, rag, orchestration, security, knowledge
-**Упомянутые проекты:** Svyazi, CardIndex, AgentFS, knowledge-space
-
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-**Автор:** nlaik @nlaik  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/nlaik.md`](docs/contacts/nlaik.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → nlaik</summary>
-
-```
-**Кому:** nlaik (@nlaik)
-**Тема:** Коллаборация по теме «# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот докуме»
-
-Привет, nlaik!
-
-Изучила ваш проект **Svyazi, LiteParse** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа._
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, LiteParse решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 3. Матрица компонентов Svyazi 2.0
-
-**Релевантность:** `0.478`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 9
-
-**Документ:** [`docs/COMPONENT_MATRIX.md`](docs/COMPONENT_MATRIX.md)
-
-**Теги:** memory, rag, orchestration, security, knowledge
-**Упомянутые проекты:** Svyazi, CardIndex, AgentFS, knowledge-space
-
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> > 🎯 **Проблема:** Yodoca^yodoca: консолидация и забывание !IMPORTANT Ключевой документ для понимания архитектуры.
 
 **Связан с:**
-  - [docs/NARRATIVE.md](docs/NARRATIVE.md) _references_
-  - [docs/PRIORITIES.md](docs/PRIORITIES.md) _references_
-  - [docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _references_
-  - [docs/DENSITY.md](docs/DENSITY.md) _references_
+  - [docs/contacts/vitalyoborin.md](docs/contacts/vitalyoborin.md) _references_
+  - [docs/README.md](docs/README.md) _references_
+  - [docs/05-habr-projects/01-synthesis.md](docs/05-habr-projects/01-synthesis.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](docs/05-habr-projects/knowledge/wikontic.md) _references_
+
+**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/vitalyoborin.md`](docs/contacts/vitalyoborin.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
+
+```
+**Кому:** VitalyOborin (@VitalyOborin)
+**Тема:** Коллаборация по теме «агент память консолидация граф знаний коллаборация»
+
+Привет, VitalyOborin!
+
+Изучила ваш проект **Svyazi, Yodoca** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _> 🎯 **Проблема:** Yodoca^yodoca: консолидация и забывание !IMPORTANT Ключевой документ для понимания архитектуры._
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, Yodoca решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 2. Wikontic: семантический граф
+
+**Релевантность:** `0.373`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+
+**Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](docs/05-habr-projects/knowledge/wikontic.md)
+
+**Теги:** ingestion, collaboration
+**Упомянутые проекты:** Yodoca, Wikontic
+
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+**Связан с:**
+  - [docs/README.md](docs/README.md) _references_
+  - [docs/05-habr-projects/memory/ngt-memory.md](docs/05-habr-projects/memory/ngt-memory.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/02-collaboration-partners.md](docs/05-habr-projects/02-collaboration-partners.md) _references_
+
+**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/vitalyoborin.md`](docs/contacts/vitalyoborin.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
+
+```
+**Кому:** VitalyOborin (@VitalyOborin)
+**Тема:** Коллаборация по теме «агент память консолидация граф знаний коллаборация»
+
+Привет, VitalyOborin!
+
+Изучила ваш проект **Svyazi, Yodoca** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений._
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, Yodoca решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 3. NGT[^ngt] Memory: ассоциативный граф
+
+**Релевантность:** `0.358`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
+
+**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](docs/05-habr-projects/memory/ngt-memory.md)
+
+**Теги:** memory, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, Wikontic
+
+> > 🎯 **Проблема:** У Романова уже решена задача «как мерить качество извлечённой структуры», над которой Чуян ещё думает.
 
 **Автор:** nlaik @nlaik  |  GitHub  |  ⬜ `not_started`
 **Контакт:** [`docs/contacts/nlaik.md`](docs/contacts/nlaik.md)
@@ -129,13 +133,13 @@ Lorenzo / svend4
 
 ```
 **Кому:** nlaik (@nlaik)
-**Тема:** Коллаборация по теме «# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот докуме»
+**Тема:** Коллаборация по теме «агент память консолидация граф знаний коллаборация»
 
 Привет, nlaik!
 
 Изучила ваш проект **Svyazi, LiteParse** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа._
+Особенно ценна идея: _> 🎯 **Проблема:** У Романова уже решена задача «как мерить качество извлечённой структуры», над которой Чуян ещё думает._
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
@@ -155,16 +159,61 @@ Lorenzo / svend4
 
 ---
 
-## 4. Технический stack (Svyazi 2.0 foundation)
+## 4. MemNet: исследовательская память
 
-**Релевантность:** `0.237`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
+**Релевантность:** `0.304`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
 
-**Документ:** [`docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`](docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)
+**Документ:** [`docs/05-habr-projects/memory/memnet.md`](docs/05-habr-projects/memory/memnet.md)
+
+**Теги:** memory, rag, orchestration, security, knowledge
+**Упомянутые проекты:** Svyazi, CardIndex, Hybrid RAG, Yodoca
+
+> > 🎯 **Проблема:** Снимает основную стоимость Yodoca (вызовы консолидаторской LLM ночью), потому что физика дешевле LLM на четыре порядка.
+
+**Автор:** Antipozitive @Antipozitive  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/antipozitive.md`](docs/contacts/antipozitive.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → Antipozitive</summary>
+
+```
+**Кому:** Antipozitive (@Antipozitive)
+**Тема:** Коллаборация по теме «агент память консолидация граф знаний коллаборация»
+
+Привет, Antipozitive!
+
+Изучила ваш проект **Svyazi, MemNet** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _> 🎯 **Проблема:** Снимает основную стоимость Yodoca (вызовы консолидаторской LLM ночью), потому что физика дешевле LLM на четыре порядка._
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, MemNet решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 5. Карта найденных проектов и паттернов
+
+**Релевантность:** `0.208`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
+
+**Документ:** [`docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
 
 **Теги:** memory, rag, orchestration, security, knowledge
 **Упомянутые проекты:** Svyazi, CardIndex, AgentFS, knowledge-space
 
-> title: "Технический stack (Svyazi 2.0 foundation)"
+> > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.
 
 **Автор:** nlaik @nlaik  |  GitHub  |  ⬜ `not_started`
 **Контакт:** [`docs/contacts/nlaik.md`](docs/contacts/nlaik.md)
@@ -174,147 +223,13 @@ Lorenzo / svend4
 
 ```
 **Кому:** nlaik (@nlaik)
-**Тема:** Коллаборация по теме «# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот докуме»
+**Тема:** Коллаборация по теме «агент память консолидация граф знаний коллаборация»
 
 Привет, nlaik!
 
 Изучила ваш проект **Svyazi, LiteParse** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _title: "Технический stack (Svyazi 2.0 foundation)"_
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, LiteParse решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 5. Q&A: 01-svyazi
-
-**Релевантность:** `0.233`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
-
-**Документ:** [`docs/01-svyazi/QA.md`](docs/01-svyazi/QA.md)
-
-**Упомянутые проекты:** Svyazi, CardIndex, AgentFS, knowledge-space
-
-> _Автоматически сгенерировано по 14 файлам раздела._
-
-**Автор:** nlaik @nlaik  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/nlaik.md`](docs/contacts/nlaik.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → nlaik</summary>
-
-```
-**Кому:** nlaik (@nlaik)
-**Тема:** Коллаборация по теме «# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот докуме»
-
-Привет, nlaik!
-
-Изучила ваш проект **Svyazi, LiteParse** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: __Автоматически сгенерировано по 14 файлам раздела.__
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, LiteParse решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 6. Svyazi[^svyazi] 2.0 — Исполнительное резюме
-
-**Релевантность:** `0.228`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
-
-**Документ:** [`docs/01-svyazi/01-executive-summary.md`](docs/01-svyazi/01-executive-summary.md)
-
-**Теги:** memory, rag, orchestration, security, knowledge
-**Упомянутые проекты:** Svyazi, CardIndex, AgentFS, mclaude
-
-> - [Главная линия синергии](#главная-линия-синергии)
-
-**Автор:** nlaik @nlaik  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/nlaik.md`](docs/contacts/nlaik.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → nlaik</summary>
-
-```
-**Кому:** nlaik (@nlaik)
-**Тема:** Коллаборация по теме «# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот докуме»
-
-Привет, nlaik!
-
-Изучила ваш проект **Svyazi, LiteParse** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _- [Главная линия синергии](#главная-линия-синергии)_
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, LiteParse решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 7. Карта найденных проектов и паттернов
-
-**Релевантность:** `0.226`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
-
-**Документ:** [`docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`](docs/obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-
-**Теги:** memory, rag, orchestration, security, knowledge
-**Упомянутые проекты:** Svyazi, CardIndex, AgentFS, knowledge-space
-
-> title: "Карта найденных проектов и паттернов"
-
-**Автор:** nlaik @nlaik  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/nlaik.md`](docs/contacts/nlaik.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → nlaik</summary>
-
-```
-**Кому:** nlaik (@nlaik)
-**Тема:** Коллаборация по теме «# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот докуме»
-
-Привет, nlaik!
-
-Изучила ваш проект **Svyazi, LiteParse** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _title: "Карта найденных проектов и паттернов"_
+Особенно ценна идея: _> 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная_
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
@@ -348,7 +263,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Э"
+   python scripts/improve_collab_finder.py --query "агент память консолидация граф знаний коллаборация"
    ```
 
-_Сгенерировано: 2026-05-10 15:04  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-10 15:22  |  Алгоритм: TF-IDF + BM25 + граф_

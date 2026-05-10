@@ -27,8 +27,8 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T14:57:26+00:00",
-  "updated_at": "2026-05-10T14:57:26+00:00",
+  "created_at": "2026-05-10T15:20:06+00:00",
+  "updated_at": "2026-05-10T15:20:06+00:00",
   "payload_hash": "sha256:43f7168c67f3225d",
   "payload": {
     "title": "19. ADR-001: Federation over Merging",

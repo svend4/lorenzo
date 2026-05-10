@@ -290,9 +290,12 @@ def find_candidates(query_text: str, top: int = 5,
         final_scored.append((score, card))
 
     final_scored.sort(key=lambda x: -x[0])
+    # Порог минимальной релевантности — исключаем нулевые попадания
+    min_score = 0.01
     return [
         {"score": score, "card": card}
         for score, card in final_scored[:top]
+        if score >= min_score
     ]
 
 

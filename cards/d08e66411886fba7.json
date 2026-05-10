@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:d08e66411886fba7",
-  "card_type": "project",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/INDEX.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T14:57:26+00:00",
-  "updated_at": "2026-05-10T14:57:26+00:00",
+  "created_at": "2026-05-10T15:20:07+00:00",
+  "updated_at": "2026-05-10T15:20:07+00:00",
   "payload_hash": "sha256:4cb27ca41aab1a1a",
   "payload": {
     "title": "Индекс документации — Lorenzo / Svyazi 2.0",
