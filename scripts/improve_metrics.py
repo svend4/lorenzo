@@ -13,6 +13,7 @@ ROOT = Path(__file__).parent.parent
 DOCS = ROOT / "docs"
 
 SKIP = {"METRICS.md", "HEALTH.md", "STATS.md", "VALIDATION.md"}
+SKIP_DIRS = {"obsidian", "confluence", "autofilled"}
 
 SECTIONS = [
     "01-svyazi", "02-anthropic-vacancies",
@@ -51,7 +52,9 @@ def has_tags(text: str) -> bool:
 
 
 def has_toc(text: str) -> bool:
-    return "## Содержание" in text or "## Table of Contents" in text
+    return any(m in text for m in (
+        "## Содержание", "## Table of Contents", "## Contents", "<!-- toc-auto -->",
+    ))
 
 
 def has_callout(text: str) -> bool:
@@ -89,6 +92,8 @@ def main():
 
     for f in sorted(DOCS.rglob("*.md")):
         if f.name in SKIP:
+            continue
+        if any(part in SKIP_DIRS for part in f.relative_to(DOCS).parts):
             continue
         text = f.read_text(encoding="utf-8")
         words = len(text.split())

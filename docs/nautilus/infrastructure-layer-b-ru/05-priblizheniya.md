@@ -3,6 +3,15 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [Существующие приближения](#существующие-приближения)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-стиль форумы](#discourse-phpbb-стиль-форумы)
+  - [Комбинированные рабочие процессы](#комбинированные-рабочие-процессы)
+## Contents
+
 - [Существующие приближения](#существующие-приближения)
   - [Anthropic Projects](#anthropic-projects)
   - [GitHub Discussions](#github-discussions)

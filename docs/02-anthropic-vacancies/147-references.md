@@ -13,6 +13,18 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Multi-Agent Systems](#multi-agent-systems)
+  - [Protocols and Federation](#protocols-and-federation)
+  - [Human-AI Collaboration](#human-ai-collaboration)
+  - [Related Architectures](#related-architectures)
+  - [Pattern Libraries](#pattern-libraries)
+  - [Primary Reference](#primary-reference)
+## Contents
+
+- [Contents](#contents)
 - [References](#references)
   - [Foundational Sources](#foundational-sources)
   - [Multi-Agent Systems](#multi-agent-systems)

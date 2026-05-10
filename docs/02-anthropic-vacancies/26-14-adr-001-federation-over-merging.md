@@ -3,6 +3,14 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [14. ADR-001: Federation over Merging](#14-adr-001-federation-over-merging)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
 - [14. ADR-001: Federation over Merging](#14-adr-001-federation-over-merging)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

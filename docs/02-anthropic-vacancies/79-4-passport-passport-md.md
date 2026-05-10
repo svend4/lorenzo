@@ -13,6 +13,16 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Required Structure](#42-required-structure)
+  - [4.3. Recommended Sections](#43-recommended-sections)
+  - [4.4. Schema Validation](#44-schema-validation)
+  - [4.5. Naming Convention](#45-naming-convention)
+## Contents
+
+- [Contents](#contents)
 - [4. Passport (passport.md)](#4-passport-passportmd)
   - [4.1. Purpose](#41-purpose)
   - [4.2. Required Structure](#42-required-structure)

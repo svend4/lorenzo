@@ -1,5 +1,8 @@
 # Svyazi[^svyazi] 2.0 — Архитектура и исследование
 
+
+<!-- tags: svyazi, architecture, overview -->
+
 **Файлов:** 15
 
 ## Содержание

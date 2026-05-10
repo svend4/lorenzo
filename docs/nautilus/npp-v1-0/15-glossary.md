@@ -3,6 +3,14 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [15. Glossary of Examples](#15-glossary-of-examples)
+- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+## Contents
+
 - [15. Glossary of Examples](#15-glossary-of-examples)
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
   - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)

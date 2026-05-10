@@ -6,6 +6,13 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [11. Relevance Ranking](#11-relevance-ranking)
+  - [11.1. Scoring Formula](#111-scoring-formula)
+  - [11.2. MAY Extensions](#112-may-extensions)
+## Contents
+
+- [Contents](#contents)
 - [11. Relevance Ranking](#11-relevance-ranking)
   - [11.1. Scoring Formula](#111-scoring-formula)
   - [11.2. MAY Extensions](#112-may-extensions)

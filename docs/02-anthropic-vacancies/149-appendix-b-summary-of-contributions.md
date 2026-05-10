@@ -3,6 +3,15 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [Appendix B: Summary of Contributions](#appendix-b-summary-of-contributions)
+- [Author & Contact](#author-contact)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
 - [Appendix B: Summary of Contributions](#appendix-b-summary-of-contributions)
 - [Author & Contact](#author-contact)
 - [Упоминается в](#упоминается-в)

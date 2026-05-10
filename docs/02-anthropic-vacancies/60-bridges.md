@@ -6,6 +6,13 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [Bridges](#bridges)
+  - [meta ↔ pro2](#meta-pro2)
+  - [meta ↔ info1](#meta-info1)
+## Contents
+
+- [Contents](#contents)
 - [Bridges](#bridges)
   - [meta ↔ pro2](#meta-pro2)
   - [meta ↔ info1](#meta-info1)

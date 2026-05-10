@@ -3,6 +3,12 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [Оркестрация — выбрать один spine](#оркестрация-выбрать-один-spine)
+- [Voice/local‑first mesh — не идеализировать](#voicelocalfirst-mesh-не-идеализировать)
+- [Self‑improvement — только после метрики](#selfimprovement-только-после-метрики)
+## Contents
+
 - [Оркестрация — выбрать один spine](#оркестрация-выбрать-один-spine)
 - [Voice/local‑first mesh — не идеализировать](#voicelocalfirst-mesh-не-идеализировать)
 - [Self‑improvement — только после метрики](#selfimprovement-только-после-метрики)

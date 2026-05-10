@@ -3,6 +3,15 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [10. QueryResult Structure](#10-queryresult-structure)
+  - [10.1. Serialization](#101-serialization)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
 - [10. QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
 - [Упоминается в](#упоминается-в)

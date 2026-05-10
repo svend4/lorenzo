@@ -1,5 +1,8 @@
 # Комбинация 33: Event Sourcing + CQRS + ClickHouse Analytics
 
+
+<!-- tags: technology, event-sourcing, analytics -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 

@@ -1,5 +1,8 @@
 # lorenzo-agent
 
+
+<!-- tags: agent, orchestration, overview -->
+
 **Файлов:** 22
 
 ## Содержание

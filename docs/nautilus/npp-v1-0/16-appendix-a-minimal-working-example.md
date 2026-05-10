@@ -3,6 +3,14 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [Essence](#essence)
+- [Native Format](#native-format)
+- [Content Overview](#content-overview)
+- [Angle / Perspective](#angle-perspective)
+- [Author](#author)
+## Contents
+
 - [Essence](#essence)
 - [Native Format](#native-format)
 - [Content Overview](#content-overview)

@@ -1,5 +1,8 @@
 # Кластеры вакансий
 
+
+<!-- tags: anthropic, vacancies, clusters -->
+
 **Файлов:** 16
 
 ## Содержание

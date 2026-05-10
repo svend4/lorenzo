@@ -1,5 +1,8 @@
 # docs
 
+
+<!-- tags: meta, index, overview -->
+
 **Файлов:** 106
 
 ## Содержание

@@ -1,5 +1,8 @@
 # templates
 
+
+<!-- tags: templates, meta, documentation -->
+
 **Файлов:** 23
 
 ## Содержание

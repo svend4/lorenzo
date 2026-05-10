@@ -1,5 +1,8 @@
 # npp-v1-0
 
+
+<!-- tags: nautilus, npp-v1-0, protocol -->
+
 **Файлов:** 19
 
 ## Содержание

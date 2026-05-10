@@ -3,6 +3,14 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [AI Support Through Configurable Specialist Ensembles](#ai-support-through-configurable-specialist-ensembles)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
 - [AI Support Through Configurable Specialist Ensembles](#ai-support-through-configurable-specialist-ensembles)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

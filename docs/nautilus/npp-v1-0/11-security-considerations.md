@@ -3,6 +3,13 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [11. Security Considerations](#11-security-considerations)
+  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
+  - [11.2. Private Repositories](#112-private-repositories)
+  - [11.3. MCP Exposure](#113-mcp-exposure)
+## Contents
+
 - [11. Security Considerations](#11-security-considerations)
   - [11.1. Untrusted Adapters](#111-untrusted-adapters)
   - [11.2. Private Repositories](#112-private-repositories)

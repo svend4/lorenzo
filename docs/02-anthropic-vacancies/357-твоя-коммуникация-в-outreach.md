@@ -1,5 +1,8 @@
 # Твоя коммуникация в outreach
 
+
+<!-- tags: outreach, communication, collaboration -->
+
 <!-- summary -->
 > Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 

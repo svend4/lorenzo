@@ -3,6 +3,14 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [What Industry Will Likely Build](#what-industry-will-likely-build)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
 - [What Industry Will Likely Build](#what-industry-will-likely-build)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

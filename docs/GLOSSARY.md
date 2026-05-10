@@ -1,5 +1,8 @@
 # Глоссарий проектов
 
+
+<!-- tags: meta, glossary, index -->
+
 <!-- summary -->
 > Все проекты, упоминаемые в документах, с количеством файлов.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse

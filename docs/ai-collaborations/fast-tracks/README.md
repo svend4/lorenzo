@@ -1,6 +1,14 @@
 # Пять быстрых связок (fast-tracks)
 
+<!-- summary -->
+> Пять приоритетных комбинаций OSS-проектов: Collaboration Knowledge OS, Forensic Legal RAG, Agent Team Kernel, Secure Agent Runtime, Habr Scout — и их «внуковая» суперкомбинация.
+
+<!-- tags: collaboration, architecture, ai-teams, rag, security -->
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+
+> [!TIP]
+> Лучшая точка входа для понимания, как совмещать проекты с Хабра в единую систему.
 
 1. Svyazi + AgentFS + knowledge-space + Memory OS = Collaboration Knowledge OS.
 

@@ -3,6 +3,14 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [5. Compatibility Levels](#5-compatibility-levels)
+  - [Level 0 — Discoverable](#level-0-discoverable)
+  - [Level 1 — Readable](#level-1-readable)
+  - [Level 2 — Queryable](#level-2-queryable)
+  - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
+## Contents
+
 - [5. Compatibility Levels](#5-compatibility-levels)
   - [Level 0 — Discoverable](#level-0-discoverable)
   - [Level 1 — Readable](#level-1-readable)

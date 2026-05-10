@@ -3,6 +3,14 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](#a-typology-of-ai-agents-on-the-principal-side-and-the-case-for-profession-specific-co-workers)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
 - [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](#a-typology-of-ai-agents-on-the-principal-side-and-the-case-for-profession-specific-co-workers)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

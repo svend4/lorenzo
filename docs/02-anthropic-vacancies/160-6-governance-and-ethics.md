@@ -30,6 +30,17 @@
 
 - [Содержание](#содержание)
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [6. Governance and Ethics](#6-governance-and-ethics)
+  - [6.1. Governance Structure](#61-governance-structure)
+  - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
+  - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
+  - [6.4. Regulatory Compliance](#64-regulatory-compliance)
+  - [6.5. Ethical Red Lines](#65-ethical-red-lines)
+## Contents
+
+- [Содержание](#содержание)
+- [Contents](#contents)
 - [6. Governance and Ethics](#6-governance-and-ethics)
   - [6.1. Governance Structure](#61-governance-structure)
   - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)

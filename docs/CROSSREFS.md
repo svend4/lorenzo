@@ -1,5 +1,8 @@
 # Перекрёстные ссылки
 
+
+<!-- tags: meta, links, cross-references -->
+
 <!-- summary -->
 > > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse

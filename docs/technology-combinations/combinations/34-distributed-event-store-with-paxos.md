@@ -1,5 +1,8 @@
 # Комбинация 34: Distributed Event Store with Paxos
 
+
+<!-- tags: technology, distributed, consensus -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 

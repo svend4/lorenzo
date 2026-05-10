@@ -1,5 +1,8 @@
 # Индекс ссылок
 
+
+<!-- tags: meta, links, index -->
+
 <!-- summary -->
 > > Документ содержит практические рекомендации и лучшие практики.
 **Проекты:** AgentFS, knowledge-space, Yodoca

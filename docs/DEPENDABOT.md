@@ -3,6 +3,12 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [Python-зависимости](#python-зависимости)
+- [OSS-проекты (Svyazi 2.0)](#oss-проекты-svyazi-20)
+- [Автоматизация](#автоматизация)
+## Contents
+
 - [Python-зависимости](#python-зависимости)
 - [OSS-проекты (Svyazi 2.0)](#oss-проекты-svyazi-20)
 - [Автоматизация](#автоматизация)

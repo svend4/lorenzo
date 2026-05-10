@@ -6,6 +6,14 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [Bridges](#bridges)
+  - [info1 ↔ pro2](#info1-pro2)
+  - [info1 ↔ meta](#info1-meta)
+  - [Способ обращения через мост](#способ-обращения-через-мост)
+## Contents
+
+- [Contents](#contents)
 - [Bridges](#bridges)
   - [info1 ↔ pro2](#info1-pro2)
   - [info1 ↔ meta](#info1-meta)

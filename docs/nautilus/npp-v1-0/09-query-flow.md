@@ -3,6 +3,13 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [9. Query Flow](#9-query-flow)
+  - [9.1. Lifecycle](#91-lifecycle)
+  - [9.2. Parallelism](#92-parallelism)
+  - [9.3. Error Handling](#93-error-handling)
+## Contents
+
 - [9. Query Flow](#9-query-flow)
   - [9.1. Lifecycle](#91-lifecycle)
   - [9.2. Parallelism](#92-parallelism)

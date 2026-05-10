@@ -1,5 +1,8 @@
 # nautilus/ — Nautilus Portal Protocol и связанные working papers
 
+
+<!-- tags: nautilus, protocol, overview -->
+
 Часть исходного MHTML‑снимка `Вакансии в Anthropic по кластерам - Claude` посвящена не вакансиям, а собственным архитектурным работам пользователя — формальной спецификации **Nautilus Portal Protocol** и нескольким companion papers. Содержимое разбито здесь на тематические подпапки.
 
 ## Подпапки

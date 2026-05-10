@@ -19,6 +19,17 @@
 
 - [Содержание](#содержание)
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [7. Governance and Oversight](#7-governance-and-oversight)
+  - [7.1. Three Levels of Governance](#71-three-levels-of-governance)
+  - [7.2. Audit and Accountability](#72-audit-and-accountability)
+  - [7.3. Dispute Resolution](#73-dispute-resolution)
+  - [7.4. Vulnerable Population Protection](#74-vulnerable-population-protection)
+  - [7.5. Foundation-Based Governance](#75-foundation-based-governance)
+## Contents
+
+- [Содержание](#содержание)
+- [Contents](#contents)
 - [7. Governance and Oversight](#7-governance-and-oversight)
   - [7.1. Three Levels of Governance](#71-three-levels-of-governance)
   - [7.2. Audit and Accountability](#72-audit-and-accountability)

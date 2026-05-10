@@ -3,6 +3,17 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [Топ-20 самых похожих пар](#топ-20-самых-похожих-пар)
+- [По разделам](#по-разделам)
+  - [02-anthropic-vacancies](#02-anthropic-vacancies)
+  - [04-ai-collaborations](#04-ai-collaborations)
+  - [05-habr-projects](#05-habr-projects)
+  - [contacts](#contacts)
+  - [root](#root)
+  - [templates](#templates)
+## Contents
+
 - [Топ-20 самых похожих пар](#топ-20-самых-похожих-пар)
 - [По разделам](#по-разделам)
   - [02-anthropic-vacancies](#02-anthropic-vacancies)

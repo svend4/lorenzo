@@ -3,6 +3,13 @@
 <!-- toc-auto -->
 ## Contents
 
+- [Contents](#contents)
+- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
+  - [1.1. The Current Landscape](#11-the-current-landscape)
+  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
+  - [1.3. The Rising Urgency](#13-the-rising-urgency)
+## Contents
+
 - [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
   - [1.1. The Current Landscape](#11-the-current-landscape)
   - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)

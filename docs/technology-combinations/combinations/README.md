@@ -1,5 +1,8 @@
 # combinations
 
+
+<!-- tags: technology, combinations, index -->
+
 **Файлов:** 35
 
 ## Содержание

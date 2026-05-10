@@ -1,5 +1,8 @@
 # Поиск AI-коллабораций
 
+
+<!-- tags: collaboration, ai-teams, overview -->
+
 **Файлов:** 16
 
 ## Содержание

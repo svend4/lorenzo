@@ -1,5 +1,8 @@
 # habr-unique-projects/ — поиск уникальных проектов на Хабре
 
+
+<!-- tags: habr, projects, overview -->
+
 ## Источник
 
 Файлы в корне репозитория:

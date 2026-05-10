@@ -1,5 +1,8 @@
 # components
 
+
+<!-- tags: svyazi, components, architecture -->
+
 **Файлов:** 19
 
 ## Содержание

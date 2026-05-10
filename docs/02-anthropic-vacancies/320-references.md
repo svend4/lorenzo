@@ -4,6 +4,19 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [References](#references)
+  - [Primary External References](#primary-external-references)
+  - [MCP Standard](#mcp-standard)
+  - [Companion Documents in This Series](#companion-documents-in-this-series)
+  - [Related Work](#related-work)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
 - [References](#references)
   - [Primary External References](#primary-external-references)
   - [MCP Standard](#mcp-standard)
